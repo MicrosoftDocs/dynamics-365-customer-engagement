@@ -1,1 +1,1 @@
-# Welcome to gamification!
+# Welcome to gamification help content!
