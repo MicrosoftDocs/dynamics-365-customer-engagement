@@ -1,4 +1,4 @@
- # Before you get started - This is just a test
+ # Before you get started - This is just a test - and another test from mhart
 Here are some basic guidelines for game models, KPIs, awards, prizes, teams, player positions, and more. Familiarize yourself with these concepts to create games that works best for your business.
 ## Game models and sports themes
 Microsoft Dynamics 365 - Gamification offers three team models for running a game: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can show on a screen in your office. For game model descriptions, review the Gamification glossary.
