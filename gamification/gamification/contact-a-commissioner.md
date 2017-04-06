@@ -1,0 +1,28 @@
+---
+title: "Contact a Commissioner | MicrosoftDocs"
+ms.custom: ""
+ms.date: "2017-04-06"
+ms.reviewer: ""
+ms.service: "gamification"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 7aa9e7cc-779e-4813-ad81-e1db9ad47871
+caps.latest.revision: 8
+author: "m-hartmann"
+ms.author: "mhart"
+manager: "sakudes"
+---
+# Contact a Commissioner
+When you need to get in touch with a Commissioner or want to raise an issue with a game, you can reach out to the Commissioners from within [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)].  
+  
+ To reach out by using the help options the Commissioner has provided, sign in to [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], and then go to **Help** > **Contact Commissioner**.  
+  
+> [!NOTE]
+>  If this link doesn't work for the game you are part of, ask the Commissioner to configure this setting. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Configure the contact menu](http://msdn.microsoft.com/en-us/6603e30d-19bc-4bcf-a48a-c8fb9cb84a54)  
+  
+## See Also  
+ [For players and fans in Gamification](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   
+ [Personalize your games](http://msdn.microsoft.com/en-us/6603e30d-19bc-4bcf-a48a-c8fb9cb84a54)
