@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Configure and view TVs | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
