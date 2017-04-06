@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Activate a game - to be deleted | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
