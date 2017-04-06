@@ -1,4 +1,4 @@
----
+﻿---
 title: "Log your time off | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -23,7 +23,7 @@ If you’re going to be out of the office during any period of the game, for exa
   
 #### Take time off for a game period  
   
-1.  In [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)], go to **My Games** > **Player Profile**.  
+1.  In [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], go to **My Games** > **Player Profile**.  
   
 2.  Click **Add Time Off**.  
   
@@ -33,11 +33,11 @@ If you’re going to be out of the office during any period of the game, for exa
   
 #### Remove time off from your schedule  
   
-1.  In [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)], go to **My Games** > **Player Profile** > **Add Time Off**.  
+1.  In [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], go to **My Games** > **Player Profile** > **Add Time Off**.  
   
 2.  In the list,  select the game period to remove your time off from.  
   
-3.  To indicate you are available again in that game period, click **Remove**![Remove button in Gamification](../gamification/media/remove-symbol-gamification.png "Remove button in Gamification").  
+3.  To indicate you are available again in that game period, click **Remove**![Remove button in Gamification](media/remove-symbol-gamification.png "Remove button in Gamification").  
   
 ## See Also  
  [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   

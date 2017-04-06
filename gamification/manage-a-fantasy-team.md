@@ -18,16 +18,16 @@ manager: "sakudes"
 # Manage a fantasy team
 When you participate in a fantasy team game, players become team managers and can draft their own teams.  
   
- Once the Commissioner activates the game, you'll receive an email with instructions to sign in to [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] and create your [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] profile. In a next step you'll be asked to draft your team.  
+ Once the Commissioner activates the game, you'll receive an email with instructions to sign in to [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] and create your [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] profile. In a next step you'll be asked to draft your team.  
   
 ## Create a fantasy team  
  When a game is about to start, you'll be asked to draft your own team to compete for team manager awards.  
   
 #### Draft your team  
   
-1.  Follow the instructions in the initial email you received to [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) and create your profile in [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)].  
+1.  Follow the instructions in the initial email you received to [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) and create your profile in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)].  
   
-     Contact the Commissioner if you didn't get the email. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Contact your Commissioner](http://msdn.microsoft.com/en-us/7aa9e7cc-779e-4813-ad81-e1db9ad47871)  
+     Contact the Commissioner if you didn't get the email. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Contact your Commissioner](http://msdn.microsoft.com/en-us/7aa9e7cc-779e-4813-ad81-e1db9ad47871)  
   
 2.  Click **Begin Draft** to start drafting your team.  
   
@@ -43,9 +43,9 @@ When you participate in a fantasy team game, players become team managers and ca
   
 #### Edit your team roster  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **Teams** > **Team Rosters**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Teams** > **Team Rosters**.  
   
-2.  Click ![Edit the team roster in Gamification](../gamification/media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
+2.  Click ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
   
     > [!NOTE]
     >  You can only change a team roster after the first game period has ended.  
@@ -58,7 +58,7 @@ When you participate in a fantasy team game, players become team managers and ca
     >  Changes to team rosters are effective for the next game period.  
   
 ## Compete with others  
- A contest is no fun without competition, is it? Check out how your team performs compared to other teams on the **My Games** page. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][View the leaderboard](http://msdn.microsoft.com/en-us/088b9a63-9cda-4e45-80b6-5482ac81147b)  
+ A contest is no fun without competition, is it? Check out how your team performs compared to other teams on the **My Games** page. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][View the leaderboard](http://msdn.microsoft.com/en-us/088b9a63-9cda-4e45-80b6-5482ac81147b)  
   
 ## See Also  
  [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   

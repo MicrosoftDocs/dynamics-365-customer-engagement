@@ -1,4 +1,4 @@
----
+﻿---
 title: "Frequently asked questions about Dynamics 365 - Gamification | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -23,13 +23,13 @@ manager: "sakudes"
   
  Some games don’t use teams at all. This means your points and awards are based only on your individual performance.  
   
- Have a great and fun time using [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)]. Best of luck!  
+ Have a great and fun time using [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]. Best of luck!  
   
 ## What do I do first?  
  Well if you got here, you likely have already received your welcome email and have signed in.  Have you uploaded a photo or selected an avatar, and added information to your profile? The profile page is the place other players will visit to learn more about your game performance, your progress, and awards.  
   
 ## How often are the leaderboard and player stats updated?  
- Updates are either done automatically or manually by your Commissioner or the Game Manager. Automatic updates occur frequently each day when your game is integrated with [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)].  
+ Updates are either done automatically or manually by your Commissioner or the Game Manager. Automatic updates occur frequently each day when your game is integrated with [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)].  
   
 ## How can I see the prizes for a game?  
  On the leaderboard, click the different award tabs to see the different prizes available as well as your rank. At the top of the leaderboard you’ll see a notification that the game is still in progress or that the game results are final. Until the game results are final, your position in an awards rank only means you are in contention for a prize and you will not be entitled to the prize unless you remain in this position when the results are final.  
@@ -43,7 +43,7 @@ manager: "sakudes"
  If your game is using fantasy teams, start the draft process and select an active game. You’ll then find a sports-themed page with several active positions. Choose one player from each of the available positions and submit your selection. You’re done! It’s that easy. You’ll notice that your name is locked—that’s because you must always play your own position.  
   
 ## How do I make changes to my team roster?  
- If you play traditional fantasy sports you are probably used to trading with other players. However, in [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)], you make changes to your team roster  by selecting a new player from any position. There's no point cost to make changes to your team roster. To level the playing field, we allow multiple teams to select the same players, other than for their own position.  
+ If you play traditional fantasy sports you are probably used to trading with other players. However, in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], you make changes to your team roster  by selecting a new player from any position. There's no point cost to make changes to your team roster. To level the playing field, we allow multiple teams to select the same players, other than for their own position.  
   
  You can make changes to your team roster at any time for the next game period, but the changes must be completed by midnight on Sunday UTC. The time zone is standardized so that players in different parts of the world will all have the same reference time for completing trades. For example, if you are on  Eastern time, then you must complete your trades 4 or 5 hours earlier (7 or 8 PM), depending on whether your time is Eastern daylight or Eastern standard time.  
   

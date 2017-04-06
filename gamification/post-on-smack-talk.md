@@ -1,4 +1,4 @@
----
+﻿---
 title: "Post on Smack Talk | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -16,7 +16,7 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Post on Smack Talk
-A [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] competition comes with lively chat and lets players claim their bragging rights. Make sure you tell the other players when you land a great achievement, or congratulate your peers when they're successful. In the end, you want to be the leader of the pack and the most-drafted player on other teams, don't you?  
+A [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] competition comes with lively chat and lets players claim their bragging rights. Make sure you tell the other players when you land a great achievement, or congratulate your peers when they're successful. In the end, you want to be the leader of the pack and the most-drafted player on other teams, don't you?  
   
 <a name="joinDiscussion"></a>   
 ## Join the discussion with other players and fans  
@@ -24,7 +24,7 @@ A [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] co
   
 #### Post on Smack Talk  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **My Games** > **Smack Talk**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **My Games** > **Smack Talk**.  
   
 2.  Enter your message in the input box.  
   

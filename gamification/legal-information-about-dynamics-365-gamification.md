@@ -1,4 +1,4 @@
----
+﻿---
 title: "Legal information about Dynamics 365 - Gamification | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -16,11 +16,11 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Legal information about Dynamics 365 - Gamification
-Refer to the following documents and web pages for legal information about [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)].  
+Refer to the following documents and web pages for legal information about [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)].  
   
 <a name="BKMK_tos"></a>   
-## License Terms for [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)]  
- Review the following document to see the license terms for [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)]:  
+## License Terms for [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]  
+ Review the following document to see the license terms for [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]:  
   
  [Microsoft Dynamics 365 - Gamification License Terms](https://go.microsoft.com/fwlink/p/?linkid=830687)  
   
@@ -30,11 +30,11 @@ Refer to the following documents and web pages for legal information about [!INC
   
 <a name="BKMK_privacy_notices"></a>   
 ## Additional Privacy Notices  
- Some features and capabilities in [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] are governed by additional privacy notices in the related technical documentation.  
+ Some features and capabilities in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] are governed by additional privacy notices in the related technical documentation.  
   
- [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [Manage Gamification in Microsoft Dynamics 365 Online](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Microsoft Dynamics 365 Online](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
   
- [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [Configure and view TVs](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)  
   
 ## See Also  
  [Increase employee productivity with Microsoft Dynamics 365 - Gamification](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   

@@ -16,10 +16,10 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # View the leaderboard
-You can bet there's no real competition without a leaderboard. [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] offers several leaderboards, depending on how the game is set up.  
+You can bet there's no real competition without a leaderboard. [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] offers several leaderboards, depending on how the game is set up.  
   
 ## Find your way around  
- In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], click **My Games** > **Leaderboards** to see the various rankings.  
+ In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], click **My Games** > **Leaderboards** to see the various rankings.  
   
  You can choose the game leaderboards you want to see and switch between the different types  of leaderboards.  
   

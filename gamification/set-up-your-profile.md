@@ -1,4 +1,4 @@
----
+﻿---
 title: "Set up your profile | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -18,7 +18,7 @@ manager: "sakudes"
 # Set up your profile
 Your colleagues surely love to see your picture in the games. Add a profile picture to make sure they recognize you.  
   
- To add your profile picture, sign in to [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] (see [Sign in to Gamification](http://msdn.microsoft.com/en-us/b3513a9c-ff38-4896-a2ad-afdd08d23135)) and you'll land on the **Smack Talk** discussion board. Click the gear symbol (![Settings button in Gamification](../gamification/media/settings-symbol-gamification.png "Settings button in Gamification")) to access **My Settings**. Edit your profile picture or other profile information and click **Save** or **Update**.  
+ To add your profile picture, sign in to [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] (see [Sign in to Gamification](http://msdn.microsoft.com/en-us/b3513a9c-ff38-4896-a2ad-afdd08d23135)) and you'll land on the **Smack Talk** discussion board. Click the gear symbol (![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification")) to access **My Settings**. Edit your profile picture or other profile information and click **Save** or **Update**.  
   
 > [!NOTE]
 >  For the best results, resize your profile picture to 150 * 150 px.  

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Update scores using Excel point scoring | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -16,27 +16,27 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Update scores using Excel point scoring
-If you plan to run a game using one or more KPIs that can't be tracked by using [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)], you can update the scores for those KPIs by using a [!INCLUDE[pn_microsoft_excel](../gamification/includes/pn-microsoft-excel-md.md)] template.  
+If you plan to run a game using one or more KPIs that can't be tracked by using [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], you can update the scores for those KPIs by using a [!INCLUDE[pn_microsoft_excel](includes/pn-microsoft-excel-md.md)] template.  
   
 > [!TIP]
->  To keep the ongoing efforts minimal when running a game, we recommend that you rely on KPIs defined in [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)].  
+>  To keep the ongoing efforts minimal when running a game, we recommend that you rely on KPIs defined in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
-#### Update scores using the [!INCLUDE[pn_Excel_short](../gamification/includes/pn-excel-short-md.md)] file  
+#### Update scores using the [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] file  
   
 1.  Go to **Games** > **Games**.  
   
-2.  Click the **[!INCLUDE[pn_Excel_short](../gamification/includes/pn-excel-short-md.md)] Point Scoring** (![Excel point scoring button in Gamification](../gamification/media/excel-point-scoring-gamification.png "Excel point scoring button in Gamification")) button.  
+2.  Click the **[!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] Point Scoring** (![Excel point scoring button in Gamification](media/excel-point-scoring-gamification.png "Excel point scoring button in Gamification")) button.  
   
 3.  Select the game you want to update the scores from, and then click the game period you want to update.  
   
-4.  Click **Download [!INCLUDE[pn_Excel_short](../gamification/includes/pn-excel-short-md.md)] template**![Download Excel template in Gamification](../gamification/media/download-excel-gamification.png "Download Excel template in Gamification"), and then update the scores in the file.  
+4.  Click **Download [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] template**![Download Excel template in Gamification](media/download-excel-gamification.png "Download Excel template in Gamification"), and then update the scores in the file.  
   
     > [!IMPORTANT]
-    >  The manually-scored data needs to be up to date for the respective game period. All other KPIs will continuously sync from [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)].  
+    >  The manually-scored data needs to be up to date for the respective game period. All other KPIs will continuously sync from [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
-5.  Click **Upload [!INCLUDE[pn_Excel_short](../gamification/includes/pn-excel-short-md.md)] file**![Upload Excel file in Gamification](../gamification/media/upload-excel-gamification.png "Upload Excel file in Gamification") to upload the file, including the manually updated scores.  
+5.  Click **Upload [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] file**![Upload Excel file in Gamification](media/upload-excel-gamification.png "Upload Excel file in Gamification") to upload the file, including the manually updated scores.  
   
- The selected KPIs are now updated in [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] for the selected game period.  
+ The selected KPIs are now updated in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] for the selected game period.  
   
 ## See Also  
  [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   

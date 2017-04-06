@@ -1,4 +1,4 @@
----
+﻿---
 title: "Define weekly awards for Gamification players and fans | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -16,11 +16,11 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Define weekly awards for Gamification players and fans
-Configure weekly awards to keep players focused on delivering results for the right KPIs in [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)]. Weekly awards are small contests that are part of a longer game, and are also posted on the leaderboard. You'll configure weekly awards for a single KPI in each game period.  
+Configure weekly awards to keep players focused on delivering results for the right KPIs in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]. Weekly awards are small contests that are part of a longer game, and are also posted on the leaderboard. You'll configure weekly awards for a single KPI in each game period.  
   
 #### Configure a weekly award  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **Games** > **Games** > **Weekly Awards**![Weekly Awards button in Gamification](../gamification/media/weekly-awards-gamification.png "Weekly Awards button in Gamification").  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Games** > **Weekly Awards**![Weekly Awards button in Gamification](media/weekly-awards-gamification.png "Weekly Awards button in Gamification").  
   
 2.  Click the game period you want to configure weekly awards for.  
   
@@ -30,7 +30,7 @@ Configure weekly awards to keep players focused on delivering results for the ri
   
 4.  Configure the prize for first place.  
   
-     Optionally, **Add**![Add button in Gamification](../gamification/media/add-button-gamification.png "Add button in Gamification") more places and configure prizes for them if you want.  
+     Optionally, **Add**![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") more places and configure prizes for them if you want.  
   
 5.  Click **Save** to apply your configuration.  
   

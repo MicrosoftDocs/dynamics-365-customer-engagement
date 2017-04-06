@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure and view TVs | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -24,7 +24,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create a Stream TV slide show  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup**.  
   
 2.  Provide a **Name** for the game and select **Stream TV** from the **Game Model** drop-down menu.  
   
@@ -42,11 +42,11 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 8.  Configure the first slide and set the **Leaderboard** to display the underlying **KPI** and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and change the theme for the slide.  
   
-     To add the next leaderboard to your slide show, click **Add Slide**![Add button in Gamification](../gamification/media/add-button-gamification.png "Add button in Gamification").  
+     To add the next leaderboard to your slide show, click **Add Slide**![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification").  
   
 9. To complete the TV setup, click **Save & Close**.  
   
-10. Click **View TV**![View button in Gamification](../gamification/media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens.  
+10. Click **View TV**![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens.  
   
 11. Copy the URL of the newly opened browser tab and enter in the browser connected to the screen in your office.  
   
@@ -56,7 +56,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create custom streams from multiple active games  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
   
 2.  Click **Custom Streams**.  
   
@@ -74,23 +74,23 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Edit a Stream TV  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
   
-2.  Click **Edit**![Edit button in Gamification](../gamification/media/edit-symbol-gamification.png "Edit button in Gamification") for the slide-show you want to edit.  
+2.  Click **Edit**![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide-show you want to edit.  
   
 3.  Finalize your edits and then click **Save**.  
   
 #### Delete a Stream TV  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
   
-2.  Click **Delete**![Delete button in Gamification](../gamification/media/delete-symbol-gamification.png "Delete button in Gamification") for the slide-show you want to delete.  
+2.  Click **Delete**![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide-show you want to delete.  
   
 3.  Confirm your deletion.  
   
 <a name="BKMK_privacy_notice"></a>   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_gamification_solution](../gamification/includes/cc-privacy-gamification-solution-md.md)]  
+ [!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
   
 ## See Also  
  [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   

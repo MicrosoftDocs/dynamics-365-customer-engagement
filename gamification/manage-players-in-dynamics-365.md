@@ -1,4 +1,4 @@
----
+﻿---
 title: "Manage players in Dynamics 365 | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -14,12 +14,12 @@ manager: "sakudes"
 robots: noindex,nofollow
 ---
 # Manage players in Dynamics 365
-When the [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] is installed in your Dynamics CRM, you can view information about the [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] users in CRM. Sort the list by the type of player you want to see in the list.  
+When the [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed in your Dynamics CRM, you can view information about the [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] users in CRM. Sort the list by the type of player you want to see in the list.  
   
  .  
   
 ## Match players in CRM  
- To make sure the players in [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] get their points for delivering a KPI, you can match players to CRM users.  
+ To make sure the players in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] get their points for delivering a KPI, you can match players to CRM users.  
   
  In CRM, go to **FantasySalesTeam** > **Players**.  
   

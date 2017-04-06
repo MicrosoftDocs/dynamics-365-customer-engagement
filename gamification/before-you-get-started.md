@@ -20,9 +20,9 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
 <a name="gameModels"></a>   
 ## Game models and sports themes  
- [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] offers three team models for running a game: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can show on  a screen in your office. For game model descriptions, review the [Gamification Glossary](http://msdn.microsoft.com/en-us/10c6a538-985a-4ea2-b8d9-4efc67f7363f).  
+ [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] offers three team models for running a game: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can show on  a screen in your office. For game model descriptions, review the [Gamification Glossary](http://msdn.microsoft.com/en-us/10c6a538-985a-4ea2-b8d9-4efc67f7363f).  
   
- [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
   
 <a name="teamsPlayerPositions"></a>   
 ## Player positions  
@@ -37,7 +37,7 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
 <a name="KPIs"></a>   
 ## Key performance indicators (KPIs)  
- [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] can use any key performance indicator (KPI) that is tracked as data in [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)] for point scoring in a game. For example:  
+ [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] can use any key performance indicator (KPI) that is tracked as data in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] for point scoring in a game. For example:  
   
 -   Number of calls made  
   
@@ -55,15 +55,15 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
  Think  about what KPIs you want to include, how you want to weigh them, and what thresholds you want to associate with each to keep your game balanced. Consider the following when selecting your KPIs:  
   
--   Make sure that the KPIs you choose can be reported on. For example, if you want to use "revenue booked from new customers" as a KPI, you need to have a way to identify a closed opportunity as a new or existing customer in [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)].  
+-   Make sure that the KPIs you choose can be reported on. For example, if you want to use "revenue booked from new customers" as a KPI, you need to have a way to identify a closed opportunity as a new or existing customer in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
-     For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)], see [Configure KPIs in Dynamics 365](http://msdn.microsoft.com/en-us/b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b).  
+     For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], see [Configure KPIs in Dynamics 365](http://msdn.microsoft.com/en-us/b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b).  
   
--   Select KPIs that normalize the game to ensure even opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Player positions](#teamsPlayerPositions)  
+-   Select KPIs that normalize the game to ensure even opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Player positions](#teamsPlayerPositions)  
   
 -   Set your maximum threshold amounts for targets, or cap for actuals, at above average, but not exceptional levels. For example, let’s say the average deal size at your company is $25,000 and you set "revenue booked" thresholds at $10,000, $25,000, $50,000, $100,000, and $200,000. That means if someone happens to close a $200,000 deal, they’re earning 8 times as many points as someone who closes a $25,000 deal. That player is likely going to lead the competition and make it difficult for others to compete. Instead, you might set your thresholds at $10,000, $25,000, $35,000, $50,000, and $75,000.  In this case, the individual that closes the $200, 000 deal would achieve the top threshold of $75,000 for that week and earn 3 times as many points as someone with a $25,000 deal. It's still a great week for that individual, but you haven’t allowed them to pull so far ahead that no one else can catch up.  
   
- [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
   
 <a name="awardsPrizes"></a>   
 ## Awards and prizes  

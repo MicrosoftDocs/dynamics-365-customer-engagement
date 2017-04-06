@@ -1,4 +1,4 @@
----
+﻿---
 title: "End a completed game - to be deleted | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -17,11 +17,11 @@ robots: noindex,nofollow
 After the Game End Date has passed, the Commissioner needs to complete the game and finalize the scores for the players and award the trophies and prizes.  
   
 ## Complete a game  
- After the Game End Date, the Commissioner is required to complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] with CRM, the Commissioner also needs to make sure all the CRM data is correct so KPIs reflect the right values and players are assigned the correct final scores and prizes.  
+ After the Game End Date, the Commissioner is required to complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] with CRM, the Commissioner also needs to make sure all the CRM data is correct so KPIs reflect the right values and players are assigned the correct final scores and prizes.  
   
 #### Complete an ended game  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], go to **Games** > **Games**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Games**.  
   
 2.  In the **Active Games** list, click the **Game Complete** symbol for the ended game you want to complete.  
   

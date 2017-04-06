@@ -1,4 +1,4 @@
----
+﻿---
 title: "View active games in Dynamics 365 | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -14,7 +14,7 @@ manager: "sakudes"
 robots: noindex,nofollow
 ---
 # View active games in Dynamics 365
-When the [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] is installed in your Dynamics CRM, you can view information about the active [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] games in CRM.  
+When the [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed in your Dynamics CRM, you can view information about the active [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] games in CRM.  
   
 ## View active games in CRM  
  In CRM, go to **FantasySalesTeam** > **Games**.  

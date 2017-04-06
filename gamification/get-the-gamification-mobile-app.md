@@ -1,4 +1,4 @@
----
+﻿---
 title: "Get the Gamification mobile app | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -14,14 +14,14 @@ manager: "sakudes"
 robots: noindex,nofollow
 ---
 # Get the Gamification mobile app
-Never miss one of your colleague's achievements, and always stay on top of what's happening in your games with the [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)] mobile app. Get it for the platform of your choice.  
+Never miss one of your colleague's achievements, and always stay on top of what's happening in your games with the [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] mobile app. Get it for the platform of your choice.  
   
 ## Download the Gamification mobile app  
- For [!INCLUDE[tn_android](../gamification/includes/tn-android-md.md)] devices, [download the app from the Google Play Store](https://play.google.com/store/apps/details?id=com.FantasySalesTeam).  
+ For [!INCLUDE[tn_android](includes/tn-android-md.md)] devices, [download the app from the Google Play Store](https://play.google.com/store/apps/details?id=com.FantasySalesTeam).  
   
  For iOS devices, [download the app from App Store](https://itunes.apple.com/us/app/fantasysalesteam/id986051135?mt=8).  
   
- For [!INCLUDE[pn_windows_10](../gamification/includes/pn-windows-10-md.md)] phones, [download the app from the Microsoft Store](https://www.microsoft.com/en-us/store/p/fantasysalesteam/9nblggh4xf0p).  
+ For [!INCLUDE[pn_windows_10](includes/pn-windows-10-md.md)] phones, [download the app from the Microsoft Store](https://www.microsoft.com/en-us/store/p/fantasysalesteam/9nblggh4xf0p).  
   
 ## See Also  
  [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   
