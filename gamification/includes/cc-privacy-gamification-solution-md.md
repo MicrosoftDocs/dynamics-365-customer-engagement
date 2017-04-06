@@ -14,11 +14,11 @@
   
  **Designer Service (Web Role)**  
   
- This provides multiple Web Services for communication between a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest-md.md)] organization and the multi-tenanted [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest-md.md)][!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest-md.md)] components.  For example, gamification details stored to [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest-md.md)] SQL Storage.  Game calculations use **pn_azure_service_bus** queue and returned to be scored and shown in the service.  Customer and user uploaded images are stored in **pn_azure_blob_storage**.  All requests are authenticated against [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory-md.md)].  
+ This provides multiple Web Services for communication between a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest-md.md)] organization and the multi-tenanted [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest-md.md)][!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest-md.md)] components.  For example, gamification details stored to [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest-md.md)] SQL Storage.  Game calculations use [!INCLUDE[pn_azure_service_bus](../includes/pn-azure-service-bus-md.md)] queue and returned to be scored and shown in the service.  Customer and user uploaded images are stored in [!INCLUDE[pn_azure_blob_storage](../includes/pn-azure-blob-storage-md.md)].  All requests are authenticated against [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory-md.md)].  
   
  [Azure Key Vault](https://azure.microsoft.com/services/key-vault/)  
   
- All services store configuration data in **pn_azure_key_vault**.  
+ All services store configuration data in [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault-md.md)].  
   
  [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)  
   
@@ -32,7 +32,7 @@
   
  [Azure Blob Storage](https://azure.microsoft.com/services/storage/)  
   
- Avatars, company logos, and other customer uploaded images are stored in **pn_azure_blob_storage**.  
+ Avatars, company logos, and other customer uploaded images are stored in [!INCLUDE[pn_azure_blob_storage](../includes/pn-azure-blob-storage-md.md)].  
   
  [Azure Content Delivery Network (CDN)](https://azure.microsoft.com/services/cdn/))  
   
