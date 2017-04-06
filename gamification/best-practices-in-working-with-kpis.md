@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Best practices in working with KPIs | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
