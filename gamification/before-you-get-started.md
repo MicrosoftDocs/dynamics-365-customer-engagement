@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Before you get started | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
