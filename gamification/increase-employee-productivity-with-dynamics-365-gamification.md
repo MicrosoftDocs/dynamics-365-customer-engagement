@@ -1,4 +1,4 @@
----
+﻿---
 title: "Increase employee productivity with Dynamics 365 - Gamification | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -31,7 +31,7 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
 <a name="BKMK_benefits"></a>   
 ## How  Gamification can help to keep your employees engaged  
   
--   **Gamification engages many different roles**  
+- **Gamification engages many different roles**  
   
      Think about how you measure the performance of your employees and the activities that drive that performance. Do you count the meetings they schedule, the time it took them to resolve a customer issue, how much revenue they generated, or something completely different?  
   
@@ -41,25 +41,25 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
   
      You can let people participate in a contest even if their role isn't related to one of the game's KPIs. Add them as fans to a game and they can form their own team rosters.  
   
--   **Create awards that motivate everybody**  
+- **Create awards that motivate everybody**  
   
-     [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] lets you set up multiple award categories to recognize achievement and improvement across a variety of KPIs or employee roles. It also offers tiered awards for individuals and teams to enable more players to receive recognition. Creating multiple ways to win keeps more participants engaged and excited throughout the entire contest.  
+ [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] lets you set up multiple award categories to recognize achievement and improvement across a variety of KPIs or employee roles. It also offers tiered awards for individuals and teams to enable more players to receive recognition. Creating multiple ways to win keeps more participants engaged and excited throughout the entire contest.  
   
--   **Embrace  a competitive spirit and camaraderie**  
+- **Embrace  a competitive spirit and camaraderie**  
   
-     [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] builds on fantasy sports, so of course players and fans get to pick fantasy teams. Don't worry if you've never played a game with fantasy teams before; no experience is required. Team management offers players and fans the chance to draft their colleagues in a simple and convenient way. Everyone is motivated to perform so they can keep their team in the game—even if they are not a star performer.  
+ [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] builds on fantasy sports, so of course players and fans get to pick fantasy teams. Don't worry if you've never played a game with fantasy teams before; no experience is required. Team management offers players and fans the chance to draft their colleagues in a simple and convenient way. Everyone is motivated to perform so they can keep their team in the game—even if they are not a star performer.  
   
--   **Keep the competition alive and the scores up to date**  
+- **Keep the competition alive and the scores up to date**  
   
      Multiple leaderboards encourage players to focus on all aspects of the game. [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] uses points assigned to each KPI and earned by individual players and entire teams to determine weekly standings for players and teams, as well as standings for specific KPIs.  
   
--   **Increase motivation with leaderboards, badges, and awards**  
+- **Increase motivation with leaderboards, badges, and awards**  
   
      Contests give people bragging rights and allow them to compete with colleagues in a friendly and open way. Fantasy teams and fixed-team games have proven to be more effective than individual contests. Players have profile pages with a summary of their awards, standings, and past performance, which other players can view to make decisions about who to put on their rosters. [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] lets them share their successes and achievements with other participants on a Smack Talk board for each game.  
   
      Leaderboards, badges, and awards are a great way to recognize achievements and help to drive the players' motivation to deliver their best results. Set up a TV for your office space to keep employees informed about the latest rankings.  
   
--   **Monitor performance without the hassle**  
+- **Monitor performance without the hassle**  
   
      None of this would be fun or effective if it added more complexity to business entities. [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] helps improve performance and make it a fun experience, without the burden of managing tangled, complex spreadsheets.  
   
@@ -69,15 +69,15 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
   
 1.  Install [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] in [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)].  
   
-     [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
+ [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
   
 2.  Configure players and level the playing field by using positions.  
   
-     [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/4df5e61b-0d7b-4cef-b741-14bed0637756)  
+ [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/4df5e61b-0d7b-4cef-b741-14bed0637756)  
   
 3.  Set up the game, KPIs, awards, prizes, and kick off the contest.  
   
-     [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
+ [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
   
 ## See Also  
  [](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure KPIs in Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -30,7 +30,7 @@ Scores and achievements in your games are based on KPIs that you define in [!INC
 ## Configure and edit KPIs in Dynamics 365  
  Configure KPI details  in [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)] to select them for a new contest in [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.  
   
- There are various way to create useful KPIs based on the data of a  [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] instance. Consider some of our examples for inspiration and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Best practices in working with KPIs](http://msdn.microsoft.com/en-us/fb73fc31-e6e8-43ca-b0cd-9e22bab4d1f4)  
+ There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] instance. Consider some of our examples for inspiration and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Best practices in working with KPIs](http://msdn.microsoft.com/en-us/fb73fc31-e6e8-43ca-b0cd-9e22bab4d1f4)  
   
 #### Configure a KPI  
   
@@ -66,17 +66,17 @@ Scores and achievements in your games are based on KPIs that you define in [!INC
      For example, if you want to only award points for appointments about a specific product, you can add the product name to the appointment description and add a query parameter to only select an appointment for scoring when the **Description** field contains the product name.  
   
     > [!NOTE]
-    >  [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] doesn't support saved views with linked entities in filters or columns.  
+    > [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] doesn't support saved views with linked entities in filters or columns.  
   
 8.  Optionally, choose the **Scoring Behavior** in the **Additional Scoring Settings** section. By default (if no checkbox is selected), points are always assigned based on the current state of the record. You can customize this by selecting one or more of the following options:  
   
-    -   **Keep scores when the record is deleted**: When a record that is used by a KPI is deleted, scored points aren't removed from the player score.  
+    - **Keep scores when the record is deleted**: When a record that is used by a KPI is deleted, scored points aren't removed from the player score.  
   
-    -   **Keep scores when the record is no longer valid**: For example, a KPI is configured based on a  saved view that assigned scores only to records in the **Completed** state. After some time, a workflow automatically moves completed records to an **Archived** state. If the checkbox is selected, the system will keep scores for these records.  
+    - **Keep scores when the record is no longer valid**: For example, a KPI is configured based on a  saved view that assigned scores only to records in the **Completed** state. After some time, a workflow automatically moves completed records to an **Archived** state. If the checkbox is selected, the system will keep scores for these records.  
   
-    -   **Keep scores when the record is reassigned**: When a record is assigned to another user in [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)], scores will persist with the user who initially received the scored points.  
+    - **Keep scores when the record is reassigned**: When a record is assigned to another user in [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)], scores will persist with the user who initially received the scored points.  
   
-    -   **Keep initial scores**: Scores are assigned based on the values that were initially provided on the record that the KPI uses. For example, if you award points for potential revenue and the revenue forecast, the score won't change when the revenue forecast on the record is updated.  
+    - **Keep initial scores**: Scores are assigned based on the values that were initially provided on the record that the KPI uses. For example, if you award points for potential revenue and the revenue forecast, the score won't change when the revenue forecast on the record is updated.  
   
     > [!CAUTION]
     >  If you edit a KPI with a custom scoring behavior that is already used in an active game, all points associated with the selected behavior options will be removed.  

@@ -1,4 +1,4 @@
----
+﻿---
 title: "View the leaderboard | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -29,19 +29,19 @@ You can bet there's no real competition without a leaderboard. [!INCLUDE[pn_gami
 > [!IMPORTANT]
 >  Leaderboards show a snapshot of the game. Only after a Commissioner officially completes the game are the rankings final.  
   
--   **Fantasy Team Awards**: See which players drafted the most successful teams.  
+- **Fantasy Team Awards**: See which players drafted the most successful teams.  
   
--   **Fan Team Awards**: See which fans drafted the most successful fan teams.  
+- **Fan Team Awards**: See which fans drafted the most successful fan teams.  
   
      This leaderboard is only available if fans participate in a game.  
   
--   **Game MVP Award**: See which players earned the most points in the current game.  
+- **Game MVP Award**: See which players earned the most points in the current game.  
   
--   **Position Awards**: See how players rank in the available positions.  
+- **Position Awards**: See how players rank in the available positions.  
   
--   **KPI Awards**: See how players rank overall in the awarded KPIs.  
+- **KPI Awards**: See how players rank overall in the awarded KPIs.  
   
--   **Weekly Awards**: See which players rank best in a given week for a specific KPI.  
+- **Weekly Awards**: See which players rank best in a given week for a specific KPI.  
   
 ## See Also  
  [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Run a game in Dynamics 365 - Gamification | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -22,7 +22,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 -   You are assigned the Commissioner or game manager security role in [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)].  
   
--   [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Manage Gamification in Microsoft Dynamics 365 Online](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
+- [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Manage Gamification in Microsoft Dynamics 365 Online](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
   
 ## Set up a game  
  By setting up a game,  a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
@@ -57,10 +57,10 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
  KPIs are key to the game. They are metrics based on [!INCLUDE[pn_crm_online_subsequent](../gamification/includes/pn-crm-online-subsequent-md.md)] data that automatically syncs to [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)], and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
   
 > [!TIP]
->  -   **Use descriptive names** for KPIs so players can understand how to earn points.  
-> -   **The ideal number of KPIs per game is between 3 and 5.** Too many KPIs will result in players focusing on a few metrics while others are forgotten.  But you also want to have enough KPIs so that players of all levels will feel they can contribute and succeed.  A good practice is  including both results-driven and behavioral KPIs.  Results-driven KPIs, for example, are revenue amount, % of quota, and closed sales. Behavioral metrics  include things like number of calls made, number of appointments set, and number of demos held.  However, you can define as many KPIs as you like for your game.  
-> -   **Use lower numbers for KPIs.** For example, award 1 point for every new lead rather than 100 points for every 5 leads so the spread between first and second place isn't too big. Players might feel they have already lost if there is a vast number of points to reach the next position.  
-> -   **Include floors and caps for KPIs** to avoid an achievement of a single rep overtaking the entire player field.  Floors define the minimum number a KPI needs to meet for a player to get points. Caps define the upper limit for the KPI to generate points for players. For example, if you set a floor of 5 and a cap of 50 for a KPI that tracks phone calls, players need to achieve at least 5 phone calls to get a point.  Due to the cap, they will get the same points as for 50 calls if they achieve 80 calls.   Floors and caps reset each week of the game.  
+>  - **Use descriptive names** for KPIs so players can understand how to earn points.  
+> - **The ideal number of KPIs per game is between 3 and 5.** Too many KPIs will result in players focusing on a few metrics while others are forgotten.  But you also want to have enough KPIs so that players of all levels will feel they can contribute and succeed.  A good practice is  including both results-driven and behavioral KPIs.  Results-driven KPIs, for example, are revenue amount, % of quota, and closed sales. Behavioral metrics  include things like number of calls made, number of appointments set, and number of demos held.  However, you can define as many KPIs as you like for your game.  
+> - **Use lower numbers for KPIs.** For example, award 1 point for every new lead rather than 100 points for every 5 leads so the spread between first and second place isn't too big. Players might feel they have already lost if there is a vast number of points to reach the next position.  
+> - **Include floors and caps for KPIs** to avoid an achievement of a single rep overtaking the entire player field.  Floors define the minimum number a KPI needs to meet for a player to get points. Caps define the upper limit for the KPI to generate points for players. For example, if you set a floor of 5 and a cap of 50 for a KPI that tracks phone calls, players need to achieve at least 5 phone calls to get a point.  Due to the cap, they will get the same points as for 50 calls if they achieve 80 calls.   Floors and caps reset each week of the game.  
   
  For more information about KPIs, see [Key performance indicators (KPIs)](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434).  
   
@@ -74,7 +74,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
      If you select **Percentage of Quota** in one of your KPIs, a new step is added to the game setup process where you will be asked to define the quotas for each player.   Experience has shown that using **Default** rather than **Linear** is easier to keep track of for players.  
   
-     [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [Game quotas](#step5)  
+ [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [Game quotas](#step5)  
   
 4.  Define how many points players will get when they reach a KPI.  
   

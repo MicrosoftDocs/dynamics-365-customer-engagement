@@ -1,4 +1,4 @@
----
+﻿---
 title: "Personalize your Gamification game experience | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -60,19 +60,19 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 3.  Set the values according to meet your requirements.  
   
-    -   **Turn Off TV Board Posts**: Hides all posts on Smack Talk  from a leaderboard shown in a Stream TV.  
+    - **Turn Off TV Board Posts**: Hides all posts on Smack Talk  from a leaderboard shown in a Stream TV.  
   
-    -   **Leaderboard Post Display Time (Seconds)**: Number of seconds a Smack Talk Post shows in a Stream TV.  
+    - **Leaderboard Post Display Time (Seconds)**: Number of seconds a Smack Talk Post shows in a Stream TV.  
   
-    -   **Leaderboard Post Display Count**: Define how many times a Smack Talk post is shows in  a Stream TV.  
+    - **Leaderboard Post Display Count**: Define how many times a Smack Talk post is shows in  a Stream TV.  
   
-    -   **Display Waiting Time (Seconds)**: Number of  seconds before a Smack Talk Post shows again in a Stream TV.  
+    - **Display Waiting Time (Seconds)**: Number of  seconds before a Smack Talk Post shows again in a Stream TV.  
   
-    -   **Turn off BAM Posts**: Hides all **BAM** posts on Smack Talk  from a leaderboard shown in a Stream TV.  
+    - **Turn off BAM Posts**: Hides all **BAM** posts on Smack Talk  from a leaderboard shown in a Stream TV.  
   
-    -   **BAM Post Display Count**: Define how many times a **BAM** post shows in  a Stream TV.  
+    - **BAM Post Display Count**: Define how many times a **BAM** post shows in  a Stream TV.  
   
-    -   **BAM Display Waiting Time (Seconds)** : Number of  seconds before a **BAM** post shows again in a Stream TV.  
+    - **BAM Display Waiting Time (Seconds)** : Number of  seconds before a **BAM** post shows again in a Stream TV.  
   
 4.  To apply your changes, click **Save**.  
   
@@ -86,7 +86,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 2.  Click the **Gamification Settings** tab.  
   
-3.  In the  **Hide Actuals** line, set the value to **ON** if you don't want to show the actuals.  
+3.  In the **Hide Actuals** line, set the value to **ON** if you don't want to show the actuals.  
   
      --OR--  
   

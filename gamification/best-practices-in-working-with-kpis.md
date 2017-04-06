@@ -1,4 +1,4 @@
----
+﻿---
 title: "Best practices in working with KPIs | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -24,7 +24,7 @@ manager: "sakudes"
 ## Useful KPI scenarios  
  Motivate your reps to generate new leads and opportunities, get the most out of the teams that work with customers, or help them troubleshoot issues.  
   
- There are various way to create useful KPIs based on the data of a  [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] instance. Depending on the level of customization, consider the examples below for inspiration and adapt them to your business and game requirements.  
+ There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] instance. Depending on the level of customization, consider the examples below for inspiration and adapt them to your business and game requirements.  
   
  Let us know what KPIs you find that work very well on the [Dynamics Community Forum](http://go.microsoft.com/fwlink/p/?LinkId=825550).  
   
@@ -44,7 +44,7 @@ manager: "sakudes"
 >  -   Have a  look at a comparable periods (previous month/ quarter/ same period in prior year) to estimate the average performance on KPIs and adjust points and scores to your business requirements.  
 > -   Although it isn't reflected in [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)], any KPI (especially revenue KPIs) can be set as a quota KPI in [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)].  It could be an actual performance against quota, or reps could be providing their own quotas as forecasts, in which case the true KPI being measured would be forecast accuracy.  
 > -   Many KPIs are entirely custom, based on higher-level activity represented in custom entities, or standard entities that have been customized to meet the requirements of a specific organization.  
-> -   You can include fun KPIs as well.  Sometimes there are important activities  that aren't tracked in  [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)]. You can score these KPIs as bonus points by using [!INCLUDE[pn_microsoft_excel](../gamification/includes/pn-microsoft-excel-md.md)] in combination with the [!INCLUDE[pn_Excel_short](../gamification/includes/pn-excel-short-md.md)] Point Scoring   feature.  For example, you could reward your employees for cycling to work instead of riding in a car. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Update scores using Excel point scoring](http://msdn.microsoft.com/en-us/1c58f29f-95df-4b2d-b0c4-56cea45bf196)  
+> -   You can include fun KPIs as well.  Sometimes there are important activities  that aren't tracked in [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)]. You can score these KPIs as bonus points by using [!INCLUDE[pn_microsoft_excel](../gamification/includes/pn-microsoft-excel-md.md)] in combination with the [!INCLUDE[pn_Excel_short](../gamification/includes/pn-excel-short-md.md)] Point Scoring   feature.  For example, you could reward your employees for cycling to work instead of riding in a car. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][Update scores using Excel point scoring](http://msdn.microsoft.com/en-us/1c58f29f-95df-4b2d-b0c4-56cea45bf196)  
   
 ## See Also  
  [For Commissioners and game managers in Gamification](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Manage Gamification in Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -29,10 +29,10 @@ The [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification
   
 <a name="BKMK_install"></a>   
 ## Install Gamification for [!INCLUDE[pn_crm_shortest](../gamification/includes/pn-crm-shortest-md.md)]  
- [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] capabilities in   [!INCLUDE[pn_crm_shortest](../gamification/includes/pn-crm-shortest-md.md)] are a solution for [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] that you install from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919).  
+ [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] capabilities in [!INCLUDE[pn_crm_shortest](../gamification/includes/pn-crm-shortest-md.md)] are a solution for [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] that you install from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919).  
   
 > [!NOTE]
->  [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] can be used exclusively on a single [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] instance per [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] tenant. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][TechNet: Multiple online instances or tenants](https://technet.microsoft.com/library/dn722373.aspx)  
+> [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] can be used exclusively on a single [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] instance per [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] tenant. [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)][TechNet: Multiple online instances or tenants](https://technet.microsoft.com/library/dn722373.aspx)  
   
 #### Install the solution from AppSource  
   
@@ -42,7 +42,7 @@ The [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification
   
 3.  Click **Get** to start installing the solution.  
   
-4.  Review and accept the disclaimer and the terms to add [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] to  [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)].  
+4.  Review and accept the disclaimer and the terms to add [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] to [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)].  
   
  It may take a few minutes until the solution is installed in [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)].  
   
@@ -70,7 +70,7 @@ The [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification
   
 5.  Copy the **Security Key** and paste it in the input box.  
   
-6.  Click **Authorize** to complete the connection between   [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] and [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)].  
+6.  Click **Authorize** to complete the connection between [!INCLUDE[pn_CRM_Online](../gamification/includes/pn-crm-online-md.md)] and [!INCLUDE[pn_gamification](../gamification/includes/pn-gamification-md.md)].  
   
  You'll receive an email with additional details and you can now access your organization's [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] instance.  
   

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Gamification glossary | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -43,11 +43,11 @@ For a quick reference, review the list of the terms most used in [!INCLUDE[pn_ga
   
  [!INCLUDE[proc_more_information](../gamification/includes/proc-more-information-md.md)] [Run a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
   
--   **Fantasy Teams:** Players can draft their individual fantasy sport team with their own team members. Due to several player features like team drafting and team manager awards, this is by far the most engaging game model offered in Dynamics 365 Gamification. This selection also lets you select from the available sports theme when you create a game.  
+- **Fantasy Teams:** Players can draft their individual fantasy sport team with their own team members. Due to several player features like team drafting and team manager awards, this is by far the most engaging game model offered in Dynamics 365 Gamification. This selection also lets you select from the available sports theme when you create a game.  
   
--   **Fixed Teams:** To keep it more simple, a game manager can set the teams, such as Office A and Office B. Selecting this game model requires the game manager to specify well-balanced teams to keep players engaged. If a team significantly falls behind due to having all top-performers against them, they will likely lose interest and abandon the contest.  
+- **Fixed Teams:** To keep it more simple, a game manager can set the teams, such as Office A and Office B. Selecting this game model requires the game manager to specify well-balanced teams to keep players engaged. If a team significantly falls behind due to having all top-performers against them, they will likely lose interest and abandon the contest.  
   
--   **No Teams:** Players compete individually, without drafting teams. It's as simple as that. Head-to-head, the winner gets it all.  
+- **No Teams:** Players compete individually, without drafting teams. It's as simple as that. Head-to-head, the winner gets it all.  
   
 ## Gamification (concept)  
  Gamification as a concept applies gaming elements and principles to  non-game contexts to improve user engagement and productivity, or promote activities and processes among others. Gamification strives to leverage people's natural desires for socializing, mastery, competition, achievement, altruism, or closure. Rewards include points, achievements, badges, cash prizes, tangible prizes or  company benefits.  

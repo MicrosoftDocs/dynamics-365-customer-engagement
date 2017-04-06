@@ -1,4 +1,4 @@
----
+﻿---
 title: "Install Gamification for Dynamics 365 | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -29,13 +29,13 @@ The [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification
 <a name="BKMK_prerequisistes"></a>   
 ## Prerequisites  
   
--   [!INCLUDE[cc_capabilities_require_online_8_1_0](../gamification/includes/cc-capabilities-require-online-8-1-0-md.md)]  
+- [!INCLUDE[cc_capabilities_require_online_8_1_0](../gamification/includes/cc-capabilities-require-online-8-1-0-md.md)]  
   
 -   Users must have a CRM license assigned to access the [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] service.  
   
 <a name="BKMK_install"></a>   
 ## Install Gamification for Dynamics 365  
- [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] capabilities in   [!INCLUDE[pn_crm_shortest](../gamification/includes/pn-crm-shortest-md.md)] is an App for CRM that you install from [!INCLUDE[pn_microsoft_appsource](../gamification/includes/pn-microsoft-appsource-md.md)]. In [!INCLUDE[pn_microsoft_appsource](../gamification/includes/pn-microsoft-appsource-md.md)], select [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] to install the app.  
+ [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] capabilities in [!INCLUDE[pn_crm_shortest](../gamification/includes/pn-crm-shortest-md.md)] is an App for CRM that you install from [!INCLUDE[pn_microsoft_appsource](../gamification/includes/pn-microsoft-appsource-md.md)]. In [!INCLUDE[pn_microsoft_appsource](../gamification/includes/pn-microsoft-appsource-md.md)], select [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)] to install the app.  
   
 <a name="BKMK_authorize"></a>   
 ## Authorize Gamification with Dynamics CRM  
@@ -45,7 +45,7 @@ The [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification
   
 <a name="BKMK_users"></a>   
 ## KPI Manager security role  
- When you install the [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)], a CRM-specific security role called **KPI Manager** is created. System admins can assign this security role to CRM users they want to enable to create KPIs for [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] in CRM and configure the connection between CRM and  [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)].  
+ When you install the [!INCLUDE[pn_gamification_solution](../gamification/includes/pn-gamification-solution-md.md)], a CRM-specific security role called **KPI Manager** is created. System admins can assign this security role to CRM users they want to enable to create KPIs for [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)] in CRM and configure the connection between CRM and [!INCLUDE[pn_gamification_subsequent](../gamification/includes/pn-gamification-subsequent-md.md)].  
   
  To learn more about security roles and privileges, see [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
   

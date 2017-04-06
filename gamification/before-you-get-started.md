@@ -1,4 +1,4 @@
----
+﻿---
 title: "Before you get started | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -71,13 +71,13 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
  Here are the types of awards that you can use for your game:  
   
--   **Total points:**  Players who earn the most total points over the course of the game across all KPIs.  
+- **Total points:**  Players who earn the most total points over the course of the game across all KPIs.  
   
--   **Team manager**: Players who manage teams that earn  the most total points over the course of the game across all   KPIs.  
+- **Team manager**: Players who manage teams that earn  the most total points over the course of the game across all   KPIs.  
   
--   **KPIs**: Players who earn the most points for a single KPI over the course of the game.  
+- **KPIs**: Players who earn the most points for a single KPI over the course of the game.  
   
--   **Position**: Players who earn the most points in a specific position over the course of the game.  
+- **Position**: Players who earn the most points in a specific position over the course of the game.  
   
  If you use fixed teams, you can use team awards and team MVP awards instead of team manager awards. If your game isn't using teams, you can't use any team awards. Have one winner for each award, or award up to ten places.  
   
