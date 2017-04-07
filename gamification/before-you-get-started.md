@@ -1,4 +1,4 @@
----
+﻿---
 title: "Before you get started | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -20,9 +20,9 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
 <a name="gameModels"></a>   
 ## Game models and sports themes  
- [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] offers three team models for running a game: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can show on  a screen in your office. For game model descriptions, review the [Gamification Glossary](http://msdn.microsoft.com/en-us/10c6a538-985a-4ea2-b8d9-4efc67f7363f).  
+ [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] offers three team models for running a game: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can show on  a screen in your office. For game model descriptions, review the [Gamification glossary](gamification-glossary.md).  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
   
 <a name="teamsPlayerPositions"></a>   
 ## Player positions  
@@ -33,7 +33,7 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
 > [!TIP]
 >  Start thinking about how you would group individuals on your team—by quota, how long they’ve been at the company, how successful they’ve been, their level of experience or skill, or any number of factors. The more you can level the playing field to make it as fair as possible, the more fun the game will be. If you're using fixed teams, you can also have players within other fixed teams compete against each other.  
   
- Commissioners and game managers: For more information about how to set up a game, see [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9).  
+ Commissioners and game managers: For more information about how to set up a game, see [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md).  
   
 <a name="KPIs"></a>   
 ## Key performance indicators (KPIs)  
@@ -57,13 +57,13 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
 -   Make sure that the KPIs you choose can be reported on. For example, if you want to use "revenue booked from new customers" as a KPI, you need to have a way to identify a closed opportunity as a new or existing customer in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
-     For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], see [Configure KPIs in Dynamics 365](http://msdn.microsoft.com/en-us/b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b).  
+     For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], see [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md).  
   
 -   Select KPIs that normalize the game to ensure even opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Player positions](#teamsPlayerPositions)  
   
 -   Set your maximum threshold amounts for targets, or cap for actuals, at above average, but not exceptional levels. For example, let’s say the average deal size at your company is $25,000 and you set "revenue booked" thresholds at $10,000, $25,000, $50,000, $100,000, and $200,000. That means if someone happens to close a $200,000 deal, they’re earning 8 times as many points as someone who closes a $25,000 deal. That player is likely going to lead the competition and make it difficult for others to compete. Instead, you might set your thresholds at $10,000, $25,000, $35,000, $50,000, and $75,000.  In this case, the individual that closes the $200, 000 deal would achieve the top threshold of $75,000 for that week and earn 3 times as many points as someone with a $25,000 deal. It's still a great week for that individual, but you haven’t allowed them to pull so far ahead that no one else can catch up.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
   
 <a name="awardsPrizes"></a>   
 ## Awards and prizes  
@@ -92,9 +92,9 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
  Awards and prizes are assigned when you end a completed game.  
   
- You can also define weekly awards: [Define weekly awards](http://msdn.microsoft.com/en-us/f34678ce-1037-4788-8394-f83866583c3c)  
+ You can also define weekly awards: [Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)  
   
 ## See Also  
- [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   
- [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)   
- [Manage Gamification in Microsoft Dynamics 365](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)   
+ [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)
