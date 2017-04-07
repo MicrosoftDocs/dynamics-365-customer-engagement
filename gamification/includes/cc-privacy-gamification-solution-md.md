@@ -8,7 +8,7 @@
   
  [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest-md.md)] components and services that are involved with [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest-md.md)] are detailed in the following sections.  
   
- **cc_privacy_note_azure_trust_center**  
+ [!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc-privacy-note-azure-trust-center-md.md)]  
   
  [Cloud Services](https://azure.microsoft.com/services/cloud-services/)  
   
