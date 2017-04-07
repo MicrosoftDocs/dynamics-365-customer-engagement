@@ -22,7 +22,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
  ![Down arrow button](media/down-arrow.png "Down arrow button") [Install Gamification for Dynamics 365](#BKMK_install)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Authorize Gamification with Dynamics CRM](http://msdn.microsoft.com/en-us/b8a484c3-b66b-4784-a26b-736e16490a21)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Install Gamification for Dynamics 365](install-gamification-for-dynamics-365.md)  
   
  ![Down arrow button](media/down-arrow.png "Down arrow button") [KPI Manager security role](#BKMK_users)  
   
@@ -50,6 +50,6 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
  To learn more about security roles and privileges, see [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
   
 ## See Also  
- [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   
- [Manage Gamification in Microsoft Dynamics CRM](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)   
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)

@@ -40,6 +40,6 @@ Send weekly updates on the leaderboards or announce award winners with scheduled
 7.  When you are satisfied with the email, click **Schedule** to activate the email schedule as defined in step 3.  
   
 ## See Also  
- [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Define weekly awards](http://msdn.microsoft.com/en-us/f34678ce-1037-4788-8394-f83866583c3c)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)

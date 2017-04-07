@@ -29,5 +29,5 @@ After the Game End Date has passed, the Commissioner needs to complete the game 
     >  If you need to make corrections to a completed game, you can click the **Make Active** button in the **Completed Games** list.  
   
 ## See Also  
- [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)   
- [Activate a game](http://msdn.microsoft.com/en-us/83b91f42-a68f-4308-b62c-524771a67efb)
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)   
+ [Activate a game - to be deleted](activate-a-game-to-be-deleted.md)

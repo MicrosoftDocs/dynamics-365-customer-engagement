@@ -39,6 +39,6 @@ If you plan to run a game using one or more KPIs that can't be tracked by using 
  The selected KPIs are now updated in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] for the selected game period.  
   
 ## See Also  
- [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Configure KPIs in Dynamics 365 Online](http://msdn.microsoft.com/en-us/b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create user roles and user groups | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -85,6 +85,6 @@ User roles and groups let a Commissioner manage large groups of individuals in [
 3.  Edit the groups, and then click **Save** to apply your changes, or confirm the deletion.  
   
 ## See Also  
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)   
- [Manage players and fans](http://msdn.microsoft.com/en-us/4df5e61b-0d7b-4cef-b741-14bed0637756)
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)   
+ [Manage players and fans in Gamification](manage-players-and-fans-in-gamification.md)

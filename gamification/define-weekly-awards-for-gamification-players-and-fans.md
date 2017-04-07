@@ -37,6 +37,6 @@ Configure weekly awards to keep players focused on delivering results for the ri
  Weekly awards are now awarded automatically to the winning players. Make sure you follow up with them to give out the prizes. You can edit the weekly awards later on if you want to change the prizes or the associated KPIs.  
   
 ## See Also  
- [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Run a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)

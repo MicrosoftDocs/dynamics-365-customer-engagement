@@ -44,5 +44,5 @@ You can bet there's no real competition without a leaderboard. [!INCLUDE[pn_gami
 - **Weekly Awards**: See which players rank best in a given week for a specific KPI.  
   
 ## See Also  
- [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   
- [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)
+ [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)

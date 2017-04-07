@@ -32,12 +32,12 @@ Refer to the following documents and web pages for legal information about [!INC
 ## Additional Privacy Notices  
  Some features and capabilities in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] are governed by additional privacy notices in the related technical documentation.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Microsoft Dynamics 365 Online](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
   
 ## See Also  
- [Increase employee productivity with Microsoft Dynamics 365 - Gamification](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   
- [For Commissioners and game managers in Gamification](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Manage Gamification in Microsoft Dynamics 365 Online](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)   
- [Configure and view TVs](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
+ [Configure and view TVs](configure-and-view-tvs.md)

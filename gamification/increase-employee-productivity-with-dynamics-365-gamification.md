@@ -24,9 +24,9 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
   
  To help create a vibrant and engaging environment for your contest, use up-to-date scores and numbers. You can do this by using the connection with [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] (recommended) or with manual updates that use [!INCLUDE[pn_microsoft_excel](includes/pn-microsoft-excel-md.md)], so everybody can see fresh data about how they are progressing in the game.  
   
- For more information about common terms used in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], see the [](http://msdn.microsoft.com/en-us/10c6a538-985a-4ea2-b8d9-4efc67f7363f).  
+ For more information about common terms used in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], see the [Gamification glossary](gamification-glossary.md).  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/338b81d8-3dc8-4d0a-bfd0-4ac7a3fb71aa)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Frequently asked questions about Dynamics 365 - Gamification](frequently-asked-questions-about-dynamics-365-gamification.md)  
   
 <a name="BKMK_benefits"></a>   
 ## How  Gamification can help to keep your employees engaged  
@@ -69,16 +69,16 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
   
 1.  Install [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
 2.  Configure players and level the playing field by using positions.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/4df5e61b-0d7b-4cef-b741-14bed0637756)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage players and fans in Gamification](manage-players-and-fans-in-gamification.md)  
   
 3.  Set up the game, KPIs, awards, prizes, and kick off the contest.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
   
 ## See Also  
- [](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [For players and fans in Gamification](for-players-and-fans-in-gamification.md)

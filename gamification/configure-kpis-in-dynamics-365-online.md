@@ -18,19 +18,19 @@ manager: "sakudes"
 # Configure KPIs in Dynamics 365 (online)
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]. It's a two-step process. First, you need to create the KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], and then you can choose and configure them in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] when you set up a new game.  
   
- For more information about setting up KPIs in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], see [KPI types and user roles](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9). For basic information about KPIs, see [Key performance indicators (KPIs)](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434).  
+ For more information about setting up KPIs in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], see [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md). For basic information about KPIs, see [Before you get started](before-you-get-started.md).  
   
 <a name="BKMK_createKPI"></a>   
 ## Create KPIs in Gamification  
  When you set up a game, step 2 of the game setup experience requires you to define the KPIs for the game.  
   
- The KPIs you define in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will be available when you set up the game and the data syncs from [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]. For basic information about KPIs, see [Key performance indicators (KPIs)](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434).  
+ The KPIs you define in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will be available when you set up the game and the data syncs from [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]. For basic information about KPIs, see [Before you get started](before-you-get-started.md).  
   
 <a name="BKMK_ConfigureKPI"></a>   
 ## Configure and edit KPIs in Dynamics 365  
  Configure KPI details  in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] to select them for a new contest in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.  
   
- There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Consider some of our examples for inspiration and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Best practices in working with KPIs](http://msdn.microsoft.com/en-us/fb73fc31-e6e8-43ca-b0cd-9e22bab4d1f4)  
+ There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Consider some of our examples for inspiration and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Best practices in working with KPIs](best-practices-in-working-with-kpis.md)  
   
 #### Configure a KPI  
   
@@ -85,7 +85,7 @@ Scores and achievements in your games are based on KPIs that you define in [!INC
   
  When you are done setting up all required KPIs, [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will sync the data to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] when you start the game.  
   
- If you want to score a KPI manually, you can use Excel Point Scoring. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel Point Scoring](http://msdn.microsoft.com/en-us/1c58f29f-95df-4b2d-b0c4-56cea45bf196)  
+ If you want to score a KPI manually, you can use Excel Point Scoring. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 #### Edit a KPI  
   
@@ -103,5 +103,5 @@ Scores and achievements in your games are based on KPIs that you define in [!INC
 >  Before you can edit a KPI that was automatically created when installing [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)], you must assign it an owner. Only the KPI owner can edit the values of a KPI.  
   
 ## See Also  
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Run a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)

@@ -24,6 +24,6 @@ Never miss one of your colleague's achievements, and always stay on top of what'
  For [!INCLUDE[pn_windows_10](includes/pn-windows-10-md.md)] phones, [download the app from the Microsoft Store](https://www.microsoft.com/en-us/store/p/fantasysalesteam/9nblggh4xf0p).  
   
 ## See Also  
- [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   
- [Post on Smack Talk](http://msdn.microsoft.com/en-us/958c8d0d-d57e-492b-bb83-1594c4d1a984)   
- [View the leaderboard](http://msdn.microsoft.com/en-us/088b9a63-9cda-4e45-80b6-5482ac81147b)
+ [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   
+ [Post on Smack Talk](post-on-smack-talk.md)   
+ [View the leaderboard](view-the-leaderboard.md)

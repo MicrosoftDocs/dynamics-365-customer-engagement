@@ -36,7 +36,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 <a name="contactCommissioner"></a>   
 ## Configure the contact menu  
- Define how players and fans can get in touch with the Commissioner. Participants can click the **Help** > **Contact Commissioner** control when they are signed in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Contact the Commissioner](http://msdn.microsoft.com/en-us/7aa9e7cc-779e-4813-ad81-e1db9ad47871)  
+ Define how players and fans can get in touch with the Commissioner. Participants can click the **Help** > **Contact Commissioner** control when they are signed in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Contact a Commissioner](contact-a-commissioner.md)  
   
 #### Set the link for the contact menu  
   
@@ -50,7 +50,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 <a name="configureTVposts"></a>   
 ## Define the posts to show in Stream TV games  
- You can configure which posts from the **Smack Talk** board show in Stream TV and which to hide when you are streaming the leaderboard to a screen in your office. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure and view Gamification Stream TV](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)  
+ You can configure which posts from the **Smack Talk** board show in Stream TV and which to hide when you are streaming the leaderboard to a screen in your office. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure and view TVs](configure-and-view-tvs.md)  
   
 #### Configure streaming of TV settings for Smack Talk  
   
@@ -114,6 +114,6 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
 4.  To apply your changes, click **Save**.  
   
 ## See Also  
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)   
- [Configure and view Gamification Stream TV](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)   
+ [Configure and view TVs](configure-and-view-tvs.md)

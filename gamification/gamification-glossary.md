@@ -21,7 +21,7 @@ For a quick reference, review the list of the terms most used in [!INCLUDE[pn_ga
 ## Security roles  
  Security roles are the permissions that individual users have in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. Commissioners specify security roles when they configure [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] or when the create a new game.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [](http://msdn.microsoft.com/en-us/afad369f-fe8a-4ced-8808-0af86ffad2c1)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Understand Gamification security roles](understand-gamification-security-roles.md)  
   
 ### Commissioners  
  A Commissioner is considered to be a referee in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], and is a user with the broadest permissions. Because Commissioners have insider knowledge about players and teams, they aren't allowed to participate in any games. [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] can be configured with more than one Commissioner.  
@@ -41,7 +41,7 @@ For a quick reference, review the list of the terms most used in [!INCLUDE[pn_ga
 ## Game  
  Games are set up and run in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] to gamify KPIs that are tracked elsewhere. Sometimes also referred to as a "contest". There are different types of games.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
   
 - **Fantasy Teams:** Players can draft their individual fantasy sport team with their own team members. Due to several player features like team drafting and team manager awards, this is by far the most engaging game model offered in Dynamics 365 Gamification. This selection also lets you select from the available sports theme when you create a game.  
   
@@ -55,9 +55,9 @@ For a quick reference, review the list of the terms most used in [!INCLUDE[pn_ga
 ## Stream TV  
  Stream TV is a way to stream smack talk notifications and leaderboards from active games to an Internet-connected screen or TV in your office.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view Stream TVs](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
   
 ## See Also  
- [Increase productivity using the Gamification platform](http://msdn.microsoft.com/en-us/6a70c280-4e08-4382-bb53-af82d0bfa9fb)   
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [For players and fans in Gamification](for-players-and-fans-in-gamification.md)

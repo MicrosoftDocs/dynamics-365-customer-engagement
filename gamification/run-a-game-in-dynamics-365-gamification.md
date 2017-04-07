@@ -22,7 +22,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 -   You are assigned the Commissioner or game manager security role in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)].  
   
-- [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Manage Gamification in Microsoft Dynamics 365 Online](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)  
+- [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
 ## Set up a game  
  By setting up a game,  a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
@@ -35,13 +35,13 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 1.  Provide a **Name** for the game.  
   
-2.  Select the **Game Model**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Game models and sports themes](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434)  
+2.  Select the **Game Model**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Before you get started](before-you-get-started.md)  
   
-     For more information about setting up a Stream TV, see [Configure and view Gamification Stream TV](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f).  
+     For more information about setting up a Stream TV, see [Configure and view TVs](configure-and-view-tvs.md).  
   
 3.  Select the **Sport Theme** you want to use for the game.  
   
-4.  Choose if you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Key performance indicators (KPIs)](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434)  
+4.  Choose if you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Before you get started](before-you-get-started.md)  
   
 5.  To specify how often players can change their teams, set the **Draft Frequency** . Ideally, you'll set a weekly draft frequency to provide players the flexibility to replace players on their team roster if they're removed from the game or take some time off.  
   
@@ -62,11 +62,11 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 > - **Use lower numbers for KPIs.** For example, award 1 point for every new lead rather than 100 points for every 5 leads so the spread between first and second place isn't too big. Players might feel they have already lost if there is a vast number of points to reach the next position.  
 > - **Include floors and caps for KPIs** to avoid an achievement of a single rep overtaking the entire player field.  Floors define the minimum number a KPI needs to meet for a player to get points. Caps define the upper limit for the KPI to generate points for players. For example, if you set a floor of 5 and a cap of 50 for a KPI that tracks phone calls, players need to achieve at least 5 phone calls to get a point.  Due to the cap, they will get the same points as for 50 calls if they achieve 80 calls.   Floors and caps reset each week of the game.  
   
- For more information about KPIs, see [Key performance indicators (KPIs)](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434).  
+ For more information about KPIs, see [Before you get started](before-you-get-started.md).  
   
 ##### Select  a KPI  
   
-1.  In step 2 of the game setup process, choose from the available KPIs in the drop-down menu. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user with the KPI Manager security role. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure KPIs in Dynamics 365](http://msdn.microsoft.com/en-us/b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b)  
+1.  In step 2 of the game setup process, choose from the available KPIs in the drop-down menu. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user with the KPI Manager security role. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
   
 2.  Optionally, provide a different (game-specific) name for the KPI.  
   
@@ -84,7 +84,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 6.  Repeat the steps above for all KPIs you have planned for the game.  
   
-7.  Optionally, you can use Excel Point Scoring for certain KPIs. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel Point Scoring](http://msdn.microsoft.com/en-us/1c58f29f-95df-4b2d-b0c4-56cea45bf196)  
+7.  Optionally, you can use Excel Point Scoring for certain KPIs. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 8.  In the game setup header, click **2** to proceed to the next step.  
   
@@ -115,9 +115,9 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 <a name="step4"></a>   
 ### Awards and prizes  
- In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Awards and prizes](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434)  
+ In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Before you get started](before-you-get-started.md)  
   
- In addition to game awards, you can  set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Define weekly awards](http://msdn.microsoft.com/en-us/f34678ce-1037-4788-8394-f83866583c3c)  
+ In addition to game awards, you can  set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)  
   
  To complete the game setup, click **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.  
   
@@ -130,14 +130,14 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 <a name="BKMK_runGame"></a>   
 ## Run the game and keep scores up to date  
- During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel Point Scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel Point Scoring](http://msdn.microsoft.com/en-us/1c58f29f-95df-4b2d-b0c4-56cea45bf196)  
+ During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel Point Scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 > [!IMPORTANT]
 >  When you edit an active game and remove a KPI or change the active players, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 > [!TIP]
->  -   Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure and view Gamification Stream TV](http://msdn.microsoft.com/en-us/31346f85-42c9-4675-a8dd-062da7b94d4f)  
-> -   Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Schedule weekly or one-time emails](http://msdn.microsoft.com/en-us/1e93e7a0-a0f6-4817-a361-a173df8fc74b)  
+>  -   Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure and view TVs](configure-and-view-tvs.md)  
+> -   Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
   
 <a name="completeGame"></a>   
 ## Complete a game  
@@ -153,6 +153,6 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
     >  If you need to make corrections to a completed game, click the **Make Active** button in the **Completed Games** list.  
   
 ## See Also  
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Manage Gamification in Microsoft Dynamics 365](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)   
- [Manage players and fans in Gamification](http://msdn.microsoft.com/en-us/4df5e61b-0d7b-4cef-b741-14bed0637756)
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
+ [Manage players and fans in Gamification](manage-players-and-fans-in-gamification.md)

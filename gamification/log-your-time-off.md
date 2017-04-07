@@ -40,5 +40,5 @@ If you’re going to be out of the office during any period of the game, for exa
 3.  To indicate you are available again in that game period, click **Remove**![Remove button in Gamification](media/remove-symbol-gamification.png "Remove button in Gamification").  
   
 ## See Also  
- [For players and fans](http://msdn.microsoft.com/en-us/4aa06e76-6c87-424e-9068-58e706ddd7f9)   
- [Manage a Fantasy Sports team](http://msdn.microsoft.com/en-us/ce3d8906-0c19-4aac-aba6-e9385a21f18d)
+ [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   
+ [Manage a fantasy team](manage-a-fantasy-team.md)

@@ -32,7 +32,7 @@ When you set up a new game, you need to define which users are  players and whic
   
 2.  On the **Import Users from Dynamics 365** page, select the **Security role** for each user.  
   
-     Likely, a vast majority of the imported users will be users who are joined by a handful of game managers. For more information about the available security roles and their associated permissions, see [](http://msdn.microsoft.com/en-us/afad369f-fe8a-4ced-8808-0af86ffad2c1).  
+     Likely, a vast majority of the imported users will be users who are joined by a handful of game managers. For more information about the available security roles and their associated permissions, see [Understand Gamification security roles](understand-gamification-security-roles.md).  
   
 3.  Select the check box for the users you want to import to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)].  
   
@@ -46,5 +46,5 @@ When you set up a new game, you need to define which users are  players and whic
  Now you can edit security roles for the players, according to your planned game setup.  
   
 ## See Also  
- [For admins](http://msdn.microsoft.com/en-us/9cbe15a2-8239-4601-8af2-50a92c28f81f)   
- [Set up a game](http://msdn.microsoft.com/en-us/ec71f8e3-5cc9-4941-8067-5bf8e1081da9)
+ [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)

@@ -23,10 +23,10 @@ When the [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-m
   
  In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
   
- In the **Setup Sales Metrics** section, you can see the KPIs and their setup status in the selected game. For more information about KPIs in CRM, see [Configure KPIs in Dynamics CRM](http://msdn.microsoft.com/en-us/b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b)  
+ In the **Setup Sales Metrics** section, you can see the KPIs and their setup status in the selected game. For more information about KPIs in CRM, see [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
   
 ## See Also  
- [Before you get started](http://msdn.microsoft.com/en-us/f37b3fc7-2c99-46ac-aa75-526baac4d434)   
- [Manage Gamification in Microsoft Dynamics CRM](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)   
- [Manage Gamification in Microsoft Dynamics CRM](http://msdn.microsoft.com/en-us/cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20)   
- [Configure KPIs in Dynamics CRM](http://msdn.microsoft.com/en-us/b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b)
+ [Before you get started](before-you-get-started.md)   
+ [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
+ [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
+ [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)
