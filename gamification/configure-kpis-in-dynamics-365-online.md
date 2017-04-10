@@ -30,7 +30,7 @@ Scores and achievements in your games are based on KPIs that you define in [!INC
 ## Configure and edit KPIs in Dynamics 365  
  Configure KPI details  in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] to select them for a new contest in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.  
   
- There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Consider some of our examples for inspiration and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Best practices in working with KPIs](best-practices-in-working-with-kpis.md)  
+ There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Consider some of our examples for inspiration and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Best practices in working with KPIs](best-practices-in-working-with-kpis.md)  
   
 #### Configure a KPI  
   
@@ -85,7 +85,7 @@ Scores and achievements in your games are based on KPIs that you define in [!INC
   
  When you are done setting up all required KPIs, [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will sync the data to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] when you start the game.  
   
- If you want to score a KPI manually, you can use Excel Point Scoring. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
+ If you want to score a KPI manually, you can use Excel Point Scoring. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 #### Edit a KPI  
   

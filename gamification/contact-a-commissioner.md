@@ -21,7 +21,7 @@ When you need to get in touch with a Commissioner or want to raise an issue with
  To reach out by using the help options the Commissioner has provided, sign in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], and then go to **Help** > **Contact Commissioner**.  
   
 > [!NOTE]
->  If this link doesn't work for the game you are part of, ask the Commissioner to configure this setting. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Personalize your Gamification game experience](personalize-your-gamification-game-experience.md)  
+>  If this link doesn't work for the game you are part of, ask the Commissioner to configure this setting. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Personalize your Gamification game experience](personalize-your-gamification-game-experience.md)  
   
 ## See Also  
  [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   

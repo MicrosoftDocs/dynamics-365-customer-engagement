@@ -25,14 +25,14 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
 -   Users must have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned to access the [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] service.  
   
--   Users must have an up-to-date browser. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Browser and system requirements for Gamification](browser-and-system-requirements-for-gamification.md)  
+-   Users must have an up-to-date browser. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Browser and system requirements for Gamification](browser-and-system-requirements-for-gamification.md)  
   
 <a name="BKMK_install"></a>   
 ## Install Gamification for [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)]  
  [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] capabilities in [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] are a solution for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] that you install from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919).  
   
 > [!NOTE]
-> [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] can be used exclusively on a single [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance per [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] tenant. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][TechNet: Multiple online instances or tenants](https://technet.microsoft.com/library/dn722373.aspx)  
+> [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] can be used exclusively on a single [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance per [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] tenant. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [TechNet: Multiple online instances or tenants](https://technet.microsoft.com/library/dn722373.aspx)  
   
 #### Install the solution from AppSource  
   
@@ -74,7 +74,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
  You'll receive an email with additional details and you can now access your organization's [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] instance.  
   
- Additionally, the system creates a set of default KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] so you can quickly get started with the first game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
+ Additionally, the system creates a set of default KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] so you can quickly get started with the first game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
   
  To sign in as the first Commissioner, go to [Gamification sign-in](https://go.microsoft.com/fwlink/p/?linkid=830344).  
   

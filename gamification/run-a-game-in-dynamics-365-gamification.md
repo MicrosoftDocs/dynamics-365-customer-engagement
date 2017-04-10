@@ -22,7 +22,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 -   You are assigned the Commissioner or game manager security role in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)].  
   
-- [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
+- [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
 ## Set up a game  
  By setting up a game,  a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
@@ -35,13 +35,13 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 1.  Provide a **Name** for the game.  
   
-2.  Select the **Game Model**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Before you get started](before-you-get-started.md)  
+2.  Select the **Game Model**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
   
      For more information about setting up a Stream TV, see [Configure and view TVs](configure-and-view-tvs.md).  
   
 3.  Select the **Sport Theme** you want to use for the game.  
   
-4.  Choose if you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Before you get started](before-you-get-started.md)  
+4.  Choose if you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
   
 5.  To specify how often players can change their teams, set the **Draft Frequency** . Ideally, you'll set a weekly draft frequency to provide players the flexibility to replace players on their team roster if they're removed from the game or take some time off.  
   
@@ -66,7 +66,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 ##### Select  a KPI  
   
-1.  In step 2 of the game setup process, choose from the available KPIs in the drop-down menu. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user with the KPI Manager security role. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
+1.  In step 2 of the game setup process, choose from the available KPIs in the drop-down menu. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user with the KPI Manager security role. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
   
 2.  Optionally, provide a different (game-specific) name for the KPI.  
   
@@ -84,7 +84,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 6.  Repeat the steps above for all KPIs you have planned for the game.  
   
-7.  Optionally, you can use Excel Point Scoring for certain KPIs. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
+7.  Optionally, you can use Excel Point Scoring for certain KPIs. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 8.  In the game setup header, click **2** to proceed to the next step.  
   
@@ -115,9 +115,9 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 <a name="step4"></a>   
 ### Awards and prizes  
- In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Before you get started](before-you-get-started.md)  
+ In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
   
- In addition to game awards, you can  set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)  
+ In addition to game awards, you can  set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)  
   
  To complete the game setup, click **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.  
   
@@ -126,18 +126,18 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 > [!NOTE]
 >  Add or remove players or fans at any time after you activate a game by using the **Add or remove players or fans** button on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] to freeze the points for that player so teams don't lose points for the current and past game periods.  
   
- Don't forget to complete the game when you reach the game end date. It's a critical step to be sure prizes get awarded to the players. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Complete a game](#completeGame)  
+ Don't forget to complete the game when you reach the game end date. It's a critical step to be sure prizes get awarded to the players. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Complete a game](#completeGame)  
   
 <a name="BKMK_runGame"></a>   
 ## Run the game and keep scores up to date  
- During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel Point Scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
+ During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel Point Scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 > [!IMPORTANT]
 >  When you edit an active game and remove a KPI or change the active players, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 > [!TIP]
->  -   Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Configure and view TVs](configure-and-view-tvs.md)  
-> -   Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)][Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
+>  -   Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
+> -   Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
   
 <a name="completeGame"></a>   
 ## Complete a game  
