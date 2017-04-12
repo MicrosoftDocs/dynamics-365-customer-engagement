@@ -45,7 +45,7 @@ When you participate in a fantasy team game, players become team managers and ca
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Teams** > **Team Rosters**.  
   
-2.  Click ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
+2.  Click  ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
   
     > [!NOTE]
     >  You can only change a team roster after the first game period has ended.  

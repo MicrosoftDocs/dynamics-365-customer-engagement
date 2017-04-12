@@ -42,11 +42,11 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 8.  Configure the first slide and set the **Leaderboard** to display the underlying **KPI** and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and change the theme for the slide.  
   
-     To add the next leaderboard to your slide show, click **Add Slide**![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification").  
+     To add the next leaderboard to your slide show, click **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification").  
   
 9. To complete the TV setup, click **Save & Close**.  
   
-10. Click **View TV**![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens.  
+10. Click **View TV** ![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens.  
   
 11. Copy the URL of the newly opened browser tab and enter in the browser connected to the screen in your office.  
   
@@ -76,7 +76,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
   
-2.  Click **Edit**![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide-show you want to edit.  
+2.  Click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide-show you want to edit.  
   
 3.  Finalize your edits and then click **Save**.  
   
@@ -84,7 +84,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
   
-2.  Click **Delete**![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide-show you want to delete.  
+2.  Click **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide-show you want to delete.  
   
 3.  Confirm your deletion.  
   

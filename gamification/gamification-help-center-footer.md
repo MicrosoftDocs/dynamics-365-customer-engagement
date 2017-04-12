@@ -34,13 +34,13 @@ manager: "sakudes"
   
  [Support](http://go.microsoft.com/fwlink/p/?LinkId=394391)  
   
-<a name="lowerLinks"></a> [![Facebook symbol](media/facebookicon.png "Facebook symbol")](http://go.microsoft.com/fwlink/p/?LinkID=324998)  
+<a name="lowerLinks"></a> [ ![Facebook symbol](media/facebookicon.png "Facebook symbol")](http://go.microsoft.com/fwlink/p/?LinkID=324998)  
   
- [![Twitter symbol](media/twittericon.png "Twitter symbol")](http://go.microsoft.com/fwlink/p/?LinkID=324999)  
+ [ ![Twitter symbol](media/twittericon.png "Twitter symbol")](http://go.microsoft.com/fwlink/p/?LinkID=324999)  
   
- [![YouTube symbol](media/youtubeicon.png "YouTube symbol")](http://go.microsoft.com/fwlink/p/?LinkId=400720)  
+ [ ![YouTube symbol](media/youtubeicon.png "YouTube symbol")](http://go.microsoft.com/fwlink/p/?LinkId=400720)  
   
- [![LinkedIn symbol](media/linkedinicon.png "LinkedIn symbol")](http://go.microsoft.com/fwlink/p/?LinkID=325000)  
+ [ ![LinkedIn symbol](media/linkedinicon.png "LinkedIn symbol")](http://go.microsoft.com/fwlink/p/?LinkID=325000)  
   
  [Privacy & Cookies](http://go.microsoft.com/fwlink/p/?LinkID=271658)  
   

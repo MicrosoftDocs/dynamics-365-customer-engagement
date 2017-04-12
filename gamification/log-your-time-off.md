@@ -37,7 +37,7 @@ If you’re going to be out of the office during any period of the game, for exa
   
 2.  In the list,  select the game period to remove your time off from.  
   
-3.  To indicate you are available again in that game period, click **Remove**![Remove button in Gamification](media/remove-symbol-gamification.png "Remove button in Gamification").  
+3.  To indicate you are available again in that game period, click **Remove** ![Remove button in Gamification](media/remove-symbol-gamification.png "Remove button in Gamification").  
   
 ## See Also  
  [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   

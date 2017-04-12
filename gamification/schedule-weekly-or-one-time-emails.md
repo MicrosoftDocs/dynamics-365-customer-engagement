@@ -1,4 +1,4 @@
----
+﻿---
 title: "Schedule weekly or one-time emails | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
@@ -25,7 +25,7 @@ Send weekly updates on the leaderboards or announce award winners with scheduled
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Emails**.  
   
-2.  Click the **Schedule New Email** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button.  
+2.  Click the **Schedule New Email**  ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button.  
   
 3.  Provide the basic information for your email, including **Name**, **Game**, **Frequency**, and **Recipients**.  
   

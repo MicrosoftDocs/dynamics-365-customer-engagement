@@ -18,13 +18,13 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
  [!INCLUDE[proc_on_this_page](includes/proc-on-this-page-md.md)]  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Prerequisites](#BKMK_prerequisistes)  
+  ![Down arrow button](media/down-arrow.png "Down arrow button") [Prerequisites](#BKMK_prerequisistes)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Install Gamification for Dynamics 365](#BKMK_install)  
+  ![Down arrow button](media/down-arrow.png "Down arrow button") [Install Gamification for Dynamics 365](#BKMK_install)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Install Gamification for Dynamics 365](install-gamification-for-dynamics-365.md)  
+  ![Down arrow button](media/down-arrow.png "Down arrow button") [Install Gamification for Dynamics 365](install-gamification-for-dynamics-365.md)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [KPI Manager security role](#BKMK_users)  
+  ![Down arrow button](media/down-arrow.png "Down arrow button") [KPI Manager security role](#BKMK_users)  
   
 <a name="BKMK_prerequisistes"></a>   
 ## Prerequisites  

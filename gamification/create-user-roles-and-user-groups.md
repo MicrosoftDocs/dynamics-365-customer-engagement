@@ -41,7 +41,7 @@ User roles and groups let a Commissioner manage large groups of individuals in [
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Users** > **User Roles**.  
   
-2.  In the list of user roles, click **Edit**![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification").  
+2.  In the list of user roles, click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification").  
   
 3.  To assign this role, select the check boxes for the players you want to assign in the users list and click **Assign Users**.  
   
@@ -51,7 +51,7 @@ User roles and groups let a Commissioner manage large groups of individuals in [
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Users** > **User Roles**.  
   
-2.  In the row of the role you want to edit or delete, click **Edit**![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") or **Delete**![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification").  
+2.  In the row of the role you want to edit or delete, click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") or **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification").  
   
 > [!NOTE]
 >  You can only delete roles that aren't assigned to any player.  
@@ -80,7 +80,7 @@ User roles and groups let a Commissioner manage large groups of individuals in [
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Users** > **User Groups**.  
   
-2.  In the list of user groups click **Edit**![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") or **Delete**![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification").  
+2.  In the list of user groups click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") or **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification").  
   
 3.  Edit the groups, and then click **Save** to apply your changes, or confirm the deletion.  
   

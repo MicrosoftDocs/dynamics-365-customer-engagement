@@ -20,7 +20,7 @@ Configure weekly awards to keep players focused on delivering results for the ri
   
 #### Configure a weekly award  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Games** > **Weekly Awards**![Weekly Awards button in Gamification](media/weekly-awards-gamification.png "Weekly Awards button in Gamification").  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Games** > **Weekly Awards** ![Weekly Awards button in Gamification](media/weekly-awards-gamification.png "Weekly Awards button in Gamification").  
   
 2.  Click the game period you want to configure weekly awards for.  
   
@@ -30,7 +30,7 @@ Configure weekly awards to keep players focused on delivering results for the ri
   
 4.  Configure the prize for first place.  
   
-     Optionally, **Add**![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") more places and configure prizes for them if you want.  
+     Optionally, **Add** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") more places and configure prizes for them if you want.  
   
 5.  Click **Save** to apply your configuration.  
   

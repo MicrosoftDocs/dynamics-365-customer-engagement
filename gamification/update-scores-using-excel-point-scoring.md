@@ -25,16 +25,16 @@ If you plan to run a game using one or more KPIs that can't be tracked by using 
   
 1.  Go to **Games** > **Games**.  
   
-2.  Click the **[!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] Point Scoring** (![Excel point scoring button in Gamification](media/excel-point-scoring-gamification.png "Excel point scoring button in Gamification")) button.  
+2.  Click the **[!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] Point Scoring** ( ![Excel point scoring button in Gamification](media/excel-point-scoring-gamification.png "Excel point scoring button in Gamification")) button.  
   
 3.  Select the game you want to update the scores from, and then click the game period you want to update.  
   
-4.  Click **Download [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] template**![Download Excel template in Gamification](media/download-excel-gamification.png "Download Excel template in Gamification"), and then update the scores in the file.  
+4.  Click **Download [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] template** ![Download Excel template in Gamification](media/download-excel-gamification.png "Download Excel template in Gamification"), and then update the scores in the file.  
   
     > [!IMPORTANT]
     >  The manually-scored data needs to be up to date for the respective game period. All other KPIs will continuously sync from [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
-5.  Click **Upload [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] file**![Upload Excel file in Gamification](media/upload-excel-gamification.png "Upload Excel file in Gamification") to upload the file, including the manually updated scores.  
+5.  Click **Upload [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] file** ![Upload Excel file in Gamification](media/upload-excel-gamification.png "Upload Excel file in Gamification") to upload the file, including the manually updated scores.  
   
  The selected KPIs are now updated in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] for the selected game period.  
   

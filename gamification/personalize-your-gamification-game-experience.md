@@ -24,7 +24,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 #### Upload your company logo  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)],  go to **Settings**![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
   
 2.  Click the **Gamification Settings** tab.  
   
@@ -40,7 +40,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 #### Set the link for the contact menu  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings**![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
   
 2.  Click the **Gamification Settings** tab.  
   
@@ -54,7 +54,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 #### Configure streaming of TV settings for Smack Talk  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings**![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
   
 2.  Click the **Stream TV Settings** tab.  
   
@@ -82,7 +82,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 #### Show or hide actuals in player stats  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings**![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
   
 2.  Click the **Gamification Settings** tab.  
   
@@ -103,7 +103,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 #### Show or hide completed games  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings**![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
   
 2.  Click the **Gamification Settings** tab.  
   
