@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Schedule weekly or one-time emails | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-04-06"
