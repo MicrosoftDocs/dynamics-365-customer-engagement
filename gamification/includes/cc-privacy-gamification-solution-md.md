@@ -24,11 +24,11 @@
   
  [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest-md.md)] uses SQL [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest-md.md)] to store:  
   
--   KPI data  
+- KPI data  
   
--   Game calculations  
+- Game calculations  
   
--   Organization (tenant) data  
+- Organization (tenant) data  
   
  [Azure Blob Storage](https://azure.microsoft.com/services/storage/)  
   
