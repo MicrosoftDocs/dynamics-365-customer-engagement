@@ -136,7 +136,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 >  When you edit an active game and remove a KPI or change the active players, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 > [!TIP]
->  - Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
+> - Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
 > - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
   
 <a name="completeGame"></a>   
