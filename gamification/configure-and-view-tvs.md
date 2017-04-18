@@ -24,7 +24,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create a Stream TV slide show  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Games** > **Game Setup**.  
   
 2.  Provide a **Name** for the game and select **Stream TV** from the **Game Model** drop-down menu.  
   
