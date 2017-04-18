@@ -52,7 +52,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
 ## Define the posts to show in Stream TV games  
  You can configure which posts from the **Smack Talk** board show in Stream TV and which to hide when you are streaming the leaderboard to a screen in your office. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
   
-#### Configure streaming of TV settings for Smack Talk  
+#### Configure Stream TV settings  
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
   
@@ -72,7 +72,9 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
     - **BAM Post Display Count**: Define how many times a **BAM** post shows in  a Stream TV.  
   
-    - **BAM Display Waiting Time (Seconds)** : Number of  seconds before a **BAM** post shows again in a Stream TV.  
+    - **BAM Display Waiting Time (Seconds)**: Number of  seconds before a **BAM** post shows again in a Stream TV.  
+  
+    - **Enable Public Stream TV**: Allows game owners to create Stream TVs that can be viewed without signing in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
   
 4.  To apply your changes, click **Save**.  
   
