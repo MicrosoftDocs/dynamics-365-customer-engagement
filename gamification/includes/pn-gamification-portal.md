@@ -1,1 +1,1 @@
-[Gamification](https://gamification.dynamics.com)]
+[Gamification](https://gamification.dynamics.com)
