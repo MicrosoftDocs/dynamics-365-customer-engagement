@@ -57,12 +57,12 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
  KPIs are key to the game. They are metrics based on [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] data that automatically syncs to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
   
 > [!TIP]
->  - **Use descriptive names** for KPIs so players can understand how to earn points.  
+> - **Use descriptive names** for KPIs so players can understand how to earn points.  
 > - **The ideal number of KPIs per game is between 3 and 5.** Too many KPIs will result in players focusing on a few metrics while others are forgotten.  But you also want to have enough KPIs so that players of all levels will feel they can contribute and succeed.  A good practice is  including both results-driven and behavioral KPIs.  Results-driven KPIs, for example, are revenue amount, % of quota, and closed sales. Behavioral metrics  include things like number of calls made, number of appointments set, and number of demos held.  However, you can define as many KPIs as you like for your game.  
 > - **Use lower numbers for KPIs.** For example, award 1 point for every new lead rather than 100 points for every 5 leads so the spread between first and second place isn't too big. Players might feel they have already lost if there is a vast number of points to reach the next position.  
 > - **Include floors and caps for KPIs** to avoid an achievement of a single rep overtaking the entire player field.  Floors define the minimum number a KPI needs to meet for a player to get points. Caps define the upper limit for the KPI to generate points for players. For example, if you set a floor of 5 and a cap of 50 for a KPI that tracks phone calls, players need to achieve at least 5 phone calls to get a point.  Due to the cap, they will get the same points as for 50 calls if they achieve 80 calls.   Floors and caps reset each week of the game.  
   
- For more information about KPIs, see [Before you get started](before-you-get-started.md).  
+> For more information about KPIs, see [Before you get started](before-you-get-started.md).  
   
 ##### Select  a KPI  
   
