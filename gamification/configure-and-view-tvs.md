@@ -24,33 +24,34 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create a Stream TV slide show  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup**.  
+1. In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup**.  
   
-2.  Provide a **Name** for the game and select **Stream TV** from the **Game Model** drop-down menu.  
+2. Provide a **Name** for the game and select **Stream TV** from the **Game Model** drop-down menu.  
   
-3.  Set the **Start Date** and **End Date**.  
+3. Set the **Start Date** and **End Date**.  
   
-4.  Define the KPIs you want to display on screens.  
+4. Define the KPIs you want to display on screens.  
   
-5.  Select the players and fans you want to show on the leaderboard.  
+5. Select the players and fans you want to show on the leaderboard.  
   
-6.  To apply your configuration, click **Save TV** .  
+6. To apply your configuration, click **Save TV** .  
   
-     You'll be redirected to the **Add or Edit Stream TV** page to configure how the results are displayed.  
+   You'll be redirected to the **Add or Edit Stream TV** page to configure how the results are displayed.  
   
-7.  Provide a **TV Name** and set the values for how to transition in the slide-show.  
+7. Provide a **TV Name** and set the values for how to transition in the slide-show.  
   
-8.  Configure the first slide and set the **Leaderboard** to display the underlying **KPI** and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and change the theme for the slide.  
+8. Configure the first slide and set the **Leaderboard** to display the underlying **KPI** and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and change the theme for the slide.  
   
-To add the next leaderboard to your slide show, click **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification").  
   
 9. Optionally, make this Stream TV accessible from the public internet. If the commissioner allows the creation of public Stream TVs you can set **Enable Public Stream TV** to **ON**. 
   
-10. To complete the TV setup, click **Save & Close**.  
+10. To add the next leaderboard to your slide show, click **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification"). 
+
+11. To complete the TV setup, click **Save & Close**.  
   
-11. Click **View TV** ![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens. Copy and share the URL to see the same stream on other screens around your office. If public Stream TVs are enabled, the leaderboards will show without sign-in. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-your-gamification-game-experience#define-the-posts-to-show-in-stream-tv-games)  
+12. Click **View TV** ![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens. Copy and share the URL to see the same stream on other screens around your office. If public Stream TVs are enabled, the leaderboards will show without sign-in. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-your-gamification-game-experience#define-the-posts-to-show-in-stream-tv-games)  
   
-12. Copy the URL of the newly opened browser tab and enter in the browser connected to the screen in your office.  
+13. Copy the URL of the newly opened browser tab and enter in the browser connected to the screen in your office.  
   
 <a name="BKMK_activeGame"></a>   
 ## Stream results from active games  
