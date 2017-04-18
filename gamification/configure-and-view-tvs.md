@@ -56,7 +56,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create custom streams from multiple active games  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)](https://gamification.dynamics.com), go to **Stream TV**.  
   
 2.  Click **Custom Streams**.  
   
