@@ -1,7 +1,7 @@
 ﻿---
 title: "Frequently asked questions about Dynamics 365 - Gamification | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-04-06"
+ms.date: "04/18/2017"
 ms.reviewer: ""
 ms.service: "gamification"
 ms.suite: ""
