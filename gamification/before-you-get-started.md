@@ -82,13 +82,13 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
  If you use fixed teams, you can use team awards and team MVP awards instead of team manager awards. If your game isn't using teams, you can't use any team awards. Have one winner for each award, or award up to ten places.  
   
 > [!TIP]
->  Determine the budget available for prizes in your game.  Distribute this across the awards in your game based on how you want to motivate and give out incentives to your players. Other considerations for awards:  
+>  Determine the budget available for prizes in your game. Distribute this across the awards in your game based on how you want to motivate and give out incentives to your players. Other considerations for awards:  
 >   
->  -   It’s a good idea to include a number of awards with multiple paths to win. This way if someone falls significantly behind in one area, they have other things to focus on. For example, if a player recognizes that they can no longer win the Highest Point award, but are in the top 5 for a specific sales KPI – they’ll shift their focus and remain motivated.  
-> -   If your KPIs span the entire team, the Highest Point award is highly appropriate. However, if you’ve organized players into positions (based on quota, role, etc.) it’s better to use position awards. This levels the playing field and ensures each player has an equal chance to win.  
-> -   It’s important to associate prizes to Team Managers; otherwise, players won’t have any incentive to draft/trade players, and the ‘peer pressure’ element of the game will be diminished or lost.  
-> -   Based on the size of your team, consider offering prizes for multiple places (1st – 10th place).  
-> -   If you’re using position awards, keep in mind that you’ll have to distribute an award for “each” position being used. For example, if you have first base, second base, third base, pitcher, and catcher – and you use a gold award – you’ll have 5 winners.  
+> - It’s a good idea to include a number of awards with multiple paths to win. This way if someone falls significantly behind in one area, they have other things to focus on. For example, if a player recognizes that they can no longer win the Highest Point award, but are in the top 5 for a specific sales KPI – they’ll shift their focus and remain motivated.  
+> - If your KPIs span the entire team, the Highest Point award is highly appropriate. However, if you’ve organized players into positions (based on quota, role, etc.) it’s better to use position awards. This levels the playing field and ensures each player has an equal chance to win.  
+> - It’s important to associate prizes to Team Managers; otherwise, players won’t have any incentive to draft/trade players, and the ‘peer pressure’ element of the game will be diminished or lost.  
+> - Based on the size of your team, consider offering prizes for multiple places (1st – 10th place).  
+> - If you’re using position awards, keep in mind that you’ll have to distribute an award for “each” position being used. For example, if you have first base, second base, third base, pitcher, and catcher – and you use a gold award – you’ll have 5 winners.  
   
  Awards and prizes are assigned when you end a completed game.  
   
