@@ -146,6 +146,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games**.  
   
 2.  In the **Active Games** list, click the **End Game** button for the game you want to complete.  
+
   
 ## See Also  
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
