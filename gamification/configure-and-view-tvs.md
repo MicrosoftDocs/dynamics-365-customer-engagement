@@ -16,7 +16,7 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Configure and view TVs
-Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens around your office. All other game models can also be displayed on TVs.  
+Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens around your office. All other game models available in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] can also be displayed on TVs.  
   
 <a name="BKMK_newGame"></a>   
 ## Set up a Stream TV game  
