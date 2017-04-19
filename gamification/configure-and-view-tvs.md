@@ -63,7 +63,7 @@ Stream leaderboards from multiple active games to screens around your office to 
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
   
-2.  Click the [Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).  
+2.  Click the ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).  
   
 3.  Provide a **TV Name** and set the values for how to transition in the slide-show.  
   
