@@ -60,19 +60,19 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 3.  Set the values according to meet your requirements.  
   
-    - **Turn Off TV Board Posts**: Hides all posts on Smack Talk  from a leaderboard shown in a Stream TV.  
+    - **Show Board Posts**: Shows all posts on Smack Talk  from a leaderboard shown in a Stream TV.  
   
     - **Leaderboard Post Display Time (Seconds)**: Number of seconds a Smack Talk Post shows in a Stream TV.  
   
-    - **Leaderboard Post Display Count**: Define how many times a Smack Talk post is shows in  a Stream TV.  
+    - **Leaderboard Post Display Count**: Define how many times a Smack Talk post is shows in a Stream TV.  
   
     - **Display Waiting Time (Seconds)**: Number of  seconds before a Smack Talk Post shows again in a Stream TV.  
   
-    - **Turn off BAM Posts**: Hides all **BAM** posts on Smack Talk  from a leaderboard shown in a Stream TV.  
+    - **Show BAM Posts**: Show all **BAM** posts on Smack Talk from a leaderboard shown in a Stream TV.  
   
     - **BAM Post Display Count**: Define how many times a **BAM** post shows in  a Stream TV.  
   
-    - **BAM Display Waiting Time (Seconds)**: Number of  seconds before a **BAM** post shows again in a Stream TV.  
+    - **BAM Display Waiting Time (Seconds)**: Number of seconds before a **BAM** post shows again in a Stream TV.  
   
     - **Enable Public Stream TV**: Allows game owners to create Stream TVs that can be viewed without signing in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
   

@@ -16,7 +16,9 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Configure and view TVs
-Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens around your office. All other game models can also be displayed on TVs.  
+
+Display a slide show for daily, weekly, and monthly KPIs on TVs and screens around your office. All other game models can also be displayed on TVs.
+To create a Stream TV from multiple active games, see [Stream results from active games](/configure-and-view-tvs#stream-results-from-active-games).
   
 <a name="BKMK_newGame"></a>   
 ## Set up a Stream TV game  
@@ -43,25 +45,25 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
 8. Configure the first slide and set the **Leaderboard** to display the underlying **KPI** and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and change the theme for the slide.  
   
   
-9. Optionally, make this Stream TV accessible from the public internet. If the commissioner allows the creation of public Stream TVs you can set **Enable Public Stream TV** to **ON**. 
+9. Optionally, make this Stream TV accessible from the public internet. A commissioner can allow the creation of public Stream TVs in [!INCLUDE[pn-gamification-shortest](includes/pn-gamification-shortest-md.md)] settings. If it's allowed, you can set **Enable Public Stream TV** to **ON**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-your-gamification-game-experience#define-the-posts-to-show-in-stream-tv-games)
   
 10. To add the next leaderboard to your slide show, click **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification"). 
 
 11. To complete the TV setup, click **Save & Close**.  
   
-12. Click **View TV** ![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens. Copy and share the URL to see the same stream on other screens around your office. If public Stream TVs are enabled, the leaderboards will show without sign-in. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-your-gamification-game-experience#define-the-posts-to-show-in-stream-tv-games)  
+12. Click **View TV** ![View button in Gamification](media/view-symbol-gamification.png "View button in Gamification") for the slide show you want to display on other screens and a new browser tab opens. Copy and share the URL to see the same stream on other screens around your office. If public Stream TVs are enabled, the leaderboards will show without sign-in.  
   
 13. Copy the URL of the newly opened browser tab and enter in the browser connected to the screen in your office.  
   
 <a name="BKMK_activeGame"></a>   
 ## Stream results from active games  
- Stream leaderboards from active games to screens around your office to keep your teams engaged with the latest results.  
+Stream leaderboards from multiple active games to screens around your office to keep your teams engaged with the latest results.  
   
 #### Create custom streams from multiple active games  
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
   
-2.  Click **Custom Streams**.  
+2.  Click the [Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).  
   
 3.  Provide a **TV Name** and set the values for how to transition in the slide-show.  
   
