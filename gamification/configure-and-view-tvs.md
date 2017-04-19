@@ -56,7 +56,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create custom streams from multiple active games  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)](https://gamification.dynamics.com), go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
 2.  Click **Custom Streams**.  
   
@@ -74,7 +74,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Edit a Stream TV  
   
-1.  In [Gamification web app](https://gamification.dynamics.com)<!---[!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]-->, go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
 2.  Click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide-show you want to edit.  
   
@@ -82,7 +82,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Delete a Stream TV  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
 2.  Click **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide-show you want to delete.  
   
