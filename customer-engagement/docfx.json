@@ -3,7 +3,7 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md", "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -30,7 +30,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {},
-    "fileMetadata": {},
+    "fileMetadata": {
+      "breadcrumb_path": {
+        "gamification/**.*": "bc/toc.yml"
+      }
+    },
     "template": [],
     "dest": "customer-engagement"
   }
