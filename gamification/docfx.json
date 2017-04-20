@@ -28,9 +28,7 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "bc/toc.yml"
-    },
+    "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
     "dest": "gamification"
