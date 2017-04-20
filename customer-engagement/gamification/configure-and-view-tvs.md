@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Configure and view TVs | MicrosoftDocs"
 ms.custom: ""
 ms.date: "04/18/2017"
@@ -46,7 +46,7 @@ To create a Stream TV from multiple active games, see [Stream results from activ
 8. Configure the first slide and set the **Leaderboard** to display the underlying **KPI** and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and change the theme for the slide.  
   
   
-9. Optionally, make this Stream TV accessible from the public internet. A commissioner can allow the creation of public Stream TVs in [!INCLUDE[pn-gamification-shortest](includes/pn-gamification-shortest-md.md)] settings. If it's allowed, you can set **Enable Public Stream TV** to **ON**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-your-gamification-game-experience#define-the-posts-to-show-in-stream-tv-games)
+9. Optionally, make this Stream TV accessible from the public internet. A commissioner can allow the creation of public Stream TVs in [!INCLUDE[pn-gamification-shortest](includes/pn-gamification-shortest-md.md)] settings. If it's allowed, you can set **Enable Public Stream TV** to **ON**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-your-gamification-game-experience.md#define-the-posts-to-show-in-stream-tv-games)
   
 10. To add the next leaderboard to your slide show, click **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification"). 
 
