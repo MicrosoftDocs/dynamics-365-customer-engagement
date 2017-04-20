@@ -16,7 +16,7 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Configure and view TVs
-Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens around your office. All other game models can also be displayed on TVs.  
+Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens around your office. All other game models available in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] can also be displayed on TVs.  
   
 <a name="BKMK_newGame"></a>   
 ## Set up a Stream TV game  
@@ -24,7 +24,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create a Stream TV slide show  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Games** > **Game Setup**.  
   
 2.  Provide a **Name** for the game and select **Stream TV** from the **Game Model** drop-down menu.  
   
@@ -56,7 +56,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Create custom streams from multiple active games  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
 2.  Click **Custom Streams**.  
   
@@ -74,7 +74,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Edit a Stream TV  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
 2.  Click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide-show you want to edit.  
   
@@ -82,7 +82,7 @@ Display a slide show for daily, weekly, and monthly KPIs  on TVs and screens aro
   
 #### Delete a Stream TV  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Stream TV**.  
+1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
 2.  Click **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide-show you want to delete.  
   
