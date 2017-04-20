@@ -89,7 +89,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 8.  In the game setup header, click **2** to proceed to the next step.  
   
 > [!IMPORTANT]
->  When you remove a KPI from an active game, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
+>  When you remove a KPI from an active game, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 <a name="step5"></a>   
 #### Game quotas  
@@ -97,8 +97,6 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 > [!NOTE]
 >  You can have up to four KPIs per game that use a quota.  
-  
- To proceed to the next step, click **Next** .  
   
 <a name="step3"></a>   
 ### Players and fans  
@@ -147,10 +145,8 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games**.  
   
-2.  In the **Active Games** list, click the **Game Complete** button for the game you want to complete.  
-  
-    > [!NOTE]
-    >  If you need to make corrections to a completed game, click the **Make Active** button in the **Completed Games** list.  
+2.  In the **Active Games** list, click the **End Game** button for the game you want to complete.  
+
   
 ## See Also  
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
