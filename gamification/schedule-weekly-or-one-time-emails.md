@@ -1,7 +1,7 @@
 ---
 title: "Schedule weekly or one-time emails | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-04-06"
+ms.date: "04/18/2017"
 ms.reviewer: ""
 ms.service: "gamification"
 ms.suite: ""

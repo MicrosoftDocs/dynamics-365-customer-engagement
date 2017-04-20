@@ -1,7 +1,7 @@
 ﻿---
 title: "Run a game in Dynamics 365 - Gamification | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-04-06"
+ms.date: "04/18/2017"
 ms.reviewer: ""
 ms.service: "gamification"
 ms.suite: ""
@@ -16,20 +16,20 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Run a game in Dynamics 365 - Gamification
-Commissioners and game managers  create and run games to gamify KPIs for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time in the future.  
+Commissioners and game managers create and run games in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] to gamify KPIs for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time in the future.  
   
- Before you start setting up a game in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], make sure the following prerequisites are met:  
+Before you start setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], make sure the following prerequisites are met:  
   
 -   You are assigned the Commissioner or game manager security role in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)].  
   
 - [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
 ## Set up a game  
- By setting up a game,  a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
+By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
   
 <a name="step1"></a>   
 ### Basic game options  
- The first step of the game setup process is providing basic information for the game you're creating. In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup** to set up a new game or to **Games** > **Games** to edit existing games.  
+ The first step of the game setup process is providing basic information for the game you're creating. In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Games** > **Game Setup** to set up a new game or to **Games** > **Games** to edit existing games.  
   
 ##### Create a new game  
   
@@ -57,12 +57,12 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
  KPIs are key to the game. They are metrics based on [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] data that automatically syncs to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
   
 > [!TIP]
->  - **Use descriptive names** for KPIs so players can understand how to earn points.  
+> - **Use descriptive names** for KPIs so players can understand how to earn points.  
 > - **The ideal number of KPIs per game is between 3 and 5.** Too many KPIs will result in players focusing on a few metrics while others are forgotten.  But you also want to have enough KPIs so that players of all levels will feel they can contribute and succeed.  A good practice is  including both results-driven and behavioral KPIs.  Results-driven KPIs, for example, are revenue amount, % of quota, and closed sales. Behavioral metrics  include things like number of calls made, number of appointments set, and number of demos held.  However, you can define as many KPIs as you like for your game.  
 > - **Use lower numbers for KPIs.** For example, award 1 point for every new lead rather than 100 points for every 5 leads so the spread between first and second place isn't too big. Players might feel they have already lost if there is a vast number of points to reach the next position.  
 > - **Include floors and caps for KPIs** to avoid an achievement of a single rep overtaking the entire player field.  Floors define the minimum number a KPI needs to meet for a player to get points. Caps define the upper limit for the KPI to generate points for players. For example, if you set a floor of 5 and a cap of 50 for a KPI that tracks phone calls, players need to achieve at least 5 phone calls to get a point.  Due to the cap, they will get the same points as for 50 calls if they achieve 80 calls.   Floors and caps reset each week of the game.  
   
- For more information about KPIs, see [Before you get started](before-you-get-started.md).  
+> For more information about KPIs, see [Before you get started](before-you-get-started.md).  
   
 ##### Select  a KPI  
   
@@ -89,7 +89,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 8.  In the game setup header, click **2** to proceed to the next step.  
   
 > [!IMPORTANT]
->  When you remove a KPI from an active game, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
+>  When you remove a KPI from an active game, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 <a name="step5"></a>   
 #### Game quotas  
@@ -97,8 +97,6 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 > [!NOTE]
 >  You can have up to four KPIs per game that use a quota.  
-  
- To proceed to the next step, click **Next** .  
   
 <a name="step3"></a>   
 ### Players and fans  
@@ -136,8 +134,8 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 >  When you edit an active game and remove a KPI or change the active players, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 > [!TIP]
->  -   Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
-> -   Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
+> - Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
+> - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
   
 <a name="completeGame"></a>   
 ## Complete a game  
@@ -147,10 +145,8 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games**.  
   
-2.  In the **Active Games** list, click the **Game Complete** button for the game you want to complete.  
-  
-    > [!NOTE]
-    >  If you need to make corrections to a completed game, click the **Make Active** button in the **Completed Games** list.  
+2.  In the **Active Games** list, click the **End Game** button for the game you want to complete.  
+
   
 ## See Also  
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   

@@ -3,14 +3,15 @@
     "content": [
       {
         "files": [
-          "**/*.md", "**/**.yml"
+          "**/*.md"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
-          "LICENSE-CODE"
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -28,11 +29,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "bc/toc.yml"
-    },
+    "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "gamification"
+    "dest": "customer-engagement"
   }
 }
