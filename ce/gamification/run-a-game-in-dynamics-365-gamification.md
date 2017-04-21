@@ -16,20 +16,20 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Run a game in Dynamics 365 - Gamification
-Commissioners and game managers  create and run games to gamify KPIs for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time in the future.  
+Commissioners and game managers create and run games in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] to gamify KPIs for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time in the future.  
   
- Before you start setting up a game in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], make sure the following prerequisites are met:  
+Before you start setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], make sure the following prerequisites are met:  
   
 -   You are assigned the Commissioner or game manager security role in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)].  
   
 - [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
 ## Set up a game  
- By setting up a game,  a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
+By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
   
 <a name="step1"></a>   
 ### Basic game options  
- The first step of the game setup process is providing basic information for the game you're creating. In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games** > **Game Setup** to set up a new game or to **Games** > **Games** to edit existing games.  
+ The first step of the game setup process is providing basic information for the game you're creating. In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Games** > **Game Setup** to set up a new game or to **Games** > **Games** to edit existing games.  
   
 ##### Create a new game  
   
@@ -89,7 +89,7 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
 8.  In the game setup header, click **2** to proceed to the next step.  
   
 > [!IMPORTANT]
->  When you remove a KPI from an active game, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
+>  When you remove a KPI from an active game, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 <a name="step5"></a>   
 #### Game quotas  
@@ -97,8 +97,6 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 > [!NOTE]
 >  You can have up to four KPIs per game that use a quota.  
-  
- To proceed to the next step, click **Next** .  
   
 <a name="step3"></a>   
 ### Players and fans  
@@ -147,10 +145,8 @@ Commissioners and game managers  create and run games to gamify KPIs for [!INCLU
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games**.  
   
-2.  In the **Active Games** list, click the **Game Complete** button for the game you want to complete.  
-  
-    > [!NOTE]
-    >  If you need to make corrections to a completed game, click the **Make Active** button in the **Completed Games** list.  
+2.  In the **Active Games** list, click the **End Game** button for the game you want to complete.  
+
   
 ## See Also  
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
