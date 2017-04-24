@@ -23,7 +23,7 @@ When you set up a new game, you need to define which users are  players and whic
  **Fans** are people who aren’t players in an active game—for example executives,  managers or receptionists—that participate in a [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] game by drafting a team. If your CEO gets involved in the game, drafts a team, and is personally looking after player stats, that’s quite an incentive to deliver the best results!  
   
 <a name="registerPlayersFans"></a>   
-## Import users from [!INCLUDE[pn_azure_active_directory](includes/pn-azure-active-directory-md.md)]  
+## Import users from Azure Active Directory  
  Users from [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] are available automatically in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. Commissioners can import additional users from [!INCLUDE[pn_azure_active_directory](includes/pn-azure-active-directory-md.md)] which don't have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned.  
   
 #### Import users from [!INCLUDE[pn_microsoftcrm](includes/pn-microsoftcrm-md.md)]  
