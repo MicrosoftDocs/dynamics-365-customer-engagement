@@ -19,7 +19,7 @@ manager: "sakudes"
 Refer to the following documents and web pages for legal information about [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)].  
   
 <a name="BKMK_tos"></a>   
-## License Terms for [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]  
+## License Terms for Microsoft Dynamics 365 - Gamification  
  Review the following document to see the license terms for [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]:  
   
  [Microsoft Dynamics 365 - Gamification License Terms](https://go.microsoft.com/fwlink/p/?linkid=830687)  
