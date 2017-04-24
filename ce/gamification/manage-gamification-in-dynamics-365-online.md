@@ -28,7 +28,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
 -   Users must have an up-to-date browser. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Browser and system requirements for Gamification](browser-and-system-requirements-for-gamification.md)  
   
 <a name="BKMK_install"></a>   
-## Install Gamification for [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)]  
+## Install Dynamics 365 - Gamification  
  [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] capabilities in [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] are a solution for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] that you install from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919).  
   
 > [!NOTE]
@@ -55,7 +55,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
  For more information about KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], see [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md).  
   
 <a name="BKMK_authorize"></a>   
-## Activate Gamification in [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)]  
+## Activate Gamification in Dynamics 365  
  Before you can sync [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] with [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], a user with a global admin role in [!INCLUDE[pn_Office_365](includes/pn-office-365-md.md)] and a system administrator security role in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] needs to complete the set-up process to obtain the security key.  
   
 #### Activate the Gamification web app for your organization  
@@ -106,7 +106,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
 > [!NOTE]
 >  You need to repeat the above steps whenever you update the solution.  
   
-## View active games in [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)]  
+## View active games in Dynamics 365  
  When the [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] solution is installed in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], you can view information about the active [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] games.  
   
 #### View active games  
