@@ -24,8 +24,8 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
   
-<a name="teamsPlayerPositions"></a>   
 ## Player positions  
+
  Most teams have their top performers, and your players probably know who they are. When you set up a game, we recommend you set it up in a way that prevents someone from drafting all of the top performers for their team.  
   
  **Player Positions** let you do exactly that.  Group sets of players who have similar performance records, goals, and experience. For example, think about a baseball sports theme. You might place your top performer at the first base player position, and then group other top performers at second base, right field, catcher, and so on. When players draft their teams, each player can select one player at any given time from each available player position.  
@@ -59,7 +59,7 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
      For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], see [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md).  
   
--   Select KPIs that normalize the game to ensure even opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Player positions](#teamsPlayerPositions)  
+-   Select KPIs that normalize the game to ensure even opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Player positions](#player-positions)  
   
 -   Set your maximum threshold amounts for targets, or cap for actuals, at above average, but not exceptional levels. For example, let’s say the average deal size at your company is $25,000 and you set "revenue booked" thresholds at $10,000, $25,000, $50,000, $100,000, and $200,000. That means if someone happens to close a $200,000 deal, they’re earning 8 times as many points as someone who closes a $25,000 deal. That player is likely going to lead the competition and make it difficult for others to compete. Instead, you might set your thresholds at $10,000, $25,000, $35,000, $50,000, and $75,000.  In this case, the individual that closes the $200, 000 deal would achieve the top threshold of $75,000 for that week and earn 3 times as many points as someone with a $25,000 deal. It's still a great week for that individual, but you haven’t allowed them to pull so far ahead that no one else can catch up.  
   
