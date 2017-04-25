@@ -16,13 +16,13 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Post on Smack Talk
+
 A [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] competition comes with lively chat and lets players claim their bragging rights. Make sure you tell the other players when you land a great achievement, or congratulate your peers when they're successful. In the end, you want to be the leader of the pack and the most-drafted player on other teams, don't you?  
   
-<a name="joinDiscussion"></a>   
 ## Join the discussion with other players and fans  
  Post your achievements, brag about closed deals, or share kudos with your peers.  
   
-#### Post on Smack Talk  
+### Post on Smack Talk  
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **My Games** > **Smack Talk**.  
   
@@ -35,6 +35,7 @@ A [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] competition comes 
  All players in the selected game will see your post in their **Smack Talk** feed.  
   
 ## See Also  
+
  [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   
  [Manage a fantasy team](manage-a-fantasy-team.md)   
  [View the leaderboard](view-the-leaderboard.md)
