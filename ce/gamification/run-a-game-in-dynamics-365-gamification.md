@@ -16,6 +16,7 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Run a game in Dynamics 365 - Gamification
+
 Commissioners and game managers create and run games in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] to gamify KPIs for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time in the future.  
   
 Before you start setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], make sure the following prerequisites are met:  
@@ -25,10 +26,11 @@ Before you start setting up a game in [!INCLUDE[pn_gamification_portal](includes
 - [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
 ## Set up a game  
+
 By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], a Commissioner or game manager creates a basis for the upcoming contest. Take a moment to read the sections below for step-by-step instructions.  
   
-<a name="step1"></a>   
 ### Basic game options  
+
  The first step of the game setup process is providing basic information for the game you're creating. In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Games** > **Game Setup** to set up a new game or to **Games** > **Games** to edit existing games.  
   
 ##### Create a new game  
@@ -52,8 +54,8 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
 7.  In the game setup header, click **1** to proceed to the next step.  
   
-<a name="step2"></a>   
 ### KPI types and user roles  
+
  KPIs are key to the game. They are metrics based on [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] data that automatically syncs to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
   
 > [!TIP]
@@ -74,8 +76,6 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
      If you select **Percentage of Quota** in one of your KPIs, a new step is added to the game setup process where you will be asked to define the quotas for each player.   Experience has shown that using **Default** rather than **Linear** is easier to keep track of for players.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Game quotas](#step5)  
-  
 4.  Define how many points players will get when they reach a KPI.  
   
      To set a weekly target that the player can achieve, create a hit or miss KPI, and then change the word **every** to **at** in step 2 of the game setup process.  
@@ -91,15 +91,15 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 > [!IMPORTANT]
 >  When you remove a KPI from an active game, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
-<a name="step5"></a>   
 #### Game quotas  
+
  If you created a Percentage of Quota KPI in step 2 of the game setup process, you need to define the game quotas for the players. Optionally, you can set the quota for all players on all or individual KPIs to the same value.  
   
 > [!NOTE]
 >  You can have up to four KPIs per game that use a quota.  
   
-<a name="step3"></a>   
 ### Players and fans  
+
  Depending on the selected sports theme, you can now assign the players to positions, and in a next step, select fans to participate in the game.  
   
  To assign a player to a position, click the position and select the check box for the users you want to assign to the position.  
@@ -111,8 +111,8 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
  Click **4** to proceed to the next step.  
   
-<a name="step4"></a>   
 ### Awards and prizes  
+
  In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
   
  In addition to game awards, you can  set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)  
@@ -124,10 +124,10 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 > [!NOTE]
 >  Add or remove players or fans at any time after you activate a game by using the **Add or remove players or fans** button on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] to freeze the points for that player so teams don't lose points for the current and past game periods.  
   
- Don't forget to complete the game when you reach the game end date. It's a critical step to be sure prizes get awarded to the players. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Complete a game](#completeGame)  
+ Don't forget to complete the game when you reach the game end date. It's a critical step to be sure prizes get awarded to the players.
   
-<a name="BKMK_runGame"></a>   
 ## Run the game and keep scores up to date  
+
  During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel Point Scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 > [!IMPORTANT]
@@ -137,11 +137,11 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 > - Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
 > - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
   
-<a name="completeGame"></a>   
 ## Complete a game  
+
  After the game end date, a game manager or Commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] with [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], they also need to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually or let the game complete automatically, 30 days after the game end date.  
   
-#### Manually complete a game  
+### Manually complete a game  
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Games**.  
   
@@ -149,6 +149,7 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 
   
 ## See Also  
+
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
  [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
  [Manage players and fans in Gamification](manage-players-and-fans-in-gamification.md)

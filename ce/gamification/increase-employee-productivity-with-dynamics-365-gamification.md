@@ -28,8 +28,8 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
   
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Frequently asked questions about Dynamics 365 - Gamification](frequently-asked-questions-about-dynamics-365-gamification.md)  
   
-<a name="BKMK_benefits"></a>   
-## How  Gamification can help to keep your employees engaged  
+ 
+## How Gamification can help to keep your employees engaged  
   
 - **Gamification engages many different roles**  
   
@@ -45,7 +45,7 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
   
  [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] lets you set up multiple award categories to recognize achievement and improvement across a variety of KPIs or employee roles. It also offers tiered awards for individuals and teams to enable more players to receive recognition. Creating multiple ways to win keeps more participants engaged and excited throughout the entire contest.  
   
-- **Embrace  a competitive spirit and camaraderie**  
+- **Embrace a competitive spirit and camaraderie**  
   
  [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] builds on fantasy sports, so of course players and fans get to pick fantasy teams. Don't worry if you've never played a game with fantasy teams before; no experience is required. Team management offers players and fans the chance to draft their colleagues in a simple and convenient way. Everyone is motivated to perform so they can keep their team in the game—even if they are not a star performer.  
   
@@ -63,8 +63,9 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
   
      None of this would be fun or effective if it added more complexity to business entities. [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] helps improve performance and make it a fun experience, without the burden of managing tangled, complex spreadsheets.  
   
-<a name="BKMK_quickStart"></a>   
+
 ## Create a contest in a few easy steps  
+
  We're sure you'll want to get started immediately using [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. Follow these steps to start your first game:  
   
 1.  Install [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
@@ -80,5 +81,6 @@ Driving results is  a key factor for a successful business. [!INCLUDE[pn_gamific
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
   
 ## See Also  
+
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
  [For players and fans in Gamification](for-players-and-fans-in-gamification.md)

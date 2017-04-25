@@ -20,12 +20,12 @@ manager: "sakudes"
 Display a slide show for daily, weekly, and monthly KPIs on TVs and screens around your office. All other game models can also be displayed on TVs.
 To create a Stream TV from multiple active games, see [Stream results from active games](configure-and-view-tvs.md#stream-results-from-active-games).
 
-  
-<a name="BKMK_newGame"></a>   
+
 ## Set up a Stream TV game  
+
  Create a Stream TV game model if you want to display KPIs on screens around your office.  
   
-#### Create a Stream TV slide show  
+### Create a Stream TV slide show  
   
 1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Games** > **Game Setup**.  
   
@@ -56,11 +56,12 @@ To create a Stream TV from multiple active games, see [Stream results from activ
   
 13. Copy the URL of the newly opened browser tab and enter in the browser connected to the screen in your office.  
   
-<a name="BKMK_activeGame"></a>   
+
 ## Stream results from active games  
+
 Stream leaderboards from multiple active games to screens around your office to keep your teams engaged with the latest results.  
   
-#### Create custom streams from multiple active games  
+### Create custom streams from multiple active games  
   
 1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
@@ -74,11 +75,12 @@ Stream leaderboards from multiple active games to screens around your office to 
   
 5.  To complete the Stream TV setup, click **Save & Close** .  
   
-<a name="BKMK_manage"></a>   
+
 ## Edit or delete Stream TVs  
+
  Follow the below procedures if you want to change the configuration of a Stream TV or remove it at all.  
   
-#### Edit a Stream TV  
+### Edit a Stream TV  
   
 1.  In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Stream TV**.  
   
@@ -94,11 +96,13 @@ Stream leaderboards from multiple active games to screens around your office to 
   
 3.  Confirm your deletion.  
   
-<a name="BKMK_privacy_notice"></a>   
+
 ## Privacy notice  
+
  [!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
   
 ## See Also  
+
  [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
  [Legal information about Dynamics 365 - Gamification](legal-information-about-dynamics-365-gamification.md)   
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   

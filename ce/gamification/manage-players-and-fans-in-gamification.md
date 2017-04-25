@@ -16,17 +16,18 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Manage players and fans in Gamification
+
 When you set up a new game, you need to define which users are  players and which are fans in the upcoming [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] game.  
   
  **Players** are competing participants in your game who get points for achieving defined KPIs.  
   
  **Fans** are people who aren’t players in an active game—for example executives,  managers or receptionists—that participate in a [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] game by drafting a team. If your CEO gets involved in the game, drafts a team, and is personally looking after player stats, that’s quite an incentive to deliver the best results!  
   
-<a name="registerPlayersFans"></a>   
 ## Import users from Azure Active Directory  
+
  Users from [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] are available automatically in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. Commissioners can import additional users from [!INCLUDE[pn_azure_active_directory](includes/pn-azure-active-directory-md.md)] which don't have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned.  
   
-#### Import users from [!INCLUDE[pn_microsoftcrm](includes/pn-microsoftcrm-md.md)]  
+### Import users from [!INCLUDE[pn_microsoftcrm](includes/pn-microsoftcrm-md.md)]  
   
 1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **Users**.  
   
@@ -46,5 +47,6 @@ When you set up a new game, you need to define which users are  players and whic
  Now you can edit security roles for the players, according to your planned game setup.  
   
 ## See Also  
+
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
  [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)

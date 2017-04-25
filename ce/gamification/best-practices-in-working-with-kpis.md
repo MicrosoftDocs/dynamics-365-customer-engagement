@@ -20,8 +20,8 @@ manager: "sakudes"
   
  You can edit or remove default KPIs according to your organization's requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
   
-<a name="KPIscenarios"></a>   
 ## Useful KPI scenarios  
+
  Motivate your reps to generate new leads and opportunities, get the most out of the teams that work with customers, or help them troubleshoot issues.  
   
  There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Depending on the level of customization, consider the examples below for inspiration and adapt them to your business and game requirements.  
@@ -47,6 +47,7 @@ manager: "sakudes"
 > - You can include fun KPIs as well.  Sometimes there are important activities  that aren't tracked in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)]. You can score these KPIs as bonus points by using [!INCLUDE[pn_microsoft_excel](includes/pn-microsoft-excel-md.md)] in combination with the [!INCLUDE[pn_Excel_short](includes/pn-excel-short-md.md)] Point Scoring   feature.  For example, you could reward your employees for cycling to work instead of riding in a car. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)  
   
 ## See Also  
+
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
  [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)   
  [Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)   
