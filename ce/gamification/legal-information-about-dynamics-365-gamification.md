@@ -16,20 +16,21 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Legal information about Dynamics 365 - Gamification
+
 Refer to the following documents and web pages for legal information about [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)].  
   
-<a name="BKMK_tos"></a>   
 ## License Terms for Microsoft Dynamics 365 - Gamification  
+
  Review the following document to see the license terms for [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]:  
   
  [Microsoft Dynamics 365 - Gamification License Terms](https://go.microsoft.com/fwlink/p/?linkid=830687)  
   
-<a name="BKMK_privacy_statement"></a>   
 ## Privacy Statement  
+
  We're committed to protect your privacy. Review the detailed [Microsoft Online Services Privacy Statement](http://go.microsoft.com/fwlink/p/?LinkId=512132) for additional information.  
   
-<a name="BKMK_privacy_notices"></a>   
 ## Additional Privacy Notices  
+
  Some features and capabilities in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] are governed by additional privacy notices in the related technical documentation.  
   
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
@@ -37,6 +38,7 @@ Refer to the following documents and web pages for legal information about [!INC
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
   
 ## See Also  
+
  [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
  [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
  [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
