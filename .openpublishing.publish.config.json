@@ -19,22 +19,6 @@
       "version": 0
     },
     {
-      "docset_name": "social-engagement",
-      "build_source_folder": "social-engagement",
-      "build_output_subfolder": "social-engagement",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
-    },
-    {
       "docset_name": "portals",
       "build_source_folder": "portals",
       "build_output_subfolder": "portals",
