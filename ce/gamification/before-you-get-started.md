@@ -16,10 +16,11 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Before you get started
+
 Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, player positions, and more. Familiarize yourself with these concepts to create games that works best for your business.  
   
-<a name="gameModels"></a>   
 ## Game models and sports themes  
+
  [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] offers three team models for running a game: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can show on  a screen in your office. For game model descriptions, review the [Gamification glossary](gamification-glossary.md).  
   
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
@@ -35,8 +36,8 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
  Commissioners and game managers: For more information about how to set up a game, see [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md).  
   
-<a name="KPIs"></a>   
 ## Key performance indicators (KPIs)  
+
  [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] can use any key performance indicator (KPI) that is tracked as data in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] for point scoring in a game. For example:  
   
 -   Number of calls made  
@@ -65,8 +66,8 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
   
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
   
-<a name="awardsPrizes"></a>   
 ## Awards and prizes  
+
  What would a contest be without prizes? The types of awards and prizes you include in your game will determine what activities your players focus on. Assign cash, tangible prizes, or non-monetary prizes like a lunch with the CEO or an extra day off,  to each of the awards you choose.  
   
  Here are the types of awards that you can use for your game:  
@@ -95,6 +96,7 @@ Here are some basic guidelines for  game models, KPIs, awards, prizes, teams, pl
  You can also define weekly awards: [Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)  
   
 ## See Also  
+
  [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
  [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)   
  [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)
