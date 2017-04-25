@@ -19,22 +19,6 @@
       "version": 0
     },
     {
-      "docset_name": "portals",
-      "build_source_folder": "portals",
-      "build_output_subfolder": "portals",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
-    },
-    {
       "docset_name": "customer-engagement",
       "build_source_folder": "ce",
       "build_output_subfolder": "customer-engagement",
