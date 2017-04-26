@@ -36,6 +36,6 @@ A [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] competition comes 
   
 ## See Also  
 
- [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   
- [Manage a fantasy team](manage-a-fantasy-team.md)   
- [View the leaderboard](view-the-leaderboard.md)
+ [For players and fans in Gamification](for-players-fans.md)   
+ [Manage a fantasy team](manage-fantasy-team.md)   
+ [View the leaderboard](view-leaderboard.md)

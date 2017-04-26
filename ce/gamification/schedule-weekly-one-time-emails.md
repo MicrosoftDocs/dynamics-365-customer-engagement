@@ -1,4 +1,4 @@
----
+﻿---
 title: "Schedule weekly or one-time emails | MicrosoftDocs"
 ms.custom: ""
 ms.date: "04/18/2017"
@@ -40,6 +40,6 @@ Send weekly updates on the leaderboards or announce award winners with scheduled
 7.  When you are satisfied with the email, click **Schedule** to activate the email schedule as defined in step 3.  
   
 ## See Also  
- [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
- [Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
+ [Define weekly awards for Gamification players and fans](define-weekly-awards.md)

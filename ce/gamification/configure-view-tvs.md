@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure and view TVs | MicrosoftDocs"
 ms.custom: ""
 ms.date: "04/18/2017"
@@ -18,7 +18,7 @@ manager: "sakudes"
 # Configure and view TVs
 
 Display a slide show for daily, weekly, and monthly KPIs on TVs and screens around your office. All other game models can also be displayed on TVs.
-To create a Stream TV from multiple active games, see [Stream results from active games](configure-and-view-tvs.md#stream-results-from-active-games).
+To create a Stream TV from multiple active games, see [Stream results from active games](configure-view-tvs.md#stream-results-from-active-games).
 
 
 ## Set up a Stream TV game  
@@ -46,7 +46,7 @@ To create a Stream TV from multiple active games, see [Stream results from activ
 8. Configure the first slide and set the **Leaderboard** to display the underlying **KPI** and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and change the theme for the slide.  
   
   
-9. Optionally, make this Stream TV accessible from the public internet. A commissioner can allow the creation of public Stream TVs in [!INCLUDE[pn-gamification-shortest](includes/pn-gamification-shortest-md.md)] settings. If it's allowed, you can set **Enable Public Stream TV** to **ON**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-your-gamification-game-experience.md#define-the-posts-to-show-in-stream-tv-games)
+9. Optionally, make this Stream TV accessible from the public internet. A commissioner can allow the creation of public Stream TVs in [!INCLUDE[pn-gamification-shortest](includes/pn-gamification-shortest-md.md)] settings. If it's allowed, you can set **Enable Public Stream TV** to **ON**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define the posts to show in Stream TV games](personalize-game-experience.md#define-the-posts-to-show-in-stream-tv-games)
   
 10. To add the next leaderboard to your slide show, click **Add Slide** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification"). 
 
@@ -103,7 +103,7 @@ Stream leaderboards from multiple active games to screens around your office to 
   
 ## See Also  
 
- [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
- [Legal information about Dynamics 365 - Gamification](legal-information-about-dynamics-365-gamification.md)   
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
- [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity.md)   
+ [Legal information about Dynamics 365 - Gamification](legal-information.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
+ [Run a game in Dynamics 365 - Gamification](run-games.md)

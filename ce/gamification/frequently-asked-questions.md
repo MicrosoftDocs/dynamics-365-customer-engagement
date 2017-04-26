@@ -71,6 +71,6 @@ manager: "sakudes"
  Check out the [Gamification Help Center](http://go.microsoft.com/fwlink/?LinkId=829236). Learn more about your role as a player and as a team manager, how scoring works, how to draft your team and change your team roster, and how to engage in game discussions.  
   
 ## See Also  
- [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
- [For players and fans in Gamification](for-players-and-fans-in-gamification.md)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
+ [For players and fans in Gamification](for-players-fans.md)

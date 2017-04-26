@@ -1,4 +1,4 @@
----
+﻿---
 title: "Best practices in working with KPIs | MicrosoftDocs"
 ms.custom: ""
 ms.date: "04/18/2017"
@@ -18,7 +18,7 @@ manager: "sakudes"
 # Best practices in working with KPIs
 [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] comes with a couple of default KPIs the solution is installed. For more information about installing [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], see [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md).  
   
- You can edit or remove default KPIs according to your organization's requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
+ You can edit or remove default KPIs according to your organization's requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis.md)  
   
 ## Useful KPI scenarios  
 
@@ -48,7 +48,7 @@ manager: "sakudes"
   
 ## See Also  
 
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
- [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
+ [Configure KPIs in Dynamics 365 (online)](configure-kpis.md)   
  [Update scores using Excel point scoring](update-scores-using-excel-point-scoring.md)   
- [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)
+ [Run a game in Dynamics 365 - Gamification](run-games.md)

@@ -35,11 +35,11 @@ Refer to the following documents and web pages for legal information about [!INC
   
  [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
+ [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-view-tvs.md)  
   
 ## See Also  
 
- [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
- [Configure and view TVs](configure-and-view-tvs.md)
+ [Configure and view TVs](configure-view-tvs.md)
