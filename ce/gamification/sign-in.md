@@ -34,5 +34,5 @@ Before we dig into more detail about [!INCLUDE[pn_gamification](includes/pn-gami
   
 ## See Also  
 
- [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   
- [Manage a fantasy team](manage-a-fantasy-team.md)
+ [For players and fans in Gamification](for-players-fans.md)   
+ [Manage a fantasy team](manage-fantasy-team.md)

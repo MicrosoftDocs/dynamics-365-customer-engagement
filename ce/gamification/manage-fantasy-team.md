@@ -27,7 +27,7 @@ When you participate in a fantasy team game, players become team managers and ca
   
 1.  Follow the instructions in the initial email you received to [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) and create your profile in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)].  
   
-     Contact the Commissioner if you didn't get the email. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Contact a Commissioner](contact-a-commissioner.md)  
+     Contact the Commissioner if you didn't get the email. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Contact a Commissioner](contact-commissioner.md)  
   
 2.  Click **Begin Draft** to start drafting your team.  
   
@@ -58,8 +58,8 @@ When you participate in a fantasy team game, players become team managers and ca
     >  Changes to team rosters are effective for the next game period.  
   
 ## Compete with others  
- A contest is no fun without competition, is it? Check out how your team performs compared to other teams on the **My Games** page. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [View the leaderboard](view-the-leaderboard.md)  
+ A contest is no fun without competition, is it? Check out how your team performs compared to other teams on the **My Games** page. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [View the leaderboard](view-leaderboard.md)  
   
 ## See Also  
- [For players and fans in Gamification](for-players-and-fans-in-gamification.md)   
- [View the leaderboard](view-the-leaderboard.md)
+ [For players and fans in Gamification](for-players-fans.md)   
+ [View the leaderboard](view-leaderboard.md)

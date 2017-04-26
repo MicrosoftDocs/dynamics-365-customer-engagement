@@ -20,15 +20,15 @@ As with any software application, the tool itself doesn’t make you successful.
   
  First things first -- you need to install the [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)] app from [!INCLUDE[pn_microsoft_appsource](includes/pn-microsoft-appsource-md.md)] and make sure users have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
- To prepare for your first game, familiarize yourself with the main concepts in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], like game models, players, KPIs, teams, and user roles. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
+ To prepare for your first game, familiarize yourself with the main concepts in [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], like game models, players, KPIs, teams, and user roles. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](get-started.md)  
   
- A game is no fun without participants. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage players and fans in Gamification](manage-players-and-fans-in-gamification.md)  
+ A game is no fun without participants. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage players and fans in Gamification](manage-players-fans.md)  
   
- Get started with setting up your first game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
+ Get started with setting up your first game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-games.md)  
   
- A completed game means announcing the winners prizes. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)  
+ A completed game means announcing the winners prizes. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Run a game in Dynamics 365 - Gamification](run-games.md)  
   
 ## See Also  
- [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity.md)   
  [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
- [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)
+ [Run a game in Dynamics 365 - Gamification](run-games.md)

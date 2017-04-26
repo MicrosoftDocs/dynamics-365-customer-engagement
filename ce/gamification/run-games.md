@@ -37,13 +37,13 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
 1.  Provide a **Name** for the game.  
   
-2.  Select the **Game Model**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
+2.  Select the **Game Model**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](get-started.md)  
   
-     For more information about setting up a Stream TV, see [Configure and view TVs](configure-and-view-tvs.md).  
+     For more information about setting up a Stream TV, see [Configure and view TVs](configure-view-tvs.md).  
   
 3.  Select the **Sport Theme** you want to use for the game.  
   
-4.  Choose if you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
+4.  Choose if you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](get-started.md)  
   
 5.  To specify how often players can change their teams, set the **Draft Frequency** . Ideally, you'll set a weekly draft frequency to provide players the flexibility to replace players on their team roster if they're removed from the game or take some time off.  
   
@@ -64,11 +64,11 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 > - **Use lower numbers for KPIs.** For example, award 1 point for every new lead rather than 100 points for every 5 leads so the spread between first and second place isn't too big. Players might feel they have already lost if there is a vast number of points to reach the next position.  
 > - **Include floors and caps for KPIs** to avoid an achievement of a single rep overtaking the entire player field.  Floors define the minimum number a KPI needs to meet for a player to get points. Caps define the upper limit for the KPI to generate points for players. For example, if you set a floor of 5 and a cap of 50 for a KPI that tracks phone calls, players need to achieve at least 5 phone calls to get a point.  Due to the cap, they will get the same points as for 50 calls if they achieve 80 calls.   Floors and caps reset each week of the game.  
   
-> For more information about KPIs, see [Before you get started](before-you-get-started.md).  
+> For more information about KPIs, see [Before you get started](get-started.md).  
   
 ##### Select  a KPI  
   
-1.  In step 2 of the game setup process, choose from the available KPIs in the drop-down menu. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user with the KPI Manager security role. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
+1.  In step 2 of the game setup process, choose from the available KPIs in the drop-down menu. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user with the KPI Manager security role. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis.md)  
   
 2.  Optionally, provide a different (game-specific) name for the KPI.  
   
@@ -113,9 +113,9 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
 ### Awards and prizes  
 
- In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](before-you-get-started.md)  
+ In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Before you get started](get-started.md)  
   
- In addition to game awards, you can  set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define weekly awards for Gamification players and fans](define-weekly-awards-for-gamification-players-and-fans.md)  
+ In addition to game awards, you can  set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Define weekly awards for Gamification players and fans](define-weekly-awards.md)  
   
  To complete the game setup, click **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.  
   
@@ -134,8 +134,8 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 >  When you edit an active game and remove a KPI or change the active players, a user with a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click Refresh Data to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
 > [!TIP]
-> - Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
-> - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-or-one-time-emails.md)  
+> - Consider setting up a TV for your office to show the leaderboard and announcements on the Smack Talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-view-tvs.md)  
+> - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-one-time-emails.md)  
   
 ## Complete a game  
 
@@ -150,6 +150,6 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
 ## See Also  
 
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Manage Gamification in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
- [Manage players and fans in Gamification](manage-players-and-fans-in-gamification.md)
+ [Manage players and fans in Gamification](manage-players-fans.md)

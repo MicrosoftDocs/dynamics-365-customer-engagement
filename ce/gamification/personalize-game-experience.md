@@ -37,7 +37,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 ## Configure the contact menu  
 
- Define how players and fans can get in touch with the Commissioner. Participants can click the **Help** > **Contact Commissioner** control when they are signed in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Contact a Commissioner](contact-a-commissioner.md)  
+ Define how players and fans can get in touch with the Commissioner. Participants can click the **Help** > **Contact Commissioner** control when they are signed in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Contact a Commissioner](contact-commissioner.md)  
   
 ### Set the link for the contact menu  
   
@@ -51,7 +51,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 ## Define the posts to show in Stream TV games  
 
- You can configure which posts from the **Smack Talk** board show in Stream TV and which to hide when you are streaming the leaderboard to a screen in your office. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
+ You can configure which posts from the **Smack Talk** board show in Stream TV and which to hide when you are streaming the leaderboard to a screen in your office. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-view-tvs.md)  
   
 ### Configure Stream TV settings  
   
@@ -75,7 +75,7 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
     - **BAM Display Waiting Time (Seconds)**: Number of seconds before a **BAM** post shows again in a Stream TV.  
   
-    - **Enable Public Stream TV**: Allows game owners to create Stream TVs that can be viewed without signing in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-and-view-tvs.md)  
+    - **Enable Public Stream TV**: Allows game owners to create Stream TVs that can be viewed without signing in to [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure and view TVs](configure-view-tvs.md)  
   
 4.  To apply your changes, click **Save**.  
   
@@ -118,6 +118,6 @@ As a Commissioner, you can upload custom logos, provide a pointer for players to
   
 ## See Also  
 
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
- [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)   
- [Configure and view TVs](configure-and-view-tvs.md)
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
+ [Run a game in Dynamics 365 - Gamification](run-games.md)   
+ [Configure and view TVs](configure-view-tvs.md)

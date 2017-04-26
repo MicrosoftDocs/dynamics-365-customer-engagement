@@ -25,7 +25,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
 -   Users must have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned to access the [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] service.  
   
--   Users must have an up-to-date browser. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Browser and system requirements for Gamification](browser-and-system-requirements-for-gamification.md)  
+-   Users must have an up-to-date browser. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Browser and system requirements for Gamification](browser-system-requirements.md)  
   
 ## Install Dynamics 365 - Gamification  
 
@@ -52,7 +52,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
  To learn more about security roles and privileges, see [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
   
- For more information about KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], see [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md).  
+ For more information about KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], see [Configure KPIs in Dynamics 365 (online)](configure-kpis.md).  
   
 ## Activate Gamification in Dynamics 365  
 
@@ -74,7 +74,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
  You'll receive an email with additional details and you can now access your organization's [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] instance.  
   
- Additionally, the system creates a set of default KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] so you can quickly get started with the first game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)  
+ Additionally, the system creates a set of default KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] so you can quickly get started with the first game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs in Dynamics 365 (online)](configure-kpis.md)  
   
  To sign in as the first Commissioner, go to [Gamification sign-in](https://go.microsoft.com/fwlink/p/?linkid=830344).  
   
@@ -118,7 +118,7 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
 3.  In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
   
-     In the **Setup KPIs** section, you can see the KPIs and their setup status in the selected game. For more information about KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], see [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md).  
+     In the **Setup KPIs** section, you can see the KPIs and their setup status in the selected game. For more information about KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], see [Configure KPIs in Dynamics 365 (online)](configure-kpis.md).  
   
 ## Privacy notice  
 
@@ -126,8 +126,8 @@ The [!INCLUDE[pn_gamification_solution](includes/pn-gamification-solution-md.md)
   
 ## See Also  
 
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
- [Configure KPIs in Dynamics 365 (online)](configure-kpis-in-dynamics-365-online.md)   
- [Manage players and fans in Gamification](manage-players-and-fans-in-gamification.md)   
- [Run a game in Dynamics 365 - Gamification](run-a-game-in-dynamics-365-gamification.md)   
- [Legal information about Dynamics 365 - Gamification](legal-information-about-dynamics-365-gamification.md)
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
+ [Configure KPIs in Dynamics 365 (online)](configure-kpis.md)   
+ [Manage players and fans in Gamification](manage-players-fans.md)   
+ [Run a game in Dynamics 365 - Gamification](run-games.md)   
+ [Legal information about Dynamics 365 - Gamification](legal-information.md)

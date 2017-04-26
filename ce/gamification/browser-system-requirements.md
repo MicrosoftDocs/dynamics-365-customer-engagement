@@ -27,6 +27,6 @@ manager: "sakudes"
      Cookies must be enabled for your browser, at least for your [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)] domain. Most browsers enable cookies by default.  
   
 ## See Also  
- [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity-with-dynamics-365-gamification.md)   
- [For Commissioners and game managers in Gamification](for-commissioners-and-game-managers-in-gamification.md)   
- [For players and fans in Gamification](for-players-and-fans-in-gamification.md)
+ [Increase employee productivity with Dynamics 365 - Gamification](increase-employee-productivity.md)   
+ [For Commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
+ [For players and fans in Gamification](for-players-fans.md)
