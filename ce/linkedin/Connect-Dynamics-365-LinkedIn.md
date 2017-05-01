@@ -20,12 +20,12 @@ For more information about assigning security roles to users, see [TechNet: Crea
 1.	In Dynamics 365, go to **Sales > LinkedIn Lead Gen Forms > LinkedIn User Profile**.
 2.	To add a new LinkedIn User Profile record, click **New** and provide a Name before clicking **Save**.
 3.	To add LinkedIn accounts to this user profile, click **Authorize**.
-4.	Enter the credentials for your LinkedIn profile and click **Sign In**. 
- [Image missing]
-5.	In the permissions pop-up dialog, click **Allow**. 
- [Image missing]
-6.	Check and confirm the Dynamics 365 organization you want to sync your LinkedIn data to.
-[Image missing]
+4.	Enter the credentials for your LinkedIn profile and click **Sign In**. </br>
+(![Sign In](media/Add-credentials-to-linked-profile.png "Add credentials to LinkedIn profile")) </br>
+5.	In the permissions pop-up dialog, click **Allow**. </br>
+(![Allow permissions](media/LinkedIn-permission-popup-dialog.png "LinkedIn permission popup dialog")) </br>
+6.	Check and confirm the Dynamics 365 organization you want to sync your LinkedIn data to.</br>
+(![LinkedIn permission popup dialogs](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "LinkedIn permission popup dialog")) </br>
  
 After successful authorization, the LinkedIn accounts show on the **LinkedIn User Profile** record. It may take a few seconds to get the accounts, and you can review the details of the **LinkedIn Account**s in the form. Try refreshing the view if you don’t see the accounts.
 
