@@ -31,8 +31,8 @@ If a matching strategy contains more than one field mapping, all mappings must m
 
 ## Create a LinkedIn Lead Matching Strategy
 1.	In Dynamics 365, go to **Settings > LinkedIn Lead Gen > LinkedIn Lead Matching Strategies**.
-2.	To create the matching strategy, click **New** ![New](Add-icon.png "New") and provide a **Name** before clicking **Save**.
-3.	To add a LinkedIn Field Mapping record, click **Add** ![Add](Add-icon.png "Add") and enter the name of the LinkedIn Member Field. 
+2.	To create the matching strategy, click **New** ![New](media/Add-icon.png "New") and provide a **Name** before clicking **Save**.
+3.	To add a LinkedIn Field Mapping record, click **Add** ![Add](media/Add-icon.png "Add") and enter the name of the LinkedIn Member Field. 
 4.	Click the **LinkedIn Field Mapping** record to add it to this matching strategy.
 ## Activate a different LinkedIn Lead Matching Strategy
 1.	In Dynamics 365, go to **Settings > LinkedIn Lead Gen > LinkedIn Lead Matching Strategies**.
@@ -45,12 +45,12 @@ It’s a good practice to maintain a single strategy and update it if needed. Ho
 ## Edit a LinkedIn Lead Matching Strategy
 1.	In Dynamics 365, go to **Settings > LinkedIn Lead Gen > LinkedIn Lead Matching Strategies**.
 2.	Click the matching strategy in the list that you want to edit.
-3.	To add an additional LinkedIn Field Mapping record, click **Add** ![Add](Add-icon.png "Add") and enter the name of the LinkedIn Member Field. 
-4.	To remove a LinkedIn Field Mapping record, click **Delete**![Delete](Delete-icon.png "Delete"). 
+3.	To add an additional LinkedIn Field Mapping record, click **Add** ![Add](media/Add-icon.png "Add") and enter the name of the LinkedIn Member Field. 
+4.	To remove a LinkedIn Field Mapping record, click **Delete**![Delete](media/Delete-icon.png "Delete"). 
 ## Delete a LinkedIn Lead Matching Strategy
 1.	In Dynamics 365, go to **Settings > LinkedIn Lead Gen > LinkedIn Lead Matching Strategies**.
 2.	Select the checkbox for the lead matching strategy you want to delete.
-3.	Click **Delete**![Delete](Delete-icon.png "Delete") and confirm your deletion.
+3.	Click **Delete**![Delete](media/Delete-icon.png "Delete") and confirm your deletion.
 ><b>Note</b></br> You can’t delete the activated lead matching strategy. 
 
 ## See Also
