@@ -45,7 +45,7 @@ It’s a good practice to maintain a single strategy and update it if needed. Ho
 ## Edit a LinkedIn Lead Matching Strategy
 1.	In Dynamics 365, go to **Settings > LinkedIn Lead Gen > LinkedIn Lead Matching Strategies**.
 2.	Click the matching strategy in the list that you want to edit.
-3.	To add an additional LinkedIn Field Mapping record, click **Add **( ) and enter the name of the LinkedIn Member Field. 
+3.	To add an additional LinkedIn Field Mapping record, click **Add **() and enter the name of the LinkedIn Member Field. 
 4.	To remove a LinkedIn Field Mapping record, click **Delete**(). 
 ## Delete a LinkedIn Lead Matching Strategy
 1.	In Dynamics 365, go to **Settings > LinkedIn Lead Gen > LinkedIn Lead Matching Strategies**.
