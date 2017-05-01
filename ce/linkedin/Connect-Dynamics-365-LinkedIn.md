@@ -21,17 +21,18 @@ For more information about assigning security roles to users, see [TechNet: Crea
 2.	To add a new LinkedIn User Profile record, click **New** and provide a Name before clicking **Save**.
 3.	To add LinkedIn accounts to this user profile, click **Authorize**.
 4.	Enter the credentials for your LinkedIn profile and click **Sign In**. </br>
-(![Sign In](media/Add-credentials-to-linked-profile.png "Add credentials to LinkedIn profile")) </br>
+![Sign In](media/Add-credentials-to-linked-profile.png "Add credentials to LinkedIn profile") </br>
 5.	In the permissions pop-up dialog, click **Allow**. </br>
-(![Allow permissions](media/LinkedIn-permission-popup-dialog.png "LinkedIn permission popup dialog")) </br>
+![Allow permissions](media/LinkedIn-permission-popup-dialog.png "LinkedIn permission popup dialog")</br>
 6.	Check and confirm the Dynamics 365 organization you want to sync your LinkedIn data to.</br>
-(![LinkedIn permission popup dialogs](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "LinkedIn permission popup dialog")) </br>
+![LinkedIn permission popup dialogs](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "LinkedIn permission popup dialog") </br>
  
 After successful authorization, the LinkedIn accounts show on the **LinkedIn User Profile** record. It may take a few seconds to get the accounts, and you can review the details of the **LinkedIn Account**s in the form. Try refreshing the view if you don’t see the accounts.
 
 LinkedIn form submissions are now synced automatically to Dynamics 365. It might take a few minutes to complete, and you’ll be able to see the data in Dynamics 365.
 Optionally, you can trigger an on-demand sync of LinkedIn form submissions after authorizing a profile by clicking **Sync submissions**.
+</br>
+![On demand synchronization of LinkedIn form submissions](media/On-demand-sync-of LinkedIn-form-submissions.png "On demand synchronization of LinkedIn form submissions") </br>
 
-[Image missing]
 
 ## See Also
