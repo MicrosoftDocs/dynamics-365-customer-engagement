@@ -41,3 +41,5 @@ To see all form submissions in Dynamics 365 (online), go to **Sales > LinkedIn L
 [Image missing]
 
 For more information about the mapping of LinkedIn fields to Dynamics 365 entity fields, see Available properties to match LinkedIn Member Field and Lead Field [Link needed].
+
+## See Also
