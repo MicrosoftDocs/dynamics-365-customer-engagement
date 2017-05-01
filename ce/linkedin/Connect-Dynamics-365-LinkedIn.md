@@ -33,3 +33,5 @@ LinkedIn form submissions are now synced automatically to Dynamics 365. It might
 Optionally, you can trigger an on-demand sync of LinkedIn form submissions after authorizing a profile by clicking **Sync submissions**.
 
 [Image missing]
+
+## See Also
