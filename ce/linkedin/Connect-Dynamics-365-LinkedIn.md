@@ -32,7 +32,7 @@ After successful authorization, the LinkedIn accounts show on the **LinkedIn Use
 LinkedIn form submissions are now synced automatically to Dynamics 365. It might take a few minutes to complete, and you’ll be able to see the data in Dynamics 365.
 Optionally, you can trigger an on-demand sync of LinkedIn form submissions after authorizing a profile by clicking **Sync submissions**.
 </br>
-![On demand synchronization of LinkedIn form submissions](media/On-demand-sync-of LinkedIn-form-submissions.png "On demand synchronization of LinkedIn form submissions") </br>
+![On demand synchronization of LinkedIn form submissions](media/On-demand-sync-of-LinkedIn-form-submissions.png "On demand synchronization of LinkedIn form submissions") </br>
 
 
 ## See Also
