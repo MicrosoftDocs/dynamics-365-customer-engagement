@@ -1,4 +1,4 @@
-﻿# [Synchronize LinkedIn leads to Dynamics 365] 
+﻿# [Synchronize LinkedIn leads to Dynamics 365] ()
 ## [Install the Microsoft Dynamics 365 Connector LinkedIn Lead Gen Forms]
 ## [Configure the matching strategy]
 ## [Connect Dynamics 365 (online) and LinkedIn]
