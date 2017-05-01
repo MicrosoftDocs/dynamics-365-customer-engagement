@@ -25,3 +25,5 @@ You will need a Dynamics 365 organization with Sales application to preview the 
 2. Optionally, a campaign manager defines the matching strategy between LinkedIn leads and Dynamics 365 (online) lead records and analyze individual forms and submissions. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure the matching strategy to update lead records from LinkedIn leads](Configure-matching-strategy.md), [Analyze individual LinkedIn Lead Gen forms and submissions](Review-analyze-leads-lead-performance.md)
 3. A person filling the roles of both, a campaign manager on LinkedIn and a salesperson in Dynamics 365, authorizes Dynamics 365 to receive data from LinkedIn. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Connect Dynamics 365 and LinkedIn](Connect-Dynamics-365-LinkedIn.md)
 4. Optionally, a sales manager can review the lead performance in a Dynamics 365 (online) dashboard. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Analyze leads and lead performance](Review-analyze-leads-lead-performance.md)
+
+## See Also
