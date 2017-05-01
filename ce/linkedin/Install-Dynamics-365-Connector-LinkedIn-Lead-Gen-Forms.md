@@ -1,5 +1,5 @@
 ---
-title: "Configure matching strategy | MicrosoftDocs"
+title: "Install Dynamics 365 Connector LinkedIn Lead Gen Forms | MicrosoftDocs"
 ms.custom: ""
 ms.date: "05/01/2017"
 ms.reviewer: ""
