@@ -52,3 +52,5 @@ It’s a good practice to maintain a single strategy and update it if needed. Ho
 2.	Select the checkbox for the lead matching strategy you want to delete.
 3.	Click **Delete**() and confirm your deletion.
 ><b>Note</b></br> You can’t delete the activated lead matching strategy. 
+
+## See Also
