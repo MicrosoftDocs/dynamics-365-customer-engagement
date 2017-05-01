@@ -1,7 +1,25 @@
+﻿---
+title: "Synchronize LinkedIn leads | MicrosoftDocs"
+ms.custom: ""
+ms.date: "05/01/2017"
+ms.reviewer: ""
+ms.service: "LinkedIn"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 
+caps.latest.revision: 8
+author: "saurabh-kudesia"
+ms.author: "mhart"
+manager: "sakudes"
+---
+# Synchronize LinkedIn leads
 Microsoft Dynamics 365 Connector LinkedIn Lead Gen Forms enables seamless synchronization of LinkedIn leads to Dynamics 365. LinkedIn enables members to drive leads from Sponsored Content campaigns, based on a variety of calls-to-action. Dynamics 365 Connector for LinkedIn Lead Gen Forms lets campaign managers sync the leads generated in LinkedIn to a Dynamics 365 (online) instance for further nurturing. If a lead is already known in Dynamics 365, their data will be available with the information provided from LinkedIn. Otherwise, a new lead record is created in Dynamics 365.
 
 ## Quick Start Guide 
-1. A Dynamics 365 (online) system administrator or customizer installs the Connector for LinkedIn Lead Gen Forms from Microsoft AppSource. More information: [Install LinkedIn Lead Gen from AppSource] 
-2. Optionally, a campaign manager defines the matching strategy between LinkedIn leads and Dynamics 365 (online) lead records and analyze individual forms and submissions. More information: [Configure the matching strategy to update lead records from LinkedIn leads], [Analyze individual LinkedIn Lead Gen forms and submissions] 
-3. A person filling the roles of both, a campaign manager on LinkedIn and a salesperson in Dynamics 365, authorizes Dynamics 365 to receive data from LinkedIn. More information: [Connect Dynamics 365 and LinkedIn] 
-4. Optionally, a sales manager can review the lead performance in a Dynamics 365 (online) dashboard. More information: [Analyze leads and lead performance]
+A Dynamics 365 (online) system administrator or customizer installs the Connector for LinkedIn Lead Gen Forms from Microsoft AppSource. More information: [Install LinkedIn Lead Gen from AppSource] 
+Optionally, a campaign manager defines the matching strategy between LinkedIn leads and Dynamics 365 (online) lead records and analyze individual forms and submissions. More information: [Configure the matching strategy to update lead records from LinkedIn leads], [Analyze individual LinkedIn Lead Gen forms and submissions] 
+A person filling the roles of both, a campaign manager on LinkedIn and a salesperson in Dynamics 365, authorizes Dynamics 365 to receive data from LinkedIn. More information: [Connect Dynamics 365 and LinkedIn] 
+Optionally, a sales manager can review the lead performance in a Dynamics 365 (online) dashboard. More information: [Analyze leads and lead performance]
