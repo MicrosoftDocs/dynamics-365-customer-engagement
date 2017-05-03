@@ -30,9 +30,9 @@ Use piped data to automatically insert [!INCLUDE[pn_crm_shortest](includes/pn-cr
   
  Thank you Marie for giving your feedback and helping us improve the service we are able to deliver to you.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](design-your-survey.md) [Design your survey](design-your-survey.md)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](design-voice-of-customer-survey.md) [Design your survey](design-voice-of-customer-survey.md)  
   
- [Routing rules](create-a-response-routing-rule-in-a-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](create-a-response-routing-rule-in-a-survey.md)  
+ [Routing rules](create-response-routing-rule-voice-of-customer-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](create-response-routing-rule-voice-of-customer-survey.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

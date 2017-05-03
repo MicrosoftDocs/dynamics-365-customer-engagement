@@ -36,7 +36,7 @@ Before configuring your survey questions, it’s helpful to plan ahead. Here are
   
  [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](upload-voice-of-customer-survey-images.md) [Upload images](upload-voice-of-customer-survey-images.md)  
   
- [Design your survey](design-your-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](design-your-survey.md)  
+ [Design your survey](design-voice-of-customer-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](design-voice-of-customer-survey.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

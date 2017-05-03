@@ -65,7 +65,7 @@ You can invite respondents to take part in a survey in different ways, depending
 > [!NOTE]
 >  You can also create workflows to use with surveys and specify the appropriate fields instead of individual names, so you can send emails automatically as part of the workflow. For more information about creating workflows, see [Technet: Workflow processes](https://technet.microsoft.com/library/dn531067.md).  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](create-a-response-routing-rule-in-a-survey.md) [Response routing](create-a-response-routing-rule-in-a-survey.md)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](create-response-routing-rule-voice-of-customer-survey.md) [Response routing](create-response-routing-rule-voice-of-customer-survey.md)  
   
  [View reports](view-voice-of-customer-survey-dashboards-reports.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](view-voice-of-customer-survey-dashboards-reports.md)  
   

@@ -44,7 +44,7 @@ Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that yo
   
  [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.md) [Go back](get-feedback-with-voice-of-the-customer-surveys.md)  
   
- [Customize settings](customize-voice-of-the-customer-survey-settings.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](customize-voice-of-the-customer-survey-settings.md)  
+ [Customize settings](customize-voice-of-customer.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](customize-voice-of-customer.md)  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_voice_of_customer](includes/cc-privacy-crm-voice-of-customer-md.md)]  
