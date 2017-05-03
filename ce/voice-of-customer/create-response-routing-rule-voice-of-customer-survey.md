@@ -40,9 +40,9 @@ When you want to ask additional questions based on responses in a Voice of the C
   
     - **Server**. Choose this if the action occurs outside of the survey (for example, request contact or unsubscribe). In the **Server** area, select the action type and select the users or queues to notify, if applicable, and then click **Save**.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](personalize-surveys-with-piped-data.md) [Personalize your survey](personalize-surveys-with-piped-data.md)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](personalize-surveys-with-piped-data-voice-of-the-customer.md) [Personalize your survey](personalize-surveys-with-piped-data-voice-of-the-customer.md)  
   
- [Distribute your survey](distribute-a-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](distribute-a-survey.md)  
+ [Distribute your survey](distribute-voice-of-customer-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](distribute-voice-of-customer-survey.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

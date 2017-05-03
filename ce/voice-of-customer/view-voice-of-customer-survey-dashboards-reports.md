@@ -52,9 +52,9 @@ The survey dashboard gives you an overall view of your survey’s progress at a 
   
 2.  Click the response outcome you want to view.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](distribute-a-survey.md) [Distribute your survey](distribute-a-survey.md)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](distribute-voice-of-customer-survey.md) [Distribute your survey](distribute-voice-of-customer-survey.md)  
   
- [Translate your survey](translate-or-localize-your-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](translate-or-localize-your-survey.md)  
+ [Translate your survey](translate-localize-voice-of-customer-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](translate-localize-voice-of-customer-survey.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)
