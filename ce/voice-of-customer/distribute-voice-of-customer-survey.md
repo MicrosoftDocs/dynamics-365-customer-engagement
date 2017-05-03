@@ -63,11 +63,11 @@ You can invite respondents to take part in a survey in different ways, depending
  Thank you Marie for giving your feedback and helping us improve the service we are able to deliver to you. Please take the time to answer a few questions regarding case number 298724 and Customer Service Representative Nancy.  
   
 > [!NOTE]
->  You can also create workflows to use with surveys and specify the appropriate fields instead of individual names, so you can send emails automatically as part of the workflow. For more information about creating workflows, see [Technet: Workflow processes](https://technet.microsoft.com/library/dn531067.aspx).  
+>  You can also create workflows to use with surveys and specify the appropriate fields instead of individual names, so you can send emails automatically as part of the workflow. For more information about creating workflows, see [Technet: Workflow processes](https://technet.microsoft.com/library/dn531067.md).  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](create-a-response-routing-rule-in-a-survey.aspx) [Response routing](create-a-response-routing-rule-in-a-survey.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](create-a-response-routing-rule-in-a-survey.md) [Response routing](create-a-response-routing-rule-in-a-survey.md)  
   
- [View reports](view-voice-of-customer-survey-dashboards-reports.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](view-voice-of-customer-survey-dashboards-reports.aspx)  
+ [View reports](view-voice-of-customer-survey-dashboards-reports.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](view-voice-of-customer-survey-dashboards-reports.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

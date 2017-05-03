@@ -34,7 +34,7 @@ Once you’ve created your survey, you can translate it into other languages.
   
      You can use any HTML encoder. For example:  
   
-    -   [http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode.aspx](http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode.aspx)  
+    -   [http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode.md](http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode.md)  
   
     -   [http://www.web2generators.com/html/entities](http://www.web2generators.com/html/entities)  
   
@@ -47,9 +47,9 @@ Once you’ve created your survey, you can translate it into other languages.
 > [!NOTE]
 > [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] automatically detects the language at run time, based on the respondent’s browser preferences. If there isn’t a translation for that language, the survey will use the base language strings instead.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](view-voice-of-customer-survey-dashboards-reports.aspx) [View reports](view-voice-of-customer-survey-dashboards-reports.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](view-voice-of-customer-survey-dashboards-reports.md) [View reports](view-voice-of-customer-survey-dashboards-reports.md)  
   
- [Back to beginning](get-feedback-with-voice-of-the-customer-surveys.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx)  
+ [Back to beginning](get-feedback-with-voice-of-the-customer-surveys.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](get-feedback-with-voice-of-the-customer-surveys.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

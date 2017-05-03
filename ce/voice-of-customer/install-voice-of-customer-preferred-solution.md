@@ -14,7 +14,7 @@ ms.assetid: 505f7b90-b90f-48f9-a3e4-97890950062a
 caps.latest.revision: 17
 ---
 # Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution
-Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909.aspx).  
+Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909.md).  
   
 > [!IMPORTANT]
 >  The Voice of the Customer for Microsoft Dynamics 365 preferred solution connects to an external service that isn't completely within the [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] compliance boundary.  
@@ -42,9 +42,9 @@ Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that yo
   
  When  the configuration completes, you can start using Voice of the Customer for Microsoft Dynamics 365 surveys.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx) [Go back](get-feedback-with-voice-of-the-customer-surveys.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.md) [Go back](get-feedback-with-voice-of-the-customer-surveys.md)  
   
- [Customize settings](customize-voice-of-the-customer-survey-settings.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](customize-voice-of-the-customer-survey-settings.aspx)  
+ [Customize settings](customize-voice-of-the-customer-survey-settings.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](customize-voice-of-the-customer-survey-settings.md)  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_voice_of_customer](includes/cc-privacy-crm-voice-of-customer-md.md)]  

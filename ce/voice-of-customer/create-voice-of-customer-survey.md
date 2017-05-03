@@ -49,7 +49,7 @@ Create and send out Voice of the Customer for Microsoft Dynamics 365 surveys to 
   
  [Translate or localize your survey](translate-localize-voice-of-customer-survey.md)  
   
- [Install the solution](install-the-voice-of-the-customer-surveys-preferred-solution.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](install-the-voice-of-the-customer-surveys-preferred-solution.aspx)  
+ [Install the solution](install-the-voice-of-the-customer-surveys-preferred-solution.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](install-the-voice-of-the-customer-surveys-preferred-solution.md)  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_voice_of_customer](includes/cc-privacy-crm-voice-of-customer-md.md)]

@@ -60,9 +60,9 @@ You can start using Voice of the Customer for Microsoft Dynamics 365 surveys rig
   
 5.  Click **Activate** to activate the import.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](install-the-voice-of-the-customer-surveys-preferred-solution.aspx) [Install the solution](install-the-voice-of-the-customer-surveys-preferred-solution.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](install-the-voice-of-the-customer-surveys-preferred-solution.md) [Install the solution](install-the-voice-of-the-customer-surveys-preferred-solution.md)  
   
- [Design a theme](design-a-theme-for-your-surveys.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](design-a-theme-for-your-surveys.aspx)  
+ [Design a theme](design-a-theme-for-your-surveys.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](design-a-theme-for-your-surveys.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)
