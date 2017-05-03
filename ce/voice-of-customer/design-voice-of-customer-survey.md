@@ -45,9 +45,9 @@ Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](includes/pn-crm
         > [!NOTE]
         >  Drag and drop only works with a mouse or other pointing device. It’s not supported through touch on devices with touch screens, like tablets.  
   
-    -   Personalize your survey with fields like the customer's name or service case number by using piped data. For more information, see [Add piped data to a survey](personalize-surveys-with-piped-data-voice-of-the-customer.md).  
+    -   Personalize your survey with fields like the customer's name or service case number by using piped data. For more information, see [Add piped data to a survey](personalize-voice-of-customer-surveys-piped-data.md).  
   
-    -   Take different actions in the survey, like showing additional questions or sending a request for contact to a user within your organization, based on a customer's response. For more information, see [Create a response routing rule in a survey](create-a-response-routing-rule-in-a-survey-voice-of-the-customer.md).  
+    -   Take different actions in the survey, like showing additional questions or sending a request for contact to a user within your organization, based on a customer's response. For more information, see [Create a response routing rule in a survey](create-response-routing-rule-voice-of-customer-survey.md).  
   
 10. To save your work, click the **Save** button in the bottom right corner of the screen.  
   
@@ -65,9 +65,9 @@ Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](includes/pn-crm
   
     -   To stop this survey from running, click **Stop**.  
   
- [  ![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](plan-your-survey.aspx) [Plan your survey](plan-your-survey.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](plan-your-survey.aspx) [Plan your survey](plan-your-survey.aspx)  
   
- [Personalize your survey](personalize-surveys-with-piped-data.aspx) [  ![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](personalize-surveys-with-piped-data.aspx)  
+ [Personalize your survey](personalize-surveys-with-piped-data.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](personalize-surveys-with-piped-data.aspx)  
   
 ## See Also  
- [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-a-survey-to-get-customer-feedback-voice-of-the-customer.md)
+ [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

@@ -27,29 +27,29 @@ Create and send out Voice of the Customer for Microsoft Dynamics 365 surveys to 
   
  [Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution](505f7b90-b90f-48f9-a3e4-97890950062a.md)  
   
- [Customize Voice of the Customer for Microsoft Dynamics 365 survey settings](customize-voice-of-the-customer-for-microsoft-dynamics-365-survey-settings.md)  
+ [Customize Voice of the Customer for Microsoft Dynamics 365 survey settings](customize-voice-of-customer.md)  
   
  **Design and distribute your survey**  
   
- [Design a theme for your surveys](design-a-theme-for-your-surveys-voice-of-the-customer.md)  
+ [Design a theme for your surveys](design-voice-of-customer-survey-theme.md)  
   
- [Upload images for your surveys](upload-images-for-your-surveys.md)  
+ [Upload images for your surveys](upload-voice-of-customer-survey-images.md)  
   
- [Plan your survey](plan-your-survey-voice-of-the-customer.md)  
+ [Plan your survey](plan-voice-of-customer-survey.md)  
   
- [Design your survey](design-your-survey-voice-of-the-customer.md)  
+ [Design your survey](design-voice-of-customer-survey.md)  
   
- [Personalize your survey with piped data](personalize-surveys-with-piped-data-voice-of-the-customer.md)  
+ [Personalize your survey with piped data](personalize-voice-of-customer-surveys-piped-data.md)  
   
- [Create a response routing rule in a survey](create-a-response-routing-rule-in-a-survey-voice-of-the-customer.md)  
+ [Create a response routing rule in a survey](create-response-routing-rule-voice-of-customer-survey.md)  
   
- [Distribute a survey](distribute-a-survey-voice-of-the-customer.md)  
+ [Distribute a survey](distribute-voice-of-customer-survey.md)  
   
- [View survey dashboards and reports](view-survey-dashboards-and-reports.md)  
+ [View survey dashboards and reports](view-voice-of-customer-survey-dashboards-reports.md)  
   
- [Translate or localize your survey](translate-or-localize-your-survey-voice-of-the-customer.md)  
+ [Translate or localize your survey](translate-localize-voice-of-customer-survey.md)  
   
- [Install the solution](install-the-voice-of-the-customer-surveys-preferred-solution.aspx) [  ![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](install-the-voice-of-the-customer-surveys-preferred-solution.aspx)  
+ [Install the solution](install-the-voice-of-the-customer-surveys-preferred-solution.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](install-the-voice-of-the-customer-surveys-preferred-solution.aspx)  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_voice_of_customer](includes/cc-privacy-crm-voice-of-customer-md.md)]

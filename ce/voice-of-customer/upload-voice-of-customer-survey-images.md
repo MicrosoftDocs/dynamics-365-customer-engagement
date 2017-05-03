@@ -28,9 +28,9 @@ Before you can add a logo or other images to Voice of the Customer for Microsoft
   
 6.  Click the **Save** button in the bottom right corner of the screen.  
   
- [  ![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](design-a-theme-for-your-surveys.aspx) [Design a theme](design-a-theme-for-your-surveys.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](design-a-theme-for-your-surveys.aspx) [Design a theme](design-a-theme-for-your-surveys.aspx)  
   
- [Plan your survey](plan-your-survey.aspx) [  ![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](plan-your-survey.aspx)  
+ [Plan your survey](plan-your-survey.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](plan-your-survey.aspx)  
   
 ## See Also  
- [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-a-survey-to-get-customer-feedback-voice-of-the-customer.md)
+ [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

@@ -28,9 +28,9 @@ Before you start designing Voice of the Customer for Microsoft Dynamics 365 surv
   
 6.  Click **Save**.  
   
- [  ![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx) [Go back](get-feedback-with-voice-of-the-customer-surveys.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx) [Go back](get-feedback-with-voice-of-the-customer-surveys.aspx)  
   
- [Upload images](upload-images-for-your-surveys.aspx) [  ![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](upload-images-for-your-surveys.aspx)  
+ [Upload images](upload-voice-of-customer-survey-images.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](upload-voice-of-customer-survey-images.aspx)  
   
 ## See Also  
- [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-a-survey-to-get-customer-feedback-voice-of-the-customer.md)
+ [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

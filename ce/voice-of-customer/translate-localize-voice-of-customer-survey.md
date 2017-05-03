@@ -47,9 +47,9 @@ Once you’ve created your survey, you can translate it into other languages.
 > [!NOTE]
 > [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] automatically detects the language at run time, based on the respondent’s browser preferences. If there isn’t a translation for that language, the survey will use the base language strings instead.  
   
- [  ![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](view-survey-dashboards-and-reports.aspx) [View reports](view-survey-dashboards-and-reports.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](view-voice-of-customer-survey-dashboards-reports.aspx) [View reports](view-voice-of-customer-survey-dashboards-reports.aspx)  
   
- [Back to beginning](get-feedback-with-voice-of-the-customer-surveys.aspx) [  ![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx)  
+ [Back to beginning](get-feedback-with-voice-of-the-customer-surveys.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx)  
   
 ## See Also  
- [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-a-survey-to-get-customer-feedback-voice-of-the-customer.md)
+ [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

@@ -42,13 +42,13 @@ Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that yo
   
  When  the configuration completes, you can start using Voice of the Customer for Microsoft Dynamics 365 surveys.  
   
- [  ![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx) [Go back](get-feedback-with-voice-of-the-customer-surveys.aspx)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.aspx) [Go back](get-feedback-with-voice-of-the-customer-surveys.aspx)  
   
- [Customize settings](customize-voice-of-the-customer-survey-settings.aspx) [  ![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](customize-voice-of-the-customer-survey-settings.aspx)  
+ [Customize settings](customize-voice-of-the-customer-survey-settings.aspx) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](customize-voice-of-the-customer-survey-settings.aspx)  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_voice_of_customer](includes/cc-privacy-crm-voice-of-customer-md.md)]  
   
 ## See Also  
- [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-a-survey-to-get-customer-feedback-voice-of-the-customer.md)   
- [Customize Voice of the Customer for Microsoft Dynamics 365 settings](customize-voice-of-the-customer-for-microsoft-dynamics-365-survey-settings.md)
+ [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)   
+ [Customize Voice of the Customer for Microsoft Dynamics 365 settings](customize-voice-of-customer.md)
