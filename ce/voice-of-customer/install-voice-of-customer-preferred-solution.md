@@ -10,8 +10,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics CRM Online"
-ms.assetid: 505f7b90-b90f-48f9-a3e4-97890950062a
+ms.assetid: install-voice-of-customer-preferred-solution
 caps.latest.revision: 17
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution
 Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909.md).  
@@ -42,7 +45,7 @@ Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that yo
   
  When  the configuration completes, you can start using Voice of the Customer for Microsoft Dynamics 365 surveys.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](get-feedback-with-voice-of-the-customer-surveys.md) [Go back](get-feedback-with-voice-of-the-customer-surveys.md)  
+ [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](create-voice-of-customer-survey.md) [Go back](create-voice-of-customer-survey.md)  
   
  [Customize settings](customize-voice-of-customer.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](customize-voice-of-customer.md)  
   

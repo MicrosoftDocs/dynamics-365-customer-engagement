@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: bd1b39a2-fa08-4adb-af1b-7a8cf3459d22
 caps.latest.revision: 8
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Create a response routing rule in a survey (Voice of the Customer)
 When you want to ask additional questions based on responses in a Voice of the Customer for Microsoft Dynamics 365 survey, create one or more response routing rules for the response you want more information about.  

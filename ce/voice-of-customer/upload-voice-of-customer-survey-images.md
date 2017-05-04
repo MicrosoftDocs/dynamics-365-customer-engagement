@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 7ec3635f-c77f-4a24-bc61-4f8e2d9999e8
 caps.latest.revision: 8
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Upload images for your surveys
 Before you can add a logo or other images to Voice of the Customer for Microsoft Dynamics 365 surveys, you need to upload the images to [!INCLUDE[pn_crm_2016](includes/pn-crm-2016-md.md)].  

@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 495a4eba-454c-4ab6-a785-ff3bc6b9ecc8
 caps.latest.revision: 15
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Create a survey to get customer feedback (Voice of the Customer)
 Create and send out Voice of the Customer for Microsoft Dynamics 365 surveys to gain valuable feedback from your customers about your products or services. Respondents can take your surveys on a phone, tablet, or computer. You can see your customer's feedback history as you work a sale or resolve a service case.  
@@ -25,7 +28,7 @@ Create and send out Voice of the Customer for Microsoft Dynamics 365 surveys to 
   
  **Install and configure Voice of the Customer for Microsoft Dynamics 365**  
   
- [Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution](505f7b90-b90f-48f9-a3e4-97890950062a.md)  
+ [Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution](install-voice-of-customer-preferred-solution.md)  
   
  [Customize Voice of the Customer for Microsoft Dynamics 365 survey settings](customize-voice-of-customer.md)  
   

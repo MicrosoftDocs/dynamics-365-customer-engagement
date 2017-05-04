@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: d715a38e-7d83-477e-9fa4-08f1130d7e59
 caps.latest.revision: 10
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Plan your survey (Voice of the Customer)
 Before configuring your survey questions, it’s helpful to plan ahead. Here are a few things to think about to help you design the right questions for your survey:  

@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: e58f937e-66ff-49c8-999a-ca1a6bfa61b6
 caps.latest.revision: 12
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Customize Voice of the Customer for Microsoft Dynamics 365 survey settings
 You can start using Voice of the Customer for Microsoft Dynamics 365 surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  

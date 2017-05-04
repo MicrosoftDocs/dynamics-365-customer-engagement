@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 82b737e4-0523-4bc5-a9ca-dcc5abfc4238
 caps.latest.revision: 9
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # View survey dashboards and reports
 The survey dashboard gives you an overall view of your survey’s progress at a glance. For more information about specific metrics, you can run the following Voice of the Customer for Microsoft Dynamics 365 reports:  

@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 3361111c-23c8-498b-ae2f-5cf401a48c89
 caps.latest.revision: 8
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Translate or localize your survey (Voice of the Customer)
 Once you’ve created your survey, you can translate it into other languages.  
@@ -49,7 +52,7 @@ Once you’ve created your survey, you can translate it into other languages.
   
  [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](view-voice-of-customer-survey-dashboards-reports.md) [View reports](view-voice-of-customer-survey-dashboards-reports.md)  
   
- [Back to beginning](get-feedback-with-voice-of-the-customer-surveys.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](get-feedback-with-voice-of-the-customer-surveys.md)  
+ [Back to beginning](create-voice-of-customer-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](create-voice-of-customer-survey.md)  
   
 ## See Also  
  [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)

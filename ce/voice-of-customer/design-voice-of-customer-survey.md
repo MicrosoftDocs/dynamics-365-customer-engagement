@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: e5b40c86-a518-48d0-9bf5-88915e73bf5b
 caps.latest.revision: 10
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Design your survey (Voice of the Customer)
 Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)], designed at least one theme, and made any planning decisions, it’s time to design your Voice of the Customer for Microsoft Dynamics 365 survey.  

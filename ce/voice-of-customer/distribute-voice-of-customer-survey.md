@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: bdf1401d-1998-480b-ada2-38a2667eced6
 caps.latest.revision: 13
+author: "brycho"
+ms.author: "brycho"
+manager: "brycho"
 ---
 # Distribute a survey (Voice of the Customer)
 You can invite respondents to take part in a survey in different ways, depending on how you want to send the invitation out, whether you want non-anonymous responses, and whether you want to pipe data to the survey.  
