@@ -25,7 +25,7 @@ Before you start designing Voice of the Customer for Microsoft Dynamics 365 surv
   
 3.  Fill out the **Name** field.  
   
-4.  Adjust the survey’s color values by specifying the hexadecimal value for each part of the survey (for example, the hex value for blue is #0000FF). [w3schools](http://www.w3schools.com/html/html_colorvalues.asp) provides a handy reference chart for hexadecimal color values. Click a hex value in the chart to see a chart with corresponding RGB values (for example, the RGB value for blue is 0, 0, 255).  
+4.  Adjust the survey’s color values by specifying the hexadecimal value for each part of the survey (for example, the hex value for blue is #0000FF). [w3schools](https://www.w3schools.com/html/html_colors.asp) provides a handy reference chart for hexadecimal color values. Click a hex value in the chart to see a chart with corresponding RGB values (for example, the RGB value for blue is 0, 0, 255).  
   
 5.  If you want, add custom CSS instructions under **CSS**.  
   
