@@ -37,7 +37,7 @@ Once you’ve created your survey, you can translate it into other languages.
   
      You can use any HTML encoder. For example:  
   
-    -   [http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode.md](http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode.md)  
+    -   [http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode](http://www.opinionatedgeek.com/DotNet/Tools/HTMLEncode/Encode.aspx)  
   
     -   [http://www.web2generators.com/html/entities](http://www.web2generators.com/html/entities)  
   
