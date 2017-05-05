@@ -48,11 +48,5 @@ Once you’ve created your survey, you can translate it into other languages.
  If you add or change a question after adding your edited translations file, you need to add the translation for that question. To get an updated version of the questions, click **Export translations** on the survey screen and repeat these steps to add your new translations.  
   
 > [!NOTE]
-> [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] automatically detects the language at run time, based on the respondent’s browser preferences. If there isn’t a translation for that language, the survey will use the base language strings instead.  
+> [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] automatically detects the language at runtime, based on the respondent’s browser preferences. If there isn’t a translation for that language, the survey will use the base language strings instead.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](view-voice-of-customer-survey-dashboards-reports.md) [View reports](view-voice-of-customer-survey-dashboards-reports.md)  
-  
- [Back to beginning](create-voice-of-customer-survey.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](create-voice-of-customer-survey.md)  
-  
-## See Also  
- [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)
