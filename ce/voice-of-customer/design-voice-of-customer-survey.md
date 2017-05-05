@@ -68,9 +68,3 @@ Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](includes/pn-crm
   
     -   To stop this survey from running, click **Stop**.  
   
- [![Left arrow icon](media/crm-ua-icons-arrowleftbluecircled.png "Left arrow icon")](plan-voice-of-customer-survey.md) [Plan your survey](plan-voice-of-customer-survey.md)  
-  
- [Personalize your survey](personalize-voice-of-customer-surveys-piped-data.md) [![Right arrow icon](media/crm-ua-icons-arrowrightbluecircled.png "Right arrow icon")](personalize-voice-of-customer-surveys-piped-data.md)  
-  
-## See Also  
- [Get feedback with Voice of the Customer for Microsoft Dynamics 365 surveys](create-voice-of-customer-survey.md)
