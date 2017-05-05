@@ -66,5 +66,5 @@ You can invite respondents to take part in a survey in different ways, depending
  Thank you Marie for giving your feedback and helping us improve the service we are able to deliver to you. Please take the time to answer a few questions regarding case number 298724 and Customer Service Representative Nancy.  
   
 > [!NOTE]
->  You can also create workflows to use with surveys and specify the appropriate fields instead of individual names, so you can send emails automatically as part of the workflow. For more information about creating workflows, see [Technet: Workflow processes](https://technet.microsoft.com/library/dn531067.md).  
+>  You can also create workflows to use with surveys and specify the appropriate fields instead of individual names, so you can send emails automatically as part of the workflow. For more information about creating workflows, see [Technet: Workflow processes](https://technet.microsoft.com/library/dn531067).  
   
