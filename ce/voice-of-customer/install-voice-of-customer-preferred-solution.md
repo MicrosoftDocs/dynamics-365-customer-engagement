@@ -17,7 +17,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution
-Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909.md).  
+Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909).  
   
 > [!IMPORTANT]
 >  The Voice of the Customer for Microsoft Dynamics 365 preferred solution connects to an external service that isn't completely within the [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] compliance boundary.  
@@ -25,13 +25,13 @@ Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that yo
 > [!NOTE]
 >  Voice of the Customer for Microsoft Dynamics 365 has the following limitations designed to optimize performance:  
 >   
->  -   You can publish a maximum of 200 surveys.  
-> -   You can include a maximum of 250 questions on a survey. If you've enabled feedback for a survey, you can include a maximum of 40 questions.  
-> -   You can create a maximum of 25 pages per survey.  
-> -   You can send a maximum of 10,000 email invitations that include piped data in a 24-hour period. Any emails that exceed that amount will remain pending during that time and will automatically start sending when the time limit is over.  
-> -   Voice of the Customer for Microsoft Dynamics 365 isn't supported on legacy forms.  
-> -   Voice of the Customer for Microsoft Dynamics 365 will pull a maximum of 2,400 survey responses per day.  
-> -   Voice of the Customer for Microsoft Dynamics 365 allows storage of a maximum of 1,000,000 survey responses.  
+> -   Maximum # of surveys you can publish: **200**  
+> -   Maximum # of questions on a survey: **250**. If you've enabled feedback for a survey, you can include a maximum of 40 questions.  
+> -   Maximum # of pages per survey: **25**.  
+> -   Maximum # of email invitations you can send in 24-hour perios that included piped data: **10,000**. Any emails that exceed that amount will remain pending during that time and will automatically start sending when the time limit is over.
+> -   Maximum # of survey responses that Voice of the Customer will pull per day: **2400**
+> -   Maximum # of survey responses that Voice of the Customer will store: **1,000,000**. 
+> -   Note that surveys aren't supported on legacy forms.  
   
  After you've installed the Voice of the Customer for Microsoft Dynamics 365 preferred solution, you need to accept the terms and conditions to configure it in [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)].  
   
