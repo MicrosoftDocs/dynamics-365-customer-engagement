@@ -33,7 +33,7 @@ Once you’ve created your survey, you can translate it into other languages.
   
      as:  
   
-     &lt;b&gt;Hello!&lt;/b&gt;  
+     &amp;lt;b&amp;gt;Hello!&amp;lt;/b&amp;gt;  
   
      You can use any HTML encoder. For example:  
   
