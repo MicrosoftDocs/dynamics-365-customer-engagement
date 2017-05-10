@@ -32,7 +32,8 @@
     "globalMetadata": {},
     "fileMetadata": {
       "breadcrumb_path": {
-        "gamification/**.*": "bc/toc.yml"
+        "gamification/**.*": "bc/toc.yml",
+        "voice-of-customer/**.*": "bc/toc.yml"
       }
     },
     "template": [],
