@@ -1,5 +1,5 @@
 ﻿---
-title: "Plan your survey (Voice of the Customer) | MicrosoftDocs"
+title: "Plan your Dynamics 365 Voice of the Customer survey | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,7 +16,7 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Plan your survey (Voice of the Customer)
+# Plan your survey 
 Before configuring your survey questions, it’s helpful to plan ahead. Here are a few things to think about to help you design the right questions for your survey:  
   
 -   What’s the purpose of your survey? For example, you might want to measure something (like customer satisfaction), interact with your customers, or promote new products or services. If your goal is to measure, what exactly do you want to measure?  
