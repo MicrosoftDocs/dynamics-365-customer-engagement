@@ -1,5 +1,5 @@
 ﻿---
-title: "Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution | MicrosoftDocs"
+title: "Install the Voice of the Customer for Microsoft Dynamics 365 preferred solution | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,7 +16,7 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution
+# Install the solution
 Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909).  
   
 > [!IMPORTANT]
