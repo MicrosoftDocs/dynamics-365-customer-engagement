@@ -1,5 +1,5 @@
 ﻿---
-title: "Create a response routing rule in a survey (Voice of the Customer) | MicrosoftDocs"
+title: "Create a response routing rule for a Dynamics 365 Voice of the Customer survey | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Create a response routing rule in a survey (Voice of the Customer)
-When you want to ask additional questions based on responses in a Voice of the Customer for Microsoft Dynamics 365 survey, create one or more response routing rules for the response you want more information about.  
+# Create a response routing rule for a survey
+When you want to ask additional questions based on responses in a survey, create one or more response routing rules for the response you want more information about.  
   
  For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a response routing rule to ask the reason if someone responds **Not likely**.  
   
