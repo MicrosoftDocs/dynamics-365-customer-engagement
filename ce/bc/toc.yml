@@ -5,3 +5,6 @@
   - name: Gamification
     tocHref: /dynamics365/customer-engagement/gamification
     topicHref: /dynamics365/customer-engagement/gamification/increase-employee-productivity-with-dynamics-365-gamification
+  - name: Voice of the Customer
+    tocHref: /dynamics365/customer-engagement/voice-of-customer
+    topicHref: /dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey
