@@ -1,5 +1,5 @@
 ﻿---
-title: "Customize Voice of the Customer for Microsoft Dynamics 365 survey settings | MicrosoftDocs"
+title: "Customize Dynamics 365 Voice of the Customer survey settings | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Customize Voice of the Customer for Microsoft Dynamics 365 survey settings
-You can start using Voice of the Customer for Microsoft Dynamics 365 surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  
+# Customize survey settings
+You can start using surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  
   
 -   Email Face Template  
   
