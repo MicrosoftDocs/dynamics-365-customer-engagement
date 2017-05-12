@@ -1,5 +1,5 @@
 ﻿---
-title: "View dashboards and reports for Dynamics 365 Voice of the Customer surveys | MicrosoftDocs"
+title: "View dashboards and reports for Voice of the Customer for Dynamics 365 surveys | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# View survey dashboards and reports
-The survey dashboard gives you an overall view of your survey’s progress at a glance. For more information about specific metrics, you can run the following reports:  
+# View dashboards and reports for your Voice of the Customer survey
+The Voice of the Customer for Dynamics 365 survey dashboard gives you an overall view of your survey’s progress at a glance. For more information about specific metrics, you can run the following reports:  
   
 -   Net Promoter Score  
   
