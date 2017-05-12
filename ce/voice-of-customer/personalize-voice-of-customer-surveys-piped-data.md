@@ -1,5 +1,5 @@
 ﻿---
-title: "Personalize Dynamics 365 Voice of the Customer surveys with piped data | MicrosoftDocs"
+title: "Personalize Voice of the Customer for Dynamics 365 survey with piped data | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Personalize your surveys with piped data 
-Use piped data to automatically insert [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] information into your survey. For example, you can use piped data to automatically insert customers' first names into the text on your survey's Welcome screen.  
+# Personalize your Voice of the Customer survey to automatically insert Dynamics 365 data
+Use piped data to automatically insert [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] information into your Voice of the Customer for Dynamics 365 survey. For example, you can use piped data to automatically insert customers' first names into the text on your survey's Welcome screen.  
   
 1.  While designing your survey, click the **Edit** button on the question or element you want to add a piped data field to.  
   
