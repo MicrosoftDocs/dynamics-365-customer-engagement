@@ -1,4 +1,5 @@
-﻿---
+
+---
 title: "Customize Voice of the Customer for Dynamics 365 survey settings | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -47,9 +48,11 @@ You can start using Voice of the Customer for Dynamics 365 surveys right away, w
   
 2.  Choose a configuration to edit from the **Active Configurations** list or click **New** to create one.  
   
-3.  Change the values in the **Response Fetching** and **General Settings** areas as needed.  
+3.  Change the values in **General Settings** areas as needed.
+
+4.  Change the values in the **Response Fetching** and **General Settings** areas as needed.  
   
-4.  Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
+5.  Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
   
 #### Import survey XML  
   
