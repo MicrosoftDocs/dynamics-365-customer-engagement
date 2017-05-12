@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Install the solution
-Voice of the Customer for Microsoft Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909).  
+# Install the Voice of the Customer solution
+Voice of the Customer for Dynamics 365 is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](includes/pn-ms-office-365-md.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909).  
   
 > [!IMPORTANT]
 >  The Voice of the Customer for Microsoft Dynamics 365 preferred solution connects to an external service that isn't completely within the [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] compliance boundary.  
