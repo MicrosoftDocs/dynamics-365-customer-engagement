@@ -23,7 +23,7 @@ By enabling the Voice of the Customer for Microsoft Dynamics 365 feature, when y
  This worker role is responsible for processing the raw completed surveys into valid survey responses that can be created in Dynamics 365.  
   
  **Push Processor (Worker Role)**  
- This Wworker role is responsible for processing the valid survey responses and updating as Dynamics 365 entity records. 
+ This worker role is responsible for processing the valid survey responses and updating as Dynamics 365 entity records. 
  
  **Azure Key Vault** ([https://azure.microsoft.com/en-us/services/key-vault/](https://azure.microsoft.com/en-us/services/key-vault/))  
   
