@@ -1,5 +1,5 @@
 ﻿---
-title: "Design a theme for your Dynamics 365 Voice of the Customer surveys | MicrosoftDocs"
+title: "Design a theme for your Voice of the Customer for Dynamics 365 surveys | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Design a theme for your surveys 
-Before you start designing surveys, you'll want to define one or more themes to use to match your company's style. Themes define the color scheme for your surveys. You can design multiple themes if you want to use different ones for other surveys.  
+# Design a theme for your Voice of the Customer surveys to match your company's style 
+Before you start designing Voice of the Customer for Dynamics 365 surveys, you'll want to define one or more themes to use to match your company's style. Themes define the color scheme for your surveys. You can design multiple themes if you want to use different ones for other surveys.  
   
 1.  From the menu, go to **Voice of the Customer for Microsoft Dynamics 365 > Themes**.  
   
