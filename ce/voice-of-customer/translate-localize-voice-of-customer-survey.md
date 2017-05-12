@@ -1,5 +1,5 @@
 ﻿---
-title: "Translate or localize your Dynamics 365 Voice of the Customer survey | MicrosoftDocs"
+title: "Translate or localize your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Translate or localize your survey 
-Once you’ve created your survey, you can translate it into other languages.  
+# Translate or localize your Voice of the Customer survey 
+Once you’ve created your Voice of the Customer for Dynamics 365 survey, you can translate it into other languages.  
   
 1.  From the survey you want to translate, open the Translations.xml file under **Translations** in the **Summary** area.  
   
