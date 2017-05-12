@@ -1,5 +1,5 @@
 ﻿---
-title: "Distribute a Dynamics 365 Voice of the Customer survey | MicrosoftDocs"
+title: "Distribute a Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Distribute a survey 
-You can invite respondents to take part in a survey in different ways, depending on how you want to send the invitation out, whether you want non-anonymous responses, and whether you want to pipe data to the survey.  
+# Send out an invitation for your Voice of the Customer survey 
+You can invite respondents to take part in a Voice of the Customer for Dynamics 365 survey in different ways, depending on how you want to send the invitation out, whether you want non-anonymous responses, and whether you want to pipe data to the survey.  
   
  Surveys can be:  
   
