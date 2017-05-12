@@ -1,4 +1,5 @@
 
+
 ---
 title: "Customize Voice of the Customer for Dynamics 365 survey settings | MicrosoftDocs"
 ms.custom: ""
@@ -49,6 +50,9 @@ You can start using Voice of the Customer for Dynamics 365 surveys right away, w
 2.  Choose a configuration to edit from the **Active Configurations** list or click **New** to create one.  
   
 3.  Change the values in **General Settings** areas as needed.
+
+        > [!NOTE]
+        >  If you're using a version of Voice of the Customer earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings>Solutions** to determine the version. 
 
 4.  Change the values in the **Response Fetching** and **General Settings** areas as needed.  
   
