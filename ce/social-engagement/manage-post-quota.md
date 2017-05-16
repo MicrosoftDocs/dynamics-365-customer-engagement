@@ -66,7 +66,7 @@ Keep track of the number of posts that result from your search topics towards yo
  Keeping the post quota healthy is crucial to make sure the data acquisition isn’t interrupted, and you don’t miss any relevant information.  
   
 > [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement Quota Management (2:33)](http://go.microsoft.com/fwlink/p/?LinkId=544938)  
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Quota Management (2:33)](http://go.microsoft.com/fwlink/p/?LinkId=544938)  
   
 ### Impact of exceeding limits  
  All [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage the quality of your search results](../social-engagement/search-results-quality.md)  

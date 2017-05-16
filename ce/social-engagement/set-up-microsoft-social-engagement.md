@@ -20,7 +20,7 @@ robots: noindex,nofollow
 This topic explains what the Administrator for your organization does to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
   
 > [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement Getting Started (3:11)](http://go.microsoft.com/fwlink/p/?LinkId=613693)  
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Getting Started (3:11)](http://go.microsoft.com/fwlink/p/?LinkId=613693)  
   
 <a name="set_sol_default"></a>   
 ## Define global settings  

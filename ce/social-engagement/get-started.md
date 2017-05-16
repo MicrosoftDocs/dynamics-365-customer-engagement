@@ -69,7 +69,7 @@ This topic introduces common user-interface elements and useful tips to work eff
  Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
   
 > [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement Getting Started (3:11)](http://go.microsoft.com/fwlink/p/?LinkId=613693)  
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Getting Started (3:11)](http://go.microsoft.com/fwlink/p/?LinkId=613693)  
   
  ![Navigation bar in Social Engagement](../social-engagement/media/navigation-bar-explained.png "Navigation bar in Social Engagement")  
   
@@ -186,7 +186,7 @@ This topic introduces common user-interface elements and useful tips to work eff
 - **Settings options**: Set the values on the settings pages according to your needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)  
   
 > [!TIP]
->  Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use-cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282)[Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
+>  Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use-cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282) [Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
   
 ## Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  

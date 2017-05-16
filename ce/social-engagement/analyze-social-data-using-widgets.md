@@ -26,7 +26,7 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
  [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] widgets provide you with drill-down functionality to narrow your data set. Click a data point to get a more detailed view of the data.  
   
 > [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement: Gain Insights using Analytics (7:23)](http://go.microsoft.com/fwlink/p/?LinkId=615285)  
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement: Gain Insights using Analytics (7:23)](http://go.microsoft.com/fwlink/p/?LinkId=615285)  
   
 > [!NOTE]
 >  -   If no posts are available for your organization, widgets display no metrics and an error message.  

@@ -32,7 +32,7 @@ Listen to conversations on social media around your brand, business, products, a
 |![Step 5](../social-engagement/media/crm-ua-walkthrough-green-5.png "Step 5")|Optimize your search topics constantly to make sure you’re gathering only relevant posts.|[Manage the quality of your search results](../social-engagement/search-results-quality.md)<br /><br /> and<br /><br /> [Refine your search rules](../social-engagement/refine-search-rules.md)|  
   
 > [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
   
 ## Access search topics  
  To access the search topics in your organization’s solution, go to **Search Setup**.  

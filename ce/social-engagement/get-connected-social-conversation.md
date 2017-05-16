@@ -28,7 +28,7 @@ There’s a good chance that your customers and stakeholders are talking about y
   
 -   Download the [Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
   
--   Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282)[Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
+-   Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282) [Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
   
  As a next step, you can review information about the features in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]:  
   

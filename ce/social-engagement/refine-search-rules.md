@@ -22,7 +22,7 @@ Analyze your results and optimize your search queries regularly to make sure you
 >  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
 > [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
   
  Terms and sources change. New abbreviations may gain popularity, or news about your topic will be defined in a different way with different words. A recommended approach is to read carefully through new and important posts to identify emerging topics or changes in wording.  
   

@@ -40,7 +40,7 @@ Create email notifications that are automatically sent to a group of recipients 
 |Delete button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button")|Delete an existing alert from the list if you no longer need it.|  
   
 > [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement Alerts (3:13)](http://go.microsoft.com/fwlink/p/?LinkId=544937)  
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Alerts (3:13)](http://go.microsoft.com/fwlink/p/?LinkId=544937)  
   
 ### Create an alert  
  A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")  
