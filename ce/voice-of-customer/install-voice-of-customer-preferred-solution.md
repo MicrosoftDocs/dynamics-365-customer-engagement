@@ -31,11 +31,9 @@ Voice of the Customer for Dynamics 365 is a preferred solution that you install 
 > -   Maximum # of email invitations you can send in 24-hour period that includes piped data: **10,000**. Any emails that exceed that amount will remain pending during that time and will automatically start sending when the time limit is over.
 > -   Maximum # of survey responses that Voice of the Customer will pull per day: **2400**
 > -   Maximum # of survey responses that Voice of the Customer will store: **1,000,000** 
-> -   Note that surveys aren't supported on legacy forms.  
-
-
-The following limitations also apply if you're using a version earlier than 9.0.781.3. If you're not sure which version you're using, talk to your administrator. If you're an administrator, you can find the version by going to **Settings>Solutions**.
-
+> -   Note that surveys aren't supported on legacy forms. 
+>    
+> The following limitations also apply if you're using a version earlier than 9.0.781.3. If you're not sure which version you're using, talk to your administrator. If you're an administrator, you can find the version by going to **Settings>Solutions**.
 > -   Maximum # of email invitations that you can send that include piped data in a 24-hour period: **10,000**. Any emails that exceed that amount will remain pending during that time and will automatically start sending when the time limit is over.  
 > -   Maximum # of survey responses you can pull per day: **2400**.
 
