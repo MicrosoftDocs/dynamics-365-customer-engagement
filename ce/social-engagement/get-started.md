@@ -89,39 +89,39 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Application areas**: The main areas to work in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-    - **Search Setup**: Create and edit search topics, defining the posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] acquires. Get an overview of your solution’s data acquisition status and its progress towards the post quota. Maintain lists of blocked content to optimize the quality of your data.  
+- **Search Setup**: Create and edit search topics, defining the posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] acquires. Get an overview of your solution’s data acquisition status and its progress towards the post quota. Maintain lists of blocked content to optimize the quality of your data.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
-    - **Analytics**: See widgets that show the data in your solution. Switch between different pages in Analytics to see more detailed information about the areas that matter the most to you. Add filters to slice and dice your data according to your business needs.  
+- **Analytics**: See widgets that show the data in your solution. Switch between different pages in Analytics to see more detailed information about the areas that matter the most to you. Add filters to slice and dice your data according to your business needs.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)  
   
-    - **Private Messages**: Find all private messages in the solution with a single click. This is not an application but a shortcut to a view on the post list with the filter for private messages enabled.  
+- **Private Messages**: Find all private messages in the solution with a single click. This is not an application but a shortcut to a view on the post list with the filter for private messages enabled.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Social Engagement](../social-engagement/posts-conversations.md)  
   
-    - **Social Center**: Create and manage real-time streams of posts that match a selected data set. Depending on your user role and license type, you can share streams with other users of your solution.  
+- **Social Center**: Create and manage real-time streams of posts that match a selected data set. Depending on your user role and license type, you can share streams with other users of your solution.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep track of live data streams with Social Center](../social-engagement/social-center.md)  
   
-    - **Activity Maps**: Create and manage activity maps to see real-time visualizations of posts with location information. Show this on a large screen and let your audience know where in the world your topics are discussed.  
+- **Activity Maps**: Create and manage activity maps to see real-time visualizations of posts with location information. Show this on a large screen and let your audience know where in the world your topics are discussed.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define activity maps to view real-time data](../social-engagement/activity-maps.md)  
   
-    - **Social Selling**: Work with the Social Selling Assistant directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and get recommendations on relevant and shareable content that really matters to you.  
+- **Social Selling**: Work with the Social Selling Assistant directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and get recommendations on relevant and shareable content that really matters to you.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)  
   
-    - **Message Center**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
+- **Message Center**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stay up to date with alerts](../social-engagement/email-alerts.md)  
   
-    - **Settings**: All users can define how the application displays for them. Administrators can manage user roles, set system-wide settings, and configure many more options.  
+- **Settings**: All users can define how the application displays for them. Administrators can manage user roles, set system-wide settings, and configure many more options.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)  
   
-    - **Help**: Visit the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Help Center (opens a new website) to see the latest help topics.  
+- **Help**: Visit the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Help Center (opens a new website) to see the latest help topics.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Social Engagement](../social-engagement/get-help.md)  
   
