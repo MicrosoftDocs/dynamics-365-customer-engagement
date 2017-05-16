@@ -43,7 +43,7 @@ Using Activity maps, you can view real-time posts by geographical location on an
   
         - **Sentiment map:** Displays the sentiment values for the conversations, based on the location.  
   
-    - **Filters**: Select the filters you want to create the activity map from. You can use **All Search Topics** or choose **Change**![Edit button](../social-engagement/media/edit-icon.png "Edit button") to select filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Get relevant data using filters](../social-engagement/use-filters.md)  
+    - **Filters**: Select the filters you want to create the activity map from. You can use **All Search Topics** or choose **Change** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") to select filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Get relevant data using filters](../social-engagement/use-filters.md)  
   
         > [!IMPORTANT]
         >  Make sure that your data set contains posts that the activity map can display. If you configure an activity map that has a data set without location information (for example, if you filter only by Blogs, which don’t support location data), the activity map won’t display any data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Get relevant data using filters](../social-engagement/use-filters.md)  

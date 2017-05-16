@@ -37,7 +37,7 @@ After personalizing the Social Selling Assistant for your individual use-case, y
   
     -   You can click **Copy to clipboard** ( ![Copy button.](../social-engagement/media/copy-url-icon.png "Copy button.") ) if you want to work with the source of the post. For example, you can create a new task in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] if you plan to follow up on a post later.  
   
-    -   You can **Retweet**![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or **Like**![Facebook like button in Social Engagement](../social-engagement/media/like-icon.png "Facebook like button in Social Engagement") on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] if the post was found in one of these sources.  
+    -   You can **Retweet** ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or **Like** ![Facebook like button in Social Engagement](../social-engagement/media/like-icon.png "Facebook like button in Social Engagement") on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] if the post was found in one of these sources.  
   
  By default, posts are sorted by recommendation type.  To change to a chronological order, click **Sort** (![Change the sort order button.](../social-engagement/media/sort-symbol.png "Change the sort order button.")).  
   

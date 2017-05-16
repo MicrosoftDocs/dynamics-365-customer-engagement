@@ -79,7 +79,7 @@ manager: "sakudes"
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Select the appropriate social profile, and in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page details panel, click **Re-authenticate**![Reauthenticate tokens button in Social Engagement](../social-engagement/media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your  credentials.  
+2.  Select the appropriate social profile, and in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page details panel, click **Re-authenticate** ![Reauthenticate tokens button in Social Engagement](../social-engagement/media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your  credentials.  
   
 3.  Under **Acquisition of private messages**, click the drop-down arrow next to the private messages symbol ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol") , and then select the check box next to **Allow** to acquire privates messages to and from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] account. The token will become active  after you select the check box.  
   
@@ -97,7 +97,7 @@ manager: "sakudes"
 ## Re-authenticate a token  
  Expired tokens must be re-authenticated to continue data acquisition and interactions with posts.  You can also check the health state of your tokens in your lists of social profiles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Check the health state of your social profiles](../social-engagement/social-profiles-health-state.md)  
   
-1.  Select the appropriate social profile and click **Re-authenticate**![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
+1.  Select the appropriate social profile and click **Re-authenticate** ![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
   
 2.  Enter the appropriate credentials.  
   

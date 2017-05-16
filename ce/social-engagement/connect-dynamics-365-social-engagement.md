@@ -91,13 +91,13 @@ Learn how to set up the connection between [!INCLUDE[pn_dynamics_crm](../include
   
  ![Add connection to Dynamics 365 &#40;on&#45;premises&#41;](../social-engagement/media/add-dynamics-365-connection.png "Add connection to Dynamics 365 (on-premises)")  
   
-5.  Click **Next**![Next button](../social-engagement/media/next-icon.png "Next button").  
+5.  Click **Next** ![Next button](../social-engagement/media/next-icon.png "Next button").  
   
 6.  The **Dynamics 365 Instance** pane opens and shows you the details about the connected instance if the connection is successful.  
   
 7.  You can set the **Set as default** control to ON to have this instance selected by default when creating new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts.  
   
-8.  If you changed a value in the **Dynamics 365 Instance** pane, click **Save**![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+8.  If you changed a value in the **Dynamics 365 Instance** pane, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
 9. The connected [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is now listed in the main pane when you go to **Settings** > **Connections** > **Microsoft Dymanics Dynamics 365**.  
   

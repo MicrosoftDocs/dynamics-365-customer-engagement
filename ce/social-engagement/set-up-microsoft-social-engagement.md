@@ -63,7 +63,7 @@ This topic explains what the Administrator for your organization does to set up 
   
 7.  Repeat steps 4 through 6 until you have added all required rules for this search topic. (Optional)  
   
-8.  In the **Search Topic Settings** area, click **Save**![Save button](../social-engagement/media/save-icon.png "Save button") to save the search topic and start data acquisition.  
+8.  In the **Search Topic Settings** area, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to save the search topic and start data acquisition.  
   
 > [!NOTE]
 >  You can create an unlimited number of search topics to meet your requirements for [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. However, make sure that you stay within your post quota to keep data acquisition up and running.  More information: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  

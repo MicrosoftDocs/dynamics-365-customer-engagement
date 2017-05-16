@@ -47,7 +47,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
      For more information about where to find the connection string, see [Microsoft Azure: Get started with Event Hubs](https://azure.microsoft.com/documentation/articles/event-hubs-csharp-ephcs-getstarted/).  
   
-5.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button").  
+5.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 > [!TIP]
 >  For an end-to-end example, see [](../social-engagement/work-with-event-hubs.md "Work with events from Social Engagement in Azure Event Hubs").  
@@ -68,7 +68,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 3.  Select the connection you want to disable and set **Enable connection** to Off.  
   
-4.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button").  
+4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 <a name="re_enable_connection"></a>   
 #### Re-enable a disabled connection  
@@ -79,7 +79,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 3.  Select the connection you want to re-enable and set **Enable connection** to On.  
   
-4.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button").  
+4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 <a name="create_automation_rule"></a>   
 ## Choose the data to stream to event hubs using automation rules  

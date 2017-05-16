@@ -22,7 +22,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  Streams in Social Center are user specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Understand user roles](../social-engagement/user-roles.md),       [Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
   
- Streams show posts from the last 14 days. To review older posts that match a stream’s filters, click **Open earlier posts in Analytics**![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or, you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Open a data set in other areas of Social Engagement](../social-engagement/more-options-with-data-set.md)  
+ Streams show posts from the last 14 days. To review older posts that match a stream’s filters, click **Open earlier posts in Analytics** ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or, you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Open a data set in other areas of Social Engagement](../social-engagement/more-options-with-data-set.md)  
   
 > [!NOTE]
 >  If you have a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]Professional user license, you can have up to three streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)  
@@ -67,7 +67,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 2.  Scroll to the stream you want to share.  
   
-3.  In the stream header area, click **More options**![More options](../social-engagement/media/more-options-icon.png "More options"), and then click **settings**![Configuration button](../social-engagement/media/settings-icon.png "Configuration button").  
+3.  In the stream header area, click **More options** ![More options](../social-engagement/media/more-options-icon.png "More options"), and then click **settings** ![Configuration button](../social-engagement/media/settings-icon.png "Configuration button").  
   
 4.  Under **Sharing**, click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
   
@@ -92,7 +92,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 2.  Find the stream you want to edit.  
   
-3.  In the stream header area, click **More options**![More options](../social-engagement/media/more-options-icon.png "More options"), and then click **settings**![Configuration button](../social-engagement/media/settings-icon.png "Configuration button").  
+3.  In the stream header area, click **More options** ![More options](../social-engagement/media/more-options-icon.png "More options"), and then click **settings** ![Configuration button](../social-engagement/media/settings-icon.png "Configuration button").  
   
 4.  Edit your stream according to your requirements.  
   
@@ -111,7 +111,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 2.  Find the stream you want to delete.  
   
-3.  In the stream header area, click **More options**![More options](../social-engagement/media/more-options-icon.png "More options"), and then click **settings**![Configuration button](../social-engagement/media/settings-icon.png "Configuration button").  
+3.  In the stream header area, click **More options** ![More options](../social-engagement/media/more-options-icon.png "More options"), and then click **settings** ![Configuration button](../social-engagement/media/settings-icon.png "Configuration button").  
   
 4.  Click the **Delete** button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button").  
   

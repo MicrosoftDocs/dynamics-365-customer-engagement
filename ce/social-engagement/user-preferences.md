@@ -31,7 +31,7 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze
 <a name="EditPrefs"></a>   
 ## Edit your user preferences  
   
-1.  On the nav bar, click the **Settings button**![Configuration button](../social-engagement/media/settings-icon.png "Configuration button") > **My Preferences**.  
+1.  On the nav bar, click the **Settings button** ![Configuration button](../social-engagement/media/settings-icon.png "Configuration button") > **My Preferences**.  
   
      --OR--  
   

@@ -68,7 +68,7 @@ This topic helps you understand how you change the settings for your connections
   
 3.  In the **Dynamics 365 Instance** pane, set the **Set as default** option to ON.  
   
-4.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
 <a name="deletionResult"></a>   
 ## Results of deleting a connection  
@@ -142,7 +142,7 @@ This topic helps you understand how you change the settings for your connections
   
 3.  Set the **Enable instance** option to OFF.  
   
-4.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
 > [!NOTE]
 >  If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance has expired or is in maintenance, details for linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records won’t be shown in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  

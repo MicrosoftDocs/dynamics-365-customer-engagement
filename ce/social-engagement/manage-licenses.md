@@ -93,7 +93,7 @@ Using  the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin c
   
 2.  In the **Licenses** tab, select the **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** check box.  
   
-3.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button").  
+3.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 > [!IMPORTANT]
 >  To provide the required permissions for a user in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you need to assign user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Understand user roles](../social-engagement/user-roles.md)  
@@ -113,7 +113,7 @@ Using  the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin c
   
 2.  In **Licenses**, clear the **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** check box.  
   
-3.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button").  
+3.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 > [!NOTE]
 >  You can also delete users from the [Office 365 portal](http://go.microsoft.com/fwlink/p/?LinkID=390650). When you remove a user from your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license you've assigned to the user.  

@@ -105,7 +105,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Retweet**![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share**![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+3.  At the bottom of the post, click **Retweet** ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
   
     > [!NOTE]
     >  You can retweet posts only from public [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. If a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile is protected, you might still be able to read its posts if you’re a confirmed follower, but you won’t be able to retweet.  
@@ -114,7 +114,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 5.  Type your message in the text field.  
   
-6.  Click **Retweet**![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share**![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+6.  Click **Retweet** ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
   
 <a name="commentReply"></a>   
 ### Reply to a conversation  
@@ -132,7 +132,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Comment**![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply**![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3.  At the bottom of the post, click **Comment** ![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
 4.  In the header of the text box, select the social profile that you want to post with.  
   
@@ -142,7 +142,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
      Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to.  
   
-7.  To publish the message on behalf of the selected social profile, click **Comment**![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply**![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement").  
+7.  To publish the message on behalf of the selected social profile, click **Comment** ![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement").  
   
      You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
@@ -156,7 +156,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 2.  Select the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] post that you want to interact with.  
   
-3.  At the bottom of the post, click **Reply**![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3.  At the bottom of the post, click **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
 4.  In the header of the text  field, select the social profile that you want to post with.  
   
@@ -166,7 +166,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
      A link to reply to this conversation in a private message is added to your reply.  
   
-7.  To publish the message on behalf of the selected social profile, click **Reply**![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement").  
+7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement").  
   
  To learn more about the how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
   

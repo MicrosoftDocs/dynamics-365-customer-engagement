@@ -175,7 +175,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
   
 2.  In the list of **Owned Profiles/Profiles without owners**, find the social profile that you want to delete.  
   
-3.  Click **Delete**![Delete button](../social-engagement/media/trashbin-icon.png "Delete button") next to the social profile name, and then click Save.  
+3.  Click **Delete** ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button") next to the social profile name, and then click Save.  
   
  If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
   
@@ -186,7 +186,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
   
 2.  In the list of **Shared Profiles/Profiles without owners**, select the social profile that you want to claim ownership of.  
   
-3.  In the profile details pane, click **Claim ownership**![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
+3.  In the profile details pane, click **Claim ownership** ![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
   
 4.  To claim ownership, enter the required credentials in the pop-up window.  
   

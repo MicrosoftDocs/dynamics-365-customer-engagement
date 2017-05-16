@@ -76,7 +76,7 @@ You can use filters to slice and dice your data to narrow your analysis to the m
   
 #### Remove a filter  
   
-1.  Click **Remove all filters**![Remove all filters button](media/clear-filters-icon.png "Remove all filters button") to remove all active filters.  
+1.  Click **Remove all filters** ![Remove all filters button](media/clear-filters-icon.png "Remove all filters button") to remove all active filters.  
   
      --OR--  
   

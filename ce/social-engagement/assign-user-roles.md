@@ -28,11 +28,11 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 2.  In the **Users** pane, select **Newly invited (Analyst/Responder)** from the **Configuration role** drop-down menu.  
   
-3.  Select the check boxes for the users you want to assign a role to and click the **Edit**![Edit button](../social-engagement/media/edit-icon.png "Edit button") button.  
+3.  Select the check boxes for the users you want to assign a role to and click the **Edit** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") button.  
   
 4.  In the **Edit User Role** pane, select the user roles from the drop-down menus.  
   
-5.  To confirm your assignment, click **Save**![Save button](../social-engagement/media/save-icon.png "Save button").  
+5.  To confirm your assignment, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 <a name="ChangeRole"></a>   
 ## Change a role for a user  
@@ -43,7 +43,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 3.  In the **Edit User Role** dialog box, select the user role from the drop-down menus.  
   
-4.  Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button").  
+4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 > [!TIP]
 >  You can use the **Search for users** input field to find licensed users of your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. Additionally, you can filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.  
@@ -61,7 +61,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 1.  Navigate to **Settings** > **User Management**.  
   
-2.  Identify the user you want to contact and click the **Email**![Send message button in Social Engagement](../social-engagement/media/enevelope-icon.png "Send message button in Social Engagement") button in the **Users** list.  
+2.  Identify the user you want to contact and click the **Email** ![Send message button in Social Engagement](../social-engagement/media/enevelope-icon.png "Send message button in Social Engagement") button in the **Users** list.  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  

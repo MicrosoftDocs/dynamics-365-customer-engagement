@@ -35,11 +35,11 @@ When using the Social Selling Assistant for the first time, users will get recom
   
 2.  In the personalization wizard, click **Personalize**.  
   
-3.  Click **Share Content**, select the search topics that are relevant for you and click **Save**![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+3.  Click **Share Content**, select the search topics that are relevant for you and click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
  ![Screenshot of five selected search topics for the Social Selling Assistant personalization settings.](../social-engagement/media/select-search-topics-social-selling-assistant.png "Screenshot of five selected search topics for the Social Selling Assistant personalization settings.")  
   
-4.  Click **Get Insights** and manage the topics you want insights for. For example, you may create a new insight group for your business partners and add search topics relating to your partners to get insights, so you can stay on top of what your partners are saying on social media. Click **Save**![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Get Insights** and manage the topics you want insights for. For example, you may create a new insight group for your business partners and add search topics relating to your partners to get insights, so you can stay on top of what your partners are saying on social media. Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
  ![Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them.](../social-engagement/media/insight-groups-social-selling-assistant.png "Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them.")  
   

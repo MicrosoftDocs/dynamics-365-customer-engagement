@@ -50,7 +50,7 @@ Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../inc
   
      Go to **Social Center** to see your streams.  
   
-2.  Click a post, and then next to the custom tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , click **Add**![Add button](../social-engagement/media/add-icon.png "Add button") . Start typing to enter the custom tag that you want to add,  and then press **Enter** to select the tag.  
+2.  Click a post, and then next to the custom tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , click **Add** ![Add button](../social-engagement/media/add-icon.png "Add button") . Start typing to enter the custom tag that you want to add,  and then press **Enter** to select the tag.  
   
 3.  Click **Confirm**.  
   
@@ -73,7 +73,7 @@ Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../inc
   
 2.  In the Global Settings pane, click **Auto Tags**.  
   
-3.  Under Auto Tags, click **Add tag**![Add button](../social-engagement/media/add-icon.png "Add button")  
+3.  Under Auto Tags, click **Add tag** ![Add button](../social-engagement/media/add-icon.png "Add button")  
   
     > [!NOTE]
     >  You can maintain up to five auto tags simultaneously.  
@@ -119,7 +119,7 @@ Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../inc
   
 2.  In the Global Settings pane, click **Custom Tags**.  
   
-3.  In the Custom Tags panel, next to the tag name, click **Delete**![Delete button](../social-engagement/media/trashbin-icon.png "Delete button"), and then click **Confirm**.  
+3.  In the Custom Tags panel, next to the tag name, click **Delete** ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button"), and then click **Confirm**.  
   
 #### Rename tags  
   
@@ -127,9 +127,9 @@ Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../inc
   
 2.  In the Global Settings pane, click **Custom Tags**.  
   
-3.  In the Custom Tags panel, click **Edit**![Edit button](../social-engagement/media/edit-icon.png "Edit button") next to the tag name, and then start typing in the edit box.  
+3.  In the Custom Tags panel, click **Edit** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") next to the tag name, and then start typing in the edit box.  
   
-4.  Click **Confirm**![Apply button](../social-engagement/media/check-icon.png "Apply button")  
+4.  Click **Confirm** ![Apply button](../social-engagement/media/check-icon.png "Apply button")  
   
 ## Find posts with  tags  
  To quickly find posts with tags ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), use the  Tags filter when building a data set. You can also create automated rules to monitor your intention tags and custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][](../social-engagement/use-filters.md "Use filters to see relevant data") , [](../social-engagement/automation-rules.md "Route posts using automation rules")  
