@@ -25,7 +25,7 @@ Keep track of the number of posts that result from your search topics towards yo
 >  If you’re expected to exceed the post quota of the current month, you’ll get a notification email. When you exceed your post quota, data acquisition will be stopped for either of the following reasons:  
 >   
 >  -   You still exceed your post quota after a grace period of 48 hours from the time the notification was sent.  
-> -   Your solution passes the  additional post quota granted for the grace period, which is five times your monthly allocated quota.  
+>  -   Your solution passes the  additional post quota granted for the grace period, which is five times your monthly allocated quota.  
   
  For example, if your monthly post quota is 10,000 posts, your grace period starts when you receive a notification that your solution will probably exceed your quota limits. Data acquisition will be stopped automatically after 48 hours if you have exceeded your post quota by then, or as soon as your solution gathered more than 50,000 posts before the 48 hours have passed.  
   
