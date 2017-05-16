@@ -1,0 +1,81 @@
+---
+title: "Set up Microsoft Social Engagement | MicrosoftDocs"
+ms.custom: ""
+ms.date: "2016-11-18"
+ms.reviewer: ""
+ms.service: "mse"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Social Engagement"
+ms.assetid: c05d085a-0528-42d4-9398-eb4bb079ce7e
+caps.latest.revision: 26
+author: "m-hartmann"
+ms.author: "mhart"
+manager: "sakudes"
+robots: noindex,nofollow
+---
+# Set up Microsoft Social Engagement
+This topic explains what the Administrator for your organization does to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+  
+> [!TIP]
+>  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693)[Microsoft Social Engagement Getting Started (3:11)](http://go.microsoft.com/fwlink/p/?LinkId=613693)  
+  
+<a name="set_sol_default"></a>   
+## Define global settings  
+ You need to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] so your users can work with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] data. Begin by setting the system defaults. [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
+  
+1.  Go to **Settings** > **Global Settings**.  
+  
+2.  In the list, click **Default Preferences**.  
+  
+3.  In the **Default Preferences** pane, set your options.  
+  
+    |Option|What you can do|  
+    |------------|---------------------|  
+    |Name|Edit the name of your solution.|  
+    |Screen language|Set the default language for the user interface.|  
+    |Default time frame|Define the default time frame for your users’ analysis.|  
+    |Date and time format|Set the default date and time format. To edit the current values, click **Edit**.|  
+    |Number format|Select the number format from a predefined set of options to show numbers on the user interface.|  
+  
+4.  Click **Save**.  
+  
+> [!NOTE]
+>  The default values apply to all users for your organization. However, users can override the default settings for their accounts by editing them in **Settings** > **Personal Settings** > **Your Preferences**.  
+  
+<a name="set_up_first"></a>   
+## Set up your first search topic and add rules  
+ After you set up your system defaults, define your first search topic so you have data available to analyze. Think about what topics are relevant to your users. The number of rules for a topic isn’t limited, and you can edit your rules anytime.  
+  
+1.  Go to **Search Setup**.  
+  
+2.  In the **Search Topics** pane, click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+  
+3.  Name your search topic and assign a category.  
+  
+4.  Under **Rules**, click the **Add rule** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+  
+5.  Select the rule type that you want to add, and configure the rule.  
+  
+6.  In the rule pane, click **Continue** to see an approximate number of posts that you can expect from this rule. If the rule is within your post quota, you’ll be allowed to save it. Otherwise, a message will appear and indicate that you exceeded the quota.  
+  
+7.  Repeat steps 4 through 6 until you have added all required rules for this search topic. (Optional)  
+  
+8.  In the **Search Topic Settings** area, click **Save**![Save button](../social-engagement/media/save-icon.png "Save button") to save the search topic and start data acquisition.  
+  
+> [!NOTE]
+>  You can create an unlimited number of search topics to meet your requirements for [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. However, make sure that you stay within your post quota to keep data acquisition up and running.  More information: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+  
+## Privacy notices  
+ [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
+  
+ [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
+  
+## See Also  
+ [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
+ [Manage global settings](../social-engagement/manage-global-settings.md)   
+ [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
+ [Assign permissions and user roles](../social-engagement/assign-user-roles.md)
+[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
