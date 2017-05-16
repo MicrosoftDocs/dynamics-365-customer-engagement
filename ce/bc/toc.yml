@@ -8,3 +8,6 @@
   - name: Voice of the Customer
     tocHref: /dynamics365/customer-engagement/voice-of-customer
     topicHref: /dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey
+  - name: Social Engagement
+    tocHref: /dynamics365/customer-engagement/social-engagement
+    topicHref: /dynamics365/customer-engagement/social-engagement/get-connected-social-conversation
