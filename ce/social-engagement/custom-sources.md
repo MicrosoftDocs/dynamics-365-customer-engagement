@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Create or delete custom sources | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-18"
@@ -7,8 +7,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: eeda21ac-40b8-45ec-a90a-3c22e07c872a
 caps.latest.revision: 5
 author: "m-hartmann"
