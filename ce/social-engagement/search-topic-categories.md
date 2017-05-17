@@ -23,7 +23,7 @@ You can use categories to structure and group search topics in  ways that make t
 ## Required user roles  
  To create and manage a new category, you must have at least the Power Analyst user role in Analytics. To manage default categories that another user owns, you must have an Administrator user role in Analytics.  
   
- To assign a search topic to a category, or change the category for a search topic, you must either be the owner of the search topic or have an Administrator user role in Analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage ownership of a search topic](../social-engagement/create-delete-search-topic.md#manage_ownership)  
+ To assign a search topic to a category, or change the category for a search topic, you must either be the owner of the search topic or have an Administrator user role in Analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage ownership of a search topic](../social-engagement/create-delete-search-topic.md#manage_ownership)  
   
 ## Create a category  
  To see the category in Analytics, make sure that at least one search topic has this category assigned.  

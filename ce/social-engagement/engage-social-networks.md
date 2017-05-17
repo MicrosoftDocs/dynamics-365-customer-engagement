@@ -26,7 +26,7 @@ Do you want to offer a fast and powerful support to your customers on social cha
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
   
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is set up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)  
+- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is set up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)  
   
 -   Data acquisition is up and running. To set up searches, review this learning path: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
@@ -50,7 +50,7 @@ Do you want to offer a fast and powerful support to your customers on social cha
      More information: [Step 1: Manage social profiles](#SP_4)  
   
 > [!NOTE]
->  Some of the capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Route posts using automation rules](../social-engagement/automation-rules.md)  
+>  Some of the capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 <a name="SP_1"></a>   
 ## Manage social profiles   to participate in conversations  
@@ -97,7 +97,7 @@ Do you want to offer a fast and powerful support to your customers on social cha
 3.  Apply colorful labels to posts: [Add a label to a post in Analytics or Social Center](../social-engagement/work-with-posts.md#labels)  
   
 > [!NOTE]
-> [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] leverages Office 365 Groups to enable the collaboration with groups of pepole. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md)  
+> [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] leverages Office 365 Groups to enable the collaboration with groups of pepole. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md)  
   
 ## See Also  
  [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   

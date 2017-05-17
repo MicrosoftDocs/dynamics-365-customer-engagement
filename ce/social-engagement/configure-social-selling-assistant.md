@@ -54,9 +54,9 @@ Before you invite users to work with Social Selling Assistant, we recommend that
   
 2.  Select the tag you want to use to promote posts.  
   
-3.  Set the **Social Selling Assistant** setting to **On**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work with tags](../social-engagement/tags.md)  
+3.  Set the **Social Selling Assistant** setting to **On**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](../social-engagement/tags.md)  
   
- All posts that have the one or more of these tags will be promoted automatically to Social Selling Assistant. To promote a specific post to Social Selling Assistant, apply any of the tags that you marked here to that post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Promote a post to the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md#promotePost)  
+ All posts that have the one or more of these tags will be promoted automatically to Social Selling Assistant. To promote a specific post to Social Selling Assistant, apply any of the tags that you marked here to that post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Promote a post to the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md#promotePost)  
   
  ![Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.](../social-engagement/media/promote-tags-setting-social-selling-assistant.png "Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.")  
   

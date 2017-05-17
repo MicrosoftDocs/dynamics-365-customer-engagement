@@ -17,13 +17,13 @@ ms.author: "dechang"
 You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if you drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](../social-engagement/media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
 > [!NOTE]
->  You'll only see available filters when you configure your data sets. Some filters aren't available in an area because they are based on metadata that you change after the post's acquisition, either manually or through workflows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Avoid conflicting filter combinations](../social-engagement/use-filters.md#conflicting_filters)  
+>  You'll only see available filters when you configure your data sets. Some filters aren't available in an area because they are based on metadata that you change after the post's acquisition, either manually or through workflows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid conflicting filter combinations](../social-engagement/use-filters.md#conflicting_filters)  
   
 ## Keywords  
  Add keywords that must appear in posts to make them available for analysis. You can add entire phrases or single terms. If you add a comma-separated list of phrases or terms, the commas are treated as Boolean OR connectors and will add multiple keywords filters. Common characters are accepted, as well as the special characters @, #, and $.    Your analysis narrows your results to posts that contain the keywords that you’ve entered in your keyword filter.  
   
 ## Sources  
- Select the provided sources or custom sources that are active in your current analysis. Your analysis shows results from the sources that you selected in your filter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Find out what's covered by sources](../social-engagement/sources-coverage.md)  
+ Select the provided sources or custom sources that are active in your current analysis. Your analysis shows results from the sources that you selected in your filter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find out what's covered by sources](../social-engagement/sources-coverage.md)  
   
 ## Languages  
  Choose from the list of active search languages to focus your analysis on one or more languages. Your analysis shows results from the languages that you selected in your filter.  
@@ -72,7 +72,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
   
  **Share**: All posts in your data set that are shares on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or retweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
- **Private message**: All posts that are direct messages sent to a social profile. Additionally, the acquisition of private messages must be allowed in the social profile and a private messages rule must be set up to capture them.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Add a private messages rule](../social-engagement/add-rules-search-topic.md#privateMessagesRule)  
+ **Private message**: All posts that are direct messages sent to a social profile. Additionally, the acquisition of private messages must be allowed in the social profile and a private messages rule must be set up to capture them.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a private messages rule](../social-engagement/add-rules-search-topic.md#privateMessagesRule)  
   
 ## Contributor  
  Narrow your data set to show posts that are coming from either the owner or audience of a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. You can choose to see posts from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages that were either published by the owner of a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page or from other people posting on this [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.  
@@ -88,7 +88,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
  Find posts that either are or aren’t linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
   
 ## Tags  
- Find posts that match one of the available intention tags or custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
+ Find posts that match one of the available intention tags or custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
   
 ## See Also  
  [Use filters to see relevant data](../social-engagement/use-filters.md)   

@@ -15,7 +15,7 @@ ms.author: mhart
 manager: sakudes
 ---
 # Create or delete custom sources
-Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Custom sources offer a way to receive additional data from your favorite RSS and Atom feeds. Broaden your sources while efficiently keeping track of all of your feeds. Administrators can also define Search Setup defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage global settings](../social-engagement/manage-global-settings.md)  
+Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Custom sources offer a way to receive additional data from your favorite RSS and Atom feeds. Broaden your sources while efficiently keeping track of all of your feeds. Administrators can also define Search Setup defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage global settings](../social-engagement/manage-global-settings.md)  
   
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  

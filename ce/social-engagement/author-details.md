@@ -21,7 +21,7 @@ manager: "sakudes"
 ## Access author details in Analytics and Social Center  
  To see author details in posts, click **Posts** on the right side of any analytics page. Or go to **Social Center** to access your streams, and tap on the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] author profile picture in a post. To go back to your stream feed, click **Back to**.  
   
- To see author details in the Authors widget, go to **Analytics**, and in the author widget, click the view author details button. ![View author details button in Social Engagement](../social-engagement/media/author-details-icon.png "View author details button in Social Engagement"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)  
+ To see author details in the Authors widget, go to **Analytics**, and in the author widget, click the view author details button. ![View author details button in Social Engagement](../social-engagement/media/author-details-icon.png "View author details button in Social Engagement"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)  
   
 > [!NOTE]
 >  On mobile devices, tap the author profile picture, **or** tap a post twice, and tap the author profile picture to view the author profile. Depending on your screen size, you will see additional information in the list.  

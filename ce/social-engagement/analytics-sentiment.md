@@ -40,7 +40,7 @@ View and understand the sentiments in the social chat related to the posts that 
   
  `Sentiment index = (Positive posts – Negative posts)/(Positive posts + Negative posts) * 10`  
   
- You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][View the trend values](../social-engagement/analyze-social-data-using-widgets.md#trend)  
+ You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](../social-engagement/analyze-social-data-using-widgets.md#trend)  
   
 ## Static widgets on the Sentiments page  
   

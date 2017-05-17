@@ -39,7 +39,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
 ## Change a post’s sentiment value in Analytics and Social Center  
  In some cases the sentiment algorithm annotates a post’s sentiment differently from your perception of the tone. Adjust the sentiment value of posts if you disagree with a system-rated sentiment value. Confirm the system-rated sentiment value if you agree with it.  
   
- Sentiment calculations can improve based on the users’ edits to sentiment values if the Administrator enabled adaptive learning. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md)  
+ Sentiment calculations can improve based on the users’ edits to sentiment values if the Administrator enabled adaptive learning. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md)  
   
 1.  Click **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -61,7 +61,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
   
 <a name="labels"></a>   
 ## Add a label to a post in Analytics or Social Center  
- Outline workflows and track the status of a post by attaching a label to the post. You can also filter by labels in Analytics to find posts with specific labels or exclude posts with specific labels. Administrators define the labels to choose from in **Settings** > **Global Settings** > **Labels**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage global settings](../social-engagement/manage-global-settings.md)  
+ Outline workflows and track the status of a post by attaching a label to the post. You can also filter by labels in Analytics to find posts with specific labels or exclude posts with specific labels. Administrators define the labels to choose from in **Settings** > **Global Settings** > **Labels**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage global settings](../social-engagement/manage-global-settings.md)  
   
 > [!NOTE]
 >  You must have at least a Responder interaction role to perform this task.  
@@ -100,13 +100,13 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
 5.  Start typing and select the user or a group from the list.  
   
 > [!TIP]
->  To see the posts assigned to a user or a group, apply an **Assignee** filter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Get to know your filters](../social-engagement/understand-filters.md)  
+>  To see the posts assigned to a user or a group, apply an **Assignee** filter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get to know your filters](../social-engagement/understand-filters.md)  
 >   
 >  For more information about groups, see [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md).  
   
 <a name="Add_a_custom_tag"></a>   
 ## Add or remove tags  
- Social engagement allows intention tags and custom tags to be added to posts. Intention tags are predefined tags that are automatically added once a post is acquired. Custom tags are different from intention tags because they are not predefined and need to be manually added. Custom tags can't be automatically added to posts unless they are promoted to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
+ Social engagement allows intention tags and custom tags to be added to posts. Intention tags are predefined tags that are automatically added once a post is acquired. Custom tags are different from intention tags because they are not predefined and need to be manually added. Custom tags can't be automatically added to posts unless they are promoted to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
   
 1.  Click **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -149,7 +149,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
   
 <a name="link_post"></a>   
 ## Link a post from Social Engagement to Dynamics 365  
- [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
+ [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   
 ## Privacy notice  

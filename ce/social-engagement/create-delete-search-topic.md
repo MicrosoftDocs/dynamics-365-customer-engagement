@@ -19,7 +19,7 @@ manager: "sakudes"
 It’s important to start with a clear idea of what kind of online information you want to listen to. Set up new search topics and add at least one rule to each of them to find out what your audience is discussing in their public social media posts. You can also edit search topics you’ve created or delete them if they are no longer relevant.  
   
 > [!TIP]
->  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
 ## Create a search topic  
   
@@ -39,7 +39,7 @@ It’s important to start with a clear idea of what kind of online information y
   
 5.  Under **Rules**, click **Add Rule** ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
   
-6.  Select the rule type you want to create, and then provide the required information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Find out what's covered by sources](../social-engagement/sources-coverage.md)  
+6.  Select the rule type you want to create, and then provide the required information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find out what's covered by sources](../social-engagement/sources-coverage.md)  
   
 7.  Click **Continue** to estimate the number of results and see a preview of posts matching this rule.  
   
@@ -97,7 +97,7 @@ It’s important to start with a clear idea of what kind of online information y
     > -   An automated email notification is sent to the user who created the search topic.  
     > -   The search topic is no longer visible in the user interface.  
     > -   Alerts and streams based on this topic are deactivated.  
-    > -   The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your deleted search topics will no longer affect the quota. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage your post quota](../social-engagement/manage-post-quota.md)  
+    > -   The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your deleted search topics will no longer affect the quota. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](../social-engagement/manage-post-quota.md)  
   
 ## Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  

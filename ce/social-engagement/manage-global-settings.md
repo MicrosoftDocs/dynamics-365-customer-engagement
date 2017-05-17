@@ -152,7 +152,7 @@ Define system settings that apply to the entire organization, like solution name
 >  You may need to go to another page or refresh the application in your browser to see the updated link.  
   
 ## Turn adaptive learning on  
- The calculation of sentiment values for posts can learn from your users’ edits to sentiment values. As an administrator, you can choose if you want to enable adaptive learning for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Adaptive learning for your organization’s sentiment value edits](../social-engagement/adaptive-learning.md)  
+ The calculation of sentiment values for posts can learn from your users’ edits to sentiment values. As an administrator, you can choose if you want to enable adaptive learning for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Adaptive learning for your organization’s sentiment value edits](../social-engagement/adaptive-learning.md)  
   
 ## Manage labels for posts  
  Define labels to classify posts. Labels are a quick and easy way to assign a status to a post,  and let you add visual markers for a post.  
@@ -239,7 +239,7 @@ Define system settings that apply to the entire organization, like solution name
 >  Alerts that have the deleted location group in the filter will automatically be set to inactive, and alert owners will be notified by email. Alerts won’t reactivate if you re-create a location group with the same name.  
   
 ## Promote custom tags to auto tags  
- Add custom tags to your auto tags list. You can add up to five custom tags to your list. Custom tags added to this list will be promoted to auto tags and will be automatically added to posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
+ Add custom tags to your auto tags list. You can add up to five custom tags to your list. Custom tags added to this list will be promoted to auto tags and will be automatically added to posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
   
 ## See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   

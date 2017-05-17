@@ -23,9 +23,9 @@ After personalizing the Social Selling Assistant for your individual use-case, y
   
  ![Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.](../social-engagement/media/available-actions-social-selling-assistant.png "Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.")  
   
-- **Share** is the main action for recommendations based on Share Content personalization settings. It lets you choose from your social profiles and to share the link to the selected post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Publish and react to posts](../social-engagement/publish-react-posts.md)  
+- **Share** is the main action for recommendations based on Share Content personalization settings. It lets you choose from your social profiles and to share the link to the selected post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)  
   
-- **View** is the main action for recommendations based on Get Insights personalization settings. It opens the details of the post and shows additional information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Publish and react to posts](../social-engagement/publish-react-posts.md)  
+- **View** is the main action for recommendations based on Get Insights personalization settings. It opens the details of the post and shows additional information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)  
   
 -   Clicking ![Apply button](../social-engagement/media/check-icon.png "Apply button")**Done** indicates that you don't plan any further actions on this post. It will be removed from the post list in the Social Selling Assistant.  
   

@@ -26,13 +26,13 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 -   You have access to an existing event hub, and you also have its connection string with Send rights. For more information about how to create an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and how to get the connection string, see [Microsoft Azure: Get started with Event Hubs](https://azure.microsoft.com/documentation/articles/event-hubs-csharp-ephcs-getstarted/).  
   
--   You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Enterprise license assigned to your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] user account. Although Administrators with Professional licenses can configure the connection to an event hub, you’ll need an Enterprise license to create automation rules that stream data to a connected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)  
+-   You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Enterprise license assigned to your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] user account. Although Administrators with Professional licenses can configure the connection to an event hub, you’ll need an Enterprise license to create automation rules that stream data to a connected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)  
   
--   You have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Understand user roles](../social-engagement/user-roles.md)  
+-   You have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
   
 <a name="set_up_connection"></a>   
 ## Connect Social Engagement to Azure Event Hubs  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows you to connect to multiple event hubs. Before you can start to stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], you need to enable the connection and acknowledge that you agree data can be sent to a third-party application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Privacy Notice](#privacy)  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows you to connect to multiple event hubs. Before you can start to stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], you need to enable the connection and acknowledge that you agree data can be sent to a third-party application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Privacy Notice](#privacy)  
   
 <a name="connect_procedure"></a>   
 #### Connect to Azure Event Hubs  
@@ -57,7 +57,7 @@ Start building out your custom metrics or analysis based on the posts found by [
  Disable a connection if you want to pause the stream of posts to the connected event hubs. Re-enable the connection to start the stream again. Posts that were acquired while the connection to an event hub was disabled will not be processed retroactively.  
   
 > [!IMPORTANT]
->  Before you disable a connection, make sure no active automation rule is configured to stream posts to an event hub. We’ll inform you with an error message if you try to disable a connection that is used in active automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Route posts using automation rules](../social-engagement/automation-rules.md)  
+>  Before you disable a connection, make sure no active automation rule is configured to stream posts to an event hub. We’ll inform you with an error message if you try to disable a connection that is used in active automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 <a name="disable_procedure"></a>   
 #### Disable a connection  

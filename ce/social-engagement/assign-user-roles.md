@@ -53,7 +53,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
 >   
 >  Bulk editing user roles is limited to newly invited users.  
 >   
->  Users that are listed as Delegated Administrator always have Administrator and Manager user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. A lock icon ![Lock button](../social-engagement/media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Enable a partner as a delegated admin](../social-engagement/delegated-admin.md), [Understand user roles](../social-engagement/user-roles.md)  
+>  Users that are listed as Delegated Administrator always have Administrator and Manager user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. A lock icon ![Lock button](../social-engagement/media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a partner as a delegated admin](../social-engagement/delegated-admin.md), [Understand user roles](../social-engagement/user-roles.md)  
   
 <a name="EmailUsers"></a>   
 ## Send email to users  

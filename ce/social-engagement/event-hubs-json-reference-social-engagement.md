@@ -1427,7 +1427,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.quadkey"></a>   
 #### post.postLocation.quadkey  
- Quadtree key of a location, or “quadkey” for short. Identifies a single tile at a particular level of detail on a map. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)  
+ Quadtree key of a location, or “quadkey” for short. Identifies a single tile at a particular level of detail on a map. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)  
   
  Property Value Type: string  
   
@@ -1522,7 +1522,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.matchingSeachTopics.name"></a>   
 #### post.matchingSearchTopics.name  
- Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+ Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
  Property Value Type: string  
   

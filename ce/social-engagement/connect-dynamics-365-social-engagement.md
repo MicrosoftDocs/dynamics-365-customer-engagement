@@ -26,11 +26,11 @@ Learn how to set up the connection between [!INCLUDE[pn_dynamics_crm](../include
   
 -   You have a System Administrator security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
-     Contact your system administrator if you need an upgrade to your licensed products or an update to your permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Find your CRM administrator or support person](http://go.microsoft.com/fwlink/p/?LinkID=513070), [CRM Help & Training: View your user profile](http://go.microsoft.com/fwlink/p/?LinkId=619557)  
+     Contact your system administrator if you need an upgrade to your licensed products or an update to your permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your CRM administrator or support person](http://go.microsoft.com/fwlink/p/?LinkID=513070), [CRM Help & Training: View your user profile](http://go.microsoft.com/fwlink/p/?LinkId=619557)  
   
 -   You have an Administrator user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-     To find out your user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings** > **Personal Settings** > **Your Preferences**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Understand user roles](../social-engagement/user-roles.md)  
+     To find out your user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings** > **Personal Settings** > **Your Preferences**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
   
 > [!TIP]
 >  Your browser is likely to block any pop-ups opened by [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] when authenticating to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]. Learn more about the recommended browser settings to manage authentication pop-ups: [Optimize browser settings for Social Engagement](../social-engagement/system-browser-settings.md)  
@@ -40,14 +40,14 @@ Learn how to set up the connection between [!INCLUDE[pn_dynamics_crm](../include
   
 -   Your organization’s [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance is upgraded to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or a later release.  
   
--   Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance is ready to receive social data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][TechNet: Control social data](http://go.microsoft.com/fwlink/p/?LinkId=723352)  
+-   Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance is ready to receive social data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Control social data](http://go.microsoft.com/fwlink/p/?LinkId=723352)  
   
 <a name="additionalPrerequisitesOnPremises"></a>   
 ### Additional prerequisites to connect with Dynamics 365 (on-premises) (IFD enabled)  
   
 -   You have upgraded to at least [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) and the deployment is IFD enabled.  
   
--   Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) instance is an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] with a public IP address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][TechNet: Installing on-premises CRM 2016](http://go.microsoft.com/fwlink/p/?LinkId=723353), [TechNet: Configure IFD for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkId=723354)  
+-   Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) instance is an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] with a public IP address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Installing on-premises CRM 2016](http://go.microsoft.com/fwlink/p/?LinkId=723353), [TechNet: Configure IFD for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkId=723354)  
   
 -   Follow [post-installation and configuration guidelines for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=723355) to enable OAuth support.  
   
@@ -59,7 +59,7 @@ Learn how to set up the connection between [!INCLUDE[pn_dynamics_crm](../include
   
 <a name="ConnectCRM"></a>   
 ## Establish a connection between Social Engagement and Dynamics 365  
- To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], both services must be part of the same organization’s [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription. If you have licenses assigned to both [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you will find both products in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Meet the Office 365 app launcher](http://go.microsoft.com/fwlink/p/?LinkID=401421)  
+ To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], both services must be part of the same organization’s [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription. If you have licenses assigned to both [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you will find both products in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Meet the Office 365 app launcher](http://go.microsoft.com/fwlink/p/?LinkID=401421)  
   
  If you're a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] administrator interested in exploring [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services and how to integrate them with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to other domains, see [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md).  
   
@@ -102,9 +102,9 @@ Learn how to set up the connection between [!INCLUDE[pn_dynamics_crm](../include
 9. The connected [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is now listed in the main pane when you go to **Settings** > **Connections** > **Microsoft Dymanics Dynamics 365**.  
   
 ## Next steps  
- Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you can define entity details in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to specify information for the Social Activity entity that is created when you link a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage the connection between Dynamics 365 and Social Engagement](../social-engagement/manage-connection-dynamics-365-social-engagement.md)  
+ Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you can define entity details in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to specify information for the Social Activity entity that is created when you link a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the connection between Dynamics 365 and Social Engagement](../social-engagement/manage-connection-dynamics-365-social-engagement.md)  
   
- When you are satisfied with the configuration of the entities, configure the Record Creation Rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from Social Activity entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
+ When you are satisfied with the configuration of the entities, configure the Record Creation Rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from Social Activity entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   
 ## Privacy Notice  

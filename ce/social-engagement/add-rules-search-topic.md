@@ -32,7 +32,7 @@ Search topics consist of one or more search rules and define the data that's ava
 |Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts|**Instagram rule** ![Instagram symbol](../social-engagement/media/instagram-icon.png "Instagram symbol")|  
   
 > [!TIP]
->  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
 > [!TIP]
 >  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
@@ -43,7 +43,7 @@ Search topics consist of one or more search rules and define the data that's ava
 > [!IMPORTANT]
 >  Your keywords, inclusions, and exclusions can extend up to 128 characters. You can add up to 15 keywords and inclusions per search rule and up to 25 exclusions per search rule.  
 >   
->  Adding a rule usually leads to more posts resulting from your searches. The increased number of posts will count against your post quota. You'll need to validate every search topic that you changed before you can save it. It's a good idea to frequently review the results of a new or updated search topic to confirm that it collects relevant data and complies with your quota limits. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage your post quota](../social-engagement/manage-post-quota.md)  
+>  Adding a rule usually leads to more posts resulting from your searches. The increased number of posts will count against your post quota. You'll need to validate every search topic that you changed before you can save it. It's a good idea to frequently review the results of a new or updated search topic to confirm that it collects relevant data and complies with your quota limits. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](../social-engagement/manage-post-quota.md)  
   
 #### Add a new rule  
   
@@ -123,7 +123,7 @@ Search topics consist of one or more search rules and define the data that's ava
  To exclude multiple terms, the exclusions must be added to the same search rule. If one rule searches for "Contoso" while excluding "discounts" and another rule searches for "Contoso" while excluding "offers", the search topic will select all posts mentioning "Contoso" that don’t contain both "discounts" and "offers". If a query searches for "Contoso" while excluding "discounts, offers," it excludes all posts mentioning "Contoso" that don’t contain either "discounts" or "offers".  
   
 > [!TIP]
->  You can exclude terms from all active search rules in one step by adding a term to the list of blocked content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage the quality of your search results](../social-engagement/search-results-quality.md)  
+>  You can exclude terms from all active search rules in one step by adding a term to the list of blocked content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
   
  Exclusions are a great way to reduce the number of posts that result from your search and make sure you stay within your post quota. Choose your exclusions carefully to avoid missing relevant posts.  
   
@@ -209,7 +209,7 @@ Search topics consist of one or more search rules and define the data that's ava
   
      -- OR --  
   
-     Select a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile from already-added social profiles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage social profiles](../social-engagement/manage-social-profiles.md)  
+     Select a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile from already-added social profiles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
   
     > [!NOTE]
     >  You can also add multiple Twitter profiles to a rule in one step by clicking the Add button ![Add button](../social-engagement/media/add-icon.png "Add button") next to each profile.  
@@ -267,7 +267,7 @@ Search topics consist of one or more search rules and define the data that's ava
   
 <a name="customSourceRule"></a>   
 ## Add a custom sources rule  
- Create rules to gather posts from custom sources, You can also create keyword rules that match keywords in custom source posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule)  
+ Create rules to gather posts from custom sources, You can also create keyword rules that match keywords in custom source posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule)  
   
 #### Add a new custom sources rule  
   

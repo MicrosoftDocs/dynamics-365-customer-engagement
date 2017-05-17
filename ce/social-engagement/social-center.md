@@ -20,12 +20,12 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  To see your streams, go to **Social Center**.  
   
- Streams in Social Center are user specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Understand user roles](../social-engagement/user-roles.md),       [Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
+ Streams in Social Center are user specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md),       [Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
   
- Streams show posts from the last 14 days. To review older posts that match a stream’s filters, click **Open earlier posts in Analytics** ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or, you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Open a data set in other areas of Social Engagement](../social-engagement/more-options-with-data-set.md)  
+ Streams show posts from the last 14 days. To review older posts that match a stream’s filters, click **Open earlier posts in Analytics** ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or, you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](../social-engagement/more-options-with-data-set.md)  
   
 > [!NOTE]
->  If you have a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]Professional user license, you can have up to three streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)  
+>  If you have a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]Professional user license, you can have up to three streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)  
   
 <a name="ConfigureStream"></a>   
 ## Configure a stream  
@@ -51,7 +51,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 6.  Select users from your organization you want to share this stream with under **Sharing**. (Optional)  
   
-7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][](../social-engagement/use-filters.md "Use filters to see relevant data")  
+7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/use-filters.md "Use filters to see relevant data")  
   
 8.  Click the **Save** button ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
@@ -120,9 +120,9 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 <a name="NextSteps"></a>   
 ## Next Steps  
   
--   Assign posts to others, add labels, tag them, or edit sentiment values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work with posts](../social-engagement/work-with-posts.md)  
+-   Assign posts to others, add labels, tag them, or edit sentiment values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md)  
   
--   Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
+-   Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
   
 ## See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   

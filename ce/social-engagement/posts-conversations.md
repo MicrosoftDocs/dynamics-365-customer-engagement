@@ -22,9 +22,9 @@ manager: "sakudes"
   
  Or go to **Social Center** to access your streams. Choose the stream you want to work with. If you select a post in your streams, you can expand the contents (if applicable) to read the post.  
   
- To quickly see new posts that match a pre-defined data set, set up a stream in **Social Center**. Fresh and updated posts are automatically pushed to your client, to make sure you’re always on top of the information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Keep track of live data streams with Social Center](../social-engagement/social-center.md)  
+ To quickly see new posts that match a pre-defined data set, set up a stream in **Social Center**. Fresh and updated posts are automatically pushed to your client, to make sure you’re always on top of the information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep track of live data streams with Social Center](../social-engagement/social-center.md)  
   
- In the post list, you find the posts and the main actions to work with posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Engage on social networks](../social-engagement/engage-on-social-networks.md), [Work with posts](../social-engagement/work-with-posts.md)  
+ In the post list, you find the posts and the main actions to work with posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Engage on social networks](../social-engagement/engage-on-social-networks.md), [Work with posts](../social-engagement/work-with-posts.md)  
   
  If you select a post, it shows the single post pane, providing a full view of the contents with all available actions.  
   
@@ -41,7 +41,7 @@ manager: "sakudes"
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](#conversationView)  
   
- Any other post in the post list will open the single post pane with post details. For example, If a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply involves authors which aren’t social profiles in your tenant, then they show in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][See the publish history of a post in Social Engagement](#publishHistory)  
+ Any other post in the post list will open the single post pane with post details. For example, If a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply involves authors which aren’t social profiles in your tenant, then they show in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the publish history of a post in Social Engagement](#publishHistory)  
   
 <a name="Threads"></a>   
 ## See threads of replies and retweets on Twitter  
@@ -110,12 +110,12 @@ manager: "sakudes"
   
 - **Copy internal URL (![Copy button.](../social-engagement/media/copy-url-icon.png "Copy button."))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to point them at a specific post.  
   
-- **Reach**: This indicates the potential size of an author’s network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a News source. The higher the number of an author’s reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Get relevant data using filters](../social-engagement/use-filters.md)  
+- **Reach**: This indicates the potential size of an author’s network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a News source. The higher the number of an author’s reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](../social-engagement/use-filters.md)  
   
 - **Date and time of publication**: The date and time when the post was published by the author. Redirects you to the original URL where the post was found. This lets you see the post in the context of the site or social network it originated from.  
   
-- **Post location**: The geographical location information (latitude/longitude) that a user shared when publishing the post (if available). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][See the locations for the posts](../social-engagement/analytics-location.md)  
+- **Post location**: The geographical location information (latitude/longitude) that a user shared when publishing the post (if available). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md)  
   
-- **Author location**: The geographical information that a user shared on a profile (if available). For example, this can be the location of a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] user as it’s been entered in the user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][See the locations for the posts](../social-engagement/analytics-location.md)  
+- **Author location**: The geographical information that a user shared on a profile (if available). For example, this can be the location of a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] user as it’s been entered in the user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md)  
   
-- **Author details**: The details about a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. The author name, username, profile picture, location, website, and bio are provided if the author has been active in the last 30 days. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][](../social-engagement/author-details.md "Get details on specific authors")
+- **Author details**: The details about a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. The author name, username, profile picture, location, website, and bio are provided if the author has been active in the last 30 days. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/author-details.md "Get details on specific authors")

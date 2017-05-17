@@ -159,7 +159,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
 |External|Private messages|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])|  
   
 ### Authors  
- Contains the authors of all posts in the data set. If available, it also contains the author location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][See the locations for the posts](../social-engagement/analytics-location.md)  
+ Contains the authors of all posts in the data set. If available, it also contains the author location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md)  
   
 ### Dynamics 365 connections  
  Contains the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connections that posts were linked to using the Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] action and the instance type (online or on-premises).  

@@ -19,7 +19,7 @@ manager: "sakudes"
 Analyze your results and optimize your search queries regularly to make sure you get the most relevant data. Your searches may return posts that are irrelevant in the context you are looking for. For example, if you want to search for the [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] operating system and have “Windows” as your search keyword, you are likely to find results about house windows. In this case, consider adding “OS” or similar terms to make sure you’re searching for the operating system.  
   
 > [!TIP]
->  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
 > [!TIP]
 >  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
@@ -42,7 +42,7 @@ Analyze your results and optimize your search queries regularly to make sure you
 > [!NOTE]
 >  When you have updated a search topic, existing posts that matched the former configuration will remain in the database, but your analytics will adapt to the updated configuration. It may take a few hours to reflect the changes in the existing data.  
   
- In addition to refining your search rules, you can block the data acquisition for certain terms or domains by adding items to **Blocked Content**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage the quality of your search results](../social-engagement/search-results-quality.md)  
+ In addition to refining your search rules, you can block the data acquisition for certain terms or domains by adding items to **Blocked Content**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  

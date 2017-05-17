@@ -38,9 +38,9 @@ You can use filters to slice and dice your data to narrow your analysis to the m
 > [!NOTE]
 >  You can switch between pages in the Analytics area (for example Sources, Sentiments, Locations), and the applied filters will stay in place. If you go to a different area of Social Engagement by using the nav bar (for example from Analytics to Social Center or Settings), all filters will be reset.  
 >   
->  To keep your data set available in other applications, use the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
+>  To keep your data set available in other applications, use the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
   
- There are many more entry points to drill down into your data. Click the data points to use the drill-down functionality. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
+ There are many more entry points to drill down into your data. Click the data points to use the drill-down functionality. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
   
 <a name="conflicting_filters"></a>   
 ## Avoid conflicting filter combinations  
@@ -54,7 +54,7 @@ You can use filters to slice and dice your data to narrow your analysis to the m
   
 #### Add a filter  
   
-1.  Select a data point on a widget to drill down and apply the corresponding filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
+1.  Select a data point on a widget to drill down and apply the corresponding filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
   
      --OR--  
   
