@@ -12,8 +12,8 @@ applies_to:
 ms.assetid: eeda21ac-40b8-45ec-a90a-3c22e07c872a
 caps.latest.revision: 5
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Create or delete custom sources
 Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Custom sources offer a way to receive additional data from your favorite RSS and Atom feeds. Broaden your sources while efficiently keeping track of all of your feeds. Administrators can also define Search Setup defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Manage global settings](../social-engagement/manage-global-settings.md)  
