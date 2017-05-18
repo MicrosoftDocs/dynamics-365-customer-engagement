@@ -34,6 +34,9 @@
       "breadcrumb_path": {
         "gamification/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml"
+      },
+      "searchScope":{
+        "voice-of-customer/**.*":["Voice of the Customer"]
       }
     },
     "template": [],
