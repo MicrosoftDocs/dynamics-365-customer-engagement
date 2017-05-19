@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Analyze the sources for the posts | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,9 +8,8 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
-ms.assetid: 3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
+applies_to: "Social Engagement"
+ms.assetid:3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
 caps.latest.revision: 29
 author: "m-hartmann"
 ms.author: "mhart"
@@ -18,7 +18,7 @@ manager: "sakudes"
 # Analyze the sources for the posts
 Understand which top social media sources are found most often in your search topics. Using the **Sources** page, you can view analytics such as top sources, top languages, and the sentiment values involved with the posts on these sources.  
   
- Go to this page from **Analytics > Sources**.  
+Go to this page from **Analytics > Sources**.  
   
 ## Static widgets on the Sources page  
   
@@ -43,7 +43,7 @@ Understand which top social media sources are found most often in your search to
 > [!CAUTION]
 >  Once you delete an author, none of the author’s previous posts will be available in the solution’s database; they will be permanently deleted. No new posts from this author will be acquired in the future.  
   
-## See Also  
- [](../social-engagement/analyze-social-data-using-widgets.md "Analyze social data using widgets")   
- [See the locations for the posts](../social-engagement/analytics-location.md)
+### See Also  
+[](../social-engagement/analyze-social-data-using-widgets.md "Analyze social data using widgets")   
+[See the locations for the posts](../social-engagement/analytics-location.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
