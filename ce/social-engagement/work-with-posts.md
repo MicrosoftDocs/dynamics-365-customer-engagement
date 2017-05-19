@@ -1,7 +1,11 @@
 ---
 title: "Work with posts | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-04-12"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -152,10 +156,10 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
  [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   
-## Privacy notice  
+### Privacy notice  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
-## See Also  
+### See Also  
  [Drive business objectives using posts](../social-engagement/publish-react-posts.md)   
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Keep track of live data streams with Social Center](../social-engagement/social-center.md)

@@ -1,7 +1,11 @@
 ---
 title: "Set up Microsoft Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -68,12 +72,12 @@ This topic explains what the Administrator for your organization does to set up 
 > [!NOTE]
 >  You can create an unlimited number of search topics to meet your requirements for [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. However, make sure that you stay within your post quota to keep data acquisition up and running.  More information: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
-## Privacy notices  
+### Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
  [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
-## See Also  
+### See Also  
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Manage global settings](../social-engagement/manage-global-settings.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   

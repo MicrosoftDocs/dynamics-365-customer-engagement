@@ -1,7 +1,11 @@
 ﻿---
 title: "Use filters to see relevant data | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -91,7 +95,7 @@ You can use filters to slice and dice your data to narrow your analysis to the m
   
 2.  Select **Today**, **Last week**, or **Last month** as the time frame, or define a **Custom time frame**.  
   
-## See Also  
+### See Also  
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)   
  [Stay up to date with alerts](../social-engagement/email-alerts.md)   

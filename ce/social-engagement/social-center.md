@@ -1,7 +1,11 @@
 ﻿---
 title: "Keep track of live data streams with Social Center | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -124,7 +128,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 -   Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
   
-## See Also  
+### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Get relevant data using filters](../social-engagement/use-filters.md)   
  [Work with posts](../social-engagement/work-with-posts.md)   

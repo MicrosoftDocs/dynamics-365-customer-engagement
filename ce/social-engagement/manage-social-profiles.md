@@ -1,7 +1,11 @@
 ﻿---
 title: "Manage social profiles | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-02-15"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -190,7 +194,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
   
 4.  To claim ownership, enter the required credentials in the pop-up window.  
   
-## See Also  
+### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Check the health state of your social profiles](../social-engagement/social-profiles-health-state.md)   
  [Manage access tokens](../social-engagement/manage-access-tokens.md)   

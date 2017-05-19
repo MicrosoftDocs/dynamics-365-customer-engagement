@@ -1,7 +1,11 @@
 ---
 title: "Group search topics into categories | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -62,7 +66,7 @@ You can use categories to structure and group search topics in  ways that make t
   
 4.  Confirm your deletion.  
   
-## See Also  
+### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
  [Understand user roles](../social-engagement/user-roles.md)

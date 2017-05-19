@@ -1,7 +1,11 @@
 ---
 title: "Manage connections in Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-01-10"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -28,5 +32,5 @@ manager: "sakudes"
   
     -   To display [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] widgets in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you need to connect [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  For [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to be able to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], its domain must be allowed in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Microsoft Social Engagement with Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md)  
   
-## See Also  
+### See Also  
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)

@@ -1,7 +1,11 @@
 ---
 title: "Social Engagement Help and Training Content Header | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

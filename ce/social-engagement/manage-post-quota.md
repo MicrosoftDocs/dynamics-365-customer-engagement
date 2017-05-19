@@ -1,7 +1,11 @@
 ﻿---
 title: "Manage your post quota | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-03-14"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -90,10 +94,10 @@ Keep track of the number of posts that result from your search topics towards yo
 > [!CAUTION]
 >  Peaks and trending terms can’t be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, and impact your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota, meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to Blocked Content.  
   
-## Privacy notice  
+### Privacy notice  
  [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
   
-## See Also  
+### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Manage the quality of your search results](../social-engagement/search-results-quality.md)   
  [Refine your search rules](../social-engagement/refine-search-rules.md)

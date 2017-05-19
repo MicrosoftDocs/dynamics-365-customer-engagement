@@ -1,7 +1,11 @@
 ---
 title: "Work with Office 365 Groups in Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-02-16"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -29,7 +33,7 @@ manager: "sakudes"
   
  To learn more about groups in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], see [Find help about groups in Office 365](http://go.microsoft.com/fwlink/p/?LinkId=716840).  
   
-## See Also  
+### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Work with posts](../social-engagement/work-with-posts.md)   
  [Keep track of live data streams with Social Center](../social-engagement/social-center.md)

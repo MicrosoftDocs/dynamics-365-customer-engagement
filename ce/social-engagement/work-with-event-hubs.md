@@ -1,7 +1,11 @@
 ﻿---
 title: "Work with events from Social Engagement in Azure Event Hubs | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -171,10 +175,10 @@ manager: "sakudes"
  ![Power BI dashboard with Social Engagement intentions](../social-engagement/media/power-bi-dashboard-event-hub.png "Power BI dashboard with Social Engagement intentions")  
   
 <a name="privacy"></a>   
-## Privacy notice  
+### Privacy notice  
  [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
   
-## See Also  
+### See Also  
  [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
  [Documents DTO JSON reference](../social-engagement/event-hubs-json-reference-social-engagement.md)   
  [Manage connections in Social Engagement](../social-engagement/manage-connections.md)   

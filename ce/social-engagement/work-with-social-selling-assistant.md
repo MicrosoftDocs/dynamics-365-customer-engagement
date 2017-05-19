@@ -1,7 +1,11 @@
 ﻿---
 title: "Work with the Social Selling Assistant | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-04-12"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -64,7 +68,7 @@ After personalizing the Social Selling Assistant for your individual use-case, y
   
  ![Add a promotion tag to a post.](../social-engagement/media/tag-posts-for-social-selling-assistant.png "Add a promotion tag to a post.")  
   
-## See Also  
+### See Also  
  [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
  [Personalize the Social Selling Assistant for individual users](../social-engagement/personalize-social-selling-assistant.md)   
  [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)

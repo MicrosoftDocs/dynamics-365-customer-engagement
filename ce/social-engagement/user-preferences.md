@@ -1,7 +1,11 @@
 ---
 title: "Set your preferences for the user interface | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-01-10"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -50,7 +54,7 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze
 |Number format|Choose from a predefined set of option to display numbers on the user interface.|  
 |Default time frame|Set the default time frame to present data in your charts and graphs for analysis. You can change the time frame at any time.|  
   
-## See Also  
+### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Manage global settings](../social-engagement/manage-global-settings.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]

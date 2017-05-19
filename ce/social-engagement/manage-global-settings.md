@@ -1,7 +1,11 @@
 ﻿---
 title: "Manage global settings | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -241,7 +245,7 @@ Define system settings that apply to the entire organization, like solution name
 ## Promote custom tags to auto tags  
  Add custom tags to your auto tags list. You can add up to five custom tags to your list. Custom tags added to this list will be promoted to auto tags and will be automatically added to posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
   
-## See Also  
+### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Set your preferences for the user interface](../social-engagement/user-preferences.md)
