@@ -29,7 +29,7 @@ There’s a good chance that your customers and stakeholders are talking about y
   
 -   Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282) [Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
   
- ## Next steps, you can review information about the features in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]:  
+ ## Next steps  
   
 -   [Get started with Social Engagement](../social-engagement/get-started.md): Find important information to get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and to set user preferences. Administrators get help to set up [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for their organization.  
   
