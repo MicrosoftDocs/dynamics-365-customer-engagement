@@ -60,7 +60,7 @@ All posts that have the one or more of these tags will be promoted automatically
   
 ![Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.](../social-engagement/media/promote-tags-setting-social-selling-assistant.png "Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.")  
   
-## See Also  
+### See Also  
 [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
 [Personalize the Social Selling Assistant for individual users](../social-engagement/personalize-social-selling-assistant.md)   
 [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
