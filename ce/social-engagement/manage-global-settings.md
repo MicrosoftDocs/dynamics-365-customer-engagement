@@ -249,4 +249,4 @@ Define system settings that apply to the entire organization, like solution name
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Set your preferences for the user interface](../social-engagement/user-preferences.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

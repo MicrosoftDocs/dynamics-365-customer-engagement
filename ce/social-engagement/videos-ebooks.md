@@ -80,4 +80,4 @@ robots: noindex,nofollow
   
 ## Customer care boosts from social engagement  
  [![Reader button](../social-engagement/media/reader-icon.png "Reader button")](http://go.microsoft.com/fwlink/p/?LinkId=394688) [eBook: Your Brand Sux](http://go.microsoft.com/fwlink/p/?LinkId=394688) - See how social engagement helps you better manage your customers.
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

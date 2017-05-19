@@ -39,4 +39,4 @@ For additional help about the actions that you can take on any post list in [!IN
 [Keep track of live data streams with Social Center](../social-engagement/social-center.md)   
 [Drive business objectives using posts](../social-engagement/publish-react-posts.md)   
 [Manage social profiles](../social-engagement/manage-social-profiles.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

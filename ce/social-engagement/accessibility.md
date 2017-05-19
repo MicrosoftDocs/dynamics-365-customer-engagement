@@ -35,4 +35,4 @@ For more information on detailed accessibility features built into Microsoft pro
   
 ### See Also  
 [Get connected to the social conversation using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

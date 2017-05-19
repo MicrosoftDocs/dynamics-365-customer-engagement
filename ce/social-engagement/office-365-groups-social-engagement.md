@@ -37,4 +37,4 @@ manager: "sakudes"
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Work with posts](../social-engagement/work-with-posts.md)   
  [Keep track of live data streams with Social Center](../social-engagement/social-center.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

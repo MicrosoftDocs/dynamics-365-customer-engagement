@@ -49,4 +49,4 @@ In addition to viewing the analytics for the current data set, you can efficient
 ### See Also  
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Understand widgets on the Overview page](../social-engagement/analytics-overview.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

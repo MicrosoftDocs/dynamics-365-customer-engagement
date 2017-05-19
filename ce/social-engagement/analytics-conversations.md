@@ -51,4 +51,4 @@ Go to this page from **Analytics > Conversations**.
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Understand widgets on the  Overview page](../social-engagement/analytics-overview.md)   
  [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

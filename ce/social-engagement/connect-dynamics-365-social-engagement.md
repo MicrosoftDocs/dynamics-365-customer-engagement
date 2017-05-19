@@ -111,4 +111,4 @@ Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm
  [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post")   
  [Manage the connection between Dynamics 365 and Social Engagement](../social-engagement/manage-connection-dynamics-365-social-engagement.md "Manage the connection between Dynamics 365 and Social Engagement")   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md "Administer Microsoft Social Engagement")
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

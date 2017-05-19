@@ -70,4 +70,4 @@ Use your email client to send email to [!INCLUDE[pn_netbreeze_long](../includes/
 [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
 [Understand user roles](../social-engagement/user-roles.md)   
 [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

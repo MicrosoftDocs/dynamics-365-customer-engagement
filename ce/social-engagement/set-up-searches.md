@@ -53,4 +53,4 @@ Listen to conversations on social media around your brand, business, products, a
 ### See Also  
  [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
  [Add rules to a search topic](../social-engagement/add-rules-search-topic.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

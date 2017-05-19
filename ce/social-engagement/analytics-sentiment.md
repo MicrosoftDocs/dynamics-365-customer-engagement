@@ -69,4 +69,4 @@ You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netb
 [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
 [See the locations for the posts](../social-engagement/analytics-location.md)   
 [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

@@ -182,4 +182,4 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Keep track of live data streams with Social Center](../social-engagement/social-center.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

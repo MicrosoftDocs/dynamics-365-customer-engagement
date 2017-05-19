@@ -75,4 +75,4 @@ A subset of the available sources that provide location data. Authors need to sh
 [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
 [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)   
 [Analyze the sources for the posts](../social-engagement/analytics-sources.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

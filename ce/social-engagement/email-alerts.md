@@ -120,4 +120,4 @@ When you work with a trend alert, you can select from five sensitivity settings.
  [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data")   
  [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")   
  [Microsoft Social Engagement Alerts (3:13)](http://go.microsoft.com/fwlink/p/?LinkId=544937)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

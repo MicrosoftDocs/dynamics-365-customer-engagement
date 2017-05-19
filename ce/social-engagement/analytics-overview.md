@@ -53,4 +53,4 @@ Go to this page from **Analytics > Overview**.
 [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md "Understand the public perception using sentiment analysis")   
 [See the locations for the posts](../social-engagement/analytics-location.md)   
 [Analyze the sources for the posts](../social-engagement/analytics-sources.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

@@ -59,4 +59,4 @@ For social [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] scenarios
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Assign permissions and user roles](../social-engagement/assign-user-roles.md)   
  [ebook: Microsoft Social Engagement for CRM](http://go.microsoft.com/fwlink/p/?LinkID=393642)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

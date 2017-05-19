@@ -59,4 +59,4 @@ If you aren’t happy with the results of the sentiment analysis, you can always
 ### See Also  
 [Manage global settings](../social-engagement/manage-global-settings.md)   
 [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

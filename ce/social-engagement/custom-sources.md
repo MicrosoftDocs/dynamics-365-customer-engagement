@@ -64,4 +64,4 @@ Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE
 >  -   The custom source is no longer visible in the user interface.  
 >  -   Search topics, rules, alerts and streams based exclusively on this custom source are deactivated.
 ### See Also
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

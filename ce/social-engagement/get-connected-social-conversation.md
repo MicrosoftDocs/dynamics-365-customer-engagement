@@ -54,4 +54,4 @@ We welcome your feedback. Use the feedback link at the bottom of this page to sh
 [What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md)   
 [Get started with Social Engagement](../social-engagement/get-started.md)   
 [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

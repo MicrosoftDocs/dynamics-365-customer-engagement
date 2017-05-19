@@ -150,4 +150,4 @@ Using  the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin c
  [Assign permissions and user roles](../social-engagement/assign-user-roles.md)   
  [Integrate Social Engagement with Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md)   
  [Connect Social Engagement to other domains](../social-engagement/connect-other-domains.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

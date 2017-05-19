@@ -64,4 +64,4 @@ Your search topics usually gather more data than you want to analyze at a given 
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Get relevant data using filters](../social-engagement/use-filters.md)   
  [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

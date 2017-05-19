@@ -191,4 +191,4 @@ You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.m
  [Set up the connection between Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
  [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

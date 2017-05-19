@@ -138,4 +138,4 @@ You can perform quality management over the entire application by blocking irrel
 ### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Refine your search rules](../social-engagement/refine-search-rules.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

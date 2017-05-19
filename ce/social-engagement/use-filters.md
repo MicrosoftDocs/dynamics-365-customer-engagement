@@ -100,4 +100,4 @@ You can use filters to slice and dice your data to narrow your analysis to the m
  [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)   
  [Stay up to date with alerts](../social-engagement/email-alerts.md)   
  [Keep track of live data streams with Social Center](../social-engagement/social-center.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

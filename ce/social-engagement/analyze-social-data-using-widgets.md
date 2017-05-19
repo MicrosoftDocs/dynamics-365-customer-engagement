@@ -100,4 +100,4 @@ The exported Excel file contains two sheets:
 ### See Also  
 [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)   
 [Understand widgets on the Overview page](../social-engagement/analytics-overview.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

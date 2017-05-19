@@ -101,4 +101,4 @@ Keep track of the number of posts that result from your search topics towards yo
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Manage the quality of your search results](../social-engagement/search-results-quality.md)   
  [Refine your search rules](../social-engagement/refine-search-rules.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

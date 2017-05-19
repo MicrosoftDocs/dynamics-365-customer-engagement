@@ -133,4 +133,4 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
  [Get relevant data using filters](../social-engagement/use-filters.md)   
  [Work with posts](../social-engagement/work-with-posts.md)   
  [Drive business objectives using posts](../social-engagement/publish-react-posts.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

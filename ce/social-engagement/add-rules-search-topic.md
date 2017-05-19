@@ -298,4 +298,4 @@ Create rules to gather posts from custom sources, You can also create keyword ru
 [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
 [Manage your post quota](../social-engagement/manage-post-quota.md)   
 [Get started with Social Engagement](../social-engagement/get-started.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

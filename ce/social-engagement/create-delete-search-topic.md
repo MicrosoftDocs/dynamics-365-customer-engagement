@@ -108,4 +108,4 @@ Administrators in your organization can change the owner of a search topic to en
 ### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Add rules to a search topic](../social-engagement/add-rules-search-topic.md "Add rules to a search topic")
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

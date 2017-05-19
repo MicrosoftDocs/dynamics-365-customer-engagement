@@ -88,4 +88,4 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)   
  [Assign permissions and user roles](../social-engagement/assign-user-roles.md "Assign permissions and user roles")
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

@@ -70,4 +70,4 @@ You can use categories to structure and group search topics in  ways that make t
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
  [Understand user roles](../social-engagement/user-roles.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

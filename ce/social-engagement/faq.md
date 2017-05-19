@@ -71,5 +71,4 @@ Although you can create an unlimited number of search rules per search topic, th
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
-    
+ 

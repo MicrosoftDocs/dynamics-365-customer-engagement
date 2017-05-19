@@ -43,4 +43,4 @@ Your privacy is important to us. For Microsoft Online Services, read the [Micros
 ### See Also  
  [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)   
  [Get started with Social Engagement](../social-engagement/get-started.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

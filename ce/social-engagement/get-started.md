@@ -184,4 +184,4 @@ This topic introduces common user-interface elements and useful tips to work eff
 ### See Also  
  [Manage global settings](../social-engagement/manage-global-settings.md "Manage global settings")   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

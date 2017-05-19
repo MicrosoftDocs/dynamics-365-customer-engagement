@@ -39,4 +39,4 @@ If the global administrator decides to de-provision the [!INCLUDE[pn_netbreeze_s
 [Manage social profiles](../social-engagement/manage-social-profiles.md)   
 [Understand user roles](../social-engagement/user-roles.md)   
 [Work with posts](../social-engagement/work-with-posts.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

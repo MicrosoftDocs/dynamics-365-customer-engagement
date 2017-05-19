@@ -57,4 +57,4 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze
 ### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Manage global settings](../social-engagement/manage-global-settings.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

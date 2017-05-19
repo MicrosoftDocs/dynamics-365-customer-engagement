@@ -46,4 +46,4 @@ Go to this page from **Analytics > Sources**.
 ### See Also  
 [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md "Analyze social data using widgets")   
 [See the locations for the posts](../social-engagement/analytics-location.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

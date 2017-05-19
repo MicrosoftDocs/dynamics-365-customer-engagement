@@ -157,4 +157,4 @@ This topic helps you understand how you change the settings for your connections
  [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md "Connect Dynamics 365 and Social Engagement")   
  [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post")   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md "Administer Microsoft Social Engagement")
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

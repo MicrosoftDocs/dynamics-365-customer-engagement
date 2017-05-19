@@ -55,4 +55,4 @@ The author name, user name, profile picture, location, website, and bio is displ
 ### See Also  
 [Get connected to the social conversation using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md) 
 [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 

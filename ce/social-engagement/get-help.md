@@ -33,4 +33,4 @@ We have several ways to help you get started with [!INCLUDE[pn_netbreeze_long](.
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
-[!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
+ 
