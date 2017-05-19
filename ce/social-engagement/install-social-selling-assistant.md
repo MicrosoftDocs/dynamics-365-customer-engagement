@@ -1,14 +1,16 @@
-﻿---
+---
 title: "Install Microsoft Dynamics 365 - Social Selling Assistant | MicrosoftDocs"
+description:
+
 ms.custom: ""
-ms.date: "2017-04-12"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 788e0559-68f8-404c-b215-cf4b76a9cc18
 caps.latest.revision: 8
 author: "m-hartmann"
@@ -24,7 +26,7 @@ Enabling the Social Selling Assistant for users of [!INCLUDE[pn_ms_dyn_365](../i
   
  Next, a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to enable the best possible experience when users are working with the Social Selling Assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)  
   
-## See Also  
+### See Also  
  [TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   
  [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
  [Personalize the Social Selling Assistant for individual users](../social-engagement/personalize-social-selling-assistant.md)   
