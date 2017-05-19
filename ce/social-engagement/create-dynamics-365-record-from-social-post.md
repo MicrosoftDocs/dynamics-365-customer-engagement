@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Create a Dynamics 365 record from a social post | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: fb55dd2f-e81e-4163-9cfd-7e812ebcbe25
 caps.latest.revision: 33
 author: "m-hartmann"
@@ -17,21 +17,6 @@ manager: "sakudes"
 ---
 # Create a Dynamics 365 record from a social post
 Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to your [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance to create a record. For example, you can automatically convert posts to cases for customer service, or to leads for your sales team. When you create a social activity, if the author of the post doesn’t have a social profile in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the system creates a social profile and contact record, and then links the social profile with the contact record. When a record is created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can see the details about this record in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
-  
-## In this topic  
- [Specify record details](#DefineEntityDetails)  
-  
- [Convert a social engagement post to a social activity record in Dynamics 365](#ConvertPost)  
-  
- [Configure Dynamics 365 to automatically create records from linked posts](#configureCRMrule)  
-  
- [Understand the data sent to Dynamics 365 when you create a social activity](#understandDataSent)  
-  
- [View record details for a linked post in Social Engagement](#ViewRecordDetails)  
-  
- [Open a linked record in Dynamics 365](#viewRecord)  
-  
- [Remove a linked Dynamics 365 record from a post](#RemoveLinkToCRM)  
   
 <a name="DefineEntityDetails"></a>   
 ## Specify record details  
@@ -88,19 +73,19 @@ Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-lon
   
 <a name="configureCRMrule"></a>   
 ## Configure Dynamics 365 to automatically create records from linked posts  
- By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a Social Activity entity when a post is linked from Social Engagement. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can convert this entity to a different record type. To automate the process, you can set up Automatic Record Creation Rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to automatically create records from incoming social activities.  
+By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a Social Activity entity when a post is linked from Social Engagement. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can convert this entity to a different record type. To automate the process, you can set up Automatic Record Creation Rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to automatically create records from incoming social activities.  
   
- To learn more about the social activity record type or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record creation and update rules feature, see [MSDN: SocialActivity entity messages and methods](https://msdn.microsoft.com/library/dn689062.aspx), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394).  
+To learn more about the social activity record type or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record creation and update rules feature, see [MSDN: SocialActivity entity messages and methods](https://msdn.microsoft.com/library/dn689062.aspx), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394).  
   
 <a name="understandDataSent"></a>   
 ## Understand the data sent to Dynamics 365 when you create a social activity  
- When you create a social activity, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] sends the social payload as a JSON object to the **Additional Parameters** field of a social activity. The payload can be used as channel properties that define conditions for rules, and for setting properties of the record you're creating or updating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) The payload contains the most important fields required by [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to consume tweets and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] posts. These fields contain information about the post that was sent: author, content, URI to the original post, URI to the post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], and some additional post metadata. Based on the post’s source, the content of the payload may change.  
+When you create a social activity, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] sends the social payload as a JSON object to the **Additional Parameters** field of a social activity. The payload can be used as channel properties that define conditions for rules, and for setting properties of the record you're creating or updating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) The payload contains the most important fields required by [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to consume tweets and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] posts. These fields contain information about the post that was sent: author, content, URI to the original post, URI to the post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], and some additional post metadata. Based on the post’s source, the content of the payload may change.  
   
- Social Activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has an **Additional Parameters** field that receives the social payload as JSON from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+Social Activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has an **Additional Parameters** field that receives the social payload as JSON from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
- To learn more about how to set up channel properties in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to work with Additional Parameters from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394).  
+To learn more about how to set up channel properties in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to work with Additional Parameters from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394).  
   
- The properties used in `ActivityAdditionalParams` are described in the following table.  
+The properties used in `ActivityAdditionalParams` are described in the following table.  
   
 |Property in `ActivityAdditionalParams`|Value format|Description|Source restrictions|  
 |--------------------------------------------|------------------|-----------------|-------------------------|  
@@ -120,7 +105,7 @@ Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-lon
 |`Notes`|string|Additional information added by the creator of the social activity as free form text in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].|N/A|  
   
 ### Sample payload  
- A typical `ActivitiyAdditionalParameters`JSON sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is given here.  
+A typical `ActivitiyAdditionalParameters`JSON sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is given here.  
   
 ```  
 {  
@@ -140,7 +125,7 @@ Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-lon
   
 <a name="ViewRecordDetails"></a>   
 ## View record details for a linked post in Social Engagement  
- If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can open its associated record in **Dynamics 365 Record Details**.  
+If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can open its associated record in **Dynamics 365 Record Details**.  
   
 #### Open a Dynamics 365 record from within Social Engagement  
   
@@ -181,7 +166,7 @@ Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-lon
   
 <a name="RemoveLinkToCRM"></a>   
 ## Remove a linked Dynamics 365 record from a post  
- You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record from a post. Note that removing a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record from a post also removes any attached notes. Consider removing a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record from a post when the link is no longer valid, is incorrect, or when you are considering creating a new entity record from the same post.  
+You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record from a post. Note that removing a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record from a post also removes any attached notes. Consider removing a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record from a post when the link is no longer valid, is incorrect, or when you are considering creating a new entity record from the same post.  
   
 > [!NOTE]
 >  Removing a link does not affect the linked record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], but only breaks the link between the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record. Once removed there is no way to re-establish the link between the same [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post and same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
@@ -196,13 +181,13 @@ Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-lon
   
 3.  In the **Dynamics 365 Record Details**, click **Remove**.  
   
- ![Remove link between social post and Dynamics 365](../social-engagement/media/remove-link-to-dynamics-365-record.png "Remove link between social post and Dynamics 365")  
+![Remove link between social post and Dynamics 365](../social-engagement/media/remove-link-to-dynamics-365-record.png "Remove link between social post and Dynamics 365")  
   
 <a name="privacy"></a>   
-## Privacy Notice  
+### Privacy Notice  
  [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
   
-## See Also  
+### See Also  
  [Set up the connection between Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
  [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
