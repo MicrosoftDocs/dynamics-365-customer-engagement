@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Gain insights from public conversations | MicrosoftDocs"
+Description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 4396dadd-6cbb-4298-83be-b8dae50141b6
 caps.latest.revision: 38
 author: "m-hartmann"
@@ -18,7 +18,7 @@ manager: "sakudes"
 # Gain insights from public conversations
 View detailed content analytics on the Conversations page. Using the **Conversations** page, you can understand data like the most-used phrases, their volume, sources these conversations are coming from, and sentiment involved.  
   
- Go to this page from **Analytics > Conversations**.  
+Go to this page from **Analytics > Conversations**.  
   
 ## Static widgets on the Conversations page  
   
@@ -47,7 +47,7 @@ View detailed content analytics on the Conversations page. Using the **Conversat
 > [!CAUTION]
 >  Once you delete an author, the author’s previous posts are no longer available in the solution’s database. The posts are permanently deleted. No new posts from this author will be acquired in the future.  
   
-## See Also  
+### See Also  
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Understand widgets on the  Overview page](../social-engagement/analytics-overview.md)   
  [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)
