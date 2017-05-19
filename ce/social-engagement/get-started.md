@@ -1,14 +1,14 @@
-﻿---
+---
 title: "Get started with Social Engagement | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2017-05-10"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 caps.latest.revision: 101
 author: "m-hartmann"
@@ -17,18 +17,6 @@ manager: "sakudes"
 ---
 # Get started with Social Engagement
 This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
-  
-## In this topic  
-  
--   [Prerequisites](#Prereq)  
-  
--   [Sign in to Social Engagement](#signIn)  
-  
--   [Navigate the application’s main areas](#navigateMain)  
-  
--   [Get around in the Analytics area](#navigateAnalytics)  
-  
--   [Get around in the Settings area](#navigateSettings)  
   
 <a name="Prereq"></a>   
 ## Prerequisites  
@@ -188,12 +176,12 @@ This topic introduces common user-interface elements and useful tips to work eff
 > [!TIP]
 >  Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use-cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282) [Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
   
-## Privacy notices  
+### Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
  [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
-## See Also  
+### See Also  
  [](../social-engagement/manage-global-settings.md "Manage global settings")   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
