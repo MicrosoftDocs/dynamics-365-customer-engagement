@@ -65,4 +65,4 @@
 ## [Data retention in Social Engagement](data-retention-social-engagement.md)
 ## [Accessibility for Microsoft Social Engagement](accessibility.md)
 ## [Microsoft Social Engagement Privacy Notices](privacy-notices.md)
-## [eBooks and videos](ebooks-and-videos.md)
+## [eBooks and videos](https://www.microsoft.com/en-us/dynamics/social-engagement-help-and-training/ebooks-and-videos.aspx#social)
