@@ -24,7 +24,7 @@ Create and send out Voice of the Customer for Dynamics 365 surveys to gain valua
  The survey analytics included with the Voice of the Customer for Microsoft Dynamics 365 solution help you use customer feedback to identify gaps in service, run targeted marketing campaigns, or send offers to increase sales.  
   
 > [!NOTE]
->  Voice of the Customer for Microsoft Dynamics 365 is available with [!INCLUDE[pn_crm_online_2016_update](includes/pn-crm-online-2016-update-md.md)] and later.  
+>  Voice of the Customer for Microsoft Dynamics 365 is available with [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] and later.  
   
  **Install and configure Voice of the Customer for Microsoft Dynamics 365**  
   
@@ -55,4 +55,4 @@ Create and send out Voice of the Customer for Dynamics 365 surveys to gain valua
  [Install the solution](install-voice-of-customer-preferred-solution.md)  
   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_crm_voice_of_customer](includes/cc-privacy-crm-voice-of-customer-md.md)]
+ [!INCLUDE[cc_privacy_crm_voice_of_customer](../includes/cc-privacy-crm-voice-of-customer.md)]

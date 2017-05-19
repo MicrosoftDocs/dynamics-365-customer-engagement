@@ -17,7 +17,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Upload a logo or other image for your Voice of the Customer survey
-Before you can add a logo or other image to your Voice of the Customer for Dynamics 365 survey, you need to upload the images to [!INCLUDE[pn_crm_2016](includes/pn-crm-2016-md.md)].  
+Before you can add a logo or other image to your Voice of the Customer for Dynamics 365 survey, you need to upload the images to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)].  
   
 1.  From the menu, go to **Voice of the Customer for Microsoft Dynamics 365 > Images**.  
   
