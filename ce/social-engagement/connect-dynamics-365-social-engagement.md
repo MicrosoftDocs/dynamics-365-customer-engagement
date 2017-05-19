@@ -105,9 +105,8 @@ If you're a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] admi
 Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you can define entity details in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to specify information for the Social Activity entity that is created when you link a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the connection between Dynamics 365 and Social Engagement](../social-engagement/manage-connection-dynamics-365-social-engagement.md)  
   
  When you are satisfied with the configuration of the entities, configure the Record Creation Rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from Social Activity entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
-  
-<a name="privacy"></a>   
-### Privacy Notice  
+   
+## Privacy Notice  
 [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
   
 ### See Also  

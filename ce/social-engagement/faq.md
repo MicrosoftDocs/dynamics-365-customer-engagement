@@ -67,7 +67,7 @@ Although you can create an unlimited number of search rules per search topic, th
 ## Does your sentiment analysis accurately read emoticons or emoji?  
  There is a difference between *emoticons* (for example ":-), :) :D") and *emojis* (icons used mainly on mobile devices and IM). Our sentiment algorithm handles emoticons as well as emojis and assigns positive and negative values accordingly.  
   
-## See Also  
+## See Also
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
