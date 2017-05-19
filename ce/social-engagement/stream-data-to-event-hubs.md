@@ -54,7 +54,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 5.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 > [!TIP]
->  For an end-to-end example, see [](../social-engagement/work-with-event-hubs.md "Work with events from Social Engagement in Azure Event Hubs").  
+>  For an end-to-end example, see [Work with events from Social Engagement in Azure Event Hubs](../social-engagement/work-with-event-hubs.md "Work with events from Social Engagement in Azure Event Hubs").  
   
 <a name="disable_connection"></a>   
 ## Disable or re-enable a connection to Azure Event Hubs  

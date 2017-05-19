@@ -24,7 +24,7 @@ For more information about getting a connection between [!INCLUDE[pn_netbreeze_s
   
 <a name="overview"></a>   
 ## Overview  
-When [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] streams events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], a JSON payload is generated. A single social post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is a single event in the event hub. The JSON payload contains information about a single social post that matches the defined filters and action on the automation rules that generated the payload. Additional properties that you define in your automation rules are part of the [](#metadataProperties). The main content is part of the [](#documentProperties).  
+When [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] streams events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], a JSON payload is generated. A single social post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is a single event in the event hub. The JSON payload contains information about a single social post that matches the defined filters and action on the automation rules that generated the payload. Additional properties that you define in your automation rules are part of the [metadata object](#metadataProperties). The main content is part of the [post object](#documentProperties).  
   
 <a name="metadataProperties"></a>   
 ### metadata object elements  

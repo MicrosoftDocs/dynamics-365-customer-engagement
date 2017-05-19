@@ -125,7 +125,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Filter section**: Add or edit filters to slice and dice your data set according to your needs. At a glance, see the filters that are applied to your current data set, and quickly edit or remove them.  
   
-- **More options**: Use the current filters to work with the same data set in another area of Social Engagement. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")  
+- **More options**: Use the current filters to work with the same data set in another area of Social Engagement. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")  
   
 - **Time frame**: Select the dates for which you want to analyze your data. You can select a custom date or predefined values.  
   
@@ -137,7 +137,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
     - **Conversations**: Find  phrases that are driving the social conversations in your data set. See more detailed analysis about trending phrases, and dive into the posts that mention them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find out what people are talking about](../social-engagement/analytics-conversations.md)  
   
-    - **Sentiment**: See the public perception of the posts toward a search topic. Find  phrases that get mentioned in a positive or negative context and track your sentiment index over time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/analytics-sentiment.md "Understand the public perception using sentiment analysis")  
+    - **Sentiment**: See the public perception of the posts toward a search topic. Find  phrases that get mentioned in a positive or negative context and track your sentiment index over time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md "Understand the public perception using sentiment analysis")  
   
     - **Location**: Gain insights about the geographical location of authors and posts, and learn more about where social conversations are most active. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md)  
   
@@ -161,7 +161,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
     1. **Personal Settings**: Define how the application displays for you. The values are initially set by an administrator, but you can change the defaults according to your needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set your preferences for the user interface](../social-engagement/user-preferences.md)  
   
-    2. **Global Settings**: Administrators can set system-wide defaults that apply to all new users and newly-created search topics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/manage-global-settings.md "Manage global settings")  
+    2. **Global Settings**: Administrators can set system-wide defaults that apply to all new users and newly-created search topics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage global settings](../social-engagement/manage-global-settings.md "Manage global settings")  
   
     3. **Social Profiles**: Manage social profiles that you own or that were shared with you to engage with your audience directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
   
@@ -182,6 +182,6 @@ This topic introduces common user-interface elements and useful tips to work eff
  [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
 ### See Also  
- [](../social-engagement/manage-global-settings.md "Manage global settings")   
+ [Manage global settings](../social-engagement/manage-global-settings.md "Manage global settings")   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]

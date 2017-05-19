@@ -55,7 +55,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 6.  Select users from your organization you want to share this stream with under **Sharing**. (Optional)  
   
-7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/use-filters.md "Use filters to see relevant data")  
+7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data")  
   
 8.  Click the **Save** button ![Save button](../social-engagement/media/save-icon.png "Save button").  
   

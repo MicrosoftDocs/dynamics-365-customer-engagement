@@ -41,7 +41,7 @@ To review the alerts that you created, go to **Message Center**.  The informatio
 >  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Alerts (3:13)](http://go.microsoft.com/fwlink/p/?LinkId=544937)  
   
 ### Create an alert  
-A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")  
+A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")  
   
 1.  Go to the **Message Center**.  
   
@@ -117,7 +117,7 @@ When you work with a trend alert, you can select from five sensitivity settings.
   
 ### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
- [](../social-engagement/use-filters.md "Use filters to see relevant data")   
- [](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")   
+ [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data")   
+ [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")   
  [Microsoft Social Engagement Alerts (3:13)](http://go.microsoft.com/fwlink/p/?LinkId=544937)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]

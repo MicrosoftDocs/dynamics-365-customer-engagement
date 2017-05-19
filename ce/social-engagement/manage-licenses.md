@@ -53,7 +53,7 @@ Using  the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin c
 ## Available licenses for Microsoft Social Engagement  
   
 > [!NOTE]
->  You need to assign a license to each user account before users can start using the online service. You can do this either when creating the user account or at a later time. Regardless of the type of license assigned to a user, as an administrator you can always modify the user’s rights to use certain features. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/assign-user-roles.md "Assign permissions and user roles")  
+>  You need to assign a license to each user account before users can start using the online service. You can do this either when creating the user account or at a later time. Regardless of the type of license assigned to a user, as an administrator you can always modify the user’s rights to use certain features. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assign permissions and user roles](../social-engagement/assign-user-roles.md "Assign permissions and user roles")  
 >   
 >  Your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] instance can have a combination of Professional and Enterprise users, and you can remove or switch existing licenses based on your changing business needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assign a license to a user](http://go.Microsoft.com/fwlink/p/?LinkId=390651)  
   

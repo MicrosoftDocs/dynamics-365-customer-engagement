@@ -107,7 +107,7 @@ manager: "sakudes"
     >   
     >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
     >   
-    > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/event-hubs-json-reference-social-engagement.md "JSON reference for events from Social Engagement")  
+    > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md "JSON reference for events from Social Engagement")  
   
     1.  Example 1: In this simple “Hello World” example, we count all new posts over time and push them every 30 seconds to the output sink.  
   
