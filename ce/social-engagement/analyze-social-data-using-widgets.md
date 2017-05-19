@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Analyze social data using widgets | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: da974b6a-b242-40b6-95ad-df81ac78191e
 caps.latest.revision: 32
 author: "m-hartmann"
@@ -87,17 +87,17 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
 ## Export data from widgets and lists  
  To create your own visualizations or further process the data, you can export data points from widgets and lists to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] workbook.  
   
- To export data from a widget, click the **Download the data into Excel** button ![Download the data into Excel](../social-engagement/media/export-data-icon.png "Download the data into Excel"). You’ll find the resulting [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file in your browser’s specified downloads folder.  
+- To export data from a widget, click the **Download the data into Excel** button ![Download the data into Excel](../social-engagement/media/export-data-icon.png "Download the data into Excel"). You’ll find the resulting [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file in your browser’s specified downloads folder.  
   
- To export data from a list, select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
+- To export data from a list, select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
   
- The exported Excel file contains two sheets:  
+The exported Excel file contains two sheets:  
   
 - **Information sheet**: Lists the current configuration at the point in time when you exported the data.  
   
 - **Data sheet**: Contains the data points and the metrics that are used on the exported data.  
   
-## See Also  
- [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)   
- [Understand widgets on the Overview page](../social-engagement/analytics-overview.md)
+### See Also  
+[Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)   
+[Understand widgets on the Overview page](../social-engagement/analytics-overview.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
