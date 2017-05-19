@@ -5,8 +5,6 @@ ms.custom: ""
 ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to:"Social Engagement"
 ms.assetid: 9e6c0f8c-b420-428e-9251-647801c62400
