@@ -1,14 +1,14 @@
 ---
 title: "Integrate Microsoft Social Engagement with Dynamics 365 | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 caps.latest.revision: 37
 author: "m-hartmann"
@@ -54,7 +54,7 @@ For social [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] scenarios
 ## Troubleshoot sign-in problems  
  Having trouble signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? Read [CRM Help & Training: Troubleshoot sign-in problems](http://go.microsoft.com/fwlink/p/?LinkId=516923) for available resolutions.  
   
-## See Also  
+### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Assign permissions and user roles](../social-engagement/assign-user-roles.md)   
