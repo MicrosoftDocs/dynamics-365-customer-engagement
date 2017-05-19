@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Social Engagement FAQ | MicrosoftDocs"
 description:
-ms.custom: ""
-ms.date: "2017-05-19"
+ms.custom:""
+ms.date:"2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.topic: "article"
