@@ -1,14 +1,14 @@
 ---
 title: "JSON reference for events from Social Engagement | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: e3a5774e-6bab-4a45-b328-014be8a831c3
 caps.latest.revision: 67
 author: "m-hartmann"
@@ -18,17 +18,17 @@ manager: "sakudes"
 # JSON reference for events from Social Engagement
 This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
   
- Latest version of the payload: Version 2.1  
+Latest version of the payload: Version 2.1  
   
- For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md).  
+For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md).  
   
 <a name="overview"></a>   
 ## Overview  
- When [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] streams events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], a JSON payload is generated. A single social post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is a single event in the event hub. The JSON payload contains information about a single social post that matches the defined filters and action on the automation rules that generated the payload. Additional properties that you define in your automation rules are part of the [](#metadataProperties). The main content is part of the [](#documentProperties).  
+When [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] streams events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], a JSON payload is generated. A single social post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is a single event in the event hub. The JSON payload contains information about a single social post that matches the defined filters and action on the automation rules that generated the payload. Additional properties that you define in your automation rules are part of the [](#metadataProperties). The main content is part of the [](#documentProperties).  
   
 <a name="metadataProperties"></a>   
 ### metadata object elements  
- Use this table to get a quick link to metadata object properties.  
+Use this table to get a quick link to metadata object properties.  
   
 |JSON element|Description|  
 |------------------|-----------------|  
@@ -41,7 +41,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 |[metadata.properties.value](#metadata.properties.value)|Value of a key-value pair provided in additional properties of an automation rule.|  
 |[metadata.properties.matchedrule](#metadata.properties.matchedrule)|ID of the automation rule that contains the additional properties|  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="metadata_sample_payload"></a>   
 #### metadata sample payload  
@@ -76,11 +76,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="documentProperties"></a>   
 ### post object elements  
- Use this table to get a quick link to post object properties.  
+Use this table to get a quick link to post object properties.  
   
 |JSON element|Description|  
 |------------------|-----------------|  
@@ -112,14 +112,14 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 |[post.externalTopics](#document.externalTopics)|Array of topics in this post as defined by the data provider.|  
 |[post.contributorSummary](#document.contributorSummary)|Short description about the contributor for this post as delivered by external providers.|  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document_sample_payload"></a>   
 #### post sample payload  
   
 <a name="sampleTwitterReply"></a>   
 ##### Sample Twitter reply  
- This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -192,11 +192,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="sampleTwitterRetweet"></a>   
 ##### Sample Twitter retweet  
- This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] retweet acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] retweet acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -271,11 +271,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="sampleFacebookReply"></a>   
 ##### Sample Facebook reply  
- This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -330,11 +330,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="sampleVideoPost"></a>   
 ##### Sample video post  
- This is a sample post payload for a video post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a video post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -388,11 +388,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="sampleBlogPost"></a>   
 ##### Sample blog post  
- This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -440,11 +440,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="sampleForumPost"></a>   
 ##### Sample forum post  
- This is a sample post payload for a forum post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a forum post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -500,15 +500,15 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="metadata"></a>   
 ## Metadata JSON payload objects  
- Read up on the fields currently supported in the metadata JSON payload.  
+Read up on the fields currently supported in the metadata JSON payload.  
   
 <a name="metadata.matchedrules"></a>   
 ### metadata.matchedRules  
- Array describing the automation rules that match this post.  
+Array describing the automation rules that match this post.  
   
  Property Value Type: object  
   
@@ -520,7 +520,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="metadata.matchedrules.id"></a>   
 #### metadata.matchedRules.id  
- ID of the automation rule that triggered the creation of this JSON payload.  
+ID of the automation rule that triggered the creation of this JSON payload.  
   
  Property Value Type: number (integer)  
   
@@ -530,7 +530,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="metadata.matchedrules.name"></a>   
 #### metadata.matchedRules.name  
- Name of the automation rule that triggered the creation of this JSON payload.  
+Name of the automation rule that triggered the creation of this JSON payload.  
   
  Property Value Type: string  
   
@@ -540,7 +540,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="metadata.properties"></a>   
 ### metadata.properties  
- Array of key-value pairs defined in the additional properties of the "Stream to Event Hubs" action in an automation rule.  
+Array of key-value pairs defined in the additional properties of the "Stream to Event Hubs" action in an automation rule.  
   
  Property Value Type: object  
   
@@ -548,11 +548,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
  Sample: [metadata sample payload](#metadata_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="metadata.properties.key"></a>   
 #### metadata.properties.key  
- Key of a key-value pair provided in additional properties of an automation rule.  
+Key of a key-value pair provided in additional properties of an automation rule.  
   
  Property Value Type: number (integer)  
   
@@ -562,7 +562,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="metadata.properties.value"></a>   
 #### metadata.properties.value  
- Value of a key-value pair provided in additional properties of an automation rule.  
+Value of a key-value pair provided in additional properties of an automation rule.  
   
  Property Value Type: string  
   
@@ -572,7 +572,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="metadata.properties.matchedrule"></a>   
 #### metadata.properties.matchedrule  
- ID of the automation rule that contains the additional properties.  
+ID of the automation rule that contains the additional properties.  
   
  Property Value Type: string  
   
@@ -582,11 +582,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="referenceTop"></a>   
 ## Post JSON payload objects  
- Read up on the fields currently supported in the post JSON payload.  
+Read up on the fields currently supported in the post JSON payload.  
   
 <a name="document.id"></a>   
 ### post.id  
- The unique post ID in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.  
+The unique post ID in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.  
   
  Property Value Type: number (integer)  
   
@@ -598,7 +598,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.contentType"></a>   
 ### post.contentType  
- The type of content in a post.  
+The type of content in a post.  
   
  Property Value Type: enum  
   
@@ -620,7 +620,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postType"></a>   
 ### post.postType  
- The type of post in its conversational context.  
+The type of post in its conversational context.  
   
  Property Value Type: enum  
   
@@ -642,7 +642,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.uri"></a>   
 ### post.uri  
- A backlink to the post's original URI.  
+A backlink to the post's original URI.  
   
 > [!NOTE]
 >  The URI of news posts can't be used to link back to the original article.  
@@ -657,7 +657,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.title"></a>   
 ### post.title  
- The title as delivered from a post's meta information.  
+The title as delivered from a post's meta information.  
   
 > [!NOTE]
 >  Not all posts have a title.  
@@ -672,7 +672,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.acquisitionDate"></a>   
 ### post.acquisitionDate  
- Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).  
+Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).  
   
  Property Value Type: date-time  
   
@@ -684,7 +684,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.modificationDate"></a>   
 ### post.modificationDate  
- Timestamp when  the post was last updated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).  
+Timestamp when  the post was last updated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).  
   
  Property Value Type: date-time  
   
@@ -696,7 +696,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.publicationDate"></a>   
 ### post.publicationDate  
- Timestamp when the post was published on the source (in ISO 8601 format).  
+Timestamp when the post was published on the source (in ISO 8601 format).  
   
  Property Value Type: date-time  
   
@@ -708,9 +708,9 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile"></a>   
 ### post.profile  
- JSON object describing the social profile of the post's author.  
+JSON object describing the social profile of the post's author.  
   
- In the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user interface, this is referred to as an "author". More information: [Find out what people are talking about](../social-engagement/analytics-conversations.md), [See author details](../social-engagement/author-details.md)  
+In the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user interface, this is referred to as an "author". More information: [Find out what people are talking about](../social-engagement/analytics-conversations.md), [See author details](../social-engagement/author-details.md)  
   
  Property Value Type: object  
   
@@ -749,11 +749,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.profile.id"></a>   
 #### post.profile.id  
- Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.  
+Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.  
   
  Property Value Type: string  
   
@@ -763,7 +763,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileIcon"></a>   
 #### post.profile.profileIcon  
- URI to public profile picture.  
+URI to public profile picture.  
   
  Property Value Type: string  
   
@@ -773,9 +773,9 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation"></a>   
 #### post.profile.profileLocation  
- JSON object describing the author's location information as specified by the author.  
+JSON object describing the author's location information as specified by the author.  
   
- For some sources, profile owners can provide their location information. This is shown in the user interface as author location, as opposed to the post location, which specifies from where the post was published. For the post location, see [post.postLocation](#document.postLocation)  
+For some sources, profile owners can provide their location information. This is shown in the user interface as author location, as opposed to the post location, which specifies from where the post was published. For the post location, see [post.postLocation](#document.postLocation)  
   
  Property Value Type: object  
   
@@ -808,7 +808,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation.locality"></a>   
 ##### post.profile.profileLocation.locality  
- Represents the name of a city.  
+Represents the name of a city.  
   
  Property Value Type: string  
   
@@ -818,7 +818,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation.adminDistrict"></a>   
 ##### post.profile.profileLocation.adminDistrict  
- Represents the name of an administrative division, for example a federal state or a province.  
+Represents the name of an administrative division, for example a federal state or a province.  
   
  Property Value Type: string  
   
@@ -828,7 +828,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation.countryRegion"></a>   
 ##### post.profile.profileLocation.countryRegion  
- Represents the name of a country or region.  
+Represents the name of a country or region.  
   
  Property Value Type: string  
   
@@ -838,7 +838,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation.coordinates"></a>   
 ##### post.profile.profileLocation.coordinates  
- JSON object describing the coordinates of a social profile with latitude and longitude.  
+JSON object describing the coordinates of a social profile with latitude and longitude.  
   
  Sample:  
   
@@ -851,7 +851,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation.coordinates.latitude"></a>   
 ###### post.profile.profileLocation.coordinates.latitude  
- Geographic latitude.  
+Geographic latitude.  
   
  Property Value Type: number (floating point)  
   
@@ -861,7 +861,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation.coordinates.longitude"></a>   
 ###### post.profile.profileLocation.coordinates.longitude  
- Geographic longitude.  
+Geographic longitude.  
   
  Property Value Type: number (floating point)  
   
@@ -871,7 +871,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.profileLocation.quadkey"></a>   
 ##### post.profile.profileLocation.quadkey  
- Quadtree key of a location, or “quadkey” for short. Identifies a single tile at a particular level of detail on a map. More information: [MSDN: Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)  
+Quadtree key of a location, or “quadkey” for short. Identifies a single tile at a particular level of detail on a map. More information: [MSDN: Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)  
   
  Property Value Type: string  
   
@@ -881,7 +881,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.externalHandle"></a>   
 #### post.profile.externalHandle  
- Alias or handle of a profile.  
+Alias or handle of a profile.  
   
  Property Value Type: string  
   
@@ -891,7 +891,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.displayName"></a>   
 #### post.profile.displayName  
- Display name of a profile as provided on the source.  
+Display name of a profile as provided on the source.  
   
  Property Value Type: string  
   
@@ -901,7 +901,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.externalId"></a>   
 #### post.profile.externalId  
- ID of the profile on the source.  
+ID of the profile on the source.  
   
  Property Value Type: string  
   
@@ -911,7 +911,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.profile.name"></a>   
 #### post.profile.name  
- Representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for the name for the profile.  
+Representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for the name for the profile.  
   
  Property Value Type: string  
   
@@ -921,7 +921,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.source"></a>   
 ### post.source  
- JSON object describing on which source a post was found.  
+JSON object describing on which source a post was found.  
   
  Sample:  
   
@@ -934,11 +934,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.source.id"></a>   
 #### post.source.id  
- Represents the internal ID of the source that a post was found on.  
+Represents the internal ID of the source that a post was found on.  
   
  Property Value Type: string  
   
@@ -950,7 +950,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.source.name"></a>   
 #### post.source.name  
- Represents the name of the source that a post was found on.  
+Represents the name of the source that a post was found on.  
   
  Property Value Type: string  
   
@@ -962,7 +962,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.source.param"></a>   
 #### post.source.param  
- Describes on which source a post was found.  
+Describes on which source a post was found.  
   
  Property Value Type: enum  
   
@@ -976,7 +976,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.content"></a>   
 ### post.content  
- JSON object describing the text content of a post.  
+JSON object describing the text content of a post.  
   
  Property Value Type: object  
   
@@ -995,11 +995,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 }  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.content.text"></a>   
 #### post.content.text  
- Text content of the post.  
+Text content of the post.  
   
  Property Value Type: string  
   
@@ -1009,7 +1009,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.content.metaText"></a>   
 #### post.content.metaText  
- Meta text of the post.  
+Meta text of the post.  
   
  Property Value Type: string  
   
@@ -1019,7 +1019,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.language"></a>   
 ### post.language  
- JSON object describing the language of a post.  
+JSON object describing the language of a post.  
   
  Property Value Type: object  
   
@@ -1043,11 +1043,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 }  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.language.name"></a>   
 #### post.language.name  
- The localized language name in the locale chosen in Global Settings.  
+The localized language name in the locale chosen in Global Settings.  
   
  Property Value Type: string  
   
@@ -1067,7 +1067,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.abstractText"></a>   
 ### post.abstractText  
- Short excerpt of the post.  
+Short excerpt of the post.  
   
  Property Value Type: string  
   
@@ -1079,7 +1079,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.score"></a>   
 ### post.score  
- JSON object describing the source-specific score of the post or score of the author at the time the post was published.  
+JSON object describing the source-specific score of the post or score of the author at the time the post was published.  
   
  Property Value Type: object  
   
@@ -1096,11 +1096,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.score.normalScore"></a>   
 #### post.score.normalScore  
- Normalized score, from 1 (lowest) to 5 (highest).  
+Normalized score, from 1 (lowest) to 5 (highest).  
   
  Property Value Type: number (integer)  
   
@@ -1110,7 +1110,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.score.providerScore"></a>   
 #### post.score.providerScore  
- Non-normalized score as given by the score provider.  
+Non-normalized score as given by the score provider.  
   
  Property Value Type: number (floating point)  
   
@@ -1120,7 +1120,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.score.provider"></a>   
 #### post.score.provider  
- Scoring service the score is provided from.  
+Scoring service the score is provided from.  
   
  Parent: *post.score*  
   
@@ -1128,7 +1128,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.referencedPost"></a>   
 ### post.referencedPost  
- Information about the post that this post is a reply to, or a share of. referencedPost has the same structure as the parent post, although only a subset of its fields contain data.  
+Information about the post that this post is a reply to, or a share of. referencedPost has the same structure as the parent post, although only a subset of its fields contain data.  
   
  Property Value Type: object  
   
@@ -1155,7 +1155,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.sentiment"></a>   
 ### post.sentiment  
- JSON object describing the sentiment of a post.  
+JSON object describing the sentiment of a post.  
   
  Property Value Type: object  
   
@@ -1170,11 +1170,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 }  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.sentiment.polarity"></a>   
 #### post.sentiment.polarity  
- Sentiment value of a post. More information: [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md), [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)  
+Sentiment value of a post. More information: [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md), [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)  
   
  Property Value Type: enum  
   
@@ -1192,7 +1192,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.sentiment.value"></a>   
 #### post.sentiment.value  
- Sentiment value as a decimal value between -1 and 1.  
+Sentiment value as a decimal value between -1 and 1.  
   
  Property Value Type: number  
   
@@ -1202,7 +1202,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.tags"></a>   
 ### post.tags  
- Array of JSON objects representing tags on a post that were added through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+Array of JSON objects representing tags on a post that were added through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
  Property Value Type: object  
   
@@ -1231,7 +1231,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.tags.probability"></a>   
 #### post.tags.probability  
@@ -1245,7 +1245,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.tags.type"></a>   
 #### post.tags.type  
- Describes how  the tag was assigned to a post.  
+Describes how  the tag was assigned to a post.  
   
 > [!NOTE]
 >  Since automation rules pick up the posts before users can manually confirm or add tags to posts, this property usually has the value "system".  
@@ -1266,7 +1266,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.tags.tag"></a>   
 #### post.tags.tag  
- JSON object describing the tag.  
+JSON object describing the tag.  
   
  Property Value Type: object  
   
@@ -1284,7 +1284,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.tags.tag.id"></a>   
 ##### post.tags.tag.id  
- Internal ID of the tag.  
+Internal ID of the tag.  
   
  Property Value Type: string  
   
@@ -1294,7 +1294,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.tags.tag.name"></a>   
 ##### post.tags.tag.name  
- Name of the tag. Intention tags are localized in the locale chosen in Global Settings. More information: [Understand an author's intent using intention analysis](../social-engagement/tags.md)  
+Name of the tag. Intention tags are localized in the locale chosen in Global Settings. More information: [Understand an author's intent using intention analysis](../social-engagement/tags.md)  
   
  Property Value Type: string  
   
@@ -1304,7 +1304,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.tags.tag.parentId"></a>   
 ##### post.tags.tag.parentId  
- ID of the group containing the tag.  
+ID of the group containing the tag.  
   
  Property Value Type: string  
   
@@ -1314,7 +1314,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.externalId"></a>   
 ### post.externalId  
- ID of the post on the source.  
+ID of the post on the source.  
   
  Property Value Type: string  
   
@@ -1326,7 +1326,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation"></a>   
 ### post.postLocation  
- JSON object describing the location from which a post was published.  
+JSON object describing the location from which a post was published.  
   
  Property Value Type: object  
   
@@ -1360,7 +1360,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.locality"></a>   
 #### post.postLocation.locality  
- Represents the name of a city.  
+Represents the name of a city.  
   
  Property Value Type: string  
   
@@ -1370,7 +1370,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.adminDistrict"></a>   
 #### post.postLocation.adminDistrict  
- Represents the name of an administrative division, for example a federal state or a province.  
+Represents the name of an administrative division, for example a federal state or a province.  
   
  Property Value Type: string  
   
@@ -1380,7 +1380,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.countryRegion"></a>   
 #### post.postLocation.countryRegion  
- Represents the name of a country or region.  
+Represents the name of a country or region.  
   
  Property Value Type: string  
   
@@ -1390,7 +1390,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.coordinates"></a>   
 #### post.postLocation.coordinates  
- JSON object describing the coordinates of a post as defined by the author with latitude and longitude.  
+JSON object describing the coordinates of a post as defined by the author with latitude and longitude.  
   
  Property Value Type: object  
   
@@ -1407,7 +1407,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.coordinates.latitude"></a>   
 ##### post.postLocation.coordinates.latitude  
- Geographic latitude.  
+Geographic latitude.  
   
  Property Value Type: number (floating point)  
   
@@ -1417,7 +1417,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.coordinates.longitude"></a>   
 ##### post.postLocation.coordinates.longitude  
- Geographic longitude.  
+Geographic longitude.  
   
  Property Value Type: number (floating point)  
   
@@ -1427,7 +1427,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.postLocation.quadkey"></a>   
 #### post.postLocation.quadkey  
- Quadtree key of a location, or “quadkey” for short. Identifies a single tile at a particular level of detail on a map. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)  
+Quadtree key of a location, or “quadkey” for short. Identifies a single tile at a particular level of detail on a map. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)  
   
  Property Value Type: string  
   
@@ -1439,7 +1439,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.fullContentLenght"></a>   
 ### post.fullContentLength  
- Length in characters of the text-only content in a post.  
+Length in characters of the text-only content in a post.  
   
  Property Value Type: number (integer)  
   
@@ -1451,7 +1451,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.origin"></a>   
 ### post.origin  
- JSON object describing the origin of the post on the source. This is different from the post.source object.  For example: A specific Facebook page on the Facebook source.  
+JSON object describing the origin of the post on the source. This is different from the post.source object.  For example: A specific Facebook page on the Facebook source.  
   
  Property Value Type: object  
   
@@ -1467,11 +1467,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 },  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.origin.id"></a>   
 #### post.origin.id  
- ID of the internal representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for the origin of a post.  
+ID of the internal representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for the origin of a post.  
   
  Property Value Type: string  
   
@@ -1481,7 +1481,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.origin.externalId"></a>   
 #### post.origin.externalId  
- ID of the origin for the original source of a post.  
+ID of the origin for the original source of a post.  
   
  Property Value Type: string  
   
@@ -1491,7 +1491,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.origin.forumName"></a>   
 #### post.origin.name  
- Name of the origin of the post on the source.  
+Name of the origin of the post on the source.  
   
  Property Value Type: string  
   
@@ -1501,7 +1501,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.matchingSeachTopics"></a>   
 ### post.matchingSearchTopics  
- Array of JSON objects describing the list of search topics a post matches.  
+Array of JSON objects describing the list of search topics a post matches.  
   
  Property Value Type: object  
   
@@ -1518,11 +1518,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 {...}]  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.matchingSeachTopics.name"></a>   
 #### post.matchingSearchTopics.name  
- Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
  Property Value Type: string  
   
@@ -1532,7 +1532,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.matchingSeachTopics.id"></a>   
 #### post.matchingSearchTopics.id  
- ID of the search topic.  
+ID of the search topic.  
   
  Property Value Type: string  
   
@@ -1542,7 +1542,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.matchingSeachTopics.parentId"></a>   
 #### post.matchingSearchTopics.parentId  
- ID of the search topics's category.  
+ID of the search topics's category.  
   
  Property Value Type: string  
   
@@ -1552,7 +1552,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.externalCategories"></a>   
 ### post.externalCategories  
- Array of categories as delivered by external providers.  
+Array of categories as delivered by external providers.  
   
 > [!NOTE]
 >  This property is only available for News posts.  
@@ -1567,7 +1567,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.contributors"></a>   
 ### post.contributors  
- Array of names of those who contributed to the post as provided by the data provider.  
+Array of names of those who contributed to the post as provided by the data provider.  
   
 > [!NOTE]
 >  This property is only available for News posts.  
@@ -1582,7 +1582,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.media"></a>   
 ### post.media  
- Array of JSON objects describing the media in a post.  
+Array of JSON objects describing the media in a post.  
   
  Property Value Type: objects  
   
@@ -1602,11 +1602,11 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
 },  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
 <a name="document.media.type"></a>   
 #### post.media.type  
- The type of media content.  
+The type of media content.  
   
  Property Value Type: enum  
   
@@ -1626,7 +1626,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.media.embedUrl"></a>   
 #### post.media.embedUrl  
- URL embedding the media file.  
+URL embedding the media file.  
   
  Property Value Type: string  
   
@@ -1636,7 +1636,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.externalTopics"></a>   
 ### post.externalTopics  
- Array of topics in this post as delivered by external providers.  
+Array of topics in this post as delivered by external providers.  
   
  Property Value Type: array of strings  
   
@@ -1648,7 +1648,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
 <a name="document.contributorSummary"></a>   
 ### post.contributorSummary  
- Short description about the contributor for this post as delivered by external providers.  
+Short description about the contributor for this post as delivered by external providers.  
   
  Property Value Type: string  
   
@@ -1658,7 +1658,7 @@ This topic applies to version 2.1 of the JSON payload for social posts streamed 
   
  Back to [top](http://crm.cpub/placeholder.aspx#overview)  
   
-## See Also  
- [Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
- [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
- [Work with events from social posts in Azure Event Hubs](../social-engagement/work-with-event-hubs.md)
+### See Also  
+[Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
+[Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
+[Work with events from social posts in Azure Event Hubs](../social-engagement/work-with-event-hubs.md)
