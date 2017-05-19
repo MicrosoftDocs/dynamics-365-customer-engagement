@@ -41,7 +41,7 @@ Use this table to get a quick link to metadata object properties.
 |[metadata.properties.value](#metadata.properties.value)|Value of a key-value pair provided in additional properties of an automation rule.|  
 |[metadata.properties.matchedrule](#metadata.properties.matchedrule)|ID of the automation rule that contains the additional properties|  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="metadata_sample_payload"></a>   
 #### metadata sample payload  
@@ -1656,7 +1656,7 @@ Short description about the contributor for this post as delivered by external p
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)
   
 ### See Also  
 [Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
