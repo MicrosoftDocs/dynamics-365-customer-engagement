@@ -1,5 +1,6 @@
-﻿---
+---
 title: "See the locations for the posts | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 8aec5246-e411-4fb9-9790-2bcd94438038
 caps.latest.revision: 44
 author: "m-hartmann"
@@ -18,24 +18,24 @@ manager: "sakudes"
 # See the locations for the posts
 View the analysis for geographical location information contained in posts or in authors’ profiles. Using the **Location** page, you can view details such as top locations, top languages, and top location groups.  
   
- Go to this page from **Analytics > Location.**  
+Go to this page from **Analytics > Location.**  
   
 ## Types of location data  
- In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], two types of location data are available:  
+In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], two types of location data are available:  
   
 - **Author location:** Location data that is shared by a user through a profile (for example, on a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile page). Consider this an approximate value because the geographical coordinates are calculated by the system. If no post location is provided by the user, the author location is taken into account, where available.  
   
 - **Post location:** Location data that determines from which geographical point (latitude/longitude) a post was published. This can differ greatly between posts from the same author, depending on the applied settings when publishing the post. This is an exact value because geographical coordinates are provided with the post.  
   
- Both types of location data are available under the **Location Type** filter when performing analysis. More information: [Get relevant data using filters](../social-engagement/use-filters.md)  
+Both types of location data are available under the **Location Type** filter when performing analysis. More information: [Get relevant data using filters](../social-engagement/use-filters.md)  
   
- For some locations, for example the United States, you can choose between two ways of grouping the visualized data. To see how many posts with location data are available in each subregion, apply a filter for post location and select **SUBREGIONS**. To see posts with precise geographical information (post location data) on the map, select **POSTS**.  
+For some locations, for example the United States, you can choose between two ways of grouping the visualized data. To see how many posts with location data are available in each subregion, apply a filter for post location and select **SUBREGIONS**. To see posts with precise geographical information (post location data) on the map, select **POSTS**.  
   
 > [!NOTE]
 >  Some posts may have both post and author location. In these cases, that post is counted for the post location metric (and not counted for author location metric).  
   
 ## Sources that provide location data  
- A subset of the available sources that provide location data. Authors need to share their information to see location for sources.  
+A subset of the available sources that provide location data. Authors need to share their information to see location for sources.  
   
 ||Author location|Post location|  
 |-|---------------------|-------------------|  
@@ -71,8 +71,8 @@ View the analysis for geographical location information contained in posts or in
 > [!CAUTION]
 >  After you delete an author, none of the author’s previous posts will be available in the solution’s database anymore; they will be permanently deleted. No new posts from this author will be acquired in the future.  
   
-## See Also  
- [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
- [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)   
- [Analyze the sources for the posts](../social-engagement/analytics-sources.md)
+### See Also  
+[Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
+[Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)   
+[Analyze the sources for the posts](../social-engagement/analytics-sources.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
