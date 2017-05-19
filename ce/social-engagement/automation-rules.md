@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Route posts using automation rules | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2017-02-15"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 8be7abf8-618b-4788-91cb-b992ca3fbf8d
 caps.latest.revision: 36
 author: "m-hartmann"
@@ -31,9 +31,9 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
 <a name="elements"></a>   
 ## Elements of an automation rule  
- For each automation rule, there are several navigation elements and values to define. The following screenshot  shows more about what an automation rule consists of.  
+For each automation rule, there are several navigation elements and values to define. The following screenshot  shows more about what an automation rule consists of.  
   
- ![Elements of an automation rule in Social Engagement.](../social-engagement/media/automation-rules-callout.png "Elements of an automation rule in Social Engagement.")  
+![Elements of an automation rule in Social Engagement.](../social-engagement/media/automation-rules-callout.png "Elements of an automation rule in Social Engagement.")  
   
 1.  Button to create new automation rules.  
   
@@ -57,13 +57,11 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
 11. Summary of actions taken on posts in the past 7 days.  
   
-     When no rule is selected, you'll see the  aggregated numbers across all automation rules. For example, If two rules stream  data to the same event hub, you will see an aggregated value for that event hub.  
-  
-     Only the data for rules with active actions show in the chart. If an action that was removed or disabled is added or enabled again, the stats panel will show any data available for that action in the past 7 days, if it was active anytime during that period.  
+When no rule is selected, you'll see the  aggregated numbers across all automation rules. For example, If two rules stream  data to the same event hub, you will see an aggregated value for that event hub. Only the data for rules with active actions show in the chart. If an action that was removed or disabled is added or enabled again, the stats panel will show any data available for that action in the past 7 days, if it was active anytime during that period.  
   
 <a name="actions"></a>   
 ## Available actions for automation rules  
- The following section explains more about the available actions for automation rules.  
+The following section explains more about the available actions for automation rules.  
   
 > [!TIP]
 > [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] can send administrators a failure notification if an action in an automation rule fails. Administrators can turn this feature on if they want to receive these notifications. To receive email notifications, go to **Settings** > **Automation Rules**, and then set **Send failure notification** to **ON**.  
@@ -72,30 +70,30 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
 <a name="link_automation"></a>   
 ### Create a link to Dynamics 365 from a social post  
- Automatically link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create records from social posts. To use this feature, make sure there’s an active connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. Also ensure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] rule framework is correctly configured to process the Social Activity entities created when a post is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post"), [](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365"), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+Automatically link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create records from social posts. To use this feature, make sure there’s an active connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. Also ensure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] rule framework is correctly configured to process the Social Activity entities created when a post is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post"), [](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365"), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
 <a name="assignAutomation"></a>   
 ### Assign posts to a user or a group in Social Engagement  
- Automatically assign posts that match your defined filters to a user or a group in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can assign every post with a purchase intention to your sales team to follow up on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md)  
+Automatically assign posts that match your defined filters to a user or a group in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can assign every post with a purchase intention to your sales team to follow up on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md)  
   
 <a name="set_label"></a>   
 ### Set a label  
- Automation rules  provide a Set Label action. Based on the filters you define, a label can be set on posts automatically.  For example, you can set a “Review immediately” label on posts from your top influencers so that your community management team can follow up with high priority. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or delete an automation rule](../social-engagement/automation-rules.md#manage_rules)  
+Automation rules  provide a Set Label action. Based on the filters you define, a label can be set on posts automatically.  For example, you can set a “Review immediately” label on posts from your top influencers so that your community management team can follow up with high priority. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or delete an automation rule](../social-engagement/automation-rules.md#manage_rules)  
   
 <a name="stream_to_event_hub"></a>   
 ### Stream posts to Microsoft Azure Event Hubs  
- Automatically stream posts as events as JSON payloads to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. You must have a connection to an event hub set up to see this action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)  
+Automatically stream posts as events as JSON payloads to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. You must have a connection to an event hub set up to see this action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)  
   
 <a name="troubleshoot"></a>   
 ## Troubleshoot issues with failing actions  
- When you receive failure notifications, there are a few common issues and simple solutions to them. Often, the issues are related to connection problems to other services, or sudden spikes in volume of posts.  
+When you receive failure notifications, there are a few common issues and simple solutions to them. Often, the issues are related to connection problems to other services, or sudden spikes in volume of posts.  
   
 ### Link to Dynamics 365 action fails  
- **Possible causes**  
+**Possible causes**  
   
- Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is no longer active or valid, or there are too many posts queued and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] throttles the creation of new records. After several failed retires, the posts are dropped from the queue, and a failure notification is sent. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Social Engagement handles conflicting automation rules](#conflicting_rules)  
+Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is no longer active or valid, or there are too many posts queued and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] throttles the creation of new records. After several failed retires, the posts are dropped from the queue, and a failure notification is sent. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Social Engagement handles conflicting automation rules](#conflicting_rules)  
   
- **Address the issue**  
+**Address the issue**  
   
 1.  Review the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection that was used in the failing automation rule. Make sure the provided connection details are still active. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)  
   
@@ -111,14 +109,14 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
 3.  Click the filter icon and add a **Link to Dynamics 365** filter. Set its value to **Not linked to a Dynamics 365 record**.  
   
-     All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instanceand you can manually link them.  
+All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instanceand you can manually link them.  
   
-4.  4.  Open the post list and click **Link to Dynamics 365** ![Link to Dynamics 365 action](../social-engagement/media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
+4.  Open the post list and click **Link to Dynamics 365** ![Link to Dynamics 365 action](../social-engagement/media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
   
 ### Stream to Event Hubs action fails  
  **Possible causes**  
   
- Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
+Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
   
  **Address the issue**  
   
@@ -130,7 +128,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
  **Identify missed psots**  
   
- Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you can quickly find how many posts were missed.  
+Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you can quickly find how many posts were missed.  
   
 1.  Open the automation rule with the **Stream to Event Hubs** actions and click **View in Analytics** ![View in Analytics button in Social Engagement](../social-engagement/media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
   
@@ -140,7 +138,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
 <a name="manage_rules"></a>   
 ## Create, edit, or delete an automation rule  
- Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/user-roles.md "Understand user roles")  
+Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [](../social-engagement/user-roles.md "Understand user roles")  
   
 > [!IMPORTANT]
 >  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [](../social-engagement/connect-dynamics-365-social-engagement.md "Connect Dynamics 365 and Social Engagement").  
@@ -202,11 +200,11 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
   
 <a name="quick_create"></a>   
 ### Quickly create an automation rule while working in Social Engagement  
- When working with data sets in Social Engagement, you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![More options](../social-engagement/media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
+When working with data sets in Social Engagement, you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![More options](../social-engagement/media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
   
 <a name="conflicting_rules"></a>   
 ### How Social Engagement handles conflicting automation rules  
- A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, Social Engagement will execute the actions from the rule that was added most recently.  
+A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, Social Engagement will execute the actions from the rule that was added most recently.  
   
 > [!CAUTION]
 >  If a post matches the filters for multiple automation rules, only the last created (the newest) automation rule will process the post.  
@@ -214,7 +212,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
 >  You can create up to 1 link per second in the same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. If more than 1 post per second matches your active automation rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will continue trying to create the link every minute, for a maximum of 10 minutes. If [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]'s queue is still blocked after 10 re-tries, the post gets dropped eventually.  
   
 ## See Also  
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
- [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
- [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
- [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)
+[Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
+[Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
+[Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
+[Explore more options with your data set](../social-engagement/more-options-with-data-set.md)
