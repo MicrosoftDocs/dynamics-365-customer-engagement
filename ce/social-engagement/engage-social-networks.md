@@ -99,7 +99,7 @@ Do you want to offer a fast and powerful support to your customers on social cha
 > [!NOTE]
 > [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] leverages Office 365 Groups to enable the collaboration with groups of pepole. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md)  
   
-## See Also  
+### See Also  
  [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
  [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
  [Work with posts](../social-engagement/work-with-posts.md)
