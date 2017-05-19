@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Get the Microsoft Social Engagement content pack for Power BI | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2017-04-12"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -207,7 +208,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
  The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example: 1 is the Solution ID in the Solution URL https://listening-prod.dynamics.com/app/1/  
   
-## See Also  
+### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Publish and react to posts](../social-engagement/publish-react-posts.md)   
  [View posts and conversations in Social Engagement](../social-engagement/posts-conversations.md)   
