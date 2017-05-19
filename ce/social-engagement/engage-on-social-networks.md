@@ -1,14 +1,14 @@
 ---
 title: "Engage on social networks | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 98e1a49d-1d1a-4fe1-8570-8f32e234c55a
 caps.latest.revision: 18
 author: "m-hartmann"
@@ -31,12 +31,12 @@ manager: "sakudes"
 > [!NOTE]
 >  When you open the details of a post in a post list, you can use the **Next post** ![Next post](../social-engagement/media/next-post-symbol-social-engagement.png "Next post") and **Previous post** ![Previous post](../social-engagement/media/previous-post-icon.png "Previous post") buttons to move between the posts in the list.  
   
- For more information about streams in the Social Center, see [Keep track of live data streams with Social Center](../social-engagement/social-center.md).  
+For more information about streams in the Social Center, see [Keep track of live data streams with Social Center](../social-engagement/social-center.md).  
   
- For additional help about the actions that you can take on any post list in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Drive business objectives using posts](../social-engagement/publish-react-posts.md).  
+For additional help about the actions that you can take on any post list in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Drive business objectives using posts](../social-engagement/publish-react-posts.md).  
   
-## See Also  
- [Keep track of live data streams with Social Center](../social-engagement/social-center.md)   
- [Drive business objectives using posts](../social-engagement/publish-react-posts.md)   
- [Manage social profiles](../social-engagement/manage-social-profiles.md)
+### See Also  
+[Keep track of live data streams with Social Center](../social-engagement/social-center.md)   
+[Drive business objectives using posts](../social-engagement/publish-react-posts.md)   
+[Manage social profiles](../social-engagement/manage-social-profiles.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
