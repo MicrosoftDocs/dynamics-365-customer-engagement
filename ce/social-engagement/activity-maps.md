@@ -177,7 +177,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
     >  -   You can hide the header for a better view of the map. Click the **Collapse header** button ![Header collapse](../social-engagement/media/collapse-header-icon.png "Header collapse") to hide.  
     > -   To exit full screen, press escape or click the **Exit full screen mode** button ![Full screen disable](../social-engagement/media/disable-fullscreen-activity-map.png "Full screen disable").  
   
-## See Also  
+### See Also  
  [Get relevant data using filters](../social-engagement/use-filters.md)   
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
