@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Understand the public perception using sentiment analysis | MicrosoftDocs"
+description: 
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: eafeef08-d2ea-470a-a538-9010b19bb7dd
 caps.latest.revision: 29
 author: "m-hartmann"
@@ -18,17 +18,17 @@ manager: "sakudes"
 # Understand the public perception using sentiment analysis
 View and understand the sentiments in the social chat related to the posts that are found by your search topics. Using the **Sentiments** page, [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] calculates the sentiment value of social posts with natural-language processing and machine learning techniques. From the details displayed on this page, you can understand the positive, negative, or neutral sentiments and also the volume and the sources they come from.  
   
- Navigate to this page from **Analytics > Sentiments**.  
+Navigate to this page from **Analytics > Sentiments**.  
   
 ## See the perception of a post and its sentiment value  
- Each post that results from your defined searches is processed by the sentiment algorithm in the original language and annotated with a calculated sentiment value. For more information on the supported languages, you can download the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).  
+Each post that results from your defined searches is processed by the sentiment algorithm in the original language and annotated with a calculated sentiment value. For more information on the supported languages, you can download the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).  
   
- The sentiment value results in a positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and still rates the post as neutral. This happens because the amount of a post’s text identified as positive or negative cancel each other out. A post is also classified as neutral if there are no positive or negative statements detected in it. Unknown sentiment value indicates that the post’s language isn’t supported by the sentiment algorithm.  
+The sentiment value results in a positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and still rates the post as neutral. This happens because the amount of a post’s text identified as positive or negative cancel each other out. A post is also classified as neutral if there are no positive or negative statements detected in it. Unknown sentiment value indicates that the post’s language isn’t supported by the sentiment algorithm.  
   
- The sentiment values from posts with positive or negative sentiment that match your defined filters are normalized and result in the sentiment index for your search topic.  
+The sentiment values from posts with positive or negative sentiment that match your defined filters are normalized and result in the sentiment index for your search topic.  
   
 ## See the normalized perception of a data set and its sentiment index  
- The sentiment index is normalized to a value between -10 and 10. All your active filters and parameters are taken into account to define the data set that the sentiment index is calculated for.  
+The sentiment index is normalized to a value between -10 and 10. All your active filters and parameters are taken into account to define the data set that the sentiment index is calculated for.  
   
 -   A sentiment index of 10 means that there are no negative posts in your data set.  
   
@@ -36,11 +36,11 @@ View and understand the sentiments in the social chat related to the posts that 
   
 -   A sentiment index of -10 means that there are no positive posts in your data set.  
   
- You can calculate the sentiment index with the following formula:  
+You can calculate the sentiment index with the following formula:  
   
- `Sentiment index = (Positive posts – Negative posts)/(Positive posts + Negative posts) * 10`  
+`Sentiment index = (Positive posts – Negative posts)/(Positive posts + Negative posts) * 10`  
   
- You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](../social-engagement/analyze-social-data-using-widgets.md#trend)  
+You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](../social-engagement/analyze-social-data-using-widgets.md#trend)  
   
 ## Static widgets on the Sentiments page  
   
@@ -65,8 +65,8 @@ View and understand the sentiments in the social chat related to the posts that 
 > [!CAUTION]
 >  Once you delete an author, none of the author’s previous posts will be available in the solution’s database any more, they will be permanently deleted. No new posts from this author will be acquired in the future.  
   
-## See Also  
- [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
- [See the locations for the posts](../social-engagement/analytics-location.md)   
- [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md)
+### See Also  
+[Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
+[See the locations for the posts](../social-engagement/analytics-location.md)   
+[Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
