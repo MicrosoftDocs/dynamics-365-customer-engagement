@@ -1,14 +1,14 @@
-﻿---
+---
 title: "Manage access tokens | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
 caps.latest.revision: 20
 ms.author: "dechang"
@@ -111,7 +111,7 @@ manager: "sakudes"
   
 3.  Click **Save**.  
   
-## See Also  
+### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Manage social profiles](../social-engagement/manage-social-profiles.md)
