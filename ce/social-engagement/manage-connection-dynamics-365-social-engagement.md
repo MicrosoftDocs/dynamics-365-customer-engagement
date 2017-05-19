@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Manage the connection between Dynamics 365 and Social Engagement | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2016-12-16"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -151,7 +152,7 @@ This topic helps you understand how you change the settings for your connections
 ## Privacy Notice  
  [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
   
-## See Also  
+### See Also  
  [](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365")   
  [](../social-engagement/connect-dynamics-365-social-engagement.md "Connect Dynamics 365 and Social Engagement")   
  [](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post")   
