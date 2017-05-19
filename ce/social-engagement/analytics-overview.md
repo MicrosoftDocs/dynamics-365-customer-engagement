@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Understand widgets on the Overview page | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -18,7 +19,7 @@ manager: "sakudes"
 # Understand widgets on the Overview page
 See key widgets on the Overview page. The widgets on this page provide information about the volume of posts, sources, and locations where these posts are coming from, topics discussed, languages used, and the details of influencing authors.  
   
- Go to this page from **Analytics > Overview**.  
+Go to this page from **Analytics > Overview**.  
   
 > [!NOTE]
 > **Overview** is the default landing page when you go to the Analytics area, or when you choose [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] on the nav bar.  
@@ -47,10 +48,10 @@ See key widgets on the Overview page. The widgets on this page provide informati
 |Topics by Sentiment|Find out about the sentiment index for all posts with sentiment value in your search topics.<br /><br /> Click the **Full view** button ![Full view button](../social-engagement/media/open-full-view-icon.png "Full view button") to expand the widget to the Full view mode.|**Metrics in normal view**<br /><br /> -   Volume of posts<br />-   Trend of sentiment index<br />-   Sorted by the number of posts per search topic<br /><br /> **Metrics in Full view**<br /><br /> -   Search topics<br />-   Sentiment index<br />-   Sentiment change<br />-   Number of positive posts<br />-   Number of negative posts<br />-   Number of neutral posts|-   Your data set contains at least one post with a positive or negative sentiment value.<br />-   The analysis focus is set to a category.|  
 |Sentiment|Sentiment index based on the type of sentiment:  positive, negative, or neutral.|-   Sentiment index<br />-   Volume<br />-   Trend|-   Your data set contains at least one post with a positive or negative sentiment value.|  
   
-## See Also  
- [](../social-engagement/analyze-social-data-using-widgets.md "Analyze social data using widgets")   
- [Find out what people are saying over conversations](../social-engagement/analytics-conversations.md)   
- [](../social-engagement/analytics-sentiment.md "Understand the public perception using sentiment analysis")   
- [See the locations for the posts](../social-engagement/analytics-location.md)   
- [Analyze the sources for the posts](../social-engagement/analytics-sources.md)
+### See Also  
+[](../social-engagement/analyze-social-data-using-widgets.md "Analyze social data using widgets")   
+[Find out what people are saying over conversations](../social-engagement/analytics-conversations.md)   
+[](../social-engagement/analytics-sentiment.md "Understand the public perception using sentiment analysis")   
+[See the locations for the posts](../social-engagement/analytics-location.md)   
+[Analyze the sources for the posts](../social-engagement/analytics-sources.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
