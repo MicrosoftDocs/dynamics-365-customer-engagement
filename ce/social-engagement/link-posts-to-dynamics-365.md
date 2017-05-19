@@ -1,7 +1,8 @@
 ---
 title: "Link posts from Social Engagement to Dynamics 365 | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -32,10 +33,10 @@ manager: "sakudes"
   
 6.  Understand how to delete or disable a connection between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and how this may affect existing linkages or linking social posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the connection between Dynamics 365 and Social Engagement](../social-engagement/manage-connection-dynamics-365-social-engagement.md)  
   
-## Privacy Notice  
+### Privacy Notice  
  [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
   
-## See Also  
+### See Also  
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Set up the connection between Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
  [Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)
