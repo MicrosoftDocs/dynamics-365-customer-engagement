@@ -1,5 +1,6 @@
 ---
 title: "Assign permissions and user roles | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 05b070fd-7b33-440d-bf6d-e527639ede8c
 caps.latest.revision: 39
 author: "m-hartmann"
@@ -57,17 +57,17 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 <a name="EmailUsers"></a>   
 ## Send email to users  
- Use your email client to send email to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
+Use your email client to send email to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
   
 1.  Navigate to **Settings** > **User Management**.  
   
 2.  Identify the user you want to contact and click the **Email** ![Send message button in Social Engagement](../social-engagement/media/enevelope-icon.png "Send message button in Social Engagement") button in the **Users** list.  
   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  
+[!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  
   
-## See Also  
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
- [Understand user roles](../social-engagement/user-roles.md)   
- [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)
+### See Also  
+[Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
+[Understand user roles](../social-engagement/user-roles.md)   
+[Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
