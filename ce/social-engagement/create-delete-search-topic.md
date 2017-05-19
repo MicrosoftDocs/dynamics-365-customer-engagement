@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Create or delete a search topic | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2017-03-14"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 9167aafd-1882-4187-add5-4bd874d3c21b
 caps.latest.revision: 63
 author: "m-hartmann"
@@ -22,8 +22,7 @@ It’s important to start with a clear idea of what kind of online information y
 >  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
 ## Create a search topic  
-  
-> [!NOTE]
+ > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
   
 1.  Go to **Search Setup**.  
@@ -51,7 +50,7 @@ It’s important to start with a clear idea of what kind of online information y
     >  It will take some time for the first posts to be acquired for your newly-created topic. The delay also depends on how much volume your topic in general has. For example, a topic with high volume will give you results faster than a topic with lower volume. Make sure to check in Analytics and set your time frame to **Today** if you have set up a new topic and are expecting posts.  
   
 ## Edit a search topic  
- To help you find relevant posts and be up to date with the business requirements, you can change your search topics and the associated rules at any time. We strongly recommend updating the rules in a search topic from time to time to make sure you’re gathering only relevant information.  
+To help you find relevant posts and be up to date with the business requirements, you can change your search topics and the associated rules at any time. We strongly recommend updating the rules in a search topic from time to time to make sure you’re gathering only relevant information.  
   
 > [!NOTE]
 >  Administrators can edit every search topic in the solution, while Power Analysts can only edit the search topics they own.  
@@ -66,7 +65,7 @@ It’s important to start with a clear idea of what kind of online information y
   
 <a name="manage_ownership"></a>   
 ## Manage ownership of a search topic  
- Administrators in your organization can change the owner of a search topic to ensure every search topic is owned by the appropriate user. Users with the Power Analyst role are only allowed to edit owned search topics, but Administrators can empower these users by giving them ownership of search topics they manage, or create a search topic on behalf of other users.  
+Administrators in your organization can change the owner of a search topic to ensure every search topic is owned by the appropriate user. Users with the Power Analyst role are only allowed to edit owned search topics, but Administrators can empower these users by giving them ownership of search topics they manage, or create a search topic on behalf of other users.  
   
 1.  Go to **Search Setup**.  
   
@@ -93,20 +92,20 @@ It’s important to start with a clear idea of what kind of online information y
     > [!NOTE]
     >  Deleting a search topic has the following effects:  
     >   
-    >  -   Data acquisition for the deleted topic stops immediately.  
+    >  -  Data acquisition for the deleted topic stops immediately.  
     > -   An automated email notification is sent to the user who created the search topic.  
     > -   The search topic is no longer visible in the user interface.  
     > -   Alerts and streams based on this topic are deactivated.  
     > -   The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your deleted search topics will no longer affect the quota. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](../social-engagement/manage-post-quota.md)  
   
-## Privacy notices  
+### Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
  [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
  [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
   
-## See Also  
+### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [](../social-engagement/add-rules-search-topic.md "Add rules to a search topic")
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
