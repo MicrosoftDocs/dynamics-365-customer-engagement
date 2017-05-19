@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Get details on specific authors | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-12-14"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: 99522a0a-cc87-4530-8595-afd48c1a2a3f
 caps.latest.revision: 8
 author: "m-hartmann"
@@ -19,15 +19,15 @@ manager: "sakudes"
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors of a post matching your data sets. Learn about author interests and their backgrounds through author lookup, to keep track of people who impact your social feed.  
   
 ## Access author details in Analytics and Social Center  
- To see author details in posts, click **Posts** on the right side of any analytics page. Or go to **Social Center** to access your streams, and tap on the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] author profile picture in a post. To go back to your stream feed, click **Back to**.  
+To see author details in posts, click **Posts** on the right side of any analytics page. Or go to **Social Center** to access your streams, and tap on the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] author profile picture in a post. To go back to your stream feed, click **Back to**.  
   
- To see author details in the Authors widget, go to **Analytics**, and in the author widget, click the view author details button. ![View author details button in Social Engagement](../social-engagement/media/author-details-icon.png "View author details button in Social Engagement"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)  
+To see author details in the Authors widget, go to **Analytics**, and in the author widget, click the view author details button. ![View author details button in Social Engagement](../social-engagement/media/author-details-icon.png "View author details button in Social Engagement"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)  
   
 > [!NOTE]
 >  On mobile devices, tap the author profile picture, **or** tap a post twice, and tap the author profile picture to view the author profile. Depending on your screen size, you will see additional information in the list.  
   
 ## Author details  
- The author name, user name, profile picture, location, website, and bio is displayed at the top of the panel if it is provided by the author. (The author must have been active in the last 30 days.) The following list includes the details that are provided.  
+The author name, user name, profile picture, location, website, and bio is displayed at the top of the panel if it is provided by the author. (The author must have been active in the last 30 days.) The following list includes the details that are provided.  
   
 1. **Reach**: The influencer score of the author.  
   
@@ -52,7 +52,7 @@ manager: "sakudes"
 ## Privacy notice  
  [!INCLUDE[cc_privacy_mse_engagement_analytics](../includes/cc-privacy-mse-engagement-analytics.md)]  
   
-## See Also  
- [Get connected to the social conversation using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md)   
- [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)
+### See Also  
+[Get connected to the social conversation using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md) 
+[Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
