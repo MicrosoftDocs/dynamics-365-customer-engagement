@@ -1,14 +1,14 @@
-﻿---
+---
 title: "Get help with Social Engagement | MicrosoftDocs"
+description:
 ms.custom: ""
-ms.date: "2017-05-10"
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: f191bbcd-1f93-42dc-8d6d-6aa8dae8c8f7
 caps.latest.revision: 38
 author: "m-hartmann"
@@ -29,7 +29,7 @@ We have several ways to help you get started with [!INCLUDE[pn_netbreeze_long](.
   
 2.  In the drop-down list, select **Help**.  
   
-## See Also  
+### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
