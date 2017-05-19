@@ -1,5 +1,6 @@
 ---
 title: "Create or delete custom sources | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -62,4 +63,5 @@ Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE
 >  -   Data acquisition for the deleted custom source stops immediately.  
 >  -   The custom source is no longer visible in the user interface.  
 >  -   Search topics, rules, alerts and streams based exclusively on this custom source are deactivated.
+### See Also
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
