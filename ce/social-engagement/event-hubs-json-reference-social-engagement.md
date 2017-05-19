@@ -76,7 +76,7 @@ Back to [top](#overview)
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="documentProperties"></a>   
 ### post object elements  
@@ -112,7 +112,7 @@ Use this table to get a quick link to post object properties.
 |[post.externalTopics](#document.externalTopics)|Array of topics in this post as defined by the data provider.|  
 |[post.contributorSummary](#document.contributorSummary)|Short description about the contributor for this post as delivered by external providers.|  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document_sample_payload"></a>   
 #### post sample payload  
@@ -192,7 +192,7 @@ This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="sampleTwitterRetweet"></a>   
 ##### Sample Twitter retweet  
@@ -271,7 +271,7 @@ This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="sampleFacebookReply"></a>   
 ##### Sample Facebook reply  
@@ -330,7 +330,7 @@ This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebo
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="sampleVideoPost"></a>   
 ##### Sample video post  
@@ -388,7 +388,7 @@ This is a sample post payload for a video post acquired through [!INCLUDE[pn_net
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="sampleBlogPost"></a>   
 ##### Sample blog post  
@@ -440,7 +440,7 @@ This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netb
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="sampleForumPost"></a>   
 ##### Sample forum post  
@@ -500,7 +500,7 @@ This is a sample post payload for a forum post acquired through [!INCLUDE[pn_net
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="metadata"></a>   
 ## Metadata JSON payload objects  
@@ -516,7 +516,7 @@ Array describing the automation rules that match this post.
   
  Sample: [metadata sample payload](#metadata_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="metadata.matchedrules.id"></a>   
 #### metadata.matchedRules.id  
@@ -548,7 +548,7 @@ Array of key-value pairs defined in the additional properties of the "Stream to 
   
  Sample: [metadata sample payload](#metadata_sample_payload)  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="metadata.properties.key"></a>   
 #### metadata.properties.key  
@@ -594,7 +594,7 @@ The unique post ID in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.contentType"></a>   
 ### post.contentType  
@@ -616,7 +616,7 @@ The type of content in a post.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.postType"></a>   
 ### post.postType  
@@ -638,7 +638,7 @@ The type of post in its conversational context.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.uri"></a>   
 ### post.uri  
@@ -653,7 +653,7 @@ A backlink to the post's original URI.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.title"></a>   
 ### post.title  
@@ -668,7 +668,7 @@ The title as delivered from a post's meta information.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.acquisitionDate"></a>   
 ### post.acquisitionDate  
@@ -680,7 +680,7 @@ Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../include
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.modificationDate"></a>   
 ### post.modificationDate  
@@ -692,7 +692,7 @@ Timestamp when  the post was last updated in [!INCLUDE[pn_netbreeze_short](../in
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.publicationDate"></a>   
 ### post.publicationDate  
@@ -704,7 +704,7 @@ Timestamp when the post was published on the source (in ISO 8601 format).
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.profile"></a>   
 ### post.profile  
@@ -749,7 +749,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user in
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.profile.id"></a>   
 #### post.profile.id  
@@ -934,7 +934,7 @@ JSON object describing on which source a post was found.
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.source.id"></a>   
 #### post.source.id  
@@ -995,7 +995,7 @@ JSON object describing the text content of a post.
 }  
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.content.text"></a>   
 #### post.content.text  
@@ -1043,7 +1043,7 @@ JSON object describing the language of a post.
 }  
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.language.name"></a>   
 #### post.language.name  
@@ -1075,7 +1075,7 @@ Short excerpt of the post.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.score"></a>   
 ### post.score  
@@ -1096,7 +1096,7 @@ JSON object describing the source-specific score of the post or score of the aut
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.score.normalScore"></a>   
 #### post.score.normalScore  
@@ -1151,7 +1151,7 @@ Information about the post that this post is a reply to, or a share of. referenc
 }  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.sentiment"></a>   
 ### post.sentiment  
@@ -1170,7 +1170,7 @@ JSON object describing the sentiment of a post.
 }  
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.sentiment.polarity"></a>   
 #### post.sentiment.polarity  
@@ -1231,7 +1231,7 @@ Array of JSON objects representing tags on a post that were added through [!INCL
   
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.tags.probability"></a>   
 #### post.tags.probability  
@@ -1322,7 +1322,7 @@ ID of the post on the source.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.postLocation"></a>   
 ### post.postLocation  
@@ -1356,7 +1356,7 @@ JSON object describing the location from which a post was published.
 },  
 ```  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.postLocation.locality"></a>   
 #### post.postLocation.locality  
@@ -1435,7 +1435,7 @@ Quadtree key of a location, or “quadkey” for short. Identifies a single tile
   
  Sample: [post.postLocation](#document.postLocation)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.fullContentLenght"></a>   
 ### post.fullContentLength  
@@ -1447,7 +1447,7 @@ Length in characters of the text-only content in a post.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.origin"></a>   
 ### post.origin  
@@ -1467,7 +1467,7 @@ JSON object describing the origin of the post on the source. This is different f
 },  
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.origin.id"></a>   
 #### post.origin.id  
@@ -1518,7 +1518,7 @@ Array of JSON objects describing the list of search topics a post matches.
 {...}]  
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.matchingSeachTopics.name"></a>   
 #### post.matchingSearchTopics.name  
@@ -1563,7 +1563,7 @@ Array of categories as delivered by external providers.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.contributors"></a>   
 ### post.contributors  
@@ -1578,7 +1578,7 @@ Array of names of those who contributed to the post as provided by the data prov
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.media"></a>   
 ### post.media  
@@ -1602,7 +1602,7 @@ Array of JSON objects describing the media in a post.
 },  
 ```  
   
-Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+Back to [top](#overview)  
   
 <a name="document.media.type"></a>   
 #### post.media.type  
@@ -1644,7 +1644,7 @@ Array of topics in this post as delivered by external providers.
   
  Sample: [post sample payload](#document_sample_payload)  
   
- Back to [top](http://crm.cpub/placeholder.aspx#overview)  
+ Back to [top](#overview)  
   
 <a name="document.contributorSummary"></a>   
 ### post.contributorSummary  
