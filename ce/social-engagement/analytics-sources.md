@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: "Social Engagement"
-ms.assetid:3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
+ms.assetid: 3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
 caps.latest.revision: 29
 author: "m-hartmann"
 ms.author: "mhart"
