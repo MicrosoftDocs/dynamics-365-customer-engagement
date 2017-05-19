@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Connect Social Engagement to other domains | MicrosoftDocs"
+description:
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""
@@ -7,8 +8,7 @@ ms.service: "mse"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+applies_to: "Social Engagement"
 ms.assetid: dbde8454-c0e6-4914-9818-6eee4c6aeb0f
 caps.latest.revision: 27
 author: "m-hartmann"
@@ -21,7 +21,7 @@ Enable communication between [!INCLUDE[pn_netbreeze_long](../includes/pn-netbree
 > [!NOTE]
 >  To add or remove domains, or to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to another application, you must be a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Administrator.  
   
- You can enter the following values in your list of allowed domains:  
+You can enter the following values in your list of allowed domains:  
   
 -   Full domain names: This enables communication between the specified domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution, for example, `app.contoso.com`  
   
@@ -29,7 +29,7 @@ Enable communication between [!INCLUDE[pn_netbreeze_long](../includes/pn-netbree
   
 -   Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution, for example, `http://hostname`  
   
- You can add an unlimited number of domains to the list.  
+You can add an unlimited number of domains to the list.  
   
 ## Add a domain  
   
@@ -44,17 +44,17 @@ Enable communication between [!INCLUDE[pn_netbreeze_long](../includes/pn-netbree
 2.  Locate the domain you want to remove, click the **Delete** button ![Delete button](../social-engagement/media/delete-icon.png "Delete button"), and then confirm the deletion.  
   
 ## Add the solution URL to the configuration page  
- In the **Solution URL** pane of the **Allowed Domains** page, you’ll find the **URL** to connect to this instance of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+In the **Solution URL** pane of the **Allowed Domains** page, you’ll find the **URL** to connect to this instance of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
- Copy the solution URL and paste it into the configuration page of the application that you want to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+Copy the solution URL and paste it into the configuration page of the application that you want to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
 > [!NOTE]
 >  Make sure to add the domain or host name of the application you plan to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to your list of allowed domains.  
 >   
 >  To make sure only the domains you own can make requests to your data, we recommend you add your organization’s domain to the list of allowed domains. When a specific domain is added to the list of allowed domains, *.dynamics.com is automatically removed from the allowed domains.  
   
-## See Also  
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
- [Get started with Social Engagement](../social-engagement/get-started.md)   
- [Get connected to the social conversation](../social-engagement/get-connected-social-conversation.md)
+### See Also  
+[Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
+[Get started with Social Engagement](../social-engagement/get-started.md)   
+[Get connected to the social conversation](../social-engagement/get-connected-social-conversation.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]
