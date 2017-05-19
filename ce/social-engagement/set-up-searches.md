@@ -1,7 +1,11 @@
 ---
 title: "Set up searches to listen to social media conversations | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -43,10 +47,10 @@ Listen to conversations on social media around your brand, business, products, a
 ## Available languages for search rules  
  [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] offers a broad set of languages where search rules can look for matching posts. However, sentiment analysis is available for a subset of the search languages. For more details about the language coverage, download and review the [Translation Guide](http://go.microsoft.com/fwlink/p/?LinkId=391086).  
   
-## Privacy notice  
+### Privacy notice  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
-## See Also  
+### See Also  
  [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
  [Add rules to a search topic](../social-engagement/add-rules-search-topic.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]

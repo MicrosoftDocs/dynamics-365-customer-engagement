@@ -1,7 +1,11 @@
 ---
 title: "Understand user roles | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -80,7 +84,7 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
 |Create custom tags|No|Yes|Yes|  
 |Edit tags on posts (confirm  tags, add tags, remove tags)|Yes|Yes|Yes|  
   
-## See Also  
+### See Also  
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)   
  [](../social-engagement/assign-user-roles.md "Assign permissions and user roles")

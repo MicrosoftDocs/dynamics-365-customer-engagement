@@ -1,7 +1,11 @@
 ﻿---
 title: "Personalize the Social Selling Assistant | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-02-15"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -50,7 +54,7 @@ When using the Social Selling Assistant for the first time, users will get recom
 > [!NOTE]
 >  If you’ve set the dark theme in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], the Social Selling Assistant will inherit this setting.  
   
-## See Also  
+### See Also  
  [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
  [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md)   
  [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)

@@ -1,7 +1,11 @@
 ---
 title: "Sign in to Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -41,7 +45,7 @@ To sign in to Social Engagement, you'll need to be assigned a user license. Your
   
  If you’re looking for [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], the URL includes your organization’s appID, and will look like this: **https://listening-prod.dynamics.com/app/\<appID>**.  
   
-## See Also  
+### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Manage licenses for Social Engagement](../social-engagement/manage-licenses.md)   
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)

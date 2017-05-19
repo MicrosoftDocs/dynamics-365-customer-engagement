@@ -1,7 +1,11 @@
 ﻿---
 title: "View posts and conversations in Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-04-12"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""

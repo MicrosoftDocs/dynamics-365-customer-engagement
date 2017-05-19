@@ -1,7 +1,11 @@
 ﻿---
 title: "Stream data from Social Engagement to Microsoft Azure Event Hubs | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -95,10 +99,10 @@ Start building out your custom metrics or analysis based on the posts found by [
  To work with the events that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] streams to an event hub, you have several options to define the processing and use the data.  For an example about how to create a [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] dashboard by using [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] queries, see [Work with events from Social Engagement in Azure Event Hubs](../social-engagement/work-with-event-hubs.md), [Step 4: Create an Azure Stream Analytics job](../social-engagement/work-with-event-hubs.md#step4_create_stream_analytics_job).  
   
 <a name="privacy"></a>   
-## Privacy Notice  
+### Privacy notice  
  [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
   
-## See Also  
+### See Also  
  [Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
  [Work with events from Social Engagement in Azure Event Hubs](../social-engagement/work-with-event-hubs.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   

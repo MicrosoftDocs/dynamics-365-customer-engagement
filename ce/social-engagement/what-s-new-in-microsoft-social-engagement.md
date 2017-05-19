@@ -1,7 +1,11 @@
 ﻿---
 title: "What&#39;s new in Microsoft Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-04-12"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -461,6 +465,6 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
 ### Explore Social Engagement with more multimedia content  
  There’s more multimedia content added regularly to help you understand different aspects of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. To find a list of available videos and eBooks, see                                                 [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708).  
   
-## See Also  
+### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708)

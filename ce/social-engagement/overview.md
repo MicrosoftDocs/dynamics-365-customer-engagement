@@ -1,7 +1,11 @@
 ---
 title: "Overview | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "05/11/2017"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -79,6 +83,6 @@ ms.author: "mhart"
   
 -   [Silvia Gönner's video: Getting closer to your customer](https://www.youtube.com/watch?v=i1k8Tet-n6Q)  
   
-## See Also  
+### See Also  
  [Microsoft Social Engagement FAQ](../social-engagement/faq.md)   
  [Get connected to the social conversation by using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md)

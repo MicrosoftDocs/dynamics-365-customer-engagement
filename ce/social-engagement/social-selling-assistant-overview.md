@@ -1,7 +1,11 @@
 ﻿---
 title: "Empower your salespeople with the Social Selling Assistant | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-04-12"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -48,7 +52,7 @@ ms.author: "mhart"
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md)  
   
-## See Also  
+### See Also  
  [TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   
  [Get connected to the social conversation by using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   

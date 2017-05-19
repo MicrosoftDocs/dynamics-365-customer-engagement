@@ -1,7 +1,11 @@
 ---
 title: "Check the health state of your social profiles | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -60,6 +64,6 @@ ms.author: "dechang"
 |Allowed|![Acquisition Allowed symbol](../social-engagement/media/acquition-allowed-icon.png "Acquisition Allowed symbol")|The social profile allows acquisition but no search rule has been added.|  
 |Expired|![No valid token symbol](../social-engagement/media/token-missing-icon.png "No valid token symbol")|The social profile token is expired. You need to re-authenticate your token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Re-authenticate a token](../social-engagement/manage-access-tokens.md#reauth_token)|  
   
-## See Also  
+### See Also  
  [Manage social profiles](../social-engagement/manage-social-profiles.md)   
  [Manage access tokens](../social-engagement/manage-access-tokens.md)

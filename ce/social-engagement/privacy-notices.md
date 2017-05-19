@@ -1,7 +1,11 @@
 ---
 title: "Microsoft Social Engagement Privacy Notices | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-03-14"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -36,7 +40,7 @@ Your privacy is important to us. For Microsoft Online Services, read the [Micros
   
  [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
   
-## See Also  
+### See Also  
  [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)   
  [Get started with Social Engagement](../social-engagement/get-started.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]

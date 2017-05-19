@@ -1,7 +1,11 @@
 ---
 title: "Perform visual filtering on widgets | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -42,7 +46,7 @@ In addition to viewing the analytics for the current data set, you can efficient
 > [!NOTE]
 >  Any other dimension values already present in the filter are removed. Only the current filter values are used and the appropriate metrics are displayed.  
   
-## See Also  
+### See Also  
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Understand widgets on the Overview page](../social-engagement/analytics-overview.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]

@@ -1,7 +1,11 @@
 ﻿---
 title: "Optimize browser settings for Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -56,7 +60,7 @@ In our everyday lives, we use our favorite browsers to work with web application
   
 - [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]: [Safari 9 \(El Capitan\): Use Private Browsing windows](https://support.apple.com/kb/PH21413)  
   
-## See Also  
+### See Also  
  [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
  [Manage social profiles](../social-engagement/manage-social-profiles.md)   
  [Drive business objectives using posts](../social-engagement/publish-react-posts.md)   

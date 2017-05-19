@@ -1,7 +1,11 @@
 ﻿---
 title: "Manage the quality of your search results | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -128,10 +132,10 @@ You can perform quality management over the entire application by blocking irrel
   
 -   Get additional post quota. Ask your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin to add more posts to your solution’s quota in the [Office 365 admin center](http://go.microsoft.com/fwlink/p/?LinkId=390650).  
   
-## Privacy notice  
+### Privacy notice  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
-## See Also  
+### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Refine your search rules](../social-engagement/refine-search-rules.md)
 [!INCLUDE[cc_copy_year_all_rights_reserved_md](../includes/cc-copy-year-all-rights-reserved.md)]

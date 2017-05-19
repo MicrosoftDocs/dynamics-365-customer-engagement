@@ -1,7 +1,11 @@
 ﻿---
 title: "Manage licenses for Social Engagement | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -134,14 +138,14 @@ Using  the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin c
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics CRM pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
   
-## Privacy notice  
+### Privacy notice  
  [!INCLUDE[cc_privacy_msl_cookies](../includes/cc-privacy-msl-cookies.md)]  
   
  [!INCLUDE[cc_privacy_msl_partners](../includes/cc-privacy-msl-partners.md)]  
   
  [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
   
-## See Also  
+### See Also  
  [Get started with Social Engagement](../social-engagement/get-started.md)   
  [Assign permissions and user roles](../social-engagement/assign-user-roles.md)   
  [Integrate Social Engagement with Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md)   

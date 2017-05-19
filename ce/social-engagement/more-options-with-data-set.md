@@ -1,7 +1,11 @@
 ﻿---
 title: "Explore more options with your data set | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -56,7 +60,7 @@ Your search topics usually gather more data than you want to analyze at a given 
 > [!NOTE]
 >  If you use the nav bar to switch to a different area of the application, your filters are reset. To persist the filters, pass your data set to a different area per the instructions and availability above.  
   
-## See Also  
+### See Also  
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Get relevant data using filters](../social-engagement/use-filters.md)   
  [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)

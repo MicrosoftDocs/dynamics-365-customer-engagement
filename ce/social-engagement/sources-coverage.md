@@ -1,7 +1,11 @@
 ﻿---
 title: "Find out what&#39;s covered by sources | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -78,6 +82,6 @@ manager: "sakudes"
   
  To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule).  
   
-## See Also  
+### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Refine your search rules to find relevant content](../social-engagement/refine-search-rules.md)

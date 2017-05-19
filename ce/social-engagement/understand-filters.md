@@ -1,7 +1,11 @@
 ---
 title: "Get to know your filters | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2016-11-18"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -90,6 +94,6 @@ You can edit or remove filters from your analysis at any time, and the charts, l
 ## Tags  
  Find posts that match one of the available intention tags or custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
   
-## See Also  
+### See Also  
  [Use filters to see relevant data](../social-engagement/use-filters.md)   
  [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)

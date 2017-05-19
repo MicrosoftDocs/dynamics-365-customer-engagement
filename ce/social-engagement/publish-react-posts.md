@@ -1,7 +1,11 @@
 ﻿---
 title: "Publish and react to posts | MicrosoftDocs"
+ 
+description:
+
 ms.custom: ""
-ms.date: "2017-04-12"
+
+ms.date: "2017-05-19"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -289,7 +293,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 > [!NOTE]
 >  When you use a large file, it can take a long time to upload. Also, timeouts can happen when the upload takes too long due to limited bandwidth.  If this happens, try resizing the image to reduce the file size, or try again with more bandwidth.  
   
-## See Also  
+### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Work with posts](../social-engagement/work-with-posts.md)   
  [Manage social profiles](../social-engagement/manage-social-profiles.md)
