@@ -1,0 +1,1569 @@
+# Liquid objects
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Liquid objects contain attributes to output dynamic content to the page. For example, the pageobject has an attribute called title that can be used to output the title of the current page.
+
+To access an object attribute by name, use a dot . To render an object's attribute in a template, wrap it in {{ and }}.
+
+**{{ page.title }}**
+
+Attributes of an object can also be accessed using a string name and \[\]. This is useful in cases where the desired attribute is determined dynamically, or the attribute name contains characters , spaces, special characters, etc., that would be invalid when using the . syntax.
+
+**{{ page\["title"\] }}**
+
+**{% assign attribute\_name = "Name with spaces" %}**
+
+**{{ object\[attribute\_name\] }}**
+
+The following objects can be used and accessed anywhere, in any template.
+
+| entities    | Allows you to load any Dynamics 365 entity by ID. More information: [*entities*](#entities)                                                                                                                                                      |  
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Now         | A date/time object that refers to the current UTC time, **at the time the template is rendered**. More information: [*Date filters*](#date-filters)                                                                                              |  
+| Page        | Refers to the current portal request page.                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                    
+  The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dynamics 365 record. More information: [*page*](#page)  |  
+| params      | A convenient shortcut for request.params. More information: [*request*](#request)                                                                                                                                                                |  
+| request     | Contains information about the current HTTP request. More information: [*request*](#request)                                                                                                                                                     |  
+| settings    | Allows you to load any Site Setting by name. More information: [*settings*](#settings-1), [*Configure site settings for portals*](configure-site-settings.md)                                                                          |  
+| sitemap     | Allows access to the portal site map. More information: [*sitemap*](#sitemap)                                                                                                                                                                    |  
+| sitemarkers | Allows you to load any Site Markers by name. More information: [*sitemarkers*](#sitemarkers)                                                                                                                                                     |  
+| snippets    | Allows you to load any Content Snippet by name. More information: [*Customize content by using content snippets*](customize-content-snippets.md)                                                                                  |  
+| User        | Refers to the current portal user, allowing access to all attributes of the underlying Dynamics 365 contact record. If no user is signed in, this variable will be null. More information: [*Liquid types*](liquid-types.md)                       |  
+| weblinks    | Allows you to load any Web Link Set by name or ID. More information: [*weblinks*](#weblinks)                                                                                                                                                     |  
+| website     | Refers to the portal Website record, allowing access to all attributes of the Dynamics 365 Website (adx\_website) record for the portal. More information: [*website*](#website-1)                                                               |  
+
+### **All Liquid Objects**
+
+[*ads*](#ads-1)  
+
+[*blogs*](#blogs)  
+
+[*entities*](#entities)  
+
+[*entitylist*](#entitylist)  
+
+[*entityview*](#entityview)  
+
+[*events*](#events)  
+
+[*forloop*](#forloop)  
+
+[*forums*](#forums)  
+
+[*page*](#page)  
+
+[*polls*](#polls-1)  
+
+[*request*](#request)  
+
+[*searchindex*](#searchindex)  
+
+[*settings*](#settings-1)  
+
+[*sitemap*](#sitemap)  
+
+[*sitemarkers*](#sitemarkers)  
+
+[*snippets*](#snippets)  
+
+[*tablerowloop*](#tablerowloop)  
+
+[*user*](#user)  
+
+[*weblinks*](#weblinks)  
+
+[*website*](#website-1)  
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Store source content by using web templates*](store-content-web-templates.md)  
+[*Understand Liquid operators*](liquid-operators.md)  
+[*Liquid types*](liquid-types.md)  
+[*Conditional*](liquid-conditional-operators.md)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+[*Create advanced templates for portals*](create-advanced-templates.md)  
+
+## ads
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Provides the ability to access and render an ad.
+
+The ads object allows you to select a specific ad or ad placement:
+
+**&lt;div&gt;**
+
+**{% assign ad = ads\["Ad Name"\] %}**
+
+**&lt;h4&gt;{{ ad.title }}&lt;/h4&gt;**
+
+**&lt;a href="{{ ad.redirect\_url }}"&gt;**
+
+**&lt;img src="{{ ad.image.url }}" alt="{{ ad.image.alternate\_text }}" /&gt;**
+
+**&lt;/a&gt;**
+
+**&lt;/div&gt;**
+
+### **Ads attributes**
+
+| placements        | Returns the adplacements object.                                    |
+|-------------------|---------------------------------------------------------------------|
+| \[ad name or id\] | You can access any ad by its Name or Id properties.                 
+                                                                       
+  **{% assign ad = ads\["Ad Name"\] %}**                               
+                                                                       
+  **{% assign ad = ads\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
+
+### **Ad Placements attributes**
+
+|                             |                                                                                       |
+|-----------------------------|---------------------------------------------------------------------------------------|
+| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.                          
+                                                                                         
+  **{% assign placement = ads.placements\["Placement Name or Id"\] %}**                  
+                                                                                         
+  **{% assign placement = ads.placements\["2423d713-abb3-44c3-8a7d-c445e16fccad"\] %}**  |
+
+### **Ad Placement attributes**
+
+An adplacement is an entity object, with all of the same attributes, in addition to those listed below.
+
+| Ads            | Returns the collection of ad objects associated with the placement.                                         
+                                                                                                               
+  [*Iteration tags*](#iteration-tags) and [*Array filters*](#array-filters) may be used with this collection.  |  
+|----------------|-------------------------------------------------------------------------------------------------------------|
+| Name           | Returns the Name field for the ad placement.                                                                |
+| placement\_url | The URL that can be used to retrieve the ad placement fully rendered by a template.                         |
+| random\_url    | The URL that can be used to retrieve a random ad from the placement fully rendered by a template.           |
+
+### **Ad attributes**
+
+| ![image6](media/image6.png) **Note **                                |  
+|------------------------------------------------------------------------------------------------|
+| An ad is an entity object, with all of the same attributes, in addition to those listed below. |
+
+| ad\_url               | The URL that can be used to retrieve the ad fully rendered by a template.       |
+|-----------------------|---------------------------------------------------------------------------------|
+| Copy                  | Returns the Copy field for the ad.                                              |
+| image                 | Returns the image object (if any) for the ad.                                   |
+| Name                  | Returns the Name field for the ad.                                              |
+| open\_in\_new\_window | Returns true if the URL specified by redirect\_url should open in a new window. |
+| redirect\_url         | The URL that the user will be directed to by clicking on the ad.                |
+
+### **Ad Image attributes**
+
+| alternate\_text | Return the text that is intended to appear in the tag's alt attribute. |
+|-----------------|------------------------------------------------------------------------|
+| height          | Returns the height in pixels for the image                             |
+| url             | Returns the URL source for the image.                                  |
+| width           | Returns the width in pixels for the image                              |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## blogs
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Provides the ability to access and render Blogs and Blog Posts.
+
+The blogs object allows you to select a specific blog or blog posts.
+
+**{% assign posts = blogs.posts | paginate: 0,4 %}**
+
+**&lt;div class="content-panel panel panel-default"&gt;**
+
+**&lt;div class="panel-heading"&gt;**
+
+**{% assign sitemarker = sitemarkers\["Blog Home"\] %}**
+
+**{% assign snippet = snippets\["Home Blog Activity Heading"\] %}**
+
+**&lt;a class="pull-right" href="{{sitemarker.url}}"&gt; All Blogs &lt;/a&gt;**
+
+**&lt;h4&gt; **
+
+**&lt;a class="feed-icon fa fa-rss-square" href="{{ blogs.feedpath }}" /&gt;**
+
+**{{ snippet.adx\_value }}**
+
+**&lt;/h4&gt;**
+
+**&lt;/div&gt;**
+
+**&lt;ul class="list-group"&gt;**
+
+**{% for post in posts.all %}**
+
+**&lt;li class="list-group-item" &gt;**
+
+**&lt;a class="user-avatar" href="{{ post.author\_url }}"&gt; **
+
+**&lt;img src="{{ post.user\_image\_url }}" /&gt;**
+
+**&lt;/a&gt;**
+
+**&lt;h4 class="list-group-item-heading"&gt;**
+
+**&lt;a href="{{ post.app\_relative\_path }}"&gt;{{ post.title }}&lt;/a&gt;**
+
+**&lt;/h4&gt;**
+
+**&lt;div class="content-metadata"&gt;**
+
+**&lt;abbr class="timeago"&gt;{{ post.publish\_date }}&lt;/abbr&gt;**
+
+**&ndash;**
+
+**&lt;a href="{{ post.author\_url }}"&gt; {{ post.author\_name }} &lt;/a&gt;**
+
+**&ndash;**
+
+**&lt;a href="{{ post.application\_path }}\#comments"&gt;**
+
+**&lt;span class="fa fa-comment" aria-hidden="true"&gt;&lt;/span&gt; {{ post.comment\_count }}**
+
+**&lt;/a&gt;**
+
+**&lt;/div&gt;**
+
+**&lt;/li&gt;**
+
+**{% endfor %} **
+
+**&lt;/ul&gt;**
+
+**&lt;/div&gt;**
+
+### **blogs Object**
+
+The blogs object allows you to access any specific blog in the portal, or to access all blog posts in the portal (regardless of the blog).
+
+The following table explains the attributes associated with the blogs object.
+
+| posts               | Returns a blogposts object containing all blog posts in the portal.     |
+|---------------------|-------------------------------------------------------------------------|
+| \[blog name or id\] | You can access any blog by its Name or Id properties.                   
+                                                                           
+  **{% assign blog = blogs\["Blog Name"\] %}**                             
+                                                                           
+  **{% assign blog = blogs\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
+
+### **blog Object**
+
+The blog object allows you to work with a single blog, allowing you to access the posts for that blog.
+
+The following table explains various attributes associated with blog Object.
+
+| posts | Returns a blogposts object containing all blog posts for the blog. |
+|-------|--------------------------------------------------------------------|
+| Name  | The name of the blog.                                              |
+| title | The title of the blog.                                             |
+| url   | The URL of the blog.                                               |
+
+### **blogposts Object**
+
+The blogposts object allows you to access a collection of blog post objects. You can order the blog posts and achieve pagination as well using liquid filters:
+
+{% assign blogposts = blogs.posts | order\_by “adx\_name”, “desc” | paginate: 0,4 | all %}
+Note that blogs.posts.all is also a valid way to get all blog posts
+blogs.posts | from\_index: 0 | take: 2 is also possible
+
+The following table explains various attributes associated with blogposts Object.
+
+|     |                                                |
+|-----|------------------------------------------------|
+| All | Returns all blogpost objects in the collection |
+
+### **blogpost Object**
+
+Refers to a single blog post.
+
+The following table explains various attributes associated with blogpost Object.
+
+| url            | The URL of the post.                                                                |
+|----------------|-------------------------------------------------------------------------------------|
+| content        | Returns the content field for the post.                                             |
+| content        | Returns the Content field for the post.                                             |
+| author         | Returns the authorf for the post (which is simply a contact entity object.          |
+| title          | The Title of the post.                                                              |
+| comment\_count | Returns the integer value of the count of how many comments there for a given post. |
+| publish\_date  | The date at which the post was published.                                           |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## entities
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Allows you to load any Dynamics 365 entity by ID. If the entity exists, an entity object will be returned. If an entity with the given ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
+
+**{% assign account = entities.account\['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'\] %}**
+
+**{% if account %}**
+
+**{{ account.name }} ({{ account.statecode.label }})**
+
+**{% endif %}**
+
+**{% assign entity\_logical\_name = 'contact' %}**
+
+**{% assign contact = entities\[entity\_logical\_name\]\[request.params.contactid\] %}**
+
+**{% if contact %}**
+
+**{{ contact.fullname }} ({{ contact.parentcustomerid.name }})**
+
+**{% endif %}**
+
+### **Entity**
+
+An entity object provides access to the attributes of a Dynamics 365 entity record.
+
+| Attribute                          | Description                                                                                                                                                                                                                                                               |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Id                                 | The GUID ID of the entity, as a string.                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                             
+  e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                  |
+| logical\_name                      | The Dynamics 365 logical name of the entity.                                                                                                                                                                                                                              |
+| Notes                              | Loads any notes (annotation) associated with the entity, ordered from oldest to newest (createdon). Notes are returned as note objects.                                                                                                                                   |
+| permissions                        | Loads Entity Permission assertion results for the entity. Results are returned as a permissions object.                                                                                                                                                                   |
+| url                                | Returns the Dynamics 365 portals content management system URL path for the entity. If the entity has no valid URL in the current website, returns null.                                                                                                                  
+                                                                                                                                                                                                                                                                             
+  Generally, this will only return a value for certain entity types that have been integrated into the portal CMS , unless you have customized the URL Provider in your application.                                                                                         |
+| \[attribute or relationship name\] | You can access any attribute of the Dynamics 365 entity by logical name.                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                             
+  **{{ entity.createdon }}**                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                             
+  **{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                             
+  **{{ entity\[attribute\_name\] }}**                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                             
+  The values of most entity attributes map directly to [*Liquid types*](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But, some attribute types are returned as objects:    
+                                                                                                                                                                                                                                                                             
+  Lookup (Entity Reference) fields are returned as entity reference objects.                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                             
+  Option Set/Picklist fields are returned as option set value objects.                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                             
+  You can also load any related entities by relationship schema name.                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                             
+  **{{ page.adx\_webpage\_entitylist.adx\_name }}**                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                             
+  In the case that a relationship is reflexive (i.e. self-referential), a reflexive relationship object will be returned. (Otherwise, the desired result would be ambiguous.)                                                                                                
+                                                                                                                                                                                                                                                                             
+  **{{ page.adx\_webpage\_webpage.referencing.adx\_name }}**                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                             
+  | ![image6](media/image6.png) **Note **                                                                                                                                                                                     |                      
+  |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                    
+  | Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop.                      
+                                                                                                                                                                                                                                                                             
+   Where possible, use [*Dynamics 365 entity tags*](#dynamics-365-entity-tags) to load collections of entities.                                                                                                                                         |                    |  
+
+### **Entity Reference**
+
+Lookup attribute values are returned as entity reference objects, with the following attributes.
+
+| Attribute     | Description                                             |
+|---------------|---------------------------------------------------------|
+| Id            | The GUID ID of the referenced entity, as a string.      
+                                                           
+  e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                |
+| logical\_name | The Dynamics 365 logical name of the referenced entity. |
+| Name          | The primary name attribute of the referenced entity.    |
+
+### **Note**
+
+A note is an entity object that provides access to the attributes and relationships of an annotation record. In addition to all the attributes of an entity object, a note has the following additional attributes.
+
+| Attribute    | Description                                                                                                                                                                                                                  |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| documentbody | Loads the documentbody attribute of the note annotation record, as a Base64-encoded string. As the content of this attribute may be large, it is not loaded with the rest of the note attributes, and only loaded on demand. 
+                                                                                                                                                                                                                                
+  | ![image6](media/image6.png) **Note **                                                                    |                                                                                          
+  |------------------------------------------------------------------------------------------------------------------------------------|                                                                                        
+  | Use of the documentbody attribute could have a negative impact on template rendering performance, and should be done with caution.                                                                                          
+                                                                                                                                                                                                                                
+   Use the url attribute to provide a link to the note attachment instead, if possible.                                                |                                                                                        |
+| url          | Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL will download the note file attachment.                     |
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*Additional filters*](#additional-filters)                     |  
+
+### **Option Set Value**
+
+Option Set/Picklist attribute values are returned as entity reference objects, with the following attributes.
+
+| Attribute | Description                                                     |
+|-----------|-----------------------------------------------------------------|
+| Label     | The localized label of the option set/picklist attribute value. 
+                                                                   
+  e.g. Active                                                      |
+| Value     | The integer value of the option set/picklist attribute value.   
+                                                                   
+  e.g. 0                                                           |
+
+### **Entity Permissions**
+
+The Entity Permissions object provides access to aggregated permission assertion results for an entity.
+
+| Attribute       | Description                                                                                                                                                                                                              |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| can\_append     | Returns true if the current user has permission to append records to relationships of this record. Returns false otherwise.                                                                                              |
+| can\_append\_to | Returns true if the current user has permission to append this record to a relationship of another entity. Returns false otherwise.                                                                                      |
+| can\_create     | Returns true if the current user has permission to create new records of this entity type. Returns false otherwise.                                                                                                      |
+| can\_delete     | Returns true if the current user has permission to delete this record. Returns false otherwise.                                                                                                                          |
+| can\_read       | Returns true if the current user has permission to read this record. Returns false otherwise.                                                                                                                            |
+| can\_write      | Returns true if the current user has permission to update this record. Returns false otherwise.                                                                                                                          |
+| rules\_exist    | Returns true if the permission results represented by this object are the result of explicitly-defined permission rules. Returns false if they are the default results in the absence of explicitly-defined permissions. |
+
+### **Reflexive Relationship**
+
+Attempts to load reflexive (i.e. self-referential) relationships on entities are returned as objects with the following attributes.
+
+| Attribute     | Description                                                                                                   |
+|---------------|---------------------------------------------------------------------------------------------------------------|
+| is\_reflexive | Returns true. Can be used to test if an object returned by a relationship is a reflexive relationship object. |
+| referenced    | Returns an array of referenced entities for the given relationship.                                           |
+| referencing   | Returns a referencing entity for the given relationship. Returns null if no referencing entity exists.        
+                                                                                                                 
+  If the relationship is many-to-many (N:N), returns an array of referencing entities.                           |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## entitylist
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+The entitylist object is used within the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags). It provides access to all the attributes of a given entity list.  
+
+| ![image6](media/image6.png) **Note **                                                       |  
+|-----------------------------------------------------------------------------------------------------------------------|
+| [*Render the entity list associated with the current page*](render-entity-list-current-page.md) |  
+
+### **Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| create\_enabled                       | Returns true if creation of new records is configured for the entity list. Returns false otherwise.                                                                                                     |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| create\_label                         | Returns the configured localized label for a creation link/button for the entity list.                                                                                                                  |
+| create\_url                           | Returns the configured URL path for a creation link/button for the entity list.                                                                                                                         |
+| detail\_enabled                       | Returns true if a detail view for individual records is configured for the entity list. Returns false otherwise.                                                                                        |
+| detail\_id\_parameter                 | Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [*URL filters*](#url-filters) for details on using Liquid filters to construct URLs.     
+                                                                                                                                                                                                           
+  e.g. id                                                                                                                                                                                                  |
+| detail\_label                         | Returns the configured localized label for detail view links/buttons for the entity list.                                                                                                               |
+| detail\_url                           | Returns the configured URL path for a detail view links/buttons for the entity list.                                                                                                                    |
+| empty\_list\_text                     | Returns the configured localized text to be displayed when the entity list view returns no results.                                                                                                     |
+| enable\_entity\_permissions           | Returns true if Entity Permission filtering is enabled for this entity list. Returns false otherwise.                                                                                                   |
+| entity\_logical\_name                 | Returns the Dynamics 365 entity logical name for records to be displayed by this entity list.                                                                                                           
+                                                                                                                                                                                                           
+  e.g. contact                                                                                                                                                                                             |
+| filter\_account\_attribute\_name      | Returns the attribute logical name for the lookup to account that will be used to filter result records by the current portal user's parent account.                                                    
+                                                                                                                                                                                                           
+  e.g. accountid                                                                                                                                                                                           |
+| filter\_apply\_label                  | Returns the configured localized label to be used for the link/button that applies an advanced attribute filter to the entity list results.                                                             |
+| filter\_definition                    | Returns the JSON attribute filter definition for the entity list. See [*Entity List filters*](#entity-list-filters) for details on how to use the metafilters Liquid filter to process this definition. |  
+| filter\_enabled                       | Returns true if advanced attribute filtering is enabled for the entity list. Returns false otherwise.                                                                                                   |
+| filter\_portal\_user\_attribute\_name | Returns the attribute logical name for the lookup to contact that will be used to filter result records by current portal user's contact.                                                               
+                                                                                                                                                                                                           
+  e.g. contactid                                                                                                                                                                                           |
+| filter\_website\_attribute\_name      | Returns the attribute logical name for the lookup to adx\_website that will be used to filter result records by the current portal website.                                                             
+                                                                                                                                                                                                           
+  e.g. adx\_websiteid                                                                                                                                                                                      |
+| language\_code                        | Returns the Dynamics 365 integer language code that will be used to select all localized labels for this entity list.                                                                                   |
+| page\_size                            | Returns the configured result page size for the entity list.                                                                                                                                            |
+| primary\_key\_name                    | Returns the primary key attribute logical name for records to be displayed by this entity list.                                                                                                         |
+| search\_enabled                       | Returns true if search is enabled for this entity list. Returns false otherwise.                                                                                                                        |
+| search\_placeholder                   | Returns the configured localized text for the entity list search field placeholder.                                                                                                                     |
+| search\_tooltip                       | Returns the configured localized text for the entity list search tooltip.                                                                                                                               |
+| views                                 | Returns the available views for the entity list, as entity list view objects.                                                                                                                           |
+| \[attribute logical name\]            | You can access any attribute of the entity list (adx\_entitylist) Dynamics 365 record by logical name, in the same manner as an [*entities*](#entities).                                                  
+                                                                                                                                                                                                           
+  e.g. {{ entitylist.adx\_name }}                                                                                                                                                                          |
+
+### **Entity List View Attributes**
+
+| columns                     | Returns the columns of the view, as entity list view column objects.                                                                 |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| entity\_logical\_name       | Returns the Dynamics 365 entity logical name for the records included in the view.                                                   
+                                                                                                                                        
+  e.g. contact                                                                                                                          |
+| Id                          | Returns the GUID ID of the view.                                                                                                     |
+| language\_code              | Returns the Dynamics 365 integer language code that will be used to select all localized labels (column headers, etc.) for the view. |
+| Name                        | Returns the Dynamics 365 display name of the view.                                                                                   |
+| primary\_key\_logical\_name | Returns the Dynamics 365 entity primary key logical name for the records included in the view.                                       
+                                                                                                                                        
+  e.g. contactid                                                                                                                        |
+| sort\_expression            | Returns the default sort expression for the view.                                                                                    
+                                                                                                                                        
+  e.g. name ASC, createdon DESC                                                                                                         |
+
+### **Entity List View Column Attributes**
+
+| attribute\_type  | Returns the Dynamics 365 attribute type name for the column, as a string.    
+                                                                                
+  e.g. Lookup, Picklist, String, Boolean, DateTime                              |
+|------------------|------------------------------------------------------------------------------|
+| logical\_name    | Returns the Dynamics 365 attribute logical name for the column.              
+                                                                                
+  e.g. createdon                                                                |
+| Name             | Returns the localized Dynamics 365 display name for the column.              
+                                                                                
+  e.g. Created On                                                               |
+| sort\_ascending  | Returns a sort expression string for sorting the column in ascending order.  
+                                                                                
+  e.g. createdon ASC                                                            |
+| sort\_descending | Returns a sort expression string for sorting the column in descending order. 
+                                                                                
+  e.g. createdon DESC                                                           |
+| sort\_disabled   | Returns true if sorting is disabled for the column. Returns false otherwise. |
+| sort\_enabled    | Returns true if sorting is enabled for the column. Returns false otherwise.  |
+| width            | Returns the configured width for the column, in pixels.                      |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## entityview
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+The entityview object is used within the entityview tag, and provides access to the metadata for the view, as well as view result records.
+
+### **Attributes**
+
+| columns                     | Returns the columns in the view, as [*entitylist*](#entitylist) view column objects.                                                                                     |  
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| entity\_permission\_denied  | Returns true if access to view results was denied due to insufficient Entity Permissions for the current user. Returns false if read access to view results was granted. |
+| entity\_logical\_name       | The Dynamics 365 entity logical name of the view result records. For example, contact                                                                                    |
+| first\_page                 | The page number of the first page of view results. This will be 1 unless there were no results returned, in which case it will be null.                                  |
+| Id                          | The GUID ID of the Dynamics 365 view that defines this entityview.                                                                                                       |
+| language\_code              | The Dynamics 365 integer language code being used to load localized labels for the current view.                                                                         |
+| last\_page                  | The page number of the last page of view results. If there were no results returned, this will be null.                                                                  |
+| name                        | The name of the Dynamics 365 view that defines this entityview., for example, Active Contacts.                                                                           |
+| next\_page                  | The page number of the next page of view results. If there is no next page of results, this will be null.                                                                |
+| Page                        | The page number of the current page of view results.                                                                                                                     |
+| pages                       | Returns an array of page numbers containing all pages of results for the current view.                                                                                   |
+| page\_size                  | The number of results returned per page for the current view.                                                                                                            |
+| previous\_page              | The page number of the next page of view results. If there is no previous page of results, this will be null.                                                            |
+| primary\_key\_logical\_name | The Dynamics 365 logical name of the primary key attribute of the result entity for this view. For example, contactid.                                                   |
+| records                     | The current page of result records for the view, as entity objects.                                                                                                      |
+| sort\_expression            | The default sort expression for the view. For example, nameASC, createdon DESC.                                                                                          |
+| total\_pages                | The total number of result pages for the view.                                                                                                                           |
+| total\_records              | The total number of results for the view (across all pages).                                                                                                             |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## events
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Provides the ability to access and render Events. The events object allows you to select a specific event, or all events.
+
+### **events Object**
+
+The events object allows you to access any specific event in the portal, or to access all events in the portal (regardless of the event).
+
+The events object has following attributes:
+
+<table>
+<thead>
+<tr class="header">
+<th>occurences</th>
+<th>Returns a eventoccurancessobject containing all event occurrences in the portal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[event name or id]</td>
+<td><p>You can access any event by its Name or Id properties.<br />
+{% assign event = events[&quot;Event Name&quot;] %}</p>
+<p>{% assign event = events[&quot;da8b8a92-2ee6-476f-8a21-782b047ff460&quot;] %}</p></td>
+</tr>
+</tbody>
+</table>
+
+### **event Object**
+
+The event object allows you to work with a single event, allowing you to access the schedules and occurrences for that event.
+
+The event object has following attributes:
+
+| occurences | Returns a eventoccurrencesobject containing all occurrences for the event. |
+|------------|----------------------------------------------------------------------------|
+| name       | The name of the event.                                                     |
+| url        | The URL of the event.                                                      |
+
+### **eventoccurences Object**
+
+The eventoccurrences object allows you to access a collection of event occurrences objects. You can order the event occurrences and specify a date range for the occurrences to retrieve, and achieve pagination as well using liquid filters
+
+{% assign occurances = event.occurrences.from\[today\].to\[advance\_date\] %}
+
+note that
+
+{% assign occurances = event.occurrences.min\[today\].max\[advance\_date\] %}
+
+is also possible.
+
+Following attributes are associated with eventoccurrences object
+
+|     |                                                       |
+|-----|-------------------------------------------------------|
+| All | Returns all eventoccurance objects in the collection. |
+
+### **eventoccurence Object**
+
+Represents a single event occurrence. The associated attributes are given below:
+
+| url                 | The URL of the occurrence.    |
+|---------------------|-------------------------------|
+| is\_all\_day\_event | Is this an all-day event?     |
+| start\_time         | The start time for the event. |
+| end\_time           | The end time for the event.   |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## forloop
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
+
+| ![image6](media/image6.png) **Note **            |  
+|----------------------------------------------------------------------------|
+| forloop can only be used within a [*Iteration tags*](#iteration-tags) tag. |  
+
+Code
+
+**{% for child in page.children %}**
+
+**{% if forloop.first %}**
+
+**This is the first child page!**
+
+**{% else %}**
+
+**This is child page number {{ forloop.index }}.**
+
+**{% endif %}**
+
+**{% endfor %}**
+
+Output
+
+**This is the first child page!**
+
+**This is child page number 2.**
+
+**This is child page number 3.**
+
+### **Attributes**
+
+| first   | Returns true if it's the first iteration of the loop. Returns false if it's not the first iteration.       |
+|---------|------------------------------------------------------------------------------------------------------------|
+| index   | The current item's position in the collection, where the first item has a position of 1.                   |
+| index0  | The current item's position in the collection, where the first item has a position of 0.                   |
+| Last    | Returns true if it's the last iteration of the loop. Returns false if it's not the last iteration.         |
+| length  | Returns the number of iterations for the loop ߝ the number of items in the collection being iterated over. |
+| rindex  | Number of items remaining in the loop (length - index) where 1 is the index of the last item.              |
+| rindex0 | Number of items remaining in the loop (length - index) where 0 is the index of the last item.              |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## forums
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Provides the ability to access and render Forums and Forum Threads. Note that the ability to use liquid to render forum data extends to posts, but in order to create a new post of thread, you must use an ASP.NET web forms Page Template with said functionality built in (such as the default Forum Thread and Forum Post Page Templates).
+
+The forums object allows you to select a Forum or Forum Threads :
+
+**&lt;div class="content-panel panel panel-default"&gt;**
+
+**&lt;div class="panel-heading"&gt;**
+
+**&lt;h4&gt;**
+
+**&lt;span class="fa fa-comments" aria-hidden="true"&gt;&lt;/span&gt;**
+
+**{{ snippets\["Home Forum Activity Heading"\] | default: "Forum Activity" | h }}**
+
+**&lt;/h4&gt;**
+
+**&lt;/div&gt;**
+
+**{% for forum in website.forums %}**
+
+**&lt;ul class="list-group"&gt;**
+
+**&lt;li class="list-group-item"&gt;**
+
+**&lt;div class="row"&gt;**
+
+**&lt;div class="col-sm-6"&gt;**
+
+**&lt;h4 class="list-group-item-heading"&gt;&lt;a href="{{ forum.url | h }}"&gt; {{ forum.name | h }}&lt;/a&gt;&lt;/h4&gt;**
+
+**&lt;div class="list-group-item-text content-metadata"&gt;{{ forum.adx\_description | h }}&lt;/div&gt;**
+
+**&lt;/div&gt;**
+
+**&lt;div class="col-sm-3 content-metadata"&gt;{{ forum.thread\_count }} threads&lt;/div&gt;**
+
+**&lt;div class="col-sm-3 content-metadata"&gt;{{ forum.post\_count }} posts&lt;/div&gt;**
+
+**&lt;/div&gt;**
+
+**&lt;/li&gt;**
+
+**&lt;/ul&gt;**
+
+**{% endfor %}**
+
+**&lt;/div&gt; **
+
+### **forums Object**
+
+The forums object allows you to access any specific forum in the portal, or to access all forum threads in the portal (regardless of the forum).
+
+The forum object allows you to work with a single forum, allowing you to access the threads for that forum.
+
+The forumthreads object allows you to access a collection of forumthread objects. You can order the forum threads and achieve pagination as well by using liquid filters.
+
+**{% assign threads = forum.threads | order\_by "adx\_name", "desc" | paginate: 0,4 | all %}**
+
+A Single Forum Thread
+
+The forumposts object allows you to access a collection of forumpost objects.
+
+### **Attributes**
+
+| threads              | Returns a forumthreads object containing all forumthread objects in the portal.             |
+|----------------------|---------------------------------------------------------------------------------------------|
+| All                  | Returns all forum objects in the portal. Note that website.forums Is also an equivalent.    |
+| thread\_count        | Returns the integer value of the count of how many threads there are in the entire website. |
+| post\_count          | Returns the integer value of the total number of posts in the portal.                       |
+| \[forum name or id\] | You can access any forum by its Name or Id properties.                                      
+                                                                                               
+  **{% assign forum = forums\["Forum Name"\] %}**                                              
+                                                                                               
+  **{% assign forum = forums\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**                    |
+
+### **forum Object**
+
+### **Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| threads       | Returns a forumthreads object containing all forum threads for the forum.               |
+|---------------|-----------------------------------------------------------------------------------------|
+| Name          | The Name of the Forum.                                                                  |
+| thread\_count | Returns the integer value of the count of how many threads there are in the forum.      |
+| post\_count   | Returns the integer value of the count of how many posts there are in the entire forum. |
+
+### **forumthreads Object**
+
+### **Attributes**
+
+|     |                                                    |
+|-----|----------------------------------------------------|
+| All | Returns all forumthread objects in the collection. |
+
+### **forumthread Object**
+
+### **Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| posts        | Returns a forumposts object containing all forum posts for the thread.            |
+|--------------|-----------------------------------------------------------------------------------|
+| author       | Returns the author for the thread (which is simply a contact entity object).      |
+| latest\_post | Returns the latest post in the thread.                                            |
+| first\_post  | Returns the first post in the thread.                                             |
+| post\_count  | Returns the integer value of the count of how many posts there are in the thread. |
+| is\_answered | Is the thread answered or not?                                                    |
+| is\_sticky   | Is the thread a sticky thread?                                                    |
+
+### **forumposts Object**
+
+### **Attributes**
+
+|     |                                                    |
+|-----|----------------------------------------------------|
+| All | Returns all forumthread objects in the collection. |
+
+A Single Forum Post
+
+### **Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| author     | Returns the author for the post (which is simply a contact entity object). |
+|------------|----------------------------------------------------------------------------|
+| content    | The content of the post.                                                   |
+| is\_answer | Is this post an answer to the thread?                                      |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## page
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Refers to the current portal request page. This object combines the attributes of the [*sitemap*](#sitemap) and the current request [*entities*](#entities) (usually a webpage).  
+
+The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dynamics 365 record.
+
+**&lt;ul class="breadcrumb"&gt;**
+
+**{% for crumb in page.breadcrumbs %}**
+
+**&lt;li&gt;&lt;a href="{{ crumb.url | escape }}"&gt;{{ crumb.title | escape }}&lt;/a&gt;&lt;/li&gt;**
+
+**{% endfor %}**
+
+**&lt;li class="active"&gt;{{ page.title | escape }}&lt;/li&gt;**
+
+**&lt;/ul&gt;**
+
+**&lt;div class="page-header"&gt;**
+
+**&lt;h1&gt;{{ page.title | escape }}&lt;/h1&gt;**
+
+**&lt;/div&gt;**
+
+**&lt;div class="page-copy"&gt;**
+
+**{{ page.adx\_copy }}**
+
+**&lt;/div&gt;**
+
+**&lt;div class="list-group"&gt;**
+
+**{% for child in page.children %}**
+
+**&lt;a class="list-group-item" href="{{ child.url | escape }}"&gt;**
+
+**{{ child.title | escape }}**
+
+**&lt;/a&gt;**
+
+**{% endfor %}**
+
+**&lt;/div&gt;**
+
+**&lt;!-- Page {{ page.id }} was last modified on {{ page.modifiedon }}. --&gt;**
+
+### **Page attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| breadcrumbs                        | Returns the breadcrumb site map node objects for the page, starting from the site map root node and ending at parent.                                                                                                                                                     |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| children                           | Returns the child site map node objects of the page.                                                                                                                                                                                                                      |
+| parent                             | Returns the parent site map node of the page.                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                             
+  If the page is the Home page, parent will be null.                                                                                                                                                                                                                         |
+| title                              | The title of the page.                                                                                                                                                                                                                                                    |
+| url                                | The URL of the page.                                                                                                                                                                                                                                                      |
+| \[attribute or relationship name\] | You can access any attribute of the page's underlying Dynamics 365 record by logical name.                                                                                                                                                                                
+                                                                                                                                                                                                                                                                             
+  **{{ page.createdon }}**                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                             
+  **{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                             
+  **{{ page\[attribute\_name\] }}**                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                             
+  The values of most entity attributes map directly to [*Liquid types*](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But, some attribute types are returned as objects:    
+                                                                                                                                                                                                                                                                             
+  Lookup (Entity Reference) fields are returned as [*entities*](#entities).                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                             
+  Option Set/Picklist fields are returned as [*entities*](#entities).                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                             
+  You can also load any related entities by relationship schema name.                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                             
+  **{{ page.adx\_webpage\_entitylist.adx\_name }}**                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                             
+  In the case that a relationship is reflexive (that is, self-referential), a [*entities*](#entities) object will be returned. (Otherwise, the desired result would be ambiguous.)                                                                                             
+                                                                                                                                                                                                                                                                             
+  **{{ page.adx\_webpage\_webpage.referencing.adx\_name }}**                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                             
+  | ![image6](media/image6.png) **Note **                                                                                                                                                                                     |                      
+  |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                    
+  | Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop.                      
+                                                                                                                                                                                                                                                                             
+   Where possible, prefer use of the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags) to load collections of entities.                                                                                                                           |                    |  
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## polls
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Provides the ability to access and render a poll.
+
+The polls object allows you to select a specific poll or poll placement:
+
+**&lt;div&gt;**
+
+**{% assign poll = polls\["Poll Name"\] %}**
+
+**&lt;h4&gt;{{ poll.question }}&lt;/h4&gt;**
+
+**{% for option in poll.options %}**
+
+**&lt;div&gt;**
+
+**&lt;input type="radio" name="{{ poll.name }}" id="{{ option.id }}" /&gt;**
+
+**&lt;label for="{{ option.id }}"&gt;{{ option.answer }}&lt;/label&gt;**
+
+**&lt;/div&gt;**
+
+**{% endfor %}**
+
+**&lt;button type="button"&gt;{{ poll.submit\_button\_label }}&lt;/button&gt;**
+
+**&lt;/div&gt;**
+
+### **Polls Attributes**
+
+| placements          | Returns the pollplacements object.                                      |
+|---------------------|-------------------------------------------------------------------------|
+| \[poll name or id\] | You can access any poll by its Name or Id properties.                   
+                                                                           
+  **{% assign poll = polls\["Poll Name"\] %}**                             
+                                                                           
+  **{% assign poll = polls\["41827a5c-33de-49b8-a0c7-439e6a02eb98"\] %}**  |
+
+### **Poll Placements Attributes**
+
+|                               |                                                                                         |
+|-------------------------------|-----------------------------------------------------------------------------------------|
+| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.                         
+                                                                                           
+  **{% assign placement = polls.placements\["Placement Name or Id"\] %}**                  
+                                                                                           
+  **{% assign placement = polls.placements\["7677c5d4-406e-4b6c-907c-916ac17dba0f"\] %}**  |
+
+### **Poll Placement Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| Name           | Returns the Name field for the poll placement.                                                              |
+|----------------|-------------------------------------------------------------------------------------------------------------|
+| placement\_url | The URL that can be used to retrieve the poll placement fully rendered by a template.                       |
+| polls          | Returns the collection of poll objects associated with the placement.                                       
+                                                                                                               
+  [*Iteration tags*](#iteration-tags) and [*Array filters*](#array-filters) may be used with this collection.  |  
+| random\_url    | The URL that can be used to retrieve a random poll from the placement fully rendered by a template.         |
+| submit\_url    | The URL to which a completed poll is submitted.                                                             |
+
+### **Poll Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| has\_user\_voted       | Returns true if the current user (logged in or anonymous) has already voted in this poll.         |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| Name                   | Returns the Name field for the poll.                                                              |
+| options                | Returns the collection of poll option objects associated with the poll.                           
+                                                                                                     
+  [*Iteration tags*](#iteration-tags) and [*entities*](#entities) may be used with this collection.  |  
+| poll\_url              | The URL that can be used to retrieve the poll fully rendered by a template.                       |
+| question               | Returns the Question field for the poll.                                                          |
+| submit\_button\_label  | Returns a string that can be used to override the submit button label for the poll.               |
+| submit\_url            | The URL to which a completed poll is submitted.                                                   |
+| user\_selected\_option | Returns the polloption object selected by the user (if they have already voted).                  |
+| votes                  | Returns the number of votes that have been tabulated for the poll.                                |
+
+### **Poll Option Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| answer     | Returns the Answer field for the poll.                                                            |
+|------------|---------------------------------------------------------------------------------------------------|
+| percentage | Returns the percentage of votes in the poll for the option as a decimal number between 0 and 100. |
+| votes      | Returns the number of votes that have been tabulated for the option.                              |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## request
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Contains information about the current HTTP request.
+
+**{% assign id = request.params\['id'\] %}**
+
+**&lt;a href="{{ request.url | add\_query: 'foo', 1 }}"&gt;Link&lt;/a&gt;**
+
+| ![image6](media/image6.png) **Note **               |  
+|-------------------------------------------------------------------------------|
+| You can build URLs dynamically in Liquid using URL Filters. More information: |
+
+### **Attributes**
+
+| params           | Named parameter values for the current request.                                            
+                                                                                              
+  params is a combination of URL query string parameters, form post parameters, and cookies.  |
+|------------------|--------------------------------------------------------------------------------------------|
+| Path             | The path of the current request URL.                                                       
+                                                                                              
+  /profile/                                                                                   |
+| path\_and\_query | The path and query of the current request URL.                                             
+                                                                                              
+  /profile/?foo=1&bar=something                                                               |
+| query            | The query part of the current request URL.                                                 
+                                                                                              
+  ?foo=1&bar=something                                                                        |
+| url              | The full URL of the current request.                                                       
+                                                                                              
+  http://www.example.com/profile/?foo=1&bar=something                                         |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## searchindex
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+The searchindex object is used within the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags), and provides access to the results of a query.  
+
+**{% searchindex query: 'support', page: params.page, page\_size: 10 %}**
+
+**{% if searchindex.results.size &gt; 0 %}**
+
+**&lt;p&gt;Found about {{ searchindex.approximate\_total\_hits }} matches:&lt;/p&gt;**
+
+**&lt;ul&gt;**
+
+**{% for result in searchindex.results %}**
+
+**&lt;li&gt;**
+
+**&lt;h3&gt;&lt;a href="{{ result.url | escape }}"&gt;{{ result.title | escape }}&lt;/a&gt;&lt;/h3&gt;**
+
+**&lt;p&gt;{{ result.fragment }}&lt;/p&gt;**
+
+**&lt;/li&gt;**
+
+**{% endfor %}**
+
+**&lt;/ul&gt;**
+
+**{% else %}**
+
+**&lt;p&gt;Your query returned no results.&lt;/p&gt;**
+
+**{% endif %}**
+
+**{% endsearchindex %}**
+
+### **Attributes**
+
+| approximate\_total\_hits | Returns an approximate count of total hits matching the index query.                                                                                                                                                                                    
+                                                                                                                                                                                                                                                           
+  Note that due to the way the search index works in regard to security filtering and other design factors, this number is only an approximation, and may not exactly match the total number of results available to the current user in some situations.  |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Page                     | Returns the page number of the current query.                                                                                                                                                                                                           |
+| page\_size               | Returns the maximum page size of the current query.                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                           
+  Note that if you want the actual number of results returned for the current page (as this may be less than the specified maximum page size), use results.size.                                                                                           |
+| results                  | Returns the query result page, as search index result objects.                                                                                                                                                                                          |
+
+### **Search Index Results**
+
+| entity        | The underlying [*entities*](#entities) for the result.                                                                                                                   |  
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| fragment      | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag.                                        
+                                                                                                                                                                            
+  Note that certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases.  |
+| Id            | The Dynamics 365 entity ID of the underlying record for the result, as a string.                                                                                         
+                                                                                                                                                                            
+  e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                 |
+| logical\_name | The Dynamics 365 entity logical name of the underlying record for the result.                                                                                            
+                                                                                                                                                                            
+  e.g. adx\_webpage                                                                                                                                                         |
+| number        | The number of the result, across all result pages, starting from 1.                                                                                                      
+                                                                                                                                                                            
+  For example, for the first result of the second page of results, with a page size of 10, this value will be 11.                                                           |
+| score         | The Lucene score of the result, as a floating-point value. Results will be returned ordered by this value.                                                               |
+| title         | The title of the result.                                                                                                                                                 |
+| url           | The URL for the result. This will usually ߝ but not necessarily ߝ be an absolute path for the current application, rather than a full URL.                               
+                                                                                                                                                                            
+  For example: /articles/article1/                                                                                                                                          |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## settings
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Allows you to load any [*Configure site settings for portals*](configure-site-settings.md) by name. If a setting with the given name is not found, [*Liquid types*](#liquid-types) will be returned.  
+
+| ![image6](media/image6.png) **Note **                                                                           |  
+|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Settings are returned as [*Liquid types*](liquid-types.md), but you can use [*Type filters*](#type-filters) to convert them to other types. |  
+
+**{{ settings\["My Setting"\] }}**
+
+**{% assign search\_enabled = settings\["Search/Enabled"\] | boolean %}**
+
+**{% if search\_enabled %}**
+
+**Search is enabled.**
+
+**{% endif %}**
+
+**{% assign pagesize = settings\['page size'\] | integer | default: 10 %}**
+
+**{% if pagesize &gt; 10 %}**
+
+**Page size is greater than 10.**
+
+**{% endif %}**
+
+| ![image6](media/image6.png) **Note **                                             |  
+|-------------------------------------------------------------------------------------------------------------|
+| [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## sitemap
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Allows access to the portal site map.
+
+**&lt;h1&gt;{{ sitemap.root.title }}&lt;/h1&gt;**
+
+**&lt;ul class="breadcrumb"&gt;**
+
+**{% for crumb in sitemap.current.breadcrumbs %}**
+
+**&lt;li&gt;&lt;a href="{{ crumb.title }}"&gt;{{ crumb.title }}&lt;/a&gt;&lt;/li&gt;**
+
+**{% endfor %}**
+
+**&lt;li class="active"&gt;{{ sitemap.current.title }}&lt;/li&gt;**
+
+**&lt;/ul&gt;**
+
+**{% for child in sitemap.current.children %}**
+
+**&lt;a href="{{ child.url }}"&gt;{{ child.title }}&lt;/a&gt;**
+
+**{% endfor %}**
+
+It's also possible to load a site map node by URL path:
+
+**{% assign node = sitemap\["/content/page1/"\] %}**
+
+**{% if node %}**
+
+**{% for child in node.children %}**
+
+**&lt;a href="{{ child.url }}"&gt;{{ child.title }}&lt;/a&gt;**
+
+**{% endfor %}**
+
+**{% endif %}**
+
+### **Site Map Attributes**
+
+| Current | Returns the site map node object for the current page.                    |
+|---------|---------------------------------------------------------------------------|
+| Root    | Returns the site map node object for the root (home) page of the website. |
+
+### **Site Map Node Attributes**
+
+| Breadcrumbs           | Returns the breadcrumb site map node objects for the node, starting from the site map root node and ending at parent. |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Children              | Returns the child site map node objects of the node.                                                                  |
+| Description           | The description/summary content for the node. (This field may contain HTML.)                                          |
+| Entity                | Returns the underlying [*entities*](#entities) of the node.                                                             
+                                                                                                                         
+  If the node has no underlying entity, this value will be null.                                                         |
+| is\_sitemap\_ancestor | Returns true if the sitemap node is an ancestor of the current node, otherwise false.                                 
+                                                                                                                         
+  Added 7.0.0008                                                                                                         |
+| is\_sitemap\_current  | Returns true if the sitemap node is the current node, otherwise false.                                                
+                                                                                                                         
+  Added 7.0.0008                                                                                                         |
+| Parent                | Returns the parent site map node of the node.                                                                         
+                                                                                                                         
+  If the node is the root node, parent will be null.                                                                     |
+| Title                 | The title of the node.                                                                                                |
+| url                   | The URL of the node.                                                                                                  |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## sitemarkers
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Allows you to load any site marker by name. If the sitemarker exists, a sitemarker object will be returned. If a sitemarker with the given name is not found, [*Liquid types*](liquid-types.md) will be returned.  
+
+**{{ sitemarkers\["Login"\].url }}**
+
+**{% assign my\_sitemarker = sitemarkers\["My Site Marker"\] %}**
+
+**{% if my\_sitemarker %}**
+
+**&lt;a href="{{ my\_sitemarker.url }}"&gt;{{ my\_sitemarker.adx\_name }}&lt;/a&gt;**
+
+**{% else %}**
+
+**Site marker "My Site Marker" does not exist.**
+
+**{% endif %}**
+
+| ![image6](media/image6.png) **Note **                                             |  
+|-------------------------------------------------------------------------------------------------------------|
+| [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
+
+### **Sitemarker Attributes**
+
+| url                        | The URL of the sitemarker target.                                                          |
+|----------------------------|--------------------------------------------------------------------------------------------|
+| \[attribute logical name\] | You can access any attribute of the sitemarker target Dynamics 365 record by logical name. 
+                                                                                              
+  e.g. {{ sitemarker.adx\_name }}                                                             |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## snippets
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Allows you to load any content snippets by name. If a snippet with the given name is not found, [*Null*](#null) will be returned.  
+
+**{{ snippets\["Header"\] }}**
+
+**{% assign footer = snippets\["Footer"\] %}**
+
+**{% if footer %}**
+
+**{{ footer }}**
+
+**{% else %}**
+
+**No footer snippet was found.**
+
+**{% endif %}**
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## tablerowloop
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
+
+| ![image6](media/image6.png) **Note **                 |  
+|---------------------------------------------------------------------------------|
+| tablerowloop can only be used within a [*Iteration tags*](#iteration-tags) tag. |  
+
+### **Attributes**
+
+| Col        | Returns the index of the current row, starting at 1.                                                       |
+|------------|------------------------------------------------------------------------------------------------------------|
+| col0       | Returns the index of the current row, starting at 0.                                                       |
+| col\_first | Returns true if the current column is the first column in a row, returns false if it is not.               |
+| col\_last  | Returns true if the current column is the last column in a row, returns false if it is not.                |
+| First      | Returns true if it's the first iteration of the loop. Returns false if it's not the first iteration.       |
+| Index      | The current item's position in the collection, where the first item has a position of 1.                   |
+| index0     | The current item's position in the collection, where the first item has a position of 0.                   |
+| Last       | Returns true if it's the last iteration of the loop. Returns false if it's not the last iteration.         |
+| Length     | Returns the number of iterations for the loop ߝ the number of items in the collection being iterated over. |
+| Rindex     | Number of items remaining in the loop (length - index) where 1 is the index of the last item.              |
+| rindex0    | Number of items remaining in the loop (length - index) where 0 is the index of the last item.              |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## user
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Refers to the current portal user, allowing access to all attributes of the underlying Dynamics 365 contact record. If no user is signed in, this variable will be [*Liquid types*](liquid-types.md).  
+
+user is an [*entities*](#entities).  
+
+**{% if user %}**
+
+**Hello, {{ user.fullname }}!**
+
+**{% else %}**
+
+**Hello, anonymous user!**
+
+**{% endif %}**
+
+### **Attributes**
+
+In addition to having all of the attributes of an [*entities*](#entities), user has the following attributes.  
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## weblinks
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Refers to the portal [*website*](#website-1), allowing access to all attributes of the Dynamics 365 Website (adx\_website) record for the portal.  
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+Code
+
+**{{ website.adx\_name }} ({{ website.id }})**
+
+Output
+
+**Community Portal (936DA01F-9ABD-4d9d-80C7-02AF85C822A8)**
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
+## website
+
+Applies To: Dynamics 365 (online), Dynamics CRM Online
+
+Allows you to load any [*weblinks*](#weblinks) by name or ID.  
+
+If the web link set exists, a web link set object will be returned. If a web link set with the given name or ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
+
+**&lt;!-- Load web link set by ID --&gt;**
+
+**{{ weblinks\[page.adx\_navigation.id\].name }}**
+
+**&lt;!-- Load web link set by name --&gt;**
+
+**{% assign nav = weblinks\["Primary Navigation"\] %}**
+
+**{% if nav %}**
+
+**&lt;h1&gt;{{ nav.title | escape }}&lt;/h1&gt;**
+
+**&lt;ul&gt;**
+
+**{% for link in nav.weblinks %}**
+
+**&lt;li&gt;**
+
+**&lt;a href="{{ link.url | escape }}" title="{{ link.tooltip | escape }}"&gt;**
+
+**{% if link.image %}**
+
+**&lt;img src="{{ link.image.url | escape }}" alt="{{ link.image.alternate\_text | escape }}" /&gt;**
+
+**{% endif %}**
+
+**{{ link.name | escape }}**
+
+**&lt;/a&gt;**
+
+**&lt;/li&gt;**
+
+**{% endfor %}**
+
+**&lt;/ul&gt;**
+
+**{% endif %}**
+
+| ![image6](media/image6.png) **Note **                                             |  
+|-------------------------------------------------------------------------------------------------------------|
+| [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
+
+### **Web Link Set Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| Copy                       | The HTML copy of the web link set.                                                    |
+|----------------------------|---------------------------------------------------------------------------------------|
+| Name                       | The name of the web link set.                                                         |
+| Title                      | The title of the web link set.                                                        |
+| Weblinks                   | The array of web link objects associated with the web link set.                       |
+| \[attribute logical name\] | You can access any attribute of the web link set Dynamics 365 record by logical name. 
+                                                                                         
+  e.g. {{ weblinkset.createdon }}                                                        |
+
+### **Web Link Attributes**
+
+| ![image6](media/image6.png) **Note ** |  
+|-----------------------------------------------------------------|
+| [*entities*](#entities)                                         |  
+
+| Description                 | The HTML description of the web link.                                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| display\_image\_only        | Boolean attribute indicating whether the web link should be displayed as an image only, with no link text.                                     |
+| display\_page\_child\_links | Boolean attribute indicating whether the web link should show links to the [*sitemap*](#sitemap) child pages of the linked page, as sub-links. |  
+| Image                       | The web link image object for this link. This attribute will be null if no image is present.                                                   |
+| is\_external                | Boolean attribute indicating whether the target URL of the web link is to an external site (rather than to an internal portal page).           |
+| is\_sitemap\_ancestor       | Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false.                                         
+                                                                                                                                                  
+  Added 7.0.0008                                                                                                                                  |
+| is\_sitemap\_current        | Returns true if the weblink's URL references the current sitemap node, otherwise false.                                                        
+                                                                                                                                                  
+  Added 7.0.0008                                                                                                                                  |
+| Name                        | The name/title of the web link.                                                                                                                |
+| Nofollow                    | Boolean attribute indicating whether the web link should be marked as rel="nofollow".                                                          |
+| open\_in\_new\_window       | Boolean attribute indicating whether the web link should be opened in a new browser window/tab when clicked.                                   |
+| Tooltip                     | Tooltip text for the web link.                                                                                                                 |
+| url                         | The URL of the web link.                                                                                                                       |
+| Weblinks                    | The array of child web link objects associated with the web link.                                                                              |
+| \[attribute logical name\]  | You can access any attribute of the web link Dynamics 365 record by logical name.                                                              
+                                                                                                                                                  
+  e.g. {{ weblink.createdon }}                                                                                                                    |
+
+### **Web Link Image Attributes**
+
+| alternate\_text | Alternate text for the image.                                                                                       |
+|-----------------|---------------------------------------------------------------------------------------------------------------------|
+| Height          | Integer containing the specified height of the image. If no height value was provided, this attribute will be null. |
+| url             | The URL of the image.                                                                                               |
+| Width           | Integer containing the specified width of the image. If no width value was provided, this attribute will be null.   |
+
+### See Also
+
+[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Liquid types*](liquid-types.md)  
+[*Liquid Objects*](#liquid-objects)  
+[*Liquid Tags*](liquid-tags.md)  
+[*Liquid Filters*](liquid-filters.md)  
+
