@@ -81,7 +81,7 @@ manager: "sakudes"
 ### See the conversations with an author  
  When you engage in a private conversation or reply on Twitter using a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], these posts allow you to see the full conversation.  
   
- ![Converstation view of a post with several replies and direct messages.](../social-engagement/media/conversation-view-callouts.png "Converstation view of a post with several replies and direct messages.")  
+ ![Conversation view of a post with several replies and direct messages.](../social-engagement/media/conversation-view-callouts.png "Conversation view of a post with several replies and direct messages.")  
   
 1.  Addressee of the conversation. In many cases, this is a customer requesting information or help.  
   

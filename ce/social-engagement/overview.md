@@ -16,6 +16,7 @@ author: "m-hartmann"
 ms.author: "mhart"
 ---
 # Overview
+
 **Connect with customers. Empower your organization. Create real results.**  
   
  The speed at which we do business, and the number of channels we’re using to do it, is rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.  
@@ -24,8 +25,8 @@ ms.author: "mhart"
   
  ![analytics&#45;conversation&#45;view&#45;social&#45;engagement](../social-engagement/media/analytics-conversation-view-social-engagement.jpg "analytics-conversation-view-social-engagement")  
   
-<a name="stories"></a>   
-## Success stories  
+## Success stories
+
  See how some of our customers are using Social Engagement to address their use-case.  
   
 -   [UK Banking Disrupted: Metro Bank Reinvents Customer Service with Microsoft](https://customers.microsoft.com/en-us/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser) - transforming customer service and social insights.  
@@ -40,11 +41,12 @@ ms.author: "mhart"
   
 -   [Marston's Delivers Personalized Service in Real-Time with Microsoft Dynamics 365](https://customers.microsoft.com/en-US/story/marstons-delivers-personalized-service-in-real-time-wi) - merging social data with customer data for personalized experiences and marketing.  
   
-<a name="pricing"></a>   
-## Pricing information  
+## Pricing information
+
  Microsoft Social Engagement is included with all Dynamics 365 Enterprise edition Plans and Plan 1 Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. For more information on pricing and licensing for Dynamics 365, please visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
   
-## Getting started  
+## Getting started
+
  Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] doesn't take a lot of time. Refer to the following help topics to get started quickly.  
   
 -   [Get started with Social Engagement](../social-engagement/get-started.md): Find important information to get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
@@ -57,7 +59,9 @@ ms.author: "mhart"
   
 -   [Engage on social networks](../social-engagement/engage-on-social-networks.md): Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter the most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and share it with other users of the solution.  
   
--   [Stay up to date with alerts](../social-engagement/email-alerts.md): Stay on top of what’s happening on the social web. Set up alerts that are sent directly to your inbox, and know the details without any delay if something important happens.  
+-   [Stay up to date with alerts](../social-engagement/email-alerts.md): Stay on top of what’s happening on the social web. Set up alerts that are sent directly to your inbox, and know the details without any delay if something important happens. 
+
+## Product updates 
   
  We frequently release updates to introduce new capabilities, improve existing features, and fix various issues.  
   
@@ -67,14 +71,14 @@ ms.author: "mhart"
   
 -   Download the [Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
   
-<a name="multimedia"></a>   
-## Videos & eBooks  
+## Videos & eBooks
+
  Check out the  [Videos & eBooks](../social-engagement/videos-ebooks.md) page for the full collection of visual content.  
   
  Subscribe to the [Dynamics 365 YouTube channel](http://go.microsoft.com/fwlink/p/?LinkId=400720) to be the first to know when a new video is published.  
-  
-<a name="blogs"></a>   
-## Content by fellow Microsofties  
+   
+## Community contributions
+
  Some of the folks in our company even create additional assets that are waiting for you.  
   
 -   [Nick Fratello's video: Social Engagement Customer Care Demonstration](https://www.youtube.com/watch?v=OIkSl6R5APo)  

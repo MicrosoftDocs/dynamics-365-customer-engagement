@@ -19,7 +19,7 @@ There’s a good chance that your customers and stakeholders are talking about y
   
  [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] collects data from social media websites and presents it to you in easy-to-consume charts and graphs. You can use these charts and graphs to spot emerging trends in people’s comments, whether they’re positive, negative, or neutral. You can even drill down into the data and find out who’s mentioning your company, products, or services, where they posted the comment, and what they said. Armed with these insights, you can pinpoint what you’re doing right, and you can address potential issues before bigger problems arise.  
   
-## Before you start using [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]  
+## Before you start using Social Engagement  
   
 -   Read the latest [Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) to know any late-breaking changes to this release.  
   

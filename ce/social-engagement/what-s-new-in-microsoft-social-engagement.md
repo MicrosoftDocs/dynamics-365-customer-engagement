@@ -103,13 +103,13 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
  
 ## Microsoft Social Engagement 2016 Update 1.11 
  
-### [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] update 
+### Dynamics 365 update 
  We recently launched the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] suite of applications. As part of this, you will now see the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] brand name referenced throughout the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] application. Previous references to Dynamics CRM are now replaced with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Note that this does not affect any of your existing connections or integration functionality with Dynamics CRM instances. 
  
 ### New Stats panel for automation rules 
  For better visibility into the execution of your automation rules, we've added a new Stats panel. You can now see execution statistics for the last seven days to ensure the rules are working within your expectations. The panel shows the volume of posts the rules were executed on, organized by the specific actions that were taken. You can see stats across all your rules or for a specific rule. 
  
-### Display Office 365 profile photos in<br /> [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 
+### Display Office 365 profile photos in Social Engagement
  Identifying users is now easier with the ability to see their profile photos in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. We acquire user profile photos from [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and display them everywhere in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] a user profile photo is shown, including on the top navigation bar and other places like the assignee on a social post, or the users a social profile is shared with. 
  
  We've added a quick link to help you upload or edit your profile photo . To find this quick link, go to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] profile page from the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] navigation bar, or to **Your Preferences** in **Personal Settings**. 
