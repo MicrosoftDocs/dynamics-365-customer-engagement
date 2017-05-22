@@ -50,5 +50,5 @@ To secure your forms, you must create entity permissions that determine access a
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  
-[Notes configuration for Web Forms for portals](configuer-notes.md)  
+[Notes configuration for Web Forms for portals](configure-notes.md)  
 
