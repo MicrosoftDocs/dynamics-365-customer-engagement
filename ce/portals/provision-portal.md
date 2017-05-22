@@ -1,17 +1,17 @@
 ---
-title:"Provision a portal for Dynamics 365 | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:1249d87f-6e5e-4ff0-96a9-82978fcbc87c
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: 1249d87f-6e5e-4ff0-96a9-82978fcbc87c
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Provision a portal
 

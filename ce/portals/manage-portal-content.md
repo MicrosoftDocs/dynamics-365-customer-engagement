@@ -1,17 +1,17 @@
 ---
-title:"Manage content for a portal in Dynamics 365 | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:137c3717-b69d-453f-a467-727a27333294
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Manage content for a portal in Dynamics 365 | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: 137c3717-b69d-453f-a467-727a27333294
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Manage portal content
 

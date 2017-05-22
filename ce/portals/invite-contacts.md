@@ -1,17 +1,17 @@
 ---
-title:"Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:c3c4825a-1968-4d2b-81f0-21eaa070a2ed
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: c3c4825a-1968-4d2b-81f0-21eaa070a2ed
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Invite contacts to your portals
 

@@ -1,17 +1,17 @@
 ---
-title:"Use Liquid tags for a portal in Dynamics 365 | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:0a4b33a2-5f33-411e-a1de-33eb3f4cac84
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Use Liquid tags for a portal in Dynamics 365 | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: 0a4b33a2-5f33-411e-a1de-33eb3f4cac84
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Liquid tags
 

@@ -1,17 +1,17 @@
 ---
-title:" | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:f06f0710-e03f-4b40-bbd3-d3e765e6d0a9
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: " | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: f06f0710-e03f-4b40-bbd3-d3e765e6d0a9
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Create, edit, and distribute opportunities in Dynamics 365
 

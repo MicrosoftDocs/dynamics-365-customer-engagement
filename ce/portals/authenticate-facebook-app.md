@@ -1,17 +1,17 @@
 ---
-title:"Configure Facebook App (Page Tab) authentication for a portal in Dynamics 365 | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:f487a03a-7a22-4030-9dfb-bdbdfae202c0
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Configure Facebook App (Page Tab) authentication for a portal in Dynamics 365 | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: f487a03a-7a22-4030-9dfb-bdbdfae202c0
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Facebook App (Page Tab) authentication for portals
 

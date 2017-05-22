@@ -1,17 +1,17 @@
 ---
-title:"Configure portal authentication in Dynamics 365  | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:1e771204-164a-4fbc-b0a1-89f7a59924c3
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Configure portal authentication in Dynamics 365  | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: 1e771204-164a-4fbc-b0a1-89f7a59924c3
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Configure Dynamics 365 portal authentication
 

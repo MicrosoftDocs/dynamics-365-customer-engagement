@@ -1,17 +1,17 @@
 ---
-title:"Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:873dffa1-e598-4548-b494-7b67f2b01bb1
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: 873dffa1-e598-4548-b494-7b67f2b01bb1
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # What’s new
 

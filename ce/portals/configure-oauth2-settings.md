@@ -1,17 +1,17 @@
 ---
-title:"Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:f5d8f8bf-4911-4311-b3a0-a5c0171e5810
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: f5d8f8bf-4911-4311-b3a0-a5c0171e5810
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # OAuth2 provider settings for portals
 

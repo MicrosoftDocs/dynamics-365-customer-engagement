@@ -1,17 +1,17 @@
 ---
-title:"Register and invite for a portal in Dynamics 365  | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:3b3d4a56-cb02-4e08-b80b-690cfcfb01e1
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Register and invite for a portal in Dynamics 365  | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: 3b3d4a56-cb02-4e08-b80b-690cfcfb01e1
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Register and invite for a portal
 

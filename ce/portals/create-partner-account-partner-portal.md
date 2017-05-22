@@ -1,17 +1,17 @@
 ---
-title:"Create a partner account on a partner relationship management (PRM) portal in Dynamics 365  | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:cc4b44ac-94b2-48b5-871c-3b3b1807e705
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Create a partner account on a partner relationship management (PRM) portal in Dynamics 365  | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: cc4b44ac-94b2-48b5-871c-3b3b1807e705
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Create a partner account on a partner relationship management (PRM) portal
 

@@ -1,17 +1,17 @@
 ---
-title:"Manage web links in Dynamics 365 or on portal in Dynamics 365 | MicrosoftDocs"
-description:""
-ms.custom:""
-ms.date:05/22/2017
-ms.service:crm-online
-ms.suite:""
-ms.tgt_pltfrm:""
-ms.topic:article
-ms.assetid:70c3e73d-c426-4bdd-b5cd-5fa2f410fd9b
-ms.reviewer:""
-author:sbmjais
-ms.author:shjais
-manager:sakudes
+title: "Manage web links in Dynamics 365 or on portal in Dynamics 365 | MicrosoftDocs"
+description: ""
+ms.custom: ""
+ms.date: 05/22/2017
+ms.service: crm-online
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: article
+ms.assetid: 70c3e73d-c426-4bdd-b5cd-5fa2f410fd9b
+ms.reviewer: ""
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Manage web links in Dynamics 365 or on portals
 
