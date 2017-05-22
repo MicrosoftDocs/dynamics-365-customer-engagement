@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Set authentication identity for a portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Portal capabilities for Microsoft Dynamics 365 provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:  
 

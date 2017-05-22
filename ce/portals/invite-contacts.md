@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Invite contacts to your portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Use the Dynamics 365 portals invitation feature to invite contacts to your portal through automated email(s) created in your Dynamics 365 system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
 

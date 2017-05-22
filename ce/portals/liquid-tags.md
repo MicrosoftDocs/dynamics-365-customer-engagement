@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Liquid tags
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Tags make up the programming logic that tells templates what to do. Tags are wrapped in {% %}.
 

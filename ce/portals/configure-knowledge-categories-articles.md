@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Configure and manage knowledge categories and articles
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 ## Create a new knowledge category
 

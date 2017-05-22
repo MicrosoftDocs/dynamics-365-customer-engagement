@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Render up to three levels of page hierarchy by using hybrid navigation
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 This example renders a type of hybrid navigation, based on the portal sitemap, that renders up to three levels of page hierarchy. The rules of this component are:
 
@@ -35,7 +35,7 @@ If the current page has no children, the siblings of the current page will be sh
 
 ### Copyright
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 This document is provided "as-is". Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.
 

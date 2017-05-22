@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Register and invite for a portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The latest portal authentication experience allows portal users to sign in with their choice of a local contact membership provider based account or an external account based on [ASP.NET Identity](http://www.asp.net/identity). Both local and external account registration can use invitation codes for sign up, as well as the email confirmation workflow. In addition, portal administrators may choose to enable or disable any combination of authentication options through portal site settings.  
 

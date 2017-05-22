@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Configure web roles for a PRM portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Web roles for the PRM portal grant specific access to the different areas of the portal. By assigning the appropriate roles, you can grant your primary partner contacts the right permissions to manage their team members and streamline their processes.
 

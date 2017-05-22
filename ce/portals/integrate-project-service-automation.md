@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Project Service Automation integration
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The Project Service Automation (PSA) solution for Dynamics 365 can now be installed on a Partner Portal (PSA for Dynamics 365 and Partner Portal Solutions must be installed first). With this solution installed customers and partners will be able to view projects and confirmed bookable resources. Customers will also be able to approve quotes, view invoices, and view contract/order forms.
 

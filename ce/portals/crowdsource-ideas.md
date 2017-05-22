@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Crowdsource ideas
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 

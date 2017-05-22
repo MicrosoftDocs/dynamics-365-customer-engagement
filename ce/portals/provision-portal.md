@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Provision a portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with Dynamics 365 to show data from Dynamics on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
 

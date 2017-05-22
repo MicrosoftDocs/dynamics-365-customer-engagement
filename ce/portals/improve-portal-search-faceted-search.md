@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Use faceted search to improve portal search
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Portal content may be searched using filters based on characteristics of the content. Faceted portal searches allow customers to find their desired content faster than a traditional search through the filters implemented by this feature.
 

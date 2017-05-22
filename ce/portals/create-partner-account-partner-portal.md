@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create a partner account on a partner relationship management (PRM) portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 You can use partner accounts to keep track of your various partners. We recommend creating a separate account for each partner so that you can manage each partner organization separately.
 

@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Render a website header and primary navigation bar
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Render a website header and primary navigation bar, using portals settings, snippets, weblinks, and sitemarkers. More information: [*Store source content by using web templates*](store-content-web-templates.md)  
 

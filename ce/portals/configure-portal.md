@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Configure a Dynamics 365 portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Learn how to configure portals and customize Microsoft Dynamics 365. Dynamics 365 portals offer powerful customization options to:
 

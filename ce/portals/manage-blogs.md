@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Manage blogs
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Learn how to manage blog comments and blog posts both within Microsoft Dynamics 365 and in your portal.
 

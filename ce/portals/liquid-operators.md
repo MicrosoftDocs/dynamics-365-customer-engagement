@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Understand Liquid operators
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Liquid has access to all common logical and comparison operators. These can be used in tags such as **if** and **unless**.
 

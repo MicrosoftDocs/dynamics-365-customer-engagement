@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create advanced templates for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Learn how to create advanced templates using these examples:
 

@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Add record-based security by using entity permissions for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Record-based security in Dynamics 365 portals that applies to individual records is provided by using Entity Permissions.
 

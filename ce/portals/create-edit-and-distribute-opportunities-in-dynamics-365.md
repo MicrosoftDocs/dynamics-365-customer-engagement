@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create, edit, and distribute opportunities in Dynamics 365
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 In your partner portal, you can use opportunities to notify your partners of sales prospects that they can follow up on. You may have opportunities for existing customers or from new customers, and by distributing them to your partners, you can create new revenue sources or strengthen relationships with current customers.
 

@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Gather feedback by using polls on a portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Polls give your web audiences a quick and easy way to voice their opinion on concise topics and then immediately see feedback from their vote, automatically.
 

@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Web form properties for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The Web Form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to Web Page allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
 

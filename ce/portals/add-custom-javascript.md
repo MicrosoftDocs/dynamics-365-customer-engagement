@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Custom JavaScript
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The Web Form Step record contains a field named **Custom JavaScript** that can be used to store JavaScript code to allow you to extend or modify the form's visual display or function.
 

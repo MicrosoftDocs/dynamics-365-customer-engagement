@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Define entity forms and custom logic within the Dynamics 365 portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 A data driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal. Entity Forms are created in Dynamics 365 and then placed into webpages in the Portal or used in conjunction with Sub-Grids and Entity Lists to build out complete web applications. More information: [Add a webpage to render a list of records](add-webpage-render-list-records.md).  
 

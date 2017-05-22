@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Notes configuration for web forms for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Web Form Notes are configured in an identical fashion to Entity Form Notes. First, Create a Metadata record for the Web Form Step that has notes, and add configuration metadata. This process is described here.
 

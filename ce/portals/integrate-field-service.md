@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Field Service integration
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The Partner Field Service solution for Dynamics 365 can now be installed on a Partner Portal (Field Service for CRM and Partner Portal Solutions must be installed first). With this solution installed, customers and partners will be able to view various parts of the Field Service section of Dynamics 365 on the Partner Portal. Some of the available entities that can be viewed are assets, work orders, and invoices.
 

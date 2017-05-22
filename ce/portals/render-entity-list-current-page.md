@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Render the entity list associated with the current page
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Render the Entity List associated with the current page, as a paginated, sortable table. Uses entitylist, entityview ([*Dynamics 365 entity tags*](#dynamics-365-entity-tags)), [*page*](#page), and [*request*](#request) parameters, and includes search and multiple view selection.  
 

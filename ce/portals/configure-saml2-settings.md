@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # SAML 2.0 provider settings for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 | ![image6](media/image6.png) **Note **            |  
 |----------------------------------------------------------------------------|

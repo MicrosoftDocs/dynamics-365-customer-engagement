@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Enable multiple-language portal support
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Business is not confined to a single language. One portal’s surface content can now exist in multiple languages to reach customers around the world while keeping a single content hierarchy. To enable multiple languages for a portal, follow these steps after signing in to Dynamics 365:
 

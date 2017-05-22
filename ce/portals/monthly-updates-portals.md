@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # What’s new
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The December 2016 update has brought many new features to the portal capabilities of Dynamics 365. These updates allow for better interactions among companies, partners, and customers and make the experience of navigating the portal faster and easier. Some of the major updates include:
 

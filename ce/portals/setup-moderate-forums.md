@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Set up and moderate forums
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Forums can be created, edited and deleted within Dynamics 365. To access forums, sign in to Dynamics 365 and go to **Community &gt; Forums**.
 
