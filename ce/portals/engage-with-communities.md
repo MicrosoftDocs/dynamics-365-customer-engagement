@@ -1,3 +1,18 @@
+---
+title:"Engage with communities by using a community portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:ead42567-ea5b-472a-87cd-f80d37f3d630
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Engage with communities by using the community portal
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

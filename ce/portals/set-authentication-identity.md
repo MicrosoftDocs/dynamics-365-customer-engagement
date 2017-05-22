@@ -1,3 +1,18 @@
+---
+title:"Set authentication identity for a portal in Dynamics 365  | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:8e985c89-1589-4e65-8b74-28b96217601e
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Set authentication identity for a portal
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

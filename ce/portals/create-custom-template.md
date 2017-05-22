@@ -1,3 +1,18 @@
+---
+title:"Create a custom page template by using Liquid and a web template page template for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:59342ba3-6848-44bf-ab29-a35687039f02
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Create a custom page template by using Liquid and a web template page template
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

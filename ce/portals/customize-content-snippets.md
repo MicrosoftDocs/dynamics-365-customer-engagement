@@ -1,3 +1,18 @@
+---
+title:"Customize content by using content snippets on a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:64f9ec14-c22a-4337-af29-fc8b512cea63
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Customize content by using content snippets
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

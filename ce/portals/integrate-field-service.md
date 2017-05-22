@@ -1,3 +1,18 @@
+---
+title:"Integrate Dynamics 365 for Field Service with a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:5ef08d6b-37c8-41ea-815b-e4a633786f7d
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Field Service integration
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

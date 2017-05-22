@@ -1,3 +1,18 @@
+---
+title:"Configure a load form and load tab step type for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:ab7a526c-0998-4d6d-bf8e-310ad246247d
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Load form and load tab step type
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

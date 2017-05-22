@@ -1,3 +1,18 @@
+---
+title:"Define entity forms and custom logic within a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:4da44fa7-ace1-4c7c-a989-867d7b91cff0
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Define entity forms and custom logic within the Dynamics 365 portal
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

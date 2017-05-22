@@ -1,3 +1,18 @@
+---
+title:"Create a theme for your portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:96ac6fd3-827f-44e8-8261-570973bc3c4d
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Create a theme for your portal
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

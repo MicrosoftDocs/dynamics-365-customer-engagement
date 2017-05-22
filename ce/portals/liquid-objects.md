@@ -1,3 +1,18 @@
+---
+title:"Use Liquid objects for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:e550b7a3-6d32-491a-a036-ce24b36f4037
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Liquid objects
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

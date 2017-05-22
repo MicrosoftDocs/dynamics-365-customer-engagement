@@ -1,3 +1,18 @@
+---
+title:"Configure a contact for use on a portal in Dynamics 365  | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:6af44595-7fb1-42d6-93dc-bb64b9625b9b
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Configure a contact for use on a portal
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

@@ -1,3 +1,18 @@
+---
+title:"Place child nodes by using shortcuts for a portal in Dynamics 365  | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:63185ade-f789-40dc-9d22-c96919740748
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Place child nodes by using shortcuts for portals
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

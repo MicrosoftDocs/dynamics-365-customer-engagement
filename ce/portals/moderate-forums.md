@@ -1,3 +1,18 @@
+---
+title:"Moderate forums on a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:bdf50eaf-e042-4a41-b826-299cd7956674
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Moderate forums
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

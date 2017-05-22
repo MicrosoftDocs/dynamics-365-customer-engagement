@@ -1,3 +1,18 @@
+---
+title:"Use Liquid operators for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:ce9b5b7d-2756-4a8e-8fab-f64ec9c1e11a
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Understand Liquid operators
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

@@ -1,3 +1,18 @@
+---
+title:"Add dynamic content and create custom templates for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:8232de7b-c0a9-4bc0-ac6d-a3375ef6ed88
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Add dynamic content and create custom templates
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

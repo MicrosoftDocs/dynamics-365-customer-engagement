@@ -1,3 +1,18 @@
+---
+title:"Add record-based security by using entity permissions for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:e91a09c5-9e43-44e6-8bbf-83d792a7c055
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Add record-based security by using entity permissions for portals
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

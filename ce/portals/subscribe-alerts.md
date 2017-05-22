@@ -1,3 +1,18 @@
+---
+title:"Subscribe to alerts on a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:1d0b49f7-46ce-4598-bb0f-aa7f8218a92c
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Subscribe to alerts
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

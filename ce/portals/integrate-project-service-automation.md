@@ -1,3 +1,18 @@
+---
+title:"Integrate Dynamics 365 for Project Service Automation with a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:e37279ea-6e6d-4c48-9350-082cae96a0c0
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Project Service Automation integration
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

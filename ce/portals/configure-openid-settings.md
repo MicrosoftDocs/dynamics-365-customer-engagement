@@ -1,3 +1,18 @@
+---
+title:"Configure OpenID Connect provider settings for a portal in Dynamics 365  | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:74e1ece0-17e8-49d0-9d0d-b2fde197aba1
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Open ID Connect provider settings for portals
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

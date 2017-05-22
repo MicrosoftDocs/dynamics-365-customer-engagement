@@ -1,3 +1,18 @@
+---
+title:"Manage knowledge articles using content access levels for portals in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:49278e54-57cf-453f-b16a-b2aaee7798a9
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Manage knowledge articles using content access levels
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

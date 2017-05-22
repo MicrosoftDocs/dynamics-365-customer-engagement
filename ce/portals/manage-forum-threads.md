@@ -1,3 +1,18 @@
+---
+title:"Manage forum threads in a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:5fd4a71f-ea08-45c7-83b2-63caede5f18c
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Manage forum threads
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

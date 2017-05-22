@@ -1,3 +1,18 @@
+---
+title:"Use hybrid navigation to render page hierarchy for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:39bad7b1-c4a0-458f-9a48-7d721d9a7cf1
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Render up to three levels of page hierarchy by using hybrid navigation
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

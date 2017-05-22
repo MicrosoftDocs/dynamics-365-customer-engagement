@@ -1,3 +1,18 @@
+---
+title:"Render the entity list associated with the current page in a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:51dd7c60-5c69-4dd5-9de5-6c4ee30b6526
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Render the entity list associated with the current page
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

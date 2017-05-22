@@ -1,3 +1,18 @@
+---
+title:"Configure site settings for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:53642ce6-f6eb-4cc1-8f80-2df8aad2fa39
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Configure site settings for portals
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

@@ -1,3 +1,18 @@
+---
+title:"Configure SAML 2.0 provider settings for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:71a5b45a-9793-48ae-ace5-2e99a5c44365
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # SAML 2.0 provider settings for portals
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

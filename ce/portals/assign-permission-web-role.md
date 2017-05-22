@@ -1,3 +1,18 @@
+---
+title:"Assign a permission set to a web role for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:02133d00-d034-4d62-9c8c-62e3bfc79af2
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Assign a permission set to a web role for portals
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

@@ -1,3 +1,18 @@
+---
+title:"Render an RSS feed using custom page template for a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:24413b7a-1fcc-4146-a8c9-899ef9cdcceb
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Create a custom page template to render an RSS feed
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online

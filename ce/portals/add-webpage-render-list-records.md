@@ -1,3 +1,18 @@
+---
+title:"Add a web page to render a list of records on a portal in Dynamics 365 | MicrosoftDocs"
+description:""
+ms.custom:""
+ms.date:05/22/2017
+ms.service:crm-online
+ms.suite:""
+ms.tgt_pltfrm:""
+ms.topic:article
+ms.assetid:e22f0452-a2e8-4b47-b826-28de37608426
+ms.reviewer:""
+author:sbmjais
+ms.author:shjais
+manager:sakudes
+---
 # Add a webpage to render a list of records
 
 Applies To: Dynamics 365 (online), Dynamics CRM Online
