@@ -15,8 +15,6 @@ manager: sakudes
 ---
 # Notes configuration for web forms for portals
 
-
-
 Web Form Notes are configured in an identical fashion to Entity Form Notes. First, Create a Metadata record for the Web Form Step that has notes, and add configuration metadata. This process is described here.
 
 Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the Dynamics 365 form through the out-of-the-box Dynamics 365 form designer and you’re done. You can configure the behavior of the notes control by using metadata.
