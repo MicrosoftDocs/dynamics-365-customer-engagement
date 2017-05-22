@@ -11,7 +11,7 @@ ms.assetid: 873dffa1-e598-4548-b494-7b67f2b01bb1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
- manager: sakudes
+manager: sakudes
 ---
 # What’s new
 
