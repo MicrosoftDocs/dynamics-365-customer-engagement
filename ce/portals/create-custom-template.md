@@ -27,7 +27,7 @@ First, we'll create our Web Template and write the Liquid template code. But, th
 
 ![Web template one column layout](media/web-template-one-column-layout.png "Web template one column layout")  
 
-|  **Note **                                     |  
+|  >[!Note]                                     |  
 |-----------------------------------------------------------------------------------------------------|
 | Read about template inheritance using the block and extends tags: [*Template tags*](#template-tags) |  
 
@@ -35,7 +35,7 @@ Then, we'll create a new Web Template that extends our base layout template, usi
 
 ![Web template web links left navigation layout](media/web-template-weblinks-left-navigation-layout.png "Web template web links left navigation layout")  
 
-|  **Note **                     |  
+|  >[!Note]                     |  
 |-------------------------------------------------------------------------------------|
 | Read about loading web link sets using the weblinks object: [*weblinks*](#weblinks) |  
 

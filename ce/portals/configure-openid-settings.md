@@ -17,7 +17,7 @@ manager: sakudes
 
 
 
-|  **Note **            |  
+|  >[!Note]            |  
 |----------------------------------------------------------------------------|
 | This documentation applies to **Dynamics 365 portals** and later versions. |
 
@@ -31,7 +31,7 @@ Examples of authority URLs are:
 
 Each OpenID Connect provider also involves registering an application (similar to that of an OAuth 2.0 provider) and obtaining a Client Id. The authority URL and the generated application Client Id are the settings required to enable external authentication between the portal and the identity provider.
 
-|  **Note **                                                                                                                                                                                                                               |  
+|  >[!Note]                                                                                                                                                                                                                               |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The Google OpenID Connect endpoint is currently not supported because the underlying libraries are still in the early stages of release with compatibility issues to address. The [OAuth2 provider settings for portals](configure-oauth2-settings.md) endpoint can be used instead. |  
 
@@ -81,7 +81,7 @@ The left portion of the URL is the **Authority** value and is in one of the foll
 
 Apply portal site settings referencing the above application.
 
-|  **Note **                                                          |  
+|  >[!Note]                                                          |  
 |--------------------------------------------------------------------------------------------------------------------------|
 | A standard Azure AD configuration only uses the following settings (with example values):                                
                                                                                                                            

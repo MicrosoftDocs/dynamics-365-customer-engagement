@@ -45,9 +45,9 @@ You can automatically distribute opportunities to partners based on a set of cri
 
 | Capacity            | A partner’s capacity is the maximum number of opportunities that partner can take on at once. This value can be adjusted from the account details page for each partner.                                                            
                                                                                                                                                                                                                                        
-  |  **Note **                                                                                                                          |                                           
+  |  > [!Note]                                                                                                                          |                                           
   |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                         
-  | Capacity includes opportunities that are in progress, as well as those that have not yet been accepted by a partner. It does not include internal opportunities created by that partner. |                                         |
+  | > Capacity includes opportunities that are in progress, as well as those that have not yet been accepted by a partner. It does not include internal opportunities created by that partner. |                                         |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Estimated revenue   | You can set a minimum and maximum range for estimated revenue on the account details page for each partner. If the estimated revenue for an opportunity falls within this range, the partner will be available for assignment.      |
 | Territory           | Territories are geographic regions that are assigned to a partner account. If the address of the customer associated with the opportunity is within a territory covered by a partner, the partner will be available for assignment. |
@@ -71,7 +71,7 @@ After the available partners have been identified, the opportunity is distribute
 
 The metrics used to rank partners for opportunity distribution are weighted to determine how they affect partner ranking. These weights can be adjusted using site settings, and affect how heavily a metric is used to rank partners. A setting of zero (0) will cause that metric to be disregarded when ranking partners for opportunity distribution.
 
-|  **Note **                                                                                    |  
+|  >[!Note]                                                                                    |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
 | A positive weight means that a higher number for this metric is more desirable, and a negative weight means that a lower number is more desirable. |
 

@@ -93,7 +93,7 @@ A DateTime object represents a specific date and time.
 
 **{{ page.modifiedon | date: 'f' }}**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*Date filters*](#date-filters).                                |  
 

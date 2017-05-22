@@ -1130,7 +1130,7 @@ Attempts to convert a string value into a Boolean. If the value is already a Boo
 
 This filter will also accept "on", "enabled", or "yes" as true, and "off", "disabled", and "no" as false.
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*Additional filters*](#additional-filters)                     |  
 
@@ -1158,7 +1158,7 @@ Output
 
 Attempts to convert a string value into a decimal number. If the value is already a decimal number, it will be returned unchanged. If the value cannot be converted into a decimal number, null will be returned.
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*Additional filters*](#additional-filters)                     |  
 
@@ -1182,7 +1182,7 @@ Output
 
 Attempts to convert a string value into an integer. If the value is already an integer, it will be returned unchanged. If the value cannot be converted into an integer, null will be returned.
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*Additional filters*](#additional-filters)                     |  
 
@@ -1420,7 +1420,7 @@ Code
 
 Renders a string as Liquid code. This code will have access to the current Liquid execution context (variables, etc.).
 
-|  **Note **                                                                                                                                                 |  
+|  >[!Note]                                                                                                                                                 |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This filter should be used with caution and should generally only be applied to values that are under the exclusive control of portal content authors, or other users that can be trusted to write Liquid code. |
 

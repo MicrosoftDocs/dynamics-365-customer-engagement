@@ -21,7 +21,7 @@ Dynamics 365 portals offers a powerful suite of editing tools. Users with suitab
 
 This document assumes that you have permission to perform these tasks. If you do not, ask your portal administrator to arrange this for you. The permissions can be assigned to individual pages, so be sure to specify which pages you will need to edit.
 
-|  **Note **                                                          |  
+|  >[!Note]                                                          |  
 |--------------------------------------------------------------------------------------------------------------------------|
 | If you are using the sample organization, sign in with *administrator* as the username and *pass@word1* as the password. |
 
@@ -80,7 +80,7 @@ Navigate to the page to be deleted and click the **Delete** button in the toolba
 
 ![Delete a page confirmation](media/delete-page-confirm.png "Delete a page confirmation")  
 
-|  **Note **                                                                                                                                                       |  
+|  >[!Note]                                                                                                                                                       |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Certain webpages are important to have for a properly functioning website, for instance, a sign in page or 404 page. Be sure not to delete these pages, as doing so can cause a website to stop functioning properly. |
 
