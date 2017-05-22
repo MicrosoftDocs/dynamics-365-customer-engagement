@@ -105,7 +105,7 @@ Forum Access Permission is a security rule that can be assigned to a particular 
 
 ![Edit forum access permission](media/edit-forum-access-permission.png "Edit forum access permission")  
 
-| ![image6](media/image6.png) **Note **                                                                                                |  
+|  **Note **                                                                                                |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A web role must be assigned for the rule to apply for users associated with the given role. See [Create web roles for portals](create-web-roles.md). |  
 

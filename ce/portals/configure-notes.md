@@ -1,4 +1,3 @@
----
 title: "Configure notes on a web form for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
@@ -19,7 +18,11 @@ Web Form Notes are configured in an identical fashion to Entity Form Notes. Firs
 
 Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the Dynamics 365 form through the out-of-the-box Dynamics 365 form designer and you’re done. You can configure the behavior of the notes control by using metadata.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |  
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |  
+
+> **Note **                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |  
+
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Explicit [Add record-based security using entity permissions for portals](assign-entity-permissions.md) are **required** for any notes to appear on the portal. For read and edit, the 'Read' and 'Write' privileges must be granted. For create, two permissions must exist, a permission with the 'Create' and 'Append' privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the 'Append To' privilege granted. |  
 

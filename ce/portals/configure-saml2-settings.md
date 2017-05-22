@@ -17,7 +17,7 @@ manager: sakudes
 
 
 
-| ![image6](media/image6.png) **Note **            |  
+|  **Note **            |  
 |----------------------------------------------------------------------------|
 | This documentation applies to **Dynamics 365 portals** and later versions. |
 
@@ -29,7 +29,7 @@ Settings for an IdP such as AD FS.
 
 ### Create an AD FS relying party trust
 
-| ![image6](media/image6.png) **Note **                                                                                                  |  
+|  **Note **                                                                                                  |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | See [Configure AD FS by using PowerShell](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a PowerShell script. |  
 
@@ -75,7 +75,7 @@ Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-
 
 -   Note: AD FS requires that the portal run on **HTTPS**
 
-| ![image6](media/image6.png) **Note ** |  
+|  **Note ** |  
 |-----------------------------------------------------------------|
 | The resulting endpoint has the following settings:              
                                                                   
@@ -113,7 +113,7 @@ Add the **Name ID** claim to the relying party trust:
 
 Apply portal site settings referencing the above AD FS Relying Party Trust.
 
-| ![image6](media/image6.png) **Note **                                                                                                                            |  
+|  **Note **                                                                                                                            |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A standard AD FS (IdP) configuration only uses the following settings (with example values):                                                                                               
                                                                                                                                                                                              
@@ -287,7 +287,7 @@ This corresponds to the **MetadataAddress** site setting value
 
 -   This corresponds to the **AuthenticationType** site setting value
 
-| ![image6](media/image6.png) **Note **                                                                                                                            |  
+|  **Note **                                                                                                                            |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A standard Azure AD configuration only uses the following settings (with example values):                                                                                                  
                                                                                                                                                                                              
@@ -335,7 +335,7 @@ The Location attribute corresponds to the **AssertionConsumerServiceUrl** (Wrepl
 
 **&lt;EntityDescriptor entityID="https://portal.local.contoso.com/"&gt;...**
 
-| ![image6](media/image6.png) **Note **                                                                                                                            |  
+|  **Note **                                                                                                                            |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A standard Shibboleth configuration only uses the following settings (with example values):                                                                                                
                                                                                                                                                                                              

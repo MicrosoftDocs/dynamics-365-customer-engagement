@@ -66,7 +66,7 @@ View the portal through each of the site bindings in a web browser to ensure tha
 | Contact Email | administrator@contoso.com                                                                                                                                             |
 | App Domains   | portal.contoso.comfacebook-portal.contoso.com                                                                                                                         
                                                                                                                                                                          
-  | ![image6](media/image6.png) **Note **                                                                                                   |    
+  |  **Note **                                                                                                   |    
   |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
   | If the domain values cannot be successfully set, leave this field blank for now, complete the next step to specify a **Site URL**, and then return to this field. |  |
 
@@ -86,7 +86,7 @@ View the portal through each of the site bindings in a web browser to ensure tha
 |---------------------|-------------------------------------------|
 | Page Tab Name       | Contoso Portal                            |
 
-| ![image6](media/image6.png) **Note **                                                                             |  
+|  **Note **                                                                             |  
 |---------------------------------------------------------------------------------------------------------------------------------------------|
 | The Page Tab URL should have the /app/facebook path appended to the App domain URL. The portal uses this endpoint to launch the App portal. |
 
@@ -112,7 +112,7 @@ https://www.facebook.com/dialog/pagetab?app\_id=0123456789&next=http%3a%2f%2ffac
 
 This displays the **Add Page Tab** dialog to select the **Page** that will contain the **Page Tab** and app. Browse back to the **Page** and the app should be available in the grid of added **Page Tabs**. Click the **Page Tab** to view the Facebook App portal framed within the Facebook Page.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |  
+|  **Note **                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | By default, Internet Explorer does not allow [third-party cookies](http://support.microsoft.com/kb/260971) to be created for portals/apps that are rendered in an iFrame of another host portal. This is the case of a Facebook App portal hosted from a Page Tab. A side effect of this cookie blocking is that an app is unable to create and maintain an authenticated session. This is resolved by updating the App portal to publish a Platform for Privacy Preferences (P3P) policy. There are various options for achieving this one of which is to update the web.config of the App portal to include a [custom header](http://www.iis.net/configreference/system.webserver/httpprotocol/customheaders). For Example: |  
 

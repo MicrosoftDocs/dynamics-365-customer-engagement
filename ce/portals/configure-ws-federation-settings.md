@@ -45,7 +45,7 @@ Relying party WS-Federation Passive protocol URL: Enter https://portal.contoso.c
 
 -   Note: AD FS requires that the portal run on **HTTPS**
 
-| ![image6](media/image6.png) **Note ** |  
+|  **Note ** |  
 |-----------------------------------------------------------------|
 | The resulting endpoint has the following settings:              
                                                                   
@@ -75,7 +75,7 @@ Add the **Name ID** claim to the relying party trust:
 
 Apply portal site settings referencing the above AD FS Relying Party Trust.
 
-| ![image6](media/image6.png) **Note **                                                                                                                            |  
+|  **Note **                                                                                                                            |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A standard AD FS (STS) configuration only uses the following settings (with example values):                                                                                               
                                                                                                                                                                                              
@@ -159,7 +159,7 @@ This corresponds to the **MetadataAddress** site setting value
 
 -   This corresponds to the **AuthenticationType** site setting value
 
-| ![image6](media/image6.png) **Note **                                                                                                                            |  
+|  **Note **                                                                                                                            |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A standard Azure AD configuration only uses the following settings (with example values):                                                                                                  
                                                                                                                                                                                              

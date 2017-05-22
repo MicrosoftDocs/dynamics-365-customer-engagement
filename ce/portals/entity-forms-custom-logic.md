@@ -29,7 +29,7 @@ To view existing Entity Forms or to create new Entity Forms navigate to **Portal
 
 When creating a new Entity Form the first step is to decide the **Entity** and **Form Name** that you will be rendering as well as the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you are creating a new record from the portal, editing an existing record, or just displaying info about a record on the portal.
 
-| ![image6](media/image6.png) **Note **                                                                      |  
+|  **Note **                                                                      |  
 |--------------------------------------------------------------------------------------------------------------------------------------|
 | An **Entity Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site. |  
 
@@ -50,5 +50,5 @@ To secure your forms, you must create entity permissions that determine access a
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  
-[Notes configuration for Web Forms for portals](configuer-notes.md)  
+[Notes configuration for Web Forms for portals](configure-notes.md)  
 

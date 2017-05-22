@@ -25,7 +25,8 @@ Portals are websites that you can customize to provide a more personalized exper
 
 -   Internal employees can create and see best practices
 
-**Note:** You must be a Global Administrator role to provision a portal.
+> [!NOTE]
+> You must be a Global Administrator role to provision a portal.
 
 ## Before you provision a portal 
 
@@ -170,7 +171,7 @@ If the package installation has failed, the Portal administrator page will open 
 
 |                                                                 |
 |-----------------------------------------------------------------|
-| ![image6](media/image6.png) **Note ** |  
+|**Note** |  
 
 Some solutions have prerequisites for their installation, so an installation will fail if the prerequisites are not met. For example, to install the Partner Field Service for a partner portal, the Partner Portal and Field Service solutions must have already been installed. If you attempt to install the Partner Field Service first, the installation will fail and give you an error message.
 
@@ -194,7 +195,7 @@ After you have purchased an SSL certificate for your domain, you can use it to l
 
 2.  Click **Add a new hostname** to create a new custom domain. Enter the desired domain name into the **Domain Name** field. Otherwise, click **Use an existing host name** and choose the desired host name from the drop-down menu. You can only have one custom domain name for a portal.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                                             |  
+| **Note**                                                                                                                                                                                                             |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your Dynamics 365 portal.                                                                                                                     |
 | If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, this will show a message “Plead add a CNAME record to this domain name.” Retry after some time passes. |

@@ -1,4 +1,4 @@
----
+--
 title: "Configure a web form steps for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
@@ -19,7 +19,7 @@ manager: sakudes
 
 The Web Form Step provides the flow logic of the form's user experience such as steps and conditional branching. It also provided details regarding the rendering of a form and additional behavior.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                                                                                                                                                                 |  
+>  !Note                                                                                                                                                                                                                                                                                                                                |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Web Forms persists the history of the steps a user has visited in an object on a Web Form Session entity. If a Web Form's steps have been modified, previously created history data could now be stale. Anytime steps are changed, it is recommended that you delete all Web Form Session records to eliminate miss match between sequence of steps logged in history and the current sequence. |
 
@@ -44,7 +44,7 @@ Each Web Form will be presented on the portal has one or more steps. These steps
                                                                                                                                                                                                           
   For further details on the settings for these web form step types, please refer to their corresponding sections below.                                                                                  
                                                                                                                                                                                                           
-  ![](media/image42.gif) **Note:** The first step cannot be of type "Condition".                                                                                                                          |
+> !Note The first step cannot be of type "Condition".                                                                                                                          |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Next Step                  | The step that will follow the current step. This will be blank for single step single form.                                                                                                            |
 | Target Entity Logical Name | The logical name of the entity associated with the form.                                                                                                                                               |

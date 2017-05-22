@@ -27,7 +27,7 @@ The data can also be filtered by the current portal user, the current portal use
 
 The Entity List contains relationships to webpages and various properties in order to control the initialization of the list of records within the portal. The relationship to Web Page allows dynamic retrieval of the list definition for a given page node within the website. To view existing Entity Views or to create new Entity Views, navigate to **Portals** &gt; **Entity Lists**
 
-| ![image6](media/image6.png) **Note **                                                   |  
+|  **Note**                                                   |  
 |-------------------------------------------------------------------------------------------------------------------|
 | A Entity List must be associated with a Web Page for a given website for the list to be viewable within the site. |
 
