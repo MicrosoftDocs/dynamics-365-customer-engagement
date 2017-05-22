@@ -274,7 +274,7 @@ The following properties specify the location and content of custom description 
                                                                                                                                                                                                                                                                                       
   -   Above the label                                                                                                                                                                                                                                                                 |
 | Use Attribute's Description Property | Select **Yes** to use the description assigned to the attribute metadata on the entity. Select 'No' to provide a custom description. Default: **No**.                                                                                                                              |
-| Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+e| Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
 
 ### Web form metadata type = section
 
@@ -325,5 +325,5 @@ The following properties are displayed when the Type selected equals **Purchase*
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  
-[Notes configuration for Web Forms for portals](configuer-notes.md)  
+[Notes configuration for Web Forms for portals](configure-notes.md)  
 
