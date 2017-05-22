@@ -668,7 +668,7 @@ By default, the entitylist object will be given the variable name entitylist. Op
 
 **{% endentitylist %}**
 
-| ![image6](media/image6.png) **Note **                                                       |  
+|  **Note **                                                       |  
 |-----------------------------------------------------------------------------------------------------------------------|
 | [*Render the entity list associated with the current page*](render-entity-list-current-page.md) |  
 
@@ -758,7 +758,7 @@ If entityview is nested within an entitylist block, it will inherit its default 
 
 **{% endentitylist %}**
 
-| ![image6](media/image6.png) **Note **                                                       |  
+|  **Note **                                                       |  
 |-----------------------------------------------------------------------------------------------------------------------|
 | [*Render the entity list associated with the current page*](render-entity-list-current-page.md) |  
 
@@ -836,7 +836,7 @@ Specifies the Entity List metadata filter expression by which to filter view res
 
 **{% endentitylist %}**
 
-| ![image6](media/image6.png) **Note ** |  
+|  **Note ** |  
 |-----------------------------------------------------------------|
 | [*Entity List filters*](#entity-list-filters)                   |  
 
@@ -1022,7 +1022,7 @@ An additional query used to match results. This parameter is intended to accept 
 
 This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                        |  
+|  **Note **                                                                                                                                                                                        |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. 
                                                                                                                                                                                                                                                          
@@ -1082,7 +1082,7 @@ Having multiple search providers is an advanced configuration that will not appl
 
 Fully renders a Dynamics 365-configured [*Define entity forms and custom logic within the Dynamics 365 portal*](entity-forms-custom-logic.md), by name or ID.  
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                        |  
+|  **Note **                                                                                                                                                                                        |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.   
                                                                                                                                                                                                                                                          
@@ -1110,7 +1110,7 @@ The name of the Web Form you wish to load.
 
 Fully renders a Dynamics 365-configured web form, by name or ID.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                     |  
+|  **Note **                                                                                                                                                                                     |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The webform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.   
                                                                                                                                                                                                                                                       

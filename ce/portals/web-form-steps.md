@@ -19,7 +19,7 @@ manager: sakudes
 
 The Web Form Step provides the flow logic of the form's user experience such as steps and conditional branching. It also provided details regarding the rendering of a form and additional behavior.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                                                                                                                                                                                 |  
+|  **Note **                                                                                                                                                                                                                                                                                                                                 |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Web Forms persists the history of the steps a user has visited in an object on a Web Form Session entity. If a Web Form's steps have been modified, previously created history data could now be stale. Anytime steps are changed, it is recommended that you delete all Web Form Session records to eliminate miss match between sequence of steps logged in history and the current sequence. |
 

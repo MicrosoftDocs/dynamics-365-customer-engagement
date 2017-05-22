@@ -23,7 +23,7 @@ A forum thread (sometimes called a *topic*) is a collection of posts, usually di
 
 You can create, edit, and delete forum threads in Dynamics 365.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                |  
+|  **Note **                                                                                                                                                |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Although you can create forum threads in Dynamics 365, we recommend you do this in the portal, where the process is less involved and ensures the thread is correctly associated with the original forum post. |
 
@@ -47,7 +47,7 @@ You can create, edit, and delete forum threads in Dynamics 365.
 
 1.  Specify values for the fields provided.
 
-| ![image6](media/image6.png) **Note **                                                                                                                                                                        |  
+|  **Note **                                                                                                                                                                        |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You will need to create the original [forum posts](create-forum-posts.md) to be associated with this thread and assign the newly created forum post record to the **First Post** and **Last Post** lookup fields provided. |  
 
