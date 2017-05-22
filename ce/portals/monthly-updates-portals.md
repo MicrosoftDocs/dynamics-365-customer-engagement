@@ -11,7 +11,7 @@ ms.assetid: 873dffa1-e598-4548-b494-7b67f2b01bb1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+ manager: sakudes
 ---
 # What’s new
 
@@ -21,7 +21,7 @@ The December 2016 update has brought many new features to the portal capabilitie
 
 -   **East Asian language support:** Multi-byte languages such as Japanese, Chinese, and Korean are now supported.
 
--   **Faceted search:** New filters improve how quickly customers can find the content they are looking for while granting more control over visibility of content.
+--   **Faceted search:** New filters improve how quickly customers can find the content they are looking for while granting more control over visibility of content.
 
 -   **Product filtering:** Portal users can trim access knowledge articles related to their product ownership to avoid information overload.
 
@@ -45,26 +45,9 @@ Azure components and services that are involved with the portal capabilities are
 
 **Note:** For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/)  
 
-[Azure Web Apps](https://azure.microsoft.com/services/app-service/web/)  
-
-Azure Web Apps are used to host the portal in Azure.
-
-[Azure Traffic Manager](https://azure.microsoft.com/services/traffic-manager/)  
-
-Azure Traffic Manager is used to ensure the high availability of the service by routing the user to the Web Apps that are up and running.
-
-[Azure Service Bus](https://azure.microsoft.com/services/service-bus/)  
-
-Azure Service Bus (Topics/Subscriptions) is used for cache invalidation of the portals. Azure Service Bus temporarily stores the messages, which are triggered when any portal-related record is changed in Dynamics 365, and are passed along to Web Apps to do the cache invalidation.
-
-[Azure Key Vault](https://azure.microsoft.com/services/key-vault/)  
-
-All services store configuration data in Azure Key Vault.
-
-[Azure Storage](https://azure.microsoft.com/services/storage/)  
-
-Data related to the organization, tenant, and portal is stored in Azure Storage.
-
-[Azure Active Directory](https://azure.microsoft.com/services/active-directory/)  
-
-All the web services use Azure Active Directory to authenticate.
+- [Azure Web Apps](https://azure.microsoft.com/services/app-service/web/): Azure Web Apps are used to host the portal in Azure
+- [Azure Traffic Manager](https://azure.microsoft.com/services/traffic-manager/): Azure Traffic Manager is used to ensure the high availability of the service by routing the user to the Web Apps that are up and running. 
+- [Azure Service Bus](https://azure.microsoft.com/services/service-bus/): Azure Service Bus (Topics/Subscriptions) is used for cache invalidation of the portals. Azure Service Bus temporarily stores the messages, which are triggered when any portal-related record is changed in Dynamics 365, and are passed along to Web Apps to do the cache invalidation. 
+- [Azure Key Vault](https://azure.microsoft.com/services/key-vault/)  All services store configuration data in Azure Key Vault.
+- [Azure Storage](https://azure.microsoft.com/services/storage/): Data related to the organization, tenant, and portal is stored in Azure Storage.
+- [Azure Active Directory](https://azure.microsoft.com/services/active-directory/): All the web services use Azure Active Directory to authenticate.
