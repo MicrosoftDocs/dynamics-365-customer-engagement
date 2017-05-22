@@ -1,4 +1,4 @@
----
+#---
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
@@ -14,8 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # What’s new
-
-
 
 The December 2016 update has brought many new features to the portal capabilities of Dynamics 365. These updates allow for better interactions among companies, partners, and customers and make the experience of navigating the portal faster and easier. Some of the major updates include:
 
@@ -70,4 +68,3 @@ Data related to the organization, tenant, and portal is stored in Azure Storage.
 [Azure Active Directory](https://azure.microsoft.com/services/active-directory/)  
 
 All the web services use Azure Active Directory to authenticate.
-
