@@ -203,7 +203,7 @@ Open [Yahoo! Developer Network](https://developer.yahoo.com/apps)
 
 The application dashboard for each provider will display the client ID (app ID, consumer key) and client secret (app secret, consumer secret) for each application. Use these two values to configure the portal site settings.
 
-|  **Note **                                         |  
+|  >[!Note]                                         |  
 |---------------------------------------------------------------------------------------------------------|
 | A standard OAuth2 configuration only requires the following settings (choosing Facebook as an example): 
                                                                                                           

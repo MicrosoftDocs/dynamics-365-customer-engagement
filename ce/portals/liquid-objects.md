@@ -158,7 +158,7 @@ An adplacement is an entity object, with all of the same attributes, in addition
 
 ### **Ad attributes**
 
-|  **Note **                                |  
+|  >[!Note]                                |  
 |------------------------------------------------------------------------------------------------|
 | An ad is an entity object, with all of the same attributes, in addition to those listed below. |
 
@@ -384,7 +384,7 @@ An entity object provides access to the attributes of a Dynamics 365 entity reco
                                                                                                                                                                                                                                                                              
   **{{ page.adx\_webpage\_webpage.referencing.adx\_name }}**                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                              
-  |  **Note **                                                                                                                                                                                     |                      
+  |  >[!Note]                                                                                                                                                                                     |                      
   |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                    
   | Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop.                      
                                                                                                                                                                                                                                                                              
@@ -410,14 +410,14 @@ A note is an entity object that provides access to the attributes and relationsh
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | documentbody | Loads the documentbody attribute of the note annotation record, as a Base64-encoded string. As the content of this attribute may be large, it is not loaded with the rest of the note attributes, and only loaded on demand. 
                                                                                                                                                                                                                                 
-  |  **Note **                                                                    |                                                                                          
+  |  >[!Note]                                                                    |                                                                                          
   |------------------------------------------------------------------------------------------------------------------------------------|                                                                                        
   | Use of the documentbody attribute could have a negative impact on template rendering performance, and should be done with caution.                                                                                          
                                                                                                                                                                                                                                 
    Use the url attribute to provide a link to the note attachment instead, if possible.                                                |                                                                                        |
 | url          | Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL will download the note file attachment.                     |
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*Additional filters*](#additional-filters)                     |  
 
@@ -474,13 +474,13 @@ Attempts to load reflexive (i.e. self-referential) relationships on entities are
 
 The entitylist object is used within the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags). It provides access to all the attributes of a given entity list.  
 
-|  **Note **                                                       |  
+|  >[!Note]                                                       |  
 |-----------------------------------------------------------------------------------------------------------------------|
 | [*Render the entity list associated with the current page*](render-entity-list-current-page.md) |  
 
 ### **Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -687,7 +687,7 @@ Represents a single event occurrence. The associated attributes are given below:
 
 Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
 
-|  **Note **            |  
+|  >[!Note]            |  
 |----------------------------------------------------------------------------|
 | forloop can only be used within a [*Iteration tags*](#iteration-tags) tag. |  
 
@@ -817,7 +817,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 
 ### **Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -839,7 +839,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 
 ### **Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -864,7 +864,7 @@ A Single Forum Post
 
 ### **Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -931,7 +931,7 @@ The page object provides access to things like the breadcrumbs for the current p
 
 ### **Page attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -965,7 +965,7 @@ The page object provides access to things like the breadcrumbs for the current p
                                                                                                                                                                                                                                                                              
   **{{ page.adx\_webpage\_webpage.referencing.adx\_name }}**                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                              
-  |  **Note **                                                                                                                                                                                     |                      
+  |  >[!Note]                                                                                                                                                                                     |                      
   |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                    
   | Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop.                      
                                                                                                                                                                                                                                                                              
@@ -1031,7 +1031,7 @@ The polls object allows you to select a specific poll or poll placement:
 
 ### **Poll Placement Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -1046,7 +1046,7 @@ The polls object allows you to select a specific poll or poll placement:
 
 ### **Poll Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -1065,7 +1065,7 @@ The polls object allows you to select a specific poll or poll placement:
 
 ### **Poll Option Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -1092,7 +1092,7 @@ Contains information about the current HTTP request.
 
 **&lt;a href="{{ request.url | add\_query: 'foo', 1 }}"&gt;Link&lt;/a&gt;**
 
-|  **Note **               |  
+|  >[!Note]               |  
 |-------------------------------------------------------------------------------|
 | You can build URLs dynamically in Liquid using URL Filters. More information: |
 
@@ -1207,7 +1207,7 @@ The searchindex object is used within the [*Dynamics 365 entity tags*](#dynamics
 
 Allows you to load any [*Configure site settings for portals*](configure-site-settings.md) by name. If a setting with the given name is not found, [*Liquid types*](#liquid-types) will be returned.  
 
-|  **Note **                                                                           |  
+|  >[!Note]                                                                           |  
 |-------------------------------------------------------------------------------------------------------------------------------------------|
 | Settings are returned as [*Liquid types*](liquid-types.md), but you can use [*Type filters*](#type-filters) to convert them to other types. |  
 
@@ -1229,7 +1229,7 @@ Allows you to load any [*Configure site settings for portals*](configure-site-se
 
 **{% endif %}**
 
-|  **Note **                                             |  
+|  >[!Note]                                             |  
 |-------------------------------------------------------------------------------------------------------------|
 | [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
 
@@ -1336,7 +1336,7 @@ Allows you to load any site marker by name. If the sitemarker exists, a sitemark
 
 **{% endif %}**
 
-|  **Note **                                             |  
+|  >[!Note]                                             |  
 |-------------------------------------------------------------------------------------------------------------|
 | [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
 
@@ -1390,7 +1390,7 @@ Allows you to load any content snippets by name. If a snippet with the given nam
 
 Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
 
-|  **Note **                 |  
+|  >[!Note]                 |  
 |---------------------------------------------------------------------------------|
 | tablerowloop can only be used within a [*Iteration tags*](#iteration-tags) tag. |  
 
@@ -1453,7 +1453,7 @@ In addition to having all of the attributes of an [*entities*](#entities), user 
 
 Refers to the portal [*website*](#website-1), allowing access to all attributes of the Dynamics 365 Website (adx\_website) record for the portal.  
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -1519,13 +1519,13 @@ If the web link set exists, a web link set object will be returned. If a web lin
 
 **{% endif %}**
 
-|  **Note **                                             |  
+|  >[!Note]                                             |  
 |-------------------------------------------------------------------------------------------------------------|
 | [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
 
 ### **Web Link Set Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
@@ -1540,7 +1540,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 
 ### **Web Link Attributes**
 
-|  **Note ** |  
+|  >[!Note] |  
 |-----------------------------------------------------------------|
 | [*entities*](#entities)                                         |  
 
