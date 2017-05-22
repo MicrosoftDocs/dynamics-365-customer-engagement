@@ -1,3 +1,4 @@
+---
 title: "Configure notes on a web form for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
