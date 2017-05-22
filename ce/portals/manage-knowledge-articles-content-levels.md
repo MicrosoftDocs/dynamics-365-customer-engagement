@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Manage knowledge articles using content access levels
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Content access levels give another level of control separate from web roles to be able to control access to knowledge articles in a portal. Content access levels make a well-designed knowledge base more capable to provide the right content to the right audience. This allows for more structured learning paths that keep irrelevant content from surfacing.
 

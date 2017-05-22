@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Rate or vote on a webpage or blog post on a portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Ratings provides users with the ability to rate or vote on a webpage or [blog post](manage-blogs.md). Ratings can also be enabled for comments on pages or blog posts. By default, this feature is disabled and can be enabled on a page-by-page basis within Dynamics 365.  
 

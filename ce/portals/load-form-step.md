@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Load form and load tab step type
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 This step type allows the web form step to act as an entity form within the overall web form process. It loads a form from Dynamics 365 with a similar set of options available as an Entity Form.
 

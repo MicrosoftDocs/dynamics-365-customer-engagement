@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Add dynamic content and create custom templates
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Liquid is an open-source template language integrated into portals. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. With Liquid, you can:
 

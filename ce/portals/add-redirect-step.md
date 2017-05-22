@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Redirect step type
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The Redirect Step Type allow for a redirect of the User's browser session to another page in the portal or to an external URL. This is useful for seamlessly directing flow.
 

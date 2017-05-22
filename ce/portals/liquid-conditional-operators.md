@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Conditional
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 When used in conditional statements (**if**, **unless**), some Liquid values will be treated as true, and some will be treated as false.
 

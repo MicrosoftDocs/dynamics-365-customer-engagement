@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create a custom page template to render an RSS feed
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 In this example, we'll create a custom page template to render an [*RSS feed*](http://en.wikipedia.org/wiki/RSS) of news articles, using Liquid and a Web Template Page Template. More information: [*Store source content by using web templates*](store-content-web-templates.md)  
 

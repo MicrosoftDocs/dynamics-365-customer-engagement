@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Facebook App (Page Tab) authentication for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Dynamics 365 portals are capable of hosting Facebook Apps in the context of a [Facebook Page Tab](https://developers.facebook.com/docs/appsonfacebook/pagetabs/). This is achieved by employing features such as Login with Facebook and ASP.Net MVC Display Modes.  
 

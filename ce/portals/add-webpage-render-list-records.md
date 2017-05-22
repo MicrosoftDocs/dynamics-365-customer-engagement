@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Add a webpage to render a list of records
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Entity List is a data-driven configuration that provides you with the ability to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. Using Entity List, you can expose Dynamics 365 records for display on portals.
 

@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Get started with the portal content editor
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Dynamics 365 portals offers a powerful suite of editing tools. Users with suitable permissions can add, modify, or delete webpages and their content without having to directly access the databases and web servers that physically contain these entities. Editing can be performed in any modern browser and is accomplished through the use of two powerful yet intuitive tools. More information: [Control webpage access for portals](webpage-access-control.md)  
 

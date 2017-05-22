@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Web form steps for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The Web Form Step provides the flow logic of the form's user experience such as steps and conditional branching. It also provided details regarding the rendering of a form and additional behavior.
 

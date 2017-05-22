@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Manage portal content
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Create, edit, and curate your portal content to provide information and illustrate the products and services that you offer. By managing portal content, you can create a helpful environment to foster discussion, solve issues, and learn.
 

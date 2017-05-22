@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Liquid objects
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Liquid objects contain attributes to output dynamic content to the page. For example, the pageobject has an attribute called title that can be used to output the title of the current page.
 
@@ -104,7 +104,7 @@ The following objects can be used and accessed anywhere, in any template.
 
 ## ads
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Provides the ability to access and render an ad.
 
@@ -188,7 +188,7 @@ An adplacement is an entity object, with all of the same attributes, in addition
 
 ## blogs
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Provides the ability to access and render Blogs and Blog Posts.
 
@@ -325,7 +325,7 @@ The following table explains various attributes associated with blogpost Object.
 
 ## entities
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Allows you to load any Dynamics 365 entity by ID. If the entity exists, an entity object will be returned. If an entity with the given ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
 
@@ -470,7 +470,7 @@ Attempts to load reflexive (i.e. self-referential) relationships on entities are
 
 ## entitylist
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The entitylist object is used within the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags). It provides access to all the attributes of a given entity list.  
 
@@ -571,7 +571,7 @@ The entitylist object is used within the [*Dynamics 365 entity tags*](#dynamics-
 
 ## entityview
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The entityview object is used within the entityview tag, and provides access to the metadata for the view, as well as view result records.
 
@@ -607,7 +607,7 @@ The entityview object is used within the entityview tag, and provides access to 
 
 ## events
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Provides the ability to access and render Events. The events object allows you to select a specific event, or all events.
 
@@ -683,7 +683,7 @@ Represents a single event occurrence. The associated attributes are given below:
 
 ## forloop
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
 
@@ -736,7 +736,7 @@ Output
 
 ## forums
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Provides the ability to access and render Forums and Forum Threads. Note that the ability to use liquid to render forum data extends to posts, but in order to create a new post of thread, you must use an ASP.NET web forms Page Template with said functionality built in (such as the default Forum Thread and Forum Post Page Templates).
 
@@ -883,7 +883,7 @@ A Single Forum Post
 
 ## page
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Refers to the current portal request page. This object combines the attributes of the [*sitemap*](#sitemap) and the current request [*entities*](#entities) (usually a webpage).  
 
@@ -981,7 +981,7 @@ The page object provides access to things like the breadcrumbs for the current p
 
 ## polls
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Provides the ability to access and render a poll.
 
@@ -1084,7 +1084,7 @@ The polls object allows you to select a specific poll or poll placement:
 
 ## request
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Contains information about the current HTTP request.
 
@@ -1125,7 +1125,7 @@ Contains information about the current HTTP request.
 
 ## searchindex
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The searchindex object is used within the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags), and provides access to the results of a query.  
 
@@ -1203,7 +1203,7 @@ The searchindex object is used within the [*Dynamics 365 entity tags*](#dynamics
 
 ## settings
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Allows you to load any [*Configure site settings for portals*](configure-site-settings.md) by name. If a setting with the given name is not found, [*Liquid types*](#liquid-types) will be returned.  
 
@@ -1243,7 +1243,7 @@ Allows you to load any [*Configure site settings for portals*](configure-site-se
 
 ## sitemap
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Allows access to the portal site map.
 
@@ -1318,7 +1318,7 @@ It's also possible to load a site map node by URL path:
 
 ## sitemarkers
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Allows you to load any site marker by name. If the sitemarker exists, a sitemarker object will be returned. If a sitemarker with the given name is not found, [*Liquid types*](liquid-types.md) will be returned.  
 
@@ -1358,7 +1358,7 @@ Allows you to load any site marker by name. If the sitemarker exists, a sitemark
 
 ## snippets
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Allows you to load any content snippets by name. If a snippet with the given name is not found, [*Null*](#null) will be returned.  
 
@@ -1386,7 +1386,7 @@ Allows you to load any content snippets by name. If a snippet with the given nam
 
 ## tablerowloop
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
 
@@ -1419,7 +1419,7 @@ Contains properties useful within a [*Iteration tags*](#iteration-tags) loop blo
 
 ## user
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Refers to the current portal user, allowing access to all attributes of the underlying Dynamics 365 contact record. If no user is signed in, this variable will be [*Liquid types*](liquid-types.md).  
 
@@ -1449,7 +1449,7 @@ In addition to having all of the attributes of an [*entities*](#entities), user 
 
 ## weblinks
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Refers to the portal [*website*](#website-1), allowing access to all attributes of the Dynamics 365 Website (adx\_website) record for the portal.  
 
@@ -1475,7 +1475,7 @@ Output
 
 ## website
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Allows you to load any [*weblinks*](#weblinks) by name or ID.  
 

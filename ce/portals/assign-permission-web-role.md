@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Assign a permission set to a web role for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Website Access Permissions is a permission set, associated with a web role, that permits front-side editing of the various content managed elements within the portal other than just webpages. The permission settings determine which components can be managed in the portal. More information: [Create web roles for portals](create-web-roles.md)  
 

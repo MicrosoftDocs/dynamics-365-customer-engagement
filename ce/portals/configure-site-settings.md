@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Configure site settings for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 A Site Setting is a configurable named value that is used by website code to modify the behavior or visual style of the portal. Typically when a developer creates the website code, they will reference Site Settings for various components to enable an end user to modify the setting values to alter the website without having to change the code, recompile, and redeploy the website.
 

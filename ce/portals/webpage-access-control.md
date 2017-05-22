@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Control webpage access for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Web page access control rules are rules that you create for your site to control both the publishing actions that a web role can perform across the pages of your website as well as to control what pages are visible by what web roles. The webpage access entity has the following attributes:
 

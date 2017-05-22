@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Web Form subgrid configuration for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Web Form Subgrids are configured in an identical fashion to Entity Form Subgrids. First, Create a Metadata record for the Web Form Step that has a subgrid, and add configuration metadata.
 

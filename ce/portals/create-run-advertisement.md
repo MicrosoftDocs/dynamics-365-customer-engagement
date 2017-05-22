@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create and run advertisements on a portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 ## Create and run advertisements
 

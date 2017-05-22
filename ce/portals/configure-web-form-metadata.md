@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Web form metadata for portals
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with Dynamics 365's native entity form editing capabilities.
 

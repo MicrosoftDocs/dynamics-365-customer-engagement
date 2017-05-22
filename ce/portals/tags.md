@@ -40,7 +40,7 @@ The following topics describe each type of tag:
 
 ## Control flow tags
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Control Flow tags determine which block of code should be executed and what content should be rendered based on given conditions. Conditions are built using the available [*Understand Liquid operators*](liquid-operators.md), or just based on [*Conditional*](#conditional).  
 
@@ -112,7 +112,7 @@ A switch statement to compare a variable to different values, and execute a diff
 
 ## Iteration tags
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Iteration tags are used to run/render a block of code repeatedly.
 
@@ -460,7 +460,7 @@ Code
 
 ## Variable tags
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Variable tags are used to create new Liquid variables.
 
@@ -516,7 +516,7 @@ Output
 
 ## Template tags
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Template tags control the output of a template in various ways, and allow the combination of multiple templates into a single output.
 
@@ -576,7 +576,7 @@ Output
 
 ## Dynamics 365 entity tags
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Dynamics 365 entity tags are used to load and display Dynamics 365 data, or use other Dynamics 365 portals framework services. These tags are Dynamics 365-specific extensions to the Liquid language.
 

@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Store source content by using web templates
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Web Template is a Dynamics 365 entity (adx\_webtemplate), included with Dynamics 365 portals, that is used to store template source content. A web template will generally contain Liquid for dynamic content rendering and is the central entity used to integrate Liquid templates with the rest of the Dynamics 365 portals system.
 

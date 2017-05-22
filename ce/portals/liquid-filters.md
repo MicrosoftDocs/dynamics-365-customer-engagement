@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Liquid filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Liquid filters are used to modify the output of strings, numbers, variables, and objects. They are separated from the value to which they are being applied by a |.
 
@@ -60,7 +60,7 @@ The following topics describe each type of filter:
 
 ## Array filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Array filters are used to work with [*Liquid types*](liquid-types.md).  
 
@@ -432,7 +432,7 @@ Select all the objects in an array where a given attribute has a given value.
 
 ## Date filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Date filters can be used for date arithmetic or to convert DateTime values into various formats.
 
@@ -610,7 +610,7 @@ Output
 
 ## Entity list filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Entity List filters are used to work with certain [*entitylist*](#entitylist) attribute values, and to help create entity list views.  
 
@@ -660,7 +660,7 @@ Output
 
 ## Math filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Math filters allow you to perform mathematical operations on [*Liquid types*](liquid-types.md).  
 
@@ -832,7 +832,7 @@ Output
 
 ## String filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 String filters manipulate [*Liquid types*](liquid-types.md).  
 
@@ -1120,7 +1120,7 @@ Output
 
 ## Type filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Type filters allow you to convert values of one type into other types.
 
@@ -1220,7 +1220,7 @@ Attempts to convert a value into its string representation. If the value is alre
 
 ## URL filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 URL filters allow you to build or extract parts of URLs.
 
@@ -1362,7 +1362,7 @@ Output
 
 ## Additional filters
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 These filters provide useful general functionality.
 

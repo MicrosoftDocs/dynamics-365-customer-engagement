@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Subscribe to alerts
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Forum users can subscribe to threads and receive alerts when new posts are added keeping them up-to-date on conversations of importance. Alert settings are attached to the user's contact record providing further insight into the user's intent.
 

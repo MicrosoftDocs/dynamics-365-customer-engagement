@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create a theme for your portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 When you build portals with the portal capabilities for with Microsoft Dynamics 365, you'll be using the [Bootstrap front-end framework](http://getbootstrap.com/). By taking advantage of the Bootstrap ecosystem, you can quickly and easily brand these portals for your organization.  
 

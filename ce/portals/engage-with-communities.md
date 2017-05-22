@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Engage with communities by using the community portal
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Keep your customer engagement strong by growing a community, publishing articles, gathering user feedback, and acting on user-provided ideas. With out-of-the-box solutions available with portals you can:
 

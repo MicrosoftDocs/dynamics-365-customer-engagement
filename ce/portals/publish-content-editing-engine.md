@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Use the front-side editing engine to publish content
 
-Applies To: Dynamics 365 (online), Dynamics CRM Online
+
 
 Learn how to use the content editor and edit the content of a webpage: edit text, create links and display images.
 
