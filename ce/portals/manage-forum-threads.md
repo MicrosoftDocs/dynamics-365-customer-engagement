@@ -39,17 +39,11 @@ You can create, edit, and delete forum threads in Dynamics 365.
 
 ### Edit an existing thread
 
-1.  Double-click on the **Forum Thread** listed in the grid
-
-<!-- -->
-
-1.  Specify values for the fields provided.
-
-|  **Note **                                                                                                                                                                        |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+1. Double-click on the **Forum Thread** listed in the grid. 
+2. Specify values for the fields provided.
+> [!Note]                                
 | You will need to create the original [forum posts](create-forum-posts.md) to be associated with this thread and assign the newly created forum post record to the **First Post** and **Last Post** lookup fields provided. |  
-
-1.  Click **Save & Close**
+3.  Click **Save & Close**.
 
 ## Create forum threads on the portal
 
@@ -57,7 +51,6 @@ The forum thread editor will appear automatically when a user has successfully s
 
 1.  Navigate to the forum page within the portal that you would like to post a new thread in
 
-<!-- -->
 
 1.  Specify a **Thread Title**
 
@@ -90,13 +83,9 @@ The table below explains many of the Forum Thread attributes used by Portals. It
 
 ### Create, edit and delete forum thread types
 
-1.  Login to **Dynamics 365**
-
-<!-- -->
-
-1.  Navigate to **Community**
-
-2.  Click **Forum Thread Types**
+1.  Login to **Dynamics 365** 
+2. Navigate to **Community** 
+3. Click **Forum Thread Types**
 
 ### Create a new thread type
 
@@ -105,12 +94,8 @@ The table below explains many of the Forum Thread attributes used by Portals. It
 ### Edit an existing thread type
 
 1.  Double-click on the **Forum Thread Type** listed in the grid
-
-<!-- -->
-
-1.  Specify values for the fields provided
-
-2.  Click **Save & Close**
+2.  Specify values for the fields provided
+3.  Click **Save & Close**
 
 ## Forum thread type attributes
 
@@ -130,4 +115,3 @@ The table below explains many of the Forum Thread Type attributes used by portal
 [Create forum posts on the portal](create-forum-posts.md)  
 [Moderate forums](moderate-forums.md)  
 [Subscribe to alerts](subscribe-alerts.md)  
-
