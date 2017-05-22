@@ -53,7 +53,7 @@ The forum thread editor will appear automatically when a user has successfully s
 
 The table below explains many of the Forum Thread attributes used by Portals. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
 
-| Name           | Description                                                                                                                 |
+|Name           |Description                                                                                                                 |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Name           | The descriptive name of the record. This value will be used as the thread title in most templates. This field is required.  |
 | Forum          | The [forums](setup-moderate-forums.md) associated with the thread.                                                       |  
@@ -88,7 +88,7 @@ The table below explains many of the Forum Thread attributes used by Portals. It
 
 The table below explains many of the Forum Thread Type attributes used by portals. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
 
-| Name            | Description                                                                                                                             |
+|Name            |Description                                                                                                                             |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Name            | The descriptive name of the record. This value will be used as the title of the type in the page templates. This field is required.     |
 | Website         | The webpages associated with the type.                                                                                                  |
