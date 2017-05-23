@@ -14,8 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Create, edit, and distribute opportunities in Dynamics 365
-
-
+[comment]: <> (need more step wise 'how-to' information)
 
 In your partner portal, you can use opportunities to notify your partners of sales prospects that they can follow up on. You may have opportunities for existing customers or from new customers, and by distributing them to your partners, you can create new revenue sources or strengthen relationships with current customers.
 
@@ -23,17 +22,11 @@ Distributing opportunities to specific partners can also help connect customers 
 
 ## Create an opportunity
 
-1.  Go to **Sales** &gt; **Opportunities**.
-
-<!-- -->
-
-1.  Click **New**.
-
-2.  In the **Summary** area of the Opportunity page, enter the topic and contact information for the opportunity. You can also change the currency for the opportunity.
-
-3.  Add any details in the **Customer Situation**, **Customer Need**, and **Proposed Solution** fields.
-
-4.  Click **Save**.
+1. Go to **Sales** &gt; **Opportunities**. 
+2. Click **New**. 
+3. In the **Summary** area of the Opportunity page, enter the topic and contact information for the opportunity. You can also change the currency for the opportunity. 
+4. Add any details in the **Customer Situation**, **Customer Need**, and **Proposed Solution** fields. 
+5. Click **Save**.
 
 ## Distribute an opportunity
 
@@ -42,31 +35,19 @@ You can distribute opportunities manually or use the preferred partner assignmen
 Distribute opportunities manually when you know which partner you want to assign an opportunity to. By manually distributing an opportunity, you can ensure that it goes to the partner who is most suited to meet the customer's needs.
 
 ### Distribute opportunities manually
-
-1.  Go to **Sales** &gt; **Opportunities**.
-
-<!-- -->
-
-1.  Click the opportunity you want to edit.
-
-2.  In the **Partner Details** area of the Opportunity page, enter the partner account you want to distribute the opportunity to in the **Partner** field.
-
-3.  Change the **Status** of the opportunity to **Delivered**.
-
-4.  Click **Save**.
+1. Go to **Sales** &gt; **Opportunities**.
+2. Click the opportunity you want to edit.
+3. In the **Partner Details** area of the Opportunity page, enter the partner account you want to distribute the opportunity to in the **Partner** field.
+4. Change the **Status** of the opportunity to **Delivered**.
+5. Click **Save**.
 
 ### Distribute opportunities to multiple partners
 
 1.  Go to **Sales &gt; Opportunities**.
-
 2.  Click the opportunity you want to edit.
-
 3.  Under the **General** tab in the **Partner Pipelin**e section, select the **Partner Collaboration** checkbox.
-
 4.  Scroll down to the **Partner Collaboration Accounts** section and press the **+** button to add the partners you want to distribute the opportunity to.
-
 5.  Change the **Status** of the opportunity to **Accepted**.
-
 6.  Click **Save**.
 
 ## Enable partners to view the progress of an opportunity
@@ -87,5 +68,4 @@ Partners can register deals for opportunities that they have made on the portal 
 
 ## Approve opportunities registered by a partner
 
-After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity in Dynamics 365. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity created in Dynamics. To approve the opportunity, change the status to “Accepted”.
-
+After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity in Dynamics 365. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity created in Dynamics. To approve the opportunity, change its status to **Accepted**.

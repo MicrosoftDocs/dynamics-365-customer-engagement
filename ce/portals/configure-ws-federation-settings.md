@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # WS-Federation provider settings for portals
-
+[comment]: <> (Table formatting issues)
 
 
 A single Active Directory Federation Services server can be added (or another [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx)–compliant security token service) as an identity provider. In addition, a single [Azure ACS](http://azure.microsoft.com/en-us/documentation/articles/active-directory-dotnet-how-to-use-access-control/) namespace can be configured as a set of individual identity providers. The settings for both AD FS and ACS are based on the properties of the [WsFederationAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.aspx) class.  
