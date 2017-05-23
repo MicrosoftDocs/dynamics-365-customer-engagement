@@ -1,5 +1,5 @@
 ---
-title: "Link posts from Social Engagement to Dynamics 365 | MicrosoftDocs"
+title: "Link posts from Social Engagement to Dynamics 365 | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2017-05-19"

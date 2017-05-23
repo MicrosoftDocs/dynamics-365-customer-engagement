@@ -1,5 +1,5 @@
 ---
-title: "Analyze social data using widgets | MicrosoftDocs"
+title: "Analyze social data using widgets | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2016-11-18"

@@ -1,5 +1,5 @@
 ﻿---
-title: "Manage global settings | MicrosoftDocs"
+title: "Manage global settings | Microsoft Docs"
  
 description:
 

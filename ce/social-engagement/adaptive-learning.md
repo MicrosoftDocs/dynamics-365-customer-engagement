@@ -1,5 +1,5 @@
 ---
-title: "Adaptive learning based on changes to organization’s sentiment values | MicrosoftDocs"
+title: "Adaptive learning based on changes to organization’s sentiment values | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""

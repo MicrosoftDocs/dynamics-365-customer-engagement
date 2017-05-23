@@ -1,5 +1,5 @@
 ---
-title: "Route posts using automation rules | MicrosoftDocs"
+title: "Route posts using automation rules | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2017-02-15"

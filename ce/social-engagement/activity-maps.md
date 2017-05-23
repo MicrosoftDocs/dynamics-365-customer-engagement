@@ -1,5 +1,5 @@
 ---
-title: "Define activity maps to view real-time data | MicrosoftDocs"
+title: "Define activity maps to view real-time data | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""

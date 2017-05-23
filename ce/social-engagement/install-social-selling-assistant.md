@@ -1,5 +1,5 @@
 ---
-title: "Install Microsoft Dynamics 365 - Social Selling Assistant | MicrosoftDocs"
+title: "Install Microsoft Dynamics 365 - Social Selling Assistant | Microsoft Docs"
 description:
 
 ms.custom: ""

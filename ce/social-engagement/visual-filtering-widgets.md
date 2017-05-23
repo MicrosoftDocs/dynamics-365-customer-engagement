@@ -1,5 +1,5 @@
 ---
-title: "Perform visual filtering on widgets | MicrosoftDocs"
+title: "Perform visual filtering on widgets | Microsoft Docs"
  
 description:
 

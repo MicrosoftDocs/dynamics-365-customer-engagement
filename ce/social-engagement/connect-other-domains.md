@@ -1,5 +1,5 @@
 ---
-title: "Connect Social Engagement to other domains | MicrosoftDocs"
+title: "Connect Social Engagement to other domains | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2016-11-18"

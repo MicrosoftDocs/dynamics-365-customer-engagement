@@ -1,5 +1,5 @@
 ---
-title: "Manage the connection between Dynamics 365 and Social Engagement | MicrosoftDocs"
+title: "Manage the connection between Dynamics 365 and Social Engagement | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2017-05-19"

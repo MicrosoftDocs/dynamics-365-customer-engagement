@@ -1,5 +1,5 @@
 ---
-title: "Create or delete custom sources | MicrosoftDocs"
+title: "Create or delete custom sources | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2016-11-18"

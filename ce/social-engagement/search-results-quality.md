@@ -1,5 +1,5 @@
 ﻿---
-title: "Manage the quality of your search results | MicrosoftDocs"
+title: "Manage the quality of your search results | Microsoft Docs"
  
 description:
 

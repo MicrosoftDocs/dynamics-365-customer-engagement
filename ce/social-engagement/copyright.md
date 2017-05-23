@@ -1,5 +1,5 @@
 ---
-title: "Copyright | MicrosoftDocs"
+title: "Copyright | Microsoft Docs"
 ms.custom: ""
 ms.date: "2017-03-02"
 ms.reviewer: ""

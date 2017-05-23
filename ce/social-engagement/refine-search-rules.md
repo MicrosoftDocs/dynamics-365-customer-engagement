@@ -1,5 +1,5 @@
 ﻿---
-title: "Refine your search rules to find relevant content | MicrosoftDocs"
+title: "Refine your search rules to find relevant content | Microsoft Docs"
  
 description:
 

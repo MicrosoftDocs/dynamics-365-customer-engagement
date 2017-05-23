@@ -1,5 +1,5 @@
 ---
-title: "Connect Dynamics 365 and Social Engagement | MicrosoftDocs"
+title: "Connect Dynamics 365 and Social Engagement | Microsoft Docs"
 description: 
 ms.custom: ""
 ms.date: "2017-02-16"

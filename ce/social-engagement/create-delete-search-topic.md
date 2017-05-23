@@ -1,5 +1,5 @@
 ---
-title: "Create or delete a search topic | MicrosoftDocs"
+title: "Create or delete a search topic | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2017-03-14"

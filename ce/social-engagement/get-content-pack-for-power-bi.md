@@ -1,5 +1,5 @@
 ---
-title: "Get the Microsoft Social Engagement content pack for Power BI | MicrosoftDocs"
+title: "Get the Microsoft Social Engagement content pack for Power BI | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2017-05-19"

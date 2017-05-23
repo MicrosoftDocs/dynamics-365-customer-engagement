@@ -1,5 +1,5 @@
 ---
-title: "Accessibility for Microsoft Social Engagement | MicrosoftDocs"
+title: "Accessibility for Microsoft Social Engagement | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-11-25"
 ms.reviewer: ""

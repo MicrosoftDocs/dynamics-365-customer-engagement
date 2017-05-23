@@ -1,5 +1,5 @@
 ﻿---
-title: "Publish and react to posts | MicrosoftDocs"
+title: "Publish and react to posts | Microsoft Docs"
  
 description:
 

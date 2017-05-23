@@ -1,5 +1,5 @@
 ---
-title: "Add rules to a search topic | MicrosoftDocs"
+title: "Add rules to a search topic | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-11-18"
 ms.reviewer: ""

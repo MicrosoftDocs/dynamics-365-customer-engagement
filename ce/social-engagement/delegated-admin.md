@@ -1,5 +1,5 @@
 ---
-title: "Enable a partner as a delegated admin | MicrosoftDocs"
+title: "Enable a partner as a delegated admin | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2016-11-18"

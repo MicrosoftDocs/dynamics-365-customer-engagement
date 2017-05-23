@@ -1,5 +1,5 @@
 ---
-title: "Manage access tokens | MicrosoftDocs"
+title: "Manage access tokens | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2017-05-19"

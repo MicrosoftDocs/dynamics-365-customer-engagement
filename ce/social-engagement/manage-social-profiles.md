@@ -1,5 +1,5 @@
 ﻿---
-title: "Manage social profiles | MicrosoftDocs"
+title: "Manage social profiles | Microsoft Docs"
  
 description:
 

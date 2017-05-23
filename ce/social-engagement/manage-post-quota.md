@@ -1,5 +1,5 @@
 ﻿---
-title: "Manage your post quota | MicrosoftDocs"
+title: "Manage your post quota | Microsoft Docs"
  
 description:
 

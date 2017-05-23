@@ -1,5 +1,5 @@
 ﻿---
-title: "Manage licenses for Social Engagement | MicrosoftDocs"
+title: "Manage licenses for Social Engagement | Microsoft Docs"
  
 description:
 

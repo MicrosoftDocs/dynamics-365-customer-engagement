@@ -1,5 +1,5 @@
 ﻿---
-title: "Empower your salespeople with the Social Selling Assistant | MicrosoftDocs"
+title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
  
 description:
 

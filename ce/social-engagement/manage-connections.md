@@ -1,5 +1,5 @@
 ---
-title: "Manage connections in Social Engagement | MicrosoftDocs"
+title: "Manage connections in Social Engagement | Microsoft Docs"
  
 description:
 

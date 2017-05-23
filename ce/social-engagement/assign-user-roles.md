@@ -1,5 +1,5 @@
 ---
-title: "Assign permissions and user roles | MicrosoftDocs"
+title: "Assign permissions and user roles | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2017-05-19"

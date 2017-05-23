@@ -1,5 +1,5 @@
 ---
-title: "Work with Office 365 Groups in Social Engagement | MicrosoftDocs"
+title: "Work with Office 365 Groups in Social Engagement | Microsoft Docs"
  
 description:
 

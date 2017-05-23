@@ -1,5 +1,5 @@
 ---
-title: "Get details on specific authors | MicrosoftDocs"
+title: "Get details on specific authors | Microsoft Docs"
 description:
 ms.custom: ""
 ms.date: "2016-12-14"

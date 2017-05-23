@@ -1,5 +1,5 @@
 ﻿---
-title: "Keep track of live data streams with Social Center | MicrosoftDocs"
+title: "Keep track of live data streams with Social Center | Microsoft Docs"
  
 description:
 

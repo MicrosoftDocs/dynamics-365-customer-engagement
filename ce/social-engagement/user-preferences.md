@@ -1,5 +1,5 @@
 ---
-title: "Set your preferences for the user interface | MicrosoftDocs"
+title: "Set your preferences for the user interface | Microsoft Docs"
  
 description:
 
