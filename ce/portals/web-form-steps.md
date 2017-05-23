@@ -19,9 +19,8 @@ manager: sakudes
 
 The Web Form Step provides the flow logic of the form's user experience such as steps and conditional branching. It also provided details regarding the rendering of a form and additional behavior.
 
->  !Note                                                                                                                                                                                                                                                                                                                                |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web Forms persists the history of the steps a user has visited in an object on a Web Form Session entity. If a Web Form's steps have been modified, previously created history data could now be stale. Anytime steps are changed, it is recommended that you delete all Web Form Session records to eliminate miss match between sequence of steps logged in history and the current sequence. |
+>[!Note]
+>Web Forms persists the history of the steps a user has visited in an object on a Web Form Session entity. If a Web Form's steps have >been modified, previously created history data could now be stale. Anytime steps are changed, it is recommended that you delete all Web >Form Session records to eliminate miss match between sequence of steps logged in history and the current sequence.
 
 Each Web Form will be presented on the portal has one or more steps. These steps share some common properties, outlined below. Each Step contains a pointer (a lookup) to the next step, with the exception of terminal steps. Terminal steps do not have a next time, and are thus the last step of the Web Form (due to conditional branching, there can be multiple terminal steps)
 
