@@ -14,9 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Add a webpage to render a list of records
-
-
-
 Entity List is a data-driven configuration that provides you with the ability to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. Using Entity List, you can expose Dynamics 365 records for display on portals.
 
 The grid supports sorting and will be paginated if the number of records is larger than the Page Size specified. If the Web Page for Details View has been specified, each record will contain a link to the page and the ID of the record will be appended to the Query String along with the ID Query String Parameter Name. The Entity List also supports multiple views. If more than one view has been specified, a drop-down will rendered to allow the user to toggle between the various views.
@@ -27,9 +24,8 @@ The data can also be filtered by the current portal user, the current portal use
 
 The Entity List contains relationships to webpages and various properties in order to control the initialization of the list of records within the portal. The relationship to Web Page allows dynamic retrieval of the list definition for a given page node within the website. To view existing Entity Views or to create new Entity Views, navigate to **Portals** &gt; **Entity Lists**
 
-|  **Note**                                                   |  
-|-------------------------------------------------------------------------------------------------------------------|
-| A Entity List must be associated with a Web Page for a given website for the list to be viewable within the site. |
+> [!Note] 
+> A Entity List must be associated with a Web Page for a given website for the list to be viewable within the site.
 
 The Web Pages associated with the Entity List can be viewed by clicking the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When Creating your Entity List, the first step is to choose the Entity for which you want to render a list on the portal. You'll then choose one or more Dynamics 365 Views to render.
 
