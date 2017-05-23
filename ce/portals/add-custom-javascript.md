@@ -22,7 +22,7 @@ The custom block of JavaScript will added to the bottom of the page just before 
 
 The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with [jQuery](http://jquery.com/).  
 
-''' 
+<code> 
 $(document).ready
 (
 function() 
@@ -30,7 +30,7 @@ function()
 $("\#address1\_stateorprovince").val("Saskatchewan");
 }
 ); 
-'''
+</code>
 ## Additional client-side field validation
 
 Sometimes you may need to customize the validation of fields on the form. The following example demonstrates adding a custom validator. This particular example forces the user to specify an email only if the another field for preferred method of contact is set to 'Email'.
@@ -97,7 +97,7 @@ Sometimes you may need to customize the validation of fields on the form. The fo
 
 ## General validation
 
-On click of the next/submit button a function named **webFormClientValidate** is executed. You can extend this method to add custom validation logic.
+On click of the **Next**/**Submit** button a function named **webFormClientValidate** is executed. You can extend this method to add custom validation logic.
 
 **if (window.jQuery) {**
 
@@ -138,5 +138,4 @@ On click of the next/submit button a function named **webFormClientValidate** is
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  
-[Conditional step type](add-conditional-step.md)  
-
+[Conditional step type](add-conditional-step.md)
