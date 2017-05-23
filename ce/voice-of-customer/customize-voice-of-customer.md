@@ -52,7 +52,7 @@ You can start using [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voic
 3.  Change the values in **General Settings** areas as needed.
 
 >[!NOTE]
->If you're using a version of Voice of the Customer earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings>Solutions** to determine the version. 
+>If you're using a version of [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings>Solutions** to determine the version. 
 
 4.  Change the values in the **Response Fetching** and **General Settings** areas as needed.  
   
