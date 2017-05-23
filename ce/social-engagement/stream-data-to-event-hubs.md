@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-23"
+ms.date: 2017-05-23
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 56373722-6a46-4989-9d95-d2f572ba4936
 caps.latest.revision: 22
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Stream data from Social Engagement to Microsoft Azure Event Hubs
 Start building out your custom metrics or analysis based on the posts found by [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Using [Microsoft Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/)—a highly scalable publish-subscribe event ingestor that can intake millions of events per second—you can transform and store social data for further processing. Specify an automation rule in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and stream all posts that match a data set as events to a connected event hub. Once you have the data ingested into the event hub, you can access the data from any application that you connected to your event hub.  

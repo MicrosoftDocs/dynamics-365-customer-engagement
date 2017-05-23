@@ -2,18 +2,18 @@
 title: "Get help with Social Engagement | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: f191bbcd-1f93-42dc-8d6d-6aa8dae8c8f7
 caps.latest.revision: 38
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Get help with Social Engagement
 We have several ways to help you get started with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]:  

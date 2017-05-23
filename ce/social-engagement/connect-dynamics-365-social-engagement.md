@@ -2,18 +2,18 @@
 title: "Connect Dynamics 365 and Social Engagement | Microsoft Docs"
 description: 
 ms.custom: ""
-ms.date: "2017-02-16"
+ms.date: 2017-02-16
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: f8acc707-064a-47e3-9392-85396b9dda2c
 caps.latest.revision: 64
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Connect Dynamics 365 and Social Engagement
 Learn how to set up the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] so you can link social posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Linking posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] lets you automatically create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts that were found in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] by using the **Automatic Record Creation and Update Rules** feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  

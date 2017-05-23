@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 46e5157e-eb00-4bc1-a2ff-8d060e95869c
 caps.latest.revision: 62
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Manage licenses for Social Engagement
 Using  the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] and the features available for each user license type.  

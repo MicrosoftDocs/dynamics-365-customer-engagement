@@ -2,18 +2,18 @@
 title: "Administer Microsoft Social Engagement | Microsoft Docs"
 Description: 
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: 48e49a2f-d4f8-4fc7-b88d-890c15bfb561
 caps.latest.revision: 33
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Administer Microsoft Social Engagement
 Setting up the solution for your users is crucial for the effective usage of [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. To learn more about the main tasks for administering your solution, review the topics listed here.  

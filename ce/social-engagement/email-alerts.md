@@ -2,18 +2,18 @@
 title: "Stay up to date with alerts | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-03-02"
+ms.date: 2017-03-02
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: f2b7a251-39bf-4bb9-b963-0a98020e7f23
 caps.latest.revision: 40
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Stay up to date with alerts
 Create email notifications that are automatically sent to a group of recipients if a post or a change in trend matches your filters. Alerts are user specific, and every user role can create them. Manage your existing alerts in the **Message Center**. You can choose from two alert types:  

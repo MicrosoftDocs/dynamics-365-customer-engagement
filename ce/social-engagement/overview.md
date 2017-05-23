@@ -5,15 +5,16 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
+applies_to: "Social Engagement"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
 caps.latest.revision: 7
 author: "m-hartmann"
-ms.author: "mhart"
+ms.author: mhart
 ---
 # Overview
 

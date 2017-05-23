@@ -1,18 +1,18 @@
 ---
 title: "Get connected to the social conversation by using Microsoft Social Engagement | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 3097ddac-ea16-4448-8ac8-b97d85224ecc
 caps.latest.revision: 45
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Get connected to the social conversation by using Microsoft Social Engagement
 There’s a good chance that your customers and stakeholders are talking about your company, your products, or your services somewhere on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)], blogs—or anywhere on the web. With [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], you can stay on top of what people are saying on social media about your products or services, so that you can respond quickly and address the issues effectively.  

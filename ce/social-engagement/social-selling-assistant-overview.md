@@ -5,18 +5,17 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 98a20ce9-1374-4a52-a9a6-987fb75451e6
 caps.latest.revision: 18
 author: "m-hartmann"
-ms.author: "mhart"
+ms.author: mhart
 ---
 # Empower your salespeople with the Social Selling Assistant
 ## Meet Microsoft Dynamics 365 for Sales - Social Selling Assistant  

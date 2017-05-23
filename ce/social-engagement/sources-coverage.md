@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 050283f4-bc5b-42e1-9885-ebdcfd786521
 caps.latest.revision: 12
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Find out what&#39;s covered by sources
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can track public posts, and publish messages and replies. All sources can be filtered in Analytics for an up close look at your data. Find out what is covered with the following available sources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md), [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  

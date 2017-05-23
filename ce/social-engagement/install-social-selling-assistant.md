@@ -4,17 +4,17 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 788e0559-68f8-404c-b215-cf4b76a9cc18
 caps.latest.revision: 8
 author: "m-hartmann"
-ms.author: "mhart"
+ms.author: mhart
 ---
 # Install Microsoft Dynamics 365 - Social Selling Assistant
 Enabling the Social Selling Assistant for users of [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] is a two-step process. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Install the Social Selling Assistant](https://technet.microsoft.com/library/mt793319\(CRM.8\).aspx)  

@@ -2,17 +2,17 @@
 title: "Get the Microsoft Social Engagement content pack for Power BI | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
 caps.latest.revision: 22
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Get the Microsoft Social Engagement content pack for Power BI
 Engaging on social media by responding to posts is a core capability of [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. With this [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] content pack, you can now get insights on how your organization, and your teams are engaging with KPIs such as volume of interactions and average response times.  

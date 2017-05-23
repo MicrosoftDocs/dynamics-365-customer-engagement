@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 40ba637e-3eb2-40bc-b512-ff12aeb12f58
 caps.latest.revision: 60
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Understand user roles
 You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution users. Every user can be assigned two sets of roles: configuration roles and interaction roles. This gives administrators flexibility to manage user roles and permissions, and give users the functionality they need.  

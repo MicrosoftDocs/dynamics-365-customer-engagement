@@ -2,18 +2,18 @@
 title: "Understand widgets on the Overview page | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 8ac1759b-8534-43c9-a273-f56ce1505166
 caps.latest.revision: 36
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Understand widgets on the Overview page
 See key widgets on the Overview page. The widgets on this page provide information about the volume of posts, sources, and locations where these posts are coming from, topics discussed, languages used, and the details of influencing authors.  

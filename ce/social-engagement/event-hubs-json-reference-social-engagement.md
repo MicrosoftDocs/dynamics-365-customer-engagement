@@ -2,18 +2,18 @@
 title: "JSON reference for events from Social Engagement | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: e3a5774e-6bab-4a45-b328-014be8a831c3
 caps.latest.revision: 67
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # JSON reference for events from Social Engagement
 This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  

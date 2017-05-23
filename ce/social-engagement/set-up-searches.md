@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: get-started-article
+applies_to: "Social Engagement"
 ms.assetid: 76d88e28-2d9e-418f-bc96-90c7d9f993e4
 caps.latest.revision: 51
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Set up searches to listen to social media conversations
 Listen to conversations on social media around your brand, business, products, and competitors. The first step to successfully engaging with your customers and others on social media is setting up your search topics to be sure you’re capturing the right conversations. After you’ve captured these conversations, you can fine-tune your searches, analyze your data, and drill into the information that matters most.  

@@ -2,18 +2,18 @@
 title: "Microsoft Social Engagement FAQ | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 9e6c0f8c-b420-428e-9251-647801c62400
 caps.latest.revision: 11
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Microsoft Social Engagement FAQ
 Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] or looking for some help? We’ve compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  

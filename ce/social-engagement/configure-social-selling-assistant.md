@@ -2,17 +2,17 @@
 title: "Configure Social Engagement for the Social Selling Assistant | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-02-15"
+ms.date: 2017-02-15
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: bbed3178-9494-44bf-9d4e-1f78e84e729d
 caps.latest.revision: 17
 author: "m-hartmann"
-ms.author: "mhart"
+ms.author: mhart
 ---
 # Configure Social Engagement for the Social Selling Assistant
 Before you invite users to work with Social Selling Assistant, we recommend that an administrator configure [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], so users get the most out of the recommendation experience.  The personalized content feeds are based on the configuration in the connected [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution. Users can choose from the available search topics and social profiles to personalize their Social Selling Assistant settings.In the personalization process, users get to choose the search topics to get insights and recommendations for sharing. Also, they can add their own social profiles or view shared profiles for sharing the recommendations.  

@@ -2,18 +2,18 @@
 title: "Analyze the sources for the posts | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
 caps.latest.revision: 29
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Analyze the sources for the posts
 Understand which top social media sources are found most often in your search topics. Using the **Sources** page, you can view analytics such as top sources, top languages, and the sentiment values involved with the posts on these sources.  

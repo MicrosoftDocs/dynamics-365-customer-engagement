@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 97fcbd04-f3ce-4591-9e17-4ac08017258c
 caps.latest.revision: 57
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Manage global settings
 Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution, letting your users start efficiently with your organizational requirements.  

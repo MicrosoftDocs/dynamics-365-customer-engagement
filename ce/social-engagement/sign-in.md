@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: cf28bc71-9085-4e3f-a00c-a6e4d92179c8
 caps.latest.revision: 7
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Sign in to Social Engagement
 To sign in to Social Engagement, you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](../social-engagement/manage-licenses.md#ManageLicenses).  

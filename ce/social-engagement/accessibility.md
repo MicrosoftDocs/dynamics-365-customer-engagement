@@ -1,18 +1,18 @@
 ---
 title: "Accessibility for Microsoft Social Engagement | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-11-25"
+ms.date: 2016-11-25
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
 caps.latest.revision: 19
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Accessibility for Microsoft Social Engagement
 [Microsoft is committed to making its products and services easier for everyone to use](http://go.microsoft.com/fwlink/p/?LinkId=526256).  

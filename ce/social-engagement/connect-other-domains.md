@@ -2,18 +2,18 @@
 title: "Connect Social Engagement to other domains | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: dbde8454-c0e6-4914-9818-6eee4c6aeb0f
 caps.latest.revision: 27
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Connect Social Engagement to other domains
 Enable communication between [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] and other compatible applications (such as [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) by adding domains that are allowed to make requests for your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] data to a list. You can remove domains from the list to disallow communications.  

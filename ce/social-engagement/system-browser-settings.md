@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: b7134fb0-2a84-4881-9ded-05fab9edcfc8
 caps.latest.revision: 11
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Optimize browser settings for Social Engagement
 In our everyday lives, we use our favorite browsers to work with web applications and surf the Internet.  Some browser settings can impact the user experience for a few features in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. This topic discusses recommended browser settings for a smooth experience.  

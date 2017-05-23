@@ -2,18 +2,18 @@
 title: "Analyze social data using widgets | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: da974b6a-b242-40b6-95ad-df81ac78191e
 caps.latest.revision: 32
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Analyze social data using widgets
 Use widgets to visualize your organization’s data analytics. The easy-to-understand, visual metrics that are displayed on these widgets show you what your customers or prospects are saying about your product and services. Identify any issues or compliments that are mentioned about your products or services on social media sources. Using this analysis, you can also understand how your team is working toward the social strategies of your organization.  

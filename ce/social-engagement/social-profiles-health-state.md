@@ -5,17 +5,16 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 4d0153a1-4d21-4a73-8685-2ce2e6c55e9f
 caps.latest.revision: 12
-ms.author: "dechang"
+ms.author: mhart
 ---
 # Check the health state of your social profiles
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides health state checks for tokens, social profiles, acquisitions, and interactions so you can make sure your accounts are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will notify you through email and in the application when your critical acquisition tokens are about to expire. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  

@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 39b154e6-2a78-44bf-864e-e03da3d184c0
 caps.latest.revision: 15
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Explore more options with your data set
 Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], data sets are often key to an accurate and detailed analysis. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set a baseline for your analysis with a data set](../social-engagement/use-filters.md#data_set)  

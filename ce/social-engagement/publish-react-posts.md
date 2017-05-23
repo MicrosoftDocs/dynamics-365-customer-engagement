@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 232849dd-218d-4cf0-8561-03c865120657
 caps.latest.revision: 73
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Publish and react to posts
 Staying in touch with customers, prospects, and other stakeholders through social media channels is a key factor in business success. Take action on posts that you find with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Share, like, or comment on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] posts, or retweet, like, or reply to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts to stay in touch with and engage with your audience. Start a conversation by writing new posts from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  

@@ -1,18 +1,18 @@
 ---
 title: "Adaptive learning based on changes to organization’s sentiment values | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 2c056a5c-d890-4106-837a-d4b403e011a1
 caps.latest.revision: 12
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Adaptive learning based on changes to organization’s sentiment values
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] now uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  

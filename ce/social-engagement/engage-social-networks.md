@@ -1,15 +1,16 @@
 ﻿---
 title: "FRE: Service - Engage on social networks | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/11/2017"
+ms.date: 05/11/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 0c5c29b5-c4f8-43e2-b20e-65408303e53a
 caps.latest.revision: 5
 author: "m-hartmann"
-ms.author: "mhart"
+ms.author: mhart
 ---
 # FRE: Service - Engage on social networks
 Do you want to offer a fast and powerful support to your customers on social channels? This learning path provides a step by step description how you and your team can use [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to solve your customer's requests happening on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows to keep track of all customer requests, adding intelligence on top and eventually answering them directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or routing them into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.  
@@ -53,7 +54,7 @@ Do you want to offer a fast and powerful support to your customers on social cha
 >  Some of the capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 <a name="SP_1"></a>   
-## Manage social profiles   to participate in conversations  
+## Manage social profiles to participate in conversations  
  Learn how to add and share social profiles and streams in Social Center, how to keep them up and running, an how to enable users to post on behalf of your organization.  
   
 1.  Add a new social profile: [Manage social profiles](../social-engagement/manage-social-profiles.md)  

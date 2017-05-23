@@ -2,18 +2,18 @@
 title: "Get details on specific authors | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2016-12-14"
+ms.date: 2016-12-14
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 99522a0a-cc87-4530-8595-afd48c1a2a3f
 caps.latest.revision: 8
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Get details on specific authors
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors of a post matching your data sets. Learn about author interests and their backgrounds through author lookup, to keep track of people who impact your social feed.  

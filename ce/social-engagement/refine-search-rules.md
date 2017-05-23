@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 8ce8506f-179d-4eae-a56a-e9293e935d26
 caps.latest.revision: 39
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Refine your search rules to find relevant content
 Analyze your results and optimize your search queries regularly to make sure you get the most relevant data. Your searches may return posts that are irrelevant in the context you are looking for. For example, if you want to search for the [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] operating system and have “Windows” as your search keyword, you are likely to find results about house windows. In this case, consider adding “OS” or similar terms to make sure you’re searching for the operating system.  

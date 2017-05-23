@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 1d821d1e-2c8c-4aa2-a93c-5c0b3572fde9
 caps.latest.revision: 4
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Microsoft Social Engagement Privacy Notices
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  

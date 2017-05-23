@@ -1,11 +1,11 @@
 ---
 title: "Copyright | Microsoft Docs"
 ms.custom: ""
-ms.date: "2017-03-02"
+ms.date: 2017-03-02
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: e08bd48c-8a3c-4f20-887c-b7277ac8fc27
 caps.latest.revision: 11
 author: "ReneeW-CPub"

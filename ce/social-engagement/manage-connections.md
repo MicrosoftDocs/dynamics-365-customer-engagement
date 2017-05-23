@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: get-started-article
+applies_to: "Social Engagement"
 ms.assetid: 7b9ac951-beb1-46e7-a585-edadd941a3df
 caps.latest.revision: 14
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Manage connections in Social Engagement
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] lets admins connect to and share social data with other applications.  To work with social data in other applications, you can connect them on the Connections page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Settings area. Depending on the application you want to connect to, the type of connection varies.  

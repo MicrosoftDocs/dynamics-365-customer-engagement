@@ -2,18 +2,18 @@
 title: "See the locations for the posts | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 8aec5246-e411-4fb9-9790-2bcd94438038
 caps.latest.revision: 44
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # See the locations for the posts
 View the analysis for geographical location information contained in posts or in authors’ profiles. Using the **Location** page, you can view details such as top locations, top languages, and top location groups.  

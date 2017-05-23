@@ -2,18 +2,18 @@
 title: "Get started with Social Engagement | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 caps.latest.revision: 101
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Get started with Social Engagement
 This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  

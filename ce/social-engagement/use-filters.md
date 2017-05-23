@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 30c01cd4-4df3-42db-a10b-48ddb67e67c4
 caps.latest.revision: 85
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Use filters to see relevant data
 You can use filters to slice and dice your data to narrow your analysis to the most relevant view of the data. Imagine a steady stream of data where your search topics define the posts that are selected and available for analysis. Filters can narrow your view of the data to a more restricted data set. If you navigate the application by drilling down into the data, filters are applied and removed automatically.  

@@ -5,17 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 864f81b7-bf35-4302-8da5-585c71cba333
 caps.latest.revision: 4
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # View posts and conversations in Social Engagement
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides two ways to access the list of posts that match a given data set. You can either work with the post list or with a stream, depending on your requirements and preferences.  

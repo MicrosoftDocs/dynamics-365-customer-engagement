@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
- - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 caps.latest.revision: 176
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # What&#39;s new in Microsoft Social Engagement
 Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here's a list of features we added recently. 

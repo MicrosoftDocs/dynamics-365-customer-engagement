@@ -1,18 +1,18 @@
 ---
 title: "Add rules to a search topic | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
 caps.latest.revision: 86
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Add rules to a search topic
 Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.  

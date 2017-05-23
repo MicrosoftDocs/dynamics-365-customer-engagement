@@ -2,17 +2,17 @@
 title: "Manage access tokens | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
 caps.latest.revision: 20
 ms.author: "dechang"
-manager: "sakudes"
+manager: sakudes
 ---
 # Manage access tokens
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] requires you to provide access tokens in order to acquire data and interact with posts for social profiles. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles, require access tokens before you can acquire and interact with posts. [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts require access tokens to acquire posts. Access tokens enable data acquisition and can be easily supplied by logging into your social media account. Acquisition tokens will not post anything to personal [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts. We advise users to add at least two different tokens to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Adding more tokens can guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens. Before adding a user token, make sure you have the appropriate user roles to add a social profile.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  

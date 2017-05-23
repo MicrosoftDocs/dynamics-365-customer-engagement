@@ -5,19 +5,18 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
 caps.latest.revision: 67
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Manage social profiles
 In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profiles are the profiles on social networks that you authenticate with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  

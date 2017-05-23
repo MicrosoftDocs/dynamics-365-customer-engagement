@@ -5,18 +5,17 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 534adc26-856a-403d-ac6b-3a3c3518470f
 caps.latest.revision: 11
 author: "m-hartmann"
-ms.author: "mhart"
+ms.author: mhart
 ---
 # Personalize the Social Selling Assistant
 When using the Social Selling Assistant for the first time, users will get recommendations for all available search topics in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. To personalize the experience, we recommend each user to select specific topics that are of interest to them. Additionally, users must add their social profiles to be able to share content recommendations on their networks.  

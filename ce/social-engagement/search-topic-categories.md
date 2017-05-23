@@ -5,18 +5,17 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 09b50997-aa34-4c59-8eb5-949f5ea50f7a
 caps.latest.revision: 19
 ms.author: "dechang"
-manager: "sakudes"
+manager: sakudes
 ---
 # Group search topics into categories
 You can use categories to structure and group search topics in  ways that make the most sense to you. Although categories have no impact on the posts that result from your search topics, they help greatly to organize your searches.  
