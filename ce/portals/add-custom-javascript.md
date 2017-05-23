@@ -16,18 +16,16 @@ manager: sakudes
 # Custom JavaScript
 The Web Form Step record contains a field named **Custom JavaScript** that can be used to store JavaScript code to allow you to extend or modify the form's visual display or function.
 
-[comment]: <> (This is a comment, it will not be included)
-
 The custom block of JavaScript will added to the bottom of the page just before the closing form tag element.
 
 ## Form fields
 
 The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with [jQuery](http://jquery.com/).  
 
-'''$(document).ready(function() 
+''' $(document).ready(function() 
 {
 $("\#address1\_stateorprovince").val("Saskatchewan");
-});
+}); 
 '''
 ## Additional client-side field validation
 
