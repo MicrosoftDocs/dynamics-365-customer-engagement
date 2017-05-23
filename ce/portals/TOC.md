@@ -197,7 +197,7 @@
 ##  [Manage child pages](get-started-portal-content-editor.md#manage-child-pages)
 ##  [Delete a page](get-started-portal-content-editor.md#delete-a-page)
 # [Use hybrid navigation to render page hierarchy](hybrid-navigation-render-page-hierachy.md)
-###  [Copyright](hybrid-navigation-render-page-hierachy.md#copyright)
+##  [Copyright](hybrid-navigation-render-page-hierachy.md#copyright)
 # [Improve search with faceted search](improve-portal-search-faceted-search.md)
 ##  [Enable or disable faceted search](improve-portal-search-faceted-search.md#enable-or-disable-faceted-search)
 ##  [Group entities as part of a record type for faceted view](improve-portal-search-faceted-search.md#group-entities-as-part-of-a-record-type-for-faceted-view)
