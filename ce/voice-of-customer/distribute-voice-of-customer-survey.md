@@ -17,7 +17,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Send out an invitation for your Voice of the Customer survey 
-You can invite respondents to take part in a Voice of the Customer for Dynamics 365 survey in different ways, depending on how you want to send the invitation out, whether you want non-anonymous responses, and whether you want to pipe data to the survey.  
+You can invite respondents to take part in a [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey in different ways, depending on how you want to send the invitation out, whether you want non-anonymous responses, and whether you want to pipe data to the survey.  
   
  Surveys can be:  
   
