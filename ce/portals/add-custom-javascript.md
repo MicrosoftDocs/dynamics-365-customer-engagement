@@ -16,6 +16,8 @@ manager: sakudes
 # Custom JavaScript
 The Web Form Step record contains a field named **Custom JavaScript** that can be used to store JavaScript code to allow you to extend or modify the form's visual display or function.
 
+[comment]: <> (This is a comment, it will not be included)
+
 The custom block of JavaScript will added to the bottom of the page just before the closing form tag element.
 
 ## Form fields
