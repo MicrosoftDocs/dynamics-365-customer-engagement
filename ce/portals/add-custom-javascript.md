@@ -31,10 +31,10 @@ $("\#address1\_stateorprovince").val("Saskatchewan");
 }
 ); 
 </code>
+
 ## Additional client-side field validation
-
 Sometimes you may need to customize the validation of fields on the form. The following example demonstrates adding a custom validator. This particular example forces the user to specify an email only if the another field for preferred method of contact is set to 'Email'.
-
+<code>
 **if (window.jQuery) {**
 
 **(function ($) {**
@@ -94,6 +94,7 @@ Sometimes you may need to customize the validation of fields on the form. The fo
 **}(window.jQuery));**
 
 **}**
+</code>
 
 ## General validation
 
