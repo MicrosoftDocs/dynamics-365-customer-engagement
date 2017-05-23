@@ -113,25 +113,20 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 
 ## Add custom Javascript
 
-The Options tab on the form contains a text area that you can enter custom JavaScript and if your page includes jQuery library then you can use that here as well. The script block will be added at the bottom of the webpage just before the page’s closing form tag.![Custom JavaScript example](media/custom-javascript-example.png "Custom JavaScript example")  
+The Options tab on the form contains a text area that you can enter custom JavaScript and if your page includes jQuery library then you can use that here as well. The script block will be added at the bottom of the webpage just before the page’s closing form tag.
+
+![Custom JavaScript example](media/custom-javascript-example.png "Custom JavaScript example")  
 
 The list gets its data asynchronously and when it is complete it will trigger an event "loaded" that your custom JavaScript can listen for and do something with items in the grid. The following is a trivial example:
 
-1.  $(document).ready(function (){
-
-2.  $(".entitylist.entity-grid").on("loaded", function () {
-
-3.  $(this).children(".view-grid").find("tr").each(function (){
-
-4.  // do something with each row
-
-5.  $(this).css("background-color", "yellow");
-
-6.  });
-
-7.  });
-
-8.  });
+''' $(document).ready(function (){
+$(".entitylist.entity-grid").on("loaded", function () {
+$(this).children(".view-grid").find("tr").each(function (){
+// do something with each row
+$(this).css("background-color", "yellow");
+});
+});
+}); '''
 
 Find a particular attribute field and get its value to possibly modify the rendering of the value. The following gets each cell that is for the attribute named 'accountnumber'. Replace 'accountnumber' with attribute appropriate for your entity and view.
 
