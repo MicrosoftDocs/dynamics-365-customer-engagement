@@ -29,8 +29,8 @@ manager: "brycho"
 > -   Maximum # of questions on a survey: **250**. If you've enabled feedback for a survey, you can include a maximum of 40 questions.  
 > -   Maximum # of pages per survey: **25**  
 > -   Maximum # of email invitations you can send in 24-hour period that includes piped data: **10,000**. Any emails that exceed that amount will remain pending during that time and will automatically start sending when the time limit is over.
-> -   Maximum # of survey responses that Voice of the Customer will pull per day: **2400**
-> -   Maximum # of survey responses that Voice of the Customer will store: **1,000,000** 
+> -   Maximum # of survey responses that [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] will pull per day: **2400**
+> -   Maximum # of survey responses that [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] will store: **1,000,000** 
 > -   Note that surveys aren't supported on legacy forms. 
 >    
 > The following limitations also apply if you're using a version earlier than 9.0.781.3. If you're not sure which version you're using, talk to your administrator. If you're an administrator, you can find the version by going to **Settings>Solutions**.
@@ -40,7 +40,7 @@ manager: "brycho"
  After you've installed the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] preferred solution, you need to accept the terms and conditions to configure it in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
  
 > [!NOTE]
->  This procedure only applies if you're using a version earlier than 9.0.781.3. If you're not sure which version you're using, talk to your administrator. If you're an administrator, you can find the version by going to **Settings>Solutions**.
+>  This procedure only applies if you're using a version of [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] earlier than 9.0.781.3. If you're not sure which version you're using, talk to your administrator. If you're an administrator, you can find the version by going to **Settings>Solutions**.
   
 1.  Go to **Settings > Customizations**.  
   
