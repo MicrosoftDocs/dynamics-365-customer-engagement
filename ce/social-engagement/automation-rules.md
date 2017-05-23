@@ -2,7 +2,7 @@
 title: "Route posts using automation rules | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-02-15"
+ms.date: "2017-05-23"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -163,7 +163,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
   
     -   Set the values for **Link to Dynamics 365** ![Link to Dynamics 365 action](../social-engagement/media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365"), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
-    -   Set the values for **Stream to Event Hubs** ![Stream to event hubs action](../social-engagement/media/stream-to-event-hub-icon.png "Stream to event hubs action") to create JSON events from matching posts in the selected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md), [Documents DTO JSON reference](../social-engagement/event-hubs-json-reference-social-engagement.md)  
+    -   Set the values for **Stream to Event Hubs** ![Stream to event hubs action](../social-engagement/media/stream-to-event-hub-icon.png "Stream to event hubs action") to create JSON events from matching posts in the selected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md), [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)  
   
     -   Set the values for **Assign to** ![Assign to action](../social-engagement/media/automation-rule-action-assign-to-user-social-engagement.png "Assign to action") to assign matching posts to the specified user or group. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md)  
   

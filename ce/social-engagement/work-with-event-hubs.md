@@ -5,7 +5,7 @@ description:
 
 ms.custom: ""
 
-ms.date: "2017-05-19"
+ms.date: "2017-05-23"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -180,6 +180,6 @@ manager: "sakudes"
   
 ### See Also  
  [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
- [Documents DTO JSON reference](../social-engagement/event-hubs-json-reference-social-engagement.md)   
+ [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)   
  [Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
