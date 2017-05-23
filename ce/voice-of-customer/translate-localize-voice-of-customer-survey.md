@@ -17,7 +17,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Translate or localize your Voice of the Customer survey 
-Once you’ve created your Voice of the Customer for Dynamics 365 survey, you can translate it into other languages.  
+Once you’ve created your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, you can translate it into other languages.  
   
 1.  From the survey you want to translate, open the Translations.xml file under **Translations** in the **Summary** area.  
   
