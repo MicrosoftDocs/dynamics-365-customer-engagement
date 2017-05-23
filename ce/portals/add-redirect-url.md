@@ -28,11 +28,7 @@ Use the form to enter the redirect information.
 | Name        | The friendly name of the redirect. (Can be anything. Make it easy to identify.)                                                              |
 | Website     | The website the redirect is associated with. (The site the user is redirected from.)                                                         |
 | Inbound URL | The partial URL that is to be redirected. (The page the user is redirected from.)                                                            |
-| Status Code | One of the following:                                                                                                                        
-                                                                                                                                                
-  **302 (Temporary Redirect)**- returns a temporary redirect status. This is the default.                                                       
-                                                                                                                                                
-  -   **301 (Permanent Redirect)**- returns a permanent redirect status indicating the resource has moved permanently.                          |
+| Status Code | One of the following:                                                                                                     - **302 (Temporary Redirect)**- returns a temporary redirect status. This is the default.                                               -   **301 (Permanent Redirect)**- returns a permanent redirect status indicating the resource has moved permanently.                          |
 | URL         | A target External URL to be redirected to. (Use this if the redirect is external to the website specified above.)                            |
 | Web Page    | A target internal webpage to be redirected to. (Use this if the user is being redirected to a page internal to the website specified above.) |
 | Site Marker | A target internal site marker to be redirected to.                                                                                           |
