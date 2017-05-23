@@ -22,10 +22,14 @@ The custom block of JavaScript will added to the bottom of the page just before 
 
 The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with [jQuery](http://jquery.com/).  
 
-''' $(document).ready(function() 
+''' 
+$(document).ready
+(
+function() 
 {
 $("\#address1\_stateorprovince").val("Saskatchewan");
-}); 
+}
+); 
 '''
 ## Additional client-side field validation
 
