@@ -34,103 +34,86 @@ $("\#address1\_stateorprovince").val("Saskatchewan");
 
 ## Additional client-side field validation
 Sometimes you may need to customize the validation of fields on the form. The following example demonstrates adding a custom validator. This particular example forces the user to specify an email only if the another field for preferred method of contact is set to 'Email'.
+
 <code>
-**if (window.jQuery) {**
+if (window.jQuery) 
+{
+(function ($) 
+{
 
-**(function ($) {**
+$(document).ready(function () 
+{
+if (typeof (Page\_Validators) == 'undefined') return;
 
-**$(document).ready(function () {**
+// Create new validator
 
-**if (typeof (Page\_Validators) == 'undefined') return;**
+var newValidator = document.createElement('span');
 
-**// Create new validator**
+newValidator.style.display = "none";
+newValidator.id = "emailaddress1Validator";
+newValidator.controltovalidate = "emailaddress1";
+newValidator.errormessage = "&lt;a href='\#emailaddress1\_label'&gt;Email is a required field.&lt;/a&gt;";
+newValidator.validationGroup = ""; // Set this if you have set ValidationGroup on the form
+newValidator.initialvalue = "";
+newValidator.evaluationfunction = function () 
+{
+var contactMethod = $("\#preferredcontactmethodcode").val();
+if (contactMethod != 2) return true; // check if contact method is not 'Email'.
 
-**var newValidator = document.createElement('span');**
+// only require email address if preferred contact method is email.
+var value = $("\#emailaddress1").val();
+if (value == null || value == "") 
+{
+return false;
 
-**newValidator.style.display = "none";**
+} else {
 
-**newValidator.id = "emailaddress1Validator";**
+return true;
 
-**newValidator.controltovalidate = "emailaddress1";**
+}
 
-**newValidator.errormessage = "&lt;a href='\#emailaddress1\_label'&gt;Email is a required field.&lt;/a&gt;";**
+};
 
-**newValidator.validationGroup = ""; // Set this if you have set ValidationGroup on the form**
+// Add the new validator to the page validators array:
 
-**newValidator.initialvalue = "";**
+Page\_Validators.push(newValidator);
 
-**newValidator.evaluationfunction = function () {**
+// Wire-up the click event handler of the validation summary link
+$("a\[href='\#emailaddress1\_label'\]").on("click", function () { scrollToAndFocus('emailaddress1\_label','emailaddress1'); });
 
-**var contactMethod = $("\#preferredcontactmethodcode").val();**
+});
 
-**if (contactMethod != 2) return true; // check if contact method is not 'Email'.**
+}(window.jQuery));
 
-**// only require email address if preferred contact method is email.**
-
-**var value = $("\#emailaddress1").val();**
-
-**if (value == null || value == "") {**
-
-**return false;**
-
-**} else {**
-
-**return true;**
-
-**}**
-
-**};**
-
-**// Add the new validator to the page validators array:**
-
-**Page\_Validators.push(newValidator);**
-
-**// Wire-up the click event handler of the validation summary link**
-
-**$("a\[href='\#emailaddress1\_label'\]").on("click", function () { scrollToAndFocus('emailaddress1\_label','emailaddress1'); });**
-
-**});**
-
-**}(window.jQuery));**
-
-**}**
+}
 </code>
 
 ## General validation
 
 On click of the **Next**/**Submit** button a function named **webFormClientValidate** is executed. You can extend this method to add custom validation logic.
 
-**if (window.jQuery) {**
+<code>
+if (window.jQuery) {
 
-**(function ($) {**
+(function ($) {
+if (typeof (webFormClientValidate) != 'undefined') {
+var originalValidationFunction = webFormClientValidate;
+if (originalValidationFunction && typeof (originalValidationFunction) == "function") 
+{
 
-**if (typeof (webFormClientValidate) != 'undefined') {**
+webFormClientValidate = function() {
+originalValidationFunction.apply(this, arguments);
+// do your custom validation here
+// return false; 
+// to prevent the form submit you need to return false
+// end custom validation.
 
-**var originalValidationFunction = webFormClientValidate;**
-
-**if (originalValidationFunction && typeof (originalValidationFunction) == "function") {**
-
-**webFormClientValidate = function() {**
-
-**originalValidationFunction.apply(this, arguments);**
-
-**// do your custom validation here**
-
-**// return false; // to prevent the form submit you need to return false**
-
-**// end custom validation.**
-
-**return true;**
-
-**};**
-
-**}**
-
-**}**
-
-**}(window.jQuery));**
-
-**}**
+return true;
+};
+}
+}
+}(window.jQuery));
+}
 
 ### See Also
 
