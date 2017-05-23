@@ -17,7 +17,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Design the right questions for your Voice of the Customer survey 
-Before configuring your Voice of the Customer for Dynamics 365 survey questions, it’s helpful to plan ahead. Here are a few things to think about to help you design the right questions for your survey:  
+Before configuring your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey questions, it’s helpful to plan ahead. Here are a few things to think about to help you design the right questions for your survey:  
   
 -   What’s the purpose of your survey? For example, you might want to measure something (like customer satisfaction), interact with your customers, or promote new products or services. If your goal is to measure, what exactly do you want to measure?  
   
