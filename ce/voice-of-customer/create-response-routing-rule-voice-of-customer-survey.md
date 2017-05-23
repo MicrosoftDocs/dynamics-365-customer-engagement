@@ -17,7 +17,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Create a response routing rule to ask additional questions for a Voice of the Customer survey
-When you want to ask additional questions based on responses in a Voice of the Cusomter for Dynamics 365 survey, create one or more response routing rules for the response you want more information about.  
+When you want to ask additional questions based on responses in a [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, create one or more response routing rules for the response you want more information about.  
   
  For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a response routing rule to ask the reason if someone responds **Not likely**.  
   
