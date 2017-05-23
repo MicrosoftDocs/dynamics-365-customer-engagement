@@ -79,12 +79,9 @@ return true;
 Page\_Validators.push(newValidator);
 
 // Wire-up the click event handler of the validation summary link
-$("a\[href='\#emailaddress1\_label'\]").on("click", function () { scrollToAndFocus('emailaddress1\_label','emailaddress1'); });
-
+$("a\[href='\#emailaddress1\_label'\]").on("click", function () { scrollToAndFocus('emailaddress1\_label','emailaddress1');});
 });
-
 }(window.jQuery));
-
 }
 ```
 
