@@ -15,6 +15,8 @@ manager: sakudes
 ---
 # SAML 2.0 provider settings for portals
 
+[comment]: <> (Table formatting issues)
+
 
 
 |  >[!Note]            |  

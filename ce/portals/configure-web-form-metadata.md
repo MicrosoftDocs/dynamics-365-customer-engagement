@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Web form metadata for portals
-
+[comment]: <> (Table formatting issues)
 
 
 The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with Dynamics 365's native entity form editing capabilities.

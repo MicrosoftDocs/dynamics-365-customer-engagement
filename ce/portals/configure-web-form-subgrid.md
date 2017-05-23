@@ -14,18 +14,16 @@ ms.author: shjais
 manager: sakudes
 ---
 # Web Form subgrid configuration for portals
-
-
-
+[comment]: <> (Table formatting issues)
 Web Form Subgrids are configured in an identical fashion to Entity Form Subgrids. First, Create a Metadata record for the Web Form Step that has a subgrid, and add configuration metadata.
 
-Adding Subgrids to your Managed forms on the portal is easy—just add the subgrid to the Dynamics 365 form that you are managing by using the out-of-the-box Dynamics 365 form designer and you’re done. The grid will use the view that is specified in the Dynamics 365 form designer, show only related records if that option was chosen in Dynamics 365, optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md) It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configurations.  
+Adding Subgrids to your Managed forms on the portal is easy—just add the subgrid to the Dynamics 365 form that you are managing by using the out-of-the-box Dynamics 365 form designer and you’re done. The grid will use the view that is specified in the Dynamics 365 form designer, show only related records if that option was chosen in Dynamics 365, optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configurations.
 
-## Adding subgrid metadata to your form
+## Add subgrid metadata to your form
 
 To add Subgrid Metadata to an Entity Form, navigate to **Entity Form Metadata** by using either the top drop-down or the subgrid right on the main form of the [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md) record that you are working with.  
 
-To add a new record**,** Click **Add New Entity Form Metadata**
+To add a new record, click **Add New Entity Form Metadata**
 
 To edit an existing record, double-click on a record in the grid. Selecting Subgrid as the Type value displays another attribute, "Subgrid Name".
 
