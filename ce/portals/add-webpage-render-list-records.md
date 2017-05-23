@@ -130,8 +130,8 @@ $(this).css("background-color", "yellow");
 ```
 
 Find a particular attribute field and get its value to possibly modify the rendering of the value. The following gets each cell that is for the attribute named 'accountnumber'. Replace 'accountnumber' with attribute appropriate for your entity and view.
-```
-$(document).ready(function (){
+
+```$(document).ready(function (){
    $(".entitylist.entity-grid").on("loaded", function () {
       $(this).children(".view-grid").find("td\[data-attribute='accountnumber'\]").each(function (i, e){
          var value = $(this).data("value");
