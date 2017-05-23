@@ -22,7 +22,7 @@ The custom block of JavaScript will added to the bottom of the page just before 
 
 The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with [jQuery](http://jquery.com/).  
 
-<code> 
+```
 $(document).ready
 (
 function() 
@@ -30,21 +30,25 @@ function()
 $("\#address1\_stateorprovince").val("Saskatchewan");
 }
 ); 
-</code>
+```
 
 ## Additional client-side field validation
 Sometimes you may need to customize the validation of fields on the form. The following example demonstrates adding a custom validator. This particular example forces the user to specify an email only if the another field for preferred method of contact is set to 'Email'.
 
-<code>
+```
 if (window.jQuery) 
 {
 (function ($) 
 {
+
 $(document).ready(function () 
 {
 if (typeof (Page\_Validators) == 'undefined') return;
+
 // Create new validator
+
 var newValidator = document.createElement('span');
+
 newValidator.style.display = "none";
 newValidator.id = "emailaddress1Validator";
 newValidator.controltovalidate = "emailaddress1";
@@ -55,48 +59,62 @@ newValidator.evaluationfunction = function ()
 {
 var contactMethod = $("\#preferredcontactmethodcode").val();
 if (contactMethod != 2) return true; // check if contact method is not 'Email'.
+
 // only require email address if preferred contact method is email.
 var value = $("\#emailaddress1").val();
 if (value == null || value == "") 
 {
 return false;
+
 } else {
+
 return true;
+
 }
+
 };
+
 // Add the new validator to the page validators array:
+
 Page\_Validators.push(newValidator);
+
 // Wire-up the click event handler of the validation summary link
 $("a\[href='\#emailaddress1\_label'\]").on("click", function () { scrollToAndFocus('emailaddress1\_label','emailaddress1'); });
+
 });
+
 }(window.jQuery));
+
 }
-</code>
+```
 
 ## General validation
 
 On click of the **Next**/**Submit** button a function named **webFormClientValidate** is executed. You can extend this method to add custom validation logic.
 
-<code>
+```
 if (window.jQuery) {
+
 (function ($) {
 if (typeof (webFormClientValidate) != 'undefined') {
 var originalValidationFunction = webFormClientValidate;
 if (originalValidationFunction && typeof (originalValidationFunction) == "function") 
 {
+
 webFormClientValidate = function() {
 originalValidationFunction.apply(this, arguments);
 // do your custom validation here
 // return false; 
 // to prevent the form submit you need to return false
 // end custom validation.
+
 return true;
 };
 }
 }
 }(window.jQuery));
 }
-
+```
 ### See Also
 
 [Configure a Dynamics 365 portal](configure-portal.md)  
