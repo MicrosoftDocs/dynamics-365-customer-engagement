@@ -1,9 +1,8 @@
 ---
-title: "Videos &amp; eBooks | Microsoft Docs"
- 
+title: "Videos & eBooks | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: "2017-05-23"
 ms.reviewer: ""
 ms.service: "mse"
 ms.suite: ""
@@ -16,6 +15,7 @@ author: "m-hartmann"
 ms.author: "mhart"
 manager: "sakudes"
 robots: noindex,nofollow
+redirect_url: https://www.microsoft.com/en-us/dynamics/social-engagement-help-and-training/ebooks-and-videos.aspx#social
 ---
 # Videos &amp; eBooks
 <a name="heroArea"></a> [![Social Engagement Sales Scenarios](../social-engagement/media/video-thumbnail-mse-sales-scenarios.png "Social Engagement Sales Scenarios")](http://go.microsoft.com/fwlink/p/?LinkId=615282)  
