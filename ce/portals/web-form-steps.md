@@ -1,4 +1,4 @@
---
+---
 title: "Configure a web form steps for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
