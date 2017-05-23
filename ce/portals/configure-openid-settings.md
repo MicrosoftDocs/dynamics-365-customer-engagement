@@ -14,68 +14,43 @@ ms.author: shjais
 manager: sakudes
 ---
 # Open ID Connect provider settings for portals
+[comment]: <> (tables/codes in this topic needs to be formatted.)
+This topic applies to **Dynamics 365 portals** and later versions.
 
-
-
-|  >[!Note]            |  
-|----------------------------------------------------------------------------|
-| This documentation applies to **Dynamics 365 portals** and later versions. |
-
-[OpenID Connect](http://openid.net/connect/) external identity providers are services that conform to the Open ID Connect [specifications](http://openid.net/developers/specs/). Integrating a provider involves locating the authority (or issuer) URL associated with the provider. A configuration URL can be determined from the authority which supplies metadata required during the authentication workflow. The provider settings are based on the properties of the [OpenIdConnectAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.openidconnect.openidconnectauthenticationoptions.aspx) class.  
+[OpenID Connect](http://openid.net/connect/) external identity providers are services that conform to the Open ID Connect [specifications](http://openid.net/developers/specs/). Integrating a provider involves locating the authority (or issuer) URL associated with the provider. A configuration URL can be determined from the authority which supplies metadata required during the authentication workflow. The provider settings are based on the properties of the [OpenIdConnectAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.openidconnect.openidconnectauthenticationoptions.aspx) class.
 
 Examples of authority URLs are:
 
-[Google](https://developers.google.com/identity/protocols/OpenIDConnect) - <https://accounts.google.com/><https://accounts.google.com/.well-known/openid-configuration>  
-
--   [Azure Active Directory](https://msdn.microsoft.com/library/azure/mt168838.aspx) - [https://login.windows.net/&lt;Azure AD Application&gt;/](https://login.windows.net/contoso.onmicrosoft.com/.well-known/openid-configuration)  
+- [Google](https://developers.google.com/identity/protocols/OpenIDConnect): <https://accounts.google.com/><https://accounts.google.com/.well-known/openid-configuration>
+-   [Azure Active Directory](https://msdn.microsoft.com/library/azure/mt168838.aspx): [https://login.windows.net/&lt;Azure AD Application&gt;/](https://login.windows.net/contoso.onmicrosoft.com/.well-known/openid-configuration)
 
 Each OpenID Connect provider also involves registering an application (similar to that of an OAuth 2.0 provider) and obtaining a Client Id. The authority URL and the generated application Client Id are the settings required to enable external authentication between the portal and the identity provider.
 
-|  >[!Note]                                                                                                                                                                                                                               |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The Google OpenID Connect endpoint is currently not supported because the underlying libraries are still in the early stages of release with compatibility issues to address. The [OAuth2 provider settings for portals](configure-oauth2-settings.md) endpoint can be used instead. |  
+>[!Note]                                                             > The Google OpenID Connect endpoint is currently not supported because the underlying libraries are still in the early stages of release with compatibility issues to address. The [OAuth2 provider settings for portals](configure-oauth2-settings.md) endpoint can be used instead.
 
 ## OpenID settings for Azure Active Directory
 
-To get started sign into the [Azure Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
+To get started, sign into the [Azure Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
 
-1.  Under the **Applications** menu of the directory, click the **Add** button
+1. Under the **Applications** menu of the directory, click the **Add** button.
+2. Choose **Add an application my organization is developing**.
+3. Specify a custom **name** for the application and choose the type **web application and/or web API**.
+4. For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
+5. At this point, a new application is created. Navigate to the **Configure** section in the menu.
 
-<!-- -->
+Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL: http://portal.contoso.com/signin-azure-ad. This corresponds to the **RedirectUri** site setting value
 
-1.  Choose **Add an application my organization is developing**
-
-2.  Specify a custom **name** for the application and choose the type **web application and/or web API**
-
-3.  For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
-
-4.  At this point, a new application is created. Navigate to the **Configure** section in the menu
-
-Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad
-
--   This corresponds to the **RedirectUri** site setting value
-
--   Under the **properties** section, locate the **client ID** field. This corresponds to the **ClientId** site setting value.
-
-1.  In the footer menu click the **View Endpoints** button and note the **Federation Metadata Document** field
+6. Under the **properties** section, locate the **client ID** field. This corresponds to the **ClientId** site setting value.
+7. In the footer menu click the **View Endpoints** button and note the **Federation Metadata Document** field
 
 The left portion of the URL is the **Authority** value and is in one of the following formats:
 
--   https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/
+- https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/
+- https://login.microsoftonline.com/contoso.onmicrosoft.com/
 
--   https://login.microsoftonline.com/contoso.onmicrosoft.com/
+To get the service configuration URL, replace the FederationMetadata/2007-06/FederationMetadata.xml path tail with the path .well-known/openid-configuration. For instance,   <https://login.microsoftonline.com/contoso.onmicrosoft.com/.well-known/openid-configuration>
 
-<!-- -->
-
--   To get the service configuration URL, replace the FederationMetadata/2007-06/FederationMetadata.xml path tail with the path .well-known/openid-configuration
-
-<!-- -->
-
--   <https://login.microsoftonline.com/contoso.onmicrosoft.com/.well-known/openid-configuration>
-
-<!-- -->
-
--   This corresponds to the **MetadataAddress** site setting value
+This corresponds to the **MetadataAddress** site setting value.
 
 ## Create site settings using OpenID
 

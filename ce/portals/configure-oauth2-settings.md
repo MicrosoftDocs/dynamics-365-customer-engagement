@@ -13,25 +13,18 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
+[comment]: <> (Need to fix tables)
 # OAuth2 provider settings for portals
-
-
-
 The OAuth 2.0 based external identity providers involve registering an "application" with a third-party service to obtain a "client ID" and "client secret" pair. Often this application requires specifying a redirect URL that allows the identity provider to send users back to the portal (relying party). The client ID and client secret are configured as portal site settings in order to establish a secure connection from relying party to identity provider. The settings are based on the properties of the [MicrosoftAccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.twitter.twitterauthenticationoptions.aspx), [FacebookAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.facebook.facebookauthenticationoptions.aspx), and [GoogleOAuth2AuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.google.googleoauth2authenticationoptions.aspx) classes.  
 
 The supported providers are:
 
-Microsoft Account
-
--   Twitter
-
--   Facebook
-
--   Google
-
--   LinkedIn
-
--   Yahoo
+- Microsoft Account
+- Twitter
+- Facebook
+- Google
+- LinkedIn
+- Yahoo
 
 ## Create OAuth applications
 
@@ -41,177 +34,90 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 
 [Google OAuth2 API Credentials Instructions](https://developers.google.com/accounts/docs/OpenIDConnect#appsetup)  
 
-Open [Google Developers Console](https://console.developers.google.com/)  
-
--   Create an API project or open an existing project
-
--   Navigate to **APIs & auth** &gt; **APIs**
-
-<!-- -->
-
--   Under Social APIs, click **Google+ API** then click **Enable API**
-
-<!-- -->
-
--   Navigate to **APIs & auth** &gt; **Consent screen**
-
-<!-- -->
-
--   Specify an **Email address**
-
--   Specify a custom **Product name**
-
--   Click **Save**
-
-<!-- -->
-
--   Navigate to **APIs & auth** &gt; **Credentials**
-
-<!-- -->
-
--   Create new Client ID
-
-<!-- -->
-
--   Application Type: **Web application**
-
--   Authorized JavaScript Origins: http://portal.contoso.com
-
--   Authorized Redirect URIs: http://portal.contoso.com/signin-google
-
--   Click **Create Client ID**
+1. Open [Google Developers Console](https://console.developers.google.com/)  
+2. Create an API project or open an existing project
+3. Navigate to **APIs & auth** &gt; **APIs** and under Social APIs, click **Google+ API**, and then click **Enable API**
+5. Navigate to **APIs & auth** &gt; **Consent screen**
+    - Specify an **Email address** 
+    - Specify a custom **Product name** 
+    - Click **Save**
+9. Navigate to **APIs & auth** &gt; **Credentials** and create new Client ID
+    - Application Type: **Web application**
+    - Authorized JavaScript Origins: http://portal.contoso.com
+    - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
+    - Click **Create Client ID**
 
 ### Facebook app settings
 
-Open [Facebook Developers App Dashboard](https://developers.facebook.com/apps)  
+1. Open [Facebook Developers App Dashboard](https://developers.facebook.com/apps)  
+2. Click **Add a New App**
+3. Select **Website**
+4. Click **Skip and Create App ID**
+    - Specify a **Display Name** 
+    - Select a **Category** 
+    - Click **Create App ID**
 
--   Click **Add a New App**
+5. While on the Dashboard for the new app, navigate to **Settings** &gt; **Basic** (tab) and add following details:
+    - App Domains (optional): portal.contoso.com 
+    - Contact Email: *&lt;email address of your choice&gt;* 
+    - Click **Add Platform** and select **Website** 
+    - Site URL: http://portal.contoso.com/ or http://portal.contoso.com/signin-facebook
 
--   Select **Website**
-
--   Click **Skip and Create App ID**
-
-<!-- -->
-
--   Specify a **Display Name**
-
--   Select a **Category**
-
--   Click **Create App ID**
-
-<!-- -->
-
--   While on the Dashboard for the new app, navigate to **Settings** &gt; **Basic** (tab)
-
-<!-- -->
-
--   (Optional) App Domains: portal.contoso.com
-
--   Contact Email: *&lt;email address of your choice&gt;*
-
--   Click **Add Platform** and select **Website**
-
--   Site URL: http://portal.contoso.com/ or http://portal.contoso.com/signin-facebook
-
--   Click **Save Changes**
-
-<!-- -->
-
--   Navigate to **Status & Review** &gt; **Status** (tab)
-
-<!-- -->
-
--   Do you want to make this app an all its features available to the general public? **YES**
-
-<!-- -->
-
--   The Contact Email field is required to enable this setting
+6. Click **Save Changes**
+7. Navigate to **Status & Review** &gt; **Status** tab
+8. Select **Yes** when prompted to make the app and all its features available to the general public.You must have filled in the valid data in Step 5 above to to enable this setting.
 
 ### Microsoft application settings
 
-Open [Microsoft account Developer Center](https://account.live.com/developers/applications/index)  
-
--   Click **Create application**
-
-<!-- -->
-
--   Specify an **Application name**
-
--   Click **I accept**
-
-<!-- -->
-
--   Navigate to **Settings** &gt; **API settings**
-
-<!-- -->
-
--   Redirect URLs: http://portal.contoso.com/signin-microsoft
+1. Open [Microsoft account Developer Center](https://account.live.com/developers/applications/index)  
+2. Click **Create application** and specify an **Application name**
+3. Click **I accept** to accept Terms and Conditions
+4. Navigate to **Settings** &gt; **API settings** and set redirect URL as http://portal.contoso.com/signin-microsoft 
 
 ### Twitter apps settings
 
-Open [Twitter Application Management](https://apps.twitter.com/)  
+1. Open [Twitter Application Management](https://apps.twitter.com/)  
+2. Click **Create New App**
 
--   Click **Create New App**
+    - Specify a **Name** and **Description** of your app
+    - Set Website URL as http://portal.contoso.com
+    - Set Callback URL as http://portal.contoso.com or http://portal.contoso.com/signin-twitter
 
-<!-- -->
-
--   Specify a **Name** and **Description**
-
--   Website: http://portal.contoso.com
-
--   Callback URL: http://portal.contoso.com or http://portal.contoso.com/signin-twitter
-
--   Click **Create your Twitter application**
+3. Click **Create your Twitter application**.
 
 ### LinkedIn app settings
 
-Open [LinkedIn Developer Network](https://www.linkedin.com/secure/developer)  
+1. Open [LinkedIn Developer Network](https://www.linkedin.com/secure/developer)  
+2. Click **Add New Application**
 
--   Click **Add New Application**
+    - Specify an **Application Name**, **Description**, etc.
+    - Set Website URL as http://portal.contoso.com
+    - Set OAuth User Agreement/Default Scope: r\_basicprofie and r\_emailaddress
+    - Set OAuth 2.0 Redirect url: http://portal.contoso.com/signin-linkedin
 
-<!-- -->
-
--   Specify an **Application Name**, **Description**, etc.
-
--   Website URL: http://portal.contoso.com
-
--   OAuth User Agreement/Default Scope: r\_basicprofie and r\_emailaddress
-
--   OAuth 2.0 Redirect Urls: http://portal.contoso.com/signin-linkedin
-
--   Click **Add Application**
+3. Click **Add Application**
 
 ### Yahoo! YDN App settings
 
-Open [Yahoo! Developer Network](https://developer.yahoo.com/apps)  
+1. Open [Yahoo! Developer Network](https://developer.yahoo.com/apps)  
+2. Click **Create an App**
+    
+    - Specify an **Application Name**
+    - Application Type: **Web Application**
+    - Callback Domain: portal.contoso.com
 
--   Click **Create an App**
-
-<!-- -->
-
--   Specify an **Application Name**
-
--   Application Type: **Web Application**
-
--   Callback Domain: portal.contoso.com
-
-<!-- -->
-
--   Click **Create App**
+3. Click **Create App**
 
 ## Create site settings using OAuth2
 
 The application dashboard for each provider will display the client ID (app ID, consumer key) and client secret (app secret, consumer secret) for each application. Use these two values to configure the portal site settings.
 
-|  >[!Note]                                         |  
-|---------------------------------------------------------------------------------------------------------|
-| A standard OAuth2 configuration only requires the following settings (choosing Facebook as an example): 
-                                                                                                          
- Authentication/OpenAuth/Facebook/ClientId                                                                
-                                                                                                          
- -   Authentication/OpenAuth/Facebook/ClientSecret                                                        |
+>[!Note]                                         |  
+> A standard OAuth2 configuration only requires the following settings (choosing Facebook as an example):
+> - `Authentication/OpenAuth/Facebook/ClientId`
+> - `Authentication/OpenAuth/Facebook/ClientSecret`
 
-Substitute the \[provider\] tag in the site setting name with a specific identity provider name: Facebook, Google, Yahoo,Microsoft, LinkedIn, or Twitter.
+Substitute the `\[provider\]` tag in the site setting name with a specific identity provider name: Facebook, Google, Yahoo,Microsoft, LinkedIn, or Twitter.
 
 | **Site Setting Name**                                           | **Description**                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -246,8 +152,7 @@ Substitute the \[provider\] tag in the site setting name with a specific identit
 
 [Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
-[Open ID Connect provider settings for portals](configure-openid-settings.md)  
+[Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
 [SAML 2.0 provider settings for portals](configure-saml2-settings.md)  
-[Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals)  
-
+[Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals)

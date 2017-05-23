@@ -19,13 +19,7 @@ Web Form Notes are configured in an identical fashion to Entity Form Notes. Firs
 
 Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the Dynamics 365 form through the out-of-the-box Dynamics 365 form designer and you’re done. You can configure the behavior of the notes control by using metadata.
 
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |  
-
-> >[!Note]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |  
-
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Explicit [Add record-based security using entity permissions for portals](assign-entity-permissions.md) are **required** for any notes to appear on the portal. For read and edit, the 'Read' and 'Write' privileges must be granted. For create, two permissions must exist, a permission with the 'Create' and 'Append' privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the 'Append To' privilege granted. |  
+>[!Note]                                                           > Explicit [Add record-based security using entity permissions for portals](assign-entity-permissions.md) are **required** for any notes to appear on the portal. For read and edit, the 'Read' and 'Write' privileges must be granted. For create, two permissions must exist, a permission with the 'Create' and 'Append' privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the 'Append To' privilege granted.
 
 To Edit or Add notes, among other things, you must configure the control using a metadata record.
 
@@ -58,17 +52,17 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 | Error Message         | Overrides the message shown when an error occurs while trying to load the list of notes.                                                                     |
 | Access Denied Message | Overrides the message shown when the user does not have sufficient permissions to view the list of notes.                                                    |
 | Empty Message         | Overrides the message shown when the current entity does not have any notes that can be viewed.                                                              |
-| List Orders           | Allows you to set the order in which notes will be displayed.                                                                                                
-                                                                                                                                                                
-  ![Set attributes for list orders](media/set-attributes-list-orders.png "Set attributes for list orders")                                                                                                        
-                                                                                                                                                                
-  -   Attribute - the logical name of the column by which you wish to sort                                                                                      
-                                                                                                                                                                
-  -   Alias - the alias for the attribute in the query                                                                                                          
-                                                                                                                                                                
-  -   Direction - Choose Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).                              
-                                                                                                                                                                
-  To add a sorting rule, click " Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.  |
+| List Orders           | Allows you to set the order in which notes will be displayed.
+|
+The List Orders settings allows you to set the following:
+
+- Attribute: the logical name of the column by which you wish to sort 
+- Alias: the alias for the attribute in the query 
+- Direction: Choose Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).
+
+![Set attributes for list orders](media/set-attributes-list-orders.png "Set attributes for list orders")
+
+To add a sorting rule, click "Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.
 
 ## Create dialog options
 
@@ -149,4 +143,3 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  
-

@@ -14,35 +14,35 @@ ms.author: shjais
 manager: sakudes
 ---
 # Configure and manage knowledge categories and articles
-
-
+[comment]: <> (Need to include the intro para for this topic)
 
 ## Create a new knowledge category
 
-1.  On the Interaction Centric Dashboard, click **Settings** &gt; **Service Management**.
+1.  On the Interaction Centric Dashboard, click **Settings** &gt; **Service Management**. 
+2. In the **Knowledge Base Management** section, click **Categories**. 
+3. Click the **New** button. 
+4. Enter a Name and Description for your category. 
+5. Choose a Parent Category. If you want this to be a top-level category, leave this field blank.
 
-<!-- -->
+## Associate knowledge articles with a category
 
-1.  In the **Knowledge Base Management** section, click **Categories**.
+1. Open the **Summary** tab when viewing a knowledge article record. 
+2. In the **Related Information** section, click the **+** button.
+3. Select the category you want to associate to the article and click the **Associate** button.
 
-2.  Click the **New** button.
-
-3.  Enter a Name and Description for your category.
-
-4.  Choose a Parent Category. If you want this to be a top-level category, leave this field blank.
-
-## Associate knowledge articles
-
-To **associate a knowledge article with a category**, open the **Summary** tab when viewing a knowledge article record. In the **Related Information** section, click the **+** button. Select the category you want to associate to the article and click the **Associate** button.
-
-To **remove a category from an article**, choose the category you want to remove from the **Category** subgrid on the knowledge article record and click the **Delete** button. When the confirmation message displays, click the **Delete** button.
+## Remove a category from an article
+1. Choose the category you want to remove from the **Category** subgrid on the knowledge article record and click the **Delete** button. 
+2. In the confirmation message that displays, click the **Delete** button.
 
 ## Delete a knowledge category
 
-To **delete a category**, under **Settings &gt; Service Management &gt; Categories**, choose the category from the list view and click the **Delete** button. Knowledge articles associated with this category will be disassociated after the category is deleted.
+1. Navigate to **Settings &gt; Service Management &gt; Categories**. 
+2. Choose the category from the list view and click the **Delete** button.
+
+>[!Note] 
+> Knowledge articles associated with the category will be disassociated after the category is deleted.
 
 ### See Also
-
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 

@@ -24,7 +24,7 @@ The data can also be filtered by the current portal user, the current portal use
 
 The Entity List contains relationships to webpages and various properties in order to control the initialization of the list of records within the portal. The relationship to Web Page allows dynamic retrieval of the list definition for a given page node within the website. To view existing Entity Views or to create new Entity Views, navigate to **Portals** &gt; **Entity Lists**
 
-> [!Note] 
+> [!Note]
 > A Entity List must be associated with a Web Page for a given website for the list to be viewable within the site.
 
 The Web Pages associated with the Entity List can be viewed by clicking the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When Creating your Entity List, the first step is to choose the Entity for which you want to render a list on the portal. You'll then choose one or more Dynamics 365 Views to render.
@@ -32,7 +32,7 @@ The Web Pages associated with the Entity List can be viewed by clicking the **We
 When creating or editing a Web Page, an Entity List can be specified in the lookup field provided on the Web Page form. The Page Template typically will be the "Page" template but can be one of several other templates designed for content as the master templates contain the necessary logic to determine if an Entity List should be rendered.
 
 ## Entity list attributes and relationships
-
+```
 <table>
 <thead>
 <tr class="header">
@@ -110,7 +110,7 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 </tr>
 </tbody>
 </table>
-
+```
 ## Add custom Javascript
 
 The Options tab on the form contains a text area that you can enter custom JavaScript and if your page includes jQuery library then you can use that here as well. The script block will be added at the bottom of the webpage just before the page’s closing form tag.
@@ -119,17 +119,18 @@ The Options tab on the form contains a text area that you can enter custom JavaS
 
 The list gets its data asynchronously and when it is complete it will trigger an event "loaded" that your custom JavaScript can listen for and do something with items in the grid. The following is a trivial example:
 
-''' $(document).ready(function (){
+```$(document).ready(function (){
 $(".entitylist.entity-grid").on("loaded", function () {
 $(this).children(".view-grid").find("tr").each(function (){
 // do something with each row
 $(this).css("background-color", "yellow");
 });
 });
-}); '''
+}); 
+```
 
 Find a particular attribute field and get its value to possibly modify the rendering of the value. The following gets each cell that is for the attribute named 'accountnumber'. Replace 'accountnumber' with attribute appropriate for your entity and view.
-
+```
 $(document).ready(function (){
    $(".entitylist.entity-grid").on("loaded", function () {
       $(this).children(".view-grid").find("td\[data-attribute='accountnumber'\]").each(function (i, e){
@@ -138,7 +139,7 @@ $(document).ready(function (){
       });
    });
 });
-
+```
 ## Entity list configuration
 
 You can easily enable and configure actions for records in an Entity List (Create, Edit, Delete, and so on). It is also possible to override default labels, sizes, and other attributes so that the Entity List will be displayed exactly the way you want.
@@ -407,44 +408,22 @@ The Text Filter uses the following attributes:
 
 | **Name**     | **Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.                                                                      
-                                                                                                                                                          
-  *Only attributes with the type "String" are valid for a Text Filter.*                                                                                   |
+| Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.*Only attributes with the type "String" are valid for a Text Filter.*                                                                                   |
 | Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute. |
 
 **Attribute filter set**
 
 The Attribute Filter Set adds a series of options to filter the Entity List by, tied to a single attribute of the Entity List's selected Entity Type. When a user applies the filter, the Entity List only displays those records that exactly match at least one of the selected options.
 
-![Attribute filter settings](media/set-attribute-filter.png "Attribute filter settings")  
+![Attribute filter settings](media/set-attribute-filter.png "Attribute filter settings")
 
 The Attribute Filter Set uses the following attributes:
 
 | **Name**     | **Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.                                                                      
-                                                                                                                                                          
-  Only attributes with the following types are valid for a Text Filter:                                                                                   
-                                                                                                                                                          
-  -   String                                                                                                                                              
-                                                                                                                                                          
-  -   BigInt                                                                                                                                              
-                                                                                                                                                          
-  -   Decimal                                                                                                                                             
-                                                                                                                                                          
-  -   Double                                                                                                                                              
-                                                                                                                                                          
-  -   Integer                                                                                                                                             
-                                                                                                                                                          
-  -   Money                                                                                                                                               
-                                                                                                                                                          
-  -   Picklist                                                                                                                                            
-                                                                                                                                                          
-  -   DateTime                                                                                                                                            
-                                                                                                                                                          
-  -   Boolean                                                                                                                                             |
-| Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute. |
-| Options      | A collection of possible values to filter by. See below for more details.                                                                              |
+| Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.Only attributes with the following types are valid for a Text Filter: String, BigInt,    Decimal, Double, Integer, Money, Picklist, DateTime, Boolean
+|Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute.
+| Options |      A collection of possible values to filter by. See below for more details.                                                                              |
 
 **Attribute filter set options**
 
@@ -454,11 +433,7 @@ Options have the following attributes:
 
 | **Name**     | **Description**                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Operator     | The comparison operator used to filter results, for example Equals, Less Than, and so on. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. 
-                                                                                                                                                                                                    
-  For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains".             
-                                                                                                                                                                                                    
-  Picklist and Boolean operators are always "Equals".                                                                                                                                               |
+| Operator     | The comparison operator used to filter results, for example Equals, Less Than, and so on. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains". Picklist and Boolean operators are always "Equals".                                                                                                                                               |
 | Value        | The actual value used for this filter condition.                                                                                                                                                 |
 | Display Name | Overrides the display name for this Option in the Filter box. By default, this will be set to the same value as the Value attribute.                                                             |
 
@@ -472,9 +447,7 @@ The Lookup Set uses the following attributes:
 
 | **Name**     | **Description**                                                                                                                                           |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Relationship | The name of the Related Entity to the Entity List's selected Entity Type to filter by.                                                                    
-                                                                                                                                                             
-  Only entities with a one-to-many or many-to-many relationship with the Entity List's selected Entity Type appear as options for this filter type.          |
+| Relationship | The name of the Related Entity to the Entity List's selected Entity Type to filter by. Only entities with a one-to-many or many-to-many relationship with the Entity List's selected Entity Type appear as options for this filter type.          |
 | Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Relationship. |
 | Options      | A collection of possible values to filter by. See below for more details.                                                                                 |
 
@@ -499,23 +472,7 @@ The Range Filter Set Uses the following attributes:
 
 | **Name**     | **Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.                                                                      
-                                                                                                                                                          
-  Only attributes with the following types are valid for a Text Filter:                                                                                   
-                                                                                                                                                          
-  -   String                                                                                                                                              
-                                                                                                                                                          
-  -   BigInt                                                                                                                                              
-                                                                                                                                                          
-  -   Decimal                                                                                                                                             
-                                                                                                                                                          
-  -   Double                                                                                                                                              
-                                                                                                                                                          
-  -   Integer                                                                                                                                             
-                                                                                                                                                          
-  -   Money                                                                                                                                               
-                                                                                                                                                          
-  -   DateTime                                                                                                                                            |
+| Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.Only attributes with the following types are valid for a Text Filter: String, BigInt,Decimal, Double, Integer, Money, DateTime                       |
 | Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute. |
 | Options      | A collection of possible values to filter by. See below for more details.                                                                              |
 
@@ -527,17 +484,9 @@ Options have the following attributes:
 
 | **Name**              | **Description**                                                                                                                                                                                |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Operator 1            | The first comparison operator used to filter results, e.g. "Equals", "Less Than", etc. The list of Operators for the option will depend on the type of the Attribute selected for the Filter.  
-                                                                                                                                                                                                  
-  For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains".           
-                                                                                                                                                                                                  
-  Picklist and Boolean operators are always "Equals".                                                                                                                                             |
+| Operator 1            | The first comparison operator used to filter results, e.g. "Equals", "Less Than", etc. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains". Picklist and Boolean operators are always "Equals".                                                                                                                                             |
 | Value 1               | The first value used for this filter condition.                                                                                                                                                |
-| Operator 2 (optional) | The second comparison operator used to filter results, e.g. "Equals", "Less Than", etc. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. 
-                                                                                                                                                                                                  
-  For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains".           
-                                                                                                                                                                                                  
-  Picklist and Boolean operators are always "Equals".                                                                                                                                             |
+| Operator 2 (optional) | The second comparison operator used to filter results, e.g. "Equals", "Less Than", etc. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains". Picklist and Boolean operators are always "Equals".                                                                                                                                             |
 | Value 2 (optional)    | The second value used for this filter condition.                                                                                                                                               |
 | Display Name          | Overrides the display name for this Option in the Filter box. By default, this will be set dynamically based on the operator(s) and value(s) selected.                                         |
 
@@ -566,21 +515,17 @@ The Dynamic Lookup Set uses the following options:
 
 | **Name**                      | **Description**                                                                                                                                                                      |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Relationship                  | The name of the Related Entity to the Entity List's selected Entity Type to filter by.                                                                                               
-                                                                                                                                                                                        
-  Only entities with a one-to-many or many-to-many relationship with the Entity List's selected Entity Type appear as options for this filter type.                                     |
+| Relationship                  | The name of the Related Entity to the Entity List's selected Entity Type to filter by.Only entities with a one-to-many or many-to-many relationship with the Entity List's selected Entity Type appear as options for this filter type.                                     |
 | View                          | The View (saved query) to use as a source for the dynamic list of entities to filter by                                                                                              |
 | Label Column                  | The field from the View that provides each entity's "Name" value.                                                                                                                    |
-| Filter Lookup On Relationship | Specifies a relationship between the entity specified by the Relationship field and the logged in user.                                                                              
-                                                                                                                                                                                        
-  If the entity specified by the Relationship field also has a relationship to a contact, you may optionally narrow the list of filter options to those related to the logged in user.  |
+| Filter Lookup On Relationship | Specifies a relationship between the entity specified by the Relationship field and the logged in user.If the entity specified by the Relationship field also has a relationship to a contact, you may optionally narrow the list of filter options to those related to the logged in user.  |
 | Display Name                  | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Relationship.                            |
 
 **FetchXML filter**
 
 The range filter can create either a simple textbox filter like the Text Filter, or a set of options like the other filter types. It allows you to manually create virtually any type of filter for the Entity List by using FetchXML, the query language used by Dynamics 365.
 
-![FetchXML filter settings](media/set-fetchxml-filter.png "FetchXML filter settings")  
+![FetchXML filter settings](media/set-fetchxml-filter.png "FetchXML filter settings")
 
 The FetchXML Filter uses only one attribute:
 
@@ -615,4 +560,3 @@ Note: The oData feed that is published is anonymous and does not have any author
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  
 [Redirect to a new URL on a portal](add-redirect-url.md)  
-

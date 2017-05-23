@@ -15,8 +15,6 @@ manager: sakudes
 ---
 # Configure site settings for portals
 
-
-
 A Site Setting is a configurable named value that is used by website code to modify the behavior or visual style of the portal. Typically when a developer creates the website code, they will reference Site Settings for various components to enable an end user to modify the setting values to alter the website without having to change the code, recompile, and redeploy the website.
 
 The sample portals that are provided with the installation of Dynamics 365 portals contain several configurable Site Settings for various styles used to modify many visual elements within the site such as background style, text color, and layout width.
@@ -24,16 +22,10 @@ The sample portals that are provided with the installation of Dynamics 365 porta
 ## Manage site settings in Dynamics 365
 
 1.  Login to **Dynamics 365**
-
-<!-- -->
-
-1.  Go to **Portals** &gt; **Site Settings**
-
-2.  To create a new setting: Click **New**
-
-3.  To edit an existing setting: Double-click on the **Site Setting** listed in the grid
-
-4.  Specify values for the fields provided
+2.  Go to **Portals** &gt; **Site Settings**
+3.  To create a new setting: Click **New**
+4.  To edit an existing setting: Double-click on the **Site Setting** listed in the grid
+5. Specify values for the fields provided
 
 | Name        | Description                                                                                                                                                                                                              |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,8 +33,7 @@ The sample portals that are provided with the installation of Dynamics 365 porta
 | Website     | The associated website.                                                                                                                                                                                                  |
 | Value       | The setting.                                                                                                                                                                                                             |
 | Description | The purpose of the setting or special instructions.                                                                                                                                                                      |
-
-1.  Click **Save & Close**
+6. Click **Save & Close**
 
 ### See Also
 
