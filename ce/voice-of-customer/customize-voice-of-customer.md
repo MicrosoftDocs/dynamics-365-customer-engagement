@@ -19,7 +19,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Customize HTML or XML for particular elements in Voice of the Customer surveys 
-You can start using Voice of the Customer for Dynamics 365 surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  
+You can start using [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  
   
 -   Email Face Template  
   
