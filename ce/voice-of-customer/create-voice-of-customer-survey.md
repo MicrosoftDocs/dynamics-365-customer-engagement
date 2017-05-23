@@ -17,16 +17,16 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Create a Voice of the Customer survey to get customer feedback 
-Create and send out Voice of the Customer for Dynamics 365 surveys to gain valuable feedback from your customers about your products or services. Respondents can take your surveys on a phone, tablet, or computer. You can see your customer's feedback history as you work a sale or resolve a service case.  
+Create and send out [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys to gain valuable feedback from your customers about your products or services. Respondents can take your surveys on a phone, tablet, or computer. You can see your customer's feedback history as you work a sale or resolve a service case.  
   
  When a customer completes a survey, you can use rules to trigger follow-up actions that occur immediately. For example, if a customer answers a survey question that indicates an interest in one of your products, the system can generate a quote request and assign it to a salesperson. Or, if a customer replies with a complaint, the system can create a new service case and route it to the right queue for prompt handling. You can also send a survey automatically when a service case closes, to track how satisfied your customer is with the service they received.  
   
- The survey analytics included with the Voice of the Customer for Microsoft Dynamics 365 solution help you use customer feedback to identify gaps in service, run targeted marketing campaigns, or send offers to increase sales.  
+ The survey analytics included with the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solution help you use customer feedback to identify gaps in service, run targeted marketing campaigns, or send offers to increase sales.  
   
 > [!NOTE]
->  Voice of the Customer for Microsoft Dynamics 365 is available with [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] and later.  
+>  [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] is available with [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] and later.  
   
- **Install and configure Voice of the Customer for Microsoft Dynamics 365**  
+ **Install and configure [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]**  
   
  [Install the Voice of the Customer for Microsoft Dynamics 365 surveys preferred solution](install-voice-of-customer-preferred-solution.md)  
   
