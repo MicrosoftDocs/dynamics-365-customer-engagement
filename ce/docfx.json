@@ -35,6 +35,7 @@
         "gamification/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml"
+        "portals/**.*": "bc/toc.yml"
       },
       "searchScope":{
         "voice-of-customer/**.*":["Voice of the Customer"]
