@@ -1,5 +1,5 @@
 # [Deliver web engagement experience with portal capabilities for Microsoft Dynamics 365](administer-manage-portal-dynamics-365.md)
-## [Install](provision-portal.md)
+## [Install and Provision](provision-portal.md)
 ### [Provision a portal](provision-portal.md)
 ### [Enable multi-language support](enable-multiple-language-support.md)
 ### [Troubleshoot Provisioning](provision-portal.md#troubleshoot-provisioning)
