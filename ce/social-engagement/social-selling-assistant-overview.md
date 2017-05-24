@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
  
 description:
