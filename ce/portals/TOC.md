@@ -1,4 +1,22 @@
 # [Deliver web engagement experience with portal capabilities for Microsoft Dynamics 365](administer-manage-portal-dynamics-365.md)
+## [Provision a portal](provision-portal.md)
+###  [Before you provision a portal](provision-portal.md#before-you-provision-a-portal)
+###  [Create portal resources](provision-portal.md#create-portal-resources)
+###  [Verify completion of the package installation](provision-portal.md#verify-completion-of-the-package-installation)
+###  [Provision a portal](provision-portal.md#provision-a-portal)
+###  [Set up custom domains and SSL certificates for a Dynamics 365 portal](provision-portal.md#set-up-custom-domains-and-ssl-certificates-for-a-dynamics-365-portal)
+
+## [Enable multi-language support](enable-multiple-language-support.md)
+###  [Supported languages](enable-multiple-language-support.md#supported-languages)
+###  [Create content in multiple languages](enable-multiple-language-support.md#create-content-in-multiple-languages)
+##  [Troubleshoot Provisioning](provision-portal.md#troubleshoot-provisioning)
+## [Configuration Guide](configure-portal.md)
+
+
+
+
+
+
 # [Add conditional step type](add-conditional-step.md)
 ##  [Attributes](add-conditional-step.md#attributes)
 ##  [Format](add-conditional-step.md#format)
@@ -174,10 +192,8 @@
 ##  [Edit snippets](customize-content-snippets.md#edit-snippets)
 ##  [Edit using the front-side editing engine](customize-content-snippets.md#edit-using-the-front-side-editing-engine)
 ##  [Edit by using Dynamics 365](customize-content-snippets.md#edit-by-using-dynamics-365)
-# [Enable multi-language support](enable-multiple-language-support.md)
-##  [Supported languages](enable-multiple-language-support.md#supported-languages)
-##  [Create content in multiple languages](enable-multiple-language-support.md#create-content-in-multiple-languages)
-###  [Configuration Guide](enable-multiple-language-support.md#configuration-guide)
+
+
 # [Engage with communities](engage-with-communities.md)
 # [Define entity forms and custom logic](entity-forms-custom-logic.md)
 ##  [Add a form to your portal](entity-forms-custom-logic.md#add-a-form-to-your-portal)
@@ -450,13 +466,9 @@
 ##  [Attributes and relationships](place-child-nodes.md#attributes-and-relationships)
 ##  [Secure shortcuts](place-child-nodes.md#secure-shortcuts)
 ##  [Navigate with shortcuts](place-child-nodes.md#navigate-with-shortcuts)
-# [Provision a portal](provision-portal.md)
-##  [Before you provision a portal](provision-portal.md#before-you-provision-a-portal)
-###  [Create portal resources](provision-portal.md#create-portal-resources)
-###  [Verify completion of the package installation](provision-portal.md#verify-completion-of-the-package-installation)
-##  [Provision a portal](provision-portal.md#provision-a-portal)
-##  [Troubleshoot Provisioning](provision-portal.md#troubleshoot-provisioning)
-##  [Set up custom domains and SSL certificates for a Dynamics 365 portal](provision-portal.md#set-up-custom-domains-and-ssl-certificates-for-a-dynamics-365-portal)
+
+
+
 # [Publish content using editing engine](publish-content-editing-engine.md)
 ##  [Content editor commands and controls](publish-content-editing-engine.md#content-editor-commands-and-controls)
 ##  [Create a link](publish-content-editing-engine.md#create-a-link)
