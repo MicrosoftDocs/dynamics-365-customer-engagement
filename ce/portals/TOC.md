@@ -3,6 +3,7 @@
 ### [Provision a portal](provision-portal.md)
 ### [Enable multi-language support](enable-multiple-language-support.md)
 ### [Troubleshoot Provisioning](provision-portal.md#troubleshoot-provisioning)
+
 ## [Configuration Guide](configure-portal.md)
 ### [Create web roles](create-web-roles.md)
 ### [Manage knowledge articles](manage-knowledge-articles-content-levels.md)
@@ -34,3 +35,10 @@
 ### [Define entity forms and custom logic](entity-forms-custom-logic.md)
 ### [Define web form properties](web-form-properties.md)
 ### [Define web form steps](web-form-steps.md)
+### [Define load form and load tab steps](load-form-step.md)
+### [Add redirect step type](add-redirect-step.md)
+### [Add conditional step type](add-conditional-step.md)
+### [Add custom javascript](add-custom-javascript.md)
+### [Configure web form metadata](configure-web-form-metadata.md)
+### [Configure web form subgrid](configure-web-form-subgrid.md)
+### [Configure notes](configure-notes.md)
