@@ -57,5 +57,6 @@ Content access levels give another level of control separate from web roles to b
 
 3.  Press **+** to add a new content access level or the **Trash Can symbol** next to a content access level to remove it.
 
+> [!NOTE] 
 > Content access levels can also be inherited to a user if assigned to a Web Role, Parent Contact, or Account that the user is connected to. This inheritance avoids the need to reassign/update content access levels at an individual level. Web Roles are assigned a content access level by navigating to **Portals &gt; Security &gt; Web Roles** and then following the same steps. Accounts are assigned a content access level by navigating to **Sales** &gt; **Accounts** then selecting the account to edit. After the account is selected, find the **Content Access Levels** section on the right side of the screen and use the **+** and **Trash Can** buttons to add or remove a content access level.
 
