@@ -14,9 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Register and invite for a portal
-
-
-
 The latest portal authentication experience allows portal users to sign in with their choice of a local contact membership provider based account or an external account based on [ASP.NET Identity](http://www.asp.net/identity). Both local and external account registration can use invitation codes for sign up, as well as the email confirmation workflow. In addition, portal administrators may choose to enable or disable any combination of authentication options through portal site settings.  
 
 ## Local authentication
@@ -31,7 +28,7 @@ External authentication is provided by the ASP.NET Identity API. In this case, a
 
 Portal administrators have several options for controlling account sign-up behavior. Open registration is the least restrictive sign-up configuration where the portal allows a user account to be registered by simply providing a user identity. Alternative configurations may require users to provide an invitation code or valid email address to register with the portal. Regardless of the registration configuration, both local and external accounts participate equally in the registration workflow. That is, users have the option to choose which type of account they want to register.
 
-### Open registration
+## Open registration
 
 During sign-up, the user has the option of creating a local account (providing a username and password) or selecting an external identity from a list of identity providers. If an external identity is selected, the user is required to sign in through the chosen identity provider to prove that they own the external account. In either case, the user is immediately registered and authenticated with the portal. A new contact record is created in the Dynamics 365 organization upon sign-up.
 

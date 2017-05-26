@@ -14,28 +14,24 @@ ms.author: shjais
 manager: sakudes
 ---
 # Set authentication identity for a portal
+[comment]: <> (verify and fix images)
 
+Portal capabilities for Microsoft Dynamics 365 provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
 
-
-Portal capabilities for Microsoft Dynamics 365 provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:  
-
-Local (username/password) user sign-in
-
--   External (social provider) user sign-in through third party identity providers
-
--   Two-factor authentication with email or SMS
-
--   Email address confirmation
-
--   Password recovery
-
--   Invitation code sign-up for registering pre-generated contact records
+- Local (username/password) user sign-in
+- External (social provider) user sign-in through third party identity providers
+- Two-factor authentication with email or SMS
+- Email address confirmation
+- Password recovery
+- Invitation code sign-up for registering pre-generated contact records
 
 ## Requirements
 
 Portal capabilities for Microsoft Dynamics 365 requires
 
--   **Microsoft Dynamics 365 Portal Base**, the **Microsoft Identity**, and the **Microsoft Identity Workflows** solution packages
+- Microsoft Dynamics 365 Portal Base
+- Microsoft Identity
+- Microsoft Identity Workflows solution packages
 
 ## Authentication overview
 
@@ -43,29 +39,23 @@ Returning portal visitors have the option to authenticate using local user crede
 
 **Related Site Settings:**
 
-Authentication/Registration/Enabled
+- `Authentication/Registration/Enabled`
+- `Authentication/Registration/LocalLoginEnabled`
+- `Authentication/Registration/ExternalLoginEnabled`
+- `Authentication/Registration/OpenRegistrationEnabled`
+- `Authentication/Registration/InvitationEnabled`
+- `Authentication/Registration/RememberMeEnabled`
+- `Authentication/Registration/ResetPasswordEnabled`
 
--   Authentication/Registration/LocalLoginEnabled
-
--   Authentication/Registration/ExternalLoginEnabled
-
--   Authentication/Registration/OpenRegistrationEnabled
-
--   Authentication/Registration/InvitationEnabled
-
--   Authentication/Registration/RememberMeEnabled
-
--   Authentication/Registration/ResetPasswordEnabled
-
--   Sign-in with a local identity or external identity
+### Sign-in with a local identity or external identity
 
 ![Sign-in with a local account](media/sign-in-local-account.png "Sign-in with a local account")  
 
-Sign-up with a local identity or external identity
+### Sign-up with a local identity or external identity
 
 ![Register for a new local account](media/register-new-local-account.png "Register for a new local account")  
 
-Redeem an invitation code manually
+### Redeem an invitation code manually
 
 ![Sign-up with a invitation code](media/sign-up-invitation-code.png "Sign-up with a invitation code")  
 
@@ -75,27 +65,19 @@ Returning visitors who require a password reset (and have previously specified a
 
 **Related Site Settings:**
 
-Authentication/Registration/ResetPasswordEnabled
-
--   Authentication/Registration/ResetPasswordRequiresConfirmedEmail
+- `Authentication/Registration/ResetPasswordEnabled`
+- `Authentication/Registration/ResetPasswordRequiresConfirmedEmail`
 
 **Related Processes:**
 
-Send Password Reset To Contact
-
-1.  Customize the email in the workflow as necessary
-
-2.  Submit email to invoke process
-
-3.  Visitor prompted to check email
-
-4.  Process: Send Password Reset To Contact
-
-5.  Password reset email with instructions
-
-6.  Visitor returns to the reset form
-
-7.  Password reset complete
+- Send Password Reset To Contact
+- Customize the email in the workflow as necessary
+- Submit email to invoke process
+- Visitor prompted to check email
+- Process: Send Password Reset To Contact
+- Password reset email with instructions
+- Visitor returns to the reset form
+- Password reset complete
 
 ## Redeem an invitation
 
@@ -103,33 +85,26 @@ Redeeming an invitation code allows a registering visitor to be associated to an
 
 **Related Site Settings:**
 
-Authentication/Registration/InvitationEnabled
+`Authentication/Registration/InvitationEnabled`
 
 **Related Processes:**
 
-Send Invitation
+### Send Invitation
+The email sent by this workflow must be customized with the URL to the redeem invitation page on the portal: http://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation Code(Invitation)}
 
--   Note: the email sent by this workflow must be customized with the URL to the redeem invitation page on the portal.
-
-<!-- -->
-
--   http://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation Code(Invitation)}
-
-1.  Create invitation for a new contact
+### Create invitation for a new contact
 
 ![Create an invitation for a new contact](media/create-invitation.png "Create an invitation for a new contact")  
 
-1.  Customize and save the new invitation
+### Customize and save the new invitation
 
 ![Customize a new invitation](media/customize-new-invitation.png "Customize a new invitation")  
 
-1.  Process: Send Invitation
+### Send Invitation
 
-2.  Customize the invitation email
-
-3.  Invitation email opens the redemption page
-
-4.  Sign-up using the submitted invitation code
+1. Customize the invitation email 
+2. Invitation email opens the redemption page
+3. Sign-up using the submitted invitation code
 
     ![Sign-up with a invitation code](media/sign-up-invitation-code.png "Sign-up with a invitation code")  
 
@@ -139,13 +114,13 @@ Authenticated users manage their user accounts through the Security navigation b
 
 **Related Site Settings:**
 
-Authentication/Registration/LocalLoginEnabled
+- `Authentication/Registration/LocalLoginEnabled`
 
--   Authentication/Registration/ExternalLoginEnabled
+- `Authentication/Registration/ExternalLoginEnabled`
 
--   Authentication/Registration/TwoFactorEnabled
+- `Authentication/Registration/TwoFactorEnabled`
 
--   Authentication/Registration/MobilePhoneEnabled
+- `Authentication/Registration/MobilePhoneEnabled`
 
 ## Set or change a password
 
@@ -153,13 +128,10 @@ A user with an existing local account can apply a new password by providing the 
 
 **Related Site Settings:**
 
-Authentication/Registration/LocalLoginEnabled
+`Authentication/Registration/LocalLoginEnabled`
 
-1.  Create a username and password
-
-<!-- -->
-
-1.  Change an existing password
+- Create a username and password
+- Change an existing password
 
 ## Change or confirm an email address
 
@@ -167,21 +139,14 @@ Changing an email address (or setting it for the first time) puts it into an unc
 
 **Related Processes:**
 
-Send Email Confirmation To Contact
+### Send Email Confirmation To Contact
+1. Customize the email in the workflow as necessary. 
+2. Submit a new email (unconfirmed).
+3. Check email for confirmation
 
--   Customize the email in the workflow as necessary
-
-1.  Submit a new email (unconfirmed)
-
-<!-- -->
-
-1.  Check email for confirmation
-
-2.  Process: Send Email Confirmation To Contact
-
-3.  Customize the confirmation email
-
-4.  Click the confirmation link to complete
+### Send Email Confirmation To Contact
+1. Customize the confirmation email
+2.  Click the confirmation link to complete
 
 ## Change or confirm mobile phone
 
@@ -189,25 +154,22 @@ Changing the mobile phone value occurs slightly differently from changing the em
 
 **Related Processes:**
 
-Authentication/Registration/MobilePhoneEnabled
+`Authentication/Registration/MobilePhoneEnabled`
 
 **Related Processes:**
 
-Send Sms Confirmation To Contact
+### Send Sms Confirmation To Contact
 
--   Note: the workflow for this process contains a temporary step that sends the security code by email. This is a placeholder step that needs to be replaced by a new step capable of sending SMS messages.
+>[!Note] 
+> The workflow for this process contains a temporary step that sends the security code by email. This is a placeholder step that needs to be replaced by a new step capable of sending SMS messages.
 
-1.  Submit new mobile phone (unconfirmed)
+1. Submit new mobile phone (unconfirmed)
+2. Wait for SMS with security code
 
-<!-- -->
+### Send Sms Confirmation To Contact
 
-1.  Wait for SMS with security code
-
-2.  Process: Send Sms Confirmation To Contact
-
-3.  Replace this email step with SMS step
-
-4.  After submitting a valid security code
+1. Replace this email step with SMS step.
+2. After submitting a valid security code
 
 ## Enable two-factor authentication
 
@@ -217,27 +179,21 @@ Each user account enables this feature individually and requires either a confir
 
 **Related Site Settings:**
 
-Authentication/Registration/TwoFactorEnabled
-
--   Authentication/Registration/RememberBrowserEnabled
+- `Authentication/Registration/TwoFactorEnabled`
+- `Authentication/Registration/RememberBrowserEnabled`
 
 **Related Processes:**
 
-Send Email Two Factor Code To Contact
+### Send Email Two Factor Code To Contact
 
--   Send Sms Two Factor Code To Contact
+1. Send SMS two-factor code To Contact
+2. Enable two-factor authentication
+3. Choose to receive security code by email or SMS
+4.  Wait for email/SMS with security code
 
-1.  Enable two-factor authentication
+Process: Send Email Two Factor Code To Contact
 
-<!-- -->
-
-1.  Choose to receive security code by email or SMS
-
-2.  Wait for email/SMS with security code
-
-3.  Process: Send Email Two Factor Code To Contact
-
-4.  Process: Send Sms Two Factor Code To Contact
+Process: Send Sms Two Factor Code To Contact
 
 5.  Two-factor authentication can be disabled
 

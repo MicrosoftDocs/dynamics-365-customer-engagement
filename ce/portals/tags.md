@@ -14,33 +14,27 @@ ms.author: shjais
 manager: sakudes
 ---
 # Tags
+[comment]: <> (to be merged and deleted)
 
 The following topics describe each type of tag:
-
-[*Control flow tags*](#control-flow-tags)  
-
-[*Iteration tags*](#iteration-tags)  
-
-[*Variable tags*](#variable-tags)  
-
-[*Template tags*](#template-tags)  
-
-[*Dynamics 365 entity tags*](#dynamics-365-entity-tags)  
+- [Control flow tags](#control-flow-tags)
+- [Iteration tags](#iteration-tags)
+- [Variable tags](#variable-tags)
+- [Template tags](#template-tags)
+- [Dynamics 365 entity tags](#dynamics-365-entity-tags)  
 
 ### See Also
 
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Store source content by using web templates*](store-content-web-templates.md)  
-[*Understand Liquid operators*](liquid-operators.md)  
-[*Liquid types*](liquid-types.md)  
-[*Conditional*](liquid-conditional-operators.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Filters*](liquid-filters.md)  
-[*Create advanced templates for portals*](create-advanced-templates.md)  
+[Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
+[Store source content by using web templates](store-content-web-templates.md)  
+[Understand Liquid operators](liquid-operators.md)  
+[Liquid types](liquid-types.md)  
+[Conditional](liquid-conditional-operators.md)  
+[Liquid Objects](liquid-objects.md)  
+[Liquid Filters](liquid-filters.md)  
+[Create advanced templates for portals](create-advanced-templates.md)  
 
 ## Control flow tags
-
-
 
 Control Flow tags determine which block of code should be executed and what content should be rendered based on given conditions. Conditions are built using the available [*Understand Liquid operators*](liquid-operators.md), or just based on [*Conditional*](#conditional).  
 
