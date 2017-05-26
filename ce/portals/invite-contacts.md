@@ -19,19 +19,14 @@ manager: sakudes
 
 Use the Dynamics 365 portals invitation feature to invite contacts to your portal through automated email(s) created in your Dynamics 365 system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
 
-Send Single or Group Invitations
-
+- Send Single or Group Invitations
 -   Specify an expiry date if desired
-
 -   Specify a user or portal contact as the inviter if desired
-
 -   Automatically assign the invited contact(s) to an account upon invite redemption
-
 -   Automatically execute a workflow upon invite redemption
-
 -   Automatically assign the invited contact(s) to a Web Role(s) upon redemption
 
-Invitation redemption can be accomplished using any of our many authentication options. For documentation regarding portal authentication, see [Set authentication identity for a portal](set-authentication-identity.md) and choose the model applicable to your portal version and configuration. The user will adopt any settings provided by the administrator upon redemption. An Invite Redemption Activity will be created for the Invite and Contact.  
+Invitation redemption can be accomplished using any of our many authentication options. For documentation regarding portal authentication, see [Set authentication identity for a portal](set-authentication-identity.md) and choose the model applicable to your portal version and configuration. The user will adopt any settings provided by the administrator upon redemption. An Invite Redemption Activity will be created for the Invite and Contact.
 
 Invitations are sent via the **Send Invitation** workflow. By default, the workflow creates an email with a generic message and sends it to the invited Contact's primary email address. The **Send Invitation** workflow contains an email template that will need to be edited to contain a specific message for your portal and the correct hyperlink to your portal's **Invite Redemption Page**.
 
@@ -69,4 +64,3 @@ The Invitation Form has the following fields:
 [Register and invite for a portal](register-invite.md)  
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
-

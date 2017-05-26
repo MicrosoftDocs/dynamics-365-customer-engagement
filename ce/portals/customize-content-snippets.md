@@ -14,9 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Customize content by using content snippets
-
-
-
 Content snippets are small chunks of editable content that can be placed by a developer on a page template, allowing for customizable content to populate any portion of a page's layout easily. Snippet controls, which are responsible for rendering the content of snippets on the web-facing portal, are placed on .aspx pages by developers. For information on how to develop with snippets, see the developer's guide.
 
 ## Edit snippets
@@ -29,19 +26,13 @@ To edit snippets on the front side, users must be associated with a Web Role tha
 
 To edit through the front side, hover over the snippet element and click the edit button. You must have website access permissions to edit snippets. More information: [Control webpage access for portals](webpage-access-control.md)  
 
-When editing a snippet, either a simple text box will appear, allowing you to quickly edit the content, or the full editor appears, as it does when editing a page's copy.
+When editing a snippet, either a simple text box will appear, allowing you to quickly edit the content, or the full editor appears, as it does when editing a page's copy. Which of these two interfaces appears is determined by the edit type of the snippet, which also determines the type of content the snippet can hold (full, stylized HTML content versus plain text). A snippet can be assigned an edit type of either text or HTML when a developer adds the Content Snippet control to the page template in the Portal's Visual Studio project.
 
-Which of these two interfaces appears is determined by the edit type of the snippet, which also determines the type of content the snippet can hold (full, stylized HTML content versus plain text). A snippet can be assigned an edit type of either text or HTML when a developer adds the Content Snippet control to the page template in the Portal's Visual Studio project.
-
-## Edit by using Dynamics 365
+## Edit using Dynamics 365
 
 1.  Navigate to **Portals** -&gt; **Content Snippets**
-
-<!-- -->
-
-1.  To create a new snippet: Click **New**
-
-2.  To edit an existing snippet: Double-Click on an existing **Content Snippet** in the grid
+2.  To create a new snippet: Click **New**
+3.  To edit an existing snippet: Double-Click on an existing **Content Snippet** in the grid
 
 Enter values for the following fields:
 

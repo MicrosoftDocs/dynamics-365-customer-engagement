@@ -14,10 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Add dynamic content and create custom templates
-
-
-
-Liquid is an open-source template language integrated into portals. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. With Liquid, you can:
+Liquid is an open-source template language integrated into portals. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. Using Liquid, you can:
 
 -   Add dynamic content directly to the Copy field of a webpage or the content of a [content snippet](customize-content-snippets.md).  
 

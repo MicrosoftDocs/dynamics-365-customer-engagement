@@ -14,26 +14,20 @@ ms.author: shjais
 manager: sakudes
 ---
 # Create forum posts on the portal
-
-
-
 A forum post is a user-submitted message enclosed into a block containing the user's details and the date and time it was submitted. Members are usually allowed to edit or delete their own posts. Posts are contained in [forum threads](manage-forum-threads.md), where they appear as boxes one after another. The first post starts the thread; this may be called the OP (original post). Posts that follow in the thread are meant to continue discussion about that post, or respond to other replies; it is not uncommon for discussions to be derailed.  
 
 ## Create forum posts
 
 The forum post editor will appear automatically when a user has successfully signed in to the portal and navigated to a forum thread page, provided the developer has implemented the functionality in the forum thread's page template.
 
-Sign in to the portal.
-
--   Navigate to a [Manage forum threads](manage-forum-threads.md).  
-
--   Compose your reply in the rich text editor.
-
--   Click **Submit**.
+1. Sign in to the portal.
+2. Navigate to a [Manage forum threads](manage-forum-threads.md).  
+3. Compose your reply in the rich text editor.
+4. Click **Submit**.
 
 ## Attribute relationships
 
-The table below explains many of the Forum Post attributes used by portals. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
+The table below explains many of the Forum Post attributes used by portals. It is important to note that the rendering of the content/display-oriented attributes is controlled by the page template used.
 
 | Name         | Description                                                                                                 |
 |--------------|-------------------------------------------------------------------------------------------------------------|

@@ -14,19 +14,12 @@ ms.author: shjais
 manager: sakudes
 ---
 # Enable multiple-language portal support
-
-
-
 Business is not confined to a single language. One portal’s surface content can now exist in multiple languages to reach customers around the world while keeping a single content hierarchy. To enable multiple languages for a portal, follow these steps after signing in to Dynamics 365:
 
 1.  [Enable languages in a Dynamics 365 organization.](https://technet.microsoft.com/en-us/library/dn832148.aspx)  
-
 2.  Go to **Portals** &gt; **Website** &gt; **Websites**.
-
 3.  Select the website to add language support to.
-
 4.  Find the **Supported Languages** section under the **General** tab, and click the **+** button.
-
 5.  Fill in the form, including **Portal Language** (a lookup of languages that are activated in the organization and are supported by portals) and **Publishing State**.
 
 ![Add a new portal language](media/add-new-portal-language.png "Add a new portal language")  
@@ -35,7 +28,7 @@ Business is not confined to a single language. One portal’s surface content ca
 
 ## Supported languages
 
-The table below shows all 43 languages currently available out of the box. This list can be found in Dynamics 365 by going to **Portals** &gt; **Content** &gt; **Portal Languages**. The Portal Display Name of a language can be changed after selecting the language to change from this page. Note that the list now includes East Asian languages (Japanese, Chinese, and Korean).
+The table below shows all the languages currently available out of the box. This list can be found in Dynamics 365 by going to **Portals** &gt; **Content** &gt; **Portal Languages**. The Portal Display Name of a language can be changed after selecting the language to change from this page. Note that the list now includes East Asian languages (Japanese, Chinese, and Korean).
 
 | **Name**                           | **Language Code** | **LCID** | **Portal Display Name** |
 |------------------------------------|-------------------|----------|-------------------------|
@@ -97,7 +90,4 @@ Knowledge articles will only be displayed if they have been translated into the 
 
 Web link sets are the navigation links at the top of the portal. By navigating to **Portals** &gt; **Content** &gt; **Web Link Sets** you can control how this content is translated. When a language is active for the portal, a new set of links will be created for the newly activated language.
 
-![Active weblink for new language](media/active-weblink-new-language.png "Active weblink for new language")  
-
-### Configuration Guide
-
+![Active weblink for new language](media/active-weblink-new-language.png "Active weblink for new language")

@@ -23,41 +23,34 @@ The polls capability of Dynamics 365 portals provide single question or multiple
 
 Polls may be placed on the portal via the PollPlacement control. This control works very similarly to the AdPlacement control. If there are any polls associated with the Poll Placement entity that is being rendered by the PollPlacement control, those polls will be rendered. If there is more than one poll for a given placement, the placement will randomly present one of the specified polls.
 
-|  >[!Note]                                                                                                                                                                                                     |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Users may vote anonymously. Duplicate votes are not permitted. Basic information about submissions is tracked in Dynamics 365, and users who sign in to the website will have their submissions linked to the contact entity that tracks that user in Dynamics 365. |
+>[!Note]
+> Users may vote anonymously. Duplicate votes are not permitted. Basic information about submissions is tracked in Dynamics 365, and users who sign in to the website will have their submissions linked to the contact entity that tracks that user in Dynamics 365.
 
 ## Add a poll to the page
 
 Content managers may use [Template tags](#template-tags) to add a poll to any editable content area:  
 
-**{% include 'Random Poll' placement:polls.placements\["Sidebar"\] %}**
+`{% include 'Random Poll' placement:polls.placements\["Sidebar"\] %}`
 
-or
+--OR--
 
-**{% include 'Poll Template' ad:ads\["Wireframe Development"\] %}**
+`{% include 'Poll Template' ad:ads\["Wireframe Development"\] %}`
 
-|  >[!Note]                                                                                                                                                                                                                                                                   |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Example Web Templates are configured in the starter websites**. You may use the template "Random Poll" to display a random Poll from a particular Poll Placement, or the template "Poll Template" to display a specific Poll. You may edit these templates, or create your own based on their example, using [Polls](#polls-1). |  
+>[!Note]                                                         >Example Web Templates are configured in the starter websites**. You may use the template "Random Poll" to display a random Poll from a particular Poll Placement, or the template "Poll Template" to display a specific Poll. You may edit these templates, or create your own based on their example, using [Polls](#polls-1).  
 
 ## Create a poll placement
 
 To Create a new poll placement region:
 
-Navigate to **Portals** and then to **Poll Placements**
-
--   Click **New**
+1. Navigate to **Portals** and then to **Poll Placements**
+2. Click **New**
 
 ![Place active poll](media/place-active-poll.png "Place active poll")  
 
-Select the associated **Website**, give the placement a **Name**, and optionally select the [web templates](store-content-web-templates.md) that will control how it renders.  
+3. Select the associated **Website**, give the placement a **Name**, and optionally select the [web templates](store-content-web-templates.md) that will control how it renders.
 
-Now the placement has been created; you must associate one or more polls with this placement
-
-In the Polls tab of the Poll Placement, click the Add Poll Record button ("+")
-
--   In the resulting lookup box, select an existing poll record or create a new poll by clicking **New**
+4. Once the placement has been created you must associate one or more polls with this placement. In the Polls tab of the Poll Placement, click the Add Poll Record button ("+"). 
+5. In the resulting lookup box, select an existing poll record or create a new poll by clicking **New**.
 
 ![Create a poll](media/create-polls.png "Create a poll")  
 
@@ -65,7 +58,9 @@ In the Polls tab of the Poll Placement, click the Add Poll Record button ("+")
 
 A poll is a simple yes/no or multiple-choice question that you can display on your portal via Poll Placements. There are many customizable options for the display of polls available for developers, but for content managers adding polls to your website is as easy as choosing a question and series of possible answers (Poll Options). A poll must have related options to function, and must be associated with a Poll Placement to be rendered on the portal.
 
-A new poll can be created in two ways: by navigating to the **Polls** section in the **Portals** area in Dynamics 365 or by clicking the **New** button on the **Look Up Records** window while adding a poll to a poll placement.
+A new poll can be created in two ways: 
+- by navigating to the **Polls** section in the **Portals** area in Dynamics 365, or 
+- by clicking the **New** button on the **Look Up Records** window while adding a poll to a poll placement.
 
 ## Poll attributes
 
@@ -78,19 +73,13 @@ A new poll can be created in two ways: by navigating to the **Polls** section in
 | Submit Button Label | The text that is to be used for the submission button.                                                                                                                                                                                                                                                                                       |
 | Release Date        | Controls the date and time after which the Poll will be visible on the portal. If the Poll Placement is rotating through multiple Polls, an unreleased poll will not be shown. If no released polls are associated with a Poll Placement, nothing will appear. This is useful for controlling the release of time-sensitive content.         |
 | Expiration Date     | Controls a date/time prior to which the Poll will be visible on the portal.                                                                                                                                                                                                                                                                  |
-| Close Voting Date   | Until this date, users who have not yet voted on a poll can vote on the poll.                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                
-  |  >[!Note]                                                                                                                                                                                                                                                                          |    
-  |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-  | When a user has voted on a poll, they will see a summary of current results for the poll. These results will also be displayed for a poll that is past its closed date, but for which the user has not yet voted. This allows you to continue to reveal the results of polls after you no longer want people to be able to vote on them. |  
-                                                                                                                                                                                                                                                                                                                                                
-  |  >[!Note]                                                                                                                                                                                                                           |                                                   
-  |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                                 
-  | The difference between the close voting date and expiration date is that after the expiration date has passed, the poll will no longer show up on the poll placement (it will not be cycled to). The close Voting date only determines the date past which users cannot vote on the poll. |                                                 |
+| Close Voting Date   | Until this date, users who have not yet voted on a poll can vote on the poll.|
 
-Now the poll has been created; you must associate one or more poll options with this poll.
+>[!Note] 
+> - When a user has voted on a poll, they will see a summary of current results for the poll. These results will also be displayed for a poll that is past its closed date, but for which the user has not yet voted. This allows you to continue to reveal the results of polls after you no longer want people to be able to vote on them. 
+> - The difference between the close voting date and expiration date is that after the expiration date has passed, the poll will no longer show up on the poll placement (it will not be cycled to). The close Voting date only determines the date past which users cannot vote on the poll.
 
-In the Options tab of the Poll, click the Add Poll Option button ("+")
+Now the poll has been created, you must associate one or more poll options with this poll. In the Options tab of the Poll, click the **Add Poll** option ("+")
 
 ![Add poll options](media/add-poll-options.png "Add poll options")  
 

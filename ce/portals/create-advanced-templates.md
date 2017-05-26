@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create advanced templates for portals
 
-
+[comment]: <> (To be merged with other topics)
 
 Learn how to create advanced templates using these examples:
 
