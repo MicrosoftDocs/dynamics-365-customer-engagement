@@ -25,13 +25,9 @@ Depending on the page template implemented by your developer, the functionality 
 
 Users can indicate they wish to receive notification when new posts are created by navigating to a forum thread and clicking the **Alert Me** link.
 
-1.  Login to the **Portal**
-
-<!-- -->
-
-1.  Navigate to a **Forum Thread**
-
-2.  Click **Subscribe**
+1. Login to the **Portal**.
+2. Navigate to a **Forum Thread**.
+3. Click **Subscribe**.
 
 ![Subscribe to alerts](media/subscribe-alerts.png "Subscribe to alerts")  
 
@@ -39,13 +35,9 @@ Users can indicate they wish to receive notification when new posts are created 
 
 Users can indicate that they do not wish to receive notification when new posts are created for a given thread by navigating to the forum thread and clicking the **RemoveAlert** link.
 
-1.  Login to the **Portal**
-
-<!-- -->
-
-1.  Navigate to a **Forum Thread**
-
-2.  Click **Unsubscribe**
+1. Login to the **Portal**.
+2. Navigate to a **Forum Thread**.
+3. Click **Unsubscribe**.
 
 ![Unsubscribe from alerts](media/unsubscribe-alerts.png "Unsubscribe from alerts")  
 
@@ -53,31 +45,21 @@ Users can indicate that they do not wish to receive notification when new posts 
 
 Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within Dynamics 365.
 
-1.  Login to **Dynamics 365**
-
-<!-- -->
-
-1.  Navigate to **Community**
-
-2.  Click **Forum Threads**
-
-3.  Double-click on an existing **Forum Thread** listed in the grid
-
-4.  Click **Forum Alerts** in the leftmost navigation menu
+1.  Login to **Dynamics 365**.
+2. Navigate to **Community**.
+3. Click **Forum Threads**.
+4. Double-click on an existing **Forum Thread** listed in the grid. 
+5. Click **Forum Alerts** in the leftmost navigation menu.
 
 ### Create a new alert subscription
 
-1.  Click **Add New Forum Alert**
+1. Click **Add New Forum Alert**.
 
 ### Edit an existing alert
 
-1.  Double-click on the **Forum Alert** listed in the grid
-
-<!-- -->
-
-1.  Specify values for the fields provided
-
-2.  Click **Save & Close**
+1. Double-click on the **Forum Alert** listed in the grid.
+2. Specify values for the fields provided.
+3. Click **Save & Close**
 
 ## Attributes relationships
 
@@ -88,6 +70,7 @@ The table below explains many of the Forum Alert attributes used by portals.
 | Subscriber      | The Dynamics 365 Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
 | Thread          | The forum thread that is being subscribed to notification of newly created posts.                                                     |
 | Expiration Date | The date and time when notifications should stop.                                                                                     |
+||
 
 ### See Also
 

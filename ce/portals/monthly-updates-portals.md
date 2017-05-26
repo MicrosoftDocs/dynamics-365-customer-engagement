@@ -21,7 +21,7 @@ The December 2016 update has brought many new features to the portal capabilitie
 
 -   **East Asian language support:** Multi-byte languages such as Japanese, Chinese, and Korean are now supported.
 
---   **Faceted search:** New filters improve how quickly customers can find the content they are looking for while granting more control over visibility of content.
+-   **Faceted search:** New filters improve how quickly customers can find the content they are looking for while granting more control over visibility of content.
 
 -   **Product filtering:** Portal users can trim access knowledge articles related to their product ownership to avoid information overload.
 
@@ -41,13 +41,14 @@ By enabling the portal capabilities for Microsoft Dynamics 365, Dynamics 365 dat
 
 A tenant administrator enables Dynamics 365 portals by configuring it through the Dynamics 365 Administration Center, which also installs a package (with solutions and data) in the selected Dynamics 365 instance. A tenant administrator or a Dynamics 365 user set up as a Portal Administrator can then specify the data that will be exposed through the portal. To subsequently disable the portal capabilities, a tenant administrator can cancel the Portal Add-on subscription with Office 365.
 
-Azure components and services that are involved with the portal capabilities are detailed in the following sections.
-
-**Note:** For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/)  
-
+Important Azure components and services that are involved with the portal capabilities are:
 - [Azure Web Apps](https://azure.microsoft.com/services/app-service/web/): Azure Web Apps are used to host the portal in Azure
 - [Azure Traffic Manager](https://azure.microsoft.com/services/traffic-manager/): Azure Traffic Manager is used to ensure the high availability of the service by routing the user to the Web Apps that are up and running. 
 - [Azure Service Bus](https://azure.microsoft.com/services/service-bus/): Azure Service Bus (Topics/Subscriptions) is used for cache invalidation of the portals. Azure Service Bus temporarily stores the messages, which are triggered when any portal-related record is changed in Dynamics 365, and are passed along to Web Apps to do the cache invalidation. 
 - [Azure Key Vault](https://azure.microsoft.com/services/key-vault/)  All services store configuration data in Azure Key Vault.
 - [Azure Storage](https://azure.microsoft.com/services/storage/): Data related to the organization, tenant, and portal is stored in Azure Storage.
 - [Azure Active Directory](https://azure.microsoft.com/services/active-directory/): All the web services use Azure Active Directory to authenticate.
+> [!NOTE]
+> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/)  
+
+### See Also

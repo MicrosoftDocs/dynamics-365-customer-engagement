@@ -14,10 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Create a custom page template to render an RSS feed
-
-
-
-In this example, we'll create a custom page template to render an [*RSS feed*](http://en.wikipedia.org/wiki/RSS) of news articles, using Liquid and a Web Template Page Template. More information: [*Store source content by using web templates*](store-content-web-templates.md)  
+In this example, we'll create a custom page template to render an [RSS feed](http://en.wikipedia.org/wiki/RSS) of news articles, using Liquid and a Web Template Page Template. More information: [Store source content by using web templates](store-content-web-templates.md)  
 
 First, we'll create a new Dynamics 365 view that we'll use to load the data for our feed. In this example, we'll make it a view on Web Pages, and use this entity to store our articles. We can use this view to configure the sorting and filtering of results, and include as columns the entity attributes that we want available in our Liquid template.
 
@@ -43,9 +40,9 @@ In this example, we've seen how we can combine Liquid, Web Templates, Dynamics 3
 
 ### See Also
 
-[*Create advanced templates for portals*](create-advanced-templates.md)  
-[*Create a custom page template by using Liquid and a web template page template*](create-custom-template.md)  
-[*Render the entity list associated with the current page*](render-entity-list-current-page.md)  
-[*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md)  
-[*Render up to three levels of page hierarchy by using hybrid navigation*](hybrid-navigation-render-page-hierachy.md)  
+[Create advanced templates for portals](create-advanced-templates.md)  
+[Create a custom page template by using Liquid and a web template page template](create-custom-template.md)  
+[Render the entity list associated with the current page](render-entity-list-current-page.md)  
+[Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
+[Render up to three levels of page hierarchy by using hybrid navigation](hybrid-navigation-render-page-hierachy.md)  
 
