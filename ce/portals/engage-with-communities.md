@@ -28,5 +28,4 @@ Keep your customer engagement strong by growing a community, publishing articles
 ### See Also
 
 [Create a theme for your portal](create-theme.md)  
-[Configure a Dynamics 365 portal](configure-portal.md)  
-
+[Configure a Dynamics 365 portal](configure-portal.md)

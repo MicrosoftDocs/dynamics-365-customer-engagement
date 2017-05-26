@@ -14,28 +14,19 @@ ms.author: shjais
 manager: sakudes
 ---
 # Create web roles for portals
-
-
-
 After a contact has been configured to use the portal, it must be given one or more web roles to perform any special actions or access any protected content on the portal. For example, to access a restricted page, the contact must be assigned to a role to which read for that page is restricted to. To publish new content, the contact must be placed in a role which is given content publishing permissions.
 
 To create a web role:
 
 1.  Navigate to **Portals**
-
-<!-- -->
-
-1.  Click **Web Roles**
-
-2.  Click **New**
-
-3.  Specify values for the fields provided
-
-4.  Click **Save**
+2.  Click **Web Roles**
+3.  Click **New**
+4.  Specify values for the required fields
+5.  Click **Save**
 
 ## Attributes and relationships
 
-The table below explains many of the Web Role attributes used by Dynamics 365 portals.
+The table below explains the Web Role attributes used by Dynamics 365 portals.
 
 | Name                     | Description                                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,4 +106,3 @@ After your portal is created and provisioned, you can change the details of your
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
 [Configure a Dynamics 365 portal](configure-portal.md)  
-
