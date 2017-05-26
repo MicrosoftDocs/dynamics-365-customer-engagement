@@ -1,5 +1,5 @@
 ---
-title: " | MicrosoftDocs"
+title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 05/22/2017

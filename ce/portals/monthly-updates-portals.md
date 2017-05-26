@@ -18,21 +18,16 @@ manager: sakudes
 The December 2016 update has brought many new features to the portal capabilities of Dynamics 365. These updates allow for better interactions among companies, partners, and customers and make the experience of navigating the portal faster and easier. Some of the major updates include:
 
 -   **Multiple language support:** Support customers from multiple regions by using a single portal.
-
 -   **East Asian language support:** Multi-byte languages such as Japanese, Chinese, and Korean are now supported.
 
--   **Faceted search:** New filters improve how quickly customers can find the content they are looking for while granting more control over visibility of content.
+
+- **Faceted search:** New filters improve how quickly customers can find the content they are looking for while granting more control over visibility of content.
 
 -   **Product filtering:** Portal users can trim access knowledge articles related to their product ownership to avoid information overload.
-
 -   **Content access levels:** A new level of ownership associated with Portal contact, account, or web role that is used to control access to knowledge articles. Provide the right article for the right audience and prevent irrelevant articles from surfacing.
-
 -   **Knowledge article reporting enhancement:** The portal tracks where a knowledge article was used in the portal.
-
 -   **Project Service Automation integration:** Provide access and visibility for active and closed projects across all stages of a project lifecycle to partners and customers. Team members, reviewers, and customers can view project status, quotes, order forums, and bookable resources on the portal with this solution.
-
 -   **Field Service integration:** Expose information about active agreements, assets, work orders, invoices, and support cases to partners and customers on the portal with this solution.
-
 -   **Partner onboarding:** Recruit new partners for better customer sales and service experiences. Potential partners can apply for partner status through the portal.
 
 ## Privacy notice

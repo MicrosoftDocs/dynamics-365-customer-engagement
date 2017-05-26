@@ -32,6 +32,7 @@ The Web Pages associated with the Entity List can be viewed by clicking the **We
 When creating or editing a Web Page, an Entity List can be specified in the lookup field provided on the Web Page form. The Page Template typically will be the "Page" template but can be one of several other templates designed for content as the master templates contain the necessary logic to determine if an Entity List should be rendered.
 
 ## Entity list attributes and relationships
+
 ```
 <table>
 <thead>
@@ -118,8 +119,8 @@ The Options tab on the form contains a text area that you can enter custom JavaS
 ![Custom JavaScript example](media/custom-javascript-example.png "Custom JavaScript example")  
 
 The list gets its data asynchronously and when it is complete it will trigger an event "loaded" that your custom JavaScript can listen for and do something with items in the grid. The following is a trivial example:
-
-```$(document).ready(function (){
+```
+$(document).ready(function (){
 $(".entitylist.entity-grid").on("loaded", function () {
 $(this).children(".view-grid").find("tr").each(function (){
 // do something with each row
@@ -128,7 +129,6 @@ $(this).css("background-color", "yellow");
 });
 }); 
 ```
-
 Find a particular attribute field and get its value to possibly modify the rendering of the value. The following gets each cell that is for the attribute named 'accountnumber'. Replace 'accountnumber' with attribute appropriate for your entity and view.
 ```
 $(document).ready(function (){
