@@ -43,6 +43,7 @@ Important Azure components and services that are involved with the portal capabi
 - [Azure Key Vault](https://azure.microsoft.com/services/key-vault/)  All services store configuration data in Azure Key Vault.
 - [Azure Storage](https://azure.microsoft.com/services/storage/): Data related to the organization, tenant, and portal is stored in Azure Storage.
 - [Azure Active Directory](https://azure.microsoft.com/services/active-directory/): All the web services use Azure Active Directory to authenticate.
+
 > [!NOTE]
 > For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/)  
 
