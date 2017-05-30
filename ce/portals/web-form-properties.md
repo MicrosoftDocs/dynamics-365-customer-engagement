@@ -14,18 +14,14 @@ ms.author: shjais
 manager: sakudes
 ---
 # Web form properties for portals
-
-
-
 The Web Form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to Web Page allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
 
 The other options on the Web Form record itself control top-level preferences for the multiple-step process as a whole, for example whether you'd like to display a progress bar.
 
 To view existing Web Forms or to create new Web Forms, navigate to **Portals -&gt; Web Forms**
 
-|  >[!Note]                                                                  |  
-|----------------------------------------------------------------------------------------------------------------------------------|
-| A **Web Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site. |  
+>[!Note]                                                                  |  
+> A **Web Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site.  
 
 When creating or editing a Web Page, a **Web Form** can be specified in the lookup field provided on the Web Page form.
 
@@ -38,11 +34,7 @@ The following attributes and relationships determine the functionality of the We
 | Name                                | Description                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name                                | A title of the form used for reference.                                                                                                                                                                                                                                                                                                                        |
-| Start Step                          | The first step of the form. A Web Form will consist of one or more steps. For more detail regarding steps please refer to the section titled Web Form Step found below.                                                                                                                                                                                        
-                                                                                                                                                                                                                                                                                                                                                                  
-  |  >[!Note] |                                                                                                                                                                                                                                                                                               
-  |-----------------------------------------------------------------|                                                                                                                                                                                                                                                                                             
-  | Note: The first step cannot be of type "Condition".             |                                                                                                                                                                                                                                                                                             |
+| Start Step                          | The first step of the form. A Web Form will consist of one or more steps. For more detail regarding steps please refer to the section titled Web Form Step found below. The first step cannot be of type "Condition".                                                                                                                                                                                                                                                                                              |
 | Authentication Required             | If checked, when a user that is not logged in visits the page containing the form, they will be redirected to the login page. Upon successful login the user will be redirected back to the page containing the form.                                                                                                                                          |
 | Start New Session On Load           | Selecting **Yes** indicates that if the user opens the form in a new browser, or new tab or closes the browser or page and returns the form will start a completely new session and begin at the first step. Otherwise the session will be persisted and the user can close the browser or page and resume later exactly where they left off. Default: **No**. |
 | Multiple Records Per User Permitted | Selecting **Yes** indicates that a user is permitted to create more than one submission. This assists the form in determining what to do when a user revisits a form. Default: **Yes**.                                                                                                                                                                        |
@@ -116,15 +108,9 @@ Web Form Metadata contains additional behavior modification logic to augment or 
 
 On the **Web Form Step** that has fields that you would like to modify
 
-Click the **Metadata** link in the leftmost navigation area.
-
-To add a new record:
-
-1.  Click **Add New Web Form Metadata**
-
-To edit an existing record:
-
-1.  Double-click on a record in the grid
+1. Click the **Metadata** link in the leftmost navigation area. 
+- To add a new record, click **Add New Web Form Metadata**.
+- To edit an existing record, double-click on a record in the grid.
 
 ### Web form metadata properties
 
@@ -266,13 +252,7 @@ The following properties specify the location and content of custom description 
 | Name                                 | Description                                                                                                                                                                                                                                                                        |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Add Description                      | Yes results in custom text being displayed on the form in the position specified.                                                                                                                                                                                                  |
-| Position                             | One of the following:                                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                                                                      
-  Above the field                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                      
-  -   Below the field                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                      
-  -   Above the label                                                                                                                                                                                                                                                                 |
+| Position                             | One of the following: Above the field, Below the field, and Above the label                                                                                                                                                                                                                                                                 |
 | Use Attribute's Description Property | Select **Yes** to use the description assigned to the attribute metadata on the entity. Select 'No' to provide a custom description. Default: **No**.                                                                                                                              |
 e| Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
 
