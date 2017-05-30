@@ -47,27 +47,10 @@ The following attributes and relationships determine the functionality of the We
 | Name                              | Description                                                                                          |
 |-----------------------------------|------------------------------------------------------------------------------------------------------|
 | Enabled                           | Check to display the progress indicator. Default: **Disabled**.                                      |
-| Type                              | One of the following:                                                                                
-                                                                                                        
-  Title                                                                                                 
-                                                                                                        
-  -   Numeric (Step x of n)                                                                             
-                                                                                                        
-  -   Progress Bar                                                                                      
-                                                                                                        
-  Default: **Title**                                                                                    |
-| Position                          | One of the following:                                                                                
-                                                                                                        
-  Top                                                                                                   
-                                                                                                        
-  -   Bottom                                                                                            
-                                                                                                        
-  -   Left                                                                                              
-                                                                                                        
-  -   Right                                                                                             
-                                                                                                        
-  Position is relative to the form. Default: **Top**.                                                   |
+| Type                              | One of the following: Title, Numeric (Step x of n), and Progress Bar. Default: **Title**                                                                                    |
+| Position                          | One of the following: Top, Bottom, Left, Right. Position is relative to the form. Default: **Top**.                                                   |
 | Prepend Step Number to Step Title | Check to add the number of the step to the beginning of the title of the step. Default is unchecked. |
+||
 
 Example of the various progress indicator types:
 
@@ -93,14 +76,14 @@ Example of the various progress indicator types:
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Display Save Changes Warning On Close | Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, click the browser's back button, or click the previous button in a multiple step form.    |
 | Save Changes Warning Message          | For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
+||
 
 Example:
 
 ![Save changes warning](media/save-changes-warning.png "Save changes warning")  
 
-|  >[!Note]   |  
-|-------------------------------------------------------------------|
-| Firefox does not provide the ability to specify a custom message. |
+>[!Note]
+> Firefox does not provide the ability to specify a custom message.
 
 ## Web form metadata
 
@@ -108,7 +91,7 @@ Web Form Metadata contains additional behavior modification logic to augment or 
 
 On the **Web Form Step** that has fields that you would like to modify
 
-1. Click the **Metadata** link in the leftmost navigation area. 
+1. Click the **Metadata** link in the leftmost navigation area: 
 - To add a new record, click **Add New Web Form Metadata**.
 - To edit an existing record, double-click on a record in the grid.
 
@@ -119,15 +102,13 @@ The following attributes provide additional styling and capabilities for element
 | Name          | Description                                                                                                                                                                                                |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Web Form Step | The Web Form Step associated with the Web Form Metadata record.                                                                                                                                            |
-| Type          | Available options are:                                                                                                                                                                                     
-                                                                                                                                                                                                              
-  **Web Form Metadata Type = Attribute**: displays the appropriate options for modifying fields on the current form rendered for the related step.                                                            
-                                                                                                                                                                                                              
-  -   **Web Form Metadata Type = Section**: displays the options available for modifying a section on the form.                                                                                               
-                                                                                                                                                                                                              
-  -   **Web Form Metadata Type = Tab**: displays the options available for modifying a tab on a form.                                                                                                         
-                                                                                                                                                                                                              
-  -   **Web Form Metadata Type = Purchase**: displays products for purchase and to generate a quote record in Dynamics 365 to persist the user's purchase selections to create an order and process payment.  |
+| Type          | Available options are: Attribute, Section, Tab, and Purchase.
+||
+
+- **Web Form Metadata Type = Attribute**: displays the appropriate options for modifying fields on the current form rendered for the related step.
+- **Web Form Metadata Type = Section**: displays the options available for modifying a section on the form.
+- **Web Form Metadata Type = Tab**: displays the options available for modifying a tab on a form.
+- **Web Form Metadata Type = Purchase**: displays products for purchase and to generate a quote record in Dynamics 365 to persist the user's purchase selections to create an order and process payment.  |
 
 ### Web form metadata type = attribute
 
@@ -144,25 +125,7 @@ The following options modify the style and functionality of an attribute's field
 
 | Name                                            | Description                                                                                                                                                                             |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Style                                           | One of the following:                                                                                                                                                                   
-                                                                                                                                                                                           
-  Option Set as Vertical Radio Button List                                                                                                                                                 
-                                                                                                                                                                                           
-  -   Option Set as Horizontal Radio Button List                                                                                                                                           
-                                                                                                                                                                                           
-  -   Single Line of Text as Geolocation Lookup Validator (requires Bing Maps Settings)                                                                                                    
-                                                                                                                                                                                           
-  -   Group Whole Number as Constant Sum (requires Group Name)                                                                                                                             
-                                                                                                                                                                                           
-  -   Group Whole Number as Rank Order Scale No Ties (requires Group Name)                                                                                                                 
-                                                                                                                                                                                           
-  -   Group Whole Number as Rank Order Scale Allow Ties (requires Group Name)                                                                                                              
-                                                                                                                                                                                           
-  -   Multiple Choice Matrix (requires Group Name)                                                                                                                                         
-                                                                                                                                                                                           
-  -   Multiple Choice (requires Group Name)                                                                                                                                                
-                                                                                                                                                                                           
-  -   Group Whole Number as Stack Rank (requires Group Name)                                                                                                                               |
+| Style                                           | One of the following:Option Set as Vertical Radio Button List, Option Set as Horizontal Radio Button List, Single Line of Text as Geolocation Lookup Validator (requires Bing Maps Settings), Group Whole Number as Constant Sum (requires Group Name), Group Whole Number as Rank Order Scale No Ties (requires Group Name),Group Whole Number as Rank Order Scale Allow Ties (requires Group Name),Multiple Choice Matrix (requires Group Name),Multiple Choice (requires Group Name), Group Whole Number as Stack Rank (requires Group Name).                                                                                                                               |
 | Group Name                                      | A name used to group controls together as a composite control.                                                                                                                          |
 | Multiple Choice Minimum Required Selected Count | This is the required minimum values selected in the multiple choice question. Only necessary if 'Multiple Choice' Control Style is selected.                                            |
 | Multiple Choice Max Selected Count              | This is the maximum number of values that is permitted to be selected in the multiple choice question. Only necessary if 'Multiple Choice' Control Style is selected.                   |
@@ -170,6 +133,7 @@ The following options modify the style and functionality of an attribute's field
 | Constant Sum Maximum Total                      | This is the maximum number of value that is permitted to be applied to a constant sum response field. Only necessary if 'Group Whole Number as Constant Sum' Control Style is selected. |
 | Randomize Option Set Values                     | Specifying Yes results in randomly ordered options listed for an Option Set control. Only applicable to attributes that are of type Option Set.                                         |
 | CSS Class                                       | Adds a custom CSS class name to the control.                                                                                                                                            |
+||
 
 ### Prepopulate field
 
@@ -178,14 +142,7 @@ The following options provide a default value for a field on the form.
 | Name                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ignore Default Value | Ignores the default value of the specified attribute field. Useful for attributes that are **Two Option** fields that are rendered as Yes and No radio buttons. Because Dynamics 365 automatically assigns a value of yes or no by default, this option makes it possible to display Yes/No questions without a predefined response.                                                                                                       |
-| Type                 | One of the following:                                                                                                                                                                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  Value                                                                                                                                                                                                                                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  -   Today's Date                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  -   Current User's Contact                                                                                                                                                                                                                                                                                                                                                                                                                  
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
+| Type                 | One of the following value: Today's Date,  Current User's Contact
   Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
 | Value                | A value to be assigned to the field when the form is loaded.                                                                                                                                                                                                                                                                                                                                                                               |
 | From Attribute       | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field when the form is loaded.                                                                                                                                                                                                                                                                                         |
@@ -196,32 +153,12 @@ The following options specify a value to be set when the form is saved.
 
 | Name              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Set Value On Save | Yes indicates that a value should be assigned to the attribute using the input provided in the **Value** field.                                                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  |  >[!Note]            |                                                                                                                                                                                                                                                                                                                                                                
-  |----------------------------------------------------------------------------|                                                                                                                                                                                                                                                                                                                                                              
-  | All attribute types are supported except the following: Unique Identifier. |                                                                                                                                                                                                                                                                                                                                                              |
-| Type              | One of the following:                                                                                                                                                                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  Value                                                                                                                                                                                                                                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  -   Today's Date                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  -   Current User's Contact                                                                                                                                                                                                                                                                                                                                                                                                                  
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
-| Value             | Value assigned to the attribute when the form is being saved.                                                                                                                                                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  For Two Option (Boolean) fields use true or false                                                                                                                                                                                                                                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  For Option Set field use the integer value for the option                                                                                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  For Lookup (EntityReference) fields, use the GUID                                                                                                                                                                                                                                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  |  >[!Note]                            |                                                                                                                                                                                                                                                                                                                                                
-  |--------------------------------------------------------------------------------------------|                                                                                                                                                                                                                                                                                                                                              
-  | If the attribute is also on the form the user's value will be overwritten with this value. |                                                                                                                                                                                                                                                                                                                                              |
-| From Attribute    | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field during save.                                                                                                                                                                                                                                                                                                     |
+| Set Value On Save | Yes indicates that a value should be assigned to the attribute using the input provided in the **Value** field.                                                                  All attribute types are supported except the following: Unique Identifier. |                                                                                                                                                                                                                                                                                                                                                              |
+| Type              | One of the following: Value, Today's Date,Current User's Contact. Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
+| Value             | Value assigned to the attribute when the form is being saved. For Two Option (Boolean) fields use true or false. For Option Set field use the integer value for the option. For Lookup (EntityReference) fields, use the GUID. Note if the attribute is also on the form the user's value will be overwritten with this value. |                                                                                 |
+| From Attribute    | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field during save.|
+||
+
 
 ### Validation
 
@@ -237,24 +174,22 @@ For each language pack installed and enabled for the Dynamics 365 organization, 
 | Field is Required                           | Check to make the attribute field required to contain a value.                                                                                                                                                                                                   |
 | Required Field Validation Error Message     | Overrides the default required field error message if the field does not contain a value.                                                                                                                                                                        |
 | Range Validation Error Message              | Overrides the default range validation error message displayed if the field's value is outside of the appropriate minimum and maximum values specified on the entity attribute that are of type Whole Number, Decimal Number, Floating Point Number or Currency. |
-
-| Name                                        | Description                                                                                                                                                                                                                        |
-|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Geolocation Validator Error Message         | Applicable if the attribute is a Single Line of Text and the Control Style specified is Single Line of Text as Geolocation Lookup Validator then this will override the default error message displayed if input validation fails. |
+Geolocation Validator Error Message         | Applicable if the attribute is a Single Line of Text and the Control Style specified is Single Line of Text as Geolocation Lookup Validator then this will override the default error message displayed if input validation fails. |
 | Constant Sum Validation Error Message       | Applicable if the attribute is a Whole Number type and the Control Style specified is Group Whole Number as Constant Sum then this will override the default error message displayed if input validation fails.                    |
 | Multiple Choice Validation Error Message    | Applicable if the attribute is a Two Option type and the Control Style specified is Multiple Choice then this will override the default error message displayed if input validation fails.                                         |
 | Rank Order No Ties Validation Error Message | Applicable if the attribute is a Whole Number type and the Control Style specified is Group Whole Number as Rank Order No Ties then this will override the default error message displayed if input validation fails.              |
-
+||
 ### Description and instructions
 
 The following properties specify the location and content of custom description or instructions.
 
-| Name                                 | Description                                                                                                                                                                                                                                                                        |
+| Name                                 | Description                                                                              |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Add Description                      | Yes results in custom text being displayed on the form in the position specified.                                                                                                                                                                                                  |
 | Position                             | One of the following: Above the field, Below the field, and Above the label                                                                                                                                                                                                                                                                 |
 | Use Attribute's Description Property | Select **Yes** to use the description assigned to the attribute metadata on the entity. Select 'No' to provide a custom description. Default: **No**.                                                                                                                              |
-e| Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+||
 
 ### Web form metadata type = section
 
@@ -264,6 +199,7 @@ The following properties are displayed when the Type selected equals **Section**
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Section Name | The name of the section on the entity's form in Dynamics 365 to be modified.                                                                                                                                                                                      |
 | Label        | Replaces the default label assigned to the section on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+||
 
 ### Web form metadata type = tab
 
@@ -273,6 +209,7 @@ The following properties are displayed when the Type selected equals **Tab**
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tab Name | The name of the tab on the entity's form in Dynamics 365 to be modified.                                                                                                                                                                                      |
 | Label    | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+||
 
 ### Web form metadata type = purchase
 
@@ -296,7 +233,8 @@ The following properties are displayed when the Type selected equals **Purchase*
 | Fulfill Order on Payment                | A Boolean value. Checked indicates that the order state should be set to **Fulfilled** when the payment is verified. Requires **Target Entity Order Relationship Name.** If the target entity is **adx\_shoppingcart**, an order will be created automatically upon successful payment and Target Entity Order Relationship Name is not required. |
 | Create Invoice on Payment               | A Boolean value. Checked indicates that an invoice should be created when the payment is verified. Requires **Target Entity Invoice Relationship Name**, unless the target entity is adx\_shoppingcart, in which case this relationship is not needed.                                                                                            |
 | Target Entity Order Relationship Name   | Relationship from the web form step target entity to the order entity.                                                                                                                                                                                                                                                                            |
-| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.                                                                                                                                                                                                                                                                          |
+| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.           ||
+                                                                                                                                                                                                                                                               |
 
 ### See Also
 
