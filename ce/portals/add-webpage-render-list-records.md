@@ -33,85 +33,26 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 
 ## Entity list attributes and relationships
 
-```
-<table>
-<thead>
-<tr class="header">
-<th><strong>Name</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Name</td>
-<td>The descriptive name of the record. This field is required.</td>
-</tr>
-<tr class="even">
-<td>Entity Name</td>
-<td>The name of the entity from which the Saved Query View will be loaded from. This field is required.</td>
-</tr>
-<tr class="odd">
-<td>View</td>
-<td>The Saved Query View(s) of the target entity that is to be rendered. This field is required. If more than one view has been specified, the webpage will contain a drop-down to allow the user to toggle between the various views.</td>
-</tr>
-<tr class="even">
-<td>Page Size</td>
-<td>An integer value that specifies the number of records per page. This field is required. Default: 10</td>
-</tr>
-<tr class="odd">
-<td>Web Page for Details View</td>
-<td>An optional Web Page that can be linked to for each record. The ID Query String Parameter Name and record ID will be appended to the Query String of the URL to this Web Page.</td>
-</tr>
-<tr class="even">
-<td>Details Button Label</td>
-<td>The text displayed for the details view button if Web Page for Details View has been specified. Default: View details<br />
-<em>For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language.</em></td>
-</tr>
-<tr class="odd">
-<td>Web Page for Create</td>
-<td>An optional Web Page that will be the target of the create button.</td>
-</tr>
-<tr class="even">
-<td>Create Button Label</td>
-<td>The text displayed for the create button if Web Page for Create has been specified. Default: Create <br />
-<em>For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.</em></td>
-</tr>
-<tr class="odd">
-<td>ID Query String Parameter Name</td>
-<td>A parameter name provided in the query string of the URL to the Web Page for Details View. Default: id</td>
-</tr>
-<tr class="even">
-<td>Empty List Text</td>
-<td>The message displayed when there are no records.<br />
- <em>For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.</em></td>
-</tr>
-<tr class="odd">
-<td>Portal User Attribute</td>
-<td>An optional lookup attribute on the primary entity that represents the portal user record, either contact or system user that the current user's ID can be applied to filter the data rendered in the list.</td>
-</tr>
-<tr class="even">
-<td>Account Attribute</td>
-<td>An optional lookup attribute on the primary entity that represents an account record that the current user contact's Parent Customer value can be applied to filter the data rendered in the list.</td>
-</tr>
-<tr class="odd">
-<td>Website Attribute</td>
-<td>An optional lookup attribute on the primary entity that represents the website that the current website's ID can be applied to filter the data rendered in the list.</td>
-</tr>
-<tr class="even">
-<td>Search Enabled</td>
-<td>An optional Boolean value indicating if search should be enabled or not. A textbox will be rendered to allow users to do a quick search for records. Use asterisk (*) wildcard character to search on partial text. The search appends 'or' condition filters for each column in the view to the view's existing predefined filter conditions to query and return the resulting records.</td>
-</tr>
-<tr class="odd">
-<td>Search Placeholder Text</td>
-<td>An optional string used as the label displayed in the textbox on initial load.</td>
-</tr>
-<tr class="even">
-<td>Search Tooltip Text</td>
-<td>An optional string used as the tooltip displayed when the mouse moves over the search textbox.</td>
-</tr>
-</tbody>
-</table>
-```
+| **Name** | **Description** |
+| ------------ | --- |
+| Name | The descriptive name of the record. This field is required. |
+| Entity Name | The name of the entity from which the Saved Query View will be loaded from. This field is required. |
+| View | The Saved Query View(s) of the target entity that is to be rendered. This field is required. If more than one view has been specified, the webpage will contain a drop-down to allow the user to toggle between the various views. |
+| Page Size | An integer value that specifies the number of records per page. This field is required. Default: 10 |
+| Web Page for Details View | An optional Web Page that can be linked to for each record. The ID Query String Parameter Name and record ID will be appended to the Query String of the URL to this Web Page. |
+| Details Button Label | The text displayed for the details view button if Web Page for Details View has been specified. Default: View details _For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language._ |
+| Web Page for Create | An optional Web Page that will be the target of the create button. |
+| Create Button Label | The text displayed for the create button if Web Page for Create has been specified. Default: Create _For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language._ |
+| ID Query String Parameter Name | A parameter name provided in the query string of the URL to the Web Page for Details View. Default: id |
+| Empty List Text | The message displayed when there are no records. _For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language._ |
+| Portal User Attribute | An optional lookup attribute on the primary entity that represents the portal user record, either contact or system user that the current user's ID can be applied to filter the data rendered in the list. |
+| Account Attribute | An optional lookup attribute on the primary entity that represents an account record that the current user contact's Parent Customer value can be applied to filter the data rendered in the list. |
+| Website Attribute | An optional lookup attribute on the primary entity that represents the website that the current website's ID can be applied to filter the data rendered in the list. |
+| Search Enabled | An optional Boolean value indicating if search should be enabled or not. A textbox will be rendered to allow users to do a quick search for records. Use asterisk (*) wildcard character to search on partial text. The search appends 'or' condition filters for each column in the view to the view's existing predefined filter conditions to query and return the resulting records. |
+| Search Placeholder Text | An optional string used as the label displayed in the textbox on initial load. |
+| Search Tooltip Text | An optional string used as the tooltip displayed when the mouse moves over the search textbox. |
+||
+
 ## Add custom Javascript
 
 The Options tab on the form contains a text area that you can enter custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] and if your page includes jQuery library then you can use that here as well. The script block will be added at the bottom of the webpage just before the page’s closing form tag.
@@ -483,7 +424,7 @@ A Range Filter Set can have any number of options. Each option will produce a fi
 Options have the following attributes:
 
 | **Name**              | **Description**                                                                                                                                                                                |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Operator 1            | The first comparison operator used to filter results, e.g. "Equals", "Less Than", etc. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains". Picklist and Boolean operators are always "Equals".                                                                                                                                             |
 | Value 1               | The first value used for this filter condition.                                                                                                                                                |
 | Operator 2 (optional) | The second comparison operator used to filter results, e.g. "Equals", "Less Than", etc. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains". Picklist and Boolean operators are always "Equals".                                                                                                                                             |
