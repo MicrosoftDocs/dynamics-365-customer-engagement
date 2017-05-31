@@ -61,7 +61,7 @@ Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../inc
     >  The maximum amount of custom tags you can add per post is 20 tags. To add more tags, you must first remove other tags.  
   
 > [!NOTE]
->  To configure a tag for the Social Selling Assistant, see [Configure a custom tag to promote posts](../social-engagement/configure-social-selling-assistant.md#promotePost).  
+>  To configure a tag for the Social Selling Assistant, see [Configure a custom tag to promote posts](../social-engagement/configure-social-selling-assistant.md#configure-a-custom-tag-to-promote-posts).  
   
 <a name="promote_customtags"></a>   
 ## Promote custom tags to auto tags  
