@@ -18,11 +18,11 @@ The latest portal authentication experience allows portal users to sign in with 
 
 ## Local authentication
 
-Local authentication is the common forms-based authentication uses the contact records of a Dynamics 365 organization for authentication. To build custom authentication experiences, developers can use the ASP.Net Identity API to create custom login pages and tools.
+Local authentication is the common forms-based authentication uses the contact records of a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization for authentication. To build custom authentication experiences, developers can use the ASP.Net Identity API to create custom login pages and tools.
 
 ## External authentication
 
-External authentication is provided by the ASP.NET Identity API. In this case, account credentials and password management are handled by a third-party identity provider. This includes OpenID based providers such as Yahoo! and Google and OAuth 2.0 based providers such as Twitter, Facebook, and Microsoft. Users sign up to the portal by selecting an external identity to register with the portal. After it is registered, an external identity has access to the same features as a local account.
+External authentication is provided by the ASP.NET Identity API. In this case, account credentials and password management are handled by a third-party identity provider. This includes OpenID based providers such as Yahoo! and Google and OAuth 2.0 based providers such as Twitter, Facebook, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]. Users sign up to the portal by selecting an external identity to register with the portal. After it is registered, an external identity has access to the same features as a local account.
 
 ## Account sign-up (registration)
 
@@ -30,7 +30,7 @@ Portal administrators have several options for controlling account sign-up behav
 
 ## Open registration
 
-During sign-up, the user has the option of creating a local account (providing a username and password) or selecting an external identity from a list of identity providers. If an external identity is selected, the user is required to sign in through the chosen identity provider to prove that they own the external account. In either case, the user is immediately registered and authenticated with the portal. A new contact record is created in the Dynamics 365 organization upon sign-up.
+During sign-up, the user has the option of creating a local account (providing a username and password) or selecting an external identity from a list of identity providers. If an external identity is selected, the user is required to sign in through the chosen identity provider to prove that they own the external account. In either case, the user is immediately registered and authenticated with the portal. A new contact record is created in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization upon sign-up.
 
 With open registration enabled, users are not required to provide an invitation code to complete the sign-up process.
 

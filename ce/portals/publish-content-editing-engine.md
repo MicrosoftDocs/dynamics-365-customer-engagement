@@ -38,7 +38,7 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 | Help                                       | Opens a dialog about TinyMCE.                                                                                                                                                                                                       |
 | Cut, Copy, Paste                           | Cuts, copies, or pastes the selected text to and from the clipboard.                                                                                                                                                                |
 | Paste as Plain Text                        | Pastes text from the clipboard with all formatting and styling removed.                                                                                                                                                             |
-| Paste from Word                            | Pastes text from the clipboard while trying to maintain formatting and styling that originated from Microsoft Word.                                                                                                                 |
+| Paste from Word                            | Pastes text from the clipboard while trying to maintain formatting and styling that originated from [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word.                                                                                                                 |
 | Find, Find/Replace                         | Opens a dialog for searching content and optionally replacing found content.                                                                                                                                                        |
 | Insert/Remove Bulleted List, Numbered List | Inserts a bulleted or numbered list for selected text or at the text cursor if the list isn't already present. If the list is already present, it will be removed.                                                                  |
 | Decrease, Increase Indent                  | Reduces or increases the indentation of the text or a list item.                                                                                                                                                                    |
@@ -99,7 +99,7 @@ From within the content editor, put the text cursor in the place to insert an im
 
 ## Browse pages and files by using the file picker
 
-The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the content editor. Click on the icon that looks like a Windows Explorer window to open the file picker. Browse to a page or file using the left tree view and double click the page or file in the right list view to select it.
+The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the content editor. Click on the icon that looks like a [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Explorer window to open the file picker. Browse to a page or file using the left tree view and double click the page or file in the right list view to select it.
 
 To upload new files,
 

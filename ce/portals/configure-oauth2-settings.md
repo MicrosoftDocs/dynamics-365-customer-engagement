@@ -15,11 +15,11 @@ manager: sakudes
 ---
 [comment]: <> (Need to fix tables)
 # OAuth2 provider settings for portals
-The OAuth 2.0 based external identity providers involve registering an "application" with a third-party service to obtain a "client ID" and "client secret" pair. Often this application requires specifying a redirect URL that allows the identity provider to send users back to the portal (relying party). The client ID and client secret are configured as portal site settings in order to establish a secure connection from relying party to identity provider. The settings are based on the properties of the [MicrosoftAccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.twitter.twitterauthenticationoptions.aspx), [FacebookAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.facebook.facebookauthenticationoptions.aspx), and [GoogleOAuth2AuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.google.googleoauth2authenticationoptions.aspx) classes.  
+The OAuth 2.0 based external identity providers involve registering an "application" with a third-party service to obtain a "client ID" and "client secret" pair. Often this application requires specifying a redirect URL that allows the identity provider to send users back to the portal (relying party). The client ID and client secret are configured as portal site settings in order to establish a secure connection from relying party to identity provider. The settings are based on the properties of the [[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]AccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.twitter.twitterauthenticationoptions.aspx), [FacebookAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.facebook.facebookauthenticationoptions.aspx), and [GoogleOAuth2AuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.google.googleoauth2authenticationoptions.aspx) classes.  
 
 The supported providers are:
 
-- Microsoft Account
+- [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Account
 - Twitter
 - Facebook
 - Google
@@ -43,7 +43,7 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
     - Click **Save**
 9. Navigate to **APIs & auth** &gt; **Credentials** and create new Client ID
     - Application Type: **Web application**
-    - Authorized JavaScript Origins: http://portal.contoso.com
+    - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
     - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
     - Click **Create Client ID**
 
@@ -67,9 +67,9 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 7. Navigate to **Status & Review** &gt; **Status** tab
 8. Select **Yes** when prompted to make the app and all its features available to the general public.You must have filled in the valid data in Step 5 above to to enable this setting.
 
-### Microsoft application settings
+### [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] application settings
 
-1. Open [Microsoft account Developer Center](https://account.live.com/developers/applications/index)  
+1. Open [[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] account Developer Center](https://account.live.com/developers/applications/index)  
 2. Click **Create application** and specify an **Application name**
 3. Click **I accept** to accept Terms and Conditions
 4. Navigate to **Settings** &gt; **API settings** and set redirect URL as http://portal.contoso.com/signin-microsoft 
@@ -117,7 +117,7 @@ The application dashboard for each provider will display the client ID (app ID, 
 > - `Authentication/OpenAuth/Facebook/ClientId`
 > - `Authentication/OpenAuth/Facebook/ClientSecret`
 
-Substitute the `\[provider\]` tag in the site setting name with a specific identity provider name: Facebook, Google, Yahoo,Microsoft, LinkedIn, or Twitter.
+Substitute the `\[provider\]` tag in the site setting name with a specific identity provider name: Facebook, Google, Yahoo,[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)], LinkedIn, or Twitter.
 
 | **Site Setting Name**                                           | **Description**                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Substitute the `\[provider\]` tag in the site setting name with a specific ident
 
 ### See Also
 
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

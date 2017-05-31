@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Create, edit, and distribute opportunities in Dynamics 365
+# Create, edit, and distribute opportunities in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 [comment]: <> (need more step wise 'how-to' information)
 
 In your partner portal, you can use opportunities to notify your partners of sales prospects that they can follow up on. You may have opportunities for existing customers or from new customers, and by distributing them to your partners, you can create new revenue sources or strengthen relationships with current customers.
@@ -68,4 +68,4 @@ Partners can register deals for opportunities that they have made on the portal 
 
 ## Approve opportunities registered by a partner
 
-After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity in Dynamics 365. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity created in Dynamics. To approve the opportunity, change its status to **Accepted**.
+After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity created in Dynamics. To approve the opportunity, change its status to **Accepted**.

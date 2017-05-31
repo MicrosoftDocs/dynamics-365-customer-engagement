@@ -20,7 +20,7 @@ The other options on the Web Form record itself control top-level preferences fo
 
 To view existing Web Forms or to create new Web Forms, navigate to **Portals -&gt; Web Forms**
 
->[!Note]                                                                  |  
+>[!Note]
 > A **Web Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site.  
 
 When creating or editing a Web Page, a **Web Form** can be specified in the lookup field provided on the Web Page form.
@@ -40,7 +40,7 @@ The following attributes and relationships determine the functionality of the We
 | Multiple Records Per User Permitted | Selecting **Yes** indicates that a user is permitted to create more than one submission. This assists the form in determining what to do when a user revisits a form. Default: **Yes**.                                                                                                                                                                        |
 | Edit Expired State Code             | The target entity's state code integer value that when combined with the status reason indicates when an existing record can no longer be edited.                                                                                                                                                                                                              |
 | Edit Expired Status Reason          | The target entity's status code integer value that when combined with the state code, indicates when an existing record has these values then the record is not to be edited anymore i.e. when a record is updated as complete for example.                                                                                                                    |
-| Edit Expired Message                | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. Default message; "You have already completed a submission. Thank you!"                     |
+| Edit Expired Message                | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. Default message; "You have already completed a submission. Thank you!"                     |
 
 ## Progress indicator settings
 
@@ -75,7 +75,7 @@ Example of the various progress indicator types:
 | Name                                  | Description                                                                                                                                                                                                                |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Display Save Changes Warning On Close | Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, click the browser's back button, or click the previous button in a multiple step form.    |
-| Save Changes Warning Message          | For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
+| Save Changes Warning Message          | For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
 ||
 
 Example:
@@ -87,7 +87,7 @@ Example:
 
 ## Web form metadata
 
-Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with the Dynamics 365 native entity form editing capabilities.
+Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] native entity form editing capabilities.
 
 On the **Web Form Step** that has fields that you would like to modify
 
@@ -108,7 +108,7 @@ The following attributes provide additional styling and capabilities for element
 - **Web Form Metadata Type = Attribute**: displays the appropriate options for modifying fields on the current form rendered for the related step.
 - **Web Form Metadata Type = Section**: displays the options available for modifying a section on the form.
 - **Web Form Metadata Type = Tab**: displays the options available for modifying a tab on a form.
-- **Web Form Metadata Type = Purchase**: displays products for purchase and to generate a quote record in Dynamics 365 to persist the user's purchase selections to create an order and process payment.  |
+- **Web Form Metadata Type = Purchase**: displays products for purchase and to generate a quote record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to persist the user's purchase selections to create an order and process payment.  |
 
 ### Web form metadata type = attribute
 
@@ -117,7 +117,7 @@ The following properties are displayed when the Type selected is **Attribute**.
 | Name                   | Description                                                                                                                                                                                                                                                         |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Attribute Logical Name | The logical name of the attribute field to be modified.                                                                                                                                                                                                             |
-| Label                  | Replaces the default label assigned to the attribute on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+| Label                  | Replaces the default label assigned to the attribute on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 
 ### Control style
 
@@ -125,7 +125,7 @@ The following options modify the style and functionality of an attribute's field
 
 | Name                                            | Description                                                                                                                                                                             |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Style                                           | One of the following:Option Set as Vertical Radio Button List, Option Set as Horizontal Radio Button List, Single Line of Text as Geolocation Lookup Validator (requires Bing Maps Settings), Group Whole Number as Constant Sum (requires Group Name), Group Whole Number as Rank Order Scale No Ties (requires Group Name),Group Whole Number as Rank Order Scale Allow Ties (requires Group Name),Multiple Choice Matrix (requires Group Name),Multiple Choice (requires Group Name), Group Whole Number as Stack Rank (requires Group Name).                                                                                                                               |
+| Style                                           | One of the following:Option Set as Vertical Radio Button List, Option Set as Horizontal Radio Button List, Single Line of Text as Geolocation Lookup Validator (requires [!INCLUDE[pn-bing](../includes/pn-bing.md)] Maps Settings), Group Whole Number as Constant Sum (requires Group Name), Group Whole Number as Rank Order Scale No Ties (requires Group Name),Group Whole Number as Rank Order Scale Allow Ties (requires Group Name),Multiple Choice Matrix (requires Group Name),Multiple Choice (requires Group Name), Group Whole Number as Stack Rank (requires Group Name).                                                                                                                               |
 | Group Name                                      | A name used to group controls together as a composite control.                                                                                                                          |
 | Multiple Choice Minimum Required Selected Count | This is the required minimum values selected in the multiple choice question. Only necessary if 'Multiple Choice' Control Style is selected.                                            |
 | Multiple Choice Max Selected Count              | This is the maximum number of values that is permitted to be selected in the multiple choice question. Only necessary if 'Multiple Choice' Control Style is selected.                   |
@@ -141,7 +141,7 @@ The following options provide a default value for a field on the form.
 
 | Name                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ignore Default Value | Ignores the default value of the specified attribute field. Useful for attributes that are **Two Option** fields that are rendered as Yes and No radio buttons. Because Dynamics 365 automatically assigns a value of yes or no by default, this option makes it possible to display Yes/No questions without a predefined response.                                                                                                       |
+| Ignore Default Value | Ignores the default value of the specified attribute field. Useful for attributes that are **Two Option** fields that are rendered as Yes and No radio buttons. Because [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] automatically assigns a value of yes or no by default, this option makes it possible to display Yes/No questions without a predefined response.                                                                                                       |
 | Type                 | One of the following value: Today's Date,  Current User's Contact
 | Value                | A value to be assigned to the field when the form is loaded. Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.
 | From Attribute       | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field when the form is loaded.                                                                                                                                                                                                                                                                                       |
@@ -165,7 +165,7 @@ The following options specify a value to be set when the form is saved.
 
 The following section contains properties that modify various validation parameters and error messages.
 
-For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language.
+For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language.
 
 | Name                                        | Description                                                                                                                                                                                                                                                      |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ The following properties specify the location and content of custom description 
 | Add Description                      | Yes results in custom text being displayed on the form in the position specified.                                                                                                                                                                                                  |
 | Position                             | One of the following: Above the field, Below the field, and Above the label                                                                                                                                                                                                                                                                 |
 | Use Attribute's Description Property | Select **Yes** to use the description assigned to the attribute metadata on the entity. Select 'No' to provide a custom description. Default: **No**.                                                                                                                              |
-Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 ||
 
 ### Web form metadata type = section
@@ -198,8 +198,8 @@ The following properties are displayed when the Type selected equals **Section**
 
 | Name         | Description                                                                                                                                                                                                                                                       |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Section Name | The name of the section on the entity's form in Dynamics 365 to be modified.                                                                                                                                                                                      |
-| Label        | Replaces the default label assigned to the section on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+| Section Name | The name of the section on the entity's form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be modified.                                                                                                                                                                                      |
+| Label        | Replaces the default label assigned to the section on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 ||
 
 ### Web form metadata type = tab
@@ -208,13 +208,13 @@ The following properties are displayed when the Type selected equals **Tab**
 
 | Name     | Description                                                                                                                                                                                                                                                   |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tab Name | The name of the tab on the entity's form in Dynamics 365 to be modified.                                                                                                                                                                                      |
-| Label    | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+| Tab Name | The name of the tab on the entity's form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be modified.                                                                                                                                                                                      |
+| Label    | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 ||
 
 ### Web form metadata type = purchase
 
-The following properties are displayed when the Type selected equals **Purchase**. These options provide the necessary details for a Web Form to be able to display products for purchase and to generate a quote record in Dynamics 365 to persist the user's purchase selections to create an order and process payment.
+The following properties are displayed when the Type selected equals **Purchase**. These options provide the necessary details for a Web Form to be able to display products for purchase and to generate a quote record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to persist the user's purchase selections to create an order and process payment.
 
 | Name                                    | Description                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -239,8 +239,8 @@ The following properties are displayed when the Type selected equals **Purchase*
 
 ### See Also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

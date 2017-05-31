@@ -19,12 +19,12 @@ manager: sakudes
 
 Polls give your web audiences a quick and easy way to voice their opinion on concise topics and then immediately see feedback from their vote, automatically.
 
-The polls capability of Dynamics 365 portals provide single question or multiple choice response polls on simple topics of interest. Either way, responses are instantly stored and associated with the applicable Dynamics 365 Contact record for immediate review or aggregate reporting. You can use them as simple market research tools and, if you refresh or rotate the polls dynamically, you'll keep your website looking current and topical.
+The polls capability of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals provide single question or multiple choice response polls on simple topics of interest. Either way, responses are instantly stored and associated with the applicable [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Contact record for immediate review or aggregate reporting. You can use them as simple market research tools and, if you refresh or rotate the polls dynamically, you'll keep your website looking current and topical.
 
 Polls may be placed on the portal via the PollPlacement control. This control works very similarly to the AdPlacement control. If there are any polls associated with the Poll Placement entity that is being rendered by the PollPlacement control, those polls will be rendered. If there is more than one poll for a given placement, the placement will randomly present one of the specified polls.
 
 >[!Note]
-> Users may vote anonymously. Duplicate votes are not permitted. Basic information about submissions is tracked in Dynamics 365, and users who sign in to the website will have their submissions linked to the contact entity that tracks that user in Dynamics 365.
+> Users may vote anonymously. Duplicate votes are not permitted. Basic information about submissions is tracked in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and users who sign in to the website will have their submissions linked to the contact entity that tracks that user in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 ## Add a poll to the page
 
@@ -59,7 +59,7 @@ To Create a new poll placement region:
 A poll is a simple yes/no or multiple-choice question that you can display on your portal via Poll Placements. There are many customizable options for the display of polls available for developers, but for content managers adding polls to your website is as easy as choosing a question and series of possible answers (Poll Options). A poll must have related options to function, and must be associated with a Poll Placement to be rendered on the portal.
 
 A new poll can be created in two ways: 
-- by navigating to the **Polls** section in the **Portals** area in Dynamics 365, or 
+- by navigating to the **Polls** section in the **Portals** area in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], or 
 - by clicking the **New** button on the **Look Up Records** window while adding a poll to a poll placement.
 
 ## Poll attributes
@@ -85,7 +85,7 @@ Now the poll has been created, you must associate one or more poll options with 
 
 ## Poll options
 
-A poll is a question that is being presented to the user. A Poll has two or more possible answers as determined by the content author. These answers are represented in Dynamics 365 by Poll Options, which must be associated with the Poll in question. A new Poll Option is created via the Look Up Records window when adding Poll Options to a Poll, as described above.
+A poll is a question that is being presented to the user. A Poll has two or more possible answers as determined by the content author. These answers are represented in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] by Poll Options, which must be associated with the Poll in question. A new Poll Option is created via the Look Up Records window when adding Poll Options to a Poll, as described above.
 
 ## Poll option attributes
 
@@ -107,7 +107,7 @@ Users may vote only one time, after this if the poll is displayed, they will see
 
 ![Poll votes](media/poll-votes.png "Poll votes")  
 
-The details of the poll voting results are stored in Dynamics 365 as Poll Submissions records. The poll submission entity contains the following information:
+The details of the poll voting results are stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] as Poll Submissions records. The poll submission entity contains the following information:
 
 ![New poll submission](media/new-poll-submission.png "New poll submission")  
 
@@ -121,7 +121,7 @@ The details of the poll voting results are stored in Dynamics 365 as Poll Submis
 
 ### See Also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  
