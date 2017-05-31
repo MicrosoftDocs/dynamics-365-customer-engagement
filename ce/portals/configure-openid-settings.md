@@ -26,7 +26,7 @@ Examples of authority URLs are:
 
 Each OpenID Connect provider also involves registering an application (similar to that of an OAuth 2.0 provider) and obtaining a Client Id. The authority URL and the generated application Client Id are the settings required to enable external authentication between the portal and the identity provider.
 
->[!Note]                                                             
+>[!Note]
 > The Google OpenID Connect endpoint is currently not supported because the underlying libraries are still in the early stages of release with compatibility issues to address. The [OAuth2 provider settings for portals](configure-oauth2-settings.md) endpoint can be used instead.
 
 ## OpenID settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
@@ -58,20 +58,18 @@ This corresponds to the **MetadataAddress** site setting value.
 Apply portal site settings referencing the above application.
 
 >[!Note] 
->A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):                                                                                                            
->Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/Authority - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/  
-                                                                                                                           
- -   Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ClientId - fedcba98-7654-3210-fedc-ba9876543210                                  
+>A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):                                 
+>Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/Authority - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/                                                    
+> -   Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ClientId - fedcba98-7654-3210-fedc-ba9876543210                                  
                                                                                                                            
  <!-- -->                                                                                                                  
                                                                                                                            
  -   Note, the Client ID and the authority URL do not contain the same value and should be retrieved separately.           
                                                                                                                            
  <!-- -->                                                                                                                  
-                                                                                                                           
- -   Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/RedirectUri - https://portal.contoso.com/signin-azure-ad                         |
-
-Multiple identity providers can be configured by substituting a label for the \[provider\] tag. Each unique label forms a group of settings related to an identity provider. Examples: [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
+ > -   Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/RedirectUri - https://portal.contoso.com/signin-azure-ad
+ 
+> Multiple identity providers can be configured by substituting a label for the \[provider\] tag. Each unique label forms a group of settings related to an identity provider. Examples: [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
 
 | Site Setting Name                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
