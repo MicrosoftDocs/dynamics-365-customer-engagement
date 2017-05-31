@@ -30,11 +30,11 @@ Polls may be placed on the portal via the PollPlacement control. This control wo
 
 Content managers may use [Template tags](#template-tags) to add a poll to any editable content area:  
 
-`{% include 'Random Poll' placement:polls.placements\["Sidebar"\] %}`
+`{% include 'Random Poll' placement:polls.placements["Sidebar"] %}`
 
 --OR--
 
-`{% include 'Poll Template' ad:ads\["Wireframe Development"\] %}`
+`{% include 'Poll Template' ad:ads["Wireframe Development"] %}`
 
 >[!Note]                                                         >Example Web Templates are configured in the starter websites**. You may use the template "Random Poll" to display a random Poll from a particular Poll Placement, or the template "Poll Template" to display a specific Poll. You may edit these templates, or create your own based on their example, using [Polls](#polls-1).  
 
