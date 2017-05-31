@@ -19,9 +19,7 @@ manager: sakudes
 
 
 
-|  >[!Note]            |  
-|----------------------------------------------------------------------------|
-| This documentation applies to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions. |
+>[!Note] This documentation applies to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
 
 One or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant Identity Providers (IdP) can be added to provide external authentication. This document describes how to setup various identity providers to integrate with a portal acting as a Service Provider (SP).  
 
@@ -31,9 +29,7 @@ Settings for an IdP such as AD FS.
 
 ### Create an AD FS relying party trust
 
-|  >[!Note]                                                                                                  |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script. |  
+>[!Note] See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
 
 Using the AD FS Management tool, select **Service** &gt; **Claim Descriptions**.
 
@@ -77,17 +73,11 @@ Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-
 
 -   Note: AD FS requires that the portal run on **HTTPS**
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| The resulting endpoint has the following settings:              
-                                                                  
- Endpoint type: **SAML Assertion Consume Endpoints**              
-                                                                  
- -   Binding: **POST**                                            
-                                                                  
- -   Index: n/a (0)                                               
-                                                                  
- -   URL: **https://portal.contoso.com/signin-saml2**             |
+>[!Note] The resulting endpoint has the following settings:       
+>Endpoint type: **SAML Assertion Consume Endpoints**             
+>-   Binding: **POST**                                            
+>-   Index: n/a (0)                                              
+>-   URL: **https://portal.contoso.com/signin-saml2**
 
 1.  Configure Identities: Specify https://portal.contoso.com/, click **Add**, click **Next**
 
@@ -115,31 +105,20 @@ Add the **Name ID** claim to the relying party trust:
 
 Apply portal site settings referencing the above AD FS Relying Party Trust.
 
-|  >[!Note]                                                                                                                            |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A standard AD FS (IdP) configuration only uses the following settings (with example values):                                                                                               
-                                                                                                                                                                                             
- Authentication/SAML2/ADFS/MetadataAddress - https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml                                                                      
-                                                                                                                                                                                             
- -   Authentication/SAML2/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust                                                                                              
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)  
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Authentication/SAML2/ADFS/ServiceProviderRealm - https://portal.contoso.com/                                                                                                            
-                                                                                                                                                                                             
- -   Authentication/SAML2/ADFS/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-saml2                                                                                         
-                                                                                                                                                                                             
- The **Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server:                                                                         |
+>[!Note]
+> A standard AD FS (IdP) configuration only uses the following settings (with example values):
+> Authentication/SAML2/ADFS/MetadataAddress - https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml  
+> -   Authentication/SAML2/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust    
+> -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting) 
+> -   Authentication/SAML2/ADFS/ServiceProviderRealm - https://portal.contoso.com/  
+> -   Authentication/SAML2/ADFS/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-saml2  
+> The **Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server:
 
 **Import-Module adfs**
 
 **Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml**
 
-Multiple IdP services can be configured by substituting a label for the \[provider\] tag. Each unique label forms a group of settings related to an IdP. Examples: ADFS, [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
+Multiple IdP services can be configured by substituting a label for the [provider] tag. Each unique label forms a group of settings related to an IdP. Examples: ADFS, [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
 
 | Site Setting Name                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -205,6 +184,7 @@ Encode the value ReturnUrl=/content/sub-content/
 
 The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script can be used to construct the URL (save to a file named Get-IdPInitiatedUrl.ps1).
 
+```
 **&lt;\#**
 
 **.SYNOPSIS **
@@ -258,6 +238,7 @@ The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)
 **$idpInitiatedUrl = "{0}?RelayState={1}" -f $adfsPath, $encodedPathRpid**
 
 **Write-Output $idpInitiatedUrl**
+```
 
 ## SAML 2.0 settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
 
@@ -289,23 +270,13 @@ This corresponds to the **MetadataAddress** site setting value
 
 -   This corresponds to the **AuthenticationType** site setting value
 
-|  >[!Note]                                                                                                                            |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):                                                                                                  
-                                                                                                                                                                                             
- Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/MetadataAddress - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml                     
-                                                                                                                                                                                             
- -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AuthenticationType - https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/                                                                         
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)  
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ServiceProviderRealm - https://portal.contoso.com/                                                                                                         
-                                                                                                                                                                                             
- -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-azure-ad                                                                                   |
+>[!Note] 
+> A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):
+> Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/MetadataAddress - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml 
+> -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AuthenticationType - https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/  
+> -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting) 
+> -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ServiceProviderRealm - https://portal.contoso.com/  
+> -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-azure-ad                                                                                   |
 
 ## Shibboleth Identity Provider 3
 
@@ -317,19 +288,23 @@ The federation metadata URL is: https://idp.contoso.com/idp/shibboleth
 
 -   The IdP federation metadata (&lt;IDPSSODescriptor&gt;) must be configured to include a [SSO redirect binding](https://shibboleth.net/about/advanced.html). [Example](https://wiki.shibboleth.net/confluence/display/SHIB2/MetadataExample).  
 
+```
 **&lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"**
 
 **Location="https://idp.contoso.com/idp/profile/SAML2/Redirect/SSO"/&gt;**
+```
 
 Configure the Service Providers (Relying Parties) by setting up the [metadata-providers.xml](https://wiki.shibboleth.net/confluence/display/IDP30/MetadataConfiguration).  
 
 -   Each SP federation metadata (&lt;SPSSODescriptor&gt;) must include an assertion consumer service post binding. One option is to use a [FilesystemMetadataProvider](https://wiki.shibboleth.net/confluence/display/IDP30/FilesystemMetadataProvider) and reference a configuration file that contains:  
 
+```
 **&lt;AssertionConsumerService index="1" isDefault="true"**
 
 **Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"**
 
 **Location="https://portal.contoso.com/signin-saml2"/&gt;**
+```
 
 The Location attribute corresponds to the **AssertionConsumerServiceUrl** (Wreply) setting.
 
@@ -337,23 +312,12 @@ The Location attribute corresponds to the **AssertionConsumerServiceUrl** (Wrepl
 
 **&lt;EntityDescriptor entityID="https://portal.local.contoso.com/"&gt;...**
 
-|  >[!Note]                                                                                                                            |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A standard Shibboleth configuration only uses the following settings (with example values):                                                                                                
-                                                                                                                                                                                             
- Authentication/SAML2/Shibboleth/MetadataAddress - https://idp.contoso.com/idp/shibboleth                                                                                                    
-                                                                                                                                                                                             
- -   Authentication/SAML2/Shibboleth/AuthenticationType - https://idp.contoso.com/idp/shibboleth                                                                                             
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)  
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Authentication/SAML2/Shibboleth/ServiceProviderRealm - https://portal.contoso.com/                                                                                                      
-                                                                                                                                                                                             
- -   Authentication/SAML2/Shibboleth/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-saml2                                                                                   |
+[!Note] A standard Shibboleth configuration only uses the following settings (with example values):   
+> Authentication/SAML2/Shibboleth/MetadataAddress - https://idp.contoso.com/idp/shibboleth   
+> -   Authentication/SAML2/Shibboleth/AuthenticationType - https://idp.contoso.com/idp/shibboleth 
+> -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)  
+> -   Authentication/SAML2/Shibboleth/ServiceProviderRealm - https://portal.contoso.com/ 
+> -   Authentication/SAML2/Shibboleth/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-saml2 
 
 ### IdP initiated sign-in
 
@@ -365,6 +329,7 @@ For example, given the SP path: /content/sub-content/ and the relying party ID: 
 
 The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script can be used to construct the URL (save to a file named Get-ShibbolethIdPInitiatedUrl.ps1).
 
+```
 **&lt;\#**
 
 **.SYNOPSIS **
@@ -416,11 +381,13 @@ The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)
 **$idpInitiatedUrl = "{0}?providerId={1}&target={2}" -f $shibbolethPath, $encodedRpid, $encodedPath**
 
 **Write-Output $idpInitiatedUrl**
+```
 
 ## Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]
 
 The process of adding a relying party trust in AD FS can also be performed by running the following **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** script on the AD FS server (save contents to a file named **Add-AdxPortalRelyingPartyTrustForSaml.ps1**). After running the script, continue with configuring the portal site settings.
 
+```
 **&lt;\#**
 
 **.SYNOPSIS **
@@ -518,6 +485,7 @@ The process of adding a relying party trust in AD FS can also be performed by ru
 **\# add the portal relying party trust**
 
 **Add-CrmRelyingPartyTrust $domain**
+```
 
 ### See Also
 
