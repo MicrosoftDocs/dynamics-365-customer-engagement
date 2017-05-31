@@ -33,21 +33,21 @@ Attributes of an object can also be accessed using a string name and \[\]. This 
 
 The following objects can be used and accessed anywhere, in any template.
 
-| entities    | Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*entities*](#entities)                                                                                                                                                      |  
+| entities    | Allows you to load any Dynamics 365 entity by ID. More information: [*entities*](#entities)                                                                                                                                                      |  
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Now         | A date/time object that refers to the current UTC time, **at the time the template is rendered**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*Date filters*](#date-filters)                                                                                              |  
+| Now         | A date/time object that refers to the current UTC time, **at the time the template is rendered**. More information: [*Date filters*](#date-filters)                                                                                              |  
 | Page        | Refers to the current portal request page.                                                                                                                                                                                                       
                                                                                                                                                                                                                                                     
-  The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*page*](#page)  |  
-| params      | A convenient shortcut for request.params. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*request*](#request)                                                                                                                                                                |  
-| request     | Contains information about the current HTTP request. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*request*](#request)                                                                                                                                                     |  
-| settings    | Allows you to load any Site Setting by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*settings*](#settings-1), [*Configure site settings for portals*](configure-site-settings.md)                                                                          |  
-| sitemap     | Allows access to the portal site map. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*sitemap*](#sitemap)                                                                                                                                                                    |  
-| sitemarkers | Allows you to load any Site Markers by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*sitemarkers*](#sitemarkers)                                                                                                                                                     |  
-| snippets    | Allows you to load any Content Snippet by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*Customize content by using content snippets*](customize-content-snippets.md)                                                                                  |  
-| User        | Refers to the current portal user, allowing access to all attributes of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact record. If no user is signed in, this variable will be null. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*Liquid types*](liquid-types.md)                       |  
-| weblinks    | Allows you to load any Web Link Set by name or ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*weblinks*](#weblinks)                                                                                                                                                     |  
-| website     | Refers to the portal Website record, allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*website*](#website-1)                                                               |  
+  The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dynamics 365 record. More information: [*page*](#page)  |  
+| params      | A convenient shortcut for request.params. More information: [*request*](#request)                                                                                                                                                                |  
+| request     | Contains information about the current HTTP request. More information: [*request*](#request)                                                                                                                                                     |  
+| settings    | Allows you to load any Site Setting by name. More information: [*settings*](#settings-1), [*Configure site settings for portals*](configure-site-settings.md)                                                                          |  
+| sitemap     | Allows access to the portal site map. More information: [*sitemap*](#sitemap)                                                                                                                                                                    |  
+| sitemarkers | Allows you to load any Site Markers by name. More information: [*sitemarkers*](#sitemarkers)                                                                                                                                                     |  
+| snippets    | Allows you to load any Content Snippet by name. More information: [*Customize content by using content snippets*](customize-content-snippets.md)                                                                                  |  
+| User        | Refers to the current portal user, allowing access to all attributes of the underlying Dynamics 365 contact record. If no user is signed in, this variable will be null. More information: [*Liquid types*](liquid-types.md)                       |  
+| weblinks    | Allows you to load any Web Link Set by name or ID. More information: [*weblinks*](#weblinks)                                                                                                                                                     |  
+| website     | Refers to the portal Website record, allowing access to all attributes of the Dynamics 365 Website (adx\_website) record for the portal. More information: [*website*](#website-1)                                                               |  
 
 ### **All Liquid Objects**
 
@@ -327,7 +327,7 @@ The following table explains various attributes associated with blogpost Object.
 
 
 
-Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. If the entity exists, an entity object will be returned. If an entity with the given ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
+Allows you to load any Dynamics 365 entity by ID. If the entity exists, an entity object will be returned. If an entity with the given ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
 
 **{% assign account = entities.account\['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'\] %}**
 
@@ -349,20 +349,20 @@ Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md
 
 ### **Entity**
 
-An entity object provides access to the attributes of a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity record.
+An entity object provides access to the attributes of a Dynamics 365 entity record.
 
 | Attribute                          | Description                                                                                                                                                                                                                                                               |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Id                                 | The GUID ID of the entity, as a string.                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                                                              
   e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                  |
-| logical\_name                      | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the entity.                                                                                                                                                                                                                              |
+| logical\_name                      | The Dynamics 365 logical name of the entity.                                                                                                                                                                                                                              |
 | Notes                              | Loads any notes (annotation) associated with the entity, ordered from oldest to newest (createdon). Notes are returned as note objects.                                                                                                                                   |
 | permissions                        | Loads Entity Permission assertion results for the entity. Results are returned as a permissions object.                                                                                                                                                                   |
-| url                                | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals content management system URL path for the entity. If the entity has no valid URL in the current website, returns null.                                                                                                                  
+| url                                | Returns the Dynamics 365 portals content management system URL path for the entity. If the entity has no valid URL in the current website, returns null.                                                                                                                  
                                                                                                                                                                                                                                                                              
   Generally, this will only return a value for certain entity types that have been integrated into the portal CMS , unless you have customized the URL Provider in your application.                                                                                         |
-| \[attribute or relationship name\] | You can access any attribute of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by logical name.                                                                                                                                                                                                  
+| \[attribute or relationship name\] | You can access any attribute of the Dynamics 365 entity by logical name.                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                              
   **{{ entity.createdon }}**                                                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                              
@@ -388,7 +388,7 @@ An entity object provides access to the attributes of a [!INCLUDE[pn-dynamics-cr
   |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                    
   | Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop.                      
                                                                                                                                                                                                                                                                              
-   Where possible, use [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags) to load collections of entities.                                                                                                                                         |                    |  
+   Where possible, use [*Dynamics 365 entity tags*](#dynamics-365-entity-tags) to load collections of entities.                                                                                                                                         |                    |  
 
 ### **Entity Reference**
 
@@ -399,7 +399,7 @@ Lookup attribute values are returned as entity reference objects, with the follo
 | Id            | The GUID ID of the referenced entity, as a string.      
                                                            
   e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                |
-| logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the referenced entity. |
+| logical\_name | The Dynamics 365 logical name of the referenced entity. |
 | Name          | The primary name attribute of the referenced entity.    |
 
 ### **Note**
@@ -472,7 +472,7 @@ Attempts to load reflexive (i.e. self-referential) relationships on entities are
 
 
 
-The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags). It provides access to all the attributes of a given entity list.  
+The entitylist object is used within the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags). It provides access to all the attributes of a given entity list.  
 
 |  >[!Note]                                                       |  
 |-----------------------------------------------------------------------------------------------------------------------|
@@ -496,7 +496,7 @@ The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../include
 | detail\_url                           | Returns the configured URL path for a detail view links/buttons for the entity list.                                                                                                                    |
 | empty\_list\_text                     | Returns the configured localized text to be displayed when the entity list view returns no results.                                                                                                     |
 | enable\_entity\_permissions           | Returns true if Entity Permission filtering is enabled for this entity list. Returns false otherwise.                                                                                                   |
-| entity\_logical\_name                 | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name for records to be displayed by this entity list.                                                                                                           
+| entity\_logical\_name                 | Returns the Dynamics 365 entity logical name for records to be displayed by this entity list.                                                                                                           
                                                                                                                                                                                                            
   e.g. contact                                                                                                                                                                                             |
 | filter\_account\_attribute\_name      | Returns the attribute logical name for the lookup to account that will be used to filter result records by the current portal user's parent account.                                                    
@@ -511,14 +511,14 @@ The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../include
 | filter\_website\_attribute\_name      | Returns the attribute logical name for the lookup to adx\_website that will be used to filter result records by the current portal website.                                                             
                                                                                                                                                                                                            
   e.g. adx\_websiteid                                                                                                                                                                                      |
-| language\_code                        | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code that will be used to select all localized labels for this entity list.                                                                                   |
+| language\_code                        | Returns the Dynamics 365 integer language code that will be used to select all localized labels for this entity list.                                                                                   |
 | page\_size                            | Returns the configured result page size for the entity list.                                                                                                                                            |
 | primary\_key\_name                    | Returns the primary key attribute logical name for records to be displayed by this entity list.                                                                                                         |
 | search\_enabled                       | Returns true if search is enabled for this entity list. Returns false otherwise.                                                                                                                        |
 | search\_placeholder                   | Returns the configured localized text for the entity list search field placeholder.                                                                                                                     |
 | search\_tooltip                       | Returns the configured localized text for the entity list search tooltip.                                                                                                                               |
 | views                                 | Returns the available views for the entity list, as entity list view objects.                                                                                                                           |
-| \[attribute logical name\]            | You can access any attribute of the entity list (adx\_entitylist) [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name, in the same manner as an [*entities*](#entities).                                                  
+| \[attribute logical name\]            | You can access any attribute of the entity list (adx\_entitylist) Dynamics 365 record by logical name, in the same manner as an [*entities*](#entities).                                                  
                                                                                                                                                                                                            
   e.g. {{ entitylist.adx\_name }}                                                                                                                                                                          |
 
@@ -526,13 +526,13 @@ The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../include
 
 | columns                     | Returns the columns of the view, as entity list view column objects.                                                                 |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| entity\_logical\_name       | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name for the records included in the view.                                                   
+| entity\_logical\_name       | Returns the Dynamics 365 entity logical name for the records included in the view.                                                   
                                                                                                                                         
   e.g. contact                                                                                                                          |
 | Id                          | Returns the GUID ID of the view.                                                                                                     |
-| language\_code              | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code that will be used to select all localized labels (column headers, etc.) for the view. |
-| Name                        | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] display name of the view.                                                                                   |
-| primary\_key\_logical\_name | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity primary key logical name for the records included in the view.                                       
+| language\_code              | Returns the Dynamics 365 integer language code that will be used to select all localized labels (column headers, etc.) for the view. |
+| Name                        | Returns the Dynamics 365 display name of the view.                                                                                   |
+| primary\_key\_logical\_name | Returns the Dynamics 365 entity primary key logical name for the records included in the view.                                       
                                                                                                                                         
   e.g. contactid                                                                                                                        |
 | sort\_expression            | Returns the default sort expression for the view.                                                                                    
@@ -541,14 +541,14 @@ The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../include
 
 ### **Entity List View Column Attributes**
 
-| attribute\_type  | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] attribute type name for the column, as a string.    
+| attribute\_type  | Returns the Dynamics 365 attribute type name for the column, as a string.    
                                                                                 
   e.g. Lookup, Picklist, String, Boolean, DateTime                              |
 |------------------|------------------------------------------------------------------------------|
-| logical\_name    | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] attribute logical name for the column.              
+| logical\_name    | Returns the Dynamics 365 attribute logical name for the column.              
                                                                                 
   e.g. createdon                                                                |
-| Name             | Returns the localized [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] display name for the column.              
+| Name             | Returns the localized Dynamics 365 display name for the column.              
                                                                                 
   e.g. Created On                                                               |
 | sort\_ascending  | Returns a sort expression string for sorting the column in ascending order.  
@@ -580,18 +580,18 @@ The entityview object is used within the entityview tag, and provides access to 
 | columns                     | Returns the columns in the view, as [*entitylist*](#entitylist) view column objects.                                                                                     |  
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | entity\_permission\_denied  | Returns true if access to view results was denied due to insufficient Entity Permissions for the current user. Returns false if read access to view results was granted. |
-| entity\_logical\_name       | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the view result records. For example, contact                                                                                    |
+| entity\_logical\_name       | The Dynamics 365 entity logical name of the view result records. For example, contact                                                                                    |
 | first\_page                 | The page number of the first page of view results. This will be 1 unless there were no results returned, in which case it will be null.                                  |
-| Id                          | The GUID ID of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view that defines this entityview.                                                                                                       |
-| language\_code              | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code being used to load localized labels for the current view.                                                                         |
+| Id                          | The GUID ID of the Dynamics 365 view that defines this entityview.                                                                                                       |
+| language\_code              | The Dynamics 365 integer language code being used to load localized labels for the current view.                                                                         |
 | last\_page                  | The page number of the last page of view results. If there were no results returned, this will be null.                                                                  |
-| name                        | The name of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view that defines this entityview., for example, Active Contacts.                                                                           |
+| name                        | The name of the Dynamics 365 view that defines this entityview., for example, Active Contacts.                                                                           |
 | next\_page                  | The page number of the next page of view results. If there is no next page of results, this will be null.                                                                |
 | Page                        | The page number of the current page of view results.                                                                                                                     |
 | pages                       | Returns an array of page numbers containing all pages of results for the current view.                                                                                   |
 | page\_size                  | The number of results returned per page for the current view.                                                                                                            |
 | previous\_page              | The page number of the next page of view results. If there is no previous page of results, this will be null.                                                            |
-| primary\_key\_logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the primary key attribute of the result entity for this view. For example, contactid.                                                   |
+| primary\_key\_logical\_name | The Dynamics 365 logical name of the primary key attribute of the result entity for this view. For example, contactid.                                                   |
 | records                     | The current page of result records for the view, as entity objects.                                                                                                      |
 | sort\_expression            | The default sort expression for the view. For example, nameASC, createdon DESC.                                                                                          |
 | total\_pages                | The total number of result pages for the view.                                                                                                                           |
@@ -887,7 +887,7 @@ A Single Forum Post
 
 Refers to the current portal request page. This object combines the attributes of the [*sitemap*](#sitemap) and the current request [*entities*](#entities) (usually a webpage).  
 
-The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record.
+The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying Dynamics 365 record.
 
 **&lt;ul class="breadcrumb"&gt;**
 
@@ -943,7 +943,7 @@ The page object provides access to things like the breadcrumbs for the current p
   If the page is the Home page, parent will be null.                                                                                                                                                                                                                         |
 | title                              | The title of the page.                                                                                                                                                                                                                                                    |
 | url                                | The URL of the page.                                                                                                                                                                                                                                                      |
-| \[attribute or relationship name\] | You can access any attribute of the page's underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.                                                                                                                                                                                
+| \[attribute or relationship name\] | You can access any attribute of the page's underlying Dynamics 365 record by logical name.                                                                                                                                                                                
                                                                                                                                                                                                                                                                              
   **{{ page.createdon }}**                                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                                                              
@@ -969,7 +969,7 @@ The page object provides access to things like the breadcrumbs for the current p
   |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                    
   | Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop.                      
                                                                                                                                                                                                                                                                              
-   Where possible, prefer use of the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags) to load collections of entities.                                                                                                                           |                    |  
+   Where possible, prefer use of the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags) to load collections of entities.                                                                                                                           |                    |  
 
 ### See Also
 
@@ -1094,7 +1094,7 @@ Contains information about the current HTTP request.
 
 |  >[!Note]               |  
 |-------------------------------------------------------------------------------|
-| You can build URLs dynamically in Liquid using URL Filters. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] |
+| You can build URLs dynamically in Liquid using URL Filters. More information: |
 
 ### **Attributes**
 
@@ -1127,7 +1127,7 @@ Contains information about the current HTTP request.
 
 
 
-The searchindex object is used within the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags), and provides access to the results of a query.  
+The searchindex object is used within the [*Dynamics 365 entity tags*](#dynamics-365-entity-tags), and provides access to the results of a query.  
 
 **{% searchindex query: 'support', page: params.page, page\_size: 10 %}**
 
@@ -1178,10 +1178,10 @@ The searchindex object is used within the [*[!INCLUDE[pn-dynamics-crm](../includ
 | fragment      | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag.                                        
                                                                                                                                                                             
   Note that certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases.  |
-| Id            | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity ID of the underlying record for the result, as a string.                                                                                         
+| Id            | The Dynamics 365 entity ID of the underlying record for the result, as a string.                                                                                         
                                                                                                                                                                             
   e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                 |
-| logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the underlying record for the result.                                                                                            
+| logical\_name | The Dynamics 365 entity logical name of the underlying record for the result.                                                                                            
                                                                                                                                                                             
   e.g. adx\_webpage                                                                                                                                                         |
 | number        | The number of the result, across all result pages, starting from 1.                                                                                                      
@@ -1344,7 +1344,7 @@ Allows you to load any site marker by name. If the sitemarker exists, a sitemark
 
 | url                        | The URL of the sitemarker target.                                                          |
 |----------------------------|--------------------------------------------------------------------------------------------|
-| \[attribute logical name\] | You can access any attribute of the sitemarker target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. 
+| \[attribute logical name\] | You can access any attribute of the sitemarker target Dynamics 365 record by logical name. 
                                                                                               
   e.g. {{ sitemarker.adx\_name }}                                                             |
 
@@ -1421,7 +1421,7 @@ Contains properties useful within a [*Iteration tags*](#iteration-tags) loop blo
 
 
 
-Refers to the current portal user, allowing access to all attributes of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact record. If no user is signed in, this variable will be [*Liquid types*](liquid-types.md).  
+Refers to the current portal user, allowing access to all attributes of the underlying Dynamics 365 contact record. If no user is signed in, this variable will be [*Liquid types*](liquid-types.md).  
 
 user is an [*entities*](#entities).  
 
@@ -1451,7 +1451,7 @@ In addition to having all of the attributes of an [*entities*](#entities), user 
 
 
 
-Refers to the portal [*website*](#website-1), allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal.  
+Refers to the portal [*website*](#website-1), allowing access to all attributes of the Dynamics 365 Website (adx\_website) record for the portal.  
 
 |  >[!Note] |  
 |-----------------------------------------------------------------|
@@ -1534,7 +1534,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 | Name                       | The name of the web link set.                                                         |
 | Title                      | The title of the web link set.                                                        |
 | Weblinks                   | The array of web link objects associated with the web link set.                       |
-| \[attribute logical name\] | You can access any attribute of the web link set [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. 
+| \[attribute logical name\] | You can access any attribute of the web link set Dynamics 365 record by logical name. 
                                                                                          
   e.g. {{ weblinkset.createdon }}                                                        |
 
@@ -1562,7 +1562,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 | Tooltip                     | Tooltip text for the web link.                                                                                                                 |
 | url                         | The URL of the web link.                                                                                                                       |
 | Weblinks                    | The array of child web link objects associated with the web link.                                                                              |
-| \[attribute logical name\]  | You can access any attribute of the web link [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.                                                              
+| \[attribute logical name\]  | You can access any attribute of the web link Dynamics 365 record by logical name.                                                              
                                                                                                                                                   
   e.g. {{ weblink.createdon }}                                                                                                                    |
 

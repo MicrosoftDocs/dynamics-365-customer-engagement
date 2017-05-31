@@ -21,7 +21,7 @@ manager: sakudes
 
 |  >[!Note]            |  
 |----------------------------------------------------------------------------|
-| This documentation applies to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions. |
+| This documentation applies to **Dynamics 365 portals** and later versions. |
 
 One or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant Identity Providers (IdP) can be added to provide external authentication. This document describes how to setup various identity providers to integrate with a portal acting as a Service Provider (SP).  
 
@@ -33,7 +33,7 @@ Settings for an IdP such as AD FS.
 
 |  >[!Note]                                                                                                  |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script. |  
+| See [Configure AD FS by using PowerShell](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a PowerShell script. |  
 
 Using the AD FS Management tool, select **Service** &gt; **Claim Descriptions**.
 
@@ -101,9 +101,9 @@ If applicable, more identities can be added for each additional relying party po
 
 Add the **Name ID** claim to the relying party trust:
 
-**Transform[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
+**TransformWindows account name** to **Name ID** claim (Transform an Incoming Claim):
 
--   Incoming claim type: **[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name**
+-   Incoming claim type: **Windows account name**
 
 -   Outgoing claim type: **Name ID**
 
@@ -133,13 +133,13 @@ Apply portal site settings referencing the above AD FS Relying Party Trust.
                                                                                                                                                                                              
  -   Authentication/SAML2/ADFS/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-saml2                                                                                         
                                                                                                                                                                                              
- The **Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server:                                                                         |
+ The **Federation metadata** can be retrieved in **PowerShell** by running the following script on the AD FS server:                                                                         |
 
 **Import-Module adfs**
 
 **Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml**
 
-Multiple IdP services can be configured by substituting a label for the \[provider\] tag. Each unique label forms a group of settings related to an IdP. Examples: ADFS, [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
+Multiple IdP services can be configured by substituting a label for the \[provider\] tag. Each unique label forms a group of settings related to an IdP. Examples: ADFS, AzureAD, MyIdP
 
 | Site Setting Name                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ Encode the value ReturnUrl=/content/sub-content/
 
 -   https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fportal.contoso.com%252F%26RelayState%3DReturnUrl%253D%252Fcontent%252Fsub-content%252F
 
-The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script can be used to construct the URL (save to a file named Get-IdPInitiatedUrl.ps1).
+The following PowerShell script can be used to construct the URL (save to a file named Get-IdPInitiatedUrl.ps1).
 
 **&lt;\#**
 
@@ -259,9 +259,9 @@ The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)
 
 **Write-Output $idpInitiatedUrl**
 
-## SAML 2.0 settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
+## SAML 2.0 settings for Azure Active Directory
 
-The previous section describing AD FS can also be applied to [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD](https://msdn.microsoft.com/library/azure/mt168838.aspx) because [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD behaves like a standard [SAML 2.0](https://msdn.microsoft.com/library/azure/dn195591.aspx) compliant IdP. To get started sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available, follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
+The previous section describing AD FS can also be applied to [Azure AD](https://msdn.microsoft.com/library/azure/mt168838.aspx) because Azure AD behaves like a standard [SAML 2.0](https://msdn.microsoft.com/library/azure/dn195591.aspx) compliant IdP. To get started sign into the [Azure Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available, follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
 
 1.  Under the **Applications** menu of the directory, click the **Add** button
 
@@ -291,11 +291,11 @@ This corresponds to the **MetadataAddress** site setting value
 
 |  >[!Note]                                                                                                                            |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):                                                                                                  
+| A standard Azure AD configuration only uses the following settings (with example values):                                                                                                  
                                                                                                                                                                                              
- Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/MetadataAddress - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml                     
+ Authentication/SAML2/AzureAD/MetadataAddress - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml                     
                                                                                                                                                                                              
- -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AuthenticationType - https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/                                                                         
+ -   Authentication/SAML2/AzureAD/AuthenticationType - https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/                                                                         
                                                                                                                                                                                              
  <!-- -->                                                                                                                                                                                    
                                                                                                                                                                                              
@@ -303,9 +303,9 @@ This corresponds to the **MetadataAddress** site setting value
                                                                                                                                                                                              
  <!-- -->                                                                                                                                                                                    
                                                                                                                                                                                              
- -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ServiceProviderRealm - https://portal.contoso.com/                                                                                                         
+ -   Authentication/SAML2/AzureAD/ServiceProviderRealm - https://portal.contoso.com/                                                                                                         
                                                                                                                                                                                              
- -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-azure-ad                                                                                   |
+ -   Authentication/SAML2/AzureAD/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-azure-ad                                                                                   |
 
 ## Shibboleth Identity Provider 3
 
@@ -363,7 +363,7 @@ The basic string value to be encoded into the SAML RelayState parameter must be 
 
 For example, given the SP path: /content/sub-content/ and the relying party ID: https://portal.contoso.com/, the final URL is: https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=https%3A%2F%2Fportal.contoso.com%2F&target=ReturnUrl%3D%2Fcontent%2Fsub-content%2F
 
-The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script can be used to construct the URL (save to a file named Get-ShibbolethIdPInitiatedUrl.ps1).
+The following PowerShell script can be used to construct the URL (save to a file named Get-ShibbolethIdPInitiatedUrl.ps1).
 
 **&lt;\#**
 
@@ -417,9 +417,9 @@ The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)
 
 **Write-Output $idpInitiatedUrl**
 
-## Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]
+## Configure AD FS by using PowerShell
 
-The process of adding a relying party trust in AD FS can also be performed by running the following **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** script on the AD FS server (save contents to a file named **Add-AdxPortalRelyingPartyTrustForSaml.ps1**). After running the script, continue with configuring the portal site settings.
+The process of adding a relying party trust in AD FS can also be performed by running the following **PowerShell** script on the AD FS server (save contents to a file named **Add-AdxPortalRelyingPartyTrustForSaml.ps1**). After running the script, continue with configuring the portal site settings.
 
 **&lt;\#**
 
@@ -479,7 +479,7 @@ The process of adding a relying party trust in AD FS can also be performed by ru
 
 **@RuleTemplate = "MapClaims"**
 
-**@RuleName = "Transform [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Account Name to Name ID claim"**
+**@RuleName = "Transform Windows Account Name to Name ID claim"**
 
 **c:\[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"\]**
 
@@ -491,7 +491,7 @@ The process of adding a relying party trust in AD FS can also be performed by ru
 
 **c:\[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"\]**
 
-**=&gt; issue(store = "[!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)]", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"), query = ";givenName,sn,mail;{{0}}", param = c.Value);**
+**=&gt; issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"), query = ";givenName,sn,mail;{{0}}", param = c.Value);**
 
 **'@ -f $identityProviderValue**
 
@@ -521,7 +521,7 @@ The process of adding a relying party trust in AD FS can also be performed by ru
 
 ### See Also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

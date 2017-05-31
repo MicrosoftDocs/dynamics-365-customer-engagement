@@ -17,7 +17,7 @@ manager: sakudes
 
 
 
-Use the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals invitation feature to invite contacts to your portal through automated email(s) created in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
+Use the Dynamics 365 portals invitation feature to invite contacts to your portal through automated email(s) created in your Dynamics 365 system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
 
 - Send Single or Group Invitations
 -   Specify an expiry date if desired
@@ -36,7 +36,7 @@ Locate the **Send Invitation** workflow and deactivate it. After it is deactivat
 
 ## Create and configure invitations
 
-To create an Invitation record within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], click the **Create Invitation** button in the command bar. The button is available when a single Contact is selected in a Contact View and when viewing a Contact record. Clicking the button will open a new invitation form for the Contact. Invitations can also be created via the Invitations View by clicking **+New**. After the Invitation record has been created the **Run Workflow** button will appear enabling you to send the Invitation to the Contact(s).
+To create an Invitation record within Dynamics 365, click the **Create Invitation** button in the command bar. The button is available when a single Contact is selected in a Contact View and when viewing a Contact record. Clicking the button will open a new invitation form for the Contact. Invitations can also be created via the Invitations View by clicking **+New**. After the Invitation record has been created the **Run Workflow** button will appear enabling you to send the Invitation to the Contact(s).
 
 ## Run the Send Invitation workflow
 
@@ -48,7 +48,7 @@ The Invitation Form has the following fields:
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name                                  | A descriptive name for helping recognize the invitation.                                                                                                                                                            |
 | Type                                  | **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                           |
-| Owner/Sender                          | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
+| Owner/Sender                          | The Dynamics 365 user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
 | Invitation Code                       | A unique code for the invitation that only the invitee will know. This is automatically generated when creating a new invitation.                                                                                   |
 | Expiry Date                           | The date that represents when the invitation will become invalid for redemption. Optional.                                                                                                                          |
 | Inviter                               | Can be used when a contact is the sender of the invitation. Optional.                                                                                                                                               |

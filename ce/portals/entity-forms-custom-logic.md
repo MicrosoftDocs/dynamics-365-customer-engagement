@@ -13,11 +13,11 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal
+# Define entity forms and custom logic within the Dynamics 365 portal
 
 
 
-A data driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal. Entity Forms are created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and then placed into webpages in the Portal or used in conjunction with Sub-Grids and Entity Lists to build out complete web applications. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add a webpage to render a list of records](add-webpage-render-list-records.md).  
+A data driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal. Entity Forms are created in Dynamics 365 and then placed into webpages in the Portal or used in conjunction with Sub-Grids and Entity Lists to build out complete web applications. More information: [Add a webpage to render a list of records](add-webpage-render-list-records.md).  
 
 ![Contact us form](media/contact-us-form.png "Contact us form")  
 
@@ -36,15 +36,15 @@ The Web Pages associated with the Entity Form can be viewed by clicking the **We
 
 When creating or editing a Web Page, an **Entity Form** can be specified in the lookup field provided on the Web Page form.
 
-The various master pages used by the portal found in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal installation directory contains declarations of the **EntityForm** server control. When rendering the Web Page containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine if the Entity Form lookup contains a value then the form will be rendered.
+The various master pages used by the portal found in the Dynamics 365 portal installation directory contains declarations of the **EntityForm** server control. When rendering the Web Page containing either the Page (~/Pages/Page.aspx) page template or Full Page (~/Pages/FullPage.aspx) page template, the controls will determine if the Entity Form lookup contains a value then the form will be rendered.
 
 ## Secure your forms
 
-To secure your forms, you must create entity permissions that determine access and ownership of the records in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] according to Web Roles. If a user lands on an Entity Form and does not have permissions, they will receive an error message. To Enable Permissions for an Entity Form. set **Enable Entity Permissions** to true. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md).  
+To secure your forms, you must create entity permissions that determine access and ownership of the records in Dynamics 365 according to Web Roles. If a user lands on an Entity Form and does not have permissions, they will receive an error message. To Enable Permissions for an Entity Form. set **Enable Entity Permissions** to true. More information: [Create web roles for portals](create-web-roles.md).  
 
 ### See Also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

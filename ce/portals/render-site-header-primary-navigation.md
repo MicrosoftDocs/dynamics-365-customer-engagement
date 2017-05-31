@@ -17,7 +17,7 @@ manager: sakudes
 
 
 
-Render a website header and primary navigation bar, using portals settings, snippets, weblinks, and sitemarkers. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store source content by using web templates](store-content-web-templates.md)  
+Render a website header and primary navigation bar, using portals settings, snippets, weblinks, and sitemarkers. More information: [Store source content by using web templates](store-content-web-templates.md)  
 
 >[!Note]
 >The example in this topic will only function correctly if cross-request header caching is disabled for your application. It is enabled by default in version 7.0.0019 and later. It can be disabled by creating a Site Setting named Header/OutputCache/Enabled, and setting its value to false.

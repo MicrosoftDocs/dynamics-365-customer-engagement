@@ -17,7 +17,7 @@ manager: sakudes
 
 
 
-Web Template is a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity (adx\_webtemplate), included with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals, that is used to store template source content. A web template will generally contain Liquid for dynamic content rendering and is the central entity used to integrate Liquid templates with the rest of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals system.
+Web Template is a Dynamics 365 entity (adx\_webtemplate), included with Dynamics 365 portals, that is used to store template source content. A web template will generally contain Liquid for dynamic content rendering and is the central entity used to integrate Liquid templates with the rest of the Dynamics 365 portals system.
 
 Web Templates can be included in other content or combined with other templates by using template tags, and are referenced in these tags by their **Name** attribute. They can also be used to create entire custom Page Templates, or create custom headers and footers for your portal website.
 
@@ -26,13 +26,13 @@ Web Templates can be included in other content or combined with other templates 
 | | |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name      | The name of the template. Used to reference this template when it is included in other content, or extended by other templates.                           |
-| Source    | The source content of the template. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], a source code editor with syntax highlighting and other code editing features is provided for this field.                                 |
+| Source    | The source content of the template. In Dynamics 365, a source code editor with syntax highlighting and other code editing features is provided for this field.                                 |
 | MIME Type | Optionally provides a MIME type for the content of the template. If none is provided, a type of text/html is assumed. This value will only be used in cases where the template is associated with a Page Template, and controls the rendering of all content for that template.  |
 ||
 
 ## Web templates as page templates
 
-Web Templates can be used in conjunction with page templates to create new templates for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals content management system. This can be done entirely within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], without the need to write .NET code or redeploy your portal application.
+Web Templates can be used in conjunction with page templates to create new templates for the Dynamics 365 portals content management system. This can be done entirely within Dynamics 365, without the need to write .NET code or redeploy your portal application.
 
 To create a new page template based on a web template, select a **Type** of Web Template when creating a new Page Template record. Then select a **Web Template**.
 
@@ -42,11 +42,11 @@ While the most common use cases for Web Templates will be to render HTML, render
 
 ## Web templates as website headers and footers
 
-Web templates can also be used to override the global header and footer used by a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. To do this, set the **Header Template** or **Footer Template** field of your website to the web template of your choice. Note that if you override **Website Header**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on for your site interface elements that are normally handled by the default header template.
+Web templates can also be used to override the global header and footer used by a Dynamics 365 portal. To do this, set the **Header Template** or **Footer Template** field of your website to the web template of your choice. Note that if you override **Website Header**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on for your site interface elements that are normally handled by the default header template.
 
 ## Built-in web templates
 
-There is a set of premade Liquid templates available within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals. To use them, you must include them by name, using the list below as a reference.
+There is a set of premade Liquid templates available within Dynamics 365 portals. To use them, you must include them by name, using the list below as a reference.
 
 | Name                        | Description                                                                                                                                                                                                                             | Code                                                                                   |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|

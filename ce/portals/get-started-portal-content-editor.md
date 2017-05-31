@@ -17,7 +17,7 @@ manager: sakudes
 
 
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals offers a powerful suite of editing tools. Users with suitable permissions can add, modify, or delete webpages and their content without having to directly access the databases and web servers that physically contain these entities. Editing can be performed in any modern browser and is accomplished through the use of two powerful yet intuitive tools. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control webpage access for portals](webpage-access-control.md)  
+Dynamics 365 portals offers a powerful suite of editing tools. Users with suitable permissions can add, modify, or delete webpages and their content without having to directly access the databases and web servers that physically contain these entities. Editing can be performed in any modern browser and is accomplished through the use of two powerful yet intuitive tools. More information: [Control webpage access for portals](webpage-access-control.md)  
 
 This document assumes that you have permission to perform these tasks. If you do not, ask your portal administrator to arrange this for you. The permissions can be assigned to individual pages, so be sure to specify which pages you will need to edit.
 
@@ -38,7 +38,7 @@ Sign in first. This will enable content editing for users with this permission. 
 
 ## Edit the header
 
-Place the mouse cursor over the page header and click the blue edit button that appears. This will open a rich-text editor. Change the header text and click the disk icon to save the changes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md).  
+Place the mouse cursor over the page header and click the blue edit button that appears. This will open a rich-text editor. Change the header text and click the disk icon to save the changes. More information: [Customize content by using content snippets](customize-content-snippets.md).  
 
 ## Add a new webpage
 
@@ -48,9 +48,9 @@ To add a new webpage from the portal, click **New** in the toolbar, and then cli
 
 ![Create a new child page](media/create-new-child-page.png "Create a new child page")  
 
-After being redirected to the newly created page. Point to the large rectangular box under the page title and click the blue edit button that appears. Add some content, and then click the disk icon to save the changes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Get started with the portal content editor](get-started-portal-content-editor.md).  
+After being redirected to the newly created page. Point to the large rectangular box under the page title and click the blue edit button that appears. Add some content, and then click the disk icon to save the changes. More information: [Get started with the portal content editor](get-started-portal-content-editor.md).  
 
-Web pages can also be added in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Translating a webpage is done in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], so start by navigating to **Portals** &gt; **Web Pages** and clicking the **+New** button. Fill in the form and click **Save**. Change the **Publishing State** from **Draft** to **Published** when it is ready for use on the website. The **Localized Content** section can be filled in after the webpage is created to create the different translations needed.
+Web pages can also be added in Dynamics 365. Translating a webpage is done in Dynamics 365, so start by navigating to **Portals** &gt; **Web Pages** and clicking the **+New** button. Fill in the form and click **Save**. Change the **Publishing State** from **Draft** to **Published** when it is ready for use on the website. The **Localized Content** section can be filled in after the webpage is created to create the different translations needed.
 
 ![Create a new web page](media/create-new-web-page.png "Create a new web page")  
 

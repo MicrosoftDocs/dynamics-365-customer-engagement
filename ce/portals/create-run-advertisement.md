@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create and run advertisements on a portal
 [comment]: <> (Add cross-ref to ad entity attribute table)
-Create text or image-based ads and have them run in multiple placements throughout your site. Randomize ads or select specific ads for specific placements. You can choose release and expiration dates for time-sensitive, scheduled content. Ads can be hyperlinked to any destination and open in the current window or a new window. Advertisements are displayed in the portal via two [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities: The Ad Placement entity and associated Ad entity. Ads can be surfaced in many ways: with pre-made Liquid Templates available within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals application via Liquid Templating/example Web Templates, or within the.aspx page via MVC actions.
+Create text or image-based ads and have them run in multiple placements throughout your site. Randomize ads or select specific ads for specific placements. You can choose release and expiration dates for time-sensitive, scheduled content. Ads can be hyperlinked to any destination and open in the current window or a new window. Advertisements are displayed in the portal via two Dynamics 365 entities: The Ad Placement entity and associated Ad entity. Ads can be surfaced in many ways: with pre-made Liquid Templates available within the Dynamics 365 portals application via Liquid Templating/example Web Templates, or within the.aspx page via MVC actions.
 
 ## Create a new advertisement
 
@@ -89,7 +89,7 @@ The Ad Entity has the following attributes:
 
 ### See Also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

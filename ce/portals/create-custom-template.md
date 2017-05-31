@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Create a custom page template by using Liquid and a web template page template
 [comment]: <> (Need more elaborate description of the steps)
-In this example, we'll create a custom page template by using Liquid and a Web Template page template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store source content by using web templates](store-content-web-templates.md).  
+In this example, we'll create a custom page template by using Liquid and a Web Template page template. More information: [Store source content by using web templates](store-content-web-templates.md).  
 Our goal is to build a simple two-column template that uses a web link set as left-side navigation, with the page content to the right. Something like this:
 
 ![Custom page template](media/custom-page-template.png "Custom page template")  

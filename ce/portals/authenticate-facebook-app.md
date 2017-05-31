@@ -17,7 +17,7 @@ manager: sakudes
 
 
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals are capable of hosting Facebook Apps in the context of a [Facebook Page Tab](https://developers.facebook.com/docs/appsonfacebook/pagetabs/). This is achieved by employing features such as Login with Facebook and ASP.Net MVC Display Modes.  
+Dynamics 365 portals are capable of hosting Facebook Apps in the context of a [Facebook Page Tab](https://developers.facebook.com/docs/appsonfacebook/pagetabs/). This is achieved by employing features such as Login with Facebook and ASP.Net MVC Display Modes.  
 
 ## Prerequisites
 
@@ -94,7 +94,7 @@ If you do not have a Facebook Page, follow the instructions here to create one [
 This displays the **Add Page Tab** dialog to select the **Page** that will contain the **Page Tab** and app. Browse back to the **Page** and the app should be available in the grid of added **Page Tabs**. Click the **Page Tab** to view the Facebook App portal framed within the Facebook Page.
 
 ## Update the App portal to publish a Platform for Privacy Preferences (P3P) policy
-By default, [!INCLUDE[pn-internet-explorer](../includes/pn-internet-explorer.md)] does not allow [third-party cookies](http://support.microsoft.com/kb/260971) to be created for portals/apps that are rendered in an iFrame of another host portal. This is the case of a Facebook App portal hosted from a Page Tab. A side effect of this cookie blocking is that an app is unable to create and maintain an authenticated session. This is resolved by updating the App portal to publish a Platform for Privacy Preferences (P3P) policy. There are various options for achieving this one of which is to update the web.config of the App portal to include a [custom header](http://www.iis.net/configreference/system.webserver/httpprotocol/customheaders). For Example:
+By default, Internet Explorer does not allow [third-party cookies](http://support.microsoft.com/kb/260971) to be created for portals/apps that are rendered in an iFrame of another host portal. This is the case of a Facebook App portal hosted from a Page Tab. A side effect of this cookie blocking is that an app is unable to create and maintain an authenticated session. This is resolved by updating the App portal to publish a Platform for Privacy Preferences (P3P) policy. There are various options for achieving this one of which is to update the web.config of the App portal to include a [custom header](http://www.iis.net/configreference/system.webserver/httpprotocol/customheaders). For Example:
 
 ```
 <configuration>
@@ -109,7 +109,7 @@ By default, [!INCLUDE[pn-internet-explorer](../includes/pn-internet-explorer.md)
 ```
 ### See Also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

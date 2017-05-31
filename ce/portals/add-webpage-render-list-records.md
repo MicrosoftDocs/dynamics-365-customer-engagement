@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Add a webpage to render a list of records
-Entity List is a data-driven configuration that provides you with the ability to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. Using Entity List, you can expose [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records for display on portals.
+Entity List is a data-driven configuration that provides you with the ability to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. Using Entity List, you can expose Dynamics 365 records for display on portals.
 
 The grid supports sorting and will be paginated if the number of records is larger than the Page Size specified. If the Web Page for Details View has been specified, each record will contain a link to the page and the ID of the record will be appended to the Query String along with the ID Query String Parameter Name. The Entity List also supports multiple views. If more than one view has been specified, a drop-down will rendered to allow the user to toggle between the various views.
 
@@ -27,7 +27,7 @@ The Entity List contains relationships to webpages and various properties in ord
 > [!Note]
 > A Entity List must be associated with a Web Page for a given website for the list to be viewable within the site.
 
-The Web Pages associated with the Entity List can be viewed by clicking the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When Creating your Entity List, the first step is to choose the Entity for which you want to render a list on the portal. You'll then choose one or more [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Views to render.
+The Web Pages associated with the Entity List can be viewed by clicking the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When Creating your Entity List, the first step is to choose the Entity for which you want to render a list on the portal. You'll then choose one or more Dynamics 365 Views to render.
 
 When creating or editing a Web Page, an Entity List can be specified in the lookup field provided on the Web Page form. The Page Template typically will be the "Page" template but can be one of several other templates designed for content as the master templates contain the necessary logic to determine if an Entity List should be rendered.
 
@@ -65,7 +65,7 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 <tr class="even">
 <td>Details Button Label</td>
 <td>The text displayed for the details view button if Web Page for Details View has been specified. Default: View details<br />
-<em>For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language.</em></td>
+<em>For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language.</em></td>
 </tr>
 <tr class="odd">
 <td>Web Page for Create</td>
@@ -74,7 +74,7 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 <tr class="even">
 <td>Create Button Label</td>
 <td>The text displayed for the create button if Web Page for Create has been specified. Default: Create <br />
-<em>For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.</em></td>
+<em>For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language.</em></td>
 </tr>
 <tr class="odd">
 <td>ID Query String Parameter Name</td>
@@ -83,7 +83,7 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 <tr class="even">
 <td>Empty List Text</td>
 <td>The message displayed when there are no records.<br />
- <em>For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.</em></td>
+ <em>For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language.</em></td>
 </tr>
 <tr class="odd">
 <td>Portal User Attribute</td>
@@ -114,11 +114,11 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 ```
 ## Add custom Javascript
 
-The Options tab on the form contains a text area that you can enter custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] and if your page includes jQuery library then you can use that here as well. The script block will be added at the bottom of the webpage just before the page’s closing form tag.
+The Options tab on the form contains a text area that you can enter custom JavaScript and if your page includes jQuery library then you can use that here as well. The script block will be added at the bottom of the webpage just before the page’s closing form tag.
 
-![Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] example](media/custom-javascript-example.png "Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] example")  
+![Custom JavaScript example](media/custom-javascript-example.png "Custom JavaScript example")  
 
-The list gets its data asynchronously and when it is complete it will trigger an event "loaded" that your custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] can listen for and do something with items in the grid. The following is a trivial example:
+The list gets its data asynchronously and when it is complete it will trigger an event "loaded" that your custom JavaScript can listen for and do something with items in the grid. The following is a trivial example:
 ```
 $(document).ready(function (){
 $(".entitylist.entity-grid").on("loaded", function () {
@@ -227,7 +227,7 @@ Enabling a **Create Action** renders a button above the Entity List that, when c
 
 **Download action settings**
 
-Enabling a **Download Action** renders a button above the Entity List that, when clicked, downloads the data from the list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] (.xlsx) file.
+Enabling a **Download Action** renders a button above the Entity List that, when clicked, downloads the data from the list to an Excel (.xlsx) file.
 
 | **Name**              |
 |-----------------------|
@@ -326,9 +326,9 @@ Enabling a **Workflow Action** allows a user to run an On-Demand Workflow agains
 
 ## Securing entity lists
 
-To secure an entity list, you must configure Entity Permissions for the Entity for which records are being displayed and also set the "Enable Entity Permissions" Boolean value on the Entity List record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to true.
+To secure an entity list, you must configure Entity Permissions for the Entity for which records are being displayed and also set the "Enable Entity Permissions" Boolean value on the Entity List record in Dynamics 365 to true.
 
-The act of securing an Entity List will ensure that for any user that accesses the page, only records that they have been given permission to are shown. This is achieved by an additional filter being added to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views that are being surfaced via the list. This filter will filter for only records that are accessible to the user, via **Read** permission.
+The act of securing an Entity List will ensure that for any user that accesses the page, only records that they have been given permission to are shown. This is achieved by an additional filter being added to the Dynamics 365 views that are being surfaced via the list. This filter will filter for only records that are accessible to the user, via **Read** permission.
 
 Further to this, any actions that are defined for the List will respect the corresponding permissions for that action, on a per-record basis. i.e., if you have Edit for a record, the Edit action will be enabled for that record. Same applies for Delete, Create, etc.
 
@@ -374,7 +374,7 @@ If you assign a Web Page to the Create Lookup on the Entity List, and do not spe
 
 ## Entity list filter configuration
 
-Adding the ability to filter records on an Entity List is easy - simply enable the filtering option and then choose one or more filter types to display to users. It is possible to filter by an attribute matching some text provided by the user, or to select from a series of options. You can even design virtually any type of filter you can imagine by using Advanced Find in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Adding the ability to filter records on an Entity List is easy - simply enable the filtering option and then choose one or more filter types to display to users. It is possible to filter by an attribute matching some text provided by the user, or to select from a series of options. You can even design virtually any type of filter you can imagine by using Advanced Find in Dynamics 365.
 
 **Enable the entity list filter**
 
@@ -523,7 +523,7 @@ The Dynamic Lookup Set uses the following options:
 
 **FetchXML filter**
 
-The range filter can create either a simple textbox filter like the Text Filter, or a set of options like the other filter types. It allows you to manually create virtually any type of filter for the Entity List by using FetchXML, the query language used by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+The range filter can create either a simple textbox filter like the Text Filter, or a set of options like the other filter types. It allows you to manually create virtually any type of filter for the Entity List by using FetchXML, the query language used by Dynamics 365.
 
 ![FetchXML filter settings](media/set-fetchxml-filter.png "FetchXML filter settings")
 
@@ -535,7 +535,7 @@ The FetchXML Filter uses only one attribute:
 
 ## Entity list map view
 
-With Entity Lists it is possible to enable and configure a map view of the data, powered by [!INCLUDE[pn-bing](../includes/pn-bing.md)] maps with search functionality to find locations near an address. By populating your records with latitude and longitude coordinate values and specifying the necessary configuration options listed in this section, your records can be rendered as pinpoints on a map. Any record that does not have a latitude or longitude value will be excluded from the search. The initial load of the page will display all records within the initial value of the Distance Values field (in miles or Km depending on the Distance Units specified) from the Default Center Latitude and Default Center Longitude coordinates. The view specified is ignored when map view is used, and a distance query is applied to the dataset to return the mappable results.
+With Entity Lists it is possible to enable and configure a map view of the data, powered by Bing maps with search functionality to find locations near an address. By populating your records with latitude and longitude coordinate values and specifying the necessary configuration options listed in this section, your records can be rendered as pinpoints on a map. Any record that does not have a latitude or longitude value will be excluded from the search. The initial load of the page will display all records within the initial value of the Distance Values field (in miles or Km depending on the Distance Units specified) from the Default Center Latitude and Default Center Longitude coordinates. The view specified is ignored when map view is used, and a distance query is applied to the dataset to return the mappable results.
 
 ## Entity list calendar view
 
@@ -543,19 +543,19 @@ Entity List Calendar View allows rendering of an entity list as a calendar, with
 
 In order for records to be displayed using a calendar, those records need to have at a minimum a date field on them. In order for events to have exact start and end times, then the appropriate fields need to be in place, and so on. Assuming these fields are configured, then an Entity Calendar view will appear on the portal
 
-## Enhanced [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view filter for entity lists
+## Enhanced Dynamics 365 view filter for entity lists
 
-If enabled, an entity can be published to an OData feed. The OData Protocol is an application-level protocol for interacting with data via RESTful web services. For configuration settings please refer to the Entity List page. Data from this feed can be viewed in a web browser, consumed by a client-side web application, or imported into [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
+If enabled, an entity can be published to an OData feed. The OData Protocol is an application-level protocol for interacting with data via RESTful web services. For configuration settings please refer to the Entity List page. Data from this feed can be viewed in a web browser, consumed by a client-side web application, or imported into Excel.
 
 ## Entity list OData feeds
 
-You may utilize Entity Permissions if you wish to secure records, but if you want to simply provide a filter as part of the set of filter options that is relevant to the current portal user, the Entity List feature supports filtering of current user, user's parent account, and/or website at any depth. Simply build the view filter in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to match any single contact record and the code will replace its value with the actual value at runtime. No need to assign values to fields on the Filter Conditions section.
+You may utilize Entity Permissions if you wish to secure records, but if you want to simply provide a filter as part of the set of filter options that is relevant to the current portal user, the Entity List feature supports filtering of current user, user's parent account, and/or website at any depth. Simply build the view filter in Dynamics 365 to match any single contact record and the code will replace its value with the actual value at runtime. No need to assign values to fields on the Filter Conditions section.
 
-Note: The oData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data that is unsuitable for anonymous portal access.
+Note: The oData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for Dynamics 365 data that is unsuitable for anonymous portal access.
 
 ### See Also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  
