@@ -52,17 +52,9 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 | Error Message         | Overrides the message shown when an error occurs while trying to load the list of notes.                                                                     |
 | Access Denied Message | Overrides the message shown when the user does not have sufficient permissions to view the list of notes.                                                    |
 | Empty Message         | Overrides the message shown when the current entity does not have any notes that can be viewed.                                                              |
-| List Orders           | Allows you to set the order in which notes will be displayed.
-|
-The List Orders settings allows you to set the following:
+| List Orders           | Allows you to set the order in which notes will be displayed. The List Orders settings allows you to set the following: <ul><li>Attribute: the logical name of the column by which you wish to sort</li><li>Alias: the alias for the attribute in the query</li><li>Direction: Choose Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).</li></ul> ![Set attributes for list orders](media/set-attributes-list-orders.png "Set attributes for list orders") To add a sorting rule, click "Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.|
+||
 
-- Attribute: the logical name of the column by which you wish to sort 
-- Alias: the alias for the attribute in the query 
-- Direction: Choose Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).
-
-![Set attributes for list orders](media/set-attributes-list-orders.png "Set attributes for list orders")
-
-To add a sorting rule, click "Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.
 
 ## Create dialog options
 
