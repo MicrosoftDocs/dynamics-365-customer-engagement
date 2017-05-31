@@ -65,7 +65,7 @@ View the portal through each of the site bindings in a web browser to ensure tha
 * Page Tab Name:Contoso Portal                      |
 
 > [!Note]
-> The Page Tab URL should have the /app/facebook path appended to the App domain URL. The portal uses this endpoint to launch the App portal. |
+> The Page Tab URL should have the /app/facebook path appended to the App domain URL. The portal uses this endpoint to launch the App portal.
 
 7. Click **Save Changes**.
 
