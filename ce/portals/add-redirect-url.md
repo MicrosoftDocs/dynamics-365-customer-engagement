@@ -50,7 +50,7 @@ results in the browser requesting the following URL:
 > http://customerportal.contoso.com/surveys/customer-service-survey/
 
 ### See Also
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

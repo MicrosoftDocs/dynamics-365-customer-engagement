@@ -17,7 +17,7 @@ manager: sakudes
 
 Web Form Notes are configured in an identical fashion to Entity Form Notes. First, Create a Metadata record for the Web Form Step that has notes, and add configuration metadata. This process is described here.
 
-Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the Dynamics 365 form through the out-of-the-box Dynamics 365 form designer and you’re done. You can configure the behavior of the notes control by using metadata.
+Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form through the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you’re done. You can configure the behavior of the notes control by using metadata.
 
 >[!Note]                                                           > Explicit [Add record-based security using entity permissions for portals](assign-entity-permissions.md) are **required** for any notes to appear on the portal. For read and edit, the 'Read' and 'Write' privileges must be granted. For create, two permissions must exist, a permission with the 'Create' and 'Append' privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the 'Append To' privilege granted.
 
@@ -137,8 +137,8 @@ To add a sorting rule, click "Column" (4) and fill in the details. List Orders w
 
 ### See Also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

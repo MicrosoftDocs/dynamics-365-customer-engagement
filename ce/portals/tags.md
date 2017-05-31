@@ -21,7 +21,7 @@ The following topics describe each type of tag:
 - [Iteration tags](#iteration-tags)
 - [Variable tags](#variable-tags)
 - [Template tags](#template-tags)
-- [Dynamics 365 entity tags](#dynamics-365-entity-tags)  
+- [[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags](#dynamics-365-entity-tags)  
 
 ### See Also
 
@@ -516,7 +516,7 @@ Template tags control the output of a template in various ways, and allow the co
 
 ### **include**
 
-Includes the contents of one template in another, by name. In Dynamics 365 portals, the source of this other template will generally be a [*web template*](store-content-web-templates.md). This allows for the reuse of common template fragments in multiple places.  
+Includes the contents of one template in another, by name. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals, the source of this other template will generally be a [*web template*](store-content-web-templates.md). This allows for the reuse of common template fragments in multiple places.  
 
 When a template is included in another, the included template will have access to any variables defined in the parent template.
 
@@ -534,7 +534,7 @@ Used in conjunction with extends to provide template inheritance. See extends fo
 
 Used in conjunction with the block tag, provides template inheritance. This allows multiple templates to use a shared layout, while overriding specific areas of the parent layout.
 
-In Dynamics 365 portals, the parent template name provided to the tag will generally refer to the name of a [*web template*](store-content-web-templates.md).  
+In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals, the parent template name provided to the tag will generally refer to the name of a [*web template*](store-content-web-templates.md).  
 
 When extends is used, it must be the first content in the template, and can only be followed by one or more block tags.
 
@@ -568,15 +568,15 @@ Output
 [*Liquid Tags*](liquid-tags.md)  
 [*Liquid Filters*](liquid-filters.md)  
 
-## Dynamics 365 entity tags
+## [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags
 
 
 
-Dynamics 365 entity tags are used to load and display Dynamics 365 data, or use other Dynamics 365 portals framework services. These tags are Dynamics 365-specific extensions to the Liquid language.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
 
 ### **editable**
 
-Renders a given Dynamics 365 portals CMS object as [*Use the front-side editing engine to publish content*](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [*page*](#page), [*snippets*](#snippets), and [*weblinks*](#weblinks).  
+Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [*Use the front-side editing engine to publish content*](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [*page*](#page), [*snippets*](#snippets), and [*weblinks*](#weblinks).  
 
 **{% editable page 'adx\_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}**
 
@@ -712,7 +712,7 @@ Loads an entity list by ID **or** name. If the provided key value can be parsed 
 
 **language\_code**
 
-A Dynamics 365 integer language code to select the entity list localized labels to be loaded. If no language\_code is provided, the default language of the portal application Dynamics 365 connection will be used.
+A [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code to select the entity list localized labels to be loaded. If no language\_code is provided, the default language of the portal application [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] connection will be used.
 
 **{% entitylist name:"My Entity List", language\_code:1033 %}**
 
@@ -722,7 +722,7 @@ A Dynamics 365 integer language code to select the entity list localized labels 
 
 ### **entityview**
 
-Loads a given Dynamics 365 view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [*entityview*](#entityview) that will be available within the tag block.  
+Loads a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [*entityview*](#entityview) that will be available within the tag block.  
 
 If the view is loaded successfully, the content within the block will be rendered. If the view is not found, the block content will not be rendered.
 
@@ -758,7 +758,7 @@ If entityview is nested within an entitylist block, it will inherit its default 
 
 ### **Parameters**
 
-Provide **either** id **or** logical\_name with name to select the Dynamics 365 view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+Provide **either** id **or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
 
 **id**
 
@@ -780,7 +780,7 @@ Generally, literal GUID strings will not be used. Instead, id will be specified 
 
 **logical\_name**
 
-The Dynamics 365 entity logical name of the view to be loaded. Must be used in combination with name.
+The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the view to be loaded. Must be used in combination with name.
 
 **{% entityview logical\_name:'contact', name:"Active Contacts" %}**
 
@@ -790,7 +790,7 @@ The Dynamics 365 entity logical name of the view to be loaded. Must be used in c
 
 **name**
 
-The Dynamics 365 name of the view to be loaded. Must be used in combination with logical\_name.
+The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] name of the view to be loaded. Must be used in combination with logical\_name.
 
 **{% entityview logical\_name:'contact', name:"Active Contacts" %}**
 
@@ -924,7 +924,7 @@ This parameter must be passed either an [*Liquid types*](liquid-types.md) value,
 
 **language\_code**
 
-A Dynamics 365 integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the portal application Dynamics 365 connection will be used.
+A [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code to select the entity view localized labels (column header labels, etc.) to be loaded. If no language\_code is provided, the default language of the portal application [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] connection will be used.
 
 If entityview is used within an entitylist block, entityview will inherit its language code configuration from entitylist.
 
@@ -1024,7 +1024,7 @@ This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.
 
 **logical\_names**
 
-The Dynamics 365 entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
+The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
 
 **{% searchindex query: request.params.query, logical\_names: 'kbarticle,incident' %}**
 
@@ -1074,7 +1074,7 @@ Having multiple search providers is an advanced configuration that will not appl
 
 ### **entityform **
 
-Fully renders a Dynamics 365-configured [*Define entity forms and custom logic within the Dynamics 365 portal*](entity-forms-custom-logic.md), by name or ID.  
+Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal*](entity-forms-custom-logic.md), by name or ID.  
 
 |  >[!Note]                                                                                                                                                                                        |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1102,7 +1102,7 @@ The name of the Web Form you wish to load.
 
 ### **webform **
 
-Fully renders a Dynamics 365-configured web form, by name or ID.
+Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID.
 
 |  >[!Note]                                                                                                                                                                                     |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

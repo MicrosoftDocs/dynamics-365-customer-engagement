@@ -26,7 +26,7 @@ To create a web role:
 
 ## Attributes and relationships
 
-The table below explains the Web Role attributes used by Dynamics 365 portals.
+The table below explains the Web Role attributes used by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals.
 
 | Name                     | Description                                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -60,15 +60,15 @@ The **Anonymous Users Role** is intended to be used with Entity Permissions. It 
 [Assign permission set to a web role for portals](assign-permission-web-role.md)  
 [Add record-based security by using entity permissions for portals](assign-entity-permissions.md)  
 
-## Enable help for Dynamics 365 portals
+## Enable help for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals
 
-To make sure users get the right information when they click the **Help** button, you need to set Dynamics 365 to use custom Help. Go to **Settings** &gt; **Administration**, click **System Settings**, click the **General** tab, and select **Yes** for **Use custom Help for customizable entities**.
+[!INCLUDE[cc-set-crm-to-use-custom-help](../includes/cc-set-crm-to-use-custom-help.md)]
 
-## Customize Dynamics 365 portal forms, dashboards, and reports
+## Customize [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal forms, dashboards, and reports
 
-If you want to customize any of the portal forms, dashboards, or reports, you can find more information about customizing Microsoft Dynamics 365 in the following links:
+If you want to customize any of the portal forms, dashboards, or reports, you can find more information about customizing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] in the following links:
 
--   [TechNet: Customize your Dynamics 365 system](https://technet.microsoft.com/library/dn531158.aspx)  
+-   [TechNet: Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
 
 <!-- -->
 
@@ -78,31 +78,31 @@ If you want to customize any of the portal forms, dashboards, or reports, you ca
 
 -   [TechNet: Create and edit processes](https://technet.microsoft.com/en-us/library/dn531144.aspx)  
 
--   [TechNet: Report & Analytics with Dynamics 365](https://technet.microsoft.com/library/dn531183.aspx)  
+-   [TechNet: Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
 
 ### See Also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
 
-## Change the Dynamics 365 instance, audience, or type of portal
+## Change the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, audience, or type of portal
 
-After your portal is created and provisioned, you can change the details of your Dynamics 365 instance and portal.
+After your portal is created and provisioned, you can change the details of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and portal.
 
-1.  Go to the Dynamics 365 Online Admin center and click the **Applications** tab.
+1.  Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online Admin center and click the **Applications** tab.
 
 <!-- -->
 
 1.  Select the name of the portal you want to edit and click **Manage**.
 
-2.  Click the **Manage Dynamics 365 Instance** tab. On this page, you can review the Dynamics 365 instance that is currently linked to your portal.
+2.  Click the **Manage [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
 
-3.  Click the **Update Dynamics 365 Instance** button. In the dialog, use the provided fields to change your Dynamics 365 instance, portal language, or your portal administrator. You can also keep the same Dynamics 365 instance, but change Portal audience or type of portal.
+3.  Click the **Update [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** button. In the dialog, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change Portal audience or type of portal.
 
 4.  Click the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
 
-![Change Dynamics 365 instance](media/change-dynamics-365-instance.png "Change Dynamics 365 instance")  
+![Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance](media/change-dynamics-365-instance.png "Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance")  
 
 ### See Also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  

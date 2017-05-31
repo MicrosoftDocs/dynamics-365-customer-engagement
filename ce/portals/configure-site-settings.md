@@ -17,11 +17,11 @@ manager: sakudes
 
 A Site Setting is a configurable named value that is used by website code to modify the behavior or visual style of the portal. Typically when a developer creates the website code, they will reference Site Settings for various components to enable an end user to modify the setting values to alter the website without having to change the code, recompile, and redeploy the website.
 
-The sample portals that are provided with the installation of Dynamics 365 portals contain several configurable Site Settings for various styles used to modify many visual elements within the site such as background style, text color, and layout width.
+The sample portals that are provided with the installation of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals contain several configurable Site Settings for various styles used to modify many visual elements within the site such as background style, text color, and layout width.
 
-## Manage site settings in Dynamics 365
+## Manage site settings in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
-1.  Login to **Dynamics 365**
+1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
 2.  Go to **Portals** &gt; **Site Settings**
 3.  To create a new setting: Click **New**
 4.  To edit an existing setting: Double-click on the **Site Setting** listed in the grid
@@ -38,9 +38,9 @@ The sample portals that are provided with the installation of Dynamics 365 porta
 ### See Also
 
 [How to provision a portal](provision-portal.md)  
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
 

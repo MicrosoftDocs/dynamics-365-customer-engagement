@@ -14,58 +14,58 @@ ms.author: shjais
 manager: sakudes
 ---
 # Create a theme for your portal
-When you build portals with the portal capabilities for with Microsoft Dynamics 365, you'll be using the [Bootstrap front-end framework](http://getbootstrap.com/). By taking advantage of the Bootstrap ecosystem, you can quickly and easily brand these portals for your organization.  
+When you build portals with the portal capabilities for with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you'll be using the [[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] front-end framework](http://getbootstrap.com/). By taking advantage of the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] ecosystem, you can quickly and easily brand these portals for your organization.  
 
-## Implement portal templates by using Bootstrap
+## Implement portal templates by using [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)]
 
-Bootstrap is a front-end framework that includes CSS and JavaScript components for common web application interface elements. It includes styles for [navigation elements](http://getbootstrap.com/components/#nav), [forms](http://getbootstrap.com/css/#forms), [buttons](http://getbootstrap.com/css/#buttons), and a [responsive grid layout system](http://getbootstrap.com/css/#grid), which allow site layouts to dynamically adjust to devices that have different screen sizes, such as phones and tablets. By using the Bootstrap layout system, you can develop a single site that presents an appropriate interface to all devices your customers might use.
+[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] is a front-end framework that includes CSS and [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] components for common web application interface elements. It includes styles for [navigation elements](http://getbootstrap.com/components/#nav), [forms](http://getbootstrap.com/css/#forms), [buttons](http://getbootstrap.com/css/#buttons), and a [responsive grid layout system](http://getbootstrap.com/css/#grid), which allow site layouts to dynamically adjust to devices that have different screen sizes, such as phones and tablets. By using the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] layout system, you can develop a single site that presents an appropriate interface to all devices your customers might use.
 
-The templates included with Dynamics 365 portals are implemented by using standard Bootstrap components, with minimal additional custom styles. So when you implement the templates, you can take advantage of the Bootstrap customization options. You can customize the theme (fonts, colors, and so on) quickly, and in a way that is applied consistently across the portal.
+The templates included with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals are implemented by using standard [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] components, with minimal additional custom styles. So when you implement the templates, you can take advantage of the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] customization options. You can customize the theme (fonts, colors, and so on) quickly, and in a way that is applied consistently across the portal.
 
-## Customize Bootstrap
+## Customize [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)]
 
-Bootstrap supports customization through a set of variables. You can set any or all of these variables to custom values and then download a custom version of Bootstrap that is compiled based on these values.
+[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] supports customization through a set of variables. You can set any or all of these variables to custom values and then download a custom version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] that is compiled based on these values.
 
-The power of Bootstrap variables is that they don't dictate the style of a single element. All styles in the framework are based on and derived from these values. For example, consider the variable @font-size-base. This specifies the size that Bootstrap assigns to normal body text. However, Bootstrap also uses this variable to indicate the font size for headings and other elements. The size for an h1 element may be defined as 300 percent the size of @font-size-base. By setting this one variable, you control the entire typographic scale of your portal in a consistent way. Similarly, the @link-color variable controls the color of hyperlinks. For the color you assign to this value, Bootstrap will define the hover color for links as 15 percent darker than your custom value.
+The power of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] variables is that they don't dictate the style of a single element. All styles in the framework are based on and derived from these values. For example, consider the variable @font-size-base. This specifies the size that [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] assigns to normal body text. However, [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] also uses this variable to indicate the font size for headings and other elements. The size for an h1 element may be defined as 300 percent the size of @font-size-base. By setting this one variable, you control the entire typographic scale of your portal in a consistent way. Similarly, the @link-color variable controls the color of hyperlinks. For the color you assign to this value, [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] will define the hover color for links as 15 percent darker than your custom value.
 
-The standard way to create a custom version of Bootstrap is [through the official Bootstrap site](http://getbootstrap.com/customize/#less-variables). However, due to the popularity of Bootstrap, many third-party sites have also been created for this purpose. These sites might provide an easier-to-use interface for Bootstrap customization or might provide predesigned versions of Bootstrap for you to download. [The official Bootstrap customizer](http://getbootstrap.com/customize/) site provides more information on Bootstrap customization. The site will always be the most up to date, but currently doesn't include some UI features like color pickers and live preview.  
+The standard way to create a custom version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] is [through the official [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] site](http://getbootstrap.com/customize/#less-variables). However, due to the popularity of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)], many third-party sites have also been created for this purpose. These sites might provide an easier-to-use interface for [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] customization or might provide predesigned versions of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] for you to download. [The official [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] customizer](http://getbootstrap.com/customize/) site provides more information on [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] customization. The site will always be the most up to date, but currently doesn't include some UI features like color pickers and live preview.  
 
-When you download a customized version of Bootstrap, it contains the following directory structure.
+When you download a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)], it contains the following directory structure.
 
 ```
 css/ |-- bootstrap.min.css img/
 |-- glyphicons-halflings-white.png |-- glyphicons-halflings.png js/ |-- bootstrap.min.js
 ```
 
-Or, depending on the customizer application used, it may only contain bootstrap.min.css. Regardless, bootstrap.min.css is the file that contains your customizations. The other files are the same for all custom versions of Bootstrap and are already included in your Dynamics 365 portal.
+Or, depending on the customizer application used, it may only contain bootstrap.min.css. Regardless, bootstrap.min.css is the file that contains your customizations. The other files are the same for all custom versions of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] and are already included in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal.
 
-## Apply a custom Bootstrap theme to your website
+## Apply a custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] theme to your website
 
-After you have your custom bootstrap.min.css, you can apply it to your portal in one of two ways. If you are a developer and prefer to work directly with the source code of your application, you can overwrite the version of bootstrap.min.css included in your application source with your custom version. In most cases, however, we recommend that you apply your custom Bootstrap theme without modifying your site code by uploading it as a web file in the Dynamics 365 portal’s content management system.
+After you have your custom bootstrap.min.css, you can apply it to your portal in one of two ways. If you are a developer and prefer to work directly with the source code of your application, you can overwrite the version of bootstrap.min.css included in your application source with your custom version. In most cases, however, we recommend that you apply your custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] theme without modifying your site code by uploading it as a web file in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s content management system.
 
-1.  Sign in to your application as a user with content management permissions. More information: [Assign a permission set to a web role for portals](assign-permission-web-role.md).  
+1.  Sign in to your application as a user with content management permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Assign a permission set to a web role for portals](assign-permission-web-role.md).  
 2.  Go to the **Home** page of your application.
 3.  Select **Children** &gt; **Edit this file** (the pencil and paper button) for **bootstrap.min.css** from the content editing toolbar (found in the upper-right corner of your browser window).
 4.  Select your custom bootstrap.min.css file, using the **Upload File** field in the Edit This File dialog box that appears.
-5.  Ensure that the **Partial URL** field is set to bootstrap.min.css. This value indicates to the Dynamics 365 portal’s framework that it should use your custom version of Bootstrap instead of the default version included.
+5.  Ensure that the **Partial URL** field is set to bootstrap.min.css. This value indicates to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s framework that it should use your custom version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] instead of the default version included.
 6.  You may also want to select the **Hidden from Sitemap** checkbox (selected by default), so that this file doesn't appear to users in any navigation elements on the site.
 7.  **Save** the file.
 8.  Refresh your page, and your customized styles will appear immediately.
 
-The below screenshot is an example of a customized version of Bootstrap applied to the Community portal:
+The below screenshot is an example of a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] applied to the Community portal:
 
 ![Apply a custom bootstrap theme to your website](media/apply-custom-bootstrap-theme.png "Apply a custom bootstrap theme to your website")  
 
 ## Additional portal theme options
 
-In addition to a custom Bootstrap version, Dynamics 365 portals support uploading of your own custom CSS files into the content management system. This lets you apply additional styling to your portal, without having to deploy a new version of its code. To do this, follow the procedure described previously for uploading custom Bootstrap CSS by using a file that contains your own CSS, and then choose a new **Partial URL** for this web file. As long as the **Partial URL** ends in .css, Dynamics 365 portals will recognize it and apply it to your site.
+In addition to a custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] version, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals support uploading of your own custom CSS files into the content management system. This lets you apply additional styling to your portal, without having to deploy a new version of its code. To do this, follow the procedure described previously for uploading custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] CSS by using a file that contains your own CSS, and then choose a new **Partial URL** for this web file. As long as the **Partial URL** ends in .css, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals will recognize it and apply it to your site.
 
-Along with a customized version of Bootstrap, you can use the content-editing system to add a custom logo and brand to your portal header. With these simple but powerful options, you're only a few minutes away from having your Dynamics 365 portal’s application reflect your brand.
+Along with a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)], you can use the content-editing system to add a custom logo and brand to your portal header. With these simple but powerful options, you're only a few minutes away from having your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s application reflect your brand.
 
 [comment]: <> (add required cross-ref in above paras)
 
 ### See Also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
 

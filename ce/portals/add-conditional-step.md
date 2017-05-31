@@ -66,10 +66,10 @@ new\_categorycode = 750101 & gendercode = 2
 
 ### See Also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  
-[Custom JavaScript](add-custom-javascript.md)  
+[Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]](add-custom-javascript.md)  
 

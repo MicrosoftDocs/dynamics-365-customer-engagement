@@ -14,14 +14,18 @@ ms.author: shjais
 manager: sakudes
 ---
 # Web form properties for portals
+
+
+
 The Web Form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to Web Page allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
 
 The other options on the Web Form record itself control top-level preferences for the multiple-step process as a whole, for example whether you'd like to display a progress bar.
 
 To view existing Web Forms or to create new Web Forms, navigate to **Portals -&gt; Web Forms**
 
->[!Note]                                                                  |  
-> A **Web Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site.  
+|  >[!Note]                                                                  |  
+|----------------------------------------------------------------------------------------------------------------------------------|
+| A **Web Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site. |  
 
 When creating or editing a Web Page, a **Web Form** can be specified in the lookup field provided on the Web Page form.
 
@@ -34,23 +38,44 @@ The following attributes and relationships determine the functionality of the We
 | Name                                | Description                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name                                | A title of the form used for reference.                                                                                                                                                                                                                                                                                                                        |
-| Start Step                          | The first step of the form. A Web Form will consist of one or more steps. For more detail regarding steps please refer to the section titled Web Form Step found below. The first step cannot be of type "Condition".                                                                                                                                                                                                                                                                                              |
+| Start Step                          | The first step of the form. A Web Form will consist of one or more steps. For more detail regarding steps please refer to the section titled Web Form Step found below.                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                  
+  |  >[!Note] |                                                                                                                                                                                                                                                                                               
+  |-----------------------------------------------------------------|                                                                                                                                                                                                                                                                                             
+  | Note: The first step cannot be of type "Condition".             |                                                                                                                                                                                                                                                                                             |
 | Authentication Required             | If checked, when a user that is not logged in visits the page containing the form, they will be redirected to the login page. Upon successful login the user will be redirected back to the page containing the form.                                                                                                                                          |
 | Start New Session On Load           | Selecting **Yes** indicates that if the user opens the form in a new browser, or new tab or closes the browser or page and returns the form will start a completely new session and begin at the first step. Otherwise the session will be persisted and the user can close the browser or page and resume later exactly where they left off. Default: **No**. |
 | Multiple Records Per User Permitted | Selecting **Yes** indicates that a user is permitted to create more than one submission. This assists the form in determining what to do when a user revisits a form. Default: **Yes**.                                                                                                                                                                        |
 | Edit Expired State Code             | The target entity's state code integer value that when combined with the status reason indicates when an existing record can no longer be edited.                                                                                                                                                                                                              |
 | Edit Expired Status Reason          | The target entity's status code integer value that when combined with the state code, indicates when an existing record has these values then the record is not to be edited anymore i.e. when a record is updated as complete for example.                                                                                                                    |
-| Edit Expired Message                | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. Default message; "You have already completed a submission. Thank you!"                     |
+| Edit Expired Message                | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. Default message; "You have already completed a submission. Thank you!"                     |
 
 ## Progress indicator settings
 
 | Name                              | Description                                                                                          |
 |-----------------------------------|------------------------------------------------------------------------------------------------------|
 | Enabled                           | Check to display the progress indicator. Default: **Disabled**.                                      |
-| Type                              | One of the following: Title, Numeric (Step x of n), and Progress Bar. Default: **Title**                                                                                    |
-| Position                          | One of the following: Top, Bottom, Left, Right. Position is relative to the form. Default: **Top**.                                                   |
+| Type                              | One of the following:                                                                                
+                                                                                                        
+  Title                                                                                                 
+                                                                                                        
+  -   Numeric (Step x of n)                                                                             
+                                                                                                        
+  -   Progress Bar                                                                                      
+                                                                                                        
+  Default: **Title**                                                                                    |
+| Position                          | One of the following:                                                                                
+                                                                                                        
+  Top                                                                                                   
+                                                                                                        
+  -   Bottom                                                                                            
+                                                                                                        
+  -   Left                                                                                              
+                                                                                                        
+  -   Right                                                                                             
+                                                                                                        
+  Position is relative to the form. Default: **Top**.                                                   |
 | Prepend Step Number to Step Title | Check to add the number of the step to the beginning of the title of the step. Default is unchecked. |
-||
 
 Example of the various progress indicator types:
 
@@ -75,25 +100,31 @@ Example of the various progress indicator types:
 | Name                                  | Description                                                                                                                                                                                                                |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Display Save Changes Warning On Close | Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, click the browser's back button, or click the previous button in a multiple step form.    |
-| Save Changes Warning Message          | For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
-||
+| Save Changes Warning Message          | For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
 
 Example:
 
 ![Save changes warning](media/save-changes-warning.png "Save changes warning")  
 
->[!Note]
-> Firefox does not provide the ability to specify a custom message.
+|  >[!Note]   |  
+|-------------------------------------------------------------------|
+| Firefox does not provide the ability to specify a custom message. |
 
 ## Web form metadata
 
-Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with the Dynamics 365 native entity form editing capabilities.
+Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] native entity form editing capabilities.
 
 On the **Web Form Step** that has fields that you would like to modify
 
-1. Click the **Metadata** link in the leftmost navigation area: 
-- To add a new record, click **Add New Web Form Metadata**.
-- To edit an existing record, double-click on a record in the grid.
+Click the **Metadata** link in the leftmost navigation area.
+
+To add a new record:
+
+1.  Click **Add New Web Form Metadata**
+
+To edit an existing record:
+
+1.  Double-click on a record in the grid
 
 ### Web form metadata properties
 
@@ -102,13 +133,15 @@ The following attributes provide additional styling and capabilities for element
 | Name          | Description                                                                                                                                                                                                |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Web Form Step | The Web Form Step associated with the Web Form Metadata record.                                                                                                                                            |
-| Type          | Available options are: Attribute, Section, Tab, and Purchase.
-||
-
-- **Web Form Metadata Type = Attribute**: displays the appropriate options for modifying fields on the current form rendered for the related step.
-- **Web Form Metadata Type = Section**: displays the options available for modifying a section on the form.
-- **Web Form Metadata Type = Tab**: displays the options available for modifying a tab on a form.
-- **Web Form Metadata Type = Purchase**: displays products for purchase and to generate a quote record in Dynamics 365 to persist the user's purchase selections to create an order and process payment.  |
+| Type          | Available options are:                                                                                                                                                                                     
+                                                                                                                                                                                                              
+  **Web Form Metadata Type = Attribute**: displays the appropriate options for modifying fields on the current form rendered for the related step.                                                            
+                                                                                                                                                                                                              
+  -   **Web Form Metadata Type = Section**: displays the options available for modifying a section on the form.                                                                                               
+                                                                                                                                                                                                              
+  -   **Web Form Metadata Type = Tab**: displays the options available for modifying a tab on a form.                                                                                                         
+                                                                                                                                                                                                              
+  -   **Web Form Metadata Type = Purchase**: displays products for purchase and to generate a quote record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to persist the user's purchase selections to create an order and process payment.  |
 
 ### Web form metadata type = attribute
 
@@ -117,7 +150,7 @@ The following properties are displayed when the Type selected is **Attribute**.
 | Name                   | Description                                                                                                                                                                                                                                                         |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Attribute Logical Name | The logical name of the attribute field to be modified.                                                                                                                                                                                                             |
-| Label                  | Replaces the default label assigned to the attribute on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
+| Label                  | Replaces the default label assigned to the attribute on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 
 ### Control style
 
@@ -125,7 +158,25 @@ The following options modify the style and functionality of an attribute's field
 
 | Name                                            | Description                                                                                                                                                                             |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Style                                           | One of the following:Option Set as Vertical Radio Button List, Option Set as Horizontal Radio Button List, Single Line of Text as Geolocation Lookup Validator (requires Bing Maps Settings), Group Whole Number as Constant Sum (requires Group Name), Group Whole Number as Rank Order Scale No Ties (requires Group Name),Group Whole Number as Rank Order Scale Allow Ties (requires Group Name),Multiple Choice Matrix (requires Group Name),Multiple Choice (requires Group Name), Group Whole Number as Stack Rank (requires Group Name).                                                                                                                               |
+| Style                                           | One of the following:                                                                                                                                                                   
+                                                                                                                                                                                           
+  Option Set as Vertical Radio Button List                                                                                                                                                 
+                                                                                                                                                                                           
+  -   Option Set as Horizontal Radio Button List                                                                                                                                           
+                                                                                                                                                                                           
+  -   Single Line of Text as Geolocation Lookup Validator (requires [!INCLUDE[pn-bing](../includes/pn-bing.md)] Maps Settings)                                                                                                    
+                                                                                                                                                                                           
+  -   Group Whole Number as Constant Sum (requires Group Name)                                                                                                                             
+                                                                                                                                                                                           
+  -   Group Whole Number as Rank Order Scale No Ties (requires Group Name)                                                                                                                 
+                                                                                                                                                                                           
+  -   Group Whole Number as Rank Order Scale Allow Ties (requires Group Name)                                                                                                              
+                                                                                                                                                                                           
+  -   Multiple Choice Matrix (requires Group Name)                                                                                                                                         
+                                                                                                                                                                                           
+  -   Multiple Choice (requires Group Name)                                                                                                                                                
+                                                                                                                                                                                           
+  -   Group Whole Number as Stack Rank (requires Group Name)                                                                                                                               |
 | Group Name                                      | A name used to group controls together as a composite control.                                                                                                                          |
 | Multiple Choice Minimum Required Selected Count | This is the required minimum values selected in the multiple choice question. Only necessary if 'Multiple Choice' Control Style is selected.                                            |
 | Multiple Choice Max Selected Count              | This is the maximum number of values that is permitted to be selected in the multiple choice question. Only necessary if 'Multiple Choice' Control Style is selected.                   |
@@ -133,7 +184,6 @@ The following options modify the style and functionality of an attribute's field
 | Constant Sum Maximum Total                      | This is the maximum number of value that is permitted to be applied to a constant sum response field. Only necessary if 'Group Whole Number as Constant Sum' Control Style is selected. |
 | Randomize Option Set Values                     | Specifying Yes results in randomly ordered options listed for an Option Set control. Only applicable to attributes that are of type Option Set.                                         |
 | CSS Class                                       | Adds a custom CSS class name to the control.                                                                                                                                            |
-||
 
 ### Prepopulate field
 
@@ -141,8 +191,15 @@ The following options provide a default value for a field on the form.
 
 | Name                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ignore Default Value | Ignores the default value of the specified attribute field. Useful for attributes that are **Two Option** fields that are rendered as Yes and No radio buttons. Because Dynamics 365 automatically assigns a value of yes or no by default, this option makes it possible to display Yes/No questions without a predefined response.                                                                                                       |
-| Type                 | One of the following value: Today's Date,  Current User's Contact
+| Ignore Default Value | Ignores the default value of the specified attribute field. Useful for attributes that are **Two Option** fields that are rendered as Yes and No radio buttons. Because [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] automatically assigns a value of yes or no by default, this option makes it possible to display Yes/No questions without a predefined response.                                                                                                       |
+| Type                 | One of the following:                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  Value                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  -   Today's Date                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  -   Current User's Contact                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
   Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
 | Value                | A value to be assigned to the field when the form is loaded.                                                                                                                                                                                                                                                                                                                                                                               |
 | From Attribute       | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field when the form is loaded.                                                                                                                                                                                                                                                                                         |
@@ -153,18 +210,38 @@ The following options specify a value to be set when the form is saved.
 
 | Name              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Set Value On Save | Yes indicates that a value should be assigned to the attribute using the input provided in the **Value** field.                                                                  All attribute types are supported except the following: Unique Identifier. |                                                                                                                                                                                                                                                                                                                                                              |
-| Type              | One of the following: Value, Today's Date,Current User's Contact. Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
-| Value             | Value assigned to the attribute when the form is being saved. For Two Option (Boolean) fields use true or false. For Option Set field use the integer value for the option. For Lookup (EntityReference) fields, use the GUID. Note if the attribute is also on the form the user's value will be overwritten with this value. |                                                                                 |
-| From Attribute    | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field during save.|
-||
-
+| Set Value On Save | Yes indicates that a value should be assigned to the attribute using the input provided in the **Value** field.                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  |  >[!Note]            |                                                                                                                                                                                                                                                                                                                                                                
+  |----------------------------------------------------------------------------|                                                                                                                                                                                                                                                                                                                                                              
+  | All attribute types are supported except the following: Unique Identifier. |                                                                                                                                                                                                                                                                                                                                                              |
+| Type              | One of the following:                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  Value                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  -   Today's Date                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  -   Current User's Contact                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
+| Value             | Value assigned to the attribute when the form is being saved.                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  For Two Option (Boolean) fields use true or false                                                                                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  For Option Set field use the integer value for the option                                                                                                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  For Lookup (EntityReference) fields, use the GUID                                                                                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  |  >[!Note]                            |                                                                                                                                                                                                                                                                                                                                                
+  |--------------------------------------------------------------------------------------------|                                                                                                                                                                                                                                                                                                                                              
+  | If the attribute is also on the form the user's value will be overwritten with this value. |                                                                                                                                                                                                                                                                                                                                              |
+| From Attribute    | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field during save.                                                                                                                                                                                                                                                                                                     |
 
 ### Validation
 
 The following section contains properties that modify various validation parameters and error messages.
 
-For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language.
+For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language.
 
 | Name                                        | Description                                                                                                                                                                                                                                                      |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -174,22 +251,30 @@ For each language pack installed and enabled for the Dynamics 365 organization, 
 | Field is Required                           | Check to make the attribute field required to contain a value.                                                                                                                                                                                                   |
 | Required Field Validation Error Message     | Overrides the default required field error message if the field does not contain a value.                                                                                                                                                                        |
 | Range Validation Error Message              | Overrides the default range validation error message displayed if the field's value is outside of the appropriate minimum and maximum values specified on the entity attribute that are of type Whole Number, Decimal Number, Floating Point Number or Currency. |
-Geolocation Validator Error Message         | Applicable if the attribute is a Single Line of Text and the Control Style specified is Single Line of Text as Geolocation Lookup Validator then this will override the default error message displayed if input validation fails. |
+
+| Name                                        | Description                                                                                                                                                                                                                        |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Geolocation Validator Error Message         | Applicable if the attribute is a Single Line of Text and the Control Style specified is Single Line of Text as Geolocation Lookup Validator then this will override the default error message displayed if input validation fails. |
 | Constant Sum Validation Error Message       | Applicable if the attribute is a Whole Number type and the Control Style specified is Group Whole Number as Constant Sum then this will override the default error message displayed if input validation fails.                    |
 | Multiple Choice Validation Error Message    | Applicable if the attribute is a Two Option type and the Control Style specified is Multiple Choice then this will override the default error message displayed if input validation fails.                                         |
 | Rank Order No Ties Validation Error Message | Applicable if the attribute is a Whole Number type and the Control Style specified is Group Whole Number as Rank Order No Ties then this will override the default error message displayed if input validation fails.              |
-||
+
 ### Description and instructions
 
 The following properties specify the location and content of custom description or instructions.
 
-| Name                                 | Description                                                                              |
+| Name                                 | Description                                                                                                                                                                                                                                                                        |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Add Description                      | Yes results in custom text being displayed on the form in the position specified.                                                                                                                                                                                                  |
-| Position                             | One of the following: Above the field, Below the field, and Above the label                                                                                                                                                                                                                                                                 |
+| Position                             | One of the following:                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                      
+  Above the field                                                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                      
+  -   Below the field                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                      
+  -   Above the label                                                                                                                                                                                                                                                                 |
 | Use Attribute's Description Property | Select **Yes** to use the description assigned to the attribute metadata on the entity. Select 'No' to provide a custom description. Default: **No**.                                                                                                                              |
-Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
-||
+e| Description                          | Custom text to be displayed on the form. Used in conjunction when Use Attribute's Description Property is set to **No**. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 
 ### Web form metadata type = section
 
@@ -197,9 +282,8 @@ The following properties are displayed when the Type selected equals **Section**
 
 | Name         | Description                                                                                                                                                                                                                                                       |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Section Name | The name of the section on the entity's form in Dynamics 365 to be modified.                                                                                                                                                                                      |
-| Label        | Replaces the default label assigned to the section on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
-||
+| Section Name | The name of the section on the entity's form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be modified.                                                                                                                                                                                      |
+| Label        | Replaces the default label assigned to the section on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 
 ### Web form metadata type = tab
 
@@ -207,13 +291,12 @@ The following properties are displayed when the Type selected equals **Tab**
 
 | Name     | Description                                                                                                                                                                                                                                                   |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tab Name | The name of the tab on the entity's form in Dynamics 365 to be modified.                                                                                                                                                                                      |
-| Label    | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the Dynamics 365 organization a field will be available to enter the message in the associated language. |
-||
+| Tab Name | The name of the tab on the entity's form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be modified.                                                                                                                                                                                      |
+| Label    | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 
 ### Web form metadata type = purchase
 
-The following properties are displayed when the Type selected equals **Purchase**. These options provide the necessary details for a Web Form to be able to display products for purchase and to generate a quote record in Dynamics 365 to persist the user's purchase selections to create an order and process payment.
+The following properties are displayed when the Type selected equals **Purchase**. These options provide the necessary details for a Web Form to be able to display products for purchase and to generate a quote record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to persist the user's purchase selections to create an order and process payment.
 
 | Name                                    | Description                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -233,13 +316,12 @@ The following properties are displayed when the Type selected equals **Purchase*
 | Fulfill Order on Payment                | A Boolean value. Checked indicates that the order state should be set to **Fulfilled** when the payment is verified. Requires **Target Entity Order Relationship Name.** If the target entity is **adx\_shoppingcart**, an order will be created automatically upon successful payment and Target Entity Order Relationship Name is not required. |
 | Create Invoice on Payment               | A Boolean value. Checked indicates that an invoice should be created when the payment is verified. Requires **Target Entity Invoice Relationship Name**, unless the target entity is adx\_shoppingcart, in which case this relationship is not needed.                                                                                            |
 | Target Entity Order Relationship Name   | Relationship from the web form step target entity to the order entity.                                                                                                                                                                                                                                                                            |
-| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.           ||
-                                                                                                                                                                                                                                                               |
+| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.                                                                                                                                                                                                                                                                          |
 
 ### See Also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

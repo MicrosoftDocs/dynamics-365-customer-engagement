@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # What’s new
 
-The December 2016 update has brought many new features to the portal capabilities of Dynamics 365. These updates allow for better interactions among companies, partners, and customers and make the experience of navigating the portal faster and easier. Some of the major updates include:
+The December 2016 update has brought many new features to the portal capabilities of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These updates allow for better interactions among companies, partners, and customers and make the experience of navigating the portal faster and easier. Some of the major updates include:
 
 -   **Multiple language support:** Support customers from multiple regions by using a single portal.
 -   **East Asian language support:** Multi-byte languages such as Japanese, Chinese, and Korean are now supported.
@@ -32,19 +32,8 @@ The December 2016 update has brought many new features to the portal capabilitie
 
 ## Privacy notice
 
-By enabling the portal capabilities for Microsoft Dynamics 365, Dynamics 365 data, such as customer name, product name, case number, or any custom entity data, can be exposed through an external-facing Dynamics 365 portal. Any data exposed through the portal is stored in memory in Microsoft Azure Web Apps for caching and also as files on the local hard drive to enable portal search functionality.
-
-A tenant administrator enables Dynamics 365 portals by configuring it through the Dynamics 365 Administration Center, which also installs a package (with solutions and data) in the selected Dynamics 365 instance. A tenant administrator or a Dynamics 365 user set up as a Portal Administrator can then specify the data that will be exposed through the portal. To subsequently disable the portal capabilities, a tenant administrator can cancel the Portal Add-on subscription with Office 365.
-
-Important Azure components and services that are involved with the portal capabilities are:
-- [Azure Web Apps](https://azure.microsoft.com/services/app-service/web/): Azure Web Apps are used to host the portal in Azure
-- [Azure Traffic Manager](https://azure.microsoft.com/services/traffic-manager/): Azure Traffic Manager is used to ensure the high availability of the service by routing the user to the Web Apps that are up and running. 
-- [Azure Service Bus](https://azure.microsoft.com/services/service-bus/): Azure Service Bus (Topics/Subscriptions) is used for cache invalidation of the portals. Azure Service Bus temporarily stores the messages, which are triggered when any portal-related record is changed in Dynamics 365, and are passed along to Web Apps to do the cache invalidation. 
-- [Azure Key Vault](https://azure.microsoft.com/services/key-vault/)  All services store configuration data in Azure Key Vault.
-- [Azure Storage](https://azure.microsoft.com/services/storage/): Data related to the organization, tenant, and portal is stored in Azure Storage.
-- [Azure Active Directory](https://azure.microsoft.com/services/active-directory/): All the web services use Azure Active Directory to authenticate.
-
+[!INCLUDE[cc-privacy-crm-portals-data-exposed](../includes/cc-privacy-crm-portals-data-exposed.md)]
 > [!NOTE]
-> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/)  
+> For more information about additional [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service offerings, see the [[!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)]](https://azure.microsoft.com/support/trust-center/)  
 
 ### See Also

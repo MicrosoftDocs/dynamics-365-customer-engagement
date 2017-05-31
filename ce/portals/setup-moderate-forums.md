@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Set up and moderate forums
-Forums can be created, edited and deleted within Dynamics 365. To access forums, sign in to Dynamics 365 and go to **Community &gt; Forums**.
+Forums can be created, edited and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. To access forums, sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Community &gt; Forums**.
 
 ## Create a new forum
 
