@@ -23,9 +23,11 @@ Liquid filters are used to modify the output of strings, numbers, variables, and
 
 Some filters accept parameters. Filters can also be combined, and are applied in order from left to right.
 
-`**{{ 2 | times: 2 | minus: 1 }} &lt;!-- Output: 3 --&gt;**
+```
+**{{ 2 | times: 2 | minus: 1 }} &lt;!-- Output: 3 --&gt;**
 
-**{{ "Hello, " | append: user.firstname }} &lt;!-- Output: Hello, Dave --&gt;**`
+**{{ "Hello, " | append: user.firstname }} &lt;!-- Output: Hello, Dave --&gt;**
+```
 
 ### **Filters**
 
