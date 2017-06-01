@@ -70,9 +70,9 @@ Array filters are used to work with [*Liquid types*](liquid-types.md).
 
 Divides an array into multiple arrays of a given size.
 
-```
 **Code**
 
+```
 **{% assign batches = entityview.records | batch: 2 %}**
 
 **{% for batch in batches %}**
@@ -88,9 +88,11 @@ Divides an array into multiple arrays of a given size.
 **&lt;/ul&gt;**
 
 **{% endfor %}**
+```
 
 **Output**
 
+```
 **&lt;ul&gt;**
 
 **&lt;li&gt;John Smith&lt;/li&gt;**
@@ -114,9 +116,9 @@ Concatenates two arrays into a single new array.
 
 Given a single item as a parameter, concat returns a new array that consists of the original array, with the given item as the last element.
 
-```
 **Code**
 
+```
 **Group \#1: {{ group1 | join: ', ' }}**
 
 **Group \#2: {{ group2 | join: ', ' }}**
@@ -124,9 +126,11 @@ Given a single item as a parameter, concat returns a new array that consists of 
 **Group \#1 + Group \#2: {{ group1 | concat: group2 | join: ', ' }}**
 
 **Group \#1 + Leslie: {{ group1 | concat: 'Leslie' | join: ', ' }}**
+```
 
 **Output**
 
+```
 **Group \#1: John, Pete, Hannah**
 
 **Group \#2: Joan, Bill**
@@ -140,9 +144,9 @@ Given a single item as a parameter, concat returns a new array that consists of 
 
 Select all the objects in an array where a given attribute does not have a given value. (This is the inverse of **where**.)
 
-```
 **Code**
 
+```
 **{% assign redmond = entityview.records | except: 'address1\_city', 'Redmond' %}**
 
 **{% for item in redmond %}**
@@ -150,9 +154,11 @@ Select all the objects in an array where a given attribute does not have a given
 **{{ item.fullname }}**
 
 **{% endfor %}**
+```
 
 **Output**
 
+```
 **Jack Robinson**
 ```
 
@@ -162,9 +168,9 @@ Returns the first element of an array.
 
 first can also be used with a special dot notation, in cases where it needs to be used inside a tag.
 
-```
 **Code**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | first }}**
@@ -174,9 +180,11 @@ first can also be used with a special dot notation, in cases where it needs to b
 **The first word is "This".**
 
 **{% endif %}**
+```
 
 **Output**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | first }}**
@@ -192,9 +200,9 @@ first can also be used with a special dot notation, in cases where it needs to b
 
 Group the items in an array by a given attribute.
 
-```
 **Code**
 
+```
 **{% assign groups = entityview.records | group\_by: 'address1\_city' %}**
 
 **{% for group in groups %}**
@@ -208,9 +216,11 @@ Group the items in an array by a given attribute.
 **{% endfor %}**
 
 **{% endfor %}**
+```
 
 **Output**
 
+```
 **Redmond:**
 
 **John Smith**
@@ -228,15 +238,17 @@ Group the items in an array by a given attribute.
 
 Joins the elements of an array with the character passed as the parameter. The result is a single string.
 
-```
 **Code**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | join: ", " }}**
+```
 
 **Output**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | join: ", " }}**
@@ -248,9 +260,9 @@ Returns the last element of an array.
 
 last can also be used with a special dot notation, in cases where it needs to be used inside a tag.
 
-```
 **Code**
 
+```
 **{% assign words = "This is a run of text" | split: " " -%}**
 
 **{{ words | last }}**
@@ -260,9 +272,11 @@ last can also be used with a special dot notation, in cases where it needs to be
 **The last word is "text".**
 
 **{% endif -%}**
+```
 
 **Output**
 
+```
 **{% assign words = "This is a run of text" | split: " " -%}**
 
 **{{ words | last }}**
@@ -280,33 +294,37 @@ Returns the elements of an array ordered by a given attribute of the elements of
 
 Optionally, you can provide desc as a second parameter to sort the elements in descending order, rather than ascending.
 
-```
 **Code**
 
+```
 **{{ entityview.records | order\_by: 'fullname' | join: ', ' }}**
 
 **{{ entityview.records | order\_by: 'fullname', 'desc' | join: ', ' }}**
+```
 
 **Output**
 
+```
 **Dave Thomas, Jack Robinson, Jake Johnson, John Smith**
 
 **John Smith, Jake Johnson, Jack Robinson, Dave Thomas**
 ```
 
-### **random **
+### **random**
 
 Returns a single randomly-selected item from the array.
 
-```
 **Code**
 
+```
 **{{ group1 | join: ', ' }}**
 
 **{{ group1 | random }}**
+```
 
 **Output**
 
+```
 **John, Pete, Hannah**
 
 **Pete**
@@ -316,13 +334,15 @@ Returns a single randomly-selected item from the array.
 
 Selects the value of a given attribute for each item in an array, and returns these values as an array.
 
-```
 **Code**
 
+```
 **{{ entityview.records | select: 'address1\_city' | join: ', ' }}**
+```
 
 **Output**
 
+```
 **Redmond, New York**
 ```
 
@@ -330,15 +350,17 @@ Selects the value of a given attribute for each item in an array, and returns th
 
 Applied to an array, returns a new array with the same items, in randomized order.
 
-```
 **Code**
 
+```
 **{{ group1 | join: ', ' }}**
 
 **{{ group1 | shuffle | join: ', ' }}**
+```
 
 **Output**
 
+```
 **John, Pete, Hannah**
 
 **Hannah, John, Pete**
@@ -350,9 +372,9 @@ Returns the number of items in an array.
 
 size can also be used with a special dot notation, in cases where it needs to be used inside a tag.
 
-```
 **Code**
 
+```
 **{% assign words = "This is a run of text" | split: " " -%}**
 
 **{{ words | size }}**
@@ -362,9 +384,11 @@ size can also be used with a special dot notation, in cases where it needs to be
 **The text contains 6 words.**
 
 **{% endif -%}**
+```
 
 **Output**
 
+```
 **{% assign words = "This is a run of text" | split: " " -%}**
 
 **{{ words | size }}**
@@ -380,15 +404,17 @@ size can also be used with a special dot notation, in cases where it needs to be
 
 Skips a given number of items in an array, and returns the rest.
 
-```
 **Code**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | skip: 3 | join: ', ' }}**
+```
 
 **Output**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | skip: 3 | join: ', ' }}**
@@ -398,15 +424,16 @@ Skips a given number of items in an array, and returns the rest.
 
 Takes a given number of items from the array, returning the taken items.
 
-```
 **Code**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | take: 3 | join: ', ' }}**
-
+```
 **Output**
 
+```
 **{% assign words = "This is a run of text" | split: " " %}**
 
 **{{ words | take: 3 | join: ', ' }}**
@@ -418,15 +445,17 @@ Adds additional subsequent ordering to an array already ordered by **order\_by**
 
 Optionally, you can provide desc as a second parameter to sort the elements in descending order, rather than ascending.
 
-```
 **Code**
 
+```
 **{{ entityview.records | order\_by: 'address1\_city' | then\_by: 'fullname' | join: ', ' }}**
 
 **{{ entityview.records | order\_by: 'address1\_city' | then\_by: 'fullname', 'desc' | join: ', ' }}**
+```
 
 **Output**
 
+```
 **Dave Thomas, Jack Robinson, Jake Johnson, John Smith**
 
 **John Smith, Jake Johnson, Jack Robinson, Dave Thomas**
@@ -436,9 +465,9 @@ Optionally, you can provide desc as a second parameter to sort the elements in d
 
 Select all the objects in an array where a given attribute has a given value.
 
-```
 **Code**
 
+```
 **{% assign redmond = entityview.records | where: 'address1\_city', 'Redmond' %}**
 
 **{% for item in redmond %}**
@@ -446,9 +475,11 @@ Select all the objects in an array where a given attribute has a given value.
 **{{ item.fullname }}**
 
 **{% endfor %}**
+```
 
 **Output**
 
+```
 **John Smith**
 
 **Dave Thomas**
@@ -466,8 +497,6 @@ Select all the objects in an array where a given attribute has a given value.
 
 ## Date filters
 
-
-
 Date filters can be used for date arithmetic or to convert DateTime values into various formats.
 
 ### **date**
@@ -478,15 +507,17 @@ Formats a DateTime value using a .NET format string.
 
 [*Custom Date and Time Format Strings*](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)  
 
-```
-Code
+**Code**
 
+```
 **{{ now | date: 'g' }}**
 
 **{{ now | date: 'MMMM dd, yyyy' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now | date: 'g' }}**
 
 **{{ now | date: 'MMMM dd, yyyy' }}**
@@ -496,17 +527,19 @@ Output
 
 Adds the specified number of whole and fractional days to the DateTime value. The parameter can be positive or negative.
 
-```
-Code
+**Code**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_days: 1 }}**
 
 **{{ now | date\_add\_days: -2.5 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_days: 1 }}**
@@ -518,17 +551,19 @@ Output
 
 Adds the specified number of whole and fractional hours to the DateTime value. The parameter can be positive or negative.
 
-```
-Code
+**Code**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_hours: 1 }}**
 
 **{{ now | date\_add\_hours: -2.5 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_hours: 1 }}**
@@ -540,17 +575,20 @@ Output
 
 Adds the specified number of whole and fractional minutes to the DateTime value. The parameter can be positive or negative.
 
-```
-Code
+**Code**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_minutes: 10 }}**
 
 **{{ now | date\_add\_minutes: -2.5 }}**
+```
 
-Output
 
+**Output**
+
+```
 **{{ now }}**
 
 **{{ now | date\_add\_minutes: 10 }}**
@@ -562,17 +600,19 @@ Output
 
 Adds the specified number of whole months to the DateTime value. The parameter can be positive or negative.
 
-```
-Code
+**Code**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_months: 1 }}**
 
 **{{ now | date\_add\_months: -2 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_months: 1 }}**
@@ -584,17 +624,19 @@ Output
 
 Adds the specified number of whole and fractional seconds to the DateTime value. The parameter can be positive or negative.
 
-```
-Code
+**Code**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_seconds: 10 }}**
 
 **{{ now | date\_add\_seconds: -1.25 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_seconds: 10 }}**
@@ -606,17 +648,19 @@ Output
 
 Adds the specified number of whole years to the DateTime value. The parameter can be positive or negative.
 
-```
-Code
+**Code**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_years: 1 }}**
 
 **{{ now | date\_add\_years: -2 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now }}**
 
 **{{ now | date\_add\_years: 1 }}**
@@ -628,13 +672,15 @@ Output
 
 Formats a DateTime value according to the [*ISO 8601*](http://en.wikipedia.org/wiki/ISO_8601) standard. Useful when creating [*Atom feeds*](http://tools.ietf.org/html/rfc4287), or the HTML5 &lt;time&gt; element.  
 
+**Code**
+
 ```
-Code
-
 **{{ now | date\_to\_iso8601 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now | date\_to\_iso8601 }}**
 ```
 
@@ -642,13 +688,15 @@ Output
 
 Formats a DateTime value according to the [*RFC 822*](https://www.ietf.org/rfc/rfc0822.txt) standard. Useful when creating [*RSS feeds*](http://cyber.law.harvard.edu/rss/rss.html).  
 
+**Code**
+
 ```
-Code
-
 **{{ now | date\_to\_rfc822 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ now | date\_to\_rfc822 }}**
 ```
 
@@ -662,21 +710,21 @@ Output
 
 ## Entity list filters
 
-
-
 Entity List filters are used to work with certain [*entitylist*](#entitylist) attribute values, and to help create entity list views.  
 
 ### **current\_sort**
 
 Given a sort expression, returns the current sort direction for a given attribute.
 
+**Code**
+
 ```
-Code
-
 **{{ 'name ASC, createdon DESC' | current\_sort: 'createdon' }}**
+```
 
-Output
+**Output**
 
+```
 **DESC**
 ```
 
@@ -690,17 +738,19 @@ metafilters can be optionally provided with a current attribute filter query and
 
 Given a sort direction, returns the opposite sort direction.
 
-```
-Code
+**Code**
 
+```
 **&lt;!-- Sort direction is not case-sensitive --&gt;**
 
 **{{ 'ASC' | reverse\_sort }}**
 
 **{{ 'desc' | reverse\_sort }}**
+```
 
-Output
+**Output**
 
+```
 **DESC**
 
 **ASC**
@@ -716,19 +766,19 @@ Output
 
 ## Math filters
 
-
-
 Math filters allow you to perform mathematical operations on [*Liquid types*](liquid-types.md).  
 
 As with all filters, math filters can be chained, and are applied in order from left to right.
 
+**Code**
+
 ```
-Code
-
 **{{ 10 | times: 2 | minus: 5 | divided\_by: 3 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 10 | times: 2 | minus: 5 | divided\_by: 3 }}**
 ```
 
@@ -736,15 +786,17 @@ Output
 
 Rounds a value up to the nearest integer.
 
-```
-Code
+**Code**
 
+```
 **{{ 4.6 | ceil }}**
 
 **{{ 4.3 | ceil }}**
+```
 
-Output
+**Output**
 
+```
 **5**
 
 **5**
@@ -754,17 +806,19 @@ Output
 
 Divides a number by another number.
 
-```
-Code
+**Code**
 
+```
 **{{ 10 | divided\_by: 2 }}**
 
 **{{ 10 | divided\_by: 3 }}**
 
 **{{ 10.0 | divided\_by: 3 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 10 | divided\_by: 2 }}**
 
 **{{ 10 | divided\_by: 3 }}**
@@ -776,15 +830,17 @@ Output
 
 Rounds a value down to the nearest integer.
 
-```
-Code
+**Code**
 
+```
 **{{ 4.6 | floor }}**
 
 **{{ 4.3 | floor }}**
+```
 
-Output
+**Output**
 
+```
 **4**
 
 **4**
@@ -794,9 +850,9 @@ Output
 
 Subtracts a number from another number.
 
-```
-Code
+**Code**
 
+```
 **&lt;!-- entityview.page = 11 --&gt;**
 
 **{{ entityview.page | minus: 1 }}**
@@ -804,9 +860,11 @@ Code
 **{{ 10 | minus: 1.1 }}**
 
 **{{ 10.1 | minus: 1 }}**
+```
 
-Output
+**Output**
 
+```
 **10**
 
 **{{ 10 | minus: 1.1 }}**
@@ -818,13 +876,15 @@ Output
 
 Divides a number by another number and returns the remainder.
 
+**Code**
+
 ```
-Code
-
 **{{ 12 | modulo: 5 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 12 | modulo: 5 }}**
 ```
 
@@ -832,9 +892,9 @@ Output
 
 Adds a number to another number.
 
-```
-Code
+**Code**
 
+```
 **&lt;!-- entityview.page = 11 --&gt;**
 
 **{{ entityview.page | plus: 1 }}**
@@ -842,9 +902,11 @@ Code
 **{{ 10 | plus: 1.1 }}**
 
 **{{ 10.1 | plus: 1 }}**
+```
 
-Output
+**Output**
 
+```
 **12**
 
 **{{ 10 | plus: 1.1 }}**
@@ -856,17 +918,19 @@ Output
 
 Rounds a value to the nearest integer or specified number of decimals.
 
-```
-Code
+**Code**
 
+```
 **{{ 4.6 | round }}**
 
 **{{ 4.3 | round }}**
 
 **{{ 4.5612 | round: 2 }}**
+```
 
-Output
+**Output**
 
+```
 **5**
 
 **4**
@@ -878,17 +942,19 @@ Output
 
 Multiplies a number by another number.
 
-```
-Code
+**Code**
 
+```
 **{{ 10 | times: 2 }}**
 
 **{{ 10 | times: 2.2 }}**
 
 **{{ 10.1 | times: 2 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 10 | times: 2 }}**
 
 **{{ 10 | times: 2.2 }}**
@@ -906,21 +972,21 @@ Output
 
 ## String filters
 
-
-
 String filters manipulate [*Liquid types*](liquid-types.md).  
 
 ### **append**
 
 Appends a string to the end of another string.
 
+**Code**
+
 ```
-Code
-
 **{{ 'filename' | append: '.js' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'filename' | append: '.js' }}**
 ```
 
@@ -928,13 +994,15 @@ Output
 
 capitalizes the first word in a string.
 
+**Code**
+
 ```
-Code
-
 **{{ 'capitalize me' | capitalize }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'capitalize me' | capitalize }}**
 ```
 
@@ -942,13 +1010,15 @@ Output
 
 Converts a string into lowercase.
 
+**Code**
+
 ```
-Code
-
 **{{ 'MIxed Case TExt' | downcase }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'MIxed Case TExt' | downcase }}**
 ```
 
@@ -956,13 +1026,15 @@ Output
 
 HTML-escapes a string.
 
+**Code**
+
 ```
-Code
-
 **{{ '&lt;p&gt;test&lt;/p&gt;' | escape }}**
+```
 
-Output
+**Output**
 
+```
 **&lt;p&gt;test&lt;/p&gt;**
 ```
 
@@ -970,9 +1042,9 @@ Output
 
 Inserts a &lt;br /&gt; line break HTML tag at each line break in a string.
 
-```
-Code
+**Code**
 
+```
 **{% capture text %}**
 
 **A**
@@ -984,9 +1056,11 @@ Code
 **{% endcapture %}**
 
 **{{ text | newline\_to\_br }}**
+```
 
-Output
+**Output**
 
+```
 **A&lt;br /&gt;**
 
 **B&lt;br /&gt;**
@@ -998,13 +1072,15 @@ Output
 
 Prepends a string to the beginning of another string.
 
+**Code**
+
 ```
-Code
-
 **{{ 'Jane Johnson' | prepend: 'Dr. ' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'Jane Johnson' | prepend: 'Dr. ' }}**
 ```
 
@@ -1012,13 +1088,15 @@ Output
 
 Remove all occurrences of a substring from a string.
 
+**Code**
+
 ```
-Code
-
 **{{ 'Hello, Dave. How are you, Dave?' | remove: 'Dave' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'Hello, Dave. How are you, Dave?' | remove: 'Dave' }}**
 ```
 
@@ -1026,13 +1104,15 @@ Output
 
 Removes the first occurrence of a substring from a string.
 
+**Code**
+
 ```
-Code
-
 **{{ 'Hello, Dave. How are you, Dave?' | remove\_first: 'Dave' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'Hello, Dave. How are you, Dave?' | remove\_first: 'Dave' }}**
 ```
 
@@ -1040,13 +1120,15 @@ Output
 
 Replaces all occurrences of a string with a substring.
 
+**Code**
+
 ```
-Code
-
 **{{ 'Hello, Dave. How are you, Dave?' | replace: 'Dave', 'John' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'Hello, Dave. How are you, Dave?' | replace: 'Dave', 'John' }}**
 ```
 
@@ -1054,13 +1136,15 @@ Output
 
 Replaces the first occurrence of a string with a substring.
 
+**Code**
+
 ```
-Code
-
 **{{ 'Hello, Dave. How are you, Dave?' | replace\_first: 'Dave', 'John' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'Hello, Dave. How are you, Dave?' | replace\_first: 'Dave', 'John' }}**
 ```
 
@@ -1068,9 +1152,9 @@ Output
 
 The split filter takes on a substring as a parameter. The substring is used as a delimiter to divide a string into an array.
 
-```
-Code
+**Code**
 
+```
 **{% assign words = "This is a demo of the split filter" | split: ' ' %}**
 
 **First word: {{ words.first }}**
@@ -1082,9 +1166,11 @@ Code
 **Last word: {{ words.last }}**
 
 **All words: {{ words | join: ', ' }}**
+```
 
-Output
+**Output**
 
+```
 **{% assign words = "This is a demo of the split filter" | split: ' ' %}**
 
 **First word: {{ words.first }}**
@@ -1102,13 +1188,15 @@ Output
 
 Strips all HTML tags from a string.
 
+**Code**
+
 ```
-Code
-
 **&lt;p&gt;Hello&lt;/p&gt;**
+```
 
-Output
+**Output**
 
+```
 **Hello**
 ```
 
@@ -1116,9 +1204,9 @@ Output
 
 Strips any line breaks from a string.
 
-```
-Code
+**Code**
 
+```
 **{% capture text %}**
 
 **A**
@@ -1130,9 +1218,11 @@ Code
 **{% endcapture %}**
 
 **{{ text | strip\_newlines }}**
+```
 
-Output
+**Output**
 
+```
 **ABC**
 ```
 
@@ -1140,13 +1230,15 @@ Output
 
 Formats a plain text string as simple HTML. All text will be HTML encoded, blocks of text separated by a blank line will be wrapped in paragraph &lt;p&gt; tags, single line breaks will be replaced with &lt;br&gt;, and URLs will be converted to hyperlinks.
 
+**Code**
+
 ```
-Code
-
 **{{ note.notetext | text\_to\_html }}**
+```
 
-Output
+**Output**
 
+```
 **&lt;p&gt;This is the first paragraph of notetext. It contains a URL: &lt;a href="http://example.com/" rel="nofollow"&gt;http://example.com&lt;/a&gt;&lt;/p&gt;**
 
 **&lt;p&gt;This is a second paragraph.&lt;/p&gt;**
@@ -1156,13 +1248,15 @@ Output
 
 Truncates a string down to a given number of characters. An ellipsis (...) is appended to the string and is included in the character count.
 
+**Code**
+
 ```
-Code
-
 **{{ 'This is a long run of text.' | truncate: 10 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'This is a long run of text.' | truncate: 10 }}**
 ```
 
@@ -1170,13 +1264,15 @@ Output
 
 Truncates a string down to a given number of words. An ellipsis (...) is appended to the truncated string.
 
+**Code**
+
 ```
-Code
-
 **{{ 'This is a long run of text.' | truncate\_words: 3 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'This is a long run of text.' | truncate\_words: 3 }}**
 ```
 
@@ -1184,13 +1280,15 @@ Output
 
 Converts a string into uppercase.
 
+**Code**
+
 ```
-Code
-
 **{{ 'MIxed Case TExt' | upcase }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'MIxed Case TExt' | upcase }}**
 ```
 
@@ -1198,13 +1296,15 @@ Output
 
 URI-escape a string, for inclusion in a URL.
 
+**Code**
+
 ```
-Code
-
 **{{ 'This & that//' | url\_escape }}**
+```
 
-Output
+**Output**
 
+```
 **This+%26+that%2F%2F**
 ```
 
@@ -1212,13 +1312,15 @@ Output
 
 XML-escape a string, for inclusion in XML output.
 
+**Code**
+
 ```
-Code
-
 **{{ '&lt;p&gt;test&lt;/p&gt;' | xml\_escape }}**
+```
 
-Output
+**Output**
 
+```
 **&lt;p&gt;test&lt;/p&gt;**
 ```
 
@@ -1232,8 +1334,6 @@ Output
 
 ## Type filters
 
-
-
 Type filters allow you to convert values of one type into other types.
 
 ### **boolean**
@@ -1244,9 +1344,9 @@ This filter will also accept "on", "enabled", or "yes" as true, and "off", "disa
 
 > [!Note] [*Additional filters*](#additional-filters)
 
-```
-Code
+**Code**
 
+```
 **{{ true | boolean }}**
 
 **{{ 'false' | boolean }}**
@@ -1254,9 +1354,11 @@ Code
 **{{ 'enabled' | boolean }}**
 
 **{{ settings\['something/enabled'\] | boolean | default: false }}**
+```
 
-Output
+**Output**
 
+```
 **{{ true | boolean }}**
 
 **{{ 'false' | boolean }}**
@@ -1272,17 +1374,19 @@ Attempts to convert a string value into a decimal number. If the value is alread
 
 > [!Note] [*Additional filters*](#additional-filters) 
 
-```
-Code
+**Code**
 
+```
 **{{ 10.1 | decimal }}**
 
 **{{ '3.14' | decimal }}**
 
 **{{ 'text' | decimal | default: 3.14 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 10.1 | decimal }}**
 
 **{{ '3.14' | decimal }}**
@@ -1296,9 +1400,9 @@ Attempts to convert a string value into an integer. If the value is already an i
 
 > [!Note] [*Additional filters*](#additional-filters)  
 
-```
-Code
+**Code**
 
+```
 **{{ 10 | integer }}**
 
 **{{ '10' | integer }}**
@@ -1306,9 +1410,11 @@ Code
 **{{ '10.1' | integer }}**
 
 **{{ 'text' | integer | default: 2 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 10 | integer }}**
 
 **{{ '10' | integer }}**
@@ -1332,8 +1438,6 @@ Attempts to convert a value into its string representation. If the value is alre
 
 ## URL filters
 
-
-
 URL filters allow you to build or extract parts of URLs.
 
 ### **add\_query**
@@ -1342,15 +1446,17 @@ Appends a query string parameter to a URL. If the parameter already exists in th
 
 If this filter is applied to a full absolute URL, an updated absolute URL will be the result. If it is applied to a path, an updated path will be the result.
 
-```
-Code
+**Code**
 
+```
 **{{ 'http://example.com/path?page=1' | add\_query: 'foo', 'bar' }}**
 
 **{{ '/path?page=1' | add\_query: 'page', 2 }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'http://example.com/path?page=1' | add\_query: 'foo', 'bar' }}**
 
 **{{ '/path?page=1' | add\_query: 'page', 2 }}**
@@ -1360,13 +1466,15 @@ Output
 
 Gets the base URL of a given URL.
 
+**Code**
+
 ```
-Code
-
 **{{ 'http://example.com/path?foo=bar&page=2' | base }}**
+```
 
-Output
+**Output**
 
+```
 **http://example.com**
 ```
 
@@ -1374,13 +1482,15 @@ Output
 
 Gets the host part of a URL.
 
+**Code**
+
 ```
-Code
-
 **{{ 'http://example.com/path?foo=bar&page=2' | host }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | host }}**
 ```
 
@@ -1388,15 +1498,17 @@ Output
 
 Gets the path part of a URL.
 
-```
-Code
+**Code**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | path }}**
 
 **{{ '/path?foo=bar&page=2' | path }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | path }}**
 
 **{{ '/path?foo=bar&page=2' | path }}**
@@ -1406,15 +1518,17 @@ Output
 
 Gets the path and query part of a URL.
 
-```
-Code
+**Code**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | path\_and\_query }}**
 
 **{{ '/path?foo=bar&page=2' | path\_and\_query }}**
+```
 
-Output
+**Output**
 
+```
 **/path?foo=bar&page=2**
 
 **/path?foo=bar&page=2**
@@ -1424,17 +1538,19 @@ Output
 
 Gets the port number of a URL.
 
-```
-Code
+**Code**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | port }}**
 
 **{{ 'https://example.com/path?foo=bar&page=2' | port }}**
 
 **{{ 'https://example.com:9000/path?foo=bar&page=2' | port }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | port }}**
 
 **{{ 'https://example.com/path?foo=bar&page=2' | port }}**
@@ -1448,15 +1564,17 @@ Removes a query string parameter from a URL. If the parameter does not exists in
 
 If this filter is applied to a full absolute URL, an updated absolute URL will be the result. If it is applied to a path, an updated path will be the result.
 
-```
-Code
+**Code**
 
+```
 **{{ 'http://example.com/path?page=1' | remove\_query: 'page' }}**
 
 **{{ '/path?page=1' | remove\_query: 'page' }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'http://example.com/path?page=1' | remove\_query: 'page' }}**
 
 **{{ '/path?page=1' | remove\_query: 'page' }}**
@@ -1466,15 +1584,17 @@ Output
 
 Gets the scheme part of a URL.
 
-```
-Code
+**Code**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | scheme }}**
 
 **{{ 'https://example.com/path?foo=bar&page=2' | scheme }}**
+```
 
-Output
+**Output**
 
+```
 **{{ 'http://example.com/path?foo=bar&page=2' | scheme }}**
 
 **{{ 'https://example.com/path?foo=bar&page=2' | scheme }}**
@@ -1490,21 +1610,21 @@ Output
 
 ## Additional filters
 
-
-
 These filters provide useful general functionality.
 
 ### **default**
 
 Returns a default value for any variable with no assigned value (i.e. null).
 
+**Code**
+
 ```
-Code
-
 **{{ snippets\["Header"\] | default: 'My Website' }}**
+```
 
-Output
+**Output**
 
+```
 **&lt;!-- If a snippet with the name "Header" returns null --&gt;**
 
 **My Website**
@@ -1516,17 +1636,19 @@ Applied to a number value representing a number of bytes, returns a formatted fi
 
 Optionally, a precision parameter can be passed, to control the number of decimal places in the result. The default precision is 1.
 
-```
-Code
+**Code**
 
+```
 **{{ 10000000 | file\_size }}**
 
 **{{ 2050 | file\_size: 0 }}**
 
 **{{ entity.notes.first.filesize | file\_size: 2 }}**
+```
 
-Output
+**Output**
 
+```
 **9.5 MB**
 
 **2 KB**
@@ -1538,9 +1660,9 @@ Output
 
 Applied to a [*user*](#user), returns true if the user belongs to the given role. Returns false if not.  
 
-```
-Code
+**Code**
 
+```
 **{% assign is\_admin = user | has\_role: 'Administrators' %}**
 
 **{% if is\_admin %}**
@@ -1557,9 +1679,9 @@ Renders a string as Liquid code. This code will have access to the current Liqui
 > [!Note] 
 > This filter should be used with caution and should generally only be applied to values that are under the exclusive control of portal content authors, or other users that can be trusted to write Liquid code.
 
-```
-Code
+**Code**
 
+```
 **{{ page.adx\_copy | liquid }}**
 ```
 
