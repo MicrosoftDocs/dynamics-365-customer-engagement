@@ -105,4 +105,4 @@ After your portal is created and provisioned, you can change the details of your
 ### See Also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md) 
