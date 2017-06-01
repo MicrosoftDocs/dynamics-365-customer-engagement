@@ -18,7 +18,7 @@ manager: sakudes
 
 ## Create a new knowledge category
 
-1.  On the Interaction Centric Dashboard, click **Settings** &gt; **Service Management**. 
+1. On the Interaction Centric Dashboard, click **Settings** &gt; **Service Management**. 
 2. In the **Knowledge Base Management** section, click **Categories**. 
 3. Click the **New** button. 
 4. Enter a Name and Description for your category. 
