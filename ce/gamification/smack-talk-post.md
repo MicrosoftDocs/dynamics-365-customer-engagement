@@ -1,41 +1,41 @@
 ﻿---
-title: "Post on Smack Talk | MicrosoftDocs"
+title: "Smack Talk in Dynamics 365 – Gamification | Microsoft Docs"
+description: "Brag about your wins and rank on the leaderboard by posting on the smack talk board."
 ms.custom: ""
-ms.date: "04/18/2017"
+ms.date: 05/31/2017
 ms.reviewer: ""
-ms.service: "gamification"
+ms.service: gamification
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
+ms.topic: article
+applies_to: Dynamics 365 (online)
 ms.assetid: 958c8d0d-d57e-492b-bb83-1594c4d1a984
 caps.latest.revision: 13
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
-# Post on Smack Talk
+# Post on the smack talk board in Gamification
 
-A [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] competition comes with lively chat and lets players claim their bragging rights. Make sure you tell the other players when you land a great achievement, or congratulate your peers when they're successful. In the end, you want to be the leader of the pack and the most-drafted player on other teams, don't you?  
+A [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] competition includes lively discussion and lets players claim their bragging rights. Make sure you tell other players when you land a great achievement, or congratulate your peers when they're successful. In the end, don't you want to be the leader of the pack and the most-drafted player on other teams?  
   
 ## Join the discussion with other players and fans  
- Post your achievements, brag about closed deals, or share kudos with your peers.  
+ Post your achievements, brag about closed deals, or share kudos with your peers.
   
-### Post on Smack Talk  
+## Post on the smack talk board in Gamification  
   
-1.  In [!INCLUDE[pn_gamification_subsequent](includes/pn-gamification-subsequent-md.md)], go to **My Games** > **Smack Talk**.  
+1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **My Games** > **Smack Talk**.  
   
 2.  Enter your message in the input box.  
   
-3.  Optionally, add a photo to your post or turn your post into a BAM post—a special type of post that runs a short animation to celebrate an achievement.  
+3.  Optionally, add a photo to your post or turn your post into a *BAM post*—a special type of post that runs a short animation to celebrate an achievement.  
   
 4.  To publish your update, click **Submit Post**.  
   
  All players in the selected game will see your post in their **Smack Talk** feed.  
   
-## See Also  
+### See also
 
- [For players and fans in Gamification](for-players-fans.md)   
- [Manage a fantasy team](manage-fantasy-team.md)   
- [View the leaderboard](view-leaderboard.md)
+ [Overview for players and fans in Gamification](for-players-fans.md)  
+ [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)  
+ [See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)

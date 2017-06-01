@@ -1,0 +1,1 @@
+December 2016 Update for Microsoft Dynamics 365 (online)
