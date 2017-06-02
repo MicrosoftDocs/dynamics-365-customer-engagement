@@ -11,8 +11,8 @@ ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: e97a38d7-37c4-4dce-b02e-1076ad992cff
 caps.latest.revision: 28
-author: "saurabh-kudesia"
-ms.author: "sakudes"
+author: "m-hartmann"
+ms.author: mhart
 manager: sakudes
 ---
 # Link posts from Social Engagement to Dynamics 365

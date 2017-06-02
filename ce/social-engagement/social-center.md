@@ -14,7 +14,7 @@ ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 28ce6089-519c-4193-806f-1af28fbc91b5
 caps.latest.revision: 27
-author: "saurabh-kudesia"
+author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
