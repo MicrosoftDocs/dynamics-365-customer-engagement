@@ -1,7 +1,8 @@
 ---
-title: "Adaptive learning based on changes to organization’s sentiment values | Microsoft Docs"
+title: "Adaptive learning in Social Engagement | Microsoft Docs"
+descripion: "Learn about sentiment analysis and the organization-based machine learning models which learn from your inputs."
 ms.custom: ""
-ms.date: 2016-11-18
+ms.date: 2017-06-02
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
