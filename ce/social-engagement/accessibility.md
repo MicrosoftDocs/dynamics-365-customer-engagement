@@ -1,7 +1,8 @@
 ---
-title: "Accessibility for Microsoft Social Engagement | Microsoft Docs"
+title: "Accessibility for Social Engagement | Microsoft Docs"
+description: "Learn about the accessibility features in Social Engagement."
 ms.custom: ""
-ms.date: 2016-11-25
+ms.date: 2017-06-02
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
