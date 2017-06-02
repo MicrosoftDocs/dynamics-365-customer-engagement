@@ -1,10 +1,7 @@
 ---
-title: "Overview | Microsoft Docs"
- 
-description:
-
+title: "Overview on Social Engagement and related scenarios | Microsoft Docs"
+description: "Learn about Social Engagement and get started using the service."
 ms.custom: ""
-
 ms.date: 2017-05-19
 applies_to: "Social Engagement"
 ms.reviewer: ""

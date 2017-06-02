@@ -1,10 +1,7 @@
 ---
 title: "View posts and conversations in Social Engagement | Microsoft Docs"
- 
-description:
-
+description: "Understand how you can work with posts after acquiring them through Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

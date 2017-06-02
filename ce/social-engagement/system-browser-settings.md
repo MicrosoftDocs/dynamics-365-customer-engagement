@@ -1,10 +1,7 @@
 ﻿---
 title: "Optimize browser settings for Social Engagement | Microsoft Docs"
- 
-description:
-
+description: "Configure your browser to allow pop-up windows and JavaScript."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

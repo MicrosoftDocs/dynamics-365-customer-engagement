@@ -1,10 +1,7 @@
 ---
 title: "Microsoft Social Engagement Privacy Notices | Microsoft Docs"
- 
-description:
-
+description: "Additional privacy notices for Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

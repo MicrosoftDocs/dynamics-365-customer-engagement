@@ -1,10 +1,7 @@
 ---
 title: "Group search topics into categories | Microsoft Docs"
- 
-description:
-
+description: ""Learn how to use categories to group search topics."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

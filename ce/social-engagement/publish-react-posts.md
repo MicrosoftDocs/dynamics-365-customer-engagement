@@ -1,10 +1,7 @@
 ﻿---
 title: "Publish and react to posts | Microsoft Docs"
- 
-description:
-
+description: "Learn how you can react to posts or publish a new post in Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

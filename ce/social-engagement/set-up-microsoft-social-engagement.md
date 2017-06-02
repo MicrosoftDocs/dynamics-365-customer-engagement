@@ -1,10 +1,7 @@
 ---
 title: "Set up Microsoft Social Engagement | Microsoft Docs"
- 
-description:
-
+description: "Learn how you can set up Social Engagement in a few steps."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

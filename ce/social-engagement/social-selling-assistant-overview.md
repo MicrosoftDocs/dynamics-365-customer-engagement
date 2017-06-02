@@ -1,10 +1,7 @@
 ---
 title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
- 
-description:
-
+description: "Get an overview on the Social Selling Assistant."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

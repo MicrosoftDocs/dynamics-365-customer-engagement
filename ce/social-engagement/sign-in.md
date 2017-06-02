@@ -1,10 +1,7 @@
 ---
 title: "Sign in to Social Engagement | Microsoft Docs"
- 
-description:
-
+description: "Learn how to sign in to Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

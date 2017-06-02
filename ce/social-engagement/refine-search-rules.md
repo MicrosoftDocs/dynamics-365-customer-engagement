@@ -1,10 +1,7 @@
 ﻿---
-title: "Refine your search rules to find relevant content | Microsoft Docs"
- 
-description:
-
+title: "Find more relevant content | Microsoft Docs"
+description: "Learn how to improve search rules to find relevant posts."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

@@ -1,10 +1,7 @@
 ﻿---
 title: "Personalize the Social Selling Assistant | Microsoft Docs"
- 
-description:
-
+description: "Learn how to configure the Social Selling Assistant to receive personalized recommendations."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

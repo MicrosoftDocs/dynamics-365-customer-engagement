@@ -1,10 +1,7 @@
 ﻿---
-title: "Find out what&#39;s covered by sources | Microsoft Docs"
- 
-description:
-
+title: "Sources coverage | Microsoft Docs"
+description: "Learn what's included in the sources available in Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

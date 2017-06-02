@@ -1,10 +1,7 @@
 ﻿---
 title: "Manage the quality of your search results | Microsoft Docs"
- 
-description:
-
+description: "Learn how to increase the quality of your search results."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

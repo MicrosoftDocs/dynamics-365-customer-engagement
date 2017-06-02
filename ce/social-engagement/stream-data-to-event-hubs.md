@@ -1,10 +1,7 @@
 ﻿---
-title: "Stream data from Social Engagement to Microsoft Azure Event Hubs | Microsoft Docs"
- 
-description:
-
+title: "Stream data to Azure Event Hubs | Microsoft Docs"
+description: "Find out how you can stream events from Social Engagement to Event Hubs."
 ms.custom: ""
-
 ms.date: 2017-05-23
 ms.reviewer: ""
 ms.service: mse
