@@ -1,10 +1,7 @@
 ---
 title: "Understand user roles | Microsoft Docs"
- 
-description:
-
+description: "Understand the permissions for the available user roles in Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

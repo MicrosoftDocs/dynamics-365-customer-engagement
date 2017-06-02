@@ -1,10 +1,7 @@
 ---
 title: "Set your preferences for the user interface | Microsoft Docs"
- 
-description:
-
+description: "Learn how to configure user preferences for individual users."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

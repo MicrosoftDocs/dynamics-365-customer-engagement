@@ -1,10 +1,7 @@
 ---
 title: "Work with posts | Microsoft Docs"
- 
-description:
-
+description: "Learn how to interact with posts and how to perform internal actions."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

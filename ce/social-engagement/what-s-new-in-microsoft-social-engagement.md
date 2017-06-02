@@ -1,10 +1,7 @@
 ﻿---
-title: "What&#39;s new in Microsoft Social Engagement | Microsoft Docs"
- 
-description:
-
+title: "What's new in Microsoft Social Engagement | Microsoft Docs"
+description: "Learn about the recent changes and new features in Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

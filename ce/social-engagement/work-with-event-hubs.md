@@ -1,10 +1,7 @@
 ﻿---
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
- 
-description:
-
+description: "Learn how to work with events in Event Hubs."
 ms.custom: ""
-
 ms.date: 2017-05-23
 ms.reviewer: ""
 ms.service: mse

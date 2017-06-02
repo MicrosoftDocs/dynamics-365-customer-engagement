@@ -1,10 +1,7 @@
 ---
 title: "Perform visual filtering on widgets | Microsoft Docs"
- 
-description:
-
+description: "Learn how you can drill down into your data and apply filters on-the-fly."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse
