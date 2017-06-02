@@ -1,5 +1,6 @@
 ---
-title: "Add rules to a search topic | Microsoft Docs"
+title: "Add rules to a Social Engagement search topic | Microsoft Docs"
+description: "Learn how to add more rules to a search topic to gather additional data."
 ms.custom: ""
 ms.date: 2016-11-18
 ms.reviewer: ""
