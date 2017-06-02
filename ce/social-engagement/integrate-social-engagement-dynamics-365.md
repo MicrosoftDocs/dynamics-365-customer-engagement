@@ -1,6 +1,6 @@
 ---
-title: "Integrate Microsoft Social Engagement with Dynamics 365 | Microsoft Docs"
-description:
+title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
+description: "Learn about the available integrations with Dynamics 365 and additional services."
 ms.custom: ""
 ms.date: 2017-05-19
 ms.reviewer: ""

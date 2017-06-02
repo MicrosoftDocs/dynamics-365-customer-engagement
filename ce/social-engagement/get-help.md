@@ -1,6 +1,6 @@
 ---
 title: "Get help with Social Engagement | Microsoft Docs"
-description:
+description: "Learn where you can find helpful resources to get you started or troubleshoot an issue."
 ms.custom: ""
 ms.date: 2017-05-19
 ms.reviewer: ""
