@@ -1,6 +1,6 @@
 ---
-title: "Get the Microsoft Social Engagement content pack for Power BI | Microsoft Docs"
-description:
+title: "Get the Social Engagement content pack | Microsoft Docs"
+description: "Download the use the Social Engagement content pack for Power BI."
 ms.custom: ""
 ms.date: 2017-05-19
 ms.reviewer: ""

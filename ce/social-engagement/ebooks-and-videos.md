@@ -1,6 +1,6 @@
 ---
 title: "eBooks and videos | Microsoft Docs"
-description:
+description: "Find the latest videos and eBooks for Dynamics 365."
 ms.custom: ""
 ms.date: 2016-07-15
 ms.reviewer: ""

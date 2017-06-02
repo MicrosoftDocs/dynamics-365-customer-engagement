@@ -1,6 +1,6 @@
 ---
 title: "Stay up to date with alerts | Microsoft Docs"
-description:
+description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
 ms.custom: ""
 ms.date: 2017-03-02
 ms.reviewer: ""

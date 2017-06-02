@@ -1,6 +1,6 @@
 ---
-title: "Enable a partner as a delegated admin | Microsoft Docs"
-description:
+title: "Enable delegated administration | Microsoft Docs"
+description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
 ms.custom: ""
 ms.date: 2016-11-18
 ms.reviewer: ""

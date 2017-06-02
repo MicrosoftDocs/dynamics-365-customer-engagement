@@ -1,6 +1,6 @@
 ---
 title: "Engage on social networks | Microsoft Docs"
-description:
+description: "Get an overview of the requirements to engage on posts from within Social Engagement."
 ms.custom: ""
 ms.date: 2017-05-19
 ms.reviewer: ""
