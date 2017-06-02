@@ -1,5 +1,6 @@
 ---
-title: "Understand widgets on the Overview page | Microsoft Docs"
+title: "Start analyzing data | Microsoft Docs"
+description: "Learn how to get an overview about your data in Social Engagement."
 description:
 ms.custom: ""
 ms.date: 2016-11-18

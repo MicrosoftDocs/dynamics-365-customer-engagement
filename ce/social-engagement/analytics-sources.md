@@ -1,5 +1,6 @@
 ---
-title: "Analyze the sources for the posts | Microsoft Docs"
+title: "Analytics for sources | Microsoft Docs"
+description: "Learn how to focus your analysis on the various data sources in Social Engagement."
 description:
 ms.custom: ""
 ms.date: 2016-11-18

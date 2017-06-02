@@ -1,5 +1,6 @@
 ---
-title: "Gain insights from public conversations | Microsoft Docs"
+title: "Analytics for conversations | Microsoft Docs"
+description: "Learn how to focus your analysis on conversations in Social Engagement."
 Description:
 ms.custom: ""
 ms.date: 2016-11-18

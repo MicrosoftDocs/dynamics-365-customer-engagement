@@ -1,5 +1,6 @@
 ---
-title: "See the locations for the posts | Microsoft Docs"
+title: "Analytics for locations | Microsoft Docs"
+description: "Learn how to focus your analysis on location data in Social Engagement."
 description:
 ms.custom: ""
 ms.date: 2016-11-18
