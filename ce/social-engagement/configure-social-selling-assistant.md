@@ -1,6 +1,6 @@
 ---
-title: "Configure Social Engagement for the Social Selling Assistant | Microsoft Docs"
-description:
+title: "Configure the Social Selling Assistant | Microsoft Docs"
+description: "Learn how to prepare for the Social Selling Assistant before sharing it with your users."
 ms.custom: ""
 ms.date: 2017-05-31
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
-title: "Connect Social Engagement to other domains | Microsoft Docs"
-description:
+title: "Allow requests from other domains with Social Engagement | Microsoft Docs"
+description: "Learn how to add URLs to the list of allowed domains so they can request data from Social Engagement."
 ms.custom: ""
 ms.date: 2016-11-18
 ms.reviewer: ""

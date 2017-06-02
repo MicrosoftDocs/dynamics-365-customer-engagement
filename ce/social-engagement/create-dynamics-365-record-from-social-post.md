@@ -1,6 +1,6 @@
 ---
-title: "Create a Dynamics 365 record from a social post | Microsoft Docs"
-description:
+title: "Create a record from a post | Microsoft Docs"
+description: "Learn how to send posts found in Social Engagement to Dynamics 365 to create new lead or case records."
 ms.custom: ""
 ms.date: 2016-11-18
 ms.reviewer: ""

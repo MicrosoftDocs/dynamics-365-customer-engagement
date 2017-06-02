@@ -1,6 +1,6 @@
 ---
-title: "Route posts using automation rules | Microsoft Docs"
-description:
+title: "Automate actions on posts | Microsoft Docs"
+description: "Learn how to set up Social Engagement to automatically handle subsets of incoming posts."
 ms.custom: ""
 ms.date: 2017-05-23
 ms.reviewer: ""

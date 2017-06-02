@@ -1,6 +1,6 @@
 ---
-title: "Get details on specific authors | Microsoft Docs"
-description:
+title: "Author details in Social Engagement | Microsoft Docs"
+description: "Learn how to find details about the posts' authors in Social Engagement."
 ms.custom: ""
 ms.date: 2016-12-14
 ms.reviewer: ""

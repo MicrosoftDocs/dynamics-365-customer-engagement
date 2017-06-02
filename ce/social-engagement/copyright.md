@@ -1,5 +1,6 @@
 ---
 title: "Copyright | Microsoft Docs"
+description: "Review the copyright for this documentation."
 ms.custom: ""
 ms.date: 2017-03-02
 ms.reviewer: ""
