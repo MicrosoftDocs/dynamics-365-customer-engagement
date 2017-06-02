@@ -1,10 +1,7 @@
 ﻿---
 title: "Manage social profiles | Microsoft Docs"
- 
-description:
-
+description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

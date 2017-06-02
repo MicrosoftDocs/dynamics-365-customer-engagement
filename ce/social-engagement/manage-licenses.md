@@ -1,10 +1,7 @@
 ﻿---
 title: "Manage licenses for Social Engagement | Microsoft Docs"
- 
-description:
-
+description: "Learn how to manage user licenses for users of Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

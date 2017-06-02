@@ -1,10 +1,7 @@
 ﻿---
-title: "Explore more options with your data set | Microsoft Docs"
- 
-description:
-
+title: "Work with a data set. | Microsoft Docs"
+description: "Learn how to open a data set in other areas of Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

@@ -1,10 +1,7 @@
 ﻿---
 title: "Manage global settings | Microsoft Docs"
- 
-description:
-
+description: "Learn about how to configure global settings that apply to all users of Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

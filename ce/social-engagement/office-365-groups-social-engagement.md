@@ -1,10 +1,7 @@
 ---
-title: "Work with Office 365 Groups in Social Engagement | Microsoft Docs"
- 
-description:
-
+title: "Work with groups of people in Social Engagement | Microsoft Docs"
+description: "Learn how to manage groups and how to work with them in Social Engagement."
 ms.custom: ""
-
 ms.date: 2017-05-19
 ms.reviewer: ""
 ms.service: mse

@@ -1,6 +1,6 @@
 ---
 title: "Manage access tokens | Microsoft Docs"
-description:
+description: "Learn how to manage tokens for social profiles in Social Engagement."
 ms.custom: ""
 ms.date: 2017-05-19
 ms.reviewer: ""

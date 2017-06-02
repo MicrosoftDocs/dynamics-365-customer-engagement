@@ -1,10 +1,7 @@
 ---
-title: "The topic you've tried to access does not exist | Microsoft Docs"
- 
-description:
-
+title: "Oops, you shouldn't see this, actually. | Microsoft Docs"
+description: "You found a place that is not intended to be seen. Please share your feedback how you ended up here so we can address it."
 ms.custom: ""
-
 ms.date: 2017-05-19
 applies_to: "Social Engagement"
 ms.reviewer: ""
