@@ -15,11 +15,11 @@ manager: sakudes
 ---
 # Liquid tags
 
-
-
 Tags make up the programming logic that tells templates what to do. Tags are wrapped in {% %}.
 
+```
 **{% if user.fullname == 'Dave Bowman' %} Hello, Dave. {% endif %}**
+```
 
 ## White space control
 
@@ -29,13 +29,16 @@ You can tell the engine to strip all leading or trailing white space by adding a
 
 **Code**
 
+```
 **{% for i in (1..5) --%}**
 
 **{{ i }}**
 
 **{%-- endfor %}**
+```
 
 **Output**
 
+```
 **12345**
-
+```
