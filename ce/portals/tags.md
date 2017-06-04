@@ -43,23 +43,23 @@ Control Flow tags determine which block of code should be executed and what cont
 Executes a block of code if a given condition is met.
 
 ```
-**{% if user.fullname == 'Dave Bowman' %}**
+{% if user.fullname == 'Dave Bowman' %}
 
-**Hello, Dave.**
+Hello, Dave.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### **unless**
 
-Like if, except it executes a block of code if a given condition is **not** met.
+Like if, except it executes a block of code if a given condition is**not** met.
 
 ```
-**{% unless page.title == 'Home' %}**
+{% unless page.title == 'Home' %}
 
-**This is not the Home page.**
+This is not the Home page.
 
-**{% endunless %}**
+{% endunless %}
 ```
 
 ### **elsif/else**
@@ -67,19 +67,19 @@ Like if, except it executes a block of code if a given condition is **not** met.
 Adds more conditions to an if or unless block.
 
 ```
-**{% if user.fullname == 'Dave Bowman' %}**
+{% if user.fullname == 'Dave Bowman' %}
 
-**Hello, Dave.**
+Hello, Dave.
 
-**{% elsif user.fullname == 'John Smith' %}**
+{% elsif user.fullname == 'John Smith' %}
 
-**Hello, Mr. Smith.**
+Hello, Mr. Smith.
 
-**{% else %}**
+{% else %}
 
-**Hello, stranger.**
+Hello, stranger.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### **case/when**
@@ -87,21 +87,21 @@ Adds more conditions to an if or unless block.
 A switch statement to compare a variable to different values, and execute a different block of code for each value.
 
 ```
-**{% case user.fullname %}**
+{% case user.fullname %}
 
-**{% when 'Dave Bowman' %}**
+{% when 'Dave Bowman' %}
 
-**Hello, Dave.**
+Hello, Dave.
 
-**{% when 'John Smith' %}**
+{% when 'John Smith' %}
 
-**Hello, Mr. Smith.**
+Hello, Mr. Smith.
 
-**{% else %}**
+{% else %}
 
-**Hello, stranger.**
+Hello, stranger.
 
-**{% endcase %}**
+{% endcase %}
 ```
 
 ### See Also
@@ -125,21 +125,21 @@ Within the for tag block, the [*forloop*](#forloop) is available.
 **Code**
 
 ```
-**{% for child\_page in page.children %}**
+{% for child_page in page.children %}
 
-**&lt;a href="{{ child\_page.url }}"&gt;{{ child\_page.title }}&lt;/a&gt;**
+<a href="{{ child_page.url }}">{{ child_page.title }}</a>
 
-**{% endfor %}**
+{% endfor %}
 ```
 
 **Output**
 
 ```
-**&lt;a href="/parent/child1/"&gt;Child 1&lt;/a&gt;**
+<a href="/parent/child1/">Child 1</a>
 
-**&lt;a href="/parent/child2/"&gt;Child 2&lt;/a&gt;**
+<a href="/parent/child2/">Child 2</a>
 
-**&lt;a href="/parent/child3/"&gt;Child 3&lt;/a&gt;**
+<a href="/parent/child3/">Child 3</a>
 ```
 
 ### **Parameters**
@@ -153,19 +153,19 @@ Exits the loop after a given number of items.
 **Code**
 
 ```
-**{% for child\_page in page.children limit:2 %}**
+{% for child_page in page.children limit:2 %}
 
-**&lt;a href="{{ child\_page.url }}"&gt;{{ child\_page.title }}&lt;/a&gt;**
+<a href="{{ child_page.url }}">{{ child_page.title }}</a>
 
-**{% endfor %}**
+{% endfor %}
 ```
 
 **Output**
 
 ```
-**&lt;a href="/parent/child1/"&gt;Child 1&lt;/a&gt;**
+<a href="/parent/child1/">Child 1</a>
 
-**&lt;a href="/parent/child2/"&gt;Child 2&lt;/a&gt;**
+<a href="/parent/child2/">Child 2</a>
 ```
 
 **offset**
@@ -175,19 +175,19 @@ Starts the loop at given index.
 **Code**
 
 ```
-**{% for child\_page in page.children offset:1 %}**
+{% for child_page in page.children offset:1 %}
 
-**&lt;a href="{{ child\_page.url }}"&gt;{{ child\_page.title }}&lt;/a&gt;**
+<a href="{{ child_page.url }}">{{ child_page.title }}</a>
 
-**{% endfor %}**
+{% endfor %}
 ```
 
 **Output**
 
 ```
-**&lt;a href="/parent/child2/"&gt;Child 2&lt;/a&gt;**
+<a href="/parent/child2/">Child 2</a>
 
-**&lt;a href="/parent/child3/"&gt;Child 3&lt;/a&gt;**
+<a href="/parent/child3/">Child 3</a>
 ```
 
 **range**
@@ -197,27 +197,27 @@ Defines a range of numbers to loop through.
 **Code**
 
 ```
-**{% assign n = 4 %}**
+{% assign n = 4 %}
 
-**{% for i in (2..n) %}**
+{% for i in (2..n) %}
 
-**{{ i }}**
+{{ i }}
 
-**{% endfor %}**
+{% endfor %}
 
-**{% for i in (10..14) %}**
+{% for i in (10..14) %}
 
-**{{ i }}**
+{{ i }}
 
-**{% endfor }}**
+{% endfor }}
 ```
 
 **Output**
 
 ```
-**2 3 4**
+2 3 4
 
-**10 11 12 14**
+10 11 12 14
 ```
 
 **reversed**
@@ -227,21 +227,21 @@ Iterates through the loop in reverse order, starting from the last item.
 **Code**
 
 ```
-**{% for child\_page in page.children reversed %}**
+{% for child_page in page.children reversed %}
 
-**&lt;a href="{{ child\_page.url }}"&gt;{{ child\_page.title }}&lt;/a&gt;**
+<a href="{{ child_page.url }}">{{ child_page.title }}</a>
 
-**{% endfor %}**
+{% endfor %}
 ```
 
 **Output**
 
 ```
-**&lt;a href="/parent/child3/"&gt;Child 3&lt;/a&gt;**
+<a href="/parent/child3/">Child 3</a>
 
-**&lt;a href="/parent/child2/"&gt;Child 2&lt;/a&gt;**
+<a href="/parent/child2/">Child 2</a>
 
-**&lt;a href="/parent/child1/"&gt;Child 1&lt;/a&gt;**
+<a href="/parent/child1/">Child 1</a>
 ```
 
 ### **cycle**
@@ -251,25 +251,25 @@ Loops through a group of strings and outputs them in the order that they were pa
 **Code**
 
 ```
-**{% for item in items %}**
+{% for item in items %}
 
-**&lt;div class="{% cycle 'red', 'green', 'blue' %}"&gt; {{ item }} &lt;/div&gt;**
+<div class="{% cycle 'red', 'green', 'blue' %}"> {{ item }} </div>
 
-**{% end %}**
+{% end %}
 ```
 
 **Output**
 
 ```
-**&lt;div class="red"&gt; Item one &lt;/div&gt;**
+<div class="red"> Item one </div>
 
-**&lt;div class="green"&gt; Item two &lt;/div&gt;**
+<div class="green"> Item two </div>
 
-**&lt;div class="blue"&gt; Item three &lt;/div&gt;**
+<div class="blue"> Item three </div>
 
-**&lt;div class="red"&gt; Item four &lt;/div&gt;**
+<div class="red"> Item four </div>
 
-**&lt;div class="green"&gt; Item five&lt;/div&gt;**
+<div class="green"> Item five</div>
 ```
 
 ### **tablerow**
@@ -281,51 +281,51 @@ Within the tablerow tag block, the [*tablerowloop*](#tablerowloop) is available.
 **Code**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**{% tablerow child\_page in page.children %}**
+{% tablerow child_page in page.children %}
 
-**{{ child\_page.title }}**
+{{ child_page.title }}
 
-**{% endtablerow %}**
+{% endtablerow %}
 
-**&lt;/table&gt;**
+</table>
 ```
 
 **Output**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**&lt;tr class="row1"&gt;**
+<tr class="row1">
 
-**&lt;td class="col1"&gt;**
+<td class="col1">
 
-**Child Page 1**
+Child Page 1
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;td class="col2"&gt;**
+<td class="col2">
 
-**Child Page 2**
+Child Page 2
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;td class="col3"&gt;**
+<td class="col3">
 
-**Child Page 3**
+Child Page 3
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;td class="col4"&gt;**
+<td class="col4">
 
-**Child Page 4**
+Child Page 4
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;/tr&gt;**
+</tr>
 
-**&lt;/table&gt;**
+</table>
 ```
 
 ### **Parameters**
@@ -335,55 +335,55 @@ These parameters of tablerowcan be used alone, or in combination.
 **Output**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**&lt;tr class="row1"&gt;**
+<tr class="row1">
 
-**&lt;td class="col1"&gt;**
+<td class="col1">
 
-**Child Page 1**
+Child Page 1
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;td class="col2"&gt;**
+<td class="col2">
 
-**Child Page 2**
+Child Page 2
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;/tr&gt;**
+</tr>
 
-**&lt;tr class="row2"&gt;**
+<tr class="row2">
 
-**&lt;td class="col3"&gt;**
+<td class="col3">
 
-**Child Page 3**
+Child Page 3
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;td class="col4"&gt;**
+<td class="col4">
 
-**Child Page 4**
+Child Page 4
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;/tr&gt;**
+</tr>
 
-**&lt;/table&gt;**
+</table>
 ```
 
 **Code**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**{% tablerow child\_page in page.children cols:2 %}**
+{% tablerow child_page in page.children cols:2 %}
 
-**{{ child\_page.title }}**
+{{ child_page.title }}
 
-**{% endtablerow %}**
+{% endtablerow %}
 
-**&lt;/table&gt;**
+</table>
 ```
 
 Dictates how many rows the generated table should have.
@@ -397,41 +397,41 @@ Exits the loop after a given number of items.
 **Code**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**{% tablerow child\_page in page.children limit:2 %}**
+{% tablerow child_page in page.children limit:2 %}
 
-**{{ child\_page.title }}**
+{{ child_page.title }}
 
-**{% endtablerow %}**
+{% endtablerow %}
 
-**&lt;/table&gt;**
+</table>
 ```
 
 **Output**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**&lt;tr class="row1"&gt;**
+<tr class="row1">
 
-**&lt;td class="col1"&gt;**
+<td class="col1">
 
-**Child Page 1**
+Child Page 1
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;td class="col2"&gt;**
+<td class="col2">
 
-**Child Page 2**
+Child Page 2
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;/tr&gt;**
+</tr>
 
-**&lt;/table&gt;**
+</table>
 
-**offset**
+offset
 ```
 
 Starts the loop at given index.
@@ -439,39 +439,39 @@ Starts the loop at given index.
 **Code**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**{% tablerow child\_page in page.children offset:2 %}**
+{% tablerow child_page in page.children offset:2 %}
 
-**{{ child\_page.title }}**
+{{ child_page.title }}
 
-**{% endtablerow %}**
+{% endtablerow %}
 
-**&lt;/table&gt;**
+</table>
 ```
 
 **Output**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**&lt;tr class="row1"&gt;**
+<tr class="row1">
 
-**&lt;td class="col1"&gt;**
+<td class="col1">
 
-**Child Page 3**
+Child Page 3
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;td class="col2"&gt;**
+<td class="col2">
 
-**Child Page 4**
+Child Page 4
 
-**&lt;/td&gt;**
+</td>
 
-**&lt;/tr&gt;**
+</tr>
 
-**&lt;/table&gt;**
+</table>
 ```
 
 **range**
@@ -481,15 +481,15 @@ Defines a range of numbers to loop through.
 **Code**
 
 ```
-**&lt;table&gt;**
+<table>
 
-**{% tablerow i in (1..3) %}**
+{% tablerow i in (1..3) %}
 
-**{{ i }}**
+{{ i }}
 
-**{% endtablerow %}**
+{% endtablerow %}
 
-**&lt;/table&gt;**
+</table>
 ```
 
 ### See Also
@@ -511,25 +511,25 @@ Creates a new variable. Assignments can also use [*Liquid Filters*](liquid-filte
 **Code**
 
 ```
-**{% assign is\_valid = true %}**
+{% assign is_valid = true %}
 
-**{% if is\_valid %}**
+{% if is_valid %}
 
-**It is valid.**
+It is valid.
 
-**{% endif %}**
+{% endif %}
 
-**{% assign name = "dave bowman' | upcase %}**
+{% assign name = "dave bowman' | upcase %}
 
-**{{ name }}**
+{{ name }}
 ```
 
 **Output**
 
 ```
-**It is valid.**
+It is valid.
 
-**DAVE BOWMAN**
+DAVE BOWMAN
 ```
 
 ### **capture**
@@ -539,19 +539,19 @@ Captures the content within its block and assigns it to a variable. This content
 **Code**
 
 ```
-**{% capture hello %}Hello, {{ user.fullname }}.{% endcapture %}**
+{% capture hello %}Hello, {{ user.fullname }}.{% endcapture %}
 
-**{{ hello }}**
+{{ hello }}
 
-**{{ hello }}**
+{{ hello }}
 ```
 
 **Output**
 
 ```
-**Hello, DAVE BOWMAN.**
+Hello, DAVE BOWMAN.
 
-**Hello, DAVE BOWMAN.**
+Hello, DAVE BOWMAN.
 ```
 
 ### See Also
@@ -572,11 +572,11 @@ Includes the contents of one template in another, by name. In [!INCLUDE[pn-dynam
 
 When a template is included in another, the included template will have access to any variables defined in the parent template.
 
-`**{% include 'My Template' %}**`
+`{% include 'My Template' %}`
 
 It's also possible to pass any number of named parameters to the include tag. These will then be defined as variables in the included template.
 
-`**{% include 'My Template' a:x, b:y %}**`
+`{% include 'My Template' a:x, b:y %}`
 
 ### **block**
 
@@ -598,11 +598,11 @@ Allows you to leave un-rendered code inside a Liquid template. Any content withi
 
 **Code**
 
-`**Hello{% comment %}, {{ user.fullname }}{% endcomment %}. My name is Charles.**`
+`Hello{% comment %}, {{ user.fullname }}{% endcomment %}. My name is Charles.`
 
 **Output**
 
-`**Hello. My name is Charles.**`
+`Hello. My name is Charles.`
 
 ### **raw**
 
@@ -610,7 +610,7 @@ Allows output of Liquid code on a page without having it parsed and executed.
 
 **Output**
 
-`**Hello, {{ user.fullname }}. My name is Charles.**`
+`Hello, {{ user.fullname }}. My name is Charles.`
 
 ### See Also
 
@@ -629,35 +629,35 @@ Allows output of Liquid code on a page without having it parsed and executed.
 Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [*Use the front-side editing engine to publish content*](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [*page*](#page), [*snippets*](#snippets), and [*weblinks*](#weblinks).  
 
 ```
-**{% editable page 'adx\_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}**
+{% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
 
-**{% editable snippets "Header" type: 'html' %}**
+{% editable snippets "Header" type: 'html' %}
 
-**&lt;!--**
+<!--
 
-**An editable web link set required a specific DOM structure, with**
+An editable web link set required a specific DOM structure, with
 
-**certain classes on the containing element, as demonstrated here.**
+certain classes on the containing element, as demonstrated here.
 
-**--&gt;**
+-->
 
-**{% assign primary\_nav = weblinks\["Primary Navigation"\] %}**
+{% assign primary_nav = weblinks["Primary Navigation"] %}
 
-**{% if primary\_nav %}**
+{% if primary_nav %}
 
-**&lt;div {% if primary\_nav.editable %}class="xrm-entity xrm-editable-adx\_weblinkset"{% endif %}&gt;**
+<div {% if primary_nav.editable %}class="xrm-entity xrm-editable-adx_weblinkset"{% endif %}>
 
-**&lt;ul&gt;**
+<ul>
 
-**&lt;!-- Render weblinks... --&gt;**
+<!-- Render weblinks... -->
 
-**&lt;/ul&gt;**
+</ul>
 
-**{% editable primary\_nav %}**
+{% editable primary_nav %}
 
-**&lt;/div&gt;**
+</div>
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### **Parameters**
@@ -701,20 +701,20 @@ Loads a given entity list, by name or ID. The properties of the entity list can 
 If the entity list is loaded successfully, the content within the block will be rendered. If the entity list is not found, the block content will not be rendered.
 
 ```
-**{% entitylist name:"My Entity List" %}**
+{% entitylist name:"My Entity List" %}
 
-**Loaded entity list {{ entitylist.adx\_name }}.**
+Loaded entity list {{ entitylist.adx_name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 By default, the entitylist object will be given the variable name entitylist. Optionally, a different variable name can be provided.
 
 ```
-**{% entitylist my\_list = name:"My Entity List" %}**
+{% entitylist my_list = name:"My Entity List" %}
 
-**Loaded entity list {{ my\_list.adx\_name }}.**
+Loaded entity list {{ my_list.adx_name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 |  >[!Note]                                                       |  
@@ -723,28 +723,28 @@ By default, the entitylist object will be given the variable name entitylist. Op
 
 ### **Parameters**
 
-Provide **only one** of id, name, or key to select the Entity List to load.
+Provide**only one** of id, name, or key to select the Entity List to load.
 
 **id**
 
 Loads an entity list by [*GUID*](http://en.wikipedia.org/wiki/Globally_unique_identifier) ID. id must be a string that can be parsed as a *GUID*.  
 
 ```
-**{% entitylist id:"936DA01F-9ABD-4d9d-80C7-02AF85C822A8" %}**
+{% entitylist id:"936DA01F-9ABD-4d9d-80C7-02AF85C822A8" %}
 
-**Loaded entity list {{ entitylist.adx\_name }}.**
+Loaded entity list {{ entitylist.adx_name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 Generally, literal GUID strings will not be used. Instead, id will be specified using a GUID property of another variable.
 
 ```
-**{% entitylist id:page.adx\_entitylist.id %}**
+{% entitylist id:page.adx_entitylist.id %}
 
-**Loaded entity list {{ entitylist.adx\_name }}.**
+Loaded entity list {{ entitylist.adx_name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 **name**
@@ -752,24 +752,24 @@ Generally, literal GUID strings will not be used. Instead, id will be specified 
 Loads an entity list by name.
 
 ```
-**{% entitylist name:"My Entity List" %}**
+{% entitylist name:"My Entity List" %}
 
-**Loaded entity list {{ entitylist.adx\_name }}.**
+Loaded entity list {{ entitylist.adx_name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 **key**
 
-Loads an entity list by ID **or** name. If the provided key value can be parsed as a [*GUID*](http://en.wikipedia.org/wiki/Globally_unique_identifier), the entity list will be loaded by ID. Otherwise, it will be loaded by name.  
+Loads an entity list by ID**or** name. If the provided key value can be parsed as a [*GUID*](http://en.wikipedia.org/wiki/Globally_unique_identifier), the entity list will be loaded by ID. Otherwise, it will be loaded by name.  
 ```
-**&lt;!-- key\_variable can hold an ID or name --&gt;**
+<!-- key_variable can hold an ID or name -->
 
-**{% entitylist key:key\_variable %}**
+{% entitylist key:key_variable %}
 
-**Loaded entity list {{ entitylist.adx\_name }}.**
+Loaded entity list {{ entitylist.adx_name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 **language\_code**
@@ -777,11 +777,11 @@ Loads an entity list by ID **or** name. If the provided key value can be parsed 
 A [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code to select the entity list localized labels to be loaded. If no language\_code is provided, the default language of the portal application [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] connection will be used.
 
 ```
-**{% entitylist name:"My Entity List", language\_code:1033 %}**
+{% entitylist name:"My Entity List", language_code:1033 %}
 
-**Loaded entity list {{ entitylist.adx\_name }}.**
+Loaded entity list {{ entitylist.adx_name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 ### **entityview**
@@ -791,35 +791,35 @@ Loads a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view, 
 If the view is loaded successfully, the content within the block will be rendered. If the view is not found, the block content will not be rendered.
 
 ```
-**{% entityview logical\_name:'contact', name:"Active Contacts" %}**
+{% entityview logical_name:'contact', name:"Active Contacts" %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 By default, the entityview object will be given the variable name entityview. Optionally, a different variable name can be provided.
 
 ```
-**{% entityview my\_view = logical\_name:'contact', name:"Active Contacts" %}**
+{% entityview my_view = logical_name:'contact', name:"Active Contacts" %}
 
-**Loaded entity view with {{ my\_view.total\_records }} total records.**
+Loaded entity view with {{ my_view.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 If entityview is nested within an entitylist block, it will inherit its default configuration (result page size, filter options, etc.) from the entity list. If no view id or name parameters are provided to entityview, it will load the default view from the enclosing entitylist.
 
 ```
-**{% entitylist id:page.adx\_entitylist.id %}**
+{% entitylist id:page.adx_entitylist.id %}
 
-**{% entityview %}**
+{% entityview %}
 
-**Loaded default view of the entity list associated with the current page, with {{ entityview.total\_records }} total records.**
+Loaded default view of the entity list associated with the current page, with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 |  >[!Note]                                                       |  
@@ -828,28 +828,28 @@ If entityview is nested within an entitylist block, it will inherit its default 
 
 ### **Parameters**
 
-Provide **either** id **or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+Provide**either** id**or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
 
 **id**
 
 id must be a string that can be parsed as a GUID.
 
 ```
-**{% entityview id:"936DA01F-9ABD-4d9d-80C7-02AF85C822A8" %}**
+{% entityview id:"936DA01F-9ABD-4d9d-80C7-02AF85C822A8" %}
 
-**Loaded entity view {{ entityview.name }}.**
+Loaded entity view {{ entityview.name }}.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 Generally, literal GUID strings will not be used. Instead, id will be specified using a GUID property of another variable.
 
 ```
-**{% entityview id:request.params.view %}**
+{% entityview id:request.params.view %}
 
-**Loaded entity view {{ entityview.name }} using "view" query string request parameter.**
+Loaded entity view {{ entityview.name }} using "view" query string request parameter.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **logical\_name**
@@ -857,11 +857,11 @@ Generally, literal GUID strings will not be used. Instead, id will be specified 
 The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the view to be loaded. Must be used in combination with name.
 
 ```
-**{% entityview logical\_name:'contact', name:"Active Contacts" %}**
+{% entityview logical_name:'contact', name:"Active Contacts" %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **name**
@@ -869,11 +869,11 @@ The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical n
 The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] name of the view to be loaded. Must be used in combination with logical\_name.
 
 ```
-**{% entityview logical\_name:'contact', name:"Active Contacts" %}**
+{% entityview logical_name:'contact', name:"Active Contacts" %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **filter**
@@ -881,21 +881,21 @@ The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] name of the view
 Specifies whether to filter the view results by user or account. Must have a string value of "user" or "account".
 
 ```
-**{% entityview id:request.params.view, filter:'user' %}**
+{% entityview id:request.params.view, filter:'user' %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 A common use case is to set this parameter based on a [*request*](#request).  
 
 ```
-**{% entityview id:request.params.view, filter:request.params.filter %}**
+{% entityview id:request.params.view, filter:request.params.filter %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **metafilter**
@@ -903,15 +903,15 @@ A common use case is to set this parameter based on a [*request*](#request).
 Specifies the Entity List metadata filter expression by which to filter view results. This parameter is only valid when entityview is used in combination with entitylist. In most cases, this parameter is set based on a [*request*](#request).  
 
 ```
-**{% entitylist id:page.adx\_entitylist.id %}**
+{% entitylist id:page.adx_entitylist.id %}
 
-**{% entityview id:request.params.view, metafilter:request.params.mf %}**
+{% entityview id:request.params.view, metafilter:request.params.mf %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
 |  >[!Note] |  
@@ -923,21 +923,21 @@ Specifies the Entity List metadata filter expression by which to filter view res
 Specifies a sort expression for ordering view results. A sort expression can contain one or more entity attribute logical names, followed by a sort direction of either ASC or DESC.
 
 ```
-**{% entityview id:request.params.view, order:'name ASC, createdon DESC' %}**
+{% entityview id:request.params.view, order:'name ASC, createdon DESC' %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 A common use case is to set this parameter based on a [*request*](#request).  
 
 ```
-**{% entityview id:request.params.view, order:request.params.order %}**
+{% entityview id:request.params.view, order:request.params.order %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **page**
@@ -947,21 +947,21 @@ Specifies the view result page to load. If this parameter is not specified, the 
 This parameter must be passed either an integer value, or a string that can be parsed as an integer. If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as an integer, the first page of results will be loaded.
 
 ```
-**{% entityview id:request.params.view, page:2 %}**
+{% entityview id:request.params.view, page:2 %}
 
-**Loaded page {{ entityview.page }} of entity view with {{ entityview.total\_records }} total records.**
+Loaded page {{ entityview.page }} of entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 A common use case is to set this parameter based on a [*request*](#request).  
 
 ```
-**{% entityview id:request.params.view, page:request.params.page %}**
+{% entityview id:request.params.view, page:request.params.page %}
 
-**Loaded page {{ entityview.page }} of entity view with {{ entityview.total\_records }} total records.**
+Loaded page {{ entityview.page }} of entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **page\_size**
@@ -971,21 +971,21 @@ Specifies the number of results to load for the current result page. If no value
 This parameter must be passed either an integer value, or a string that can be parsed as an integer. If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as an integer, the default page size will be used.
 
 ```
-**{% entityview id:request.params.view, page\_size:20 %}**
+{% entityview id:request.params.view, page_size:20 %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 A common use case is to set this parameter based on a [*request*](#request).  
 
 ```
-**{% entityview id:request.params.view, page\_size:request.params.pagesize %}**
+{% entityview id:request.params.view, page_size:request.params.pagesize %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records.**
+Loaded entity view with {{ entityview.total_records }} total records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **search**
@@ -993,20 +993,20 @@ A common use case is to set this parameter based on a [*request*](#request).
 Specifies a search expression by which to filter view results. Simple keyword search expressions will filter by whether attributes begin with the keyword. Wildcards \* can also be included in the expression.
 
 ```
-**{% entityview id:request.params.view, search:'John\*' %}**
+{% entityview id:request.params.view, search:'John\*' %}
 
-**Loaded entity view with {{ entityview.total\_records }} total matching records.**
+Loaded entity view with {{ entityview.total_records }} total matching records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 A common use case is to set this parameter based on a [*request*](#request), so that the search filter can be set based on user input.  
 ```
-**{% entityview id:request.params.view, search:request.params.search %}**
+{% entityview id:request.params.view, search:request.params.search %}
 
-**Loaded entity view with {{ entityview.total\_records }} total matching records.**
+Loaded entity view with {{ entityview.total_records }} total matching records.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **enable\_entity\_permissions**
@@ -1016,11 +1016,11 @@ Specifies whether to apply entity permission filtering on view results. This par
 This parameter must be passed either an [*Liquid types*](liquid-types.md) value, or a string that can be parsed as a Boolean ("true", "false"). If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as a Boolean, the default of false will be used.  
 
 ```
-**{% entityview id:request.params.view, enable\_entity\_permissions:true %}**
+{% entityview id:request.params.view, enable_entity_permissions:true %}
 
-**Loaded entity view with {{ entityview.total\_records }} total records to which the user has read permission.**
+Loaded entity view with {{ entityview.total_records }} total records to which the user has read permission.
 
-**{% endentityview %}**
+{% endentityview %}
 ```
 
 **language\_code**
@@ -1030,61 +1030,61 @@ A [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language c
 If entityview is used within an entitylist block, entityview will inherit its language code configuration from entitylist.
 
 ```
-**{% entityview logical\_name:'contact', name:"Active Contacts", language\_code:1033 %}**
+{% entityview logical_name:'contact', name:"Active Contacts", language_code:1033 %}
 
-**Loaded entity view {{ entityview.name }}.**
+Loaded entity view {{ entityview.name }}.
 
-**{% endentitylist %}**
+{% endentitylist %}
 ```
 
-### **searchindex **
+### **searchindex**
 
 Performs a query against the portal search index. The matching results can then be accessed using a [*searchindex*](#searchindex) that will be available within the tag block.  
 
 ```
-**{% searchindex query: 'support', page: params.page, page\_size: 10 %}**
+{% searchindex query: 'support', page: params.page, page_size: 10 %}
 
-**{% if searchindex.results.size &gt; 0 %}**
+{% if searchindex.results.size > 0 %}
 
-**&lt;p&gt;Found about {{ searchindex.approximate\_total\_hits }} matches:&lt;/p&gt;**
+<p>Found about {{ searchindex.approximate_total_hits }} matches:</p>
 
-**&lt;ul&gt;**
+<ul>
 
-**{% for result in searchindex.results %}**
+{% for result in searchindex.results %}
 
-**&lt;li&gt;**
+<li>
 
-**&lt;h3&gt;&lt;a href="{{ result.url | escape }}"&gt;{{ result.title | escape }}&lt;/a&gt;&lt;/h3&gt;**
+<h3><a href="{{ result.url | escape }}">{{ result.title | escape }}</a></h3>
 
-**&lt;p&gt;{{ result.fragment }}&lt;/p&gt;**
+<p>{{ result.fragment }}</p>
 
-**&lt;/li&gt;**
+</li>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;/ul&gt;**
+</ul>
 
-**{% else %}**
+{% else %}
 
-**&lt;p&gt;Your query returned no results.&lt;/p&gt;**
+<p>Your query returned no results.</p>
 
-**{% endif %}**
+{% endif %}
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 By default, the search index object will be given the variable name searchindex. Optionally, a different variable name can be provided.
 
 ```
-**{% searchindex liquid\_search = query: 'support', page: params.page, page\_size: 10 %}**
+{% searchindex liquid_search = query: 'support', page: params.page, page_size: 10 %}
 
-**{% if liquid\_search.results.size &gt; 0 %}**
+{% if liquid_search.results.size > 0 %}
 
-**...**
+...
 
-**{% endif %}**
+{% endif %}
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 ### **Parameters**
@@ -1096,21 +1096,21 @@ The searchindex tag accepts the following parameters.
 The query used to match results. This parameter is intended to accept the user-specified part of the index query (if any).
 
 ```
-**{% searchindex query: 'support' %}**
+{% searchindex query: 'support' %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 A common use case is to set this parameter based on a [*request*](#request).  
 
 ```
-**{% searchindex query: request.params.query %}**
+{% searchindex query: request.params.query %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
@@ -1120,11 +1120,11 @@ This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.
 An additional query used to match results. This parameter is intended to accept a developer-specified filter for results, if desired.
 
 ```
-**{% searchindex query: request.params.query, filter: '+statecode:0' %}**
+{% searchindex query: request.params.query, filter: '+statecode:0' %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
@@ -1140,11 +1140,11 @@ This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.
 The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical names to which matching results will be restricted, as a comma-delimited string. If not provided, all matching entities will be returned.
 
 ```
-**{% searchindex query: request.params.query, logical\_names: 'kbarticle,incident' %}**
+{% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 **page**
@@ -1152,21 +1152,21 @@ The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical n
 The search result page to be returned. If not provided, the first page (1) will be returned.
 
 ```
-**{% searchindex query: request.params.query, page: 2 %}**
+{% searchindex query: request.params.query, page: 2 %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 A common use case is to set this parameter based on a [*request*](#request).  
 
 ```
-**{% searchindex query: request.params.query, page: request.params.page %}**
+{% searchindex query: request.params.query, page: request.params.page %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 **page\_size**
@@ -1174,11 +1174,11 @@ A common use case is to set this parameter based on a [*request*](#request).
 The size of the result page to be returned. If not provided, a default size of 10 will be used.
 
 ```
-**{% searchindex query: request.params.query, page\_size: 20 %}**
+{% searchindex query: request.params.query, page_size: 20 %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 **provider**
@@ -1188,14 +1188,14 @@ Specifies the name of the configured search provider to use. If not specified, t
 Having multiple search providers is an advanced configuration that will not apply to most environments. Generally, it will not be necessary to specify this parameter.
 
 ```
-**{% searchindex query: request.params.query, provider: 'AlternateIndex' %}**
+{% searchindex query: request.params.query, provider: 'AlternateIndex' %}
 
-**...**
+...
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
-### **entityform **
+### **entityform**
 
 Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal*](entity-forms-custom-logic.md), by name or ID.  
 
@@ -1204,7 +1204,7 @@ Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-conf
 | The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.   
                                                                                                                                                                                                                                                          
  You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                                                                                                                       |
-`**{% entityform name: 'My Entity Form' %}**`
+`{% entityform name: 'My Entity Form' %}`
 
 ### **Parameters**
 
@@ -1213,9 +1213,9 @@ Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-conf
 The name of the Entity Form you wish to load.
 
 ```
-**{% entityform name:"My Entity Form" %}**
+{% entityform name:"My Entity Form" %}
 
-**{% webform name:"My Web Form" %}**
+{% webform name:"My Web Form" %}
 ```
 
 The name of the Web Form you wish to load.
@@ -1224,7 +1224,7 @@ The name of the Web Form you wish to load.
 
 ### **Parameters**
 
-### **webform **
+### **webform**
 
 Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID.
 
@@ -1234,7 +1234,7 @@ Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-conf
                                                                                                                                                                                                                                                       
  You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                                                                                                                    |
 
-`**{% webform name: 'My Web Form' %}**`
+`{% webform name: 'My Web Form' %}`
 
 ### See Also
 

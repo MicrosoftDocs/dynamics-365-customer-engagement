@@ -15,22 +15,22 @@ manager: sakudes
 ---
 # Liquid types
 
-Liquid objects can return one of seven basic types: **String**, **Number**, **Boolean**, **Array**, **Dictionary**, **DateTime**, or **Null**. Liquid variables can be initialized by using the **assign** or **capture** tags.
+Liquid objects can return one of seven basic types:**String**,**Number**,**Boolean**,**Array**,**Dictionary**,**DateTime**, or**Null**. Liquid variables can be initialized by using the**assign** or**capture** tags.
 
 ## String
 
 A String is declared by wrapping text in single or double quotes.
 
 ```
-**{% assign string\_a = "Hello World!" %}**
+{% assign string_a = "Hello World!" %}
 
-**{% assign string\_b = 'Single quotes work too.' %}**
+{% assign string_b = 'Single quotes work too.' %}
 ```
 
 Get the number of characters in a string with the size property.
 
 ```
-**{{ string\_a.size }} &lt;!-- Output: 12 --&gt;**
+{{ string_a.size }} <!-- Output: 12 -->
 ```
 
 ## Number
@@ -38,13 +38,13 @@ Get the number of characters in a string with the size property.
 Numbers can be integers or floats.
 
 ```
-**{% assign pi = 3.14 %}**
+{% assign pi = 3.14 %}
 
-**{% if page.title.size &gt; 100 %}**
+{% if page.title.size > 100 %}
 
-**This page has a long title.**
+This page has a long title.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ## Boolean
@@ -52,49 +52,49 @@ Numbers can be integers or floats.
 A Boolean is either true or false.
 
 ```
-**{% assign x = true %}**
+{% assign x = true %}
 
-**{% assign y = false %}**
+{% assign y = false %}
 
-**{% if x %}**
+{% if x %}
 
-**This will be rendered, because x is true.**
+This will be rendered, because x is true.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ## Array
 
-An array holds a list of values of any type. You can access a given item by (zero-based) index using \[ \], iterate over them using the **for tag**, and get the number of items in the array using the size property. See also: [*Array filters*](#array-filters)  
+An array holds a list of values of any type. You can access a given item by (zero-based) index using \[ \], iterate over them using the**for tag**, and get the number of items in the array using the size property. See also: [*Array filters*](#array-filters)  
 
 ```
-**{% for view in entitylist.views %}**
+{% for view in entitylist.views %}
 
-**{{ view.name }}**
+{{ view.name }}
 
-**{% endfor %}**
+{% endfor %}
 
-**{{ entitylist.views\[0\] }}**
+{{ entitylist.views[0] }}
 
-**{% if entitylist.views.size &gt; 0 %}**
+{% if entitylist.views.size > 0 %}
 
-**This entity list has {{ entitylist.views.size }} views.**
+This entity list has {{ entitylist.views.size }} views.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ## Dictionary
 
-Dictionaries hold a collection of values that can be accessed by a string key. You can access a given item by string key using \[ \], iterate over them using the **for tag**, and get the number of items in the dictionary using the size property.
+Dictionaries hold a collection of values that can be accessed by a string key. You can access a given item by string key using \[ \], iterate over them using the**for tag**, and get the number of items in the dictionary using the size property.
 
 ```
-**{{ request.params\["ID"\] }}**
+{{ request.params["ID"] }}
 
-**{% if request.params.size &gt; 0 %}**
+{% if request.params.size > 0 %}
 
-**The request parameters collection contains some items.**
+The request parameters collection contains some items.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ## DateTime
@@ -102,7 +102,7 @@ Dictionaries hold a collection of values that can be accessed by a string key. Y
 A DateTime object represents a specific date and time.
 
 ```
-**{{ page.modifiedon | date: 'f' }}**
+{{ page.modifiedon | date: 'f' }}
 ```
 
 |  >[!Note] |  
@@ -114,11 +114,11 @@ A DateTime object represents a specific date and time.
 Null represents an empty or non-existent value. Any outputs that attempt to return a null value will render nothing. It will be treated as false in conditions.
 
 ```
-**{% if request.params\["ID"\] %}**
+{% if request.params["ID"] %}
 
-**This will render if the ID request parameter is NOT null.**
+This will render if the ID request parameter is NOT null.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### See Also

@@ -44,12 +44,12 @@ Or, depending on the customizer application used, it may only contain bootstrap.
 After you have your custom bootstrap.min.css, you can apply it to your portal in one of two ways. If you are a developer and prefer to work directly with the source code of your application, you can overwrite the version of bootstrap.min.css included in your application source with your custom version. In most cases, however, we recommend that you apply your custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] theme without modifying your site code by uploading it as a web file in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s content management system.
 
 1.  Sign in to your application as a user with content management permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Assign a permission set to a web role for portals](assign-permission-web-role.md).  
-2.  Go to the **Home** page of your application.
-3.  Select **Children** &gt; **Edit this file** (the pencil and paper button) for **bootstrap.min.css** from the content editing toolbar (found in the upper-right corner of your browser window).
-4.  Select your custom bootstrap.min.css file, using the **Upload File** field in the Edit This File dialog box that appears.
-5.  Ensure that the **Partial URL** field is set to bootstrap.min.css. This value indicates to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s framework that it should use your custom version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] instead of the default version included.
-6.  You may also want to select the **Hidden from Sitemap** checkbox (selected by default), so that this file doesn't appear to users in any navigation elements on the site.
-7.  **Save** the file.
+2.  Go to the**Home** page of your application.
+3.  Select**Children** &gt;**Edit this file** (the pencil and paper button) for**bootstrap.min.css** from the content editing toolbar (found in the upper-right corner of your browser window).
+4.  Select your custom bootstrap.min.css file, using the**Upload File** field in the Edit This File dialog box that appears.
+5.  Ensure that the**Partial URL** field is set to bootstrap.min.css. This value indicates to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s framework that it should use your custom version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] instead of the default version included.
+6.  You may also want to select the**Hidden from Sitemap** checkbox (selected by default), so that this file doesn't appear to users in any navigation elements on the site.
+7. **Save** the file.
 8.  Refresh your page, and your customized styles will appear immediately.
 
 The below screenshot is an example of a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] applied to the Community portal:
@@ -58,7 +58,7 @@ The below screenshot is an example of a customized version of [!INCLUDE[tn-boots
 
 ## Additional portal theme options
 
-In addition to a custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] version, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals support uploading of your own custom CSS files into the content management system. This lets you apply additional styling to your portal, without having to deploy a new version of its code. To do this, follow the procedure described previously for uploading custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] CSS by using a file that contains your own CSS, and then choose a new **Partial URL** for this web file. As long as the **Partial URL** ends in .css, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals will recognize it and apply it to your site.
+In addition to a custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] version, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals support uploading of your own custom CSS files into the content management system. This lets you apply additional styling to your portal, without having to deploy a new version of its code. To do this, follow the procedure described previously for uploading custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] CSS by using a file that contains your own CSS, and then choose a new**Partial URL** for this web file. As long as the**Partial URL** ends in .css, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals will recognize it and apply it to your site.
 
 Along with a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)], you can use the content-editing system to add a custom logo and brand to your portal header. With these simple but powerful options, you're only a few minutes away from having your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s application reflect your brand.
 

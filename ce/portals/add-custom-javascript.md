@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]
-The Web Form Step record contains a field named **Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]** that can be used to store [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] code to allow you to extend or modify the form's visual display or function.
+The Web Form Step record contains a field named**Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]** that can be used to store [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] code to allow you to extend or modify the form's visual display or function.
 
 The custom block of [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] will added to the bottom of the page just before the closing form tag element.
 
@@ -27,7 +27,7 @@ $(document).ready
 (
 function() 
 {
-$("\#address1\_stateorprovince").val("Saskatchewan");
+$("\#address1_stateorprovince").val("Saskatchewan");
 }
 ); 
 ```
@@ -43,7 +43,7 @@ if (window.jQuery)
 
 $(document).ready(function () 
 {
-if (typeof (Page\_Validators) == 'undefined') return;
+if (typeof (Page_Validators) == 'undefined') return;
 
 // Create new validator
 
@@ -52,7 +52,7 @@ var newValidator = document.createElement('span');
 newValidator.style.display = "none";
 newValidator.id = "emailaddress1Validator";
 newValidator.controltovalidate = "emailaddress1";
-newValidator.errormessage = "&lt;a href='\#emailaddress1\_label'&gt;Email is a required field.&lt;/a&gt;";
+newValidator.errormessage = "<a href='\#emailaddress1_label'>Email is a required field.</a>";
 newValidator.validationGroup = ""; // Set this if you have set ValidationGroup on the form
 newValidator.initialvalue = "";
 newValidator.evaluationfunction = function () 
@@ -76,10 +76,10 @@ return true;
 
 // Add the new validator to the page validators array:
 
-Page\_Validators.push(newValidator);
+Page_Validators.push(newValidator);
 
 // Wire-up the click event handler of the validation summary link
-$("a\[href='\#emailaddress1\_label'\]").on("click", function () { scrollToAndFocus('emailaddress1\_label','emailaddress1');});
+$("a[href='\#emailaddress1_label']").on("click", function () { scrollToAndFocus('emailaddress1_label','emailaddress1');});
 });
 }(window.jQuery));
 }
@@ -87,7 +87,7 @@ $("a\[href='\#emailaddress1\_label'\]").on("click", function () { scrollToAndFoc
 
 ## General validation
 
-On click of the **Next**/**Submit** button a function named **webFormClientValidate** is executed. You can extend this method to add custom validation logic.
+On click of the**Next**/**Submit** button a function named**webFormClientValidate** is executed. You can extend this method to add custom validation logic.
 
 ```
 if (window.jQuery) {

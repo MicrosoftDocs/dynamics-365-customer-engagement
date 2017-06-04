@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Understand Liquid operators
 
-Liquid has access to all common logical and comparison operators. These can be used in tags such as **if** and **unless**.
+Liquid has access to all common logical and comparison operators. These can be used in tags such as**if** and**unless**.
 
 ## Basic operators
 
@@ -26,19 +26,19 @@ Liquid has access to all common logical and comparison operators. These can be u
 | &lt;  | Less than                       |
 | &gt;= | Greater than or equal to        |
 | &lt;= | Less than or equal to           |
-| Or    | Condition A **or** condition B  |
-| And   | Condition A **and** condition B |
+| Or    | Condition A**or** condition B  |
+| And   | Condition A**and** condition B |
 
 ## contains
 
 contains tests for the presence of a substring within a string.
 
 ```
-**{% if page.title contains 'Product' %}**
+{% if page.title contains 'Product' %}
 
-**The title of this page contains the word Product.**
+The title of this page contains the word Product.
 
-**{% endif %}**
+{% endif %}
 ```
 
 contains can also test for the presence of a string within an array of strings.
@@ -48,11 +48,11 @@ contains can also test for the presence of a string within an array of strings.
 startswith tests whether a string starts with a given substring.
 
 ```
-**{% if page.title startswith 'Profile' %}**
+{% if page.title startswith 'Profile' %}
 
-**This is a profile page.**
+This is a profile page.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ## endswith
@@ -60,11 +60,11 @@ startswith tests whether a string starts with a given substring.
 endswith tests whether a string ends with a given substring.
 
 ```
-**{% if page.title endswith 'Forum' %}**
+{% if page.title endswith 'Forum' %}
 
-**This is a forum page.**
+This is a forum page.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### See Also

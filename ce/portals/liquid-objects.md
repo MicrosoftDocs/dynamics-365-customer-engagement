@@ -20,23 +20,23 @@ Liquid objects contain attributes to output dynamic content to the page. For exa
 To access an object attribute by name, use a dot . To render an object's attribute in a template, wrap it in {{ and }}.
 
 ```
-**{{ page.title }}**
+{{ page.title }}
 ```
 Attributes of an object can also be accessed using a string name and \[\]. This is useful in cases where the desired attribute is determined dynamically, or the attribute name contains characters , spaces, special characters, etc., that would be invalid when using the . syntax.
 
 ```
-**{{ page\["title"\] }}**
+{{ page["title"] }}
 
-**{% assign attribute\_name = "Name with spaces" %}**
+{% assign attribute_name = "Name with spaces" %}
 
-**{{ object\[attribute\_name\] }}**
+{{ object[attribute_name] }}
 ```
 
 The following objects can be used and accessed anywhere, in any template.
 
 | entities    | Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*entities*](#entities)                                                                                                                                                      |  
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Now         | A date/time object that refers to the current UTC time, **at the time the template is rendered**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*Date filters*](#date-filters)                                                                                              |  
+| Now         | A date/time object that refers to the current UTC time,**at the time the template is rendered**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*Date filters*](#date-filters)                                                                                              |  
 | Page        | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*page*](#page)  |  
 | params      | A convenient shortcut for request.params. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*request*](#request)                                                                                                                                                                |  
 | request     | Contains information about the current HTTP request. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*request*](#request)                                                                                                                                                     |  
@@ -110,19 +110,19 @@ Provides the ability to access and render an ad.
 The ads object allows you to select a specific ad or ad placement:
 
 ```
-**&lt;div&gt;**
+<div>
 
-**{% assign ad = ads\["Ad Name"\] %}**
+{% assign ad = ads["Ad Name"] %}
 
-**&lt;h4&gt;{{ ad.title }}&lt;/h4&gt;**
+<h4>{{ ad.title }}</h4>
 
-**&lt;a href="{{ ad.redirect\_url }}"&gt;**
+<a href="{{ ad.redirect_url }}">
 
-**&lt;img src="{{ ad.image.url }}" alt="{{ ad.image.alternate\_text }}" /&gt;**
+<img src="{{ ad.image.url }}" alt="{{ ad.image.alternate_text }}" />
 
-**&lt;/a&gt;**
+</a>
 
-**&lt;/div&gt;**
+</div>
 ```
 
 ### **Ads attributes**
@@ -132,9 +132,9 @@ The ads object allows you to select a specific ad or ad placement:
 | \[ad name or id\] | You can access any ad by its Name or Id properties.                 
 
 ```
-  **{% assign ad = ads\["Ad Name"\] %}**                               
+**{% assign ad = ads\["Ad Name"\] %}**                               
                                                                        
-  **{% assign ad = ads\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
+**{% assign ad = ads\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
 ```
 
 ### **Ad Placements attributes**
@@ -144,9 +144,9 @@ The ads object allows you to select a specific ad or ad placement:
 | \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.                          
 
 ```
-  **{% assign placement = ads.placements\["Placement Name or Id"\] %}**                  
+**{% assign placement = ads.placements\["Placement Name or Id"\] %}**                  
                                                                                          
-  **{% assign placement = ads.placements\["2423d713-abb3-44c3-8a7d-c445e16fccad"\] %}**  |
+**{% assign placement = ads.placements\["2423d713-abb3-44c3-8a7d-c445e16fccad"\] %}**  |
 ```
 
 ### **Ad Placement attributes**
@@ -212,7 +212,7 @@ The blogs object allows you to select a specific blog or blog posts.
 
 **&lt;a class="pull-right" href="{{sitemarker.url}}"&gt; All Blogs &lt;/a&gt;**
 
-**&lt;h4&gt; **
+**&lt;h4&gt;**
 
 **&lt;a class="feed-icon fa fa-rss-square" href="{{ blogs.feedpath }}" /&gt;**
 
@@ -228,7 +228,7 @@ The blogs object allows you to select a specific blog or blog posts.
 
 **&lt;li class="list-group-item" &gt;**
 
-**&lt;a class="user-avatar" href="{{ post.author\_url }}"&gt; **
+**&lt;a class="user-avatar" href="{{ post.author\_url }}"&gt;**
 
 **&lt;img src="{{ post.user\_image\_url }}" /&gt;**
 
@@ -260,7 +260,7 @@ The blogs object allows you to select a specific blog or blog posts.
 
 **&lt;/li&gt;**
 
-**{% endfor %} **
+**{% endfor %}**
 
 **&lt;/ul&gt;**
 
@@ -278,9 +278,9 @@ The following table explains the attributes associated with the blogs object.
 | \[blog name or id\] | You can access any blog by its Name or Id properties.                   
 
 ```
-  **{% assign blog = blogs\["Blog Name"\] %}**                             
+**{% assign blog = blogs\["Blog Name"\] %}**                             
                                                                            
-  **{% assign blog = blogs\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
+**{% assign blog = blogs\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
 ```
 
 ### **blog Object**
@@ -339,23 +339,23 @@ The following table explains various attributes associated with blogpost Object.
 Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. If the entity exists, an entity object will be returned. If an entity with the given ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
 
 ```
-**{% assign account = entities.account\['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'\] %}**
+{% assign account = entities.account['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'] %}
 
-**{% if account %}**
+{% if account %}
 
-**{{ account.name }} ({{ account.statecode.label }})**
+{{ account.name }} ({{ account.statecode.label }})
 
-**{% endif %}**
+{% endif %}
 
-**{% assign entity\_logical\_name = 'contact' %}**
+{% assign entity_logical_name = 'contact' %}
 
-**{% assign contact = entities\[entity\_logical\_name\]\[request.params.contactid\] %}**
+{% assign contact = entities[entity_logical_name][request.params.contactid] %}
 
-**{% if contact %}**
+{% if contact %}
 
-**{{ contact.fullname }} ({{ contact.parentcustomerid.name }})**
+{{ contact.fullname }} ({{ contact.parentcustomerid.name }})
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### **Entity**
@@ -375,11 +375,11 @@ An entity object provides access to the attributes of a [!INCLUDE[pn-dynamics-cr
   Generally, this will only return a value for certain entity types that have been integrated into the portal CMS , unless you have customized the URL Provider in your application.                                                                                         |
 | \[attribute or relationship name\] | You can access any attribute of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by logical name.                                                                                                                                                                                                  
 ```                                                                                                                                  
-  **{{ entity.createdon }}**                                                                                                                                                                                                                                                 
+**{{ entity.createdon }}**                                                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                              
-  **{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
+**{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                              
-  **{{ entity\[attribute\_name\] }}**
+**{{ entity\[attribute\_name\] }}**
   ```
                                                                                                                                                                                                                                                                              
   The values of most entity attributes map directly to [*Liquid types*](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But, some attribute types are returned as objects:    
@@ -390,12 +390,12 @@ An entity object provides access to the attributes of a [!INCLUDE[pn-dynamics-cr
                                                                                                                                                                                                                                                                              
   You can also load any related entities by relationship schema name.                                                                                                                                                                                                        
 ```                                                                                                                                     
-**{{ page.adx\_webpage\_entitylist.adx\_name }}**
+{{ page.adx_webpage_entitylist.adx_name }}
 ```
   In the case that a relationship is reflexive (i.e. self-referential), a reflexive relationship object will be returned. (Otherwise, the desired result would be ambiguous.)                                                                                                
 
 ```
-  **{{ page.adx\_webpage\_webpage.referencing.adx\_name }}** 
+**{{ page.adx\_webpage\_webpage.referencing.adx\_name }}** 
 ```
                                                                                                                                                                                                                                                                              
   |  >[!Note]                                                                                                                                                                                     |                      
@@ -664,13 +664,13 @@ The event object has following attributes:
 The eventoccurrences object allows you to access a collection of event occurrences objects. You can order the event occurrences and specify a date range for the occurrences to retrieve, and achieve pagination as well using liquid filters
 
 ```
-{% assign occurances = event.occurrences.from\[today\].to\[advance\_date\] %}
+{% assign occurances = event.occurrences.from[today].to[advance_date] %}
 ```
 
 note that
 
 ```
-{% assign occurances = event.occurrences.min\[today\].max\[advance\_date\] %}
+{% assign occurances = event.occurrences.min[today].max[advance_date] %}
 ```
 
 is also possible.
@@ -712,29 +712,29 @@ Contains properties useful within a [*Iteration tags*](#iteration-tags) loop blo
 **Code**
 
 ```
-**{% for child in page.children %}**
+{% for child in page.children %}
 
-**{% if forloop.first %}**
+{% if forloop.first %}
 
-**This is the first child page!**
+This is the first child page!
 
-**{% else %}**
+{% else %}
 
-**This is child page number {{ forloop.index }}.**
+This is child page number {{ forloop.index }}.
 
-**{% endif %}**
+{% endif %}
 
-**{% endfor %}**
+{% endfor %}
 ```
 
 **Output**
 
 ```
-**This is the first child page!**
+This is the first child page!
 
-**This is child page number 2.**
+This is child page number 2.
 
-**This is child page number 3.**
+This is child page number 3.
 ```
 
 ### **Attributes**
@@ -805,7 +805,7 @@ The forums object allows you to select a Forum or Forum Threads :
 
 **{% endfor %}**
 
-**&lt;/div&gt; **
+**&lt;/div&gt;**
 ```
 
 ### **forums Object**
@@ -817,7 +817,7 @@ The forum object allows you to work with a single forum, allowing you to access 
 The forumthreads object allows you to access a collection of forumthread objects. You can order the forum threads and achieve pagination as well by using liquid filters.
 
 ```
-**{% assign threads = forum.threads | order\_by "adx\_name", "desc" | paginate: 0,4 | all %}**
+{% assign threads = forum.threads | order_by "adx_name", "desc" | paginate: 0,4 | all %}
 ```
 
 A Single Forum Thread
@@ -834,9 +834,9 @@ The forumposts object allows you to access a collection of forumpost objects.
 | \[forum name or id\] | You can access any forum by its Name or Id properties.                                      
 
 ```
-  **{% assign forum = forums\["Forum Name"\] %}**                                              
+**{% assign forum = forums\["Forum Name"\] %}**                                              
                                                                                                
-  **{% assign forum = forums\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**                    |
+**{% assign forum = forums\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**                    |
 ```
 
 ### **forum Object**
@@ -916,45 +916,45 @@ Refers to the current portal request page. This object combines the attributes o
 The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record.
 
 ```
-**&lt;ul class="breadcrumb"&gt;**
+<ul class="breadcrumb">
 
-**{% for crumb in page.breadcrumbs %}**
+{% for crumb in page.breadcrumbs %}
 
-**&lt;li&gt;&lt;a href="{{ crumb.url | escape }}"&gt;{{ crumb.title | escape }}&lt;/a&gt;&lt;/li&gt;**
+<li><a href="{{ crumb.url | escape }}">{{ crumb.title | escape }}</a></li>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;li class="active"&gt;{{ page.title | escape }}&lt;/li&gt;**
+<li class="active">{{ page.title | escape }}</li>
 
-**&lt;/ul&gt;**
+</ul>
 
-**&lt;div class="page-header"&gt;**
+<div class="page-header">
 
-**&lt;h1&gt;{{ page.title | escape }}&lt;/h1&gt;**
+<h1>{{ page.title | escape }}</h1>
 
-**&lt;/div&gt;**
+</div>
 
-**&lt;div class="page-copy"&gt;**
+<div class="page-copy">
 
-**{{ page.adx\_copy }}**
+{{ page.adx_copy }}
 
-**&lt;/div&gt;**
+</div>
 
-**&lt;div class="list-group"&gt;**
+<div class="list-group">
 
-**{% for child in page.children %}**
+{% for child in page.children %}
 
-**&lt;a class="list-group-item" href="{{ child.url | escape }}"&gt;**
+<a class="list-group-item" href="{{ child.url | escape }}">
 
-**{{ child.title | escape }}**
+{{ child.title | escape }}
 
-**&lt;/a&gt;**
+</a>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;/div&gt;**
+</div>
 
-**&lt;!-- Page {{ page.id }} was last modified on {{ page.modifiedon }}. --&gt;**
+<!-- Page {{ page.id }} was last modified on {{ page.modifiedon }}. -->
 ```
 
 ### **Page attributes**
@@ -973,11 +973,11 @@ The page object provides access to things like the breadcrumbs for the current p
 | url                                | The URL of the page.                                                                                                                                                                                                                                                      |
 | \[attribute or relationship name\] | You can access any attribute of the page's underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.                                                                                                                                                                                
 ```                                                                                                                                     
-  **{{ page.createdon }}**                                                                                                                                                                                                                                                   
+**{{ page.createdon }}**                                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                                                              
-  **{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
+**{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                              
-  **{{ page\[attribute\_name\] }}**
+**{{ page\[attribute\_name\] }}**
   ```                                                                                                                                                                                                                                                                          
   The values of most entity attributes map directly to [*Liquid types*](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But, some attribute types are returned as objects:    
                                                                                                                                                                                                                                                                              
@@ -987,12 +987,12 @@ The page object provides access to things like the breadcrumbs for the current p
                                                                                                                                                                                                                                                                              
   You can also load any related entities by relationship schema name.                                                                                                                                                                                                        
  ```
-  **{{ page.adx\_webpage\_entitylist.adx\_name }}**
+**{{ page.adx\_webpage\_entitylist.adx\_name }}**
  ```
                                                                                                                                     
   In the case that a relationship is reflexive (that is, self-referential), a [*entities*](#entities) object will be returned. (Otherwise, the desired result would be ambiguous.)                                                                                             
 ```
-**{{ page.adx\_webpage\_webpage.referencing.adx\_name }}**  
+{{ page.adx_webpage_webpage.referencing.adx_name }}  
 ```
 
   |  >[!Note]                                                                                                                                                                                     |                      
@@ -1016,27 +1016,27 @@ Provides the ability to access and render a poll.
 The polls object allows you to select a specific poll or poll placement:
 
 ```
-**&lt;div&gt;**
+<div>
 
-**{% assign poll = polls\["Poll Name"\] %}**
+{% assign poll = polls["Poll Name"] %}
 
-**&lt;h4&gt;{{ poll.question }}&lt;/h4&gt;**
+<h4>{{ poll.question }}</h4>
 
-**{% for option in poll.options %}**
+{% for option in poll.options %}
 
-**&lt;div&gt;**
+<div>
 
-**&lt;input type="radio" name="{{ poll.name }}" id="{{ option.id }}" /&gt;**
+<input type="radio" name="{{ poll.name }}" id="{{ option.id }}" />
 
-**&lt;label for="{{ option.id }}"&gt;{{ option.answer }}&lt;/label&gt;**
+<label for="{{ option.id }}">{{ option.answer }}</label>
 
-**&lt;/div&gt;**
+</div>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;button type="button"&gt;{{ poll.submit\_button\_label }}&lt;/button&gt;**
+<button type="button">{{ poll.submit_button_label }}</button>
 
-**&lt;/div&gt;**
+</div>
 ```
 
 ### **Polls Attributes**
@@ -1046,16 +1046,16 @@ The polls object allows you to select a specific poll or poll placement:
 | \[poll name or id\] | You can access any poll by its Name or Id properties.                   
 
 ```
-  **{% assign poll = polls\["Poll Name"\] %}**                             
+**{% assign poll = polls\["Poll Name"\] %}**                             
                                                                            
-  **{% assign poll = polls\["41827a5c-33de-49b8-a0c7-439e6a02eb98"\] %}**  |
+**{% assign poll = polls\["41827a5c-33de-49b8-a0c7-439e6a02eb98"\] %}**  |
 ```
 
 ### **Poll Placements Attributes**
 
 |                               |                                                                                         |
 |-------------------------------|-----------------------------------------------------------------------------------------|
-| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.``` **{% assign placement = polls.placements\["Placement Name or Id"\] %}** **{% assign placement = polls.placements\["7677c5d4-406e-4b6c-907c-916ac17dba0f"\] %}** ```|
+| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.```**{% assign placement = polls.placements\["Placement Name or Id"\] %}****{% assign placement = polls.placements\["7677c5d4-406e-4b6c-907c-916ac17dba0f"\] %}** ```|
 
 ### **Poll Placement Attributes**
 
@@ -1115,9 +1115,9 @@ The polls object allows you to select a specific poll or poll placement:
 Contains information about the current HTTP request.
 
 ```
-**{% assign id = request.params\['id'\] %}**
+{% assign id = request.params['id'] %}
 
-**&lt;a href="{{ request.url | add\_query: 'foo', 1 }}"&gt;Link&lt;/a&gt;**
+<a href="{{ request.url | add_query: 'foo', 1 }}">Link</a>
 ```
 
 |  >[!Note]               |  
@@ -1156,35 +1156,35 @@ Contains information about the current HTTP request.
 The searchindex object is used within the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags), and provides access to the results of a query.  
 
 ```
-**{% searchindex query: 'support', page: params.page, page\_size: 10 %}**
+{% searchindex query: 'support', page: params.page, page_size: 10 %}
 
-**{% if searchindex.results.size &gt; 0 %}**
+{% if searchindex.results.size > 0 %}
 
-**&lt;p&gt;Found about {{ searchindex.approximate\_total\_hits }} matches:&lt;/p&gt;**
+<p>Found about {{ searchindex.approximate_total_hits }} matches:</p>
 
-**&lt;ul&gt;**
+<ul>
 
-**{% for result in searchindex.results %}**
+{% for result in searchindex.results %}
 
-**&lt;li&gt;**
+<li>
 
-**&lt;h3&gt;&lt;a href="{{ result.url | escape }}"&gt;{{ result.title | escape }}&lt;/a&gt;&lt;/h3&gt;**
+<h3><a href="{{ result.url | escape }}">{{ result.title | escape }}</a></h3>
 
-**&lt;p&gt;{{ result.fragment }}&lt;/p&gt;**
+<p>{{ result.fragment }}</p>
 
-**&lt;/li&gt;**
+</li>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;/ul&gt;**
+</ul>
 
-**{% else %}**
+{% else %}
 
-**&lt;p&gt;Your query returned no results.&lt;/p&gt;**
+<p>Your query returned no results.</p>
 
-**{% endif %}**
+{% endif %}
 
-**{% endsearchindex %}**
+{% endsearchindex %}
 ```
 
 ### **Attributes**
@@ -1239,23 +1239,23 @@ Allows you to load any [*Configure site settings for portals*](configure-site-se
 | Settings are returned as [*Liquid types*](liquid-types.md), but you can use [*Type filters*](#type-filters) to convert them to other types. |  
 
 ```
-**{{ settings\["My Setting"\] }}**
+{{ settings["My Setting"] }}
 
-**{% assign search\_enabled = settings\["Search/Enabled"\] | boolean %}**
+{% assign search_enabled = settings["Search/Enabled"] | boolean %}
 
-**{% if search\_enabled %}**
+{% if search_enabled %}
 
-**Search is enabled.**
+Search is enabled.
 
-**{% endif %}**
+{% endif %}
 
-**{% assign pagesize = settings\['page size'\] | integer | default: 10 %}**
+{% assign pagesize = settings['page size'] | integer | default: 10 %}
 
-**{% if pagesize &gt; 10 %}**
+{% if pagesize > 10 %}
 
-**Page size is greater than 10.**
+Page size is greater than 10.
 
-**{% endif %}**
+{% endif %}
 ```
 
 |  >[!Note]                                             |  
@@ -1275,39 +1275,39 @@ Allows you to load any [*Configure site settings for portals*](configure-site-se
 Allows access to the portal site map.
 
 ```
-**&lt;h1&gt;{{ sitemap.root.title }}&lt;/h1&gt;**
+<h1>{{ sitemap.root.title }}</h1>
 
-**&lt;ul class="breadcrumb"&gt;**
+<ul class="breadcrumb">
 
-**{% for crumb in sitemap.current.breadcrumbs %}**
+{% for crumb in sitemap.current.breadcrumbs %}
 
-**&lt;li&gt;&lt;a href="{{ crumb.title }}"&gt;{{ crumb.title }}&lt;/a&gt;&lt;/li&gt;**
+<li><a href="{{ crumb.title }}">{{ crumb.title }}</a></li>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;li class="active"&gt;{{ sitemap.current.title }}&lt;/li&gt;**
+<li class="active">{{ sitemap.current.title }}</li>
 
-**&lt;/ul&gt;**
+</ul>
 
-**{% for child in sitemap.current.children %}**
+{% for child in sitemap.current.children %}
 
-**&lt;a href="{{ child.url }}"&gt;{{ child.title }}&lt;/a&gt;**
+<a href="{{ child.url }}">{{ child.title }}</a>
 
-**{% endfor %}**
+{% endfor %}
 
 It's also possible to load a site map node by URL path:
 
-**{% assign node = sitemap\["/content/page1/"\] %}**
+{% assign node = sitemap["/content/page1/"] %}
 
-**{% if node %}**
+{% if node %}
 
-**{% for child in node.children %}**
+{% for child in node.children %}
 
-**&lt;a href="{{ child.url }}"&gt;{{ child.title }}&lt;/a&gt;**
+<a href="{{ child.url }}">{{ child.title }}</a>
 
-**{% endfor %}**
+{% endfor %}
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### **Site Map Attributes**
@@ -1350,19 +1350,19 @@ It's also possible to load a site map node by URL path:
 Allows you to load any site marker by name. If the sitemarker exists, a sitemarker object will be returned. If a sitemarker with the given name is not found, [*Liquid types*](liquid-types.md) will be returned.  
 
 ```
-**{{ sitemarkers\["Login"\].url }}**
+{{ sitemarkers["Login"].url }}
 
-**{% assign my\_sitemarker = sitemarkers\["My Site Marker"\] %}**
+{% assign my_sitemarker = sitemarkers["My Site Marker"] %}
 
-**{% if my\_sitemarker %}**
+{% if my_sitemarker %}
 
-**&lt;a href="{{ my\_sitemarker.url }}"&gt;{{ my\_sitemarker.adx\_name }}&lt;/a&gt;**
+<a href="{{ my_sitemarker.url }}">{{ my_sitemarker.adx_name }}</a>
 
-**{% else %}**
+{% else %}
 
-**Site marker "My Site Marker" does not exist.**
+Site marker "My Site Marker" does not exist.
 
-**{% endif %}**
+{% endif %}
 ```
 
 |  >[!Note]                                             |  
@@ -1390,19 +1390,19 @@ Allows you to load any site marker by name. If the sitemarker exists, a sitemark
 Allows you to load any content snippets by name. If a snippet with the given name is not found, [*Null*](#null) will be returned.  
 
 ```
-**{{ snippets\["Header"\] }}**
+{{ snippets["Header"] }}
 
-**{% assign footer = snippets\["Footer"\] %}**
+{% assign footer = snippets["Footer"] %}
 
-**{% if footer %}**
+{% if footer %}
 
-**{{ footer }}**
+{{ footer }}
 
-**{% else %}**
+{% else %}
 
-**No footer snippet was found.**
+No footer snippet was found.
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### See Also
@@ -1451,15 +1451,15 @@ Refers to the current portal user, allowing access to all attributes of the unde
 user is an [*entities*](#entities).  
 
 ```
-**{% if user %}**
+{% if user %}
 
-**Hello, {{ user.fullname }}!**
+Hello, {{ user.fullname }}!
 
-**{% else %}**
+{% else %}
 
-**Hello, anonymous user!**
+Hello, anonymous user!
 
-**{% endif %}**
+{% endif %}
 ```
 
 ### **Attributes**
@@ -1485,13 +1485,13 @@ Refers to the portal [*website*](#website-1), allowing access to all attributes 
 **Code**
 
 ```
-**{{ website.adx\_name }} ({{ website.id }})**
+{{ website.adx_name }} ({{ website.id }})
 ```
 
 **Output**
 
 ```
-**Community Portal (936DA01F-9ABD-4d9d-80C7-02AF85C822A8)**
+Community Portal (936DA01F-9ABD-4d9d-80C7-02AF85C822A8)
 ```
 
 ### See Also
@@ -1509,43 +1509,43 @@ Allows you to load any [*weblinks*](#weblinks) by name or ID.
 If the web link set exists, a web link set object will be returned. If a web link set with the given name or ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
 
 ```
-**&lt;!-- Load web link set by ID --&gt;**
+<!-- Load web link set by ID -->
 
-**{{ weblinks\[page.adx\_navigation.id\].name }}**
+{{ weblinks[page.adx_navigation.id].name }}
 
-**&lt;!-- Load web link set by name --&gt;**
+<!-- Load web link set by name -->
 
-**{% assign nav = weblinks\["Primary Navigation"\] %}**
+{% assign nav = weblinks["Primary Navigation"] %}
 
-**{% if nav %}**
+{% if nav %}
 
-**&lt;h1&gt;{{ nav.title | escape }}&lt;/h1&gt;**
+<h1>{{ nav.title | escape }}</h1>
 
-**&lt;ul&gt;**
+<ul>
 
-**{% for link in nav.weblinks %}**
+{% for link in nav.weblinks %}
 
-**&lt;li&gt;**
+<li>
 
-**&lt;a href="{{ link.url | escape }}" title="{{ link.tooltip | escape }}"&gt;**
+<a href="{{ link.url | escape }}" title="{{ link.tooltip | escape }}">
 
-**{% if link.image %}**
+{% if link.image %}
 
-**&lt;img src="{{ link.image.url | escape }}" alt="{{ link.image.alternate\_text | escape }}" /&gt;**
+<img src="{{ link.image.url | escape }}" alt="{{ link.image.alternate_text | escape }}" />
 
-**{% endif %}**
+{% endif %}
 
-**{{ link.name | escape }}**
+{{ link.name | escape }}
 
-**&lt;/a&gt;**
+</a>
 
-**&lt;/li&gt;**
+</li>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;/ul&gt;**
+</ul>
 
-**{% endif %}**
+{% endif %}
 ```
 
 |  >[!Note]                                             |  

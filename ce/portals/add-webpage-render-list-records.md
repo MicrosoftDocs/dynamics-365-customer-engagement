@@ -22,18 +22,18 @@ The data can also be filtered by the current portal user, the current portal use
 
 ## Add an entity list to your portal
 
-The Entity List contains relationships to webpages and various properties in order to control the initialization of the list of records within the portal. The relationship to Web Page allows dynamic retrieval of the list definition for a given page node within the website. To view existing Entity Views or to create new Entity Views, navigate to **Portals** &gt; **Entity Lists**
+The Entity List contains relationships to webpages and various properties in order to control the initialization of the list of records within the portal. The relationship to Web Page allows dynamic retrieval of the list definition for a given page node within the website. To view existing Entity Views or to create new Entity Views, navigate to**Portals** &gt;**Entity Lists**
 
 > [!Note]
 > A Entity List must be associated with a Web Page for a given website for the list to be viewable within the site.
 
-The Web Pages associated with the Entity List can be viewed by clicking the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When Creating your Entity List, the first step is to choose the Entity for which you want to render a list on the portal. You'll then choose one or more [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Views to render.
+The Web Pages associated with the Entity List can be viewed by clicking the**Web Pages** link listed in the**Related** navigation links in the leftmost menu. When Creating your Entity List, the first step is to choose the Entity for which you want to render a list on the portal. You'll then choose one or more [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Views to render.
 
 When creating or editing a Web Page, an Entity List can be specified in the lookup field provided on the Web Page form. The Page Template typically will be the "Page" template but can be one of several other templates designed for content as the master templates contain the necessary logic to determine if an Entity List should be rendered.
 
 ## Entity list attributes and relationships
 
-| **Name** | **Description** |
+|**Name** |**Description** |
 | ------------ | --- |
 | Name | The descriptive name of the record. This field is required. |
 | Entity Name | The name of the entity from which the Saved Query View will be loaded from. This field is required. |
@@ -74,7 +74,7 @@ Find a particular attribute field and get its value to possibly modify the rende
 ```
 $(document).ready(function (){
    $(".entitylist.entity-grid").on("loaded", function () {
-      $(this).children(".view-grid").find("td\[data-attribute='accountnumber'\]").each(function (i, e){
+      $(this).children(".view-grid").find("td[data-attribute='accountnumber']").each(function (i, e){
          var value = $(this).data("value");
          // now that you have the value you can do something to the value
       });
@@ -85,19 +85,19 @@ $(document).ready(function (){
 
 You can easily enable and configure actions for records in an Entity List (Create, Edit, Delete, and so on). It is also possible to override default labels, sizes, and other attributes so that the Entity List will be displayed exactly the way you want.
 
-These settings are found in the Configuration section of the Entity List form. By default, only **Basic Settings** are shown. Select **Advanced Settings** to see additional settings.
+These settings are found in the Configuration section of the Entity List form. By default, only**Basic Settings** are shown. Select**Advanced Settings** to see additional settings.
 
 ![Configure an entity list](media/configure-entitylist.png "Configure an entity list")  
 
 **Attributes**
 
-| **Name**                   |
+|**Name**                   |
 |----------------------------|
-| **Basic Settings**         |
+|**Basic Settings**         |
 | View Actions               |
 | Items Actions              |
 | Override Column Attributes |
-| **Advanced Settings**      |
+|**Advanced Settings**      |
 | Loading Message            |
 | Error Message              |
 | Access Denied Message      |
@@ -115,13 +115,13 @@ These settings are found in the Configuration section of the Entity List form. B
 
 In general, Entity Actions have settings that can be configured. In all cases, this is to give you more options in terms of customization, and the fields are not required. Simply adding the action will allow the action to be taken on the portal, provided the appropriate privilege has been granted by Entity Permissions.
 
-Generally, you can configure the corresponding dialog for each action, which will appear only if you select **Confirmation Required**.
+Generally, you can configure the corresponding dialog for each action, which will appear only if you select**Confirmation Required**.
 
-| **Name**               |
+|**Name**               |
 |------------------------|
-| **Basic Settings**     |
+|**Basic Settings**     |
 | Confirmation Required? |
-| **Advanced Settings**  |
+|**Advanced Settings**  |
 | Confirmation           |
 | Button Label           |
 | Button Tooltip         |
@@ -131,7 +131,7 @@ Generally, you can configure the corresponding dialog for each action, which wil
 
 **General dialog (advanced) settings**
 
-| **Name**                 | **Description**                                                                                                                         |
+|**Name**                 |**Description**                                                                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog.                                                                         |
 | Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button on the dialog.                                                         |
@@ -145,19 +145,19 @@ Generally, you can configure the corresponding dialog for each action, which wil
 
 **Create action settings**
 
-Enabling a **Create Action** renders a button above the Entity List that, when clicked, pops up a dialog with an Entity Form that allows a user to create a new record provided the 'Create' privilege has been granted by Entity Permissions.
+Enabling a**Create Action** renders a button above the Entity List that, when clicked, pops up a dialog with an Entity Form that allows a user to create a new record provided the 'Create' privilege has been granted by Entity Permissions.
 
-| **Name**              |
+|**Name**              |
 |-----------------------|
-| **Basic Settings**    |
+|**Basic Settings**    |
 | Entity Form           |
-| **Advanced Settings** |
+|**Advanced Settings** |
 | Button Label          |
 | Button Tooltip        |
 
 **Create Form Dialog (Advanced Settings)**
 
-| **Name**               | **Description**                                                                                                                                 |
+|**Name**               |**Description**                                                                                                                                 |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Loading Message        | Overrides the message that appears while the dialog is loading                                                                                  |
 | Title                  | Overrides the HTML that appears in the title bar of the dialog                                                                                  |
@@ -168,32 +168,32 @@ Enabling a **Create Action** renders a button above the Entity List that, when c
 
 **Download action settings**
 
-Enabling a **Download Action** renders a button above the Entity List that, when clicked, downloads the data from the list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] (.xlsx) file.
+Enabling a**Download Action** renders a button above the Entity List that, when clicked, downloads the data from the list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] (.xlsx) file.
 
-| **Name**              |
+|**Name**              |
 |-----------------------|
-| **Basic Settings**    |
+|**Basic Settings**    |
 | *None*                |
-| **Advanced Settings** |
+|**Advanced Settings** |
 | Button Label          |
 | Button Tooltip        |
 
 **Details action settings**
 
-Enabling a **Details Action** allows a user to view a read-only Entity Form of a selected row in the Entity List.
+Enabling a**Details Action** allows a user to view a read-only Entity Form of a selected row in the Entity List.
 
-| **Name**                              |
+|**Name**                              |
 |---------------------------------------|
-| **Basic Settings**                    |
+|**Basic Settings**                    |
 | Entity Form                           |
-| **Advanced Settings**                 |
+|**Advanced Settings**                 |
 | Record ID Query String Parameter Name |
 | Button Label                          |
 | Button tooltip                        |
 
 **Details form dialog (advanced) settings**
 
-| **Name**               | **Description**                                                                                                                         |
+|**Name**               |**Description**                                                                                                                         |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Loading Message        | Overrides the HTML that appears when the dialog is loading.                                                                             |
 | Title                  | Overrides the HTML that appears in the title bar of the dialog.                                                                         |
@@ -204,20 +204,20 @@ Enabling a **Details Action** allows a user to view a read-only Entity Form of a
 
 **Edit action settings**
 
-Enabling an **Edit Action** allows a user to view an editable Entity Form that is data-bound to the record of the selected row from the Entity List provided the 'Write' privilege has been granted by Entity Permissions.
+Enabling an**Edit Action** allows a user to view an editable Entity Form that is data-bound to the record of the selected row from the Entity List provided the 'Write' privilege has been granted by Entity Permissions.
 
-| **Name**                              |
+|**Name**                              |
 |---------------------------------------|
-| **Basic Settings**                    |
+|**Basic Settings**                    |
 | Entity Form                           |
-| **Advanced Settings**                 |
+|**Advanced Settings**                 |
 | Record ID Query String Parameter Name |
 | Button Label                          |
 | Button Tooltip                        |
 
 **Edit form dialog (advanced) settings**
 
-| **Name**               | **Description**                                                                                                                   |
+|**Name**               |**Description**                                                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Loading Message        | Overrides the HTML that appears when the dialog is loading.                                                                       |
 | Title                  | Overrides the HTML that appears in the title bar of the dialog.                                                                   |
@@ -228,20 +228,20 @@ Enabling an **Edit Action** allows a user to view an editable Entity Form that i
 
 **Delete action settings**
 
-Enabling a **Delete Action** allows a user to permanently delete the record of the selected row from the Entity List provided the 'Delete' privilege has been granted by Entity Permissions.
+Enabling a**Delete Action** allows a user to permanently delete the record of the selected row from the Entity List provided the 'Delete' privilege has been granted by Entity Permissions.
 
-| **Name**              |
+|**Name**              |
 |-----------------------|
-| **Basic Settings**    |
+|**Basic Settings**    |
 | *none*                |
-| **Advanced Settings** |
+|**Advanced Settings** |
 | Confirmation          |
 | Button Label          |
 | Button Tooltip        |
 
 **Delete dialog (advanced) settings**
 
-| **Name**                 | **Description**                                                                                                                         |
+|**Name**                 |**Description**                                                                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog.                                                                         |
 | Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button on the dialog.                                                         |
@@ -255,21 +255,21 @@ Enabling a **Delete Action** allows a user to permanently delete the record of t
 
 **Workflow action settings**
 
-Enabling a **Workflow Action** allows a user to run an On-Demand Workflow against the record of the selected row from the Entity List. You may add any number of Workflow Actions to the Entity List.
+Enabling a**Workflow Action** allows a user to run an On-Demand Workflow against the record of the selected row from the Entity List. You may add any number of Workflow Actions to the Entity List.
 
-| **Name**              |
+|**Name**              |
 |-----------------------|
-| **Basic Settings**    |
+|**Basic Settings**    |
 | Workflow              |
 | Button Label          |
-| **Advanced Settings** |
+|**Advanced Settings** |
 | Button Tooltip        |
 
 ## Securing entity lists
 
 To secure an entity list, you must configure Entity Permissions for the Entity for which records are being displayed and also set the "Enable Entity Permissions" Boolean value on the Entity List record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to true.
 
-The act of securing an Entity List will ensure that for any user that accesses the page, only records that they have been given permission to are shown. This is achieved by an additional filter being added to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views that are being surfaced via the list. This filter will filter for only records that are accessible to the user, via **Read** permission.
+The act of securing an Entity List will ensure that for any user that accesses the page, only records that they have been given permission to are shown. This is achieved by an additional filter being added to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views that are being surfaced via the list. This filter will filter for only records that are accessible to the user, via**Read** permission.
 
 Further to this, any actions that are defined for the List will respect the corresponding permissions for that action, on a per-record basis. i.e., if you have Edit for a record, the Edit action will be enabled for that record. Same applies for Delete, Create, etc.
 
@@ -327,7 +327,7 @@ You can define how the Filter area on the Entity List will rendered using the Or
 
 **Filter types**
 
-| **Filter Type**      | **Description**                                                                                                                                                                                                                               |
+|**Filter Type**      |**Description**                                                                                                                                                                                                                               |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Text Filter          | Filter the Entity List using a textbox to search for matching text in a selected Attribute of the given Entity.                                                                                                                               |
 | Attribute Filter Set | Filter the Entity List using a series of checkboxes, each of which tries to match its condition against a particular Attribute of the given Entity.                                                                                           |
@@ -347,7 +347,7 @@ To add a Text Filter, click " + Text Filter":
 
 The Text Filter uses the following attributes:
 
-| **Name**     | **Description**                                                                                                                                        |
+|**Name**     |**Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.*Only attributes with the type "String" are valid for a Text Filter.*                                                                                   |
 | Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute. |
@@ -360,7 +360,7 @@ The Attribute Filter Set adds a series of options to filter the Entity List by, 
 
 The Attribute Filter Set uses the following attributes:
 
-| **Name**     | **Description**                                                                                                                                        |
+|**Name**     |**Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.Only attributes with the following types are valid for a Text Filter: String, BigInt,    Decimal, Double, Integer, Money, Picklist, DateTime, Boolean
 |Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute.
@@ -372,7 +372,7 @@ An Attribute Filter Set can usually have any number of options, with the excepti
 
 Options have the following attributes:
 
-| **Name**     | **Description**                                                                                                                                                                                  |
+|**Name**     |**Description**                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Operator     | The comparison operator used to filter results, for example Equals, Less Than, and so on. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains". Picklist and Boolean operators are always "Equals".                                                                                                                                               |
 | Value        | The actual value used for this filter condition.                                                                                                                                                 |
@@ -386,7 +386,7 @@ The Lookup Set adds a series of options to filter the Entity List by, tied to a 
 
 The Lookup Set uses the following attributes:
 
-| **Name**     | **Description**                                                                                                                                           |
+|**Name**     |**Description**                                                                                                                                           |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Relationship | The name of the Related Entity to the Entity List's selected Entity Type to filter by. Only entities with a one-to-many or many-to-many relationship with the Entity List's selected Entity Type appear as options for this filter type.          |
 | Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Relationship. |
@@ -398,7 +398,7 @@ A Lookup Set can typically have any number of options, with the only limit being
 
 Options have the following attributes:
 
-| **Name**     | **Description**                                                                                                                      |
+|**Name**     |**Description**                                                                                                                      |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Value        | The record of the selected related type to filter by.                                                                                |
 | Display Name | Overrides the display name for this Option in the Filter box. By default, this will be set to the same value as the Value attribute. |
@@ -411,7 +411,7 @@ The Range Filter Set adds a series of options, each with one or two conditions, 
 
 The Range Filter Set Uses the following attributes:
 
-| **Name**     | **Description**                                                                                                                                        |
+|**Name**     |**Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Attribute    | The name of the Attribute on the Entity List's selected Entity Type to filter by.Only attributes with the following types are valid for a Text Filter: String, BigInt,Decimal, Double, Integer, Money, DateTime                       |
 | Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute. |
@@ -423,7 +423,7 @@ A Range Filter Set can have any number of options. Each option will produce a fi
 
 Options have the following attributes:
 
-| **Name**              | **Description**                                                                                                                                                                                |
+|**Name**              |**Description**                                                                                                                                                                                |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Operator 1            | The first comparison operator used to filter results, e.g. "Equals", "Less Than", etc. The list of Operators for the option will depend on the type of the Attribute selected for the Filter. For example, numeric types ("Decimal") will have Operators such as "Less Than" or "Greater Than", whereas "String" attributes will use Operators such as "Begins With" or "Contains". Picklist and Boolean operators are always "Equals".                                                                                                                                             |
 | Value 1               | The first value used for this filter condition.                                                                                                                                                |
@@ -439,7 +439,7 @@ The Dynamic Picklist Set adds a series of options to filter by that represent al
 
 The Dynamic Picklist Set uses the following options:
 
-| **Name**     | **Description**                                                                                                                                        |
+|**Name**     |**Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Attribute    | The name of the Picklist Attribute on the Entity List's selected Entity Type to filter by.                                                             |
 | Display Name | Override the label for the Filter when the Entity List is displayed. By default, this will be automatically set to the name of the selected Attribute. |
@@ -454,7 +454,7 @@ This is different from a Lookup Set. In the Lookup Set, you must manually specif
 
 The Dynamic Lookup Set uses the following options:
 
-| **Name**                      | **Description**                                                                                                                                                                      |
+|**Name**                      |**Description**                                                                                                                                                                      |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Relationship                  | The name of the Related Entity to the Entity List's selected Entity Type to filter by.Only entities with a one-to-many or many-to-many relationship with the Entity List's selected Entity Type appear as options for this filter type.                                     |
 | View                          | The View (saved query) to use as a source for the dynamic list of entities to filter by                                                                                              |
@@ -470,7 +470,7 @@ The range filter can create either a simple textbox filter like the Text Filter,
 
 The FetchXML Filter uses only one attribute:
 
-| **Name** | **Description**                            |
+|**Name** |**Description**                            |
 |----------|--------------------------------------------|
 | FetchXML | The XML statement representing the filter. |
 

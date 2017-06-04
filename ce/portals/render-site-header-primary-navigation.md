@@ -24,144 +24,144 @@ Render a website header and primary navigation bar, using portals settings, snip
 
 
 ```
-&lt;divclass="masthead hidden-xs"&gt;
-&lt;divclass="container"&gt;
-&lt;divclass="toolbar"&gt;
-&lt;divclass="toolbar-row"&gt;
-{%assignsearch\_enabled=settings\['search/enabled'\]|boolean|default:true%}{%assignsearch\_page=sitemarkers\['Search'\]%}{%ifsearch\_enabledandsearch\_page%}
-&lt;divclass="toolbar-item toolbar-search"&gt;
-&lt;formmethod="GET"action="{{search\_page.url}}"role="search"&gt;
-&lt;labelfor="q"class="sr-only"&gt;
-{{snippets\["Header/Search/Label"\]|default:"Search"}}
-&lt;/label&gt;
-&lt;divclass="input-group"&gt;
-&lt;inputtype="text"class="form-control"id="q"name="q"placeholder="{{snippets\["Header/Search/Label"\]|default:"Search"}}"value="{{params.q}}"title="{{snippets\["Header/Search/Label"\]|default:"Search"}}"&gt;
-&lt;divclass="input-group-btn"&gt;
-&lt;buttontype="submit"class="btn-default" title="{{snippets\["Header/Search/ToolTip"\]|default:"Search"}}"&gt;
-&lt;spanclass="fa-search" aria-hidden="true"&gt;
-&lt;/span&gt;
-&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/form&gt;
-&lt;/div&gt;
+<divclass="masthead hidden-xs">
+<divclass="container">
+<divclass="toolbar">
+<divclass="toolbar-row">
+{%assignsearch_enabled=settings['search/enabled']|boolean|default:true%}{%assignsearch_page=sitemarkers['Search']%}{%ifsearch_enabledandsearch_page%}
+<divclass="toolbar-item toolbar-search">
+<formmethod="GET"action="{{search_page.url}}"role="search">
+<labelfor="q"class="sr-only">
+{{snippets["Header/Search/Label"]|default:"Search"}}
+</label>
+<divclass="input-group">
+<inputtype="text"class="form-control"id="q"name="q"placeholder="{{snippets["Header/Search/Label"]|default:"Search"}}"value="{{params.q}}"title="{{snippets["Header/Search/Label"]|default:"Search"}}">
+<divclass="input-group-btn">
+<buttontype="submit"class="btn-default" title="{{snippets["Header/Search/ToolTip"]|default:"Search"}}">
+<spanclass="fa-search" aria-hidden="true">
+</span>
+</button>
+</div>
+</div>
+</form>
+</div>
 {%endif%}
-&lt;divclass="toolbar-item"&gt;
-&lt;divclass="btn-toolbar"role="toolbar"&gt;
+<divclass="toolbar-item">
+<divclass="btn-toolbar"role="toolbar">
 {%ifuser%}
-&lt;divclass="btn-group"&gt;
-&lt;ahref="\#"class="btn-default dropdown-toggle" data-toggle="dropdown"&gt;
-&lt;spanclass="fa fa-user"aria-hidden="true"&gt;
-&lt;/span&gt;
-&lt;spanclass="username"&gt;
+<divclass="btn-group">
+<ahref="\#"class="btn-default dropdown-toggle" data-toggle="dropdown">
+<spanclass="fa fa-user"aria-hidden="true">
+</span>
+<spanclass="username">
 {{user.fullname}}
-&lt;/span&gt;
-&lt;spanclass="caret"&gt;
-&lt;/span&gt;
-&lt;/a&gt;
-&lt;ulclass="dropdown-menu pull-right"role="menu"&gt;
-{%assignshow\_profile\_nav=settings\["Header/ShowAllProfileNavigationLinks"\]|boolean|default:true%}{%ifshow\_profile\_nav%}{%assignprofile\_nav=weblinks\["Profile Navigation"\]%}{%ifprofile\_nav%}{%forlinkinprofile\_nav.weblinks%}
-&lt;li&gt;
-&lt;ahref="{{link.url}}"&gt;
+</span>
+<spanclass="caret">
+</span>
+</a>
+<ulclass="dropdown-menu pull-right"role="menu">
+{%assignshow_profile_nav=settings["Header/ShowAllProfileNavigationLinks"]|boolean|default:true%}{%ifshow_profile_nav%}{%assignprofile_nav=weblinks["Profile Navigation"]%}{%ifprofile_nav%}{%forlinkinprofile_nav.weblinks%}
+<li>
+<ahref="{{link.url}}">
 {{link.name}}
-&lt;/a&gt;
-&lt;/li&gt;
+</a>
+</li>
 {%endfor%}{%endif%}{%else%}
-&lt;li&gt;
-&lt;ahref="{{sitemarkers\['Profile'\].url}}"&gt;
-{{snippets\["Profile Link Text"\]|default:"Profile"}}
-&lt;/a&gt;
-&lt;/li&gt;
+<li>
+<ahref="{{sitemarkers['Profile'].url}}">
+{{snippets["Profile Link Text"]|default:"Profile"}}
+</a>
+</li>
 {%endif%}
-&lt;liclass="divider"&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ahref="/account-signout?returnUrl={{request.raw\_url}}"&gt;
-{{snippets\["links/logout"\]|default:"SignOut"}}
-&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+<liclass="divider">
+</li>
+<li>
+<ahref="/account-signout?returnUrl={{request.raw_url}}">
+{{snippets["links/logout"]|default:"SignOut"}}
+</a>
+</li>
+</ul>
+</div>
 {%else%}
-&lt;divclass="btn-group"&gt;
-&lt;aclass="btn btn-primary"href="{{sitemarkers\['Login'\].url|add\_query:'returnurl',request.path\_and\_query}}"&gt;
-&lt;spanclass="fa-sign-in "aria-hidden="true"&gt;
-&lt;/span&gt;
-{{snippets\["links/login"\]|default:"Sign In"}}
-&lt;/a&gt;
-&lt;/div&gt;
+<divclass="btn-group">
+<aclass="btn btn-primary"href="{{sitemarkers['Login'].url|add_query:'returnurl',request.path_and_query}}">
+<spanclass="fa-sign-in "aria-hidden="true">
+</span>
+{{snippets["links/login"]|default:"Sign In"}}
+</a>
+</div>
 {%endif%}
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
+</div>
+</div>
 {%editablesnippets'Header'type:'html'%}
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;divclass="header-navbar navbar navbar-default navbar-static-top"role="navigation"&gt;
-&lt;divclass="container"&gt;
-&lt;divclass="navbar-header"&gt;
-&lt;buttontype="button"class="navbar-toggle"data-toggle="collapse"data-target="\#header-navbar-collapse"&gt;
-&lt;spanclass="sr-only"&gt;
+</div>
+</div>
+<divclass="header-navbar navbar navbar-default navbar-static-top"role="navigation">
+<divclass="container">
+<divclass="navbar-header">
+<buttontype="button"class="navbar-toggle"data-toggle="collapse"data-target="\#header-navbar-collapse">
+<spanclass="sr-only">
 Toggle navigation
-&lt;/span&gt;
-&lt;spanclass="icon-bar"&gt;
-&lt;/span&gt;
-&lt;spanclass="icon-bar"&gt;&lt;/span&gt;&lt;spanclass="icon-bar"&gt;&lt;/span&gt;&lt;/button&gt;&lt;divclass="navbar-left visible-xs"&gt;
+</span>
+<spanclass="icon-bar">
+</span>
+<spanclass="icon-bar"></span><spanclass="icon-bar"></span></button><divclass="navbar-left visible-xs">
 {%editablesnippets'Mobile Header'type:'html'%}
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;divid="header-navbar-collapse"class="navbar-collapse"&gt;
-&lt;divclass="navbar-left hidden-xs"&gt;
+</div>
+</div>
+<divid="header-navbar-collapse"class="navbar-collapse">
+<divclass="navbar-left hidden-xs">
 {%editablesnippets'Navbar Left'type:'html'%}
-&lt;/div&gt;
-{%assignprimary\_nav=weblinks\["Primary Navigation"\]%}{%ifprimary\_nav%}
-&lt;divclass="navbar-left {%ifprimary\_nav.editable%}xrm-entity xrm-editable-adx\_weblinkset{%endif%}"data-weblinks-maxdepth="2"&gt;
-&lt;ulclass="navbar-nav weblinks"&gt;
-{%forlinkinprimary\_nav.weblinks%}{%iflink.display\_page\_child\_links%}{%assignsublinks=sitemap\[link.url\].children%}{%else%}{%assignsublinks=link.weblinks%}{%endif%}
-&lt;liclass="weblink {%ifsublinks.size&gt;0%} dropdown{%endif%}"&gt;
-&lt;a{%ifsublinks.size&gt;0%}href="\#"class="dropdown-toggle"data-toggle="dropdown"{%else%}href="{{link.url}}"{%endif%}{%iflink.nofollow%}rel="nofollow"{%endif%}{%iflink.tooltip%}title="{{link.tooltip}}"{%endif%}&gt;
+</div>
+{%assignprimary_nav=weblinks["Primary Navigation"]%}{%ifprimary_nav%}
+<divclass="navbar-left {%ifprimary_nav.editable%}xrm-entity xrm-editable-adx_weblinkset{%endif%}"data-weblinks-maxdepth="2">
+<ulclass="navbar-nav weblinks">
+{%forlinkinprimary_nav.weblinks%}{%iflink.display_page_child_links%}{%assignsublinks=sitemap[link.url].children%}{%else%}{%assignsublinks=link.weblinks%}{%endif%}
+<liclass="weblink {%ifsublinks.size>0%} dropdown{%endif%}">
+<a{%ifsublinks.size>0%}href="\#"class="dropdown-toggle"data-toggle="dropdown"{%else%}href="{{link.url}}"{%endif%}{%iflink.nofollow%}rel="nofollow"{%endif%}{%iflink.tooltip%}title="{{link.tooltip}}"{%endif%}>
 {%iflink.image%}{%iflink.image.urlstartswith'.'%}
-&lt;spanclass="{{link.image.url|split:'.'|join}}"aria-hidden="true"&gt;
-&lt;/span&gt;
+<spanclass="{{link.image.url|split:'.'|join}}"aria-hidden="true">
+</span>
 {%else%}
-&lt;imgsrc="{{link.image.url}}"alt="{{link.image.alternate\_text|default:link.tooltip}}" {%iflink.image.width%}width="{{link.image.width}}"{%endif%}{%iflink.image.height%}height="{{link.image.height}}"{%endif%}/&gt;
-{%endif%}{%endif%}{%unlesslink.display\_image\_only%}{{link.name}}{%endunless%}{%ifsublinks.size&gt;0%}
-&lt;spanclass="caret"&gt;
-&lt;/span&gt;
+<imgsrc="{{link.image.url}}"alt="{{link.image.alternate_text|default:link.tooltip}}" {%iflink.image.width%}width="{{link.image.width}}"{%endif%}{%iflink.image.height%}height="{{link.image.height}}"{%endif%}/>
+{%endif%}{%endif%}{%unlesslink.display_image_only%}{{link.name}}{%endunless%}{%ifsublinks.size>0%}
+<spanclass="caret">
+</span>
 {%endif%}
-&lt;/a&gt;
-{%ifsublinks.size&gt;0%}
-&lt;ulclass="dropdown-menu"role="menu"&gt;
+</a>
+{%ifsublinks.size>0%}
+<ulclass="dropdown-menu"role="menu">
 {%iflink.url%}
-&lt;li&gt;
-&lt;ahref="{{link.url}}"{%iflink.nofollow%}rel="nofollow"{%endif%}{%iflink.tooltip%}title="{{link.tooltip}}"{%endif%}&gt;
+<li>
+<ahref="{{link.url}}"{%iflink.nofollow%}rel="nofollow"{%endif%}{%iflink.tooltip%}title="{{link.tooltip}}"{%endif%}>
 {{link.name}}
-&lt;/a&gt;
-&lt;/li&gt;
-&lt;liclass="divider"&gt;
-&lt;/li&gt;
+</a>
+</li>
+<liclass="divider">
+</li>
 {%endif%}{%forsublinkinsublinks%}
-&lt;li&gt;
-&lt;ahref="{{sublink.url}}"{%ifsublink.nofollow%}rel="nofollow"{%endif%}{%ifsublink.tooltip%}title="{{link.tooltip}}"{%endif%}&gt;
+<li>
+<ahref="{{sublink.url}}"{%ifsublink.nofollow%}rel="nofollow"{%endif%}{%ifsublink.tooltip%}title="{{link.tooltip}}"{%endif%}>
 {{sublink.name|default:sublink.title}}
-&lt;/a&gt;
-&lt;/li&gt;
+</a>
+</li>
 {%endfor%}
-&lt;/ul&gt;
+</ul>
 {%endif%}
-&lt;/li&gt;
+</li>
 {%endfor%}
-&lt;/ul&gt;
-{%editableprimary\_nav%}
-&lt;/div&gt;
+</ul>
+{%editableprimary_nav%}
+</div>
 {%endif%}
-&lt;divclass="navbar-right hidden-xs"&gt;
+<divclass="navbar-right hidden-xs">
 {%editablesnippets'Navbar Right'type:'html'%}
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
+</div>
+</div>
 ```
 
 ### See Also

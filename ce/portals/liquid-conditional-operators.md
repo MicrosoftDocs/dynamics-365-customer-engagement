@@ -14,32 +14,32 @@ ms.author: shjais
 manager: sakudes
 ---
 # Conditional
-When used in conditional statements (**if**, **unless**), some Liquid values will be treated as true, and some will be treated as false.
+When used in conditional statements (**if**,**unless**), some Liquid values will be treated as true, and some will be treated as false.
 
 In Liquid, null and the Boolean value false are treated as false;everything else is treated as true. Empty strings, empty arrays, etc. are treated as true. For examples,
 
 ```
-{% assign empty\_string = "" %}
-{% if empty\_string %}
-&lt;p&gt;This will render.&lt;/p&gt;
+{% assign empty_string = "" %}
+{% if empty_string %}
+<p>This will render.</p>
 {% endif %}
 ```
 You can test for empty strings and arrays using the special value empty if necessary.
 
 ```
 {% unless page.title == empty %}
-&lt;h1&gt;{{ page.title }}&lt;/h1&gt;
+<h1>{{ page.title }}</h1>
 {% endunless %}
 ```
 You can also test the size of [Liquid types](liquid-types.md), [Liquid types](liquid-types.md), or [Liquid types](liquid-types.md) using the special size property.
 
 ```
-{% if page.children.size &gt; 0 %}
-&lt;ul&gt;
+{% if page.children.size > 0 %}
+<ul>
 {% for child in page.children %}
-&lt;li&gt;{{ child.title }}&lt;/li&gt;
+<li>{{ child.title }}</li>
 {% endfor %}
-&lt;/ul&gt;
+</ul>
 {% endif %}
 ```
 
