@@ -250,7 +250,7 @@ The blogs object allows you to select a specific blog or blog posts.
 
 &ndash;
 
-<a href="{{ post.application_path }}\#comments">
+<a href="{{ post.application_path }}#comments">
 
 <span class="fa fa-comment" aria-hidden="true"></span> {{ post.comment_count }}
 

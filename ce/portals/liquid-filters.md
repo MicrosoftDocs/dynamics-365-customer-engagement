@@ -119,25 +119,25 @@ Given a single item as a parameter, concat returns a new array that consists of 
 **Code**
 
 ```
-Group \#1: {{ group1 | join: ', ' }}
+Group #1: {{ group1 | join: ', ' }}
 
-Group \#2: {{ group2 | join: ', ' }}
+Group #2: {{ group2 | join: ', ' }}
 
-Group \#1 + Group \#2: {{ group1 | concat: group2 | join: ', ' }}
+Group #1 + Group #2: {{ group1 | concat: group2 | join: ', ' }}
 
-Group \#1 + Leslie: {{ group1 | concat: 'Leslie' | join: ', ' }}
+Group #1 + Leslie: {{ group1 | concat: 'Leslie' | join: ', ' }}
 ```
 
 **Output**
 
 ```
-Group \#1: John, Pete, Hannah
+Group #1: John, Pete, Hannah
 
-Group \#2: Joan, Bill
+Group #2: Joan, Bill
 
-Group \#1 + Group \#2: John, Pete, Hannah, Joan, Bill
+Group #1 + Group #2: John, Pete, Hannah, Joan, Bill
 
-Group \#1 + Leslie: John, Pete, Hannah, Leslie
+Group #1 + Leslie: John, Pete, Hannah, Leslie
 ```
 
 ### **except**

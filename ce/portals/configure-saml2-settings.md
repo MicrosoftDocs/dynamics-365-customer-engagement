@@ -185,7 +185,7 @@ Encode the value ReturnUrl=/content/sub-content/
 The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script can be used to construct the URL (save to a file named Get-IdPInitiatedUrl.ps1).
 
 ```
-<\#
+<#
 
 .SYNOPSIS 
 
@@ -207,7 +207,7 @@ The AD FS IdP initiated SSO page.
 
 PS C:\\> .\\Get-IdPInitiatedUrl.ps1 -path "/content/sub-content/" -rpid "https://portal.contoso.com/" -adfsPath "https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx"
 
-\#>
+#>
 
 param
 
@@ -330,57 +330,57 @@ For example, given the SP path: /content/sub-content/ and the relying party ID: 
 The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script can be used to construct the URL (save to a file named Get-ShibbolethIdPInitiatedUrl.ps1).
 
 ```
-**&lt;\# **
+<# 
 
-**.SYNOPSIS**
+.SYNOPSIS
 
-**Constructs an IdP initiated SSO URL to access a portal page on the SP.**
+Constructs an IdP initiated SSO URL to access a portal page on the SP.
 
-**.PARAMETER path**
+.PARAMETER path
 
-**The path to the portal page.**
+The path to the portal page.
 
-**.PARAMETER providerId**
+.PARAMETER providerId
 
-**The relying party identifier.**
+The relying party identifier.
 
-**.PARAMETER shibbolethPath**
+.PARAMETER shibbolethPath
 
-**The Shibboleth IdP initiated SSO page.**
+The Shibboleth IdP initiated SSO page.
 
-**.EXAMPLE**
+.EXAMPLE
 
-**PS C:\\&gt; .\\Get-ShibbolethIdPInitiatedUrl.ps1 -path "/content/sub-content/" -providerId "https://portal.contoso.com/" -shibbolethPath "https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO"**
+PS C:\\> .\\Get-ShibbolethIdPInitiatedUrl.ps1 -path "/content/sub-content/" -providerId "https://portal.contoso.com/" -shibbolethPath "https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO"
 
-**\#&gt;**
+#>
 
-**param**
+param
 
-**(**
+(
 
-**\[parameter(mandatory=$true,position=0)\]**
+[parameter(mandatory=$true,position=0)]
 
-**$path,**
+$path,
 
-**\[parameter(mandatory=$true,position=1)\]**
+[parameter(mandatory=$true,position=1)]
 
-**$providerId,**
+$providerId,
 
-**\[parameter(position=2)\]**
+[parameter(position=2)]
 
-**$shibbolethPath = "https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO"**
+$shibbolethPath = "https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO"
 
-**)**
+)
 
-**$state = "ReturnUrl=$path"**
+$state = "ReturnUrl=$path"
 
-**$encodedPath = \[uri\]::EscapeDataString($state)**
+$encodedPath = [uri]::EscapeDataString($state)
 
-**$encodedRpid = \[uri\]::EscapeDataString($providerId)**
+$encodedRpid = [uri]::EscapeDataString($providerId)
 
-**$idpInitiatedUrl = "{0}?providerId={1}&target={2}" -f $shibbolethPath, $encodedRpid, $encodedPath**
+$idpInitiatedUrl = "{0}?providerId={1}&target={2}" -f $shibbolethPath, $encodedRpid, $encodedPath
 
-**Write-Output $idpInitiatedUrl**
+Write-Output $idpInitiatedUrl
 ```
 
 ## Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]
@@ -388,103 +388,103 @@ The following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)
 The process of adding a relying party trust in AD FS can also be performed by running the following**[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** script on the AD FS server (save contents to a file named**Add-AdxPortalRelyingPartyTrustForSaml.ps1**). After running the script, continue with configuring the portal site settings.
 
 ```
-**&lt;\# **
+<# 
 
-**.SYNOPSIS**
+.SYNOPSIS
 
-**Adds a SAML 2.0 relying party trust entry for a Dynamics CRM portals website.**
+Adds a SAML 2.0 relying party trust entry for a Dynamics CRM portals website.
 
-**.PARAMETER domain**
+.PARAMETER domain
 
-**The domain name of the portal.**
+The domain name of the portal.
 
-**.EXAMPLE**
+.EXAMPLE
 
-**PS C:\\&gt; .\\Add-AdxPortalRelyingPartyTrustForSaml.ps1 -domain "portal.contoso.com"**
+PS C:\\> .\\Add-AdxPortalRelyingPartyTrustForSaml.ps1 -domain "portal.contoso.com"
 
-**\#&gt;**
+#>
 
-**param**
+param
 
-**(**
+(
 
-**\[parameter(Mandatory=$true,Position=0)\]**
+[parameter(Mandatory=$true,Position=0)]
 
-**$domain,**
+$domain,
 
-**\[parameter(Position=1)\]**
+[parameter(Position=1)]
 
-**$callbackPath = "/signin-saml2"**
+$callbackPath = "/signin-saml2"
 
-**)**
+)
 
-**$VerbosePreference = "Continue"**
+$VerbosePreference = "Continue"
 
-**$ErrorActionPreference = "Stop"**
+$ErrorActionPreference = "Stop"
 
-**Import-Module adfs**
+Import-Module adfs
 
-**Function Add-CrmRelyingPartyTrust**
+Function Add-CrmRelyingPartyTrust
 
-**{**
+{
 
-**param (**
+param (
 
-**\[parameter(Mandatory=$true,Position=0)\]**
+[parameter(Mandatory=$true,Position=0)]
 
-**$name**
+$name
 
-**)**
+)
 
-**$identifier = "https://{0}/" -f $name**
+$identifier = "https://{0}/" -f $name
 
-**$samlEndpoint = New-ADFSSamlEndpoint -Binding POST -Protocol SAMLAssertionConsumer -Uri ("https://{0}{1}" -f $name, $callbackPath)**
+$samlEndpoint = New-ADFSSamlEndpoint -Binding POST -Protocol SAMLAssertionConsumer -Uri ("https://{0}{1}" -f $name, $callbackPath)
 
-**$identityProviderValue = Get-ADFSProperties | % { $\_.Identifier.AbsoluteUri }**
+$identityProviderValue = Get-ADFSProperties | % { $_.Identifier.AbsoluteUri }
 
-**$issuanceTransformRules = @'**
+$issuanceTransformRules = @'
 
-**@RuleTemplate = "MapClaims"**
+@RuleTemplate = "MapClaims"
 
-**@RuleName = "Transform [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Account Name to Name ID claim"**
+@RuleName = "Transform [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Account Name to Name ID claim"
 
-**c:\[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"\]**
+c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"]
 
-**=&gt; issue(Type = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType, Properties\["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format"\] = "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent");**
+=> issue(Type = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType, Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format"] = "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent");
 
-**@RuleTemplate = "LdapClaims"**
+@RuleTemplate = "LdapClaims"
 
-**@RuleName = "Send LDAP Claims"**
+@RuleName = "Send LDAP Claims"
 
-**c:\[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"\]**
+c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"]
 
-**=&gt; issue(store = "[!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)]", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"), query = ";givenName,sn,mail;{{0}}", param = c.Value);**
+=> issue(store = "[!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)]", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"), query = ";givenName,sn,mail;{{0}}", param = c.Value);
 
-**'@ -f $identityProviderValue**
+'@ -f $identityProviderValue
 
-**$issuanceAuthorizationRules = @'**
+$issuanceAuthorizationRules = @'
 
-**@RuleTemplate = "AllowAllAuthzRule"**
+@RuleTemplate = "AllowAllAuthzRule"
 
-**=&gt; issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");**
+=> issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");
 
-**'@**
+'@
 
-**Add-ADFSRelyingPartyTrust -Name $name -Identifier $identifier -SamlEndpoint $samlEndpoint -IssuanceTransformRules $issuanceTransformRules -IssuanceAuthorizationRules $issuanceAuthorizationRules**
+Add-ADFSRelyingPartyTrust -Name $name -Identifier $identifier -SamlEndpoint $samlEndpoint -IssuanceTransformRules $issuanceTransformRules -IssuanceAuthorizationRules $issuanceAuthorizationRules
 
-**}**
+}
 
-**\# add the 'Identity Provider' claim description if it is missing**
+# add the 'Identity Provider' claim description if it is missing
 
-**if (-not (Get-ADFSClaimDescription | ? { $\_.Name -eq "Persistent Identifier" })) {**
+if (-not (Get-ADFSClaimDescription | ? { $_.Name -eq "Persistent Identifier" })) {
 
-**Add-ADFSClaimDescription -name "Persistent Identifier" -ClaimType "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent" -IsOffered:$true -IsAccepted:$true**
+Add-ADFSClaimDescription -name "Persistent Identifier" -ClaimType "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent" -IsOffered:$true -IsAccepted:$true
 
-**}**
+}
 
-**\# add the portal relying party trust**
+# add the portal relying party trust
 
-**Add-CrmRelyingPartyTrust $domain**
+Add-CrmRelyingPartyTrust $domain
 ```
 
 ### See Also

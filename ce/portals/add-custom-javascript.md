@@ -27,7 +27,7 @@ $(document).ready
 (
 function() 
 {
-$("\#address1_stateorprovince").val("Saskatchewan");
+$("#address1_stateorprovince").val("Saskatchewan");
 }
 ); 
 ```
@@ -52,16 +52,16 @@ var newValidator = document.createElement('span');
 newValidator.style.display = "none";
 newValidator.id = "emailaddress1Validator";
 newValidator.controltovalidate = "emailaddress1";
-newValidator.errormessage = "<a href='\#emailaddress1_label'>Email is a required field.</a>";
+newValidator.errormessage = "<a href='#emailaddress1_label'>Email is a required field.</a>";
 newValidator.validationGroup = ""; // Set this if you have set ValidationGroup on the form
 newValidator.initialvalue = "";
 newValidator.evaluationfunction = function () 
 {
-var contactMethod = $("\#preferredcontactmethodcode").val();
+var contactMethod = $("#preferredcontactmethodcode").val();
 if (contactMethod != 2) return true; // check if contact method is not 'Email'.
 
 // only require email address if preferred contact method is email.
-var value = $("\#emailaddress1").val();
+var value = $("#emailaddress1").val();
 if (value == null || value == "") 
 {
 return false;
@@ -79,7 +79,7 @@ return true;
 Page_Validators.push(newValidator);
 
 // Wire-up the click event handler of the validation summary link
-$("a[href='\#emailaddress1_label']").on("click", function () { scrollToAndFocus('emailaddress1_label','emailaddress1');});
+$("a[href='#emailaddress1_label']").on("click", function () { scrollToAndFocus('emailaddress1_label','emailaddress1');});
 });
 }(window.jQuery));
 }

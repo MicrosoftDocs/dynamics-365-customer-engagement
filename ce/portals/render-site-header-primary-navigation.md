@@ -50,7 +50,7 @@ Render a website header and primary navigation bar, using portals settings, snip
 <divclass="btn-toolbar"role="toolbar">
 {%ifuser%}
 <divclass="btn-group">
-<ahref="\#"class="btn-default dropdown-toggle" data-toggle="dropdown">
+<ahref="#"class="btn-default dropdown-toggle" data-toggle="dropdown">
 <spanclass="fa fa-user"aria-hidden="true">
 </span>
 <spanclass="username">
@@ -101,7 +101,7 @@ Render a website header and primary navigation bar, using portals settings, snip
 <divclass="header-navbar navbar navbar-default navbar-static-top"role="navigation">
 <divclass="container">
 <divclass="navbar-header">
-<buttontype="button"class="navbar-toggle"data-toggle="collapse"data-target="\#header-navbar-collapse">
+<buttontype="button"class="navbar-toggle"data-toggle="collapse"data-target="#header-navbar-collapse">
 <spanclass="sr-only">
 Toggle navigation
 </span>
@@ -120,7 +120,7 @@ Toggle navigation
 <ulclass="navbar-nav weblinks">
 {%forlinkinprimary_nav.weblinks%}{%iflink.display_page_child_links%}{%assignsublinks=sitemap[link.url].children%}{%else%}{%assignsublinks=link.weblinks%}{%endif%}
 <liclass="weblink {%ifsublinks.size>0%} dropdown{%endif%}">
-<a{%ifsublinks.size>0%}href="\#"class="dropdown-toggle"data-toggle="dropdown"{%else%}href="{{link.url}}"{%endif%}{%iflink.nofollow%}rel="nofollow"{%endif%}{%iflink.tooltip%}title="{{link.tooltip}}"{%endif%}>
+<a{%ifsublinks.size>0%}href="#"class="dropdown-toggle"data-toggle="dropdown"{%else%}href="{{link.url}}"{%endif%}{%iflink.nofollow%}rel="nofollow"{%endif%}{%iflink.tooltip%}title="{{link.tooltip}}"{%endif%}>
 {%iflink.image%}{%iflink.image.urlstartswith'.'%}
 <spanclass="{{link.image.url|split:'.'|join}}"aria-hidden="true">
 </span>

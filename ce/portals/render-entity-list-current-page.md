@@ -23,7 +23,7 @@ Render the Entity List associated with the current page as a paginated sortable 
 <divclass="navbar navbar-default">
 <divclass="container-fluid">
 <divclass="navbar-header">
-<buttontype="button"class="navbar-toggle"data-toggle="collapse"data-target="\#entitylist-navbar-{{entitylist.id}}">
+<buttontype="button"class="navbar-toggle"data-toggle="collapse"data-target="#entitylist-navbar-{{entitylist.id}}">
 <spanclass="sr-only">
 Toggle navigation
 </span>
@@ -42,7 +42,7 @@ Toggle navigation
 {%ifentitylist.views.size>1%}
 <ulclass="nav navbar-nav">
 <liclass="dropdown">
-<ahref="\#"class="dropdown-toggle"data-toggle="dropdown">
+<ahref="#"class="dropdown-toggle"data-toggle="dropdown">
 <iclass="fa fa-list">
 </i>
 Views 

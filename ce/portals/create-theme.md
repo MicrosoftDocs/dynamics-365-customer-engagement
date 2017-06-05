@@ -49,7 +49,7 @@ After you have your custom bootstrap.min.css, you can apply it to your portal in
 4.  Select your custom bootstrap.min.css file, using the**Upload File** field in the Edit This File dialog box that appears.
 5.  Ensure that the**Partial URL** field is set to bootstrap.min.css. This value indicates to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s framework that it should use your custom version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] instead of the default version included.
 6.  You may also want to select the**Hidden from Sitemap** checkbox (selected by default), so that this file doesn't appear to users in any navigation elements on the site.
-7. **Save** the file.
+7.**Save** the file.
 8.  Refresh your page, and your customized styles will appear immediately.
 
 The below screenshot is an example of a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] applied to the Community portal:
