@@ -132,9 +132,9 @@ The ads object allows you to select a specific ad or ad placement:
 | \[ad name or id\] | You can access any ad by its Name or Id properties.                 
 
 ```
-**{% assign ad = ads\["Ad Name"\] %}**                               
+{% assign ad = ads["Ad Name"] %}                               
                                                                        
-**{% assign ad = ads\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
+{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}  |
 ```
 
 ### **Ad Placements attributes**
@@ -144,9 +144,9 @@ The ads object allows you to select a specific ad or ad placement:
 | \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.                          
 
 ```
-**{% assign placement = ads.placements\["Placement Name or Id"\] %}**                  
+{% assign placement = ads.placements["Placement Name or Id"] %}                  
                                                                                          
-**{% assign placement = ads.placements\["2423d713-abb3-44c3-8a7d-c445e16fccad"\] %}**  |
+{% assign placement = ads.placements["2423d713-abb3-44c3-8a7d-c445e16fccad"] %}  |
 ```
 
 ### **Ad Placement attributes**
@@ -200,71 +200,71 @@ Provides the ability to access and render Blogs and Blog Posts.
 The blogs object allows you to select a specific blog or blog posts.
 
 ```
-**{% assign posts = blogs.posts | paginate: 0,4 %}**
+{% assign posts = blogs.posts | paginate: 0,4 %}
 
-**&lt;div class="content-panel panel panel-default"&gt;**
+<div class="content-panel panel panel-default">
 
-**&lt;div class="panel-heading"&gt;**
+<div class="panel-heading">
 
-**{% assign sitemarker = sitemarkers\["Blog Home"\] %}**
+{% assign sitemarker = sitemarkers["Blog Home"] %}
 
-**{% assign snippet = snippets\["Home Blog Activity Heading"\] %}**
+{% assign snippet = snippets["Home Blog Activity Heading"] %}
 
-**&lt;a class="pull-right" href="{{sitemarker.url}}"&gt; All Blogs &lt;/a&gt;**
+<a class="pull-right" href="{{sitemarker.url}}"> All Blogs </a>
 
-**&lt;h4&gt;**
+<h4>
 
-**&lt;a class="feed-icon fa fa-rss-square" href="{{ blogs.feedpath }}" /&gt;**
+<a class="feed-icon fa fa-rss-square" href="{{ blogs.feedpath }}" />
 
-**{{ snippet.adx\_value }}**
+{{ snippet.adx_value }}
 
-**&lt;/h4&gt;**
+</h4>
 
-**&lt;/div&gt;**
+</div>
 
-**&lt;ul class="list-group"&gt;**
+<ul class="list-group">
 
-**{% for post in posts.all %}**
+{% for post in posts.all %}
 
-**&lt;li class="list-group-item" &gt;**
+<li class="list-group-item" >
 
-**&lt;a class="user-avatar" href="{{ post.author\_url }}"&gt;**
+<a class="user-avatar" href="{{ post.author_url }}">
 
-**&lt;img src="{{ post.user\_image\_url }}" /&gt;**
+<img src="{{ post.user_image_url }}" />
 
-**&lt;/a&gt;**
+</a>
 
-**&lt;h4 class="list-group-item-heading"&gt;**
+<h4 class="list-group-item-heading">
 
-**&lt;a href="{{ post.app\_relative\_path }}"&gt;{{ post.title }}&lt;/a&gt;**
+<a href="{{ post.app_relative_path }}">{{ post.title }}</a>
 
-**&lt;/h4&gt;**
+</h4>
 
-**&lt;div class="content-metadata"&gt;**
+<div class="content-metadata">
 
-**&lt;abbr class="timeago"&gt;{{ post.publish\_date }}&lt;/abbr&gt;**
+<abbr class="timeago">{{ post.publish_date }}</abbr>
 
-**&ndash;**
+&ndash;
 
-**&lt;a href="{{ post.author\_url }}"&gt; {{ post.author\_name }} &lt;/a&gt;**
+<a href="{{ post.author_url }}"> {{ post.author_name }} </a>
 
-**&ndash;**
+&ndash;
 
-**&lt;a href="{{ post.application\_path }}\#comments"&gt;**
+<a href="{{ post.application_path }}\#comments">
 
-**&lt;span class="fa fa-comment" aria-hidden="true"&gt;&lt;/span&gt; {{ post.comment\_count }}**
+<span class="fa fa-comment" aria-hidden="true"></span> {{ post.comment_count }}
 
-**&lt;/a&gt;**
+</a>
 
-**&lt;/div&gt;**
+</div>
 
-**&lt;/li&gt;**
+</li>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;/ul&gt;**
+</ul>
 
-**&lt;/div&gt;**
+</div>
 ```
 
 ### **blogs Object**
@@ -278,9 +278,9 @@ The following table explains the attributes associated with the blogs object.
 | \[blog name or id\] | You can access any blog by its Name or Id properties.                   
 
 ```
-**{% assign blog = blogs\["Blog Name"\] %}**                             
+{% assign blog = blogs["Blog Name"] %}                             
                                                                            
-**{% assign blog = blogs\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**  |
+{% assign blog = blogs["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}  |
 ```
 
 ### **blog Object**
@@ -375,11 +375,11 @@ An entity object provides access to the attributes of a [!INCLUDE[pn-dynamics-cr
   Generally, this will only return a value for certain entity types that have been integrated into the portal CMS , unless you have customized the URL Provider in your application.                                                                                         |
 | \[attribute or relationship name\] | You can access any attribute of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by logical name.                                                                                                                                                                                                  
 ```                                                                                                                                  
-**{{ entity.createdon }}**                                                                                                                                                                                                                                                 
+{{ entity.createdon }}                                                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                              
-**{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
+{% assign attribute_name = 'name' %}                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                              
-**{{ entity\[attribute\_name\] }}**
+{{ entity[attribute_name] }}
   ```
                                                                                                                                                                                                                                                                              
   The values of most entity attributes map directly to [*Liquid types*](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But, some attribute types are returned as objects:    
@@ -395,7 +395,7 @@ An entity object provides access to the attributes of a [!INCLUDE[pn-dynamics-cr
   In the case that a relationship is reflexive (i.e. self-referential), a reflexive relationship object will be returned. (Otherwise, the desired result would be ambiguous.)                                                                                                
 
 ```
-**{{ page.adx\_webpage\_webpage.referencing.adx\_name }}** 
+{{ page.adx_webpage_webpage.referencing.adx_name }} 
 ```
                                                                                                                                                                                                                                                                              
   |  >[!Note]                                                                                                                                                                                     |                      
@@ -763,49 +763,49 @@ Provides the ability to access and render Forums and Forum Threads. Note that th
 The forums object allows you to select a Forum or Forum Threads :
 
 ```
-**&lt;div class="content-panel panel panel-default"&gt;**
+<div class="content-panel panel panel-default">
 
-**&lt;div class="panel-heading"&gt;**
+<div class="panel-heading">
 
-**&lt;h4&gt;**
+<h4>
 
-**&lt;span class="fa fa-comments" aria-hidden="true"&gt;&lt;/span&gt;**
+<span class="fa fa-comments" aria-hidden="true"></span>
 
-**{{ snippets\["Home Forum Activity Heading"\] | default: "Forum Activity" | h }}**
+{{ snippets["Home Forum Activity Heading"] | default: "Forum Activity" | h }}
 
-**&lt;/h4&gt;**
+</h4>
 
-**&lt;/div&gt;**
+</div>
 
-**{% for forum in website.forums %}**
+{% for forum in website.forums %}
 
-**&lt;ul class="list-group"&gt;**
+<ul class="list-group">
 
-**&lt;li class="list-group-item"&gt;**
+<li class="list-group-item">
 
-**&lt;div class="row"&gt;**
+<div class="row">
 
-**&lt;div class="col-sm-6"&gt;**
+<div class="col-sm-6">
 
-**&lt;h4 class="list-group-item-heading"&gt;&lt;a href="{{ forum.url | h }}"&gt; {{ forum.name | h }}&lt;/a&gt;&lt;/h4&gt;**
+<h4 class="list-group-item-heading"><a href="{{ forum.url | h }}"> {{ forum.name | h }}</a></h4>
 
-**&lt;div class="list-group-item-text content-metadata"&gt;{{ forum.adx\_description | h }}&lt;/div&gt;**
+<div class="list-group-item-text content-metadata">{{ forum.adx_description | h }}</div>
 
-**&lt;/div&gt;**
+</div>
 
-**&lt;div class="col-sm-3 content-metadata"&gt;{{ forum.thread\_count }} threads&lt;/div&gt;**
+<div class="col-sm-3 content-metadata">{{ forum.thread_count }} threads</div>
 
-**&lt;div class="col-sm-3 content-metadata"&gt;{{ forum.post\_count }} posts&lt;/div&gt;**
+<div class="col-sm-3 content-metadata">{{ forum.post_count }} posts</div>
 
-**&lt;/div&gt;**
+</div>
 
-**&lt;/li&gt;**
+</li>
 
-**&lt;/ul&gt;**
+</ul>
 
-**{% endfor %}**
+{% endfor %}
 
-**&lt;/div&gt;**
+</div>
 ```
 
 ### **forums Object**
@@ -834,9 +834,9 @@ The forumposts object allows you to access a collection of forumpost objects.
 | \[forum name or id\] | You can access any forum by its Name or Id properties.                                      
 
 ```
-**{% assign forum = forums\["Forum Name"\] %}**                                              
+{% assign forum = forums["Forum Name"] %}                                              
                                                                                                
-**{% assign forum = forums\["da8b8a92-2ee6-476f-8a21-782b047ff460"\] %}**                    |
+{% assign forum = forums["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}                    |
 ```
 
 ### **forum Object**
@@ -973,11 +973,11 @@ The page object provides access to things like the breadcrumbs for the current p
 | url                                | The URL of the page.                                                                                                                                                                                                                                                      |
 | \[attribute or relationship name\] | You can access any attribute of the page's underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.                                                                                                                                                                                
 ```                                                                                                                                     
-**{{ page.createdon }}**                                                                                                                                                                                                                                                   
+{{ page.createdon }}                                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                                                              
-**{% assign attribute\_name = 'name' %}**                                                                                                                                                                                                                                  
+{% assign attribute_name = 'name' %}                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                              
-**{{ page\[attribute\_name\] }}**
+{{ page[attribute_name] }}
   ```                                                                                                                                                                                                                                                                          
   The values of most entity attributes map directly to [*Liquid types*](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But, some attribute types are returned as objects:    
                                                                                                                                                                                                                                                                              
@@ -987,7 +987,7 @@ The page object provides access to things like the breadcrumbs for the current p
                                                                                                                                                                                                                                                                              
   You can also load any related entities by relationship schema name.                                                                                                                                                                                                        
  ```
-**{{ page.adx\_webpage\_entitylist.adx\_name }}**
+{{ page.adx_webpage_entitylist.adx_name }}
  ```
                                                                                                                                     
   In the case that a relationship is reflexive (that is, self-referential), a [*entities*](#entities) object will be returned. (Otherwise, the desired result would be ambiguous.)                                                                                             
@@ -1046,16 +1046,16 @@ The polls object allows you to select a specific poll or poll placement:
 | \[poll name or id\] | You can access any poll by its Name or Id properties.                   
 
 ```
-**{% assign poll = polls\["Poll Name"\] %}**                             
+{% assign poll = polls["Poll Name"] %}                             
                                                                            
-**{% assign poll = polls\["41827a5c-33de-49b8-a0c7-439e6a02eb98"\] %}**  |
+{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}  |
 ```
 
 ### **Poll Placements Attributes**
 
 |                               |                                                                                         |
 |-------------------------------|-----------------------------------------------------------------------------------------|
-| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.```**{% assign placement = polls.placements\["Placement Name or Id"\] %}****{% assign placement = polls.placements\["7677c5d4-406e-4b6c-907c-916ac17dba0f"\] %}** ```|
+| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.```{% assign placement = polls.placements["Placement Name or Id"] %}{% assign placement = polls.placements["7677c5d4-406e-4b6c-907c-916ac17dba0f"] %} ```|
 
 ### **Poll Placement Attributes**
 
