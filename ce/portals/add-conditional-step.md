@@ -37,7 +37,7 @@ The available operands are as follows:
 | &gt;=         | Greater Than or Equals |
 | &lt;=         | Less Than or Equals    |
 | &             | And                    |
-| |             | Or                     |
+| \|             | Or                     |
 | !             | Not                    |
 | =\*, ==\*, -= | Like                   |
 | !=\*          | Not Like               |

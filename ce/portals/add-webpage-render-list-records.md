@@ -85,55 +85,55 @@ $(document).ready(function (){
 
 You can easily enable and configure actions for records in an Entity List (Create, Edit, Delete, and so on). It is also possible to override default labels, sizes, and other attributes so that the Entity List will be displayed exactly the way you want.
 
-These settings are found in the Configuration section of the Entity List form. By default, only**Basic Settings** are shown. Select**Advanced Settings** to see additional settings.
+These settings are found in the Configuration section of the Entity List form. By default, only **Basic Settings** are shown. Select **Advanced Settings** to see additional settings.
 
 ![Configure an entity list](media/configure-entitylist.png "Configure an entity list")  
 
 **Attributes**
 
-|**Name**                   |
-|----------------------------|
-|**Basic Settings**         |
-| View Actions               |
-| Items Actions              |
-| Override Column Attributes |
-|**Advanced Settings**      |
-| Loading Message            |
-| Error Message              |
-| Access Denied Message      |
-| Empty Message              |
-| Details Form Dialog        |
-| Edit Form Dialog           |
-| Create Form Dialog         |
-| Delete Dialog              |
-| Error Dialog               |
-| CSS Class                  |
-| Grid CSS Class             |
-| Grid Column Width Style    |
+|Name                   |Description|
+|---------------------------|-----------|
+|**Basic Settings**         |   |
+| View Actions              |Allows you to add action buttons for actions that are applicable for the entity set and will appear above the grid. The available actions are: <ul><li>Create Action</li> <li>Download Action</li></ul> Selecting one of these options displays a configuration area for that action.|
+| Items Actions             |Allows you to add action buttons for actions that are applicable for an individual record and will appear for each row in the grid, provided the appropriate privilege has been granted by Entity Permissions. The actions generally available are:<ul><li>Details Action</li><li>Edit Action</li><li>Delete Action</li><li>Workflow Action</li><li>Activate Action</li><li>Deactivate Action</li></ul> Selecting one of these options displays a configuration area for that action. See below for details about each action. Furthermore, certain entities have special actions that are available to them on a per-entity basis:<ul><li>Calculate Value of Opportunity (opportunity)</li><li>Cancel Case Action (incident)</li><li>Close (resolve) Case Action (incident)</li><li>Convert Quote to Order (quote)</li><li>Convert Order to Invoice (salesorder)</li><li>Generate Quote from Opportunity (opportunity)</li><li>Lose Opportunity Action (opportunity)</li><li>Win Opportunity Action (opportunity)</li><li>Reopen Case Action (incident)</li><li>Set Opportunity on Hold (opportunity)</li></ul>|
+| Override Column Attributes|Allows you to override display settings for individual columns in the grid.<ol><li>Attribute - the logical name of the column you wish to override</li><li>Display Name - a new column title to override the default</li><li>Width - the width (in either percent or pixels) of the column to override the default. See also Grid Column Width Style</li></ol> To override settings on a column, click " + Column" and fill in the details.|
+|**Advanced Settings**      |  |
+| Loading Message           |Overrides the default HTML message that appears while the grid is loading.|
+| Error Message             |Overrides the default HTML message that appears when an error occurs while loading the grid.|
+| Access Denied Message     |Overrides the default HTML message that appears when a user does not have sufficient Entity Permissions to view the Entity List.|
+| Empty Message             |Overrides the HTML message that appears when the grid contains no data.|
+| Details Form Dialog       |Controls the settings for the dialog that appears when a user activates the Details Action.|
+| Edit Form Dialog          |Controls the settings for the dialog that appears when a user activates the Edit Action.|
+| Create Form Dialog        |Controls the settings for the dialog that appears when a user activates the Create Action.|
+| Delete Dialog             |Controls the settings for the dialog that appears when a user activates the Delete Action.|
+| Error Dialog              |Controls the settings for the dialog that appears when an error occurs during any action.|
+| CSS Class                 |Specify a CSS class or classes that will be applied to the HTML element that contains the entire grid area, including the grid and action buttons.|
+| Grid CSS Class            |Specify a CSS class or classes that will be applied to the Entity List's HTML \<table\> element.|
+| Grid Column Width Style   |Configures whether the **Width** values in the Override Column Attributes are specified in Pixels or Percent|
 
 **General action settings**
 
 In general, Entity Actions have settings that can be configured. In all cases, this is to give you more options in terms of customization, and the fields are not required. Simply adding the action will allow the action to be taken on the portal, provided the appropriate privilege has been granted by Entity Permissions.
 
-Generally, you can configure the corresponding dialog for each action, which will appear only if you select**Confirmation Required**.
+Generally, you can configure the corresponding dialog for each action, which will appear only if you select **Confirmation Required**.
 
-|**Name**               |
-|------------------------|
-|**Basic Settings**     |
-| Confirmation Required? |
-|**Advanced Settings**  |
-| Confirmation           |
-| Button Label           |
-| Button Tooltip         |
-| Button CSS Class       |
-| Redirect to Webpage    |
-| Redirect URL           |
+| Name                   | Description                                                                                                                                                                                                                   |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Basic Settings**         |                                                                                                                                                                                                                               |
+| Confirmation Required? | Determines whether a confirmation will prompt the user to confirm when the action is clicked.                                                                                                                                 |
+| **Advanced Settings**      |                                                                                                                                                                                                                               |
+| Confirmation           | Overrides the confirmation HTML message displayed when the user activates the Action.                                                                                                                                         |
+| Button Label           | Overrides the HTML label for this action displayed in the Entity List row.                                                                                                                                                    |
+| Button Tooltip         | Overrides the tooltip text that appears when the mouse is hovered over the button for this action displayed in the Entity List row.                                                                                           |
+| Button CSS Class       | Adds a CSS class to the Button.  Designed to be used in conjunction with                                                                                                                                                      |
+| Redirect to Webpage    | Some actions (not all) allow a redirect upon the completion of the action. Highly Recommended for the delete action, optional in most other cases. This allows you to choose a webpage to redirect to upon action completion. |
+| Redirect URL           | An alternative to the Redirect to Webpage option - allows to redirecting to a specific URL.                                                                                                                                   |
 
 **General dialog (advanced) settings**
 
 |**Name**                 |**Description**                                                                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| Title                    | Overrides the HTML that appears in the title bar of the dialog.                                                                         |
+| Title                    | Overrides the HTML that appears in the title bar of the dialog.|                                                                         
 | Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button on the dialog.                                                         |
 | Closer Button Text       | Overrides the HTML that appears in the Close ("Cancel") button on the dialog.                                                           |
 | Dismiss Button Sr Text   | Overrides the screen reader text associated with the dialog's dismiss button.                                                           |
@@ -145,15 +145,15 @@ Generally, you can configure the corresponding dialog for each action, which wil
 
 **Create action settings**
 
-Enabling a**Create Action** renders a button above the Entity List that, when clicked, pops up a dialog with an Entity Form that allows a user to create a new record provided the 'Create' privilege has been granted by Entity Permissions.
+Enabling a **Create Action** renders a button above the Entity List that, when clicked, pops up a dialog with an Entity Form that allows a user to create a new record provided the 'Create' privilege has been granted by Entity Permissions.
 
-|**Name**              |
-|-----------------------|
-|**Basic Settings**    |
-| Entity Form           |
-|**Advanced Settings** |
-| Button Label          |
-| Button Tooltip        |
+| Name               | Description                          |
+|--------------------|--------------------------------------|
+| **Basic Settings**     |                                                                                                                                                                       |
+| Entity Form     | Specifies the Entity Form that will be used to create the new record. The drop-down will list all Entity Forms that are configured for the Entity List's entity type. [!Note] If the Entity List's entity type has no Entity Forms, the drop-down list will appear empty. If no Entity Form is supplied for the Create Action, it will be ignored and the button will not render on the Entity List. |
+| **Advanced Settings**          |                                                                                                                                                                       |
+| Button Label                                                                                                                                                                                                                 | Overrides the HTML label displayed in the Create Action button above the list.                                                                                        |
+| Button Tooltip                                                                                                                                                                                                               | Overrides the tooltip text that appears when the cursor hovers over the Create Action button.                                                                         |
 
 **Create Form Dialog (Advanced Settings)**
 
@@ -168,28 +168,28 @@ Enabling a**Create Action** renders a button above the Entity List that, when cl
 
 **Download action settings**
 
-Enabling a**Download Action** renders a button above the Entity List that, when clicked, downloads the data from the list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] (.xlsx) file.
+Enabling a **Download Action** renders a button above the Entity List that, when clicked, downloads the data from the list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] (.xlsx) file.
 
-|**Name**              |
-|-----------------------|
-|**Basic Settings**    |
-| *None*                |
-|**Advanced Settings** |
-| Button Label          |
-| Button Tooltip        |
+| Name              | Description                                                                                        |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| **Basic Settings**    |                                                                                                    |
+| None              |                                                                                                    |
+| **Advanced Settings** |                                                                                                    |
+| Button Label      | Overrides the HTML label displayed in the Download Action button above the Entity List.            |
+| Button Tooltip    | Overrides the tooltip text that appears when the mouse is hovered over the Download Action button. |
 
 **Details action settings**
 
-Enabling a**Details Action** allows a user to view a read-only Entity Form of a selected row in the Entity List.
+Enabling a **Details Action** allows a user to view a read-only Entity Form of a selected row in the Entity List.
 
-|**Name**                              |
-|---------------------------------------|
-|**Basic Settings**                    |
-| Entity Form                           |
-|**Advanced Settings**                 |
-| Record ID Query String Parameter Name |
-| Button Label                          |
-| Button tooltip                        |
+| Name                                                                                                                                                                                                                          | Description                                                                                                                                                                                                                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Basic Settings**                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                              |
+| Entity Form                                                                                                                                                                                                                   | Specifies the Entity Form that will be used to view the details of the selected entity. The drop-down will list all Entity Forms that are configured for the Entity List's entity type. [!Note] If the Entity List's entity type has no Entity Forms, the drop-down list will appear empty. If no Entity Form is supplied for the Details Action it will be ignored, and the button will not render in the Entity List. |                                                                                                                                                                                                                                                                                                              |
+| **Advanced Settings**                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                              |
+| Record ID Query String Parameter Name                                                                                                                                                                                         | Specifies the name of the query string parameter that will be used to select the entity to view in the selected Entity Form. This should match the value in that Entity Form's Record ID Query String Parameter Name. The default value for this field, both here and in Entity Form configuration, is "id". |
+| Button Label                                                                                                                                                                                                                  | Overrides the HTML label for this action displayed in the Entity List row.                                                                                                                                                                                                                                   |
+| Button tooltip                                                                                                                                                                                                                | Overrides the tooltip text that appears when the mouse is hovered over the button for this action displayed in the Entity List row.                                                                                                                                                                          |
 
 **Details form dialog (advanced) settings**
 
@@ -204,16 +204,16 @@ Enabling a**Details Action** allows a user to view a read-only Entity Form of a 
 
 **Edit action settings**
 
-Enabling an**Edit Action** allows a user to view an editable Entity Form that is data-bound to the record of the selected row from the Entity List provided the 'Write' privilege has been granted by Entity Permissions.
+Enabling an **Edit Action** allows a user to view an editable Entity Form that is data-bound to the record of the selected row from the Entity List provided the 'Write' privilege has been granted by Entity Permissions.
 
-|**Name**                              |
-|---------------------------------------|
-|**Basic Settings**                    |
-| Entity Form                           |
-|**Advanced Settings**                 |
-| Record ID Query String Parameter Name |
-| Button Label                          |
-| Button Tooltip                        |
+| Name                                                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Basic Settings**                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                              |
+| Entity Form                                                                                                                                                                                                           | Specifies the Entity Form that will be used to edit the selected entity. The drop-down will list all Entity Forms that are configured for the Entity List's entity type. [!Note] If the Entity List's entity type has no Entity Forms, the drop-down will appear empty. If no Entity Form is supplied for the Edit Action it will be ignored, and the button will not render in the Entity List. |                                                                                                                                                                                                                                                                                                              |
+| **Advanced Settings**                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                              |
+| Record ID Query String Parameter Name                                                                                                                                                                                 | Specifies the name of the query string parameter that will be used to select the entity to edit in the selected Entity Form. This should match the value in that Entity Form's Record ID Query String Parameter Name. The default value for this field, both here and in Entity Form configuration, is "id". |
+| Button Label                                                                                                                                                                                                          | Overrides the HTML label for this action displayed in the Entity List row.                                                                                                                                                                                                                                   |
+| Button Tooltip                                                                                                                                                                                                        | Overrides the tooltip text that appears when the mouse is hovered over the button for this action displayed in the Entity List row.                                                                                                                                                                          |
 
 **Edit form dialog (advanced) settings**
 
@@ -228,16 +228,16 @@ Enabling an**Edit Action** allows a user to view an editable Entity Form that is
 
 **Delete action settings**
 
-Enabling a**Delete Action** allows a user to permanently delete the record of the selected row from the Entity List provided the 'Delete' privilege has been granted by Entity Permissions.
+Enabling a **Delete Action** allows a user to permanently delete the record of the selected row from the Entity List provided the 'Delete' privilege has been granted by Entity Permissions.
 
-|**Name**              |
-|-----------------------|
-|**Basic Settings**    |
-| *none*                |
-|**Advanced Settings** |
-| Confirmation          |
-| Button Label          |
-| Button Tooltip        |
+| Name              | Description                                                                                                                         |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| **Basic Settings**    |                                                                                                                                     |
+| none              |                                                                                                                                     |
+| **Advanced Settings** |                                                                                                                                     |
+| Confirmation      | Overrides the confirmation HTML message displayed when the user activates the Delete Action.                                        |
+| Button Label      | Overrides the HTML label for this action displayed in the Entity List row.                                                          |
+| Button Tooltip    | Overrides the tooltip text that appears when the mouse is hovered over the button for this action displayed in the Entity List row. |
 
 **Delete dialog (advanced) settings**
 
@@ -255,15 +255,15 @@ Enabling a**Delete Action** allows a user to permanently delete the record of th
 
 **Workflow action settings**
 
-Enabling a**Workflow Action** allows a user to run an On-Demand Workflow against the record of the selected row from the Entity List. You may add any number of Workflow Actions to the Entity List.
+Enabling a **Workflow Action** allows a user to run an On-Demand Workflow against the record of the selected row from the Entity List. You may add any number of Workflow Actions to the Entity List.
 
-|**Name**              |
-|-----------------------|
-|**Basic Settings**    |
-| Workflow              |
-| Button Label          |
-|**Advanced Settings** |
-| Button Tooltip        |
+| Name                                                                                                                                                                                                                | Description                                                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| **Basic Settings**                                                                                                                                                                                                      |                                                                                                                                     |
+| Workflow                                                                                                                                                                                                            | Specifies the On-Demand Workflow that will run when the user activates this action. [!Note] If the Entity List's entity type has no Workflows, the drop-down will appear empty. If no Workflow is supplied for the Workflow Action it will be ignored, and the button will not render in the Entity List. |                                                                                                                                     |
+| Button Label                                                                                                                                                                                                        | Sets the HTML label for this action displayed in the Entity List row. This setting is required.                                     |
+| **Advanced Settings**                                                                                                                                                                                                   |                                                                                                                                     |
+| Button Tooltip                                                                                                                                                                                                      | Overrides the tooltip text that appears when the mouse is hovered over the button for this action displayed in the Entity List row. |
 
 ## Securing entity lists
 
