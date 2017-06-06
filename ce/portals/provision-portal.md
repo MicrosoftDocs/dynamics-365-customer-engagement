@@ -20,9 +20,7 @@ manager: sakudes
 Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to show data from Dynamics on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
 
 -   Customers can submit cases and find knowledge articles
-
 -   Partners can see and manage sales opportunities
-
 -   Internal employees can create and see best practices
 
 > [!NOTE]
@@ -35,17 +33,13 @@ You must create portal resources and finish the portal package installation befo
 ### Create portal resources
 
 1.  Go to the **Applications** page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)].
-
 2.  Under **Application**, the portal will have the name of “*Name-Configuring*”.
-
 3.  After this task is finished, this will change to “*Name*”.
 
 ### Verify completion of the package installation
 
 1.  Go to the **Applications** page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)].
-
 2.  Select the portal, and then select the blue pencil button labeled **Manage**.
-
     * If the installation process is not finished, there will be a message at the top stating “_This portal is currently being configured and updates are not allowed. Please try again later._”
     * If the portal resources are created but the package installation is not finished, the message will instead be “_Your Portal URL has been created. However, package installation is still in progress. Please check status here._”
 
@@ -179,7 +173,7 @@ A custom domain can help your customers find your support resources more easily 
 
 After you have purchased an SSL certificate for your domain, you can use it to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain using the wizard.
 
-1.  Click **Upload a new certificate** if you have not yet uploaded the .pfx file to the organization. 
+1. Click **Upload a new certificate** if you have not yet uploaded the .pfx file to the organization. 
 2. Click the upload button underneath **File** and select the .pfx file. 
 3. Next, enter the password for your SSL certificate in the **Password** field. Otherwise click **Use an existing certificate** and choose the correct certificate from the drop-down menu. Be sure that you are using a SHA2 certificate, SHA1 support is being removed from popular browsers.
 4. Click **Add a new hostname** to create a new custom domain. Enter the desired domain name into the **Domain Name** field. Otherwise, click **Use an existing host name** and choose the desired host name from the drop-down menu. 
