@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 2017-06-06
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
@@ -23,7 +23,21 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
  For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/). 
  
  For important, late-breaking information and a list of known issues, see the [Microsoft Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
- 
+
+## Microsoft Social Engagement 2017 Update 1.5
+
+### Fixed bugs and security concerns
+Although there are no new features to announce this month, we've been working hard to deliver various improvements on the 
+
+[//]: # (michael TO DO)
+
+User-facing changes we've addressed: 
+- Stefan
+- To
+- Share
+
+Additionally, we spent a significant portion of our time in the past sprints on an ongoing effort to make Social Engagement more accessible and adhere to the latest accessibility standards.
+
 ## Microsoft Social Engagement 2017 Update 1.4 
  
 ### Engagement Analytics with Power BI 
