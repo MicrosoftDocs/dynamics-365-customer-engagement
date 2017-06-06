@@ -14,9 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Get started with the portal content editor
-
-
-
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals offers a powerful suite of editing tools. Users with suitable permissions can add, modify, or delete webpages and their content without having to directly access the databases and web servers that physically contain these entities. Editing can be performed in any modern browser and is accomplished through the use of two powerful yet intuitive tools. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control webpage access for portals](webpage-access-control.md)  
 
 This document assumes that you have permission to perform these tasks. If you do not, ask your portal administrator to arrange this for you. The permissions can be assigned to individual pages, so be sure to specify which pages you will need to edit.
@@ -60,13 +57,9 @@ Web link sets are groups of links used for navigation based on location on the w
 
 1.  Place the mouse cursor over the primary navigation and click the **Edit** button that appears.
     This will open a dialog with a list of web links that can be reordered or removed, as well as an option to add new links.
-
 2.  Click the row with the green plus icon.
-
 3.  Enter the name for the page just created.
-
 4.  Set a link to it using the **Page** field drop-down.
-
 5.  Click the **Save** button for the new link dialog and for the primary navigation dialog.
 
 ## Manage child pages
