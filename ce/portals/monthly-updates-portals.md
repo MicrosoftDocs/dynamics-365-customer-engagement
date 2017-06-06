@@ -1,4 +1,4 @@
----
+--
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
@@ -19,10 +19,7 @@ The December 2016 update has brought many new features to the portal capabilitie
 
 -   **Multiple language support:** Support customers from multiple regions by using a single portal.
 -   **East Asian language support:** Multi-byte languages such as Japanese, Chinese, and Korean are now supported.
-
-
 - **Faceted search:** New filters improve how quickly customers can find the content they are looking for while granting more control over visibility of content.
-
 -   **Product filtering:** Portal users can trim access knowledge articles related to their product ownership to avoid information overload.
 -   **Content access levels:** A new level of ownership associated with Portal contact, account, or web role that is used to control access to knowledge articles. Provide the right article for the right audience and prevent irrelevant articles from surfacing.
 -   **Knowledge article reporting enhancement:** The portal tracks where a knowledge article was used in the portal.
