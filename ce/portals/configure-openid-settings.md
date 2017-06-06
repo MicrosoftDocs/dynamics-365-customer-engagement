@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Open ID Connect provider settings for portals
-[comment]: <> (tables/codes in this topic needs to be formatted.)
+
 This topic applies to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
 
 [OpenID Connect](http://openid.net/connect/) external identity providers are services that conform to the Open ID Connect [specifications](http://openid.net/developers/specs/). Integrating a provider involves locating the authority (or issuer) URL associated with the provider. A configuration URL can be determined from the authority which supplies metadata required during the authentication workflow. The provider settings are based on the properties of the [OpenIdConnectAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.openidconnect.openidconnectauthenticationoptions.aspx) class.
@@ -26,7 +26,7 @@ Examples of authority URLs are:
 
 Each OpenID Connect provider also involves registering an application (similar to that of an OAuth 2.0 provider) and obtaining a Client Id. The authority URL and the generated application Client Id are the settings required to enable external authentication between the portal and the identity provider.
 
->[!Note] > The Google OpenID Connect endpoint is currently not supported because the underlying libraries are still in the early stages of release with compatibility issues to address. The [OAuth2 provider settings for portals](configure-oauth2-settings.md) endpoint can be used instead.
+>[!Note] The Google OpenID Connect endpoint is currently not supported because the underlying libraries are still in the early stages of release with compatibility issues to address. The [OAuth2 provider settings for portals](configure-oauth2-settings.md) endpoint can be used instead.
 
 ## OpenID settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
 
@@ -38,7 +38,7 @@ To get started, sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure
 4. For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
 5. At this point, a new application is created. Navigate to the **Configure** section in the menu.
 
-Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL: http://portal.contoso.com/signin-azure-ad. This corresponds to the **RedirectUri** site setting value
+    Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL: http://portal.contoso.com/signin-azure-ad. This corresponds to the **RedirectUri** site setting value
 
 6. Under the **properties** section, locate the **client ID** field. This corresponds to the **ClientId** site setting value.
 7. In the footer menu click the **View Endpoints** button and note the **Federation Metadata Document** field
@@ -58,17 +58,12 @@ Apply portal site settings referencing the above application.
 
 >[!Note] 
 > A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):                                 
-> Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/Authority - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/                                                    
-> -   Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ClientId - fedcba98-7654-3210-fedc-ba9876543210                                  
-                                                                                                                           
- <!-- -->                                                                                                                  
-                                                                                                                           
- -   Note, the Client ID and the authority URL do not contain the same value and should be retrieved separately.           
-                                                                                                                           
- <!-- -->                                                                                                                  
+>- Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/Authority - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/                                                    
+> -   Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ClientId - fedcba98-7654-3210-fedc-ba9876543210                                      
+The Client ID and the authority URL do not contain the same value and should be retrieved separately.           
  > -   Authentication/OpenIdConnect/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/RedirectUri - https://portal.contoso.com/signin-azure-ad
  
-> Multiple identity providers can be configured by substituting a label for the \[provider\] tag. Each unique label forms a group of settings related to an identity provider. Examples: [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
+Multiple identity providers can be configured by substituting a label for the \[provider\] tag. Each unique label forms a group of settings related to an identity provider. Examples: [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
 
 
 | Site Setting Name                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -112,5 +107,5 @@ Apply portal site settings referencing the above application.
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
 [SAML 2.0 provider settings for portals](configure-saml2-settings.md)  
-[Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals)  
+[Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals) 
 
