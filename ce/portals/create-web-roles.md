@@ -18,10 +18,10 @@ After a contact has been configured to use the portal, it must be given one or m
 
 To create a web role:
 
-1. Navigate to **Portals**
-2. Click **Web Roles** > **New**
-3. Specify values for the required fields
-4. Click **Save**
+1. Navigate to **Portals**.
+2. Click **Web Roles** > **New**.
+3. Specify values for the required fields.
+4. Click **Save**.
 
 ## Attributes and relationships
 
@@ -33,7 +33,8 @@ The table below explains the Web Role attributes used by [!INCLUDE[pn-dynamics-c
 | Website                  | The associated website                                                                                                                                                                                                                          |
 | Description              | An explanation of the Web Role's purpose. Optional.                                                                                                                                                                                             |
 | Authenticated Users Role | Boolean. If set to true, this will be the default web role for authenticated users (see below). Only one Web Role with the Authenticated Users Role attribute set to true should exist for a given website. This will be the default web role for authenticated users that have not been assigned a web role. |
-| Anonymous Users Role     | Boolean. If set to true, this will be the default web role for unauthenticated users (see below). Only one Web Role with the Anonymous Users Role attribute set to true should exist for a given website. This will be the default web role for unauthenticated users. The Anonymous Users Role will only respect Entity Permissions.|  |
+| Anonymous Users Role     | Boolean. If set to true, this will be the default web role for unauthenticated users (see below). Only one Web Role with the Anonymous Users Role attribute set to true should exist for a given website. This will be the default web role for unauthenticated users. The Anonymous Users Role will only respect Entity Permissions.|  
+||
 
 Now that the Web Role has been created, you will be able to configure it to meet your needs via various permissions, rules, and associations.
 
