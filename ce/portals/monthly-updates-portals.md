@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid:873dffa1-e598-4548-b494-7b67f2b01bb1
+ms.assetid: 873dffa1-e598-4548-b494-7b67f2b01bb1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
