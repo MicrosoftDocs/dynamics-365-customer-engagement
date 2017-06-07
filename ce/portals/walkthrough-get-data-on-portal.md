@@ -125,7 +125,7 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
 
 5. Switch to the “Insert” tab of the “Information” form, click “Section”, and choose “Two Columns”. Move the default Name and Owner fields to this section and delete the old one.  Open the properties of the Name field and clear the “Visible by default” option on the “Display” tab.
 
-![Create a survey form to facilitate the survey questions and responses.](media/create-custom-survey-form.png "Create a survey form to facilitate the survey questions and responses.")
+    ![Create a survey form to facilitate the survey questions and responses.](media/create-custom-survey-form.png "Create a survey form to facilitate the survey questions and responses.")
 
 6. Save the form, then click **Save As** in the ribbon to create a copy of the form named “Survey Step 2”. Click **Save As** again to create another copy named “Survey Step 1”.
 7. Open the “Survey Step 1” form, switch to the **Insert** tab, and then click **Section** > **Two Columns**.  
@@ -138,7 +138,7 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
 
 11. Open the properties of each field. On the **Formatting** tab, set the **Control Formatting** to **Check box**. Save and close the form.
 
-![Step 1 of the survey form with two questions for a user to answer.](media/create-survey-step-1-form.png "Step 1 of the survey form with two questions for a user to answer.")
+    ![Step 1 of the survey form with two questions for a user to answer.](media/create-survey-step-1-form.png "Step 1 of the survey form with two questions for a user to answer.")
 
 12. Open the “Survey Step 2” form, switch to the **Insert** tab, and select **Section** > **One Column**.  
 
@@ -170,7 +170,7 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
 
 20. On the “Survey Step 2” Web Form Step record, click the far-right chevron in the main Dynamics 365 navigation and select “Metadata” to open the Web Form Metadata Associated View underneath the “Survey Step 2” record.  Click “Add New Web Form Metadata”, then set the Attribute Logical Name on this new record to “Contoso Ltd. Rating (new_contosoltdrating)” and the Style to “Option Set as Horizontal Radio Button List”.  Save and close all the open forms.
 
-![The second step of the survey form created.](media/survey-step-2-form.png "The second step of the survey form created.")
+    ![The second step of the survey form created.](media/survey-step-2-form.png "The second step of the survey form created.")
 
 21. In Dynamics 365, navigate to Portals -> Web Pages and create a new Web Page entitled “Contoso Ltd. Survey”.  Set the Website to “Contoso Ltd.”, the Parent Page to “Home”, the Partial URL to “contoso-ltd-survey”, the PageTemplate to “Full Page”, the Publishing State to “Published”, and the Web Form to the “Contoso Ltd. Survey” that was created earlier.  Save the record.
 
