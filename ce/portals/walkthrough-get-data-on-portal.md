@@ -182,6 +182,7 @@ Granted, these steps are very complex and require several Dynamics 365 records t
 
 Each completed survey that is submitted will become a record within the **Portals** > **Survey** entity in Dynamics 365, and this record will contain the regarding contact who completed the web form along with all their responses for tabulation.
 
+## Form elements rendering
 While most Dynamics 365 forms can be successfully rendered in a portal, there are some call-outs that should be noted as some features aren't supported by the Dynamics 365 EntityFormView control that handles the actual rendering of the entity form.
 
 Here are the supported form elements:
