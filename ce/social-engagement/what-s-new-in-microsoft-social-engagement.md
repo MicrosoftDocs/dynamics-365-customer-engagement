@@ -27,7 +27,7 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
 ## Microsoft Social Engagement 2017 Update 1.5
 
 ### Fixed bugs and security concerns
-Although there are no new features to announce this month, we've been working hard to deliver various improvements on the 
+Although there are no new features to announce this month, we've been working hard to proactively address security concerns and product bugs.
 
 [//]: # (michael TO DO)
 
