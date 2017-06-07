@@ -1,8 +1,8 @@
 ---
-title: "Overview on Social Engagement and related scenarios | Microsoft Docs"
+title: "Introduction and overview on Social Engagement and related scenarios | Microsoft Docs"
 description: "Learn about Social Engagement and get started using the service."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 2017-06-07
 applies_to: "Social Engagement"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ ms.author: mhart
   
 ## Pricing information
 
- Microsoft Social Engagement is included with all Dynamics 365 Enterprise edition Plans and Plan 1 Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. For more information on pricing and licensing for Dynamics 365, please visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+ Microsoft Social Engagement is included with all Dynamics 365 Enterprise edition Plans and Plan 1 Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information on pricing and licensing for Dynamics 365, please visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
   
 ## Getting started
 
@@ -77,7 +77,7 @@ ms.author: mhart
    
 ## Community contributions
 
- Some of the folks in our company even create additional assets that are waiting for you.  
+ Have a look at these additional assets that are waiting for you.  
   
 -   [Nick Fratello's video: Social Engagement Customer Care Demonstration](https://www.youtube.com/watch?v=OIkSl6R5APo)  
   
