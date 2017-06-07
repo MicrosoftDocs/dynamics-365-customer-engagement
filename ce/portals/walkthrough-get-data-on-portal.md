@@ -146,33 +146,50 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
 
 14. Within the **Survey forms** area, choose **Form Order** > **Main Form Set**.  This will allow you to configure the form order to work in a sequence of Information > Survey Step 1 > Survey Step 2.
 
-15. On the main Information form and the Insert tab, click Section > Two Columns.  
+15. On the main Information form and the Insert tab, click **Section** > **Two Columns**.  
 
 16. Open the properties of the new section, change its label to “Which is your favorite suggestion for a future Contoso improvement?”, and checkthe box for **Show the label of this section on the form** option.  Drag the “Extended Support Hours”, “New Products”, and “More Stores” fields to this section.
 
     Repeat the step of adding a new two-column section, but this time change the label to “How did you first hear about Contoso Ltd.?” and drag the “Retail Store”, “Search Engine”, “Web Advertisement”, and “Word of Mouth” fields to this section.  Open the properties of each of the seven fields added to the form to this point, select the Formatting tab, and set the Control Formatting to Check box.  
 
-    Repeat the step of adding a section, but this time choose a one-column section.  Drag the “Contoso Ltd. Rating” field to this section, then open the properties of the field on the form and change its label to “Tell us how we're doing!  Please rate the quality of Contoso Ltd.’s various series of products.”
+    Repeat the step of adding a section, but this time choose a one-column section.  Drag the “Contoso Ltd. Rating” field to this section, then open the properties of the field on the form and change its label to “Tell us how we're doing! Please rate the quality of Contoso Ltd.’s various series of products.”
 
-    Finally, drag the Regarding Contact field to the first section of the General tab to track which user filled out the survey.  Save and close the form, then click Publish All Customizations.
+    Finally, drag the Regarding Contact field to the first section of the General tab to track which user filled out the survey. Save and close the form, then click **Publish All Customizations**.
 
     ![The main Information form with all survey fields added to it.](media/create-survey-main-form.png "The main Information form with all survey fields added to it.")
 
-17. Go to Portals > Web Forms and create a new web form entitled “Contoso Ltd. Survey”.  Set the Authentication Required field to Yes and the Multiple Records Per User Permitted field to No, then save the form, but keep it open.
+17. Go to **Portals** > **Web Forms** and create a new web form entitled “Contoso Ltd. Survey”.  Set the Authentication Required field to Yes and the Multiple Records Per User Permitted field to No, then save the form, but keep it open.
 
-18. On the “Contoso Ltd. Survey” Web Form record, open the Start Step lookup field and then click New to create a new Web Form Step.
+18. On the “Contoso Ltd. Survey” Web Form record:
+    1. Open the Start Step lookup field and then click **New** to create a new Web Form Step.
+    2. Name the step as “Survey Step 1”.
+    3. Set the Target Entity Logical Name to “Survey (new_survey)”.
+    4. Set the Form Name to “Survey Step 1”.
+    5. Select the **Associate Current Portal User** check box.
+    6. Set the Target Entity Portal User Lookup Attribute to “Regarding Contact (new_regardingcontact)”.
+    7. Save the form, but keep it open.
 
-    Name the step “Survey Step 1”, set the Target Entity Logical Name to “Survey (new_survey)”, set the Form Name to “Survey Step 1”, select the Associate Current Portal User check box, and set the Target Entity Portal User Lookup Attribute to “Regarding Contact (new_regardingcontact)”.  Save the form, but keep it open.
+        ![The first step of the survey form created.](media/survey-step-1-form.png "The first step of the survey form created.")
 
-    ![The first step of the survey form created.](media/survey-step-1-form.png "The first step of the survey form created.")
+19. On the “Survey Step 1” Web Form Step record:
+    1. Open the **Next Step** lookup field and click **New** to create a new Web Form Step.
+    2. Name the step as “Survey Step 2”.
+    3. Set the Web Form to “Contoso Ltd. Survey”.
+    4. Set the Target Entity Logical Name to “Survey (new_survey)”.
+    5. Set the Mode to “Edit”.
+    6. Set the Form Name to “Survey Step 2”.
+    7. Set the Source Type to “Result From Previous Step”.
+    8. Set the Success Message to “Thank you for taking the time to complete this survey!
+    9. Make sure that the Next Step field is blank then save the form, but keep it open.
 
-19. On the “Survey Step 1” Web Form Step record, open the Next Step lookup field and then click “New” to create a new Web Form Step.  Name the step “Survey Step 2”, set the Web Form to “Contoso Ltd. Survey”, set the Target Entity Logical Name to “Survey (new_survey)”, set the Mode to “Edit”, set the Form Name to “Survey Step 2”, set the Source Type to “Result From Previous Step”, and set the Success Message to “Thank you for taking the time to complete this survey!”  Make sure that the Next Step field is blank then save the form, but keep it open.
+20. On the “Survey Step 2” Web Form Step record:
+    1. Click the far-right chevron in the main Dynamics 365 navigation and select **Metadata** to open the Web Form Metadata Associated View underneath the “Survey Step 2” record.
+    2. Click **Add New Web Form Metadata** and set the Attribute Logical Name on this new record to “Contoso Ltd. Rating (new_contosoltdrating)” and the Style to “Option Set as Horizontal Radio Button List”.
+    3. Save and close all the open forms.
 
-20. On the “Survey Step 2” Web Form Step record, click the far-right chevron in the main Dynamics 365 navigation and select “Metadata” to open the Web Form Metadata Associated View underneath the “Survey Step 2” record.  Click “Add New Web Form Metadata”, then set the Attribute Logical Name on this new record to “Contoso Ltd. Rating (new_contosoltdrating)” and the Style to “Option Set as Horizontal Radio Button List”.  Save and close all the open forms.
+        ![The second step of the survey form created.](media/survey-step-2-form.png "The second step of the survey form created.")
 
-    ![The second step of the survey form created.](media/survey-step-2-form.png "The second step of the survey form created.")
-
-21. In Dynamics 365, navigate to Portals -> Web Pages and create a new Web Page entitled “Contoso Ltd. Survey”.  Set the Website to “Contoso Ltd.”, the Parent Page to “Home”, the Partial URL to “contoso-ltd-survey”, the PageTemplate to “Full Page”, the Publishing State to “Published”, and the Web Form to the “Contoso Ltd. Survey” that was created earlier.  Save the record.
+21. In Dynamics 365, navigate to **Portals** > **Web Pages** and create a new Web Page entitled “Contoso Ltd. Survey”.  Set the Website to “Contoso Ltd.”, the Parent Page to “Home”, the Partial URL to “contoso-ltd-survey”, the PageTemplate to “Full Page”, the Publishing State to “Published”, and the Web Form to the “Contoso Ltd. Survey” that was created earlier.  Save the record.
 
 Granted, these steps are very complex and require several Dynamics 365 records to work in tandem with one another to achieve the result. However, after the process is complete, users can navigate to the page that you’ve created on the portal and fill out the survey as intended.
 
@@ -183,24 +200,15 @@ Granted, these steps are very complex and require several Dynamics 365 records t
 Each completed survey that is submitted will become a record within the **Portals** > **Survey** entity in Dynamics 365, and this record will contain the regarding contact who completed the web form along with all their responses for tabulation.
 
 ## Form elements rendering
+
 While most Dynamics 365 forms can be successfully rendered in a portal, there are some call-outs that should be noted as some features aren't supported by the Dynamics 365 EntityFormView control that handles the actual rendering of the entity form.
 
-Here are the supported form elements:
-- All Dynamics 365 field validation rules
-- Both single and multi-column layouts
-- Dynamics 365 label language translations
-- Notes (inserted on the form)
-- Sub-Grids (inserted on the form)
-
-Here are the supported, but with caveats form elements:
-- All Dynamics 365 field types, except Party List fields
-- Only “Webpage (HTML)” and image-related Web Resource types are supported
-- Record filtering in a lookup field is supported, but only for N:1 relationships
-- Lookup fields are supported, but creating a new record through a lookup view on the form isn't supported
-
-Here are the unsupported form elements:
-- Form headers and footers won't display in the portal
-- iFrames
-- Dynamics 365 form scripting
+|Supported form elements|Supported, but with caveats form elements|Unsupported form elements|
+|---|---|---|
+|All Dynamics 365 field validation rules   |All Dynamics 365 field types, except Party List fields   |Form headers and footers won't display in the portal   |
+|Both single and multi-column layouts   |Only “Webpage (HTML)” and image-related Web Resource types are supported   |iFrames   |
+|Dynamics 365 label language translations   |Record filtering in a lookup field is supported, but only for N:1 relationships   |Dynamics 365 form scripting   |
+|Notes (inserted on the form)   |Lookup fields are supported, but creating a new record through a lookup view on the form isn't supported   |   |
+|Sub-Grids (inserted on the form)   |   |   |
 
 Finally, it’s worth mentioning that the Entity Form record in Microsoft Dynamics 365 has an assortment of options that allow for it to be fine-tuned as needed, including a section for **Attach File** options.  If a form requires the attachment of files, then select the **Attach File** check box and configure the **Attach File Storage Location** option for either **Dynamics 365 Note Attachment** or **Azure Blob Storage**.
