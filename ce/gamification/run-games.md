@@ -113,14 +113,14 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
 ### Awards and prizes
 
- In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)  
-  
- In addition to game awards, you can set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Create weekly awards to keep players and fans engaged](define-weekly-awards.md)  
-  
- To complete the game setup, click **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.  
-  
- After you activate the game, and before the game start date, you can change KPIs, game awards, and player game quotas, but you can't add new **Percentage of quota** KPIs. On or after the game start date, you can still change the game awards and player game quotas.  
-  
+In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)  
+
+In addition to game awards, you can set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Create weekly awards to keep players and fans engaged](define-weekly-awards.md)  
+
+To complete the game setup, click **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.  
+
+After you activate the game, and before the game start date, you can change KPIs, game awards, and player game quotas, but you can't add new **Percentage of quota** KPIs. On or after the game start date, you can still change the game awards and player game quotas.
+
 > [!NOTE]
 >  Add or remove players or fans at any time after you activate a game by choosing **Add or remove players or fans** on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] to freeze the points for that player, so teams don't lose points for the current and past game periods.  
   
@@ -128,27 +128,25 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
   
 ## Run the game and keep scores up to date
 
- During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel point scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)  
-  
-> [!IMPORTANT]
->  When you edit an active game and remove a KPI or change the active players, a user who has the **KPI manager** security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
-  
-> [!TIP]
-> - Consider setting up a TV for your office to show the leaderboard and announcements on the smack talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
-> - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-one-time-emails.md)  
+ During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel point scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
-[//]: # (In personalize-game-experience, I think it says 31 days rather than 30. Or am I off by one?)  
+> [!IMPORTANT]
+>  When you edit an active game and remove a KPI or change the active players, a user who has the **KPI manager** security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
+
+> [!TIP]
+> - Consider setting up a TV for your office to show the leaderboard and announcements on the smack talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
+> - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-one-time-emails.md)
+
 ## Complete a game
 
- After the game end date, a game manager or commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] with [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], they also need to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 30 days after the game end date.  
-  
+ After the game end date, a game manager or commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] with [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], they also need to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 31 days after the game end date.
+
 ### Manually complete a game
-  
+
 1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Games**.  
   
-2.  In the **Active Games** list, click **End Game** for the game you want to complete.  
+2.  In the **Active Games** list, click **End Game** for the game you want to complete.
 
-  
 ### See also
 
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
