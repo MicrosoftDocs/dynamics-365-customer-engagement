@@ -47,6 +47,7 @@
 ### [Gather feedback using poll](gather-feedback-poll.md)
 ### [Rate webpage or blog article](rate-webpage-blog-post.md)
 ### [Add a redirect URL](add-redirect-url.md)
+### [Walkthrough: Get data on the Portal](walkthrough-get-data-on-portal.md)
 
 ## [Manage portal content](manage-portal-content.md)
 ### [Create forum posts](create-forum-posts.md)

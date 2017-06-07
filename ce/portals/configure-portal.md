@@ -27,7 +27,8 @@ Learn how to configure portals and customize [!INCLUDE[pn-microsoftcrm](../inclu
 - [Create and run advertisements on a portal](create-run-advertisement.md)  
 - [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 - [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  
-- [Redirect to a new URL on a portal](add-redirect-url.md)  
+- [Redirect to a new URL on a portal](add-redirect-url.md)
+- [Walkthrough: Get Dynamics 365 data on the Portal](walkthrough-get-data-on-portal.md)  
 
 ### See Also
 
