@@ -2,7 +2,7 @@
 title: "Stay up to date with alerts | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
 ms.custom: ""
-ms.date: 2017-03-02
+ms.date: 2017-06-07
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
@@ -21,9 +21,11 @@ Create email notifications that are automatically sent to a group of recipients 
 - **Post alert:** You’ll receive an email notification within few hours if any new posts match the selected filters. A summary of important posts is delivered directly to your email account. With this option, you can stay up to date on the topics that matter most to you.  
   
 - **Trend alert:** You’ll receive an email notification within few hours if the volume of posts for any sources exceeds the statistical expectation. A trend alert notifies you only if there are significant changes in post volumes that match the filters that you defined for an alert.  
-  
+
 The configuration of alerts that you create is visible only to you. Other recipients of the alert that you add to the alert configuration won’t be able to see or edit your alert configuration.  
-  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lQKzwulgnmM?rel=0" frameborder="0" allowfullscreen></iframe>
+
 <a name="create_edit_delete_alert"></a>   
 ## View, create, change, or delete an alert  
   
@@ -37,8 +39,7 @@ To review the alerts that you created, go to **Message Center**.  The informatio
 |Alert type|Type of alert you set up.|  
 |Delete button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button")|Delete an existing alert from the list if you no longer need it.|  
   
-> [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Alerts (3:13)](http://go.microsoft.com/fwlink/p/?LinkId=544937)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lQKzwulgnmM?rel=0" frameborder="0" allowfullscreen></iframe>
   
 ### Create an alert  
 A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")  

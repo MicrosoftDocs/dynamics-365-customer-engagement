@@ -2,7 +2,7 @@
 title: "FRE: Service - Engage on social networks | Microsoft Docs"
 description: "Review the service scenario for inspiration how to efficiently leverage Social Engagement in your organization."
 ms.custom: ""
-ms.date: 05/11/2017
+ms.date: 2017-06-07
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,7 +15,9 @@ ms.author: mhart
 ---
 # FRE: Service - Engage on social networks
 Do you want to offer a fast and powerful support to your customers on social channels? This learning path provides a step by step description how you and your team can use [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to solve your customer's requests happening on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows to keep track of all customer requests, adding intelligence on top and eventually answering them directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or routing them into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.  
-  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMzpeZdQDQY?rel=0" frameborder="0" allowfullscreen></iframe>
+
 ## Prerequisites  
   
 -   You (and any user you plan to work with) need to have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.  

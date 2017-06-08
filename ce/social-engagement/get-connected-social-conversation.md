@@ -2,7 +2,7 @@
 title: "Drive customer engagement using Social Engagement | Microsoft Docs"
 description: "Get an overview on how Social Engagement can help your organization to become more effective on social media."
 ms.custom: ""
-ms.date: 2016-11-18
+ms.date: 2017-06-07
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
@@ -27,8 +27,6 @@ There’s a good chance that your customers and stakeholders are talking about y
 -   Read [What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md) to know the list of features added or updated in this release.  
   
 -   Download the [Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
-  
--   Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282) [Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
   
 ## Next steps  
   

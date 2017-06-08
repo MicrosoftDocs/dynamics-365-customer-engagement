@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 ms.custom: ""
-ms.date: 2016-11-18
+ms.date: 2017-06-07
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
@@ -35,8 +35,7 @@ The following table shows the rules that you can create.
 > [!TIP]
 >  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
-> [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3HoeVROsJZk?rel=0" frameborder="0" allowfullscreen></iframe>
   
 ## Add a rule to a search topic  
 To enable searches and collect posts, add one or more rules to a search topic.  

@@ -2,7 +2,7 @@
 title: "Find more relevant content | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 2017-06-07
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
@@ -21,8 +21,7 @@ Analyze your results and optimize your search queries regularly to make sure you
 > [!TIP]
 >  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
-> [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3HoeVROsJZk?rel=0" frameborder="0" allowfullscreen></iframe>
   
  Terms and sources change. New abbreviations may gain popularity, or news about your topic will be defined in a different way with different words. A recommended approach is to read carefully through new and important posts to identify emerging topics or changes in wording.  
   

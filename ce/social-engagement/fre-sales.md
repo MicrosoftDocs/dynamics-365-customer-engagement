@@ -2,7 +2,7 @@
 title: "FRE: Sales - title to be defined | Microsoft Docs"
 description: "Review the sales scenario for inspiration how to efficiently leverage Social Engagement in your organization."
 ms.custom: ""
-ms.date: 06/05/2017
+ms.date: 2017-06-07
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -39,6 +39,8 @@ This learning path provides a step by step description how you and your team can
 ## Grow your network and influence using Social Selling Assistant
 
 Learn how to install, configure and personalize the Social Selling Assistant to increase your presence on social media.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B0tcV0piZbI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 1. Ask an admin to configure Social Engagement for the Social Selling Assistant: [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)
 

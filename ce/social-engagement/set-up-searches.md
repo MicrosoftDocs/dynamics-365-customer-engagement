@@ -2,7 +2,7 @@
 title: "Set up searches to listen to social media conversations | Microsoft Docs"
 description: "Review this guide to set up searches and find data in Social Engagement."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 2017-06-07
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
@@ -31,8 +31,7 @@ Listen to conversations on social media around your brand, business, products, a
 |![Step 4](../social-engagement/media/crm-ua-walkthrough-green-4.png "Step 4")|Start analyzing your results after the search topic has gathered the first data.|[Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)|  
 |![Step 5](../social-engagement/media/crm-ua-walkthrough-green-5.png "Step 5")|Optimize your search topics constantly to make sure you’re gathering only relevant posts.|[Manage the quality of your search results](../social-engagement/search-results-quality.md)<br /><br /> and<br /><br /> [Refine your search rules](../social-engagement/refine-search-rules.md)|  
   
-> [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3HoeVROsJZk?rel=0" frameborder="0" allowfullscreen></iframe>
   
 ## Access search topics  
  To access the search topics in your organization’s solution, go to **Search Setup**.  
