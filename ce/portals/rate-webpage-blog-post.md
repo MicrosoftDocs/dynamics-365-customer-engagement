@@ -44,7 +44,7 @@ For webpages that have page ratings enabled and the developer has applied the co
 The ratings for webpages can be viewed, modified, or deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
-2. Navigate to **the Web page, Blog Post, Page Comment, or Blog Post Comment** that you are interested in seeing the ratings for.
+2. Navigate to **the Web page**, **Blog Post**, **Page Comment**, or **Blog Post Comment** that you are interested in seeing the ratings for.
 3. Navigate to **Activities**.
 
 The associated view lists the ratings for the selected webpage, blog post, or idea. Within this view, users can modify or delete existing ratings.

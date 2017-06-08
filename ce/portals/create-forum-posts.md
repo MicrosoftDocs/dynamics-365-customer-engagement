@@ -25,7 +25,7 @@ The forum post editor will appear automatically when a user has successfully sig
 3. Compose your reply in the rich text editor.
 4. Click **Submit**.
 
-## Attribute relationships
+### Attribute relationships
 
 The table below explains many of the Forum Post attributes used by portals. It is important to note that the rendering of the content/display-oriented attributes is controlled by the page template used.
 

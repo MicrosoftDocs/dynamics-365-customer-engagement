@@ -24,26 +24,15 @@ Liquid is an open-source template language integrated into portals. It can be us
 
 In all of these scenarios, you'll have dynamic access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal features, such as [entitylist](#entitylist), [content snippets](#customize-content-by-using-content-snippets), [site settings for portals](configure-site-settings.md), and [web links](#manage-web-links-in-dynamics-365-or-on-portals).  
 
-## In this section
-
-[Store source content by using web templates](store-content-web-templates.md)  
-
-[Understand Liquid operators](liquid-operators.md)  
-
-[Liquid types](liquid-types.md)  
-
-[Conditional](liquid-conditional-operators.md)  
-
-[Liquid Objects](liquid-objects.md)  
-
-[Liquid Tags](liquid-tags.md)  
-
-[Liquid Filters](liquid-filters.md)  
-
-[Create advanced templates for portals](create-advanced-templates.md)  
-
 ### See Also
 
 [How to provision a portal](provision-portal.md)  
-[Get started with the portal content editor](get-started-portal-content-editor.md)  
-
+[Get started with the portal content editor](get-started-portal-content-editor.md)
+[Store source content by using web templates](store-content-web-templates.md)  
+[Understand Liquid operators](liquid-operators.md)  
+[Liquid types](liquid-types.md)  
+[Conditional](liquid-conditional-operators.md)  
+[Liquid Objects](liquid-objects.md)  
+[Liquid Tags](liquid-tags.md)  
+[Liquid Filters](liquid-filters.md)  
+[Create advanced templates for portals](create-advanced-templates.md)  

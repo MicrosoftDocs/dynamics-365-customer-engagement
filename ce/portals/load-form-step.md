@@ -14,24 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Load form and load tab step type
-
-
-
 This step type allows the web form step to act as an entity form within the overall web form process. It loads a form from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] with a similar set of options available as an Entity Form.
-
-## In this topic
-
-[Settings](#settings)  
-
-[Additional settings](#additional-settings)  
-
-[Form options](#form-options)  
-
-[Associate the current portal user with the creation of a record](#associate-the-current-portal-user-with-the-creation-of-a-record)  
-
-[Entity reference](#entity-reference)  
-
-[Additional functionality](#additional-functionality)  
 
 ## Settings
 

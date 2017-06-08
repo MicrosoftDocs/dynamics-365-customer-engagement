@@ -36,7 +36,7 @@ For portal users with content management permissions, a limited set of propertie
 
 ![Create a new child forum](media/create-new-child-forum.png "Create a new child forum")  
 
-## Forum attributes used by portals
+### Forum attributes used by portals
 
 The table below explains many of the Forum attributes used by portals. It is important to note that the way many of the content and display-oriented attributes are rendered is controlled by the page template used, and thus by the portal developer.
 
