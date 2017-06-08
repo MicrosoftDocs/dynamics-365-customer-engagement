@@ -21,7 +21,6 @@
 ### [Configure site settings](configure-site-settings.md)
 ### [Configure authentication](configure-portal-authentication.md)
 ### [Use shortcuts to place child nodes](place-child-nodes.md)
-### [Register and invite users](register-invite.md)
 ### [Configure contacts ](configure-contacts.md)
 ### [Set authentication identity](set-authentication-identity.md)
 ### [Configure OAuth2 provider settings](configure-oauth2-settings.md)
