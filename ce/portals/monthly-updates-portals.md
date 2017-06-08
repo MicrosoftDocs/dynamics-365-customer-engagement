@@ -28,7 +28,8 @@ The December 2016 update has brought many new features to the portal capabilitie
 -   **Partner onboarding:** Recruit new partners for better customer sales and service experiences. Potential partners can apply for partner status through the portal.
 
 
-To know more about the enhancements that were included in this update, as well as how to obtain the updated solutions, see [Release notes](https://support.microsoft.com/en-us/kb/3181516).
+- To know more about the enhancements that were included in this update, as well as how to obtain the updated solutions, see [Release notes](https://support.microsoft.com/en-us/kb/3181516).
+- [How to Upgrade the Solutions for a Microsoft Dynamics CRM Portals Deployment](https://support.microsoft.com/en-us/help/3192042/how-to-upgrade-the-solutions-for-a-microsoft-dynamics-crm-portals-deployment)
 
 ### Privacy notice
 
