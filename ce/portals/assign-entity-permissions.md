@@ -14,48 +14,42 @@ ms.author: shjais
 manager: sakudes
 ---
 # Add record-based security by using entity permissions for portals
-
-
-
-Record-based security in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals that applies to individual records is provided by using Entity Permissions.
+Record-based security in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals that applies to individual records is provided by using Entity Permissions.Entity Permissions are added to Web Roles, allowing you to define roles in your organization which logically correspond to the privileges and concepts of record ownership/access that are introduced with Entity permissions. Remember that a given Contact can belong to any number of roles and a given role can contain any number of Entity Permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md) 
 
 Although permissions to change and access URLs in a portal sitemap is granted via Content Authorization, site managers will also want to secure their custom web applications built with Entity Forms and Entity Lists. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md) and [Add a webpage to render a list of records](#add-a-webpage-to-render-a-list-of-records)  
 
 To secure these features, Entity Permissions allow for granular rights to be granted for arbitrary entities and for record-level security to be enabled via relationship definitions.
 
-## Adding entity permissions to a web role
-
-Entity Permissions are added to Web Roles, allowing you to define roles in your organization which logically correspond to the privileges and concepts of record ownership/access that are introduced with Entity permissions. Remember that a given Contact can belong to any number of roles and a given role can contain any number of Entity Permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md)  
-
-To add an Entity Permission to a Web Role, navigate first to the Web Role you wish to add the permissions to. Web roles for a website can be found in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in either **Portals &gt; Web Roles** or **Portals &gt; {your portal} &gt; Web Roles**.
-
-Click to **Add** an Existing Entity Permission. From there you may click to create a **New** Entity Permissions Record.
+## Add entity permissions to a web role
+1. Navigate to the Web Role you wish to add the permissions to. Web roles for a website can be found in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in either **Portals &gt; Web Roles** or **Portals &gt; {your portal} &gt; Web Roles**.
+2. Click to **Add** an Existing Entity Permission. 
+3. Click to create a **New** Entity Permissions Record.
 
 ![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
 
 When creating a new Entity Permission record, the first step is to Determine the **Entity** that will be secured. The next step is to define **Scope**, as discussed below, and in the case of any scope besides Global, the **Relationships** that define that scope must be specified. Finally, determine the Rights that are being granted to the Role via this permission. Note that rights are cumulative, so if a user is in a role that grants Read, and another that grants read and update, the user will have read and update to any records that overlap between the two roles.
 
-## Global scope
+### Global scope
 
 If a Permission record with **Read** permission is granted to a role that has global scope, any contact in that role will have access to all records of the defined Entity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. For example, they can see all leads, all accounts, and so on. This permission will be automatically respected by any entity lists; essentially showing all records according to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views that have been defined for that list. Further, if a user attempt to access a record via an Entity Form that they do not have access to, they will receive a permission error.
 
-## Contact scope
+### Contact scope
 
-With Contact scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record via a relationship that is defined in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]5.
+With Contact scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record via a relationship that is defined in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 On an entity list, this means a filter will be added to whatever [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views are surfaced by that list, which retrieves only records linked to the current user directly. (Depending on the scenario, this relationship can be thought of as "ownership," "management rights," and so on.)
 
 Entity Forms will only allow the appropriate permission for Read, Create, Write, and so on if this relationship exists when the record is loaded. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md).  
 
-## Account scope
+### Account scope
 
 With Account Scope, a signed-in user in the Role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via a relationship that is defined in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-## Self scope
+### Self scope
 
 Self Scope allows you to define the rights a user has to their own Contact (Identity) record. This allows users to use Entity Forms or Web Forms to make changes to their own Contact Record linked with their profile. Note that the default Profile Page has a special built-in form that allows any user to change their basic contact info and opt in or out of marketing lists. If this form is included in your portal (which it is by default), users do not require this permission to use it. However, they will require this permission to use any custom Entity Forms or Web Forms that target their User Contact Record.
 
-## Parental scope
+### Parental scope
 
 In this most complex case, permissions are granted for an entity that is a relationship away from an entity for which a permission record has already been defined. This permission is actually a child record of the parent Entity Permission.
 
@@ -63,7 +57,7 @@ The Parent Permission Record defines a permission and scope for an entity (proba
 
 Thus, users in a web role who have access to records defined by parent entity permissions will also have rights as defined by the child permission record to records related to the parent record.
 
-## Attributes and relationships
+### Attributes and relationships
 
 The table below explains the Entity Permission attributes.
 
