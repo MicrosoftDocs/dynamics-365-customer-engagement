@@ -74,7 +74,6 @@
 ####  [Template tags](tags.md#template-tags)
 ####  [Dynamics 365 entity tags](tags.md#dynamics-365-entity-tags)
 
-
 ### [Create advanced templates](create-advanced-templates.md)
 ### [Create a custom page template](create-custom-template.md)
 ### [Use hybrid navigation to render page hierarchy](hybrid-navigation-render-page-hierachy.md)
