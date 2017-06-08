@@ -116,4 +116,4 @@ After these permissions are in place, users in the Lead Manager role can access 
 
 [Create web roles for portals](create-web-roles.md)  
 [Control webpage access for portals](webpage-access-control.md)  
-[Assign permission set to a web role for portals](assign-permission-web-role.md)
+[Configure web roles for a PRM portal](configure-web-roles-partner-portal.md)
