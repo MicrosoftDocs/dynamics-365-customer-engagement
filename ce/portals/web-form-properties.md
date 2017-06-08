@@ -18,7 +18,7 @@ The Web Form contains relationships to webpages and a start step to control the 
 
 The other options on the Web Form record itself control top-level preferences for the multiple-step process as a whole, for example whether you'd like to display a progress bar.
 
-To view existing Web Forms or to create new Web Forms, navigate to **Portals -&gt; Web Forms**
+To view existing Web Forms or to create new Web Forms, navigate to **Portals** > **Web Forms**
 
 >[!Note]
 > A **Web Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site.  

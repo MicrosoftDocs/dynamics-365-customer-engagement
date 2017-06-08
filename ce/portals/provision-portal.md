@@ -52,8 +52,8 @@ To complete provisioning a portal, after you have purchased a new portal license
 6.  Use the **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
 7.  Choose the default language for your portal from the **Select Portal Language** drop-down list. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
 
->[!NOTE]
-> Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not show up.
+    >[!NOTE]
+    > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not show up.
 
 8. In the **Select Portal Administrator** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user who will configure, customize, and maintain the portal. All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users who have the System Administrator role in the organization will show up as options. 
 9. In the **Portal Audience** section, choose the type of audience who will visit the new portal. This will determine what options of portals you will be given. You can choose:
@@ -113,15 +113,15 @@ The table below summarizes the features associated with each portal option:
 
 11. Click **Submit**, and accept the Terms of Service.
 
-> ![Terms of service](media/terms-of-service.png "Terms of service")  
+    ![Terms of service](media/terms-of-service.png "Terms of service")  
 
 12. You will be redirected to the [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] sign in page. Select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that you used to create the portal.
 
-![Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](media/sign-in-dynamics-365.png "Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]")  
->
-> You will be asked to provide consent for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals.
->
-> ![Provide permission to enable sign-on](media/permission-enable-sign-on.png "Provide permission to enable sign-on")  
+    ![Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](media/sign-in-dynamics-365.png "Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]")  
+
+    You will be asked to provide consent for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals.
+
+    ![Provide permission to enable sign-on](media/permission-enable-sign-on.png "Provide permission to enable sign-on")  
 
 After you consent, your portal will begin provisioning. Provisioning usually takes a few hours, but can take more depending on system load. The *Name* of the portal on the Application tab will change to “*Name*-Configuring” while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
 
@@ -139,7 +139,7 @@ If “*Name*-Configuring” changes to “*Name*-Provisioning Failed,” you nee
 
     -   **Change Values and Restart Provisioning**: Lets you change some of the values before restarting the provisioning process.
 
-![Provisioning error](media/error-provisioning.png "Provisioning error")  
+    ![Provisioning error](media/error-provisioning.png "Provisioning error")  
 
 If the package installation has failed, the Portal administrator page will open without any issues, but navigating to the actual portal URL will show a message “Getting set up.” To confirm this:
 
@@ -163,15 +163,15 @@ You can use the purchased SSL certificate for your domain to link your [!INCLUDE
 
 1. Click **Upload a new certificate** if you have not yet uploaded the .pfx file to the organization. 
 2. Click the upload button underneath **File** and select the .pfx file. 
-3. Next, enter the password for your SSL certificate in the **Password** field. Otherwise click **Use an existing certificate** and choose the correct certificate from the drop-down menu. Be sure that you are using a SHA2 certificate, SHA1 support is being removed from popular browsers.
+3. Enter the password for your SSL certificate in the **Password** field. Otherwise click **Use an existing certificate** and choose the correct certificate from the drop-down menu. Be sure that you are using a SHA2 certificate, SHA1 support is being removed from popular browsers.
 4. Click **Add a new hostname** to create a new custom domain. Enter the desired domain name into the **Domain Name** field. Otherwise, click **Use an existing host name** and choose the desired host name from the drop-down menu. 
 
 > [!Note] 
 > - You can only have one custom domain name for a portal. 
 > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, this will show a message “Plead add a CNAME record to this domain name.” Retry after some time passes.
+
 5.  Review the information you have entered, then click **Next** to begin creating the SSL Binding.
 6.  You should see the message “_Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal._” {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured. Click **Finish** to close the wizard
 
-> ![Choose the SSL certificate](media/choose-ssl-certificate.png "Choose the SSL certificate")  
-
-### See Also
+    ![Choose the SSL certificate](media/choose-ssl-certificate.png "Choose the SSL certificate")  
+    
