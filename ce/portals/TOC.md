@@ -75,8 +75,8 @@
 ####  [Dynamics 365 entity tags](tags.md#dynamics-365-entity-tags)
 
 ### [Create advanced templates](create-advanced-templates.md)
-### [Create a custom page template](create-custom-template.md)
-### [Use hybrid navigation to render page hierarchy](hybrid-navigation-render-page-hierachy.md)
-### [Render entity list of a current page](render-entity-list-current-page.md)
-### [Render RSS feed using custom page template](render-rss-custom-page-template.md)
-### [Render site header and primary navigation bar](render-site-header-primary-navigation.md)
+#### [Create a custom page template](create-custom-template.md)
+#### [Use hybrid navigation to render page hierarchy](hybrid-navigation-render-page-hierachy.md)
+#### [Render entity list of a current page](render-entity-list-current-page.md)
+#### [Render RSS feed using custom page template](render-rss-custom-page-template.md)
+#### [Render site header and primary navigation bar](render-site-header-primary-navigation.md)
