@@ -21,7 +21,7 @@ An entity form record allows an administrator to render a [!INCLUDE[pn-dynamics-
 
 This functionality can be taken advantage of for many reasons and use cases, but a common example of how this can be leveraged would be to build a new form under the Lead entity within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] **Customize the System** interface, then create an entity form record that can be surfaced on the portal to capture lead data through a contact page or some type of information request page. In fact, this specific example is used for the default **Contact Us** page within the portals available in the December 2016 Update for Microsoft [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online) release. Other examples include using an entity form for profile management or a single page survey.
 
-![Contact Us Web Form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the left, and its rendering in the portal on the right side.](media/contact-us-web-form.png "Contact Us Web Form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the left, and its rendering in the portal on the right side.")
+![Contact Us Web Form in Dynamics 365 on the left, and its rendering in the portal on the right side.](media/contact-us-web-form.png "Contact Us Web Form in Dynamics 365 on the left, and its rendering in the portal on the right side.")
 
 Entity forms contain relationships to web pages and additional properties to control the initialization of the form within the portal.  The relationship to a web page allows dynamic retrieval of the form definition for a given page node within the portal website.
 
@@ -44,7 +44,7 @@ For this demonstration, let’s consider a scenario in which Contoso, Inc. would
 
     5. Save it and publish.
 
-    ![Creating a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be rendered on a portal.](media/create-custom-suggestion-form.png "Creating a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be rendered on a portal.")
+    ![Creating a custom form in Dynamics 365 to be rendered on a portal.](media/create-custom-suggestion-form.png "Creating a custom form in Dynamics 365 to be rendered on a portal.")
 
 4. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Portals** > **Entity Forms** and create a new Entity Form record. Name it “Suggestion”, set its **Entity Name** field to “Suggestion (new_suggestion)”, set its **Form Name** to “Suggestion Form”, set its **Tab Name** to “Suggestion”, and its **Form Type** as “Insert”, and modify any of the other options as needed.
 
