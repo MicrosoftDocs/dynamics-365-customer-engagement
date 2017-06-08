@@ -26,31 +26,12 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
 
 ## Microsoft Social Engagement 2017 Update 1.5
 
-### Fixed bugs and security concerns
+### Service and product improvements
+
 Although there are no new features to announce this month, we've been working on proactively addressing service and product improvements with the current release.
 
-User-facing changes we've addressed:
-- Improved loading times for Search Setup page with large number of search topics.
-
-- Improved user experience when working with maps: Post preview was not available for single posts so far. With a patch deployed a few days after this release you can click on any single pin and see the post preview.
-
-- Fixed an issue with closing the welcome screen when using Social Selling Assistant in private browsing mode on an iOS device.
-
-- Fixed an issue with global notifications in Social Selling Assistant when using IE11.
-
-- Fixed an issue with provisioning Social Engagement in some countries/regions.
-
-- Fixed an issue with label on timespan drop-down in Activity Maps.
-
-- Fixed an issue on Settings > Global Settings > Location Groups with missing tooltip.
-
-- Fixed a layout issue on Search Setup when editing search topic categories using Firefox browser.
-
-- Fixed an issue on Settings > Social Profiles, where tooltips where not shown for “view associated Search Topic”.
-
-- Increased contrast ratio on retweet dialog for better readability.
-
-- Increased line spacing within paragraphs on posts displayed in Social Center and Social Selling Assistant for better readability.
+[//]: # (TO DO add link after blog live)
+For user-facing changes we've addressed, please see the detailed blog post.
 
 Additionally, we continued our ongoing investment to make Social Engagement more accessible. With the current release, Social Selling Assistant within Social Engagement supports keyboard navigation as well as screenreaders on mobile and desktop devices.
 
