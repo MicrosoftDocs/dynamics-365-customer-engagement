@@ -23,17 +23,6 @@ The following topics describe each type of tag:
 - [Template tags](#template-tags)
 - [[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags](#dynamics-365-entity-tags)  
 
-### See Also
-
-[Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
-[Store source content by using web templates](store-content-web-templates.md)  
-[Understand Liquid operators](liquid-operators.md)  
-[Liquid types](liquid-types.md)  
-[Conditional](liquid-conditional-operators.md)  
-[Liquid Objects](liquid-objects.md)  
-[Liquid Filters](liquid-filters.md)  
-[Create advanced templates for portals](create-advanced-templates.md)  
-
 ## Control flow tags
 
 Control Flow tags determine which block of code should be executed and what content should be rendered based on given conditions. Conditions are built using the available [*Understand Liquid operators*](liquid-operators.md), or just based on [*Conditional*](#conditional).  
@@ -103,14 +92,6 @@ Hello, stranger.
 
 {% endcase %}
 ```
-
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](liquid-filters.md)  
 
 ## Iteration tags
 
@@ -491,15 +472,6 @@ Defines a range of numbers to loop through.
 
 </table>
 ```
-
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](liquid-filters.md)  
-
 ## Variable tags
 
 Variable tags are used to create new Liquid variables.
@@ -554,14 +526,6 @@ Hello, DAVE BOWMAN.
 Hello, DAVE BOWMAN.
 ```
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](liquid-filters.md)  
-
 ## Template tags
 
 Template tags control the output of a template in various ways, and allow the combination of multiple templates into a single output.
@@ -611,14 +575,6 @@ Allows output of Liquid code on a page without having it parsed and executed.
 **Output**
 
 `Hello, {{ user.fullname }}. My name is Charles.`
-
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](liquid-filters.md)  
 
 ## [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags
 
@@ -716,10 +672,6 @@ Loaded entity list {{ my_list.adx_name }}.
 
 {% endentitylist %}
 ```
-
-|  >[!Note]                                                       |  
-|-----------------------------------------------------------------------------------------------------------------------|
-| [*Render the entity list associated with the current page*](render-entity-list-current-page.md) |  
 
 ### **Parameters**
 
@@ -822,10 +774,6 @@ Loaded default view of the entity list associated with the current page, with {{
 {% endentitylist %}
 ```
 
-|  >[!Note]                                                       |  
-|-----------------------------------------------------------------------------------------------------------------------|
-| [*Render the entity list associated with the current page*](render-entity-list-current-page.md) |  
-
 ### **Parameters**
 
 Provide**either** id**or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
@@ -913,10 +861,6 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 {% endentitylist %}
 ```
-
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| [*Entity List filters*](#entity-list-filters)                   |  
 
 **order**
 
@@ -1129,11 +1073,8 @@ An additional query used to match results. This parameter is intended to accept 
 
 This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
 
-|  >[!Note]                                                                                                                                                                                        |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. 
-                                                                                                                                                                                                                                                         
- So, in the case that parsing query according to this syntax fails, the entire query will be escaped and submitted as the query text. filter, on the other hand, will be parsed strictly and return an error if the case of invalid syntax.              |
+> [!Note]     
+> The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. So, in the case that parsing query according to this syntax fails, the entire query will be escaped and submitted as the query text. filter, on the other hand, will be parsed strictly and return an error if the case of invalid syntax.              |
 
 **logical\_names**
 
@@ -1199,11 +1140,8 @@ Having multiple search providers is an advanced configuration that will not appl
 
 Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal*](entity-forms-custom-logic.md), by name or ID.  
 
-|  >[!Note]                                                                                                                                                                                        |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.   
-                                                                                                                                                                                                                                                         
- You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                                                                                                                       |
+>[!Note]                                                                                                                               > The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
+
 `{% entityform name: 'My Entity Form' %}`
 
 ### **Parameters**
@@ -1226,21 +1164,13 @@ The name of the Web Form you wish to load.
 
 ### **webform**
 
-Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID.
-
-|  >[!Note]                                                                                                                                                                                     |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The webform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.   
-                                                                                                                                                                                                                                                      
- You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                                                                                                                    |
-
+Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
 `{% webform name: 'My Web Form' %}`
 
 ### See Also
 
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](liquid-filters.md)  
-
+[Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
+[Liquid types](liquid-types.md)  
+[Liquid Objects](liquid-objects.md)  
+[Liquid Tags](liquid-tags.md)  
+[Liquid Filters](liquid-filters.md) 
