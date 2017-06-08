@@ -120,25 +120,14 @@ The ads object allows you to select a specific ad or ad placement:
 |Attribute   |Description   |
 |---|---|
 | placements        | Returns the adplacements object.    |
-| \[ad name or id\] | You can access any ad by its Name or Id properties. |                
+| \[ad name or id\] | You can access any ad by its Name or Id properties. <br> `{% assign ad = ads["Ad Name"] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
 
-```
-{% assign ad = ads["Ad Name"] %}                               
-                                                                       
-{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}  |
-```
 
 ### **Ad Placements attributes**
 
 |Attribute   |Description   |
 |---|---|
-| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.|                          
-
-```
-{% assign placement = ads.placements["Placement Name or Id"] %}                  
-                                                                                         
-{% assign placement = ads.placements["2423d713-abb3-44c3-8a7d-c445e16fccad"] %}  |
-```
+| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.<br>`{% assign placement = ads.placements["Placement Name or Id"] %}`<br>`{% assign placement = ads.placements["2423d713-abb3-44c3-8a7d-c445e16fccad"] %}`  |
 
 ### **Ad Placement attributes**
 
@@ -368,7 +357,7 @@ A note is an entity object that provides access to the attributes and relationsh
 | url          | Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL will download the note file attachment.                     |
 
 >[!Note]
-> [*Additional filters*](#additional-filters)                     |  
+> [*Additional filters*](#additional-filters)                     
 
 ### **Option Set Value**
 
@@ -410,12 +399,12 @@ Attempts to load reflexive (i.e. self-referential) relationships on entities are
 The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags). It provides access to all the attributes of a given entity list.  
 
 >[!Note]                                                       
-> [*Render the entity list associated with the current page*](render-entity-list-current-page.md)
+> [Render the entity list associated with the current page](render-entity-list-current-page.md)
 
 ### **Attributes**
 
 >[!Note]
-[*entities*](#entities)
+[entities](#entities)
 
 |Attribute   |Description   |
 |---|---|
@@ -559,10 +548,10 @@ Represents a single event occurrence. The associated attributes are given below:
 
 ## forloop
 
-Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
+Contains properties useful within a [Iteration tags](#iteration-tags) loop block.  
 
 >[!Note]
->forloop can only be used within a [*Iteration tags*](#iteration-tags) tag.
+>forloop can only be used within a [Iteration tags](#iteration-tags) tag.
 
 **Code**
 
@@ -688,7 +677,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 ### **Attributes**
 
 > [!Note]
-> [*entities*](#entities)
+> [entities](#entities)
 
 |Attribute   |Description   |
 |---|---|
@@ -710,7 +699,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 ### **Attributes**
 
 > [!Note]
-> [*entities*](#entities)
+> [entities](#entities)
 
 |Attribute   |Description   |
 |---|---|
@@ -735,7 +724,7 @@ A Single Forum Post
 ### **Attributes**
 
 > [!Note] 
-> [*entities*](#entities)
+> [entities](#entities)
 
 |Attribute   |Description   |
 |---|---|
@@ -746,7 +735,7 @@ A Single Forum Post
 
 ## page
 
-Refers to the current portal request page. This object combines the attributes of the [*sitemap*](#sitemap) and the current request [*entities*](#entities) (usually a webpage).  
+Refers to the current portal request page. This object combines the attributes of the [sitemap](#sitemap) and the current request [entities](#entities) (usually a webpage).  
 
 The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record.
 
@@ -795,7 +784,7 @@ The page object provides access to things like the breadcrumbs for the current p
 ### **Page attributes**
 
 > [!Note]  
-> [*entities*](#entities)
+> [entities](#entities)
 
 |Attribute   |Description   |
 |---|---|
@@ -866,16 +855,14 @@ The polls object allows you to select a specific poll or poll placement:
 
 ### **Poll Attributes**
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| [*entities*](#entities)                                         |  
+> [!Note] 
+> [entities](#entities)                                          
 
+|Attribute   |Description   |
+|---|---|
 | has\_user\_voted       | Returns true if the current user (logged in or anonymous) has already voted in this poll.         |
-|------------------------|---------------------------------------------------------------------------------------------------|
 | Name                   | Returns the Name field for the poll.                                                              |
-| options                | Returns the collection of poll option objects associated with the poll.                           
-                                                                                                     
-  [*Iteration tags*](#iteration-tags) and [*entities*](#entities) may be used with this collection.  |  
+| options                | Returns the collection of poll option objects associated with the poll. [Iteration tags](#iteration-tags) and [entities](#entities) may be used with this collection.  |  
 | poll\_url              | The URL that can be used to retrieve the poll fully rendered by a template.                       |
 | question               | Returns the Question field for the poll.                                                          |
 | submit\_button\_label  | Returns a string that can be used to override the submit button label for the poll.               |
@@ -885,22 +872,15 @@ The polls object allows you to select a specific poll or poll placement:
 
 ### **Poll Option Attributes**
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| [*entities*](#entities)                                         |  
+>[!Note]
+> [entities](#entities)                                         
 
-| answer     | Returns the Answer field for the poll.                                                            |
-|------------|---------------------------------------------------------------------------------------------------|
+|Attribute   |Description   |
+|---|---|
+| answer     | Returns the Answer field for the poll. |
 | percentage | Returns the percentage of votes in the poll for the option as a decimal number between 0 and 100. |
 | votes      | Returns the number of votes that have been tabulated for the option.                              |
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](#liquid-objects)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](liquid-filters.md)  
 
 ## request
 
@@ -912,28 +892,18 @@ Contains information about the current HTTP request.
 <a href="{{ request.url | add_query: 'foo', 1 }}">Link</a>
 ```
 
-|  >[!Note]               |  
-|-------------------------------------------------------------------------------|
-| You can build URLs dynamically in Liquid using URL Filters. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] |
+> [!Note]
+> You can build URLs dynamically in Liquid using URL Filters. 
 
 ### **Attributes**
 
-| params           | Named parameter values for the current request.                                            
-                                                                                              
-  params is a combination of URL query string parameters, form post parameters, and cookies.  |
-|------------------|--------------------------------------------------------------------------------------------|
-| Path             | The path of the current request URL.                                                       
-                                                                                              
-  /profile/                                                                                   |
-| path\_and\_query | The path and query of the current request URL.                                             
-                                                                                              
-  /profile/?foo=1&bar=something                                                               |
-| query            | The query part of the current request URL.                                                 
-                                                                                              
-  ?foo=1&bar=something                                                                        |
-| url              | The full URL of the current request.                                                       
-                                                                                              
-  http://www.example.com/profile/?foo=1&bar=something                                         |
+|Attribute   |Description   |
+|---|---|
+| params           | Named parameter values for the current request. params is a combination of URL query string parameters, form post parameters, and cookies.  |
+| Path             | The path of the current request URL. <br> /profile/|
+| path\_and\_query | The path and query of the current request URL.<br> /profile/?foo=1&bar=something|
+| query            | The query part of the current request URL. <br> ?foo=1&bar=something |
+| url              | The full URL of the current request.<br>  http://www.example.com/profile/?foo=1&bar=something  |
 
 
 ## searchindex
@@ -974,36 +944,25 @@ The searchindex object is used within the [*[!INCLUDE[pn-dynamics-crm](../includ
 
 ### **Attributes**
 
-| approximate\_total\_hits | Returns an approximate count of total hits matching the index query. 
-  Note that due to the way the search index works in regard to security filtering and other design factors, this number is only an approximation, and may not exactly match the total number of results available to the current user in some situations.  |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Attribute   |Description   |
+|---|---|
+| approximate\_total\_hits | Returns an approximate count of total hits matching the index query. Note that due to the way the search index works in regard to security filtering and other design factors, this number is only an approximation, and may not exactly match the total number of results available to the current user in some situations.  |
 | Page                     | Returns the page number of the current query.                                                                                                                                                                                                           |
-| page\_size               | Returns the maximum page size of the current query.                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                           
-  Note that if you want the actual number of results returned for the current page (as this may be less than the specified maximum page size), use results.size.                                                                                           |
+| page\_size               | Returns the maximum page size of the current query. Note that if you want the actual number of results returned for the current page (as this may be less than the specified maximum page size), use results.size.                                                                                           |
 | results                  | Returns the query result page, as search index result objects.                                                                                                                                                                                          |
 
 ### **Search Index Results**
 
-| entity        | The underlying [*entities*](#entities) for the result.                                                                                                                   |  
-|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| fragment      | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag.                                        
-                                                                                                                                                                            
-  Note that certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases.  |
-| Id            | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity ID of the underlying record for the result, as a string.                                                                                         
-                                                                                                                                                                            
-  e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                 |
-| logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the underlying record for the result.                                                                                            
-                                                                                                                                                                            
-  e.g. adx\_webpage                                                                                                                                                         |
-| number        | The number of the result, across all result pages, starting from 1.                                                                                                      
-                                                                                                                                                                            
-  For example, for the first result of the second page of results, with a page size of 10, this value will be 11.                                                           |
+|Attribute   |Description   |
+|---|---|
+| entity        | The underlying [*entities*](#entities) for the result.                                         |  
+| fragment      | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag. Note that certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases.  |
+| Id            | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity ID of the underlying record for the result, as a string. e.g. 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
+| logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the underlying record for the result. e.g. adx\_webpage                                                                                                                                                         |
+| number        | The number of the result, across all result pages, starting from 1. For example, for the first result of the second page of results, with a page size of 10, this value will be 11.                                                           |
 | score         | The Lucene score of the result, as a floating-point value. Results will be returned ordered by this value.                                                               |
 | title         | The title of the result.                                                                                                                                                 |
-| url           | The URL for the result. This will usually ߝ but not necessarily ߝ be an absolute path for the current application, rather than a full URL.                               
-                                                                                                                                                                            
-  For example: /articles/article1/                                                                                                                                          |
+| url           | The URL for the result. This will usually ߝ but not necessarily ߝ be an absolute path for the current application, rather than a full URL. For example: /articles/article1/                                                                                                                                          |
 
 
 ## settings
@@ -1012,9 +971,7 @@ The searchindex object is used within the [*[!INCLUDE[pn-dynamics-crm](../includ
 
 Allows you to load any [*Configure site settings for portals*](configure-site-settings.md) by name. If a setting with the given name is not found, [*Liquid types*](#liquid-types) will be returned.  
 
-|  >[!Note]                                                                           |  
-|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Settings are returned as [*Liquid types*](liquid-types.md), but you can use [*Type filters*](#type-filters) to convert them to other types. |  
+> [!Note]                                                         > Settings are returned as [*Liquid types*](liquid-types.md), but you can use [*Type filters*](#type-filters) to convert them to other types.
 
 ```
 {{ settings["My Setting"] }}
@@ -1036,9 +993,8 @@ Page size is greater than 10.
 {% endif %}
 ```
 
-|  >[!Note]                                             |  
-|-------------------------------------------------------------------------------------------------------------|
-| [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
+> [!Note]
+> [Render a website header and primary navigation bar](render-site-header-primary-navigation.md) |  
 
 
 ## sitemap
@@ -1083,28 +1039,22 @@ It's also possible to load a site map node by URL path:
 
 ### **Site Map Attributes**
 
+|Attribute   |Description   |
+|---|---|
 | Current | Returns the site map node object for the current page.                    |
-|---------|---------------------------------------------------------------------------|
 | Root    | Returns the site map node object for the root (home) page of the website. |
 
 ### **Site Map Node Attributes**
 
+|Attribute   |Description   |
+|---|---|
 | Breadcrumbs           | Returns the breadcrumb site map node objects for the node, starting from the site map root node and ending at parent. |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Children              | Returns the child site map node objects of the node.                                                                  |
 | Description           | The description/summary content for the node. (This field may contain HTML.)                                          |
-| Entity                | Returns the underlying [*entities*](#entities) of the node.                                                             
-                                                                                                                         
-  If the node has no underlying entity, this value will be null.                                                         |
-| is\_sitemap\_ancestor | Returns true if the sitemap node is an ancestor of the current node, otherwise false.                                 
-                                                                                                                         
-  Added 7.0.0008                                                                                                         |
-| is\_sitemap\_current  | Returns true if the sitemap node is the current node, otherwise false.                                                
-                                                                                                                         
-  Added 7.0.0008                                                                                                         |
-| Parent                | Returns the parent site map node of the node.                                                                         
-                                                                                                                         
-  If the node is the root node, parent will be null.                                                                     |
+| Entity                | Returns the underlying [*entities*](#entities) of the node. If the node has no underlying entity, this value will be null.                                                         |
+| is\_sitemap\_ancestor | Returns true if the sitemap node is an ancestor of the current node, otherwise false. Added 7.0.0008                                                                                                         |
+| is\_sitemap\_current  | Returns true if the sitemap node is the current node, otherwise false. Added 7.0.0008                                                                                                         |
+| Parent                | Returns the parent site map node of the node. If the node is the root node, parent will be null.                                                                     |
 | Title                 | The title of the node.                                                                                                |
 | url                   | The URL of the node.                                                                                                  |
  
@@ -1129,17 +1079,15 @@ Site marker "My Site Marker" does not exist.
 {% endif %}
 ```
 
-|  >[!Note]                                             |  
-|-------------------------------------------------------------------------------------------------------------|
-| [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
+> [!Note]
+> [Render a website header and primary navigation bar](render-site-header-primary-navigation.md) |  
 
 ### **Sitemarker Attributes**
 
-| url                        | The URL of the sitemarker target.                                                          |
-|----------------------------|--------------------------------------------------------------------------------------------|
-| \[attribute logical name\] | You can access any attribute of the sitemarker target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. 
-                                                                                              
-  e.g. {{ sitemarker.adx\_name }}                                                             |
+|Attribute   |Description   |
+|---|---|
+| url                        | The URL of the sitemarker target.|
+| \[attribute logical name\] | You can access any attribute of the sitemarker target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. e.g. {{ sitemarker.adx\_name }}                                                             |
 
 
 ## snippets
@@ -1167,14 +1115,14 @@ No footer snippet was found.
 
 Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
 
-|  >[!Note]                 |  
-|---------------------------------------------------------------------------------|
-| tablerowloop can only be used within a [*Iteration tags*](#iteration-tags) tag. |  
+> [!Note] 
+> tablerowloop can only be used within a [*Iteration tags*](#iteration-tags) tag.
 
 ### **Attributes**
 
+|Attribute   |Description   |
+|---|---|
 | Col        | Returns the index of the current row, starting at 1.                                                       |
-|------------|------------------------------------------------------------------------------------------------------------|
 | col0       | Returns the index of the current row, starting at 0.                                                       |
 | col\_first | Returns true if the current column is the first column in a row, returns false if it is not.               |
 | col\_last  | Returns true if the current column is the last column in a row, returns false if it is not.                |
@@ -1215,9 +1163,8 @@ In addition to having all of the attributes of an [*entities*](#entities), user 
 
 Refers to the portal [*website*](#website-1), allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal.  
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| [*entities*](#entities)                                         |  
+> [!Note]
+> [*entities*](#entities)  
 
 **Code**
 
@@ -1279,52 +1226,43 @@ If the web link set exists, a web link set object will be returned. If a web lin
 {% endif %}
 ```
 
-|  >[!Note]                                             |  
-|-------------------------------------------------------------------------------------------------------------|
-| [*Render a website header and primary navigation bar*](render-site-header-primary-navigation.md) |  
+> [!Note]
+> [Render a website header and primary navigation bar](render-site-header-primary-navigation.md) |  
 
 ### **Web Link Set Attributes**
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| [*entities*](#entities)                                         |  
+> [!Note]
+> [entities](#entities)                                         
 
+|Attribute   |Description   |
+|---|---|
 | Copy                       | The HTML copy of the web link set.                                                    |
-|----------------------------|---------------------------------------------------------------------------------------|
 | Name                       | The name of the web link set.                                                         |
 | Title                      | The title of the web link set.                                                        |
 | Weblinks                   | The array of web link objects associated with the web link set.                       |
-| \[attribute logical name\] | You can access any attribute of the web link set [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. 
-                                                                                         
-  e.g. {{ weblinkset.createdon }}                                                        |
+| \[attribute logical name\] | You can access any attribute of the web link set [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. e.g. {{ weblinkset.createdon }}                                                        |
 
 ### **Web Link Attributes**
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| [*entities*](#entities)                                         |  
+> [!Note]
+> [entities](#entities) 
 
-| Description                 | The HTML description of the web link.                                                                                                          |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+|Attribute   |Description   |
+|---|---|
+| Description                 | The HTML description of the web link.|
 | display\_image\_only        | Boolean attribute indicating whether the web link should be displayed as an image only, with no link text.                                     |
 | display\_page\_child\_links | Boolean attribute indicating whether the web link should show links to the [*sitemap*](#sitemap) child pages of the linked page, as sub-links. |  
 | Image                       | The web link image object for this link. This attribute will be null if no image is present.                                                   |
 | is\_external                | Boolean attribute indicating whether the target URL of the web link is to an external site (rather than to an internal portal page).           |
-| is\_sitemap\_ancestor       | Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false.                                         
-                                                                                                                                                  
-  Added 7.0.0008                                                                                                                                  |
-| is\_sitemap\_current        | Returns true if the weblink's URL references the current sitemap node, otherwise false.                                                        
-                                                                                                                                                  
-  Added 7.0.0008                                                                                                                                  |
+| is\_sitemap\_ancestor       | Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false. Added 7.0.0008                                                                                                                                  |
+| is\_sitemap\_current        | Returns true if the weblink's URL references the current sitemap node, otherwise false. Added 7.0.0008 |
 | Name                        | The name/title of the web link.                                                                                                                |
 | Nofollow                    | Boolean attribute indicating whether the web link should be marked as rel="nofollow".                                                          |
 | open\_in\_new\_window       | Boolean attribute indicating whether the web link should be opened in a new browser window/tab when clicked.                                   |
 | Tooltip                     | Tooltip text for the web link.                                                                                                                 |
 | url                         | The URL of the web link.                                                                                                                       |
 | Weblinks                    | The array of child web link objects associated with the web link.                                                                              |
-| \[attribute logical name\]  | You can access any attribute of the web link [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.                                                              
-                                                                                                                                                  
-  e.g. {{ weblink.createdon }}                                                                                                                    |
+| \[attribute logical name\]  | You can access any attribute of the web link [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. e.g. {{ weblink.createdon }}                                                                                                                    |
 
 ### **Web Link Image Attributes**
 
