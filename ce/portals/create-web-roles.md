@@ -71,5 +71,5 @@ After your portal is created and provisioned, you can change the details of your
 [Engage with communities by using the community portal](engage-with-communities.md)  
 [Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md) 
 [Control webpage access for portals](webpage-access-control.md)  
-[Assign permission set to a web role for portals](assign-permission-web-role.md)  
+[Configure web roles for a PRM portal](configure-web-roles-partner-portal.md) 
 [Add record-based security by using entity permissions for portals](assign-entity-permissions.md) 
