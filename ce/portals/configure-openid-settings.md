@@ -99,9 +99,9 @@ Multiple identity providers can be configured by substituting a label for the \[
 | Authentication/OpenIdConnect/\[provider\]/ValidateIssuer             | A Boolean to control if the issuer will be validated during token validation.                                                                                                                                                                                                                                                                                                                                                                      |
 | Authentication/OpenIdConnect/\[provider\]/ValidateLifetime           | A Boolean to control if the lifetime will be validated during token validation.                                                                                                                                                                                                                                                                                                                                                                    |
 | Authentication/OpenIdConnect/\[provider\]/ValidateIssuerSigningKey   | A Boolean that controls if validation of the System.IdentityModel.Tokens.SecurityKey that signed the securityToken xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" is called.                                                                                                                                                                                                                                                           |
+||
 
 ### See Also
-
 [Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
