@@ -158,7 +158,8 @@ A custom domain can help your customers find your support resources more easily 
 1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online Admin center and click the **Applications** tab.
 2. Select the name of the portal you want to set up a custom domain for and click **Manage.** > **Portal Actions** > **Add a Custom Domain Name**.
 
-After you have purchased an SSL certificate for your domain, you can use it to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain using the wizard.
+## Link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain
+You can use the purchased SSL certificate for your domain to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain using the wizard.
 
 1. Click **Upload a new certificate** if you have not yet uploaded the .pfx file to the organization. 
 2. Click the upload button underneath **File** and select the .pfx file. 
