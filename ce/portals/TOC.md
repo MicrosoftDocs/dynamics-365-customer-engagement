@@ -57,7 +57,7 @@
 ### [Create an opportunity](create-edit-and-distribute-opportunities-in-dynamics-365.md)
 ### [Manage web links](manage-web-links.md)
 ### [Invite contacts](invite-contacts.md)
-## [Customize content snippets](customize-content-snippets.md)
+## [Customize content](customize-content-snippets.md)
 ### [Custom templates and add dynamic content](custom-templates-dynamic-content.md)
 ### [Store source content on custom templates](store-content-web-templates.md)
 ### [Understand Liquid operators](liquid-operators.md)
