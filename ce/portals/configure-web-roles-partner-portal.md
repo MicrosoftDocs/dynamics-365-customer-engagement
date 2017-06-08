@@ -68,4 +68,4 @@ To add website access permission to a web role, just create a new Website Access
 [Add record-based security using entity permissions for portals](assign-entity-permissions.md)  
 [Create a partner account on a partner relationship management (PRM) portal](#create-a-partner-account-on-a-partner-relationship-management-prm-portal)  
 [Create web roles for portals](create-web-roles.md)  
-[Assign permission set to a web role for portals](assign-permission-web-role.md)
+[Configure web roles for a PRM portal](configure-web-roles-partner-portal.md)
