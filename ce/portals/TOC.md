@@ -14,8 +14,6 @@
 ### [Manage forum threads](manage-forum-threads.md)
 ### [Configure knowledge categories and articles](configure-knowledge-categories-articles.md)
 ### [Configure web roles for a partner portal](configure-web-roles-partner-portal.md)
-### [Get started with portal content editor](get-started-portal-content-editor.md)
-### [Publish content using editing engine](publish-content-editing-engine.md)
 ### [Create a portal theme](create-theme.md)
 ### [Configure site settings](configure-site-settings.md)
 ### [Configure authentication](configure-portal-authentication.md)
@@ -47,6 +45,8 @@
 ### [Walkthrough: Get data on the Portal](walkthrough-get-data-on-portal.md)
 
 ## [Manage portal content](manage-portal-content.md)
+### [Get started with portal content editor](get-started-portal-content-editor.md)
+### [Publish content using editing engine](publish-content-editing-engine.md)
 ### [Create forum posts](create-forum-posts.md)
 ### [Moderate forums](moderate-forums.md)
 ### [Subscribe to alerts](subscribe-alerts.md)
@@ -57,7 +57,6 @@
 ### [Integrate Field Service](integrate-field-service.md)
 ### [Manage web links](manage-web-links.md)
 ### [Invite contacts](invite-contacts.md)
-
 ## [Customize content snippets](customize-content-snippets.md)
 ### [Custom templates and add dynamic content](custom-templates-dynamic-content.md)
 ### [Store source content on custom templates](store-content-web-templates.md)
@@ -65,6 +64,7 @@
 ### [Available Liquid types](liquid-types.md)
 ### [Available Liquid objects](liquid-objects.md)
 ### [Available Liquid tags](liquid-tags.md)
+### [Available Liquid filters](liquid-filters.md)
 ### [Available Liquid conditional operators](liquid-conditional-operators.md)
 ### [Available Tags](tags.md)
 ####  [Control flow tags](tags.md#control-flow-tags)
@@ -73,7 +73,7 @@
 ####  [Template tags](tags.md#template-tags)
 ####  [Dynamics 365 entity tags](tags.md#dynamics-365-entity-tags)
 
-### [Available Liquid filters](liquid-filters.md)
+
 ### [Create advanced templates](create-advanced-templates.md)
 ### [Create a custom page template](create-custom-template.md)
 ### [Use hybrid navigation to render page hierarchy](hybrid-navigation-render-page-hierachy.md)
