@@ -21,21 +21,21 @@ Create text or image-based ads and have them run in multiple placements througho
 
 Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the Ad placement. The Ad must be associated with an Ad Placement to appear on the portal. For this demonstration, the out-of-the-box example "Place Holder" Ad and "Sidebar Bottom" Ad Placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity prior to creating more complex Ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration calls on the "Sidebar Bottom" Ad Placement name.
 
-1. Navigate to**Portals** then**Ads**
-2. Open the**Placeholder** Ad associated with the**Company Portal** website (this can be done with starter site of your choosing by clicking**+NEW** and creating an identical Ad sub the Website). 
-3. Click the**Save** icon in the lower right corner (or**Save & Close** in the upper left corner if you have created a new ad)
+1. Navigate to **Portals** then **Ads**
+2. Open the **Placeholder** Ad associated with the **Company Portal** website (this can be done with starter site of your choosing by clicking **+NEW** and creating an identical Ad sub the Website). 
+3. Click the **Save** icon in the lower right corner (or **Save & Close** in the upper left corner if you have created a new ad)
 
-Within the Ad Form you specify a**Name** to describe the Ad, the**Website** where the Ad will be displayed, and a**Publishing State**. Optionally you can specify a Web Template and Release/Expiration date. You must provide some sort of data for the Ad to be displayed. Use the Ad entity attribute table later in this guide to craft the specifics of your ad.
+Within the Ad Form you specify a **Name** to describe the Ad, the **Website** where the Ad will be displayed, and a **Publishing State**. Optionally you can specify a Web Template and Release/Expiration date. You must provide some sort of data for the Ad to be displayed. Use the Ad entity attribute table later in this guide to craft the specifics of your ad.
 
 
 ## Create a new advertisement placements
 
-1. Navigate to**Portals** then**Ad Placements**
+1. Navigate to **Portals** then **Ad Placements**
 2. Click the Web Template Field to select a Web Template. For demonstration purposes the "Random Ad" Web Template was chosen.
 3. On the right corner of the Ads grid click**+** to select the Ad created in the previous step.
-4. Click the**Save** icon in the lower right corner
+4. Click the **Save** icon in the lower right corner
 
-When creating a new Ad Placement, specify a**Name** to describe the Ad Placement and the**Website** where the Ad Placement will be displayed as required. The example Web Templates that enable use of Ads as an out-of-the-box feature will be displayed within the lookup of the Web Template field in the Form. These templates are also intended to be used as a source to create custom templates.
+When creating a new Ad Placement, specify a **Name** to describe the Ad Placement and the **Website** where the Ad Placement will be displayed as required. The example Web Templates that enable use of Ads as an out-of-the-box feature will be displayed within the lookup of the Web Template field in the Form. These templates are also intended to be used as a source to create custom templates.
 
 ![See lookup record](media/see-lookup-record.png "See lookup record")  
 
