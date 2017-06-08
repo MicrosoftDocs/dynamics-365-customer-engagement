@@ -66,7 +66,7 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 
 From within the content editor, select the text to make a hyperlink for and click the **Insert/Edit Link** button. Enter the properties for the hyperlink and click the **Insert** button. Click the **Save** button in the content editor toolbar to save the change.
 
-## Link properties and commands
+### Link properties and commands
 
 | Name           | Description                                                                                                                                                                                                                |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ From within the content editor, select the text to make a hyperlink for and clic
 
 From within the content editor, put the text cursor in the place to insert an image and click the Insert/Edit Image button. Enter the properties for the image and click the insert button. Click the save button in the content editor toolbar to save the change.
 
-## Image properties and commands
+### Image properties and commands
 
 | Name              | Description                                                                                                                                                                                                                                                                           |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ To upload new files,
 2. In the dialog that opens, click **Browse** and pick a file to upload. Do the same in the next field to add more than one file.
 3. Click **Ok** to upload the selected files.
 
-## File picker commands
+### File picker commands
 
 The table below has more detail about the available buttons, listed in the order they appear in the toolbar.
 
