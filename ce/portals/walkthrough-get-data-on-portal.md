@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Overview
+# Walkthrough: Get Dynamics 365 data on the Portal
 One of the most distinguishing features surrounding the portal capabilities introduced in Dynamics 365 Online 2016 Update 1 is the ability to render - and allow the manipulation of - Dynamics 365 data on an internally or externally - facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
 
 ## Entity Forms
