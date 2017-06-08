@@ -106,7 +106,6 @@ The table below summarizes the features associated with each portal option:
 | Web Forms                              |                              |                |                              |                  | •             |
 | Feedback                               |                              |                |                              |                  | •             |
 ||
-
 10. In the **Select portal to be deployed** section, choose what type of portal you want to create. The options you see are based on the audience you selected.
 
     ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
@@ -119,11 +118,11 @@ The table below summarizes the features associated with each portal option:
 
     ![Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](media/sign-in-dynamics-365.png "Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]")  
 
-    You will be asked to provide consent for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals.
+13. You will be asked to provide consent for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals.
 
     ![Provide permission to enable sign-on](media/permission-enable-sign-on.png "Provide permission to enable sign-on")  
 
-After you consent, your portal will begin provisioning. Provisioning usually takes a few hours, but can take more depending on system load. The *Name* of the portal on the Application tab will change to “*Name*-Configuring” while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
+After you consent, your portal will begin provisioning. Provisioning usually takes a few hours, but can take more time depending on system load. The *Name* of the portal on the Application tab will change to “*Name*-Configuring” while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
 
 ## Troubleshoot Provisioning
 
