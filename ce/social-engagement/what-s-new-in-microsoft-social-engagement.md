@@ -33,7 +33,7 @@ Although there are no new features to announce this month, we've been working on
 [//]: # (TO DO add link after blog live)
 For user-facing changes we've addressed, please see the detailed blog post.
 
-Additionally, we continued our ongoing investment to make Social Engagement more accessible. With the current release, Social Selling Assistant within Social Engagement supports keyboard navigation as well as screenreaders on mobile and desktop devices.
+Additionally, we continued our ongoing investment to make [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] more accessible. With the current release, Social Selling Assistant within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports keyboard navigation as well as screenreaders on mobile and desktop devices.
 
 ## Microsoft Social Engagement 2017 Update 1.4 
  
