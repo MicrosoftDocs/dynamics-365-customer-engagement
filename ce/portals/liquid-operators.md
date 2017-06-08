@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Understand Liquid operators
 
-Liquid has access to all common logical and comparison operators. These can be used in tags such as**if** and**unless**.
+Liquid has access to all common logical and comparison operators. These can be used in tags such as **if** and **unless**.
 
 ## Basic operators
 
@@ -26,8 +26,8 @@ Liquid has access to all common logical and comparison operators. These can be u
 | &lt;  | Less than                       |
 | &gt;= | Greater than or equal to        |
 | &lt;= | Less than or equal to           |
-| Or    | Condition A**or** condition B  |
-| And   | Condition A**and** condition B |
+| Or    | Condition A **or** condition B  |
+| And   | Condition A **and** condition B |
 
 ## contains
 
