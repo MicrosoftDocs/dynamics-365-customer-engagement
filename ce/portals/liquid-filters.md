@@ -33,32 +33,22 @@ Some filters accept parameters. Filters can also be combined, and are applied in
 
 The following topics describe each type of filter:
 
-[*Array filters*](#array-filters)  
+[Array filters](#array-filters)  
 
-[*Entity List filters*](#entity-list-filters)  
+[Entity List filters](#entity-list-filters)  
 
-[*Date filters*](#date-filters)  
+[Date filters](#date-filters)  
 
-[*Math filters*](#math-filters)  
+[Math filters](#math-filters)  
 
-[*String filters*](#string-filters)  
+[String filters](#string-filters)  
 
-[*Type filters*](#type-filters)  
+[Type filters](#type-filters)  
 
-[*URL filters*](#url-filters)  
+[URL filters](#url-filters)  
 
-[*Additional filters*](#additional-filters)  
+[Additional filters](#additional-filters)  
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Store source content by using web templates*](store-content-web-templates.md)  
-[*Understand Liquid operators*](liquid-operators.md)  
-[*Liquid types*](liquid-types.md)  
-[*Conditional*](liquid-conditional-operators.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Create advanced templates for portals*](create-advanced-templates.md)  
 
 ## Array filters
 
@@ -487,13 +477,6 @@ Dave Thomas
 Jake Johnson
 ```
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
 
 ## Date filters
 
@@ -700,13 +683,6 @@ Formats a DateTime value according to the [*RFC 822*](https://www.ietf.org/rfc/r
 {{ now | date_to_rfc822 }}
 ```
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
 
 ## Entity list filters
 
@@ -756,13 +732,6 @@ DESC
 ASC
 ```
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
 
 ## Math filters
 
@@ -962,13 +931,6 @@ Multiplies a number by another number.
 {{ 10.1 | times: 2 }}
 ```
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
 
 ## String filters
 
@@ -1324,13 +1286,6 @@ XML-escape a string, for inclusion in XML output.
 <p>test</p>
 ```
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
 
 ## Type filters
 
@@ -1428,13 +1383,7 @@ Attempts to convert a string value into an integer. If the value is already an i
 
 Attempts to convert a value into its string representation. If the value is already a string, it will be returned unchanged. If the value is null, null will be returned.
 
-### See Also
 
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
 
 ## URL filters
 
@@ -1600,13 +1549,6 @@ Gets the scheme part of a URL.
 {{ 'https://example.com/path?foo=bar&page=2' | scheme }}
 ```
 
-### See Also
-
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
 
 ## Additional filters
 
@@ -1688,8 +1630,9 @@ Renders a string as Liquid code. This code will have access to the current Liqui
 ### See Also
 
 [*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[*Store source content by using web templates*](store-content-web-templates.md)  
+[*Understand Liquid operators*](liquid-operators.md) 
 [*Liquid types*](liquid-types.md)  
 [*Liquid Objects*](liquid-objects.md)  
 [*Liquid Tags*](liquid-tags.md)  
 [*Liquid Filters*](#liquid-filters)  
-
