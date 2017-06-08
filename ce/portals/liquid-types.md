@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Liquid types
 
-Liquid objects can return one of seven basic types:**String**,**Number**,**Boolean**,**Array**,**Dictionary**,**DateTime**, or**Null**. Liquid variables can be initialized by using the**assign** or**capture** tags.
+Liquid objects can return one of seven basic types: **String**, **Number**, **Boolean**, **Array**, **Dictionary**, **DateTime**, or **Null**. Liquid variables can be initialized by using the **assign** or **capture** tags.
 
 ## String
 
@@ -105,9 +105,8 @@ A DateTime object represents a specific date and time.
 {{ page.modifiedon | date: 'f' }}
 ```
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| [*Date filters*](#date-filters).                                |  
+> [!Note] 
+> [*Date filters*](#date-filters).  
 
 ## Null
 
