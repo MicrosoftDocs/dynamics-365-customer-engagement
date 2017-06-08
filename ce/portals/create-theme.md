@@ -43,7 +43,7 @@ Or, depending on the customizer application used, it may only contain bootstrap.
 
 After you have your custom bootstrap.min.css, you can apply it to your portal in one of two ways. If you are a developer and prefer to work directly with the source code of your application, you can overwrite the version of bootstrap.min.css included in your application source with your custom version. In most cases, however, we recommend that you apply your custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] theme without modifying your site code by uploading it as a web file in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s content management system.
 
-1.  Sign in to your application as a user with content management permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Assign a permission set to a web role for portals](assign-permission-web-role.md).  
+1.  Sign in to your application as a user with content management permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure web roles for a PRM portal](configure-web-roles-partner-portal.md).  
 2.  Go to the**Home** page of your application.
 3.  Select**Children** &gt;**Edit this file** (the pencil and paper button) for**bootstrap.min.css** from the content editing toolbar (found in the upper-right corner of your browser window).
 4.  Select your custom bootstrap.min.css file, using the**Upload File** field in the Edit This File dialog box that appears.
@@ -68,4 +68,3 @@ Along with a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootst
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
 [Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-
