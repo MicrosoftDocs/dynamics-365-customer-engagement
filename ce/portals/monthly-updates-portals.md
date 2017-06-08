@@ -27,6 +27,9 @@ The December 2016 update has brought many new features to the portal capabilitie
 -   **Field Service integration:** Expose information about active agreements, assets, work orders, invoices, and support cases to partners and customers on the portal with this solution.
 -   **Partner onboarding:** Recruit new partners for better customer sales and service experiences. Potential partners can apply for partner status through the portal.
 
+
+To know more about the enhancements that were included in this update, as well as how to obtain the updated solutions, see [Release notes](https://support.microsoft.com/en-us/kb/3181516).
+
 ### Privacy notice
 
 [!INCLUDE[cc-privacy-crm-portals-data-exposed](../includes/cc-privacy-crm-portals-data-exposed.md)]
