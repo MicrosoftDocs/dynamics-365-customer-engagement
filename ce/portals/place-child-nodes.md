@@ -14,30 +14,20 @@ ms.author: shjais
 manager: sakudes
 ---
 # Place child nodes by using shortcuts for portals
-
-
-
 Use shortcuts to place child nodes throughout your portal's sitemap that simply point to other nodes that exist in your sitemap, or to URLs external to your portal. In other words, webpages, web files, events, and forums can all be considered "solid" nodes of your portal's sitemap: they are added to your sitemap and when you navigate to them, you see the actual content of those nodes directly. Shortcuts, on the other hand, can be considered “intangible” nodes: they are also added to the sitemap (unlike web links, which are not), but when you navigate to them, you see the content for the target "solid" node that the shortcut points to, and that content is rendered by the page template for that node.
 
 ## Manage shortcuts in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
 Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
+1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**. 
+2. Navigate to **Portals** &gt; **Shortcuts**. 
+3. To create a Shortcut: Click **New**. 
+4. To edit an existing Shortcut: Double-click on the existing **Shortcut** listed in the grid. 
+5. Enter values for the fields provided. 
+6. Click **Save & Close**
 
-<!-- -->
-
-1.  Navigate to **Portals** &gt; **Shortcuts**
-
-2.  To create a Shortcut: Click **New**
-
-3.  To edit an existing Shortcut: Double-click on the existing **Shortcut** listed in the grid
-
-4.  Enter values for the fields provided
-
-5.  Click **Save & Close**
-
-## Attributes and relationships
+### Attributes and relationships
 
 | Name                               | Description                                                                                                                                                                                  |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -64,9 +54,7 @@ Security for shortcuts can be based either on the parent page of the shortcut or
 
 ## Navigate with shortcuts
 
-After the shortcut entity has been created, it will appear in your website.
-
-In the above example, Basic Site has two additional pages, Page One and Page Two. Page Two Is a Child of Page One, which is a Child of the Home Page. Additionally, there is a shortcut that is a child of the Home page which points to Page Two.
+After the shortcut entity has been created, it will appear in your website. In the above example, Basic Site has two additional pages, Page One and Page Two. Page Two Is a Child of Page One, which is a Child of the Home Page. Additionally, there is a shortcut that is a child of the Home page which points to Page Two.
 
 ### See Also
 
@@ -75,4 +63,3 @@ In the above example, Basic Site has two additional pages, Page One and Page Two
 [Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
 [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
 [Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals](manage-web-links.md)  
-
