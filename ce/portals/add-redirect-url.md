@@ -17,11 +17,11 @@ manager: sakudes
 Customers frequently want to have a simple URL that redirects to a page deeper in the site, or they want to allow for a legacy URL to be used with the site and automatically redirect to a new URL in the site. Page redirects allow a content author to specify a URL that when requested will be redirected on a permanent or temporary basis to a specific webpage or web file. These redirect URLs are managed separately from the page content so that they do not have to fit directly in the web hierarchy.
 
 ## Create a redirect
-Navigate to the **Portals** area and, under the **Website** section, select **Redirects**. Next, click **New** on the toolbar.
+1. Navigate to the **Portals** area and, under the **Website** section, select **Redirects**. Next, click **New** on the toolbar.
 
 ![Active redirects](media/active-redirects.png "Active redirects")  
 
-Use the form to enter the redirect information.
+2. Enter the redirect information as described below.
 
 | Name        | Description                                                                                                                                  |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Use the form to enter the redirect information.
 | Web Page    | A target internal webpage to be redirected to. (Use this if the user is being redirected to a page internal to the website specified above.) |
 | Site Marker | A target internal site marker to be redirected to.                                                                                           |
 
-After entering the required fields and specifying a value for at least one of the URL, Web Page, or Site Marker fields, click **Save**.
+3. After entering the required fields and specifying a value for at least one of the URL, Web Page, or Site Marker fields, click **Save**.
 
 ![Redirect a customer survey](media/redirect-customer-survey.png "Redirect a customer survey")  
 
