@@ -25,7 +25,7 @@ The following topics describe each type of tag:
 
 ## Control flow tags
 
-Control Flow tags determine which block of code should be executed and what content should be rendered based on given conditions. Conditions are built using the available [*Understand Liquid operators*](liquid-operators.md), or just based on [*Conditional*](#conditional).  
+Control Flow tags determine which block of code should be executed and what content should be rendered based on given conditions. Conditions are built using the available [Liquid operators](liquid-operators.md), or just based on [Conditional](#conditional).  
 
 ### **if**
 
