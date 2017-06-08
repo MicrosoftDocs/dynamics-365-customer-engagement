@@ -40,4 +40,4 @@ With open registration enabled, users are not required to provide an invitation 
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)
 [Configure a contact for use on a portal](configure-contacts.md)  
-[Invite contacts to your portals](invite-contacts.md-1)  
+[Invite contacts to your portals](invite-contacts.md)  
