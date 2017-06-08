@@ -55,5 +55,5 @@ You would then associate this rule with the employee web role and then assign us
 ### See Also
 
 [Create web roles for portals](create-web-roles.md)  
-[Assign permission set to a web role for portals](assign-permission-web-role.md)  
+[Configure web roles for a PRM portal](configure-web-roles-partner-portal.md)
 [Add record-based security using entity permissions for portals](assign-entity-permissions.md)
