@@ -492,7 +492,8 @@ If enabled, an entity can be published to an OData feed. The OData Protocol is a
 
 You may utilize Entity Permissions if you wish to secure records, but if you want to simply provide a filter as part of the set of filter options that is relevant to the current portal user, the Entity List feature supports filtering of current user, user's parent account, and/or website at any depth. Simply build the view filter in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to match any single contact record and the code will replace its value with the actual value at runtime. No need to assign values to fields on the Filter Conditions section.
 
->[!Note] The oData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data that is unsuitable for anonymous portal access.
+>[!Note]
+> The oData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data that is unsuitable for anonymous portal access.
 
 ### See Also
 

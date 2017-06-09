@@ -33,7 +33,8 @@ Content managers may use [Template tags](#template-tags) to add a poll to any ed
 
 `{% include 'Poll Template' ad:ads["Wireframe Development"] %}`
 
->[!Note]                                                         >Example Web Templates are configured in the starter websites**. You may use the template "Random Poll" to display a random Poll from a particular Poll Placement, or the template "Poll Template" to display a specific Poll. You may edit these templates, or create your own based on their example, using [Polls](#polls-1).  
+> [!Note]
+> Example Web Templates are configured in the starter websites**. You may use the template "Random Poll" to display a random Poll from a particular Poll Placement, or the template "Poll Template" to display a specific Poll. You may edit these templates, or create your own based on their example, using [Polls](#polls-1).  
 
 ## Create a poll placement
 

@@ -971,7 +971,8 @@ The searchindex object is used within the [*[!INCLUDE[pn-dynamics-crm](../includ
 
 Allows you to load any [*Configure site settings for portals*](configure-site-settings.md) by name. If a setting with the given name is not found, [*Liquid types*](#liquid-types) will be returned.  
 
-> [!Note]                                                         > Settings are returned as [*Liquid types*](liquid-types.md), but you can use [*Type filters*](#type-filters) to convert them to other types.
+> [!Note]
+> Settings are returned as [*Liquid types*](liquid-types.md), but you can use [*Type filters*](#type-filters) to convert them to other types.
 
 ```
 {{ settings["My Setting"] }}

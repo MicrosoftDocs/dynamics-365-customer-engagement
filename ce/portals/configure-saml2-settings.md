@@ -275,7 +275,8 @@ The Location attribute corresponds to the**AssertionConsumerServiceUrl** (Wreply
 
 **&lt;EntityDescriptor entityID="https://portal.local.contoso.com/"&gt;...**
 
-> [!Note] A standard Shibboleth configuration only uses the following settings (with example values):   
+> [!Note] 
+> A standard Shibboleth configuration only uses the following settings (with example values):   
 > Authentication/SAML2/Shibboleth/MetadataAddress - https://idp.contoso.com/idp/shibboleth   
 > -   Authentication/SAML2/Shibboleth/AuthenticationType - https://idp.contoso.com/idp/shibboleth 
 > -   Use the value of the**entityID** attribute in the root element of the Federation Metadata (open the**MetadataAddress URL** in a browser that is the value of the above site setting)  
