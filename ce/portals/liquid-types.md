@@ -65,7 +65,7 @@ This will be rendered, because x is true.
 
 ## Array
 
-An array holds a list of values of any type. You can access a given item by (zero-based) index using \[ \], iterate over them using the**for tag**, and get the number of items in the array using the size property. See also: [*Array filters*](#array-filters)  
+An array holds a list of values of any type. You can access a given item by (zero-based) index using \[ \], iterate over them using the **for tag**, and get the number of items in the array using the size property.
 
 ```
 {% for view in entitylist.views %}
@@ -85,7 +85,7 @@ This entity list has {{ entitylist.views.size }} views.
 
 ## Dictionary
 
-Dictionaries hold a collection of values that can be accessed by a string key. You can access a given item by string key using \[ \], iterate over them using the**for tag**, and get the number of items in the dictionary using the size property.
+Dictionaries hold a collection of values that can be accessed by a string key. You can access a given item by string key using \[ \], iterate over them using the **for tag**, and get the number of items in the dictionary using the size property.
 
 ```
 {{ request.params["ID"] }}
@@ -104,9 +104,6 @@ A DateTime object represents a specific date and time.
 ```
 {{ page.modifiedon | date: 'f' }}
 ```
-
-> [!Note] 
-> [*Date filters*](#date-filters).  
 
 ## Null
 
