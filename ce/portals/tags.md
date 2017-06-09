@@ -21,7 +21,7 @@ The following topics describe each type of tag:
 - [Iteration tags](#iteration-tags)
 - [Variable tags](#variable-tags)
 - [Template tags](#template-tags)
-- [[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags](#dynamics-365-entity-tags)  
+- [Dynamic 365 entity tags](#dynamics-365-entity-tags)  
 
 ## Control flow tags
 
@@ -576,7 +576,7 @@ Allows output of Liquid code on a page without having it parsed and executed.
 
 `Hello, {{ user.fullname }}. My name is Charles.`
 
-## [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags
+## Dynamics 365 entity tags
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
 
