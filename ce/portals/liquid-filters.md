@@ -1271,8 +1271,6 @@ Attempts to convert a string value into a Boolean. If the value is already a Boo
 
 This filter will also accept "on", "enabled", or "yes" as true, and "off", "disabled", and "no" as false.
 
-> [!Note] [*Additional filters*](#additional-filters)
-
 **Code**
 
 ```
@@ -1301,8 +1299,6 @@ false
 
 Attempts to convert a string value into a decimal number. If the value is already a decimal number, it will be returned unchanged. If the value cannot be converted into a decimal number, null will be returned.
 
-> [!Note] [*Additional filters*](#additional-filters) 
-
 **Code**
 
 ```
@@ -1326,8 +1322,6 @@ Attempts to convert a string value into a decimal number. If the value is alread
 ### **integer**
 
 Attempts to convert a string value into an integer. If the value is already an integer, it will be returned unchanged. If the value cannot be converted into an integer, null will be returned.
-
-> [!Note] [*Additional filters*](#additional-filters)  
 
 **Code**
 
