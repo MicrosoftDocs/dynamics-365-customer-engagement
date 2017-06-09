@@ -23,7 +23,7 @@ Adding Subgrids to your Managed forms on the portal is easy—just add the subgr
 
 To add Subgrid Metadata to an Entity Form, navigate to **Entity Form Metadata** by using either the top drop-down or the subgrid right on the main form of the [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md) record that you are working with.  
 
-To add a new record, click **Add New Entity Form Metadata**
+To add a new record, click **Add New Entity Form Metadata**.
 
 To edit an existing record, double-click on a record in the grid. Selecting Subgrid as the Type value displays another attribute, "Subgrid Name".
 
