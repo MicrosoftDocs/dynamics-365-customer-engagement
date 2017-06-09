@@ -19,7 +19,8 @@ A forum thread (sometimes called a *topic*) is a collection of posts, usually di
 ## Manage forum threads in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
 You can create, edit, and delete forum threads in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
->[!Note]                                                                                                                                > >Although you can create forum threads in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], we recommend you do this in the portal, where the process is less involved and ensures the thread is correctly associated with the original forum post.
+> [!Note]
+> Although you can create forum threads in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], we recommend you do this in the portal, where the process is less involved and ensures the thread is correctly associated with the original forum post.
 
 ### Create or Edit forum threads
 1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
