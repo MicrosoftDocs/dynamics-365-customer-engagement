@@ -30,8 +30,7 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
 
 Although there are no new features to announce this month, we've been working on proactively addressing service and product improvements with the current release.
 
-[//]: # (TO DO add link after blog live)
-For user-facing changes we've addressed, please see the detailed blog post.
+For user-facing changes we've addressed, please see [the detailed blog post](https://blogs.msdn.microsoft.com/crm/2017/06/09/whats-new-in-microsoft-social-engagement-2017-update-1-5/).
 
 Additionally, we continued our ongoing investment to make [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] more accessible. With the current release, Social Selling Assistant within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports keyboard navigation as well as screenreaders on mobile and desktop devices.
 
