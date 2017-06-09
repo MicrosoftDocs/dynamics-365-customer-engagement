@@ -16,9 +16,11 @@ manager: sakudes
 # Deliver web engagement experience with portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
 
 Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] CRM brings qualified expertise in web engagement and CMS frameworks with an integrated bundle of web portal solutions that add sophisticated content management, knowledge and case management, opportunity management, membership, profile, and self-service capabilities to Dynamics CRM. Use portals to set up an interactive, web-based sales, services, support and social engagement application platform to [engage with communities](engage-with-communities.md), [manage portal content](manage-portal-content.md), and [empower your channel partners](configure-web-roles-partner-portal.md). 
+> [!Video <https://www.youtube.com/embed/9SLUlU_gv0E> width="240" height="180"]
+> [!Video <https://www.youtube.com/embed/9SLUlU_gv0E>]
 
 ## Get Started
->[!VIDEO <https://www.youtube.com/embed/9SLUlU_gv0E> width="240" height="180"]
+
 <table style="width:auto">
    <tr>
     <td>[![Self-service web portals in Dynamics CRM](https://img.youtube.com/vi/9SLUlU_gv0E/0.jpg)](https://www.youtube.com/watch?v=9SLUlU_gv0E "Click to play this video on YouTube.com" width="240" height="180" border="10")
