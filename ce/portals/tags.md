@@ -1074,7 +1074,7 @@ An additional query used to match results. This parameter is intended to accept 
 This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
 
 > [!Note]     
-> The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. So, in the case that parsing query according to this syntax fails, the entire query will be escaped and submitted as the query text. filter, on the other hand, will be parsed strictly and return an error if the case of invalid syntax.
+ > The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. So, in the case that parsing query according to this syntax fails, the entire query will be escaped and submitted as the query text. filter, on the other hand, will be parsed strictly and return an error if the case of invalid syntax.
 
 **logical\_names**
 
@@ -1084,7 +1084,7 @@ The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical n
 {% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}
 
 ...
-
+>
 {% endsearchindex %}
 ```
 
@@ -1140,7 +1140,7 @@ Having multiple search providers is an advanced configuration that will not appl
 
 Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal*](entity-forms-custom-logic.md), by name or ID.  
 
->[!Note]                                                                                                                               > The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
+>[!Note]                                                                                                                               > > The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
 
 `{% entityform name: 'My Entity Form' %}`
 
