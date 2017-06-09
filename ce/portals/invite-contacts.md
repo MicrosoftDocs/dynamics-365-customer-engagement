@@ -58,6 +58,7 @@ The Invitation Form has the following fields:
 | Assign to Web Roles                   | A set of web roles to be associated with the redeeming contact when the invite is redeemed. Optional.                                                                                                               |
 | Redeemed Contact(s)                   | The contact(s) that have successfully redeemed the invitation.                                                                                                                                                      |
 | Maximum Redemptions Allowed           | The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                                                      |
+||
 
 ### See Also
 

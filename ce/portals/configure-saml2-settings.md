@@ -15,10 +15,6 @@ manager: sakudes
 ---
 # SAML 2.0 provider settings for portals
 
-[comment]: <> (Table formatting issues)
-
-
-
 > [!Note] This documentation applies to**[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
 
 One or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant Identity Providers (IdP) can be added to provide external authentication. This document describes how to setup various identity providers to integrate with a portal acting as a Service Provider (SP).  
@@ -33,10 +29,7 @@ Settings for an IdP such as AD FS.
 
 Using the AD FS Management tool, select**Service** >**Claim Descriptions**.
 
-1.  Click**Add Claim Description**...
-
-<!-- -->
-
+1.  Click **Add Claim Description**...
 2.  Specify the claim:
 
 Display name:**Persistent Identifier**
@@ -52,44 +45,29 @@ Display name:**Persistent Identifier**
 Using the AD FS Management tool, select**Trust Relationships** >**Relying Party Trusts**.
 
 1.  Click**Add Relying Party Trust**...
-
-<!-- -->
-
 2.  Welcome: Click**Start**
-
 3.  Select Data Source: Select**Enter data about the relying party manually**, click**Next**
-
 4.  Specify Display Name: Enter a**name**, click**Next**
-
-Example: https://portal.contoso.com/
-
+    Example: https://portal.contoso.com/
 5.  Choose Profile: Select**AD FS 2.0 profile**, click**Next**
-
 6.  Configure Certificate: Click**Next**
-
 7.  Configure URL: Check**Enable support for the SAML 2.0 WebSSO protocol**
+    Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-saml2
+    - Note: AD FS requires that the portal run on**HTTPS**
 
-Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-saml2
-
--   Note: AD FS requires that the portal run on**HTTPS**
-
-> [!Note] The resulting endpoint has the following settings: 
-Endpoint type:**SAML Assertion Consume Endpoints**             
-> -   Binding:**POST**                                            
-> -   Index: n/a (0)                                              
-> -   URL:**https://portal.contoso.com/signin-saml2**
+    > [!Note] The resulting endpoint has the following settings: 
+    Endpoint type:**SAML Assertion Consume Endpoints**             
+    > -   Binding:**POST**                                            
+    > -   Index: n/a (0)                                              
+    > -   URL:**https://portal.contoso.com/signin-saml2**
 
 8.  Configure Identities: Specify https://portal.contoso.com/, click**Add**, click**Next**
-
-If applicable, more identities can be added for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
-
-9.  Choose Issuance Authorization Rules: Select**Permit all users to access this relying party**, click**Next**
-
+    If applicable, more identities can be added for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
+9.  Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, click **Next**.
 10.  Ready to Add Trust: Click**Next**
+11.  Click **Close**
 
-11.  Click**Close**
-
-Add the**Name ID** claim to the relying party trust:
+Add the **Name ID** claim to the relying party trust:
 
 **Transform[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name** to**Name ID** claim (Transform an Incoming Claim):
 
@@ -235,29 +213,21 @@ Write-Output $idpInitiatedUrl
 The previous section describing AD FS can also be applied to [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD](https://msdn.microsoft.com/library/azure/mt168838.aspx) because [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD behaves like a standard [SAML 2.0](https://msdn.microsoft.com/library/azure/dn195591.aspx) compliant IdP. To get started sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available, follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
 
 1.  Under the**Applications** menu of the directory, click the**Add** button
+2.  Choose**Add an application my organization is developing**
+3.  Specify a custom**name** for the application and choose the type**web application and/or web API**
+4.  For the**Sign-On URL** and the**App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
+    This corresponds to the**ServiceProviderRealm** (Wtrealm) site setting value
+5. At this point, a new application is created. Navigate to the**Configure** section in the menu
 
-<!-- -->
+    Under the **single sign-on** section, update the first**Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad
 
-1.  Choose**Add an application my organization is developing**
+    This corresponds to the**AssertionConsumerServiceUrl** (Wreply) site setting value
 
-2.  Specify a custom**name** for the application and choose the type**web application and/or web API**
-
-3.  For the**Sign-On URL** and the**App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
-
-This corresponds to the**ServiceProviderRealm** (Wtrealm) site setting value
-
-1.  At this point, a new application is created. Navigate to the**Configure** section in the menu
-
-Under the**single sign-on** section, update the first**Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad
-
--   This corresponds to the**AssertionConsumerServiceUrl** (Wreply) site setting value
-
-1.  In the footer menu click the**View Endpoints** button and note the**Federation Metadata Document** field
+6. In the footer menu click the**View Endpoints** button and note the**Federation Metadata Document** field
 
 This corresponds to the**MetadataAddress** site setting value
 
--   Paste this URL in a browser window to view the federation metadata XML and note the**entityID** attribute of the root element
-
+-   Paste this URL in a browser window to view the federation metadata XML and note the **entityID** attribute of the root element
 -   This corresponds to the**AuthenticationType** site setting value
 
 > [!Note] 
