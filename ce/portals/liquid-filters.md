@@ -14,9 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Liquid filters
-
-
-
 Liquid filters are used to modify the output of strings, numbers, variables, and objects. They are separated from the value to which they are being applied by a |.
 
 `{{ 'hal 9000' | upcase }} <!-- Output: HAL 9000 -->`
@@ -28,32 +25,9 @@ Some filters accept parameters. Filters can also be combined, and are applied in
 
 {{ "Hello, " | append: user.firstname }} <!-- Output: Hello, Dave -->
 ```
-
-### **Filters**
-
-The following topics describe each type of filter:
-
-[Array filters](#array-filters)  
-
-[Entity List filters](#entity-list-filters)  
-
-[Date filters](#date-filters)  
-
-[Math filters](#math-filters)  
-
-[String filters](#string-filters)  
-
-[Type filters](#type-filters)  
-
-[URL filters](#url-filters)  
-
-[Additional filters](#additional-filters)  
-
+The below section describes various filters. 
 
 ## Array filters
-
-
-
 Array filters are used to work with [*Liquid types*](liquid-types.md).  
 
 ### **batch**
@@ -1629,10 +1603,10 @@ Renders a string as Liquid code. This code will have access to the current Liqui
 
 ### See Also
 
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Store source content by using web templates*](store-content-web-templates.md)  
-[*Understand Liquid operators*](liquid-operators.md) 
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](liquid-objects.md)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](#liquid-filters)  
+[Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
+[Store source content by using web templates](store-content-web-templates.md)  
+[Understand Liquid operators](liquid-operators.md) 
+[Liquid types](liquid-types.md)  
+[Liquid Objects](liquid-objects.md)  
+[Liquid Tags](liquid-tags.md)  
+[Liquid Filters](#liquid-filters)  
