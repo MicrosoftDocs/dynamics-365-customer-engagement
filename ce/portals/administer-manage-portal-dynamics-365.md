@@ -1,4 +1,4 @@
- ---
+---
 title: "Administer and manage portal capabilities for Microsoft Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
