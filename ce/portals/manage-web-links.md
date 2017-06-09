@@ -71,10 +71,8 @@ The table below explains many of the standard Web Link properties used by [!INCL
 ||
 
 >[!Note]
-> When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. This validation can be disabled with the "Disable Page Validation" option.
-
->[!Note]
-> Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.
+ - When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. This validation can be disabled with the "Disable Page Validation" option. 
+ - Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.
 
 ### See Also
 
