@@ -1274,9 +1274,9 @@ If the web link set exists, a web link set object will be returned. If a web lin
 
 ### See Also
 
-[*Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
-[*Liquid types*](liquid-types.md)  
-[*Liquid Objects*](#liquid-objects)  
-[*Liquid Tags*](liquid-tags.md)  
-[*Liquid Filters*](liquid-filters.md)  
+[Add dynamic content and create custom templates*](custom-templates-dynamic-content.md)  
+[Liquid types](liquid-types.md)  
+[Liquid Objects](#liquid-objects)  
+[Liquid Tags](liquid-tags.md)  
+[Liquid Filters](liquid-filters.md)  
 
