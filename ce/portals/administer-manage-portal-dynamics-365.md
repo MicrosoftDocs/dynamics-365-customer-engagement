@@ -27,7 +27,8 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
 
 <table style="width:auto">
    <tr>
-    <td>[![Self-service web portals in Dynamics CRM](https://img.youtube.com/vi/9SLUlU_gv0E/0.jpg)](https://www.youtube.com/watch?v=9SLUlU_gv0E "Click to play this video on YouTube.com" width="240" height="180" border="10")
+    <td> Watch how to transform your customer web experience with the new portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] CRM.
+    [![Self-service web portals in Dynamics CRM](https://img.youtube.com/vi/9SLUlU_gv0E/0.jpg)](https://www.youtube.com/watch?v=9SLUlU_gv0E "Click to play this video on YouTube.com" width="240" height="180" border="10")
  
     </td>
     <td></td>
