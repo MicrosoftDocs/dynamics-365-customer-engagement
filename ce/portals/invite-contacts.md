@@ -62,6 +62,5 @@ The Invitation Form has the following fields:
 
 ### See Also
 
-[Register and invite for a portal](register-invite.md)  
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  

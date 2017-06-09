@@ -81,7 +81,7 @@ Returning visitors who require a password reset (and have previously specified a
 
 ## Redeem an invitation
 
-Redeeming an invitation code allows a registering visitor to be associated to an existing contact record that was prepared in advance specifically for that visitor. Typically, the invitation codes are sent out by email but a general code submission form is available for codes sent though other channels. After a valid invitation code is submitted, the normal user registration (sign-up) process takes place to setup the new user account. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register and invite for a portal](register-invite.md).  
+Redeeming an invitation code allows a registering visitor to be associated to an existing contact record that was prepared in advance specifically for that visitor. Typically, the invitation codes are sent out by email but a general code submission form is available for codes sent though other channels. After a valid invitation code is submitted, the normal user registration (sign-up) process takes place to setup the new user account.
 
 **Related Site Settings:**
 

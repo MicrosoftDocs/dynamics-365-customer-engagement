@@ -29,7 +29,7 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
   <li>Learn how to [provision portal](provision-portal.md) and link your Dynamics 365 portal to a custom domain.</li>
   <li>Learn how to [configure portals](configure-portal.md) and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].</li>
   <li>Learn how to [manage portal content](manage-portal-content.md) to create a helpful environment to foster discussions.</li>
-  <li>[Customize content](customize-content-snippets) to populate any portion of a page's layout.</li>
+  <li>[Customize content](customize-content-snippets.md) to populate any portion of a page's layout.</li>
 </ul></td> 
 
   </tr>
