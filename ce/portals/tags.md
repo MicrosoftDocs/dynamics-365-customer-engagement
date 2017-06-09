@@ -582,7 +582,7 @@ Allows output of Liquid code on a page without having it parsed and executed.
 
 ### **editable**
 
-Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [*Use the front-side editing engine to publish content*](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [*page*](#page), [*snippets*](#snippets), and [*weblinks*](#weblinks).  
+Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](#page), [snippets](#snippets), and [weblinks](#weblinks).  
 
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
