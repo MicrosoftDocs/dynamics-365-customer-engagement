@@ -25,11 +25,11 @@ You can create, edit, and delete forum threads in [!INCLUDE[pn-dynamics-crm](../
 1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**.
 3. Click **Forum Threads**.
-- To create a new thread, click **New**.
-- To edit an existing thread, double-click on the **Forum Thread** listed in the grid and specify values for the fields provided.
+    - To create a new thread, click **New**.
+    - To edit an existing thread, double-click on the **Forum Thread** listed in the grid and specify values for the fields provided.
 
-> [!Note]                                
-> You will need to create the original [forum posts](create-forum-posts.md) to be associated with this thread and assign the newly created forum post record to the **First Post** and **Last Post** lookup fields provided.  
+    > [!Note]                                
+    > You will need to create the original [forum posts](create-forum-posts.md) to be associated with this thread and assign the newly created forum post record to the **First Post** and **Last Post** lookup fields provided.  
 
 4.  Click **Save & Close**.
 
@@ -61,6 +61,7 @@ The table below explains many of the Forum Thread attributes used by Portals. It
 | Last Post      | The last [forum posts](create-forum-posts.md) created on the thread.                                            |  
 | Post Count     | The number of posts that have been created on the thread.                                                                   |
 | View Count     | The number of times the thread has been viewed in the portal.                                                               |
+||
 
 ## Manage forum thread types in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
@@ -83,6 +84,7 @@ The table below explains many of the Forum Thread Type attributes used by portal
 | Requires Answer | Checked indicates that a forum post within the thread of this type can be marked as an answer.                                          |
 | Display Order   | An integer value indicating the order in which the forum thread type will be placed, relative to other forum thread types in a listing. |
 | Is Default      | Checked indicates that type is to be used as the default. It is recommended that only one type per website have this field checked.     |
+||
 
 ### See Also
 
