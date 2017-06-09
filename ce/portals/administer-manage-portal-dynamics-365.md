@@ -24,4 +24,4 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
 - Learn how to [manage portal content](manage-portal-content.md) to create a helpful environment to foster discussions.
 - [Customize content](customize-content-snippets) to populate any portion of a page's layout.
 
-[![Self-service web portals in Dynamics CRM](https://img.youtube.com/vi/9SLUlU_gv0E/0.jpg)](https://www.youtube.com/watch?v=9SLUlU_gv0E)
+[![Self-service web portals in Dynamics CRM](https://img.youtube.com/vi/9SLUlU_gv0E/0.jpg)](https://www.youtube.com/watch?v=9SLUlU_gv0E "Click to play this video on YouTube.com")
