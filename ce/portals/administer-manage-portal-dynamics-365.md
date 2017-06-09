@@ -22,6 +22,7 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
 <table style="width:auto">
    <tr>
     <td> Watch how to transform your customer web experience with the new portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] CRM.
+    
     > [!VIDEO https://www.youtube.com/embed/9SLUlU_gv0E] 
     
     <iframe src="https://www.youtube.com/embed/9SLUlU_gv0E" width="480" height="360" allowFullScreen="true" frameBorder="0"></iframe>
