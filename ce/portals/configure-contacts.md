@@ -22,7 +22,6 @@ After filling out the basic information for a contact in [!INCLUDE[pn-dynamics-c
 Complete the change password workflow, and the necessary fields will be automatically configured. When you have done this, your contact will be configured for your portals.
 
 ### See Also
-[Register and invite for a portal](register-invite.md)  
-[Invite contacts to your portals](invite-contacts.md-1)  
+[Invite contacts to your portals](invite-contacts.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 

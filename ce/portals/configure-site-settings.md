@@ -26,10 +26,10 @@ The sample portals that are provided with the installation of [!INCLUDE[pn-dynam
 3.  To create a new setting: Click **New**
 4.  To edit an existing setting: Double-click on the **Site Setting** listed in the grid
 5. Specify values for the fields provided: 
-- **Name**:  A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website as the code retrieving the setting will take the first record found with the matching name.
-- **Website**:  The associated website. 
-- **Value**: The setting
-- **Description**: The purpose of the setting or special instructions.
+    - **Name**:  A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website as the code retrieving the setting will take the first record found with the matching name.
+    - **Website**:  The associated website. 
+    - **Value**: The setting
+    - **Description**: The purpose of the setting or special instructions.
 6. Click **Save & Close**
 
 ### See Also
