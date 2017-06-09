@@ -19,7 +19,7 @@ Customers frequently want to have a simple URL that redirects to a page deeper i
 ## Create a redirect
 1. Navigate to the **Portals** area and, under the **Website** section, select **Redirects**. Next, click **New** on the toolbar.
 
-![Active redirects](media/active-redirects.png "Active redirects")  
+    ![Active redirects](media/active-redirects.png "Active redirects")  
 
 2. Enter the redirect information as described below.
 
@@ -35,7 +35,7 @@ Customers frequently want to have a simple URL that redirects to a page deeper i
 
 3. After entering the required fields and specifying a value for at least one of the URL, Web Page, or Site Marker fields, click **Save**.
 
-![Redirect a customer survey](media/redirect-customer-survey.png "Redirect a customer survey")  
+    ![Redirect a customer survey](media/redirect-customer-survey.png "Redirect a customer survey")  
 
 ## Use the redirect
 
@@ -43,11 +43,11 @@ When the inbound URL is requested, the browser is redirected to the URL of the t
 
 For example, for an Inbound URL value of cs-survey with a target webpage set to the Customer Support Survey page, the following request:
 
-> http://customerportal.contoso.com/cs-survey
+http://customerportal.contoso.com/cs-survey
 
 results in the browser requesting the following URL:
 
-> http://customerportal.contoso.com/surveys/customer-service-survey/
+http://customerportal.contoso.com/surveys/customer-service-survey/
 
 ### See Also
 [Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  

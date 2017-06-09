@@ -33,7 +33,7 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 
 ## Entity list attributes and relationships
 
-|**Name** |**Description** |
+|Name |Description |
 | ------------ | --- |
 | Name | The descriptive name of the record. This field is required. |
 | Entity Name | The name of the entity from which the Saved Query View will be loaded from. This field is required. |
