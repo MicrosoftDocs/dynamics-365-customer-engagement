@@ -17,15 +17,11 @@ manager: sakudes
 
 The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]'s native entity form editing capabilities.
 
-On the Web Form Step that has fields that you would like to modify
-
-Click the **Metadata** link in the top navigation
+## Add a new record
+1. On the Web Form Step that has fields that you would like to modify, click the **Metadata** link in the top navigation.
 
 ![Select metadata in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](media/select-metadata-dynamics-365.png "Select metadata in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]")  
-
-To add a new record
-
-Click **Add New Web Form Metadata**
+2. Click **Add New Web Form Metadata**.
 
 ## Web form metadata properties
 
