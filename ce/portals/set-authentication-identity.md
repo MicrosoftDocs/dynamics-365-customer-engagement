@@ -209,13 +209,11 @@ Authentication/Registration/ExternalLoginEnabled
 
 1.  Select a provider to connect
 
-![Manage external accounts](media/manage-external-accounts.png "Manage external accounts")  
+    ![Manage external accounts](media/manage-external-accounts.png "Manage external accounts")  
 
-1.  Sign-in with provider to connect
-
-2.  Provider is connected
-
-3.  Provider can be disconnected
+2.  Sign-in with provider to connect
+3.  Provider is connected
+4.  Provider can be disconnected
 
 ## Enable ASP.NET identity authentication
 
@@ -239,6 +237,7 @@ The following describes the settings for enabling/disabling various authenticati
   For OAuth2 based providers the accepted values are: Facebook, Google, Yahoo, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)], LinkedIn, Yammer, or Twitter                                                                                                                                                                                                                                                                                                                                                                                                                                      
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
   For WS-Federation based providers use the value specified for the Authentication/WsFederation/ADFS/AuthenticationType and Authentication/WsFederation/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]/\[provider\]/AuthenticationType site settings. Examples: http://adfs.contoso.com/adfs/services/trust, Facebook-0123456789, Google, Yahoo!, uri:[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]LiveID.                                                                                                                                                                                                                                 |
+  ||
 
 ## Enable/disable user registration
 
@@ -249,6 +248,7 @@ The following describes the settings for enabling/disabling user registration (s
 | Authentication/Registration/Enabled                 | Enables or disables all forms of user registration. Registration must be enabled for the other settings in this section to take effect. Default: true                                   |
 | Authentication/Registration/OpenRegistrationEnabled | Enables or disables the sign-up registration form for creating new local users. The sign-up form allows any anonymous visitor to the portal to create a new user account. Default: true |
 | Authentication/Registration/InvitationEnabled       | Enables or disables the invitation code redemption form for registering users who possess invitation codes. Default: true                                                               |
+||
 
 ## User credential validation
 
@@ -256,26 +256,15 @@ The following describes the settings for adjusting username and password validat
 
 | Site Setting Name                                                       | Description                                                                                                                                                                                         |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Authentication/UserManager/PasswordValidator/EnforcePasswordPolicy      | Whether the password contains characters from three of the following categories:                                                                                                                    
-                                                                                                                                                                                                       
-  1.  Uppercase letters of European languages (A through Z, with diacritic marks, Greek and Cyrillic characters)                                                                                       
-                                                                                                                                                                                                       
-  <!-- -->                                                                                                                                                                                             
-                                                                                                                                                                                                       
-  1.  Lowercase letters of European languages (a through z, sharp-s, with diacritic marks, Greek and Cyrillic characters)                                                                              
-                                                                                                                                                                                                       
-  2.  Base 10 digits (0 through 9)                                                                                                                                                                     
-                                                                                                                                                                                                       
-  3.  Non-alphanumeric characters (special characters) (for example, !, $, \#, %)                                                                                                                      
-                                                                                                                                                                                                       
-  Default: true. [MSDN](https://technet.microsoft.com/en-us/library/hh994562(v=ws.10).aspx).                                                                                                           |  
+| Authentication/UserManager/PasswordValidator/EnforcePasswordPolicy      | Whether the password contains characters from three of the following categories:<br><ul><li>Uppercase letters of European languages (A through Z, with diacritic marks, Greek and Cyrillic characters)</li><li>Lowercase letters of European languages (a through z, sharp-s, with diacritic marks, Greek and Cyrillic characters)</li><li>Base 10 digits (0 through 9)</li><li>Non-alphanumeric characters (special characters) (for example, !, $, \#, %)</li></ul>Default: true. [MSDN](https://technet.microsoft.com/en-us/library/hh994562(v=ws.10).aspx).                                                                                                           |  
 | Authentication/UserManager/UserValidator/AllowOnlyAlphanumericUserNames | Whether to allow only alphanumeric characters for the user name. Default: false. [MSDN](https://msdn.microsoft.com/library/dn613211.aspx).                                                          |  
 | Authentication/UserManager/UserValidator/RequireUniqueEmail             | Whether unique e-mail is needed for validating the user. Default: true. [MSDN](https://msdn.microsoft.com/library/dn613213.aspx).                                                                   |  
 | Authentication/UserManager/PasswordValidator/RequiredLength             | The minimum required password length. Default: 8. [MSDN](https://msdn.microsoft.com/library/microsoft.aspnet.identity.passwordvalidator.requiredlength.aspx).                                       |  
 | Authentication/UserManager/PasswordValidator/RequireNonLetterOrDigit    | Whether the password requires a non-letter or digit character. Default: false. [MSDN](https://msdn.microsoft.com/library/microsoft.aspnet.identity.passwordvalidator.requirenonletterordigit.aspx). |  
 | Authentication/UserManager/PasswordValidator/RequireDigit               | Whether the password requires a numeric digit ('0' - '9'). Default: false. [MSDN](https://msdn.microsoft.com/library/microsoft.aspnet.identity.passwordvalidator.requiredigit.aspx).                |  
 | Authentication/UserManager/PasswordValidator/RequireLowercase           | Whether the password requires a lower case letter ('a' - 'z'). Default: false. [MSDN](https://msdn.microsoft.com/library/microsoft.aspnet.identity.passwordvalidator.requirelowercase.aspx).        |  
-| Authentication/UserManager/PasswordValidator/RequireUppercase           | Whether the password requires an upper case letter ('A' - 'Z'). Default: false. [MSDN](https://msdn.microsoft.com/library/microsoft.aspnet.identity.passwordvalidator.requireuppercase.aspx).       |  
+| Authentication/UserManager/PasswordValidator/RequireUppercase           | Whether the password requires an upper case letter ('A' - 'Z'). Default: false. [MSDN](https://msdn.microsoft.com/library/microsoft.aspnet.identity.passwordvalidator.requireuppercase.aspx).       | 
+|| 
 
 ## User account lockout settings
 
@@ -286,7 +275,8 @@ The following describes the settings that define how and when an account becomes
 | Authentication/UserManager/UserLockoutEnabledByDefault          | Indicates whether the user lockout is enabled when users are created. Default: true. [MSDN](https://msdn.microsoft.com/library/dn613214.aspx).                                                                                                  |  
 | Authentication/UserManager/DefaultAccountLockoutTimeSpan        | The default amount of time that a user is locked out for after Authentication/UserManager/MaxFailedAccessAttemptsBeforeLockout is reached. Default: 24:00:00 (1 Day). [MSDN](https://msdn.microsoft.com/library/dn613201.aspx).                 |  
 | Authentication/UserManager/MaxFailedAccessAttemptsBeforeLockout | The maximum number of access attempts allowed before a user is locked out (if lockout is enabled). Default: 5. [MSDN](https://msdn.microsoft.com/library/dn613202.aspx).                                                                        |  
-| Authentication/ApplicationCookie/ExpireTimeSpan                 | The default amount of time cookie authentication sessions are valid for. Default: 24:00:00 (1 Day). [MSDN](https://msdn.microsoft.com/en-us/library/microsoft.owin.security.cookies.cookieauthenticationoptions.expiretimespan(v=vs.113).aspx). |  
+| Authentication/ApplicationCookie/ExpireTimeSpan                 | The default amount of time cookie authentication sessions are valid for. Default: 24:00:00 (1 Day). [MSDN](https://msdn.microsoft.com/en-us/library/microsoft.owin.security.cookies.cookieauthenticationoptions.expiretimespan(v=vs.113).aspx). |
+||  
 
 ### See Also
 
