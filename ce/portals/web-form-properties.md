@@ -41,6 +41,7 @@ The following attributes and relationships determine the functionality of the We
 | Edit Expired State Code             | The target entity's state code integer value that when combined with the status reason indicates when an existing record can no longer be edited.                                                                                                                                                                                                              |
 | Edit Expired Status Reason          | The target entity's status code integer value that when combined with the state code, indicates when an existing record has these values then the record is not to be edited anymore i.e. when a record is updated as complete for example.                                                                                                                    |
 | Edit Expired Message                | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. Default message; "You have already completed a submission. Thank you!"                     |
+||
 
 ## Progress indicator settings
 

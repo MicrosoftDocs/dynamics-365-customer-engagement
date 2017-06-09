@@ -34,6 +34,7 @@ Each Web Form will be presented on the portal has one or more steps. These steps
 | Next Step                  | The step that will follow the current step. This will be blank for single step single form.                                                                                                            |
 | Target Entity Logical Name | The logical name of the entity associated with the form.                                                                                                                                               |
 | Move Previous Permitted    | Indicates whether the user is given an option to navigate to the previous step in a multiple step web form. Default is true. Uncheck to prevent the user from being able to move to the previous step. |
+||
 
 ### See Also
 
