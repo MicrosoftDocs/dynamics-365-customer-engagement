@@ -14,8 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # WS-Federation provider settings for portals
-[comment]: <> (Table formatting issues)
-
 
 A single [!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)] Federation Services server can be added (or another [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx)–compliant security token service) as an identity provider. In addition, a single [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] ACS](http://azure.microsoft.com/en-us/documentation/articles/active-directory-dotnet-how-to-use-access-control/) namespace can be configured as a set of individual identity providers. The settings for both AD FS and ACS are based on the properties of the [WsFederationAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.aspx) class.  
 
@@ -23,49 +21,31 @@ A single [!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)] Fed
 
 Using the AD FS Management tool, select **Trust Relationships** &gt; **Relying Party Trusts**.
 
-1.  Click **Add Relying Party Trust**…
-
-<!-- -->
-
-1.  Welcome: Click **Start**
-
-2.  Select Data Source: Select **Enter data about the relying party manually**, click **Next**
-
-3.  Specify Display Name: Enter a **name**, click **Next**
-
-Example: https://portal.contoso.com/
-
-1.  Choose Profile: Select **AD FS 2.0 profile**, click **Next**
-
-2.  Configure Certificate: Click Next
-
-3.  Configure URL: Check **Enable support for the WS-Federation Passive protocol**
+1.  Click **Add Relying Party Trust**.
+2.  Welcome: Click **Start**.
+3.  Select Data Source: Select **Enter data about the relying party manually**, click **Next**.
+4.  Specify Display Name: Enter a **name**, click **Next**.
+    Example: https://portal.contoso.com/
+5.  Choose Profile: Select **AD FS 2.0 profile**, click **Next**.
+6.  Configure Certificate: Click **Next**.
+7.  Configure URL: Check **Enable support for the WS-Federation Passive protocol**.
 
 Relying party WS-Federation Passive protocol URL: Enter https://portal.contoso.com/signin-federation
 
 -   Note: AD FS requires that the portal run on **HTTPS**
 
-|  >[!Note] |  
-|-----------------------------------------------------------------|
-| The resulting endpoint has the following settings:              
-                                                                  
- Endpoint type: **WS-Federation**                                 
-                                                                  
- -   Binding: **POST**                                            
-                                                                  
- -   Index: n/a (0)                                               
-                                                                  
- -   URL: **https://portal.contoso.com/signin-federation**        |
+    > [!Note] 
+    > The resulting endpoint has the following settings:              
+    > Endpoint type: **WS-Federation**                                 
+    > -   Binding: **POST**                                            
+    > -   Index: n/a (0)                                               
+    > -   URL: **https://portal.contoso.com/signin-federation** 
 
-1.  Configure Identities: Specify https://portal.contoso.com/, click **Add**, click **Next**
-
-If applicable, more identities can be added for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
-
-1.  Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, click **Next**
-
-2.  Ready to Add Trust: Click **Next**
-
-3.  Click **Close**
+8.  Configure Identities: Specify https://portal.contoso.com/, click **Add**, click **Next**
+    If applicable, more identities can be added for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
+9.  Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, click **Next**.
+10.  Ready to Add Trust: Click **Next**.
+11.  Click **Close**.
 
 Add the **Name ID** claim to the relying party trust:
 
@@ -75,27 +55,15 @@ Add the **Name ID** claim to the relying party trust:
 
 Apply portal site settings referencing the above AD FS Relying Party Trust.
 
-|  >[!Note]                                                                                                                            |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A standard AD FS (STS) configuration only uses the following settings (with example values):                                                                                               
-                                                                                                                                                                                             
- Authentication/WsFederation/ADFS/MetadataAddress - https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml                                                               
-                                                                                                                                                                                             
- -   Authentication/WsFederation/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust                                                                                       
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)  
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/                                                                                                                  
-                                                                                                                                                                                             
- -   Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-federation                                                                                                  
-                                                                                                                                                                                             
- The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server:                                                                      |
+> [!Note]
+> A standard AD FS (STS) configuration only uses the following settings (with example values): 
+> - Authentication/WsFederation/ADFS/MetadataAddress - https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml
+> - Authentication/WsFederation/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust
+>   - Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)
+> - Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/
+> - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-federation   
 
-**Import-Module adfs Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml**
+The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server: `Import-Module adfs Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml`
 
 | Site Setting Name                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -132,26 +100,15 @@ Apply portal site settings referencing the above AD FS Relying Party Trust.
 The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD](https://msdn.microsoft.com/library/azure/mt168838.aspx)), because [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD behaves like a standard [WS-Federation](https://msdn.microsoft.com/library/azure/dn903702.aspx) compliant security token service. To get started sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
 
 1.  Under the **Applications** menu of the directory, click the **Add** button
-
-<!-- -->
-
-1.  Choose **Add an application my organization is developing**
-
-2.  Specify a custom **name** for the application and choose the type **web application and/or web API**
-
-3.  For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
-
-This corresponds to the **Wtrealm** site setting value
-
-1.  At this point, a new application is created. Navigate to the **Configure** section in the menu
-
-Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad
-
--   This corresponds to the **Wreply** site setting value
-
-1.  Click **Save** in the footer
-
-2.  In the footer menu click the **View Endpoints** button and note the **Federation Metadata Document** field
+2.  Choose **Add an application my organization is developing**
+3.  Specify a custom **name** for the application and choose the type **web application and/or web API**
+4.  For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
+    This corresponds to the **Wtrealm** site setting value
+5.  At this point, a new application is created. Navigate to the **Configure** section in the menu
+    Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad
+    -   This corresponds to the **Wreply** site setting value
+6.  Click **Save** in the footer
+7.  In the footer menu click the **View Endpoints** button and note the **Federation Metadata Document** field
 
 This corresponds to the **MetadataAddress** site setting value
 
@@ -159,23 +116,13 @@ This corresponds to the **MetadataAddress** site setting value
 
 -   This corresponds to the **AuthenticationType** site setting value
 
-|  >[!Note]                                                                                                                            |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):                                                                                                  
-                                                                                                                                                                                             
- Authentication/WsFederation/ADFS/MetadataAddress - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml                 
-                                                                                                                                                                                             
- -   Authentication/WsFederation/ADFS/AuthenticationType - https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/                                                                     
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)  
-                                                                                                                                                                                             
- <!-- -->                                                                                                                                                                                    
-                                                                                                                                                                                             
- -   Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/                                                                                                                  
-                                                                                                                                                                                             
- -   Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-azure-ad                                                                                                    |
+> [!Note]
+> A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):
+> - Authentication/WsFederation/ADFS/MetadataAddress - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml
+> - Authentication/WsFederation/ADFS/AuthenticationType - https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/
+>   - Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)
+> - Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/
+> - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-azure-ad
 
 ### Configure Facebook app authentication
 

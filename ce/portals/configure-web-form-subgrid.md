@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Web Form subgrid configuration for portals
-[comment]: <> (Table formatting issues)
+
 Web Form Subgrids are configured in an identical fashion to Entity Form Subgrids. First, Create a Metadata record for the Web Form Step that has a subgrid, and add configuration metadata.
 
 Adding Subgrids to your Managed forms on the portal is easy—just add the subgrid to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form that you are managing by using the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you’re done. The grid will use the view that is specified in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer, show only related records if that option was chosen in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configurations.
