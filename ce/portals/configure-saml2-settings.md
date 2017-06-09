@@ -15,7 +15,8 @@ manager: sakudes
 ---
 # SAML 2.0 provider settings for portals
 
-> [!Note] This documentation applies to**[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
+> [!Note] 
+> This documentation applies to**[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
 
 One or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant Identity Providers (IdP) can be added to provide external authentication. This document describes how to setup various identity providers to integrate with a portal acting as a Service Provider (SP).  
 
@@ -25,7 +26,8 @@ Settings for an IdP such as AD FS.
 
 ### Create an AD FS relying party trust
 
-> [!Note] See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
+> [!Note] 
+> See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
 
 Using the AD FS Management tool, select**Service** >**Claim Descriptions**.
 
@@ -55,11 +57,12 @@ Using the AD FS Management tool, select**Trust Relationships** >**Relying Party 
     Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-saml2
     - Note: AD FS requires that the portal run on**HTTPS**
 
-    > [!Note] The resulting endpoint has the following settings: 
-    Endpoint type:**SAML Assertion Consume Endpoints**             
-    > -   Binding:**POST**                                            
-    > -   Index: n/a (0)                                              
-    > -   URL:**https://portal.contoso.com/signin-saml2**
+    > [!Note] 
+    > The resulting endpoint has the following settings: 
+    > - Endpoint type:**SAML Assertion Consume Endpoints**             
+    > - Binding:**POST**                                            
+    > - Index: n/a (0)                                              
+    > - URL:**https://portal.contoso.com/signin-saml2**
 
 8.  Configure Identities: Specify https://portal.contoso.com/, click**Add**, click**Next**
     If applicable, more identities can be added for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
