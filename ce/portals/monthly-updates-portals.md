@@ -34,5 +34,3 @@ The December 2016 update has brought many new features to the portal capabilitie
 [!INCLUDE[cc-privacy-crm-portals-data-exposed](../includes/cc-privacy-crm-portals-data-exposed.md)]
 
 For more information about additional [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service offerings, see the [[!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)]](https://azure.microsoft.com/support/trust-center/).  
-
-### See Also
