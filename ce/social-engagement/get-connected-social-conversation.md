@@ -29,20 +29,49 @@ There’s a good chance that your customers and stakeholders are talking about y
 -   Download the [Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
   
 ## Next steps  
-  
--   [Get started with Social Engagement](../social-engagement/get-started.md): Find important information to get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and to set user preferences. Administrators get help to set up [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for their organization.  
-  
--   [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md): If you’re an Administrator, review this information to get your users set up quickly with the appropriate permissions. Learn how you can integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] with other services, like [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_marketingpilot](../includes/pn-marketingpilot.md)].  
-  
--   [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md): Capturing the right data for your business is a crucial step for the successful analysis of social media data. Follow the topics in this section to set up searches, refine their quality, and organize them according to your needs. Find out more about keeping your post quota in a healthy shape.  
-  
--   [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md): This section helps you view the different areas to analyze the search results. See which filters are available to form a data set and how you can apply them to the various widgets.  
-  
--   [Engage on social networks](../social-engagement/engage-on-social-networks.md): Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter the most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and share it with other users of the solution.  
-  
--   [Stay up to date with alerts](../social-engagement/email-alerts.md): Stay on top of what’s happening on the social web. Set up alerts that are sent directly to your inbox, and know the details without any delay if something important happens.  
-  
--   [Work with posts](../social-engagement/work-with-posts.md): Find out what people say about your topics on social media and take the appropriate actions. Learn what information is provided along with the contents of a post.  
+
+<table style="width:auto">
+  <tr>
+    <th>Get Started</th>
+    <th>Administer</th> 
+    <th>Analyze</th>
+	<th>Engage</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>
+	<ul>
+  <li>[Social Engagement overview](overview.md)</li>
+  <li>[Get started](get-started.md)</li>
+  <li>[Meet the Social Selling Assistant](social-selling-assistant-overview.md)</li>
+  <li>[Frequently asked questions](faq.md)</li>
+</ul>
+		</td>
+    <td>
+	<ul>
+	<li>[Configure settings](manage-global-settings.md)</li>
+<li>[Set up searches](set-up-searched.md)</li>
+<li>[Manage connections](manage-connections.md)</li>
+<li>[Assign user roles](assign-user-roles.md)</li>
+	</td> 
+    <td>
+	<ul>
+	<li>[Analyze social data](analyze-social-data-using-widgets.md)</li>
+<li>[Filters](use-filters.md)</li>
+<li>[Activity maps](activity-maps.md)</li>
+<li>[Alerts](email-alerts.md)</li>	
+	</ul>
+	</td>
+	<td>
+	<ul>
+	<li>[Manage social profiles](manage-social-profiles.md)</li>
+<li>[Publish posts](publish-react-posts.md)</li>
+<li>[Work with posts](work-with-posts.md)</li>
+<li>[Streams](social-center.md)</li></ul>
+	</td>
+  </tr>
+    
+</table>
   
 > [!TIP]
 >  To quickly access help topics when you're working with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], click the Help button ![Help button](../social-engagement/media/help-icon.png "Help button"), and then click **Help**.  
@@ -53,4 +82,3 @@ We welcome your feedback. Use the feedback link at the bottom of this page to sh
 [What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md)   
 [Get started with Social Engagement](../social-engagement/get-started.md)   
 [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
- 
