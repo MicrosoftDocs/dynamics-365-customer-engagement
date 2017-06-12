@@ -17,53 +17,41 @@ ms.author: mhart
 ---
 # Social Engagement Help & Training
 
-<table style="width:auto">
-  <tr>
-    <th>Get Started</th>
-    <th>Administer</th> 
-    <th>Analyze</th>
-	<th>Engage</th>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td>
-	<ul>
-  <li>[Social Engagement overview](overview.md)</li>
-  <li>[Get started](get-started.md)</li>
-  <li>[Meet the Social Selling Assistant](social-selling-assistant-overview.md)</li>
-  <li>[Frequently asked questions](faq.md)</li>
-</ul>
-		</td>
-    <td>
-	<ul>
-	<li>[Configure settings](manage-global-settings.md)</li>
-<li>[Set up searches](set-up-searched.md)</li>
-<li>[Manage connections](manage-connections.md)</li>
-<li>[Assign user roles](assign-user-roles.md)</li>
-	</td> 
-    <td>
-	<ul>
-	<li>[Analyze social data](analyze-social-data-using-widgets.md)</li>
-<li>[Filters](use-filters.md)</li>
-<li>[Activity maps](activity-maps.md)</li>
-<li>[Alerts](email-alerts.md)</li>	
-	</ul>
-	</td>
-	<td>
-	<ul>
-	<li>[Manage social profiles](manage-social-profiles.md)</li>
-<li>[Publish posts](publish-react-posts.md)</li>
-<li>[Work with posts](work-with-posts.md)</li>
-<li>[Streams](social-center.md)</li></ul>
-	</td>
-  </tr>
-    
-</table>
+## Get started
 
-<table style="width:auto">
-  <tr>
-    <th>[e-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400720)</th>
-    <th>[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)</th> 
-    <th>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</th>
-  </tr>
-</table>
+- [Social Engagement overview](overview.md)
+- [Get started](get-started.md)
+- [Meet the Social Selling Assistant](social-selling-assistant-overview.md)
+- [Frequently asked questions](faq.md)
+
+## Administer
+
+- [Administer Social Engagement](administer-microsoft-social-engagement.md)
+- [Configure settings](manage-global-settings.md)
+- [Set up searches](set-up-searched.md)
+- [Manage connections](manage-connections.md)
+- [Assign user roles](assign-user-roles.md)
+
+## Analyze
+
+- [Analyze social data](analyze-social-data-using-widgets.md)
+- [Filters](use-filters.md)
+- [Activity maps](activity-maps.md)
+- [Alerts](email-alerts.md)	
+
+## Engage
+
+- [Manage social profiles](manage-social-profiles.md)
+- [Publish posts](publish-react-posts.md)
+- [Work with posts](work-with-posts.md)
+- [Streams](social-center.md)
+
+## Additional resources
+
+- [e-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400720)
+- [Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)
+- [Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)
+
+### See also
+
+- [Social Engagement overview](overview.md)
