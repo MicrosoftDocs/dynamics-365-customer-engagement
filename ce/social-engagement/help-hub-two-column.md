@@ -21,72 +21,61 @@ ms.author: mhart
   <tr>
     <td>
 
-## Get started
-
-- [Social Engagement overview](overview.md)
-- [Get started](get-started.md)
-- [Meet the Social Selling Assistant](social-selling-assistant-overview.md)
-- [Frequently asked questions](faq.md)
+<h2> Get started </h2>
+<ul>
+<li>[Social Engagement overview](overview.md)</li>
+<li>[Get started](get-started.md)</li>
+<li>[Meet the Social Selling Assistant](social-selling-assistant-overview.md)</li>
+<li>[Frequently asked questions](faq.md)</li>
 </td>
     <td>
 
-## Administer
+<h2> Administer </h2>
 
-- [Administer Social Engagement](administer-microsoft-social-engagement.md)
-- [Configure settings](manage-global-settings.md)
-- [Set up searches](set-up-searched.md)
-- [Manage connections](manage-connections.md)
-- [Assign user roles](assign-user-roles.md)
+<li>[Administer Social Engagement](administer-microsoft-social-engagement.md)</li>
+<li>[Configure settings](manage-global-settings.md)</li>
+<li>[Set up searches](set-up-searched.md)</li>
+<li>[Manage connections](manage-connections.md)</li>
+<li>[Assign user roles](assign-user-roles.md)</li>
     </td>
   </tr>
   <tr>
     <td>
 
-## Analyze
+<h2> Analyze </h2>
 
-- [Analyze social data](analyze-social-data-using-widgets.md)
-- [Filters](use-filters.md)
-- [Activity maps](activity-maps.md)
-- [Alerts](email-alerts.md)
+<li>[Analyze social data](analyze-social-data-using-widgets.md)</li>
+<li>[Filters](use-filters.md)</li>
+<li>[Activity maps](activity-maps.md)</li>
+<li>[Alerts](email-alerts.md)</li>
     </td>
     <td>
 
-## Engage
+<h2> Engage </h2>
 
-- [Manage social profiles](manage-social-profiles.md)
-- [Publish posts](publish-react-posts.md)
-- [Work with posts](work-with-posts.md)
-- [Streams](social-center.md)
+<li>[Manage social profiles](manage-social-profiles.md)</li>
+<li>[Publish posts](publish-react-posts.md)</li>
+<li>[Work with posts](work-with-posts.md)</li>
+<li>[Streams](social-center.md)</li>
 </td>
   </tr>
   <tr>
     <td>
 
-## Additional resources
+<h2> Additional resources </h2>
 
-- [e-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400720)
-- [Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)
-- [Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)
+<li>[e-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400720)</li>
+<li>[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)</li>
+<li>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
 
     </td>
     <td>
 
-## Product updates
+<h2> Product updates </h2>
 
-- [What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md)
-- [Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)
-- [Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)
+<li>[What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md)</li>
+<li>[Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)</li>
+<li>[Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)</li>
     </td>
   </tr>
 </table>
-
-
-
-
-
-
-
-
-### See also
-
-- [Social Engagement overview](overview.md)
