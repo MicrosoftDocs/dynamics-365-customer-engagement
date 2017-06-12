@@ -15,14 +15,11 @@ ms.author: mhart
 ---
 # Connect with customers. Empower your organization. Create real results.
 
-[//]: # (Michael, this line just hangs here, looking like a heading but not actually having a clear purpose. It's nice enough, but it's more suited for a billboard or a banner. Recommend deleting. Or it could be made into an actual h2--or maybe even the topic title? As bold text floating here, it just doesn't work.)
-[//]: # (Nona, I've used it as H1 for this topic. Please let me know if you think I should also rewrite the page title in metadata.)
+The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.  
   
- The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.  
+Social media is no longer relegated to a select few in the marketing department. Empower a broader set of employees and connect with customers by using **[Microsoft Social Engagement, part of Microsoft Dynamics 365](https://www.microsoft.com/dynamics365/home)**. Microsoft Social Engagement puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. Service agents can meet customers on the channel of their choice&mdash;on social media or through more traditional service channels&mdash;to solve problems effectively. Sales teams can gather intelligence, source new leads, and build credibility through social selling. Marketers can measure and manage brand reputation. Employees in any role can leverage social insights to better understand the voice of the customer. You can harness the power of social media to go beyond likes or shares to create real, measurable business results.  
   
- Social media is no longer relegated to a select few in the marketing department. Empower a broader set of employees and connect with customers by using **[Microsoft Social Engagement, part of Microsoft Dynamics 365](https://www.microsoft.com/dynamics365/home)**. Microsoft Social Engagement puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. Service agents can meet customers on the channel of their choice&mdash;on social media or through more traditional service channels&mdash;to solve problems effectively. Sales teams can gather intelligence, source new leads, and build credibility through social selling. Marketers can measure and manage brand reputation. Employees in any role can leverage social insights to better understand the voice of the customer. You can harness the power of social media to go beyond likes or shares to create real, measurable business results.  
-  
- ![analytics&#45;conversation&#45;view&#45;social&#45;engagement](../social-engagement/media/analytics-conversation-view-social-engagement.jpg "Social Engagement dashboard for conversations displaying charts and phrase clouds")  
+![analytics&#45;conversation&#45;view&#45;social&#45;engagement](../social-engagement/media/analytics-conversation-view-social-engagement.jpg "Social Engagement dashboard for conversations displaying charts and phrase clouds")  
   
 ## Success stories
 
@@ -63,8 +60,6 @@ See how some of our customers are using Social Engagement to address their use-c
 
 ## Product updates 
   
-[//]: # (Regarding the third bullet: I think that from the customer's perspective, languages support sentiment analysis rather than are supported by it. Can we say "...which languages support sentiment analysis" or do you think that's incorrect?)
-[//]: # (Agree with your proposal and updated below.)
 We frequently release updates to introduce new capabilities, improve existing features, and fix various issues.  
   
 -   Have a look at [What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md) to learn about the latest changes.  
@@ -81,14 +76,12 @@ We frequently release updates to introduce new capabilities, improve existing fe
    
 ## Community contributions
 
-[//]: # (Is it okay that the Silvia Gonner video is private?)
  Have a look at these additional assets that are waiting for you.  
   
 -   [Nick Fratello's video: Social Engagement Customer Care Demonstration](https://www.youtube.com/watch?v=OIkSl6R5APo)  
   
 -   [Jesper Osgaard's Microsoft Lystaveln](https://blogs.technet.microsoft.com/lystavlen/tag/microsoft-social-engagement/) covers many Microsoft products and services. Be sure to bookmark his blog.  
-  
--   [Silvia Gönner's video: Getting closer to your customer](https://www.youtube.com/watch?v=i1k8Tet-n6Q)  
+
   
 ### See also  
  [Microsoft Social Engagement FAQ](../social-engagement/faq.md)   
