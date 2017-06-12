@@ -1,4 +1,4 @@
-# [Get connected to the social conversation by using Microsoft Social Engagement](get-connected-social-conversation.md)
+# [Welcome to Microsoft Social Engagement](overview.md)
 ## [What's new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)
 ### [2016](what-s-new-archive-2016.md)
 ### [2015](what-s-new-archive-2015.md)

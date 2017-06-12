@@ -1,3 +1,3 @@
 ---
-redirect_url: /dynamics365/customer-engagement/social-engagement/get-connected-social-conversation
+redirect_url: /dynamics365/customer-engagement/social-engagement/help-hub
 ---
