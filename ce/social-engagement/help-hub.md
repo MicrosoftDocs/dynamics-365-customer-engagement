@@ -58,7 +58,7 @@ ms.author: mhart
 
 <h2> Additional resources </h2>
 
-<li>[e-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400720)</li>
+<li>[YouTube playlist](http://go.microsoft.com/fwlink/p/?LinkId=400720)</li>
 <li>[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)</li>
 <li>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
 
