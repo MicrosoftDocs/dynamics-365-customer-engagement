@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Social Engagement to Event Hubs."
 ms.custom: ""
