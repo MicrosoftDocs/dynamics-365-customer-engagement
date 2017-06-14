@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Find more relevant content | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
 ms.custom: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Refine your search rules to find relevant content
 Analyze your results and optimize your search queries regularly to make sure you get the most relevant data. Your searches may return posts that are irrelevant in the context you are looking for. For example, if you want to search for the [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] operating system and have “Windows” as your search keyword, you are likely to find results about house windows. In this case, consider adding “OS” or similar terms to make sure you’re searching for the operating system.  
   
