@@ -28,7 +28,7 @@ ms.author: mhart
 
 <li>[Administer Social Engagement](administer-microsoft-social-engagement.md)</li>
 <li>[Configure settings](manage-global-settings.md)</li>
-<li>[Set up searches](set-up-searched.md)</li>
+<li>[Set up searches](set-up-searches.md)</li>
 <li>[Manage connections](manage-connections.md)</li>
 <li>[Assign user roles](assign-user-roles.md)</li>
 </td>
