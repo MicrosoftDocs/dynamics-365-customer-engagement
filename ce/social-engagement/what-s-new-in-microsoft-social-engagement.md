@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 ms.custom: ""
