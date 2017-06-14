@@ -1,5 +1,5 @@
 ﻿---
-title: "View dashboards and reports for Dynamics 365 Voice of the Customer surveys | MicrosoftDocs"
+title: "View dashboards and reports for Voice of the Customer for Dynamics 365 surveys | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# View survey dashboards and reports
-The survey dashboard gives you an overall view of your survey’s progress at a glance. For more information about specific metrics, you can run the following reports:  
+# View dashboards and reports for your Voice of the Customer survey
+The [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey dashboard gives you an overall view of your survey’s progress at a glance. For more information about specific metrics, you can run the following reports:  
   
 -   Net Promoter Score  
   
@@ -27,7 +27,7 @@ The survey dashboard gives you an overall view of your survey’s progress at a 
   
 ## View a survey dashboard  
   
-1.  From the menu, go to **Voice of the Customer for Microsoft Dynamics 365 > Surveys**.  
+1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
   
 2.  Select a survey from the list.  
   
@@ -35,23 +35,23 @@ The survey dashboard gives you an overall view of your survey’s progress at a 
   
 ## Run a report  
   
-1.  From the menu, go to **Voice of the Customer for Microsoft Dynamics 365 > Surveys**.  
+1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
   
 2.  Select a survey from the list.  
   
 3.  Click **…**, click **Run Report**, and then click the report you want to run..  
   
 ## View survey responses  
- You can view Voice of the Customer for Microsoft Dynamics 365 survey responses to see an individual’s answers.  
+ You can view survey responses to see an individual’s answers.  
   
-1.  From the menu, go to **Voice of the Customer for Microsoft Dynamics 365 > Survey Responses**.  
+1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Survey Responses**.  
   
 2.  Click the survey response you want to view.  
   
 ## View survey response outcomes  
- You can view response outcomes for Voice of the Customer for Microsoft Dynamics 365 surveys.  
+ You can view response outcomes for surveys.  
   
-1.  From the menu, go to **Voice of the Customer for Microsoft Dynamics 365 > Response Outcomes**.  
+1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Response Outcomes**.  
   
 2.  Click the response outcome you want to view.  
   
