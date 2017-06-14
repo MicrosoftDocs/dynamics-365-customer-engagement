@@ -20,8 +20,11 @@ By enabling the Voice of the Customer for Microsoft Dynamics 365 feature, when y
   
  **Response Processor (Worker Role)**  
   
- Worker role is responsible for processing the raw completed surveys into valid survey responses that can be created in Dynamics 365.  
+ This worker role is responsible for processing the raw completed surveys into valid survey responses that can be created in Dynamics 365.  
   
+ **Push Processor (Worker Role)**  
+ This worker role is responsible for processing the valid survey responses and updating as Dynamics 365 entity records. 
+ 
  **Azure Key Vault** ([https://azure.microsoft.com/en-us/services/key-vault/](https://azure.microsoft.com/en-us/services/key-vault/))  
   
  All cloud services store configuration data in Azure Key Vault.  Organization, tenant data is stored in SQL Azure.  
@@ -50,4 +53,4 @@ By enabling the Voice of the Customer for Microsoft Dynamics 365 feature, when y
   
  **Azure Service Bus** ([https://azure.microsoft.com/en-us/services/service-bus/](https://azure.microsoft.com/en-us/services/service-bus/))  
   
- Messages created when a survey is displayed / submitted are stored temporarily to an organization’s (tenant’s) Azure Service Bus Queue until an asynchronous job in an organization’s Dynamics 365 pulls the responses from the queue and persists as Dynamics 365 entity records.
+ Messages created when a survey is displayed / submitted are stored temporarily to an organization’s (tenant’s) Azure Service Bus Queue until the Azure worker role pushes the survey responses into an organization’s Dynamics 365 instance and persists them as Dynamics 365 entity records.

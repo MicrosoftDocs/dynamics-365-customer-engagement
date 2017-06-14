@@ -1,5 +1,7 @@
-﻿---
-title: "Customize Dynamics 365 Voice of the Customer survey settings | MicrosoftDocs"
+
+
+---
+title: "Customize Voice of the Customer for Dynamics 365 survey settings | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +18,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Customize survey settings
-You can start using surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  
+# Customize HTML or XML for particular elements in Voice of the Customer surveys 
+You can start using [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  
   
 -   Email Face Template  
   
@@ -47,9 +49,14 @@ You can start using surveys right away, without any extra configuration. If you 
   
 2.  Choose a configuration to edit from the **Active Configurations** list or click **New** to create one.  
   
-3.  Change the values in the **Response Fetching** and **General Settings** areas as needed.  
+3.  Change the values in **General Settings** areas as needed.
+
+>[!NOTE]
+>If you're using a version of [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings>Solutions** to determine the version. 
+
+4.  Change the values in the **Response Fetching** and **General Settings** areas as needed.  
   
-4.  Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
+5.  Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
   
 #### Import survey XML  
   
