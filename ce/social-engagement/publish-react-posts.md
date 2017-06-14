@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Publish and react to posts | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 ms.custom: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Publish and react to posts
 Staying in touch with customers, prospects, and other stakeholders through social media channels is a key factor in business success. Take action on posts that you find with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Share, like, or comment on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] posts, or retweet, like, or reply to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts to stay in touch with and engage with your audience. Start a conversation by writing new posts from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
