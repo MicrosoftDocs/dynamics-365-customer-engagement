@@ -1,5 +1,5 @@
 ﻿---
-title: "Design your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
+title: "Design your Dynamics 365 Voice of the Customer survey | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,10 +16,10 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Design your Voice of the Customer survey 
-Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], designed at least one theme, and made any planning decisions, it’s time to design your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey.  
+# Design your survey 
+Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)], designed at least one theme, and made any planning decisions, it’s time to design your survey.  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
+1.  From the menu, go to **Voice of the Customer for Microsoft Dynamics 365 > Surveys**.  
   
 2.  Click **New**.  
   
