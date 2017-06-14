@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manage social profiles | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 ms.custom: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Manage social profiles
 In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profiles are the profiles on social networks that you authenticate with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
