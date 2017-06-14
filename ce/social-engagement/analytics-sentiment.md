@@ -1,19 +1,20 @@
 ---
-title: "Understand the public perception using sentiment analysis | MicrosoftDocs"
+title: "Analytics for sentiment | Microsoft Docs"
+description: "Learn how to focus your analysis on sentiments and tonality in Social Engagement."
 description: 
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: eafeef08-d2ea-470a-a538-9010b19bb7dd
 caps.latest.revision: 29
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Understand the public perception using sentiment analysis
 View and understand the sentiments in the social chat related to the posts that are found by your search topics. Using the **Sentiments** page, [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] calculates the sentiment value of social posts with natural-language processing and machine learning techniques. From the details displayed on this page, you can understand the positive, negative, or neutral sentiments and also the volume and the sources they come from.  

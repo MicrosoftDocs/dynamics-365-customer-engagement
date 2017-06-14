@@ -1,26 +1,22 @@
-﻿---
-title: "Use filters to see relevant data | MicrosoftDocs"
- 
-description:
-
+---
+title: "Use filters to see relevant data | Microsoft Docs"
+description: "Learn how to use filters to create useful data sets."
 ms.custom: ""
-
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 30c01cd4-4df3-42db-a10b-48ddb67e67c4
 caps.latest.revision: 85
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Use filters to see relevant data
-You can use filters to slice and dice your data to narrow your analysis to the most relevant view of the data. Imagine a steady stream of data where your search topics define the posts that are selected and available for analysis. Filters can narrow your view of the data to a more restricted data set. If you navigate the application by drilling down into the data, filters are applied and removed automatically.  
+You can use [filters](../social-engagement/understand-filters.md) to slice and dice your data to narrow your analysis to the most relevant view of the data. Imagine a steady stream of data where your search topics define the posts that are selected and available for analysis. Filters can narrow your view of the data to a more restricted data set. If you navigate the application by drilling down into the data, filters are applied and removed automatically.  
   
 <a name="data_set"></a>   
 ## Set a baseline for your analysis with a data set  
@@ -45,6 +41,8 @@ You can use filters to slice and dice your data to narrow your analysis to the m
 >  To keep your data set available in other applications, use the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
   
  There are many more entry points to drill down into your data. Click the data points to use the drill-down functionality. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
+
+ For the list of available filters, see [Get to know your filters](../social-engagement/understand-filters.md).
   
 <a name="conflicting_filters"></a>   
 ## Avoid conflicting filter combinations  
@@ -99,5 +97,6 @@ You can use filters to slice and dice your data to narrow your analysis to the m
  [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
  [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)   
  [Stay up to date with alerts](../social-engagement/email-alerts.md)   
- [Keep track of live data streams with Social Center](../social-engagement/social-center.md)
+ [Keep track of live data streams with Social Center](../social-engagement/social-center.md)  
+ [Get to know your filters](../social-engagement/understand-filters.md)
  

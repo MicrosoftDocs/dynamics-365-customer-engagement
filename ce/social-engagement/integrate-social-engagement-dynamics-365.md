@@ -1,19 +1,19 @@
 ---
-title: "Integrate Microsoft Social Engagement with Dynamics 365 | MicrosoftDocs"
-description:
+title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
+description: "Learn about the available integrations with Dynamics 365 and additional services."
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 caps.latest.revision: 37
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Integrate Microsoft Social Engagement with Dynamics 365
 For social [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] scenarios, you can integrate [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] with the Dynamics product family.  Integrating [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pn_marketingpilot](../includes/pn-marketingpilot.md)] helps businesses analyze social media data to spot emerging trends in people’s comments, whether they’re positive, negative, or neutral. You can drill down into the data and see exactly what people said. By consolidating the details from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pn_dynamics_marketing](../includes/pn-dynamics-marketing.md)], you can find out what you’re doing right, and address potential issues before bigger problems arise.  

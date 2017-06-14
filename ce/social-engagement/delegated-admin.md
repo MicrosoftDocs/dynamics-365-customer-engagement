@@ -1,19 +1,19 @@
 ---
-title: "Enable a partner as a delegated admin | MicrosoftDocs"
-description:
+title: "Enable delegated administration | Microsoft Docs"
+description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 74b59106-5d8d-4bbe-9759-126583cba116
 caps.latest.revision: 5
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Enable a partner as a delegated admin
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] puts powerful social tools in the hands of your sales, marketing, and service teams—helping them to gain insight into how people feel about your business and to proactively connect on social media with customers, fans, and critics.  

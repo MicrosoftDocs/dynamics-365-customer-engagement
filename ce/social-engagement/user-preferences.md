@@ -1,23 +1,19 @@
 ---
-title: "Set your preferences for the user interface | MicrosoftDocs"
- 
-description:
-
+title: "Set your preferences for the user interface | Microsoft Docs"
+description: "Learn how to configure user preferences for individual users."
 ms.custom: ""
-
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: dc6e2e29-bfbe-4a07-977f-a80d68a2e489
 caps.latest.revision: 37
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Set your preferences for the user interface
 When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], they define default values that apply to all users of the same solution. However, you can override the Administrator’s defaults to display the user interface according to your requirements. For your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] profile, you can select the following:  

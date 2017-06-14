@@ -1,18 +1,19 @@
 ---
-title: "Define activity maps to view real-time data | MicrosoftDocs"
+title: "Define activity maps in Social Engagement | Microsoft Docs"
+description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2017-06-02
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
 caps.latest.revision: 32
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Define activity maps to view real-time data
 Using Activity maps, you can view real-time posts by geographical location on an easy-to-understand map. You can further view these posts in Analytics to understand more details and associated metrics.  

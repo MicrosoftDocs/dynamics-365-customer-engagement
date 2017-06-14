@@ -1,21 +1,19 @@
-﻿---
-title: "View posts and conversations in Social Engagement | MicrosoftDocs"
- 
-description:
-
+---
+title: "View posts and conversations in Social Engagement | Microsoft Docs"
+description: "Understand how you can work with posts after acquiring them through Social Engagement."
 ms.custom: ""
-
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 864f81b7-bf35-4302-8da5-585c71cba333
 caps.latest.revision: 4
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # View posts and conversations in Social Engagement
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides two ways to access the list of posts that match a given data set. You can either work with the post list or with a stream, depending on your requirements and preferences.  
@@ -81,7 +79,7 @@ manager: "sakudes"
 ### See the conversations with an author  
  When you engage in a private conversation or reply on Twitter using a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], these posts allow you to see the full conversation.  
   
- ![Converstation view of a post with several replies and direct messages.](../social-engagement/media/conversation-view-callouts.png "Converstation view of a post with several replies and direct messages.")  
+ ![Conversation view of a post with several replies and direct messages.](../social-engagement/media/conversation-view-callouts.png "Conversation view of a post with several replies and direct messages.")  
   
 1.  Addressee of the conversation. In many cases, this is a customer requesting information or help.  
   

@@ -1,16 +1,18 @@
 ---
-title: "eBooks and videos | MicrosoftDocs"
-description:
+title: "eBooks and videos | Microsoft Docs"
+description: "Find the latest videos and eBooks for Dynamics 365."
 ms.custom: ""
-ms.date: "2016-07-15"
+ms.date: 2016-07-15
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: get-started-article
+applies_to: "Social Engagement"
 ms.assetid: 47af356d-6a65-44a2-a0d8-1f2020fc9e03
 caps.latest.revision: 4
-author: "saurabh-kudesia"
-ms.author: "sakudes"
+author: "m-hartmann"
+ms.author: sakudes
+redirect_url: https://www.microsoft.com/en-us/dynamics/crm-customer-center/ebooks-and-videos.aspx#social
 ---
 # eBooks and videos
 ### Placeholder eBooks and videos topic - Do Not Delete  

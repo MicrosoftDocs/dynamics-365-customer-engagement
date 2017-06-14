@@ -1,24 +1,21 @@
-﻿---
-title: "Manage your post quota | MicrosoftDocs"
- 
-description:
-
+---
+title: "Manage your post quota | Microsoft Docs"
+description: "Learn how you can get the most out of your Social Engagement post quota."
 ms.custom: ""
-
-ms.date: "2017-05-19"
+ms.date: 2017-06-07
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 9d9e5115-52c7-4f21-a90b-3bde6804d2fe
 caps.latest.revision: 31
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
+
 # Manage your post quota
 Keep track of the number of posts that result from your search topics towards your solution's post quota. Your solution is priced based on the number of posts you can acquire per month.  
   
@@ -69,8 +66,7 @@ Keep track of the number of posts that result from your search topics towards yo
 ## Keep the post quota healthy  
  Keeping the post quota healthy is crucial to make sure the data acquisition isn’t interrupted, and you don’t miss any relevant information.  
   
-> [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Quota Management (2:33)](http://go.microsoft.com/fwlink/p/?LinkId=544938)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nBwNFQ-xEsw?rel=0" frameborder="0" allowfullscreen></iframe>
   
 ### Impact of exceeding limits  
  All [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
