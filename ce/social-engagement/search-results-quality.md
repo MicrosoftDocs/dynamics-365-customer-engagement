@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manage the quality of your search results | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
 ms.custom: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Manage the quality of your search results
 You can perform quality management over the entire application by blocking irrelevant posts and sources.  
   
