@@ -14,6 +14,7 @@ caps.latest.revision: 19
 ms.author: "dechang"
 manager: sakudes
 ---
+
 # Group search topics into categories
 You can use categories to structure and group search topics in  ways that make the most sense to you. Although categories have no impact on the posts that result from your search topics, they help greatly to organize your searches.  
   
