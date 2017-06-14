@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Work with a data set. | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
 ms.custom: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Explore more options with your data set
 Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], data sets are often key to an accurate and detailed analysis. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set a baseline for your analysis with a data set](../social-engagement/use-filters.md#data_set)  
   
