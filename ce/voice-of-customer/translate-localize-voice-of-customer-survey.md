@@ -1,5 +1,5 @@
 ﻿---
-title: "Translate or localize your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
+title: "Translate or localize your Dynamics 365 Voice of the Customer survey | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
 ms.reviewer: ""
@@ -16,8 +16,8 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# Translate or localize your Voice of the Customer survey 
-Once you’ve created your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, you can translate it into other languages.  
+# Translate or localize your survey 
+Once you’ve created your survey, you can translate it into other languages.  
   
 1.  From the survey you want to translate, open the Translations.xml file under **Translations** in the **Summary** area.  
   
@@ -41,12 +41,12 @@ Once you’ve created your [!INCLUDE[pn-voice-of-the-customer-full](../includes/
   
     -   [http://www.web2generators.com/html/entities](http://www.web2generators.com/html/entities)  
   
-6.  When you’ve completed your translations, save the file and go back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and click the **X** next to the survey’s Translations.xml file.  
+6.  When you’ve completed your translations, save the file and go back to [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] and click the **X** next to the survey’s Translations.xml file.  
   
 7.  Click **Attach** and select your new translations file.  
   
  If you add or change a question after adding your edited translations file, you need to add the translation for that question. To get an updated version of the questions, click **Export translations** on the survey screen and repeat these steps to add your new translations.  
   
 > [!NOTE]
-> [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically detects the language at runtime, based on the respondent’s browser preferences. If there isn’t a translation for that language, the survey will use the base language strings instead.  
+> [!INCLUDE[pn_crm_shortest](includes/pn-crm-shortest-md.md)] automatically detects the language at runtime, based on the respondent’s browser preferences. If there isn’t a translation for that language, the survey will use the base language strings instead.  
   
