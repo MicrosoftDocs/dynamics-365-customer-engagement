@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manage your post quota | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 ms.custom: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Manage your post quota
 Keep track of the number of posts that result from your search topics towards your solution's post quota. Your solution is priced based on the number of posts you can acquire per month.  
   
