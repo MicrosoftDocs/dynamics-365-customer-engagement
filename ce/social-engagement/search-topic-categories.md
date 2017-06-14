@@ -1,6 +1,6 @@
 ---
 title: "Group search topics into categories | Microsoft Docs"
-description: ""Learn how to use categories to group search topics."
+description: "Learn how to use categories to group search topics."
 ms.custom: ""
 ms.date: 2017-05-19
 ms.reviewer: ""
@@ -9,9 +9,8 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
-ms.assetid: 09b50997-aa34-4c59-8eb5-949f5ea50f7a
-caps.latest.revision: 19
-ms.author: "dechang"
+ms.assetid:09b50997-aa34-4c59-8eb5-949f5ea50f7a
+ms.author: "mhart"
 manager: sakudes
 ---
 
