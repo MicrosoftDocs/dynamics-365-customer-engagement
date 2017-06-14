@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Personalize the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to configure the Social Selling Assistant to receive personalized recommendations."
 ms.custom: ""
@@ -14,6 +14,7 @@ caps.latest.revision: 11
 author: "m-hartmann"
 ms.author: mhart
 ---
+
 # Personalize the Social Selling Assistant
 When using the Social Selling Assistant for the first time, users will get recommendations for all available search topics in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. To personalize the experience, we recommend each user to select specific topics that are of interest to them. Additionally, users must add their social profiles to be able to share content recommendations on their networks.  
   
