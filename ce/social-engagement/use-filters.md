@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Use filters to see relevant data | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
 ms.custom: ""
