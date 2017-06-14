@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manage global settings | Microsoft Docs"
 description: "Learn about how to configure global settings that apply to all users of Social Engagement."
 ms.custom: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Manage global settings
 Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution, letting your users start efficiently with your organizational requirements.  
   
