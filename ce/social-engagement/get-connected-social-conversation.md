@@ -50,7 +50,7 @@ There’s a good chance that your customers and stakeholders are talking about y
     <td>
 	<ul>
 	<li>[Configure settings](manage-global-settings.md)</li>
-<li>[Set up searches](set-up-searched.md)</li>
+<li>[Set up searches](set-up-searches.md)</li>
 <li>[Manage connections](manage-connections.md)</li>
 <li>[Assign user roles](assign-user-roles.md)</li>
 	</td> 
