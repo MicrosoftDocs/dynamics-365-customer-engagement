@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
-ms.assetid:09b50997-aa34-4c59-8eb5-949f5ea50f7a
+ms.assetid: 09b50997-aa34-4c59-8eb5-949f5ea50f7a
 ms.author: "mhart"
 manager: sakudes
 ---
