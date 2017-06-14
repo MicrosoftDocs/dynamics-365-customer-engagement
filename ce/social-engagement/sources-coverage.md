@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sources coverage | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 ms.custom: ""
