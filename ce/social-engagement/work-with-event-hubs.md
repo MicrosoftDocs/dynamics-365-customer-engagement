@@ -1,23 +1,19 @@
-﻿---
-title: "Work with events from Social Engagement in Azure Event Hubs | MicrosoftDocs"
- 
-description:
-
+---
+title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
+description: "Learn how to work with events in Event Hubs."
 ms.custom: ""
-
-ms.date: "2017-05-19"
+ms.date: 2017-05-23
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 80d207d4-f2df-4a04-8e39-5d09d3f44005
 caps.latest.revision: 31
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Work with events from Social Engagement in Azure Event Hubs
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] lets you stream posts to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] and empowers you with data, so unleash your creativity! The options that [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] offer are huge. Benefit from a simple data format and highly performant cloud services to work with your data with endless possibilities. Build your own apps, connect your data with other data sources, and step into big data analysis.  
@@ -180,6 +176,6 @@ manager: "sakudes"
   
 ### See Also  
  [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
- [Documents DTO JSON reference](../social-engagement/event-hubs-json-reference-social-engagement.md)   
+ [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)   
  [Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)

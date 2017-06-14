@@ -1,19 +1,19 @@
 ---
-title: "Data retention in Social Engagement | MicrosoftDocs"
-description:
+title: "Data retention in Social Engagement | Microsoft Docs"
+description: "Find out how long data is stored when working with Social Engagement."
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: d3617d7f-29df-42e9-baff-4625ab4ee85a
 caps.latest.revision: 14
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Data retention in Social Engagement
 Get to know which user data gets stored when you work with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] and how long this data persists. Whenever data is stored in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], either as acquired posts or user settings, it’s stored in a database. While posts end up in a central data store, all other data is stored in a solution-specific database.  

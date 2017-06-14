@@ -1,19 +1,19 @@
 ---
-title: "Assign permissions and user roles | MicrosoftDocs"
-description:
+title: "Permissions and user roles in Social Engagement | Microsoft Docs"
+description: "Learn how to work with user roles and their permissions."
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 05b070fd-7b33-440d-bf6d-e527639ede8c
 caps.latest.revision: 39
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Assign permissions and user roles
 Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  

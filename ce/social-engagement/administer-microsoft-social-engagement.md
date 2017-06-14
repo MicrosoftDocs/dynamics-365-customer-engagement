@@ -1,19 +1,20 @@
 ---
-title: "Administer Microsoft Social Engagement | MicrosoftDocs"
+title: "Administer Social Engagement | Microsoft Docs"
+description: "Learn about the main ares to administer Social Engagement"
 Description: 
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 2016-11-18
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: 48e49a2f-d4f8-4fc7-b88d-890c15bfb561
 caps.latest.revision: 33
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Administer Microsoft Social Engagement
 Setting up the solution for your users is crucial for the effective usage of [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. To learn more about the main tasks for administering your solution, review the topics listed here.  
@@ -38,7 +39,7 @@ Optionally, you can extend the coverage of the data sources by adding RSS feeds 
   
 When establishing the first connection, make sure to add the target application's URL to the Allowed Domains settings page in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](../social-engagement/connect-other-domains.md)  
   
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] lets admins connect to and share social data with other applications, such as [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]**Settings** area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](../social-engagement/manage-connections.md)  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] lets admins connect to and share social data with other applications, such as [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] **Settings** area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](../social-engagement/manage-connections.md)  
   
 ## Add social profiles to engage in conversations  
 **Outcome:** Enable your team to answer and interact in the name of your organization.  

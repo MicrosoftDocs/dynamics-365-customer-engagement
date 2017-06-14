@@ -1,32 +1,28 @@
-﻿---
-title: "Refine your search rules to find relevant content | MicrosoftDocs"
- 
-description:
-
+---
+title: "Find more relevant content | Microsoft Docs"
+description: "Learn how to improve search rules to find relevant posts."
 ms.custom: ""
-
-ms.date: "2017-05-19"
+ms.date: 2017-06-07
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 8ce8506f-179d-4eae-a56a-e9293e935d26
 caps.latest.revision: 39
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
+
 # Refine your search rules to find relevant content
 Analyze your results and optimize your search queries regularly to make sure you get the most relevant data. Your searches may return posts that are irrelevant in the context you are looking for. For example, if you want to search for the [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] operating system and have “Windows” as your search keyword, you are likely to find results about house windows. In this case, consider adding “OS” or similar terms to make sure you’re searching for the operating system.  
   
 > [!TIP]
 >  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
-> [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Search Setup (3:29)](http://go.microsoft.com/fwlink/p/?LinkId=544939)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3HoeVROsJZk?rel=0" frameborder="0" allowfullscreen></iframe>
   
  Terms and sources change. New abbreviations may gain popularity, or news about your topic will be defined in a different way with different words. A recommended approach is to read carefully through new and important posts to identify emerging topics or changes in wording.  
   

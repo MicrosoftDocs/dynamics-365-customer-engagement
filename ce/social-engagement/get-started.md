@@ -1,19 +1,19 @@
 ---
-title: "Get started with Social Engagement | MicrosoftDocs"
-description:
+title: "Get started with Social Engagement | Microsoft Docs"
+description: "Learn how to ramp up quickly on Social Engagement."
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-06-07
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 caps.latest.revision: 101
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Get started with Social Engagement
 This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
@@ -55,10 +55,9 @@ This topic introduces common user-interface elements and useful tips to work eff
 <a name="navigateMain"></a>   
 ## Navigate the application’s main areas  
  Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
-  
-> [!TIP]
->  Check out the video about this content: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkId=613693) [Microsoft Social Engagement Getting Started (3:11)](http://go.microsoft.com/fwlink/p/?LinkId=613693)  
-  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/04CVnYkXefU?rel=0" frameborder="0" allowfullscreen></iframe>
+
  ![Navigation bar in Social Engagement](../social-engagement/media/navigation-bar-explained.png "Navigation bar in Social Engagement")  
   
  The navigation controls are as follows:  
@@ -173,8 +172,6 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Settings options**: Set the values on the settings pages according to your needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)  
   
-> [!TIP]
->  Check out this video about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to learn more about the main use-cases: [![Video button](../social-engagement/media/video-icon.png "Video button")](http://go.microsoft.com/fwlink/p/?LinkID=615282) [Microsoft Social Engagement Social Sales  (5:26)](http://go.microsoft.com/fwlink/p/?LinkID=615282)  
   
 ### Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  

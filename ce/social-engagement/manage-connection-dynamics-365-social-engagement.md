@@ -1,20 +1,19 @@
 ---
-title: "Manage the connection between Dynamics 365 and Social Engagement | MicrosoftDocs"
-description:
+title: "Connect Dynamics 365 and Social Engagement | Microsoft Docs"
+description: "Learn how to connect Social Engagement and Dynamics 365 to link social posts and create new cases or leads."
 ms.custom: ""
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 329b1b1d-3b8c-4d97-a67d-eeb176d835bc
 caps.latest.revision: 40
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Manage the connection between Dynamics 365 and Social Engagement
 This topic helps you understand how you change the settings for your connections between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], and the consequences of doing so.  

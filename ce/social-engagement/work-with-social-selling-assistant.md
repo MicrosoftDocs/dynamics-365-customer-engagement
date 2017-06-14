@@ -1,23 +1,19 @@
-﻿---
-title: "Work with the Social Selling Assistant | MicrosoftDocs"
- 
-description:
-
+---
+title: "Work with the Social Selling Assistant | Microsoft Docs"
+description: "Learn how to share posts and view insights from your personalized feed in Social Selling Assistant."
 ms.custom: ""
-
-ms.date: "2017-05-19"
+ms.date: 2017-05-19
 ms.reviewer: ""
-ms.service: "mse"
+ms.service: mse
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Social Engagement"
+ms.topic: article
+applies_to: "Social Engagement"
 ms.assetid: 689020c7-0790-47a1-996c-040d052a81de
 caps.latest.revision: 10
 author: "m-hartmann"
-ms.author: "mhart"
-manager: "sakudes"
+ms.author: mhart
+manager: sakudes
 ---
 # Work with the Social Selling Assistant
 After personalizing the Social Selling Assistant for your individual use-case, you can start using it to discover and share posts that are of interest for your audience  
