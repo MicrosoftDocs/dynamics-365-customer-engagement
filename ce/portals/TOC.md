@@ -59,6 +59,7 @@
 ### [Invite contacts](invite-contacts.md)
 
 ## [Customize content](customize-content-snippets.md)
+### [Add geolocation](add-geolocation.md)
 ### [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)
 ### [Store source content on custom templates](store-content-web-templates.md)
 ### [Understand Liquid operators](liquid-operators.md)

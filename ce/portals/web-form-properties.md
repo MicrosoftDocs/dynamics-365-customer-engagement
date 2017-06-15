@@ -238,6 +238,14 @@ The following properties are displayed when the Type selected equals **Purchase*
 | Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.           ||
                                                                                                                                                                                                                                                                |
 
+## Geolocation configuration for web form
+
+A managed form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location. See [Add Geolocation](add-geolocation.md).
+
+The form's map control requires additional configuration to tell it what the ids of the various location fields are in order to assign/retrieve values to/from them. The Web Form Step record has a section that defines these field mappings that you must assign value for. The field names will vary depending on the schema you have created.
+
+![Geolocation data in web form](media/geolocation-managed-form.png "Geolocation data in web form")
+
 ### See Also
 
 [Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  

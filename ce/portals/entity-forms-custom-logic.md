@@ -42,6 +42,14 @@ The various master pages used by the portal found in the [!INCLUDE[pn-dynamics-c
 
 To secure your forms, you must create entity permissions that determine access and ownership of the records in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] according to Web Roles. If a user lands on an Entity Form and does not have permissions, they will receive an error message. To Enable Permissions for an Entity Form. set **Enable Entity Permissions** to true. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md).  
 
+## Geolocation configuration for entity form
+
+A managed form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location. See [Add Geolocation](add-geolocation.md).
+
+The form's map control requires additional configuration to tell it what the ids of the various location fields are in order to assign/retrieve values to/from them. The Entity Form record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has a configuration section that defines these field mappings that you must be specified. The field names will vary depending on the schema you have created.
+
+![Geolocation data in entity form](media/geolocation-managed-form.png "Geolocation data in entity form") 
+
 ### See Also
 
 [Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
