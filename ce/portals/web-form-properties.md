@@ -235,8 +235,8 @@ The following properties are displayed when the Type selected equals **Purchase*
 | Fulfill Order on Payment                | A Boolean value. Checked indicates that the order state should be set to **Fulfilled** when the payment is verified. Requires **Target Entity Order Relationship Name.** If the target entity is **adx\_shoppingcart**, an order will be created automatically upon successful payment and Target Entity Order Relationship Name is not required. |
 | Create Invoice on Payment               | A Boolean value. Checked indicates that an invoice should be created when the payment is verified. Requires **Target Entity Invoice Relationship Name**, unless the target entity is adx\_shoppingcart, in which case this relationship is not needed.                                                                                            |
 | Target Entity Order Relationship Name   | Relationship from the web form step target entity to the order entity.                                                                                                                                                                                                                                                                            |
-| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.           ||
-                                                                                                                                                                                                                                                               |
+| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.           |
+||
 
 ## Geolocation configuration for web form
 
