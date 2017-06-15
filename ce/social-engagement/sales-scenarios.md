@@ -1,6 +1,6 @@
 ---
-title: "FRE: Sales - title to be defined | Microsoft Docs"
-description: "Review the sales scenario for inspiration how to efficiently leverage Social Engagement in your organization."
+title: "Social Engagement scenarios for salespeople | Microsoft Docs"
+description: "Review the sales scenarios for inspiration how to efficiently leverage Social Engagement in your organization."
 ms.custom: ""
 ms.date: 2017-06-07
 ms.reviewer: ""
@@ -14,7 +14,7 @@ author: "m-hartmann"
 ms.author: mhart
 ms.manager: sakudes
 ---
-# FRE: Social Selling - grow your nework and boost sales
+# FRE: Social Selling - grow your network and boost sales
 
 Buying decisions are often influenced by information found on the Internet and increasingly on social media. Salespeople can sell more by leveraging social media. To do this, they must be thought leaders and increase their social presence by participating in discussions around their products or services.
 
@@ -74,6 +74,13 @@ to be added
 ## Social Insights
 to be added
 
+## Customer stories
+
+- [The Liebherr Group harnesses social media to stay ahead with Microsoft Dynamics CRM and Social Engagement](https://customers.microsoft.com/en-us/story/the-liebherr-group-harnesses-social-media-to-stay-ahea)
+
+- [Real Madrid brings the stadium closer to 450 million fans around the globe, with the Microsoft Cloud](https://customers.microsoft.com/en-us/story/real-madrid-brings-the-stadium-closer-to-450-million-f)
+
+[Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
 ### See Also  
  [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
