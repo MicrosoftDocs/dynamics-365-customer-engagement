@@ -50,6 +50,9 @@ The form's map control requires additional configuration to tell it what the ids
 
 ![Geolocation data in entity form](media/geolocation-managed-form.png "Geolocation data in entity form") 
 
+> [!Note]
+> The address field in a read-only entity form is replaced with the map when Geolocation is enabled.
+
 ### See Also
 
 [Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
