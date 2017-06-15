@@ -38,7 +38,9 @@
         "portals/**.*": "bc/toc.yml"
       },
       "searchScope":{
-        "voice-of-customer/**.*":["Voice of the Customer"]
+        "voice-of-customer/**.*":["Voice of the Customer"],
+        "gamification/**.*":["Gamification"],
+        "social-engagement/**.*":["Social Engagement"]
       }
     },
     "template": [],
