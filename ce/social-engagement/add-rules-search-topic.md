@@ -292,6 +292,9 @@ Create rules to gather posts from custom sources, You can also create keyword ru
 [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
 [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
+
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+
   
 ### See Also  
 [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
