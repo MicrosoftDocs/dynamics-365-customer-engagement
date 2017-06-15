@@ -40,7 +40,8 @@
       "searchScope":{
         "voice-of-customer/**.*":["Voice of the Customer"],
         "gamification/**.*":["Gamification"],
-        "social-engagement/**.*":["Social Engagement"]
+        "social-engagement/**.*":["Social Engagement"],
+        "portals/**.*":["Portals"]
       }
     },
     "template": [],
