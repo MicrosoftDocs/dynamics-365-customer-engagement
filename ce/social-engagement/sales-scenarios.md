@@ -28,7 +28,7 @@ This learning path provides a step by step description how you and your team can
 
   - Interaction role: **Responder**
 
-  - Configuration role: **Power Analyst**
+  - Configuration role: **Analyst**
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)
   
