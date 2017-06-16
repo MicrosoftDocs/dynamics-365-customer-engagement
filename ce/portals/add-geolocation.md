@@ -27,8 +27,8 @@ In order to add geolocation functionality to a managed form, the following tasks
 
 ### Form customization
 Edit the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity form using the form designer and make the following modifications:
-1. Create a new section labeled "Map".
-2. Set the name of the section to "section_map". This name is important as the form engine looks for a section with name to determine when to render a map. 
+1. Create a new section and provide an appropriate label, for example, Map. This section will contain map.
+2. Set the name of the section to "section_map" or a name that ends with "section_map", for example, contoso_section_map. This name is important as the form engine looks for a section with name to determine when to render a map. 
 3. Add a new or existing field that will store the formatted address and add it to the map section created in the previous step.
 4. Create a new section labeled "Location".
 5. Add new or existing fields for the following: 
