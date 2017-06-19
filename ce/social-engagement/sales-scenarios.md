@@ -2,7 +2,7 @@
 title: "Social Engagement scenarios for salespeople | Microsoft Docs"
 description: "Review the sales scenarios for inspiration how to efficiently leverage Social Engagement in your organization."
 ms.custom: ""
-ms.date: 2017-06-07
+ms.date: 2017-07-10
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -60,7 +60,7 @@ Learn how to install, configure and personalize the Social Selling Assistant to 
   
 3.  Set up record details for leads: [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)
   
-4.  Create a lead from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]: [Convert a social engagement post to a social activity](../social-engagement/create-dynamics-365-record-from-social-post.md#ConvertPost)
+4.  Create a lead from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]: [Convert a social engagement post to a social activity](../social-engagement/create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity)
 
 ## Sales automation use case: leverage intelligence to automatically find leads
 
