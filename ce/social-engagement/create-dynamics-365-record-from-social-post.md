@@ -82,7 +82,7 @@ To learn more about how to set up channel properties in [!INCLUDE[pn_crm_shortes
   
 The JSON payload of this feature is described in the following table.  
   
-|Property|Property in `ActivityAdditionalParams`|Description|Source restrictions|  
+|Property|Property in ActivityAdditionalParams|Description|Source restrictions|  
 |--------------------------------------------|------------------|-----------------|-------------------------|
 |`PostMessageType`|N/A|Type of post <br /><br />0: Public post<br /><br /> 1: Private post|N/A|
 |`Community`|N/A|Type of community <br /><br />1: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]<br /><br /> 2: [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]<br /><br /> 0: Other|N/A|
