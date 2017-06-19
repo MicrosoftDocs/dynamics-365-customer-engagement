@@ -35,7 +35,7 @@ The following table shows the rules that you can create.
 > [!TIP]
 >  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3HoeVROsJZk?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/3HoeVROsJZk]
   
 ## Add a rule to a search topic  
 To enable searches and collect posts, add one or more rules to a search topic.  
