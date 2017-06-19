@@ -113,18 +113,27 @@ The JSON payload of this feature is described in the following table.
 A typical `ActivitiyAdditionalParameters` JSON sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is given here.  
   
 ```  
-{  
-  "targetEntityName": "socialactivity",  
-  "userPreferredTargetEntity": "incident",  
-  "socialHandle": "Contoso",  
-  "profileName": "Contoso",  
-  "profilelink": "http://www.twitter.com/Contoso",  
-  "fullName": "Contoso",  
-  "community": 2,  
-  "influencescore": 41.0,  
-  "notes": "The customer requested a technician to call back as quickly as possible.",  
-  "isRetweet": false,  
-  "MSEbacklinkPost": "https:// listening-prod.dynamics.com /app/23534544 /#postid=45663"  
+{
+  "PostMessageType": 0,
+  "Community": 0,
+  "SentimentValue": 1,
+  "PostUrl": "https://blog.contoso.org/mhart-now-contoso-ceo.html",
+  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+  "Subject": "New CEO of Contoso Ltd. named in January 2017",
+  "PostedOn": "2016-12-30T08:15:30-05:00",
+  "ActivityAdditionalParams": {  
+    "targetEntityName": "socialactivity",  
+    "userPreferredTargetEntity": "incident",  
+    "socialHandle": "Contoso",  
+    "profileName": "Contoso",  
+    "profilelink": "http://www.twitter.com/Contoso",  
+    "fullName": "Contoso",  
+    "community": 2,  
+    "influencescore": 41.0,  
+    "notes": "The customer requested a technician to call back as quickly as possible.",  
+    "isRetweet": false,  
+    "MSEbacklinkPost": "https://listening-prod.dynamics.com/app/23534544/#postid=45663"  
+  }
 }  
 ```  
 
