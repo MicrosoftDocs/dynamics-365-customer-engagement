@@ -20,7 +20,7 @@ Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.m
 
 - Local (username/password) user sign-in
 - External (social provider) user sign-in through third party identity providers
-- Two-factor authentication with email or SMS
+- Two-factor authentication with email
 - Email address confirmation
 - Password recovery
 - Invitation code sign-up for registering pre-generated contact records
@@ -120,8 +120,6 @@ Authenticated users manage their user accounts through the Security navigation b
 
 - `Authentication/Registration/TwoFactorEnabled`
 
-- `Authentication/Registration/MobilePhoneEnabled`
-
 ## Set or change a password
 
 A user with an existing local account can apply a new password by providing the original password. A user without a local account can choose a username and password to set up a new local account. The username cannot be changed after it is set.
@@ -148,29 +146,6 @@ Changing an email address (or setting it for the first time) puts it into an unc
 1. Customize the confirmation email
 2.  Click the confirmation link to complete
 
-## Change or confirm mobile phone
-
-Changing the mobile phone value occurs slightly differently from changing the email. The new value is held in a temporary storage without changing the original value. An SMS message containing a security code is sent to the new mobile phone number. Only after the security code is submitted back to the portal (and verified) is the old mobile number replaced with the new value.
-
-**Related Processes:**
-
-`Authentication/Registration/MobilePhoneEnabled`
-
-**Related Processes:**
-
-### Send Sms Confirmation To Contact
-
->[!Note] 
-> The workflow for this process contains a temporary step that sends the security code by email. This is a placeholder step that needs to be replaced by a new step capable of sending SMS messages.
-
-1. Submit new mobile phone (unconfirmed)
-2. Wait for SMS with security code
-
-### Send Sms Confirmation To Contact
-
-1. Replace this email step with SMS step.
-2. After submitting a valid security code
-
 ## Enable two-factor authentication
 
 The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email or mobile phone in addition to the standard local/external account sign-in. A user trying to sign into an account with two-factor authentication enabled is sent a security code to the confirmed email or mobile phone associated to their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passes the verification such that the security code is not required for subsequent sign-ins from the same browser.
@@ -184,18 +159,13 @@ Each user account enables this feature individually and requires either a confir
 
 **Related Processes:**
 
-### Send Email Two Factor Code To Contact
+- Send Email Two Factor Code To Contact
 
-1. Send SMS two-factor code To Contact
-2. Enable two-factor authentication
-3. Choose to receive security code by email or SMS
-4.  Wait for email/SMS with security code
-
-Process: Send Email Two Factor Code To Contact
-
-Process: Send Sms Two Factor Code To Contact
-
-5.  Two-factor authentication can be disabled
+1. Enable two-factor authentication.
+2. Choose to receive security code by email.
+3. Wait for email with security code.
+4. Process: Send Email Two Factor Code To Contact.
+5. Two-factor authentication can be disabled.
 
 ## Manage external accounts
 
@@ -226,17 +196,12 @@ The following describes the settings for enabling/disabling various authenticati
 | Authentication/Registration/ExternalLoginEnabled                | Enables or disables external account sign-in and registration. Default: true                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Authentication/Registration/RememberMeEnabled                   | Enables or disables a "Remember Me?" checkbox on local sign-in to allow authenticated sessions to persist even when the web browser is closed. Default: true                                                                                                                                                                                                                                                                                                                                                                                             |
 | Authentication/Registration/TwoFactorEnabled                    | Enables or disables the option for users to enable two-factor authentication. Users with a confirmed email address or confirmed mobile number can opt into the added security of two-factor authentication. Default: false                                                                                                                                                                                                                                                                                                                               |
-| Authentication/Registration/MobilePhoneEnabled                  | Enables or disables the option to add and confirm a mobile phone number. When enabled, it is also necessary to update the Send Sms Confirmation To Contact process in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] such that the workflow is able to send out SMS messages. Default: false                                                                                                                                                                                                                                                                                               |
-| Authentication/Registration/RememberBrowserEnabled              | Enables or disables a "Remember Browser?" checkbox on second-factor validation (email/SMS code) to persist the second-factor validation for the current browser. The user will not be required to pass the second-factor validation for subsequent sign-ins as long as the same browser is being used. Default: true                                                                                                                                                                                                                                     |
+| Authentication/Registration/RememberBrowserEnabled              | Enables or disables a "Remember Browser?" checkbox on second-factor validation (email code) to persist the second-factor validation for the current browser. The user will not be required to pass the second-factor validation for subsequent sign-ins as long as the same browser is being used. Default: true                                                                                                                                                                                                                                     |
 | Authentication/Registration/ResetPasswordEnabled                | Enables or disables the password reset feature. Default: true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Authentication/Registration/ResetPasswordRequiresConfirmedEmail | Enables or disables password reset for confirmed email addresses only. If enabled, unconfirmed email addresses cannot be used to send password reset instructions. Default: false                                                                                                                                                                                                                                                                                                                                                                        |
 | Authentication/Registration/TriggerLockoutOnFailedPassword      | Enables or disables recording of failed password attempts. If disabled, user accounts will not be locked out. Default: true                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Authentication/Registration/IsDemoMode                          | Enables or disables a demo mode flag to be used in development or demonstration environments only. Do not enable this setting on production environments. Demo mode also requires the web browser to be running locally to the web application server. When demo mode is enabled, the password reset code and 2nd-factor code are displayed to the user for quick access. Default: false                                                                                                                                                                 |
-| Authentication/Registration/LoginButtonAuthenticationType       | If a portal only requires a single external identity provider (to handle all authentication), this allows the Sign-In button of the header nav bar to link directly to the login page of that external identity provider (instead linking to the intermediate local login form and identity provider selection page). Only a single identity provider can be selected for this action. Specify the [AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx) value of the provider.   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-  For OAuth2 based providers the accepted values are: Facebook, Google, Yahoo, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)], LinkedIn, Yammer, or Twitter                                                                                                                                                                                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-  For WS-Federation based providers use the value specified for the Authentication/WsFederation/ADFS/AuthenticationType and Authentication/WsFederation/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]/\[provider\]/AuthenticationType site settings. Examples: http://adfs.contoso.com/adfs/services/trust, Facebook-0123456789, Google, Yahoo!, uri:[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]LiveID.                                                                                                                                                                                                                                 |
+| Authentication/Registration/LoginButtonAuthenticationType       | If a portal only requires a single external identity provider (to handle all authentication), this allows the Sign-In button of the header nav bar to link directly to the login page of that external identity provider (instead linking to the intermediate local login form and identity provider selection page). Only a single identity provider can be selected for this action. Specify the [AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx) value of the provider.<br>For OAuth2 based providers the accepted values are: `Facebook, Google, Yahoo, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)], LinkedIn, Yammer,` or `Twitter`<br>For WS-Federation based providers use the value specified for the `Authentication/WsFederation/ADFS/AuthenticationType` and `Authentication/WsFederation/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]/\[provider\]/AuthenticationType` site settings. Examples: http://adfs.contoso.com/adfs/services/trust, Facebook-0123456789, Google, Yahoo!, uri:[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]LiveID.                                         |
   ||
 
 ## Enable/disable user registration
