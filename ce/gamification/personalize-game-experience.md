@@ -44,15 +44,15 @@ A commissioner can define which language the [!INCLUDE[pn_gamification_shortest]
 
 ### Change the default language
 
-1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").
+1. In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").
 
-2.  Click the **Gamification Settings** tab.
+2. Click the **Gamification Settings** tab.
 
 3. In the **Default Language** drop-down menu, select the language you want to set as default for other users.
 
 4. To apply your changes, click **Save**.
 
-## Configure the contact menu  
+## Configure the contact menu
 
 Define how players and fans can get in touch with the commissioner. Participants can click the **Help** > **Contact Commissioner** control when they are signed in to [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Ask game-specific questions or report issues to the commissioner](contact-commissioner.md)  
 
@@ -64,7 +64,7 @@ Define how players and fans can get in touch with the commissioner. Participants
 
 3.  In the **Contact Menu** line, enter an email address or a URL for a help page.  
 
-4.  To apply your changes, click **Save** .  
+4.  To apply your changes, click **Save**.
 
 ## Customize player stats
 
@@ -90,6 +90,23 @@ Choose whether you want to show or hide the **Actuals** tab in the **Player Stat
 
 > [!NOTE]
 >  Regardless of this setting, games appear on a player's **Teams** page and on their **Player Profile** page.  
+
+## Enable early access to new features
+
+You can opt in for early access to newly developed features to evaluate them for your business scenario.
+
+> [!NOTE]
+> Features in preview may not behave as expected and may not be translated into your language yet.
+
+### Opt it for early access
+
+1. In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").
+
+2. Click the **Gamification Settings** tab.
+
+3. Set **Enable early access to new features** to **ON**.
+
+4. To apply your changes, click **Save**.
 
 ### Show or hide completed games  
 
