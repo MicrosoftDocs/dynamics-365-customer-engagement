@@ -1,12 +1,8 @@
 ---
 title: "Stay up to date with alerts | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: f2b7a251-39bf-4bb9-b963-0a98020e7f23
@@ -23,8 +19,8 @@ Create email notifications that are automatically sent to a group of recipients 
 - **Trend alert:** You’ll receive an email notification within few hours if the volume of posts for any sources exceeds the statistical expectation. A trend alert notifies you only if there are significant changes in post volumes that match the filters that you defined for an alert.  
 
 The configuration of alerts that you create is visible only to you. Other recipients of the alert that you add to the alert configuration won’t be able to see or edit your alert configuration.  
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lQKzwulgnmM?rel=0" frameborder="0" allowfullscreen></iframe>
+  
+> [!VIDEO https://www.youtube.com/embed/lQKzwulgnmM]
 
 <a name="create_edit_delete_alert"></a>   
 ## View, create, change, or delete an alert  
@@ -38,8 +34,6 @@ To review the alerts that you created, go to **Message Center**.  The informatio
 |Alert name|Name you provided while setting up the alert.|  
 |Alert type|Type of alert you set up.|  
 |Delete button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button")|Delete an existing alert from the list if you no longer need it.|  
-  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lQKzwulgnmM?rel=0" frameborder="0" allowfullscreen></iframe>
   
 ### Create an alert  
 A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")  
