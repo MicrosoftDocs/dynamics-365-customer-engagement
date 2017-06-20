@@ -38,6 +38,20 @@ Change the company logo in [!INCLUDE[pn_gamification_shortest](includes/pn-gamif
 
 The company logo is updated when you access games in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)].  
 
+## Define the default language
+
+A commissioner can define which language the [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] user interface is shown by default. Individual users can [update it to a preferred language](set-up-profile.md#change-the-language) in their profile settings.
+
+### Change the default language
+
+1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").
+
+2.  Click the **Gamification Settings** tab.
+
+3. In the **Default Language** drop-down menu, select the language you want to set as default for other users.
+
+4. To apply your changes, click **Save**.
+
 ## Configure the contact menu  
 
 Define how players and fans can get in touch with the commissioner. Participants can click the **Help** > **Contact Commissioner** control when they are signed in to [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Ask game-specific questions or report issues to the commissioner](contact-commissioner.md)  
