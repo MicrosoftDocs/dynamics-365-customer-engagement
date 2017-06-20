@@ -4,10 +4,9 @@ description: "Learn about Social Engagement and get started using the service."
 ms.custom: ""
 ms.date: 2017-06-13
 applies_to: "Social Engagement"
-ms.service: "mse"
+ms.service: mse
 ms.topic: article
 ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
-caps.latest.revision: 7
 author: "m-hartmann"
 ms.author: mhart
 ms.manager: sakudes
