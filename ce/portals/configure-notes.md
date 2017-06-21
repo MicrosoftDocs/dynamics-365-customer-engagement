@@ -15,8 +15,6 @@ manager: sakudes
 ---
 # Notes configuration for web forms for portals
 
-Web Form Notes are configured in an identical fashion to Entity Form Notes. First, Create a Metadata record for the Web Form Step that has notes, and add configuration metadata. This process is described here.
-
 Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form through the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you’re done. You can configure the behavior of the notes control by using metadata.
 
 > [!Note]                                                           
@@ -24,7 +22,7 @@ Just like with Subgrids, adding notes to your Managed forms on the portal is eas
 
 To Edit or Add notes, among other things, you must configure the control using a metadata record.
 
-To add Metadata to an Entity form, navigate to **Entity Form Metadata** either using the top drop-down or the subgrid right on the main form of the Entity Form record that you are working with. Then click to add a new record.
+To add Metadata to a web form, navigate to **Web Form Metadata** either using the top drop-down or the subgrid right on the main form of the Web Form record that you are working with. Then click to add a new record.
 
 When Creating your record, select Type of Notes. You will then be able to add Note configuration:
 
@@ -45,6 +43,10 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 | Edit Dialog Options   | Contains settings for configuring the dialog when **EditEnabled** is true. See Edit Dialog Options for more details.                                         |
 | Delete Enabled        | Enables the ability to delete Notes from the entity.                                                                                                         |
 | Delete Dialog Options | Contains settings for configuring the dialog when **DeleteEnabled** is true. See Delete Dialog Options for more details.                                     |
+|File Attachment Location | Select the location of the file attachment:<ul><li>Note Attachment</li><li>Azure Blob Storage</li></ul>|
+|Accept MIME Types(s) | Allows you to specify a list of accepted MIME types. |
+|Restrict MIME Types | Select whether to allow or restrict MIME types.|
+|Maximum File Size (in KB) |Allows you to specify the maximum size of a file that can be attached. |
 | **Advanced Settings** |                                                                                                                                                              |
 | List Title            | Overrides the title over the Notes area.                                                                                                                     |
 | Add Note Button Label | Overrides the label in the Add Notes button.                                                                                                                 |
