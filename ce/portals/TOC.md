@@ -42,6 +42,7 @@
 ### [Gather feedback using poll](gather-feedback-poll.md)
 ### [Rate webpage or blog article](rate-webpage-blog-post.md)
 ### [Add a redirect URL](add-redirect-url.md)
+### [Clear server-side cache](clear-server-side-cache.md)
 ### [Walkthrough: Get data on the Portal](walkthrough-get-data-on-portal.md)
 ### [Integrate Project Service Automation](integrate-project-service-automation.md)
 ### [Integrate Field Service](integrate-field-service.md)
