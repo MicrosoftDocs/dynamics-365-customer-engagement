@@ -98,13 +98,13 @@ The table below summarizes the features associated with each portal option:
 | Project Service Automation Integration |                              | •              |                              |                  |               |
 | Field Service Integration              |                              | •              |                              |                  |               |
 | Partner Onboarding                     |                              | •              |                              |                  |               |
-| Portal Base                            |                              |                |                              |                  | •             |
-| Portal Workflows                       |                              |                |                              |                  | •             |
-| Web Notifications                      |                              |                |                              |                  | •             |
-| [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity                     |                              |                |                              |                  | •             |
-| Identity Workflows                     |                              |                |                              |                  | •             |
-| Web Forms                              |                              |                |                              |                  | •             |
-| Feedback                               |                              |                |                              |                  | •             |
+| Portal Base                            |  •                           | •              |  •                           | •                | •             |
+| Portal Workflows                       |  •                           | •              |  •                           | •                | •             |
+| Web Notifications                      |  •                           | •              |  •                           | •                | •             |
+| [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity                     |     •                         |  •              |     •                         |   •               | •             |
+| Identity Workflows                     | •                            |  •             |     •                         |   •               | •             |
+| Web Forms                              |  •                            | •               |    •                          | •                 | •             |
+| Feedback                               |   •                           |  •              |  •                            | •                 | •             |
 ||
 10. In the **Select portal to be deployed** section, choose what type of portal you want to create. The options you see are based on the audience you selected.
 
