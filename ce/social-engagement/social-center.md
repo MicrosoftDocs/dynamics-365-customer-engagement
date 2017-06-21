@@ -69,7 +69,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 4.  Under **Sharing**, click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
   
-5.  In the Share dialog, choose **User** or **Group** in the **Type**drop-down list.  
+5.  In the Share dialog, choose **User** or **Group** in the **Type** drop-down list.  
   
      For more information about groups, see                 [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md).  
   
