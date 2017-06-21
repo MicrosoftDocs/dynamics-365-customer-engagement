@@ -27,6 +27,8 @@
 ### [Authenticate Facebook App](authenticate-facebook-app.md)
 ### [Control webpage access](webpage-access-control.md)
 ### [Assign entity permissions](assign-entity-permissions.md)
+### [Enable Azure storage](enable-azure-storage.md)
+### [Add web resource](add-web-resource.md)
 ### [Define entity forms and custom logic](entity-forms-custom-logic.md)
 ### [Define web form properties](web-form-properties.md)
 ### [Define web form steps](web-form-steps.md)
