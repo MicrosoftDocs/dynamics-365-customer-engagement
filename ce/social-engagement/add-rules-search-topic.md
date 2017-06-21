@@ -1,36 +1,32 @@
 ---
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
-description: "Learn how to add more rules to a search topic to gather additional data."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+description: "Learn which types of search rules Social Engagement supports and how to add more rules to a search topic to gather additional data."
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
-caps.latest.revision: 86
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
 # Add rules to a search topic
-Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.  
-  
-> [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
-  
-The following table shows the rules that you can create.  
-  
-|If you want to|Create a|  
-|--------------------|--------------|  
-|Gather posts based on a query of keywords, inclusions, and exclusions.|**Keywords rule** ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol")|  
-|Gather all public posts and comments from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.|**Facebook pages rule** ![Facebook symbol](../social-engagement/media/facebook-source-icon.png "Facebook symbol")|  
-|Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.|**Twitter rule** ![Twitter symbol](../social-engagement/media/twitter-icon.png "Twitter symbol")|  
-|Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], and allows private messages acquisition.|**Private messages rule** ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol")|  
-|Gather posts from public RSS feeds in your custom source groups.|**Custom sources rule** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol")|  
-|Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts|**Instagram rule** ![Instagram symbol](../social-engagement/media/instagram-icon.png "Instagram symbol")|  
+Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.
+
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports the following search rules. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]
+
+- **[Keywords rule](#add-a-keywords-rule)** ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query of keywords, inclusions, and exclusions.
+
+- **[Facebook pages rule](#add-a-facebook-pages-rule)** ![Facebook symbol](../social-engagement/media/facebook-source-icon.png "Facebook symbol"): Gather all public posts and comments from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.
+
+- **[Twitter rule](#add-a-twitter-rule)** ![Twitter symbol](../social-engagement/media/twitter-icon.png "Twitter symbol"): Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.
+
+- **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](../social-engagement/media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts
+
+- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], and [allows private messages acquisition](../manage-access-tokens#tokens-for-data-acquisition).
+
+- **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
+
   
 > [!TIP]
 >  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
