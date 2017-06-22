@@ -18,21 +18,19 @@ This learning path provides a step by step description how you and your team can
 
 ## Prerequisites
 
-- You need to have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.  
+- You need to have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
 
-- You need the right permissions in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+- You need at the following [user roles and permissions](../social-engagement/user-roles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
   - Interaction role: **Responder**
 
   - Configuration role: **Analyst**
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)
-  
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is set up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)  
-  
--   Data acquisition is up and running. To set up searches, review this learning path: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
+- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
 
-## Social selling use case: grow your network and influence using Social Selling Assistant
+- [Search topics are configured](../social-engagement/set-up-searches.md) and data acquisition is up and running.
+
+## Social selling: grow your network and influence
 
 Learn how to install, configure and personalize the Social Selling Assistant to increase your presence on social media.
 
@@ -46,7 +44,7 @@ Learn how to install, configure and personalize the Social Selling Assistant to 
 
 4. Grow your network using the Social Selling Assistant. [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md)
 
-## Sales efficiency use case: create sales leads in Dynamics 365 from social posts
+## Sales efficiency: create leads in Dynamics 365 from social posts
 
  Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]  
   
@@ -58,17 +56,17 @@ Learn how to install, configure and personalize the Social Selling Assistant to 
   
 4.  Create a lead from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]: [Convert a social engagement post to a social activity](../social-engagement/create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity)
 
-## Sales automation use case: leverage intelligence to automatically find leads
+## Sales automation: leverage intelligence to automatically find leads
 
 Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you. Learn how automated intention analysis can help triage incoming posts: [How intention analysis works](../social-engagement/tags.md#intention_analysis)
 
 You can create new leads from purchase intentions automatically using automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)
 
-## Social trend scout use case: set up trend alerts learn about significant changes
+## Social trend scout: set up trend alerts learn about significant changes
 
 to be added 
 
-## Social analytics use case: add widgets with social insights to entity forms in Dynamics 365
+## Social analytics: add widgets with social insights to entity forms in Dynamics 365
 
 to be added
 

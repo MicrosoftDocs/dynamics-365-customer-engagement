@@ -91,6 +91,12 @@ Collaborate with your team and make sure they address the right customer issue w
 > [!NOTE]
 > [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] leverages Office 365 Groups to enable the collaboration with groups of people. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md)
 
+## Customer stories
+
+[//]: # (Michael to add more customer stories.)
+
+[Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
+
 ### See Also
 
 [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
