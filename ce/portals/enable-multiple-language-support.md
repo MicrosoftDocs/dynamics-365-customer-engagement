@@ -16,7 +16,7 @@ manager: sakudes
 # Enable multiple-language portal support
 Business is not confined to a single language. One portal’s surface content can now exist in multiple languages to reach customers around the world while keeping a single content hierarchy. To enable multiple languages for a portal, follow these steps after signing in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
-1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/en-us/library/dn832148.aspx)  
+1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/library/dn832148.aspx)  
 2.  Go to **Portals** &gt; **Website** &gt; **Websites**.
 3.  Select the website to add language support to.
 4.  Find the **Supported Languages** section under the **General** tab, and click the **+** button.

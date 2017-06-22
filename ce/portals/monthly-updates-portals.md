@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # What’s new in Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] CRM
-Welcome to Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] CRM. Here's a list of features we added recently. To know more about the updates that have been made to portal capabilities for Microsoft Dynamics 365 to date, along with other information pertinent to those updates, see [Portal Capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/en-us/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
+Welcome to Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] CRM. Here's a list of features we added recently. To know more about the updates that have been made to portal capabilities for Microsoft Dynamics 365 to date, along with other information pertinent to those updates, see [Portal Capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
 
 ## December 2016 updates
 The December 2016 update has brought many new features to the portal capabilities of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These updates allow for better interactions among companies, partners, and customers and make the experience of navigating the portal faster and easier. Some of the major updates include:

@@ -17,7 +17,7 @@ manager: sakudes
 # Enable Azure storage
 Azure Storage integration for Portals enables you to take advantage of the greater file storage capability of Microsoft Azure, using the same interface and providing the same experience for your users as in the default file attachments. This feature is supported for Web Files, Entity Forms, and Web Forms.
 
-For instructions on creating an Azure Storage account, see azure.microsoft.com/en-us/services/storage/.
+For instructions on creating an Azure Storage account, see https://azure.microsoft.com/services/storage/.
 
 Once the Storage Account is running, Portals requires certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new Setting named `FileStorage/CloudStorageAccount`.
 

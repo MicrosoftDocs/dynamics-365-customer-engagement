@@ -51,7 +51,7 @@ If you want to customize any of the portal forms, dashboards, or reports, you ca
 -   [TechNet: Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
 -   [TechNet: Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
 -   [TechNet: Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
--   [TechNet: Create and edit processes](https://technet.microsoft.com/en-us/library/dn531144.aspx)  
+-   [TechNet: Create and edit processes](https://technet.microsoft.com/library/dn531144.aspx)  
 -   [TechNet: Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
 
 
