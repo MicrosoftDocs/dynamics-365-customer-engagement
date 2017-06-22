@@ -1,5 +1,5 @@
 ---
-title: "Configure a web form properties for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 05/22/2017

@@ -1,5 +1,5 @@
 ---
-title: "Manage web links in Dynamics 365 or on portal in Dynamics 365 | MicrosoftDocs"
+title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 05/22/2017

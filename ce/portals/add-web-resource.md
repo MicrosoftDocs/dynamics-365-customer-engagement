@@ -16,7 +16,7 @@ manager: sakudes
 
 # Add a web resource
 
-Attachments uploaded to Azure Storage instead of directly to Dynamics 365 can be managed using an interface like the stock [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Notes interface.
+Attachments uploaded to Azure Storage instead of directly to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can be managed using an interface like the stock [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Notes interface.
 
 To enable this interface, a Web Resource must be added to the form on which you wish to use it, and [Azure Storage must be configured for your organization](enable-azure-storage.md).
 
@@ -27,7 +27,7 @@ When a file (for example, "attachments.zip") is uploaded to Azure Storage throug
 
 ![Attachement on a form](media/notes-attachment-lead-form.png "Primary connection string value")
 
-Note that the attachment file is now named "attachment.zip.txt". By default, Dynamics 365 has no conception of an Azure file, so this placeholder text file is stored in its place in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The contexts of the placeholder file show details of the file that is stored in Azure:
+Note that the attachment file is now named "attachment.zip.txt". By default, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has no conception of an Azure file, so this placeholder text file is stored in its place in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The contexts of the placeholder file show details of the file that is stored in Azure:
 ```
 {
  "Name": "attachment.zip",
