@@ -43,7 +43,7 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 | Edit Dialog Options   | Contains settings for configuring the dialog when **EditEnabled** is true. See Edit Dialog Options for more details.                                         |
 | Delete Enabled        | Enables the ability to delete Notes from the entity.                                                                                                         |
 | Delete Dialog Options | Contains settings for configuring the dialog when **DeleteEnabled** is true. See Delete Dialog Options for more details.                                     |
-|File Attachment Location | Select the location of the file attachment:<ul><li>Note Attachment</li><li>Azure Blob Storage</li></ul>|
+|File Attachment Location | Select the location of the file attachment:<ul><li>Note Attachment</li><li>[!include[Azure](../includes/pn-azure-shortest.md)] Blob Storage</li></ul>|
 |Accept MIME Types(s) | Allows you to specify a list of accepted MIME types. |
 |Restrict MIME Types | Select whether to allow or restrict MIME types.|
 |Maximum File Size (in KB) |Allows you to specify the maximum size of a file that can be attached. |
