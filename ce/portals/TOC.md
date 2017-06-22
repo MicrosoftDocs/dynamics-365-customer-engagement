@@ -35,7 +35,7 @@
 ### [Define entity forms and custom logic](entity-forms-custom-logic.md)
 ### [Define web form properties](web-form-properties.md)
 ### [Define web form steps](web-form-steps.md)
-#### [Define a load form and a load tab step type](load-form-step.md)
+#### [Define a load form and load tab step type](load-form-step.md)
 #### [Add a redirect step type](add-redirect-step.md)
 #### [Add a conditional step type](add-conditional-step.md)
 #### [Add custom JavaScript](add-custom-javascript.md)
