@@ -133,9 +133,9 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 | Authentication/OpenAuth/\[provider\]/SignInAsAuthenticationType | The name of another authentication middleware which will be responsible for actually issuing a**userClaimsIdentity**. [MSDN: microsoftaccountauthenticationoptions.signinasauthenticationtype](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.signinasauthenticationtype.aspx). |  
 | Authentication/OpenAuth/\[provider\]/AuthenticationMode         | The OWIN authentication middleware mode. [MSDN: security.authenticationoptions.authenticationmode](https://msdn.microsoft.com//library/microsoft.owin.security.authenticationoptions.authenticationmode.aspx).                                                                                                                                       |  
 
-### See Also
+### See also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

@@ -66,10 +66,10 @@ After your portal is created and provisioned, you can change the details of your
 
 ![Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance](media/change-dynamics-365-instance.png "Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance")  
 
-### See Also
+### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md) 
+[Configure a Dynamics 365 portal](configure-portal.md) 
 [Control webpage access for portals](webpage-access-control.md)  
 [Configure web roles for a PRM portal](configure-web-roles-partner-portal.md) 
 [Add record-based security by using entity permissions for portals](assign-entity-permissions.md) 

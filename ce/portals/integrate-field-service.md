@@ -123,6 +123,6 @@ The range of accepted values for each metric’s site setting is as follows.
 | Touch rate            | distribution/weights/touchrate      | Positive, 0 to 5     |
 | Average time to close | distribution/weights/avgtimetoclose | Negative, 0 to -0.5  |
 
-### See Also
+### See also
 [Create a partner account on PRM portal](#create-a-partner-account-on-a-partner-relationship-management-prm-portal)  
 

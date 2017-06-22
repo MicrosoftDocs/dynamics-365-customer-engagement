@@ -57,9 +57,9 @@ The form's map control requires additional configuration to tell it what the ids
 > [!Note]
 > The address field in a read-only entity form is replaced with the map when Geolocation is enabled.
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

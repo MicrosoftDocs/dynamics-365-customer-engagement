@@ -46,7 +46,7 @@ Now, all that's left to do is create a Web Page that uses our page template, and
 
 ![Web page with left navigation](media/web-page-left-navigation.png "Web page with left navigation")  
 
-### See Also
+### See also
 
 [Create advanced templates for portals](create-advanced-templates.md)  
 [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  

@@ -25,7 +25,7 @@ Keep your customer engagement strong by growing a community, publishing articles
 
 -   Engage with and gather feedback from your community, including gather ideas, votes, and comments on suggestions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Crowdsource ideas](crowdsource-ideas.md)  
 
-### See Also
+### See also
 
 [Create a theme for your portal](create-theme.md)  
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)
+[Configure a Dynamics 365 portal](configure-portal.md)

@@ -62,7 +62,7 @@ In addition to a custom [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] ve
 
 Along with a customized version of [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)], you can use the content-editing system to add a custom logo and brand to your portal header. With these simple but powerful options, you're only a few minutes away from having your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal’s application reflect your brand.
 
-### See Also
+### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  

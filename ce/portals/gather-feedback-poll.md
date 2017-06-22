@@ -117,9 +117,9 @@ The details of the poll voting results are stored in [!INCLUDE[pn-dynamics-crm](
 | Contact     | The associated Contact record of the voter if the user is logged on                           |
 | Visitor ID  | The anonymous ID of the voter if the user is anonymous.                                       |
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

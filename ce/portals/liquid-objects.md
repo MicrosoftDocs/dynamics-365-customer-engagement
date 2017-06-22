@@ -1273,7 +1273,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 | url             | The URL of the image.                                                                                               |
 | Width           | Integer containing the specified width of the image. If no width value was provided, this attribute will be null.   |
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Liquid types](liquid-types.md)  

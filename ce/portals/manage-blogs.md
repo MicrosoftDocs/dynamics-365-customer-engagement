@@ -139,7 +139,7 @@ It is important to note that the way in which many of the content/display-orient
 | Approved      | Determines whether a comment will be visible on a portal. If checked, the comment is visible to all users that have read access to the blog post. If not checked, only the author of the post will be able to preview the comment on the portal. |
 ||
 
-### See Also
+### See also
 
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  

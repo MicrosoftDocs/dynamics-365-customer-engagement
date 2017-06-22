@@ -127,7 +127,7 @@ The table below has more detail about the available buttons, listed in the order
 | Help                    | Opens a dialog about elFinder: Web file manager.                                                                                             |
 ||
 
-### See Also
+### See also
 
 [How to provision a portal](provision-portal.md)  
 [Get started with the portal content editor](get-started-portal-content-editor.md)  

@@ -243,9 +243,9 @@ The following describes the settings that define how and when an account becomes
 | Authentication/ApplicationCookie/ExpireTimeSpan                 | The default amount of time cookie authentication sessions are valid for. Default: 24:00:00 (1 Day). [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.cookies.cookieauthenticationoptions.expiretimespan(v=vs.113).aspx). |
 ||  
 
-### See Also
+### See also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

@@ -117,7 +117,7 @@ This will render if the ID request parameter is NOT null.
 {% endif %}
 ```
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Store source content by using web templates](store-content-web-templates.md)  

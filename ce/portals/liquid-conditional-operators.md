@@ -59,7 +59,7 @@ You can also test the size of [Liquid types](liquid-types.md), [Liquid types](li
 | empty array or dictionary | ×    |       |
 | Object                    | ×    |       |
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Store source content by using web templates](store-content-web-templates.md)  

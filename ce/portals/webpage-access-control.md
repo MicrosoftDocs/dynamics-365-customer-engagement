@@ -45,7 +45,7 @@ You would then set the right to restrict read and the page to the page at the to
 >[!Note]
 >The root 'home' page of a website is a special node and must not have a restrict read rule applied to it. This will produce a runtime error. The security validation requires that all users must be able to read the root page of a website to validate contents within the site. The login, access denied, page not found, and error page are also special cases that also must be readable by all users.
 
-### See Also
+### See also
 
 [Create web roles for portals](create-web-roles.md)  
 [Configure web roles for a PRM portal](configure-web-roles-partner-portal.md)

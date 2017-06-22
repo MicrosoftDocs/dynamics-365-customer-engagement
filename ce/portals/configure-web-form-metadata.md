@@ -126,10 +126,10 @@ The following properties are displayed when the Type selected equals 'Tab'
 | Tab Name | The name of the tab on the entity's form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be modified.                                                                                                                                                                                      |
 | Label    | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

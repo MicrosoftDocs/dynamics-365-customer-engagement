@@ -57,7 +57,7 @@ The table below explains many of the Forum attributes used by portals. It is imp
 | Last Post            | The most recently created [forum posts on the portal](create-forum-posts.md).                                                                                                                                                                                                           |  
 ||
 
-### See Also
+### See also
 
 [Manage forum threads](manage-forum-threads.md)  
 [Create forum posts on the portal](create-forum-posts.md)  

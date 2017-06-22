@@ -42,7 +42,7 @@ Enter values for the following fields:
 | Website | The website that is associated with the snippet.                                                              |
 | Value   | The content of the snippet to be displayed in the portal. This can contain plain text or HTML markup.         |
 
-### See Also
+### See also
 
 [How to provision a portal](provision-portal.md)  
 [Get started with the portal content editor](get-started-portal-content-editor.md)  

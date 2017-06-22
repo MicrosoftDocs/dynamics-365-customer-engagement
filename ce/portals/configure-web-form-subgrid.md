@@ -21,7 +21,7 @@ Adding Subgrids to your Managed forms on the portal is easy—just add the subgr
 
 ## Add subgrid metadata to your form
 
-To add Subgrid Metadata to an Entity Form, navigate to **Entity Form Metadata** by using either the top drop-down or the subgrid right on the main form of the [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md) record that you are working with.  
+To add Subgrid Metadata to an Entity Form, navigate to **Entity Form Metadata** by using either the top drop-down or the subgrid right on the main form of the [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md) record that you are working with.  
 
 To add a new record, click **Add New Entity Form Metadata**.
 
@@ -266,10 +266,10 @@ Enabling a **Disassociate Action** allows a user to remove the link between the 
 | Button Tooltip        | Overrides the tooltip text that appears when the mouse is hovered over the button for this action displayed in the subgrid row. |
 ||
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

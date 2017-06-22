@@ -28,12 +28,12 @@ The Redirect Step Type allow for a redirect of the User's browser session to ano
 | Append Attribute Value to Query String - Parameter Name         | Requires On Success set to Redirect. A name to give to the parameter that correlates to the attribute value on the target entity that gets appended to the Query String of the redirect URL. |
 | Append Attribute Value to Query String - Attribute Logical Name | Requires On Success set to Redirect. A logical name of an attribute on the target entity to get the value to be appended to the Query String of the redirect URL.                            |
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Conditional step type](add-conditional-step.md)  
-[Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]](add-custom-javascript.md)  
+[Add custom JavaScript](add-custom-javascript.md)  
 

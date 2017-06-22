@@ -496,9 +496,9 @@ You may utilize Entity Permissions if you wish to secure records, but if you wan
 >[!Note]
 > The oData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data that is unsuitable for anonymous portal access.
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

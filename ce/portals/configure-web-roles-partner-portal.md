@@ -58,13 +58,13 @@ Website Access Permissions is a permission set, associated with a web role, that
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Manage Content Snippets      | Allows the editing of Snippet controls. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)                                                                 |  
 | Manage Site Markers          | Allows the editing of hyperlinks that use [sitemarkers](#sitemarkers)                                                                                                                                                 |  
-| Manage Web Link Sets         | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals](manage-web-links.md) |  
+| Manage Web Link Sets         | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 or on portals](manage-web-links.md) |  
 | Preview Unpublished Entities | Allows the viewing of portal-exposed entities that have a publishing state of **Draft**.                                                                                                                              |
 ||
 
 To add website access permission to a web role, just create a new Website Access entity, give it the permission set you want, name it, associate with the website in question, save, and then associate it with the web role(s) you desire.
 
-### See Also
+### See also
 [Control webpage access for portals](webpage-access-control.md)  
 [Add record-based security using entity permissions for portals](assign-entity-permissions.md)  
 [Create a partner account on a partner relationship management (PRM) portal](#create-a-partner-account-on-a-partner-relationship-management-prm-portal)  

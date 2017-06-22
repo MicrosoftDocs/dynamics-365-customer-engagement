@@ -128,9 +128,9 @@ This corresponds to the **MetadataAddress** site setting value
 
 Apply the configuration described in the topic [Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals).  
 
-### See Also
+### See also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

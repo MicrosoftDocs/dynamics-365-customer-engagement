@@ -1595,7 +1595,7 @@ Renders a string as Liquid code. This code will have access to the current Liqui
 {{ page.adx_copy | liquid }}
 ```
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Store source content by using web templates](store-content-web-templates.md)  
