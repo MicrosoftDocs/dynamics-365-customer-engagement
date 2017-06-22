@@ -1,15 +1,11 @@
 ---
 title: "Oops, you shouldn't see this, actually. | Microsoft Docs"
 description: "You found a place that is not intended to be seen. Please share your feedback how you ended up here so we can address it."
-ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 2017-07-10
+ms.service: mse
 applies_to: "Social Engagement"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: a0e468d7-0cc0-4043-b336-31471dfc7391
-caps.latest.revision: 5
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
