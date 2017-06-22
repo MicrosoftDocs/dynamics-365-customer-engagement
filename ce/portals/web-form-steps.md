@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Web form steps for portals
+# Define web form steps for portals
 
 
 

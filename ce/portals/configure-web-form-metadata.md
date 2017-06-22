@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Web form metadata for portals
+# Configure web form metadata for portals
 
 The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]'s native entity form editing capabilities.
 

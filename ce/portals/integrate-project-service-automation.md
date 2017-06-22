@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Project Service Automation integration
+# Integrate Project Service Automation
+
 [comment]: <> (Add See Also links)
 The Project Service Automation (PSA) solution for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can now be installed on a Partner Portal (PSA for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and Partner Portal Solutions must be installed first). With this solution installed customers and partners will be able to view projects and confirmed bookable resources. Customers will also be able to approve quotes, view invoices, and view contract/order forms.
 

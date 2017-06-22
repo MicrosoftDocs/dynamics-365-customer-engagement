@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ---
 
-# Add web resource
+# Add a web resource
+
 Attachments uploaded to Azure Storage instead of directly to Dynamics 365 can be managed using an interface like the stock [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Notes interface.
 
 To enable this interface, a Web Resource must be added to the form on which you wish to use it, and [Azure Storage must be configured for your organization](enable-azure-storage.md).

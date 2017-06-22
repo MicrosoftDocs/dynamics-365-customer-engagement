@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Liquid tags
+# Available Liquid tags
 
 Tags make up the programming logic that tells templates what to do. Tags are wrapped in {% %}.
 

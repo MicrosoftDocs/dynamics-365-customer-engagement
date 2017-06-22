@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Geolocation
+# Add geolocation
+
 Geolocation is the identification of the real-world geographic location of an object. Geolocation is closely related to the use of positioning systems but may be distinguished from it by a greater emphasis on determining a meaningful location (e.g. a street address) rather than just a set of geographic coordinates. The word geolocation is also the latitude and longitude coordinates of a particular location.
 
 A managed form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location.

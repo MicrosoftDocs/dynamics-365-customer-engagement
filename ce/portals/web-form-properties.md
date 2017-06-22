@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Web form properties for portals
+# Define web form properties for portals
+
 The Web Form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to Web Page allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
 
 The other options on the Web Form record itself control top-level preferences for the multiple-step process as a whole, for example whether you'd like to display a progress bar.

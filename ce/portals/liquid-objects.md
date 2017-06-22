@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Liquid objects
+# Available Liquid objects
 
 Liquid objects contain attributes to output dynamic content to the page. For example, the pageobject has an attribute called title that can be used to output the title of the current page.
 

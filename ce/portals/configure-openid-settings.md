@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Open ID Connect provider settings for portals
+# Configure Open ID Connect provider settings for portals
 
 This topic applies to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
 

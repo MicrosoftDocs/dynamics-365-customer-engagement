@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 
-# Clear server-side cache for a portal
+# Clear the server-side cache for a portal
 As a portal administrator, you can clear the server-side cache for the entire portal so that the updated data from Dynamics 365 is immediately reflected on the portal. Updates from Dynamics 365 are communicated to the portal in asynchronous mode, so there might be a lag for the data in Dynamics 365 to be updated on the portal. This functionality allows you to force the portal to refresh its cache immediately, if this delay is interfering with portal configuration.
 
 To clear server-side cache:

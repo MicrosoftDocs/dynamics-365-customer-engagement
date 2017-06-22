@@ -14,6 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Add a webpage to render a list of records
+
 Entity List is a data-driven configuration that provides you with the ability to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. Using Entity List, you can expose [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records for display on portals.
 
 The grid supports sorting and will be paginated if the number of records is larger than the Page Size specified. If the Web Page for Details View has been specified, each record will contain a link to the page and the ID of the record will be appended to the Query String along with the ID Query String Parameter Name. The Entity List also supports multiple views. If more than one view has been specified, a drop-down will rendered to allow the user to toggle between the various views.

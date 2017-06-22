@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Field Service integration
+# Integrate Field Service
+
 The Partner Field Service solution for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can now be installed on a Partner Portal (Field Service for CRM and Partner Portal Solutions must be installed first). With this solution installed, customers and partners will be able to view various parts of the Field Service section of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the Partner Portal. Some of the available entities that can be viewed are assets, work orders, and invoices.
 
 ## View agreements on the partner portal

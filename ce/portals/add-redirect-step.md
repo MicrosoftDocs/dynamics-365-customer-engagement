@@ -13,9 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Redirect step type
-
-
+# Add a redirect step type
 
 The Redirect Step Type allow for a redirect of the User's browser session to another page in the portal or to an external URL. This is useful for seamlessly directing flow.
 

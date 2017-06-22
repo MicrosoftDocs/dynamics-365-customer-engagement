@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Tags
+# Available tags
 [comment]: <> (to be merged and deleted)
 
 The following topics describe each type of tag:

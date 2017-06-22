@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# SAML 2.0 provider settings for portals
+# Configure SAML 2.0 provider settings for portals
 
 > [!Note] 
 > This documentation applies to**[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals** and later versions.
