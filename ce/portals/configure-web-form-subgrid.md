@@ -107,7 +107,7 @@ Enabling a **Download Action** renders a button above the Subgrid that, when cli
 
 ## Associate action
 
-Enabling an **Associate Action** displays a button above the subgrid that, when selected, opens a table of entities that the user can choose to associate to the entity record currently being displayed by the [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) provided the 'Append' and 'AppendTo' privilege has been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
+Enabling an **Associate Action** displays a button above the subgrid that, when selected, opens a table of entities that the user can choose to associate to the entity record currently being displayed by the [Define entity forms and custom logic within the Dynamics 365 portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) provided the 'Append' and 'AppendTo' privilege has been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
 
 ### Associate action settings
 
@@ -253,7 +253,7 @@ Enabling a **Workflow Action** allows a user to run an On-Demand Workflow agains
 
 ## Disassociate action
 
-Enabling a **Disassociate Action** allows a user to remove the link between the record represented by the currently viewed [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) and the record represented by the selected row in the subgrid, as long as the 'Append' and 'AppendTo' privileges have been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
+Enabling a **Disassociate Action** allows a user to remove the link between the record represented by the currently viewed [Define entity forms and custom logic within the Dynamics 365 portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) and the record represented by the selected row in the subgrid, as long as the 'Append' and 'AppendTo' privileges have been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
 
 ### Disassociate action settings
 
