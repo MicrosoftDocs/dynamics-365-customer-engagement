@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ---
 
-# Enable Azure storage
+# Enable [!include[Azure](../includes/pn-azure-shortest.md)] Storage
+
 Azure Storage integration for Portals enables you to take advantage of the greater file storage capability of Microsoft Azure, using the same interface and providing the same experience for your users as in the default file attachments. This feature is supported for Web Files, Entity Forms, and Web Forms.
 
 For instructions on creating an Azure Storage account, see https://azure.microsoft.com/services/storage/.
