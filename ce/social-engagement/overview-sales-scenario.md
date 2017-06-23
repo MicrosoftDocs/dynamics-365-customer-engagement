@@ -36,39 +36,41 @@ Learn how to install, configure and personalize the Social Selling Assistant to 
 
 > [!VIDEO https://www.youtube.com/embed/B0tcV0piZbI]
 
-1. Ask an admin to configure Social Engagement for the Social Selling Assistant: [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)
+1. Ask an admin to [configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md).
 
-2. Add your social profiles:[Manage social profiles](../social-engagement/manage-social-profiles.md)
+2. [Add your social profiles](../social-engagement/manage-social-profiles.md) to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
-3. Personalize the Social Selling Assistant: [Personalize the Social Selling Assistant](../social-engagement/personalize-social-selling-assistant.md)
+3. [Personalize the Social Selling Assistant](../social-engagement/personalize-social-selling-assistant.md).
 
-4. Grow your network using the Social Selling Assistant. [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md)
+4. [Grow your network](../social-engagement/work-with-social-selling-assistant.md) using the Social Selling Assistant.
 
 ## Sales efficiency: create leads in Dynamics 365 from social posts
 
- Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]  
-  
-1.  Get an overview of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration: [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)  
-  
-2.  Set up the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]: [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)  
-  
-3.  Set up record details for leads: [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)
-  
-4.  Create a lead from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]: [Convert a social engagement post to a social activity](../social-engagement/create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity)
+Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+
+1.  Get an [overview](../social-engagement/link-posts-to-dynamics-365.md) of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
+
+2.  [Set up the connection](../social-engagement/connect-dynamics-365-social-engagement.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+
+3.  [Set up record details](../social-engagement/create-dynamics-365-record-from-social-post.md) for leads.
+
+4.  [Create a lead from a post](../social-engagement/create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## Sales automation: leverage intelligence to automatically find leads
 
-Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you. Learn how automated intention analysis can help triage incoming posts: [How intention analysis works](../social-engagement/tags.md#intention_analysis)
+Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you. Learn how [automated intention analysis can help triage](../social-engagement/tags.md#how-intention-analysis-works) incoming posts.
 
 You can create new leads from purchase intentions automatically using automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)
 
 ## Social trend scout: set up trend alerts learn about significant changes
 
-to be added 
+Trend alerts trigger when the number of newly found posts exceeds the average number of posts significantly. [Create email notifications that are automatically sent to a group of recipients](/social-engagement/email-alerts.md) if a post or a change in trend matches your filters. You can set the [sensitivity of a trend alert](../social-engagement/email-alerts.md#set-a-trend-alerts-sensitivity) when you create it, or adjust it later.
 
-## Social analytics: add widgets with social insights to entity forms in Dynamics 365
+## Social analytics: add widgets with social insights to entity forms in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]
 
-to be added
+[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (online) users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards, or they can add them to account, contact, or competitor forms. You can also add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to other entity type forms.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
 
 ## Customer stories
 
@@ -78,7 +80,8 @@ to be added
 
 [Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
-### See Also  
+### See Also
+
  [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
  [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
  [Work with posts](../social-engagement/work-with-posts.md)
