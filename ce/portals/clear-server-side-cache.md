@@ -21,4 +21,8 @@ To clear server-side cache:
 1.	Log into the portal as an administrator.
 2.	Navigate to the URL as follows: `<portal_path>/_services/about`
 3.	Click **Clear Cache**. The server-side cache will be deleted, and the data is reloaded from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+    
+    > [!Note]
+    > Clearing the cache will result in a temporary slowness of your portal.
+    
     ![Clear portal cache](media/clear-portal-cache.png "Clear portal cache") 
