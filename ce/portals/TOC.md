@@ -27,8 +27,7 @@
 ### [Configure the Facebook App](authenticate-facebook-app.md)
 ### [Control webpage access](webpage-access-control.md)
 ### [Assign entity permissions](assign-entity-permissions.md) 
-
-[comment]:<>(SELF: New topic.)
+[//]: <> (SELF: New topic.)
 
 ### [Enable Azure storage](enable-azure-storage.md)
 
