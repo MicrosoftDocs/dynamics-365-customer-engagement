@@ -1,5 +1,5 @@
 # [Deliver web engagement experience with portal capabilities for Dynamics 365](administer-manage-portal-dynamics-365.md)
-## [Monthly updates](monthly-updates-portals.md)
+## [What's new](monthly-updates-portals.md)
 ## [Install](provision-portal.md)
 ### [Provision a portal](provision-portal.md)
 ### [Enable multiple-language support](enable-multiple-language-support.md)
