@@ -1,16 +1,11 @@
 ﻿---
 title: "Configure Gamification KPIs in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to set up and edit KPIs in Dynamics 365 (online) to use them in Dynamics 365 – Gamification games. "
-ms.custom: ""
-ms.date: 05/31/2017
-ms.reviewer: ""
+ms.date: 07/10/2017
 ms.service: gamification
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: get-started-article
 applies_to: Dynamics 365 (online)
 ms.assetid: b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b
-caps.latest.revision: 29
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
