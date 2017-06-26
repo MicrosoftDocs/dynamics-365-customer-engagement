@@ -24,6 +24,23 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
  
  For important, late-breaking information and a list of known issues, see the [Microsoft Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
 
+## Microsoft Social Engagement 2017 Update 1.6
+
+### Listening on YouTube channels
+
+Social Engagement is now capable of listening video posts and comments on YouTube channels. Users with at least a Power Analyst configuration role can create YouTube rules under any search topic and add YouTube channels to gather all posts and comments from.
+
+Keyword-based searches on the video source continue to reside under the Keywords rule.
+
+### Engagement on YouTube
+
+Get in touch with your audience on YouTube directly from within Social Engagement. Users with at least a Responder interaction role can now like and reply to videos on YouTube.
+
+You'll need to add a social profile for YouTube under Settings > Social Profiles, or get a YouTube profile shared with you before you can interact on this source.
+
+
+
+
 ## Microsoft Social Engagement 2017 Update 1.5
 
 ### Service and product improvements
