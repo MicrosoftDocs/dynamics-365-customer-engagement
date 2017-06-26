@@ -15,7 +15,7 @@ manager: sakudes
 Display a slide show for daily, weekly, and monthly KPIs on TVs and screens around your office. All other game models can also be displayed on TVs.
 To create a Stream TV from multiple active games, see [Stream results from active games](configure-view-tvs.md#stream-results-from-active-games).
 
-![VIDEO https://www.youtube.com/embed/DwZxwcUt6A4]
+> [!VIDEO https://www.youtube.com/embed/DwZxwcUt6A4]
 
 ## Set up a Stream TV game
 

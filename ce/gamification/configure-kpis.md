@@ -14,7 +14,7 @@ manager: sakudes
 
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]. It's a two-step process: first, you create the KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], and then you choose and configure them in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] when you set up a new game.
 
-![VIDEO https://www.youtube.com/embed/7kb9zfvSjLE]
+> [!VIDEO https://www.youtube.com/embed/7kb9zfvSjLE]
 
 For more information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], see [Set up and run games in Gamification](run-games.md). For basic information about KPIs, see [Concepts to learn before you get started using Gamification](get-started.md).
 
