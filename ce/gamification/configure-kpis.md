@@ -43,7 +43,7 @@ For more information about setting up KPIs in [!INCLUDE[pn_gamification_shortest
   
 2.  In the **Active KPIs** section, click the KPI you want to configure.  
   
-     KPIs you've configured will have a status of **Setup**, while KPIs pending configuration will show as **Not Setup**.  
+     KPIs you've configured will have a status of **Set up**, while KPIs pending configuration will show as **Not set up**.  
   
 3.  In the **Configure KPI Parameters** section, for **Type**, select the object type you want to base your KPI on.
 
