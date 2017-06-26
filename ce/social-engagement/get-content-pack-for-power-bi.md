@@ -1,15 +1,10 @@
 ---
 title: "Get the Social Engagement content pack | Microsoft Docs"
 description: "Download the use the Social Engagement content pack for Power BI."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
-caps.latest.revision: 22
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -132,7 +127,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 - **Action Value**: Result or addressee of the action. For example: For Assign actions, this is the name of the user or user group. For Reply, this is the social profile used for the reply.  
   
-- **Action Value Group**: Adds an additional layer of information regarding the Action Value. For example: For Assign actions, this describes if the action value is a user or a group. For Reply actions, this is the corresponding source (Twitter or Facebook)  
+- **Action Value Group**: Adds an additional layer of information regarding the Action Value. For example: For Assign actions, this describes if the action value is a user or a group. For Reply actions, this is the corresponding source.  
   
 - **Action Value ID**: ID of the entity that was addressed by the action.  
   
@@ -154,8 +149,8 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
 |Internal|Assign|User name or User Group name|User or User Group|  
 |Internal|Label|Label name|Label|  
 |Internal|Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]|Instance name|Instance type (Online or On-premises)|  
-|External|Reply|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])|  
-|External|Like|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] )|  
+|External|Reply|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])|  
+|External|Like|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] )|  
 |External|Share|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that was used in:<br /><br /> -   Retweet on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]<br />-   Share As on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]<br />-   Post Link for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)]|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], and [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)])|  
 |External|Private messages|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])|  
   
