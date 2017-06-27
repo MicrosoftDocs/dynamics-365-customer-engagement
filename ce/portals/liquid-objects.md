@@ -737,7 +737,7 @@ A Single Forum Post
 
 ## knowledge
 
-Provides access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] owledgearticle and category entity records to render articles and categories in a portal.
+Provides access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] knowledgearticle and category entity records to render articles and categories in a portal.
 
 ### Attributes
 
