@@ -67,7 +67,7 @@ The following objects can be used and accessed anywhere, in any template.
 
 [forums](#forums)  
 
-[knowledge object](#knowledge-object)
+[knowledge](#knowledge-object)
 
 [page](#page)  
 
@@ -735,7 +735,7 @@ A Single Forum Post
 | is\_answer | Is this post an answer to the thread?                                      |
 
 
-## knowledge object
+## knowledge
 
 Provides access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] owledgearticle and category entity records to render articles and categories in a portal.
 
