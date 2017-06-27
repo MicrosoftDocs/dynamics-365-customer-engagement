@@ -67,7 +67,7 @@ The following objects can be used and accessed anywhere, in any template.
 
 [forums](#forums)  
 
-[knowledge](#knowledge-object)
+[knowledge](#knowledge)
 
 [page](#page)  
 
