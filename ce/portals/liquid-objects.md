@@ -788,9 +788,9 @@ The following filters can accept optional parameters for page size and language.
 
 |Attribute|Description|
 |---|---|
-|popular |Returns a collection of article objects containing the most views. <br> ```{% assign popular_articles = knowledge.articles | popular: 10, en-US %}``` |
-|recent |Returns a collection of article objects containing the latest modified date. <br> ```{% assign recent_articles = knowledge.articles | recent: 5 %}``` |
-|top |Returns a collection of article objects containing the highest rating. <br> ```{% assign top_articles = knowledge.articles | top: 3, en-US %}``` |
+|popular |Returns a collection of article objects containing the most views. `{% assign popular_articles = knowledge.articles \| popular: 10, en-US %}` |
+|recent |Returns a collection of article objects containing the latest modified date. `{% assign recent_articles = knowledge.articles \| recent: 5 %}` |
+|top |Returns a collection of article objects containing the highest rating. `{% assign top_articles = knowledge.articles \| top: 3, en-US %}` |
 | | |
 
 ### categories object
