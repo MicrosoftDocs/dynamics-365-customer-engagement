@@ -778,7 +778,7 @@ The articles object allows you to access a collection of article objects. You ca
 
 ### Filters
 
-The following filters can accept optional parameters for page size and language. First parameter is the number or records to retrieve. The default page size is 5. The second parameter is the code of a language to retrieve articles for a given language. Filters may be combined with other Liquid filters [link]
+The following filters can accept optional parameters for page size and language. First parameter is the number or records to retrieve. The default page size is 5. The second parameter is the code of a language to retrieve articles for a given language. Filters may be combined with other [Liquid filters](liquid-filters.md).
 
 ```
 {% assign page_size = 5 %}
@@ -788,9 +788,9 @@ The following filters can accept optional parameters for page size and language.
 
 |Attribute|Description|
 |---|---|
-|popular |Returns a collection of article objects containing the most views. `{% assign popular_articles = knowledge.articles|popular: 10, en-US %}` |
-|recent |Returns a collection of article objects containing the latest modified date. `{% assign recent_articles = knowledge.articles|recent: 5 %}` |
-|top |Returns a collection of article objects containing the highest rating. `{% assign top_articles = knowledge.articles|top: 3, en-US %}` |
+|popular |Returns a collection of article objects containing the most views. <br> ```{% assign popular_articles = knowledge.articles | popular: 10, en-US %}``` |
+|recent |Returns a collection of article objects containing the latest modified date. <br> ```{% assign recent_articles = knowledge.articles | recent: 5 %}``` |
+|top |Returns a collection of article objects containing the highest rating. <br> ```{% assign top_articles = knowledge.articles | top: 3, en-US %}``` |
 | | |
 
 ### categories object
