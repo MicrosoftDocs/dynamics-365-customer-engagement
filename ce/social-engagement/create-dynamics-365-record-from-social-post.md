@@ -65,7 +65,7 @@ Learn about the [prerequisites to establish a connection with Dynamics 365](../s
 > [!TIP]
 >  -   To automatically create records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from social posts that match a specific data set, you can create automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
 > -   If the linked [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance has [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] system settings set to disabled, the link creation fails and shows this error message: "Dynamics 365 can’t receive social data from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]". Contact your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrator to review the Disable [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] system settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Control social data](http://go.microsoft.com/fwlink/p/?LinkId=723352)  
-> -   If [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] allows incoming social activities, but no rules are defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to build [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] entities out of them, the linking operation does succeed. However, opening link details in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will not provide any details. Contact your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrator if this happens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394)  
+> -   If [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] allows incoming social activities, but no rules are defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to create [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] entities out of them, the linking operation does succeed. However, opening link details in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will provide details about the social activiy only. Contact your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrator if this happens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394)  
   
 ## Configure Dynamics 365 to automatically create records from linked posts
 
@@ -85,14 +85,14 @@ The JSON payload of this feature is described in the following table.
   
 |Property|ActivityAdditionalParams|Description|Source restrictions|  
 |--------------------------------------------|------------------|-----------------|-------------------------|
-|`PostMessageType`|N/A|Type of post <br /><br />0: Public post<br /><br /> 1: Private post|N/A|
-|`Community`|N/A|Type of community <br /><br />1: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]<br /><br /> 2: [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]<br /><br /> 0: Other|N/A|
-|`SentimentValue`|N/A|Sentiment value of the post<br /><br />1: positive sentiment<br /><br />0: neutral sentiment<br /><br />-1: negative sentiment<br /><br />null: unknown sentiment|N/A|
-|`PostUrl`|N/A|The URL of the post|N/A|
-|`Description`|N/A|Content of the post<br /><br />Up to 2000 characters of the written content.|N/A|
-|`Subject`|N/A|Post title if available. Otherwise, it's the first 200 characters of the post content.|N/A|
-|`PostedOn`|N/A|Date when the post was published by the author|N/A|
-|`ActivityAddtionalParams`||Additional parameters of the social actvity|N/A|
+|`postmessagetype`|N/A|Type of post <br /><br />0: Public post<br /><br /> 1: Private post|N/A|
+|`community`|N/A|Type of community <br /><br />1: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]<br /><br /> 2: [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]<br /><br /> 0: Other|N/A|
+|`sentimentvalue`|N/A|Sentiment value of the post<br /><br />1: positive sentiment<br /><br />0: neutral sentiment<br /><br />-1: negative sentiment<br /><br />null: unknown sentiment|N/A|
+|`posturl`|N/A|The URL of the post|N/A|
+|`description`|N/A|Content of the post<br /><br />Up to 2000 characters of the written content.|N/A|
+|`subject`|N/A|Post title if available. Otherwise, it's the first 200 characters of the post content.|N/A|
+|`postedon`|N/A|Date when the post was published by the author|N/A|
+|`activityaddtionalparams`||Additional parameters of the social actvity|N/A|
 |N/A|`targetEntityName`|Name of the entity that gets created in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  When linking a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], this is always set to `socialactivity`.|N/A|  
 |N/A|`userPreferredTargetEntity`|Preferred entity as defined by the user in the Entity drop-down list  of a linked post's Record Details in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. This doesn’t necessarily match the type of record created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] due to rules defined in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].|N/A|  
 |N/A|`socialHandle`|Alias or user name of the author on the source.|N/A|  
@@ -114,14 +114,15 @@ A typical `ActivitiyAdditionalParameters` JSON sent to [!INCLUDE[pn_crm_shortest
   
 ```  
 {
-  "PostMessageType": 0,
-  "Community": 2,
-  "SentimentValue": 1,
-  "PostUrl": "https://www.twitter.com/contoso/stauts/123412341234",
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu...", 
-  "Subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu...",
-  "PostedOn": "2016-12-30T08:15:30-05:00",
-  "ActivityAdditionalParams": {  
+  "postmessagetype": 0,
+  "community": 2,
+  "sentimentvalue": 1,
+  "posturl": "https://www.twitter.com/contoso/stauts/123412341234",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu...", 
+  "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu...",
+  "postedon": "2016-12-30T08:15:30-05:00",
+  "activityadditionalparams": 
+  {  
     "targetEntityName": "socialactivity",  
     "userPreferredTargetEntity": "incident",  
     "socialHandle": "Contoso",  
@@ -173,9 +174,7 @@ If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includ
  ![Open record in Dynamics 365 from Social Engagement](../social-engagement/media/open-record-details-in-dynamics-365.png "Open record in Dynamics 365 from Social Engagement")  
   
 > [!NOTE]
->  If there are no rules, or no active rules, or the social activity doesn't meet the defined conditions, no target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is created and the **Open Record** option  opens the social activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is created, the **Open Record** option  opens the target record.  
-  
- ![Social activity in Dynamics 365](../social-engagement/media/social-activity-in-dynamics-365.png "Social activity in Dynamics 365")  
+>  If there are no rules, or no active rules, or the social activity doesn't meet the defined conditions, no target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is created and the **Open Record** option  opens the social activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record is created, the **Open Record** option  opens the target record.
 
 ## Remove a linked Dynamics 365 record from a post
 
