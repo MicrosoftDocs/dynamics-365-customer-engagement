@@ -112,9 +112,9 @@ If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[
 
 [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] can disable KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] if the calculation of points fails multiple times.
 
-To re-activate a disabled KPI, go to **Gamification** > **KPIs** in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] and review the KPIs that are in **Disabled** state.
+To re-enable a disabled KPI, go to **Gamification** > **KPIs** in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] and review the KPIs that are in **Disabled** state. Select the **Enable** button on the command bar to re-enable the KPI.
 
-To review the trace records, go to **Gamification** > **Logs** in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
+To review the plug-in trace log records, go to **Settings** > **Plug-In Trace Log** in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
 
 While a KPI is in **Disabled** state, points for this KPI won't get scored in games that are based on it.
 
