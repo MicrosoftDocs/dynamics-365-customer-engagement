@@ -22,15 +22,19 @@ You must create a storage account with **Resource manager** as the deployment mo
 
 Once the Storage Account is running, Portals requires certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new Setting named `FileStorage/CloudStorageAccount`.
 
-To locate the value for `FileStorage/CloudStorageAccount`, you must get a connection string from your [!include[Azure](../includes/pn-azure-shortest.md)] portal. Search for your storage account and select **Access Keys**.
+To locate the value for `FileStorage/CloudStorageAccount`, you must get a connection string from your [!include[Azure](../includes/pn-azure-shortest.md)] portal.
 
-![Locate value for connection string from your Microsoft Azure portal](media/key-azure-storage.png "Locate value for connection string from your Microsoft Azure portal")
+1. Log into your [!include[Azure](../includes/pn-azure-shortest.md)] portal.
+2. Navigate to your storage account.
+3. Select **Access Keys**.
 
-In the resulting panel, locate the field labeled **CONNECTION STRING**. You may click the box next to the appropriate field to copy the contents to your clipboard and paste that value into your new setting:
+    ![Locate value for connection string from your Microsoft Azure portal](media/key-azure-storage.png "Locate value for connection string from your Microsoft Azure portal")
 
-![Primary connection string value](media/primary-connection-string-azure-storage.png "Primary connection string value")
+4. In the resulting panel, locate the field labeled **CONNECTION STRING**. Click the Copy icon next to the appropriate field to copy the contents to your clipboard and paste that value into your new setting:
 
-![Portal setting for cloud storage account](media/portal-site-setting-cloud-storage-account.png "Portal setting for cloud storage account")
+    ![Primary connection string value](media/primary-connection-string-azure-storage.png "Primary connection string value")
+
+    ![Portal setting for cloud storage account](media/portal-site-setting-cloud-storage-account.png "Portal setting for cloud storage account")
 
 ## Specifying the Storage Container
 If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)] Blob Container in your storage account, you should add one using your Microsoft Azure portal.
