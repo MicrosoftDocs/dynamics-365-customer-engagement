@@ -34,29 +34,13 @@ Change the company logo in [!INCLUDE[pn_gamification_shortest](includes/pn-gamif
 
 3.  In the **Organization Logo** line, click **Upload Logo**.  
 
-4.  To apply your changes, click **Save** .  
+4.  Select a logo and upload it. It gets updated automatically.
 
 The company logo is updated when you access games in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)].  
 
-## Define the default language
-
-A commissioner can define which language the [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] user interface is shown by default. Individual users can [update it to a preferred language](set-up-profile.md#change-the-language) in their profile settings.
-
-### Change the default language
-
-1. In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").
-
-2. Click the **Gamification Settings** tab.
-
-3. In the **Default Language** drop-down menu, select the language you want to set as default for other users.
-
-4. To apply your changes, click **Save**.
-
 ## Set the default time zone
 
-Some dates and time periods in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] are based on fixed times. For example, weekly game periods run from Monday to Sunday. A commissioner may want to set the time zone to where most of the users are based, so the date and time of the game corresponds to the local date and time.
-
-### Change the default time zone
+[//]: # (Some dates and time periods in Gamification are based on fixed times. For example, weekly game periods run from Monday to Sunday. A commissioner may want to set the time zone to where most of the users are based, so the date and time of the game corresponds to the local date and time.)
 
 1. In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
@@ -122,7 +106,7 @@ You can opt in for early access to newly developed features to evaluate them for
 
 4. To apply your changes, click **Save**.
 
-### Show or hide completed games  
+## Show or hide completed games  
 
 1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
