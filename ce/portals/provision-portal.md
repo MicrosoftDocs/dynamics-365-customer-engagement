@@ -23,25 +23,6 @@ Portals are websites that you can customize to provide a more personalized exper
 > [!NOTE]
 > You must be a Global Administrator role to provision a portal.
 
-## Before you provision a portal 
-
-You must create portal resources and finish the portal package installation before provisioning a portal.
-
-### Create portal resources
-
-1.  Go to the **Applications** page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)].
-2.  Under **Application**, the portal will have the name of “*Name-Configuring*”.
-3.  After this task is finished, this will change to “*Name*”.
-
-### Verify completion of the package installation
-
-1.  Go to the **Applications** page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)].
-2.  Select the portal, and then select the blue pencil button labeled **Manage**.
-    * If the installation process is not finished, there will be a message at the top stating “_This portal is currently being configured and updates are not allowed. Please try again later._”
-    * If the portal resources are created but the package installation is not finished, the message will instead be “_Your Portal URL has been created. However, package installation is still in progress. Please check status here._”
-
-## Provision a portal
-
 To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
 1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] and click the **Applications** tab.
