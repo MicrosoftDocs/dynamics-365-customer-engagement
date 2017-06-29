@@ -35,8 +35,8 @@ Learn about the [prerequisites to establish a connection with Dynamics 365](../s
   
  ![Entity details](../social-engagement/media/arrange-entity-details-for-linked-records.png "Entity details")  
   
-    > [!IMPORTANT]
-    >  You can't remove an entity if there are active automation rules using that entity. You will first need to deactivate or delete all automation rules using that entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules")  
+  > [!IMPORTANT]
+  >  You can't remove an entity if there are active automation rules using that entity. You will first need to deactivate or delete all automation rules using that entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules")  
   
 6.  To apply your changes, in the **Dynamics 365 Instance** pane, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
 
@@ -110,7 +110,7 @@ The JSON payload of this feature is described in the following table.
   
 ## Sample payload
 
-A typical `ActivitiyAdditionalParameters` JSON sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is given here.  
+A typical JSON payload sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is given here.  
   
 ```  
 {
