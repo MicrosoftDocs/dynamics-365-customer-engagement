@@ -54,6 +54,9 @@ The new control will now render on the page, giving you the ability to manage yo
 
 The paperclip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You may continue to store attachments in Dynamics 365, in which case those files will have a paperclip icon.
 
+> [!Note]
+> You must enable CORS on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, otherwise you will see the regular attachment icon, not the Cloud icon. For information on CORS setup, see [here](https://docs.microsoft.com/en-us/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
+
 If the attached file is an image, whether it is stored in Dynamics 365 or [!include[Azure](../includes/pn-azure-shortest.md)] Storage, the control will display the image as a thumbnail.
 
 > [!Note]

@@ -18,16 +18,15 @@ manager: sakudes
 
 [!include[Azure](../includes/pn-azure-shortest.md)] Storage integration for Portals enables you to take advantage of the greater file storage capability of [!include[Azure](../includes/pn-azure-shortest.md)], using the same interface and providing the same experience for your users as in the default file attachments. This feature is supported for Web Files, Entity Forms, and Web Forms.
 
-For instructions on creating an [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, see https://azure.microsoft.com/services/storage/.
+You must create a storage account with **Resource manager** as the deployment model. For instructions on creating an [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, see [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/storage-create-storage-account#create-a-storage-account).
 
 Once the Storage Account is running, Portals requires certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new Setting named `FileStorage/CloudStorageAccount`.
 
-[//]: # (Add Azure portal token)
-To locate the value for `FileStorage/CloudStorageAccount`, you must get a connection string from your Azure portal. In the main panel for your storage account, click the "Keys" icon:
+To locate the value for `FileStorage/CloudStorageAccount`, you must get a connection string from your [!include[Azure](../includes/pn-azure-shortest.md)] portal. Search for your storage account and select **Access Keys**.
 
 ![Locate value for connection string from your Microsoft Azure portal](media/key-azure-storage.png "Locate value for connection string from your Microsoft Azure portal")
 
-In the resulting panel, locate the input labeled **PRIMARY CONNECTION STRING**. You may click the box next to the input to copy the contents to your clipboard and paste that value into your new setting:
+In the resulting panel, locate the field labeled **CONNECTION STRING**. You may click the box next to the appropriate field to copy the contents to your clipboard and paste that value into your new setting:
 
 ![Primary connection string value](media/primary-connection-string-azure-storage.png "Primary connection string value")
 
@@ -39,5 +38,7 @@ If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)
 From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new Setting named `FileStorage/CloudStorageContainerName`, using the name of your Container as the value:
 
 ![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for cloud storage container")
+
+You must also enable CORS on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, otherwise you will see the regular attachment icon, not the Cloud icon. For information on CORS setup, see [here](https://docs.microsoft.com/en-us/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
 
 With these settings, your Portals application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [Add a Web Resource](add-web-resource.md) and configure [Entity Forms](entity-forms-custom-logic.md#notes-configuration-for-entity-form) or [Web Forms](configure-notes.md) to use it.
