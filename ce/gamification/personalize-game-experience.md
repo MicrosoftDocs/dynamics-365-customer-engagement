@@ -38,18 +38,6 @@ Change the company logo in [!INCLUDE[pn_gamification_shortest](includes/pn-gamif
 
 The company logo is updated when you access games in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)].  
 
-## Set the default time zone
-
-[//]: # (Some dates and time periods in Gamification are based on fixed times. For example, weekly game periods run from Monday to Sunday. A commissioner may want to set the time zone to where most of the users are based, so the date and time of the game corresponds to the local date and time.)
-
-1. In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
-
-2. Click the **Gamification Settings** tab.  
-
-3. In the **Default Time zone** drop-down menu, choose the preferred time zone.  
-
-4. To apply your changes, click **Save**.
-
 ## Configure the contact menu
 
 Define how players and fans can get in touch with the commissioner. Participants can click the **Help** > **Contact Commissioner** control when they are signed in to [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Ask game-specific questions or report issues to the commissioner](contact-commissioner.md)  
