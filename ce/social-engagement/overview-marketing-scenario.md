@@ -40,9 +40,11 @@ To find out how a brand is perceived on social media, [!INCLUDE[pn_netbreeze_sho
 
 Campaigns on social media often revolve around a specific term, for example a hashtag. If you search for this term, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] enables you to understand at a glance how your campaign performs.
 
-- TODO Conversation view (tag cloud)
-- TODO Activity map
-- TODO Sentiment
+1. Get started analyzing the conversations around your campaign or brand on the [Conversation page in Analytics](../social-enagement/analytics-conversations.md).
+
+2. [Create an Activity map](../social-enagement/activity-maps.md) to see newly found posts with location data in real-time on a map.
+
+3. Review the sentiment in posts mentioning your brand or campaign on the [Sentiment page in Analytics](../social-engagement/analytics-sentiment.md).
 
 > [!VIDEO https://www.youtube.com/embed/yoVW4izGGa8]
 
@@ -50,13 +52,34 @@ Campaigns on social media often revolve around a specific term, for example a ha
 
 Identify potential leads on social media and let your sales team know about them. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
-- TODO Intention analysis > AR > L2CRM (or manual)
+1. Use [intention analysis](../social-engagement/tags.md#how-intention-analysis-works) to look for posts that express a purchase intent.
+
+2. [Link these posts to Dynamics 365](../social-engagement/create-dynamics-365-records-from-social-post.md) to create a new lead record.
+
+3. Automate this workflow with an [automation rule](../social-engagement/automation-rules.md) for every post tagged with **Purchase Intention**.
 
 
 ## Share your content on social media
 
 Have you launched a new or refreshed product or service? Let the marketing team share it with the world. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you publish posts and engage with your communities on social media. 
 
-- TODO Publish to social networks to spread news about your products and services
-- TODO Share profiles with team
-- TODO Leverage office groups
+1. [Add social profiles](../social-engagement/manage-social-profiles.md) and [share](../social-engagement/manage-social-profiles.md#let-other-users-work-with-your-social-profile) them with your team.
+
+2. [Publish](../social-engagement/publish-react-posts.md) your news to social networks to spread the word about your products and services.
+
+3. Work with [Office 365 groups](../social-engagement/office-365-groups-social-engagement.md)s to share social profiles or streams with a larger team.
+
+## Customer stories
+
+- [Port aims to proactively address issues with Microsoft Social Engagement](https://customers.microsoft.com/en-us/story/port-aims-to-proactively-address-issues-with-microsoft)
+
+- [Marston's Delivers Personalized Service in Real-Time with Microsoft Dynamics 365](https://customers.microsoft.com/en-us/story/marstons-delivers-personalized-service-in-real-time-wi)
+
+[Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
+
+### See also
+
+- [Social Engagement overview](../social-engagement/overview.md)    
+- [Get started with Social Engagement](../social-engagement/get-started.md)    
+- [Manage connections in Social Engagement](../social-engagement/manage-connections.md)
+- [Engage on social networks](../social-engagement/engage-on-social-networks.md)

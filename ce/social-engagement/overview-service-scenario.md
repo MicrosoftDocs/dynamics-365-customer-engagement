@@ -93,7 +93,9 @@ Collaborate with your team and make sure they address the right customer issue w
 
 ## Customer stories
 
-[//]: # (Michael to add more customer stories.)
+- [UK Banking Disrupted: Metro Bank Reinvents Customer Service with Microsoft](https://customers.microsoft.com/en-us/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)
+
+- [5 tips to help your business weather changes in the financial services industry](https://customers.microsoft.com/en-us/story/5-tips-to-help-your-business-weather-changes-in-the-fi)
 
 [Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
