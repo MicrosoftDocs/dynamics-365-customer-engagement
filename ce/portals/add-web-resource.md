@@ -1,6 +1,6 @@
 ---
-title: "Add web resource to a form in Dynamics 365 | MicrosoftDocs"
-description: "Steps to add web resource to a form."
+title: "Add a web resource to a form in Dynamics 365 | MicrosoftDocs"
+description: "Steps to add a web resource to a form."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -14,20 +14,22 @@ ms.author: shjais
 manager: sakudes
 ---
 
+[//]: # (This title doesn't really describe what the procedure does. Can you call it something like "Enable attachments to be uploaded from a form to Azure Storage"?)
 # Add a web resource
 
-Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can be managed using an interface like the stock [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Notes interface.
+Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can be managed by using notes in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-To enable this interface, a Web Resource must be added to the form on which you wish to use it, and [Azure Storage must be configured for your organization](enable-azure-storage.md).
+To enable attachments from a particular form to be uploaded into [!include[Azure](../includes/pn-azure-shortest.md)] Storage, you must add a web resource to that form and you must [configure Azure Storage for your organization](enable-azure-storage.md).
 
 > [!Note]
-> For the purposes of this document, the form will be added to the form "Lead" for the Lead entity. We recommend using caution when editing existing forms.
+> In this example, the form is added to the Lead form for the Lead entity. We recommend using caution when editing existing forms.
 
-When a file (for example, "attachments.zip") is uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage through the Portals, it is represented by a Note on an entity, with a placeholder attachment:
+When a file (for example, attachments.zip) is uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage by using the portal, it is represented by a note on an entity and a placeholder for the attachment.
 
-![Attachement on a form](media/notes-attachment-lead-form.png "Primary connection string value")
+[//]: # (I'm not sure this is the best alt text, but I think the original was an artifact from another topic.)
+![Attachment on a form](media/notes-attachment-lead-form.png "Placeholder attachment on a form")
 
-Note that the attachment file is now named "attachment.zip.txt". By default, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has no conception of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder text file is stored in its place in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The contexts of the placeholder file show details of the file that is stored in [!include[Azure](../includes/pn-azure-shortest.md)]:
+Note that the attachment file is now named attachment.zip.txt. By default, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has no conception of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
 ```
 {
  "Name": "attachment.zip",
@@ -36,28 +38,37 @@ Note that the attachment file is now named "attachment.zip.txt". By default, [!I
  "Url": "https://accountname.blob.core.windows.net/storage/81a9a9491c36e51182760026833bcf82/attachment.zip"
 }
 ```
-To see and interact with the file stored in [!include[Azure](../includes/pn-azure-shortest.md)], you must add the Web Control adx.annotations.html to the form:
-1.	In the form editor for the relevant form, click "Web Resource" in the INSERT tab of the Ribbon.
-2.	In the "Web resource" lookup field, select the resource named "adx_annotations/adx.annotations.html".
-3.	Give the resource any name and label you wish
-4.	In the "Custom Parameter (data)" field, add the parameter "azureEnabled=true". You may use the web resource without enabling [!include[Azure](../includes/pn-azure-shortest.md)] support in this way, in which case it will function almost entirely the same as the default control.
-5.	In the Formatting tab, set whatever formatting rules you prefer. We recommend unchecking the "Display border" box.
-6.	Press OK to save the resource.
-7.	Optionally, you may wish to remove the existing notes control, or move it to a tab or section that is marked not visible by default.
-8.  Save the form, and publish the changes.
 
-    ![Add web resource](media/add-web-resource.png "Add web resource")
+[//]: # (Edit in step 7 assumes that there is a "Not visible" check box setting for the tab or section. Will it be obvious to the reader how they would accomplish step 7, and why?)
+To see and interact with the file stored in [!include[Azure](../includes/pn-azure-shortest.md)], you must add the web resource adx.annotations.html to the form.
+1.	In the form editor for the relevant form, select **Web Resource** on the **Insert** tab.
 
-The new control will now render on the page, giving you the ability to manage your attachments in [!include[Azure](../includes/pn-azure-shortest.md)] Storage:
+2.	In the **Web resource** box, select **adx_annotations/adx.annotations.html**.
+
+3.	Enter a name and label for the resource.
+
+4.	In the **Custom Parameter (data)** box, enter **azureEnabled=true**. <br>You can also use the web resource without enabling [!include[Azure](../includes/pn-azure-shortest.md)] support in this way, in which case it will function almost entirely the same as the default control.</br>
+
+5.	On the **Formatting** tab, choose whatever formatting rules you prefer. We recommend that you clear the **Display border** check box.
+
+6.	Select **OK** to save the resource.
+
+7.	Optionally, you might want to remove the existing notes control, or move it to a tab or section that is marked **Not visible** by default.
+
+8.  Save the form, and then publish the changes.
+
+    ![Add web resource](media/add-web-resource.png "Add a web resource")
+
+The new control will now be rendered on the page, giving you the ability to manage your attachments in [!include[Azure](../includes/pn-azure-shortest.md)] Storage.
 
 ![Azure file attachment on a form](media/azure-file-attachment-lead-form.png "Azure file attachment on a form")
 
-The paperclip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You may continue to store attachments in Dynamics 365, in which case those files will have a paperclip icon.
+The paper-clip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You can continue to store attachments in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]; those files will be denoted with the paper-clip icon.
 
 > [!Note]
-> You must enable CORS on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, otherwise you will see the regular attachment icon, not the Cloud icon. For information on CORS setup, see [here](https://docs.microsoft.com/en-us/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
+> You must enable cross-origin resource sharing (CORS) on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, otherwise you will see the regular attachment icon rather than the cloud icon. [!include[More information](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
 
-If the attached file is an image, whether it is stored in Dynamics 365 or [!include[Azure](../includes/pn-azure-shortest.md)] Storage, the control will display the image as a thumbnail.
+If the attached file is an image, the control will display the image as a thumbnail whether it is stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [!include[Azure](../includes/pn-azure-shortest.md)] Storage.
 
 > [!Note]
 > The thumbnail feature is limited to images under 1 MB in size.
