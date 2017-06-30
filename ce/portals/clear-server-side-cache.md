@@ -1,6 +1,6 @@
 ---
-title: "Clear server-side cacher for a portal in Dynamics 365 | MicrosoftDocs"
-description: "Forcefully clear server-side cache for a portal."
+title: "Clear the server-side cache for a portal in Dynamics 365 | MicrosoftDocs"
+description: "Force the portal to refresh its cache immediately."
 ms.custom: ""
 ms.date: 06/21/2017
 ms.service: crm-online
@@ -15,11 +15,17 @@ manager: sakudes
 ---
 
 # Clear the server-side cache for a portal
-As a portal administrator, you can clear the server-side cache for the entire portal so that the updated data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is immediately reflected on the portal. Updates from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] are communicated to the portal in asynchronous mode, so there might be a lag for the data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be updated on the portal. This functionality allows you to force the portal to refresh its cache immediately, if this delay is interfering with portal configuration.
 
-To clear server-side cache:
-1.	Log into the portal as an administrator.
+As a portal administrator, you can clear the server-side cache for the entire portal so that updated data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is immediately reflected on the portal. Updates from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] are communicated to the portal in asynchronous mode, so there might be a lag between the time data is updated in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and the time that updated data appears on the portal. To eliminate this delay&mdash;for example, when it interferes with portal configuration&mdash;you can force the portal to refresh its cache immediately.
+
+To clear the server-side cache
+
+1.	Sign in to the portal as an administrator.
+
 2.	Navigate to the URL as follows: `<portal_path>/_services/about`
-3.	Click **Clear Cache**. The server-side cache will be deleted, and the data is reloaded from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Note that clearing the portal server-side cache will result in temporary poor portal performance while data is reloaded from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+
+3.	Select **Clear Cache**. 
+
+The server-side cache is deleted, and data is reloaded from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Note that clearing the portal server-side cache will temporararily cause poor portal performance while data is being reloaded from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
         
-    ![Clear portal cache](media/clear-portal-cache.png "Clear portal cache") 
+![Clear the portal cache](media/clear-portal-cache.png "Clear the portal cache")
