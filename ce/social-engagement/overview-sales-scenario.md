@@ -10,7 +10,7 @@ author: "m-hartmann"
 ms.author: mhart
 ms.manager: sakudes
 ---
-# FRE: Social Selling - grow your network and boost sales
+# Social Selling - grow your network and boost sales
 
 Buying decisions are often influenced by information found on the Internet and increasingly on social media. Salespeople can sell more by leveraging social media. To do this, they must be thought leaders and increase their social presence by participating in discussions around their products or services.
 

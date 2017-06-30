@@ -1,13 +1,11 @@
 ---
 title: "Introduction and overview on Social Engagement and related scenarios | Microsoft Docs"
 description: "Learn about Social Engagement and get started using the service."
-ms.custom: ""
-ms.date: 2017-06-13
+ms.date: 2017-07-10
 applies_to: "Social Engagement"
 ms.service: "mse"
 ms.topic: article
 ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
-caps.latest.revision: 7
 author: "m-hartmann"
 ms.author: mhart
 ms.manager: sakudes
@@ -55,6 +53,16 @@ See how some of our customers are using Social Engagement to address their use-c
 -   [Engage on social networks](../social-engagement/engage-on-social-networks.md)&mdash;Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and share it with other users of the solution.  
 
 -   [Stay up to date with alerts](../social-engagement/email-alerts.md)&mdash;Stay on top of what's happening on the social web. Set up alerts to be sent directly to your inbox, and find out right away when something important happens.
+
+## Implementation scenarios
+
+There are several business scenarios that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] helps addressing which leads to many different implementation scenarios. We've compiled an overview for three of the core business scenarios: sales, marketing, and service.
+
+- Sales: [Social Selling - grow your network and boost sales](../social-engagement/overview-sales-scenario.md)
+
+- Service: [Address customers service scenarios on social media with Social Engagement](../social-engagement/overview-service-scenario.md)
+
+- Marketing: [Manage your brand and reputation on social media](../social-engagement/overview-marketing-scenario.md)
 
 ## Product updates
 
