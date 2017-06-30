@@ -16,33 +16,39 @@ manager: sakudes
 
 # Enable [!include[Azure](../includes/pn-azure-shortest.md)] Storage
 
-[!include[Azure](../includes/pn-azure-shortest.md)] Storage integration for Portals enables you to take advantage of the greater file storage capability of [!include[Azure](../includes/pn-azure-shortest.md)], using the same interface and providing the same experience for your users as in the default file attachments. This feature is supported for Web Files, Entity Forms, and Web Forms.
+[!include[Azure](../includes/pn-azure-shortest.md)] Storage integration for portals enables you to take advantage of the greater file storage capability of [!include[Azure](../includes/pn-azure-shortest.md)], using the same interface and providing the same user experience as for default file attachments. This feature is supported for web files, entity forms, and web forms.
 
-You must create a storage account with **Resource manager** as the deployment model. For instructions on creating an [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, see [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/storage-create-storage-account#create-a-storage-account).
+You must create a storage account with **Resource manager** as the deployment model. [!include[More information](../includes/proc-more-information.md)] [Create an Azure storage account](https://docs.microsoft.com/en-us/azure/storage/storage-create-storage-account#create-a-storage-account).
 
-Once the Storage Account is running, Portals requires certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new Setting named `FileStorage/CloudStorageAccount`.
+After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
 
-To locate the value for `FileStorage/CloudStorageAccount`, you must get a connection string from your [!include[Azure](../includes/pn-azure-shortest.md)] portal.
+[//]: # (In step 4, can you be more specific about what is the "appropriate" field?)
+To locate the value for FileStorage/CloudStorageAccount, you must get a connection string from your [!include[Azure portal](../includes/pn-azure-portal.md)].
 
-1. Log into your [!include[Azure](../includes/pn-azure-shortest.md)] portal.
+1. Sign in to your [!include[Azure portal](../includes/pn-azure-portal.md)].
+
 2. Navigate to your storage account.
+
 3. Select **Access Keys**.
 
-    ![Locate value for connection string from your Microsoft Azure portal](media/key-azure-storage.png "Locate value for connection string from your Microsoft Azure portal")
+    ![Locate value for connection string from your Azure portal](media/key-azure-storage.png "Locate the value for the connection string from your Azure portal")
 
-4. In the resulting panel, locate the field labeled **CONNECTION STRING**. Click the Copy icon next to the appropriate field to copy the contents to your clipboard and paste that value into your new setting:
+4. In the resulting panel, locate the field labeled **Connection String**. Select the **Copy** icon next to the appropriate field to copy the contents to the clipboard, and then paste that value into your new setting:
 
     ![Primary connection string value](media/primary-connection-string-azure-storage.png "Primary connection string value")
 
-    ![Portal setting for cloud storage account](media/portal-site-setting-cloud-storage-account.png "Portal setting for cloud storage account")
+    ![Portal setting for cloud storage account](media/portal-site-setting-cloud-storage-account.png "Portal setting for your cloud storage account")
 
-## Specifying the Storage Container
-If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)] Blob Container in your storage account, you should add one using your Microsoft Azure portal.
+## Specify the storage container
 
-From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new Setting named `FileStorage/CloudStorageContainerName`, using the name of your Container as the value:
+[//]: # (Edit from "should" to "must" assumes that this is not optional--that is, you have to have an Azure Blob Storage container in your Azure portal.)
+If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)] Blob container in your storage account, you must add one by using your [!include[Azure portal](../includes/pn-azure-portal.md)].
 
-![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for cloud storage container")
+From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Settings** > **Portal Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
 
-You must also enable CORS on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, otherwise you will see the regular attachment icon, not the Cloud icon. For information on CORS setup, see [here](https://docs.microsoft.com/en-us/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
+![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for your cloud storage container")
 
-With these settings, your Portals application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [Add a Web Resource](add-web-resource.md) and configure [Entity Forms](entity-forms-custom-logic.md#notes-configuration-for-entity-form) or [Web Forms](configure-notes.md) to use it.
+You must also enable cross-origin resource sharing (CORS) on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, otherwise you will see the regular attachment icon rather than the cloud icon. [!include[More information:](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
+
+[//]: # (Note the edit to the link to add-web-resource.md. Even if you never change the title in the topic, the link can be made more descriptive.)
+With these settings, your portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](entity-forms-custom-logic.md#notes-configuration-for-entity-form) or [web forms](configure-notes.md) to use it.
