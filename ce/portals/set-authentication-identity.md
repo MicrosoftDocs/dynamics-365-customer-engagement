@@ -19,15 +19,15 @@ manager: sakudes
 Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
 
 - Local (username/password) user sign-in
-- External (social provider) user sign-in through third party identity providers
+- External (social provider) user sign-in through third-party identity providers
 - Two-factor authentication with email
 - Email address confirmation
 - Password recovery
-- Invitation code sign-up for registering pre-generated contact records
+- Invitation code sign-up for registering pregenerated contact records
 
 ## Requirements
 
-Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] requires
+Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] requires:
 
 - [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Portal Base
 - [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity
@@ -35,9 +35,9 @@ Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.m
 
 ## Authentication overview
 
-Returning portal visitors have the option to authenticate using local user credentials and/or external identity provider accounts. A new visitor can register for a new user account either by providing a username/password or by signing-in through an external provider. Visitors who are sent an invitation code (by the portal administrator) have the option to redeem the code in the process of signing-up for a new user account.
+Returning portal visitors have the option to authenticate by using local user credentials and/or external identity provider accounts. A new visitor can register for a new user account either by providing a username/password or by signing in through an external provider. Visitors who are sent an invitation code (by the portal administrator) have the option to redeem the code in the process of signing up for a new user account.
 
-**Related Site Settings:**
+**Related site settings:**
 
 - `Authentication/Registration/Enabled`
 - `Authentication/Registration/LocalLoginEnabled`
@@ -47,50 +47,51 @@ Returning portal visitors have the option to authenticate using local user crede
 - `Authentication/Registration/RememberMeEnabled`
 - `Authentication/Registration/ResetPasswordEnabled`
 
-### Sign-in with a local identity or external identity
+### Sign in by using a local identity or external identity
 
-![Sign-in with a local account](media/sign-in-local-account.png "Sign-in with a local account")  
+![Sign in by using a local account](media/sign-in-local-account.png "Sign in by using a local account")  
 
-### Sign-up with a local identity or external identity
+### Sign up by using a local identity or external identity
 
 ![Register for a new local account](media/register-new-local-account.png "Register for a new local account")  
 
 ### Redeem an invitation code manually
 
-![Sign-up with a invitation code](media/sign-up-invitation-code.png "Sign-up with a invitation code")  
+![Sign up by using a invitation code](media/sign-up-invitation-code.png "Sign up by using a invitation code")  
 
 ## Forgot password or password reset 
 
 Returning visitors who require a password reset (and have previously specified an email address on their user profile) have the option of requesting a password reset token to be sent to their email account. A reset token allows its owner to choose a new password. Alternatively, the token can be abandoned, leaving the user’s original password unmodified.
 
-**Related Site Settings:**
+**Related site settings:**
 
 - `Authentication/Registration/ResetPasswordEnabled`
 - `Authentication/Registration/ResetPasswordRequiresConfirmedEmail`
 
-**Related Processes:**
+[//]: # (I believe "Process: send password reset to contact" was a duplicate?)
+**Related processes:**
 
-- Send Password Reset To Contact
+- Send password reset to contact
 - Customize the email in the workflow as necessary
 - Submit email to invoke process
 - Visitor prompted to check email
-- Process: Send Password Reset To Contact
 - Password reset email with instructions
 - Visitor returns to the reset form
 - Password reset complete
 
 ## Redeem an invitation
 
-Redeeming an invitation code allows a registering visitor to be associated to an existing contact record that was prepared in advance specifically for that visitor. Typically, the invitation codes are sent out by email but a general code submission form is available for codes sent though other channels. After a valid invitation code is submitted, the normal user registration (sign-up) process takes place to setup the new user account.
+Redeeming an invitation code allows a registering visitor to be associated to an existing contact record that was prepared in advance specifically for that visitor. Typically, the invitation codes are sent out by email but a general code submission form is available for codes sent though other channels. After a valid invitation code is submitted, the normal user registration (sign-up) process takes place to set up the new user account.
 
-**Related Site Settings:**
+**Related site settings:**
 
 `Authentication/Registration/InvitationEnabled`
 
-**Related Processes:**
+**Related processes:**
 
-### Send Invitation
-The email sent by this workflow must be customized with the URL to the redeem invitation page on the portal: http://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation Code(Invitation)}
+[//]: # (Edit to make the heading unique.)
+### Send invitation workflow
+The email sent by this workflow must be customized by using the URL to the redeem invitation page on the portal: http://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation Code(Invitation)}
 
 ### Create invitation for a new contact
 
@@ -100,19 +101,20 @@ The email sent by this workflow must be customized with the URL to the redeem in
 
 ![Customize a new invitation](media/customize-new-invitation.png "Customize a new invitation")  
 
-### Send Invitation
+[//]: # (The edits to this list might be wrong. I made them because I'm confused about who is the agent of action in each step, and who the audience is. Step 1 seems to be what the customizer does, step 2 is what the email does, step 3 is what the end user does... Because I don't know who is actually doing these things, I didn't replicate this edit throughout the topic, otherwise I would have tried to make all these lists clearer.)
+### Send invitation
 
-1. Customize the invitation email 
-2. Invitation email opens the redemption page
-3. Sign-up using the submitted invitation code
+1. Customize the invitation email.
+2. The invitation email opens the redemption page.
+3. The user signs up by using the submitted invitation code.
 
-    ![Sign-up with a invitation code](media/sign-up-invitation-code.png "Sign-up with a invitation code")  
+    ![Sign-up with a invitation code](media/sign-up-invitation-code.png "Sign up by using an invitation code")  
 
 ## Manage user accounts through profile pages
 
-Authenticated users manage their user accounts through the Security navigation bar of the profile page. Users are not limited to the single local account or single external account chosen at user registration time. Users with an external account may choose to create a local account by applying a username and password. Otherwise, users who started with a local account can choose to associate multiple external identities to their account. The profile page is also where the user is reminded to confirm their email address by requesting a confirmation email to be sent to their email account.
+Authenticated users manage their user accounts through the **Security** navigation bar of the profile page. Users are not limited to the single local account or single external account they chose at user registration time. Users who have an external account can choose to create a local account by applying a username and password. Otherwise, users who started with a local account can choose to associate multiple external identities to their account. The profile page is also where the user is reminded to confirm their email address by requesting a confirmation email to be sent to their email account.
 
-**Related Site Settings:**
+**Related site settings:**
 
 - `Authentication/Registration/LocalLoginEnabled`
 
@@ -122,34 +124,36 @@ Authenticated users manage their user accounts through the Security navigation b
 
 ## Set or change a password
 
-A user with an existing local account can apply a new password by providing the original password. A user without a local account can choose a username and password to set up a new local account. The username cannot be changed after it is set.
+A user who has an existing local account can apply a new password by providing the original password. A user who does not have a local account can choose a username and password to set up a new local account. The username cannot be changed after it is set.
 
-**Related Site Settings:**
+**Related site settings:**
 
 `Authentication/Registration/LocalLoginEnabled`
 
-- Create a username and password
-- Change an existing password
+- Create a username and password.
+- Change an existing password.
 
 ## Change or confirm an email address
 
-Changing an email address (or setting it for the first time) puts it into an unconfirmed state. The user can request a confirmation email to be sent to the new email address, including instructions on completing the email confirmation process.
+Changing an email address (or setting it for the first time) puts it into an unconfirmed state. The user can request a confirmation email to be sent to the new email address, including instructions for completing the email confirmation process.
 
-**Related Processes:**
+**Related processes:**
 
-### Send Email Confirmation To Contact
+### Send email confirmation to contact
 1. Customize the email in the workflow as necessary. 
 2. Submit a new email (unconfirmed).
-3. Check email for confirmation
+3. Check email for confirmation.
 
-### Send Email Confirmation To Contact
-1. Customize the confirmation email
-2.  Click the confirmation link to complete
+[//]: # (This is the same as previous heading--is that okay?)
+### Send email confirmation to contact
+1.  Customize the confirmation email.
+2.  Click the confirmation link to complete.
 
 ## Enable two-factor authentication
 
-The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local/external account sign-in. A user trying to sign into an account with two-factor authentication enabled is sent a security code to the confirmed email  associated to their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passes the verification such that the security code is not required for subsequent sign-ins from the same browser.
+The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local/external account sign-in. A user trying to sign in to an account that has two-factor authentication enabled is sent a security code to the confirmed email associated with their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passed the verification, so that the security code will not be required for subsequent sign-ins from the same browser.
 
+[//]: # (In the second sentence, what does "both" refer to?)
 Each user account enables this feature individually and requires a confirmed email. User accounts with both may choose which method to receive the security code.
 
 **Related Site Settings:**
@@ -159,7 +163,8 @@ Each user account enables this feature individually and requires a confirmed ema
 
 **Related Processes:**
 
-- Send Email Two Factor Code To Contact
+[//]: # (Step 4 doesn't go with the process flow. I think naming who or what is performing each step will help make this logical. Step 5 isn't really a step)
+### Send Email Two Factor Code To Contact
 
 1. Enable two-factor authentication.
 2. Choose to receive security code by email.
