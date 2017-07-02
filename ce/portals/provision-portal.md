@@ -166,7 +166,7 @@ To import metadata translation:
 3.	Go to **Portal Actions** > **Get latest metadata translations**. A confirmation window is displayed asking whether to update the portal solutions.
 4.	Click **Update**. The portal solutions will be updated with the latest metadata translation.
 
-> [!Notes]
+> [!Note]
 > - If the latest version of portal package is available, it is not updated. The portal solutions are updated in the same version. To upgrade your Portal solutions based on latest available packages, you need to access Solution Admin center.
 > - If a user has modified any data in Dynamics 365, the existing data is not overwritten during the update.
 > - If the portal solutions are being installed, the solution update cannot be triggered.
@@ -176,17 +176,17 @@ You can enable a Portal to send data of a user’s activity to your Dynamics 365
 
 Let’s take the following scenario:
 
-Jay is the Dynamics 365 administrator and he is interested in knowing the activity of the Portal users before the case is submitted. Jay purchases DCI instance from Azure Portal using his own subscription plan. Jay then navigates to the Portal Admin Center and configures his Portal to use the DCI instance he purchased.
+Jay is the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] administrator and he is interested in knowing the activity of the Portal users before the case is submitted. Jay purchases DCI instance from Azure Portal using his own subscription plan. Jay then navigates to the Portal Admin Center and configures his Portal to use the DCI instance he purchased.
 
-Dynamics 365 Portals needs the latest shared access key to send the interactions to DCI. Jay navigates to the Portal Admin Center and he can see the currently configured DCI instance. Jay can change the DCI instance or update the shared access key for the currently configured DCI instance.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals needs the latest shared access key to send the interactions to DCI. Jay navigates to the Portal Admin Center and he can see the currently configured DCI instance. Jay can change the DCI instance or update the shared access key for the currently configured DCI instance.
 
 To view activity of a user on a Portal:
-1.	Go to the Dynamics 365 Administration Center page and click the Applications tab.
+1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and click the Applications tab.
 2.	Select the name of the portal you want to view user’s activity and click Manage.
 3.	Click Portal Analytics. The Tracking Portal Interaction page is displayed.
 4.	Click Configure Portal Interaction Tracking. The Configure Portal Interaction Tracking window is displayed.
 5.	Enter the following values as per your Dynamics 365 Customer Insights instance:
-    - Dynamics 365 for Customer Insights hub URI 
+    - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for Customer Insights hub URI 
     - Policy name with Manage, Read, and Write permissions 
     - Shared Key
 6.	Select the I have read and understood the terms and conditions check box.
@@ -200,7 +200,7 @@ Once DCI is configured on Portal, the following actions become available:
 To persist interactions in customer’s DCI, the portal needs to create the interaction related configuration in DCI. These interactions need to be tied against a DCI Profile.
 
 > [!Note]
-> Dynamics 365 supports multiple portals and they can use the same DCI instance.
+> [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] supports multiple portals and they can use the same DCI instance.
 
 A Portal user can view knowledge articles, blogs, forum threads, Portal search exposed on the Portal.
 
