@@ -247,6 +247,9 @@ The form's map control requires additional configuration to tell it what the ids
 
 ![Geolocation data in web form](media/geolocation-managed-form.png "Geolocation data in web form")
 
+> [!Note]
+> The Geolocation section is not visible in the German Sovereign Cloud environment. If a user has enabled geolocation using a different form, it will not be displayed during rendering on portal.
+
 ### See also
 
 [Configure a Dynamics 365 portal](configure-portal.md)  
