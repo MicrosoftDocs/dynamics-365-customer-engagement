@@ -157,3 +157,80 @@ You can use the purchased SSL certificate for your domain to link your [!INCLUDE
 
     ![Choose the SSL certificate](media/choose-ssl-certificate.png "Choose the SSL certificate")  
     
+## Import metadata translation
+When you provision a portal, the portal related solutions are installed on the organization. During the installation of solutions, the solution metadata translations (ex: Field name, form name, view name etc.,) are installed only for the languages currently activated in the organization. If you activate a new language in future, the metadata is not installed automatically for the newly activated language. To get the metadata translation for the newly activated language, you must import metadata translation from the Administration Center.
+
+To import metadata translation:
+1.	Go to the **Dynamics 365 Administration Center** page and click the **Applications** tab.
+2.	Select the name of the portal in which you want to import metadata translation and click **Manage**.
+3.	Go to **Portal Actions** > **Get latest metadata translations**. A confirmation window is displayed asking whether to update the portal solutions.
+4.	Click **Update**. The portal solutions will be updated with the latest metadata translation.
+
+> [!Notes]
+> - If the latest version of portal package is available, it is not updated. The portal solutions are updated in the same version. To upgrade your Portal solutions based on latest available packages, you need to access Solution Admin center.
+> - If a user has modified any data in Dynamics 365, the existing data is not overwritten during the update.
+> - If the portal solutions are being installed, the solution update cannot be triggered.
+
+## View activity of a user on a Portal
+You can enable a Portal to send data of a user’s activity to your Dynamics 365 Customer Insights (DCI) instance. This will be helpful in knowing the user’s journey on a Portal before and after creating a case. This also help you to understand the real issue, avoid asking the same information again from the user, and enable you to respond with the relevant information.
+
+Let’s take the following scenario:
+
+Jay is the Dynamics 365 administrator and he is interested in knowing the activity of the Portal users before the case is submitted. Jay purchases DCI instance from Azure Portal using his own subscription plan. Jay then navigates to the Portal Admin Center and configures his Portal to use the DCI instance he purchased.
+
+Dynamics 365 Portals needs the latest shared access key to send the interactions to DCI. Jay navigates to the Portal Admin Center and he can see the currently configured DCI instance. Jay can change the DCI instance or update the shared access key for the currently configured DCI instance.
+
+To view activity of a user on a Portal:
+1.	Go to the Dynamics 365 Administration Center page and click the Applications tab.
+2.	Select the name of the portal you want to view user’s activity and click Manage.
+3.	Click Portal Analytics. The Tracking Portal Interaction page is displayed.
+4.	Click Configure Portal Interaction Tracking. The Configure Portal Interaction Tracking window is displayed.
+5.	Enter the following values as per your Dynamics 365 Customer Insights instance:
+    - Dynamics 365 for Customer Insights hub URI 
+    - Policy name with Manage, Read, and Write permissions 
+    - Shared Key
+6.	Select the I have read and understood the terms and conditions check box.
+7.	Click Configure. A progress window is displayed.
+8.	Click Close in the confirmation window.
+Once DCI is configured on Portal, the following actions become available:
+- Update D365 Customer Insights configuration: Allows you to update the shared key related to your policy. The hub URI is read-only.
+- Delete D365 Customer Insights integration: Allows you to delete the connection configuration between your DCI and your portal.
+
+### Configure DCI
+To persist interactions in customer’s DCI, the portal needs to create the interaction related configuration in DCI. These interactions need to be tied against a DCI Profile.
+
+> [!Note]
+> Dynamics 365 supports multiple portals and they can use the same DCI instance.
+
+A Portal user can view knowledge articles, blogs, forum threads, Portal search exposed on the Portal.
+
+To allow a seamless experience, following interactions are captured in DCI:
+
+
+|Interaction name   |Display Name   |Fields   |Description   |Parameters captured|
+|---|---|---|---|---|
+|portal\_viewknowledgearticle |Knowledge article   |portal\_interactionid, portal\_knowledgearticleid, portal\_knowledgetitle, portal\_contactid, portal\_timestamp,  portal\_portalid |Tracks portal users viewing a knowledge article   |Knowledge article id, language, session id, portal id |
+|portal\_viewblogpost   |Blog post   |portal\_interactionid,portal\_blogpostid, portal\_blogtitle, portal\_contactid, portal\_timestamp, portal\_portalid   |Tracks portal users viewing a blog post   |Blog post id, session id, portal id |
+|portal\_viewforumthread   |Forum thread   |portal\_interactionid,portal\_forumthreadid, portal\_forumthreadtitle, portal\_contactid, portal\_timestamp, portal\_portalid   |Tracks portal users viewing a forum thread   |Forum Thread id, session id, portal id |
+|portal\_search   |Portal Search   |portal\_interactionid, portal\_contactid, portal\_searchstring, portal\_timestamp, portal\_portalid   |Tracks portal users’ searches.   | |
+||
+
+As a Portal administrator, you can configure which interaction gets ingested into DCI through Portals as per the customer’s requirement. To prevent a specific interaction being captured by a Portal, you can delete the interaction type from DCI.
+
+Portal persists all its data in Dynamics 365. All the data required to render content on the Portal comes from Dynamics 365. Data in Dynamics 365 will be used to model Profiles and the Portal interactions will be tied to it. Portals will not create custom Profiles. The Portal Administrator must manually connect this Dynamics 365 Org to DCI and create Profiles. After creation of Profiles, the administrator must manually link the profiles to the Portal interaction type. This will allow the administrator to create charts/profile views.
+
+For details on configuring DCI, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-insights/stepbystepconfiguration).
+
+### Visualize customer journey
+Visualizing a customer journey allows you to view the user’s activity in the chart format. This helps you to know what activities a user has already performed before submitting the case, so you can provide relevant information.
+
+Let’s take the following scenario:
+
+Sharron is the CSR executive working on the cases in Contoso, Ltd. Sharron frequently helps her customers to resolve the customer issues by sharing the knowledge articles link from the http://support.contoso.com self-service portal. At times, Sharron shares the same articles her customers have already read, which resulted in poor customer satisfaction. 
+
+The Customer Journey chart is embedded on the Case form, which displays the Portal user’s activity moments before the case was created. This helps Sharron to know what activities her Portal user has already done and share the relevant information that would help resolve the issue in an effective way.
+
+For details on configuring DCI, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-insights/stepbystepconfiguration).
+
+
+
