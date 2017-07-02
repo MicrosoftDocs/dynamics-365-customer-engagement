@@ -24,8 +24,9 @@ Portals are websites that you can customize to provide a more personalized exper
 > - To provision a portal, you must be assigned to the System Administrator role of the Dynamics 365 organization selected for the portal.
 > - To manage an existing portal, you must be assigned any one of the following roles:
     - Office 365 Global Administrator 
-    - Dynamics 365 Service Administrator. For more information on this role, see here. 
-    - System Administrator of the Dynamics 365 organization selected for the portal 
+    - Dynamics 365 Service Administrator. For more information on this role, see [here](https://technet.microsoft.com/en-us/library/mt793847.aspx). 
+    - System Administrator of the Dynamics 365 organization selected for the portal.
+    
 > If you are not assigned any of the above-mentioned roles, the following message is displayed: “You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.”
 
 
