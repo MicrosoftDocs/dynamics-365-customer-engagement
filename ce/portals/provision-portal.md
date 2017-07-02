@@ -23,9 +23,9 @@ Portals are websites that you can customize to provide a more personalized exper
 > [!NOTE]
 > - To provision a portal, you must be assigned to the System Administrator role of the Dynamics 365 organization selected for the portal.
 > - To manage an existing portal, you must be assigned any one of the following roles:
-    - Office 365 Global Administrator 
-    - Dynamics 365 Service Administrator. For more information on this role, see [here](https://technet.microsoft.com/en-us/library/mt793847.aspx). 
-    - System Administrator of the Dynamics 365 organization selected for the portal.
+    > - Office 365 Global Administrator 
+    > - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. For more information on this role, see [here](https://technet.microsoft.com/en-us/library/mt793847.aspx). 
+    > - System Administrator of the Dynamics 365 organization selected for the portal.
     
 > If you are not assigned any of the above-mentioned roles, the following message is displayed: “You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.”
 
@@ -128,8 +128,8 @@ If the package installation has failed, the Portal administrator page will open 
 1. Go to the Solution Management page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] and check that the package status is “Install Failed.” 
 2. If the package status is “Install Failed,” try retrying the installation from the solution page. Also, be sure to check that a system administrator in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is installing the solution with the default language in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] set to the language the portal should be installed in.
 
->[!Note]
->Some solutions have prerequisites for their installation, so an installation will fail if the prerequisites are not met. For example, to install the Partner Field Service for a partner portal, the Partner Portal and Field Service solutions must have already been installed. If you attempt to install the Partner Field Service first, the installation will fail and give you an error message.
+> [!Note]
+> Some solutions have prerequisites for their installation, so an installation will fail if the prerequisites are not met. For example, to install the Partner Field Service for a partner portal, the Partner Portal and Field Service solutions must have already been installed. If you attempt to install the Partner Field Service first, the installation will fail and give you an error message.
 
 ## Set up custom domains and SSL certificates for a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal
 
@@ -168,7 +168,7 @@ To import metadata translation:
 
 > [!Note]
 > - If the latest version of portal package is available, it is not updated. The portal solutions are updated in the same version. To upgrade your Portal solutions based on latest available packages, you need to access Solution Admin center.
-> - If a user has modified any data in Dynamics 365, the existing data is not overwritten during the update.
+> - If a user has modified any data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the existing data is not overwritten during the update.
 > - If the portal solutions are being installed, the solution update cannot be triggered.
 
 ## View activity of a user on a Portal
