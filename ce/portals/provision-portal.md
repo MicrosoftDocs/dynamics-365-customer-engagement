@@ -102,18 +102,10 @@ The table below summarizes the features associated with each portal option:
 
     ![Terms of service](media/terms-of-service.png "Terms of service")  
 
-12. You will be redirected to the [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] sign in page. Select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that you used to create the portal.
-
-    ![Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](media/sign-in-dynamics-365.png "Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]")  
-
-13. You will be asked to provide consent for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals.
-
-    ![Provide permission to enable sign-on](media/permission-enable-sign-on.png "Provide permission to enable sign-on")  
-
 After you accept the Terms of Service, portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to “*Name*-Configuring” while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
 
->[!Note}
->When a portal user logs into the portal for the first time using Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.
+> [!Note]
+> When a portal user logs into the portal for the first time using Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.
 
 ## Troubleshoot Provisioning
 
