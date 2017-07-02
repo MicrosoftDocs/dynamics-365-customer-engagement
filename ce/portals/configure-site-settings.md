@@ -34,9 +34,10 @@ You can manage the following types of site settings:
     - **Website**:  The associated website. 
     - **Value**: The setting
     - **Description**: The purpose of the setting or special instructions.
-6. Click **Save & Close**
->[!Note] 
->Bing Maps integration is not supported in the German Sovereign Cloud. If you try to create the Bingmaps/credentials setting in this environment, an error message will be displayed.
+6. Click **Save & Close**.
+
+> [!Note] 
+> Bing Maps integration is not supported in the German Sovereign Cloud. If you try to create the Bingmaps/credentials setting in this environment, an error message will be displayed.
 
 ## Manage global portal settings
 
@@ -48,8 +49,9 @@ You can manage the following types of site settings:
     - **Name**:  A unique name referenced by code to retrieve the appropriate setting.
     - **Value**: The setting
     - **Description**: The purpose of the setting or special instructions.
-6. Click **Save & Close**
->[!Note] 
+6. Click **Save & Close**.
+
+> [!Note] 
 > Bing Maps integration is not supported in the German Sovereign Cloud. If you try to create the BinMap/Key or Adxstudio/ProductivityPack/BingMap/Key setting in this environment, an error message will be displayed.
 
 ### See also
