@@ -19,8 +19,11 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 ## Portal capabilities version 8.3 for Dynamics 365
 The Portal capabilities version 8.3 for Dynamics 365 has brought many new updates and features:
-- **Ability to include attachments on knowledge articles**: This feature allows you to display notes attachments along with the knowledge article in Portals. To enable this feature, you must create a site setting KnowledgeManagement/DisplayNotes and set the value to true. With this feature, Portal users can also search for these attachments. 
->[!Note] Search for attachments is possible only on the Notes description and File Attachment name. The content of attachment file is not searchable.
+- **Ability to include attachments on knowledge articles**: This feature allows you to display notes attachments along with the knowledge article in Portals. To enable this feature, you must create a site setting KnowledgeManagement/DisplayNotes and set the value to true. With this feature, Portal users can also search for these attachments.
+
+  > [!Note]
+  > Search for attachments is possible only on the Notes description and File Attachment name. The content of attachment file is not searchable.
+  
 - **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and make a subset of it available to your Portal customers based on the security and permission model you choose. 
 - **Portal interaction tracking (Preview)**: This preview feature allows you to track your customer's interactions with your Portal and funnel it to Dynamics 365 Customer Insights (DCI) to plot a 360-degree view. This will be helpful in knowing the user’s journey on a Portal before and after creating a case. This also help you to understand the real issue, avoid asking the same information again from the user, and enable you to respond with the relevant information.
 - **Import metadata translation**: This feature allows you to import the metadata translation of the newly activated languages post installation of a portal.
@@ -34,7 +37,7 @@ Note: Source code is offered as working sample and on an as-needed basis. No dir
 - **Allowing non-global administrators to provision Portal**: You can now provision a portal if you are assigned to the System Administrator role of the CRM organization selected for the portal. You can now also manage an existing portal, if you have any of the following roles:
   - Dynamics 365 Service Administrator
   - System Administrator of the CRM organization selected for the portal
-- *Store custom domain name for portal*: This feature stores the primary domain name of a portal on the website record. If the domain name is changed in future, the latest primary domain name is stored. 
+- **Store custom domain name for portal**: This feature stores the primary domain name of a portal on the website record. If the domain name is changed in future, the latest primary domain name is stored. 
 - **Tracking cookie for Portals**: A persistent cookie Dynamics365PortalAnalytics will be set whenever a user will navigate to a Portal. This cookie has an expiration of 90 days.  This cookie does not store any personal data of the user and is used by Microsoft to collect analytics about portal service. Please read more about Microsoft Online services privacy statement [here](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx).
 
 
