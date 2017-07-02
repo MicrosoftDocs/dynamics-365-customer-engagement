@@ -21,7 +21,13 @@ Portals are websites that you can customize to provide a more personalized exper
 -   Internal employees can create and see best practices
 
 > [!NOTE]
-> You must be a Global Administrator role to provision a portal.
+> - To provision a portal, you must be assigned to the System Administrator role of the Dynamics 365 organization selected for the portal.
+> - To manage an existing portal, you must be assigned any one of the following roles:
+    - Office 365 Global Administrator 
+    - Dynamics 365 Service Administrator. For more information on this role, see here. 
+    - System Administrator of the Dynamics 365 organization selected for the portal 
+> If you are not assigned any of the above-mentioned roles, the following message is displayed: “You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.”
+
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
@@ -103,7 +109,10 @@ The table below summarizes the features associated with each portal option:
 
     ![Provide permission to enable sign-on](media/permission-enable-sign-on.png "Provide permission to enable sign-on")  
 
-After you consent, your portal will begin provisioning. Provisioning usually takes a few hours, but can take more time depending on system load. The *Name* of the portal on the Application tab will change to “*Name*-Configuring” while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
+After you accept the Terms of Service, portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to “*Name*-Configuring” while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
+
+>[!Note}
+>When a portal user logs into the portal for the first time using Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.
 
 ## Troubleshoot Provisioning
 
