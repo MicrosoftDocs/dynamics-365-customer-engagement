@@ -12,6 +12,15 @@ July 2017
 This document provides important, late-breaking information about Microsoft
 Social Engagement 2017 Update 1.6.
 
+Contents
+--------
+
+[Resources](#resources)
+
+[General known issues](#general-known-issues)
+
+[Copyright](#copyright)
+
 Resources
 ---------
 
@@ -219,19 +228,21 @@ Search topic in the Microsoft Social Engagement Analytics page's URL.
 When you use the Chrome browser with the AdBlock extension, the Author details
 view in Social Engagement will not show the Twitter timeline widget.
 
-### Facebook Acquisition Notification in Analytics not always disappearing
+### Facebook Acquisition Notification in Analytics does not always disappear
 
-In some cases, the notification in Analytics telling the users of MSE that they
-do not have a valid token for Facebook Pages acquisition is wrongly displayed.
-Users are advised to go to Social Profiles in MSE and check if their acquisition
-tokens are valid. If acquisition tokens are valid, the notification in Analytics
-can be ignored.
+In some cases, the notification in Analytics that tells Social Engagement users
+that they do not have a valid token for Facebook Pages acquisition is wrongly
+displayed.
+
+If you see this message, we recommend you go to Social Profiles and check if
+your acquisition tokens are valid. If they are valid, you can ignore the
+Analytics notification.
 
 ### Some Disqus posts are not acquired due to a missing URL in the post
 
 In some cases, Disqus posts are missing an URL. This can happen if posts are
-created through an API or through private channels. Such messages cannot be
-acquired by MSE.
+created through an API or through private channels. Social Engagement cannot
+acquire messages that are missing an URL.
 
 Copyright
 ---------
@@ -245,9 +256,7 @@ fictitious. No real association or connection is intended or should be inferred.
 
 This document does not provide you with any legal rights to any intellectual
 property in any Microsoft product. You may copy and use this document for your
-internal, reference purposes. This document is confidential and proprietary to
-Microsoft. It is disclosed and can be used only pursuant to a non-disclosure
-agreement.
+internal, reference purposes.
 
 The videos and eBooks might be in English only. Also, if you click the links,
 you may be redirected to a U.S. website whose content is in English.
