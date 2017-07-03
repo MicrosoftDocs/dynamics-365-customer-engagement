@@ -12,15 +12,6 @@ July 2017
 This document provides important, late-breaking information about Microsoft
 Social Engagement 2017 Update 1.6.
 
-Contents
---------
-
-[Resources](#resources)
-
-[General known issues](#general-known-issues)
-
-[Copyright](#copyright)
-
 Resources
 ---------
 
