@@ -36,7 +36,7 @@
 <!--[//]: <> (SELF: New topic.)-->
 ### [Enable Azure storage](enable-azure-storage.md) 
 <!--[comment]:<>(SELF: New topic.)-->
-### [Add a web resource](add-web-resource.md)
+### [Add the Azure Storage web resource to a form](add-web-resource.md)
 ### [Define entity forms and custom logic](entity-forms-custom-logic.md)
 ### [Define web form properties](web-form-properties.md)
 ### [Define web form steps](web-form-steps.md)

@@ -34,3 +34,5 @@ To view the primary domain name in [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 2.	Go to **Portals** > **Website** > **Websites**.
 3.	Click the website for which you want to see the primary domain name.
 4.	View the name stored in the **Primary Domain Name** field under the **General** section.
+
+    ![View primary domain name](media/view-primary-domain-name.png "View primary domain name")  
