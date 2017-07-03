@@ -1,6 +1,6 @@
 ---
 title: "View primary domain name in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to view primary domain name for a portal in Dynamics 365."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

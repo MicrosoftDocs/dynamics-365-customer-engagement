@@ -1,6 +1,6 @@
 ---
 title: "Behavior and format of the date and time field in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Behavior and format of the date and time field in a portal in Dynamics 365."
 ms.custom: ""
 ms.date: 07/02/2017
 ms.service: crm-online
