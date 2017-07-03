@@ -15,7 +15,7 @@ manager: sakudes
 ---
 
 [//]: # (This title doesn't really describe what the procedure does. Can you call it something like "Enable attachments to be uploaded from a form to Azure Storage"?)
-# Add a web resource
+# Add the Azure Storage web resource to a form
 
 Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can be managed by using notes in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
