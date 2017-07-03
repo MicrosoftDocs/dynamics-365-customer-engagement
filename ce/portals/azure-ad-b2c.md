@@ -36,8 +36,10 @@ To use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity
 3.	Click **[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory** on the left navigation bar.
 4.	Click **Properties** from the left pane. The tenant properties are displayed.
 5.	[Create Azure application](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
+    
     > [!Note]
     > You must choose **Yes** for the **Allow implicit flow** field and specify your portal URL in the **Reply URL** field.
+
 6.	Copy the application name and store it as the value of the Application-Name variable in the above table.
 7.	Copy the application ID and store it as the value of the Application-ID variable in the above table.
 8.	[Create a sign-up or sign-in policy](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-reference-policies#create-a-sign-up-or-sign-in-policy).
@@ -485,7 +487,7 @@ When there is a new customer provisioned that does not exist in [!INCLUDE[pn-dyn
 
 **Format**: attribute1=claim1,attribute2=claim2,attribute3=claim3
 
-**For example**:  firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle
+For example:  firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle
 
 ### Claims to support sign-on scenarios
 
@@ -497,7 +499,7 @@ The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in t
 
 **Format**: attribute1=claim1, attribute2=claim2, attribute3=claim3
 
-**For example**: firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle 
+For example: firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle 
 
 The claim name is the CLAIM TYPE field listed next to the attribute in the Sign-in or sign-up policies Application claims.
 
