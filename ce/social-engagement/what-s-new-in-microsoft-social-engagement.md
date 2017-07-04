@@ -2,15 +2,11 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 ms.custom: ""
-ms.date: 2017-06-06
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
-caps.latest.revision: 176
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -23,6 +19,16 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
  For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/). 
  
  For important, late-breaking information and a list of known issues, see the [Microsoft Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
+
+## Microsoft Social Engagement 2017 Update 1.6
+
+### Improved base model for sentiment analysis
+
+We've been contiously training the base model with addtional data to further improve the language-specific sentiment analysis. You don't have to take any action to benefit from the improvements. If you activated [Adaptive Learning](../social-engagement/adaptive-learning.md) for your organization, all your existing edits to sentiment values are applies to the improved base model automatically.  
+
+### Improved load-balancing for data acquisition
+
+Performance and reliability are key to providing a stable data acquisition pipeline which handles massive amounts of data, 24/7. Emerging trends or events often lead to significantly larger amount of data. To further increase the reliability and stability of the data acquisition service, we've introduced several improvements on how the system handles significant post volume. 
 
 ## Microsoft Social Engagement 2017 Update 1.5
 
