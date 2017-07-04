@@ -83,7 +83,7 @@ To configure your portal:
 8. To support password reset, create the required site settings described [here](#password-reset).
 9. To support claims mapping, create the required site settings described [here](#claims-mapping).
 
-For a complete list of related site settings, see [here](#related-site-settings)
+For a complete list of related site settings, see [here](#related-site-settings).
 
 ### Password reset
 
