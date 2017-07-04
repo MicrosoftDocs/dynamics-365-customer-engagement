@@ -80,6 +80,11 @@ To configure your portal:
         
       **Value**: [Policy-Signin-URL]
 
+8. To support password reset, create the required site settings described [here](#password-reset).
+9. To support claims mapping, create the required site settings described [here](#claims-mapping).
+
+For a complete list of related site setting, see [here](#related-site-settings)
+
 ### Password reset
 
 The following Site Settings are required if you wish to support password reset with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C local accounts:
