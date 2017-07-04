@@ -22,29 +22,31 @@ This overview provides a step by step description how you and your team can use 
 
 - You need to have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
 
-- You need at the following [user roles and permissions](../social-engagement/user-roles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
-
-  - Interaction role: **Responder**
-
-  - Configuration role: **Analyst**
-
 - [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
 
-- [Search topics are configured](../social-engagement/set-up-searches.md) and data acquisition is up and running.
+- [Search topics are configured](../social-engagement/set-up-searches.md) and data acquisition is up and running. To listen to mentions around your brand, it's important that you create a search topic that gathers relevant posts.
+
+- You have the required [user roles and permissions](../social-engagement/user-roles.md) assigned in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## Brand reputation
 
-To find out how a brand is perceived on social media, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] provides sentiment analysis capabilities in the original language with natural language processing and machine learning models.
+To find out how a brand is perceived on social media, after [setting up a search topic](../social-engagement/set-up-searches.md) for it. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] provides [sentiment analysis](../social-engagement/analytics-sentiment.md) capabilities in the original language with natural language processing and machine learning capabilites.
+
+1. Get an overview about the posts that mention your brand on the [Overview page in Analytics](../social-engagement/analytics-overview.md).
+
+2. Review **Anayltics > Sentiment** to get insights about the sentiment around your brand and find out who your brand advocates are.
+
+3. See which topics are being discussed around your brand on the [Conversation page in Analytics](../social-enagement/analytics-conversations.md).
 
 ## Campaign performance
 
-Campaigns on social media often revolve around a specific term, for example a hashtag. If you search for this term, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] enables you to understand at a glance how your campaign performs.
+Campaigns on social media often revolve around a specific term, for example a hashtag. If you set up a search topic this term, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] enables you to understand at a glance how your campaign performs.
 
-1. Get started analyzing the conversations around your campaign or brand on the [Conversation page in Analytics](../social-enagement/analytics-conversations.md).
+1. Get started analyzing the conversations around your campaign on the [Conversation page in Analytics](../social-enagement/analytics-conversations.md).
 
 2. [Create an Activity map](../social-enagement/activity-maps.md) to see newly found posts with location data in real-time on a map.
 
-3. Review the sentiment in posts mentioning your brand or campaign on the [Sentiment page in Analytics](../social-engagement/analytics-sentiment.md).
+3. Review the sentiment in posts mentioning your brand on the [Sentiment page in Analytics](../social-engagement/analytics-sentiment.md).
 
 > [!VIDEO https://www.youtube.com/embed/yoVW4izGGa8]
 

@@ -12,23 +12,19 @@ ms.manager: sakudes
 ---
 # Social Selling - grow your network and boost sales
 
-Buying decisions are often influenced by information found on the Internet and increasingly on social media. Salespeople can sell more by leveraging social media. To do this, they must be thought leaders and increase their social presence by participating in discussions around their products or services.
+Buying decisions are often influenced by information found on the Internet and on social media. Salespeople can leverage social media for their sales processes, become thought leaders and increase their social presence by participating in discussions around their products or services.
 
-This learning path provides a step by step description how you and your team can use [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to grow your network, find new leads and boost sales. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows to stay on top of the conversations and bring opportunities over to to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further nurturing.
+This overview provides suggested steps how you and your team can use [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to grow your network, find new leads and boost sales. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows to stay on top of the conversations and bring opportunities over to to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further nurturing.
 
 ## Prerequisites
 
 - You need to have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
 
-- You need at the following [user roles and permissions](../social-engagement/user-roles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
-
-  - Interaction role: **Responder**
-
-  - Configuration role: **Analyst**
-
 - [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
 
 - [Search topics are configured](../social-engagement/set-up-searches.md) and data acquisition is up and running.
+
+- You have the required [user roles and permissions](../social-engagement/user-roles.md) assigned in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## Social selling: grow your network and influence
 
@@ -36,7 +32,7 @@ Learn how to install, configure and personalize the Social Selling Assistant to 
 
 > [!VIDEO https://www.youtube.com/embed/B0tcV0piZbI]
 
-1. Ask an admin to [configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md).
+1. Get started and [configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md).
 
 2. [Add your social profiles](../social-engagement/manage-social-profiles.md) to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
@@ -46,7 +42,7 @@ Learn how to install, configure and personalize the Social Selling Assistant to 
 
 ## Sales efficiency: create leads in Dynamics 365 from social posts
 
-Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can create a lead and assign it so the right salesperson in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they can follow up with potential customers efficiently.
 
 1.  Get an [overview](../social-engagement/link-posts-to-dynamics-365.md) of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 
@@ -62,23 +58,16 @@ Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some wo
 
 You can create new leads from purchase intentions automatically using automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)
 
-## Social trend scout: set up trend alerts learn about significant changes
+## Social trend scout: set up trend alerts to learn about significant changes
 
+If you're gathering posts that mention you main competitor, a salesperson can set up a trend alert to stay on top of what the competitor is doing. This enables them, for example, to find out quickly if a competitor launched a new product.  
 Trend alerts trigger when the number of newly found posts exceeds the average number of posts significantly. [Create email notifications that are automatically sent to a group of recipients](/social-engagement/email-alerts.md) if a post or a change in trend matches your filters. You can set the [sensitivity of a trend alert](../social-engagement/email-alerts.md#set-a-trend-alerts-sensitivity) when you create it, or adjust it later.
 
 ## Social analytics: add widgets with social insights to entity forms in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]
 
-[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (online) users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards, or they can add them to account, contact, or competitor forms. You can also add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to other entity type forms.
+[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (online) users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards, or they can add them to account, contact, or competitor forms. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
-
-## Customer stories
-
-- [The Liebherr Group harnesses social media to stay ahead with Microsoft Dynamics CRM and Social Engagement](https://customers.microsoft.com/en-us/story/the-liebherr-group-harnesses-social-media-to-stay-ahea)
-
-- [Real Madrid brings the stadium closer to 450 million fans around the globe, with the Microsoft Cloud](https://customers.microsoft.com/en-us/story/real-madrid-brings-the-stadium-closer-to-450-million-f)
-
-[Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
 ### See Also
 
