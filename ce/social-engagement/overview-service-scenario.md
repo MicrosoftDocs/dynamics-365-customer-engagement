@@ -9,7 +9,7 @@ author: "m-hartmann"
 ms.author: mhart
 ms.manager: sakudes
 ---
-# Address customers service scenarios on social media with Social Engagement
+# Address customer service scenarios on social media with Social Engagement
 
 Do you want to offer a fast and powerful support to your customers on social channels? This article suggests scenarios how you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to address your customers' service requests on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you keep track of requests, adds intelligence on top and allows you to answer them directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
 
