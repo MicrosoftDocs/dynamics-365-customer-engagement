@@ -24,11 +24,11 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
 
 ### Improved base model for sentiment analysis
 
-We've been contiously training the base model with addtional data to further improve the language-specific sentiment analysis. You don't have to take any action to benefit from the improvements. If you activated [Adaptive Learning](../social-engagement/adaptive-learning.md) for your organization, all your existing edits to sentiment values are applies to the improved base model automatically.  
+We've continued to improve and refine the base sentiment model with modifications to the machine learning process and additional training data. You don't have to take any action to benefit from the improvements. If you activated [Adaptive Learning](../social-engagement/adaptive-learning.md) for your organization, all your existing edits to sentiment values are applies to the improved base model automatically.
 
 ### Improved load-balancing for data acquisition
 
-Performance and reliability are key to providing a stable data acquisition pipeline which handles massive amounts of data, 24/7. Emerging trends or events often lead to significantly larger amount of data. To further increase the reliability and stability of the data acquisition service, we've introduced several improvements on how the system handles significant post volume. 
+Performance and reliability are key to providing a stable data acquisition pipeline which handles massive amounts of data, 24/7. Emerging trends or events often lead to significantly larger amount of data. To further increase the reliability and stability of the data acquisition service, we've introduced several improvements on how the system handles varying post volume.
 
 ## Microsoft Social Engagement 2017 Update 1.5
 
