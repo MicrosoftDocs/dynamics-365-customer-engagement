@@ -16,49 +16,53 @@ manager: sakudes
 
 # [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C provider settings for portals
 
-[!include[Azure](../includes/pn-azure-shortest.md)] AD powers Office 365 and [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] services for employee or internal authentication. [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C (business to consumer) is an extension to that authentication model that enables external customer logons through local credentials and federation with various common social identity providers.
+[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory (Azure AD) powers Office 365 and [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] services for employee or internal authentication. [!include[Azure](../includes/pn-azure-shortest.md)] Active Directory B2C is an extension to that authentication model that enables external customer sign-ins through local credentials and federation with various common social identity providers.
 
-A portal owner can configure their portal to accept [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider. [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports Open ID Connect for federation.
+[//]: # (Might be good to name the product here: "In portal capabilities for Dynamics 365, a portal owner can configure the portal to accept...")
+A portal owner can configure the portal to accept [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider. [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports Open ID Connect for federation.
 
-In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal, a lot of values are generated that will be used later while configuring Portals. You can use the following table to store the values as per the corresponding variable. While configuring Portals, you can replace the variable name with its actual value.
+In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal, multiple values are generated that you will use later while you configure the portal. You can note these values in the following table. While configuring the portal, replace the variable name with the values you note here.
 
 | Variable Name     | Value | Description                                                           |
 |-------------------|-------|-----------------------------------------------------------------------|
 | Application-Name  |       | Name of the application that represents the portal as a relying party |
 | Application-ID    |       |                                                                       |
-| Policy-Signin-URL |       | The Issuer (iss) URL defined in the Metadata endpoint.                |
+| Policy-Signin-URL |       | The Issuer (iss) URL defined in the metadata endpoint.                |
 | Federation-Name   |       |                                                                       |
 | | | |
 
-To use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal:
-1.	Login to your [Azure portal](https://portal.azure.com/).
-2.	[Create Azure AD B2C tenant](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-get-started).
-3.	Click **[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory** on the left navigation bar.
-4.	Click **Properties** from the left pane. The tenant properties are displayed.
-5.	[Create Azure application](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
+### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
+[//]: # (Note that the Writing Style Guide doesn't want "left" used alone, it should be leftmost, upper-left, on the left side of, or lower-left. Please check edits to steps 3 and 4, they might be wrong.)
+1.	Sign in to your [Azure portal](https://portal.azure.com/).
+2.	[Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
+3.	Select **[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory** on the leftmost navigation bar.
+4.	Select **Properties** in the leftmost pane. The tenant properties are displayed.
+5.	[Create Azure application](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
     
     > [!Note]
     > You must choose **Yes** for the **Allow implicit flow** field and specify your portal URL in the **Reply URL** field.
 
-6.	Copy the application name and store it as the value of the Application-Name variable in the above table.
-7.	Copy the application ID and store it as the value of the Application-ID variable in the above table.
-8.	[Create a sign-up or sign-in policy](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-reference-policies#create-a-sign-up-or-sign-in-policy).
-9.	Select the policy and click **Edit**.
+6.	Copy the application name, and enter it as the value of Application-Name in the preceding table.
+7.	Copy the application ID, and enter it as the value of Application-ID in the preceding table.
+8.	[Create a sign-up or sign-in policy](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies#create-a-sign-up-or-sign-in-policy).
+9.	Select the policy, and then select **Edit**.
 10.	Select **Token, session & SSO config**.
-11.	From the **Issuer (iss) claim** drop-down list, select the URL that has /tfp in its path.
+11.	From the **Issuer (iss) claim** list, select the URL that has **/tfp** in its path.
 12.	Save the policy.
 13.	Click the URL in the **Metadata endpoint for this policy** field.
-14.	Copy the value of the issuer field and store it as the value of the Policy-Signin-URL variable in the above table. 
+14.	Copy the value of the issuer field and enter it as the value of Policy-Signin-URL in the preceding table. 
 
 ## Portal configuration
 
-After creating and configuring B2C tenant in [!include[Azure](../includes/pn-azure-shortest.md)], you must now configure your portal to federate with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C using the Open ID Connect protocol. You must create a unique name for your federation to [!include[Azure](../includes/pn-azure-shortest.md)] B2C, for example B2C, and store it as the value of the Federation-Name variable in the above table.
+[//]: # (Note the edits to change "Azure B2C" to "Azure AD B2C"--I assume is correct? I don't find any precedent for "Azure B2C".)
+After creating and configuring the B2C tenant in [!include[Azure](../includes/pn-azure-shortest.md)], you must configure your portal to federate with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C by using the Open ID Connect protocol. You must create a unique name for your federation to [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C&mdash;for example, B2C&mdash;and store it as the value of the *Federation-Name* variable in the above table.
 
-To configure your portal:
-1.	Log into [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+[//]: # (In step 3, how will the reader know what is the "appropriate" website record to select?)
+### Configure your portal
+1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 2.	Go to **Portals** > **Websites**.
 3.	Select the appropriate website record.
-4.	Go to the **Site Settings** section.
+4.	Go to **Site Settings**.
 5.	Create the following site settings:
     -	**Name**: Authentication/OpenIdConnect/[Federation-Name]/Authority
 
@@ -82,48 +86,50 @@ To configure your portal:
 
 ### Password reset
 
-The following Site Settings are required if you wish to support password reset with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C local accounts:
+The following site settings are required if you want to support password reset with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C local accounts:
 
 | Site Setting                                                        | Description                                                                                                          |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Authentication/OpenIdConnect/[Federation-Name/PasswordResetPolicyId | ID of the Password Reset policy.                                                                                     |
-| Authentication/OpenIdConnect/[Federation-Name]/ValidIssuers         | A comma delimited list of issuers that includes the [Policy-Signin-URL] and the Issuer of the Password Reset policy. |
+| Authentication/OpenIdConnect/[Federation-Name/PasswordResetPolicyId | ID of the password reset policy.                                                                                     |
+| Authentication/OpenIdConnect/[Federation-Name]/ValidIssuers         | A comma-delimited list of issuers that includes the [Policy-Signin-URL] and the issuer of the password reset policy. |
 | |
 
 ### Related site settings
 
-You can create or configure the following site settings in Portals to support [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider:
+[//]: # (The table uses "Azure B2C" and "Azure AD"--this is okay?)
+You can create or configure the following site settings in portals to support [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider:
+[//]: # (This is a rather precarious way to format a table!)
 
 | Site Setting                                                         | Description                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Authentication/Registration/ProfileRedirectEnabled                   | Sets whether the portal can redirect users to the profile page after successful sign-in. By default, it is set to true.                                                                                                                                            |
-| Authentication/Registration/EmailConfirmationEnabled                 | Sets whether email validation is required. By default, it is set to true.<br>Since, verification is done using [!include[Azure](../includes/pn-azure-shortest.md)] B2C, the portal should not have another layer of validation.                                                                                     |
-| Authentication/Registration/LocalLoginEnabled                        | Sets whether local login is required. By default, it is set to true.<br>Since, login is done using [!include[Azure](../includes/pn-azure-shortest.md)] B2C, the portal should not have another login mechanism.                                                                                                     |
-| Authentication/Registration/ExternalLoginEnabled                     | Enables or disables the external authentication.<br>When a single identity provider is configured for a portal, it is desirable to disable the external authentication. Set the value to true to achieve the desired behavior.                                        |
+| Authentication/Registration/ProfileRedirectEnabled                   | Specifies whether the portal can redirect users to the profile page after successful sign-in. By default, it is set to true.                                                                                                                                            |
+| Authentication/Registration/EmailConfirmationEnabled                 | Specifies whether email validation is required. By default, it is set to true.<br>Because verification is done by using [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C, the portal should not have another layer of validation.                                                                                     |
+| Authentication/Registration/LocalLoginEnabled                        | Specifies whether local sign-in is required. By default, it is set to true.<br>Because sign-in is done by using [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C, the portal should not have another sign-in mechanism.                                                                                                     |
+| Authentication/Registration/ExternalLoginEnabled                     | Enables or disables external authentication.<br>When a single identity provider is configured for a portal, we recommend that you disable external authentication by setting this value to true.                                        |
 | Authentication/Registration/AzureADLoginEnabled                      | Enables or disables [!include[Azure](../includes/pn-azure-shortest.md)] AD as an external identity provider. By default, it is set to true.                                                                                                                                                                      |
-| Authentication/OpenIdConnect/[Federation-Name]/ExternalLogoutEnabled | Enables or disables federated sign-out. When set to true, upon sign-out from the portal, users are redirected to the federated logout user experience. When set to false, users are signed out from the portal only. By default, it is set to false.               |
-| Authentication/LoginTrackingEnabled                                  | Enables or disables tracking of the user's last sign-in. When set to true, the date and time is displayed in the Last Successful Sign-in field on the contact record. By default, this is set to false.                                                            |
-| Authentication/OpenIdConnect/[Federation-Name]/RegistrationEnabled   | Enables or disables the registration requirement for the existing provider. When set to true, registration is enabled for the existing provider only if the site setting ‘Authentication/Registration/Enabled’ is also set to true. By default, it is set to true. |
+| Authentication/OpenIdConnect/[Federation-Name]/ExternalLogoutEnabled | Enables or disables federated sign-out. When set to true, users are redirected to the federated sign-out user experience when they sign out from the portal. When set to false, users are signed out from the portal only. By default, it is set to false.               |
+| Authentication/LoginTrackingEnabled                                  | Enables or disables tracking the user's last sign-in. When set to true, the date and time are displayed in the **Last Successful Sign-in** field on the contact record. By default, this is set to false.                                                            |
+| Authentication/OpenIdConnect/[Federation-Name]/RegistrationEnabled   | Enables or disables the registration requirement for the existing identity provider. When set to true, registration is enabled for the existing provider only if the site setting Authentication/Registration/Enabled is also set to true. By default, it is set to true. |
 | | |
 
 ### Related content snippet
 
-If registration is disabled for a user after redeeming an invitation, you can display a message using the following content snippet indicating that registration is disabled:
+If registration is disabled for a user after the user has redeemed an invitation, display a message by using the following content snippet:
 
 **Name**: Account/Register/RegistrationDisabledMessage
 
 **Value**: Registration has been disabled.
 
-## Customize [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C user interface
+## Customize the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C user interface
 
-[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports user interface customization. You can customize the user experience for sign-up, sign-on, and password reset scenarios.
+[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports user interface customization. You can customize the user experience for sign-up, sign-in, and password reset scenarios.
 
 ### Step 1: Create a web template
-Log into [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create a web template with the following details:
+Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create a web template by using the following values:
 
 **Name**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
 
-**Source**: The following sample Web Template source HTML may be used.
+**Source**: Use the following sample web template source HTML.
 
 ```
 <!DOCTYPE html>
@@ -430,15 +436,15 @@ Log into [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create 
 ```
 ### Step 2: Create a page template
 
-Log into [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create a page template with the following details:
+Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create the following page template:
 - **Name**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
 - **Type**: Web Template
 - **Web Template**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
-- **Use Website Header and Footer**: uncheck
+- **Use Website Header and Footer**: Clear this check box
 
-### Step 3: Create a web page
+### Step 3: Create a webpage
 
-Log into [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create a web page with the following details:
+Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create the following webpage:
 - **Name**: Sign-in
 - **Parent** Page: Home
 - **Partial Url**: azure-ad-b2c-sign-in
@@ -447,7 +453,7 @@ Log into [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create 
 
 ### Step 4: Create site settings
 
-Site settings are required to configure CORS to allow [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Log into [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create the following site settings.
+Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create the following site settings.
 
 | Name                              | Value                             |
 |-----------------------------------|-----------------------------------|
@@ -457,29 +463,30 @@ Site settings are required to configure CORS to allow [!include[Azure](../includ
 
 For a complete list of other CORS settings, see [CORS protocol support](cors-protocol-support.md).
 
+[//]: # (Example URLs like the one in step 8 probably shouldn't be hot because they'll generate errors and cause a bit of frustration. We've trained people to click the links in our docs; we don't want to make them regret it. I recommend these just be plain text, or maybe underlined but definitely not hot.)
 ### Step 5: [!include[Azure](../includes/pn-azure-shortest.md)] configuration
 
-1.	Login to your [!include[Azure](../includes/pn-azure-shortest.md)] portal.
-2.	Navigate to the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Tenant Management blade.
+1.	Sign in to your [!include[Azure portal](../includes/pn-azure-portal.md)].
+2.	Navigate to the **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Tenant Management** blade.
 3.	Navigate to **Settings** > **Sign-up or sign-in policies**. A list of available policies is displayed.
-4.	Click the appropriate policy name.
-5.	Click **Edit**.
-6.	Click **Edit policy** > **Page UI customization** > **Unified sign-up or sign-in page**.
+4.	Select the appropriate policy name.
+5.	Select **Edit**.
+6.	Select **Edit policy** > **Page UI customization** > **Unified sign-up or sign-in page**
 7.	Set **Use custom page** to **Yes**.
-8.	Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page web page created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in step 3. For example, https://mydomain.com/azure-ad-b2c-sign-in
-9.	Click **OK**.
+8.	Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in step 3 of this procedure. For example, https://mydomain.com/azure-ad-b2c-sign-in
+9.	Select **OK**.
 
 ## Claims mapping
 
-When users log in, either for the first time, or subsequent times, the federated identity provider (IDP) will provide claims based on its database regarding the user logging on. These claims are configurable in the IDP.
+When users sign in, either for the first time or subsequently, the federated identity provider provides claims based on its database regarding the users' signing in. These claims are configurable in the identity provider.
 
-### [!include[Azure](../includes/pn-azure-shortest.md)] AD-B2C email claim
+### [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C email claim
 
-[!include[Azure](../includes/pn-azure-shortest.md)] AD-B2C sends the email claim as a collection. The portal accepts the first email provided in the collection as the primary email address of the contact.
+[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C sends the email claim as a collection. The portal accepts the first email provided in the collection as the primary email address of the contact.
 
-### Claims to support signup scenarios
+### Claims to support sign-up scenarios
 
-When there is a new customer provisioned that does not exist in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the inbound claims can be used to seed the new contact record that the portal will create. Common claims expected for this would be the first and last name, email address, and phone number, but they are configurable. The following site setting is required:
+When a new customer who does not exist in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is provisioned, the inbound claims can be used to seed the new contact record that the portal will create. Common claims can include first and last name, email address, and phone number, but they are configurable. The following site setting is required:
 
 **Name**: Authentication/OpenIdConnect/B2C/RegistrationClaimsMapping
 
@@ -489,9 +496,9 @@ When there is a new customer provisioned that does not exist in [!INCLUDE[pn-dyn
 
 For example:  firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle
 
-### Claims to support sign-on scenarios
+### Claims to support sign-in scenarios
 
-The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in the IDP are not directly linked and the data may get out of sync. The portal should have a list of claims that are desired to accept from any logon event to update in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These claims may be a subset or equal to the claims coming in from a signup scenario. This must be configured separately from signup claims mapping as it may not be desirable to overwrite some key portal attributes. The following site setting is required:
+The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in the identity provider are not directly linked, so the data might get out of sync. The portal should have a list of claims that you want to accept from any sign-in event to update in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These claims can be a subset of, or equal to, the claims coming in from a sign-in scenario. This must be configured separately from sign-in claims mapping, because you might not want to overwrite some key portal attributes. The following site setting is required:
 
 **Name**: Authentication/OpenIdConnect/B2C/LoginClaimsMapping
 
@@ -501,12 +508,14 @@ The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in t
 
 For example: firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle 
 
-The claim name is the CLAIM TYPE field listed next to the attribute in the Sign-in or sign-up policies Application claims.
+[//]: # (I don't know what this means.)
+The claim name is the CLAIM TYPE field listed next to the attribute in the sign-in policies Application claims.
 
-### Allow Auto-Associate to Contact record based on email 
+### Allow auto-association to a contact record based on email 
 
-Customers that have contact records with emails associated then launch a website where their external users will sign up with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C through an email validation mechanism should have the new logon associated with the existing contact record instead of creating a duplicate record. This functionality only successfully maps a contact that does not have an active identity and where the email address is unique (not related to multiple contact records). The following site setting is required:
+[//]: # (Edit assumes that the sign-in could create that duplicate record, but that might not be the agent of action here.)
+Customers who have contact records with emails associated then launch a website where their external users will sign in with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C through an email validation mechanism. The new sign-in should be associated with the existing contact record instead of creating a duplicate record. This functionality only successfully maps a contact that does not have an active identity, and the email address must be unique (not related to multiple contact records). The following site setting is required:
 
 **Name**: Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail
 
-**Description**: Sets whether contacts are mapped to a corresponding email. When set to true, this setting associates a unique contact record with a matching email address and then automatically assigns the external identity provider to the contact once the user has successfully signed in. By default, it is set to false.
+**Description**: Specifies whether contacts are mapped to a corresponding email. When set to true, this setting associates a unique contact record with a matching email address, and then automatically assigns the external identity provider to the contact after the user has successfully signed in. By default, it is set to false.
