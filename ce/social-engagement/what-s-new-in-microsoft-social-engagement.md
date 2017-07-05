@@ -28,7 +28,7 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
 
 ### Listening on YouTube channels
 
-Social Engagement is now capable of listening video posts and comments on YouTube channels. Users with at least a Power Analyst configuration role can create YouTube rules under any search topic and add YouTube channels to gather all posts and comments from.
+Social Engagement is now capable of listening video posts and comments on YouTube channels. Users with at least a Power Analyst configuration role can create YouTube rules under any search topic and add YouTube channels to gather posts and comments from.
 
 Keyword-based searches on the video source continue to reside under the Keywords rule.
 

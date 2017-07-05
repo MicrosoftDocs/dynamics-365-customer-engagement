@@ -291,6 +291,9 @@ Create rules to gather posts from custom sources, You can also create keyword ru
 
 Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
 
+> [!NOTE]
+> After adding a new YouTube rule, it may take several hours until the first videos and comments are acquired. The data acquisition of comments is focused on videos with user activity in the last month.
+
 1.  Go to **Search Setup**.  
   
 2.  Select the search topic you want to add the rule to. Or you can create a new search topic.  
