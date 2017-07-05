@@ -56,13 +56,14 @@ The following steps describe an end-to-end configuration for social customer car
 
 ## Use intelligence to boost productivity
 
-Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you. Find out how you can add tags to important posts, automatically and manually and learn how automated intention analysis can help triage incoming posts.
+Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you. Find out how you can add tags to important posts, automatically and manually, learn how automated intention analysis can help triage incoming posts, and how to automate this process.
 
 - [Define a new tag](../social-engagement/tags.md#add-custom-tags) so you can add it to posts.
 
 - Let the system learn from the tags you added and [automate the tagging of posts](../social-engagement/tags.md#promote-custom-tags-to-auto-tags).
 
-- Get [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to [find the intentions in posts](../social-engagement/tags.md#how-intention-analysis-works) to enable quick triage of large number of posts.
+- Get [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to [find the intentions in posts](../social-engagement/tags.md#how-intention-analysis-works) to enable quick triage of large number of posts. For example, you can route support requests to your service reps.  
+To further increase efficiency, you can automate the routing of posts with [automation rules](../social-engagement/automation-rules.md).
 
 ## Create support cases in Dynamics 365 from social posts
 
