@@ -29,7 +29,7 @@ manager: sakudes
 |[!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page|**Interaction token**: Acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, and publish and reply to posts.|  
 |[!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account|**Acquisition token**: Acquire public data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)].|  
 |[!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile|**Interaction token**: Acquire private messages from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile, and publish and reply to posts.|  
-|[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] account|**Interaction token**: Comment and like video posts on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)].|  
+|[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] account|**Interaction token**: Comment and like video posts and reply to comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)].|  
   
 <a name="acquisition_token"></a>   
 ## Tokens for data acquisition  
