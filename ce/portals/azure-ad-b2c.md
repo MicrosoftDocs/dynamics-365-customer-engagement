@@ -18,7 +18,6 @@ manager: sakudes
 
 [!include[Azure](../includes/pn-azure-shortest.md)] Active Directory (Azure AD) powers Office 365 and [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] services for employee or internal authentication. [!include[Azure](../includes/pn-azure-shortest.md)] Active Directory B2C is an extension to that authentication model that enables external customer sign-ins through local credentials and federation with various common social identity providers.
 
-[//]: # (Might be good to name the product here: "In portal capabilities for Dynamics 365, a portal owner can configure the portal to accept...")
 A portal owner can configure the portal to accept [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider. [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports Open ID Connect for federation.
 
 In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal, multiple values are generated that you will use later while you configure the portal. You can note these values in the following table. While configuring the portal, replace the variable name with the values you note here.
@@ -32,7 +31,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 | | | |
 
 ### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
-[//]: # (Note that the Writing Style Guide doesn't want "left" used alone, it should be leftmost, upper-left, on the left side of, or lower-left. Please check edits to steps 3 and 4, they might be wrong.)
+[//]: # (Note that the Writing Style Guide doesn't want "left" used alone, it should be leftmost, upper-left, on the left side of, or lower-left. Please check my edits to steps 3 and 4 against the UI, they might be wrong.)
 1.	Sign in to your [Azure portal](https://portal.azure.com/).
 2.	[Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
 3.	Select **[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory** on the leftmost navigation bar.
@@ -471,6 +470,7 @@ For a complete list of other CORS settings, see [CORS protocol support](cors-pro
 [//]: # (Example URLs like the one in step 8 probably shouldn't be hot because they'll generate errors and cause a bit of frustration. We've trained people to click the links in our docs; we don't want to make them regret it. I recommend these just be plain text, or maybe underlined but definitely not hot.)
 ### Step 5: [!include[Azure](../includes/pn-azure-shortest.md)] configuration
 
+[//]: # (In step 4, what is "appropriate"? Should it simply be "Select the policy you want to edit"?)
 1.	Sign in to your [!include[Azure portal](../includes/pn-azure-portal.md)].
 2.	Navigate to the **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Tenant Management** blade.
 3.	Navigate to **Settings** > **Sign-up or sign-in policies**. A list of available policies is displayed.
@@ -485,7 +485,7 @@ For a complete list of other CORS settings, see [CORS protocol support](cors-pro
 
 When users sign in, either for the first time or subsequently, the federated identity provider provides claims based on its database regarding the users' signing in. These claims are configurable in the identity provider.
 
-### [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C email claim
+### [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C email claims
 
 [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C sends the email claim as a collection. The portal accepts the first email provided in the collection as the primary email address of the contact.
 
