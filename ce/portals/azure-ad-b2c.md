@@ -30,6 +30,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 | Federation-Name   |       |                                                                       |
 | | | |
 
+[//]: # (A note about procedure headings: Instead of "To do x or y..." as we used in the old days, I've followed Michael's Gamification pattern of using a level 3 heading that starts with a verb, which in this example would be "### Do x or y...")
 ### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
 [//]: # (Note that the Writing Style Guide doesn't want "left" used alone, it should be leftmost, upper-left, on the left side of, or lower-left. Please check my edits to steps 3 and 4 against the UI, they might be wrong.)
 1.	Sign in to your [Azure portal](https://portal.azure.com/).
