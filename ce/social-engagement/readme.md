@@ -1,3 +1,5 @@
+<style type="text\css">#comments-container{display:none;}</style>
+
 Microsoft Social Engagement 2017 Update 1.6
 ===========================================
 
