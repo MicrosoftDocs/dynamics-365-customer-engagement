@@ -46,9 +46,9 @@ The [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] capabilities are
   
  It may take a few minutes for the solution to be installed in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)].  
   
-## KPI manager security role  
+## KPI manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] 
 
- When you install [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], a security role called **KPI manager** is created. System admins can assign this security role to [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] users they want to enable to create KPIs for [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)].  
+ When you install [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], a security role called **KPI manager** is created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]. System admins can assign this security role to [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] users they want to enable to create KPIs for [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
   
  To learn more about security roles and privileges, see [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
   
