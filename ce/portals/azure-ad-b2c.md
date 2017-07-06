@@ -34,7 +34,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 
 1.	Sign in to your [Azure portal](https://portal.azure.com/).
 2.	[Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
-3.	Select **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C on the leftmost navigation bar.
+3.	Select **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C** on the leftmost navigation bar.
 4.	[Create Azure application](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
     
     > [!Note]
@@ -109,7 +109,7 @@ You can create or configure the following site settings in portals to support [!
 | Authentication/OpenIdConnect/[Federation-Name]/ExternalLogoutEnabled | Enables or disables federated sign-out. When set to true, users are redirected to the federated sign-out user experience when they sign out from the portal. When set to false, users are signed out from the portal only. By default, it is set to false.               |
 | Authentication/LoginTrackingEnabled                                  | Enables or disables tracking the user's last sign-in. When set to true, the date and time are displayed in the **Last Successful Sign-in** field on the contact record. By default, this is set to false.                                                            |
 | Authentication/OpenIdConnect/[Federation-Name]/RegistrationEnabled   | Enables or disables the registration requirement for the existing identity provider. When set to true, registration is enabled for the existing provider only if the site setting Authentication/Registration/Enabled is also set to true. By default, it is set to true. |
-|Authentication/OpenIdConnect/[Federation-Name]/PostLogoutRedirectUri |Specifies the URL within the portal to redirect to after user signs out. |
+|Authentication/OpenIdConnect/[Federation-Name]/PostLogoutRedirectUri |Specifies the URL within the portal to redirect to after a user signs out. |
 | | |
 
 ### Related content snippet
