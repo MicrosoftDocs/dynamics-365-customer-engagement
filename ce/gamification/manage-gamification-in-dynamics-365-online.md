@@ -118,7 +118,14 @@ If you have more than one [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-on
 3.  In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
   
      In the **Setup KPIs** section, you can see the KPIs and their setup status in the selected game. For more information about KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md).  
-  
+
+## Uninstall the Gamification solution
+
+For more information about removing a preferred solution, see [Delete a preferred solution](https://technet.microsoft.com/library/dn878909.aspx#Delete a preferred solution)
+
+> [!NOTE]
+> You need to remove **GamificationUpdate** _before_ you remove **Gamification**.
+
 ## Privacy notice  
 
  [!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
