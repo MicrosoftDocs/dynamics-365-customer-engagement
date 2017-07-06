@@ -1,5 +1,3 @@
-<style type="text\css">#comments-container{display:none;}</style>
-
 Microsoft Social Engagement 2017 Update 1.6
 ===========================================
 
@@ -260,3 +258,5 @@ Microsoft, Dynamics, Microsoft Dynamics, and Windows are trademarks of the
 Microsoft group of companies.
 
 All other trademarks are property of their respective owners.
+
+<div id="test"><style type="text\css">#comments-container{display:none;}</style></div>
