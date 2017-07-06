@@ -16,10 +16,9 @@ manager: sakudes
 
 # Enable header and footer output caching on a portal
 
-[//]: # (I'm not sure what you mean by "blocks". Could this say something like "To improve the processing performance for Header and Footer web templates in a portal, enable header and footer output caching. Header and Footer web templates are parsed and rendered every time a page is loaded. Caching header and footer output significantly reduces page processing time."?)
-Enabling header and footer output caching on a portal improves the processing performance of the header and footer blocks. Currently, Header and Footer web templates are parsed and rendered on every page load. If the output of the header and footer is cached, performance will improve.
+To improve processing performance for Header and Footer web templates in a portal, enable header and footer output caching. Header and Footer web templates are parsed and rendered every time a page is loaded. Caching header and footer output significantly reduces page processing time..
 
-[//]: # ("If" doesn't work here because this behavior occurs even if the reader isn't a new user. The use of "user" was a jarring phrase to me because it often refers to the end user of a CRM solution. If "new user" means someone configuring the latest version of portals, I think this should say "In portal capabilities for Dynamics 365...")
+[//]: # (The use of "user" was a jarring phrase to me because it often refers to the end user of a CRM solution. If "new user" means someone configuring the latest version of portals, I think this should say "In portal capabilities for Dynamics 365...")
 For a new user, output caching is enabled by default. The following site settings are available and set to true by default to support this functionaliy:
 - Header/OutputCache/Enabled: Set the value to true to enable output caching for header.
 - Footer/OutputCache/Enabled: Set the value to true to enable output caching for footer.
@@ -172,8 +171,8 @@ For a user who upgraded Portals to portal capabilities for [!INCLUDE[pn-dynamics
 
 **Step 4: Create site settings**
 
-[//]: # (When you're deep into a procedure that you've clearly defined the reason for and the expected outcome of, you don't have to say "you must" all the time.)
 Create the following site settings:
+
 |Name|Value|
 |----|-----|
 |Header/OutputCache/Enabled|True|

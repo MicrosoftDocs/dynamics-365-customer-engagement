@@ -1,6 +1,6 @@
 ---
 title: "Add a web resource to a form in Dynamics 365 | MicrosoftDocs"
-description: "Steps to add a web resource to a form."
+description: "Steps to add a web resource to a form to enable uploading attachemnts to Azure Storage."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -14,7 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 
-[//]: # (This title doesn't really describe what the procedure does. Can you call it something like "Enable attachments to be uploaded from a form to Azure Storage"?)
 # Add the Azure Storage web resource to a form
 
 Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can be managed by using notes in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
@@ -26,8 +25,7 @@ To enable attachments from a particular form to be uploaded into [!include[Azure
 
 When a file (for example, attachments.zip) is uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage by using the portal, it is represented by a note on an entity and a placeholder for the attachment.
 
-[//]: # (I'm not sure this is the best alt text, but I think the original was an artifact from another topic.)
-![Attachment on a form](media/notes-attachment-lead-form.png "Placeholder attachment on a form")
+![Attachment on a form](media/notes-attachment-lead-form.png "Placeholder for the attachment on a form")
 
 Note that the attachment file is now named attachment.zip.txt. By default, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has no conception of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
 ```
@@ -39,7 +37,6 @@ Note that the attachment file is now named attachment.zip.txt. By default, [!INC
 }
 ```
 
-[//]: # (Edit in step 7 assumes that there is a "Not visible" check box setting for the tab or section. Will it be obvious to the reader how they would accomplish step 7, and why?)
 To see and interact with the file stored in [!include[Azure](../includes/pn-azure-shortest.md)], you must add the web resource adx.annotations.html to the form.
 1.	In the form editor for the relevant form, select **Web Resource** on the **Insert** tab.
 
@@ -53,7 +50,7 @@ To see and interact with the file stored in [!include[Azure](../includes/pn-azur
 
 6.	Select **OK** to save the resource.
 
-7.	Optionally, you might want to remove the existing notes control, or move it to a tab or section that is marked **Not visible** by default.
+7.	Optionally, you might want to remove the existing notes control, or move it to a tab or section that is marked to be not visible by default.
 
 8.  Save the form, and then publish the changes.
 

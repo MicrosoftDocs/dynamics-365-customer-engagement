@@ -30,9 +30,8 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 | Federation-Name   |       |                                                                       |
 | | | |
 
-[//]: # (A note about procedure headings: Instead of "To do x or y..." as we used in the old days, I've followed Michael's Gamification pattern of using a level 3 heading that starts with a verb, which in this example would be "### Do x or y...")
 ### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
-[//]: # (Note that the Writing Style Guide doesn't want "left" used alone, it should be leftmost, upper-left, on the left side of, or lower-left. Please check my edits to steps 3 and 4 against the UI, they might be wrong.)
+
 1.	Sign in to your [Azure portal](https://portal.azure.com/).
 2.	[Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
 3.	Select **[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory** on the leftmost navigation bar.
@@ -54,14 +53,12 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 
 ## Portal configuration
 
-[//]: # (Note the edits to change "Azure B2C" to "Azure AD B2C"--I assume is correct? I don't find any precedent for "Azure B2C".)
 After creating and configuring the B2C tenant in [!include[Azure](../includes/pn-azure-shortest.md)], you must configure your portal to federate with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C by using the Open ID Connect protocol. You must create a unique name for your federation to [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C&mdash;for example, B2C&mdash;and store it as the value of the *Federation-Name* variable in the above table.
 
-[//]: # (In step 3, how will the reader know what is the "appropriate" website record to select?)
 ### Configure your portal
 1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 2.	Go to **Portals** > **Websites**.
-3.	Select the appropriate website record.
+3.	Select the website record for which [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C needs to be enabled.
 4.	Go to **Site Settings**.
 5.	Create the following site settings:
     -	**Name**: Authentication/OpenIdConnect/[Federation-Name]/Authority
@@ -101,9 +98,7 @@ The following site settings are required if you want to support password reset w
 
 ### Related site settings
 
-[//]: # (The table uses "Azure B2C" and "Azure AD"--this is okay?)
 You can create or configure the following site settings in portals to support [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider:
-[//]: # (This is a rather precarious way to format a table!)
 
 | Site Setting                                                         | Description                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -463,23 +458,21 @@ Site settings are required to configure cross-origin resource sharing (CORS) to 
 | Name                              | Value                             |
 |-----------------------------------|-----------------------------------|
 | HTTP/Access-Control-Allow-Methods | GET, OPTIONS                      |
-| HTTP/Access-Control-Allow-Origin  | https://login.microsoftonline.com |
+| HTTP/Access-Control-Allow-Origin  | `https://login.microsoftonline.com` |
 | | |
 
 For a complete list of other CORS settings, see [CORS protocol support](cors-protocol-support.md).
 
-[//]: # (Example URLs like the one in step 8 probably shouldn't be hot because they'll generate errors and cause a bit of frustration. We've trained people to click the links in our docs; we don't want to make them regret it. I recommend these just be plain text, or maybe underlined but definitely not hot.)
 ### Step 5: [!include[Azure](../includes/pn-azure-shortest.md)] configuration
 
-[//]: # (In step 4, what is "appropriate"? Should it simply be "Select the policy you want to edit"?)
 1.	Sign in to your [!include[Azure portal](../includes/pn-azure-portal.md)].
 2.	Navigate to the **[!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Tenant Management** blade.
 3.	Navigate to **Settings** > **Sign-up or sign-in policies**. A list of available policies is displayed.
-4.	Select the appropriate policy name.
+4.	Select the policy you want to edit.
 5.	Select **Edit**.
 6.	Select **Edit policy** > **Page UI customization** > **Unified sign-up or sign-in page**
 7.	Set **Use custom page** to **Yes**.
-8.	Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in step 3 of this procedure. For example, https://mydomain.com/azure-ad-b2c-sign-in
+8.	Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in step 3 of this procedure. For example, `https://mydomain.com/azure-ad-b2c-sign-in`.
 9.	Select **OK**.
 
 ## Claims mapping
@@ -514,12 +507,10 @@ The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in t
 
 For example: firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle 
 
-[//]: # (I don't know what this means.)
 The claim name is the CLAIM TYPE field listed next to the attribute in the sign-in policies Application claims.
 
 ### Allow auto-association to a contact record based on email 
 
-[//]: # (Edit assumes that the sign-in could create that duplicate record, but that might not be the agent of action here.)
 Customers who have contact records with emails associated then launch a website where their external users will sign in with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C through an email validation mechanism. The new sign-in should be associated with the existing contact record instead of creating a duplicate record. This functionality only successfully maps a contact that does not have an active identity, and the email address must be unique (not related to multiple contact records). The following site setting is required:
 
 **Name**: Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail
