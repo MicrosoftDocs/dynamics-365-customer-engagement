@@ -41,6 +41,7 @@ The [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] capabilities are
 2.  Sign in to your [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] system admin account, if you aren't already signed in.  
   
 3.  Click **Get** to start installing the solution.  
+If you have more than one [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], select the organization you want to install this solution to.
   
 4.  Review and accept the disclaimer and the terms to add [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] to [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)].  
   
