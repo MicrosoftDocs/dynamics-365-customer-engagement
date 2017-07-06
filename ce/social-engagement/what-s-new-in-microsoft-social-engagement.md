@@ -14,11 +14,11 @@ manager: sakudes
 # What&#39;s new in Microsoft Social Engagement
 Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here's a list of features we added recently. 
  
- If you’re new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](../social-engagement/get-started.md). 
+If you’re new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](../social-engagement/get-started.md). 
  
- For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/). 
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/). 
  
- For important, late-breaking information and a list of known issues, see the [Microsoft Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
+For important, late-breaking information and a list of known issues, see the [Microsoft Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
 
 ## Microsoft Social Engagement 2017 Update 1.6
 
@@ -29,6 +29,10 @@ We've continued to improve and refine the base sentiment model with modification
 ### Improved load-balancing for data acquisition
 
 Performance and reliability are key to providing a stable data acquisition pipeline which handles massive amounts of data, 24/7. Emerging trends or events often lead to significantly larger amount of data. To further increase the reliability and stability of the data acquisition service, we've introduced several improvements on how the system handles varying post volume.
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/). 
 
 ## Microsoft Social Engagement 2017 Update 1.5
 
