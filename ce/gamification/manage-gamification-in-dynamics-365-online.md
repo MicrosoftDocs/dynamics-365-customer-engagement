@@ -121,7 +121,7 @@ If you have more than one [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-on
 
 ## Uninstall the Gamification solution
 
-For more information about removing a preferred solution, see [Delete a preferred solution](https://technet.microsoft.com/library/dn878909.aspx#Delete a preferred solution)
+For more information about removing a preferred solution, see [Delete a preferred solution](https://technet.microsoft.com/library/dn878909.aspx#Delete a preferred solution).
 
 > [!NOTE]
 > You need to remove **GamificationUpdate** _before_ you remove **Gamification**.
