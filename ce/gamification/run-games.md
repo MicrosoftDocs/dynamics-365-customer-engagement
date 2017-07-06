@@ -62,7 +62,7 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 
 1. In step 2 of the game setup process, choose whether you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
 
-2. Choose from the available KPIs in the list. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user who has the **KPI manager** security role. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)
+2. Choose from the available KPIs in the list. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user who has the **KPI manager** security role assigned in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)
 
 3. Optionally, provide a different (game-specific) name for the KPI.
 
