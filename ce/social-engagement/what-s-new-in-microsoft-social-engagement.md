@@ -27,7 +27,7 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 ### Improved base model for sentiment analysis
 
 [//]: # (Edit assumes that we added training data, rather than modified additional training data.)
-To improve and refine the base sentiment model, we've modifed the machine learning process and added training data. You don't have to do anything to benefit from these improvements. If you activated [adaptive learning](../social-engagement/adaptive-learning.md) for your organization, all the edits you've made to sentiment values will automatically be applied to the improved base model.
+To improve and refine the base sentiment model, we've modified the machine learning process and added training data. You don't have to do anything to benefit from these improvements. If you activated [adaptive learning](../social-engagement/adaptive-learning.md) for your organization, all the edits you've made to sentiment values will automatically be applied to the improved base model.
 
 ### Improved load-balancing for data acquisition
 
