@@ -25,7 +25,7 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
     <iframe src="https://www.youtube.com/embed/9SLUlU_gv0E" width="480" height="360" allowFullScreen="true" frameBorder="0"></iframe>
     </td>
    <td><ul>
-  <li>Know the [lastest list of features](monthly-updates-portals.md) added to Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].</li>
+  <li>Know the [latest list of features](monthly-updates-portals.md) added to Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].</li>
   <li>Learn how to [provision portal](provision-portal.md) and link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain.</li>
   <li>Learn how to [configure portals](configure-portal.md) and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].</li>
   <li>Learn how to [manage portal content](manage-portal-content.md) to create a helpful environment to foster discussions.</li>
