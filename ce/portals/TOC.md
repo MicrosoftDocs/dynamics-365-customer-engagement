@@ -33,9 +33,7 @@
 ### [Configure the Facebook App](authenticate-facebook-app.md)
 ### [Control webpage access](webpage-access-control.md)
 ### [Assign entity permissions](assign-entity-permissions.md) 
-<!--[//]: <> (SELF: New topic.)-->
 ### [Enable Azure storage](enable-azure-storage.md) 
-<!--[comment]:<>(SELF: New topic.)-->
 ### [Add the Azure Storage web resource to a form](add-web-resource.md)
 ### [Define entity forms and custom logic](entity-forms-custom-logic.md)
 ### [Define web form properties](web-form-properties.md)
@@ -52,22 +50,17 @@
 ### [Gather feedback by using polls](gather-feedback-poll.md)
 ### [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ### [Add a redirect URL](add-redirect-url.md)
-<!-- (New topic)-->
 ### [Clear the server-side cache](clear-server-side-cache.md)
 ### [Walkthrough: Get data on the portal](walkthrough-get-data-on-portal.md)
-<!--[comment]: <>  (SELF: Use a token in this heading? I believe the product name is "Dynamics 365 for Project Service Automation")-->
 ### [Integrate Project Service Automation](integrate-project-service-automation.md)
-<!--[comment]: <>  (SELF: There's a simple "Field Service" token, maybe there's a full, formal one?)-->
 ### [Integrate Field Service](integrate-field-service.md)
 ## [Manage portal content](manage-portal-content.md)
 ### [Get started with the portal content editor](get-started-portal-content-editor.md)
-<!--[comment]: <>  (Note to self: Still not clear about "front-side editing engine" versus "content engine.")-->
 ### [Publish content by using the editing engine](publish-content-editing-engine.md)
 ### [Create forum posts](create-forum-posts.md)
 ### [Moderate forums](moderate-forums.md)
 ### [Subscribe to alerts](subscribe-alerts.md)
 ### [Manage blogs](manage-blogs.md)
-<!--[comment]: <>  (SELF: "Crowdsource" isn't used in the topic text.)-->
 ### [Crowdsource ideas](crowdsource-ideas.md)
 ### [Create an opportunity](create-edit-and-distribute-opportunities-in-dynamics-365.md)
 ### [Manage web links](manage-web-links.md)
