@@ -124,7 +124,7 @@ The table below explains the standard attributes and relationships of the Idea V
 | Submitted On | The date and time that the vote was created.                           |
 ||
 
-### See Also
+### See also
 
 [Manage forum threads](manage-forum-threads.md)  
 [Create forum posts on the portal](create-forum-posts.md)  

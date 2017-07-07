@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]
+# Add custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]
+
 The Web Form Step record contains a field named**Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]** that can be used to store [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] code to allow you to extend or modify the form's visual display or function.
 
 The custom block of [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] will added to the bottom of the page just before the closing form tag element.
@@ -112,10 +113,10 @@ return true;
 }(window.jQuery));
 }
 ```
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  

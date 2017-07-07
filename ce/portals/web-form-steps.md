@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Web form steps for portals
+# Define web form steps for portals
 
 
 
@@ -36,12 +36,12 @@ Each Web Form will be presented on the portal has one or more steps. These steps
 | Move Previous Permitted    | Indicates whether the user is given an option to navigate to the previous step in a multiple step web form. Default is true. Uncheck to prevent the user from being able to move to the previous step. |
 ||
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  
-[Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]](add-custom-javascript.md)  
+[Add custom JavaScript](add-custom-javascript.md)  
 

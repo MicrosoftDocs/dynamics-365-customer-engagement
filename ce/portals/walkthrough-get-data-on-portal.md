@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Get Dynamics 365 data on the Portal
+# Get [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data on the portal
+
 One of the most distinguishing features surrounding the portal capabilities introduced in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online 2016 Update 1 is the ability to render - and allow the manipulation of - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data on an internally or externally - facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
 
 ## Entity Forms
@@ -211,4 +212,4 @@ While most [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] forms can
 |Notes (inserted on the form)   |Lookup fields are supported, but creating a new record through a lookup view on the form isn't supported   |   |
 |Sub-Grids (inserted on the form)   |   |   |
 
-Finally, it’s worth mentioning that the Entity Form record in Microsoft [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has an assortment of options that allow for it to be fine-tuned as needed, including a section for **Attach File** options.  If a form requires the attachment of files, then select the **Attach File** check box and configure the **Attach File Storage Location** option for either **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Note Attachment** or **Azure Blob Storage**.
+Finally, it’s worth mentioning that the Entity Form record in Microsoft [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has an assortment of options that allow for it to be fine-tuned as needed, including a section for **Attach File** options.  If a form requires the attachment of files, then select the **Attach File** check box and configure the **Attach File Storage Location** option for either **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Note Attachment** or **[!include[Azure](../includes/pn-azure-shortest.md)] Blob Storage**.

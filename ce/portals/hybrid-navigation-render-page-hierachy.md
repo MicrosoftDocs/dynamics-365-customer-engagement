@@ -248,7 +248,7 @@ This example renders a type of hybrid navigation, based on the portal sitemap, t
   }
 </style>
 ```
-### See Also
+### See also
 
 [Create advanced templates for portals](create-advanced-templates.md)  
 [Create a custom page template by using Liquid and a web template page template](create-custom-template.md)  

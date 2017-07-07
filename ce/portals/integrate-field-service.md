@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Field Service integration
+# Integrate Field Service
+
 The Partner Field Service solution for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can now be installed on a Partner Portal (Field Service for CRM and Partner Portal Solutions must be installed first). With this solution installed, customers and partners will be able to view various parts of the Field Service section of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the Partner Portal. Some of the available entities that can be viewed are assets, work orders, and invoices.
 
 ## View agreements on the partner portal
@@ -122,6 +123,6 @@ The range of accepted values for each metric’s site setting is as follows.
 | Touch rate            | distribution/weights/touchrate      | Positive, 0 to 5     |
 | Average time to close | distribution/weights/avgtimetoclose | Negative, 0 to -0.5  |
 
-### See Also
+### See also
 [Create a partner account on PRM portal](#create-a-partner-account-on-a-partner-relationship-management-prm-portal)  
 

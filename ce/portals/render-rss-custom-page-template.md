@@ -38,7 +38,7 @@ Now, when we request this new webpage, we'll receive our RSS feed XML:
 
 In this example, we've seen how we can combine Liquid, Web Templates, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views, and portals content management features to create a custom RSS feed. The combination of these features adds powerful customization capabilities to any portal application.
 
-### See Also
+### See also
 
 [Create advanced templates for portals](create-advanced-templates.md)  
 [Create a custom page template by using Liquid and a web template page template](create-custom-template.md)  

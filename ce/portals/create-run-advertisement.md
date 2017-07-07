@@ -87,9 +87,9 @@ The Ad Entity has the following attributes:
 | Image Alt Text     | Alt Text for the image. This field is not required but is recommended to ensure that the rendered Ad is valid and accessible HTML.|
 
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

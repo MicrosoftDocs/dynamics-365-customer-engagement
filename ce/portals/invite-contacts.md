@@ -60,7 +60,7 @@ The Invitation Form has the following fields:
 | Maximum Redemptions Allowed           | The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                                                      |
 ||
 
-### See Also
+### See also
 
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  

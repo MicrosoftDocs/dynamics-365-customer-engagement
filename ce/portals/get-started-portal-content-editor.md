@@ -76,7 +76,7 @@ Navigate to the page to be deleted and click the **Delete** button in the toolba
 >[!Note]
 >Certain webpages are important to have for a properly functioning website, for instance, a sign in page or 404 page. Be sure not to delete these pages, as doing so can cause a website to stop functioning properly.
 
-### See Also
+### See also
 
 [How to provision a portal](provision-portal.md)  
 [Use the front-side editing engine to publish content](publish-content-editing-engine.md)  

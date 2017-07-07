@@ -49,9 +49,9 @@ The ratings for webpages can be viewed, modified, or deleted within [!INCLUDE[pn
 
 The associated view lists the ratings for the selected webpage, blog post, or idea. Within this view, users can modify or delete existing ratings.
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
