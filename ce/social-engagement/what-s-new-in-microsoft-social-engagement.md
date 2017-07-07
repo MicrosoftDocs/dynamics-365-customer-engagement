@@ -19,11 +19,7 @@ If you’re new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.
  
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/). 
  
-<<<<<<< HEAD
  For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
-=======
-For important, late-breaking information and a list of known issues, see the [Microsoft Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
->>>>>>> 2526556334ffb6ab234d2a7dfc4b2c49b6453c3e
 
 [//]: # (About the verb tenses in these sections: Can a user choose to update to a specific version, or is he compelled to have the latest version if he updates at all? I ask because if the current update is always going to be installed, the "what's new" from all the previous updates should really be past tense. So for the present update, "we've continued..." but for the previous updates, "we addressed service and product improvements with this release..." It's not an important distinction, but I did find the continual present tense from these update descriptions kind of jarring.)
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.6
@@ -38,15 +34,11 @@ To improve and refine the base sentiment model, we've modifed the machine learni
 [//]: # ("all day, every day" instead of "24/7" is from the Msft Writing Style Guide.)
 Performance and reliability are key to providing a stable data acquisition pipeline that can handle massive amounts of data all day, every day. Emerging trends or events often generate a significant number of posts on social media. To make the data acquisition service even more reliable and stable, we've improved the way the system handles these varying volumes of data.
 
-<<<<<<< HEAD
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.5
-=======
 ### Service and product improvements
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/). 
 
-## Microsoft Social Engagement 2017 Update 1.5
->>>>>>> 2526556334ffb6ab234d2a7dfc4b2c49b6453c3e
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.5
 
 ### Service and product improvements
 [//]: # (I made a lot of changes here just to keep things more direct and less self-congratulatory. You of course can reject them.)
