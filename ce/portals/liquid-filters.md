@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Liquid filters
+# Available Liquid filters
 Liquid filters are used to modify the output of strings, numbers, variables, and objects. They are separated from the value to which they are being applied by a |.
 
 `{{ 'hal 9000' | upcase }} <!-- Output: HAL 9000 -->`
@@ -1595,7 +1595,7 @@ Renders a string as Liquid code. This code will have access to the current Liqui
 {{ page.adx_copy | liquid }}
 ```
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Store source content by using web templates](store-content-web-templates.md)  

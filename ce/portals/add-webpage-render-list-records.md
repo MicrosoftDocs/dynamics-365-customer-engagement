@@ -14,6 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Add a webpage to render a list of records
+
 Entity List is a data-driven configuration that provides you with the ability to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. Using Entity List, you can expose [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records for display on portals.
 
 The grid supports sorting and will be paginated if the number of records is larger than the Page Size specified. If the Web Page for Details View has been specified, each record will contain a link to the page and the ID of the record will be appended to the Query String along with the ID Query String Parameter Name. The Entity List also supports multiple views. If more than one view has been specified, a drop-down will rendered to allow the user to toggle between the various views.
@@ -477,6 +478,9 @@ The FetchXML Filter uses only one attribute:
 ## Entity list map view
 
 With Entity Lists it is possible to enable and configure a map view of the data, powered by [!INCLUDE[pn-bing](../includes/pn-bing.md)] maps with search functionality to find locations near an address. By populating your records with latitude and longitude coordinate values and specifying the necessary configuration options listed in this section, your records can be rendered as pinpoints on a map. Any record that does not have a latitude or longitude value will be excluded from the search. The initial load of the page will display all records within the initial value of the Distance Values field (in miles or Km depending on the Distance Units specified) from the Default Center Latitude and Default Center Longitude coordinates. The view specified is ignored when map view is used, and a distance query is applied to the dataset to return the mappable results.
+>[!Note] 
+>This option is not supported in the German Sovereign Cloud environment. The Map View section will not be visible in this environment.
+
 
 ## Entity list calendar view
 
@@ -495,9 +499,9 @@ You may utilize Entity Permissions if you wish to secure records, but if you wan
 >[!Note]
 > The oData feed that is published is anonymous and does not have any authorization checks; therefore, it is important not to enable oData feeds for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data that is unsuitable for anonymous portal access.
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

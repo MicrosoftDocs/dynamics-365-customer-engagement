@@ -22,8 +22,8 @@ Web page access control rules are rules that you create for your site to control
 | Website     | The website that this rule applies to; must match the website of the page to which this rule is applied. Filters Web Page.                                                                                                                                 |
 | Web Page    | The Web Page that this rule applies to. The rule will affect not only the page but all child pages of the page, therefore making this attribute select the branch of the website to which the rule will apply. If a rule is applied to the home page, then it will apply to the entire Portal. |  |
 | Right       | [Grant change](#_Grant_change) or [Restrict read] (#_Restricted_read) below.|  
-| Description | (Optional) A description of the rule. 
-||
+|Scope| <ul><li>**All content**: All descendant content is included in security validation.</li><li>**Exclude related child web files**: All child web files directly related to this web page are excluded from security validation. This does not exclude child's descendants.</li></ul>By default, All content is selected.|
+| Description | (Optional) A description of the rule.|
 
 After creating a new access control rule, associate it with a page, this will cause it to affect both the page you assign the rule to as well as all child pages in other words, the entire 'branch' of the website.
 
@@ -43,9 +43,9 @@ The Restrict Read rule is used to limit viewing of a page (and its child pages) 
 You would then set the right to restrict read and the page to the page at the top of the branch which is to be read only by employees. You would then associate this rule with the employee web role and then assign users to this role.
 
 >[!Note]
->The root 'home' page of a website is a special node and must not have a restrict read rule applied to it. This will produce a runtime error. The security validation requires that all users must be able to read the root page of a website to validate contents within the site. The login, access denied, page not found, and error page are also special cases that also must be readable by all users.
+> If you apply the **Restrict Read** right to the root 'home' page of a website and select **Exclude related child web files** as the **Scope**, the home page and its related child pages will be accessible to a user.
 
-### See Also
+### See also
 
 [Create web roles for portals](create-web-roles.md)  
 [Configure web roles for a PRM portal](configure-web-roles-partner-portal.md)

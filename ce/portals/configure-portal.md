@@ -21,7 +21,7 @@ Learn how to configure portals and customize [!INCLUDE[pn-microsoftcrm](../inclu
 - [Add dynamic content to pages and create a wide variety of custom templates](custom-templates-dynamic-content.md)  
 - [Associate an authenticated portal user with either a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact or system user](configure-contacts.md)  
 - [Authenticate portal users](set-authentication-identity.md)
-- [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md).
+- [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md).
 - [Create surveys and customize questions](gather-feedback-poll.md) by combining [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] native field types with additional metadata.
 - [Create and run advertisements on a portal](create-run-advertisement.md)  
 - [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

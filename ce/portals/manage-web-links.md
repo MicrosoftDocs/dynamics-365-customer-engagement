@@ -1,5 +1,5 @@
 ---
-title: "Manage web links in Dynamics 365 or on portal in Dynamics 365 | MicrosoftDocs"
+title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 05/22/2017
@@ -74,7 +74,7 @@ The table below explains many of the standard Web Link properties used by [!INCL
 > - When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. This validation can be disabled with the "Disable Page Validation" option. 
  - Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.
 
-### See Also
+### See also
 
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Customize content by using content snippets](customize-content-snippets.md)

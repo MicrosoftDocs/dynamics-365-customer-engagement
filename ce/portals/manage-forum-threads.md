@@ -87,7 +87,7 @@ The table below explains many of the Forum Thread Type attributes used by portal
 | Is Default      | Checked indicates that type is to be used as the default. It is recommended that only one type per website have this field checked.     |
 ||
 
-### See Also
+### See also
 
 [Setup and moderate forums](setup-moderate-forums.md)  
 [Create forum posts on the portal](create-forum-posts.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Configure a web form properties for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 05/22/2017
@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Web form properties for portals
+# Define web form properties for portals
+
 The Web Form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to Web Page allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
 
 The other options on the Web Form record itself control top-level preferences for the multiple-step process as a whole, for example whether you'd like to display a progress bar.
@@ -235,13 +236,24 @@ The following properties are displayed when the Type selected equals **Purchase*
 | Fulfill Order on Payment                | A Boolean value. Checked indicates that the order state should be set to **Fulfilled** when the payment is verified. Requires **Target Entity Order Relationship Name.** If the target entity is **adx\_shoppingcart**, an order will be created automatically upon successful payment and Target Entity Order Relationship Name is not required. |
 | Create Invoice on Payment               | A Boolean value. Checked indicates that an invoice should be created when the payment is verified. Requires **Target Entity Invoice Relationship Name**, unless the target entity is adx\_shoppingcart, in which case this relationship is not needed.                                                                                            |
 | Target Entity Order Relationship Name   | Relationship from the web form step target entity to the order entity.                                                                                                                                                                                                                                                                            |
-| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.           ||
-                                                                                                                                                                                                                                                               |
+| Target Entity Invoice Relationship Name | Relationship from the web form step target entity to the invoice entity.           |
+||
 
-### See Also
+## Geolocation configuration for web form
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+A managed form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location. See [Add Geolocation](add-geolocation.md).
+
+The form's map control requires additional configuration to tell it what the ids of the various location fields are in order to assign/retrieve values to/from them. The Web Form Step record has a section that defines these field mappings that you must assign value for. The field names will vary depending on the schema you have created.
+
+![Geolocation data in web form](media/geolocation-managed-form.png "Geolocation data in web form")
+
+> [!Note]
+> The Geolocation section is not visible in the German Sovereign Cloud environment. If a user has enabled geolocation using a different form, it will not be displayed during rendering on portal.
+
+### See also
+
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

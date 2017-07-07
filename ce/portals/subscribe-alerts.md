@@ -72,7 +72,7 @@ The table below explains many of the Forum Alert attributes used by portals.
 | Expiration Date | The date and time when notifications should stop.                                                                                     |
 ||
 
-### See Also
+### See also
 
 [Setup and moderate forums](setup-moderate-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  
