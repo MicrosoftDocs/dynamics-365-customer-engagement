@@ -172,7 +172,9 @@ To import metadata translation:
 > - If the portal solutions are being installed, the solution update cannot be triggered.
 
 ## View activity of a user on a Portal
-You can enable a Portal to send data of a user’s activity to your Dynamics 365 Customer Insights (DCI) instance. This will be helpful in knowing the user’s journey on a Portal before and after creating a case. This also help you to understand the real issue, avoid asking the same information again from the user, and enable you to respond with the relevant information.
+Dynamics 365 for Customer Insights (DCI) is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers.
+
+You can enable a Portal to send data of a user’s activity to your DCI instance. This will be helpful in knowing the user’s journey on a Portal before and after creating a case. This also help you to understand the real issue, avoid asking the same information again from the user, and enable you to respond with the relevant information.
 
 Let’s take the following scenario:
 
@@ -181,20 +183,21 @@ Jay is the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] administr
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals needs the latest shared access key to send the interactions to DCI. Jay navigates to the Portal Admin Center and he can see the currently configured DCI instance. Jay can change the DCI instance or update the shared access key for the currently configured DCI instance.
 
 To view activity of a user on a Portal:
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and click the Applications tab.
-2.	Select the name of the portal you want to view user’s activity and click Manage.
-3.	Click Portal Analytics. The Tracking Portal Interaction page is displayed.
-4.	Click Configure Portal Interaction Tracking. The Configure Portal Interaction Tracking window is displayed.
+1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and click the **Applications** tab.
+2.	Select the name of the portal you want to view user’s activity and click **Manage**.
+3.	Click **Portal Analytics**. The Tracking Portal Interaction page is displayed.
+4.	Click **Configure Portal Interaction Tracking**. The Configure Portal Interaction Tracking window is displayed.
 5.	Enter the following values as per your Dynamics 365 Customer Insights instance:
     - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for Customer Insights hub URI 
     - Policy name with Manage, Read, and Write permissions 
     - Shared Key
-6.	Select the I have read and understood the terms and conditions check box.
-7.	Click Configure. A progress window is displayed.
-8.	Click Close in the confirmation window.
+6.	Read the preview agreement and select the **I have read and understood the terms and conditions** check box.
+7.	Click **Configure**. A progress window is displayed.
+8.	Click **Close** in the confirmation window.
+
 Once DCI is configured on Portal, the following actions become available:
-- Update D365 Customer Insights configuration: Allows you to update the shared key related to your policy. The hub URI is read-only.
-- Delete D365 Customer Insights integration: Allows you to delete the connection configuration between your DCI and your portal.
+- **Update D365 Customer Insights configuration**: Allows you to update the shared key related to your policy. The hub URI is read-only.
+- **Delete D365 Customer Insights integration**: Allows you to delete the connection configuration between your DCI and your portal.
 
 ### Configure DCI
 To persist interactions in customer’s DCI, the portal needs to create the interaction related configuration in DCI. These interactions need to be tied against a DCI Profile.
@@ -215,11 +218,11 @@ To allow a seamless experience, following interactions are captured in DCI:
 |portal\_search   |Portal Search   |portal\_interactionid, portal\_contactid, portal\_searchstring, portal\_timestamp, portal\_portalid   |Tracks portal users’ searches.   | |
 ||
 
-As a Portal administrator, you can configure which interaction gets ingested into DCI through Portals as per the customer’s requirement. To prevent a specific interaction being captured by a Portal, you can delete the interaction type from DCI.
+As a Portal Administrator, you can configure which interaction gets ingested into DCI through Portals as per the customer’s requirement. To prevent a specific interaction being captured by a Portal, you can delete the interaction type from DCI.
 
-Portal persists all its data in Dynamics 365. All the data required to render content on the Portal comes from Dynamics 365. Data in Dynamics 365 will be used to model Profiles and the Portal interactions will be tied to it. Portals will not create custom Profiles. The Portal Administrator must manually connect this Dynamics 365 Org to DCI and create Profiles. After creation of Profiles, the administrator must manually link the profiles to the Portal interaction type. This will allow the administrator to create charts/profile views.
+Portal persists all its data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. All the data required to render content on the Portal comes from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] will be used to model profiles and the Portal interactions will be tied to it. Portals will not create custom profiles. As a Portal Administrator, you must manually connect this [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Organization to DCI and create Profiles. You need to configure the Contact entity as a profile and then link the Contact to the Portal interactions, using the `crmrecordid` which is persisted as `portal_contactid` in the portal interactions. After creation of profiles, the administrator must manually link the profiles to the Portal interaction type. This will allow the administrator to create charts/profile views.
 
-For details on configuring DCI, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-insights/stepbystepconfiguration).
+For details on configuring DCI, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-insights/deploy/stepbystepconfiguration).
 
 ### Visualize customer journey
 Visualizing a customer journey allows you to view the user’s activity in the chart format. This helps you to know what activities a user has already performed before submitting the case, so you can provide relevant information.
@@ -230,7 +233,7 @@ Sharron is the CSR executive working on the cases in Contoso, Ltd. Sharron frequ
 
 The Customer Journey chart is embedded on the Case form, which displays the Portal user’s activity moments before the case was created. This helps Sharron to know what activities her Portal user has already done and share the relevant information that would help resolve the issue in an effective way.
 
-For details on configuring DCI, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-insights/stepbystepconfiguration).
+For details on configuring DCI, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-insights/deploy/stepbystepconfiguration).
 
 
 

@@ -14,7 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Set authentication identity for a portal
-[comment]: <> (verify and fix images)
 
 Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
 
@@ -68,10 +67,8 @@ Returning visitors who require a password reset (and have previously specified a
 - `Authentication/Registration/ResetPasswordEnabled`
 - `Authentication/Registration/ResetPasswordRequiresConfirmedEmail`
 
-[//]: # (I believe "Process: send password reset to contact" was a duplicate?)
-**Related processes:**
+**Related process:** Send password reset to contact
 
-- Send password reset to contact
 - Customize the email in the workflow as necessary
 - Submit email to invoke process
 - Visitor prompted to check email
@@ -87,26 +84,22 @@ Redeeming an invitation code allows a registering visitor to be associated to an
 
 `Authentication/Registration/InvitationEnabled`
 
-**Related processes:**
+**Related process:** Send invitation
 
-[//]: # (Edit to make the heading unique.)
-### Send invitation workflow
 The email sent by this workflow must be customized by using the URL to the redeem invitation page on the portal: http://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation Code(Invitation)}
 
-### Create invitation for a new contact
+1. Create invitation for a new contact
 
-![Create an invitation for a new contact](media/create-invitation.png "Create an invitation for a new contact")  
+    ![Create an invitation for a new contact](media/create-invitation.png "Create an invitation for a new contact")  
 
-### Customize and save the new invitation
+2. Customize and save the new invitation
 
-![Customize a new invitation](media/customize-new-invitation.png "Customize a new invitation")  
+    ![Customize a new invitation](media/customize-new-invitation.png "Customize a new invitation")  
 
-[//]: # (The edits to this list might be wrong. I made them because I'm confused about who is the agent of action in each step, and who the audience is. Step 1 seems to be what the customizer does, step 2 is what the email does, step 3 is what the end user does... Because I don't know who is actually doing these things, I didn't replicate this edit throughout the topic, otherwise I would have tried to make all these lists clearer.)
-### Send invitation
-
-1. Customize the invitation email.
-2. The invitation email opens the redemption page.
-3. The user signs up by using the submitted invitation code.
+3. Process: Send invitation
+4. Customize the invitation email.
+5. The invitation email opens the redemption page.
+6. The user signs up by using the submitted invitation code.
 
     ![Sign-up with a invitation code](media/sign-up-invitation-code.png "Sign up by using an invitation code")  
 
@@ -137,34 +130,25 @@ A user who has an existing local account can apply a new password by providing t
 
 Changing an email address (or setting it for the first time) puts it into an unconfirmed state. The user can request a confirmation email to be sent to the new email address, including instructions for completing the email confirmation process.
 
-**Related processes:**
+**Related process:** Send email confirmation to contact
 
-### Send email confirmation to contact
 1. Customize the email in the workflow as necessary. 
 2. Submit a new email (unconfirmed).
 3. Check email for confirmation.
-
-[//]: # (This is the same as previous heading--is that okay?)
-### Send email confirmation to contact
-1.  Customize the confirmation email.
-2.  Click the confirmation link to complete.
+4. Process: Send email confirmation to contact
+5. Customize the confirmation email.
+6. Click the confirmation link to complete.
 
 ## Enable two-factor authentication
 
-The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local/external account sign-in. A user trying to sign in to an account that has two-factor authentication enabled is sent a security code to the confirmed email associated with their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passed the verification, so that the security code will not be required for subsequent sign-ins from the same browser.
-
-[//]: # (In the second sentence, what does "both" refer to?)
-Each user account enables this feature individually and requires a confirmed email. User accounts with both may choose which method to receive the security code.
+The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local/external account sign-in. A user trying to sign in to an account that has two-factor authentication enabled is sent a security code to the confirmed email associated with their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passed the verification, so that the security code will not be required for subsequent sign-ins from the same browser. Each user account enables this feature individually and requires a confirmed email.
 
 **Related Site Settings:**
 
 - `Authentication/Registration/TwoFactorEnabled`
 - `Authentication/Registration/RememberBrowserEnabled`
 
-**Related Processes:**
-
-[//]: # (Step 4 doesn't go with the process flow. I think naming who or what is performing each step will help make this logical. Step 5 isn't really a step)
-### Send Email Two Factor Code To Contact
+**Related Process:** Send Email Two Factor Code To Contact
 
 1. Enable two-factor authentication.
 2. Choose to receive security code by email.
