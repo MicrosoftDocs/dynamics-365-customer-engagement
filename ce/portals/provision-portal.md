@@ -229,7 +229,7 @@ Visualizing a customer journey allows you to view the user’s activity in the c
 
 Let’s take the following scenario:
 
-Sharron is the CSR executive working on the cases in Contoso, Ltd. Sharron frequently helps her customers to resolve the customer issues by sharing the knowledge articles link from the http://support.contoso.com self-service portal. At times, Sharron shares the same articles her customers have already read, which resulted in poor customer satisfaction. 
+Sharron is the CSR executive working on the cases in Contoso, Ltd. Sharron frequently helps her customers to resolve the customer issues by sharing the knowledge articles link from the `http://support.contoso.com` self-service portal. At times, Sharron shares the same articles her customers have already read, which resulted in poor customer satisfaction. 
 
 The Customer Journey chart is embedded on the Case form, which displays the Portal user’s activity moments before the case was created. This helps Sharron to know what activities her Portal user has already done and share the relevant information that would help resolve the issue in an effective way.
 
