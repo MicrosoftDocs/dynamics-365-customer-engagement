@@ -38,7 +38,7 @@ The table below explains many of the Forum Post attributes used by portals. It i
 | Content      | The body or message of the post.                                                                            |
 | Answer?      | Checked indicates that the post is identified as being the answer to the thread's question.                 |
 
-### See Also
+### See also
 
 [Setup and moderate forums](setup-moderate-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  

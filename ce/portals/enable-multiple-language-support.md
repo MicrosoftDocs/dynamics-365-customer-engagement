@@ -16,7 +16,7 @@ manager: sakudes
 # Enable multiple-language portal support
 Business is not confined to a single language. One portal’s surface content can now exist in multiple languages to reach customers around the world while keeping a single content hierarchy. To enable multiple languages for a portal, follow these steps after signing in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
-1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/en-us/library/dn832148.aspx)  
+1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/library/dn832148.aspx)  
 2.  Go to **Portals** &gt; **Website** &gt; **Websites**.
 3.  Select the website to add language support to.
 4.  Find the **Supported Languages** section under the **General** tab, and click the **+** button.
@@ -81,6 +81,9 @@ The table below shows all the languages currently available out of the box. This
 In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** &gt; **Content** &gt; **Web Pages** to see a list of content. For each web page, there will be a parent version of the page and a child version of the page for each language activated for the portal. To add a new localization of the page, navigate to a base page and scroll down to **Localized Content**. Click on the **+** button on the right side to create a look-up for the localized version.
 
 ![Add new localized content](media/Add-new-localized-content.png "Add new localized content")  
+
+> [!Note]
+> The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
 
 If a portal will be in multiple languages, it is best to create the portal after all the languages you want have been activated in the organization. This will allow for the drop-down menu at the top of the **Web Pages** window to be translated into all the chosen languages. If languages are activated after the portal has been provisioned, this menu will not be translated into the newly activated languages.
 

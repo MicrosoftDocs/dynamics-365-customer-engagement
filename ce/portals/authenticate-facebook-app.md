@@ -13,9 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Facebook App (Page Tab) authentication for portals
-
-
+# Authenticate the Facebook App
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals are capable of hosting Facebook Apps in the context of a [Facebook Page Tab](https://developers.facebook.com/docs/appsonfacebook/pagetabs/). This is achieved by employing features such as Login with Facebook and ASP.Net MVC Display Modes.  
 
@@ -107,9 +105,9 @@ By default, [!INCLUDE[pn-internet-explorer](../includes/pn-internet-explorer.md)
    </system.webServer>
 </configuration>
 ```
-### See Also
+### See also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

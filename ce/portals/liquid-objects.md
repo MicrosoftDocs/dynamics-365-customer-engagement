@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Liquid objects
+# Available Liquid objects
 
 Liquid objects contain attributes to output dynamic content to the page. For example, the pageobject has an attribute called title that can be used to output the title of the current page.
 
@@ -37,7 +37,7 @@ The following objects can be used and accessed anywhere, in any template.
 |Object   |Description   |
 |---|---|
 | entities    | Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*entities*](#entities)                                                                                                                                                      |  
-| now         | A date/time object that refers to the current UTC time,**at the time the template is rendered**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*Date filters*](#date-filters)                                                                                              |  
+| now         | A date/time object that refers to the current UTC time,at the time the template is rendered.<br>**Note**: This value is cached by Portal Web App and is not refreshed every time. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*Date filters*](#date-filters)                                                                                              |  
 | page        | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*page*](#page)  |  
 | params      | A convenient shortcut for request.params. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*request*](#request)                                                                                                                                                                |  
 | request     | Contains information about the current HTTP request. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [*request*](#request)                                                                                                                                                     |  
@@ -66,6 +66,8 @@ The following objects can be used and accessed anywhere, in any template.
 [forloop](#forloop)  
 
 [forums](#forums)  
+
+[knowledge](#knowledge)
 
 [page](#page)  
 
@@ -733,6 +735,143 @@ A Single Forum Post
 | is\_answer | Is this post an answer to the thread?                                      |
 
 
+## knowledge
+
+Provides access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] knowledgearticle and category entity records to render articles and categories in a portal.
+
+### Attributes
+
+|Attribute|Description|
+|---|---|
+|articles|Returns an articles object containing article objects for the knowledgearticle entity records available in the portal.|
+|categories|Returns a categories object containing category objects for the category entity records available in the portal.|
+|||
+
+### articles object
+
+The articles object allows you to access a collection of article objects. You can order the articles and achieve pagination as well using liquid filters.
+
+```
+{% assign count = count | default: 3 %}
+{% assign languagecode = website.selected_language.code %}
+{% assign popular_articles = knowledge.articles | popular: count,languagecode  %}
+{% if popular_articles %}
+    <div class="list-group">
+    {% for article in popular_articles %}
+      <div class="list-group-item clearfix">
+        <a class="title" href="{{ article.url | escape }}">{{ article.title | escape }}</a>
+        <p class="description">{{ article.description | escape }}</p>
+      </div>
+    {% endfor %}
+    </div>
+{% endif %}
+```
+
+### Attributes
+
+|Attribute|Description|
+|---|---|
+|popular |Returns a collection of article objects containing the most views. `{% assign popular_articles = knowledge.articles.popular %}` |
+|recent |Returns a collection of article objects containing the latest modified date. `{% assign recent_articles = knowledge.articles.recent %}` |
+|top |Returns a collection of article objects containing the highest rating. `{% assign top_articles = knowledge.articles.top  %}` |
+| | |
+
+### Filters
+
+The following filters can accept optional parameters for page size and language. First parameter is the number or records to retrieve. The default page size is 5. The second parameter is the code of a language to retrieve articles for a given language. Filters may be combined with other [Liquid filters](liquid-filters.md).
+
+```
+{% assign page_size = 5 %}
+{% assign language_code = website.selected_language.code %}
+{% assign recent_articles = knowledge.articles | recent: page_size, language_code %}
+```
+
+|Attribute|Description|
+|---|---|
+|popular |Returns a collection of article objects containing the most views. `{% assign popular_articles = knowledge.articles \| popular: 10, en-US %}` |
+|recent |Returns a collection of article objects containing the latest modified date. `{% assign recent_articles = knowledge.articles \| recent: 5 %}` |
+|top |Returns a collection of article objects containing the highest rating. `{% assign top_articles = knowledge.articles \| top: 3, en-US %}` |
+| | |
+
+### categories object
+
+The categories object allows you to access a collection of category objects. You can order the categories and achieve pagination as well using liquid filters.
+
+```
+{% assign category_url = sitemarkers['Category'].url %}
+  {% assign count = count | default: 0 %}  
+  {% assign categories = knowledge.categories | top_level: count %}
+  {% if categories %}
+    <div class="list-group unstyled">
+    {% for category in categories %}
+      <a href="{{ category_url | add_query: 'id', category.categorynumber }}" class="list-group-item">
+        {{ category.title }}
+      </a>
+    {% endfor %}
+    </div>
+  {% endif %}
+```
+
+### Attributes
+
+|Attribute|Description|
+|---|---|
+|recent |Returns a collection of category objects containing the latest modified date. |
+|top_level |Returns a collection of category objects that do not have a parent category. |
+|||
+
+### Filters
+
+The following filters can accept an optional parameter indicating the page size. The default page size is 5. Filters may be combined with other [Liquid filters](liquid-filters.md).
+
+```
+{% assign page_size = 5 %}
+{% assign recent_categories = knowledge.categories | recent: page_size %}
+```
+
+|Attribute|Description|
+|---|---|
+|recent |Returns a collection of category objects containing the latest modified date. You can provide parameters `{% assign recent_categories = knowledge.categories \| recent: 10 %}` |
+|top_level |Returns a collection of category objects that do not have a parent category. `{% assign root_categories = knowledge.categories \| top_level %}` |
+|||
+
+### article Object
+
+The article object allows you to work with a single knowledgearticle to display details of that article in the portal.
+
+### Attributes
+
+article is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.
+
+|Attribute|Description|
+|---|---|
+|article_public_number|	The Article Public Number of the article.|
+|comment_count|	The integer value of the count of how many comments there are for a given article.|
+|content|The content of the article.|
+|current_user_can_comment|Returns a Boolean value indicating whether or not the current user can add comments on the article.|
+|is_rating_enabled|Returns a boolean value indicating whether rating on an article is enabled.|
+|keywords|The keywords on the article.|
+|name|An alternate alias for the title of the article.|
+|rating|The decimal rating value on the article.|
+|title|The title of the article.|
+|view_count|The integer value of the number of times the article has been viewed.|
+|||
+
+### category Object
+
+The category object allows you to work with a single category to display its details in the portal.
+
+### Attributes
+
+category is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.
+
+|Attribute|Description|
+|---|---|
+|categorynumber|The Category Number of the category.|
+|name|An alternate alias for the title of the category.|
+|title|The title of the category.|
+|||
+
 ## page
 
 Refers to the current portal request page. This object combines the attributes of the [sitemap](#sitemap) and the current request [entities](#entities) (usually a webpage).  
@@ -1273,7 +1412,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 | url             | The URL of the image.                                                                                               |
 | Width           | Integer containing the specified width of the image. If no width value was provided, this attribute will be null.   |
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Liquid types](liquid-types.md)  

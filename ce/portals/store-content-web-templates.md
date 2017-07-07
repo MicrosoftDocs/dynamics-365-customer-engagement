@@ -70,7 +70,7 @@ There is a set of premade Liquid templates available within [!INCLUDE[pn-dynamic
 | Weblink List Group          | This template renders a list group of links for a web link set.                                                                                                                                                                         | `{% include 'weblink_list_group' weblink_set_name:'Name' %}`                     |
 ||
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Understand Liquid operators](liquid-operators.md)  
