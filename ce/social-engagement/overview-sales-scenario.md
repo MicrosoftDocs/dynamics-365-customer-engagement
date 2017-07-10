@@ -1,6 +1,6 @@
 ---
 title: "Social Engagement scenarios for salespeople | Microsoft Docs"
-description: "Review the sales scenarios for inspiration how to efficiently leverage Social Engagement in your organization."
+description: "Review sales scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
 ms.date: 2017-07-10
 ms.service: mse
 ms.topic: article
@@ -10,7 +10,7 @@ author: "m-hartmann"
 ms.author: mhart
 ms.manager: sakudes
 ---
-# Social Selling - grow your network and boost sales
+# Social selling - grow your network and boost sales
 
 Buying decisions are often influenced by information found on the Internet and on social media. Salespeople can leverage social media for their sales processes, become thought leaders and increase their social presence by participating in discussions around their products or services.
 
@@ -40,9 +40,9 @@ Learn how to install, configure and personalize the Social Selling Assistant to 
 
 4. [Grow your network](../social-engagement/work-with-social-selling-assistant.md) using the Social Selling Assistant.
 
-## Sales efficiency: create leads in Dynamics 365 from social posts
+## Sales efficiency: create leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from social posts
 
-Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can create a lead and assign it so the right salesperson in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they can follow up with potential customers efficiently.
+Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can create a lead and assign it to the right salesperson in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they can follow up with potential customers efficiently.
 
 1.  Get an [overview](../social-engagement/link-posts-to-dynamics-365.md) of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 
@@ -65,11 +65,12 @@ Trend alerts trigger when the number of newly found posts exceeds the average nu
 
 ## Social analytics: add widgets with social insights to entity forms in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]
 
-[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (online) users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards, or they can add them to account, contact, or competitor forms. 
+[//]: # (@Michael, please verify token.)
+[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards, or they can add them to account, contact, or competitor forms. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
 
-### See Also
+### See also
 
  [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
  [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   

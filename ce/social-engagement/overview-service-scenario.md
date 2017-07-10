@@ -1,6 +1,6 @@
 ---
 title: "Customer service scenarios for Social Engagement | Microsoft Docs"
-description: "Review the service scenarios for inspiration how to efficiently leverage Social Engagement in your organization."
+description: "Review service scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
 ms.date: 2017-07-10
 ms.topic: article
 applies_to: "Social Engagement"
@@ -31,7 +31,7 @@ The following steps describe an end-to-end configuration for social customer car
 
 1.  [Enable service reps to engage with customers via social media](#manage-social-profiles-to-participate-in-conversations) by adding and sharing social profiles and streams.
 
-2. Before you can start engaging with customers, you need to [create a search topic](../social-engagement/set-up-searches.md) with rules that gather all posts addressing of your organization's social profiles. For example, if you added a Twitter or Facebook page profile, make sure you [allow the acquisisiton of private messages](../social-engagement/manage-access-tokens.md#tokens-for-interactions-with-posts) and [create search rules](../social-engagement/add-rules-search-topic.md) that gather private messages and all post types for the profile.
+2. Before you can start engaging with customers, you need to [create a search topic](../social-engagement/set-up-searches.md) with rules that gather all posts that address your organization's social profiles. For example, if you added a Twitter or Facebook page profile, make sure you [allow the acquisisiton of private messages](../social-engagement/manage-access-tokens.md#tokens-for-interactions-with-posts) and [create search rules](../social-engagement/add-rules-search-topic.md) that gather private messages and all post types for the profile.
 
 3. [Add tags, automatically and manually](#use-intelligence-to-boost-productivity), learn how automated intention analysis can help triage incoming posts. Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you.
 
@@ -63,9 +63,9 @@ Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some wo
 - Let the system learn from the tags you added and [automate the tagging of posts](../social-engagement/tags.md#promote-custom-tags-to-auto-tags).
 
 - Get [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to [find the intentions in posts](../social-engagement/tags.md#how-intention-analysis-works) to enable quick triage of large number of posts. For example, you can route support requests to your service reps.  
-To further increase efficiency, you can automate the routing of posts with [automation rules](../social-engagement/automation-rules.md).
+To further increase efficiency, you can automate the routing of posts by using [automation rules](../social-engagement/automation-rules.md).
 
-## Create support cases in Dynamics 365 from social posts
+## Create support cases in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from social posts
 
 Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can create a case and assign it so the right service rep in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they review and solve the case efficiently.
 
@@ -92,13 +92,13 @@ Collaborate with your team and make sure they address the right customer issue w
 
 ## Customer stories
 
-- [UK Banking Disrupted: Metro Bank Reinvents Customer Service with Microsoft](https://customers.microsoft.com/en-us/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)
+- [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)
 
-- [5 tips to help your business weather changes in the financial services industry](https://customers.microsoft.com/en-us/story/5-tips-to-help-your-business-weather-changes-in-the-fi)
+- [5 tips to help your business weather changes in the financial services industry](https://customers.microsoft.com/story/5-tips-to-help-your-business-weather-changes-in-the-fi)
 
 [Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
-### See Also
+### See also
 
 [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
 [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
