@@ -1,16 +1,8 @@
-Microsoft Social Engagement 2017 Update 1.6
-===========================================
-
-Readme
-======
-
-July 2017
-=========
-
->   © 2017 Microsoft. All rights reserved.
+Social Engagement 2017 Update 1.6 Readme
+========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2017 Update 1.6.
+Social Engagement 2017 Update 1.6. It was published in July 2017.
 
 Resources
 ---------
@@ -234,29 +226,3 @@ Analytics notification.
 In some cases, Disqus posts are missing an URL. This can happen if posts are
 created through an API or through private channels. Social Engagement cannot
 acquire messages that are missing an URL.
-
-Copyright
----------
-
-This document is provided "as-is". Information and views expressed in this
-document, including URL and other Internet web site references, may change
-without notice.
-
-Some examples depicted herein are provided for illustration only and are
-fictitious. No real association or connection is intended or should be inferred.
-
-This document does not provide you with any legal rights to any intellectual
-property in any Microsoft product. You may copy and use this document for your
-internal, reference purposes.
-
-The videos and eBooks might be in English only. Also, if you click the links,
-you may be redirected to a U.S. website whose content is in English.
-
-© 2017 Microsoft. All rights reserved.
-
-Microsoft, Dynamics, Microsoft Dynamics, and Windows are trademarks of the
-Microsoft group of companies.
-
-All other trademarks are property of their respective owners.
-
-<div id="test"><style type="text\css">#comments-container{display:none;}</style></div>
