@@ -14,7 +14,11 @@ ms.author: shjais
 manager: sakudes
 ---
 # Enable multiple-language portal support
-Business is not confined to a single language. One portal’s surface content can now exist in multiple languages to reach customers around the world while keeping a single content hierarchy. To enable multiple languages for a portal, follow these steps after signing in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
+Business is not confined to a single region or a language. A single portal can display content in multiple languages to reach customers around the world. The content of your portal can be translated into multiple languages while maintaining a single content hierarchy.
+
+![Multi-language dropdown](media/multi-language-dropdown.png "Multi-language dropdown")  
+
+To enable multiple languages for a portal, follow these steps after signing in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
 1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/library/dn832148.aspx)  
 2.  Go to **Portals** &gt; **Website** &gt; **Websites**.
@@ -22,9 +26,12 @@ Business is not confined to a single language. One portal’s surface content ca
 4.  Find the **Supported Languages** section under the **General** tab, and click the **+** button.
 5.  Fill in the form, including **Portal Language** (a lookup of languages that are activated in the organization and are supported by portals) and **Publishing State**.
 
-![Add a new portal language](media/add-new-portal-language.png "Add a new portal language")  
+    ![Add a new portal language](media/add-new-portal-language.png "Add a new portal language")
 
-![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")  
+    ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
+
+> [!Note]
+> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](provision-portal.md#import-metadata-translation) to get the Portals metadata translated for the newly activated languages.
 
 ## Supported languages
 
@@ -84,10 +91,6 @@ In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals*
 
 > [!Note]
 > The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
-
-If a portal will be in multiple languages, it is best to create the portal after all the languages you want have been activated in the organization. This will allow for the drop-down menu at the top of the **Web Pages** window to be translated into all the chosen languages. If languages are activated after the portal has been provisioned, this menu will not be translated into the newly activated languages.
-
-![Multi-language dropdown](media/multi-language-dropdown.png "Multi-language dropdown")  
 
 Knowledge articles will only be displayed if they have been translated into the language the user sets the portal to. However, forums and blogs allow for more control over how they are presented in other languages. After navigating to a forum or blog entity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], changing the **Form Language** field will allow for control over how these entities are translated. If specific languages are defined, it will function like the knowledge articles. If the field is blank it will be agnostic and show up in all versions of the portal as the primary language of the organization.
 
