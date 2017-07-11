@@ -63,11 +63,11 @@ The new control will now be rendered on the page, giving you the ability to mana
 The paper-clip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You can continue to store attachments in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]; those files will be denoted with the paper-clip icon.
 
 > [!Note]
-> You must enable cross-origin resource sharing (CORS) on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account as follows, otherwise you will see the regular attachment icon rather than the cloud icon.
+> You must add cross-origin resource sharing (CORS) rule on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account as follows, otherwise you will see the regular attachment icon rather than the cloud icon.
 > - **Allowed origins**: Specify your Dynamics 365 domain. For example, contoso.crm.dynamics.com.
 > - **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
 > - **Allowed headers**: Specify the request headers that the origin domain may specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*. 
-> - **Exposed headers**: The response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*.
+> - **Exposed headers**: Specify the response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*.
 > - **Maximum age (seconds)**: Specify the maximum amount time that a browser should cache the preflight OPTIONS request. For example, 200.
 
 > [!include[More information](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
