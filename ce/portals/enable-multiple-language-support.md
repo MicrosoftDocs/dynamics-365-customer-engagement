@@ -31,7 +31,7 @@ To enable multiple languages for a portal, follow these steps after signing in t
     ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
 
 > [!Note]
-> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](provision-portal.md#import-metadata-translation) to get the Portals metadata translated for the newly activated languages.
+> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](provision-portal.md#import-metadata-translation) to get the  metadata translated for the newly activated languages.
 
 ## Supported languages
 
@@ -92,7 +92,9 @@ In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals*
 > [!Note]
 > The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
 
-Knowledge articles will only be displayed if they have been translated into the language the user sets the portal to. However, forums and blogs allow for more control over how they are presented in other languages. After navigating to a forum or blog entity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], changing the **Form Language** field will allow for control over how these entities are translated. If specific languages are defined, it will function like the knowledge articles. If the field is blank it will be agnostic and show up in all versions of the portal as the primary language of the organization.
+Knowledge articles will only be displayed if they have been translated into the language the user sets the portal to be displayed. However, forums and blogs allow for more control over how they are presented in other languages. Specifying a language for a forum or blog is optional. If a language is not specified, the forum or blog will be displayed in the primary language of the organization. If you want the forum or blog specific to a language, you must create it in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and assign the language to it.
+
+After navigating to a forum or blog entity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], changing the **Form Language** field will allow for control over how these entities are translated. If specific languages are defined, it will function like the knowledge articles. If the field is blank it will be agnostic and show up in all versions of the portal as the primary language of the organization.
 
 Web link sets are the navigation links at the top of the portal. By navigating to **Portals** &gt; **Content** &gt; **Web Link Sets** you can control how this content is translated. When a language is active for the portal, a new set of links will be created for the newly activated language.
 
