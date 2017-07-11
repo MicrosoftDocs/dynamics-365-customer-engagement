@@ -20,7 +20,6 @@ Social media is no longer relegated to a select few in the marketing department.
 
 ## Success stories
 
-[//]: # (@Michael, I don't think the language code "en-gb" should be part of the link in the third bullet. When I take it out, the browser defaults to an enterprise-level URL. I believe it needs an FWlink.)
 See how some of our customers are using [!INCLUDE[Social Engagement](../includes/pn-netbreeze-short.md)] to address their use cases.  
 
 -   [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)&mdash;transforming customer service and social insights.

@@ -10,7 +10,6 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
-[//]: # (@Michael, I made all these netbreeze tokens short. If I understand the latest mail on the subject, we never need the long version when the topics are published on Docs. Also, I made all "update" occurrences lowercase, which I did find a guideline for in OneNote on the "Tokens for Centaurus, Potassium and later" page.)
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Here's a list of features we added recently.
@@ -22,7 +21,7 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
 [//]: # (About the verb tenses in these sections: Can a user choose to update to a specific version, or is he compelled to have the latest version if he updates at all? I ask because if the current update is always going to be installed, the "what's new" from all the previous updates should really be past tense. So for the present update, "we've continued..." but for the previous updates, "we addressed service and product improvements with this release..." It's not an important distinction, but I did find the continual present tense from these update descriptions kind of jarring.)
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.6
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.6
 
 ### Improved base model for sentiment analysis
 
@@ -36,7 +35,7 @@ Performance and reliability are key to providing a stable data acquisition pipel
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.5
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.5
 
 ### Service and product improvements
 
@@ -46,7 +45,7 @@ We've addressed service and product improvements with this release. For changes 
 [//]: # (I assume "the Social Selling Assistant" is the true name--or maybe it isn't--but I'm not sure what the full description should be: it's "Social Assistant within Social Engagement" here, "Social Engagement Social Selling Assistant" later, and on AppSource it's "Dynamics 365 - Social Selling Assistant." I'll leave it up to you to name it, but please make it consistent.)
 Additionally, we've continued our ongoing investment to make [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] more accessible. With the current release, Social Selling Assistant within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports keyboard navigation and screen readers on mobile and desktop devices.
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.4
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.4
 
 ### Engagement Analytics with [!INCLUDE[Power BI](../includes/pn-power-bi.md)]
 
@@ -63,7 +62,7 @@ We aligned the forms in Social Selling Assistant configuration and the [!INCLUDE
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md) 
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.3
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.3
 
 ### [!INCLUDE[Power BI](../includes/pn-microsoft-power-bi.md)] content pack for [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
 
@@ -77,7 +76,7 @@ Starting with this update, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreez
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](../social-engagement/posts-conversations.md#conversationView)
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.2
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.2
 
 ### Get insights with the Social Selling Assistant
 
@@ -91,14 +90,13 @@ The engagement action history now shows the name and profile picture of the [!IN
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 update 1.1
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.1
 
 ### Sell more with the Social Selling Assistant
 
-[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] introduces the Social Selling Assistant to empower your salespeople to sell more by leveraging social media. With this application, your salespeople get personalized and smart recommendations for posts to share on their social networks to increase their social presence, gain trust from their followers, and generate more leads. 
- 
-[//]: # (@Michael, is there a product name token you can use for Dynamics 365 for Sales here?)
-You can access the Social Selling Assistant from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and install it from Microsoft AppSource into your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Sales application. The AppSource app adds a new dashboard that contains the Social Selling Assistant. Salespeople can access this dashboard from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web client, and from [!INCLUDE[pn_dyn_365_tablets](../includes/pn-dyn-365-tablets.md)]. [!INCLUDE[pn_dyn_365_phones](../includes/pn-dyn-365-phones.md)] is currently not supported.
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] introduces the Social Selling Assistant to empower your salespeople to sell more by leveraging social media. With this application, your salespeople get personalized and smart recommendations for posts to share on their social networks to increase their social presence, gain trust from their followers, and generate more leads.
+
+You can access the Social Selling Assistant from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and install it from Microsoft AppSource into your [!INCLUDE[Dynamics 365 for Sales](../includes/pn-ms-dyn-365-for-sales.md)] application. The AppSource app adds a new dashboard that contains the Social Selling Assistant. Salespeople can access this dashboard from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web client, and from [!INCLUDE[pn_dyn_365_tablets](../includes/pn-dyn-365-tablets.md)]. [!INCLUDE[pn_dyn_365_phones](../includes/pn-dyn-365-phones.md)] is currently not supported.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)
 
