@@ -21,7 +21,7 @@ Business is not confined to a single region or a language. A single portal can d
 To enable multiple languages for a portal, follow these steps after signing in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
 1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/library/dn832148.aspx)  
-2.  Go to **Portals** &gt; **Website** &gt; **Websites**.
+2.  Go to **Portals** > **Website** > **Websites**.
 3.  Select the website to add language support to.
 4.  Find the **Supported Languages** section under the **General** tab, and click the **+** button.
 5.  Fill in the form, including **Portal Language** (a lookup of languages that are activated in the organization and are supported by portals) and **Publishing State**.
@@ -85,9 +85,12 @@ The table below shows all the languages currently available out of the box. This
 
 ## Create content in multiple languages
 
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** &gt; **Content** &gt; **Web Pages** to see a list of content. For each web page, there will be a parent version of the page and a child version of the page for each language activated for the portal. To add a new localization of the page, navigate to a base page and scroll down to **Localized Content**. Click on the **+** button on the right side to create a look-up for the localized version.
+1. Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+2. Go to **Portals** > **Content** > **Web Pages** to see a list of content. For each web page, there will be a parent version of the page and a child version of the page for each language activated for the portal.
+3. To add a new localization of the page, navigate to a base page and scroll down to **Localized Content**.
+4. Click the **+** button on the right side to create a look-up for the localized version.
 
-![Add new localized content](media/Add-new-localized-content.png "Add new localized content")  
+    ![Add new localized content](media/Add-new-localized-content.png "Add new localized content")  
 
 > [!Note]
 > The configuration fields on the home page of a content page is not inherited to the existing content pages. They are used only in creation of new content pages. You must update the content page configurations individually.
@@ -96,6 +99,6 @@ Knowledge articles will only be displayed if they have been translated into the 
 
 After navigating to a forum or blog entity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], changing the **Form Language** field will allow for control over how these entities are translated. If specific languages are defined, it will function like the knowledge articles. If the field is blank it will be agnostic and show up in all versions of the portal as the primary language of the organization.
 
-Web link sets are the navigation links at the top of the portal. By navigating to **Portals** &gt; **Content** &gt; **Web Link Sets** you can control how this content is translated. When a language is active for the portal, a new set of links will be created for the newly activated language.
+Web link sets are the navigation links at the top of the portal. By navigating to **Portals** > **Content** > **Web Link Sets** you can control how this content is translated. When a language is active for the portal, a new set of links are created for the newly activated language.
 
-![Active weblink for new language](media/active-weblink-new-language.png "Active weblink for new language")
+![Active web link for new language](media/active-weblink-new-language.png "Active web link for new language")
