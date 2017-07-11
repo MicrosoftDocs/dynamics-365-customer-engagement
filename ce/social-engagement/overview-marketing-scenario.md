@@ -60,10 +60,9 @@ Identify potential leads on social media and let your sales team know about them
 
 3. Automate this workflow by using an [automation rule](../social-engagement/automation-rules.md) for every post tagged with **Purchase Intention**.
 
-
 ## Share your content on social media
 
-Have you launched or refreshed a product or service? Let your marketing team share it with the world. Publish posts and engage with your communities on social media with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
+Have you launched or refreshed a product or service? Let your marketing team share it with the world. Publish posts and engage with your communities on social media with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 1. [Add social profiles](../social-engagement/manage-social-profiles.md) and [share](../social-engagement/manage-social-profiles.md#let-other-users-work-with-your-social-profile) them with your team.
 
@@ -77,12 +76,9 @@ Have you launched or refreshed a product or service? Let your marketing team sha
 
 - [Marston's delivers personalized service in real time with Dynamics 365](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)
 
-[//]: # (@Michael, this needs to be a FWlink. When I take out "en-us" I get an error.)
-[Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
-
 ### See also
 
-- [Social Engagement overview](../social-engagement/overview.md)    
-- [Get started with Social Engagement](../social-engagement/get-started.md)    
-- [Manage connections in Social Engagement](../social-engagement/manage-connections.md)
-- [Engage on social networks](../social-engagement/engage-on-social-networks.md)
+[Social Engagement overview](../social-engagement/overview.md)    
+[Get started with Social Engagement](../social-engagement/get-started.md)    
+[Manage connections in Social Engagement](../social-engagement/manage-connections.md)    
+[Engage on social networks](../social-engagement/engage-on-social-networks.md)

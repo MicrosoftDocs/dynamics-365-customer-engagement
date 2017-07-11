@@ -79,8 +79,7 @@ Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../i
 
 ## Establish workflows and collaborate with other users
 
-[//]: # (I'm not sure what "intended priority" means here.)
-Collaborate with your team and make sure they address the right customer issue with the intended priority.
+Collaborate with your team and make sure they prioritize the right issues.
 
 1. [Assign posts](../social-engagement/work-with-posts.md#assign-a-post-to-other-users-in-analytics-and-social-center) to other users to distribute work across the team.
 
@@ -96,9 +95,6 @@ Collaborate with your team and make sure they address the right customer issue w
 - [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)
 
 - [5 tips to help your business weather changes in the financial services industry](https://customers.microsoft.com/story/5-tips-to-help-your-business-weather-changes-in-the-fi)
-
-[//]: # (@Michael, this needs to be a FWlink. When I take out "en-us" I get an error.)
-[Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
 ### See also
 

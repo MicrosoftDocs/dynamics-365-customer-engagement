@@ -64,12 +64,12 @@ If you're gathering posts that mention your main competitor, you can set up a tr
 
 ## Social analytics: add widgets with social insights to entity forms in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]
 
-[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards or to account, contact, or competitor forms. 
+[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards or to account, contact, or competitor forms.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
 
 ### See also
 
- [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
- [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
- [Work with posts](../social-engagement/work-with-posts.md)
+[Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
+[Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
+[Work with posts](../social-engagement/work-with-posts.md)
