@@ -50,8 +50,8 @@ You must also enable cross-origin resource sharing (CORS) on your [!include[Azur
 
 - **Allowed origins**: Specify your Dynamics 365 domain. For example, contoso.crm.dynamics.com.
 - **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
-- **Allowed headers**: Specify the request headers that the origin domain may specify on the CORS request. For example, x-ms-meta-data*, x-ms-meta-target*. 
-- **Exposed headers**: The response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-*.
+- **Allowed headers**: Specify the request headers that the origin domain may specify on the CORS request. For example, x-ms-meta-data\*, x-ms-meta-target\*. 
+- **Exposed headers**: The response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-\*.
 - **Maximum age (seconds)**: Specify the maximum amount time that a browser should cache the preflight OPTIONS request. For example, 200.
  
 [!include[More information:](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
