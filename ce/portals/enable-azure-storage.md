@@ -46,6 +46,14 @@ From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **
 
 ![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for your cloud storage container")
 
-You must also enable cross-origin resource sharing (CORS) on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account, otherwise you will see the regular attachment icon rather than the cloud icon. [!include[More information:](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
+You must also enable cross-origin resource sharing (CORS) on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account as follows, otherwise you will see the regular attachment icon rather than the cloud icon:
+
+- **Allowed origins**: Specify your Dynamics 365 domain. For example, contoso.crm.dynamics.com.
+- **Allowed verbs**: GET, PUT, DELETE, HEAD, POST
+- **Allowed headers**: Specify the request headers that the origin domain may specify on the CORS request. For example, x-ms-meta-data*, x-ms-meta-target*. 
+- **Exposed headers**: The response headers that may be sent in the response to the CORS request and exposed by the browser to the request issuer. For example, x-ms-meta-*.
+- **Maximum age (seconds)**: Specify the maximum amount time that a browser should cache the preflight OPTIONS request. For example, 200.
+ 
+[!include[More information:](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
 
 With these settings, your portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](entity-forms-custom-logic.md#notes-configuration-for-entity-form) or [web forms](configure-notes.md) to use it.
