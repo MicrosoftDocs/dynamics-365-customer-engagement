@@ -11,13 +11,13 @@ ms.manager: sakudes
 ---
 # Address customer service scenarios on social media with Social Engagement
 
-Do you want to offer a fast and powerful support to your customers on social channels? This article suggests scenarios how you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to address your customers' service requests on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you keep track of requests, adds intelligence on top and allows you to answer them directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
+Do you want to offer fast, powerful support to your customers on social channels? This overview suggests ways you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to address your customers' service requests on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you keep track of requests and adds intelligence on top of this tracking. You can answer customers directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
 
 > [!VIDEO https://www.youtube.com/embed/GMzpeZdQDQY]
 
 ## Prerequisites
 
-- You (and any user you plan to work with) need to have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
+- You (and any user you plan to work with) have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
 
 - [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
 
@@ -31,16 +31,16 @@ The following steps describe an end-to-end configuration for social customer car
 
 1.  [Enable service reps to engage with customers via social media](#manage-social-profiles-to-participate-in-conversations) by adding and sharing social profiles and streams.
 
-2. Before you can start engaging with customers, you need to [create a search topic](../social-engagement/set-up-searches.md) with rules that gather all posts that address your organization's social profiles. For example, if you added a Twitter or Facebook page profile, make sure you [allow the acquisisiton of private messages](../social-engagement/manage-access-tokens.md#tokens-for-interactions-with-posts) and [create search rules](../social-engagement/add-rules-search-topic.md) that gather private messages and all post types for the profile.
+2. Before you start engaging with customers, you need to [create a search topic](../social-engagement/set-up-searches.md) with rules that gather all posts that address your organization's social profiles. For example, if you added a Twitter or Facebook page profile, make sure you [allow the acquisition of private messages](../social-engagement/manage-access-tokens.md#tokens-for-interactions-with-posts) and [create search rules](../social-engagement/add-rules-search-topic.md) that gather private messages and all post types for the profile.
 
-3. [Add tags, automatically and manually](#use-intelligence-to-boost-productivity), learn how automated intention analysis can help triage incoming posts. Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you.
+3. [Add tags, automatically and manually](#use-intelligence-to-boost-productivity), and learn how automated intention analysis can help triage incoming posts. Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some of your work for you.
 
 4. [Save time on repetitive tasks](#create-support-cases-in-dynamics-365-from-social-posts). Create new case records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 5. [Collaborate with your team](#establish-workflows-and-collaborate-with-other-users) and make sure they address the right customer issue with the intended priority.
 
 > [!NOTE]
-> Some of the capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)
+> Some of thse capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)
 
 ## Manage social profiles to participate in conversations
 
@@ -56,7 +56,7 @@ The following steps describe an end-to-end configuration for social customer car
 
 ## Use intelligence to boost productivity
 
-Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some work for you. Find out how you can add tags to important posts, automatically and manually, learn how automated intention analysis can help triage incoming posts, and how to automate this process.
+Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] work for you. Find out how you can add tags to important posts, automatically or manually, and learn how intention analysis can help triage incoming posts and how to automate this process.
 
 - [Define a new tag](../social-engagement/tags.md#add-custom-tags) so you can add it to posts.
 
@@ -79,16 +79,17 @@ Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../i
 
 ## Establish workflows and collaborate with other users
 
+[//]: # (I'm not sure what "intended priority" means here.)
 Collaborate with your team and make sure they address the right customer issue with the intended priority.
 
 1. [Assign posts](../social-engagement/work-with-posts.md#assign-a-post-to-other-users-in-analytics-and-social-center) to other users to distribute work across the team.
 
-2. [Share streams](../social-engagement/social-center.md#share-a-stream) with other users so they can work on posts in close to real-time.
+2. [Share streams](../social-engagement/social-center.md#share-a-stream) with other users so they can work on posts in near&ndash;real time.
 
 3. [Add labels](../social-engagement/work-with-posts.md#add-a-label-to-a-post-in-analytics-or-social-center) to posts to route them to specific streams.
 
 > [!NOTE]
-> [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] leverages Office 365 Groups to enable the collaboration with groups of people. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md)
+> [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] leverages Office 365 Groups to enable collaboration with groups of people. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md)
 
 ## Customer stories
 
@@ -96,6 +97,7 @@ Collaborate with your team and make sure they address the right customer issue w
 
 - [5 tips to help your business weather changes in the financial services industry](https://customers.microsoft.com/story/5-tips-to-help-your-business-weather-changes-in-the-fi)
 
+[//]: # (@Michael, this needs to be a FWlink. When I take out "en-us" I get an error.)
 [Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
 ### See also

@@ -73,10 +73,11 @@ Have you launched or refreshed a product or service? Let your marketing team sha
 
 ## Customer stories
 
-- [Port aims to proactively address issues with Social Engagement](https://customers.microsoft.com/en-us/story/port-aims-to-proactively-address-issues-with-microsoft)
+- [Port aims to proactively address issues with Social Engagement](https://customers.microsoft.com/story/port-aims-to-proactively-address-issues-with-microsoft)
 
-- [Marston's delivers personalized service in real time with Dynamics 365](https://customers.microsoft.com/en-us/story/marstons-delivers-personalized-service-in-real-time-wi)
+- [Marston's delivers personalized service in real time with Dynamics 365](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)
 
+[//]: # (@Michael, this needs to be a FWlink. When I take out "en-us" I get an error.)
 [Search customer stories](https://customers.microsoft.com/en-us/search?sq=%22Microsoft%20Social%20Engagement%22&ff=&p=0&so=story_publish_date%20desc) to find the latest publications.
 
 ### See also
