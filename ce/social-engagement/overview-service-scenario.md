@@ -35,12 +35,12 @@ The following steps describe an end-to-end configuration for social customer car
 
 3. [Add tags, automatically and manually](#use-intelligence-to-boost-productivity), and learn how automated intention analysis can help triage incoming posts. Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some of your work for you.
 
-4. [Save time on repetitive tasks](#create-support-cases-in-dynamics-365-from-social-posts). Create new case records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+4. [Save time on repetitive tasks](#create-support-cases-in-includepncrmshortestincludespn-crm-shortestmd-from-social-posts). Create new case records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 5. [Collaborate with your team](#establish-workflows-and-collaborate-with-other-users) and make sure they address the right customer issue with the intended priority.
 
 > [!NOTE]
-> Some of thse capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)
+> Some of these capabilities can be automated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)
 
 ## Manage social profiles to participate in conversations
 
