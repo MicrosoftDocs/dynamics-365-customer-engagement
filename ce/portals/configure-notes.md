@@ -30,7 +30,7 @@ When Creating your record, select Type of Notes. You will then be able to add No
 
 Upon adding the Configuration, the Note control will render with the appropriate options enabled on the portal.
 
-Most settings are shown collapsed to save space by default. Click "" to expand a section and see additional options. Click "" to collapse a section.
+Most of the settings are shown collapsed to save space by default. You can expand a section to see additional options.
 
 ## Attributes
 
@@ -85,33 +85,35 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 | Title CSS Class                    | Specify a CSS class or classes that will be applied to the resulting dialog's title bar.                                                    |
 | Primary Button CSS Class           | Specify a CSS class or classes that will be applied to the dialog's Primary ("Add Note") button.                                            |
 | Close Button CSS Class             | Specify a CSS class or classes that will be applied to the dialog's Close ("Cancel") button.                                                |
+|||
 
 ## Edit dialog options
 
 | Name                               | Description                                                                                                                                   |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic Settings**                 |                                                                                                                                               |
-| Display Privacy Options Field      | Enables a checkbox in the Edit Note dialog that allows the user to mark a note as Private.                                                    |
-| Privacy Option Field Default Value | Specifies the default value for the Display Privacy Options Field checkbox. The default value of this field is "false".                       |
-| Display Attach File                | Enables a file upload field in the Edit Note dialog, allowing a user to attach a file to a note.                                              |
-| Attach File Accept                 | The MIME type accepted by the file upload input.                                                                                              |
-| **Advanced Settings**              |                                                                                                                                               |
-| Note Field Label                   | Overrides the label for the Note field in the Edit Note dialog.                                                                               |
-| Note Field Columns                 | Sets the cols value in the Note &lt;textarea&gt;                                                                                              |
-| Note Field Rows                    | Sets the rows value in the Note &lt;textarea&gt;                                                                                              |
-| Privacy Option Field Label         | Overrides the label for the Privacy Option field (if enabled).                                                                                |
-| Attach File Label                  | Overrides the label for the Attach File field (if enabled)                                                                                    |
-| Left Column CSS Class              | Adds the CSS class or classes to the left column containing labels on the Edit Note dialog.                                                   |
-| Right Column CSS Class             | Adds the CSS class or classes to the right column containing field inputs on the Edit Note dialog.                                            |
-| Title                              | Overrides the HTML text in the header of the Edit Note dialog.                                                                                |
-| Primary Button Text                | Overrides the HTML that appears in the Primary ("Update Note") button on the dialog.                                                          |
-| Dismiss Button SR Text             | Overrides the screen reader text associated with the dialog's dismiss button.                                                                 |
-| Close Button Text                  | Overrides the HTML that appears in the Close ("Cancel") button on the dialog.                                                                 |
-| Size                               | Specifies the size of the Edit Note dialog. The Options are Default, Large, and Small. For the Edit Note dialog, the default size is Default. |
-| CSS Class                          | Specify a CSS class or classes that will be applied to the resulting dialog.                                                                  |
-| Title CSS Class                    | Specify a CSS class or classes that will be applied to the resulting dialog's title bar.                                                      |
-| Primary Button CSS Class           | Specify a CSS class or classes that will be applied to the dialog's Primary ("Update Note") button.                                           |
-| Close Button CSS Class             | Specify a CSS class or classes that will be applied to the dialog's Close ("Cancel") button.                                                  |
+| Display Privacy Options Field      | Enables a checkbox in the Edit Note dialog that allows the user to mark a note as Private.  |
+| Privacy Option Field Default Value | Specifies the default value for the Display Privacy Options Field checkbox. The default value of this field is "false".   |
+| Display Attach File                | Enables a file upload field in the Edit Note dialog, allowing a user to attach a file to a note.                      |
+| Attach File Accept                 | The MIME type accepted by the file upload input. |
+| **Advanced Settings**              |                                                                                              |
+| Note Field Label                   | Overrides the label for the Note field in the Edit Note dialog.|
+| Note Field Columns                 | Sets the cols value in the Note &lt;textarea&gt;                                                                                             |
+| Note Field Rows                    | Sets the rows value in the Note &lt;textarea&gt;                                                                                             |
+| Privacy Option Field Label         | Overrides the label for the Privacy Option field (if enabled).                                                                                
+| Attach File Label                  | Overrides the label for the Attach File field (if enabled)                                                                                   |
+| Left Column CSS Class              | Adds the CSS class or classes to the left column containing labels on the Edit Note dialog.                                                  |
+| Right Column CSS Class             | Adds the CSS class or classes to the right column containing field inputs on the Edit Note dialog.                                           |
+| Title                              | Overrides the HTML text in the header of the Edit Note dialog.                                                                               |
+| Primary Button Text                | Overrides the HTML that appears in the Primary ("Update Note") button on the dialog.                                                         |
+| Dismiss Button SR Text             | Overrides the screen reader text associated with the dialog's dismiss button.                                                                |
+| Close Button Text                  | Overrides the HTML that appears in the Close ("Cancel") button on the dialog.                                                                |
+| Size                               | Specifies the size of the Edit Note dialog. The Options are Default, Large, and Small. For the Edit Note dialog, the default size is Default.|
+| CSS Class                          | Specify a CSS class or classes that will be applied to the resulting dialog.                                                                 |
+| Title CSS Class                    | Specify a CSS class or classes that will be applied to the resulting dialog's title bar.                                                     |
+| Primary Button CSS Class           | Specify a CSS class or classes that will be applied to the dialog's Primary ("Update Note") button.                                          |
+| Close Button CSS Class             | Specify a CSS class or classes that will be applied to the dialog's Close ("Cancel") button.                                                 |
+|||
 
 ## Delete dialog options
 
@@ -129,6 +131,21 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog's title bar.                                                          |
 | Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog's Primary ("Delete") button.                                                    |
 | Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog's Close ("Cancel") button.                                                      |
+|||
+
+You must also create and assign the appropriate entity permission to the records as follows, otherwise the **Add**, **Edit**, and **Delete** buttons for the note will be hidden:
+
+- Read, Create, Append, and Append To privileges for the **Activity (activitypointer)** entity with the scope as **Global**.
+- Read, Create, Append, and Append To privileges for the entity that has the Notes control enabled in it. The scope should be set to **Global**. This entity permission must be associated with a web role for the user.
+
+![Add entity permissions](media/entity-permission.png "Add entity permissions")
+
+![Add web roles to an entity permission](media/entity-permission-web-roles.png "Add web roles to an entity permission")
+
+If you create a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and added the notes section in it, ensure to select **Notes** as the default tab to be visible.
+
+![Notes in a custom form](media/notes-activities-tab.png "Notes in a custom form")
+
 
 ### See also
 
