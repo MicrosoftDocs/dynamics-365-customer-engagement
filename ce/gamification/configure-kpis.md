@@ -10,6 +10,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+[//]: # (NOTE TO SELF: Revert to old-fashioned procedure language.)
 # Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]
 
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](includes/pn-gamification-shortest-md.md)]. It's a two-step process: first, you create the KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-subsequent-md.md)], and then you choose and configure them in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] when you set up a new game.
@@ -24,19 +25,19 @@ When you set up a game, step 2 of the game setup experience requires you to defi
 
 The KPIs you define in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will be available when you set up the game and the data syncs from [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
 
-[//]: # (@Michael, please verify the token in this heading should be for the online version.)
+[//]: # (@Michael, please confirm this token is right.)
 ## Configure and edit KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]
 
 Configure KPI details in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] to select them for a new contest in [!INCLUDE[pn_gamification_](includes/pn-gamification-shortest-md.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_](includes/pn-gamification-shortest-md.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.
 
-There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Consider some of our examples for inspiration, and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Best practices for new and existing KPIs in Gamification](best-practices-kpis.md)  
+There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Use our examples for inspiration, and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Best practices for new and existing KPIs in Gamification](best-practices-kpis.md)  
 
-[//]: # (@Michael, in the note for step 5, is there a better term for "amount-based KPI"? I think we've used one elsewhere but I can't find it now.)
+[//]: # (@Michael, in the note for step 5, is there a better term for "amount-based KPI"? Would "numerical" or "quantitative" work?)
 ### Configure a KPI
 
 1.  In [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], go to **Gamification** > **KPIs**.
 
-2.  In the **Active KPIs** section, select the KPI you want to configure.
+2.  In the **Active KPIs** section, click the KPI you want to configure.
 
      KPIs you've configured will have a status of **Set up**, while KPIs whose configuration is pending will appear as **Not set up**.
 
@@ -65,7 +66,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 8.  Optionally, you can set up an additional query parameter for a KPI by creating a saved view.
 
-     Go to **Advanced Find**, choose the fields you want to filter on, and then select **Save as new View**. Next, you can edit the KPI, select the saved view, and then select **Save** to apply your changes.
+     Go to **Advanced Find**, select the fields you want to filter on, and then click **Save as new View**. Next, you can edit the KPI, select the saved view, and then click **Save** to apply your changes.
 
      For example, if you want to award points only for appointments about a specific product, you can add the product name to the appointment description, and then add a query parameter to select an appointment for scoring only when the **Description** field contains the product name.
 
@@ -87,7 +88,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 10. Optionally, set the **Time scoring** in the **Additional Scoring Settings** section. By default, KPIs are scored all day, every day. You can specify the hours and days when the KPI is scored.
 
-11. To apply your configuration, select **Save**.
+11. To apply your configuration, click **Save**.
 
 ### Next steps
 
@@ -99,13 +100,13 @@ If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[
 
 1.  In [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], go to **Gamification** > **KPIs**.  
 
-2.  Select the KPI you want to edit.
+2.  Click the KPI you want to edit.
 
-3.  In the **KPI Parameters** section, select **Edit**.
+3.  In the **KPI Parameters** section, click **Edit**.
 
 4.  Change the parameters of the KPI to meet your requirements.
 
-5.  To apply your changes, select **Save**.
+5.  To apply your changes, click **Save**.
 
 > [!NOTE]
 > Before you can edit a KPI that was automatically created when [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] was installed, you must assign it an owner. Only the KPI owner can edit the values of a KPI.
@@ -114,11 +115,11 @@ If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[
 
 [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] can disable KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] if the calculation of points fails multiple times.
 
-To reenable a disabled KPI, go to **Gamification** > **KPIs** in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] and review the KPIs that are in a **Disabled** state. Select the **Enable** button on the command bar to reenable the KPI.
+To reenable a disabled KPI, go to **Gamification** > **KPIs** in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] and review the KPIs that are in a **Disabled** state. Select **Enable** on the command bar to reenable the KPI.
 
 To review the plug-in trace log records, go to **Settings** > **Plug-In Trace Log** in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
 
-While a KPI is in **Disabled** state, points for this KPI won't get scored in games that are based on it.
+While a KPI is **Disabled**, points for that KPI won't get scored in games that are based on it.
 
 ### See also
 

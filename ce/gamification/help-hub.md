@@ -10,7 +10,7 @@ author: "m-hartmann"
 ms.manager: sakudes
 ms.author: mhart
 ---
-# Gamification Help & Training
+# Gamification help and training
 
 <table>
 <tr>
@@ -40,7 +40,7 @@ ms.author: mhart
 <li>[Run games](run-games.md)</li>
 <li>[Define awards](define-weekly-awards.md)</li>
 <li>[Stream TV games](configure-view-tvs.md)</li>
-<li>[Excel Point Scoring](update-scores-using-excel-point-scoring.md)</li>
+<li>[Excel point scoring](update-scores-using-excel-point-scoring.md)</li>
 </td>
 <td>
 
