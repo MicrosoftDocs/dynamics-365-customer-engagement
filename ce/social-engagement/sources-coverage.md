@@ -77,7 +77,11 @@ manager: sakudes
  Video posts published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] are available for keyword searches.  
   
  To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule).  
-  
+
+## Privacy notice
+
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+
 ### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
  [Refine your search rules to find relevant content](../social-engagement/refine-search-rules.md)

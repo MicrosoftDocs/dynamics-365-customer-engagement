@@ -110,7 +110,11 @@ manager: sakudes
 2.  Select the appropriate social profile, and in the social profile panel click the Delete your token button ![Delete button](../social-engagement/media/delete-icon.png "Delete button") next to the token you want to delete.  
   
 3.  Click **Save**.  
-  
+
+## Privacy notice
+
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+
 ### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   

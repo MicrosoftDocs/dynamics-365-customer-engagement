@@ -1,16 +1,11 @@
 ---
 title: "Analyze social data with widgets | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: da974b6a-b242-40b6-95ad-df81ac78191e
-caps.latest.revision: 32
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -25,7 +20,7 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
   
  [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] widgets provide you with drill-down functionality to narrow your data set. Click a data point to get a more detailed view of the data.  
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pcxVyYz-zps?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/pcxVyYz-zps]
   
 > [!NOTE]
 >  -   If no posts are available for your organization, widgets display no metrics and an error message.  
