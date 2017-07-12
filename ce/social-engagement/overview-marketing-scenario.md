@@ -34,17 +34,17 @@ To find out how a brand is perceived on social media, after you [set up a search
 
 1. Get an overview of the posts that mention your brand on the [Overview page in Analytics](../social-engagement/analytics-overview.md).
 
-2. Go to **Anayltics** > **Sentiment** to get insights into how people feel about your brand and find out who your brand advocates are.
+2. Go to **Analytics** > **Sentiment** to get insights into how people feel about your brand and find out who your brand advocates are.
 
-3. See which topics are being discussed around your brand on the [Conversation page in Analytics](../social-enagement/analytics-conversations.md).
+3. See which topics are being discussed around your brand on the [Conversation page in Analytics](../social-engagement/analytics-conversations.md).
 
 ## Campaign performance
 
 Campaigns on social media often revolve around a specific term, for example a hashtag. If you set up a search topic for this term, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] helps you understand at a glance how your campaign is performing.
 
-1. Get started analyzing the conversations about your campaign on the [Conversation page in Analytics](../social-enagement/analytics-conversations.md).
+1. Get started analyzing the conversations about your campaign on the [Conversation page in Analytics](../social-engagement/analytics-conversations.md).
 
-2. [Create an activity map](../social-enagement/activity-maps.md) to see newly found posts on a map with location data in real time.
+2. [Create an activity map](../social-engagement/activity-maps.md) to see newly found posts on a map with location data in real time.
 
 3. Review the sentiment of posts that mention your brand on the [Sentiment page in Analytics](../social-engagement/analytics-sentiment.md).
 
@@ -56,7 +56,7 @@ Identify potential leads on social media and let your sales team know about them
 
 1. Use [intention analysis](../social-engagement/tags.md#how-intention-analysis-works) to look for posts that express a purchase intent.
 
-2. [Link these posts to Dynamics 365](../social-engagement/create-dynamics-365-records-from-social-post.md) to create a new lead record.
+2. [Link these posts to Dynamics 365](../social-engagement/create-dynamics-365-record-from-social-post.md) to create a new lead record.
 
 3. Automate this workflow by using an [automation rule](../social-engagement/automation-rules.md) for every post tagged with **Purchase Intention**.
 
