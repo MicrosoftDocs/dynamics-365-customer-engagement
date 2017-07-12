@@ -60,7 +60,7 @@ You can create new leads from purchase intentions automatically by using automat
 
 ## Social trend scout: set up trend alerts to learn about significant changes
 
-If you're gathering posts that mention your main competitor, you can set up a trend alert to stay on top of what the competitor is doing&mdash;launching a new product, for example. Trend alerts are triggered when the number of newly found posts significantly exceeds the average number of posts. [Create email notifications that are automatically sent to a group of recipients](/social-engagement/email-alerts.md) when a post or a trending change matches your filters. You can set the [sensitivity of a trend alert](../social-engagement/email-alerts.md#set-a-trend-alerts-sensitivity) when you create it, or adjust it later.
+If you're gathering posts that mention your main competitor, you can set up a trend alert to stay on top of what the competitor is doing&mdash;launching a new product, for example. Trend alerts are triggered when the number of newly found posts significantly exceeds the average number of posts. [Create email notifications that are automatically sent to a group of recipients](../social-engagement/email-alerts.md) when a post or a trending change matches your filters. You can set the [sensitivity of a trend alert](../social-engagement/email-alerts.md#set-a-trend-alerts-sensitivity) when you create it, or adjust it later.
 
 ## Social analytics: add widgets with social insights to entity forms in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]
 
