@@ -13,7 +13,7 @@ manager: sakudes
 # Create a Dynamics 365 record from a social post
 
 Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to create a record. For example, you can automatically convert posts to cases for customer service, or to leads for your sales team. When you create a social activity, if the author of the post doesn’t have a social profile in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the system creates a social profile and contact record, and then links the social profile with the contact record. When a record is created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can see the details about this record in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
-Learn about the [prerequisites to establish a connection with Dynamics 365](../social-engagement/connect-dynamics-365-social-engagement#prerequisites-to-establish-a-connection-with-dynamics-365) on how to configure your online and on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to connect with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+Learn about the [prerequisites to establish a connection with Dynamics 365](../social-engagement/connect-dynamics-365-social-engagement.md#prerequisites-to-establish-a-connection-with-dynamics-365) on how to configure your online and on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to connect with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## Specify record details
 

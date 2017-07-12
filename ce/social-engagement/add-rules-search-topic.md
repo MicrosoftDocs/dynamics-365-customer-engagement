@@ -23,7 +23,7 @@ Search topics consist of one or more search rules and define the data that's ava
 
 - **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](../social-engagement/media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts
 
-- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], and [allows private messages acquisition](../manage-access-tokens#tokens-for-data-acquisition).
+- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], and [allows private messages acquisition](../social-engagement/manage-access-tokens#tokens-for-data-acquisition).
 
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
