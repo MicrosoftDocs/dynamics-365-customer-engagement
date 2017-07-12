@@ -1,16 +1,11 @@
 ---
 title: "Set up Microsoft Social Engagement | Microsoft Docs"
 description: "Learn how you can set up Social Engagement in a few steps."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: c05d085a-0528-42d4-9398-eb4bb079ce7e
-caps.latest.revision: 26
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -19,7 +14,7 @@ robots: noindex,nofollow
 # Set up Microsoft Social Engagement
 This topic explains what the Administrator for your organization does to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/04CVnYkXefU?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/04CVnYkXefU]
   
 <a name="set_sol_default"></a>   
 ## Define global settings  

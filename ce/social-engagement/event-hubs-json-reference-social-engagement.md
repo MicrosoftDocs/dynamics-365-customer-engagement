@@ -19,6 +19,9 @@ manager: sakudes
 This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
   
 Latest version of the payload: Version 2.1  
+
+> [!NOTE]
+> New objects and properties can get added to the payload without increasing the version number.
   
 For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md).  
   

@@ -190,7 +190,11 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
 3.  In the profile details pane, click **Claim ownership** ![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
   
 4.  To claim ownership, enter the required credentials in the pop-up window.  
-  
+
+## Privacy notice
+
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+
 ### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Check the health state of your social profiles](../social-engagement/social-profiles-health-state.md)   

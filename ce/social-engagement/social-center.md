@@ -1,16 +1,11 @@
 ---
 title: "Keep track of live data streams with Social Center | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 28ce6089-519c-4193-806f-1af28fbc91b5
-caps.latest.revision: 27
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -19,7 +14,7 @@ manager: sakudes
 # Keep track of live data streams with Social Center
 Social media runs at a fast pace. To keep up and collaborate efficiently, your personal streams come in handy. Manage your streams, share them with other users, and stay informed in real time on new and updated posts.  New posts are posts that were recently picked up by a search topic and processed to appear in a solution. Fresh posts are posts whose metadata has been changed recently (for example, a label was added, or a post received a reply). Streams use filters to define the data set and surface the most relevant posts.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vlxQG-h_ZRg?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/vlxQG-h_ZRg]
   
  To see your streams, go to **Social Center**.  
   
@@ -74,7 +69,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 4.  Under **Sharing**, click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
   
-5.  In the Share dialog, choose **User** or **Group** in the **Type**drop-down list.  
+5.  In the Share dialog, choose **User** or **Group** in the **Type** drop-down list.  
   
      For more information about groups, see                 [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md).  
   

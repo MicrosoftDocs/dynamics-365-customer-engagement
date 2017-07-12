@@ -1,16 +1,11 @@
 ---
 title: "Work with tags | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 1cf877c0-f5a0-43fc-9bf0-1c5ef12359e1
-caps.latest.revision: 27
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -18,7 +13,7 @@ manager: sakudes
 # Work with tags
 Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows you to prioritize and filter your posts. When authors publish posts on social media, they usually have a messaging purpose in mind. The larger the number of posts, the more work intensive and time consuming it gets to read through all of these posts and identify those relevant for your business—for example, to find out if authors are asking a question that you want to answer, or if they are complaining about a service that you want to follow up on. In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], once a post is acquired from a search topic, we take some of the workload off your desk. Acquired posts are analyzed by the machine-learning based algorithm to detect authors’ intentions or you can add your own custom tags and later promote them to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md)  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ev1mSMU9R3w?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/ev1mSMU9R3w]
   
 <a name="intention_analysis"></a>   
 ## How intention analysis works  
