@@ -22,15 +22,13 @@ Just like with Subgrids, adding notes to your Managed forms on the portal is eas
 
 To Edit or Add notes, among other things, you must configure the control using a metadata record.
 
-To add Metadata to a web form, navigate to **Web Form Metadata** either using the top drop-down or the subgrid right on the main form of the Web Form record that you are working with. Then click to add a new record.
+To add Metadata to a web form, navigate to **Web Form Metadata** either using the top drop-down or the subgrid right on the main form of the Web Form record that you are working with. Then click **Add New Web Form Metadata** to add a new record.
 
-When Creating your record, select Type of Notes. You will then be able to add Note configuration:
+When creating your record, select Type of Notes. You will then be able to add Note configuration. Most of the settings are shown collapsed to save space by default. You can expand a section to see additional options.
 
 ![Add notes configuration for web forms](media/add-note-configuration.png "Add notes configuration for web forms")  
 
 Upon adding the Configuration, the Note control will render with the appropriate options enabled on the portal.
-
-Most of the settings are shown collapsed to save space by default. You can expand a section to see additional options.
 
 ## Attributes
 
@@ -138,9 +136,9 @@ You must also create and assign the appropriate entity permission to the records
 - Read, Create, Append, and Append To privileges for the **Activity (activitypointer)** entity with the scope as **Global**.
 - Read, Create, Append, and Append To privileges for the entity that has the Notes control enabled in it. The scope should be set to **Global**. This entity permission must be associated with a web role for the user.
 
-![Add entity permissions](media/entity-permission.png "Add entity permissions")
+    ![Add entity permissions](media/entity-permission.png "Add entity permissions")
 
-![Add web roles to an entity permission](media/entity-permission-web-roles.png "Add web roles to an entity permission")
+    ![Add web roles to an entity permission](media/entity-permission-web-roles.png "Add web roles to an entity permission")
 
 If you create a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and added the notes section in it, ensure to select **Notes** as the default tab to be visible.
 
