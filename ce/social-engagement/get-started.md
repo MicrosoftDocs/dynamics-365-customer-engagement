@@ -1,16 +1,11 @@
 ---
 title: "Get started with Social Engagement | Microsoft Docs"
 description: "Learn how to ramp up quickly on Social Engagement."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-07-10
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
-caps.latest.revision: 101
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -56,7 +51,7 @@ This topic introduces common user-interface elements and useful tips to work eff
 ## Navigate the application’s main areas  
  Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/04CVnYkXefU?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/04CVnYkXefU]
 
  ![Navigation bar in Social Engagement](../social-engagement/media/navigation-bar-explained.png "Navigation bar in Social Engagement")  
   
