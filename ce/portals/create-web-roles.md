@@ -51,7 +51,7 @@ If you want to customize any of the portal forms, dashboards, or reports, you ca
 -   [TechNet: Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
 -   [TechNet: Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
 -   [TechNet: Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
--   [TechNet: Create and edit processes](https://technet.microsoft.com/en-us/library/dn531144.aspx)  
+-   [TechNet: Create and edit processes](https://technet.microsoft.com/library/dn531144.aspx)  
 -   [TechNet: Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
 
 
@@ -66,10 +66,10 @@ After your portal is created and provisioned, you can change the details of your
 
 ![Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance](media/change-dynamics-365-instance.png "Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance")  
 
-### See Also
+### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md) 
+[Configure a Dynamics 365 portal](configure-portal.md) 
 [Control webpage access for portals](webpage-access-control.md)  
 [Configure web roles for a PRM portal](configure-web-roles-partner-portal.md) 
 [Add record-based security by using entity permissions for portals](assign-entity-permissions.md) 

@@ -90,7 +90,7 @@ To create a new forum access permission, click **New**.
 
 
 
-### See Also
+### See also
 
 [Setup and moderate forums](setup-moderate-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  

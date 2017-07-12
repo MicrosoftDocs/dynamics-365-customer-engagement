@@ -42,7 +42,7 @@ manager: sakudes
 >[!Note] 
 > Knowledge articles associated with the category will be disassociated after the category is deleted.
 
-### See Also
+### See also
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 

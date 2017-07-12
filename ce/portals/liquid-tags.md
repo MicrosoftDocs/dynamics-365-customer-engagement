@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Liquid tags
+# Available Liquid tags
 
 Tags make up the programming logic that tells templates what to do. Tags are wrapped in {% %}.
 
@@ -42,7 +42,7 @@ You can tell the engine to strip all leading or trailing white space by adding a
 ```
 12345
 ```
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Liquid types](liquid-types.md)  

@@ -13,8 +13,11 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Manage knowledge articles using content access levels
+# Manage knowledge articles by using content access levels
+
 Content access levels give another level of control separate from web roles to be able to control access to knowledge articles in a portal. Content access levels make a well-designed knowledge base more capable to provide the right content to the right audience. This allows for more structured learning paths that keep irrelevant content from surfacing.
+
+To turn on the content access level based filtering of knowledge articles on your portal, set the value of the KnowledgeManagement/ContentAccessLevel/Enabled site setting to true.
 
 ## Create content access levels
 
