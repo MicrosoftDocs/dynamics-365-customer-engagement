@@ -1,5 +1,5 @@
 ---
-title: "Configure notes on a web form for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure notes on a entity forms and web form for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
 ms.date: 05/22/2017
@@ -13,22 +13,27 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Configure notes for web forms on portals
+# Configure notes for entity forms and web forms on portals
 
 Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form through the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you’re done. You can configure the behavior of the notes control by using metadata.
 
 > [!Note]                                                           
 > Explicit [Add record-based security using entity permissions for portals](assign-entity-permissions.md) are **required** for any notes to appear on the portal. For read and edit, the 'Read' and 'Write' privileges must be granted. For create, two permissions must exist, a permission with the 'Create' and 'Append' privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the 'Append To' privilege granted.
 
-To Edit or Add notes, among other things, you must configure the control using a metadata record.
+## Notes Configuration for Entity Forms
 
-To add Metadata to a web form, navigate to **Web Form Metadata** either using the top drop-down or the subgrid right on the main form of the Web Form record that you are working with. Then click **Add New Web Form Metadata** to add a new record.
+1. Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+2. Go to **Portals** > **Content** > **Entity Forms**. A list of active entity forms is displayed.
+3. Click the Entity form to which you want to add note configuration.
+4. Navigate to **Entity Form Metadata** either using the top drop-down or the subgrid right on the main form of the Entity form record that you are working with.
+5. Click **Add New Entity Form Metadata** to add a new record.
+6. From the **Type** drop-down list, select **Notes**. The notes configuration specific settings are displayed. Most of the settings are collapsed by default. You can expand a section to see additional settings.
+7. Fill-in the fields with appropriate values. For information on fields, see [Attributes](#attributes), [Create dialog options](#create-dialog-options), [Edit dialog options](#edit-dialog-options), and [Delete dialog options](#delete-dialog-options).
+8. Save the form.
 
-When creating your record, select Type of Notes. You will then be able to add Note configuration. Most of the settings are shown collapsed to save space by default. You can expand a section to see additional options.
+    ![Add notes configuration for entity forms](media/add-note-configuration.png "Add notes configuration for entity forms")  
 
-![Add notes configuration for web forms](media/add-note-configuration.png "Add notes configuration for web forms")  
-
-Upon adding the Configuration, the Note control will render with the appropriate options enabled on the portal.
+    After adding the configuration, the Note control will render with the appropriate options enabled on the portal.
 
 ## Attributes
 
@@ -131,7 +136,9 @@ Upon adding the Configuration, the Note control will render with the appropriate
 | Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog's Close ("Cancel") button.                                                      |
 |||
 
-You must also create and assign the appropriate entity permission to the records as follows, otherwise the **Add**, **Edit**, and **Delete** buttons for the note will be hidden:
+### Assign entity permission
+
+You must create and assign the appropriate entity permission to the records as follows, otherwise the **Add**, **Edit**, and **Delete** buttons for the note will be hidden:
 
 - Read, Create, Append, and Append To privileges for the **Activity (activitypointer)** entity with the scope as **Global**.
 - Read, Create, Append, and Append To privileges for the entity that has the Notes control enabled in it. The scope should be set to **Global**. This entity permission must be associated with a web role for the user.
@@ -144,6 +151,9 @@ If you create a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamic
 
 ![Notes in a custom form](media/notes-activities-tab.png "Notes in a custom form")
 
+## Notes Configuration for Web Forms
+
+Web Form Notes are configured in an identical fashion to [Entity Form notes](#notes-configuration-for-entity-forms). You must first create a metadata record for the Web Form Step that has notes, and then add the notes configuration metadata. 
 
 ### See also
 
