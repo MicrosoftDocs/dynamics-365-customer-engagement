@@ -140,8 +140,8 @@ Just like with Subgrids, adding notes to your Managed forms on the portal is eas
 
 You must create and assign the appropriate entity permission to the records as follows, otherwise the **Add**, **Edit**, and **Delete** buttons for the note will be hidden:
 
-- Read, Create, Append, and Append To privileges for the **Activity (activitypointer)** entity with the scope as **Global**.
-- Read, Create, Append, and Append To privileges for the entity that has the Notes control enabled in it. The scope should be set to **Global**. This entity permission must be associated with a web role for the user.
+- Read, Write, Create, Append, and Append To privileges for the **Activity (activitypointer)** entity with the scope as **Global**. This entity permission must be associated with a web role for the user.
+- Read, Write, Create, Append, and Append To privileges for the entity that has the Notes control enabled in it. The scope should be set to **Global**. This entity permission must be associated with a web role for the user.
 
     ![Add entity permissions](media/entity-permission.png "Add entity permissions")
 
