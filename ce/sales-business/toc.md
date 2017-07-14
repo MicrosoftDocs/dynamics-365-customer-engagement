@@ -10,7 +10,7 @@
 ### [Import data]() 
 ### [Export data]() 
 ### [Enable duplicate detection]() 
-## [Manage sample data]()
+### [Manage sample data]()
 ## [Set up communication and collaboration tools]() 
 ### [Configure email]() 
 ### [Configure document management]() 
