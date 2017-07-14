@@ -1,7 +1,7 @@
 # [Administrator’s guide for Dynamics 365 for Sales, Business edition]()
 ## [Basic setup of users, teams, and more]()
 ### [Add or manage users]()
-### [Add or manage teams]() 
+### [Add or manage teams](add-edit-teams.md) 
 ### [Change color scheme or logo for your organization]()
 ### [Define fiscal year settings]()
 ## [Manage Excel templates]()
