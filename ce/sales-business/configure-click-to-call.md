@@ -54,5 +54,4 @@ If your organization uses Skype for Business, it can display the availability st
 
 By default, presence is automatically enabled for the users. To disable the presence, clear the **Enable IM Presence** check box.
 
-### 
 
