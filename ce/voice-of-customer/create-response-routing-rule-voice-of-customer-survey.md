@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Create a response routing rule for a Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: "2017-07-14"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
