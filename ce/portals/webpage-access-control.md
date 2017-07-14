@@ -1,6 +1,6 @@
 ---
 title: "Control webpage access for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create web page access control rules for a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -42,7 +42,7 @@ The Restrict Read rule is used to limit viewing of a page (and its child pages) 
 
 You would then set the right to restrict read and the page to the page at the top of the branch which is to be read only by employees. You would then associate this rule with the employee web role and then assign users to this role.
 
->[!Note]
+> [!Note]
 > If you apply the **Restrict Read** right to the root 'home' page of a website and select **Exclude related child web files** as the **Scope**, the home page and its related child pages will be accessible to a user.
 
 ### See also

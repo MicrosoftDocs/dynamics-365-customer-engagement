@@ -1,6 +1,6 @@
 ---
 title: "Subscribe to alerts on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create and manage alerts in a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -14,8 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Subscribe to alerts
-
-
 
 Forum users can subscribe to threads and receive alerts when new posts are added keeping them up-to-date on conversations of importance. Alert settings are attached to the user's contact record providing further insight into the user's intent.
 

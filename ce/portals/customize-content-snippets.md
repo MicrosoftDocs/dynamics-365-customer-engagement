@@ -1,6 +1,6 @@
 ---
 title: "Customize content by using content snippets on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn how to customize content by using content snippets."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -30,9 +30,9 @@ When editing a snippet, either a simple text box will appear, allowing you to qu
 
 ## Edit using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
-1.  Navigate to **Portals** -&gt; **Content Snippets**
-2.  To create a new snippet: Click **New**
-3.  To edit an existing snippet: Double-Click on an existing **Content Snippet** in the grid
+1.  Navigate to **Portals** > **Content Snippets**.
+2.  To create a new snippet: Click **New**.
+3.  To edit an existing snippet: Double-Click on an existing **Content Snippet** in the grid.
 
 Enter values for the following fields:
 

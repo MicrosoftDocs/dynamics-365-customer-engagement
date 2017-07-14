@@ -1,6 +1,6 @@
 ---
 title: "Configure a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn about how you can configure your portal in different ways."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

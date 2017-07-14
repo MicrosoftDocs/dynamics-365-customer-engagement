@@ -1,6 +1,6 @@
 ---
 title: "Use faceted search to improve portal search in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to enable or disable faceted search."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

@@ -1,6 +1,6 @@
 ---
 title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to configure web form properties for a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -21,7 +21,7 @@ The other options on the Web Form record itself control top-level preferences fo
 
 To view existing Web Forms or to create new Web Forms, navigate to **Portals** > **Web Forms**
 
->[!Note]
+> [!Note]
 > A **Web Form** must be associated with a Web Page for a given [website](#website-1) for the form to be viewable within the site.  
 
 When creating or editing a Web Page, a **Web Form** can be specified in the lookup field provided on the Web Page form.

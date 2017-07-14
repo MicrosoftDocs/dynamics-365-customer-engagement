@@ -1,6 +1,6 @@
 ---
 title: "Use the front-side editing engine to publish content for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Learn how to use the front-side editing engine to publish content for a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

@@ -1,6 +1,6 @@
 ---
 title: "Use hybrid navigation to render page hierarchy for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to use hybrid navigation to render page hierarchy for a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

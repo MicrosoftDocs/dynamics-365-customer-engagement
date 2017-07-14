@@ -1,6 +1,6 @@
 ---
 title: "Define entity forms and custom logic within a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create entity forms in a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -14,8 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal
-
-
 
 A data driven configuration to allow end users to add a form to collect data in the portal without the need for a developer to surface the form in the portal. Entity Forms are created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and then placed into webpages in the Portal or used in conjunction with Sub-Grids and Entity Lists to build out complete web applications. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add a webpage to render a list of records](add-webpage-render-list-records.md).  
 

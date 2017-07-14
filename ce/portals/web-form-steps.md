@@ -1,6 +1,6 @@
 ---
 title: "Configure a web form steps for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create a web form step for a web form on a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -14,8 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Define web form steps for portals
-
-
 
 The Web Form Step provides the flow logic of the form's user experience such as steps and conditional branching. It also provided details regarding the rendering of a form and additional behavior.
 

@@ -1,6 +1,6 @@
 ---
 title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn about how you can use opportunities to notify your partners of sales prospects that they can follow up on."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -43,7 +43,7 @@ Distribute opportunities manually when you know which partner you want to assign
 
 ### Distribute opportunities to multiple partners
 
-1.  Go to **Sales &gt; Opportunities**.
+1.  Go to **Sales** &gt; **Opportunities**.
 2.  Click the opportunity you want to edit.
 3.  Under the **General** tab in the **Partner Pipelin**e section, select the **Partner Collaboration** checkbox.
 4.  Scroll down to the **Partner Collaboration Accounts** section and press the **+** button to add the partners you want to distribute the opportunity to.

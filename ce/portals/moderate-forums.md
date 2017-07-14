@@ -1,6 +1,6 @@
 ---
 title: "Moderate forums on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to moderate forums in a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -85,10 +85,8 @@ To create a new forum access permission, click **New**.
 
 ![Edit forum access permission](media/edit-forum-access-permission.png "Edit forum access permission")  
 
->[!Note]
+> [!Note]
 > A web role must be assigned for the rule to apply for users associated with the given role. See [Create web roles for portals](create-web-roles.md).
-
-
 
 ### See also
 

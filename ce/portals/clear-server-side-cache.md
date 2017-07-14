@@ -1,6 +1,6 @@
 ---
 title: "Clear the server-side cache for a portal in Dynamics 365 | MicrosoftDocs"
-description: "Force the portal to refresh its cache immediately."
+description: "Instructions to force the portal to refresh its cache immediately."
 ms.custom: ""
 ms.date: 06/21/2017
 ms.service: crm-online

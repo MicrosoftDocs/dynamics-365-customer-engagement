@@ -1,6 +1,6 @@
 ---
 title: "Configure a redirect step type for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure a redirect step for a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

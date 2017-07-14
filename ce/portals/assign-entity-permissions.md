@@ -1,6 +1,6 @@
 ---
 title: "Add record-based security by using entity permissions for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add entity permission and assign web roles to it."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -25,7 +25,7 @@ To secure these features, Entity Permissions allow for granular rights to be gra
 2. Click to **Add** an Existing Entity Permission. 
 3. Click to create a **New** Entity Permissions Record.
 
-![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
+    ![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
 
 When creating a new Entity Permission record, the first step is to Determine the **Entity** that will be secured. The next step is to define **Scope**, as discussed below, and in the case of any scope besides Global, the **Relationships** that define that scope must be specified. Finally, determine the Rights that are being granted to the Role via this permission. Note that rights are cumulative, so if a user is in a role that grants Read, and another that grants read and update, the user will have read and update to any records that overlap between the two roles.
 

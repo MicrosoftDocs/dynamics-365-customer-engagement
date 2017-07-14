@@ -1,6 +1,6 @@
 ---
 title: "Set up and moderate forums for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to create and manage forums on a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

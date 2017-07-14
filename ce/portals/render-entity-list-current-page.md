@@ -1,6 +1,6 @@
 ---
 title: "Render the entity list associated with the current page in a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Sample code to render the entity list associated with the current page in a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -14,7 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Render the entity list associated with the current page
-<!--[comment]: <> (Verify codes)-->
 
 Render the Entity List associated with the current page as a paginated sortable table. Uses entitylist, entityview ([[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags](#dynamics-365-entity-tags)), [page](#page), and [request](#request) parameters, and includes search and multiple view selection.  
 

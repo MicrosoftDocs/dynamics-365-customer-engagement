@@ -1,6 +1,6 @@
 ---
 title: "Configure web roles for a partner portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to add web roles for a partner portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

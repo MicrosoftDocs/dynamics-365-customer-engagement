@@ -1,6 +1,6 @@
 ---
 title: "Integrate Dynamics 365 for Field Service with a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to integrate Field Service with a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

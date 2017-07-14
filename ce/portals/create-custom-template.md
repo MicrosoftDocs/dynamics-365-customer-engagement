@@ -1,6 +1,6 @@
 ---
 title: "Create a custom page template by using Liquid and a web template page template for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create a custom page template by using Liquid operators."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

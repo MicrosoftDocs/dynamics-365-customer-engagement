@@ -1,6 +1,6 @@
 ---
-title: "Configure notes on a entity forms and web form for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+title: "Configure notes on entity forms and web form for a portal in Dynamics 365 | MicrosoftDocs"
+description: "Instructions to add and configure notes on entity forms and web forms in a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online

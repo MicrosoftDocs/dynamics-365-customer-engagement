@@ -1,6 +1,6 @@
 ---
 title: "Manage blogs on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to manage blogs on a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -14,8 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Manage blogs
-
-
 
 Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and in your portal.
 

@@ -1,6 +1,6 @@
 ---
 title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
 ms.custom: ""
 ms.date: 05/22/2017
 ms.service: crm-online
@@ -29,7 +29,7 @@ Settings for an IdP such as AD FS.
 > [!Note] 
 > See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
 
-Using the AD FS Management tool, select**Service** >**Claim Descriptions**.
+Using the AD FS Management tool, select **Service** > **Claim Descriptions**.
 
 1.  Click **Add Claim Description**...
 2.  Specify the claim:
@@ -42,7 +42,7 @@ Display name:**Persistent Identifier**
 
 -**Enable** checkbox for: Publish this claim description in federation metadata as a claim type that this Federation Service can send
 
--   Click**OK**
+-   Click **OK**.
 
 Using the AD FS Management tool, select**Trust Relationships** >**Relying Party Trusts**.
 
