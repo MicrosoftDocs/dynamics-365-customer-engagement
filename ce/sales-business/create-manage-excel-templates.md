@@ -62,7 +62,7 @@ Templates display information from the view defined for a record type (entity). 
 
 Open the newly-created template in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] to customize the data.
 
-![[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template with data](media/[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]-template-with-data.png "[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template with data")  
+![Excel template with data](media/Excel-template-with-data.png "Excel template with data")  
 
 Let’s walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template using [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] sample data.
 
