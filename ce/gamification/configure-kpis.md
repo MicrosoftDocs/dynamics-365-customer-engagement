@@ -25,7 +25,6 @@ When you set up a game, step 2 of the game setup experience requires you to defi
 
 The KPIs you define in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will be available when you set up the game and the data syncs from [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
 
-[//]: # (@Michael, please confirm this token is right.)
 ## Configure and edit KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]
 
 Configure KPI details in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] to select them for a new contest in [!INCLUDE[pn_gamification_](includes/pn-gamification-shortest-md.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_](includes/pn-gamification-shortest-md.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.
@@ -33,6 +32,7 @@ Configure KPI details in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-onl
 There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Use our examples for inspiration, and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Best practices for new and existing KPIs in Gamification](best-practices-kpis.md)  
 
 [//]: # (@Michael, in the note for step 5, is there a better term for "amount-based KPI"? Would "numerical" or "quantitative" work?)
+[//]: # (@Nona - the UI refers to "amount" so I'd rather be consistent in the references to this.)
 ### Configure a KPI
 
 1.  In [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], go to **Gamification** > **KPIs**.

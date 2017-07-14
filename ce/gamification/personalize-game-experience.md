@@ -26,15 +26,13 @@ If you are already connected to a [!INCLUDE[pn_crm_online_subsequent](includes/p
 
 Change the company logo to be shown in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] leaderboards.  
 
-
-[//]: # (@Michael, in step 3 could "In the **Organization Logo** line" better be worded "In the **Organization Logo** box", or "Under **Organization Logo**..." or "Next to **Organization Logo**" or something similar? I haven't seen "line" used as a UI element before. Same query applies for **Contact Menu** in step 3 of the following procedure.)
 ### Upload your company logo  
 
 1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
 2.  Click the **Gamification Settings** tab.  
 
-3.  In the **Organization Logo** line, click **Upload Logo**.  
+3.  Next to **Organization Logo**, click **Upload Logo**.  
 
 4.  Select a logo and upload it. It will be updated automatically.
 
@@ -50,7 +48,7 @@ Define how players and fans get in touch with the commissioner. Participants can
 
 2.  Click the **Gamification Settings** tab.  
 
-3.  In the **Contact Menu** line, enter an email address or a URL for a help page.  
+3.  Next to **Contact Menu**, enter an email address or a URL for a help page.  
 
 4.  To apply your changes, click **Save**.
 
@@ -58,7 +56,6 @@ Define how players and fans get in touch with the commissioner. Participants can
 
 Choose whether you want to show or hide the **Actuals** tab in the **Player Stats** page. If you want players to see how they're progressing in the leaderboard in real time, don't hide the actuals.  
 
-[//]: # (@Michael, even though the UI is all uppercase in some cases--as in **ON**--we use title case for UI strings in content because someday the UI will be scrubbed to get rid of the uppercase command names.)
 ### Show or hide actuals in player stats  
 
 1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
@@ -98,16 +95,15 @@ You can opt in for early access to newly developed features to evaluate them for
 4. To apply your changes, click **Save**.
 
 
-[//]: # (In step 3, should you mention the name of the setting?)
 ## Show or hide completed games  
 
 1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
 2.  Click the **Gamification Settings** tab.  
 
-3.  Set the value to **On** if you don't want to display completed games more than 31 days after their end date.  
+3.  Set the value for **Hide Completed Games** to **On** if you don't want to display completed games more than 31 days after their end date.  
 
-     Set the value to **Off** if you want to show completed games continuously.  
+     Set the value for **Hide Completed Games** to **Off** if you want to show completed games continuously.  
 
 4.  To apply your changes, click **Save**.  
 
