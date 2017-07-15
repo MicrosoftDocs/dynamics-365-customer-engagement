@@ -33,7 +33,7 @@ To use Skype, all users in the organization must install Skype and have a Skype 
 
 1.  In **Advanced Settings**, choose **Click to Call**.
 
- ![Enable Click-to-call](media/enable-click-to-call.png "Enable Click-to-call")  
+  ![Enable Click-to-call](media/enable-click-to-call.png "Enable Click-to-call")  
 
   You’ll see tiles for the communication channels available to you: Skype for Business and Skype.
   
