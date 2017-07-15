@@ -12,19 +12,17 @@ ms.topic: article
 ms.assetid: eaf38d0b-24d1-499d-b157-de109f052786
 ms.reviewer: 
 ---
-# Manage your documents from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 With [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
 
 The documents that you create in the Sales app are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.
 
-**Note:**
+> [!Note]
+> Before you can use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store the documents, it must be enabled by your system administrator.
 
-Before you can use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store the documents, it must be enabled by your system administrator.
-
-**Important:**
-
-This feature requires that you have an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription or a subscription to an online service such as [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)].
+> [!Important]
+> This feature requires that you have an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription or a subscription to an online service such as [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)].
 
 ## What record types support document management?
 
@@ -66,15 +64,15 @@ Open a view with a document grid.
 
 For example,
 
-1.  Click **Sales** &gt; **Opportunities**
+1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the menu icon"), and then click **Opportunities**
 
 2.  Click the **Related** tab, and then click **Documents**.
 
-![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")  
+  ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")  
 
-[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] now organizes documents in a consolidated view.
+  [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] now organizes documents in a consolidated view.
 
-1.  Click **Document Location** to filter the document list. Select from the available document locations.
+3.  Click **Document Location** to filter the document list. Select from the available document locations.
 
 ## Create a new document
 
@@ -86,21 +84,21 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
 3.  Click **New**, and then choose a document type such as [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] PowerPoint, or OneNote.
 
-> You can also create a folder from here.
+  You can also create a folder from here.
 
-1.  In the **Create a New Document dialog** box, enter a document or folder name.
+4.  In the **Create a New Document dialog** box, enter a document or folder name.
 
-> ![Dialog box for creating a new document](media/create-new-document-dialog-box.png "Dialog box for creating a new document")  
+  ![Dialog box for creating a new document](media/create-new-document-dialog-box.png "Dialog box for creating a new document")  
 
-1.  Click **Save**.
+5.  Click **Save**.
 
-> The document is created in the folder of the current document location you’re in.
->
-> If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list.
->
-> ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")  
->
-> Click on the folder name to navigate between the folders.
+  The document is created in the folder of the current document location you’re in.
+
+  If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list.
+ 
+  ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")  
+
+ Click on the folder name to navigate between the folders.
 
 ## Upload a document
 
@@ -114,7 +112,8 @@ To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sha
 
     The document is created in the folder of the current document location you’re in.
 
- **Note**: You can upload a file of up to 50 MB of size. ### If your internet connection is slow, you may get an error while uploading large files.
+   > [!Note]
+   > You can upload a file of up to 50 MB of size. ### If your internet connection is slow, you may get an error while uploading large files.
 
 4.  If files with the same name exists in [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], select if you want to overwrite the files.
 
@@ -132,19 +131,19 @@ In the **Documents** list
 
 2.  To edit the location, on the command bar, click **Edit Location** &gt; &lt;location name&gt;.
 
-The Edit Location dialog box appears.
+  The **Edit Location** dialog box appears.
 
-![Dialog box to edit a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location](media/edit-location-dialog-box.png "Dialog box to edit a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location")  
+  ![Dialog box to edit a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location](media/edit-location-dialog-box.png "Dialog box to edit a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location")  
 
-### The display name, parent site, and folder name is automatically populated. Provide the new location details, and click **Save**.
+3.  The display name, parent site, and folder name is automatically populated. Provide the new location details, and click **Save**.
 
-1.  To add a location, on the command bar, click **Add Location**.
+4.  To add a location, on the command bar, click **Add Location**.
 
-    The Add Location dialog box appears.
+  The **Add Location** dialog box appears.
 
- ![Dialog box to add a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location](media/add-location-dialog-box.png "Dialog box to add a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location")  
+  ![Dialog box to add a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location](media/add-location-dialog-box.png "Dialog box to add a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location")  
 
-    The display name, parent site, and folder name is automatically populated. Change the details if required, and then click **Save**.
+5.  The display name, parent site, and folder name is automatically populated. Change the details if required, and then click **Save**.
 
 ## Actions on documents
 
@@ -162,3 +161,5 @@ When you select one or more documents in the Documents list, you can take the fo
 
 -   Edit properties
 
+### See Also
+[Configure Dynamics 365 for Sales to integrate with SharePoint](configure-document-management.md)
