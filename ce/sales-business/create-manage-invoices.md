@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: df953df7-d0ae-4b06-b41c-34cd9d7c3f5e
 ms.reviewer: 
 ---
-# Manage invoices in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business Edition
+# Create and manage invoices in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 Once your customer accepts the quote, you can create an invoice in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to bill them for the upcoming sale.
 
@@ -48,13 +48,13 @@ You may also create an invoice that doesn’t generate from a quote.
 
     - **Get Products**. Select products from a previously created opportunity.
 
-> You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] doesn’t automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.
+ You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] doesn’t automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.
 
-1.  In the **Shipping Information** area, type shipping details.
+7.  In the **Shipping Information** area, type shipping details.
 
-2.  In the **Addresses** area, type shipping and billing addresses.
+8.  In the **Addresses** area, type shipping and billing addresses.
 
-3.  Choose the **Save** button at the bottom right corner of the screen.
+9.  Choose the **Save** button at the bottom right corner of the screen.
 
 ## Lock or unlock prices of an invoice
 
@@ -66,9 +66,9 @@ To lock the prices
 
 2.  To lock the price, on the command bar, click **Lock Pricing**. 
 
-> - OR -
->
-> To use the price of a product from the product catalog, click **Use Current Pricing**.  
+  - OR -
+ 
+  To use the price of a product from the product catalog, click **Use Current Pricing**.  
 
 ## Close an invoice
 
@@ -79,3 +79,8 @@ You close an invoice either by canceling the invoice or setting the invoice stat
 When you’ve added all the details to the invoice, send it to the customer.
 
 To directly send an email to customer with an invoice attached, open the invoice, and on the command bar, click the **More Commands** icon ![Icon for More Commands](media/more-commands-icon.png "Icon for More Commands"), and then click **Send by Email**.  
+
+
+### See Also
+
+[Develop sales from lead to cash in Dynamics 365 for Sales, Business edition](develop-sales-lead-to-cash.md)
