@@ -12,11 +12,11 @@ ms.topic: article
 ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3
 ms.reviewer: 
 ---
-# Configure document management in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Configure document management to integrate with SharePoint
 
 Store the documents related to [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] entity records in [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] Online.
 
-### Prerequisites
+## Prerequisites
 
 -   You must have a Sales Manager-Business or System Administrator role.
 
@@ -24,7 +24,7 @@ Store the documents related to [!INCLUDE[pn-crm-shortest](../includes/pn-crm-sho
 
 [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] can be configured from the Quick Setup or Advanced Setup.
 
-### Integrate with [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] 
+## Integrate with [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] 
 
 1.  Initiate [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] configuration from Quick Setup.
 
@@ -34,7 +34,7 @@ Store the documents related to [!INCLUDE[pn-crm-shortest](../includes/pn-crm-sho
 
     3.  In the Quick Setup wizard, click the **Document Storage** icon.
 
-        - OR -
+    - OR -
 
 2.  Initiate [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] configuration from Advanced Settings.
 
@@ -66,37 +66,28 @@ Store the documents related to [!INCLUDE[pn-crm-shortest](../includes/pn-crm-sho
 
         By default, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is enabled on the following entities:
 
--   Account
+       -   Account
+       -   Contact
+       -   Lead
+       -   Opportunity
+       -   Quote
+       -   Invoice
+       -   Product
+       -   Appointment
+       -   Task
+       -   Phone Call
 
--   Contact
+      The folder structure is created based on the **Account** entity. This means that the folders are created under the folder for the related account.
 
--   Lead
+      For example, the following folder structure is created for a document for an opportunity record “100 Bikes” that has a related account as Margie’s travel:
 
--   Opportunity
+      :.../account/Margie's Travel/opportunity/100 Bikes&lt;entityGUID&gt;.
 
--   Quote
+      You’ll see a confirmation message when [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is successfully configured.
 
--   Invoice
+6.  If any error occurs during configuration, a message is shown. Errors can occur in many cases like issues with permissions, issues while validating a site, or while creating a folder.
 
--   Product
-
--   Appointment
-
--   Task
-
--   Phone Call
-
-    The folder structure is created based on the **Account** entity. This means that the folders are created under the folder for the related account.
-
-    For example, the following folder structure is created for a document for an opportunity record “100 Bikes” that has a related account as Margie’s travel:
-
-    :.../account/Margie's Travel/opportunity/100 Bikes&lt;entityGUID&gt;.
-
-    You’ll see a confirmation message when [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is successfully configured.
-
-1.  If any error occurs during configuration, a message is shown. Errors can occur in many cases like issues with permissions, issues while validating a site, or while creating a folder.
-
-2.  Click **Retry**.
+7.  Click **Retry**.
 
     All the backend configuration steps are performed again in the background.
 
