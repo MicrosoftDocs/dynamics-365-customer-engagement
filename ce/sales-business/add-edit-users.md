@@ -30,13 +30,13 @@ To create a user
  
 3.  Click **Add Users**.
 
- List of users in Advanced Settings  
+    ![List of users in Advanced Settings](media/users-list-in-advanced-settings.png "List of users in Advanced Settings")  
 
 4.  Follow the instructions in the Confirm user account creation dialog box.
 
     The Add New User pane appears.
 
- ![Add New User dialog box in Advances Settings](media/add-new-user-dialog-box.png "Add New User dialog box in Advances Settings")  
+    ![Add New User dialog box in Advances Settings](media/add-new-user-dialog-box.png "Add New User dialog box in Advances Settings")  
 
 5.  Enter the following details:
 
@@ -48,8 +48,8 @@ To create a user
 
 6.  In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see Assign a security role to the user.
 
-> [!IMPORTANT] 
-> Assign a role with only the privileges the user needs.
+ > [!IMPORTANT] 
+ > Assign a role with only the privileges the user needs.
 
 7.  Under **Password**, select the **Make this user change the password when they first sign in** checkbox to have the user enter a new password when they sign in.
 
@@ -57,8 +57,8 @@ To create a user
 
 9.  Click **Add**.
 
-> [!NOTE]
->If there’s a single license type for your organization, a license will be automatically assigned to the users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] until a license is assigned.
+ > [!NOTE]
+ >If there’s a single license type for your organization, a license will be automatically assigned to the users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] until a license is assigned.
 
 ## Assign a security role to a user
 
