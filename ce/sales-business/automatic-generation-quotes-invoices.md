@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 9f25ed71-2c36-450a-9b1d-1adf7f72d72b
 ms.reviewer: 
 ---
-# Automatic generation of quotes and invoices in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Enable automatic generation of quotes and invoices
 
 Make sure that all the quotes or invoices that your sales team is sending out to the customers follow a consistent format and branding by enabling automatic generation of quotes and invoices.
 
@@ -24,11 +24,7 @@ Make sure that all the quotes or invoices that your sales team is sending out to
 
 4.  To enable automatic generation of invoice documents, select the **Auto-generate invoice as a Word document** check box, and then select the invoice Word template from the drop-down list.
 
-> All the out-of-the-box templates and the custom templates that you’ve created will be available in the drop-down list.
+  All the out-of-the-box templates and the custom templates that you’ve created will be available in the drop-down list.
 
-1.  Click **Save**.
-
-Follow the steps in [View your user profile](https://www.microsoft.com/en-us/dynamics/crm-customer-center/view-your-user-profile.aspx).  
-
--   Don’t have the correct permissions? Contact your system administrator.
+5.  Click **Save**.
 
