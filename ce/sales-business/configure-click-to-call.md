@@ -35,9 +35,9 @@ To use Skype, all users in the organization must install Skype and have a Skype 
 
  ![Enable Click-to-call](media/enable-click-to-call.png "Enable Click-to-call")  
 
- You’ll see tiles for the communication channels available to you: Skype for Business and Skype.
- 
- By default, Skype is selected.
+  You’ll see tiles for the communication channels available to you: Skype for Business and Skype.
+  
+  By default, Skype is selected.
 
 2.  Depending upon the channel you want to configure for your organization, click the tile for Skype for Business or Skype, and then click **Enable**.
 
