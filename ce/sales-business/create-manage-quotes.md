@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 28a6310c-74e9-44fa-b975-7885417b6a3a
 ms.reviewer: 
 ---
-# Manage quotes in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Create and manage quotes in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 Most sales begin with a price quote in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. A quote is a formal offer for products proposed at specific prices and related payment terms, which you send to an opportunity, account, or contact.
 
@@ -24,23 +24,25 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Create a quote from an opportunity
 
-1.  Choose the opportunity you want to create a quote for.
+1. Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Opportunities**.
 
-2.  On the command bar, click **Create Quote**.
+2.  Choose the opportunity you want to create a quote for.
 
-> The quote form opens.
+3.  On the command bar, click **Create Quote**.
 
-1.  Type shipping and payment information in the **Shipping Information** area of the **Quote** screen.
+ The quote form opens.
 
-2.  Type the billing and shipping addresses in the **Addresses** area of the **Quote** screen.
+4.  Type shipping and payment information in the **Shipping Information** area of the **Quote** screen.
 
-3.  To add products from your opportunity to your quote, on the command bar of the Quote form, click **Get Products**. You add more products or remove existing ones from the **Quote Products** grid.
+5.  Type the billing and shipping addresses in the **Addresses** area of the **Quote** screen.
 
-4.  In the **Products Summary** area, enter all the information you have available. If you are adding a discount, add a percentage or amount, or both.
+6.  To add products from your opportunity to your quote, on the command bar of the Quote form, click **Get Products**. You add more products or remove existing ones from the **Quote Products** grid.
 
-5.  Choose the **Save** button at the bottom right corner of the screen.
+7.  In the **Products Summary** area, enter all the information you have available. If you are adding a discount, add a percentage or amount, or both.
 
-6.  When your quote is ready to send to your customer, choose **Activate Quote** at the top of the screen.
+8.  Choose the **Save** button at the bottom right corner of the screen.
+
+9.  When your quote is ready to send to your customer, choose **Activate Quote** at the top of the screen.
 
 ## Create a quote
 
@@ -70,3 +72,6 @@ To directly send an email to customer with a quote attached, open the quote, and
 
 ![Send By Email command bar button](media/send-by-email-command-bar-button.png "Send By Email command bar button")  
 
+### See Also
+
+[Develop sales from lead to cash in Dynamics 365 for Sales, Business edition](develop-sales-lead-to-cash.md)
