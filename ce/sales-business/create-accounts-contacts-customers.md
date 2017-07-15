@@ -40,7 +40,7 @@ You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[
 
  **Summary tab.** Use the summary tab to store all the primary information about the account. This is the tab you’ll use the most.
 
-  -   The left pane includes fields like:
+ The left pane includes fields like:
   - **Primary Contact.** The main person you are working with at this account.
   - **Account Name.** The name of the organization you do business with. This name is used in searches, reports, and lookup fields related to accounts.
   - **Parent Account**. The parent organization of an account. The parent account must also be added as an account first to be able to choose it as a parent account.
@@ -59,7 +59,7 @@ Account and contact forms are very similar as they store similar information abo
 
 To create or edit a contact
 
-1.  Go to **Sales** &gt; **Contacts**.
+1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Icon to open the menu"), and then click **Contacts**.
 
 2.  To create a new contact, choose **New**.
 
