@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: c50f4c5f-76fc-48cf-846c-27caec67baed
 ms.reviewer: 
 ---
-# Manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Create and manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
@@ -44,19 +44,19 @@ Templates display information from the view defined for a record type (entity). 
 
 3.  Select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Template**, and then click **Next**.
 
-> ![Select template type in the Create Template wizard](media/create-template-wizard-select-template-type.png "Select template type in the Create Template wizard")  
+  ![Select template type in the Create Template wizard](media/create-template-wizard-select-template-type.png "Select template type in the Create Template wizard")  
 
-1.  Select an entity to which the template applies. The template will use data from this entity. The views you can select in the next field depend on the entity you select.
+4.  Select an entity to which the template applies. The template will use data from this entity. The views you can select in the next field depend on the entity you select.
 
-2.  The view defines the query used to display records and the columns or fields that are shown. Select a view, and then click **Next**.
+5.  The view defines the query used to display records and the columns or fields that are shown. Select a view, and then click **Next**.
 
-> ![Select entity in the Create Template wizard](media/create-template-wizard-select-entity.png "Select entity in the Create Template wizard")  
+  ![Select entity in the Create Template wizard](media/create-template-wizard-select-entity.png "Select entity in the Create Template wizard")  
 
-1.  In the **Download Template** page, click **Download**.
+6.  In the **Download Template** page, click **Download**.
 
-2.  To upload the template later, select **Upload the template** later check box, and then click **Next**.
+7.  To upload the template later, select **Upload the template** later check box, and then click **Next**.
 
-3.  ### To upload the template back after you customize the data, go to the list of templates, and then click **Upload Template**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Upload the template and share it with others](#step-3-upload-the-template-and-share-with-others)  
+8.  To upload the template back after you customize the data, go to the list of templates, and then click **Upload Template**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Upload the template and share it with others](#step-3-upload-the-template-and-share-with-others)  
 
 ## Step 2: Customize the data in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
 
@@ -66,27 +66,27 @@ Open the newly-created template in [!INCLUDE[pn-excel-short](../includes/pn-exce
 
 Let’s walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template using [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] sample data.
 
-![](media/Not-needed.png "")Example customization of Opportunities data  
+Example customization of Opportunities data  
 
 1.  Click Enable Editing to allow customization of the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] spreadsheet.
 
 2.  Add a new column and name it “Expected Revenue”.
 
-> Add a column in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template  
+ ![Add a column in Excel template](media/add-column-in-excel-template.png "Add a column in Excel template")  
 
-1.  Create a formula for expected revenue. Don’t refer to cells using their addresses; define and use names instead.
+3.  Create a formula for expected revenue. Don’t refer to cells using their addresses; define and use names instead.
 
-> Create formula for expected revenue in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]  
+ ![Create formula to calculate expected revenue in Excel](media/create-formula-for-expected-revenue.png "Create formula to calculate expected revenue in Excel")  
 
-1.  Create a pivot table and chart.
+4.  Create a pivot table and chart.
 
-> Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template.
->
-> For more information, see: [Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates](#best-practices-and-considerations-for-using-excel-templates).  
->
-> Create a PivotTable in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file  
+ Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template.
 
-1.  Save the spreadsheet.
+ For more information, see: [Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates](#best-practices-and-considerations-for-using-excel-templates).  
+
+ ![Create a PivotTable in Excel file](media/create-pivot-table-in-Excel.png "Create a PivotTable in Excel file")
+
+5.  Save the spreadsheet.
 
 You’re now ready to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
@@ -96,9 +96,8 @@ When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] tem
 
 Administrators can use the **Advanced Settings** page to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-**Note:**
-
-### Users in your organization can see the templates available to them by clicking the **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** button on the command bar in the list of records.
+> [!Note]
+> Users in your organization can see the templates available to them by clicking the **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** button on the command bar in the list of records.
 
 Upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
@@ -106,13 +105,13 @@ Upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template in
 
 2.  ### Find and upload the file.
 
-> ![create-template-wizard-step-upload-template](media/create-template-wizard-step-upload-template.png "")  
+ ![create-template-wizard-step-upload-template](media/create-template-wizard-step-upload-template.png "")  
 
-1.  Click **Upload**.
+3.  Click **Upload**.
 
-> You’ll see the summary of the file you’re uploading.
+ You’ll see the summary of the file you’re uploading.
 
-1.  Click **Finish**.
+4.  Click **Finish**.
 
 ### Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
@@ -120,49 +119,49 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
 - **Test your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates**
 
-> [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] has lots of features. It’s a good idea to test your customizations to see that all [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features work as expected in your templates.
+  [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] has lots of features. It’s a good idea to test your customizations to see that all [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features work as expected in your templates.
 
 - **Data in templates and privacy concerns**
 
-> By default, pivot chart data is not updated when a spreadsheet is opened. This can create a security issue if certain pivot chart data should not be seen by users with insufficient permissions.
+  By default, pivot chart data is not updated when a spreadsheet is opened. This can create a security issue if certain pivot chart data should not be seen by users with insufficient permissions.
 
-**Consider the following scenario:**
+ **Consider the following scenario:**
 
 -   A [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] administrator creates a template where the view contains sensitive data in a pivot chart which is uploaded into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
 -   A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file to do data analysis.
 
-> **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] administrator including access to views for which the salesperson does not have permissions.
->
-> In addition, iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] app on iOS devices.
+   **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] administrator including access to views for which the salesperson does not have permissions.
 
-**Important**
+  In addition, iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] app on iOS devices.
 
-Sensitive data should not be included in pivot tables and pivot charts.
+ > [!Important]
+ 
+ > Sensitive data should not be included in pivot tables and pivot charts.
 
 - **Set pivot chart data to automatically refresh**
 
-> By default, pivot chart data does not automatically refresh when you open the spreadsheet. Other types of charts do update automatically.
->
-> In [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], right-click the pivot chart, and then click **PivotChart Options** &gt; **Refresh data** when opening the file.
+  By default, pivot chart data does not automatically refresh when you open the spreadsheet. Other types of charts do update automatically.
+ 
+ In [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], right-click the pivot chart, and then click **PivotChart Options** &gt; **Refresh data** when opening the file.
 
 ![Define PivotTable options](media/pivot-table-options.png "Define PivotTable options")  
 
--   Placing new data
+-   **Placing new data**
 
-> If you want to add content to the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template, place your data above or to the right of the existing data. A second option is to place your new content on a second sheet.
+ If you want to add content to the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template, place your data above or to the right of the existing data. A second option is to place your new content on a second sheet.
 
--   [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images may cause an error
+-   **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images may cause an error**
 
-> If you attempt to view [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data with an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you may see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+ If you attempt to view [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data with an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you may see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
--   [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates and Office Mobile app in [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8.1
+-   **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates and Office Mobile app in [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8.1**
 
-> [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates will not open in [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8.1 devices with the Office Mobile app. You’ll get the following error message: “We’ve recovered as much of your document as we could, but you can’t edit it. Try to open and repair the document on your PC to fix the problem.”
+ [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates will not open in [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8.1 devices with the Office Mobile app. You’ll get the following error message: “We’ve recovered as much of your document as we could, but you can’t edit it. Try to open and repair the document on your PC to fix the problem.”
 
-This is a known issue.
+ This is a known issue.
 
-Use table column names and range names in formulas
+ Use table column names and range names in formulas
 
-> When you create [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] formulas, don’t use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
+ When you create [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] formulas, don’t use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
 
