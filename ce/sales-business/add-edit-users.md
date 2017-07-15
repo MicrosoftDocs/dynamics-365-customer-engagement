@@ -32,9 +32,9 @@ To create a user
 
     ![List of users in Advanced Settings](media/users-list-in-advanced-settings.png "List of users in Advanced Settings")  
 
-4.  Follow the instructions in the Confirm user account creation dialog box.
+4.  Follow the instructions in the **Confirm user account creation** dialog box.
 
-    The Add New User pane appears.
+    The **Add New User** pane appears.
 
     ![Add New User dialog box in Advances Settings](media/add-new-user-dialog-box.png "Add New User dialog box in Advances Settings")  
 
@@ -104,4 +104,5 @@ Assign a manager or change existing manager. The manager is responsible for admi
 2.  In the **Change Manager** dialog box, click the Lookup button to choose a manager, and then click **OK**.
 
 ### See Also
+
 
