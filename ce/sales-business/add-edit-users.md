@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: e82c8d18-fe81-4812-ad78-77d178111064
 ms.reviewer: 
 ---
-# Manage users in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Create or manage users
 
-### To log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business Edition, every user in your organization must have a user account. Create a user account for each user to give them access to the Sales app.
+To log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business Edition, every user in your organization must have a user account. Create a user account for each user to give them access to the Sales app.
 
 When you create a user in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition, you can define a user ID, generate password, assign license and security role in a single step.
 
@@ -52,9 +52,8 @@ To create a user
 
 6.  In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see Assign a security role to the user.
 
- **Important: **
-
-    Assign a role with only the privileges the user needs.
+ [!Important]
+ Assign a role with only the privileges the user needs.
 
 7.  Under **Password**, select the **Make this user change the password when they first sign in** checkbox to have the user enter a new password when they sign in.
 
@@ -62,7 +61,8 @@ To create a user
 
 9.  Click **Add**.
 
-**Note**: If there’s a single license type for your organization, a license will be automatically assigned to the users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] until a license is assigned.
+[!Note]
+If there’s a single license type for your organization, a license will be automatically assigned to the users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] until a license is assigned.
 
 ## Assign a security role to a user
 
@@ -80,7 +80,8 @@ Security roles control a user’s access to data through a set of access levels 
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to the user.
 
-**Important:** You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
+[!Important] 
+You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
 
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]:
 
