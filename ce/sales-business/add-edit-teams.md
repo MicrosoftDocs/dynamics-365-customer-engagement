@@ -34,13 +34,13 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
 ## Add members to the team
 
-1.  In the Team Management page, select the team you want to add members to, and then on the command bar, click **Add Members**.
+1.  In the **Team Management** page, select the team you want to add members to, and then on the command bar, click **Add Members**.
 
 2.  Select the members, and then click **Add**.
 
 ## Remove members from the team
 
-1.  In the Team Management page, select the team you want to remove the members from, and then on the command bar, click **Remove Members**.
+1.  In the **Team Management** page, select the team you want to remove the members from, and then on the command bar, click **Remove Members**.
 
 2.  Select the members you want to remove, and then click **Remove**.
 
@@ -48,7 +48,7 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
-1.  Click **Advanced** **Settings** &gt; **Team Management**.
+1.  Click **Advanced Settings** &gt; **Team Management**.
 
 2.  Select a team you want to assign a role to, and then on the command bar, click **Manage Roles**.
 
