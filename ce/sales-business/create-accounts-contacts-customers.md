@@ -27,8 +27,10 @@ You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[
 1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Icon to open the menu"), and then click **Accounts**.
 
 2.  To create a new account, choose **New**.
- -OR-
- To edit an existing account, open the account.
+
+  -OR-
+ 
+  To edit an existing account, open the account.
 
 2.  Fill in or change the information. Don’t know what to enter in a field? Hover over the field name to see a tooltip.
 
@@ -84,4 +86,7 @@ To create or edit a contact
  The rest of the sections are similar to that of an account form.
 
 4.  Click **Save** on the lower right corner.
+
+### See Also
+[Get started with Dynamics 365 for Sales, Business edition](get-started.md)
 
