@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3
 ms.reviewer: 
 ---
-# Configure document management to integrate with SharePoint
+# Configure Dynamics 365 for Sales to integrate with SharePoint
 
 Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] entity records in [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] Online.
 
@@ -34,7 +34,7 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
     3.  In the Quick Setup wizard, click the **Document Storage** icon.
 
-  - OR -
+ - OR -
 
 2.  Initiate [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] configuration from Advanced Settings.
 
