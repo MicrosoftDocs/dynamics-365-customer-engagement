@@ -113,7 +113,7 @@ Upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template in
 
 4.  Click **Finish**.
 
-### Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
+## Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
 Here are some things you need to be aware of to create and make best use of [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
@@ -165,3 +165,6 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
  When you create [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] formulas, don’t use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
 
+
+### See Also
+[Use document templates in Dynamics 365 for Sales, Business edition](Use-document-templates-create-standardized-documents.md)
