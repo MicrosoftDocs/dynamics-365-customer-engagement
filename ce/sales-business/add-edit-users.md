@@ -24,7 +24,7 @@ After you provide these details, and click **Add**, a user is automatically crea
 
 To create a user
 
-1.  ### Make sure you have the global administrator role in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and the System Administrator role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the global administrator role in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and the System Administrator role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
 2.  Go to **Advanced Settings** &gt; **User Management**.
 
@@ -52,7 +52,7 @@ To create a user
 
 6.  In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see Assign a security role to the user.
 
- [!Important]
+ [!IMPORTANT]
  Assign a role with only the privileges the user needs.
 
 7.  Under **Password**, select the **Make this user change the password when they first sign in** checkbox to have the user enter a new password when they sign in.
@@ -61,7 +61,7 @@ To create a user
 
 9.  Click **Add**.
 
-[!Note]
+[!NOTE]
 If there’s a single license type for your organization, a license will be automatically assigned to the users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] until a license is assigned.
 
 ## Assign a security role to a user
@@ -80,7 +80,7 @@ Security roles control a user’s access to data through a set of access levels 
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to the user.
 
-[!Important] 
+[!IMPORTANT] 
 You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
 
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]:
