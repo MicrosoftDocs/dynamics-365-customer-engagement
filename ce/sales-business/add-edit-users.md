@@ -19,7 +19,7 @@ To log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sa
 When you create a user in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition, you can define a user ID, generate password, assign license and security role in a single step.
 
 After you provide these details, and click **Add**, a user is automatically created in [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)], and the user account is available in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
-
+ 
 ## Create a user account
 
 To create a user
@@ -40,15 +40,11 @@ To create a user
 
 5.  Enter the following details:
 
-    1.  First Name
-
-    2.  Last Name
-
-    3.  Display Name: Required. This is automatically populated based on the first name and last name, and can be changed.
-
-    4.  Username: Required. This must be a unique name. A domain name, which is usually the organization name is appended to the username. For example: xyz@contoso.com
-
-    5.  User email address
+     - First Name 
+     - Last Name 
+     - Display Name (required). This is automatically populated based on the first name and last name, and can be changed.
+     - Username (required). This must be a unique name. A domain name, which is usually the organization name is appended to the username. For example: xyz@contoso.com
+     - User email address
 
 6.  In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see Assign a security role to the user.
 
