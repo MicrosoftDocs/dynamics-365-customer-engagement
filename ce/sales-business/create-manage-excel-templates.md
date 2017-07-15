@@ -84,7 +84,7 @@ Example customization of Opportunities data
 
  For more information, see: [Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates](#best-practices-and-considerations-for-using-excel-templates).  
 
- ![Create a PivotTable in Excel file](media/create-pivot-table-in-excel.png "Create a PivotTable in Excel file")
+ ![Create a PivotTable in Excel file](media/create-pivottable-in-Excel.png "Create a PivotTable in Excel file")
 
 5.  Save the spreadsheet.
 
