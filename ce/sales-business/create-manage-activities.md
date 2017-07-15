@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 0019bfd9-bf51-4985-a230-1dd4317051bc
 ms.reviewer: 
 ---
-# Manage tasks, appointment, email, or phone call in Dynamics 365 for Sales
+# Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales
 
 Keep track of all your customer communications with activities in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
 
