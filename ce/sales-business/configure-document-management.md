@@ -91,3 +91,5 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
     All the backend configuration steps are performed again in the background.
 
+### See Also
+[Manage your SharePoint documents](create-manage-documents.md)
