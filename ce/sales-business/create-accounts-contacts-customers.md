@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 24ec7a53-f455-416f-800a-bc37c381c2e6
 ms.reviewer: 
 ---
-# Manage your customers in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Manage your customers
 
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], accounts and contacts records types are used to store information about your customers.
 
@@ -20,43 +20,34 @@ Accounts are organizations you do business with, and contacts are individual peo
 
 Accounts and contacts share a one-to-many relationship, which means that a single account can have multiple contacts.
 
-You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] to get in all your customer data in to the system.
+You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to get in all your customer data in to the system.
 
 ## Create or edit an account
 
-1.  Go to Sales &gt; Accounts.
+1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Icon to open the menu"), and then click **Accounts**.
 
-2.  To create a new account, choose New.
+2.  To create a new account, choose **New**.
+ -OR-
+ To edit an existing account, open the account.
 
-> -OR-
->
-> To edit an existing account, open the account.
+2.  Fill in or change the information. Don’t know what to enter in a field? Hover over the field name to see a tooltip.
 
-1.  Fill in or change the information. Don’t know what to enter in a field? Hover over the field name to see a tooltip.
+ Required fields are marked with a red asterisk (\*). Here are some important fields in the account record:
 
-> Required fields are marked with a red asterisk (\*). Here are some important fields in the account record:
+ ![Account form showing the Summary tab](media/account-form.png "Account form showing the Summary tab")  
 
-![Account form showing the Summary tab](media/account-form.png "Account form showing the Summary tab")  
+ **Summary tab.** Use the summary tab to store all the primary information about the account. This is the tab you’ll use the most.
 
-> **Summary tab.** Use the summary tab to store all the primary information about the account. This is the tab you’ll use the most.
+  -   The left pane includes fields like:
+  - **Primary Contact.** The main person you are working with at this account.
+  - **Account Name.** The name of the organization you do business with. This name is used in searches, reports, and lookup fields related to accounts.
+  - **Parent Account**. The parent organization of an account. The parent account must also be added as an account first to be able to choose it as a parent account.
+  -   The middle pane, which is called a timeline, records all the activities related to the account or the communication with the account.
+  -   The right pane shows everything that’s happening with the account. In other words, it shows related records to the account.
+ **Details tab.** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
+ **Related tab.** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
 
--   The left pane includes fields like:
-
-    - **Primary Contact.** The main person you are working with at this account.
-
-    - **Account Name.** The name of the organization you do business with. This name is used in searches, reports, and lookup fields related to accounts.
-
-    - **Parent Account**. The parent organization of an account. The parent account must also be added as an account first to be able to choose it as a parent account.
-
--   The middle pane, which is called a timeline, records all the activities related to the account or the communication with the account.
-
--   The right pane shows everything that’s happening with the account. In other words, it shows related records to the account.
-
-> **Details tab.** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
->
-> **Related tab.** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
-
-1.  Click **Save**.
+3.  Click **Save**.
 
 ## Create or edit a contact
 
@@ -70,27 +61,27 @@ To create or edit a contact
 
 2.  To create a new contact, choose **New**.
 
-> -OR-
->
-> To edit an existing contact, open the contact record.
+ -OR-
 
-1.  Fill in or change the information. Don’t know what to enter in a field? Hover over the field name to see a tooltip.
+ To edit an existing contact, open the contact record.
 
-> Here are some important fields of a contact record:
+3.  Fill in or change the information. Don’t know what to enter in a field? Hover over the field name to see a tooltip.
 
-![Contact form showing the Summary tab](media/contact-form.png "Contact form showing the Summary tab")  
+ Here are some important fields of a contact record:
 
-The summary tab stores all the primary information about the contact.
+ ![Contact form showing the Summary tab](media/contact-form.png "Contact form showing the Summary tab")  
 
-The left pane includes important details like the following:
+ The summary tab stores all the primary information about the contact.
 
-- **Full Name.** This is combination of First Name and Last Name. 
+ The left pane includes important details like the following:
 
-- **Account Name.** This points to the account record this contact is associated with.
+  - **Full Name.** This is combination of First Name and Last Name. 
 
-- **Contact Info.** Fields like Email, Business Phone, and Mobile Phone fields store the contact details of the contact.
+  - **Account Name.** This points to the account record this contact is associated with.
 
-The rest of the sections are similar to that of an account form.
+  - **Contact Info.** Fields like Email, Business Phone, and Mobile Phone fields store the contact details of the contact.
 
-1.  Click **Save** on the lower right corner.
+ The rest of the sections are similar to that of an account form.
+
+4.  Click **Save** on the lower right corner.
 
