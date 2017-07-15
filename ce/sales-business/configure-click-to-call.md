@@ -12,9 +12,9 @@ ms.topic: article
 ms.assetid: 816eef56-05aa-46eb-810d-e06532e387ab
 ms.reviewer: 
 ---
-# Set up click-to-call in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Set up click-to-call
 
-### Integration with Skype and Skype for Business helps you to easily check on the availability of a contact and to make a call with one click from within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+Integration with Skype and Skype for Business helps you to easily check on the availability of a contact and to make a call with one click from within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
 Skype for Business integration is built and packaged as a solution within [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]###  for Sales. To integrate with Skype for Business, you must have a Skype for Business license, and must install the solution.
 
@@ -26,7 +26,8 @@ To use Skype, all users in the organization must install Skype and have a Skype 
 
 -   Skype for [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] desktop client or the Skype for [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8 app.
 
-Note: Each person involved in the communication must have the either Skype for Business or Skype installed and running on their PC or [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8 device.
+>[!Note]
+Each person involved in the communication must have the either Skype for Business or Skype installed and running on their PC or [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8 device.
 
 ## Configure Skype for Business or Skype
 
@@ -34,9 +35,8 @@ Note: Each person involved in the communication must have the either Skype for B
 
 ![Enable Click-to-call](media/enable-click-to-call.png "Enable Click-to-call")  
 
-> You’ll see tiles for the communication channels available to you: Skype for Business and Skype.
->
-> By default, Skype is selected.
+ You’ll see tiles for the communication channels available to you: Skype for Business and Skype.
+ By default, Skype is selected.
 
 1.  Depending upon the channel you want to configure for your organization, click the tile for Skype for Business or Skype, and then click **Enable**.
 
