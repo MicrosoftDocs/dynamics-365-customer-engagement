@@ -12,17 +12,15 @@ ms.topic: article
 ms.assetid: 31970d2b-3be2-457b-9143-da40a67ebf1f
 ms.reviewer: 
 ---
-# Change the color scheme or logo for [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Change the color scheme or logo for your organization
 
-### Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app. You can create a custom look and feel (a theme), for your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for phones app by creating new themes with colors and visual elements.
+Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app. You can create a custom look and feel (a theme), for your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for phones app by creating new themes with colors and visual elements.
 
 The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:
 
 -   Change product logos
 
--   ### Change Nav Bar Color, Main Color, Accent Color
-
-<!-- -->
+-   Change Nav Bar Color, Main Color, Accent Color
 
 -   Nav Bar color defines the background color for the navigation bar
 
@@ -53,7 +51,7 @@ The theme that you are currently using is shown with the text “currently appli
 
 5.  Enter a tooltip for the logo.
 
-6.  Choose the colors in the Nav Bar Color, Main Color, and Accent Color boxes.
+6.  Choose the colors in the **Nav Bar Color**, **Main Color**, and **Accent Color boxes**.
 
 7.  Click **Save and Apply Theme**.
 
