@@ -50,7 +50,7 @@ If your lead has potential to become a sale, you can qualify the lead to an oppo
 
 5.  Click the **Save** button at the bottom right of the screen.
 
- To qualify multiple leads at once, go to **Sales** &gt; **Leads**. Then select the check boxes next to all leads that you want to qualify, and then click **Qualify** at the top of the screen.
+ To qualify multiple leads at once, go to the list of lead records. Then select the check boxes next to all leads that you want to qualify, and then click **Qualify** at the top of the screen.
 
 ## Disqualify a lead
 
