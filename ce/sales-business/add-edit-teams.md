@@ -22,13 +22,13 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
 3.  Enter the following details, and then click **Add**.
 
--   Team Name
+  -   Team Name
 
--   Business Unit Name: This is defaulted to your organization name.
+  -   Business Unit Name: This is defaulted to your organization name.
 
--   Team Manager: Select a manager for the team.
+  -   Team Manager: Select a manager for the team.
 
--   Team Administrator: Select the person who will do the team administration, such as adding or removing members to the team.
+  -   Team Administrator: Select the person who will do the team administration, such as adding or removing members to the team.
 
  ![Add New Team dialog box in Advanced Settings](media/add-new-team-dialog-box.png "Add New Team dialog box in Advanced Settings")  
 
