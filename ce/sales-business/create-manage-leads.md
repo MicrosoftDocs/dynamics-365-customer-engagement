@@ -46,11 +46,11 @@ If your lead has potential to become a sale, you can qualify the lead to an oppo
 
 4.  Click **Qualify** at the top of the Lead screen.
 
- You must also select the currency in which to calculate the opportunity.
+  You must also select the currency in which to calculate the opportunity.
 
-6.  Click the **Save** button at the bottom right of the screen.
+5.  Click the **Save** button at the bottom right of the screen.
 
- To qualify multiple leads at once, go to **Sales** &gt; **Leads**. Then select the check boxes next to all leads that you want to qualify, and then click Qualify at the top of the screen.
+ To qualify multiple leads at once, go to **Sales** &gt; **Leads**. Then select the check boxes next to all leads that you want to qualify, and then click **Qualify** at the top of the screen.
 
 ## Disqualify a lead
 
