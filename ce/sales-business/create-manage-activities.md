@@ -32,7 +32,7 @@ Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to o
 
 -   Phone Call
 
-## ![](media/Not needed.png "")Filter the list of activities  
+## Filter the list of activities  
 
 You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed tasks, or to see emails that you sent.
 
@@ -58,7 +58,7 @@ Add a task or note for yourself when you want a reminder to do something persona
 
 Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record, so those activities become part of the history that other people on your team can view.
 
-1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **&lt;Activity Type&gt;**. For example, click **Tasks**.  
+1.  c **&lt;Activity Type&gt;**. For example, click **Tasks**.  
 
   ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type \"Task\"")  
 
