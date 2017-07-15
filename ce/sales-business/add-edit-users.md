@@ -27,7 +27,7 @@ To create a user
 1.  Make sure you have the global administrator role in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and the System Administrator role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
 2.  Go to **Advanced Settings** &gt; **User Management**.
-
+ 
 3.  Click **Add Users**.
 
  List of users in Advanced Settings  
@@ -52,8 +52,8 @@ To create a user
 
 6.  In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see Assign a security role to the user.
 
- [!IMPORTANT]
- Assign a role with only the privileges the user needs.
+> [!IMPORTANT] 
+> Assign a role with only the privileges the user needs.
 
 7.  Under **Password**, select the **Make this user change the password when they first sign in** checkbox to have the user enter a new password when they sign in.
 
@@ -61,8 +61,8 @@ To create a user
 
 9.  Click **Add**.
 
-[!NOTE]
-If there’s a single license type for your organization, a license will be automatically assigned to the users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] until a license is assigned.
+> [!NOTE]
+>If there’s a single license type for your organization, a license will be automatically assigned to the users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] until a license is assigned.
 
 ## Assign a security role to a user
 
@@ -80,8 +80,8 @@ Security roles control a user’s access to data through a set of access levels 
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to the user.
 
-[!IMPORTANT] 
-You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
+> [!IMPORTANT] 
+> You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
 
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]:
 
@@ -106,4 +106,6 @@ Assign a manager or change existing manager. The manager is responsible for admi
 1.  Select the users you want to change, and then on the command bar, click **Change Manager**.
 
 2.  In the **Change Manager** dialog box, click the Lookup button to choose a manager, and then click **OK**.
+
+### See Also
 
