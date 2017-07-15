@@ -14,7 +14,7 @@ ms.reviewer:
 ---
 # Configure document management to integrate with SharePoint
 
-Store the documents related to [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] entity records in [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] Online.
+Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] entity records in [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] Online.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ Store the documents related to [!INCLUDE[pn-crm-shortest](../includes/pn-crm-sho
 
     3.  In the Quick Setup wizard, click the **Document Storage** icon.
 
-    - OR -
+  - OR -
 
 2.  Initiate [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] configuration from Advanced Settings.
 
@@ -54,7 +54,7 @@ Store the documents related to [!INCLUDE[pn-crm-shortest](../includes/pn-crm-sho
 
 4.  Click **Configure**.
 
-5.  In the Automatic Configuration of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] dialog box, click **I Agree**.
+5.  In the **Automatic Configuration of [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]** dialog box, click **I Agree**.
 
     The following configuration happens in the background:
 
