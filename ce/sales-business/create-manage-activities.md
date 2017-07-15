@@ -40,9 +40,9 @@ You can filter the list of activities to see only the ones you’re interested i
 
 2.  Click the down arrow next to the view name at the top of the page, and select the **My Sent** **Emails** view.
 
-> ![Drop-down list to select a view](media/view-drop-down-list.png "Drop-down list to select a view")  
+  ![Drop-down list to select a view](media/view-drop-down-list.png "Drop-down list to select a view")  
 
-## ![](media/Not needed.png "")Add a new activity for a customer  
+## Add a new activity for a customer  
 
 Most often, you’ll want to add an activity associated with a contact, opportunity, account, or other type of record to help you keep track of all the communication history you have with a customer. (You can also add an activity for yourself.)
 
@@ -52,7 +52,7 @@ As your organization’s relationship with a customer develops over time, you an
 
 2.  In the Timeline section, click **+** and click the type of activity you want to add.
 
-## ![](media/Not needed.png "")Add an activity for yourself  
+## Add an activity for yourself  
 
 Add a task or note for yourself when you want a reminder to do something personal, like schedule a doctor’s appointment or attend a sporting event.
 
@@ -60,21 +60,21 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
 
 1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **&lt;Activity Type&gt;**. For example, click **Tasks**.  
 
-> ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type \"Task\"")  
+  ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type \"Task\"")  
 
-1.  On the nav bar, click **&lt;Activity Type&gt;**. For example, **Tasks**.
+2.  On the nav bar, click **&lt;Activity Type&gt;**. For example, **Tasks**.
 
-> ![Command bar button for creating a new activity type "Task"](media/activity-type-command-bar-button.png "Command bar button for creating a new activity type \"Task\"")  
+  ![Command bar button for creating a new activity type "Task"](media/activity-type-command-bar-button.png "Command bar button for creating a new activity type \"Task\"")  
 
-1.  Fill in the fields, and then click **Save**.
+3.  Fill in the fields, and then click **Save**.
 
-## ![](media/Not needed.png "")Mark an activity complete  
+## Mark an activity complete  
 
 After you call someone, complete a task, send an email, or go to an appointment, you can mark the activity for that action as completed.
 
--   Open the activity.
+1.   Open the activity.
 
--   On the command bar, click **Mark Complete**.
+2.   On the command bar, click **Mark Complete**.
 
-> ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
+  ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
 
