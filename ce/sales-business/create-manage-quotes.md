@@ -24,7 +24,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Create a quote from an opportunity
 
-1. Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Opportunities**.
+1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Opportunities**.
 
 2.  Choose the opportunity you want to create a quote for.
 
@@ -46,7 +46,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Create a quote
 
-1.  Go to **Sales** &gt; **Quotes**.
+1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Quotes**.
 
 2.  Choose **New**.
 
