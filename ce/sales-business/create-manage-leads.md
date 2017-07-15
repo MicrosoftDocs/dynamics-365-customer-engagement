@@ -22,9 +22,9 @@ When you create a [lead](javascript:toggleInline('25788')), there are system-req
 
 ## Create a lead
 
-1.  Go to Sales &gt; Leads.
+1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Leads**.
 
-2.  Click +New.
+2.  Click **+New**.
 
 3.  In the **Summary** tab, enter your lead’s contact and company details.
 
@@ -46,15 +46,19 @@ If your lead has potential to become a sale, you can qualify the lead to an oppo
 
 4.  Click **Qualify** at the top of the Lead screen.
 
-You must also select the currency in which to calculate the opportunity.
+ You must also select the currency in which to calculate the opportunity.
 
-1.  Click the **Save** button at the bottom right of the screen.
+6.  Click the **Save** button at the bottom right of the screen.
 
-> To qualify multiple leads at once, go to **Sales** &gt; **Leads**. Then select the check boxes next to all leads that you want to qualify, and then click Qualify at the top of the screen.
+ To qualify multiple leads at once, go to **Sales** &gt; **Leads**. Then select the check boxes next to all leads that you want to qualify, and then click Qualify at the top of the screen.
 
 ## Disqualify a lead
 
-When you decide that a lead (A potential customer who must be qualified or disqualified as a sales opportunity. If a lead is qualified, it can be converted to an opportunity, account, and/or contact.) will not turn into an opportunity (A potential revenue-generating event or sale to an account that needs to be tracked through a sales process to completion.) (The account or contact with which a business unit conducts a business transaction.), you can disqualify it and still have an audit trail for your sales process. You can reactivate the record, including any attachments and notes, without having to re-enter all the data if the lead contacts you in the future. Deleting the record also removes any attachments and notes.
+When you decide that a lead will not turn into an opportunity, you can disqualify it and still have an audit trail for your sales process. You can reactivate the record, including any attachments and notes, without having to re-enter all the data if the lead contacts you in the future. Deleting the record also removes any attachments and notes.
 
 To disqualify, select the lead, and on the command bar, click **Disqualify**.
 
+
+### See Also
+
+[Develop sales from lead to cash in Dynamics 365 for Sales, Business edition](develop-sales-lead-to-cash.md)
