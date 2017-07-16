@@ -26,3 +26,7 @@ The Relationship Assistant reminds you of your upcoming activities. The Assistan
 
 Business process flows helps sales people to quickly complete the sales process of converting a lead to sales. Using a process helps everyone follow best practices, especially when handling situations that don’t occur regularly. You complete a step by entering data or marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
 
+
+### See Also
+
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md) 
