@@ -46,8 +46,8 @@ Follow the steps in this topic to successfully create Word templates in [!INCLUD
 
   -   N:N Relationship. An account can have multiple marketing lists. A marketing list can have multiple accounts.
 
-  >[!Note]
-  > To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each  relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
+   > [!Note]
+   > To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each  relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
 
 6.  In the **Select Entity** dialog box, click **Next**.
 7.  Click **Download** to create a Word file on your local computer with the exported entity included as XML data.
@@ -116,11 +116,11 @@ Use the XML Mapping Pane to define the Word template with [!INCLUDE[pn-ms-dyn-36
 
   2.  Select the entire table row in the template.
 
-    ![Row selected in a table](media/select-entire-row.png "Row selected in a table")  
+     ![Row selected in a table](media/select-entire-row.png "Row selected in a table")  
 
   3.  In the XML Mapping Pane, right-click the relationship containing the content control fields, and then click **Repeating**.
 
-    ![Set the content control fields to repeat in Word template](media/repeat-content-control-fields.png "Set the content control fields to repeat in Word template")  
+     ![Set the content control fields to repeat in Word template](media/repeat-content-control-fields.png "Set the content control fields to repeat in Word template")  
 
    When you use the Word template in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to create a document, the table will populate with multiple rows of data.
 
