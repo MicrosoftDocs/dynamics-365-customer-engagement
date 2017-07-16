@@ -12,6 +12,7 @@ ms.topic: article
 ms.assetid: 83bdaae9-1f72-45d5-b4c2-bd0a070a9c05
 ms.reviewer: 
 ---
+
 # Keep your data clean with duplicate detection
 
 To maintain the integrity of your data, it’s a good idea to set up duplicate detection to detect duplicate records in the system. By default, duplicate detection is already enabled for [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
