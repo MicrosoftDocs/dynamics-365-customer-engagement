@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 2dece8d3-a6af-4c52-be0a-aa67c53ba27f
 ms.reviewer: 
 ---
-# Make calls or send instant messages in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Make calls or send instant messages in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 If your organization is set up to use Skype or Skype for Business, you can click a phone number to call your contacts from within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. This capability is called “click-to-call.”
 
@@ -60,3 +60,7 @@ You can start an IM conversation from the Skype contact card in [!INCLUDE[pn-ms-
 
 To start a conversation with a user, click on the IM address in the contact card for the user.
 
+
+### See Also
+-  [Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get started.md)
+-  [Set up click-to-call in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](configure-click-to-call.md)
