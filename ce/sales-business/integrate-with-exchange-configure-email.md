@@ -46,7 +46,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
     3.  In the Quick Setup wizard, click the **Email Configuration** icon.
 
-    - OR -
+   - OR -
 
 2.  Initiate Exchange integration from Advanced Settings.
 
@@ -112,7 +112,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
 The Test Run column shows the status of the test performed on the mailboxes. If an error occurs while testing any of the mailbox, it’s status is set to Failed and the user of the mailbox is sent an alert.
 
-As an administrator, you must select all such mailboxes, click the **More Actions** icon …, and then choose **Test and Enable**.
+As an administrator, you must select all such mailboxes, click the **More Commands** icon, and then choose **Test and Enable**.
 
 The error must automatically resolve now. If the error persists, please contact Support.
 
