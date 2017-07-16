@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 91f58ed9-0be1-4395-b033-742c2cef11e7
 ms.reviewer: 
 ---
-# Sales transactions in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Sales transactions in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a sale typically starts with a draft quote. When the quote is ready, it is activated and sent to the customer for revisions before it is accepted, and then when you’re shipping the products offered in the quote, an invoice is generated from the quote.
 
@@ -34,3 +34,8 @@ The **Use Current Pricing** comes directly from the product catalog; If you chan
 
 **Prices Locked** ### locks the price for a product in an open invoice. Even if the price changes in the product catalog, that invoice will remain at the agreed price.
 
+
+### See Also
+
+-   [Create and manage quotes in Dynamics 365 for Sales](create-manage-quotes.md)
+-   [Create and manage invoices in Dynamics 365 for Sales](create-manage-invoices.md)
