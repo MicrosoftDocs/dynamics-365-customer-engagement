@@ -16,7 +16,7 @@ ms.reviewer:
 
 Personalize your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] workspace to suit your requirements or preferences. For example, personalize how you want to see your calendar or set the time zone you work in.
 
-| **Options **        | **Description**           |
+| **Options**         | **Description**           |
 |---------------------|---------------------------|
 | **Time Zone**       |                           |
 | Set the time zone you are in    | Select the time zone that you want to display for your region. **Note:** If you use [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for Outlook, set the same time zone in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] to help prevent a mismatch in dates and times.|
