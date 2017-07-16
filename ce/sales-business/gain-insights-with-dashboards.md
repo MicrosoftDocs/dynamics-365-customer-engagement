@@ -66,3 +66,7 @@ For example, in the list of opportunities when you click the **Open Entity Dashb
 
 You can use the global or visual filters to filter and see only the data that is important to you.
 
+
+### See Also
+
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
