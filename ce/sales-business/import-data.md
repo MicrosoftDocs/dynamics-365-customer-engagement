@@ -168,9 +168,10 @@ Follow the guidelines in this topic to make sure that your file imports successf
      | Low               | Cold                                     |
      | High              | Warm                                     |                                     
      |                   | Hot                                      |                
-                                            
+     
      
      During the import, the Import Data Wizard adds the source values to the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values:
+
 
      | **Source values** | **[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] target values** |
      |-------------------|---------|
