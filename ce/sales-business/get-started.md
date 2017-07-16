@@ -20,11 +20,11 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
 
 1.  Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], click the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then click the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
 
- ![[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane](media/app-launcher-pane.png "[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane")  
+  ![[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane](media/app-launcher-pane.png "[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane")  
 
-> [!Note]
+ > [!Note]
 
-> The apps available to you in the app launcher depend on your subscription.
+ > The apps available to you in the app launcher depend on your subscription.
 
 2.  In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales**.
 
