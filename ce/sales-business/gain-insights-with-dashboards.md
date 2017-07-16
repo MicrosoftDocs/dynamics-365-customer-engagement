@@ -1,5 +1,5 @@
 ---
-title: "Gain insights with dashboards in Dynamics 365 for Sales, Business Edition | Microsoft Docs"
+title: "Gain insights with dashboards in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Use dashboards to get an overview of business data in Dynamics 365 for Sales, Business edition"
 keywords: "Dashboard; Insight; Overview; Analytics; sales"
 author: shubhadaj
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: b5544b39-e784-40dc-9232-60dd75f4dbd0
 ms.reviewer: 
 ---
-# Gain insights with dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business Edition
+# Gain insights with dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
 Dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] provide an overview of business data ‒ actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
 
