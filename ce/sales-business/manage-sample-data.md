@@ -22,13 +22,9 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 > Use sample data to learn and play around with system features. However, to avoid unwanted results, don’t associate it with any data you actually need.
 
-1.  Make sure you have the System Administrator security role or equivalent permissions in [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] for Sales.
+1.  Make sure you have the System Administrator or System Customizer security role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-    -   Follow the steps in [View your user profile](https://www.microsoft.com/en-us/dynamics/crm-customer-center/view-your-user-profile.aspx).  
-
-    -   Don’t have the correct permissions? Contact your system administrator.
-
-2.  Click the Menu icon, and then click **Settings**.
+2.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the Menu icon")  , and then click **Settings**.
 
 3.  On the **Advanced Settings** page, under **Others**, click **Sample Data Management**.
 
