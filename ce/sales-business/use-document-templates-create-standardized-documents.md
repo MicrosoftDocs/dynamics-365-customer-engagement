@@ -24,13 +24,13 @@ To use the Word template you’ve created, do the following:
 
 2.  On the command bar, click **Word Templates**, and then under **Word Templates** select the template you created.
 
-> If the template you created is not visible, there are two possibilities:
+  If the template you created is not visible, there are two possibilities:
 
-1.  Only templates built for the selected record type (entity) will be displayed. For example, if you open an opportunity record, you will not see a template you created with the Account entity.
+3.  Only templates built for the selected record type (entity) will be displayed. For example, if you open an opportunity record, you will not see a template you created with the Account entity.
 
-2.  You need to refresh the page to see the template. Either refresh your browser or close and reopen [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+4.  You need to refresh the page to see the template. Either refresh your browser or close and reopen [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-After you select your Word template, [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] creates a Word document from the record you selected.
+  After you select your Word template, [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] creates a Word document from the record you selected.
 
 ### Try out the sample Word templates
 
@@ -54,9 +54,9 @@ To apply a sample Word template
 
 2.  Click **More** (**…**) **&gt; Word Templates**, and then under **Word Templates** select the sample template and then open the newly-created template.
 
-**Note **
+  > [!Note]
 
-Templates that are included in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] are read-only and cannot be changed.
+  > Templates that are included in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] are read-only and cannot be changed.
 
 ## Export and analyze data using the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template 
 
@@ -72,7 +72,6 @@ For example, go to **Sales** &gt; **Opportunities** &gt; **My Open Opportunities
 
 ![Open list of opportunities](media/list-of-opportunities.png "Open list of opportunities")  
 
-### 
 
 ### Step 2: Export [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data using your new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
@@ -108,7 +107,12 @@ To apply a sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] temp
 
 3.  Download the template or open it in place in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 
-**Tip **
+> [!Tip]
 
-You can export the templates that are included in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], modify them, and then reimport them as new templates. This can give you a running start on creating your own custom [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates.
+> You can export the templates that are included in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], modify them, and then reimport them as new templates. This can give you a running start on creating your own custom [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates.
 
+
+### See Also
+
+-  [Manage Excel templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-excel-templates.md)
+-  [Manage Word templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-word-templates.md)
