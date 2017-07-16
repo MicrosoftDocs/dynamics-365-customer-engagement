@@ -39,4 +39,4 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 ### See Also
 
-[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)](get-started.md)
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](get-started.md)
