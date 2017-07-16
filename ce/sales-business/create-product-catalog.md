@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: ec3c8946-bb2e-4b75-9527-ced4d6f993ee
 ms.reviewer: 
 ---
-# Create a product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Create a product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 Products are the backbone of your business. The product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
 
@@ -24,23 +24,23 @@ Products are the backbone of your business. The product catalog in [!INCLUDE[pn-
 
 3.  Click **New Product**.
 
-When you add a product, you only need to fill in some basic details about the product:
+  When you add a product, you only need to fill in some basic details about the product:
 
-- **Name**. Enter a name of the product.
+  - **Name**. Enter a name of the product.
 
-- **Product ID**. Enter a unique ID of the product.
+  - **Product ID**. Enter a unique ID of the product.
 
-- **Description**. Add more details about the product.
+  - **Description**. Add more details about the product.
 
-- **Price**. Enter the price at which the product is to be sold. Just enter digit.
+  - **Price**. Enter the price at which the product is to be sold. Just enter digit.
 
- **Note**
+  > [!Note]
 
-    The currency that is selected when your organization is provisioned is selected by default. You can’t change the currency once it is set.
+  > The currency that is selected when your organization is provisioned is selected by default. You can’t change the currency once it is set.
 
-> ![Quick create form for product](media/quick-create-product.png "Quick create form for product")  
+  ![Quick create form for product](media/quick-create-product.png "Quick create form for product")  
 
-1.  Click **Save.** The product is created and is automatically published. When a product is published, its status changes to “Active”. The sales person can select the active products in the sales transactions like associating it with an opportunity or quote.
+4.  Click **Save.** The product is created and is automatically published. When a product is published, its status changes to “Active”. The sales person can select the active products in the sales transactions like associating it with an opportunity or quote.
 
 ## Edit a product
 
@@ -56,11 +56,11 @@ There may be times when you must edit a product to capture more accurate details
 
 5.  Click **Save**.
 
-> The product is automatically set to “Active” status.
->
-> **Note**
->
-> If you edit a retired product, it will be set to “Retired status” on saving it. If a product is retired, you can reactivate it.
+  The product is automatically set to “Active” status.
+
+  > [!Note]
+ 
+  > If you edit a retired product, it will be set to “Retired status” on saving it. If a product is retired, you can reactivate it.
 
 ## Delete products
 
@@ -70,7 +70,7 @@ There may be times when you must edit a product to capture more accurate details
 
 3.  Select the product that you want to delete, and on the command bar, click **Delete**.
 
-> If the selected product is used in an opportunity, quote, or invoice, you can’t delete it. Instead, it will be set to the “Retired” state.
+   If the selected product is used in an opportunity, quote, or invoice, you can’t delete it. Instead, it will be set to the “Retired” state.
 
 ## Clone products
 
@@ -84,5 +84,9 @@ When you're creating a new product, save time by cloning an existing one. This c
 
 ## Import products
 
-You may also use the Import Templates to bring in bulk data of products in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export and import data](import-data.md)  
+You may also use the import templates to bring in bulk data of products in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export and import data](import-data.md)  
 
+
+### See Also
+[Import data into Dynamics 365 for Sales, Business edition](Import-data.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md) 
