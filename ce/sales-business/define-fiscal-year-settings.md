@@ -12,16 +12,12 @@ ms.topic: article
 ms.assetid: d8f35641-1e1f-450e-8fdf-c1151c5bacfe
 ms.reviewer: 
 ---
-# Define fiscal year settings in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Define fiscal year settings in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a fiscal period defines the time reflected in financial reports. It is used for reporting of financial data in a given period. For example, you want to know what’s the actual revenue of your organization in your fiscal period which is from January - December. You can set the fiscal year period, and how it’s displayed, for your organization.
 
-1.  Make sure you have the System Administrator security role or equivalent permissions in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
-
-    -   Follow the steps in [View your user profile](https://www.microsoft.com/en-us/dynamics/crm-customer-center/view-your-user-profile.aspx)..  
-
-    -   Don’t have the correct permissions? Contact your system administrator.
-
+1.  Make sure you have the System Administrator security role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+  
 2.  Go to **Settings** &gt; **Fiscal Year**.
 
 3.  Type information in the text boxes.
@@ -40,3 +36,7 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
 4.  Click **Save**.
 
+
+### See Also,
+
+[Get started with Dynamics 365 for Sales](get-started.md) 
