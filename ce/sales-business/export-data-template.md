@@ -12,8 +12,7 @@ ms.topic: article
 ms.assetid: a7e323b0-ca34-4c60-b9f4-12d36d076092
 ms.reviewer: 
 ---
-# Export data or template in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
-
+# Export data or template in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 Present the sales related information to an individual who doesn’t have access to the Sales app by exporting the data to a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Office [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] static worksheet.
 
 You can export just the data from a list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] static file, or you can export a template.
@@ -30,3 +29,7 @@ Data and template can be exported from:
 
 When you export data or template from **Advanced Settings**, you must select the entity you want to export the data or template for, such as Lead or Opportunity. You may also choose the view that will be used for exporting. If you don’t choose a view, the default view is selected and the data or template for all the columns in that view is exported.
 
+
+### See Also
+
+[Import data into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](import-data.md)
