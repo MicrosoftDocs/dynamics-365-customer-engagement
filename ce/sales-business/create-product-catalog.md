@@ -60,7 +60,7 @@ There may be times when you must edit a product to capture more accurate details
 
   > [!Note]
  
-  > If you edit a retired product, it will be set to “Retired status” on saving it. If a product is retired, you can reactivate it.
+  > If you edit a retired product, it will be set to “Retired” status on saving it. If a product is retired, you can reactivate it.
 
 ## Delete products
 
