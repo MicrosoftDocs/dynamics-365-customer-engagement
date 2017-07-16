@@ -1,4 +1,4 @@
----
+--
 title: "Develop sales from lead to cash in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Follow the business process flow of sales in Dynamics 365 for Sales, Business edition to close more deals and achieve higher customer satisfaction."
 keywords: "Lead-to-cash; process flow; deals; stage; lead"
@@ -23,7 +23,7 @@ Your sales process begins with a lead—someone who is interested in the product
 
 ### See Also
 
-[Create and manage leads](create-manage-Leads)
-[Create and manage opportunities](create-manage-opportunities)
-[Create and manage quotes](create-manage-quotes)
-[Create and manage invoices](create-manage-invoices)
+*  [Create and manage leads](create-manage-Leads)
+*  [Create and manage opportunities](create-manage-opportunities)
+*  [Create and manage quotes](create-manage-quotes)
+*  [Create and manage invoices](create-manage-invoices)
