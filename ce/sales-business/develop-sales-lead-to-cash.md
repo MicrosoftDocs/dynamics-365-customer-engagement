@@ -1,4 +1,4 @@
---
+---
 title: "Develop sales from lead to cash in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Follow the business process flow of sales in Dynamics 365 for Sales, Business edition to close more deals and achieve higher customer satisfaction."
 keywords: "Lead-to-cash; process flow; deals; stage; lead"
