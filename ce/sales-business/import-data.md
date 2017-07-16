@@ -168,11 +168,11 @@ Follow the guidelines in this topic to make sure that your file imports successf
      | Low         | Cold       |
      | High        | Warm       |
      |             | Hot        |
-          
+     
      
      During the import, the Import Data Wizard adds the source values to the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values:
-
-
+     
+     
      | **Source values** | **[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] target values** |
      |-------------------|---------|
      | Low               | Cold    |
@@ -180,14 +180,14 @@ Follow the guidelines in this topic to make sure that your file imports successf
      |                   | Hot     |
      |                   | Low     |
      |                   | High    |
-       
+     
      
      You can map Low in the source values to Cold in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values. Also, you can map High in the source values to High in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values.
-
+     
      Based on these mappings, the Import Data Wizard creates "High" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value. It does not create "Low" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value because you did not map any source value to the added [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value of "Low".
      
       > [!Note]
-     
+           
       > You can also map a column in your source file to a field of type “Two Options” and “Multiselect Option Set” (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren’t available in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], new values won’t be created in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
     5. If some data in your source file reference other existing records in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you must map the column in the source file to a lookup field of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
@@ -196,13 +196,13 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
       To do this, click the ![Mapping of an option set field](media/option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The Lookup Reference section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then click **OK**.  
 
-       ![Mapping of a lookup field](media/lookup-field-mapping.png "Mapping of a lookup field")  
+        ![Mapping of a lookup field](media/lookup-field-mapping.png "Mapping of a lookup field")  
 
     6.  To save these mappings as a data map, enter a name in the **Name your data map** box.
 
-       ![Name your data map](media/name-data-map.png "Name your data map")  
+        ![Name your data map](media/name-data-map.png "Name your data map")  
 
-       You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve defined earlier.
+        You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve defined earlier.
 
 8.  Click **Finish Import** when you have mapped each column from the source file to a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field or have selected **Ignore** in the list under **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Entity Fields**.
 
