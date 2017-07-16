@@ -28,7 +28,7 @@ Follow the steps in this topic to successfully create Word templates in [!INCLUD
 
 3.  Select **Word Template**, and then click **Next**.
 
-[Select template type in the Create Template wizard](media/create-template-wizard-select-template-type.png "Select template type in the Create Template wizard")  
+  ![Select template type in the Create Template wizard](media/create-template-wizard-select-template-type.png "Select template type in the Create Template wizard")  
 
 4.  Select an entity to which the template applies. The template will use data from this entity.
 
@@ -36,25 +36,25 @@ Follow the steps in this topic to successfully create Word templates in [!INCLUD
 
 5. To select the fields that you want to be included in the Word template, click **Choose Related Entities**. The **Choose Related Entity** dialog box opens.
 
- The relationships you select on this screen determine what entities and fields are available later when you define the Word template. Only select the relationships you need to add [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data to the Word template. When you’re done selecting, click **Done**.
+  The relationships you select on this screen determine what entities and fields are available later when you define the Word template. Only select the relationships you need to add [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data to the Word template. When you’re done selecting, click **Done**.
 
- Here are some example relationships for the Account entity.
+  Here are some example relationships for the Account entity.
 
- -   1:N Relationship. An account can have multiple contacts.
+  -   1:N Relationship. An account can have multiple contacts.
 
- -   N:1 Relationship. A lead, account, or contact can have multiple accounts.
+  -   N:1 Relationship. A lead, account, or contact can have multiple accounts.
 
- -   N:N Relationship. An account can have multiple marketing lists. A marketing list can have multiple accounts.
+  -   N:N Relationship. An account can have multiple marketing lists. A marketing list can have multiple accounts.
 
- >[!Note]
- > To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
+  >[!Note]
+  > To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each  relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
 
-  1.  In the **Select Entity** dialog box, click **Next**.
-  2.  Click **Download** to create a Word file on your local computer with the exported entity included as XML data.
-  3.  To upload the template later, select **Upload the template later** check box, and then click **Next**.
-  4.  To upload the template back after you customize the data, go to the list of templates, and then click **Upload Template**. 
+   1.  In the **Select Entity** dialog box, click **Next**.
+   2.  Click **Download** to create a Word file on your local computer with the exported entity included as XML data.
+   3.  To upload the template later, select **Upload the template later** check box, and then click **Next**.
+   4.  To upload the template back after you customize the data, go to the list of templates, and then click **Upload Template**. 
 
-  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Upload the template back into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](#BKMK_Upload)  
+   [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Upload the template back into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](#BKMK_Upload)  
 
 ### Step 2: Enable the Developer tab
 
