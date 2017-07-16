@@ -12,15 +12,15 @@ ms.topic: article
 ms.assetid: 62759eb0-a866-4741-a09a-a40ad695fb70
 ms.reviewer: 
 ---
-# Manage sample data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Add or remove sample data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 Sample data gives you something to experiment with as you learn [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.
 
 Or, if sample data isn’t installed on your system, you may want to add it for training purposes. Later, when you’re ready, you can remove it.
 
-**Important **
+> [!Important]
 
-Use sample data to learn and play around with system features. However, to avoid unwanted results, don’t associate it with any data you actually need.
+> Use sample data to learn and play around with system features. However, to avoid unwanted results, don’t associate it with any data you actually need.
 
 1.  Make sure you have the System Administrator security role or equivalent permissions in [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] for Sales.
 
@@ -36,6 +36,11 @@ Use sample data to learn and play around with system features. However, to avoid
 
 5.  If sample data isn’t already added, click **Add Sample Data**.
 
-> -OR-
->
-> If sample data is added, click **Remove Sample Data**.
+  -OR-
+
+  If sample data is added, click **Remove Sample Data**.
+
+
+### See Also
+
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)](get-started.md)
