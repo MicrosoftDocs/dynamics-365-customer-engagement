@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 6b003106-a478-4995-8ca7-67dbb59cde28
 ms.reviewer: 
 ---
-# Develop sales from lead to cash in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Develop sales from lead to cash in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 The sales process in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] helps you close more deals and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the opportunity and recording the sale. You also end up with a more complete history that you can refer to later, if you plan to work with your customer again in the future, or if your customer needs support.
 
@@ -20,3 +20,13 @@ Your sales process begins with a lead—someone who is interested in the product
 
 ![Steps in a lead-to-cash process](media/lead-to-cash-process.png "Steps in a lead-to-cash process")  
 
+
+### See Also
+
+[Create and manage leads](create-manage-Leads)
+
+[Create and manage opportunities](create-manage-opportunities)
+
+[Create and manage quotes](create-manage-quotes)
+
+[Create and manage invoices](create-manage-invoices)
