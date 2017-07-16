@@ -46,7 +46,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
     3.  In the Quick Setup wizard, click the **Email Configuration** icon.
 
-   - OR -
+ - OR -
 
 2.  Initiate Exchange integration from Advanced Settings.
 
@@ -119,4 +119,4 @@ The error must automatically resolve now. If the error persists, please contact 
 
 ### See Also
 
-[An introduction to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)](introduce-Dynamics-365-for-Sales-Business-edition.md)
+[An introduction to Dynamics 365 for Sales, Business edition](introduce-Dynamics-365-for-Sales-Business-edition.md)
