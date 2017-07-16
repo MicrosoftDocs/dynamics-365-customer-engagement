@@ -49,12 +49,12 @@ Follow the steps in this topic to successfully create Word templates in [!INCLUD
   >[!Note]
   > To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each  relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
 
-   1.  In the **Select Entity** dialog box, click **Next**.
-   2.  Click **Download** to create a Word file on your local computer with the exported entity included as XML data.
-   3.  To upload the template later, select **Upload the template later** check box, and then click **Next**.
-   4.  To upload the template back after you customize the data, go to the list of templates, and then click **Upload Template**. 
+6.  In the **Select Entity** dialog box, click **Next**.
+7.  Click **Download** to create a Word file on your local computer with the exported entity included as XML data.
+8.  To upload the template later, select **Upload the template later** check box, and then click **Next**.
+9.  To upload the template back after you customize the data, go to the list of templates, and then click **Upload Template**. 
 
-   [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Upload the template back into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](#BKMK_Upload)  
+ [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Upload the template back into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](#BKMK_Upload)  
 
 ### Step 2: Enable the Developer tab
 
@@ -116,11 +116,11 @@ Use the XML Mapping Pane to define the Word template with [!INCLUDE[pn-ms-dyn-36
 
   2.  Select the entire table row in the template.
 
-   ![Row selected in a table](media/select-entire-row.png "Row selected in a table")  
+    ![Row selected in a table](media/select-entire-row.png "Row selected in a table")  
 
   3.  In the XML Mapping Pane, right-click the relationship containing the content control fields, and then click **Repeating**.
 
-   ![Set the content control fields to repeat in Word template](media/repeat-content-control-fields.png "Set the content control fields to repeat in Word template")  
+    ![Set the content control fields to repeat in Word template](media/repeat-content-control-fields.png "Set the content control fields to repeat in Word template")  
 
    When you use the Word template in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to create a document, the table will populate with multiple rows of data.
 
@@ -132,7 +132,7 @@ When you have your Word template built the way you want, save it so you can uplo
 
 An administrator can use the Advanced Settings page to upload the Word template into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-> [! Note]
+> [!Note]
 
 > Users in your organization can see the templates available to them by clicking the **Word Templates** button on the command bar in the list of records.
 
