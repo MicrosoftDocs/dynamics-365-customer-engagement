@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 83bdaae9-1f72-45d5-b4c2-bd0a070a9c05
 ms.reviewer: 
 ---
-# Keep your data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition clean with duplicate detection
+# Keep your data clean with duplicate detection
 
 To maintain the integrity of your data, it’s a good idea to set up duplicate detection to detect duplicate records in the system. By default, duplicate detection is already enabled for [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
@@ -42,17 +42,17 @@ To enable duplicate detection
 
 If duplicate detection is enabled, duplicates are detected when:
 
-- **A record is created or updated**
+ - **A record is created or updated**
 
-> The system checks for duplicates when a user enters or updates records.
->
-> **Important **
->
-> Duplicates aren’t detected when a user merges two records, activates or deactivates a record, or saves a completed activity.
-
-- **During data import**
-
-> When you use the Import Data wizard to bring in contacts or accounts the wizard detects any duplicate records.
+ The system checks for duplicates when a user enters or updates records.
+  
+ > [!Important]
+ 
+ > Duplicates aren’t detected when a user merges two records, activates or deactivates a record, or saves a completed activity.
+ 
+ - **During data import**
+ 
+ When you use the Import Data wizard to bring in contacts or accounts the wizard detects any duplicate records.
 
 ## Disable duplicate detection
 
@@ -63,4 +63,9 @@ If your system contains a large number of records, checking for duplicates can i
 2.  Click **Disable**.
 
 All the duplicate detection rules will be unpublished in the backend.
+
+
+### See Also
+
+[Import data into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](import-data.md)
 
