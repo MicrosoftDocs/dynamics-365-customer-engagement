@@ -12,21 +12,12 @@ ms.topic: article
 ms.assetid: af7f1439-e824-47fc-b523-77f302f68892
 ms.reviewer: 
 ---
-# Import data into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Import contacts, accounts, or leads into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
 Bring in your customer and sales data quickly into your app by importing it. It can be used for importing data into most record types.
 
 [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] processes imports in the background. After an import completes, you can review which records succeeded, failed to import, or were partially imported. To fix the records that failed to import, export them into a separate file, fix them, and then try to import them again. You can delete all records associated with an import.
 
-**[!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)]**
-
--   Supported file types
-
--   Prepare your file for import
-
--   Import records from a CSV a file
-
--   Import records from [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 ## Supported file types
 
@@ -44,59 +35,59 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
 2.  Make sure that the file is in one of the following formats:
 
--   Comma-separated value (CSV) file (A data file with a .csv file extension. Typically a CSV file consists of fields and records, stored as text, in which the fields are separated from one other by commas.) (.csv) format
+  -   Comma-separated value (CSV) file (A data file with a .csv file extension. Typically a CSV file consists of fields and records, stored as text, in which the fields are separated from one other by commas.) (.csv) format
 
--   [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
+  -   [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
-1.  If your import file is a CSV file, make sure that it is correctly delimited.
+3.  If your import file is a CSV file, make sure that it is correctly delimited.
 
-> You can use double quotation marks (“) or single quotation marks (‘) as data delimiters.
+  You can use double quotation marks (“) or single quotation marks (‘) as data delimiters.
 
-1.  Make sure the first line of a file is the column headings.
+4.  Make sure the first line of a file is the column headings.
 
-Edit your file and add column headings (Text used in the first row of a spreadsheet or file that labels the data in each column.) if they are not already present.
+  Edit your file and add column headings (Text used in the first row of a spreadsheet or file that labels the data in each column.) if they are not already present.
 
-**Note**
+  > [!Note]
 
-Make sure that the .csv file does not contain:
+  > Make sure that the .csv file does not contain:
 
--   Multiple lines in the first line (header row).
+  > -   Multiple lines in the first line (header row).
 
--   Quotation marks in the first line. In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], quotation marks are used as data delimiters.
+  > -   Quotation marks in the first line. In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], quotation marks are used as data delimiters.
 
--   Data separated with a semicolon (;) or comma (,). In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], semicolons and commas are used as field delimiters.
+  > -   Data separated with a semicolon (;) or comma (,). In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], semicolons and commas are used as field delimiters.
 
-> **Important**
->
-> To import quickly, it will help to have your column headings match the display name (The label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** for each attribute can be changed in the **Customization** area by a user with an appropriate security role.) of fields in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. This will help in automatic mapping of data while you import.
+  > [!Important]
+  
+  > To import quickly, it will help to have your column headings match the display name (The label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** for each attribute can be changed in the **Customization** area by a user with an appropriate security role.) of fields in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. This will help in automatic mapping of data while you import.
 
-1.  Make sure data exists for all business-required fields.
+5.  Make sure data exists for all business-required fields.
 
-> A record will only import if all [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] business-required (Attributes that are required before a record can be saved. Required fields are marked with an asterisk.) fields are mapped, and if the data exists in each of the source columns that are mapped to the required fields. You can either determine the required fields in advance, or identify missing required mappings during the import. In either case, make sure you have required data in each record. To determine which fields are business-required, open the form for the record type as if you were creating a new record, and identify fields that are marked with a red asterisk (\*).
->
-> The following list shows default business-required fields for commonly imported record types.
+  A record will only import if all [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] business-required (Attributes that are required before a record can be saved. Required fields are marked with an asterisk.) fields are mapped, and if the data exists in each of the source columns that are mapped to the required fields. You can either determine the required fields in advance, or identify missing required mappings during the import. In either case, make sure you have required data in each record. To determine which fields are business-required, open the form for the record type as if you were creating a new record, and identify fields that are marked with a red asterisk (\*).
+  
+  The following list shows default business-required fields for commonly imported record types.
+  
+    -   Account: **Account Name**
+  
+    -   Contact: **Last Name**
+  
+    -   Lead: **Topic, Last Name, Company Name**
+  
+    -   Product: **Default Unit, Unit Group, Decimals Supported**
+  
+  **Example showing sample leads to import:**
+  
+  The following lines show what the data might look like for a .csv format file containing leads to import. The first line contains the field names, and the remaining lines are imported as data.
 
--   Account: **Account Name**
+  Company,Last Name,First Name,Topic,Email,Mobile Phone
+  
+  “Designer Bikes”“Groth”“Brian”“Mountain bikes”“someone@example.com”“555-555-0112”
+  
+  “Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”
 
--   Contact: **Last Name**
+  > [!Note]
 
--   Lead: **Topic, Last Name, Company Name**
-
--   Product: **Default Unit, Unit Group, Decimals Supported**
-
-> Example showing sample leads to import.
->
-> The following lines show what the data might look like for a .csv format file containing leads to import. The first line contains the field names, and the remaining lines are imported as data.
->
-> Company,Last Name,First Name,Topic,Email,Mobile Phone
->
-> “Designer Bikes”“Groth”“Brian”“Mountain bikes”“someone@example.com”“555-555-0112”
->
-> “Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”
-
-**Note**
-
-By default, the maximum size of the files that you can import is 8 megabytes (MB).
+  > By default, the maximum size of the files that you can import is 8 megabytes (MB).
 
 ## Import records from an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
@@ -136,93 +127,89 @@ By default, the maximum size of the files that you can import is 8 megabytes (MB
 
     1.  In the **Review Mapping** page, review how your column headings are mapped to the fields in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-        By default, the **Primary Fields** section of the wizard shows all the required fields for the entity that must be mapped for the data to import successfully on the left side.
+       By default, the **Primary Fields** section of the wizard shows all the required fields for the entity that must be mapped for the data to import successfully on the left side.
 
- **Note:**
+       > [!Note]
 
-        If you’ve selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
+       > If you’ve selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
 
-        If the column headings of your source file match the field display names, these fields will be automatically mapped. All the mapped fields will be shown with a green check mark.
+       If the column headings of your source file match the field display names, these fields will be automatically mapped. All the mapped fields will be shown with a green check mark.
 
     2.  If the column headings don’t match, the unmapped fields will be shown with a Red exclamation mark. Select a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] field to map to the unmapped column heading of your file.
 
-> ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")  
->
-> **Tip:**
->
-> To quickly filter on only the unmapped fields, select **Unmapped** from the **Map Attributes** drop-down list.
->
-> In the **Optional Fields** section, the left side shows the column headings in your source file. If the column headings match the field display names, the fields will be automatically selected in the corresponding drop-down lists.
->
-> ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")  
->
-> If the column headings don’t match, the unmapped fields will be shown with a Red exclamation mark.
+      ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")  
 
-1.  Select a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field to map to the unmapped column heading of your file. You may also choose **Ignore** from the drop-down list. If you choose **Ignore** for a column, the data in that column won’t be imported into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+      > [!Tip]
 
-> ![Optional Fields section in Review Mapping Page](media/optional-fields-review-mapping-page.png "Optional Fields section in Review Mapping Page")  
+      > To quickly filter on only the unmapped fields, select **Unmapped** from the **Map Attributes** drop-down list.
 
-1.  While importing your data, if any column in your source file includes fixed set of values, you must map the column to a field of [Option Set](javascript:toggleInline('51908')) type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, click the ![Choose Ignore in the Review Mapping page](media/ignore-in-review-mapping-page.png "Choose Ignore in the Review Mapping page") icon next to the option set field. Option set mapping section opens:  
+      In the **Optional Fields** section, the left side shows the column headings in your source file. If the column headings match the field display names, the fields will be automatically selected in the corresponding drop-down lists.
 
- ![Icon for option set mapping](media/option-set-mapping-icon.png "Icon for option set mapping")  
+     ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")  
 
-> For each **Source Option Values** item, click an item from the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list to map it, and then click **OK**.
->
-> When you are mapping the source values to items in the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list, the Import Data Wizard temporarily adds the items from the source values to the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list. You can map the source list values to the existing options in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] or to the added values. If you map to one of the added values, these new values are created in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
->
-> For example, your source values and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values could have the following values before the import starts:
+     If the column headings don’t match, the unmapped fields will be shown with a Red exclamation mark.
 
-| **Source values** | **[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] target values** |
-|-------------------|------------------------------------------|
-| Low               
+    3. Select a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field to map to the unmapped column heading of your file. You may also choose **Ignore** from the drop-down list. If you choose **Ignore** for a column, the data in that column won’t be imported into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+
+      ![Optional Fields section in Review Mapping Page](media/optional-fields-review-mapping-page.png "Optional Fields section in Review Mapping Page")  
+
+    4.  While importing your data, if any column in your source file includes fixed set of values, you must map the column to a field of [Option Set](javascript:toggleInline('51908')) type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, click the ![Choose Ignore in the Review Mapping page](media/ignore-in-review-mapping-page.png "Choose Ignore in the Review Mapping page") icon next to the option set field. Option set mapping section opens:  
+
+      ![Icon for option set mapping](media/option-set-mapping-icon.png "Icon for option set mapping")  
+
+      For each **Source Option Values** item, click an item from the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list to map it, and then click **OK**.
+
+      When you are mapping the source values to items in the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list, the Import Data Wizard temporarily adds the items from the source values to the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list. You can map the source list values to the existing options in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] or to the added values. If you map to one of the added values, these new values are created in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+
+     For example, your source values and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values could have the following values before the import starts:
+
+     | **Source values** | **[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] target values** |
+     |-------------------|------------------------------------------|
+     | Low               | Cold                                     |
                     
- High               | Cold                                     
+     | High              | Warm   |                                     
                                             
-  Warm                                      
+     |                | Hot    |                
                                             
-  Hot                                       |
+     
+     During the import, the Import Data Wizard adds the source values to the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values:
 
-> During the import, the Import Data Wizard adds the source values to the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values:
-
-| **Source values** | **[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] target values** |
-|-------------------|------------------------------------------|
-| Low               
+     | **Source values** | **[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] target values** |
+     |-------------------|---------|
+     | Low               | Cold    |
                     
- High               | Cold                                     
+     | High              | Warm    |                                     
                                             
-  Warm                                      
+     |                   | Hot     |                        
                                             
-  Hot                                       
+     |                   | Low     |                                       
                                             
-  Low                                       
+     |                   | High    |                                       
                                             
-  High                                      |
+  
+     You can map Low in the source values to Cold in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values. Also, you can map High in the source values to High in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values.
 
-> You can map Low in the source values to Cold in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values. Also, you can map High in the source values to High in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values.
->
-> Based on these mappings, the Import Data Wizard creates "High" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value. It does not create "Low" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value because you did not map any source value to the added [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value of "Low".
->
-> **Note:**
->
-> You can also map a column in your source file to a field of type “Two Options” and “Multiselect Option Set” (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren’t available in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], new values won’t be created in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+     Based on these mappings, the Import Data Wizard creates "High" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value. It does not create "Low" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value because you did not map any source value to the added [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value of "Low".
+     
+     > [!Note]
+     
+     > You can also map a column in your source file to a field of type “Two Options” and “Multiselect Option Set” (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren’t available in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], new values won’t be created in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-1.  If some data in your source file reference other existing records in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you must map the column in the source file to a lookup field of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+    5. If some data in your source file reference other existing records in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you must map the column in the source file to a lookup field of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-    For example, you want to import the file Leads.csv that contains customer records. The **Customer** column in the Leads.csv contains the associated account or contact data.
+     For example, you want to import the file Leads.csv that contains customer records. The **Customer** column in the Leads.csv contains the associated account or contact data.
 
-    To do this, click the ![Mapping of an option set field](media/option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The Lookup Reference section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then click **OK**.  
+     To do this, click the ![Mapping of an option set field](media/option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The Lookup Reference section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then click **OK**.  
 
- ![Mapping of a lookup field](media/lookup-field-mapping.png "Mapping of a lookup field")  
+      ![Mapping of a lookup field](media/lookup-field-mapping.png "Mapping of a lookup field")  
 
-2.  To save these mappings as a data map, enter a name in the **Name your data map** box.
+    6.  To save these mappings as a data map, enter a name in the **Name your data map** box.
 
- ![Name your data map](media/name-data-map.png "Name your data map")  
+      ![Name your data map](media/name-data-map.png "Name your data map")  
 
-    You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve defined earlier.
+      You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve defined earlier.
 
-<!-- -->
-
-1.  Click **Finish Import** when you have mapped each column from the source file to a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field or have selected **Ignore** in the list under **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Entity Fields**.
+8.  Click **Finish Import** when you have mapped each column from the source file to a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field or have selected **Ignore** in the list under **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Entity Fields**.
 
 ### How alternate key and duplicate detection work during import
 
@@ -246,43 +233,47 @@ You must wait for an import job to complete before you can repair failures.
 
 1.  Go to **Advanced settings** &gt; **Imports Data**.
 
-> Import jobs for all the imports appear in the list.
+   Import jobs for all the imports appear in the list.
 
-1.  Monitor the progress of the import.
+2.  Monitor the progress of the import.
 
-> The **Status** column shows the status of the import. The status progresses through these values:
+   The **Status** column shows the status of the import. The status progresses through these values:
 
-- **Submitted**
+    - **Submitted**
 
-- **Parsing**
+    - **Parsing**
 
-- **Transforming**
+    - **Transforming**
 
-- **Importing**
+    - **Importing**
 
-- **Completed**
+    - **Completed**
 
-1.  After the import is complete, the **Success**, **Failure**, and **Partial Import** column will show the number of records that were successfully imported, failed to import or were partially imported.
+3.  After the import is complete, the **Success**, **Failure**, and **Partial Import** column will show the number of records that were successfully imported, failed to import or were partially imported.
 
-2.  Open the import file to view the records that did not import or were partially imported. Double-click the import file record.
+4.  Open the import file to view the records that did not import or were partially imported. Double-click the import file record.
 
-> Use the tabs to see information about failures, success, or partial failure of records during import.
->
-> ![General tab of the import source file](media/import-source-file.png "General tab of the import source file")  
+   Use the tabs to see information about failures, success, or partial failure of records during import.
+   
+   ![General tab of the import source file](media/import-source-file.png "General tab of the import source file")  
 
-1.  On the **Failures** tab, export rows that failed to import to a new [comma-separated value (CSV) file](javascript:toggleInline('25109')). Click **Export Error Rows**. You can correct the errors in this file, and then import it.  
+5.  On the **Failures** tab, export rows that failed to import to a new [comma-separated value (CSV) file](javascript:toggleInline('25109')). Click **Export Error Rows**. You can correct the errors in this file, and then import it.  
 
 ## Delete imported records
 
 1.  Go to **Advanced settings** &gt; **Imports Data**.
 
-> Import jobs for all the imports appear in the list.
+   Import jobs for all the imports appear in the list.
 
-1.  Select the import file that you want to delete, followed by one of the following actions:
+2.  Select the import file that you want to delete, followed by one of the following actions:
 
-- **Delete import source file**. This deletes the import log file and its details.
+   - **Delete import source file**. This deletes the import log file and its details.
 
-- **Delete imported records**. This deletes all records that were imported from the selected file.
+   - **Delete imported records**. This deletes all records that were imported from the selected file.
 
-- **Delete All**. This deletes the import file along with the records that were imported from the import file.
+   - **Delete All**. This deletes the import file along with the records that were imported from the import file.
 
+
+### See Also
+
+[Export data or template](Export-data-template.md)
