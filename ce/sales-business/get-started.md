@@ -18,15 +18,15 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
 
 ## Go to the Sales app
 
-1.  Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], click the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then click the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]** icon.
+1.  Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], click the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then click the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
 
-> ![[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane](media/app-launcher-pane.png "[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane")  
->
-> Note
->
+ ![[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane](media/app-launcher-pane.png "[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane")  
+
+> [!Note]
+
 > The apps available to you in the app launcher depend on your subscription.
 
-1.  In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales**.
+2.  In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales**.
 
 ## Navigate to areas within the app
 
@@ -48,9 +48,9 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 
 With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1.  2.  On the nav bar, click the plus sign ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then click the item you want.  
+1.  On the nav bar, click the plus sign ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then click the item you want.  
 
-3.  Fill in the fields, and then click **Save**.
+2.  Fill in the fields, and then click **Save**.
 
 ## Business processes in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
@@ -82,3 +82,7 @@ There are three ready-to-use business processes that you can use as you move you
 
     -   On invoices created from directly created quotes
 
+
+### See Also
+
+[An Introduction to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](introduce-dynamics-365-for-sales-business-edition.md)
