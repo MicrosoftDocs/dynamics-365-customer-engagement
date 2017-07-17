@@ -30,3 +30,6 @@ You can also assign a record to a team, or to yourself.
 
 6.  Click **Assign**.
 
+### See Also
+
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
