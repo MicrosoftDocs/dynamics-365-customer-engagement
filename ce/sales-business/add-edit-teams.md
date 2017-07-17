@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: d5a034ff-efa9-4087-8a21-cd801b458465
 ms.reviewer: 
 ---
-# Manage teams in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Add or manage teams in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
