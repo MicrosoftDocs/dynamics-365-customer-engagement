@@ -9,8 +9,7 @@ applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
-ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3
-ms.reviewer: 
+ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3ms.reviewer: 
 ---
 # Configure Dynamics 365 for Sales to integrate with SharePoint
 
@@ -34,7 +33,7 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
     3.  In the Quick Setup wizard, click the **Document Storage** icon.
 
- - OR -
+ -OR-
 
 2.  Initiate [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] configuration from Advanced Settings.
 
