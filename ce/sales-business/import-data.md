@@ -165,10 +165,8 @@ Follow the guidelines in this topic to make sure that your file imports successf
      | High        | Warm       |
      |             | Hot        |
      
-     
      During the import, the Import Data Wizard adds the source values to the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values:
-     
-     
+        
      | **Source values** | **[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] target values** |
      |-------------------|---------|
      | Low               | Cold    |
@@ -177,13 +175,11 @@ Follow the guidelines in this topic to make sure that your file imports successf
      |                   | Low     |
      |                   | High    |
      
-     
      You can map Low in the source values to Cold in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values. Also, you can map High in the source values to High in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target values.
      
      Based on these mappings, the Import Data Wizard creates "High" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value. It does not create "Low" as a [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value because you did not map any source value to the added [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] target value of "Low".
      
       > [!Note]
-           
       > You can also map a column in your source file to a field of type “Two Options” and “Multiselect Option Set” (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren’t available in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], new values won’t be created in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
     5. If some data in your source file reference other existing records in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you must map the column in the source file to a lookup field of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
