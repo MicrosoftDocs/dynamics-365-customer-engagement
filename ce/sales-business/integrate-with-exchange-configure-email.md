@@ -68,10 +68,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
   ![Button to configure Exchange](media/configure-exchange.png "Button to configure Exchange")  
 
 7.  Click **Configure**. A consent dialog box opens.
-    
-
-    ![Consent dialog box in Email Configuration page](media/consent-dialog-email-configuration.png "Consent dialog box in Email Configuration page")  
-
+   
 8.  In the consent dialog box, choose **I Agree**.
 
    > [!Note]
