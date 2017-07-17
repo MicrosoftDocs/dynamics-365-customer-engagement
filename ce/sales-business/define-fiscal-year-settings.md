@@ -37,6 +37,6 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 4.  Click **Save**.
 
 
-### See Also,
+### See Also
 
 [Get started with Dynamics 365 for Sales](get-started.md) 
