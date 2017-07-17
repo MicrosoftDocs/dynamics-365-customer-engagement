@@ -58,7 +58,7 @@ Add a task or note for yourself when you want a reminder to do something persona
 
 Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record, so those activities become part of the history that other people on your team can view.
 
-1.  c **&lt;Activity Type&gt;**. For example, click **Tasks**.  
+1.  Click the Menu icnon ![Menu icon](media/open-menu-icon.png "Open the Menu icon"), and then click **&lt;Activity Type&gt;**. For example, click **Tasks**.  
 
   ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type \"Task\"")  
 
@@ -79,4 +79,4 @@ After you call someone, complete a task, send an email, or go to an appointment,
   ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
 
 ### See Also
-[Get started with Dynamics 365 for Sales, Business edition](get-started.md)
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
