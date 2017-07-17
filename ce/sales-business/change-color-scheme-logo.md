@@ -57,4 +57,4 @@ The theme that you are currently using is shown with the text “currently appli
 
 ### See Also
 
-[Get-started-with-Dynamics-365-for-Sales,-Business-edition](get-started.md)
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
