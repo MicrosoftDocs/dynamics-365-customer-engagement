@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: e82c8d18-fe81-4812-ad78-77d178111064
 ms.reviewer: 
 ---
-# Create or manage users
+# Add or manage manage users in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 To log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business Edition, every user in your organization must have a user account. Create a user account for each user to give them access to the Sales app.
 
