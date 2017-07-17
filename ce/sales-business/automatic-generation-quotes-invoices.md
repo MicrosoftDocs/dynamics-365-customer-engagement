@@ -22,9 +22,8 @@ Make sure that all the quotes or invoices that your sales team is sending out to
 
 3.  To enable automatic generation of quote documents, select the **Auto-generate quote as a Word document** check box, and then select the quote Word template from the drop-down list.
 
-4.  To enable automatic generation of invoice documents, select the **Auto-generate invoice as a Word document** check box, and then select the invoice Word template from the drop-down list.
-
- All the out-of-the-box templates and the custom templates that you’ve created will be available in the drop-down list.
+4.  To enable automatic generation of invoice documents, select the **Auto-generate invoice as a Word document** check box, and then select the invoice Word template from the drop-down list. All the out-of-the-box templates and the custom templates that you’ve created will be available in the drop-down list.
 
 5.  Click **Save**.
 
+### See Also
