@@ -9,7 +9,8 @@ applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
-ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3ms.reviewer: 
+ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3 
+ms.reviewer: 
 ---
 # Configure Dynamics 365 for Sales to integrate with SharePoint
 
