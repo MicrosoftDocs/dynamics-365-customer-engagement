@@ -27,3 +27,4 @@ Make sure that all the quotes or invoices that your sales team is sending out to
 5.  Click **Save**.
 
 ### See Also
+[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
