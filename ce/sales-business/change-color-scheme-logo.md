@@ -56,3 +56,5 @@ The theme that you are currently using is shown with the text “currently appli
 7.  Click **Save and Apply Theme**.
 
 ### See Also
+
+[Get-started-with-Dynamics-365-for-Sales,-Business-edition](get-started.md)
