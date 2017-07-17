@@ -103,7 +103,7 @@ Upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template in
 
 1.  In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], go to **Advanced Settings** &gt; **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and Word Templates** &gt; **Upload Template**.
 
-2.  ### Find and upload the file.
+2.  Find and upload the file.
 
  ![create-template-wizard-step-upload-template](media/create-template-wizard-step-upload-template.png "")  
 
