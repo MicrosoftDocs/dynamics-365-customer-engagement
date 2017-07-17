@@ -38,12 +38,11 @@ Follow the guidelines in this topic to make sure that your file imports successf
   -   Comma-separated value (CSV) file (A data file with a .csv file extension. Typically a CSV file consists of fields and records, stored as text, in which the fields are separated from one other by commas.) (.csv) format
 
   -   [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
-
 3.  If your import file is a CSV file, make sure that it is correctly delimited.
 
   You can use double quotation marks (“) or single quotation marks (‘) as data delimiters.
 
-4.  Make sure the first line of a file is the column headings.
+.  Make sure the first line of a file is the column headings.
 
   Edit your file and add column headings (Text used in the first row of a spreadsheet or file that labels the data in each column.) if they are not already present.
 
@@ -67,24 +66,21 @@ Follow the guidelines in this topic to make sure that your file imports successf
   
   The following list shows default business-required fields for commonly imported record types.
   
-    -   Account: **Account Name**
-  
-    -   Contact: **Last Name**
-  
-    -   Lead: **Topic, Last Name, Company Name**
-  
-    -   Product: **Default Unit, Unit Group, Decimals Supported**
+    - Account: **Account Name**
+    - Contact: **Last Name**
+    - Lead: **Topic, Last Name, Company Name**
+    - Product: **Default Unit, Unit Group, Decimals Supported**
   
   **Example showing sample leads to import:**
   
   The following lines show what the data might look like for a .csv format file containing leads to import. The first line contains the field names, and the remaining lines are imported as data.
 
-  'Company,Last Name,First Name,Topic,Email,Mobile Phone
+  `Company,Last Name,First Name,Topic,Email,Mobile Phone
   
   “Designer Bikes”“Groth”“Brian”“Mountain bikes”“someone@example.com”“555-555-0112”
   
-  “Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”
-'
+  “Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”`
+
   > [!Note]
 
   > By default, the maximum size of the files that you can import is 8 megabytes (MB).
