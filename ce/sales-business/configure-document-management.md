@@ -80,7 +80,7 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
       For example, the following folder structure is created for a document for an opportunity record “100 Bikes” that has a related account as Margie’s travel:
 
-      :.../account/Margie's Travel/opportunity/100 Bikes&lt;entityGUID&gt;.
+      `:.../account/Margie's Travel/opportunity/100 Bikes&lt;entityGUID&gt;.`
 
       You’ll see a confirmation message when [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is successfully configured.
 
