@@ -56,3 +56,6 @@ If your organization uses Skype for Business, it can display the availability st
 By default, presence is automatically enabled for the users. To disable the presence, clear the **Enable IM Presence** check box.
 
 ### See Also
+
+-  [Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)],Business edition](get-started.md)
+-  [Make calls or send instant messages in Dynamics 365 for Sales](Make-calls-send-instant-messages.md)
