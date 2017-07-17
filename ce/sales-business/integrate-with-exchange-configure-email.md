@@ -25,7 +25,6 @@ Using server-side synchronization makes messaging data available to a web browse
 Server-side synchronization provides direct [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]-to-email server synchronization. When you use Exchange, you can synchronize email, contacts, tasks, and appointments.
 
 Some features offered by server-side synchronization include the following:
-
  -   Email folder tracking. You can simply drag email to a folder to track it. Folder tracking works on any mobile device that supports [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Exchange, which means you can track email from just about any device.
 
  -   Support for [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] App for Outlook. You can track incoming email with the new [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] App for Outlook. [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] App for Outlook works with Outlook on the web. So, all you need is a browser to track incoming email.
@@ -46,13 +45,11 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
     3.  In the Quick Setup wizard, click the **Email Configuration** icon.
 
- - OR -
+         -OR-
 
 2.  Initiate Exchange integration from Advanced Settings.
 
-    1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the Menu icon").
-
-        A navigation pane opens on the left side.
+    1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the Menu icon"). A navigation pane opens on the left side.
 
     2.  Click **Advanced Settings**.
 
@@ -70,9 +67,8 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
   ![Button to configure Exchange](media/configure-exchange.png "Button to configure Exchange")  
 
-7.  Click **Configure**.
-
-    A consent dialog box opens.
+7.  Click **Configure**. A consent dialog box opens.
+    
 
     ![Consent dialog box in Email Configuration page](media/consent-dialog-email-configuration.png "Consent dialog box in Email Configuration page")  
 
@@ -84,17 +80,15 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
 9.  When you choose **I Agree**, the following happens:
 
-    1.  Server-side synchronization is automatically enabled and configured at the system (organization) level.
+    1. Server-side synchronization is automatically enabled and configured at the system (organization) level.
 
-       1.  The email server profile is set to Exchange Online (automatically created when a new [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] instance is provisioned). The email server profile stores settings that are used by server-side synchronization to connect to an email server and process email for the associated mailboxes.
-
-       2.  Incoming Email, Outgoing Email, and Appointment, Contacts, and Tasks are all set to use Server-side synchronization
+     - The email server profile is set to Exchange Online (automatically created when a new [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] instance is provisioned). The email server profile stores settings that are used by server-side synchronization to connect to an email server and process email for the associated mailboxes.
+      - Incoming Email, Outgoing Email, and Appointment, Contacts, and Tasks are all set to use Server-side synchronization
 
     2.  When Exchange is configured, the following happens:
 
-       1.  Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox can process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
-
-       2.  For newly added users, you must manually test and enable the mailboxes.
+       - Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox can process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
+       - For newly added users, you must manually test and enable the mailboxes.
 
     3.  All these user mailboxes are automatically approved. A mailbox needs to be approved before it can process email.
 
