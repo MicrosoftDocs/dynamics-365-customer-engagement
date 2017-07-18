@@ -24,7 +24,7 @@ manager: sakudes
   
 ### Quick start guide
   
-1.  Install the Social Selling Assistant. Go to [AppSource](https://appsource.microsoft.com/) and **Get** the Social Selling Assistant.  
+1.  Install the Social Selling Assistant. Go to [AppSource](https://go.microsoft.com/fwlink/p/?linkid=838044) and **Get** the Social Selling Assistant.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Install the Social Selling Assistant](https://technet.microsoft.com/library/mt793319\(CRM.8\).aspx)  
   
