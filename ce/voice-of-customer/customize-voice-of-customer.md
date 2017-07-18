@@ -1,5 +1,3 @@
-
-
 ---
 title: "Customize Voice of the Customer for Dynamics 365 survey settings | MicrosoftDocs"
 ms.custom: ""
@@ -49,14 +47,12 @@ You can start using [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voic
   
 2.  Choose a configuration to edit from the **Active Configurations** list or click **New** to create one.  
   
-3.  Change the values in **General Settings** areas as needed.
+3.  Change the values in the **General Settings** area as needed.
 
->[!NOTE]
->If you're using a version of [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings>Solutions** to determine the version. 
-
-4.  Change the values in the **Response Fetching** and **General Settings** areas as needed.  
+  > [!NOTE]
+  > If you're using a version of [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings > Solutions** to determine the version.   
   
-5.  Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
+4.  Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
   
 #### Import survey XML  
   

@@ -28,8 +28,6 @@ manager: "brycho"
 > -   Maximum # of surveys you can publish: **200**  
 > -   Maximum # of questions on a survey: **250**. If you've enabled feedback for a survey, you can include a maximum of 40 questions.  
 > -   Maximum # of pages per survey: **25**  
-> -   Maximum # of email invitations you can send in 24-hour period that includes piped data: **10,000**. Any emails that exceed that amount will remain pending during that time and will automatically start sending when the time limit is over.
-> -   Maximum # of survey responses that [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] will pull per day: **2400**
 > -   Maximum # of survey responses that [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] will store: **1,000,000** 
 > -   Note that surveys aren't supported on legacy forms. 
 >    
