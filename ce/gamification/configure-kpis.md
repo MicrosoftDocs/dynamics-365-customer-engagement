@@ -10,7 +10,6 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
-[//]: # (NOTE TO SELF: Revert to old-fashioned procedure language.)
 # Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]
 
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](includes/pn-gamification-shortest-md.md)]. It's a two-step process: first, you create the KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-subsequent-md.md)], and then you choose and configure them in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] when you set up a new game.
@@ -31,8 +30,6 @@ Configure KPI details in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-onl
 
 There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Use our examples for inspiration, and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Best practices for new and existing KPIs in Gamification](best-practices-kpis.md)  
 
-[//]: # (@Michael, in the note for step 5, is there a better term for "amount-based KPI"? Would "numerical" or "quantitative" work?)
-[//]: # (@Nona - the UI refers to "amount" so I'd rather be consistent in the references to this.)
 ### Configure a KPI
 
 1.  In [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], go to **Gamification** > **KPIs**.
