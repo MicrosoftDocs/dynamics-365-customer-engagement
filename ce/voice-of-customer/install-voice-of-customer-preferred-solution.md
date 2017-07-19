@@ -17,6 +17,10 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Install the Voice of the Customer solution
+This section provides you the steps to install the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solutions earlier than 9.0 and latest verion.
+
+## Install the Voice of the Customer solution earlier than 9.0
+
 [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909).  
   
 > [!IMPORTANT]
@@ -50,7 +54,29 @@ manager: "brycho"
   
  When  the configuration completes, you can start using [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys.  
   
-  
+## Install the Voice of the Customer solution 9.0 and later
+
+The new version of the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solution can be installed from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center. It is compatible with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] version 8.2 onwards.
+
+> [!Note]
+> You must be a tenant administrator to install the solution.
+
+1. Go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center and click the **Applications** tab.
+2. Select the application row titled **Voice Of The Customer** and click **Manage**. The Install page is diaplayed.
+3. From the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance drop-down list, select an instance where you want to install the solution.
+  > [!Note]
+  > The list of instance will display only the organizations with version 8.2.
+4. Accept the license terms.
+5. Click **Install**.
+
+### Track the Voice of the Customer solution installation status
+
+You can tract the installation status from the soluitons page of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center.
+
+1. Go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center and click the **Instances** tab.
+2. Select the instance name and click **Solutions**.
+3. The status is displayed in the **Status** column.
+
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_voice_of_customer](../includes/cc-privacy-crm-voice-of-customer.md)]  
   
