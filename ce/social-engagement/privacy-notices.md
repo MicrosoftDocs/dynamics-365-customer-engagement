@@ -3,6 +3,7 @@ title: "Microsoft Social Engagement Privacy Notices | Microsoft Docs"
 description: "Additional privacy notices for Social Engagement."
 ms.date: 2017-07-20
 ms.topic: article
+ms.servide: mse
 applies_to: "Social Engagement"
 ms.assetid: 1d821d1e-2c8c-4aa2-a93c-5c0b3572fde9
 author: "m-hartmann"
