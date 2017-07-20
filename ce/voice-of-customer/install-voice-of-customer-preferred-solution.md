@@ -45,7 +45,7 @@ The new version of the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-v
 
 1. Go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center and click the **Applications** tab.
 2. Select the application row titled **Voice Of The Customer** and click **Manage**. The Install page is diaplayed.
-3. From the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance drop-down list, select an instance where you want to install the solution.
+3. From the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance** drop-down list, select an instance where you want to install the solution.
   
   > [!Note]
   > The list of instance will display only the organizations with version 8.2.
@@ -53,7 +53,7 @@ The new version of the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-v
 4. Accept the license terms.
 5. Click **Install**.
 
-You can track the installation status from the soluitons page of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center.
+You can track the installation status from the solutions page of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center.
 
 1. Go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center and click the **Instances** tab.
 2. Select the instance name and click **Solutions**.
