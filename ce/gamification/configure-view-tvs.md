@@ -98,9 +98,9 @@ Stream leaderboards from multiple active games to screens around your office to 
 3.  Confirm your deletion.  
   
 
-## Privacy notice  
+## Privacy notice 
 
- [!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
+[!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
   
 ### See also  
 
