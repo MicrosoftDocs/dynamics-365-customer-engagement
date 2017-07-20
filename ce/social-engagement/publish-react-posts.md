@@ -1,16 +1,11 @@
 ---
 title: "Publish and react to posts | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-07-20
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 232849dd-218d-4cf0-8561-03c865120657
-caps.latest.revision: 73
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -18,26 +13,6 @@ manager: sakudes
 
 # Publish and react to posts
 Staying in touch with customers, prospects, and other stakeholders through social media channels is a key factor in business success. Take action on posts that you find with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Share, like, or comment on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] posts, or retweet, like, or reply to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts to stay in touch with and engage with your audience. Start a conversation by writing new posts from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
-  
-## In this topic  
-  
--   [Prerequisites](#Prerequisites)  
-  
--   [Engage on a post in Social Engagement](#engageOverview)  
-  
--   [Let users know you appreciate a post they wrote](#favoriteLike)  
-  
--   [Share a post with your audience](#retweetShare)  
-  
--   [Reply to a conversation](#commentReply)  
-  
--   [Post a link to another post](#PostLink)  
-  
--   [Engage in private conversations](#DMs)  
-  
--   [Publish a new post](#PublishPost)  
-  
--   [Add media to posts](#addMedia)  
   
 <a name="Prerequisites"></a>   
 ## Prerequisites  

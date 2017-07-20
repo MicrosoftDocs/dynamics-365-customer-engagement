@@ -1,39 +1,17 @@
 ---
 title: "Work with posts | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-07-20
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: bf6392aa-e9e1-44b6-8f80-f17c21caa793
-caps.latest.revision: 102
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
 # Work with posts
 Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
-  
-<a name="TOC"></a>   
-## In this topic  
-  
--   [Assign a post to other users in Analytics and Social Center](#assignTo)  
-  
--   [Change a post’s sentiment value in Analytics and Social Center](#sentiment)  
-  
--   [Add or remove tags](#Add_a_custom_tag)  
-  
--   [Delete posts](#delete)  
-  
--   [Add a label to a post in Analytics or Social Center](#labels)  
-  
--   [Link a post from Social Engagement to Dynamics 365](#link_post)  
-  
--   [Privacy notice](#privacy)  
   
 <a name="sentiment"></a>   
 ## Change a post’s sentiment value in Analytics and Social Center  
