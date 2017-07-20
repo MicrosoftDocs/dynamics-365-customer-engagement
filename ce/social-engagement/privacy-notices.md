@@ -1,16 +1,10 @@
 ---
 title: "Microsoft Social Engagement Privacy Notices | Microsoft Docs"
 description: "Additional privacy notices for Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
-ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.date: 2017-07-20
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 1d821d1e-2c8c-4aa2-a93c-5c0b3572fde9
-caps.latest.revision: 4
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -36,6 +30,8 @@ For specific privacy information about Microsoft Social Engagement, refer to the
 - [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
 
 - [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
+
+- [!INCLUDE[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
 ### See Also
 
