@@ -35,7 +35,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 ||Twitter|Facebook|  
 |-|-------------|--------------|  
-|[Let users know you appreciate a post they wrote](#favoriteLike)|Like<br /><br /> ![Like button on Twitter in Social Engagement](../social-engagement/media/twitter-like-icon.png "Like button on Twitter in Social Engagement")|Like<br /><br /> ![Facebook like button in Social Engagement](../social-engagement/media/like-icon.png "Facebook like button in Social Engagement")|  
+|[Let users know you appreciate a post they wrote](#favoriteLike)|Like<br /><br /> ![Like button on Twitter in Social Engagement](../social-engagement/media/twitter-like-icon.png "Like button on Twitter in Social Engagement")|Like as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page <br /><br /> ![Facebook like button in Social Engagement](../social-engagement/media/like-icon.png "Facebook like button in Social Engagement")|  
 |[Share a post with your audience](#retweetShare)|Retweet<br /><br /> ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement")|Share<br /><br /> ![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement")|  
 |[Reply to a conversation](#commentReply)|Reply<br /><br /> ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement")|Comment<br /><br /> ![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement")|  
 |[Engage in private conversations](#DMs)|Send direct message<br /><br /> ![Send message button in Social Engagement](../social-engagement/media/enevelope-icon.png "Send message button in Social Engagement")|Send private message<br /><br /> ![Send message button in Social Engagement](../social-engagement/media/enevelope-icon.png "Send message button in Social Engagement")|  
@@ -61,7 +61,9 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Like** ![Like button on Twitter in Social Engagement](../social-engagement/media/twitter-like-icon.png "Like button on Twitter in Social Engagement").  
+3.  At the bottom of the post, click **Like**.
+    > [!NOTE]  
+    > On [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], you can only like posts with a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page profile.
   
 4.  Select the check box for the  social profile that you want to like this post with.  
   
