@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Install the Voice of the Customer for Microsoft Dynamics 365 preferred solution | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2016-11-01"
@@ -17,7 +17,7 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Install the Voice of the Customer solution
-This section provides you the steps to install the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solutions earlier than 9.0 and latest verion.
+This section provides you the steps to install the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solutions earlier than 9.0 and latest version.
 
 ## Install the Voice of the Customer solution earlier than 9.0
 
