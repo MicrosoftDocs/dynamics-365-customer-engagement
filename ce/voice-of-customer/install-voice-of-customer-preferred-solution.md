@@ -44,7 +44,7 @@ The new version of the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-v
 > You must be a tenant administrator to install the solution.
 
 1. Go to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Administration Center and click the **Applications** tab.
-2. Select the application row titled **Voice Of The Customer** and click **Manage**. The Install page is diaplayed.
+2. Select the application row titled **Voice Of The Customer** and click **Manage**. The Install page is displayed.
 3. From the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance** drop-down list, select an instance where you want to install the solution.
   
   > [!Note]
