@@ -1,8 +1,8 @@
-# [An Introduction to Dynamics 365 for Sales, Business edition](introduce-dynamics-365-for-sales-business-edition.md)
+# [Meet the Sales app for small to medium-sized business](introduce-dynamics-365-for-sales-business-edition.md)
 
-# [Administrator’s guide for Dynamics 365 for Sales, Business edition](add-edit-users.md)
-## [Add or manage users](add-edit-users.md)
-## [Add or manage teams](add-edit-teams.md) 
+# [Set up the Sales app for your team](set-up-sales-app-for-team.md)
+## [Add salespeople](add-edit-users.md)
+## [Group salespeople into teams](add-edit-teams.md) 
 ## [Change color scheme or logo for your organization](change-color-scheme-logo.md)
 ## [Define fiscal year settings](define-fiscal-year-settings.md)
 ## [Manage Excel templates](create-manage-excel-templates.md)
@@ -17,7 +17,7 @@
 ## [Enable duplicate detection](enable-duplicate-detection.md) 
 ## [Manage sample data](manage-sample-data.md)
 
-# [User's guide for Dynamics 365 for Sales, Business edition](get-started.md)
+# [Making sales with Dynamics 365 for Sales, Business edition](get-started.md)
 ## [Sign in](get-started.md)
 ## [Assign a record to a user or team](assign-record-user-team.md)
 ## [Gain insights with dashboards](gain-insights-with-dashboards.md)
