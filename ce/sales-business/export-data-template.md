@@ -32,5 +32,6 @@ When you export data or template from **Advanced Settings**, you must select the
 
 ### See Also
 
--  [Import data into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](import-data.md)
--  [Set up the Sales app for your team](set-up-sales-app-team.md)
+[Import data into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](import-data.md)
+
+[Set up the Sales app for your team](set-up-sales-app-team.md)
