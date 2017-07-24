@@ -80,5 +80,5 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 ### See Also
 
--  [Meet the Sales app for small to medium-sized business](introduce-dynamics-365-for-sales-business-edition.md)
--  [Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
+-  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
+-  [Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)
