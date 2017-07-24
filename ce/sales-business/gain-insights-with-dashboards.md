@@ -69,4 +69,5 @@ You can use the global or visual filters to filter and see only the data that is
 
 ### See Also
 
-[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
+-  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
+-  [Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)
