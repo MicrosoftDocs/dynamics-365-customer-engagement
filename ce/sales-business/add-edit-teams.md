@@ -55,6 +55,5 @@ When a team is assigned a role, the team members are assigned the set of privile
 3.  In the **Manage Roles** dialog box, select the security role you want for the team, and then click **OK**.
 
 ### See Also
-
 [Add or manage users in Dynamics 365 for Sales](add-edit-users.md)
 [Set up the Sales app for your team](set-up-sales-app-team.md)
