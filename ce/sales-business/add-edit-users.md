@@ -100,7 +100,6 @@ Teams are a collection of users. Teams let users across an organization collabor
 Assign a manager or change existing manager. The manager is responsible for administering the work of a group of users.
 
 1.  Select the users you want to change, and then on the command bar, click **Change Manager**.
-
 2.  In the **Change Manager** dialog box, click the Lookup button to choose a manager, and then click **OK**.
 
 ### See Also
