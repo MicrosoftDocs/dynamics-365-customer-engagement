@@ -93,7 +93,7 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  ![Calling a phone number using Skypefor Business](media/skype-for-business-app-for-calling.png "Calling a phone number using Skypefor Business")
  
 -  **Store and view documents in context of records.** Do you have presentations or documents for an opportunity all over the place? Store them all in one place, so anyone who’s working on the opportunity can view them! 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]]](create-manage-documents.md)
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-documents.md)
 
  ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")
  
