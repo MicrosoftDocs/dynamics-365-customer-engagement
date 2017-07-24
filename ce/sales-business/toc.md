@@ -18,7 +18,7 @@
 ## [Manage sample data](manage-sample-data.md)
 
 # [User's guide for Dynamics 365 for Sales, Business edition](get-started.md)
-## [Get started](get-started.md)
+## [Sign in](get-started.md)
 ## [Assign a record to a user or team](assign-record-user-team.md)
 ## [Gain insights with dashboards](gain-insights-with-dashboards.md)
 ## [Manage your SharePoint documents](create-manage-documents.md)
