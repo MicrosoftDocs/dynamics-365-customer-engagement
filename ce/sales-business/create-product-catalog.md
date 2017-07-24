@@ -89,4 +89,5 @@ You may also use the import templates to bring in bulk data of products in to [!
 
 ### See Also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md) 
+-  [Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md) 
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
