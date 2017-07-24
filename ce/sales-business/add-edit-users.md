@@ -104,6 +104,5 @@ Assign a manager or change existing manager. The manager is responsible for admi
 2.  In the **Change Manager** dialog box, click the Lookup button to choose a manager, and then click **OK**.
 
 ### See Also
-
--  [Add or manage teams](add-edit-teams.md)
--  [Set up the Sales app for your team](set-up-sales-app-team.md)
+[Add or manage teams](add-edit-teams.md)
+[Set up the Sales app for your team](set-up-sales-app-team.md)
