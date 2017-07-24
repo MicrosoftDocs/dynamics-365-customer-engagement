@@ -67,7 +67,7 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 - **Customization**. If the Sales app does not entirely fit your business requirement, use the drag-and-drop designers to quickly make changes to the app to reflect the specific information that your company needs. For example, change the pipeline phases to match your organization’s business flows or add new fields to capture data relevant to your business—all of this without writing a single line of code.
 
-> ![Customize the business process flow](media/business-process-flow-customization.png "Customize the business process flow")  
+ ![Customize the business process flow](media/business-process-flow-customization.png "Customize the business process flow")  
 
 
 ### See Also
