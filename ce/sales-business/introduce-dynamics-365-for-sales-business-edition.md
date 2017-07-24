@@ -21,6 +21,8 @@ and importing data.
 
 Plus, sellers will find a streamlined lead to cash process, easier account, contact, and opportunity management, and dashboards that make it faster to visualize useful information at a glance.
 
+![Image for Dynamics 365 for Sales](media/sales-app-business-edition-image.png "Image for Dynamics 365 for Sales")
+
 # Get productive quickly
 
 The app is designed to make getting up to speed simple and painless, whether you’re handling your day-to-day sales transactions or setting up the app for your team.  
@@ -29,13 +31,12 @@ What’s the fastest way to get productive?
 
 Here are a couple options:
 
--   **Dive in and try out the sample data.** If you learn best through your own hands-on exploration, the app comes with sample
+-  **Dive in and try out the sample data.** If you learn best through your own hands-on exploration, the app comes with sample
 data to help you see how data is presented and organized, and to give you something to experiment with as you get oriented. 
 
-  Start clicking, take the guided tours, and play around with the sample data until you’re ready to work with your real customer data.
+ Start clicking, take the guided tours, and play around with the sample data until you’re ready to work with your real customer data.
 
--   **Do a quick read that covers the basics.** The user guide contains all the essentials you need to know to navigate the app, find and enter customer data, glean actionable insights from interactive dashboards, and more. And it’s short. (We know you’re busy.)
-
+-  **Do a quick read that covers the basics.** The user guide contains all the essentials you need to know to navigate the app, find and enter customer data, glean actionable insights from interactive dashboards, and more. And it’s short. (We know you’re busy.)
 
 No matter how you decide to get started, soon you’ll be up and running – working your deals and building profitable relationships along the way, as you turn your customers into lifelong fans of your products.
 
@@ -51,31 +52,60 @@ The Sales app is designed so that you can access the tools and customer data you
 The nav bar at the top of every screen includes buttons for common tasks like searching for customer data or entering records. The nav bar also includes access to tools that help you manage your deals, such as a guided task flow that walks you through common sales tasks, or the Relationship Assistant that offers suggestions for the next steps to take with your customers.
 Here’s a quick run-down of what you’ll find on the nav bar.
 
+![Options on the nav bar](media/nav-bar-options.png "Options on the nav bar")
+
+
 ##  Menu on the side
 
 Click the menu button to see a list of all your options in one place, including access to communication tools like email and Skype calling, customer records, your calendar, and settings. 
 You’ll also find quick access to any favorite customers you’ve pinned and your recent work, so you don’t have to waste time backtracking.
 
+![Image showing the menu and items on the menu](media/menu-and-menu-items.png "Image showing the menu and items on the menu")
+
+
 #  Feature highlights
 
 Here are some highlights of Dynamics 365 for Sales, Business edition
 -   **Visual insights.** The out-of-the-box dashboards and charts have almost everything that you would need to get insight into your business. 
+
+ ![Sales dashboards in the Sales app](media/sales-overview-dashboard.png "Sales dashboards in the Sales app")
  
--  **Relationship Assistant.** With the new Sales app, you get actionable insights and suggestions based on how you work in the Sales app. You have an opportunity closing next week, fret not. The relationship assistant will give you a reminder to connect with your customer.
+ -  **Relationship Assistant.** With the new Sales app, you get actionable insights and suggestions based on how you work in the Sales app. You have an opportunity closing next week, fret not. The relationship assistant will give you a reminder to connect with your customer.
  
+ ![Relationship Assistant pane](media/relationship-assistant-pane.png "Relationship Assistant pane")
+  
 -  **Customer 360 view.** Once in the app, quickly get an overview of what’s happening with a customer, such as, see all the communications with the customer, progress of individual deals, and much more all in one place. 
+
+ ![Customer 365 view in the Contact form](media/contact-form.png "Customer 365 view in the Contact form")
  
 -  **Business process flow.** The guided process flows on the Lead and Opportunity form tell you exactly what to do next. You can quickly find out the steps you must take to increase the likelihood of a successful sale, and thus increase the sales count. The process bar can be docked to the right side of the screen for an omnipresent experience while you work on the opportunity. 
  
+ ![Business process bar on the lead form](media/business-process-flow-lead-form.png "Business process bar on the lead form")
+ 
 -  **Activities timeline.** All the appointments you schedule while you work on an opportunity, the emails that you send or the phone calls you make are available in one place, giving you all the context you need to do your job. 
  
+ ![Timeline of activities](media/activity-timeline.png "Timeline of activities")
+ 
 -  **Click-to-call.** Anytime while working on an opportunity, just click on the customer’s phone number to launch a phone call. When you’re done with the call, a phone call form automatically opens so you can capture details about your conversation in the app. And all of this, in context of the opportunity you’re working on.
+
+ ![Calling a phone number using Skypefor Business](media/skype-for-business-app-for-calling.png "Calling a phone number using Skypefor Business")
  
 -  **Store and view documents in context of records.** Do you have presentations or documents for an opportunity all over the place? Store them all in one place, so anyone who’s working on the opportunity can view them!
+
+ ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")
  
 -  **Simplified opportunity to invoice process.** It is easy to move a customer through the Sales funnel. Just generate a quote right from the opportunity you’re working on, and activate it. Use the same quote to quickly generate an invoice and mark the deal as won. You can also email the quotes and invoices to your customer in just one click.
+
+ ![Image showing the opportunity-to-invoice process](media/opportunity-to-invoice-process.png "Image showing the opportunity-to-invoice process")
+
  
 -  **Word templates.** The out-of-the-box templates ensure that the documents that you’re sending out to your customers align with you company’s brand.
  
+ ![Out-of-the-box templates in the Sales app](media/excel-word-templates.png "Out-of-the-box templates in the Sales app")
+ 
 -  **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile or tablet. Whether you are visiting a customer or are on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same, consistent experience regardless of the device you use.
  
+ 
+### See Also
+ 
+[Signing in to [!INCLUDEpn-ms-dyn-365-for-sales], Business edition](get-started.md)
