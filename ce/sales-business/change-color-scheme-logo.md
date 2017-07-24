@@ -56,6 +56,5 @@ The theme that you are currently using is shown with the text “currently appli
 7.  Click **Save and Apply Theme**.
 
 ### See Also
-
--  [Set up the Sales app for your team](set-up-sales-app-team.md)
--  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Set up the Sales app for your team](set-up-sales-app-team.md)  
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
