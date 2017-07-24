@@ -57,3 +57,7 @@ When a team is assigned a role, the team members are assigned the set of privile
 ### See Also
 [Add or manage users in Dynamics 365 for Sales](add-edit-users.md)
 [Set up the Sales app for your team](set-up-sales-app-team.md)
+[Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
+[Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
+[Manage your post quota](../social-engagement/manage-post-quota.md)   
+[Get started with Social Engagement](../social-engagement/get-started.md)
