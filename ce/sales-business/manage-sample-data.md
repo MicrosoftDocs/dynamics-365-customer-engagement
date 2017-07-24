@@ -38,7 +38,5 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 
 ### See Also
-
-[Set up the Sales app for your team](set-up-sales-app-team.md)
-
+[Set up the Sales app for your team](set-up-sales-app-team.md)  
 [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
