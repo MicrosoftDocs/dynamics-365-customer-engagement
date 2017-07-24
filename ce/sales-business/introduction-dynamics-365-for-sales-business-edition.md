@@ -1,5 +1,5 @@
 ---
-title: "An Introduction to Dynamics 365 for Sales, Business edition | Microsoft Docs"
+title: "Meet the Sales app for small to medium-sized business | Microsoft Docs"
 description: "Get an overview of Dynamics 365 for Sales, Business edition and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
 author: shubhadaj
@@ -118,5 +118,5 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
 ### See Also
  
--  [Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
--  [Set up the Sales app for your team](set-up-sales-app-for-team.md)
+-  [Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
