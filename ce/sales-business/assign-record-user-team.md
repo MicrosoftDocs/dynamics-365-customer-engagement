@@ -31,6 +31,5 @@ You can also assign a record to a team, or to yourself.
 6.  Click **Assign**.
 
 ### See Also
-
--  [Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)
--  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
