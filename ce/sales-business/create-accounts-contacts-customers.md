@@ -89,5 +89,5 @@ To create or edit a contact
 
 ### See Also
 
--  [Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)
--  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
