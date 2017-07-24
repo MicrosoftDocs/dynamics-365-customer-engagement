@@ -28,11 +28,6 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
 
 2.  In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales**.
 
-## Navigate to areas within the app
-
-It’s easy to get around the new Sales app and get back to your favorite or most-used records whether you’re using a desktop, tablet, or phone.
-
-![Navigation bar showing menu items](media/menu-items-navigation-bar.png "Navigation bar showing menu items")  
 
 ## Understand the data in the app
 
@@ -85,4 +80,4 @@ There are three ready-to-use business processes that you can use as you move you
 
 ### See Also
 
-[An Introduction to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](introduce-dynamics-365-for-sales-business-edition.md)
+[Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
