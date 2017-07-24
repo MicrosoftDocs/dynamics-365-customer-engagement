@@ -62,5 +62,6 @@ To start a conversation with a user, click on the IM address in the contact card
 
 
 ### See Also
--  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
--  [Set up click-to-call in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](configure-click-to-call.md)
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+
+[Set up click-to-call in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](configure-click-to-call.md)
