@@ -72,7 +72,8 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
 
  ![Sales dashboards in the Sales app](media/sales-overview-dashboard.png "Sales dashboards in the Sales app")
 
- -  **Relationship Assistant.** With the new Sales app, you get actionable insights and suggestions based on how you work in the Sales app. You have an opportunity closing next week, fret not. The relationship assistant will give you a reminder to connect with your customer.
+
+-  **Relationship Assistant.** With the new Sales app, you get actionable insights and suggestions based on how you work in the Sales app. You have an opportunity closing next week, fret not. The relationship assistant will give you a reminder to connect with your customer.
  
  ![Relationship Assistant pane](media/relationship-assistant-pane.png "Relationship Assistant pane")
   
