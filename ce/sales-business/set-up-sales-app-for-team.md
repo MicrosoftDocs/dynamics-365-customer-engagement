@@ -1,6 +1,6 @@
 ---
 title: "Set up Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Use teams in Dynamics 365 for Sales, Business edition to group users who share and collaborate on business records.  "
+description: "Get started with the basics of setting up a fully functional app for your salespeople.  "
 keywords: "setup; configure; administration; advanced settings, settings, quick setup"
 author: shubhadaj
 ms.author: shujoshi
@@ -41,7 +41,9 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 - **Users and teams**. Got new people in your team? Add them as users in the Sales app and get them hit the ground running. It is very easy to create a user account in Dynamics 365 for Sales without having to go to Office 365.
 
-  To have a group of people focus on selling a certain product, divide users into teams.
+  To have a group of people focus on selling a certain product, divide users into teams. 
+  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or manage manage users in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](add-edit-users.md)
 
  ![Add sales people as users in the Sales app](media/add-new-user-dialog-box.png "Add sales people as users in the Sales app")  
 
@@ -55,13 +57,19 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 - **Bring in real data**. When your team is ready, get your accounts, contacts, leads and products data into the app so they can start selling right away.
 
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import contacts, accounts, or leads into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](import-data.md)
+
  ![Import data option in the Quick Setup wizard](media/import-data-from-quick-setup.png "Import data option in the Quick Setup wizard")  
 
 - **Product catalog management**. Help your team sell efficiently by creating and maintaining an up-to-date product inventory, so your team has an updated list of products your organization sells. You can add products manually, or import them in bulk through import.
 
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-product-catalog.md)
+
  ![List of products in the product catalog](media/products-in-the-product-catalog.png "List of products in the product catalog")  
 
 - **Word and Excel Templates**. It is important that all documents that go out to your customers are consistent in look, and align with your organization’s branding. Save your team’s time and efforts by creating templates that they can use.
+
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage Word templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-word-templates.md)
 
  ![List of Excel and Word templates in the Sales app](media/excel-word-templates.png "List of Excel and Word templates in the Sales app")
 
