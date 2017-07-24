@@ -39,3 +39,4 @@ The **Use Current Pricing** comes directly from the product catalog; If you chan
 
 -   [Create and manage quotes in Dynamics 365 for Sales](create-manage-quotes.md)
 -   [Create and manage invoices in Dynamics 365 for Sales](create-manage-invoices.md)
+-   [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
