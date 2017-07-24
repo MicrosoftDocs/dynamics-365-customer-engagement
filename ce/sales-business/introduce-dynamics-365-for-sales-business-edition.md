@@ -12,21 +12,34 @@ ms.topic: article
 ms.assetid: ccdffcfc-fb43-4119-b7a0-47fca20f6f4e
 ms.reviewer: 
 ---
-# An Introduction to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Meet the Sales app for small to medium-sized business
 
-The new [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app helps small businesses close more deals with comprehensive customer info made available to the whole organization.
+So, now you’re a user of the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app designed especially for businesses like yours. 
 
-Integrations with other [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] products like Exchange, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] or Skype aids in effective collaboration with customers and team members.
+The app comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
+and importing data.
 
-![Skype for Business app used for calling a phone number](media/skype-for-business-app-for-calling.png "Skype for Business app used for calling a phone number")  
+Plus, sellers will find a streamlined lead to cash process, easier account, contact, and opportunity management, and dashboards that make it faster to visualize useful information at a glance.
 
-The Relationship Assistant reminds you of your upcoming activities. The Assistant keeps an eye on your daily actions and communications and generates action cards that provide tailored, actionable insights.
+# Get productive quickly
 
-![Relationship Assistant pane showing reminders](media/relationship-assistant-pane.png "Relationship Assistant pane showing reminders")  
+The app is designed to make getting up to speed simple and painless, whether you’re handling your day-to-day sales transactions or setting up the app for your team.  
 
-Business process flows helps sales people to quickly complete the sales process of converting a lead to sales. Using a process helps everyone follow best practices, especially when handling situations that don’t occur regularly. You complete a step by entering data or marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
+What’s the fastest way to get productive? 
+
+Here are a couple options:
+
+-   **Dive in and try out the sample data.** If you learn best through your own hands-on exploration, the app comes with sample
+data to help you see how data is presented and organized, and to give you something to experiment with as you get oriented. 
+
+  Start clicking, take the guided tours, and play around with the sample data until you’re ready to work with your real customer data.
+
+-   **Do a quick read that covers the basics.** The user guide contains all the essentials you need to know to navigate the app, find and enter customer data, glean actionable insights from interactive dashboards, and more. And it’s short. (We know you’re busy.)
 
 
-### See Also
+No matter how you decide to get started, soon you’ll be up and running – working your deals and building profitable relationships along the way, as you turn your customers into lifelong fans of your products.
 
-[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md) 
+Ready to get started? 
+First, we’ll cover basic navigation.
+
+
