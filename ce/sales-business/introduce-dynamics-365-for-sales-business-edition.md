@@ -108,4 +108,4 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
 ### See Also
  
-[Signing in to [!INCLUDEpn-ms-dyn-365-for-sales], Business edition]](get-started.md)
+[Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](get-started.md)
