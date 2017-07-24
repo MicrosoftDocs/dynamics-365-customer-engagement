@@ -39,4 +39,5 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 ### See Also
 
-[Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](get-started.md)
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
+-  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
