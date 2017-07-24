@@ -68,6 +68,7 @@ All the duplicate detection rules will be unpublished in the backend.
 
 ### See Also
 
--  [Import data into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](import-data.md)
--  [Set up the Sales app for your team](set-up-sales-app-team.md)
+[Import data into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](import-data.md)
+
+[Set up the Sales app for your team](set-up-sales-app-team.md)
 
