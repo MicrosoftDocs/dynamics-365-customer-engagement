@@ -115,7 +115,5 @@ To apply a sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] temp
 ### See Also
 
 [Manage Excel templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-excel-templates.md)
-
 [Manage Word templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-word-templates.md)
-
 [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
