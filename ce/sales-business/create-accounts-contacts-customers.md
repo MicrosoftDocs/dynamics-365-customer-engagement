@@ -88,5 +88,6 @@ To create or edit a contact
 4.  Click **Save** on the lower right corner.
 
 ### See Also
-[Get started with Dynamics 365 for Sales, Business edition](get-started.md)
 
+-  [Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)
+-  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
