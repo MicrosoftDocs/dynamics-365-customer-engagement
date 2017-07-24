@@ -120,7 +120,7 @@ The [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] capabilities are
   
 ## Privacy notice  
 
- [!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
+[!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
   
 ### See also  
 
