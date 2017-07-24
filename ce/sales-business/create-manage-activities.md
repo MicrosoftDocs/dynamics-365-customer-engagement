@@ -79,5 +79,5 @@ After you call someone, complete a task, send an email, or go to an appointment,
   ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
 
 ### See Also
--  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
--  [Manage your customers](create-accounts-contacts-customers.md)
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
+[Manage your customers](create-accounts-contacts-customers.md)
