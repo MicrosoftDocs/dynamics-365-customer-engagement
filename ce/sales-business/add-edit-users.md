@@ -105,4 +105,5 @@ Assign a manager or change existing manager. The manager is responsible for admi
 
 ### See Also
 
-[Add or manage teams](add-edit-teams.md)
+-  [Add or manage teams](add-edit-teams.md)
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
