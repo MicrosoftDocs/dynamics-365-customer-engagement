@@ -48,7 +48,7 @@ The new version of the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-v
 3. From the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance** drop-down list, select an instance where you want to install the solution.
   
   > [!Note]
-  > The list of instance will display only the organizations with version 8.2.
+  > The **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance** drop-down list will display only the organizations with version 8.2 and above.
 
 4. Accept the license terms.
 5. Click **Install**.
