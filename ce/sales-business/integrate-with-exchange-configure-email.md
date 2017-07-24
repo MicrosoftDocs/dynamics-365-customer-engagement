@@ -109,7 +109,5 @@ The error must automatically resolve now. If the error persists, please contact 
 
 
 ### See Also
-
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
-
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
 [Set up the Sales app for your team](set-up-sales-app-team.md)
