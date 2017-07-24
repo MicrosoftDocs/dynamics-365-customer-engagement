@@ -57,5 +57,6 @@ By default, presence is automatically enabled for the users. To disable the pres
 
 ### See Also
 
--  [Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)],Business edition](get-started.md)
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
+-  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
 -  [Make calls or send instant messages in Dynamics 365 for Sales](Make-calls-send-instant-messages.md)
