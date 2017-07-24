@@ -68,10 +68,10 @@ You’ll also find quick access to any favorite customers you’ve pinned and yo
 Here are some highlights of Dynamics 365 for Sales, Business edition
 -   **Visual insights.** The out-of-the-box dashboards and charts have almost everything that you would need to get insight into your business. 
 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights with dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](gain-insights-with-dashboards.md)
+
  ![Sales dashboards in the Sales app](media/sales-overview-dashboard.png "Sales dashboards in the Sales app")
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights with dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](gain-insights-with-dashboards.md)
- 
  -  **Relationship Assistant.** With the new Sales app, you get actionable insights and suggestions based on how you work in the Sales app. You have an opportunity closing next week, fret not. The relationship assistant will give you a reminder to connect with your customer.
  
  ![Relationship Assistant pane](media/relationship-assistant-pane.png "Relationship Assistant pane")
@@ -90,29 +90,28 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
 -  **Click-to-call.** Anytime while working on an opportunity, just click on the customer’s phone number to launch a phone call. When you’re done with the call, a phone call form automatically opens so you can capture details about your conversation in the app. And all of this, in context of the opportunity you’re working on. 
 
- ![Calling a phone number using Skypefor Business](media/skype-for-business-app-for-calling.png "Calling a phone number using Skypefor Business")
-
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Make calls or send instant messages in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](make-calls-send-instant-messages.md)
+
+ ![Calling a phone number using Skypefor Business](media/skype-for-business-app-for-calling.png "Calling a phone number using Skypefor Business")
 
 -  **Store and view documents in context of records.** Do you have presentations or documents for an opportunity all over the place? Store them all in one place, so anyone who’s working on the opportunity can view them! 
 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your SharePoint documents and document locations in Dynamics 365 for Sales](create-manage-documents.md)
+
  ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-documents.md)
- 
 -  **Simplified opportunity to invoice process.** It is easy to move a customer through the Sales funnel. Just generate a quote right from the opportunity you’re working on, and activate it. Use the same quote to quickly generate an invoice and mark the deal as won. You can also email the quotes and invoices to your customer in just one click. 
-
- ![Image showing the opportunity-to-invoice process](media/opportunity-to-invoice-process.png "Image showing the opportunity-to-invoice process")
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Develop sales from lead to cash in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-documents.md)
 
- 
+ ![Image showing the opportunity-to-invoice process](media/opportunity-to-invoice-process.png "Image showing the opportunity-to-invoice process")
+
 -  **Word templates.** The out-of-the-box templates ensure that the documents that you’re sending out to your customers align with you company’s brand. 
+
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use document templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition to create standardized documents](use-document-templates-create-standardized-documents.md)
 
  ![Out-of-the-box templates in the Sales app](media/excel-word-templates.png "Out-of-the-box templates in the Sales app")
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use document templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition to create standardized documents](use-document-templates-create-standardized-documents.md)
-  
 -  **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile or tablet. Whether you are visiting a customer or are on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same, consistent experience regardless of the device you use.
  
  
