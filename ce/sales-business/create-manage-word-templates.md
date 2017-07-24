@@ -153,4 +153,5 @@ An administrator can use the Advanced Settings page to upload the Word template 
 
 ### See Also
 
-[Use document templates to create standardized documents](Use-document-templates-create-standardized-documents.md)
+-  [Use document templates to create standardized documents](Use-document-templates-create-standardized-documents.md)
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
