@@ -110,4 +110,5 @@ The error must automatically resolve now. If the error persists, please contact 
 
 ### See Also
 
-[An introduction to Dynamics 365 for Sales, Business edition](introduce-Dynamics-365-for-Sales-Business-edition.md)
+-  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
