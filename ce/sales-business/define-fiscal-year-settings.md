@@ -38,7 +38,5 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
 
 ### See Also
-
-[Set up the Sales app for your team](set-up-sales-app-team.md)
-
+[Set up the Sales app for your team](set-up-sales-app-team.md)  
 [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
