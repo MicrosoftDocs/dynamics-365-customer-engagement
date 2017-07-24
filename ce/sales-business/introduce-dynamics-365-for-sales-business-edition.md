@@ -23,7 +23,7 @@ Plus, sellers will find a streamlined lead to cash process, easier account, cont
 
 ![Image for Dynamics 365 for Sales](media/sales-app-business-edition-image.png "Image for Dynamics 365 for Sales")
 
-# Get productive quickly
+## Get productive quickly
 
 The app is designed to make getting up to speed simple and painless, whether you’re handling your day-to-day sales transactions or setting up the app for your team.  
 
@@ -43,11 +43,11 @@ No matter how you decide to get started, soon you’ll be up and running – wor
 Ready to get started? 
 First, we’ll cover basic navigation.
 
-#  Find your way around the app
+##  Find your way around the app
 
 The Sales app is designed so that you can access the tools and customer data you need quickly when you need them.
 
-##  Nav bar at the top
+###  Nav bar at the top
 
 The nav bar at the top of every screen includes buttons for common tasks like searching for customer data or entering records. The nav bar also includes access to tools that help you manage your deals, such as a guided task flow that walks you through common sales tasks, or the Relationship Assistant that offers suggestions for the next steps to take with your customers.
 Here’s a quick run-down of what you’ll find on the nav bar.
@@ -55,7 +55,7 @@ Here’s a quick run-down of what you’ll find on the nav bar.
 ![Options on the nav bar](media/nav-bar-options.png "Options on the nav bar")
 
 
-##  Menu on the side
+###  Menu on the side
 
 Click the menu button to see a list of all your options in one place, including access to communication tools like email and Skype calling, customer records, your calendar, and settings. 
 You’ll also find quick access to any favorite customers you’ve pinned and your recent work, so you don’t have to waste time backtracking.
@@ -63,7 +63,7 @@ You’ll also find quick access to any favorite customers you’ve pinned and yo
 ![Image showing the menu and items on the menu](media/menu-and-menu-items.png "Image showing the menu and items on the menu")
 
 
-#  Feature highlights
+##  Feature highlights
 
 Here are some highlights of Dynamics 365 for Sales, Business edition
 -   **Visual insights.** The out-of-the-box dashboards and charts have almost everything that you would need to get insight into your business. 
@@ -108,4 +108,4 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
 ### See Also
  
-[Signing in to [!INCLUDEpn-ms-dyn-365-for-sales], Business edition](get-started.md)
+[Signing in to [!INCLUDEpn-ms-dyn-365-for-sales], Business edition]](get-started.md)
