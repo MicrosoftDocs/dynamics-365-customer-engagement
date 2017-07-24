@@ -93,5 +93,5 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
 ### See Also
 -  [Manage your SharePoint documents](create-manage-documents.md)
--  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
+-  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
 -  [Set up the Sales app for your team](set-up-sales-app-team.md)
