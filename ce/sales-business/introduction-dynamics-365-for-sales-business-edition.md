@@ -117,7 +117,5 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
  
 ### See Also
- 
-[Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)
-
+[Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)  
 [Set up the Sales app for your team](set-up-sales-app-team.md)
