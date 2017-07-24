@@ -92,6 +92,6 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
     All the backend configuration steps are performed again in the background.
 
 ### See Also
--  [Manage your SharePoint documents](create-manage-documents.md)
--  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
--  [Set up the Sales app for your team](set-up-sales-app-team.md)
+[Manage your SharePoint documents](create-manage-documents.md)  
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
+[Set up the Sales app for your team](set-up-sales-app-team.md)
