@@ -1,7 +1,7 @@
 ---
 title: "Signing in to Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 for Sales, Business edition and its user interface."
-keywords: "Get started; navigation; understand data; quick create; Sales"
+keywords: "Get started; understand data; quick create; Sales"
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
