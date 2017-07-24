@@ -27,3 +27,4 @@ Your sales process begins with a lead—someone who is interested in the product
 *  [Create and manage opportunities](create-manage-opportunities.md)
 *  [Create and manage quotes](create-manage-quotes.md)
 *  [Create and manage invoices](create-manage-invoices.md)
+*  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
