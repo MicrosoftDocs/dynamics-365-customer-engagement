@@ -29,5 +29,4 @@ Personalize your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-fo
 
 
 ### See Also
-
 [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
