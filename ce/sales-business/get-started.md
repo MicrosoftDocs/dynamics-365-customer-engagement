@@ -1,5 +1,5 @@
 ---
-title: "Get started with Dynamics 365 for Sales, Business edition | Microsoft Docs"
+title: "Signing in to Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 for Sales, Business edition and its user interface."
 keywords: "Get started; navigation; understand data; quick create; Sales"
 author: shubhadaj
@@ -12,7 +12,7 @@ ms.topic: get-started-article
 ms.assetid: 99a199cf-cc42-4bdb-a73c-825d07bfb82a
 ms.reviewer: 
 ---
-# Get started with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
 Start here to onboard quickly and learn about the Sales app and its user interface.
 
