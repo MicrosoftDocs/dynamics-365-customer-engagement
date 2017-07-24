@@ -27,5 +27,5 @@ Make sure that all the quotes or invoices that your sales team is sending out to
 5.  Click **Save**.
 
 ### See Also
--  [Meet the Sales app for small to medium-sized business](introducion-dynamics-365-for-sales-business-edition.md)
+-  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
 -  [Set up the Sales app for your team](set-up-sales-app-team.md)
