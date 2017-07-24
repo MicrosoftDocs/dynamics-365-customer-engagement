@@ -56,4 +56,5 @@ When a team is assigned a role, the team members are assigned the set of privile
 
 ### See Also
 
-[Add or manage users in Dynamics 365 for Sales](add-edit-users.md)
+-  [Add or manage users in Dynamics 365 for Sales](add-edit-users.md)
+-  [Set up the Sales app for your team](set-up-sales-app-team.md)
