@@ -1,20 +1,15 @@
-﻿---
+---
 title: "Distribute a Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
+description: ""
 ms.assetid: bdf1401d-1998-480b-ada2-38a2667eced6
-caps.latest.revision: 13
-author: "brycho"
-ms.author: "brycho"
-manager: "brycho"
+ms.custom: ""
+ms.date: "07/26/2017"
+ms.service: "crm-online"
+ms.topic: "article"
+applies_to: "Dynamics 365 (online)"
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Send out an invitation for your Voice of the Customer survey 
 You can invite respondents to take part in a [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey in different ways, depending on how you want to send the invitation out, whether you want non-anonymous responses, and whether you want to pipe data to the survey.  
