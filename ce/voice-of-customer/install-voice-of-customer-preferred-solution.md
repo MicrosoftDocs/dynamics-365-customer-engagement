@@ -1,20 +1,15 @@
 ---
 title: "Install the Voice of the Customer for Microsoft Dynamics 365 preferred solution | MicrosoftDocs"
+description:""
+ms.assetid: 6ede301c-1061-4f13-887f-89dbde408c01
 ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
+ms.date: "07/26/2017"
 ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
-ms.assetid: install-voice-of-customer-preferred-solution
-caps.latest.revision: 17
-author: "brycho"
-ms.author: "brycho"
-manager: "brycho"
+applies_to: "Dynamics 365 (online)"
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Install the Voice of the Customer solution
 This section provides you the steps to install the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solutions earlier than 9.0 and latest version.
