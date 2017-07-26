@@ -1,20 +1,16 @@
-﻿---
+---
 title: "Translate or localize your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
+description: ""
 ms.assetid: 3361111c-23c8-498b-ae2f-5cf401a48c89
-caps.latest.revision: 8
-author: "brycho"
-ms.author: "brycho"
-manager: "brycho"
+keywords: ""
+ms.custom: ""
+ms.date: "07/26/2017"
+ms.service: "crm-online"
+ms.topic: "article"
+applies_to: "Dynamics 365 (online)"
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Translate or localize your Voice of the Customer survey 
 Once you’ve created your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, you can translate it into other languages.  
