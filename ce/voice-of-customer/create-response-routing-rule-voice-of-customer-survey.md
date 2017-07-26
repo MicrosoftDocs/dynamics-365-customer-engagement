@@ -4,12 +4,9 @@ description: ""
 ms.custom: ""
 ms.date: "07/26/2017"
 ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"
 ms.assetid: bd1b39a2-fa08-4adb-af1b-7a8cf3459d22
-ms.reviewer:""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
