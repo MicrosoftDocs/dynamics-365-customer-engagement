@@ -44,7 +44,7 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
     2.  Click **Advanced Settings**.
 
-        If you or any user in your tenant organization doesn’t have a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription, you’ll need to first purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription.
+        If your organization doesn’t have a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription, you’ll need to first purchase a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription.
 
  ![Document Management page in Advanced Settings](media/document-management-page-no-office-subscription.png "Document Management page in Advanced Settings")  
 
