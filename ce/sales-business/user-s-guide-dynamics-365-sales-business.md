@@ -12,7 +12,7 @@ ms.assetid:
 ms.reviewer: 
 ---
 # User's guide for Dynamics 365 for Sales, Business edition
-[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition helps you and your team close more details faster by letting you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline.   
+[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition simplifies the lead-to-cash process so small and medium-sized businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management.   
   
 ## Get started  
  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md) 
