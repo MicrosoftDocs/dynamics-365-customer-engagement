@@ -12,14 +12,12 @@ ms.assetid:
 ms.reviewer: 
 ---
 # User's guide for Dynamics 365 for Sales, Business edition
-[!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)], Business edition helps you and your team close more details faster by letting you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline.   
+[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition helps you and your team close more details faster by letting you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline.   
   
 ## Get started  
  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md) 
 
  [Sign in and get started](sign-in-get-started.md)  
- 
- [Work with activities](../basics/work-with-activities.md)  
  
  [Assign a record to a user or team](assign-record-user-team.md)
  
