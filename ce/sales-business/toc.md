@@ -17,7 +17,7 @@
 ## [Enable duplicate detection](enable-duplicate-detection.md) 
 ## [Manage sample data](manage-sample-data.md)
 
-# [Making sales with Dynamics 365 for Sales, Business edition](sign-in-get-started.md)
+# [Making sales with Dynamics 365 for Sales, Business edition](user-s-guide-dynamics-365-sales-business.md)
 ## [Sign in and get started](sign-in-get-started.md)
 ## [Assign a record to a user or team](assign-record-user-team.md)
 ## [Gain insights with dashboards](gain-insights-with-dashboards.md)
