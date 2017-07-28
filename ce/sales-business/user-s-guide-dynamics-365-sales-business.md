@@ -21,7 +21,9 @@ ms.reviewer:
  
  [Manage tasks, appointments, email, or phone calls](create-manage-activities.md)
  
- [Assign a record to a user or team](assign-record-user-team.md)
+ [Assign a record to a user or team](assign-record-user-team.md)  
+ 
+ [Set personal options](Set-personal-options.md)
  
  
 ## Use the productivity tools
