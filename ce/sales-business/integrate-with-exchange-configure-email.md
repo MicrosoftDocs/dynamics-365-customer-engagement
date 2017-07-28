@@ -55,7 +55,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
     3.  Click **Email Configuration**.
 
-3.  If you or any user in your tenant organization has an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription, skip to Step 6.
+3.  If your organization has an Exchange subscription, skip to Step 6.
   
 4.  If you don’t have an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription, you’ll be prompted to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription. Click the link to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription.
 
