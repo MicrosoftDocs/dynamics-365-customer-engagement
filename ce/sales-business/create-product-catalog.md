@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Create a product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Products are the backbone of your business. The product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
 
 ## Add products

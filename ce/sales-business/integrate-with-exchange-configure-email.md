@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Configure email in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with Exchange 
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 To store email and other messaging records in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you need to synchronize it with your email system.
 
 [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] uses server-side synchronization to synchronize your email system with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].

@@ -13,6 +13,8 @@ ms.assetid: a7e323b0-ca34-4c60-b9f4-12d36d076092
 ms.reviewer: 
 ---
 # Export data or template in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 Present the sales related information to an individual who doesn’t have access to the Sales app by exporting the data to a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Office [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] static worksheet.
 
 You can export just the data from a list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] static file, or you can export a template.

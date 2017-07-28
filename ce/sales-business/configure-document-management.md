@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Configure Dynamics 365 for Sales to integrate with SharePoint
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] entity records in [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] Online.
 
 ## Prerequisites

@@ -1,0 +1,101 @@
+- name: Meet the Sales app for small to medium-sized business 
+  tocHref: /dynamics365/customer-engagement/sales-business
+  topicHref: /dynamics365/customer-engagement/sales-business/introduction-dynamics-365-for-sales-business-edition
+- name: Set up the Sales app for your team 
+  tocHref: /dynamics365/customer-engagement/sales-business
+  topicHref: /dynamics365/customer-engagement/sales-business/set-up-sales-app-team
+  items:
+    - name: Add salespeople 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/add-edit-users
+    - name: Group salespeople into teams 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/add-edit-teams
+    - name: Change color scheme or logo for your organization
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/change-color-scheme-logo
+    - name: Define fiscal year settings 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/define-fiscal-year-settings
+    - name: Manage Excel templates 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-excel-templates
+    - name: Manage Word template 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-word-templates
+    - name: Configure email
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/integrate-with-exchange-configure-email
+    - name: Configure document management 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/configure-document-management
+    - name: Set up click-to-call 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/configure-click-to-call
+    - name: Create a product catalog 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-product-catalog
+    - name: Enable automatic generation of quotes and invoices 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/automatic-generation-quotes-invoices
+    - name: Import data 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/import-data
+    - name: Export data 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/export-data-template
+    - name: Enable duplicate detection 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/enable-duplicate-detection
+    - name: Manage sample data 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/manage-sample-data
+- name: Making sales with Dynamics 365 for Sales, Business edition 
+  tocHref: /dynamics365/customer-engagement/sales-business
+  topicHref: /dynamics365/customer-engagement/sales-business/sign-in-get-started
+  items:
+    - name: Sign in and get started 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/sign-in-get-started
+    - name: Assign a record to a user or team 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/assign-record-user-team
+    - name: Gain insights with dashboards 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/gain-insights-with-dashboards
+    - name: Manage your SharePoint documents 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-documents
+    - name: Make calls or send instant messages 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/make-calls-send-instant-messages
+    - name: Set personal options 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/Set-personal-options
+    - name: Use document templates 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/use-document-templates-create-standardized-documents
+    - name: Create and manage activities 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-activities
+    - name: Manage accounts and contacts 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-accounts-contacts-customers
+    - name: Develop sales from lead to cash 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/develop-sales-lead-to-cash
+    - name: Create and manage leads 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-Leads
+    - name: Create and manage opportunities 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-opportunities
+    - name: Understand sales transactions 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/understand-sales-transactions
+    - name: Create and manage quotes 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-quotes
+    - name: Create and manage invoices 
+      tocHref: /dynamics365/customer-engagement/sales-business
+      topicHref: /dynamics365/customer-engagement/sales-business/create-manage-invoices    

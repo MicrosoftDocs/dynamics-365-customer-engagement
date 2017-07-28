@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Create and manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates for:

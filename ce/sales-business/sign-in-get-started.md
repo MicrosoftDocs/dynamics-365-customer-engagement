@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Start here to onboard quickly and learn about the Sales app and its user interface.
 
 ## Go to the Sales app

@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Meet the Sales app for small to medium-sized business
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 So, now you’re a user of the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app designed especially for businesses like yours. 
 
 The app comes with a wizard that simplifies the setup process, including connecting email, sharing documents,

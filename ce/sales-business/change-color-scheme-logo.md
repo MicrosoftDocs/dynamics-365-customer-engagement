@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Change the color scheme or logo for your organization
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app. You can create a custom look and feel (a theme), for your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for phones app by creating new themes with colors and visual elements.
 
 The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:

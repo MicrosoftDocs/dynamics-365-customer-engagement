@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Add or manage teams in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 1.  Go to **Advanced Settings** &gt; **Team Management**.

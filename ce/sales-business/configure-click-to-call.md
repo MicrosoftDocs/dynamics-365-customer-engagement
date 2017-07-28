@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Set up click-to-call
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Integration with Skype and Skype for Business helps you to easily check on the availability of a contact and to make a call with one click from within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
 Skype for Business integration is built and packaged as a solution within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. To integrate with Skype for Business, you must have a Skype for Business license, and must install the solution.

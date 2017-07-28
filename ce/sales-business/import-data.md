@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Import contacts, accounts, or leads into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Bring in your customer and sales data quickly into your app by importing it. It can be used for importing data into most record types.
 
 [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] processes imports in the background. After an import completes, you can review which records succeeded, failed to import, or were partially imported. To fix the records that failed to import, export them into a separate file, fix them, and then try to import them again. You can delete all records associated with an import.

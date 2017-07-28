@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Gain insights with dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] provide an overview of business data ‒ actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
 
 Dashboards use views, list, and charts to bring data that is meaningful to you in one place.

@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Set personal options in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Personalize your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] workspace to suit your requirements or preferences. For example, personalize how you want to see your calendar or set the time zone you work in.
 
 | **Options**         | **Description**           |
