@@ -30,7 +30,7 @@ When editing a snippet, either a simple text box will appear, allowing you to qu
 
 ## Edit using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
-1.  Navigate to **Portals** > **Content Snippets**.
+1.  Go to **Portals** > **Content Snippets**.
 2.  To create a new snippet: Click **New**.
 3.  To edit an existing snippet: Double-Click on an existing **Content Snippet** in the grid.
 

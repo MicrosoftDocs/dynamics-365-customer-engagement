@@ -87,7 +87,7 @@ Users in this role can access all leads via Entity Lists or Forms on the portal.
 
 ![Grant global permissions to a lead](media/grant-global-permission-leads.png "Grant global permissions to a lead")  
 
-We will now add a Child Permission to the Global Lead Permission. With the Parent permission record open, first navigate to the **Child Entity Permissions** subgrid and click **New** to open a lookup for entity permissions, then click the magnifying glass and click **New** to add a new record.
+We will now add a Child Permission to the Global Lead Permission. With the Parent permission record open, first go to the **Child Entity Permissions** subgrid and click **New** to open a lookup for entity permissions, then click the magnifying glass and click **New** to add a new record.
 
 ![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
 

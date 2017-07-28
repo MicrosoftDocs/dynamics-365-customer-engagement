@@ -49,7 +49,7 @@ View the portal through each of the site bindings in a web browser to ensure tha
 
 1.  Go to the [Facebook Developers](https://developers.facebook.com/) site and sign in with a Facebook account. Under the**My Apps** drop-down menu click the **Add a New App** button, then click **Skip and Create App ID**.
 2. In the resulting **Create a New App ID** dialog, specify a valid **Display Name**,**Namespace**, and **Choose a Category** (such as Apps for Pages) because this will eventually be required to publish an app to the public. The **Namespace** can be left blank. Click **Create App**. Submit the **Security Check** (captcha) dialog as well.
-3. After landing on the Dashboard, navigate to the **Settings** area in the left column navigation.
+3. After landing on the Dashboard, go to the **Settings** area in the left column navigation.
 4. Complete the **Basic** form by entering the fields shown in the following example:
     - **Display Name**: Contact Email
 

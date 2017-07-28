@@ -47,7 +47,7 @@ For this demonstration, let’s consider a scenario in which Contoso, Inc. would
 
     ![Creating a custom form in Dynamics 365 to be rendered on a portal.](media/create-custom-suggestion-form.png "Creating a custom form in Dynamics 365 to be rendered on a portal.")
 
-4. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Portals** > **Entity Forms** and create a new Entity Form record. Name it “Suggestion”, set its **Entity Name** field to “Suggestion (new_suggestion)”, set its **Form Name** to “Suggestion Form”, set its **Tab Name** to “Suggestion”, and its **Form Type** as “Insert”, and modify any of the other options as needed.
+4. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** > **Entity Forms** and create a new Entity Form record. Name it “Suggestion”, set its **Entity Name** field to “Suggestion (new_suggestion)”, set its **Form Name** to “Suggestion Form”, set its **Tab Name** to “Suggestion”, and its **Form Type** as “Insert”, and modify any of the other options as needed.
 
 5. In the portal, create a new child page named “Suggestions”. Set its **Page Template** value to **Web Form**, set its **Entity Form** value to “Suggestion”, and add an introduction to the form. 
     >[!Note]
@@ -65,7 +65,7 @@ Entity form metadata records contain additional behavior modification logic to a
 
 These records allow for additional configuration and manipulation of specific elements on the form, including fields, sub-grids, or entire sections/tabs.  Each element of the form that requires some type of modification requires a separate metadata record, which in turn is associated to the entity form record.
 
-To add metadata records to an entity form, you can navigate to the **Entity Form Metadata Associated View** from the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] navigation menu or these records can be created directly from the entity form itself using the Entity Form Metadata sub-grid toward the very bottom of the record’s form.
+To add metadata records to an entity form, you can go to the **Entity Form Metadata Associated View** from the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] navigation menu or these records can be created directly from the entity form itself using the Entity Form Metadata sub-grid toward the very bottom of the record’s form.
 
 ![Entity Form Metadata](media/entity-form-metadata.png "Entity Form Metadata")
 
@@ -190,7 +190,7 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
 
         ![The second step of the survey form created.](media/survey-step-2-form.png "The second step of the survey form created.")
 
-21. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Portals** > **Web Pages** and create a new Web Page entitled “Contoso Ltd. Survey”.  Set the Website to “Contoso Ltd.”, the Parent Page to “Home”, the Partial URL to “contoso-ltd-survey”, the PageTemplate to “Full Page”, the Publishing State to “Published”, and the Web Form to the “Contoso Ltd. Survey” that was created earlier.  Save the record.
+21. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** > **Web Pages** and create a new Web Page entitled “Contoso Ltd. Survey”.  Set the Website to “Contoso Ltd.”, the Parent Page to “Home”, the Partial URL to “contoso-ltd-survey”, the PageTemplate to “Full Page”, the Publishing State to “Published”, and the Web Form to the “Contoso Ltd. Survey” that was created earlier.  Save the record.
 
 Granted, these steps are very complex and require several [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records to work in tandem with one another to achieve the result. However, after the process is complete, users can navigate to the page that you’ve created on the portal and fill out the survey as intended.
 

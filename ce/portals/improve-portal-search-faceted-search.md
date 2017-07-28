@@ -21,12 +21,12 @@ Portal content may be searched using filters based on characteristics of the con
 
 Out-of-the-box faceted search is enabled in your portals. To control and/or enable it follow these steps:
 
-1. Log into Dynamics and navigate to **Portals** &gt; **Website** &gt; **Site Settings.**
+1. Log into Dynamics and go to **Portals** &gt; **Website** &gt; **Site Settings.**
 2. Locate the Site Setting named **Search/FacetedView** and select it. 
 3. Change the **Value** to **True** to enable or **False** to disable Faceted Search.
 
 To disable a single piece of the Faceted View:
-1. Log into Dynamics and navigate to **Portals** &gt; **Web Templates**.
+1. Log into Dynamics and go to **Portals** &gt; **Web Templates**.
 2. Select view to disable (i.e. Knowledge Management – Top Rated Articles)
 3. Click the **Deactivate** button at the top of the page.
 
@@ -34,7 +34,7 @@ To disable a single piece of the Faceted View:
 
 The site setting **Search/RecordTypeFacetsEntities** allows you to group similar entities together so users have logical ways of filtering search results. For example, instead of having separate options for forums, forum posts, and forum threads; these entities are grouped under the Forums record type.
 
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Portals** &gt; **Websites** &gt; **Site Settings** and open the **Search/RecordTypeFacetsEntities** site setting. 
+In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** &gt; **Websites** &gt; **Site Settings** and open the **Search/RecordTypeFacetsEntities** site setting. 
 
 Notice that the different entities are preceded by the word **Forums:**. This is because the first value is the name with they are grouped as. This word will be translated based on the language that is being used on the portal.
 

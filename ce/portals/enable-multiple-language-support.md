@@ -87,7 +87,7 @@ The table below shows all the languages currently available out of the box. This
 
 1. Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 2. Go to **Portals** > **Content** > **Web Pages** to see a list of content. For each web page, there will be a parent version of the page and a child version of the page for each language activated for the portal.
-3. To add a new localization of the page, navigate to a base page and scroll down to **Localized Content**.
+3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
 4. Click the **+** button on the right side to create a look-up for the localized version.
 
     ![Add new localized content](media/Add-new-localized-content.png "Add new localized content")  

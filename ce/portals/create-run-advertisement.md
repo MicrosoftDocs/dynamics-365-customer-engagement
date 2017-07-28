@@ -21,7 +21,7 @@ Create text or image-based ads and have them run in multiple placements througho
 
 Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the Ad placement. The Ad must be associated with an Ad Placement to appear on the portal. For this demonstration, the out-of-the-box example "Place Holder" Ad and "Sidebar Bottom" Ad Placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity prior to creating more complex Ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration calls on the "Sidebar Bottom" Ad Placement name.
 
-1. Navigate to **Portals** then **Ads**
+1. Go to **Portals** > **Ads**
 2. Open the **Placeholder** Ad associated with the **Company Portal** website (this can be done with starter site of your choosing by clicking **+NEW** and creating an identical Ad sub the Website). 
 3. Click the **Save** icon in the lower right corner (or **Save & Close** in the upper left corner if you have created a new ad)
 
@@ -30,7 +30,7 @@ Within the Ad Form you specify a **Name** to describe the Ad, the **Website** wh
 
 ## Create a new advertisement placements
 
-1. Navigate to **Portals** then **Ad Placements**
+1. Go to **Portals** > **Ad Placements**
 2. Click the Web Template Field to select a Web Template. For demonstration purposes the "Random Ad" Web Template was chosen.
 3. On the right corner of the Ads grid click**+** to select the Ad created in the previous step.
 4. Click the **Save** icon in the lower right corner
@@ -77,7 +77,7 @@ The Ad Entity has the following attributes:
 | Release Date       | Controls a date/time after which the Ad will be visible on the portal. If the Ad Placement is rotating through multiple ads, an unreleased ad will not show. If no released ads are associated with an Ad Placement, nothing will appear. This is useful for controlling the release of time-sensitive content.                                        |
 | Expiration Date    | Controls a date/time prior to which the Ad will be visible on the portal.                                                                                                                                                                                                                                                                              |
 | Publishing State   | The current Publishing State.                                                                                                                                                                                                                                                                                                                          |
-| Redirect URL       | When the Ad is clicked, the user will navigate to this URL.**This field is optional.** If no value is given, the Ad will not be clickable.                                                                                                                                                                                                            |
+| Redirect URL       | When the Ad is clicked, the user will go to this URL.**This field is optional.** If no value is given, the Ad will not be clickable.                                                                                                                                                                                                            |
 | Open In New Window | Boolean. If set to true, the Ad will open a new browser window when clicked.                                                                                                                                                                                                                                                                           |
 | Title              | A single line of text for the ad which can be displayed on the portal. Whether it is displayed is determined by a property on the AdPlacement control. This is primary useful for text-based ads or simple one-line links that you want to place on the portal by using Ad Placements. If the title is displayed, by default it will be rendered as a hyperlink which points to the Redirect URL. This behavior may be altered by using a custom [web template](store-content-web-templates.md). |                                                                                                                             |  
 | Copy               | A multiline body of text or other web content that will be displayed in the ad placement. This allows the placement to be used in a similar way to content snippets, but it is best to avoid using them to serve simply as a bucket to hold content (use snippets for that). Instead, they are best used to display rotating image or textual content. |

@@ -21,7 +21,7 @@ To turn on the content access level based filtering of knowledge articles on you
 
 ## Create content access levels
 
-1. Log into Dynamics and navigate to **Portals &gt; Security &gt; Content Access Levels**.
+1. Log into Dynamics and go to **Portals &gt; Security &gt; Content Access Levels**.
 2. Click the **New** button in the ribbon.
 3. Fill in the **Name** and **Description**.
 4. Change **Default Access Level** from **No** to **Yes** if it should be the default.
@@ -37,7 +37,7 @@ To turn on the content access level based filtering of knowledge articles on you
 
 ## Assign content access levels to portal users
 
-1.  Log into Dynamics and navigate to **Portals &gt; Security &gt; Contacts**.
+1.  Log into Dynamics and go to **Portals &gt; Security &gt; Contacts**.
 2.  Select the Contact you wish to edit.
 3.  Under the **Details** tab, find the **Content Access Levels** section.
 4.  Press **+** to add a new content access level or the **Trash Can symbol** next to a content access level to remove it.

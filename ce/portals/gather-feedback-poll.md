@@ -40,7 +40,7 @@ Content managers may use [Template tags](#template-tags) to add a poll to any ed
 
 To Create a new poll placement region:
 
-1. Navigate to **Portals** and then to **Poll Placements**
+1. Go to **Portals** > **Poll Placements**
 2. Click **New**
 
     ![Place active poll](media/place-active-poll.png "Place active poll")  

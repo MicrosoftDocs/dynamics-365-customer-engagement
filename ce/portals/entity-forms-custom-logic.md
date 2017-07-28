@@ -23,7 +23,7 @@ A data driven configuration to allow end users to add a form to collect data in 
 
 The Entity Form contains relationships to webpages and additional properties in order to control the initialization of the form within the portal. The relationship to Web Page allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
 
-To view existing Entity Forms or to create new Entity Forms navigate to **Portals &gt; Entity Forms**
+To view existing Entity Forms or to create new Entity Forms, go to **Portals &gt; Entity Forms**
 
 When creating a new Entity Form the first step is to decide the **Entity** and **Form Name** that you will be rendering as well as the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you are creating a new record from the portal, editing an existing record, or just displaying info about a record on the portal.
 

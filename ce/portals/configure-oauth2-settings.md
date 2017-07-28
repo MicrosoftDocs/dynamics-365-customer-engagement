@@ -58,7 +58,7 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
     - Select a**Category** 
     - Click**Create App ID**
 
-5. While on the Dashboard for the new app, navigate to**Settings** &gt;**Basic** (tab) and add following details:
+5. While on the Dashboard for the new app, go to**Settings** &gt;**Basic** (tab) and add following details:
     - App Domains (optional): portal.contoso.com 
     - Contact Email: *&lt;email address of your choice&gt;* 
     - Click**Add Platform** and select**Website** 

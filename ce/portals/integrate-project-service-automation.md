@@ -29,7 +29,7 @@ Customers can view and approve project quotes created in [!INCLUDE[pn-dynamics-c
 
 ## View project invoices on the partner portal
 
-Customers can view final versions of Project Invoices on the partner portal after the invoice has been approved in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and the **Visible to customer** checkbox has been selected. To view an invoice, the customer must sign in to the partner portal and navigate to **Partner Service Automation** &gt; **Invoices.** Here a customer will be presented with basic information and can click on an invoice for more details.
+Customers can view final versions of Project Invoices on the partner portal after the invoice has been approved in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and the **Visible to customer** checkbox has been selected. To view an invoice, the customer must sign in to the partner portal and go to **Partner Service Automation** &gt; **Invoices.** Here a customer will be presented with basic information and can click on an invoice for more details.
 
 ![View invoices in a partner portal](media/view-invoices-partner-portal.png "View invoices in a partner portal")
 
@@ -42,7 +42,7 @@ Customers can view final versions of Project Contracts or Orders on the partner 
 
 ## View confirmed, bookable resources by project and role on the partner portal
 
-Both Customers and Partners can view bookable resources on the partner portal following the same process. After signing in to the partner portal, they must navigate to **Project Service Automation** &gt; **Customer Resources**. Here Customers and Partners can see list of resources with their role, booked hours, and other basic information. By selecting a resource, they will be able to see what tasks that resource has been assigned to.
+Both Customers and Partners can view bookable resources on the partner portal following the same process. After signing in to the partner portal, they must go to **Project Service Automation** &gt; **Customer Resources**. Here Customers and Partners can see list of resources with their role, booked hours, and other basic information. By selecting a resource, they will be able to see what tasks that resource has been assigned to.
 
 ![View customer resources in a partner portal](media/view-customer-resources-partner-portal.png "View customer resources in a partner portal")
 

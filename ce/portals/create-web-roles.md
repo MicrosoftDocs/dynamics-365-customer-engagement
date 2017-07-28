@@ -18,7 +18,7 @@ After a contact has been configured to use the portal, it must be given one or m
 
 To create a web role:
 
-1. Navigate to **Portals**.
+1. Go to **Portals**.
 2. Click **Web Roles** > **New**.
 3. Specify values for the required fields.
 4. Click **Save**.
