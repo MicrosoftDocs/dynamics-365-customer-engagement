@@ -19,9 +19,10 @@ ms.reviewer:
 
  [Sign in and get started](sign-in-get-started.md)  
  
+ [Manage tasks, appointments, email, or phone calls](create-manage-activities.md)
+ 
  [Assign a record to a user or team](assign-record-user-team.md)
  
- [Manage tasks, appointments, email, or phone calls](create-manage-activities.md)
  
 ## Use the productivity tools
  [Gain insights with dashboards](gain-insights-with-dashboards.md)
