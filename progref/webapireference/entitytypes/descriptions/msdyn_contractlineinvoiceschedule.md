@@ -1,0 +1,1 @@
+List of dates that shows when invoicing for this customer should be run. This list is used by the invoice creation job.

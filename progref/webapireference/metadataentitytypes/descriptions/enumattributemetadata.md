@@ -1,0 +1,1 @@
+An abstract class that contains the data for an attribute that provides options.

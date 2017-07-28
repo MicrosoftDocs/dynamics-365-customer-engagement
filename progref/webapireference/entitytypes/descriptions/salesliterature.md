@@ -1,0 +1,1 @@
+Storage of sales literature, which may contain one or more documents.

@@ -1,0 +1,1 @@
+Tracks status changes of bookings and timestamps the change of the status

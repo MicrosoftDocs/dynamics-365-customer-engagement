@@ -1,0 +1,1 @@
+Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.

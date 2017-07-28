@@ -1,0 +1,1 @@
+Query function that evaluates whether the entity is below the referenced record in the hierarchy.  

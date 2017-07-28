@@ -1,0 +1,1 @@
+Contains the metadata for an attribute that references an entity.

@@ -1,0 +1,1 @@
+Activity that is delivered using email protocols.

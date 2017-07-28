@@ -1,0 +1,1 @@
+Relationship between two entities.

@@ -1,0 +1,1 @@
+Association between an opportunity and a product.

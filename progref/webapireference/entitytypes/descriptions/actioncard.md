@@ -1,0 +1,1 @@
+Action card entity to show action cards.

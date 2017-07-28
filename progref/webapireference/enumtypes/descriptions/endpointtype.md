@@ -1,0 +1,1 @@
+Identifies the type of service available at an endpoint. 

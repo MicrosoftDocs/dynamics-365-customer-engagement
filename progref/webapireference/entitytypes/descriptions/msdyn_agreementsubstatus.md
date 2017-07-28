@@ -1,0 +1,1 @@
+Specify custom agreement sub-statuses, which can be used to specify the current agreement status more precisely.

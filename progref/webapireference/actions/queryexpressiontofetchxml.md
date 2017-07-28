@@ -1,0 +1,45 @@
+---
+title: "QueryExpressionToFetchXml Action| MicrosoftDocs"
+ms.date: "2017-07-10"
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to:
+  - "Dynamics 365 (online)"
+ms.assetid: 58edc1ff-bb7e-4df3-ae59-49a7a6877a62
+author: "jimdaly"
+ms.author: "jdaly"
+manager: "jdaly"
+---
+# QueryExpressionToFetchXml Action
+[!INCLUDE[./descriptions/queryexpressiontofetchxml.md](./descriptions/queryexpressiontofetchxml.md)]
+
+The QueryExpressionToFetchXml action is not bound to any entity types.
+
+
+
+## Parameters 
+Parameters allow for data to be passed to the action.
+|Name|Type|Nullable|Unicode|Description|
+|----------|-----------------|----------|-----------------|-----------------|  
+|Query|[QueryBase ComplexType](../complextypes/QueryBase.md)|true|true|The query to convert. |
+
+## Return Type
+The QueryExpressionToFetchXml action returns the following value.
+|Type|Nullable|Description| 
+|----------|-----------------|-----------------|    
+|[QueryExpressionToFetchXmlResponse ComplexType](../complextypes/QueryExpressionToFetchXmlResponse.md)|false|Contains the response from the QueryExpressionToFetchXml Action |
+
+
+
+[!INCLUDE[./remarks/queryexpressiontofetchxml.md](./remarks/queryexpressiontofetchxml.md)]
+
+### See also  
+ [Use the Microsoft Dynamics CRM Web API](https://msdn.microsoft.com/library/mt593051.aspx)<br />
+ [Web API EntityType Reference](../entitytypereference.md)<br />
+ [Web API Action Reference](../actionreference.md)<br />
+ [Web API Function Reference](../functionreference.md)<br />
+ [Web API Query Function Reference](../queryfunctionreference.md)<br />
+ [Web API EnumType Reference](../enumtypereference.md)<br />
+ [Web API ComplexType Reference](../complextypereference.md)<br />
+ [Web API Metadata EntityType Reference](../entitytypereference.md)<br />
+ [Web API Solutions Reference](../solutionreference.md)<br />

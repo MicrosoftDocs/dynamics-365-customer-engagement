@@ -1,0 +1,1 @@
+Entity used to capture all resources that have applied for open position on projects.

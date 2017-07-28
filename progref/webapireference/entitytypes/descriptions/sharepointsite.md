@@ -1,0 +1,1 @@
+SharePoint site from where documents can be managed in Microsoft Dynamics 365.

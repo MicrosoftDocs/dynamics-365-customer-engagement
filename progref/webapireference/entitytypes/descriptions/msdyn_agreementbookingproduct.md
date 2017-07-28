@@ -1,0 +1,1 @@
+Specify the booking product for the agreement.

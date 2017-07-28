@@ -1,0 +1,1 @@
+Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.

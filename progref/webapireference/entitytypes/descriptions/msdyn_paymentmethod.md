@@ -1,0 +1,1 @@
+Specify payment method.

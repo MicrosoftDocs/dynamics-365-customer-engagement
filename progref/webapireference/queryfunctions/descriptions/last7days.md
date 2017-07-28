@@ -1,0 +1,1 @@
+Query function to evaluate whether the value is within the last seven days including today. 

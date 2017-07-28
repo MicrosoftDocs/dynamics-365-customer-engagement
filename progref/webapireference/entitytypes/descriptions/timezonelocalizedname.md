@@ -1,0 +1,1 @@
+Localized name of the time zone.

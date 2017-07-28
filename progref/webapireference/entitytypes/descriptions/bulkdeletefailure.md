@@ -1,0 +1,1 @@
+Record that was not deleted during a bulk deletion job.

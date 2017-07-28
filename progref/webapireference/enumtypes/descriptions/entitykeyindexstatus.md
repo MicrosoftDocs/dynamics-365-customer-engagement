@@ -1,0 +1,1 @@
+Represents the enumerator for the entity key status when the index creation job is in progress. 

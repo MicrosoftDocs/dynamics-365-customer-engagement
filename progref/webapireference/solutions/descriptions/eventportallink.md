@@ -1,0 +1,1 @@
+Portal capabilities that allow you to engage your customers and external audiences. Includes profile management, configurable business components, rich web content publishing, and responsive design.

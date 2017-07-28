@@ -1,0 +1,1 @@
+Represents the unique identifier attribute metadata.

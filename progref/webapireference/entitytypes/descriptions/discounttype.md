@@ -1,0 +1,1 @@
+Type of discount specified as either a percentage or an amount.
