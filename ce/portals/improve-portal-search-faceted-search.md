@@ -21,12 +21,12 @@ Portal content may be searched using filters based on characteristics of the con
 
 Out-of-the-box faceted search is enabled in your portals. To control and/or enable it follow these steps:
 
-1. Log into Dynamics and go to **Portals** &gt; **Website** &gt; **Site Settings.**
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Website** &gt; **Site Settings.**
 2. Locate the Site Setting named **Search/FacetedView** and select it. 
 3. Change the **Value** to **True** to enable or **False** to disable Faceted Search.
 
 To disable a single piece of the Faceted View:
-1. Log into Dynamics and go to **Portals** &gt; **Web Templates**.
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Web Templates**.
 2. Select view to disable (i.e. Knowledge Management – Top Rated Articles)
 3. Click the **Deactivate** button at the top of the page.
 

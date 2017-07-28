@@ -21,7 +21,7 @@ Although permissions to change and access URLs in a portal sitemap is granted vi
 To secure these features, Entity Permissions allow for granular rights to be granted for arbitrary entities and for record-level security to be enabled via relationship definitions.
 
 ## Add entity permissions to a web role
-1. Navigate to the Web Role you wish to add the permissions to. Web roles for a website can be found in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in either **Portals &gt; Web Roles** or **Portals &gt; {your portal} &gt; Web Roles**.
+1. Navigate to the Web Role you wish to add the permissions to. Web roles for a website can be found in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in either **Portals** &gt; **Web Roles** or **Portals** &gt; **{your portal}** &gt; **Web Roles**.
 2. Click to **Add** an Existing Entity Permission. 
 3. Click to create a **New** Entity Permissions Record.
 

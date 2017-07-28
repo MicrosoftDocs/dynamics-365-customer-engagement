@@ -25,10 +25,10 @@ You can manage the following types of site settings:
 
 ## Manage portal site settings
 
-1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
+1.  Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
 2.  Go to **Portals** &gt; **Site Settings**
 3.  To create a new setting: Click **New**
-4.  To edit an existing setting: Double-click on the **Site Setting** listed in the grid
+4.  To edit an existing setting: Double-click the **Site Setting** listed in the grid
 5. Specify values for the fields provided: 
     - **Name**:  A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website as the code retrieving the setting will take the first record found with the matching name.
     - **Website**:  The associated website. 
@@ -41,10 +41,10 @@ You can manage the following types of site settings:
 
 ## Manage global portal settings
 
-1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
+1.  Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
 2.  Go to **Settings** &gt; **Settings**.
 3.  To create a new setting: Click **New**
-4.  To edit an existing setting: Double-click on the **Site Setting** listed in the grid
+4.  To edit an existing setting: Double-click the **Site Setting** listed in the grid
 5. Specify values for the fields provided: 
     - **Name**:  A unique name referenced by code to retrieve the appropriate setting.
     - **Value**: The setting

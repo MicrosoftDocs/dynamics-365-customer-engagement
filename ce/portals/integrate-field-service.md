@@ -26,7 +26,7 @@ To create/edit an agreement to be visible on the portal,
 3. Fill in the **Service Account** field with the account the customer is connected to 
 4. Select the **Expose to Customer** checkbox (both under the **General** tab). 
 
-Now a customer can sign in to the portal, go to **Field Service** &gt; **Agreements**, and change the filer to **All Agreements**. Now the customer can view the agreements created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The page will show basic details and the customer can click on an agreement to view the specific agreement details.
+Now a customer can sign in to the portal, go to **Field Service** &gt; **Agreements**, and change the filer to **All Agreements**. Now the customer can view the agreements created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The page will show basic details and the customer can click an agreement to view the specific agreement details.
 
 ![View agreements in a partner portal](media/view-agreements-partner-portal.png "View agreements in a partner portal")  
 
@@ -52,7 +52,7 @@ Customers can view active and inactive work orders on the portal that are connec
 
 To make a work order viewable in a portal, 
 1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Work Order & Schedule** &gt; **Work Orders**. 
-2. Click on the work order to edit or click the **+ New** button to create a new one. 
+2. Click the work order you want to edit, or click **+ New** to create a new one. 
 3. Fill in the **Service Account** with the account the customer is connected to and select the **Expose to Customer** checkbox to allow a customer to view it on the portal. 
 
 After signing in to the portal, the customer can go to **Field Service** &gt; **Work Orders** and see the work orders that are connected to their account.

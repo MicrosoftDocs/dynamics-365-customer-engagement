@@ -69,7 +69,7 @@ For portal users with moderation permission, moderation controls will automatica
 
 Forum Access Permission is a security rule that can be assigned to a particular forum and web role that can restrict particular users from viewing the forum or granting particular users the ability to moderate a forum within the webpages. To create, edit, or delete forum access permissions from within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
-1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
 2. Navigate to **Community**
 3. Click **Forum Access Permissions**
 
@@ -79,7 +79,7 @@ To create a new forum access permission, click **New**.
 
 ### Edit an existing forum access permission
 
-1. Double-click on an existing **Forum Access Permission** listed in the grid.
+1. Double-click an existing **Forum Access Permission** listed in the grid.
 2. Specify values for the fields provided.
 3. Click **Save & Close**
 

@@ -21,7 +21,7 @@ To turn on the content access level based filtering of knowledge articles on you
 
 ## Create content access levels
 
-1. Log into Dynamics and go to **Portals &gt; Security &gt; Content Access Levels**.
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Content Access Levels**.
 2. Click the **New** button in the ribbon.
 3. Fill in the **Name** and **Description**.
 4. Change **Default Access Level** from **No** to **Yes** if it should be the default.
@@ -37,10 +37,10 @@ To turn on the content access level based filtering of knowledge articles on you
 
 ## Assign content access levels to portal users
 
-1.  Log into Dynamics and go to **Portals &gt; Security &gt; Contacts**.
+1.  Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Contacts**.
 2.  Select the Contact you wish to edit.
 3.  Under the **Details** tab, find the **Content Access Levels** section.
 4.  Press **+** to add a new content access level or the **Trash Can symbol** next to a content access level to remove it.
 
 > [!NOTE] 
-> Content access levels can also be inherited to a user if assigned to a Web Role, Parent Contact, or Account that the user is connected to. This inheritance avoids the need to reassign/update content access levels at an individual level. Web Roles are assigned a content access level by navigating to **Portals &gt; Security &gt; Web Roles** and then following the same steps. Accounts are assigned a content access level by navigating to **Sales** &gt; **Accounts** then selecting the account to edit. After the account is selected, find the **Content Access Levels** section on the right side of the screen and use the **+** and **Trash Can** buttons to add or remove a content access level.
+> Content access levels can also be inherited to a user if assigned to a Web Role, Parent Contact, or Account that the user is connected to. This inheritance avoids the need to reassign/update content access levels at an individual level. Web Roles are assigned a content access level by navigating to **Portals** &gt; **Security** &gt; **Web Roles** and then following the same steps. Accounts are assigned a content access level by navigating to **Sales** &gt; **Accounts** then selecting the account to edit. After the account is selected, find the **Content Access Levels** section on the right side of the screen and use the **+** and **Trash Can** buttons to add or remove a content access level.

@@ -23,7 +23,7 @@ Depending on the page template implemented by your developer, the functionality 
 
 Users can indicate they wish to receive notification when new posts are created by navigating to a forum thread and clicking the **Alert Me** link.
 
-1. Login to the **Portal**.
+1. Sign in to the **Portal**.
 2. Navigate to a **Forum Thread**.
 3. Click **Subscribe**.
 
@@ -33,7 +33,7 @@ Users can indicate they wish to receive notification when new posts are created 
 
 Users can indicate that they do not wish to receive notification when new posts are created for a given thread by navigating to the forum thread and clicking the **RemoveAlert** link.
 
-1. Login to the **Portal**.
+1. Sign in to the **Portal**.
 2. Navigate to a **Forum Thread**.
 3. Click **Unsubscribe**.
 
@@ -43,10 +43,10 @@ Users can indicate that they do not wish to receive notification when new posts 
 
 Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**.
 3. Click **Forum Threads**.
-4. Double-click on an existing **Forum Thread** listed in the grid. 
+4. Double-click an existing **Forum Thread** listed in the grid. 
 5. Click **Forum Alerts** in the leftmost navigation menu.
 
 ### Create a new alert subscription
@@ -55,7 +55,7 @@ Although the portal is the primary source for creating or removing alerts. Forum
 
 ### Edit an existing alert
 
-1. Double-click on the **Forum Alert** listed in the grid.
+1. Double-click the **Forum Alert** listed in the grid.
 2. Specify values for the fields provided.
 3. Click **Save & Close**
 

@@ -16,14 +16,14 @@ manager: sakudes
 # Rate or vote on a webpage or blog post on a portal
 Ratings provides users with the ability to rate or vote on a webpage or [blog post](manage-blogs.md). Ratings can also be enabled for comments on pages or blog posts. By default, this feature is disabled and can be enabled on a page-by-page basis within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-Ratings are custom [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] activities and thus can be used in the same way as any other activity such as emails, phone calls, and so on. Because Ratings are activities, it is possible,with customization, to have ratings appear for any entity you choose that appears and is rendered on the portal, including custom entities.
+Ratings are custom [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] activities and thus can be used in the same way as any other activity such as emails, phone calls, and so on. Because Ratings are activities, it is possible, with customization, to have ratings appear for any entity you choose that appears and is rendered on the portal, including custom entities.
 
 ## Enable ratings for pages and blog posts
 
-1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
-2. Navigate to **Portals**.
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+2. Go to **Portals**.
 3. Click **Web Pages**.
-4. Double-click on the desired **Web Page** listed in the grid.
+4. Double-click the desired **Web Page** listed in the grid.
 5. Set **Enable Ratings** to **Yes**.
 6. Click **Save & Close**.
 
@@ -43,7 +43,7 @@ For webpages that have page ratings enabled and the developer has applied the co
 
 The ratings for webpages can be viewed, modified, or deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **the Web page**, **Blog Post**, **Page Comment**, or **Blog Post Comment** that you are interested in seeing the ratings for.
 3. Navigate to **Activities**.
 

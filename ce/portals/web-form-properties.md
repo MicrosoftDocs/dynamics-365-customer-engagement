@@ -95,7 +95,7 @@ On the **Web Form Step** that has fields that you would like to modify
 
 1. Click the **Metadata** link in the leftmost navigation area: 
 - To add a new record, click **Add New Web Form Metadata**.
-- To edit an existing record, double-click on a record in the grid.
+- To edit an existing record, double-click a record in the grid.
 
 ### Web form metadata properties
 

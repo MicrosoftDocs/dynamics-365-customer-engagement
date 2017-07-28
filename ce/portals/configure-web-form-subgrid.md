@@ -25,7 +25,7 @@ To add Subgrid Metadata to an Entity Form, go to **Entity Form Metadata** by usi
 
 To add a new record, click **Add New Entity Form Metadata**.
 
-To edit an existing record, double-click on a record in the grid. Selecting Subgrid as the Type value displays another attribute, "Subgrid Name".
+To edit an existing record, double-click a record in the grid. Selecting Subgrid as the Type value displays another attribute, "Subgrid Name".
 
 | Name         | Description                                                               |
 |--------------|---------------------------------------------------------------------------|
