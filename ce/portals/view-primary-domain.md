@@ -18,7 +18,7 @@ manager: sakudes
 
 When you provision a portal, the domain name is stored in the **Primary Domain Name** field on the website record. If any change is made to the domain name through Portal Administration Center, the latest domain name is stored in the **Primary Domain Name** field. If you have not created a custom domain name, the vanity domain name is stored in the **Primary Domain Name** field.
 
-If a Portal user manually changes the value in the **Primary Domain Name** field, the value is updated only if it is one of the valid domain names.
+If a portal user manually changes the value in the **Primary Domain Name** field, the value is updated only if it is one of the valid domain names.
 
 For example:
 
@@ -26,8 +26,8 @@ The existing domain name is contoso.microsoftcrmportals.com. The initial value o
 
 You configure a custom domain name as myportal.com. The updated value of the **Primary Domain Name** field is myportal.com.
 Let’s take the following scenarios:
-- **Scenario 1**: If a Portal user changes the **Primary Domain Name** field value to yourportal.com, the value of the field will be reverted to myportal.com, which is the primary domain name.
-- **Scenario 2**: If a Portal user changes the **Primary Domain Name** field value to contoso.microsoftcrmportals.com, the value of the field will be retained because it is one of the valid domain names.
+- **Scenario 1**: If a portal user changes the **Primary Domain Name** field value to yourportal.com, the value of the field will be reverted to myportal.com, which is the primary domain name.
+- **Scenario 2**: If a portal user changes the **Primary Domain Name** field value to contoso.microsoftcrmportals.com, the value of the field will be retained because it is one of the valid domain names.
 
 To view the primary domain name in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 1.	Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].

@@ -48,7 +48,7 @@ The forum thread editor will appear automatically when a user has successfully s
 
 ### Forum thread attributes used by portals
 
-The table below explains many of the Forum Thread attributes used by Portals. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
+The table below explains many of the Forum Thread attributes used by portals. It is important to note that the way in which many of the content/display-oriented attributes are rendered is controlled by the page template used.
 
 |Name           |Description                                                                                                                 |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------|

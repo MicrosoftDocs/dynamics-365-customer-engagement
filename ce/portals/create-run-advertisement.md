@@ -19,7 +19,7 @@ Create text or image-based ads and have them run in multiple placements througho
 
 ## Create a new advertisement
 
-Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the Ad placement. The Ad must be associated with an Ad Placement to appear on the portal. For this demonstration, the out-of-the-box example "Place Holder" Ad and "Sidebar Bottom" Ad Placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity prior to creating more complex Ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration calls on the "Sidebar Bottom" Ad Placement name.
+Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the Ad placement. The Ad must be associated with an Ad Placement to appear on the portal. For this demonstration, the out-of-the-box example "Place Holder" Ad and "Sidebar Bottom" Ad Placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity prior to creating more complex Ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration call on the "Sidebar Bottom" Ad Placement name.
 
 1. Go to **Portals** > **Ads**
 2. Open the **Placeholder** Ad associated with the **Company Portal** website (this can be done with starter site of your choosing by clicking **+NEW** and creating an identical Ad sub the Website). 

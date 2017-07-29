@@ -20,14 +20,14 @@ Web page access control rules are rules that you create for your site to control
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name        | A descriptive name for the rule.                                                                                                                                                                                                                           |
 | Website     | The website that this rule applies to; must match the website of the page to which this rule is applied. Filters Web Page.                                                                                                                                 |
-| Web Page    | The Web Page that this rule applies to. The rule will affect not only the page but all child pages of the page, therefore making this attribute select the branch of the website to which the rule will apply. If a rule is applied to the home page, then it will apply to the entire Portal. |  |
+| Web Page    | The Web Page that this rule applies to. The rule will affect not only the page but all child pages of the page, therefore making this attribute select the branch of the website to which the rule will apply. If a rule is applied to the home page, then it will apply to the entire portal. |  |
 | Right       | [Grant change](#_Grant_change) or [Restrict read] (#_Restricted_read) below.|  
 |Scope| <ul><li>**All content**: All descendant content is included in security validation.</li><li>**Exclude related child web files**: All child web files directly related to this web page are excluded from security validation. This does not exclude child's descendants.</li></ul>By default, All content is selected.|
 | Description | (Optional) A description of the rule.|
 
-After creating a new access control rule, associate it with a page, this will cause it to affect both the page you assign the rule to as well as all child pages in other words, the entire 'branch' of the website.
+After creating a new access control rule, associate it with a page. This will cause it to affect both the page you assign the rule to and all child pages&mdash;in other words, the entire "branch" of the website.
 
-There are two type of access control rule: Grant Change and Restrict Read.
+There are two types of access control rules: Grant Change and Restrict Read.
 
 ## Grant Change
 
