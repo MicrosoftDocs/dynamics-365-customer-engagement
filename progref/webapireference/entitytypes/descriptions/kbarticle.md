@@ -1,0 +1,1 @@
+Structured content that is part of the knowledge base.

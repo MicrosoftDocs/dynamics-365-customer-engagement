@@ -1,0 +1,1 @@
+System generated journal to calculate the cost of the resource bookings

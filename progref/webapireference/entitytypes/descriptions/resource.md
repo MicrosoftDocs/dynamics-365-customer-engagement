@@ -1,0 +1,1 @@
+User or facility/equipment that can be scheduled for a service.

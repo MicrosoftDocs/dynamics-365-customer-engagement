@@ -1,0 +1,1 @@
+Pay Types of resources hourly rate to calculate the resource cost

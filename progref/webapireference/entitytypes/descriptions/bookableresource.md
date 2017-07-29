@@ -1,0 +1,1 @@
+Resource that has capacity which can be allocated to work.

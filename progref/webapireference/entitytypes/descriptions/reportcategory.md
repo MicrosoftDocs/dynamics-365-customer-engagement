@@ -1,0 +1,1 @@
+Categories related to a report. A report can be related to multiple categories.

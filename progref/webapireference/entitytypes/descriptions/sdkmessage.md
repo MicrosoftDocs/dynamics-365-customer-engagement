@@ -1,0 +1,1 @@
+Message that is supported by the SDK.

@@ -1,0 +1,1 @@
+Specify custom RMA sub-statuses, which can be used to specify the current RMA status more precisely.

@@ -1,0 +1,1 @@
+Contains metadata that defines a set of options.

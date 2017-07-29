@@ -1,0 +1,1 @@
+Aggregated fact entity for actual transactions.

@@ -1,0 +1,1 @@
+Sales estimate detail of an opportunity line.

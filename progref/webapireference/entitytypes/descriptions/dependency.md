@@ -1,0 +1,1 @@
+A component dependency in CRM.

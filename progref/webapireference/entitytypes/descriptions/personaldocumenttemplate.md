@@ -1,0 +1,1 @@
+Used to store Personal Document Templates in database in binary format.

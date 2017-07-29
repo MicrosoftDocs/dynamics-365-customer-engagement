@@ -1,0 +1,1 @@
+Indicates the type of network access an endpoint has. 

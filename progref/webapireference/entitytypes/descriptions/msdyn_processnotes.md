@@ -1,0 +1,1 @@
+Stores messages or notes relevant to an operation or process executed by an entity.

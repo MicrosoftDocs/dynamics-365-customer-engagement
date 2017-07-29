@@ -1,0 +1,1 @@
+Entity for categorizing records to make it easier for your customers to find them on portals and through search.

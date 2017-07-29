@@ -1,0 +1,414 @@
+---
+title: "RetrievePrincipalAccess Function| MicrosoftDocs"
+ms.date: "2017-07-10"
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 24f3ab7f-454b-4596-a670-ac9338cb10d5
+author: "jimdaly"
+ms.author: "jdaly"
+manager: "jdaly"
+---
+# RetrievePrincipalAccess Function
+[!INCLUDE[./descriptions/retrieveprincipalaccess.md](./descriptions/retrieveprincipalaccess.md)]
+
+
+
+## Bound Entities 
+Bound functions are invoked by appending the function name to the URI representing an entity or collection.
+|EntityType|Binding Type|
+|----------|-----------------|
+|[systemuser Entitytype](../entitytypes/systemuser.md)|entity|
+|[team Entitytype](../entitytypes/team.md)|entity|
+
+## Parameters 
+Parameters allow for data to be passed to the function.
+|Name|Type|Nullable|Unicode|Description|
+|----------|-----------------|----------|-----------------|-----------------|  
+|Target|[crmbaseentity EntityType](../entitytypes/crmbaseentity.md)|false|true|The target record for which to retrieve access rights.|
+
+## Return Type
+The RetrievePrincipalAccess function returns the following value.
+|Type|Nullable|Description| 
+|----------|-----------------|-----------------|    
+|[RetrievePrincipalAccessResponse ComplexType](../complextypes/RetrievePrincipalAccessResponse.md)|false|Contains the results from the RetrievePrincipalAccess function.|
+
+## Entities
+Use the RetrievePrincipalAccess function with the following entity types:
+|EntityType |Description| 
+|----------|-----------------|    
+|[account Entitytype](../entitytypes/account.md)|[!INCLUDE[../entitytypes/descriptions/account.md](../entitytypes/descriptions/account.md)]|
+|[adx_ad Entitytype](../entitytypes/adx_ad.md)|[!INCLUDE[../entitytypes/descriptions/adx_ad.md](../entitytypes/descriptions/adx_ad.md)]|
+|[adx_adplacement Entitytype](../entitytypes/adx_adplacement.md)|[!INCLUDE[../entitytypes/descriptions/adx_adplacement.md](../entitytypes/descriptions/adx_adplacement.md)]|
+|[adx_alertsubscription Entitytype](../entitytypes/adx_alertsubscription.md)|[!INCLUDE[../entitytypes/descriptions/adx_alertsubscription.md](../entitytypes/descriptions/adx_alertsubscription.md)]|
+|[adx_contentsnippet Entitytype](../entitytypes/adx_contentsnippet.md)|[!INCLUDE[../entitytypes/descriptions/adx_contentsnippet.md](../entitytypes/descriptions/adx_contentsnippet.md)]|
+|[adx_invitation Entitytype](../entitytypes/adx_invitation.md)|[!INCLUDE[../entitytypes/descriptions/adx_invitation.md](../entitytypes/descriptions/adx_invitation.md)]|
+|[adx_inviteredemption Entitytype](../entitytypes/adx_inviteredemption.md)|[!INCLUDE[../entitytypes/descriptions/adx_inviteredemption.md](../entitytypes/descriptions/adx_inviteredemption.md)]|
+|[adx_pagealert Entitytype](../entitytypes/adx_pagealert.md)|[!INCLUDE[../entitytypes/descriptions/adx_pagealert.md](../entitytypes/descriptions/adx_pagealert.md)]|
+|[adx_pagenotification Entitytype](../entitytypes/adx_pagenotification.md)|[!INCLUDE[../entitytypes/descriptions/adx_pagenotification.md](../entitytypes/descriptions/adx_pagenotification.md)]|
+|[adx_pagetag Entitytype](../entitytypes/adx_pagetag.md)|[!INCLUDE[../entitytypes/descriptions/adx_pagetag.md](../entitytypes/descriptions/adx_pagetag.md)]|
+|[adx_pagetemplate Entitytype](../entitytypes/adx_pagetemplate.md)|[!INCLUDE[../entitytypes/descriptions/adx_pagetemplate.md](../entitytypes/descriptions/adx_pagetemplate.md)]|
+|[adx_poll Entitytype](../entitytypes/adx_poll.md)|[!INCLUDE[../entitytypes/descriptions/adx_poll.md](../entitytypes/descriptions/adx_poll.md)]|
+|[adx_polloption Entitytype](../entitytypes/adx_polloption.md)|[!INCLUDE[../entitytypes/descriptions/adx_polloption.md](../entitytypes/descriptions/adx_polloption.md)]|
+|[adx_pollplacement Entitytype](../entitytypes/adx_pollplacement.md)|[!INCLUDE[../entitytypes/descriptions/adx_pollplacement.md](../entitytypes/descriptions/adx_pollplacement.md)]|
+|[adx_pollsubmission Entitytype](../entitytypes/adx_pollsubmission.md)|[!INCLUDE[../entitytypes/descriptions/adx_pollsubmission.md](../entitytypes/descriptions/adx_pollsubmission.md)]|
+|[adx_portalcomment Entitytype](../entitytypes/adx_portalcomment.md)|[!INCLUDE[../entitytypes/descriptions/adx_portalcomment.md](../entitytypes/descriptions/adx_portalcomment.md)]|
+|[adx_portallanguage Entitytype](../entitytypes/adx_portallanguage.md)|[!INCLUDE[../entitytypes/descriptions/adx_portallanguage.md](../entitytypes/descriptions/adx_portallanguage.md)]|
+|[adx_publishingstate Entitytype](../entitytypes/adx_publishingstate.md)|[!INCLUDE[../entitytypes/descriptions/adx_publishingstate.md](../entitytypes/descriptions/adx_publishingstate.md)]|
+|[adx_publishingstatetransitionrule Entitytype](../entitytypes/adx_publishingstatetransitionrule.md)|[!INCLUDE[../entitytypes/descriptions/adx_publishingstatetransitionrule.md](../entitytypes/descriptions/adx_publishingstatetransitionrule.md)]|
+|[adx_redirect Entitytype](../entitytypes/adx_redirect.md)|[!INCLUDE[../entitytypes/descriptions/adx_redirect.md](../entitytypes/descriptions/adx_redirect.md)]|
+|[adx_setting Entitytype](../entitytypes/adx_setting.md)|[!INCLUDE[../entitytypes/descriptions/adx_setting.md](../entitytypes/descriptions/adx_setting.md)]|
+|[adx_shortcut Entitytype](../entitytypes/adx_shortcut.md)|[!INCLUDE[../entitytypes/descriptions/adx_shortcut.md](../entitytypes/descriptions/adx_shortcut.md)]|
+|[adx_sitemarker Entitytype](../entitytypes/adx_sitemarker.md)|[!INCLUDE[../entitytypes/descriptions/adx_sitemarker.md](../entitytypes/descriptions/adx_sitemarker.md)]|
+|[adx_sitesetting Entitytype](../entitytypes/adx_sitesetting.md)|[!INCLUDE[../entitytypes/descriptions/adx_sitesetting.md](../entitytypes/descriptions/adx_sitesetting.md)]|
+|[adx_tag Entitytype](../entitytypes/adx_tag.md)|[!INCLUDE[../entitytypes/descriptions/adx_tag.md](../entitytypes/descriptions/adx_tag.md)]|
+|[adx_urlhistory Entitytype](../entitytypes/adx_urlhistory.md)|[!INCLUDE[../entitytypes/descriptions/adx_urlhistory.md](../entitytypes/descriptions/adx_urlhistory.md)]|
+|[adx_webfile Entitytype](../entitytypes/adx_webfile.md)|[!INCLUDE[../entitytypes/descriptions/adx_webfile.md](../entitytypes/descriptions/adx_webfile.md)]|
+|[adx_webfilelog Entitytype](../entitytypes/adx_webfilelog.md)|[!INCLUDE[../entitytypes/descriptions/adx_webfilelog.md](../entitytypes/descriptions/adx_webfilelog.md)]|
+|[adx_webform Entitytype](../entitytypes/adx_webform.md)|[!INCLUDE[../entitytypes/descriptions/adx_webform.md](../entitytypes/descriptions/adx_webform.md)]|
+|[adx_weblink Entitytype](../entitytypes/adx_weblink.md)|[!INCLUDE[../entitytypes/descriptions/adx_weblink.md](../entitytypes/descriptions/adx_weblink.md)]|
+|[adx_weblinkset Entitytype](../entitytypes/adx_weblinkset.md)|[!INCLUDE[../entitytypes/descriptions/adx_weblinkset.md](../entitytypes/descriptions/adx_weblinkset.md)]|
+|[adx_webnotificationurl Entitytype](../entitytypes/adx_webnotificationurl.md)|[!INCLUDE[../entitytypes/descriptions/adx_webnotificationurl.md](../entitytypes/descriptions/adx_webnotificationurl.md)]|
+|[adx_webpage Entitytype](../entitytypes/adx_webpage.md)|[!INCLUDE[../entitytypes/descriptions/adx_webpage.md](../entitytypes/descriptions/adx_webpage.md)]|
+|[adx_webpageaccesscontrolrule Entitytype](../entitytypes/adx_webpageaccesscontrolrule.md)|[!INCLUDE[../entitytypes/descriptions/adx_webpageaccesscontrolrule.md](../entitytypes/descriptions/adx_webpageaccesscontrolrule.md)]|
+|[adx_webpagehistory Entitytype](../entitytypes/adx_webpagehistory.md)|[!INCLUDE[../entitytypes/descriptions/adx_webpagehistory.md](../entitytypes/descriptions/adx_webpagehistory.md)]|
+|[adx_webpagelog Entitytype](../entitytypes/adx_webpagelog.md)|[!INCLUDE[../entitytypes/descriptions/adx_webpagelog.md](../entitytypes/descriptions/adx_webpagelog.md)]|
+|[adx_webrole Entitytype](../entitytypes/adx_webrole.md)|[!INCLUDE[../entitytypes/descriptions/adx_webrole.md](../entitytypes/descriptions/adx_webrole.md)]|
+|[adx_website Entitytype](../entitytypes/adx_website.md)|[!INCLUDE[../entitytypes/descriptions/adx_website.md](../entitytypes/descriptions/adx_website.md)]|
+|[adx_websiteaccess Entitytype](../entitytypes/adx_websiteaccess.md)|[!INCLUDE[../entitytypes/descriptions/adx_websiteaccess.md](../entitytypes/descriptions/adx_websiteaccess.md)]|
+|[adx_websitelanguage Entitytype](../entitytypes/adx_websitelanguage.md)|[!INCLUDE[../entitytypes/descriptions/adx_websitelanguage.md](../entitytypes/descriptions/adx_websitelanguage.md)]|
+|[annotation Entitytype](../entitytypes/annotation.md)|[!INCLUDE[../entitytypes/descriptions/annotation.md](../entitytypes/descriptions/annotation.md)]|
+|[appointment Entitytype](../entitytypes/appointment.md)|[!INCLUDE[../entitytypes/descriptions/appointment.md](../entitytypes/descriptions/appointment.md)]|
+|[asyncoperation Entitytype](../entitytypes/asyncoperation.md)|[!INCLUDE[../entitytypes/descriptions/asyncoperation.md](../entitytypes/descriptions/asyncoperation.md)]|
+|[bookableresource Entitytype](../entitytypes/bookableresource.md)|[!INCLUDE[../entitytypes/descriptions/bookableresource.md](../entitytypes/descriptions/bookableresource.md)]|
+|[bookableresourcebooking Entitytype](../entitytypes/bookableresourcebooking.md)|[!INCLUDE[../entitytypes/descriptions/bookableresourcebooking.md](../entitytypes/descriptions/bookableresourcebooking.md)]|
+|[bookableresourcebookingheader Entitytype](../entitytypes/bookableresourcebookingheader.md)|[!INCLUDE[../entitytypes/descriptions/bookableresourcebookingheader.md](../entitytypes/descriptions/bookableresourcebookingheader.md)]|
+|[bookableresourcecategory Entitytype](../entitytypes/bookableresourcecategory.md)|[!INCLUDE[../entitytypes/descriptions/bookableresourcecategory.md](../entitytypes/descriptions/bookableresourcecategory.md)]|
+|[bookableresourcecategoryassn Entitytype](../entitytypes/bookableresourcecategoryassn.md)|[!INCLUDE[../entitytypes/descriptions/bookableresourcecategoryassn.md](../entitytypes/descriptions/bookableresourcecategoryassn.md)]|
+|[bookableresourcecharacteristic Entitytype](../entitytypes/bookableresourcecharacteristic.md)|[!INCLUDE[../entitytypes/descriptions/bookableresourcecharacteristic.md](../entitytypes/descriptions/bookableresourcecharacteristic.md)]|
+|[bookableresourcegroup Entitytype](../entitytypes/bookableresourcegroup.md)|[!INCLUDE[../entitytypes/descriptions/bookableresourcegroup.md](../entitytypes/descriptions/bookableresourcegroup.md)]|
+|[bookingstatus Entitytype](../entitytypes/bookingstatus.md)|[!INCLUDE[../entitytypes/descriptions/bookingstatus.md](../entitytypes/descriptions/bookingstatus.md)]|
+|[bulkoperation Entitytype](../entitytypes/bulkoperation.md)|[!INCLUDE[../entitytypes/descriptions/bulkoperation.md](../entitytypes/descriptions/bulkoperation.md)]|
+|[campaign Entitytype](../entitytypes/campaign.md)|[!INCLUDE[../entitytypes/descriptions/campaign.md](../entitytypes/descriptions/campaign.md)]|
+|[campaignactivity Entitytype](../entitytypes/campaignactivity.md)|[!INCLUDE[../entitytypes/descriptions/campaignactivity.md](../entitytypes/descriptions/campaignactivity.md)]|
+|[campaignresponse Entitytype](../entitytypes/campaignresponse.md)|[!INCLUDE[../entitytypes/descriptions/campaignresponse.md](../entitytypes/descriptions/campaignresponse.md)]|
+|[category Entitytype](../entitytypes/category.md)|[!INCLUDE[../entitytypes/descriptions/category.md](../entitytypes/descriptions/category.md)]|
+|[characteristic Entitytype](../entitytypes/characteristic.md)|[!INCLUDE[../entitytypes/descriptions/characteristic.md](../entitytypes/descriptions/characteristic.md)]|
+|[connection Entitytype](../entitytypes/connection.md)|[!INCLUDE[../entitytypes/descriptions/connection.md](../entitytypes/descriptions/connection.md)]|
+|[contact Entitytype](../entitytypes/contact.md)|[!INCLUDE[../entitytypes/descriptions/contact.md](../entitytypes/descriptions/contact.md)]|
+|[contract Entitytype](../entitytypes/contract.md)|[!INCLUDE[../entitytypes/descriptions/contract.md](../entitytypes/descriptions/contract.md)]|
+|[duplicaterule Entitytype](../entitytypes/duplicaterule.md)|[!INCLUDE[../entitytypes/descriptions/duplicaterule.md](../entitytypes/descriptions/duplicaterule.md)]|
+|[email Entitytype](../entitytypes/email.md)|[!INCLUDE[../entitytypes/descriptions/email.md](../entitytypes/descriptions/email.md)]|
+|[emailserverprofile Entitytype](../entitytypes/emailserverprofile.md)|[!INCLUDE[../entitytypes/descriptions/emailserverprofile.md](../entitytypes/descriptions/emailserverprofile.md)]|
+|[entitlement Entitytype](../entitytypes/entitlement.md)|[!INCLUDE[../entitytypes/descriptions/entitlement.md](../entitytypes/descriptions/entitlement.md)]|
+|[fax Entitytype](../entitytypes/fax.md)|[!INCLUDE[../entitytypes/descriptions/fax.md](../entitytypes/descriptions/fax.md)]|
+|[feedback Entitytype](../entitytypes/feedback.md)|[!INCLUDE[../entitytypes/descriptions/feedback.md](../entitytypes/descriptions/feedback.md)]|
+|[goal Entitytype](../entitytypes/goal.md)|[!INCLUDE[../entitytypes/descriptions/goal.md](../entitytypes/descriptions/goal.md)]|
+|[goalrollupquery Entitytype](../entitytypes/goalrollupquery.md)|[!INCLUDE[../entitytypes/descriptions/goalrollupquery.md](../entitytypes/descriptions/goalrollupquery.md)]|
+|[import Entitytype](../entitytypes/import.md)|[!INCLUDE[../entitytypes/descriptions/import.md](../entitytypes/descriptions/import.md)]|
+|[importfile Entitytype](../entitytypes/importfile.md)|[!INCLUDE[../entitytypes/descriptions/importfile.md](../entitytypes/descriptions/importfile.md)]|
+|[importmap Entitytype](../entitytypes/importmap.md)|[!INCLUDE[../entitytypes/descriptions/importmap.md](../entitytypes/descriptions/importmap.md)]|
+|[incident Entitytype](../entitytypes/incident.md)|[!INCLUDE[../entitytypes/descriptions/incident.md](../entitytypes/descriptions/incident.md)]|
+|[incidentresolution Entitytype](../entitytypes/incidentresolution.md)|[!INCLUDE[../entitytypes/descriptions/incidentresolution.md](../entitytypes/descriptions/incidentresolution.md)]|
+|[invoice Entitytype](../entitytypes/invoice.md)|[!INCLUDE[../entitytypes/descriptions/invoice.md](../entitytypes/descriptions/invoice.md)]|
+|[knowledgearticle Entitytype](../entitytypes/knowledgearticle.md)|[!INCLUDE[../entitytypes/descriptions/knowledgearticle.md](../entitytypes/descriptions/knowledgearticle.md)]|
+|[knowledgebaserecord Entitytype](../entitytypes/knowledgebaserecord.md)|[!INCLUDE[../entitytypes/descriptions/knowledgebaserecord.md](../entitytypes/descriptions/knowledgebaserecord.md)]|
+|[lead Entitytype](../entitytypes/lead.md)|[!INCLUDE[../entitytypes/descriptions/lead.md](../entitytypes/descriptions/lead.md)]|
+|[letter Entitytype](../entitytypes/letter.md)|[!INCLUDE[../entitytypes/descriptions/letter.md](../entitytypes/descriptions/letter.md)]|
+|[list Entitytype](../entitytypes/list.md)|[!INCLUDE[../entitytypes/descriptions/list.md](../entitytypes/descriptions/list.md)]|
+|[mailbox Entitytype](../entitytypes/mailbox.md)|[!INCLUDE[../entitytypes/descriptions/mailbox.md](../entitytypes/descriptions/mailbox.md)]|
+|[mailmergetemplate Entitytype](../entitytypes/mailmergetemplate.md)|[!INCLUDE[../entitytypes/descriptions/mailmergetemplate.md](../entitytypes/descriptions/mailmergetemplate.md)]|
+|[msdyn_accountpricelist Entitytype](../entitytypes/msdyn_accountpricelist.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_accountpricelist.md](../entitytypes/descriptions/msdyn_accountpricelist.md)]|
+|[msdyn_actual Entitytype](../entitytypes/msdyn_actual.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_actual.md](../entitytypes/descriptions/msdyn_actual.md)]|
+|[msdyn_agreement Entitytype](../entitytypes/msdyn_agreement.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreement.md](../entitytypes/descriptions/msdyn_agreement.md)]|
+|[msdyn_agreementbookingdate Entitytype](../entitytypes/msdyn_agreementbookingdate.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementbookingdate.md](../entitytypes/descriptions/msdyn_agreementbookingdate.md)]|
+|[msdyn_agreementbookingincident Entitytype](../entitytypes/msdyn_agreementbookingincident.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementbookingincident.md](../entitytypes/descriptions/msdyn_agreementbookingincident.md)]|
+|[msdyn_agreementbookingproduct Entitytype](../entitytypes/msdyn_agreementbookingproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementbookingproduct.md](../entitytypes/descriptions/msdyn_agreementbookingproduct.md)]|
+|[msdyn_agreementbookingservice Entitytype](../entitytypes/msdyn_agreementbookingservice.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementbookingservice.md](../entitytypes/descriptions/msdyn_agreementbookingservice.md)]|
+|[msdyn_agreementbookingservicetask Entitytype](../entitytypes/msdyn_agreementbookingservicetask.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementbookingservicetask.md](../entitytypes/descriptions/msdyn_agreementbookingservicetask.md)]|
+|[msdyn_agreementbookingsetup Entitytype](../entitytypes/msdyn_agreementbookingsetup.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementbookingsetup.md](../entitytypes/descriptions/msdyn_agreementbookingsetup.md)]|
+|[msdyn_agreementinvoicedate Entitytype](../entitytypes/msdyn_agreementinvoicedate.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementinvoicedate.md](../entitytypes/descriptions/msdyn_agreementinvoicedate.md)]|
+|[msdyn_agreementinvoiceproduct Entitytype](../entitytypes/msdyn_agreementinvoiceproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementinvoiceproduct.md](../entitytypes/descriptions/msdyn_agreementinvoiceproduct.md)]|
+|[msdyn_agreementinvoicesetup Entitytype](../entitytypes/msdyn_agreementinvoicesetup.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementinvoicesetup.md](../entitytypes/descriptions/msdyn_agreementinvoicesetup.md)]|
+|[msdyn_agreementsubstatus Entitytype](../entitytypes/msdyn_agreementsubstatus.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_agreementsubstatus.md](../entitytypes/descriptions/msdyn_agreementsubstatus.md)]|
+|[msdyn_answer Entitytype](../entitytypes/msdyn_answer.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_answer.md](../entitytypes/descriptions/msdyn_answer.md)]|
+|[msdyn_approval Entitytype](../entitytypes/msdyn_approval.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_approval.md](../entitytypes/descriptions/msdyn_approval.md)]|
+|[msdyn_bookingalert Entitytype](../entitytypes/msdyn_bookingalert.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_bookingalert.md](../entitytypes/descriptions/msdyn_bookingalert.md)]|
+|[msdyn_bookingalertstatus Entitytype](../entitytypes/msdyn_bookingalertstatus.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_bookingalertstatus.md](../entitytypes/descriptions/msdyn_bookingalertstatus.md)]|
+|[msdyn_bookingchange Entitytype](../entitytypes/msdyn_bookingchange.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_bookingchange.md](../entitytypes/descriptions/msdyn_bookingchange.md)]|
+|[msdyn_bookingjournal Entitytype](../entitytypes/msdyn_bookingjournal.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_bookingjournal.md](../entitytypes/descriptions/msdyn_bookingjournal.md)]|
+|[msdyn_bookingrule Entitytype](../entitytypes/msdyn_bookingrule.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_bookingrule.md](../entitytypes/descriptions/msdyn_bookingrule.md)]|
+|[msdyn_bookingsetupmetadata Entitytype](../entitytypes/msdyn_bookingsetupmetadata.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_bookingsetupmetadata.md](../entitytypes/descriptions/msdyn_bookingsetupmetadata.md)]|
+|[msdyn_bookingtimestamp Entitytype](../entitytypes/msdyn_bookingtimestamp.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_bookingtimestamp.md](../entitytypes/descriptions/msdyn_bookingtimestamp.md)]|
+|[msdyn_collaboration Entitytype](../entitytypes/msdyn_collaboration.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_collaboration.md](../entitytypes/descriptions/msdyn_collaboration.md)]|
+|[msdyn_contactpricelist Entitytype](../entitytypes/msdyn_contactpricelist.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_contactpricelist.md](../entitytypes/descriptions/msdyn_contactpricelist.md)]|
+|[msdyn_contractlinescheduleofvalue Entitytype](../entitytypes/msdyn_contractlinescheduleofvalue.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_contractlinescheduleofvalue.md](../entitytypes/descriptions/msdyn_contractlinescheduleofvalue.md)]|
+|[msdyn_customerasset Entitytype](../entitytypes/msdyn_customerasset.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_customerasset.md](../entitytypes/descriptions/msdyn_customerasset.md)]|
+|[msdyn_dataexport Entitytype](../entitytypes/msdyn_dataexport.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_dataexport.md](../entitytypes/descriptions/msdyn_dataexport.md)]|
+|[msdyn_delegation Entitytype](../entitytypes/msdyn_delegation.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_delegation.md](../entitytypes/descriptions/msdyn_delegation.md)]|
+|[msdyn_estimate Entitytype](../entitytypes/msdyn_estimate.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_estimate.md](../entitytypes/descriptions/msdyn_estimate.md)]|
+|[msdyn_estimateline Entitytype](../entitytypes/msdyn_estimateline.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_estimateline.md](../entitytypes/descriptions/msdyn_estimateline.md)]|
+|[msdyn_expense Entitytype](../entitytypes/msdyn_expense.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_expense.md](../entitytypes/descriptions/msdyn_expense.md)]|
+|[msdyn_expensereceipt Entitytype](../entitytypes/msdyn_expensereceipt.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_expensereceipt.md](../entitytypes/descriptions/msdyn_expensereceipt.md)]|
+|[msdyn_fact Entitytype](../entitytypes/msdyn_fact.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_fact.md](../entitytypes/descriptions/msdyn_fact.md)]|
+|[msdyn_feedbackmapping Entitytype](../entitytypes/msdyn_feedbackmapping.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_feedbackmapping.md](../entitytypes/descriptions/msdyn_feedbackmapping.md)]|
+|[msdyn_feedbacksubsurvey Entitytype](../entitytypes/msdyn_feedbacksubsurvey.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_feedbacksubsurvey.md](../entitytypes/descriptions/msdyn_feedbacksubsurvey.md)]|
+|[msdyn_fieldcomputation Entitytype](../entitytypes/msdyn_fieldcomputation.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_fieldcomputation.md](../entitytypes/descriptions/msdyn_fieldcomputation.md)]|
+|[msdyn_fieldservicesetting Entitytype](../entitytypes/msdyn_fieldservicesetting.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_fieldservicesetting.md](../entitytypes/descriptions/msdyn_fieldservicesetting.md)]|
+|[msdyn_findworkevent Entitytype](../entitytypes/msdyn_findworkevent.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_findworkevent.md](../entitytypes/descriptions/msdyn_findworkevent.md)]|
+|[msdyn_glympseagent Entitytype](../entitytypes/msdyn_glympseagent.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_glympseagent.md](../entitytypes/descriptions/msdyn_glympseagent.md)]|
+|[msdyn_glympsesetting Entitytype](../entitytypes/msdyn_glympsesetting.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_glympsesetting.md](../entitytypes/descriptions/msdyn_glympsesetting.md)]|
+|[msdyn_glympsetask Entitytype](../entitytypes/msdyn_glympsetask.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_glympsetask.md](../entitytypes/descriptions/msdyn_glympsetask.md)]|
+|[msdyn_groupsheader Entitytype](../entitytypes/msdyn_groupsheader.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_groupsheader.md](../entitytypes/descriptions/msdyn_groupsheader.md)]|
+|[msdyn_image Entitytype](../entitytypes/msdyn_image.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_image.md](../entitytypes/descriptions/msdyn_image.md)]|
+|[msdyn_import Entitytype](../entitytypes/msdyn_import.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_import.md](../entitytypes/descriptions/msdyn_import.md)]|
+|[msdyn_incidenttype Entitytype](../entitytypes/msdyn_incidenttype.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_incidenttype.md](../entitytypes/descriptions/msdyn_incidenttype.md)]|
+|[msdyn_incidenttypecharacteristic Entitytype](../entitytypes/msdyn_incidenttypecharacteristic.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_incidenttypecharacteristic.md](../entitytypes/descriptions/msdyn_incidenttypecharacteristic.md)]|
+|[msdyn_incidenttypeproduct Entitytype](../entitytypes/msdyn_incidenttypeproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_incidenttypeproduct.md](../entitytypes/descriptions/msdyn_incidenttypeproduct.md)]|
+|[msdyn_incidenttypeservice Entitytype](../entitytypes/msdyn_incidenttypeservice.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_incidenttypeservice.md](../entitytypes/descriptions/msdyn_incidenttypeservice.md)]|
+|[msdyn_incidenttypeservicetask Entitytype](../entitytypes/msdyn_incidenttypeservicetask.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_incidenttypeservicetask.md](../entitytypes/descriptions/msdyn_incidenttypeservicetask.md)]|
+|[msdyn_integrationjob Entitytype](../entitytypes/msdyn_integrationjob.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_integrationjob.md](../entitytypes/descriptions/msdyn_integrationjob.md)]|
+|[msdyn_integrationjobdetail Entitytype](../entitytypes/msdyn_integrationjobdetail.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_integrationjobdetail.md](../entitytypes/descriptions/msdyn_integrationjobdetail.md)]|
+|[msdyn_inventoryadjustment Entitytype](../entitytypes/msdyn_inventoryadjustment.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_inventoryadjustment.md](../entitytypes/descriptions/msdyn_inventoryadjustment.md)]|
+|[msdyn_inventoryadjustmentproduct Entitytype](../entitytypes/msdyn_inventoryadjustmentproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_inventoryadjustmentproduct.md](../entitytypes/descriptions/msdyn_inventoryadjustmentproduct.md)]|
+|[msdyn_inventoryjournal Entitytype](../entitytypes/msdyn_inventoryjournal.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_inventoryjournal.md](../entitytypes/descriptions/msdyn_inventoryjournal.md)]|
+|[msdyn_inventorytransfer Entitytype](../entitytypes/msdyn_inventorytransfer.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_inventorytransfer.md](../entitytypes/descriptions/msdyn_inventorytransfer.md)]|
+|[msdyn_invoicelinetransaction Entitytype](../entitytypes/msdyn_invoicelinetransaction.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_invoicelinetransaction.md](../entitytypes/descriptions/msdyn_invoicelinetransaction.md)]|
+|[msdyn_iotalert Entitytype](../entitytypes/msdyn_iotalert.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_iotalert.md](../entitytypes/descriptions/msdyn_iotalert.md)]|
+|[msdyn_iotdevice Entitytype](../entitytypes/msdyn_iotdevice.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_iotdevice.md](../entitytypes/descriptions/msdyn_iotdevice.md)]|
+|[msdyn_iotdevicecategory Entitytype](../entitytypes/msdyn_iotdevicecategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_iotdevicecategory.md](../entitytypes/descriptions/msdyn_iotdevicecategory.md)]|
+|[msdyn_iotdevicecommand Entitytype](../entitytypes/msdyn_iotdevicecommand.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_iotdevicecommand.md](../entitytypes/descriptions/msdyn_iotdevicecommand.md)]|
+|[msdyn_iotdeviceregistrationhistory Entitytype](../entitytypes/msdyn_iotdeviceregistrationhistory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_iotdeviceregistrationhistory.md](../entitytypes/descriptions/msdyn_iotdeviceregistrationhistory.md)]|
+|[msdyn_journal Entitytype](../entitytypes/msdyn_journal.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_journal.md](../entitytypes/descriptions/msdyn_journal.md)]|
+|[msdyn_journalline Entitytype](../entitytypes/msdyn_journalline.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_journalline.md](../entitytypes/descriptions/msdyn_journalline.md)]|
+|[msdyn_linkedanswer Entitytype](../entitytypes/msdyn_linkedanswer.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_linkedanswer.md](../entitytypes/descriptions/msdyn_linkedanswer.md)]|
+|[msdyn_opportunitylineresourcecategory Entitytype](../entitytypes/msdyn_opportunitylineresourcecategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_opportunitylineresourcecategory.md](../entitytypes/descriptions/msdyn_opportunitylineresourcecategory.md)]|
+|[msdyn_opportunitylinetransaction Entitytype](../entitytypes/msdyn_opportunitylinetransaction.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_opportunitylinetransaction.md](../entitytypes/descriptions/msdyn_opportunitylinetransaction.md)]|
+|[msdyn_opportunitylinetransactioncategory Entitytype](../entitytypes/msdyn_opportunitylinetransactioncategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_opportunitylinetransactioncategory.md](../entitytypes/descriptions/msdyn_opportunitylinetransactioncategory.md)]|
+|[msdyn_opportunitylinetransactionclassificatio Entitytype](../entitytypes/msdyn_opportunitylinetransactionclassificatio.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_opportunitylinetransactionclassificatio.md](../entitytypes/descriptions/msdyn_opportunitylinetransactionclassificatio.md)]|
+|[msdyn_opportunitypricelist Entitytype](../entitytypes/msdyn_opportunitypricelist.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_opportunitypricelist.md](../entitytypes/descriptions/msdyn_opportunitypricelist.md)]|
+|[msdyn_optimizationrequestbooking Entitytype](../entitytypes/msdyn_optimizationrequestbooking.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_optimizationrequestbooking.md](../entitytypes/descriptions/msdyn_optimizationrequestbooking.md)]|
+|[msdyn_orderinvoicingdate Entitytype](../entitytypes/msdyn_orderinvoicingdate.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderinvoicingdate.md](../entitytypes/descriptions/msdyn_orderinvoicingdate.md)]|
+|[msdyn_orderinvoicingproduct Entitytype](../entitytypes/msdyn_orderinvoicingproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderinvoicingproduct.md](../entitytypes/descriptions/msdyn_orderinvoicingproduct.md)]|
+|[msdyn_orderinvoicingsetup Entitytype](../entitytypes/msdyn_orderinvoicingsetup.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderinvoicingsetup.md](../entitytypes/descriptions/msdyn_orderinvoicingsetup.md)]|
+|[msdyn_orderinvoicingsetupdate Entitytype](../entitytypes/msdyn_orderinvoicingsetupdate.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderinvoicingsetupdate.md](../entitytypes/descriptions/msdyn_orderinvoicingsetupdate.md)]|
+|[msdyn_orderlineresourcecategory Entitytype](../entitytypes/msdyn_orderlineresourcecategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderlineresourcecategory.md](../entitytypes/descriptions/msdyn_orderlineresourcecategory.md)]|
+|[msdyn_orderlinetransaction Entitytype](../entitytypes/msdyn_orderlinetransaction.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderlinetransaction.md](../entitytypes/descriptions/msdyn_orderlinetransaction.md)]|
+|[msdyn_orderlinetransactioncategory Entitytype](../entitytypes/msdyn_orderlinetransactioncategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderlinetransactioncategory.md](../entitytypes/descriptions/msdyn_orderlinetransactioncategory.md)]|
+|[msdyn_orderlinetransactionclassification Entitytype](../entitytypes/msdyn_orderlinetransactionclassification.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderlinetransactionclassification.md](../entitytypes/descriptions/msdyn_orderlinetransactionclassification.md)]|
+|[msdyn_orderpricelist Entitytype](../entitytypes/msdyn_orderpricelist.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_orderpricelist.md](../entitytypes/descriptions/msdyn_orderpricelist.md)]|
+|[msdyn_page Entitytype](../entitytypes/msdyn_page.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_page.md](../entitytypes/descriptions/msdyn_page.md)]|
+|[msdyn_payment Entitytype](../entitytypes/msdyn_payment.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_payment.md](../entitytypes/descriptions/msdyn_payment.md)]|
+|[msdyn_paymentdetail Entitytype](../entitytypes/msdyn_paymentdetail.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_paymentdetail.md](../entitytypes/descriptions/msdyn_paymentdetail.md)]|
+|[msdyn_paymentmethod Entitytype](../entitytypes/msdyn_paymentmethod.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_paymentmethod.md](../entitytypes/descriptions/msdyn_paymentmethod.md)]|
+|[msdyn_paymentterm Entitytype](../entitytypes/msdyn_paymentterm.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_paymentterm.md](../entitytypes/descriptions/msdyn_paymentterm.md)]|
+|[msdyn_pendinggroupmembers Entitytype](../entitytypes/msdyn_pendinggroupmembers.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_pendinggroupmembers.md](../entitytypes/descriptions/msdyn_pendinggroupmembers.md)]|
+|[msdyn_postalcode Entitytype](../entitytypes/msdyn_postalcode.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_postalcode.md](../entitytypes/descriptions/msdyn_postalcode.md)]|
+|[msdyn_priority Entitytype](../entitytypes/msdyn_priority.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_priority.md](../entitytypes/descriptions/msdyn_priority.md)]|
+|[msdyn_project Entitytype](../entitytypes/msdyn_project.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_project.md](../entitytypes/descriptions/msdyn_project.md)]|
+|[msdyn_projectapproval Entitytype](../entitytypes/msdyn_projectapproval.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_projectapproval.md](../entitytypes/descriptions/msdyn_projectapproval.md)]|
+|[msdyn_projectpricelist Entitytype](../entitytypes/msdyn_projectpricelist.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_projectpricelist.md](../entitytypes/descriptions/msdyn_projectpricelist.md)]|
+|[msdyn_projecttask Entitytype](../entitytypes/msdyn_projecttask.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_projecttask.md](../entitytypes/descriptions/msdyn_projecttask.md)]|
+|[msdyn_projecttaskdependency Entitytype](../entitytypes/msdyn_projecttaskdependency.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_projecttaskdependency.md](../entitytypes/descriptions/msdyn_projecttaskdependency.md)]|
+|[msdyn_projecttaskstatususer Entitytype](../entitytypes/msdyn_projecttaskstatususer.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_projecttaskstatususer.md](../entitytypes/descriptions/msdyn_projecttaskstatususer.md)]|
+|[msdyn_projectteam Entitytype](../entitytypes/msdyn_projectteam.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_projectteam.md](../entitytypes/descriptions/msdyn_projectteam.md)]|
+|[msdyn_projecttransactioncategory Entitytype](../entitytypes/msdyn_projecttransactioncategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_projecttransactioncategory.md](../entitytypes/descriptions/msdyn_projecttransactioncategory.md)]|
+|[msdyn_purchaseorder Entitytype](../entitytypes/msdyn_purchaseorder.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_purchaseorder.md](../entitytypes/descriptions/msdyn_purchaseorder.md)]|
+|[msdyn_purchaseorderbill Entitytype](../entitytypes/msdyn_purchaseorderbill.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_purchaseorderbill.md](../entitytypes/descriptions/msdyn_purchaseorderbill.md)]|
+|[msdyn_purchaseorderproduct Entitytype](../entitytypes/msdyn_purchaseorderproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_purchaseorderproduct.md](../entitytypes/descriptions/msdyn_purchaseorderproduct.md)]|
+|[msdyn_purchaseorderreceipt Entitytype](../entitytypes/msdyn_purchaseorderreceipt.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_purchaseorderreceipt.md](../entitytypes/descriptions/msdyn_purchaseorderreceipt.md)]|
+|[msdyn_purchaseorderreceiptproduct Entitytype](../entitytypes/msdyn_purchaseorderreceiptproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_purchaseorderreceiptproduct.md](../entitytypes/descriptions/msdyn_purchaseorderreceiptproduct.md)]|
+|[msdyn_purchaseordersubstatus Entitytype](../entitytypes/msdyn_purchaseordersubstatus.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_purchaseordersubstatus.md](../entitytypes/descriptions/msdyn_purchaseordersubstatus.md)]|
+|[msdyn_question Entitytype](../entitytypes/msdyn_question.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_question.md](../entitytypes/descriptions/msdyn_question.md)]|
+|[msdyn_questiongroup Entitytype](../entitytypes/msdyn_questiongroup.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_questiongroup.md](../entitytypes/descriptions/msdyn_questiongroup.md)]|
+|[msdyn_questionresponse Entitytype](../entitytypes/msdyn_questionresponse.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_questionresponse.md](../entitytypes/descriptions/msdyn_questionresponse.md)]|
+|[msdyn_questiontype Entitytype](../entitytypes/msdyn_questiontype.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_questiontype.md](../entitytypes/descriptions/msdyn_questiontype.md)]|
+|[msdyn_quotebookingincident Entitytype](../entitytypes/msdyn_quotebookingincident.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotebookingincident.md](../entitytypes/descriptions/msdyn_quotebookingincident.md)]|
+|[msdyn_quotebookingproduct Entitytype](../entitytypes/msdyn_quotebookingproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotebookingproduct.md](../entitytypes/descriptions/msdyn_quotebookingproduct.md)]|
+|[msdyn_quotebookingservice Entitytype](../entitytypes/msdyn_quotebookingservice.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotebookingservice.md](../entitytypes/descriptions/msdyn_quotebookingservice.md)]|
+|[msdyn_quotebookingservicetask Entitytype](../entitytypes/msdyn_quotebookingservicetask.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotebookingservicetask.md](../entitytypes/descriptions/msdyn_quotebookingservicetask.md)]|
+|[msdyn_quotebookingsetup Entitytype](../entitytypes/msdyn_quotebookingsetup.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotebookingsetup.md](../entitytypes/descriptions/msdyn_quotebookingsetup.md)]|
+|[msdyn_quoteinvoicingproduct Entitytype](../entitytypes/msdyn_quoteinvoicingproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quoteinvoicingproduct.md](../entitytypes/descriptions/msdyn_quoteinvoicingproduct.md)]|
+|[msdyn_quoteinvoicingsetup Entitytype](../entitytypes/msdyn_quoteinvoicingsetup.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quoteinvoicingsetup.md](../entitytypes/descriptions/msdyn_quoteinvoicingsetup.md)]|
+|[msdyn_quotelineanalyticsbreakdown Entitytype](../entitytypes/msdyn_quotelineanalyticsbreakdown.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotelineanalyticsbreakdown.md](../entitytypes/descriptions/msdyn_quotelineanalyticsbreakdown.md)]|
+|[msdyn_quotelineresourcecategory Entitytype](../entitytypes/msdyn_quotelineresourcecategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotelineresourcecategory.md](../entitytypes/descriptions/msdyn_quotelineresourcecategory.md)]|
+|[msdyn_quotelinescheduleofvalue Entitytype](../entitytypes/msdyn_quotelinescheduleofvalue.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotelinescheduleofvalue.md](../entitytypes/descriptions/msdyn_quotelinescheduleofvalue.md)]|
+|[msdyn_quotelinetransaction Entitytype](../entitytypes/msdyn_quotelinetransaction.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotelinetransaction.md](../entitytypes/descriptions/msdyn_quotelinetransaction.md)]|
+|[msdyn_quotelinetransactioncategory Entitytype](../entitytypes/msdyn_quotelinetransactioncategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotelinetransactioncategory.md](../entitytypes/descriptions/msdyn_quotelinetransactioncategory.md)]|
+|[msdyn_quotelinetransactionclassification Entitytype](../entitytypes/msdyn_quotelinetransactionclassification.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotelinetransactionclassification.md](../entitytypes/descriptions/msdyn_quotelinetransactionclassification.md)]|
+|[msdyn_quotepricelist Entitytype](../entitytypes/msdyn_quotepricelist.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_quotepricelist.md](../entitytypes/descriptions/msdyn_quotepricelist.md)]|
+|[msdyn_requirementcharacteristic Entitytype](../entitytypes/msdyn_requirementcharacteristic.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_requirementcharacteristic.md](../entitytypes/descriptions/msdyn_requirementcharacteristic.md)]|
+|[msdyn_requirementorganizationunit Entitytype](../entitytypes/msdyn_requirementorganizationunit.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_requirementorganizationunit.md](../entitytypes/descriptions/msdyn_requirementorganizationunit.md)]|
+|[msdyn_requirementresourcecategory Entitytype](../entitytypes/msdyn_requirementresourcecategory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_requirementresourcecategory.md](../entitytypes/descriptions/msdyn_requirementresourcecategory.md)]|
+|[msdyn_requirementresourcepreference Entitytype](../entitytypes/msdyn_requirementresourcepreference.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_requirementresourcepreference.md](../entitytypes/descriptions/msdyn_requirementresourcepreference.md)]|
+|[msdyn_requirementstatus Entitytype](../entitytypes/msdyn_requirementstatus.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_requirementstatus.md](../entitytypes/descriptions/msdyn_requirementstatus.md)]|
+|[msdyn_resourceassignment Entitytype](../entitytypes/msdyn_resourceassignment.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_resourceassignment.md](../entitytypes/descriptions/msdyn_resourceassignment.md)]|
+|[msdyn_resourceassignmentdetail Entitytype](../entitytypes/msdyn_resourceassignmentdetail.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_resourceassignmentdetail.md](../entitytypes/descriptions/msdyn_resourceassignmentdetail.md)]|
+|[msdyn_resourcepaytype Entitytype](../entitytypes/msdyn_resourcepaytype.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_resourcepaytype.md](../entitytypes/descriptions/msdyn_resourcepaytype.md)]|
+|[msdyn_resourcerequest Entitytype](../entitytypes/msdyn_resourcerequest.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_resourcerequest.md](../entitytypes/descriptions/msdyn_resourcerequest.md)]|
+|[msdyn_resourcerequirement Entitytype](../entitytypes/msdyn_resourcerequirement.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_resourcerequirement.md](../entitytypes/descriptions/msdyn_resourcerequirement.md)]|
+|[msdyn_resourcerequirementdetail Entitytype](../entitytypes/msdyn_resourcerequirementdetail.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_resourcerequirementdetail.md](../entitytypes/descriptions/msdyn_resourcerequirementdetail.md)]|
+|[msdyn_resourceterritory Entitytype](../entitytypes/msdyn_resourceterritory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_resourceterritory.md](../entitytypes/descriptions/msdyn_resourceterritory.md)]|
+|[msdyn_responseaction Entitytype](../entitytypes/msdyn_responseaction.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_responseaction.md](../entitytypes/descriptions/msdyn_responseaction.md)]|
+|[msdyn_responsecondition Entitytype](../entitytypes/msdyn_responsecondition.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_responsecondition.md](../entitytypes/descriptions/msdyn_responsecondition.md)]|
+|[msdyn_responseoutcome Entitytype](../entitytypes/msdyn_responseoutcome.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_responseoutcome.md](../entitytypes/descriptions/msdyn_responseoutcome.md)]|
+|[msdyn_responserouting Entitytype](../entitytypes/msdyn_responserouting.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_responserouting.md](../entitytypes/descriptions/msdyn_responserouting.md)]|
+|[msdyn_rma Entitytype](../entitytypes/msdyn_rma.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rma.md](../entitytypes/descriptions/msdyn_rma.md)]|
+|[msdyn_rmaproduct Entitytype](../entitytypes/msdyn_rmaproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rmaproduct.md](../entitytypes/descriptions/msdyn_rmaproduct.md)]|
+|[msdyn_rmareceipt Entitytype](../entitytypes/msdyn_rmareceipt.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rmareceipt.md](../entitytypes/descriptions/msdyn_rmareceipt.md)]|
+|[msdyn_rmareceiptproduct Entitytype](../entitytypes/msdyn_rmareceiptproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rmareceiptproduct.md](../entitytypes/descriptions/msdyn_rmareceiptproduct.md)]|
+|[msdyn_rmasubstatus Entitytype](../entitytypes/msdyn_rmasubstatus.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rmasubstatus.md](../entitytypes/descriptions/msdyn_rmasubstatus.md)]|
+|[msdyn_rolecompetencyrequirement Entitytype](../entitytypes/msdyn_rolecompetencyrequirement.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rolecompetencyrequirement.md](../entitytypes/descriptions/msdyn_rolecompetencyrequirement.md)]|
+|[msdyn_roleutilization Entitytype](../entitytypes/msdyn_roleutilization.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_roleutilization.md](../entitytypes/descriptions/msdyn_roleutilization.md)]|
+|[msdyn_routingengineconfiguration Entitytype](../entitytypes/msdyn_routingengineconfiguration.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_routingengineconfiguration.md](../entitytypes/descriptions/msdyn_routingengineconfiguration.md)]|
+|[msdyn_routingjobconfiguration Entitytype](../entitytypes/msdyn_routingjobconfiguration.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_routingjobconfiguration.md](../entitytypes/descriptions/msdyn_routingjobconfiguration.md)]|
+|[msdyn_routingoptimizationrequest Entitytype](../entitytypes/msdyn_routingoptimizationrequest.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_routingoptimizationrequest.md](../entitytypes/descriptions/msdyn_routingoptimizationrequest.md)]|
+|[msdyn_routingprofileconfiguration Entitytype](../entitytypes/msdyn_routingprofileconfiguration.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_routingprofileconfiguration.md](../entitytypes/descriptions/msdyn_routingprofileconfiguration.md)]|
+|[msdyn_rtv Entitytype](../entitytypes/msdyn_rtv.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rtv.md](../entitytypes/descriptions/msdyn_rtv.md)]|
+|[msdyn_rtvproduct Entitytype](../entitytypes/msdyn_rtvproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rtvproduct.md](../entitytypes/descriptions/msdyn_rtvproduct.md)]|
+|[msdyn_rtvsubstatus Entitytype](../entitytypes/msdyn_rtvsubstatus.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_rtvsubstatus.md](../entitytypes/descriptions/msdyn_rtvsubstatus.md)]|
+|[msdyn_scheduleboardsetting Entitytype](../entitytypes/msdyn_scheduleboardsetting.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_scheduleboardsetting.md](../entitytypes/descriptions/msdyn_scheduleboardsetting.md)]|
+|[msdyn_schedulingoptimizationhealthlog Entitytype](../entitytypes/msdyn_schedulingoptimizationhealthlog.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_schedulingoptimizationhealthlog.md](../entitytypes/descriptions/msdyn_schedulingoptimizationhealthlog.md)]|
+|[msdyn_section Entitytype](../entitytypes/msdyn_section.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_section.md](../entitytypes/descriptions/msdyn_section.md)]|
+|[msdyn_servicetasktype Entitytype](../entitytypes/msdyn_servicetasktype.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_servicetasktype.md](../entitytypes/descriptions/msdyn_servicetasktype.md)]|
+|[msdyn_shipvia Entitytype](../entitytypes/msdyn_shipvia.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_shipvia.md](../entitytypes/descriptions/msdyn_shipvia.md)]|
+|[msdyn_survey Entitytype](../entitytypes/msdyn_survey.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_survey.md](../entitytypes/descriptions/msdyn_survey.md)]|
+|[msdyn_surveyinvite Entitytype](../entitytypes/msdyn_surveyinvite.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_surveyinvite.md](../entitytypes/descriptions/msdyn_surveyinvite.md)]|
+|[msdyn_surveylog Entitytype](../entitytypes/msdyn_surveylog.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_surveylog.md](../entitytypes/descriptions/msdyn_surveylog.md)]|
+|[msdyn_surveyresponse Entitytype](../entitytypes/msdyn_surveyresponse.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_surveyresponse.md](../entitytypes/descriptions/msdyn_surveyresponse.md)]|
+|[msdyn_systemuserschedulersetting Entitytype](../entitytypes/msdyn_systemuserschedulersetting.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_systemuserschedulersetting.md](../entitytypes/descriptions/msdyn_systemuserschedulersetting.md)]|
+|[msdyn_taxcode Entitytype](../entitytypes/msdyn_taxcode.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_taxcode.md](../entitytypes/descriptions/msdyn_taxcode.md)]|
+|[msdyn_taxcodedetail Entitytype](../entitytypes/msdyn_taxcodedetail.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_taxcodedetail.md](../entitytypes/descriptions/msdyn_taxcodedetail.md)]|
+|[msdyn_theme Entitytype](../entitytypes/msdyn_theme.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_theme.md](../entitytypes/descriptions/msdyn_theme.md)]|
+|[msdyn_timeentry Entitytype](../entitytypes/msdyn_timeentry.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_timeentry.md](../entitytypes/descriptions/msdyn_timeentry.md)]|
+|[msdyn_timegroup Entitytype](../entitytypes/msdyn_timegroup.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_timegroup.md](../entitytypes/descriptions/msdyn_timegroup.md)]|
+|[msdyn_timegroupdetail Entitytype](../entitytypes/msdyn_timegroupdetail.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_timegroupdetail.md](../entitytypes/descriptions/msdyn_timegroupdetail.md)]|
+|[msdyn_timeoffcalendar Entitytype](../entitytypes/msdyn_timeoffcalendar.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_timeoffcalendar.md](../entitytypes/descriptions/msdyn_timeoffcalendar.md)]|
+|[msdyn_timeoffrequest Entitytype](../entitytypes/msdyn_timeoffrequest.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_timeoffrequest.md](../entitytypes/descriptions/msdyn_timeoffrequest.md)]|
+|[msdyn_transactionconnection Entitytype](../entitytypes/msdyn_transactionconnection.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_transactionconnection.md](../entitytypes/descriptions/msdyn_transactionconnection.md)]|
+|[msdyn_transactionorigin Entitytype](../entitytypes/msdyn_transactionorigin.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_transactionorigin.md](../entitytypes/descriptions/msdyn_transactionorigin.md)]|
+|[msdyn_userworkhistory Entitytype](../entitytypes/msdyn_userworkhistory.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_userworkhistory.md](../entitytypes/descriptions/msdyn_userworkhistory.md)]|
+|[msdyn_warehouse Entitytype](../entitytypes/msdyn_warehouse.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_warehouse.md](../entitytypes/descriptions/msdyn_warehouse.md)]|
+|[msdyn_workhourtemplate Entitytype](../entitytypes/msdyn_workhourtemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workhourtemplate.md](../entitytypes/descriptions/msdyn_workhourtemplate.md)]|
+|[msdyn_workorder Entitytype](../entitytypes/msdyn_workorder.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workorder.md](../entitytypes/descriptions/msdyn_workorder.md)]|
+|[msdyn_workordercharacteristic Entitytype](../entitytypes/msdyn_workordercharacteristic.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workordercharacteristic.md](../entitytypes/descriptions/msdyn_workordercharacteristic.md)]|
+|[msdyn_workorderincident Entitytype](../entitytypes/msdyn_workorderincident.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workorderincident.md](../entitytypes/descriptions/msdyn_workorderincident.md)]|
+|[msdyn_workorderproduct Entitytype](../entitytypes/msdyn_workorderproduct.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workorderproduct.md](../entitytypes/descriptions/msdyn_workorderproduct.md)]|
+|[msdyn_workorderresourcerestriction Entitytype](../entitytypes/msdyn_workorderresourcerestriction.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workorderresourcerestriction.md](../entitytypes/descriptions/msdyn_workorderresourcerestriction.md)]|
+|[msdyn_workorderservice Entitytype](../entitytypes/msdyn_workorderservice.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workorderservice.md](../entitytypes/descriptions/msdyn_workorderservice.md)]|
+|[msdyn_workorderservicetask Entitytype](../entitytypes/msdyn_workorderservicetask.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workorderservicetask.md](../entitytypes/descriptions/msdyn_workorderservicetask.md)]|
+|[msdyn_workordersubstatus Entitytype](../entitytypes/msdyn_workordersubstatus.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workordersubstatus.md](../entitytypes/descriptions/msdyn_workordersubstatus.md)]|
+|[msdyn_workordertype Entitytype](../entitytypes/msdyn_workordertype.md)|[!INCLUDE[../entitytypes/descriptions/msdyn_workordertype.md](../entitytypes/descriptions/msdyn_workordertype.md)]|
+|[msdyncrm_appointmentactivitymarketingtemplate Entitytype](../entitytypes/msdyncrm_appointmentactivitymarketingtemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_appointmentactivitymarketingtemplate.md](../entitytypes/descriptions/msdyncrm_appointmentactivitymarketingtemplate.md)]|
+|[msdyncrm_campaigncustomchannelactivity Entitytype](../entitytypes/msdyncrm_campaigncustomchannelactivity.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_campaigncustomchannelactivity.md](../entitytypes/descriptions/msdyncrm_campaigncustomchannelactivity.md)]|
+|[msdyncrm_contentsettings Entitytype](../entitytypes/msdyncrm_contentsettings.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_contentsettings.md](../entitytypes/descriptions/msdyncrm_contentsettings.md)]|
+|[msdyncrm_customerinsightsinfo Entitytype](../entitytypes/msdyncrm_customerinsightsinfo.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_customerinsightsinfo.md](../entitytypes/descriptions/msdyncrm_customerinsightsinfo.md)]|
+|[msdyncrm_customerjourney Entitytype](../entitytypes/msdyncrm_customerjourney.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_customerjourney.md](../entitytypes/descriptions/msdyncrm_customerjourney.md)]|
+|[msdyncrm_customerjourneyiteration Entitytype](../entitytypes/msdyncrm_customerjourneyiteration.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_customerjourneyiteration.md](../entitytypes/descriptions/msdyncrm_customerjourneyiteration.md)]|
+|[msdyncrm_customerjourneytemplate Entitytype](../entitytypes/msdyncrm_customerjourneytemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_customerjourneytemplate.md](../entitytypes/descriptions/msdyncrm_customerjourneytemplate.md)]|
+|[msdyncrm_customerjourneyworkflowlink Entitytype](../entitytypes/msdyncrm_customerjourneyworkflowlink.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_customerjourneyworkflowlink.md](../entitytypes/descriptions/msdyncrm_customerjourneyworkflowlink.md)]|
+|[msdyncrm_file Entitytype](../entitytypes/msdyncrm_file.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_file.md](../entitytypes/descriptions/msdyncrm_file.md)]|
+|[msdyncrm_formpage Entitytype](../entitytypes/msdyncrm_formpage.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_formpage.md](../entitytypes/descriptions/msdyncrm_formpage.md)]|
+|[msdyncrm_formpagetemplate Entitytype](../entitytypes/msdyncrm_formpagetemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_formpagetemplate.md](../entitytypes/descriptions/msdyncrm_formpagetemplate.md)]|
+|[msdyncrm_geopin Entitytype](../entitytypes/msdyncrm_geopin.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_geopin.md](../entitytypes/descriptions/msdyncrm_geopin.md)]|
+|[msdyncrm_keyword Entitytype](../entitytypes/msdyncrm_keyword.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_keyword.md](../entitytypes/descriptions/msdyncrm_keyword.md)]|
+|[msdyncrm_leadscore Entitytype](../entitytypes/msdyncrm_leadscore.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_leadscore.md](../entitytypes/descriptions/msdyncrm_leadscore.md)]|
+|[msdyncrm_leadscoremodel Entitytype](../entitytypes/msdyncrm_leadscoremodel.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_leadscoremodel.md](../entitytypes/descriptions/msdyncrm_leadscoremodel.md)]|
+|[msdyncrm_linkedinaccount Entitytype](../entitytypes/msdyncrm_linkedinaccount.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinaccount.md](../entitytypes/descriptions/msdyncrm_linkedinaccount.md)]|
+|[msdyncrm_linkedinactivity Entitytype](../entitytypes/msdyncrm_linkedinactivity.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinactivity.md](../entitytypes/descriptions/msdyncrm_linkedinactivity.md)]|
+|[msdyncrm_linkedincampaign Entitytype](../entitytypes/msdyncrm_linkedincampaign.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedincampaign.md](../entitytypes/descriptions/msdyncrm_linkedincampaign.md)]|
+|[msdyncrm_linkedinconfiguration Entitytype](../entitytypes/msdyncrm_linkedinconfiguration.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinconfiguration.md](../entitytypes/descriptions/msdyncrm_linkedinconfiguration.md)]|
+|[msdyncrm_linkedinfieldmapping Entitytype](../entitytypes/msdyncrm_linkedinfieldmapping.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinfieldmapping.md](../entitytypes/descriptions/msdyncrm_linkedinfieldmapping.md)]|
+|[msdyncrm_linkedinform Entitytype](../entitytypes/msdyncrm_linkedinform.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinform.md](../entitytypes/descriptions/msdyncrm_linkedinform.md)]|
+|[msdyncrm_linkedinformanswer Entitytype](../entitytypes/msdyncrm_linkedinformanswer.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinformanswer.md](../entitytypes/descriptions/msdyncrm_linkedinformanswer.md)]|
+|[msdyncrm_linkedinformquestion Entitytype](../entitytypes/msdyncrm_linkedinformquestion.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinformquestion.md](../entitytypes/descriptions/msdyncrm_linkedinformquestion.md)]|
+|[msdyncrm_linkedinformsubmission Entitytype](../entitytypes/msdyncrm_linkedinformsubmission.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinformsubmission.md](../entitytypes/descriptions/msdyncrm_linkedinformsubmission.md)]|
+|[msdyncrm_linkedinleadmatchingstrategy Entitytype](../entitytypes/msdyncrm_linkedinleadmatchingstrategy.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinleadmatchingstrategy.md](../entitytypes/descriptions/msdyncrm_linkedinleadmatchingstrategy.md)]|
+|[msdyncrm_linkedinuserprofile Entitytype](../entitytypes/msdyncrm_linkedinuserprofile.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_linkedinuserprofile.md](../entitytypes/descriptions/msdyncrm_linkedinuserprofile.md)]|
+|[msdyncrm_marketingdynamiccontentmetadata Entitytype](../entitytypes/msdyncrm_marketingdynamiccontentmetadata.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingdynamiccontentmetadata.md](../entitytypes/descriptions/msdyncrm_marketingdynamiccontentmetadata.md)]|
+|[msdyncrm_marketingemail Entitytype](../entitytypes/msdyncrm_marketingemail.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingemail.md](../entitytypes/descriptions/msdyncrm_marketingemail.md)]|
+|[msdyncrm_marketingemaildynamiccontentmetadata Entitytype](../entitytypes/msdyncrm_marketingemaildynamiccontentmetadata.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingemaildynamiccontentmetadata.md](../entitytypes/descriptions/msdyncrm_marketingemaildynamiccontentmetadata.md)]|
+|[msdyncrm_marketingemailtemplate Entitytype](../entitytypes/msdyncrm_marketingemailtemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingemailtemplate.md](../entitytypes/descriptions/msdyncrm_marketingemailtemplate.md)]|
+|[msdyncrm_marketingemailtestsend Entitytype](../entitytypes/msdyncrm_marketingemailtestsend.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingemailtestsend.md](../entitytypes/descriptions/msdyncrm_marketingemailtestsend.md)]|
+|[msdyncrm_marketingform Entitytype](../entitytypes/msdyncrm_marketingform.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingform.md](../entitytypes/descriptions/msdyncrm_marketingform.md)]|
+|[msdyncrm_marketingformfield Entitytype](../entitytypes/msdyncrm_marketingformfield.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingformfield.md](../entitytypes/descriptions/msdyncrm_marketingformfield.md)]|
+|[msdyncrm_marketingformtemplate Entitytype](../entitytypes/msdyncrm_marketingformtemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingformtemplate.md](../entitytypes/descriptions/msdyncrm_marketingformtemplate.md)]|
+|[msdyncrm_marketingpage Entitytype](../entitytypes/msdyncrm_marketingpage.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingpage.md](../entitytypes/descriptions/msdyncrm_marketingpage.md)]|
+|[msdyncrm_marketingpagetemplate Entitytype](../entitytypes/msdyncrm_marketingpagetemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_marketingpagetemplate.md](../entitytypes/descriptions/msdyncrm_marketingpagetemplate.md)]|
+|[msdyncrm_mktactivity Entitytype](../entitytypes/msdyncrm_mktactivity.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_mktactivity.md](../entitytypes/descriptions/msdyncrm_mktactivity.md)]|
+|[msdyncrm_phonecallactivitymarketingtemplate Entitytype](../entitytypes/msdyncrm_phonecallactivitymarketingtemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_phonecallactivitymarketingtemplate.md](../entitytypes/descriptions/msdyncrm_phonecallactivitymarketingtemplate.md)]|
+|[msdyncrm_redirecturl Entitytype](../entitytypes/msdyncrm_redirecturl.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_redirecturl.md](../entitytypes/descriptions/msdyncrm_redirecturl.md)]|
+|[msdyncrm_segment Entitytype](../entitytypes/msdyncrm_segment.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_segment.md](../entitytypes/descriptions/msdyncrm_segment.md)]|
+|[msdyncrm_taskactivitymarketingtemplate Entitytype](../entitytypes/msdyncrm_taskactivitymarketingtemplate.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_taskactivitymarketingtemplate.md](../entitytypes/descriptions/msdyncrm_taskactivitymarketingtemplate.md)]|
+|[msdyncrm_uicconfig Entitytype](../entitytypes/msdyncrm_uicconfig.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_uicconfig.md](../entitytypes/descriptions/msdyncrm_uicconfig.md)]|
+|[msdyncrm_usergeoregion Entitytype](../entitytypes/msdyncrm_usergeoregion.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_usergeoregion.md](../entitytypes/descriptions/msdyncrm_usergeoregion.md)]|
+|[msdyncrm_website Entitytype](../entitytypes/msdyncrm_website.md)|[!INCLUDE[../entitytypes/descriptions/msdyncrm_website.md](../entitytypes/descriptions/msdyncrm_website.md)]|
+|[msevtmgt_attendeepass Entitytype](../entitytypes/msevtmgt_attendeepass.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_attendeepass.md](../entitytypes/descriptions/msevtmgt_attendeepass.md)]|
+|[msevtmgt_authenticationsettings Entitytype](../entitytypes/msevtmgt_authenticationsettings.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_authenticationsettings.md](../entitytypes/descriptions/msevtmgt_authenticationsettings.md)]|
+|[msevtmgt_building Entitytype](../entitytypes/msevtmgt_building.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_building.md](../entitytypes/descriptions/msevtmgt_building.md)]|
+|[msevtmgt_checkin Entitytype](../entitytypes/msevtmgt_checkin.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_checkin.md](../entitytypes/descriptions/msevtmgt_checkin.md)]|
+|[msevtmgt_entitycounter Entitytype](../entitytypes/msevtmgt_entitycounter.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_entitycounter.md](../entitytypes/descriptions/msevtmgt_entitycounter.md)]|
+|[msevtmgt_event Entitytype](../entitytypes/msevtmgt_event.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_event.md](../entitytypes/descriptions/msevtmgt_event.md)]|
+|[msevtmgt_eventadministration Entitytype](../entitytypes/msevtmgt_eventadministration.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventadministration.md](../entitytypes/descriptions/msevtmgt_eventadministration.md)]|
+|[msevtmgt_eventmanagementconfiguration Entitytype](../entitytypes/msevtmgt_eventmanagementconfiguration.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventmanagementconfiguration.md](../entitytypes/descriptions/msevtmgt_eventmanagementconfiguration.md)]|
+|[msevtmgt_eventpurchase Entitytype](../entitytypes/msevtmgt_eventpurchase.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventpurchase.md](../entitytypes/descriptions/msevtmgt_eventpurchase.md)]|
+|[msevtmgt_eventpurchaseattendee Entitytype](../entitytypes/msevtmgt_eventpurchaseattendee.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventpurchaseattendee.md](../entitytypes/descriptions/msevtmgt_eventpurchaseattendee.md)]|
+|[msevtmgt_eventpurchasepass Entitytype](../entitytypes/msevtmgt_eventpurchasepass.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventpurchasepass.md](../entitytypes/descriptions/msevtmgt_eventpurchasepass.md)]|
+|[msevtmgt_eventregistration Entitytype](../entitytypes/msevtmgt_eventregistration.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventregistration.md](../entitytypes/descriptions/msevtmgt_eventregistration.md)]|
+|[msevtmgt_eventteammember Entitytype](../entitytypes/msevtmgt_eventteammember.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventteammember.md](../entitytypes/descriptions/msevtmgt_eventteammember.md)]|
+|[msevtmgt_eventvendor Entitytype](../entitytypes/msevtmgt_eventvendor.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_eventvendor.md](../entitytypes/descriptions/msevtmgt_eventvendor.md)]|
+|[msevtmgt_hotel Entitytype](../entitytypes/msevtmgt_hotel.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_hotel.md](../entitytypes/descriptions/msevtmgt_hotel.md)]|
+|[msevtmgt_hotelroomallocation Entitytype](../entitytypes/msevtmgt_hotelroomallocation.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_hotelroomallocation.md](../entitytypes/descriptions/msevtmgt_hotelroomallocation.md)]|
+|[msevtmgt_hotelroomreservation Entitytype](../entitytypes/msevtmgt_hotelroomreservation.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_hotelroomreservation.md](../entitytypes/descriptions/msevtmgt_hotelroomreservation.md)]|
+|[msevtmgt_layout Entitytype](../entitytypes/msevtmgt_layout.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_layout.md](../entitytypes/descriptions/msevtmgt_layout.md)]|
+|[msevtmgt_pass Entitytype](../entitytypes/msevtmgt_pass.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_pass.md](../entitytypes/descriptions/msevtmgt_pass.md)]|
+|[msevtmgt_room Entitytype](../entitytypes/msevtmgt_room.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_room.md](../entitytypes/descriptions/msevtmgt_room.md)]|
+|[msevtmgt_session Entitytype](../entitytypes/msevtmgt_session.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_session.md](../entitytypes/descriptions/msevtmgt_session.md)]|
+|[msevtmgt_sessionregistration Entitytype](../entitytypes/msevtmgt_sessionregistration.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_sessionregistration.md](../entitytypes/descriptions/msevtmgt_sessionregistration.md)]|
+|[msevtmgt_sessiontrack Entitytype](../entitytypes/msevtmgt_sessiontrack.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_sessiontrack.md](../entitytypes/descriptions/msevtmgt_sessiontrack.md)]|
+|[msevtmgt_speaker Entitytype](../entitytypes/msevtmgt_speaker.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_speaker.md](../entitytypes/descriptions/msevtmgt_speaker.md)]|
+|[msevtmgt_speakerengagement Entitytype](../entitytypes/msevtmgt_speakerengagement.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_speakerengagement.md](../entitytypes/descriptions/msevtmgt_speakerengagement.md)]|
+|[msevtmgt_sponsorablearticle Entitytype](../entitytypes/msevtmgt_sponsorablearticle.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_sponsorablearticle.md](../entitytypes/descriptions/msevtmgt_sponsorablearticle.md)]|
+|[msevtmgt_sponsorship Entitytype](../entitytypes/msevtmgt_sponsorship.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_sponsorship.md](../entitytypes/descriptions/msevtmgt_sponsorship.md)]|
+|[msevtmgt_venue Entitytype](../entitytypes/msevtmgt_venue.md)|[!INCLUDE[../entitytypes/descriptions/msevtmgt_venue.md](../entitytypes/descriptions/msevtmgt_venue.md)]|
+|[opportunity Entitytype](../entitytypes/opportunity.md)|[!INCLUDE[../entitytypes/descriptions/opportunity.md](../entitytypes/descriptions/opportunity.md)]|
+|[opportunityclose Entitytype](../entitytypes/opportunityclose.md)|[!INCLUDE[../entitytypes/descriptions/opportunityclose.md](../entitytypes/descriptions/opportunityclose.md)]|
+|[orderclose Entitytype](../entitytypes/orderclose.md)|[!INCLUDE[../entitytypes/descriptions/orderclose.md](../entitytypes/descriptions/orderclose.md)]|
+|[personaldocumenttemplate Entitytype](../entitytypes/personaldocumenttemplate.md)|[!INCLUDE[../entitytypes/descriptions/personaldocumenttemplate.md](../entitytypes/descriptions/personaldocumenttemplate.md)]|
+|[phonecall Entitytype](../entitytypes/phonecall.md)|[!INCLUDE[../entitytypes/descriptions/phonecall.md](../entitytypes/descriptions/phonecall.md)]|
+|[queue Entitytype](../entitytypes/queue.md)|[!INCLUDE[../entitytypes/descriptions/queue.md](../entitytypes/descriptions/queue.md)]|
+|[quote Entitytype](../entitytypes/quote.md)|[!INCLUDE[../entitytypes/descriptions/quote.md](../entitytypes/descriptions/quote.md)]|
+|[quoteclose Entitytype](../entitytypes/quoteclose.md)|[!INCLUDE[../entitytypes/descriptions/quoteclose.md](../entitytypes/descriptions/quoteclose.md)]|
+|[ratingmodel Entitytype](../entitytypes/ratingmodel.md)|[!INCLUDE[../entitytypes/descriptions/ratingmodel.md](../entitytypes/descriptions/ratingmodel.md)]|
+|[ratingvalue Entitytype](../entitytypes/ratingvalue.md)|[!INCLUDE[../entitytypes/descriptions/ratingvalue.md](../entitytypes/descriptions/ratingvalue.md)]|
+|[recurringappointmentmaster Entitytype](../entitytypes/recurringappointmentmaster.md)|[!INCLUDE[../entitytypes/descriptions/recurringappointmentmaster.md](../entitytypes/descriptions/recurringappointmentmaster.md)]|
+|[report Entitytype](../entitytypes/report.md)|[!INCLUDE[../entitytypes/descriptions/report.md](../entitytypes/descriptions/report.md)]|
+|[salesorder Entitytype](../entitytypes/salesorder.md)|[!INCLUDE[../entitytypes/descriptions/salesorder.md](../entitytypes/descriptions/salesorder.md)]|
+|[serviceappointment Entitytype](../entitytypes/serviceappointment.md)|[!INCLUDE[../entitytypes/descriptions/serviceappointment.md](../entitytypes/descriptions/serviceappointment.md)]|
+|[sharepointdocumentlocation Entitytype](../entitytypes/sharepointdocumentlocation.md)|[!INCLUDE[../entitytypes/descriptions/sharepointdocumentlocation.md](../entitytypes/descriptions/sharepointdocumentlocation.md)]|
+|[sharepointsite Entitytype](../entitytypes/sharepointsite.md)|[!INCLUDE[../entitytypes/descriptions/sharepointsite.md](../entitytypes/descriptions/sharepointsite.md)]|
+|[sla Entitytype](../entitytypes/sla.md)|[!INCLUDE[../entitytypes/descriptions/sla.md](../entitytypes/descriptions/sla.md)]|
+|[slakpiinstance Entitytype](../entitytypes/slakpiinstance.md)|[!INCLUDE[../entitytypes/descriptions/slakpiinstance.md](../entitytypes/descriptions/slakpiinstance.md)]|
+|[socialactivity Entitytype](../entitytypes/socialactivity.md)|[!INCLUDE[../entitytypes/descriptions/socialactivity.md](../entitytypes/descriptions/socialactivity.md)]|
+|[socialprofile Entitytype](../entitytypes/socialprofile.md)|[!INCLUDE[../entitytypes/descriptions/socialprofile.md](../entitytypes/descriptions/socialprofile.md)]|
+|[syncerror Entitytype](../entitytypes/syncerror.md)|[!INCLUDE[../entitytypes/descriptions/syncerror.md](../entitytypes/descriptions/syncerror.md)]|
+|[task Entitytype](../entitytypes/task.md)|[!INCLUDE[../entitytypes/descriptions/task.md](../entitytypes/descriptions/task.md)]|
+|[template Entitytype](../entitytypes/template.md)|[!INCLUDE[../entitytypes/descriptions/template.md](../entitytypes/descriptions/template.md)]|
+|[userform Entitytype](../entitytypes/userform.md)|[!INCLUDE[../entitytypes/descriptions/userform.md](../entitytypes/descriptions/userform.md)]|
+|[userquery Entitytype](../entitytypes/userquery.md)|[!INCLUDE[../entitytypes/descriptions/userquery.md](../entitytypes/descriptions/userquery.md)]|
+|[userqueryvisualization Entitytype](../entitytypes/userqueryvisualization.md)|[!INCLUDE[../entitytypes/descriptions/userqueryvisualization.md](../entitytypes/descriptions/userqueryvisualization.md)]|
+|[workflow Entitytype](../entitytypes/workflow.md)|[!INCLUDE[../entitytypes/descriptions/workflow.md](../entitytypes/descriptions/workflow.md)]|
+
+[!INCLUDE[./remarks/retrieveprincipalaccess.md](./remarks/retrieveprincipalaccess.md)]
+
+### See also  
+ [Use the Microsoft Dynamics CRM Web API](https://msdn.microsoft.com/library/mt593051.aspx)<br />
+ [Web API EntityType Reference](../entitytypereference.md)<br />
+ [Web API Action Reference](../actionreference.md)<br />
+ [Web API Function Reference](../functionreference.md)<br />
+ [Web API Query Function Reference](../queryfunctionreference.md)<br />
+ [Web API EnumType Reference](../enumtypereference.md)<br />
+ [Web API ComplexType Reference](../complextypereference.md)<br />
+ [Web API Metadata EntityType Reference](../entitytypereference.md)<br />
+ [Web API Solutions Reference](../solutionreference.md)<br />

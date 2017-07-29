@@ -1,0 +1,1 @@
+Team template for an entity enabled for automatically created access teams.

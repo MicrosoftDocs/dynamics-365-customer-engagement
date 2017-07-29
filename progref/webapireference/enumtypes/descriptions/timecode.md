@@ -1,0 +1,1 @@
+Contains the possible values for a time code, used when querying a schedule. 

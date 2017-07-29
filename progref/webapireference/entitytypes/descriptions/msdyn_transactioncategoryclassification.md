@@ -1,0 +1,1 @@
+Entity used to associate a category broadly as time, expense or material.

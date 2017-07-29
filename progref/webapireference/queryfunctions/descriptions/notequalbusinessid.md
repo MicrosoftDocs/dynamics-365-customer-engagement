@@ -1,0 +1,1 @@
+Query function that evaluate whether value is not equal to the specified business ID. 

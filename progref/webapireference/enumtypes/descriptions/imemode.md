@@ -1,0 +1,1 @@
+Describes the input method editor mode 

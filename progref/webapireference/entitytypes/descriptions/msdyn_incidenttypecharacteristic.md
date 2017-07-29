@@ -1,0 +1,1 @@
+Specify characteristic insident type.

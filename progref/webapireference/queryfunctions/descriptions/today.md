@@ -1,0 +1,1 @@
+Query function that evaluates whether the value equals today’s date.  

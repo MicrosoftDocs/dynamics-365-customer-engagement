@@ -1,0 +1,1 @@
+Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.

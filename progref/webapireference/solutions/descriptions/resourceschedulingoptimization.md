@@ -1,0 +1,1 @@
+Resource Scheduling Optimization for Microsoft Dynamics 365 is an add-on service that helps improve customer experiences and drive operational efficiency by intelligently scheduling resources.

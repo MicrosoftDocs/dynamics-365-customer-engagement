@@ -1,0 +1,1 @@
+Grants a security principal (user or team) access to the specified record. Corresponds to the [GrantAccessRequest Class](https://msdn.microsoft.com/library/microsoft.crm.sdk.messages.grantaccessrequest.aspx).

@@ -1,0 +1,1 @@
+Type of measurement for a goal, such as money amount or count.

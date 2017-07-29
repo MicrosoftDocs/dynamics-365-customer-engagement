@@ -1,0 +1,1 @@
+Calendar used by the scheduling system to define when an appointment or activity is to occur.

@@ -1,0 +1,1 @@
+Specifies the type of ownership for an entity. 

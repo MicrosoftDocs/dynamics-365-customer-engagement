@@ -1,0 +1,1 @@
+Describes the requirement level for an attribute. 
