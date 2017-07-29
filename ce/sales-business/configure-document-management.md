@@ -53,7 +53,7 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
  ![Button to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]](media/configure-sharepoint.png "Button to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]")  
 
  > [!Important]
- > If your organization has a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription and if [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] isn’t already configured, you’ll see an option to configure it. If it is already configured, you’ll see a message that [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is already configured.
+ > If your organization has a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription and if [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] isn’t already configured, you’ll see an option to configure it. If it is already configured, you’ll see a message that [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is configured.
 
 4.  Click **Configure**.
 
