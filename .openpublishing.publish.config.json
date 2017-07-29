@@ -15,9 +15,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "build_entry_point": "op"
     },
     {
       "docset_name": "customer-engagement-dev",
