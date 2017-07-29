@@ -67,7 +67,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
    > [!Important]      
    
-   > If Exchange is already configured for any user in your org, instead of the Configure button, the user’s mailbox will appear. To configure mailboxes for other users, you must add the users in **Advanced Settings** > **User Management**. When you do this,
+   > If Exchange is already configured for any user in your organization, instead of the Configure button, the user’s mailbox will appear. To configure mailboxes for other users, you must add the users in **Advanced Settings** > **User Management**. When you do this,
 their mailboxes will automatically appear here, which you can test and enable later.
 
   ![Button to configure Exchange](media/configure-exchange.png "Button to configure Exchange")  
@@ -93,7 +93,7 @@ their mailboxes will automatically appear here, which you can test and enable la
        
           > [!Important]
          
-          > User mailboxes will be automatically enabled and approved only when the primary email of the user is equal to the user's UPN (User Principal Name attribute). 
+          > User mailboxes are automatically enabled and approved only when the primary email of the user is equal to the user's UPN (User Principal Name attribute). 
        
        - For newly added users, you must manually test and enable the mailboxes.
 
