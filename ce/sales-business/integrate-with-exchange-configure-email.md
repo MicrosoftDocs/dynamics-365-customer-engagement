@@ -90,6 +90,11 @@ their mailboxes will automatically appear here, which you can test and enable la
     2.  When Exchange is configured, the following happens:
 
        - Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox can process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
+       
+          > [!Important]
+         
+          > User mailboxes will be automatically enabled and approved only when the primary email of the user is equal to the user's UPN (User Principal Name attribute). 
+       
        - For newly added users, you must manually test and enable the mailboxes.
 
     3.  All these user mailboxes are automatically approved. A mailbox needs to be approved before it can process email.
