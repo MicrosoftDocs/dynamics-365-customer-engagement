@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Create and manage invoices in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Once your customer accepts the quote, you can create an invoice in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to bill them for the upcoming sale.
 
 You may also create an invoice that doesn’t generate from a quote.

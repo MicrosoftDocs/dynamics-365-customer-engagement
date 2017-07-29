@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Define fiscal year settings in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a fiscal period defines the time reflected in financial reports. It is used for reporting of financial data in a given period. For example, you want to know what’s the actual revenue of your organization in your fiscal period which is from January - December. You can set the fiscal year period, and how it’s displayed, for your organization.
 
 1.  Make sure you have the System Administrator security role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].

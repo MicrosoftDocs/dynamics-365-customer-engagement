@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Sales transactions in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a sale typically starts with a draft quote. When the quote is ready, it is activated and sent to the customer for revisions before it is accepted, and then when you’re shipping the products offered in the quote, an invoice is generated from the quote.
 
 Quotes and invoices in the Sales app are the same item in different states of transition. You can use tools and templates to create and print quotes and invoices.

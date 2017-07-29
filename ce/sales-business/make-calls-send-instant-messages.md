@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Make calls or send instant messages in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 If your organization is set up to use Skype or Skype for Business, you can click a phone number to call your contacts from within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. This capability is called “click-to-call.”
 
 If your organization is set up to use Skype for Business, you can also send instant messages to other users in your organization.

@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Assign a record to a user or team
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 If you would like another person in your organization to handle an account or contact for you, you can assign the record to that person.
 
 You can also assign a record to a team, or to yourself.

@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Set up the Sales app for your team 
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Are you the person responsible for getting your sales team onboard?
 
 Here’s some good news.

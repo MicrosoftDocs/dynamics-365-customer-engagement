@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Create and manage quotes in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Most sales begin with a price quote in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. A quote is a formal offer for products proposed at specific prices and related payment terms, which you send to an opportunity, account, or contact.
 
 If you’ve created your quote from an opportunity, you may have already added products that your customer is interested in to the opportunity. When you create a quote from the opportunity, all the products are already added to the quote.

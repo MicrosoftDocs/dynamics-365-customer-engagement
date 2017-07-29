@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Add or remove sample data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Sample data gives you something to experiment with as you learn [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.
 
 Or, if sample data isn’t installed on your system, you may want to add it for training purposes. Later, when you’re ready, you can remove it.

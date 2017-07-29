@@ -14,6 +14,8 @@ ms.reviewer:
 ---
 # Enable automatic generation of quotes and invoices
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Make sure that all the quotes or invoices that your sales team is sending out to the customers follow a consistent format and branding by enabling automatic generation of quotes and invoices.
 
 1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to enable auto-generation of quotes or invoices documents.
