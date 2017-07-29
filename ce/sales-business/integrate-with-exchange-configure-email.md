@@ -93,7 +93,7 @@ their mailboxes will automatically appear here, which you can test and enable la
        
           > [!Important]
          
-          > User mailboxes are automatically enabled and approved only when the primary email of the user is equal to the user's UPN (User Principal Name attribute). 
+          > User mailboxes are automatically approved and enabled only when the primary email of the user is equal to the user's UPN (User Principal Name attribute). 
        
        - For newly added users, you must manually test and enable the mailboxes.
 
