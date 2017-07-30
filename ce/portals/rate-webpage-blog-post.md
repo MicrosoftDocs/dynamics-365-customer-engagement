@@ -14,16 +14,16 @@ ms.author: shjais
 manager: sakudes
 ---
 # Rate or vote on a webpage or blog post on a portal
-Ratings provides users with the ability to rate or vote on a webpage or [blog post](manage-blogs.md). Ratings can also be enabled for comments on pages or blog posts. By default, this feature is disabled and can be enabled on a page-by-page basis within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Ratings provide users with the ability to rate or vote on a webpage or [blog post](manage-blogs.md). Ratings can also be enabled for comments on pages or blog posts. By default, this feature is disabled, but it can be enabled on a page-by-page basis within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-Ratings are custom [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] activities and thus can be used in the same way as any other activity such as emails, phone calls, and so on. Because Ratings are activities, it is possible, with customization, to have ratings appear for any entity you choose that appears and is rendered on the portal, including custom entities.
+Ratings are custom [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] activities and thus can be used in the same way as any other activity such as emails, phone calls, and so on. Because ratings are activities, by using customization you can have ratings appear for any entity you choose that appears and is rendered on the portal, including custom entities.
 
 ## Enable ratings for pages and blog posts
 
 1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Go to **Portals**.
 3. Click **Web Pages**.
-4. Double-click the desired **Web Page** listed in the grid.
+4. Double-click the **Web Page** you want.
 5. Set **Enable Ratings** to **Yes**.
 6. Click **Save & Close**.
 
