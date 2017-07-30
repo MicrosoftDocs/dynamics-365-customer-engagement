@@ -1,6 +1,6 @@
 ---
 title: "Create and expose portal content easily in Dynamics 365 | MicrosoftDocs"
-description: "Instructions for creating and exposing portal content by using admin wizard in Dynamics 365."
+description: "Instructions to create and expose portal content by using admin wizard in Dynamics 365."
 ms.custom: ""
 ms.date: 07/02/2017
 ms.service: crm-online
