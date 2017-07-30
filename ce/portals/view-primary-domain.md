@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 
-# View the primary domain name in Dynamics 365
+# View the primary domain name in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
 When you provision a portal, the domain name is stored in the **Primary Domain Name** field on the website record. If any change is made to the domain name through the Portal Administration Center, the latest domain name is stored in the **Primary Domain Name** field. If you have not created a custom domain name, the vanity domain name is stored in the **Primary Domain Name** field.
 
