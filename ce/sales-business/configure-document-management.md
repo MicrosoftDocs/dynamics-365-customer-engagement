@@ -46,13 +46,16 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
     2.  Click **Advanced Settings**.
 
-        If you don’t have a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription, you’ll need to first purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription.
+        If your organization doesn’t have a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription, you’ll need to first purchase a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription.
 
  ![Document Management page in Advanced Settings](media/document-management-page-no-office-subscription.png "Document Management page in Advanced Settings")  
 
 3.  Return to [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] Configuration again after purchasing a subscription. This time, a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription is detected.
 
  ![Button to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]](media/configure-sharepoint.png "Button to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]")  
+
+ > [!Important]
+ > If your organization has a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription and if [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] isn’t already configured, you’ll see an option to configure it. If it is already configured, you’ll see a message that [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is configured.
 
 4.  Click **Configure**.
 

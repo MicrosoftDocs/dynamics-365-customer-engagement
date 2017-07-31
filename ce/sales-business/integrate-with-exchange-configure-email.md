@@ -57,8 +57,8 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
     3.  Click **Email Configuration**.
 
-3.  If you have an Office subscription, skip to Step 6.
-
+3.  If your organization has an Exchange subscription, skip to Step 6.
+  
 4.  If you don’t have an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription, you’ll be prompted to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription. Click the link to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription.
 
   ![Email configuration page in Advanced Settings](media/email-configuration-page-no-office-subscription.png "Email configuration page in Advanced Settings")  
@@ -66,6 +66,11 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 5.  After you purchase a subscription, go to **Email Configuration** in the **Quick Setup** or **Advanced Setup**. This time, Exchange will be automatically detected.
 
 6.  If an Exchange subscription is detected but Exchange isn’t configured, you’ll get an option to configure Exchange.
+
+   > [!Important]      
+   
+   > If Exchange is already configured for any user in your organization, instead of the Configure button, the user’s mailbox will appear. To configure mailboxes for other users, you must add the users in **Advanced Settings** > **User Management**. When you do this,
+their mailboxes will automatically appear here, which you can test and enable later.
 
   ![Button to configure Exchange](media/configure-exchange.png "Button to configure Exchange")  
 
@@ -87,6 +92,11 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
     2.  When Exchange is configured, the following happens:
 
        - Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox can process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
+       
+          > [!Important]
+         
+          > User mailboxes are automatically approved and enabled only when the primary email of the user is equal to the user's UPN (User Principal Name attribute). 
+       
        - For newly added users, you must manually test and enable the mailboxes.
 
     3.  All these user mailboxes are automatically approved. A mailbox needs to be approved before it can process email.
