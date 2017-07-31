@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_marketingdyn
 # msdyncrm_marketingdynamiccontentmetadata EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_marketingdynamiccontentmetadata.md](./descriptions/msdyncrm_marketingdynamiccontentmetadata.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_marketingdynamiccontentmetadatas </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_marketingdynamiccontentmetadatas </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>MarketingDynamicContentMetadata</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyncrm_marketingdynamiccontentmetadataid</td></tr>

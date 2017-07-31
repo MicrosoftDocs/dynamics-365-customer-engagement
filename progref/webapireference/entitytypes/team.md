@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API team entitytype."
 # team EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/team.md](./descriptions/team.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]teams </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]teams </td></tr>
 <tr><td><b>Base Type:</b></td><td>[principal EntityType](principal.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Team</td></tr>
 <tr><td><b>Primary Key:</b></td><td>ownerid</td></tr>

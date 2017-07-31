@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_appointmenta
 # msdyncrm_appointmentactivitymarketingtemplate EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_appointmentactivitymarketingtemplate.md](./descriptions/msdyncrm_appointmentactivitymarketingtemplate.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_appointmentactivitymarketingtemplates </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_appointmentactivitymarketingtemplates </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Appointment Activity Marketing Template</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyncrm_appointmentactivitymarketingtemplateid</td></tr>

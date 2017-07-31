@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API category entitytype."
 # category EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/category.md](./descriptions/category.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]categories </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]categories </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Category</td></tr>
 <tr><td><b>Primary Key:</b></td><td>categoryid</td></tr>

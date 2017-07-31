@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_quotelineinvoic
 # msdyn_quotelineinvoiceschedule EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_quotelineinvoiceschedule.md](./descriptions/msdyn_quotelineinvoiceschedule.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_quotelineinvoiceschedules </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_quotelineinvoiceschedules </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Quote Line Invoice Schedule</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_quotelineinvoicescheduleid</td></tr>

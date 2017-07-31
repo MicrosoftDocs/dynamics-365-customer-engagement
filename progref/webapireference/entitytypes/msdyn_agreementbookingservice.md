@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_agreementbookin
 # msdyn_agreementbookingservice EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_agreementbookingservice.md](./descriptions/msdyn_agreementbookingservice.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_agreementbookingservices </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_agreementbookingservices </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Agreement Booking Service</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_agreementbookingserviceid</td></tr>

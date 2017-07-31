@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_externalidentity 
 # adx_externalidentity EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_externalidentity.md](./descriptions/adx_externalidentity.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_externalidentities </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_externalidentities </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>External Identity</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_externalidentityid</td></tr>

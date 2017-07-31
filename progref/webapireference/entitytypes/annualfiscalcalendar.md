@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API annualfiscalcalendar 
 # annualfiscalcalendar EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/annualfiscalcalendar.md](./descriptions/annualfiscalcalendar.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]annualfiscalcalendars </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]annualfiscalcalendars </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Annual Fiscal Calendar</td></tr>
 <tr><td><b>Primary Key:</b></td><td>userfiscalcalendarid</td></tr>

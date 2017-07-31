@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_inventoryadjust
 # msdyn_inventoryadjustment EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_inventoryadjustment.md](./descriptions/msdyn_inventoryadjustment.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_inventoryadjustments </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_inventoryadjustments </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Inventory Adjustment</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_inventoryadjustmentid</td></tr>

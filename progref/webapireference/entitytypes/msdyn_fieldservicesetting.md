@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_fieldserviceset
 # msdyn_fieldservicesetting EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_fieldservicesetting.md](./descriptions/msdyn_fieldservicesetting.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_fieldservicesettings </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_fieldservicesettings </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Field Service Setting</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_fieldservicesettingid</td></tr>

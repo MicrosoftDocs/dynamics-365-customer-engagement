@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API kbarticle entitytype.
 # kbarticle EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/kbarticle.md](./descriptions/kbarticle.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]kbarticles </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]kbarticles </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Article</td></tr>
 <tr><td><b>Primary Key:</b></td><td>kbarticleid</td></tr>

@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_matchingstra
 # msdyncrm_matchingstrategy EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_matchingstrategy.md](./descriptions/msdyncrm_matchingstrategy.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_matchingstrategies </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_matchingstrategies </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Matching Strategy</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyncrm_matchingstrategyid</td></tr>

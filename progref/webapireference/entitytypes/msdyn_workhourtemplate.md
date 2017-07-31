@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_workhourtemplat
 # msdyn_workhourtemplate EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_workhourtemplate.md](./descriptions/msdyn_workhourtemplate.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_workhourtemplates </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_workhourtemplates </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Work template</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_workhourtemplateid</td></tr>

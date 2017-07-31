@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_urlhistory entity
 # adx_urlhistory EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_urlhistory.md](./descriptions/adx_urlhistory.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_urlhistories </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_urlhistories </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>URL History</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_urlhistoryid</td></tr>

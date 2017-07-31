@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_entityform entity
 # adx_entityform EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_entityform.md](./descriptions/adx_entityform.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_entityforms </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_entityforms </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Entity Form</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_entityformid</td></tr>

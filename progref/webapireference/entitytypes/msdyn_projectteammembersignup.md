@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_projectteammemb
 # msdyn_projectteammembersignup EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_projectteammembersignup.md](./descriptions/msdyn_projectteammembersignup.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_projectteammembersignups </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_projectteammembersignups </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Project Team Member Sign-Up</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_projectteammembersignupid</td></tr>

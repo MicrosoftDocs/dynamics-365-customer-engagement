@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_workorderresour
 # msdyn_workorderresourcerestriction EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_workorderresourcerestriction.md](./descriptions/msdyn_workorderresourcerestriction.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_workorderresourcerestrictions </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_workorderresourcerestrictions </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Resource Restriction (Deprecated)</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_workorderresourcerestrictionid</td></tr>

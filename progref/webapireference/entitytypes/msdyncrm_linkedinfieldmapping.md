@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_linkedinfiel
 # msdyncrm_linkedinfieldmapping EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_linkedinfieldmapping.md](./descriptions/msdyncrm_linkedinfieldmapping.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_linkedinfieldmappings </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_linkedinfieldmappings </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>LinkedIn Field Mapping</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyncrm_linkedinfieldmappingid</td></tr>

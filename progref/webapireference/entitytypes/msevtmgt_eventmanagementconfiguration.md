@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msevtmgt_eventmanagem
 # msevtmgt_eventmanagementconfiguration EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msevtmgt_eventmanagementconfiguration.md](./descriptions/msevtmgt_eventmanagementconfiguration.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msevtmgt_eventmanagementconfigurations </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msevtmgt_eventmanagementconfigurations </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Event Management Configuration</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msevtmgt_eventmanagementconfigurationid</td></tr>

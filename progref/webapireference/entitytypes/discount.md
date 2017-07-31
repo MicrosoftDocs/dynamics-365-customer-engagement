@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API discount entitytype."
 # discount EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/discount.md](./descriptions/discount.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]discounts </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]discounts </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Discount</td></tr>
 <tr><td><b>Primary Key:</b></td><td>discountid</td></tr>

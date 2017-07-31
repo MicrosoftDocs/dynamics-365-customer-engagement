@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_questiongroup e
 # msdyn_questiongroup EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_questiongroup.md](./descriptions/msdyn_questiongroup.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_questiongroups </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_questiongroups </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Grid</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_questiongroupid</td></tr>

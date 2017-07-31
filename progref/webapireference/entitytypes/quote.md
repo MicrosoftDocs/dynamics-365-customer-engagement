@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API quote entitytype."
 # quote EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/quote.md](./descriptions/quote.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]quotes </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]quotes </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Quote</td></tr>
 <tr><td><b>Primary Key:</b></td><td>quoteid</td></tr>

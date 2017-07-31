@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API importlog entitytype.
 # importlog EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/importlog.md](./descriptions/importlog.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]importlogs </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]importlogs </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Import Log</td></tr>
 <tr><td><b>Primary Key:</b></td><td>importlogid</td></tr>

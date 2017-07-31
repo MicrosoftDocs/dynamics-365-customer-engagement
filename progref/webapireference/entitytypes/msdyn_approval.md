@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_approval entity
 # msdyn_approval EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_approval.md](./descriptions/msdyn_approval.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_approvals </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_approvals </td></tr>
 <tr><td><b>Base Type:</b></td><td>[activitypointer EntityType](activitypointer.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Approval</td></tr>
 <tr><td><b>Primary Key:</b></td><td>activityid</td></tr>

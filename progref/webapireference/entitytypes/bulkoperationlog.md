@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API bulkoperationlog enti
 # bulkoperationlog EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/bulkoperationlog.md](./descriptions/bulkoperationlog.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]bulkoperationlogs </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]bulkoperationlogs </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Bulk Operation Log</td></tr>
 <tr><td><b>Primary Key:</b></td><td>bulkoperationlogid</td></tr>

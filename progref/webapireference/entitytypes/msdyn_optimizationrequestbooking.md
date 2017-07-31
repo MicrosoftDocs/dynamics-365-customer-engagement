@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_optimizationreq
 # msdyn_optimizationrequestbooking EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_optimizationrequestbooking.md](./descriptions/msdyn_optimizationrequestbooking.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_optimizationrequestbookings </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_optimizationrequestbookings </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Optimization Request Booking</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_optimizationrequestbookingid</td></tr>

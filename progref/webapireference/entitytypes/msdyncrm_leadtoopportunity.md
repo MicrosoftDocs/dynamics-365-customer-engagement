@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_leadtoopport
 # msdyncrm_leadtoopportunity EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_leadtoopportunity.md](./descriptions/msdyncrm_leadtoopportunity.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_leadtoopportunities </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_leadtoopportunities </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Lead to Opportunity</td></tr>
 <tr><td><b>Primary Key:</b></td><td>businessprocessflowinstanceid</td></tr>

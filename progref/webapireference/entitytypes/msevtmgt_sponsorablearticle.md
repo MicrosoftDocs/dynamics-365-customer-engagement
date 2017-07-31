@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msevtmgt_sponsorablea
 # msevtmgt_sponsorablearticle EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msevtmgt_sponsorablearticle.md](./descriptions/msevtmgt_sponsorablearticle.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msevtmgt_sponsorablearticles </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msevtmgt_sponsorablearticles </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Sponsorable Article</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msevtmgt_sponsorablearticleid</td></tr>

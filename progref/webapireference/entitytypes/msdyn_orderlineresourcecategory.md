@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_orderlineresour
 # msdyn_orderlineresourcecategory EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_orderlineresourcecategory.md](./descriptions/msdyn_orderlineresourcecategory.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_orderlineresourcecategories </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_orderlineresourcecategories </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Project Contract Line Resource Category</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_orderlineresourcecategoryid</td></tr>

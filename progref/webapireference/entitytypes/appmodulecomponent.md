@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API appmodulecomponent en
 # appmodulecomponent EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/appmodulecomponent.md](./descriptions/appmodulecomponent.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]appmodulecomponents </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]appmodulecomponents </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>App Module Component</td></tr>
 <tr><td><b>Primary Key:</b></td><td>appmodulecomponentid</td></tr>

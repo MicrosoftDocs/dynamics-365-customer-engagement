@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API activitypointer entit
 # activitypointer EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/activitypointer.md](./descriptions/activitypointer.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]activitypointers </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]activitypointers </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Activity</td></tr>
 <tr><td><b>Primary Key:</b></td><td>activityid</td></tr>

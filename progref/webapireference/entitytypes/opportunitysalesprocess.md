@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API opportunitysalesproce
 # opportunitysalesprocess EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/opportunitysalesprocess.md](./descriptions/opportunitysalesprocess.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]opportunitysalesprocesses </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]opportunitysalesprocesses </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Opportunity Sales Process</td></tr>
 <tr><td><b>Primary Key:</b></td><td>businessprocessflowinstanceid</td></tr>

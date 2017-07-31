@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API roletemplate entityty
 # roletemplate EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/roletemplate.md](./descriptions/roletemplate.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]roletemplates </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]roletemplates </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Role Template</td></tr>
 <tr><td><b>Primary Key:</b></td><td>roletemplateid</td></tr>

@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_estimate entity
 # msdyn_estimate EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_estimate.md](./descriptions/msdyn_estimate.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_estimates </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_estimates </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Estimate</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_estimateid</td></tr>

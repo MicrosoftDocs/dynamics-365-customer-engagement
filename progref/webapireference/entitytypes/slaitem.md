@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API slaitem entitytype."
 # slaitem EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/slaitem.md](./descriptions/slaitem.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]slaitems </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]slaitems </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>SLA Item</td></tr>
 <tr><td><b>Primary Key:</b></td><td>slaitemid</td></tr>

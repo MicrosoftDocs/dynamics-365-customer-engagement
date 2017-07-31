@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_vocconfiguratio
 # msdyn_vocconfiguration EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_vocconfiguration.md](./descriptions/msdyn_vocconfiguration.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_vocconfigurations </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_vocconfigurations </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Voice of the Customer Configuration</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_vocconfigurationid</td></tr>

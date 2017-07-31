@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API recurringappointmentm
 # recurringappointmentmaster EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/recurringappointmentmaster.md](./descriptions/recurringappointmentmaster.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]recurringappointmentmasters </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]recurringappointmentmasters </td></tr>
 <tr><td><b>Base Type:</b></td><td>[activitypointer EntityType](activitypointer.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Recurring Appointment</td></tr>
 <tr><td><b>Primary Key:</b></td><td>activityid</td></tr>

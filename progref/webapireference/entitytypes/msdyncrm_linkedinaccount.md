@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_linkedinacco
 # msdyncrm_linkedinaccount EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_linkedinaccount.md](./descriptions/msdyncrm_linkedinaccount.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_linkedinaccounts </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_linkedinaccounts </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>LinkedIn Account</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyncrm_linkedinaccountid</td></tr>

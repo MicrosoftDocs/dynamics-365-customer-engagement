@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API quoteclose entitytype
 # quoteclose EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/quoteclose.md](./descriptions/quoteclose.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]quotecloses </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]quotecloses </td></tr>
 <tr><td><b>Base Type:</b></td><td>[activitypointer EntityType](activitypointer.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Quote Close</td></tr>
 <tr><td><b>Primary Key:</b></td><td>activityid</td></tr>

@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_survey entityty
 # msdyn_survey EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_survey.md](./descriptions/msdyn_survey.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_surveys </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_surveys </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Survey</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_surveyid</td></tr>

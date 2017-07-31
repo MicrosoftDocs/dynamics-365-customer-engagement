@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_transactioncate
 # msdyn_transactioncategory EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_transactioncategory.md](./descriptions/msdyn_transactioncategory.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_transactioncategories </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_transactioncategories </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Transaction Category</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_transactioncategoryid</td></tr>

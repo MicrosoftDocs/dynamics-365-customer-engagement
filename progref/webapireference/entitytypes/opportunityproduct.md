@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API opportunityproduct en
 # opportunityproduct EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/opportunityproduct.md](./descriptions/opportunityproduct.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]opportunityproducts </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]opportunityproducts </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Opportunity Line</td></tr>
 <tr><td><b>Primary Key:</b></td><td>opportunityproductid</td></tr>

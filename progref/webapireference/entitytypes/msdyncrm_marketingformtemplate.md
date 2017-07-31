@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_marketingfor
 # msdyncrm_marketingformtemplate EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_marketingformtemplate.md](./descriptions/msdyncrm_marketingformtemplate.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_marketingformtemplates </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_marketingformtemplates </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Marketing Form Template</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyncrm_marketingformtemplateid</td></tr>

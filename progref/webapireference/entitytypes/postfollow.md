@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API postfollow entitytype
 # postfollow EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/postfollow.md](./descriptions/postfollow.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]postfollows </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]postfollows </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Follow</td></tr>
 <tr><td><b>Primary Key:</b></td><td>postfollowid</td></tr>

@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_incidenttypecha
 # msdyn_incidenttypecharacteristic EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_incidenttypecharacteristic.md](./descriptions/msdyn_incidenttypecharacteristic.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_incidenttypecharacteristics </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_incidenttypecharacteristics </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Incident Type Characteristic</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_incidenttypecharacteristicid</td></tr>

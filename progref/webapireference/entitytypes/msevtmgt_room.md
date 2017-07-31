@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msevtmgt_room entityt
 # msevtmgt_room EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msevtmgt_room.md](./descriptions/msevtmgt_room.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msevtmgt_rooms </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msevtmgt_rooms </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Room</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msevtmgt_roomid</td></tr>
