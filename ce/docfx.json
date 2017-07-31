@@ -35,13 +35,15 @@
         "gamification/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
-        "portals/**.*": "bc/toc.yml"
+        "portals/**.*": "bc/toc.yml",
+        "linkedin/**.*": "bc/toc.yml"
       },
       "searchScope":{
         "voice-of-customer/**.*":["Voice of the Customer"],
         "gamification/**.*":["Gamification"],
         "social-engagement/**.*":["Social Engagement"],
-        "portals/**.*":["Portals"]
+        "portals/**.*":["Portals"],
+        "linkedin/**.*":["LinkedIn"]
       }
     },
     "template": [],
