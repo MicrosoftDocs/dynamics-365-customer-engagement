@@ -37,6 +37,7 @@
         "voice-of-customer/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
         "portals/**.*": "bc/toc.yml",
+        "linkedin/**.*": "bc/toc.yml",
         "sales-business/**.*": "bc/toc.yml"
       },
       "searchScope":{
@@ -44,6 +45,7 @@
         "gamification/**.*":["Gamification"],
         "social-engagement/**.*":["Social Engagement"],
         "portals/**.*":["Portals"],
+        "linkedin/**.*":["LinkedIn"],
         "sales-business/**.*":["Sales-Business edition"]
       }
     },
