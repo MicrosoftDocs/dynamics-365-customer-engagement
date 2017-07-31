@@ -14,7 +14,7 @@ manager: "jdaly"
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/managedpropertymetadata.md](./descriptions/managedpropertymetadata.md)]</td></tr>
 <tr><td><b>Base Type:</b></td><td>[MetadataBase EntityType](metadatabase.md)</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]ManagedPropertyDefinitions</td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]ManagedPropertyDefinitions</td></tr>
 <tr><td><b>Primary Key:</b></td><td>MetadataId</td></tr>
 <tr><td><b>Operations supported:</b></td><td>GET,PUT,DELETE</td></tr>
 </table>

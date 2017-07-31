@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_quotelineanalyt
 # msdyn_quotelineanalyticsbreakdown EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_quotelineanalyticsbreakdown.md](./descriptions/msdyn_quotelineanalyticsbreakdown.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_quotelineanalyticsbreakdowns </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_quotelineanalyticsbreakdowns </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Quote Line Analytics Breakdown</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_quotelineanalyticsbreakdownid</td></tr>

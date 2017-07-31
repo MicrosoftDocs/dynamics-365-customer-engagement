@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_import entityty
 # msdyn_import EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_import.md](./descriptions/msdyn_import.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_imports </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_imports </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>VoC Import</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_importid</td></tr>

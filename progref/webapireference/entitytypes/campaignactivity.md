@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API campaignactivity enti
 # campaignactivity EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/campaignactivity.md](./descriptions/campaignactivity.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]campaignactivities </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]campaignactivities </td></tr>
 <tr><td><b>Base Type:</b></td><td>[activitypointer EntityType](activitypointer.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Campaign Activity</td></tr>
 <tr><td><b>Primary Key:</b></td><td>activityid</td></tr>

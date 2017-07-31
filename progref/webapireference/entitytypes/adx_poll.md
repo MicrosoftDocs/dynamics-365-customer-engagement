@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_poll entitytype."
 # adx_poll EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_poll.md](./descriptions/adx_poll.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_polls </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_polls </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Poll</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_pollid</td></tr>

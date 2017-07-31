@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_azuredeployment
 # msdyn_azuredeployment EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_azuredeployment.md](./descriptions/msdyn_azuredeployment.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_azuredeployments </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_azuredeployments </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Azure Deployment</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_azuredeploymentid</td></tr>

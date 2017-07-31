@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_surveyinvite en
 # msdyn_surveyinvite EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_surveyinvite.md](./descriptions/msdyn_surveyinvite.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_surveyinvites </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_surveyinvites </td></tr>
 <tr><td><b>Base Type:</b></td><td>[activitypointer EntityType](activitypointer.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Survey Activity</td></tr>
 <tr><td><b>Primary Key:</b></td><td>activityid</td></tr>

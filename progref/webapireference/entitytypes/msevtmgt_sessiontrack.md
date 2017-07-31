@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msevtmgt_sessiontrack
 # msevtmgt_sessiontrack EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msevtmgt_sessiontrack.md](./descriptions/msevtmgt_sessiontrack.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msevtmgt_sessiontracks </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msevtmgt_sessiontracks </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Session Track</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msevtmgt_sessiontrackid</td></tr>

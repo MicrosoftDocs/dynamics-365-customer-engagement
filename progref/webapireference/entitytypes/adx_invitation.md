@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_invitation entity
 # adx_invitation EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_invitation.md](./descriptions/adx_invitation.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_invitations </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_invitations </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Invitation</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_invitationid</td></tr>

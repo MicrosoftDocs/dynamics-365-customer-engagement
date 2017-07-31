@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msevtmgt_authenticati
 # msevtmgt_authenticationsettings EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msevtmgt_authenticationsettings.md](./descriptions/msevtmgt_authenticationsettings.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msevtmgt_authenticationsettingses </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msevtmgt_authenticationsettingses </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Authentication Settings</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msevtmgt_authenticationsettingsid</td></tr>

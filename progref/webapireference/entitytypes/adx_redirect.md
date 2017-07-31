@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_redirect entityty
 # adx_redirect EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_redirect.md](./descriptions/adx_redirect.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_redirects </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_redirects </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Redirect</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_redirectid</td></tr>

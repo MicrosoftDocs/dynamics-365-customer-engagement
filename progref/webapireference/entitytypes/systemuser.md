@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API systemuser entitytype
 # systemuser EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/systemuser.md](./descriptions/systemuser.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]systemusers </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]systemusers </td></tr>
 <tr><td><b>Base Type:</b></td><td>[principal EntityType](principal.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>User</td></tr>
 <tr><td><b>Primary Key:</b></td><td>ownerid</td></tr>

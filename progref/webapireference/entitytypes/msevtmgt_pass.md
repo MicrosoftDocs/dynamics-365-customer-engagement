@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msevtmgt_pass entityt
 # msevtmgt_pass EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msevtmgt_pass.md](./descriptions/msevtmgt_pass.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msevtmgt_passes </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msevtmgt_passes </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Pass</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msevtmgt_passid</td></tr>

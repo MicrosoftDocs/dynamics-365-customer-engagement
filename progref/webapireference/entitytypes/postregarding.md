@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API postregarding entityt
 # postregarding EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/postregarding.md](./descriptions/postregarding.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]postregardings </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]postregardings </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Post Regarding</td></tr>
 <tr><td><b>Primary Key:</b></td><td>postregardingid</td></tr>

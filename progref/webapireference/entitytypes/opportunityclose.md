@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API opportunityclose enti
 # opportunityclose EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/opportunityclose.md](./descriptions/opportunityclose.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]opportunitycloses </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]opportunitycloses </td></tr>
 <tr><td><b>Base Type:</b></td><td>[activitypointer EntityType](activitypointer.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Opportunity Close</td></tr>
 <tr><td><b>Primary Key:</b></td><td>activityid</td></tr>

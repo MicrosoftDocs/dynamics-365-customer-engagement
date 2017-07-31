@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_resourcepaytype
 # msdyn_resourcepaytype EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_resourcepaytype.md](./descriptions/msdyn_resourcepaytype.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_resourcepaytypes </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_resourcepaytypes </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Resource Pay Type</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_resourcepaytypeid</td></tr>

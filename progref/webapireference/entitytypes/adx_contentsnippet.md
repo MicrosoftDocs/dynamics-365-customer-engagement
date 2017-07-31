@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_contentsnippet en
 # adx_contentsnippet EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_contentsnippet.md](./descriptions/adx_contentsnippet.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_contentsnippets </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_contentsnippets </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Content Snippet</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_contentsnippetid</td></tr>

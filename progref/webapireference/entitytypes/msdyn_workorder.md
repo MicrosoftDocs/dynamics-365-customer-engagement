@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_workorder entit
 # msdyn_workorder EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_workorder.md](./descriptions/msdyn_workorder.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_workorders </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_workorders </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Work Order</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_workorderid</td></tr>

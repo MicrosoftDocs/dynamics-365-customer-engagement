@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_contractlineinv
 # msdyn_contractlineinvoiceschedule EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_contractlineinvoiceschedule.md](./descriptions/msdyn_contractlineinvoiceschedule.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_contractlineinvoiceschedules </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_contractlineinvoiceschedules </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Project Contract Line Invoice Schedule</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_contractlineinvoicescheduleid</td></tr>

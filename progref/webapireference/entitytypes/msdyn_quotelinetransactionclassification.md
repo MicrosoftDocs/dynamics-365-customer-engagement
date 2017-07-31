@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_quotelinetransa
 # msdyn_quotelinetransactionclassification EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_quotelinetransactionclassification.md](./descriptions/msdyn_quotelinetransactionclassification.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_quotelinetransactionclassifications </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_quotelinetransactionclassifications </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Quote Line Transaction Classification</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_quotelinetransactionclassificationid</td></tr>

@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_rtvsubstatus en
 # msdyn_rtvsubstatus EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_rtvsubstatus.md](./descriptions/msdyn_rtvsubstatus.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_rtvsubstatuses </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_rtvsubstatuses </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>RTV Sub-Status</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_rtvsubstatusid</td></tr>

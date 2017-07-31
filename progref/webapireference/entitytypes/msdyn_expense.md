@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_expense entityt
 # msdyn_expense EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_expense.md](./descriptions/msdyn_expense.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_expenses </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_expenses </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Expense</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_expenseid</td></tr>

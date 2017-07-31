@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API contactquotes entityt
 # contactquotes EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/contactquotes.md](./descriptions/contactquotes.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]contactquotescollection </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]contactquotescollection </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>ContactQuotes</td></tr>
 <tr><td><b>Primary Key:</b></td><td>contactquoteid</td></tr>

@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_publishingstatetr
 # adx_publishingstatetransitionrule EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_publishingstatetransitionrule.md](./descriptions/adx_publishingstatetransitionrule.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_publishingstatetransitionrules </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_publishingstatetransitionrules </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Publishing State Transition Rule</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_publishingstatetransitionruleid</td></tr>

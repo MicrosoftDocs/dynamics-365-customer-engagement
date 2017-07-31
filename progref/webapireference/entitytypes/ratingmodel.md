@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API ratingmodel entitytyp
 # ratingmodel EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/ratingmodel.md](./descriptions/ratingmodel.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]ratingmodels </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]ratingmodels </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Rating Model</td></tr>
 <tr><td><b>Primary Key:</b></td><td>ratingmodelid</td></tr>

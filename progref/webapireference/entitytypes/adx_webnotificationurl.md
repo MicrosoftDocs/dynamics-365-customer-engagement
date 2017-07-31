@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API adx_webnotificationur
 # adx_webnotificationurl EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/adx_webnotificationurl.md](./descriptions/adx_webnotificationurl.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]adx_webnotificationurls </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]adx_webnotificationurls </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Web Notification URL</td></tr>
 <tr><td><b>Primary Key:</b></td><td>adx_webnotificationurlid</td></tr>

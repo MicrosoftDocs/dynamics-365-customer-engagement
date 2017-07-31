@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_taxcodedetail e
 # msdyn_taxcodedetail EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_taxcodedetail.md](./descriptions/msdyn_taxcodedetail.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_taxcodedetails </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_taxcodedetails </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Tax Code Detail</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_taxcodedetailid</td></tr>

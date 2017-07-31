@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API entitlementchannel en
 # entitlementchannel EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/entitlementchannel.md](./descriptions/entitlementchannel.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]entitlementchannels </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]entitlementchannels </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Entitlement Channel</td></tr>
 <tr><td><b>Primary Key:</b></td><td>entitlementchannelid</td></tr>

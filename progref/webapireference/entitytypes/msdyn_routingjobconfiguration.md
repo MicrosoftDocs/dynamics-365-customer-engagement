@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyn_routingjobconfi
 # msdyn_routingjobconfiguration EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyn_routingjobconfiguration.md](./descriptions/msdyn_routingjobconfiguration.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyn_routingjobconfigurations </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyn_routingjobconfigurations </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Scheduling Optimization Scope</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyn_routingjobconfigurationid</td></tr>

@@ -14,7 +14,7 @@ meta-description: "Reference information about the Web API msdyncrm_segment enti
 # msdyncrm_segment EntityType
 <table>
 <tr><td><b>Description:</b></td><td>[!INCLUDE[./descriptions/msdyncrm_segment.md](./descriptions/msdyncrm_segment.md)]</td></tr>
-<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../../includes/current-web-api-base-uri.md)]msdyncrm_segments </td></tr>
+<tr><td><b>Entity Set path:</b></td><td>[!include[current-web-api-base-uri.md](../includes/current-web-api-base-uri.md)]msdyncrm_segments </td></tr>
 <tr><td><b>Base Type:</b></td><td>[crmbaseentity EntityType](crmbaseentity.md)</td></tr>
 <tr><td><b>Display Name:</b></td><td>Segment</td></tr>
 <tr><td><b>Primary Key:</b></td><td>msdyncrm_segmentid</td></tr>
