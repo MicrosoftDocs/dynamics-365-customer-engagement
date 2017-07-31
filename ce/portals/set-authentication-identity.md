@@ -67,7 +67,6 @@ Returning visitors who require a password reset (and have previously specified a
 - `Authentication/Registration/ResetPasswordEnabled`
 - `Authentication/Registration/ResetPasswordRequiresConfirmedEmail`
 
-[//]: # (Note edits to make this a mini-procedure to be parallel: edits okay?)
 **Related process:** Send a password reset to a contact
 
 1.  Customize the email in the workflow as necessary.
@@ -87,7 +86,6 @@ Redeeming an invitation code allows a registering visitor to be associated with 
 
 **Related process:** Send invitation
 
-[//]: # (Is the structure okay for this URL, or should there be no space in "Invitation Code"? Also, in step 3, can "Process: Send invitation" be turned into a grammatical sentence?)
 The email sent by this workflow must be customized by using the URL to the redeem invitation page on the portal: http://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation Code(Invitation)}
 
 1. Create an invitation for a new contact.
@@ -150,15 +148,13 @@ The two-factor authentication feature increases user account security by requiri
 - `Authentication/Registration/TwoFactorEnabled`
 - `Authentication/Registration/RememberBrowserEnabled`
 
-[//]: # (Same as above, who is doing what? And, can step 4 be turned into a step? Can step 5 be moved into the above paragraph? It isn't actually a step in the procedure.)
 **Related Process:** Send email two-factor code to a contact
 
 1. Enable two-factor authentication.
 2. Choose to receive the security code by email.
 3. Wait for the email that contains the security code.
 4. Process: Send Email Two Factor Code To Contact.
-
-Two-factor authentication can be disabled.
+5. Two-factor authentication can be disabled.
 
 ## Manage external accounts
 
