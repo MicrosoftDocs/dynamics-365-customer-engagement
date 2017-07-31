@@ -12,6 +12,9 @@ ms.assetid:
 ms.reviewer: 
 ---
 # User's guide for Dynamics 365 for Sales, Business edition
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition simplifies the lead-to-cash process so small and medium-sized businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management.   
   
 ## Get started  
