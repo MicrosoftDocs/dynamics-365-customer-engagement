@@ -6,9 +6,9 @@ By enabling the Voice of the Customer for Microsoft Dynamics 365 feature, when y
   
  Azure components and services that are involved with Voice of the Customer for Microsoft Dynamics 365 functionality are detailed in the following sections.  
   
- Note: For more information about additional Azure service offerings, see the Microsoft Azure Trust Center ([https://azure.microsoft.com/support/trust-center/](https://azure.microsoft.com/support/trust-center/)).  
+ Note: For more information about additional Azure service offerings, see the Microsoft Azure Trust Center ([https://azure.microsoft.com/en-us/support/trust-center/](https://azure.microsoft.com/en-us/support/trust-center/)).  
   
- **Cloud Services** ([https://azure.microsoft.com/services/cloud-services/](https://azure.microsoft.com/services/cloud-services/))  
+ **Cloud Services** ([https://azure.microsoft.com/en-us/services/cloud-services/](https://azure.microsoft.com/en-us/services/cloud-services/))  
   
  **Designer Service (Web Role)**  
   
@@ -25,11 +25,11 @@ By enabling the Voice of the Customer for Microsoft Dynamics 365 feature, when y
  **Push Processor (Worker Role)**  
  This worker role is responsible for processing the valid survey responses and updating as Dynamics 365 entity records. 
  
- **Azure Key Vault** ([https://azure.microsoft.com/services/key-vault/](https://azure.microsoft.com/services/key-vault/))  
+ **Azure Key Vault** ([https://azure.microsoft.com/en-us/services/key-vault/](https://azure.microsoft.com/en-us/services/key-vault/))  
   
  All cloud services store configuration data in Azure Key Vault.  Organization, tenant data is stored in SQL Azure.  
   
- **Azure SQL Database** ([https://azure.microsoft.com/services/sql-database/](https://azure.microsoft.com/services/sql-database/))  
+ **Azure SQL Database** ([https://azure.microsoft.com/en-us/services/sql-database/](https://azure.microsoft.com/en-us/services/sql-database/))  
   
  Voice of the Customer for Microsoft Dynamics 365 uses SQL Azure to store:  
   
@@ -39,18 +39,18 @@ By enabling the Voice of the Customer for Microsoft Dynamics 365 feature, when y
   
 -   Organization (tenant) data  
   
- **Azure Blob Storage** ([https://azure.microsoft.com/services/storage/](https://azure.microsoft.com/services/storage/))  
+ **Azure Blob Storage** ([https://azure.microsoft.com/en-us/services/storage/](https://azure.microsoft.com/en-us/services/storage/))  
   
  Survey definitions and partially completed (saved) responses are stored to Azure Blob storage.  
   
- **Azure Content Delivery Network (CDN)** ([https://azure.microsoft.com/services/cdn/](https://azure.microsoft.com/services/cdn/))  
+ **Azure Content Delivery Network (CDN)** ([https://azure.microsoft.com/en-us/services/cdn/](https://azure.microsoft.com/en-us/services/cdn/))  
   
  The Voice of the Customer for Microsoft Dynamics 365 solution uses Azure Content Delivery Network to serve static content to the survey runtime such as images (including uploaded images such as customer logos), JavaScript and CSS.  
   
- **Azure Active Directory** ([https://azure.microsoft.com/services/active-directory/](https://azure.microsoft.com/services/active-directory/))  
+ **Azure Active Directory** ([https://azure.microsoft.com/en-us/services/active-directory/](https://azure.microsoft.com/en-us/services/active-directory/))  
   
  The Voice of the Customer for Microsoft Dynamics 365 solution uses Azure Active Directory Service to authenticate web services.  
   
- **Azure Service Bus** ([https://azure.microsoft.com/services/service-bus/](https://azure.microsoft.com/services/service-bus/))  
+ **Azure Service Bus** ([https://azure.microsoft.com/en-us/services/service-bus/](https://azure.microsoft.com/en-us/services/service-bus/))  
   
  Messages created when a survey is displayed / submitted are stored temporarily to an organization’s (tenant’s) Azure Service Bus Queue until the Azure worker role pushes the survey responses into an organization’s Dynamics 365 instance and persists them as Dynamics 365 entity records.

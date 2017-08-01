@@ -1,0 +1,23 @@
+---
+title: "Extend Customer Engagement with integration and solutions | MicrosoftDocs"
+ms.custom: ""
+ms.date: "2017-08-31"
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: a4989313-6bd5-4ab6-b0e1-da763ca18f2b
+caps.latest.revision: 13
+author: "Mattp123"
+ms.author: "matp"
+manager: "brycho"
+---
+# Extend with integration and solutions
+Extend [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] with a rich set of interoperability and connectivity features.  
+   
+### See also  
+ [Administering Dynamics 365 for online and on-premises](../admin/administer-dynamics-365-online-customer-engagement.md)

@@ -1,0 +1,1 @@
+This feature requires that you have an Office 365 subscription or a subscription to an online service such as SharePoint Online or Exchange Online. For more information, see [What is Office 365 and how does it relate to Dynamics 365 (online)?](https://technet.microsoft.com/library/mt169376.aspx)
