@@ -1,1 +1,1 @@
-Office 365 admin center
+Office 365 Admin Center

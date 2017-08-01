@@ -1,0 +1,1 @@
+Live Assist for Microsoft Dynamics 365 powered by CaféX
