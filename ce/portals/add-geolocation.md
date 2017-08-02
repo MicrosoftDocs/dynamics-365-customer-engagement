@@ -21,7 +21,6 @@ A managed form can be configured to display a map control either to display an e
 
 ![Location data in a form.](media/location-data-form.png "Location data in a form")
 
-[//]: # (Should the first line be "If the Address Line is editable..."?)
 If the form or Address Line field is editable and this field is blank, when the page loads it will prompt the user asking if they would like to share their location. If they choose to share their location, the map will be updated with their currently detected location. The user can refine the location of the pin by dragging it. If the user chooses not to share their location, they can manually specify the location in the fields provided, and the mapping service will be queried to find the location and update the latitude and longitude and reposition the pin on the map accordingly.
 
 ## Add geolocation

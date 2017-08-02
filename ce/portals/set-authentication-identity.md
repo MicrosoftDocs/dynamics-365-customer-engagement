@@ -121,7 +121,7 @@ A user who has an existing local account can apply a new password by providing t
 
 `Authentication/Registration/LocalLoginEnabled`
 
-[//]: # (Should there be a **Related processes:** heading here? To be parallel.)
+**Related process:**
 - Create a username and password.
 - Change an existing password.
 
@@ -129,7 +129,6 @@ A user who has an existing local account can apply a new password by providing t
 
 Changing an email address (or setting it for the first time) puts it into an unconfirmed state. The user can request a confirmation email to be sent to their new email address, and the email will include instructions to the user for completing the email confirmation process.
 
-[//]: # (Please check these edits. This seems to be another case of different agents of action. Steps 1 and 5 seem to be performed by a different person than steps 2, 3 and 6. Step 4 isn't really a step at all.)
 **Related process:** Send an email confirmation to a contact
 
 1. Customize the email in the workflow as necessary. 
@@ -164,8 +163,7 @@ An authenticated user may connect (register) multiple external identities to the
 
 - `Authentication/Registration/ExternalLoginEnabled`
 
-[//]: # (This next line looks like it doesn't quite belong--can it be deleted?)
--   External Identity Provider Site Settings
+**External Identity Provider Site Settings**
 
 1.  Select a provider to connect to your user account.
 

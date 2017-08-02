@@ -22,7 +22,7 @@ To create a new forum, click **New**.
 
 ## Edit an existing forum
 
-1.  Double-click the **Form** listed in the grid.
+1. Double-click the **Form** listed in the grid.
 2. Specify values for the fields provided, and then click **Save & Close**.
 
 ## Manage forums on a portal

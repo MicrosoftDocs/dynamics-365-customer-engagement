@@ -21,7 +21,7 @@ Portal content may be searched by using filters based on characteristics of the 
 
 Out-of-the-box faceted search is enabled in your portals. To control or enable it, follow these steps:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Website** &gt; **Site Settings.**
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Website** &gt; **Site Settings**.
 2. Select the **Search/FacetedView** site setting. 
 3. Change the **Value** to **True** to enable or **False** to disable faceted search.
 
