@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Schedule emails in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to schedule and send automatic emails to players to keep them engaged in the game competition."
 ms.custom: ""
