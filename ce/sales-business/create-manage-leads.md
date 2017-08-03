@@ -1,4 +1,4 @@
----
+.---
 title: "Create and manage leads in Dynamics 365 for Sales, Business Edition | Microsoft Docs"
 description: "Track your potential sales as leads in Dynamics 365 for Sales, Business edition."
 keywords: "Lead; manage; potential sale; qualify; convert"
@@ -40,7 +40,9 @@ When you create a [lead](javascript:toggleInline('25788')), there are system-req
 
 If your lead has potential to become a sale, you can qualify the lead to an opportunity. When you qualify a lead, a new record to represent the lead as an opportunity is created. Any notes on a lead record do not transfer to the opportunity record. The notes remain with the originating lead record.
 
-1.  If yor If your This task requires permissions that are found in all default Go to Leads.
+This task requires permissions that are found in all default. 
+
+1.  Go to Leads.
 
 2.  In the list of leads, open the lead you want to qualify and convert.
 
