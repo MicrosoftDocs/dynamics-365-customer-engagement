@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manage a fantasy team in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to draft and manage your fantasy team when participating in team games."
 ms.date: 08/03/2017
