@@ -1,16 +1,11 @@
 ﻿---
 title: "Manage a fantasy team in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to draft and manage your fantasy team when participating in team games."
-ms.custom: ""
-ms.date: 05/31/2017
-ms.reviewer: ""
+ms.date: 08/03/2017
 ms.service: gamification
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: Dynamics 365 (online)
 ms.assetid: ce3d8906-0c19-4aac-aba6-e9385a21f18d
-caps.latest.revision: 12
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -25,7 +20,7 @@ After the commissioner activates the game, you'll receive an email with instruct
 
  When a game is about to start, you'll be asked to draft your own team to compete for team manager awards.  
   
-#### Draft your team
+### Draft your team
   
 1.  Follow the instructions in the initial email you received to [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) and create your profile in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)].  
   
@@ -44,7 +39,7 @@ After the commissioner activates the game, you'll receive an email with instruct
 
  Because games often span multiple weeks or months, there's a chance that some players will take time off for vacation or might even leave the company. With real sports teams, you wouldn't put injured players on the roster. Think along the same lines for your team roster in this game. Use active players to replace people who have taken time off or left, to maximize your chances of winning.  
   
-#### Edit your team roster
+### Edit your team roster
   
 1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Teams** > **Team Rosters**.  
   
