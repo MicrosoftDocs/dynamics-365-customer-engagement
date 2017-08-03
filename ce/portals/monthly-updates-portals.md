@@ -41,8 +41,6 @@ Note: Source code is offered as working sample and on an as-needed basis. No dir
 - **Tracking cookie for portals**: A persistent cookie, Dynamics365PortalAnalytics, will be set whenever a user  goes to a portal. This cookie has an expiration of 90 days. This cookie does not store any of the user's personal data and is used by Microsoft to collect analytics about portal service. Please read more about Microsoft Online services privacy statement [here](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx).
 - **Performance improvement of header and footer on a portal**: Two new site settings, Header/OutputCache/Enabled and Footer/OutputCache/Enabled, are added to enable header/footer output caching when these settings are set to true. For new users, these site settings are set to true by default, thereby enabling header and footer output caching. For existing users who upgrade to a newer version of portals, output caching is disabled by default. It means that the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, they must update the appropriate web templates and create the required site settings.
 
-
-[//]: # (Please verify whether these instances of "December 2016 update" would be better as tokens? I'm not sure which ones to suggest.)
 ## December 2016 updates
 The December 2016 update has brought many new features to the portal capabilities of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These updates allow for better interactions among companies, partners, and customers, and make the experience of navigating the portal faster and easier. Some of the major updates include:
 
