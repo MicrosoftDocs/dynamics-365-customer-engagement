@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Personalize the game experience in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to manage the settings that apply to all users of Dynamics 365 – Gamification."
 ms.date: 06/21/2017
