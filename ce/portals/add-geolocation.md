@@ -56,5 +56,5 @@ Geolocation with map functionality on managed forms requires configuration setti
 
 ### Field configurations
 The map control requires additional configuration to tell it what the IDs of the various location fields are, so it can assign values to them or retrieve values from them. The configuration depends on the type of managed form.
-- For entity forms, see [Geolocation Configuration for Entity Form](entity-forms-custom-logic.md#geolocation-configuration-for-entity-form).
+- For entity forms, see [Geolocation Configuration for Entity Form](entity-forms-custom-logic.md#geolocation-configuration-for-entity-forms).
 - For web forms, see [Geolocation Configuration for Web Form](web-form-properties.md#geolocation-configuration-for-web-form).
