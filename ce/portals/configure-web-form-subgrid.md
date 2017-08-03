@@ -2,7 +2,7 @@
 title: "Web Form subgrid configuration for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure web form subgrid for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

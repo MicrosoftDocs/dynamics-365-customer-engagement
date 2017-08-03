@@ -2,7 +2,7 @@
 title: "Get started with the portal content editor in Dynamics 365  | MicrosoftDocs"
 description: "Learn how to use inline editor on a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

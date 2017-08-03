@@ -2,7 +2,7 @@
 title: "Add a web page to render a list of records on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure entity lists to render a list of records on a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

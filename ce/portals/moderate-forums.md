@@ -2,7 +2,7 @@
 title: "Moderate forums on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to moderate forums in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

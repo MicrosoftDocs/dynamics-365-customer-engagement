@@ -2,7 +2,7 @@
 title: "Render an RSS feed using custom page template for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create a custom page template and use it to render an RSS feed."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

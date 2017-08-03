@@ -2,7 +2,7 @@
 title: "Customize content by using content snippets on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to customize content by using content snippets."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
