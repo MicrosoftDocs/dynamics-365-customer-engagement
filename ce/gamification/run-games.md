@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Run games in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
 ms.date: 07/10/2017
