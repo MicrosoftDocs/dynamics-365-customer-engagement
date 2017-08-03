@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manage Stream TVs in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to keep your employees engaged by showing a slide show for daily, weekly, and monthly KPIs on TVs and screens around the office."
 ms.date: 07/10/2017
