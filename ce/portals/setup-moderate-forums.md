@@ -1,8 +1,8 @@
 ---
 title: "Set up and moderate forums for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to create and manage forums on a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,8 +22,8 @@ To create a new forum, click **New**.
 
 ## Edit an existing forum
 
-1.  Double-click on the **Form** listed in the grid.
-2. Specify values for the fields provided and click **Save & Close**.
+1. Double-click the **Form** listed in the grid.
+2. Specify values for the fields provided, and then click **Save & Close**.
 
 ## Manage forums on a portal
 

@@ -1,8 +1,8 @@
 ---
 title: "Subscribe to alerts on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create and manage alerts in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,8 +15,6 @@ manager: sakudes
 ---
 # Subscribe to alerts
 
-
-
 Forum users can subscribe to threads and receive alerts when new posts are added keeping them up-to-date on conversations of importance. Alert settings are attached to the user's contact record providing further insight into the user's intent.
 
 Depending on the page template implemented by your developer, the functionality providing users the ability to subscribe or unsubscribe to alerts may or may not be present and the images displayed within this document may be different that your actual portal.
@@ -25,7 +23,7 @@ Depending on the page template implemented by your developer, the functionality 
 
 Users can indicate they wish to receive notification when new posts are created by navigating to a forum thread and clicking the **Alert Me** link.
 
-1. Login to the **Portal**.
+1. Sign in to the **Portal**.
 2. Navigate to a **Forum Thread**.
 3. Click **Subscribe**.
 
@@ -35,7 +33,7 @@ Users can indicate they wish to receive notification when new posts are created 
 
 Users can indicate that they do not wish to receive notification when new posts are created for a given thread by navigating to the forum thread and clicking the **RemoveAlert** link.
 
-1. Login to the **Portal**.
+1. Sign in to the **Portal**.
 2. Navigate to a **Forum Thread**.
 3. Click **Unsubscribe**.
 
@@ -45,10 +43,10 @@ Users can indicate that they do not wish to receive notification when new posts 
 
 Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**.
 3. Click **Forum Threads**.
-4. Double-click on an existing **Forum Thread** listed in the grid. 
+4. Double-click an existing **Forum Thread** listed in the grid. 
 5. Click **Forum Alerts** in the leftmost navigation menu.
 
 ### Create a new alert subscription
@@ -57,7 +55,7 @@ Although the portal is the primary source for creating or removing alerts. Forum
 
 ### Edit an existing alert
 
-1. Double-click on the **Forum Alert** listed in the grid.
+1. Double-click the **Forum Alert** listed in the grid.
 2. Specify values for the fields provided.
 3. Click **Save & Close**
 

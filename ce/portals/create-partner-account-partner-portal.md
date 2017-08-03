@@ -1,8 +1,8 @@
 ---
 title: "Create a partner account on a partner relationship management (PRM) portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to create a partner account to keep track of various partners."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

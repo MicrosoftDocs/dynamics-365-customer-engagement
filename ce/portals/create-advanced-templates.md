@@ -1,8 +1,8 @@
 ---
 title: "Create advanced templates for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn how to create advance templates for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
