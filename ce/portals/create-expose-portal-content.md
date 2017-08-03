@@ -2,7 +2,7 @@
 title: "Create and expose portal content easily in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create and expose portal content by using admin wizard in Dynamics 365."
 ms.custom: ""
-ms.date: 07/02/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
