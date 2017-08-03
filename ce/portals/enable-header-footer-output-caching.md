@@ -1,8 +1,8 @@
 ---
 title: "Enable header and footer output caching on a portal for Dynamics 365 | MicrosoftDocs"
-description: "Instructions to enable header and footer output caching on a portal for exsiting users."
+description: "Instructions to enable header and footer output caching on a portal for existing users."
 ms.custom: ""
-ms.date: 07/04/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,13 +18,12 @@ manager: sakudes
 
 To improve processing performance for Header and Footer web templates in a portal, enable header and footer output caching. Header and Footer web templates are parsed and rendered every time a page is loaded. Caching header and footer output significantly reduces page processing time..
 
-[//]: # (The use of "user" was a jarring phrase to me because it often refers to the end user of a CRM solution. If "new user" means someone configuring the latest version of portals, I think this should say "In portal capabilities for Dynamics 365...")
-For a new user, output caching is enabled by default. The following site settings are available and set to true by default to support this functionaliy:
+For a new user, output caching is enabled by default. The following site settings are available and set to true by default to support this functionality:
 - Header/OutputCache/Enabled: Set the value to true to enable output caching for header.
 - Footer/OutputCache/Enabled: Set the value to true to enable output caching for footer.
 
 [//]: # (I don't know the history of how we refer to portals, so this might not be sanctioned usage.)
-For a user who upgraded Portals to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], output caching is disabled by default&mdash;that is, the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, you must update the Header, Footer, and Languages Dropdown web templates and create the required site settings.
+For a user who upgraded to a newer version of Portals, output caching is disabled by default&mdash;that is, the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, you must update the Header, Footer, and Languages Dropdown web templates and create the required site settings.
 
 > [!Note]
 > If you enable output caching only by creating site settings, parts of the header and footer will not render properly and error messages will be displayed.
@@ -34,7 +33,7 @@ For a user who upgraded Portals to portal capabilities for [!INCLUDE[pn-dynamics
 **Step 1: Update the Header web template**
 
 1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
-2. Navigate to **Portals** > **Web Templates**.
+2. Go to **Portals** > **Web Templates**.
 3. Open the Header web template.
 4. In the **Source** field, do the following:
     - Find the following code and update it:
@@ -130,7 +129,7 @@ For a user who upgraded Portals to portal capabilities for [!INCLUDE[pn-dynamics
 **Step 2: Update the Footer web template**
 
 1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
-2. Navigate to **Portals** > **Web Templates**.
+2. Go to **Portals** > **Web Templates**.
 3. Open the Footer web template.
 4. In the **Source** field, find the following code and update it:
     
@@ -151,7 +150,7 @@ For a user who upgraded Portals to portal capabilities for [!INCLUDE[pn-dynamics
 **Step 3: Update the Languages Dropdown web template**
 
 1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
-2. Navigate to **Portals** > **Web Templates**.
+2. Go to **Portals** > **Web Templates**.
 3. Open the Languages Dropdown web template.
 4. In the **Source** field, find the following code and update it:
     

@@ -1,8 +1,8 @@
 ---
 title: "Moderate forums on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to moderate forums in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -69,9 +69,9 @@ For portal users with moderation permission, moderation controls will automatica
 
 Forum Access Permission is a security rule that can be assigned to a particular forum and web role that can restrict particular users from viewing the forum or granting particular users the ability to moderate a forum within the webpages. To create, edit, or delete forum access permissions from within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
-1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**
-2. Navigate to **Community**
-3. Click **Forum Access Permissions**
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+2. Navigate to **Community**.
+3. Click **Forum Access Permissions**.
 
 ![Forum access permission](media/forum-access-permission.png "Forum access permission")
 
@@ -79,16 +79,14 @@ To create a new forum access permission, click **New**.
 
 ### Edit an existing forum access permission
 
-1. Double-click on an existing **Forum Access Permission** listed in the grid.
+1. Double-click an existing **Forum Access Permission** listed in the grid.
 2. Specify values for the fields provided.
 3. Click **Save & Close**
 
 ![Edit forum access permission](media/edit-forum-access-permission.png "Edit forum access permission")  
 
->[!Note]
+> [!Note]
 > A web role must be assigned for the rule to apply for users associated with the given role. See [Create web roles for portals](create-web-roles.md).
-
-
 
 ### See also
 

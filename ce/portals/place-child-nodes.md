@@ -1,8 +1,8 @@
 ---
 title: "Place child nodes by using shortcuts for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to place child nodes by using shortcuts for portals."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,10 +20,10 @@ Use shortcuts to place child nodes throughout your portal's sitemap that simply 
 
 Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**. 
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**. 
 2. Navigate to **Portals** &gt; **Shortcuts**. 
 3. To create a Shortcut: Click **New**. 
-4. To edit an existing Shortcut: Double-click on the existing **Shortcut** listed in the grid. 
+4. To edit an existing Shortcut: Double-click the existing **Shortcut** listed in the grid. 
 5. Enter values for the fields provided. 
 6. Click **Save & Close**
 

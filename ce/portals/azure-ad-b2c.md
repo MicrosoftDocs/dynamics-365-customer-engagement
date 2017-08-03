@@ -2,7 +2,7 @@
 title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: ""
-ms.date: 07/03/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -423,7 +423,7 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
         <div class="container">
           <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12 text-left">
-               {{ snippets["Footer"] }}
+               {{ snippets["Footer"] | liquid }}
             </div>
             <div class="col-md-8 col-sm-12 col-xs-12 text-left ">
             </div>   

@@ -1,8 +1,8 @@
 ---
 title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,7 +29,7 @@ Settings for an IdP such as AD FS.
 > [!Note] 
 > See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
 
-Using the AD FS Management tool, select**Service** >**Claim Descriptions**.
+Using the AD FS Management tool, select **Service** > **Claim Descriptions**.
 
 1.  Click **Add Claim Description**...
 2.  Specify the claim:
@@ -42,7 +42,7 @@ Display name:**Persistent Identifier**
 
 -**Enable** checkbox for: Publish this claim description in federation metadata as a claim type that this Federation Service can send
 
--   Click**OK**
+-   Click **OK**.
 
 Using the AD FS Management tool, select**Trust Relationships** >**Relying Party Trusts**.
 
@@ -121,7 +121,7 @@ Multiple IdP services can be configured by substituting a label for the [provide
 
 AD FS supports the [IdP initiated SSO](https://technet.microsoft.com/library/jj127245.aspx) profile of the SAML 2.0 [specification](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated SSO: POST Binding|outline). In order for the portal (SP) to respond properly to the SAML request initiated by the IdP, the [RelayState](http://blogs.technet.com/b/askds/archive/2012/09/27/ad-fs-2-0-relaystate.aspx) parameter must be encoded properly.  
 
-The basic string value to be encoded into the SAML RelayState parameter must be in the format: ReturnUrl=/content/sub-content/ where /content/sub-content/ is the path to the webpage you want to navigate to on the portal (SP). The path can be replaced by any valid webpage on the portal. The string value is encoded and placed into a container string of the format: RPID=&lt;URL encoded RPID&gt;&RelayState=&lt;URL encoded RelayState&gt;. This entire string is once again encoded and added to another container of the format: https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=&lt;URL encoded RPID/RelayState&gt;.
+The basic string value to be encoded into the SAML RelayState parameter must be in the format: ReturnUrl=/content/sub-content/ where /content/sub-content/ is the path to the webpage you want to go to on the portal (SP). The path can be replaced by any valid webpage on the portal. The string value is encoded and placed into a container string of the format: RPID=&lt;URL encoded RPID&gt;&RelayState=&lt;URL encoded RelayState&gt;. This entire string is once again encoded and added to another container of the format: https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=&lt;URL encoded RPID/RelayState&gt;.
 
 For example, given the SP path: /content/sub-content/ and the relying party ID: https://portal.contoso.com/, construct the URL with the steps:
 
@@ -287,7 +287,7 @@ The Location attribute corresponds to the**AssertionConsumerServiceUrl** (Wreply
 
 Shibboleth supports the [IdP initiated SSO](https://wiki.shibboleth.net/confluence/display/SHIB2/IdPUnsolicitedSSO) profile of the SAML 2.0 [specification](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated SSO: POST Binding|outline). For the portal (SP) to respond properly to the SAML request initiated by the IdP, the RelayState parameter must be encoded properly.  
 
-The basic string value to be encoded into the SAML RelayState parameter must be in the format: ReturnUrl=/content/sub-content/ where /content/sub-content/ is the path to the desired webpage to navigate to on the portal (SP). The path can be replaced by any valid webpage on the portal. The full IdP initiated SSO URL should be in the format: https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=&lt;URL encoded provider ID&gt;&target=&lt;URL encoded return path&gt;.
+The basic string value to be encoded into the SAML RelayState parameter must be in the format: ReturnUrl=/content/sub-content/ where /content/sub-content/ is the path to the desired webpage to go to on the portal (SP). The path can be replaced by any valid webpage on the portal. The full IdP initiated SSO URL should be in the format: https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=&lt;URL encoded provider ID&gt;&target=&lt;URL encoded return path&gt;.
 
 For example, given the SP path: /content/sub-content/ and the relying party ID: https://portal.contoso.com/, the final URL is: https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=https%3A%2F%2Fportal.contoso.com%2F&target=ReturnUrl%3D%2Fcontent%2Fsub-content%2F
 

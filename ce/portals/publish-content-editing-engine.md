@@ -1,8 +1,8 @@
 ---
 title: "Use the front-side editing engine to publish content for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Learn how to use the front-side editing engine to publish content for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -99,7 +99,7 @@ From within the content editor, put the text cursor in the place to insert an im
 
 ## Browse pages and files by using the file picker
 
-The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the content editor. Click on the icon that looks like a [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Explorer window to open the file picker. Browse to a page or file using the left tree view and double click the page or file in the right list view to select it.
+The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the content editor. Click the icon that looks like a [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Explorer window to open the file picker. Browse to a page or file using the left tree view and double click the page or file in the right list view to select it.
 
 To upload new files,
 
