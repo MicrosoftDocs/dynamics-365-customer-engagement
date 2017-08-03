@@ -1186,15 +1186,14 @@ It's also possible to load a site map node by URL path:
 
 ### **Site Map Node Attributes**
 
-[//]: # (Is the reader meant to see "added 7.0.0008"?)
 |Attribute   |Description   |
-|---|---|
+|-------|-------|
 | Breadcrumbs           | Returns the breadcrumb site map node objects for the node, starting from the site map root node and ending at parent. |
 | Children              | Returns the child site map node objects of the node.                                                                  |
 | Description           | The description/summary content for the node. (This field may contain HTML.)                                          |
 | Entity                | Returns the underlying [*entities*](#entities) of the node. If the node has no underlying entity, this value will be null.                                                         |
-| is\_sitemap\_ancestor | Returns true if the sitemap node is an ancestor of the current node, otherwise false. Added 7.0.0008                                                                                                         |
-| is\_sitemap\_current  | Returns true if the sitemap node is the current node, otherwise false. Added 7.0.0008                                                                                                         |
+| is\_sitemap\_ancestor | Returns true if the sitemap node is an ancestor of the current node, otherwise false.                                                                                                         |
+| is\_sitemap\_current  | Returns true if the sitemap node is the current node, otherwise false.                                                                                                         |
 | Parent                | Returns the parent site map node of the node. If the node is the root node, parent will be null.                                                                     |
 | Title                 | The title of the node.                                                                                                |
 | url                   | The URL of the node.                                                                                                  |
@@ -1395,8 +1394,8 @@ If the web link set exists, a web link set object will be returned. If a web lin
 | display\_page\_child\_links | Boolean attribute indicating whether the web link should show links to the [*sitemap*](#sitemap) child pages of the linked page, as sub-links. |  
 | Image                       | The web link image object for this link. This attribute will be null if no image is present.                                                   |
 | is\_external                | Boolean attribute indicating whether the target URL of the web link is to an external site (rather than to an internal portal page).           |
-| is\_sitemap\_ancestor       | Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false. Added 7.0.0008                                                                                                                                  |
-| is\_sitemap\_current        | Returns true if the weblink's URL references the current sitemap node, otherwise false. Added 7.0.0008 |
+| is\_sitemap\_ancestor       | Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false.                                                                                                                                  |
+| is\_sitemap\_current        | Returns true if the weblink's URL references the current sitemap node, otherwise false. |
 | Name                        | The name/title of the web link.                                                                                                                |
 | Nofollow                    | Boolean attribute indicating whether the web link should be marked as rel="nofollow".                                                          |
 | open\_in\_new\_window       | Boolean attribute indicating whether the web link should be opened in a new browser window/tab when clicked.                                   |
