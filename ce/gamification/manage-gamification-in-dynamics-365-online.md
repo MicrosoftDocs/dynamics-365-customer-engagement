@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 ms.custom: ""
