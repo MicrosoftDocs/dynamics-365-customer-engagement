@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Smack Talk in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Brag about your wins and rank on the leaderboard by posting on the smack talk board."
 ms.custom: ""
