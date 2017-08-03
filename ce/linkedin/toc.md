@@ -1,5 +1,0 @@
-# [Sync leads from LinkedIn](sync-linkedin-leads.md)
-## [Install the solution](install-linkedin-connector.md)
-## [Edit lead matching strategy](configure-matching-strategy.md)
-## [Connect with LinkedIn](connect-dynamics-365-linkedin.md)
-## [Review and analyze leads](review-leads.md)
