@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manage your user profile in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to manage a user profile in Gamification and get recognized by fellow players."
 ms.date: 06/30/2017
