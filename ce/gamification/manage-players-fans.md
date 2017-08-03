@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Import and manage players and fans in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to import players from your Azure Active Directory and how to assign them the appropriate security roles for the games."
 ms.custom: ""
