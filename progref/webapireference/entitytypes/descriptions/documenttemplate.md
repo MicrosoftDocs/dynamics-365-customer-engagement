@@ -1,0 +1,1 @@
+Used to store Document Templates in database in binary format.

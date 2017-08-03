@@ -1,0 +1,1 @@
+Work item of a campaign activity, such as a list or sales literature.

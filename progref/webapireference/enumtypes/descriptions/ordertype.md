@@ -1,0 +1,1 @@
+The possible values for the order type in an OrderExpression. 

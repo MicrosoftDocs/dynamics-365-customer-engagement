@@ -1,0 +1,1 @@
+With Office 365 groups, you can collaborate with people across your company even if they aren’t Dynamics 365 users. Groups provide a single location to share conversations, meetings, documents, and more.

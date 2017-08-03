@@ -1,0 +1,1 @@
+Associates resources with resource groups that they are a member of.

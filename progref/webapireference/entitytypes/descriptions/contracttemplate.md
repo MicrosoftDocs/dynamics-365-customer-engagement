@@ -1,0 +1,1 @@
+Template for a contract containing the standard attributes of a contract.

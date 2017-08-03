@@ -1,0 +1,1 @@
+Line item in an invoice containing detailed billing information for a product.

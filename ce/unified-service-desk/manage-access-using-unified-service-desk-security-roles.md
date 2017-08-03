@@ -1,0 +1,34 @@
+---
+title: "Manage access using Unified Service Desk for Dynamics 365 Customer Engagement security roles | MicrosoftDocs"
+ms.custom: ""
+ms.date: "2016-08-01"
+ms.reviewer: ""
+ms.service: "usd"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 (on-premises)"
+  - "Dynamics CRM 2013"
+  - "Dynamics CRM 2015"
+  - "Dynamics CRM 2016"
+ms.assetid: 1d1e06fc-188d-4f3e-91b1-a6c371c28eb4
+caps.latest.revision: 5
+author: "Mattp123"
+ms.author: "matp"
+manager: "amyla"
+tags: 
+ - "MigrationHO"
+---
+# Manage access using Unified Service Desk security roles
+You must assign the two [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] security roles to appropriate users or teams. The **USD Administrator** role must be assigned to the users who will be configuring the application using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to define an agent application. The **USD Agent** role must be assigned to the end users (agents) who will be using the client application to connect to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities.  
+  
+ You must also assign the appropriate [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] security role to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] administrators and agents along with the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] security role to facilitate appropriate access on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities along with the custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and UII entities. For example, you should assign the **Customer Service Representative** role along with the **USD Agent** role to the agents.  
+  
+ For information about assigning a security role to a user or team in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], see [Security roles and privileges](../admin/security-roles-privileges.md) or [Manage teams](../admin/manage-teams.md).  
+  
+### See also  
+ [Create Unified Service Desk Configuration](../unified-service-desk/manage-access-using-unified-service-desk-configuration.md)   
+ [Security in Unified Service Desk](../unified-service-desk/security-unified-service-desk.md)   
+ [Privilege and role entities](../developer/privilege-role-entities.md)

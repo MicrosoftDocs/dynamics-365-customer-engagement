@@ -1,0 +1,1 @@
+A solution which contains CRM customizations.

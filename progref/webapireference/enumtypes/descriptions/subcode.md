@@ -1,0 +1,1 @@
+Contains the possible values for a subcode, used in scheduling appointments. 

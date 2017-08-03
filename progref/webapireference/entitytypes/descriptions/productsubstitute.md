@@ -1,0 +1,1 @@
+Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.

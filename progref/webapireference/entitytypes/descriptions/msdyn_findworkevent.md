@@ -1,0 +1,1 @@
+Entity used for counting the number of times resources apply for open positions and other behavioral attributes of resources.

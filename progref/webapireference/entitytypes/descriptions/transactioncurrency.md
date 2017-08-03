@@ -1,0 +1,1 @@
+Currency in which a financial transaction is carried out.

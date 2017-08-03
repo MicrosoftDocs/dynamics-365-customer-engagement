@@ -1,0 +1,1 @@
+Chart attached to an entity.

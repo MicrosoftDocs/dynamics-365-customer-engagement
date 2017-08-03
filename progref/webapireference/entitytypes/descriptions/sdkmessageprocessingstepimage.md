@@ -1,0 +1,1 @@
+Copy of an entity's attributes before or after the core system operation.

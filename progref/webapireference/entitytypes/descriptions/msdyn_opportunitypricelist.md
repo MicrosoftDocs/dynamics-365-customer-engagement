@@ -1,0 +1,1 @@
+Sales price list that will used by the opportunity to set default sales prices on all project-based components such as time and expense.

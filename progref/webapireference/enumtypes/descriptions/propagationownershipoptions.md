@@ -1,0 +1,1 @@
+Contains the possible values for propagation ownership options. 

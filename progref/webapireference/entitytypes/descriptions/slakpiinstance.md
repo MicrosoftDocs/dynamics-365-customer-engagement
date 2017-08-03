@@ -1,0 +1,1 @@
+Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case

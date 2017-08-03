@@ -1,0 +1,1 @@
+This entity gives the ability to pre-configure products to be added to a work order when the related incident is added to the work order

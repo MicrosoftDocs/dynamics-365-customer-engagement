@@ -1,0 +1,1 @@
+This entity is used to store social profile information of its associated account and contacts on different social channels.

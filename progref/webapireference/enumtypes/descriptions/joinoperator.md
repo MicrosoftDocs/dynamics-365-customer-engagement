@@ -1,0 +1,1 @@
+ the possible values for a join operator in a LinkEntity. 

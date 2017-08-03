@@ -1,0 +1,1 @@
+Query function to evaluate whether the value is on or after the specified date. 
