@@ -14,6 +14,3 @@
   - name: Portals
     tocHref: /dynamics365/customer-engagement/portals
     topicHref: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
-  - name: LinkedIn
-    tocHref: /dynamics365/customer-engagement/linkedin
-    topicHref: /dynamics365/customer-engagement/linkedin/sync-linkedin-leads
