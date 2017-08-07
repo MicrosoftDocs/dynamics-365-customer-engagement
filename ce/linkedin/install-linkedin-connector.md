@@ -20,7 +20,7 @@ To pull lead data from [!include[LinkedIn](includes/tn-linkedin.md)] to [!includ
 
 ## Prerequisites
 
-* To install the solution, you’ll need global admin permissions in Office 365, and be a system administrator or have a customizer security role in [!include[Dynamics 365 (online)](includes/pn-dyn-365-online.md)].
+* To install, update, or remove the solution, you’ll need global admin permissions in Office 365, and be a system administrator or have a customizer security role in [!include[Dynamics 365 (online)](includes/pn-dyn-365-online.md)].
 
 * The capabilities in this solution require the [!include[December update for Microsoft Dynamics 365 (online)](includes/pn-crm-8-2-0-online.md)].
 
@@ -56,6 +56,10 @@ More information: [TechNet: Use the Office 365 admin center to manage your Dynam
 Assign these security roles to users you want to provide access to the **[!include[LinkedIn](includes/tn-linkedin.md)] Lead Gen** menu item in [!include[Dynamics 365 (online)](includes/pn-dyn-365-online.md)]. To learn how to assign a security role to users, see [TechNet: Create users and assign Microsoft Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx#BKMK_AssignSecurity).
 
 More information about installing or removing a solution: [TechNet: Install or remove a preferred solution](https://technet.microsoft.com/library/dn878909.aspx).
+
+## Update the solution
+
+After installing the solution, you can visit the [Office 365 admin center](https://portal.office.com/) to see if an update is available. You'll need global admin permissions to start the update process in the Office 365 admin center](https://portal.office.com/).
 
 ### See also
 
