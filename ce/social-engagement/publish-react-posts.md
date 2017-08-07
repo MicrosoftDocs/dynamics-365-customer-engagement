@@ -1,7 +1,7 @@
 ---
 title: "Publish and react to posts | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
-ms.date: 2017-07-20
+ms.date: 2017-08-07
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -51,7 +51,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 ### Let users know you appreciate a post they wrote  
  When you find a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] you appreciate, show it's author your support and like it. You can easily do this directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-##### Like a post  
+#### Like a post  
   
 1.  Go to **Social Center**.  
   
@@ -73,7 +73,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 ### Share a post with your audience  
  Some posts you find may be relevant to your audience, too. To spread the word, retweet or share them with a few clicks directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-##### Retweet or share a post  
+#### Retweet or share a post  
   
 1.  Go to **Social Center**.  
   
@@ -100,7 +100,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
  Conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] usually start with public posts. Especially with support requests, additional information is often required (for example a billing number, or a real name confirmation). This additional information usually isn’t intended for the public and needs to be shared in a private way. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you add a link to start a private conversation to any public reply on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. This lets you turn any public conversation into a private one, without losing the context.  
   
-##### Comment or reply to a post  
+#### Comment or reply to a post  
   
 1.  Go to **Social Center**.  
   
@@ -124,7 +124,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
      You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-##### Add a link to send a private message from a public conversation on Twitter  
+#### Add a link to send a private message from a public conversation on Twitter  
   
 1.  Go to **Social Center**.  
   
@@ -152,7 +152,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 ### Post a link to another post  
  Share a link to a public post along with your own comments as a new post  directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-##### Create a new post with a link to a post found in Social Engagement  
+#### Create a new post with a link to a post found in Social Engagement  
   
 1.  Go to **Social Center**.  
   
@@ -179,7 +179,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
  You must have at least one owned or shared social profile to see the **Publish** button. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
   
-##### Compose a new post in Social Center  
+#### Compose a new post in Social Center  
   
 1.  Go to **Social Center**.  
   
@@ -207,7 +207,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
  If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
   
 <a name="dmTwitter"></a>   
-##### Send a direct message on Twitter from Social Engagement  
+#### Send a direct message on Twitter from Social Engagement  
   
 1.  Go to **Social Center**.  
   
@@ -227,7 +227,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 5.  To post on behalf of the selected social profile, click **Send Direct Message** .  
   
 <a name="dmFacebook"></a>   
-##### Send a direct message on Facebook from Social Engagement  
+#### Send a direct message on Facebook from Social Engagement  
   
 1.  Go to **Social Center**.  
   

@@ -1,16 +1,11 @@
 ---
-title: "Work with a data set. | Microsoft Docs"
+title: "Work with a data set | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 39b154e6-2a78-44bf-864e-e03da3d184c0
-caps.latest.revision: 15
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -30,7 +25,7 @@ Your search topics usually gather more data than you want to analyze at a given 
 |Activity Maps|No|Yes|No|--|No|  
 |Automation rules|No|Yes|No|No|--|  
   
-#### To pass a data set to a different application area  
+## To pass a data set to a different application area  
   
 1.  Click the **More options with current filters** button ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters").  
   

@@ -1,16 +1,11 @@
 ---
 title: "Automate actions on posts | Microsoft Docs"
 description: "Learn how to set up Social Engagement to automatically handle subsets of incoming posts."
-ms.custom: ""
-ms.date: 2017-05-23
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 8be7abf8-618b-4788-91cb-b992ca3fbf8d
-caps.latest.revision: 36
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -144,7 +139,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 >  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md "Connect Dynamics 365 and Social Engagement").  
   
 <a name="create_rule"></a>   
-#### Create an automation rule  
+### Create an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
   
@@ -177,7 +172,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 >  Automation rules start processing posts that match the defined filters as soon as the rule is activated and saved. However, the rule won’t process any posts that were found before the automation rule was created, or while it was inactive. If you deactivate an existing automation rule, it will restart to process the newly-found posts after you reactivate the rule. If your administrator sets **Send failure notifications** to on, all administrators will receive an email if an action failed, so you can quickly take action.  
   
 <a name="edit_rule"></a>   
-#### Edit an automation rule  
+### Edit an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
   
@@ -188,7 +183,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your configuration.  
   
 <a name="delete_rule"></a>   
-#### Delete an automation rule  
+### Delete an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
   
@@ -199,11 +194,11 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 4.  Confirm your deletion.  
   
 <a name="quick_create"></a>   
-### Quickly create an automation rule while working in Social Engagement  
+## Quickly create an automation rule while working in Social Engagement  
 When working with data sets in Social Engagement, you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![More options](../social-engagement/media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
   
 <a name="conflicting_rules"></a>   
-### How Social Engagement handles conflicting automation rules  
+## How Social Engagement handles conflicting automation rules  
 A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, Social Engagement will execute the actions from the rule that was added most recently.  
   
 > [!CAUTION]

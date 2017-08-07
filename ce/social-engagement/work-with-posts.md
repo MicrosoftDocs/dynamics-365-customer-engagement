@@ -1,7 +1,7 @@
 ---
 title: "Work with posts | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
-ms.date: 2017-07-20
+ms.date: 2017-08-07
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -107,7 +107,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
   
  You must have at least a Power Analyst Analytics role to perform this task.  
   
-#### Delete posts in Analytics  
+### Delete posts in Analytics  
   
 1.  Click **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -115,7 +115,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
   
 3.  Click **Remove**, and then confirm your selection.  
   
-#### Delete posts in streams  
+### Delete posts in streams  
   
 1.  Go to **Social Center**.  
   

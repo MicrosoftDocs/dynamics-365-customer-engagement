@@ -1,7 +1,7 @@
 ---
 title: "Keep track of live data streams with Social Center | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
-ms.date: 2017-07-10
+ms.date: 2017-08-07
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -31,7 +31,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  For example, you can create a stream called **Inbox** that checks all search topics for posts that are assigned to you. In other words, an Assignee filter with the value of the currently signed-in user is applied to all search topics. Posts that match this filter show up in the stream.  
   
-#### Configure a stream  
+### Configure a stream  
   
 1.  Go to **Social Center**.  
   
@@ -59,7 +59,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  Users or groups you share the stream with will always see the data how you configure it. If you change the data set for a shared stream, the displayed data will also change for the users the stream is shared with.  
   
-#### Share a stream you own  
+### Share a stream you own  
   
 1.  Go to **Social Center**.  
   
@@ -84,7 +84,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 ## Edit a stream  
  Update the configuration of a stream if you want to refine the data to be shown in the stream, or change its settings.  
   
-#### Edit a stream you own  
+### Edit a stream you own  
   
 1.  Go to **Social Center**.  
   
@@ -103,7 +103,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 ## Delete a stream  
  You may want to delete a stream from Social Center, for example, a stream that was useful for a certain event, but that you no longer need. If you delete a stream you share with other users, keep in mind that it will be deleted for them too. Before deleting         the stream, make sure your co-workers are aware of your plans.  
   
-#### Delete a stream you own  
+### Delete a stream you own  
   
 1.  Go to **Social Center**.  
   

@@ -1,18 +1,14 @@
 ---
 title: "Personalize the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to configure the Social Selling Assistant to receive personalized recommendations."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 534adc26-856a-403d-ac6b-3a3c3518470f
-caps.latest.revision: 11
 author: "m-hartmann"
 ms.author: mhart
+manager: sakudes
 ---
 
 # Personalize the Social Selling Assistant
@@ -30,7 +26,7 @@ When using the Social Selling Assistant for the first time, users will get recom
 ## Personalize the Social Selling Assistant  
  When you open the Social Selling Assistant for the first time, you can personalize its experience. We currently offer two types of recommendations: for sharing content and for getting insights. Select which search topics you find relevant and choose if you want to get insights about a group of search topics. Additionally, you add social profiles to share the recommended content.  
   
-#### Configure your personal experience  
+### Configure your personal experience  
   
 1.  Open the Social Selling Assistant.  
   

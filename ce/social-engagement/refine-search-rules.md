@@ -1,7 +1,7 @@
 ---
 title: "Find more relevant content | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
-ms.date: 2017-07-10
+ms.date: 2017-08-07
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -39,7 +39,7 @@ Analyze your results and optimize your search queries regularly to make sure you
   
  In addition to refining your search rules, you can block the data acquisition for certain terms or domains by adding items to **Blocked Content**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
   
-### Privacy notice  
+## Privacy notice  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
 ### See Also  
