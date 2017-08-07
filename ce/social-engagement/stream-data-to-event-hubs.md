@@ -54,7 +54,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 
 ## Social Engagement as a data source in Customer Insights
 
-[Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/customer-insights/overview) includes a connector to add Social Engagement as a data source. This connector creates and manages the connection between Social Engagement and Azure Event Hubs. For more information about the connector, see [Add Microsoft Social Engagement as a data source](https://docs.microsoft.com/en-us/dynamics365/customer-insights/deploy/datasourcemse)
+[Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/customer-insights/overview) includes a connector to add Social Engagement as a data source. This connector creates and manages the connection between Social Engagement and Azure Event Hubs. For more information about the connector, see [Add Microsoft Social Engagement as a data source](https://docs.microsoft.com/dynamics365/customer-insights/deploy/datasourcemse)
 
 <a name="disable_connection"></a>   
 ## Disable or re-enable a connection to Azure Event Hubs  
