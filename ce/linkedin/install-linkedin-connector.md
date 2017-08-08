@@ -59,7 +59,14 @@ More information about installing or removing a solution: [TechNet: Install or r
 
 ## Update the solution
 
-After installing the solution, you can visit the [Office 365 admin center](https://portal.office.com/) to see if an update is available. You'll need global admin permissions to start the update process in the Office 365 admin center](https://portal.office.com/).
+After installing the solution, you can visit the [Office 365 admin center](https://portal.office.com/) to see if an update is available. You'll need global admin permissions to start the update process.
+
+1. Go to the [Office 365 admin center](https://portal.office.com/) and sign in with your global admin credentials.
+2. Under **Admin centers**, select **Dynamics 365**. 
+3. In the **Dynamics 365 Administration Center**, select the **Instances** tab.
+4. Under **Solutions**, click **Manage your solutions**.
+5. Select **LinkedIn Lead Gen Forms** and click **Upgrade**.
+6. Review the **Terms of service** and click **Upgrade**.
 
 ### See also
 
