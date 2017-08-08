@@ -83,7 +83,7 @@ To add a private messages rule, see [Add a private messages rule](../social-enga
 
 ## Videos
 
-Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a specific term are available for [keyword searches](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
+Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
 
 Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](../social-engagement/add-rules-search-topic#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments which affect the monthly post quota.
 
