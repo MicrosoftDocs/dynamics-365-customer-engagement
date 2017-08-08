@@ -24,13 +24,13 @@ Welcome to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Here
  
  For important, late-breaking information and a list of known issues, see the [Microsoft Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612). 
 
-## Microsoft Social Engagement 2017 Update 1.6
+## Microsoft Social Engagement 2017 Update 1.7
 
-### Listening and engagement on YouTube
+### Listening and engagement on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]
 
-Get in touch with your audience on YouTube directly from within Social Engagement. Users with at least a Responder interaction role can now like and reply to videos and comments on YouTube. You'll need to add a social profile for YouTube under Settings > Social Profiles, or get a YouTube profile shared with you before you can interact on this source.
+Get in touch with your audience on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Users with at least a Responder interaction role can now rate and reply to videos and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]. You'll need to add a social profile for [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] under **Settings > Social Profiles**, or get a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile shared with you before you can interact on this source.
 
-Additionally, Social Engagement extended the listening capabilities and is now capable of acquiring video posts and comments on YouTube channels. Any user with permission to create search rules can create YouTube rules under any search topic and add YouTube channels to gather posts and comments from.
+Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from.
 
 Keyword-based searches on the video source continue to reside under the Keywords rule. 
 

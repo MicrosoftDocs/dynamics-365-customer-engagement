@@ -1,16 +1,11 @@
 ---
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
-caps.latest.revision: 86
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -287,7 +282,7 @@ Create rules to gather posts from custom sources, You can also create keyword ru
   
 6.  In the search topic pane, click the **Save** button ![Save button](../social-engagement/media/save-icon.png "Save button") to activate your rule. 
 
-## Add a YouTube rule
+## Add a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rule
 
 Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
 
@@ -302,7 +297,7 @@ Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtub
   
 4.  Click **YouTube rule**.  
   
-5.  In the search field, enter the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel name that you want to track.  
+5.  In the search field, enter the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel name that you want to track or select a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile from the list.
   
     > [!NOTE]
     >  You can also add multiple [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to a rule in one step by clicking the Add![Add button](../social-engagement/media/add-icon.png "Add button") next to each channel.  
