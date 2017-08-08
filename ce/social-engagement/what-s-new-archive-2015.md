@@ -1,7 +1,7 @@
 ---
 title: "Archive - Social Engagement 2015 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2015."
-ms.date: 2017-06-09
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -61,7 +61,7 @@ manager: sakudes
  Clickable areas on widgets let you visually add or remove filters for quick and interactive analysis. Additionally, you can now access posts from every page in Analytics, providing a convenient way to read the actual contents. More information: [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md). 
  
 ### Identify significant phrases in social posts 
- Content analytics are key to understanding what people are talking about on social media. We’re introducing the new Conversations page in Analytics to provide deep insights into the content of the social conversations. We extract important phrases from all social posts in your data set, not just a sample, to provide a clear view into what’s on the minds of your customers and stakeholders on social media. More information: [Gain insights from public conversations](../social-engagement/analytics-conversations.md "Gain insights from public conversations"). 
+ Content analytics are key to understanding what people are talking about on social media. We’re introducing the new Conversations page in Analytics to provide deep insights into the content of the social conversations. We extract important phrases from all social posts in your data set, not just a sample, to provide a clear view into what’s on the minds of your customers and stakeholders on social media. More information: [Gain insights from public conversations](../social-engagement/analytics-conversations.md). 
  
 ### Use filters across different areas 
  Use powerful filters to slice and dice your data and use it in different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Newly added filters (such as the label filter and post types filter) put even more power in your hands to define the data you want to see. More information: [Get relevant data using filters](../social-engagement/use-filters.md). 
@@ -70,7 +70,7 @@ manager: sakudes
  Search topics provide a more intuitive creation process, providing different types of search rules. You can add [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] handles directly to a search topic, allowing more consolidated search topics and analysis. Additionally, you can create and manage custom categories to organize search topics according to your requirements. You can now check the quota for all your search topics, single categories, or single search topics of your solution. The quota feedback calculation on the estimated number of results now takes the selected sources and search languages into account. More information: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md). 
  
 ### Choose from two color themes 
- You can display the user interface for the Analytics areas, Social Center, and Search setup in either a light or a dark color theme. More information: [Set your preferences for the user interface](../social-engagement/user-preferences.md "Set your preferences for the user interface"). 
+ You can display the user interface for the Analytics areas, Social Center, and Search setup in either a light or a dark color theme. More information: [Set your preferences for the user interface](../social-engagement/user-preferences.md). 
  
 ### Explore Social Engagement with more multimedia content 
  There’s more multimedia content added regularly to help you understand different aspects of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. To find a list of available videos and eBooks, see [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708). 

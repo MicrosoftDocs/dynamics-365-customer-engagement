@@ -1,7 +1,7 @@
 ---
 title: "Work with a data set | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
-ms.date: 2017-08-07
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -47,7 +47,7 @@ Your search topics usually gather more data than you want to analyze at a given 
   
     -   View/Open in Analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)  
   
-    -   Create an automation rule. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules")  
+    -   Create an automation rule. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 > [!NOTE]
 >  If you use the nav bar to switch to a different area of the application, your filters are reset. To persist the filters, pass your data set to a different area per the instructions and availability above.  

@@ -1,6 +1,7 @@
 ---
 title: "Create or delete custom sources | Microsoft Docs"
-ms.date: 2017-07-18
+description: "Learn how you can add RSS and Atom feeds to a group of custom sources and how you can manage custom sources."
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -62,4 +63,4 @@ Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE
 
 [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)    
 [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)    
-[Add rules to a search topic](../social-engagement/add-rules-search-topic.md "Add rules to a search topic")
+[Add rules to a search topic](../social-engagement/add-rules-search-topic.md)

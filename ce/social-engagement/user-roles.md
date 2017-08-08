@@ -1,16 +1,11 @@
 ---
 title: "Understand user roles | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 40ba637e-3eb2-40bc-b512-ff12aeb12f58
-caps.latest.revision: 60
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -83,5 +78,5 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
 ### See Also  
  [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
  [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)   
- [Assign permissions and user roles](../social-engagement/assign-user-roles.md "Assign permissions and user roles")
+ [Assign permissions and user roles](../social-engagement/assign-user-roles.md)
  

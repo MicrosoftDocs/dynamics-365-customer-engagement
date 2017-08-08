@@ -1,7 +1,7 @@
 ---
 title: "Work with tags | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
-ms.date: 2017-08-07
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -128,8 +128,8 @@ Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../inc
   
 4.  Click **Confirm** ![Apply button](../social-engagement/media/check-icon.png "Apply button")  
   
-## Find posts with  tags  
- To quickly find posts with tags ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), use the  Tags filter when building a data set. You can also create automated rules to monitor your intention tags and custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data") , [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules")  
+## Find posts with tags  
+ To quickly find posts with tags ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), use the  Tags filter when building a data set. You can also create automated rules to monitor your intention tags and custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md) , [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 ### See Also  
  [Manage global settings](../social-engagement/manage-global-settings.md)   
