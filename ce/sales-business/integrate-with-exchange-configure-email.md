@@ -37,7 +37,7 @@ To configure Exchange, you must have:
 
 -   Sales Administrator or Sales Manager - Business role
 
--   [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription. If you don’t have a subscription, you will be prompted to subscribe to Exchange before you configure Exchange integration.
+-   [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription. 
 
 -   Exchange Online subscription 
 
