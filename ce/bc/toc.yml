@@ -14,6 +14,12 @@
   - name: Portals
     tocHref: /dynamics365/customer-engagement/portals
     topicHref: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
+  - name: LinkedIn
+    tocHref: /dynamics365/customer-engagement/linkedin
+    topicHref: /dynamics365/customer-engagement/linkedin/sync-linkedin-leads
+  - name: Sales Business Edition
+    tocHref: /dynamics365/customer-engagement/sales-business
+    topicHref: /dynamics365/customer-engagement/sales-business/introduction-dynamics-365-for-sales-business-edition
   - name: Developer Documentation
     tocHref: /dynamics365/customer-engagement/developer/
     topicHref: /dynamics365/customer-engagement/developer/index
