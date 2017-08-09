@@ -91,7 +91,7 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 ## Privacy notice
 
- [!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]
+[!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]
 
 ### See also
 
