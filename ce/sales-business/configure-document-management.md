@@ -20,9 +20,13 @@ Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn
 
 ## Prerequisites
 
--   You must have a Sales Manager-Business or System Administrator role.
+To be able to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], you must have:
 
--   You must have subscribed to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] ([!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] Online).
+-   Sales Manager-Business or System Administrator role
+
+-   [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription
+
+-   [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] Online) subscription
 
 [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] can be configured from the Quick Setup or Advanced Setup.
 
