@@ -36,7 +36,7 @@ You can start a sales transaction, such as a quote or invoice, from within the o
 
 If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Develop sales from lead to cash (Sales)](https://www.microsoft.com/en-us/dynamics/crm-customer-center/nurture-sales-from-lead-to-order-sales.aspx)  
 
-1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Opportunity**
+1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Opportunity**.
 
 2.  If you’ve qualified a lead to an opportunity, open the opportunity from the list.
 
