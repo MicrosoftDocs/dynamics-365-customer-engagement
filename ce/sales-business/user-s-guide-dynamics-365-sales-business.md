@@ -5,10 +5,10 @@ author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 applies_to: "Dynamics 365 (online)"
-ms.date: 07/28/2017
+ms.date: 08/09/2017
 ms.service: dynamics-365
 ms.topic: article
-ms.assetid: 
+ms.assetid: ad4ee751-978d-4d14-80b1-e0ebed6d07f5
 ms.reviewer: 
 ---
 # User's guide for Dynamics 365 for Sales, Business edition
