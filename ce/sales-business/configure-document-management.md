@@ -6,7 +6,7 @@ author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 applies_to: "Dynamics 365 (online)"
-ms.date: 07/14/2017
+ms.date: 08/09/2017
 ms.service: dynamics-365
 ms.topic: article
 ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3 
@@ -26,7 +26,7 @@ To be able to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint
 
 -   [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription
 
--   [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] Online) subscription
+-   [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] Online subscription
 
 [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] can be configured from the Quick Setup or Advanced Setup.
 
