@@ -33,7 +33,13 @@ Some features offered by server-side synchronization include the following:
 
 ## Prerequisite for Exchange integration
 
-You must have an Exchange Online subscription that comes as part of an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription or that can be subscribed to separately. If you don’t have a subscription, you will be prompted to subscribe to Exchange before you configure Exchange integration.
+To configure Exchange, you must have: 
+
+-   Sales Administrator or Sales Manager - Business role
+
+-   [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription. If you don’t have a subscription, you will be prompted to subscribe to Exchange before you configure Exchange integration.
+
+-   Exchange Online subscription 
 
 ## Exchange Integration 
 
