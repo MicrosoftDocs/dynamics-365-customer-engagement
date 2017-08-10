@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Terminology glossary for Dynamics 365 – Gamification | Microsoft Docs"
 description: "Review specific terms used in Dynamics 365 – Gamification."
 ms.custom: ""

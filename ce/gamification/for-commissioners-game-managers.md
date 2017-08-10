@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Overview for commissioners and game managers in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Find a collection of pointers to the most relevant help articles when administering games and players in Dynamics 365 – Gamification."
 ms.custom: ""

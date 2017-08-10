@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Import and manage players and fans in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to import players from your Azure Active Directory and how to assign them the appropriate security roles for the games."
 ms.custom: ""
@@ -44,7 +44,7 @@ Imported users now appear in [!INCLUDE[pn_gamification_shortest](includes/pn-gam
 
 ## Change a user's security role in Dynamics 365 - Gamification
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ifmGw3md6_E" frameborder="0" allowfullscreen></iframe>  
+> [!VIDEO https://www.youtube.com/embed/ifmGw3md6_E]
 
 After users are imported, a commissioner can change the security role of the users.
 

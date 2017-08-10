@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sign in to Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to sign in to the Gamification web portal to participate in Games, view leaderboards and engage with fellow players."
 ms.custom: ""
