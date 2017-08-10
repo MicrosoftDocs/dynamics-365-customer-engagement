@@ -52,7 +52,7 @@ To run the sample:
     private static string _clientId = "<GUID>";    //e.g. "e5cf0024-a66a-4f16-85ce-99ba97a24bb2"
     private static string _redirectUrl = "<Url>";  //e.g. "app://e5cf0024-a66a-4f16-85ce-99ba97a24bb2"
     ```
-5. Save changes, and then start debugging by pressing F5 or select **Debug > **Start Debugging**.
+5. Save changes, and then start debugging by pressing F5 or select **Debug** > **Start Debugging**.
 
 ## Code sample listing 
 
