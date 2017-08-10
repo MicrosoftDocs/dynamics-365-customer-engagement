@@ -1,16 +1,11 @@
 ---
 title: "Use filters to see relevant data | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 30c01cd4-4df3-42db-a10b-48ddb67e67c4
-caps.latest.revision: 85
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -54,7 +49,7 @@ You can use [filters](../social-engagement/understand-filters.md) to slice and d
 ## Add, edit, or remove a filter  
  Customize your data set with filters. Add filters to your analysis by drilling down or by adding filters to the filter section.  
   
-#### Add a filter  
+### Add a filter  
   
 1.  Select a data point on a widget to drill down and apply the corresponding filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
   
@@ -66,7 +61,7 @@ You can use [filters](../social-engagement/understand-filters.md) to slice and d
   
 3.  Select your options, and then click the **Apply** button ![Apply button](media/check-icon.png "Apply button").  
   
-#### Edit a filter  
+### Edit a filter  
   
 1.  Below the nav bar, in the filter section, click the **Filter** button ![Filter button](media/filters-icon.png "Filter button").  
   
@@ -76,7 +71,7 @@ You can use [filters](../social-engagement/understand-filters.md) to slice and d
   
 2.  Adjust your options, and then click the **Apply** button ![Apply button](media/check-icon.png "Apply button").  
   
-#### Remove a filter  
+### Remove a filter  
   
 1.  Click **Remove all filters** ![Remove all filters button](media/clear-filters-icon.png "Remove all filters button") to remove all active filters.  
   

@@ -1,17 +1,13 @@
 ---
 title: "Manage access tokens | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
-caps.latest.revision: 20
-ms.author: "dechang"
+author: "m-hartmann"
+ms.author: mhart
 manager: sakudes
 ---
 # Manage access tokens
@@ -65,7 +61,7 @@ manager: sakudes
 > [!NOTE]
 >  View your social profiles page to add a token. If you don't see the social profile in question, you can add a social profile and add tokens directly.  
   
-#### Add a Facebook user token to interact with posts  
+### Add a Facebook user token to interact with posts  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -75,7 +71,7 @@ manager: sakudes
   
 4.  Click **Save**.  
   
-#### Add a Facebook page token and allow data acquisition for private messages  
+### Add a Facebook page token and allow data acquisition for private messages  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -85,7 +81,7 @@ manager: sakudes
   
 4.  Click **Save**.  
   
-#### Add a Twitter token and allow data acquisition for private messages  
+### Add a Twitter token and allow data acquisition for private messages  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
