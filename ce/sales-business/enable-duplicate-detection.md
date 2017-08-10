@@ -37,7 +37,7 @@ If duplicate detection is disabled, duplicates won’t be detected.
 
 To enable duplicate detection
 
-1.  To disable duplicate detection, go to **Advanced** **Settings** &gt; **Duplicate** **Detection**.
+1. Go to **Advanced** **Settings** &gt; **Duplicate** **Detection**.
 
 2.  Click **Enable**.
 

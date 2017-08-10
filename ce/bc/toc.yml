@@ -20,3 +20,38 @@
   - name: Sales Business Edition
     tocHref: /dynamics365/customer-engagement/sales-business
     topicHref: /dynamics365/customer-engagement/sales-business/introduction-dynamics-365-for-sales-business-edition
+  - name: Developer Documentation
+    tocHref: /dynamics365/customer-engagement/developer/
+    topicHref: /dynamics365/customer-engagement/developer/index
+    items:
+    - name: Web API Reference
+      tocHref: /dynamics365/customer-engagement/developer/webapireference/
+      topicHref: /dynamics365/customer-engagement/developer/webapireference
+      items:
+        - name: Web API Action Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/actions/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/actionreference
+        - name: Web API ComplexType Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/complextypes/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/complextypereference  
+        - name: Web API EntityType Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/entitytypes/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/entitytypereference  
+        - name: Web API EnumType Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/enumtypes/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/enumtypereference 
+        - name: Web API Function Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/functions/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/functionreference 
+        - name: Web API Metadata EntityType Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/metadataentitytypes/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/metadataentitytypereference 
+        - name: Web API Query Function Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/queryfunctions/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/queryfunctionreference 
+        - name: Web API Solutions Reference
+          tocHref: /dynamics365/customer-engagement/developer/webapireference/solutions/
+          topicHref: /dynamics365/customer-engagement/developer/webapireference/solutionreference                                                                  
+  - name: Unified Service Desk
+    tocHref: /dynamics365/customer-engagement/unified-service-desk/
+    topicHref: /dynamics365/customer-engagement/unified-service-desk/index
