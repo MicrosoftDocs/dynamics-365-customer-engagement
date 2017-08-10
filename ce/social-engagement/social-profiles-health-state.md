@@ -1,17 +1,14 @@
 ---
 title: "Check the health state of your social profiles | Microsoft Docs"
-description: ""
 ms.custom: "Learn how to keep the tokens of your social profiles in a healthy state."
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 4d0153a1-4d21-4a73-8685-2ce2e6c55e9f
-caps.latest.revision: 12
 ms.author: mhart
+manager: sakudes
+author: "m-hartmann"
 ---
 # Check the health state of your social profiles
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides health state checks for tokens, social profiles, acquisitions, and interactions so you can make sure your accounts are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will notify you through email and in the application when your critical acquisition tokens are about to expire. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
@@ -56,7 +53,7 @@ ms.author: mhart
 ||||  
 |-|-|-|  
 |**State**|**Symbol**|**Condition**|  
-|Running|![Inidcates that data acquisition and private messages are running for this social profile](../social-engagement/media/valid-token-icon.png "Inidcates that data acquisition and private messages are running for this social profile")|At least one token is valid and used for acquisition.|  
+|Running|![Indicates that data acquisition and private messages are running for this social profile](../social-engagement/media/valid-token-icon.png "Indicates that data acquisition and private messages are running for this social profile")|At least one token is valid and used for acquisition.|  
 |Allowed|![Acquisition Allowed symbol](../social-engagement/media/acquition-allowed-icon.png "Acquisition Allowed symbol")|The social profile allows acquisition but no search rule has been added.|  
 |Expired|![No valid token symbol](../social-engagement/media/token-missing-icon.png "No valid token symbol")|The social profile token is expired. You need to re-authenticate your token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Re-authenticate a token](../social-engagement/manage-access-tokens.md#reauth_token)|  
   

@@ -1,16 +1,11 @@
 ---
 title: "Manage social profiles | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
-caps.latest.revision: 67
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -60,7 +55,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
 >  When you plan to engage with a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], make sure that you have the appropriate permissions for that profile. For [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)  
   
 <a name="addfacebookpage"></a>   
-#### Add a Facebook page to your social profiles  
+### Add a Facebook page to your social profiles  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -77,7 +72,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
   
 6.  Optionally, you can allow Power Analysts and Administrators to create rules for the direct messages from this social profile in a search topic.  
   
-#### Add a Facebook profile to your social profiles  
+### Add a Facebook profile to your social profiles  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -89,7 +84,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
   
 5.  After successful authentication, you can find the profile on the **Social Profiles** page under **Owned profiles**.  
   
-#### Add a Twitter profile  
+### Add a Twitter profile  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -136,7 +131,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
 >  Make sure you share the profiles with users who have a user role of Manager or Responder and are authorized to view or access the social profile feature. Sharing is only available if the social profile allows interactions with posts. Every user who this social profile is shared with can use this profile to publish actions through tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
   
 <a name="shareasocialprofile"></a>   
-#### Share a social profile  
+### Share a social profile  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -156,7 +151,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
 5.  Confirm your selection.  
   
 <a name="stopshareing"></a>   
-#### Stop sharing a social profile  
+### Stop sharing a social profile  
   
 1.  Go to **Settings** > **Social Profiles**.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Stay up to date with alerts | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
-ms.date: 2017-07-10
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -35,7 +35,7 @@ To review the alerts that you created, go to **Message Center**.  The informatio
 
 ## Create an alert
 
-A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")
+A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)
 
 1.  Go to the **Message Center**.
 
@@ -102,5 +102,5 @@ When you work with a trend alert, you can select from five sensitivity settings.
 ### See Also
 
  [Get started with Social Engagement](../social-engagement/get-started.md)   
- [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data")   
- [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set")
+ [Use filters to see relevant data](../social-engagement/use-filters.md)   
+ [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)

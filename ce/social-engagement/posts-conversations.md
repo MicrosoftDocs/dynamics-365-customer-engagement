@@ -1,16 +1,11 @@
 ---
 title: "View posts and conversations in Social Engagement | Microsoft Docs"
 description: "Understand how you can work with posts after acquiring them through Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 864f81b7-bf35-4302-8da5-585c71cba333
-caps.latest.revision: 4
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -120,4 +115,4 @@ manager: sakudes
   
 - **Author location**: The geographical information that a user shared on a profile (if available). For example, this can be the location of a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] user as it’s been entered in the user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md)  
   
-- **Author details**: The details about a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. The author name, username, profile picture, location, website, and bio are provided if the author has been active in the last 30 days. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get details on specific authors](../social-engagement/author-details.md "Get details on specific authors")
+- **Author details**: The details about a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. The author name, username, profile picture, location, website, and bio are provided if the author has been active in the last 30 days. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get details on specific authors](../social-engagement/author-details.md)
