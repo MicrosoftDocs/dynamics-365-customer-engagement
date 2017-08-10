@@ -1,1 +1,1 @@
-Microsoft SharePoint
+SharePoint

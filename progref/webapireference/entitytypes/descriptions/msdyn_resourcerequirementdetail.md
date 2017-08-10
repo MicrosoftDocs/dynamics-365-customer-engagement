@@ -1,0 +1,1 @@
+Entity used to track the detailed information about resource requirements.

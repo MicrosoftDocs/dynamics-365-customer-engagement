@@ -1,0 +1,1 @@
+In this entity you can link multiple tax codes together to form a group of tax codes to be charged for the customer to form the total tax.

@@ -1,0 +1,1 @@
+Query function that evaluates whether the value is equal to the language for the user.

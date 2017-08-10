@@ -1,0 +1,1 @@
+Comment on a knowledge base article.

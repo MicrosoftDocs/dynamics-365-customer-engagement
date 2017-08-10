@@ -1,8 +1,8 @@
 ---
 title: "Create a custom page template by using Liquid and a web template page template for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create a custom page template by using Liquid operators."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Create a custom page template by using Liquid and a web template page template
+# Create a custom page template by using Liquid and a Web Template page template
+
 [comment]: <> (Need more elaborate description of the steps)
 In this example, we'll create a custom page template by using Liquid and a Web Template page template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store source content by using web templates](store-content-web-templates.md).  
 Our goal is to build a simple two-column template that uses a web link set as left-side navigation, with the page content to the right. Something like this:
@@ -45,7 +46,7 @@ Now, all that's left to do is create a Web Page that uses our page template, and
 
 ![Web page with left navigation](media/web-page-left-navigation.png "Web page with left navigation")  
 
-### See Also
+### See also
 
 [Create advanced templates for portals](create-advanced-templates.md)  
 [Create a custom page template to render an RSS feed](render-rss-custom-page-template.md)  

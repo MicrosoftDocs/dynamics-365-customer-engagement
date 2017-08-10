@@ -1,0 +1,1 @@
+Specify the different shipping methods used.

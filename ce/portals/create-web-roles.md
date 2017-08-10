@@ -1,8 +1,8 @@
 ---
 title: "Create web roles for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create web roles for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +18,7 @@ After a contact has been configured to use the portal, it must be given one or m
 
 To create a web role:
 
-1. Navigate to **Portals**.
+1. Go to **Portals**.
 2. Click **Web Roles** > **New**.
 3. Specify values for the required fields.
 4. Click **Save**.
@@ -51,7 +51,7 @@ If you want to customize any of the portal forms, dashboards, or reports, you ca
 -   [TechNet: Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
 -   [TechNet: Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
 -   [TechNet: Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
--   [TechNet: Create and edit processes](https://technet.microsoft.com/en-us/library/dn531144.aspx)  
+-   [TechNet: Create and edit processes](https://technet.microsoft.com/library/dn531144.aspx)  
 -   [TechNet: Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
 
 
@@ -61,15 +61,15 @@ After your portal is created and provisioned, you can change the details of your
 1.  Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online Admin center and click the **Applications** tab.
 2.  Select the name of the portal you want to edit and click **Manage**.
 3.  Click the **Manage [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
-4.  Click the **Update [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** button. In the dialog, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change Portal audience or type of portal.
+4.  Click the **Update [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** button. In the dialog, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
 5.  Click the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
 
 ![Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance](media/change-dynamics-365-instance.png "Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance")  
 
-### See Also
+### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md) 
+[Configure a Dynamics 365 portal](configure-portal.md) 
 [Control webpage access for portals](webpage-access-control.md)  
 [Configure web roles for a PRM portal](configure-web-roles-partner-portal.md) 
 [Add record-based security by using entity permissions for portals](assign-entity-permissions.md) 

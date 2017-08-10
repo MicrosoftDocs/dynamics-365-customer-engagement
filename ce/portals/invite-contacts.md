@@ -1,8 +1,8 @@
 ---
 title: "Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to create and configure invitations in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Invite contacts to your portals
-
-
 
 Use the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals invitation feature to invite contacts to your portal through automated email(s) created in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
 
@@ -60,7 +58,7 @@ The Invitation Form has the following fields:
 | Maximum Redemptions Allowed           | The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                                                      |
 ||
 
-### See Also
+### See also
 
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  

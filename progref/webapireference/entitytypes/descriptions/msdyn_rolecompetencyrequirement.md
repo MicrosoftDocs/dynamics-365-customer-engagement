@@ -1,0 +1,1 @@
+Entity used  to associate skills in a role.

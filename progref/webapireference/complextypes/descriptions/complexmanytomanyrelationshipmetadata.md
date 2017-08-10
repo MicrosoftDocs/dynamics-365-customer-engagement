@@ -1,0 +1,1 @@
+Contains the metadata for a many-to-many entity relationship.

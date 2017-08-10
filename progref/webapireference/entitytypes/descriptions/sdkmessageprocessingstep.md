@@ -1,0 +1,1 @@
+Stage in the execution pipeline that a plug-in is to execute.

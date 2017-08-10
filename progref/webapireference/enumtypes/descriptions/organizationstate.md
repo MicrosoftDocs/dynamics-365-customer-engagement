@@ -1,0 +1,1 @@
+Describes the state of the organization. 

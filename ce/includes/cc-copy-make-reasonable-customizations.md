@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+You may make reasonable customizations to this documentation download for your internal use only. You are solely responsible for and bear any and all liability relating to any customizations you make. This includes any adverse effect that your customizations have on any functionality of the related licensed software, the documentation itself, or otherwise relating to use of your customizations.
+=======
+As the software licensee, you may make reasonable customizations to the software online help documentation for your internal use only. You are solely responsible for and bear any and all liability relating to any customizations you make. This includes any adverse effect that your customizations have on any functionality of the licensed software, the software documentation itself or otherwise relating to use of your customizations. Please note that installing software upgrades may rewrite customized online help files.
+>>>>>>> origin/Potassium

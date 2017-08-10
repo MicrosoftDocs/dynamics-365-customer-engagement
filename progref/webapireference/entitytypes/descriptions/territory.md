@@ -1,0 +1,1 @@
+Territory represents sales regions.

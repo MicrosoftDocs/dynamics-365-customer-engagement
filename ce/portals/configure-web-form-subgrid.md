@@ -1,8 +1,8 @@
 ---
 title: "Web Form subgrid configuration for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure web form subgrid for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Web Form subgrid configuration for portals
+# Configure web form subgrids for portals
 
 Web Form Subgrids are configured in an identical fashion to Entity Form Subgrids. First, Create a Metadata record for the Web Form Step that has a subgrid, and add configuration metadata.
 
@@ -21,11 +21,11 @@ Adding Subgrids to your Managed forms on the portal is easy—just add the subgr
 
 ## Add subgrid metadata to your form
 
-To add Subgrid Metadata to an Entity Form, navigate to **Entity Form Metadata** by using either the top drop-down or the subgrid right on the main form of the [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md) record that you are working with.  
+To add Subgrid Metadata to an Entity Form, go to **Entity Form Metadata** by using either the top drop-down or the subgrid right on the main form of the [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md) record that you are working with.  
 
 To add a new record, click **Add New Entity Form Metadata**.
 
-To edit an existing record, double-click on a record in the grid. Selecting Subgrid as the Type value displays another attribute, "Subgrid Name".
+To edit an existing record, double-click a record in the grid. Selecting Subgrid as the Type value displays another attribute, "Subgrid Name".
 
 | Name         | Description                                                               |
 |--------------|---------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Enabling a **Download Action** renders a button above the Subgrid that, when cli
 
 ## Associate action
 
-Enabling an **Associate Action** displays a button above the subgrid that, when selected, opens a table of entities that the user can choose to associate to the entity record currently being displayed by the [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) provided the 'Append' and 'AppendTo' privilege has been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
+Enabling an **Associate Action** displays a button above the subgrid that, when selected, opens a table of entities that the user can choose to associate to the entity record currently being displayed by the [Define entity forms and custom logic within the Dynamics 365 portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) provided the 'Append' and 'AppendTo' privilege has been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
 
 ### Associate action settings
 
@@ -253,7 +253,7 @@ Enabling a **Workflow Action** allows a user to run an On-Demand Workflow agains
 
 ## Disassociate action
 
-Enabling a **Disassociate Action** allows a user to remove the link between the record represented by the currently viewed [Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) and the record represented by the selected row in the subgrid, as long as the 'Append' and 'AppendTo' privileges have been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
+Enabling a **Disassociate Action** allows a user to remove the link between the record represented by the currently viewed [Define entity forms and custom logic within the Dynamics 365 portal](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) and the record represented by the selected row in the subgrid, as long as the 'Append' and 'AppendTo' privileges have been granted by [Add record-based security using entity permissions for portals](assign-entity-permissions.md) for the applicable entity types.  
 
 ### Disassociate action settings
 
@@ -266,10 +266,10 @@ Enabling a **Disassociate Action** allows a user to remove the link between the 
 | Button Tooltip        | Overrides the tooltip text that appears when the mouse is hovered over the button for this action displayed in the subgrid row. |
 ||
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

@@ -1,8 +1,8 @@
 ---
 title: "Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure OAuth2 provider settings for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ---
 
-# OAuth2 provider settings for portals
+# Configure OAuth2 provider settings for portals
+
 The OAuth 2.0 based external identity providers involve registering an "application" with a third-party service to obtain a "client ID" and "client secret" pair. Often this application requires specifying a redirect URL that allows the identity provider to send users back to the portal (relying party). The client ID and client secret are configured as portal site settings in order to establish a secure connection from relying party to identity provider. The settings are based on the properties of the [[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]AccountAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.aspx), [TwitterAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.twitter.twitterauthenticationoptions.aspx), [FacebookAuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.facebook.facebookauthenticationoptions.aspx), and [GoogleOAuth2AuthenticationOptions](https://msdn.microsoft.com//library/microsoft.owin.security.google.googleoauth2authenticationoptions.aspx) classes.  
 
 The supported providers are:
@@ -57,7 +58,7 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
     - Select a**Category** 
     - Click**Create App ID**
 
-5. While on the Dashboard for the new app, navigate to**Settings** &gt;**Basic** (tab) and add following details:
+5. While on the Dashboard for the new app, go to**Settings** &gt;**Basic** (tab) and add following details:
     - App Domains (optional): portal.contoso.com 
     - Contact Email: *&lt;email address of your choice&gt;* 
     - Click**Add Platform** and select**Website** 
@@ -132,9 +133,9 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 | Authentication/OpenAuth/\[provider\]/SignInAsAuthenticationType | The name of another authentication middleware which will be responsible for actually issuing a**userClaimsIdentity**. [MSDN: microsoftaccountauthenticationoptions.signinasauthenticationtype](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.signinasauthenticationtype.aspx). |  
 | Authentication/OpenAuth/\[provider\]/AuthenticationMode         | The OWIN authentication middleware mode. [MSDN: security.authenticationoptions.authenticationmode](https://msdn.microsoft.com//library/microsoft.owin.security.authenticationoptions.authenticationmode.aspx).                                                                                                                                       |  
 
-### See Also
+### See also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

@@ -1,0 +1,1 @@
+Contains the data for the options in a boolean attribute.

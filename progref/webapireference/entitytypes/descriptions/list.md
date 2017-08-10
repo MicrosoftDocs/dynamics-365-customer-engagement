@@ -1,0 +1,1 @@
+Group of existing or potential customers created for a marketing campaign or other sales purposes.

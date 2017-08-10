@@ -1,0 +1,1 @@
+Create different work order types to reflect the different types of work that your company offers. Work Order types are used to control various settings on a work order.

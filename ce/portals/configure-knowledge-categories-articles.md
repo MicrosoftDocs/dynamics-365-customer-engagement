@@ -1,8 +1,8 @@
 ---
 title: "Configure and manage knowledge categories and articles for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create and manage a knowledge category and knowledge article."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,7 +42,7 @@ manager: sakudes
 >[!Note] 
 > Knowledge articles associated with the category will be disassociated after the category is deleted.
 
-### See Also
+### See also
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 

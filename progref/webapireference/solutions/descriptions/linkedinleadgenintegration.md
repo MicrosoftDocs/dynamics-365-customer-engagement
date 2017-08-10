@@ -1,0 +1,1 @@
+This service helps sync LinkedIn leads as LinkedIn Form Submission records in CRM and helps nurture them as leads.

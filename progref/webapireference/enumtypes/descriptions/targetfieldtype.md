@@ -1,0 +1,1 @@
+Indicates the attribute type for the target of the InitializeFromRequest message.  

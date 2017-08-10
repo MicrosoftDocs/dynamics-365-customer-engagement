@@ -1,0 +1,1 @@
+Service endpoint that can be contacted.

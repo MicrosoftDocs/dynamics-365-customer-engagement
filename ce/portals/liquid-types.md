@@ -1,8 +1,8 @@
 ---
 title: "Use Liquid types for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn about the available liquid types in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Liquid types
+# Available Liquid types
 
 Liquid objects can return one of seven basic types: **String**, **Number**, **Boolean**, **Array**, **Dictionary**, **DateTime**, or **Null**. Liquid variables can be initialized by using the **assign** or **capture** tags.
 
@@ -117,7 +117,7 @@ This will render if the ID request parameter is NOT null.
 {% endif %}
 ```
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Store source content by using web templates](store-content-web-templates.md)  

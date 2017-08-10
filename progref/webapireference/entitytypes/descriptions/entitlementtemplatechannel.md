@@ -1,0 +1,1 @@
+Contains predefined support terms for a channel to create entitlements for customers.

@@ -1,8 +1,8 @@
 ---
 title: "Configure WS-Federation provider settings for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure WS-Federation provider settings for portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,9 +13,9 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# WS-Federation provider settings for portals
+# Configure WS-Federation provider settings for portals
 
-A single [!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)] Federation Services server can be added (or another [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx)–compliant security token service) as an identity provider. In addition, a single [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] ACS](http://azure.microsoft.com/en-us/documentation/articles/active-directory-dotnet-how-to-use-access-control/) namespace can be configured as a set of individual identity providers. The settings for both AD FS and ACS are based on the properties of the [WsFederationAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.aspx) class.  
+A single [!INCLUDE[pn-active-directory](../includes/pn-active-directory.md)] Federation Services server can be added (or another [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx)–compliant security token service) as an identity provider. In addition, a single [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] ACS](http://azure.microsoft.com/documentation/articles/active-directory-dotnet-how-to-use-access-control/) namespace can be configured as a set of individual identity providers. The settings for both AD FS and ACS are based on the properties of the [WsFederationAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.aspx) class.  
 
 ## Create an AD FS relying party trust
 
@@ -128,9 +128,9 @@ This corresponds to the **MetadataAddress** site setting value
 
 Apply the configuration described in the topic [Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals).  
 
-### See Also
+### See also
 
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

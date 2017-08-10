@@ -128,7 +128,7 @@ For more information about removing a preferred solution, see [Delete a preferre
 
 ## Privacy notice  
 
- [!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
+[!INCLUDE[cc_privacy_gamification_solution](includes/cc-privacy-gamification-solution-md.md)]  
   
 ### See also  
 

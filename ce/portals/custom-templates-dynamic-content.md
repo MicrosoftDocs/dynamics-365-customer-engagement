@@ -1,8 +1,8 @@
 ---
 title: "Add dynamic content and create custom templates for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn how to use Liquid, an open-source template language, into your portals."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +24,7 @@ Liquid is an open-source template language integrated into portals. It can be us
 
 In all of these scenarios, you'll have dynamic access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal features, such as [entitylist](#entitylist), [content snippets](#customize-content-by-using-content-snippets), [site settings for portals](configure-site-settings.md), and [web links](#manage-web-links-in-dynamics-365-or-on-portals).  
 
-### See Also
+### See also
 
 [How to provision a portal](provision-portal.md)  
 [Get started with the portal content editor](get-started-portal-content-editor.md)

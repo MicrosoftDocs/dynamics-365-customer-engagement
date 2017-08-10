@@ -1,0 +1,1 @@
+Allows creation of multiple sub statuses mapped to a booking status option.

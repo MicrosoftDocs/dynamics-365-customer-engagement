@@ -1,0 +1,1 @@
+Address and shipping information. Used to store additional addresses for a publisher.

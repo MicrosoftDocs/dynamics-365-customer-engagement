@@ -1,8 +1,8 @@
 ---
 title: "Render an RSS feed using custom page template for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create a custom page template and use it to render an RSS feed."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -38,7 +38,7 @@ Now, when we request this new webpage, we'll receive our RSS feed XML:
 
 In this example, we've seen how we can combine Liquid, Web Templates, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views, and portals content management features to create a custom RSS feed. The combination of these features adds powerful customization capabilities to any portal application.
 
-### See Also
+### See also
 
 [Create advanced templates for portals](create-advanced-templates.md)  
 [Create a custom page template by using Liquid and a web template page template](create-custom-template.md)  

@@ -1,0 +1,1 @@
+Target objective for a user or a team for a specified time period.

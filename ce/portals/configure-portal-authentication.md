@@ -1,8 +1,8 @@
 ---
 title: "Configure portal authentication in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Learn about how to configure authentication for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,10 +34,10 @@ During sign-up, the user has the option of creating a local account (providing a
 
 With open registration enabled, users are not required to provide an invitation code to complete the sign-up process.
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Invite contacts to your portals](invite-contacts.md)  

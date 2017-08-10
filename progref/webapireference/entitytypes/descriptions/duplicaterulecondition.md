@@ -1,0 +1,1 @@
+Condition of a duplicate detection rule.
