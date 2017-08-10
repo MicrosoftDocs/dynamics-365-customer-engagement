@@ -18,9 +18,8 @@ Social Engagement 2017 Update 1.7. It was published in August 2017.
 Resources
 ---------
 
-[Social Engagement Help
-Center](http://go.microsoft.com/fwlink/?LinkID=394325)—info central for product
-users and admins
+[Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) -
+info central for product users and admins
 
 General known issues
 --------------------
@@ -245,17 +244,24 @@ Twitter are not acquired in Social Engagement. This can happen when a message
 was written in a non-supported language of Social Engagement or if the language
 was not detected at all.
 
-### Facebook comments cannot be shared to through “Post link” action
+### Facebook comments cannot be shared through “Post link” action
 
-Due to a feature in Facebook’s API our users can’t share the URL of a Facebook
-comment to Facebook. This issue will be addressed by not showing Facebook social
-profiles anymore when the “Post link” action is triggered on a post of the type
-Facebook comment.
+Due to a feature in the Facebook API, Social Engagement users can’t share the
+URL of a Facebook comment to Facebook. We stop showing Facebook social profiles
+when the **Post link** action is triggered on a post of the type **Facebook
+comment**.
 
-### Opening a post with URL from “Copy internal URL” action filter
+### Opening a post with the URL from Copy internal URL command
 
-When using the URL from “Copy internal URL” fly-out to access a post in Social
-Engagement, filters for this specific document will not be removed by any action
-in Analytics. To remove this filter you’ll need to reload the Analytics. You can
-do this either through the navigation menu or by using the refresh functionality
-of your browser.
+When you use the URL from the **Copy internal URL** command to access a post in
+Social Engagement, filters for this specific document will not be removed by any
+action in Analytics. To remove this filter, reload the analytics. You can do
+this either through the navigation menu or by using your browser’s refresh
+functionality.
+
+### Can’t delete YouTube social profiles if inactive for more than 24 hours
+
+Social Engagement won’t let you delete a YouTube social profile if it wasn't
+used to comment or rate a video in the past 24 hours. If this occurs, please
+re-authenticate the YouTube social profile before removing it from the list of
+social profiles.
