@@ -1,8 +1,8 @@
 ---
 title: "Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure OAuth2 provider settings for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -58,7 +58,7 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
     - Select a**Category** 
     - Click**Create App ID**
 
-5. While on the Dashboard for the new app, navigate to**Settings** &gt;**Basic** (tab) and add following details:
+5. While on the Dashboard for the new app, go to**Settings** &gt;**Basic** (tab) and add following details:
     - App Domains (optional): portal.contoso.com 
     - Contact Email: *&lt;email address of your choice&gt;* 
     - Click**Add Platform** and select**Website** 

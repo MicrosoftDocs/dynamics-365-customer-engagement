@@ -1,0 +1,1 @@
+Agreement to provide customer service during a specified amount of time or number of cases.

@@ -1,0 +1,1 @@
+Describes the formatting of an integer attribute. 

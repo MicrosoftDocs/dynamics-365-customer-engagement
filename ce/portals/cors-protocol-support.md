@@ -1,8 +1,8 @@
 ---
 title: "CORS protocol support for a portal in Dynamics 365 | MicrosoftDocs"
-description: "Information about CORS protocol support for a portal in Dynamics 365."
+description: "Learn about CORS protocol support for a portal."
 ms.custom: ""
-ms.date: 07/02/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,14 +16,14 @@ manager: sakudes
 
 # CORS protocol support
 
-The [Cross-Origin Resource Sharing (CORS)](http://www.w3.org/TR/cors/) protocol consists of a set of headers that indicates whether a response can be shared with another domain.
+The [cross-origin resource sharing (CORS)](http://www.w3.org/TR/cors/) protocol consists of a set of headers that indicates whether a response can be shared with another domain.
 The following site settings are used to configure CORS:
 | Name                                  | Description                                                                                                                                                       |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | HTTP/Access-Control-Allow-Credentials | The only valid value for this header is true (case-sensitive). If you don't need credentials, omit this header entirely (rather than setting its value to false). |
 | HTTP/Access-Control-Allow-Headers     | A comma-delimited list of the supported HTTP request headers.                                                                                                     |
 | HTTP/Access-Control-Allow-Methods     | A comma-delimited list of the allowed HTTP request methods such as GET, POST, OPTIONS.                                                                            |
-| HTTP/Access-Control-Allow-Origin      | To allow any resource to access your resources, you can specify *. Otherwise, specify the URI that may access the resources.                                      |
+| HTTP/Access-Control-Allow-Origin      | To allow any resource to access your resources, you can specify *. Otherwise, specify the URI that can access the resources.                                      |
 | HTTP/Access-Control-Expose-Headers    | A comma-delimited list of HTTP header names other than the simple response headers that the resource might use and can be exposed.                                |
 | HTTP/Access-Control-Max-Age           | Maximum number of seconds the results can be cached.                                                                                                              |
 ||

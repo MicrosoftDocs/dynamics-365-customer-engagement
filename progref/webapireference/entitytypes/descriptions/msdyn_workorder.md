@@ -1,0 +1,1 @@
+Work orders store all information about the job performed for an account. Stores incident details, resource, expenses, tasks, communications, billing and more

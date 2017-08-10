@@ -1,0 +1,1 @@
+MIME attachment for an activity.

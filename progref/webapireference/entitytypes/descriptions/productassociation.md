@@ -1,0 +1,1 @@
+Instance of a product added to a bundle or kit.

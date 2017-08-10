@@ -1,0 +1,1 @@
+Query function that evaluates whether the string contains the specified string.  

@@ -1,0 +1,1 @@
+List of settings that determine the behavior of the project-based service solution.

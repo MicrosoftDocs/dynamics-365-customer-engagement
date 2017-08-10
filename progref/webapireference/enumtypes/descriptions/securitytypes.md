@@ -1,0 +1,1 @@
+Describes the security type for the relationship. 

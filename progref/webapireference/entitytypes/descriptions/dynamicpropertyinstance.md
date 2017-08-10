@@ -1,0 +1,1 @@
+Instance of a property with its value.

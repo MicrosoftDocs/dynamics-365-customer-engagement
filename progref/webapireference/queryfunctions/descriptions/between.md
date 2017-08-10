@@ -1,0 +1,1 @@
+Query function that evaluates whether the entity is between the referenced entities in the hierarchy. 

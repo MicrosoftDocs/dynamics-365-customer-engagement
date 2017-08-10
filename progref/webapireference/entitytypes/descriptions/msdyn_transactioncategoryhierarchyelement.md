@@ -1,0 +1,1 @@
+Hierarchical relationship of the transaction category with a root node.

@@ -1,0 +1,61 @@
+﻿---
+title: "Extend Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+ms.custom: ""
+ms.date: "2016-08-01"
+ms.reviewer: ""
+ms.service: "usd"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 (on-premises)"
+  - "Dynamics CRM 2013"
+  - "Dynamics CRM 2015"
+  - "Dynamics CRM 2016"
+ms.assetid: 88d2daf3-5a2d-4da2-ab13-aa650247b0e5
+caps.latest.revision: 13
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "jdaly"
+---
+# Extend Unified Service Desk
+This section provides information on how you can use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] components to extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to integrate with external applications, web applications, and [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] systems. It also provides information on how to customize [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by developing custom hosted controls and panel layouts.  
+  
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with a host of [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project templates that you can use to create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] application adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] web adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] customer search control (Windows Forms and [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control (Windows Forms and [!INCLUDE[pn_wpf_acronym](../includes/pn-wpf-acronym.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter, a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control, and a custom panel layout. You can get the project templates in one of the following ways:  
+  
+-   [Download the CRM SDK template from the Visual Studio gallery](http://go.microsoft.com/fwlink/p/?LinkId=400925). Double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+  
+-   [Download and install the CRM SDK package](http://go.microsoft.com/fwlink/p/?LinkId=627298). In the SDK\Templates folder, double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+  
+> [!NOTE]
+>  The templates work with [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]. Additionally, you must have [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d).  
+  
+ For information about the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] concepts that you must know to extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Unified Service Desk and the UII framework](../unified-service-desk/unified-service-desk-uii-framework.md).  
+  
+## In This Section  
+ [Integrate with external application and web application](../unified-service-desk/integrate-with-external-applications-web-applications.md)  
+  
+ [Integrate with CTI applications](../unified-service-desk/integrate-with-cti-systems-using-cti-adapters.md)  
+  
+ [Integrate with Citrix applications](../unified-service-desk/integrate-with-citrix-applications.md)  
+  
+ [Use custom hosted control in Unified Service Desk](../unified-service-desk/use-custom-hosted-control-unified-service-desk.md)  
+  
+ [Use custom panel types and panel layouts](../unified-service-desk/use-custom-panel-types-panel-layouts-unified-service-desk.md)  
+  
+ [Use custom listeners for auditing, diagnostics and traces](../unified-service-desk/create-custom-listeners-auditing-diagnostics-traces.md)  
+  
+ [Reuse Entity Search definition in your custom code](../unified-service-desk/reuse-entity-search-definition-custom-code.md)  
+  
+ [Debug your custom code for Unified Service Desk](../unified-service-desk/debug-custom-code-unified-service-desk.md)  
+  
+## Reference  
+ [Programming reference](../unified-service-desk/programming-reference.md)  
+  
+ [Unified Service Desk Team Blog](http://blogs.msdn.com/b/usd/)  
+  
+## Related Sections  
+ [Core concepts for extending Unified Service Desk](../unified-service-desk/unified-service-desk-uii-framework.md)  
+  
+ [Core concepts for configuring Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)

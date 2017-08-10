@@ -1,0 +1,1 @@
+List of roles that will be considered as costs when understanding the profit of an opportunity line.

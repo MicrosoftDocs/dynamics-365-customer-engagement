@@ -1,8 +1,8 @@
 ---
 title: "Get started with the portal content editor in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Learn how to use inline editor on a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,8 +18,8 @@ manager: sakudes
 
 This document assumes that you have permission to perform these tasks. If you do not, ask your portal administrator to arrange this for you. The permissions can be assigned to individual pages, so be sure to specify which pages you will need to edit.
 
->[!Note]
->If you are using the sample organization, sign in with *administrator* as the username and *pass@word1* as the password.
+> [!Note]
+> If you are using the sample organization, sign in with *administrator* as the username and *pass@word1* as the password.
 
 ## Use the content editor toolbar
 

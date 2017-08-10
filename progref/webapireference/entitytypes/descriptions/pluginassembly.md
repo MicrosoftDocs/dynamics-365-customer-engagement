@@ -1,0 +1,1 @@
+Assembly that contains one or more plug-in types.

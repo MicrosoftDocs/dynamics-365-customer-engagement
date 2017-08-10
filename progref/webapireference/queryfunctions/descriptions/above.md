@@ -1,0 +1,1 @@
+Query function that evaluates whether the entity is above the referenced entity in the hierarchy.  

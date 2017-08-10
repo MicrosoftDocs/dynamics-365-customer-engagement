@@ -1,8 +1,8 @@
 ---
 title: "Configure Facebook App (Page Tab) authentication for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to authenticate the Facebook app to sign in to a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,13 +23,14 @@ Start by setting up a standard portal.
 
 ## Configure IIS
 
-The same website used to host the standard portal is also used to host the Facebook App portal. However, the website must be configured to respond to Facebook specific site bindings in addition to the existing bindings. The specific site bindings should contain a host name value that distinguishes it as a Facebook App portal. For example, a standard portal hosted from the domain contoso.com can specify the domain facebook-contoso.com for hosting the Facebook App.
+The same website used to host the standard portal is also used to host the Facebook App portal. However, the website must be configured to respond to Facebook-specific site bindings in addition to the existing bindings. The specific site bindings should contain a host name value that distinguishes it as a Facebook App portal. For example, a standard portal hosted from the domain contoso.com can specify the domain facebook-contoso.com for hosting the Facebook App.
 
 | Type  | Host Name            | Port | Notes                           |
 |-------|----------------------|------|---------------------------------|
 | http  | contoso.com          | 80   | The standard portal.            |
 | http  | facebook-contoso.com | 80   | The Facebook App portal.        |
 | https | facebook-contoso.com | 443  | The Secure Facebook App portal. |
+|||
 
 ## Configure display mode
 
@@ -38,6 +39,7 @@ The MVC Display Modes feature allows the Facebook App to present a customized us
 | Site Setting Name              | Value (examples - replace with your Page Tab URL) | Note                                                        |
 |--------------------------------|---------------------------------------------------|-------------------------------------------------------------|
 | DisplayModes/Facebook/HostName | facebook-contoso.com, facebook-\*                 | The host name of the Facebook App portal. Accepts wildcard. |
+|||
 
 ## Test the site bindings
 
@@ -45,25 +47,27 @@ View the portal through each of the site bindings in a web browser to ensure tha
 
 ## Set up the Facebook app
 
-1.  Go to the [Facebook Developers](https://developers.facebook.com/) site and sign in with a Facebook account. Under the**My Apps** drop-down menu click the **Add a New App** button, then click **Skip and Create App ID**.
+1.  Go to the [Facebook Developers](https://developers.facebook.com/) site and sign in with a Facebook account. Under the**My Apps** drop-down menu, click **Add a New App**, then click **Skip and Create App ID**.
 2. In the resulting **Create a New App ID** dialog, specify a valid **Display Name**,**Namespace**, and **Choose a Category** (such as Apps for Pages) because this will eventually be required to publish an app to the public. The **Namespace** can be left blank. Click **Create App**. Submit the **Security Check** (captcha) dialog as well.
-3. After landing on the Dashboard, navigate to the **Settings** area in the left column navigation.
+3. After landing on the Dashboard, go to the **Settings** area in the left column navigation.
 4. Complete the **Basic** form by entering the fields shown in the following example:
+    - **Display Name**: Contact Email
 
-| Display Name  | Contoso Portal                                                                                                                                                        |
-|---------------|------------------------------|
-| Contact Email | administrator@contoso.com  |
-| App Domains   | portal.contoso.comfacebook-portal.contoso.com| 
-> [!Note] 
-> If the domain values cannot be successfully set, leave this field blank for now, complete the next step to specify a **Site URL**, and then return to this field.
+      **Contoso Portal**: administrator@contoso.com
+    - **Display Name**: App Domains
 
-5. Click the **+ Add Platform** button and click **Website** from the Select Platform dialog. Enter a **Site URL** (for example:  http://contoso.com) 
-6. Again, click the **+ Add Platform** button and this time click **Page Tab**. Complete this new section based on the following fields:
+      **Contoso Portal**: portal.contoso.comfacebook-portal.contoso.com
+
+  > [!Note] 
+  > If the domain values cannot be successfully set, leave this field blank for now, complete the next step to specify a **Site URL**, and then return to this field.
+
+5. Click **+ Add Platform** and click **Website** from the Select Platform dialog. Enter a **Site URL** (for example:  http://contoso.com) 
+6. Again, click **+ Add Platform** and this time click **Page Tab**. Complete this new section based on the following fields:
     * Secure Page Tab URL: https://facebook-contoso.com/app/facebook
     * Page Tab Name:Contoso Portal                 
 
-> [!Note]
-> The Page Tab URL should have the /app/facebook path appended to the App domain URL. The portal uses this endpoint to launch the App portal.
+  > [!Note]
+  > The Page Tab URL should have the /app/facebook path appended to the App domain URL. The portal uses this endpoint to launch the App portal.
 
 7. Click **Save Changes**.
 
@@ -80,7 +84,7 @@ The Value and Website of each site setting must also be added into the site sett
 
 ## Publish the app
 
-1. Click over to the **Status & Review** area (under Settings area). 
+1. Go to the **Status & Review** area (under the Settings area). 
 2. Set the first option of the **Status** tab **Do you want to make this app and all its live features available to the general public?** to **YES**.
 
 ## Add the Facebook page tab to your Facebook page

@@ -1,8 +1,8 @@
 ---
 title: "Use Custom JavaScript for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add custom JavaScript to a form in portal"
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,7 +15,7 @@ manager: sakudes
 ---
 # Add custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]
 
-The Web Form Step record contains a field named**Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]** that can be used to store [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] code to allow you to extend or modify the form's visual display or function.
+The Web Form Step record contains a field named **Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]** that can be used to store [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] code to allow you to extend or modify the form's visual display or function.
 
 The custom block of [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] will added to the bottom of the page just before the closing form tag element.
 
@@ -88,7 +88,7 @@ $("a[href='#emailaddress1_label']").on("click", function () { scrollToAndFocus('
 
 ## General validation
 
-On click of the**Next**/**Submit** button a function named**webFormClientValidate** is executed. You can extend this method to add custom validation logic.
+On click of the **Next**/**Submit** button a function named **webFormClientValidate** is executed. You can extend this method to add custom validation logic.
 
 ```
 if (window.jQuery) {

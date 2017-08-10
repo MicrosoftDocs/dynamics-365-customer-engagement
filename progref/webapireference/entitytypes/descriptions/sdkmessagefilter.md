@@ -1,0 +1,1 @@
+Filter that defines which SDK messages are valid for each type of entity.

@@ -8,6 +8,7 @@
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
       "monikers": [],
+      "moniker_groups": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -17,6 +18,21 @@
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
+    },
+    {
+      "docset_name": "customer-engagement-dev",
+      "build_source_folder": "progref",
+      "build_output_subfolder": "customer-engagement-dev",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_groups": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "op"
     }
   ],
   "notification_subscribers": [],

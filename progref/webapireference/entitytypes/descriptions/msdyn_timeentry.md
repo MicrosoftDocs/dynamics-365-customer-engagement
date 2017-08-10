@@ -1,0 +1,1 @@
+Entity used  for time entry.

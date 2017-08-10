@@ -1,0 +1,1 @@
+A like on an activity feed post.
