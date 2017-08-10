@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Frequently asked questions about Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn more about the most asked questions on various topics and features in Dynamics 365 – Gamification."
 ms.custom: ""
