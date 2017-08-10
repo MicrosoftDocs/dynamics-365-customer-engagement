@@ -58,6 +58,7 @@ Application identity hs to be created before it can be registered with the Onlin
 |----------|--------------|-----------|
 |Create tenant application identity  |Registers a tenant application identity to be used with Online Management API.|[Create Tenant Application Identity](/rest/api/admin.services.crm.dynamics.com/createtenantapplicationidentity)|
 |Retrieve tenant application identity  |Retrieves tenant application identies registered with Online Management API.|[Get Tenant Application Identity](/rest/api/admin.services.crm.dynamics.com/gettenantapplicationidentity)|
+|Enable or disable tenant application identity  |Enables or disables tenant application identies registered with Online Management API.|[Enable Tenant Application Identity](/rest/api/admin.services.crm.dynamics.com/enabletenantapplicationidentity)<br/>[Disable Tenant Application Identity](/rest/api/admin.services.crm.dynamics.com/disabletenantapplicationidentity)|
 
 ### Related Topics  
 
