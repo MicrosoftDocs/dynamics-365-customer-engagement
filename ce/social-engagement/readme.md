@@ -9,16 +9,13 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
-Social Engagement 2017 Update 1.7 Readme
+# Social Engagement 2017 Update 1.7 Readme
 
-Resources
----------
+## Resources
 
-[Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) -
-info central for product users and admins
+[Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) - info central for product users and admins
 
-General known issues
---------------------
+## General known issues
 
 ### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for Tablets app
 
