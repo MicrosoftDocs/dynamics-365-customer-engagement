@@ -16,7 +16,7 @@ manager: sakudes
 
 # Add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page in portal
 
-A chart is added to a web page using a [Liquid tag](liquid-tags.md) named "chart". You can add the chart Liquid tag in the **Copy** field on a Web Page or in the **Source** field on a [Web Template](store-content-web-template.md).
+A chart is added to a web page using a [Liquid tag](liquid-tags.md) named "chart". You can add the chart Liquid tag in the **Copy** field on a Web Page or in the **Source** field on a [Web Template](store-content-web-templates.md).
  
 For example, {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" %}
 
