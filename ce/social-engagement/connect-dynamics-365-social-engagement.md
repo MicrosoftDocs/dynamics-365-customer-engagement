@@ -1,16 +1,11 @@
 ---
 title: "Connect to Dynamics 365 | Microsoft Docs"
 description: "Learn how to set up the connection between Social Engagement and Dynamics 365."
-ms.custom: ""
-ms.date: 2017-02-16
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: f8acc707-064a-47e3-9392-85396b9dda2c
-caps.latest.revision: 64
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -64,7 +59,7 @@ To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.
 If you're a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] administrator interested in exploring [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services and how to integrate them with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to other domains, see [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md).  
   
 <a name="connectToCRM"></a>   
-#### Connect Social Engagement and Dynamics 365  
+### Connect Social Engagement and Dynamics 365  
   
 1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
@@ -107,8 +102,7 @@ Now that you've connected [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm
 [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
   
 ### See Also  
- [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365")   
- [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post")   
- [Manage the connection between Dynamics 365 and Social Engagement](../social-engagement/manage-connection-dynamics-365-social-engagement.md "Manage the connection between Dynamics 365 and Social Engagement")   
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md "Administer Microsoft Social Engagement")
- 
+ [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
+ [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)   
+ [Manage the connection between Dynamics 365 and Social Engagement](../social-engagement/manage-connection-dynamics-365-social-engagement.md)   
+ [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)

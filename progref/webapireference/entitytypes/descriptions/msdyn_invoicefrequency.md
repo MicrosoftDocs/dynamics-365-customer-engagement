@@ -1,0 +1,1 @@
+Setup entity for invoice schedules.

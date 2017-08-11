@@ -1,8 +1,8 @@
 ---
 title: "Manage content for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn how to manage portal content in Dynamics 365."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,12 +20,12 @@ Create, edit, and curate your portal content to provide information and illustra
 -   Edit a portal in real time and see your changes live. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the front-side editing engine to publish content](publish-content-editing-engine.md)  
 -   Manage webpage data and attributes to organize the content on your portal.
 -   Provide download files to add functionality and usability, or to supplement products, features, and services.
--   Create links to internal or external pages to help users find the right information. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals](manage-web-links.md)  
+-   Create links to internal or external pages to help users find the right information. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 or on portals](manage-web-links.md)  
 -   Use content snippets to create reusable content and update all relevant content at once. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)  
 
-### See Also
+### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
 [Create a theme for your portal](create-theme.md)  
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 

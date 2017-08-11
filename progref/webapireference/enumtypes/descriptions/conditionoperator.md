@@ -1,0 +1,1 @@
+Describes the type of comparison in a condition expression. 

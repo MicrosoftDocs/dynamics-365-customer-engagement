@@ -1,0 +1,1 @@
+Solution built on Dynamics 365 as a link to bring the relationships between EM and VoC solutions.

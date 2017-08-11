@@ -1,8 +1,8 @@
 ---
 title: "Configure a load form and load tab step type for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to define a load form and load tab step type in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Load form and load tab step type
+# Define a load form and load tab step type
 This step type allows the web form step to act as an entity form within the overall web form process. It loads a form from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] with a similar set of options available as an Entity Form.
 
 ## Settings
@@ -110,12 +110,12 @@ This provides a way to associate the current record being created or updated by 
 
 
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  
-[Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]](add-custom-javascript.md)  
+[Add custom JavaScript](add-custom-javascript.md)  
 

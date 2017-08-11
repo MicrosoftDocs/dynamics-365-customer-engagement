@@ -1,0 +1,1 @@
+Entity used to keep track of resource assignment header information  on tasks.

@@ -1,0 +1,1 @@
+Contains the metadata for entity key.

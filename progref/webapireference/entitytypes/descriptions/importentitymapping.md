@@ -1,0 +1,1 @@
+Mapping for entities in a data map.

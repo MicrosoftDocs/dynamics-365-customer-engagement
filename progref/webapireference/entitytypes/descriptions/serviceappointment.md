@@ -1,0 +1,1 @@
+Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.

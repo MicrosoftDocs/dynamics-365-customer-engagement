@@ -6,7 +6,8 @@ ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
-ms.author: "dechang"
+author: "m-hartmann"
+ms.author: mhart
 manager: sakudes
 ---
 # Manage access tokens
@@ -61,7 +62,7 @@ manager: sakudes
 > [!NOTE]
 >  View your social profiles page to add a token. If you don't see the social profile in question, you can add a social profile and add tokens directly.  
   
-#### Add a Facebook user token to interact with posts  
+### Add a Facebook user token to interact with posts  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -71,7 +72,7 @@ manager: sakudes
   
 4.  Click **Save**.  
   
-#### Add a Facebook page token and allow data acquisition for private messages  
+### Add a Facebook page token and allow data acquisition for private messages  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -81,7 +82,7 @@ manager: sakudes
   
 4.  Click **Save**.  
   
-#### Add a Twitter token and allow data acquisition for private messages  
+### Add a Twitter token and allow data acquisition for private messages  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -106,7 +107,11 @@ manager: sakudes
 2.  Select the appropriate social profile, and in the social profile panel click the Delete your token button ![Delete button](../social-engagement/media/delete-icon.png "Delete button") next to the token you want to delete.  
   
 3.  Click **Save**.  
-  
+
+## Privacy notice
+
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+
 ### See Also  
  [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   

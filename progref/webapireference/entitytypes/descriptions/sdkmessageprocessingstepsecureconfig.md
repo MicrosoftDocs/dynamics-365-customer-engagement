@@ -1,0 +1,1 @@
+Non-public custom configuration that is passed to a plug-in's constructor.

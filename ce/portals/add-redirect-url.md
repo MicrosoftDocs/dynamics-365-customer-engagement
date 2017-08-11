@@ -1,8 +1,8 @@
 ---
 title: "Redirect to a new URL on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create a redirect URL to redirect a user to another page in a site."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Redirect to a new URL on a portal
+# Add a redirect URL to a new URL on a portal
+
 Customers frequently want to have a simple URL that redirects to a page deeper in the site, or they want to allow for a legacy URL to be used with the site and automatically redirect to a new URL in the site. Page redirects allow a content author to specify a URL that when requested will be redirected on a permanent or temporary basis to a specific webpage or web file. These redirect URLs are managed separately from the page content so that they do not have to fit directly in the web hierarchy.
 
 ## Create a redirect
@@ -49,8 +50,8 @@ results in the browser requesting the following URL:
 
 http://customerportal.contoso.com/surveys/customer-service-survey/
 
-### See Also
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+### See also
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

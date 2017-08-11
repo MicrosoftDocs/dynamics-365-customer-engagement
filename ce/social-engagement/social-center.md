@@ -1,16 +1,11 @@
 ---
 title: "Keep track of live data streams with Social Center | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
-ms.custom: ""
-ms.date: 2017-06-07
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 28ce6089-519c-4193-806f-1af28fbc91b5
-caps.latest.revision: 27
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -19,7 +14,7 @@ manager: sakudes
 # Keep track of live data streams with Social Center
 Social media runs at a fast pace. To keep up and collaborate efficiently, your personal streams come in handy. Manage your streams, share them with other users, and stay informed in real time on new and updated posts.  New posts are posts that were recently picked up by a search topic and processed to appear in a solution. Fresh posts are posts whose metadata has been changed recently (for example, a label was added, or a post received a reply). Streams use filters to define the data set and surface the most relevant posts.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vlxQG-h_ZRg?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/vlxQG-h_ZRg]
   
  To see your streams, go to **Social Center**.  
   
@@ -36,7 +31,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  For example, you can create a stream called **Inbox** that checks all search topics for posts that are assigned to you. In other words, an Assignee filter with the value of the currently signed-in user is applied to all search topics. Posts that match this filter show up in the stream.  
   
-#### Configure a stream  
+### Configure a stream  
   
 1.  Go to **Social Center**.  
   
@@ -54,7 +49,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 6.  Select users from your organization you want to share this stream with under **Sharing**. (Optional)  
   
-7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data")  
+7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md)  
   
 8.  Click the **Save** button ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
@@ -64,7 +59,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  Users or groups you share the stream with will always see the data how you configure it. If you change the data set for a shared stream, the displayed data will also change for the users the stream is shared with.  
   
-#### Share a stream you own  
+### Share a stream you own  
   
 1.  Go to **Social Center**.  
   
@@ -74,7 +69,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 4.  Under **Sharing**, click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
   
-5.  In the Share dialog, choose **User** or **Group** in the **Type**drop-down list.  
+5.  In the Share dialog, choose **User** or **Group** in the **Type** drop-down list.  
   
      For more information about groups, see                 [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md).  
   
@@ -89,7 +84,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 ## Edit a stream  
  Update the configuration of a stream if you want to refine the data to be shown in the stream, or change its settings.  
   
-#### Edit a stream you own  
+### Edit a stream you own  
   
 1.  Go to **Social Center**.  
   
@@ -108,7 +103,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 ## Delete a stream  
  You may want to delete a stream from Social Center, for example, a stream that was useful for a certain event, but that you no longer need. If you delete a stream you share with other users, keep in mind that it will be deleted for them too. Before deleting         the stream, make sure your co-workers are aware of your plans.  
   
-#### Delete a stream you own  
+### Delete a stream you own  
   
 1.  Go to **Social Center**.  
   

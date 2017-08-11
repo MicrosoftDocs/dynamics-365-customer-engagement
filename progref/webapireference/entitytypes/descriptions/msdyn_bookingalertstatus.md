@@ -1,0 +1,1 @@
+The status of a booking alert.

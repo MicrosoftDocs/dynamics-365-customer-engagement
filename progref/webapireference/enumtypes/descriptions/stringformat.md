@@ -1,0 +1,1 @@
+Describes the formatting of a string attribute for the StringAttributeMetadata.Format property. (Deprecated)

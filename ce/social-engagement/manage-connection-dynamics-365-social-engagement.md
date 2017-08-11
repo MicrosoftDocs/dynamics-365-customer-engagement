@@ -1,16 +1,11 @@
 ---
 title: "Connect Dynamics 365 and Social Engagement | Microsoft Docs"
 description: "Learn how to connect Social Engagement and Dynamics 365 to link social posts and create new cases or leads."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 329b1b1d-3b8c-4d97-a67d-eeb176d835bc
-caps.latest.revision: 40
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -24,7 +19,7 @@ This topic helps you understand how you change the settings for your connections
   
 -   The associated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance is experiencing downtime, or has expired.  
   
--   The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance is enabled, but the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been disassociated from the social activity, or has been deleted in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], or, in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been unlinked from the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove a linked Dynamics 365 record from a post](../social-engagement/create-dynamics-365-record-from-social-post.md#RemoveLinkToCRM)  
+-   The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance is enabled, but the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been disassociated from the social activity, or has been deleted in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], or, in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been unlinked from the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove a linked Dynamics 365 record from a post](../social-engagement/create-dynamics-365-record-from-social-post.md#remove-a-linked-dynamics-365-record-from-a-post)  
   
 ## Prerequisites  
   
@@ -52,7 +47,7 @@ This topic helps you understand how you change the settings for your connections
   
 - **Set as default**: Lets you choose to have an instance selected by default when creating new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts.  
   
-- **Enable instance**: Lets you choose to temporarily disable the creation of  new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post")  
+- **Enable instance**: Lets you choose to temporarily disable the creation of  new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
   
 - **Refresh**: Lets you update the metadata of all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] entities associated with that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
@@ -89,7 +84,7 @@ This topic helps you understand how you change the settings for your connections
 ### Delete an existing connection  
   
 > [!IMPORTANT]
->  You can't delete a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to deactivate or delete all automation rules using that connection. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules")  
+>  You can't delete a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to deactivate or delete all automation rules using that connection. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 1.  In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
@@ -128,13 +123,13 @@ This topic helps you understand how you change the settings for your connections
 |In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been dissociated from the social activity.|-   The linkage with the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post is broken.<br />-   The associated [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post is available for linking again.|N/A|  
 |In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been deleted.|Same as above.|N/A|  
 |In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the social activity has been deleted, but the linked record is available.|Same as above.|N/A|  
-|In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been unlinked from the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove a linked Dynamics 365 record from a post](../social-engagement/create-dynamics-365-record-from-social-post.md#RemoveLinkToCRM)|The [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post is available for linking again.|N/A|  
+|In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record has been unlinked from the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove a linked Dynamics 365 record from a post](../social-engagement/create-dynamics-365-record-from-social-post.md#remove-a-linked-dynamics-365-record-from-a-post)|The [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] post is available for linking again.|N/A|  
   
 <a name="disableConnection"></a>   
 ### Disable an existing connection  
   
 > [!IMPORTANT]
->  You can't disable a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to deactivate or delete all automation rules using that connection. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules")  
+>  You can't disable a connection if there are active automation rules that link posts to the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You will first need to deactivate or delete all automation rules using that connection. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 1.  In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
@@ -152,8 +147,8 @@ This topic helps you understand how you change the settings for your connections
  [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
   
 ### See Also  
- [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365")   
- [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md "Connect Dynamics 365 and Social Engagement")   
- [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post")   
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md "Administer Microsoft Social Engagement")
+ [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
+ [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
+ [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)   
+ [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
  

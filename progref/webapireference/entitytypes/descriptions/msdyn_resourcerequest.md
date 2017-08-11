@@ -1,0 +1,1 @@
+Entity that wraps the resource requirement to capture the type of resources, skills, and location required.

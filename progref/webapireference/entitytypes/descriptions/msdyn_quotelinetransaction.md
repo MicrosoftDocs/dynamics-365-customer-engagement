@@ -1,0 +1,1 @@
+Sales estimate detail of a quote line.

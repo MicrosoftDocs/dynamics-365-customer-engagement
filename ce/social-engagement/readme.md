@@ -1,6 +1,6 @@
 ---
 title: "Social Engagement 2017 Update 1.7 Readme"
-ms.date: 2017-05-19
+ms.date: 2017-08-11
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -10,10 +10,6 @@ ms.author: mhart
 manager: sakudes
 ---
 Social Engagement 2017 Update 1.7 Readme
-========================================
-
-This document provides important, late-breaking information about Microsoft
-Social Engagement 2017 Update 1.7. It was published in August 2017.
 
 Resources
 ---------

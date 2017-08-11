@@ -1,0 +1,1 @@
+Query function that evaluates whether the entity equals current user teams. 

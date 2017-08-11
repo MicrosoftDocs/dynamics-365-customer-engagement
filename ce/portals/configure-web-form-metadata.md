@@ -1,8 +1,8 @@
 ---
 title: "Web form metadata for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure web form metadata for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,14 +13,14 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Web form metadata for portals
+# Configure web form metadata for portals
 
 The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]'s native entity form editing capabilities.
 
 ## Add a new record
 1. On the Web Form Step that has fields that you would like to modify, click the **Metadata** link in the top navigation.
 
-![Select metadata in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](media/select-metadata-dynamics-365.png "Select metadata in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]")  
+![Select metadata in Dynamics 365](media/select-metadata-dynamics-365.png "Select metadata in Dynamics 365")  
 2. Click **Add New Web Form Metadata**.
 
 ## Web form metadata properties
@@ -126,10 +126,10 @@ The following properties are displayed when the Type selected equals 'Tab'
 | Tab Name | The name of the tab on the entity's form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to be modified.                                                                                                                                                                                      |
 | Label    | Replaces the default label assigned to the tab on the entity with the text specified in this input. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language. |
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

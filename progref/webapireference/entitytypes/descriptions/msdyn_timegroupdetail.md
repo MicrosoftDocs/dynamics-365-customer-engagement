@@ -1,0 +1,1 @@
+Specify individual time windows under a time group.

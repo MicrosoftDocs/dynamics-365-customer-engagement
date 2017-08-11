@@ -1,0 +1,1 @@
+Query function to evaluate whether the value is older than the specified amount of days. 

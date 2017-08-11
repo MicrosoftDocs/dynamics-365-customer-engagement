@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Browser requirements for Dynamics 365 - Gamification | Microsoft Docs"
 description: "Required browser settings to enable a seamless experience in Dynamics 365 - Gamification"
 ms.custom: ""

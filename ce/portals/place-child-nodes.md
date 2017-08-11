@@ -1,8 +1,8 @@
 ---
 title: "Place child nodes by using shortcuts for a portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to place child nodes by using shortcuts for portals."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,10 +20,10 @@ Use shortcuts to place child nodes throughout your portal's sitemap that simply 
 
 Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**. 
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**. 
 2. Navigate to **Portals** &gt; **Shortcuts**. 
 3. To create a Shortcut: Click **New**. 
-4. To edit an existing Shortcut: Double-click on the existing **Shortcut** listed in the grid. 
+4. To edit an existing Shortcut: Double-click the existing **Shortcut** listed in the grid. 
 5. Enter values for the fields provided. 
 6. Click **Save & Close**
 
@@ -56,10 +56,10 @@ Security for shortcuts can be based either on the parent page of the shortcut or
 
 After the shortcut entity has been created, it will appear in your website. In the above example, Basic Site has two additional pages, Page One and Page Two. Page Two Is a Child of Page One, which is a Child of the Home Page. Additionally, there is a shortcut that is a child of the Home page which points to Page Two.
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Configure site settings for portals](configure-site-settings.md)  
-[Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication](configure-portal-authentication.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
-[Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals](manage-web-links.md)  
+[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Manage web links in Dynamics 365 or on portals](manage-web-links.md)  

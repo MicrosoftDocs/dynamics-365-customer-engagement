@@ -1,0 +1,1 @@
+Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.

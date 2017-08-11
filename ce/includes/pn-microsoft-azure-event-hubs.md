@@ -1,1 +1,1 @@
-Microsoft Azure Event Hubs
+Azure Event Hubs

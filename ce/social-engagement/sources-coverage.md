@@ -87,7 +87,10 @@ Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtu
 
 Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](../social-engagement/add-rules-search-topic#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments which affect the monthly post quota.
 
-### See Also
+## Privacy notice
 
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Refine your search rules to find relevant content](../social-engagement/refine-search-rules.md)
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+
+### See Also  
+[Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
+[Refine your search rules to find relevant content](../social-engagement/refine-search-rules.md)

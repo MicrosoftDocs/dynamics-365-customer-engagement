@@ -1,0 +1,1 @@
+User geographical region that affects geopolitically sensitive data. Keep not more than one geo-region per user to ensure consistency of this data.

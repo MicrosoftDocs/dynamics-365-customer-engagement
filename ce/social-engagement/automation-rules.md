@@ -1,16 +1,11 @@
 ---
 title: "Automate actions on posts | Microsoft Docs"
 description: "Learn how to set up Social Engagement to automatically handle subsets of incoming posts."
-ms.custom: ""
-ms.date: 2017-05-23
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 8be7abf8-618b-4788-91cb-b992ca3fbf8d
-caps.latest.revision: 36
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -21,11 +16,11 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
 <a name="prerequisites"></a>   
 ## Prerequisites  
   
--   Your organization owns [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Enterprise licenses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462), [Manage licenses for Social Engagement](../social-engagement/manage-licenses.md "Manage licenses for Social Engagement")  
+-   Your organization owns [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Enterprise licenses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462), [Manage licenses for Social Engagement](../social-engagement/manage-licenses.md)  
   
--   You have a Manager or Administrator user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to manage automation rules. All user roles can see how automation rules are configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md "Understand user roles")  
+-   You have a Manager or Administrator user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to manage automation rules. All user roles can see how automation rules are configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
   
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is connected to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016 (or later) instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md "Connect Dynamics 365 and Social Engagement")  
+- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is connected to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016 (or later) instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)  
   
  All users, regardless of user role and license type, can see the automation rules that were defined. All users open the same data set in Analytics.  
   
@@ -47,7 +42,7 @@ For each automation rule, there are several navigation elements and values to de
   
 6.  Name of the selected automation rule.  
   
-7.  Filters that trigger this automation rule. For an active rule, every newly-found post matching these filters will be handled by this rule. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data")  
+7.  Filters that trigger this automation rule. For an active rule, every newly-found post matching these filters will be handled by this rule. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md)  
   
 8.  View the data set in Analytics ![View in Analytics button in Social Engagement](../social-engagement/media/view-in-analytics-icon.png "View in Analytics button in Social Engagement").  
   
@@ -70,7 +65,7 @@ The following section explains more about the available actions for automation r
   
 <a name="link_automation"></a>   
 ### Create a link to Dynamics 365 from a social post  
-Automatically link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create records from social posts. To use this feature, make sure there’s an active connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. Also ensure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] rule framework is correctly configured to process the Social Activity entities created when a post is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md "Create a Dynamics 365 record from a social post"), [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365"), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+Automatically link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create records from social posts. To use this feature, make sure there’s an active connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. Also ensure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] rule framework is correctly configured to process the Social Activity entities created when a post is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md), [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
 <a name="assignAutomation"></a>   
 ### Assign posts to a user or a group in Social Engagement  
@@ -141,10 +136,10 @@ Event hubs are built to handle high volumes of events in real time. Although you
 Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md "Understand user roles")  
   
 > [!IMPORTANT]
->  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md "Connect Dynamics 365 and Social Engagement").  
+>  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md).  
   
 <a name="create_rule"></a>   
-#### Create an automation rule  
+### Create an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
   
@@ -154,14 +149,14 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
   
 4.  In the **Status** drop-down list, select if the new rule should be **Active** or **Inactive**.  
   
-5.  In the **Filters** section, click **Change** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") to define the data set that newly-found posts need to match to trigger the rule's actions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md "Use filters to see relevant data")  
+5.  In the **Filters** section, click **Change** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") to define the data set that newly-found posts need to match to trigger the rule's actions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md)  
   
     > [!NOTE]
     >  To get an idea of the volume of posts your actions may be executed on, you’ll see the number of posts that matched your selected filters in your default time frame.  
   
 6.  In the **Actions** section, click **Add** ![Add button](../social-engagement/media/add-icon.png "Add button") to add an action to the rule.  
   
-    -   Set the values for **Link to Dynamics 365** ![Link to Dynamics 365 action](../social-engagement/media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365"), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+    -   Set the values for **Link to Dynamics 365** ![Link to Dynamics 365 action](../social-engagement/media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to link the matching posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance with the defined entity parameter. Make sure that you set up both the rule framework in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
     -   Set the values for **Stream to Event Hubs** ![Stream to event hubs action](../social-engagement/media/stream-to-event-hub-icon.png "Stream to event hubs action") to create JSON events from matching posts in the selected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md), [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)  
   
@@ -177,7 +172,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 >  Automation rules start processing posts that match the defined filters as soon as the rule is activated and saved. However, the rule won’t process any posts that were found before the automation rule was created, or while it was inactive. If you deactivate an existing automation rule, it will restart to process the newly-found posts after you reactivate the rule. If your administrator sets **Send failure notifications** to on, all administrators will receive an email if an action failed, so you can quickly take action.  
   
 <a name="edit_rule"></a>   
-#### Edit an automation rule  
+### Edit an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
   
@@ -188,7 +183,7 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your configuration.  
   
 <a name="delete_rule"></a>   
-#### Delete an automation rule  
+### Delete an automation rule  
   
 1.  Go to **Settings** > **Automation Rules**.  
   
@@ -199,11 +194,11 @@ Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../in
 4.  Confirm your deletion.  
   
 <a name="quick_create"></a>   
-### Quickly create an automation rule while working in Social Engagement  
+## Quickly create an automation rule while working in Social Engagement  
 When working with data sets in Social Engagement, you may want a data set to persist, to quickly create an automation rule based on it. You quickly create automation rules when working with your data in  Analytics, or from a stream in Social Center. Click **More options with current filters** ![More options](../social-engagement/media/more-options-icon.png "More options") to create an automation rule from your current data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
   
 <a name="conflicting_rules"></a>   
-### How Social Engagement handles conflicting automation rules  
+## How Social Engagement handles conflicting automation rules  
 A newly-found post can match the filters of more than one automation rule. If there's more than one matching rule, Social Engagement will execute the actions from the rule that was added most recently.  
   
 > [!CAUTION]

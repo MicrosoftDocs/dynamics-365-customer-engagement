@@ -1,7 +1,7 @@
 ---
 title: "Get the Social Engagement content pack | Microsoft Docs"
 description: "Download the use the Social Engagement content pack for Power BI."
-ms.date: 2017-07-10
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
@@ -63,7 +63,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
      Once your data is imported you can see the default dashboard that [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] creates to display your data. You can modify this dashboard to display your data in any way you want.  
   
- ![Dashboard with Social Engagmeent data in Power BI](../social-engagement/media/content-pack-social-engagement-dashboard.jpg "Dashboard with Social Engagmeent data in Power BI")  
+ ![Dashboard with Social Engagmeent data in Power BI](../social-engagement/media/content-pack-social-engagement-dashboard.jpg "Dashboard with Social Engagement data in Power BI")  
   
 ### What's next?  
   

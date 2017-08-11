@@ -1,0 +1,1 @@
+Warehouses where inventory products are stored and managed

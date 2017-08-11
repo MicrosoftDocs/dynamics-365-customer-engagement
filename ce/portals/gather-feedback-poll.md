@@ -1,8 +1,8 @@
 ---
 title: "Gather feedback by using polls on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create polls on a portal and gather feedback using them."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -40,8 +40,8 @@ Content managers may use [Template tags](#template-tags) to add a poll to any ed
 
 To Create a new poll placement region:
 
-1. Navigate to **Portals** and then to **Poll Placements**
-2. Click **New**
+1. Go to **Portals** > **Poll Placements**.
+2. Click **New**.
 
     ![Place active poll](media/place-active-poll.png "Place active poll")  
 
@@ -117,9 +117,9 @@ The details of the poll voting results are stored in [!INCLUDE[pn-dynamics-crm](
 | Contact     | The associated Contact record of the voter if the user is logged on                           |
 | Visitor ID  | The anonymous ID of the voter if the user is anonymous.                                       |
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

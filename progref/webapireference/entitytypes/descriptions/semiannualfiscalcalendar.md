@@ -1,0 +1,1 @@
+Calendar representing the semi-annual span of time during which the financial activities of an organization are calculated.

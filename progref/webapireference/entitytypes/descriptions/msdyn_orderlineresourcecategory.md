@@ -1,0 +1,1 @@
+List of roles that will be considered as costs when computing the profit of a project contract line.

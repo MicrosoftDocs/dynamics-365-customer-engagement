@@ -1,0 +1,1 @@
+Information on relationships to be used to follow related entity's records for mobile offline profile item.

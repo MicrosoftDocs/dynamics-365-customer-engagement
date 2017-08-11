@@ -1,0 +1,1 @@
+Definition for a Web-based wizard.

@@ -11,27 +11,28 @@ ms.author: mhart
 manager: sakudes
 ---
 # Add rules to a search topic
-Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.  
-  
-> [!NOTE]
-> [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
-  
-The following table shows the rules that you can create.  
-  
-|If you want to|Create a|  
-|--------------------|--------------|  
-|Gather posts based on a query of keywords, inclusions, and exclusions.|**Keywords rule** ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol")|  
-|Gather all public posts and comments from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.|**Facebook pages rule** ![Facebook symbol](../social-engagement/media/facebook-source-icon.png "Facebook symbol")|  
-|Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.|**Twitter rule** ![Twitter symbol](../social-engagement/media/twitter-icon.png "Twitter symbol")|  
-|Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], and allows private messages acquisition.|**Private messages rule** ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol")|  
-|Gather posts from public RSS feeds in your custom source groups.|**Custom sources rule** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol")|  
-|Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts|**Instagram rule** ![Instagram symbol](../social-engagement/media/instagram-icon.png "Instagram symbol")|  
-|Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.|**YouTube rule** ![YouTube symbol](../social-engagement/media/video-icon.png "YouTube symbol")|  
+Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.
+
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports the following search rules. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]
+
+- **[Keywords rule](#add-a-keywords-rule)** ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query of keywords, inclusions, and exclusions.
+
+- **[Facebook pages rule](#add-a-facebook-pages-rule)** ![Facebook symbol](../social-engagement/media/facebook-source-icon.png "Facebook symbol"): Gather all public posts and comments from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.
+
+- **[Twitter rule](#add-a-twitter-rule)** ![Twitter symbol](../social-engagement/media/twitter-icon.png "Twitter symbol"): Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.
+
+- **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](../social-engagement/media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts
+
+- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], and [allows private messages acquisition](../social-engagement/manage-access-tokens.md#tokens-for-data-acquisition).
+
+- **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
+
+- **[YouTube rule](#add-a-includetnyoutubeincludestn-youtubemd-rule)** ![YouTube symbol](../social-engagement/media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
   
 > [!TIP]
 >  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3HoeVROsJZk?rel=0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/3HoeVROsJZk]
   
 ## Add a rule to a search topic  
 To enable searches and collect posts, add one or more rules to a search topic.  
@@ -41,7 +42,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
 >   
 >  Adding a rule usually leads to more posts resulting from your searches. The increased number of posts will count against your post quota. You'll need to validate every search topic that you changed before you can save it. It's a good idea to frequently review the results of a new or updated search topic to confirm that it collects relevant data and complies with your quota limits. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](../social-engagement/manage-post-quota.md)  
   
-#### Add a new rule  
+### Add a new rule  
   
 1.  Go to **Search Setup**.  
   
@@ -66,7 +67,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
 ## Add a keywords rule  
  Create rules from keywords, inclusions, and exclusions, and define the sources and languages that you want the rule to search on. This is the most common way to define a rule in a search topic, and it usually results in a large number of posts.  
   
-#### Add a new keywords rule  
+### Add a new keywords rule  
   
 1.  Go to **Search Setup**.  
   
@@ -158,7 +159,7 @@ Although you can create an unlimited number of search queries per search topic, 
 ## Add a Facebook pages rule  
 Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. Usually, you follow conversations on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page in full context and don’t look at specific posts only. If you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to a search topic, you can make sure that all posts on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page (such as posts from the audience and the page or comments from the page and the audience) are captured for further processing in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-#### Add a new Facebook pages rule  
+### Add a new Facebook pages rule  
   
 1.  Go to **Search Setup**.  
   
@@ -187,7 +188,7 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
 ## Add a Twitter rule  
 Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule to see tweets, mentions, replies, or retweets in a search topic.  
   
-#### Add a new Twitter rule  
+### Add a new Twitter rule  
   
 1.  Go to **Search Setup**.  
   
@@ -242,7 +243,7 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
 > [!IMPORTANT]
 >  If you add a private messages rule,  all private messages that were sent to the selected profile visible in your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-#### Add a new private messages rule  
+### Add a new private messages rule  
   
 1.  Go to **Search Setup**.  
   
@@ -265,7 +266,7 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
 ## Add a custom sources rule  
 Create rules to gather posts from custom sources, You can also create keyword rules that match keywords in custom source posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule)  
   
-#### Add a new custom sources rule  
+### Add a new custom sources rule  
   
 1.  Go to **Search Setup**.  
   
@@ -311,7 +312,9 @@ Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtub
 [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
 [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
-  
+
+[!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
+
 ### See Also  
 [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
 [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   

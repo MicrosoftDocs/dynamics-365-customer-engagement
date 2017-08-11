@@ -1,20 +1,16 @@
-﻿---
+---
 title: "Upload images for your Voice of the Customer for Dynamics 365 surveys | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
 ms.assetid: 7ec3635f-c77f-4a24-bc61-4f8e2d9999e8
-caps.latest.revision: 8
-author: "brycho"
-ms.author: "brycho"
-manager: "brycho"
+description: ""
+keywords: ""
+ms.custom: ""
+ms.date: "07/26/2017"
+ms.service: "crm-online"
+ms.topic: "article"
+applies_to: "Dynamics 365 (online)"
+author: sbmjais
+ms.author: shjais
+manager: sakudes
 ---
 # Upload a logo or other image for your Voice of the Customer survey
 Before you can add a logo or other image to your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, you need to upload the images to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)].  

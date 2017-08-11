@@ -1,0 +1,1 @@
+Contains entities and plug-in assemblies that provide configurable portal cache invalidation for Dynamics 365 data that participate in portal based interfaces.

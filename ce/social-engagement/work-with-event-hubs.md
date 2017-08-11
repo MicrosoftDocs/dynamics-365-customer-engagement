@@ -1,16 +1,11 @@
 ---
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
 description: "Learn how to work with events in Event Hubs."
-ms.custom: ""
-ms.date: 2017-05-23
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 80d207d4-f2df-4a04-8e39-5d09d3f44005
-caps.latest.revision: 31
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -103,7 +98,7 @@ manager: sakudes
     >   
     >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
     >   
-    > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md "JSON reference for events from Social Engagement")  
+    > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)  
   
     1.  Example 1: In this simple “Hello World” example, we count all new posts over time and push them every 30 seconds to the output sink.  
   

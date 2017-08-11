@@ -1,8 +1,8 @@
 ---
 title: "Configure web roles for a partner portal in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Instructions to add web roles for a partner portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Configure web roles for a Partner Relationship Management (PRM) portal
+# Configure web roles for a partner relationship management (PRM) portal
+
 Web roles for the Partner Relationship Management (PRM) portal grant specific access to the different areas of the portal. By assigning the appropriate roles, you can grant your primary partner contacts the right permissions to manage their team members and streamline their processes.
 
 - **Partner administrator**: Partner administrators are contacts who serve as the primary contact for a partner account. They are responsible for adding and deactivating their team members and for any administrative activities related to their partner account information. Partner administrators can:
@@ -57,13 +58,13 @@ Website Access Permissions is a permission set, associated with a web role, that
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Manage Content Snippets      | Allows the editing of Snippet controls. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)                                                                 |  
 | Manage Site Markers          | Allows the editing of hyperlinks that use [sitemarkers](#sitemarkers)                                                                                                                                                 |  
-| Manage Web Link Sets         | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals](manage-web-links.md) |  
+| Manage Web Link Sets         | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 or on portals](manage-web-links.md) |  
 | Preview Unpublished Entities | Allows the viewing of portal-exposed entities that have a publishing state of **Draft**.                                                                                                                              |
 ||
 
 To add website access permission to a web role, just create a new Website Access entity, give it the permission set you want, name it, associate with the website in question, save, and then associate it with the web role(s) you desire.
 
-### See Also
+### See also
 [Control webpage access for portals](webpage-access-control.md)  
 [Add record-based security using entity permissions for portals](assign-entity-permissions.md)  
 [Create a partner account on a partner relationship management (PRM) portal](#create-a-partner-account-on-a-partner-relationship-management-prm-portal)  

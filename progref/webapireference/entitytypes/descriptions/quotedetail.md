@@ -1,0 +1,1 @@
+Product line item in a quote. The details include such information as product ID, description, quantity, and cost.

@@ -1,16 +1,11 @@
 ---
 title: "Configure the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to prepare for the Social Selling Assistant before sharing it with your users."
-ms.custom: ""
-ms.date: 2017-05-31
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: bbed3178-9494-44bf-9d4e-1f78e84e729d
-caps.latest.revision: 17
 author: "m-hartmann"
 ms.author: mhart
 ---
@@ -24,7 +19,7 @@ After a system administrator installs the Social Selling Assistant in [!INCLUDE[
 
 If you configured a search rule for posts from social profiles owned by your organization, you can flag them accordingly. This enables the recommendation model to clearly distinguish between content from profiles your organization owns and content owned by others, and process it accordingly.
 
-#### Flag owned profiles
+### Flag owned profiles
 
 1.  In Social Engagement, go to **Search Setup**.
 

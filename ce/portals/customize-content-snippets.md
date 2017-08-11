@@ -1,8 +1,8 @@
 ---
 title: "Customize content by using content snippets on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn how to customize content by using content snippets."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,13 +26,13 @@ To edit snippets on the front side, users must be associated with a Web Role tha
 
 To edit through the front side, hover over the snippet element and click the edit button. You must have website access permissions to edit snippets. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control webpage access for portals](webpage-access-control.md)  
 
-When editing a snippet, either a simple text box will appear, allowing you to quickly edit the content, or the full editor appears, as it does when editing a page's copy. Which of these two interfaces appears is determined by the edit type of the snippet, which also determines the type of content the snippet can hold (full, stylized HTML content versus plain text). A snippet can be assigned an edit type of either text or HTML when a developer adds the Content Snippet control to the page template in the Portal's [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)] project.
+When editing a snippet, either a simple text box will appear, allowing you to quickly edit the content, or the full editor appears, as it does when editing a page's copy. Which of these two interfaces appears is determined by the edit type of the snippet, which also determines the type of content the snippet can hold (full, stylized HTML content versus plain text). A snippet can be assigned an edit type of either text or HTML when a developer adds the Content Snippet control to the page template in the portal's [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)] project.
 
 ## Edit using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
-1.  Navigate to **Portals** -&gt; **Content Snippets**
-2.  To create a new snippet: Click **New**
-3.  To edit an existing snippet: Double-Click on an existing **Content Snippet** in the grid
+1.  Go to **Portals** > **Content Snippets**.
+2.  To create a new snippet: Click **New**.
+3.  To edit an existing snippet: double-click an existing **Content Snippet** in the grid.
 
 Enter values for the following fields:
 
@@ -42,7 +42,7 @@ Enter values for the following fields:
 | Website | The website that is associated with the snippet.                                                              |
 | Value   | The content of the snippet to be displayed in the portal. This can contain plain text or HTML markup.         |
 
-### See Also
+### See also
 
 [How to provision a portal](provision-portal.md)  
 [Get started with the portal content editor](get-started-portal-content-editor.md)  

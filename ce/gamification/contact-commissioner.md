@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Contact a Commissioner in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to get in touch with the Commissioner of a Dynamics 365 – Gamification game directly from within the app."
 ms.custom: ""

@@ -1,8 +1,8 @@
 ---
 title: "Configure a conditional step type for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to add and configure a conditional step type for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,9 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Conditional step type
-
-
+# Add a conditional step type
 
 A Web Form Step can be a 'Condition' type that indicates the step should evaluate an expression. If the expression evaluates to true then the next step is displayed. If the expression evaluates to false and if the 'Next Step If Condition Fails' has been specified, that step will be displayed. The current entity is the target used to evaluate the expression against. Record Source defaults to the Record Source of the previous step.
 
@@ -64,12 +62,12 @@ new\_categorycode = 750101 & gendercode = 2
 
 -   new\_twooptionfield = false
 
-### See Also
+### See also
 
-[Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](configure-portal.md)  
-[Define entity forms and custom logic within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  
-[Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]](add-custom-javascript.md)  
+[Add custom JavaScript](add-custom-javascript.md)  
 

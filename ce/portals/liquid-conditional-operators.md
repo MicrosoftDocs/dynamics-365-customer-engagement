@@ -1,8 +1,8 @@
 ---
 title: "Use Liquid conditional operators for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn about the available liquid conditional operators in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 08/03/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Conditional
+# Available Liquid conditional operators
+
 When used in conditional statements (**if**,**unless**), some Liquid values will be treated as true, and some will be treated as false.
 
 In Liquid, null and the Boolean value false are treated as false;everything else is treated as true. Empty strings, empty arrays, etc. are treated as true. For examples,
@@ -58,7 +59,7 @@ You can also test the size of [Liquid types](liquid-types.md), [Liquid types](li
 | empty array or dictionary | ×    |       |
 | Object                    | ×    |       |
 
-### See Also
+### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Store source content by using web templates](store-content-web-templates.md)  

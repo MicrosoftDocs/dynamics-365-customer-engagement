@@ -1,0 +1,1 @@
+Data equivalent to files used in Web development. Web resources provide client-side components that are used to provide custom user interface elements.

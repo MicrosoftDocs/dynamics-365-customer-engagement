@@ -1,0 +1,1 @@
+Query function to evaluate whether the value is not matched to a value in a subquery or a list.  
