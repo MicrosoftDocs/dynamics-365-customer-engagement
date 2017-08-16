@@ -1,7 +1,7 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-ms.date: 2017-07-10
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -19,6 +19,20 @@ If you’re new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.7
+
+### Listening and engagement on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]
+
+Get in touch with your audience on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Users with at least a Responder interaction role can now rate and reply to videos and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]. You'll need to add a social profile for [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] under **Settings > Social Profiles**, or get a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile shared with you before you can interact on this source.
+
+Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](../social-engagement/add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
+
+Keyword-based searches on the video source continue to reside under the [keywords rule](../social-engagement/add-rules-search-topic.md#add-a-keywords-rule) and now also contain comments for actively discussed video posts. 
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.6
 

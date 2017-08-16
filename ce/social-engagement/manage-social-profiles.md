@@ -106,7 +106,7 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
   
 3.  In the list, click  **Instagram Account,** and then click **Add.**  
   
-4.  In the authentication dialog box, enter the user name and password for the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile you want to enable in Social Engagement.  
+4.  In the authentication dialog box, enter the user name and password for the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
 5.  Upon successful authentication, you'll find the profile on the  **Social Profiles** page, under **Owned profiles**.  
   
@@ -122,6 +122,18 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
 4.  In the authentication dialog box, enter the user name and password for the  LinkedIn profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
 5.  After successful authentication,  you’ll find the profile on the **Social Profiles** page under **Owned profiles**.  
+
+## Add a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile
+
+1.  Go to **Settings** > **Social Profiles**.  
+  
+2.  Click the **Add social profile**  button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+  
+3.  In the list, select **[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] Account,** and then click **Add.**
+  
+4.  In the authentication dialog box, enter the user name and password for the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+  
+5.  Upon successful authentication, you'll find the profile on the  **Social Profiles** page, under **Owned profiles**.  
   
 <a name="Let_others_work"></a>   
 ## Let other users work with your social profile  
