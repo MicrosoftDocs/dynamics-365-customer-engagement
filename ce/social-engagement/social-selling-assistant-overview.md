@@ -1,7 +1,7 @@
 ---
 title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
 description: "Get an overview on the Social Selling Assistant."
-ms.date: 2017-07-10
+ms.date: 2017-08-07
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -22,9 +22,9 @@ manager: sakudes
 
  Can’t wait to try it out? Make sure have a system administrator or customizer security role in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and take the fast-track to set up and configure the Social Selling Assistant.
   
-### Quick start guide
+## Quick start guide
   
-1.  Install the Social Selling Assistant. Go to [AppSource](https://appsource.microsoft.com/) and **Get** the Social Selling Assistant.  
+1.  Install the Social Selling Assistant. Go to [AppSource](https://go.microsoft.com/fwlink/p/?linkid=838044) and **Get** the Social Selling Assistant.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Install the Social Selling Assistant](https://technet.microsoft.com/library/mt793319\(CRM.8\).aspx)  
   

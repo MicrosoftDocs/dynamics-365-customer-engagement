@@ -1,7 +1,7 @@
 ---
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
-description: "Learn which types of search rules Social Engagement supports and how to add more rules to a search topic to gather additional data."
-ms.date: 2017-07-10
+description: "Learn how to add more rules to a search topic to gather additional data."
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -27,6 +27,7 @@ Search topics consist of one or more search rules and define the data that's ava
 
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
+- **[YouTube rule](#add-a-includetnyoutubeincludestn-youtubemd-rule)** ![YouTube symbol](../social-engagement/media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
   
 > [!TIP]
 >  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
@@ -41,7 +42,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
 >   
 >  Adding a rule usually leads to more posts resulting from your searches. The increased number of posts will count against your post quota. You'll need to validate every search topic that you changed before you can save it. It's a good idea to frequently review the results of a new or updated search topic to confirm that it collects relevant data and complies with your quota limits. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](../social-engagement/manage-post-quota.md)  
   
-#### Add a new rule  
+### Add a new rule  
   
 1.  Go to **Search Setup**.  
   
@@ -66,7 +67,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
 ## Add a keywords rule  
  Create rules from keywords, inclusions, and exclusions, and define the sources and languages that you want the rule to search on. This is the most common way to define a rule in a search topic, and it usually results in a large number of posts.  
   
-#### Add a new keywords rule  
+### Add a new keywords rule  
   
 1.  Go to **Search Setup**.  
   
@@ -158,7 +159,7 @@ Although you can create an unlimited number of search queries per search topic, 
 ## Add a Facebook pages rule  
 Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. Usually, you follow conversations on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page in full context and don’t look at specific posts only. If you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to a search topic, you can make sure that all posts on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page (such as posts from the audience and the page or comments from the page and the audience) are captured for further processing in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-#### Add a new Facebook pages rule  
+### Add a new Facebook pages rule  
   
 1.  Go to **Search Setup**.  
   
@@ -187,7 +188,7 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
 ## Add a Twitter rule  
 Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule to see tweets, mentions, replies, or retweets in a search topic.  
   
-#### Add a new Twitter rule  
+### Add a new Twitter rule  
   
 1.  Go to **Search Setup**.  
   
@@ -242,7 +243,7 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
 > [!IMPORTANT]
 >  If you add a private messages rule,  all private messages that were sent to the selected profile visible in your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
-#### Add a new private messages rule  
+### Add a new private messages rule  
   
 1.  Go to **Search Setup**.  
   
@@ -265,7 +266,7 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
 ## Add a custom sources rule  
 Create rules to gather posts from custom sources, You can also create keyword rules that match keywords in custom source posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule)  
   
-#### Add a new custom sources rule  
+### Add a new custom sources rule  
   
 1.  Go to **Search Setup**.  
   
@@ -280,7 +281,30 @@ Create rules to gather posts from custom sources, You can also create keyword ru
     > [!NOTE]
     >  You can also add multiple custom sources to a custom sources rule in one step by clicking the Add button![Add button](../social-engagement/media/add-icon.png "Add button") next to each profile.  
   
-6.  In the search topic pane, click the **Save** button ![Save button](../social-engagement/media/save-icon.png "Save button") to activate your rule.  
+6.  In the search topic pane, click the **Save** button ![Save button](../social-engagement/media/save-icon.png "Save button") to activate your rule. 
+
+## Add a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rule
+
+Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
+
+> [!NOTE]
+> After adding a new YouTube rule, it may take several hours until the first videos and comments are acquired. The data acquisition of comments is focused on videos with user activity in the last month.
+
+1.  Go to **Search Setup**.  
+  
+2.  Select the search topic you want to add the rule to. Or you can create a new search topic.  
+  
+3.  Under **Rules**, click the **Add new rule** button![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
+  
+4.  Click **YouTube rule**.  
+  
+5.  In the search field, enter the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel name that you want to track or select a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile from the list.
+  
+    > [!NOTE]
+    >  You can also add multiple [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to a rule in one step by clicking the Add![Add button](../social-engagement/media/add-icon.png "Add button") next to each channel.  
+  
+6.  Click **Continue** in the Add Rule pane to add the rule to the search topic.  
+
   
 ## Privacy notices  
 [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
@@ -291,7 +315,6 @@ Create rules to gather posts from custom sources, You can also create keyword ru
 
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
-  
 ### See Also  
 [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
 [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   

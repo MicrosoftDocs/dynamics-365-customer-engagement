@@ -1,16 +1,11 @@
 ---
 title: "Define activity maps in Social Engagement | Microsoft Docs"
 description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
-ms.custom: ""
-ms.date: 2017-06-02
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
-caps.latest.revision: 32
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -72,7 +67,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
 5.  Click **Insights** on the left of the map to view the phrases for the trending conversations.  
   
 > [!NOTE]
->  Posts deleted or edited from any other area of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will have applicable changes reflected in the map you are viewing in real time. For example, if you are viewing a sentiment map for a location that has a post with neutral sentiment value, and you or any other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user edits this post’s sentiment as positive from another application area, say Analytics. Then, the new positive sentiment value will be reflected for this post on the map. You will no longer see the sentiment value as neutral for this post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md "Understand the public perception using sentiment analysis")  
+>  Posts deleted or edited from any other area of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will have applicable changes reflected in the map you are viewing in real time. For example, if you are viewing a sentiment map for a location that has a post with neutral sentiment value, and you or any other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user edits this post’s sentiment as positive from another application area, say Analytics. Then, the new positive sentiment value will be reflected for this post on the map. You will no longer see the sentiment value as neutral for this post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)  
   
 > [!TIP]
 >  Use the buttons at the bottom left of the map to zoom in or zoom out of the map.  
@@ -98,7 +93,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
     >   
     >  When you select a specific sentiment value, for example, Positive, only posts with positive sentiment will be displayed on the map, and the positive sentiment button on the header shows 100%. All KPIs and charts will be filtered per the selection you make on the sentiment filter.  
     >   
-    >  When you select all three of the sentiment values, respective percentages for all the sentiments will be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md "Understand the public perception using sentiment analysis")  
+    >  When you select all three of the sentiment values, respective percentages for all the sentiments will be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)  
   
 ## View and edit posts on activity map  
   

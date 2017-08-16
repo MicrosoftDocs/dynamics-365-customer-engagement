@@ -1,7 +1,7 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-ms.date: 2017-07-10
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -20,7 +20,20 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
-[//]: # (About the verb tenses in these sections: Can a user choose to update to a specific version, or is he compelled to have the latest version if he updates at all? I ask because if the current update is always going to be installed, the "what's new" from all the previous updates should really be past tense. So for the present update, "we've continued..." but for the previous updates, "we addressed service and product improvements with this release..." It's not an important distinction, but I did find the continual present tense from these update descriptions kind of jarring.)
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.7
+
+### Listening and engagement on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]
+
+Get in touch with your audience on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Users with at least a Responder interaction role can now rate and reply to videos and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]. You'll need to add a social profile for [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] under **Settings > Social Profiles**, or get a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile shared with you before you can interact on this source.
+
+Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](../social-engagement/add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
+
+Keyword-based searches on the video source continue to reside under the [keywords rule](../social-engagement/add-rules-search-topic.md#add-a-keywords-rule) and now also contain comments for actively discussed video posts. 
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.6
 
 ### Improved base model for sentiment analysis
@@ -39,10 +52,8 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 ### Service and product improvements
 
-[//]: # (I made a lot of changes here just to keep things more direct and less self-congratulatory. You of course can reject them.)
 We've addressed service and product improvements with this release. For changes we've made to the user experience, please see [this detailed blog post](https://blogs.msdn.microsoft.com/crm/2017/06/09/whats-new-in-microsoft-social-engagement-2017-update-1-5/).
 
-[//]: # (I assume "the Social Selling Assistant" is the true name--or maybe it isn't--but I'm not sure what the full description should be: it's "Social Assistant within Social Engagement" here, "Social Engagement Social Selling Assistant" later, and on AppSource it's "Dynamics 365 - Social Selling Assistant." I'll leave it up to you to name it, but please make it consistent.)
 Additionally, we've continued our ongoing investment to make [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] more accessible. With the current release, Social Selling Assistant within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports keyboard navigation and screen readers on mobile and desktop devices.
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.4
@@ -54,6 +65,7 @@ We've added an Engagement Analytics report to our recently introduced [!INCLUDE[
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Microsoft Social Engagement content pack for Power BI](../social-engagement/get-content-pack-for-power-bi.md) 
 
 [//]: # (Is it called a "card" throughout MSE content?)
+[//]: # (Michael to check for consistency and suggest changes if needed.)
 ### Improved usability in Social Selling Assistant
 
 The Social Selling Assistant user experience got its first polishing pass, and now the **Done** button appears next to the other actions at the bottom of the card. 
