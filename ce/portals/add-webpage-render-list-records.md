@@ -58,7 +58,7 @@ When creating or editing a Web Page, an Entity List can be specified in the look
 
 The Options tab on the form contains a text area that you can enter custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]; if your page includes jQuery library, you can use that here as well. The script block will be added at the bottom of the webpage just before the page’s closing form tag.
 
-![Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] example](media/custom-javascript-example.png "Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] example")  
+![Custom JavaScript example](media/custom-javascript-example.png "Custom JavaScript example")  
 
 The list gets its data asynchronously and when it is complete it will trigger an event "loaded" that your custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] can listen for and do something with items in the grid. The following is a trivial example:
 ```

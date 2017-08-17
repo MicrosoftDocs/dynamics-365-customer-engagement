@@ -2,7 +2,7 @@
 title: "Create web roles for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create web roles for a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 08/17/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -64,7 +64,7 @@ After your portal is created and provisioned, you can change the details of your
 4.  Click the **Update [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** button. In the dialog, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
 5.  Click the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
 
-![Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance](media/change-dynamics-365-instance.png "Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance")  
+![Change Dynamics 365 instance](media/change-dynamics-365-instance.png "Change Dynamics 365 instance")  
 
 ### See also
 
