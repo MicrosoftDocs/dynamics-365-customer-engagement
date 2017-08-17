@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Best practices for KPIs in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the best practices for KPIs to run smooth games in Dynamics 365 – Gamification while providing visibility and transparency to players and fans."
 ms.custom: ""

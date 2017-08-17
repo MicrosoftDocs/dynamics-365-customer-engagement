@@ -1,4 +1,4 @@
-﻿---
+---
 title: "View the leaderboard in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how you can find out about your ranking in the games you participate."
 ms.custom: ""
