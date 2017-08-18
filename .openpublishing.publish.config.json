@@ -8,7 +8,6 @@
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -17,6 +16,7 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
+      "moniker_groups": [],
       "version": 0
     },
     {
@@ -25,14 +25,14 @@
       "build_output_subfolder": "customer-engagement-dev",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "op"
+      "build_entry_point": "op",
+      "moniker_groups": []
     }
   ],
   "notification_subscribers": [],
@@ -47,5 +47,11 @@
       "branch_mapping": {}
     }
   ],
-  "need_generate_pdf_url_template": false
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ]
+  },
+  "need_generate_pdf_url_template": true
 }
