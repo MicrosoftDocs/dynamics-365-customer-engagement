@@ -32,7 +32,12 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
   
  In the **New Hosted Control** screen:  
   
--   Under **Unified Service Desk** area, select **CRM Page** from the **USD Component Type** drop-down list.  
+-   Under **Unified Service Desk** area, select **CRM Page** from the **USD Component Type** drop-down list.
+
+-   Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity
+information is populated in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client
+application. This could help agents instantly act or kick start discussion with
+customers, and save crucial interaction time.
   
 -   From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
   
@@ -266,6 +271,13 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |---------------|-----------------|  
 |url|The URL of the page that has finished loading.|  
   
+### DataReady
+Occurs as soon as the related information for an entity
+record is loaded in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context. This event occurs before the **BrowserDocumentComplete** event. If the **Pre-Fetch Data** option is selected for the control instance then this event occurs as
+soon as the entity data is fetched in a separate parallel call to the server and
+will not wait for the full page to finish loading. The entity data is pre-fetched
+and the **DataReady** event is fired for inline navigations as well.
+
 ### PageLoadComplete  
  Occurs any time when a frame has completed loading. This event can occur multiple times per page load when an iFrame or frame is used on the page. This event corresponds to the individual **BrowserDocumentComplete** events in code.  
   

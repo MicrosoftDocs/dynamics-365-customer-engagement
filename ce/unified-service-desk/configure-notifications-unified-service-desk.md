@@ -23,10 +23,9 @@ Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-uni
   
  Notifications support [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] actions, events, and replacement parameters for you to define popup messages that appear when particular events occur, interact with other hosted controls, and display contextual information from a session. You can define multiple notifications to appear at the same time. You can define the position where the notification can be displayed in the agent application, and the timeout information after which the notification automatically disappears.  
   
- Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.  
-  
-> [!NOTE]
->  This feature was introduced in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] 2.2 release.  
+ Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.
+
+You can use use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
   
 <a name="Define"></a>   
 ## Define layout and behavior of notification using forms  
@@ -133,6 +132,7 @@ Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-uni
            HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"   
            Grid.Column="1" Text="{Binding TimeoutProperty}" FontFamily="Calibri" />  
 ```  
+
   
 ### Sample XAML for notification  
  The following sample XAML displays a notification based on the max number of sessions value configured in the replacement parameter for your instance, and displays a notification when you reach the session limit.  
@@ -185,9 +185,19 @@ BorderBrush="Blue" BorderThickness="1">
 ## Show notifications using Popup Notification control  
  Use predefined actions for the `Popup Notification` control to show, hide and close a notification message.  
   
- Using the `Show` action, you can specify the form name to display, the position on the screen where you want the notification message to be displayed, and the time duration for the notification to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined UII Actions](../unified-service-desk/popup-notification-hosted-control.md#Actions).  
-  
- Use predefined events for the `Popup Notification` control to respond to user actions performed in the notification message as explained earlier. You can also add additional actions for an event that gets executed when the event occurs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined Events](../unified-service-desk/popup-notification-hosted-control.md#events).  
+ Using the `Show` action, you can specify the form name to display, the position on the screen where you want the notification message to be displayed, and the time duration for the notification to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined UII Actions](../unified-service-desk/popup-notification-hosted-control.md#Actions).
+
+ Use predefined events for the `Popup Notification` control to respond to user actions performed in the notification message as explained earlier. You can also add additional actions for an event that gets executed when the event occurs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined Events](../unified-service-desk/popup-notification-hosted-control.md#events). 
+
+<a name="Consume"></a>
+## Consume event parameters in the form used for notifications
+The form used in the `Show` action of the Popup Notification control can also consume parameters of the event that triggered the `Show` action call.
+
+Action calls in Unified Service Desk can use event parameters as replacement parameters in the action data . To make some or all of these event parameters available in the form XAML, you can add additional parameters in the `Show` action other than the pre-defined ones. For example, one extra `Show` action parameter can be added as:
+ 
+`Param1 = [[EventParam1]+]` where `EventParam1` is one of the parameters of the event that triggered the `Show` action call.
+
+The added custom parameter can be used in the form XAML as replacement parameter like any other replacement parameter. In the above example, `[[Param1]]` can be used in the form XAML to show some data. 
   
 <a name="Multiple"></a>   
 ## Multiple notification controls  

@@ -147,7 +147,8 @@ statecode=Completed
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`LogicalName`|The logical name of the entity to create|  
+|`LogicalName`|The logical name of the entity to create the record.| 
+|`RunAsync`|Set this to **True** to create the entity record asynchronously so that Unified Service Desk is not blocked and remains responsive during the action execution.<br/><br/>**Note**: The associated sub-action calls and subsequent action calls for the **CreateEntity** action do not wait for the asynchronous create operation to complete. So, you must ensure that if you are running the **CreateEntity** action asynchronously, the sub-action calls that depend on the created record are configured to execute only when the target record is complete. This can be achieved using the **ExecuteOnDataAvailable** action on the Global Manager hosted control.| 
   
  Each subsequent line in the parameter list contains a series of Name=Value pairs that will define your other fields to populate on create.  
   

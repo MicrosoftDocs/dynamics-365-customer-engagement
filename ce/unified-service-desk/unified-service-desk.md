@@ -30,8 +30,8 @@ manager: "amyla"
 
 Start here:
 
-- [Overview of Unified Service Desk](overview-unified-service-desk.md)
-- [Install, deploy, and upgrade Unified Service Desk](install-upgrade-deploy-unified-service-desk.md)
+- [Overview of Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md)
+- [Install, deploy, and upgrade Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
 - [Understand Unified Service Desk Concepts](understand-unified-service-desk-concepts.md)    
  
 ### Reference  

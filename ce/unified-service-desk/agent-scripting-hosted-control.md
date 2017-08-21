@@ -26,7 +26,8 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 ## Create an Agent Scripting hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Agent Scripting** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
   
- ![Agent scripting hosted control](../unified-service-desk/media/usd-agent-scripthostedcontrol.PNG "Agent scripting hosted control")  
+  <!-- Missing graphic below-->
+ <!-- ![Agent scripting hosted control](../unified-service-desk/media/usd-agent-scripthostedcontrol.PNG "Agent scripting hosted control")  -->
   
  In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **USD Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
   

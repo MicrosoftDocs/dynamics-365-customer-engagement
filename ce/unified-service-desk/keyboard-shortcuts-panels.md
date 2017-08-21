@@ -15,18 +15,15 @@ ms.author: "kvivek"
 # Keyboard shortcuts for panels in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] now lets you cycle through all the active panels using a predefined keyboard shortcut and also define keyboard shortcuts to directly access individual panels in the panel layout.  
   
-> [!NOTE]
->  This feature was introduced in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] 2.2.1.  
+  
   
 <a name="traverse"></a>   
 ## Keyboard shortcut to traverse through panels  
- Use the CTRL+0 keyboard shortcut to cyclically traverse through all the active panels in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. You cannot change this keyboard combination.  
+ Use the Ctrl+0 (default) keyboard shortcut to cyclically traverse through all the active panels in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. To change the default shortcut key, use the **PanelNavigationShortcut** UII option to specify shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
   
  Some key points to consider while using the shortcut key to traverse through panels are:  
   
 -   The standard order of traversal is left to right and top to bottom.  
-  
--   The keyboard shortcut, CTRL+0, is pre-configured and you cannot change it to use any other key combination.  
   
 -   You cannot traverse to any visible panel that has no actionable control inside it.  
   
@@ -40,13 +37,13 @@ ms.author: "kvivek"
   
  You must also set the `Focusable` attribute to `True` in the panel element definition for which you are defining the shortcut. Otherwise, you won't be able to access the panel using the assigned keyboard shortcut even after defining it in the panel layout XAML.  
   
- The following example demonstrates how to assign the CTRL+8 keyboard shortcut to the right panel in your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] custom panel layout XAML definition:  
+ The following example demonstrates how to assign the Ctrl+8 keyboard shortcut to the right panel in your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] custom panel layout XAML definition:  
   
 ```xaml  
 <USD:USDTabPanel x:Name="RightPanel"  
                  AutomationProperties.Name="Right Panel"  
                  Grid.Row="0"  
-                 USD:PanelNavigation.KeyboardShortcut="CTRL+8"  
+                 USD:PanelNavigation.KeyboardShortcut="Ctrl+8"  
                  Focusable="True"/>  
 ```  
   
@@ -55,7 +52,7 @@ ms.author: "kvivek"
   
 <a name="considerations"></a>   
 ## Things to consider while using keyboard shortcut for panel  
- Any key combination that is used by [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] (for example Ctrl+S) or general Windows operations (such as Ctrl+C, CTRL+V) can cause conflicts with keyboard shortcuts that you assign to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panels.  
+ Any key combination that is used by [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] (for example Ctrl+S) or general Windows operations (such as Ctrl+C, Ctrl+V) can cause conflicts with keyboard shortcuts that you assign to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panels.  
   
  Therefore, as a developer or customizer, the foremost thing is to identify and assign  keyboard shortcuts to panels that do not conflict with [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] or Windows. Also, ensure that you do not assign duplicate keyboard shortcut to panels that conflict within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In case of a duplicate keyboard shortcut, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will set the keyboard shortcut  for the panel as the active shortcut key that was registered earlier during the execution sequence. Further, information about duplicate shortcut key is logged in the `UnifiedSeviceDesk.log` file (typically available at c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\*\<Version>*), which can be used by developers and customizers to resolve the duplicate keyboard shortcut issue in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration.  
   

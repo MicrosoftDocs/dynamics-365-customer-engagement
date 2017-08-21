@@ -1,7 +1,7 @@
 ---
 title: "WebDDA | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-31"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -46,7 +46,7 @@ The Web data-driven adapter (WebDDA) provides access to HTML-based applications.
   
 -   [FindIEFrame](../unified-service-desk/find-ie-frame.md)  
   
--   [WebDDA Events](../unified-service-desk/we-bdda-events.md)  
+-   [WebDDA Events](../unified-service-desk/web-dda-events.md)  
   
 ### See also  
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)   

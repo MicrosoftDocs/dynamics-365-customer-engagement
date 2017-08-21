@@ -59,5 +59,5 @@ Use **Session Lines** type of hosted control to configure session overview infor
 ### See also  
  [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)   
  [Session Tabs (Hosted Control)](../unified-service-desk/session-tabs-hosted-control.md)   
- [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md)   
+ [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)
