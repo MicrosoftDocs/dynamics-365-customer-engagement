@@ -11,8 +11,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "**/_themes.pdf/**"
+          "ThirdPartyNotices"
         ]
       }
     ],
