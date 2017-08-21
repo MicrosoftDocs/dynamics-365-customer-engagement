@@ -30,7 +30,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+    },
     "fileMetadata": {
       "breadcrumb_path": {
         "gamification/**.*": "bc/toc.yml",
