@@ -1,7 +1,7 @@
 ---
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
-ms.date: 2017-08-08
+ms.date: 08/22/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -10,6 +10,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Add rules to a search topic
 Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.
 
@@ -28,6 +29,8 @@ Search topics consist of one or more search rules and define the data that's ava
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
 - **[YouTube rule](#add-a-includetnyoutubeincludestn-youtubemd-rule)** ![YouTube symbol](../social-engagement/media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
+
+- **[LinkedIn page rule](#linkedin-page-rule)**: Gather posts from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
   
 > [!TIP]
 >  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
@@ -305,6 +308,27 @@ Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtub
   
 6.  Click **Continue** in the Add Rule pane to add the rule to the search topic.  
 
+<a name="linkedin-page-rule"></a> 
+## Add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page rule
+
+Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages that you administer.
+
+1. Go to **Search Setup**.  
+  
+2. Select the search topic you want to add the rule to. Or you can create a new search topic.  
+  
+3. Under **Rules**, select the **Add new rule** button![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
+  
+4. Select **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page rule**.  
+  
+5. Select the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you want to keep track of, and then select **Add** to add them to the search rule.    
+  
+   > [!NOTE]
+   > You need to have [organization pages added to your social profiles](./manage-social-profiles.md#linkedin-page-profile) to add them to a rule.  
+  
+6. Select **Continue** in the **Add Rule** pane to add the rule to the search topic.
+
+7. In the **Search Topic** pane, select **Save** to apply the changes and start data acquisition.
   
 ## Privacy notices  
 [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  

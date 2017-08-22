@@ -27,6 +27,8 @@ For important, late-breaking information and a list of known issues, see the [So
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now lets you search for all posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. You can add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. After a page admin has added the social profile and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Add a LinkedIn Page rule](./add-rules-search-topic.md#linkedin-page-rule)
+
 ### Service and product improvements
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).

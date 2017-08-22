@@ -1,7 +1,7 @@
 ---
 title: "Manage social profiles | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
-ms.date: 2017-08-07
+ms.date: 08/22/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -115,19 +115,40 @@ In [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], social profi
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click the **Add**  button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+2.  Click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
   
 3.  In the list, click **LinkedIn Account**, and then click **Add**.  
   
-4.  In the authentication dialog box, enter the user name and password for the  LinkedIn profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box, enter the user name and password for the LinkedIn profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
 5.  After successful authentication,  you’ll find the profile on the **Social Profiles** page under **Owned profiles**.  
+
+<a name="linkedin-page-profile"></a> 
+## Add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page as a social profile
+Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data and reply or like on behalf of a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you need to add the organization page to your social profiles. To authenticate the organization page as a social profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) of the page on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].
+
+1.  Go to **Settings** > **Social Profiles**.  
+  
+2.  Click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+  
+3.  In the list, click **LinkedIn Page**, and then click **Add**.  
+  
+4.  In the authentication dialog box, authorize [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+    This will list all organization pages you administer.
+  
+5.  Select the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from the list.
+
+6.  Select **Save** to create the social profile.
+
+You can now reply and like on behalf of the organization page, but you can’t write new posts.  
+Optionally, you can [share this social profile](#shareasocialprofile) with other users in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+
 
 ## Add a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile
 
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click the **Add social profile**  button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+2.  Click the **Add social profile** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
   
 3.  In the list, select **[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] Account,** and then click **Add.**
   
