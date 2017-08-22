@@ -1,7 +1,7 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-ms.date: 2017-08-08
+ms.date: 08/22/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -10,6 +10,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Here's a list of features we added recently.
@@ -19,6 +20,16 @@ If you’re new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.8
+
+### Listening and engagement on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
+
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now lets you search for all posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. You can add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. After a page admin has added the social profile and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.7
 
