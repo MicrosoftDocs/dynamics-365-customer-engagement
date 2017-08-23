@@ -1,7 +1,7 @@
 ---
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
-ms.date: 08/22/2017
+ms.date: 08/23/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -76,7 +76,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
   
 2.  Select the search topic that you want to add the rule to. Or, you can create a new search topic.  
   
-3.  Under **Rules**, click the **Add new rule**button ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
+3.  Under **Rules**, click the **Add new rule** button ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
   
 4.  Click **Keywords rule**.  
   
@@ -197,7 +197,7 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and a
   
 2.  Select the search topic you want to add the rule to. Or you can create a new search topic.  
   
-3.  Under **Rules**, click the **Add new rule**button ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
+3.  Under **Rules**, click the **Add new rule** button ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
   
 4.  Click **Twitter rule**.  
   
@@ -252,7 +252,7 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
   
 2.  Select the search topic you want to add the rule to. Or you can create a new search topic.  
   
-3.  Under **Rules**, click the **Add new rule**button ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
+3.  Under **Rules**, click the **Add new rule** button ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
   
 4.  Click **Private messages rule**.  
   
