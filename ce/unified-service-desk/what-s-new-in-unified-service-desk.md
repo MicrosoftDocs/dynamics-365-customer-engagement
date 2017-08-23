@@ -77,7 +77,7 @@ More information: [CreateEntity](global-manager-hosted-control.md#createentity) 
     active panels, Ctrl+0, couldn’t be changed to use any other key combination.
     Now, you can specify shortcut keys of your choice to cyclically traverse
     through all the active panels using the new UII option called
-    **PanelNavigationShortcut**.
+    **PanelNavigationShortcut**. More information: [Keyboard shortcuts for panels](keyboard-shortcuts-panels.md)
 
 ### Debugger control enhancements
 
@@ -116,19 +116,18 @@ and configuration changes more easily:
 Windows screen reader for speech output in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client. All
 the controls that are part of the [!INCLUDE[pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] Web Client package are [!INCLUDE[pn-jaws](../includes/pn-jaws.md)]
 compliant.
+For the custom controls that you develop as part of the solution package, you need to define the necessary properties to make the controls JAWS compliant.
 
 You can configure [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader support for controls that are focusable.
-[!INCLUDE[pn-jaws](../includes/pn-jaws.md)] does not support controls that are non focusable, such as a label. However,
+By design of the product, the tab position does not focus the non-focusable controls. Hence,
+[!INCLUDE[pn-jaws](../includes/pn-jaws.md)] does not read controls that are non focusable, such as text block, image, and labels. However,
 as a workaround, you can create the non-focusable control as a user control
 (wrap it with \<UserControl\>) to support [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader.
 
-Also, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader doesn’t support reading button tooltip text. But, you
-can use custom scripts in [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] to enable [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to
-read tooltip text.
+Also, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader doesn’t support reading button tooltip text. But, you can create [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] custom scripts and use  in [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] to enable [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to read tooltip text.
 
 More information: [Configure JAWS screen reader support](configure-jaws-screen-reader-support.md)
-  
-  
+
 ### See also  
  [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)   
  
