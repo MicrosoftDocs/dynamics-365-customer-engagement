@@ -1,0 +1,1 @@
+For more information about the requirements for running the sample code provided in this SDK, see [Use the sample and helper code](../developer/use-sample-helper-code.md).
