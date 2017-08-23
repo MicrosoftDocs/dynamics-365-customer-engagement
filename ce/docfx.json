@@ -19,7 +19,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,22 +30,31 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+    },
     "fileMetadata": {
       "breadcrumb_path": {
         "gamification/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
-        "portals/**.*": "bc/toc.yml"
+        "portals/**.*": "bc/toc.yml",
+        "linkedin/**.*": "bc/toc.yml",
+        "sales-business/**.*": "bc/toc.yml",
+        "unified-service-desk/**.*": "bc/toc.yml"
       },
-      "searchScope":{
-        "voice-of-customer/**.*":["Voice of the Customer"],
-        "gamification/**.*":["Gamification"],
-        "social-engagement/**.*":["Social Engagement"],
-        "portals/**.*":["Portals"]
+      "searchScope": {
+        "voice-of-customer/**.*": [ "Voice of the Customer" ],
+        "gamification/**.*": [ "Gamification" ],
+        "social-engagement/**.*": [ "Social Engagement" ],
+        "portals/**.*": [ "Portals" ],
+        "linkedin/**.*": [ "LinkedIn" ],
+        "sales-business/**.*": [ "Sales-Business edition" ],
+        "unified-service-desk/**.*": [ "Unified Service Desk" ]
       }
     },
     "template": [],
+    "xref": ["_zip/dyn365-dotnet.zip"],
     "dest": "customer-engagement"
   }
 }
