@@ -17,9 +17,9 @@ ms.author: "kvivek"
   
  With Unified Service Desk 2.2.1 release, diagnostic logging for predefined hosted control types has been enhanced to provide rich information about an exception or error, such as the source where the error occurred (hosted control name, hosted control type, session ID) and detailed information about the error along with the stack trace. The rich diagnostic information greatly improves in quickly identifying and troubleshooting issues in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
- You can leverage the same enhanced diagnostic logging capabilities available in the predefined hosted controls for your custom controls by using [LogException Method](http://msdn.microsoft.com/en-us/5edb0aeb-d7dc-4437-8de4-c623f24af589) in your custom control code to provide rich information about the exception (if it occurs) so that its easier to identify if the issue is caused by your custom code or some other control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ You can leverage the same enhanced diagnostic logging capabilities available in the predefined hosted controls for your custom controls by using [LogException Method](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.logexception) in your custom control code to provide rich information about the exception (if it occurs) so that its easier to identify if the issue is caused by your custom code or some other control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
- [LogException Method](http://msdn.microsoft.com/en-us/5edb0aeb-d7dc-4437-8de4-c623f24af589) is overloaded, and internally uses [DynamicsLogger](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicslogger) to provide rich diagnostic information for exceptions in your custom control. Use one of the following two signatures to use this method:  
+ [LogException Method](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.logexception) is overloaded, and internally uses [DynamicsLogger](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicslogger) to provide rich diagnostic information for exceptions in your custom control. Use one of the following two signatures to use this method:  
   
 -   Pass in the exception object and the event type that caused the trace (optional). If you do not specify the event type, by default `Error` trace event type is passed:  
   
@@ -33,7 +33,7 @@ ms.author: "kvivek"
     LogException(string errorMessage, TraceEventType eventType, Exception ex);  
     ```  
   
- Here is an example of the diagnostic information as a result of using [LogException Method](http://msdn.microsoft.com/en-us/5edb0aeb-d7dc-4437-8de4-c623f24af589) where detailed information about the source (session ID, hosted control name and type) and the exception detail is logged:  
+ Here is an example of the diagnostic information as a result of using [LogException Method](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol.logexception) where detailed information about the source (session ID, hosted control name and type) and the exception detail is logged:  
   
 ```  
 Exception raised in :  Session ID : d14893b0-6859-4827-9ddc-949d3fd36854 - Application : DemoControl - USD Component Type : USDHostedControl - Hosting Type : USD Hosted Control - Display Group : MainPanel -   

@@ -1,7 +1,7 @@
 ---
 title: "WebDDA Events | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-31"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -48,9 +48,9 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
 |`button`|Code of the button that was pressed (for example, the Enter key code is 13).|  
   
 ## In this Topic  
- [Control Events](../unified-service-desk/we-bdda-events.md#BKMK_Control)  
+ [Control Events](../unified-service-desk/web-dda-events.md#BKMK_Control)  
   
- [Page Events](../unified-service-desk/we-bdda-events.md#BKMK_pageevents)  
+ [Page Events](../unified-service-desk/web-dda-events.md#BKMK_pageevents)  
   
 <a name="BKMK_Control"></a>   
 ## Control Events  

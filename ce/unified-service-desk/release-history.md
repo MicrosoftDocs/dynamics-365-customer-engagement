@@ -30,7 +30,7 @@ With [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)]
 Content for earlier version of Unified Service Desk continues to be available on [TechNet](https://technet.microsoft.com/library/dn499779.aspx) and [MSDN](https://msdn.microsoft.com/library/dn864923.aspx).
 
 ### Related Topics
-[What's new for Administrators](whats-new-unified-service-desk-administrators.md)
+[What's new for Administrators](../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md)
 
 [What's new for Developers](what-s-new-in-unified-service-desk.md) 
 

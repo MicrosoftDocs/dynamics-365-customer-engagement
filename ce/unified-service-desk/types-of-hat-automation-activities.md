@@ -1,7 +1,7 @@
 ---
 title: "Types of HAT automation activities in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-31"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -112,7 +112,7 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
 -   `Password`:  Password.  
   
 > [!NOTE]
->  To retrieve the credentials from a custom store, the developer needs to provide a class that implements the <xref:Microsoft.Uii.AifServices.ISsoLookupService> interface.  
+>  To retrieve the credentials from a custom store, the developer needs to provide a class that implements the [Microsoft.Uii.AifServices.ISsoLookupService](https://docs.microsoft.com/dotnet/api/Microsoft.Uii.AifServices.ISsoLookupService) interface.  
   
  `HostApplication`  
  Hosts the UI of the application. It uses the **Application Hosting** configuration data specified while configuring the hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server to determine the hosting mode. For more information about specifying the hosting mode for an application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-and-manage-uii-hosted-applications.md).  
@@ -128,7 +128,7 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
   
 -   `Log data`: Value of the audit flag value.  
   
- For information about various audit flags in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure auditing in Unified Service Desk](http://go.microsoft.com/fwlink/p/?LinkId=518153) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.  
+ For information about various audit flags in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure auditing and diagnostics in Unified Service Desk](../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md).  
   
  `ControlFinder`  
  Locates a control in the hosted application. The action returns `True` if the control is found in the `ControlFound` property; otherwise, returns `False`. You can set the `ExceptionsMask` property if you want to use the exception handler to execute depending activities. This action has the following properties:  
@@ -202,7 +202,7 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
  `ConfigReader`  
  Reads a configuration value from within the automation. This activity will either read configuration from the **Option** settings in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] or the application configuration file. This action has the following properties:  
   
--   `OptionKey` as string: Used to read the **Option** setting from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about various options, see [Manage Options for Unified Service Desk](https://technet.microsoft.com/library/dn864946.aspx).  
+-   `OptionKey` as string: Used to read the **Option** setting from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about various options, see [Manage Options for Unified Service Desk](../unified-service-desk/admin/manage-options-unified-service-desk.md).  
   
 -   `XPath` as string: Used to read the application configuration file.  
   

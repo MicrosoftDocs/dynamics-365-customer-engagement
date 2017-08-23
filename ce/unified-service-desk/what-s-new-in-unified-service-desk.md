@@ -27,49 +27,34 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
  
 Developers and customizers will be able to use the following new features in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] 3.0 release.
 
-### Display customer data faster to your agents by pre-fetching entity data from [!INCLUDE[pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] Customer Enagement
+### Display customer data faster to your agents by pre-fetching entity data from Customer Engagement
 
 [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] now lets you load related information for an entity record
 in the context along with the entity record page without having to wait for the
 full entity web page to load in the client application. The fetched entity
 information is populated in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context thus enabling any
 hosted control to quickly display relevant entity information on the client
-application. This could help agents instantly act or kick start discussion with
-customers, and save crucial interaction time.
+application. Use the new **Pre-Fetch Data** check box while configuring a **CRM Page** type of hosted control. 
 
-To pre-fetch entity data in [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], select the **Pre-Fetch Data**
-check box while configuring a **CRM Page** type of hosted control. Also, a new
-event called **DataReady** is added to the **CRM Page** type of hosted control
+Also, a new event called **DataReady** is added to the **CRM Page** type of hosted control
 to help you perform actions as soon as the related information for an entity
-record is loaded in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context. This **DataReady** event
-is guaranteed to be fired before the **BrowserDocumentComplete** event and if
-**Pre-Fetch Data** attribute is checked for the control, then it is fired as
-soon as the entity data is fetched in a separate parallel call to the server and
-will not wait for the full page to finish loading The entity data is pre-fetched
-and **DataReady** event is fired for inline navigations as well.
+record is loaded in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context. 
+
+More information: [CRM Page (Hosted Control)](crm-page-hosted-control.md)
+
 
 ### Asynchronously create entity records to prevent execution blocking
 
-The
-[CreateEntity](global-manager-hosted-control.md#createentity)
-action on the Global Manager hosted control synchronously creates an entity
+The **CreateEntity** action on the Global Manager hosted control synchronously creates an entity
 record on the main thread, and [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] has to wait for the
-CreateEntity action to complete before proceeding with the next task. This leads
-to [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] becoming unresponsive until the action is completed,
-which might not be desirable in some cases.
+**CreateEntity** action to complete before proceeding with the next task. This leads
+to [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] becoming unresponsive until the action is completed, which might not be desirable in some cases.
 
 In this release, we are introducing a new data parameter, **RunAsync**, for the
-**CreateEntity** action that you can use to set the action to run asynchronously
-(RunAsync=true) so that [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] is not blocked and remains
+**CreateEntity** action that you can use to set the action to run asynchronously so that [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] is not blocked and remains
 responsive during the action execution.
 
-**Note**: The associated sub-action calls and subsequent action calls for the
-**CreateEntity** action do not wait for the asynchronous create operation to
-complete. So, you must ensure that if you are running the **CreateEntity**
-action asynchronously, the sub-action calls that depend on the created record
-are configured to execute only when the target record is complete. This can be
-achieved using the **ExecuteOnDataAvailable** action on the Global Manager
-hosted control. For more information, see the **CreateEntity** action.
+More information: [CreateEntity](global-manager-hosted-control.md#createentity) action
 
 ### Keyboard shortcuts for toolbar buttons, notifications, and panel navigation
 
@@ -78,7 +63,7 @@ hosted control. For more information, see the **CreateEntity** action.
     against the toolbar button from anywhere in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client
     without having to click it. Shortcut keys for a toolbar button work only if
     the visible and enable conditions for the button, ancestor buttons (if any),
-    and the toolbar itself evaluate to true.
+    and the toolbar itself evaluate to true. More information: [Toolbars in Unified Service Desk](toolbars-unified-service-desk.md)
 
 -   [Notifications](configure-notifications-unified-service-desk.md) in
     [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] now support keyboard shortcuts. Use the default
@@ -140,8 +125,10 @@ as a workaround, you can create the non-focusable control as a user control
 Also, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader doesn’t support reading button tooltip text. But, you
 can use custom scripts in [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] to enable [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to
 read tooltip text.
+
+More information: [Configure JAWS screen reader support](configure-jaws-screen-reader-support.md)
   
   
 ### See also  
- [What’s New in Unified Service Desk for administrators](whats-new-unified-service-desk-administrators.md)   
+ [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)   
  
