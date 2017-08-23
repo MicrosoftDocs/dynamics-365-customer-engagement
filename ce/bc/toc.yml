@@ -55,3 +55,7 @@
   - name: Unified Service Desk
     tocHref: /dynamics365/customer-engagement/unified-service-desk/
     topicHref: /dynamics365/customer-engagement/unified-service-desk/index
+    items:
+        - name: Sample Unified Service Desk applications
+          tocHref: /dynamics365/customer-engagement/unified-service-desk/admin/
+          topicHref: /dynamics365/customer-engagement/unified-service-desk/admin/sample-unified-service-desk-applications
