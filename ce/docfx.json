@@ -50,7 +50,8 @@
         "portals/**.*": [ "Portals" ],
         "linkedin/**.*": [ "LinkedIn" ],
         "sales-business/**.*": [ "Sales-Business edition" ],
-        "unified-service-desk/**.*": [ "Unified Service Desk" ]
+        "unified-service-desk/**.*": [ "Unified Service Desk" ],
+        "developer/online-management-api/**.*": [ "Online Management API" ]
       }
     },
     "template": [],
