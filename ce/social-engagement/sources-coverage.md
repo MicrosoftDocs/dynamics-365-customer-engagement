@@ -2,7 +2,7 @@
 title: "Sources coverage | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 08/25/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
@@ -15,6 +15,7 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Find out what&#39;s covered by sources
 
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can track public posts, and publish messages and replies. All sources can be filtered in Analytics for an up close look at your data. Find out what is covered with the following available sources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md), [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
@@ -61,6 +62,10 @@ After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account t
 > [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. #Hashtags are mandatory to search Instagram accounts with keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)
 
 To add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] rule, see [Add an Instagram rule](../social-engagement/add-rules-search-topic.md#instagram_rule).
+
+## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
+
+Create [LinkedIn page rules](add-rules-serach-topic.md#linkedin-page-rule) to gather posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. After a page admin has added the social profile and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## News
 
