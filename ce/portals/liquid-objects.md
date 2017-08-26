@@ -154,7 +154,7 @@ An ad placement is an entity object, with all of the same attributes, in additio
 | image| Returns the image object (if any) for the ad.|
 | Name| Returns the Name field for the ad.|
 | open\_in\_new\_window | Returns true if the URL specified by redirect\_url should open in a new window. |
-| redirect\_url| The URL that the user will be directed to by clicking on the ad.|
+| redirect\_url| The URL that the user will be directed to by selecting the ad.|
 
 ### **Ad Image attributes**
 
@@ -1398,7 +1398,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 | is\_sitemap\_current        | Returns true if the weblink's URL references the current sitemap node, otherwise false. |
 | Name                        | The name/title of the web link.                                                                                                                |
 | Nofollow                    | Boolean attribute indicating whether the web link should be marked as rel="nofollow".                                                          |
-| open\_in\_new\_window       | Boolean attribute indicating whether the web link should be opened in a new browser window/tab when clicked.                                   |
+| open\_in\_new\_window       | Boolean attribute indicating whether the web link should be opened in a new browser window/tab when selected.                                   |
 | Tooltip                     | Tooltip text for the web link.                                                                                                                 |
 | url                         | The URL of the web link.                                                                                                                       |
 | Weblinks                    | The array of child web link objects associated with the web link.                                                                              |

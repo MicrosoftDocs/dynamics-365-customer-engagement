@@ -21,11 +21,11 @@ Use shortcuts to place child nodes throughout your portal's sitemap that simply 
 Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**. 
-2. Navigate to **Portals** &gt; **Shortcuts**. 
-3. To create a Shortcut: Click **New**. 
-4. To edit an existing Shortcut: Double-click the existing **Shortcut** listed in the grid. 
+2. Go to **Portals** &gt; **Shortcuts**. 
+3. To create a shortcut: Select **New**. 
+4. To edit an existing Shortcut: Double-click to select the existing **Shortcut** listed in the grid. 
 5. Enter values for the fields provided. 
-6. Click **Save & Close**
+6. Select **Save & Close**
 
 ### Attributes and relationships
 

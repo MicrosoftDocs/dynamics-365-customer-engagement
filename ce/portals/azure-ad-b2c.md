@@ -47,7 +47,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 9.	Select **Token, session & SSO config**.
 10.	From the **Issuer (iss) claim** list, select the URL that has **/tfp** in its path.
 11.	Save the policy.
-12.	Click the URL in the **Metadata endpoint for this policy** field.
+12.	Select the URL in the **Metadata endpoint for this policy** field.
 13.	Copy the value of the issuer field and enter it as the value of Policy-Signin-URL in the preceding table. 
 
 ## Portal configuration

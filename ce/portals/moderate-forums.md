@@ -35,33 +35,33 @@ For portal users with moderation permission, moderation controls will automatica
 
 ### Delete an entire forum thread
 
-1. Click **Delete** on the admin toolbar.  
-2. Select Yes on the pop up “Delete this thread?”
+1. Select **Delete** on the admin toolbar.  
+2. In the **Delete this thread?** pop-up window, select **Yes**.
 
 ![Delete a forum thread](media/delete-forum-thread.png "Delete a forum thread")  
 
 ### Edit the forum thread
 
-1. Click **Edit** on the admin toolbar
-2. Make the changes you want in the pop up “Edit Thread”
-3. Click **Save**
+1. Select **Edit** on the admin toolbar.
+2. Make the changes you want in the **Edit Thread** pop-up window.
+3. Select **Save**.
 
 ![Edit a forum thread](media/edit-forum-thread.png "Edit a forum thread")
 
 ### Delete a forum post
 
-1. Click the down arrow next to the post you want to delete.
-2. Click **Delete**
-3. Select **Yes** on the pop up “Delete this thread?”
+1. Select the down arrow next to the post you want to delete.
+2. Select **Delete**.
+3. In the **Delete this thread?** pop-up window, select **Yes**.
 
 ![Delete a forum post](media/delete-forum-post.png "Delete a forum post")  
 
 ### Edit a forum post
 
-1. Click **the down arrow next to the post you wish to edit.**
-2. Click **Edit**
-3. Change the desired information in the pop up “Edit this content”
-4. Click **Save**
+1. Select the down arrow next to the post you want to edit.
+2. Select **Edit**
+3. Change the information you want to change in the **Edit this content** pop-up window.
+4. Select **Save**.
 
 ![Edit a forum post](media/edit-forum-post.png "Edit a forum post")
 
@@ -71,17 +71,17 @@ Forum Access Permission is a security rule that can be assigned to a particular 
 
 1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**.
-3. Click **Forum Access Permissions**.
+3. Select **Forum Access Permissions**.
 
 ![Forum access permission](media/forum-access-permission.png "Forum access permission")
 
-To create a new forum access permission, click **New**.
+To create a new forum access permission, select **New**.
 
 ### Edit an existing forum access permission
 
-1. Double-click an existing **Forum Access Permission** listed in the grid.
+1. Double-click to select an existing **Forum Access Permission** listed in the grid.
 2. Specify values for the fields provided.
-3. Click **Save & Close**
+3. Select **Save & Close**.
 
 ![Edit forum access permission](media/edit-forum-access-permission.png "Edit forum access permission")  
 

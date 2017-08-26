@@ -33,7 +33,7 @@ Each OpenID Connect provider also involves registering an application (similar t
 
 To get started, sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
 
-1. Under the **Applications** menu of the directory, click the **Add** button.
+1. Under the **Applications** menu of the directory, select **Add**.
 2. Choose **Add an application my organization is developing**.
 3. Specify a custom **name** for the application and choose the type **web application and/or web API**.
 4. For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
@@ -42,7 +42,7 @@ To get started, sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure
     Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL: http://portal.contoso.com/signin-azure-ad. This corresponds to the **RedirectUri** site setting value
 
 6. Under the **properties** section, locate the **client ID** field. This corresponds to the **ClientId** site setting value.
-7. In the footer menu click the **View Endpoints** button and note the **Federation Metadata Document** field
+7. In the footer menu, select **View Endpoints** and note the **Federation Metadata Document** field
 
 The left portion of the URL is the **Authority** value and is in one of the following formats:
 

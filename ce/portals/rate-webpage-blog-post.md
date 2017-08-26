@@ -22,10 +22,10 @@ Ratings are custom [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] a
 
 1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Go to **Portals**.
-3. Click **Web Pages**.
-4. Double-click the **Web Page** you want.
+3. Select **Web Pages**.
+4. Select the **Web Page** you want.
 5. Set **Enable Ratings** to **Yes**.
-6. Click **Save & Close**.
+6. Select **Save & Close**.
 
 ## Use ratings
 

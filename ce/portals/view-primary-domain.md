@@ -1,6 +1,6 @@
 ---
-title: "View primary domain name in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to view primary domain name for a portal in Dynamics 365."
+title: "View the primary domain name in Dynamics 365 | MicrosoftDocs"
+description: "Instructions to view the primary domain name for a portal in Dynamics 365."
 ms.custom: ""
 ms.date: 08/03/2017
 ms.service: crm-online
@@ -32,7 +32,7 @@ Let’s take the following scenarios:
 To view the primary domain name in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 2.	Go to **Portals** > **Website** > **Websites**.
-3.	Click the website for which you want to see the primary domain name.
+3.	Select the website for which you want to see the primary domain name.
 4.	View the name stored in the **Primary Domain Name** field under the **General** section.
 
     ![View primary domain name](media/view-primary-domain-name.png "View the primary domain name")  

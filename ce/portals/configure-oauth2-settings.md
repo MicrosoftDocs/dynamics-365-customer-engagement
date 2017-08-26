@@ -37,84 +37,84 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 
 1. Open [Google Developers Console](https://console.developers.google.com/)  
 2. Create an API project or open an existing project
-3. Navigate to**APIs & auth** &gt;**APIs** and under Social APIs, click**Google+ API**, and then click**Enable API**
-5. Navigate to**APIs & auth** &gt;**Consent screen**
-    - Specify an**Email address** 
-    - Specify a custom**Product name** 
-    - Click**Save**
-9. Navigate to**APIs & auth** &gt;**Credentials** and create new Client ID
+3. Go to**APIs & auth** &gt;**APIs**, and under **Social APIs**, select**Google+ API**, and then select**Enable API**
+5. Go to**APIs & auth** &gt;**Consent screen**.
+    - Specify an**Email address**.
+    - Specify a custom**Product name**.
+    - Select**Save**.
+9. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
     - Application Type:**Web application**
     - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
     - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
-    - Click**Create Client ID**
+    - Select **Create Client ID**.
 
 ### Facebook app settings
 
 1. Open [Facebook Developers App Dashboard](https://developers.facebook.com/apps)  
-2. Click**Add a New App**
-3. Select**Website**
-4. Click**Skip and Create App ID**
-    - Specify a**Display Name** 
-    - Select a**Category** 
-    - Click**Create App ID**
+2. Select **Add a New App**.
+3. Select **Website**.
+4. Select **Skip and Create App ID**.
+    - Specify a **Display Name**.
+    - Choose a **Category**.
+    - Select **Create App ID**.
 
-5. While on the Dashboard for the new app, go to**Settings** &gt;**Basic** (tab) and add following details:
+5. While on the dashboard for the new app, go to **Settings** &gt;**Basic** (tab) and add the following details:
     - App Domains (optional): portal.contoso.com 
     - Contact Email: *&lt;email address of your choice&gt;* 
-    - Click**Add Platform** and select**Website** 
+    - Select **Add Platform**, and then select **Website**. 
     - Site URL: http://portal.contoso.com/ or http://portal.contoso.com/signin-facebook
 
-6. Click**Save Changes**
-7. Navigate to**Status & Review** &gt;**Status** tab
-8. Select**Yes** when prompted to make the app and all its features available to the general public.You must have filled in the valid data in Step 5 above to to enable this setting.
+6. Select **Save Changes**.
+7. Go to **Status & Review** &gt; **Status** tab.
+8. Select **Yes** when prompted to make the app and all its features available to the general public. You must have filled in the valid data in Step 5 above to to enable this setting.
 
 ### [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] application settings
 
 1. Open [[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] account Developer Center](https://account.live.com/developers/applications/index)  
-2. Click**Create application** and specify an**Application name**
-3. Click**I accept** to accept Terms and Conditions
-4. Navigate to**Settings** &gt;**API settings** and set redirect URL as http://portal.contoso.com/signin-microsoft 
+2. Select **Create application** and specify an **Application name**.
+3. Select **I accept** to accept Terms and Conditions.
+4. Go to **Settings** &gt;**API settings**, and then set the redirect URL as http://portal.contoso.com/signin-microsoft 
 
 ### Twitter apps settings
 
-1. Open [Twitter Application Management](https://apps.twitter.com/)  
-2. Click**Create New App**
+1. Open [Twitter Application Management](https://apps.twitter.com/). 
+2. Select **Create New App**.
 
-    - Specify a**Name** and**Description** of your app
-    - Set Website URL as http://portal.contoso.com
-    - Set Callback URL as http://portal.contoso.com or http://portal.contoso.com/signin-twitter
+    - Specify a **Name** and **Description** for your app.
+    - Set the Website URL as http://portal.contoso.com.
+    - Set the Callback URL as http://portal.contoso.com or http://portal.contoso.com/signin-twitter.
 
-3. Click**Create your Twitter application**.
+3. Select **Create your Twitter application**.
 
 ### LinkedIn app settings
 
-1. Open [LinkedIn Developer Network](https://www.linkedin.com/secure/developer)  
-2. Click**Add New Application**
+1. Open [LinkedIn Developer Network](https://www.linkedin.com/secure/developer).  
+2. Select **Add New Application**.
 
-    - Specify an**Application Name**,**Description**, etc.
-    - Set Website URL as http://portal.contoso.com
+    - Specify an **Application Name**, **Description**, and so on.
+    - Set Website URL as http://portal.contoso.com.
     - Set OAuth User Agreement/Default Scope: r\_basicprofie and r\_emailaddress
-    - Set OAuth 2.0 Redirect url: http://portal.contoso.com/signin-linkedin
+    - Set OAuth 2.0 Redirect url: http://portal.contoso.com/signin-linkedin.
 
-3. Click**Add Application**
+3. Select **Add Application**.
 
 ### Yahoo! YDN App settings
 
-1. Open [Yahoo! Developer Network](https://developer.yahoo.com/apps)  
-2. Click**Create an App**
+1. Open [Yahoo! Developer Network](https://developer.yahoo.com/apps).
+2. Select **Create an App**.
     
-    - Specify an**Application Name**
-    - Application Type:**Web Application**
+    - Specify an **Application Name**.
+    - Application Type: **Web Application**.
     - Callback Domain: portal.contoso.com
 
-3. Click**Create App**
+3. Select **Create App**.
 
-## Create site settings using OAuth2
+## Create site settings by using OAuth2
 
 The application dashboard for each provider will display the client ID (app ID, consumer key) and client secret (app secret, consumer secret) for each application. Use these two values to configure the portal site settings.
 
 >[!Note]
-> A standard OAuth2 configuration only requires the following settings (choosing Facebook as an example):
+> A standard OAuth2 configuration only requires the following settings (with Facebook as an example):
 > - `Authentication/OpenAuth/Facebook/ClientId`
 > - `Authentication/OpenAuth/Facebook/ClientSecret`
 

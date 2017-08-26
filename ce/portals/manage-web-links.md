@@ -23,7 +23,7 @@ For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the 
 
 ## Manage web links in a portal
 
-To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. To edit a web link set, point to the web link set and click the blue edit button that appears. Drag and drop the move icon to reorder the web links. Click the paper & pencil icon to edit a web link. Click the red minus icon to delete a web link from the set. Click the green plus icon to add a new web link to the set.
+To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. To edit a web link set, point to the web link set and select the blue edit button that appears. Drag and drop the move icon to reorder the web links. Select the paper & pencil icon to edit a web link. Select the red minus icon to delete a web link from the set. Select the green plus icon to add a new web link to the set.
 
 ## Multilevel web link sets
 
