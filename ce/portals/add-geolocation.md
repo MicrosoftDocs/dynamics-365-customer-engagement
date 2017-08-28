@@ -21,18 +21,19 @@ A managed form can be configured to display a map control either to display an e
 
 ![Location data in a form.](media/location-data-form.png "Location data in a form")
 
-If the form or Address Line field is editable and this field is blank, when the page loads it will prompt the user asking if they would like to share their location. If they choose to share their location, the map will be updated with their currently detected location. The user can refine the location of the pin by dragging it. If the user chooses not to share their location, they can manually specify the location in the fields provided, and the mapping service will be queried to find the location and update the latitude and longitude and reposition the pin on the map accordingly.
+If the form or Address Line field is editable and this field is blank, when the page loads it will prompt the user asking if they would like to share their location. If they choose to share their location, the map will be updated with their currently detected location. The user can refine the location of the pin by dragging it. If the user chooses not to share their location, they can manually specify the location in the fields provided and the mapping service will be queried to find the location, update latitude and longitude, and reposition the pin on the map accordingly.
 
 ## Add geolocation
 To add geolocation functionality to a managed form, the following tasks must be completed.
 
 ### Form customization
 Edit the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity form by using the form designer and make the following modifications:
-1. Create a new section and provide an appropriate label, for example, Map. This section will contain the map.
-2. Set the name of the section to "section_map" or a name that ends with "section_map", for example, contoso_section_map. This name is important because the form engine looks for a section with this name to determine when to render a map. 
+[//]: # (In step 5, I deleted "for example" because this seems to be a complete list, not a subset provided as an example.)
+1. Create a new section and provide an appropriate label, for example **Map**. This section will contain the map.
+2. Set the name of the section to **section\_map** or a name that ends with _section\_map_, for example **contoso\_section\_map**. This name is important because the form engine looks for a section with this name to determine when to render a map. 
 3. Add a new or existing field that will store the formatted address, and add it to the **Map** section created in the previous step.
-4. Create a new section and provide an appropriate label, for example, Location. This section will contain the address fields for the selected location.
-5. Add the required address fields to the **Location** section created in the previous step. For example: 
+4. Create a new section and provide an appropriate label, for example **Location**. This section will contain the address fields for the selected location.
+5. Add the required address fields to the **Location** section created in the previous step: 
     - Address Line
     - City
     - County
@@ -56,5 +57,5 @@ Geolocation with map functionality on managed forms requires configuration setti
 
 ### Field configurations
 The map control requires additional configuration to tell it what the IDs of the various location fields are, so it can assign values to them or retrieve values from them. The configuration depends on the type of managed form.
-- For entity forms, see [Geolocation Configuration for Entity Form](entity-forms-custom-logic.md#geolocation-configuration-for-entity-forms).
-- For web forms, see [Geolocation Configuration for Web Form](web-form-properties.md#geolocation-configuration-for-web-form).
+- For entity forms, see [Geolocation configuration for entity forms](entity-forms-custom-logic.md#geolocation-configuration-for-entity-forms).
+- For web forms, see [Geolocation configuration for Web forms](web-form-properties.md#geolocation-configuration-for-web-form).
