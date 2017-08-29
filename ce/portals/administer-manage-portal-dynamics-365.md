@@ -19,7 +19,7 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
 
 ## Get started
 
-[//]: # (@Shubham, the last four items of this bulleted list could be made easier to read, and more parallel, if they all were worded like the last bullet. So it would be *Provision a portal and link your... *Customize portals... *Manage portal content... *Customize content....)
+[//]: # (@Shubham, the edits to the third, fourth, and fifth list items are suggested, to help readability and make them parallel with how the last bulleted item is worded.)
 <table style="width:auto">
    <tr>
     <td>    
@@ -29,9 +29,9 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
    <li>[Review the updates](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases) that have been made to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, along with other information pertinent to those updates.</li>
   <li>Get the [latest list of features](monthly-updates-portals.md) added to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].</li>
 
-  <li>Learn how to [provision a portal](provision-portal.md) and link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain.</li>
-  <li>Learn how to [configure portals](configure-portal.md) and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].</li>
-  <li>Learn how to [manage portal content](manage-portal-content.md) to create a helpful environment to foster discussion.</li>
+  <li>[Provision a portal](provision-portal.md) and link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain.</li>
+  <li>[Configure portals](configure-portal.md) and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].</li>
+  <li>[Manage portal content](manage-portal-content.md) to create a helpful environment to foster discussion.</li>
   <li>[Customize content](customize-content-snippets.md) to populate any section of a page's layout.</li>
 </ul></td> 
 

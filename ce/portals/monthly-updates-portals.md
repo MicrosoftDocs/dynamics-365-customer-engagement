@@ -19,10 +19,10 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 ## Portal capabilities version 8.3 for Dynamics 365
 
-[//]: # (In the first list item, the edits are suggested. I took out "must" from "you must create a site setting..." because it makes the text sound more like a detailed procedure than an overview of the feature. I formatted "true" as bold because it looks like the SDK does this--would you be agreeable to using this convention to format the value of site settings? Also--I don't know what is the best format for the site setting name. I like using roman text, but this content uses several formats, ranging from roman to bold to monospace. The Style Guide is silent about what to do with "settings". Is there another text element that they're most analogous to?)
+[//]: # (In the first list item, the edits are suggested. I took out "must" from "you must create a site setting..." because I think "must" made the text sound more like a detailed procedure than an overview of the feature. Is "true" lowercase as a value for the site setting? I can't find this in the UI to check.)
 [//]: # (In the "Tracking cookie" list item, it looks like the link to the privacy statement needs to be replaced with a FWlink. Removing the "en-us" string caused the page to error out.)
 Portal capabilities version 8.3 for Dynamics 365 has brought many new updates and features:
-- **Ability to include attachments with knowledge articles**: You can display note attachments along with knowledge articles. To enable this feature, you create a site setting KnowledgeManagement/DisplayNotes and set the value to **true**. Portal users can also search for these attachments.
+- **Ability to include attachments with knowledge articles**: You can display note attachments along with knowledge articles. To enable this feature, you create the site setting KnowledgeManagement/DisplayNotes and set the value to **true**. Portal users can also search for these attachments.
 
   > [!Note]
   > Search for attachments can only be performed on the note description field and file attachment name. The content of the attached file is not searchable.
