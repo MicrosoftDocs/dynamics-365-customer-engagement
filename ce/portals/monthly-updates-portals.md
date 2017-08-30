@@ -19,13 +19,11 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 ## Portal capabilities version 8.3 for Dynamics 365
 
-[//]: # (In the first list item, the edits are suggested. I took out "must" from "you must create a site setting..." because I think "must" made the text sound more like a detailed procedure than an overview of the feature. Is "true" lowercase as a value for the site setting? I can't find this in the UI to check.)
-[//]: # (In the "Tracking cookie" list item, it looks like the link to the privacy statement needs to be replaced with a FWlink. Removing the "en-us" string caused the page to error out.)
 Portal capabilities version 8.3 for Dynamics 365 has brought many new updates and features:
 - **Ability to include attachments with knowledge articles**: You can display note attachments along with knowledge articles. To enable this feature, you create the site setting KnowledgeManagement/DisplayNotes and set the value to **true**. Portal users can also search for these attachments.
 
   > [!Note]
-  > Search for attachments can only be performed on the note description field and file attachment name. The content of the attached file is not searchable.
+  > Search for attachments can only be performed on the note's description and file attachment name. The content of the attached file is not searchable.
   
 - **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and makes a subset of it available to your portal customers, based on the security and permission model you choose. 
 - **Portal interaction tracking (preview)**: Use this preview feature to track a customer's interaction with your portal and funnel it to [!include[](../includes/pn-customerinsight-full.md)]. This will be helpful for plotting a 360-degree view of the user’s journey on your portal before and after a case is created. This also helps you to understand the real issue, avoid asking the user for the same information over again, and enable you to respond with relevant information.
@@ -42,7 +40,7 @@ Portal capabilities version 8.3 for Dynamics 365 has brought many new updates an
   - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator
   - System Administrator of the CRM organization selected for the portal
 - **Store the custom domain name for a portal**: This feature stores the primary domain name of a portal on the website record. If the domain name is changed in the future, the latest primary domain name will be stored. 
-- **Tracking cookie for portals**: A persistent cookie, Dynamics365PortalAnalytics, will be set whenever a user  goes to a portal. This cookie has an expiration of 90 days. This cookie does not store any of the user's personal data and is used by Microsoft to collect analytics about portal service. Please read the Microsoft online services privacy statement [here](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx).
+- **Tracking cookie for portals**: A persistent cookie, Dynamics365PortalAnalytics, will be set whenever a user  goes to a portal. This cookie has an expiration of 90 days. This cookie does not store any of the user's personal data and is used by Microsoft to collect analytics about portal service. Please read the Microsoft online services privacy statement [here](https://go.microsoft.com/fwlink/p/?linkid=856855).
 - **Performance improvement of header and footer on a portal**: Two new site settings, Header/OutputCache/Enabled and Footer/OutputCache/Enabled, are added to enable header/footer output caching when these settings are set to true. For new users, these site settings are set to true by default, thereby enabling header and footer output caching. For existing users who upgrade to a newer version of portal capabilities, output caching is disabled by default. It means that the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, they must update the appropriate web templates and create the required site settings.
 
 ## December 2016 updates

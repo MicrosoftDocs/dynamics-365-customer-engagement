@@ -15,7 +15,6 @@ manager: sakudes
 ---
 # Add a webpage to render a list of records
 
-[//]: # ("List" becomes "grid" in the middle of this discussion. Are they the same, or is there a difference that the reader will understand? Maybe this could say something like "...without the need for a developer to surface the list--also called a grid--in the portal"?)
 An entity list is a data-driven configuration that you use to add a webpage that will render a list of records without the need for a developer to surface the grid in the portal. By using entity lists, you can expose [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records for display on portals.
 
 The grid supports sorting and will be paginated if the number of records is larger than the page size specified. If **Web Page for Details View** has been specified, each record will contain a link to the page, and the ID of the record will be appended to the query string along with the ID Query String Parameter Name. The entity list also supports multiple views. If more than one view has been specified, a drop-down list will be rendered to allow the user to switch between the various views.
@@ -88,11 +87,10 @@ $(document).ready(function (){
 ```
 ## Entity list configuration
 
-You can easily enable and configure actions (Create, Edit, Delete, and so on) for records in an entity list . It is also possible to override default labels, sizes, and other attributes so that the entity list will be displayed exactly the way you want.
+You can easily enable and configure actions (Create, Edit, Delete, and so on) for records in an entity list. It is also possible to override default labels, sizes, and other attributes so that the entity list will be displayed exactly the way you want.
 
 These settings are found in the Configuration section of the entity list form. By default, only **Basic Settings** are shown. Select **Advanced Settings** to see additional settings.
 
-[//]: # (I find this image a bit hard to read.)
 ![Configure an entity list](media/configure-entitylist.png "Configure an entity list")  
 
 **Attributes**
