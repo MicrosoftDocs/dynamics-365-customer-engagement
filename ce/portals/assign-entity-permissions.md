@@ -29,6 +29,9 @@ To secure these features, Entity Permissions allow for granular rights to be gra
 
 When creating a new Entity Permission record, the first step is to Determine the **Entity** that will be secured. The next step is to define **Scope**, as discussed below, and in the case of any scope besides Global, the **Relationships** that define that scope must be specified. Finally, determine the Rights that are being granted to the Role via this permission. Note that rights are cumulative, so if a user is in a role that grants Read, and another that grants read and update, the user will have read and update to any records that overlap between the two roles.
 
+> [!Note]
+> Selecting CMS entities like web page and web files is invalid and may have other unintended consequences. The portal will assert security of CMS entities based on content access controls and not entity permissions.
+
 ### Global scope
 
 If a Permission record with **Read** permission is granted to a role that has global scope, any contact in that role will have access to all records of the defined Entity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. For example, they can see all leads, all accounts, and so on. This permission will be automatically respected by any entity lists; essentially showing all records according to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views that have been defined for that list. Further, if a user attempt to access a record via an Entity Form that they do not have access to, they will receive a permission error.
