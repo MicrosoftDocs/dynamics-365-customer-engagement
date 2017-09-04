@@ -21,8 +21,7 @@ Adding subgrids to your managed forms on the portal is easy—just add the subgr
 
 ## Add subgrid metadata to your form
 
-[//]: # (I'm not sure "main form of the entity form record" makes sense, but we can't just drop a whole topic title into a sentence when it makes the sentence ungrammatical. In this case, it seemed best to move the link out of the paragraph altogether.)
-To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the entity form record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)
+To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md).
 
 To add a new record, select **Add New Entity Form Metadata**.
 

@@ -19,7 +19,6 @@ An entity list is a data-driven configuration that you use to add a webpage that
 
 The grid supports sorting and will be paginated if the number of records is larger than the page size specified. If **Web Page for Details View** has been specified, each record will contain a link to the page, and the ID of the record will be appended to the query string along with the ID Query String Parameter Name. The entity list also supports multiple views. If more than one view has been specified, a drop-down list will be rendered to allow the user to switch between the various views.
 
-[//]: # (Edit assumes "parent" refers to the relationship between the accounts and isn't the actual name in the UI.)
 The data can also be filtered by the current portal user, the current portal user's parent Customer account, and the current portal website. If a value exists for both filter conditions **Portal User Attribute** and **Account Attribute**, the portal will render a drop-down list to allow the user to view their own ("My") data or their parent Customer account's data.
 
 ## Add an entity list to your portal
@@ -35,7 +34,6 @@ When creating or editing a webpage, you can specify an entity list in the lookup
 
 ## Entity list attributes and relationships
 
-[//]: # (Edit in the "Portal User Attribute" row and the next two rows okay? These attribute descriptions seemed to have one too many clauses. An alternative might be "...the current user's ID can be applied to, to filter the data rendered in the list.")
 |Name |Description |
 | ------------ | --- |
 | Name | The descriptive name of the record. This field is required. |
@@ -387,7 +385,6 @@ Options have the following attributes:
 
 **Lookup Set**
 
-[//]: # (Would it be correct to say "...tied to an entity related to the entity list's selected entity type"? I get a bit lost here.)
 The Lookup Set adds a series of options to filter the entity list by, tied to a related entity to the entity list's selected entity type. When a user applies the filter, the entity list only displays those records that exactly match at least one of the selected related records.
 
 ![Lookup set](media/lookup-set.png "Lookup Set")  
@@ -494,8 +491,7 @@ With entity lists, it is possible to enable and configure a Map view of the data
 
 Use the Entity List Calendar view to render an entity list as a calendar, with each individual record configured to act as a single event.
 
-[//]: # (Did you mean "Entity Calendar view" here? If so, is it okay that the previous paragraph and heading say "Entity List Calendar view"?)
-To display records by using a calendar, those records need to include at a minimum a date field. For events to have exact start and end times, the appropriate fields need to be in place, and so on. Assuming these fields are configured, an Entity Calendar view will appear on the portal.
+To display records by using a calendar, those records need to include at a minimum a date field. For events to have exact start and end times, the appropriate fields need to be in place, and so on. Assuming these fields are configured, an Entity List Calendar view will appear on the portal.
 
 ## Enhanced [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view filter for entity lists
 
