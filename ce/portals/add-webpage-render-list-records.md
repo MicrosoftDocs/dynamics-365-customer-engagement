@@ -93,7 +93,6 @@ These settings are found in the Configuration section of the entity list form. B
 
 **Attributes**
 
-[//]: # (The names of dialog boxes in this table don't match every instance of the dialog box names in the "advanced settings" sections, for example it's called "Edit dialog box" and "Edit Form dialog box." If they should be parallel, will you make them so? Also, in the Name Column under "Advanced Settings," I assume those are the literal names from the UI--that is, "Edit Form Dialog"? If not, please use "...Dialog Box." Style Guide doesn't want us to use "dialog" alone.)
 |Name                   |Description|
 |---------------------------|-----------|
 |**Basic Settings**         |   |
@@ -292,8 +291,7 @@ The important thing to be aware of is that each record listed in the grid will h
 
 **Using an entity form to display details**
 
-[//]: # (What does the "entity form page" refer to? If it's another topic in this docset, can you provide a link to that topic here?)
-To create an entity form please refer the instructions found on the entity form page.
+To create an entity form please refer the instructions found on the [entity form](entity-forms-custom-logic.md) page.
 
 The following are the important settings to be aware of for ensuring that the record from the entity list is loaded in the entity form.
 
@@ -302,9 +300,6 @@ The Record ID Query String Parameter Name on Entity Form must match the ID Query
 The Mode can be either Edit or ReadOnly, depending on your needs.
 
 **Using a Web form to display details**
-
-[//]: # (Give a direct link to the "Web form pages"?)
-To create a Web form, please refer the instructions found on the Web form pages.
 
 The following are the important settings to be aware of for ensuring that the record from the entity list is loaded in the Web form.
 
@@ -495,8 +490,7 @@ To display records by using a calendar, those records need to include at a minim
 
 ## Enhanced [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view filter for entity lists
 
-[//]: # (Give a direct link to the "entity list page"?)
-If enabled, an entity can be published to an OData feed. The OData protocol is an application-level protocol for interacting with data via RESTful web services. For configuration settings, please refer to the entity list page. Data from this feed can be viewed in a web browser, consumed by a client-side web application, or imported into [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
+If enabled, an entity can be published to an OData feed. The OData protocol is an application-level protocol for interacting with data via RESTful web services. Data from this feed can be viewed in a web browser, consumed by a client-side web application, or imported into [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 
 ## Entity list OData feeds
 
@@ -507,7 +501,6 @@ You can use Entity Permissions if you want to secure records, but if you want to
 
 ### See also
 
-[//]: # (Maybe this "See also" section could include those pages--topics--where you send the reader for more information in the preceding text?)
 [Configure a Dynamics 365 portal](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
