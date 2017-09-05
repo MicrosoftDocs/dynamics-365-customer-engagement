@@ -1,7 +1,7 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

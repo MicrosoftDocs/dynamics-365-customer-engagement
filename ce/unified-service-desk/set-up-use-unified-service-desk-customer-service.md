@@ -1,7 +1,8 @@
 ---
 title: "Set up and use Unified Service Desk for Dynamics 365 Customer Engagement for customer service | MicrosoftDocs"
+description: "Learn about using Unified Service Desk-related entities to configure an agent application."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,7 +30,7 @@ Give your customer service reps immediate access to business critical informatio
   
 -   [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)  
   
--   [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md)  
+-   [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
   
 ## Toolbars  
   
@@ -47,7 +48,7 @@ Give your customer service reps immediate access to business critical informatio
   
 ## Entity searches  
   
--   [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-using-entity-searches-unified-service-desk.md)  
+-   [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md)  
   
 ## Window navigation rules  
   
@@ -59,7 +60,7 @@ Give your customer service reps immediate access to business critical informatio
   
 ## Agent scripts  
   
--   [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-with-agent-scripts.md)  
+-   [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md)  
   
 -   [Configure and manage agent scripts](../unified-service-desk/configure-manage-agent-scripts.md)  
   

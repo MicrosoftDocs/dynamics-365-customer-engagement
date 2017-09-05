@@ -1,7 +1,8 @@
 ---
 title: "Walkthrough 4: Display a Microsoft Dynamics 365 Customer Enagement record in a session in your agent application | MicrosoftDocs"
+description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -13,14 +14,14 @@ applies_to:
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
-ms.assetid: walkthrough-display-dynamics-365-record-session-agent-application
+ms.assetid: aabfbcd2-1289-4291-9ce7-9ffe0f03c3c7
 caps.latest.revision: 6
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "jdaly"
 ---
 # Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application
-This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in a session in your agent application using window navigation rules and session controls in[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
+This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
   

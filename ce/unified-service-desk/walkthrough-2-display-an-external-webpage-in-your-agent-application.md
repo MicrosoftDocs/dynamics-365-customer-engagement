@@ -1,7 +1,8 @@
 ---
 title: "Walkthrough 2: Display an external webpage in your agent application | MicrosoftDocs"
+description: "Demonstrates how to display an external web page in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -20,7 +21,7 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # Walkthrough 2: Display an external webpage in your agent application
-This walkthrough demonstrates how to display a webpage or external URL in your agent application. In this walkthrough, you’ll learn how to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide, which is available online at http://technet.microsoft.com/library/dn499779.aspx, in the client application.  
+This walkthrough demonstrates how to display a webpage or external URL in your agent application. In this walkthrough, you’ll learn how to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide, which is available online at http://go.microsoft.com/fwlink/?LinkID=856273, in the client application.  
   
 ## Prerequisites  
   
@@ -30,7 +31,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
   
 -   You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
-    -   These two types of hosted controls: Standard Web Application and Toolbar Container. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)  
+    -   These two types of hosted controls: Standard Web Application and Toolbar Container. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
     -   How to configure [Action calls](../unified-service-desk/action-calls.md)  
   
@@ -161,7 +162,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Order|1|  
     |Hosted Control|Contoso Help|  
     |Action|Navigate|  
-    |Data|url=https://technet.microsoft.com/library/dn499779.aspx|  
+    |Data|url=http://go.microsoft.com/fwlink/?LinkID=856273|  
   
  ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-05.png "Create an action call in Unified Service Desk")  
   

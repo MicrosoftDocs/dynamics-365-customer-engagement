@@ -1,7 +1,8 @@
 ---
 title: "Walkthrough: Use the generic listener adapter for CTI event routing | MicrosoftDocs"
+description: "Learn about using the CTI Desktop Manager and generic listener in to expose the CTI events as screen pops in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -169,7 +170,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
     1.  In the **Destination** field, choose **Tab** to display the matching contact record in a tab.  
   
-    2.  In the **Target Tab** field, choose the **Contact** hosted control. The **Contact** hosted control was created when you deployed a sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server using the [!INCLUDE[pn_package_deployer_tool](../includes/pn-package-deployer-tool.md)]. For more information, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](https://technet.microsoft.com/library/dn646924.aspx).  
+    2.  In the **Target Tab** field, choose the **Contact** hosted control. The **Contact** hosted control was created when you deployed a sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server using the [!INCLUDE[pn_package_deployer_tool](../includes/pn-package-deployer-tool.md)]. For more information, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
     3.  In the **Show Tab** field, choose the **Contact** hosted control  
   
@@ -195,5 +196,5 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 4.  Check the Debugger hosted control to view the events that got raised as a result of the CTI search. Also check out the **Data Parameters** tab to view the context information in the `$Context` variable and CTI information under the `CTI` variable.  
   
 ### See also  
- [Integrate with CTI systems](../unified-service-desk/integrate-with-cti-systems-using-cti-adapters.md)   
+ [Integrate with CTI systems](../unified-service-desk/integrate-cti-systems-cti-adapters.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)

@@ -1,7 +1,8 @@
 ---
 title: "Update Unified Service Desk for Dynamics 365 Customer Engagement solution | MicrosoftDocs"
+description: "Learn how to update Unified Service Desk for Dynamics 365 Customer Engagement." 
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,7 +20,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
 ---
-# Update Unified Service Desk solution
+# Updating the solution
 Read this topic only if you have an existing installation of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the previous release of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and want to update to the [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] release.  
   
  If you’re installing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for the first time, you can skip this topic.  

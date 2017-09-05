@@ -1,7 +1,8 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement - Interactive service hub package | MicrosoftDocs"
+description: "Overview of the Interactive service hub sample application."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,12 +21,12 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
 ---
-# Unified Service Desk - Interactive service hub package overview
+# Interactive service hub sample application package
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  This package is best used in the following situations:  
   
-- [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](../../customer-service/interactive-service-hub-users-guide.md )  
+- [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](https://go.microsoft.com/fwlink/?linkid=857154)  
   
 - [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] environments that are already using the interactive service hub.  
   

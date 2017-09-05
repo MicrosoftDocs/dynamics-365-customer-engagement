@@ -1,7 +1,8 @@
 ---
 title: "Unified Service Desk for Dynamics CRM 2013 SP1 package | MicrosoftDocs"
+description: "Overview of the Dynamics CRM 2013 SP1 sample application."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +21,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
 ---
-# Unified Service Desk for Dynamics CRM 2013 SP1 package
+# Dynamics CRM 2013 SP1 sample application package
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] (USD) is a desktop application that helps your customer service agents provide phone, email, chat, and social media support to your customers. USD provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With USD you can quickly make a customized Agent Desktop application by leveraging the [!INCLUDE[pn_user_interface_integration](../../includes/pn-user-interface-integration.md)] framework.  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for [!INCLUDE[pn_crmv6](../../includes/pn-crmv6.md)] Service Pack 1 sample application package for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], the following components are installed:  

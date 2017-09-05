@@ -1,7 +1,8 @@
 ---
 title: "Session Tabs (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about Session Tabs type of hosted control in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -24,7 +25,7 @@ Use **Session Tabs** type of hosted control to display customer information in a
   
 <a name="Create"></a>   
 ## Create a Session Tab hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. When you select **Session Tabs** from the **USD Component Type** drop-down list in the **New Hosted Control** screen, you don’t have to select any other fields. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. When you select **Session Tabs** from the **USD Component Type** drop-down list in the **New Hosted Control** screen, you don’t have to select any other fields. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="Actions"></a>   
 ## Predefined UII actions  
@@ -58,7 +59,7 @@ Use **Session Tabs** type of hosted control to display customer information in a
 |---------------|-----------------|  
 |name|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 ### HideChatIndicator  
  This action is used to hide the chat indicator.  
@@ -87,7 +88,7 @@ Use **Session Tabs** type of hosted control to display customer information in a
   
 <a name="Events"></a>   
 ## Predefined events  
- The following predefined events are associated with this hosted control type. You can also create user-defined events for a hosted control. For information, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ The following predefined events are associated with this hosted control type. You can also create user-defined events for a hosted control. For information, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 ### SessionClosed  
  Occurs after the session is closed.  
@@ -111,4 +112,4 @@ Use **Session Tabs** type of hosted control to display customer information in a
  [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)   
  [Session Lines (Hosted Control)](../unified-service-desk/session-lines-hosted-control.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   

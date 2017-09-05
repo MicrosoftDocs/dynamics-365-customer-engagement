@@ -1,7 +1,8 @@
 ---
 title: "Use SafeDispatcher for custom hosted controls in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn how to use SafeDispatcher to provide out-of-box logging for unhandled exceptions with detailed information about the source and cause of the exception in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -23,10 +24,7 @@ ms.author: "kvivek"
   
  You can extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by creating custom controls and hosting it within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. However, if a custom hosted control contains faulty code or executes operations using new threads without appropriately handling exceptions during code execution, it may cause stability issues in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and might even cause the  client application to freeze or become unresponsive. The unhandled exceptions in third-party custom controls  makes it challenging to identify, troubleshoot, and resolve the issue by the product/support team as they might not have access to the information why an error/exception occurred in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and the exact code that caused the error.  
   
- Introducing *SafeDispatcher* that provides a powerful and informative exception handling mechanism for custom hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by providing out-of-box logging for unhandled exceptions with detailed information about the source and cause of the exception, and allowing you to configure or  overwrite the SafeDispatcher exception handling to perform some other steps. This also prevents the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client from becoming unresponsive because of unhandled exceptions in the custom hosted control code.  
-  
-> [!NOTE]
->  This feature was introduced in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] 2.2.1.  
+ Introducing *SafeDispatcher* that provides a powerful and informative exception handling mechanism for custom hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by providing out-of-box logging for unhandled exceptions with detailed information about the source and cause of the exception, and allowing you to configure or  overwrite the SafeDispatcher exception handling to perform some other steps. This also prevents the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client from becoming unresponsive because of unhandled exceptions in the custom hosted control code.
   
 <a name="What"></a>   
 ## What is SafeDispatcher?  
@@ -175,19 +173,19 @@ SafeDispatcher.Invoke(() =>
 }, false);  
 ```  
   
- The [SafeDispatcherUnhandledExceptionHandler Method](http://msdn.microsoft.com/en-us/a394320e-4f98-4ee0-85e0-b61c49fd9a6b) will be called if an exception happens on the WPF Dispatcher or on the STA non-UI thread and will be raised on the respective thread on which the exception happened. You should be careful in making sure you don’t place the above combination in this handler, that is, if the exception occurred on non-UI thread, do not dispatch synchronously to the main UI dispatcher.  
+ The [SafeDispatcherUnhandledExceptionHandler](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.SafeDispatcherUnhandledExceptionHandler) method will be called if an exception happens on the WPF Dispatcher or on the STA non-UI thread and will be raised on the respective thread on which the exception happened. You should be careful in making sure you don’t place the above combination in this handler, that is, if the exception occurred on non-UI thread, do not dispatch synchronously to the main UI dispatcher.  
   
 ```csharp  
 protected override void SafeDispatcherUnhandledExceptionHandler(object sender, SafeDispatcherUnhandledExceptionEventArgs ex)  
 {  
-    Dispatcher.Invoke(LogException);                    // Incorrect  
-    SafeDispatcher.Invoke(LogException);            // Incorrect  
-    SafeDispatcher.BeginInvoke(LogException);  // Correct  
-    SafeDispatcher.InvokeAsync(LogException); // Correct  
+    Dispatcher.Invoke(LogException);            // Incorrect  
+    SafeDispatcher.Invoke(LogException);        // Incorrect  
+    SafeDispatcher.BeginInvoke(LogException);   // Correct  
+    SafeDispatcher.InvokeAsync(LogException);   // Correct  
 }  
 ```  
   
 ### See also  
  [Create custom Unified Service Desk hosted control](../unified-service-desk/walkthrough-create-custom-hosted-control-for-unified-service-desk.md)   
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)   
- [Configure client diagnostic logging in Unified Service Desk](https://technet.microsoft.com/library/dn633607.aspx)
+ [Configure client diagnostic logging in Unified Service Desk](admin/configure-client-diagnostic-logging-unified-service-desk.md)

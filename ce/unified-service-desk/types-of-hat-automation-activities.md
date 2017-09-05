@@ -1,7 +1,8 @@
 ---
 title: "Types of HAT automation activities in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about various automation activities that you can use to automate your hosted applications in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -115,7 +116,7 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
 >  To retrieve the credentials from a custom store, the developer needs to provide a class that implements the [Microsoft.Uii.AifServices.ISsoLookupService](https://docs.microsoft.com/dotnet/api/Microsoft.Uii.AifServices.ISsoLookupService) interface.  
   
  `HostApplication`  
- Hosts the UI of the application. It uses the **Application Hosting** configuration data specified while configuring the hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server to determine the hosting mode. For more information about specifying the hosting mode for an application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-and-manage-uii-hosted-applications.md).  
+ Hosts the UI of the application. It uses the **Application Hosting** configuration data specified while configuring the hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server to determine the hosting mode. For more information about specifying the hosting mode for an application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md).  
   
 <a name="DDA"></a>   
 ## DDA activities  
@@ -197,7 +198,7 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
 >     </DataDrivenAdapterBindingsCollection>  
 >     ```  
 >   
->      For more information about configuring hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-and-manage-uii-hosted-applications.md).  
+>      For more information about configuring hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md).  
   
  `ConfigReader`  
  Reads a configuration value from within the automation. This activity will either read configuration from the **Option** settings in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] or the application configuration file. This action has the following properties:  

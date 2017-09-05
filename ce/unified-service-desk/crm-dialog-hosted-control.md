@@ -1,7 +1,8 @@
 ---
 title: "CRM Dialog (Hosted Control) | MicrosoftDocs"
+description: "Learn about using the Dynamics 365 Dialog hosted control type to work with Dynamics 365 dialogs. You can call the StartDialog action on your Dynamics 365 Dialog hosted control to start a Dynamics 365 dialog within Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -24,7 +25,7 @@ Use the **Dynamics 365 Dialog** hosted control type to work with Dynamics 365 di
   
 <a name="Create"></a>   
 ## Create a Dynamics 365 Dialog hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Dynamics 365 Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Dynamics 365 Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  ![Dynamics 365 dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "Dynamics 365 dialog hosted control")  
   
@@ -36,7 +37,7 @@ Use the **Dynamics 365 Dialog** hosted control type to work with Dynamics 365 di
   
 -   Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
   
--   The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md#Panels). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+-   The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  
@@ -53,7 +54,7 @@ Use the **Dynamics 365 Dialog** hosted control type to work with Dynamics 365 di
 |---------------|-----------------|  
 |name|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 <a name="MoveToPanel"></a>   
 ### MoveToPanel  
@@ -138,5 +139,5 @@ Use the **Dynamics 365 Dialog** hosted control type to work with Dynamics 365 di
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=394402)

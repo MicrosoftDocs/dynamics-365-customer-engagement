@@ -1,7 +1,8 @@
 ---
 title: "Configure and manage agent scripts | MicrosoftDocs"
+description: "Learn about configuring and managing agent scripts."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,7 +23,7 @@ manager: "jdaly"
 # Configure and manage agent scripts
 Each step in an agent script is represented as an agent script task. An agent script task can have one or more answers (choices) for the next steps; the answers are represented as a stack of buttons in the agent script area in your application. An action can be performed on clicking one of the answers or when you go to the next task. This topic provides information on how you can create an agent script task, and then configure it by adding answers, actions, and triggers.  
   
- For more information about how agent scripts work in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-with-agent-scripts.md). For a walkthrough that demonstrates the agent scripting functionality, see [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).  
+ For more information about how agent scripts work in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md). For a walkthrough that demonstrates the agent scripting functionality, see [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).  
   
 <a name="create"></a>   
 ## Create an agent script task  
@@ -144,7 +145,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
     |Field|Description|  
     |-----------|-----------------|  
     |**Name**|This is a descriptive name for the script task trigger.  This name will not be seen by the agent.|  
-    |**Type**|Select from the following options:<br /><br /> - **DNIS**: This is primarily meant for CTI integration scenario. Select this to execute an agent script task based on an incoming call. **Note:** [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] does not ship with any out-of-box CTI adapters. This is only applicable if you are using any CTI solution with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about CTI, see [Integrate CTI applications with Unified Service Desk](../unified-service-desk/integrate-with-cti-systems-using-cti-adapters.md).<br />- **Other**: Use this for other scenarios.|  
+    |**Type**|Select from the following options:<br /><br /> - **DNIS**: This is primarily meant for CTI integration scenario. Select this to execute an agent script task based on an incoming call. **Note:** [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] does not ship with any out-of-box CTI adapters. This is only applicable if you are using any CTI solution with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about CTI, see [Integrate CTI applications with Unified Service Desk](../unified-service-desk/integrate-cti-systems-cti-adapters.md).<br />- **Other**: Use this for other scenarios.|  
     |**Data**|Specify the data to be passed.|  
   
 5.  Click **Save** to save the record.  
@@ -158,7 +159,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
  An interesting feature about agent script tasks is that whenever a task is reached in the agent scripting component, the entire contents of the entity that makes up that task is placed into the replacement parameter list in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] data context.  This can be used to extend the agent script entity to add email template text so that whenever the agent reaches a step in the script, the email template text will be available in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] data context to be used to populate an email.  
   
 ### See also  
- [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-with-agent-scripts.md)   
+ [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md)   
  [Agent Scripting (Hosted Control)](../unified-service-desk/agent-scripting-hosted-control.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-your-agent-application-using-unified-service-desk.md)
+ [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-agent-application-unified-service-desk.md)

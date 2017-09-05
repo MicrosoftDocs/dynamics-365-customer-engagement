@@ -1,7 +1,8 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement Base package | MicrosoftDocs"
+description: "Overview of the base sample application." 
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +21,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
 ---
-# Unified Service Desk Base package
+# Base sample application package
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  With the Unified Service Desk Base sample application package, the following components are installed:  

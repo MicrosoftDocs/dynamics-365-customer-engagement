@@ -1,5 +1,6 @@
 ---
 title: "UII Application Integration Framework | MicrosoftDocs"
+description: "Learn information about UII Application Integration Framework that enables the integration and automation of applications."
 ms.custom: ""
 ms.date: "2016-11-29"
 ms.reviewer: ""
@@ -63,7 +64,7 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
   
      A session can be associated with any type of channel (such as a phone call, an email message, an instant messaging [IM] conversation, or another means of communication). [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym-md.md)] can be configured to permit only one session at a time or multiple, concurrent sessions. Session management allows agents to handle multiple interactions simultaneously on different channels without losing or intermingling the context or state of each session.  
   
-## See Also  
+### See Also  
  [AifServices](https://docs.microsoft.com/dotnet/api/microsoft.uii.aifservices)   
  [IHostedApplication](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.aifinterfaces.ihostedapplication)   
  [UII Hosted Applications](uii-hosted-applications.md)   

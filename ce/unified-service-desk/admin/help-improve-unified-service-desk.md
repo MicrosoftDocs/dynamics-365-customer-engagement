@@ -1,7 +1,8 @@
 ---
 title: "Help improve Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "Learn how you can make our app better by sending system and application information to Microsoft."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,7 +22,7 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Help improve Unified Service Desk
+# Improve Unified Service Desk
 Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] transmit computer and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application-specific information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. We use the information that is collected by the program to analyze and improve the service and product experience for   our customers.  
   
  The kinds of information that is transmitted anonymously includes:  

@@ -1,7 +1,7 @@
 ---
 title: "Create agent application using Unified Service Desk in Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

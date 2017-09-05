@@ -1,7 +1,8 @@
 ---
 title: "CTI Desktop Manager (Hosted Control) | MicrosoftDocs"
+description: "Learn about using the CTI Desktop Manager hosted control type to plug in a computer telephony integration (CTI) adapter into Unified Service Desk to handle screen popping, call routing, softphone control, and other CTI functionalities."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -65,7 +66,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 |---------------|-----------------|  
 |name|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 ### GoBack  
  This action is equivalent to clicking the back button on the browser instance.  
@@ -215,4 +216,4 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 |url|The URL of the popup that was routed.|  
   
 ### See also  
- [Integrate with CTI systems using CTI adapters](../unified-service-desk/integrate-with-cti-systems-using-cti-adapters.md)
+ [Integrate with CTI systems using CTI adapters](../unified-service-desk/integrate-cti-systems-cti-adapters.md)

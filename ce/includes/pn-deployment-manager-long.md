@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 Deployment Manager
+Dynamics 365 Deployment Manager

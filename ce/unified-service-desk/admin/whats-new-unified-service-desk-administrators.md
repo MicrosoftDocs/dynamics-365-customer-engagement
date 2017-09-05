@@ -1,7 +1,8 @@
 ---
 title: "What&#39;s new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
+description: "Learn about new features available with Unified Service Desk for Dynamics 365 Customer Engagement." 
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,7 +20,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
 ---
-# What&#39;s new in Unified Service Desk for administrators
+# New feature information for administrators
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  
   
 <a name="NewIn222"></a>   

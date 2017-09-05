@@ -1,7 +1,8 @@
 ---
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
+description: "Learn about using Agent Scripting type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -20,16 +21,16 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # Agent Scripting (Hosted Control)
-Use **Agent Scripting** type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session. For more information, see [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-with-agent-scripts.md).  
+Use **Agent Scripting** type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session. For more information, see [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md).  
   
 <a name="AgentScripting"></a>   
 ## Create an Agent Scripting hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Agent Scripting** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Agent Scripting** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
   <!-- Missing graphic below-->
  <!-- ![Agent scripting hosted control](../unified-service-desk/media/usd-agent-scripthostedcontrol.PNG "Agent scripting hosted control")  -->
   
- In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **USD Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **USD Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  
@@ -49,7 +50,7 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 |---------------|-----------------|  
 |name|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 <a name="GoToTask"></a>   
 ### GoToTask  
@@ -141,12 +142,12 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 |task|Name of the agent script task that was reached. For the main menu, which isn't a listed task in the configuration of agent scripts, an event is fired with this parameter set to "[Main Menu]".|  
   
 ### See also  
- [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-with-agent-scripts.md)   
+ [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md)   
  [Configure and manage agent scripts](../unified-service-desk/configure-manage-agent-scripts.md)   
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
  [View predefined actions and events for a hosted control](../unified-service-desk/view-predefined-actions-events-hosted-control.md)   
  [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)   
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=394402)

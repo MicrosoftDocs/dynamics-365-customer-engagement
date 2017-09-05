@@ -1,7 +1,8 @@
 ---
-title: "WinDDA | MicrosoftDocs"
+title: "WinDDA in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn how to use Windows data-driven adapter (WinDDA) in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

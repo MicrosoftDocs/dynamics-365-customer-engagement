@@ -1,7 +1,8 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement configuration walkthroughs | MicrosoftDocs"
+description: "Unified Service Desk walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -23,23 +24,6 @@ manager: "jdaly"
 Each walkthrough in this section covers an area or a combination of areas in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. These walkthroughs are arranged in increasing order of complexity so it may benefit you to do them in sequence. Also, you must complete [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md) first because it sets up the base application that the other walkthroughs, except walkthrough 8, are built on. Walkthrough 8 is a standalone walkthrough, and does not require any other walkthroughs to be completed before using it.  
   
  These walkthroughs are created using the “New Environment” sample application package deployed on an on-premises instance of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Before you begin these walkthroughs, ensure that you have deployed one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications, have installed the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and have appropriate security access in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
-  
-## In this dection  
- [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)  
-  
- [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)  
-  
- [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)  
-  
- [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)  
-  
- [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)  
-  
- [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)  
-  
- [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)  
-  
- [Walkthrough 8: Configure knowledge management in your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)  
   
 ## Related topics  
  [Install, upgrade and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
