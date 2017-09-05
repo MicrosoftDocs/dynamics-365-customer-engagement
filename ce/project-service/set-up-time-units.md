@@ -1,0 +1,36 @@
+---
+title: "Set up time units (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+ms.custom: ""
+ms.date: "2017-09-15"
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.technology: 
+  - "project-service-automation"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: c18453b1-e55c-4513-b954-b7fe009dc0c8
+caps.latest.revision: 17
+ms.author: "mkaur"
+manager: "brycho"
+---
+# Set up time units (Project Service Automation)
+Configure the time units in the product catalog that you’ll use as a base for scheduling and billing your projects.  
+  
+1.  Go to **Settings > Product Catalog**.  
+  
+2.  Click **Unit Groups**.  
+  
+3.  Click the **Time** unit group (created during [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] installation).  
+  
+4.  On the **Units** tab, click **Add New Unit**, and then change the values as necessary. Add as many units as you need. For example, you might want to create the following units:  
+  
+    - **Day** with **Base unit** = **Hour** and **Quantity** = 8  
+  
+    - **Week** with **Base unit** = **Day** and **Quantity** = 5  
+  
+### See Also  
+ [Configure Project Service Automation](../project-service/configure.md)

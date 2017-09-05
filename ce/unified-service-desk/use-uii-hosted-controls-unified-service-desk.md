@@ -1,7 +1,8 @@
 ---
 title: "Use UII hosted controls with Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn how to use UII hosted controls in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -34,4 +35,4 @@ manager: "jdaly"
   
 ### See also  
  [UII Hosted Applications](../unified-service-desk/uii-hosted-applications.md)   
- [Create and manage UII hosted applications](../unified-service-desk/create-and-manage-uii-hosted-applications.md)
+ [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)

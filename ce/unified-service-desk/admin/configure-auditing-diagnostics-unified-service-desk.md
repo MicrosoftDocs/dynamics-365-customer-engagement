@@ -1,7 +1,8 @@
 ---
 title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "Learn how to set auditing and diagnostics." 
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,7 +22,7 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Configure auditing and diagnostics in Unified Service Desk
+# Auditing and diagnostics overview
 The **Audit & Diagnostics Settings** area provides centralized management for agent auditing and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application diagnostic logging.  
   
  Agent auditing helps organizations analyze agent productivity, identify gaps in process, and provide coaching and training that can all be used to further improve the customer service experience. Audit data in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is channeled to a listener that gives you control over where you channel audit logging, such as to a text file, windows event log, or data store.  

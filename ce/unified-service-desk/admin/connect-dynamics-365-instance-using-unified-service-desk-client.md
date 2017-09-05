@@ -1,7 +1,8 @@
 ---
 title: "Connect to a Dynamics 365 instance using the Unified Service Desk for Dynamics 365 Customer Engagement client | MicrosoftDocs"
+description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,7 +22,7 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Connect to a Dynamics 365 instance using the Unified Service Desk client
+# Connect to a Dynamics 365 instance overview
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and accordingly exposes the controls and functionality in the application.  
   
 <a name="Signin"></a>   

@@ -1,7 +1,8 @@
 ---
 title: "Understand Unified Service Desk for Dynamics 365 Customer Engagement concepts | MicrosoftDocs"
+description: "Learn about basic concepts related to configuring and extending Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,7 +22,7 @@ manager: "jdaly"
 ---
 # Understand Unified Service Desk concepts
 
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a configurable and extensible framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Customer Engagement instance and external applications. You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement and external applications into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agent immediate access to business critical information so they can effectively engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What makes up Unified Service Desk](https://technet.microsoft.com/library/dn646899.aspx#USD) and [Call center challenges and how Unified Service Desk can help](https://technet.microsoft.com/library/dn646905.aspx) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.  
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a configurable and extensible framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Customer Engagement instance and external applications. You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement and external applications into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agent immediate access to business critical information so they can effectively engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What makes up Unified Service Desk](admin/overview-unified-service-desk.md#USD) and [Call center challenges and how Unified Service Desk can help](admin/call-center-challenges-how-unified-service-desk-can-help.md) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.  
   
  To develop an agent application using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you can directly configure the  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities in your Customer Enagement instance, which does not require you to write code. To integrate with external applications, you can write code to extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   

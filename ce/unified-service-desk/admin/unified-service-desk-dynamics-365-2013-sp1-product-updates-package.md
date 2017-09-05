@@ -1,7 +1,8 @@
 ---
 title: "Unified Service Desk for Dynamics CRM 2013 SP1 with product updates package | MicrosoftDocs"
+description: "Overview of the Dynamics CRM 2013 SP1 with product updates sample application." 
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +21,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
 ---
-# Unified Service Desk for Dynamics CRM 2013 SP1 with product updates package overview
+# Dynamics CRM 2013 SP1 with product updates sample application package
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, chat, and social media support to your customers. It provides a configurable framework to quickly build an agent desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized agent desktop application by leveraging the [!INCLUDE[pn_user_interface_integration](../../includes/pn-user-interface-integration.md)] framework.  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] with product updates sample application package, the following components are installed:  

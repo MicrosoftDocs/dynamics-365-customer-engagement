@@ -1,7 +1,8 @@
 ---
-title: "Migrate your Unified Service Desk for Dynamics 365 Customer Engagement configuration to another Dynamics 365 server | MicrosoftDocs"
+title: "Migrate your Unified Service Desk for Dynamics 365 Customer Engagement configuration to another Dynamics 365 Customer Engagement instance | MicrosoftDocs"
+description: "Learn how to move a Unified Service Desk for Dynamics 365 Customer Engagement configuration to another instance.:
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,7 +20,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
 ---
-# Migrate your Unified Service Desk configuration to another Dynamics 365 server
+# Migration of a Unified Service Desk configuration
 After you have completed the development or configuration of your agent application, you might want to migrate your latest [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your development or testing environment to your production environment. Migrating your data involves exporting your existing configuration data from the source [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and then importing it into the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
  To export your configuration data, you can use the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The default schema file contains information about all the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities, relationships, and uniqueness definitions for each entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  

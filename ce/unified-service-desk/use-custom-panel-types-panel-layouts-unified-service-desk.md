@@ -1,7 +1,8 @@
 ﻿---
 title: "Use custom panel types and panel layouts in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn how to use custom panel types and panel layouts in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,19 +23,8 @@ manager: "jdaly"
 # Use custom panel types and panel layouts in Unified Service Desk
 This section provides you with information on how to customize your agent desktop using custom panel types and custom panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The topics in this section assume the reader has advanced knowledge about scripting and XAML.  
   
-## In This Section  
- [Create custom panel type](../unified-service-desk/create-custom-panel-type.md)  
-  
- [Create custom panel layout](../unified-service-desk/create-custom-panel-layout.md)  
-  
- [Define keyboard shortcuts for panels in custom panel layout](../unified-service-desk/keyboard-shortcuts-panels.md)  
-  
- [Display hosted controls in the custom panel layout](../unified-service-desk/display-hosted-controls-custom-panel-layout.md)  
-  
- [Move hosted controls between panels at runtime](../unified-service-desk/move-hosted-controls-between-panels-runtime.md)  
-  
-## Reference  
+### Reference  
  [XAML Overview](https://msdn.microsoft.com/library/ms752059\(v=vs.110\).aspx)  
   
-## Related Sections  
- [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md)
+### Related Sections  
+ [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)

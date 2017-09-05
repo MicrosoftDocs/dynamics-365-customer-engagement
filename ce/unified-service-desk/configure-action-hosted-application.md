@@ -1,7 +1,8 @@
 ---
 title: "Configure an action for the hosted application | MicrosoftDocs"
+description: "Learn about configuring the actions for the hosted application."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -54,7 +55,7 @@ After you have configured your application using the Hosted Application Toolkit 
  ![Action configuration in HAT](../unified-service-desk/media/usd-action-config.png "Action configuration in HAT")  
   
 ### See also  
- [Integrate with external applications and web applications](../unified-service-desk/integrate-with-external-applications-web-applications.md)   
+ [Integrate with external applications and web applications](../unified-service-desk/integrate-external-applications-web-applications.md)   
  [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create)   
  [Using UII inspector to create bindings](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md)   
  [Configure the hosted application](../unified-service-desk/configure-hosted-application.md)   

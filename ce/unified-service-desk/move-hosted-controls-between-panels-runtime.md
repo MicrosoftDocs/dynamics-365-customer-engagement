@@ -1,7 +1,8 @@
 ---
 title: "Move hosted controls between panels at runtime in Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
+description: "Learn about moving hosted controls between panels at runtime Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,7 +20,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "jdaly"
 ---
-# Move hosted controls between panels at runtimeUnified Service Desk
+# Move hosted controls between panels at runtime Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides the ability to move applications between panels at runtime. You can do so by using the [MoveToPanel](../unified-service-desk/global-manager-hosted-control.md#MoveToPanel) action for the **Global Manager** hosted control type. This action takes two parameters:  
   
 - **app**: name of the hosted control to be moved.  
@@ -39,6 +40,6 @@ if (desktop != null)
  The [IDesktopFeatureAccess](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol.idesktopfeatureaccess) class has another function, [String)](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol.idesktopfeatureaccess.moveapplicationtopanel\(microsoft.uii.csr.ihostedapplication,system.string\)), which allows you to move a hosted control from and to arbitrary panels. This function takes a reference to the hosted application you wish to move and a string that represents the panel name, which is the name of the hosted control defined as a panel layout.  
   
 ### See also  
- [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md)   
+ [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)   
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)   
  [Dynamics 365 Page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)

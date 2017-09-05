@@ -1,7 +1,7 @@
 ---
 title: "Add action calls to an event | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-08-01"
+ms.custom: "Learn about adding action calls to an event."
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -47,4 +47,4 @@ You can add multiple action calls to an event, and the action calls will be exec
 ### See also  
  [Action calls](../unified-service-desk/action-calls.md)   
  [Events](../unified-service-desk/events.md)   
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-and-events.md)
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)

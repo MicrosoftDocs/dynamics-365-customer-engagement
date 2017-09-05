@@ -1,7 +1,8 @@
 ---
 title: "Deploy sample Unified Service Desk for Dynamics 365 Customer Engagement applications using Package Deployer | MicrosoftDocs"
+description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,7 +20,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
 ---
-# Deploy sample Unified Service Desk applications using Package Deployer
+# Overview of Package Deployer and the sample applications
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  
   
  These sample applications are bundled as packages that need to be deployed on a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance before you can start working. After deployment, which is done by using [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)], the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] become available in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  

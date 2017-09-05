@@ -1,7 +1,8 @@
 ---
 title: "Create custom listeners for auditing, diagnostics and traces | MicrosoftDocs"
+description: "Learn about creating custom listeners that lets you target the log output to files, the event log, or other sources. Until the previous version of Unified Service Desk, you could only use the standard listeners to write auditing, diagnostics, and trace logs in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -33,9 +34,9 @@ A listener lets you target the log output to files, the event log, or other sour
 |1|Developer|Write code for your custom listener.|[Define your custom listener for Unified Service Desk](../unified-service-desk/create-custom-listeners-auditing-diagnostics-traces.md#Define)|  
 |2|Developer|Compress assembly into a .zip file to create a customization file for Unified Service Desk.|[Prepare for distribution of your sample code](../unified-service-desk/create-custom-listeners-auditing-diagnostics-traces.md#Distribute)|  
 |3|Developer/Administrator|Create instances of the **Listener Hosted Control** to use the custom listener code.|[Create Listener Hosted Control instances to use your custom listener code](../unified-service-desk/create-custom-listeners-auditing-diagnostics-traces.md#ListenerHostedControl)|  
-|4|Administrator|Create instances of **Auditing & Diagnostics Settings** record to configure your auditing, diagnostics, or trace logging information.|[Configure auditing and diagnostics in Unified Service Desk](https://technet.microsoft.com/library/dn633604.aspx)|  
-|5|Administrator|Create **Customization Files**, and attach the .zip file created by the developer in step #2.|[Distribute custom hosted controls using Customization Files](https://technet.microsoft.com/library/mt608043.aspx)|  
-|6|Administrator|Attach the **Customization Files** record to the appropriate instance of the **Configuration** entity.|[Associate auditing and diagnostics with a configuration](https://technet.microsoft.com/library/dn646885.aspx#auditanddiag)|  
+|4|Administrator|Create instances of **Auditing & Diagnostics Settings** record to configure your auditing, diagnostics, or trace logging information.|[Configure auditing and diagnostics in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)|  
+|5|Administrator|Create **Customization Files**, and attach the .zip file created by the developer in step #2.|[Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)|  
+|6|Administrator|Attach the **Customization Files** record to the appropriate instance of the **Configuration** entity.|[Associate auditing and diagnostics with a configuration](admin/manage-access-using-unified-service-desk-configuration.md#auditanddiag)|  
   
 <a name="Define"></a>   
 ## Define your custom listener for Unified Service Desk  
@@ -228,9 +229,9 @@ namespace SampleCustomUSDListener
 ## Next steps for administrator  
  As an administrator, you should now do the following two things to use the custom listener code in your organization:  
   
--   Create **Auditing & Diagnostic Settings** records, and attach the appropriate listener hosted control record to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](https://technet.microsoft.com/library/dn633604.aspx)  
+-   Create **Auditing & Diagnostic Settings** records, and attach the appropriate listener hosted control record to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)  
   
--   Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to the Dynamics 365 server using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](https://technet.microsoft.com/library/mt608043.aspx)  
+-   Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to the Dynamics 365 server using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
 ### See also  
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)

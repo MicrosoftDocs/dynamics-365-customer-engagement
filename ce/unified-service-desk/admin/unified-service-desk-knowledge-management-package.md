@@ -1,7 +1,8 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement – Knowledge Management package | MicrosoftDocs"
+description: "Overview of the Knowledge Management sample application."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +21,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
 ---
-# Unified Service Desk – Knowledge Management package
+# Knowledge Management sample application package 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] or any other application.  
   
  If you’re a service rep, you can use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to offer your customers a reliable and consistent experience across a number of different channels including phone, email, and chat, and can also serve multiple customers simultaneously through sessions. A system administrator in your organization can integrate Unified Service Desk with many other applications that you use on a day-to-day basis so you can get your work done from your desktop without switching to different applications.  
@@ -30,7 +31,7 @@ manager: "brycho"
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
 >   
->  This sample application is useful only if you have set up knowledge management for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](../../admin/set-up-knowledge-management.md )  
+>  This sample application is useful only if you have set up knowledge management for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](../../customer-service/set-up-knowledge-management.md )  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management package, the following components are installed:  
   

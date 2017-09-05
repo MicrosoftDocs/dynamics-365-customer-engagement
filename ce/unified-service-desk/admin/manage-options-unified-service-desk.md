@@ -1,7 +1,8 @@
 ---
 title: "Manage Options for Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "Learn how to change the global settings in Unified Service Desk for Dynamics 365 Customer Engagement."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,7 +22,7 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Manage Options for Unified Service Desk
+# Options for Unified Service Desk
 The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] (**Settings** > **Unified Service Desk** > **Options**) lets you manage global name/value pairs that are used by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components.  
   
 

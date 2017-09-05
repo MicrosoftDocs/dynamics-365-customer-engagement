@@ -1,7 +1,8 @@
 ---
 title: "Administer and manage Unified Service Desk for Dynamics 365 Customer Enagagement | MicrosoftDocs"
+description: "Unified Service Desk administrators can start here to learn how to manage the application."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,7 +23,7 @@ tags:
  - "NoHandoff"
  - "LinksOnlyTopic"
 ---
-# Administer and manage Unified Service Desk
+# Administer and manage overview
 This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that helps you effectively administer and manage your implementation.  
   
 ## In this section  
@@ -36,8 +37,8 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
     
  
 ## See also  
- [Hosted control types, action, and event reference](../../unified-service-desk/hosted-control-types-action-and-event-reference.md)  
+ [Hosted control types, action, and event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
  
-[Configure your agent application using Unified Service Desk](../../unified-service-desk/configure-your-agent-application-using-unified-service-desk.md)  
+[Configure your agent application using Unified Service Desk](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
  [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
