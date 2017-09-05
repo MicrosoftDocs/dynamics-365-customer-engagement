@@ -31,7 +31,7 @@ manager: "brycho"
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
 >   
->  This sample application is useful only if you have set up knowledge management for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](../../customer-service/set-up-knowledge-management.md )  
+>  This sample application is useful only if you have set up knowledge management for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management package, the following components are installed:  
   

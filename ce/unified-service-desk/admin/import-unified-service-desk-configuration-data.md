@@ -56,7 +56,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 -   [Download the Unified Service Desk package](http://go.microsoft.com/fwlink/?LinkID=854761) (self-extracting executable file), and double-click the file to extract the contents. You will use the files under one of the default packages to create a sample application. In this example, you’ll use the files under the Base package (*\<ExtractedFolder>*\USDPackageDeployer\BasePackage).  
   
--   Ensure that you know the prerequisites and how to create a custom package by using the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] SDK template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Dynamics 365 Package Deployer](../../developer/create-packages-package-deployer.md).  
+-   Ensure that you know the prerequisites and how to create a custom package by using the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] SDK template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Dynamics 365 Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
   
 -   [Download the CRM SDK package](http://go.microsoft.com/fwlink/?LinkID=627298) (.exe file), and extract it to locate the `PackageDeployer` folder under the *\<ExtractedFolder>*\SDK\Tools\ folder. This folder contains assemblies required for creating a custom project by using [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   
@@ -92,7 +92,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 6.  Double-click the **ImportConfig.xml** file under **PkgFolder** to edit it. Update the value of the `crmmigdataimportfile` parameter to match the name of the exported file (.zip) that you added in step 5.  
   
-7.  Double-click the **PackageTemplate.cs** file to update the package name and description. For detailed information about this, see [Create packages for the Dynamics 365 Package Deployer](../../developer/create-packages-package-deployer.md) in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] SDK help.  
+7.  Double-click the **PackageTemplate.cs** file to update the package name and description. For detailed information about this, see [Create packages for the Dynamics 365 Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx) in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] SDK help.  
   
 8.  Save your project, and then build it (**Build** > **Build Solution**) to create the package. All the contents in the *\<Project>*\Bin\Debug folder are your package. Note that an assembly file (.dll) is created with the same name as your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project name; this file contains the custom code that that you created in the previous step.  
   

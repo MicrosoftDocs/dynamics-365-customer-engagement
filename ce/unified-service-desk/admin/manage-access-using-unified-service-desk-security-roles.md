@@ -32,4 +32,4 @@ You must assign the two [!INCLUDE[pn_unified_service_desk](../../includes/pn-uni
 ## See also  
  [Create Unified Service Desk Configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)   
  [Access management in Unified Service Desk](../../unified-service-desk/admin/security-unified-service-desk.md)   
- [Privilege and role entities](../../developer/privilege-role-entities.md)
+ [Privilege and role entities](https://msdn.microsoft.com/library/gg328230.aspx)
