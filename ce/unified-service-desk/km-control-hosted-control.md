@@ -1,5 +1,6 @@
 ---
 title: "KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 or Parature in your agent application."
 ms.custom: ""
 ms.date: "2017-02-15"
 ms.reviewer: ""
@@ -24,7 +25,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
   
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  ![KM Control hosted control](../unified-service-desk/media/usd-kmcontrolhostedcontrol.png "KM Control hosted control")  
   
@@ -38,9 +39,9 @@ Use the **KM Control** type of hosted control to display knowledge base articles
   
 -   Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
   
--   The **Display Group** field displays the panel where this hosted control will be displayed. In the knowledge management package, the KM Control is displayed in the **RighPanel**; however, you can choose to display it in the **LeftPanel** or **MainPanel** as per your requirement. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md).  
+-   The **Display Group** field displays the panel where this hosted control will be displayed. In the knowledge management package, the KM Control is displayed in the **RighPanel**; however, you can choose to display it in the **LeftPanel** or **MainPanel** as per your requirement. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
   
- For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  
@@ -80,7 +81,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 |---------------|-----------------|  
 |`name`|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 <a name="MoveToPanel"></a>   
 ### MoveToPanel  
@@ -184,4 +185,4 @@ Use the **KM Control** type of hosted control to display knowledge base articles
  [Leverage Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-or-parature-knowledge-effective-customer-engagement.md)   
  [Configure Parature knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
  [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

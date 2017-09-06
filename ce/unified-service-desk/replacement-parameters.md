@@ -1,7 +1,8 @@
 ---
 title: "Replacement parameters in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -171,7 +172,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
  
  [Execute scripts using scriptlets in Unified Service Desk](../unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk.md)   
  
- [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-using-entity-searches-unified-service-desk.md)   
+ [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md)   
  
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)   
  

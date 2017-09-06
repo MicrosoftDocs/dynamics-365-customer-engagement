@@ -1,7 +1,8 @@
 ---
 title: "Listener Hosted Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
+description: "Learn about using the Listener Hosted Control type of hosted control, introduced in Unified Service Desk 2.0, to configure a custom listener for your auditing, diagnostic, and trace logs."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -25,4 +26,4 @@ Use the `Listener Hosted Control` type of hosted control, introduced in [!INCLUD
  For information about creating and using a `Listener Hosted Control` type of hosted control, see [Use custom listeners for auditing, diagnostics and traces](../unified-service-desk/create-custom-listeners-auditing-diagnostics-traces.md)  
   
 ### See also  
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

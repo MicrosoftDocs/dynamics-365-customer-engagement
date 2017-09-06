@@ -1,7 +1,8 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
+description: "Learn about configuring notifications in unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -220,4 +221,4 @@ The added custom parameter can be used in the form XAML as replacement parameter
 ### See also  
  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)   
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   
- [Get started with configuring your agent application](../unified-service-desk/get-started-with-configuring-your-agent-application.md)
+ [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)

@@ -10,9 +10,9 @@
   
  **[!INCLUDE[pn_customerinsight_full](pn-customerinsight-full.md)]**  
   
- [!INCLUDE[pn_customerinsight_short](pn-customerinsight-short.md)], a service running in              [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)], stores              [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] data, including personally identifiable information about customers, for the purpose of computing output for the Relationship Analytics feature. The preview of [!INCLUDE[pn_customerinsight_short](pn-customerinsight-short.md)] is subject to these [terms of use](https://docs.microsoft.com/dynamics365/customer-insights/aboutpreview).  
+ [!INCLUDE[pn_customerinsight_short](pn-customerinsight-short.md)], a service running in              [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)], stores              [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] data, including personally identifiable information about customers, for the purpose of computing output for the Relationship Analytics feature. The preview of [!INCLUDE[pn_customerinsight_short](pn-customerinsight-short.md)] is subject to these [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   
- [Learn more about the preview of pn_customerinsight_short](https://azure.microsoft.com/en-us/services/customer-insights/).  
+ [Learn more about the preview of Customer Insights](https://azure.microsoft.com/en-us/services/customer-insights/).  
   
  [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric/)  
   

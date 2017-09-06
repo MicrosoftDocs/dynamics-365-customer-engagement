@@ -1,7 +1,8 @@
 ﻿---
 title: "Troubleshoot Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "Learn how to troubleshoot and resolve issues in Unified Service Desk for Dynamics 365 Customer Engagement." 
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,7 +20,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
 ---
-# Troubleshoot Unified Service Desk
+# Debug and troubleshoot
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides robust debugging support by way of a debugger hosted control that provides real time trace information of the underlying executions and lots of libraries with support for diagnostic logging that can be enabled as required. The debugging support is an important feature that will help you effectively troubleshoot and resolve any issues during the configuration, and afterwards during day-to-day operations.  
   
   
@@ -29,6 +30,6 @@ manager: "amyla"
 
  [Debug issues in Unified Service Desk](../../unified-service-desk/debug-issues-unified-service-desk.md )  
   
- [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-actions-and-events.md)  
+ [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-actions-events.md)  
 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)

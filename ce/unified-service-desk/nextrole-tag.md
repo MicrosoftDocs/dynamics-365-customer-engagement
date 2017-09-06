@@ -1,7 +1,8 @@
 ---
 title: "NextRole Tag Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
+description: " The following sample finds a control one position after the second control with a push button role. "
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

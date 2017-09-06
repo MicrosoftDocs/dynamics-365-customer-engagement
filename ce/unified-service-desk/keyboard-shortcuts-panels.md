@@ -1,7 +1,8 @@
 ---
 title: "Keyboard shortcuts for panels in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about the keyboard shortcuts for panels in Unified Service Desk"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -48,7 +49,7 @@ ms.author: "kvivek"
 ```  
   
 > [!NOTE]
->  The standard panel layout in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides pre-configured keyboard shortcuts for the panels, and the  keyboard shortcuts range from Ctrl+1 to Ctrl+9. For information about the standard panel layout and its XAML definition with keyboard shortcuts assigned to different panels, see [Panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md#PanelLayouts)  
+>  The standard panel layout in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides pre-configured keyboard shortcuts for the panels, and the  keyboard shortcuts range from Ctrl+1 to Ctrl+9. For information about the standard panel layout and its XAML definition with keyboard shortcuts assigned to different panels, see [Panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md#PanelLayouts)  
   
 <a name="considerations"></a>   
 ## Things to consider while using keyboard shortcut for panel  
@@ -61,5 +62,5 @@ ms.author: "kvivek"
  The workaround is to inform your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client users, if you use the `IE Process` hosting for your controls, to use the CTRL+UP ARROW keyboard shortcut to move the focus from a `IE Process` hosted control to the main window *before* using the desired panel keyboard shortcut key to ensure that [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] honors the shortcut.  
   
 ### See also  
- [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md)   
+ [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)   
  [Create a custom panel layout](../unified-service-desk/create-custom-panel-layout.md)

@@ -1,7 +1,8 @@
 ---
 title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "Learn how to set client diagnostic logging."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,7 +22,7 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Configure client diagnostic logging in Unified Service Desk
+# Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
   
 -   By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
