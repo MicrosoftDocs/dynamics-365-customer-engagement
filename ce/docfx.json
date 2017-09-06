@@ -52,7 +52,8 @@
         "sales-business/**.*": [ "Sales-Business edition" ],
         "unified-service-desk/**.*": [ "Unified Service Desk" ],
         "developer/online-management-api/**.*": [ "Online Management API" ]
-      }
+      },
+      "contributors_to_exclude": ["buck1ey","bishalgoswami"]
     },
     "template": [],
     "xref": ["_zip/dyn365-dotnet.zip"],
