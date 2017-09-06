@@ -1,7 +1,8 @@
 ---
 title: "Global Manager (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "The Global Manager hosted control type is the core of Unified Service Desk, and an instance of this hosted control is required by Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -23,17 +24,17 @@ manager: "jdaly"
 The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and an instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This hosted control loads and reads all the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] at application startup, interprets the window navigation rules, provides data to the toolbar components and agent scripts, and manages the data for the session. Only a single instance of the **Global Manager** hosted control type can be loaded.  
   
 > [!IMPORTANT]
->  The three sample application packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], `New Environment`, `CRM Web Client`, and `Interactive Service Hub`, come preconfigured with an instance each of the **Global Manager** hosted control type. For information about the sample applications, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](https://technet.microsoft.com/library/dn646924.aspx).  
+>  The three sample application packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], `New Environment`, `CRM Web Client`, and `Interactive Service Hub`, come preconfigured with an instance each of the **Global Manager** hosted control type. For information about the sample applications, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
  In addition to providing interpretation for most of the functions in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the **Global Manager** hosted control type also provides the multi-language features in the system so that you can localize UI strings and messages in your application in multiple languages. For more information, see [Add multilanguage support for your agent applications](../unified-service-desk/add-multilanguage-support-agent-applications.md). It also provides the search provider, which is designed to be generic and adaptable through configuration.  
   
 <a name="CreateGlobal"></a>   
 ## Create a Global Manager hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Global Manager** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Global Manager** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")  
   
- In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **USD Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **USD Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  After you save the record, the **Language Services** area becomes available where you add resources for adding localized strings for your agent application’s UI. For information about how to add language resources, see [Add multilanguage support for your agent applications](../unified-service-desk/add-multilanguage-support-agent-applications.md).  
   
@@ -45,7 +46,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
   
 <a name="Audit"></a>   
 ### Audit  
- Add an audit entry to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] audit logs. For more information, see [Technet: Configure auditing in Unified Service Desk](https://technet.microsoft.com/library/dn633604.aspx)  
+ Add an audit entry to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] audit logs. For more information, see [Configure auditing in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -212,7 +213,7 @@ Param=value
   
 <a name="DoSearch"></a>   
 ### DoSearch  
- Calls the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-using-entity-searches-unified-service-desk.md).  
+ Calls the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -221,7 +222,7 @@ Param=value
 |maxcount|The maximum number of records to store in the EntityList results from this call.|  
   
 > [!NOTE]
->  By default, the page count (number of records per page) for a   result set is set to 50. This implies that if there are more than 50 records returned, it will be displayed in pages. If you want to specify a different page count value for the `DoSearch` action, specify the new value in the **EntitySearchPageCount** option. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://technet.microsoft.com/library/dn864946.aspx)  
+>  By default, the page count (number of records per page) for a   result set is set to 50. This implies that if there are more than 50 records returned, it will be displayed in pages. If you want to specify a different page count value for the `DoSearch` action, specify the new value in the **EntitySearchPageCount** option. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
 >   
 >  When you call the `DoSearch` action, the **$Return** replacement parameter displays the number of records found and stored in EntityList as a result of this search. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [$Return](../unified-service-desk/replacement-parameters.md#Return).  
   
@@ -279,7 +280,7 @@ Param=value
 |---------------|-----------------|  
 |name|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 <a name="GetTemplate"></a>   
 ### GetTemplate  
@@ -598,5 +599,5 @@ Param=value
  [View predefined actions and events for a hosted control](../unified-service-desk/view-predefined-actions-events-hosted-control.md)   
  [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://technet.microsoft.com/library/dn499779.aspx)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+ 

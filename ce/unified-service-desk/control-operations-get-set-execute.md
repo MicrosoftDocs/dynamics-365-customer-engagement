@@ -1,7 +1,8 @@
 ---
 title: "Control Operations (Get, Set, Execute) | MicrosoftDocs"
+description: "The operations on a control are executed based on the patterns the automation element exhibits. This topic describes the operations that can be performed on the controls and the default behavior of these operations for the various controls."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

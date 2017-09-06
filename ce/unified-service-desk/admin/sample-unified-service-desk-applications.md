@@ -1,7 +1,8 @@
 ---
 title: "Sample Unified Service Desk for Dynamics 365 Customer Engagement applications | MicrosoftDocs"
+description: "Discover the sample application available with Unified Service Desk for Dynamics 365 Customer Engagement that you can use to quickly get you started."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,8 +22,8 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Sample Unified Service Desk applications
-To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], four sample applications have been provided that you can deploy to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and then use to understand how to develop an agent application using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+# Use sample applications to get started
+To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], sample applications have been provided that you can deploy to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and then use to understand how to develop an agent application using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
 > [!IMPORTANT]
 > The sample applications are not supported for production use.  

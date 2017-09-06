@@ -1,7 +1,8 @@
 ---
 title: "Popup Notification (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about using the Popup Notifaction hosted control type to display notifications in Unified Service Desk. The notification layout and content is defined as XAML in a Unified Service Desk form instance, and the Popup Notifaction hosted control is used to display and hide the form instance as required"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -26,7 +27,7 @@ Use the **Popup Notifaction** hosted control type to display notifications in [!
   
 <a name="Create"></a>   
 ## Create a Popup Notification hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Popup Notification** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Popup Notification** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  ![Notification Hosted Control](../unified-service-desk/media/usd-notification-hosted-control.png "Notification Hosted Control")  
   
@@ -38,7 +39,7 @@ Use the **Popup Notifaction** hosted control type to display notifications in [!
   
 -   You cannot change the value of the **Application is Dynamic** field. By default, the control is a dynamic hosted control, which allows an agent to start or close a hosted control on demand, either by using the UI or programmatically through code. More information: [Dynamic Unified Service Desk hosted controls](../unified-service-desk/unified-service-desk-hosted-controls.md#Dynamic)  
   
- For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="Actions"></a>   
 ## Predefined UII Actions  
@@ -82,4 +83,4 @@ Use the **Popup Notifaction** hosted control type to display notifications in [!
   
 ### See also  
  [Configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)   
- [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md)
+ [Create a user-defined event](../unified-service-desk/create-user-defined-event.md)

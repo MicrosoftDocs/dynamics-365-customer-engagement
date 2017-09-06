@@ -1,7 +1,8 @@
 ---
-title: "What&#39;s new in Unified Service Desk for developers | MicrosoftDocs"
+title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
+description: "Learn about the new features for developers and customizers in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,8 +20,8 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# What&#39;s new in Unified Service Desk for developers
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for system customizers and developers.  
+# What&#39;s new in Unified Service Desk for developers and customizers
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.  
   
 <a name="WhatsNew3"></a>   
 ## What's new in Unified Service Desk 3.0  

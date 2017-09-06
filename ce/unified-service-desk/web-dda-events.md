@@ -1,7 +1,8 @@
 ---
-title: "WebDDA Events | MicrosoftDocs"
+title: "WebDDA Events in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about using Web data-driven adapter (WebDDA) events that can be used in automations in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -1,7 +1,8 @@
 ---
 title: "FindIEFrame in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "The topic describes the attributes of <FindIEFrame> that searches for an application by its caption and selects a DOM of the window or a specific frame within a window."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

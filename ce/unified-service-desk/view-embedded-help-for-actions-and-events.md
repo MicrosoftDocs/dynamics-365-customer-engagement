@@ -1,7 +1,8 @@
 ---
 title: "View embedded help for actions and events in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -41,5 +42,5 @@ manager: "jdaly"
  ![Embedded help for events](../unified-service-desk/media/crm-itpro-usd-embeddedhelpevents.png "Embedded help for events")  
   
 ### See also  
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-and-events.md)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)

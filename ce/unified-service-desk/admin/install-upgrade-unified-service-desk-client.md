@@ -1,7 +1,8 @@
 ---
 title: "Install the Unified Service Desk for Dynamics 365 Customer Engagement client | MicrosoftDocs"
+description: "Learn how  to install the Unified Service Desk for Dynamics 365 Customer Engagement client."
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,7 +22,7 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Install the Unified Service Desk client
+# Installing the Unified Service Desk client
 Make sure your computer meets all requirements before you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)  
   
  [Download](http://go.microsoft.com/fwlink/p/?LinkId=854761) the appropriate [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client setup file (.exe), and save it on your computer:  
