@@ -60,7 +60,7 @@ The Options tab on the form contains a text area that you can enter custom [!INC
 
 ![Custom JavaScript example](media/custom-javascript-example.png "Custom JavaScript example")  
 
-The list gets its data asynchronously, and when it is complete it will trigger an event `loaded` that your custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] can listen for and do something with items in the grid. The following is a trivial example:
+The list gets its data asynchronously, and when it is complete it will trigger an event `loaded` that your custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] can listen for and do something with items in the grid. The following code is a trivial example:
 ```
 $(document).ready(function (){
 $(".entitylist.entity-grid").on("loaded", function () {
@@ -72,7 +72,7 @@ $(this).css("background-color", "yellow");
 }); 
 ```
 
-Find a particular attribute field and get its value to possibly modify the rendering of the value. The following gets each cell that is for the attribute named `accountnumber`. Replace `accountnumber` with an attribute appropriate for your entity and view.
+Find a particular attribute field and get its value to possibly modify the rendering of the value. The following code gets each table cell that contains the value of the `accountnumber` attribute. Replace `accountnumber` with an attribute appropriate for your entity and view.
 ```
 $(document).ready(function (){
    $(".entitylist.entity-grid").on("loaded", function () {
