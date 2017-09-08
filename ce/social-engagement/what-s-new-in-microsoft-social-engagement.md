@@ -1,7 +1,7 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-ms.date: 08/22/2017
+ms.date: 09/8/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -23,11 +23,13 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.8
 
+[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] extends listening and engagement capabilities to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer allowing you to interact with your company’s audience and analyze the data from your pages directly in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. 
+
 ### Listening and engagement on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
 
-[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now lets you search for all posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. You can add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. After a page admin has added the social profile and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now lets you search for all posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. You can add any [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. After a page admin has added the Page and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Add a LinkedIn Page rule](./add-rules-search-topic.md#linkedin-page-rule)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a LinkedIn Page rule](./add-rules-search-topic.md#linkedin-page-rule)
 
 ### Service and product improvements
 
