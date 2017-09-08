@@ -460,9 +460,9 @@ Date filters can be used for date arithmetic or to convert DateTime values into 
 
 Formats a DateTime value using a .NET format string.
 
-[*Standard Date and Time Format Strings*](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)  
+[Standard Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)  
 
-[*Custom Date and Time Format Strings*](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)  
+[Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)  
 
 **Code**
 

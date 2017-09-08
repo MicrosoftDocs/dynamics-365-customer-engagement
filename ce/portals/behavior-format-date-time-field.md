@@ -34,4 +34,4 @@ You can also override the default date/time format to be used on portals by crea
 - DateTime/DateTimeFormat: The format for full date and time used on the portal.
 
 By default, the portal uses the standard date/time formats specified by the website language settings.
-The accepted date/time formats are specified [here](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+The accepted date/time formats are specified [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings).

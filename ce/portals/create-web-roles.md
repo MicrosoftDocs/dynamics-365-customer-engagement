@@ -47,11 +47,11 @@ Now that the Web Role has been created, you will be able to configure it to meet
 ## Customize [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal forms, dashboards, and reports
 If you want to customize any of the portal forms, dashboards, or reports, you can find more information about customizing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] in the following links:
 
--   [TechNet: Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
--   [TechNet: Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
--   [TechNet: Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
--   [TechNet: Create and edit processes](https://technet.microsoft.com/library/dn531144.aspx)  
--   [TechNet: Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
+-   [Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
+-   [Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
+-   [Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
+-   [Create and edit processes](https://technet.microsoft.com/library/dn531144.aspx)  
+-   [Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
 
 
 ## Change the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, audience, or type of portal
