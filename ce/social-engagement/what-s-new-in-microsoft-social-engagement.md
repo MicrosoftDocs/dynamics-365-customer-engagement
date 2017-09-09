@@ -11,7 +11,7 @@ ms.author: mhart
 manager: sakudes
 ---
 
-# What's new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
+# What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Here's a list of features we added recently.
 
