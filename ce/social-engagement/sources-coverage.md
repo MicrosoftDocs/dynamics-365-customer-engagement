@@ -96,6 +96,6 @@ Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtub
 
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
-### See Also  
+### See also  
 [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
 [Refine your search rules to find relevant content](../social-engagement/refine-search-rules.md)
