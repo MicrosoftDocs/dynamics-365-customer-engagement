@@ -195,7 +195,7 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
 ## Add a Twitter rule  
 Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule to see tweets, mentions, replies, or retweets in a search topic.  
   
-[//]: # (In step 5 of this and the Instagram procedure, why do you call it a "Twitter @username"? Is that in the UI?)
+[//]: # (In step 5 of this and the Instagram procedure, why do you call it a "Twitter @username"? Is that in the UI? In the "Manage social profiles" topic they were called Twitter accounts and Instagram accounts.)
 ### Add a new Twitter rule  
   
 1.  Go to **Search Setup**.  
