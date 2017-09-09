@@ -89,7 +89,7 @@ You can allow Power Analysts and Administrators to create rules for direct messa
   
 5.  After the profile is successfully authenticated, you'll find it on the **Social Profiles** page under **Owned profiles**.  
   
-[//]: # (For the following H3s, I used "account" rather than "user" because that seems to be what the UI says. Also I wanted these headings all to be parallel, since they're all similar in intent.)
+[//]: # (For the following H3s, I used "account" rather than "user" because that seems to be what the UI says. Although, see related query about @username in "Add rules to a search topic." Also I wanted these headings all to be parallel, since they're all similar in intent.)
 [//]: # (In most of the procedures below, the button in step 2 is called simply "Add", but above it's called "Add social profile." Shouldn't they be the same?)
 [//]: # (Same comment about step 6 applies. I don't see that the data retention topic is the most relevant one in this context, but I could certainly be wrong.)
 ### Add a Twitter account to your social profiles  
