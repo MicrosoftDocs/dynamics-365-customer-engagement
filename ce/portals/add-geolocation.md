@@ -2,7 +2,7 @@
 title: "Add geolocation to a managed form in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add geolocation to a managed form."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

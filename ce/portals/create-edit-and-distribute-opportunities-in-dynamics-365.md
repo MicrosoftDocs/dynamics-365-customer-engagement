@@ -2,7 +2,7 @@
 title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
 description: "Learn about how you can use opportunities to notify your partners of sales prospects that they can follow up on."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

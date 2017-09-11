@@ -2,7 +2,7 @@
 title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage web links in Dynamics 365 or on portals."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

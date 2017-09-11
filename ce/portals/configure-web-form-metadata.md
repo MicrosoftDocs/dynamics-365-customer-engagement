@@ -2,7 +2,7 @@
 title: "Web form metadata for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure web form metadata for a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -2,7 +2,7 @@
 title: "Create and run advertisements on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create text or image-based advertisements and have them run in multiple placements throughout your site."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
