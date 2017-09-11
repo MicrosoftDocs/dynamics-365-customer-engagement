@@ -1,21 +1,24 @@
 ---
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
-ms.date: 08/23/2017
+keywords: "search topic, search rule, Social Engagement"
+ms.date: 09/11/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Add rules to a search topic
 Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.
 
-[//]: # (The permissions token doesn't really fit here because it's not followed by a task. Perhaps you could just say "You need to be a Social Engagement Administrator or Power Analyst to create or modify search topics.")
-[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports the following search rules. [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports the following search rules. 
+You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md) Administrator or Power Analyst to create or modify search topics.
 
 - **[Keywords rule](#add-a-keywords-rule)** ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query that consists of keywords, inclusions, and exclusions.
 
@@ -121,8 +124,7 @@ Sometimes a specific word or phrase can overwhelm your results with irrelevant p
   
 For example, let's assume that you're not interested in discounts or offers around Contoso's product. To avoid results that contain either **discounts** or **offers**, add those terms to the search rule's exclusions. All posts that mention at least one of the exclusions in the same post as a keyword will no longer be included in the results from this rule.  
   
-[//]: # (Please check this edit carefully! I looked at the original for a long time. Another way to put it might be: To exclude multiple terms, the exclusions must be added to the same search rule. If one rule searches for **Contoso** while excluding **discounts** and another rule searches for **Contoso** while excluding **offers**, the search topic will only exclude all posts mentioning **Contoso** that contain both **discounts** and **offers**. If the rule searches for **Contoso** while excluding **discounts, offers**, the search topic will exclude all posts mentioning **Contoso** that contain either **discounts** or **offers**, which is what you want.)
-To exclude multiple terms, the exclusions must be added to the same search rule. If one rule searches for **Contoso** while excluding **discounts** and another rule searches for **Contoso** while excluding **offers**, the search topic will select all posts mentioning **Contoso** that don't contain both **discounts** and **offers**. If the rule searches for **Contoso** while excluding **discounts, offers**, the search topic will select all posts mentioning **Contoso** that don't contain either **discounts** or **offers**, which is what you want.  
+To exclude multiple terms, the exclusions must be added to the same search rule. If one rule searches for **Contoso** while excluding **discounts** and another rule searches for **Contoso** while excluding **offers**, the search topic will only exclude all posts mentioning **Contoso** that contain both **discounts** and **offers**. If the rule searches for **Contoso** while excluding **discounts, offers**, the search topic will exclude all posts mentioning **Contoso** that contain either **discounts** or **offers**, which is what you want.  
   
 > [!TIP]
 >  You can exclude terms from all active search rules in one step by adding a term to the list of blocked content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
@@ -148,13 +150,11 @@ Authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_in
 For example, searching for the term **#contoso** will only find results that contain the exact match of the hashtag.  
   
 ### Limitations on topic names, keywords, inclusions, and exclusions  
-[//]: # (Edit from "search queries" to "search rules" okay?)
-[//]: # (In the second bullet, do you mean that a keyword, an inclusion, and an exclusions each can only be 128 characters? Or is that the maximum for all three together? If it's the latter, might it be better stated as "Maximum length, in characters, of keyword, inclusion, and exclusion per search rule: 128"?)
 Although you can create an unlimited number of search rules per search topic, there are limits on the length and number of terms:  
   
 -   Maximum length, in characters, of search topic names: 35  
   
--   Maximum length, in characters, per keyword, inclusion, and exclusion: 128  
+-   Maximum length, in characters, per keyword, inclusion, or exclusion: 128  
   
 -   Maximum number of keywords per search rule: 15  
   
@@ -195,7 +195,6 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
 ## Add a Twitter rule  
 Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule to see tweets, mentions, replies, or retweets in a search topic.  
   
-[//]: # (In step 5 of this and the Instagram procedure, why do you call it a "Twitter @username"? Is that in the UI? In the "Manage social profiles" topic they were called Twitter accounts and Instagram accounts.)
 ### Add a new Twitter rule  
   
 1.  Go to **Search Setup**.  
@@ -315,11 +314,9 @@ Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtub
   
 6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
 
-[//]: # (Suddenly we're using "select" instead of "click". I like it!)
 <a name="linkedin-page-rule"></a> 
 ## Add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page rule
 
-[//]: # (Notice the link in the note in step 5--it doesn't go down two levels to the social-engagement folder and back up again like the others do. I see that they all work, but what is the reason for the difference? I can't figure it out.)
 Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages that you administer.
 
 1. Go to **Search Setup**.  
