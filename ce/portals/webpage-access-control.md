@@ -2,7 +2,7 @@
 title: "Control webpage access for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create web page access control rules for a portal."
 ms.custom: ""
-ms.date: 08/11/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
