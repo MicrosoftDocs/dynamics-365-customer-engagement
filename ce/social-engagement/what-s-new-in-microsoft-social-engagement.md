@@ -1,14 +1,17 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-ms.date: 09/8/2017
+keywords: ""
+ms.date: 09/11/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
@@ -23,7 +26,6 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.8
 
-[//]: # (Style Guide doesn't want us to focus on what our products "allow," but rather on what the user can do.)
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] extends listening and engagement capabilities to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer, so you can interact with your company's audience and analyze the data from your pages directly in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. 
 
 ### Listening and engagement on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
@@ -80,8 +82,6 @@ We've added an Engagement Analytics report to our recently introduced [!INCLUDE[
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Microsoft Social Engagement content pack for Power BI](../social-engagement/get-content-pack-for-power-bi.md) 
 
-[//]: # (Is it called a "card" throughout MSE content?)
-[//]: # (Michael to check for consistency and suggest changes if needed.)
 ### Improved usability in Social Selling Assistant
 
 The Social Selling Assistant user experience got its first polishing pass, and now the **Done** button appears next to the other actions at the bottom of the card. 
