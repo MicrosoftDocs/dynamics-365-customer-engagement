@@ -1,30 +1,31 @@
 ---
 title: "Manage social profiles | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
-ms.date: 08/22/2017
+keywords: ""
+ms.date: 09/11/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Manage social profiles
 *Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
-[//]: # (Is there a reason not to mention LinkedIn and YouTube here?)
- By using these social profiles you can reply, comment, like a post, or share messages on social media. Currently, you can authenticate [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles, and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts for use from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+By using these social profiles you can reply, comment, like a post, or share messages on social media. 
   
- Data acquisition and acquisition of private messages from your social profiles require access tokens, and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are posted on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
+Data acquisition and acquisition of private messages from your social profiles require access tokens, and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are posted on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
 
- [//]: # (Suggest moving the last bullet so you explain that profiles can have multiple owners before you talk about deleting that type of profile.) 
 > [!IMPORTANT]
 >  -   All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an interaction role of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+>  -   A social profile can have multiple owners. Every owner has the same level of access privileges. 
 >  -   Make sure you have the correct credentials before you attempt to add a social profile or claim ownership for an existing profile.  
 >  -   You can own social profiles by adding them to the solution. You can share the profiles you own with other users, and stop sharing them or delete them when you don't need them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work), [Delete a social profile](../social-engagement/manage-social-profiles.md#deleteasocialprofile)  
->  -   A social profile can have multiple owners. Every owner has the same level of access privileges.  
 >  -   You can delete both the profiles you own and any profile where you are one of its multiple owners. If a profile is shared with you, you can post on social media by using this profile, but you can’t remove it from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work)  
   
 ## Types of social profiles you can manage  
@@ -58,7 +59,7 @@ manager: sakudes
 >  When you plan to engage with a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], make sure that you have the appropriate permissions for that profile. For [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)  
   
 [//]: # (Step 5 in this procedure is slightly different from the steps under "Add a LinkedIn Organization Page to your social profiles" and I wonder if they should be more alike. By "you can select from the list of Facebook pages...", are you setting up one more step? When you say "after you add the Facebook page...," do you mean that the user needs to select **Save** like they do in the LinkedIn Org Page procedure?)
-[//]: # (Also in step 5, I'm a bit mystified by the "More information" link to the topic about data retention; I think it's misplaced. I changed step 6 to flat prose because it isn't a step or an optional step in the process of adding a Facebook page profile. However, it seems like a good place to put a cross-reference. Suggest "Add rules to a search topic." I suspect the cross-ref to the data retention topic was meant to go here because there's a similar construction in the "Add a Twitter account..." topic. Which please see.)
+[//]: # (It's an additional step compared to LinkedIn. For FB, admin authenticates account, then selects pages to add for social profile. For LI, user authenticaes a user account exclusively.)
 <a name="addfacebookpage"></a>   
 ### Add a Facebook page to your social profiles  
   
@@ -73,7 +74,7 @@ manager: sakudes
     > [!NOTE]
     >  You must be an administrator for this [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to authenticate it.  
   
-5.  After the profile is successfully authenticated, you can select from the list of [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages that the authenticated user administers. After you add the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page, you can find it on the **Social Profiles** page under **Owned profiles**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
+5.  After the profile is successfully authenticated, you can select from the list of [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages that the authenticated user administers. After you add the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page, you can find it on the **Social Profiles** page under **Owned profiles**. 
   
 You can allow Power Analysts and Administrators to create rules for direct messages from this social profile in a search topic. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](../social-engagement/add-rules-search-topics.md) 
   
@@ -89,14 +90,11 @@ You can allow Power Analysts and Administrators to create rules for direct messa
   
 5.  After the profile is successfully authenticated, you'll find it on the **Social Profiles** page under **Owned profiles**.  
   
-[//]: # (For the following H3s, I used "account" rather than "user" because that seems to be what the UI says. Although, see related query about @username in "Add rules to a search topic." Also I wanted these headings all to be parallel, since they're all similar in intent.)
-[//]: # (In most of the procedures below, the button in step 2 is called simply "Add", but above it's called "Add social profile." Shouldn't they be the same?)
-[//]: # (Same comment about step 6 applies. I don't see that the data retention topic is the most relevant one in this context, but I could certainly be wrong.)
 ### Add a Twitter account to your social profiles  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
   
 3.  In the list, click **Twitter Account**, and then click **Add**.  
   
@@ -104,7 +102,7 @@ You can allow Power Analysts and Administrators to create rules for direct messa
   
 5.  After the profile is successfully authenticated, you’ll find it on the **Social Profiles** page under **Owned profiles**.  
   
-You can allow Power Analysts and Administrators to create rules for the direct messages from this social profile in a search topic. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
+You can allow Power Analysts and Administrators to create rules for the direct messages from this social profile in a search topic. 
   
 ## Add an Instagram account to your social profiles  
   
@@ -123,7 +121,7 @@ You can allow Power Analysts and Administrators to create rules for the direct m
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
   
 3.  In the list, click **LinkedIn Account**, and then click **Add**.  
   
@@ -138,7 +136,7 @@ Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
   
 3.  In the list, click **LinkedIn Page**, and then click **Add**.  
   
@@ -204,18 +202,14 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
   
 4.  Confirm your selection.  
   
-[//]: # (In step 2, if you're really talking about one list or another, can you please list them that way? That is, "In the **Owned profiles** or **Profiles without owners** list, find the..." Same idea in the next procedure. Style guide doesn't like us to use the slash instead of "or".)
-[//]: # (I suggest moving the Caution after step 3. Cautions, Tips, and Notes aren't classically the first thing you find in a section.)
-[//]: # (This is a perfect place for the cross-reference to the data retention topic! I've got no objections.)
 <a name="deleteasocialprofile"></a>   
 ## Delete a social profile  
   
-> [!CAUTION]
->  You can delete a social profile that you own. You can also delete a social profile that has multiple owners. Always be careful not to delete any profiles that are in use by other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] users.  
+You can delete a social profile that you own. You can also delete a social profile that has multiple owners. Always be careful not to delete any profiles that are in use by other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] users.  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  In the list of **Owned Profiles/Profiles without owners**, find the social profile that you want to delete.  
+2.  In the list of **Owned Profiles**, find the social profile that you want to delete.  
   
 3.  Click **Delete** (![Delete button](../social-engagement/media/trashbin-icon.png "Delete button")) next to the social profile name, and then click **Save**.  
   
@@ -227,7 +221,7 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  In the list of **Shared Profiles/Profiles without owners**, select the social profile that you want to claim ownership of.  
+2.  In the **Shared Profiles** or **Profiles without owners** list, select the social profile that you want to claim ownership of.  
   
 3.  In the profile details pane, click **Claim ownership** (![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement")).  
   
