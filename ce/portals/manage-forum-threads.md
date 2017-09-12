@@ -2,7 +2,7 @@
 title: "Manage forum threads in a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 05/22/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,14 +25,14 @@ You can create, edit, and delete forum threads in [!INCLUDE[pn-dynamics-crm](../
 ### Create or Edit forum threads
 1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**.
-3. Select **Forum Threads**.
-    - To create a new thread, select **New**.
-    - To edit an existing thread, double-click to select the **Forum Thread** listed in the grid and specify values for the fields provided.
+3. Click **Forum Threads**.
+    - To create a new thread, click **New**.
+    - To edit an existing thread, double-click on the **Forum Thread** listed in the grid and specify values for the fields provided.
 
     > [!Note]                                
     > You will need to create the original [forum posts](create-forum-posts.md) to be associated with this thread and assign the newly created forum post record to the **First Post** and **Last Post** lookup fields provided.  
 
-4.  Select **Save & Close**.
+4.  Click **Save & Close**.
 
 ## Create forum threads on the portal
 
@@ -42,7 +42,7 @@ The forum thread editor will appear automatically when a user has successfully s
 2. Specify a **Thread Title**.
 3. Specify a Thread Type.
 4. Compose the content of the thread in the rich text editor.
-5. Select **Create this thread**.
+5. Click **Create this thread**.
 
 ![Create a new forum thread](media/create-new-forum-thread.png "Create a new forum thread")  
 
@@ -70,9 +70,9 @@ The table below explains many of the Forum Thread attributes used by Portals. It
 
 1. Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**. 
-3. Select **Forum Thread Types**.
-- To create a new thread type, select **New**.
-- To edit an existing thread type, double-click to select the **Forum Thread Type** listed in the grid, specify values for the fields provided, and then select **Save & Close**.
+3. Click **Forum Thread Types**.
+- To create a new thread type, click **New**.
+- To edit an existing thread type, double-click on the **Forum Thread Type** listed in the grid, specify values for the fields provided, and then click **Save & Close**.
 
 ## Forum thread type attributes
 

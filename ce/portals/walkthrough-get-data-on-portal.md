@@ -1,8 +1,8 @@
 ---
-title: "Walkthrough: Get Dynamics 365 data on the portal | MicrosoftDocs"
-description: "Step-by-step instructions with examples to get your Dynamics 365 data on the portal."
+title: "Walkthrough: Get Dynamics 365 data on the Portal | MicrosoftDocs"
+description: "Step-by-step instructions with examples to get your Dynamics 365 data on the Portal."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 06/07/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -53,7 +53,7 @@ For this demonstration, let’s consider a scenario in which Contoso, Inc. would
     >[!Note]
     >The Child Page can also be created via [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], depending on the user’s preference.
 
-6. To allow users to easily navigate to the form: In the portal, edit the Primary Navigation and then select the **+** icon to add a new web link to the form. Name the web link **Suggestions** and assign it to the **Suggestions** page.
+6. If desired, in the portal, edit the Primary Navigation and then click the “+” icon to add a new web link to the form. Name the web link “Suggestions” and assign it to the “Suggestions” page. This will allow users to easily navigate to the form.
 
 When a user visits the Contoso portal, navigates to this created form, enters the relevant data, and submits it, a new record will automatically be generated in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] with the submitted information.
 
@@ -93,7 +93,7 @@ Building on the previous example of the administrator of Contoso, Inc. creating 
 
 3. In the portal, create a new child page named “Suggestions List”. Set its **Page Template** value to **Full Page**, set its **Entity List** value to “Suggestions List”, and addan introduction to the exposed view.
 
-4. If you want, in the portal, edit the **Primary Navigation** and then select the **Add** button (+) to add a new web link to the list. Name the web link **Suggestions List** and assign it to the **Suggestions List** page. You can drag the previously created **Suggestions** form link underneath the new list link to become a child.
+4. If you want, in the portal, edit the **Primary Navigation** and then click the **Add** button (+) to add a new web link to the list.  Name the web link “Suggestions List” and assign it to the “Suggestions List” page.  You can drag the previously created “Suggestions” form link underneath the new list link to become a child.
 
 Beyond the simplistic setup that was discussed earlier, Entity Lists support many other options, including (but not limited to):
 - Allow users to filter and search the records within that respective entity on the portal.
@@ -122,14 +122,14 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
     3. A custom field entitled “Contoso Ltd. Rating” of data type **Option Set**. For **Use Existing Option Set**, select **Yes** and from the drop-down list, select **Likert Scale Quality**.
     4. To track the current portal user filling out the survey, a custom field entitled “Regarding Contact” of data type “Lookup” and target record of “Contact”.
 
-4. Open the main **Information** form underneath the **Survey** entity, select the **General** tab, and then select **Change Properties**. On the **Formatting** tab, select **One Column**, and then select **OK**.
+4. Open the main “Information” form underneath the “Survey” entity, click the **General** tab, and then click **Change Properties**. On the **Formatting** tab, select **One Column**, and then click **OK**.
 
-5. Switch to the **Insert** tab of the **Information** form, select **Section**, and choose **Two Columns**. Move the default Name and Owner fields to this section and delete the old one.  Open the properties of the Name field and clear the **Visible by default** option on the **Display** tab.
+5. Switch to the “Insert” tab of the “Information” form, click “Section”, and choose “Two Columns”. Move the default Name and Owner fields to this section and delete the old one.  Open the properties of the Name field and clear the “Visible by default” option on the “Display” tab.
 
     ![Create a survey form to facilitate the survey questions and responses.](media/create-custom-survey-form.png "Create a survey form to facilitate the survey questions and responses.")
 
-6. Save the form, then select **Save As** in the ribbon to create a copy of the form named **Survey Step 2**. Select **Save As** again to create another copy named **Survey Step 1**.
-7. Open the **Survey Step 1** form, switch to the **Insert** tab, and then select **Section** > **Two Columns**.  
+6. Save the form, then click **Save As** in the ribbon to create a copy of the form named “Survey Step 2”. Click **Save As** again to create another copy named “Survey Step 1”.
+7. Open the “Survey Step 1” form, switch to the **Insert** tab, and then click **Section** > **Two Columns**.  
 
 8. Open the properties of the new section, change its label to “Which is your favorite suggestion for a future Contoso improvement?”, and select the checkbox for **Show the label of this section on the form** option.  
 
@@ -147,7 +147,7 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
 
 14. Within the **Survey forms** area, choose **Form Order** > **Main Form Set**.  This will allow you to configure the form order to work in a sequence of Information > Survey Step 1 > Survey Step 2.
 
-15. On the main **Information** form and the **Insert** tab, select **Section** > **Two Columns**.  
+15. On the main Information form and the Insert tab, click **Section** > **Two Columns**.  
 
 16. Open the properties of the new section, change its label to “Which is your favorite suggestion for a future Contoso improvement?”, and checkthe box for **Show the label of this section on the form** option.  Drag the “Extended Support Hours”, “New Products”, and “More Stores” fields to this section.
 
@@ -155,17 +155,17 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
 
     Repeat the step of adding a section, but this time choose a one-column section.  Drag the “Contoso Ltd. Rating” field to this section, then open the properties of the field on the form and change its label to “Tell us how we're doing! Please rate the quality of Contoso Ltd.’s various series of products.”
 
-    Finally, drag the **Regarding Contact** field to the first section of the **General** tab to track which user filled out the survey. Save and close the form, and then select **Publish All Customizations**.
+    Finally, drag the Regarding Contact field to the first section of the General tab to track which user filled out the survey. Save and close the form, then click **Publish All Customizations**.
 
     ![The main Information form with all survey fields added to it.](media/create-survey-main-form.png "The main Information form with all survey fields added to it.")
 
 17. Go to **Portals** > **Web Forms** and create a new web form entitled “Contoso Ltd. Survey”.  Set the Authentication Required field to Yes and the Multiple Records Per User Permitted field to No, then save the form, but keep it open.
 
 18. On the “Contoso Ltd. Survey” Web Form record:
-    1. Open the **Start Step** lookup field, and select **New** to create a new Web Form Step.
-    2. Name the step **Survey Step 1**.
-    3. Set the **Target Entity Logical Name** to **Survey (new_survey)**.
-    4. Set the **Form Name** to **Survey Step 1**.
+    1. Open the Start Step lookup field and then click **New** to create a new Web Form Step.
+    2. Name the step as “Survey Step 1”.
+    3. Set the Target Entity Logical Name to “Survey (new_survey)”.
+    4. Set the Form Name to “Survey Step 1”.
     5. Select the **Associate Current Portal User** check box.
     6. Set the Target Entity Portal User Lookup Attribute to “Regarding Contact (new_regardingcontact)”.
     7. Save the form, but keep it open.
@@ -173,19 +173,19 @@ The best way to fully grasp how a Web Form is used within a portal is to provide
         ![The first step of the survey form created.](media/survey-step-1-form.png "The first step of the survey form created.")
 
 19. On the “Survey Step 1” Web Form Step record:
-    1. Open the **Next Step** lookup field, and select **New** to create a new Web Form Step.
-    2. Name the step **Survey Step 2**.
-    3. Set the Web Form to **Contoso Ltd. Survey**.
-    4. Set the **Target Entity Logical Name** to **Survey (new_survey)**.
-    5. Set the **Mode** to **Edit**.
-    6. Set the **Form Name** to **Survey Step 2**.
-    7. Set the **Source Type** to **Result From Previous Step**.
-    8. Set the **Success Message** to “Thank you for taking the time to complete this survey!
-    9. Make sure that the **Next Step** field is blank, and then save the form, but keep it open.
+    1. Open the **Next Step** lookup field and click **New** to create a new Web Form Step.
+    2. Name the step as “Survey Step 2”.
+    3. Set the Web Form to “Contoso Ltd. Survey”.
+    4. Set the Target Entity Logical Name to “Survey (new_survey)”.
+    5. Set the Mode to “Edit”.
+    6. Set the Form Name to “Survey Step 2”.
+    7. Set the Source Type to “Result From Previous Step”.
+    8. Set the Success Message to “Thank you for taking the time to complete this survey!
+    9. Make sure that the Next Step field is blank then save the form, but keep it open.
 
 20. On the “Survey Step 2” Web Form Step record:
-    1. Select the rightmost chevron in the main [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] navigation and select **Metadata** to open the Web Form Metadata Associated View underneath the “Survey Step 2” record.
-    2. Select **Add New Web Form Metadata** and set the **Attribute Logical Name** on this new record to **Contoso Ltd. Rating (new_contosoltdrating)** and the **Style** to **Option Set as Horizontal Radio Button List**.
+    1. Click the far-right chevron in the main [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] navigation and select **Metadata** to open the Web Form Metadata Associated View underneath the “Survey Step 2” record.
+    2. Click **Add New Web Form Metadata** and set the Attribute Logical Name on this new record to “Contoso Ltd. Rating (new_contosoltdrating)” and the Style to “Option Set as Horizontal Radio Button List”.
     3. Save and close all the open forms.
 
         ![The second step of the survey form created.](media/survey-step-2-form.png "The second step of the survey form created.")

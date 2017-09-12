@@ -2,7 +2,7 @@
 title: "Use Liquid filters for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 05/22/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -460,9 +460,9 @@ Date filters can be used for date arithmetic or to convert DateTime values into 
 
 Formats a DateTime value using a .NET format string.
 
-[Standard Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)  
+[*Standard Date and Time Format Strings*](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx)  
 
-[Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)  
+[*Custom Date and Time Format Strings*](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)  
 
 **Code**
 

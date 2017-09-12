@@ -2,7 +2,7 @@
 title: "Subscribe to alerts on a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 05/22/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,21 +23,21 @@ Depending on the page template implemented by your developer, the functionality 
 
 ## Subscribe to alerts in the portal
 
-Users can indicate they wish to receive notification when new posts are created by navigating to a forum thread and selecting the **Alert Me** link.
+Users can indicate they wish to receive notification when new posts are created by navigating to a forum thread and clicking the **Alert Me** link.
 
 1. Login to the **Portal**.
 2. Navigate to a **Forum Thread**.
-3. Select **Subscribe**.
+3. Click **Subscribe**.
 
 ![Subscribe to alerts](media/subscribe-alerts.png "Subscribe to alerts")  
 
 ## Unsubscribe from alerts in the portal
 
-Users can indicate that they do not wish to receive notification when new posts are created for a given thread by navigating to the forum thread and selecting the **RemoveAlert** link.
+Users can indicate that they do not wish to receive notification when new posts are created for a given thread by navigating to the forum thread and clicking the **RemoveAlert** link.
 
 1. Login to the **Portal**.
 2. Navigate to a **Forum Thread**.
-3. Select **Unsubscribe**.
+3. Click **Unsubscribe**.
 
 ![Unsubscribe from alerts](media/unsubscribe-alerts.png "Unsubscribe from alerts")  
 
@@ -47,19 +47,19 @@ Although the portal is the primary source for creating or removing alerts. Forum
 
 1.  Login to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**.
-3. Select **Forum Threads**.
-4. Select an existing **Forum Thread** listed in the grid. 
-5. Select **Forum Alerts** in the leftmost navigation menu.
+3. Click **Forum Threads**.
+4. Double-click on an existing **Forum Thread** listed in the grid. 
+5. Click **Forum Alerts** in the leftmost navigation menu.
 
 ### Create a new alert subscription
 
-1. Select **Add New Forum Alert**.
+1. Click **Add New Forum Alert**.
 
 ### Edit an existing alert
 
-1. Select the **Forum Alert** listed in the grid.
+1. Double-click on the **Forum Alert** listed in the grid.
 2. Specify values for the fields provided.
-3. Select **Save & Close**.
+3. Click **Save & Close**
 
 ## Attributes relationships
 
