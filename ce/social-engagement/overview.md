@@ -1,7 +1,7 @@
 ---
 title: "Introduction and overview on Social Engagement and related scenarios | Microsoft Docs"
 description: "Learn about Social Engagement and get started using the service."
-ms.date: 2017-07-10
+ms.date: 09/12/2017
 applies_to: "Social Engagement"
 ms.service: mse
 ms.topic: article
@@ -10,6 +10,7 @@ author: "m-hartmann"
 ms.author: mhart
 ms.manager: sakudes
 ---
+
 # Connect with customers. Empower your organization. Create real results.
 
 The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.
@@ -86,7 +87,7 @@ Have a look at these additional assets that are waiting for you.
 
 -   [Nick Fratello's video: Social Engagement customer care demonstration](https://www.youtube.com/watch?v=OIkSl6R5APo)
 
--   [Jesper Osgaard's Microsoft Lystaveln](https://blogs.technet.microsoft.com/lystavlen/tag/microsoft-social-engagement/) covers many Microsoft products and services. Be sure to bookmark his blog.
+-   [Jesper Osgaard's Microsoft Lystavlen](https://blogs.technet.microsoft.com/lystavlen/tag/microsoft-social-engagement/) covers many Microsoft products and services. Be sure to bookmark his blog.
 
 ### See also
 

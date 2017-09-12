@@ -1,15 +1,19 @@
 ---
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
 description: "Learn how to work with events in Event Hubs."
-ms.date: 2017-08-08
+keywords: ""
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 80d207d4-f2df-4a04-8e39-5d09d3f44005
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Work with events from Social Engagement in Azure Event Hubs
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] lets you stream posts to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] and empowers you with data, so unleash your creativity! The options that [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] offer are huge. Benefit from a simple data format and highly performant cloud services to work with your data with endless possibilities. Build your own apps, connect your data with other data sources, and step into big data analysis.  
   

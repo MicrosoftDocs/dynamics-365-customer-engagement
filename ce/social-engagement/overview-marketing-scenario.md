@@ -1,7 +1,7 @@
 ---
 title: "Social Engagement scenarios for the marketing department | Microsoft Docs"
 description: "Review marketing scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
-ms.date: 2017-07-10
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

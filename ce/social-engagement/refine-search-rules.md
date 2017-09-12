@@ -1,7 +1,7 @@
 ---
 title: "Find more relevant content | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
-ms.date: 2017-08-07
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
