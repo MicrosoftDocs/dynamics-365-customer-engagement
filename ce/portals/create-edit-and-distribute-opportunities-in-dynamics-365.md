@@ -1,8 +1,8 @@
 ---
 title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn about how you can use opportunities to notify your partners of sales prospects that they can follow up on."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,10 +23,10 @@ Distributing opportunities to specific partners can also help connect customers 
 ## Create an opportunity
 
 1. Go to **Sales** &gt; **Opportunities**. 
-2. Click **New**. 
+2. Select **New**. 
 3. In the **Summary** area of the Opportunity page, enter the topic and contact information for the opportunity. You can also change the currency for the opportunity. 
 4. Add any details in the **Customer Situation**, **Customer Need**, and **Proposed Solution** fields. 
-5. Click **Save**.
+5. Select **Save**.
 
 ## Distribute an opportunity
 
@@ -36,19 +36,19 @@ Distribute opportunities manually when you know which partner you want to assign
 
 ### Distribute opportunities manually
 1. Go to **Sales** &gt; **Opportunities**.
-2. Click the opportunity you want to edit.
+2. Select the opportunity you want to edit.
 3. In the **Partner Details** area of the Opportunity page, enter the partner account you want to distribute the opportunity to in the **Partner** field.
 4. Change the **Status** of the opportunity to **Delivered**.
-5. Click **Save**.
+5. Select **Save**.
 
 ### Distribute opportunities to multiple partners
 
-1.  Go to **Sales &gt; Opportunities**.
-2.  Click the opportunity you want to edit.
-3.  Under the **General** tab in the **Partner Pipelin**e section, select the **Partner Collaboration** checkbox.
-4.  Scroll down to the **Partner Collaboration Accounts** section and press the **+** button to add the partners you want to distribute the opportunity to.
+1.  Go to **Sales** &gt; **Opportunities**.
+2.  Select the opportunity you want to edit.
+3.  Under the **General** tab in the **Partner Pipeline** section, select the **Partner Collaboration** check box.
+4.  Scroll down to the **Partner Collaboration Accounts** section, and select the **+** button to add the partners you want to distribute the opportunity to.
 5.  Change the **Status** of the opportunity to **Accepted**.
-6.  Click **Save**.
+6.  Select **Save**.
 
 ## Enable partners to view the progress of an opportunity
 
@@ -64,6 +64,7 @@ After an opportunity has been properly distributed to a partner, information on 
 
 ## Register a deal for a new or existing opportunity
 
+[//]: # (In the next two paragraphs, I think instead of "Dynamics" it should be a token for Dynanics 365.)
 Partners can register deals for opportunities that they have made on the portal to have exclusivity on the opportunity. Partners first navigate to the opportunity they have created on the portal and find the “Register” button at the bottom of the page. This creates a Deal Registration Request that can be seen on the opportunity in Dynamics.
 
 ## Approve opportunities registered by a partner

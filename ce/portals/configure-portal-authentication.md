@@ -1,8 +1,8 @@
 ---
 title: "Configure portal authentication in Dynamics 365  | MicrosoftDocs"
-description: ""
+description: "Learn about how to configure authentication for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

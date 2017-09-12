@@ -1,8 +1,8 @@
 ---
 title: "Create web roles for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to create web roles for a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,10 +18,9 @@ After a contact has been configured to use the portal, it must be given one or m
 
 To create a web role:
 
-1. Navigate to **Portals**.
-2. Click **Web Roles** > **New**.
+1. Go to **Portals** > **Web Roles** > **New**.
 3. Specify values for the required fields.
-4. Click **Save**.
+4. Select **Save**.
 
 ## Attributes and relationships
 
@@ -48,23 +47,23 @@ Now that the Web Role has been created, you will be able to configure it to meet
 ## Customize [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal forms, dashboards, and reports
 If you want to customize any of the portal forms, dashboards, or reports, you can find more information about customizing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] in the following links:
 
--   [TechNet: Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
--   [TechNet: Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
--   [TechNet: Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
--   [TechNet: Create and edit processes](https://technet.microsoft.com/library/dn531144.aspx)  
--   [TechNet: Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
+-   [Customize your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] system](https://technet.microsoft.com/library/dn531158.aspx)  
+-   [Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
+-   [Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
+-   [Create and edit processes](https://technet.microsoft.com/library/dn531144.aspx)  
+-   [Report & Analytics with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]](https://technet.microsoft.com/library/dn531183.aspx)  
 
 
 ## Change the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, audience, or type of portal
 After your portal is created and provisioned, you can change the details of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and portal.
 
-1.  Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online Admin center and click the **Applications** tab.
-2.  Select the name of the portal you want to edit and click **Manage**.
-3.  Click the **Manage [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
-4.  Click the **Update [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** button. In the dialog, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change Portal audience or type of portal.
-5.  Click the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
+1.  Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online Admin center, and then select the **Applications** tab.
+2.  Select the name of the portal you want to edit, and then select **Manage**.
+3.  Select the **Manage [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
+4.  Select **Update [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance**. In the dialog box, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
+5.  Select the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
 
-![Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance](media/change-dynamics-365-instance.png "Change [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance")  
+![Change Dynamics 365 instance](media/change-dynamics-365-instance.png "Change Dynamics 365 instance")  
 
 ### See also
 

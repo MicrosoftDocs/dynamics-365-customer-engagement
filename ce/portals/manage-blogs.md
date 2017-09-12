@@ -1,8 +1,8 @@
 ---
 title: "Manage blogs on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to manage blogs on a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,8 +15,6 @@ manager: sakudes
 ---
 # Manage blogs
 
-
-
 Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and in your portal.
 
 ## Manage blogs in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
@@ -27,11 +25,11 @@ Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-micros
 
 Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal editing interface, it must be created and initially configured in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-**To edit a blog**, navigate to the blog's home page, and click the **Edit** button on the edit toolbar.
+To edit a blog, go to the blog's home page, and then select **Edit** on the edit toolbar.
 
 ![Edit a blog post](media/edit-blog-post.png "Edit a blog post")  
 
-**To delete the blog**, click the **Delete** button, and click **Yes** on the confirmation dialog.
+To delete the blog, select **Delete**, and then select **Yes** in the confirmation dialog box.
 
 > [!Note]
 > Deleting a blog will also delete all its associated posts and comments.
@@ -72,21 +70,27 @@ For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, Blog Post
 
 ## Manage blogs posts on a portal
 
-For portal users with blog author permissions, blog posts can be managed using the portal inline editing interface. If your user account has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal and navigate to the blog.
+For portal users with blog author permissions, blog posts can be managed using the portal inline editing interface. If your user account has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal and go to the blog.
 
-**To create a new blog post**, navigate to the blog home page, and click **New** &gt; **Blog post** on the edit toolbar. The blog post editor dialog will appear.
+**To create a new blog post**
+
+Go to the blog home page, and then select **New** &gt; **Blog post** on the edit toolbar. The blog post editor dialog will appear.
 
 ![Edit a blog post](media/edit-blog-post.png "Edit a blog post")  
 
-Make any edits desired, then click **Save** to save your changes.
+Make any edits that you want, and then select **Save**.
 
-**To edit a blog post**, navigate to the blog post's page, and click the **Edit** button on the edit toolbar. The blog post editor dialog will appear. Make any edits desired, then click **Save** to save your changes.
+**To edit a blog post**
+
+Go to the blog post's page, and select **Edit** on the edit toolbar. The blog post editor dialog box will appear. Make any edits you want, and then select **Save** to save your changes.
 
 When creating or editing a blog post, if the **Partial URL** field is left blank, one will be generated automatically. The auto-generated Partial URL will have the format yyyy-mm-dd-post-title, where yyyy-mm-dd is the year, month, and day of the post's **Date**, and the remainder is the post **Title**, transformed into a URL-appropriate form.
 
-The **Tags** field of the post editor provides auto-complete of tag names, to associated posts with existing tags. It is also possible to simply type the name of a new tag. To end a tag name and start a new one, type Tab, Enter, or ,. To remove a tag, click the x beside the tag name, or press Backspace.
+The **Tags** field of the post editor provides auto-complete of tag names, to associated posts with existing tags. It is also possible to simply type the name of a new tag. To end a tag name and start a new one, type Tab, Enter, or ,. To remove a tag, select the x beside the tag name, or select the Backspace key.
 
-**To delete the blog post**, click the **Delete** button, and click **Yes** on the confirmation dialog.
+**To delete the blog post**
+
+Select **Delete**, and then select **Yes** in the confirmation dialog box.
 
 > [!Note]
 > - Deleting a blog post will also delete its associated comments.
@@ -116,9 +120,9 @@ It is important to note that the way in which many of the content/display-orient
 
 ## Manage blog post comments on a portal
 
-For portal users with blog author permissions, blog comments can be managed using the portal inline editing interface. See [Use the front-side editing engine to publish content](publish-content-editing-engine.md). If your user account has the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal and navigate to a blog post.  
+For portal users with blog author permissions, blog comments can be managed using the portal inline editing interface. See [Use the front-side editing engine to publish content](publish-content-editing-engine.md). If your user account has the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal and go to a blog post.  
 
-The exact appearance of the user interface used to edit or delete a blog post comment is determined by the page template being used to render the post, but it will generally involve links or buttons positioned inline, alongside each comment. Clicking **Edit** will launch the comment editor, which allows comment moderators to edit comment content or toggle its approval status.
+The exact appearance of the user interface used to edit or delete a blog post comment is determined by the page template being used to render the post, but it will generally involve links or buttons positioned inline, alongside each comment. Selecting **Edit** will launch the comment editor, which allows comment moderators to edit comment content or toggle its approval status.
 
 ## Blog post comment attributes and relationships
 

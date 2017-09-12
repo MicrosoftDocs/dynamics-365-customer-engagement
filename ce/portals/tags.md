@@ -1,8 +1,8 @@
 ---
 title: "Use tags for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Learn about various liquid tags available in portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -576,9 +576,29 @@ Allows output of Liquid code on a page without having it parsed and executed.
 
 `Hello, {{ user.fullname }}. My name is Charles.`
 
-## [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags
+## Dynamics 365 entity tags
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
+
+### chart
+
+Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 chart to a web page in portal](add-chart.md).
+
+```
+{% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
+```
+
+#### Parameters
+
+There are two parameters to be provided with the chart tag: chart id and viewid.
+
+**chart id**
+
+Visualization ID of the chart. You can get this by exporting the chart.
+
+**viewid**
+
+ID of the entity when opened in view editor. 
 
 ### **editable**
 

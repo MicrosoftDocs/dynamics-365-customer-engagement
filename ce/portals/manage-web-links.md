@@ -1,8 +1,8 @@
 ---
 title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to manage web links in Dynamics 365 or on portals."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,8 +15,6 @@ manager: sakudes
 ---
 # Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals
 
-
-
 A web link can link to any URL or it can link to another webpage within the same website. When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. Web links are always part of a web link set. A web link set is a group of links such as a primary navigation or a group of footer links. Web link sets allow internal, regardless of placement in the site map, and external links to be grouped together and ordered.
 
 ## Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
@@ -25,7 +23,7 @@ For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the 
 
 ## Manage web links in a portal
 
-To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. To edit a web link set, point to the web link set and click the blue edit button that appears. Drag and drop the move icon to reorder the web links. Click the paper & pencil icon to edit a web link. Click the red minus icon to delete a web link from the set. Click the green plus icon to add a new web link to the set.
+To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. To edit a web link set, point to the web link set and select the blue edit button that appears. Drag and drop the move icon to reorder the web links. Select the paper & pencil icon to edit a web link. Select the red minus icon to delete a web link from the set. Select the green plus icon to add a new web link to the set.
 
 ## Multilevel web link sets
 

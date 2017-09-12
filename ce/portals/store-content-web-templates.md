@@ -1,8 +1,8 @@
 ---
 title: "Store source content by using web templates on a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+description: "Instructions to store content by using web templates on a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,11 +15,9 @@ manager: sakudes
 ---
 # Store source content by using web templates
 
-
-
 Web Template is a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity (adx\_webtemplate), included with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals, that is used to store template source content. A web template will generally contain Liquid for dynamic content rendering and is the central entity used to integrate Liquid templates with the rest of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals system.
 
-Web Templates can be included in other content or combined with other templates by using template tags, and are referenced in these tags by their**Name** attribute. They can also be used to create entire custom Page Templates, or create custom headers and footers for your portal website.
+Web Templates can be included in other content or combined with other templates by using template tags, and are referenced in these tags by their **Name** attribute. They can also be used to create entire custom Page Templates, or create custom headers and footers for your portal website.
 
 ## Web template attributes
 
@@ -34,15 +32,15 @@ Web Templates can be included in other content or combined with other templates 
 
 Web Templates can be used in conjunction with page templates to create new templates for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals content management system. This can be done entirely within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], without the need to write .NET code or redeploy your portal application.
 
-To create a new page template based on a web template, select a**Type** of Web Template when creating a new Page Template record. Then select a**Web Template**.
+To create a new page template based on a web template, select a **Type** of Web Template when creating a new Page Template record. Then select a **Web Template**.
 
-Note the option**Use Website Header and Footer** (which is checked by default). If this is checked, your Web Template will control rendering of all page content between the global website header and footer. If this option is unchecked, your Web Template will be responsible for rendering the entire response in the case that you're rendering HTML, this means everything from the doctype to the root &lt;html&gt; tags, and everything in between.
+Note the option **Use Website Header and Footer** (which is checked by default). If this is checked, your Web Template will control rendering of all page content between the global website header and footer. If this option is unchecked, your Web Template will be responsible for rendering the entire response in the case that you're rendering HTML, this means everything from the doctype to the root &lt;html&gt; tags, and everything in between.
 
-While the most common use cases for Web Templates will be to render HTML, rendering the entire response (by deselecting**Use Website Header and Footer**) gives you the option of rendering any text-based format you choose. This is where the**MIME Type** attribute of Web Template becomes relevant. When a Page Template that does not use the website header and footer is rendered, the HTTP response Content-Type header will be set to the MIME Type of the associated Web Template. (text/html will be used if no MIME Type is provided.) This gives you a wide variety of options for rendering non-HTML content by using Liquid. A common use case would be to render an [RSS](http://en.wikipedia.org/wiki/RSS) feed, by setting a MIME Type of application/rss+xml.  
+While the most common use cases for Web Templates will be to render HTML, rendering the entire response (by deselecting **Use Website Header and Footer**) gives you the option of rendering any text-based format you choose. This is where the **MIME Type** attribute of Web Template becomes relevant. When a Page Template that does not use the website header and footer is rendered, the HTTP response Content-Type header will be set to the MIME Type of the associated Web Template. (text/html will be used if no MIME Type is provided.) This gives you a wide variety of options for rendering non-HTML content by using Liquid. A common use case would be to render an [RSS](http://en.wikipedia.org/wiki/RSS) feed, by setting a MIME Type of application/rss+xml.  
 
 ## Web templates as website headers and footers
 
-Web templates can also be used to override the global header and footer used by a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. To do this, set the**Header Template** or**Footer Template** field of your website to the web template of your choice. Note that if you override**Website Header**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on for your site interface elements that are normally handled by the default header template.
+Web templates can also be used to override the global header and footer used by a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. To do this, set the **Header Template** or **Footer Template** field of your website to the web template of your choice. Note that if you override **Website Header**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on for your site interface elements that are normally handled by the default header template.
 
 ## Built-in web templates
 
@@ -80,3 +78,4 @@ There is a set of premade Liquid templates available within [!INCLUDE[pn-dynamic
 [Liquid Tags](liquid-tags.md)  
 [Liquid Filters](liquid-filters.md)  
 [Create advanced templates for portals](create-advanced-templates.md)
+[Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
