@@ -2,7 +2,7 @@
 title: "eBooks and videos | Microsoft Docs"
 description: "Find the latest videos and eBooks for Dynamics 365."
 ms.custom: ""
-ms.date: 2016-07-15
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

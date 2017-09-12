@@ -3,7 +3,7 @@ title: "Analytics for sentiment | Microsoft Docs"
 description: "Learn how to focus your analysis on sentiments and tonality in Social Engagement."
 description: 
 ms.custom: ""
-ms.date: 2016-11-18
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

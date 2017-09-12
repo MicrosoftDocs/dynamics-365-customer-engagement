@@ -1,7 +1,7 @@
 ---
 title: "Create or delete custom sources | Microsoft Docs"
 description: "Learn how you can add RSS and Atom feeds to a group of custom sources and how you can manage custom sources."
-ms.date: 2017-08-08
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

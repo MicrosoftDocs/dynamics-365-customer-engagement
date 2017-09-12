@@ -1,7 +1,7 @@
 ---
 title: "Work with the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to share posts and view insights from your personalized feed in Social Selling Assistant."
-ms.date: 2017-07-20
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

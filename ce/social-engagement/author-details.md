@@ -1,20 +1,19 @@
 ---
 title: "Author details in Social Engagement | Microsoft Docs"
 description: "Learn how to find details about the posts' authors in Social Engagement."
-ms.custom: ""
-ms.date: 2016-12-14
-ms.reviewer: ""
+keywords: ""
+ms.date: 09/12/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 99522a0a-cc87-4530-8595-afd48c1a2a3f
-caps.latest.revision: 8
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Get details on specific authors
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors of a post matching your data sets. Learn about author interests and their backgrounds through author lookup, to keep track of people who impact your social feed.  
   
@@ -53,6 +52,6 @@ The author name, user name, profile picture, location, website, and bio is displ
  [!INCLUDE[cc_privacy_mse_engagement_analytics](../includes/cc-privacy-mse-engagement-analytics.md)]  
   
 ### See Also  
-[Get connected to the social conversation using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md) 
+[Get connected to the social conversation using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md)    
 [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)
  

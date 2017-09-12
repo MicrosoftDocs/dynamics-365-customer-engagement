@@ -1,7 +1,7 @@
 ---
 title: "Analyze social data with widgets | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
-ms.date: 2017-07-10
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: get-started-article
 applies_to: "Social Engagement"
