@@ -2,7 +2,7 @@
 title: "Get to know your filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

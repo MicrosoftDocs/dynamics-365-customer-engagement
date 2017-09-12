@@ -1,7 +1,7 @@
 ---
 title: "Automate actions on posts | Microsoft Docs"
 description: "Learn how to set up Social Engagement to automatically handle subsets of incoming posts."
-ms.date: 2017-08-08
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

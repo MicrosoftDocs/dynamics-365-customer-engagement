@@ -1,7 +1,7 @@
 ---
 title: "Set up searches to listen to social media conversations | Microsoft Docs"
 description: "Review this guide to set up searches and find data in Social Engagement."
-ms.date: 2017-07-10
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: get-started-article
 applies_to: "Social Engagement"

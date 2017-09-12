@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 09/11/2017
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to:

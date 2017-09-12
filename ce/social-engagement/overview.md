@@ -1,7 +1,7 @@
 ---
 title: "Introduction and overview on Social Engagement and related scenarios | Microsoft Docs"
 description: "Learn about Social Engagement and get started using the service."
-ms.date: 08/18/2017
+ms.date: 09/12/2017
 applies_to: "Social Engagement"
 ms.service: mse
 ms.topic: article

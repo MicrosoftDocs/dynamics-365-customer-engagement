@@ -2,7 +2,7 @@
 title: "Sources coverage | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 ms.custom: ""
-ms.date: 08/25/2017
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

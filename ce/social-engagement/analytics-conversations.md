@@ -3,7 +3,7 @@ title: "Analytics for conversations | Microsoft Docs"
 description: "Learn how to focus your analysis on conversations in Social Engagement."
 Description:
 ms.custom: ""
-ms.date: 2016-11-18
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""
