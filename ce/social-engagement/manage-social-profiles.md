@@ -76,7 +76,7 @@ Data acquisition and acquisition of private messages from your social profiles r
   
 5.  After the profile is successfully authenticated, you can select from the list of [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages that the authenticated user administers. After you add the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page, you can find it on the **Social Profiles** page under **Owned profiles**. 
   
-You can allow Power Analysts and Administrators to create rules for direct messages from this social profile in a search topic. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](../social-engagement/add-rules-search-topics.md) 
+You can allow Power Analysts and Administrators to create rules for direct messages from this social profile in a search topic. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](../social-engagement/add-rules-search-topic.md) 
   
 ### Add a Facebook user to your social profiles  
   
