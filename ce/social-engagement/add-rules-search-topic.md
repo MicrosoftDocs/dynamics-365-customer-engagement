@@ -18,7 +18,7 @@ topic-status: Drafting
 Search topics consist of one or more search rules and define the data that's available for your analysis. You can add an unlimited number of rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time and add more rules or change existing ones.
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports the following search rules. 
-You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md) Administrator or Power Analyst to create or modify search topics.
+You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Administrator or Power Analyst to create or modify search topics.
 
 - **[Keywords rule](#add-a-keywords-rule)** ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query that consists of keywords, inclusions, and exclusions.
 
