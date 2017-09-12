@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,31 +15,33 @@ manager: sakudes
 ---
 # What’s new in portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
-Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more about the updates that have been made to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, along with other information pertinent to those updates, see [Portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
+Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about the updates that have been made to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, along with additional details about those updates, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
 
 ## Portal capabilities version 8.3 for Dynamics 365
-The portal capabilities version 8.3 for Dynamics 365 has brought many new updates and features:
-- **Ability to include attachments on knowledge articles**: This feature allows you to display notes attachments along with the knowledge article in portals. To enable this feature, you must create a site setting KnowledgeManagement/DisplayNotes and set the value to true. With this feature, portal users can also search for these attachments.
+
+Portal capabilities version 8.3 for Dynamics 365 has brought many new updates and features:
+- **Ability to include attachments with knowledge articles**: You can display note attachments along with knowledge articles. To enable this feature, you create the site setting KnowledgeManagement/DisplayNotes and set the value to **true**. Portal users can also search for these attachments.
 
   > [!Note]
-  > Search for attachments is possible only on the Notes description and File Attachment name. The content of attachment file is not searchable.
+  > Search for attachments can only be performed on the note's description and file attachment name. The content of the attached file is not searchable.
   
-- **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and make a subset of it available to your portal customers based on the security and permission model you choose. 
-- **Portal interaction tracking (Preview)**: This preview feature allows you to track your customer's interactions with your portal and funnel it to Dynamics 365 Customer Insights (DCI) to plot a 360-degree view. This will be helpful in knowing the user’s journey on a portal before and after creating a case. This also help you to understand the real issue, avoid asking the same information again from the user, and enable you to respond with the relevant information.
-- **Import metadata translation**: This feature allows you to import the metadata translation of the newly activated languages after installation of a portal.
-- **Source code availability for portals**: A one-time release of portals code is released to the Microsoft Download Center under MIT license for developers to download. This feature enables portals to be deployed to Dynamics 365 on-premises or online environments, and allows developers to customize the code to suit their specific business needs.
-Note: Source code is offered as working sample and on an as-needed basis. No direct support will be provided for any modifications to the code.
-- **Single sign-on (SSO) configuration improvements and support for Azure Active Directory B2C (Azure AD B2C)**: For portals that require a consumer-based login, this feature now supports the ability to:
-  - Configure your portal authentication to use a single sign-on configuration 
-  - Support Azure AD B2C for customer authentication
-  - Manage your portal security in Azure
-- **Support timezone independent date formats in portals forms**: This feature adds support for “Date Only” and “Timezone Independent” behaviors for date/time fields to portals.
+- **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and makes a subset of it available to your portal customers, based on the security and permission model you choose. 
+- **Portal interaction tracking (preview)**: Use this preview feature to track a customer's interaction with your portal and funnel it to [!include[](../includes/pn-customerinsight-full.md)]. This will be helpful for plotting a 360-degree view of the user’s journey on your portal before and after a case is created. This also helps you to understand the real issue, avoid asking the user for the same information over again, and enable you to respond with relevant information.
+- **Import metadata translation**: Use this feature to import the metadata translation of newly activated languages after you install a portal.
+- **Source code availability for portals**: A one-time release of portal capabilities code is released to the Microsoft Download Center under MIT license for developers to download. This feature enables portals to be deployed to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on-premises or online environments, and allows developers to customize the code to suit their specific business needs.
+  > [!Note]
+  > Source code is offered as a working sample and on an as-needed basis. No direct support will be provided for any modifications to the code.
+- **Single sign-on (SSO) configuration improvements and support for Azure Active Directory B2C (Azure AD B2C)**: For portals that require a consumer-based sign-in, this feature now supports the ability to:
+  - Configure your portal authentication to use SSO. 
+  - Support Azure AD B2C for customer authentication.
+  - Manage your portal security in Azure.
+- **Support time zone&ndash;independent date formats in portals forms**: This feature adds support for **Date Only** and **Timezone Independent** behaviors for date/time fields.
 - **Allowing non-global administrators to provision a portal**: You can now provision a portal if you are assigned to the System Administrator role of the CRM organization selected for the portal. You can now also manage an existing portal, if you have any of the following roles:
-  - Dynamics 365 Service Administrator
+  - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator
   - System Administrator of the CRM organization selected for the portal
-- **Store custom domain name for portal**: This feature stores the primary domain name of a portal on the website record. If the domain name is changed in the future, the latest primary domain name is stored. 
-- **Tracking cookie for portals**: A persistent cookie, Dynamics365PortalAnalytics, will be set whenever a user  goes to a portal. This cookie has an expiration of 90 days. This cookie does not store any of the user's personal data and is used by Microsoft to collect analytics about portal service. Please read more about Microsoft Online services privacy statement [here](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx).
-- **Performance improvement of header and footer on a portal**: Two new site settings, Header/OutputCache/Enabled and Footer/OutputCache/Enabled, are added to enable header/footer output caching when these settings are set to true. For new users, these site settings are set to true by default, thereby enabling header and footer output caching. For existing users who upgrade to a newer version of portals, output caching is disabled by default. It means that the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, they must update the appropriate web templates and create the required site settings.
+- **Store the custom domain name for a portal**: This feature stores the primary domain name of a portal on the website record. If the domain name is changed in the future, the latest primary domain name will be stored. 
+- **Tracking cookie for portals**: A persistent cookie, Dynamics365PortalAnalytics, will be set whenever a user  goes to a portal. This cookie has an expiration of 90 days. This cookie does not store any of the user's personal data and is used by Microsoft to collect analytics about portal service. Please read the Microsoft online services privacy statement [here](https://go.microsoft.com/fwlink/p/?linkid=856855).
+- **Performance improvement of header and footer on a portal**: Two new site settings, Header/OutputCache/Enabled and Footer/OutputCache/Enabled, are added to enable header/footer output caching when these settings are set to true. For new users, these site settings are set to true by default, thereby enabling header and footer output caching. For existing users who upgrade to a newer version of portal capabilities, output caching is disabled by default. It means that the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, they must update the appropriate web templates and create the required site settings.
 
 ## December 2016 updates
 The December 2016 update has brought many new features to the portal capabilities of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These updates allow for better interactions among companies, partners, and customers, and make the experience of navigating the portal faster and easier. Some of the major updates include:

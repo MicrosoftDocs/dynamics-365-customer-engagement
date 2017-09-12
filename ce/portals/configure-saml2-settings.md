@@ -2,7 +2,7 @@
 title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,9 +29,9 @@ Settings for an IdP such as AD FS.
 > [!Note] 
 > See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
 
-Using the AD FS Management tool, select **Service** > **Claim Descriptions**.
+Using the AD FS Management tool, go to **Service** > **Claim Descriptions**.
 
-1.  Click **Add Claim Description**...
+1.  Select **Add Claim Description**.
 2.  Specify the claim:
 
 Display name:**Persistent Identifier**
@@ -42,18 +42,18 @@ Display name:**Persistent Identifier**
 
 -**Enable** checkbox for: Publish this claim description in federation metadata as a claim type that this Federation Service can send
 
--   Click **OK**.
+-   Select **OK**.
 
 Using the AD FS Management tool, select**Trust Relationships** >**Relying Party Trusts**.
 
-1.  Click**Add Relying Party Trust**...
-2.  Welcome: Click**Start**
-3.  Select Data Source: Select**Enter data about the relying party manually**, click**Next**
-4.  Specify Display Name: Enter a**name**, click**Next**
+1.  Select **Add Relying Party Trust**.
+2.  Welcome: Select **Start**
+3.  Select Data Source: Select **Enter data about the relying party manually**, and then select **Next**.
+4.  Specify Display Name: Enter a **name**, and then select **Next**.
     Example: https://portal.contoso.com/
-5.  Choose Profile: Select**AD FS 2.0 profile**, click**Next**
-6.  Configure Certificate: Click**Next**
-7.  Configure URL: Check**Enable support for the SAML 2.0 WebSSO protocol**
+5.  Choose Profile: Select**AD FS 2.0 profile**, and then select **Next**.
+6.  Configure Certificate: select **Next**.
+7.  Configure URL: Select the **Enable support for the SAML 2.0 WebSSO protocol** check box.
     Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-saml2
     - Note: AD FS requires that the portal run on**HTTPS**
 
@@ -64,11 +64,11 @@ Using the AD FS Management tool, select**Trust Relationships** >**Relying Party 
     > - Index: n/a (0)                                              
     > - URL:**https://portal.contoso.com/signin-saml2**
 
-8.  Configure Identities: Specify https://portal.contoso.com/, click**Add**, click**Next**
+8.  Configure Identities: Specify https://portal.contoso.com/, select **Add**, and then select **Next**.
     If applicable, more identities can be added for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
-9.  Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, click **Next**.
-10.  Ready to Add Trust: Click**Next**
-11.  Click **Close**
+9.  Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, and then select **Next**.
+10.  Ready to Add Trust: Select **Next**
+11.  Select **Close**.
 
 Add the **Name ID** claim to the relying party trust:
 
@@ -102,17 +102,17 @@ Multiple IdP services can be configured by substituting a label for the [provide
 | Site Setting Name                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Authentication/Registration/ExternalLoginEnabled              | Enables or disables external account sign-in and registration. Default: true                                                                                                                                                                                                                                                                                                                                                            |
-| Authentication/SAML2/[provider]/MetadataAddress             | Required. The [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx) metadata URL of the AD FS (STS) server. Commonly ending with the path:/FederationMetadata/2007-06/FederationMetadata.xml . Example: https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.metadataaddress.aspx). |  
-| Authentication/SAML2/[provider]/AuthenticationType          | Required. The OWIN authentication middleware type. Specify the value of the [entityID](https://msdn.microsoft.com/library/azure/dn195592.aspx) attribute at the root of the federation metadata XML. Example: http://adfs.contoso.com/adfs/services/trust. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx).                                                            |  
-| Authentication/SAML2/[provider]/ServiceProviderRealm<br>or <br>Authentication/SAML2/[provider]/Wtrealm                      | Required. The AD FS relying party identifier. Example: https://portal.contoso.com/. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wtrealm.aspx).                                                                                                                                                                                                                     |  
-| Authentication/SAML2/[provider]/AssertionConsumerServiceUrl<br>or<br>Authentication/SAML2/[provider]/Wreply                       | Required. The AD FS SAML Consumer Assertion endpoint. Example: https://portal.contoso.com/signin-saml2. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wreply.aspx).                                                                                                                                                                                                  |  
-| Authentication/SAML2/[provider]/Caption                     | Recommended. The text that the user can display on a sign in user interface. Default: [provider]. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.caption.aspx).                                                                                                                                                                                                     |  
-| Authentication/SAML2/[provider]/CallbackPath                | An optional constrained path on which to process the authentication callback. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.callbackpath.aspx).                                                                                                                                                                                                                      |  
-| Authentication/SAML2/[provider]/BackchannelTimeout          | Timeout value for back channel communications. Example: 00:05:00 (5 mins). [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.backchanneltimeout.aspx).                                                                                                                                                                                                                   |  
-| Authentication/SAML2/[provider]/UseTokenLifetime            | Indicates that the authentication session lifetime (e.g. cookies) should match that of the authentication token. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.usetokenlifetime.aspx).                                                                                                                                                                               |  
-| Authentication/SAML2/[provider]/AuthenticationMode          | The OWIN authentication middleware mode. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationmode.aspx).                                                                                                                                                                                                                                                                              |  
-| Authentication/SAML2/[provider]/SignInAsAuthenticationType  | The AuthenticationType used when creating the System.Security.Claims.ClaimsIdentity. [MSDN](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.signinasauthenticationtype.aspx).                                                                                                                                                                                                 |  
-| Authentication/SAML2/[provider]/ValidAudiences              | Comma separated list of audience URLs. [MSDN](https://msdn.microsoft.com/library/system.identitymodel.tokens.tokenvalidationparameters.allowedaudiences.aspx).                                                                                                                                                                                                                                                                          |  
+| Authentication/SAML2/[provider]/MetadataAddress             | Required. The [WS-Federation](https://msdn.microsoft.com/library/bb498017.aspx) metadata URL of the AD FS (STS) server. Commonly ending with the path:/FederationMetadata/2007-06/FederationMetadata.xml . Example: `https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml`. For more information: [WsFederationAuthenticationOptions.MetadataAddress](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.metadataaddress.aspx). |  
+| Authentication/SAML2/[provider]/AuthenticationType          | Required. The OWIN authentication middleware type. Specify the value of the [entityID](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-federation-metadata) attribute at the root of the federation metadata XML. Example: `http://adfs.contoso.com/adfs/services/trust`. For more information: [AuthenticationOptions.AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx).                                                            |  
+| Authentication/SAML2/[provider]/ServiceProviderRealm<br>or <br>Authentication/SAML2/[provider]/Wtrealm                      | Required. The AD FS relying party identifier. Example: `https://portal.contoso.com/`. For more information: [WsFederationAuthenticationOptions.Wtrealm](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wtrealm.aspx).                       |  
+| Authentication/SAML2/[provider]/AssertionConsumerServiceUrl<br>or<br>Authentication/SAML2/[provider]/Wreply                       | Required. The AD FS SAML Consumer Assertion endpoint. Example: https://portal.contoso.com/signin-saml2. For more information: [WsFederationAuthenticationOptions.Wreply](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wreply.aspx).                                                                                                                                                                                                  |  
+| Authentication/SAML2/[provider]/Caption                     | Recommended. The text that the user can display on a sign in user interface. Default: [provider]. For more information: [WsFederationAuthenticationOptions.Caption](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.caption.aspx).                |  
+| Authentication/SAML2/[provider]/CallbackPath                | An optional constrained path on which to process the authentication callback. For more information: [WsFederationAuthenticationOptions.CallbackPath](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.callbackpath.aspx).                                                                                                                                                                                                                      |  
+| Authentication/SAML2/[provider]/BackchannelTimeout          | Timeout value for back channel communications. Example: 00:05:00 (5 mins). For more information: [WsFederationAuthenticationOptions.BackchannelTimeout](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.backchanneltimeout.aspx).                                                                                                                                                                                                                   |  
+| Authentication/SAML2/[provider]/UseTokenLifetime            | Indicates that the authentication session lifetime (e.g. cookies) should match that of the authentication token. [WsFederationAuthenticationOptions.UseTokenLifetime](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.usetokenlifetime.aspx).                                                                                                                                                                               |  
+| Authentication/SAML2/[provider]/AuthenticationMode          | The OWIN authentication middleware mode. For more information: [AuthenticationOptions.AuthenticationMode](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationmode.aspx).                                                                                                                                                                                                                                                                              |  
+| Authentication/SAML2/[provider]/SignInAsAuthenticationType  | The AuthenticationType used when creating the System.Security.Claims.ClaimsIdentity. For more information: [WsFederationAuthenticationOptions.SignInAsAuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.signinasauthenticationtype.aspx).                                                                                                                                                                                                 |  
+| Authentication/SAML2/[provider]/ValidAudiences              | Comma separated list of audience URLs. For more information: [TokenValidationParameters.AllowedAudiences](https://msdn.microsoft.com/library/system.identitymodel.tokens.tokenvalidationparameters.allowedaudiences.aspx).                                                                                                                                                                                                                                                                          |  
 | Authentication/SAML2/[provider]/ClockSkew                   | The clock skew to apply when validating times.                                                                                                                                                                                                                                                                                                                                                                                          |
 | Authentication/SAML2/[provider]/RequireExpirationTime       | A value indicating whether tokens must have an 'expiration' value.                                                                                                                                                                                                                                                                                                                                                                      |
 | Authentication/SAML2/[provider]/ValidateAudience            | A boolean to control if the audience will be validated during token validation.                                                                                                                                                                                                                                                                                                                                                         |
@@ -215,23 +215,23 @@ Write-Output $idpInitiatedUrl
 
 The previous section describing AD FS can also be applied to [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD](https://msdn.microsoft.com/library/azure/mt168838.aspx) because [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD behaves like a standard [SAML 2.0](https://msdn.microsoft.com/library/azure/dn195591.aspx) compliant IdP. To get started sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available, follow the instructions to [add an application](https://msdn.microsoft.com/library/azure/dn132599.aspx) to the directory.  
 
-1.  Under the**Applications** menu of the directory, click the**Add** button
-2.  Choose**Add an application my organization is developing**
-3.  Specify a custom**name** for the application and choose the type**web application and/or web API**
-4.  For the**Sign-On URL** and the**App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/
-    This corresponds to the**ServiceProviderRealm** (Wtrealm) site setting value
-5. At this point, a new application is created. Navigate to the**Configure** section in the menu
+1.  Under the**Applications** menu of the directory, select **Add**.
+2.  Choose **Add an application my organization is developing**.
+3.  Specify a custom **name** for the application, and then choose the type**web application and/or web API**.
+4.  For the **Sign-On URL** and the**App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/.
+    This corresponds to the**ServiceProviderRealm** (Wtrealm) site setting value.
+5. At this point, a new application is created. Go to the**Configure** section in the menu.
 
-    Under the **single sign-on** section, update the first**Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad
+    Under the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad.
 
-    This corresponds to the**AssertionConsumerServiceUrl** (Wreply) site setting value
+    This corresponds to the **AssertionConsumerServiceUrl** (Wreply) site setting value.
 
-6. In the footer menu click the**View Endpoints** button and note the**Federation Metadata Document** field
+6. In the footer menu, select **View Endpoints** and note the **Federation Metadata Document** field.
 
-This corresponds to the**MetadataAddress** site setting value
+This corresponds to the**MetadataAddress** site setting value.
 
--   Paste this URL in a browser window to view the federation metadata XML and note the **entityID** attribute of the root element
--   This corresponds to the**AuthenticationType** site setting value
+-   Paste this URL in a browser window to view the federation metadata XML, and note the **entityID** attribute of the root element.
+-   This corresponds to the**AuthenticationType** site setting value.
 
 > [!Note] 
 > A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):
@@ -247,9 +247,9 @@ Use the following guidelines for correctly configuration [Shibboleth Identity Pr
 
 The federation metadata URL is: https://idp.contoso.com/idp/shibboleth
 
--   The IdP must be configured to generate/serve a Persistent Identifier. Follow the instructions to enable [Persistent Identifier Generation](https://wiki.shibboleth.net/confluence/display/IDP30/NameIDGenerationConfiguration).  
+-   The IdP must be configured to generate and/or serve a Persistent Identifier. Follow the instructions to enable [Persistent Identifier Generation](https://wiki.shibboleth.net/confluence/display/IDP30/NameIDGenerationConfiguration).  
 
--   The IdP federation metadata (&lt;IDPSSODescriptor&gt;) must be configured to include a [SSO redirect binding](https://shibboleth.net/about/advanced.html). [Example](https://wiki.shibboleth.net/confluence/display/SHIB2/MetadataExample).  
+-   The IdP federation metadata (&lt;IDPSSODescriptor&gt;) must be configured to include an [SSO redirect binding](https://shibboleth.net/about/advanced.html). [Example](https://wiki.shibboleth.net/confluence/display/SHIB2/MetadataExample).  
 
 ```
 <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
@@ -349,7 +349,7 @@ Write-Output $idpInitiatedUrl
 
 ## Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]
 
-The process of adding a relying party trust in AD FS can also be performed by running the following**[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** script on the AD FS server (save contents to a file named**Add-AdxPortalRelyingPartyTrustForSaml.ps1**). After running the script, continue with configuring the portal site settings.
+The process of adding a relying party trust in AD FS can also be performed by running the following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script on the AD FS server (save contents to a file named Add-AdxPortalRelyingPartyTrustForSaml.ps1). After running the script, continue with configuring the portal site settings.
 
 ```
 <# 

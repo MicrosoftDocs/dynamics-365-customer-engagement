@@ -2,7 +2,7 @@
 title: "Customize content by using content snippets on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to customize content by using content snippets."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,19 +20,19 @@ Content snippets are small chunks of editable content that can be placed by a de
 
 Snippets can be edited either through the front-side or through the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] interface. The main power of the snippet is the fact that you can abstract a bit of content (other than the main copy of the page) and edit it separately, allowing essentially any static content on your site to be fully content-managed and front-side editable but still backed by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-## Edit using the front-side editing engine
+## Edit by using the front-side editing engine
 
-To edit snippets on the front side, users must be associated with a Web Role that is associated with a Website Access Permission record with the **Manage Content Snippets** permission set to true.
+To edit snippets by using the front side, users must be associated with a Web Role that is associated with a Website Access Permission record with the **Manage Content Snippets** permission set to true.
 
-To edit through the front side, hover over the snippet element and click the edit button. You must have website access permissions to edit snippets. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control webpage access for portals](webpage-access-control.md)  
+To edit through the front side, point to the snippet element and select **Edit**. You must have website access permissions to edit snippets. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control webpage access for portals](webpage-access-control.md)  
 
 When editing a snippet, either a simple text box will appear, allowing you to quickly edit the content, or the full editor appears, as it does when editing a page's copy. Which of these two interfaces appears is determined by the edit type of the snippet, which also determines the type of content the snippet can hold (full, stylized HTML content versus plain text). A snippet can be assigned an edit type of either text or HTML when a developer adds the Content Snippet control to the page template in the portal's [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)] project.
 
 ## Edit using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
 1.  Go to **Portals** > **Content Snippets**.
-2.  To create a new snippet: Click **New**.
-3.  To edit an existing snippet: double-click an existing **Content Snippet** in the grid.
+2.  To create a new snippet: Select **New**.
+3.  To edit an existing snippet: double-click to select an existing **Content Snippet** in the grid.
 
 Enter values for the following fields:
 

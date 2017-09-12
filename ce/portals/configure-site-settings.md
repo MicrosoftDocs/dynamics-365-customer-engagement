@@ -2,7 +2,7 @@
 title: "Configure site settings for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure site settings for a portal and global settings for all portals in your organization."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,14 +27,14 @@ You can manage the following types of site settings:
 
 1.  Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2.  Go to **Portals** &gt; **Site Settings**.
-3.  To create a new setting, click **New**.
-4.  To edit an existing setting, double-click the **Site Setting** listed in the grid.
+3.  To create a new setting, select **New**.
+4.  To edit an existing setting, select the **Site Setting** listed in the grid.
 5. Specify values for the fields provided: 
     - **Name**:  A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting will take the first record found with the matching name.
     - **Website**:  The associated website. 
     - **Value**: The setting
     - **Description**: The purpose of the setting or special instructions.
-6. Click **Save & Close**.
+6. Select **Save & Close**.
 
 > [!Note] 
 > Bing Maps integration is not supported in the German Sovereign Cloud. If you try to create the Bingmaps/credentials setting in this environment, an error message will be displayed.
@@ -43,13 +43,13 @@ You can manage the following types of site settings:
 
 1.  Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2.  Go to **Settings** &gt; **Settings**.
-3.  To create a new setting, click **New**.
-4.  To edit an existing setting, double-click the **Site Setting** listed in the grid.
+3.  To create a new setting, select **New**.
+4.  To edit an existing setting, select the **Site Setting** listed in the grid.
 5. Specify values for the fields provided: 
     - **Name**:  A unique name referenced by code to retrieve the appropriate setting.
     - **Value**: The setting
     - **Description**: The purpose of the setting or special instructions.
-6. Click **Save & Close**.
+6. Select **Save & Close**.
 
 > [!Note] 
 > Bing Maps integration is not supported in the German Sovereign Cloud. If you try to create the BinMap/Key or Adxstudio/ProductivityPack/BingMap/Key setting in this environment, an error message will be displayed.
