@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Security Roles in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the security roles used in Microsoft Dynamics 365 – Gamification."
 ms.custom: ""

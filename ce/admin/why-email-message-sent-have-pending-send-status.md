@@ -1,5 +1,5 @@
 ---
-title: "Why does the Dynamics 365 Customer Engagement email message I sent have a "Pending Send" status? | MicrosoftDocs"
+title: "Why does the Dynamics 365 Customer Engagement email message I sent have a Pending Send status? | MicrosoftDocs"
 ms.custom: ""
 ms.date: "2017-08-31"
 ms.reviewer: ""

@@ -1,7 +1,8 @@
 ---
 title: "Customize login and splash screens in Unified Service Desk | MicrosoftDocs"
+description: "The topic explains how to customize the branding of Unified Service Desk login and splash screens to change the name and appearance of the application name on the login screen and change the application name, appearance, foreground and background colors of the splash screen by modifying XAML styles."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

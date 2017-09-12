@@ -1,7 +1,8 @@
 ---
 title: "Reuse Entity Search definition in your custom code for Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -20,7 +21,7 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # Reuse Entity Search definition in your custom code
-Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is exposed as a service for developers so that they can programmatically use an existing entity search definition in their custom code to search [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data. Entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] use FetchXML to query the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services to return data. For information about defining entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-using-entity-searches-unified-service-desk.md).  
+Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is exposed as a service for developers so that they can programmatically use an existing entity search definition in their custom code to search [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data. Entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] use FetchXML to query the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services to return data. For information about defining entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
   
  When you set up an entity search, you can choose whether to return an entire search result set or page the FetchXML results for large datasets by using a paging cookie for faster performance. For more information about using paging cookie with FetchXML, see [Page large result sets with FetchXML](https://msdn.microsoft.com/library/gg309717.aspx).  
   
@@ -101,5 +102,5 @@ while (hasMoreRecords)
 ```  
   
 ### See also  
- [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-using-entity-searches-unified-service-desk.md)   
+ [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md)   
  [DoSearch](../unified-service-desk/global-manager-hosted-control.md#DoSearch)

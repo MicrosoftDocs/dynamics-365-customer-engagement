@@ -1,16 +1,11 @@
 ---
 title: "Manage search topics | Microsoft Docs"
 description: "Learn how to create a new search topic or delete an existing one in Social Engagement."
-ms.custom: ""
-ms.date: 2017-03-14
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 9167aafd-1882-4187-add5-4bd874d3c21b
-caps.latest.revision: 63
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -107,5 +102,5 @@ Administrators in your organization can change the owner of a search topic to en
   
 ### See Also  
  [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Add rules to a search topic](../social-engagement/add-rules-search-topic.md "Add rules to a search topic")
+ [Add rules to a search topic](../social-engagement/add-rules-search-topic.md)
  

@@ -24,7 +24,7 @@ manager: sakudes
 
 ## Quick start guide to install and use the connector
 
-1. A [!include[Dynamics 365 (online)](includes/pn-dyn-365-online.md)] system administrator or customizer installs the [Connector for LinkedIn Lead Gen Forms from Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=850928). [!INCLUDE[proc_more_information](includes/proc-more-information.md)] [Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource] (install-linkedin-connector.md)
+1. A [!include[Dynamics 365 (online)](includes/pn-dyn-365-online.md)] system administrator or customizer installs the [Connector for LinkedIn Lead Gen Forms from Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=850928). [!INCLUDE[proc_more_information](includes/proc-more-information.md)][Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource] (install-linkedin-connector.md)
 
 2. Optionally, a campaign manager defines the matching strategy between [!include[LinkedIn](includes/tn-linkedin.md)] leads and [!include[Dynamics 365 (online)](includes/pn-dyn-365-online.md)] lead records, and analyzes individual forms and submissions. [!INCLUDE[proc_more_information](includes/proc-more-information.md)] [Configure the matching strategy to update lead records from LinkedIn leads](configure-matching-strategy.md), [Analyze individual LinkedIn Lead Gen forms and submissions](review-leads.md#analyze-individual-includelinkedinincludestn-linkedinmd-lead-gen-forms-and-submissions).
 
@@ -33,7 +33,7 @@ manager: sakudes
 4. Optionally, a sales manager can review the lead performance in a [!include[Dynamics 365 (online)](includes/pn-dyn-365-online.md)] dashboard. [!INCLUDE[proc_more_information](includes/proc-more-information.md)] [Analyze leads and lead performance](review-leads.md)
 
 ### See also
-[Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource] (install-linkedin-connector.md)  
+[Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)  
 [Establish a connection between Dynamics 365 Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)  
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)  
 [Analyze leads and lead performance](review-leads.md)  

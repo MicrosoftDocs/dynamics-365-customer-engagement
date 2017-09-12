@@ -1,0 +1,76 @@
+---
+title: "Invoke custom actions from a workflow or dialog in Dynamics 365 Customer Engagement | MicrosoftDocs"
+ms.custom: ""
+ms.date: "2017-08-31"
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 1fd5d39e-3dc8-4d1a-8b4b-ccaa303f4bbb
+caps.latest.revision: 12
+ms.author: "rdubois"
+manager: "brycho"
+---
+# Invoke custom actions from a workflow or dialog
+In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], workflows and dialogs have numerous capabilities supporting business scenarios. Calling basic SDK actions for a record, such as create, update, and delete, from within a workflow or a dialog solves quite a few business scenarios. However, if you couple the capabilities of the workflows and dialogs with the power of the custom actions invoked directly from within a workflow or a dialog, you add a whole new range of business scenarios to your application without needing to write code.  
+  
+ Let’s look at the scenario in which a custom action is invoked from a workflow and a dialog. We’ll invoke a custom action to request the manager’s approval when a discount for a particular opportunity exceeds 20%.  
+  
+<a name="action"></a>   
+## Create a custom action  
+  
+1. [!INCLUDE[proc_settings_processes](../includes/proc-settings-processes.md)]  
+  
+2.  On the Nav bar, choose **New**. Give the process a name and choose the **Action** category.  
+  
+ To request an approval for the discount, we’re using a custom action called **Approval Process**. We added an input parameter, **SpecialNotes**, and a **Send email** step to create a new message and send a request for the manager’s approval, as shown here.  
+  
+ ![Add a step &#45; send email](../customize/media/enable-custom-action-approval-proces-sadd-email.png "Add a step - send email")  
+  
+ To configure the email message, choose **Set Properties**. When the form opens, use the **Form Assistant** to add special notes and other information to the email, as highlighted on the screenshot. To add the special notes, place the cursor where you want them to appear in the message, and then, in the **Form Assistant**, under **Look for**, choose **Arguments** in the first drop-down list and choose **SpecialNotes** in the second drop-down list, and then choose **OK**.  
+  
+ ![Set up email](../customize/media/enable-custom-action-approval-process-setup-email.png "Set up email")  
+  
+ Before you can invoke the action from a workflow or dialog, you have to activate it. After you have activated the action, you can view its properties by choosing **View properties**.  
+  
+ ![Activate custom action &#45; approval process](../customize/media/enable-custom-action-approval-process-activate-action.png "Activate custom action - approval process")  
+  
+<a name="workflow"></a>   
+## Invoke a custom action from a workflow  
+  
+1. [!INCLUDE[proc_settings_processes](../includes/proc-settings-processes.md)]  
+  
+2.  On the Nav bar, choose **New**. Give the process a name and choose the **Workflow** category.  
+  
+ We created a workflow that invokes the **Approval Process** custom action whenever the manager’s approval for a discount over 20% for an opportunity is required.  
+  
+ ![Set action properties from workflow](../customize/media/enable-custom-action-from-workflow.png "Set action properties from workflow")  
+  
+ You can set the action’s input properties by choosing **Set Properties**. We added a name of the account related to the opportunity in the special notes. In the **Form Assistant**, under **Look for**, choose **Account** in the first drop-down list, choose **Account Name** in the second drop-down list, and then choose **OK**. The **Target** property is required and it is populated by the system. The **{Opportunity(Opportunity)}** in the **Target** property is the same opportunity that the calling workflow is running on. Alternatively, you can choose a specific opportunity for the target property by using lookup.  
+  
+ ![Set input parameters for ApprovalProcess action](../customize/media/enable-customaction-workflow-set-properties.png "Set input parameters for ApprovalProcess action")  
+  
+<a name="dialog"></a>   
+## Invoke a custom action from a dialog  
+  
+1. [!INCLUDE[proc_settings_processes](../includes/proc-settings-processes.md)]  
+  
+2.  On the Nav bar, choose **New**. Give the process a name and choose the **Dialog** category.  
+  
+ You can implement a scenario that’s similar to calling the **Approval Process** from a dialog as shown in the following illustration.  
+  
+ ![Enable custom action from dialog](../customize/media/enable-custom-action-from-dialog.png "Enable custom action from dialog")  
+  
+ Set up input parameters, as shown here.  
+  
+ ![Set properties for ApprovalProcess action](../customize/media/enable-custom-action-dialog-set-properties.png "Set properties for ApprovalProcess action")  
+  
+### See also  
+ [Actions](../customize/actions.md)   
+ [Configure actions](../customize/configure-actions.md)
+ [Workflow processes overview](../customize/workflows.md)
+ [Dialogs overview](../customize/dialogs.md)

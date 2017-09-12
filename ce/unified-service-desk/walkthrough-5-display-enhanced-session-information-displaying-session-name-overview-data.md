@@ -1,7 +1,8 @@
 ---
 title: "Walkthrough 5: Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
+description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -36,20 +37,20 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 re
   
     -   Configure session name and session overview information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure session information](../unified-service-desk/configure-session-information.md)  
   
-    -   Filter access using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](https://technet.microsoft.com/library/dn646885.aspx)  
+    -   Filter access using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
   
 ## In This Walkthrough  
- [Step 1: Create a Session Lines type of hosted control to display session overview information](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md#Step1)  
+ [Step 1: Create a Session Lines type of hosted control to display session overview information](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md#Step1)  
   
- [Step 2: Define session name information](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md#Step2)  
+ [Step 2: Define session name information](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md#Step2)  
   
- [Step 3: Define session overview information](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md#Step3)  
+ [Step 3: Define session overview information](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md#Step3)  
   
- [Step 4: Add the controls to the configuration](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md#Step4)  
+ [Step 4: Add the controls to the configuration](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md#Step4)  
   
- [Step 5: Test the application](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md#Step5)  
+ [Step 5: Test the application](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md#Step5)  
   
- [Conclusion](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md#Conclusion)  
+ [Conclusion](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md#Conclusion)  
   
 <a name="Step1"></a>   
 ## Step 1: Create a Session Lines type of hosted control to display session overview information  
@@ -191,7 +192,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 re
 <a name="Step5"></a>   
 ## Step 5: Test the application  
   
-1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](https://technet.microsoft.com/library/dn646904.aspx)  
+1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
   
 2.  Click the down arrow next to the **Search** button in the toolbar, and then click **Account** to display the account records from your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
@@ -213,9 +214,15 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 re
   
 ### See also  
  [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)   
+ 
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
+ 
  [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ 
  [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
+ 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
+ 
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
+ 
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)

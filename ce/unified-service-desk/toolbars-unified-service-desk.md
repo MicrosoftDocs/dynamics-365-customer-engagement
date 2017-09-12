@@ -1,7 +1,8 @@
 ---
 title: "Toolbars in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about configuring toolbars in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -24,7 +25,7 @@ Toolbars in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-se
   
  Here is the **Main** toolbar in one of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] sample applications.  
   
- ![Main toolbar in Unified Service Desk](../unified-service-desk/media/usd-main-toolbar.png "Main toolbar in Unified Service Desk")  
+ ![Main toolbar in Unified Service Desk](../unified-service-desk/media/usd-toolbar-example.png "Main toolbar in Unified Service Desk")  
   
  You configure toolbars in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the **Settings** > **Unified Service Desk** > **Toolbars** area. Furthermore, each toolbar is attached to a **Toolbar Container** type of hosted control, which in turn is attached to a display area (panel) in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This is done to specify the panel where the toolbar will display in the client application.  
   
@@ -37,13 +38,13 @@ Toolbars in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-se
   
  For an example of how to do this, click **Main** on the toolbars page.  
   
-- **Toolbar buttons**: The toolbar page displays the buttons in the **Main** toolbar. The order of the buttons determines the placement of buttons from left to right in an ascending order. You can add, remove, or edit an existing button.  
+- **Toolbar buttons**: The toolbar page displays the buttons in the **Main** toolbar. The order of the buttons determines the placement of buttons from left to right in an ascending order. You can add, remove, or edit an existing button. 
   
  ![Buttons in the main toolbar](../unified-service-desk/media/usd-main-toolbar-buttons.png "Buttons in the main toolbar")  
   
-- **Action calls for buttons**: To view the action calls associated with a button, click any of the button names. For example, clicking **Dashboard** displays the following action calls for the button.  
+- **Properties of a toolbar button**: To view the properties of a button, such as name, image, button label, tooltip, shortcut key, and action calls associated with a button, click any of the button names. For example, clicking **Dashboard** displays the following information for the button.  
   
- ![Action calls for a toolbar button](../unified-service-desk/media/usd-toolbar-button-actions.png "Action calls for a toolbar button")  
+ ![Toolbar button properties](../unified-service-desk/media/usd-toolbar-button-properties.png "Toolbar button properties")  
   
 - **Toolbar Container**: To view the toolbar container hosted control associated with the **Main** toolbar, click the down arrow next to the **Main** toolbar on the nav bar, and select **Hosted Controls**.  
   

@@ -1,21 +1,17 @@
 ---
 title: "Manage access tokens | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-08
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
-caps.latest.revision: 20
-ms.author: "dechang"
+author: "m-hartmann"
+ms.author: mhart
 manager: sakudes
 ---
 # Manage access tokens
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] requires you to provide access tokens in order to acquire data and interact with posts for social profiles. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles, require access tokens before you can acquire and interact with posts. [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts require access tokens to acquire posts. Access tokens enable data acquisition and can be easily supplied by logging into your social media account. Acquisition tokens will not post anything to personal [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts. We advise users to add at least two different tokens to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Adding more tokens can guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens. Before adding a user token, make sure you have the appropriate user roles to add a social profile.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] requires you to provide access tokens in order to acquire data and interact with posts for social profiles. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles, and [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] accounts require access tokens before you can acquire and interact with posts. [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts require access tokens to acquire posts. Access tokens enable data acquisition and can be easily supplied by logging into your social media account. Acquisition tokens will not post anything to personal [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts. We advise users to add at least two different tokens to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Adding more tokens can guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens. Before adding a user token, make sure you have the appropriate user roles to add a social profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
   
 > [!NOTE]
 >  Providing an access token is mandatory; not providing one will prevent [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] from acquiring private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. The access tokens received from users are stored and encrypted in a secure database. The data acquired with tokens is not shared with any other [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solutions.  
@@ -29,6 +25,7 @@ manager: sakudes
 |[!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page|**Interaction token**: Acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, and publish and reply to posts.|  
 |[!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account|**Acquisition token**: Acquire public data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)].|  
 |[!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile|**Interaction token**: Acquire private messages from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile, and publish and reply to posts.|  
+|[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] account|**Interaction token**: Comment and rate video posts and reply to comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)].|  
   
 <a name="acquisition_token"></a>   
 ## Tokens for data acquisition  
@@ -65,7 +62,7 @@ manager: sakudes
 > [!NOTE]
 >  View your social profiles page to add a token. If you don't see the social profile in question, you can add a social profile and add tokens directly.  
   
-#### Add a Facebook user token to interact with posts  
+### Add a Facebook user token to interact with posts  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -75,7 +72,7 @@ manager: sakudes
   
 4.  Click **Save**.  
   
-#### Add a Facebook page token and allow data acquisition for private messages  
+### Add a Facebook page token and allow data acquisition for private messages  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -85,7 +82,7 @@ manager: sakudes
   
 4.  Click **Save**.  
   
-#### Add a Twitter token and allow data acquisition for private messages  
+### Add a Twitter token and allow data acquisition for private messages  
   
 1.  Go to **Settings** > **Social Profiles**.  
   

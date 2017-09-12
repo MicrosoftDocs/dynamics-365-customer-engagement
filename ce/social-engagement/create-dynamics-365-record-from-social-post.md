@@ -1,7 +1,7 @@
 ---
 title: "Create a record from a post | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 to create new lead or case records."
-ms.date: 2017-07-10
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -36,7 +36,7 @@ Learn about the [prerequisites to establish a connection with Dynamics 365](../s
  ![Entity details](../social-engagement/media/arrange-entity-details-for-linked-records.png "Entity details")  
   
   > [!IMPORTANT]
-  >  You can't remove an entity if there are active automation rules using that entity. You will first need to deactivate or delete all automation rules using that entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules")  
+  >  You can't remove an entity if there are active automation rules using that entity. You will first need to deactivate or delete all automation rules using that entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 6.  To apply your changes, in the **Dynamics 365 Instance** pane, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
 

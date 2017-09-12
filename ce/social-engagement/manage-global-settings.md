@@ -1,16 +1,11 @@
 ---
 title: "Manage global settings | Microsoft Docs"
 description: "Learn about how to configure global settings that apply to all users of Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 97fcbd04-f3ce-4591-9e17-4ac08017258c
-caps.latest.revision: 57
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -92,7 +87,7 @@ Define system settings that apply to the entire organization, like solution name
 ## Add or remove search languages  
  You can select the languages you want to have available when you set up or edit a keyword search rule in a search topic.  
   
-#### Add search languages  
+### Add search languages  
   
 1.  Go to **Settings** > **Global Settings**.  
   
@@ -105,7 +100,7 @@ Define system settings that apply to the entire organization, like solution name
   
 4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
-#### Remove search languages  
+### Remove search languages  
   
 1.  Go to **Settings** > **Global Settings**.  
   
@@ -235,9 +230,9 @@ Define system settings that apply to the entire organization, like solution name
 4.  In the overlay notification, review the information, and then click **OK** to confirm your deletion.  
   
 > [!NOTE]
->  Administrators can delete all custom location groups. Power Analysts can only delete custom location groups they own. Location groups are deleted irreversibly, but you can re-create them if required.  
->   
->  Alerts that have the deleted location group in the filter will automatically be set to inactive, and alert owners will be notified by email. Alerts won’t reactivate if you re-create a location group with the same name.  
+> Administrators can delete all custom location groups. Power Analysts can only delete custom location groups they own. Location groups are deleted irreversibly, but you can re-create them if required.  
+>  
+> Alerts that have the deleted location group in the filter will automatically be set to inactive, and alert owners will be notified by email. Alerts won’t reactivate if you re-create a location group with the same name.  
   
 ## Promote custom tags to auto tags  
  Add custom tags to your auto tags list. You can add up to five custom tags to your list. Custom tags added to this list will be promoted to auto tags and will be automatically added to posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](../social-engagement/tags.md)  

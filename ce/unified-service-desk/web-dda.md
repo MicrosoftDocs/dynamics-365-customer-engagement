@@ -1,7 +1,8 @@
 ---
-title: "WebDDA | MicrosoftDocs"
+title: "WebDDA in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about using Web data-driven adapter (WebDDA) in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -46,7 +47,7 @@ The Web data-driven adapter (WebDDA) provides access to HTML-based applications.
   
 -   [FindIEFrame](../unified-service-desk/find-ie-frame.md)  
   
--   [WebDDA Events](../unified-service-desk/we-bdda-events.md)  
+-   [WebDDA Events](../unified-service-desk/web-dda-events.md)  
   
 ### See also  
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)   

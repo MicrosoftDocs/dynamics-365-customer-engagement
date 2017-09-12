@@ -1,7 +1,7 @@
 ---
 title: "Archive - Social Engagement 2016 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2016."
-ms.date: 2017-06-09
+ms.date: 2017-08-08
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -201,15 +201,15 @@ manager: sakudes
  
  The feature will be rolled out gradually for a smooth transition. No action is required on your part. You'll find the new page in **Settings > Global Settings > Auto Tags** when the feature is available. 
  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](../social-engagement/tags.md "Work with tags") 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](../social-engagement/tags.md) 
  
 ### Introducing Chinese and Japanese sentiment detection 
- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now includes sentiment calculation for Chinese and Japanese in addition to the already available languages. Understand at a glance how the perception of your audience is toward the terms you search for. For more information about the languages that Social Engagement is translated into and sentiment analysis, see [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086), [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md "Adaptive learning based on changes to organization’s sentiment values"). 
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now includes sentiment calculation for Chinese and Japanese in addition to the already available languages. Understand at a glance how the perception of your audience is toward the terms you search for. For more information about the languages that Social Engagement is translated into and sentiment analysis, see [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086), [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md). 
  
 ### Extended source coverage: Blogs 
  We have extended the current coverage of the Blogs source. The extended source is automatically included if you set up a new search topic with a keyword rule. To avoid an unintentional surpassing of your monthly post quota, your existing search topics will continue to acquire posts with the previous source coverage. If you want to update existing search topics to include the extended coverage of the Blogs source, you can edit your existing keyword search rules, for example by adding a comma (,) and save the edited rule. 
  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md "Set up searches to listen to social media conversations") 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md) 
  
 ### Open linked social posts with the interactive experience in Dynamics 365 
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] recently introduced the new [interactive service hub](http://go.microsoft.com/fwlink/p/?LinkID=690167)that offers a different user experience from the web client. For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities that are enabled for interactive experience, we now automatically take you to the interactive service hub when you open a record on a social post that is linked to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities not enabled for interactive experience will continue to be opened in the web client. 
@@ -217,7 +217,7 @@ manager: sakudes
 ### Engage with social profiles 
  The social profiles page is redesigned in preparation for future functionality changes. You can easily add tokens to interact with posts and view the health state of your tokens. 
  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md "Manage access tokens") 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md) 
  
 ### Fewer pop-ups when linking posts to Dynamics 365 (online) 
  The authentication mechanism has changed for linking a social post to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] from client-side to server-side. With this change you will no longer see authentication pop-ups when linking a post or viewing a linked post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
@@ -226,7 +226,7 @@ manager: sakudes
  
  The feature will be rolled out gradually for a smooth transition. No action is required on your part. 
  
- To learn more about this feature, see [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md "Link posts from Social Engagement to Dynamics 365") 
+ To learn more about this feature, see [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md) 
  
 ## Microsoft Social Engagement 2016 Update 1.4 
  
@@ -235,7 +235,7 @@ manager: sakudes
  
  The **Tags** widget was also updated to reflect the number of posts with custom tags. Check it out on **Analytics > Conversations** and understand at a glance how the tags are distributed in your data set. 
  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md "Work with posts") 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md) 
  
 ### New source: Forums 
  Forums are digital discussion boards on the Internet where people discuss all kinds of topics. Understanding your audience requires listening to what is on their minds. Great ideas often arise from lively discussions, and forums give you a great way to reach them and find out what people think about topics that matter to your business. 
@@ -244,7 +244,7 @@ manager: sakudes
  
  Some forums provide location data, so their posts can show as part of the **Location Insights** widget, or on an activity map. Check out your location data on **Analytics > Locations** to find out where the authors of the forum posts are located. 
  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md "Set up searches to listen to social media conversations") 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md) 
  
 ### Stream social data to Microsoft Azure Event Hubs 
  Using [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)]—a highly scalable publish-subscribe event ingestor that handles millions of events per second—you can transform and store social data for further processing. Specify an automation rule in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and stream all posts that match this rule as events to a connected event hub. Once you have the data in the event hub, you can access it from any application that you connect to your event hub. 
@@ -261,12 +261,12 @@ manager: sakudes
 ## Microsoft Social Engagement 2016 Update 1.3 
  
 ### Understand an author's intent using intention analysis 
- To help increase team efficiency for sales and service organizations, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] automatically detects intentions in English social posts on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. Intention tags are applied to acquired posts and are analyzed by a machine-learning based algorithm to detect author’s intentions. Posts that are picked up by a search topic are scored against the algorithm and if applicable, marked with the intentions identified. In addition to the automated tagging, you can manually add tags or remove tags from posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](../social-engagement/tags.md "Work with tags") 
+ To help increase team efficiency for sales and service organizations, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] automatically detects intentions in English social posts on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. Intention tags are applied to acquired posts and are analyzed by a machine-learning based algorithm to detect author’s intentions. Posts that are picked up by a search topic are scored against the algorithm and if applicable, marked with the intentions identified. In addition to the automated tagging, you can manually add tags or remove tags from posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](../social-engagement/tags.md) 
  
- To analyze the intentions in the user interface, we introduced the Intentions widget. It displays a distribution of the intention tags in your current data set. The metrics include the total number of posts with intention tags, the number of posts per intention tag, and the trend per intention tag. Analyzing the intentions over a data set gives you quick insights into what's on the top of your audience's mind. At a glance, you can find out if there are more purchase intents after you launched a marketing campaign and get an additional indicator of its success. Or, you can see if there are major issues bubbling up due to an increased volume of posts with support requests or complaints. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights from public conversations](../social-engagement/analytics-conversations.md "Gain insights from public conversations") 
+ To analyze the intentions in the user interface, we introduced the Intentions widget. It displays a distribution of the intention tags in your current data set. The metrics include the total number of posts with intention tags, the number of posts per intention tag, and the trend per intention tag. Analyzing the intentions over a data set gives you quick insights into what's on the top of your audience's mind. At a glance, you can find out if there are more purchase intents after you launched a marketing campaign and get an additional indicator of its success. Or, you can see if there are major issues bubbling up due to an increased volume of posts with support requests or complaints. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights from public conversations](../social-engagement/analytics-conversations.md) 
  
 ### Route posts using automation rules 
- Automatically link posts matching your filter criteria to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities such as cases and leads. Combine this with intention analysis and you can setup an automated triage process. For example, customer issues on social media can be automatically identified and routed to your service department as cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md "Route posts using automation rules") 
+ Automatically link posts matching your filter criteria to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities such as cases and leads. Combine this with intention analysis and you can setup an automated triage process. For example, customer issues on social media can be automatically identified and routed to your service department as cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md) 
  
 ### Sentiment analysis for the Arabic language 
  The updated sentiment algorithm provides you with the capability to perform sentiment analysis for posts in Arabic. Additionally, post content in Arabic, Hebrew, or Urdu now displays with a right-to-left alignment in the post list and in post details. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086), [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md) 
@@ -320,7 +320,7 @@ manager: sakudes
  Get in touch with your audience using Turkish language. The acquisition of social posts, the application interface, and sentiment calculation are now available for Turkish in addition to the already-available languages for the application interface and sentiment calculation. For more information about the languages that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is translated into, see the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086). 
  
 ### Streams showing posts from the past 14 days 
- To ensure streams show only the most recent information for more effective and relevant engagement, we have limited them to show only posts from the past 14 days. You can always see earlier posts in Analytics, which you can now get to directly from Social Center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md "Explore more options with your data set") 
+ To ensure streams show only the most recent information for more effective and relevant engagement, we have limited them to show only posts from the past 14 days. You can always see earlier posts in Analytics, which you can now get to directly from Social Center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md) 
  
 ### Better language detection with Microsoft Translator 
  [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now uses the Microsoft Translator (API) to provide better language detection for all available languages in collaboration with Bing. Posts that were found so far without a predefined language from data acquisition are analyzed and, if possible, are categorized into one of our 20 available languages. 

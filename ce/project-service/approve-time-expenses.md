@@ -1,0 +1,36 @@
+---
+title: "Approve time and expenses (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+ms.custom: ""
+ms.date: "2017-09-30"
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.technology: 
+  - "project-service-automation"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: e147d08f-2779-44f5-9cd9-810abe94591b
+caps.latest.revision: 11
+ms.author: "mkaur"
+manager: "brycho"
+---
+# Approve time and expenses (Project Service Automation)
+After consultants enter their time and expenses for a project, you need to approve them so they are properly billed or costed to projects.  
+  
+1.  Go to **Project Service > Approvals**.  
+  
+2.  Click the item to approve.  
+  
+3.  In the **Time Entries**, **Expense Entries**, and **Absence/Vacation** tabs, review each item and make changes as necessary.  
+  
+4.  To approve an item, select it and click **Approve**. You can select and approve multiple items at once.  
+  
+5.  To reject an item, select it and click **Reject**. You can select and reject multiple items at once.  
+  
+6.  To view charts of time and expenses by project, click **Dashboard**.  
+  
+### See Also  
+ [Project Manager Guide](../project-service/project-manager-guide.md)

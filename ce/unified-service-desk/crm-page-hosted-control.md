@@ -1,7 +1,8 @@
 ---
 title: "CRM Page (Hosted Control) | MicrosoftDocs"
+description: "Learn about the the CRM Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -26,13 +27,18 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
   
 <a name="Create"></a>   
 ## Create a CRM Page hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Page** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Page** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  ![Dynamics 365 page hosted control](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "Dynamics 365 page hosted control")  
   
  In the **New Hosted Control** screen:  
   
--   Under **Unified Service Desk** area, select **CRM Page** from the **USD Component Type** drop-down list.  
+-   Under **Unified Service Desk** area, select **CRM Page** from the **USD Component Type** drop-down list.
+
+-   Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity
+information is populated in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client
+application. This could help agents instantly act or kick start discussion with
+customers, and save crucial interaction time.
   
 -   From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
   
@@ -40,9 +46,9 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
   
 -   Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
   
--   The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md).  
+-   The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
   
- For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  
@@ -98,7 +104,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |---------------|-----------------|  
 |name|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 ### GetSelectedIds  
  This action is used to retrieve the selected IDs from the lists.  
@@ -266,6 +272,13 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |---------------|-----------------|  
 |url|The URL of the page that has finished loading.|  
   
+### DataReady
+Occurs as soon as the related information for an entity
+record is loaded in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context. This event occurs before the **BrowserDocumentComplete** event. If the **Pre-Fetch Data** option is selected for the control instance then this event occurs as
+soon as the entity data is fetched in a separate parallel call to the server and
+will not wait for the full page to finish loading. The entity data is pre-fetched
+and the **DataReady** event is fired for inline navigations as well.
+
 ### PageLoadComplete  
  Occurs any time when a frame has completed loading. This event can occur multiple times per page load when an iFrame or frame is used on the page. This event corresponds to the individual **BrowserDocumentComplete** events in code.  
   
@@ -300,5 +313,5 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
  [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=394402)

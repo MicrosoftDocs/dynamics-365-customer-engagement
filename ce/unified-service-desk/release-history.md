@@ -1,7 +1,8 @@
 ---
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "The topic provide release history information for the Unified Service Desk Guide."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -30,7 +31,7 @@ With [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)]
 Content for earlier version of Unified Service Desk continues to be available on [TechNet](https://technet.microsoft.com/library/dn499779.aspx) and [MSDN](https://msdn.microsoft.com/library/dn864923.aspx).
 
 ### Related Topics
-[What's new for Administrators](whats-new-unified-service-desk-administrators.md)
+[What's new for Administrators](../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md)
 
 [What's new for Developers](what-s-new-in-unified-service-desk.md) 
 

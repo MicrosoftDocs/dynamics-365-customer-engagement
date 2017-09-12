@@ -1,16 +1,11 @@
 ---
 title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Social Engagement to Event Hubs."
-ms.custom: ""
-ms.date: 2017-05-23
-ms.reviewer: ""
+ms.date: 2017-08-07
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 56373722-6a46-4989-9d95-d2f572ba4936
-caps.latest.revision: 22
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
@@ -24,7 +19,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 ## Prerequisites to stream posts to Azure Event Hubs  
  To stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], the following prerequisites must be met:  
   
--   You have access to an existing event hub, and you also have its connection string with Send rights. For more information about how to create an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and how to get the connection string, see [Microsoft Azure: Get started with Event Hubs](https://azure.microsoft.com/documentation/articles/event-hubs-csharp-ephcs-getstarted/).  
+-   You have access to an existing event hub, and you also have its connection string with Send rights. For more information about how to create an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and how to get the connection string, see [Microsoft Azure: Get started with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send/).  
   
 -   You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Enterprise license assigned to your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] user account. Although Administrators with Professional licenses can configure the connection to an event hub, you’ll need an Enterprise license to create automation rules that stream data to a connected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)  
   
@@ -35,7 +30,7 @@ Start building out your custom metrics or analysis based on the posts found by [
  [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows you to connect to multiple event hubs. Before you can start to stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], you need to enable the connection and acknowledge that you agree data can be sent to a third-party application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Privacy Notice](#privacy)  
   
 <a name="connect_procedure"></a>   
-#### Connect to Azure Event Hubs  
+### Connect to Azure Event Hubs  
   
 1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Connections**.  
   
@@ -45,7 +40,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 4.  In the **Connect to Azure Event Hubs** pane, enter an **Event hub name** and the **Connection string** for the event hub you want to connect.  
   
-     For more information about where to find the connection string, see [Microsoft Azure: Get started with Event Hubs](https://azure.microsoft.com/documentation/articles/event-hubs-csharp-ephcs-getstarted/).  
+     For more information about where to find the connection string, see [Microsoft Azure: Get started with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send).  
   
 5.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
@@ -54,7 +49,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 
 ## Social Engagement as a data source in Customer Insights
 
-[Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/customer-insights/overview) includes a connector to add Social Engagement as a data source. This connector creates and manages the connection between Social Engagement and Azure Event Hubs. For more information about the connector, see [Add Microsoft Social Engagement as a data source](https://docs.microsoft.com/en-us/dynamics365/customer-insights/deploy/datasourcemse)
+[Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/customer-insights/overview) includes a connector to add Social Engagement as a data source. This connector creates and manages the connection between Social Engagement and Azure Event Hubs. For more information about the connector, see [Add Microsoft Social Engagement as a data source](https://docs.microsoft.com/dynamics365/customer-insights/deploy/datasourcemse)
 
 <a name="disable_connection"></a>   
 ## Disable or re-enable a connection to Azure Event Hubs  
@@ -64,7 +59,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 >  Before you disable a connection, make sure no active automation rule is configured to stream posts to an event hub. We’ll inform you with an error message if you try to disable a connection that is used in active automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
 <a name="disable_procedure"></a>   
-#### Disable a connection  
+### Disable a connection  
   
 1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Connections**.  
   
@@ -75,7 +70,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
 <a name="re_enable_connection"></a>   
-#### Re-enable a disabled connection  
+### Re-enable a disabled connection  
   
 1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Connections**.  
   

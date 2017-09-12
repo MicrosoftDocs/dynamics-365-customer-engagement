@@ -1,7 +1,8 @@
 ---
 title: "Debug issues in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "The debugger application in Unified Service Desk is a hosted control that provides insights into the code executions of the Unified Service Desk platform. You can use it to troubleshoot issues in your Unified Service Desk application."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -29,6 +30,6 @@ The debugger application in [!INCLUDE[pn_unified_service_desk](../includes/pn-un
  The sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications come preconfigured with a debugger hosted control.  
     
 ### See also  
- [Get started with configuring your agent application](../unified-service-desk/get-started-with-configuring-your-agent-application.md)   
+ [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)   
  [Unified Service Desk configuration walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)   

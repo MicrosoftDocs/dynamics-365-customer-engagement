@@ -1,18 +1,21 @@
-Social Engagement 2017 Update 1.6 Readme
-========================================
+---
+title: "Social Engagement 2017 Update 1.7 Readme"
+ms.date: 2017-08-11
+ms.service: mse
+ms.topic: article
+applies_to: "Social Engagement"
+ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
+author: "m-hartmann"
+ms.author: mhart
+manager: sakudes
+---
+# Social Engagement 2017 Update 1.7 Readme
 
-This document provides important, late-breaking information about Microsoft
-Social Engagement 2017 Update 1.6. It was published in July 2017.
+## Resources
 
-Resources
----------
+[Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) - info central for product users and admins
 
-[Social Engagement Help
-Center](http://go.microsoft.com/fwlink/?LinkID=394325)—info central for product
-users and admins
-
-General known issues
---------------------
+## General known issues
 
 ### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for Tablets app
 
@@ -226,3 +229,32 @@ Analytics notification.
 In some cases, Disqus posts are missing an URL. This can happen if posts are
 created through an API or through private channels. Social Engagement cannot
 acquire messages that are missing an URL.
+
+### Private messages and public messages from Facebook Pages and Twitter not always acquired
+
+In some cases, private messages and public messages from Facebook Pages and
+Twitter are not acquired in Social Engagement. This can happen when a message
+was written in a non-supported language of Social Engagement or if the language
+was not detected at all.
+
+### Facebook comments cannot be shared through “Post link” action
+
+Due to a feature in the Facebook API, Social Engagement users can’t share the
+URL of a Facebook comment to Facebook. We stop showing Facebook social profiles
+when the **Post link** action is triggered on a post of the type **Facebook
+comment**.
+
+### Opening a post with the URL from Copy internal URL command
+
+When you use the URL from the **Copy internal URL** command to access a post in
+Social Engagement, filters for this specific document will not be removed by any
+action in Analytics. To remove this filter, reload the analytics. You can do
+this either through the navigation menu or by using your browser’s refresh
+functionality.
+
+### Can’t delete YouTube social profiles if inactive for more than 24 hours
+
+Social Engagement won’t let you delete a YouTube social profile if it wasn't
+used to comment or rate a video in the past 24 hours. If this occurs, please
+re-authenticate the YouTube social profile before removing it from the list of
+social profiles.

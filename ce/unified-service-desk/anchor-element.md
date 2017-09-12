@@ -1,7 +1,8 @@
 ---
 title: "AnchorElement | MicrosoftDocs"
+description: "The topic explains about <AnchorElement> element which is one of the binding elements of the WebDDA."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -6,13 +6,13 @@ author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 applies_to: "Dynamics 365 (online)"
-ms.date: 07/15/2017
+ms.date: 08/09/2017
 ms.service: dynamics-365
 ms.topic: article
 ms.assetid: 6a90c7e7-4f42-4420-9969-85171faf31e5
 ms.reviewer: 
 ---
-# Manage Leads in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business Edition
+ # Manage Leads in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business Edition
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -20,9 +20,9 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
 You can collect leads from many different sources. For example, you can generate sales leads from marketing campaigns, inquiries from your website or mailing lists.
 
-When you create a [lead](javascript:toggleInline('25788')), there are system-required fields to fill out. But other data, such as e-mail addresses, the source of the lead, and specific product interests, can also help your sales staff in following up with the customers.  
+When you create a lead, there are system-required fields to fill out. But other data, such as e-mail addresses, the source of the lead, and specific product interests, can also help your sales staff in following up with the customers.  
 
-## Create a lead
+ ## Create a lead
 
 1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Leads**.
 
@@ -40,7 +40,7 @@ When you create a [lead](javascript:toggleInline('25788')), there are system-req
 
 If your lead has potential to become a sale, you can qualify the lead to an opportunity. When you qualify a lead, a new record to represent the lead as an opportunity is created. Any notes on a lead record do not transfer to the opportunity record. The notes remain with the originating lead record.
 
-1.  If yor If your This task requires permissions that are found in all default Go to Leads.
+1.  Go to Leads.
 
 2.  In the list of leads, open the lead you want to qualify and convert.
 

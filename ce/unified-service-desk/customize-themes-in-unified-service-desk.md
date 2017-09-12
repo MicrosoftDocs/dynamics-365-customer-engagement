@@ -1,7 +1,8 @@
 ---
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
+description: "Themes in Unified Service Desk define the look and feel of the agent application. A theme in Unified Service Desk consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: "2017-08-23"
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -200,8 +201,7 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
         ```  
   
 ### See also  
- [Customize themes for High Contrast settings](Customize%20themes%20for%20High%20Contrast%20settings.md)   
+ [Customize themes for High Contrast settings](../unified-service-desk/customize-themes-in-unified-service-desk.md )   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Use themes to customize the appearance of your application](../unified-service-desk/customize-appearance-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://technet.microsoft.com/library/dn499779.aspx)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
