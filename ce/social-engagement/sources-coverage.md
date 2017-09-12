@@ -1,19 +1,22 @@
 ---
 title: "Sources coverage | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
-ms.custom: ""
+keywords: ""
 ms.date: 09/12/2017
-ms.reviewer: ""
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom: 
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 050283f4-bc5b-42e1-9885-ebdcfd786521
-caps.latest.revision: 12
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 12
+topic-status: Drafting
 ---
 
 # Find out what&#39;s covered by sources
@@ -65,7 +68,7 @@ To add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] rule, see [Add a
 
 ## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
-Create [LinkedIn page rules](add-rules-serach-topic.md#linkedin-page-rule) to gather posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. After a page admin has added the social profile and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+Create [LinkedIn page rules](add-rules-search-topic.md#linkedin-page-rule) to gather posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. After a page admin has added the social profile and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## News
 
