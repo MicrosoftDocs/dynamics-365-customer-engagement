@@ -2,7 +2,7 @@
 title: "Configure a load form and load tab step type for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to define a load form and load tab step type in a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,7 +44,7 @@ This step type allows the web form step to act as an entity form within the over
 | Make All Fields Required           | Makes all fields required regardless of the field requirement level.                                                                                                        |
 | Validation Summary CSS Class       | CSS Class name assigned to the validation summary. Default: 'validation-summary alert alert-error alert-block'                                                              |
 | Enable Validation Summary Links    | A Boolean value of true or false that indicates whether anchor links should be rendered in the validation summary to scroll to the field containing an error. Default: true |
-| Validation Summary Link Text       | The label assigned to the validation summary links. Default: click here                                                                                                     |
+| Validation Summary Link Text       | The label assigned to the validation summary links. Default: Click here                                                                                                     |
 | Instructions                       | Display a block of text at the top of the form.                                                                                                                             |
 | Record Not Found Message           | Message displayed when the source record cannot be loaded. Default: "The record you are looking for could not be found."                                                    |
 

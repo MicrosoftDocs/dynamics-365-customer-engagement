@@ -2,7 +2,7 @@
 title: "Set up and moderate forums for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to create and manage forums on a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,21 +18,21 @@ Forums can be created, edited and deleted within [!INCLUDE[pn-dynamics-crm](../i
 
 ## Create a new forum
 
-To create a new forum, click **New**.
+To create a new forum, select **New**.
 
 ## Edit an existing forum
 
-1. Double-click the **Form** listed in the grid.
-2. Specify values for the fields provided, and then click **Save & Close**.
+1. Select the **Form** listed in the grid.
+2. Specify values for the fields provided, and then select **Save & Close**.
 
 ## Manage forums on a portal
 
 For portal users with content management permissions, a limited set of properties of forums can be managed by using the [front-side editing engine to publish content](publish-content-editing-engine.md). If your user account has been assigned the necessary permission set, the inline editing interface will appear automatically when you sign in to the portal.  
 
 1. Navigate to the forums parent page within the portal.
-2. On the portal inline editing toolbar, click **New**. 
-3. Click **Child forum**. 
-4. Specify values for the fields provided and click **Save**.
+2. On the portal inline editing toolbar, select **New**. 
+3. Select **Child forum**. 
+4. Specify values for the fields provided, and then select **Save**.
 
 ![Create a new child forum](media/create-new-child-forum.png "Create a new child forum")  
 

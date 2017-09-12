@@ -2,7 +2,7 @@
 title: "Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to add and configure OAuth2 provider settings for a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -37,84 +37,84 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 
 1. Open [Google Developers Console](https://console.developers.google.com/)  
 2. Create an API project or open an existing project
-3. Navigate to**APIs & auth** &gt;**APIs** and under Social APIs, click**Google+ API**, and then click**Enable API**
-5. Navigate to**APIs & auth** &gt;**Consent screen**
-    - Specify an**Email address** 
-    - Specify a custom**Product name** 
-    - Click**Save**
-9. Navigate to**APIs & auth** &gt;**Credentials** and create new Client ID
+3. Go to**APIs & auth** &gt;**APIs**, and under **Social APIs**, select**Google+ API**, and then select**Enable API**
+5. Go to**APIs & auth** &gt;**Consent screen**.
+    - Specify an**Email address**.
+    - Specify a custom**Product name**.
+    - Select**Save**.
+9. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
     - Application Type:**Web application**
     - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
     - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
-    - Click**Create Client ID**
+    - Select **Create Client ID**.
 
 ### Facebook app settings
 
 1. Open [Facebook Developers App Dashboard](https://developers.facebook.com/apps)  
-2. Click**Add a New App**
-3. Select**Website**
-4. Click**Skip and Create App ID**
-    - Specify a**Display Name** 
-    - Select a**Category** 
-    - Click**Create App ID**
+2. Select **Add a New App**.
+3. Select **Website**.
+4. Select **Skip and Create App ID**.
+    - Specify a **Display Name**.
+    - Choose a **Category**.
+    - Select **Create App ID**.
 
-5. While on the Dashboard for the new app, go to**Settings** &gt;**Basic** (tab) and add following details:
+5. While on the dashboard for the new app, go to **Settings** &gt;**Basic** (tab) and add the following details:
     - App Domains (optional): portal.contoso.com 
     - Contact Email: *&lt;email address of your choice&gt;* 
-    - Click**Add Platform** and select**Website** 
+    - Select **Add Platform**, and then select **Website**. 
     - Site URL: http://portal.contoso.com/ or http://portal.contoso.com/signin-facebook
 
-6. Click**Save Changes**
-7. Navigate to**Status & Review** &gt;**Status** tab
-8. Select**Yes** when prompted to make the app and all its features available to the general public.You must have filled in the valid data in Step 5 above to to enable this setting.
+6. Select **Save Changes**.
+7. Go to **Status & Review** &gt; **Status** tab.
+8. Select **Yes** when prompted to make the app and all its features available to the general public. You must have filled in the valid data in Step 5 above to to enable this setting.
 
 ### [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] application settings
 
 1. Open [[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] account Developer Center](https://account.live.com/developers/applications/index)  
-2. Click**Create application** and specify an**Application name**
-3. Click**I accept** to accept Terms and Conditions
-4. Navigate to**Settings** &gt;**API settings** and set redirect URL as http://portal.contoso.com/signin-microsoft 
+2. Select **Create application** and specify an **Application name**.
+3. Select **I accept** to accept Terms and Conditions.
+4. Go to **Settings** &gt;**API settings**, and then set the redirect URL as http://portal.contoso.com/signin-microsoft 
 
 ### Twitter apps settings
 
-1. Open [Twitter Application Management](https://apps.twitter.com/)  
-2. Click**Create New App**
+1. Open [Twitter Application Management](https://apps.twitter.com/). 
+2. Select **Create New App**.
 
-    - Specify a**Name** and**Description** of your app
-    - Set Website URL as http://portal.contoso.com
-    - Set Callback URL as http://portal.contoso.com or http://portal.contoso.com/signin-twitter
+    - Specify a **Name** and **Description** for your app.
+    - Set the Website URL as http://portal.contoso.com.
+    - Set the Callback URL as http://portal.contoso.com or http://portal.contoso.com/signin-twitter.
 
-3. Click**Create your Twitter application**.
+3. Select **Create your Twitter application**.
 
 ### LinkedIn app settings
 
-1. Open [LinkedIn Developer Network](https://www.linkedin.com/secure/developer)  
-2. Click**Add New Application**
+1. Open [LinkedIn Developer Network](https://www.linkedin.com/secure/developer).  
+2. Select **Add New Application**.
 
-    - Specify an**Application Name**,**Description**, etc.
-    - Set Website URL as http://portal.contoso.com
+    - Specify an **Application Name**, **Description**, and so on.
+    - Set Website URL as http://portal.contoso.com.
     - Set OAuth User Agreement/Default Scope: r\_basicprofie and r\_emailaddress
-    - Set OAuth 2.0 Redirect url: http://portal.contoso.com/signin-linkedin
+    - Set OAuth 2.0 Redirect url: http://portal.contoso.com/signin-linkedin.
 
-3. Click**Add Application**
+3. Select **Add Application**.
 
 ### Yahoo! YDN App settings
 
-1. Open [Yahoo! Developer Network](https://developer.yahoo.com/apps)  
-2. Click**Create an App**
+1. Open [Yahoo! Developer Network](https://developer.yahoo.com/apps).
+2. Select **Create an App**.
     
-    - Specify an**Application Name**
-    - Application Type:**Web Application**
+    - Specify an **Application Name**.
+    - Application Type: **Web Application**.
     - Callback Domain: portal.contoso.com
 
-3. Click**Create App**
+3. Select **Create App**.
 
-## Create site settings using OAuth2
+## Create site settings by using OAuth2
 
 The application dashboard for each provider will display the client ID (app ID, consumer key) and client secret (app secret, consumer secret) for each application. Use these two values to configure the portal site settings.
 
 >[!Note]
-> A standard OAuth2 configuration only requires the following settings (choosing Facebook as an example):
+> A standard OAuth2 configuration only requires the following settings (with Facebook as an example):
 > - `Authentication/OpenAuth/Facebook/ClientId`
 > - `Authentication/OpenAuth/Facebook/ClientSecret`
 
@@ -125,13 +125,13 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 | Authentication/Registration/ExternalLoginEnabled                | Enables or disables external account sign-in and registration. Default: true                                                                                                                                                                                                                                                                         |
 | Authentication/OpenAuth/\[provider\]/ClientId                   | Required. The client ID value from the provider application. It may also be referred to as an "App ID" or "Consumer Key".  The following setting names are allowed for backwards compatibility:  Authentication/OpenAuth/Twitter/ConsumerKey <ul><li>Authentication/OpenAuth/Facebook/AppId</li><li>Authentication/OpenAuth/LinkedIn/ConsumerKey</li> |
 | Authentication/OpenAuth/\[provider\]/ClientSecret               | Required. The client secret value from the provider application. It may also be referred to as an "App Secret" or "Consumer Secret".  The following setting names are allowed for backwards compatibility:  Authentication/OpenAuth/Twitter/ConsumerSecret <ul><li>Authentication/OpenAuth/Facebook/AppSecret</li><li>Authentication/OpenAuth/LinkedIn/ConsumerSecret</li> |
-| Authentication/OpenAuth/\[provider\]/AuthenticationType         | The OWIN authentication middleware type. Example: yahoo. [MSDN: authenticationoptions.authenticationtype](https://msdn.microsoft.com//library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx).                                                                                                                                |  
-| Authentication/OpenAuth/\[provider\]/Scope                      | A comma separated list of permissions to request. [MSDN: microsoftaccountauthenticationoptions.scope](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.scope.aspx).                                                                                                                |  
-| Authentication/OpenAuth/\[provider\]/Caption                    | The text that the user can display on a sign in user interface. [MSDN: microsoftaccountauthenticationoptions.caption](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.caption.aspx).                                                                                              |  
-| Authentication/OpenAuth/\[provider\]/BackchannelTimeout         | Timeout value in milliseconds for back channel communications. [MSDN: microsoftaccountauthenticationoptions.backchanneltimeout](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.backchanneltimeout.aspx).                                                                         |  
-| Authentication/OpenAuth/\[provider\]/CallbackPath               | The request path within the application's base path where the user-agent will be returned. [MSDN: microsoftaccountauthenticationoptions.callbackpath](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.callbackpath.aspx).                                                         |  
-| Authentication/OpenAuth/\[provider\]/SignInAsAuthenticationType | The name of another authentication middleware which will be responsible for actually issuing a**userClaimsIdentity**. [MSDN: microsoftaccountauthenticationoptions.signinasauthenticationtype](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.signinasauthenticationtype.aspx). |  
-| Authentication/OpenAuth/\[provider\]/AuthenticationMode         | The OWIN authentication middleware mode. [MSDN: security.authenticationoptions.authenticationmode](https://msdn.microsoft.com//library/microsoft.owin.security.authenticationoptions.authenticationmode.aspx).                                                                                                                                       |  
+| Authentication/OpenAuth/\[provider\]/AuthenticationType         | The OWIN authentication middleware type. Example: yahoo. [authenticationoptions.authenticationtype](https://msdn.microsoft.com//library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx).                                                                                                                                |  
+| Authentication/OpenAuth/\[provider\]/Scope                      | A comma separated list of permissions to request. [microsoftaccountauthenticationoptions.scope](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.scope.aspx).                                                                                                                |  
+| Authentication/OpenAuth/\[provider\]/Caption                    | The text that the user can display on a sign in user interface. [microsoftaccountauthenticationoptions.caption](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.caption.aspx).                                                                                              |  
+| Authentication/OpenAuth/\[provider\]/BackchannelTimeout         | Timeout value in milliseconds for back channel communications. [microsoftaccountauthenticationoptions.backchanneltimeout](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.backchanneltimeout.aspx).                                                                         |  
+| Authentication/OpenAuth/\[provider\]/CallbackPath               | The request path within the application's base path where the user-agent will be returned. [microsoftaccountauthenticationoptions.callbackpath](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.callbackpath.aspx).                                                         |  
+| Authentication/OpenAuth/\[provider\]/SignInAsAuthenticationType | The name of another authentication middleware which will be responsible for actually issuing a**userClaimsIdentity**. [microsoftaccountauthenticationoptions.signinasauthenticationtype](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.signinasauthenticationtype.aspx). |  
+| Authentication/OpenAuth/\[provider\]/AuthenticationMode         | The OWIN authentication middleware mode. [security.authenticationoptions.authenticationmode](https://msdn.microsoft.com//library/microsoft.owin.security.authenticationoptions.authenticationmode.aspx).                                                                                                                                       |  
 
 ### See also
 

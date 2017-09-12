@@ -2,7 +2,7 @@
 title: "Rate or vote on a webpage or blog post on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable and manage ratings on a web page or a blog post on a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,10 +22,10 @@ Ratings are custom [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] a
 
 1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Go to **Portals**.
-3. Click **Web Pages**.
-4. Double-click the **Web Page** you want.
+3. Select **Web Pages**.
+4. Select the **Web Page** you want.
 5. Set **Enable Ratings** to **Yes**.
-6. Click **Save & Close**.
+6. Select **Save & Close**.
 
 ## Use ratings
 

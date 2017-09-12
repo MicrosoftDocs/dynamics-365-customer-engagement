@@ -2,7 +2,7 @@
 title: "Display file attachments with knowledge articles on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to display file attachments with knowledge articles on a portal in Dynamics 365."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
