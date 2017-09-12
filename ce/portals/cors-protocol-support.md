@@ -2,7 +2,7 @@
 title: "CORS protocol support for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Information about CORS protocol support for a portal in Dynamics 365."
 ms.custom: ""
-ms.date: 07/02/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

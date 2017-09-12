@@ -2,7 +2,7 @@
 title: "Use the front-side editing engine to publish content for a portal in Dynamics 365  | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +19,7 @@ Use the content editor to edit text, create links and display images on webpage.
 
 To use the content editor, you need the appropriate permissions and the content to be modified must be in the page template. 
 
-To modify the content, click **open the content editor**, point to the content to be modified, and then click the blue edit button that appears in the top left corner.
+To modify the content, select **open the content editor**, point to the content to be modified, and then select the blue edit button that appears in the upper-left corner.
 
 ## Content editor commands and controls
 
@@ -60,11 +60,11 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 ||
 
 >[!Note] 
-> When in Full Screen Mode, the **Save** and **Cancel All Changes** buttons will not be available. To save or cancel, click the **Toggle Full Screen Mode** button to return to the regular mode where the buttons are available.
+> When in Full Screen Mode, the **Save** and **Cancel All Changes** buttons will not be available. To save or cancel, select **Toggle Full Screen Mode** to return to the regular mode where the buttons are available.
 
 ## Create a link
 
-From within the content editor, select the text to make a hyperlink for and click the **Insert/Edit Link** button. Enter the properties for the hyperlink and click the **Insert** button. Click the **Save** button in the content editor toolbar to save the change.
+From within the content editor, select the text to make a hyperlink for and select **Insert/Edit Link**. Enter the properties for the hyperlink and select **Insert**. Select **Save** in the content editor toolbar to save the change.
 
 ### Link properties and commands
 
@@ -72,15 +72,15 @@ From within the content editor, select the text to make a hyperlink for and clic
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link URL       | The URL to link to. It can be any properly formatted URL, external to the website or within the same website. If within, it can be relative and it can be looked up using Browse (found just right of the Link URL field). |
 | Browse         | Opens a file picker for the website. The URL for the selected page or file will be placed into the Link URL field when selected. See Using the File Picker.                                                                |
-| Target         | Specifies whether the link will be opened in the same or a new browser window when clicked. If not set, the link will open in the same window by default.                                                                  |
+| Target         | Specifies whether the link will be opened in the same or a new browser window when selected. If not set, the link will open in the same window by default.                                                                  |
 | Title          | A descriptive title for the hyperlink. Usually displayed when the mouse cursor hovers on the hyperlink.                                                                                                                    |
-| Insert, Update | Makes or updates the hyperlink with the specified properties and closes the dialog. Note that the change is only done in the content editor until the save button has been clicked in the content editor toolbar. |                                                                                           |
+| Insert, Update | Makes or updates the hyperlink with the specified properties and closes the dialog. Note that the change is only done in the content editor until the save button has been selected in the content editor toolbar. |                                                                                           |
 | Cancel         | Discards any changes made and closes the dialog.                                                                                                                                                                           |
 ||
 
 ## Insert an image
 
-From within the content editor, put the text cursor in the place to insert an image and click the Insert/Edit Image button. Enter the properties for the image and click the insert button. Click the save button in the content editor toolbar to save the change.
+From within the content editor, put the text cursor where you want to insert an image and select **Insert/Edit Image**. Enter the properties for the image, and then select **Insert**. Select **Save** in the content editor toolbar to save the change.
 
 ### Image properties and commands
 
@@ -93,19 +93,19 @@ From within the content editor, put the text cursor in the place to insert an im
 | Preview           | Provides a preview of the image being inserted or updated.                                                                                                                                                                                                                            |
 | Appearance (Tab)  | Provides options for overriding the actual image properties, its styling, and its placement.                                                                                                                                                                                          |
 | Advanced (Tab)    | Provides advanced options that may need page template support.                                                                                                                                                                                                                        |
-| Insert, Update    | Makes or updates the image with the specified properties and closes the dialog. The change is only done in the content editor until the save button has been clicked in the content editor toolbar. |                                                                                                                                                      |
+| Insert, Update    | Makes or updates the image with the specified properties and closes the dialog. The change is only done in the content editor until **Save** has been selected in the content editor toolbar. |                                                                                                                                                      |
 | Cancel            | Discards any changes made and closes the dialog.                                                                                                                                                                                                                                      |
 ||
 
 ## Browse pages and files by using the file picker
 
-The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the content editor. Click on the icon that looks like a [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Explorer window to open the file picker. Browse to a page or file using the left tree view and double click the page or file in the right list view to select it.
+The file picker provides a way to browse pages and files that belong to the same website. New files can be uploaded using the file picker as well. The file picker is available when adding a link or an image through the content editor. Select the icon that looks like a [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Explorer window to open the file picker. Browse to a page or file by using the left tree view and double-click the page or file in the rightmost list view to select it.
 
 To upload new files,
 
-1. Navigate to the folder to upload the file to and click the disk icon with a green plus on it.
-2. In the dialog that opens, click **Browse** and pick a file to upload. Do the same in the next field to add more than one file.
-3. Click **Ok** to upload the selected files.
+1. Navigate to the folder to upload the file to and select the disk icon with a green plus on it.
+2. In the dialog box that opens, select **Browse** and pick a file to upload. Do the same in the next field to add more than one file.
+3. Select **Ok** to upload the selected files.
 
 ### File picker commands
 
@@ -117,7 +117,7 @@ The table below has more detail about the available buttons, listed in the order
 | Reload                  | Refresh the folder's view.                                                                                                                   |
 | Select file             | Use the selected page or file's URL.                                                                                                         |
 | Open                    | View the page or file in a new browser window.                                                                                               |
-| Upload files            | Opens a dialog for uploading new files. Click **OK** to upload new files immediately to the folder. |                                             |
+| Upload files            | Opens a dialog for uploading new files. Select **OK** to upload new files immediately to the folder. |                                             |
 | Copy, Cut               | Disabled                                                                                                                                     |
 | Remove                  | Deletes the selected file. Only files can be removed and not pages. Pages should be removed by using the **Delete** button in the content publishing toolbar. |  |
 | Get Info                | Displays additional information about the selected page or file.                                                                             |

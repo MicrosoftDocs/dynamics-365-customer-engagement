@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 for Field Service with a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,7 +26,7 @@ To create/edit an agreement to be visible on the portal,
 3. Fill in the **Service Account** field with the account the customer is connected to 
 4. Select the **Expose to Customer** checkbox (both under the **General** tab). 
 
-Now a customer can sign in to the portal, navigate to **Field Service** &gt; **Agreements**, and change the filer to **All Agreements**. Now the customer can view the agreements created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The page will show basic details and the customer can click on an agreement to view the specific agreement details.
+Now a customer can sign in to the portal, go to **Field Service** &gt; **Agreements**, and change the filer to **All Agreements**. Now the customer can view the agreements created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The page will show basic details and the customer can select an agreement to view the specific agreement details.
 
 ![View agreements in a partner portal](media/view-agreements-partner-portal.png "View agreements in a partner portal")  
 
@@ -51,8 +51,8 @@ Customers can view active and inactive work orders on the portal that are connec
 > A work order must be defined as viewable in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] before it can be viewed in a portal.
 
 To make a work order viewable in a portal, 
-1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Field Service** &gt; **Work Order & Schedule** &gt; **Work Orders**. 
-2. Click on the work order to edit or click the **+ New** button to create a new one. 
+1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Work Order & Schedule** &gt; **Work Orders**. 
+2. Select the work order you want to edit, or select **+ New** to create a new one. 
 3. Fill in the **Service Account** with the account the customer is connected to and select the **Expose to Customer** checkbox to allow a customer to view it on the portal. 
 
 After signing in to the portal, the customer can navigate to **Field Service** &gt; **Work Orders** and see the work orders that are connected to their account.
@@ -67,8 +67,8 @@ Customers can view active and inactive invoices that are connected to their acco
 > An invoice must be defined as viewable in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] before it can be viewed in a portal.
 
 To make an invoice viewable in a portal
-1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], navigate to **Field Service** &gt; **Service Delivery** &gt; **Invoices**. 
-2. Select the invoice to edit it, or click the **+ New** button to create a new one. Be sure that the invoice is on the **Invoice** section of the drop-down menu on the top left side of the page. 
+1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Service Delivery** &gt; **Invoices**. 
+2. Select the invoice to edit it, or select the **+ New** button to create a new one. Be sure that the invoice is on the **Invoice** section of the drop-down menu on the top left side of the page. 
 3. Fill in the necessary details for the invoice and ensure the **Expose to Customer** checkbox has been selected. 
 
 After signing in to the portal the customer can view the invoice in **Field Service** &gt; **Invoices**.

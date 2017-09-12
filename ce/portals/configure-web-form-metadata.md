@@ -2,7 +2,7 @@
 title: "Web form metadata for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,10 +18,10 @@ manager: sakudes
 The Web Form Metadata contains additional behavior modification logic to augment or override the functionality of form fields that is otherwise not possible with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]'s native entity form editing capabilities.
 
 ## Add a new record
-1. On the Web Form Step that has fields that you would like to modify, click the **Metadata** link in the top navigation.
+1. On the Web Form Step that has fields that you would like to modify, select the **Metadata** link in the top navigation.
 
 ![Select metadata in Dynamics 365](media/select-metadata-dynamics-365.png "Select metadata in Dynamics 365")  
-2. Click **Add New Web Form Metadata**.
+2. select **Add New Web Form Metadata**.
 
 ## Web form metadata properties
 

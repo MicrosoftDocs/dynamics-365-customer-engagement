@@ -1,8 +1,8 @@
 ---
-title: "Configure notes on a web form for a portal in Dynamics 365 | MicrosoftDocs"
-description: ""
+title: "Configure notes on entity forms and web forms for a portal in Dynamics 365 | MicrosoftDocs"
+description: "Instructions to add and configure notes on entity forms and web forms in a portal."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,14 +15,21 @@ manager: sakudes
 ---
 # Configure notes for web forms on portals
 
-Just like with Subgrids, adding notes to your Managed forms on the portal is easy - just add the notes control to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form through the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you’re done. You can configure the behavior of the notes control by using metadata.
+Just like with subgrids, adding notes to your managed forms on the portal is easy&mdash;just add the notes control to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form through the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you’re done. You can configure the behavior of the notes control by using metadata.
 
 > [!Note]                                                           
-> Explicit [Add record-based security using entity permissions for portals](assign-entity-permissions.md) are **required** for any notes to appear on the portal. For read and edit, the 'Read' and 'Write' privileges must be granted. For create, two permissions must exist, a permission with the 'Create' and 'Append' privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the 'Append To' privilege granted.
+> Explicit [Entity Permissions](assign-entity-permissions.md) are required for any notes to appear on the portal. For read and edit, the 'Read' and 'Write' privileges must be granted. For create, two permissions must exist, a permission with the 'Create' and 'Append' privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the 'Append To' privilege granted.
 
 To Edit or Add notes, among other things, you must configure the control using a metadata record.
 
-To add Metadata to a web form, navigate to **Web Form Metadata** either using the top drop-down or the subgrid right on the main form of the Web Form record that you are working with. Then click to add a new record.
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+2. Go to **Portals** > **Content** > **Entity Forms**. A list of active entity forms is displayed.
+3. Select the Entity form to which you want to add note configuration.
+4. Navigate to **Entity Form Metadata** either by using the top drop-down list or the subgrid on the main form of the Entity form record that you are working with.
+5. Select **Add New Entity Form Metadata** to add a new record.
+6. From the **Type** drop-down list, select **Notes**. The notes configuration&ndash;specific settings are displayed. Most of the settings are collapsed by default. You can expand a section to see additional settings.
+7. Fill in the fields by using appropriate values. For information about fields, see [Attributes](#attributes), [Create dialog options](#create-dialog-options), [Edit dialog options](#edit-dialog-options), and [Delete dialog options](#delete-dialog-options).
+8. Save the form.
 
 When Creating your record, select Type of Notes. You will then be able to add Note configuration:
 
@@ -55,7 +62,7 @@ Most settings are shown collapsed to save space by default. Click "" to expand a
 | Error Message         | Overrides the message shown when an error occurs while trying to load the list of notes.                                                                     |
 | Access Denied Message | Overrides the message shown when the user does not have sufficient permissions to view the list of notes.                                                    |
 | Empty Message         | Overrides the message shown when the current entity does not have any notes that can be viewed.                                                              |
-| List Orders           | Allows you to set the order in which notes will be displayed. The List Orders settings allows you to set the following: <ul><li>Attribute: the logical name of the column by which you wish to sort</li><li>Alias: the alias for the attribute in the query</li><li>Direction: Choose Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).</li></ul> ![Set attributes for list orders](media/set-attributes-list-orders.png "Set attributes for list orders") To add a sorting rule, click "Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.|
+| List Orders           | Allows you to set the order in which notes will be displayed. The List Orders settings allows you to set the following: <ul><li>Attribute: the logical name of the column by which you wish to sort</li><li>Alias: the alias for the attribute in the query</li><li>Direction: Choose Ascending (smallest to largest, or first to last), or Descending (largest to smallest, or last to first).</li></ul> ![Set attributes for list orders](media/set-attributes-list-orders.png "Set attributes for list orders") To add a sorting rule, select "Column" (4) and fill in the details. List Orders will be processed in order from the top of the list having highest priority.|
 ||
 
 

@@ -2,7 +2,7 @@
 title: "Enable Azure storage for portals in Dynamics 365 | MicrosoftDocs"
 description: "Steps to enable Azure storage for portals."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

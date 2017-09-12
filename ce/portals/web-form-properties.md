@@ -2,7 +2,7 @@
 title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -76,7 +76,7 @@ Example of the various progress indicator types:
 
 | Name                                  | Description                                                                                                                                                                                                                |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Display Save Changes Warning On Close | Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, click the browser's back button, or click the previous button in a multiple step form.    |
+| Display Save Changes Warning On Close | Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, select the browser's back button, or select the previous button in a multiple step form.    |
 | Save Changes Warning Message          | For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
 ||
 
@@ -93,9 +93,9 @@ Web Form Metadata contains additional behavior modification logic to augment or 
 
 On the **Web Form Step** that has fields that you would like to modify
 
-1. Click the **Metadata** link in the leftmost navigation area: 
-- To add a new record, click **Add New Web Form Metadata**.
-- To edit an existing record, double-click on a record in the grid.
+1. Select the **Metadata** link in the leftmost navigation area: 
+- To add a new record, select **Add New Web Form Metadata**.
+- To edit an existing record, double-click to select a record in the grid.
 
 ### Web form metadata properties
 

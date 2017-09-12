@@ -2,7 +2,7 @@
 title: "Create a partner account on a partner relationship management (PRM) portal in Dynamics 365  | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,10 +20,10 @@ You can use partner accounts to keep track of your various partners. We recommen
 
 ## Create a partner account
 
-1. Go to **Sales &gt; Accounts**.
+1. Go to **Sales** &gt; **Accounts**.
 2. Choose **New** and fill in your information.
 3. In the **Partner Details** area, use the **Classification** field and select the Partner classification.
-4. Click **Save**.
+4. Select **Save**.
 
 ## Associate partner contacts with an account
 

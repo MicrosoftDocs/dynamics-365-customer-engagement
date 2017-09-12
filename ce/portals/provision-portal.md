@@ -2,7 +2,7 @@
 title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
 description: ""
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +24,7 @@ Portals are websites that you can customize to provide a more personalized exper
 > - To provision a portal, you must be assigned to the System Administrator role of the Dynamics 365 organization selected for the portal.
 > - To manage an existing portal, you must be assigned any one of the following roles:
     > - Office 365 Global Administrator 
-    > - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. For more information on this role, see [here](https://technet.microsoft.com/en-us/library/mt793847.aspx). 
+    > - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. For more information about this role, see [here](https://technet.microsoft.com/en-us/library/mt793847.aspx). 
     > - System Administrator of the Dynamics 365 organization selected for the portal.
     
 > If you are not assigned any of the above-mentioned roles, the following message is displayed: “You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.”
@@ -32,8 +32,8 @@ Portals are websites that you can customize to provide a more personalized exper
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
-1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] and click the **Applications** tab.
-2.  Select the application row titled **Portal Add-On** and click **Manage.**
+1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] and select the **Applications** tab.
+2.  Select the application row titled **Portal Add-On**, and then select **Manage.**
 3.  In the **General Settings** section, enter a **Name** for your portal. The **Name** will help to identify the portal and can be changed later.
 4.  The **Type** field represents the type of portal subscription (Trial or Production). This is a system field, so it cannot be changed by the user. The value changes based on if it is trial subscription or paid subscription.
 5.  In the **Portal URL** field, enter the subdomain name you want for your portal. You may only use alphanumeric characters or hyphens (-); other characters are not permitted. After the portal is provisioned, the URL cannot be changed, but a custom domain name can be used.
@@ -98,7 +98,7 @@ The table below summarizes the features associated with each portal option:
 
     ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
 
-11. Click **Submit**, and accept the Terms of Service.
+11. Select **Submit**, and accept the Terms of Service.
 
     ![Terms of service](media/terms-of-service.png "Terms of service")  
 
@@ -137,23 +137,23 @@ A custom domain can help your customers find your support resources more easily 
 
 ![Set up a custom domain](media/setup-custom-domain.png "Set up a custom domain")  
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online Admin center and click the **Applications** tab.
-2. Select the name of the portal you want to set up a custom domain for and click **Manage.** > **Portal Actions** > **Add a Custom Domain Name**.
+1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Online Admin center and select the **Applications** tab.
+2. Select the name of the portal you want to set up a custom domain for, and go to **Manage** > **Portal Actions** > **Add a Custom Domain Name**.
 
 ## Link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain
 You can use the purchased SSL certificate for your domain to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain using the wizard.
 
-1. Click **Upload a new certificate** if you have not yet uploaded the .pfx file to the organization. 
-2. Click the upload button underneath **File** and select the .pfx file. 
-3. Enter the password for your SSL certificate in the **Password** field. Otherwise click **Use an existing certificate** and choose the correct certificate from the drop-down menu. Be sure that you are using a SHA2 certificate, SHA1 support is being removed from popular browsers.
-4. Click **Add a new hostname** to create a new custom domain. Enter the desired domain name into the **Domain Name** field. Otherwise, click **Use an existing host name** and choose the desired host name from the drop-down menu. 
+1. Select **Upload a new certificate** if you have not yet uploaded the .pfx file to the organization. 
+2. Select the upload button underneath **File** and select the .pfx file. 
+3. Enter the password for your SSL certificate in the **Password** field. Otherwise select **Use an existing certificate** and choose the correct certificate from the drop-down menu. Be sure that you are using a SHA2 certificate; SHA1 support is being removed from popular browsers.
+4. Select **Add a new hostname** to create a new custom domain. Enter the domain name you want into the **Domain Name** field. Otherwise, select **Use an existing host name** and choose the host name you want from the drop-down menu. 
 
    > [!Note] 
    > - You can only have one custom domain name for a portal. 
    > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, this will show a message “Please add a CNAME record to this domain name.” Retry after some time passes.
 
-5.  Review the information you have entered, then click **Next** to begin creating the SSL Binding.
-6.  You should see the message “_Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal._” {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured. Click **Finish** to close the wizard.
+5.  Review the information you have entered, and then select **Next** to begin creating the SSL Binding.
+6.  You should see the message “_Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal._” {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured. Select **Finish** to close the wizard.
 
     ![Choose the SSL certificate](media/choose-ssl-certificate.png "Choose the SSL certificate")  
     
@@ -161,10 +161,10 @@ You can use the purchased SSL certificate for your domain to link your [!INCLUDE
 When you provision a portal, the portal related solutions are installed on the organization. During the installation of solutions, the solution metadata translations (ex: Field name, form name, view name etc.,) are installed only for the languages currently activated in the organization. If you activate a new language in future, the metadata is not installed automatically for the newly activated language. To get the metadata translation for the newly activated language, you must import metadata translation from the Administration Center.
 
 To import metadata translation:
-1.	Go to the **Dynamics 365 Administration Center** page and click the **Applications** tab.
-2.	Select the name of the portal in which you want to import metadata translation and click **Manage**.
+1.	Go to the **Dynamics 365 Administration Center** page and select the **Applications** tab.
+2.	Select the name of the portal in which you want to import metadata translation, and then select **Manage**.
 3.	Go to **Portal Actions** > **Get latest metadata translations**. A confirmation window is displayed asking whether to update the portal solutions.
-4.	Click **Update**. The portal solutions will be updated with the latest metadata translation.
+4.	Select **Update**. The portal solutions will be updated with the latest metadata translation.
 
 > [!Note]
 > - If the latest version of portal package is available, it is not updated. The portal solutions are updated in the same version. To upgrade your Portal solutions based on latest available packages, you need to access Solution Admin center.
@@ -182,18 +182,18 @@ Jay is the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] administr
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals needs the latest shared access key to send the interactions to DCI. Jay navigates to the Portal Admin Center and he can see the currently configured DCI instance. Jay can change the DCI instance or update the shared access key for the currently configured DCI instance.
 
-To view activity of a user on a Portal:
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and click the **Applications** tab.
-2.	Select the name of the portal you want to view user’s activity and click **Manage**.
-3.	Click **Portal Analytics**. The Tracking Portal Interaction page is displayed.
-4.	Click **Configure Portal Interaction Tracking**. The Configure Portal Interaction Tracking window is displayed.
+To view activity of a user on a portal:
+1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+2.	Select the name of the portal you want to view user’s activity, and then select **Manage**.
+3.	Select **Portal Analytics**. The Tracking Portal Interaction page is displayed.
+4.	Select **Configure Portal Interaction Tracking**. The Configure Portal Interaction Tracking window is displayed.
 5.	Enter the following values as per your Dynamics 365 Customer Insights instance:
     - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for Customer Insights hub URI 
     - Policy name with Manage, Read, and Write permissions 
     - Shared Key
 6.	Read the preview agreement and select the **I have read and understood the terms and conditions** check box.
-7.	Click **Configure**. A progress window is displayed.
-8.	Click **Close** in the confirmation window.
+7.	Select **Configure**. A progress window is displayed.
+8.	Select **Close** in the confirmation window.
 
 Once DCI is configured on Portal, the following actions become available:
 - **Update D365 Customer Insights configuration**: Allows you to update the shared key related to your policy. The hub URI is read-only.

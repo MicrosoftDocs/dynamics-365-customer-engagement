@@ -2,7 +2,7 @@
 title: "Add a web resource to a form in Dynamics 365 | MicrosoftDocs"
 description: "Steps to add a web resource to a form to enable uploading attachemnts to Azure Storage."
 ms.custom: ""
-ms.date: 05/22/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
