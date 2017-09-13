@@ -2,7 +2,7 @@
 title: "Videos & eBooks | Microsoft Docs"
 description:
 ms.custom: ""
-ms.date: 2017-05-23
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

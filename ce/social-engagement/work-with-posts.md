@@ -1,7 +1,7 @@
 ---
 title: "Work with posts | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
-ms.date: 2017-08-07
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

@@ -2,7 +2,7 @@
 title: "Adaptive learning in Social Engagement | Microsoft Docs"
 descripion: "Learn about sentiment analysis and the organization-based machine learning models which learn from your inputs."
 ms.custom: ""
-ms.date: 2017-06-02
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

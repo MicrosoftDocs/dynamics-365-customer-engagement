@@ -1,7 +1,7 @@
 ---
 title: "Oops, you shouldn't see this, actually. | Microsoft Docs"
 description: "You found a place that is not intended to be seen. Please share your feedback how you ended up here so we can address it."
-ms.date: 2017-07-10
+ms.date: 09/12/2017
 ms.service: mse
 applies_to: "Social Engagement"
 ms.topic: article

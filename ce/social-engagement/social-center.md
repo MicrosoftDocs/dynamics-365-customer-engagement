@@ -1,7 +1,7 @@
 ---
 title: "Keep track of live data streams with Social Center | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
-ms.date: 2017-08-07
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
