@@ -2,7 +2,7 @@
 title: "Migrate your Unified Service Desk for Dynamics 365 Customer Engagement configuration to another Dynamics 365 Customer Engagement instance | MicrosoftDocs"
 description: "Learn how to move a Unified Service Desk for Dynamics 365 Customer Engagement configuration to another instance.:
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

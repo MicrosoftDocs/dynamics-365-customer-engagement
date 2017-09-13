@@ -2,7 +2,7 @@
 title: "Add a UII action to a hosted control | MicrosoftDocs"
 description: "Learn about adding User Interface Integration (UII) actions to a hosted control type to provide new functionality."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

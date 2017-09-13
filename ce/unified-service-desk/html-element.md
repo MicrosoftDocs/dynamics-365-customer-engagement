@@ -2,7 +2,7 @@
 title: "HtmlElement in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "HTMLElement> element associates a named control to the HTML object specified by the search path. This topic describes the elements of an <HTMLElemet>"
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

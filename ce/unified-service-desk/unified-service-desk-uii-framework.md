@@ -2,7 +2,7 @@
 title: "Unified Service Desk and the UII framework | MicrosoftDocs"
 description: "Learn about the basic concepts related to User Interface Integration (UII) framework and components required for extending Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
 title: "What's new in Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation | MicrosoftDocs"
 ms.custom: ""
-ms.date: "09/30/2017"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

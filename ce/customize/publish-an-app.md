@@ -1,7 +1,7 @@
 ---
 title: "Publish a Dynamics 365 Customer Engagement app using the app designer | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-18"
+ms.date: 11/18/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
 title: "Regional and other business management settings for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 11/01/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "Programming models (Dynamics 365 Customer Engagement SDK)| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement offers several programming models designed to give you the flexibility to decide what works best for your needs."
 ms.custom: ""
-ms.date: "2017-07-31"
+ms.date: 07/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

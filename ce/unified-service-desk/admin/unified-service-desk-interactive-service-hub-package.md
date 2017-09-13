@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 Customer Engagement - Interactive service hub package | MicrosoftDocs"
 description: "Overview of the Interactive service hub sample application."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

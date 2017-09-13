@@ -1,6 +1,6 @@
 ---
 title: "Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: "2017-07-22"
+ms.date: 07/22/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"

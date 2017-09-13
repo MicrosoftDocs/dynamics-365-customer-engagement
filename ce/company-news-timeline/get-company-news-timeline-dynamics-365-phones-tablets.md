@@ -1,7 +1,7 @@
 ---
 title: "Get the Company News Timeline (Dynamics 365 for phones and tablets) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-09-30"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

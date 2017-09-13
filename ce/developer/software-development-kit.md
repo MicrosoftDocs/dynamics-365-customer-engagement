@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Software Development Kit (Dynamics 365 Customer Engagement SDK)| MicrosoftDocs"
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: ""
-ms.date: "2017-07-31"
+ms.date: 07/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

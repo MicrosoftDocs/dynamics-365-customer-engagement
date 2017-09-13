@@ -2,7 +2,7 @@
 title: "Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

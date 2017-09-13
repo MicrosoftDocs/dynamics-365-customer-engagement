@@ -1,7 +1,7 @@
 ---
 title: "Set up time units (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-09-15"
+ms.date: 09/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

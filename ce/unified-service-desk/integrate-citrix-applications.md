@@ -2,7 +2,7 @@
 title: "Integrate with Citrix applications in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

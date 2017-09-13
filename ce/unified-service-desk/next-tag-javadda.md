@@ -2,7 +2,7 @@
 title: "Next Tag in Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
 description: "The topic describes the attributes of <Next> tag. You can use the <Next> element to set the search pointer to the next UI element with the matching caption. If you use <Next/>, the search navigates to the next node within the tree."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

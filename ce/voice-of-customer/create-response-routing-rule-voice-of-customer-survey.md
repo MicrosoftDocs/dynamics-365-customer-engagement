@@ -3,7 +3,7 @@ title: "Create a response routing rule for a Voice of the Customer for Dynamics 
 description: ""
 ms.assetid: bd1b39a2-fa08-4adb-af1b-7a8cf3459d22
 ms.custom: ""
-ms.date: "07/26/2017"
+ms.date: 07/26/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"

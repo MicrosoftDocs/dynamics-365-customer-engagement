@@ -1,6 +1,6 @@
 ---
 title: "Social Engagement 2017 Update 1.8 Readme"
-ms.date: 2017-08-11
+ms.date: 08/11/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

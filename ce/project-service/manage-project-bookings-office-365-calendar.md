@@ -1,7 +1,7 @@
 ---
 title: "Manage projects and bookings in your Office 365 calendar (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "07/19/2017"
+ms.date: 07/19/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "Connect to a Dynamics 365 instance using the Unified Service Desk for Dynamics 365 Customer Engagement client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

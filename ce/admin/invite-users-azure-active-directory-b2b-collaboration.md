@@ -1,7 +1,7 @@
 ---
 title: "Invite users to Dynamics 365 Customer Engagement with Azure Active Directory B2B collaboration | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

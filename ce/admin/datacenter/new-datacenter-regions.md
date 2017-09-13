@@ -1,7 +1,7 @@
 ---
 title: "Datacenter regions for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-09-30"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
