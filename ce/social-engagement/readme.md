@@ -1,6 +1,6 @@
 ---
-title: "Social Engagement 2017 Update 1.7 Readme"
-ms.date: 09/12/2017
+title: "Social Engagement 2017 Update 1.8 Readme"
+ms.date: 2017-08-11
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -9,11 +9,16 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
-# Social Engagement 2017 Update 1.7 Readme
+
+# Social Engagement 2017 Update 1.8 Readme
+
+This document provides important, late-breaking information about Microsoft
+Social Engagement 2017 Update 1.8. It was published in September 2017.
 
 ## Resources
 
-[Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) - info central for product users and admins
+[Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) -
+info central for product users and admins
 
 ## General known issues
 
@@ -252,9 +257,9 @@ action in Analytics. To remove this filter, reload the analytics. You can do
 this either through the navigation menu or by using your browser’s refresh
 functionality.
 
-### Can’t delete YouTube social profiles if inactive for more than 24 hours
+**Several titles and tooltips are not localized**
 
-Social Engagement won’t let you delete a YouTube social profile if it wasn't
-used to comment or rate a video in the past 24 hours. If this occurs, please
-re-authenticate the YouTube social profile before removing it from the list of
-social profiles.
+Currently several user interface (UI) strings and tooltips are not localized in
+Social Engagement–supported languages in Settings, due to recent and ongoing
+work regarding accessibility. The non-localized UI strings and tooltips will be
+localized with the next release of Social Engagement.
