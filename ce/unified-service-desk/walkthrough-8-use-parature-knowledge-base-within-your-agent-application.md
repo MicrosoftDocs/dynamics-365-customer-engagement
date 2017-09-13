@@ -2,7 +2,7 @@
 title: "Walkthrough 8: Use Customer Engagement knowledge base within your agent application | MicrosoftDocs"
 description: "Demonstrates how to configure a panel in Unified Service Desk to to display knowledge base records."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

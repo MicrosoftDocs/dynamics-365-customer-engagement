@@ -1,7 +1,7 @@
 ---
 title: "Copyright | MicrosoftDocs"
 ms.custom: ""
-ms.date: "07/03/2017"
+ms.date: 07/03/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

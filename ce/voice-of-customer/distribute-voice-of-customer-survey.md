@@ -3,7 +3,7 @@ title: "Distribute a Voice of the Customer for Dynamics 365 survey | MicrosoftDo
 description: ""
 ms.assetid: bdf1401d-1998-480b-ada2-38a2667eced6
 ms.custom: ""
-ms.date: "07/26/2017"
+ms.date: 07/26/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"

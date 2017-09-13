@@ -2,7 +2,7 @@
 title: "Tutorials and resources (Dynamics 365 Customer Engagement SDK) | MicrosoftDocs"
 description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 (online) Customer Engagement."
 ms.custom: ""
-ms.date: "2017-07-31"
+ms.date: 07/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

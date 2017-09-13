@@ -1,6 +1,6 @@
 ---
 title: "DependentRelationshipCollection ComplexType | MicrosoftDocs"
-ms.date: "2017-07-10"
+ms.date: 07/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 

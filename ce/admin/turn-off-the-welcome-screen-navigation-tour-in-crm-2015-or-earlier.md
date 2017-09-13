@@ -1,7 +1,7 @@
 ---
 title: "Turn off the welcome screen (navigation tour) in CRM 2015 or earlier | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

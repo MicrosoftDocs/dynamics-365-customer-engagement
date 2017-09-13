@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

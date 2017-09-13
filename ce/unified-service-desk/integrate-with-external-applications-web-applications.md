@@ -1,7 +1,7 @@
 ---
 title: "Integrate with external applications and web applications in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/01/2016
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

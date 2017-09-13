@@ -2,7 +2,7 @@
 title: "UII actions in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about UII actions in Unified Service Desk that define a specific operation that can be performed when called."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

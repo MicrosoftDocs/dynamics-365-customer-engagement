@@ -2,7 +2,7 @@
 title: "Deploy the hosted application to Unified Service Desk | MicrosoftDocs"
 description: "Learn about deploying the hosted application in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

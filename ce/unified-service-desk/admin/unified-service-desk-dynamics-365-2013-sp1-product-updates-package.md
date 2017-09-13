@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics CRM 2013 SP1 with product updates package | MicrosoftDocs"
 description: "Overview of the Dynamics CRM 2013 SP1 with product updates sample application." 
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

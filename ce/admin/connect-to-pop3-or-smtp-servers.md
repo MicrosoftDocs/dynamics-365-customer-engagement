@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 to POP3 or SMTP servers | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-02-28"
+ms.date: 02/28/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

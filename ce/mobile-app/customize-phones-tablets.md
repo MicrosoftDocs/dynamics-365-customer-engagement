@@ -1,7 +1,7 @@
 ---
 title: "Customize Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-03-08"
+ms.date: 03/08/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

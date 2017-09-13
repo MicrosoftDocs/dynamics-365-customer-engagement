@@ -3,7 +3,7 @@ title: "What&#39;s new for developers (Dynamics 365 Customer Engagement SDK) | M
 description: "Information about the new features and capabilities for Microsoft Dynamics 365 Customer Engagement is available at our new content site on docs.microsoft.com: What's new for developers in Dynamics 365 Customer Engagement.
 More information about developer content availability across MSDN and docs.ms.com in the current release: Dynamics 365 Customer Engagement SDK Release history."
 ms.custom: ""
-ms.date: "2017-07-31"
+ms.date: 07/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

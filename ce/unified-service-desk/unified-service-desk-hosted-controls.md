@@ -2,7 +2,7 @@
 title: "Unified Service Desk Hosted Controls | MicrosoftDocs"
 description: "Learn about the basic concepts related to hosted controls in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

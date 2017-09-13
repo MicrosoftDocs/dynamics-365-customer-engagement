@@ -2,7 +2,7 @@
 title: "Call center challenges and how Unified Service Desk for Dynamics 365 Customer Engagement can help | MicrosoftDocs"
 description: "Understand how Unified Service Desk can help your service agents." 
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

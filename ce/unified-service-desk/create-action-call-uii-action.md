@@ -2,7 +2,7 @@
 title: "Create an action call for a UII action | MicrosoftDocs"
 description: "Learn about creating an action call for a UII action."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

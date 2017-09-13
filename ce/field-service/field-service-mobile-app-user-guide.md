@@ -1,7 +1,7 @@
 ---
 title: "Field Service Mobile App User’s Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-09-30"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

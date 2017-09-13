@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Properties dialog box | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 11/01/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

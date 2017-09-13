@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 for Outlook by using Group Policy | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "Connection Manager (Hosted Control) | MicrosoftDocs"
 description: "The Connection Manager hosted control type manages connections to the Dynamics 365 server, and makes it available to the rest of the agent application."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

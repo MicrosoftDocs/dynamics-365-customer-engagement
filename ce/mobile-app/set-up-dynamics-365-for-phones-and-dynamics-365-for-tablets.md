@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-01-10"
+ms.date: 01/10/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
 title: "Enhance business process flows with branching in Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "08/31/2017"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
