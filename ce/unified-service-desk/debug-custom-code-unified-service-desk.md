@@ -1,7 +1,8 @@
 ---
 title: "Debug your custom code for Unified Service Desk | MicrosoftDocs"
+description: "Learn about debugging your custom code that you create for Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -50,7 +51,7 @@ Using custom code for extending [!INCLUDE[pn_unified_service_desk](../includes/p
   
      When the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application starts automatically on debugging the project, specify the credentials to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to continue with the debugging session until you hit a breakpoint or issue in your code.  
   
- Additionally, the **Debug Output** tab of the Debugger hosted control in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application provides real time trace information of the underlying execution, which can be also used to debug your custom code. For more information, see [Debug issues in Unified Service Desk](https://technet.microsoft.com/library/dn646903.aspx)  
+ Additionally, the **Debug Output** tab of the Debugger hosted control in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application provides real time trace information of the underlying execution, which can be also used to debug your custom code. For more information, see [Debug issues in Unified Service Desk](debug-issues-unified-service-desk.md)  
   
  The Debugger hosted control comes pre-configured if you have deployed one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] packages. Alternatively, you can easily set up the Debugger hosted control in your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] deployment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)  
   

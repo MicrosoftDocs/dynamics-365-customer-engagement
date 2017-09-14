@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 and Social Engagement | Microsoft Docs"
 description: "Learn how to connect Social Engagement and Dynamics 365 to link social posts and create new cases or leads."
-ms.date: 2017-08-07
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

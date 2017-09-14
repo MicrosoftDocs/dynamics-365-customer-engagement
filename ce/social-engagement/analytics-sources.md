@@ -1,7 +1,7 @@
 ---
 title: "Analytics for sources | Microsoft Docs"
 description: "Learn how to focus your analysis on the various data sources in Social Engagement."
-ms.date: 2017-08-08
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

@@ -1,7 +1,7 @@
 ---
 title: "Work with a data set | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
-ms.date: 2017-08-08
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

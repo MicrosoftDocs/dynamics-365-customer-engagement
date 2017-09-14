@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting and things to know about Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-12-10"
+ms.date: 12/10/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

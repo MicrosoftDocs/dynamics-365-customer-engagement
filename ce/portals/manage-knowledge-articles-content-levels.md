@@ -2,7 +2,7 @@
 title: "Manage knowledge articles using content access levels for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage knowledge articles by using content access levels in a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/11/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,18 +22,18 @@ To turn on the content access level&ndash;based filtering of knowledge articles 
 ## Create content access levels
 
 1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Content Access Levels**
-2. In the ribbon, click **New**.
+2. In the ribbon, select **New**.
 3. Fill in the **Name** and **Description**.
 4. Change **Default Access Level** from **No** to **Yes** if it should be the default.
-5. In the ribbon, click **Save**.
+5. In the ribbon, select **Save**.
 
 ## Assign content access levels to knowledge articles
 
 1.  Open the Interactive Service Hub.
 2.  Select the knowledge article you want to edit, or create a new article.
-3.  Click **Summary** just above the progress bar.
-4.  Under **Related Information** (third column) select the symbol that looks like a lock.
-5.  Press **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
+3.  Select **Summary** just above the progress bar.
+4.  Under **Related Information** (third column), select the symbol that looks like a lock.
+5.  Select **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
 
 ## Assign content access levels to portal users
 

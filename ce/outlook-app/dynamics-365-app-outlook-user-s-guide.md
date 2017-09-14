@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User's Guide | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-04-21"
+ms.date: 04/21/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -1,7 +1,8 @@
 ---
 title: "Panel Layout (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about using the Panel Layout hosted control to define the arrangement of panels in Unified Service Desk. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the Unified Service Desk client application."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -20,7 +21,7 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # Panel Layout (Hosted Control)
-Use **Panel Layout** hosted control to define the arrangement of panels in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with several predefined panel types to support various layout options such as tabbed layout, deck, and stacked layout. For more information, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md).  
+Use **Panel Layout** hosted control to define the arrangement of panels in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with several predefined panel types to support various layout options such as tabbed layout, deck, and stacked layout. For more information, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
   
  If a **Panel Layout** type of hosted control is not defined in the application, the default panel layout, Standard Main Panel, is created automatically. If you create a **Panel Layout** type of hosted control, you must configure a replacement for the Standard Main Panel. Any panel layout may be used in its place; however, it is quite common to just define the Standard Main Panel.  
   
@@ -33,7 +34,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
 <a name="create"></a>   
 ## Create a Panel Layout hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Panel Layout** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Panel Layout** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-panellayouthostedcontrol.png "Panel Layout hosted control")  
   
@@ -41,7 +42,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
 -   From the **USD Component Type** drop-down list, select **Panel Layout**.  
   
--   From the **PanelType** drop-down list, select a panel layout type to create. You can select one from the following: **Standard Main Panel**, **Ribbon Main Panel**, **Vertical Split**, **Horizontal Split**, **XAML**, and **User Defined**. The XAML and User Defined panel layouts are the custom panels that you define. For detailed information about each of the panel layouts, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md). The fields in this page change based on the selected panel type.  
+-   From the **PanelType** drop-down list, select a panel layout type to create. You can select one from the following: **Standard Main Panel**, **Ribbon Main Panel**, **Vertical Split**, **Horizontal Split**, **XAML**, and **User Defined**. The XAML and User Defined panel layouts are the custom panels that you define. For detailed information about each of the panel layouts, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). The fields in this page change based on the selected panel type.  
   
 -   Select **Yes** or **No** from the **Application is Dynamic** list to determine if the hosted control is dynamic or not. A dynamic hosted control can be global or non-global. Global dynamic hosted controls are loaded at the first request and hidden thereafter, and they can be requested at any time, such as during a global session, normal session, or workflow. Non-global dynamic hosted controls can only be loaded after a session has started, and each session uses a different instance of the application. If a dynamic hosted control is part of a workflow, and has not started when the workflow starts then the workflow will start the hosted control and close it when the workflow is complete.  
   
@@ -49,7 +50,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
 -   If you selected **Vertical Split**, **Horizontal Split**, **XAML**, or **User Defined** in the **PanelType** list, the **Application is Global** check box becomes available. Select it to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
   
--   If you selected **Vertical Split**, **Horizontal Split**, **XAML**, or **User Defined** in the **PanelType** list, the **Display Group** field becomes available. Specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md).  
+-   If you selected **Vertical Split**, **Horizontal Split**, **XAML**, or **User Defined** in the **PanelType** list, the **Display Group** field becomes available. Specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
   
 -   If you selected **XAML** in the **PanelType** list, a **XAML** field becomes available where you specify the XAML definition for your panel type.  
   
@@ -70,7 +71,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
 |---------------|-----------------|  
 |name|Name of the user-defined event.|  
   
- All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-a-user-defined-event.md).  
+ All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](../unified-service-desk/create-user-defined-event.md).  
   
 <a name="MoveToPanel"></a>   
 ### MoveToPanel  
@@ -140,9 +141,8 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
  There aren’t any predefined events available for this hosted control type.  
   
 ### See also  
- [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md)   
+ [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)   
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://technet.microsoft.com/library/dn499779.aspx)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   

@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Extend Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "The section provides information on how you can use the User Interface Integration (UII) components to extend Unified Service Desk to integrate with external applications, web applications, and computer telephony integration (CTI) systems. "
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -34,11 +35,11 @@ This section provides information on how you can use the [!INCLUDE[pn_user_intef
  For information about the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] concepts that you must know to extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Unified Service Desk and the UII framework](../unified-service-desk/unified-service-desk-uii-framework.md).  
   
 ## In This Section  
- [Integrate with external application and web application](../unified-service-desk/integrate-with-external-applications-web-applications.md)  
+ [Integrate with external application and web application](../unified-service-desk/integrate-external-applications-web-applications.md)  
   
- [Integrate with CTI applications](../unified-service-desk/integrate-with-cti-systems-using-cti-adapters.md)  
+ [Integrate with CTI applications](../unified-service-desk/integrate-cti-systems-cti-adapters.md)  
   
- [Integrate with Citrix applications](../unified-service-desk/integrate-with-citrix-applications.md)  
+ [Integrate with Citrix applications](../unified-service-desk/integrate-citrix-applications.md)  
   
  [Use custom hosted control in Unified Service Desk](../unified-service-desk/use-custom-hosted-control-unified-service-desk.md)  
   

@@ -1,7 +1,8 @@
 ---
 title: "Session management in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about session context and session management in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -68,4 +69,4 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
  [Session Tabs (Hosted Control)](../unified-service-desk/session-tabs-hosted-control.md)   
  [Debugger (Hosted Control)](../unified-service-desk/debugger-hosted-control.md)   
  [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
- [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/01e6b62c-2add-46ca-9d90-0c45c60f83f9.md)
+ [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)

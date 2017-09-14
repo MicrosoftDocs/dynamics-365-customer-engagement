@@ -1,7 +1,8 @@
 ---
 title: "UII hosted applications in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about using the UII hosted applications in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -34,7 +35,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
 - **External hosted application**: This includes MicrosoftWin32 applications, .NET Windows Forms applications, [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] applications, [!INCLUDE[pn_Java](../includes/pn-java.md)] applications, and other applications that don’t run in the context of the browser, but are executable files.  
   
-- **Remote hosted application**: These are [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] hosted applications. This application type provides the channel of communication to an executable file installed on the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. The executable file loads an adapter appropriate for the type of application being hosted in the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] environment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate with Citrix applications](../unified-service-desk/integrate-with-citrix-applications.md)  
+- **Remote hosted application**: These are [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] hosted applications. This application type provides the channel of communication to an executable file installed on the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. The executable file loads an adapter appropriate for the type of application being hosted in the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] environment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate with Citrix applications](../unified-service-desk/integrate-citrix-applications.md)  
   
 <a name="GlobalnSession"></a>   
 ## Global and session UII hosted applications  
@@ -51,4 +52,4 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
 ### See also  
  [Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [UII application adapters](../unified-service-desk/uii-adapters.md)   
- [Create and manage UII hosted applications](../unified-service-desk/create-and-manage-uii-hosted-applications.md)
+ [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)

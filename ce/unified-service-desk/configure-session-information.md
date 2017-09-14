@@ -1,7 +1,8 @@
 ---
 title: "Configure session information | MicrosoftDocs"
+description: "Learn about configuring session information."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -127,4 +128,4 @@ http://uii/[UII Hosted Application]/[Action]?[Parameter]
  [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)   
  [Execute scripts using scriptlets in Unified Service Desk](../unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-your-agent-application-using-unified-service-desk.md)
+ [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-agent-application-unified-service-desk.md)

@@ -3,7 +3,7 @@ title: "Create a Voice of the Customer for Dynamics 365 survey to get customer f
 description: ""
 ms.assetid: 495a4eba-454c-4ab6-a785-ff3bc6b9ecc8
 ms.custom: ""
-ms.date: "07/26/2017"
+ms.date: 07/26/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"

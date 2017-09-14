@@ -1,7 +1,7 @@
 ---
 title: "iFrame and web resource support in Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 11/01/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

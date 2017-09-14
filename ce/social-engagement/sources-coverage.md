@@ -1,23 +1,27 @@
 ---
 title: "Sources coverage | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
-ms.custom: ""
-ms.date: 2017-05-19
-ms.reviewer: ""
+keywords: ""
+ms.date: 09/12/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom: 
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 050283f4-bc5b-42e1-9885-ebdcfd786521
-caps.latest.revision: 12
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 12
+topic-status: Drafting
 ---
+
 # Find out what&#39;s covered by sources
 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can track public posts, and publish messages and replies. All sources can be filtered in Analytics for an up close look at your data. Find out what is covered with the following available sources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md), [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
+[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can track public posts, and publish messages and replies. All sources can be filtered in Analytics for an up-close look at your data. Find out what is covered by using the following available sources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md), [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
 
 [//]: # (TODO: Michael to replace all links with inline links)
 
@@ -43,7 +47,7 @@ To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules
 Monitor posts and comments on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages without age restriction or geographical restriction that are added to your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rules. You can also gather private messages for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages if you add a social profile and explicitly allow the acquisition of private messages.
 
 > [!NOTE]
-> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished Page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), and status updates are not available for monitoring or engagement at this time.
+> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), and status updates are not available for monitoring or engagement at this time.
 
 To add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule, see [Add a Facebook pages rule](../social-engagement/add-rules-search-topic.md#addFacebookRule).
 
@@ -58,9 +62,13 @@ To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules
 After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and you can set up [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account rules to gather all posts and comments on a specific [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account.
 
 > [!NOTE]
-> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. #Hashtags are mandatory to search Instagram accounts with keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)
+> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)
 
 To add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] rule, see [Add an Instagram rule](../social-engagement/add-rules-search-topic.md#instagram_rule).
+
+## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
+
+Create [LinkedIn page rules](add-rules-search-topic.md#linkedin-page-rule) to gather posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. After a page admin has added the social profile and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## News
 
@@ -85,12 +93,12 @@ To add a private messages rule, see [Add a private messages rule](../social-enga
 
 Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
 
-Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](../social-engagement/add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments which affect the monthly post quota.
+Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](../social-engagement/add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
 
 ## Privacy notice
 
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
-### See Also  
+### See also  
 [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
 [Refine your search rules to find relevant content](../social-engagement/refine-search-rules.md)

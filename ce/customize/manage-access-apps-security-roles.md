@@ -1,7 +1,7 @@
 ---
 title: "Manage access to Dynamics 365 Customer Engagement apps by using security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-17"
+ms.date: 11/17/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

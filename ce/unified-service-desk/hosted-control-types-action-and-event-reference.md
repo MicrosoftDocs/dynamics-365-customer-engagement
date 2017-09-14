@@ -1,7 +1,7 @@
 ---
 title: "Hosted control types, action, and event reference in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -27,7 +27,7 @@ This section provides information about the various types of hosted controls in 
 > [!NOTE]
 >  Most of the predefined hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] have a predefined action called **default**, which calls an action on the hosted control that’s marked as the default. Because none of the predefined actions for any of the predefined hosted controls are marked as default, calling the **default** action on any predefined hosted control just loads the respective hosted control. However, for a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control, you can define an action and set it as default so that the action is called when the **default** action is called on the custom hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)  
   
-## In This Section  
+## In this section  
  [Connection Manager (Hosted Control)](../unified-service-desk/connection-manager-hosted-control.md)  
   
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)  
@@ -68,10 +68,8 @@ This section provides information about the various types of hosted controls in 
   
  [Session Timer (Custom Hosted Control)](../unified-service-desk/session-timer-custom-hosted-control.md)  
   
-## Reference  
- [Unified Service Desk Administration Guide](https://technet.microsoft.com/library/dn499779\(v=USD.2\).aspx)  
   
-## Related Sections  
+## Related topics  
  [Learn to configure Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   
  [Get started with configuring your agent application](../unified-service-desk/get-started-with-configuring-your-agent-application.md)  
@@ -80,4 +78,4 @@ This section provides information about the various types of hosted controls in 
   
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)  
   
- [Unified Service Desk Developer Overview](../unified-service-desk/unified-service-desk-developer-overview.md)
+ [Unified Service Desk Developer Overview](../unified-service-desk/admin/overview-unified-service-desk.md)

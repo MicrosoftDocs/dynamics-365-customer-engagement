@@ -2,7 +2,7 @@
 title: "Get started (Dynamics 365 Customer Engagement SDK)| MicrosoftDocs"
 description: "This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need."
 ms.custom: ""
-ms.date: "2017-07-31"
+ms.date: 07/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets – Administrator’s Guide | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-04-26"
+ms.date: 04/26/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

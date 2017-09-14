@@ -1,7 +1,7 @@
 ---
 title: "Manage search topics | Microsoft Docs"
 description: "Learn how to create a new search topic or delete an existing one in Social Engagement."
-ms.date: 2017-08-08
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

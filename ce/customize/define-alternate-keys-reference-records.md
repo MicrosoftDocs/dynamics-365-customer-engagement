@@ -1,7 +1,7 @@
 ---
 title: "Define alternate keys to reference Dynamics 365 Customer Engagement records | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

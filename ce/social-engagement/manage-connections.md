@@ -2,7 +2,7 @@
 title: "Manage connections in Social Engagement | Microsoft Docs" 
 description: "Learn how to get started with connections to other services."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

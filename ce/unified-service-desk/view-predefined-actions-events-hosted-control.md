@@ -1,7 +1,8 @@
 ---
 title: "View predefined actions and events for a hosted control in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn how to view predefined actions and events for hosted controls in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,7 +23,7 @@ manager: "jdaly"
 # View predefined actions and events for a hosted control in Unified Service Desk
 Each predefined hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports a set of UII actions and events. To view the predefined UII actions and events for a hosted control:  
   
-1.  Open an existing hosted control or create a hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For information, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+1.  Open an existing hosted control or create a hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For information, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 2.  On the nav bar, click the down arrow next to the hosted control name, and then click **UII Actions** or **Events** to view the predefined UII actions or events for the hosted control.  
   
@@ -31,6 +32,6 @@ Each predefined hosted control type in [!INCLUDE[pn_unified_service_desk](../inc
 ### See also  
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-and-events.md)   
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)

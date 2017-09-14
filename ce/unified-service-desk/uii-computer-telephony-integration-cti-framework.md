@@ -1,7 +1,8 @@
 ---
 title: "UII computer telephony integration (CTI) framework in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn information about UII computer telephony integration (CTI) framework in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -52,4 +53,4 @@ The [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-in
  For more information, see [Create a CTI Control](../unified-service-desk/create-cti-control.md).  
   
 ### See also  
- [Integrate with CTI systems](../unified-service-desk/integrate-with-cti-systems-using-cti-adapters.md)
+ [Integrate with CTI systems](../unified-service-desk/integrate-cti-systems-cti-adapters.md)

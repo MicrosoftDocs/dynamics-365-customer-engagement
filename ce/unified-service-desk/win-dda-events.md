@@ -1,7 +1,8 @@
 ---
-title: "WinDDA events | MicrosoftDocs"
+title: "WinDDA events in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about the Windows DDA (WinDDA) events in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

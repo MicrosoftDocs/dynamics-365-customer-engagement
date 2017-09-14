@@ -1,7 +1,7 @@
 ---
 title: "64-bit supported configurations for Microsoft Dynamics 365 | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
