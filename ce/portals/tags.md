@@ -2,7 +2,7 @@
 title: "Use tags for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about various liquid tags available in portal."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/14/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,7 +14,6 @@ ms.author: shjais
 manager: sakudes
 ---
 # Available tags
-[comment]: <> (to be merged and deleted)
 
 The following topics describe each type of tag:
 - [Control flow tags](#control-flow-tags)
