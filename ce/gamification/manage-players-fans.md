@@ -1,20 +1,19 @@
 ---
 title: "Import and manage players and fans in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to import players from your Azure Active Directory and how to assign them the appropriate security roles for the games."
-ms.custom: ""
-ms.date: 05/31/2017
-ms.reviewer: ""
+keywords: "gamification, player, fan, import, importing, azure active directory, user, license"
+ms.date: 09/14/2017
 ms.service: gamification
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: Dynamics 365 (online)
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 4df5e61b-0d7b-4cef-b741-14bed0637756
-caps.latest.revision: 34
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Import players and fans from Dynamics 365 (online) and manage their security roles
 
 When you set up a new game, you need to define which users will be players and which will be fans in your upcoming [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] game.
@@ -25,7 +24,7 @@ When you set up a new game, you need to define which users will be players and w
 
 ## Import users from Azure Active Directory
 
-Users from [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] are available automatically in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. Commissioners can import additional users from [!INCLUDE[pn_azure_active_directory](includes/pn-azure-active-directory-md.md)] who don't have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned.  
+Users from [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] are available automatically in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. Commissioners can import newly added users from [!INCLUDE[pn_azure_active_directory](includes/pn-azure-active-directory-md.md)] if they have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned.  
 
 ### Import users from [!INCLUDE[pn_microsoftcrm](includes/pn-microsoftcrm-md.md)]
 
