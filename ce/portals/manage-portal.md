@@ -23,6 +23,7 @@ After provisioning a portal, you can perform various actions such as setting-up 
 > - Office 365 Global Administrator 
 > - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. For more information about this role, see [here](https://technet.microsoft.com/en-us/library/mt793847.aspx). 
 > - System Administrator of the Dynamics 365 organization selected for the portal.
+
 > If you are not assigned any of the above-mentioned roles, the following message is displayed: “You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.”
 
 ## Set up custom domains and SSL certificates for a Dynamics 365 portal
