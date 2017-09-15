@@ -13,7 +13,7 @@ ms.assetid: 7a4657c7-de57-4e02-9e5e-87c94466a8e5
 ---
 Dynamics 365 for Customer Insights
 =======================================
-[!include[pre release disclaimer](./includeContent/preReleaseDisclaimer.md)]
+[!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Getting started with big data analytics, and turning customer data into actual actionable insight can be difficult, complicated and expensive. Organizations today face overwhelming amounts of data, rapidly changing customer behaviors, and increased pressure to find solutions and insights. Customers expect relevant, tailored experiences, and the only way to provide that level of personalization is with tools that can deliver insight from your consumer data effectively, and efficiently.
 
