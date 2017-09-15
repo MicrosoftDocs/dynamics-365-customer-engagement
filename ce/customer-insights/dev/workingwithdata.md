@@ -1,5 +1,5 @@
 ---
-title: Working with Data in Microsoft Dynamics 365 for Customer Insights  | MicrosoftDocs
+title: Working with Data in Microsoft Dynamics 365 for Customer Insights (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: 
 keywords: Customer Insights; data model; ingestion; conflation; segmentation 
 author: Milar1
@@ -153,5 +153,6 @@ While predictive matching assists in intelligently conflating ingested records, 
 
 Much of complexity of using traditional machine learning techniques—such as feature selection, learning algorithm selection and training-testing cycles—occur automatically and are thus mostly hidden from the user. 
 
-The July 2017 Refresh of Customer Insights only supports lead scoring through its user interface. For more information about the predictive scoring UX, see [Predictive Scoring](../deploy/leadinsights.md). For more information about [Prediction](../ref/types/prediction.md) APIs, see Predictive Scoring APIs ([ARM](../ref/arm/predscoringmngnt.md) or [Hub](../ref/hub/predscoringmngnt.md)).
-
+<!--
+The July 2017 Refresh of Customer Insights only supports lead scoring through its user interface. For more information about the predictive scoring UX, see [Predictive Scoring](../deploy/leadscoring.md). For more information about [Prediction](../ref/types/prediction.md) APIs, see Predictive Scoring APIs ([ARM](../ref/arm/predscoringmngnt.md) or [Hub](../ref/hub/predscoringmngnt.md)).
+-->

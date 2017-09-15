@@ -1,6 +1,6 @@
 ---
-title: Read a KPI Type (ARM)
-description: Gets the specified KPI.
+title: Read a KPI Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
+description: Gets the specified KPI type.
 keywords: Customer Insights; ARM API; KPI; read
 author: Milar1
 ms.author: v-milar
@@ -24,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/kpi/<KpiName>?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 

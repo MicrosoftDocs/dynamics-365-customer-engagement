@@ -18,7 +18,7 @@ Overview
 
 ##What is Customer Insights? 
 
-Check out the video: [Transform customer data into actionable insights with Dynamics 365 for Customer Insights](https://go.microsoft.com/fwlink/p/?linkid=852574). 
+Check out the video: [Transform customer data into actionable insights with Dynamics 365 for Customer Insights](https://go.microsoft.com/fwlink/p/?linkid=852574) and this blog: [Dynamics 365 for Customer Insights – In 7 Easy Steps!](https://blogs.msdn.microsoft.com/sachamp/2017/08/25/dynamics-365-for-customer-insights-in-7-easy-steps/)
 
 Dynamics 365 for Customer Insights helps organizations deliver intelligent customer engagement. Customer Insights is an Azure-based SaaS service, that makes it easy to transform your customer data into actionable insights.
 

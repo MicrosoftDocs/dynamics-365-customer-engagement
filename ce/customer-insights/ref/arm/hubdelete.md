@@ -1,5 +1,5 @@
 ---
-title: Delete Hub (ARM)
+title: Delete Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Deletes a Customer Insights Hub.  
 keywords: Customer Insights; ARM API; Hub; delete
 author: Milar1
@@ -25,6 +25,7 @@ Deletes a Customer Insights [Hub](../types/hub.md).
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |DELETE|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   
@@ -41,9 +42,6 @@ Deletes a Customer Insights [Hub](../types/hub.md).
   
 ### Status Code  
   
--   200 (OK) - if the synchronous request completed successfully.  
-  
--   202 (Accepted) - if the asynchronous request was accepted.  
-  
--   409 (Conflict) - if an operation is already being performed on the hub.  
-
+- 200 (OK) - if the synchronous request completed successfully.  
+- 202 (Accepted) - if the asynchronous request was accepted.  
+- 409 (Conflict) - if an operation is already being performed on the hub.  

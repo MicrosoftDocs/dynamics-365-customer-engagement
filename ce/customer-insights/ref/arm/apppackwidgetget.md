@@ -1,5 +1,5 @@
 ---
-title: Get Widget Type (ARM) 
+title: Get Widget Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified Widget type.
 keywords: Customer Insights; ARM API; application packaging; widget; get
 author: Milar1
@@ -24,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/widgetTypes/<widgetTypeName>?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 

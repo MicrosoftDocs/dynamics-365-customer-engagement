@@ -1,5 +1,5 @@
 ---
-title: Get Hub (ARM)
+title: Get Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets a Customer Insights Hub. 
 keywords: Customer Insights; ARM API; Hub; get
 author: Milar1
@@ -21,10 +21,9 @@ Gets a Customer Insights [Hub](../types/hub.md).
 ## Request  
  The read hub request is constructed as follows:  
   
-  
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
-|GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>?api-version=2017-04-26`|  
+|GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>?api-version=2017-04-26`|| | |  
   
 ### URI Parameters  
   
@@ -40,10 +39,6 @@ Gets a Customer Insights [Hub](../types/hub.md).
 ## Response  
  The response includes an HTTP status code, a set of response headers, and a response body.  
   
-### Status Code  
-  
-* 200 (OK) - The request completed successfully.  
-
 ### Response Body 
 The requested [Hub](../types/hub.md) information, for example:
  
@@ -67,3 +62,7 @@ The requested [Hub](../types/hub.md) information, for example:
         } 
 }
 ```  
+
+### Status Code  
+  
+* 200 (OK) - The request completed successfully.  

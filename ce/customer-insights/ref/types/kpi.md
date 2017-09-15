@@ -18,7 +18,7 @@ KPI Type Definitions
 
 Key Performance Indicators (KPIs) represent quantifiable measures and key insights about business data or processes, or aspects thereof. A KPI type is defined over a [Profile](./profile.md) or [Interaction](./interaction.md) for each step of a business workflow or as a cumulative measure of a business process. A KPI can also be defined over other KPIs, this type of KPI is referred to as a KPI on KPI. KPIs are defined with a set of basic built-in _functions_, and are recomputed every 15 minutes over a specified rolling time period, called a  _calculation window_. KPIs have a number of other characteristics, which can be modified through the UI or programmatically, such as the associated metric unit, filters, threshold values, grouping values, and KPI aliases.
 
-KPIs can also capture more complicated secondary relationships between Profiles through the use of [Links](./link.md).  Links can also be used to modify the properties of a profile based upon the calculated value of a KPI; such a KPI is termed am _enriching KPI_.
+KPIs can also capture more complicated secondary relationships between Interactions and Profiles through the use of [Links](./link.md) and [Relationships](./relationship.md).
 
 ## Properties
 

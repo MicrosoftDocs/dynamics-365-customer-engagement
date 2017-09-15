@@ -16,8 +16,8 @@ Authorization Policies Management APIs (Hub)
 
 [!include[pre release disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-These APIs enable management of [Authorization Policies](../types/authzpolicy.md) for a Customer Insights Hub.
+These APIs enable management of Shared Access Signature (SAS) [Authorization Policies](../types/authzpolicy.md) for a Customer Insights Hub.
 
-The Hub APIs provide similar functionality with [Authorization Policies Management APIs (ARM)](../arm/authzmngnt.md).
+The Hub APIs provide similar functionality with [SAS Authorization Policies Management APIs (ARM)](../arm/authzmngnt.md).
 
 

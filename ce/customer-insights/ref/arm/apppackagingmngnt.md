@@ -1,5 +1,5 @@
 ---
-title: App Packaging Management APIs (ARM) 
+title: App Packaging Management APIs (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: These APIs enable management of WidgetTypes and application Views.
 keywords: Customer Insights; ARM API; application packaging
 author: Milar1

@@ -1,5 +1,5 @@
 ---
-title: List Widget Types for a Hub (ARM) 
+title: List Widget Types for a Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the Widget type definitions for a Hub.
 keywords: Customer Insights; ARM API; application packaging; widget; list
 author: Milar1
@@ -25,6 +25,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/widgetTypes?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 

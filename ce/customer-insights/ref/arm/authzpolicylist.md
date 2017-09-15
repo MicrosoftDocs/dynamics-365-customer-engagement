@@ -1,5 +1,5 @@
 ---
-title: List SAS Policies for a Hub (ARM)
+title: List SAS Policies for a Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the SAS Policy type definitions for a Hub.
 keywords: Customer Insights; ARM API; SAS Policies; list
 author: Milar1
@@ -24,6 +24,7 @@ Lists the [Authentication Policy](../types/authzpolicy.md) type definitions for 
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/AuthorizationPolicies?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 

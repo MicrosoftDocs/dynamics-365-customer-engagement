@@ -1,5 +1,5 @@
 ---
-title: Get a Data Connector Mapping Type (ARM)
+title: Get a Data Connector Mapping Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified Data Connector Mapping.
 keywords: Customer Insights; ARM API; Data Connector Mapping; get
 author: Milar1
@@ -24,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/connectors/<connectorName>/mappings/<mappingName>?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 

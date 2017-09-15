@@ -1,5 +1,5 @@
 ---
-title: Delete KPI (ARM)
+title: Delete KPI (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Deletes a KPI.  
 keywords: Customer Insights; ARM API; KPI; delete
 author: Milar1
@@ -16,7 +16,7 @@ Delete KPI (ARM)
 
 [!include[pre release disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Deletes a [KPI](../types/kpi.md).  
+Deletes the specified [KPI](../types/kpi.md) type.  
 
 ## Request  
  The request is constructed as follows:  
@@ -25,6 +25,7 @@ Deletes a [KPI](../types/kpi.md).
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |DELETE|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/kpi/<KpiName>?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   

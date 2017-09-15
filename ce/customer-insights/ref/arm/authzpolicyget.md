@@ -1,5 +1,5 @@
 ---
-title: Get a SAS Policy (ARM)
+title: Get a SAS Policy (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets a Shared Access Signature (SAS) policy.
 keywords: Customer Insights; ARM API; SAS Policy; get
 author: Milar1
@@ -25,6 +25,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/AuthorizationPolicies/<policyName>?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 

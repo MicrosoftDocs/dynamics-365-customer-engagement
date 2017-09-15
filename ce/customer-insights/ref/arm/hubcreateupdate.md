@@ -1,5 +1,5 @@
 ---
-title: Create or Update Hub (ARM)
+title: Create or Update Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates a new or updates an existing Hub.  
 keywords: Customer Insights; ARM API; Hub; create
 author: Milar1
@@ -24,7 +24,8 @@ Creates a new or updates an existing Customer Insights [Hub](../types/hub.md).
   
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
-|PUT|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>?api-version=2017-04-26`|  
+|PUT|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>?api-version=2017-04-26`|| | |
+  
   
 ### URI Parameters  
   
@@ -76,8 +77,5 @@ The [Hub](../types/hub.md) value to create/update, for example:
 ### Status Code  
   
 -   200 (OK) - if the update request completed successfully.  
-  
 -   201 (Created) - if the create request completed successfully.  
-  
 -   409 (Conflict) - if a hub with the supplied name already exists.  
-  

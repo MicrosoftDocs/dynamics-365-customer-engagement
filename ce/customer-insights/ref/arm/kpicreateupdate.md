@@ -1,5 +1,5 @@
 ---
-title: Create or Update KPI (ARM)
+title: Create or Update KPI (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates a new or updates an existing KPI.
 keywords: Customer Insights; ARM API; KPI; create; update
 author: Milar1
@@ -25,6 +25,7 @@ Creates a new or updates an existing [KPI](../types/kpi.md) in a Customer Insigh
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |PUT|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/kpi/<KpiName>?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   
@@ -81,6 +82,6 @@ A JSON object describing a [KPI](../types/kpi.md), for example:
   
 ### Status Code  
   
--   200 (OK) - the update request completed successfully. The *provisioningState* property in the response body is set to 'Succeeded' when the provisioning finishes.
--   400 (Bad Request) - The display name or definition contains invalid JSON.   
+- 200 (OK) - the update request completed successfully. The *provisioningState* property in the response body is set to 'Succeeded' when the provisioning finishes.
+- 400 (Bad Request) - The display name or definition contains invalid JSON.   
   

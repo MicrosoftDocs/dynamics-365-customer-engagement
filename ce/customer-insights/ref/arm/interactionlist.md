@@ -1,5 +1,5 @@
 ---
-title: List Hub Interaction Types (ARM)
+title: List Hub Interaction Types (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the Interaction type definitions for a Hub.
 keywords: Customer Insights; ARM API; Interaction; list
 author: Milar1
@@ -24,6 +24,7 @@ Lists the [Interaction](../types/interaction.md) type definitions for the specif
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/interactions?api-version=2017-04-26&locale=<locale-code>`|
+| | |
 
 ### URI Parameters
 

@@ -22,6 +22,7 @@
 ### [Predictive Match](./deploy/createconflationpolicy.md)
 ### [Predictive Scoring](./deploy/buildmlmodel.md)
 ### [Segmentation](./deploy/createasegment.md)
+<!-- ### [Lead Scoring](./deploy/leadscoring.md) -->
 
 # [Microsoft Dynamics 365 for Customer Insights Developer Guide](./dev/devguide.md) 
 ## [Customer Insights Architecture](./dev/architecture.md) 
@@ -119,6 +120,7 @@
 #### [Image Management APIs](./ref/arm/imagemngnt.md) 
 ##### [Get Image Upload URL for a Type](./ref/arm/imagegetuploadurlmetadata.md) 
 ##### [Get Image Upload URL for instance Data](./ref/arm/imagegetuploadurlinstance.md) 
+
 #### [Data Connector Management APIs](./ref/arm/dataconmngnt.md) 
 ##### [Create or Update Data Connector](./ref/arm/dataconcreateupdate.md) 
 ##### [Get Data Connector](./ref/arm/dataconget.md) 
@@ -128,6 +130,7 @@
 ##### [Get Data Connector Mapping](./ref/arm/dataconmapget.md) 
 ##### [List Data Connector Mappings](./ref/arm/dataconmaplist.md) 
 ##### [Delete Data Connector Mapping](./ref/arm/dataconmapdelete.md) 
+
 #### [App Packaging Management APIs](./ref/arm/apppackagingmngnt.md) 
 ##### [Get Widget Type](./ref/arm/apppackwidgetget.md) 
 ##### [List Widget Types](./ref/arm/apppackwidgetlist.md) 
@@ -135,11 +138,13 @@
 ##### [Get App View](./ref/arm/apppackviewget.md) 
 ##### [List App Views](./ref/arm/apppackviewlist.md) 
 ##### [Delete App View](./ref/arm/apppackviewdelete.md) 
-#### [Shared Access Signature Policies Management APIs](./ref/arm/authzmngnt.md) 
+
+#### [SAS Authorization Policies Management APIs](./ref/arm/authzmngnt.md) 
 ##### [Create or Update SAS Policy](./ref/arm/authzpolicycreateupdate.md) 
 ##### [Get SAS Policy](./ref/arm/authzpolicyget.md) 
 ##### [List SAS Policies](./ref/arm/authzpolicylist.md) 
 ##### [Regenerate Primary Key of a SAS Policy](./ref/arm/authzpolicyregenprimkey.md) 
+
 ##### [Regenerate Secondary Key of a SAS Policy](./ref/arm/authzpolicyregenseckey.md) 
 #### [RBAC Management APIs](./ref/arm/rbacmngnt.md) 
 ##### [Create or Update Role Assignment](./ref/arm/rbacroleasgncreateupdate.md) 
@@ -147,6 +152,7 @@
 ##### [List Role Assignment Types](./ref/arm/rbacroleasgnlist.md) 
 ##### [Delete Role Assignment](./ref/arm/rbacroleasgndelete.md) 
 ##### [List Role Types](./ref/arm/rbacrolelist.md) 
+
 
 ### [Hub API Reference](./ref/hubapiref.md) 
 #### [Hub Management APIs](./ref/hub/hubmngnt.md) 
@@ -221,7 +227,7 @@
 ###### [List App Views](./ref/hub/apppackviewlist.md) 
 ###### [Delete App View](./ref/hub/apppackviewdelete.md) 
 
-##### [Shared Access Signature Policies Management APIs](./ref/hub/authzmngnt.md) 
+##### [SAS Authorization Policies Management APIs](./ref/hub/authzmngnt.md) 
 ###### [Create or Update SAS Policy](./ref/hub/authzpolicycreateupdate.md) 
 ###### [Get SAS Policy](./ref/hub/authzpolicyget.md) 
 ###### [List SAS Policies](./ref/hub/authzpolicylist.md) 

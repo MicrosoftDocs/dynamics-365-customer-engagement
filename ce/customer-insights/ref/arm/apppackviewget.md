@@ -1,5 +1,5 @@
 ---
-title: Get App View (ARM) 
+title: Get App View (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified Application View type.
 keywords: Customer Insights; ARM API; application packaging; App View; get
 author: Milar1
@@ -24,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/views/<viewName>?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 

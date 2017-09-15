@@ -1,5 +1,5 @@
 ---
-title: Create or Update SAS Policy (ARM)
+title: Create or Update SAS Policy (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates a new or updates an existing SAS Policy.
 keywords: Customer Insights; ARM API; SAS Policy; create; update
 author: Milar1
@@ -25,6 +25,7 @@ Creates a new or updates an existing [Authentication Policy](../types/authzpolic
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |PUT|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/AuthorizationPolicies/<policyName>?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   
@@ -70,8 +71,6 @@ Where the `properties` property contains a [SasPolicy](../types/authzpolicy.md) 
   
 ### Status Code  
   
--   200 (OK) - if the update request completed successfully.  
-  
--   201 (Created) - if the create request completed successfully.  
-  
--   401 (Unauthorized) - if the sender does not have write access to policies. 
+- 200 (OK) - if the update request completed successfully.  
+- 201 (Created) - if the create request completed successfully.  
+- 401 (Unauthorized) - if the sender does not have write access to policies. 

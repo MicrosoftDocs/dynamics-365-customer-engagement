@@ -1,5 +1,5 @@
 ---
-title: List Data Connectors for a Hub (ARM)
+title: List Data Connectors for a Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the Data Connector type definitions for a Hub.
 keywords: Customer Insights; ARM API; Data Connectors; list
 author: Milar1
@@ -63,7 +63,6 @@ A collection of data connector information, including [Connector](../types/conne
 ```  
 
 ### Status Code  
--   200 (OK) - the policy was retrieved successfully.  
 
--   401 (Access denied) - not authorized to read resource.
-
+- 200 (OK) - the policy was retrieved successfully.  
+- 401 (Access denied) - not authorized to read resource.

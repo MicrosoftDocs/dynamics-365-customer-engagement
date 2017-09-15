@@ -19,7 +19,6 @@ Follow these steps to add a [!include[pn-customer-insights](../../includes/pn-cu
 
 ##Prerequisites
 
-[//]: # (In the second bullet, who is the audience for the "go to the Azure portal" step? The admin user can't necessarily add themselves through this step, can they? In the third bullet, please check the edit--might have messed up the meaning.)
 This section takes you through the steps for embedding [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] widgets in the [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] application that targets a specific role or audience.
 
 >-   The [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] users who need to view the [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] widgets in [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] must be granted read permissions to the appropriate profiles, interactions, and interactions that the widgets show, in addition to the widgets and views that are being embedded. [!include[proc-more-information](../../includes/proc-more-information.md)] [Step-by-step role-based security](./stepbysteprolebasedsecurity.md).
@@ -40,7 +39,6 @@ This section takes you through the steps for embedding [!include[pn-customer-ins
 
 5.  Troubleshoot.
 
-[//]: # (In step 2, don't know what that second bullet wants to say. In step 3, substep 3, is it necessary to say "insert it into the form in an existing section or a new section"? In step 4 substep 2, what does "added for the entity in context" mean?)
 ##Details
 
 1.   Define [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] views and extract the URLs of the embedded views. [!include[more information](../../includes/proc-more-information.md)] [Embedding a Customer Insights view](./embedaciview.md).
@@ -68,6 +66,52 @@ This section takes you through the steps for embedding [!include[pn-customer-ins
      3.  Search for the web resource you published above, and insert it into the form in an existing section or a new section.
 
      4.  When you insert the web resource, make sure the field you select as a dependency corresponds to the *filterValue* used in the web resource HTML. For example, if the [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] URL query parameter has the format *filterkey=Email&filtervalue=some@abc.com*, add the *Email* field from the [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] entity in the dependency for the web resource.
+     
+      Sample web resource:
+
+       ```html
+       <!doctype html>
+       <html lang="en">
+       <head>
+           <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+           <title>
+               Customer Insights View
+           </title>
+           <script type="text/javascript">
+               function onLoad() {
+                   var dciFrame = document.getElementById("frameDCIView");
+                   if (dciFrame) {
+                       dciFrame.src = formIframeUrl();
+                   }
+               }
+
+               function formIframeUrl() {      
+                   //Typical DCI url format goes like 'https://<DCI hub name>.apps.azurecustomerinsights.com?viewid=<DCI view id>'
+                   var dciViewUrl = "https://<DCI-hub-name>.apps.azurecustomerinsights.com?viewid=<DCI-view-id>";
+                   //Fetching entity name from CRM page in the context
+                   var crmEntityName = window.parent.Xrm.Page.data.entity.getEntityName()+ "id";
+                   //Fetching entity id from CRM page in the context
+                   var crmEntityId = window.parent.Xrm.Page.data.entity.getId();
+                   if(!!crmEntityId){
+                       if(crmEntityId.indexOf("{") >= 0){
+                           // Clipping off {} from guid Eg. {D3AE1B3A-8BD2-E411-80EF-C4346BAC7BE8} to D3AE1B3A-8BD2-E411-80EF-C4346BAC7BE8                 
+                           crmEntityId = crmEntityId.substring(1,crmEntityId.length - 1);
+                       }
+                       var filter = "&filterkey=" + crmEntityName + "&filtervalue=" + crmEntityId.toLowerCase();
+                       // Final url format would be 'https://<DCI hub name>.apps.azurecustomerinsights.com?viewid=<DCI view id>&filterkey=<crmEntityName>&filtervalue=<crmEntityId>'
+                       return dciViewUrl + filter; 
+                   }else{
+                       console.error("Unable to render Customer Insights View");
+                   }  
+                   return "";
+               }
+           </script>
+       </head>
+       <body onload="onLoad()">
+           <iframe id="frameDCIView" src=''></iframe>
+       </body>
+       </html>
+       ```
 
      5.  Save and publish the entity.
 

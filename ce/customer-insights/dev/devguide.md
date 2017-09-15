@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 for Customer Insights Developer Guide | MicrosoftDocs
+title: Microsoft Dynamics 365 for Customer Insights Developer Guide (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Top-level conceptual intro topic
 keywords: Customer Insights; web services; developer guide
 author: Milar1

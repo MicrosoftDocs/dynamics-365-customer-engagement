@@ -1,5 +1,5 @@
 ---
-title: Create or Update Interaction Type (ARM)
+title: Create or Update Interaction Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates or updates an Interaction type.
 keywords: Customer Insights; ARM API; Interaction; create; update
 author: Milar1
@@ -24,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |PUT|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/interactions/<interactionName>?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 
@@ -79,5 +80,4 @@ The request is constructed as follows:
 Type provisioning is typically a long running operation. The initial request will come back with HTTP Accepted (202) with a location header to GET the 
 status of the operation. The properties in the response body will have a field called *provisioningState*. Eventually performing a GET for the profile will 
 return a response where *provisioningState* is set to Succeeded, indicating success. 
-
 
