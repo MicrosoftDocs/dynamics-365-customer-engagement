@@ -1,5 +1,5 @@
 ---
-title: Get a Interaction Type (ARM)
+title: Get a Interaction Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified Interaction.
 keywords: Customer Insights; ARM API; Interaction; get
 author: Milar1
@@ -24,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/interactions/<interactionName>?api-version=2017-04-26 `|
+| | |
 
 ### URI Parameters
 

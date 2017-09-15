@@ -1,5 +1,5 @@
 ---
-title: Predictive score
+title: Predictive scoring
 description: Build a predictive scoring model to enable business users of all skill levels to apply artificial intelligence to predict a range of business outcomes. Based on these predicted outcomes, users can grade customers to efficiently plan targeted follow-ups.
 keywords: dynamics 365; customer insights
 Applies_to: Dynamics 365 for Customer Insights
@@ -12,7 +12,7 @@ ms.service: customer-insights
 ms.assetid: 29dd6b93-7e45-4ce6-911f-253af043069b
 ---
 
-Predictive Scoring
+Predictive scoring
 ==========================
 [!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -34,6 +34,9 @@ Customer Insights Predictive Scoring has the following benefits:
 - Continuous scoring of incoming data
 - Interpretable predictive factors
 - Grading for business process management
+
+> [!TIP]
+> Check out the following video: [Predicting Business Outcomes with Customer Insights](https://go.microsoft.com/fwlink/p/?linkid=851077)
 
 ##Create a new prediction
 

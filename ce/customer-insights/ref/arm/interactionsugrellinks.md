@@ -1,5 +1,5 @@
 ---
-title: Suggest Relationships for Interaction Type (ARM)
+title: Suggest Relationships for Interaction Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Suggests relationships to create relationship links for the specified Interaction type.
 keywords: Customer Insights; ARM API; Interaction; suggest relationship
 author: Milar1
@@ -24,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |POST|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/interactions/<interactionName>/suggestRelationshipLinks?api-version=2017-04-26 `|
+| | |
 
 ### URI Parameters
 

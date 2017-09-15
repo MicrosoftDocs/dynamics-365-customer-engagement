@@ -1,5 +1,5 @@
 ---
-title: List Data Connector Mappings for a Hub (ARM)
+title: List Data Connector Mappings for a Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the Data Connector type definitions for a Hub.
 keywords: Customer Insights; ARM API; Data Connector Mappings; list
 author: Milar1
@@ -24,6 +24,7 @@ Lists the [Data Connector Mappings](../types/connectormapping.md) type definitio
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/connectors/<connectorName>/mappings?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 
@@ -33,6 +34,7 @@ Lists the [Data Connector Mappings](../types/connectormapping.md) type definitio
 |rgName|Yes|Azure region name|
 |hubName|Yes|Name of your Customer Insights Hub|
 |connectorName|Yes|Name of the data connector to retrieve the mappings for|
+| | | |
 
 
 ## Response  

@@ -34,7 +34,7 @@ of properties. The key value(s) have to be unique for each profile instance of t
 |description|Dictionary\<string,string\>|The localized description|
 |expiryDateTimeUtc | string (date-time) | Expiry date time in UTC |
 |fields|[Field](./field.md) [ ]|The custom Properties (Fields) of this type | 
-|lookupMappings | RelationshipTypeMapping[ ] (see below) | Optional property to map fields in a profile to their strong ids in a related profile. |
+|lookupMappings | RelationshipTypeMapping[ ] | Optional property to map fields in a profile to their strong ids in a related profile (see below) |
 |profileType | string | Type of the current profile |
 |provisioningState | string | ["Provisioning" \| "Succeeded" \| "Expiring" \| "Deleting" \| "HumanIntervention" \| "Failed" ] |
 |relationshipName | string  | Name of the relationship (readonly) |

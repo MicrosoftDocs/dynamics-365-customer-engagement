@@ -1,5 +1,5 @@
 ---
-title: Reprocess KPI (ARM)
+title: Reprocess KPI (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Reprocesses a KPI value
 keywords: Customer Insights; ARM API; KPI; reprocess; recalculate
 author: Milar1
@@ -26,6 +26,7 @@ Reprocesses (recalculates) the value of the specified [KPI](../types/kpi.md). KP
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |POST|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/kpi/<KpiName>/reprocess?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   

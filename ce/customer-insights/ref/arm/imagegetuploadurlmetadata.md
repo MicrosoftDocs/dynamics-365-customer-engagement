@@ -1,5 +1,5 @@
 ---
-title: Get Image Upload URL for a Type (ARM)
+title: Get Image Upload URL for a Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets an image association to a specific type.
 keywords: Customer Insights; ARM API; image; metadata
 author: Milar1
@@ -24,7 +24,8 @@ subsequently upload the associated image.
   
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
-|POST|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/media/GetEntityTypeImageUploadUrl?api-version=2017-04-26`|  
+|POST|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/media/GetEntityTypeImageUploadUrl?api-version=2017-04-26`| 
+| | | 
   
 ### URI Parameters  
   
@@ -49,7 +50,6 @@ An [ImageDefintion](../types/images.md) that describes the associated image, inc
   
 ### Status Code  
   
--   200 (OK) - if the synchronous request completed successfully.  
-  
--   400 (Bad request) - if the input does not have the required fields or if the relative path is invalid.  
+- 200 (OK) - if the synchronous request completed successfully.  
+- 400 (Bad request) - if the input does not have the required fields or if the relative path is invalid.  
 

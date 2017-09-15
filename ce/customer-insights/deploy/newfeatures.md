@@ -19,4 +19,5 @@ New features Fall 2017
 * [Predictive Match](createconflationpolicy.md) 
 * [Predictive Scoring](buildmlmodel.md) 
 * [Segmentation](createasegment.md)
+<!-- * [Lead Scoring](leadscoring.md) -->
 

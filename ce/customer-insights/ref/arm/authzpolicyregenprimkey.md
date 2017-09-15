@@ -1,5 +1,5 @@
 ---
-title: Regenerate Primary Key of a SAS Policy (ARM)
+title: Regenerate Primary Key of a SAS Policy (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Regenerates the primary key of the storage account associated with a SAS Policy.
 keywords: Customer Insights; ARM API; SAS Policy; regenerate key
 author: Milar1
@@ -24,6 +24,7 @@ Regenerates the primary key of the storage account associated with a [Authentica
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |POST|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/AuthorizationPolicies/<policyName>/regenerateprimarykey?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   
@@ -45,8 +46,5 @@ A [SasPolicy](../types/authzpolicy.md) type definition containing the new key.
   
 ### Status Code  
   
--   200 (OK) - if the request completed successfully.  
-  
--   401 (Access denied) - not authorized to perform regen operation.
-
-
+- 200 (OK) - if the request completed successfully.  
+- 401 (Access denied) - not authorized to perform regen operation.

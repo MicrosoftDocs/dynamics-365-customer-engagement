@@ -1,5 +1,5 @@
 ---
-title: Get Image Upload URL for Instance Data (ARM)
+title: Get Image Upload URL for Instance Data (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets an image association to a specific data instance.  
 keywords: Customer Insights; ARM API; image; upload
 author: Milar1
@@ -16,8 +16,7 @@ Get Image Upload URL for Instance Data (ARM)
 
 [!include[pre release disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Creates an image association to a specific [Profile](../types/profile.md) or [Interaction](../types/interaction.md) instance and returns a SAS-based URL that enables you to 
-subsequently upload the associated image.
+Creates an image association to a specific [Profile](../types/profile.md) or [Interaction](../types/interaction.md) instance and returns a SAS-based URL that enables you to subsequently upload the associated image.
 
 ## Request  
  The request is constructed as follows:  
@@ -25,6 +24,7 @@ subsequently upload the associated image.
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |POST|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/media/GetDataImageUploadUrl?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   
@@ -50,7 +50,5 @@ An [ImageDefintion](../types/images.md) that describes the associated image, inc
   
 ### Status Code  
   
--   200 (OK) - if the synchronous request completed successfully.  
-  
--   400 (Bad request) - if the input does not have the required fields or if the relative path is invalid.  
-
+- 200 (OK) - if the synchronous request completed successfully.  
+- 400 (Bad request) - if the input does not have the required fields or if the relative path is invalid.  

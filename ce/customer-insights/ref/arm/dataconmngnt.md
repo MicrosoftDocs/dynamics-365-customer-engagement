@@ -1,5 +1,5 @@
 ---
-title: Data Connector Management APIs (ARM)
+title: Data Connector Management APIs (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: These APIs enable management of Connectors and Connector Mappings.
 keywords: Customer Insights; ARM API; connector management; Connector; ConnectorMapping
 author: Milar1

@@ -1,5 +1,5 @@
 ---
-title: Delete Data Connector (ARM)
+title: Delete Data Connector (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Deletes the specified Data Connector.
 keywords: Customer Insights; ARM API; Data Connector; delete
 author: Milar1
@@ -16,9 +16,7 @@ Delete Data Connector (ARM)
 
 [!include[pre release disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-
 Deletes the specified Data [Connector](../types/connector.md) type definition.
-
 
 ## Request 
 The request is constructed as follows:
@@ -26,6 +24,7 @@ The request is constructed as follows:
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |DELETE|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/connectors/<connectorName>?api-version=2017-04-26`|
+| | |
 
 ### URI Parameters
 
@@ -44,5 +43,4 @@ The request is constructed as follows:
 ### Status Code  
   
 -   200 (OK) - delete succeeded
-
 

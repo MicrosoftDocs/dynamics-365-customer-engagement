@@ -1,5 +1,5 @@
 ---
-title: KPI Management APIs (ARM)
+title: KPI Management APIs (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Enables KPI management operations on a Hub.
 keywords: Customer Insights; ARM API; KPI management
 author: Milar1

@@ -1,5 +1,5 @@
 ---
-title: List Hubs (ARM)
+title: List Hubs (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the hubs in a subscription or resource group.
 keywords: Customer Insights; ARM API; Hub; list
 author: Milar1
@@ -28,6 +28,7 @@ Lists the [Hub](../types/hub.md) instances in an Azure [subscription](https://do
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/providers/Microsoft.CustomerInsights/hubs?api-version=2017-04-26&locale=<locale-code>`|
+| | |
 
 #### URI Parameters
 
@@ -44,6 +45,7 @@ Lists the [Hub](../types/hub.md) instances in an Azure [subscription](https://do
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
 |GET|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs?api-version=2017-04-26&locale=<locale-code>`|
+| | |
 
 #### URI Parameters
 

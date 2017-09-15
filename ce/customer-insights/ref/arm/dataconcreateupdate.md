@@ -1,5 +1,5 @@
 ---
-title: Create or Update Data Connector (ARM)
+title: Create or Update Data Connector (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates a new or updates an existing Data Connector.
 keywords: Customer Insights; ARM API; Data Connector; create; update
 author: Milar1
@@ -24,6 +24,7 @@ Creates a new or updates an existing [Data Connector](../types/connector.md) use
 |**HTTP Verb**|**Request URI**|  
 |-------------|---------------|  
 |PUT|`https://management.azure.com/subscriptions/<subId>/resourceGroups/<rgName>/providers/Microsoft.CustomerInsights/hubs/<hubName>/connectors/<connectorName>?api-version=2017-04-26`|  
+| | |
   
 ### URI Parameters  
   
@@ -67,10 +68,7 @@ A JSON object describing a [Connector](../types/connector.md), for example:
 
 ### Status Code  
   
--   200 (OK) - if the update request completed successfully.  
-  
--   201 (Created) - if the create request completed successfully.  
-  
--   401 (Unauthorized) - if the sender does not have write access to this resource. 
-
+- 200 (OK) - if the update request completed successfully.  
+- 201 (Created) - if the create request completed successfully.  
+- 401 (Unauthorized) - if the sender does not have write access to this resource. 
 

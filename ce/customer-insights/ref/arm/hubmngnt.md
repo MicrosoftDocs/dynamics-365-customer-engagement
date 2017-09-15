@@ -1,5 +1,5 @@
 ---
-title: Hub Management APIs (ARM)
+title: Hub Management APIs (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: This set of APIs enable you to manage Customer Insights Hub components and data models.
 keywords: Customer Insights; ARM API; Hub management
 author: Milar1
@@ -16,8 +16,7 @@ Hub Management APIs (ARM)
 
 [!include[pre release disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This set of APIs enable you to manage Customer Insights [Hub](../types/hub.md) components and contained data model through the associated Azure Resource Manager endpoint. These APIs have
-corresponding analogs in the Hub APIs, as documented in [Customer Insights API Quick Reference](..\apiquickref.md). 
+This set of APIs enable you to manage Customer Insights [Hub](../types/hub.md) components and contained data model through the associated Azure Resource Manager endpoint. These APIs have corresponding analogs in the Hub APIs, as documented in [Customer Insights API Quick Reference](..\apiquickref.md). 
 
 The Hub Management APIs are grouped by functionality as follows:
 
