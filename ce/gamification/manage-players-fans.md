@@ -5,12 +5,10 @@ keywords: "gamification, player, fan, import, importing, azure active directory,
 ms.date: 09/15/2017
 ms.service: gamification
 ms.topic: article
-applies_to: - "Dynamics 365 (online)"
 ms.assetid: 4df5e61b-0d7b-4cef-b741-14bed0637756
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ---
 
 # Import players and fans from Dynamics 365 (online) and manage their security roles
