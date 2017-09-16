@@ -10,6 +10,8 @@
 ## [Configure a portal](configure-portal.md)
 ### [Behavior and format of the date and time field](behavior-format-date-time-field.md)
 ### [View primary domain name in Dynamics 365](view-primary-domain.md)
+### [View email records in portal timeline](view-email-in-timeline.md)
+### [View activity of a user on a portal](view-user-activity.md)
 ### [Create web roles](create-web-roles.md)
 ### [Manage knowledge articles](manage-knowledge-articles-content-levels.md)
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
