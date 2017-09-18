@@ -1,7 +1,7 @@
 ---
 title: "Personalize the game experience in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to manage the settings that apply to all users of Dynamics 365 – Gamification."
-ms.date: 06/21/2017
+ms.date: 08/18/2017
 ms.service: gamification
 ms.topic: article
 applies_to: Dynamics 365 (online)
@@ -10,13 +10,14 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
+
 # Manage settings to personalize the game experience in Gamification
 
 As a commissioner, you can upload custom logos, provide a pointer for players to get in touch with you, configure Stream TV posts, and choose how to handle player stats and completed games in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)].  
 
 ## Generate a security key
 
-The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] with a [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] organization. If you disconnect the web portal from Dynamics 365 (online) and want to connect it again, click **Generate Security [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]Key** to get a new key.
+The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] with a [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] organization. If you disconnect the web portal from Dynamics 365 (online) and want to connect it again, click **Generate Security Key** to get a new key.
 If you are already connected to a [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] organization, you can remove it after all active games are completed. 
 
 > [!WARNING]
@@ -129,9 +130,9 @@ You can opt in for early access to newly developed features to evaluate them for
 
     - **Show BAM Posts**: Show all BAM posts on smack talk from a leaderboard shown in a Stream TV.  
 
-    - **BAM Post Display Count**: Define how many times a BAM post appears in a Stream TV.  
+    - **BAM Display Count**: Define how many times a BAM post appears in a Stream TV.  
 
-    - **BAM Display Waiting Time (Seconds)**: Number of seconds before a BAM post appears again in a Stream TV.  
+    - **BAM Display Time (Seconds)**: Number of seconds before a BAM post appears again in a Stream TV.  
 
     - **Enable Public Stream TV**: Allows game owners to create Stream TVs that people can view without signing in to [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
 
