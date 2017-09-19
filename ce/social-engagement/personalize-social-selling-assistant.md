@@ -2,7 +2,7 @@
 title: "Personalize the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to configure the Social Selling Assistant to receive personalized recommendations."
 keywords: "social selling, social selling assistant, social engagement, personalization, social sales"
-ms.date: 09/18/2017
+ms.date: 09/19/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -41,7 +41,7 @@ When using the Social Selling Assistant for the first time, users will get recom
   
 4.  Click **Get Insights** and manage the topics you want insights for. For example, you may create a new insight group for your business partners and add search topics relating to your partners to get insights, so you can stay on top of what your partners are saying on social media. Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
- ![Overview of the \"Get Insights\" configuration, showing the default insight groups along with controls to add, edit, or delete them.](../social-engagement/media/insight-groups-social-selling-assistant.png "Overview of the \"Get Insights\" configuration, showing the default insight groups along with controls to add, edit, or delete them.")  
+ ![Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them.](../social-engagement/media/insight-groups-social-selling-assistant.png "Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them.")  
   
      By default, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] creates Insight Groups for **Customers**, **Competitors**, and **My brands**. You can edit (![Edit button](../social-engagement/media/edit-icon.png "Edit button")), or remove (![Delete button](../social-engagement/media/trashbin-icon.png "Delete button")) them, and create (![Add button](../social-engagement/media/add-icon.png "Add button")) additional insight groups.  
   
