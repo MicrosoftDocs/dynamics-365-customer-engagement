@@ -1,14 +1,17 @@
 ---
 title: "Publish and react to posts | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
-ms.date: 09/12/2017
+keywords: "publish, post, like, favorite, share, private message, Social Engagement"
+ms.date: 09/19/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 232849dd-218d-4cf0-8561-03c865120657
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Publish and react to posts
@@ -150,7 +153,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 <a name="PostLink"></a>   
 ### Post a link to another post  
- Share a link to a public post along with your own comments as a new post  directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+Share a link to a public post along with your own comments as a new post directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
 #### Create a new post with a link to a post found in Social Engagement  
   
@@ -164,10 +167,12 @@ Staying in touch with customers, prospects, and other stakeholders through socia
   
 3.  At the bottom of the post, click the **Post Link** button ![Post a link button in Social Engagement](../social-engagement/media/post-link-action-icon.png "Post a link button in Social Engagement").  
   
-4.  Select the check box for the  social profile that you want to send this post with.  
+4.  Select the check box for the social profile that you want to send this post with.  
   
     > [!NOTE]
-    >  When you share to LinkedIn, you can choose between two visibility options: Either share the post with everyone on LinkedIn or only with your network.  
+    > When you share to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you can choose between two visibility options: Either share the post with everyone on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] or only with your network.
+    >
+    > You can't share the URL of a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] comment on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and we'll hide the social profiles for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] when you try to post a link to a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] comment.  
   
 5.  Optionally, type additional text in the text field.  
   
