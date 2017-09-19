@@ -1,18 +1,19 @@
 ---
 title: "Get to know your filters | Microsoft Docs"
 description: "See the list of filters and what they do."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "filter, filtering, Social Engagement"
+ms.date: 09/19/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: ba690f72-43cd-4fdb-a400-b3a9e3eb2f22
-caps.latest.revision: 18
-ms.author: "dechang"
+author: m-hartmann
+ms.author: mhart
+manager: sakudes
+topic-status: Drafting
 ---
+
 # Get to know your filters
 You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if you drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](../social-engagement/media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
@@ -87,7 +88,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
 ## Link to Dynamics 365  
  Find posts that either are or aren’t linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
   
-## Tags  
+## Post Tags and Intentions  
  Find posts that match one of the available intention tags or custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](../social-engagement/tags.md)  
   
 ### See Also  
