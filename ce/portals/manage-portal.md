@@ -36,7 +36,7 @@ If you are not a Global Administrator and try to manage an already provisioned p
     > [!Note]
     > This task can be performed either by Global Administrator of your organization or the existing owner of this application.
 
-6. Once you have added yourself as an owner, reopen the Portal Administration Center page.
+6. Once you have added yourself as an owner, reopen the Portal Admin Center page.
 
 ## Link your Dynamics 365 portal to a custom domain
 
