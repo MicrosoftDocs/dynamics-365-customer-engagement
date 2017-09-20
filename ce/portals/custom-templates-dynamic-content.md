@@ -27,7 +27,7 @@ In all of these scenarios, you'll have dynamic access to [!INCLUDE[pn-dynamics-c
 ### See also
 
 [How to provision a portal](provision-portal.md)  
-[Get started with the portal content editor](get-started-portal-content-editor.md)
+[Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Store source content by using web templates](store-content-web-templates.md)  
 [Understand Liquid operators](liquid-operators.md)  
 [Liquid types](liquid-types.md)  
