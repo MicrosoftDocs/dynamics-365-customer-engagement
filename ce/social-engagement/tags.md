@@ -51,15 +51,12 @@ Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-net
   
      Go to **Social Center** to see your streams.  
   
-2.  Select a post, and then next to the custom tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button") . Start typing to enter the custom tag that you want to add,  and then press **Enter** to select the tag or create a new one.  
+2.  Select a post, and then next to the custom tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button"). Start typing to enter the custom tag that you want to add, and then press **Enter** to select the tag or create a new one.  
   
 3.  Select **Confirm**.  
   
     > [!NOTE]
     >  The maximum amount of custom tags you can add per post is 20 tags. To add more tags, you must first remove other tags.  
-  
-> [!NOTE]
->  To configure a tag for the Social Selling Assistant, see [Configure a custom tag to promote posts](../social-engagement/configure-social-selling-assistant.md#configure-a-custom-tag-to-promote-posts).  
   
 <a name="promote_customtags"></a>   
 ## Promote custom tags to auto tags  
@@ -101,9 +98,26 @@ To improve your workflows and increase efficiency, you can leverage auto tagged 
   
 3.  In the Auto Tags panel, select **Remove**, and then select **Confirm**.  
     Removed tags will remain visible on previous posts, but auto scoring will stop for incoming posts. 
-## Improve accuracy by confirming sytem-rated tags
 
+## Improve accuracy of sytem-rated tags
 
+To further improve the underlying machine learning model for auto tags and intention tags, you can confirm and remove system-rated. Removing a system-rated tag from a post lets the model know that it was added wrongly while confirming a tag indicates the model was adding it correctly. 
+
+### Remove a system-rated tag
+
+1.  Select an auto tag or intention tag in the **Post Tags and Intentions** filter to create a data set that contains the tagged posts you want to review.   
+  
+2.  Select a post, and then next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button").  
+  
+3.  Select **Remove this tag** ![Remove tag symbol in Social Engagement](media/delete-icon.png "Remove tag symbol in Social Engagement").
+
+### Confirm a system-rated tag
+
+1.  Select an auto tag or intention tag in the **Post Tags and Intentions** filter to create a data set that contains the tagged posts you want to review.   
+  
+2.  Select a post, and then next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button").  
+  
+3.  Select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").
 
 ## Review the quality of a tagging model
 
