@@ -1,7 +1,7 @@
 ---
 title: "Use the Organization Insights solution to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,12 +17,15 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Use the Organization Insights solution to view metrics about your instance
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] provides important adoption and use metrics for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization, and tools to help you stay ahead of performance and support issues.  
   
 > [!IMPORTANT]
 >  Check your version of the Organization Insights solution. In [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)], go to **Settings** > **Solutions**, and determine the version of OrganizationInsightsSolution.  
 >   
->  Organization Insights solution version 1.2.0.0 is the officially supported version.  
+>  Organization Insights solution version 1.3.0.0 is the officially supported version. If you have installed version 1.2.0.0, please upgrade to the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview).
 >   
 >  If you have installed version 1.0.0.0, this is a preview feature in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]. You can download the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview). A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
 >   
@@ -40,7 +43,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 - **Manage storage and performance**: Monitor storage quotas, storage use, and top tables by size to optimize performance.  
   
-- **Troubleshoot effectively**: Drill down into the details of your top failing workflows and API calls to quickly diagnose and troubleshoot errors.  
+- **Troubleshoot effectively**: Drill down into the details of your top failing workflows and API calls to quickly diagnose and troubleshoot errors.
   
 - **OData support**: Expose Organization Insights entities through OData for extension by independent software vendors.  
   
@@ -50,6 +53,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Monitor your Dynamics 365 (online) instance with Organization Insights](https://go.microsoft.com/fwlink/p/?linkid=835917).  
   
 <a name="BKMK_InstallSolution"></a>   
+
 ## Install and view the Organization Insights solution  
  The new Organization Insights is a preferred solution that you can install from the Dynamics Marketplace.  
   
@@ -74,6 +78,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 7.  To view the new Organization Insights dashboard, go to **Settings** > **Organization Insights**.  
   
 <a name="BKMK_Home"></a>   
+
 ## Home (default)  
  ![Organization Insights Home Section](../admin/media/organization-insights-home-section.png "Organization Insights Home Section")  
   
@@ -89,10 +94,11 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |API Success Rate|This chart shows the API success rate as percentage of total API calls that were made in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
 |Plug-in Executions|This chart shows how many plug-ins have been executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
 |Total Operations|This chart shows how many operations (create, update, deletes, reads) have occurred in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Most Active Users (Changes)|List of most active users who performed an operation that caused a `Create`, `Update`, or `Delete` SDK call in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
+|Most Active Users Performing Operations|List of most active users who performed an operation that caused a `Create`, `Update`, `Read`, or `Delete` SDK call in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
 |Top Plug-ins By Failures|This chart shows top 10 most failing plug-in in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
   
 <a name="BKMK_ActiveUsage"></a>   
+
 ## Active Usage  
  ![Organization Insights Active Usage Section](../admin/media/organization-insights-active-usage-section.png "Organization Insights Active Usage Section")  
   
@@ -101,20 +107,29 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 ### What's included in this dashboard  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|Total Active Users|Total number of active users (unique users) who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|  
-|Total API Calls|Total number of API calls that were made by the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|  
-|Most Used  Entities|Ten Entities which had the most `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update SDK Calls`.|  
-|Most Active Users (Reads)|List of most active users who performed reads (**Retrieve** and **RetrieveMultiple** SDK calls) in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Total Page Requests|The number of page load requests for forms, dashboards, and reports. This is the count of requests received by the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] server. Pages that are cached while browsing won't be counted.|  
-|Most Active Users (Changes)|The top ten users who performed the most change operations (creates, updates, deletes) in your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance.|  
-|Total Operations|This chart shows how many operations (create, update, deletes, reads) have occurred in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|  
-|Active Users Performing Specific Operations|Total number of active users (unique users) over time who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|  
-|Active Users|Number of active users (unique users) in your instance who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update` over time.|  
-|Most Active Users Performing Operations|List of  most active users (unique users) over time who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|  
-|Most Used Custom Entities|List of custom entities which had the most `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update SDK Calls`.|  
-|Most Used OOB Entities|List of out-of-box entities which had the most `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update SDK Calls`.|  
+|Chart element|Description|ChartID|  
+|-------------------|-----------------|-----------------|  
+|Total Active Users|Total number of active users (unique users) who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|4555801D-0EAF-4100-891C-DB34400AB102|  
+|Most Used  Entities|Ten Entities which had the most `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update SDK Calls`.|F6F2B9FD-FCA8-427A-9A0D-CAC619A3EE74|  
+|Total Page Requests|The number of page load requests for forms, dashboards, and reports. This is the count of requests received by the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] server. Pages that are cached while browsing won't be counted.|D0401D82-6E7F-4B84-8D86-825D72C68EE6|  
+|Total Operations|This chart shows how many operations (create, update, deletes, reads) have occurred in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|B13D7ED8-06BE-4B0E-B314-A16A84099F1E|  
+|Active Users Performing Specific Operations|Total number of active users (unique users) over time who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|35699BD6-6E49-463D-9DC0-4E968750778F|  
+|Active Users|Number of active users (unique users) in your instance who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update` over time.|9725801D-0EAF-4100-891C-DB34400AB102|  
+|Most Active Users Performing Operations|List of  most active users (unique users) over time who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|B173E5EC-195E-4803-B79A-2B1C2704BCB7|  
+|Most Used Custom Entities|List of custom entities which had the most `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update SDK Calls`.|5FD1EF3F-64C4-429C-83BC-95F0AD44B761|  
+|Most Used OOB Entities|List of out-of-box entities which had the most `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update SDK Calls`.|46A47AF1-325D-4A00-9F7E-6059D5AAB722|  
+|Usage Active Users by OS|The number of active users by operating system.|F37D4DEC-28E2-438A-977F-DD3F96203559|
+|Active Users by Device Type|The number of active users by device type.|43771A31-6350-489C-AABD-F7EBB93320C4|
+|Active Users by Browser|The number of active users by browser.|1259D071-A06D-4B3F-8D32-DCD39670F6FD|
+|Active Users By Security Roles|The number of active users by security roles.|09062EF4-4195-4256-B84B-68E9CA3C737D|
+|Users By Business unit|The number of active users by business unit.|8B701B71-092E-4FCF-A9E3-A005EE865921|
+|Number of Creates by Entity|How many create operations are performed by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|3AC63F0D-4661-4F19-9B31-DB5616187A88|
+|Number of Updates by Entity|How many update operations are performed on different entities by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|C215FC98-BF5D-4AAB-BB0A-24E9F2A4F939|
+|Number of Reads by Entity|How many read operations are performed on different entities by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|3DE3E899-4BCF-482B-8896-657D0C8FCAE7|
+|Number of Deletes by Entity|How many delete operations are performed on different entities by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|8F92215B-C55D-451F-A546-48E1456E7056|
+|Total Operations Over Time|The total operations performed by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the selected time period.|9AD78421-6D33-4463-8C17-B9C4DF52592D|
+|Total Operations by Entity|The total operations performed on different entities by the selected User in the Dynamics 365 instance for the selected time period.|045F5B81-CF47-4819-A4F9-AE366565C591|
+
   
 > [!NOTE]
 > **Retrieve** and **RetrieveMultiple** SDK calls are reported as **Reads**.  
@@ -138,6 +153,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |Most Used OOB Entities|1 hour|  
   
 <a name="BKMK_SystemJobs"></a>   
+
 ## System Jobs  
  ![Organization Insights System Jobs Section](../admin/media/organization-insights-system-jobs-section.png "Organization Insights System Jobs Section")  
   
@@ -146,14 +162,14 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 ### What's included in this dashboard  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|Workflow Executions|This chart shows how many workflows have been executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|System Jobs Pass Rate|This chart shows the system job’s pass rate as percentage of system jobs that were executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|System Jobs Throughput/Minute|This chart shows the average system jobs that have been executed per hour in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Executions and Backlog|This chart shows the number of executions and the backlog for system jobs in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Most Active Workflows|This chart shows top 10 most executed workflows in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Top Workflows By Failures|This chart shows top 10 most failing workflows in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time. Click on a workflow to see the failures and their number of occurrences.|  
+|Chart element|Description|ChartID|  
+|-------------------|-----------------|-----------------|  
+|Workflow Executions|This chart shows how many workflows have been executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|3555801D-0EAF-4100-891C-DB34400AB102|  
+|System Jobs Pass Rate|This chart shows the system job’s pass rate as percentage of system jobs that were executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|1355801D-0EAF-4100-891C-DB34400AB102|  
+|System Jobs Throughput/Minute|This chart shows the average system jobs that have been executed per hour in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|090F51C1-7DBA-42BA-B031-FB1C0999EE28|  
+|Executions and Backlog|This chart shows the number of executions and the backlog for system jobs in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|9D941442-759D-4C29-8348-ADCA2810A602|  
+|Most Active Workflows|This chart shows top 10 most executed workflows in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|7128FF54-B377-4236-ACFF-EEDF696461AA|  
+|Top Workflows By Failures|This chart shows top 10 most failing workflows in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time. Click on a workflow to see the failures and their number of occurrences.|7A7C0FEE-A7BB-4C14-AF2A-76AC00350F82|  
   
 ### Update frequency  
  System jobs chart data is updated as follows.  
@@ -168,6 +184,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |Top Workflows By Failures|1 hour|  
   
 <a name="BKMK_Plugins"></a>   
+
 ## Plug-ins  
  ![Organization Insights Plugins Section](../admin/media/organization-insights-plugins-section.png "Organization Insights Plugins Section")  
   
@@ -176,13 +193,13 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 ### What's included in this dashboard  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|Plug-in Success Rate|This chart shows the plug-in pass rate as percentage of total plug-in executions that were executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Plug-in Executions|This chart shows how many plug-ins have been executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Average Plug-in Execution Time|This chart shows average time taken to successfully execute a plug-in in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Most Active plug-ins|This chart shows top 10 most executed plug-ins in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Top Plug-ins By Failures|This chart shows top 10 most failing plug-ins in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
+|Chart element|Description|ChartID|  
+|-------------------|-----------------|-----------------|  
+|Plug-in Success Rate|This chart shows the plug-in pass rate as percentage of total plug-in executions that were executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|190F51C1-7DBA-42BA-B031-FB1C0999EE28|  
+|Plug-in Executions|This chart shows how many plug-ins have been executed in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|D48FF5C9-BFC9-4E1C-9215-E76FDBFF282E|  
+|Average Plug-in Execution Time|This chart shows average time taken to successfully execute a plug-in in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|A4094693-8638-44B5-83B1-B7EC8C8BFFF6|  
+|Most Active plug-ins|This chart shows top 10 most executed plug-ins in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|E505BCFC-5B13-4190-842C-E47622BF0A40|  
+|Top Plug-ins By Failures|This chart shows top 10 most failing plug-ins in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|1193CFAC-E8CF-48E9-9A22-A56AAFC1159C|  
   
 ### Update frequency  
  Plug-ins chart data is updated as follows.  
@@ -196,6 +213,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |Top Plug-ins By Failures|1 hour|  
   
 <a name="BKMK_Storage"></a>   
+
 ## Storage  
  ![Organization Insights Storage Section](../admin/media/organization-insights-storage-section.png "Organization Insights Storage Section")  
   
@@ -204,12 +222,14 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 ### What's included in this dashboard  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Tenant Storage Utilization|This chart shows the storage used by all the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instances of your tenant out of the total storage allocated to the tenant.|  
-|Storage By [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instances (MB)|This chart shows the breakdown of the storage used by the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instances of your tenant.|  
-|Top Tables By Size - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows top 10 largest tables by size and their row count in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|  
-|Common Tables By Size - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows the size and number of rows of some common tasks of tables in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|  
+|Chart element|Description|ChartID|  
+|-------------------|-----------------|-----------------|  
+|[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Tenant Storage Utilization|This chart shows the storage used by all the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instances of your tenant out of the total storage allocated to the tenant.|1C7B6699-9C07-478C-9C17-AF0D17160734|  
+|Storage By [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instances (MB)|This chart shows the breakdown of the storage used by the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instances of your tenant.|66BF5239-56EB-4979-AC92-177D98C5077B|  
+|Top Tables By Size - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows top 10 largest tables by size and their row count in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|D37D16D2-C616-4F00-9E56-19E6AE218613|
+|Top Tables by Row Count - Current Dynamics 365 Instance|This chart shows top 10 largest tables by their row count in the Dynamics 365 instance database.|BE23542E-2E03-42A5-BDF4-70A53DFCB519|  
+|Common Tables By Size - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows the size of some common tasks of tables in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|8614E00B-28D8-4C41-92E3-9F27AFD28AE7|
+|Row Count of Common Tables - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows the number of rows of some common tasks of tables in the Dynamics 365 instance database.|BE5127CC-1919-4AB4-A582-C5C3B601D456|  
   
 ### Update frequency  
  Storage chart data is updated as follows.  
@@ -222,6 +242,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |Size of Common Tables - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|1 day|  
   
 <a name="BKMK_APICallStats"></a>   
+
 ## API Call Statistics  
  ![Organization Insights API Call Statistics Section](../admin/media/organization-insights-api-call-statistics-section.png "Organization Insights API Call Statistics Section")  
   
@@ -230,12 +251,13 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 ### What's included in this dashboard  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|API Success Rate|This chart shows the API success rate as percentage of total API calls that were made in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Total API Calls|This chart shows how many API calls have been made in total in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
-|Most Used API|This chart shows top 10 most executed API calls in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|  
-|API Calls|This chart shows how many API calls have been made over time in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|  
+|Chart element|Description|ChartID|  
+|-------------------|-----------------|-----------------|   
+|API Success Rate|This chart shows the API success rate as percentage of total API calls that were made in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|5555801D-0EAF-4100-891C-DB34400AB102|  
+|Top API By Failures|This chart shows top 10 failing API calls in the Dynamics 365 instance over the specified time.|CCB98704-6E3F-4302-AC96-0A4E286061FA|
+|Total API Calls|This chart shows how many API calls have been made in total in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|9555801D-0EAF-4100-891C-DB34400AB102|  
+|Most Used API|This chart shows top 10 most executed API calls in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|C898F79D-D3D0-4894-B2E4-E94AC854007A|  
+|API Calls|This chart shows how many API calls have been made over time in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the specified time.|4C7B6699-9C07-478C-9C17-AF0D17160734|  
   
 ### Update frequency  
  API Call Statistics chart data is updated as follows.  
@@ -249,6 +271,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |API Calls|1 hour|  
   
 <a name="BKMK_MailboxUsage"></a>   
+
 ## Mailbox Usage  
  ![Organization Insights Mailbox Usage Section](../admin/media/organization-insights-mailbox-usage-section.png "Organization Insights Mailbox Usage Section")  
   
@@ -257,16 +280,16 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 ### What's included in this dashboard  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|Mailbox Details by GEO|This chart shows mailbox details like:<br /><br /> -   the number of server-side synch configured mailboxes<br />-   the number of server-side synch enabled mailboxes<br />-   the number of server-side synch Appointments, Contacts, and Tasks enabled mailboxes<br />-   the number of server-side synch incoming enabled mailboxes<br />-   the number of server-side synch outgoing enabled mailboxes categorized by the geo location the mailbox is hosted in|  
-|Mailboxes By Server Type|This chart shows the mailbox distribution by server type.|  
-|Active Email Server Profiles by Geo|This chart shows active server-side synch enabled mailboxes distributed over the geo location they are hosted in.|  
-|Mailboxes by Exchange Configuration|This chart shows the number of mailboxes categorized by their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] configuration.|  
-|Number of Mailbox Configuration Errors|This chart shows the number of mailboxes configuration errors which occurred over the user-selected time frame.|  
-|Mailbox Usage|This chart shows the number of server-side synch mailboxes over the time range selected by the user.|  
-|Number of Outlook Mailboxes|This chart shows the number of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] mailboxes configured for the organization.|  
-|Number of Active Email Server Profiles|This chart shows the number of active email server profiles for the time range configured by the user.|  
+|Chart element|Description|ChartID|  
+|-------------------|-----------------|-----------------|  
+|Mailbox Details by GEO|This chart shows mailbox details like:<br /><br /> -   the number of server-side synch configured mailboxes<br />-   the number of server-side synch enabled mailboxes<br />-   the number of server-side synch Appointments, Contacts, and Tasks enabled mailboxes<br />-   the number of server-side synch incoming enabled mailboxes<br />-   the number of server-side synch outgoing enabled mailboxes categorized by the geo location the mailbox is hosted in|F90E2120-58B6-4D8B-B913-ADABE7EA4833|  
+|Mailboxes By Server Type|This chart shows the mailbox distribution by server type.|AFBB2C1B-6405-4D6C-8D21-D808F796405A|  
+|Active Email Server Profiles by Geo|This chart shows active server-side synch enabled mailboxes distributed over the geo location they are hosted in.|AE33B341-752B-4AC3-98F7-FC11EA8B5DE5|  
+|Mailboxes by Exchange Configuration|This chart shows the number of mailboxes categorized by their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] configuration.|1AF79B4C-0F75-403B-973A-573E0FDF775E|  
+|Number of Mailbox Configuration Errors|This chart shows the number of mailboxes configuration errors which occurred over the user-selected time frame.|DDFE9E31-41D9-4453-87EE-87A5C6D124F6|  
+|Mailbox Usage|This chart shows the number of server-side synch mailboxes over the time range selected by the user.|9E5E51CE-9C47-40E4-9862-B8D17D58E0EC|  
+|Number of Outlook Mailboxes|This chart shows the number of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] mailboxes configured for the organization.|BE94BA93-637E-4DEA-B8C6-50DFE57846B6|  
+|Number of Active Email Server Profiles|This chart shows the number of active email server profiles for the time range configured by the user.|522D6D36-FDFE-4CF4-9086-93BAA8628425|  
   
 ### Update frequency  
  Mailbox Usage chart data is updated as follows.  
@@ -283,6 +306,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |Mailboxes by Exchange Configuration|5 minutes average|  
   
 <a name="BKMK_Download"></a>   
+
 ## Download  
  ![Organization Insights Download Section](../admin/media/organization-insights-download-section.png "Organization Insights Download Section")  
   
@@ -307,6 +331,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |Most Used OOB Entities|1 hour|  
   
 <a name="BKMK_CustomizeDashboard"></a>   
+
 ## Customize your Customer Insights dashboard  
  You can easily customize Organization Insights dashboards to meet your information requirements.  Look for these buttons in the upper-right corner of the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] screen.  
   
@@ -323,6 +348,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 |Export<br /><br /> ![Organization Insights Export Data to Excel](../admin/media/organization-insights-export-dataexcel.PNG "Organization Insights Export Data to Excel")|Click to export chart data to Excel. Not all charts can be exported.|  
   
 <a name="BKMK_GrantAccess"></a>   
+
 ## Granting access to the Organization Insights dashboard  
  By default, the dashboard is  available to System Administrator and System Customizer security roles. Access can be granted to other security roles, by providing **Read** privilege to **Saved Organization Insights Configuration**.  
   
@@ -349,6 +375,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
  ![Organization Insights Custom entity](../admin/media/organization-insights-custom-entity.PNG "Organization Insights Custom entity")  
   
 <a name="BKMK_ViewData"></a>   
+
 ## View data for different time ranges  
  You can adjust the time range for the data presented in the dashboards charts. After selecting the From and To range, click the **Play** button (![Organization Insights Calendar Play button](../admin/media/organization-insights-calendar-play-button.png "Organization Insights Calendar Play button")) to refresh your data.  
   
@@ -368,8 +395,41 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 -   The data shown for a hourly aggregation interval represents the whole hour. For example, if the number of active users at 2:00 PM is 5, there were 5 active users between 1:00 and 2:00 PM.  
   
- ![Organization Insights active users chart](../admin/media/organization-insight-active-user-chart.PNG "Organization Insights active users chart")  
-  
+ ![Organization Insights active users chart](../admin/media/organization-insights-active-users-chart.PNG "Organization Insights active users chart") 
+ 
+<a name="BKMK_ODataSupport"></a>   
+
+## OData Support
+Organization Insights supports retrieving chart data through the Web API OData v4 web service. For information about the Web API, see [Use the Microsoft Dynamics 365 Web API](../developer/use-microsoft-dynamics-365-web-api.md).
+
+The entity set name for the `SavedOrgInsightsConfiguration` entity is `savedorginsightsconfigurations` which needs the `SavedOrgInsightsConfigurationId`, `JSONDataStartTime` and `JSONDataEndTime` to return data in the given time range. The data can then be used to render custom charts or do further post-processing as required.
+
+The following is the format by which data can be retrieved, using the ChartID GUID value for the charts listed above.
+
+```  
+[ClientUrl]/api/data/v8.1/savedorginsightsconfigurations?$filter=savedorginsightsconfigurationid eq [ChartID] and jsondatastarttime eq [StartTime] and jsondataendtime eq [EndTime]&$select=jsondata
+```  
+
+A sample query with GUID and time ranges populated would look something like the following:
+
+```
+[ClientUrl]/api/data/v8.1/savedorginsightsconfigurations?$filter=savedorginsightsconfigurationid eq 5187781c-da7c-4762-aeb3-85f908a2777c and jsondatastarttime eq 2017-07-11T18:30:00.000Z and jsondataendtime eq 2017-07-12T18:30:00.000Z&$select=jsondata
+```
+
+The following is a sample result for the query:
+
+```
+{
+  "@odata.context":"https://[ClientUrl]/api/data/v8.1/$metadata#savedorginsightsconfigurations(jsondata)","value":[
+    {
+      "jsondata":"{\"RequestId\":\"101fa8c3-1221-4f3c-9cf7-1eb35cf2eeba\",\"Results\":[{\"Dates\":[\"7/10/2017 2:00 PM\",\"7/10/2017 3:00 PM\",\"7/10/2017 4:00 PM\",\"7/10/2017 5:00 PM\",\"7/10/2017 6:00 PM\",\"7/10/2017 7:00 PM\",\"7/10/2017 8:00 PM\",\"7/10/2017 9:00 PM\",\"7/10/2017 10:00 PM\",\"7/10/2017 11:00 PM\",\"7/11/2017 12:00 AM\",\"7/11/2017 1:00 AM\",\"7/11/2017 2:00 AM\",\"7/11/2017 3:00 AM\",\"7/11/2017 4:00 AM\",\"7/11/2017 5:00 AM\",\"7/11/2017 6:00 AM\",\"7/11/2017 7:00 AM\",\"7/11/2017 8:00 AM\",\"7/11/2017 9:00 AM\",\"7/11/2017 10:00 AM\",\"7/11/2017 11:00 AM\",\"7/11/2017 12:00 PM\",\"7/11/2017 1:00 PM\",\"7/11/2017 2:00 PM\",\"7/11/2017 3:00 PM\",\"7/11/2017 4:00 PM\",\"7/11/2017 5:00 PM\",\"7/11/2017 6:00 PM\",\"7/11/2017 7:00 PM\",\"7/11/2017 8:00 PM\",\"7/11/2017 9:00 PM\",\"7/11/2017 10:00 PM\",\"7/11/2017 11:00 PM\",\"7/12/2017 12:00 AM\",\"7/12/2017 1:00 AM\",\"7/12/2017 2:00 AM\",\"7/12/2017 3:00 AM\",\"7/12/2017 4:00 AM\",\"7/12/2017 5:00 AM\",\"7/12/2017 6:00 AM\",\"7/12/2017 7:00 AM\",\"7/12/2017 8:00 AM\",\"7/12/2017 9:00 AM\",\"7/12/2017 10:00 AM\",\"7/12/2017 11:00 AM\",\"7/12/2017 12:00 PM\",\"7/12/2017 1:00 PM\"],\"Rollup\":\"PT1H\",\"Metrics\":[{\"Name\":\"activeusers\",\"Values\":[728.0,645.0,531.0,473.0,528.0,542.0,526.0,498.0,461.0,497.0,557.0,578.0,580.0,585.0,569.0,635.0,786.0,819.0,877.0,855.0,783.0,708.0,690.0,678.0,638.0,540.0,452.0,437.0,452.0,492.0,496.0,434.0,452.0,454.0,503.0,545.0,541.0,526.0,520.0,576.0,742.0,840.0,872.0,806.0,753.0,692.0,671.0,0.0]}]}]}","_modifiedby_value":"42d582c5-4091-446c-a9ba-90e7f0a9bb9d","description":"Active Users","lookback":2,"isdefault":true,"isdrilldown":false,"_modifiedonbehalfby_value":"00000000-0000-0000-0000-000000000000","name":"Active Users","metrictype":1,"parameters":"<Parameters><MetricIds><MetricId>C1BCC999-D150-4591-B0A5-0684A6A0F618</MetricId></MetricIds><DisplayOptions><ColorOptions><Colors>['#A83D1E']</Colors></ColorOptions></DisplayOptions></Parameters>","_createdby_value":"42d582c5-4091-446c-a9ba-90e7f0a9bb9d","_createdonbehalfby_value":"00000000-0000-0000-0000-000000000000","plotoption":2,"savedorginsightsconfigurationid":"9725801d-0eaf-4100-891c-db34400ab102"
+    }
+  ]
+}
+```
+
+
+ 
 ### See also  
  [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md)   
  [Software Development Kit for Microsoft Dynamics  365  (online) and Dynamics 365 (on-premises)](../developer/software-development-kit.md)
