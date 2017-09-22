@@ -17,7 +17,7 @@ Add Exchange Online as a data source
 ==========================
 [!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once you connect Microsoft Exhange Online as a data source, you can easily map email addresses of customers and employees to sync Exchange data.
+Once you connect Microsoft Exchange Online as a data source, you can easily map email addresses of customers and employees to sync Exchange data.
 
 ##Prerequisite - Customer and Employee profiles
 
