@@ -25,7 +25,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 > [!IMPORTANT]
 >  Check your version of the Organization Insights solution. In [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)], go to **Settings** > **Solutions**, and determine the version of OrganizationInsightsSolution.  
 >   
->  Organization Insights solution version 1.3.0.0 is the officially supported version. If you have installed version 1.2.0.0, please upgrade to the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview).
+>  Organization Insights solution version 1.3.0.1 is the officially supported version. If you have installed version 1.2.0.0, please upgrade to the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview).
 >   
 >  If you have installed version 1.0.0.0, this is a preview feature in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]. You can download the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview). A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
 >   
@@ -47,7 +47,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
   
 - **OData support**: Expose Organization Insights entities through OData for extension by independent software vendors.  
   
-- **Original Organization Insights dashboard**: You can also view metrics using the Organization Insights dashboard released with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]. See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md). This dashboard does not have all the metrics available with the solution version.  
+- **Original Organization Insights dashboard**: You can also view metrics using the Organization Insights dashboard released with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]. <!-- See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md).--> See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](https://technet.microsoft.com/library/mt703628.aspx). This dashboard does not have all the metrics available with the solution version.  
   
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Monitor your Dynamics 365 (online) instance with Organization Insights](https://go.microsoft.com/fwlink/p/?linkid=835917).  
@@ -400,7 +400,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-on
 <a name="BKMK_ODataSupport"></a>   
 
 ## OData Support
-Organization Insights supports retrieving chart data through the Web API OData v4 web service. For information about the Web API, see [Use the Microsoft Dynamics 365 Web API](../developer/use-microsoft-dynamics-365-web-api.md).
+Organization Insights supports retrieving chart data through the Web API OData v4 web service. <!-- For information about the Web API, see [Use the Microsoft Dynamics 365 Web API](../developer/use-microsoft-dynamics-365-web-api.md). -->
 
 The entity set name for the `SavedOrgInsightsConfiguration` entity is `savedorginsightsconfigurations` which needs the `SavedOrgInsightsConfigurationId`, `JSONDataStartTime` and `JSONDataEndTime` to return data in the given time range. The data can then be used to render custom charts or do further post-processing as required.
 
@@ -428,8 +428,8 @@ The following is a sample result for the query:
 }
 ```
 
-
- 
+<!-- 
 ### See also  
  [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md)   
  [Software Development Kit for Microsoft Dynamics  365  (online) and Dynamics 365 (on-premises)](../developer/software-development-kit.md)
+-->
