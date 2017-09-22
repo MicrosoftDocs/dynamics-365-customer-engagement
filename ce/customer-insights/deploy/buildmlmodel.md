@@ -116,7 +116,7 @@ In this example, note the following:
 - The red and green areas of the chart show the separation between the accounts successfully retained and those that have churned. The more successful the model prediction the more these areas are separated out.
 - The expected model accuracy is found in the 76% and 93% outcome accuracy.
 - The baseline account retention is 71%. This view also shows the top 5 predictors for the retention score.
-- Grading was set so that a score of 68 or higher received an "A" for likelihood of rention and a "B" if less than 68.
+- Grading was set so that a score of 68 or higher received an "A" for likelihood of retention and a "B" if less than 68.
 
 Once the prediction is available you can look at the overall performance of multiple predictions.
 

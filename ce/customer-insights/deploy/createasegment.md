@@ -23,7 +23,7 @@ As customers move through the sales or service process, groups of customers can 
 
 For example, you can target communications and offers for several weeks before a shopping deadline such as Valentine's Day, and show a different set of responses a few days before the deadline: "Your gift can still get there in time for Valentine's Day!"
 
-To segement your insights, you will:
+To segment your insights, you will:
 
 - Design marketing segments based on the complete customer journey.
 - Identify groups of customers who are at the same stage of their journey.
