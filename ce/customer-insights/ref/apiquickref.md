@@ -216,7 +216,7 @@ The following table lists the operations only available through the Customer Ins
 
 |**Operation**|**Request**|  
 |-------------|---------------|
-|***Predicitive Matching Policy Management Operations***| | 
+|***Predictive Matching Policy Management Operations***| | 
 |Create or Update Predictive Match Policy|`PUT <hub-endpoint>/manage/model/predictiveMatchPolicies/<policyName>`| 
 |Get a Predictive Match Policy Type|`GET <hub-endpoint>/manage/model/predictiveMatchPolicies/<policyName>`| 
 |List Predictive Match Policy Types|`GET <hub-endpoint>/manage/model/predictiveMatchPolicies`|
