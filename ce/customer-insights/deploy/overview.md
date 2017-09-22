@@ -63,6 +63,6 @@ Customer Insights also supports Shared Access Signature based authorization, tha
 
 ###Elastic scale
 
-Customer Insights automatically scales to the capacity you need, based on the incoming data and the associated analytics that you apply.  You have the option to specity the maximum scale utilized to limit your consumption.
+Customer Insights automatically scales to the capacity you need, based on the incoming data and the associated analytics that you apply.  You have the option to specify the maximum scale utilized to limit your consumption.
 
 
