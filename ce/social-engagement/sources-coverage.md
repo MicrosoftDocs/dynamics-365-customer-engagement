@@ -1,10 +1,9 @@
 ---
-title: "Sources coverage | Microsoft Docs"
+title: "Sources coverage in Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
-keywords: ""
-ms.date: 09/12/2017
+keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
+ms.date: 09/25/2017
 ms.service: mse
-ms.custom: 
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,35 +11,24 @@ ms.assetid: 050283f4-bc5b-42e1-9885-ebdcfd786521
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 12
 topic-status: Drafting
 ---
 
 # Find out what&#39;s covered by sources
 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can track public posts, and publish messages and replies. All sources can be filtered in Analytics for an up-close look at your data. Find out what is covered by using the following available sources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md), [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
-
-[//]: # (TODO: Michael to replace all links with inline links)
+[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.
 
 ## Blogs
-Create keyword rules for full coverage for blog posts from Tumblr, broad coverage of blog posts from WordPress, and for blog posts from a third aggregated blog source, including a variety of blogs that range from blog aggregators like Blogger.com to small single-site blogs. If you want to update existing search topics to include the extended coverage of the blogs source, you can edit your existing keyword search rules.
 
-To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
+Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for full coverage for blog posts from Tumblr, broad coverage of blog posts from WordPress, and for blog posts from a third aggregated blog source, including a variety of blogs that range from blog aggregators like Blogger.com to small single-site blogs. If you want to update existing search topics to include the extended coverage of the blogs source, you can edit your existing keyword search rules.
 
 ## Custom sources
 
-Get full coverage of public RSS or Atom feeds added in your custom source groups. Gather all posts from a previously-created group of custom sources by creating a custom source rule. You can also create a keyword rule to filter by keywords.
-
-To set up a custom sources rule, see [Add a custom sources rule](../social-engagement/add-rules-search-topic.md#customSourceRule).
+Get full coverage of public RSS or Atom feeds added in your custom source groups. Gather all posts from a previously-created group of custom sources by creating a [custom source rule](add-rules-search-topic.md#customSourceRule). You can also create a keyword rule to filter by keywords.
 
 ## Disqus
 
-Posts and comments published on Disqus are available for keyword searches.
-
-To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
+Posts and comments published on Disqus are available for [keyword searches](add-rules-search-topic.md#addKeywordsRule).
 
 ## Facebook
 
@@ -54,11 +42,10 @@ To add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule, see [Add
 To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, see [Add a private messages rule](../social-engagement/add-rules-search-topic.md#privateMessagesRule).
 
 ## Forums
-Keyword rules for forums are available to give you broad coverage of forum posts and comments.
-
-To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
+[Keyword rules](add-rules-search-topic.md#addKeywordsRule) for forums are available to give you broad coverage of forum posts and comments.
 
 ## Instagram
+
 After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and you can set up [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account rules to gather all posts and comments on a specific [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account.
 
 > [!NOTE]
@@ -72,17 +59,14 @@ Create [LinkedIn page rules](add-rules-search-topic.md#linkedin-page-rule) to ga
 
 ## News
 
-Create keyword rules for news posts from news publishers. This source can find posts in English, French, German, Spanish, and Portuguese. News posts are available for search topic rules.
-
-To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
+Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for news posts from news publishers. This source can find posts in English, French, German, Spanish, and Portuguese. News posts are available for search topic rules.
 
 ## Reddit
 
-Posts and comments published on Reddit are available for keyword searches.
-
-To add a keywords rule, see [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
+Posts and comments published on Reddit are available for [keyword searches](add-rules-search-topic.md#addKeywordsRule).
 
 ## Twitter
+
 Gain full coverage of public tweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] by creating a search topic with a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile rule or a keyword rule. You can also gather direct messages if you add a social profile and explicitly allow the acquisition of private messages.
 
 To add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule, see [Add a Twitter rule](../social-engagement/add-rules-search-topic.md#addTwitterRule).
