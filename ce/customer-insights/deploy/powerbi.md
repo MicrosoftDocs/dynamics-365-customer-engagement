@@ -18,7 +18,7 @@ Analyze your data with Power BI
 >[!NOTE]
 >The Dynamics 365 for Customer Insights Power BI connector is a Preview feature.
 
-Combine the analytical power of Customer Insights with data vizability and exploration capabilities of Power BI to build interactive reports and dashboards. This connector is used to extract data data from Customer Insights KPIs and profiles to build Power BI reports.
+Combine the analytical power of Customer Insights with data visibility and exploration capabilities of Power BI to build interactive reports and dashboards. This connector is used to extract data data from Customer Insights KPIs and profiles to build Power BI reports.
 
 ![](../media/PowerBIDashboard.png "Power BI with Customer Insights data") 
 
