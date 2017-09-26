@@ -148,6 +148,9 @@ A typical JSON payload sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-sho
 ## View record details for a linked post in Social Engagement
 
 If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can open its associated record in **Dynamics 365 Record Details**.  
+
+> [!NOTE]
+> Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are associated with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
   
 ### Open a Dynamics 365 record from within Social Engagement
   
@@ -161,9 +164,6 @@ If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includ
   
  ![Dynamics 365 record details](../social-engagement/media/view-dynamics-365-record-details.png "Dynamics 365 record details")  
   
-> [!NOTE]
-> Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are associated with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
-
 ## Open a linked record in Dynamics 365
 
 1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], click **Posts** on any Analytics page to see the posts list.  
