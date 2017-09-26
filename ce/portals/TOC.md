@@ -6,6 +6,7 @@
 ### [Troubleshoot provisioning](provision-portal.md#troubleshoot-provisioning)
 
 ## [Manage a portal](manage-portal.md)
+### [Supported browsers](supported-browsers.md)
 
 ## [Configure a portal](configure-portal.md)
 ### [Behavior and format of the date and time field](behavior-format-date-time-field.md)
