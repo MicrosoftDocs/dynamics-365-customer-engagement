@@ -14,9 +14,9 @@ ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: "mkaur"
 manager: "brycho"
-tags: 
- - "aug2017" 
- - "MigrationHO"
+tags: 
+  - "aug2017"
+  - "MigrationHO"  
 ---
 # Dynamics 365 for phones and tablets User's Guide
 Use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app for your sales, in-app marketing, and customer service tasks when you're out in the field. No matter where you are, you can check your dashboards for analytics on your team's performance, or advance an important opportunity toward a successful close.  
