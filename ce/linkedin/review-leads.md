@@ -1,15 +1,19 @@
 ---
 title: "Review leads updated by Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to see the details of the updated leads and review the aggregated lead performance by using Dynamics 365 Connector for LinkedIn Lead Gen Forms."
-ms.date: 07/10/2017
+keywords: "lead, lead gen form, sponsored content, linkedin, dashboard"
+ms.date: 09/26/2017
 ms.service: crm-online
 ms.topic: article
-applies_to: "Dynamics 365 (online)"
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Analyze leads and lead performance
 
 [!include[Pre-release disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
@@ -26,9 +30,6 @@ More information about creating or editing a lead: [Dynamics 365 Help & Training
 1. Information about the lead from [!include[LinkedIn](includes/tn-linkedin.md)]
 2. Source from which the lead originated and the [!include[LinkedIn](includes/tn-linkedin.md)] campaign related to this lead
 4. Forms submitted by this lead
-
-[//]: # (> [!NOTE])
-[//]: # (When working with Marketing, Business edition, LinkedIn campaigns automatically create a **Customer Journey** record. To stop these records from being automatically generated, a system administrator or customizer needs to edit the **LinkedIn LeadGen Integration Configurations** entity and change the value for the **Create Journeys for LinkedIn Campaigns** attribute from **Yes** to **No**. For quick access to this custom entity, consider [adding it to the site map]https://go.microsoft.com/fwlink/?linkid=850397.)
 
 ## Review the aggregated lead performance
 
