@@ -3,7 +3,7 @@
   topicHref: /dynamics365/
   items:
   - name: Basics
-    tocHref: /dynamics365/customer-engagement/basics
+    tocHref: /dynamics365/customer-engagement/basics/
     topicHref: /dynamics365/customer-engagement/basics/basics-guide
   - name: Administrator Guide
     tocHref: /dynamics365/customer-engagement/admin
