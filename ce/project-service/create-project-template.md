@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create a project template (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Project templates save you time if your company regularly bids on similar types of projects. They provide a standard set of roles and estimated hours for a type of project. Account managers and project managers can create projects based on a project template, or they can copy the template and make one of their own.  
   
 ## Components of project template  

@@ -1,7 +1,7 @@
 ---
 title: "Audit data and user activity for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Audit data and user activity for security and compliance 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
   
  The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Administrator answer questions such as:  
@@ -33,7 +36,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature
   
 -   What locale was used to make the update?  
   
- The following operations can be audited:  
+The following operations can be audited:  
   
 -   Create, update, deactivate, and delete operations on records.  
   
@@ -49,7 +52,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature
   
 -   For changes made to entity fields that can be localized, such as the Product entity name or description fields, the locale ID (LCID) appears in the audit record.  
   
- System administrators and customizers can start or stop auditing for an organization.  
+System administrators and customizers can start or stop auditing for an organization.  
   
 > [!IMPORTANT]
 >  For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], you may notice that auditing can significantly increase the size of the organization database over time. You can delete audit logs by going to **Settings** > **Auditing** > **Audit Log Management**. Additionally, you may want to stop auditing for maintenance purposes. Stopping auditing stops tracking for the organization during the period until auditing is started again. When you start auditing again, the same auditing selection is maintained that was previously used.  
@@ -132,5 +135,4 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature
  
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
- [Customize your Dynamics 365 system](../customize/customize-your-system.md)   
- [Audit data and user activity](https://technet.microsoft.com/library/dn887214.aspx)
+ [Getting started with customization](../customize/getting-started-customization.md)   

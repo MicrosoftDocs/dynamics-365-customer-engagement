@@ -1,7 +1,7 @@
 ---
 title: "Set privacy preferences for a Dynamics 365 Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,10 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Set privacy preferences for an organization
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Manage users’ data privacy by controlling when to send error notifications, and also let users know how their privacy is protected by displaying your organization’s own privacy statement instead of the one from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)].  
-  
-> [!IMPORTANT]
-> [!INCLUDE[cc_feature_included_with_2015_update_1](../includes/cc-feature-included-with-2015-update-1.md)]  
   
 ## Set error reporting preferences for the organization  
  When errors occur in the product, data about the problem is sent to [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. This data – an error report - allows [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] to track and address errors relating to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can help [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] improve products and services when you allow the system to send these error reports.  
@@ -45,9 +45,9 @@ Manage users’ data privacy by controlling when to send error notifications, an
   
  When you use this setting, you can control error reporting for the entire organization by:  
   
--   Not allowing users to make changes in how error reporting occurs.  
+ -   Not allowing users to make changes in how error reporting occurs.  
   
--   Changing the default behavior for how error reporting happens.  
+ -   Changing the default behavior for how error reporting happens.  
   
 ## Replace the privacy statement for the organization  
  By default, the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] privacy statement is always shown to users with an administrator role only, and not to other (business) users. As an administrator, you can add a link to specify your organization's privacy statement, which is then shown to other users in your organization.  
@@ -76,4 +76,4 @@ Manage users’ data privacy by controlling when to send error notifications, an
 >  Any user with the System Administrator security role will always see the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] privacy statement and not the organization’s privacy statement.  
   
 ### See also  
- [Get Help from the Microsoft Dynamics 365 Community](http://go.microsoft.com/fwlink/p/?LinkID=511675)
+ [Get Help from the Microsoft Dynamics 365 Community](http://go.microsoft.com/fwlink/p/?LinkID=856838)

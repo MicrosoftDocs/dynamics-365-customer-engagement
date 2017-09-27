@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Configure default settings for work orders, bookings, schedule board, and agreements (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
  Set default settings for work orders, bookings, schedule board settings, agreements, and more in [!INCLUDE[pn-dyn-365-field_service](../includes/pn-dyn-365-field-service.md)].  
   
  For example, in the **Other** section, you may want to set **Auto Geo Code Addresses** to **Yes**. This will automatically geocode addresses.  
@@ -51,7 +54,7 @@ manager: "amyla"
 |Deactivate booking  when canceled|Select whether the system should deactivate a resource booking when the status is changed to **Canceled**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up booking statuses](../field-service/set-up-booking-statuses.md)|  
 |**Resource  pay type**|Choose from pay types that you have created in the system to calculate timestamp-based labor cost on booking journals when a booking is marked as complete. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up resource pay types](../field-service/set-up-resource-pay-types.md)|  
 |Work pay type|Select the pay type that will be used in conjunction with work performed during the resource’s normal work hours.|  
-|Business closure pay type|Select the pay type that will be applied on days that have been marked with **Business Closures**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](../customer-service/set-when-business-closed-customer-service.md)|  
+|Business closure pay type|Select the pay type that will be applied on days that have been marked with **Business Closures**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](../customer-service/set-when-business-closed.md)|  
 |Travel pay type|Select the pay type that will be applied to time that the resource is traveling to a service location to perform service work.|  
 |Overtime pay type|Select the pay type that will be applied to time that is outside of the resource’s scheduled work hours.|  
 |Break pay type|Select the pay type that will be applied to time that the resource is on break while performing service work.|  

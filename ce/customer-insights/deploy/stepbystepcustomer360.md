@@ -60,7 +60,7 @@ Follow these steps to create a Profile Type view.
   <p>We'll use the Customer Service sample data that comes with [!include[pn-crm-online-subsequent](../../includes/pn-crm-online-subsequent.md)] to create some simple widgets. These won't be flashy but will give you some understanding of what you can do with [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] when you use your own data connections.</p>
   <p>First, export the Case sample data from [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] to [!include[pn-excel-short](../../includes/pn-excel-short.md)] so you can see the values you'll be working with.</p>
   <ol>
-    <li>Open your [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] and go to to <b>Service</b> > <b>Cases</b>.</li>
+    <li>Open your [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] and go to <b>Service</b> > <b>Cases</b>.</li>
     <li>Change the list to display all cases.</li>
     <li>In the top menu bar, select the down arrow next to <b>Export to [!include[pn-excel-short](../../includes/pn-excel-short.md)]</b>, and then select <b>Static Worksheet</b>.</li>
     <li>Open the [!include[pn-excel-short](../../includes/pn-excel-short.md)] spreadsheet you exported, and enable editing.</li>
@@ -157,7 +157,7 @@ Create a Profile Instance view to enable searching for particular records.
   <p>We'll use the Customer Service sample data that comes with [!include[pn-crm-online-subsequent](../../includes/pn-crm-online-subsequent.md)] to create some simple widgets. These won't be flashy but will give you some understanding of what you can do with [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] when you use your own data connections.</p>
   <p>First, export the Case sample data from [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] to [!include[pn-excel-short](../../includes/pn-excel-short.md)] so you can see the values you'll be working with.</p>
   <ol>
-    <li>Open your [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] and go to to <b>Service</b> > <b>Cases</b>.</li>
+    <li>Open your [!include[pn-crm-shortest](../../includes/pn-crm-shortest.md)] and go to <b>Service</b> > <b>Cases</b>.</li>
     <li>Change the list to display all cases.</li>
     <li>In the top menu bar, select the down arrow next to <b>Export to [!include[pn-excel-short](../../includes/pn-excel-short.md)]</b>, and then select <b>Static Worksheet</b>.</li>
     <li>Open the Excel spreadsheet you exported, and enable editing.</li>

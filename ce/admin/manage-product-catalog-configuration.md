@@ -1,7 +1,7 @@
 ---
 title: "Manage product catalog configuration for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Manage product catalog configuration
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] offers a rich, easy to configure product catalog that will help your company sell products and services with greater efficiency. A sales operations manager will be able to create the product catalog with fewer SKUs, bundle product and service, as an attractive and cost effective offering, and define up-sell and cross-sell of products. In addition, the product catalog configuration data can be migrated across [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems. For example, after the product catalog configuration is fully tested on the test server, you can move the configuration data to the production environment, without having to recreate it. To migrate, you’ll be using the Configuration Migration Tool: [Migrate configuration data](../admin/manage-configuration-data.md).  As an administrator, you will be responsible for configuring and migrating the product catalog configuration data.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] offers a rich, easy to configure product catalog that will help your company sell products and services with greater efficiency. A sales operations manager will be able to create the product catalog with fewer SKUs, bundle product and service, as an attractive and cost effective offering, and define up-sell and cross-sell of products. In addition, the product catalog configuration data can be migrated across [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems. For example, after the product catalog configuration is fully tested on the test server, you can move the configuration data to the production environment, without having to recreate it. To migrate, you’ll be using the Configuration Migration Tool: [Manage configuration data](manage-configuration-data.md).  As an administrator, you will be responsible for configuring and migrating the product catalog configuration data.  
   
 ## Configure product catalog  
  To configure the product catalog:  
@@ -32,12 +35,12 @@ manager: "brycho"
 |**Create products in active state**|Select whether product records without a parent product family record are created in an `active` or `draft` state.<br /><br /> In the current release of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], by default, all the product records (product family, product, and bundle) are created in the `draft` state. This setting ensures compatibility for your applications working with the previous version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where the product records were created in an `active` state.<br /><br /> By default, its set to **No** in the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] installations, and set to **Yes**, for the upgrading systems.|  
 |**Allow selection of default price list for opportunity via inbuilt rule**|Select whether the default price list for an opportunity is automatically selected based on the territory relationship for the price list and the current user who is creating the opportunity.<br /><br /> By default, it’s set to **Yes**.|  
 |**Maximum number of products in a bundle**|Specify the maximum number of products that can be added in a bundle.|  
-|**Use system pricing calculation**|Select whether to use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system pricing engine to calculate prices in opportunities, quotes, orders, and invoices or to use custom pricing.<br /><br /> In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you can choose to use custom pricing logic instead of the system pricing to calculate prices when you add products in opportunities, quotes, orders, and invoices. To use custom pricing, select **No** for this option. Additionally, you must register a plug-in on the `CalculatePrice` message, provided in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web services, that contains your custom pricing code. Every time you create or change the product information in an opportunity, quote, order, or invoice, the custom code is invoked instead of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system pricing engine to calculate the prices. For more information, see [MSDN: Use custom pricing for products](https://msdn.microsoft.com/library/dn817885.aspx).|  
+|**Use system pricing calculation**|Select whether to use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system pricing engine to calculate prices in opportunities, quotes, orders, and invoices or to use custom pricing.<br /><br /> In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you can choose to use custom pricing logic instead of the system pricing to calculate prices when you add products in opportunities, quotes, orders, and invoices. To use custom pricing, select **No** for this option. Additionally, you must register a plug-in on the `CalculatePrice` message, provided in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web services, that contains your custom pricing code. Every time you create or change the product information in an opportunity, quote, order, or invoice, the custom code is invoked instead of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system pricing engine to calculate the prices. For more information, see [Use custom pricing for products](../developer/use-custom-pricing-products.md).|  
 |**Discount calculation method**|Select whether you want to calculate discounts at the line-item level or at the per-unit level in each line item in an opportunity, quote, order, or invoice.<br /><br /> By default, it’s set to **Line item**.|  
 |**Maximum number of properties that are allowed for a product or bundle**|Specify the maximum number of properties that can be associated with a product or bundle.<br /><br /> Product properties are added to a product family record, and all the child products and bundles under the product family inherit the properties added to the parent product family. The number specified in this setting comes into effect only when you publish a product or a bundle with the associated properties, and not at the time when you add the properties to a draft product family record.|  
   
 ## Migrate product catalog configuration data  
- To migrate the product catalog configuration data, use the Configuration Migration Tool. For more information on how to use the tool, see: [Migrate configuration data](../admin/manage-configuration-data.md).  
+ To migrate the product catalog configuration data, use the Configuration Migration Tool. For more information on how to use the tool, see: [Manage configuration data](manage-configuration-data.md).  
   
  You must select the following entities for migrating the product catalog configuration data:  
   
@@ -95,7 +98,6 @@ manager: "brycho"
     For a product record, if a property exists in both systems, source and target, when the property is removed from the source system, it is not removed from the target system, after the import.  
   
 ### See also  
- [Administering CRM 2015 for online and on-premises](../admin/administer-dynamics-365-online-customer-engagement.md)   
- [Manage configuration data](../admin/manage-configuration-data.md)   
+ [Manage configuration data](manage-configuration-data.md)   
  [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](http://www.youtube.com/watch?v=MptViq7tf_s&index=2&list=PLC3591A8FE4ADBE07)   
- [MSDN: Product catalog entities](https://msdn.microsoft.com/library/gg327997.aspx)
+ [Product catalog entities](manage-product-catalog-configuration.md)

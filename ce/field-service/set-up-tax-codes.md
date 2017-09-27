@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up tax codes (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Set up tax codes in Dynamics 365 for Field Service and specify how much tax will be applied to your products, agreements, and services.  
   
 Each tax code may contain multiple child tax codes; in that case, the tax rate will be determined by the total of all children.  

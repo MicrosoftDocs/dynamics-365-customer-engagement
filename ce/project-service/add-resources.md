@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Add resources (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Add resources so you can book them for projects. Resources can include users, contacts, accounts, groups, or equipment—anything that you might want to include in your project scheduling and invoicing.  
   
  You can assign resources to organizational units if you need to have different costing and pricing for resources for different divisions in your company.  

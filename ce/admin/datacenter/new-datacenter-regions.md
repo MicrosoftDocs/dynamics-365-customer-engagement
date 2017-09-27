@@ -16,6 +16,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 ---
 # Datacenter regions
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is being hosted in datacenters in more and more regions. After [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] becomes available in a new region, the following apply:  
   
 -   For new [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organizations, the datacenter will be aligned with the country/region you selected during sign-up.  

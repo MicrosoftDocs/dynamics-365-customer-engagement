@@ -1,7 +1,7 @@
 ---
 title: "Create or edit document location records for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Create or edit document location records
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
   
  To store documents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records, the document libraries or folders must be in place. If [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is unable to create the document libraries and folders automatically, you can manually create these in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. After you create the document libraries and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you must create document location records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to point to these [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document libraries and folders.  
@@ -51,5 +54,4 @@ manager: "brycho"
 >  To activate or deactivate a document location, on the **Document Locations** page, select the document location record, and choose **Activate** or **Deactivate**.  
   
 ### See also  
- [Set up SharePoint document management](set-up-sharepoint-document-management.md)   
  [Create or add a location for the first time](../admin/create-add-location-first-time.md)

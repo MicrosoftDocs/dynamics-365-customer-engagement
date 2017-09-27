@@ -1,7 +1,7 @@
 ---
 title: "Analyze your data with Excel templates for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,8 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Analyze and share your data with Excel templates
-[!INCLUDE[cc_feature_included_with_update_2016](../includes/cc-feature-included-with-update-2016.md)]  
+# Analyze and share your data with Excel templates 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
   
  [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] provides powerful ways to analyze and present your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. With [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.  
   

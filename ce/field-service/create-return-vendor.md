@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Return a product to the vendor (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Create a return to vendor (RTV) in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] when you need to return a product back to the vendor.  
   
 1.  From the main menu, click **Field Service** > **RTVs**.  

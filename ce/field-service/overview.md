@@ -1,5 +1,5 @@
 ---
-title: "Overview (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Field Service Overview (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,7 +18,10 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 
-# Overview of Field Service
+# Overview of Dynamics 365 for Field Service
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] capabilities extend [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to provide a complete [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] management solution, including service locations, customer assets, preventative maintenance, work order management, resource management, product inventory, scheduling and dispatch, mobility, collaboration, customer billing, and analytics. 
 
 [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] helps you:  

@@ -23,11 +23,6 @@ manager: "jdaly"
 # FindWindow search path tag in Unified Service Desk
 `<FindWindow>` tag contains a list of matching elements that are executed in the order of their listing within the tag. This topic describes the `<FindWindow>` elements with example code.  
   
-## In this topic  
- [\<FindWindow> elements](../unified-service-desk/find-window-search-path-tag.md#elements)  
-  
- [Sample code](../unified-service-desk/find-window-search-path-tag.md#samplecode)  
-  
 <a name="elements"></a>   
 ## \<FindWindow> elements  
  The following code snippet shows the elements in a `<FindWindow>` tag  

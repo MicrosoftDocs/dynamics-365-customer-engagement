@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Configure and set up customer assets to maintain a list of serviceable items (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Customer asset functionality lets you maintain a list of serviceable items related to a service location.  
   
  When you create and maintain a list of serviceable items, you can:  

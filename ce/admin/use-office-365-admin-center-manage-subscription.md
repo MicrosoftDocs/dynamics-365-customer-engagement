@@ -1,7 +1,7 @@
 ---
 title: "Use the Office 365 admin center to manage your Dynamics 365 (online) subscription | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Use the Office 365 admin center to manage your subscription
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [The Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23) is a portal site rich in features for the administrator. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] takes advantage of the features on this site to simplify and consolidate management of user accounts, billing, licensing, and more.  
   
  ![Office 365 admin center](../admin/media/o365-admin-center.png "Office 365 admin center")  
@@ -46,7 +49,7 @@ manager: "brycho"
   
  Choose the **Updates** tab to approve and schedule updates, change the update target version, and open [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 (online) updates](../admin/manage-updates.md)  
   
- ![Dynamics 365 Administration Center &#45; Updates tab](../admin/media/crm-admin-center-updates.png "Dynamics 365 Administration Center - Updates tab")  
+ ![Dynamics 365 Administration Center - Updates tab](../admin/media/crm-admin-center-updates.png "Dynamics 365 Administration Center - Updates tab")  
   
 <a name="BKMK_ServiceHealth"></a>   
 ## Check your service health  
@@ -133,5 +136,5 @@ manager: "brycho"
  ![Office 365 admin center purchase services](../admin/media/o365-admin-center-purchase-services.png "Office 365 admin center purchase services")  
   
 ### See also  
- [About the Office 365 admin center]https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)   
+ [About the Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)  
  [Set an individual user's password to never expire](https://support.office.com/article/Set-an-individual-user-s-password-to-never-expire-f493e3af-e1d8-4668-9211-230c245a0466)

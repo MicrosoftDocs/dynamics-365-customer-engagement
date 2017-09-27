@@ -1,7 +1,7 @@
 ---
 title: "Security concepts for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Security concepts
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to protect the data integrity and privacy in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. The security model also promotes efficient data access and collaboration. The goals of the model are as follows:  
   
 -   Provide a multi-tiered licensing model for users.  
@@ -29,7 +32,7 @@ You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsof
   
 -   Prevent access to objects a user does not own or share.  
   
- You combine business units, role-based security, record-based security, and field-based security to define the overall access to information that users have in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization.  
+You combine business units, role-based security, record-based security, and field-based security to define the overall access to information that users have in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization.  
   
 <a name="Bizunits"></a>   
 ## Business units  
@@ -49,7 +52,7 @@ You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsof
 ## User-based access and licensing  
  By default, when you create a user the user has read and write access to any data for which they have permission. Also, by default, the user client access license (CAL) is set to Professional. You can change either of these settings to further restrict data and feature access.  
   
- **Access mode**. This setting determines the level of access for each user.  
+**Access mode**. This setting determines the level of access for each user.  
   
 -   Read-Write access. By default, users have Read-Write access that allows them access to data for which they have appropriate permission set by security roles.  
   
@@ -57,9 +60,10 @@ You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsof
   
 -   Read access. Allows access to areas for which the user has appropriate access set by security role but the user with Read access can only view data and can’t create or change existing data. For example, a user with the system administrator security role who has read access can view business units, users, and teams but can’t create or modify those records.  
   
- **License type**. This sets the user CAL and determines what features and areas are available to the user. This feature and area control is separate from the user’s security role setting. By default, users are created with Professional CAL for the most feature and area access that they have permission granted.  
+**License type**. This sets the user CAL and determines what features and areas are available to the user. This feature and area control is separate from the user’s security role setting. By default, users are created with Professional CAL for the most feature and area access that they have permission granted.  
   
 <a name="Teams"></a>   
+
 ## Teams  
  Teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage teams](../admin/manage-teams.md)  
   
@@ -70,7 +74,7 @@ You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsof
  Access rights apply only after privileges have taken effect. For example, if a user does not have the privileges to view (read) account records, they will be unable to view any account, regardless of the access rights another user might grant them to a specific account through sharing.  
   
 <a name="Hierarchy"></a>   
-## Hierarchy security  
+## Hierarchy security 
  You can use the hierarchy security model for accessing hierarchical data. With this additional security, you gain a more granular access to records, allowing managers to access the records of their reports for approval or do work on reports’ behalf. More information: [Hierarchy security](../admin/hierarchy-security.md)  
   
 <a name="Field"></a>   
@@ -82,13 +86,13 @@ You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsof
  For detailed information about and best practices for designing  the  security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], read the [Scalable Security Modeling with Microsoft Dynamics CRM](http://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf) white paper available from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)].  
   
 ### See also  
- <!-- [Microsoft Dynamics 365 administration best practices](Administration%20best%20practices%20for%20on-premises%20deployments%20of%20Microsoft%20Dynamics%20365.md)   -->
  [Field level security](../admin/field-level-security.md)   
  [Hierarchy security](../admin/hierarchy-security.md)   
  [Control data access](../admin/security-roles-privileges.md)   
  [Create or edit a security role](../admin/create-edit-security-role.md)   
  [Copy a security role](../admin/copy-security-role.md)   
- [Manage users](../admin/manage-users.md)   
+ [Manage users](../admin/create-users-assign-online-security-roles.md)   
  [Manage teams](../admin/manage-teams.md)   
  [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)
+ <!-- [Microsoft Dynamics 365 administration best practices](Administration%20best%20practices%20for%20on-premises%20deployments%20of%20Microsoft%20Dynamics%20365.md)   -->

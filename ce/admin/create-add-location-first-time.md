@@ -1,7 +1,7 @@
 ---
 title: "Create or add a document location for the first time for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Create or add a document location for the first time
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Before you can manage documents for a record from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must create a location record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that points to libraries and folders on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] where the documents will be stored.  
   
 1.  Open the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record that has the documents you want to manage.  
@@ -34,5 +37,4 @@ Before you can manage documents for a record from [!INCLUDE[pn_microsoftcrm](../
  A new document location record is created in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that contains the links to the folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. The location that you just associated is added to the **Document Locations** list.  
   
 ### See also  
- [Manage SharePoint documents from within Microsoft Dynamics 365](http://msdn.microsoft.com/en-us/49e2abee-7133-4e93-b0fd-e1a16ee479c0)   
  [Create or edit document location records](../admin/create-edit-document-location-records.md)

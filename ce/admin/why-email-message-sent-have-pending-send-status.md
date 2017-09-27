@@ -1,7 +1,7 @@
 ---
 title: "Why does the Dynamics 365 Customer Engagement email message I sent have a Pending Send status? | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "brycho"
 ms.author: "brycho"
 ---
 # Why does the email message I sent have a "Pending Send" status?
-If you create an email message in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and click the **Send** button, the message will not be sent unless email integration has been correctly configured and enabled for sending email from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  If the status of the email appears as "Pending Send" and is not sent, contact your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-dynamics-365-administrator-support-person.md)  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+If you create an email message in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and click the **Send** button, the message will not be sent unless email integration has been correctly configured and enabled for sending email from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  If the status of the email appears as "Pending Send" and is not sent, contact your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
   
  If you are the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator, verify that the user who sent the email is enabled for sending email. To do this:  
   
@@ -28,9 +31,7 @@ If you create an email message in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-
   
 4.  Verify the user is correctly configured and enabled for sending email:  
   
-    -   If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [set up server-side synchronization of email, appointments, contacts, and tasks](https://technet.microsoft.com/library/dn531109.aspx).  
-  
-    -   If the user is configured to use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] for outgoing email, verify the user has [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] installed and configured.  See [Set up Dynamics 365 for Outlook](set-up-outlook.md).  
+    -   If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
 ### See also  
- [Integrate your email system with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn832099.aspx)
+ [Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)

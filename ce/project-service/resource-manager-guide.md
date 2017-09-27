@@ -1,5 +1,5 @@
 ---
-title: "Resource Manager&#39;s Guide - Dynamics 365 for Project Service Automation | MicrosoftDocs"
+title: "Resource Manager Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -17,7 +17,10 @@ caps.latest.revision: 16
 ms.author: "mkaur"
 manager: "brycho"
 ---
-# Resource Manager&#39;s Guide (Project Service Automation)
+# Resource Manager Guide (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] help you find the right resources at the right time for the right project and make sure all resources are utilized efficiently.  
   
  Deploy your company’s consultants efficiently and effectively with the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. These provide you with the tools you need to schedule resources based on the requirements and schedules of consulting projects and on the skills and availability of your consultants. You can quickly find the most qualified consultants who are available to work on projects, and you can easily see how to better schedule them during the course of each project.  

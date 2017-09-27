@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Track project progress and cost (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The need for tracking progress against a work breakdown structure varies across industry verticals. Some industries do it more diligently at a very granular level of the work breakdown structure, while others might track at a higher level of the work breakdown structure.  
   
 ## Effort tracking view  

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # White papers for Project Service Automation
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 These white papers are designed to provide in-depth information for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] project service automation.  
   
 -   [External system integration for project service](http://go.microsoft.com/fwlink/?LinkId=825445)  

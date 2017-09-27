@@ -1,7 +1,7 @@
 ---
 title: "For partners: the Delegated Administrator for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # For partners: the Delegated Administrator
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] can use their [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator role to create and edit users, reset user passwords, manage user licenses, manage domains, and assign admin permissions to other users in their organization, among other things. However, if admins want someone else to do these administrative tasks, they can delegate this role to an authorized [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] partner. When admins authorize a partner to take on this role, the partner is referred to as a delegated admin. A delegated admin can perform routine tasks such as adding users and resetting passwords, or more complex tasks such as adding a domain. A delegated admin can have access to multiple tenants, which can simplify and consolidate tenant management.  
   
  You can see the new Delegated Admin user in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] revisions 2040 or greater or in [!INCLUDE[pn_crm_2015_update_0_2](../includes/pn-crm-2015-update-0-2.md)]. This user won’t appear in standard provided views. You must create a custom view to see it.  
@@ -26,13 +29,13 @@ Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.
 >   
 >  Your revision should be 2040 or above for both numbers highlighted.  
   
- ![Dynamics 365 &#40;online&#41; revision version](../admin/media/revision-version.png "Dynamics 365 (online) revision version")  
+ ![Dynamics 365 (online) revision version](../admin/media/revision-version.png "Dynamics 365 (online) revision version")  
   
  To create a simple custom view to see the delegated admin user:  
   
 1.  Go to **Settings** > **Security** > **Users**.  
   
-2.  Choose **Select a view** (![Drop&#45;down button](../admin/media/dropdown-button.png "Drop-down button")) and then choose **Create Personal View**.  
+2.  Choose **Select a view** (![Drop-down button](../admin/media/dropdown-button.png "Drop-down button")) and then choose **Create Personal View**.  
   
 3.  Verify **Users** is selected in **Look for**.  
   

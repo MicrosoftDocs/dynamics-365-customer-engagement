@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create a work hours template (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures. You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.  
   
  When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.  

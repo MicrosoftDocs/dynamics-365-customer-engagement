@@ -1,7 +1,7 @@
 ---
 title: "Create or edit a campaign template using in-app marketing (Sales) for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "sakudes"
 ---
 # Create or edit a campaign template using in-app marketing (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Save time when creating multiple campaigns by creating a campaign template. Campaign templates contain prefilled data that you specify, so you don’t have to reenter the same information for each campaign. You can either create a new campaign template or copy an existing campaign to use as a template.  
   
 ## Create a campaign template  
@@ -37,10 +40,10 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
   
 -   Open the campaign that you want to copy. Click **Copy as Template**, type a name for the template, and click **Save**.  
   
- If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](export-customizations-solution.md)  
+ If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
 > [!NOTE]
-> [!INCLUDE[cc_CRM_Marketing_and_MDM](../includes/cc-crm-marketing-and-mdm.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics Marketing Help Center](http://go.microsoft.com/fwlink/p/?LinkId=394794)  
+> [!INCLUDE[cc_CRM_Marketing_and_MDM](../includes/cc-crm-marketing-and-mdm.md)] 
   
 ### See also  
  [Get started with in-app marketing (Sales)](../sales-enterprise/get-started-with-app-marketing-sales.md)   
@@ -50,4 +53,3 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
  [Add an activity to a campaign using in-app marketing (Sales)](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing (Sales)](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
- [Microsoft Dynamics Marketing Help Center](http://go.microsoft.com/fwlink/p/?LinkId=394794)

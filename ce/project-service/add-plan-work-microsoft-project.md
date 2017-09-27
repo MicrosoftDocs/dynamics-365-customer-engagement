@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Use the Project Service Automation Add-in to plan your work in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes it easier for you to do your project planning including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
   
  Now you can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Service Automation.  
@@ -46,7 +49,7 @@ manager: "brycho"
  Now you can start using the add-in.  
   
 ## Read from a template  
- Read from a template that you created in Project Service Automation and copied into [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to start your project planning. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a project template (Project Service Automation)](../project-service/create-project-template.md)  
+ Read from a template that you created in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] and copied into [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to start your project planning. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a project template (Project Service Automation)](../project-service/create-project-template.md)  
   
 1.  From the **Project Service** tab, click **Read** > **Project Service Automation Project Template**.  
   
@@ -55,7 +58,7 @@ manager: "brycho"
     > [!NOTE]
     >  By default, the tasks that are copied from the template into Project are set as manually scheduled.  
   
-## Assign Project Service Automation roles to project resources  
+## Assign [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] roles to project resources  
   
 1.  Open a project and click the **Task** ribbon.  
   

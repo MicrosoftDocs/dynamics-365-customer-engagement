@@ -1,7 +1,7 @@
 ---
-title: "Create users and assign Dynamics 365 (online) security roles | MicrosoftDocs"
+title: "Create users in Dynamics 365 (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Create users and assign security roles
+# Create users in Dynamics 365 (online) and assign security roles
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
   
 <a name="BKMK_create_users"></a>   
@@ -33,7 +36,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 > [!TIP]
 >  To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  
 >   
->  -   Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> -   Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > -   Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
@@ -146,15 +149,15 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 5.  Click **Save** > **Close** multiple times.  
   
 > [!NOTE]
->  You can also delete users in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. When you remove a user from your subscription, the license assigned to that user automatically becomes available to be assigned to a different user. If you want the user to still have access to other applications you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete them as a user. Instead, simply remove the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] license you've assigned to them.  
+> You can also delete users in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. When you remove a user from your subscription, the license assigned to that user automatically becomes available to be assigned to a different user. If you want the user to still have access to other applications you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete them as a user. Instead, simply remove the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] license you've assigned to them.  
   
 > [!NOTE]
->  When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You have to do that separately.  
+> When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You have to do that separately.  
   
 > [!TIP]
->  To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  
+> To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  
 >   
->  -   Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> -   Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > -   Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
@@ -192,7 +195,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 ## Create an application user  
  Introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can use server-to-server (S2S) authentication to securely and seamlessly communicate with [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] with your web applications and services. S2S authentication is the common way that apps registered on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] use to access the [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] data of their subscribers. All operations performed by your application or service using S2S will be performed as the application user you provide rather than as the user who is accessing your application.  
   
- You will need to create a custom security role and an application user to associate with your registered app. For more information, see [MSDN: Build web applications using Server-to-Server (S2S) authentication](https://msdn.microsoft.com/library/mt790168.aspx).  
+ You will need to create a custom security role and an application user to associate with your registered app. For more information, see [Build web applications using Server-to-Server (S2S) authentication](../developer/build-web-applications-server-server-s2s-authentication.md).  
   
  ![Application user](../admin/media/application-user.png "Application user")  
   

@@ -15,7 +15,10 @@ caps.latest.revision: 8
 ms.author: "mkaur"
 manager: "brycho"
 ---
-# Stay on top of the latest news about your customers
+# Stay current with the latest news about your customers with the Company News Timeline
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Gain valuable insights from the latest news about your customers on your phone or tablet. Staying on top of the news helps you stay ahead of your competition by showing you ways your customers can use your products or services right now. Install the Company News Timeline solution, which delivers relevant news from [!INCLUDE[pn_bing](../includes/pn-bing.md)] News about your customers, and categorizes them in a useful feed inline while viewing your accounts.  
   
 > [!NOTE]

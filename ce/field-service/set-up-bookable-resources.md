@@ -18,7 +18,10 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up bookable resources (Field Service)
-A resource in Dynamic 365 for Field Service is anything that needs to be scheduled. This can be users, crews, service centers, company assets (equipment), accounts, or contacts.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+A resource in Dynamics 365 for Field Service is anything that needs to be scheduled. This can be users, crews, service centers, company assets (equipment), accounts, or contacts.  
   
 <a name="BKMK_CreateBookableResource"></a>   
 ## Create a bookable resource  

@@ -1,7 +1,7 @@
 ---
-title: "Workflow processes in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Workflow processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Use Workflow processes to automate processes that don't require user interaction
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Workflows automate business processes without a user interface. People usually use workflow processes to initiate automation that doesn’t require any user interaction.  
   
  Each workflow process is associated with a single entity. When configuring workflows you have four major areas to consider:  
@@ -36,7 +39,9 @@ Workflows automate business processes without a user interface. People usually u
   
  ![Processes filtered by workflow in Dynamics 365](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365")  
   
- You can create or modify workflows using the web application. Developers can create workflows using information in the [Dynamics 365 SDK](http://go.microsoft.com/fwlink/p/?LinkID=513305) and solutions you purchase may include workflows that you may modify.  
+ You can create or modify workflows using the web application. 
+ 
+<!--Developers can create workflows using information in the [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md) and solutions you purchase may include workflows that you may modify.-->  
   
 <a name="BKMK_WorkflowProperties"></a>   
 ## Workflow properties  
@@ -139,7 +144,6 @@ Workflows automate business processes without a user interface. People usually u
  Workflows are saved when they are activated, so it is not necessary to save them before activating them.  
   
 ### See also  
- [Processes](../customize/create-edit-processes.md)   
  [Configuring workflow processes](../customize/configure-workflow-steps.md)   
- [Monitor and manage Workflow processes](../customize/monitor-manage-processes.md)   
- [Best practices for Workflow processes](../customize/best-practices-workflow-processes.md)
+ [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
+ [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)

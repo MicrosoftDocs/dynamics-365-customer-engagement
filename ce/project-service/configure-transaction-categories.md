@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Configure transaction categories (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Set up transaction categories to define a superset of expense categories.  
   
 1.  Go to **Project Service > Transaction Categories**.  

@@ -1,7 +1,7 @@
 ---
 title: "Manage user account online and on-premises synchronization | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,35 +16,30 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Manage user account synchronization
+# Manage user account synchronization 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Because [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user identities are provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], you have multiple options for managing user synchronization between your online and on-premises environments.  
   
 ## Decide on a user management approach  
- There are three possible methods to manage your user accounts:  
+ You can choose from three main identity models in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] when you set up and manage user accounts:
+
+1.  **Cloud identity**. Manage your user accounts in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] only. No on-premises servers are required to manage users; it's all done in the cloud.
+
+2.  **Synchronized identity**. Synchronize on-premises directory objects with [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and manage your users on-premises. You can also synchronize passwords so that the users have the same password on-premises and in the cloud, but they will have to sign in again to use [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].
+
+3.  **Federated identity**. Synchronize on-premises directory objects with [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and manage your users on-premises. The users have the same password on-premises and in the cloud, and they do not have to sign in again to use [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]. This is often referred to as single sign-on.
   
-1.  Manage user accounts in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]  
+It’s important to carefully consider which identity model to use to get up and running. Think about time, existing complexity, and cost. These factors are different for every organization. Your choice is based largely on the size of your company and the depth and breadth of your IT resources.  
   
-     This is the simplest approach but can require more long-term administrative effort. Every time you create a new user account, you will need to create the user in two locations: on-premises and in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]. Name and password changes will require editing the accounts in both locations.  
-  
-2.  Synchronize on-premises directory objects with [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]  
-  
-     Active Directory synchronization (also referred to as DirSync) sets up a one-way synchronization relationship between your on-premises Active Directory server and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]. You get the benefit of easing the burden of maintaining user accounts without significantly adding to your hardware and failover requirements. However, you will still need to maintain two sets of passwords for your on-premises Active Directory accounts and your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] accounts.  
-  
-3.  Use [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] to manage users  
-  
-     This approach requires careful planning for redundancy and failover and requires the most expertise and effort to deploy.  
-  
-     In this approach, users in your organization can use corporate credentials to access the services in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] that your company subscribes to such as [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Users sign in once and don’t have to sign in again to access a different service. There’s a single password to manage.  
-  
- Your decision on which method to choose is based largely on the size of your company and the depth and breadth of your IT resources.  
-  
- Review the following resources to equip you to make the right decision for your company:  
+Review the following resources to equip you to make the right decision for your company:  
   
 -   [Understanding Office 365 identity and Azure Active Directory](http://go.microsoft.com/fwlink/p/?LinkID=534820)  
   
--   [What is an Azure AD directory?](http://go.microsoft.com/fwlink/p/?LinkID=525593)  
+-   [What is Azure AD Connect?](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)  
   
--   [Prepare for single sign-on](http://go.microsoft.com/fwlink/p/?LinkID=528168)  
+-   [Office 365 integration with on-premises environments](https://support.office.com/article/Office-365-integration-with-on-premises-environments-263faf8d-aa21-428b-aed3-2021837a4b65)  
   
 ## Tip for admins: provide a single sign-on organization URL for your users  
  If you’ve deployed synchronization with single sign-on (option 3 above), you can provide a URL to your users that takes advantage of your company’s Active Directory and simplifies the sign-in experience.  
@@ -56,9 +51,9 @@ Because [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user identities 
  You can get the \<*yourCRMOrganizationName*> by looking at the URL you use to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. For example, in https://contoso.crm.dynamics.com, *contoso* is \<*yourCRMOrganizationName*>.  
   
 > [!IMPORTANT]
->  The following URLs would be used for subscriptions hosted in these locations.  
+> The following URLs would be used for subscriptions hosted in these locations.  
 >   
->  -   LATAM/SAM: https://\<*yourCRMorganizationname*>.crm2.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
+> -   LATAM/SAM: https://\<*yourCRMorganizationname*>.crm2.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
 > -   CAN: https://\<*yourCRMorganizationname*>.crm3.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
 > -   EMEA: https://\<*yourCRMorganizationname*>.crm4.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
 > -   APAC: https://\<*yourCRMorganizationname*>.crm5.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  

@@ -1,5 +1,5 @@
 ---
-title: "Create a product family (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Create a product family (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 25
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Create a product family (Sales, Enterprise)
+# Create a product family (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it. A product family lets you group and categorize products, making it easier for you to manage them.  
   
  With product families, you can:  
@@ -33,7 +36,7 @@ Make it easier for sales agents to find products and services in a product catal
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   

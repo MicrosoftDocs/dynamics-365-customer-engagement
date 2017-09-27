@@ -1,7 +1,7 @@
 ---
 title: "Edit existing SharePoint site records for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,12 +17,15 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Edit existing SharePoint site records
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] folders and manage the folders and documents from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Integrating [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] makes it easy to access and share documents associated with your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records.  
   
 > [!TIP]
 >  If you’re using [!INCLUDE[pn_crm_2013_sp_shortest](../includes/pn-crm-2013-sp-shortest.md)] or later, you can take advantage of server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)]. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration provides an immersive document management experience consistent with the look and feel of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
 >   
->  If you’re using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)], you can use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration for on-premises and hybrid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] deployments. For information about setting up server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration using a wizard, see [Set up SharePoint integration with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531154.aspx)  
+>  If you’re using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)], you can use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration for on-premises and hybrid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] deployments. For information about setting up server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration using a wizard, see [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)  
   
  If you have already set up SharePoint document management, and want to edit your site records, use the following procedure.  
   
@@ -59,7 +62,7 @@ Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
     - **List component is installed**. Select this check box if the URL that you specified is a site collection on [!INCLUDE[pn_sharepoint_server_2010](../includes/pn-sharepoint-server-2010.md)] or [!INCLUDE[pn_sharepoint_server_2013](../includes/pn-sharepoint-server-2013.md)] and if the site collection has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] List component installed. This check box is available only if you use the **Absolute URL** option.  
   
         > [!TIP]
-        >  The List component has been deprecated in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For information on switching from the List component to server-based integration, see [Switching from the list component or changing the deployment](https://technet.microsoft.com/library/dn946910.aspx)  
+        >  The List component has been deprecated in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For information on switching from the List component to server-based integration, see [Switching from the list component or changing the deployment](switch-dynamics-crm-online-dynamics-365.md)  
   
 6.  Click **Save**.  
   
@@ -69,5 +72,5 @@ Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
 >  To activate or deactivate a site record, on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Sites page, select the site record, and then in the **Records** group, click **Activate** or **Deactivate**.  
   
 ### See also  
- [Set up SharePoint integration with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531154.aspx)   
- [Switching from the list component or changing the deployment](https://technet.microsoft.com/library/dn946910.aspx)
+ [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)   
+ [Switching from the list component or changing the deployment](switch-dynamics-crm-online-dynamics-365.md)

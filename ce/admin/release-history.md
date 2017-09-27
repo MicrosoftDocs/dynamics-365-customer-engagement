@@ -1,7 +1,7 @@
 ---
 title: "Release history for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,22 +16,22 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Release history
-This is the release history page for the [Administer Dynamics 365 Customer Engagement](administer-customer-engagement.md) documentation.  
+# Release history 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+This is the release history page for the [Administer Dynamics 365 Customer Engagement](admin-guide.md) documentation.  
   
 > [!TIP]
 >  To see the versions that apply to the dates below, see [Support: Dynamics 365 (online) releases](https://support.microsoft.com/kb/2925359)  
 
 <a name="BKMK_July2017"></a>
 
-## July 2017
+## July 2017 
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
-|[Preview feature: Use Relationship analytics to gather KPIs](relationship-analytics.md)|Added new topic.|  
-|[Public Preview: Introducing Live Assist for Dynamics 365 Powered by CaféX](preview-feature-live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|Added new topic.|  
-|[Configure Relevance Search to improve search results and performancee](configure-relevance-search-organization.md)|Updated topic.|  
+|[Public Preview: Introducing Live Assist for Dynamics 365 Powered by CaféX](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|Added new topic.|  
+|[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
-|[Preview feature: Use Azure Cognitive Services integration to add intelligent recommendations](azure-cognitive-services-integration-dynamics-365-online.md)|Added new topic.|
-|[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)|Added new topic.|
-
+|[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)| Added new topic. |

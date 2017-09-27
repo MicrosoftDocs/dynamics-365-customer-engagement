@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create a project quote (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Creating a quote is similar to creating an opportunity. While an opportunity is for internal information, a quote is what you send out to your potential customers. You can create one or more quotes for each opportunity. When you’re creating a quote to send to your potential customer, you’re in the **Propose** stage of your project.  
   
 1.  To create a quote from an opportunity, go to **Project Service > Opportunities**, and then click the opportunity you want to create a quote for.  

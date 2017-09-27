@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Create work order types (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 A work order type in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] helps you categorize and build different types of work orders, such as installation, preventative maintenance, repair, sales, quote, and so on. When you  create a work order type, it also helps separate work order information into views, reports, and dashboards on the schedule board.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Work Order Types**.  

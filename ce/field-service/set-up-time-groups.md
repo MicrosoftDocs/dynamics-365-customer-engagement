@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up time groups for scheduling (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify time groups consisting of multiple time windows to be used for scheduling in Dynamics 365 for Field Service.  
   
  The schedule assistant will add the time group start and end times to the search results. This lets a user group the results by time group.  

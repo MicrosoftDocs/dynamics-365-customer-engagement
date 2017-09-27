@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up service task types (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Service task types in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] are used to define the "types" of service tasks that you will include in your incident types and work orders, and are performed by the field agent at the service location. Service tasks can be assigned a duration that rolls up to the work order duration.  
   
  Service tasks are used to create process steps, or checklists, for the field agent to follow when completing a work order, and can be added manually or by associating incident types with each work order.  

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Create an RMA sub-status for when a product needs to be returned (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When a product needs to be returned, a return merchandise authorization (RMA) is created in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]. Set up an RMA sub-status to specify the return status more precisely, in accordance with your business processes.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **RMA Sub-Statuses**.  

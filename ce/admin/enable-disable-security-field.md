@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable security for a field for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,10 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Enable or disable security for a field to control access
-Field-level security lets you set which fields users can see or edit. For example, if want to prevent users from accidentally changing an account name, you can restrict them from editing that field. In [!INCLUDE[pn_crmv6](../includes/pn-crmv6.md)], you could only set field-level security for custom fields, but in [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] or later, you can also set field-level security for default fields. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field-level security](https://technet.microsoft.com/library/dn832104.aspx)  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Field-level security lets you set which fields users can see or edit. For example, if want to prevent users from accidentally changing an account name, you can restrict them from editing that field. In [!INCLUDE[pn_crmv6](../includes/pn-crmv6.md)], you could only set field-level security for custom fields, but in [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] or later, you can also set field-level security for default fields. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field-level security](field-level-security.md)  
   
  To set which users and teams have read or write access to fields, see [Set up security permissions for a field](../admin/set-up-security-permissions-field.md).  
   
@@ -43,5 +46,5 @@ Field-level security lets you set which fields users can see or edit. For exampl
     -   To publish customizations for all unpublished entities at one time, in the navigation pane, click **Entities**, and then on the command toolbar, click **Publish All Customizations**.  
   
 ### See also  
- [Field level security](https://technet.microsoft.com/library/dn832104.aspx)   
+ [Field level security](field-level-security.md)   
  [Set up security permissions for a field](../admin/set-up-security-permissions-field.md)

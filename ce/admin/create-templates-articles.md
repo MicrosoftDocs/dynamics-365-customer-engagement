@@ -1,7 +1,7 @@
 ---
 title: "Create templates for articles for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "shujoshi"
 manager: "sakudes"
 ---
 # Create templates for articles
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Article templates help you create new articles for your organization's knowledge base library. You can also create templates with boilerplate text to help article writers use consistent language and messaging.  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
@@ -57,8 +60,7 @@ Article templates help you create new articles for your organization's knowledge
      After you save the template, it is immediately available for use. If the template is not complete and you want to finish it later, you can save the template, deactivate it (make it ready-only), and then complete it later. When the template is complete, you can reactivate it.  
   
 > [!NOTE]
->  If you need to back up your templates, or export them for use in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](export-customizations-solution.md).  
+>  If you need to back up your templates, or export them for use in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md).  
   
 ### See also  
- [Create or edit a contract (Customer Service)](../customer-service/create-edit-contract-customer-service.md)   
  [eBook: Use KB articles to help your customers](http://go.microsoft.com/fwlink/p/?LinkId=394983)

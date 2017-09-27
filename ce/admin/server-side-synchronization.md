@@ -1,7 +1,7 @@
 ---
 title: "Server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,12 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Server-side synchronization
-<a name="BKMK_serversidesync"></a> server-side synchronization is the preferred option for organizations with users who run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in a web browser or on a mobile device, such as a tablet or smartphone. server-side synchronization provides direct [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-to-email server synchronization. When you use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], this includes bi-directional synchronization of email, contacts, tasks, and appointments. The data synchronized for each user can be controlled by using synchronization filters that are available from the **Synchronization** tab in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user options dialog.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+<a name="BKMK_serversidesync"></a> 
+
+Server-side synchronization is the preferred option for organizations with users who run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in a web browser or on a mobile device, such as a tablet or smartphone. server-side synchronization provides direct [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-to-email server synchronization. When you use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], this includes bi-directional synchronization of email, contacts, tasks, and appointments. The data synchronized for each user can be controlled by using synchronization filters that are available from the **Synchronization** tab in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user options dialog.  
   
  If you use a POP3 email server, the data that is synchronized includes email only.  
   
@@ -25,7 +30,7 @@ manager: "brycho"
   
  For more information about server-side synchronization, see [Server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
- ![Server&#45;side synchronization in Dynamics 365](../admin/media/server-side-sync-diagram.png "Server-side synchronization in Dynamics 365")  
+ ![Server-side synchronization in Dynamics 365](../admin/media/server-side-sync-diagram.png "Server-side synchronization in Dynamics 365")  
   
 > [!NOTE]
 >  A [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user can only map to a single [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox. Similarly, an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox can only be mapped to a single [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user. When [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] detects that an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox has already been mapped to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user, a dialog box is displayed to present a choice to the user whether to map the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user to the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox. When the user selects yes, it breaks the previous [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user to [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox mapping and subsequently the synchronization that would occur between the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user and the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  
@@ -56,9 +61,8 @@ manager: "brycho"
 - **Error reporting for users and administrators.** server-side synchronization supports logging and reporting of errors specific to an email or one or more mailboxes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Error Logging for Server-Side Synchronization](../admin/error-logging-server-side-synchronization.md).  
   
 > [!NOTE]
->  -   In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can synchronize emails using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or server-side synchronization. If server-side synchronization is selected, the synchronization does not require running [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You will, however, still need [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] to promote an item from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
+> In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can synchronize emails using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or server-side synchronization. If server-side synchronization is selected, the synchronization does not require running [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You will, however, still need [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] to promote an item from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
 ### See also  
- [Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)   
  [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
- [Synchronizing data with Outlook or Exchange FAQ](http://go.microsoft.com/fwlink/p/?LinkID=518288)
+ [Synchronizing data with Outlook or Exchange FAQ](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
