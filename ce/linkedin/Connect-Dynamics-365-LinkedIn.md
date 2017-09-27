@@ -2,7 +2,7 @@
 title: "Connect LinkedIn to Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: " Learn how to connect Dynamics 365 Connector for LinkedIn Lead Gen Forms with the LinkedIn service to sync lead gen data to Dynamics 365 (online)."
 ms.topic: article
-ms.date: 07/10/2017
+ms.date: 09/26/2017
 ms.service: crm-online
 applies_to: "Dynamics 365 (online)"
 ms.assetid: 4140669d-2155-4f43-a4fc-253b67e42f7d

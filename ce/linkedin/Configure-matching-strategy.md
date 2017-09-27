@@ -2,7 +2,7 @@
 title: "Matching strategy for Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to specify which leads in Dynamics 365 get updated by configuring the matching strategy for newly synced LinkedIn leads."
 ms.topic: article
-ms.date: 07/10/2017
+ms.date: 09/26/2017
 ms.service: crm-online
 ms.topic: article
 applies_to: "Dynamics 365 (online)"
