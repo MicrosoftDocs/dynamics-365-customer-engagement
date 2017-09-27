@@ -2,7 +2,7 @@
 title: "Create a record from a post in Social Engagement | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 to create new lead or case records."
 keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social activity, entity, entities"
-ms.date: 09/26/2017
+ms.date: 09/27/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -26,7 +26,7 @@ You can define the information to show in [!INCLUDE[pn_crm_shortest](../includes
 Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity that you want to display in **Dynamics 365 Record Details** in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] when a record of the same entity is created from a post. Add the fields you want to see in the **Dynamics 365 Record Details** when you define the entity details in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
 
 > [!NOTE]
-> Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are associated with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+> Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are in relationship with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For more information, see [TechNet: Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx).
   
 ### Define or edit fields for record details
   
@@ -150,7 +150,7 @@ A typical JSON payload sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-sho
 If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can open its associated record in **Dynamics 365 Record Details**.  
 
 > [!NOTE]
-> Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are associated with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
+> Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are in relationship with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For more information, see [TechNet: Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx).
   
 ### Open a Dynamics 365 record from within Social Engagement
   
