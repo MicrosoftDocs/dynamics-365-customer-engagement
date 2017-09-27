@@ -27,7 +27,7 @@ tags:
  You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](http://go.microsoft.com/fwlink/p/?LinkId=194988). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 > [!NOTE]
->  If the .rdl file contains a FetchXML query, the query in the RDL is validated by [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], which internally validates it against the FetchXML schema. For more information, see [Fetch XML Schema](../developer/fetchxml-schema.md).  
+>  If the .rdl file contains a FetchXML query, the query in the RDL is validated by [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], which internally validates it against the FetchXML schema. <!-- For more information, see [Fetch XML Schema](../developer/fetchxml-schema.md).  -->
   
 <a name="FetchBased"></a>   
 ## Create a custom Fetch-based report  
@@ -75,7 +75,7 @@ tags:
         </fetch>  
         ```  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  
+ <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
   
      Click **Next**.  
   

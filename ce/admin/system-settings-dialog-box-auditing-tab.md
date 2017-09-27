@@ -52,5 +52,5 @@ Enable auditing to track changes to your organization’s data and maintain a lo
 |**Marketing Entities**|Campaign|  
 |**Customer Service Entities**|Article, Case, Client Feedback, Contract, and Service|  
   
-### See also  
- [Audit data and user activity](../developer/audit-user-access.md)
+<!-- ### See also  
+ [Audit data and user activity](../developer/audit-user-access.md) -->

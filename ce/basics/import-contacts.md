@@ -128,4 +128,5 @@ To find an app, search your phone’s online store.
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)    
  [Select a data map](select-data-map.md)    
  [Review settings and import data](review-settings-import-data.md)   
- [Import data (for developers)](../developer/import-data.md)   
+
+ <!-- [Import data (for developers)](../developer/import-data.md)   -->

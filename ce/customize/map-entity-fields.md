@@ -32,7 +32,7 @@ tags:
  [Entity and Attribute mappings](../customize/default-entity-attribute-mappings.md) shows all the default mappings set for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  -->
   
 > [!NOTE]
->  These mappings aren’t applied to related records created using a workflow or dialog process. They aren’t automatically applied to new records created using code, although developers can use a special message called [InitializeFromt](../developer/webapireference/functions/descriptions/initializefrom.md) to create a new record using available mappings.  
+>  These mappings aren’t applied to related records created using a workflow or dialog process. They aren’t automatically applied to new records created using code, although developers can use a special message called InitializeFromt <!-- (../developer/webapireference/functions/descriptions/initializefrom.md) --> to create a new record using available mappings.  
 <!-- Vivek says: This will eventually be https://docs.microsoft.com/en-us/dotnet/api/microsoft.crm.sdk.messages.initializefromrequest when we publish the MREF content live on docs. 
 From Amy: After discussing with Vivek, we decided to go with the new style, not the old .net style. Link is now fixed.-->
 >   

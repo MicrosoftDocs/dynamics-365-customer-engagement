@@ -134,6 +134,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
  This chart shows the number of page load requests for forms, dashboards, and reports.    This is a count of requests received by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. Pages that are cached while browsing won't be counted.  
   
 ### See also  
-[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)   
-[Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md)
+[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)  
+ 
+<!-- [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md) -->
 

@@ -28,7 +28,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-[!INCLUDE[cc_Dat
 > - [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]  
 > - [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]  
   
- For information about the programmatic interface for managing configuration and administration of the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)], see [Data Export Service](../developer/data-export-service.md).  
+ <!-- For information about the programmatic interface for managing configuration and administration of the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)], see [Data Export Service](../developer/data-export-service.md).  -->
   
 <a name="Prereq_DES"></a>   
 ## Prerequisites for using [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)]  
@@ -440,5 +440,6 @@ The statement has been terminated.
 ### See also  
  [AppSource: Dynamics 365 - Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)   
  [What's new with Microsoft Dynamics 365 ‒ Data Export Service?](../admin/whats-new-with-data-export-service.md) 
- [Manage your data](../admin/manage-your-data.md)   
- [Data Export Service](../developer/data-export-service.md)
+ [Manage your data](../admin/manage-your-data.md)  
+ 
+ <!-- [Data Export Service](../developer/data-export-service.md) -->

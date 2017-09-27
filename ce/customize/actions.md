@@ -52,7 +52,7 @@ Actions are a type of process in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynam
  Unlike workflow processes or plug-ins, an action doesn’t have to be associated with a specific entity. You can define ”global” Actions that can be called on their own.  
   
 ### See also  
- [Create your own actions](../developer/create-own-actions.md)   
+ <!-- [Create your own actions](../developer/create-own-actions.md)  --> 
  [Configure actions](../customize/configure-actions.md)   
  [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)   
  [Workflow processes overview](../customize/workflow-processes.md)   
