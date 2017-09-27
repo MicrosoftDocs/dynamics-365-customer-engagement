@@ -7,7 +7,7 @@
 ### [Overview](../customize/customize-phones-tablets.md)
 ### [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
 ### [iFrame and web resource support](../customize/iframe-web-resource-support-dynamics-365-phones-tablets.md)
-### [Write mobile, modern apps](../developer/write-mobile-modern-apps.md)
+<!-- ### [Write mobile, modern apps](../developer/write-mobile-modern-apps.md) -->
 ## Troubleshooting
 ### [What's supported](support-phones-tablets.md)
 ### [Problems and solutions](troubleshooting-things-know-about-phones-tablets.md)

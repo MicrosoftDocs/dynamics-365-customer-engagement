@@ -125,7 +125,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
 ### Aggregate data for a record from all related activities and activities indirectly related via the Activity Party entity  
  In this example, we count the total number of emails sent to an account, where the account is listed on the email’s “To Recipient” line or “Cc Recipient line. This is done by specifying the **Participation Type** in **FILTERS** for the Activity Party entity in the rollup field definition. If you don’t use filtering, then all available participation types for an activity are used in the calculation. 
-For more information about the Activity Party entity and participation types available for a particular activity, see [ActivityParty entity](../developer/activityparty-entity.md).  
+<!-- For more information about the Activity Party entity and participation types available for a particular activity, see [ActivityParty entity](../developer/activityparty-entity.md).  -->
 
   
  ![Rollup related activities and activity party](../customize/media/rollup-enhancements-indirect-activities.png "Rollup related activities and activity party")  

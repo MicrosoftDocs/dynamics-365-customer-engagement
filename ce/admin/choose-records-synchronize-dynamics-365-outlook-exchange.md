@@ -36,8 +36,10 @@ manager: "brycho"
   
  ![Online synchronization filters](../outlook-app/media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   
+<!--
     > [!NOTE]
     >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tell me more about system filters](../developer/offline-outlook-filters-templates.md)  
+-->
   
 4.  Do one of the following:  
   

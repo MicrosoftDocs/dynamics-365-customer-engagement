@@ -52,7 +52,7 @@ We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest]
   
 For Germany (DEU), use the following: [https://\<organization>.crm.microsoftdynamics.de](https://<organization>.crm.microsoftdynamics.de).  
 
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Direct sign in to Dynamics 365 (online)](../../admin/sign-in-office-365-apps.md#BKMK_directsignin) and [Discover the URL for your organization using the Organization Service](../../developer/discover-url-organization-organization-service.md)  
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Direct sign in to Dynamics 365 (online)](../../admin/sign-in-office-365-apps.md#BKMK_directsignin). <!-- and [Discover the URL for your organization using the Organization Service](../../developer/discover-url-organization-organization-service.md)  -->
   
  For example, if your existing organization URL is https://myorg.crm**5**.dynamics.com and you request it to be moved to Australia, the new organization URL will be https://myorg.crm**6**.dynamics.com.  
   
