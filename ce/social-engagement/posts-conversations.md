@@ -29,6 +29,7 @@ In the post list, you find the posts and the main actions to work with posts. [!
   
 Select **Open** on a post to see the single post pane showing the post's details, a full view of the contents with all available actions. You can also select the post content to bring up post details.
 
+![Post in Social Engagement with highlighted control to open the post details](media/open-post-details.png "Post in Social Engagement with highlighted control to open the post details")
   
 The details of a post are displayed depending on the interactions from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. By default, posts show the single post pane which focuses on displaying a post and its threads. It gives you access to all its content and (if available) also the parent post. If there are direct interactions between an author and one of the social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you'll find the conversation view. It is optimized to show the interactions between customers and your owned social profiles.  
   
