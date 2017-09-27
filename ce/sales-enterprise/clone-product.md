@@ -1,5 +1,5 @@
 ---
-title: "Clone a product (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Clone a product (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -15,13 +15,16 @@ caps.latest.revision: 9
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Clone a product (Sales, Enterprise)
+# Clone a product (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you're creating a new product, family or bundle, save time by cloning an existing one. This creates a copy of the original record with all the details except for the name and ID. If the product, bundle or family has any properties, they’re also copied to the cloned record.  
   
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   

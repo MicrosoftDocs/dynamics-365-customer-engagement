@@ -1,7 +1,7 @@
 ---
-title: "Export customized entity and field text for translation in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Export customized entity and field text for translation (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Translate customized entity and field text into other languages
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 After you create customized entity and field text, you may want to translate it into other languages.  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  

@@ -2,4 +2,4 @@ If you use Microsoft Dynamics 365, the Bing Maps feature automatically sends the
   
  Your administrator can turn the Bing Maps feature on or off in the **Settings** > **Administration** > **System Settings** area. Turning the Bing Maps app off disables the feature within Dynamics 365.  
   
- Information sent to Bing Maps is subject to the [Bing Maps Privacy Statement](http://go.microsoft.com/fwlink/p/?linkid=248686).
+ Information sent to Bing Maps is subject to [Microsoft Privacy and Cookies](http://go.microsoft.com/fwlink/p/?linkid=521839).

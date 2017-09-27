@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Field Service Mobile App User’s Guide
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] (mobile) give your field agents all the information they need to get to a customer location and complete work orders  quickly.  
   
  Before you can start using [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator will need to install a mobile solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install the Field Service mobile app](../field-service/install-the-mobile-app.md)   

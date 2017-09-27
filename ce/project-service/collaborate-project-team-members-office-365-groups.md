@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Collaborate with your project team members with Office 365 Groups (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can collaborate with your team members on project documents, view your team’s calendar, and have group conversations.  
   
 1.  Go to **Project Service > Projects**.  

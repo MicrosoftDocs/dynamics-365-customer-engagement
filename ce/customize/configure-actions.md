@@ -1,7 +1,7 @@
 ---
-title: "Configure actions for workflows or dialogs in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Configure actions for workflows (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,8 +15,11 @@ caps.latest.revision: 19
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Configure custom actions from a workflow or dialog
-You can enable a custom action from a workflow or dialog without writing code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md).  
+# Configure custom actions from a workflow
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+You can enable a custom action from a workflow without writing code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md).  
   
  You may also create an action so that a developer can use it in code or you may need to edit an action that was previously defined. Like workflow processes, consider the following:  
   
@@ -75,12 +78,12 @@ Actions also have something that workflow processes don’t – input and output
 >  After the action is activated and code is written to use a unique name, the unique name must not be changed without also changing the code that references it.  
   
  **Enable rollback**  
- Generally, processes that support transactions will “undo” (or roll back) the entire operation if any part of them fails. There are some exceptions to this. Some actions developers might do in code initiated by the action might not support transactions. For example, if the code perform actions in other systems that are beyond the scope of the transaction. Those can’t be rolled back by the action running in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Some messages in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] platform don’t support transactions. But everything you can do just with the user interface of the action will support transactions. All the actions that are part of a real-time workflow are considered in transaction, but with actions you have the option to opt out of this.  
+ Generally, processes that support transactions will “undo” (or roll back) the entire operation if any part of them fails. There are some exceptions to this. Some actions developers might do in code initiated by the action might not support transactions. For example, if the code perform actions in other systems that are beyond the scope of the transaction. Those can’t be rolled back by the action running in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Some messages in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] platform don’t support transactions. But everything you can do just with the user interface of the action will support transactions. All the actions that are part of a real-time workflow are considered in transaction, but with actions you have the option to opt out of this.  
   
  You should consult with the developer who will use this message to determine whether it must be in transaction or not. Generally, an action should be in transaction if the actions performed by the business process don’t make sense unless all of them are completed successfully. The classic example is transferring funds between two bank accounts. If you withdraw funds from one account you must deposit them in the other. If either fails, both must fail.  
   
 > [!NOTE]
->  You can’t enable rollback if a custom action is invoked directly from within a workflow or dialog. You can enable rollback if an action is triggered by a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services message.  
+>  You can’t enable rollback if a custom action is invoked directly from within a workflow. You can enable rollback if an action is triggered by a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services message.  
   
  **Activate As**  
  Like all processes, you can activate the process as a template and use it as an advanced starting point for processes that follow a similar pattern.  
@@ -121,21 +124,20 @@ Actions also have something that workflow processes don’t – input and output
 |String|A text value.|  
   
 > [!NOTE]
-> **EntityCollection** argument values can’t be set in the user interface for conditions or actions. These are provided for use by developers in custom code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create your own actions](http://go.microsoft.com/fwlink/p/?LinkID=513292)  
+> **EntityCollection** argument values can’t be set in the user interface for conditions or actions. These are provided for use by developers in custom code. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create your own actions](../developer/create-own-actions.md)-->  
   
 <a name="BKMK_AddStagesConditionsAndActions"></a>   
 ### Add stages and steps  
  Actions are a type of process very similar to real-time workflows. All the steps that can be used in real-time workflows can be used in actions. For information about the steps that can be used for both real-time workflows and actions, see [Workflow stages and steps](../customize/configure-workflow-steps.md#BKMK_WorkflowStagesAndSteps).  
   
- In addition to the steps that can be used for real-time workflows, actions also have the **Assign Value** step that is similar to the one used to set variables or input arguments in dialogs. In actions, these can be used only to set output arguments. You can use the form assistant to set output arguments to specific values or, more likely, to values from the record that the action is running against, records related to that record with a many-to-one relationship, records created in an earlier step, or values that are part of the process itself.  
+ In addition to the steps that can be used for real-time workflows, actions also have the **Assign Value** step. <!-- that is similar to the one used to set variables or input arguments in dialogs. --> In actions, these can be used only to set output arguments. You can use the form assistant to set output arguments to specific values or, more likely, to values from the record that the action is running against, records related to that record with a many-to-one relationship, records created in an earlier step, or values that are part of the process itself.  
   
 ### See also  
  [Actions](../customize/actions.md)   
- [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)   
- [Monitoring real-time workflows and actions](../customize/monitor-manage-processes.md#BKMK_MonitorSyncWorkflows)
+ [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md)   
+ [Monitoring real-time workflows and actions](../customize/monitor-manage-processes.md#BKMK_MonitorSyncWorkflows)</br>
  [Workflow processes](../customize/workflow-processes.md)   
- [Dialogs](../customize/dialogs.md)   
- [Business process flows](../customize/business-process-flows-overview.md)   
- [Monitor and manage processes](../customize/monitor-manage-processes.md)   
- [Create your own actions](http://go.microsoft.com/fwlink/p/?LinkID=513292)
- [Types of processes](../customize/guide-staff-common-tasks-processes.md)
+ [Business process flows overview](../customize/business-process-flows-overview.md)   
+ [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
+ <!--[Create your own actions](../developer/create-own-actions.md)-->
+ 

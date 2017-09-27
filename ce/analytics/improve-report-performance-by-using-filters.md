@@ -1,7 +1,7 @@
 ---
-title: "Improve report performance by using filters in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Improve report performance by using filters (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 65af0819-705e-4628-ad2f-05df9211c374
 caps.latest.revision: 15
 author: "Mattp123"
@@ -18,9 +19,12 @@ tags:
  - "MigrationHO"
 ---
 # Improve report performance by using filters
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Reports that return large data sets can be difficult to use and can cause performance problems. To limit the data that is presented in a report, use data filters.  
   
- In addition to data filtering supported by Reporting Services, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports data pre–filtering. You can use data pre-filtering to:  
+ In addition to data filtering supported by Reporting Services, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] supports data pre–filtering. You can use data pre-filtering to:  
   
 -   Make reports context-sensitive by narrowing the scope of a report to return more relevant data.  
   
@@ -52,11 +56,11 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
  Similarly, you can enable pre-filtering for the linked entity. You can also specify a different pre-filtering condition for the linked entity in the FetchXML query by specify a different and unique name for the parameter name in the `prefilterparametername` property.  
   
- If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
+ If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
   
 1.  Similarly, you can enable pre-filtering for the linked entity. You can also specify a different pre-filtering condition for the linked entity in the FetchXML query by specify a different and unique name for the parameter name in the `prefilterparametername` property.  
   
-     If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
+     If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
   
     ```xml  
     <fetch distinct="false" mapping="logical">  
@@ -86,7 +90,7 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
 <a name="PassingFilters"></a>   
 ## Passing filters in the filter summary  
- A filter summary displays the value of the filter that is used when a report is run. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reports, it is displayed as a text box report item in the report header that contains the filter text value. When the user runs the report, the Report Viewer displays an **Edit Filter** button. When the button is clicked, it enables the user to define a data filter. An example of a filter summary can be found in the User Summary report that is included with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ A filter summary displays the value of the filter that is used when a report is run. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] reports, it is displayed as a text box report item in the report header that contains the filter text value. When the user runs the report, the Report Viewer displays an **Edit Filter** button. When the button is clicked, it enables the user to define a data filter. An example of a filter summary can be found in the User Summary report that is included with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
  To add a filter summary to a report, follow these steps:  
   
@@ -101,6 +105,6 @@ Reports that return large data sets can be difficult to use and can cause perfor
 ## Default filters  
  When you publish a report, you can set a default filter. For all the reports that were created by using the report wizard, if you do not set a default filter, the filter is automatically set to all records of the entity modified within the last 30 days. For the procedure to define a default report filter, see [Publish Reports](../analytics/publish-reports.md).  
   
-## See also  
- [Report writing with Dynamics 365](../analytics/reporting-analytics-with-dynamics-365.md)   
- [Microsoft Dynamics 365 (online) Reporting Considerations](../analytics/reporting-considerations.md)
+### See also  
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
+ [Dynamics 365 (online) Reporting Considerations](../analytics/reporting-considerations.md)

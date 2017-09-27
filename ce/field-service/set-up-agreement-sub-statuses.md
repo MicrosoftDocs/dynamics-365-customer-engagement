@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up agreement sub-statuses to specify agreement status more precisely (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Set up agreement sub-statuses in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] to specify the current agreement status more precisely, according to your company's business processes.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Agreement Sub-Statuses**.  

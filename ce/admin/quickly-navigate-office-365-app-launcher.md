@@ -1,7 +1,7 @@
 ---
 title: "Quickly navigate with the Office 365 app launcher and the Dynamics 365 (online) home page | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,13 +10,19 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: quickly-navigate-office-365-app-launcher
+ms.assetid: af61eae1-39db-403e-9bf7-c5f1195f31cb
 caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page
+
+> [!NOTE]
+> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] introduces a new app model for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps and makes accessing these and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps fast and easy.  
   
  If you're a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] user with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, you're just two clicks away from accessing the family of online apps that are available to you, like [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] and Excel Online.  
@@ -72,7 +78,7 @@ manager: "brycho"
 > [!TIP]
 >  If you've just started a trial or upgraded to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], you might need to refresh or open a new browser session to see your apps. There might be a delay for your instance to fully provision.  
   
- ![Two instances of Dynamics 365 &#40;online&#41; on the home page](../admin/media/two-instances-of-dynamics-365-online-in-the-home-page.png "Two instances of Dynamics 365 (online) on the home page")  
+ ![Two instances of Dynamics 365 (online) on the home page](../admin/media/two-instances-of-dynamics-365-online-in-the-home-page.png "Two instances of Dynamics 365 (online) on the home page")  
   
 > [!NOTE]
 > **What is "Dynamics 365 - custom"?**  
@@ -128,7 +134,8 @@ manager: "brycho"
   
 ### See also  
  [Blog: Meet the all new Dynamics 365 Home page](https://dynamics365.wordpress.com/tag/dynamics-365-home-page/)   
- [Sign in to Dynamics and Office 365 apps](../admin/sign-in-office-365-apps.md)   
+ [Sign in to Dynamics and Office 365 apps](../admin/sign-in-office-365-apps.md)
+ [My Apps on Home.Dynamics.com ](https://blogs.msdn.microsoft.com/crm/2017/03/30/my-apps-on-home-dynamics-com/)  
  [Important information for CRM Online customers](../admin/important-information-customers.md)   
  [Switch from Dynamics CRM Online to Dynamics 365 (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)   
  [Meet the Office 365 app launcher](https://support.office.com/article/Meet-the-Office-365-app-launcher-79f12104-6fed-442f-96a0-eb089a3f476a)   

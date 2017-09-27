@@ -1,7 +1,7 @@
 ---
 title: "Security roles and privileges for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Security roles and privileges
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To control data access, you must set up an organizational structure that both protects sensitive data and enables collaboration. You do this by setting up business units, security roles, and field security profiles.  
   
 ## Security roles  
@@ -28,7 +31,7 @@ To control data access, you must set up an organizational structure that both pr
   
  *Record-level privileges* define which tasks a user with access to the record can do, such as Read, Create, Delete, Write, Assign, Share, Append, and Append To. *Append* means to attach another record, such as an activity or note, to a record. *Append to* means to be attached to a record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Record-level privileges](../admin/security-roles-privileges.md#BKMK_privileges)  
   
- *Task-based privileges*, at the bottom of the form, give a user privileges to perform specific tasks, such as publish articles or perform a mail merge.  
+ *Task-based privileges*, at the bottom of the form, give a user privileges to perform specific tasks, such as publish articles.  
   
  The colored circles on the security role settings page define the access level for that privilege. Access levels determine how deep or high in the organizational business unit hierarchy the user can perform the specified privilege. The following table lists the levels of access in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], starting with the level that gives users the most access.  
   
@@ -61,7 +64,7 @@ To control data access, you must set up an organizational structure that both pr
 ## Overriding security roles  
  The owner of a record or a person who has the Share privilege on a record can share a record with other users or teams. Sharing can add Read, Write, Delete, Append, Assign, and Share privileges for specific records.  
   
- Teams are used primarily for sharing records that team members ordinarily couldn't access. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security, users and teams](../admin/manage-security-users-and-teams.md)  
+ Teams are used primarily for sharing records that team members ordinarily couldn't access. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security, users and teams](../admin/manage-teams.md)  
   
  It’s not possible to remove access for a particular record. Any change to a security role privilege applies to all records of that record type.  
   

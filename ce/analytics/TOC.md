@@ -1,4 +1,4 @@
-﻿# [Introduction to reporting & analytics](reporting-analytics-with-dynamics-365.md)
+﻿# [Reporting and Analytics](reporting-analytics-with-dynamics-365.md)
 
 # [Get started](get-started-writing-reports.md)
 ## [Report writing environment using SQL Server Data Tools](report-writing-environment-using-sql-server-data-tools.md)

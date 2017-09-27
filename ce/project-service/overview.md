@@ -1,5 +1,5 @@
 ---
-title: "Overview (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+title: "Project Service Overview (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -14,7 +14,10 @@ caps.latest.revision: 36
 ms.author: "mkaur"
 manager: "brycho"
 ---
-# Overview (Dynamics 365 for Project Service Automation)
+# Overview of Dynamics 365 for Project Service Automation
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
   
 <a name="BKMK_PSAAdmin"></a>    

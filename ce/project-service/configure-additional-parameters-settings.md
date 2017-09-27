@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Configure additional parameter settings (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Once you’ve configured the items in previous topics, you need to set additional project parameters to use for your projects. When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work. Now it’s time to go back and configure additional fields for these settings.  
   
  You’ll need to have configured the following settings:  

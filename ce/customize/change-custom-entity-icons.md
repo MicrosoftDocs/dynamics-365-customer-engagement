@@ -1,7 +1,7 @@
 ---
-title: "Change custom entity icons in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Change custom entity icons (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,8 +14,13 @@ ms.assetid: 477f9792-8207-49ef-8968-45274b5355a8
 caps.latest.revision: 19
 ms.author: "rdubois"
 manager: "brycho"
+tags: 
+ - "Links to topic not migrated"
 ---
 # Change icons for custom entities
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you create a custom entity, it is automatically assigned a default icon, and all custom entities by default use the same icon. If your organization has several custom entities, it can be helpful to change the icon associated with one or more custom entities to help users differentiate them.  
   
 > [!NOTE]
@@ -41,8 +46,9 @@ When you create a custom entity, it is automatically assigned a default icon, an
   
     -   No larger than 10 kilobytes.  
   
+<!--Topic referenced not migrated
 > [!IMPORTANT]
->  Before you begin this task, be sure that you have uploaded as web resources any custom icons that you intend to assign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit a form web resource](add-edit-form-web-resource.md)  
+>  Before you begin this task, be sure that you have uploaded as web resources any custom icons that you intend to assign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit a form web resource](add-edit-form-web-resource.md)   -->
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -68,10 +74,10 @@ When you create a custom entity, it is automatically assigned a default icon, an
   
     -   To publish customizations for all unpublished components at one time, in the Navigation Pane, click **Entities**, and then on the command bar, click **Publish All Customizations**.  
   
-     New icons might not display in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] until you close and reopen the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] client.  
+     New icons might not display in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] until you close and reopen the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] client.  
   
 > [!NOTE]
 >  Publishing customizations can interfere with normal system operation. We recommend you schedule publishing when it’s least disruptive to users.  
   
 ### See also  
- [Create and edit entities](https://technet.microsoft.com/library/dn531052.aspx)
+ [Create and edit entities](../customize/create-edit-entities.md)

@@ -1,7 +1,7 @@
 ---
 title: "Assign security roles to a form for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,15 +17,18 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Assign security roles to a form to more finely control access
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Control form and field access by assigning different security roles to different forms you create.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699698.aspx)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365](security-concepts.md)  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   

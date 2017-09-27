@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create a project (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Create a project using the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] when you want to create an opportunity, quote, or contract for project-based services. The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities help you manage your project from opportunity through completion. When you create a project, you’ll also create a work breakdown structure, which affects your quotes, cost estimates, and resource management.  
   
 1.  Go to **Project Service > Projects**.  

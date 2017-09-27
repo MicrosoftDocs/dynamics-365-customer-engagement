@@ -1,7 +1,7 @@
 ---
 title: "Add License Wizard and Add Storage Wizard errors for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Fixing Add License Wizard and Add Storage Wizard errors
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You may see an error while running the Add User License Wizard if you have:  
   
 -   Reached the maximum number of licenses available for your offer.  
@@ -26,13 +29,12 @@ You may see an error while running the Add User License Wizard if you have:
     > [!IMPORTANT]
     >  To see other offers available to you, on the **Subscription Management** page, under **Application Usage**, click or tap **View Offers**. If you are eligible to change your current offer, the offers will be listed. If you are not eligible for an offer at this time, contact the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] sales team.  
   
- You may see an error while running the Add Storage Wizard if you have:  
+You may see an error while running the Add Storage Wizard if you have:  
   
 -   Reached the storage limit available for your offer.  
   
 -   The minimum amount of storage for that offer.  
   
- If you cannot add storage from your [!INCLUDE[pn_Online_Subscription](../includes/pn-online-subscription.md)], it might be that your current offer has a limited amount of storage available.  
+If you cannot add storage from your [!INCLUDE[pn_Online_Subscription](../includes/pn-online-subscription.md)], it might be that your current offer has a limited amount of storage available.  
   
-### See also  
- [Manage your Microsoft Dynamics 365 (online) subscription](https://technet.microsoft.com/library/jj679903.aspx)
+### See also 

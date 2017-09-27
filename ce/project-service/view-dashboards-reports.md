@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # View dashboards and reports (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Dashboards and reports give you an understanding of where your business stands. The Practice Management dashboard gives you an all-up view of your costs, gross margin, and role utilization. You can also track your sales numbers with the Sales Activity Social dashboard.  
   
  To view dashboards that provide an all-up view of your project sales and resource utilization:  

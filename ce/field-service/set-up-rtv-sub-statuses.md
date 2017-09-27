@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up RTV sub-statuses to specify return status more precisely (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When a product needs to be retuned to a vendor, a return to vendor (RTV) record is created to track the returned items. RTV sub-status values can be created to specify the return status more precisely, in accordance with your company's business processes.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **RTV Sub-Statuses**.  

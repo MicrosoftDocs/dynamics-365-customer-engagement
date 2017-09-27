@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "jackiesm"
 ---
 # Geo to geo migrations
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] for business services, and to add datacenters to existing regions.  
   
  The Geo Migration feature for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] will allow customers to move their instances in a single tenant from one region to another. There are no user-interface changes or version changes as part of this move. In the case of a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance residing in an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] instance in a single tenant, moving the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance doesn’t move the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] instance; they are separate services. Your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance will still appear in your tenant alongside the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] instance.  

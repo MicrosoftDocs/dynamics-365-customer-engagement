@@ -1,7 +1,7 @@
 ---
-title: "Design custom business apps by using the app designer in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Design custom business apps by using the app designer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,12 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: aa6aca00-f95a-4f06-bec4-18b427b4618c
 caps.latest.revision: 17
 ms.author: "shujoshi"
 ---
 # Design custom business apps by using the app designer
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], custom business apps  refer to other components like entities, dashboards, forms, views, charts, and business processes.  
   
  The app designer helps you bring together all these components quickly. Its tile-based information structure and simplified interface make the process of building an app much easier, and you can create apps that are specific to your business roles and functions without having to write any code.  
@@ -50,5 +53,7 @@ In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], custom business 
 |[!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]|Yes|Yes|Yes||  
 |[!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]||||Yes|  
   
-## See Also  
- [Business apps in Dynamics 365](../basics/business-apps-in-dynamics-365.md)
+### See Also  
+ [Business apps in Dynamics 365 Customer Engagement](../basics/business-apps-dynamics-365.md)
+ 
+ <!-- ADD BACK WHEN DEV TOPIC IS LIVE [Create and manage custom business apps in Customer Engagement using code](../developer/create-manage-custom-business-apps-using-code.md)  -->

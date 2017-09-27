@@ -1,7 +1,7 @@
 ---
 title: "Add or remove territory members for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Add or remove territory members
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To accommodate changes in sales territories or the representatives that are assigned to each territory, you can add or remove territory members in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
@@ -46,5 +49,5 @@ To accommodate changes in sales territories or the representatives that are assi
         >  When you remove someone from a sales territory, the updated list of members isn’t displayed until you refresh the page.  
   
 ### See also  
- [Manage users](../admin/manage-users.md)   
+ [Manage users](../admin/create-users-assign-online-security-roles.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Specify skills for resources (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Characteristics are skills that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
   
  Adding characteristics to work orders allows you to document which knowledge or expertise is needed by a resource to complete the job, and to filter the list of available resources to those that have the matching characteristics when scheduling the work order.   

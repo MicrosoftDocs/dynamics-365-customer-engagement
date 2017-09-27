@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Schedule resources for a project (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.  
   
  The schedule board shows list of resources and their availability. Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.  

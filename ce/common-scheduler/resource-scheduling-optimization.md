@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Sales, Customer Service, Field Service, Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)] to automatically set up the system to schedule multiple bookings on a recurring basis.  
   
  The Resource Scheduling Optimization solution minimizes overall travel time and maximizes efficient use of all resources. It takes many constraints into account, such as resource availability, skills required, working hours, duration, and time windows to optimize the schedule.  
@@ -81,7 +84,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
 - **Open Organization**: Opens the organization where[!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)] is deployed in a new tab.  
   
 ## Enable Resource Scheduling Optimization  
- To use                  Resource Scheduling Optimization, your user profile                  needs                  to have a security role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assign security roles](#BKMK_AssignRoles)  
+ To use Resource Scheduling Optimization, your user profile needs to have a security role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assign security roles](#BKMK_AssignRoles)  
   
 1.  From the main menu, select **Resource Scheduling** > **Administration**.  
   
@@ -91,7 +94,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 4.  To use the schedule board booking functionality, geocoding, and location services, you need to turn on Maps. On the **Connect to Maps** field, choose **Yes** and accept the terms.  
   
-5.  On the **Enable Resource Scheduling Optimization** field,                          choose **Yes**.  
+5.  On the **Enable Resource Scheduling Optimization** field, choose **Yes**.  
   
  ![Enable Resource Scheduling](../common-scheduler/media/common-scheduler-enable-resource-scheduling.png "Enable Resource Scheduling")  
   
@@ -173,7 +176,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 3. **Name**: Enter a name.  
   
-4. **Schedule**:                          Choose                                                   how                          Resource Scheduling Optimization will run:  
+4. **Schedule**: Choose how Resource Scheduling Optimization will run:  
   
     1. **Timer**: Define how often this schedule will run.  
   
@@ -299,5 +302,5 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
 [!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
   
 ### See also  
- [Instal Dynamics 365 for Field Service](../field-service/install-field-service.md)
- [Installation and setup (Field Service)](../field-service/install-field-service.md)
+ [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)
+ [Install Dynamics 365 for Project Service Automation](../project-service/install-customize.md)

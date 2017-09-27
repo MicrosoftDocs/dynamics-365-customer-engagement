@@ -1,7 +1,7 @@
 ---
-title: "Getting started with customization in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Get started with customization (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,10 +15,13 @@ caps.latest.revision: 14
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Getting started with customization
-You can tailor [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to more closely fit your organization’s industry, nomenclature, and unique business processes by customizing the service. You can implement many customizations without writing any code.  
+# Get started with customization
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+You can tailor [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to more closely fit your organization’s industry, nomenclature, and unique business processes by customizing the service. You can implement many customizations without writing any code.  
   
- The following table shows some examples of customizations.  
+ The following table shows some examples of customizations:  
   
 |Customization|Definition|Reason for the customization|  
 |-------------------|----------------|----------------------------------|  
@@ -29,10 +32,41 @@ You can tailor [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to more c
 |Dashboard|Provides an overview of actionable business data|Create a dashboard that provides lists and charts that shows a team's performance at a glance.
 |Interface|The buttons, labels, and controls of the user interface.|If the users in your organization find the term *Commit* more familiar than the term *Go*, for example, you can change all the **Go** buttons to be **Commit** buttons.|
 |Workflow|A set of rules that run on demand or are triggered to run automatically.|Create or modify workflows to run in accordance with the way your organization works. For example, a custom workflow could automatically send an email notification to an account owner when a specific condition or combination of conditions is reached.|  
+
+<a name="BKMK_PublishingCustomizations"></a>   
+## Publishing customizations  
+ Certain customizations that make changes to the user interface require that they be published before people can use them in the application. Publishing provides a way for you to save your work before you have finished and then come back and finish at a later time. Publishing is only required when you change a solution component. When you create or delete a solution component, publishing occurs automatically. Before you export a solution, you’ll be prompted to publish customizations. This is because any unpublished customizations won’t be included in the solution.  
+  
+ When you perform customizations that will appear in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] you should always explicitly publish your customizations to make sure that every item is synchronized with the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] application.  
+  
+> [!NOTE]
+>  Publishing customizations can interfere with normal system operation. In a production environment we recommend that you schedule publishing customizations when it’s least disruptive to users.  
+  
+ The following solution components require publishing when they are updated:  
+  
+-   Application Ribbon  
+  
+-   Entity  
+  
+-   Entity Relationship  
+  
+-   Field  
+  
+-   Form  
+  
+-   Message  
+  
+-   Option Set  
+  
+-   Site Map  
+  
+-   Web Resource  
+  
+> [!NOTE]
+>  When using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] it can take at least an hour for customization changes to take effect. You can make the changes appear immediately in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] by clearing the cache. To do this, go to **Tools** > **Internet Options** and under **Browsing history** select the **Delete** button. Uncheck all browsing history items except “Temporary Internet files and website files” and “Cookies and website data” and then select **Delete**.  
   
 ### See also  
- [Privileges you need](../customize/privileges-required-customization.md)  
- [Customization concepts](../customize/customization-concepts.md)  
- [Using solutions](../customize/use-solutions-for-your-customizations.md)
- 
- [Themes](../customize/change-color-scheme-add-logo-match-organizations-brand.md)
+ [Privileges required](../customize/privileges-required-customization.md)  
+ [Customization concepts](../customize/overview.md)  
+ [Using solutions](../customize/use-solutions-for-your-customizations.md)  
+ [Create a custom theme or brand](../customize/change-color-scheme-add-logo-match-organizations-brand.md)  

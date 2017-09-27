@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 Customer Engagement teams | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Manage teams
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
  You can use two types of teams:  
@@ -54,7 +57,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
   
  If an owner team doesn’t own records and doesn’t have security roles assigned to the team, it can be converted to an access team. It is a one-way conversion. You can’t convert the access team back to the owner team. During conversion, all queues and mailboxes associated with the team are deleted. When you create a team in the Web application, you have to choose the team type **Owner**.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a team](http://go.microsoft.com/fwlink/p/?LinkId=513218), [Assign a record to a user or team](http://go.microsoft.com/fwlink/p/?LinkId=513219)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assign a record to a user or team](../basics/assign-record-user-team.md)  
  
 <a name="CreateTeam"></a>   
 ## Create a team  
@@ -113,20 +116,20 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
 > [!NOTE]
 >  A user must have sufficient privileges to join an access team. For example, if the access team has the Delete access right on an account, the user must have the Delete privilege on the Account entity to join the team. If you’re trying to add a user with insufficient privileges, you’ll see this error message: “You can’t add the user to the access team because the user doesn’t have sufficient privileges on the entity.”  
   
- For the step-by-step instructions on how to create a team template and add it the entity form, see the article in the [Create a team template and add to an entity form](http://go.microsoft.com/fwlink/p/?LinkId=513220)  
+ For the step-by-step instructions on how to create a team template and add it the entity form, see the article in the [Create a team template and add to an entity form](create-team-template-add-entity-form.md)  
   
 <a name="MaxSettings"></a>   
 ## Maximum settings for system-managed access teams  
- The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]<!--[TeamSettings](Update%20deployment%20configuration%20settings.md#team) or --> [MSDN: Deployment Entities and Deployment Configuration Settings](https://msdn.microsoft.com/library/gg328063.aspx).  
+ The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)].<!--[TeamSettings](Update%20deployment%20configuration%20settings.md#team) or -->   
   
 ### See also  
- [Manage security, users and teams](../admin/manage-security-users-and-teams.md) 
- [Create a team template and add to an entity form](../customize/create-team-template-add-entity-form.md)   
+ [Manage security, users and teams](../admin/manage-security-users-and-teams.md)<br /> 
+ [Create a team template and add to an entity form](create-team-template-add-entity-form.md)   
  [About team templates](../admin/about-team-templates.md)   
  [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
  [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
  <!-- [Update deployment configuration settings](Update%20deployment%20configuration%20settings.md)   -->
- [About team templates](http://go.microsoft.com/fwlink/p/?LinkId=513222)   
+ [About team templates](about-team-templates.md)   
  [Download: Access Teams in Microsoft Dynamics CRM](http://download.microsoft.com/download/E/9/0/E9009308-CA01-4B37-B03C-435B8ACB49B4/Access%20Teams%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)   
  [Download: Scalable security modeling with Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=328757)   
- [MSDN: Entity relationship behavior](https://msdn.microsoft.com/library/gg309412.aspx)
+ [Entity relationship behavior](../developer/entity-relationship-behavior.md)

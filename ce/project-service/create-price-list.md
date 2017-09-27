@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create a price list (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Price lists provide a template your account managers can use for creating quotes and projects, and for establishing the costs of a project. They provide a line item list of roles and expenses, and the price you will charge for each. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels. It’s a good idea to create at least one price list for every currency you plan to bill your customers in.  
   
  To create financial estimates for the work to be delivered, make sure every project has a backing cost and sales price list. Set up a default cost and sales pricelist that applies to all projects created in your organization.  

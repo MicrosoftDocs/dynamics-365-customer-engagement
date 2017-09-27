@@ -1,7 +1,7 @@
 ---
 title: "Policies and Communications for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,9 +17,12 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Policies and Communications for service incidents
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
   
- If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see [Find your Dynamics 365 administrator or support person](find-your-way-around-dynamics-365-customer-engagement-enterprise.md).  
+ If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
   
  If you want to change who receives email communications, see [Manage email notifications](../admin/manage-email-notifications.md).  
   
@@ -28,6 +31,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
  To learn more about each type of maintenance and update activity, as well as the communications your organization receives, click on one of the following, or scroll down:  
   
 <a name="bkmk_PlannedMaintenance"></a>   
+
 ## Planned maintenance  
  Planned maintenance includes updates and changes to the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service to provide increased stability, reliability, and performance. These changes can include:  
   
@@ -39,7 +43,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 -   Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year  
   
- **How do I find out about planned maintenance?**  
+**How do I find out about planned maintenance?**  
   
  Your organization will receive a Maintenance notification through the [Office 365 Message Center](https://support.office.com/article/Message-center-in-Office-365-38fb3333-bfcc-4340-a37b-deda509c2093). Additionally, for maintenance activities that impact your ability to use the service, [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] System Administrators will receive an email notification.  
   
@@ -48,6 +52,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
  In addition, you can  see the schedule and status of planned maintenance activities on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   
 <a name="bkmk_UnplannedMaintenance"></a>   
+
 ## Unplanned maintenance  
  From time to time, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] inevitably encounters unplanned issues that require changes to ensure availability. Microsoft strives to provide as much notification as possible during these events. Because these events can’t be predicted, they are not considered planned maintenance.  
   
@@ -62,6 +67,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
  ![Planned and unplanned maintenance banner](../admin/media/maintenance-banner.png "Planned and unplanned maintenance banner")  
   
 <a name="bkmk_SecurityUpdates"></a>   
+
 ## Security updates  
  The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team regularly performs the following to ensure the security of the system:  
   
@@ -71,15 +77,16 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 -   Evaluations of the service to determine exposure to any vulnerabilities identified by the Microsoft Security Response Center (MSRC), which regularly monitors external vulnerability awareness sites  
   
- The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team identifies and tracks any identified issues, and takes swift action to mitigate risks when necessary.  
+The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team identifies and tracks any identified issues, and takes swift action to mitigate risks when necessary.  
   
- **How do I find out about security updates?**  
+**How do I find out about security updates?**  
   
  Because the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team strives to apply risk mitigations in a way that doesn’t require service downtime, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
   
  For more information about [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security, see [Dynamics 365 (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365).  
   
 <a name="bkmk_ServiceUpdates"></a>   
+
 ## Service updates  
  Dynamics 365 (online) typically releases two major service updates per year. Service updates provide new features and functionality to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
@@ -98,13 +105,14 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
  To find out what’s new and how to prepare for the next release, check out the following resources:  
   
--   [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)  
+-   [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)  
   
- Emails regarding the scheduling or rescheduling of your update will be sent with a light-blue banner.  
+Emails regarding the scheduling or rescheduling of your update will be sent with a light-blue banner.  
   
  ![Banner in email for scheduling your update](../admin/media/scheduling-banner.png "Banner in email for scheduling your update")  
   
 <a name="bkmk_ServiceIncidents"></a>   
+
 ## Service incidents  
  A service incident occurs when your organization is inaccessible or you’re unable to use the service or one of its components. Examples include:  
   
@@ -116,7 +124,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 -   Users can sign in, but see a blank screen.  
   
- **How do I find out about service incidents?**  
+**How do I find out about service incidents?**  
   
  If you open a case to report a service incident, a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] customer support representative will call your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin and follow up with an email when the service incident is resolved.  
   
@@ -144,9 +152,9 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 -   Next steps  
   
- If the service incident breaches your [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=196557), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 (online)](billing-faqs-dynamics-365-online.md).
+If the service incident breaches your [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=196557), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 (online)](billing-faqs-dynamics-365-online.md).
   
- Major service incident emails can easily be identified by the orange banner.  
+Major service incident emails can easily be identified by the orange banner.  
   
  ![Service incident email banner](../admin/media/service-incident-banner.png "Service incident email banner")  
   
@@ -157,24 +165,27 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
  ![Service restored email banner](../admin/media/service-restored-banner.png "Service restored email banner")  
   
 <a name="BKMK_GeneralAwareness"></a>   
+
 ## General awareness  
  These emails are specific to managing the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Service, including changes with the service or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.  
   
  ![General awareness email banner](../admin/media/general-awareness-banner.png "General awareness email banner")  
   
 <a name="BKMK_LaunchReadiness"></a>   
+
 ## Launch and post launch readiness communications  
  These communications are used to inform [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators about important information prior to a major service release. Our goal is to share information about tasks that administrators may need to perform before the release and to inform customers about new or enhanced capabilities that are coming in the release. You’ll see a green banner when receiving these types of communications.  
   
  ![Launch readiness email banner](../admin/media/readiness-banner.png "Launch readiness email banner")  
   
 <a name="BKMK_PostPurchase"></a>   
+
 ## Post-purchase customer lifecycle communications  
  Once a customer has purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we send a series of helpful email communications to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  You can easily identify these communications by the dark-blue banner.  
   
- ![Post&#45;purchase email banner](../admin/media/post-purchase-banner.png "Post-purchase email banner")  
+ ![Post-purchase email banner](../admin/media/post-purchase-banner.png "Post-purchase email banner")  
   
 ### See also  
  [Manage Microsoft Dynamics 365 (online) updates](../admin/manage-updates.md)   

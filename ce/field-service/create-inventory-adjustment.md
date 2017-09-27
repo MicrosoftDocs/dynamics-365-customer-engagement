@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Add or subtract inventory from a warehouse (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can do an inventory adjustment in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] to add or subtract inventory to or from a warehouse.  
   
 Let's say you're getting a new shipment of  Product A that you're going to add to Warehouse 1. In this case you would create a new inventory adjustment record and specify the warehouse. Next you'll add the product to the inventory adjustment record and specify the product, unit, and quantity.  

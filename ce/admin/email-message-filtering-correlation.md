@@ -1,7 +1,7 @@
 ---
 title: "Email message filtering and correlation for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,8 +16,11 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Use Email message filtering and correlation to specify which emails are tracked
-server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], or the Email Router can automatically create email activities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], which are based on received email messages. This type of automation is known as email message tracking. Users can select a filtering option that determines what email messages will be tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Filtering is set on the **Email** tab of the **Set Personal Options** dialog box in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] client applications. Users can set the following options:  
+# Use Email message filtering and correlation to specify which emails are tracked 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], or the Email Router can automatically create email activities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], which are based on received email messages. This type of automation is known as email message tracking. Users can select a filtering option that determines what email messages will be tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Filtering is set on the **Email** tab of the **Set Personal Options** dialog box in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] client applications. Users can set the following options:  
   
 - **All email messages**. All email messages received by the user are tracked (will have activities created).  
   
@@ -27,9 +30,9 @@ server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](..
   
 - **Email messages from Microsoft Dynamics 365 records that are email enabled**. Email messages are tracked from any record type that contains an email address, including customized record types (entities).  
   
- By default, the **Email messages in response to Dynamics 365 email** option is enabled. Correlation occurs after an email message is filtered. System administrators can turn off all message tracking for a particular user by setting the **Email Access Type - Incoming** value to **None** on the **General** tab on the **User** form.  
+By default, the **Email messages in response to Dynamics 365 email** option is enabled. Correlation occurs after an email message is filtered. System administrators can turn off all message tracking for a particular user by setting the **Email Access Type - Incoming** value to **None** on the **General** tab on the **User** form.  
   
- Email correlation is set on the **Email** tab of the System Settings page and can be enabled or disabled for the entire [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses two kinds of correlation, tracking tokens and smart matching. By default, both correlation types are enabled.  
+Email correlation is set on the **Email** tab of the System Settings page and can be enabled or disabled for the entire [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses two kinds of correlation, tracking tokens and smart matching. By default, both correlation types are enabled.  
   
 > [!IMPORTANT]
 >  Tracking tokens are the only supported correlation method that can be used when you use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] connected to an SMTP server and send email to a non-Exchange recipient. In this situation, if tracking tokens are not enabled, then correlation events, such as the automatically creating records based on the regarding object, may not work.  
@@ -43,7 +46,7 @@ server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](..
   
 3.  In the **Configure folder-level tracking and email correlation** area, click **Use correlation to track email conversations**.  
   
- ![Configure folder&#45;level tracking](../admin/media/configure-folder-level-tracking.png "Configure folder-level tracking")  
+ ![Configure folder-level tracking](../admin/media/configure-folder-level-tracking.png "Configure folder-level tracking")  
   
  If checked, this option uses the conversation id to identify all the emails that replied to a tracked email.  
   
@@ -85,13 +88,12 @@ server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](..
   
 - **Sender and recipient matching**. The system calculates the number of exact sender and recipient email addresses in common.  
   
- When the matching process is complete, the system selects the owner and the object of the incoming email message.  
+When the matching process is complete, the system selects the owner and the object of the incoming email message.  
   
- By default, smart matching is turned on.  
+By default, smart matching is turned on.  
   
 > [!NOTE]
->  You can disable, enable, and tune smart-matching settings in the [System Settings dialog box – Email tab](http://go.microsoft.com/fwlink/p/?LinkID=394727).  
+>  You can disable, enable, and tune smart-matching settings in the [System Settings dialog box – Email tab](system-settings-dialog-box-email-tab.md).  
   
 ### See also  
- [Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)   
  [Forward mailbox vs. individual mailboxes](../admin/forward-mailbox-vs-individual-mailboxes.md)

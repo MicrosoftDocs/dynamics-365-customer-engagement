@@ -1,7 +1,7 @@
 ---
-title: "Create a mobile task flow in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create a mobile task flow (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Create a mobile task flow
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Design a flow in [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] based on common tasks your users perform. For example, if they need to regularly perform a series of follow-up steps after client meetings, create a task flow. When users tap the new task in their mobile app, it will lead them through from start to finish so they don't forget an important step.  
   
  Task flows can use multi-entity forms and logic, and can have form logic that runs across the task flow pages.  
@@ -75,5 +78,5 @@ Design a flow in [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express
   
 ### See also  
  [Create a business process flow](../customize/create-business-process-flow.md)   
- [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md) 
- [Guide staff through common tasks with processes](../customize/guide-staff-through-common-tasks-processes.md)
+ [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md) <br/>
+ [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)

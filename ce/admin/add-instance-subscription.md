@@ -1,7 +1,7 @@
 ---
 title: "Add an instance to your subscription of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,10 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Add an instance to your subscription
-You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics CRM pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
  Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Professional user license subscription.  
   
@@ -45,7 +48,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 - **Country/Region**. You can specify a region for the instance.  
   
     > [!NOTE]
-    >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (production and non-production) in more than one geographical region, please contact your account manager or [Technical Support](http://go.microsoft.com/fwlink/p/?LinkID=321650).  
+    >  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (production and non-production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
 - **Currency**. When you add an instance, you must select a base currency before the instance is provisioned. Although you can add currencies in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application, only the base currency will be used for reporting.  
   
@@ -64,7 +67,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 3.  Proceed through the screens to purchase additional instances.  
   
-     For more information, see [Microsoft Dynamics CRM pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).  
+     For more information, see [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).  
   
 > [!TIP]
 >  Close your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] browser session and open a new session to force an update to the **Manage all Dynamics 365 (online) instances** page.  
@@ -84,7 +87,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
     >   
     >  You cannot start a new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance until you click **Configure** and complete the configuration process.  
     >   
-    > [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances will not come prepared with sample data when configured by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator who does not have a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] System administrator security role. For more information, see [Add or remove sample data](http://go.microsoft.com/fwlink/p/?LinkID=512846).  
+    > [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances will not come prepared with sample data when configured by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator who does not have a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] System administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
   
 5.  On the **configure new instance** page, enter your settings, and then click **Next**.  
   
@@ -135,7 +138,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 -   If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
 > [!NOTE]
->  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 (online) as a Microsoft Online service](../admin/grant-users-access.md).  
+>  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 (online)](../admin/grant-users-access.md).  
   
 ### Create a security group and add members to the security group  
   
@@ -175,12 +178,12 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 > [!TIP]
 >  To force an immediate synchronization between the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], do the following:  
 >   
->  -   Sign out of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
+> -   Sign out of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
 > -   Close all open browsers used for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
 > -   Sign back in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
   
 ### See also  
  [Edit properties of an instance](../admin/edit-properties-instance.md)   
  [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Grant users access to Microsoft Dynamics 365 (online) as a Microsoft Online service](../admin/grant-users-access.md)   
+ [Grant users access to Microsoft Dynamics 365 (online)](../admin/grant-users-access.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Prioritize your work orders (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Priority records let you prioritize your work orders. You can also assign each priority value a custom color, which will display in the outline of the resource booking time slot on the schedule board. This allows dispatchers to visually distinguish a job's priority while managing the schedule.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Priorities**.  

@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 (online) to Exchange Server (on-premises) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Connect Dynamics 365 (online) to Exchange Server (on-premises)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you can connect your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] (on-premises).  
   
  Check out the following white paper: [Setup Guide: Server-side synchronization for CRM Online and Exchange Server](http://download.microsoft.com/download/E/D/0/ED05CA70-190F-4BAE-9F6A-0BB2F0010B81/Setup%20Guide%20Server-side%20synchronization%20for%20CRM%20Online%20and%20Exchange%20Server.pdf)  
@@ -40,7 +43,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
 
     -  [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]: [Default settings for Exchange virtual directories](https://technet.microsoft.com/library/gg247612(v=exchg.160).aspx)
   
-3. **ApplicationImpersonation role**. You need to create and configure a service account with the **ApplicationImpersonation** role in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Impersonation and EWS in Exchange](https://msdn.microsoft.com/library/office/dn722377\(v=exchg.150\).aspx).  
+3. **ApplicationImpersonation role**. You need to create and configure a service account with the **ApplicationImpersonation** role in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Impersonation and EWS in Exchange](https://msdn.microsoft.com/library/office/dn722377\(v=exchg.150\).aspx).  
   
 4. **Secured connection**. The connection between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and Exchange must be encrypted via [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] (HTTPS).  
   
@@ -108,12 +111,9 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
   
     - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router  
   
-        > [!NOTE]
-        >  If your users primarily use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] on their desktop computers, **Dynamics 365 for Outlook** might be a better choice.  
-  
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
   
- ![System Settings for server&#45;side synchronization](../admin/media/exchange-online-server-side-sync-settings-hybrid.png "System Settings for server-side synchronization")  
+ ![System Settings for server-side synchronization](../admin/media/exchange-online-server-side-sync-settings-hybrid.png "System Settings for server-side synchronization")  
   
 3.  Click **OK**.  
   
@@ -151,9 +151,6 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
   
 6.  Set **Appointments, Contacts, and Tasks** to **Server-Side Synchronization**.  
   
-    > [!NOTE]
-    >  If your users primarily use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] on their desktop computers, **Dynamics 365 for Outlook** might be a better choice.  
-  
 7.  Click **Change**.  
   
 <a name="BKMK_ApproveEmail"></a>   
@@ -182,7 +179,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
      The result of the email configuration test is displayed in the **Incoming Email Status**, **Outgoing Email Status**, and **Appointments, Contacts, and Tasks Status** fields of a mailbox record. An alert is also generated when the configuration is successfully completed for a mailbox. This alert is shown to the mailbox owner.  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?LinkID=391868).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 <a name="BKMK_TestAllMailbox"></a>   
 ## Test email configuration for all mailboxes associated with an email server profile  
@@ -194,13 +191,11 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
      When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] tests the email configuration of all the mailboxes associated with the [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?LinkID=391868).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 ### See also  
  [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
- [Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)   
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
  [Server-side synchronization](../admin/server-side-synchronization.md)   
  [Autodiscover service](https://technet.microsoft.com/library/bb124251\(v=exchg.150\).aspx)   
  [Managing the Autodiscover Service](https://technet.microsoft.com/library/aa995956\(v=exchg.141\).aspx)

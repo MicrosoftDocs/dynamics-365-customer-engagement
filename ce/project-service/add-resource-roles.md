@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Add resource roles (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Set target utilization rates for each role. These settings determine resource availability and utilization when you’re staffing projects and analyzing actuals.  
   
 1.  Go to the resource role you want to configure the utilization for (**Project Service > Resource Role**).  

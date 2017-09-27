@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Set up resources (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Before requesting or assigning resources in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you need to define the roles and the skill sets that your clients’ projects need. This requires some configuration on your part:  
   
 -   [Add resource skills](../project-service/add-resource-skills.md)  

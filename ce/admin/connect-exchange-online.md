@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 (online) to Exchange Online | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Connect Dynamics 365 (online) to Exchange Online
+# Connect Dynamics 365 (online) to Exchange Online 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] hosted as online services, connecting the two is a simpler, more straightforward configuration.  
   
 > [!TIP]
@@ -68,14 +71,11 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
   
     - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router  
   
-        > [!NOTE]
-        >  If your users primarily use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] on their desktop computers, **Dynamics 365 for Outlook** might be a better choice.  
-  
- ![System Settings for server&#45;side synchronization](../admin/media/exchange-online-sss-settings.png "System Settings for server-side synchronization")  
+ ![System Settings for server-side synchronization](../admin/media/exchange-online-sss-settings.png "System Settings for server-side synchronization")  
   
 3.  Click **OK**.  
   
- All new users will have these settings applied to their mailbox.  
+All new users will have these settings applied to their mailbox.  
   
 <a name="BKMK_ConfigureMailboxes"></a>   
 ## Configure mailboxes  
@@ -110,9 +110,6 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
 5.  Set **Incoming** and **Outgoing** **Email** to **Server-Side Synchronization or Email Router**.  
   
 6.  Set **Appointments, Contacts, and Tasks** to **Server-Side Synchronization**.  
-  
-    > [!NOTE]
-    >  If your users primarily use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] on their desktop computers, **Dynamics 365 for Outlook** might be a better choice.  
   
 7.  Click **Change**.  
   
@@ -151,7 +148,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
      Make sure you’ve got a good connection to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] by running the [Microsoft Remote Connectivity Analyzer](https://testconnectivity.microsoft.com/). For information on what tests to run, see [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx).  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?LinkID=391868).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 <a name="BKMK_TestEmailConfig"></a>   
 ## Test email configuration for all mailboxes associated with an email server profile  
@@ -163,10 +160,8 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
      When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] tests the email configuration of all the mailboxes associated with the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?LinkID=391868).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 ### See also  
  [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
- [Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)   
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

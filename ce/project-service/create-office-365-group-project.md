@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create an Office 365 Group for a project (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Provide a space where team members for a project can collaborate on project documents, view the team’s calendar, and have group conversations by creating an Office 365 Group for that project.  
   
 1.  Go to **Project Service > Projects**.  

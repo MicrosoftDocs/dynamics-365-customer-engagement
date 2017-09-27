@@ -1,7 +1,12 @@
 ---
-title: "Accessibility in app designer, site map designer, and My Apps page (Dyanmics 365 Customer Engagement) | MicrosoftDocs"
+title: Understand accessibility in app designer, site map designer, and My Apps page in Dynamics 365 | Microsoft Docs
+description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365
+keywords: App designer; site map designer; my apps; Dynamics 365
+author: anjgupta
+ms.author: anjgup
+manager: sakudes
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,16 +14,17 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
-caps.latest.revision: 9
-ms.author: "shujoshi"
 ---
 # Accessibility in app designer, site map designer, and My Apps page
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  
   
 ## Keyboard shortcuts  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities.  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities.  
   
 |My Apps page|||  
 |------------------|-|-|  

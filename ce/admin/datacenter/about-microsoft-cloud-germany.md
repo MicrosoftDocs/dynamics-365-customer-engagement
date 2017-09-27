@@ -17,6 +17,8 @@ ms.author: "jimholtz"
 ---
 # About the Microsoft Cloud Germany datacenter
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dyn_365_germany](../../includes/pn-dyn-365-germany.md)] address the needs of the most regulated customers in Germany, the European Union (EU), and the European Free Trade Association (EFTA). The German datacenter delivers services that bring together the best of Microsoft in productivity, collaboration, intelligence and platform to grow, evolve and transform your business.  
   
 > [!NOTE]
@@ -63,8 +65,6 @@ ms.author: "jimholtz"
 Customer Engagement Plan Enterprise Edition is a user subscription that includes [!INCLUDE[pn_ms_dyn_365_for_sales](../../includes/pn-ms-dyn-365-for-sales.md)], [!INCLUDE[pn_ms_dyn_365_for_customer_service](../../includes/pn-ms-dyn-365-for-customer-service.md)], [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../../includes/pn-project-service-auto.md)], and Team Members, Enterprise edition. Please note that [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)] cause location data to be transmitted to [!INCLUDE[pn_bing_maps](../../includes/pn-bing-maps.md)] outside of Germany.  
   
 ### Coming soon:  
-  
-- Portals  
   
 - [!INCLUDE[pn_azure_expressroute](../../includes/pn-azure-expressroute.md)]  
   

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Set up currencies and exchange rates (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In order to create quotes and invoice your customers in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you need to set up the currencies and exchange rates for the areas in which you do business.  
   
 1.  Go to **Settings > Business Management**.  

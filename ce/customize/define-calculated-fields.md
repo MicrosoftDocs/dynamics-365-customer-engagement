@@ -1,7 +1,7 @@
 ---
-title: "Define calculated fields in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Define calculated fields (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Define calculated fields to automate manual calculations
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], *calculated* fields let you automate manual calculations used in your business processes. For example, a salesperson may want to know the weighted revenue for an opportunity which is based on the estimated revenue from an opportunity multiplied by the probability. Or, they want to automatically apply a discount, if an order is greater than $500. A calculated field can contain values resulting from simple math operations, or conditional operations, such as greater than or if-else, and many others. You can accomplish all this by using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface, no need to write code.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *calculated* fields let you automate manual calculations used in your business processes. For example, a salesperson may want to know the weighted revenue for an opportunity which is based on the estimated revenue from an opportunity multiplied by the probability. Or, they want to automatically apply a discount, if an order is greater than $500. A calculated field can contain values resulting from simple math operations, or conditional operations, such as greater than or if-else, and many others. You can accomplish all this by using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface, no need to write code.  
   
  **The calculated field capabilities:**  
   
@@ -34,7 +37,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], *calculated* fie
   
 -   If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure calculated fields to use custom controls.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../mobile-app/customize-phones-tablets.md#BKMK_VisualControls)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../customize/add-visual-controls-mobile-app.md#BKMK_VisualControls)  
   
  **A few examples of the calculated fields**  
   

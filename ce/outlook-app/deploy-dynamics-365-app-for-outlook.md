@@ -1,5 +1,5 @@
 ---
-title: "Deploy Dynamics 365 App for Outlook | MicrosoftDocs"
+title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -19,6 +19,12 @@ tags:
  - "MigrationHO"
 ---
 # Deploy Dynamics 365 App for Outlook 
+
+> [!NOTE]
+> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] while using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
   
 > [!IMPORTANT]
@@ -115,13 +121,42 @@ Customization tab:
 |||  
 |-|-|  
 |[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]|[!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]|  
-|[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)|  
-|[!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)|  
+|[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server 2013) or greater|  
+|[!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server 2013) or greater|  
 |[!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]|[!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]|  
   
 > [!NOTE]
 >  If you use [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], you'll need to authenticate with IFD authentication as described below.  
   
+### Support summary
+
+#### Windows desktop
+- Outlook 2013 (desktop client)
+- Outlook 2016 (desktop client)
+- Outlook on the web on Internet Explorer 11, Edge, and Chrome
+
+#### Macintosh
+- Not supported
+
+#### iPhone
+- Outlook for iOS on iPhone 6S, 6S plus and higher with iOS 10 
+
+#### iPad
+- Not supported
+
+#### Android phones
+- Outlook for Android on 6 (Marshmallow), 7 (Nougat) 
+
+#### Android tablets
+- Not supported
+
+#### Windows phones and tablets
+- Not supported
+
+Check back later for updates on supported platforms.
+
+<!--
+
 ### Supported browsers for Outlook on the web  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] on the following browsers:  
   
@@ -139,36 +174,37 @@ Customization tab:
   
 - [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]  
   
-- [!INCLUDE[tn_apple](../includes/tn-apple.md)] [!INCLUDE[tn_Safari](../includes/tn-safari.md)] (version 9 or version 10) on Mac or on OSX  
+ - [!INCLUDE[tn_apple](../includes/tn-apple.md)] [!INCLUDE[tn_Safari](../includes/tn-safari.md)] (version 9 or version 10) on Mac or on OSX  
   
 ### Supported operating systems for Outlook on the desktop  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] on these versions of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for the desktop:  
   
 - [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 2013 and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 2016.  
  
-<!-- 
+[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] version 15.0.847.32 or greater is required.  
+
 - [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for Mac*.  
   
-     *[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] version 15.0.847.32 or greater is required.  
--->  
+     *[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server 2013) or greater is required.  
+
 
 ### Supported mobile devices  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] in the mobile browser on any of the following phones and operating systems:  
   
-- [!INCLUDE[tn_apple](../includes/tn-apple.md)] [!INCLUDE[tn_iphone](../includes/tn-iphone.md)] devices running iOS version 8,  9, or 10.  
+[!INCLUDE[tn_apple](../includes/tn-apple.md)] [!INCLUDE[tn_iphone](../includes/tn-iphone.md)] devices running iOS version 10.  
   
-- [!INCLUDE[tn_android](../includes/tn-android.md)] phones running [!INCLUDE[tn_android](../includes/tn-android.md)] 4.4 (KitKat) or 5.0 (Lollipop), 6 (Marshmallow), or 7 (Nougat).  
+- [!INCLUDE[tn_android](../includes/tn-android.md)] phones running [!INCLUDE[tn_android](../includes/tn-android.md)] 6 (Marshmallow), or 7 (Nougat).  
   
 - [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] devices running [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] or [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)].  
-  
+
 ### Supported clients per feature  
  The [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] features supported depend on the client you're running. The following table summarizes which features are supported for each client/configuration of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
+ 
+![Clients supported for each Dynamics 365 App for Outlook feature](media/clients-supported-for-each-dynamics-365-app-for-outlook-feature.png)
   
- ![Clients supported for each Dynamics 365 App for Outlook feature](../admin/media/clients-supported-for-each-dynamics-365-app-for-outlook-feature.png "Clients supported for each Dynamics 365 App for Outlook feature")  
+ (1)  [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)], and latest [!INCLUDE[tn_chrome](../includes/tn-chrome.md)].  
   
- (1) [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] supports [!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)], [!INCLUDE[tn_Safari](../includes/tn-safari.md)] 9, [!INCLUDE[tn_Safari](../includes/tn-safari.md)] 10, [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)], and [!INCLUDE[tn_chrome](../includes/tn-chrome.md)].  
-  
- (2)  Mobile [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] supports [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)], [!INCLUDE[tn_ios](../includes/tn-ios.md)] 8, [!INCLUDE[tn_ios](../includes/tn-ios.md)] 9, [!INCLUDE[tn_ios](../includes/tn-ios.md)] 10, [!INCLUDE[tn_android](../includes/tn-android.md)] KitKat (4.4), [!INCLUDE[tn_android](../includes/tn-android.md)] Lollipop, [!INCLUDE[tn_android](../includes/tn-android.md)] Marshmallow, and [!INCLUDE[tn_android](../includes/tn-android.md)] Nougat.  
+ (2)   Mobile [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] supports [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)], [!INCLUDE[tn_ios](../includes/tn-ios.md)] 8, [!INCLUDE[tn_ios](../includes/tn-ios.md)] 9, [!INCLUDE[tn_ios](../includes/tn-ios.md)] 10, [!INCLUDE[tn_android](../includes/tn-android.md)] KitKat (4.4), [!INCLUDE[tn_android](../includes/tn-android.md)] Lollipop, [!INCLUDE[tn_android](../includes/tn-android.md)] Marshmallow, and [!INCLUDE[tn_android](../includes/tn-android.md)] Nougat.  
   
  (3)  Tracking email in compose mode and tracking appointments requires [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] 2013 CU14 or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] 2016.  
   
@@ -178,7 +214,7 @@ Customization tab:
   
  (6)  Supported only on [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 2016 16.0.7426.1049 and later.  
   
- (7)  Supported only on 16.0.6741.1000 and later.  
+ (7)  Supported only on [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)]  16.0.6741.1000 and later.  
 
  (8)  Supported on iPhones 6S or higher, with iOS 8 or higher.
   
@@ -186,7 +222,8 @@ Customization tab:
 >  Tablets are not supported at this time (coming CY2017).  
   
  [Read more details about supported clients in this blog: Dynamics 365 App for Outlook Support Matrix](https://blogs.msdn.microsoft.com/crm/2016/12/13/dynamics-365-app-for-outlook-support-matrix/)  
-  
+--> 
+ 
 ### Supported servers  
  The [server requirements for using Office Add-ins](https://dev.office.com/docs/add-ins/overview/requirements-for-running-office-add-ins) are [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)], [!INCLUDE[pn_exchange_server_2016_short](../includes/pn-exchange-server-2016-short.md)], or [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
   

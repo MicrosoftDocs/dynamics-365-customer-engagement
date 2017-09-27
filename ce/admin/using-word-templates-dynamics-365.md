@@ -1,7 +1,7 @@
 ---
 title: "Using Word templates in Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Use Word templates to create standardized documents
-[!INCLUDE[cc_feature_included_with_update_2016](../includes/cc-feature-included-with-update-2016.md)]  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
   
  After you create and import [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] templates into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], with one click users can generate standardized documents automatically populated with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. This feature has some special considerations you should know about to successfully create [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates.  
   
@@ -54,7 +56,7 @@ manager: "brycho"
 > [!TIP]
 >  To delete personal document templates, do the following:  
 >   
->  1.  Click Advanced Find (![Screen shot of Advanced Find button](../admin/media/advanced-find-button.PNG "Screen shot of Advanced Find button")).  
+> 1.  Click Advanced Find (![Screen shot of Advanced Find button](../admin/media/advanced-find-button.PNG "Screen shot of Advanced Find button")).  
 > 2.  For **Look for**, select **Personal Document Templates**.  
 > 3.  Click **Results** (!).  
 > 4.  Select the personal document template to delete and then click Delete (![Delete button](../admin/media/nb-ua-r1-trashbin.png "Delete button")).  
@@ -68,7 +70,7 @@ manager: "brycho"
  ![Select entities for the Word template](../admin/media/word-template-select-entities.png "Select entities for the Word template")  
   
 ### What are 1:N, N:1, and N:N relationships?  
- This screen requires an understanding of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data structure. Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or customizer can provide information about entity relationships. For admin content, see: [Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx).  
+ This screen requires an understanding of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data structure. Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or customizer can provide information about entity relationships. For admin content, see: [Create and edit entity relationships](../customize/create-edit-entity-relationships.md).  
   
  Here are some example relationships for the Account entity.  
   
@@ -111,7 +113,7 @@ manager: "brycho"
 > [!WARNING]
 >  A few things  can cause [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] to freeze, requiring you to use [!INCLUDE[pn_ms_TaskManager_short](../includes/pn-ms-taskmanager-short.md)] to stop [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]:  
 >   
->  -   You insert a content control other than **Picture** or **Plain Text**.  
+> -   You insert a content control other than **Picture** or **Plain Text**.  
 > -   You make a textual change, such as changing the capitalization or adding text, to a content control. These changes can occur through AutoCorrect as well as user edits. By default, Microsoft [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] AutoCorrect capitalizes sentences. When you add a content control field, [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] sees it as a new sentence and will capitalize it when focus shifts away from the field.  
   
  To prevent issues with control fields, do the following:  

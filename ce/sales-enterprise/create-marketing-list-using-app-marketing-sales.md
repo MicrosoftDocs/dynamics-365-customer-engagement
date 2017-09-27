@@ -1,5 +1,5 @@
 ---
-title: "Create a marketing list using in-app marketing (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Create a marketing list using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -16,7 +16,10 @@ author: "kamaybac"
 ms.author: "kamaybac"
 manager: "sakudes"
 ---
-# Create a marketing list using in-app marketing (Sales, Enterprise)
+# Create a marketing list using in-app marketing (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Your marketing list is the core of running a successful marketing campaign. It can include any one type of customer record, such as leads, accounts, or contacts.  
   
  You can create two types of marketing lists:  
@@ -51,13 +54,13 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
 2.  In the **Manage Members** dialog box, select one of the following options, and then click **Continue**.  
   
-    ###### Add using Lookup  
+    #### Add using Lookup  
   
     1.  In the **Look Up Records** dialog box, select your search criteria.  
   
     2.  Select the records that you want to add, click **Select**, and then click **Add**.  
   
-    ###### Add using Advanced Find  
+    #### Add using Advanced Find  
   
     1.  In the **Add Members** dialog box, click **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
   
@@ -75,7 +78,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
         -   Add all the members returned by the search to the marketing list  
   
-    ###### Remove using Advanced Find  
+    #### Remove using Advanced Find  
   
     1.  In the **Add Members** dialog box, click **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
   
@@ -93,7 +96,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
         -   Remove all the members returned by the search from the marketing list  
   
-    ###### Evaluate using Advanced Find  
+    #### Evaluate using Advanced Find  
   
     1.  In the **Add Members** dialog box, click **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types. When you select a related record type, a new line appears with another Select list for the related record type.  
   
