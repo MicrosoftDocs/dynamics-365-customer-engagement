@@ -1,0 +1,1 @@
+# [Stay current with the latest news](get-company-news-timeline-dynamics-365-phones-tablets.md)

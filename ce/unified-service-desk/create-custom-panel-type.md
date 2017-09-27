@@ -2,7 +2,7 @@
 title: "Create a custom panel type | MicrosoftDocs"
 description: "Learn about creating a custom panel type."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

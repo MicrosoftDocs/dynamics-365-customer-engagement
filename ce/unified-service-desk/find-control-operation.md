@@ -2,7 +2,7 @@
 title: "FindControl Operation in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The topic describes the two approaches that can be used to identify a user interface (UI) control."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,11 +22,6 @@ manager: "jdaly"
 ---
 # FindControl Operation in Unified Service Desk
 This topic describes the two approaches that can be used to identify a user interface (UI) control.  
-  
-## In this topic  
- [UI Tree-based identification](../unified-service-desk/find-control-operation.md#tree)  
-  
- [Offset-based Identification](../unified-service-desk/find-control-operation.md#offset)  
   
 <a name="tree"></a>   
 ## UI Tree-based identification  

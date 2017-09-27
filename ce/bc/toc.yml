@@ -2,11 +2,47 @@
   tocHref: /dynamics365/
   topicHref: /dynamics365/
   items:
+  - name: Basics
+    tocHref: /dynamics365/customer-engagement/basics/
+    topicHref: /dynamics365/customer-engagement/basics/basics-guide
+  - name: Administrator Guide
+    tocHref: /dynamics365/customer-engagement/admin/
+    topicHref: /dynamics365/customer-engagement/admin/admin-guide
+  - name: Customization Guide
+    tocHref: /dynamics365/customer-engagement/customize/
+    topicHref: /dynamics365/customer-engagement/customize/overview
+  - name: Reporting and Analytics
+    tocHref: /dynamics365/customer-engagement/analytics/
+    topicHref: /dynamics365/customer-engagement/analytics/reporting-analytics-with-dynamics-365
+  - name: Sales
+    tocHref: /dynamics365/customer-engagement/sales-enterprise/
+    topicHref: /dynamics365/customer-engagement/sales-enterprise/overview
+  - name: Customer Service
+    tocHref: /dynamics365/customer-engagement/customer-service/
+    topicHref: /dynamics365/customer-engagement/customer-service/overview
+  - name: Field Service
+    tocHref: /dynamics365/customer-engagement/field-service/
+    topicHref: /dynamics365/customer-engagement/field-service/overview
+  - name: Project Service
+    tocHref: /dynamics365/customer-engagement/project-service/
+    topicHref: /dynamics365/customer-engagement/project-service/overview
+  - name: Phones and tablets
+    tocHref: /dynamics365/customer-engagement/mobile-app/
+    topicHref: /dynamics365/customer-engagement/mobile-app/overview
+  - name: Outlook
+    tocHref: /dynamics365/customer-engagement/outlook-app/
+    topicHref: /dynamics365/customer-engagement/outlook-app/overview
+  - name: "Insights, powered by InsideView"
+    tocHref: /dynamics365/customer-engagement/insights-insideview/
+    topicHref: /dynamics365/customer-engagement/insights-insideview/insights-powered-by-insideview
+  - name: Versium Predict
+    tocHref: /dynamics365/customer-engagement/versium-predict/
+    topicHref: /dynamics365/customer-engagement/versium-predict/versium-predict
   - name: Gamification
     tocHref: /dynamics365/customer-engagement/gamification
     topicHref: /dynamics365/customer-engagement/gamification/increase-employee-productivity-with-dynamics-365-gamification
   - name: Voice of the Customer
-    tocHref: /dynamics365/customer-engagement/voice-of-customer
+    tocHref: /dynamics365/customer-engagement/voice-of-customer/
     topicHref: /dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey
   - name: Social Engagement
     tocHref: /dynamics365/customer-engagement/social-engagement

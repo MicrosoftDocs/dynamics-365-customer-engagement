@@ -2,7 +2,7 @@
 title: "Walkthrough: Create custom hosted control for Unified Service Desk | MicrosoftDocs"
 description: "Learn about how to create a custom hosted control for Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -41,11 +41,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 - [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] Package Manager for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom hosted control project template. You can get it in one of the following ways:  
-  
-    -   [Download the CRM SDK template from the Visual Studio gallery](http://go.microsoft.com/fwlink/p/?LinkId=400925). Double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
-  
-    -   [Download and install the CRM SDK](http://go.microsoft.com/fwlink/p/?LinkId=627298). The templates file, CRMSDKTemplates.vsix, is located in the SDK\Templates folder. Double-click the template file to install it in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom hosted control project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
   
 <a name="HowTo"></a>   
 ## Create a custom hosted control  
@@ -55,7 +51,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 2.  In the **New Project** dialog box:  
   
-    1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 SDK Templates** > **Unified Service Desk** > **USD Custom Hosted Control**.  
+    1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD Custom Hosted Control**.  
   
     2.  Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.5.2** is selected.  
   

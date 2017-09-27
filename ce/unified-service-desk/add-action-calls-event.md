@@ -1,7 +1,7 @@
 ---
 title: "Add action calls to an event | MicrosoftDocs"
 ms.custom: "Learn about adding action calls to an event."
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Extend Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The section provides information on how you can use the User Interface Integration (UII) components to extend Unified Service Desk to integrate with external applications, web applications, and computer telephony integration (CTI) systems. "
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -23,11 +23,9 @@ manager: "jdaly"
 # Extend Unified Service Desk
 This section provides information on how you can use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] components to extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to integrate with external applications, web applications, and [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] systems. It also provides information on how to customize [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by developing custom hosted controls and panel layouts.  
   
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with a host of [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project templates that you can use to create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] application adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] web adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] customer search control (Windows Forms and [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control (Windows Forms and [!INCLUDE[pn_wpf_acronym](../includes/pn-wpf-acronym.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter, a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control, and a custom panel layout. You can get the project templates in one of the following ways:  
-  
--   [Download the CRM SDK template from the Visual Studio gallery](http://go.microsoft.com/fwlink/p/?LinkId=400925). Double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
-  
--   [Download and install the CRM SDK package](http://go.microsoft.com/fwlink/p/?LinkId=627298). In the SDK\Templates folder, double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with a host of [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project templates that you can use to create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] application adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] web adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] customer search control (Windows Forms and [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control (Windows Forms and [!INCLUDE[pn_wpf_acronym](../includes/pn-wpf-acronym.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter, a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control, and a custom panel layout. 
+ 
+ You can get the project templates by [downloading](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-clicking the CRMSDKTemplates.vsix file to install the templates in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 > [!NOTE]
 >  The templates work with [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]. Additionally, you must have [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d).  
