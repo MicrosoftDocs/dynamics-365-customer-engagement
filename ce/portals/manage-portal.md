@@ -59,6 +59,9 @@ A custom domain can help your customers find your support resources more easily 
 
 7. Review the information you have entered, and then select **Next** to begin creating the SSL Binding. You should see the message “Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal.” {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured.
 8. Select **Finish** to close the wizard.
+
+    > [!Note]
+    > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps in the wizard as mentioned [here](#link-your-dynamics-365-portal-to-a-custom-domain).
     
 ## Import metadata translation
 When you provision a portal, the portal-related solutions are installed on the organization. During the installation of solutions, the solution metadata translations (for example, Field name, form name, and view name) are installed only for the languages currently activated in the organization. If you activate a new language in the future, the metadata is not installed automatically for the newly activated language. To get the metadata translation for the newly activated language, you must import metadata translation from the Administration Center.
