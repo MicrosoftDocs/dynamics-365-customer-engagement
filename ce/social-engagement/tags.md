@@ -2,7 +2,7 @@
 title: "Work with tags | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
-ms.date: 09/21/2017
+ms.date: 09/27/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -117,7 +117,8 @@ To further improve the underlying machine learning model for auto tags and inten
   
 2.  Select a post, and then next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button").  
   
-3.  Select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").
+3.  Select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").  
+![Intention tag and customer tag with confirm control highlighted](media/confirm-intention-view-custom-tag.png "Intention tag and customer tag with confirm control highlighted")
 
 ## Review the quality of a tagging model
 
