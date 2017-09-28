@@ -32,7 +32,7 @@ The list of supported web browsers for Portal capabilities for Dynamics 365 is a
 > - On Windows, Internet Explorer 9 and below are not supported. 
 > - Other browsers like Opera, Chrome/Firefox in Linux and other Linux browsers are not listed as supported because they are not tested by Microsoft. However, Portal is not blocked on these and since standard HTML and CSS elements are used for the user interface, they will usually work. Customers are encouraged to certify these browsers depending upon their user base.
 
-## Mobile devices
+## Mobile devices browsers
 
 |                  | Google Chrome | Mozilla Firefox | Apple Safari | Microsoft Edge |
 |------------------|---------------|-----------------|--------------|----------------|
