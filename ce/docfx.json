@@ -60,6 +60,7 @@
         "admin/**.*": [ "Admin" ],
         "analytics/**.*": [ "Analytics" ],
         "basics/**.*": [ "Basics" ],
+        "customer-insights/**.*": [ "Customer Insights" ],
         "customer-service/**.*": [ "Customer Service" ],
         "customize/**.*": [ "Customize" ],
         "developer/insights-insideview/**.*": [ "Insights" ],
@@ -67,18 +68,19 @@
         "field-service/**.*": [ "Field Service" ],
         "gamification/**.*": [ "Gamification" ],
         "linkedin/**.*": [ "LinkedIn" ],
-        "mobile-app/**.*": [ "Dynamics 365 for phones and tablets" ],
-        "outlook-app/**.*": [ "Dynamics 365 App for Outlook" ],
+        "mobile-app/**.*": [ "Mobile" ],
+        "outlook-app/**.*": [ "Outlook" ],
         "portals/**.*": [ "Portals" ],
         "project-service/**.*": [ "Project Service" ],
         "sales-business/**.*": [ "Sales-Business edition" ],
-        "sales-enterprise/**.*": [ "Sales Enterprise" ],
+        "sales-enterprise/**.*": [ "Sales" ],
         "social-engagement/**.*": [ "Social Engagement" ],
         "unified-service-desk/**.*": [ "Unified Service Desk" ],
         "voice-of-customer/**.*": [ "Voice of the Customer" ]
       }
     },
     "template": [],
+    "xref": [ "../_zip/dyn365-dotnet.zip" ],
     "dest": "customer-engagement"
   }
 }
