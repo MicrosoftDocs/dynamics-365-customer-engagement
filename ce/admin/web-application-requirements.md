@@ -104,6 +104,14 @@ To find the latest release for these web browsers, visit the software manufactur
 <a name="BKMK_PrintRepots"></a>   
 ## Printing reports  
  The Reporting Services[!INCLUDE[pn_ms_ActiveX_long](../includes/pn-ms-activex-long.md)] control is required to print reports. If you try to print a report and the control isn’t installed, you’ll be prompted to install it. The installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
+
+<a name="BKMK_TLS"></a> 
+## Transport Layer Security (TLS) requirement
+With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], web browsers and other client applications that only use Transport Layer Security (TLS) versions earlier than TLS 1.2 will be unable to connect to their [!INCLUDE [pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)] instances and the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. 
+
+For more information, see these blog posts: 
+- [Updates coming to Dynamics 365 Customer Engagement connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+- [TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
   
 ### See also  
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   

@@ -80,7 +80,7 @@
 ## [Copy instance](copy-instance.md)
 ## [Delete instance](delete-instance.md)
 ## [Backup and restore instances](backup-restore-instances.md)
-<!-- ## [Support instances](support-instance.md) -->
+## [Support instances](support-instance.md) 
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)

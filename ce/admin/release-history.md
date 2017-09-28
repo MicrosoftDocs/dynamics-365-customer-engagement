@@ -34,4 +34,11 @@ This is the release history page for the [Administer Dynamics 365 Customer Engag
 |[Public Preview: Introducing Live Assist for Dynamics 365 Powered by CaféX](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|Added new topic.|  
 |[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
-|[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)| Added new topic. |
+|[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)|Added new topic. |
+|[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)|Updated topic for version 1.3.0.1|
+|[Invite users to Dynamics 365 with Azure Active Directory B2B collaboration](invite-users-azure-active-directory-b2b-collaboration.md)|Added new topic.|
+|[About the Microsoft Cloud Germany datacenter](datacenter/about-microsoft-cloud-germany.md)|Added new topic.|
+|[Switch from Dynamics CRM Online to Dynamics 365 (online)](switch-dynamics-crm-online-dynamics-365.md)|Updated topic.|
+|[Manage Support instances](support-instance.md)|Added new topic.|
+|[Preview feature: Use Relationship analytics to gather KPIs ](relationship-analytics.md)|Added new topic.|
+|[Security enhancements: User session and access management](user-session-management.md)|Added new topic.|
