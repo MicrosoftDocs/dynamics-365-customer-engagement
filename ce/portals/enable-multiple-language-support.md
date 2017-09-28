@@ -31,7 +31,7 @@ To enable multiple languages for a portal, follow these steps after signing in t
     ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
 
 > [!Note]
-> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](provision-portal.md#import-metadata-translation) to get the  metadata translated for the newly activated languages.
+> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](manage-portal.md#import-metadata-translation) to get the  metadata translated for the newly activated languages.
 
 ## Supported languages
 
