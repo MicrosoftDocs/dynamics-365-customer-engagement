@@ -2,7 +2,7 @@
 title: "Export Unified Service Desk for Dynamics 365 Customer Engagement configuration data | MicrosoftDocs"
 description: "Learn how to prepare a file for use with another instance using the Configuration Migration Tool and configuration data schema file."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
