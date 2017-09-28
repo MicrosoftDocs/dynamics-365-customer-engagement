@@ -43,7 +43,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
  
  ![active-case-view](media/active-case-view.png)
   
-3.  On the command bar, click **New Case**.  Alternatively, you can quickly create a new case by clicking ![quick-create-case](../sales-business/media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
+3.  On the command bar, click **New Case**.  Alternatively, you can quickly create a new case by clicking ![quick-create-case](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
     
     View and update the **Priority**, **Status**, and **Owner** of the case. The **Created On** date is picked up as soon as you save the case. 
   
