@@ -39,10 +39,9 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 
     - Click **Apply Routing Rule** to apply a routing rule on a selected case.
     - Click **Assign** to assign a case to another owner.
-    - Click **Add to Queue** to add a case to a queue.
-  
-
-    ![active-case-view](media/active-case-view.png)
+    - Click **Add to Queue** to add a case to a queue.  
+ 
+ ![active-case-view](media/active-case-view.png)
   
 3.  On the command bar, click **New Case**.  Alternatively, you can quickly create a new case by clicking ![quick-create-case](../sales-business/media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
     
@@ -68,8 +67,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
     > If an SLA is associated with an entitlement and the same entitlement is applied to a case, then the associated SLA becomes applicable for the case. 
   
    > [!NOTE]
-   > - If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], and your manager has set default entitlements for a customer in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], when a case is created or when a case is updated and the customer, contact, or product field has changed, a default entitlement is automatically associated with the case.  
-   > - When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar click **Do not decrement entitlement terms**.  
+   > When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar click **Do not decrement entitlement terms**.  
   
 10. Click in the **Description** field to enter to add a detailed description about the case.
 
