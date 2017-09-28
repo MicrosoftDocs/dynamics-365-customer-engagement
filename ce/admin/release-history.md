@@ -1,5 +1,5 @@
 ---
-title: "Release history for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Release history (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -20,14 +20,20 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This is the release history page for the [Administer Dynamics 365 Customer Engagement](admin-guide.md) documentation.  
+This is the release history page for the [Administrator Guide for Dynamics 365 Customer Engagement](admin-guide.md) documentation. Note that some of the updated and new topics relate to changes made since the last product release and are not exclusive to the July 2017 update for Dynamics 365 (online).
+
+Check out the following for more "What's new" and release history information:
+
+- [What's coming for Customer Engagement, Enterprise edition, in the next update for Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update)
+- [Release History for Dynamics CRM 2016 (online)](https://technet.microsoft.com/library/dn467370.aspx)
+- [What's new for administrators and customizers in Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531078.aspx)
   
 > [!TIP]
 >  To see the versions that apply to the dates below, see [Support: Dynamics 365 (online) releases](https://support.microsoft.com/kb/2925359)  
 
 <a name="BKMK_July2017"></a>
 
-## July 2017 
+## July 2017 update for Dynamics 365 (online)
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
@@ -35,10 +41,17 @@ This is the release history page for the [Administer Dynamics 365 Customer Engag
 |[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
 |[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)|Added new topic. |
+|[Preview feature: Use Relationship analytics to gather KPIs ](relationship-analytics.md)|Added new topic.|
+
+## Out-of-band topics
+
+The following are topics for features that were delivered out of band since the prior product release.
+
+|New and updated topics|Description of changes|  
+|----------------------------|----------------------------|  
 |[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)|Updated topic for version 1.3.0.1|
 |[Invite users to Dynamics 365 with Azure Active Directory B2B collaboration](invite-users-azure-active-directory-b2b-collaboration.md)|Added new topic.|
 |[About the Microsoft Cloud Germany datacenter](datacenter/about-microsoft-cloud-germany.md)|Added new topic.|
 |[Switch from Dynamics CRM Online to Dynamics 365 (online)](switch-dynamics-crm-online-dynamics-365.md)|Updated topic.|
 |[Manage Support instances](support-instance.md)|Added new topic.|
-|[Preview feature: Use Relationship analytics to gather KPIs ](relationship-analytics.md)|Added new topic.|
 |[Security enhancements: User session and access management](user-session-management.md)|Added new topic.|
