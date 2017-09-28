@@ -2,7 +2,7 @@
 title: "Use tags for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about various liquid tags available in portal."
 ms.custom: ""
-ms.date: 09/14/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

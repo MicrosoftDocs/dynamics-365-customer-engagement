@@ -2,7 +2,7 @@
 title: "View email records in portal timeline in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to view email records in portal."
 ms.custom: ""
-ms.date: 09/14/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
