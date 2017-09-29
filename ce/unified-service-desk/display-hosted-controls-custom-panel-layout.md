@@ -2,7 +2,7 @@
 title: "Display hosted controls in the custom panel layout | MicrosoftDocs"
 description: "Learn about specifying the custom panel layout as the display group for your hosted controls by using a syntax."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

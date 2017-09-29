@@ -2,7 +2,7 @@
 title: "Events in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Events in Unified Service Desk are notifications that a hosted control can trigger to indicate to the application that something is occurring. You can assign action calls to an event that you want to run when an event occurs, and the action calls will be executed in the order that is defined in the Order field of the event definition."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

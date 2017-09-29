@@ -2,7 +2,7 @@
 title: "Administer and manage Unified Service Desk for Dynamics 365 Customer Enagagement | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "WebDDA Events in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about using Web data-driven adapter (WebDDA) events that can be used in automations in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -47,11 +47,6 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
 |`type`|Event type, is usually the same as the event itself.|  
 |`key`|Mouse button that was clicked at the event (1=left, 2=right, and so on).|  
 |`button`|Code of the button that was pressed (for example, the Enter key code is 13).|  
-  
-## In this Topic  
- [Control Events](../unified-service-desk/web-dda-events.md#BKMK_Control)  
-  
- [Page Events](../unified-service-desk/web-dda-events.md#BKMK_pageevents)  
   
 <a name="BKMK_Control"></a>   
 ## Control Events  

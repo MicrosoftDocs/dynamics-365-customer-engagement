@@ -2,7 +2,7 @@
 title: "Upgrade a Unified Service Desk for Dynamics 365 Customer Engagement solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk for Dynamics 365 Customer Engagement." 
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -40,7 +40,7 @@ You can upgrade a Unified Service Desk 1.x or [!INCLUDE[pn_unified_service_desk_
   
 6.  The Welcome to the Unified Service Desk – Upgrade Setup Tool page appears. Review the information about the components that will be upgraded, and then click **Next**.  
   
- ![Unified Service Desk upgrade details]../../unified-service-desk/media/usd-upgrade-details.png "Unified Service Desk upgrade details")  
+ ![Unified Service Desk upgrade details](../../unified-service-desk/media/usd-upgrade-details.png "Unified Service Desk upgrade details")  
   
 7.  On the Ready to Install page, click **Next** to verify the components to upgrade.  
   

@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 Customer Engagement – Knowledge Management package | MicrosoftDocs"
 description: "Overview of the Knowledge Management sample application."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

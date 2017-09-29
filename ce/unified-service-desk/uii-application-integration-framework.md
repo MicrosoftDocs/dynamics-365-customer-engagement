@@ -2,7 +2,7 @@
 title: "UII Application Integration Framework | MicrosoftDocs"
 description: "Learn information about UII Application Integration Framework that enables the integration and automation of applications."
 ms.custom: ""
-ms.date: "2016-11-29"
+ms.date: 11/29/2016
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -24,11 +24,6 @@ manager: "jdaly"
 The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif-md.md)] in [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inteface-integration-uii-md.md)] enables the integration and automation of applications. Through [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)], applications can be launched and automated for a variety of purposes, for example, to reduce copy and paste. It also provides session management capabilities, which allows applications to be isolated from each other based on a session key. This separation helps to enforce data security and easier application management for the user.  
   
  [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] uses the [!INCLUDE[pn_composite_ui_application_block](../includes/pn-composite-ui-application-block-md.md)] tools and services for messaging, visual containment, application loading, and state management. For more information, and to download the application block, see [MSDN:  HYPERLINK "http://msdn.microsoft.com/en-us/library/aa480450.aspx" Smart Client – Composite UI Application Block](https://msdn.microsoft.com/library/aa480450.aspx).  
-  
-## In this Topic  
- [AIF components](uii-application-integration-framework.md#AIFComponents)  
-  
- [AIF object model](uii-application-integration-framework.md#AIFObjectModel)  
   
 <a name="AIFComponents"></a>   
 ## AIF components  

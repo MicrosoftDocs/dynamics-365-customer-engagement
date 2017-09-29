@@ -2,7 +2,7 @@
 title: "Walkthrough: Create a UII Web Application Adapter in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -36,16 +36,12 @@ You can create a web application adapter if you want to enhance and modify web a
   
 - [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII hosted control project template. You can get it in one of the following ways:  
-  
-    -   [Download the CRM SDK template](http://go.microsoft.com/fwlink/p/?LinkId=400925). Double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
-  
-    -   [Download and extract the CRM SDK package](http://go.microsoft.com/fwlink/p/?LinkId=627298). Go to the SDK\Templates folder. Double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII hosted control project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 <a name="Build"></a>   
 ## Step 1: Build a sample web application  
   
-1.  [Download the UII SDK package (.exe)](http://go.microsoft.com/fwlink/p/?LinkId=627298)  
+1.  [Download the UII SDK package (.exe)](http://go.microsoft.com/fwlink/p/?LinkId=519179)  
   
 2.  Double-click the package file to extract the contents.  
   

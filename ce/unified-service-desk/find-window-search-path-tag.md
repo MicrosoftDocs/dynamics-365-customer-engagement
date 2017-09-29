@@ -2,7 +2,7 @@
 title: "FindWindow search path tag in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "<FindWindow> tag contains a list of matching elements that are executed in the order of their listing within the tag. This topic describes the <FindWindow> elements with example code." 
 ms.custom: ""
-ms.date: "2017-08-23"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,11 +22,6 @@ manager: "jdaly"
 ---
 # FindWindow search path tag in Unified Service Desk
 `<FindWindow>` tag contains a list of matching elements that are executed in the order of their listing within the tag. This topic describes the `<FindWindow>` elements with example code.  
-  
-## In this topic  
- [\<FindWindow> elements](../unified-service-desk/find-window-search-path-tag.md#elements)  
-  
- [Sample code](../unified-service-desk/find-window-search-path-tag.md#samplecode)  
   
 <a name="elements"></a>   
 ## \<FindWindow> elements  
