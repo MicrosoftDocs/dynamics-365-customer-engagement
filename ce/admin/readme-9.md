@@ -19,7 +19,7 @@ version:
 
 You’ll also find information about known issues and possible workarounds.
 
-Services & Apps Availability 
+Services & Apps availability 
 -----------------------------
 
 | Services & Apps                                                                             | GA | Public Preview | Private Preview |
@@ -103,7 +103,8 @@ Sales and Customer Service web client apps
 -   Save and Close of Price List Item displays an error and does not close the
     window properly.
 
-Sales Hub and Customer Service Hub apps
+Sales Hub and Customer Service Hub apps 
+----------------------------------------
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
@@ -245,7 +246,7 @@ Data visualization
     more** action. This action is not intended to be shown and will be fixed in
     a future release.
 
-### Unified Interface Dashboards 
+### Unified Interface dashboards 
 
 -   On a Windows 10 phone or Internet Explorer, users will experience problems
     on the dashboard because this device and browser are not supported.
@@ -253,7 +254,7 @@ Data visualization
 -   Users will experience some right-to-left issues, such as the dashboard
     picker and label are not properly aligned.
 
-### Unified Interface Charts
+### Unified Interface charts
 
 -   Charts show the message “Loading” when the user does not have the read
     privilege for the chart’s underlying entity.
@@ -281,7 +282,7 @@ Data visualization
 -   When you click **Show Chart** on a grid while in offline mode, no chart will
     be displayed.
 
-Timeline control
+### Timeline control
 
 -   Trying to enable **Show Filter Pane** in the configuration property of
     Timeline control in dashboard shows the message “An unexpected error
