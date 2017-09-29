@@ -41,7 +41,6 @@ Services & Apps Availability
 | Document recommendations                                                                    | X  |                |                 |
 | Company News                                                                                | X  |                |                 |
 | Unified Service Desk                                                                        | X  |                |                 |
-| Portal                                                                                      | X  |                |                 |
 | Voice of the Customer                                                                       | X  |                |                 |
 | Dynamics 365 App for Outlook (Available on 10/8)                                            |    | X              |                 |
 | Relationship Insights - Auto Data Capture                                                   |    | X              |                 |
