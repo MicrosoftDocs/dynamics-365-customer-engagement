@@ -15,7 +15,7 @@ caps.latest.revision: 20
 ms.author: "shujoshi"
 manager: "sakudes"
 ---
-# View, block, or deactivate a social profile in socical care sample application (Customer Service)
+# View, block, or deactivate a social profile in social care sample application (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
