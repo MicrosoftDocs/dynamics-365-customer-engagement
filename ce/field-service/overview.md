@@ -18,9 +18,13 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 
-# Overview of Dynamics 365 for Field Service
+# Overview of Field Service
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+<a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
+
+## Overview
 
 [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] capabilities extend [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to provide a complete [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] management solution, including service locations, customer assets, preventative maintenance, work order management, resource management, product inventory, scheduling and dispatch, mobility, collaboration, customer billing, and analytics. 
 
@@ -71,4 +75,5 @@ manager: "amyla"
  [Install](../field-service/install-field-service.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
- [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)
+ [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)</br?
+ [Dynamics 365 Basics Guide](../basics/basics-guide.md)

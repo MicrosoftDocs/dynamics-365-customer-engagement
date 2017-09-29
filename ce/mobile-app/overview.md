@@ -16,7 +16,7 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 
-# Dynamics 365 for phones and tablets 
+# Overview of Dynamics 365 for phones and tablets 
 
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") 

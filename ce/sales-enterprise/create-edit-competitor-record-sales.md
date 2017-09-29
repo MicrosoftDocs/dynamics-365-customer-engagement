@@ -20,7 +20,7 @@ caps.latest.revision: 11
 topic-status: Drafting
 ---
 
-# Create or edit a competitor record (Sales)
+# Create or edit a competitor record (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -45,7 +45,7 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
   
     -   If you're using the Dynamics 365 application, select **New**.  
   
-<!-->    -   If you're using Dynamics 365 for Outlook, in the **Records** tab, select **New**.  
+<!--    -   If you're using Dynamics 365 for Outlook, in the **Records** tab, select **New**.  
 -->  
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   

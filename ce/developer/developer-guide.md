@@ -31,7 +31,7 @@ We are still working on the new and enhanced developer guide for the latest rele
 In the meantime, you can look at the following topics to prepare yourself for the changes coming in this release:
 
 - [Important changes coming in Dynamics 365 Customer Engagement](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)
-- [Developers: What's coming in Customer Engagement in the next update for Dynamics 365 (online)](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update-for-developers)
+- [Developers: New in Customer Engagement for Dynamics 365 (online)](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update-for-developers)
  
 
 <!--
