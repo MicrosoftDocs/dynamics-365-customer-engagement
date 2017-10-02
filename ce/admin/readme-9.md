@@ -39,7 +39,7 @@ Services & Apps availability
 | Organizational Insights                                                                     | X  |                |                 |
 | CaféX Live Assist                                                                           | X  |                |                 |
 | Document recommendations                                                                    | X  |                |                 |
-| Company News                                                                                | X  |                |                 |
+| Company News<br/>(Available on 10/8)                                                        | X  |                |                 |
 | Unified Service Desk                                                                        | X  |                |                 |
 | Voice of the Customer                                                                       | X  |                |                 |
 | Dynamics 365 App for Outlook (Available on 10/8)                                            |    | X              |                 |
@@ -48,7 +48,7 @@ Services & Apps availability
 | Relationship Insights - Email Engagement                                                    |    | X              |                 |
 | Customer Insights                                                                           |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                                                              |    | X              |                 |
-| Cortana                                                                                     |    | X              |                 |
+| Cortana<br/>(Available on 10/8)                                                             |    | X              |                 |
 | Mobile offline (Dynamics 365 for tablets and phones)                                        |    |                | X               |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
 
@@ -172,9 +172,9 @@ in the browser or on mobile devices for each scenario. 
 
 -   Other
 
-    -   User and team queues are not available in the Add to Queue lookup.
+-   User and team queues are not available in the Add to Queue lookup.
 
-    -   Fallback forms are shown for the main forms for Category, Feedback, and
+-   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
     the forms manually. This issue will be fixed in the upcoming release, but
