@@ -2,7 +2,7 @@
 title: "Add dynamic content and create custom templates for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to use Liquid, an open-source template language, into your portals."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,7 +27,7 @@ In all of these scenarios, you'll have dynamic access to [!INCLUDE[pn-dynamics-c
 ### See also
 
 [How to provision a portal](provision-portal.md)  
-[Get started with the portal content editor](get-started-portal-content-editor.md)
+[Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Store source content by using web templates](store-content-web-templates.md)  
 [Understand Liquid operators](liquid-operators.md)  
 [Liquid types](liquid-types.md)  
