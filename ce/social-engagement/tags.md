@@ -2,7 +2,7 @@
 title: "Work with tags | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
-ms.date: 09/27/2017
+ms.date: 10/03/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -107,18 +107,20 @@ To further improve the underlying machine learning model for auto tags and inten
 
 1.  Select an auto tag or intention tag in the **Post Tags and Intentions** filter to create a data set that contains the tagged posts you want to review.   
   
-2.  Select a post, and then next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button").  
+2.  Select a post.
   
-3.  Select **Remove this tag** ![Remove tag symbol in Social Engagement](media/delete-icon.png "Remove tag symbol in Social Engagement").
+3.  Next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), select **Remove this tag** ![Remove tag symbol in Social Engagement](media/delete-icon.png "Remove tag symbol in Social Engagement").  
+The system-rated tag gets removed from the post and the machine learning model will take this removal into account for future assignement of system-rated tags.
 
 ### Confirm a system-rated tag
 
 1.  Select an auto tag or intention tag in the **Post Tags and Intentions** filter to create a data set that contains the tagged posts you want to review.   
   
-2.  Select a post, and then next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button").  
+2.  Select a post.  
   
-3.  Select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").  
-![Intention tag and customer tag with confirm control highlighted](media/confirm-intention-view-custom-tag.png "Intention tag and customer tag with confirm control highlighted")
+3.  Next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").   
+![Intention tag and customer tag with confirm control highlighted](media/confirm-intention-view-custom-tag.png "Intention tag and customer tag with confirm control highlighted")    
+A stars symbol indicates that this system-rated tag was manually confirmed and the machine learning model will take this confirmation into account for future assignement of system-rated tags. 
 
 ## Review the quality of a tagging model
 
