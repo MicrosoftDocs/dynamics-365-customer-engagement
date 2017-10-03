@@ -2,7 +2,7 @@
 title: "Add a chart to a webpage in a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add a Dynamics 365 chart to a webpage in the portal."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,7 +16,7 @@ manager: sakudes
 
 # Add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a webpage in portal
 
-You add a chart to a webpage by using a [Liquid tag](liquid-tags.md) named **Chart**. You can add the chart Liquid tag in the **Copy** field on a webpage or in the **Source** field on a [Web template](store-content-web-templates.md).
+You add a chart to a webpage by using a Liquid tag named [Chart](tags.md#chart). You can add the chart Liquid tag in the **Copy** field on a webpage or in the **Source** field on a [Web template](store-content-web-templates.md).
  
 For example, {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" %}
 

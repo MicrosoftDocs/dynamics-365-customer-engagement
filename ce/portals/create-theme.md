@@ -2,7 +2,7 @@
 title: "Create a theme for your portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create a theme for your portal quickly and easily brand these portals for your organization."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

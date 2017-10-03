@@ -2,7 +2,7 @@
 title: "Walkthrough: Get Dynamics 365 data on the portal | MicrosoftDocs"
 description: "Step-by-step instructions with examples to get your Dynamics 365 data on the portal."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
