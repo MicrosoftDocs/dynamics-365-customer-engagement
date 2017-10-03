@@ -29,6 +29,8 @@
 ## [Schedule resources for a project](schedule-resources-project.md)
 ## [View resource availability](view-resource-availability.md)
 ## [View resource utilization](view-resource-utilization.md)
+## [Use Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
+## [Schedule anything with Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 # [Project Manager Guide](project-manager-guide.md)
 ## [Provide work estimates](provide-estimates-project-during-sales-process.md)
 ## [Create a project](create-project.md)
@@ -63,3 +65,4 @@
 ## [Schedule time off](schedule-time-off.md)
 ## [Collaborate using Office 365 Groups](collaborate-project-team-members-office-365-groups.md)
 ## [Find projects with Project Finder Mobile](find-next-project-finder-mobile-app.md)
+# [Project Resource Hub Guide](project-resource-hub-users-guide.md)

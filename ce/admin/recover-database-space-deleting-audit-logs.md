@@ -1,7 +1,7 @@
 ---
 title: "Recover database space by deleting Dynamics 365 Customer Engagement audit logs | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Recover database space by deleting audit logs
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] stores the change history for transactions in the form of audit logs in the database. You can delete the old or unwanted logs to clean up the database space.  
   
 > [!CAUTION]

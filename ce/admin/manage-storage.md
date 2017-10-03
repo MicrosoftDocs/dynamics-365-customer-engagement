@@ -1,7 +1,7 @@
 ---
 title: "Manage storage for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,10 +16,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Manage storage
+# Manage storage 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
   
- You can also gain storage by deleting certain types of unnecessary data in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For information on deleting data, see: [Free storage space in Dynamics 365](https://technet.microsoft.com/library/dn683569.aspx).  
+ You can also gain storage by deleting certain types of unnecessary data in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For information on deleting data, see: [Free storage space in Dynamics 365](free-storage-space.md).  
   
  For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] plans, see: [Dynamics 365 pricing](https://www.microsoft.com/en-us/dynamics365/pricing).  
   
@@ -49,9 +52,13 @@ You can manage your organization’s data storage capacity in connection with yo
 4.  Click **Buy now**, and then proceed through the order process.  
   
      If you paid for the subscription by credit card, any additional storage space that you order will be available immediately after you receive an order confirmation. If you’re invoiced for subscription payments, you may be asked to complete a credit check. In this case, the additional storage will not be available until the credit check is passed.  
-  
+
+## What happens if you exceed your storage limit?
+
+[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System administrators will receive frequent email notifications which will cease once additional storage is added or storage is reduced to below the limit.
+
 ### See also  
  [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Free storage space in Microsoft Dynamics 365](https://technet.microsoft.com/library/dn683569.aspx)   
+ [Free storage space in Microsoft Dynamics 365](free-storage-space.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
  [Global and Service administrators can administer Dynamics 365 without a license](../admin/global-service-administrators-can-administer-without-license.md)

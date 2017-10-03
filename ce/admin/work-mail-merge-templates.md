@@ -1,7 +1,7 @@
 ---
 title: "Work with mail merge templates for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Work with mail merge templates
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can use mail merge templates with Office Word to create customer-ready letters, faxes, e-mail messages, and quotes.  
   
  [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-short.md)] templates are created and edited in [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], but can be uploaded to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to use with mail merge and share with other users. Only [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] .xml documents can be used as templates. To learn more about how to create mail merge templates, see the online Help in [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-short.md)].  
@@ -50,4 +53,4 @@ You can use mail merge templates with Office Word to create customer-ready lette
 > [!NOTE]
 >  To change a personal template to a shared one, after you save the record on the template form, on the **More Actions** menu, click **Make Available to Organization**. To revert the template to a personal one, click **Make Personal**.  
   
-## See also  
+### See also  

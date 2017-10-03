@@ -1,7 +1,7 @@
 ---
-title: "Control social data for Dynamics 365 Customer Enagement | MicrosoftDocs"
+title: "Control social data for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Control receiving social data
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can enable or disable your ability to receive social data in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 ## Enable or disable social engagement  

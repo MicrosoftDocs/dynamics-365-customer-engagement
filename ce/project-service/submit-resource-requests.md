@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Submit resource requests (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Once you’ve won a project contract, you’ll need to staff your project. Your work breakdown structure already established the resource roles you need to complete the project, so now it’s time to request the resources that match the requirements.  
   
 1.  Go to **Project Service > Projects**.  

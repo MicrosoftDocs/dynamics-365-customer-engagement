@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "project-service-automation"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Time, Expense, and Collaboration Guide (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales. Dynamics 365 stands for customer relationship management, which your company uses to manage relationships with your clients.  
   
  This guides you through entering your time and expenses for the projects you’re working on. Stay on top of your time and expense entry to make sure:  

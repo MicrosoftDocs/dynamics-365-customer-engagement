@@ -1,7 +1,7 @@
 ---
 title: "What are Preview features and how do I enable them for Dynamics 365 Customer Engagement? | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
-# What are Preview features and how do I enable them?
+# What are Preview features and how do I enable them? 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features:  
   
 -   Are subject to separate [Supplemental Terms of Use](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
@@ -36,7 +39,7 @@ Preview features are features that aren’t complete, but are made available on 
 |-|-|  
 |**Preview feature**|**Learning resource**|  
 |Relationship Insights|[Preview feature: Relationship Insights](relationship-insights.md)|  
-|Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Public Preview: Microsoft Cognitive Services integration](xxx.md)|  
+|Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|  
 |[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Insights service|[Dynamics 365 for Customer Insights](http://go.microsoft.com/fwlink/p/?LinkId=824625)  
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
@@ -47,7 +50,7 @@ Preview features are features that aren’t complete, but are made available on 
 |**Preview feature**|**Learning resource**|  
 |Data Loader for bulk importing|[Preview feature: Import bulk data](import-bulk-data-data-loader.md)|  
 |Get a quick overview of key Dynamics 365 (online) performance metrics|[Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)|  
-|Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]|[Preview feature: Let Cortana help you track your Dynamics 365 deals and activities](let-cortana-track-deals-activities.md)<br /><br /> [Preview feature: Set up Cortana integration](xxx.md)|  
+|Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]|[Preview feature: Let Cortana help you track your Dynamics 365 deals and activities](../basics/let-cortana-track-deals-activities.md)<br /><br /> [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|  
   
 > [!NOTE]
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  

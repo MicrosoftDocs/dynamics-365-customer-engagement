@@ -23,11 +23,6 @@ manager: "jdaly"
 # FindControl Operation in Unified Service Desk
 This topic describes the two approaches that can be used to identify a user interface (UI) control.  
   
-## In this topic  
- [UI Tree-based identification](../unified-service-desk/find-control-operation.md#tree)  
-  
- [Offset-based Identification](../unified-service-desk/find-control-operation.md#offset)  
-  
 <a name="tree"></a>   
 ## UI Tree-based identification  
  This approach captures the complete control tree structure. It uses all the control properties to traverse to the final control.  

@@ -1,7 +1,7 @@
 ---
 title: "Validate and fix SharePoint site URLs for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Validate and fix SharePoint site URLs
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and document location records contain links to site collections, site, document libraries, and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. These site and document location records are associated with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records so that the documents for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records can be stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
  When the links between [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] break, you must validate and fix the links so that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records continue to point to the correct document libraries and folders for managing the documents.  
@@ -39,12 +42,9 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], [!INCLUDE[pn_Sha
   
 3. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] validates all the selected site URLs and their immediate subordinate site and document library URLs. It then displays the results in **Validating Sites**.  
   
-4.  To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](http://go.microsoft.com/fwlink/p/?LinkID=513182).  
+4.  To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](edit-existing-sharepoint-site-records.md).  
   
 5.  Click **Save & Close**.  
   
 ### See also  
- [Create or edit site records](http://go.microsoft.com/fwlink/p/?LinkID=513182)   
- [Manage your documents](../admin/manage-documents-using-sharepoint.md)   
- [Install the Dynamics 365 List component](../admin/set-up-sharepoint-integration.md)   
- [Set up SharePoint document management](http://go.microsoft.com/fwlink/p/?LinkID=517020)
+ [Create or edit site records](edit-existing-sharepoint-site-records.md)   

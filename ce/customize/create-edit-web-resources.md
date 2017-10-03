@@ -1,7 +1,7 @@
 ---
-title: "Create and edit web resources in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create or edit web resources (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,21 +15,21 @@ caps.latest.revision: 21
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Create and edit web resources to extend the web application
-Web resources are typically used by developers to extend the web application using files that are used in web development. As a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user you may need to manage web resources provided by a developer or designer.  
+# Create or edit web resources to extend a web application
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Web resources are typically used by developers to extend the web application using files that are used in web development. As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user you may need to manage web resources provided by a developer or designer.  
    
 <a name="BKMK_WhatAreWebResources"></a>   
 ## What are web resources?  
- Web resources are virtual files stored in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database. Each web resource has a unique name that can be used in a URL to retrieve the file. Think of them this way: If you had access to the actual web server running the web application, you could copy files over to that website. But with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] you can’t do this.  Instead, you can use web resources to upload files to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database and then reference them by name just as though you had copied them as files to the web server.  
+ Web resources are virtual files stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database. Each web resource has a unique name that can be used in a URL to retrieve the file. Think of them this way: If you had access to the actual web server running the web application, you could copy files over to that website. But with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] you can’t do this.  Instead, you can use web resources to upload files to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database and then reference them by name just as though you had copied them as files to the web server.  
   
  For example, if you create an HTML page as a web resource named “new_myWebResource.htm”, you could open that page in a browser using a URL like this:  
+ 
+<Dynamics 365 URL>/WebResources/new_myWebResource.htm   
   
-```  
-  
-<Microsoft CRM URL>/WebResources/new_myWebResource.htm  
-```  
-  
- where *\<Microsoft Dynamics 365 URL>* is the URL you usually use to open [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
+ where *\<Dynamics 365 URL>* is the URL you usually use to open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
   
 > [!NOTE]
 >  You can’t include a web resource in a form header or footer.  
@@ -76,7 +76,7 @@ Web resources are typically used by developers to extend the web application usi
     |**Type**|**Required**. This is the type of web resource. You can’t change this after you save the web resource.|  
     |**Text Editor**|When the type of web resource represents a kind of text file, click this button to open a page to edit the content using the text editor.|  
     |**Language**|Allows for a selection of a language. This option just tags the record that stores the web resource data. It doesn’t change the behavior of the web resource.|  
-    |**Upload File**|Press the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](http://go.microsoft.com/fwlink/p/?LinkId=394727)|  
+    |**Upload File**|Press the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)|  
     |**URL**|After you save the web resource, the URL to the web resource will be displayed here. Click this link to view the web resource in your browser.|  
   
 6.  After you have added your changes, choose **Save** and then **Publish**.  
@@ -90,5 +90,5 @@ Web resources are typically used by developers to extend the web application usi
  We recommend that you use an external editor to edit text files and then save them locally before uploading them with the **Upload File** button. This way you can preserve a copy of the web resource if you need to return to an earlier version. You can use a simple editor like [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)], but a text editor with more advanced capabilities is highly recommended. [Visual Studio Express editions](http://www.visualstudio.com/products/visual-studio-express-vs.aspx) are free and provide powerful capabilities for editing the files used by text-based web resources.  
   
 ### See also  
- [Customize your Dynamics 365 system](../customize/customize-your-system.md)   
- [Referencing web resources (Dynamics 365 SDK)](https://msdn.microsoft.com/library/gg309473.aspx)
+ [Get started with customization](../customize/getting-started-customization.md)   
+ <!--[Web resources for Customer Engagement](../developer/web-resources.md)-->

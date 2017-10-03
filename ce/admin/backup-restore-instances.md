@@ -1,7 +1,7 @@
 ---
 title: "Backup and restore instances of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,13 +17,17 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Backup and restore instances
-Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances. For [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)], we're introducing on demand backups that you can perform on [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Production and Sandbox instances.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.   
   
-<a name="BKMK_DailySystemBackup"></a>   
+<a name="BKMK_DailySystemBackup"></a>  
+ 
 ## Daily system backups  
  Good news! Some backups take place without you having to do anything.  
   
- About [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]**system backups**:  
+ About [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] **system backups**:  
   
 -   All your instances are backed up.  
   
@@ -51,9 +55,10 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
  System-created backups appear under **Created By** as **System**.  
   
- ![System&#45;created backups appear under Created By as System.](../admin/media/backup-system-restore-point.png "System-created backups appear under Created By as System.")  
+ ![System-created backups appear under Created By as System.](../admin/media/backup-system-restore-point.png "System-created backups appear under Created By as System.")  
   
 <a name="BKMK_ODBCRMManaged"></a>   
+
 ## On-demand backup: Dynamics 365 managed  
  Automated system backups are great, but you will want to be able to make your own backups before making some significant customization change or applying a version update. You can do this with on-demand [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] managed  backups.  
   
@@ -70,13 +75,14 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 -   On-demand backups are retained for up to three days. Check your expiration date.  
   
- ![On&#45;demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
+ ![On-demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
   
 -   On-demand backups are identified by having a label you created and by the presence of **Edit** &#124; **Delete** &#124; **Restore** in the details section. System backups have only **Restore**.  
   
- ![Edit, Delete, and Restore buttons for Dynamics 365 on&#45;demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
+ ![Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
   
 <a name="BKMK_CreateCRMBackup"></a>   
+
 ### Create an on-demand backup of a Dynamics 365 instance  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
@@ -95,7 +101,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 7.  Verify that **Dynamics 365**  is selected as the type of backup, and then click **Create**.  
   
- ![Form for creating a new Dynamics 365 &#40;online&#41; backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
+ ![Form for creating a new Dynamics 365 (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
   
  A notification will be displayed to confirm the backup is being created.  The status column in the list provides the status of the backup.  
   
@@ -103,6 +109,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
 >  The instance remains available while being backed up.  
   
 <a name="BKMK_EditBackups"></a>   
+
 ### Edit a Dynamics 365 on-demand backup  
  Edit a backup to change its label and your notes about the backup.  
   
@@ -123,6 +130,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
 7.  Change the information as needed, and then click **Save**.  
   
 <a name="BKMK_RestoreBackups"></a>   
+
 ### Restore a Dynamics 365 on-demand backup  
  You can only restore to Sandbox instances. To restore to a Production instance, first switch it to a Sandbox instance, restore to it, and then switch it back to a Production instance. See [Switch an instance](../admin/switch-instance.md).  
   
@@ -144,7 +152,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 8.  Click **Next**. Verify the details, and then click **Restore**.  
   
- ![Restore an on&#45;demand backup page](../admin/media/restore-backup-page.png "Restore an on-demand backup page")  
+ ![Restore an on-demand backup page](../admin/media/restore-backup-page.png "Restore an on-demand backup page")  
   
  A notification will be displayed confirming that the backup is being restored.  It can take some time for the restoration to complete.  
   
@@ -152,6 +160,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
 >  The instance remains unavailable while being restored.  
   
 <a name="BKMK_DeleteCRMBackup"></a>   
+
 ### Delete a Dynamics 365 on-demand backup  
  You can use the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to delete [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-managed, on-demand backups.  You can't delete system backups.  
   
@@ -170,8 +179,10 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
  ![Delete backup button](../admin/media/delete-backup-button.png "Delete backup button")  
   
 7.  Click **Confirm**.  
-  
+ 
+<!-- 
 <a name="BKMK_ODBAzureManaged"></a>   
+
 ## On-demand backup: Azure managed  
  Using [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] to store and manage your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] backup provides some benefits you should consider.  
   
@@ -200,6 +211,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
  ![How to identify Azure storage.](../admin/media/on-demand-azure-backup-identification.png "How to identify Azure storage.")  
   
 <a name="BKMK_CreateAzureBackupConfigStorage"></a>   
+
 ### Create an Azure on-demand backup  
  Follow these steps to configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage and do a backup.  
   
@@ -243,6 +255,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
 11. Verify that **Azure Storage** is selected as the storage type, and then click **Create**.  
   
 <a name="BKMK_GetAzureInfo"></a>   
+
 ### Get the information you need from your Azure storage account  
  To use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage for your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance backups, you need to set up a connection between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Here's how you get the settings from [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] to make the connection. You'll enter these settings in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] when you configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage.  
   
@@ -261,6 +274,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
  ![Note the Azure storage container name.](../admin/media/azure-storage-container-name.png "Note the Azure storage container name.")  
   
 <a name="BKMK_EditRestoreDeleteAzurebackup"></a>   
+
 ### Edit, Restore, or Delete an Azure on-demand backup  
  The process for editing, restoring, or deleting an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] on-demand backup is mostly the same process as  for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on-demand backup.  See the related [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] sections above.  
   
@@ -268,5 +282,6 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 -   When you delete an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] on-demand backup, the backup is not removed from [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage. Use the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] portal to remove the backup.  
   
+-->
 ### See also  
  [Switch an instance](../admin/switch-instance.md)   

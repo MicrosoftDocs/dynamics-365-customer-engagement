@@ -1,7 +1,7 @@
 ---
-title: "Manage private documents in Dynamics 365 Customer Engagement with OneDrive for Business | MicrosoftDocs"
+title: "Enable OneDrive for Business (on-premises) with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Manage private documents with OneDrive for Business
+# Enable OneDrive for Business (on-premises)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Users can create and manage private documents with [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. Those documents can be accessed within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] after the system administrator has enabled [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].  
   
 ## Requirements  
@@ -58,7 +61,7 @@ $wellKnownApp.Update()
   
 ```  
   
-## Controlling access to OneDrive for Business in Dynamics 365  
+## Controlling access to OneDrive for Business in Dynamics 365 
  You can toggle availability of [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for end users through the **OneDrive for Business** privilege.  
   
 1.  Click **Settings** > **Security** > **Security Roles**  
@@ -74,7 +77,6 @@ $wellKnownApp.Update()
   
 ### See also  
  [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md)   
- [Use OneDrive for Business to manage your private documents](http://go.microsoft.com/fwlink/p/?LinkID=624853)   
+ [Use OneDrive for Business to manage your private documents](../basics/use-onedrive-business-manage-private-documents.md)   
  [What is OneDrive for Business?](https://support.office.com/en-US/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)   
  [SharePoint Online and OneDrive for Business: software boundaries and limits](https://support.office.com/en-us/article/SharePoint-Online-and-OneDrive-for-Business-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)   
- [Manage OneDrive for Business](https://technet.microsoft.com/library/mt147415.aspx)

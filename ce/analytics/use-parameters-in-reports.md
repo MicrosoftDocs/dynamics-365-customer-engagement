@@ -1,7 +1,7 @@
 ---
-title: "Use parameters in reports in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Use parameters in reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: bfacd711-3e5d-4dd7-a758-0faadda7e5a6
 caps.latest.revision: 18
 author: "Mattp123"
@@ -18,16 +19,19 @@ tags:
  - "MigrationHO"
 ---
 # Use parameters in reports
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You use parameters in reports to control the data retrieved by prompting the user for a value or a set of values when the user runs the report. The dataset query retrieves only the data that is requested by the user. You can also add hidden and special parameters in the reports that do not prompt the user for input, but can be used for operations such as data filtering and dynamic drill-through.  
   
 > [!NOTE]
->  The maximum length of the parameter values that are passed in from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is 2,000 characters. For example, if you run a report and create a data filter through the **Advanced Find** user interface, the resulting filter expression that is passed to a filter parameter cannot exceed 2,000 characters. There is no maximum limit on the number of parameters that you can specify. However, you might have to limit the length of the string on the URL line and number of parameters to meet the requirements of a particular browser.  
+>  The maximum length of the parameter values that are passed in from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is 2,000 characters. For example, if you run a report and create a data filter through the **Advanced Find** user interface, the resulting filter expression that is passed to a filter parameter cannot exceed 2,000 characters. There is no maximum limit on the number of parameters that you can specify. However, you might have to limit the length of the string on the URL line and number of parameters to meet the requirements of a particular browser.  
   
 <a name="BKMK_Adding"></a>   
 ## Adding parameters  
  You can add parameters to a report to define a report’s individual parameters, pass information through a query, or provide access to user settings, such as `CRM_CurrencySymbol` and `CRM_CurrencyPositivePattern` parameters.  
   
- The [\<ReportParameter>](https://msdn.microsoft.com/library/ms153649.aspx) is an element in the report definition (RDL) file that is used to describe an individual parameter in the report. The [\<QueryParameter>](https://msdn.microsoft.com/library/ms155385.aspx) contains information about an individual parameter that is passed to the data source as part of a query. The following XML code taken from the Account Summary report's RDL file demonstrates how to use the `ReportParameter` and `QueryParameter` parameters.  
+ The [\<ReportParameter>](https://technet.microsoft.com/library/ms153649(v=sql.90).aspx) is an element in the report definition (RDL) file that is used to describe an individual parameter in the report. The [\<QueryParameter>](https://technet.microsoft.com/library/ms155385(v=sql.90).aspx) contains information about an individual parameter that is passed to the data source as part of a query. The following XML code taken from the Account Summary report's RDL file demonstrates how to use the `ReportParameter` and `QueryParameter` parameters.  
   
 ```xml  
 <ReportParameter Name="CRM_FilteredAccount">  
@@ -104,7 +108,7 @@ You use parameters in reports to control the data retrieved by prompting the use
   
 <a name="BKMK_Hidden"></a>   
 ## Hidden parameters  
- The Report Designer in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] has built-in support for hidden parameters. In addition, you can hide parameters by adding a CRM_ prefix to the parameter name in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] report. By default, the parameters with a CRM_ prefix are hidden when the report is published through [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. When you run the report, you aren’t prompted to enter parameter values for the hidden parameters.  
+ The Report Designer in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] has built-in support for hidden parameters. In addition, you can hide parameters by adding a CRM_ prefix to the parameter name in a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] report. By default, the parameters with a CRM_ prefix are hidden when the report is published through [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. When you run the report, you aren’t prompted to enter parameter values for the hidden parameters.  
   
 ### Special parameters  
  The following table shows the special hidden parameters that you can use in your reports.  
@@ -112,10 +116,10 @@ You use parameters in reports to control the data retrieved by prompting the use
 |Parameter|Description|  
 |---------------|-----------------|  
 |`CRM_FilterText`|Contains the value of the filter text that a report user interactively creates in the Report Viewer when the user runs a report. The parameter is in a filter summary text box that is located in the report header. The initial value is set to the default filter.|  
-|`CRM_URL`|Set to the URL of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]web application. Use this parameter when drilling through to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].|  
+|`CRM_URL`|Set to the URL of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]web application. Use this parameter when drilling through to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].|  
 |`CRM_FilteredEntity`|Use in a query expression to enable data pre-filtering (through **Advanced Find**).|  
   
- You must create all parameters in a report before you can refer to them. The values of these special parameters are filled in by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] when you run the report.  
+ You must create all parameters in a report before you can refer to them. The values of these special parameters are filled in by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] when you run the report.  
   
 ### Additional format parameters  
  The following table contains additional parameters that you can use in the reports. Among them are parameters that provide access to the user Number settings information. You can use these values to format and display the numeric values. These parameters are similar to values specified in the [NumberFormatInfo Class](https://msdn.microsoft.com/library/system.globalization.numberformatinfo.aspx). Use these parameters in custom reports to format the data according to the user settings.  
@@ -125,7 +129,7 @@ You use parameters in reports to control the data retrieved by prompting the use
 |`CRM_FullName`|The full name of the user on whose behalf the report is running.|  
 |`CRM_UserTimeZone`|User’s time zone name, for example, Pacific Standard Time.|  
 |`CRM_UILanguageId`|Current locale (LCID) of the user.|  
-|`CRM_YearStartWeekCode`|The first week of the year that’s used in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].|  
+|`CRM_YearStartWeekCode`|The first week of the year that’s used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].|  
 |`CRM_WeekStartDayCode`|The first day of the week that is used in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
 |`CRM_FiscalCalendarStart`|The start date for the fiscal year that is used in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
 |`CRM_FiscalPeriodType`|Specifies how the fiscal year is divided—Quarterly, Monthly, Annually and so on.|  
@@ -153,6 +157,6 @@ You use parameters in reports to control the data retrieved by prompting the use
 |`CRM_ShortTimePattern`|The format pattern for a short time value that is associated with the "t" format pattern.|  
 |`CRM_MonthDayPattern`|The format pattern for month and day values that are associated with the "m" and "M" format patterns.|  
   
-## See also  
- [Dynamics 365 Report Writers Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
+### See also  
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Publish reports](../analytics/publish-reports.md)

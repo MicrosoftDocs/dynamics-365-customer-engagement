@@ -1,7 +1,7 @@
 ---
 title: "What's new with Dynamics 365 Customer Engagement ‒ Data Export Service? | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # What's new with the Data Export Service?
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic lists the new features that are available for the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)].  
   
 ## March 2017  
@@ -30,4 +33,4 @@ This topic lists the new features that are available for the [!INCLUDE[cc_Data_E
   
 ### See also  
  [Replicate Dynamics 365 (online) data to Azure SQL Database](../admin/replicate-data-microsoft-azure-sql-database.md)   
- [Set up and manage phones and tablets](../admin/set-up-and-manage-phones-and-tablets.md)
+ [Set up and manage phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)

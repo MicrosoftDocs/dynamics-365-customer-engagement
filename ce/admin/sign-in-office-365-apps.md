@@ -1,7 +1,7 @@
 ---
 title: "Sign in to Dynamics 365 Customer Engagement and Office 365 apps | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Sign in to Customer Engagement and Office 365 apps
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps. You can sign in by using the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], or sign in directly. For [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we're introducing the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] home page which you can also sign in to directly.  
   
 > [!TIP]
@@ -38,7 +41,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
  From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365**.  
   
- ![Dynamics 365 option in the Admin center drop&#45;down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 option in the Admin center drop-down list")  
+ ![Dynamics 365 option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 option in the Admin center drop-down list")  
   
  For other ways to access Dynamics and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps, see [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](../admin/quickly-navigate-office-365-app-launcher.md).  
   
@@ -81,7 +84,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
 > [!NOTE]
 >  For other regions, replace .crm with:  
 >   
->  -   .crm2 for South America (LATAM/SAM)  
+> -   .crm2 for South America (LATAM/SAM)  
 > -   .crm3 for Canada (CAN)  
 > -   .crm4 for Europe, Middle East, Africa (EMEA)  
 > -   .crm5 for Asia Pacific (APAC)  
@@ -113,5 +116,4 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
  [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](../admin/quickly-navigate-office-365-app-launcher.md)   
  [Important information for CRM Online customers](../admin/important-information-customers.md)   
  [Switch from Dynamics CRM Online to Dynamics 365 (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)   
- [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)<br>
- [Welcome to Social Engagement](~/social-engagement/overview)
+ [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)<br />

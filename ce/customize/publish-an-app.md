@@ -9,12 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: b0bbadd4-50d6-45d6-930c-1896fb11cc02
 caps.latest.revision: 7
 ms.author: "shujoshi"
 ---
 # Publish an app using the app designer
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Publish an app to make it available to users.  
   
  After you've added components, validated, and saved the app,  on the command bar, click **Publish**. You can also publish the app from the app tile on the My Apps page. In the **Apps Being Edited** view, in the lower right corner of the app tile you want to publish, click the **More options** button ![More Options button in the app designer](../customize/media/apps-more-options-icon.png "More Options button in the app designer"), and then click **Publish**.  

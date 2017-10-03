@@ -23,11 +23,6 @@ manager: "jdaly"
 # WinDDA events
 The [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-driven adapter (DDA) distinguishes between two types of events, application events and control events. This topic describes these two events.  
   
-## In this topic  
- [Control events](#control)  
-  
- [Application events](../unified-service-desk/win-dda-events.md#application)  
-  
 <a name="control"></a>   
 ## Control events  
  Control events are fired by controls in an application. For all of these events, the control name must be specified during registration (`RegisterActionForEvent`). The controls must also be accessible in the application during registration. You can use the [FindControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.operationtype.findcontrol) method or add an exception handler to ensure that the control is accessible.  

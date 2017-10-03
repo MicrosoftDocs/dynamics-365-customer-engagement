@@ -1,7 +1,7 @@
 ---
-title: "Publish reports in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Publish reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 4d2af46d-1b57-4c30-871e-de2694e6b48f
 caps.latest.revision: 15
 author: "Mattp123"
@@ -18,13 +19,16 @@ tags:
  - "MigrationHO"
 ---
 # Publish reports
-To make reports available to users, publish the reports in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
-## Publish a report in Microsoft Dynamics 365 by using the web application  
+## Publish a report in Dynamics 365 by using the web application  
   
 1.  Create a new report or modify a report by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
-2.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and then go to **Sales** > **Reports**.  
+2.  Sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then go to **Sales** > **Reports**.  
   
 3.  On the command bar, click **New**.  
   
@@ -34,10 +38,10 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_microsof
   
 6.  Click **Save and Close**.  
   
-     You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
+     You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
   
     > [!TIP]
-    >  To update the report or to update the information that is displayed in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], such as the description, in the Available Reports list, select the report, and then click **Edit** on the command bar.  
+    >  To update the report or to update the information that is displayed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as the description, in the Available Reports list, select the report, and then click **Edit** on the command bar.  
   
 <a name="BKMK_reportappear"></a>   
 ## Determine where the report will appear  
@@ -46,7 +50,7 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_microsof
   
 2.  In the **Report** dialog box, specify values in the **Categorization** section according to the following descriptions:  
   
-    - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+    - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
     - **Related Record Types**: Associates the report to specific entities, such as accounts or contacts.  
   
@@ -67,6 +71,6 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_microsof
   
 2.  In the **Report Viewer** dialog box, define the default filter criteria that will be used every time the report runs, and then select **Save Default Filter**.  
   
-## See also  
- [Report Writers Guide for Dynamics 365](../analytics/reporting-analytics-with-dynamics-365.md)   
+### See also  
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Report considerations and best practices](../analytics/report-considerations-and-best-practices.md)

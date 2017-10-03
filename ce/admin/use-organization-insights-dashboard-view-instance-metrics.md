@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Use the Organization Insights dashboard to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,13 +10,16 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: use-organization-insights-dashboard-view-instance-metrics
+ms.assetid: f8f35728-62c8-4461-a7b8-2945360c1b3a
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Preview feature: Use the Organization Insights dashboard to view metrics about your instance
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] metrics such as the number of active users and page requests.  
   
 > [!IMPORTANT]
@@ -58,7 +61,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
  This chart shows the adoption and usage of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance based on active users (unique users) with read, write, create, and update actions.  
   
 ## Most Active Users (Reads)  
- ![Organization Insights Most Active Users &#40;Reads&#41; chart](../admin/media/organization-insights-most-active-users-reads-chart.png "Organization Insights Most Active Users (Reads) chart")  
+ ![Organization Insights Most Active Users (Reads) chart](../admin/media/organization-insights-most-active-users-reads-chart.png "Organization Insights Most Active Users (Reads) chart")  
   
 ### What's included in this chart  
   
@@ -70,7 +73,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
  This chart lists the top ten users who performed the most `Read` operations in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
 ## Most Active Users (Changes)  
- ![Organization Insights Most Active Users &#40;Changes&#41; chart](../admin/media/organization-insights-most-active-users-changes-chart.png "Organization Insights Most Active Users (Changes) chart")  
+ ![Organization Insights Most Active Users (Changes) chart](../admin/media/organization-insights-most-active-users-changes-chart.png "Organization Insights Most Active Users (Changes) chart")  
   
 ### What's included in this chart  
   
@@ -131,6 +134,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
  This chart shows the number of page load requests for forms, dashboards, and reports.    This is a count of requests received by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. Pages that are cached while browsing won't be counted.  
   
 ### See also  
-[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)   
-[Software Development Kit for Microsoft Dynamics  365  (online) and Dynamics 365 (on-premises)](../developer/software-development-kit.md)
+[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)  
+ 
+<!-- [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md) -->
 

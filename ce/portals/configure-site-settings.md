@@ -2,7 +2,7 @@
 title: "Configure site settings for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure site settings for a portal and global settings for all portals in your organization."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

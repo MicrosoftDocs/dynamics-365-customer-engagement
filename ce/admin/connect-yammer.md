@@ -1,7 +1,7 @@
 ---
 title: "Connect Customer Engagement to Yammer | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,13 +10,16 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 414ba3fa-a133-47a7-a46f-fff6c8b7869a
+ms.assetid: 7e180f88-c913-4b46-a923-c7162cf44566
 caps.latest.revision: 25
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Connect to Yammer
+# Connect to Yammer 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] gives colleagues at your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings.  
   
  After you set up your organization to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], employees will see posts in a newsfeed on their [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] dashboard whenever people update customer info, and they’ll be able to join in the conversation with their own posts.  
@@ -26,6 +29,8 @@ manager: "brycho"
 ### Prerequisites  
   
 -   Before your organization can use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], your organization needs to buy [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses.  
+
+- [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] integration is only available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
   
 - [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
@@ -140,5 +145,5 @@ manager: "brycho"
 [!INCLUDE[cc_privacy_crm_gcc_yammer_configuration](../includes/cc-privacy-crm-gcc-yammer-configuration.md)]
   
 ### See also  
- [Collaborate and communicate with Yammer](http://go.microsoft.com/fwlink/p/?LinkID=526704)   
+ [Collaborate and communicate with Yammer](../basics/collaborate-communicate-with-yammer.md)   
  [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)

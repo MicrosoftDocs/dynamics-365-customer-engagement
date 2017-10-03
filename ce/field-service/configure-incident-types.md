@@ -17,6 +17,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Configure incident types for work orders (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Incident types act as service templates and allow users to quickly create work orders for the most common types of jobs that your company performs, including all of the necessary service tasks, products, services, required skills, and estimated work order duration.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Incident Type**.  

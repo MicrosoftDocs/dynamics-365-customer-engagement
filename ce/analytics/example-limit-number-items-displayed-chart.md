@@ -1,7 +1,7 @@
 ---
-title: "Example: Limit the number of items displayed in a chart in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Example: Limit the number of items displayed in a chart (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 9e629985-b12b-479b-88a3-4eba254caac2
 caps.latest.revision: 10
 author: "Mattp123"
@@ -18,6 +19,9 @@ tags:
  - "MigrationHO"
 ---
 # Example: Limit the number of items displayed in a chart
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Chart reports are limited to 15 data points. The dataset must limit the result set to the top 15 rows for the charted value. Additionally, a 16th "other" data point value is optional. This value represents an aggregation of all other rows in the domain. The 16th value is always sorted to the bottom of the result set. This adds a level of complexity to reports that contain drill-through functionality that is appropriate for some reports.  
   
 > [!NOTE]
@@ -63,7 +67,7 @@ Report Parameter:
   
 ```  
   
-## See also  
+### See also  
  [Sample Reports](../analytics/example-reports.md)   
  [Sample: Display the Top X Values](../analytics/example-display-top-x-values.md)   
- [Microsoft Dynamics 365 Report Writers Guide](../analytics/reporting-analytics-with-dynamics-365.md)
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)

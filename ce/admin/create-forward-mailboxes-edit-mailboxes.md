@@ -1,7 +1,7 @@
 ---
 title: "Create forward mailboxes or edit mailboxes for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Create forward mailboxes or edit mailboxes
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 By default, when users and queues are created in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], their respective mailbox records are also created. These mailbox records contain information that is specific to an individual mailbox on the email server, like email address, mailbox credentials, and email synchronization method. To process email messages using server-side synchronization for users and queues, their respective mailbox records should be associated to an email server profile record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  If your organization wants to configure server-side synchronization using a forward mailbox, you can create a new forward mailbox record. A forward mailbox is used as a collection box for email messages that are transferred from each user’s mailbox on the email system by a server-side rule. The forward mailbox must be dedicated to server-side synchronization, and must not be used as a working mailbox by an individual user. This can be used to process email messages for users and queues whose mailboxes have **Incoming Email Synchronization Method** set to **Forward Mailbox**. You must associate the forward mailbox record to an email server profile record to process email using server-side synchronization. [Forward mailbox vs. individual mailboxes](../admin/forward-mailbox-vs-individual-mailboxes.md).  
@@ -59,4 +62,3 @@ By default, when users and queues are created in [!INCLUDE[pn_microsoftcrm](../i
 5.  Click or tap **Save** or **Save & Close**.  
   
 ### See also  
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

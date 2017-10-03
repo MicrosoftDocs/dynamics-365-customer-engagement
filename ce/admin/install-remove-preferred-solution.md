@@ -1,7 +1,7 @@
 ---
 title: "Install or remove a preferred solution for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Install or remove a preferred solution
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Install preferred solutions to gain added features and functionality for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  ![](media/PreferredSolutions65.png "List of preferred solutions")
@@ -53,4 +56,3 @@ Install preferred solutions to gain added features and functionality for [!INCLU
 4.  Select a solution and click **Delete**.  
   
 ### See also  
- [Extend Dynamics 365 with integration and solutions](../admin/extend-with-integration-solutions.md)

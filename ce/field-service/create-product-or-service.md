@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Create a product or service (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The Product entity in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] contains information about products that may be sold to customers. Typical information stored in this entity are model number, manufacturer, warranty information, price, cost, etc. Products are usually added to work orders when an incident is added. Products added to a work order initially have a status of "estimated" and can be marked as "used," indicating that they were sold and billed to a client.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Product**.  

@@ -1,7 +1,7 @@
 ---
-title: "Create and edit dashboards in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create or edit dashboards (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,10 +15,11 @@ caps.latest.revision: 10
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Create and edit dashboards
+# Create or edit dashboards
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 There are two types of dashboards, user dashboards and system dashboards. Any user can create a dashboard visible only to them in their work area such as Sales, Service, or Marketing. An admin or customizer creates or customizes system dashboards that, when published, are visible to everyone in the organization. A user can choose to set their user dashboard as their default dashboard and override the system dashboard. This topic focuses on system dashboards.  
-  
- For additional information on creating system or user dashboards, see [Work with, create, or customize dashboards](http://go.microsoft.com/fwlink/p/?LinkID=613272).  
   
 <a name="BKMK_createdashboard"></a>   
 ## Create a new dashboard  
@@ -50,7 +51,7 @@ There are two types of dashboards, user dashboards and system dashboards. Any us
   
 4.  In the **Set Properties** dialog box, make your changes. When you’re done, click **Set**.  
   
-     For details on setting properties, see [Set properties for a chart or list included in a dashboard](http://go.microsoft.com/fwlink/p/?LinkId=613346).  
+     For details on setting properties, see [Set properties for a chart or list included in a dashboard](../customize/set-properties-chart-list-included-dashboard.md).  
   
 5.  When you’ve completed your changes be sure to save them, and then publish them.  
   
@@ -62,9 +63,7 @@ There are two types of dashboards, user dashboards and system dashboards. Any us
   
 -   Set the default dashboard  
   
--   Use security roles to make a dashboard visible to just certain roles  
-  
- To learn how to do these and other system dashboard tasks see: [Work with, create, or customize dashboards](http://go.microsoft.com/fwlink/p/?LinkID=613272).  
+-   Use security roles to make a dashboard visible to just certain roles    
   
 ### See also  
- [Customize your Dynamics 365 system](../customize/customize-your-system.md)
+ [Getting started with customization](../customize/getting-started-customization.md)

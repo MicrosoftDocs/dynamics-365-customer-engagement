@@ -11,12 +11,16 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 caps.latest.revision: 14
 ms.author: "mkaur"
 manager: "brycho"
 ---
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.  
   
  For example, you can enable scheduling for the opportunity form and schedule marketing visits for your opportunities. You can also do this for the case form and schedule time to work on cases.  
@@ -142,5 +146,5 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
     5.  Use the schedule assistant  to book the requirement.  
   
 ### See also  
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)
- [Install Dynamics 365 for Project Service Automation](../project-service/install-customize.md)
+ [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)    
+ [Install Dynamics 365 for Project Service Automation](../project-service/install-customize.md)    

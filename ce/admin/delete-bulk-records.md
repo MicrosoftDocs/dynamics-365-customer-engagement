@@ -1,7 +1,7 @@
 ---
 title: "Delete bulk records for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,12 +10,15 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 2fd7332a-f346-45ac-ac7e-49cdf65344f5
+ms.assetid: 6c1edaef-d2d0-4e94-bb3d-819b208966c1
 caps.latest.revision: 15
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Remove a large amount of specific, targeted data with bulk deletion
+# Remove a large amount of specific, targeted data with bulk deletion 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The *bulk deletion* feature helps you to maintain data quality and manage the consumption of system storage in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by deleting data that you no longer need.  
   
  For example, you can delete the following data in bulk:  
@@ -28,7 +31,7 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
 -   Data that is incorrectly imported from other systems.  
   
- With bulk deletion you can perform the following operations:  
+With bulk deletion you can perform the following operations:  
   
 -   Delete data across multiple entities.  
   
@@ -42,7 +45,7 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
 -   Retrieve the information about the failures that occurred during a bulk deletion.  
   
-## Delete bulk data  
+## Delete bulk data 
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
@@ -50,7 +53,7 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
 3.  Choose **New** to run the **Bulk Deletion Wizard** to create a bulk deletion job with the records you want to delete.  
   
- For information about how to implement bulk delete in code, see [MSDN: Delete data in bulk](https://msdn.microsoft.com/library/gg334418.aspx).  
+<!-- For information about how to implement bulk delete in code, see [Delete data in bulk](../developer/delete-data-bulk.md).  -->
   
 ### See also  
  [Manage your data](../admin/manage-your-data.md)   

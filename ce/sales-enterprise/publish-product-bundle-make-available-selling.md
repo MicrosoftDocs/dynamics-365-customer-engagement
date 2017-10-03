@@ -1,5 +1,5 @@
 ---
-title: "Publish a product or bundle to make it available for selling (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Publish a product or bundle to make it available for selling (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 19
 ms.author: "shujoshi"
 manager: "sakudes"
 ---
-# Publish a product or bundle to make it available for selling (Sales, Enterprise)
+# Publish a product or bundle to make it available for selling (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you’re ready to sell a product or bundle, publish it to make it available to the sales agents so they can build orders or create opportunities orders for customers. By default, product records are created in a draft state, and are available to your sales agents only after you publish it. For products that don’t have a parent product family, you can create them directly in an active state using a system setting, so that you don’t have to publish them after creation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)  
 
 > [!NOTE]
@@ -23,7 +26,7 @@ When you’re ready to sell a product or bundle, publish it to make it available
      
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -46,7 +49,7 @@ When you’re ready to sell a product or bundle, publish it to make it available
   
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Retire a product](retire-product.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Product lifecycle--publish to retire](product-lifecycle-publish-retire.md)  
+ ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md) 
   
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)

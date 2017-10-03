@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Get the apps (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you want to enter your time and expenses on your mobile device, [Get and install Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md).  
   
  You can also use the Project Finder Mobile app on your phone to find a new project to work on and apply for it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your next project with the Project Finder Mobile app](../project-service/find-next-project-finder-mobile-app.md) 

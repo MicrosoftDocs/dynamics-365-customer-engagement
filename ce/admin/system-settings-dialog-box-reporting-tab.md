@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Reporting tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # System Settings dialog box - Reporting tab
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the settings on this page to configure reporting settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 ## Open the Reporting System Settings dialog box (if it’s not already open)  
@@ -41,5 +44,5 @@ Use the settings on this page to configure reporting settings for [!INCLUDE[pn_m
 |Default value|No. Users cannot embed [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations on their personal dashboards.|  
   
 ### See also  
- [Use Power BI with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn708055.aspx)   
+ [Use Power BI with Microsoft Dynamics 365](../basics/find-administrator-support.md)   
  [System Settings dialog box - General tab](../admin/system-settings-dialog-box-general-tab.md)

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up booking statuses (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Booking statuses allow you to create multiple sub-statuses mapped to each of your booking statuses in order to more precisely define your company's unique business processes.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Active Booking Statuses**.  

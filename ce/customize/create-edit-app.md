@@ -1,7 +1,7 @@
 ---
-title: "Create or edit an app with Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Create or edit an app using the app designer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,12 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 2a44229e-44f0-4c4e-ba21-a476210d0a12
 caps.latest.revision: 19
 ms.author: "shujoshi"
 ---
 # Create or edit an app using the app designer
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Create single or multi-entity apps quickly  by using the tile-based app designer.  
   
  Open the app designer from the **My Apps** page or from the **Apps** area in the Solutions window.
@@ -45,7 +48,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
     - **Unique Name**. The unique name is automatically populated based on the app name that you specify.  It is prefixed with a publisher prefix. You can change the part of the unique name that’s editable. The unique name can only have English characters and numbers.  
   
         > [!NOTE]
-        >  The publisher prefix is the text that is added to any entity or field created for a solution that has this publisher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Edit a solution publisher](edit-solution-publisher.md)  
+        >  The publisher prefix is the text that is added to any entity or field created for a solution that has this publisher.   
   
     - **Description**. Type a short description of what the app is or does.  
   
@@ -68,7 +71,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
   
     - **Use an existing solution to create the App**. Select this option to create the app from a list of installed solutions. Selecting the **Default Solution** will use a blank solution.  
   
-    - **Choose a welcome page**. This option allows you to select from the web resources available in your organization. For more information about how to create a web resource, such as an HTML file that you can use as a welcome page, see [Create and edit web resources](https://technet.microsoft.com/library/dn660983.aspx).  
+    - **Choose a welcome page**. This option allows you to select from the web resources available in your organization. The welcome pages you create can contain useful information to users such as links to videos, upgrade instructions, or getting started information. The welcome page displays when an app is opened. Users may select **Do not show this Welcome Screen next time** on the welcome page to disable the page so it doesn’t appear the next time the app starts. For more information about how to create a web resource, such as an HTML file that you can use as a welcome page, see [Create and edit web resources to extend the web application](create-edit-web-resources.md).  
   
      To edit app properties later, go to the **Properties** tab in the app designer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage app properties](../customize/manage-app-properties.md)  
   
@@ -110,6 +113,16 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
     >  Alternatively, go to **Settings** > **Customizations**. Click **Apps**, and then double-click the app you want to edit.  
   
 5.  Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+ 
+<a name="LaunchApp"></a>   
+## Run an app
+To start an app, users go to **My Apps** and then select the app they want. If there are several apps available, search for the app by typing in the search box.
+
+From within an app, the following features include filtering by record type:
+- Categorized search and Relevance search results.
+- Quick Create forms.
+- Recent records grids.
+
   
 ### See also  
  [Add or edit app components](../customize/add-edit-app-components.md)   

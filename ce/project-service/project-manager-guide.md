@@ -1,5 +1,5 @@
 ---
-title: "Project Manager&#39;s Guide - Dynamics 365 for Project Service Automation | MicrosoftDocs"
+title: "Project Manager Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""
@@ -17,7 +17,10 @@ caps.latest.revision: 20
 ms.author: "mkaur"
 manager: "brycho"
 ---
-# Project Manager&#39;s Guide - Project Service Automation
+# Project Managers Guide (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] help you create project quotes and contracts, and create and manage projects for your clients after you’ve won the contract. They also provides analytics to help you ensure projects are feasible and profitable. You can set up projects on a time and materials or fixed-price basis.  
   
  Project management tools help you to:  

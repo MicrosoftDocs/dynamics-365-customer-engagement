@@ -1,5 +1,5 @@
 ---
-title: "Get started with in-app marketing (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Get started with in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -16,7 +16,10 @@ author: "kamaybac"
 ms.author: "kamaybac"
 manager: "sakudes"
 ---
-# Get started with in-app marketing (Sales, Enterprise)
+# Get started with in-app marketing (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
   
 ## Import contacts, accounts, and leads  
@@ -61,3 +64,4 @@ Promote your business and improve sales with targeted marketing campaigns in [!I
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
+ [Overview of Sales](../sales-enterprise/user-guide.md)

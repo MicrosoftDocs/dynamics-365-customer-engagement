@@ -1,7 +1,7 @@
 ---
 title: "Use Power BI with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Use Power BI
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], sales, marketing, and service personnel in your organization have a powerful new way to work with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data.  
   
 <a name="PowerBIGetstarted"></a>   
@@ -81,9 +84,9 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   
 4.  Click **OK**.  
   
- To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tiles to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [Embed Power BI tiles on your personal dashboard](https://go.microsoft.com/fwlink/?linkid=829606).  
+To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tiles to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [Embed  Power BI tiles on your personal dashboard  ](../basics/add-edit-power-bi-visualizations-dashboard.md#embed--power-bi-tiles-on-your-personal-dashboard).  
   
- To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [Add a Power BI dashboard on your personal dashboard](https://go.microsoft.com/fwlink/?linkid=829605).  
+To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards to personal dashboards in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [Add a Power BI dashboard on your personal dashboard](../basics/add-edit-power-bi-visualizations-dashboard.md).  
   
 <a name="CRMOnline_PBIDesktop"></a>   
 ## Use Power BI Desktop to connect directly to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance  
@@ -125,4 +128,3 @@ The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-offic
   >  You can use similar steps to connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query by selecting **From Other Sources** on the **Power Query** tab in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
   
 ### See also  
- [Extend Dynamics 365 with integration and solutions](../admin/extend-with-integration-solutions.md)

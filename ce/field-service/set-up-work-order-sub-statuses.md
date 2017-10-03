@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up work order sub-statuses to map work order status more precisely (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Work order records in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] progress through their lifecycle using system status values of:  
   
 -   Open - Unscheduled  

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up payment terms for purchase orders (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Payment terms in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] are primarily used in conjunction with purchase orders, to allow the purchasing manager to specify terms when creating a purchase order.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Payment Terms**.  

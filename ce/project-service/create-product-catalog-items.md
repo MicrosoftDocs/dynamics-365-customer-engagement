@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create product catalog items (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you want to include products, such as software licenses, on your project quotes and estimates, you need to add each product to the product catalog in Dynamics 365.  
   
  For more information about adding products to the product catalog, see [Create a product (Sales)](../sales-enterprise/create-product-sales.md).  

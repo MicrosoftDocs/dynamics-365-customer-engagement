@@ -1,7 +1,7 @@
 ---
 title: "Enable SharePoint document management for specific entities for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,13 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Enable SharePoint document management for specific entities
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entity records in [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by enabling document management on the specific entities.  
   
 > [!TIP]
->  If you haven’t set up server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you may want to do that before enabling document management for specific entities. For more information, see [Set up SharePoint integration with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531154.aspx).  
+>  If you haven’t set up server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you may want to do that before enabling document management for specific entities. For more information, see [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md).  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)] Or verify that you have Read and Write privileges on all record types that are customizable.  
   
@@ -53,14 +56,14 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-microso
   
     -   Click **Finish**.  
   
-         For more information on server-based integration, see [Set up SharePoint integration with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531154.aspx).  
+         For more information on server-based integration, see [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md).  
   
     If you don't use server-based integration  
   
     -   If you want the document libraries and folders to be created, specify a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URL, and make sure the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site  has the [!INCLUDE[pn_crm_list_component_sharepoint_server](../includes/pn-crm-list-component-sharepoint-server.md)] installed. Note, this will also work if you specify a [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] site URL.  
   
         > [!NOTE]
-        >  The list component has been deprecated as of [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)]. For information on converting from the List Component, see [Switching from the list component or changing the deployment](https://technet.microsoft.com/library/dn946910.aspx).  
+        >  The list component has been deprecated as of [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)]. For information on converting from the List Component, see [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md).  
   
     -   The remaining steps assume that the specified site is on [!INCLUDE[pn_sharepoint_server_2010](../includes/pn-sharepoint-server-2010.md)] or [!INCLUDE[pn_sharepoint_server_2013](../includes/pn-sharepoint-server-2013.md)] and the site collection for this site has the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] installed.  
   
@@ -78,4 +81,4 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-microso
   
 ### See also  
  [Edit existing SharePoint site records](../admin/edit-existing-sharepoint-site-records.md)   
- [Set up SharePoint integration with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531154.aspx)
+ [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)

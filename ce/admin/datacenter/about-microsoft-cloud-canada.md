@@ -17,6 +17,8 @@ ms.author: "jimholtz"
 ---
 # About the Microsoft Cloud Canada datacenter
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 <a name="BKMK_NewCloud"></a>   
 ## New Microsoft Cloud Services in Canada  
   
@@ -118,5 +120,5 @@ ms.author: "jimholtz"
  No. Trials are free for 30 days.  
   
 ### See also  
- [Office 365 datacenters now available in Canada](https://blogs.office.com/2016/05/10/office-365-datacenters-now-available-in-canada/)<br>
+ [Office 365 datacenters now available in Canada](https://blogs.office.com/2016/05/10/office-365-datacenters-now-available-in-canada/)<br />
  [New datacenter regions for Dynamics 365 (online)](new-datacenter-regions.md)  

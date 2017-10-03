@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Sales tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # System Settings dialog box - Sales tab
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the settings on this page to configure system-level settings for the sales area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  

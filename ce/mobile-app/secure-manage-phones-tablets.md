@@ -15,6 +15,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Overview of securing and managing Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] with the following technologies:  
   
 1. **[!INCLUDE[pn_microsoft_intune](../includes/pn-microsoft-intune.md)]**. You can use [!INCLUDE[pn_microsoft_intune](../includes/pn-microsoft-intune.md)] to manage [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] on [!INCLUDE[tn_apple](../includes/tn-apple.md)] and [!INCLUDE[tn_android](../includes/tn-android.md)] tablets and phones. [!INCLUDE[pn_intune](../includes/pn-intune.md)] provides mobile device management, mobile application management, and PC management capabilities from the cloud. Using [!INCLUDE[pn_intune](../includes/pn-intune.md)], you can provide your users with access to corporate applications, data, and resources from virtually anywhere on almost any device, while helping to keep corporate information secure.  
@@ -53,7 +56,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
  [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] is a special version of [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] that works with the [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)] mobile security platform. [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] is currently supported for [!INCLUDE[tn_Apple_ipad](../includes/tn-apple-ipad.md)] and [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)] running iOS 7 or later. To use [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], you must have [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] server software and services from [Good Technology](http://www1.good.com/).  
   
 ### Prepare to use [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)]  
- Your organization should have services set up with [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. Then follow the common directions for configuring [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](../admin/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
+ Your organization should have services set up with [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. Then follow the common directions for configuring [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
   
  In addition, the [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] admin should do the following:  
   

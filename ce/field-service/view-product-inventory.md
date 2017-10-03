@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # View product inventory at a warehouse (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 View product inventory in Dyanmics 365 for Field Service to get a snapshot of the inventory you have at a warehouse.  
   
 1.  From the main menu, click **Field Service** > **Warehouses**.  

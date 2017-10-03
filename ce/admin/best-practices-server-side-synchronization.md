@@ -1,7 +1,7 @@
 ---
 title: "Best practices for server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Best practices for server-side synchronization
+# Best practices for server-side synchronization 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Consider the following when planning and deploying server-side synchronization.  
   
 ## Best practices for configuring server-side synchronization  
@@ -69,6 +72,5 @@ Consider the following when planning and deploying server-side synchronization.
 |Password|The password for the mailbox|  
   
 ### See also  
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
- [Troubleshooting server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
- [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin/troubleshooting-things-know-outlook.md)
+[Server-side synchronization](../admin/server-side-synchronization.md) 
+[Troubleshooting server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   

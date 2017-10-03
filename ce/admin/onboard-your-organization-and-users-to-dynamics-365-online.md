@@ -1,7 +1,7 @@
 ---
 title: "Onboard your organization and users to Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,10 +16,13 @@ author: "brycho"
 ms.author: "brycho"
 ---
 # Onboard your organization and users
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]? We've put together step-by-step guidance whether you’re still evaluating [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ready to make a purchase, or ready to onboard your organization and users.  
   
 > [!NOTE]
->  This topic is targeted at administrators for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Many of the features covered in this topic are also available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. If a feature is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s indicated in the topic. For more information about which features are available for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] vs. [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [Dynamics 365 - Online vs on-premises features FAQ](xxx.md)  
+>  This topic is targeted at administrators for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Many of the features covered in this topic are also available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. If a feature is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s indicated in the topic. For more information about which features are available for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] vs. [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [Dynamics 365 - Online vs on-premises features FAQ](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/dynamics-365-online-vs-on-premises-features-faq.md)  
   
 ## Step One: Try out Dynamics 365 (online) in a free 30-day trial  
  If you haven’t already purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
@@ -50,9 +53,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
  When you convert from a trial, you keep any customizations you made during the trial period.  
   
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
-  
--   [Export your customizations as a solution](xxx.md)  
+<!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Introduction to solutions](../developer/introduction-solutions.md)  -->
   
 <a name="BuyDirect"></a>   
 ### Buy direct  
@@ -85,13 +86,14 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
  As a [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] administrator, you manage the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription, including billing and payments, user licenses, accounts and registration. You do these tasks in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)  
   
 <a name="POR"></a>   
+
 ### Add a Partner of Record to share account details with your partner  
  Many customers choose to work with a designated Microsoft partner to set up, customize, deploy, and administer their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance(s). If you have a partner assisting you, this process can be facilitated by selecting a designated Partner of Record (POR) inside the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Portal. This enables the sharing of select details, such as contact and user information with your POR. Sharing this information will allow your partner to more quickly access information about your account, create support requests on your behalf, and work with Microsoft to assist with your accounts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
   
 ## Step Three: Plan your deployment and learn about FastTrack  
  Microsoft FastTrack for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] is our customer success service designed to help you move to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] smoothly and confidently, so you can realize business value faster. When you participate in the FastTrack program, you will receive guidance on best practices and how to plan for successful rollouts. You will also learn ways to enable new users and expand capabilities – all at your own pace. Additionally, you will have access to Microsoft engineering resources committed to make your experience with [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] a success.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft FastTrack for Dynamics 365](xxx.md).  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the FastTrack customer success service to plan a successful Dynamics 365 rollout](https://docs.microsoft.com/dynamics365/get-started/fasttrack/index).  
   
 <a name="Plan"></a>   
 ### Plan your deployment  
@@ -103,7 +105,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Get started administering Dynamics 365 (online)](getting-started.md)  
   
--   [Plan for Dynamics 365 deployment and administration](xxx.md)  
+-   [Plan for Dynamics 365 deployment and administration](plan-for-deployment-and-administration.md)  
   
 ## Step Four: Onboard your organization  
  After you purchase a subscription to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s time to onboard your organization.  
@@ -118,6 +120,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 -   [Optional: Manage user account synchronization](manage-user-account-synchronization.md)  
   
 <a name="Users"></a>   
+
 ### Add users and assign security roles  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] uses role-based security. The security role assigned to a user determines the tasks the user is permitted to perform and the data the user is permitted to view. Every user must be assigned at least one security role to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
@@ -127,19 +130,21 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Create users and assign security roles](create-users-assign-online-security-roles.md)  
   
-<a name="Trial"></a>   
+<a name="Trial"></a>  
+ 
 ### Optional: Transfer customizations from your free 30-day trial  
  If you made customizations to your free trial, you can transfer those customizations to your production instance.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Export your customizations as a solution](export-customizations-solution.md)  
+-   [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
--   [Import a solution](import-solution.md)  
+-   [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)  
   
- For more advanced scenarios, consider the following development tools: [Solution tools for team development](../developer/solution-tools-team-development.md).  
+<!-- For more advanced scenarios, consider the following development tools: [Solution tools for team development](../developer/solution-tools-team-development.md).  -->
   
 <a name="Storage"></a>   
+
 ### Manage storage  
  You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
   
@@ -167,9 +172,9 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Find your way around Dynamics 365 or Dynamics CRM (earlier versions)](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md) 
+-   [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md) 
   
--   [Set up a Dynamics 365 organization](xxx.md)  
+-   [Set up a Dynamics 365 organization](set-up-a-dynamics-365-organization.md)  
   
 <a name="Import"></a>   
 ### Import and export data  
@@ -185,7 +190,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
   
- [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replicate data to Azure SQL Database using Data Export Service](replicate-data-microsoft-azure-sql-database.md)  
+[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replicate data to Azure SQL Database using Data Export Service](replicate-data-microsoft-azure-sql-database.md)  
   
 <a name="MoCA"></a>   
 ### Set up Dynamics 365 for phones and Dynamics 365 for tablets  
@@ -197,9 +202,9 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Dynamics 365 for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
--   [Customize Dynamics 365 for phones and tablets to work for your business](../mobile-app/customize-phones-tablets.md)
-  
--   [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)  
+-   [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
+<!--  
+-   [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  -->
   
 <a name="Outlook"></a>   
 ### Set up Dynamics 365 App for Outlook  
@@ -211,9 +216,9 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
   
--   [Set up server-side sync](xxx.md)
+-   [Set up server-side sync](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
   
--   [Deploy Dynamics 365 App for Outlook](xxx.md)  
+-   [Deploy Dynamics 365 App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)  
   
 <a name="SharePoint"></a>   
 ### Integrate SharePoint document management  
@@ -221,7 +226,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
  After you integrate [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you can set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)], [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)], or [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
   
- **[!INCLUDE[pn_onenote](../includes/pn-onenote.md)].** When you turn on [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration, your teams can use [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] to take or review notes and store them with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up onenote integration in Dynamics 365](set-up-onenote-integration-in-dynamics-365.md)  
+ **[!INCLUDE[pn_onenote](../includes/pn-onenote.md)].** When you turn on [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration, your teams can use [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] to take or review notes and store them with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up OneNote integration in Dynamics 365](set-up-onenote-integration-in-dynamics-365.md)  
   
  **[!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].** Use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] to store private documents while working in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For example, start working on a document privately, such as a draft sales pitch. When the draft is far enough along, move it to an Office 365 Group for team collaboration. [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] provides 1 TB or more of storage and documents are automatically synced to your desktop and mobile devices. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use OneDrive for Business to manage your private documents](../basics/use-onedrive-business-manage-private-documents.md)  
   
@@ -237,31 +242,30 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="Delve"></a>   
 ### Integrate Office Delve to surface trending documents in Dynamics 365 (online)  
- [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] proactively surfaces trending documents on a user’s dashboard so they can discover new content and make new connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View relevant and trending information on a dashboard with Office Delve](../basics/view-relevant-and-trending-information-on-a-dashboard-with-office-delve.md)  
+ [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] proactively surfaces trending documents on a user’s dashboard so they can discover new content and make new connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View relevant and trending information on a dashboard with Office Delve](../basics/view-relevant-trending-information-office-delve.md)  
   
 <a name="Processes"></a>   
 ### Guide staff through common tasks with business processes  
  To help ensure that staff follow consistent steps every time they work with customers, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] includes several ready-to-use business processes for common sales, service, and marketing scenarios. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] also includes mobile task flows, and business rules/recommendations that you can use to apply form logic. You can use a drag-and-drop designer to create business processes, task flows, or business rules/recommendations.  
   
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]alsoincludesotherprocesseslikeworkflowsanddialogsthatservedifferentpurposes.
+ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]also includes other processes like work flows and dialogs that serve different purposes.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
 
--[Guidestaffthroughcommontaskswithprocesses](../customize/guide-staff-through-common-tasks-processes.md)
+-   [Guide staff through common tasks with processes](../customize/guide-staff-through-common-tasks-processes.md)
   
 -   [Create a business process flow](../customize/create-business-process-flow.md)  
   
 -   [Create a mobile task flow](../customize/create-mobile-task-flow.md)  
   
--   [Create a workflow](../customize/workflow-process.md)  
-  
--   [Create a Dialog](../customize/dialogs.md)  
+-   [Create a workflow](../customize/workflow-processes.md)  
   
 -   [Create an Action](../customize/actions.md)  
   
 <a name="Customizing"></a>   
+
 ### Customize and personalize Dynamics 365 (online) for your organization  
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] providespoint-and-clickcustomizationtoolstomakethesystemworkforyourbusinessneeds.Forexample,createormodifyfields,forms,views,dashboards,reports,charts,andmore.
+ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] provides point-and-click customization tools to make the system work for your business needs. For example, create or modify fields, forms, views, dashboards, reports, charts, and more.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -271,9 +275,9 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Change the color scheme or add a logo to match your organization's brand](../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
   
--   [Customization Guide](../customize/customize-your-system.md)  
+-   [Getting started with customization](../customize/getting-started-customization.md)  
   
-     To do advanced customizations, we recommend you work with a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
+To do advanced customizations, we recommend you work with a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
   
 <a name="Additional"></a>   
 ### Additional products and services  
@@ -286,8 +290,6 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Connect your organization to Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)  
   
--   [Add Social Engagement visuals to a dashboard or account](../social-engagement/add-social-engagement-visuals-dashboard-account.md)  
-  
 -   [Social Engagement Help Center](http://go.microsoft.com/fwlink/p/?LinkId=394325)  
   
 #### Portals capabilities for Dynamics 365 (online)  
@@ -299,10 +301,10 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   Internal employees to create and find best practices  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deliver web engagement experience with portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]](../portals/administer-manage-portal-dynamics-365.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deliver web engagement experience with portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]](../portals/administer-manage-portal-dynamics-365.md)  
   
 #### Customer Insights Service  
- [!INCLUDE[pn_customerinsight_full](../includes/pn-customerinsight-full.md)] is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. Use [!INCLUDE[pn_customerinsight_short](../includes/pn-customerinsight-short.md)] to connect to transactional data sources and model profiles of customers and their interactions. The [!INCLUDE[pn_customerinsight_short](../includes/pn-customerinsight-short.md)] application transforms profile, interaction, and KPI’s into rich visuals that you can customize and organize to focus on what matters to you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customer Insights service](http://go.microsoft.com/fwlink/p/?LinkId=824625)  
+ [!INCLUDE[pn_customerinsight_full](../includes/pn-customer-insights-full.md)] is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. Use [!INCLUDE[pn_customerinsight_short](../includes/pn-customer-insights-short.md)] to connect to transactional data sources and model profiles of customers and their interactions. The [!INCLUDE[pn_customerinsight_short](../includes/pn-customer-insights-short.md)] application transforms profile, interaction, and KPI’s into rich visuals that you can customize and organize to focus on what matters to you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customer Insights service](http://go.microsoft.com/fwlink/p/?LinkId=824625)  
   
 #### Dynamics 365 - Gamification  
  [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] allows employees to participate in individual and team-based games which motivate employees to achieve certain pre-defined metrics by offering prizes, awards, privileges, and recognition. The gamification solution relies on fun, engaging activities that drive collaboration and competition to increase performance and participation. The solution uniquely encourages broader participation by getting more employees in the game through drafting teams. Organizations typically see increased productivity, engagement, and performance as well as user adoption of business applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep your employees engaged and productive by using Gamification](../gamification/increase-employee-productivity.md)
@@ -317,7 +319,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 <a name="Maintenance"></a>   
 ### On-going monitoring, maintenance, and administration  
   
--   [Get ready for the next release](~/get-started/whats-new/customer-engagement/xxx.md)  
+-   [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)  
 
 -   [How do I check my online service health?](check-online-service-health.md)  
   
@@ -328,9 +330,9 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Dynamics 365 Roadmap](http://go.microsoft.com/fwlink/p/?LinkID=826016)  
   
--   [What's new](~/get-started/whats-new/)  
+-   [What's new](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
     
--   [Dynamics 365 - Online vs on-premises features FAQ](xxx.md)  
+-   [Dynamics 365 - Online vs on-premises features FAQ](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/dynamics-365-online-vs-on-premises-features-faq.md)  
   
 <a name="Troubleshoot"></a>   
 ### Troubleshooting, FAQ, and support  
@@ -339,7 +341,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)  
   
--   [Frequently asked questions about synchronizing records between Dynamics 365 and Outlook](../outlook-add-in/frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
+-   [Frequently asked questions about synchronizing records between Dynamics 365 and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
   
 -   [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md)  
   
@@ -347,7 +349,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 
 -   [Office 365 Groups in Dynamics 365 FAQs](../basics/office-365-groups-dynamics-365-faqs.md)  
   
--   [support for Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=394391)  
+-   [Support for Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=394391)  
   
 <a name="Videos"></a>   
 ### Videos, community, forums, and blogs  
@@ -361,7 +363,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Dynamics 365 Developer Center](http://go.microsoft.com/fwlink/p/?LinkId=526629)  
   
--   [What’s new for developers](../developer/whats-new-developers.md)  
+<!-- -   [What’s new for developers](../developer/whats-new-developers.md)  -->
   
 -   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
   
@@ -376,17 +378,17 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
 ### Train your users  
  Studies show that you can greatly increase user adoption by devoting time to user training. Jumpstart training for your teams with the following resources:  
   
--   [Dynamics 365 for Sales - User's Guide - legacy](../sales-enterprise/dynamics-365-for-sales-user-s-guide.md)  
+-   [Dynamics 365 for Sales - User Guide](../sales-enterprise/user-guide.md)  
   
--   [Dynamics 365 for Customer Service – User’s Guide](../customer-service/dynamics-365-for-customer-service-user-s-guide.md)  
+-   [Dynamics 365 for Customer Service – User’s Guide](../customer-service/user-guide-customer-service.md)  
   
 -   [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)   
   
--   [Dynamics 365 for Project Service Automation - User's Guide] (../project-service/user-guide.md)
+-   [Dynamics 365 for Project Service Automation - User's Guide] (../project-service/admin-guide.md)
   
--   [Dynamics 365 for Finance and Operations, Enterprise edition](~/unified-operations/fin-and-ops/)  
+-   [Dynamics 365 for Finance and Operations, Enterprise edition](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
   
--   [Customer Service hub – User’s guide](../customer-service/customer-service-hub-user-guide.md)
+-   [Customer Service hub – User’s guide](../customer-service/user-guide-customer-service.md)
   
 -   [Watch videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
   
@@ -398,7 +400,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
 
--   [Install Dynamics 365 for phones and tablets](xxx.md)  
+-   [Install Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  
   
 -   [Dynamics 365 for Phones and Tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
@@ -446,30 +448,31 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Get a list of available reports](../basics/get-list-available-reports.md)  
   
--   [Start your day with a dashboard](../basics/start-your-day-with-a-dashboard.md)  
+-   [Start your day with a dashboard](../basics/start-your-day-dashboard-chart.md)  
   
 -   [Create or customize dashboards](../customize/create-edit-dashboards.md)  
   
 -   [Add or edit Power BI visualizations on your dashboard](../basics/add-edit-power-bi-visualizations-dashboard.md)  
   
 <a name="VOC"></a>   
+
 ### Get customer feedback with Voice of the Customer surveys  
  Create and send out surveys to get valuable feedback from your customers about your products or services. Respondents can take your surveys on a phone, tablet, or computer. You can see your customer's feedback history as you work a sale or resolve a service case. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a survey to get customer feedback (Voice of the Customer)](../voice-of-customer/create-voice-of-customer-survey.md)  
   
 <a name="NewForUsers"></a>   
+
 ### Keep users up-to-date with the latest  
- Let your users know and get excited about the latest updates to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What's new](~/get-started/whats-new/)  
+ Let your users know and get excited about the latest updates to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What's new](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
   
 <a name="Help"></a>   
+
 ### How to get help  
- [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] provides Learning Path in-app guided tasks and videos in additional to eBooks and moretraditionalHelpcontent.
+ [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] provides Learning Path in-app guided tasks and videos in additional to eBooks and more traditional Help content.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
 -   [Video: Learning Path](https://www.youtube.com/embed/-uCxzk3CtfY)  
   
 -   [Watch videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
-  
--   [eBooks and videos](../social-engagement/ebooks-and-videos.md)  
   
 -   [Dynamics 365 community](https://go.microsoft.com/fwlink/p/?linkid=825368)

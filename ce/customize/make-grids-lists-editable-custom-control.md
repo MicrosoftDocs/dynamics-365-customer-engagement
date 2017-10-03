@@ -1,7 +1,7 @@
 ---
-title: "Make grids (lists) editable in Dynamics 365 Customer Engagement by using the Editable Grid custom control | MicrosoftDocs"
+title: "Make grids (lists) editable by using the Editable Grid custom control (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,13 +10,16 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: make-grids-lists-editable-custom-control
+ms.assetid: cefbc0c2-769b-4230-ab5a-b28a84630a42
 caps.latest.revision: 8
 author: "brycho"
 ms.author: "brycho"
 manager: "brycho"
 ---
 # Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In previous releases of Dynamics CRM, users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to click the record in the grid to open a form, edit the data, and then save, which required multiple clicks. With editable grids in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
   
  ![Editable grid examples](../customize/media/editable-grid-examples.png "Editable grid examples")  
@@ -68,15 +71,13 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
   
 3.  In the **Add Control** dialog box, click **Editable Grid**, and then click **Add**.  
   
-4.  In the **Editable Grid** row that’s added, select the form factor(s) you want to apply the grid to.  
+4.  In the **Editable Grid** row that’s added, select the form factor(s) you want to apply the grid to. This makes the editable grid control the default control for the selected form factor(s).  
   
- ![Editable Grid row with form factor selection](../customize/media/editable-grid-row-wit-factor-selection.png "Editable Grid row with form factor selection")  
-  
-     This makes the editable grid control the default control for the selected form factor(s).  
-  
-    > [!NOTE]
-    >  At runtime, users can toggle between editable grids and read-only grids.  
-  
+ ![Editable Grid row with form factor selection](../customize/media/editable-grid-row-wit-factor-selection.png "Editable Grid row with form factor selection")    
+
+   > [!NOTE]
+   >  At runtime, users can toggle between editable grids and read-only grids.  
+      
 5.  To add a lookup, in the **Editable Grid** option group, click **Add Lookup**, and then in the **Configure Property “Add Lookup”** dialog box:  
   
     1.  In the **Available Views** list, select the view to add the lookup to (for example, select **My Active Accounts**).  
@@ -99,7 +100,7 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
     > [!TIP]
     >  This is mostly useful for subgrids on forms.  
   
-8.  If you want to add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] events, click the **Events** tab, and then select the appropriate entities, fields, and events. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Editable grid objects and methods (client-side reference)](Editable%20grid%20objects%20and%20methods%20\(client-side%20reference\).md)  
+8.  If you want to add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] events, click the **Events** tab, and then select the appropriate entities, fields, and events. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md).-->  
   
  ![Add events in Editable Grid control](../customize/media/add-events-in-editable-grid-control.png "Add events in Editable Grid control")  
   
@@ -127,8 +128,8 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
 |Account<br /><br /> Appointment<br /><br /> Bookable Resource<br /><br /> Bookable Resource Booking<br /><br /> Bookable Resource Booking Header<br /><br /> Bookable Resource Category<br /><br /> Bookable Resource Category Assn<br /><br /> Bookable Resource Characteristic<br /><br /> Bookable Resource Group<br /><br /> Booking Status<br /><br /> Case<br /><br /> Category<br /><br /> Characteristic<br /><br /> Competitor<br /><br /> Contact<br /><br /> Email<br /><br /> Entitlement<br /><br /> Feedback<br /><br /> Invoice<br /><br /> Knowledge Article<br /><br /> Knowledge Article Views<br /><br /> Knowledge Base Record<br /><br /> Lead<br /><br /> Opportunity<br /><br /> Order<br /><br /> Phone Call<br /><br /> Price List<br /><br /> Product<br /><br /> Queue<br /><br /> Quote<br /><br /> Rating Model<br /><br /> Rating Value<br /><br /> SLA KPI Instance<br /><br /> Social Activity<br /><br /> Social Profile<br /><br /> Sync Error<br /><br /> Task<br /><br /> Team<br /><br /> User|Activity<br /><br /> Attachment<br /><br /> Channel Access Profile Rule Item<br /><br /> Competitor Address<br /><br /> Connection<br /><br /> Connection Role<br /><br /> Email Signature<br /><br /> Email Template<br /><br /> Expired Process<br /><br /> Invoice Product<br /><br /> Knowledge Article Incident<br /><br /> Lead To Opportunity Sales<br /><br /> Process<br /><br /> Mailbox<br /><br /> New Process<br /><br /> Note<br /><br /> Opportunity Product<br /><br /> Opportunity Sales Process<br /><br /> Order Product<br /><br /> Organization<br /><br /> Phone to Case Process<br /><br /> Price List Item<br /><br /> Queue Item<br /><br /> Quote Product<br /><br /> Sharepoint Document<br /><br /> Translation Process|Campaign<br /><br /> Campaign Activity<br /><br /> Campaign Response<br /><br /> Channel Access Profile<br /><br /> Channel Access Profile Rule<br /><br /> Contract<br /><br /> Entitlement Template<br /><br /> External Party<br /><br /> Fax<br /><br /> Letter<br /><br /> Marketing List<br /><br /> Position<br /><br /> Quick Campaign<br /><br /> Recurring Appointment<br /><br /> Sales Literature<br /><br /> SLA|  
   
 ### See also  
- [Use keyboard shortcuts in editable grids](https://go.microsoft.com/fwlink/p/?linkid=837445)   
+ [Use keyboard shortcuts in editable grids](../basics/move-around-dynamics-365-using-keyboard-shortcuts.md)   
  [Create and edit views](../customize/create-edit-views.md)   
- [Create a business rule or business recommendation](https://go.microsoft.com/fwlink/p/?linkid=836910)   
- [Editable grid objects and methods (client-side reference)](Editable%20grid%20objects%20and%20methods%20\(client-side%20reference\).md)   
- [Customize Dynamics 365 for phones and tablets](../mobile-app/customize-phones-tablets.md)
+ [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)        
+ [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)
+ <!--[Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md)-->
