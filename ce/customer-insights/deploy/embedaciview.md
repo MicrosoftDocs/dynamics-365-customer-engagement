@@ -35,7 +35,7 @@ Follow these steps to embed a [!include[pn-customer-insights](../../includes/pn-
 
          Prod: https://<hubname>.apps.azurecustomerinsights.com
 
-    >-   Use the + button to create a new view, selecting appropriate profile type, a new-views New-view.
+    >-   Use the + button to create a new view, selecting the appropriate profile type.
 
     ![](../media/CreateACIView.png "Click the plus sign")
 
