@@ -64,3 +64,4 @@ This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../
 -->
 
 ### See also  
+ [View relevant and trending information on a dashboard with Office Delve](/basics/view-relevant-trending-information-office-delve.md)
