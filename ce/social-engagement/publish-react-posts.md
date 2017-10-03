@@ -154,7 +154,8 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 <a name="PostLink"></a>   
 ### Post a link to another post  
 Share a link to a public post along with your own comments as a new post directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
-  
+
+[//]: # (@Michael, I only looked at the delta from the published version of this topic. Just FYI, the comma is necessary because you've got two complete sentences in this paragraph.)  
 #### Create a new post with a link to a post found in Social Engagement  
   
 1.  Go to **Social Center**.  
@@ -172,7 +173,7 @@ Share a link to a public post along with your own comments as a new post directl
     > [!NOTE]
     > When you share to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you can choose between two visibility options: Either share the post with everyone on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] or only with your network.
     >
-    > You can't share the URL of a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] comment on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and we'll hide the social profiles for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] when you try to post a link to a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] comment.  
+    > You can't share the URL of a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] comment on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], and we'll hide the social profiles for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] when you try to post a link to a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] comment.  
   
 5.  Optionally, type additional text in the text field.  
   
