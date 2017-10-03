@@ -2,7 +2,7 @@
 title: "Manage forum threads in a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage forum threads in a portal."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

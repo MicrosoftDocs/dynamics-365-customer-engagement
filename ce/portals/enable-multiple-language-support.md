@@ -2,7 +2,7 @@
 title: "Enable multiple-language portal support in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable multiple languages for a portal and create content in multiple languages."
 ms.custom: ""
-ms.date: 09/11/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,7 +31,7 @@ To enable multiple languages for a portal, follow these steps after signing in t
     ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
 
 > [!Note]
-> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](provision-portal.md#import-metadata-translation) to get the  metadata translated for the newly activated languages.
+> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](manage-portal.md#import-metadata-translation) to get the  metadata translated for the newly activated languages.
 
 ## Supported languages
 
