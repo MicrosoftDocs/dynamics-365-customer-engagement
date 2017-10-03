@@ -16,7 +16,7 @@ topic-status: Drafting
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
 
-[//]: # (Can you advise the pattern you're following with using the long versus short versions of the Netbreeze token? That will help me edit for consistency.)
+[//]: # (Please note that I changed the long product name tokens to the short ones. This is going to be our style going forward.)
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Here's a list of features we added recently.
 
 If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](../social-engagement/get-started.md).
@@ -43,8 +43,8 @@ Whenever you open a post that has a parent post, you can switch to that parent p
 
 ### Updated license related to Twitter data use
 
-[//]: # (@Michael, can you please verify that "underlies" is the right way to put this? I feel there might be a more precise and CELA-blessed way to put this. If you've already asked CELA, never mind, but if not will you please double-check with them about the best word to use, and CC Renee?)
-The use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn-netbreeze-long](../includes/pn-netbreeze-long.md)] now underlies the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Service. This is exposed in the footer of every page of the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] app. The provided link points to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]'s Terms of Service. 
+[//]: # (@Michael, can you please verify that "underlies" is the right way to put this? I feel there might be a more precise and CELA-blessed term. If you've already asked CELA, never mind, but if not will you please double-check with them about the best word to use, and CC Renee?)
+The use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn-netbreeze-short](../includes/pn-netbreeze-short.md)] now underlies the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Service. This is exposed in the footer of every page of the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] app. The provided link points to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]'s Terms of Service. 
 
 ### Service and product improvements
 
@@ -52,7 +52,7 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.8
 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] extends listening and engagement capabilities to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer, so you can interact with your company's audience and analyze the data from your pages directly in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extends listening and engagement capabilities to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer, so you can interact with your company's audience and analyze the data from your pages directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
 
 ### Listening and engagement on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
 
