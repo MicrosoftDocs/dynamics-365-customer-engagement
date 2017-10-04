@@ -1,7 +1,7 @@
 ---
 title: "Example reports for Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 5ea2a179-f569-491d-92fe-bd35c1d57c74
 caps.latest.revision: 11
 author: "Mattp123"
@@ -18,7 +19,10 @@ tags:
  - "MigrationHO"
 ---
 # Example reports
-This section provides example reports that show how to implement common techniques in your reports for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+This section provides example reports that show how to implement common techniques in your reports for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 ## Create a report using an example  
   
@@ -31,6 +35,6 @@ This section provides example reports that show how to implement common techniqu
 3.  Publish the report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
    
   
-## See also  
- [Report writing with Dynamics 365](../analytics/reporting-analytics-with-dynamics-365.md)   
- [Copy reports between Microsoft Dynamics 365 (on-premises) deployments](https://technet.microsoft.com/library/dn531102.aspx)
+### See also  
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
+ [Copy reports between Dynamics 365 (on-premises) deployments](https://technet.microsoft.com/library/dn531102.aspx)

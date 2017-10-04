@@ -1,7 +1,7 @@
 ---
-title: "Add ready-to-use business processes in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Add ready-to-use business processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,12 +17,18 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Add ready-to-use business processes for common scenarios
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes several ready-to-use business processes for common sales, service, and marketing scenarios – to help you ensure that staff follow consistent steps every time they work with customers.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> Ready-to-use business processes available through the Add Ready-to-Use Business Processes setting has been deprecated and will be removed in a future major release of Dynamics 365. You can find ready-to-use business processes on [Microsoft AppSource](https://appsource.microsoft.com/).
+
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes several ready-to-use business processes for common sales, service, and marketing scenarios – to help you ensure that staff follow consistent steps every time they work with customers.  
   
  Before you can use these processes, you need to add them to the system.  
   
 > [!NOTE]
->  Ready-to-use business processes are activated automatically when you add them. If a ready-to-use business process includes workflows or portable business logic rules, you’ll need to activate those separately. For more information about business processes, see [Guide staff through common tasks with processes](../customize/guide-staff-through-common-tasks-processes.md).  
+>  Ready-to-use business processes are activated automatically when you add them. If a ready-to-use business process includes workflows or portable business logic rules, you’ll need to activate those separately. For more information about business processes, see [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md).  
   
  The following table shows a list of ready-to-use business processes and what they help you do.  
   
@@ -44,7 +50,7 @@ manager: "brycho"
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-    #### Check your security role  
+    ### Check your security role  
   
     1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -56,8 +62,6 @@ manager: "brycho"
   
 4.  Choose **Add**.  
   
-### See also  
- [Create a business process flow](../customize/create-business-process-flow.md)   
- [Assign a security role to a business process flow](../customize/assign-security-role-business-process-flow.md)   
- [Guide staff through common tasks with processes](../customize/guide-staff-through-common-tasks-processes.md)   
+### See also    
+ [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)   
  

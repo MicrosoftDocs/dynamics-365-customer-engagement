@@ -1,7 +1,7 @@
 ---
 title: "Actions overview, Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,9 +16,12 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Actions overview
-Actions are a type of process in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Actions are a type of process in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
   
- Actions can also be invoked by running custom code that uses the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Web services.  
+ Actions can also be invoked by running custom code that uses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web services.  
   
  You can call actions:  
   
@@ -26,11 +29,11 @@ Actions are a type of process in [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
   
 -   From a command that is placed in the application and executes the operation using JavaScript code.  
   
--   From an integration with another system that uses the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web services.  
+-   From an integration with another system that uses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services.  
   
--   From a custom client application that uses the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web services.  
+-   From a custom client application that uses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services.  
   
- Developers can learn more in this [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] topic: [Create your own actions](http://go.microsoft.com/fwlink/p/?LinkID=513303).  
+<!--Developers can learn more in this [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] topic: [Create your own actions](../developer/create-own-actions.md).-->  
   
 <a name="BKMK_WhyActions"></a>   
 ## Why use actions?  
@@ -40,18 +43,17 @@ Actions are a type of process in [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
   
 <a name="BKMK_ConfigurableMessages"></a>   
 ## Configurable messages  
- Once an action is defined and activated, a developer can use that message like any of the other messages provided by the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] platform. However, a significant difference is that now someone who is not a developer can apply changes to what should be done when that message is used. You can configure the action to modify steps as your business processes change. Any custom code that uses that message does not need to be changed as long as the process arguments do not change.  
+ Once an action is defined and activated, a developer can use that message like any of the other messages provided by the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform. However, a significant difference is that now someone who is not a developer can apply changes to what should be done when that message is used. You can configure the action to modify steps as your business processes change. Any custom code that uses that message does not need to be changed as long as the process arguments do not change.  
   
- Workflow processes and plug-ins continue to provide similar capabilities for defining automation. Workflow processes still provide the capability for a non-developer to apply changes. But the difference is in how the business processes are composed and how a developer can write their code. An action is a message that operates on the same level as any of the messages provided by the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Platform. Developers can register plug-ins for Actions.  
+ Workflow processes and plug-ins continue to provide similar capabilities for defining automation. Workflow processes still provide the capability for a non-developer to apply changes. But the difference is in how the business processes are composed and how a developer can write their code. An action is a message that operates on the same level as any of the messages provided by the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Platform. Developers can register plug-ins for Actions.  
   
 <a name="BKMK_GlobalMessages"></a>   
 ## Global messages  
  Unlike workflow processes or plug-ins, an action doesn’t have to be associated with a specific entity. You can define ”global” Actions that can be called on their own.  
   
 ### See also  
- [Create your own actions](http://go.microsoft.com/fwlink/p/?LinkID=513303)   
+ <!-- [Create your own actions](../developer/create-own-actions.md)  --> 
  [Configure actions](../customize/configure-actions.md)   
  [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)   
  [Workflow processes overview](../customize/workflow-processes.md)   
- [Dialogs overview](../customize/dialogs.md)
  [Business process flows overview](../customize/business-process-flows-overview.md)   

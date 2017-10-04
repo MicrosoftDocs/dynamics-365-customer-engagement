@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Configure expense categories (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Your consultants incur expenses when they work for your clients, including airfare, meals, mileage, and other expenses. Set up expense categories your consultants can use to enter their expenses, so you can invoice your client for those expenses.  
   
  Each expense category can have its own unit group and unit. You can define pricing for each expense category for each unit in the unit group assigned to the expense category.  

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Create a project contract (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Now that you’ve won the quote for your project, it’s time to create a contract with your customer and make it official. You can create one or more contracts for each quote. When you’re creating a contract, you’re in the **Contract** phase of your project.  
   
 1.  In the **Project Contract** screen from the previous step, change any information as necessary in the **Summary** area.  

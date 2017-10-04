@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Use Connected Field Service to remotely monitor and service customer equipment (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] to monitor connected devices and always know your customer’s equipment is functioning correctly. If equipment fails, you’ll be notified so that you can troubleshoot the problem remotely, or send a technician to fix it.  
   
  [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] helps service organizations move from a costly break-fix model to a more proactive service model by combining monitoring and predictive maintenance with Internet of Things (IoT).  
@@ -370,7 +373,7 @@ Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-fiel
   
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
- [Install](../field-service/install-field-service.md)   
+ [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
- [View user accounts and security roles (Field Service)](../field-service/view-user-accounts-security-roles.md)<br>
- [User's Guide](../field-service/user-guide.md) 
+ [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
+ [Field Service Users Guide](../field-service/user-guide.md) 

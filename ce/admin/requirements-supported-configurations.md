@@ -1,7 +1,7 @@
 ---
 title: "Requirements and supported configurations for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,5 +17,8 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Requirements and supported configurations
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section describes requirements and supported configurations for [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)].  
   

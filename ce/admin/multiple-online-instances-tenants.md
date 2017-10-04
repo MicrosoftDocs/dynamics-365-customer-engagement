@@ -1,7 +1,7 @@
 ---
 title: "Multiple Dynamics 365 (online) instances or tenants | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # About multiple online instances or tenants
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] gives you options for segregating your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and user access. For most companies, adding and using multiple instances in your subscription provides the right mix of functionality and ease of management. Enterprises with separate geographic locations might consider using multiple tenants to separate [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] licenses. Multiple instances can share users among instances; multiple tenants cannot.  
   
 > [!NOTE]
@@ -46,7 +49,7 @@ manager: "brycho"
 ## A multi-instance deployment  
  A typical [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] deployment includes one tenant only. A tenant can include one or more [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances; however, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is always associated with a single tenant.  
   
- ![Single tenant deployment in Dynamics 365 &#40;online&#41;](../admin/media/multi-tenant-1b.png "Single tenant deployment in Dynamics 365 (online)")  
+ ![Single tenant deployment in Dynamics 365 (online)](../admin/media/multi-tenant-1b.png "Single tenant deployment in Dynamics 365 (online)")  
   
  This example uses two instances for three teams: Sales, Marketing, and Services.  
   
@@ -70,7 +73,7 @@ manager: "brycho"
   
 -   A licensed [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] user can potentially access all the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances associated with the tenant. Access is controlled by instance security group membership.  
   
--   You can purchase additional instances through the Additional Instance Add-On. Additional instances can be added only to "paid" subscriptions - not trials or Internal Use Rights (IUR). If you purchased your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription through Volume Licensing, you must go through your Large Account Reseller (LAR) to purchase the additional instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Billing and subscription support](http://go.microsoft.com/fwlink/p/?LinkID=396449)  
+-   You can purchase additional instances through the Additional Instance Add-On. Additional instances can be added only to "paid" subscriptions - not trials or Internal Use Rights (IUR). If you purchased your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription through Volume Licensing, you must go through your Large Account Reseller (LAR) to purchase the additional instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Billing and subscription support](billing-support.md)  
   
 -   You can’t merge existing trials or subscriptions onto an additional instance; instead, you will need to move your data and customizations.  
   
@@ -102,7 +105,7 @@ manager: "brycho"
 ## A multi-tenant deployment  
  Global businesses with regional or country models that differ can use tenants to account for variations in approach, market size, or compliance with legal and regulatory constraints.  
   
- ![Multi&#45;tenant deployment in Dynamics 365 &#40;online&#41;](../admin/media/multi-tenant-2.png "Multi-tenant deployment in Dynamics 365 (online)")  
+ ![Multi-tenant deployment in Dynamics 365 (online)](../admin/media/multi-tenant-2.png "Multi-tenant deployment in Dynamics 365 (online)")  
   
  This example includes a second tenant for Contoso Japan.  
   
@@ -137,7 +140,7 @@ manager: "brycho"
   
 -   Forms, workflows.  
   
- **Physical distribution**  
+**Physical distribution**  
   
  For business solutions that must support users that are physically distributed over large distances, particularly for global deployments, using a single instance may not be suitable because of the implications (such as WAN latency) associated with the infrastructure over which the users connect, which can significantly impact the user experience. Distributing instances to provide users with more local access can reduce or overcome WAN-related issues, as the access occurs over shorter network connections.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Change the color scheme or add a logo to match your organization’s brand in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Change the color scheme or add a logo to match your organization’s brand (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Create a theme
-You can create a custom look and feel (a theme), for your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application by making changes to the default colors and visual elements provided in the uncustomized [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+You can create a custom look and feel (a theme), for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application by making changes to the default colors and visual elements provided in the uncustomized [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
   
 <a name="UseThemes"></a>   
 ## Use themes to enhance the user interface and create your product branding  
@@ -34,7 +37,9 @@ You can create a custom look and feel (a theme), for your [!INCLUDE[pn_microsoft
   
 -   Navigation bar color  
   
--   Navigation bar shelf color  
+-   Navigation bar shelf color
+
+-   Main command bar color on the Unified Interface
   
 -   Header color  
   
@@ -73,7 +78,7 @@ The following screenshot shows the default theme setup.
   
  The following screenshot shows the new navigation color.  
   
- ![Gentle green theme colors](../customize/media/theme-gentle-green.PNG "Gentle green theme colors")  
+ ![Gentle green theme colors](../customize/media/theme-gentle-green.png "Gentle green theme colors")  
   
  The following screenshot shows the account entity grid with the new highlight color.  
   
@@ -126,6 +131,8 @@ The following screenshot shows the default theme setup.
 -   The Sitemap nodes colors aren’t customizable.  
   
 ### See also  
- [Customize your system](../customize/customize-your-system.md)        
- [Video: Themes in Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkId=529568)   
- [Query and edit an organization theme](https://msdn.microsoft.com/library/dn932133.aspx)
+         
+ [Video: Themes in Dynamics 365 Customer Engagement](http://go.microsoft.com/fwlink/p/?LinkId=529568)
+ <!--
+ [Query and edit an organization theme](../developer/customize-dev/query-and-edit-an-organization-theme.md)
+-->

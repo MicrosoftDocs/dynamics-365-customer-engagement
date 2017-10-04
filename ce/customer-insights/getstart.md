@@ -20,7 +20,7 @@ Getting started with big data analytics, and turning customer data into actual a
 With Dynamics 365 for Customer Insights, you can make sense of your data to engage customers in more personalized and effective ways. Without the need for a data mining specialist.
 
 Harness the power of Dynamics 365 for Customer Insights to:
-- Connect all of your data into one place, diplayed on an easy-to-use customer dashboard.
+- Connect all of your data into one place, displayed on an easy-to-use customer dashboard.
 - Empower your employees with actionable customer insights.
 - Get results quickly by leveraging Microsoft’s complete SaaS solution with pre-packaged analytics.
 

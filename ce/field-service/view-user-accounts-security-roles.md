@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # View user accounts and security roles (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 A user in [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] is a member of your organization who will use a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] license. Security roles define which entities a user can view as well as how they can interact with those entities. Field security profiles define which fields a user can see. As an example, a user may have permission to see accounts but not to see specific fields for an account. [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] comes with four predefined security roles and field security profiles:  
   
 - **Field Service Administrator:** Generally assigned to key people within the organization who need access to the **Administration** tile. Global access to all Field Service entities.  

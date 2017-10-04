@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Associate skills with resources (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In the previous step, you already associated some skills with  a new resource. From time to time, you might need to add additional skills to a resource.  
   
 1.  Go to **Project Service > Resources**.  

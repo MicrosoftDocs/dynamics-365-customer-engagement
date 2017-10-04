@@ -1,7 +1,7 @@
 ---
-title: "RDL sandboxing for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "RDL sandboxing (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 8ec72014-9f0c-4964-ac67-24419b054e91
 caps.latest.revision: 13
 author: "Mattp123"
@@ -17,7 +18,10 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# RDL sandboxing for Microsoft Dynamics 365 (online)
+# RDL sandboxing for Dynamics 365 (online)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the reports run in the sandbox mode. This is done by enabling Report Definition Language (RDL) Sandboxing in [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. The RDL Sandboxing lets you detect and restrict the usage of specific types of resources. As a result, certain features in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] may not be available. For more information, see [MSDN: Enabling and Disabling RDL Sandboxing](https://msdn.microsoft.com/library/ee210591.aspx).  
   
  The current RDL Sandboxing configuration settings in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] are described in the following sections in this topic.  
@@ -262,6 +266,6 @@ In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the reports run in t
 |GetType|  
 |MemberwiseClone|  
   
-## See also  
- [Report Writers Guide for Dynamics 365](../analytics/reporting-analytics-with-dynamics-365.md)   
+### See also  
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Sample Reports](../analytics/example-reports.md)

@@ -25,11 +25,6 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
   
  [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] uses the [!INCLUDE[pn_composite_ui_application_block](../includes/pn-composite-ui-application-block-md.md)] tools and services for messaging, visual containment, application loading, and state management. For more information, and to download the application block, see [MSDN:  HYPERLINK "http://msdn.microsoft.com/en-us/library/aa480450.aspx" Smart Client – Composite UI Application Block](https://msdn.microsoft.com/library/aa480450.aspx).  
   
-## In this Topic  
- [AIF components](uii-application-integration-framework.md#AIFComponents)  
-  
- [AIF object model](uii-application-integration-framework.md#AIFObjectModel)  
-  
 <a name="AIFComponents"></a>   
 ## AIF components  
  The following illustration shows the [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] components.  

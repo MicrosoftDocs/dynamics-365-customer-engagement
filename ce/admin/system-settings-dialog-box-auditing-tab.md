@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Auditing tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # System Settings dialog box - Auditing tab
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Enable auditing to track changes to your organization’s data and maintain a log of changes.  
   
 ## Open the System Settings dialog box (if it’s not already open)  
@@ -49,5 +52,5 @@ Enable auditing to track changes to your organization’s data and maintain a lo
 |**Marketing Entities**|Campaign|  
 |**Customer Service Entities**|Article, Case, Client Feedback, Contract, and Service|  
   
-### See also  
- [Audit data and user activity](https://technet.microsoft.com/en-us/library/dn887214.aspx)
+<!-- ### See also  
+ [Audit data and user activity](../developer/audit-user-access.md) -->

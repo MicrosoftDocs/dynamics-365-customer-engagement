@@ -1,7 +1,7 @@
 ---
-title: "View product hierarchy (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "View product hierarchy (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/01/2016
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 16
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# View product hierarchy (Sales, Enterprise)
+# View product hierarchy (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 A product hierarchy gives you a visual snapshot of the products your organization sells. It makes it easy to see what products are available to sell and how they are connected. With this information at your fingertips, you can take whatever actions you need to on any product from a single place and improve your chances of a sale.  
   
 1. [!INCLUDE[proc_sales_products](../includes/proc-sales-products.md)]  

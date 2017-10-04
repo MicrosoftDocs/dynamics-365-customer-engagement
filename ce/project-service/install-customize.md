@@ -18,26 +18,14 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Install and customize (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is an end-to-end solution that you need to install before users can start using the capabilities to manage and deliver project-based sales. While it's an end-to-end solution, you can still make customizations as needed to suit your organization.  
+<!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## Install Project Service Automation  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is a preferred solution. There are several ways to purchase the solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
-  
-> [!IMPORTANT]
->  You can't run the an older version of [!INCLUDE[pn_fieldservice_long_sentencecase](../includes/pn-fieldservice-long-sentencecase.md)] and a new version of [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] on the same instance.  
-  
-## Create required records  
- Now that you’ve installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you need to create the required records before you can start using [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. In this step, you'll create a parameters setting (or edit an existing one), save it, and then tell [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create certain records that the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities need to work properly.  
-  
-1.  Go to **Project Service > Parameters**.  
-  
-2.  Click a parameters setting, or click **New** to create a new one.  
-  
-3.  Enter a description for the setting, and then click **Save**.  
-  
-4.  Click **Create Required Records**.  
-  
-5.  When you see a **Processing complete** message, click **OK.**  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is a preferred solution. There are several ways to purchase the solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md).  
   
 ## Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports  
  If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information about customizing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] in the following links:  

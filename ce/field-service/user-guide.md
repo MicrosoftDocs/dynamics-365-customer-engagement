@@ -15,7 +15,8 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # User Guide (Field Service)
-<a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]  
   
 ## Overview  
  [Manage your field service operations](../field-service/overview.md)  

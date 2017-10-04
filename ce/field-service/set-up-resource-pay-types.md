@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up resource pay types to track costs associated with resource bookings (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Resource pay types can be used to track your company's costs associated with a resource booking. When the status of a resource booking record is set to "complete," the system generates booking journal records, according to the time that a field agent spent performing the work.  
   
  The system can create one booking journal record for each of the following journal types: travel, working hours, break, overtime, and business closure, depending on the various resource booking statuses that the user applied to the resource booking while completing the work.  
@@ -58,7 +61,7 @@ Resource pay types can be used to track your company's costs associated with a r
   
 ### See also    
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
- [Set when your business is closed)](../customer-service/set-when-business-closed-customer-service.md)   
+ [Set when your business is closed)](../customer-service/set-when-business-closed.md)   
  [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)

@@ -32,9 +32,9 @@ Customer Insights currently offers the following ways to use the web services:
 ## About the two REST APIs
 Customer Insights APIs are divided in two sections: Azure Resource Manager (ARM) and Hub APIs.  
 
-Dynamics 365 for Customer Insights is registered with [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview) as a standard resource provider named "Microsoft.CustomerInsights". This provider exposees its own API—the Customer Insights Azure Resource Manager [(ARM) API](../ref/armapiref.md).  All of Customer Insights Azure portal, Azure PowerShell and Azure SDK functionality works on top of Customer Insights ARM APIs.
+Dynamics 365 for Customer Insights is registered with [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview) as a standard resource provider named "Microsoft.CustomerInsights". This provider exposes its own API—the Customer Insights Azure Resource Manager [(ARM) API](../ref/armapiref.md).  All of Customer Insights Azure portal, Azure PowerShell and Azure SDK functionality works on top of Customer Insights ARM APIs.
 
-The Microsoft.CustomerInsights provider also declares primary resources named "Hub".  A hub represents a complete set of billable functionality. Each hub also exposees its own API—the Customer Insights [Hub API](../ref/hubapiref.md).
+The Microsoft.CustomerInsights provider also declares primary resources named "Hub".  A hub represents a complete set of billable functionality. Each hub also exposes its own API—the Customer Insights [Hub API](../ref/hubapiref.md).
 
 Much commonality exists between the functionality provided by these two APIs, as detailed in [Customer Insights API Quick Reference](../ref/apiquickref.md).
 

@@ -1,7 +1,7 @@
 ---
 title: "How do I check my online service health for Dynamics 365 (online)? | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # How do I check my online service health?
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. The dashboard on the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
   
 <a name="BKMK_Snapshot"></a>   
@@ -54,5 +57,5 @@ You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest]
  ![View health of individual instances](../admin/media/o365-instance-health.png "View health of individual instances")  
   
 ### See also  
- [Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)<br>
+ [Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)<br />
  [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md)

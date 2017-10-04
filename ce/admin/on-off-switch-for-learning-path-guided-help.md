@@ -1,7 +1,7 @@
 ---
 title: "On-off switch for Learning Path (guided help) for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # On-off switch for Learning Path (guided help)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Learning Path (guided help) is turned on by default, but is easy to turn off.  
   
 ## Turn Learning Path on or off for an individual user  
@@ -48,5 +51,5 @@ Learning Path (guided help) is turned on by default, but is easy to turn off.
 [!INCLUDE[cc_privacy_learning_path](../includes/cc-privacy-learning-path.md)]
   
 ### See also  
- [Create your own guided help (Learning Path) for your customers](../customize/create-your-own-guided-help-learning-path-for-your-customers.md)   
+ [Create your own guided help (Learning Path) for your customers](../customize/create-guided-help-learning-path.md)   
  [Video: Learning Path in-app Help designer for customers and partners](https://go.microsoft.com/fwlink/p/?linkid=723184)

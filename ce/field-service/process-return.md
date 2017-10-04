@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Process a return (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a return merchandise authorization (RMA) is created in the system when a product is returned. There are three ways of returning a product: return to warehouse, return to vendor (RTV), or change equipment ownership.  
   
  All product returns are initiated with an RMA. The RMA designates the product, unit, quantity, related work order, and price list for the return. It also specifies the processing action, which is the type of return.  

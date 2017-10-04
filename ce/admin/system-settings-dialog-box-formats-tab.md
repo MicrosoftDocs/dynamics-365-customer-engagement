@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Formats tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # System Settings dialog box - Formats tab
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can control how [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] displays numbers, currencies, times, and dates for your organization.  
   
 ## Open the Formats System Settings dialog box (it it isn’t already open)  

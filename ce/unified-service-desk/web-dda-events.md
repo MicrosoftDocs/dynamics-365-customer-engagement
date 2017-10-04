@@ -48,11 +48,6 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
 |`key`|Mouse button that was clicked at the event (1=left, 2=right, and so on).|  
 |`button`|Code of the button that was pressed (for example, the Enter key code is 13).|  
   
-## In this Topic  
- [Control Events](../unified-service-desk/web-dda-events.md#BKMK_Control)  
-  
- [Page Events](../unified-service-desk/web-dda-events.md#BKMK_pageevents)  
-  
 <a name="BKMK_Control"></a>   
 ## Control Events  
  Control events are the events associated with a control.  

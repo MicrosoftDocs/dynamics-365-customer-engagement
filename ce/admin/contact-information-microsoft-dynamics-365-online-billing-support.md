@@ -1,7 +1,7 @@
 ---
 title: "Contact information for Dynamics 365 (online) billing support | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Contact information for billing support
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you're using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] through an Enterprise Agreement (EA) or Campus Agreement/School Agreement (CASA) and need to contact [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] with a billing question, you can use the telephone numbers in the following table to contact billing support for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  Locate the country/region you need in the table to find your billing support telephone number.  

@@ -1,7 +1,7 @@
 ---
 title: "Set up security permissions for a field for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,10 +16,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Set up security permissions for a field
+# Set up security permissions for a field 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can restrict access to a field by creating a field security profile. After you create the profile, you assign users and or teams to that profile, and set up specific read, create, or write permissions for the field.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Dynamics 365](https://technet.microsoft.com/library/hh699698.aspx)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Dynamics 365](security-concepts.md)  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   

@@ -1,5 +1,5 @@
 ---
-title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -16,7 +16,10 @@ author: "kamaybac"
 ms.author: "kamaybac"
 manager: "sakudes"
 ---
-# Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales, Enterprise)
+# Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Add all items to your campaign that your need in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
   
 1. [!INCLUDE[proc_marketing_campaigns](../includes/proc-marketing-campaigns.md)]  

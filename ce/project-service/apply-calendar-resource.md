@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Apply a calendar to a resource (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Once you’ve created a work hours template, you need to assign it to resources so their calendars reflect the working hours specified in the template.  
   
 1.  Go to **Project Service > Resources**.  

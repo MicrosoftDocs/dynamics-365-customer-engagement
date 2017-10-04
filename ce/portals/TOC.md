@@ -1,13 +1,18 @@
 # [Deliver web engagement experience with portal capabilities for Dynamics 365](administer-manage-portal-dynamics-365.md)
 ## [What's new](monthly-updates-portals.md)
-## [Install](provision-portal.md)
-### [Provision a portal](provision-portal.md)
-### [Enable multiple-language support](enable-multiple-language-support.md)
-### [Troubleshoot Provisioning](provision-portal.md#troubleshoot-provisioning)
 
-## [Configure](configure-portal.md)
+## [Provision a portal](provision-portal.md)
+### [Enable multiple-language support](enable-multiple-language-support.md)
+### [Troubleshoot provisioning](provision-portal.md#troubleshoot-provisioning)
+
+## [Manage a portal](manage-portal.md)
+### [Supported browsers](supported-browsers.md)
+
+## [Configure a portal](configure-portal.md)
 ### [Behavior and format of the date and time field](behavior-format-date-time-field.md)
 ### [View primary domain name in Dynamics 365](view-primary-domain.md)
+### [View email records in portal timeline](view-email-in-timeline.md)
+### [View activity of a user on a portal](view-user-activity.md)
 ### [Create web roles](create-web-roles.md)
 ### [Manage knowledge articles](manage-knowledge-articles-content-levels.md)
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)

@@ -1,7 +1,7 @@
 ---
-title: "Privileges required for customizing in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Privileges required for customizing (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,14 +16,17 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Privileges required for customization
-Individuals can personalize the system and even share some of their customizations with others, but only users with the correct privileges can apply changes for everyone using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Individuals can personalize the system and even share some of their customizations with others, but only users with the correct privileges can apply changes for everyone using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 > [!NOTE]
->  This section assumes you know how to work with security roles. For more information about working with security roles, see [Create users and manage security](Manage%20security,%20users,%20and%20teams.md).  
+>  This section assumes you know how to work with security roles. For more information about working with security roles, see [Create users and assign security roles](../admin/create-users-assign-online-security-roles.md).  
   
 <a name="BKMK_SysAdminAndSysCustomizer"></a>   
 ## System Administrator and System Customizer security roles  
- Almost everyone who customizes [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will have the System Administrator or System Customizer security role associated with their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] account. These security roles give you the permissions you need to customize your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployment.  
+ Almost everyone who customizes [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will have the System Administrator or System Customizer security role associated with their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] account. These security roles give you the permissions you need to customize your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployment.  
   
 |System Administrator|System Customizer|  
 |--------------------------|-----------------------|  
@@ -46,6 +49,6 @@ Individuals can personalize the system and even share some of their customizatio
 >  Don’t attempt to remove your System Administrator security role if you have only one user account. The system will warn you if you try, but if you proceed you could find that you won’t be able to get it back. Most security roles don’t allow editing of a user’s security roles.  
   
 ### See also  
- [Getting started with customization](../customize/getting-started-customization.md)   
- [Customization concepts](../customize/customization-concepts.md)   
- [Using Solutions](../customize/use-solutions-for-your-customizations.md)
+ [Customization overview](../customize/overview.md)<br/> 
+ [Getting started with customization](../customize/getting-started-customization.md)<br/>
+ [Solutions overview](../customize/solutions-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a campaign using in-app marketing (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Create or edit a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 08/31/2017
 ms.reviewer: ""
@@ -16,7 +16,10 @@ author: "kamaybac"
 ms.author: "kamaybac"
 manager: "sakudes"
 ---
-# Create or edit a campaign using in-app marketing (Sales, Enterprise])
+# Create or edit a campaign using in-app marketing (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Promote your business, expand your reach to new customers, and improve sales by using campaigns in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Use campaigns to store all your marketing information and activities, and to measure the success of your efforts. Campaigns contain planning tasks and campaign activities you need to manage for the marketing campaigns.  
   
  Add strategic campaign information to your campaign, such as:  
@@ -49,7 +52,7 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
     3.  Under **Financials**, enter details about the cost of the campaign and campaign activities, and the budget and revenue of the campaign.  
   
-    4.  To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record (Customer Service)](../customer-service/add-phone-call-task-email-appointment-activity-case-record-customer-service.md)  
+    4.  To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record](../basics/add-phone-call-task-email-appointment-activity-case-record.md)  
   
 4.  When you’re ready to save your data, click **Save**.  
   

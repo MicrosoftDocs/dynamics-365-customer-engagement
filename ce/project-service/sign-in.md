@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Sign in (Project Service Automation)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps, you need to have the following information from your Dynamics 365 administrator:  
   
 -   URL for your organization’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system  

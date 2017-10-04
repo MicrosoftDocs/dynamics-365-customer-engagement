@@ -32,7 +32,6 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],    
-    "xref": ["_zip/dyn365-dotnet.zip"],
     "dest": "customer-engagement-dev"
   }
 }

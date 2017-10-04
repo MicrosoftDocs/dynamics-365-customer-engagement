@@ -1,7 +1,7 @@
 ---
 title: "Try Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,12 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Try Dynamics 365 (online)
+
+> [!NOTE]
+> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 We're really excited about the release of [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and hope you're eager to try it out. New and existing customers have different options to take a look at [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
 ## New Dynamics 365 (online) customers  
@@ -29,14 +35,14 @@ We're really excited about the release of [!INCLUDE[pn_crm_8_2_0_online](../incl
 -   [Dynamics 365 for Field Service](https://www.microsoft.com/dynamics365/field-service)  
   
 -   [Dynamics 365 for Project Service Automation](https://www.microsoft.com/dynamics365/project-service-automation)  
-  
- On any of the above pages, scroll down and click **Get Started** to start a 30-day trial.  
-  
+
+On any of the above pages, scroll down and click **Get Started** to start a 30-day trial.  
+
 ## Current Dynamics 365 (online) customers  
  If you already have a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, there are a couple ways to see [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] in action.  
   
 ### Start a trial  
- You can start a 30-day trial of [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] and try out one or all of the these [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] solutions. This trial uses the Dynamics 365 Enterprise Plan 1 license.  
+ You can start a 30-day trial of [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] and try out one or all of the these [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] solutions. This trial uses the Dynamics 365 Customer Engagement Plan Enterprise Edition license.  
   
  ![Trial experience for Dynamics 365](../admin/media/trial-experience-dynamics-365.png "Trial experience for Dynamics 365")  
   
@@ -82,6 +88,6 @@ We're really excited about the release of [!INCLUDE[pn_crm_8_2_0_online](../incl
   
 ### See also  
  [Onboard your organization and users to Dynamics 365 (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)   
- [Business apps in Dynamics 365](../basics/business-apps-in-dynamics-365.md)<br>
+ [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)<br />
  [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)

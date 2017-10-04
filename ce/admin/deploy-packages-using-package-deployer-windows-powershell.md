@@ -1,7 +1,7 @@
 ---
-title: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell | MicrosoftDocs"
+title: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,17 +17,20 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] enables administrators to deploy packages on a [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. A “package” can consist of any or all of the following:  
   
 -   One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
   
--   Flat files or exported data files from the Configuration Migration tool. For information about the Configuration Migration tool, see [Manage your configuration data](../admin/manage-configuration-data.md).  
+-   Flat files or exported data files from the Configuration Migration tool. For information about the Configuration Migration tool, see [Manage your configuration data](manage-configuration-data.md).  
   
--   Custom code that can run during or after the package is deployed to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+-   Custom code that can run during or after the package is deployed to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 -   HTML content specific to the package that can display at the beginning and end of the package deployment process. This can be useful to provide a description of the solutions and files that are deployed in the package.  
   
- Developers create packages by using the package deployment template in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Create packages for the CRM Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx)  
+ Developers create packages by using the package deployment template in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Package Deployer](../developer/create-packages-package-deployer.md)  -->
   
  After a package is created, you can deploy it either by running [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] or by using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets for the tool.  
   
@@ -55,31 +58,32 @@ manager: "brycho"
   
     - **\<PackageName>.dll**: The assembly contains the code for your package. By default, the name of the assembly is the same as your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project name.  
   
-     For detailed information about creating a package by using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [MSDN: Create a package for the Package Deployer tool](https://msdn.microsoft.com/library/dn688182.aspx).  
+     <!-- For detailed information about creating a package by using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [Create a package for the Package Deployer tool](../developer/create-packages-package-deployer.md).  -->
   
      For this topic, let us assume that the package folder and assembly from the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project debug folder (*\<Project>*\Bin\Debug) are copied to the `c:\DeployPackage` folder.  
   
-2.  [Download the Microsoft Dynamics CRM SDK](http://go.microsoft.com/fwlink/p/?LinkID=691153). Then run the downloaded executable file to extract the contents of the package.  
+1.  Obtain the Package Deployer tool. [!INCLUDE[cc-use-package-deployer](../includes/cc-use-package-deployer.md)]
   
-3.  Browse to the `SDK\Tools\PackageDeployer` folder, and copy the package folder and assembly from the `c:\DeployPackage` to the `SDK\Tools\PackageDeployer` folder.  
+1.  Copy the package folder and assembly from the `c:\DeployPackage` to the `[ExtractedLocation]\tools` folder.  
   
-4.  After the files are copied, run the tool by double-clicking the `PackageDeployer.exe` file in the `SDK\Tools\PackageDeployer` folder.  
+1.  After the files are copied, run the tool by double-clicking the `PackageDeployer.exe` file in the `[ExtractedLocation]\tools` folder.  
   
-5.  Click **Continue** on the main screen of the tool.  
+1.  Click **Continue** on the main screen of the tool.  
   
-6.  In the **Connect to Microsoft Dynamics 365** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the package, select the **Always display list of available orgs** check box. Click **Login**.  
+1.  In the **Connect to Microsoft Dynamics 365** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the package, select the **Always display list of available orgs** check box. Click **Login**.  
   
-7.  If you have multiple organizations on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
+1.  If you have multiple organizations on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
   
-8.  Select the package to be deployed, and click **Next**.  
+1.  Select the package to be deployed, and click **Next**.  
   
  ![Select your package in the Package Deployer Tool](../admin/media/package-deployer-4.png "Select your package in the Package Deployer Tool")  
   
-9. Follow the instructions on the subsequent screens to complete the deployment of your package.  
+1. Follow the instructions on the subsequent screens to complete the deployment of your package.  
   
-     The screens appear based on the definition of the package that you selected for deployment. For an end-to-end package deployment that uses the Package Deployer tool, see the topic for the deployment of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] packages: [Deploy sample Unified Service Desk applications to CRM Server using Package Deployer](https://technet.microsoft.com/library/dn646924.aspx)  
+     The screens appear based on the definition of the package that you selected for deployment. For an end-to-end package deployment that uses the Package Deployer tool, see the topic for the deployment of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] packages: [Deploy sample Unified Service Desk applications to CRM Server using Package Deployer](../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 <a name="PD_command"></a>   
+
 ## Use Package Deployer tool at the command line  
  System administrators and customizers can pass parameters, such as a regional language code, to packagedeployer.exe from the command line.  These parameters may only be configured by running Package Deployer tool at the command line.  
   
@@ -103,9 +107,10 @@ packagedeployer.exe RuntimePackageSettings SkipChecks=true | lcid=1045
 > [!NOTE]
 >  Use the pipe character &#124; to separate parameters when you run packagedeployer.exe at the command line with multiple parameters.  
   
- For more information about the parameters and values that can be passed to packagedeployer.exe, see [MSDN: Create packages for the CRM Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
+ <!--For more information about the parameters and values that can be passed to packagedeployer.exe, see [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md).  -->
   
 <a name="PowerShell"></a>   
+
 ## Use Windows PowerShell to deploy packages  
  The Package Deployer tool also provides [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] support to deploy packages.  
   
@@ -113,7 +118,7 @@ packagedeployer.exe RuntimePackageSettings SkipChecks=true | lcid=1045
   
  [Prerequisites](../admin/deploy-packages-using-package-deployer-windows-powershell.md#Prereq)  
   
- [Register the cmdlets](../admin/deploy-packages-using-package-deployer-windows-powershell.md#register)  
+ [Import the Package Deployer PowerShell module](../admin/deploy-packages-using-package-deployer-windows-powershell.md#import)  
   
  [Use the cmdlet to retrieve packages](../admin/deploy-packages-using-package-deployer-windows-powershell.md#retrieve)  
   
@@ -124,6 +129,7 @@ packagedeployer.exe RuntimePackageSettings SkipChecks=true | lcid=1045
  [Get detailed help on cmdlets](../admin/deploy-packages-using-package-deployer-windows-powershell.md#help)  
   
 <a name="Prereq"></a>   
+
 ### Prerequisites  
  Here are the prerequisites for using the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets:  
   
@@ -131,65 +137,55 @@ packagedeployer.exe RuntimePackageSettings SkipChecks=true | lcid=1045
   
 -   Set the execution policy to run the signed [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] scripts. To do so, run a [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] window as an administrator, and then run the following command: `Set-ExecutionPolicy -ExecutionPolicy AllSigned`  
   
-<a name="register"></a>   
-### Register the cmdlets  
- You must register the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets for the Package Deployer tool before you can use it. To register the cmdlets:  
+<a name="import"></a>   
+
+### Import the Package Deployer PowerShell module  
+ You must import the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] module for the Package Deployer tool before you can use it. To import:  
   
-1.  If you haven’t already done so, download the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)], and run the package file to extract the contents of the package. Let’s assume that you extracted the package to the `c:\CRM` folder on your computer. The Package Deployer tool and the other required files become available at the following location:  `c:\CRM\SDK\Tools\PackageDeployer`.  
+1.  Obtain the PowerShell files for the Package Deployer. [!INCLUDE[cc-use-package-deployer-powershell](../includes/cc-use-package-deployer-powershell.md)]  
   
 2.  Start [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] on your computer with elevated privileges (run as administrator).  
   
-3.  At the prompt in the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] window, change your directory to the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] folder under the `PackageDeployer` folder. In this case:  
+3.  At the prompt in the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] window, change your directory to the folder where you extracted the files. In this case:  
   
     ```  
-    cd c:\CRM\SDK\Tools\PackageDeployer\PowerShell  
+    cd [ExtractedLocation]\tools\  
     ```  
   
-4.  Run the `RegisterXRMTooling.ps1` script to register the Package Deployer [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] assembly (dll), and install the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in for the Package Deployer tool. To do so, type the following command, and press ENTER:  
+4.  Run the `RegisterXRMPackageDeployment.ps1` script available at the `[ExtractedLocation]\tools` folder by running the following command:  
   
     ```  
-    .\RegisterXRMTooling.ps1  
-    ```  
+    .\RegisterXRMPackageDeployment.ps1  
+    ```
   
-5.  Add the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in for XRM tooling. This will register the following cmdlets: `Get-CrmConnection` and `Get-CrmOrganizations`.  
-  
-    ```  
-    Add-PSSnapin Microsoft.Xrm.Tooling.Connector  
-    ```  
-  
-6.  Add the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in for Package Deployer. This will register the following cmdlets: `Get-CrmPackages` and `Import-CrmPackage`.  
-  
-    ```  
-    Add-PSSnapin Microsoft.Xrm.Tooling.PackageDeployment  
-    ```  
-  
- You are now ready to use these [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets. To list the cmdlets that you registered, run the following command at the prompt in the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] window:  
+ You are now ready to use the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets. To list the cmdlets that you registered, run the following command at the prompt in the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] window:  
   
 ```  
 Get-Help “Crm”  
 ```  
   
 <a name="retrieve"></a>   
+
 ### Use the cmdlet to retrieve packages  
- Before you can use the cmdlet, ensure that you have copied your package to the **PackageDeployer** folder (in this case, c:\CRM\SDK\Tools\PackageDeployer). A package is a collection of files and folders that is created in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project folder (*\<Project>*\Bin\Debug) when you build your project in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. Copy the entire contents of your project debug folder to the **PackageDeployer** folder. For detailed information about building a package using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [MSDN: Create packages for the CRM Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
+ Before you can use the cmdlet, ensure that you have copied your package to the **PackageDeployer** folder (in this case, `[ExtractedLocation]\tools`). A package is a collection of files and folders that is created in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project folder (*\<Project>*\Bin\Debug) when you build your project in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. Copy the entire contents of your project debug folder to the **PackageDeployer** folder. <!-- For detailed information about building a package using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md).  -->
   
 1.  In the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] window, use the following cmdlet to return a list of packages available for import in the specified folder (in this case, c:\CRM\SDK\Tools\PackageDeployer):  
   
     ```  
-    Get-CrmPackages –PackageDirectory c:\CRM\SDK\Tools\PackageDeployer  
+    Get-CrmPackages –PackageDirectory [ExtractedLocation]\tools  
     ```  
   
 2.  If you want information about a package in a folder, you can use the **Get-CrmPackages** cmdlet along with the **–PackageName** parameter to specify the name of the assembly in the folder that contains the package definition.  
   
     ```  
-    Get-CrmPackages –PackageDirectory c:\CRM\SDK\Tools\PackageDeployer –PackageName SampleCRMPackage.dll  
+    Get-CrmPackages –PackageDirectory [ExtractedLocation]\tools –PackageName SampleCRMPackage.dll  
   
     ```  
   
 3.  The package assembly location can be stored in a variable by using the Get-CrmPackages cmdlet. Then it may be reused in the Import-CrmPackage cmdlet to specify a value for the PackageDirectory parameter. For example, you can store the information of one or more  packages returned from the Get-CrmPackages cmdlet in a variable called $MyPackages.  
   
     ```  
-    $MyPackages = Get-CrmPackages –PackageDirectory c:\CRM\SDK\Tools\PackageDeployer   
+    $MyPackages = Get-CrmPackages –PackageDirectory [ExtractedLocation]\tools   
     ```  
   
      To display all the packages.  
@@ -210,10 +206,9 @@ Get-Help “Crm”
     Import-CrmPackage -CrmConnection $CRMConn -PackageDirectory $MyPackages[0].PackageAssemblyLocation  
     ```  
   
-    > [!NOTE]
-    >  The PackageAssemblyLocation parameter and the ability to display the folder location and name of a package were first introduced with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 SDK](https://www.microsoft.com/download/details.aspx?id=50032)  
   
-<a name="connect"></a>   
+<a name="connect"></a>  
+ 
 ### Use the cmdlet to connect to your Dynamics 365 instance  
   
 1.  Provide your credentials to connect to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and we will store it in the `$Cred` variable, and use it later for connecting to your Dynamics 365 server.  
@@ -242,6 +237,7 @@ Get-Help “Crm”
 3.  Your supplied credentials are validated when you run the command in step 2.  
   
 <a name="deploy"></a>   
+
 ### Use the cmdlet to deploy packages  
  Next, use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection information stored in the `$CRMConn` variable to deploy packages to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  The following command deploys a package, disassembles the package in the *c:\UnpackedFiles* folder, and records  information to a log file in the *c:\MyLogFiles* folder.  
   
@@ -250,20 +246,19 @@ Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools
 ```  
   
 > [!NOTE]
->  -   `CrmConnection`, `PackageDirectory`, and `PackageName` parameters are mandatory.  
+> -   `CrmConnection`, `PackageDirectory`, and `PackageName` parameters are mandatory.  
 > -   Instead of manually specifying the package folder, you can use a variable with the PackageDirectory parameter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the cmdlet to retrieve packages](#retrieve)  
 > -   For the `PackageName` parameter, you have to specify the name of the assembly that contains the package definition.  
-> -   You do not need to specify the `UnpackFilesDirectory` parameter if your package does not unpack files during package deployment. While defining a package in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], you specify whether to unpack files using the **agentdesktopzipfile** parameter in the ImportConfig.xml file. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Create packages for the CRM Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx)  
+> -   You do not need to specify the `UnpackFilesDirectory` parameter if your package does not unpack files during package deployment. While defining a package in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], you specify whether to unpack files using the **agentdesktopzipfile** parameter in the ImportConfig.xml file. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md)  -->
 > -   The `Verbose` parameter is optional, and is used to display a detailed log of the activities performed during the package deployment process.  
 > -   The optional `RuntimePackageSettings` parameter can be used together with the following parameters:  
 >   
->      -   The `LCID=localeID` parameter specifies the locale ID, such as 1033 for English-United States or 1036 for French-France, from the available locale IDs in the package. If not specified, the default language will be used.  
->     -   The  
->   
->          `SkipChecks=true/false` parameter should only be used when the target environment does not contain any other solutions or customizations. When set to true, solution import will bypass some safety checks, which can improve import performance.  
+>     -   The `LCID=localeID` parameter specifies the locale ID, such as 1033 for English-United States or 1036 for French-France, from the available locale IDs in the package. If not specified, the default language will be used.  
+>     -   The `SkipChecks=true/false` parameter should only be used when the target environment does not contain any other solutions or customizations. When set to true, solution import will bypass some safety checks, which can improve import performance.  
 > -   The folder that you specify when you use the `LogWriteDirectory` parameter must already exist, and the user who is running the Import-CrmPackage cmdlet must have write permission to the folder. Additionally, the -Verbose parameter is required  when you use the LogWriteDirectory parameter.  
 >   
->      The LogWriteDirectory parameter was first introduced with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 SDK](https://www.microsoft.com/download/details.aspx?id=50032)  
+>      The LogWriteDirectory parameter was first introduced with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. 
+<!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md)  -->
   
  The following example command imports a package named *SampleCRMPackage* and specifies English-United States (1033) as the language to import the package.  
   
@@ -271,7 +266,8 @@ Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools
 Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools\PackageDeployer –PackageName SampleCRMPackage.dll –UnpackFilesDirectory c:\UnpackedFiles –RuntimePackageSettings LCID=1033  
 ```  
   
-<a name="help"></a>   
+<a name="help"></a>  
+
 ### Get detailed help on cmdlets  
  In the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] window, use the `Get-Help` cmdlet with a cmdlet name to view a detailed help for the cmdlet. For example, to get detailed help for the `Import-CrmPackage` cmdlet:  
   
@@ -279,7 +275,7 @@ Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools
 Get-Help Import-CrmPackage -full  
 ```  
   
- To view the online help for the cmdlets, see [CRM PowerShell Reference](https://technet.microsoft.com/library/dn833081.aspx).  
+ To view the online help for the cmdlets, see [Dynamics 365 PowerShell Reference](https://technet.microsoft.com/library/dn756318.aspx).  
   
 <a name="Logfiles"></a>   
 ## Troubleshoot package deployment issues by using log files  
@@ -300,7 +296,6 @@ Get-Help Import-CrmPackage -full
 -   Test the package on a pre-production instance (preferably a mirror image of the production instance) before running it on a production server.  
   
 -   Back up the production instance before deploying a package.  
-  
+<!--
 ### See also  
- [MSDN: Create packages for the CRM Package Deployer](https://msdn.microsoft.com/library/dn688182.aspx)   
- [Administration Guide for Microsoft Dynamics CRM 2013 and Microsoft Dynamics CRM Online](../admin/administer-dynamics-365-online-customer-engagement.md)
+ [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md)   -->

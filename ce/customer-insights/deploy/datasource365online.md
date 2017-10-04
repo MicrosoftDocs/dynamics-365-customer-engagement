@@ -22,7 +22,7 @@ If you need to import data from your [!include[](../../includes/pn-dyn-365-onlin
 
 >[!NOTE]
 >**TRY IT!** <br>
-If you have an instance of [!include[](../../includes/pn-dyn-365-online.md)] with the sample data installed, you can use it for your data connection. We'll use the sample data for data modeling and Customer 360. You'll need to have the Customer Service solution installed. <br>
+If you have an instance of [!include[](../../includes/pn-dyn-365-online.md)] with the sample data installed, you can use it for your data connection. We'll use the sample data for data modeling and Customer 360. You'll need to have the Customer Service app installed. <br>
 >If you don't have an instance of [!include[](../../includes/pn-dyn-365-online.md)], you can sign up for a 30-day trial and try out [!include[](../../includes/pn-customer-insights-short.md)] with our sample data. Go to [Microsoft Dynamics 365 for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=829708), and then select **Get Started**.
 
 ##To use [!include[](../../includes/pn-dyn-365-online.md)] as a data source by using the [!include[](../../includes/pn-azure-portal.md)]

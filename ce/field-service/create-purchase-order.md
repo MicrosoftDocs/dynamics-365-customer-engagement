@@ -18,10 +18,13 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Create a purchase order (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a purchase order (P.O.) is created to add inventory to a warehouse, or to purchase products to sell to a customer in a work order.    
   
 <a name="BKMK_step1"></a>   
-### Step 1: Create a purchase order (P. O.)  
+### Step 1: Create a purchase order 
   
 1.  From the main menu, click **Field Service** > **Purchase Orders**.  
   
@@ -32,10 +35,10 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 4.  When you're done, click **Save**.  
   
     > [!NOTE]
-    >  If you need to relate a P. O. to a work order, open the work order, and then from the top menu (next to the work order name) click the drop-down arrow and choose **Purchase Orders**. Click **+Add New Purchase Order** and fill in the required information. If you link the P. O. to a work order, then when you receive the product it will be added directly to the work order as a work order product.  
+    >  If you need to relate a P.O. to a work order, open the work order, and then from the top menu (next to the work order name) click the drop-down arrow and choose **Purchase Orders**. Click **+Add New Purchase Order** and fill in the required information. If you link the P.O. to a work order, then when you receive the product it will be added directly to the work order as a work order product.  
   
 <a name="BKMK_step2"></a>   
-### Step 2: Add products to the P. O.  
+### Step 2: Add products to the P.O.  
  More information: [Create a product or service](../field-service/create-product-or-service.md)  
   
 1.  In the **Product** section, click **+Add Purchase Order product record**.  
@@ -45,13 +48,13 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 3.  When you're done, click **Save & Close**.  
   
 <a name="BKMK_step3"></a>   
-### Step 3: Get the P. O. approved  
+### Step 3: Get the P.O. approved  
  More information: [Create a product or service](../field-service/create-product-or-service.md)  
   
--   If you have permissions to approve the P. O., then go to the purchase order and change the **Approved Status** to **Approved**.  
+-   If you have permissions to approve the P.O., then go to the purchase order and change the **Approved Status** to **Approved**.  
   
 <a name="BKMK_step4"></a>   
-### Step 4: Create a receipt for the P. O.  
+### Step 4: Create a receipt for the P.O.  
  When the order arrives, then you can create a receipt.  
   
 1.  From the main menu, click **Field Service** > **Purchase Order Receipt**.  
@@ -63,11 +66,11 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 4.  Click **Save**.  
   
 <a name="bkmk_step5"></a>   
-### Step 5: Add P. O. receipt products  
+### Step 5: Add P.O. receipt products  
   
-1.  Form the top menu, click the drop-down arrow next to the P. O. name that you created, and then click **Receipt Products**.  
+1.  Form the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Receipt Products**.  
   
-2.  To show open P. O. products in the **Purchase Order Receipt Product**field, click **Show Purchase Order Products not fully received yet**.  
+2.  To show open P.O. products in the **Purchase Order Receipt Product**field, click **Show Purchase Order Products not fully received yet**.  
   
  ![Show purchase order products not received in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product.PNG "Show purchase order products not received in Dynamics 365 field service")  
   
@@ -80,10 +83,10 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
      If the product is an inventory item, then an inventory adjustment product record is created automatically when you receive the product. When inventory adjustment product records are created, inventory journals are automatically created, which drives your totalinventory count in the product inventory table.  
   
 <a name="BKMK_step6"></a>   
-### Step 6: Create P. O. bill  
+### Step 6: Create P.O. bill  
  Once you receive an invoice from the vendor, then you can create a purchase order bill.  
   
-1.  From the top menu, click the drop-down arrow next to the P. O. name that you created, and then click **Bills**.  
+1.  From the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Bills**.  
   
 2.  On the **Purchase Order Bill Associated View** screen, click **+Add New Purchase Order Bill**.  
   

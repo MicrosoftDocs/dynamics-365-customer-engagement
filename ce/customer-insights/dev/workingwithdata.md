@@ -46,7 +46,7 @@ Customer Insights implements an extensible entity framework based upon the [Sche
 | [Profile](../ref/types/profile.md) | [Thing](http://schema.org/Thing) | node |
 | [Relationship](../ref/types/relationship.md) | <!-- TODO:??? --> | edge |
 | [Interaction](../ref/types/interaction.md) | [Action](http://schema.org/Action) | edge (but sometimes node) |
-| [Link](../ref/types/link.md) (refernce)| <!-- TODO:??? --> | edge |
+| [Link](../ref/types/link.md) (reference)| <!-- TODO:??? --> | edge |
 | [RelationshipLink](../ref/types/relationshiplink.md) | <!-- TODO:??? --> | edge |
 | | | |
 
@@ -93,7 +93,7 @@ Customer Insights automatically updates dynamic content on a periodic basis. By 
 2. Mapping the data onto the appropriate (new or existing) Customer Insights data model
 3. Creating the corresponding instances of Customer Insights entities 
 
-Customer Insights provides a set of standard _inbound connectors_ to enable ingestion from popular data sources, including the Dynamics 365 Customer Engagement Connector and the Azure Storage (blob) Connector. Additional third party connectors will be offered in the [AppSource](https://appsource.microsoft.com/) marketplace. For more information about programmatic acces, see the [Connector](../ref/types/connector.md) entity type.  For more information about the user experience (UX) around selecting data sources, see  [Add a data source](../deploy/adddatasource.md).
+Customer Insights provides a set of standard _inbound connectors_ to enable ingestion from popular data sources, including the Dynamics 365 Customer Engagement Connector and the Azure Storage (blob) Connector. Additional third party connectors will be offered in the [AppSource](https://appsource.microsoft.com/) marketplace. For more information about programmatic access, see the [Connector](../ref/types/connector.md) entity type.  For more information about the user experience (UX) around selecting data sources, see  [Add a data source](../deploy/adddatasource.md).
 
 ### Standard Connectors
 
@@ -139,7 +139,7 @@ Even with advanced analysis and metrics, it is often difficult to perceive trend
 Segments can either have _static_ membership, _dynamic_ membership based upon a query expression, or some _compounding_ of the two. [Segments](../ref/types/segment.md) are native types in Customer Insights, and the full range of CRUD operations is supported, as described in the topic [Segmentation Management APIs (Hub)](../ref/hub/segmngnt.md).  Segmentation is also supported extensively through the _Segment Exploration_ and _Segment Builder_ user experiences; for more information, see [Segment your insights](../deploy/createasegment.md). 
 
 
-## Predicitive Scoring
+## Predictive Scoring
 While predictive matching assists in intelligently conflating ingested records, predictive scoring applies machine learning (ML) to analyze modeled data against a business objective specified by the user. The result of this analysis is a relative weighting for each profile instance against the objective. Then the user can apply thresholds and relative gradings against these results. Once configured, prediction scoring is automatically applied against relevant incoming data. The following table outlines the general process followed when using predictive scoring. 
 
 |**Processing Step**|**Responsible Party**|**Description/Notes**| 

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Set up customer agreements so you can automatically generate work orders and invoices (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] provides the framework to automatically generated work orders and invoices. They are ideal for preventative maintenance-type work.  
   
  An agreement allows you to choose how often work orders will be generated (for example, daily, weekly, monthly, or yearly) and the details of the work order (such as incidents, products, services, and service tasks).  

@@ -18,6 +18,9 @@ ms.author: "mkaur"
 manager: "amyla"
 ---
 # Change the warehouse location of inventory (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 An inventory transfer is when you change the warehouse location of product inventory.  
   
  For example, if you decide to transfer Product A from Warehouse 1 to Truck 2, then you would create an inventory transfer record. Next, you'll specify the product that you are moving from one location to another.  

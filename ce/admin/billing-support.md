@@ -1,7 +1,7 @@
 ---
 title: "Support and billing for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,4 +17,7 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Support and billing
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section provides information to address support and billing questions.

@@ -1,22 +1,30 @@
 ---
-title: "Nurture sales from lead to order (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
+title: "Nurture sales from lead to order (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
+keywords: "Lead, Qualify, Opportunity "
+ms.date: 09/20/2017
+ms.service: crm-online
+ms.custom: 
+ms.topic: get-started-article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 512ad50d-6dda-42b9-832d-f72adf923821
+author: Mattp123
+ms.author: brycho
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 21
-ms.author: "brycho"
-manager: "amyla"
+topic-status: Tech Reviewing
 ---
-# Nurture sales from lead to order (Sales, Enterprise)
-The sales process in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] can help you close more sales and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. You also end up with a more complete history, which you can refer to later on if you plan to work with your customer again in the future, or if your customer needs support.  
+
+# Nurture sales from lead to order (Sales and Sales Hub)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+The sales process in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] for Sales can help you close more sales and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. You also end up with a more complete history, which you can refer to later on if you plan to work with your customer again in the future, or if your customer needs support.  
   
  Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated, or they might come from other sources, such as website opt-in pages, email queries, or business cards you gather at trade shows.  
   
@@ -29,3 +37,6 @@ The sales process in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)]
   
 > [!NOTE]
 >  Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system might look different because it was customized. This walkthrough guides you through the basic sales process, but your organization might offer further training for your system.
+
+### See Also
+ [Overview of Sales](../sales-enterprise/user-guide.md)

@@ -71,7 +71,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
 11. Repeat steps 7-10 for the DynamicsUnifiedServiceDesk_1_0_managed.zip file to update the **DynamicsUnifiedServiceDesk** solution in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
-     For detailed information about updating solutions in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Import, update, and export solutions](../../customize/use-solutions-for-your-customizations.md#BKMK_ImportUpgradExportSolutions).  
+     For detailed information about updating solutions in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Import, update, and export solutions](../../customize/import-update-export-solutions.md).  
   
 12. In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], verify the version numbers of the updated solutions with those listed in the table shown earlier to ensure they’re the latest versions.  
   
