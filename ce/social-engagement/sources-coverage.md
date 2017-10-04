@@ -16,7 +16,7 @@ topic-status: Drafting
 
 # Find out what&#39;s covered by sources
 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.
 
 ## Blogs
 
@@ -24,7 +24,7 @@ Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for full cover
 
 ## Custom sources
 
-Get full coverage of public RSS or Atom feeds added in your custom source groups. Gather all posts from a previously-created group of custom sources by creating a [custom source rule](add-rules-search-topic.md#customSourceRule). You can also create a keyword rule to filter by keywords.
+Get full coverage of public RSS or Atom feeds added in your custom source groups. Gather all posts from a previously created group of custom sources by creating a [custom source rule](add-rules-search-topic.md#customSourceRule). You can also create a keyword rule to filter by keywords.
 
 ## Disqus
 
@@ -46,7 +46,7 @@ To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-faceboo
 
 ## Instagram
 
-After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and you can set up [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account rules to gather all posts and comments on a specific [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account.
+After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and you can set up [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account rules to gather all posts and comments on a specific [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account.
 
 > [!NOTE]
 > [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)
