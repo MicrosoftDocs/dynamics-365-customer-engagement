@@ -1,14 +1,17 @@
 ---
 title: "Streams in Social Center of Microsoft Social Engagement | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
-ms.date: 09/29/2017
+keywords: "social center, streams, post list, social engagement, engagement"
+ms.date: 10/04/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
-ms.assetid: 28ce6089-519c-4193-806f-1af28fbc91b5
-author: "m-hartmann"
+applies_to:
+  - "Social Engagement"
+ms.assetid: 4388d9c3-ff21-bdb5-7757-69093b2576ef
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Keep track of live data streams with Social Center
@@ -18,12 +21,12 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
  To see your streams, go to **Social Center**.  
   
- Streams in Social Center are use-specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md),       [Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
+ Streams in Social Center are user-specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md), [Drive business objectives using posts](publish-react-posts.md)  
   
- Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](../social-engagement/more-options-with-data-set.md)  
+ Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
   
 > [!NOTE]
->  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)  
+>  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](/manage-licenses.md)  
   
 <a name="ConfigureStream"></a>   
 ## Configure a stream  
@@ -49,7 +52,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 6.  Select users from your organization you want to share this stream with under **Sharing**. (Optional)  
   
-7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](../social-engagement/use-filters.md)  
+7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](use-filters.md)  
   
 8.  Click the **Save** button ![Save button](../social-engagement/media/save-icon.png "Save button").  
   
@@ -71,7 +74,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 5.  In the **Share** dialog box, choose **User** or **Group** in the **Type** drop-down list.  
   
-     For more information about groups, see [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md).  
+     For more information about groups, see [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md).  
   
 6.  Select users or groups from your organization you want to share this stream with, and then click **Add**.  
   
@@ -118,13 +121,13 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 <a name="NextSteps"></a>   
 ## Next Steps  
   
--   Assign posts to others, add labels, tag them, or edit sentiment values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](../social-engagement/work-with-posts.md)  
+-   Assign posts to others, add labels, tag them, or edit sentiment values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
--   Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](../social-engagement/publish-react-posts.md)  
+-   Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md)  
   
 ### See also  
- [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
- [Get relevant data using filters](../social-engagement/use-filters.md)   
- [Work with posts](../social-engagement/work-with-posts.md)   
- [Drive business objectives using posts](../social-engagement/publish-react-posts.md)
- 
+
+[Engage on social networks](engage-on-social-networks.md)   
+[Get relevant data using filters](use-filters.md)   
+[Work with posts](work-with-posts.md)   
+[Drive business objectives using posts](publish-react-posts.md)
