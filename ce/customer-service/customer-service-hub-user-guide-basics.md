@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of the Customer Service Hub in Dynamics 365 | Microsoft Docs
 description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Basics of the Customer Service Hub; Customer Service;  Microsoft Dynamics 365
+keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
@@ -31,7 +31,6 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
   
 - **Browsers** 
     - Google Chrome
-    - Internet Explorer 11
     - Microsoft Edge (supported on Windows 10) 
 
 - **Mobile**
