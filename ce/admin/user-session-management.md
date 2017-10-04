@@ -26,6 +26,14 @@ Now available for customers using December 2016 update for Dynamics 365 (online)
 
 New for Customer Engagement in the July 2017 update for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
 
+> [!IMPORTANT]
+> These security enhancements are also available for:
+>
+> - Microsoft Dynamics CRM 2016 (on-premises, version 8.1 or later)
+> - Microsoft Dynamics CRM 2015 (on-premises)
+> 
+> For more information, see [Security enhancements: User session and access management](https://technet.microsoft.com/library/mt825191.aspx)
+
 
 ## User session timeout
 By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
