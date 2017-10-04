@@ -2,7 +2,7 @@
 title: "View posts and conversations in Social Engagement | Microsoft Docs"
 description: "Understand how you can work with posts after acquiring them through Social Engagement."
 keywords: "post list, post details, stream, post actions, reply, mention, share"
-ms.date: 09/27/2017
+ms.date: 10/04/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,9 +23,9 @@ To show the post list, select **Posts** on the right side of any Analytics page 
   
 You can also go to **Social Center** to access your streams and choose the stream you want to work with. If you select a post in your streams, you can expand the contents (if applicable) to read the post.  
   
-To quickly see new posts that match a predefined data set, set up a stream in **Social Center**. Fresh and updated posts are automatically pushed to your client, to make sure you're always on top of the information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep track of live data streams with Social Center](../social-engagement/social-center.md)  
+To quickly see new posts that match a predefined data set, set up a stream in **Social Center**. Fresh and updated posts are automatically pushed to your client, to make sure you're always on top of the information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep track of live data streams with Social Center](social-center.md)  
   
-In the post list, you find the posts and the main actions to work with posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Engage on social networks](../social-engagement/engage-on-social-networks.md), [Work with posts](../social-engagement/work-with-posts.md)  
+In the post list, you find the posts and the main actions to work with posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Engage on social networks](engage-on-social-networks.md), [Work with posts](work-with-posts.md)  
   
 Select **Open** on a post to see the single post pane showing the post's details, a full view of the contents with all available actions. You can also select the post content to bring up post details.
 
@@ -51,7 +51,6 @@ The posts in a post list that open a conversation view include:
 
 When you view the details of a post, all [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] replies reference the tweet the post refers to. Every [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply has a parent post, which you can interact with depending on whether that tweet was acquired through your search topics.  
   
-[//]: # (Making this a bulleted list: suggested.)
 [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports two types of threads for a tweet: replies and retweets.  
   
 -   For [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] replies, you see the thread of all replies acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] that reply to the parent post. Replies to replies or entire conversations aren't covered in the threads.  
@@ -77,7 +76,7 @@ To see posts that have engagement action history, look for posts that have a num
   
 If another user changes a value on a post you're working on, you'll be notified through the user interface that the post was refreshed and you'll see the most recent version. Make sure your planned action still makes sense when you try to perform it.  
   
-To build custom [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] reports about how efficiently your team engages on social media, see [Get the Power BI content pack for Microsoft Social Engagement](../social-engagement/get-content-pack-for-power-bi.md).  
+To build custom [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] reports about how efficiently your team engages on social media, see [Get the Power BI content pack for Microsoft Social Engagement](get-content-pack-for-power-bi.md).  
   
 <a name="conversationView"></a>   
 ### See the conversations with an author
@@ -118,15 +117,15 @@ You'll find additional metadata and controls for the posts:
   
 - **Copy internal URL (![Copy button.](../social-engagement/media/copy-url-icon.png "Copy button."))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to point them to a specific post.  
   
-- **Reach**: This indicates the potential size of an author's network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](../social-engagement/use-filters.md)  
+- **Reach**: This indicates the potential size of an author's network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](/use-filters.md)  
   
 - **Date and time of publication**: The date and time when the post was published by the author. Redirects you to the original URL where the post was found. This lets you see the post in the context of the site or social network it originated from.  
   
-- **Post location**: The geographical location information (latitude/longitude) that a user shared when publishing the post (if available). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md)  
+- **Post location**: The geographical location information (latitude/longitude) that a user shared when publishing the post (if available). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md)  
   
-- **Author location**: The geographical information that a user shared on a profile (if available). For example, this might be the location of a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] user as it was entered in the user's [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md)  
+- **Author location**: The geographical information that a user shared on a profile (if available). For example, this might be the location of a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] user as it was entered in the user's [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md)  
   
-- **Author details**: The details about a user's [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. The author name, username, profile picture, location, website, and bio are provided if the author has been active in the last 30 days. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get details on specific authors](../social-engagement/author-details.md)
+- **Author details**: The details about a user's [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile. The author name, username, profile picture, location, website, and bio are provided if the author has been active in the last 30 days. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get details on specific authors](author-details.md)
 
 ### See also
 
