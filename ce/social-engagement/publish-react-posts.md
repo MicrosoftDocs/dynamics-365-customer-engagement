@@ -2,7 +2,7 @@
 title: "Publish and react to posts | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: "publish, post, like, favorite, share, private message, Social Engagement"
-ms.date: 09/19/2017
+ms.date: 10/04/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -21,20 +21,20 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 ## Prerequisites  
  Before you start to engage with your audience, make sure you meet the following prerequisites:  
   
-1.  You have an Interaction user role of Responder or Manager, which allows you to publicly post on social networks from [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
+1.  You have an [Interaction user role of Responder or Manager](user-roles.md), which allows you to publicly post on social networks from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
   
-2.  You own at least one social profile or have it shared with you for the social networks that you want to interact on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
+2.  You own at least one [social profile](manage-social-profiles.md) or have it shared with you for the social networks that you want to interact on.
   
-3.  Social data is already available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. You can find it in the **Posts** area in **Analytics**, or through streams in the **Social Center**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Engage on social networks](../social-engagement/engage-on-social-networks.md)  
+3.  Social data is already available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. You can find it in the **Posts** area in **Analytics**, or through [streams](engage-on-social-networks.md)  in the **Social Center**. 
   
     > [!TIP]
     >  If you don’t own any social profiles, [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts provide the option to use [Web Intents](https://dev.twitter.com/web/intents). You must sign in to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] to post with your profile.  
   
 <a name="engageOverview"></a>   
 ## Engage on a post in Social Engagement  
- [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] lets you proactively engage on social media or react to social data that you gather. In no time, you can compose a post, answer questions, share information, or socialize with your audience on social networks.  
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you proactively engage on social media or react to social data that you gather. In no time, you can compose a post, answer questions, share information, or socialize with your audience on social networks.  
   
- The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you do depending on where you want to interact.  
+The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you do depending on where you want to interact.  
   
 ||Twitter|Facebook|  
 |-|-------------|--------------|  
@@ -48,7 +48,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 > [!NOTE]
 >  If you apply several actions on posts in the same post list, the system  queues all planned actions so that you can seamlessly proceed with your work. If a queued action fails, you’ll get notified directly in the application. If you switch to a different area in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] while some actions are still in the queue, the application warns you before interrupting the actions.  
 >   
->  Posts that you send from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] are not picked up automatically by your search topics. Create a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule to track all tweets from a specific author (in this case your social profile), or a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule to capture all posts from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](../social-engagement/add-rules-search-topic.md)  
+>  Posts that you send from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] are not picked up automatically by your search topics. Create a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule to [track all tweets](add-rules-search-topic.md) from a specific author (in this case your social profile), or a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule to [capture all posts](add-rules-search-topic.md) from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. 
   
 <a name="favoriteLike"></a>   
 ### Let users know you appreciate a post they wrote  
@@ -155,7 +155,6 @@ Staying in touch with customers, prospects, and other stakeholders through socia
 ### Post a link to another post  
 Share a link to a public post along with your own comments as a new post directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
 
-[//]: # (@Michael, I only looked at the delta from the published version of this topic. Just FYI, the comma is necessary because you've got two complete sentences in this paragraph.)  
 #### Create a new post with a link to a post found in Social Engagement  
   
 1.  Go to **Social Center**.  
@@ -183,7 +182,7 @@ Share a link to a public post along with your own comments as a new post directl
 ### Publish a new post  
  Start the conversation with your audience and publish new posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
- You must have at least one owned or shared social profile to see the **Publish** button. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
+ You must have at least one [owned or shared social profile](manage-social-profiles.md) to see the **Publish** button.  
   
 #### Compose a new post in Social Center  
   
@@ -202,7 +201,7 @@ Share a link to a public post along with your own comments as a new post directl
   
 6.  Optionally, you can add a photo to the post.  
   
-     Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add media to posts](../social-engagement/publish-react-posts.md#addMedia)  
+     Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add media to posts](publish-react-posts.md#addMedia)  
   
 7.  To publish the post on the corresponding social network, click **Send**.  
   
@@ -274,6 +273,6 @@ Share a link to a public post along with your own comments as a new post directl
 >  When you use a large file, it can take a long time to upload. Also, timeouts can happen when the upload takes too long due to limited bandwidth.  If this happens, try resizing the image to reduce the file size, or try again with more bandwidth.  
   
 ### See Also  
- [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
- [Work with posts](../social-engagement/work-with-posts.md)   
- [Manage social profiles](../social-engagement/manage-social-profiles.md)
+ [Engage on social networks](engage-on-social-networks.md)   
+ [Work with posts](work-with-posts.md)   
+ [Manage social profiles](manage-social-profiles.md)
