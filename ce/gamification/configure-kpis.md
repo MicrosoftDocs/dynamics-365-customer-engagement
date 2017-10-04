@@ -1,15 +1,19 @@
 ---
 title: "Configure Gamification KPIs in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to set up and edit KPIs in Dynamics 365 (online) to use them in Dynamics 365 – Gamification games. "
-ms.date: 07/10/2017
+keywords: "Gamification, KPI, saved view, configuration"
+ms.date: 09/19/2017
 ms.service: gamification
 ms.topic: get-started-article
-applies_to: Dynamics 365 (online)
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]
 
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](includes/pn-gamification-shortest-md.md)]. It's a two-step process: first, you create the KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-subsequent-md.md)], and then you choose and configure them in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] when you set up a new game.
@@ -68,7 +72,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
      For example, if you want to award points only for appointments about a specific product, you can add the product name to the appointment description, and then add a query parameter to select an appointment for scoring only when the **Description** field contains the product name.
 
     > [!NOTE]
-    > [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] doesn't support saved views that contain linked entities in filters or columns.
+    > [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] doesn't support saved views that filter for the date field, or contain linked entities in filters or columns.
 
 9.  Optionally, choose **Scoring Behavior** in the **Additional Scoring Settings** section. By default (if no check box is selected), points are always assigned based on the current state of the record. You can customize this by selecting one or more of the following options:
 
