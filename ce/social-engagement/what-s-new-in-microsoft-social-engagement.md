@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/03/2017
+ms.date: 10/04/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -16,10 +16,9 @@ topic-status: Drafting
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
 
-[//]: # (Please note that I changed the long product name tokens to the short ones. This is going to be our style going forward.)
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Here's a list of features we added recently.
 
-If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](../social-engagement/get-started.md).
+If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](get-started.md).
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
@@ -29,10 +28,8 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### User experience clean-up for Search Setup and Settings
 
-[//]: # (Edit okay? If it's the settings that all users now have access to, it should be "...have immediate access to these settings on any device.")
 **Settings** and **Search Setup** now follow common patterns in how you confirm the web forms. It's clearer where to change the name of a search topic category or a search topic in the second panel instead of the overview panel. Quota information is now shown in the first panel to make sure all users have immediate access to it on any device.
 
-[//]: # (Edit suggested.)
 ### Post list improved to give easy access to post details
 
 With the goal of simplifying how to open the details view of a post, we added a small header to each post that identifies the type of post it is and provides an **Open** control that you use to see post details. As before, you can't open the details view for posts listed in the threads section of post details&mdash;those posts don't show the **Open** control.
@@ -41,10 +38,9 @@ With the goal of simplifying how to open the details view of a post, we added a 
 
 Whenever you open a post that has a parent post, you can switch to that parent post by selecting the content. Based on feedback, and to further improve keyboard navigation, we now show headings for each section by using an expand/collapse control. When selected, it will expand or collapse that part of the post details view.
 
-### Updated license related to Twitter data use
+### Twitter data use license requirements 
 
-[//]: # (@Michael, can you please verify that "underlies" is the right way to put this? I feel there might be a more precise and CELA-blessed term. If you've already asked CELA, never mind, but if not will you please double-check with them about the best word to use, and CC Renee?)
-The use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn-netbreeze-short](../includes/pn-netbreeze-short.md)] now underlies the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Service. This is exposed in the footer of every page of the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] app. The provided link points to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]'s Terms of Service. 
+Your use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] product is subject to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Services (“ToS”). We recommend you review these terms carefully, as failure to observe these terms can result in a loss of access to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For your ease of reference, a link to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] ToS is included in the footer of every page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] service.  
 
 ### Service and product improvements
 
