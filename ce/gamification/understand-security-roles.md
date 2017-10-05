@@ -17,11 +17,11 @@ manager: sakudes
 ---
 # Understand security roles used in Gamification
 
-Administrators assign licenses to users to grant them permissions for certain applications. [!INCLUDE[pn_azure_active_directory](includes/pn-azure-active-directory-md.md)] users can't be enabled for [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] unless they have a [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] license assigned. The first user to have a KPI Manager security role assigned by a system admin in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] is required to set up the connection between [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] and [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]. The user successfully activating Gamification becomes the first Commissioner in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. Be sure that you don't delete this user before assigning Commissioner permissions to other users.   
+Administrators assign licenses to users to grant them permissions for certain applications. [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] users can't be enabled for [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] unless they have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] license assigned. The first user to have a KPI Manager security role assigned by a system admin in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] is required to set up the connection between [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. The user successfully activating Gamification becomes the first Commissioner in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Be sure that you don't delete this user before assigning Commissioner permissions to other users.   
   
 ## Available security roles
 
-The permissions in games are exclusively granted by the security roles in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. For a description of the available security roles, review the [Gamification terminology](glossary.md).  
+The permissions in games are exclusively granted by the security roles in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. For a description of the available security roles, review the [Gamification terminology](glossary.md).  
 
 To learn more about the permissions of the available security roles, refer to the following table.  
   
@@ -38,7 +38,7 @@ To learn more about the permissions of the available security roles, refer to th
 |[Post on the smack talk board in Gamification](smack-talk-post.md)|Yes|Yes|Yes|  
 |[See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)|Yes|Yes|Yes|  
   
- \* Managing [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] is regulated by [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] permissions and requires a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  For information about the KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md) and [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md).  
+ \* Managing [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is regulated by [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] permissions and requires a KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  For information about the KPI Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md) and [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md).  
   
  \** Game managers can participate as a fan or a player in a game they don't administer.  
   

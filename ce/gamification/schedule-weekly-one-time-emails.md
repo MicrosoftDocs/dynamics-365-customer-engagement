@@ -16,7 +16,7 @@ manager: sakudes
 ---
 # Schedule weekly or one-time emails in Gamification
 
-Send weekly updates on the leaderboards or announce award winners by using scheduled email capabilities in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]. A commissioner or game manager can schedule weekly or one-time emails to be sent to any user involved in a game. This feature is particularly helpful to keep your players engaged if you don't stream the leaderboard to a screen in your office.
+Send weekly updates on the leaderboards or announce award winners by using scheduled email capabilities in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. A commissioner or game manager can schedule weekly or one-time emails to be sent to any user involved in a game. This feature is particularly helpful to keep your players engaged if you don't stream the leaderboard to a screen in your office.
 
 ## Manage scheduled emails
 
@@ -24,7 +24,7 @@ Send weekly updates on the leaderboards or announce award winners by using sched
 
 ## Create an email
 
-1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Games** > **Emails**.
+1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games** > **Emails**.
 
 2.  Click the **Schedule New Email**  ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button.
 

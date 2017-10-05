@@ -21,9 +21,9 @@ Here are some basic guidelines for game models, key performance indicators (KPIs
   
 ## Game models and sports themes  
 
- [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] offers three game models: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can display on a screen in your office. For game model descriptions, review [Gamification terminology](glossary.md).  
+ [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] offers three game models: fantasy teams, fixed teams, and no teams. It also lets you create a leaderboard slide show that you can display on a screen in your office. For game model descriptions, review [Gamification terminology](glossary.md).  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
   
 ## Player positions  
 
@@ -38,7 +38,7 @@ Here are some basic guidelines for game models, key performance indicators (KPIs
   
 ## KPIs  
 
-[!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] can use any KPI that is tracked as data in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] for point scoring in a game. For example:  
+[!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] can use any KPI that is tracked as data in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] for point scoring in a game. For example:  
 
   
 -   Number of calls made  
@@ -59,16 +59,16 @@ If you use **Actuals** and award one point per call, players will earn points ba
 Think about what KPIs you want to include, how you want to weigh them, and what thresholds you want to associate with each to keep your game balanced. Consider the following when selecting your KPIs:  
 
   
--   Make sure that the KPIs you choose can be reported on. For example, if you want to use "revenue booked from new customers" as a KPI, you need to have a way to identify a closed opportunity as a new or existing customer in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].  
+-   Make sure that the KPIs you choose can be reported on. For example, if you want to use "revenue booked from new customers" as a KPI, you need to have a way to identify a closed opportunity as a new or existing customer in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
 
-For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md).  
+For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md).  
   
--   Select KPIs that normalize the game to ensure equal opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Player positions](#player-positions)  
+-   Select KPIs that normalize the game to ensure equal opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Player positions](#player-positions)  
   
 -   Set your maximum threshold amounts for targets, or cap for actuals, at above average&mdash;but not exceptional&mdash;levels. For example, let’s say the average deal size at your company is $25,000 and you set "revenue booked" thresholds at $10,000, $25,000, $50,000, $100,000, and $200,000. That means if someone happens to close a $200,000 deal, they’re earning eight times as many points as someone who closes a $25,000 deal. That player is likely going to lead the competition and make it difficult for others to compete. Instead, you might set your thresholds at $10,000, $25,000, $35,000, $50,000, and $75,000. In this case, the individual who closes the $200,000 deal would achieve the top threshold of $75,000 for that week and earn three times as many points as someone with a $25,000 deal. It's still a great week for that individual, but you haven’t allowed them to pull so far ahead that no one else can catch up.  
   
 
-[!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
   
 ## Awards and prizes  
 

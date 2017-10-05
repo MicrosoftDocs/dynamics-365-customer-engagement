@@ -14,29 +14,29 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]
+# Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]
 
-Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](includes/pn-gamification-shortest-md.md)]. It's a two-step process: first, you create the KPIs in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-subsequent-md.md)], and then you choose and configure them in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] when you set up a new game.
+Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](../includes/pn-gamification-shortest.md)]. It's a two-step process: first, you create the KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], and then you choose and configure them in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when you set up a new game.
 
 > [!VIDEO https://www.youtube.com/embed/7kb9zfvSjLE]
 
-For more information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], see [Set up and run games in Gamification](run-games.md). For basic information about KPIs, see [Concepts to learn before you get started using Gamification](get-started.md).
+For more information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], see [Set up and run games in Gamification](run-games.md). For basic information about KPIs, see [Concepts to learn before you get started using Gamification](get-started.md).
 
 ## Create KPIs in Gamification
 
 When you set up a game, step 2 of the game setup experience requires you to define the KPIs for the game.
 
-The KPIs you define in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will be available when you set up the game and the data syncs from [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
+The KPIs you define in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] will be available when you set up the game and the data syncs from [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
 
-## Configure and edit KPIs in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]
+## Configure and edit KPIs in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]
 
-Configure KPI details in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] to select them for a new contest in [!INCLUDE[pn_gamification_](includes/pn-gamification-shortest-md.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_](includes/pn-gamification-shortest-md.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.
+Configure KPI details in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] to select them for a new contest in [!INCLUDE[pn_gamification_](../includes/pn-gamification-shortest.md)]. The system creates a set of default KPIs when you install [!INCLUDE[pn_gamification_](../includes/pn-gamification-shortest.md)]. Only the owner of a KPI can change its values. If the system created a KPI, you need to assign it to an owner before its values can be changed.
 
-There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] instance. Use our examples for inspiration, and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Best practices for new and existing KPIs in Gamification](best-practices-kpis.md)  
+There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. Use our examples for inspiration, and adapt them to your business and game requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Best practices for new and existing KPIs in Gamification](best-practices-kpis.md)  
 
 ### Configure a KPI
 
-1.  In [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], go to **Gamification** > **KPIs**.
+1.  In [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], go to **Gamification** > **KPIs**.
 
 2.  In the **Active KPIs** section, click the KPI you want to configure.
 
@@ -72,7 +72,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
      For example, if you want to award points only for appointments about a specific product, you can add the product name to the appointment description, and then add a query parameter to select an appointment for scoring only when the **Description** field contains the product name.
 
     > [!NOTE]
-    > [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] doesn't support saved views that filter for the date field, or contain linked entities in filters or columns.
+    > [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] doesn't support saved views that filter for the date field, or contain linked entities in filters or columns.
 
 9.  Optionally, choose **Scoring Behavior** in the **Additional Scoring Settings** section. By default (if no check box is selected), points are always assigned based on the current state of the record. You can customize this by selecting one or more of the following options:
 
@@ -80,7 +80,7 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
     - **Keep scores when the record is no longer valid**: For example, a KPI is configured based on a saved view that assigned scores only to records in the **Completed** state. After some time, a workflow automatically moves completed records to an **Archived** state. If this option is checked, the system will keep scores for these records.
 
-    - **Keep scores when the record is reassigned**: When a record is assigned to another user in [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-subsequent-md.md)], scores will persist with the user who initially received the scored points.
+    - **Keep scores when the record is reassigned**: When a record is assigned to another user in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], scores will persist with the user who initially received the scored points.
 
     - **Keep initial scores**: Scores are assigned based on the values that were initially provided on the record that the KPI uses. For example, if you award points for potential revenue and the revenue forecast, the score won't change when the revenue forecast on the record is updated.
 
@@ -93,13 +93,13 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 
 ### Next steps
 
-When you are done setting up all required KPIs, [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] will sync the data to [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] when you start the game.
+When you are done setting up all required KPIs, [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] will sync the data to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when you start the game.
 
-If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
+If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
 ## Edit a KPI
 
-1.  In [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], go to **Gamification** > **KPIs**.  
+1.  In [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], go to **Gamification** > **KPIs**.  
 
 2.  Click the KPI you want to edit.
 
@@ -110,7 +110,7 @@ If you want to score a KPI manually, you can use Excel point scoring. [!INCLUDE[
 5.  To apply your changes, click **Save**.
 
 > [!NOTE]
-> Before you can edit a KPI that was automatically created when [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] was installed, you must assign it an owner. Only the KPI owner can edit the values of a KPI.
+> Before you can edit a KPI that was automatically created when [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] was installed, you must assign it an owner. Only the KPI owner can edit the values of a KPI.
 
 ### See also
 
