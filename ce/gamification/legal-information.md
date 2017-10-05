@@ -17,11 +17,11 @@ manager: sakudes
 ---
 # Privacy information and license terms for Gamification
 
-Refer to the following documents and web pages for legal information about [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)].  
+Refer to the following documents and web pages for legal information about [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
   
 ## License Terms for Microsoft Dynamics 365 - Gamification  
 
- Review the following document to see the license terms for [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]:  
+ Review the following document to see the license terms for [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]:  
   
  [Microsoft Dynamics 365 - Gamification License Terms](https://go.microsoft.com/fwlink/p/?linkid=830687)  
   
@@ -31,11 +31,11 @@ Refer to the following documents and web pages for legal information about [!INC
   
 ## Additional Privacy Notices  
 
- Some features and capabilities in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] are governed by additional privacy notices in the related technical documentation.  
+ Some features and capabilities in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] are governed by additional privacy notices in the related technical documentation.  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
- [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
   
 ### See also  
 
