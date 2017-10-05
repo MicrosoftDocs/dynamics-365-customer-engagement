@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/04/2017
+ms.date: 10/05/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -34,7 +34,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 With the goal of simplifying how to open the details view of a post, we added a small header to each post that identifies the type of post it is and provides an **Open** control that you use to see post details. As before, you can't open the details view for posts listed in the threads section of post details&mdash;those posts don't show the **Open** control.
 
-### Post details improved to distinguish a main post from its parent post
+### Post details improved to distinguish a child post from its parent post
 
 Whenever you open a post that has a parent post, you can switch to that parent post by selecting the content. Based on feedback, and to further improve keyboard navigation, we now show headings for each section by using an expand/collapse control. When selected, it will expand or collapse that part of the post details view.
 
