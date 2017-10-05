@@ -17,12 +17,12 @@ manager: sakudes
 ---
 # Ask game-specific questions or report issues to the commissioner
 
-When you need to get in touch with a commissioner or want to raise an issue with a game, you can reach out to the commissioners from within [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)].  
+When you need to get in touch with a commissioner or want to raise an issue with a game, you can reach out to the commissioners from within [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
   
- To reach out by using the help options the commissioner has provided, sign in to [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], and then go to **Help** > **Contact Commissioner**.
+ To reach out by using the help options the commissioner has provided, sign in to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], and then go to **Help** > **Contact Commissioner**.
 
 > [!NOTE]
->  If this link doesn't work for the game you are part of, ask the commissioner to configure this setting. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage settings to personalize the game experience in Gamification](personalize-game-experience.md)  
+>  If this link doesn't work for the game you are part of, ask the commissioner to configure this setting. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage settings to personalize the game experience in Gamification](personalize-game-experience.md)  
   
 ### See also
 

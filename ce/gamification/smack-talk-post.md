@@ -17,14 +17,14 @@ manager: sakudes
 ---
 # Post on the smack talk board in Gamification
 
-A [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] competition includes lively discussion and lets players claim their bragging rights. Make sure you tell other players when you land a great achievement, or congratulate your peers when they're successful. In the end, don't you want to be the leader of the pack and the most-drafted player on other teams?  
+A [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] competition includes lively discussion and lets players claim their bragging rights. Make sure you tell other players when you land a great achievement, or congratulate your peers when they're successful. In the end, don't you want to be the leader of the pack and the most-drafted player on other teams?  
   
 ## Join the discussion with other players and fans  
  Post your achievements, brag about closed deals, or share kudos with your peers.
   
 ## Post on the smack talk board in Gamification  
   
-1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **My Games** > **Smack Talk**.  
+1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **My Games** > **Smack Talk**.  
   
 2.  Enter your message in the input box.  
   

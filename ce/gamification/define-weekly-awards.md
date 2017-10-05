@@ -12,11 +12,11 @@ manager: sakudes
 ---
 # Create weekly awards to keep players and fans engaged
 
-Configure weekly awards to keep players focused on delivering results for the right KPIs in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]. Weekly awards are small contests that are part of a longer game and are also posted on the leaderboard. You'll configure weekly awards for a single KPI in each game period.  
+Configure weekly awards to keep players focused on delivering results for the right KPIs in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Weekly awards are small contests that are part of a longer game and are also posted on the leaderboard. You'll configure weekly awards for a single KPI in each game period.  
 
 ## Configure a weekly award
 
-1. In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Games** > **Games** > **Weekly Awards** ![Weekly Awards button in Gamification](media/weekly-awards-gamification.png "Weekly Awards button in Gamification").
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games** > **Games** > **Weekly Awards** ![Weekly Awards button in Gamification](media/weekly-awards-gamification.png "Weekly Awards button in Gamification").
 
 2. Click **Select Game** and choose the game for which you want to create weekly awards.
 
