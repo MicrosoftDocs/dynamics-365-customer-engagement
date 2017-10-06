@@ -28,9 +28,9 @@ These commands work with either the Dynamics 365 for phones app or the previous 
   
 |**To do this in Dynamics 365**|**Say this**|  
 |--------------|--------------| 
-|Open an item|**Dynamics 365 open <item> called <item name>**.<br/>Example:<br/>“CRM open account called Contoso.”<br/>Variation:<br/>“CRM open account named Contoso.”|
-|Show a view|6.0 and above|
-|Search for an item|10|
+|Open an item|**CRM open** ***item*** **called** ***item name>***.<br/>Example:<br/>“CRM open account called Contoso.”<br/>Variation:<br/>“CRM open account named Contoso.”|
+|Show a view|**CRM show** ***view name***.<br/>Example:<br/>“CRM show my active accounts.”<br/>Variation:<br/>“CRM show me my active accounts.”|
+|Search for an item|**CRM find** ***item*** **called** ***name***.<br/>Example:<br/>“CRM find account called Contoso.”<br/>Variation:<br/>“CRM find account named Contoso.”|
 |Create a new item|10|
 |Create a phone call activity|10|
 |Create an appointment|10|
