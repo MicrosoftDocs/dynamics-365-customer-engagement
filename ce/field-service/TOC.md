@@ -9,6 +9,7 @@
 ## [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 ## [Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
 ## [Mobile app installation](install-the-mobile-app.md)
+## [Use Glympse to track location of technician](glympse.md)
 ## Resource setup
 ### [Bookable resources](set-up-bookable-resources.md)
 ### [Bookable resource categories](set-up-bookable-resource-categories.md)
