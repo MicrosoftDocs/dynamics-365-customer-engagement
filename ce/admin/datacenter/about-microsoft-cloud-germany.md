@@ -85,11 +85,7 @@ Customer Engagement Plan Enterprise Edition is a user subscription that includes
   
 -   Mobile offline synchronization  
   
-- Relationship Insights - Relationship Assistant  
-  
 - Relevance Search  
-  
-- Voice of the Customer  
   
 - [!INCLUDE[pn_azure_machine_learning](../../includes/pn-azure-machine-learning.md)] integration  
   
