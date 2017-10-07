@@ -197,16 +197,18 @@
 #### [Permissions required for document management tasks](permissions-required-document-management-tasks.md)
 #### [Validate and fix SharePoint site URLs](validate-fix-sharepoint-site-urls.md)
 <!-- #### [Set up Customer Service](../customer-service/improve-customer-service-better-automation-tracking.md)-->
-#### [Connect to Microsoft Social Engagement](connect-microsoft-social-engagement.md)
-##### [Install the Social Selling Assistant](install-social-selling-assistant.md)
-##### [Control social data](control-social-data.md)
-#### [Manage Bing Maps](manage-bing-maps-organization.md)
-#### [Enable embedded Flow (Microsoft Flow)](enable-embedded-flow-in-your-organization.md)
-#### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)
-#### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)
-#### [Use Power BI with Dynamics 365](use-power-bi.md)
-#### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)
-#### [Install or remove a preferred solution](install-remove-preferred-solution.md)
+
+### [Connect to Microsoft Social Engagement](connect-microsoft-social-engagement.md)
+#### [Install the Social Selling Assistant](install-social-selling-assistant.md)
+#### [Control social data](control-social-data.md)
+
+### [Manage Bing Maps](manage-bing-maps-organization.md)
+### [Enable embedded Flow (Microsoft Flow)](enable-embedded-flow-in-your-organization.md)
+### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)
+### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)
+### [Use Power BI with Dynamics 365](use-power-bi.md)
+### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)
+### [Install or remove a preferred solution](install-remove-preferred-solution.md)
 
 ### [Add Office 365 Online services](add-office-365-online-services.md)
 #### [Connect Dynamics 365 (online) to Exchange Online](connect-exchange-online.md)
