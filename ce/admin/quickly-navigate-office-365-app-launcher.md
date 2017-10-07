@@ -18,9 +18,6 @@ manager: "brycho"
 ---
 # Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") 
-
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] introduces a new app model for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps and makes accessing these and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps fast and easy.  
