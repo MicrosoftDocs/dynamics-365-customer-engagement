@@ -560,7 +560,21 @@ From Amy: There is no longer anything special about ISH. It is just another app 
 7.  Click **OK** on the confirmation dialog displayed.  
   
 8.  Publish the localized control to the desired publishing environments to make the localized control available to your users. The localized content will automatically be displayed to users that have selected the same language for their user interface.  
-  
+
+## Dynamics 365 data center mapping to Azure regions
+The following table lists the Dynamics 365 data center regions and its corresponding Azure regions from where learning path will be available.
+
+|Dynamics 365 Data Center|Azure Region|  
+|-------------|-----------------|
+|Asia-Pacific (APAC)|East Asia|
+|Canada (CAN)|Canada Central|
+|Europe, Middle East, Africa, and Great Britain (EMEA, GBR)|West Europe|
+|India (IND)|Central India|
+|Japan (JPN)|Japan East|
+|North America (NAM)|East US|
+|Oceania (OCE)|Australia East|
+|South America (SAM)|Brazil South|
+
 ## Privacy notice  
 [!INCLUDE[cc_privacy_learning_path_authoring](../includes/cc-privacy-learning-path-authoring.md)]
   
