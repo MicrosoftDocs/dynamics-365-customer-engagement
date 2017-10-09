@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement General Availability Readme (Known Issues) | MicrosoftDocs"
-ms.date: 09/30/2017
+ms.date: 10/09/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 ---
-Dynamics 365 Customer Engagement<br/>General Availability Readme (Known Issues)
+Dynamics 365 Customer Engagement<br>General Availability Readme (Known Issues)
 ==============================================================================
 
 This document provides important, late-breaking information about this product
@@ -38,19 +38,18 @@ Services & Apps Availability
 | Organizational Insights                                                                     | X  |                |                 |
 | CaféX Live Assist                                                                           | X  |                |                 |
 | Document recommendations                                                                    | X  |                |                 |
-| Company News<br/>(Available on 10/8)                                                            | X  |                |                 |
+| Company News (Available on 10/8)                                                            | X  |                |                 |
 | Unified Service Desk                                                                        | X  |                |                 |
 | Voice of the Customer                                                                       | X  |                |                 |
-| Dynamics 365 App for Outlook<br/>(Available on 10/8)                                            |    | X              |                 |
+| Dynamics 365 App for Outlook (Available on 10/8)                                            |    | X              |                 |
 | Relationship Insights - Auto Data Capture                                                   |    | X              |                 |
 | Relationship Insights - Relationship Assistance                                             |    | X              |                 |
 | Relationship Insights - Email Engagement                                                    |    | X              |                 |
 | Customer Insights                                                                           |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                                                              |    | X              |                 |
-| Cortana<br/>(Available on 10/8)                                                                 |    | X              |                 |
+| Cortana (Available on 10/8)                                                                 |    | X              |                 |
 | Mobile offline (Dynamics 365 for tablets and phones)                                        |    |                | X               |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
-
 
 Sales and Customer Service web client apps
 ------------------------------------------
@@ -217,7 +216,15 @@ View designer
 Data visualization 
 -------------------
 
-### Interactive dashboards
+### Dashboards in Unified Interface 
+
+-   Users will experience some right-to-left issues, such as the dashboard
+    picker and label are not properly aligned.
+
+-   On a Windows 10 phone or Internet Explorer, users will experience problems
+    on the dashboard because this device and browser are not supported.
+
+### Interactive dashboards in Unified Interface
 
 -   Interactive dashboards are not supported in offline mode.
 
@@ -239,7 +246,7 @@ Data visualization
     filters.
 
 -   Doughnut and tag charts hide other data points when filtering is done on
-    them, and show only the data point that was used for filtering.
+    them and show only the data point that was used for filtering.
 
 -   In global filters and applied filters, the default minimum value of numeric
     data type appears in scientific notation instead of decimal.
@@ -249,20 +256,10 @@ Data visualization
     more** action. This action is not intended to be shown and will be fixed in
     a future release.
 
-### Dashboards in Unified Interface 
-
--   On a Windows 10 phone or Internet Explorer, users will experience problems
-    on the dashboard because this device and browser are not supported.
-
--   Users will experience some right-to-left issues, such as the dashboard
-    picker and label are not properly aligned.
-
 ### Charts in Unified Interface
 
 -   Charts show the message “Loading” when the user does not have the read
     privilege for the chart’s underlying entity.
-
--   On devices, the pie chart legend labels overlap the chart.
 
 -   On devices, a pie chart with too many slices might not show all data
     indexes.
