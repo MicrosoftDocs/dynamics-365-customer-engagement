@@ -50,7 +50,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 5.  Under **Manage Applications**, select the **Resource Scheduling Optimization** solution and then **Manage**.  
   
-6.  On the sign-in screen, use your global administrator or Dynamics 365 system administrator credentials. This is same info  you used in Step 1.  
+6.  On the sign-in screen, use your global administrator or Dynamics 365 system administrator credentials. This is same info you used in Step 1.  
   
 7.  Select the organization from the drop-down menu. Verify the credentials and select **Deploy**.  
   
@@ -77,9 +77,9 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 - **Check for Updates**: Check for updates to your Resource Scheduling Optimization  instances.  
   
-- **Update User Credentials**: Update the user credentials to whoever will be maintaining the link  between Resource Scheduling Optimization and your organization. This  user has a Resource Scheduling Optimization security role and can  publish the Resource Scheduling Optimization   schedule and run optimization jobs.  
+- **Update User Credentials**: Update the user credentials to whoever will be maintaining the link  between Resource Scheduling Optimization and your organization. This  user has a Resource Scheduling Optimization security role and can publish the Resource Scheduling Optimization schedule and run optimization jobs.  
   
-- **Change Organization**:  If you have multiple organizations in your tenant that use Resource Scheduling Optimization, then use this action to switch the connection to a different org.  
+- **Change Organization**: If you have multiple organizations in your tenant that use Resource Scheduling Optimization, then use this action to switch the connection to a different org.  
   
 - **Open Organization**: Opens the organization where[!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)] is deployed in a new tab.  
   
@@ -123,7 +123,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 3.  In the **Resource Scheduling Optimization** section, choose one of the following for **Scheduling Method**:  
   
-    - **Optimize**: A booking with this status   lets Resource Scheduling Optimization move the booking around to optimize the best schedule.  
+    - **Optimize**: A booking with this status lets Resource Scheduling Optimization move the booking around to optimize the best schedule.  
   
     - **Do Not Move**: A booking with this status prohibits Resource Scheduling Optimization from changing the booking in any way. This behaves the same as if you set the booking to "locked to resource + time" on the scheduling lock options.  
   
@@ -153,7 +153,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 9. **Save & Close**.  
   
-### Enable Resource Scheduling Optimization for  resources  
+### Enable Resource Scheduling Optimization for resources  
  Next, you need to tell the system which Field Service resource will be used by Resource Scheduling Optimization.  For example, if you need 10 field techs but you only want five of them to be used by Resource Scheduling Optimization for automatic scheduling, then enable just those five resources.  
   
 > [!NOTE]
@@ -180,14 +180,14 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
     1. **Timer**: Define how often this schedule will run.  
   
-    2. **Timer Mode**: The                                  instant                                  when the schedule will start                                  the                                  timer. Choose **Fixed** or **After Job Completion**.                             For example, if the timer is set to 30 minutes, the first run will start 30 minutes from publish date/time. Fixed = run every 30 minutes. After job completion = run 30 minutes from the end of the last Resource Scheduling Optimization job execution.  
+    2. **Timer Mode**: The instant when the schedule will start the timer. Choose **Fixed** or **After Job Completion**.                          For example, if the timer is set to 30 minutes, the first run will start 30 minutes from publish date/time. Fixed = run every   30 minutes. After job completion = run 30 minutes from the end of the last Resource Scheduling Optimization job execution.  
   
     3. **Valid From and Valid To:** The first/last date and time when this schedule will be valid for execution.  
   
 5.  Expand the **Filter** menu. Specify when the engine should run - months, days of the month, days of the week, hours and/or minutes.  
   
     > [!NOTE]
-    >  This is an advanced option. If you leave all the filter options empty, the system will run                                                           using                              all the options.  
+    >  This is an advanced option. If you leave all the filter options empty, the system will run using all the options.  
   
 **Define Scope**  
   
@@ -199,7 +199,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
         2. **Resource Requirement State:** Select which resource requirement should be selected based on its current state. Choose **Only Scheduled or Schedule** or **Unscheduled**.  
   
-        3. **Range Reference**: The starting time                                                                                                                           to be used                                          for all subsequent work order                                          calculations. Choose **Job Current Time** or **Beginning of the Job's Current Day**.  
+        3. **Range Reference**: The starting time to be used for all subsequent work order calculations. Choose **Job Current Time** or **Beginning of the Job's Current Day**.  
   
         4. **Range Offset**: Enter the amount of time that should be added to the range reference to define range start.  
   
@@ -219,19 +219,19 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
         1. **Name**: Enter a name.  
   
-        2. **Engine Effort Level**: Choose how much effort                                          Resource Scheduling Optimization                                          should                                          make to find the best auto-scheduling option.  
+        2. **Engine Effort Level**: Choose how much effort Resource Scheduling Optimization should make to find the best auto-scheduling option.  
   
         3.  Choose **Constraints**:  
   
-            - **Schedule Within Working Hours**:                                                                                                                                                    Verifies                                                  that                                                  the task is not scheduled outside                                                  of the resource's                                                  working hours.  
+            - **Schedule Within Working Hours**: Verifies that the task is not scheduled outside of the resource's working hours.  
   
             - **Meets Required Characteristics**: Verifies the resource meets all the required characteristics, i.e. skills needed to complete the work.  
   
-            - **Locked to Resource**:  If marked,                                                                                                   Resource Scheduling Optimization will not change any locked resources in the booking requirement.  
+            - **Locked to Resource**: If marked, Resource Scheduling Optimization will not change any locked resources in the booking requirement.  
   
-            - **Scheduling Windows:** If marked,                                                  Resource Scheduling Optimization will not change any locked scheduling windows in the booking requirement.  
+            - **Scheduling Windows**: If marked, Resource Scheduling Optimization will not change any locked scheduling windows in the booking requirement.  
   
-            - **Restricted Resources**: If marked,                                                  Resource Scheduling Optimization will check resource preference                                                                                                   to see if it's                                                                                                   "restricted." If the requirement has a restricted resource in which there is no expiration, or expiration in the past, Resource Scheduling Optimization will not schedule this resource for this                                                  booking                                                  requirement.  
+            - **Restricted Resources**: If marked, Resource Scheduling Optimization will check resource preference to see if it's "restricted." If the requirement has a restricted resource in which there is no expiration, or expiration in the past, Resource Scheduling Optimization will not schedule this resource for this booking requirement.  
   
         4.  Choose **Objectives**:  
   
@@ -239,9 +239,9 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
             - **High Priority Requirements**: The system will evaluate this objective, and give priority to the booking requirements with the highest priority.  
   
-            - **Maximize Total Working Hours**: The system will choose the results, and the resource                                                                                                                                                                                                    with the                                                  highest aggregate work time will win this objective.  
+            - **Maximize Total Working Hours**: The system will choose the results, and the resource with the highest aggregate work time will win this objective.  
   
-            - **Minimize Total Travel Time**: The system will choose the results, and the resource                                                  with the                                                  lowest aggregate travel time will win this objective.  
+            - **Minimize Total Travel Time**: The system will choose the results, and the resource  with the lowest aggregate travel time will win this objective.  
   
         5.  Select **Save & Close**.  
   
@@ -252,7 +252,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 ### Publish or Reset Scheduling Optimization  
   
-1.  From the main menu,  select **Resource Scheduling** > **Resource Scheduling Optimization Administration**.  
+1.  From the main menu, select **Resource Scheduling** > **Resource Scheduling Optimization Administration**.  
   
 2.  Select the schedule you want to publish or reset.  
   
@@ -289,7 +289,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
     - **Priority**: Enter the priority of the work order.  
   
-    - **Work Location**: Select either **On Site** or **Location Agnostic**.   If this is set to **Location Agnostic** then latitude and longitude are not required.  
+    - **Work Location**: Select either **On Site** or **Location Agnostic**. If this is set to **Location Agnostic** then latitude and longitude are not required.  
   
     - **Latitude** and **Longitude**: These must have a value if **Work Location** field is set to **On Site**.  
   
