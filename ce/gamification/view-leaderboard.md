@@ -17,11 +17,11 @@ manager: sakudes
 ---
 # See how you rank against other players on a Gamification leaderboard
 
-There's no real competition without a leaderboard. [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] offers several leaderboards, depending on how the game is set up.
+There's no real competition without a leaderboard. [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] offers several leaderboards, depending on how the game is set up.
 
 ## Find your way around
 
- In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], click **My Games** > **Leaderboards** to see the various rankings.
+ In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], click **My Games** > **Leaderboards** to see the various rankings.
   
  You can choose the game leaderboards you want to see, and switch between the different types of leaderboards.
 

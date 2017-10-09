@@ -25,7 +25,7 @@ manager: sakudes
   
  Some games don’t use teams at all. This means your points and awards are based only on your individual performance.  
   
- Have fun using [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)]. Best of luck!  
+ Have fun using [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Best of luck!  
   
 ## What do I do first?
 
@@ -33,7 +33,7 @@ manager: sakudes
   
 ## How often are the leaderboard and player stats updated?
 
- Updates are either done automatically or manually by your commissioner or the game manager. Automatic updates occur frequently each day when your game is integrated with [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)].  
+ Updates are either done automatically or manually by your commissioner or the game manager. Automatic updates occur frequently each day when your game is integrated with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
 ## How can I see the prizes for a game?
 
@@ -51,7 +51,7 @@ manager: sakudes
   
 ## How do I make changes to my team roster?
 
- If you play traditional fantasy sports, you are probably used to trading with other players. However, in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], you make changes to your team roster by selecting a new player from any position. There's no point cost to make changes to your team roster. To level the playing field, we allow multiple teams to select the same players, other than for their own position.  
+ If you play traditional fantasy sports, you are probably used to trading with other players. However, in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], you make changes to your team roster by selecting a new player from any position. There's no point cost to make changes to your team roster. To level the playing field, we allow multiple teams to select the same players, other than for their own position.  
   
  You can make changes to your team roster at any time for the next game period, but the changes must be completed by midnight on Sunday UTC. The time zone is standardized so that players in different parts of the world will all have the same reference time for completing trades. For example, if you are in the Eastern Time zone, you must complete your trades four or five hours earlier (7 or 8 PM), depending on whether your time is Eastern standard time or Eastern daylight saving time.  
   
@@ -79,7 +79,7 @@ manager: sakudes
   
 ## What if I forget my password?
 
- Go to your organization’s sign-in page for [!INCLUDE[pn-crm-shortest](includes/pn-crm-shortest-md.md)] and request a new password.  
+ Go to your organization’s sign-in page for [!INCLUDE[pn-crm-shortest](../includes/pn-crm-2016-shortest.md)] and request a new password.  
   
 ## Where can I get more information?
 

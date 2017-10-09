@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement General Availability Readme (Known Issues) | MicrosoftDocs"
-ms.date: 09/30/2017
+ms.date: 10/09/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -8,7 +8,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 ---
-
 Dynamics 365 Customer Engagement<br>General Availability Readme (Known Issues)
 ==============================================================================
 
@@ -19,7 +18,7 @@ version:
 
 You’ll also find information about known issues and possible workarounds.
 
-Services & Apps availability 
+Services & Apps Availability 
 -----------------------------
 
 | Services & Apps                                                                             | GA | Public Preview | Private Preview |
@@ -39,7 +38,7 @@ Services & Apps availability
 | Organizational Insights                                                                     | X  |                |                 |
 | CaféX Live Assist                                                                           | X  |                |                 |
 | Document recommendations                                                                    | X  |                |                 |
-| Company News<br/>(Available on 10/8)                                                        | X  |                |                 |
+| Company News (Available on 10/8)                                                            | X  |                |                 |
 | Unified Service Desk                                                                        | X  |                |                 |
 | Voice of the Customer                                                                       | X  |                |                 |
 | Dynamics 365 App for Outlook (Available on 10/8)                                            |    | X              |                 |
@@ -48,7 +47,7 @@ Services & Apps availability
 | Relationship Insights - Email Engagement                                                    |    | X              |                 |
 | Customer Insights                                                                           |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                                                              |    | X              |                 |
-| Cortana<br/>(Available on 10/8)                                                             |    | X              |                 |
+| Cortana (Available on 10/8)                                                                 |    | X              |                 |
 | Mobile offline (Dynamics 365 for tablets and phones)                                        |    |                | X               |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
 
@@ -103,8 +102,7 @@ Sales and Customer Service web client apps
 -   Save and Close of Price List Item displays an error and does not close the
     window properly.
 
-Sales Hub and Customer Service Hub apps 
-----------------------------------------
+Sales Hub and Customer Service Hub apps
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
@@ -140,6 +138,20 @@ in the browser or on mobile devices for each scenario. 
 
 -   Forms
 
+    -   When you install the Community portal, the **Read-only in Mobile**
+        metadata flag is enabled for the Case entity. This results in the Case
+        entity being read-only in the Customer Service Hub. The workaround is to
+        go to entity customizations, and for the Case entity metadata, clear the
+        **Read-only in mobile** check box. Then, click **Save** and **Publish
+        all customizations**.
+
+    -   In certain Trial organizations, saving Knowledge articles causes a
+        duplicate record error due to an issue with the Knowledge article
+        sequence number. The work around is to update the prefix of the
+        Knowledge article public number (**Settings** \> **Administration** \>
+        **Auto Numbering** \> **Knowledge Articles**) or update the article
+        sequence number by using an API.
+
     -   The Case business process flow is not available when a new case is being
         created. It is available after the Case form is saved.
 
@@ -152,15 +164,6 @@ in the browser or on mobile devices for each scenario. 
     -   The Similar Cases sub-grid is not available on the Case form.
 
     -   Email is read-only on the Customer Service Hub.
-
-    -   Entity Name contact form: When using the Entity Name contact main form,
-        the entitlement sub-grid is not available. The workaround is to access
-        the Entitlement from the Related tab.
-
-    -   Using the Customer Service Representative role, the user is unable to
-        save a case for a customer with Entitlement setting for "Decrease
-        Remaining On" as "Case Creation”. There is no issue in saving a case
-        record otherwise
 
     -   On opening the read-only user and Entitlement form, a script error is
         displayed.
@@ -181,6 +184,8 @@ in the browser or on mobile devices for each scenario. 
     orgs upgrading from Potassium Preview will need to manually activate the
     forms.
 
+    -   Invalid commands are visible for custom activities from the sitemap.
+
 App modules and App Designer
 ----------------------------
 
@@ -188,9 +193,6 @@ App modules and App Designer
     form \<server url\>/apps/sales. Admins can set this URL suffix for their
     organization to provide their users a friendly URL. However, this URL suffix
     cannot be exported or imported via solutions at this time.
-
--   The dashboard page in a Unified Interface app might fail to load. Please
-    check that you have set a default dashboard in the app module's site map.
 
 -   In some versions of the Firefox browser, the check boxes on the Create App
     page in App Designer don’t appear.
@@ -200,8 +202,8 @@ App modules and App Designer
     the app module only after refresh.
 
 -   The Custom business process flow entity that is created for custom business
-    process flows is not automatically added to the App Designer canvas when the
-    business process flow is added to the app module.
+    process flow might not get automatically added to the App Designer canvas
+    when the business process flow is added to the app module.
 
 View designer
 -------------
@@ -214,7 +216,15 @@ View designer
 Data visualization 
 -------------------
 
-### Interactive dashboards
+### Dashboards in Unified Interface 
+
+-   Users will experience some right-to-left issues, such as the dashboard
+    picker and label are not properly aligned.
+
+-   On a Windows 10 phone or Internet Explorer, users will experience problems
+    on the dashboard because this device and browser are not supported.
+
+### Interactive dashboards in Unified Interface
 
 -   Interactive dashboards are not supported in offline mode.
 
@@ -236,7 +246,7 @@ Data visualization
     filters.
 
 -   Doughnut and tag charts hide other data points when filtering is done on
-    them, and show only the data point that was used for filtering.
+    them and show only the data point that was used for filtering.
 
 -   In global filters and applied filters, the default minimum value of numeric
     data type appears in scientific notation instead of decimal.
@@ -246,20 +256,10 @@ Data visualization
     more** action. This action is not intended to be shown and will be fixed in
     a future release.
 
-### Unified Interface dashboards 
-
--   On a Windows 10 phone or Internet Explorer, users will experience problems
-    on the dashboard because this device and browser are not supported.
-
--   Users will experience some right-to-left issues, such as the dashboard
-    picker and label are not properly aligned.
-
-### Unified Interface charts
+### Charts in Unified Interface
 
 -   Charts show the message “Loading” when the user does not have the read
     privilege for the chart’s underlying entity.
-
--   On devices, the pie chart legend labels overlap the chart.
 
 -   On devices, a pie chart with too many slices might not show all data
     indexes.
@@ -282,7 +282,8 @@ Data visualization
 -   When you click **Show Chart** on a grid while in offline mode, no chart will
     be displayed.
 
-### Timeline control
+Timeline control
+----------------
 
 -   Trying to enable **Show Filter Pane** in the configuration property of
     Timeline control in dashboard shows the message “An unexpected error
@@ -312,6 +313,13 @@ Field controls and mobile application in Unified Interface
 
 -   The date-time control uses browser locale as opposed to user locale for
     editing.
+
+-   On Android devices, when you perform a quick create and use the **Duration**
+    field, the inline mode of editing the duration value results in the entire
+    quick create form scrolling up. The workaround is to swipe down to locate
+    the **Duration** field and continue the update. There are no issues with
+    using the out-of-the-box values when you use the **Duration** field selector
+    (down arrow icon).
 
 -   Text controls - Long values are not getting wrapped in read mode.
 
@@ -492,6 +500,17 @@ Project Service Automation
 -   Contract confirmation does not correctly process unbilled actuals that came
     from journals. Unbilled sales actuals are cancelled and reversed by contract
     confirmation.
+
+Cortana integration with Dynamics 365
+-------------------------------------
+
+-   The Cortana integration with Dynamics 365 provides access to sales
+    activities, accounts, and tasks through Cortana. However, reactive Cortana
+    commands using voice or text are not available currently. Voice or text
+    commands such as "Dynamics 365 open account called Contoso" or "CRM find
+    account called Contoso" will be redirected to open as a web search in Bing.
+    While the rest of the capabilities are still available, we are working on
+    these reactive commands and plan to release them in a future update.
 
 Third-party notice 
 -------------------
