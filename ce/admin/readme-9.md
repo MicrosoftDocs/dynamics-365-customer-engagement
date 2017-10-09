@@ -175,16 +175,16 @@ in the browser or on mobile devices for each scenario. 
 
 -   Other
 
--   User and team queues are not available in the Add to Queue lookup.
+    -   User and team queues are not available in the Add to Queue lookup.
 
--   Fallback forms are shown for the main forms for Category, Feedback, and
+    -   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
     the forms manually. This issue will be fixed in the upcoming release, but
     orgs upgrading from Potassium Preview will need to manually activate the
     forms.
 
--   Invalid commands are visible for custom activities from the sitemap.
+    -   Invalid commands are visible for custom activities from the sitemap.
 
 App modules and App Designer
 ----------------------------
@@ -283,6 +283,7 @@ Data visualization
     be displayed.
 
 Timeline control
+----------------
 
 -   Trying to enable **Show Filter Pane** in the configuration property of
     Timeline control in dashboard shows the message “An unexpected error
