@@ -51,42 +51,6 @@ Services & Apps Availability
 | Mobile offline (Dynamics 365 for tablets and phones)                                        |    |                | X               |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
 
-Known issues
-------------
-
-Sales and Customer Service web client apps
-
-Sales Hub and Customer Service Hub apps
-
-App modules and App designer
-
-View designer
-
-Data visualization
-
-Field controls and mobile application in Unified Interface
-
-Grids and lists in Unified Interface
-
-Multi-select option set in Unified Interface
-
-Timer control in Unified Interface
-
-Subject control in Unified Interface
-
-[Dynamics 365 for Outlook](#_Dynamics_365_for)
-
-Inactivity timeout
-
-Business process flows
-
-Web client visual refresh
-
-Project Service Automation
-
-Cortana integration with Dynamics 365
-
-Third-party notice
 
 Sales and Customer Service web client apps
 ------------------------------------------
