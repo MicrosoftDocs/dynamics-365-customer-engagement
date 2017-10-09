@@ -49,8 +49,7 @@ Here's how to sign out in case someone else needs to use your device.
 
 3.  Tap **Sign out**.
 
-You can sign in again as the same or a different user, or you can sign in to a
-different organization.
+You can sign in again as the same or a different user, or you can sign in to a different organization.
 
 <!-- (Temp change: cutting this section out temp since Mobile Offline is not supported in GA, 9/30
 ## Continuum support for Windows Phone
@@ -186,7 +185,7 @@ Use Task Flows to complete common set of tasks. For example, if you need to perf
 On a phones, tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis"), on the nav bar and then tap **Start Task Flow**.
 
 > [!NOTE]
->  Tasked based flows need to be turned on my your admin. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a mobile task flow](../customize/create-mobile-task-flow.md)
+>  Tasked based flows need to be turned on by your admin. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a mobile task flow](../customize/create-mobile-task-flow.md)
 
 ## Track your progress with charts
 Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can tap an area of a chart to get more info.
@@ -351,7 +350,7 @@ When you're admin has enabled mobile offline, the next time that you access the 
 
   ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
   
-2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify  offline mode is avilable.
+2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is avilable.
 
     ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
 
