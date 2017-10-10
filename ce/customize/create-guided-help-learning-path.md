@@ -561,10 +561,10 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 8.  Publish the localized control to the desired publishing environments to make the localized control available to your users. The localized content will automatically be displayed to users that have selected the same language for their user interface.  
 
-## Dynamics 365 data center mapping to Azure regions
-The following table lists the Dynamics 365 data center regions and its corresponding Azure regions from where learning path will be available.
+## [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center mapping to Azure regions
+The following table lists the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center regions and its corresponding Azure regions from where learning path will be available.
 
-|Dynamics 365 Data Center|Azure Region|  
+|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Data Center|Azure Region|  
 |-------------|-----------------|
 |Asia-Pacific (APAC)|East Asia|
 |Canada (CAN)|Canada Central|
