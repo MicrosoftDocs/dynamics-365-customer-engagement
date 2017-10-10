@@ -12,27 +12,27 @@ manager: sakudes
 ---
 # Set up and run games in Gamification
 
-Commissioners and game managers create and run games in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] to gamify KPIs for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time.
+Commissioners and game managers create and run games in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] to gamify KPIs for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time.
 
-Before you start setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], make sure the following prerequisites are met:
+Before you start setting up a game in [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], make sure the following prerequisites are met:
 
-- You are assigned the **Commissioner** or **Game manager** security role in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)].  
+- You are assigned the **Commissioner** or **Game manager** security role in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].  
 
-- [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] instance. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
+- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
 
 ## Set up a game
 
-By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], a commissioner or game manager creates a basis for the upcoming contest.
+By setting up a game in [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], a commissioner or game manager creates a basis for the upcoming contest.
 
 ### Basic game options
 
- The first step of the game setup process is to provide basic information for the game you're creating. In [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)], go to **Games** > **Game Setup** to set up a new game, or to **Games** > **Games** to edit existing games.
+ The first step of the game setup process is to provide basic information for the game you're creating. In [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], go to **Games** > **Game Setup** to set up a new game, or to **Games** > **Games** to edit existing games.
 
 #### Create a new game
 
 1. Provide a **Name** for the game.
 
-2. Select the **Game Model**. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
+2. Select the **Game Model**. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
 
    For more information about setting up a Stream TV, see [Manage Stream TV games in Gamification](configure-view-tvs.md).
 
@@ -49,7 +49,7 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 
 ### KPI types and user roles
 
- KPIs are the key to games. They are metrics based on [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] data that automatically syncs to [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
+ KPIs are the key to games. They are metrics based on [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] data that automatically syncs to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and are the basis for points awarded to players. KPIs need to be set for weekly goals.  
 
 > [!TIP]
 > - **Use descriptive names** for KPIs so players can understand how to earn points.
@@ -60,9 +60,9 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 
 #### Select  a KPI
 
-1. In step 2 of the game setup process, choose whether you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
+1. In step 2 of the game setup process, choose whether you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
 
-2. Choose from the available KPIs in the list. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] by a user who has the **KPI manager** security role assigned in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)]. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)
+2. Choose from the available KPIs in the list. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] by a user who has the **KPI manager** security role assigned in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)
 
 3. Optionally, provide a different (game-specific) name for the KPI.
 
@@ -78,12 +78,12 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 
 7.  Repeat the steps above for all KPIs you have planned for the game.
 
-8.  Optionally, you can use Excel point scoring for certain KPIs. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
+8.  Optionally, you can use Excel point scoring for certain KPIs. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
 9.  In the game setup header, click **2** to proceed to the next step.
 
 > [!IMPORTANT]
-> When you remove a KPI from an active game, a user with the **KPI manager** security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
+> When you remove a KPI from an active game, a user with the **KPI manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
 
 #### Game quotas
 
@@ -107,37 +107,37 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](includes/pn-gamificati
 
 ### Awards and prizes
 
-In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
+In this step, you can define the various awards and prizes for the overall game. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
 
-In addition to game awards, you can set up weekly awards. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Create weekly awards to keep players and fans engaged](define-weekly-awards.md)
+In addition to game awards, you can set up weekly awards. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Create weekly awards to keep players and fans engaged](define-weekly-awards.md)
 
 To complete the game setup, click **Start Game** for the dates you defined. You can also save the game and refine your settings before you start it.
 
 After you activate the game, and before the game start date, you can change KPIs, game awards, and player game quotas, but you can't add new **Percentage of quota** KPIs. On or after the game start date, you can still change the game awards and player game quotas.
 
 > [!NOTE]
-> Add or remove players or fans at any time after you activate a game by choosing **Add or remove players or fans** on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] to freeze the points for that player, so teams don't lose points for the current and past game periods.
+> Add or remove players or fans at any time after you activate a game by choosing **Add or remove players or fans** on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to freeze the points for that player, so teams don't lose points for the current and past game periods.
 
  Don't forget to complete the game when you reach the game end date. It's a critical step to be sure prizes get awarded to the players.
 
 ## Run the game and keep scores up to date
 
- During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel point scoring feature. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
+ During an active game, make sure the players and fans stay engaged. If you update certain KPIs manually, you'll use the Excel point scoring feature. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
 > [!IMPORTANT]
-> When you edit an active game and remove a KPI or change the active players, a user who has the **KPI manager** security role in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)] needs to click **Refresh Data** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)].
+> When you edit an active game and remove a KPI or change the active players, a user who has the **KPI manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
 
 > [!TIP]
-> - Consider setting up a TV for your office to show the leaderboard and announcements on the smack talk board. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
-> - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-one-time-emails.md)
+> - Consider setting up a TV for your office to show the leaderboard and announcements on the smack talk board. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
+> - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-one-time-emails.md)
 
 ## Complete a game
 
- After the game end date, a game manager or commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] with [!INCLUDE[pn_crm_online_subsequent](includes/pn-crm-online-subsequent-md.md)], they also need to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 31 days after the game end date.
+ After the game end date, a game manager or commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], they also need to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 31 days after the game end date.
 
 ### Manually complete a game
 
-1.  In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], go to **Games**.
+1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games**.
 
 2.  In the **Active Games** list, click **End Game** for the game you want to complete.
 

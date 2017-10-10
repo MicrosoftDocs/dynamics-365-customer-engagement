@@ -17,17 +17,17 @@ manager: sakudes
 ---
 # Gamification terminology
 
-For a quick reference, review these terms used in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)].
+For a quick reference, review these terms used in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].
 
 ## Security roles
 
-Security roles are the permissions that individual users have in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. Commissioners specify security roles when they configure [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] or when they create a new game.
+Security roles are the permissions that individual users have in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Commissioners specify security roles when they configure [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] or when they create a new game.
 
-[!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Understand Gamification security roles](understand-security-roles.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Understand Gamification security roles](understand-security-roles.md)
 
 ### Commissioners
 
-A commissioner is considered to be a referee in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], and is a user with the broadest permissions. Because commissioners have insider knowledge about players and teams, they aren't allowed to participate in any games. [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] can be configured with more than one commissioner.
+A commissioner is considered to be a referee in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], and is a user with the broadest permissions. Because commissioners have insider knowledge about players and teams, they aren't allowed to participate in any games. [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] can be configured with more than one commissioner.
 
 ### Fans
 
@@ -43,19 +43,19 @@ Players are listed in a game and work toward business goals measured with the KP
 
 ## Fantasy sport
 
-A type of online game where players and fans become fantasy team managers. Team managers assemble a fictitious team of real players who compete against other fictitious teams. Points for the teams are a sum of the points that the individual players score. In [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], points are awarded by achieving KPIs, usually scored directly from [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)].
+A type of online game where players and fans become fantasy team managers. Team managers assemble a fictitious team of real players who compete against other fictitious teams. Points for the teams are a sum of the points that the individual players score. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], points are awarded by achieving KPIs, usually scored directly from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
 
 ## Game
 
-Games are set up and run in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] to gamify KPIs that are tracked elsewhere. Sometimes referred to as a "contest." There are different types of games:  
+Games are set up and run in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to gamify KPIs that are tracked elsewhere. Sometimes referred to as a "contest." There are different types of games:  
 
-- **Fantasy teams:** Players can draft their individual fantasy sport team with their own team members. Due to several player features like team drafting and team manager awards, this is by far the most engaging game model offered in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)]. This selection also lets you choose from the available sports themes when you create a game.
+- **Fantasy teams:** Players can draft their individual fantasy sport team with their own team members. Due to several player features like team drafting and team manager awards, this is by far the most engaging game model offered in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. This selection also lets you choose from the available sports themes when you create a game.
 
 - **Fixed teams:** To keep it simple, a game manager can set the teams, such as Office A and Office B. Selecting this game model requires the game manager to specify well-balanced teams to keep players engaged. If a team significantly falls behind due to having all top performers against them, they will likely lose interest and abandon the contest.
 
 - **No teams:** Players compete individually, without drafting teams. It's as simple as that. Head-to-head, winner takes all.  
 
-[!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
 
 ## Gamification (concept)
 
@@ -65,7 +65,7 @@ Gamification as a concept applies gaming elements and principles to non-game con
 
 Stream TV is a way to stream smack talk notifications and leaderboards from active games to an Internet-connected screen or TV in your office.
 
-[!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
 
 ### See also
 
