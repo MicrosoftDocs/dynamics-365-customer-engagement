@@ -1,20 +1,19 @@
 ---
 title: "Manage licenses for Social Engagement | Microsoft Docs"
 description: "Learn how to manage user licenses for users of Social Engagement."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "licenses, Social Engagement, Office 365, user license, assign, remove"
+ms.date: 10/03/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
-ms.assetid: 46e5157e-eb00-4bc1-a2ff-8d060e95869c
-caps.latest.revision: 62
-author: "m-hartmann"
+applies_to:
+  - "Social Engagement"
+ms.assetid: 893c7cd6-80fe-61d1-93b6-93ecf3993291
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Manage licenses for Social Engagement
 
 Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
@@ -40,17 +39,19 @@ If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../
 
 5. Complete the purchase process to start provisioning [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
-It takes a few minutes to complete the provisioning process before you can start using [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. You'll receive an email with the details to access your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] instance when it's set up. You are now ready to [sign in](../social-engagement/sign-in.md) and [set up](../social-engagement/administer-microsoft-social-engagement.md) [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+It takes a few minutes to complete the provisioning process before you can start using [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. You'll receive an email with the details to access your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] instance when it's set up. You are now ready to [sign in](../social-engagement/sign-in.md) and [set up](administer-microsoft-social-engagement.md) [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
 ## Assign a license to a user
 
-Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] by assigning [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](../social-engagement/assign-user-roles.md) to use certain features.  
+Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] by assigning [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](assign-user-roles.md) to use certain features.  
 
-1.  In the [Office 365 portal](http://go.microsoft.com/fwlink/p/?LinkID=390650), click **USERS** > **Active Users**, and then select the user.
+1. In the [Office 365 Admin center](http://go.microsoft.com/fwlink/p/?LinkID=390650), select **Users** > **Active Users**, and then select the user.
 
-2.  In the **Licenses** tab, select the **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** check box.
+2. In the **Product licenses** tab, select **Edit**.
 
-3.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
+3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** to **On**.
+
+4. Select **Save** to confirm your change and update the user's product licenses.  
 
 ## Remove a license from a user
 
@@ -59,11 +60,13 @@ When you [create an Office 365 user account](http://go.microsoft.com/fwlink/p/?L
 When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license you've assigned to the user.  
 Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain.
 
-1. In the Office 365 portal, click **USERS** > **Active Users**, and then select a user.
+1. In the [Office 365 Admin center](http://go.microsoft.com/fwlink/p/?LinkID=390650), select **Users** > **Active Users**, and then select the user.
 
-2. In **Licenses**, clear the **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** check box.
+2. In the **Product licenses** tab, select **Edit**.
 
-3. Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").
+3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** to **Off**.
+
+4. Select **Save** to confirm your change and update the user's product licenses.
 
 ## Purchase licenses or add other Office 365 plans
 
@@ -72,13 +75,11 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 ### Purchase additional licenses
 
-1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **PURCHASE SERVICES**.
+1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], select **Billing** > **Purchase Services**.
 
-2. Select the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] add-in or user licenses you want to purchase, and then click the **Buy now** button ![Buy now button](../social-engagement/media/buy-now-button.png "Buy now button").
+2. Select the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] add-in or user licenses you want to purchase, and then select **Change license quantity**. Customize your order by choosing the number of licenses you'd like to order.
 
-3. Customize your order by choosing the number of licenses you'd like to order. When you have the number of licenses you want, click **Check out now**.
-
-4. Follow the checkout procedure to confirm your purchase.
+3. Follow the checkout procedure to confirm your purchase.
 
 ### Privacy notices
 
@@ -90,8 +91,8 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 ### See Also
 
-[Get started with Social Engagement](../social-engagement/get-started.md)   
-[Assign permissions and user roles](../social-engagement/assign-user-roles.md)   
-[Integrate Social Engagement with Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md)   
-[Connect Social Engagement to other domains](../social-engagement/connect-other-domains.md)
+[Get started with Social Engagement](get-started.md)   
+[Assign permissions and user roles](assign-user-roles.md)   
+[Integrate Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
+[Connect Social Engagement to other domains](connect-other-domains.md)
  

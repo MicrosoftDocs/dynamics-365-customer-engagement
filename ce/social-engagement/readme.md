@@ -1,6 +1,6 @@
 ---
 title: "Social Engagement 2017 Update 1.8 Readme"
-ms.date: 08/11/2017
+ms.date: 10/11/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -9,18 +9,20 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
-
-# Social Engagement 2017 Update 1.8 Readme
+Social Engagement 2017 Update 1.9 Readme
+========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2017 Update 1.8. It was published in September 2017.
+Social Engagement 2017 Update 1.9. It was published in October 2017.
 
-## Resources
+Resources
+---------
 
 [Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) -
 info central for product users and admins
 
-## General known issues
+General known issues
+--------------------
 
 ### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for Tablets app
 
@@ -263,3 +265,11 @@ Currently several user interface (UI) strings and tooltips are not localized in
 Social Engagement–supported languages in Settings, due to recent and ongoing
 work regarding accessibility. The non-localized UI strings and tooltips will be
 localized with the next release of Social Engagement.
+
+**Quota notification in Search Setup can be hidden and is hard to show again**
+
+When you go to the **Search Setup** area, you might see the quota warning
+notification that your solution might be or is already above quota. You can hide
+this notification by selecting the **Close** (X) button in the upper right
+corner. Once it’s closed, you can only get it back by refreshing your browser’s
+session with Social Engagement.

@@ -1,8 +1,8 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-keywords: ""
-ms.date: 09/12/2017
+keywords: "news, product updates, product improvements, service updates"
+ms.date: 10/05/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -18,15 +18,37 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Here's a list of features we added recently.
 
-If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](../social-engagement/get-started.md).
+If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](get-started.md).
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.9
+
+### User experience clean-up for Search Setup and Settings
+
+**Settings** and **Search Setup** now follow common patterns in how you confirm the web forms. It's clearer where to change the name of a search topic category or a search topic in the second panel instead of the overview panel. Quota information is now shown in the first panel to make sure all users have immediate access to it on any device.
+
+### Post list improved to give easy access to post details
+
+With the goal of simplifying how to open the details view of a post, we added a small header to each post that identifies the type of post it is and provides an **Open** control that you use to see post details. As before, you can't open the details view for posts listed in the threads section of post details&mdash;those posts don't show the **Open** control.
+
+### Post details improved to distinguish a child post from its parent post
+
+Whenever you open a post that has a parent post, you can switch to that parent post by selecting the content. Based on feedback, and to further improve keyboard navigation, we now show headings for each section by using an expand/collapse control. When selected, it will expand or collapse that part of the post details view.
+
+### Twitter data use license requirements 
+
+Your use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] product is subject to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Services (“ToS”). We recommend you review these terms carefully, as failure to observe these terms can result in a loss of access to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For your ease of reference, a link to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] ToS is included in the footer of every page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] service.  
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.8
 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] extends listening and engagement capabilities to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer, so you can interact with your company's audience and analyze the data from your pages directly in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extends listening and engagement capabilities to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer, so you can interact with your company's audience and analyze the data from your pages directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
 
 ### Listening and engagement on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
 
