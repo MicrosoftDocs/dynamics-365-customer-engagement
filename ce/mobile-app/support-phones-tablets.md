@@ -21,7 +21,7 @@ manager: "brycho"
 You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
    
 <a name="BKMK_CRMforPhones"></a>   
-## Support for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]  
+## Support for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and tablets 
   
 ### Device support  
   
@@ -29,7 +29,7 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
 |--------------|--------------|---------------------|  
 |[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|10 and above|1 GB|  
 |[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|6.0 and above|1 GB|  
-|[Windows Tablet](http://go.microsoft.com/fwlink/p/?LinkId=519212) |10|1 GB|<br/>
+|[Windows Tablet only](http://go.microsoft.com/fwlink/p/?LinkId=519212) |10|1 GB|<br/>
   
 <a name="BKMK_CRMforTablets"></a>   
 ## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  

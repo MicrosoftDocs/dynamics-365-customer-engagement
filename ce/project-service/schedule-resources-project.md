@@ -35,7 +35,7 @@ You can check resource availability to get an overall view of how booked your re
 >  1.  From the main menu, click **Resource Scheduling** > **Administration**.  
 > 2.  Click **Scheduling parameters**.  
 > 3.  Open record and scroll down to the **Resource Scheduling Optimization** section.  
-> 4.  On the **Connect to Maps** field                         ,                          choose **Yes**.  
+> 4.  On the **Connect to Maps** field, choose **Yes**.  
 > 5.  Accept terms and save the record.  
   
 <a name="BKMK_ScheduleWOManually"></a>   
@@ -73,7 +73,7 @@ You can check resource availability to get an overall view of how booked your re
   
         2.  Drag the booking requirement to an available resource/time slot on the schedule board.  
   
-        3.  When you're done, cook **Book**.  
+        3.  When you're done, click **Book**.  
   
 ### See Also  
  [Resource Manager Guide](../project-service/resource-manager-guide.md)

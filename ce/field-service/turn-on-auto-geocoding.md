@@ -31,7 +31,7 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
 > 1. From the main menu, click **Resource Scheduling** > **Administration**.  
 > 2. Click **Scheduling parameters**.  
 > 3. Open record and scroll down to the **Resource Scheduling Optimization** section.  
-> 4. On the **Connect to Maps** field                         ,                          choose **Yes**.  
+> 4. On the **Connect to Maps** field, choose **Yes**.  
 > 5. Accept terms and save the record.  
   
 <a name="BKMK_TurnOnAutoGeocoding"></a>   
