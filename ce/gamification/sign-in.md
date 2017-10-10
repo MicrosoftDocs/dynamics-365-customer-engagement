@@ -17,15 +17,15 @@ manager: sakudes
 ---
 # How to sign in to the Gamification portal
 
-Before we dig into more detail about [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], make sure you can [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) to the [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] portal.
+Before we dig into more detail about [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], make sure you can [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) to the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] portal.
 
 ## Sign in to Gamification from Dynamics 365
 
- Leveraging the power of [!INCLUDE[pn_azure_active_directory](includes/pn-azure-active-directory-md.md)] (Azure AD), Microsoft’s multitenant cloud-based directory and identity management service, you can sign in to [!INCLUDE[pn_gamification_portal](includes/pn-gamification-portal.md)] by using your work or school account for [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)].
+ Leveraging the power of [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD), Microsoft’s multitenant cloud-based directory and identity management service, you can sign in to [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)] by using your work or school account for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
 
 ## Sign in to the Gamification portal
 
-After a game is activated, players can create their profiles and sign in to the [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] portal directly.
+After a game is activated, players can create their profiles and sign in to the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] portal directly.
 
 1.  Open the [Gamification sign-in page](https://go.microsoft.com/fwlink/p/?linkid=830344) in your browser.
 

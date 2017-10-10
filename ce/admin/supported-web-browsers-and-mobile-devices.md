@@ -58,3 +58,4 @@ For more detailed information about supported phones and tablets, see [Microsoft
   
 ### See Also  
  [Key preparation and configuration tasks](../admin/key-preparation-and-configuration-tasks.md)
+ [Supported web browsers and mobile devices - earlier versions](https://technet.microsoft.com/library/dn531055.aspx)

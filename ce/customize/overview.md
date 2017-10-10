@@ -91,4 +91,8 @@ If you’re applying these changes to a production system, we recommend that you
   
   
 ### See also  
-[Learn about controlling data access through security](../admin/security-roles-privileges.md)  
+[Learn about controlling data access through security](../admin/security-roles-privileges.md) 
+
+[Admin Guide](../admin/admin-guide.md)
+
+[Developer Guide](../developer/developer-guide.md) 
