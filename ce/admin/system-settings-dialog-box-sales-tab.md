@@ -18,6 +18,9 @@ manager: "brycho"
 ---
 # System Settings dialog box - Sales tab
 
+> [!NOTE]
+> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
+
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the settings on this page to configure system-level settings for the sales area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  

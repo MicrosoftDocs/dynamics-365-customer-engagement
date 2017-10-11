@@ -19,7 +19,7 @@ manager: "amyla"
 # Administrator Guide for Dynamics 365 Customer Engagement
 
 > [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") 
+> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
