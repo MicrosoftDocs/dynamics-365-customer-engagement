@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# System Settings dialog box - Synchronization tab 
+# System Settings dialog box - Synchronization tab
 
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
@@ -53,8 +53,6 @@ Use the settings on this page to determine how data is synchronized between [!IN
 |Synchronize mailing address only in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contact<br /><br /> Synchronize all three addresses (Business, Home, Other) in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contact|By default, just one [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] mailing address field is synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. This is sufficient for most organizations. If you want to synchronize all three Outlook mailing address fields (Business, Home, and Other fields) choose the **Synchronize all three addresses in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contact** option. **Warning:**  Be cautious when enabling this option as it can cause data loss in some situations if you have existing data. This is due to the remapping of the attributes for existing tracked contacts. The best practice is to do in-house testing to understand how the re-mapping affects your environment and data. In most cases, you should have the full data in one side (normally in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]) and sync to the other side (normally [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]).|  
 |**Tasks**||  
 |Synchronize tasks that are assigned in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]|[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] tasks are synchronized by default, but synchronization of assigned tasks is turned off by default. Most companies don’t require this feature because tasks would usually be assigned directly in Dynamics 365 by changing ownership in Dynamics 365.<br /><br /> You may want to enable this feature, however, if your company’s business processes involve creating and sending tasks in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] instead of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. |  
-|**Select whether to enable syncing of resource bookings with Outlook**||
-|Synchronize resource bookings with Outlook|Turn on (off by default) to enable resource bookings ([!INCLUDE [pn-field-service](../includes/pn-field-service.md)]) synchronization with [!INCLUDE [pn-crm-app-for-outlook-short](../includes/pn-crm-app-for-outlook-short.md)]. More information: [Field Resource Hub User's Guide (Field Service)](../field-service/field-resource-hub-users-guide.md)
   
 ### See also  
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)   
