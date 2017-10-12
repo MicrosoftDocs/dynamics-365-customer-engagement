@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting and things to know about Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-12-10"
+ms.date: 12/10/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Potential issues and resolutions
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following are known issues with [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
   
 <a name="BKMK_ImportantConsiderations"></a>   
@@ -330,7 +333,7 @@ The following are known issues with [!INCLUDE[pn_moca_full](../includes/pn-moca-
   
 -   Does the issue still occur after uninstalling the app and reinstalling it?  
  
--   Please provide traces. See [Enable tracing for Dynamics 365 for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  
+<!-- -   Please provide traces. See [Enable tracing for Dynamics 365 for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  -->
  
 -   What type of device (ex. iPad 4th Generation, Microsoft Surface, etc…) are you using and what is the version of the operating system (ex. iOS 6.0, Windows 8, etc…)?  
   

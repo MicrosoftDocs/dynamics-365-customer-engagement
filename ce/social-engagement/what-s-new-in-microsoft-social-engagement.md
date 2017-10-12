@@ -1,24 +1,78 @@
 ---
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
-ms.date: 2017-07-10
+keywords: "news, product updates, product improvements, service updates"
+ms.date: 10/05/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Here's a list of features we added recently.
 
-If you’re new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](../social-engagement/get-started.md).
+If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Get started with Social Engagement](get-started.md).
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.9
+
+### User experience clean-up for Search Setup and Settings
+
+**Settings** and **Search Setup** now follow common patterns in how you confirm the web forms. It's clearer where to change the name of a search topic category or a search topic in the second panel instead of the overview panel. Quota information is now shown in the first panel to make sure all users have immediate access to it on any device.
+
+### Post list improved to give easy access to post details
+
+With the goal of simplifying how to open the details view of a post, we added a small header to each post that identifies the type of post it is and provides an **Open** control that you use to see post details. As before, you can't open the details view for posts listed in the threads section of post details&mdash;those posts don't show the **Open** control.
+
+### Post details improved to distinguish a child post from its parent post
+
+Whenever you open a post that has a parent post, you can switch to that parent post by selecting the content. Based on feedback, and to further improve keyboard navigation, we now show headings for each section by using an expand/collapse control. When selected, it will expand or collapse that part of the post details view.
+
+### Twitter data use license requirements 
+
+Your use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] product is subject to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Services (“ToS”). We recommend you review these terms carefully, as failure to observe these terms can result in a loss of access to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For your ease of reference, a link to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] ToS is included in the footer of every page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] service.  
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.8
+
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extends listening and engagement capabilities to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer, so you can interact with your company's audience and analyze the data from your pages directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. 
+
+### Listening and engagement on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
+
+[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] now lets you search for all posts and comments on your own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages, also known as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Company Pages. You can add any [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you administer as social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. After a page admin has added the page and shared it with other users, they can like posts and reply to posts and comments on behalf of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a LinkedIn Page rule](./add-rules-search-topic.md#linkedin-page-rule)
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.7
+
+### Listening and engagement on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]
+
+Get in touch with your audience on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Users with at least a Responder interaction role can now rate and reply to videos and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]. You'll need to add a social profile for [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] under **Settings** > **Social Profiles**, or get a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile shared with you before you can interact on this source.
+
+Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](../social-engagement/add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
+
+Keyword-based searches on the video source continue to reside under the [keywords rule](../social-engagement/add-rules-search-topic.md#add-a-keywords-rule) and now also contain comments for actively discussed video posts. 
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.6
 
@@ -50,8 +104,6 @@ We've added an Engagement Analytics report to our recently introduced [!INCLUDE[
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Microsoft Social Engagement content pack for Power BI](../social-engagement/get-content-pack-for-power-bi.md) 
 
-[//]: # (Is it called a "card" throughout MSE content?)
-[//]: # (Michael to check for consistency and suggest changes if needed.)
 ### Improved usability in Social Selling Assistant
 
 The Social Selling Assistant user experience got its first polishing pass, and now the **Done** button appears next to the other actions at the bottom of the card. 

@@ -1,7 +1,7 @@
 ---
 title: "Permissions required for document management tasks for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Permissions required for document management tasks
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following table shows the default security roles or other permissions that are needed to perform each document management with [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] task.  
   
 > [!IMPORTANT]

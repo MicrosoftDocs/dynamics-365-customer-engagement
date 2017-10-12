@@ -2,7 +2,7 @@
 title: "Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to create and configure invitations in a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,7 +34,7 @@ Locate the **Send Invitation** workflow and deactivate it. After it is deactivat
 
 ## Create and configure invitations
 
-To create an Invitation record within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], click the **Create Invitation** button in the command bar. The button is available when a single Contact is selected in a Contact View and when viewing a Contact record. Clicking the button will open a new invitation form for the Contact. Invitations can also be created via the Invitations View by clicking **+New**. After the Invitation record has been created the **Run Workflow** button will appear enabling you to send the Invitation to the Contact(s).
+To create an Invitation record within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], select the **Create Invitation** button in the command bar. The button is available when a single Contact is selected in a Contact View and when viewing a Contact record. Selecting the button will open a new invitation form for the Contact. Invitations can also be created via the Invitations View by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the Invitation to the Contact(s).
 
 ## Run the Send Invitation workflow
 

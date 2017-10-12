@@ -1,7 +1,8 @@
 ---
 title: "TextAreaElement in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about using TextAreaElement in Unified Service Desk used to associate a named control with a text area element on the HTML page."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

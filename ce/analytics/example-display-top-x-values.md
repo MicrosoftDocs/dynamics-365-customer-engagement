@@ -1,7 +1,7 @@
 ---
-title: "Example: Display the top X values in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Example: Display the top X values (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 7e5c6a40-3e50-48ce-8970-ce5435b4fd0a
 caps.latest.revision: 9
 author: "Mattp123"
@@ -18,7 +19,10 @@ tags:
  - "MigrationHO"
 ---
 # Example: Display the top X values
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes several reports that display the top `X` items of an entity, where the user can specify the value of `X`.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes several reports that display the top `X` items of an entity, where the user can specify the value of `X`.  
   
  To query for the top items, use dynamic SQL. Assign the SQL query string that includes the user-specified parameter to a variable. This resolves the user-specified parameter. The query string is then passed to the `SQL EXEC` function together with the user-specified parameter.  
   
@@ -33,7 +37,7 @@ tags:
 </fetch>  
 ```  
   
-## See also  
+### See also  
  [Create Custom Reports Using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)   
  [Sample Reports](../analytics/example-reports.md)   
  [Sample: Make a Report Context-Sensitive](../analytics/example-make-report-context-sensitive.md)

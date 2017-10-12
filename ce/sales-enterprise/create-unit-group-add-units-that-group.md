@@ -1,7 +1,7 @@
 ---
-title: "Create a unit group and add units to that group (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Create a unit group and add units to that group (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 18
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Create a unit group and add units to that group (Sales, Enterprise)
+# Create a unit group and add units to that group (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
  In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you first create a unit group and then create units within that group. Let’s look at both of these tasks, using seeds as our example.  
@@ -25,7 +28,7 @@ Units are the quantities or measurements that you sell your products or services
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   

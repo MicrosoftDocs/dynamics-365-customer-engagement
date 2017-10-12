@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Goals tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,10 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # System Settings dialog box - Goals tab
-Set the duration and frequency of the automatic rollup of goals. These settings only affect the automatic handling of all goals set in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can always perform a manual rollup for any goal at any time.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Set the duration and frequency of the automatic rollup of goals. These settings only affect the automatic handling of all goals set in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can always perform a manual rollup for any goal at any time.  
   
 ## Open the System Settings dialog box (if it isn’t already open)  
   
@@ -36,8 +39,8 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 |Settings|Description|  
 |--------------|-----------------|  
 |**Set the roll-up expiration time and the roll-up frequency.**||  
-|Days after the goal end date when the rollup will stop|Default: 30 days. Set the number of days after the ending date of a goal for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to stop including a goal in a rollup.|  
-|Roll-up recurrence frequency|Default: 24 hours. Set the number of hours between each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] goal rollup.|  
+|Days after the goal end date when the rollup will stop|Default: 30 days. Set the number of days after the ending date of a goal for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to stop including a goal in a rollup.|  
+|Roll-up recurrence frequency|Default: 24 hours. Set the number of hours between each goal rollup.|  
   
 ### See also  
- [Progress Against Goals report](../basics/progress-against-goals-report.md)
+ [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)

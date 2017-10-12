@@ -1,7 +1,7 @@
 ---
-title: "Create and edit global option sets in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create and edit global option sets (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,9 +16,12 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Create and edit global option sets (picklists)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 An option set is a type of field that can be included in an entity. It defines a set of options. When an option set is displayed in a form it uses a drop-down list control. When displayed in Advanced Find it uses a picklist control. Sometimes option sets are called picklists by developers.  
   
- You can define an option set to use a set of options defined within itself (locally) or it can use a set of options defined elsewhere (globally) which can be used by other option set fields. Global option sets are useful when you have a standard set of categories that can apply to more than one entity. Maintaining two separate option sets with the same values is difficult and if they are not synchronized you can see errors, especially if you are mapping entity fields in a one-to-many entity relationship. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mapping entity fields](../customize/create-edit-entity-relationships.md#BKMK_mappingEntityFields)  
+ You can define an option set to use a set of options defined within itself (locally) or it can use a set of options defined elsewhere (globally) which can be used by other option set fields. Global option sets are useful when you have a standard set of categories that can apply to more than one entity. Maintaining two separate option sets with the same values is difficult and if they are not synchronized you can see errors, especially if you are mapping entity fields in a one-to-many entity relationship. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mapping entity fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields)  
   
 <a name="BKMK_Configuring"></a>   
 ## Configure global option sets  
@@ -37,7 +40,7 @@ An option set is a type of field that can be included in an entity. It defines a
   
      The **Name** field value will be generated based on the value of the **Display Name** you enter.  
   
-     The **Name** field value will include the customization prefix for the solution publisher for the solution you are working in. If the customization prefix is important to you, make sure you are working in the context of a solution that has the customization prefix you want for this global option set. See [Solution Publisher](../customize/customization-concepts.md#BKMK_SolutionPublisher) for information about how to change the customization prefix.  
+     The **Name** field value will include the customization prefix for the solution publisher for the solution you are working in. If the customization prefix is important to you, make sure you are working in the context of a solution that has the customization prefix you want for this global option set. See [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher) for information about how to change the customization prefix.  
   
      The **Name** field value must be unique. If the generated value is the same as an existing global option set, you will need to change it before you can save.  
   
@@ -118,7 +121,6 @@ In the **Options** section you can create, edit, delete, and change the order in
 ### See also  
  [Entities and metadata overview](../customize/create-edit-metadata.md)   
  [Create and edit entities](../customize/create-edit-entities.md)   
- [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)
- 
+ [Create and edit entity relationships](../customize/create-edit-entity-relationships.md) <br/>
  [Create and edit fields](../customize/create-edit-fields.md)   
  

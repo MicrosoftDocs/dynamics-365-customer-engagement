@@ -2,7 +2,7 @@
 title: "Enable header and footer output caching on a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable header and footer output caching on a portal for existing users."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

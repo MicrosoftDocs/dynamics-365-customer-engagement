@@ -1,7 +1,7 @@
 ---
 title: "Assign a business unit a different parent business for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Assign a business unit a different parent business
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can assign a different parent business to a business unit to accommodate changes in your business requirements. When you reassign a business unit, any child business units are also reassigned with it.  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
@@ -32,5 +35,4 @@ You can assign a different parent business to a business unit to accommodate cha
   
 ### See also  
  [Control Data Access](../admin/security-roles-privileges.md)   
- [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Create or edit a site](../admin/create-edit-site.md)

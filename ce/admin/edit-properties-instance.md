@@ -1,7 +1,7 @@
 ---
 title: "Edit properties of a Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Edit properties of an instance
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance, such as the friendly name, URL, and the purpose. However, instances that are being provisioned cannot be edited, and disabled instances must be enabled before they can be edited.  
   
 ## Edit an instance  
@@ -38,7 +41,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
         > [!WARNING]
         >  There are important tasks that you must communicate to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users immediately following a URL name change.  
         >   
-        >  -   For users of the web application, send information that includes the new URL with instructions about how to bookmark it.  
+        > -   For users of the web application, send information that includes the new URL with instructions about how to bookmark it.  
         > -   For users of [!INCLUDE[pn_crm_outlook_online](../includes/pn-crm-outlook-online.md)], the following two tasks must be completed in the order specified here:  
         >   
         >      1. **Synchronize offline data**. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] users connected to this instance who work offline must synchronize by using the previous URL. If you run the Configuration Wizard and change the URL before completing this step, offline data may be lost.  
@@ -71,3 +74,4 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
  [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
  [Manage storage for Microsoft Dynamics 365 (online)](../admin/manage-storage.md)
+ [User session and access management](user-session-management.md)

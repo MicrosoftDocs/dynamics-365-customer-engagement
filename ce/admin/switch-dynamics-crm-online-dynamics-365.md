@@ -1,7 +1,7 @@
 ---
 title: "Switch from Dynamics CRM Online to Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,10 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Switch from Dynamics CRM Online to Dynamics 365 (online)
-Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll walk you through your options and help you switch plans in the Office 365 admin center. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Your Dynamics CRM Online plan is being retired. When it's time to renew, you'll need to renew using the new Dynamics 365 plans. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
   
  If you're an existing Dynamics CRM Online customer, you will be notified when your subscription will expire.  At that time, you'll need to start a new subscription with one of the new [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] licenses. You can switch before you receive the expiration notice.  
   
@@ -26,14 +29,17 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
  **Dynamics 365 information**  
   
 -   [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/home)  
+
+-   [Dynamics 365 pricing](https://www.microsoft.com/dynamics365/pricing)
   
 -   [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
   
 -   [Existing Customer License Transition Guide](http://download.microsoft.com/download/7/A/4/7A421751-435B-4B38-BF1F-45838095465B/Microsoft%20Dynamics%20365%20Transition%20Guide.pdf)  
   
--   [Business apps in Dynamics 365](../basics/business-apps-in-dynamics-365.md)  
+-   [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)  
   
 <a name="BKMK_SwitchToSalesCSTeam"></a>   
+
 ## How to renew when your plan is retiring  
  The easiest way to switch plans is to use the Switch plans button in the Office 365 admin center which launches a wizard. However, using the Switch plans button isn’t supported in all situations. In some cases, you might want or need to switch plans manually.  
   
@@ -45,9 +51,9 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
   
 -   You're going to assign all your users to the same [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan.  
   
- See [Use the Switch plans wizard](#BKMK_SwitchPlan).  
+See [Use the Switch plans wizard](#BKMK_SwitchPlan).  
   
- **When to switch plans manually**  
+**When to switch plans manually**  
   
  Manually switch plans if:  
   
@@ -57,9 +63,10 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
 
 -   You're going to purchase fewer licenses in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan than you currently have in your CRM Online plan.
   
- See [Switch plans manually](#BKMK_ManualSwitch).  
+See [Switch plans manually](#BKMK_ManualSwitch).  
   
 <a name="BKMK_SwitchPlan"></a>   
+
 ### Use the Switch plans wizard  
  When you click the Switch plans button, you're led through the process of buying a new plan that you can switch your current plan to.  
   
@@ -71,7 +78,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
   
 -   Cancels your old plan.  
   
- To renew to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] using the Switch plans wizard, follow these steps.  
+To renew to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] using the Switch plans wizard, follow these steps.  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
@@ -98,7 +105,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
   
     |||  
     |-|-|  
-    |![Dynamics 365 Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 Plan 1 Enterprise Edition")|![Dynamics 365 Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 Sales Plan")|  
+    |![Dynamics 365 Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 Customer Engagement Plan Enterprise Edition")|![Dynamics 365 Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 Sales Plan")|  
     |![Dynamics 365 Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 Customer Service Plan")|![Dynamics 365 Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 Team Plan")|  
   
 6.  In the Checkout Step 1 page, click **Have a promo or discount code?**, enter a promo code, and then click **Apply promo code**.  
@@ -125,6 +132,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
 8.  Fill in the information, and then click **Place  order**.  
   
 <a name="BKMK_ManualSwitch"></a>   
+
 ### Switch plans manually  
  Switching plans manually means completing the following separate procedures instead of using the switch plans wizard.  
   
@@ -138,7 +146,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
   
 -   Cancel the original subscription.  
   
- To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, complete the following phases in the order shown.  
+To manually switch users to another [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, complete the following phases in the order shown.  
   
 -   Phase 1: Buy user licenses for a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription.  
   
@@ -170,7 +178,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
   
     |||  
     |-|-|  
-    |![Dynamics 365 Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 Plan 1 Enterprise Edition")|![Dynamics 365 Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 Sales Plan")|  
+    |![Dynamics 365 Plan 1 Enterprise Edition](../admin/media/dynamics-365-plan-1-enterprise-edition.png "Dynamics 365 Customer Engagement Plan Enterprise Edition")|![Dynamics 365 Sales Plan](../admin/media/dynamics-365-sales-plan.png "Dynamics 365 Sales Plan")|  
     |![Dynamics 365 Customer Service Plan](../admin/media/dynamics-365-customer-service-plan.png "Dynamics 365 Customer Service Plan")|![Dynamics 365 Team Plan](../admin/media/dynamics-365-team-plan.png "Dynamics 365 Team Plan")|  
   
 5.  Mouse over the subscription you want to switch to, and then click **Buy now**.  
@@ -186,7 +194,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
   
 7.  In your cart, click **Add-ons** to add Add-ons like an additional non-production instance or more storage.  
   
- ![Click Add&#45;on in your cart](../admin/media/click-add-on-your-cart.png "Click Add-on in your cart")  
+ ![Click Add-on in your cart](../admin/media/click-add-on-your-cart.png "Click Add-on in your cart")  
   
      To see which add-ons are included with [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plans, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
   
@@ -258,11 +266,11 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
   
 3.  On the right-hand side of the page, click **More actions** > **Cancel subscription**.  
   
- ![Cancel your Dynamics 365 &#40;online&#41; subscription](../admin/media/cancel-your-online-subscription.png "Cancel your Dynamics 365 (online) subscription")  
+ ![Cancel your Dynamics 365 (online) subscription](../admin/media/cancel-your-online-subscription.png "Cancel your Dynamics 365 (online) subscription")  
   
 4.  Fill in the information on the Cancel subscription page, and the click **Cancel subscription**.  
   
- When you check your Dynamics CRM Online subscription (**Billing** > **Subscriptions**),  you'll see the following regarding your cancelled subscription:  
+When you check your Dynamics CRM Online subscription (**Billing** > **Subscriptions**),  you'll see the following regarding your cancelled subscription:  
   
 -   You're no longer being billed for the subscription.  
   
@@ -293,6 +301,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, we'll w
 ### See also  
  [Important information for CRM Online customers](../admin/important-information-customers.md)   
  [Switch to a different Office 365 for business plan](https://support.office.com/article/Switch-to-a-different-Office-365-for-business-plan-73318661-8f33-478b-bcc7-fb8d69dbb22a?ui=en-US&rs=en-US&ad=US)   
- [Onboard your organization and users to Dynamics 365 (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)
+ [Onboard your organization and users to Dynamics 365 (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)<br />
  [Purchase and assign Dynamics 365 (online) licenses](../admin/purchase-assign-online-licenses.md)   
  [Assign or remove licenses for Office 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)
+ [Terminology used in the product and documentation](online-terminology.md)

@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 Customer Engagement transactions with multiple currencies | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Manage transactions with multiple currencies
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Currencies determine the prices for products in the product catalog and the cost of transactions, such as sales orders. If your customers are spread across geographies, add their currencies in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to manage your transactions. Add the currencies that are most appropriate for your current and future business needs.  
   
 ## Add a currency  

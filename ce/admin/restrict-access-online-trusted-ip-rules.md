@@ -1,7 +1,7 @@
 ---
 title: "Restrict access to Dynamics 365 (online) with trusted IP rules | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,11 +17,14 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Restrict access with trusted IP rules
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to users with   trusted IP addresses to reduce unauthorized access. When trusted IP address restrictions are set in a user’s profile and the user tries to log in from an untrusted IP address, access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is blocked.  
   
  **Requirements**  
   
--   A subscription to [Azure Active Directory Premium](https://www.microsoft.com/en-us/cloud-platform/azure-active-directory).  
+-   A subscription to [Azure Active Directory Premium](https://www.microsoft.com/cloud-platform/azure-active-directory).  
   
 -   A federated or managed [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant.  
   
@@ -78,13 +81,13 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
   
     4.  Set **Rules** to **Block access when not at work**.  
   
-  ![](media/IPRulesProperties65HL.png "Set rule to Block access when not at work")
+      ![](media/IPRulesProperties65HL.png "Set rule to Block access when not at work")
   
     5.  Click **Save** > **OK**.  
   
     6.  Click **Click here to define/edit your work network location**.  
   
-  ![](media/DefineNetworkLoc85HL.png "Define or edit you work network location")
+      ![](media/DefineNetworkLoc85HL.png "Define or edit you work network location")
 
 6.  Enter  trusted IP addresses (using [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)).  
   

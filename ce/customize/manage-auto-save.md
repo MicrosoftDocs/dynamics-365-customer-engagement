@@ -1,7 +1,7 @@
 ---
-title: "Manage auto-save in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Disable auto-save (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,12 +15,16 @@ caps.latest.revision: 14
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Manage (disable) auto-save
+# Disable auto-save
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Auto-save helps people focus on their work without having to manage saving data in the form. Most people will appreciate not having to explicitly save data each time they update a record, but some organizations may have customizations that were designed expecting an explicit save. For these organizations there are options to manage how auto-save is applied.  
   
 <a name="BKMK_HowAutoSaveWorks"></a>   
+
 ## How auto-save works  
- By default all main forms for [updated entities](../customize/create-design-forms.md#BKMK_UpdatedEntities) will have auto-save enabled. After a record is created (initially saved), any changes made to a form will automatically be saved thirty seconds after the change is made. If no changes are made in the form, the automatic save won’t occur while the form is open. After a change is made the 30-second period before an auto-save begins again. The field that someone is currently editing isn’t included in an auto-save. If someone else has updated the same record while you’re editing it, those changes will be retrieved and displayed in the form when auto-save occurs.  
+ By default all main forms for [Updated entities and classic entities](create-design-forms.md#updated-entities-and-classic-entities) will have auto-save enabled. After a record is created (initially saved), any changes made to a form will automatically be saved thirty seconds after the change is made. If no changes are made in the form, the automatic save won’t occur while the form is open. After a change is made the 30-second period before an auto-save begins again. The field that someone is currently editing isn’t included in an auto-save. If someone else has updated the same record while you’re editing it, those changes will be retrieved and displayed in the form when auto-save occurs.  
   
  With auto-save enabled, the save button only appears for the initial save of the record. After the record is created, the save button in the command bar isn’t shown, but you can see a ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button in the lower right corner that will show if there are any unsaved changes. This control is also displayed if auto-save is disabled.  
   
@@ -133,9 +137,8 @@ Auto-save helps people focus on their work without having to manage saving data 
  After you apply this script to the `OnSave` event, when people edit a record using this form the message **unsaved changes** will appear in the bottom right corner of the form just as it would if auto-save was not disabled. But this message will not go away until people click the ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button next to it.  
   
 ### See also  
- [Create and design forms](../customize/create-design-forms.md)   
- [Use the form editor](../customize/use-the-form-editor.md)   
+ [Create and design forms](../customize/create-design-forms.md)      
  [Design considerations for main forms](../customize/design-considerations-main-forms.md)   
- [Main form presentations](../customize/main-form-presentations.md)   
+ [How main forms appear in different clients](../customize/main-form-presentations.md)   
  [Optimize form performance](../customize/optimize-form-performance.md)   
  

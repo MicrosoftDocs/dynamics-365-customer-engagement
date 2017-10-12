@@ -1,7 +1,7 @@
 ---
-title: "Translate product names and properties into multiple languages (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Translate product names and properties into multiple languages (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 21
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Translate product names and properties into multiple languages (Sales, Enterprise)
+# Translate product names and properties into multiple languages (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you sell your products in different regions, it is important that you translate significant product details into multiple languages. Help sales agents find things they need easily by making all the relevant details like cross-sell or upsell suggestions, or properties, available to them in their preferred language.   
   
 <a name="bkmk_Export"></a>   
@@ -23,7 +26,7 @@ When you sell your products in different regions, it is important that you trans
   
 1.  [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     -   [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -46,11 +49,12 @@ When you sell your products in different regions, it is important that you trans
  When you get the localized data back from translation, import it into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 > [!IMPORTANT]
->  It is important to provision the language packs first. If you import translated values for languages that aren’t provisioned in the organization, they’ll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs for Microsoft Dynamics CRM](https://technet.microsoft.com/library/hh699674.aspx)  
-  
+>  It is important to provision the language packs first. If you import translated values for languages that aren’t provisioned in the organization, they’ll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs](https://technet.microsoft.com/library/hh699674.aspx)  
+<!-- Fix this link - cannot find it in migrated content -->
+
 1.  [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     -   [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -74,7 +78,7 @@ When you sell your products in different regions, it is important that you trans
 ## Selection of language in different scenarios  
  This section explains how the duplicate detection and workflow logic affect translation in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
   
--   Calculated fields logic, including conditional clauses, uses only the base language. The behavior of workflows and portable business logic is similar to [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. The label for the user’s preferred language (user interface language) is used if present. Otherwise, the base language is used.  
+-   Calculated fields logic, including conditional clauses, uses only the base language. The label for the user’s preferred language (user interface language) is used if present. Otherwise, the base language is used.  
   
 -   When a record is created or updated, duplicates are detected from the localizable fields (attributes) that are in the base language. Creating or updating a localizable field is not applicable in a non-base language.  
   
@@ -89,5 +93,5 @@ When you sell your products in different regions, it is important that you trans
 -   When you run duplicate detection job in the preferred language, label in the preferred language is used first. When preferred language is not available, it uses the base language.  
   
 ### See also  
- [Set up a product catalog: Walkthrough](Set%20up%20a%20product%20catalog:%20Walkthrough.md)   
+ [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
  [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)

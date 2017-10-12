@@ -1,7 +1,7 @@
 ---
 title: "Detect duplicate data for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Detect duplicate data so you can fix or remove it
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses duplicate detection rules. When publishing a duplicate detection rule, a matchcode is created for each existing record. A matchcode is also created when a record is created or updated. When a record is in the process of being created or updated, its matchcode can be checked automatically against the matchcodes of existing records. By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] has simple duplicate detection rules for accounts, contacts, and leads. For example, you detect duplicates by matching the record fields, such as email address, first name, and last name.  
   
  Duplicate detection works by comparing generated match codes of existing records with each new record being created. These match codes are created as each new record is created. Therefore, there is potential for one or more duplicate records to be created if they are processed at the exact same moment.  For this reason, you should not expect that duplicate detection to be perfect. In addition to detecting duplicates as they are created, you should schedule duplicate detection jobs to check for other potential duplicate records.  
@@ -44,14 +47,13 @@ To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcr
     > [!NOTE]
     >  Duplicates can’t be detected when a user merges two records, converts a lead, or saves an activity as completed. Duplicates also aren’t detected when a user changes the status of a record, such as activating or reactivating it.  
   
- To check for duplicates in the web application, you can use **Detect Duplicates** capability provided in **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) on the nav bar in the grid. The duplicate records are also detected when you import data programmatically or through Import Data Wizard. In addition, you can check for duplicates by running scheduled duplicate detection jobs. For step-by-step instructions on how to set up the duplicate detection job, see [Run system jobs to detect duplicates](http://go.microsoft.com/fwlink/p/?LinkId=513199).  
+To check for duplicates in the web application, you can use **Detect Duplicates** capability provided in **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) on the nav bar in the grid. The duplicate records are also detected when you import data programmatically or through Import Data Wizard. In addition, you can check for duplicates by running scheduled duplicate detection jobs. For step-by-step instructions on how to set up the duplicate detection job, see [Run system jobs to detect duplicates](run-bulk-system-jobs-detect-duplicate-records.md).  
   
- A duplicate detection job runs in the background while you do other things in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can request email notification from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] upon the completion of a duplicate detection job.  
+A duplicate detection job runs in the background while you do other things in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can request email notification from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] upon the completion of a duplicate detection job.  
   
 ### See also  
- [Manage your data: import, detect duplicates, bulk delete, encryption](../admin/manage-your-data.md)   
  [Import data (all record types)](../admin/import-data-all-record-types.md)   
- [Check for duplicates](http://go.microsoft.com/fwlink/p/?LinkId=513200)   
- [Set up duplicate detection rules](http://go.microsoft.com/fwlink/p/?LinkId=513200)   
- [Run system jobs to detect duplicates](http://go.microsoft.com/fwlink/p/?LinkId=513199)   
+ [Check for duplicates](set-up-duplicate-detection-rules-keep-data-clean.md)   
+ [Set up duplicate detection rules](set-up-duplicate-detection-rules-keep-data-clean.md)   
+ [Run system jobs to detect duplicates](run-bulk-system-jobs-detect-duplicate-records.md)   
  [Delete bulk records](../admin/delete-bulk-records.md)

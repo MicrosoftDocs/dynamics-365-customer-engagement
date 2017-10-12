@@ -1,15 +1,19 @@
 ---
 title: "Introduction and overview on Social Engagement and related scenarios | Microsoft Docs"
 description: "Learn about Social Engagement and get started using the service."
-ms.date: 2017-07-10
-applies_to: "Social Engagement"
+keywords: "social engagement, overview, quick start, scenarios"
+ms.date: 09/27/2017
 ms.service: mse
 ms.topic: article
+applies_to:
+  - "Social Engagement"
 ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
-ms.manager: sakudes
+manager: sakudes
+topic-status: Drafting
 ---
+
 # Connect with customers. Empower your organization. Create real results.
 
 The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.
@@ -54,7 +58,7 @@ Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] doe
 
 -   [Stay up to date with alerts](../social-engagement/email-alerts.md)&mdash;Stay on top of what's happening on the social web. Set up alerts to be sent directly to your inbox, and find out right away when something important happens.
 
-## Implementation scenarios
+## Business scenarios
 
 The business scenarios that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] helps address lead to many different implementation scenarios. We've compiled overviews for three of the core business scenarios: sales, marketing, and service.
 
@@ -86,7 +90,7 @@ Have a look at these additional assets that are waiting for you.
 
 -   [Nick Fratello's video: Social Engagement customer care demonstration](https://www.youtube.com/watch?v=OIkSl6R5APo)
 
--   [Jesper Osgaard's Microsoft Lystaveln](https://blogs.technet.microsoft.com/lystavlen/tag/microsoft-social-engagement/) covers many Microsoft products and services. Be sure to bookmark his blog.
+-   [Jesper Osgaard's Microsoft Lystavlen](https://blogs.technet.microsoft.com/lystavlen/tag/microsoft-social-engagement/) covers many Microsoft products and services. Be sure to bookmark his blog.
 
 ### See also
 

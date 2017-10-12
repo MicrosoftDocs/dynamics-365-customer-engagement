@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 (online) terminology | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Terminology used in the product and documentation
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following are terms used throughout the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] product and documentation.  
   
 <a name="BKMK_Terminology"></a>  

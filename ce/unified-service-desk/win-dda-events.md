@@ -1,7 +1,8 @@
 ---
-title: "WinDDA events | MicrosoftDocs"
+title: "WinDDA events in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about the Windows DDA (WinDDA) events in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -21,11 +22,6 @@ manager: "jdaly"
 ---
 # WinDDA events
 The [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-driven adapter (DDA) distinguishes between two types of events, application events and control events. This topic describes these two events.  
-  
-## In this topic  
- [Control events](#control)  
-  
- [Application events](../unified-service-desk/win-dda-events.md#application)  
   
 <a name="control"></a>   
 ## Control events  

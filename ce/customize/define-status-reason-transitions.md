@@ -1,7 +1,7 @@
 ---
-title: "Define status reason transitions in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Define status reason transitions (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Define status reason transitions for the Case or custom entities
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] you can specify status reason transitions for the Incident (**Case**) entity or custom entities.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can specify status reason transitions for the Incident (**Case**) entity or custom entities.  
   
  Status reason transitions are an optional additional level of filtering to define what the status reason value can be changed to for each status reason. Defining a limited list of valid options can make it easier for people to choose the correct next status reason for a record when you have a large number of combinations for valid status reason values.  
   
@@ -37,13 +40,13 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] you can specify s
 |**Resolved**|<li>**Problem Solved**</li><li>**Information Provided**</li>|
 |**Canceled**|<li>**Canceled**</li><li>**Merged**</li>|
   
- See [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) for a list of all the default status and status reason values.  
+ <!-- See [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) for a list of all the default status and status reason values.  -->
   
 <a name="BKMK_EditStatusReasonTransitions"></a>   
 ## Edit status reason transitions  
  You can modify the status reason field options for the Case entity and custom entities to define which other status reason options people can choose. The only restriction is that each status reason option for an active status must allow at least one path to an inactive status. Otherwise you could create a condition where it would not be possible to resolve or cancel the case.  
   
- See [Create and edit fields](Create%20and%20edit%20fields.md) for information about how to edit fields. When you edit a status reason field the **Edit Status Reason Transitions** button is in the menu. When you click this button the Status Reason Transitions dialog provides the option to choose **Enable Status Reason Transitions**. When this option is selected you must define which status reason values are allowed for each status reason. To remove the filtering applied, remove the **Enable Status Reason Transitions** selection. The transitions you have defined will be kept but not applied.  
+ See [Create and edit fields](../customize/create-edit-fields.md) for information about how to edit fields. When you edit a status reason field the **Edit Status Reason Transitions** button is in the menu. When you click this button the Status Reason Transitions dialog provides the option to choose **Enable Status Reason Transitions**. When this option is selected you must define which status reason values are allowed for each status reason. To remove the filtering applied, remove the **Enable Status Reason Transitions** selection. The transitions you have defined will be kept but not applied.  
   
  The screenshot below provides an example that meets the following requirements:  
   
@@ -60,6 +63,6 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] you can specify s
   
  ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
-## See Also  
- [Create and edit fields](Create-edit-fields.md)   
- [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md)
+### See Also  
+ [Create and edit fields](../customize/create-edit-fields.md)   
+

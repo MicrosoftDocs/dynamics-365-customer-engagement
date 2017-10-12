@@ -1,7 +1,7 @@
 ---
 title: "Regional and other business management settings for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -21,4 +21,7 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Regional and other business management settings
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section covers configuring regional settings for everyone in your organization.

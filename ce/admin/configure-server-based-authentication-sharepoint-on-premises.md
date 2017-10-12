@@ -1,7 +1,7 @@
 ---
 title: "Configure server-based authentication with Dynamics 365 (online) and SharePoint on-premises | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Configure server-based authentication with Dynamics 365 (online) and SharePoint on-premises
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)], server-based [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] integration for document management can  be used to connect [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. When using server-based authentication, [Azure AD Domain Services](https://azure.microsoft.com/documentation/articles/active-directory-ds-overview/) is used as the trust broker and users do not need to sign in to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
  ![Dynamics 365 (online) and SharePoint on-premises](../admin/media/sharepoint-on-premises-server-based-authentication.PNG "Dynamics 365 (online) and SharePoint on-premises")  
@@ -38,17 +41,19 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
 -   Farm Administrators group membership - this is required to run most of the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] server.  
   
 <a name="setups2s"></a>   
+
 ## Set up server-to-server authentication with Dynamics 365 (online) and SharePoint on-premises  
  Follow the steps in the order provided to set up [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_sharepoint_2013](../includes/pn-sharepoint-2013.md)] on-premises.  
   
 > [!IMPORTANT]
->  -   The steps described here must be completed in the order provided. If a task is not completed, such as a [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] command that returns an error message, the issue must be resolved before you continue to the next command, task, or step.  
+> -   The steps described here must be completed in the order provided. If a task is not completed, such as a [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] command that returns an error message, the issue must be resolved before you continue to the next command, task, or step.  
 > -   Once you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] after you have configured your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization for server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration.  
   
 ### Verify prerequisites  
  Before you configure [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises for server-based authentication, the following prerequisites must be met:  
   
 <a name="BKMK_SP_prereq"></a>   
+
 #### SharePoint prerequisites  
   
 - [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] (on-premises) with Service Pack 1 (SP1) or later version  
@@ -61,7 +66,7 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
     > [!IMPORTANT]
     >  The following updates are prerequisites to KB2883081 and may also be required.  
     >   
-    >  -   [http://support2.microsoft.com/kb/2768000](http://support2.microsoft.com/kb/2768000)  
+    > -   [http://support2.microsoft.com/kb/2768000](http://support2.microsoft.com/kb/2768000)  
     > -   [http://support.microsoft.com/kb/2767999](http://support.microsoft.com/kb/2767999)  
     > -   [http://support.microsoft.com/kb/2880963](http://support.microsoft.com/kb/2880963)  
   
@@ -81,7 +86,8 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   
     -   If you use [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], for each [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] farm, only one [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization can be configured for server-based integration.  
   
-<a name="BKMK_otherPreq"></a>   
+<a name="BKMK_otherPreq"></a>  
+ 
 #### Other prerequisites  
   
 - [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] license. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises server-based authentication must have the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] service principal name (SPN) registered in [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)]. To achieve this, at least one [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] user license is required. The [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] license can derive from a single user license and typically comes from one of the following:  
@@ -122,7 +128,7 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   
      When you run the Connect-MsolService command, you must provide a valid [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] that has Office 365 Global Administrator membership for the [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] license that is required.  
   
-     For detailed information about each of the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands listed here, see [MSDN: Manage Azure AD using Windows PowerShell](https://msdn.microsoft.com/library/azure/jj151815.aspx)  
+     For detailed information about each of the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands listed here, see [Manage Azure AD using Windows PowerShell](https://msdn.microsoft.com/library/azure/jj151815.aspx)  
   
     ```  
     $msolcred = get-credential  
@@ -279,9 +285,10 @@ Set-SPAuthenticationRealm -Realm $SPOContextId
 7.  The validate sites section appears. If all sites are determined valid, click **Enable**. If one or more sites are determined invalid, see [Troubleshooting server-based authentication](../admin/troubleshooting-server-based-authentication.md).  
   
 ### Select the entities that you want to include in document management  
- By default, Account, Article, Lead, Product, Quote, and Sales Literature entities are included. You can add or remove the entities that will be used for document management with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] in **Document Management Settings** in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_settings_doc_management](../includes/proc-settings-doc-management.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customer Center: Enable document management on entities](http://go.microsoft.com/fwlink/p/?LinkId=536435)  
+ By default, Account, Article, Lead, Product, Quote, and Sales Literature entities are included. You can add or remove the entities that will be used for document management with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] in **Document Management Settings** in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_settings_doc_management](../includes/proc-settings-doc-management.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable document management on entities](enable-sharepoint-document-management-specific-entities.md)  
   
 <a name="addOneDrive"></a>   
+
 ## Add OneDrive for Business integration  
  After you complete [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises server-based authentication configuration, you can also integrate [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. With [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] integration, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users can create and manage private documents using [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. Those documents can be accessed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] once the system administrator has enabled [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].  
   
@@ -304,8 +311,9 @@ $wellKnownApp.Update()
 ```  
   
 <a name="BKMK_selectclmmap"></a>   
+
 ## Selecting a claims-based authentication mapping type  
- By default, the claims-based authentication mapping will use the user’s [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address and the user’s [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises work email address for mapping. Note that whatever claims-based authentication type you use, the values, such as email addresses, **must match** between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] directory synchronization can help with this. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](https://technet.microsoft.com/library/dn635310.aspx.) To use a different type of claims-based authentication mapping, see [Define custom claim mapping for SharePoint server-based integration](https://technet.microsoft.com/library/f926277d-6820-4ea3-9512-3643da16b94b.aspx).  
+ By default, the claims-based authentication mapping will use the user’s [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address and the user’s [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises work email address for mapping. Note that whatever claims-based authentication type you use, the values, such as email addresses, **must match** between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] directory synchronization can help with this. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](https://technet.microsoft.com/library/dn635310.aspx). <!-- To use a different type of claims-based authentication mapping, see [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md).  -->
   
 > [!IMPORTANT]
 >  To enable the Work email property, [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises must have a User Profile Service Application configured and started. To enable a User Profile Service Application in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], see [Create, edit, or delete User Profile service applications in SharePoint Server 2013](https://technet.microsoft.com/library/ee721052.aspx). To make changes to a user property, such as Work email, see [Edit a user profile property](https://technet.microsoft.com/library/cc262327.aspx). For more information about the User Profile Service Application, see [Overview of the User Profile service application in SharePoint Server 2013](https://technet.microsoft.com/library/ee662538.aspx).  

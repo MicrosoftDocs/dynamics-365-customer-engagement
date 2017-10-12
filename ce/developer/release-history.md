@@ -2,7 +2,7 @@
 title: "Release history (Dynamics 365 Customer Engagement SDK) | MicrosoftDocs"
 description: "This topic records significant incremental changes to the SDK content for this release for this over time."
 ms.custom: ""
-ms.date: "2017-07-31"
+ms.date: 07/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

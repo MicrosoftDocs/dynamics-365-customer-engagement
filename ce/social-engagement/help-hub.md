@@ -1,7 +1,7 @@
 ---
 title: "Pointers for Social Engagement | Microsoft Docs"
 description: "Find your starting point for help content."
-ms.date: 2017-06-12
+ms.date: 09/12/2017
 ms.service: "mse"
 ms.topic: article
 applies_to: "Social Engagement"

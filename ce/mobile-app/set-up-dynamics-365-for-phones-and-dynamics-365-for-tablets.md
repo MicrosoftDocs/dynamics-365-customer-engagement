@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-01-10"
+ms.date: 01/10/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Setup overview for mobile apps
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
@@ -322,7 +325,7 @@ else
  Forms in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] are based on the development principle of “Design once and deploy across clients.” Entity behavior and business processes in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a tablet. In Microsoft Dynamics 365 online,  you can preview how forms look on tablets and phones when you customize them in the web app.  
   
 > [!NOTE]
->  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]. See the section below [Things to know about Dynamics 365 for phones](../admin/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_PhonesThingsToKnow).  
+>  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]. See the section below [Things to know about Dynamics 365 for phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_PhonesThingsToKnow).  
   
 ||||  
 |-|-|-|  
@@ -547,9 +550,9 @@ else
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]  
   
-## See Also  
- [Secure and manage Dynamics 365 for phones and tablets](Secure%20and%20manage%20Dynamics%20365%20for%20phones%20and%20tablets.md)   
- [Troubleshooting](Troubleshooting%20and%20things%20to%20know%20concerning%20Dynamics%20365%20for%20phones%20and%20tablets.md)   
+### See Also  
+ [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md)   
+ [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)   
  [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md)   
  [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)   
  

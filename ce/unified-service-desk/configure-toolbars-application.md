@@ -1,7 +1,8 @@
 ---
 title: "Configure toolbars in your application | MicrosoftDocs"
+description: "Learn about configuring toolbars in your application."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -91,4 +92,4 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
   
 ### See also  
  [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)   
- [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-your-agent-application-using-unified-service-desk.md)
+ [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-agent-application-unified-service-desk.md)

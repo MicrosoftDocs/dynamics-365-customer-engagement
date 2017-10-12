@@ -1,7 +1,7 @@
 ---
 title: "Connect to Social Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Connect to Social Engagement
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Your customers and stakeholders are talking about you on Facebook, Twitter, or blogs. How do you learn about it? In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can get powerful social insights by connecting [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] collects data from social media websites and presents it to you in charts and graphs that you can use to spot emerging trends in people’s comments, whether they’re positive, negative, or neutral. You can drill down into the data and see who is mentioning you, where they posted the comment, and exactly what they said. Armed with these insights, you can pinpoint what you’re doing right, and address potential issues before bigger problems arise.  
   
  With social insights, you bring social media data directly into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. For the search topic you may choose your company name to listen to what is said in social media about your company or your product. Or, you may want to know what is being said about your accounts; if so, choose the Accounts search topic category. After you choose the search topic or search category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy to follow information about social listening and social insights in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in this book: [eBook: Microsoft Social Engagement for CRM](http://go.microsoft.com/fwlink/p/?LinkID=393642).  
@@ -31,7 +34,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
 > [!NOTE]
 >  You must ensure that your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] domain is added to the list of allowed domains in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
 >   
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Social Engagement Help & Training: Connect Social Engagement to other domains](https://go.microsoft.com/fwlink/p/?linkid=403288)  
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](https://go.microsoft.com/fwlink/p/?linkid=403288)  
   
 1.  Click **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.  
   
@@ -83,8 +86,9 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
  ![Confirm you want to reset Social Insights](../admin/media/social-engagement-confirm-reset.png "Confirm you want to reset Social Insights")  
   
 <a name="BKMK_Add"></a>   
+
 ## Add the Social Insights control to a Dynamics 365 entity form  
- To add [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to an entity (record type) form, you have to use the form editor provided in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**Customization** area. You can position the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] control anywhere on the form and resize it, just like you would do with the **iFrame** controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Form Editor](Use%20the%20form%20editor.md).  
+ To add [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to an entity (record type) form, you have to use the form editor provided in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] **Customization** area. You can position the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] control anywhere on the form and resize it, just like you would do with the **iFrame** controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Form Editor](../customize/use-the-form-editor-legacy.md).  
   
 1.  Click **Settings** > **Customizations** > **Customize the System**.  
   
@@ -154,8 +158,6 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
 [!INCLUDE[cc_privacy_crm_gcc_social_listening_configuration](../includes/cc-privacy-crm-gcc-social-listening-configuration.md)]
   
 ### See also  
- [Administer Dynamics 365 (online) Customer Engagement](../admin/administer-dynamics-365-online-customer-engagement.md)   
- [Microsoft Social Engagement Help and Training](http://go.microsoft.com/fwlink/p/?LinkID=506601)   
  [Manage social data](../admin/control-social-data.md)   
  [eBook: Microsoft Social Engagement for CRM](http://go.microsoft.com/fwlink/p/?LinkID=393642)   
  [Microsoft Social Engagement Help Center](http://go.microsoft.com/fwlink/p/?LinkID=394325)

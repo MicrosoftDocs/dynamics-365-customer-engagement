@@ -1,7 +1,7 @@
 ---
-title: "Test and troubleshoot reports in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Test and troubleshoot reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: c9f06327-3b52-4850-a415-d5f59b9e29aa
 caps.latest.revision: 12
 author: "Mattp123"
@@ -18,6 +19,9 @@ tags:
  - "MigrationHO"
 ---
 # Test and troubleshoot reports
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 After you have created a report, test it to see if it produces the results that you want.  
   
 ## Test a report  
@@ -26,9 +30,9 @@ After you have created a report, test it to see if it produces the results that 
   
 2.  If any errors are reported, correct the cause of the errors, and then run the test again.  
   
-3.  When the report works correctly, publish the report to the report server. To do this, in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Sales** > **Reports**. Click **New**, and then fill out the requested information.  
+3.  When the report works correctly, publish the report to the report server. To do this, in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], go to **Sales** > **Reports**. Click **New**, and then fill out the requested information.  
   
-4.  Run the published report from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to verify the report's operation.  
+4.  Run the published report from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to verify the report's operation.  
   
 ## Suggestions for testing a report  
  The following list of suggestions is provided as a guide for testing your reports:  
@@ -61,8 +65,8 @@ After you have created a report, test it to see if it produces the results that 
 > [!NOTE]
 >  Your report may not contain all the parameters listed here.  
   
-## See also  
- [Report Writers Guide for Dynamics 365](../analytics/reporting-analytics-with-dynamics-365.md)   
+### See also  
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Publish Reports](../analytics/publish-reports.md)   
  [Use Parameters in Reports](../analytics/use-parameters-in-reports.md)   
  [Create Custom Reports Using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)

@@ -1,7 +1,7 @@
 ---
 title: "Error logging for server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Error logging for server-side synchronization
+# Error logging for server-side synchronization 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In this topic, you will learn about the error logging tasks performed by server-side synchronization. server-side synchronization generates alerts if an error occurs while processing email. An error is classified based on the nature of the error and on the object the error was encountered for.  
   
  The following table shows classification of errors based on the nature of the errors.  
@@ -33,9 +36,8 @@ In this topic, you will learn about the error logging tasks performed by server-
   
 - **Profile-level errors.** Errors which prevent processing of all emails in one or more mailboxes and require corrective action from the associated email server profile owner. Error alerts are displayed on the alerts section of the email server profile form, alerts wall of the owner of the email server profile, and on the alert walls of the impacted mailbox owners - but no action is required from them.  
   
- To know how to view the alerts and the actions you can take on these alerts, see [Monitor email processing errors](../admin/monitor-email-processing-errors.md).  
+To know how to view the alerts and the actions you can take on these alerts, see [Monitor email processing errors](../admin/monitor-email-processing-errors.md).  
   
 ### See also  
  [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
  [Supported scenarios for server-side synchronization](../admin/supported-email-service-configurations-server-side-synchronization.md)

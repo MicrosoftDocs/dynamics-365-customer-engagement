@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting and monitoring server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,13 +10,16 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 2b78101d-5dd4-4137-9903-365e17ad03f1
+ms.assetid: 4b5e4f18-cb04-4c4a-bb22-2c3505868e90
 caps.latest.revision: 42
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Troubleshooting and monitoring server-side synchronization
+# Troubleshooting and monitoring server-side synchronization 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 This page is your source for issues and resolutions for troubleshooting server-side synchronization. Check back for updated information as issues are discovered and resolutions recorded.  
   
 > [!TIP]
@@ -26,9 +29,9 @@ This page is your source for issues and resolutions for troubleshooting server-s
 ## The Server-Side Synchronization Performance dashboard  
  You can use the Server-Side Synchronization Performance dashboard to get a quick look at the health of mailboxes using server-side sync.  
   
- Go to any dashboard, click Select ![Drop&#45;down button](../admin/media/drop-down-button.png "Drop-down button") next to the dashboard title, and then click **Server-Side Synchronization Performance**.  
+ Go to any dashboard, click Select ![Drop-down button](../admin/media/drop-down-button.png "Drop-down button") next to the dashboard title, and then click **Server-Side Synchronization Performance**.  
   
- ![Server&#45;side Synchronization Performance dashboard](../admin/media/server-side-sync-performance-dashboard.png "Server-side Synchronization Performance dashboard")  
+ ![Server-side Synchronization Performance dashboard](../admin/media/server-side-sync-performance-dashboard.png "Server-side Synchronization Performance dashboard")  
   
  This dashboard is made up of multiple charts, each providing insights into your organization’s server-side sync performance.  
   
@@ -66,8 +69,6 @@ This page is your source for issues and resolutions for troubleshooting server-s
 4.  Verify the user is correctly configured and enabled for sending email:  
   
     -   If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
-  
-    -   If the user is configured to use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] for outgoing email, verify the user has [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] installed and configured.  See [Set up Dynamics 365 for Outlook](https://www.microsoft.com/en-us/dynamics/crm-customer-center/set-up-outlook.aspx).  
   
 ### Email address requires approval by Office 365 administrator  
  **Alert:** Email cannot be sent/received because the email address of the mailbox \<User Name> requires an approval by an Office 365 administrator. The mailbox has been disabled for sending/receiving email and the owner of the email server profile Exchange Online has been notified.  
@@ -160,11 +161,12 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  To change the primary synchronization organization and overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > **Test & Enable Mailbox** > select **Sync items with Exchange from this Dynamics 365 Organization only, even if Exchanges was set to sync with a different Organization**. This will allow server-side synchronization to work for this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance but the other instance would no longer work for synching that mailbox through server-side synchronization. To change the synchronization method for Appointments, Contacts, and Tasks, click: **Settings** > **Email Configuration** > **Mailbox** > open a mailbox > select **None** for **Appointments, Contacts, and Tasks**.  
   
- For more information, see: [When would I want to use this check box?](http://go.microsoft.com/fwlink/p/?LinkID=391868)  
+ For more information, see: [When would I want to use this check box?](when-would-want-use-check-box.md)  
   
 ## Potential issues and resolutions  
   
 <a name="BKMK_SSSGmail"></a>   
+
 ### Email fails to be sent or received when server-side synchronization is configured with Gmail  
  If [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is configured to use Server-Side Synchronization with Gmail, you may encounter one of the following errors:  
   
@@ -172,9 +174,10 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
 -   An unknown error occurred while sending the email message "Test Message". Mailbox \<Mailbox Name> didn't synchronize. The owner of the associated email server profile \<Email Server Profile Name> has been notified.  
   
- For more information, see this [kb article](https://support.microsoft.com/kb/3185281).  
+For more information, see this [kb article](https://support.microsoft.com/kb/3185281).  
   
 <a name="BKMK_ExchangeOnline"></a>   
+
 ### Using Dynamics 365 (online) with Exchange Online  
  If your company is using [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], note the following:  
   
@@ -190,9 +193,11 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
 -   Using an email server profile other than [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
   
+<!--
 -   Using non-default [network ports](https://technet.microsoft.com/library/hh699823.aspx)  
-  
- Connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
+-->
+ 
+-   Connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
   
 ### Mailbox deliveries regularly disabled  
  Mailbox delivery errors are classified as follows:  
@@ -207,10 +212,10 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
 -   For server or mailbox transient errors, delivery is retried up to 10 times with a 5 minute gap between attempts. If delivery fails after 10 attempts, the error is considered permanent and the mailbox is disabled.  
   
- Review the troubleshooting steps in this topic and if the issue is successfully resolved, enable the mailbox.  
+Review the troubleshooting steps in this topic and if the issue is successfully resolved, enable the mailbox.  
   
 ### Unsupported email service configurations  
- server-side synchronization doesn’t support the following scenarios:  
+ Server-side synchronization doesn’t support the following scenarios:  
   
 -   Mix of [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]/SMTP and POP3/[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
   
@@ -222,7 +227,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
 -   Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
   
- For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
+For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
   
 > [!NOTE]
 >  We recommend that you don’t use a mixed configuration of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization and server-side synchronization for appointments, contacts, and tasks in the same organization, because it may result in updated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data not synchronizing to all attendees.  
@@ -240,21 +245,10 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
 5.  The invitee logs in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and navigates to **Marketing** > **Activities** > **Appointment** > **My Appointments**  
   
- Result: the appointment is not created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for the invitee.  
+Result: the appointment is not created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for the invitee.  
   
- This is a known issue and is not supported. If the organizer is someone outside of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user who is an invitee can still track the appointment and have the record created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
-### Status fields not listed in Dynamics 365 for Outlook  
- Consider the following scenario:  
-  
-1.  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], click **File** > **Dynamics 365** > **Synchronize** > **Review Synchronization Settings**.  
-  
-2.  Choose the **Synchronization Fields** tab and the **Contact** entity.  
-  
- Result: there is no **Category: [Dynamics 365] Inactive** Outlook/Exchange field and no **Status Reason: Inactive** Dynamics 365 field.  
-  
- This is a known issue and is not supported.  
-  
+This is a known issue and is not supported. If the organizer is someone outside of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user who is an invitee can still track the appointment and have the record created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+   
 ### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365  
  Changes made to Service Appointments and Activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will update in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] when you synchronize but the reverse is not true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the changes are not synchronized to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Service appointments are scheduled by an agent and need free/busy information for resources available only in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
@@ -262,7 +256,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
  For enterprise customers with a large mail flow, make sure you're not running up against Exchange Online receiving and sending limits. See [Exchange Online Limits](https://technet.microsoft.com/library/exchange-online-limits.aspx)  
   
 ### See also  
- [Best practices and things to know about server-side synchronization](../admin/best-practices-server-side-synchronization.md)   
- [{Hidden Gem}Understanding Server Side sync Performance Dashboard](https://dynamicsofdynamicscrm.wordpress.com/2015/07/27/hidden-gemunderstanding-server-side-sync-performance-dashboard/)   
- [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin/troubleshooting-things-know-outlook.md)   
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
+[Server-side synchronization](../admin/server-side-synchronization.md) 
+[Best practices and things to know about server-side synchronization](../admin/best-practices-server-side-synchronization.md)   
+[{Hidden Gem}Understanding Server Side sync Performance Dashboard](https://dynamicsofdynamicscrm.wordpress.com/2015/07/27/hidden-gemunderstanding-server-side-sync-performance-dashboard/)   
+

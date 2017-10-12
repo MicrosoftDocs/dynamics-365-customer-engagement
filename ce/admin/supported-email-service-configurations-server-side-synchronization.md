@@ -1,7 +1,7 @@
 ---
 title: "Supported email service configurations for server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,13 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Supported email service configurations for server-side synchronization
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation, you may be deciding whether to use server-side synchronization or the Email Router/[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization. This following table lists what is supported by server-side synchronization for each type of installation. Later in this topic, you can read about the scenarios that aren’t supported by server-side synchronization.  
   
 > [!IMPORTANT]
->  -   The information here includes the POP3/SMTP systems supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Although other POP3/SMTP systems may work with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], those systems were not tested by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] and are not supported.  
+> -   The information here includes the POP3/SMTP systems supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Although other POP3/SMTP systems may work with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], those systems were not tested by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] and are not supported.  
 > - [!INCLUDE[pn-outlook-short](../includes/pn-outlook-short.md)] on the web is not supported in a hybrid deployment: [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
 > -   You can create two different email server profiles: one for online mailboxes, and another for on-premises mailboxes. Associate the mailboxes with the correct email server profile.  
 > -   Manual tracking in [!INCLUDE[proc_crm_for_outlook](../includes/proc-crm-for-outlook.md)] is not supported when a user’s mailbox is configured to use server-side synchronization with the POP/SMTP protocol.  
@@ -49,13 +52,15 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in
 -   Setting Auto Discover Server Location to No  
   
 -   Using an email server profile other than Exchange Online  
-  
+
+<!--  
 -   Using non-default [network ports](https://technet.microsoft.com/library/hh699823.aspx)  
-  
- Connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
+-->
+
+-   Connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
   
 ## Unsupported email service configurations  
- server-side synchronization doesn’t support the following scenarios:  
+ Server-side synchronization doesn’t support the following scenarios:  
   
 -   Mix of [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]/SMTP and POP3/[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]  
   
@@ -67,7 +72,7 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in
   
 -   Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
   
- For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
+For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
   
 > [!NOTE]
 >  We recommend that you don’t use a mixed configuration of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization and server-side synchronization for appointments, contacts, and tasks in the same organization, because it may result in updated [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data not synchronizing to all attendees.  

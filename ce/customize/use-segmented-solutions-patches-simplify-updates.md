@@ -1,7 +1,7 @@
 ---
-title: "Use segmented solutions and patches to simplify solution updates in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Use segmented solutions and patches to simplify solution updates (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,10 +16,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Use segmented solutions and patches to export selected entity assets
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To gain tighter control over what you distribute in solutions and solution patches, use solution segmentation. With solution segmentation, you can export solutions with selected entity assets, such as entity fields, forms, and views, rather than entire entities with all the assets. To create the segmented solutions and patches, you can use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface, without writing code.  
-  
-> [!IMPORTANT]
-> [!INCLUDE[cc_feature_included_with_update_2016](../includes/cc-feature-included-with-update-2016.md)]  
   
  In addition to having more control over what’s in a solution, you’ll be able to control what goes into a patch. You can create a patch for a parent solution and export it as a minor update to the base solution. When you clone a solution, the system rolls up all related patches into the base solution and creates a new version.  
   
@@ -96,7 +96,7 @@ To gain tighter control over what you distribute in solutions and solution patch
 ## Create a solution patch  
  A patch contains changes to the parent solution, such as adding or editing components and assets. You don’t have to include the parent’s components unless you plan to edit them.  
   
- The following procedure describes how to create a patch for an unmanaged solution.  
+ #### Create a patch for an unmanaged solution  
   
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
   
@@ -140,5 +140,7 @@ To gain tighter control over what you distribute in solutions and solution patch
  ![A cloned solution with rolled up patch.](../customize/media/solution-segmentation-solution-rolled-up-patch-admin.png "A cloned solution with rolled up patch.")  
   
 ### See also  
- [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)   
- [Create patches to simplify solution updates](https://msdn.microsoft.com/library/12672159-03b1-4f18-8d8c-cf4aaf366deb.aspx)
+ [Solutions overview](../customize/solutions-overview.md)
+ <!--
+ [Create patches to simplify solution updates](../developer/create-patches-simplify-solution-updates.md)
+-->

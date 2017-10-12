@@ -2,7 +2,7 @@
 title: "Define entity forms and custom logic within a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create entity forms in a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -30,7 +30,7 @@ When creating a new entity form, the first step is to decide the **Entity** and 
 >[!Note]
 > An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
 
-The webpages associated with the entity form can be viewed by clicking the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
+The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 
 When creating or editing a webpage, an **Entity Form** can be specified in the lookup field provided on the Web Page form.
 

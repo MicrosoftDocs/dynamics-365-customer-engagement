@@ -1,7 +1,8 @@
 ---
 title: "Condition Algorithm | MicrosoftDocs"
+description: "The topic describes the groupings of a control that needs to be uniquely identified by specifying some property condition to distinguish it from other controls."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

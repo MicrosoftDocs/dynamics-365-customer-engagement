@@ -1,7 +1,7 @@
 ---
 title: "Set up OneNote integration in Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Set up OneNote integration
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Gather your thoughts, ideas, plans and research in one single place with [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  When you turn on [!INCLUDE[pn_microsoft_onenote](../includes/pn-microsoft-onenote.md)] integration in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)], you have the benefits of using [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] to take or review customer notes from within your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.  
@@ -25,7 +28,7 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
 <a name="BKMK_EnableSharePointInt"></a>   
 ## Step 1: Turn on server-based SharePoint integration  
- Before you can enable [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration, you need to [turn on server-based SharePoint integration](https://technet.microsoft.com/library/dn531154.aspx).  
+ Before you can enable [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration, you need to [turn on server-based SharePoint integration](set-up-sharepoint-integration.md).  
   
  [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)] Or, make sure that you have Read and Write privileges on all record types that are customizable.  
   
@@ -69,8 +72,8 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
 3.  In the **OneNote Integration Setting** dialog box, uncheck all the entities and then choose **Finish**.  
   
-## See Also  
- [Use OneNote in Dynamics 365 (online)](Use%20OneNote%20in%20Dynamics%20365%20\(online\).md)   
+### See also  
+ [Use OneNote in Dynamics 365 (online)](../basics/use-onenote.md)   
  [OneNote in Dynamics 365 FAQs](../basics/onenote-dynamics-365-faqs.md)   
- [Turn on server-based SharePoint integration](https://technet.microsoft.com/library/dn531154.aspx)   
+ [Turn on server-based SharePoint integration](set-up-sharepoint-integration.md)   
  [Blog: OneNote in CRM](http://blogs.technet.com/b/lystavlen/archive/2015/03/31/make-a-note-of-this.aspx)

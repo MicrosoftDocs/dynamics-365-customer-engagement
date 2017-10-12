@@ -1,7 +1,7 @@
 ---
 title: "Monitor email processing errors for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Monitor email processing errors
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] generates alerts if errors occur while email is being processed. An error can be classified based on the nature of the error and on whether the error is for an email, a mailbox, or an email server profile.  
   
  The following table lists the distinction between permanent and transient errors.  
@@ -45,8 +48,6 @@ manager: "brycho"
 |View alerts specific to an email server profile|1. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]<br />2.  Click **Email Server Profiles**.<br />3.  Open an email server profile record, and on the left navigation bar, under **Common**, click or tap **Alerts**.|  
   
 > [!NOTE]
->  If you don’t wish to get alerts, you can disable them from the [System Settings dialog box – Email tab](http://go.microsoft.com/fwlink/p/?LinkID=394727) by clearing the check boxes for alerts.  
+>  If you don’t wish to get alerts, you can disable them from the [System Settings dialog box – Email tab](system-settings-dialog-box-email-tab.md) by clearing the check boxes for alerts.  
   
 ### See also  
- [Set up and manage email processing and Dynamics 365 for Outlook](../admin/integrate-synchronize-your-email-system.md)   
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

@@ -1,7 +1,7 @@
 ---
-title: "Add or edit form navigation for related entities in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Add form navigation for related entities (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,12 +15,15 @@ caps.latest.revision: 15
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Add or edit form navigation for related entities
+# Add form navigation for related entities
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 In the form Navigation Pane, you can add links to related entities. When a user clicks one of these links in a record, the associated view for the entity is displayed.  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-    #### Check your security role  
+    ### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -52,7 +55,7 @@ In the form Navigation Pane, you can add links to related entities. When a user 
 8.  Select the related entity you want to link to, drag it to the Navigation Pane, and then drop it where you want it to be displayed.  
   
     > [!TIP]
-    >  You can also create a new relationship by choosing **New 1:N** or **New N:N** in the **Relationship Explorer** pane. For more information, see [Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx)  
+    >  You can also create a new relationship by choosing **New 1:N** or **New N:N** in the **Relationship Explorer** pane. For more information, see [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)  
   
 9. To edit the properties for this or any other related entity link, in the Navigation Pane, select the link, and then on the **Home** tab, choose **Change Properties**.  
   
@@ -80,4 +83,4 @@ In the form Navigation Pane, you can add links to related entities. When a user 
 > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
   
 ### See also  
- [Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx)
+ [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)

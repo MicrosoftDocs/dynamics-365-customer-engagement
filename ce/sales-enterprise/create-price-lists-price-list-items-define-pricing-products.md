@@ -1,7 +1,7 @@
 ---
-title: "Create price lists and price list items to define pricing of products (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Create price lists and price list items to define pricing of products (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 44
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Create price lists and price list items to define pricing of products (Sales, Enterprise)
+# Create price lists and price list items to define pricing of products (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels.  
   
  Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
@@ -25,7 +28,7 @@ Price lists tell your sales agents what to charge for your products or services.
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   

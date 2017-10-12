@@ -1,7 +1,8 @@
 ---
 title: "Add a UII action to a hosted control | MicrosoftDocs"
+description: "Learn about adding User Interface Integration (UII) actions to a hosted control type to provide new functionality."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -45,4 +46,4 @@ As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 ### See also  
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)   
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-and-events.md)
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)

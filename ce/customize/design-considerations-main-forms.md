@@ -1,7 +1,7 @@
 ---
-title: "Design considerations for main forms in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Design considerations for main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,13 +16,17 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Design considerations for main forms
-Main forms are the primary user interface where people view and interact with their data in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Main forms provide the widest range of options and are available for most clients, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Main forms are the primary user interface where people view and interact with their data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Main forms provide the widest range of options and are available for most clients, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
   
  One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for the web application is also used in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The advantage to this approach is that you don’t have to integrate changes into three different forms. However there are several important factors to consider in designing these forms.  
   
 <a name="BKMK_CustomFormsForGroups"></a>   
+
 ## Custom forms for different groups  
- Because you can create multiple main forms and assign different security roles to each form you can present different groups in your organization with a form that is optimized for how they use the application. You can even provide each group with different options so that they have different forms to choose from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Control access to forms](../customize/create-design-forms.md#BKMK_ControlAccessToForms)  
+ Because you can create multiple main forms and assign different security roles to each form you can present different groups in your organization with a form that is optimized for how they use the application. You can even provide each group with different options so that they have different forms to choose from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Control access to forms](../customize/control-access-forms.md)  
   
  You can expect that managers and decisions makers will want forms that are optimized to provide quick reference to key data points. They will like to see charts more than lists and they may not perform a lot of data entry.  
   
@@ -46,18 +50,12 @@ Main forms are the primary user interface where people view and interact with th
   
 <a name="BKMK_FormPerformance"></a>   
 ## Form performance  
- Forms that load slowly or don’t respond quickly are sure to affect productivity and user adoption of the system. [Optimize Form Performance](../customize/optimize-form-performance.md) provides a number of recommendations you should consider when designing forms so that customizations don’t adversely affect form performance.  
-  
-<a name="BKMK_ManageAutoSave"></a>   
-## Managing auto-save  
- Most people will welcome the simplified interaction they have with auto-save enabled. However this is a significant change from the save model in place for earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] where the record needed to be explicitly saved each time data was updated. Some organizations created customizations that assumed that saving a record meant that the person was finished editing it. Best practices for customizations are to treat each save as an update and to design automated tasks so that they fire only when specific data conditions occur. This change will require some time for organizations to adapt to, so there are options to control how auto-save works for your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage auto-save](../customize/manage-auto-save.md)  
+ Forms that load slowly or don’t respond quickly are sure to affect productivity and user adoption of the system. [Optimize form performance](../customize/optimize-form-performance.md) provides a number of recommendations you should consider when designing forms so that customizations don’t adversely affect form performance.  
   
 ### See also  
- [Create and design forms](../customize/create-design-forms.md)   
- [Use the form dditor](../customize/use-the-form-editor.md)    
+ [Create and design forms](../customize/create-design-forms.md)    
  [Create and edit quick create forms](../customize/create-edit-quick-create-forms.md)   
  [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)   
  [Main form presentations](../customize/main-form-presentations.md)   
  [Optimize form performance](../customize/optimize-form-performance.md)   
- [Manage auto-save](../customize/manage-auto-save.md)   
  

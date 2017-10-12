@@ -25,7 +25,7 @@ Select each game period where you believe that your absence will impact your per
 
 ### Take time off for a game period
   
-1.  In [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], go to **My Games** > **Player Profile**.  
+1.  In [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], go to **My Games** > **Player Profile**.  
   
 2.  Click **Add Time Off**.  
   
@@ -35,7 +35,7 @@ Select each game period where you believe that your absence will impact your per
   
 ### Remove time off from your schedule
   
-1.  In [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)], go to **My Games** > **Player Profile** > **Add Time Off**.  
+1.  In [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], go to **My Games** > **Player Profile** > **Add Time Off**.  
   
 2.  In the list, select the game period to remove your time off from.  
   

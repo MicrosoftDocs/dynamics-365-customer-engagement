@@ -1,7 +1,7 @@
 ---
 title: "Invite users to Dynamics 365 Customer Engagement with Azure Active Directory B2B collaboration | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Invite users with Azure Active Directory B2B collaboration
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] instance. The [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global admin can do this through the [Azure portal](https://portal.azure.com). Invited users can access your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] instance using their own login credentials once a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] license and a security role are assigned to them. You don’t need to create a new user account and temporary password for these invited users in your own [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant.  
   
 <a name="BKMK_Requirements"></a>   
@@ -45,6 +48,7 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
  [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] connects a group to [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)]. Data (including new conversations and documents) are stored in the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] and/or [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] system. Since invited users belong to a different [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant, the invited users do not have permission to create [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] in the invited-to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant. However, they can participate in the [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] conversations as a guest in their [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] Inbox, but not within [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)].  
   
 <a name="BKMK_InviteUser"></a>   
+
 ## Invite a user  
  You can add users to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] through [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] B2B user collaboration. Global admins and limited admins can use the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] portal to invite B2B collaboration users to the directory, to any security group, or to any application.  
   
@@ -54,7 +58,7 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
   
     -   See [Admins adding guest users to a group](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-admin-add-users).  
   
-    -   See [Control user access to instances: security groups and licenses](https://technet.microsoft.com/library/dn467371.aspx#BKMK_man_sec_group) on how to use security groups for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances.  
+    -   See [Control user access to instances: security groups and licenses](add-instance-subscription.md#control-user-access-to-instances-security-groups-and-licenses) on how to use security groups for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances.  
   
 2.  Invite users to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance that does not have a security group.  
   

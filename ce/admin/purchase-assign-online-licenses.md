@@ -1,7 +1,7 @@
 ---
 title: "Purchase and assign Dynamics 365 (online) licenses | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,12 +17,15 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Purchase and assign Dynamics 365 (online) licenses
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] introduces a new licensing model with choices that extend to pricing with [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. Get monthly plans—with apps packaged for savings—or standalone applications. Opt for full or light use. And select the edition that meets the needs of your large or small business, now and down the road.  
   
 > [!TIP]
 >  Get started with the following resources:  
 >   
->  -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
+> -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
 > -   Download: [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
 > - ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Video: [How to buy Dynamics 365](https://www.youtube.com/embed/WOacBzpHwGU?rel=0)  
 > -   [Dynamics 365 Pricing](https://www.microsoft.com/en-us/dynamics365/pricing)  
@@ -58,7 +61,7 @@ manager: "brycho"
   
 5.  Turn on the license for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan.  
   
- ![Dynamics 365 Plan 1 Enterprise Edition license](../admin/media/dynamics-365-plan-1-enterprise-edition-license.png "Dynamics 365 Plan 1 Enterprise Edition license")  
+ ![Dynamics 365 Customer Engagement Plan Enterprise Edition license](../admin/media/dynamics-365-plan-1-enterprise-edition-license.png "Dynamics 365 Customer Engagement Plan Enterprise Edition license")  
   
 6.  Click **Replace**, and then click **Close** twice.  
   
@@ -70,5 +73,5 @@ manager: "brycho"
  [Important information for CRM Online customers](../admin/important-information-customers.md)   
  [Manage Microsoft Dynamics 365 (online) licenses](../admin/manage-licenses.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Onboard your organization and users to Dynamics 365 (online)](https://go.microsoft.com/fwlink/p/?linkid=747828)   
- [Business apps in Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=836255)
+ [Onboard your organization and users to Dynamics 365 (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)   
+ [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)

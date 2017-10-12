@@ -1,7 +1,7 @@
 ---
 title: "Stay up to date with alerts | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
-ms.date: 2017-08-08
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

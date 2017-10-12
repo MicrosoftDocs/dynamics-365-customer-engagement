@@ -2,7 +2,7 @@
 title: "Crowdsource ideas on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

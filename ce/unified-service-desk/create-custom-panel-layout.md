@@ -1,7 +1,8 @@
 ---
 title: "Create a custom panel layout | MicrosoftDocs"
+description: "Panel layouts in Unified Service Desk are hosted controls, which provide the ability to load all sorts of different layouts in the system. Unified Service Desk provides some predefined panel layouts for you to use in your agent application."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -20,7 +21,7 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # Create a custom panel layout
-Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are hosted controls, which provide the ability to load all sorts of different layouts in the system. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides some predefined panel layouts for you to use in your agent application. For more information, see [Panel layouts](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md#PanelLayouts).  
+Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are hosted controls, which provide the ability to load all sorts of different layouts in the system. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides some predefined panel layouts for you to use in your agent application. For more information, see [Panel layouts](../unified-service-desk/panels-panel-types-panel-layouts.md#PanelLayouts).  
   
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] also lets you create user defined or custom panel layouts where you lay out the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panel types as per your requirement, and enhance the experience with [code-behind XAML](https://msdn.microsoft.com/library/vstudio/aa970568\(v=vs.110\).aspx). [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides a Visual Studio project template for creating user-defined panel layouts with code-behind support.  
   
@@ -37,11 +38,7 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 - [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] Package Manager for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom panel layout project template. You can get it in one of the following ways:  
-  
-    -   [Download the CRM SDK template from the Visual Studio gallery](http://go.microsoft.com/fwlink/p/?LinkId=400925). Double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
-  
-    -   [Download and install the CRM SDK](http://go.microsoft.com/fwlink/p/?LinkId=627298). The template file, CRMSDKTemplates.vsix, is located in the SDK\Templates folder. Double-click the file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom panel layout project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 <a name="HowTo"></a>   
 ## Create a custom panel layout  
@@ -51,7 +48,7 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 2.  In the **New Project** dialog box:  
   
-    1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 SDK Templates** > **Unified Service Desk** > **USD Custom Panel Layout**.  
+    1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD Custom Panel Layout**.  
   
     2.  Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.5.2** is selected.  
   
@@ -236,4 +233,4 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 ### See also  
  [Display hosted controls in the custom panel layout](../unified-service-desk/display-hosted-controls-custom-panel-layout.md)   
- [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-and-panel-layouts-in-unified-service-desk.md)
+ [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)

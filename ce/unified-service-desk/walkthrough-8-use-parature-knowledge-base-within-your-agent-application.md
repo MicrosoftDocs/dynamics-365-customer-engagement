@@ -1,7 +1,8 @@
 ---
-title: "Walkthrough 8: Use Parature knowledge base within your agent application | MicrosoftDocs"
+title: "Walkthrough 8: Use Customer Engagement knowledge base within your agent application | MicrosoftDocs"
+description: "Demonstrates how to configure a panel in Unified Service Desk to to display knowledge base records."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -19,7 +20,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "jdaly"
 ---
-# Walkthrough 8: Use Parature knowledge base within your agent application
+# Walkthrough 8: Use Customer Engagement knowledge base within your agent application
 This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your [!INCLUDE[pn_parature](../includes/pn-parature.md)] instance that is integrated with your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
   
  In this walkthrough, you’ll:  
@@ -37,13 +38,11 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
   
 ## Prerequisites  
   
--   Deploy the "New Environment" sample application package to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when you deploy the sample application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](https://technet.microsoft.com/library/dn646924.aspx)  
-  
-- [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge management integration must be enabled in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, and your user account must have appropriate access in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_parature](../includes/pn-parature.md)] instances. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Microsoft Dynamics CRM to Parature knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
+-   Deploy the "New Environment" sample application package to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when you deploy the sample application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)    
   
 -   You must know about the following in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
-    -   The `KM Control` and `Panel Layout` types of hosted controls:. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)  
+    -   The `KM Control` and `Panel Layout` types of hosted controls:. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
     -   Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Parature knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
   

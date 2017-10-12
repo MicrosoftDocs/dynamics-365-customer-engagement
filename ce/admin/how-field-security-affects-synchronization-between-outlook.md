@@ -1,7 +1,7 @@
 ---
-title: "How field security affects synchronization between Dynamics 365 Customer Engagement and Dynamics 365 for Outlook | MicrosoftDocs"
+title: "How field security affects synchronization between Dynamics 365 Customer Engagement and Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,14 +16,17 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# How field security affects synchronization with Dynamics 365 for Outlook
+# How field security affects synchronization with Outlook
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] with field level security can impact synchronization between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. Consider the following scenario.  
   
 > [!NOTE]
 >  We do not recommend securing a field in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when the field is set to sync. Best practice is to NOT secure any sync fields. If you do decide to secure sync fields, you’ll need to do the following:  
 >   
->  1.  Secure the field using field level security. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] see “Set field level security” below.  
-> 2.  Change the sync direction so that sync does not attempt to update or write the field during synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Control field synchronization between Dynamics 365 and Outlook or Exchange](../admin/control-field-synchronization-outlook.md)  
+> 1.  Secure the field using field level security. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] see “Set field level security” below.  
+> 2.  Change the sync direction so that sync does not attempt to update or write the field during synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Control field synchronization between Dynamics 365 and Outlook or Exchange](control-field-synchronization-outlook.md)  
   
 ## Scenario: Restrict users from changing Job Title  
  The Contoso company wants to promote consistent data entry. While sales personnel are out in the field, it’s easy for them to create different data entries to describe the same thing. For example, the same job title could be entered as “Construction Manager”, “Foreman”, or “Site Manager”. To prevent this, the Job Title field is secured. This has consequences for synchronization.  
@@ -99,5 +102,4 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] 
  ![Contact with Job Title form in Dynamics 365](../admin/media/contact-job-title.png "Contact with Job Title form in Dynamics 365")  
   
 ### See also  
- [Set up Dynamics 365 for Outlook](../admin/set-up-outlook.md)   
  [Field level security](../admin/field-level-security.md)

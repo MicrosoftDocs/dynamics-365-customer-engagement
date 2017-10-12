@@ -1,8 +1,8 @@
 ---
 title: "Gather feedback by using polls on a portal in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to create polls on a portal and gather feedback using them."
+description: "Instructions to create polls on a portal and gather feedback by using them."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,14 +41,14 @@ Content managers may use [Template tags](#template-tags) to add a poll to any ed
 To Create a new poll placement region:
 
 1. Go to **Portals** > **Poll Placements**.
-2. Click **New**.
+2. Select **New**.
 
     ![Place active poll](media/place-active-poll.png "Place active poll")  
 
 3. Select the associated **Website**, give the placement a **Name**, and optionally select the [web templates](store-content-web-templates.md) that will control how it renders.
 
-4. Once the placement has been created you must associate one or more polls with this placement. In the Polls tab of the Poll Placement, click the Add Poll Record button ("+"). 
-5. In the resulting lookup box, select an existing poll record or create a new poll by clicking **New**.
+4. After the placement has been created, you must associate one or more polls with this placement. In the Polls tab of the Poll Placement, select **Add Poll Record ("+")**. 
+5. In the resulting lookup box, select an existing poll record or create a new poll by selecting **New**.
 
     ![Create a poll](media/create-polls.png "Create a poll")  
 
@@ -57,8 +57,8 @@ To Create a new poll placement region:
 A poll is a simple yes/no or multiple-choice question that you can display on your portal via Poll Placements. There are many customizable options for the display of polls available for developers, but for content managers adding polls to your website is as easy as choosing a question and series of possible answers (Poll Options). A poll must have related options to function, and must be associated with a Poll Placement to be rendered on the portal.
 
 A new poll can be created in two ways: 
-- by navigating to the **Polls** section in the **Portals** area in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], or 
-- by clicking the **New** button on the **Look Up Records** window while adding a poll to a poll placement.
+- By going to the **Polls** section in the **Portals** area in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] 
+- By selecting the **New** button on the **Look Up Records** window while adding a poll to a poll placement.
 
 ## Poll attributes
 
@@ -77,7 +77,7 @@ A new poll can be created in two ways:
 > - When a user has voted on a poll, they will see a summary of current results for the poll. These results will also be displayed for a poll that is past its closed date, but for which the user has not yet voted. This allows you to continue to reveal the results of polls after you no longer want people to be able to vote on them. 
 > - The difference between the close voting date and expiration date is that after the expiration date has passed, the poll will no longer show up on the poll placement (it will not be cycled to). The close Voting date only determines the date past which users cannot vote on the poll.
 
-Now the poll has been created, you must associate one or more poll options with this poll. In the Options tab of the Poll, click the **Add Poll** option ("+")
+Now the poll has been created, you must associate one or more poll options with this poll. In the Options tab of the poll, select the **Add Poll** option ("+")
 
 ![Add poll options](media/add-poll-options.png "Add poll options")  
 

@@ -1,7 +1,7 @@
 ---
-title: "Create a new report using SQL Server Data Tools in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create a new report using SQL Server Data Tools (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: b029dc84-c368-4fb2-a689-bdcecb0aea92
 caps.latest.revision: 22
 author: "Mattp123"
@@ -18,12 +19,15 @@ tags:
  - "MigrationHO"
 ---
 # Create a new report using SQL Server Data Tools
-[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] is a report authoring environment that lets you create or edit [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. The end result is a report definition .rdl file that contains the report definition that you can publish in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to view reports.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] is a report authoring environment that lets you create or edit [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. The end result is a report definition .rdl file that contains the report definition that you can publish in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to view reports.  
   
- You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](http://go.microsoft.com/fwlink/p/?LinkId=194988). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](http://go.microsoft.com/fwlink/p/?LinkId=194988). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 > [!NOTE]
->  If the .rdl file contains a FetchXML query, the query in the RDL is validated by [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], which internally validates it against the FetchXML schema. For more information, see [MSDN: Fetch XML Schema](https://msdn.microsoft.com/library/gg309405.aspx).  
+>  If the .rdl file contains a FetchXML query, the query in the RDL is validated by [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], which internally validates it against the FetchXML schema. <!-- For more information, see [Fetch XML Schema](../developer/fetchxml-schema.md).  -->
   
 <a name="FetchBased"></a>   
 ## Create a custom Fetch-based report  
@@ -49,11 +53,11 @@ tags:
   
          In this connection string, only *ServerURL* is mandatory. If *OrganizationName* isn't specified, the first organization that the user running this query belongs to is used. *HomeRealmURL* is the Home Realm URL of the Identity Provider used by your organization and is needed when your organization uses Federation for identity management. Contact your network administrator to determine the Home Realm URL.  
   
-         Click **Credentials** to specify the credentials to connect to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and then click **Next**.  
+         Click **Credentials** to specify the credentials to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and then click **Next**.  
   
 6.  On the **Design the Query** page, type the FetchXML query in the **Query** box. To get this query, you can do one of the following:  
   
-    -   Get the FetchXML from an Advanced Find query. To do this, open [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
+    -   Get the FetchXML from an Advanced Find query. To do this, open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
     -   Manually enter the FetchXML query. The following example shows how to create a report that displays all accounts with 5,000 or more employees.  
   
@@ -71,7 +75,7 @@ tags:
         </fetch>  
         ```  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Build queries with FetchXML](https://msdn.microsoft.com/library/gg328332.aspx)  
+ <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
   
      Click **Next**.  
   
@@ -85,7 +89,7 @@ tags:
   
  This generates an .rdl file with the specified report name. You can use this file to publish your custom report in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] using the Report Wizard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
   
-## See also  
+### See also  
  [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   
  <!-- ADD BACK AFTER Potassium on-prem publish [Modify Reports Using Business Intelligence Development Studio](../Topic/Modify%20an%20existing%20SQL-based%20report%20using%20SQL%20Server%20Data%20Tools.md)   -->
  [Blog: Getting Started With Custom Reports In The Cloud](http://community.dynamics.com/product/crm/crmtechnical/b/crmteamblog/archive/2010/10/19/getting-started-with-custom-reports-in-the-cloud.aspx)

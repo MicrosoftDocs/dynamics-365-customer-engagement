@@ -1,7 +1,7 @@
 ---
-title: "Track a marketing campaign response using in-app marketing (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Track a marketing campaign response using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "kamaybac"
 ms.author: "kamaybac"
 manager: "sakudes"
 ---
-# Track a marketing campaign response using in-app marketing (Sales, Enterprise)
+# Track a marketing campaign response using in-app marketing (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] generate them automatically.  
   
 ## Create campaign responses manually  
@@ -33,7 +36,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -47,10 +50,10 @@ Record the replies you get from potential customers in response to a specific ma
   
 ### See also  
  [System Settings dialog box - Marketing tab](../admin/system-settings-dialog-box-marketing-tab.md)   
- [Get started with in-app marketing (Sales)](../sales-enterprise/get-started-with-app-marketing-sales.md)   
- [Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
- [Create or edit a campaign using in-app marketing (Sales)](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
- [Create a quick campaign using in-app marketing (Sales)](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
- [Add an activity to a campaign using in-app marketing (Sales)](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
- [Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
- [Create or edit a campaign template using in-app marketing (Sales)](Create%20or%20edit%20a%20campaign%20template%20using%20in-app%20marketing%20\(Sales\).md)   
+ [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
+ [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
+ [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
+ [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
+ [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
+ [Create or edit a campaign template using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Manage the encryption keys for your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Manage the encryption keys
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Transparent Data Encryption (TDE) to perform real-time encryption of data when written to disk, also known as encryption at rest.  
   
  By default, [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] stores and manages the database encryption keys for your instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] so you don’t have to.  The manage keys feature in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] gives administrators the ability to self-manage the database encryption keys that are associated with instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
@@ -52,9 +55,9 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
   
 2.  The malicious administrator locks the associated [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance and takes or deletes the encryption key that was used to lock the instance.  
   
- Notice that, encryption key changes take 72 hours to complete. Additionally, anytime an encryption key is changed for a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance all [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] administrators receive an email message alerting them of the key change.  This provides up to 72 hours to  roll back any unauthorized key changes.  
+Notice that, encryption key changes take 72 hours to complete. Additionally, anytime an encryption key is changed for a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance all [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] administrators receive an email message alerting them of the key change.  This provides up to 72 hours to  roll back any unauthorized key changes.  
   
- However, if after 72 hours the key change is not rolled back, the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance will remain in a locked state until the encryption key that was used to lock it can be recovered to unlock it.  
+However, if after 72 hours the key change is not rolled back, the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] instance will remain in a locked state until the encryption key that was used to lock it can be recovered to unlock it.  
   
 <a name="KM_details"></a>   
 ## Key management requirements  
@@ -69,7 +72,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
 -   System Administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] that you want to manage the encryption key.  
   
 ### Subscription requirements  
- The ability to self-manage database encryption keys requires either Dynamics 365 Plan 1 or Dynamics 365 Plan 2.  
+ The ability to self-manage database encryption keys requires either Dynamics 365 Customer Engagement Plan Enterprise Edition or Dynamics 365 Plan.  
   
 ### Dynamics 365 version support  
  Self-managed database encryption keys are only available in the January 2017 update for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and may not be made available for later versions.  
@@ -83,7 +86,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
   
 -   PFX encryption key files must be password protected.  
   
- For more information about the key types supported by Key Vault by uploading the file in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  Only the encrypted version of your key leaves the original workstation.  For more information about generating and transferring an HSM-protected key over the Internet see [How to generate and transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys).  
+For more information about the key types supported by Key Vault by uploading the file in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  Only the encrypted version of your key leaves the original workstation.  For more information about generating and transferring an HSM-protected key over the Internet see [How to generate and transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys).  
   
 <a name="keymgt_tasks"></a>   
 ## Key management tasks  
@@ -106,9 +109,10 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
   
 6.  By default, the name for the key is *InstanceName Encryption Key*. Leave the key name or change it and then click either **new** or **upload**.  
   
- ![Create a new or upload a key](../admin/media/key-management-new-upload.PNG "Create a new or upload a key")  
+ ![Create a new key or upload a key](../admin/media/key-management-new-upload.PNG "Create a new key or upload a key")  
   
- **new**. Click **new** to have a .PFX encryption key generated for you that will be used to encrypt the database.  
+**new** <br />
+ Click **new** to have a .PFX encryption key generated for you that will be used to encrypt the database.  
   
     1.  When you are prompted, enter the password that will be used for the encryption key.  
   
@@ -118,7 +122,8 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
   
     4.  Click **close** to close the manage your database encryption key dialog box.  
   
- **upload**. Click **upload** to provide your own password protected PFX or BYOK encryption key file.  
+ **upload** <br />
+ Click **upload** to provide your own password protected PFX or BYOK encryption key file.  
   
     1.  Browse for and add your own key that has been exported from your local hardware security module (HSM) or encryption key application. For BYOK encryption key files, make sure you use the subscription id when you export the encryption key from your local HSM. Click **Uploading a BYOK file?** on the **manage you database encryption key** dialog box to find your subscription id.  
   
@@ -130,9 +135,9 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
   
     5.  An email message is sent to all [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrators in your organization. This occurs whenever a key is changed for an instance.  
   
- Notice that the key name you specified to manage database encryption settings now appears under **Current Encryption Key**.  
+Notice that the key name you specified to manage database encryption settings now appears under **Current Encryption Key**.  
   
- ![Indication of a managed key](../admin/media/keymgt-managed-key.PNG "Indication of a managed key")  
+![Indication of a managed key](../admin/media/keymgt-managed-key.PNG "Indication of a managed key")  
   
 ### Revert a managed encryption key  
  Reverting a managed key configures the instance back to the default behavior where [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] manages the encryption key for you.  

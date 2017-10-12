@@ -1,7 +1,7 @@
 ---
 title: "Manage your post quota | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
-ms.date: 2017-07-10
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

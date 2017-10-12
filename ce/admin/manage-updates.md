@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Manage updates
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You have options for when you update your Dynamics CRM Online organization to the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]. To prepare for a smooth process, use the information in this topic.  
   
  You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
@@ -33,7 +36,8 @@ You have options for when you update your Dynamics CRM Online organization to th
 > [!NOTE]
 >  If you’re a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer who is in the process of transitioning billing to the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], note that a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service update is not the same as the subscription billing transition. The billing transition is a one-time occurrence that affects your billing platform. Service updates are recurring releases that affect the features and capabilities that you receive in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
-<a name="BKMK_UpdateDynamics365"></a>   
+<a name="BKMK_UpdateDynamics365"></a> 
+  
 ## Updating to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
  Microsoft is introducing [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], the next generation of intelligent business applications that enable your organization to grow, evolve and transform to meet the needs of your customers and capture new opportunities. As a result, Microsoft is introducing new plans for customers effective November 1, 2016, that are similar but not identical to your current plan.  You have some choices to make. Please review the following:  
   
@@ -44,6 +48,7 @@ You have options for when you update your Dynamics CRM Online organization to th
 -   [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](../admin/quickly-navigate-office-365-app-launcher.md)  
   
 <a name="BKMK_Policy"></a>   
+
 ## Update policy  
  Microsoft delivers new features and improvements to the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service twice a year through service updates. To ensure our customers always get the best possible value, we advise customers to run the latest version of the service. However, we also realize that in certain circumstances, some customers are unable to update their solutions with the frequency of our service updates.  
   
@@ -52,8 +57,9 @@ You have options for when you update your Dynamics CRM Online organization to th
  In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] (n-2) and chose not to take the available [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-1), then you would need to take [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n) as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
   
 <a name="BKMK_Scenarios"></a>   
+
 ## Update scenarios  
- Your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update process depends on what version ([Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)) you have and how you’d like to update. Consider the following scenarios.  
+ Your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
   
 > [!NOTE]
 > -   For information on [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 (online) instances](../admin/manage-online-instances.md)  
@@ -186,19 +192,25 @@ You have options for when you update your Dynamics CRM Online organization to th
   
     3.  Train your users for the changes in [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
+
 <a name="BKMK_Versions"></a>   
+
 ## Recent versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
  To determine your version, sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
-  
+
+For recent versions, see [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)
+
+<!--  
 |Version|Availability|Information|  
 |-------------|------------------|-----------------|
-|[!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]|December 2015|[What's new in CRM Online 2016](../admin/what-s-new-for-administrators-and-customizers.md#whats-new-in-crm-online-2016)|  
-|[!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]|May 2016|[What's new in CRM Online 2016 Update 1](../admin/what-s-new-for-administrators-and-customizers.md#whats-new-in-crm-online-2016-update-1)|  
-|[!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]|November 2016|[What's new for administrators and customizers in Dynamics 365 2016 and Dynamics 365](../admin/what-s-new-for-administrators-and-customizers.md) |     
+|[!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]|December 2015|[What's new in CRM Online 2016](https://technet.microsoft.com/library/dn531078.aspx)|  
+|[!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]|November 2016|[What's new for administrators and customizers in Dynamics 365 2016 and Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index) |     
 |March Dynamics 365 (online)|March 2016|[What's new in March for Dynamics 365 (online)](https://technet.microsoft.com/library/dn531078.aspx#What's new in March for Dynamics 365 (online))
 |[!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]|July 2017|[Get ready for the next release](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update)
+-->  
+
+<a name="BKMK_howtoknow"></a> 
   
-<a name="BKMK_howtoknow"></a>   
 ## How will I know my organization is ready to update?  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators will be informed of updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] in multiple ways.  
   
@@ -328,7 +340,7 @@ You have options for when you update your Dynamics CRM Online organization to th
  [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
   
 ### Prepare your users  
- To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [Get ready for the next release](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update), where you will find videos, walkthroughs, and other information that you can use to familiarize yourself with the new experience.  
+ To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [Get ready for the next release](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update), where you will find videos, walkthroughs, and other information that you can use to familiarize yourself with the new experience.  
   
 <a name="BKMK_Checklist"></a>   
 ## Checklist for the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update  
@@ -367,7 +379,7 @@ You have options for when you update your Dynamics CRM Online organization to th
  Consider the following areas to attend to after your update.  
   
 ### Update Dynamics 365 (online) 2015 components  
- You can find more details about updating additional components, such as [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], in [Administering Dynamics 365](../admin/administer-customer-engagement.md).  
+ You can find more details about updating additional components, such as [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], in [Administering Dynamics 365](../admin/admin-guide.md).  
   
 <a name="BKMK_CommSchedule"></a>   
 ## Schedule for update communications  

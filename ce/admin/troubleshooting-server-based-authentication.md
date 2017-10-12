@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting server-based authentication for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Troubleshooting server-based authentication
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 <a name="BKMK_tshoot_wizard"></a>   
 ## Troubleshooting the Enable server-based SharePoint Integration wizard  
  Review the error log for information about why the site doesn’t validate. To do this, click **Error Log** in the Enable Server-Based SharePoint Integration wizard after the validate sites stage is completed.  
@@ -35,11 +38,11 @@ manager: "brycho"
   
 <a name="BKMK_fail_Author"></a>   
 ### Failed Authorization  
- This failure can occur when the claims-based authentication types do not match. For example, in a hybrid deployment such as [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises, when you use the default claims-based authentication mapping, the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address used by the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user must match the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] user’s **Work email**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Selecting a claims-based authentication mapping type](https://technet.microsoft.com/library/configure-server-based-authentication-sharepoint-on-premises#BKMK_selectclmmap)  
+ This failure can occur when the claims-based authentication types do not match. For example, in a hybrid deployment such as [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises, when you use the default claims-based authentication mapping, the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address used by the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user must match the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] user’s **Work email**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Selecting a claims mapping type](../admin/configure-server-based-authentication-sharepoint-on-premises.md#BKMK_selectclmmap)  
   
 <a name="BKMK_SP_nosupp"></a>   
 ### SharePoint Version Not Supported  
- This failure indicates that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] edition, version, required service pack, or required hotfix are missing. For more information, see [SharePoint Version Not Supported](https://technet.microsoft.com/library/dn946906.aspx)  
+ This failure indicates that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] edition, version, required service pack, or required hotfix are missing. 
   
 <a name="BKMK_TS_SP"></a>   
 ## Troubleshooting SharePoint  
@@ -109,5 +112,4 @@ manager: "brycho"
  This error can be returned to the user who doesn’t have site permissions or the user has had permissions removed from the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site where [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] document management is enabled. Currently, this is a known issue with [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] where the error message that is displayed to the user doesn’t indicate that the user’s permissions are not sufficient to access the site.  
   
 ### See also  
- [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md)   
  [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)

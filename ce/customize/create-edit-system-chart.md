@@ -1,7 +1,7 @@
 ---
-title: "Create or edit a system chart in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create or edit a system chart (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,13 +16,16 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Create or edit a system chart
-System charts are organization-owned charts and can’t be assigned or shared.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+System charts in Dynamics 365 Customer Engagement are organization-owned charts and can’t be assigned or shared.  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   

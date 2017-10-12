@@ -2,7 +2,7 @@
 title: "Configure a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about how you can configure your portal in different ways."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -1,7 +1,8 @@
 ---
 title: "Create an action call for a UII action | MicrosoftDocs"
+description: "Learn about creating an action call for a UII action."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -58,7 +59,7 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
 <a name="StartHostedControl"></a>   
 ## Start from the hosted control  
   
-1.  Create or edit the hosted control that contains the UII action that you want to create an action call for. For more information, see [Create or edit a hosted control](../unified-service-desk/create-or-edit-a-hosted-control.md).  
+1.  Create or edit the hosted control that contains the UII action that you want to create an action call for. For more information, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 2.  On the hosted control page, choose the down arrow next to the hosted control name on the nav bar, and then choose UII Actions.  
   
@@ -75,6 +76,6 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
 6.  On the **New Action Call** page, follows steps 5 and 6 in the previous section.  
   
 ### See also  
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-and-events.md)   
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://technet.microsoft.com/library/dn499779.aspx)
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)   
+ [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
+ 

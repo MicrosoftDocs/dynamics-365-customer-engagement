@@ -1,7 +1,8 @@
 ---
 title: "Core concepts for configuring Unified Service Desk | MicrosoftDocs"
+descriptions: "Unified Service Desk provides an object-oriented kind of configuration and development experience through its hosted control implementation where the hosted control is equivalent to the object in a typical object-oriented development, and is used throughout Unified Service Desk to provide its loose coupling of components."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -34,25 +35,13 @@ manager: "jdaly"
   
 - **Events** in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] make one or more action calls, which internally call UII actions on other objects. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Events](../unified-service-desk/events.md)  
   
-## In This Section  
- [Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)  
-  
- [Events](../unified-service-desk/events.md)  
-  
- [UII actions](../unified-service-desk/uii-actions.md)  
-  
- [Action calls](../unified-service-desk/action-calls.md)  
-  
- [Replacement parameters](../unified-service-desk/replacement-parameters.md)  
-  
 ## Reference  
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)  
-  
- [Unified Service Desk Administration Guide](https://technet.microsoft.com/library/dn499779.aspx)  
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+    
   
 ## Related Sections  
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   
- [Get started with configuring your agent application](../unified-service-desk/get-started-with-configuring-your-agent-application.md)  
+ [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)  
   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)

@@ -1,1 +1,1 @@
-By enabling a solution, you consent to share your data with an external system. Data that is imported from external systems into Microsoft Dynamics 365 (online) is subject to our privacy statement, which you can access [here](http://go.microsoft.com/fwlink/p/?LinkID=513066).
+By enabling a solution, you consent to share your data with an external system. Data that is imported from external systems into Microsoft Dynamics 365 (online) is subject to [Microsoft Privacy and Cookies](http://go.microsoft.com/fwlink/p/?LinkID=521839).

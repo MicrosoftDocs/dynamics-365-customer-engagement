@@ -2,7 +2,7 @@
 title: "Enable delegated administration | Microsoft Docs"
 description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
 ms.custom: ""
-ms.date: 2016-11-18
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

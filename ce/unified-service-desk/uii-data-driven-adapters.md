@@ -1,7 +1,8 @@
 ---
 title: "UII data driven adapters in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn how to use a data-driven adapter to define a way to identify a UI component of a hosted application in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,7 +23,7 @@ manager: "jdaly"
 # UII data driven adapters in Unified Service Desk
 Data-driven adapters are used by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. These adapters handle only the interaction with the user interface (UI) and don’t contain business processes. This is different than custom adapters, which frequently intermingle with the business processes and the UI interaction code.  
   
- A data-driven adapter uses data, named the bindings, to define the way that it identifies a UI component of a hosted application. For example, the bindings may consist of Document Object Model (DOM) paths for describing elements on a webpage. The [!INCLUDE[pn_hat](../includes/pn-hat.md)] adapter leverages business processes implemented using the [!INCLUDE[pn_windows_workflow_foundation_wf](../includes/pn-windows-workflow-foundation-wf.md)], these bindings, and data-driven adapters to manage the business flows between one or more applications.  
+ A data-driven adapter uses data, called bindings, to define the way that it identifies a UI component of a hosted application. For example, the bindings may consist of Document Object Model (DOM) paths for describing elements on a webpage. The [!INCLUDE[pn_hat](../includes/pn-hat.md)] adapter leverages business processes implemented using the [!INCLUDE[pn_windows_workflow_foundation_wf](../includes/pn-windows-workflow-foundation-wf.md)], these bindings, and data-driven adapters to manage the business flows between one or more applications.  
   
  [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] provides the following four data-driven adapters:  
   

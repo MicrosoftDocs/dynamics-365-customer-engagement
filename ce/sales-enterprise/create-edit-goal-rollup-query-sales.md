@@ -1,7 +1,7 @@
 ---
-title: "Create or edit a goal rollup query (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Create or edit a goal rollup query (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,20 +15,23 @@ caps.latest.revision: 31
 ms.author: "brycho"
 manager: "amyla"
 ---
-# Create or edit a goal rollup query (Sales, Enterprise)
+# Create or edit a goal rollup query (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the rollup query to gather data about a given goal, including all its related goals, in one view.  
   
 [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  Go to **Rollup Queries**. [How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636)  
+2.  Go to **Rollup Queries**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
   
 3.  To create a new rollup query, in the **Records** group, click **New**.  
   
@@ -64,4 +67,4 @@ Use the rollup query to gather data about a given goal, including all its relate
   
 ### See also  
  [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
- [Progress Against Goals report](../basics/progress-against-goals-report.md)
+ [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)

@@ -1,7 +1,7 @@
 ---
 title: "Configure SharePoint integration using the list component for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,13 +17,16 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Configure SharePoint integration using the list component
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you must install the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] to get document management functionality. The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] solution that you upload and activate on a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection. This feature uses a client-to-[!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] strategy to authenticate and transmit data.  
   
 > [!WARNING]
 > [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] has removed code-based sandbox solutions. Notice that the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is a sandboxed solution that requires a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sandbox environment.  
 >   
->  -   If you're integrating [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for the first time, use server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531154.aspx)  
-> -   If you currently use the list component, we strongly recommend that you switch to server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Switching from the list component or changing the deployment](https://technet.microsoft.com/library/dn946910.aspx)  
+> -   If you're integrating [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for the first time, use server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)  
+> -   If you currently use the list component, we strongly recommend that you switch to server-based authentication. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)  
   
 1.  Make sure that you meet the requirements to use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] documentation management feature with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. For more information, see [SharePoint Document Management software requirements for Microsoft Dynamics 365](../admin/sharepoint-document-management-software-requirements.md).  
   

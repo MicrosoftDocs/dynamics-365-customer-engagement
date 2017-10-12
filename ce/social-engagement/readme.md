@@ -1,15 +1,25 @@
-Social Engagement 2017 Update 1.6 Readme
+---
+title: "Social Engagement 2017 Update 1.8 Readme"
+ms.date: 10/11/2017
+ms.service: mse
+ms.topic: article
+applies_to: "Social Engagement"
+ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
+author: "m-hartmann"
+ms.author: mhart
+manager: sakudes
+---
+Social Engagement 2017 Update 1.9 Readme
 ========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2017 Update 1.6. It was published in July 2017.
+Social Engagement 2017 Update 1.9. It was published in October 2017.
 
 Resources
 ---------
 
-[Social Engagement Help
-Center](http://go.microsoft.com/fwlink/?LinkID=394325)—info central for product
-users and admins
+[Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) -
+info central for product users and admins
 
 General known issues
 --------------------
@@ -226,3 +236,40 @@ Analytics notification.
 In some cases, Disqus posts are missing an URL. This can happen if posts are
 created through an API or through private channels. Social Engagement cannot
 acquire messages that are missing an URL.
+
+### Private messages and public messages from Facebook Pages and Twitter not always acquired
+
+In some cases, private messages and public messages from Facebook Pages and
+Twitter are not acquired in Social Engagement. This can happen when a message
+was written in a non-supported language of Social Engagement or if the language
+was not detected at all.
+
+### Facebook comments cannot be shared through “Post link” action
+
+Due to a feature in the Facebook API, Social Engagement users can’t share the
+URL of a Facebook comment to Facebook. We stop showing Facebook social profiles
+when the **Post link** action is triggered on a post of the type **Facebook
+comment**.
+
+### Opening a post with the URL from Copy internal URL command
+
+When you use the URL from the **Copy internal URL** command to access a post in
+Social Engagement, filters for this specific document will not be removed by any
+action in Analytics. To remove this filter, reload the analytics. You can do
+this either through the navigation menu or by using your browser’s refresh
+functionality.
+
+**Several titles and tooltips are not localized**
+
+Currently several user interface (UI) strings and tooltips are not localized in
+Social Engagement–supported languages in Settings, due to recent and ongoing
+work regarding accessibility. The non-localized UI strings and tooltips will be
+localized with the next release of Social Engagement.
+
+**Quota notification in Search Setup can be hidden and is hard to show again**
+
+When you go to the **Search Setup** area, you might see the quota warning
+notification that your solution might be or is already above quota. You can hide
+this notification by selecting the **Close** (X) button in the upper right
+corner. Once it’s closed, you can only get it back by refreshing your browser’s
+session with Social Engagement.

@@ -1,7 +1,7 @@
 ---
 title: "Data encryption for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,12 +17,15 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Enhance security by encrypting your data
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
   
  For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)],  all new and upgraded organizations use data encryption by default. Data encryption can’t be turned off.  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have the system administrator security role can change the encryption key at any time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change an organization encryption key](../admin/data-encryption.md#BKMK_changeEncKey)  
-  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have the system administrator security role can change the encryption key at any time. 
+
 <a name="BKMK_changeEncKey"></a>   
 ## Change an organization encryption key  
   
@@ -59,4 +62,4 @@ manager: "brycho"
  [SQL Server Encryption](https://technet.microsoft.com/library/bb510663.aspx)   
  [FIPS 140 Evaluation](https://technet.microsoft.com/library/cc750357.aspx)   
  [Manage Your Data](../admin/manage-your-data.md)   
- [Manage configuration data](../admin/manage-configuration-data.md)
+ [Manage configuration data](manage-configuration-data.md)

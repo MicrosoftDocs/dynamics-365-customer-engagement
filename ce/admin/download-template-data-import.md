@@ -1,7 +1,7 @@
 ---
 title: "Download a template for data import for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Download a template for data import
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Whether your data is stored in spreadsheets, databases, or other systems, you'll want to import the data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] so you can keep track of all your customer information in one place. You use templates for importing many types of records, such as accounts, leads or cases. There is a complete list in the Templates for Data Import wizard.  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
@@ -40,4 +43,4 @@ Whether your data is stored in spreadsheets, databases, or other systems, you'll
 ### See also  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
  [Import contacts](../basics/import-contacts.md)   
- [Upload a data import file](../basics/upload-data-import-file.md)
+ 

@@ -1,7 +1,7 @@
 ---
-title: "Optimize form performance in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Optimize form performance (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Optimize form performance
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Forms that load slowly can reduce productivity and user adoption. Follow these recommendations to maximize how quickly your forms will load. Many of these recommendations are about how a developer may implement form scripts for your organization. Be sure to discuss these recommendations with developers who create form scripts for your forms.  
   
 <a name="BKMK_FormDesign"></a>   
@@ -49,9 +52,7 @@ Forms that load slowly can reduce productivity and user adoption. Follow these r
  Within the command bar or the ribbon for the form, evaluate what controls are necessary and hide any that you don’t need. Every control that is displayed increases resources that need to be downloaded to the browser.  
   
 ### See also  
- [Create and design forms](../customize/create-design-forms.md)   
- [Use the form editor](../customize/use-the-form-editor.md)   
+ [Create and design forms](../customize/create-design-forms.md)    
  [Design considerations for main forms](../customize/design-considerations-main-forms.md)   
- [Main form presentations](../customize/main-form-presentations.md)   
- [Manage auto-save](../customize/manage-auto-save.md)   
+ [How main forms appear in different clients](../customize/main-form-presentations.md)     
  

@@ -1,7 +1,7 @@
 ---
-title: "Help and additional resources for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+title: "Help and additional resources for Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,13 +10,15 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 596da439-fd0c-4d80-b57a-6baaedaaba23
+ms.assetid: 4cdcdd7b-ced2-40bc-adc4-dd7ea2445e44
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Help and additional resources
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
@@ -26,15 +28,13 @@ There are several resources available to you covering planning, operating, and u
 
  The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]:    
   
--   [Administer Dynamics 365 Customer Engagement](administer-customer-engagement.md)  
+-   [Administer Dynamics 365 Customer Engagement](admin-guide.md)  
   
--   [What's new in Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/index)  
+-   [What's new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
   
 <a name="More_help"></a>   
 
 ## More self-service help resources  
-  
--   [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](troubleshooting-things-know-outlook.md)  
   
 -   View the [Office 365 Service Health Dashboard](https://portal.office.com/ServiceStatus/ServiceStatus.aspx)  
   
@@ -53,13 +53,7 @@ There are several resources available to you covering planning, operating, and u
 ## Microsoft Dynamics 365 (online) Trust Center 
  
  [The Microsoft Dynamics 365 (online) Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
-  
-<a name="BKMK_CRMOnline_Ent_Plan"></a>   
-
-## Microsoft Dynamics 365 (online) Security and Compliance Planning Guide  
-
- The [Dynamics 365 (online) security and compliance planning guide](security-and-compliance-planning-guide.md) is designed to help readers understand the key compliance and security considerations associated with planning for a deployment of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] in environments that may include enterprise directory integration services such as directory synchronization and single sign-on.  
-  
+   
 <a name="support_and_service"></a>   
 
 ## Support and service status  
@@ -73,4 +67,4 @@ There are several resources available to you covering planning, operating, and u
  [Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)
    
   
-## See Also  
+### See also  

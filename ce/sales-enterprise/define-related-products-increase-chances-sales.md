@@ -1,7 +1,7 @@
 ---
-title: "Define related products to increase sales (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Define related products to increase sales (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 18
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Define related products to increase sales (Sales, Enterprise)
+# Define related products to increase sales (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes. Defining related products will help your sales agents with their recommendations to customers. You can add related products to a product or product bundle, but not to product families.  
   
  The related products are displayed as suggestions to your sales agents during opportunity or order management. These suggestions help your sales agents recommend related products and bundles/kits to the customers, and increase product sales. You can define the following relationships for a product: Accessory, cross-sell, substitute, and up-sell. For example, for a [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Pro product, you can add [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Book as an up-sell product so that when your sales agent is adding [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Pro to any opportunity, quote, order, or invoice,  [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] is suggested as the up-sell option.  

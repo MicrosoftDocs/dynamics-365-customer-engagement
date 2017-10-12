@@ -1,7 +1,7 @@
 ---
-title: "Query and visualize hierarchical data in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Query and visualize hierarchical data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Query and visualize hierarchically related data
-You can get valuable business insights by visualizing hierarchically related data. The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] hierarchical modelling and visualization capabilities give you a number of benefits:  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+You can get valuable business insights by visualizing hierarchically related data. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] hierarchical modelling and visualization capabilities give you a number of benefits:  
   
 -   View and explore complex hierarchical information.  
   
@@ -24,11 +27,11 @@ You can get valuable business insights by visualizing hierarchically related dat
   
 -   Visually analyze key information across the web and the tablets.  
   
-For some entities, such as account and user, the visualizations are provided out-of-the-box. Other entities, including custom entities, can be enabled for a hierarchy and you can create the visualizations for them. Based on your needs, you can choose between using a tree view, which shows the entire hierarchy, or a tile view, which depicts a smaller portion of the hierarchy. Both views are shown side by side. You can explore a hierarchy by expanding and contracting a hierarchy tree. The same hierarchical settings for visualization are set once, but apply to both [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. In tablets, the visuals render in a modified format suitable for the smaller form factor. The customizable components required for hierarchical visualization are solution aware, therefore, they can be transported between organizations like any other customization. You can configure the attributes shown in the visualization by customizing a Quick Form using the form editor. There is no requirement to write code.  
+For some entities, such as account and user, the visualizations are provided out-of-the-box. Other entities, including custom entities, can be enabled for a hierarchy and you can create the visualizations for them. Based on your needs, you can choose between using a tree view, which shows the entire hierarchy, or a tile view, which depicts a smaller portion of the hierarchy. Both views are shown side by side. You can explore a hierarchy by expanding and contracting a hierarchy tree. The same hierarchical settings for visualization are set once, but apply to both [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. In tablets, the visuals render in a modified format suitable for the smaller form factor. The customizable components required for hierarchical visualization are solution aware, therefore, they can be transported between organizations like any other customization. You can configure the attributes shown in the visualization by customizing a Quick Form using the form editor. There is no requirement to write code.  
   
 <a name="BKMK_Querydata"></a>   
 ## Query hierarchical data  
- In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](http://go.microsoft.com/fwlink/p/?LinkId=513227)  
+ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
   
  The following examples illustrate various scenarios for querying hierarchies:  
   
@@ -107,7 +110,5 @@ For some entities, such as account and user, the visualizations are provided out
  ![Widget's tree and tiles views](../customize/media/widget-tree-tiles.png "Widget's tree and tiles views")  
   
 ### See also  
- [Customize your Dynamics 365 system](../customize/customize-your-system.md)   
- [Customize the Help experience](../customize/customize-help-experience.md)   
  [Video: Hierarchical Security Modelling](http://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)   
  [Video: Hierarchy Visualization](http://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)

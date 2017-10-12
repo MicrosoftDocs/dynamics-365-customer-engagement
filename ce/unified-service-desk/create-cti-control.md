@@ -1,7 +1,8 @@
 ---
 title: "Create a CTI Control | MicrosoftDocs"
+description: "The topic explains on how to create a CTI control."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
 title: "View and take action on Dynamics 365 Customer Engagement bulk deletion jobs | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # View and take action on bulk deletion jobs
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can view the status of, pause, postpone, and resume a system job that you created using **Bulk Record Deletion**.  
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
@@ -38,5 +41,5 @@ You can view the status of, pause, postpone, and resume a system job that you cr
     |Modify recurrence of a bulk-delete job|1.  Select the bulk-deletion job, and then on the Actions menu, choose **Modify Recurrence**.<br />2.  If you select the **Run this job after every** check box, specify the interval after which you want the bulk-deletion job to run, and then choose **OK**.<br /><br /> If you select the **Run this job after every** check box when you create a bulk-deletion job, the job becomes recurring and is moved to the **Recurring Bulk Deletion System Jobs** view. You can only change the recurrence for these recurring bulk-deletion jobs.|  
   
 ### See also  
- [Manage your data (for admins)](../admin/manage-data-admins.md)   
+ [Manage your data (for admins)](../admin/manage-your-data.md)   
  [Delete bulk records](delete-bulk-records.md)

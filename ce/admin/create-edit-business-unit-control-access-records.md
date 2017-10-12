@@ -1,7 +1,7 @@
 ---
 title: "Create or edit a business unit to control access to records for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Create or edit a business unit to control access to records
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 A business unit is a logical grouping of related business activities. Use business units together with security roles to control data access so people see just the information they need to do their jobs.  
   
  Keep the following in mind when creating business units:  
@@ -30,12 +33,6 @@ A business unit is a logical grouping of related business activities. Use busine
 -   You must assign every user to one (and only one) business unit.  
   
 -   You can assign a team to just one business unit, but a team can consist of users from one or many business units. Consider using a team if you have a situation where users from different business units need to work together on a shared set of records.  
-  
- On this page:  
-  
- [Create a lead](../admin/create-edit-business-unit-control-access-records.md#bkmk1)  
-  
- [Edit a lead](../admin/create-edit-business-unit-control-access-records.md#bkmk2)  
   
 <a name="bkmk1"></a>   
 ## Create a new business unit  
@@ -108,8 +105,8 @@ A business unit is a logical grouping of related business activities. Use busine
 6.  When you’re done making changes, choose **Save** or **Save and Close**.  
   
 ### See also  
- [Security concepts in Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699698.aspx)   
- [Manage users](https://technet.microsoft.com/library/dn531106.aspx)   
- [Manage teams](https://technet.microsoft.com/library/dn531089.aspx)   
+ [Security concepts in Microsoft Dynamics 365](security-concepts.md)   
+ [Manage users](create-users-assign-online-security-roles.md)   
+ [Manage teams](manage-teams.md)   
  [Enable or disable security for a field](../admin/enable-disable-security-field.md)   
  [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)

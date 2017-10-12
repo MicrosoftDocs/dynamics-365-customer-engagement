@@ -1,7 +1,7 @@
 ---
-title: "Create a business process flow in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Create a business process flow (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Create a business process flow to standardize processes
-This topic shows how to create a business process flow with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+This topic shows how to create a business process flow with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
   
  When a user starts a business process flow, the stages and steps of the process are displayed in the process bar at the top of a form:  
   
@@ -99,27 +102,27 @@ This topic shows how to create a business process flow with [!INCLUDE[pn_crm_sho
   
         ![Add a Condition to a business process flow](../customize/media/add-condition-business-process-flow.png "Add a Condition to a business process flow")  
   
-    2.  Click the condition, and then set properties in the **Properties** tab. For more information on branching properties, see [Enhance business process flows with branching](https://technet.microsoft.com/library/dn887193.aspx). When you're finished setting properties for the condition, click **Apply**.  
+    2.  Click the condition, and then set properties in the **Properties** tab. For more information on branching properties, see [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md). When you're finished setting properties for the condition, click **Apply**.  
   
 9. **Add a workflow.** To invoke a workflow:  
   
     1.  Drag a **Workflow** component from the **Components** tab to a stage or to the **Global Workflow** item in the designer.   Which one you add it to depends on the following:  
   
-        - **Drag it to a stage** when you want to trigger the workflow on entry or exit of the stage. The workflow component must be based on the same primary entity as the stage.  
+       - **Drag it to a stage** when you want to trigger the workflow on entry or exit of the stage. The workflow component must be based on the same primary entity as the stage.  
   
-        - **Drag it to the Global Workflow item** when you want to trigger the workflow when the process is activated or when the process is archived (when the status changes to **Completed** or **Abandoned**). The workflow component must be based on the same primary entity as the process.  
+       - **Drag it to the Global Workflow item** when you want to trigger the workflow when the process is activated or when the process is archived (when the status changes to **Completed** or **Abandoned**). The workflow component must be based on the same primary entity as the process.  
   
     2.  Click the workflow, and then set properties in the **Properties** tab:  
   
-        1.  Enter a display name.  
+       1.  Enter a display name.  
   
-        2.  Select when the workflow should be triggered.  
+       2.  Select when the workflow should be triggered.  
   
-        3.  search for an existing on-demand active workflow that matches the stage entity or create a new workflow by clicking **New**.  
+       3.  Search for an existing on-demand active workflow that matches the stage entity or create a new workflow by clicking **New**.  
   
-        4.  Click **Apply** when you're done.  
+       4.  Click **Apply** when you're done.  
   
-             For more information on workflows, see [Workflow processes](https://technet.microsoft.com/library/dn531067.aspx).  
+       For more information on workflows, see [Workflow processes](../customize/workflow-processes.md).  
   
 10. To validate the business process flow, click **Validate** on the action bar.  
   
@@ -130,7 +133,7 @@ This topic shows how to create a business process flow with [!INCLUDE[pn_crm_sho
   
 12. To activate the process and make it available to your team, click **Activate** on the action bar.  
   
-> [!TIP]
+> [!TIP] 
 >  Here are a few tips to keep in mind as you work on your task flow in the designer window:  
 >   
 > - To take a snapshot of everything in the business process flow window, click **Snapshot** on the action bar. This is useful, for example, if you want to share and get comments on the process from a team member.  
@@ -170,7 +173,7 @@ This topic shows how to create a business process flow with [!INCLUDE[pn_crm_sho
  Each stage can have up to 30 steps.    
   
  **Add branch**  
- To learn about adding a branch to a stage, see [Enhance business process flows with branching](https://go.microsoft.com/fwlink/p/?linkid=845546).  
+ To learn about adding a branch to a stage, see [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md).  
   
  To make a business process flow available for people to use, you must order the process flow, enable security roles, and activate it.  
   
@@ -189,9 +192,9 @@ This topic shows how to create a business process flow with [!INCLUDE[pn_crm_sho
   
 ### See also  
  [Business process flows overview](../customize/business-process-flows-overview.md)   
- [Enhance business process flows with branching (Dynamics CRM)](https://technet.microsoft.com/library/dn887193.aspx) 
+ [Enhance business process flows with branching ](../customize/enhance-business-process-flows-branching.md)</br> 
  [Create a mobile task flow](../customize/create-mobile-task-flow.md)   
  [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
  [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)   
- [Guide staff through common tasks with processes](../customize/guide-staff-through-common-tasks-processes.md)  
- [Workflow processes](https://technet.microsoft.com/library/dn531067.aspx)
+ [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)  
+ [Workflow processes](../customize/workflow-processes.md)

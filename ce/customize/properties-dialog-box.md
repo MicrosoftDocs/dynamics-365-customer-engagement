@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Properties dialog box | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 11/01/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,6 +18,9 @@ ms.author: "brycho"
 manager: "brycho"
 ---
 # Properties dialog box
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the **Properties** dialog box to view the date the record was created and last modified and by whom, and the permissions that you have on the record.  
   
  If the current record is integrated with back office systems, information about the relationship is also displayed on this dialog box.

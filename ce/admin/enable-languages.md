@@ -1,7 +1,7 @@
 ---
 title: "Enable languages for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,12 +16,23 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
 ---
-# Enable languages
+# Regional and language options for your organization 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Enable languages in your organization to display the user interface and Help in a language that’s different from the base language. 
 
 > [!IMPORTANT]
->  If you’re running [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], before you can enable additional languages, you must download one or more [Language Packs](http://www.microsoft.com/download/details.aspx?id=40340) on the same computer.  
+> If you’re running [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], you must download one or more [Language Packs](http://go.microsoft.com/fwlink/p/?LinkID=513276) before you can enable additional languages.  
   
+ The following table shows tasks that are associated with changing regional and language options for your organization.  
+  
+|Task|Description|  
+|----------|-----------------|  
+|**Set the base language**|The base language determines default settings for regional and language options in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. After the base language is set, you can’t change it.|  
+|**Enable or disable languages**|You can enable or disable available languages in the **Settings** area.|
+|**Add and remove currencies**|Similar to setting the base language, you select your organization's base currency during the purchasing process for a subscription to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. After the base currency is set, you can’t change it.<br /><br /> However, if your organization uses more than one currency to track financial transactions, you can add currencies.|  
+|**Deactivate or activate currency records**|You can’t delete currency records that are being used by other records, such as opportunities or invoices. However, you can deactivate currency records so they won’t be available for future transactions.|  
 <a name="BKMK_Step2Provision"></a>   
 
 ## Enable the language  
@@ -70,12 +81,6 @@ Enable languages in your organization to display the user interface and Help in 
   
 > [!NOTE]
 >  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the user language settings only apply to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] features, such as the user interface display of the **Dynamics 365** menu, and don’t affect other areas of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)]. To display all of the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] user interface or Help in multiple languages, you need to install one or more [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)]Language Packs. More information: [Office 2013 Language Options](http://office.microsoft.com/language-packs/).  
-  
-<a name="knownissues"></a>   
-## Known issues with Language settings  
-  
-### Distorted characters are displayed in some languages when you run Dynamics 365 for Outlook on Windows 10  
- By default, [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)] includes a limited number of available languages. If your language is not already available on [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)], you’ll need to download and install it before you install [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. More information: [Language packs](http://windows.microsoft.com/en-US/windows/language-packs#lptabs=win10).  
-  
+   
 ### See also  
- [Enable or disable languages](http://go.microsoft.com/fwlink/p/?LinkID=513230)
+ [Add resources to a site](../admin/add-resources-site.md)

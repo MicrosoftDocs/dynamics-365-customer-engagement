@@ -1,7 +1,7 @@
 ---
 title: "Important considerations for server-based SharePoint integration for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Important considerations for server-based SharePoint integration
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Before you move to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, review the following table to see some of the differences you’ll experience between client-based versus server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration.  
   
 |Area|Client-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration|Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration|For those moving to Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]integration|  

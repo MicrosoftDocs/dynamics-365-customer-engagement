@@ -1,7 +1,8 @@
 ---
 title: "Next Tag (WinDDA) in Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
+description: "The topic describes the attributes of the Next tag (winDDA)."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

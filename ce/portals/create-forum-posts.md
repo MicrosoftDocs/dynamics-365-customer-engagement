@@ -2,7 +2,7 @@
 title: "Create forum posts on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create forum posts on a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,9 +21,9 @@ A forum post is a user-submitted message enclosed into a block containing the us
 The forum post editor will appear automatically when a user has successfully signed in to the portal and navigated to a forum thread page, provided the developer has implemented the functionality in the forum thread's page template.
 
 1. Sign in to the portal.
-2. Navigate to a [Manage forum threads](manage-forum-threads.md).  
+2. Navigate to a [forum thread](manage-forum-threads.md).  
 3. Compose your reply in the rich text editor.
-4. Click **Submit**.
+4. Select **Submit**.
 
 ### Attribute relationships
 

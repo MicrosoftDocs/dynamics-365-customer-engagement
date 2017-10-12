@@ -2,7 +2,7 @@
 title: "Work with groups of people in Social Engagement | Microsoft Docs"
 description: "Learn how to manage groups and how to work with them in Social Engagement."
 ms.custom: ""
-ms.date: 2017-05-19
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: mse
 ms.suite: ""

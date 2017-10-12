@@ -2,7 +2,7 @@
 title: "Copyright | Microsoft Docs"
 description: "Review the copyright for this documentation."
 ms.custom: ""
-ms.date: 2017-03-02
+ms.date: 09/12/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

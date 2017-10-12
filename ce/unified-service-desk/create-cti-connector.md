@@ -1,7 +1,8 @@
 ---
 title: "Create a CTI Connector | MicrosoftDocs"
+description: "Learn about the CTI Connector component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. CTI Connector consists of the ICtiControl interface, which includes the CtiHostedControl class containing methods and events that will be called and listened to by the CTI Desktop Manager component."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -32,11 +33,7 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
   
 <a name="Define"></a>   
 ## Define a CTI Connector  
- [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] implements the [ICtiControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface. To define a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], use the Dynamics 365 SDK [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project template in either of the following ways:  
-  
--   [Download the CRM SDK template from the Visual Studio gallery](http://go.microsoft.com/fwlink/p/?LinkId=400925). Double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
-  
--   [Download and install the CRM SDK](http://go.microsoft.com/fwlink/p/?LinkId=627298). The templates file, CRMSDKTemplates.vsix, is located in the SDK\Templates folder. Double-click the file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+ [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] implements the [ICtiControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface. To define a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], use the CRM SDK [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. 
   
 > [!NOTE]
 >  The template works if you have [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.5.2 and [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]. Additionally, you must have [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d).  
@@ -48,7 +45,7 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
   
 2.  In the **New Project** dialog box:  
   
-    1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 SDK Templates** > **Unified Service Desk** > **USD CTI Connector**.  
+    1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD CTI Connector**.  
   
     2.  Specify the name and location of the project, and click **OK**.  
   

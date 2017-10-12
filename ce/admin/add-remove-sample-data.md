@@ -1,7 +1,7 @@
 ---
 title: "Add or remove sample data for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Add or remove sample data
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Sample data gives you something to experiment with as you learn [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.  
   
  Or, if sample data isn’t installed on your system, you may want to add it for training purposes. Later, when you’re ready, you can remove it.  
@@ -45,6 +48,5 @@ Sample data gives you something to experiment with as you learn [!INCLUDE[pn_mic
      Click **Install Sample Data**, and then click **Close**.  
   
 ### See also  
- [Create or edit a contact](../basics/create-edit-contact.md)   
- [Create or edit an account](../basics/create-edit-account.md)   
+ [Work with accounts and contacts](../basics/accounts-contacts.md)
  [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)

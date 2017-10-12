@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Import bulk data with the Data Loader for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Preview feature: Import bulk data with the Data Loader 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
   
 ## Overview
  If you need to import bulk data, you don’t have to write custom code or use third-party tools. Use the new [!INCLUDE[cc_data_loader_service](../includes/cc-data-loader-service.md)] for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. With this service, you can move your data between flat files and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and cut down on implementation costs.  
@@ -24,7 +27,7 @@ manager: "brycho"
  Currently, the preview supports importing data only.  
   
 > [!IMPORTANT]
->  The [!INCLUDE[cc_data_loader_service](../includes/cc-data-loader-service.md)] is a preview feature in [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)]. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)][!INCLUDE[cc_preview_feature](../includes/cc-preview-feature.md)][!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+>  The [!INCLUDE[cc_data_loader_service](../includes/cc-data-loader-service.md)] is a preview feature in [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)]. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)] [!INCLUDE[cc_preview_feature](../includes/cc-preview-feature.md)] [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 >   
 > **The [!INCLUDE[cc_data_loader_service](../includes/cc-data-loader-service.md)] is available as a preview only for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] organizations in North America**.  
   

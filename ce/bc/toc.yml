@@ -1,7 +1,49 @@
-- name: Microsoft Dynamics 365
+- name: Dynamics 365
   tocHref: /dynamics365/
   topicHref: /dynamics365/
   items:
+  - name: "Basics Guide, Customer Engagement"
+    tocHref: /dynamics365/customer-engagement/basics/
+    topicHref: /dynamics365/customer-engagement/basics/basics-guide
+  - name: "Administrator Guide, Customer Engagement"
+    tocHref: /dynamics365/customer-engagement/admin/
+    topicHref: /dynamics365/customer-engagement/admin/admin-guide
+  - name: "Customization Guide, Customer Engagement"
+    tocHref: /dynamics365/customer-engagement/customize/
+    topicHref: /dynamics365/customer-engagement/customize/overview
+  - name: "Reporting and Analytics Guide, Customer Engagement"
+    tocHref: /dynamics365/customer-engagement/analytics/
+    topicHref: /dynamics365/customer-engagement/analytics/reporting-analytics-with-dynamics-365
+  - name: Sales
+    tocHref: /dynamics365/customer-engagement/sales-enterprise/
+    topicHref: /dynamics365/customer-engagement/sales-enterprise/overview
+  - name: Customer Service
+    tocHref: /dynamics365/customer-engagement/customer-service/
+    topicHref: /dynamics365/customer-engagement/customer-service/overview
+  - name: Field Service
+    tocHref: /dynamics365/customer-engagement/field-service/
+    topicHref: /dynamics365/customer-engagement/field-service/overview
+  - name: Project Service Automation
+    tocHref: /dynamics365/customer-engagement/project-service/
+    topicHref: /dynamics365/customer-engagement/project-service/overview
+  - name: Phones and tablets
+    tocHref: /dynamics365/customer-engagement/mobile-app/
+    topicHref: /dynamics365/customer-engagement/mobile-app/overview
+  - name: App for Outlook
+    tocHref: /dynamics365/customer-engagement/outlook-app/
+    topicHref: /dynamics365/customer-engagement/outlook-app/overview
+  - name: Customer Insights
+    tocHref: /dynamics365/customer-engagement/insights-insideview/
+    topicHref: /dynamics365/customer-engagement/insights-insideview/insights-powered-by-insideview
+  - name: Company News Timeline
+    tocHref: /dynamics365/customer-engagement/company-news-timeline/
+    topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets
+  - name: "Live Assist, powered by Café X"
+    tocHref: /dynamics365/customer-engagement/live-assist/
+    topicHref: /dynamics365/customer-engagement/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x
+  - name: Versium Predict
+    tocHref: /dynamics365/customer-engagement/versium-predict
+    topicHref: /dynamics365/customer-engagement/versium-predict/versium-predict
   - name: Gamification
     tocHref: /dynamics365/customer-engagement/gamification
     topicHref: /dynamics365/customer-engagement/gamification/increase-employee-productivity-with-dynamics-365-gamification
@@ -55,3 +97,7 @@
   - name: Unified Service Desk
     tocHref: /dynamics365/customer-engagement/unified-service-desk/
     topicHref: /dynamics365/customer-engagement/unified-service-desk/index
+    items:
+        - name: Sample Unified Service Desk applications
+          tocHref: /dynamics365/customer-engagement/unified-service-desk/admin/
+          topicHref: /dynamics365/customer-engagement/unified-service-desk/admin/sample-unified-service-desk-applications

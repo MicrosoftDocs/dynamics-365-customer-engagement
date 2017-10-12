@@ -1,7 +1,7 @@
 ---
-title: "Invoke custom actions from a workflow or dialog in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Invoke custom actions from a workflow (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,10 +15,13 @@ caps.latest.revision: 12
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Invoke custom actions from a workflow or dialog
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], workflows and dialogs have numerous capabilities supporting business scenarios. Calling basic SDK actions for a record, such as create, update, and delete, from within a workflow or a dialog solves quite a few business scenarios. However, if you couple the capabilities of the workflows and dialogs with the power of the custom actions invoked directly from within a workflow or a dialog, you add a whole new range of business scenarios to your application without needing to write code.  
+# Invoke custom actions from a workflow
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], workflows have numerous capabilities supporting business scenarios. Calling basic SDK actions for a record, such as create, update, and delete, from within a workflow solves quite a few business scenarios. However, if you couple the capabilities of the workflows with the power of the custom actions invoked directly from within a workflow you add a whole new range of business scenarios to your application without needing to write code.  
   
- Let’s look at the scenario in which a custom action is invoked from a workflow and a dialog. We’ll invoke a custom action to request the manager’s approval when a discount for a particular opportunity exceeds 20%.  
+ Let’s look at the scenario in which a custom action is invoked from a workflow. We’ll invoke a custom action to request the manager’s approval when a discount for a particular opportunity exceeds 20%.  
   
 <a name="action"></a>   
 ## Create a custom action  
@@ -35,7 +38,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], workflows and di
   
  ![Set up email](../customize/media/enable-custom-action-approval-process-setup-email.png "Set up email")  
   
- Before you can invoke the action from a workflow or dialog, you have to activate it. After you have activated the action, you can view its properties by choosing **View properties**.  
+ Before you can invoke the action from a workflow, you have to activate it. After you have activated the action, you can view its properties by choosing **View properties**.  
   
  ![Activate custom action &#45; approval process](../customize/media/enable-custom-action-approval-process-activate-action.png "Activate custom action - approval process")  
   
@@ -54,23 +57,9 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], workflows and di
   
  ![Set input parameters for ApprovalProcess action](../customize/media/enable-customaction-workflow-set-properties.png "Set input parameters for ApprovalProcess action")  
   
-<a name="dialog"></a>   
-## Invoke a custom action from a dialog  
-  
-1. [!INCLUDE[proc_settings_processes](../includes/proc-settings-processes.md)]  
-  
-2.  On the Nav bar, choose **New**. Give the process a name and choose the **Dialog** category.  
-  
- You can implement a scenario that’s similar to calling the **Approval Process** from a dialog as shown in the following illustration.  
-  
- ![Enable custom action from dialog](../customize/media/enable-custom-action-from-dialog.png "Enable custom action from dialog")  
-  
- Set up input parameters, as shown here.  
-  
- ![Set properties for ApprovalProcess action](../customize/media/enable-custom-action-dialog-set-properties.png "Set properties for ApprovalProcess action")  
   
 ### See also  
- [Actions](../customize/actions.md)   
- [Configure actions](../customize/configure-actions.md)
- [Workflow processes overview](../customize/workflows.md)
- [Dialogs overview](../customize/dialogs.md)
+ [Actions overview](../customize/actions.md)   
+ [Configure custom actions from a workflow](../customize/configure-actions.md)</br>
+ [Workflow processes overview](../customize/workflow-processes.md)
+

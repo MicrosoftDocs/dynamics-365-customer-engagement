@@ -1,7 +1,7 @@
 ---
-title: "Dynamics 365 App for Outlook User's Guide | MicrosoftDocs"
+title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-04-21"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,91 +16,39 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Dynamics 365 App for Outlook User's Guide
+# Dynamics 365 App for Outlook User Guide  
+
+> [!IMPORTANT]
+> This page describes how to use Dynamics 365 App for Outlook with Microsoft Dynamics CRM 2016. This version of Dynamics 365 App for Outlook does not work with the July 2017 update for Dynamics 365 (online). Check back soon for updates!
+
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
   
  For example, when you open an email message, view information from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record. When you link an email message or appointment to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
  [Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  
   
-## Which version of the app do I have?  
- We made significant updates to the app in the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)]. If your screen looks like the following, you're using the version included in [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)]:  
-  
- ![Outlook email screen with Dynamics 365 App for Outlook pane](../outlook-app/media/outlook-email-screen-dynamics-365-app-outlook-pane.png "Outlook email screen with Dynamics 365 App for Outlook pane")  
-  
- Go to [User's Guide for the latest version (Dynamics 365)](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Latest)  
-  
- If your screen looks like the following, you're using the version included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)]:  
-  
- ![Dynamics 365 App for Outlook screen showing inline data](../outlook-app/media/crm-app-outlook-preview-notrack.png "Dynamics 365 App for Outlook screen showing inline data")  
-  
- Go to [User's Guide for the previous version (Dynamics CRM)](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Previous)  
-  
-<a name="Latest"></a>   
-## User's Guide for the latest version (Dynamics 365)  
- This section of this topic describes how to use the latest version of the app, available in [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)].  
-  
- **In this section:**  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Overview)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Prerequisites](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Prerequisites)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Add the app to Outlook](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Install)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Disable or remove the Outlook app](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Disable)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Use the app for the first time](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Access)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Link an email message or meeting to a specific Dynamics 365 record](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Track)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Compose an email message and link it to a Dynamics 365 record](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#ComposeEmail)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Monitor an email message after you send it](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#EE)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Add an email template when you create an email message](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Template)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Add sales literature or a knowledge base article when you create an email message](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#KB)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Link an appointment to a specific Dynamics 365 record](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#ComposeAppointment)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Add a phone call, appointment, or task activity to Dynamics 365](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Activity)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Track Outlook contacts in Dynamics 365](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Contacts)  
-  
-<a name="Overview"></a>   
-### What Dynamics 365 App for Outlook offers  
- With [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], you can:  
-  
--   View information about [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contacts and leads while you’re working in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. You can view this info in the context of an email message, meeting, or appointment. For example, view phone numbers, company name, last and next activities, and recent records from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
--   Link email messages, meetings, and appointments to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record with a single click. For example, link an email message to a specific account, opportunity, or case. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] also supports custom entities.  
-  
--   Open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records directly to find or enter more detailed information.  
-  
--   Add a phone call, task, or appointment activity to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
--   Create a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record for any entity (record type), as long as the entity has been enabled for mobile and for multi-entity search.  
-  
--   Add email templates, knowledge articles, and sales literature when you create an email message or set up a meeting.  
-  
--   Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
+> [!NOTE]
+> This content is for the latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]. For prior releases, see [Dynamics 365 App for Outlook User's Guide](https://www.microsoft.com/en-us/dynamics/crm-customer-center/dynamics-365-app-for-outlook-user-s-guide.aspx)
+
+<!--  
 > [!TIP]
 > [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is a [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] add-in. As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] paired with [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] is the preferred way to use [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] together with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You may also be familiar with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], which provides complete [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] capabilities (including offline capabilities) from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] are used together by the same user. Choose one or the other.** 
-  
+ -->
+
 <a name="Prerequisites"></a>   
-### Prerequisites  
+
+## Prerequisites  
  Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator can make [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] available to your organization or you can add it yourself if:  
   
 -   You have the **Use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]** security privilege.  
   
 -   Your organization synchronizes mailboxes with server-side synchronization.  
   
- For more information, and for information on supported devices, browsers, and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] versions, see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).  
+ For more information, and for information on supported devices, browsers, and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] versions, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md).  
   
 <a name="Install"></a>   
-### Add the app to Outlook  
+
+## Add the app to Outlook  
  After the prerequisites have been met, you can add the app directly from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 1.  Click the **Settings** button ![Dynamics 365 web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 web client Settings button"), and then click **Apps for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.  
@@ -108,16 +56,17 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 2.  On the **Apps for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** page, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, click **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**.  
   
     > [!NOTE]
-    >  If you have trouble installing  the app, see the troubleshooting section in [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).  
+    >  If you have trouble installing  the app, see the troubleshooting section in [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md).  
   
 <a name="Disable"></a>   
-### Disable or remove the Outlook app  
+
+## Disable or remove the Outlook app  
   
 1.  In [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], click **File**, and then click **Manage Add-ins**.  
   
- ![Manage the Dynamics 365 App for Outlook add&#45;in](../outlook-app/media/manage-the-dynamics-365-app-outlook-add-in.png "Manage the Dynamics 365 App for Outlook add-in")  
+    ![Manage the Dynamics 365 App for Outlook add-in](../outlook-app/media/manage-the-dynamics-365-app-outlook-add-in.png "Manage the Dynamics 365 App for Outlook add-in")  
   
-     This opens the **Office 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-ins. If you click the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] row, you can see which [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance the app is connected to.  
+    This opens the **Office 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-ins. If you click the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] row, you can see which [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance the app is connected to.  
   
 2.  Do one of the following:  
   
@@ -126,34 +75,42 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
     -   To remove the app, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] row, and then click the Minus button.  
   
 <a name="Access"></a>   
-### Use the app for the first time  
+
+## Use the app for the first time  
  To display [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data after you’ve added the app:  
   
 1.  Select an existing email message in your Inbox, or create a new email message or appointment.  
   
 2.  On the ribbon, click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** button.  
   
- ![Dynamics 365 App for Outlook ribbon](../outlook-app/media/dynamics-365-app-outlook-ribbon.png "Dynamics 365 App for Outlook ribbon")  
+    ![Dynamics 365 App for Outlook ribbon](../outlook-app/media/dynamics-365-app-outlook-ribbon.png "Dynamics 365 App for Outlook ribbon")  
+ 
+    -Or-
+
+    Click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** button in the email pane.
+
+    ![Dynamics 365 button](media/Dynamics365Icon.png)
+ 
+    The **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane appears on the right side of the screen and shows information about the recipients.  
   
-     The **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane appears on the right side of the screen and shows information about the recipients.  
+    ![Dynamics 365 App for Outlook pane](../outlook-app/media/dynamics-365-app-outlook-pane.png "Dynamics 365 App for Outlook pane")   
+
+**Notes:**  
   
- ![Dynamics 365 App for Outlook pane](../outlook-app/media/dynamics-365-app-outlook-pane.png "Dynamics 365 App for Outlook pane")  
+-   If the recipient is a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user (as opposed to a contact or lead), it’s indicated next to their name:  
   
- **Notes:**  
+    ![Dynamics 365 user in Dynamics 365 App for Outlook](../outlook-app/media/dynamics-365-user-dynamics-365-app-outlook.png "Dynamics 365 user in Dynamics 365 App for Outlook")  
   
-    -   If the recipient is a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user (as opposed to a contact or lead), it’s indicated next to their name:  
-  
- ![Dynamics 365 user in Dynamics 365 App for Outlook](../outlook-app/media/dynamics-365-user-dynamics-365-app-outlook.png "Dynamics 365 user in Dynamics 365 App for Outlook")  
-  
-    -   If the recipient isn’t known to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can click **Add to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** to add them as a contact or lead.  
+-   If the recipient isn’t known to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can click **Add to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** to add them as a contact or lead.  
   
 <a name="Track"></a>   
-### Link an email message or meeting to a specific Dynamics 365 record  
- You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, such as an account, opportunity, or case, by clicking the **Set Regarding** button ![Set regarding button in Dynamics 365 App for Outlook](../outlook-app/media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 App for Outlook"). [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically tracks the email or meeting, and links it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane.  
+
+## Link an email message or meeting to a specific Dynamics 365 record  
+You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, such as an account, opportunity, or case, by clicking the **Set Regarding** button ![Set regarding button in Dynamics 365 App for Outlook](../outlook-app/media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 App for Outlook"). [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically tracks the email or meeting, and links it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane.  
   
- ![Set regarding button in Dynamics 365 App for Outlook pane](../outlook-app/media/set-regarding-button-dynamics-365-app-outlook-pane.png "Set regarding button in Dynamics 365 App for Outlook pane")  
+![Set regarding button in Dynamics 365 App for Outlook pane](../outlook-app/media/set-regarding-button-dynamics-365-app-outlook-pane.png "Set regarding button in Dynamics 365 App for Outlook pane")  
   
-#### To find a different record to link to:  
+### To find a different record to link to:  
   
 1.  Click **Track this email** at the top of the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane.  
   
@@ -167,7 +124,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
     -   If you don’t see the record you’re looking for, enter a keyword in the search box, and then click the magnifying glass.  
   
-#### To create a new record and link it to a Dynamics 365 record:  
+### To create a new record and link it to a Dynamics 365 record:  
   
 1.  Click **New**, and then select the type of record you want to create.  
   
@@ -181,12 +138,13 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
 4.  Click **Save**.  
   
-#### To untrack or change the regarding record:  
+### To untrack or change the regarding record:  
   
 -   Click **Change** at the top of the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane.  
   
-<a name="ComposeEmail"></a>   
-### Compose an email message and link it to a Dynamics 365 record  
+<a name="ComposeEmail"></a> 
+  
+## Compose an email message and link it to a Dynamics 365 record  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
@@ -202,11 +160,12 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
 4.  If you select a different email message in your Inbox or add people to the **To**, **Cc**, or **Bcc** line, the list of recipients will be automatically refreshed in a few seconds.  
   
-<a name="EE"></a>   
-### Monitor an email message after you send it  
+<a name="EE"></a> 
+  
+## Monitor an email message after you send it  
  You can monitor an email message after you send it to see the number of times that the message is viewed, opened, replied to, or forwarded. For a monitored email message, you can also see the last activity related to the email message, or view all activity related to the message.  
   
-#### To monitor an email message  
+### To monitor an email message  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
@@ -224,14 +183,15 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
     > [!IMPORTANT]
     >  Do not edit the email message or change the recipients after you follow it. If you edit an email message after it’s followed, you may inadvertently delete the monitoring information or you may inadvertently add recipients who shouldn’t be followed.  
   
-#### To remove the monitoring for an email message  
+### To remove the monitoring for an email message  
   
 1.  Select the monitored email message.  
   
 2.  Click **Unfollow**.  
   
 <a name="Template"></a>   
-### Add an email template when you create an email message  
+
+## Add an email template when you create an email message  
  If you frequently send the same type of email, you can save time by using an email template. When you use an email template, [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)] automatically inserts the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information such as contacts or set regarding information in the email message.  
   
  For example, you could use a Thank you template to save time whenever you want to send a thank you message to a customer.  
@@ -241,7 +201,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 > [!NOTE]
 >  You must have the appropriate permissions to add email templates.  
   
-#### To add an email template:  
+### To add an email template:  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
@@ -257,8 +217,9 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
      For information on creating email templates in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], see [Create templates for email](../admin/create-templates-email.md).  
   
-<a name="KB"></a>   
-### Add sales literature or a knowledge base article when you create an email message  
+<a name="KB"></a>
+   
+## Add sales literature or a knowledge base article when you create an email message  
  When you're working with a customer, you may want to send them some sales literature or a knowledge base article.  
   
 > [!NOTE]
@@ -275,7 +236,8 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 4.  Click **Add to Email**.  
   
 <a name="ComposeAppointment"></a>   
-### Link an appointment to a specific Dynamics 365 record  
+
+## Link an appointment to a specific Dynamics 365 record  
   
 1.  Create the appointment as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
@@ -290,9 +252,10 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
  ![Link appointment in Dynamics 365 App for Outlook](../outlook-app/media/link-appointment-dynamics-365-app-outlook.png "Link appointment in Dynamics 365 App for Outlook")  
   
 <a name="Activity"></a>   
- ### Add a phone call, appointment, or task activity to Dynamics 365  
+
+## Add a phone call, appointment, or task activity to Dynamics 365  
   
- -   Click the **Plus sign**, and then select the type of activity you want to create.  
+-   Click the **Plus sign**, and then select the type of activity you want to create.  
   
  ![Add activity in Dynamics 365 App for Outlook](../outlook-app/media/add-activity-dynamics-365-app-outlook.png "Add activity in Dynamics 365 App for Outlook")  
   
@@ -305,11 +268,12 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 -   Click **Save**.  
   
 <a name="Contacts"></a>   
-### Track Outlook contacts in Dynamics 365  
+
+## Track Outlook contacts in Dynamics 365  
  You can track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] by using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] add-in, an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] solution module.   The add-in is automatically installed when you install [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. You can access it as described below.  
   
 > [!NOTE]
->  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/en-us/dynamics/crm-customer-center/overview-tracking-records-dynamics-365-outlook.aspx) for delegated users.  
+>  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails.
   
  Using the add-in, you can:  
   
@@ -321,7 +285,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
  When the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] add-in is installed, you’ll see a new **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** tab on the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] ribbon. Click the tab to see information about contacts.  
   
- ![Dynamics 365 App for Outlook add&#45;in overview screen](../outlook-app/media/dynamics-365-app-outlook-add-overview-screen.png "Dynamics 365 App for Outlook add-in overview screen")  
+ ![Dynamics 365 App for Outlook add-in overview screen](../outlook-app/media/dynamics-365-app-outlook-add-overview-screen.png "Dynamics 365 App for Outlook add-in overview screen")  
   
 1.  Click to see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts (contacts displayed in your default contacts view in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]).  
   
@@ -338,23 +302,23 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 > [!NOTE]
 >  To use the add-in your admin must enable your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox for appointments, contacts, and tasks.  
   
-#### Access the add-in  
+### Access the add-in  
   
 1.  Click  the **More information** button (three dots) in the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] window.  
   
 2.  Click **Add-ins**.  
   
- ![Add&#45;ins menu for Outlook Solution Module](../outlook-app/media/add-ins-menu-outlook-solution-module.png "Add-ins menu for Outlook Solution Module")  
+ ![Add-ins menu for Outlook Solution Module](../outlook-app/media/add-ins-menu-outlook-solution-module.png "Add-ins menu for Outlook Solution Module")  
   
 3.  Select the **Dynamics 365** add-in.  
   
-#### See the Dynamics 365 contact card for a contact  
+### See the Dynamics 365 contact card for a contact  
   
 1.  In the contacts list, select the check box next to the contact. The contact details appear on the right side of the screen.  
   
  ![Dynamics 365 App for Outlook contact tracking contact card](../outlook-app/media/dynamics-365-app-outlook-contact-tracking-contact-card.png "Dynamics 365 App for Outlook contact tracking contact card")  
   
-#### Track or untrack a contact  
+### Track or untrack a contact  
   
 1.  Click the **[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] Contacts** tab.  
   
@@ -367,7 +331,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
     > [!IMPORTANT]
     >  Do not navigate outside the page while tracking or untracking the contact. Otherwise, it won’t be tracked or untracked.  
   
-#### Link a contact to an account or change the account that a contact is linked to  
+### Link a contact to an account or change the account that a contact is linked to  
   
 1.  Click the **[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] Contacts** tab.  
   
@@ -395,7 +359,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
     > [!NOTE]
     >  If the contact isn’t already tracked, the contact will be tracked immediately and will be linked to the account. If the contract isn’t already tracked, the account record will be synchronized in the next synchronization cycle.  
   
-#### Send email or schedule an appointment  
+### Send email or schedule an appointment  
   
 1.  Click  the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Contacts** tab, or the **Outlook Contacts** tab, and then select the check box next to the appropriate contact(s).  
   
@@ -403,19 +367,19 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
      Regardless of which tab you selected in step 1, the email, task, or appointment will be sent from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)], not [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-#### Search for a contact  
+### Search for a contact  
   
 -   Enter a value in the search box. You can search for data stored in the **Full name**, **Company**, **Department**, and **Business address** fields. You can’t search for data stored in the **Tracking** status, **Business phone**, or **Email** fields.  
   
-#### Filter by all contacts, tracked contacts, or untracked contacts  
+### Filter by all contacts, tracked contacts, or untracked contacts  
   
 1.  Click the arrow next to the view drop-down.  
   
 2.  Select the view you want.  
   
- ![Dynamics 365 App for Outlook with contract tracking filter drop&#45;down](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
+ ![Dynamics 365 App for Outlook with contract tracking filter drop-down](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
   
-#### Filter contacts by column (field)  
+### Filter contacts by column (field)  
   
 1.  Click the **Filter** button ![Dynamics 365 App for Outlook contract tracking filter button](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-button.png "Dynamics 365 App for Outlook contract tracking filter button").  
   
@@ -430,7 +394,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
     > [!NOTE]
     >  You can filter on the **Full name**, **Title**, **Company**, **Department**, and **Business address** fields. You can’t filter on the **Tracking** status, **Business phone**, or **Email** fields.  
   
-#### Add or remove columns  
+### Add or remove columns  
   
 1.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../outlook-app/media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button").  
   
@@ -441,237 +405,31 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
 3.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../outlook-app/media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button") again to hide the list of columns.  
   
-#### Move columns  
+### Move columns  
   
 -   Select the column you want to move, and then drag it to a new location.  
   
     > [!NOTE]
     >  You can’t move the **Status** column.  
   
-#### Sort data  
+### Sort data  
   
 -   To sort the data in ascending order, click the column heading. To change the sort order to descending, click the column heading again.  
   
     > [!NOTE]
     >  You can sort on the **Full name**, **Company**, **Department**, and **Business address** fields.  
   
-#### Show the latest data  
+### Show the latest data  
   
 -   Click the **Refresh** button ![Dynamics 365 App for Outlook Refresh button](../outlook-app/media/dynamics-365-app-outlook-refresh-button.png "Dynamics 365 App for Outlook Refresh button").  
   
-#### Set the number of records you see on the screen  
+### Set the number of records you see on the screen  
   
 -   Enter the number you want at the bottom of the screen.  
   
  ![Dynamics 365 App for Outlook contact tracking, number of records to show](../outlook-app/media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 App for Outlook contact tracking, number of records to show")  
   
-<a name="Previous"></a>   
-## User's Guide for the previous version (Dynamics CRM)  
- This section of this topic describes how to use the version of the app provided in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)].  
-  
- **In this section:**  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Overview2)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Prerequisites for adding and using Dynamics Dynamics 365 App for Outlook](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Prerequisites2)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Add the app to Outlook](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Install2)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Use the app for the first time](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Access)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Track an incoming email message from an unknown sender](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Track2)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Create an email message, and then track it](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Compose)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Preview information about a sender that’s already stored in Dynamics 365 as a lead or contact](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#Preview)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Change the regarding record for a tracked email message](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#ChangeRegarding)  
-  
- ![Down arrow button](../outlook-app/media/down-arrow.png "Down arrow button") [Open a Dynamics 365 record from Dynamics 365 App for Outlook](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#OpenRecord)  
-  
-<a name="Overview2"></a>   
-### What Dynamics 365 App for Outlook offers  
- [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] is a lightweight  app you can use to view [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information and track email from within [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data appears right in your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] Inbox.  
-  
- With [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], you can:  
-  
--   Tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while working in the familiar [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] environment.  
-  
--   Track incoming or outgoing email wherever you are, as long as you have access to a browser.  
-  
--   Track email or view [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data from a desktop computer or phone.  
-  
--   Link an incoming or outgoing email record to an existing record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For example, you might want to link an email message to a specific account or opportunity.  
-  
--   Convert an email message into a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
-  
--   Find out whether an email message is already tracked, and change the regarding record (the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record the message is linked to).  
-  -   Create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact records for people on the **From** list that aren’t already included in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database. You can also create new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records for any entity (record type), as long as the entity has been enabled for mobile and for multi-entity search.  
-  
--   Preview information about contacts and leads stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For example, you can find a phone number or company name for a contact or lead, or preview the last and next activities for a contact or lead.  
-  
--   Open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records directly to find or enter more detailed information.  
-  
-<a name="Prerequisites2"></a>   
-### Prerequisites for adding and using Dynamics 365 App for Outlook  
- Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator can deploy [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to your organization or you can add it yourself as long as you have the required security privileges (the **Use Dynamics 365 App for Outlook** privilege) and if your organization synchronizes incoming email with [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]. The system will let you know if these prerequisites have not been met when you attempt to add the app. If you’re an admin, and you want to learn about deploying the app, see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).  
-  
-<a name="Install2"></a>   
-### Add the app to Outlook  
- After the prerequisites have been met, you can add the app directly from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
-1.  Click the **Settings** button ![Dynamics 365 web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 web client Settings button"), and then click **Apps for Dynamics 365**.  
-  
-2.  On the **Apps for Dynamics 365** page, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, click **Add app to Outlook**.  
-  
-<a name="Access2"></a>   
-### Access the app for the first time  
- Once the app is installed, it appears as a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** tab in the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] reading pane. Just click the tab to access your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data.  
-  
- ![Choose an email then Dynamics 365](../outlook-app/media/crm-app-outlook-first-access.png "Choose an email then Dynamics 365")  
-  
- If you don’t see the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** tab, you need to enable the app.  
-  
-**If you’re using desktop [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]:**  
-  
-1.  Click **File > Manage Apps**.  
-  
-2.  Sign in, click **General > Manage add-ins**, and then select the check box for **Dynamics**   
- **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.
- 
-**If you’re using [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)]:**  
-  
-1.  Click the **Settings** button ![Dynamics 365 web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 web client Settings button")**> Manage add-ins**.  
-  
-2.  Click **General > Manage add-ins**, and then select the **Turned on** check box for **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.  
-  
- ![Turn on the Dynamics 365 add&#45;in](../outlook-app/media/crm-app-outlook-o365-enable-addin.png "Turn on the Dynamics 365 add-in")  
-  
-<a name="Track2"></a>   
-### Track an incoming email message from an unknown sender  
-  
-1.  Select the email message in your Inbox, and then click the **Dynamics**   
- **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** tab.  
-  
-     When an email message is from an unknown sender (the sender isn’t already a contact or lead in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]), you’ll see the following screen:  
-  
- ![Create Contact form with new contact button](../outlook-app/media/crm-app-outlookv2-create-contact.png "Create Contact form with new contact button")  
-  
-2.  Click **Create new contact**.  
-  
-3.  The **First Name**, **Last Name**, and **Email** fields are already filled in for you. The **Phone Number** field will be filled in if it’s available.  
-  
-     In the **Create Contact** form, fill in other fields (as much or as little as you like), and then click **Save** when you’re done entering info, or click **Edit** to open the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact form to enter more details.  
-  
- ![Fill in contact information](../outlook-app/media/crm-app-outlookv2-create-contact-data.png "Fill in contact information")  
-  
-    > [!NOTE]
-    >  If you want to enter information for a lead instead of a contact, don’t fill in any information in the **Create Contact** form. You can track the email regarding a new lead instead, as described below.  
-  
-     When you click **Save** in the **Create Contact** form, the app displays contact card information, as well as empty sections for **Next Activity**, **Last Activity**, and the first two lists on the contact form. By default, these lists are **Case Associated View** and **Opportunity Associated View**. These sections are empty because the contact doesn’t have any related records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] yet.  
-  
- ![Dynamics 365 App for Outlook showing contact information](../outlook-app/media/crm-app-outlook-contact-information.png "Dynamics 365 App for Outlook showing contact information")  
-  
-4.  To track the email, click **Track**.  
-  
- ![Choose the Track button](../outlook-app/media/crm-app-outlook-track-button.png "Choose the Track button")  
-  
-5.  Do one of the following:  
-  
-    -   If you don’t want to link the email message to an existing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, click **Or, track without setting a regarding record**.  
-  
- ![Track or Track without setting a regarding record](../outlook-app/media/crm-app-outlook-track-or-regardingv2.PNG "Track or Track without setting a regarding record")  
-  
-    -   To link the email message to an existing record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], in the search box, enter a keyword (for example, a company name), click **Lookup**![search symbol](../outlook-app/media/search--button-dynamics-crm-outlook.gif "search symbol"), and then select one of the records in the resulting list.  
-  
- ![Select a regarding account](../outlook-app/media/crm-app-outlook-track-or-regarding-datav2.png "Select a regarding account")  
-  
-When you select a record, the record appears next to **To be tracked regarding**. To open the record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], click the link.  
-  
- ![To be tracked regarding your selection](../outlook-app/media/crm-app-outlook-be-tracked-regardingv2.png "To be tracked regarding your selection")    
-> [!NOTE]
->  When you click **Track**, tracking with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] should take place right away. If syncing doesn’t occur after a few minutes, ask your administrator to verify that server-side synchronization is working for sending email from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
-- To create a new record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (for example, to create a lead record instead of a contact record) and link it to the email activity record:  
-  
-1.  Click **New**![Dynamics 365 App for Outlook New &#40;Plus&#41; button](../outlook-app/media/crm-app-outlook-new-button.png "Dynamics 365 App for Outlook New (Plus) button") next to any enabled entity.  
-  
-2.  In the quick create form, fill out the fields.  
-  
-3.  Click **Save** to save the record if you’re done adding information. To enter more detailed information, click **Save and edit in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.  
-  
-> [!NOTE]
->  The entities shown on the tracking page have been enabled for mobile and enabled for multi-entity search. For more information on enabling entities, see                                              [Entities and Dynamics 365 for phones and Dynamics 365 for tablets](https://technet.microsoft.com/library/dn531128.aspx#BKMK_PhoneEntities).  
-  
-<a name="Compose"></a>   
-### Create an email message, and then track it  
- You can also track outgoing email. When you create an email message, the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane appears on the right side of the screen.  
-  
-> [!NOTE]
->  Tracking email in compose mode is temporarily unavailable for [!INCLUDE[pn_ms_outlook_2013_short](../includes/pn-ms-outlook-2013-short.md)] or [!INCLUDE[pn_outlook_2016](../includes/pn-outlook-2016.md)].                  For more information, see [Can’t track emails in CRM App for Outlook](https://support.microsoft.com/help/3163174/can-t-track-emails-in-crm-app-for-outlook).  
->   
->  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/en-us/dynamics/crm-customer-center/overview-tracking-records-dynamics-365-outlook.aspx) for delegated users.  
-  
-#### Track an email message that you create  
-  
-1.  Click **Track this email?** at the top of the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane.  
-  
-2.  If the name you enter on the **To** or **CC** line doesn’t match a contact record in the Dynamics 365 database, click **Create new contact** to create a contact record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
-<a name="Preview"></a>   
-### Preview information about a sender that’s already stored in Dynamics 365 as a lead or contact  
-  
--   Select the email message in your Inbox, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** tab.
- 
-The information you’ll see includes:  
-  
--   Contact information about the person (lead or contact) the email message is from  
-  
--   Next and last activities  
-  
--   Other related records, which include records from lists on the associated entity’s main form  
-  
-> [!NOTE]
->  The related records you see may vary based on whether your system has been customized. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] displays two records from each view. If you want to see all records related to a contact or lead, click the contact or lead name in the contact card.  
-  
- ![Dynamics 365 App for Outlook showing related records](../outlook-app/media/crm-app-outlook-preview-track.png "Dynamics 365 App for Outlook showing related records")  
-  
-<a name="ChangeRegarding"></a>   
-### Change the regarding record for a tracked email message  
-  
-1.  Open the email message, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** tab.  
-  
-2.  Click **Change**.  
-  
- ![Change the track regarding](../outlook-app/media/crm-app-outlook-be-tracked-regarding-changev2.PNG "Change the track regarding")  
-  
-3.  Do one of the following:  
-  
-    -   To untrack the record, click **Or track without setting a regarding record**.  
-  
-    -   To select a different [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, enter a keyword (for example, a company name) in the search box, click **Lookup**![search symbol](../outlook-app/media/search--button-dynamics-crm-outlook.gif "search symbol"), and then select a record from the results list.  
-  
-    -   To create a new record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and link it to the email activity record:  
-  
-        1.  Click **New**![Dynamics 365 App for Outlook New &#40;Plus&#41; button](../outlook-app/media/crm-app-outlook-new-button.png "Dynamics 365 App for Outlook New (Plus) button") next to any enabled entity.  
-  
-        2.  In the quick create form, fill out the fields.  
-  
-        3.  Click **Save** to save the record if you’re done adding information. To enter more detailed information, click **Save and edit in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.  
-  
-<a name="OpenRecord"></a>   
-### Open a Dynamics 365 record from Dynamics 365 App for Outlook  
- You can open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] forms directly for contacts and other records. To open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records, click any of the following links:  
-  
--   The name of the lead or contact  
-  
--   The **Pop Out** button ![Dynamics 365 App for Outlook popup button](../outlook-app/media/crm-app-outlook.png "Dynamics 365 App for Outlook popup button")  
-  
--   The name of the regarding record (once the email has been tracked)  
-  
--   Any record or activity tile  
-  
 ### See also  
- [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx)   
- [Set up server-side synchronization (admins)](https://technet.microsoft.com/library/dn531109.aspx)   
+ [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   
+ [Set up server-side synchronization (admins)](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
  

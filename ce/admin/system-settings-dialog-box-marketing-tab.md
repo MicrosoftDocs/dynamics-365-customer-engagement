@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Marketing tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "kamaybac"
 manager: "sakudes"
 ---
 # System Settings dialog box - Marketing tab
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the settings on this page to configure marketing settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 ## Open the Marketing System Settings dialog box (if it isn’t already open)  

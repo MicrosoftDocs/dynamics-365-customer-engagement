@@ -1,7 +1,7 @@
 ---
 title: "Set incoming and outgoing email synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Set incoming and outgoing email synchronization
+# Set incoming and outgoing email synchronization 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You have several options for synchronizing email messages with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Use the following information to deploy the best option for your company.  
   
 ## Set the synchronization method  
@@ -26,13 +29,13 @@ You have several options for synchronizing email messages with [!INCLUDE[pn_micr
   
 2.  Click the **Email Configuration Settings** > **Email tab**.  
   
- You can set the synchronization method for individual mailboxes:  
+You can set the synchronization method for individual mailboxes:  
   
 1.  Go to **Settings** > **Email Configuration**  
   
 2.  Click **Mailboxes** > select a mailbox.  
   
- For information on picking a synchronization method, see [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md).  
+For information on picking a synchronization method, see [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md).  
   
 ## Incoming email messaging options  
  The available incoming email configurations that you can use when a user or a queue receives [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] email messages are as follows:  
@@ -55,5 +58,4 @@ You have several options for synchronizing email messages with [!INCLUDE[pn_micr
 - **Server-Side Synchronization or Email Router**. This option delivers [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] email messages by using the server-side synchronization or Email Router component. The email system must be [!INCLUDE[pn_SMTP](../includes/pn-smtp.md)]-compliant. The server-side synchronization or Email Router can be installed on the [!INCLUDE[pn_SMTP](../includes/pn-smtp.md)] server or on a different computer that has a connection to the [!INCLUDE[pn_SMTP](../includes/pn-smtp.md)] server.  
   
 ### See also  
- [Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)   
  [Forward mailbox vs. individual mailboxes](../admin/forward-mailbox-vs-individual-mailboxes.md)

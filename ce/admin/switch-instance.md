@@ -1,7 +1,7 @@
 ---
 title: "Switch a Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,13 +17,16 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Switch an instance
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You may decide that your customization work developed and tested on a Sandbox instance is now ready to go live. If you’ve placed your Sandbox instance in administration mode, only users with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or System Customizer security roles are able to sign in to that instance. Once you switch the instance type to Production, all your users can access your Dynamics 365 organization. When you configure or edit an instance, you can switch the instance from:  
   
 -   Production to Sandbox  
   
 -   Sandbox to Production  
   
- Switching an instance does not change the number of your purchased licenses. Review the **License considerations** section for how switching can impact license allocation.  
+Switching an instance does not change the number of your purchased licenses. Review the **License considerations** section for how switching can impact license allocation.  
   
 <a name="BKMK_Switch"></a>   
 ## Switch an instance  

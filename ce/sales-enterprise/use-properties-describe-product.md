@@ -1,7 +1,7 @@
 ---
-title: "Use properties to describe a product (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Use properties to describe a product (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 24
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Use properties to describe a product (Sales, Enterprise)
+# Use properties to describe a product (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Simplify product management and classification by adding properties that help distinguish products from one another. Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they’re building orders.  
   
  A property of a product could be its size, color, or component and so on. Properties are added at the family level. You can add properties only to a family, and only when it is in a draft or under revision state. The child products, bundles, and families inherit the properties from their parent family.  

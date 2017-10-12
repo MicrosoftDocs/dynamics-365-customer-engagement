@@ -1,7 +1,7 @@
 ---
-title: "Manage dashboard components in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Manage dashboard components (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,11 +16,14 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Manage dashboard components
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can create and design dashboards to show the information that you want exactly how you want to see it. While designing the dashboard, you can rearrange or remove the components that you have already added and change the height and width of a component.  
   
  By default, you can add only six components to any dashboard layout. This limit is configurable. For more information, contact your system administrator.  
   
-1.  Go to your work area. [(How do I get there?)](http://go.microsoft.com/fwlink/p/?LinkId=525636)  
+1.  Go to your work area.  
   
 2.  Do one of the following:  
   
@@ -41,4 +44,4 @@ You can create and design dashboards to show the information that you want exact
 8.  To remove a component, select it and click **Remove**. When you remove a component, any new components are added in the bottom area of the designer. You can rearrange the components at any time after you insert them.  
   
 ### See also  
- [Create or customize dashboards](create-customize-dashboards.md)
+[create or customize dashboards](create-edit-dashboards.md)

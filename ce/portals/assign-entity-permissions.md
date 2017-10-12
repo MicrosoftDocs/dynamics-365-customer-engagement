@@ -1,8 +1,8 @@
 ---
-title: "Add record-based security by using entity permissions for a portal in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to add entity permission and assign web roles to it."
+title: "Add record-based security by using Entity Permissions for a portal in Dynamics 365 | MicrosoftDocs"
+description: "Instructions to add an Entity Permission and assign web roles to it."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,20 +14,23 @@ ms.author: shjais
 manager: sakudes
 ---
 # Add record-based security by using entity permissions for portals
-Record-based security in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals that applies to individual records is provided by using Entity Permissions.Entity Permissions are added to Web Roles, allowing you to define roles in your organization which logically correspond to the privileges and concepts of record ownership/access that are introduced with Entity permissions. Remember that a given Contact can belong to any number of roles and a given role can contain any number of Entity Permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md) 
+Record-based security in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals that applies to individual records is provided by using Entity Permissions. Entity Permissions are added to Web Roles, allowing you to define roles in your organization which logically correspond to the privileges and concepts of record ownership/access that are introduced with Entity permissions. Remember that a given Contact can belong to any number of roles and a given role can contain any number of Entity Permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md) 
 
 Although permissions to change and access URLs in a portal sitemap is granted via Content Authorization, site managers will also want to secure their custom web applications built with Entity Forms and Entity Lists. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md) and [Add a webpage to render a list of records](#add-a-webpage-to-render-a-list-of-records)  
 
 To secure these features, Entity Permissions allow for granular rights to be granted for arbitrary entities and for record-level security to be enabled via relationship definitions.
 
 ## Add entity permissions to a web role
-1. Navigate to the Web Role you wish to add the permissions to. Web roles for a website can be found in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in either **Portals** &gt; **Web Roles** or **Portals** &gt; **{your portal}** &gt; **Web Roles**.
-2. Click to **Add** an Existing Entity Permission. 
-3. Click to create a **New** Entity Permissions Record.
+1. Navigate to the Web Role you want to add the permissions to. Web roles for a website can be found in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in either **Portals** &gt; **Web Roles** or **Portals** &gt; **{your portal}** &gt; **Web Roles**.
+2. Select **Add** to add an existing Entity Permission to a web role. 
+3. Select **New** to create a new Entity Permission record.
 
     ![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
 
 When creating a new Entity Permission record, the first step is to Determine the **Entity** that will be secured. The next step is to define **Scope**, as discussed below, and in the case of any scope besides Global, the **Relationships** that define that scope must be specified. Finally, determine the Rights that are being granted to the Role via this permission. Note that rights are cumulative, so if a user is in a role that grants Read, and another that grants read and update, the user will have read and update to any records that overlap between the two roles.
+
+> [!Note]
+> Selecting CMS entities like web page and web files is invalid and may have other unintended consequences. The portal will assert security of CMS entities based on content access controls and not entity permissions.
 
 ### Global scope
 
@@ -79,7 +82,7 @@ The table below explains the Entity Permission attributes.
 
 ## Global permissions for tasks related to leads
 
-In one scenario, one might want to use an entity list and entity form(s) to surface all leads on the portal, to anyone in a custom "Lead Manager" Web Role. On the Lead Edit Form, which is launched whenever a lead row is clicked on the List, there will be a subgrid displaying related Task records. These records should be accessible to anyone in the Lead manager role. As the first step, we'll give Global Permissions to leads to anyone in our Lead Manager Role.
+In one scenario, one might want to use an entity list and entity forms to surface all leads on the portal to anyone in a custom "Lead Manager" Web Role. On the Lead Edit Form, which is launched whenever a lead row is selected on the list, there will be a subgrid displaying related Task records. These records should be accessible to anyone in the Lead manager role. As the first step, we'll give Global Permissions to leads to anyone in our Lead Manager Role.
 
 This role has a related Entity Permission for the "Lead" entity, with a Global scope.
 
@@ -87,7 +90,7 @@ Users in this role can access all leads via Entity Lists or Forms on the portal.
 
 ![Grant global permissions to a lead](media/grant-global-permission-leads.png "Grant global permissions to a lead")  
 
-We will now add a Child Permission to the Global Lead Permission. With the Parent permission record open, first go to the **Child Entity Permissions** subgrid and click **New** to open a lookup for entity permissions, then click the magnifying glass and click **New** to add a new record.
+We will now add a Child Permission to the Global Lead Permission. With the Parent permission record open, first go to the **Child Entity Permissions** subgrid, select **New** to open a lookup for entity permissions, select the magnifying glass, and then select **New** to add a new record.
 
 ![Add entity permissions to a web role](media/add-entity-permission-web-role.png "Add entity permissions to a web role")  
 

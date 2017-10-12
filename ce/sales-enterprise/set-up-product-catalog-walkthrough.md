@@ -1,7 +1,7 @@
 ---
-title: "Set up a product catalog: Walkthrough (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Set up a product catalog: Walkthrough (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 28
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Set up a product catalog (Sales, Enterprise)
+# Set up a product catalog (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Make it easier for your sales reps to increase their sales by creating a product catalog. The product catalog is a collection of products and their pricing information. To set up pricing, you need to define the units in which your products are sold, the amount to charge for each unit, and the discounts you want to offer based on volume purchased.  
   
  Other than setting up the pricing for products, product catalog also supports product taxonomy that lets you create a rich classification of products. This helps ensure that your customers receive the most appropriate and complete solution.   
@@ -35,3 +38,4 @@ Make it easier for your sales reps to increase their sales by creating a product
 
 ### See Also
  [Create a product family](../sales-enterprise/create-product-family.md)
+ [Overview of Sales](../sales-enterprise/user-guide.md)

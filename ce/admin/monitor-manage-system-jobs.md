@@ -1,7 +1,7 @@
 ---
 title: "Monitor and manage system jobs for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Monitor and manage system jobs
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Several [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features use system jobs to perform tasks automatically, including workflows, import, and duplicate detection, running independently or in the background.  
   
  You can monitor them to ensure that they run smoothly or have completed successfully.  

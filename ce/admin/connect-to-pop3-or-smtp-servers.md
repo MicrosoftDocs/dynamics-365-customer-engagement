@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 to POP3 or SMTP servers | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-02-28"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,10 +16,13 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Connect Dynamics 365 to POP3 or SMTP servers
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] with POP3/IMAP and SMTP email servers such as used for Gmail and Yahoo! Mail.  
   
 > [!NOTE]
->  For POP3/SMTP systems supported by Microsoft, check out the following topic : [Supported email service configurations for server-side synchronization](Supported%20email%20service%20configurations%20for%20server-side%20synchronization.md).  
+>  For POP3/SMTP systems supported by Microsoft, check out the following topic : [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
   
 <a name="BKMK_CreateProfile"></a>   
 ## Create an email server profile  
@@ -68,15 +71,17 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
   
     - **Outgoing Email**: Server-Side Synchronization or Email Router  
   
-    - **Appointments, Contacts, and Tasks**: Microsoft Dynamics 365 for Outlook  
+    - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router  
   
         > [!NOTE]
         >  Server-Side Synchronization or Email Router for Appointments, Contacts, and Tasks is not supported for the POP3-SMTP profile.  
   
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
-  
- ![System Settings for server&#45;side synchronization](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
-  
+ 
+ 
+ ![System Settings for server-side synchronization](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
+
+
 3.  Click **OK**.  
   
 <a name="BKMK_ConfigureMailboxes"></a>   
@@ -111,10 +116,8 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
   
 5.  Set **Incoming** and **Outgoing** **Email** to **Server-Side Synchronization or Email Router**.  
   
-6.  Set **Appointments, Contacts, and Tasks** to **None** or **Microsoft Dynamics 365 for Outlook**.  
+6.  Set **Appointments, Contacts, and Tasks** to **None**.  
   
-    > [!NOTE]
-    >  If your users primarily use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] on their desktop computers, choose **Microsoft Dynamics 365 for Outlook**.  
   
 7.  Click **Change**.  
   
@@ -143,12 +146,13 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
   
      The result of the email configuration test is displayed in the **Incoming Email Status**, **Outgoing Email Status**, and **Appointments, Contacts, and Tasks Status** fields of a mailbox record. An alert is also generated when the configuration is successfully completed for a mailbox. This alert is shown to the mailbox owner.  
   
-     You can find information on recurring issues and other troubleshooting information in [Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](Troubleshooting%20and%20monitoring%20server-side%20synchronization.md).  
+     You can find information on recurring issues and other troubleshooting information in [Blog: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?LinkID=391868).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 <a name="BKMK_TestEmailConfig"></a>   
+
 ## Test email configuration for all mailboxes associated with an email server profile  
   
 1.  Go to **Settings** > **Email Configuration** > **Email Server Profiles**.  
@@ -158,26 +162,25 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
      When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] tests the email configuration of all the mailboxes associated with the POP3-SMTP profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.  
   
 > [!TIP]
->  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?LinkID=391868).  
+>  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 <a name="BKMK_NetworkPorts"></a>   
+
 ## Network ports for Dynamics 365 (online) Government  
  The following ports are open for outbound connections between Dynamics 365 (online) Government and internet services.  
   
 -   80 HTTP  
   
--   443 HTTPS  
+-   443 HTTPS 
   
 -   465 Secure SMTP  
   
 -   995 Secure POP3  
   
- Customizations or email configurations in Dynamics 365 (online) Government can only use these ports.  
+Customizations or email configurations in Dynamics 365 (online) Government can only use these ports.  
   
-## See Also  
- [Troubleshooting and monitoring server-side synchronization](Troubleshooting%20and%20monitoring%20server-side%20synchronization.md)   
+### See also  
+ [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md) <br />
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
- [Integrate your email system with Microsoft Dynamics 365](Integrate%20\(synchronize\)%20your%20email%20system%20with%20Microsoft%20Dynamics%20365.md)   
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
- [Server-side synchronization](Server-side%20synchronization.md)   
- [Microsoft Dynamics 365 (online) Government](https://technet.microsoft.com/library/dn903171.aspx)
+ [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
+ [Microsoft Dynamics 365 (online) Government](../admin/government/microsoft-dynamics-365-government.md)

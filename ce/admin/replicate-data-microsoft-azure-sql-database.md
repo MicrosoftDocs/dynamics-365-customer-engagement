@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,15 +17,18 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Replicate data to Azure SQL Database
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-[!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] is an add-on service made available on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] that adds the ability to replicate [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data to a [!INCLUDE[pn_ms_azure_sql_database](../includes/pn-ms-azure-sql-database.md)] store in a customer-owned [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription. The supported target destinations are [!INCLUDE[pn_ms_azure_sql_database](../includes/pn-ms-azure-sql-database.md)] and [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)][!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] on [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] virtual machines.  The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] intelligently synchronizes the entire [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data initially and thereafter synchronizes on a continuous basis as changes occur (delta changes) in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system. This helps enable several analytics and reporting scenarios on top of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] data and analytics services and opens up new possibilities for customers and partners to build custom solutions.  
   
 > [!NOTE]
 >  You can use the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] with:  
 >   
->  - [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]  
+> - [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]  
 > - [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]  
   
- For information about the programmatic interface for managing configuration and administration of the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)], see [MSDN: Data Export Service](https://msdn.microsoft.com/library/mt788315.aspx).  
+ <!-- For information about the programmatic interface for managing configuration and administration of the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)], see [Data Export Service](../developer/data-export-service.md).  -->
   
 <a name="Prereq_DES"></a>   
 ## Prerequisites for using [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)]  
@@ -108,9 +111,23 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-[!INCLUDE[cc_Dat
 <a name="shouldknowDES"></a>   
 ## What you should know before using the Data Export Service  
   
--   Export Profiles must be deleted and then re-created when you restore or move a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance to a different country/region. To do this, delete the Export Profile in the EXPORT PROFILES view, then delete the tables and stored procedures, and then create a new profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to delete all Data Export Profile tables and stored procedures](#Delete_DEP)  
+-   Export Profiles must be deleted and then re-created whenever you perform any of the following actions on a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. 
+    - Restore an instance.
+    - Copy (either full or minimal) an instance.
+    - Reset an instance.
+    - Move an instance to a different country or region.
+
+  To do this, delete the Export Profile in the EXPORT PROFILES view, then delete the tables and stored procedures, and then create a new profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to delete all Data Export Profile tables and stored procedures](#Delete_DEP)  
   
--   The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] doesn’t work for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] sandbox instances that are configured with **Enable administration mode** turned on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administration mode](https://technet.microsoft.com/en-us/library/dn659833.aspx)  
+-   The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] doesn’t work for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] sandbox instances that are configured with **Enable administration mode** turned on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administration mode](manage-sandbox-instances.md#administration-mode)  
+
+- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] does not drop (delete) the associated tables, columns, or stored procedure objects in the destination Azure SQL database when the following actions occur.
+   - An entity is deleted in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
+   - A field is deleted in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
+   - An entity is removed from an Export Profile.
+   
+   These items must be dropped manually.  [How to delete Data Export Profile tables and stored procedures for a specific entity](#drop_entity)
+   Metadata delete notifications are logged in the unprocessablemessages folder. [Error handling and monitoring](#error_handling)
   
 <a name="dataexportprofile"></a>   
 ## Export Profile  
@@ -185,7 +202,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-[!INCLUDE[cc_Dat
   
 6.  In the **Select Relationships** step, you can synchronize  the M:N (many-to-many) relationships that exist with the entities you selected in the previous step. Click **Next**.  
   
- ![Create Export Profile &#45; Manage Relationships &#45; Select Relationships](../admin/media/data-export-profile-3.PNG "Create Export Profile - Manage Relationships - Select Relationships")  
+ ![Create Export Profile - Manage Relationships - Select Relationships](../admin/media/data-export-profile-3.PNG "Create Export Profile - Manage Relationships - Select Relationships")  
   
 7.  In the **Summary** step, click **Create and Activate** to create the profile record and connect to the Key Vault, which begins the synchronization process. Otherwise, click **Create** to save the Export Profile and activate later.  
   
@@ -212,7 +229,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-[!INCLUDE[cc_Dat
 5.  Click **Update** to submit your changes to the Export Profile.  
   
 > [!IMPORTANT]
->  When you remove an entity or entity relationship from an Export Profileit doesn't drop the corresponding table in the destination database. Before you can re-add an entity that has been removed, you must drop the corresponding table in the destination database.  To drop an entity table, see [How to delete Data Export Profile tables and stored procedures for a specific entity](#drop_entity).  
+>  When you remove an entity or entity relationship from an Export Profile it doesn't drop the corresponding table in the destination database. Before you can re-add an entity that has been removed, you must drop the corresponding table in the destination database.  To drop an entity table, see [How to delete Data Export Profile tables and stored procedures for a specific entity](#drop_entity).  
   
 <a name="table_details"></a>   
 ## Table details for the destination Azure SQL Database  
@@ -275,7 +292,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-[!INCLUDE[cc_Dat
 ## Error handling and monitoring  
  To view the synchronization status of an Export Profile, go to **Settings** > **Data Export** and open the Export Profile. On the **ENTITIES** tab, the synchronization status is displayed including a **Failed Records** column for records that could not be synchronized. For any failed records, a list of those records including the status reason can be downloaded by clicking **FAILED RECORDS** on the command bar.  
   
- ![Export Profile command bar &#45; Failed Records button](../admin/media/data-export-command-bar.png "Export Profile command bar - Failed Records button")  
+ ![Export Profile command bar - Failed Records button](../admin/media/data-export-command-bar.png "Export Profile command bar - Failed Records button")  
   
  In the Export Profile you can click **PROPERTIES & OVERVIEW** to display the properties of the profile. Click **RELATIONSHIPS** to view the relationships synchronization status.  
   
@@ -422,6 +439,7 @@ The statement has been terminated.
   
 ### See also  
  [AppSource: Dynamics 365 - Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)   
- [What's new with Microsoft Dynamics 365 ‒ Data Export Service?](../admin/whats-new-with-data-export-service.md)   
- [Manage your data](../admin/manage-your-data.md)   
- [MSDN: Data Export Service](https://msdn.microsoft.com/library/mt788315.aspx)
+ [What's new with Microsoft Dynamics 365 ‒ Data Export Service?](../admin/whats-new-with-data-export-service.md) 
+ [Manage your data](../admin/manage-your-data.md)  
+ 
+ <!-- [Data Export Service](../developer/data-export-service.md) -->

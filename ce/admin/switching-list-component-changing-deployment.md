@@ -1,7 +1,7 @@
 ---
 title: "Switching from the list component or changing the deployment for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Switching from the list component or changing the deployment
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Follow the steps described here to switch from the list component to server-based authentication or if you change the [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] deployment type, such as moving from [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  
   
 <a name="BKMK_switchlistcomp"></a>   
@@ -49,8 +52,11 @@ Follow the steps described here to switch from the list component to server-base
 4.  Repeat step three for all sites that you want to deactivate.  
   
 ### See also  
- [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](../admin/configure-server-based authentication-sharepoint-online.md)   
+ [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)   
  [Configure server-based authentication with Dynamics 365 Online and SharePoint on-premises](../admin/configure-server-based-authentication-sharepoint-on-premises.md)   
-<!-- [Configure server-based authentication with Microsoft Dynamics 365 (on-premises) and SharePoint Online](Configure%20server-based%20authentication%20with%20Microsoft%20Dynamics%20365%20\(on-premises\)%20and%20SharePoint%20Online.md)   
- [Configure server-based authentication with Microsoft Dynamics 365 (on-premises) and SharePoint on-premises](Configure%20server-based%20authentication%20with%20Microsoft%20Dynamics%20365%20\(on-premises\)%20and%20SharePoint%20on-premises.md)   -->
  [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md)
+
+<!-- 
+[Configure server-based authentication with Microsoft Dynamics 365 (on-premises) and SharePoint Online](Configure%20server-based%20authentication%20with%20Microsoft%20Dynamics%20365%20\(on-premises\)%20and%20SharePoint%20Online.md)   
+ [Configure server-based authentication with Microsoft Dynamics 365 (on-premises) and SharePoint on-premises](Configure%20server-based%20authentication%20with%20Microsoft%20Dynamics%20365%20\(on-premises\)%20and%20SharePoint%20on-premises.md)   
+--> 

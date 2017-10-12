@@ -1,7 +1,7 @@
 ---
 title: "Add and edit multiregional instances of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,14 +17,17 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Add and edit multiregional instances
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   
- Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Professional or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Enterprise subscription.  
+ Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Professional or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Enterprise subscription.  
   
- You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assigning-admin-roles-d58b8089-cbfd-41ec-b64c-9cfcbef495ac).  
+ You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
 > [!NOTE]
->  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (production and non-production) in more than one geographical region, please contact your account manager or [Technical Support](http://go.microsoft.com/fwlink/p/?LinkID=321650).  
+>  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (production and non-production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
 <a name="BKMK_info_instance"></a>   
 ## What information do I need to create an instance?  
@@ -65,7 +68,7 @@ For multinational companies with employees and customers distributed around the 
   
 3.  Proceed through the screens to purchase additional instances.  
   
-     You can choose to add production or non-production (Sandbox) instances. For more information, see [Microsoft Dynamics CRM pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
+     You can choose to add production or non-production (Sandbox) instances. For more information, see [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=324564).  
   
 ### Step 2: Configure the additional instance for a region  
   
@@ -82,7 +85,7 @@ For multinational companies with employees and customers distributed around the 
     >   
     >  You cannot start a new [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance until you click **Configure** and complete the configuration process.  
     >   
-    > [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances will not come prepared with sample data when configured by a Global administrator who does not have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system administrator security role. For more information, see [Add or remove sample data](http://go.microsoft.com/fwlink/p/?LinkID=512846).  
+    > [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances will not come prepared with sample data when configured by a Global administrator who does not have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] license. Sample data may be added later, after the instance is configured and ready to use, by a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] licensed user who has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system administrator security role. For more information, see [Add or remove sample data](add-remove-sample-data.md).  
   
 5.  On the **configure new instance** page, select a region for the instance.  
   
@@ -129,6 +132,6 @@ For multinational companies with employees and customers distributed around the 
  [Edit properties of an instance](../admin/edit-properties-instance.md)   
  [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
  [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Differences between the Office 365 administrative roles and Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191618.aspx#BKMK_O365CRMroles)   
+ [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 (online) security roles](grant-users-access.md) <br />
  [Grant users access to Microsoft Dynamics 365 (online) as a Microsoft Online service](../admin/grant-users-access.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)

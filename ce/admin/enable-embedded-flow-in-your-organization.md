@@ -1,7 +1,7 @@
 ---
 title: "Enable embedded Flow in your Dynamics 365 Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,8 +17,19 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Enable embedded Flow to automate processes
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Flow lets you create automated processes between your favorite apps and services. The ability to run flows from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] makes it simple for users to combine a broad spectrum of services that can be initiated from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], such as messaging, social engagement, and document routing services.  
+
+[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instances use the default Flow environment. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
   
+The embedded Flow feature is not available in the following service or geographic regions.
+-  Microsoft Dynamics 365 Government
+-  Germany
+-  United Kingdom (UK)
+-  South America
+
  Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
   
 -   Name: prvFlow  
@@ -27,11 +38,9 @@ Flow lets you create automated processes between your favorite apps and services
   
 ## Prerequisites  
   
--   A Flow environment. Every Flow user has the ability to save flows in the default environment. To control data locality, services that can run flows, and isolation boundaries, we recommend that you create at least one Flow environment for your organization to use with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using environments within Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)  
-  
 -   A Flow connection for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (recommended). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connectors](https://docs.microsoft.com/connectors/)  
   
--   One more flows created in the Flow environment to use with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
+-   One or more flows created in the Flow environment to use with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
   
 ## Enable or disable Flow in your Dynamics 365 organization  
  By default, all security roles allow users to run flows on the records that they have access to.  
@@ -42,19 +51,13 @@ Flow lets you create automated processes between your favorite apps and services
   
 2.  Enable or disable Flow in your organization.  
   
-    -   To enable, under **Enable Microsoft Flow** click **Yes**, and then click **Login**.  
-  
-        > [!NOTE]
-        >  To use embedded Flow with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you must login under the same [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-  
-         Next, select the Flow environment that you want to use with embedded Flows in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For more information about Flow environments, see [Learn all about Flow environments](https://flow.microsoft.com/guided-learning/learning-environments/)  
-  
+    -   To enable, under **Enable Microsoft Flow** click **Yes**.  
+    
     -   To disable, under **Enable Microsoft Flow** click **No**.  
   
- ![Enable embedded Flow](../admin/media/embed-flow-enable.png "Enable embedded Flow")  
+        ![Enable embedded Flow](../admin/media/embed-flow-enable.png "Enable embedded Flow")  
   
 3.  Click **OK** to close System Settings.  
   
 ### See also  
- [Create and edit business rules](../customize/create-edit-business-rules.md)   
  [Create and edit web resources](../customize/create-edit-web-resources.md)

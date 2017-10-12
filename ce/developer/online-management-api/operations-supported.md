@@ -1,7 +1,7 @@
 ---
 title: "Operations supported by Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Provides information about the operations you can perform using the Online Management API to manage your Customer Engagement instances."
-ms.date: "2017-07-25"
+ms.date: 07/25/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
@@ -46,7 +46,6 @@ The following additional operations related to Customer Engagement instances are
 |Retrieve languages  |Retrieves information about all the supported languages for Customer Engagement. |[Get Languages](/rest/api/admin.services.crm.dynamics.com/getlanguages)|
 |Retrieve operation status  |Retrieves status of any operation that you perform using the API. |[Get Operation Status](/rest/api/admin.services.crm.dynamics.com/getoperationstatus)|
 |Update Admin Mode setting  |Controls a Customer Engagement instance admin mode settings. If you put admin mode for a Customer Engagement instance, only administrator can access the instance. This is helpful for installing large updates to an instance, and you don't want users to access the instance until the update is complete. Restoring an instance results in enabling Admin Mode for the restored instance.|[Update Instance Admin Mode](/rest/api/admin.services.crm.dynamics.com/updateinstanceadminmode)|
-|Create and retrieve tenant application identity  |A tenant appication identity enables you to authorize an app on your behalf to perform operations on Customer Engagement instances.|[Create Tenant Application Identity](/rest/api/admin.services.crm.dynamics.com/createtenantapplicationidentity)<br /><br />[Get Tenant Application Identity](/rest/api/admin.services.crm.dynamics.com/gettenantapplicationidentity)|
 
 ## Tenant Application Identity-related operations
 

@@ -2,7 +2,7 @@
 title: "Manage knowledge articles using content access levels for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage knowledge articles by using content access levels in a portal."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,23 +17,29 @@ manager: sakudes
 
 Content access levels give another level of control separate from web roles to control access to knowledge articles in a portal. Content access levels make a well-designed knowledge base more capable of providing the right content to the right audience. This allows for more structured learning paths that keep irrelevant content from surfacing.
 
-To turn on the content access level&ndash;based filtering of knowledge articles on your portal, set the value of the KnowledgeManagement/ContentAccessLevel/Enabled site setting to true.
+By default, three content access levels are available: Default, Registered Users, and Premium Users. The Default content access level is associated with the Anonymous Users and Authenticated Users web roles. You can create additional content access levels and associate each of them with account, contact, or web role.
+
+When you create a new knowledge article, the Default content access level is applied to it by default. When you translate or version your knowledge articles, the associated products and content access levels are copied to the new version or translation, thereby simplifying the authoring experience. You can validate the content access levels and products associated with an article before publishing it.
+
+Portal navigation and search results consider the content access level(s) associated to the logged-in user. If the user does not have the necessary content access level permission to view a knowledge article, or if the user attempts to open an article under [faceted search conditions](improve-portal-search-faceted-search.md), the Article Unavailable message is displayed.
+
+The content access level based filtering is not enabled by default. To enable content access level based filtering of knowledge articles on your portal, set the value of the KnowledgeManagement/ContentAccessLevel/Enabled site setting to true.
 
 ## Create content access levels
 
 1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Content Access Levels**
-2. In the ribbon, click **New**.
+2. In the ribbon, select **New**.
 3. Fill in the **Name** and **Description**.
 4. Change **Default Access Level** from **No** to **Yes** if it should be the default.
-5. In the ribbon, click **Save**.
+5. In the ribbon, select **Save**.
 
 ## Assign content access levels to knowledge articles
 
 1.  Open the Interactive Service Hub.
 2.  Select the knowledge article you want to edit, or create a new article.
-3.  Click **Summary** just above the progress bar.
-4.  Under **Related Information** (third column) select the symbol that looks like a lock.
-5.  Press **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
+3.  Select **Summary** just above the progress bar.
+4.  Under **Related Information** (third column), select the symbol that looks like a lock.
+5.  Select **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
 
 ## Assign content access levels to portal users
 

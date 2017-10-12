@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Relationship analytics for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Preview feature: Use Relationship analytics to gather KPIs
+# Preview feature: Use Relationship analytics to gather KPIs 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories related to any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
   
  Relationship analytics help sales professionals and managers answer questions such as:  
@@ -39,7 +42,7 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
   
 -   How long does it take our team to respond?  
   
- Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and is only available in North American sites using US English (en-us). Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable this preview feature, plus version requirements, prerequisites, and any known issues, see [Preview feature: Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and is only available in North American sites using US English (en-us). Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable this preview feature, plus version requirements, prerequisites, and any known issues, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
   
 > [!IMPORTANT]
 > **Browser requirements during preview:** The preview version of relationship analytics requires  the latest version of either [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]. support for additional browsers is expected for the final release.  
@@ -47,9 +50,9 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
  A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
 > [!IMPORTANT]
->  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
+> Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   
- Relationship analytics is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Relationship Insights overview](../admin/relationship-insights-overview.md)  
+ Relationship analytics is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship Insights overview](../admin/relationship-insights-overview.md)  
   
 <a name="Feedback"></a>   
 ## Send us feedback  
@@ -71,11 +74,11 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
   
 3.  Open the drop-down list at the top of the charts pane and choose **Relationship Pipeline** to open the chart.  
   
- Each upcoming opportunity is plotted as a bubble on the chart. The size of each bubble indicates the estimated revenue of its opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. Therefore, the most critical opportunities are those with the largest bubbles located near the bottom-left corner, while the most promising opportunities are probably those near the top of the chart.  Hover your mouse cursor over a bubble to see the name of the opportunity and few other details. Click on a bubble to open its associated opportunity record. Relationship health is also indicated by the color of each bubble, with green for good, yellow for fair, red for poor, and gray for zero (which probably indicates that the results have not yet been calculated, or that there is not yet enough data for the calculation).  
+Each upcoming opportunity is plotted as a bubble on the chart. The size of each bubble indicates the estimated revenue of its opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. Therefore, the most critical opportunities are those with the largest bubbles located near the bottom-left corner, while the most promising opportunities are probably those near the top of the chart.  Hover your mouse cursor over a bubble to see the name of the opportunity and few other details. Click on a bubble to open its associated opportunity record. Relationship health is also indicated by the color of each bubble, with green for good, yellow for fair, red for poor, and gray for zero (which probably indicates that the results have not yet been calculated, or that there is not yet enough data for the calculation).  
   
- ![Relationship Insights opportunity health chart](../admin/media/relationship-insights-opportunity-health-chart.png "Relationship Insights opportunity health chart")  
+![Relationship Insights opportunity health chart](../admin/media/relationship-insights-opportunity-health-chart.png "Relationship Insights opportunity health chart")  
   
- The relationship pipeline chart relies on several values being available for each of your opportunity records, but in some cases, these values may be missing for some or all opportunities—this might be due to a worker oversight, or it could also be because you don't make use of these fields at your organization. The chart represents missing values as follows:  
+The relationship pipeline chart relies on several values being available for each of your opportunity records, but in some cases, these values may be missing for some or all opportunities—this might be due to a worker oversight, or it could also be because you don't make use of these fields at your organization. The chart represents missing values as follows:  
   
 -   Opportunities that don't have a relationship health value are shown in gray with a value of zero. They are therefore plotted at the bottom of the chart.  
   
@@ -86,6 +89,7 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
 -   Opportunities without an estimated revenue value show a value of zero. They are therefore plotted as a very small bubble.  
   
 <a name="AnalyzeHealth"></a>   
+
 ## Analyze the health and activity history of a customer or opportunity  
  Complete relationship analytics are provided when you view an individual record, including graphs, KPIs, email interaction history, full activity history, and relationship health. These details are provided in two expandable sections when you are viewing an individual record (such as a specific opportunity).  
   
@@ -105,23 +109,24 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
   
 5. **Last interaction**: Shows the date and time for the last activity that you completed for the current record.  If you have access to that activity, then you'll also see it's name or subject. The next and last interactions are only shown for opportunity and lead entities.  
   
- The **Relationship Analytics** section provides detailed analytics, many of which are not available elsewhere, as shown in the following figure:  
+The **Relationship Analytics** section provides detailed analytics, many of which are not available elsewhere, as shown in the following figure:  
   
- ![Activity analysis details](../admin/media/activity-analysis-details.png "Activity analysis details")  
+![Activity analysis details](../admin/media/activity-analysis-details.png "Activity analysis details")  
   
- The figure highlights the following relationship analytics elements:  
+The figure highlights the following relationship analytics elements:  
   
 1. **Overall interaction summary**:  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type.  
   
 2. **Time spent**: Shows the relative amount of time spent on activities related to the current record, including time spent by you, your team, and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  
   
-3. **Email engagement results**: Provides a summary of how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Email engagement](../admin/preview-feature-email-engagement.md)  
+3. **Email engagement results**: Provides a summary of how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](../admin/email-engagement.md)  
   
 4. **Principle actors**: Provides statistics about the people who have been most active working with the current record, including specific people on your team and on the customer side.  
   
 5. **Activity timeline**: Provides a more detailed look of activities over time, broken down by activity type, date, who initiated them (your team or your customer).  
   
 <a name="Calculations"></a>   
+
 ## How relationship analytics values are calculated  
  Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and emails stored on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores  is summarized in the following figure.  
   
@@ -130,6 +135,7 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
  See the following subsections for details about each block in the flowchart.  
   
 <a name="Calc_FindContacts"></a>   
+
 ### Step 1: Find contacts of interest for the record  
  Relationship analytics is concerned with activities performed by the *people* associated with a given record. The first step in finding the relevant activities is to find out which contacts to include in the analysis. Relationship analytics also provides time-spent values for you, your team, and your customer's team, so the identify of who did what remains important throughout the process.  
   
@@ -143,6 +149,7 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
 |Contact|-   Any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user|-   Contact information in the contact's **Contact** section.|  
   
 <a name="Calc_FindActivities"></a>   
+
 ### Step 2: Link activities to the record  
  Once the system has identified contacts of interest (as described in the previous section), it looks for activities associated with each of those contacts, and then identifies which of these activities to include in the relationship analytics for the record you are looking at. It identifies relevant activities as follows:  
   
@@ -153,8 +160,9 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
 - **Appointments**: include all appointments where a contact of interest is shown in the **Required** or **Optional** fields.  
   
 - **Phone calls**: include all calls where  a contact of interest is shown in the **From** or **To** fields.  
-  
+
 <a name="Calc_Examples"></a>   
+
 ### Examples of how relevant activities are identified  
  Here are a few examples of how the rules outlined in the previous sections might be applied:  
   
@@ -165,6 +173,7 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
 -   If you attend a meeting with the primary contact for an account, then that appointment will be counted among the KPIs for that account *and* for that contact. If that account is also associated with an opportunity, the appointment will only count for that opportunity if you are also **Assigned** to that opportunity (or are on its **Sales Team**) *and* if the appointment is set as **Regarding** that opportunity.  
   
 <a name="Calc_KPIs"></a>   
+
 ### Step 3: Compute relationship analytics KPIs  
  After the system has found all of the relevant activities, it's ready to calculate the KPIs  and other analytics for each record. The following table summarizes the KPIs that are available.  
   
@@ -176,7 +185,7 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
 |Overall (all activities)|Total time spent|Total time spent|  
   
 > [!NOTE]
->  Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Preview feature: Email engagement](../admin/preview-feature-email-engagement.md)  
+> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](../admin/email-engagement.md)  
   
  For KPIs that report time spent by you, your team, and your customer, the system finds durations by applying the rules outlined in the following table:  
   
@@ -188,27 +197,37 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
 |Other|**Duration** field for each record|  
   
 > [!TIP]
->  The time calculations for appointments are bit special. The details are given in the previous tables, but here's an extra example to illustrate it.  
+> The time calculations for appointments are bit special. The details are given in the previous tables, but here's an extra example to illustrate it.  
 >   
->  If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:  
+> If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:  
 >   
->  - **Time spent by me**: *30 minutes* (the appointment was 30 minutes)  
+> - **Time spent by me**: *30 minutes* (the appointment was 30 minutes)  
 > - **Time spent by my team**: *90 minutes* (30 min. × 3 team members present)  
 > - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)  
   
 <a name="Calc_Health"></a>   
+
 ### Step 4: Compute the relationship health and health trend  
- The overall relationship health score is calculated by collecting the relevant activities, applying weightings by activity type (which enable your admin to set some types of activities to count more than others). The result is normalized to produce a health score between 0 and 100, and the health characterized as *good* (for a score of 60-100), *fair* (40-59) or *poor* (0-39).  
+The overall relationship health score is calculated by collecting the relevant activities, applying weightings by activity type (which enable your admin to set some types of activities to count more than others). The result is normalized to produce a health score between 0 and 100, and the health characterized as *good* (for a score of 60-100), *fair* (40-59) or *poor* (0-39).  
+
+Note the following:
+
+- Health scores are computed for leads if they are in an active state. This stops once they reach a qualified or disqualified state.
+- Health scores are computed for opportunities if the opportunity is open and ignored if it’s won or lost.
+- Health scores are computed for contacts and accounts irrespective of their state.  
+ 
+Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same, but your admin can increase or decrease the contribution of each type by up to 50%. In addition, your admin can choose how often salespeople should contact a customer (such as once a week); this setting also affects the health score.  
   
- Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same, but your admin can increase or decrease the contribution of each type by up to 50%. In addition, your admin can choose how often salespeople should contact a customer (such as once a week); this setting also affects the health score.  
+![Relationship health weightings and frequency settings](../admin/media/relationship-analytics-settings-bottom.png "Relationship health weightings and frequency settings")  
   
- ![Relationship health weightings and frequency settings](../admin/media/relationship-analytics-settings-bottom.png "Relationship health weightings and frequency settings")  
+In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
+
+
   
- In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
+<a name="BKMK_Privacy"></a> 
   
-<a name="BKMK_Privacy"></a>   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
   
 ### See also  
- [Preview feature: Configure Relationship Insights features](../admin/configure-relationship-insights-features.md)
+ [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)   

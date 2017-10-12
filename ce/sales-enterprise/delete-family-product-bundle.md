@@ -1,7 +1,7 @@
 ---
-title: "Delete a family, product, or bundle (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
+title: "Delete a family, product, or bundle (Dynamics 365 for Sales) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 08/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 10
 ms.author: "shujoshi"
 manager: "brycho"
 ---
-# Delete a family, product, or bundle (Sales, Enterprise)
+# Delete a family, product, or bundle (Sales)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.  
   
 > [!IMPORTANT]
@@ -23,7 +26,7 @@ To stop selling a product, delete it. If you delete a parent family, its child p
  
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-    ###### Check your security role  
+    #### Check your security role  
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   

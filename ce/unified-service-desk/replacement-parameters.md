@@ -1,7 +1,8 @@
 ---
 title: "Replacement parameters in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -160,7 +161,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="SystemParameters"></a>   
 ### $SystemParameters  
- This section contains a variable called `HighContrast` that displays whether high-contrast mode in Windows is enabled or not (true/false). You could use this variable to decide whether to enable normal custom colors or system colors (compliant with high-contrast setting) when you customize your theme in the client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize themes for High Contrast settings](Customize%20themes%20for%20High%20Contrast%20settings.md)  
+ This section contains a variable called `HighContrast` that displays whether high-contrast mode in Windows is enabled or not (true/false). You could use this variable to decide whether to enable normal custom colors or system colors (compliant with high-contrast setting) when you customize your theme in the client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize themes in Unified Service Desk](../unified-service-desk/customize-themes-in-unified-service-desk.md )  
   
 <a name="User"></a>   
 ### $User  
@@ -168,7 +169,11 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 ### See also  
  [Use replacement parameters to configure Unified Service Desk](../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md)   
+ 
  [Execute scripts using scriptlets in Unified Service Desk](../unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk.md)   
- [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-using-entity-searches-unified-service-desk.md)   
+ 
+ [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md)   
+ 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)   
+ 
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)

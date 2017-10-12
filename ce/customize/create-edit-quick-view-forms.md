@@ -1,7 +1,7 @@
 ---
-title: "Create and edit quick view forms in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create or edit quick view forms (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,8 +15,11 @@ caps.latest.revision: 14
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Create and edit a quick view form to view information about a related entity
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a quick view form can be added to another form as a quick view control. It provides a template to view information about a related entity record within a form for another entity record. This means you do not need to navigate to a different record to see the information you need to do your work.  
+# Create or edit a quick view form to view information about a related entity
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], a quick view form can be added to another form as a quick view control. It provides a template to view information about a related entity record within a form for another entity record. This means you do not need to navigate to a different record to see the information you need to do your work.  
   
  Quick view controls are associated with a lookup field that is included in a form. If the lookup field value is not set, the quick view control will not be visible. Data in quick view controls cannot be edited and quick view forms do not support form scripts.  
   
@@ -36,7 +39,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a quick view for
   
 5.  In the **Form Properties** dialog box, enter a **Form Name** and **Description** to differentiate this quick view form from any others and close the **Form Properties** dialog box.  
   
-6.  Edit the form to add the fields you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Edit a quick view form](../customize/create-edit-quick-view-forms.md#BKMK_EditQVF)  
+6.  Edit the form to add the fields you want. 
   
     > [!IMPORTANT]
     >  If you add a field and choose **Field Requirement** > **Business Required** and then save it, you will not be able to delete the field.  
@@ -45,7 +48,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a quick view for
   
 <a name="BKMK_EditQVF"></a>   
 ## Edit a quick view form  
- Quick view forms have a simplified layout because they are designed to be viewed within a form section. Only one single column tab is available. You can add only additional single column sections, fields, subgrids, and spacers. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the form editor](../customize/use-the-form-editor.md)  
+ Quick view forms have a simplified layout because they are designed to be viewed within a form section. Only one single column tab is available. You can add only additional single column sections, fields, subgrids, and spacers.   
   
 > [!NOTE]
 >  You cannot delete a field that is **Business Required**. You will receive this message if you try to delete the field: “The field you are trying to remove is required by the system or business.” If you do not want the field in the form you have to delete the entire form and then recreate it.  
@@ -58,7 +61,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a quick view for
   
 1.  In an entity main form, choose **Quick View Form** in the **Control** group of the **Insert** tab.  
   
-2.  In the **Quick View Control Properties** dialog box, set the properties described in [Quick view control properties](../customize/use-the-form-editor.md#BKMK_QuickViewFormProperties).  
+2.  In the **Quick View Control Properties** dialog box, set the properties described in [Quick view control properties](quick-view-control-properties-legacy.md).  
   
 3.  Choose **OK** to close the **Quick View Control Properties** dialog box.  
   
@@ -66,5 +69,4 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a quick view for
   
 ### See also   
  [Create and design forms](../customize/create-design-forms.md)   
- [Use the form editor](../customize/use-the-form-editor.md)    
- [Create and edit quick create forms](../customize/create-edit-quick-create-forms.md)
+ [Create or edit quick create forms](../customize/create-edit-quick-create-forms.md)

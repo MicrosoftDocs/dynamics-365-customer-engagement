@@ -1,7 +1,7 @@
 ---
 title: "Install the Social Selling Assistant for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "mhart"
 manager: "sakudes"
 ---
 # Install the Social Selling Assistant
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Set up the Social Selling Assistant  and onboard your users in just a few minutes. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in Dynamics 365 and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Then, a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to enable the best possible experience when users are working with the Social Selling Assistant.  
   
 <a name="prerequisites"></a>   
@@ -37,9 +40,10 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
   
     -   At least a responder interaction role to share social profiles you own.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](https://go.microsoft.com/fwlink/?linkid=526596)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](https://go.microsoft.com/fwlink/?linkid=526596)  
   
 <a name="installFromAppSource"></a>   
+
 ## Install the Social Selling Assistant app from AppSource  
  Before users can start working with the app, you need to install it from [AppSource](https://appsource.microsoft.com/en-us/marketplace?product=dynamics-365-for-sales%3Bdynamics-365-for-field-services%3Bdynamics-365-for-project-services-automation%3Bdynamics-365-for-customer-services) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
@@ -61,7 +65,7 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
   
 2.  In the drop-down list under **System Dashboards**, select **Social Selling assistant dashboard**.  
   
-3.  Configure the dashboard according to your user's needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](https://go.microsoft.com/fwlink/?linkid=834422)  
+3.  Configure the dashboard according to your user's needs.   
   
  Alternatively, you can access the Social Selling Assistant using the app module in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or using the main navigation in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
   

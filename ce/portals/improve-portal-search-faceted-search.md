@@ -2,7 +2,7 @@
 title: "Use faceted search to improve portal search in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable or disable faceted search."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +28,7 @@ Out-of-the-box faceted search is enabled in your portals. To control or enable i
 To disable a single piece of the faceted view:
 1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Web Templates**.
 2. Select the view to disable (that is, Knowledge Management – Top Rated Articles)
-3. Click the **Deactivate** button at the top of the page.
+3. Select **Deactivate** at the top of the page.
 
 ## Group entities as part of a record type for faceted view
 

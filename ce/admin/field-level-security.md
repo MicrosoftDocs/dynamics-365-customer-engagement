@@ -1,7 +1,7 @@
 ---
 title: "Field level security for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Field level security to control access
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Record-level permissions are granted at the entity level, but you may have certain fields associated with an entity that contain data that is more sensitive than the other fields. For these situations, you use field level security to control access to specific fields.  
   
  The scope of field level security is organization-wide and applies to all data access requests including the following:  
@@ -35,7 +38,7 @@ Record-level permissions are granted at the entity level, but you may have certa
   
 2.  Associate one more existing security profiles, or create one or more new security profiles to grant the appropriate access to specific users or teams.  
   
- A security profile determines the following:  
+A security profile determines the following:  
   
 -   Permissions to the secure fields  
   
@@ -49,7 +52,7 @@ Record-level permissions are granted at the entity level, but you may have certa
   
 - **Update**. Users or teams in this profile can update the field’s data after it has been created.  
   
- A combination of these three permissions can be configured to determine the user privileges for a specific data field.  
+A combination of these three permissions can be configured to determine the user privileges for a specific data field.  
   
 > [!IMPORTANT]
 >  Unless one or more security profiles are assigned to a security enabled field, only Dynamics 365 users with the system administrator security role will have access to the field.  
@@ -79,8 +82,8 @@ Record-level permissions are granted at the entity level, but you may have certa
 5.  Next to **Field Security**, click **Enable**, click **Save and Close**.  
   
 6.  Publish the customization.  
-  
- Configure the security profiles.  
+
+Configure the security profiles.  
   
 1.  Create the field security profile for sales managers.  
   
@@ -107,22 +110,22 @@ Record-level permissions are granted at the entity level, but you may have certa
   
 3.  Click **Save and Close**.  
   
- Any Dynamics 365 users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365") ********, indicating that the field is secured.  
+Any Dynamics 365 users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365") ********, indicating that the field is secured.  
   
 <a name="BKMK_FLS_fields"></a>   
 ## Which fields can be secured?  
- Every field in the system contains a setting for whether field security is allowed. You can view this in the Customizations area of the web application. There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [MSDN: Browse the Metadata for Your Organization](https://msdn.microsoft.com/library/hh547411.aspx). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics CRM SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
-  
+ Every field in the system contains a setting for whether field security is allowed. You can view this in the Customizations area of the web application. 
+<!-- TODO: Fix this when the Developer guide is published>
+There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
+-->  
 <a name="BKMK_FLSbestprac"></a>   
 ## Best practices when you use field security  
  When you use calculated fields that include a field that is secured, data may be displayed in the calculated field to users that don’t have permission to the secured field. In this situation, both the original field and the calculated field should be secured.  
   
  Some data, such as addresses, are actually made up of multiple fields. Therefore, to completely secure data that includes multiple fields, such as addresses, you must secure and configure the appropriate field security profiles on multiple fields for the entity. For example, to completely secure addresses for an entity, secure all relevant address fields, such as address_line1, address_line2, address_line3, address1_city, address1_composite, and so on.  
   
- When a system administrator implements security for particular fields or records, it can affect the data that’s synchronized between [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], including the inability to push data to the user running [!INCLUDE[proc_crm_for_outlook](../includes/proc-crm-for-outlook.md)]. Before you secure a field, consider how it may affect your users that are running [!INCLUDE[proc_crm_for_outlook](../includes/proc-crm-for-outlook.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How field security affects synchronization between Dynamics 365 and Dynamics 365 for Outlook](../admin/how-field-security-affects-synchronization-between-outlook.md)  
-  
 ### See also  
  [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://www.youtube.com/watch?v=Czc9sKvWd9k&list=UUem1HuioGqKEn8Li3l4DIYQ)   
- [Create a field security profile](http://go.microsoft.com/fwlink/p/?LinkId=513280)   
- [Add or remove security from a field](http://go.microsoft.com/fwlink/p/?LinkId=513281)   
+ [Create a field security profile](set-up-security-permissions-field.md)   
+ [Add or remove security from a field](enable-disable-security-field.md)   
  [Hierarchy security](../admin/hierarchy-security.md)

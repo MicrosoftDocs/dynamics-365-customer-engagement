@@ -2,7 +2,7 @@
 title: "Redirect to a new URL on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create a redirect URL to redirect a user to another page in a site."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,10 +15,10 @@ manager: sakudes
 ---
 # Add a redirect URL to a new URL on a portal
 
-Customers frequently want to have a simple URL that redirects to a page deeper in the site, or they want to allow for a legacy URL to be used with the site and automatically redirect to a new URL in the site. Page redirects allow a content author to specify a URL that when requested will be redirected on a permanent or temporary basis to a specific webpage or web file. These redirect URLs are managed separately from the page content so that they do not have to fit directly in the web hierarchy.
+Customers frequently want to have a simple URL that redirects to a page deeper in the site, or they want to allow for a legacy URL to be used with the site and automatically redirect to a new URL in the site. Page redirects allow a content author to specify a URL that, when requested, will be redirected on a permanent or temporary basis to a specific webpage or web file. These redirect URLs are managed separately from the page content so that they do not have to fit directly in the web hierarchy.
 
 ## Create a redirect
-1. Navigate to the **Portals** area and, under the **Website** section, select **Redirects**. Next, click **New** on the toolbar.
+1. Navigate to the **Portals** area and, under the **Website** section, select **Redirects**, and then select **New** on the toolbar.
 
     ![Active redirects](media/active-redirects.png "Active redirects")  
 
@@ -29,12 +29,12 @@ Customers frequently want to have a simple URL that redirects to a page deeper i
 | Name        | The friendly name of the redirect. (Can be anything. Make it easy to identify.)                                                              |
 | Website     | The website the redirect is associated with. (The site the user is redirected from.)                                                         |
 | Inbound URL | The partial URL that is to be redirected. (The page the user is redirected from.)                                                            |
-| Status Code | One of the following:  **302 (Temporary Redirect)**: returns a temporary redirect status. This is the default.                                               -   **301 (Permanent Redirect)**: returns a permanent redirect status indicating the resource has moved permanently.                          |
-| URL         | A target External URL to be redirected to. (Use this if the redirect is external to the website specified above.)                            |
+| Status Code | One of the following:  **302 (Temporary Redirect)**: returns a temporary redirect status. This is the default.                                               -   **301 (Permanent Redirect)**: returns a permanent redirect status, indicating the resource has moved permanently.                          |
+| URL         | A target external URL to be redirected to. (Use this if the user is being redirected to a link external to the website specified above.)                            |
 | Web Page    | A target internal webpage to be redirected to. (Use this if the user is being redirected to a page internal to the website specified above.) |
 | Site Marker | A target internal site marker to be redirected to.                                                                                           |
 
-3. After entering the required fields and specifying a value for at least one of the URL, Web Page, or Site Marker fields, click **Save**.
+3. After entering the required fields and specifying a value for at least one of the URL, Web Page, or Site Marker fields, select **Save**.
 
     ![Redirect a customer survey](media/redirect-customer-survey.png "Redirect a customer survey")  
 

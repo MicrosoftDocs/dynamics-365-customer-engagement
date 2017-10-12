@@ -1,7 +1,7 @@
 ---
 title: "Customer service scenarios for Social Engagement | Microsoft Docs"
 description: "Review service scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
-ms.date: 2017-07-10
+ms.date: 09/12/2017
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 0c5c29b5-c4f8-43e2-b20e-65408303e53a

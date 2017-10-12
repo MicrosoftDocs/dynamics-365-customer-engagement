@@ -1,1 +1,1 @@
-Dynamics 365 SDK
+Dynamics 365 Customer Engagement Web Services

@@ -1,7 +1,7 @@
 ---
 title: "Use filters to see relevant data | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
-ms.date: 2017-08-07
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"

@@ -1,7 +1,7 @@
 ---
 title: "Add resources to a site for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Add resources to a site
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 After you create a site, you can add resources such as users, equipment, or facilities to it.  
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
@@ -36,4 +39,4 @@ After you create a site, you can add resources such as users, equipment, or faci
   
 ### See also  
  [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)   
- [Change regional and language options for your organization](../admin/change-regional-language-options-organization.md)
+ [Change regional and language options for your organization](regional-other-business-management-settings.md)

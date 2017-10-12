@@ -1,7 +1,7 @@
 ---
 title: "Get started with Social Engagement | Microsoft Docs"
 description: "Learn how to ramp up quickly on Social Engagement."
-ms.date: 2017-08-08
+ms.date: 09/12/2017
 ms.service: mse
 ms.topic: get-started-article
 applies_to: "Social Engagement"

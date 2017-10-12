@@ -1,8 +1,8 @@
 ---
 title: "Create and expose portal content easily in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to create and expose portal content by using admin wizard in Dynamics 365."
+description: "Instructions to create and expose portal content by using the administrative wizard in Dynamics 365."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,8 +19,8 @@ manager: sakudes
 The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is achieved when you can take data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and make it available on your portal to the right audience, based on user access. To create a webpage by using entity forms and entity lists is a complex task. A new administrative wizard helps simplify this process. You can use this wizard to create and expose portal content easily by filling in the minimum required fields.
 1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 2.	Go to **Portals** > **Administration** > **Portal Management**. The Portal Management page is displayed.
-3.	Click **Create Portal Content**. The Create Portal Content pop-up window is displayed.
-4.	Specify the required details. If you need extra help, hover over any field to read the tooltips.
+3.	Select **Create Portal Content**. The Create Portal Content window appears.
+4.	Specify the required details. If you need extra help, point to any field to read the tooltips.
 
     > [!Note]
     > - The **Select your website** field is prepopulated if only one website is available. The list is sorted alphabetically by the website name.
@@ -28,6 +28,6 @@ The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../incl
     > - The **Partial URL** field is populated based on the page name entered. If required, you can change the value.
     > - The **Layout** field is prepopulated with the layout that is marked as default.
     > - If you choose to expose the entity by selecting **Expose organization entities in the portal**, a few additional fields are displayed to gather information required to expose an entity by using entity forms and entity lists. If you need extra help, hover over any field to read the tooltips. You can also select multiple views.
-5.	Click **Create**.
+5.	Select **Create**.
 
     ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  

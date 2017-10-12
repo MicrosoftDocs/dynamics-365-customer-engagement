@@ -1,7 +1,7 @@
 ---
-title: "Best practices for workflow processes in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Best practices for workflow processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,13 +16,16 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Best practices for workflow processes
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic contains best practices for creating and managing workflow processes.  
   
 <a name="BKMK_AvoidInfiniteLoops"></a>   
 ## Avoid infinite loops  
  It’s possible to create logic in a workflow that initiates an infinite loop, which consumes server resources and affects performance. The typical situation where an infinite loop might occur is if you have a workflow configured to start when an attribute is updated and then updates that attribute in the logic of the workflow. The update action triggers the same workflow that updates the record and triggers the workflow again and again.  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes logic to detect and stop infinite loops. If a workflow process is run more than a certain number of times on a specific record in a short period of time, the process fails with the following error: **This workflow job was canceled because the workflow that started it included an infinite loop. Correct the workflow logic and try again**. For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] the limit of times is 16.  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes logic to detect and stop infinite loops. If a workflow process is run more than a certain number of times on a specific record in a short period of time, the process fails with the following error: **This workflow job was canceled because the workflow that started it included an infinite loop. Correct the workflow logic and try again**. For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] the limit of times is 16.  
   
 <a name="BKMK_UseWorkflowTemplates"></a>   
 ## Use workflow templates  
@@ -45,5 +48,5 @@ This topic contains best practices for creating and managing workflow processes.
 ### See also  
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Configure workflow processes](../customize/configure-workflow-steps.md)   
- [Monitor and manage eorkflow processes](../customize/monitor-manage-processes.md)
- [Types of processes](../customize/guide-staff-common-tasks-processes.md)  
+ [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)
+   

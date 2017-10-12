@@ -1,7 +1,7 @@
 ---
 title: "Change auto-numbering prefixes in Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Change auto-numbering prefixes for contracts, cases, articles, quotes, orders, invoices, campaigns, categories, and knowledge articles
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categories, and knowledge articles (the new Knowledge Article entity introduced in [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] and [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)]) are automatically numbered by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. If your organization has standard numbering formats, you can change the default three-character prefixes and number format to match your organization.  
   
 1.  Go to **Settings** > **Administration** > **Auto-Numbering**.  
@@ -40,4 +43,4 @@ Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categ
 6.  Click **OK** to save your settings.  
   
 ### See also  
- [Edit a solution publisher](edit-solution-publisher.md)
+ [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)

@@ -1,7 +1,7 @@
 ---
 title: "Migrate settings from the Email Router to server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Migrate settings from the Email Router to server-side synchronization
+# Migrate settings from the Email Router to server-side synchronization 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
   
 > [!NOTE]
@@ -59,5 +62,4 @@ Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../include
 4.  Start with the queues mailboxes, and then migrate the users’ mailboxes.  
   
 ### See also  
- [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
  [Monitor email processing errors in Microsoft Dynamics 365](../admin/monitor-email-processing-errors.md)

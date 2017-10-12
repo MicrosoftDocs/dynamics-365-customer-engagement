@@ -1,7 +1,7 @@
 ---
 title: "Administer Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,12 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "amyla"
 ---
-# Administer Dynamics 365 Customer Engagement 
-IT Pros and [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] administrators can use the resources and topics provided in this section to help them manage and configure [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)].
+# Administer Dynamics 365 Customer Engagement   
 
+> [!NOTE]
+> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)] 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+IT Pros and [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] administrators can use the resources and topics provided in this section to help them manage and configure [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)].
 

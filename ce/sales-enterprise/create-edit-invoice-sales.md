@@ -1,21 +1,29 @@
 ---
-title: "Create or edit an invoice (Dynamics 365 for Sales, Enterprise edition) | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2017-08-31"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "An invoice is an order that has been billed to the customer."
+keywords: "Invoice, bill, sale"
+ms.date: 09/22/2017
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
+author: shubhadaj
+ms.author: shujoshi
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 34
-ms.author: "brycho"
-manager: "amyla"
+topic-status: Drafting
 ---
-# Create or edit an invoice (Sales, Enterprise)
+
+# Create or edit an invoice (Sales and Sales Hub)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When a customer places an order, you can create an invoice to bill them for the upcoming sale.  
   
  Typically, you convert an order into an invoice. However, you can also create an invoice that does not originate from an order.  
@@ -24,10 +32,14 @@ When a customer places an order, you can create an invoice to bill them for the 
 ## Create an invoice from an order  
   
 1. [!INCLUDE[proc_sales_orders](../includes/proc-sales-orders.md)]  
+
+  OR
+
+  In the Sales Hub app, select the **Site Map** icon ![Site Map icon](media/site-map-icon.png "Icon to open the site map"), and then select **Orders**. 
   
-2.  Choose the order you want to create an invoice from.  
+2.  Select the order you want to create an invoice from.  
   
-3.  Choose **Create Invoice** at the top of the screen.  
+3.  Select **Create Invoice** at the top of the screen.  
   
 4.  Review the contents of the invoice and make any additions or corrections before sending to your customer.  
   
@@ -35,16 +47,20 @@ When a customer places an order, you can create an invoice to bill them for the 
 ## Create an invoice  
   
 1. [!INCLUDE[proc_sales_invoices](../includes/proc-sales-invoices.md)]  
+
+  OR
+
+  In the Sales Hub app, select the **Site Map** icon ![Site Map icon](media/site-map-icon.png "Icon to open the site map"), and then select **Invoices**. 
   
-2.  Choose **New**.  
+2.  Select **New**.  
   
 3.  Add your customer’s contact information.  
   
-4.  Choose **Save** at the top left to create the invoice record.  
+4.  Select **Save** at the top left to create the invoice record.  
   
-5.  To add products from your opportunity to your order, choose **Get Products** at the top of the screen, select your opportunity, and click **OK**.  
+5.  To add products from your opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and select **OK**.  
   
-6.  To add information about a product on the invoice, in the **Products** area, choose the **Add a Product** button ![Add button](../sales-enterprise/media/add-button.PNG "Add button"), and then choose one of the following options:  
+6.  To add information about a product on the invoice, in the **Products** area, select the **Add a Product** button ![Add button](../sales-enterprise/media/add-button.PNG "Add button"), and then select one of the following options:  
   
     - **Existing Product**. A product created in the product catalog that is associated with a price list.  
   
@@ -58,7 +74,7 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 8.  In the **Addresses** area, type shipping and billing addresses.  
   
-9. Choose the **Save** button at the bottom right corner of the screen.  
+9. Select the **Save** button at the bottom right corner of the screen.  
   
 > [!NOTE]
 >  You close an invoice either by canceling the invoice or setting the invoice status as paid.  
@@ -68,11 +84,11 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 1. [!INCLUDE[proc_sales_invoices](../includes/proc-sales-invoices.md)]  
   
-2.  Choose the invoice you want to edit.  
+2.  Select the invoice you want to edit.  
   
 3.  Add or change any details about your invoice.  
   
-4.  Choose the **Save** button at the bottom right corner of the screen.  
+4.  Select the **Save** button at the bottom right corner of the screen.  
   
 <a name="bkmk4"></a>   
 ## Typical next steps  

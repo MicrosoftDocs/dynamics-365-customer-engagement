@@ -1,7 +1,7 @@
 ---
-title: "Monitor and manage workflow and dialog processes in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Monitor and manage workflow processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,10 @@ caps.latest.revision: 12
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Monitor and manage workflow and dialog processes
+# Monitor and manage workflow processes
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To monitor and manage processes, you must locate the process, evaluate the status, and perform any actions necessary to address problems.  
   
 <a name="BKMK_MonitorAsyncWorkflows"></a>   
@@ -48,9 +51,11 @@ To monitor and manage processes, you must locate the process, evaluate the statu
   
  If you want a view of all the errors for any process, go to **Advanced Find** and create a view showing errors on the process session entity.  
   
+<!-- 
 <a name="BKMK_MonitorDialogs"></a>   
 ## Monitoring dialogs  
  Every dialog that is run will create a Process Session record. This record provides a summary of the interaction within the dialog. You can view the Process Sessions for a specific dialog by using the Process Sessions area for that dialog, or you can use **Advanced Find** to create a query where the related **Process** **Category** is **Dialog**.  
+-->
   
 <a name="BKMK_StatusOfWorkflowProcesses"></a>   
 ## Status of workflow processes  
@@ -66,6 +71,7 @@ To monitor and manage processes, you must locate the process, evaluate the statu
 ### See also   
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Configure workflow processes](../customize/configure-workflow-steps.md)   
- [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)   
- [Asynchronous service architecture](https://msdn.microsoft.com/library/gg334554.aspx)
- [Types of processes](../customize/guide-staff-common-tasks-processes.md) 
+ [Best practices for workflow processes](../customize/best-practices-workflow-processes.md) <br/>
+ [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md) 
+
+ <!--[Asynchronous service in Dynamics 365 Customer Engagement](../developer/asynchronous-service.md)-->

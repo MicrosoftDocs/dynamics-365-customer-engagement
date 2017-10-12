@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) licenses | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Manage licenses
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you receive a set of licenses to assign to users. Only licensed users are allowed access to the online service. You must assign a license to every user who will use the service.  
   
  A license conflict occurs if your organization has more users than licenses.  
@@ -24,7 +27,7 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 > [!TIP]
 >  Get started with the following resources:  
 >   
->  -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
+> -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
 > -   Download: [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
 > -   Download: [The Dynamics CRM Online pricing and licensing guide](http://aka.ms/gtn5wt)  
   
@@ -53,7 +56,7 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 > [!IMPORTANT]
 >  Signing out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] doesn't sign you out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You must do that separately.  
   
- To cancel your subscription to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] for any reason, call Billing Support at the phone number listed for your country or region here: [Billing Support and Phone Numbers](http://go.microsoft.com/fwlink/p/?LinkId=255532).  
+ To cancel your subscription to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] for any reason, call Billing Support at the phone number listed for your country or region here: [Billing Support and Phone Numbers](contact-information-microsoft-dynamics-365-online-billing-support.md).  
   
 > [!NOTE]
 >  If you don’t have access to a phone, you may submit your cancellation request as a service request. To enter the service request, sign in to your account, and then, under **Support**, click or tap **Service Requests**. In the **Problem Description** area, fill out the form for a new service request by choosing **Cancel subscription**.  

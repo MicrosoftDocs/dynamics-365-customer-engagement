@@ -1,0 +1,59 @@
+---
+title: "Set up tax codes (Dynamics 365 for Field Service) | MicrosoftDocs"
+ms.custom: ""
+ms.date: 09/30/2017
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.technology: 
+  - "field-service"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 90d7fdc1-afa0-4ab4-a7c4-87c038709184
+caps.latest.revision: 16
+ms.author: "mkaur"
+manager: "amyla"
+---
+# Set up tax codes (Field Service)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Set up tax codes in Dynamics 365 for Field Service and specify how much tax will be applied to your products, agreements, and services.  
+  
+Each tax code may contain multiple child tax codes; in that case, the tax rate will be determined by the total of all children.  
+  
+If an area has more than one type of tax, for example, state and county tax, then use the **Tax Group** option to combine several tax codes into one group.  
+  
+For example, if the state of California has a state and county tax, then you might have a tax group called "California, Alameda County." The tax group will have two tax codes: one for overall California state tax and one for Alameda County local tax.  
+  
+1.  From the main menu, click **Field Services** > **Administration**, and then choose **Tax Codes**.  
+  
+2.  On the **Active Tax Codes** screen, click **+New** in the upper left corner.  
+  
+3.  Use the tooltips to help fill in your information, and then click **Save**.  
+  
+4.  If **Act as tax Group** is set to **Yes**, then do this:  
+  
+    1.  Go to the **Tax Code Details** section and click **+Add Tax Code Detail record**.  
+  
+    2.  Specify the **Tax Code**.  
+  
+    3.  If the government agency charges tax above the local tax then set **Tax on tax** to **Yes**.  
+  
+         For example, the Canadian government charges Provincial Sales Tax (PST) and Goods and Services Tax (GST). In this case, you will need to set a tax on tax.  
+  
+         For instance, if the work order total equals $100,  the first tax code in the group is calculated on the $100. If the tax code is 5% then the total is now $105. If the second code in the tax group is 10%, and it is marked as a tax on tax, this 10% is calculated on $105 instead of $100, which makes the total $110. However, if this second code is not flagged as a tax on tax, then the 10% is calculated on the initial work order amount, of $100.  
+  
+    4.  In the **Line Order** field, enter the order of how the system should calculate the multiple tax codes.  
+  
+    5.  Save **Save**.  
+  
+### See also    
+ [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
+ [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
+ [Set up payment terms](../field-service/set-up-payment-terms.md)<br>
+ [User's Guide](../field-service/user-guide.md)

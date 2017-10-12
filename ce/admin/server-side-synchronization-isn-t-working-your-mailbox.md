@@ -1,7 +1,7 @@
 ---
 title: "Server-side synchronization isn't working for your mailbox for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,7 +17,10 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Server-side synchronization isn't working for your mailbox
-You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, but server-side synchronization isn’t working for your mailbox. Folder tracking requires that your email be synchronized using server-side synchronization. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-dynamics-365-administrator-support-person.md)  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, but server-side synchronization isn’t working for your mailbox. Folder tracking requires that your email be synchronized using server-side synchronization. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
   
  **For Admins**  
   
@@ -25,10 +28,9 @@ You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-excha
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   For information about [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, see [Track Outlook email by moving it to a tracked Exchange folder](../outlook-add-in/track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
+-   For information about [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, see [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
   
--   For admin information about setting up server-side synchronization, see [Set up server-side synchronization](https://technet.microsoft.com/library/dn531109.aspx).  
+-   For admin information about setting up server-side synchronization, see [Set up server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
 ### See also  
- [Track Outlook email by moving it to a tracked Exchange folder](../outlook-add-in/track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Set up server-side synchronization](https://technet.microsoft.com/library/dn531109.aspx)
+ [Set up server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

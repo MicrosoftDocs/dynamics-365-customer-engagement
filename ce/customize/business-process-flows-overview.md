@@ -1,7 +1,7 @@
 ---
-title: "Business process flows overview, Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Business process flows overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -13,11 +13,15 @@ applies_to:
 ms.assetid: 4469877e-bb95-481a-bc52-c9746f937ce5
 caps.latest.revision: 16
 ms.author: "rdubois"
+manager: brycho
 ---
 # Business process flows overview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes. To learn how to create or edit a business process flow, see [Create a business process flow](../customize/create-business-process-flow.md).  
   
- [Watch a short video (4:49) about Dynamics 365 Business Process flows.](https://go.microsoft.com/fwlink/p/?linkid=842226)  
+ [Watch a short video (4:49) about business process flows.](https://go.microsoft.com/fwlink/p/?linkid=842226)  
   
 <a name="BKMK_Why"></a>   
 ## Why use business process flows?  
@@ -34,6 +38,8 @@ You can help ensure that people enter data consistently and follow the same step
  Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is commonly called ”stage-gating”.  
   
  Business process flows appear relatively simple compared to other types of processes because they do not provide any conditional business logic or automation beyond providing the streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving people time, reducing training costs, and increasing user adoption.  
+
+ There are a number of ready-to-use business process flows available. More information: [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).
   
 <a name="BKMK_BPFwithOtherCustomizations"></a>   
 ### Business process flows integrated with other customizations  
@@ -70,14 +76,16 @@ You can help ensure that people enter data consistently and follow the same step
   
  When someone creates a new entity record, the list of available active business process definition is filtered by the user’s security role. The first activated business process definition available for the user’s security role according to the process order list is the one applied by default. If more than one active business process definitions is available, users can load another from the Switch Process dialog. Whenever processes are switched, the one currently rendered goes to the background and is replaced by the selected one, but it maintains its state and can be switched back. Each record can have multiple process instances associated (each for a different business process flow definition, up to a total of 10). On form load, only one business process flow is rendered. When any user applies a different process, that process may only load by default for that particular user.  
   
- To make sure a business process is loaded by default for all user (behavior equivalent to “pinning” the process), a custom Client API script (web resource) can be added on form load that specifically loads an existing business process instance based on the business process definition ID. For reference on SetActiveProcessInstance and GetProcessInstances functions, refer to the following article: [Xrm.Page.data.process (client-side reference)](https://msdn.microsoft.com/library/dn817878.aspx)  
+ To make sure a business process is loaded by default for all user (behavior equivalent to “pinning” the process), a custom Client API script (web resource) can be added on form load that specifically loads an existing business process instance based on the business process definition ID. 
+ 
+<!--For reference on SetActiveProcessInstance and GetProcessInstances functions, refer to the following article: [Xrm.contextObj.data.process (client-side reference)](../developer/clientapi/reference/xrm-contextobj-data-process.md)-->  
   
 <a name="BKMK_Considerations"></a>   
 ## Business process flow considerations  
  You can define business process flows only for those entities that support them. You also need to be aware of the limits for the number of processes, stages, and steps that can be added.  
   
 ### Business process flows that call a workflow  
- You can now call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
+ You can now call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
   
  When you include a workflow that you want to trigger on Stage Exit of a stage in your business process flow, and that stage is  the last stage in the flow, the designer gives the impression that the workflow will be triggered when that stage is completed. However, the workflow will not be triggered because a stage transition does not take place. You will not receive a warning or error preventing you from including the workflow on the stage. When a user interacts with the business process flow, finishing or abandoning the process does not result in a stage transition, and therefore the workflow is not triggered. Consider the following examples:  
   
@@ -92,57 +100,31 @@ You can help ensure that people enter data consistently and follow the same step
  Only entities that use the updated forms can use business process flows. This includes custom entities and the following system entities:  
   
 -   Account  
-  
 -   Appointment  
-  
 -   Campaign  
-  
 -   Campaign Activity  
-  
 -   Campaign Response  
-  
 -   Competitor  
-  
 -   Contact  
-  
 -   Email  
-  
 -   Entitlement  
-  
 -   Fax  
-  
 -   Case  
-  
 -   Invoice  
-  
 -   Lead  
-  
 -   Letter  
-  
 -   Marketing List  
-  
 -   Opportunity  
-  
 -   Phone Call  
-  
 -   Product  
-  
 -   Price List Item  
-  
 -   Quote  
-  
 -   Recurring Appointment  
-  
 -   Sales Literature  
-  
 -   Social Activity  
-  
 -   Order  
-  
 -   User  
-  
 -   Task  
-  
 -   Team  
   
  To enable a custom entity for business process flows, select the **Business process flows (fields will be created)** check box in the entity definition. Note that you can’t undo this action.  
@@ -161,9 +143,11 @@ You can help ensure that people enter data consistently and follow the same step
 -   Multi-entity processes can contain no more than five entities.
   
 ### See also  
- [Watch a short video (4:49) about Dynamics 365 Business Process flows](https://go.microsoft.com/fwlink/p/?linkid=842226)   
+ [Watch a short video (4:49) about business process flows](https://go.microsoft.com/fwlink/p/?linkid=842226)   
+ [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
  [Create a business process flow](../customize/create-business-process-flow.md)   
- [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) 
- [Workflow Processes](https://go.microsoft.com/fwlink/p/?linkid=847846)   
- [Dialogs](https://go.microsoft.com/fwlink/p/?linkid=847848)   
- [Actions](https://go.microsoft.com/fwlink/p/?linkid=847849)
+ [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) <br/>
+ [Whitepaper: Process Enablement with Dynamics 365](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
+ [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
+ [Workflow Processes](../customize/workflow-processes.md)   
+ [Actions - Overview](../customize/actions.md)

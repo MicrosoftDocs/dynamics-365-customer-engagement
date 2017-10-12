@@ -1,7 +1,7 @@
 ---
 title: "Manage email notifications for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Manage email notifications to admins
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] service team regularly sends email notifications to the administrators in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. Now, with a simple approach of mailbox rules, you have complete control over who should receive these email communications. As an administrator, you can set up mailbox rules to automatically redirect email communications from [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (crmoln@microsoft.com) to additional recipients that you choose. For example, you can add to the list of recipients:  
   
 -   People outside of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, such as your partners.  
@@ -35,7 +38,7 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] service team regular
   
 -   Email deployments other than [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]  
   
- If you have been added as an additional recipient, and you want to stop receiving email notifications, please contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin. If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see: [Find your Dynamics 365 administrator or support person](http://go.microsoft.com/fwlink/p/?LinkID=513070).  
+ If you have been added as an additional recipient, and you want to stop receiving email notifications, please contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin. If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see: [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
   
  For more information, download the white paper: [Create your Mailbox rule](http://download.microsoft.com/download/D/1/A/D1A64A1D-FD55-43E4-AD71-9D32D16E5F9E/Create%20your%20Mailbox%20rule.docx)  
   
@@ -58,6 +61,5 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] service team regular
  ![Send Email Notifications in Dynamics 365](../admin/media/customer-driven-updatesendemailnotifications.PNG "Send Email Notifications in Dynamics 365")  
   
 ### See also   
- [Add interoperation features to Microsoft Dynamics 365 (online)](../admin/add-interoperation-features-to-microsoft-dynamics-365-online.md)   
  [Blog: Managing Email notifications in Microsoft Dynamics CRM Online](http://blogs.msdn.com/b/crm/archive/2014/05/27/how-do-i-start-receiving-notification.aspx)   
  [Blog: Identifying Your Microsoft Dynamics CRM Online Administrator(s)](http://blogs.msdn.com/b/crm/archive/2014/05/27/how-to-identify-the-system-administrator-s-in-your-org-who-currently-receive-notifications.aspx)

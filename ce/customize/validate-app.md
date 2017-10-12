@@ -1,7 +1,7 @@
 ---
 title: "Validate a Dynamics 365 Customer Engagement app using the app designer | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,12 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 5a9ec120-9ddc-4d92-b48c-0fee8c57d3c3
 caps.latest.revision: 10
 ms.author: "matp"
 ---
 # Validate an app using the app designer
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Validate an app to check for asset dependencies that are required for the app to work, but aren't yet added to the app.  
   
  For example, you've added a Customer Service Performance dashboard to the app, which uses charts like Case Mix (By Priority) or Case Resolution Trend (By Day) that you haven't added. When you validate this app, you'll get a list of all missing, required assets.  

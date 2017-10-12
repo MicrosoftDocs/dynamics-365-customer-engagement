@@ -1,7 +1,7 @@
 ---
-title: "Best practices for reports in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Best practices for reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 5e78f1bf-9124-4a83-b049-c257e8237ff3
 caps.latest.revision: 16
 author: "Mattp123"
@@ -18,21 +19,24 @@ tags:
  - "MigrationHO"
 ---
 # Best practices for reports
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following best practices can help you produce reports that are easier to write, comply with established standards, and execute with improved efficiency.  
   
 ## General best practices  
  This section provides best practices for creating custom Fetch-based reports.  
   
 ### Use an existing report to create custom reports  
- Check whether there is an existing report in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that is close to the design you are looking for. Download the report definition for that report, and then modify the RDL file instead of creating a new one from scratch. By doing this, you will save development time and reduce report writing errors.  
+ Check whether there is an existing report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] that is close to the design you are looking for. Download the report definition for that report, and then modify the RDL file instead of creating a new one from scratch. By doing this, you will save development time and reduce report writing errors.  
   
-### Use Microsoft Dynamics 365 formats for currency, number, date and time, calendar  
- The `FilteredUserSettings` view contains information about currency format, date and time format, number format, negative number, starting day of the week, calendars, and other formats. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides the **fn_GetFormatStrings** database function to get the date, time, number, currency, and calendar formats from the `FilteredUserSettings` view.  
+### Use Dynamics 365 formats for currency, number, date and time, calendar  
+ The `FilteredUserSettings` view contains information about currency format, date and time format, number format, negative number, starting day of the week, calendars, and other formats. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides the **fn_GetFormatStrings** database function to get the date, time, number, currency, and calendar formats from the `FilteredUserSettings` view.  
   
  Use these resources to correctly format data values in your reports.  
   
 ### Set the page size  
- Reporting Services does not provide explicit page orientation, such as portrait and landscape modes, or preset page sizes. Standard [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reports were designed for 8.25 x 11 (portrait) or 11 x 8.25 (landscape) page sizes that work for both US letter and A4 paper.  
+ Reporting Services does not provide explicit page orientation, such as portrait and landscape modes, or preset page sizes. Standard [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] reports were designed for 8.25 x 11 (portrait) or 11 x 8.25 (landscape) page sizes that work for both US letter and A4 paper.  
   
 ### Back up your reports  
  Make backup copies of your reports and store them on a computer other than the reporting server.  
@@ -40,12 +44,12 @@ The following best practices can help you produce reports that are easier to wri
 ### Define truncation if needed  
  Text wrapping is the default behavior for a text box report item in Reporting Services. This means that, unless indicated otherwise, all text will wrap at the defined width of any text area and then grow vertically. If truncation is specified, a text box will truncate text at the width of the text box within the specified padding (default is 2pt left and right). Any maximum length truncation beyond this will require custom coding.  
   
- The default [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reports are set up with tool tips to show static text or values from data fields when the user hovers the mouse pointer over the report item. If you use truncation, consider setting the `ToolTip` property to the field value so that the full text will appear when the user hovers over the truncated text.  
+ The default [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] reports are set up with tool tips to show static text or values from data fields when the user hovers the mouse pointer over the report item. If you use truncation, consider setting the `ToolTip` property to the field value so that the full text will appear when the user hovers over the truncated text.  
   
 ### Best practices when you create reports that include date and time fields  
  When you create reports that use date and time fields, be aware of the following:  
   
--   To be consistent with the date and time values in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], when you create reports that use a Coordinated Universal Time (UTC)-based field (Time-Zone Independent or Date Only) don’t convert the value to a regional time-zone based (User Local) value.  
+-   To be consistent with the date and time values in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], when you create reports that use a Coordinated Universal Time (UTC)-based field (Time-Zone Independent or Date Only) don’t convert the value to a regional time-zone based (User Local) value.  
   
 -   If you make a change to the date and time behavior of a field in an entity, you may need to regenerate reports that use that date and time for the report to display the field correctly.  
   
@@ -57,6 +61,6 @@ The following best practices can help you produce reports that are easier to wri
   
  For more information about date and time fields, see [Behavior of Date and Time data type](../customize/behavior-format-date-time-field.md).  
   
-## See also  
- [Microsoft Dynamics CRM 2013 Report Writers Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
+### See also  
+ [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Improve performance of reports](../analytics/improve-performance-reports.md)

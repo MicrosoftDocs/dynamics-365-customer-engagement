@@ -1,7 +1,7 @@
 ---
 title: "Create or edit a security role for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,9 +17,12 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Create or edit a security role to manage access
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.  
   
- If you need to back up your security role changes, or export security roles for use in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export your customizations as a solution](http://go.microsoft.com/fwlink/p/?LinkId=513279)  
+ If you need to back up your security role changes, or export security roles for use in a different implementation of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can export them as part of exporting customizations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
 ## Create a security role  
   
@@ -78,7 +81,7 @@ You can create new security roles to accommodate changes in your business requir
 ## Minimum privileges for common tasks  
  It's helpful to keep in mind the minimum privileges that are needed for some common tasks. These include:  
   
--   When logging in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
+-   When logging in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   
     -   To render the home page, assign the following privileges on the Customization tab: Read Web Resource, Read Customizations  
   
@@ -88,7 +91,7 @@ You can create new security roles to accommodate changes in your business requir
   
 -   When logging in to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]:  
   
-    -   To render navigation for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] buttons: Read Entity and Read View on the Customizations tab  
+    -   To render navigation for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] buttons: Read Entity and Read View on the Customizations tab  
   
     -   To render an entity grid: Read privilege on the entity, Read Customizations and Read Web Resource on the Customization tab,  and Read Saved View on the Core Records tab  
   
@@ -108,7 +111,6 @@ You can create new security roles to accommodate changes in your business requir
  [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
   
 ### See also  
- [Security concepts for Microsoft Dynamics 365](../admin/security-concepts.md)   
- [Control data access](../admin/security-roles-privileges.md)   
+ [Security concepts for Dynamics 365](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Copy a security role](../admin/copy-security-role.md)

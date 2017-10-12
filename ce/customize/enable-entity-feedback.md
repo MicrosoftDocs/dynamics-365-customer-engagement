@@ -1,7 +1,7 @@
 ---
-title: "Enable an entity for feedback in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Enable an entity for feedback (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,6 +16,9 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Enable an entity for feedback/ratings
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Let customers write feedback for any entity record, or rate entity records within a defined rating range by enabling entities for feedback.  
   
  For example, you can enable feedback or ratings on the Case entity to receive feedback on the support experience the customer received. When several customers are rating a record, the ratings can be consolidated for each record through a custom rollup field.   In a sales scenario, you can enable the Product entity for feedback to get users' feedback on the products you sell.  
@@ -25,7 +28,7 @@ Let customers write feedback for any entity record, or rate entity records withi
 > [!IMPORTANT]
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and in [!INCLUDE[pn_crm_8_1_0_op_subsequent](../includes/pn-crm-8-1-0-op-subsequent.md)] (on-premises).  
 >   
->  Interested in getting this feature? [Find your Dynamics 365 administrator or support person.](http://go.microsoft.com/fwlink/p/?LinkID=513070)  
+>  Interested in getting this feature? [Find your Dynamics 365 administrator or support person.](../basics/find-administrator-support.md)  
   
 ## Enable feedback  
   
@@ -98,7 +101,7 @@ Let customers write feedback for any entity record, or rate entity records withi
     -   To publish customizations for all unpublished components at one time, in the navigation pane, click or tap **Entities**, and then on the Actions toolbar, click or tap **Publish All Customizations**.  
   
 ## Add a rollup field  to the entity form to show the ratings  
- Depending on how you want to calculate the rating for the entity, you can create a rollup field that calculates the rating, and then add it to the form of the entity you're enabling for feedback. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](https://technet.microsoft.com/library/dn832162.aspx)  
+ Depending on how you want to calculate the rating for the entity, you can create a rollup field that calculates the rating, and then add it to the form of the entity you're enabling for feedback. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](../customize/define-rollup-fields.md)  
   
 ### See also  
- [Submit feedback or ratings for Dynamics 365 records](../basics/submit-feedback-ratings-dynamics-365-records.md)
+ [Submit feedback or ratings for Dynamics 365 records](../basics/submit-feedback-ratings.md)

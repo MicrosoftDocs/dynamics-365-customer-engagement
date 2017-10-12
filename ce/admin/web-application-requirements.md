@@ -1,7 +1,7 @@
 ---
 title: "Web application requirements for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Web application requirements
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 <a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web and mobile device client applications.  
   
 <a name="webapp_hw_req"></a>   
@@ -39,7 +42,7 @@ manager: "brycho"
   
 -   Latency under 150 ms  
   
- Notice that these values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 clients](https://technet.microsoft.com/library/mt269872.aspx)  
+Notice that these values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 clients](verify-network-capacity-throughput-clients.md)  
   
 ### Network requirements when you use Dynamics 365 interactive service hub experience  
  The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience is designed to work best over networks that have the following elements:  
@@ -48,7 +51,7 @@ manager: "brycho"
   
 -   Latency under 150 ms  
   
- Notice that the suggested network requirements include the metadata download needed for first run or newly published customizations. The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub typically requires more bandwidth when metadata has to be downloaded. These values are recommendations and don’t guarantee satisfactory performance. The values are based on systems using uncustomized, out-of-the box forms. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs.  
+Notice that the suggested network requirements include the metadata download needed for first run or newly published customizations. The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub typically requires more bandwidth when metadata has to be downloaded. These values are recommendations and don’t guarantee satisfactory performance. The values are based on systems using uncustomized, out-of-the box forms. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs.  
   
 <a name="SupportedOS"></a>   
 ## Supported versions of Internet Explorer and Edge  
@@ -78,7 +81,7 @@ manager: "brycho"
   
 - [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)] (latest publicly-released version) running on [!INCLUDE[tn_Mac_OS_X](../includes/tn-mac-os-x.md)] 10.8 (Mountain Lion), 10.9 (Mavericks), 10.10 (Yosemite), or [Apple iPad](../mobile-app/support-phones-tablets.md#BKMK_iPad)  
   
- To find the latest release for these web browsers, visit the software manufacturer’s website.  
+To find the latest release for these web browsers, visit the software manufacturer’s website.  
   
 > [!IMPORTANT]
 >  -   Using plug-ins or other third-party extensions in your browser can increase load times on pages with lists of data.  
@@ -101,6 +104,14 @@ manager: "brycho"
 <a name="BKMK_PrintRepots"></a>   
 ## Printing reports  
  The Reporting Services[!INCLUDE[pn_ms_ActiveX_long](../includes/pn-ms-activex-long.md)] control is required to print reports. If you try to print a report and the control isn’t installed, you’ll be prompted to install it. The installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
+
+<a name="BKMK_TLS"></a> 
+## Transport Layer Security (TLS) requirement
+With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], web browsers and other client applications that only use Transport Layer Security (TLS) versions earlier than TLS 1.2 will be unable to connect to their [!INCLUDE [pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)] instances and the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. 
+
+For more information, see these blog posts: 
+- [Updates coming to Dynamics 365 Customer Engagement connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+- [TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
   
 ### See also  
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   

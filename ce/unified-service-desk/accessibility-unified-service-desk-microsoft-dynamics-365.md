@@ -1,21 +1,17 @@
 ---
-title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Unified Service Desk 3.x"
+title: Know Accessibility in Unified Service Desk for Microsoft Dynamics 365 Customer Engagement | Microsoft Docs
+description: Understand Accessibility in Unified Service Desk for Microsoft Dynamics 365 Customer Engagement
+keywords: Unified Service Desk; Accessibility; Dynamics 365
+author: anjgupta
+applies_to: Dynamics 365 (online)
+ms.author: anjgup
+manager: sakudes
+ms.date: 08/11/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: f43d9d0d-50fa-4ffa-908a-e592b40371b4
-caps.latest.revision: 19
-author: "Mattp123"
-ms.author: "matp"
-tags: 
- - "MigrationHO"
 ---
+
 # Accessibility in Unified Service Desk for Microsoft Dynamics 365
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  
   

@@ -17,15 +17,15 @@ manager: sakudes
 ---
 # Overview for commissioners and game managers in Gamification
 
-As with any software application, the tool itself doesn’t make you successful. It needs to be used and set up the right way to achieve the best results. Before you get started setting up your first game in [!INCLUDE[pn_gamification](includes/pn-gamification-md.md)] and organizing a competition for your teams, there are a few things to keep in mind:  
+As with any software application, the tool itself doesn’t make you successful. It needs to be used and set up the right way to achieve the best results. Before you get started setting up your first game in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] and organizing a competition for your teams, there are a few things to keep in mind:  
   
-First things first&mdash;you need to install [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)] from [!INCLUDE[pn_microsoft_appsource](includes/pn-microsoft-appsource-md.md)] and make sure users have a [!INCLUDE[pn_CRM_Online](includes/pn-crm-online-md.md)] license assigned. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
+First things first&mdash;you need to install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] from [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] and make sure users have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license assigned. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
-To prepare for your first game, familiarize yourself with the main concepts in [!INCLUDE[pn_gamification_shortest](includes/pn-gamification-shortest-md.md)], like game models, players, KPIs, teams, and user roles. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)  
+To prepare for your first game, familiarize yourself with the main concepts in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], like game models, players, KPIs, teams, and user roles. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)  
   
-A game is no fun without participants. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Import players and fans from Dynamics 365 (online) and manage their security roles](manage-players-fans.md)  
+A game is no fun without participants. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Import players and fans from Dynamics 365 (online) and manage their security roles](manage-players-fans.md)  
   
-Get started with setting up your first game. [!INCLUDE[proc_more_information](includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
+Get started with setting up your first game. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Set up and run games in Gamification](run-games.md)  
   
 ### See also
 

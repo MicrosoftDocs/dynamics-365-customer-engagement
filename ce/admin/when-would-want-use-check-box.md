@@ -1,7 +1,7 @@
 ---
 title: "When would I want to use this check box in Dynamics 365 Customer Engagement? | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,10 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # When would I want to use this check box?
-> [!NOTE]
-> [!INCLUDE[cc_feature_included_with_update](../includes/cc-feature-included-with-update-2016.md)]  <!-- This may be the incorrect token. It was added to fix a build issue. -->
-  
- A user can be a member of more than one [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, but an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one Exchange mailbox. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] stores the organization ID (`OrgID`) for the synchronizing organization and the last time the user synced in Exchange.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+ A user can be a member of more than one [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, but an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize emails, appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize emails, appointments, contacts, and tasks with one Exchange mailbox. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] stores the organization ID (`OrgID`) for the synchronizing organization and the last time the user synced in Exchange.  
   
  You can use the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box to overwrite the setting stored in Exchange if you want to change the primary synchronizing organization. Why would you want to do this? In most cases, you won’t need to. Most users are members of just one organization. When an admin starts the synchronization for the user’s Exchange mailbox by testing and enabling the mailbox through server-side synchronization, the user’s mailbox is automatically set to synchronize appointments, contacts, and tasks with that organization.  
   
@@ -45,4 +45,4 @@ manager: "brycho"
 4.  In the **Mailbox** dialog box, under **Synchronization Method**, select **None** in the **Appointments, Contacts, and Tasks** list.  
   
 ### See also  
- [Set up server-side synchronization of email, appointments, contacts, and tasks](https://technet.microsoft.com/library/dn531109.aspx)
+ [Set up server-side synchronization of email, appointments, contacts, and tasks](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

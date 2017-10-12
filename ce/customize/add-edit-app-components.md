@@ -1,7 +1,7 @@
 ---
-title: "Add or edit app components in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Add or edit app components (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,12 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: be93b9d7-f1c2-4ee7-8d7c-0f5c34dfa5f7
 caps.latest.revision: 17
 ms.author: "shujoshi"
 ---
 # Add or edit app components in the app designer
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 An app is composed of various components. There are two types of components that you can add to an app: artifacts and entity assets. In the context of the app designer, entities, dashboard, and business process flows are all artifacts of an app. All assets of an entity - like forms, views, and charts - called entity assets.  
   
  The app designer refers to existing  metadata in the default solution. It also allows you to create components like forms, views, and charts.  
@@ -59,10 +62,10 @@ An app is composed of various components. There are two types of components that
   
  ![Create New link on the Components tab of app designer](../customize/media/app-designer-components-tab-create-new.png "Create New link on the Components tab of app designer")  
   
-     The dashboard designer opens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit dashboards](https://technet.microsoft.com/library/mt147906.aspx)  
+     The dashboard designer opens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit dashboards](../customize/create-edit-dashboards.md)  
   
     > [!NOTE]
-    > - When you're adding a business process flow or entity, the **Create New** option opens the corresponding designer. To learn more about creating business process flows or entities, see [Create a business process flow](../customize/create-business-process-flow.md) and [Create a new entity](create-new-entity.md).  
+    > - When you're adding a business process flow or entity, the **Create New** option opens the corresponding designer. To learn more about creating business process flows or entities, see [Create a business process flow](../customize/create-business-process-flow.md) and [Create and edit entities](../customize/create-edit-entities.md).  
     > - When you're adding a dashboard, you can only reference system and custom dashboards (except the interactive dashboards) that are  listed in the Dashboards node in the solution explorer.  
   
 5.  When you're done adding artifacts, on the command bar, click **Save**.  
@@ -104,9 +107,9 @@ An app is composed of various components. There are two types of components that
     > [!NOTE]
     >  The drop-down is available only when you're adding forms. It isn't available for views and charts.  
   
-     The form designer opens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)  
+     The form designer opens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and design forms](../customize/create-design-forms.md)  
   
-     When you're adding a view or a chart, the **Create New** option opens the corresponding designer. To learn more about creating views or charts, see [Create and edit views](https://technet.microsoft.com/library/dn509578.aspx) and [Create or edit a system chart](../customize/create-edit-system-chart.md)  
+     When you're adding a view or a chart, the **Create New** option opens the corresponding designer. To learn more about creating views or charts, see [Create and edit views](../customize/create-edit-views.md) and [Create or edit a system chart](../customize/create-edit-system-chart.md)  
   
     > [!NOTE]
     >  When you're adding a view, you can reference only public views that are listed under the **Views** node in the solution explorer.  

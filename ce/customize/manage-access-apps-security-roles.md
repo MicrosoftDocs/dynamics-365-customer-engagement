@@ -1,7 +1,7 @@
 ---
 title: "Manage access to Dynamics 365 Customer Engagement apps by using security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-17"
+ms.date: 11/17/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,12 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: c00f867d-78f0-4f3e-a716-f7b25f9d343a
 caps.latest.revision: 11
 ms.author: "shujoshi"
 ---
 # Manage access to apps by using security roles
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can choose what users see and access from My Apps or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] home page by giving app access to specific security roles. Users will have access to apps based on the security roles they are assigned to.  
   
 1.  Go to **Settings** > **My Apps**.  

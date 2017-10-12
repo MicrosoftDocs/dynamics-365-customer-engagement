@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business and Skype integration with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,10 +17,14 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Skype for Business and Skype integration
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 If your organization uses [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] (formerly known as [!INCLUDE[pn_Microsoft_Lync](../includes/pn-microsoft-lync.md)]) or [!INCLUDE[pn_skype](../includes/pn-skype.md)], you can take advantage of connectivity features like click-to-call or checking user availability from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
   
 <a name="BKMK_UseLync"></a>   
 ## Using Skype for Business with Dynamics 365  
+
  When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] together, you can use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)]) presence and click-to-call from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  Your organization must have one of the following products or subscriptions:  
@@ -56,10 +60,11 @@ If your organization uses [!INCLUDE[pn_skype_for_business](../includes/pn-skype-
 |[!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]|Yes|No|  
   
 <a name="BKMK_UseSkype"></a>   
+
 ## Using Skype with Dynamics 365  
  When you use [!INCLUDE[pn_skype](../includes/pn-skype.md)] and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] together, you can use [!INCLUDE[pn_skype](../includes/pn-skype.md)] click-to-call from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
- **Client requirements and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configuration**  
+**Client requirements and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configuration**  
   
 -   Each user must have the [!INCLUDE[pn_skype_for_windows](../includes/pn-skype-for-windows.md)] desktop client or the [!INCLUDE[pn_skype_for_windows_8](../includes/pn-skype-for-windows-8.md)] app installed and running on their PC or [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device.  
   
@@ -79,12 +84,8 @@ If your organization uses [!INCLUDE[pn_skype_for_business](../includes/pn-skype-
   
  \* The [Skype Click-to-call plugin](http://www.skype.com/go/clicktocall) must be installed on the [!INCLUDE[tn_chrome](../includes/tn-chrome.md)] browser and enabled. More information: [How do I enable Skype Click to Call in Chrome?](https://support.skype.com/en/faq/FA12243/how-do-i-enable-skype-click-to-call-in-chrome)  
   
- **Prompt occurs.  
-  
  Additionally, [!INCLUDE[pn_skype](../includes/pn-skype.md)] click-to-call is supported with [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)], [!INCLUDE[pn_moca_CRM_Windows_8_1](../includes/pn-moca-crm-windows-8-1.md)], and [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)].  
   
 ### See also  
- [Set up Dynamics 365 (online) to use Skype or Skype for Business](../admin/set-up-dynamics-365-online-to-use-skype-or-skype-for-business.md)   
- <!--[Microsoft Dynamics 365 system requirements and required technologies](Microsoft%20Dynamics%20365%20system%20requirements%20and%20required%20technologies.md)  --> 
- [Extend Dynamics 365 with integration and solutions](../admin/extend-with-integration-solutions.md)   
- [Connect to Microsoft Social Listening](../admin/connect-microsoft-social-engagement.md)
+ [Set up Dynamics 365 (online) to use Skype or Skype for Business](../admin/set-up-skype-or-skype-for-business.md)   
+ [Microsoft Dynamics 365 (online) requirements](online-requirements.md)

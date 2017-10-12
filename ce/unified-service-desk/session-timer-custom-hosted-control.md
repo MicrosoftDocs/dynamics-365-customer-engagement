@@ -1,7 +1,8 @@
 ---
 title: "Session Timer (Custom Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about Session Timer type of hosted control in Unified Service Desk."
 ms.custom: ""
-ms.date: "2016-08-01"
+ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -76,4 +77,4 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
   
 ### See also  
  [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-and-event-reference.md)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

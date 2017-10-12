@@ -1,7 +1,7 @@
 ---
-title: "Define rollup fields in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Define rollup fields (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,10 @@ ms.author: "rdubois"
 manager: "brycho"
 ---
 # Define rollup fields that aggregate values
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], *rollup* fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the customization tools in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web application, without needing a developer to write code.  
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *rollup* fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the customization tools in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web application, without needing a developer to write code.  
   
 <a name="BKMK_benefitsandcapabilities"></a>   
 ## Rollup fields benefits and capabilities  
@@ -36,7 +39,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], *rollup* fields 
   
 -   If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure rollup fields to use custom controls.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../mobile-app/customize-phones-tablets.md#BKMK_VisualControls)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../customize/add-visual-controls-mobile-app.md#BKMK_VisualControls)  
   
  Some examples of rollup fields include:  
   
@@ -121,7 +124,9 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
  ![Rollup all activities for an account](../customize/media/rollup-enhancements-activities.png "Rollup all activities for an account")  
   
 ### Aggregate data for a record from all related activities and activities indirectly related via the Activity Party entity  
- In this example, we count the total number of emails sent to an account, where the account is listed on the email’s “To Recipient” line or “Cc Recipient line. This is done by specifying the **Participation Type** in **FILTERS** for the Activity Party entity in the rollup field definition. If you don’t use filtering, then all available participation types for an activity are used in the calculation. For more information about the Activity Party entity and participation types available for a particular activity, see [MSDN: ActivityParty entity](https://msdn.microsoft.com/library/gg328549.aspx).  
+ In this example, we count the total number of emails sent to an account, where the account is listed on the email’s “To Recipient” line or “Cc Recipient line. This is done by specifying the **Participation Type** in **FILTERS** for the Activity Party entity in the rollup field definition. If you don’t use filtering, then all available participation types for an activity are used in the calculation. 
+<!-- For more information about the Activity Party entity and participation types available for a particular activity, see [ActivityParty entity](../developer/activityparty-entity.md).  -->
+
   
  ![Rollup related activities and activity party](../customize/media/rollup-enhancements-indirect-activities.png "Rollup related activities and activity party")  
   

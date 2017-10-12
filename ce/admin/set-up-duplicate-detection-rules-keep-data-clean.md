@@ -1,7 +1,7 @@
 ---
 title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Set up duplicate detection rules to keep your data clean
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To maintain the integrity of your data, it’s a good idea to have rules in place to reduce duplicate records in the system. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule.  
   
  After you’ve created duplicate detection rules, you need to turn duplicate detection on.  

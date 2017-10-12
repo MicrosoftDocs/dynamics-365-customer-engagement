@@ -1,7 +1,7 @@
 ---
 title: "Install or uninstall a Dynamics 365 Customer Engagement app | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,12 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: e82e7f64-37ad-41e5-acd7-16309881c6a2
 caps.latest.revision: 9
 ms.author: "matp"
 ---
 # Install or uninstall an app
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Apps are available as solution components in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This allows you to package the apps in a solution and import them in other organizations.  
   
 ## Package an app in a solution  
@@ -23,12 +26,12 @@ Apps are available as solution components in [!INCLUDE[pn_crm_shortest](../inclu
 > [!NOTE]
 >  When you export an app using a solution, the app URL is not exported.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, install, and update a managed solution](https://msdn.microsoft.com/library/gg309325.aspx#BKMK_CreateManagedSolution), [Create, export, or import an unmanaged solution](https://msdn.microsoft.com/library/gg334495.aspx#BKMK_UnmanagedSolution)  
+ <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a managed solution](../developer/create-install-update-managed-solution.md#create-a-managed-solution), [Create an unmanaged solution](../developer/create-export-import-unmanaged-solution.md#create-an-unmanaged-solution)  -->
   
 ## Import the solution  
  In the organization where you need the app, import the solution that contains the app.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, install, and update a managed solution](https://msdn.microsoft.com/library/gg309325.aspx#BKMK_InstallManagedSolution), [Create, export, or import an unmanaged solution](https://msdn.microsoft.com/library/gg334495.aspx#BKMK_ImportUnmanagedSolution)  
+ <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install a managed solution](../developer/create-install-update-managed-solution.md#install-a-managed-solution), [Import an unmanaged solution](../developer/create-export-import-unmanaged-solution.md#import-an-unmanaged-solution)  -->
   
 ## App access  
  System administrators and customizers have access to these apps by default, and can give app access to specific security roles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md)  

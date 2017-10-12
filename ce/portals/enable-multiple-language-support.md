@@ -2,7 +2,7 @@
 title: "Enable multiple-language portal support in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable multiple languages for a portal and create content in multiple languages."
 ms.custom: ""
-ms.date: 08/03/2017
+ms.date: 09/28/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,7 +23,7 @@ To enable multiple languages for a portal, follow these steps after signing in t
 1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/library/dn832148.aspx)  
 2.  Go to **Portals** > **Website** > **Websites**.
 3.  Select the website to add language support to.
-4.  Find the **Supported Languages** section under the **General** tab, and click the **+** button.
+4.  Find the **Supported Languages** section under the **General** tab, and then select the **+** button.
 5.  Fill in the form, including **Portal Language** (a lookup of languages that are activated in the organization and are supported by portals) and **Publishing State**.
 
     ![Add a new portal language](media/add-new-portal-language.png "Add a new portal language")
@@ -31,7 +31,7 @@ To enable multiple languages for a portal, follow these steps after signing in t
     ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
 
 > [!Note]
-> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](provision-portal.md#import-metadata-translation) to get the  metadata translated for the newly activated languages.
+> If you activate new languages after the portal has been provisioned, you can [import the metadata translations](manage-portal.md#import-metadata-translation) to get the  metadata translated for the newly activated languages.
 
 ## Supported languages
 
@@ -85,10 +85,10 @@ The table below shows all the languages currently available out of the box. This
 
 ## Create content in multiple languages
 
-1. Sign-in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 2. Go to **Portals** > **Content** > **Web Pages** to see a list of content. For each web page, there will be a parent version of the page and a child version of the page for each language activated for the portal.
 3. To add a new localization of the page, go to a base page and scroll down to **Localized Content**.
-4. Click the **+** button on the right side to create a look-up for the localized version.
+4. Select the **+** button on the rightmost side to create a lookup for the localized version.
 
     ![Add new localized content](media/Add-new-localized-content.png "Add new localized content")  
 

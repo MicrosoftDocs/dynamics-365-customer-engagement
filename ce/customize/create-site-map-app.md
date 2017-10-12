@@ -1,7 +1,7 @@
 ---
-title: "Create a site map for an app in Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Create a site map for an app (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,15 +9,18 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 2461bd71-6cb4-46b7-8d1f-6a0aa3dca809
 caps.latest.revision: 18
 ms.author: "shujoshi"
 ---
 # Create a site map for an app using the site map designer
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Site maps define the navigation for your app. Create a site map for your app with ease by using the tile-based site map designer. The new designer lets you drag and drop components into the designer, preview your work, and instantly publish the site map. Administrators and any user with the required privileges can quickly create site maps for apps.  
   
- The site map designer also lets you define the area, subarea, or group titles in the languages supported by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ The site map designer also lets you define the area, subarea, or group titles in the languages supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
  By default, a site map for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] - custom app is already available. You can edit this site map or configure site maps for new apps by using the site map designer.  The site map designer is integrated with the app designer.  
   
@@ -54,7 +57,7 @@ Site maps define the navigation for your app. Create a site map for your app wit
 7.  Click **Publish**.  
   
 ## Edit the default site map (Dynamics 365 - custom app)  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] comes with a default site map for the Dynamics 365 - custom app. This site map is supported for both the web application and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] comes with a default site map for the Dynamics 365 - custom app. This site map is supported for both the web application and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -211,7 +214,7 @@ Site maps define the navigation for your app. Create a site map for your app wit
 ## Clients supported  
  The following table explains the clients supported for different site maps.  
   
-|Site Maps|supported Clients|  
+|Site Maps|Supported Clients|  
 |---------------|-----------------------|  
 |Site map for the Dynamics 365 - custom app|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]|  
 |Default business apps (Sales, Customer Service, Field Service, Project Service Automation)|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application|  

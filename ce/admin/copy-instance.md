@@ -1,7 +1,7 @@
 ---
 title: "Copy an instance of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Copy an instance to a Sandbox instance
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] application and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
   
 > [!TIP]
@@ -25,7 +28,7 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
 >  This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
   
 > [!NOTE]
->  To copy instances larger than 100 GB, please contact [product support](https://go.microsoft.com/fwlink/p/?linkid=616937).  
+>  To copy instances larger than 100 GB, please contact [technical support](contact-technical-support.md).  
   
 ## Full copy instance  
  A full copy includes all application data, users, and customizations from the source instance and is suitable for:  
@@ -38,11 +41,11 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
   
 -   Training  
   
- **An example scenario**  
+**An example scenario**  
   
- Isaac, a business application developer, has received a request from the sales department to configure and deploy a social media integration solution from another company vendor.  Isaac has never installed a solution from this vendor and is unsure what impact this would have on the production application.  He’d like to import the solution into an environment that is nearly identical to, but isolated from, production to learn about the solution and make the appropriate configuration changes. Isaac submits a request to Thomas, the IT Manager for Contoso, to create a full copy Sandbox instance for him.  
+Isaac, a business application developer, has received a request from the sales department to configure and deploy a social media integration solution from another company vendor.  Isaac has never installed a solution from this vendor and is unsure what impact this would have on the production application.  He’d like to import the solution into an environment that is nearly identical to, but isolated from, production to learn about the solution and make the appropriate configuration changes. Isaac submits a request to Thomas, the IT Manager for Contoso, to create a full copy Sandbox instance for him.  
   
- After the full copy is complete, Isaac receives a mail from Thomas telling him the Sandbox instance is ready.  Isaac logs into the Sandbox instance and makes the necessary changes to make sure that production external services will not be impacted by the Sandbox instance.  Once changes are complete, Isaac turns off administration mode and enables background services.  Isaac is able to use the full copy Sandbox instance to do his testing and later manually import the solution into production.  
+After the full copy is complete, Isaac receives a mail from Thomas telling him the Sandbox instance is ready.  Isaac logs into the Sandbox instance and makes the necessary changes to make sure that production external services will not be impacted by the Sandbox instance.  Once changes are complete, Isaac turns off administration mode and enables background services.  Isaac is able to use the full copy Sandbox instance to do his testing and later manually import the solution into production.  
   
 ## Minimal copy instance  
  A Minimal copy only includes users, customizations, and schema from the source instance and is suitable for:  
@@ -53,11 +56,11 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
   
 -   Proof of concept  
   
- **An example scenario**  
+**An example scenario**  
   
- Isaac has a large development project starting next week for the sales department.  He has a team of developers ready to start on the project, some of whom are internal to Contoso and some are external vendors. The Contoso sales application contains Personally Identifiable Information (PII) that the sales manager has explicitly stated must not be made available to any external parties for privacy and legal liability reasons.  Isaac requests a minimal copy Sandbox instance that does not contain any production data or users. In addition, Isaac creates an Office 365 security group to give the development team access to the Sandbox instance.  
+Isaac has a large development project starting next week for the sales department.  He has a team of developers ready to start on the project, some of whom are internal to Contoso and some are external vendors. The Contoso sales application contains Personally Identifiable Information (PII) that the sales manager has explicitly stated must not be made available to any external parties for privacy and legal liability reasons.  Isaac requests a minimal copy Sandbox instance that does not contain any production data or users. In addition, Isaac creates an Office 365 security group to give the development team access to the Sandbox instance.  
   
- After modifying and enabling some of the plug-ins, the developer Sandbox instance functions the same and is completely isolated from the production application.  The development team works on their modifications in this instance for several weeks.  They package their changes into a solution and export/import to deploy to the full copy Sandbox instance.  After a successful round of testing and signoffs, the changes are manually deployed to production.  
+After modifying and enabling some of the plug-ins, the developer Sandbox instance functions the same and is completely isolated from the production application.  The development team works on their modifications in this instance for several weeks.  They package their changes into a solution and export/import to deploy to the full copy Sandbox instance.  After a successful round of testing and signoffs, the changes are manually deployed to production.  
   
 ### Entities copied in a Minimal copy  
  The following entities are copied when you do a Minimal copy:  
@@ -92,6 +95,7 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
 |SystemUser|  
   
 <a name="BKMK_ToCopy"></a>   
+
 ## To copy an instance  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
@@ -114,9 +118,10 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
   
 6.  Click **yes** in the confirmation dialog box.  
   
- Once the copy process is complete, the target instance is placed in [Administration mode](../admin/manage-sandbox-instances.md#BKMK_AdminMode) and background operations are disabled. The next section describes recommended Administrator actions for the newly created copy (target) instance.  
+Once the copy process is complete, the target instance is placed in [Administration mode](../admin/manage-sandbox-instances.md#BKMK_AdminMode) and background operations are disabled. The next section describes recommended Administrator actions for the newly created copy (target) instance.  
   
 <a name="BKMK_NextSteps"></a>   
+
 ## Next steps after copying an instance  
  To ensure the newly created copy (target) instance does not impact your production instance, once the copy operation is complete, two things happen:  
   
@@ -124,7 +129,7 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
   
 2.  Background operations are disabled in the copy instance. Disabled operations include workflows and synchronization with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
   
- **Review components**  
+**Review components**  
   
  You should review the status of application components in the copy instance with external connections such as [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], email, plug-ins, custom workflow activities, etc. Review these and consider what action to take:  
   
@@ -144,7 +149,7 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
   
     -   Appointments, Contacts, Tasks  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](https://technet.microsoft.com/library/dn531109.aspx)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
 - **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.  
   

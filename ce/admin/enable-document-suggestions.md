@@ -1,7 +1,7 @@
 ---
 title: "Enable document suggestions for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,6 +17,9 @@ ms.author: "matp"
 manager: "brycho"
 ---
 # Enable document suggestions to recommend related documents
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web browser and mobile users be aware of important documents related to what they're working on in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] such as a big sales opportunity. You, as the admin, define relevant fields. A recommendation engine using [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] text analytics uses keyword matching to associate related records to find similar documents. You create similarity rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to provide your own similarity logic. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] then presents a list of suggested documents to the user while the user works in the current record.  
   
  ![Document recommendations feature diagram](../admin/media/document-recommendations.png "Document recommendations feature diagram")  
@@ -35,7 +38,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
   
     -   Access to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], or [!INCLUDE[pn_sharepoint_2016](../includes/pn-sharepoint-2016.md)].  
   
-    -   Document management must be set up in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. See [Set up SharePoint integration with Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531154.aspx)  
+    -   Document management must be set up in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. See [Set up SharePoint integration with Microsoft Dynamics 365](set-up-sharepoint-integration.md)  
   
 -   Relevance Search must be enabled. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search for the organization](../admin/configure-relevance-search-organization.md)  
   
@@ -68,7 +71,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
   
 5.  External URL (when configured).  
   
- Currently, Document Suggestions does not search attachments that are added to Notes in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records.  
+Currently, Document Suggestions does not search attachments that are added to Notes in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records.  
   
 <a name="addExternalURL"></a>   
 ### Adding an external URL to search another site  
@@ -118,5 +121,3 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
 4.  Set external URL to include in Document Suggestions. By default, Document Suggestions searches in [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] services like [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] or [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)]. If you want to search  an external site in addition to the available [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services, such as an on-premise [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site, enter the base URL to the external system. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will append a search query string to the base URL you provide. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Adding an external URL to search other sites](#addExternalURL)  
   
 ### See also  
- [Azure Machine Learning Integration with Dynamics 365](../admin/public-preview-microsoft-cognitive-services-integration.md)   
- [Add interoperation features to Microsoft Dynamics 365 (online)](../admin/add-interoperation-features-to-microsoft-dynamics-365-online.md)
