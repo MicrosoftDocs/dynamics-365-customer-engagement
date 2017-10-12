@@ -45,7 +45,7 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
  ![Notebooks in associated SharePoint folder](../basics/media/use-onenote.PNG "Notebooks in associated SharePoint folder")  
   
 > [!NOTE]
->  -   You can’t edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] file from within Dynamics 365. This can be done only from the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app that opens when you choose the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] link.  
+> -   You can’t edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] file from within Dynamics 365. This can be done only from the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app that opens when you choose the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] link.  
 > -   Don’t delete any [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. onetoc2 or .one file types in the **OneNote** section in Dynamics 365. If you do, you won’t be able to access your Dynamics 365 OneNote notebook.  
 > -   Sections groups that keep related sections together in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] aren’t supported in Dynamics 365.  
 > -   You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won’t see the updated section name in Dynamics 365.  
