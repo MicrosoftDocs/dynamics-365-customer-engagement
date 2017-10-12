@@ -1,20 +1,19 @@
 ---
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
-ms.custom: ""
-ms.date: 05/31/2017
-ms.reviewer: ""
+keywords: "install, solution, manage, uninstall"
+ms.date: 10/12/2017
 ms.service: gamification
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: get-started-article
-applies_to: Dynamics 365 (online)
-ms.assetid: cff88aa0-01a3-4cd7-adcf-8d4b8dec9f20
-caps.latest.revision: 36
-author: "m-hartmann"
+applies_to:
+  - "Dynamics 365 (online)"
+ms.assetid: eb33a4c5-2dde-417b-34f2-8d46be8c2f10
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Install and configure the Gamification solution in Dynamics 365 (online)
 
 The [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] capabilities are a solution for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], hosted on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)], that you need to install before you can start using the capabilities to manage your [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] games, KPIs, and players.  
@@ -47,11 +46,12 @@ If you have more than one [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm
   
  It may take a few minutes for the solution to be installed in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
-## KPI manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] 
+## Game Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] 
 
- When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **KPI manager** is created in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. System admins can assign this security role to [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] users they want to enable to create KPIs for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
-  
- To learn more about security roles and privileges, see [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
+ When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Game Manager** is created in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. System admins can assign this security role to [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] users they want to enable to create KPIs for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
+
+ [Learn more about security roles in Gamification.](understand-security-roles.md)
+ For general information about security roles and privileges, see [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
   
  For more information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md).  
   
