@@ -15,7 +15,7 @@ caps.latest.revision: 25
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# System Settings dialog box - Customization tab
+# System Settings dialog box - Customization tab 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -42,6 +42,8 @@ Use the Customization tab in System Settings to set preferences for plug-in and 
 |Open [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in Application mode|Select this check box to enable application mode. When this mode is enabled, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can be opened in a browser without menus, navigation, or toolbars. Hiding these parts of the browser causes [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to appear like a separate application rather than a website. By default, application mode isn’t enabled.|  
 |**Plug-in and custom workflow activity tracing**||  
 |Enable logging to plug-in trace log|You can now store detailed information about an exception or trace event raised by a custom code to help developers debug plug-ins or custom workflow activity that they develop using the customization methods supported by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].<br /><br /> -   To capture trace logs only for exceptions, select **Exception**.<br />-   To capture logs for all errors and general trace events, select **All**.<br />-   To disable capturing trace logs, select **Off**.<br /><br /> <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Debug a plug-in](../developer/debug-plugin.md) --> **Warning:**  We recommend that you don’t keep this option enabled for an extended period because it may have performance implications in your organization.|  
+|**Enable Microsoft Flow**|More information: [Enable embedded Flow to automate processes](enable-embedded-flow-in-your-organization.md)|
+|Show Microsoft Flow on forms and in the site map|Default: Yes. Choose **Yes** to enable embedded Microsoft Flows in your organization.|
   
 <!-- ### See also  
  [Debug a plug-in](../developer/debug-plugin.md) -->
