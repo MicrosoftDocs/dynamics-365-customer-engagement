@@ -1,7 +1,7 @@
 ---
-title: "Customize Microsoft Dynamics 365 Power BI content packs in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Customize Dynamics 365 Power BI content packs (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-08-31"
+ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 424d7f29-de44-4ce0-94f1-be8777ad6485
 caps.latest.revision: 16
 author: "Mattp123"
@@ -17,7 +18,10 @@ manager: "amyla"
 tags: 
  - "MigrationHO"
 ---
-# Customize Microsoft Dynamics 365 Power BI content packs
+# Customize Dynamics 365 Power BI content packs
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] is a comprehensive collection of services and  tools that you use to visualize your business data.  Content packs are available that make it easy to visualize and analyze the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] based on a standard data model. The content packs are built with a set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities and fields that are useful for most sales, service, or marketing reporting scenarios.  
   
  Instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are often extended with custom fields. These custom fields don’t automatically show up in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model. This topic describes the different ways that you can edit or extend the reports included in a content pack to include custom fields in the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] model.  
@@ -34,11 +38,11 @@ tags:
   
 -   PBIX file for the content pack that you want to customize.  
   
-    -   [Download the Microsoft Dynamics CRM Online Sales Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Sales%20Manager.pbix)  
+    -   [Download the Dynamics CRM Online Sales Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Sales%20Manager.pbix)  
   
-    -   [Download the Microsoft Dynamics CRM Online Service Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
+    -   [Download the Dynamics CRM Online Service Manager .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Customer%20Service%20Manager.pbix)  
   
-    -   [Download the Microsoft Dynamics 365 Process Analyzer .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
+    -   [Download the Dynamics 365 Process Analyzer .PBIX](http://download.microsoft.com/download/9/2/B/92BCBDCE-CE01-4BC9-A306-2A92653B683E/Process%20Analyzer%20-1.34b.pbix)  
   
  [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] content packs are currently only supported in the U.S. English language.  
   
@@ -46,6 +50,8 @@ tags:
   
 > [!IMPORTANT]
 >  To connect the OData feed to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance you must follow the steps described here before you customize the content pack.  
+
+> Currently, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service isn’t compatible with the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 9.0 OData endpoint. When you try to use the version 9.0 OData endpoint with the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service the error message “The feed's metadata document appears to be invalid” is displayed. To work around this incompatibility, use the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 8.2 OData endpoint.For more information about the different endpoint versions, see [Web API URL and versions]( https://msdn.microsoft.com/library/gg334391.aspx#bkmk_url_and_versions).
   
 1.  Start [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)].  
   
@@ -85,7 +91,7 @@ tags:
   
 <a name="PBI_edit_date"></a>   
 ### Convert a DateTime field to a Date field for reporting  
- In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], some dates are saved in a Date/Time/Timezone format, which may not be the preferred format for aggregating data in  a report. You can convert the date displayed in reports for an entity field. For example, the Opportunity Created On field can be converted to a date to report the Opportunities created by day.  
+ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], some dates are saved in a Date/Time/Timezone format, which may not be the preferred format for aggregating data in  a report. You can convert the date displayed in reports for an entity field. For example, the Opportunity Created On field can be converted to a date to report the Opportunities created by day.  
   
 1.  In Power BI Desktop, click **Edit Queries**.  
   
@@ -300,7 +306,7 @@ tags:
   
 <a name="BPI_increaserows"></a>   
 ## Increase the number of rows queried  
- By default, all [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] entity queries in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] content packs cannot exceed 100,000 rows. To increase the number of rows that can be queried, follow these steps.  
+ By default, all [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] entity queries in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content packs cannot exceed 100,000 rows. To increase the number of rows that can be queried, follow these steps.  
   
 > [!IMPORTANT]
 >  Increasing the row count limit can significantly impact the time it takes for a report to refresh. Additionally, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service has a 30-minute limit for running queries. Use caution when increasing the row count limit.  
@@ -333,5 +339,5 @@ tags:
   
 3.  If multiple destinations are available, select the one you want, and then click **Publish**.  
   
-## See also  
- [Use Power BI with Microsoft Dynamics 365](../admin/use-power-bi.md)
+### See also  
+ [Use Power BI with Dynamics 365](../admin/use-power-bi.md)
