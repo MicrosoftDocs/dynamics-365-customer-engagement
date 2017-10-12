@@ -70,7 +70,7 @@ Use [!INCLUDE[pn_learning_path](../includes/pn-learning-path.md)] to give your u
   
      You can enable [!INCLUDE[pn_learning_path](../includes/pn-learning-path.md)] or customizable Help, but not both at the same time. Confirm that **Use custom Help for customizable entities** and **Append parameters to URL** are set to **No**.  
   
-   ![System Settings dialog showing the options to select to enable Learning Path authoring](../customize/media/lp-system-settings.png "System Settings dialog showing the options to select to enable Learning Path authoring")  
+      ![System Settings dialog showing the options to select to enable Learning Path authoring](../customize/media/lp-system-settings.png "System Settings dialog showing the options to select to enable Learning Path authoring")  
   
 5.  Click **OK**.  
   
@@ -166,7 +166,7 @@ From AMY: I do not think this is true anymore now that it is all uci. I believe 
   
 3.  Determine the unique name for the org (also called instance) you want to create [!INCLUDE[pn_learning_path](../includes/pn-learning-path.md)] controls for. To get the unique  name, on the site map click **Settings** > **Customizations**, and then on the **Cusomtization** page click **Developer Resources**. Copy the value for the **Unique Name** field displayed under the **Instance Reference** section.  
   
- ![Dynamics org name displayed in the user info pane](../customize/media/lp-org-name.png "Dynamics org name displayed in the user info pane")  
+    ![Dynamics org name displayed in the user info pane](../customize/media/lp-org-name.png "Dynamics org name displayed in the user info pane")  
   
 4.  Append the following to the first part of the URL for your org, replacing \<org name> with the unique name for your org determined in the previous step:  
   
@@ -221,21 +221,21 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 -   On a sidebar, click the **Content Library** button.  
   
- ![The Content Library icon displayed on a Leaning Path sidebar](../customize/media/lp-sidebar-cl-icon.png "The Content Library icon displayed on a Leaning Path sidebar")  
+     ![The Content Library icon displayed on a Leaning Path sidebar](../customize/media/lp-sidebar-cl-icon.png "The Content Library icon displayed on a Leaning Path sidebar")  
   
 -   Click the **training** tile on the site map, and then click **Content Library**.  
   
- ![Content Library icon on the Dynamics 365 sitemap](../customize/media/lp-sitemap-content-library.png "Content Library icon on the Dynamics 365 sitemap")  
+     ![Content Library icon on the Dynamics 365 sitemap](../customize/media/lp-sitemap-content-library.png "Content Library icon on the Dynamics 365 sitemap")  
   
 **To open the Content Library from the mobile app interface simulator:**  
   
 1.  Click the ellipses button inside a circle on the bottom-right corner of the screen.  
   
- ![Ellipses button to display Learning Path icons](../customize/media/lp-cl-ellipses.png "Ellipses button to display Learning Path icons")  
+    ![Ellipses button to display Learning Path icons](../customize/media/lp-cl-ellipses.png "Ellipses button to display Learning Path icons")  
   
 2.  Click **Learning Path Content Library**.  
   
- ![Learning Path buttons displayed in the mobile app interface](../customize/media/lp-mobile-lp-button.png "Learning Path buttons displayed in the mobile app interface")  
+    ![Learning Path buttons displayed in the mobile app interface](../customize/media/lp-mobile-lp-button.png "Learning Path buttons displayed in the mobile app interface")  
 
 <!--  
 **To open the Content Library from the Interactive Service Hub interface, do one of the following:**  
@@ -300,7 +300,7 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 3.  In the Content Library, click **Guided Task**.  
   
- ![Link to create a new Guided Task in Learning Path Content Library](../customize/media/lp-content-library-gt.png "Link to create a new Guided Task in Learning Path Content Library")  
+     ![Link to create a new Guided Task in Learning Path Content Library](../customize/media/lp-content-library-gt.png "Link to create a new Guided Task in Learning Path Content Library")  
   
 4.  Provide a name and select the other settings for the Guided Task. Use this table for reference.  
   
@@ -317,13 +317,13 @@ From Amy: There is no longer anything special about ISH. It is just another app 
     |**Status**|Shows the status of the Guided Task. The status will be **Draft** until you publish it.|  
     |**Advanced Options**|This option is available after you save the Guided Task. The following settings are available under **Advanced Options**:<br /><br /> - **Make this error guided task** - Select this check box if you want to show this Guided Task only when there is an error with other Guided Tasks.<br />- **supported Languages** - Select the languages for this Guided Task, and for import and export.<br />- **Author** - Change the author defined for this Guided Task.<br />- **Tags** - Add or remove tags applied to this Guided Task. Use tags  to make it easier to search content in the Content Library, or to categorize your content.<br /><br /> You can also set the following settings under **Publish Info**:<br /><br /> - **App Version** - Set the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] version associated with the content.<br />- **Version** - Set the version of the content you create.<br />- **Authoring Group** - Set the Authoring Group for the content you create.<br />- **Publishing Groups** - Select the publishing group(s) for this content.|  
   
-5.  When you're finished, click **Save** to start using the Flow Editor.  
+5. When you're finished, click **Save** to start using the Flow Editor.  
   
 ### Add steps with the Flow Editor  
   
-1.  Add your title where *Guided Task Title* is displayed. This is the title that users will see.  
+1. Add your title where *Guided Task Title* is displayed. This is the title that users will see.  
   
-2.  Select whether or not to show fixed ID controls only.  Registered controls are outlined in green, and unregistered controls are outlined in blue when you drag the tile to pin it to the UI. If you pin a step to a control without a fixed ID, it may be affected by a future update to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Updates will not affect fixed ID controls.  
+2. Select whether or not to show fixed ID controls only.  Registered controls are outlined in green, and unregistered controls are outlined in blue when you drag the tile to pin it to the UI. If you pin a step to a control without a fixed ID, it may be affected by a future update to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Updates will not affect fixed ID controls.  
   
 3.  Click **Add New Step**, and then select the type of step you want to use for the first step of your Guided Task.  
   
@@ -342,11 +342,11 @@ From Amy: There is no longer anything special about ISH. It is just another app 
     > [!NOTE]
     >  You can hold the tile for up to 15 seconds. If you don't pin it within 15 seconds, the tile will remain unpinned and the mouse pointer will change back to a normal cursor.  
   
- ![Guided task flow editor](../customize/media/lp-gt-flow-editor.png "Guided task flow editor")  
+    ![Guided task flow editor](../customize/media/lp-gt-flow-editor.png "Guided task flow editor")  
   
 5.  When you've positioned the step where you want it, release the mouse button to pin it to the control. The step will appear in the location you selected. To move the step, use the **Drag me** button on the panel next to the step.  
   
- ![Drag me icon on a guided task bubble](../customize/media/lp-gt-bubble-drag-me.png "Drag me icon on a guided task bubble")  
+    ![Drag me icon on a guided task bubble](../customize/media/lp-gt-bubble-drag-me.png "Drag me icon on a guided task bubble")  
   
 6.  Add content to the step by using the controls displayed next to it. The following settings are available:  
   
@@ -393,7 +393,7 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 3.  In the Content Library, click **Sidebar**.  
   
- ![Link to create a new Sidebar in Learning Path Content Library](../customize/media/lp-content-library-sb.png "Link to create a new Sidebar in Learning Path Content Library")  
+    ![Link to create a new Sidebar in Learning Path Content Library](../customize/media/lp-content-library-sb.png "Link to create a new Sidebar in Learning Path Content Library")  
   
 4.  Provide a name, and then select the other settings for the Sidebar.  Use this table for reference.  
   
@@ -437,11 +437,11 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 1.  In the section you want to add links to, click the **List Of Links** icon.  
   
- ![List of Links icon selected on a Learning Path Sidebar](../customize/media/lp-sidebar-links.png "List of Links icon selected on a Learning Path Sidebar")  
+    ![List of Links icon selected on a Learning Path Sidebar](../customize/media/lp-sidebar-links.png "List of Links icon selected on a Learning Path Sidebar")  
   
 2.  Add a section title, and then click **+ Add Link**.  
   
- ![Add Link box highlighted in a section of a Learning Path Sidebar](../customize/media/lp-sidebar-addlink.png "Add Link box highlighted in a section of a Learning Path Sidebar")  
+    ![Add Link box highlighted in a section of a Learning Path Sidebar](../customize/media/lp-sidebar-addlink.png "Add Link box highlighted in a section of a Learning Path Sidebar")  
   
 3.  Select the type of link you want to add, and then click **Next**. You can choose from the following options:  
   
@@ -541,7 +541,7 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 2.  Click **Localize** and then click **Export**.  
   
- ![Export button on the Learning Path Localization menu](../customize/media/lp-localize-export.png "Export button on the Learning Path Localization menu")  
+    ![Export button on the Learning Path Localization menu](../customize/media/lp-localize-export.png "Export button on the Learning Path Localization menu")  
   
 3.  Select the option you want to use for saving the generated .zip file, and then select a file name and location.  
   
@@ -560,7 +560,21 @@ From Amy: There is no longer anything special about ISH. It is just another app 
 7.  Click **OK** on the confirmation dialog displayed.  
   
 8.  Publish the localized control to the desired publishing environments to make the localized control available to your users. The localized content will automatically be displayed to users that have selected the same language for their user interface.  
-  
+
+## [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center mapping to [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions
+The following table lists the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center regions and its corresponding [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions from where learning path will be available.
+
+|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Data Center|[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Region|  
+|-------------|-----------------|
+|Asia-Pacific (APAC)|East Asia|
+|Canada (CAN)|Canada Central|
+|Europe, Middle East, Africa, and Great Britain (EMEA, GBR)|West Europe|
+|India (IND)|Central India|
+|Japan (JPN)|Japan East|
+|North America (NAM)|East US|
+|Oceania (OCE)|Australia East|
+|South America (SAM)|Brazil South|
+
 ## Privacy notice  
 [!INCLUDE[cc_privacy_learning_path_authoring](../includes/cc-privacy-learning-path-authoring.md)]
   
