@@ -14,7 +14,7 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# What's new in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]
+# What's new in Dynamics 365 - Gamification
 
 Welcome to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Here's a list of features we've added or updated, and a list of issues we've resolved.  
 
