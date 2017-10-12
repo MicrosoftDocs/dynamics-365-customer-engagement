@@ -14,7 +14,7 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# What's new in Gamification
+# What's new in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]
 
 Welcome to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Here's a list of features we've added or updated, and a list of issues we've resolved.  
 
@@ -28,17 +28,17 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 #### Solution
 
-- This update introduces significant changes to the user management for Gamification. Instead of the Gamification web portal, security roles for users are now managed like in Dynamics 365 Customer Engagement.  
-The Dynamics 365 (online) security role **KPI manager** is now called **Game manager**. If a user has the Game Manager security role assigned in Dynamics 365, they get promoted to a game manager in Gamification and can continue to create and edit KPIs in Dynamics 365.
-To promote a user to a Commissioner role in Gamification, a global admin of Dynamics 365 is required to assign the user the **Global Admin** or **Dynamics 365 service admin** role in the [Dynamics 365 Admin Center](https://portal.office.com).
+- This update introduces significant changes to the user management for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Instead of the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal, security roles for users are now managed like in Dynamics 365 Customer Engagement.  
+The Dynamics 365 (online) security role **KPI manager** is now called **Game manager**. If a user has the Game Manager security role assigned in Dynamics 365, they get promoted to a game manager in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and can continue to create and edit KPIs in Dynamics 365.
+To promote a user to a Commissioner role in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a global admin of Dynamics 365 is required to assign the user the **Global Admin** or **Dynamics 365 service admin** role in the [Dynamics 365 Admin Center](https://portal.office.com).
 [Learn more about security roles for Gamification](understand-security-roles.md).
 
-- Administrators can now connect multiple Dynamics 365 (online) organizations from the same Office 365 tenant to the same Gamification web portal. This allows to maintain a shared experience across organizations. [Learn more about how to set up a connection to a Dynamics 365 (online) organization](manage-gamification-in-dynamics-365-online.md).
+- Administrators can now connect multiple Dynamics 365 (online) organizations from the same Office 365 tenant to the same [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal. This allows to maintain a shared experience across organizations. [Learn more about how to set up a connection to a Dynamics 365 (online) organization](manage-gamification-in-dynamics-365-online.md).
 
 
 #### Web portal
 
-- Gamification now supports multiple Dynamics 365 (online) organizations in the same Office 365 tenant. Game managers and players can select the organization when they select the game to work with. Badges and awards are based on the player's profile and shared across all connected organizations.
+- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] now supports multiple Dynamics 365 (online) organizations in the same Office 365 tenant. Game managers and players can select the organization when they select the game to work with. Badges and awards are based on the player's profile and shared across all connected organizations.
 
 
 ### Resolved issues
