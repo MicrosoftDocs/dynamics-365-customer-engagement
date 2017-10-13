@@ -1,1 +1,0 @@
-Specify postal codes and their relationship to territories.

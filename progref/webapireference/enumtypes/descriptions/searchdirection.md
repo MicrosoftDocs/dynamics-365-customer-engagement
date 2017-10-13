@@ -1,1 +1,0 @@
-Contains the possible values for the search direction in an appointment request. 

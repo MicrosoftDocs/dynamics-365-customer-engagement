@@ -1,1 +1,0 @@
-Defines the amount and type of support for a channel.

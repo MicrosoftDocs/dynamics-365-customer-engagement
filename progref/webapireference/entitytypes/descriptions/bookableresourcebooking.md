@@ -1,1 +1,0 @@
-Represents the line details of a resource booking.

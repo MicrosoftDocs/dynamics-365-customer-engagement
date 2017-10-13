@@ -1,1 +1,0 @@
-Position of a user in the hierarchy

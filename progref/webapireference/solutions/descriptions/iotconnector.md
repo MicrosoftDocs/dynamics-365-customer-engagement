@@ -1,1 +1,0 @@
-Enables IoT scenarios in Dynamics 365.

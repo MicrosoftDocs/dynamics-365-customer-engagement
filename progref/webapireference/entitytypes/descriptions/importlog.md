@@ -1,1 +1,0 @@
-Failure reason and other detailed information for a record that failed to import.

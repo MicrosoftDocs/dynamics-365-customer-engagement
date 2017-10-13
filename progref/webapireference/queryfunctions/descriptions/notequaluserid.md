@@ -1,1 +1,0 @@
-Query function that evaluate whether value is not equal to the specified user ID. 

@@ -1,1 +1,0 @@
-Contains all the metadata for an entity attribute.

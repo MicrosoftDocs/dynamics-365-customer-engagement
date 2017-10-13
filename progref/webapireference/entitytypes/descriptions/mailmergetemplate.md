@@ -1,1 +1,0 @@
-Template for a mail merge document that contains the standard attributes of that document.

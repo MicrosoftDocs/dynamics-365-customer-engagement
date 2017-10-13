@@ -1,1 +1,0 @@
-Query function that evaluates whether the entity is under or equal to the referenced entity in the hierarchy. 

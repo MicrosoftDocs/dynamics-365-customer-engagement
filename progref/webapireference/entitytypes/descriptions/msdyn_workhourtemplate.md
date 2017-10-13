@@ -1,1 +1,0 @@
-Template where resource working hours can be saved and reused.

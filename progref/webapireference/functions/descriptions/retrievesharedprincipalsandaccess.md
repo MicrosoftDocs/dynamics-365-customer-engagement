@@ -1,1 +1,0 @@
-Retrieves all security principals (users or teams) that have access to, and access rights for, the specified record. Corresponds to the [RetrieveSharedPrincipalsAndAccessRequest Class](https://msdn.microsoft.com/library/microsoft.crm.sdk.messages.retrievesharedprincipalsandaccessrequest.aspx).

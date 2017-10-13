@@ -1,1 +1,0 @@
-Records inventory adjustments

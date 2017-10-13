@@ -1,1 +1,0 @@
-Work item in a campaign, a list or sales literature.

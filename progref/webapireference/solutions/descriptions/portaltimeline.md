@@ -1,1 +1,0 @@
-Portal Timeline extends Customer Service Portal with a rich timeline that captures the interaction history. A portal user can create new web activities and see portal feeds for case events.

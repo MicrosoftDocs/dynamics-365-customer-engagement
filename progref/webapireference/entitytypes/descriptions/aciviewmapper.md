@@ -1,1 +1,0 @@
-Customized messages for an entity that has been renamed.

@@ -1,1 +1,0 @@
-Sales estimate detail of an project contract line.

@@ -1,1 +1,0 @@
-Requirement Resource Preference

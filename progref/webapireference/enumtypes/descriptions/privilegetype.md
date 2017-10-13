@@ -1,1 +1,0 @@
-Describes the type of operation for the privilege 

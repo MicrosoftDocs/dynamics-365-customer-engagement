@@ -1,1 +1,0 @@
-Reservation entity representing the summary of the associated resource bookings.

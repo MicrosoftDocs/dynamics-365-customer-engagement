@@ -1,1 +1,0 @@
-A unique value associated with a rating model that allows providing a user friendly rating value.

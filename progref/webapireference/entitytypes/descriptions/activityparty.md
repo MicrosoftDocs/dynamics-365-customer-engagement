@@ -1,1 +1,0 @@
-Person or group associated with an activity. An activity can have multiple activity parties.

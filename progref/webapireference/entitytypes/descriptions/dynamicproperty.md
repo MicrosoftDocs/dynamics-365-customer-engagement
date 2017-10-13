@@ -1,1 +1,0 @@
-Information about a product property.

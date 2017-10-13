@@ -1,1 +1,0 @@
-Stores user-specific settings for the schedule board.

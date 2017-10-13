@@ -1,1 +1,0 @@
-Organization-owned entity customizations including form layout and dashboards.

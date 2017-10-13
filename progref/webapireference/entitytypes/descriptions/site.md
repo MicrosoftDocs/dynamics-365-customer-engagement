@@ -1,1 +1,0 @@
-Location or branch office where an organization does business. An organization can have multiple sites.

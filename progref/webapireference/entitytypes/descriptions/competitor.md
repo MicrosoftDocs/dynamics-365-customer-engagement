@@ -1,1 +1,0 @@
-Business competing for the sale represented by a lead or opportunity.

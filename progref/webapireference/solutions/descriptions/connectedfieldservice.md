@@ -1,1 +1,0 @@
-Use Connected Field Service to monitor connected devices to make sure your customer’s equipment is always functioning properly. If a piece of equipment fails, you’ll receive a notification, so that you can troubleshoot the problem remotely or send a technician to fix it.

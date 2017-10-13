@@ -1,1 +1,0 @@
-Microsoft Dynamics workload for sales-related Marketing Management

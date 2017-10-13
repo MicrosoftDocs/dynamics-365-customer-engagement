@@ -1,1 +1,0 @@
-Contains data that defines a set of options.

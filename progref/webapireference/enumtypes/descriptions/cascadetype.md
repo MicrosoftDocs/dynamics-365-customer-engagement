@@ -1,1 +1,0 @@
-Describes the type of behavior for a specific action applied to the referenced entity in a one-to-many entity relationship. 

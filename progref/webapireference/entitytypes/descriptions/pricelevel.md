@@ -1,1 +1,0 @@
-Entity that defines pricing levels.
