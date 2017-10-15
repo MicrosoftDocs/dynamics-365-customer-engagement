@@ -24,12 +24,12 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Let’s say you’ve been talking to a lead, and you determine that continuing to work the lead wouldn’t be worth the time, at least not right now. Not great news, but it happens.  
+Let's say you've been talking to a lead, and you determine that continuing to work the lead wouldn't be worth the time, at least not right now. Not great news, but it happens.  
   
- You’ll need to disqualify the lead, and give the reason.  
+ You'll need to disqualify the lead, and give the reason.  
   
 > [!NOTE]
->  While you could delete the lead, doing that isn’t recommended. Deletions can’t be undone, and deleting a lead also deletes any notes and documents associated with the lead. Instead, disqualify the lead to preserve the history. In addition, disqualifying the lead allows you to re-open the lead later if needed.  
+>  While you could delete the lead, doing that isn't recommended. Deletions can't be undone, and deleting a lead also deletes any notes and documents associated with the lead. Instead, disqualify the lead to preserve the history. In addition, disqualifying the lead allows you to re-open the lead later if needed.  
   
 1.  Open the lead.  
   

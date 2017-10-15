@@ -24,22 +24,22 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-An opportunity is a lead who is now almost ready to buy—in other words, it’s a deal that you’re ready to win.  
+An opportunity is a lead who is now almost ready to buy—in other words, it's a deal that you're ready to win.  
   
- At this point in the sales process, you’re most likely in either the **Develop** or **Propose** stage. More information: [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. More information: [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
   
 <a name="bkmk1"></a>   
 ## Create an opportunity (Sales Hub)
 
-If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDEproc-more-information]  Qualify a lead and convert it to an opportunity
+If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDEproc-more-information]  Qualify a lead and convert it to an opportunity
 1. Select the **Site Map** icon ![Site Map icon](media/site-map-icon.png "Icon for Site Map"), and then select **Opportunities**.
 
-2. If you’ve qualified a lead to an opportunity, open the opportunity from the list.
+2. If you've qualified a lead to an opportunity, open the opportunity from the list.
 
   -OR-
 
   To create a new opportunity, on the command bar, select **+ New**.
-3. In the opportunity form, make sure that your potential customer’s important details are captured. If you’ve qualified a lead to an opportunity, most of the fields are automatically populated from the lead record.
+3. In the opportunity form, make sure that your potential customer's important details are captured. If you've qualified a lead to an opportunity, most of the fields are automatically populated from the lead record.
  
   - **Topic**. Interest of the opportunity, such as specific product details.
  
@@ -64,7 +64,7 @@ If you’re following the sales process from start to finish, you qualify a lead
 
 6.	In the **Sales Team** section, select **+ New Connection** to add a member of the sales team (from your organization).
 
-7.	In the **Competitors** section, select **Add Existing Competitor** to add a competitor who’s competing your organization for this opportunity.
+7.	In the **Competitors** section, select **Add Existing Competitor** to add a competitor who's competing your organization for this opportunity.
 
 8.	To save your changes, on the command bar, **Save**.
 
@@ -76,15 +76,15 @@ If you’re following the sales process from start to finish, you qualify a lead
     
     - **Proposed Solution**. Enter the plan for what your organization can offer the account, such as product details.
     
-    - **Identify Stakeholders**. Select the check box to indicate that you’ve included information about who will be involved in pursuing the opportunity.
+    - **Identify Stakeholders**. Select the check box to indicate that you've included information about who will be involved in pursuing the opportunity.
     
-    - **Identify Competitors**. Select the check box to indicate that you’ve included information about competitors.
+    - **Identify Competitors**. Select the check box to indicate that you've included information about competitors.
 
-11.	 In the **Propose** stage, select the Mark Complete check box for each of the following steps that you’ve completed:
+11.	 In the **Propose** stage, select the Mark Complete check box for each of the following steps that you've completed:
     
     - **Identify Sales Team**
     
-    - **Develop Proposal**. Select the check box to indicate you’ve included notes on how the account will be approached (optional).
+    - **Develop Proposal**. Select the check box to indicate you've included notes on how the account will be approached (optional).
     
     - **Complete Internal Review**
     
@@ -143,7 +143,7 @@ To change the estimated revenue value of an opportunity based on any changes to 
 
 <a name="bkmk4"></a>   
 ## Create an opportunity  (Sales app)
- If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity. More information: [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. More information: [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
   
  If you want to create an opportunity without first creating a lead, do the following:  
   

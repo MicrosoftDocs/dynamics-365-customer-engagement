@@ -31,7 +31,7 @@ tasks, or the Relationship Assistant that offers suggestions for the next steps 
 ## Menu options
 
 Choose the menu button to see a list of all your options in one place, including access to communication tools like e-mail and Skype calling,
-customer records, your calendar, and settings. You’ll also find quick access to any recently viewed records and pinned favorites.
+customer records, your calendar, and settings. You'll also find quick access to any recently viewed records and pinned favorites.
 
 ![Sales Hub menu options](media/saleshubnav2.png "Sale Hub menu options")
 

@@ -28,7 +28,7 @@ One way you might increase your sales is to add all products that your customer 
   
  Most sales begin with a price quote, which eventually becomes an order.  
   
- You’ll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it’s ready to go to a customer.  
+ You'll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it's ready to go to a customer.  
   
  When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.  
   
@@ -66,7 +66,7 @@ One way you might increase your sales is to add all products that your customer 
   
   •	Price List and Currency. The price list that will be used to calculate the product prices and currency.
 
-4.	In the **Sales Information** section, in **Potential Customer** enter the customer info that you’re creating this quote for.
+4.	In the **Sales Information** section, in **Potential Customer** enter the customer info that you're creating this quote for.
 
 5.	On the command bar, select **Save** to enable other sections on the form.
 
@@ -107,7 +107,7 @@ One way you might increase your sales is to add all products that your customer 
   
 2.  Select **New**.  
   
-3.  Add your customer’s contact information.  
+3.  Add your customer's contact information.  
   
 4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** screen and select **OK**.  
   

@@ -24,7 +24,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If your customer has accepted your proposal, congratulations! Whether your customer accepted or declined your proposal, however, it’s now time to close that opportunity.  
+If your customer has accepted your proposal, congratulations! Whether your customer accepted or declined your proposal, however, it's now time to close that opportunity.  
   
 1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  
 

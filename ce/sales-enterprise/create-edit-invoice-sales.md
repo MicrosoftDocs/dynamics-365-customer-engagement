@@ -54,7 +54,7 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 2.  Select **New**.  
   
-3.  Add your customer’s contact information.  
+3.  Add your customer's contact information.  
   
 4.  Select **Save** at the top left to create the invoice record.  
   
@@ -68,7 +68,7 @@ When a customer places an order, you can create an invoice to bill them for the 
   
     - **Get Products**. Select products from a previously created opportunity.  
   
-     You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] doesn’t automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
+     You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
   
 7.  In the **Shipping Information** area, type shipping details.  
   

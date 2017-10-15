@@ -21,9 +21,10 @@ manager: "sakudes"
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
+[//]: # (SELF: Ask Renee, is pn-dyn-365-sales the token for Sales, Business edition? That's what the new token xls seems to imply. If so, what is the correct token - pn-sales-enterprise-doc-name.md?)
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use Dynamics 365 for Sales to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. Here's the menu for the Sales app:
 
-![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales sitemap capabilities")
+![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales site map capabilities")
 
 ## Available anywhere, on any device
 
@@ -31,43 +32,42 @@ There are two flavors of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sale
 
 - The Sales app is the current full-featured desktop-optimized app for sales scenarios. 
 
-- The Sales Hub is the current mobile-optimized app for sales scenarios. <!-- Sales Hub can be accessed and used on the desktop, but it is currently optimized for mobile experiences therefore only contains a subset of sales features. More sales capabilities will be available in Sales Hub over the next releases so that it becomes your one-stop destination for sales experiences across all devices and browsers. -->
+- The Sales Hub is the current mobile-optimized app for sales scenarios. <!-- Sales Hub can be accessed and used on the desktop, but it is currently optimized for the mobile experience; therefore, it only contains a subset of sales features. More sales capabilities will be available in Sales Hub over the next releases so that it becomes your one-stop destination for the sales experience across all devices and browsers. -->
 
-    The Sales Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Using Sales Hub on a desktop browser is not recommended.
+    The Sales Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. We recommend that you only use the Sales Hub on mobile devices and not desktop browsers.
 
 > [!NOTE]
+> For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
-> For mobile devices, you’ll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
-
-If you’re using a desktop browser, you’ll see the Sales app in the app switcher as shown here:
+If you're using a desktop browser, you'll see the Sales app in the app switcher as shown here:
 
 ![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
 
-If you’re using a mobile device with Dynamics 365 for phones and tablets installed, you’ll see the Sales Hub in the app switcher as shown here:
+If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown here:
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")
 
 The Sales Hub looks and behaves very much like the Sales app, but the entities included in the Sales Hub are a subset of the entities included in the Sales app. Sales Hub entities include: Dashboards, Activities, Accounts, Contacts, Leads, Opportunities, Competitors, Quotes, Orders, Invoices, Products, and Cases.
 
-Here’s an example of a Sales Hub screen on a tablet:
+Here's an example of a Sales Hub screen on a tablet:
 
 ![Sales Hub example](../sales-enterprise/media/sales_hub_example.png "Sales Hub example")
 
 ## What Dynamics 365 for Sales offers
 
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] offers great benefits, whether you’re using a desktop, smart phone, or tablet.
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] offers great benefits, whether you're using a desktop, smartphone, or tablet.
 
 ### Benefits for sales people
 
-- Follow guided business processes so you know which steps to take next to close deals faster. You can tailor these business processes for your organization’s needs.
+- Follow guided business processes so you know which steps to take next to close deals faster. You can tailor these business processes for your organization's needs.
 
-- Manage customers and deals wherever you are and on any device (smartphone, tablet, PC, or Mac).
+- Manage customers and deals wherever you are, on any device (smartphone, tablet, PC, or Mac).
 
-- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with Office 365 apps, which makes it easier to get going faster. For example:
+- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with Office 365 apps, which makes it easier to get going faster:
 
-  - Use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store and view documents such as presentations or notes in the context of a record, such as an opportunity, so anyone working on the opportunity can view them. 
+  - Use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store and view documents like presentations or notes in the context of a record, such as an opportunity, so anyone working on the opportunity can view them. 
   
-  - Open sales data in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], make changes, and save the changes back to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] —all without switching between applications. 
+  - Open sales data in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], make changes, and save the changes back to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]&mdash;all without switching between applications. 
    
 - Get actionable insights and suggestions based on how you work. For example, if you have an opportunity closing next week, the Relationship Assistant will send you a reminder to connect with your customer.
 
@@ -75,11 +75,11 @@ Here’s an example of a Sales Hub screen on a tablet:
 
 ### Benefits for sales managers
 
-- Accelerate your team’s performance with real-time analytics based on historical data and predictive information. 
+- Accelerate your team's performance by using real-time analytics based on historical data and predictive information. 
 
-- Monitor results and provide feedback and coaching in real-time.
+- Monitor results, and provide feedback and coaching, in real time.
 
-- Use immersive [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and pre-built templates to do quick analysis without leaving [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
+- Use immersive [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and prebuilt templates to do quick analysis without leaving [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
 ### See also
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)</br>  

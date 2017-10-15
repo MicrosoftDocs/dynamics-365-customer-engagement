@@ -24,7 +24,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Great news! A lead that you thought wasn’t interested has contacted you, and it looks like the person will buy after all. Assuming that you disqualified the lead (instead of deleting), you’ll be able to re-open it without re-entering all the old information.  
+Great news! A lead that you thought wasn't interested has contacted you, and it looks like the person will buy after all. Assuming that you disqualified the lead (instead of deleting), you'll be able to re-open it without re-entering all the old information.  
   
 1.  On the list of leads, select the down arrow and then select the **Closed Leads** view.  
   

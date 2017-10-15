@@ -24,13 +24,13 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Congratulations! Your hard work nurturing your customer has paid off and they’re ready to place an order for your products or services. In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
+Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
   
- One way that can help you increase your sales is to add all products that your customer might need to your order. Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system might offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you’ve already prepared a quote for your customer, you can create an order from that quote.  
+ One way that can help you increase your sales is to add all products that your customer might need to your order. Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system might offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you've already prepared a quote for your customer, you can create an order from that quote.  
   
 <a name="bkmk1"></a>   
 ## Create an order from a quote  
- Typically, you convert a quote that you have won into an order. Start with an active quote. Note that once a quote is accepted, you won’t be able to revise it.  
+ Typically, you convert a quote that you have won into an order. Start with an active quote. Note that once a quote is accepted, you won't be able to revise it.  
   
 1. [!INCLUDE[proc_sales_quotes](../includes/proc-sales-quotes.md)]  
 
@@ -64,7 +64,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they’
   
 2.  Select **New**.  
   
-3.  Add your customer’s contact information.  
+3.  Add your customer's contact information.  
   
 4.  To add products from your opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and select **OK**.  
   
@@ -80,7 +80,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they’
 > [!NOTE]
 >  You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.  
 >   
->  You can’t update or change an order after it has been closed or if it has been partially or completely fulfilled.  
+>  You can't update or change an order after it has been closed or if it has been partially or completely fulfilled.  
   
   
 <a name="bkmk3"></a>   
