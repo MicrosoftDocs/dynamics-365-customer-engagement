@@ -90,4 +90,5 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 ### See also
 
 [Customization Guide](../customize/overview.md)<br />
-[Developer Guide](../developer/developer-guide.md)
+[Developer Guide](../developer/developer-guide.md)<br />
+[Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
