@@ -1,15 +1,19 @@
 ---
-title: "Stay up to date with alerts | Microsoft Docs"
+title: "Stay up to date with alerts in Social Engagement | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
-ms.date: 09/12/2017
+keywords: "alerts, notification, emails"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: f2b7a251-39bf-4bb9-b963-0a98020e7f23
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Stay up to date with alerts
 
 Create email notifications that are automatically sent to a group of recipients if a post or a change in trend matches your filters. Alerts are user specific, and every user role can create them. Manage your existing alerts in the **Message Center**. You can choose from two alert types:
