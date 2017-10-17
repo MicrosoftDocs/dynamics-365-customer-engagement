@@ -1,8 +1,8 @@
 ---
-title: "Get to know your filters | Microsoft Docs"
+title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Social Engagement"
-ms.date: 10/04/2017
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
 applies_to:

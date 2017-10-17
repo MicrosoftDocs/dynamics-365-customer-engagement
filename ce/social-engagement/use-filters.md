@@ -1,15 +1,19 @@
 ---
-title: "Use filters to see relevant data | Microsoft Docs"
+title: "Use filters to see relevant data in Social Engagement | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
-ms.date: 09/12/2017
+keywords: "filter, data set"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 30c01cd4-4df3-42db-a10b-48ddb67e67c4
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Use filters to see relevant data
 You can use [filters](../social-engagement/understand-filters.md) to slice and dice your data to narrow your analysis to the most relevant view of the data. Imagine a steady stream of data where your search topics define the posts that are selected and available for analysis. Filters can narrow your view of the data to a more restricted data set. If you navigate the application by drilling down into the data, filters are applied and removed automatically.  
   
