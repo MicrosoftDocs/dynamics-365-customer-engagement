@@ -63,6 +63,9 @@ Easily set up the Customer Service app and the Customer Service Hub app by using
 
 The Service Manager Guide helps you set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule.
 
+> [!NOTE]
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
+
 ## More service apps and solutions
 
 [!include[](../includes/pn-dynamics-crm.md)] also provides these other service apps and solutions:
@@ -79,8 +82,7 @@ The Service Manager Guide helps you set up everything related to customer servic
    
    Learn more about [Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).
 
-> [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
+
 
 ### See also  
 
