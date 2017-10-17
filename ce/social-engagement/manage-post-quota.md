@@ -1,14 +1,17 @@
 ---
-title: "Manage your post quota | Microsoft Docs"
+title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
-ms.date: 09/12/2017
+keywords: "quota, post quota, contingent"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 9d9e5115-52c7-4f21-a90b-3bde6804d2fe
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Manage your post quota
