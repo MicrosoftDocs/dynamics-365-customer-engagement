@@ -22,7 +22,7 @@ manager: "sakudes"
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
 [//]: # (SELF: Ask Renee, is pn-dyn-365-sales the token for Sales, Business edition? That's what the new token xls seems to imply. If so, what is the correct token - pn-sales-enterprise-doc-name.md?)
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use Dynamics 365 for Sales to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. Here's the menu for the Sales app:
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. Here's the menu for the Sales app:
 
 ![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales site map capabilities")
 
@@ -30,7 +30,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 There are two flavors of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]: 
 
-- The Sales app is the current full-featured desktop-optimized app for sales scenarios. 
+- The Sales app is the current full-featured, desktop-optimized app for sales scenarios. 
 
 - The Sales Hub is the current mobile-optimized app for sales scenarios. <!-- Sales Hub can be accessed and used on the desktop, but it is currently optimized for the mobile experience; therefore, it only contains a subset of sales features. More sales capabilities will be available in Sales Hub over the next releases so that it becomes your one-stop destination for the sales experience across all devices and browsers. -->
 
@@ -43,7 +43,8 @@ If you're using a desktop browser, you'll see the Sales app in the app switcher 
 
 ![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
 
-If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown here:
+[//]: # (@Shubhada, I verified this use of a token with Amy.)
+If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown here:
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")
 
@@ -82,7 +83,7 @@ Here's an example of a Sales Hub screen on a tablet:
 - Use immersive [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and prebuilt templates to do quick analysis without leaving [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
 ### See also
-[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)</br>  
-[Business process flows overview](../customize/business-process-flows-overview.md)</br>  
-[Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) (Applies only to the Sales app)</br>  
-[Set up sales territories](../admin/add-remove-territory-members.md) (Applies only to the Sales app)</br>  
+[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)  
+[Business process flows overview](../customize/business-process-flows-overview.md)  
+[Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) (Applies only to the Sales app)    
+[Set up sales territories](../admin/add-remove-territory-members.md) (Applies only to the Sales app)

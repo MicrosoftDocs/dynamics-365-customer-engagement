@@ -29,7 +29,7 @@ Let's say you've been talking to a lead, and you determine that continuing to wo
  You'll need to disqualify the lead, and give the reason.  
   
 > [!NOTE]
->  While you could delete the lead, doing that isn't recommended. Deletions can't be undone, and deleting a lead also deletes any notes and documents associated with the lead. Instead, disqualify the lead to preserve the history. In addition, disqualifying the lead allows you to re-open the lead later if needed.  
+>  While you could delete the lead, doing that isn't recommended. Deletions can't be undone, and deleting a lead also deletes any notes and documents associated with the lead. Instead, disqualify the lead to preserve the history. In addition, disqualifying the lead allows you to reopen the lead later if needed.  
   
 1.  Open the lead.  
   
@@ -39,4 +39,4 @@ Let's say you've been talking to a lead, and you determine that continuing to wo
   
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   
- [Re-open a lead](../sales-enterprise/re-open-lead-sales.md)
+ [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
