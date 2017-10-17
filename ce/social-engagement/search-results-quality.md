@@ -1,19 +1,17 @@
 ---
-title: "Manage the quality of your search results | Microsoft Docs"
+title: "Manage the quality of your search results in Social Engagement | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "block content, block authors"
+ms.date: 10/17/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 302a0005-c7b0-4247-8d2d-663685716b75
-caps.latest.revision: 44
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Manage the quality of your search results

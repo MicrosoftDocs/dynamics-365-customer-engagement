@@ -1,8 +1,8 @@
 ---
-title: "Publish and react to posts | Microsoft Docs"
+title: "Publish and react to posts in Social Engagement | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: "publish, post, like, favorite, share, private message, Social Engagement"
-ms.date: 10/04/2017
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
 applies_to:

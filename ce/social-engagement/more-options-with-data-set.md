@@ -1,14 +1,17 @@
 ---
-title: "Work with a data set | Microsoft Docs"
+title: "Work with a data set in Social Engagement | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
-ms.date: 09/12/2017
+keywords: "data set, filter, time frame"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 39b154e6-2a78-44bf-864e-e03da3d184c0
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Explore more options with your data set
