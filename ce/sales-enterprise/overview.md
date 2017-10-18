@@ -21,9 +21,9 @@ manager: "sakudes"
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
-[//]: # (SELF: Ask Renee, is pn-dyn-365-sales the token for Sales, Business edition? That's what the new token xls seems to imply. If so, what is the correct token - pn-sales-enterprise-doc-name.md?)
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. Here's the menu for the Sales app:
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales app.
 
+[//]: # (Can you make this alt text more descriptive? The Writing Style Guide suggests "Avoid embedding text in images. If you do, use alt text to describe the embedded text.")
 ![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales site map capabilities")
 
 ## Available anywhere, on any device
@@ -43,7 +43,7 @@ If you're using a desktop browser, you'll see the Sales app in the app switcher 
 
 ![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
 
-[//]: # (@Shubhada, I verified this use of a token with Amy.)
+[//]: # (@Shubhada, I verified this use of a token with Amy. I'll use this pattern throughout.)
 If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown here:
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")
@@ -55,16 +55,16 @@ Here's an example of a Sales Hub screen on a tablet:
 ![Sales Hub example](../sales-enterprise/media/sales_hub_example.png "Sales Hub example")
 
 ## What Dynamics 365 for Sales offers
-
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] offers great benefits, whether you're using a desktop, smartphone, or tablet.
+[//]: # (Eventually maybe we'll use "smartphone" everywhere, but it isn't Microsoft style yet.)
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] offers great benefits, whether you're using a desktop, phone, or tablet.
 
 ### Benefits for sales people
 
-- Follow guided business processes so you know which steps to take next to close deals faster. You can tailor these business processes for your organization's needs.
+- Follow guided business processes, so you know which steps to take next to close deals faster. You can tailor these business processes for your organization's needs.
 
-- Manage customers and deals wherever you are, on any device (smartphone, tablet, PC, or Mac).
+- Manage customers and deals wherever you are, on any device (phone, tablet, PC, or Mac).
 
-- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with Office 365 apps, which makes it easier to get going faster:
+- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with [!include[](../includes/pn-office-365.md)] apps, which makes it easier to get going more quickly:
 
   - Use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store and view documents like presentations or notes in the context of a record, such as an opportunity, so anyone working on the opportunity can view them. 
   
@@ -85,5 +85,5 @@ Here's an example of a Sales Hub screen on a tablet:
 ### See also
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)  
 [Business process flows overview](../customize/business-process-flows-overview.md)  
-[Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) (Applies only to the Sales app)    
-[Set up sales territories](../admin/add-remove-territory-members.md) (Applies only to the Sales app)
+[Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) (applies to the Sales app only)    
+[Set up sales territories](../admin/add-remove-territory-members.md) (applies to the Sales app only)

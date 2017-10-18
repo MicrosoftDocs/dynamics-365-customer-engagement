@@ -24,22 +24,21 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If your customer has accepted your proposal, congratulations! Whether your customer accepted or declined your proposal, however, it's now time to close that opportunity.  
+If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.  
   
 1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  
+   or
 
-   OR
-
-  If you're using the Sales Hub app, select the **Site Map** icon ![Site Map icon](media/site-map-icon.png "Icon for opening the site map"), and then select **Opportunities**.
+   If you're using the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
   
 2.  Select the opportunity you want to edit.  
   
-3.  To close your opportunity as won, select **Close as Won** at the top of the **Opportunity** screen.  
+3.  At the top of the **Opportunity** screen, do one of the following:  
+
+    - To close your opportunity as won, select **Close as Won**.  
+ 
+    - To close your opportunity as lost, select **Close as Lost**.
   
- **- OR -**  
-  
-     To close your opportunity as lost, select **Close as Lost** at the top of the **Opportunity** screen.  
-  
-### See Also  
+### See also  
  [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
  [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)

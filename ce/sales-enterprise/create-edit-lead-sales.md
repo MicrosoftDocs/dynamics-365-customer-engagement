@@ -24,20 +24,21 @@ topic-status: Tech Reviewing
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-In the Sales app, you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be someone you've never done business with before, or it could be an existing client. You might get leads from different sources, such as advertising, networking, or email campaigns.  
+[//]: # (Second sentence edit: suggested, to avoid using "it" in reference to a lead.)
+In the Sales app, you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
 <a name="bkmk1"></a>   
 ## Create a lead  (Sales Hub app)
   
-1. Select the **Site Map** ![Site Map icon](media/site-map-icon.png "Site Map icon") icon , and then select **Leads**. 
+1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon") , and then select **Leads**. 
   
 2.  Select **+ New**.  
   
-3.  In the **Summary** area of the **Lead** screen, type your lead's company and contact information.  
+3.  In the **Summary** area of the **Lead** screen, enter your lead's company and contact information.  
 
-4.	In the **Timeline** section, add any notes and activities (for example, phone calls or tasks) related to this lead. More information: [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+4.	In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
-5.  In the **Details** area of the **Lead** screen, type information about your lead's industry and preferred contact method.  
+5.  In the **Details** area of the **Lead** screen, enter information about your lead's industry and preferred contact method.  
    
 6.  On the command bar, select **Save**.  
 
@@ -48,13 +49,13 @@ In the Sales app, you use leads to keep track of business prospects that you hav
   
 2.  Select **New**.  
   
-3.  In the **Summary** area of the **Lead** screen, type your lead's company and contact information.  
+3.  In the **Summary** area of the **Lead** screen, enter your lead's company and contact information.  
   
-4.  In the **Details** area of the **Lead** screen, type information about your lead's industry and preferred contact method.  
+4.  In the **Details** area of the **Lead** screen, enter information about your lead's industry and preferred contact method.  
   
-5.  Add any notes and activities (for example, phone calls or emails) related to this lead. More information: [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+5.  Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
-6.  Select the **Save** button on the bottom right of the screen.  
+6.  Select **Save** in the lower-right corner of the screen.  
     
 <a name="bkmk3"></a>   
 ## Additional considerations  
@@ -63,14 +64,14 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 
 -   Research leads through social media channels like LinkedIn and Twitter. [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
 
--   Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md) (Applies to Sales app)
+-   Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md) (applies to the Sales app only)
   
 
 <a name="bkmk4"></a>   
 ## Tips and tricks  
  Need a faster way to enter leads? Try one of these:  
   
--   [Quick create--Enter new contacts (or other data)--fast!](../basics/quick-create-enter-data-fast.md)  
+-   [Quick create: Enter new contacts (or other data)&mdash;fast!](../basics/quick-create-enter-data-fast.md)  
   
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
@@ -78,7 +79,7 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)—learn about the sales process  
+ ![Home button](../sales-enterprise/media/home-button.png "Home button") [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)&mdash;learn about the sales process  
   
 ### See also  
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)

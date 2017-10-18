@@ -24,18 +24,20 @@ topic-status: Tech Reviewing
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Does your lead have what you're looking for—and vice versa? Once you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. Qualifying a lead in the Sales app converts it to an opportunity.  
+[//]: # ("After" instead of "once" is from the Writing Style Guide.)
+Does your lead have what you're looking for&mdash;and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. Qualifying a lead in the Sales app converts it to an opportunity.  
   
- Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the time frame they need it.  
+[//]: # (Because the UI uses "timeframe" as one word, I think we might as well. The Writing Style Guide is silent on the issue.)
+Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the timeframe they need it.  
   
 <a name="bkmk1"></a>   
 ## Qualify a lead (Sales Hub app)
 
-1.	Select the **Site Map** ![Site Map icon](media/site-map-icon.png "Icon for site map.") icon, and then select **Leads**.
+1.	Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
 2.	In the list of leads, open the lead you want to qualify and convert.
 
-3.	In the **Qualify** section of the sales process bar, type in all applicable information.
+3.	In the **Qualify** section of the sales process bar, enter all applicable information.
 
 4.	On the command bar, select **Qualify**.
 
@@ -67,14 +69,15 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
 
 -   Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
 
--   Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)  (Applies only to Sales app)
+-   Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)  (applies to the Sales app only)
 
   
 <a name="bkmk4"></a>   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)—learn about the sales process  
+[//]: # (You can change the text of a link if it helps you make it clear why you're sending the reader there.)
+ ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
 ### See also  
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)          
