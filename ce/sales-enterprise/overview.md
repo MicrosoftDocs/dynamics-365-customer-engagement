@@ -15,6 +15,7 @@ caps.latest.revision: 9
 ms.author: "shujoshi"
 manager: "sakudes"
 ---
+[//]: # (Please add a description to the metadata. I notice that other topics don't have descriptions either--I believe they're still mandatory...?)
 # Overview of Sales and Sales Hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -23,7 +24,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales app.
 
-[//]: # (Can you make this alt text more descriptive? The Writing Style Guide suggests "Avoid embedding text in images. If you do, use alt text to describe the embedded text.")
+[//]: # (Can you make this alt text more descriptive? Also, shouldn't it refer to the Sales menu rather than the site map. The Writing Style Guide suggests "[i]f you do embed text in images, use alt text to describe the embedded text.")
 ![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales site map capabilities")
 
 ## Available anywhere, on any device
@@ -39,18 +40,18 @@ There are two flavors of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sale
 > [!NOTE]
 > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
-If you're using a desktop browser, you'll see the Sales app in the app switcher as shown here:
+If you're using a desktop browser, you'll see the Sales app in the app switcher as shown in the following image.
 
 ![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
 
-[//]: # (@Shubhada, I verified this use of a token with Amy. I'll use this pattern throughout.)
-If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown here:
+[//]: # (@Shubhada, I verified this use of a token with Amy.)
+If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown in the following image.
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")
 
 The Sales Hub looks and behaves very much like the Sales app, but the entities included in the Sales Hub are a subset of the entities included in the Sales app. Sales Hub entities include: Dashboards, Activities, Accounts, Contacts, Leads, Opportunities, Competitors, Quotes, Orders, Invoices, Products, and Cases.
 
-Here's an example of a Sales Hub screen on a tablet:
+The following image shows the Sales Hub screen on a tablet.
 
 ![Sales Hub example](../sales-enterprise/media/sales_hub_example.png "Sales Hub example")
 
