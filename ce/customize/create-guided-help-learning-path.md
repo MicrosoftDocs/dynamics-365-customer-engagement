@@ -561,7 +561,7 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 8.  Publish the localized control to the desired publishing environments to make the localized control available to your users. The localized content will automatically be displayed to users that have selected the same language for their user interface.  
 
-## Report and manage issues using in-app support
+## Report and manage issues using In-app support
 
 In-app support feature provides a platform for users and In-app support administrators to report and manage issues in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] by creating support tickets through the learning path sidebar without moving away from the page where they are working.  
 
