@@ -1,1 +1,0 @@
-Stage associated with a process.

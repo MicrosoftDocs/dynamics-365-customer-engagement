@@ -1,1 +1,0 @@
-The Master appointment of a recurring appointment series.

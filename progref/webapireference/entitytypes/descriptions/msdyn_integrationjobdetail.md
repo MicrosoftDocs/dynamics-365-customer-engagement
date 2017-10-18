@@ -1,1 +1,0 @@
-Staging table for integration data lines

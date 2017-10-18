@@ -1,1 +1,0 @@
-Specify time groups consisting of multiple time windows to be used for scheduling, for example.

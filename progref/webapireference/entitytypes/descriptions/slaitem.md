@@ -1,1 +1,0 @@
-Contains information about a tracked support KPI for a specific customer.

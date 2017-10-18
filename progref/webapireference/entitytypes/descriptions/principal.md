@@ -1,1 +1,0 @@
-Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.

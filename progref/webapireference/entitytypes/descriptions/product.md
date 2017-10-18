@@ -1,1 +1,0 @@
-Information about products and their pricing information.

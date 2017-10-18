@@ -1,1 +1,0 @@
-The possible values for an operator in a FilterExpression. 

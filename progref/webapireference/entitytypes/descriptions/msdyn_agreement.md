@@ -1,1 +1,0 @@
-Provides ability to store details about service agreements you have with your customers

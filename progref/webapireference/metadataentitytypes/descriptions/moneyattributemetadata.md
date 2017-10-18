@@ -1,1 +1,0 @@
-Contains the metadata for a Money attribute.

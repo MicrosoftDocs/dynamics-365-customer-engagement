@@ -1,1 +1,0 @@
-Additional addresses for a competitor. The first two addresses are stored in the competitor object.

@@ -1,1 +1,0 @@
-Note that is attached to one or more objects, including other notes.

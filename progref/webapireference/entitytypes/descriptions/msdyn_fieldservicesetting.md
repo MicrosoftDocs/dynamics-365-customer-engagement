@@ -1,1 +1,0 @@
-Settings controlling functionality related to Field Service

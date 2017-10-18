@@ -1,1 +1,0 @@
-Resource that can be scheduled.

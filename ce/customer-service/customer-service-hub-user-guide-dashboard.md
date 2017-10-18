@@ -31,9 +31,9 @@ The interactive dashboards come in two flavors:
   
 When you sign in to the Customer Service Hub, you’re looking at the Tier 1 multi-stream default dashboard. A multi-stream dashboard displays data in real time over multiple data streams. The data in a stream is based on an entity’s view or a queue, such as My Activities, My Cases, or Cases in the Banking Queue. While a stream always contains information only about one entity, each stream on the dashboard may contain information about a different entity. For example, you may be tracking cases in one stream and accounts in the other stream, but, you can’t track cases and accounts in the same stream. In a multi-stream dashboard all streams may be displaying data based on the same entity.  
   
-You could also be using a multi-stream entity-specific dashboard, such as the Cases dashboard. To open a dashboard like this, navigate to **Service** and down to a specific entity, such as **Cases**. The default **Cases** grid is displayed. To directly open the **Cases** dashboard from the cases grid, click ![open-dashboards](media/open-dashboards-from-case.png) from the command bar.
+You could also be using a multi-stream entity-specific dashboard, such as the Cases dashboard. To open a dashboard like this, navigate to **Service** and down to a specific entity, such as **Cases**. The default **Cases** grid is displayed. To directly open the **Cases** dashboard from the cases grid, select ![open-dashboards](media/open-dashboards-from-case.png) from the command bar.
   
-Multi-stream dashboards target Tier 1 support, where customer service representatives handle many support cases at the same time. An entity-specific dashboard can be useful for Tier 1 representatives or Tier 2 customer representatives that look at fewer, but, more complex cases. In the multi-stream dashboard, you can easily switch from a standard view to the tile view. The interactive tiles show an aggregated view of the data across the queues or views. You can also click the tile to drill down to the underlying records. The interactive dashboard application opens with the Tier 1 interactive dashboard. However, you can make another selection from the available dashboards, as shown here:  
+Multi-stream dashboards target Tier 1 support, where customer service representatives handle many support cases at the same time. An entity-specific dashboard can be useful for Tier 1 representatives or Tier 2 customer representatives that look at fewer, but, more complex cases. In the multi-stream dashboard, you can easily switch from a standard view to the tile view. The interactive tiles show an aggregated view of the data across the queues or views. You can also select the tile to drill down to the underlying records. The interactive dashboard application opens with the Tier 1 interactive dashboard. However, you can make another selection from the available dashboards, as shown here:  
   
  ![Choose a dashboard](../customer-service/media/dashboard-picker.png "Choose a dashboard")  
   
@@ -41,7 +41,7 @@ Single-stream dashboards display real-time data over one stream based on a view 
   
 Multi-stream and single-stream dashboards contain interactive charts that give you a count of relevant records, such as cases by priority or by status. These charts also act as visual filters.  
   
-You can apply additional filtering with Global filters and Timeframe filters. The Global filter works on streams and charts in the dashboard. You can sort the data in a stream based on different criteria, such as the priority, status, or the date when the record was created.  
+You can apply additional filtering with **Global filters** and **Timeframe filters**. The Global filter works on streams and charts in the dashboard. You can sort the data in a stream based on different criteria, such as the priority, status, or the date when the record was created.  
   
 The illustrations given below show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. The dashboard header shown here contains the following controls and clickable buttons, from left to right: 
 - Dashboard selector
@@ -52,10 +52,10 @@ The illustrations given below show multi-stream and single-stream dashboards wit
 - Refresh All
 - Timeframe filter 
   
-![dashboard-header](media/dashboard-header.png)
+![dashboard-header](media/dashboard-header.png "dashboard header")
   
 ### Multi-stream dashboard standard view  (with visual filter)
- In the multi-stream dashboard, when you click **Show Visual Filter**, you see a row of visual filters at the top with the data streams below.  
+ In the multi-stream dashboard, when you select **Show Visual Filter**, you see a row of visual filters at the top with the data streams below.  
   
  ![Multi&#45;stream interactive dashboard](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
   
@@ -86,7 +86,7 @@ The illustrations given below show multi-stream and single-stream dashboards wit
 - Click **View**
 - Click  **(…)** in the top right corner
 
-A flyout window will open. If there are too many cases to show, the window will have a scrollbar. You can navigate and click a particular case in the list, which will take you straight to the case form. The illustration shows the tiles and underlined cases in the list.  
+A flyout window will open. If there are too many cases to show, the window will have a scrollbar. You can navigate and select a particular case in the list, which will take you straight to the case form. The illustration shows the tiles and underlined cases in the list.  
   
  ![Tiles with the list of cases](../customer-service/media/interactive-dashboards-multi-stream-tiles-flyout-csh.png "Tiles with the list of cases")  
 
@@ -94,9 +94,9 @@ A flyout window will open. If there are too many cases to show, the window will 
 <a name="BKMK_VisualFilters"></a>   
 
 ## Visual filters  
-Visual filters provide a visual snapshot of key metrics, such as cases by priority or by origin. They also help removing clutter from the screen and display information that interests you most. For example, if you click the **High Priority** circle in the **Cases by Priority** chart, the dashboard will refresh and you’ll see only high priority cases in your data streams. You can find different types of charts on your dashboard, such as pie, bar, doughnut, or tag chart. Visual filters and tiles help you see the changes and patterns in data, and act quickly to address the most important issues. 
+Visual filters provide a visual snapshot of key metrics, such as cases by priority or by origin. They also help removing clutter from the screen and display information that interests you most. For example, if you select the **High Priority** circle in the **Cases by Priority** chart, the dashboard will refresh and you’ll see only high priority cases in your data streams. You can find different types of charts on your dashboard, such as pie, bar, doughnut, or tag chart. Visual filters and tiles help you see the changes and patterns in data, and act quickly to address the most important issues. 
 
-To display the charts on the dashboard, click the visual filter button in the dashboard header, as shown below. The clickable button acts as a toggle switch, to show or hide the visual filters on the dashboard. On the single-stream dashboard, the visual filters are always shown and can’t be hidden from the view.  
+To display the charts on the dashboard, select the visual filter button in the dashboard header, as shown below. The clickable button acts as a toggle switch, to show or hide the visual filters on the dashboard. On the single-stream dashboard, the visual filters are always shown and can’t be hidden from the view.  
   
  ![Visual filters icon](../customer-service/media/interactive-dashboards-visual-filter-button-csh.png "Visual filters icon")  
   
@@ -113,24 +113,24 @@ To display the charts on the dashboard, click the visual filter button in the da
 ## Global filter  
  To add granularity to filtering data, you can use the Global filter. For example, you can apply the Global filter to show only escalated cases and the cases that are marked as “Request.”  
   
-Click the **Show Global Filter** button in the command bar to view and apply global filters.  
+Select the **Show Global Filter** button in the command bar to view and apply global filters.  
   
  ![Global filter icon](../customer-service/media/interactive-dashboards-global-filter-button-csh.png "Global filter icon")  
   
- When you click the Global filter button, the filter flyout window opens. The entity fields that are preconfigured by your administrator appear in alphabetical order in the flyout window. You can select multiple values in a field, as well as values from multiple fields. Click **Apply** for the action to take place.  
+ When you select the Global filter button, the filter flyout window opens. The entity fields that are preconfigured by your administrator appear in alphabetical order in the flyout window. You can select multiple values in a field, as well as values from multiple fields. Select **Apply** for the action to take place.  
   
  ![Add two global filter fields](../customer-service/media/interactive-dashboards-global-filter-two-fields-csh.png "Add two global filter fields")  
   
- After you apply Global filters, the dashboard refreshes to show you only the cases in charts, streams, and tiles that are based on the filter entity (the filter entity is the entity that is used in the charts). To clear the Global filter, click **Clear** in the flyout window.
+ After you apply Global filters, the dashboard refreshes to show you only the cases in charts, streams, and tiles that are based on the filter entity (the filter entity is the entity that is used in the charts). To clear the Global filter, select **Clear** in the flyout window.
 
 By using a combination of Visual and Global filters, you can drill down from a long list of cases to a more focused list.
   
 <a name="BKMK_ClearFilters"></a> 
 
 ## Clear the filters  
- Filtering helps remove the clutter on the screen and show only the work items that you want to focus on. However, if you want to see the entire unfiltered workload, click the specific filter button once again to clear the respective filter.   
+ Filtering helps remove the clutter on the screen and show only the work items that you want to focus on. However, if you want to see the entire unfiltered workload, select the specific filter button once again to clear the respective filter.   
 
- For example, click **Hide Visual Filter** to clear all visual filters applied on the records.
+ For example, select **Hide Visual Filter** to clear all visual filters applied on the records.
   
  ![Clear filters](../customer-service/media/interactive-dashboard-clear-csh.png "Clear filters")  
   
@@ -141,7 +141,7 @@ By using a combination of Visual and Global filters, you can drill down from a l
 
  ![Date range control](../customer-service/media/interactive-dashboards-date-range-control-csh.png "Date range control")  
 
-For example, you can choose to view cases created in **This Quarter**, or  **Last Quarter**. You can also apply **Custom Time Frame** filter, where you can choose a particular start and end date to view the records from a specific timeframe.   
+For example, you can choose to view cases created in **This Quarter**, or  **Last Quarter**. You can also apply **Custom Time Frame** filter, where you can choose a particular start and end date to view the records created during a specific timeframe.   
 
 ![custom-timeframe](media/custom-timeframe.png)
   
@@ -149,14 +149,14 @@ For example, you can choose to view cases created in **This Quarter**, or  **Las
 <a name="BKMK_Collapse"></a> 
 
 ## Collapse or expand work item description in the stream  
- To learn more about the work item, you can expand the work item description area. Click the arrow in the bottom right corner of the work item to expand or collapse the description, as shown here.  
+ To learn more about the work item, you can expand the work item description area. Select the arrow in the bottom right corner of the work item to expand or collapse the description, as shown here.  
   
  ![Expand stream item description](../customer-service/media/interactive-dashboards-expand-description-csh.png "Expand stream item description")  
   
 <a name="BKMK_ShowQuickActions"></a> 
 
 ## Show quick actions  
- Click the ellipsis in the top right corner of the work item to open the quick actions menu. From this menu, you can directly resolve or cancel the work item, or assign the work item to another owner, as shown here:  
+ Select the quick action menu **(...)** in the top right corner of the work item to open the quick actions menu. From this menu, you can directly resolve or cancel the work item, or assign the work item to another owner, as shown here:  
   
  ![Show quick actions bar](../customer-service/media/interactive-dashboards-show-quick-actions-csh.png "Show quick actions bar")  
 
@@ -166,9 +166,9 @@ For example, you can choose to view cases created in **This Quarter**, or  **Las
 
 Benefit from the Bulk Select option, where you can select multiple records at one time and perform specific actions.
 
-Click the Bulk Select icon and select multiple records by clicking the check box. Then click the ellipsis to view the actions that can be performed on the selected records.
+Select the Bulk Select icon and select multiple records by selecting the check box. Then click **(...)** to view the actions that can be performed on the selected records.
 
-![bulk-select](media/bulk-select-csh.png)
+![bulk-select](media/bulk-select-csh.png "bulk select")
 
 
 <a name="BKMK_sortorder"></a> 
@@ -181,11 +181,11 @@ Click the Bulk Select icon and select multiple records by clicking the check box
 <a name="BKMK_ColorCoded"></a>   
 
 ## Color-coded data in streams and charts  
- The information in the charts and streams is color coded for the fields that contain a set of options. For example, a case type can be “Question,” “Problem,” or Request.” Or, a case can be "Resolved" or "In-progress". Each of these options can be assigned a specific color. For example, cases that are "In-progress" can be shown in blue and "Resolved" cases can be shown in green.
+ The information in the charts and streams is color coded for the fields that contain a set of options. For example, a case type can be **Question**, **Problem**, or **Request**. A case's status can be **Resolve** or **In-progress**. Each of these options can be assigned a specific color. For example, cases that are **In-progress** can be shown in blue and **Resolved** cases can be shown in green.
 
 In the streams, the color is depicted using the thin vertical line to the left of the work item description. You can work with your administrator to choose the colors you like for your dashboard data.  
 
-![color-streams](media/color-streams.png)
+![color-streams](media/color-streams.png "color streams in dashboard")
 
   
 <a name="BKMK_ConfigureDashboards"></a>   

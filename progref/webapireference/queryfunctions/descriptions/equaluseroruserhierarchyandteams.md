@@ -1,1 +1,0 @@
-Query function that evaluates whether the entity equals current user or their reporting hierarchy and teams. 

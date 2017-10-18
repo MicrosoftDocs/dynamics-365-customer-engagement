@@ -1,1 +1,0 @@
-Activity that represents work done to satisfy a customer's need.

@@ -1,1 +1,0 @@
-Contains the master list of all properties that can be customized for apps in Dynamics 365.

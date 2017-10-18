@@ -1,1 +1,0 @@
-Association between an knowledge article and incident.

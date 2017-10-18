@@ -1,1 +1,0 @@
-Group of privileges used to categorize users to provide appropriate access to entities.

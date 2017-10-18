@@ -1,1 +1,0 @@
-System entity used to establish connections between the cost, unbilled revenue, and billed revenue components of a transaction as they happen.

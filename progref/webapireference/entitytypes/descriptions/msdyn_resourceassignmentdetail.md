@@ -1,1 +1,0 @@
-Entity used to keep track of resource assignment details on tasks. 

@@ -36,21 +36,21 @@ Enable auditing to track changes to your organization’s data and maintain a lo
   
 3.  Choose **System Settings** > **Auditing** tab.  
   
- Under **Audit Settings**, you can start auditing and specify whether or not to audit user access.  
-  
 |Settings|Description|  
 |--------------|-----------------|  
-|**Start Auditing**|Start or stop auditing.|  
-|**Audit user access**|If enabled, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tracks when the user started accessing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and whether or not the user accessed the application by using the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].|  
+|**Audit Settings**||
+|Start Auditing|Start or stop auditing.|  
+|Audit user access|If enabled, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tracks when the user started accessing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and whether or not the user accessed the application by using the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].|  
   
- Under **Enable Auditing in the following areas**, you can specify to audit specific areas of the product, as described in the following table.  
+Specify to audit specific areas of the product, as described in the following table.  
   
 |Auditing area|Enable the start of auditing for these entities|  
 |-------------------|-----------------------------------------------------|  
-|**Common Entities**|Account, Contact, Lead, Marketing List, Product, Quick Campaign, Report, Sales Literature, Security Role, and User|  
-|**Sales Entities**|Competitor, Invoice, Opportunity, Order, and Quote|  
-|**Marketing Entities**|Campaign|  
-|**Customer Service Entities**|Article, Case, Client Feedback, Contract, and Service|  
+|**Enable Auditing in the following areas**||
+|Common Entities|Account, Contact, Lead, Marketing List, Product, Quick Campaign, Report, Sales Literature, Security Role, and User|  
+|Sales Entities|Competitor, Invoice, Opportunity, Order, and Quote|  
+|Marketing Entities|Campaign|  
+|Customer Service Entities|Article, Case, Client Feedback, Contract, and Service|  
   
 <!-- ### See also  
  [Audit data and user activity](../developer/audit-user-access.md) -->

@@ -1,1 +1,0 @@
-Business, division, or department in the Microsoft Dynamics 365 database.

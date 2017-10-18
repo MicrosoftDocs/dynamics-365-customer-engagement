@@ -1,1 +1,0 @@
-Entity used to look up resources based on demonstrated skills.

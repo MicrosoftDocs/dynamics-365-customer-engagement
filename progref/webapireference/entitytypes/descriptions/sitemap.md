@@ -1,1 +1,0 @@
-XML data used to control the application navigation pane.

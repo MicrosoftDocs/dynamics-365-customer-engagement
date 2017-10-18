@@ -1,1 +1,0 @@
-Represents which object an activity feed post is regarding. For internal use only.

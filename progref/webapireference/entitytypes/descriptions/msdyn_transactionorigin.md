@@ -1,1 +1,0 @@
-System entity used to record the source of a project cost or sales actual.

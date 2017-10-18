@@ -1,1 +1,0 @@
-Log used to track process execution.

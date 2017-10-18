@@ -18,7 +18,7 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 
 <a name="bkmk_Basics"></a> 
   
- The Customer Service Hub’s intuitive interface unifies vital information in one place, and lets you focus on things that require your attention.  
+ The Customer Service Hub’s intuitive interface unifies vital information in one place, so you can focus on things that matter.  
 
   
 <a name="bkmk_support"></a>   
@@ -26,7 +26,7 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 ## Customer Service Hub application requirements  
  Here’s a list of operating systems and browsers that are supported by the Customer Service Hub:  
   
-- **Operating systems**  
+- **Desktop operating system**  
     - Windows 10 (for Knowledge management on Unified Interface)
   
 - **Browsers** 
@@ -41,10 +41,10 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 <a name="bkmk_Access"></a>
 
 ## Open the Customer Service Hub
-The Customer Service Hub app is available to use on both, a desktop browser and a mobile device.  Here are some ways you can open the Customer Service Hub:  
+The Customer Service Hub app is available to use on both a desktop browser and a mobile device.  You can open the Customer Service Hub in the following ways:  
 
 > [!NOTE]
->  This option is available only to users with the Customer Service app access role , System Administrator, or System Customizer role. 
+>  These options are available only to users with the Customer Service app access role , System Administrator, or System Customizer role. 
 
 **Desktop browser**
   
@@ -53,18 +53,18 @@ The Customer Service Hub app is available to use on both, a desktop browser and 
      ![open-csh](media/open-csh.png)
  
   
--    In the Dynamics 365 sitemap, navigate through the app switcher and click **Customer Service Hub**.
+-    In the Dynamics 365 sitemap, navigate through the app switcher and select **Customer Service Hub**.
 
      ![open-csh-sitemap](media/open-csh-sitemap.png)
   
 **Mobile device**
 
-On a mobile device, to access the Customer Service Hub app:
+To access the Customer Service Hub app on a mobile device:
 
 - Install the Dynamics 365 mobile app. 
   
-  To know how to install the Dynamics 365 mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
-- From the MyApps page, choose Customer Service Hub.
+  To install the Dynamics 365 mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
+- From the MyApps page, select Customer Service Hub.
 
    ![choose-on-mobile](media/ChooseAnApp_1.png)
 
@@ -95,36 +95,36 @@ Any record types that are enabled for mobile are also available for use in the C
 
 ## Understand the sitemap navigation
   
-1.  On the sitemap, click **Service**, and then click an entity.  
+1.  On the sitemap, select **Service**, and then select an entity.  
   
     ![navigate recods](media/v9-navigate-records.png)
   
-    When you click an entity, you’ll see the list of records in the respective entity grid. You can also click the down-arrow given next to each entity to view the recently opened records.
+    When you select an entity, you’ll see the list of records in the respective entity grid. You can also select the down-arrow given next to each entity to view the recently opened records.
 
     Here is what each entity encapsulates:
 
     - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
-    - **Activities** help you keep track of tasks, Email messages, appointments, phone calls and much more
-    - **Accounts** are the companies you do business with
-    - **Contacts** helps you manage and store information about the customer you work with
-    - **Social Profiles** let you track a contact's presence in social media
-    - **Cases** help you create and track your customer requests and issues
-    - **Queues** keep a track of cases waiting for you to work on
-    - **Knowledge Articles** are your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them
+    - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
+    - **Accounts** are the companies you do business with.
+    - **Contacts** help you manage and store information about the customers you work with.
+    - **Social Profiles** let you track a contact's presence in social media.
+    - **Cases** help you create and track your customer requests and issues.
+    - **Queues** keep a track of cases waiting for you to work on.
+    - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
-2. Click **Training** to go to **Help Center** and **Learning Path Content Library**. 
-3. Click **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that are pinned as favorites.
+2. Select **Training** to go to **Help Center** and the **Learning Path Content Library**. 
+3. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
-For a mobile device, the sitemap is displayed as below:
+For a mobile device, the sitemap is displayed as illustrated in the following image:
 
 ![mobile-sitemap](media/mobile-sitemap.png)
   
 <a name="bkmk_SwitchToDashboard"></a>   
 
 ## Switch to the record type dashboard from the list of records  
- When you’re in the list of records of a specific record type, use the option **Open Dashboards** in the command bar to switch to the default dashboard for that entity.  
+ When you're in the list of records of a specific record type, select the option **Open Dashboards** in the command bar to switch to the default dashboard for that entity.  
 
-To return back, click **Open Views** from the command bar.
+To return back, select **Open Views** in the command bar.
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md#bkmk_UseDashboards)
   
@@ -132,7 +132,7 @@ To return back, click **Open Views** from the command bar.
  
 ## Navigate through records and pages  
   
--   When you’re in a record, click and expand **Open Record Set** to navigate to other records. A side panel opens where you can view other records. You can directly click on the records from the panel and view the details of the  record.
+-   When you're in a record, select and expand **Open Record Set** to navigate to other records. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
  
       ![record-set](media/v9-record-set.png)
 
@@ -146,10 +146,10 @@ To return back, click **Open Views** from the command bar.
    
 ## Quickly create new records
   
-- To create records quickly by filling in only the most basic information, click the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
+- To create records quickly by filling in only the most basic information, select the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
 
   > [!TIP]
-  > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and choose **Quick Create Menu**.
+  > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
 
   
 <a name="bkmk_EmailLink"></a>   
@@ -164,7 +164,7 @@ You can Email links to records so your colleagues can quickly find these records
  See how the different components of the form help you quickly handle all your important tasks and actions from a single place.  
   
 ### **Business processes**  
- In the Customer Service Hub, the case and knowledge article forms have a process bar called Business Process flow, that appears when you save the record for the first time. 
+ In the Customer Service Hub, Case and Knowledge article forms display a process bar called Business Process flow, which appears when you save the record for the first time. 
  
 When you click a process stage, you'll see relevant steps for that stage. A flag on a stage indicates the stage you’re currently on. When you click an active stage, you can see the **Next Stage** button move to the next stage in the process.  
 
@@ -172,7 +172,7 @@ The stages in the business process flow can  be displayed in floating mode, alon
 
 ![business-process-flow](media/business-process-flow.png)
   
-If there is more than one process to use, you can switch between the processes by clicking **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  You can choose to abandon the process.
+If there is more than one process to use, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  You can also choose to abandon the process.
   
  When a business process flow that’s based on multiple entities is applied to a case or a knowledge article, the experience will be as follows:  
   
@@ -185,7 +185,7 @@ If there is more than one process to use, you can switch between the processes b
 <a name="bkmk_Tabs"></a>
 
 ### **Tabs**  
- A tab is a group of sections on a page. Each Main form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can click the different tabs to enter or see other miscellaneous details of a record.  
+ A tab is a group of sections on a page. Each Main form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
   
 For example, here’s a view of how the tabs appear on the case form:
   
@@ -232,17 +232,17 @@ The Timeline is available on the **Summary** tab of account, contact, case recor
  Here are a few things you can do in the Timeline: 
  
   
--   Enter a note by clicking the **Enter a note** box. You can also add attachments to your notes.
-- Quickly create a new interaction with the customer by clicking **+** in the Timeline. 
+-   Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.
+- Quickly create a new interaction with the customer by selecting **+** in the Timeline. 
 - Filter the timeline for a specific activity type or by date. 
   
-     You can filter on the basis of Activity status or record type. Click  the ellipsis and then click  Open filter pane to explore the filters
+     You can filter on the basis of Activity status or record type. Select  the ellipsis and then select  Open filter pane to explore the filters
 
      ![timeline-ellipsis](media/timeline-ellipsis.png)
   
 -   Refresh the timeline so you can see the updated list of activities.  
   
--   Click the title of an activity to open the activity record.  
+-   Select the title of an activity to open the activity record.  
   
 -   Take quick actions on an activity from the timeline, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, or deleting it.   
 - Sort the entries on the basis of latest or oldest entry.
@@ -285,15 +285,15 @@ In Dynamics 365, the following activities are supported:
 > Email is read-only in the Customer Service Hub
 
 #### Open Activities view
-In the Customer Service Hub sitemap, click **Service** > **Activities**. The **My Activities** view is displayed. 
+In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
 
 ![activities](media/activities-csh.png)
 
-- Click the **My Activities** drop-down to switch between various activity views.
+- Select the **My Activities** drop-down to switch between various activity views.
 
-- Click the  **Due** drop-down to see the list of activities that are due in coming time or are already overdue.
+- Select the  **Due** drop-down to see the list of activities that are due in coming time or are already overdue.
 - Explore the various command bar options, to create a new activity, show chart, or directly open activity dashboard. 
-- Click ![quick-create-activity](media/quick-create-button.png) in the nav bar and go to **Activities** to quickly create a new activity.
+- Select ![quick-create-activity](media/quick-create-button.png) in the nav bar and go to **Activities** to quickly create a new activity.
 
 <a name="bkmk_queues"></a>   
 
@@ -303,7 +303,7 @@ Use queues to organize, prioritize, and monitor the progress of your work. In Mi
 
 **Open Queues view**
 
-In the Customer Service Hub sitemap, click **Service** > **Queues**. The queues view is displayed.
+In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues view is displayed.
 
 ![queues-view](media/queues-view.png)
 

@@ -1,1 +1,0 @@
-Describes the type of entity metadata to retrieve. 

@@ -1,1 +1,0 @@
-Defines free/busy times for a service and for resources or resource groups, such as working, non-working, vacation, and blocked.

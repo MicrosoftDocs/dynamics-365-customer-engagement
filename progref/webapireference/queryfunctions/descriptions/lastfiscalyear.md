@@ -1,1 +1,0 @@
-Query function to evaluate whether the value is within the last fiscal year. 

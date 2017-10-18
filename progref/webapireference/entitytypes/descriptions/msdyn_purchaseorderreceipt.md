@@ -1,1 +1,0 @@
-Specify purchase order receipt.
