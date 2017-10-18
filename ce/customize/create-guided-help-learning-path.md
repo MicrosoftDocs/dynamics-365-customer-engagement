@@ -561,6 +561,181 @@ From Amy: There is no longer anything special about ISH. It is just another app 
   
 8.  Publish the localized control to the desired publishing environments to make the localized control available to your users. The localized content will automatically be displayed to users that have selected the same language for their user interface.  
 
+## Report and manage issues using in-app support
+
+In-app support feature provides a platform for users and In-app support administrators to report and manage issues in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] by creating support tickets through the learning path sidebar without moving away from the page where they are working.  
+
+![In-app support home](../customize/media/Sidebar_SupportPortal.png "In-app support home") 
+
+These tickets are managed through a portal, also known as in-app support portal. Users will be automatically directed to in-app support portal, when they choose **Open Support Portal** option on the sidebar. 
+A system customizer or administrator must enable in-app support feature for an organization in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] before it is available for users to use.
+The following process describes an outline on how a ticket is managed:
+
+![In-app support ticket flow](../customize/media/In-AppSupportTicketFlow.jpg "In-app support ticket flow") 
+
+1.	When end-users encounter an issue in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], they create a ticket using in-app support on sidebar.
+2.	When the ticket is created, an email notification is sent to the user who created it and In-app support administrators.
+3.	An In-app administrator or end-users can open the issue, provide a solution, and then close the ticket. If no solution is available, In-app support administrator can further escalate the issue to Microsoft Support. 
+4.	When Microsoft Support identifies a solution, the ticket is updated with the solution and status us is changed to resolved. 
+5.	End-users or In-app support administrators review the provided solution, and if it resolves their issue, they close the ticket.
+6.	Throughout the process, end-users can track the ticket progress and provide updates through comments. 
+7.	Resolved tickets can be reopened if the solution isn’t correct or the issue is repeating.
+
+### Administer In-app support
+As an In-app support administrator, you can perform the following tasks in your organization:
+- Enable the In-app support feature.
+- Provide administration privileges on the In-app support portal.
+
+#### Prerequisite
+Verify that learning path is enabled for your organization before you administer the In-app support feature. 
+#### Enable in-app support
+By default, In-app support is enabled in your organization. If not enabled, perform the following steps:
+1.	Log in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+2.	Open **Settings** > **Administration** > **System Settings**.
+3.	On the **General** tab, set **Enable in-app support** to **Yes**.
+    ![Enable In-app support option for organization](../customize/media/In-appSupportEnable.png "Enable In-app support option for organization")
+4. Select **OK**.
+
+   The In-App Support is now available in your organization.
+#### Assign In-app support administrator role to users
+You can assign In-app support administrative role to other end-users in your organization on In-app support portal according to organizational requirement to manage and administer tickets.
+1.	Select **Open Support Portal** on the sidebar.
+
+    ![Open In-app support portal](../customize/media/Inapp_ReportIssue.png "Open In-app support portal")
+2.	Select user name and then select **User Org Privileges**. For example, the user John Doe is the In-app support administrator and when selecting the user name John Doe, the option **User Org Privileges** is available.
+
+    ![Assign admin privilages to users](../customize/media/In-appSupportPortal_AdminUserName.png "Assign admin privilages to users")
+
+3.	Select the drop-down ![drop down icon](../customize/media/dropdown.png "drop down icon") icon corresponding to the user name to whom you want to assign permissions, and choose **Edit**.
+ 
+    ![drop down icon](../customize/media/In-appSupportAdminPrivilages.png "drop down icon")
+
+    Details of the user such as contact, user role, and organization account are displayed.
+4.	In the **User Role** list, select **Admin**.
+
+    ![Change user role](../customize/media/In-appSupportPortal_UserRole.png "change user role")
+ 
+5.	Select **Submit**. 
+
+    In-app support administrator role is assigned to the end-user.
+
+6.	(Optional) To verify if the administration privilege is applied to the end-user, see the **Privilege** column corresponding to the user name.
+
+### Manage tickets
+Tickets are managed through In-app support portal. As an end-user or In-app support administrator, you can perform the following basic tasks on tickets:
+
+- View tickets that are active and resolved. 
+- Select a ticket to view detailed information such as comments and resolution that is provided by support engineers. 
+- Filter tickets according to the views such as My active tickets, My resolved tickets, and All my tickets.
+- Edit a ticket by adding comments and close by providing resolutions. 
+- Cancel or reopen a ticket.
+
+In-app support administrators can perform an additional task of escalating tickets to Microsoft Support apart from the basic management of tickets. 
+
+#### Create and Submit ticket
+When you run into an issue while working on [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], report the issue to In-app support administrators by creating a ticket. 
+1.	Select help ![Help icon](../customize/media/Help_Icon.png "Help icon") icon to open the learning path sidebar.
+2.	Select **Report an issue**.
+ 
+      ![Report issue](../customize/media/Inapp_ReportIssue.png "Report issue")
+
+3.	Enter the necessary information in the ticket creation form.
+    ![Support ticket form](../customize/media/Inapp_createSupportTicket.png "Support ticket form")
+
+    |Field Name|Description|
+    |-------------|-----------------|
+    |**Issue**|Title of the issue.|
+    |**Description**|Description of the issue such as how the issue happened and what are the factors that lead to this issue.|
+    |**Date and time issue occurred**|Date and time of when the issue occurred.|
+    |**Is this issue creating a critical work stoppage?**|If the issue is stopping and causing delay in your work. Default value is **No**.|
+    |**Does this issue have the potential to create a company-wide work stoppage?**|If the issue is affecting the whole organization. Default value is **No**.|
+    |**File attachments**|Upload files which are related to the issue such as screenshots, log files, and videos.|
+
+4.	Read and agree **Microsoft Privacy Policy** and choose **Submit**.
+A confirmation message is displayed.
+5.	Select **Yes**.
+Your ticket is created with the case ID. Also, an email is sent to you and In-app support administrators with the information such as link to the ticket and case ID.
+
+#### Open ticket
+You can open a ticket to view details such as case number, last updated date, customer name, contact of the customer, description of the ticket, and time when the issue has occurred. Also, you can open tickets that are closed or resolved to view status of tickets such as resolution, escalations, and comments.
+1.	Select **Open Support Portal** on the sidebar.
+
+    ![Open In-app support portal](../customize/media/Inapp_ReportIssue.png "Open In-app support portal")
+
+2.	Select the drop-down ![drop down icon](../customize/media/dropdown.png "drop down icon") icon corresponding to a ticket and then select **View Details**.
+    > [!NOTE]
+    > You can also view the ticket details by selecting the case number of a ticket.
+
+#### Add comments
+You can provide updates and status on tickets by adding comments. 
+1.	Open a ticket from In-app support portal and select **Add Comment**. 
+
+    ![Add comment button](../customize/media/AddCommentButton_Inapp.png "Add comment button")
+ 
+2.	In the **Add a Comments** dialog, enter your comment and add an attach if required.
+ 
+    ![Add comment button](../customize/media/AddComment_Inapp.png "Add comment button")
+
+3.	Choose **Submit**.
+
+#### Escalate tickets
+If you are unable to provide a resolution or the issue requires further assessment from Microsoft, you can escalate the issue/ticket to Microsoft Support.
+> [!IMPORTANT]
+> Only an In-app support administrator can escalate the issue to Microsoft Support.
+
+1.	Open a ticket and select **Escalate To Microsoft**.
+
+    ![Escalate to Microsoft Support button](../customize/media/InappSupport_EscalateMicrosoft.png "Escalate to Microsoft Support") 
+
+    A confirmation message is displayed to reopen the ticket. 
+2.	Select **Yes**.
+
+#### Reopen ticket
+You can reopen a ticket if you are not satisfied with the resolution or the issue is repeating. 
+
+> [!NOTE]
+> You can use the filter My resolved tickets to view only the canceled and closed tickets.
+1.	Open a ticket that is cancelled or closed, and select **Reopen Case**. 
+
+    ![Reopen support ticket button](../customize/media/ReopenCase_Inapp.png "Reopen support ticket")
+
+    A confirmation message is displayed to reopen the ticket.
+2.	Select **Yes**.
+
+#### Close tickets
+After you have provided the resolution, close the ticket. 
+
+1.	Open a ticket from In-app support portal and verify that a proper resolution is provided.
+2.	Select **Close Case**.
+
+    ![Close support ticket button](../customize/media/InAppsupport_closeticket.png "Close support ticket")
+
+    A confirmation message is displayed. 
+3.	Select **Yes**.
+4.	(Optional) Verify that the status of the ticket is changed to **Problem Solved** to confirm the resolution of ticket.
+
+#### Cancel tickets
+You can cancel a ticket if you find that the issue is already open with another case ID or the issue is invalid.
+
+1.	Open a ticket from in-app support portal and select **Cancel Case** from the bottom of the ticket. 
+
+    ![Close support ticket button](../customize/media/InappSupport_CancelTicket.png "Close support ticket")
+
+    A confirmation message is displayed to cancel the ticket. 
+2.	Select **Yes**.
+3.	(Optional) Verify that the status of the ticket is changed to **Canceled** to confirm the closure of ticket.
+
+#### Filter tickets
+You can view tickets that are assigned to you, resolved, or active from the tickets list by choosing filter.
+
+1.	Select **Open Support Portal** on the sidebar.
+ 
+    ![Open In-app support portal](../customize/media/Inapp_ReportIssue.png "Open In-app support portal")
+
+2.	Select a view from the view drop down.
+
+    ![Filter option](../customize/media/FilterDropDown_SupportPortal.png "Filter option")
+
 ## [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center mapping to [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions
 The following table lists the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center regions and its corresponding [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions from where learning path will be available.
 
