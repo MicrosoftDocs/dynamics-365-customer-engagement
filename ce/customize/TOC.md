@@ -29,7 +29,6 @@
 #### [Overview of the form editor user interface](form-editor-user-interface-legacy.md)
 #### [Show or hide form elements](visibility-options-legacy.md)
 #### [Change navigation within a form](use-the-form-editor-legacy.md)
-#### [Add a field to a form](add-field-form.md)
 #### [Form properties](form-properties-legacy.md)
 #### [Tab properties](tab-properties-legacy.md)
 #### [Section properties](section-properties-legacy.md)
