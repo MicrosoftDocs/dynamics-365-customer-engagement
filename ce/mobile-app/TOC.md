@@ -9,5 +9,4 @@
 ## [Problems and solutions](troubleshooting-things-know-about-phones-tablets.md)
 # [Install the mobile app (users)](install-dynamics-365-for-phones-and-tablets.md)
 # [User Guide](dynamics-365-phones-tablets-users-guide.md)
-# [Use Cortana with Windows phone](use-cortana-windows-phone.md)
 

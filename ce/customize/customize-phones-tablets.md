@@ -183,12 +183,14 @@ if (Xrm.Page.context.client.getClient() == "Mobile" && Xrm.Page.context.client.g
 <a name="BKMK_BusinessRulesCached"></a>   
 ## Business rules in Dynamics 365 for phones and tablets  
  Business rule definitions are downloaded and cached when Dynamics 365 for phones and tablets opens. Changes made to business rules aren’t applied until the user closes and re-opens the mobile app.  
-  
+
+<!-- (removing link for now since this feature isn’t supported yet)
 > [!NOTE]
 > To add visual controls to the mobile app, see [Add visual controls](add-visual-controls-mobile-app.md). 
-  
+ -->
+ 
 ### See also  
- [Add visual controls](add-visual-controls-mobile-app.md) <br/>
+
  [Video: Visual controls (4:32)](http://go.microsoft.com/fwlink/p/?LinkID=724424) <br/>
  [Create and edit metadata](../customize/create-edit-metadata.md)   
  [Create and design forms](../customize/create-design-forms.md)   
