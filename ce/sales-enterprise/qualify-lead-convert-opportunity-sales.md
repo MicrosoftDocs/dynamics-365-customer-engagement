@@ -53,7 +53,7 @@ To qualify multiple leads at once, go to the list of leads, select the leads tha
   
 2.  Select the lead you want to qualify.  
   
-3.  In the **Qualify** section of the sales process bar, type in all applicable information.  
+3.  In the **Qualify** section of the sales process bar, enter all applicable information.  
   
 4.  Select **Qualify** at the top of the **Lead** screen.  
   
