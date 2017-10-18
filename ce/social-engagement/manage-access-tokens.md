@@ -2,7 +2,7 @@
 title: "Manage access tokens in Social Engagement | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Social Engagement."
 keywords: "tokens, oauth, validation"
-ms.date: 10/17/2017
+ms.date: 10/18/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -36,7 +36,7 @@ topic-status: Drafting
  Adding tokens for data acquisition allows you to acquire posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]. It’s important to understand that acquiring  is a two-step process. After you add tokens and allow the data acquisition, you will not automatically start seeing posts. A power analyst or administrator needs to add a search rule for the added social profile when they set up a search topic in order to start analyzing posts from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. After users add a social profile and allowed data acquisition, they can also monitor [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts they do not own. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](../social-engagement/add-rules-search-topic.md)  
   
 ### Add a Facebook acquisition token and allow data acquisition  
- You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profilesto acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.  
+ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profiles to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  You need to authenticate access tokens by logging into your account and allowing data acquisition to acquire public posts from a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.  
   
 > [!NOTE]
 >  Provided tokens will expire after 60 days. [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] will notify you to re-authenticate your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile through emails sent from socialengagement@microsoft.com and through notifications in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
