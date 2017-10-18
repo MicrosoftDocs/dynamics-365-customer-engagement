@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
 caps.latest.revision: 25
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "udag"
+manager: "sakudes"
 ---
 # Types of fields and field data types
 
@@ -33,9 +33,10 @@ manager: "brycho"
   
 |Field data type|Description|  
 |---------------------|-----------------|  
-|**Single Line of Text**|Up to 4000 characters of text can be in this field. You can set a maximum length to less than this. This field has several format options that will change the presentation of the text. These options are **Email**, **Text**, **Text Area**, **URL** and **Ticker Symbol** and **Phone**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Single line of text format options](../customize/types-of-fields.md#BKMK_SingleLineofTextFormatOptions)|  
-|**Multiple Lines of Text**|Up to 1,048,576 characters of text can be in this field. You can set a maximum length to less than this. When you add this field to the form you can specify the size of the field.|  
-|**Option Set**|This field provides a set of options. Each option has a number value and label. When added to a form this field uses a select control and only one option can be selected. When displayed in **Advanced Find**, you can use a picklist control to select multiple options to include in your search criteria.<br /><br /> You may define a single global option set and configure multiple option set fields to use that single set of options. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)|  
+|**Single Line of Text**|This field can contain up to 4,000 text characters. You can set the maximum length to be less than this. This field has several format options that will change the presentation of the text. These options are **Email**, **Text**, **Text Area**, **URL**, **Ticker Symbol**, and **Phone**. More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Single line of text format options](../customize/types-of-fields.md#BKMK_SingleLineofTextFormatOptions)|  
+|**Multiple Lines of Text**|This field can contain up to 1,048,576 text characters. You can set the maximum length to be less than this. When you add this field to a form, you can specify the size of the field.|  
+|**Option Set**|This field provides a set of options. Each option has a number value and label. When added to a form, this field displays a control for users to select only one option. When this field is displayed in **Advanced Find**, users can use a picklist control to select multiple options to include in their search criteria. <br /> You can define a single, global option set and configure **MultiSelect Option Set** fields to use that single set of options. More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)|
+|**MultiSelect Option Set**|This field provides a set of options, where multiple options can be selected. When added to a form, this field uses a control for users to select multiple options. When this field is displayed in **Advanced Find**, users can select multiple options from the list to include in their search criteria. <br> You can define a single global option set and configure **MultiSelect Option Set** fields to use that single set of options. More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)|
 |**Two Options**|This field provides two options. Each option has a number value of 0 or 1 corresponding to a false or true value. Each option also has a label so that true or false values can be represented as “Yes” and “No”, “Hot” and “Cold”, “On” and “Off” or any pair of labels you want to display.<br /><br /> Two option fields don’t provide format options at the field level. But when you add one to the form you can choose to display them as radio buttons, a check box, or a select list.|  
 |**Status**|A system field that has options that generally correspond to active and inactive status. Some system attributes have additional options, but all custom attributes have only **Active** and **Inactive** status options. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) --> <br /><br /> You can also include custom state transitions to control which status options are available for certain entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define status reason transitions](../customize/define-status-reason-transitions.md)|  
 |**Status Reason**|A system field that has options that provide additional detail about the Status field. Each option is associated with one of the available Status options. You can add and edit the options. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) -->|  
@@ -49,6 +50,32 @@ manager: "brycho"
 |**Owner**|A system lookup field that references the user or team that is assigned a user or team owned entity record.|  
 |**Unique Identifier**|A system field stores a globally unique identifier (GUID) value for each record.|  
 |**Customer**|A lookup field that you can use to specify a customer, which can be an account or contact.|  
+
+### MultiSelect Option Set
+You can customize forms (main, quick create, and quick view) and email templates by adding multi-select fields. When you add a Multi-Select Option Set field, you can specify multiple values that will be available for users to select. When users fill out the form they can select one, multiple, or all the values displayed in a drop-down list.
+
+For example, if an organization operates in multiple areas or countries, you can include multiple locations or countries in an ‘Area of operation’ field. A user can then select one or more locations from the list of available values.
+
+Multi-select option set is only available in read-only grids, editable grids, and forms. Multi-select option set is not supported in: 
+- Workflows, Actions, Dialogs, Roll Ups, charts, and Calc fields.
+- Reports, SLA, and Routing Rule.
+
+Multi-select fields are supported in the following types of forms:
+|Form Type|Availability|
+|--------------|------------------------|
+|**Turbo form**|Yes|
+|**Refresh form**|Read-only (field will available but cannot be edited)|
+|**Legacy form**|No|
+|**Bulk Edit form**|No|
+You can use global option sets that are defined in your organization to configure values for the multi-select option sets. For Use Existing Option Set, select Yes, and then choose an option set from the Option Set drop-down list. Also, you can perform the following action on the global option set without leaving the field creation dialog box:
+- Select Edit to edit the global option set. 
+  > [!NOTE]
+  > You can only edit a global option set if Customizable is True. 
+- Select New to create a global option set.
+
+![MultiSelect Option Set](../customize/media/MultiSelect_GlobalOptionSet.png "MultiSelect option Set") 
+
+More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)
   
 ### Customer field  
   
