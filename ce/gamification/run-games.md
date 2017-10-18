@@ -2,7 +2,7 @@
 title: "Run games in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
 keywords: "game, gamification KPI, game setup"
-ms.date: 10/12/2017
+ms.date: 10/18/2017
 ms.service: gamification
 ms.topic: get-started-article
 applies_to:
@@ -34,22 +34,24 @@ By setting up a game in [!INCLUDE[pn_gamification_portal](../includes/pn-gamific
 
 #### Create a new game
 
-1. Provide a **Name** for the game.
+1. Select the Business Unit you want to create a game for. The business unit represents a Dynamics 365 (online) organization. [Learn how to connect Dynamics 365 (online) organizations.](manage-gamification-in-dynamics-365-online.md)
 
-2. Select the **Game Model**. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
+2. Provide a **Name** for the game.
+
+3. Select the **Game Model**. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
 
    For more information about setting up a Stream TV, see [Manage Stream TV games in Gamification](configure-view-tvs.md).
 
-3. Select the **Sport Theme** you want to use for the game.
+4. Select the **Sport Theme** you want to use for the game.
 
-4. To specify how often players can change their teams, set the **Draft Frequency**. Ideally, you'll set a weekly draft frequency to provide players the flexibility to replace members of their teams if they're removed from the game or they take some time off.
+5. To specify how often players can change their teams, set the **Draft Frequency**. Ideally, you'll set a weekly draft frequency to provide players the flexibility to replace members of their teams if they're removed from the game or they take some time off.
 
-5.  Set the **Start Date** and **End Date** for the game. Games run on a weekly schedule, from Monday to Sunday. Set your start and end dates accordingly to avoid game periods of less than a week.
+6.  Set the **Start Date** and **End Date** for the game. Games run on a weekly schedule, from Monday to Sunday. Set your start and end dates accordingly to avoid game periods of less than a week.
 
     > [!TIP]
     > For an engaging experience for players, we recommend you set the game duration between two and six months. Shorter games make it harder for people to become immersed in the game, while longer games have proven to be harder to keep track of.
 
-6.  In the game setup header, click **1** to proceed to the next step.
+7.  In the game setup header, click **1** to proceed to the next step.
 
 ### KPI types and user roles
 

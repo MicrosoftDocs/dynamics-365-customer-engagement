@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 keywords: "install, solution, manage, uninstall"
-ms.date: 10/12/2017
+ms.date: 10/18/2017
 ms.service: gamification
 ms.topic: get-started-article
 applies_to:
@@ -55,9 +55,13 @@ If you have more than one [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm
   
  For more information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md).  
   
-## Activate Gamification in Dynamics 365  
+## Activate Gamification in Dynamics 365 (online)
 
- Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], a user who has a global admin role in [!INCLUDE[pn_Office_365](../includes/pn-ms-office-365.md)] and a system administrator security role in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] needs to complete the setup process to obtain the security key.  
+Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], a user who has a global admin role in [!INCLUDE[pn_Office_365](../includes/pn-ms-office-365.md)] and a system administrator security role in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] needs to complete the setup process to obtain the security key.  
+
+
+> [!TIP]
+> Starting with Gamification solution update 17.10, you can connect multiple organizations (business units) of the same Office 365 tenant to a shared Gamification web portal. Repeat the activation for every organization you want to to connect to your shared Gamification portal. Users with the Game Manager securtiy role in Organization A can create games for Organization A in Gamification. If they are a regular user of Organization B, they can participate as player or fan in games of Organization B. [Learn how to set up and run games.](run-games.md)
   
 ### Activate the Gamification portal for your organization  
   
