@@ -1,1 +1,0 @@
-Template for an email message that contains the standard attributes of an email message.

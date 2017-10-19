@@ -1,1 +1,0 @@
-Transactions that are associated to an invoice line.

@@ -1,1 +1,0 @@
-Container for feedback and ratings for knowledge articles.

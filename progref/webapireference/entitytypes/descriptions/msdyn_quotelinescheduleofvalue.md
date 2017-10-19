@@ -1,1 +1,0 @@
-List of billing milestones and invoice amounts for this quote line.

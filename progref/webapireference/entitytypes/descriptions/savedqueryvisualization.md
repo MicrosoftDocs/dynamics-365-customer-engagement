@@ -1,1 +1,0 @@
-System chart attached to an entity.

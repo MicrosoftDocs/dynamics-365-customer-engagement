@@ -1,1 +1,0 @@
-Specify custom RTV sub-statuses, which can be used to specify the current RTV status more precisely.

@@ -1,1 +1,0 @@
-Extends portals by providing comments and ratings of built-in and custom entities.

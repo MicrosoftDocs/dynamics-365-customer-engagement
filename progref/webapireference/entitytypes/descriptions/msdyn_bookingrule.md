@@ -1,1 +1,0 @@
-Specify custom rules to be validated by the system before saving a booking record.

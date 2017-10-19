@@ -60,8 +60,8 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
 7.  In the **Origin** field, select the channel through which this case was initiated.  
   
-8. In the **Product** field, select the product this case is for. You can’t add a product family, a draft product, or a draft product bundle.  
-9. To see what kind of support you should provide the customer, click the **Entitlements** lookup button and select an active entitlement. The entitlements section in the case record lists all the active entitlements for the customer.
+8. In the **Product** field, select the product this case is for. You can’t select a product family, a draft product, or a draft product bundle.  
+9. To see what kind of support you should provide the customer, click the **Entitlements** lookup button and select an active entitlement. The **Entitlements** section in the case record lists all the active entitlements for the customer.
 
     > [!IMPORTANT]
     > If an SLA is associated with an entitlement and the same entitlement is applied to a case, then the associated SLA becomes applicable for the case. 
@@ -73,7 +73,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 
 11. Navigate to other tabs to provide or view more information about the case. 
   
-   -   The **Details** tab tracks Case Details, Additional Details, Social Details, Description, and Applicable SLA of the case.  
+   -   The **Details** tab tracks **Case Details**, **Additional Details**, **Social Details**, **Description**, and **Applicable SLA** of the case.  
   
     -   The **Case Relationships**  tab shows a **Merged Cases** and **Child Cases** list. You can add an existing child case to the current case from the **Child Cases** list. If you want to create a new child case for the current case, click **Create Child Case** on the command bar.  
   
@@ -84,20 +84,20 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
         > [!NOTE]
         >  By default, a timer for enhanced SLA is already added to your case form. If an enhanced SLA applies to the case you're working on, you will see a timer that shows the countdown to meet the SLA KPIs.    
 
-   - The **Related** tab shows the common associated entities like Knowledge Base Records, Activities, and Connections. 
+   - The **Related** tab shows the common associated entities like **Knowledge Base Records**, **Activities**, and **Connections**. 
       
       Click on any one of the common associated entities and they open in a new tab, aligned horizontally.   
 
 
 12. When you’re done, click **Save**.
   - After you save the case, the Timeline section appears and displays the post about case creation.
-  - The Business Process flow bar appears with process stages to guide your case towards completion. For more information, see [**Business processes**](customer-service-hub-user-guide-basics.md#business-processes).
-  - From the command bar: 
-       - Click **Save and Route** to  route the case by applying routing rules
-       - Click **Create Child Case** to create a child case
-       - Click **...** in the command bar to explore more options for the case.
+  - The Business Process flow bar appears and displays the process stages to guide your case towards completion. For more information, see [**Business processes**](customer-service-hub-user-guide-basics.md#business-processes).
+  - On the command bar: 
+       - Select **Save and Route** to  route the case by applying routing rules
+       - Select **Create Child Case** to create a child case
+       - Select **...** in the command bar to explore more options for the case.
 
-![completed-case](media/completed-case.png)
+![completed-case](media/completed-case.png "completed case form")
   
 <a name="bkmk_TrackSLADetails"></a>   
 
@@ -112,25 +112,25 @@ Only the failure time is tracked and saved on the case record. You can ask your 
 > It is recommended to use only Enhanced SLA as Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 ### Case form with Enhanced SLA applied 
-When an enhanced SLA is applied to a case, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that case. On the **Summary** tab of the case record, you’ll see a timer that shows the time remaining to meet each SLA KPI.<br /><br /> ![Timer showing time left to achieve SLA KPI](../customer-service/media/v9-1-enhancedslatimer-case-form.png "Timer showing time left to achieve SLA KPI")<br /><br />When a service rep puts a case on hold, the status of the SLA KPI Instance is set to **Paused**. You can see the time for which a case was on hold and the last time the case was put on hold. These details are not available on the case form by default, but your system customizer can add these fields on the case form for you. 
+When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record is created for each SLA KPI that is tracked for that case. On the **Summary** tab of the case record, you’ll see a timer that shows the time remaining to meet each SLA KPI.<br /><br /> ![Timer showing time left to achieve SLA KPI](../customer-service/media/v9-1-enhancedslatimer-case-form.png "Timer showing time left to achieve SLA KPI")<br /><br />When a service rep puts a case on hold, the status of the SLA KPI Instance is set to **Paused**. You can see the time for which a case was on hold and the last time the case was put on hold. These details are not available on the case form by default, but your system customizer can add these fields on the case form for you. 
 
 ![sla-paused](media/sla-paused.png)
 
-The on hold time is the time for which the case was set to a status that you defined as an On-Hold status in the System settings dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](../admin/system-settings-dialog-box-service-tab.md)<br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case is on hold<br /><br /> If the service rep puts the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
+The on-hold time is the time for which the case was set to a status that you defined as an **On-Hold** status in the **System settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](../admin/system-settings-dialog-box-service-tab.md)<br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case is on hold<br /><br /> If the service rep puts the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
 
 Similarly, the status of the SLA KPI instance is updated when the first reponse time on a case is:
 
 - Nearing expiry 
 
-  ![sla-nearing-expiry](media/sla-nearing-expiry.png)
+  ![sla-nearing-expiry](media/sla-nearing-expiry.png "timer control nearing expiry")
 
 - Has expired
 
-  ![sla-expired](media/sla-expired.png)
+  ![sla-expired](media/sla-expired.png "timer control expired")
 
 - Has succeeded
 
-  ![sla-succeeded](media/sla-succeeded.png)
+  ![sla-succeeded](media/sla-succeeded.png "timer control succeeded")
   
  You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
   
@@ -164,16 +164,16 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
  
   
 ### Search for Knowledge Articles  
- The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Click the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the Knowledge Base search control properties. For a case, this is the title of the case record.  
+ The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Click the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
 
-Knowledge Base Search in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in the Global search UI. Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
+**Knowledge Base Search** in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in the Global search UI. Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
   
 > [!IMPORTANT]
 >  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
   
    ![Find knowledge articles from a case record](../customer-service/media/v9-case-form-search-kb-records.png "Find knowledge articles from a case record")  
   
--   Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: Title, Content, Keywords, Description, and Article Public Number.  
+-   Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
   
 -   To see knowledge articles in specific states, use the filters. You can filter search results to see all draft, published, or approved articles.    
   
@@ -401,7 +401,7 @@ To know more about Queues, see [Manage Queues](customer-service-hub-user-guide-b
   
 3.  In the **Route Case** dialog box, click **Route**.  
   
-     The case is routed based on the active routing rule set.  
+     The case will be routed based on the active routing rule set.  
   
     > [!IMPORTANT]
     >  The **Save & Route** button is available only on active cases.  

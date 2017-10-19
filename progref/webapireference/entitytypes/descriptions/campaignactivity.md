@@ -1,1 +1,0 @@
-Task performed, or to be performed, by a user for planning or running a campaign.

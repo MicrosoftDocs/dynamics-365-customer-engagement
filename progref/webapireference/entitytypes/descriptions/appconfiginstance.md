@@ -1,1 +1,0 @@
-Contains a property or a list of properties from the app configuration master list that can be customized for any app in Dynamics 365.

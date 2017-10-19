@@ -1,1 +1,0 @@
-Specify the maintenance bookings for the agreement.

@@ -1,1 +1,0 @@
-Query function to evaluate whether the value is on the specified date. 

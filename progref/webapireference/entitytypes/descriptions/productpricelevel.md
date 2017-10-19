@@ -1,1 +1,0 @@
-Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.

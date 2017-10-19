@@ -1,1 +1,0 @@
-Year long fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.

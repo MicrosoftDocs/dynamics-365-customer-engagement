@@ -1,1 +1,0 @@
-Price reduction made from the list price of a product or service based on the quantity purchased.

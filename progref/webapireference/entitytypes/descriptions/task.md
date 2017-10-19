@@ -1,1 +1,0 @@
-Generic activity representing work needed to be done.

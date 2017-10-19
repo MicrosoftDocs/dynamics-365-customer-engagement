@@ -1,1 +1,0 @@
-A specific item in a queue, such as a case record or an activity record.

@@ -1,1 +1,0 @@
-Template for a role. Defines initial attributes that will be used when creating a new role.

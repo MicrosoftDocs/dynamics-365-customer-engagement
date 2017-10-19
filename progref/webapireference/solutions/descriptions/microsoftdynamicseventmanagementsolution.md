@@ -1,1 +1,0 @@
-Solution built on Dynamics 365 for planning, orchestrating, and tracking events. Host multiple events; track tasks, leads, and ROI; gather information on registrations and attendance, and analyze event data.

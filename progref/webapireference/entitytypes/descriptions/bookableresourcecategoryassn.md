@@ -1,1 +1,0 @@
-Association entity to model the categorization of resources.

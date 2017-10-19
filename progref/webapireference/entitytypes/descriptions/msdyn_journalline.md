@@ -1,1 +1,0 @@
-Unposted business transaction line details.

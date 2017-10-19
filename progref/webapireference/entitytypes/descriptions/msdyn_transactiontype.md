@@ -1,1 +1,0 @@
-Broad classification, such as time or expense, and the context such cost, unbilled revenue, or billed revenue of a project actual.

@@ -42,7 +42,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 2.  In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
   
-3.  On the command bar, click **New**.  
+3.  On the command bar, select **New**.  
   
      You’ll be on the **Content** tab of the knowledge article.  
   
@@ -61,13 +61,13 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 5.  In the **Content** section, add the content for your knowledge article.  
   
     > [!NOTE]
-    >  As soon as you click inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles](#use-the-rich-text-editor-to-create-knowledge-articles)
+    >  As soon as you click inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles](#use-the-rich-text-editor-to-create-knowledge-articles "rich text editor for knowledge article")
   
-6. Click **Save**. 
+6. Select **Save**. 
    
    As the article is saved, the Business Process flow bar appears for the article. The various stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article towards completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
-7. On the Business process bar, click **Author**.  
+7. On the Business process bar, select **Author**.  
 8. In the **Set Keywords** text box, add keywords for your article.
   
 8.  In the **Article Subject** drop-down list, choose the subject of the article to help with article searches.  
@@ -123,9 +123,9 @@ You can choose a specific format or style for the content you’re writing.
 |**19**. Paste From Word|Paste content from [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] with the original content formatting.  This will retain:<br /><br /> -   Spacing and line breaks<br />-   Ordered and unordered lists<br />-   Tables<br />-   Font styles and colors **Note:**  Images won’t be copied from [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)].|  
 |**20**. Insert Table|Insert a table, and specify the table properties.|  
 |**21**. Image| Insert an image.<br /><br /> <ol><li>Choose Insert Image.</li><li>In the **Image Info** tab, specify the web address of the image, and also specify properties to define how the image will appear in the article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path.</li><li>If you want the image to be a clickable link, in the **Link** tab, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>To configure additional image options, use the **Advanced** tab. This is meant for advanced users with knowledge of HTML and CSS, and lets you change the presentation of the image.<br /><br /> <ul><li>**ID**. Type a unique identifier for an image element in the document (`id` attribute).</li><li>**Language Direction**. Choose the direction of the text.</li><li>**Language Code.** Type the language of the image element specified.</li><li>**Long Description URL**. Type the web address of an HTML page containing a longer description of the image.</li><li>**Stylesheet Classes**. Enter the class of the image element (class attribute). Note that an image element might be assigned more than one class. If this is the case, separate class names with spaces.</li><li>**Advisory Title**. Enter the text of the tooltip that is shown when the mouse cursor hovers over the image.</li><li>**Style**. Enter the CSS style definitions. Note that each value must end with a semicolon and individual properties should be separated with spaces.</li></ul></li></ol>|  
-|**22**. Link|Add clickable hyperlinks or email addresses to your documents. In the **Link** dialog box choose the type of link you’d like to insert.<br /><br /> The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br /> The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you click it.|  
-|**23**. Unlink|When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Click the button to remove the link and make it plain text.|  
-|**24**. Anchor|You can add anchors in document text. After you add anchors, you can link to these anchors for easier navigation.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, click the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Ente a name for the anchor, and then click **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor.|  
+|**22**. Link|Add clickable hyperlinks or email addresses to your documents. In the **Link** dialog box choose the type of link you’d like to insert.<br /><br /> The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br /> The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it.|  
+|**23**. Unlink|When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text.|  
+|**24**. Anchor|You can add anchors in document text. After you add anchors, you can link to these anchors for easier navigation.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Ente a name for the anchor, and then click **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor.|  
 |**25.** Embed Media|To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, click the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then click **OK**.|  
 |**26**. Create Div Container|Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional `div` element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties. **Note:**  This option is available in the expanded mode only.| 
  
@@ -140,7 +140,7 @@ You can choose a specific format or style for the content you’re writing.
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
 
-![html-panel](media/html-panel.png)
+![html-panel](media/html-panel.png "HTML pane in content editor for knowledge article")
 
 <a name="bkmk_MarkForReview"></a> 
 
@@ -148,7 +148,7 @@ You can author and edit the article in the HTML tab of the Content editor panel,
 
 You can preview the content to view its compatibility on multiple devices, like Tablets, or Phones.
 
-![preview-panel](media/preview-panel.png)
+![preview-panel](media/preview-panel.png "Preview pane in content editor for knowledge article")
 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
@@ -158,15 +158,15 @@ You can preview the content to view its compatibility on multiple devices, like 
   
  You can mark an article for review or directly assign it to a specific person or queue. When you mark an article for review, it starts appearing in the knowledge manager’s dashboard. The knowledge manager can then assign the article to specific team members or a queue for review.  
   
-1.  In the article you want to mark for review, in the **Status Reason** drop-down list, click **Needs Review**.  
+1.  In the article you want to mark for review, in the **Status Reason** drop-down list, select **Needs Review**.  
   
-2.  On the Business process bar, click **Author**.  
+2.  On the Business process flow, select **Author**.  
   
-3.  In the **Mark for Review** field, click **Mark Complete**.  
+3.  In the **Mark for Review** field, select **Mark Complete**.  
   
-4.  To assign the knowledge article to another reviewer or team, on the command bar, click **Assign** and select the user or a team.  
+4.  To assign the knowledge article to another reviewer or team, on the command bar, select **Assign** and select the user or a team.  
   
-5.  To add the article to a queue so reviewers can pick it from there, on the command bar, click **Add to Queue**, and then select the queue.  
+5.  To add the article to a queue so reviewers can pick it from there, on the command bar, select **Add to Queue**, and then select the queue.  
   
 <a name="bkmk_Review"></a>  
  
@@ -179,7 +179,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 |To|Do this|  
 |--------|-------------|  
 |Pick an article assigned to you|Go to **Service** > **My Knowledge Dashboard**, and then see the **My Active Articles** stream.<br /><br /> **-OR-**<br /><br /> In the Customer Service Hub, go to **Service** > **Queue Items**, and then select the **Items available to work on** view.|  
-|To suggest review feedback|1.  On the Business process bar, in the **Review** stage, in the **Review** field, select **Reject**. Give the reason for rejection in the **Reject Knowledge Article** flyout. <br />2.  To add details about the changes you want in the knowledge article, go to **Summary** tab and in the **Timeline** section, click **+** to add a note.<br /><br /> The rejected article is  assigned back to the primary author of the knowledge article.|  
+|To suggest review feedback|1.  On the Business process bar, in the **Review** stage, in the **Review** field, select **Reject**. Give the reason for rejection in the **Reject Knowledge Article** flyout. <br />2.  To add details about the changes you want in the knowledge article, go to **Summary** tab and in the **Timeline** section, select **+** to add a note.<br /><br /> The rejected article is  assigned back to the primary author of the knowledge article.|  
 |Approve the content of the article|When you approve the content of an article, it means that the content is ready to be consumed by other customer service reps, and also ready to be published.<br /><br /> On the Business process bar, in the **Review** stage, in the **Review** field, select **Approve**.<br /><br /> The article is now ready to be published.|  
   
 <a name="bkmk_Update"></a>  
@@ -189,7 +189,7 @@ You can preview the content to view its compatibility on multiple devices, like 
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
-2.  Click the article you want to edit.  
+2.  Select the article you want to edit.  
   
      If the reviewer has suggested any changes from their review, you can see them as notes in the **Timeline** section.  
   
@@ -204,7 +204,7 @@ You can preview the content to view its compatibility on multiple devices, like 
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
-2.  Click the published article you want to edit.  
+2.  Select the published article you want to edit.  
   
 3.  On the command bar, click **Update**.  
   
@@ -247,15 +247,15 @@ You can preview the content to view its compatibility on multiple devices, like 
 ### Manage article versions  
  Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it is appropriate.  
   
-1.  In the knowledge article, click the **Summary** tab.  
+1.  In the knowledge article, select the **Summary** tab.  
   
-2.  In the **Related Information** section, click the **Related Versions** button to display a list of all major and minor versions of the article.  
+2.  In the **Related Information** section, select the **Related Versions** button to display a list of all major and minor versions of the article.  
   
 3.  In the **Related versions** list, open the version you want to delete.  
   
-4.  Click the **More** button, and then click **Send to Trash**.  
+4.  Select the **More** button, and then select **Send to Trash**.  
   
-5.  When prompted, click **OK**.  
+5.  When prompted, select **OK**.  
   
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
@@ -339,9 +339,9 @@ You can preview the content to view its compatibility on multiple devices, like 
   
     -   If you’ve set an expiration date, in the **Expiration Status** field, select the status the knowledge article should be set to after it expires.  
   
-    -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, click **Yes**.  
+    -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, select **Yes**.  
   
-    -   Click **Publish**.  
+    -   Select **Publish**.  
 
 
 <a name="bkmk_Summary"></a>
@@ -361,9 +361,9 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### Track knowledge article analytics  
  Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
   
- To view an article’s view counts and other statistics, open the article you want to track, and then click the **Analytics** tab.  
+ To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
   
-- **Views**. Shows you the total number of times that this article has been viewed. This figure represents the total views of all versions and all translations of this article combined. It also shows individual article views on specific days. You can click the column headers to sort by chronological order or by the number of views. 
+- **Views**. Shows you the total number of times that this article has been viewed. This figure represents the total views of all versions and all translations of this article combined. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views. 
 
 - **Feedback**. Captures all the feedback and ratings on the knowledge articles and update  the articles  accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article.   The Feedback subgrid shows all feedback received for the current knowledge article.  
 
@@ -378,14 +378,14 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
 #### Add feedback to an article  
   
-1.  In the **Feedback** subgrid, click **Create Feedback**. You can also click ![Add a record button](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
+1.  In the **Feedback** subgrid, select **Create Feedback**. You can also click ![Add a record button](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
   
 3.  In the **Create Feedback** flyout, fill in the information:  
   
     - **Title**. Type a descriptive  title for the feedback. For example, if the feedback is about customer satisfaction, type that.  
     - **Regarding**. Look for relevant records to associate the feedback.
   
-    - **Source**. Select whether the feedback is internal or from a portal. If you received the feedback over a phone call, you can select **Internal**.  
+    - **Source**. Select whether the feedback is internal or from a portal. If you received the feedback via a phone call, you can select **Internal**.  
   
     - **Comments**. Type any feedback comments that you want.  
   
@@ -412,19 +412,19 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 > [!NOTE]
 >  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
   
-### My knowledge dashboard  
- This dashboard is designed for authors to give them a visual snapshot of the number of knowledge articles they’re working on and their status. It helps them quickly know things like article expiring in the month and articles in review.  
+### My knowledge Dashboard  
+ This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
   
  ![My Knowledge Dashboard for authors](../customer-service/media/v9-my-knowledge-dashboard.png "My Knowledge Dashboard for authors")  
   
--   **Streams** show data from views or queues. In the knowledge dashboard, the stream shows the active articles assigned to the author.  
+-   **Streams** show data from views or queues. In the My Knowledge Dashboard, the stream shows the active articles assigned to the author.  
   
--   **Charts** provide a count of relevant records in the streams, such as articles by status reason, articles by owner, or articles by subject. They also act as visual filters. You can drill down in a chart to see data that interests you the most.  
+-   **Charts** provide a count of relevant records in the streams, such as articles by status, articles by owner, or articles by subject. They also act as visual filters. You can drill down in a chart to see data that interests you the most.  
   
 -   **Tiles** give authors an aggregated view of data in the streams and help them monitor the volume of their knowledge articles.  
   
-### Knowledge manager  
- This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles right from here.  
+### Knowledge Manager  
+ This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
  ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.png "Dashboard for knowledge managers")  
   

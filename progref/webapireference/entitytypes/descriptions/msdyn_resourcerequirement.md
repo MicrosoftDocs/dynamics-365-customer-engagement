@@ -1,1 +1,0 @@
-Entity used to track the high-level information about resource requirements.

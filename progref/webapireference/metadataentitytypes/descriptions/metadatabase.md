@@ -1,1 +1,0 @@
-An abstract EntityType for used as base type for other Metadata EntityTypes, containing common metadata information.

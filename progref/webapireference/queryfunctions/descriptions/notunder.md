@@ -1,1 +1,0 @@
-Query function that evaluates whether the specified is not below the referenced record in the hierarchy.  

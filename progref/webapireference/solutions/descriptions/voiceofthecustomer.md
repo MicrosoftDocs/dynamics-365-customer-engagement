@@ -1,1 +1,0 @@
-With Voice of the Customer for Microsoft Dynamics 365, you can create and send out surveys to gain valuable feedback from your customers about your products or services. To install or upgrade Voice of the Customer, go to Applications area in Dynamics 365 Administration Center page.

@@ -1,1 +1,0 @@
-Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.

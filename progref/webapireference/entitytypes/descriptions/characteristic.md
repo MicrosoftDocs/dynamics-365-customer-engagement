@@ -1,1 +1,0 @@
-Skills, education and certifications of resources.

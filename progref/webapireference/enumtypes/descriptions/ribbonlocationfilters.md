@@ -1,1 +1,0 @@
-Contains the values for ribbon filters for an entity. 
