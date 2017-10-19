@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 keywords: "install, solution, manage, uninstall"
-ms.date: 10/18/2017
+ms.date: 10/19/2017
 ms.service: gamification
 ms.topic: get-started-article
 applies_to:
@@ -29,10 +29,7 @@ The [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] capabilities are
 ## Install Dynamics 365 - Gamification  
 
  [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] capabilities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)] are a solution for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] that you install from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919).  
-  
-> [!NOTE]
-> [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] can be used exclusively on a single [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance per [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] tenant. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [TechNet: Multiple online instances or tenants](https://technet.microsoft.com/library/dn722373.aspx)  
-  
+    
 ### Install the solution from AppSource  
   
 1.  In [AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919), select **[!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**.  
