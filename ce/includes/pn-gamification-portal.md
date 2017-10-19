@@ -1,1 +1,1 @@
-[Gamification](https://gamification.dynamics.com)
+[Gamification](https://go.microsoft.com/fwlink/p/?linkid=830344)
