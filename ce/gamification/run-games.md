@@ -18,7 +18,7 @@ topic-status: Drafting
 
 Commissioners and game managers create and run games in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] to gamify KPIs for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time.
 
-Before you start setting up a game in [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], make sure the following prerequisites are met:
+Before you start setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], make sure the following prerequisites are met:
 
 - You are assigned the **Commissioner** or **Game manager** [security role](understand-security-roles.md).  
 
@@ -26,11 +26,11 @@ Before you start setting up a game in [!INCLUDE[pn_gamification_portal](../inclu
 
 ## Set up a game
 
-By setting up a game in [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], a commissioner or game manager creates a basis for the upcoming contest.
+By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], a commissioner or game manager creates a basis for the upcoming contest.
 
 ### Basic game options
 
- The first step of the game setup process is to provide basic information for the game you're creating. In [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], go to **Games** > **Game Setup** to set up a new game, or to **Games** > **Games** to edit existing games.
+ The first step of the game setup process is to provide basic information for the game you're creating. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Games** > **Game Setup** to set up a new game, or to **Games** > **Games** to edit existing games.
 
 #### Create a new game
 
