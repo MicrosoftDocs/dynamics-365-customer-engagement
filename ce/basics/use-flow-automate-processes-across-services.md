@@ -56,6 +56,13 @@ Microsoft Flow lets you create automated processes between your favorite apps an
  ![Run a flow from Dynamics 365](../basics/media/embedflow-run.png "Run a flow from Dynamics 365")  
   
 3.  If required, input additional information. Then, follow the instructions on your screen to run the flow.  
+
+## Known issues
+### Flow commands do not respond from your mobile device
+When you tap a Flow command, such as **Login to Flows**, **Create a Flow**, or **See your Flows**, from your mobile device, the command does not respond.
+
+This occurs when your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
+
   
 ### See Also  
  [Enable embedded Flow in your organization](../admin/enable-embedded-flow-in-your-organization.md)   
