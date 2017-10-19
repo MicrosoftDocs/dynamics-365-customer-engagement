@@ -56,6 +56,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]-[!INCLUDE[cc_Dat
     |CRVW|CREATE VIEW|  
     |CRPR|CREATE PROCEDURE|  
     |ALUS|ALTER ANY USER|  
+    |VWDS|VIEW DATABASE STATE|
   
      Schema permissions required.  
   
