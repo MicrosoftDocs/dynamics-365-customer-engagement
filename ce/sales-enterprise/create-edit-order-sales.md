@@ -42,7 +42,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
 3.  On the command bar, select **Activate Quote**.
   
-4.  Select **Create Order** at the top of the **Quote** screen.  
+4.  Select **Create Order** at the top of the **Quote** form.  
   
 5.  In the **Create Order** dialog box, the **Date Won** field is set to the current date. Select a different date if required.
 

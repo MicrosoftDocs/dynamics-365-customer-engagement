@@ -20,7 +20,6 @@ caps.latest.revision: 4
 topic-status: Drafting
 ---
 
-[//]: # (Please add a Description and Keywords in the metadata for this topic.)
 # What if you're no longer working a lead? (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

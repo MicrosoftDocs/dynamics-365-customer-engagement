@@ -30,15 +30,15 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 <a name="bkmk1"></a>   
 ## Create a lead  (Sales Hub app)
   
-1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon") , and then select **Leads**. 
+1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**. 
   
 2.  Select **+ New**.  
   
-3.  In the **Summary** area of the **Lead** screen, enter your lead's company and contact information.  
+3.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
 
 4.	In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
-5.  In the **Details** area of the **Lead** screen, enter information about your lead's industry and preferred contact method.  
+5.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
    
 6.  On the command bar, select **Save**.  
 
@@ -49,13 +49,13 @@ In the Sales app, you use leads to keep track of business prospects that you hav
   
 2.  Select **New**.  
   
-3.  In the **Summary** area of the **Lead** screen, enter your lead's company and contact information.  
+3.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
   
-4.  In the **Details** area of the **Lead** screen, enter information about your lead's industry and preferred contact method.  
+4.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
   
 5.  Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
-6.  Select **Save** in the lower-right corner of the screen.  
+6.  Select **Save** in the lower-right corner of the form.  
     
 <a name="bkmk3"></a>   
 ## Additional considerations  
@@ -79,7 +79,7 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)&mdash;learn about the sales process  
+ ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
   
 ### See also  
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)

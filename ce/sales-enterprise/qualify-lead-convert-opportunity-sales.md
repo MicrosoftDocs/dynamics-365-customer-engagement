@@ -27,7 +27,6 @@ topic-status: Tech Reviewing
 [//]: # ("After" instead of "once" is from the Writing Style Guide.)
 Does your lead have what you're looking for&mdash;and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. Qualifying a lead in the Sales app converts it to an opportunity.  
   
-[//]: # (Because the UI uses "timeframe" as one word, I think we might as well. The Writing Style Guide is silent on the issue.)
 Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the timeframe they need it.  
   
 <a name="bkmk1"></a>   
@@ -55,7 +54,7 @@ To qualify multiple leads at once, go to the list of leads, select the leads tha
   
 3.  In the **Qualify** section of the sales process bar, enter all applicable information.  
   
-4.  Select **Qualify** at the top of the **Lead** screen.  
+4.  Select **Qualify** at the top of the **Lead** form.  
   
 5.  Select **Save** in the lower-right corner of the screen.  
 

@@ -43,11 +43,11 @@ One way that can help you increase your sales is to add all products that your c
 
     The quote form opens. The quote form is prefilled with important details from the opportunity record.
 
-4.	Enter shipping and payment information in the **Shipping Information** area of the **Quote** screen.
+4.	Enter shipping and payment information in the **Shipping Information** area of the **Quote** form.
 
-5.	Enter the billing and shipping addresses in the **Addresses** area of the **Quote** screen.
+5.	Enter the billing and shipping addresses in the **Addresses** area of the **Quote** form.
 
-6.	To add products from your opportunity to your quote, on the command bar of the **Quote** screen, select **Get Products**. Add more products or remove existing ones from the **Products** area.
+6.	To add products from your opportunity to your quote, on the command bar of the **Quote** form, select **Get Products**. Add more products or remove existing ones from the **Products** area.
 
 7.	Select **Save** in the lower-right corner of the screen.
 
@@ -70,7 +70,7 @@ One way that can help you increase your sales is to add all products that your c
 
 5.	On the command bar, select **Save** to enable other sections on the form.
 
-6.	To add products from an opportunity to your quote, select **Get Products** at the top of the **Quote** screen, select an opportunity, and then select **OK**.
+6.	To add products from an opportunity to your quote, select **Get Products** at the top of the **Quote** form, select an opportunity, and then select **OK**.
 
 7.	In the **Shipping Information** area, enter shipping details.
 
@@ -88,13 +88,13 @@ One way that can help you increase your sales is to add all products that your c
   
 2.  Select the opportunity you want to add a quote to.  
   
-3.  In the **Quotes** area of the **Opportunity** screen, select **+**.  
+3.  In the **Quotes** area of the **Opportunity** form, select **+**.  
   
-4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** screen, and then select **OK**.  
+4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** form, and then select **OK**.  
   
-5.  Enter shipping and payment information in the **Shipping Information** area of the **Quote** screen.  
+5.  Enter shipping and payment information in the **Shipping Information** area of the **Quote** form.  
   
-6.  Enter the billing and shipping addresses in the **Addresses** area of the **Quote** screen.  
+6.  Enter the billing and shipping addresses in the **Addresses** area of the **Quote** form.  
   
 7.  Select **Save** in the lower-right corner of the screen.  
   
@@ -109,7 +109,7 @@ One way that can help you increase your sales is to add all products that your c
   
 3.  Add your customer's contact information.  
   
-4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** screen, and then select **OK**.  
+4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** form, and then select **OK**.  
   
 5.  In the **Shipping Information** area, enter shipping details.  
   

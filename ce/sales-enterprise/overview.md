@@ -25,7 +25,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 [//]: # (Edit to the last sentence--and similar sentences later in the topic--is suggested, to avoid ending the paragraph with a colon. Colons are reserved for introducing lists and clauses within sentences. I believe this is a screen reader issue.)
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales app.
 
-[//]: # (Can you make this alt text more descriptive? Also, shouldn't it refer to the Sales menu rather than the site map? The Writing Style Guide suggests "[i]f you do embed text in images, use alt text to describe the embedded text." A good Loc-friendly and screen reader-friendly alternative would be to add numbered callouts to the image, and add the explanatory text underneath it.)
+[//]: # (Can you make this alt text more descriptive? Also, it should refer to the Sales menu rather than the site map. The Writing Style Guide suggests "[i]f you do embed text in images, use alt text to describe the embedded text." A good Loc-friendly and screen reader-friendly alternative would be to add numbered callouts to the image, and add the explanatory text underneath it.)
 ![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales site map capabilities")
 
 ## Available anywhere, on any device
@@ -45,7 +45,7 @@ If you're using a desktop browser, you'll see the Sales app in the app switcher 
 
 ![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
 
-[//]: # (@Shubhada, I verified this use of a token combined with "for phones and tablets" with Amy.)
+[//]: # (@Shubhada, I verified this use of a token combined with "for phones and tablets" with Amy. This will be in the writer-friendly token spreadsheet that Renee is going to publish soon.)
 If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown in the following image.
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")

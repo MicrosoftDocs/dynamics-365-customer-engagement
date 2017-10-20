@@ -155,7 +155,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 3.  In the **Summary** area, enter the company and contact information for the opportunity.  
   
-4.  In the **Details** area of the **Opportunity** screen, enter information about your opportunity's industry and preferred contact method.  
+4.  In the **Details** area of the **Opportunity** form, enter information about your opportunity's industry and preferred contact method.  
   
 5.  Add any notes and activities (for example, phone calls or emails) related to this opportunity. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
@@ -179,7 +179,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 -   If other people in your organization are working on this sale, be sure to add them as sales team members.  
   
--   Nurture your opportunities through a marketing campaign. [!include[](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)  (applies to the Sales app only)
+-   Nurture your opportunities through a marketing campaign. [!include[](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md) (applies to the Sales app only)
   
 <a name="bkmk6"></a>   
 ## Tips and tricks  
@@ -193,7 +193,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)&mdash;learn about the sales process  
+ ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
   
 ### See also  
  [Run a report](../basics/run-report.md)   

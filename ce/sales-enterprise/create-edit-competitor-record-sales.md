@@ -38,7 +38,7 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 
 ## Create a competitor (Sales)
-[//]: # (In step 2, if you don't have two options, you don't want to say "do one of the following." Also, I don't know which token to suggest for "Dynamics 365 application"--I'm not sure what it's referring to.)
+[//]: # (In step 2, I realize that you're preparing the step so it will be easier to add a reference to Dyn 365 for Outlook later, but I don't think it's good to have just one bullet when you say "do one of the following." Also, I don't know which token to suggest for "Dynamics 365 application"--I'm not sure what it's referring to.)
 
 1. [!INCLUDE[proc_sales_competitors](../includes/proc-sales-competitors.md)]  
   

@@ -30,7 +30,7 @@ Typically, you convert an order into an invoice. However, you can also create an
     
 <a name="bkmk1"></a>   
 ## Create an invoice from an order  
-  
+
 1. [!INCLUDE[proc_sales_orders](../includes/proc-sales-orders.md)]  
 
     or
@@ -56,17 +56,17 @@ Typically, you convert an order into an invoice. However, you can also create an
   
 3.  Add your customer's contact information.  
   
-4.  Select **Save** at the top left to create the invoice record.  
+4.  Select **Save** in the upper-left corner to create the invoice record.  
   
 5.  To add products from your opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and then select **OK**.  
   
 6.  To add information about a product on the invoice, in the **Products** area, select **Add a Product** ![Add button](../sales-enterprise/media/add-button.PNG "Add button"), and then select one of the following options:  
   
-    - **Existing Product**: A product created in the product catalog that is associated with a price list.  
+    - **Existing Product**: A product created in the product catalog that is associated with a price list  
   
-    - **Write-in Product**: A product that is available but not a part of the product catalog.  
+    - **Write-in Product**: A product that is available but not a part of the product catalog  
   
-    - **Get Products**: Select products from a previously created opportunity.  
+    - **Get Products**: Products from a previously created opportunity  
   
      You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
   
