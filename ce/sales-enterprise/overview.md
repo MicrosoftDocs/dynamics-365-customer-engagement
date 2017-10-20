@@ -15,16 +15,17 @@ caps.latest.revision: 9
 ms.author: "shujoshi"
 manager: "sakudes"
 ---
-[//]: # (Please add a description to the metadata. I notice that other topics don't have descriptions either--I believe they're still mandatory...?)
+[//]: # (Description and keywords are missing from metadata in this topic and some others in the docset. These fields are mandatory for our content, as far as I know.)
 # Overview of Sales and Sales Hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
+[//]: # (Edit to the last sentence--and similar sentences later in the topic--is suggested, to avoid ending the paragraph with a colon. Colons are reserved for introducing lists and clauses within sentences. I believe this is a screen reader issue.)
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales app.
 
-[//]: # (Can you make this alt text more descriptive? Also, shouldn't it refer to the Sales menu rather than the site map. The Writing Style Guide suggests "[i]f you do embed text in images, use alt text to describe the embedded text.")
+[//]: # (Can you make this alt text more descriptive? Also, shouldn't it refer to the Sales menu rather than the site map? The Writing Style Guide suggests "[i]f you do embed text in images, use alt text to describe the embedded text." A good Loc-friendly and screen reader-friendly alternative would be to add numbered callouts to the image, and add the explanatory text underneath it.)
 ![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales site map capabilities")
 
 ## Available anywhere, on any device
@@ -33,7 +34,7 @@ There are two flavors of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sale
 
 - The Sales app is the current full-featured, desktop-optimized app for sales scenarios. 
 
-- The Sales Hub is the current mobile-optimized app for sales scenarios. <!-- Sales Hub can be accessed and used on the desktop, but it is currently optimized for the mobile experience; therefore, it only contains a subset of sales features. More sales capabilities will be available in Sales Hub over the next releases so that it becomes your one-stop destination for the sales experience across all devices and browsers. -->
+- The Sales Hub is the current mobile-optimized app for sales scenarios. <!-- The Sales Hub can be accessed and used on the desktop, but it is currently optimized for the mobile experience; therefore, it only contains a subset of sales features. More sales capabilities will be available in the Sales Hub over the next releases so that it becomes your one-stop destination for the sales experience across all devices and browsers. -->
 
     The Sales Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. We recommend that you only use the Sales Hub on mobile devices and not desktop browsers.
 
@@ -44,7 +45,7 @@ If you're using a desktop browser, you'll see the Sales app in the app switcher 
 
 ![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
 
-[//]: # (@Shubhada, I verified this use of a token with Amy.)
+[//]: # (@Shubhada, I verified this use of a token combined with "for phones and tablets" with Amy.)
 If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown in the following image.
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")

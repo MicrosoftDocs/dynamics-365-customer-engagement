@@ -1,6 +1,6 @@
 ---
 title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Qualify the lead once you've identified the timeframe, budget and purchase process of the lead."
+description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 09/22/2017
 ms.service: crm-online
@@ -57,7 +57,7 @@ To qualify multiple leads at once, go to the list of leads, select the leads tha
   
 4.  Select **Qualify** at the top of the **Lead** screen.  
   
-5.  Select the **Save** button at the bottom right of the screen.  
+5.  Select **Save** in the lower-right corner of the screen.  
 
 To qualify multiple leads, go to the list of leads, select the leads you want to qualify, and on the command bar, select **Qualify**.
 
@@ -76,7 +76,7 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
   
-[//]: # (You can change the text of a link if it helps you make it clear why you're sending the reader there.)
+[//]: # (It's okay if a link doesn't exactly match the title of the destination article, if it helps make it clear why you're sending the reader there.)
  ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
 ### See also  
