@@ -20,7 +20,7 @@ This section describes the steps for creating a data model for profiles and inte
 
    >[!NOTE]
    >**WAIT!** <br>
-   >If you have connected your [!include[](../../includes/pn-customer-insights-short.md)] hub by using [!include[](../../includes/pn-dyn-365-online.md)] sample data, you can ignore this section because the settings below were configured for you. Skip to [Step-by-step Customer 360](stepbystepcustomer360.md).
+   >If you have connected your [!include[](../../includes/pn-customer-insights-short.md)] hub by using [!include[](../../includes/pn-crm-online.md)] sample data, you can ignore this section because the settings below were configured for you. Skip to [Step-by-step Customer 360](stepbystepcustomer360.md).
 
 Begin by selecting your [!include[](../../includes/pn-customer-insights-short.md)] hub in the [!include[](../../includes/pn-azure-portal.md)]. The key **Settings** for your hub are displayed.
 
