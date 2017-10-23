@@ -275,7 +275,7 @@ manager: sakudes
  When you find a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], be it on a stream in Social Center, or in the post list in Analytics, you can share this post to your peers with a few clicks. Simply click the **Post Link** button and add some text to your post. Choose the social profile to post to, and you’re done. Give it a try. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](../social-engagement/publish-react-posts.md) 
  
 ### Improvements to Link-to-Dynamics 365 user experience 
- We introduced improvements when requesting information from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] discovery service and updated the error messages when there's an issue with the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Authentication requests are now handled more smoothly when you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. 
+ We introduced improvements when requesting information from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] discovery service and updated the error messages when there's an issue with the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Authentication requests are now handled more smoothly when you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. 
  
 ## Microsoft Social Engagement 2016 Update 1.2 
  

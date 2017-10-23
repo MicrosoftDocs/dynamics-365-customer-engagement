@@ -20,7 +20,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web and mobile device client applications.  
+<a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web and mobile device client applications.  
   
 <a name="webapp_hw_req"></a>   
 ## Dynamics 365 web application hardware requirements  
