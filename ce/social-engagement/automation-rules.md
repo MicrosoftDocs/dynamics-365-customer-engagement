@@ -136,7 +136,7 @@ Event hubs are built to handle high volumes of events in real time. Although you
 Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md "Understand user roles")  
   
 > [!IMPORTANT]
->  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md).  
+>  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], see [Connect Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md).  
   
 <a name="create_rule"></a>   
 ### Create an automation rule  
