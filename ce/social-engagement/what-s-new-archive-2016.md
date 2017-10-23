@@ -46,10 +46,10 @@ manager: sakudes
 > [!NOTE]
 > Photos uploaded in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] may not show up right away in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], and you may need to refresh your browser or sign in again to see them . 
  
-### Updated discovery of<br /> [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] instances to work across all of our data center locations 
- When you add a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], you no longer need to manually select the data center location of your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] instance. 
+### Updated discovery of<br /> [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instances to work across all of our data center locations 
+ When you add a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], you no longer need to manually select the data center location of your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instance. 
  
- The new **Check Instances** button will automatically search and display all of your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] instances across all data center locations. You can then select the specific instance to connect [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to. 
+ The new **Check Instances** button will automatically search and display all of your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instances across all data center locations. You can then select the specific instance to connect [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to. 
  
 ### Display linked images and videos in tweets in<br /> [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 
  Images and videos that are uploaded on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and linked in tweets through t.co links are now shown in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], in the details of a post in the post lists. This update improves the workflow by letting users see linked images and videos right away, without leaving [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. 

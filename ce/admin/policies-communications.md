@@ -45,7 +45,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 **How do I find out about planned maintenance?**  
   
- Your organization will receive a Maintenance notification through the [Office 365 Message Center](https://support.office.com/article/Message-center-in-Office-365-38fb3333-bfcc-4340-a37b-deda509c2093). Additionally, for maintenance activities that impact your ability to use the service, [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] System Administrators will receive an email notification.  
+ Your organization will receive a Maintenance notification through the [Office 365 Message Center](https://support.office.com/article/Message-center-in-Office-365-38fb3333-bfcc-4340-a37b-deda509c2093). Additionally, for maintenance activities that impact your ability to use the service, [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] System Administrators will receive an email notification.  
   
  You can also view notifications in the [Office 365 Admin mobile app](https://products.office.com/business/manage-office-365-admin-app) on your mobile device.  
   
