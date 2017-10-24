@@ -577,14 +577,12 @@ More information about using YouTube: [YouTube Help Center](https://go.microsoft
 [//]: # (General editor's note: In this section, I haven't changed "sidebar" to "Sidebar" to match the rest of this topic because I strongly disagree with capitalizing "Sidebar" at all. Same with "Guided Task." Another general note: You don't need all these graphics that illustrate command buttons or strings like "Open Support Portal," "Report an issue," or "Add Comment." Just giving the text inline, formatted in bold type, is good enough, and it's also Microsoft style.)
 The in-app support feature provides a platform for users and in-app support administrators to report and manage issues in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] by creating support tickets through the Learning Path sidebar, without having to leave the page where they are working.  
 
-[//]: # (I don't know what this graphic is trying to show. Also, it's 1162 pixels wide--max is 760. Even though it's truncated, it looks like one of the fictional names in this screenshot is Mickey Mouse? You definitely don't want to use that! The Disney company loves to sue people.)
 ![In-app support home](../customize/media/Sidebar_SupportPortal.png "In-app support home") 
 
 These tickets are managed through the in-app support portal. Users are automatically directed to the in-app support portal when they select **Open Support Portal** on the sidebar. 
 A system customizer or administrator must enable the in-app support feature for an organization in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] before it's available for users.
 The following image illustrates how a ticket is managed.
 
-[//]: # (Edits to the graphic: You can delete the title at the top. Under the image, the caption should be "User". Next to the image: "A user encounters an issue while working in Dynamics 365". First box: okay. Below the box: "An email notification is sent to the user who created the ticket and to in-app support administrators" Next box: "Open the ticket and view details" Next box: "A user or in-app support administrator reviews the issue" Decision point: okay. Next box: "A user or in-app support administrator reviews the solution" Decision point: "Is the solution valid? Does it resolve the issue?" Next box: "Close the ticket" The box to the right of the "Found a solution?" decision point: "An in-app support administrator escalates the ticket to Microsoft Support" Below the box: "Microsoft Support provides a solution. An email notification is sent to the user who created the ticket and to in-app support administrators." The box to the right of the "Is the solution valid?..." decision point: "Add required details and reopen the ticket")
 ![In-app support ticket flow](../customize/media/In-AppSupportTicketFlow.jpg "In-app support ticket flow") 
 
 [//]: # (In step 1, edit okay? Or do they have to select **Open Support Portal**?)
@@ -611,17 +609,14 @@ Verify that Learning Path is enabled for your organization.
 By default, in-app support is enabled in your organization. If it has not been enabled, do the following:
 1.	Sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 2.	Go to **Settings** > **Administration** > **System Settings**.
-3.	On the **General** tab, set **Enable in-app support** to **Yes**.
+3.	On the **General** tab, set **Enable in-app support** to **Yes**.  
     ![Enable in-app support option for organization](../customize/media/In-appSupportEnable.png "Enable in-app support for an organization")
 4. Select **OK**.
 
 #### Assign the in-app support administrator role to users
 You can assign the in-app support administrative role to other users in your organization so they can manage and administer tickets, according to your organizational requirements.
 
-[//]: # (Regarding step 1, and in numerous steps that follow: Please delete these images of command buttons that consist entirely of text. Images should only be used for UI that's complicated to explain. Also note, I've also deleted the paragraphs that describe what just happened. In procedures, you want to focus on what the user needs to do. Any text that simply describes what the user sees, is extraneous.)
-1.	Select **Open Support Portal** on the sidebar.
-
-    ![Open in-app support portal](../customize/media/Inapp_ReportIssue.png "Open the in-app support portal")
+1.	Select **Open Support Portal** on the sidebar.   
 2.	Select a username, and then select **User Org Privileges**.
 
     ![Assign admin privilages to users](../customize/media/In-appSupportPortal_AdminUserName.png "Assign administrator privileges to a user")
@@ -652,11 +647,8 @@ In-app support administrators can perform the additional task of escalating issu
 #### Create and submit a ticket
 When you run into an issue while working on [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], report the issue to in-app support administrators by creating a ticket. 
 
-[//]: # (Regarding step 2: you don't need an image of a command button that consists of text; the text is enough.)
 1.	Select **Help** ![Help icon](../customize/media/Help_Icon.png "Help icon") to open the Learning Path sidebar.
 2.	Select **Report an issue**.
- 
-      ![Report issue](../customize/media/Inapp_ReportIssue.png "Report an issue")
 
 3.	Enter the necessary information in the ticket creation form.
     ![Support ticket form](../customize/media/Inapp_createSupportTicket.png "Support ticket form")
@@ -673,24 +665,21 @@ When you run into an issue while working on [!INCLUDE[pn_crm_shortest](../includ
 4.	Read and agree with the **Microsoft Privacy Policy**, and then choose **Submit**.
 A confirmation message is displayed.
 5.	Select **Yes**.
-Your ticket is created with the case ID. Also, an email is sent to you and in-app support administrators with the a link to the ticket and case ID.
+
+    Your ticket is created with the case ID. Also, an email is sent to you and in-app support administrators with the a link to the ticket and case ID.
 
 #### Open an existing ticket
 You can open a ticket to view details such as case number, last updated date, customer name, contact of the customer, description of the ticket, and the time the issue occurred. Also, you can open tickets that have been closed or resolved to view details such as resolution, escalations, and comments.
 1.	Select **Open Support Portal** on the sidebar.
-
-    ![Open in-app support portal](../customize/media/Inapp_ReportIssue.png "Open the in-app support portal")
 
 2.	Select the down arrow ![drop down icon](../customize/media/dropdown.png "down arrow") next to the ticket, and then select **View Details**.
     > [!NOTE]
     > You can also view ticket details by selecting its case number.
 
 #### Add comments
-[//]: # (You don't need an image of a command button that consists of text; the text is enough.)
+
 You can provide updates and status on tickets by adding comments. 
 1.	Open a ticket from the in-app support portal, and then select **Add Comment**. 
-
-    ![Add comment button](../customize/media/AddCommentButton_Inapp.png "Add comment button")
  
 2.	In the **Add a Comments** dialog box, enter your comment and add an attach if required.
  
@@ -701,13 +690,10 @@ You can provide updates and status on tickets by adding comments.
 #### Escalate a ticket
 If you are unable to provide a resolution, or the issue requires further assessment from Microsoft, you can escalate the ticket to Microsoft Support.
 
-[//]: # (You don't need an image of a command button that consists of text; the text is enough.)
 > [!IMPORTANT]
 > Only an in-app support administrator can escalate the ticket to Microsoft Support.
 
 1.	Open a ticket, and then select **Escalate To Microsoft**.
-
-    ![Escalate to Microsoft Support button](../customize/media/InappSupport_EscalateMicrosoft.png "Escalate to Microsoft Support") 
 
     A confirmation message is displayed to reopen the ticket. 
 2.	Select **Yes**.
@@ -715,24 +701,17 @@ If you are unable to provide a resolution, or the issue requires further assessm
 #### Reopen a ticket
 You can reopen a ticket if you are not satisfied with the resolution or the issue keeps occurring. 
 
-[//]: # (You don't need an image of a command button that consists of text; the text is enough.)
 > [!NOTE]
 > You can use the filter My Resolved Tickets to view only canceled and closed tickets.
 1.	Open a ticket that is cancelled or closed, and then select **Reopen Case**. 
-
-    ![Reopen support ticket button](../customize/media/ReopenCase_Inapp.png "Reopen support ticket")
-
     A confirmation message is displayed to reopen the ticket.
 2.	Select **Yes**.
 
 #### Close a ticket
 After you have provided the resolution, close the ticket. 
 
-[//]: # (Regarding step 2: you don't need an image of a command button that consists of text; the text is enough.)
 1.	Open a ticket from the in-app support portal, and verify that a valid resolution has been provided.
 2.	Select **Close Case**.
-
-    ![Close support ticket button](../customize/media/InAppsupport_closeticket.png "Close support ticket")
 
     A confirmation message is displayed. 
 3.	Select **Yes**.
@@ -743,8 +722,6 @@ You can cancel a ticket if you find that the issue has already been opened with 
 
 1.	Open a ticket from the in-app support portal, and then select **Cancel Case** from the bottom of the ticket. 
 
-    ![Close support ticket button](../customize/media/InappSupport_CancelTicket.png "Close a support ticket")
-
     A confirmation message is displayed to cancel the ticket. 
 2.	Select **Yes**.
 3.	Verify that the status of the ticket has been changed to **Canceled** to confirm the closure of ticket.
@@ -752,20 +729,15 @@ You can cancel a ticket if you find that the issue has already been opened with 
 #### Filter tickets
 You can filter tickets to view which ones are assigned to you, resolved, or active.
 
-[//]: # (You don't need an image of a command button that consists of text; the text is enough.)
 1.	Select **Open Support Portal** on the sidebar.
- 
-    ![Open in-app support portal](../customize/media/Inapp_ReportIssue.png "Open the in-app support portal")
 
 2.	Select a view from the list.
 
     ![Filter option](../customize/media/FilterDropDown_SupportPortal.png "Filter option")
 
-[//]: # (Can you explain what it means, "from where Learning Path will be available"? Does it mean "where Learning Path content will be stored"? I get a sense that this table corresponds somewhat to the information in the "Privacy notice" section, but it's not clear how.)
 ## [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center mapping to [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions
 The following table lists the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] datacenter regions and corresponding [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions from where Learning Path will be available.
 
-[//]: # (I don't find these datacenters and Azure regions listed anywhere, but if you're sure of their names then I'm satisfied.)
 |[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] datacenter|[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] region|  
 |-------------|-----------------|
 |Asia-Pacific (APAC)|East Asia|
