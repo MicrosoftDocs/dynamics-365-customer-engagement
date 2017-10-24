@@ -20,7 +20,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service, such as [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]? Here’s what you need to know about passwords, signing in, and common error messages.  
+Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service, such as [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]? Here’s what you need to know about passwords, signing in, and common error messages.  
   
 > [!IMPORTANT]
 >  If you’re an administrator, make sure to check the [Service Health Dashboard](https://portal.office.com/ServiceStatus/ServiceStatus.aspx) for maintenance issues.  
@@ -68,7 +68,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
  For information on the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
 ### If you’re an end user  
- You can sign in directly to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. You can also sign in at https:/portal.office.com.  
+ You can sign in directly to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can also sign in at https:/portal.office.com.  
   
 #### Sign in directly to Dynamics 365 (online)  
  Your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator provides the direct [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] URL in an email invitation. This URL will be in the following format:  https://\<yourorganization>.crm.dynamics.com. For example, enter https://contoso.crm.dynamics.com. If you can’t find the email that contains the URL, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
@@ -93,10 +93,10 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
   
 **What if I’m still using a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] to sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]?**  
   
-Use the email address provided by your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator (sent in an email invitation). Verify that you’re using the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address that the email invitation was sent to. Note that you can’t sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] with a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. [Troubleshoot problems with your Microsoft account user name or password.](http://go.microsoft.com/fwlink/p/?LinkId=225672)  
+Use the email address provided by your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator (sent in an email invitation). Verify that you’re using the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address that the email invitation was sent to. Note that you can’t sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] with a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. [Troubleshoot problems with your Microsoft account user name or password.](http://go.microsoft.com/fwlink/p/?LinkId=225672)  
   
 #### Sign in directly to Microsoft Social Engagement  
- Your administrator provides the direct URL for [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] in an email invitation. This URL will be in the following format: https://listening.microsoft.com/app/\<appID>/. If you can’t find the URL, contact your administrator.  
+ Your administrator provides the direct URL for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] in an email invitation. This URL will be in the following format: https://listening.microsoft.com/app/\<appID>/. If you can’t find the URL, contact your administrator.  
   
  After entering your URL, you’ll be prompted for your user name. Your user name will be in one of the following formats:  
   

@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Get details on specific authors
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors of a post matching your data sets. Learn about author interests and their backgrounds through author lookup, to keep track of people who impact your social feed.  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors of a post matching your data sets. Learn about author interests and their backgrounds through author lookup, to keep track of people who impact your social feed.  
   
 ## Access author details in Analytics and Social Center  
 To see author details in posts, click **Posts** on the right side of any analytics page. Or go to **Social Center** to access your streams, and tap on the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] author profile picture in a post. To go back to your stream feed, click **Back to**.  
