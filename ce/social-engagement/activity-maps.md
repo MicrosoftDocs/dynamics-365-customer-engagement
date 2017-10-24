@@ -1,15 +1,19 @@
 ---
 title: "Define activity maps in Social Engagement | Microsoft Docs"
 description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
-ms.date: 09/12/2017
+keywords: "activiy map, localtion analysis, live map"
+ms.date: 10/24/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Define activity maps to view real-time data
 Using Activity maps, you can view real-time posts by geographical location on an easy-to-understand map. You can further view these posts in Analytics to understand more details and associated metrics.  
   
@@ -39,12 +43,12 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
     - **Filters**: Select the filters you want to create the activity map from. You can use **All Search Topics** or choose **Change** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") to select filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](../social-engagement/use-filters.md)  
   
         > [!IMPORTANT]
-        >  Make sure that your data set contains posts that the activity map can display. If you configure an activity map that has a data set without location information (for example, if you filter only by Blogs, which don’t support location data), the activity map won’t display any data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](../social-engagement/use-filters.md)  
+        >  Make sure that your data set contains posts that the activity map can display. If you configure an activity map that has a data set without location information (for example, if you filter only by Blogs, which don’t support location data), the activity map won’t display any data.
   
 4.  When you’re done, click **Save**.  
   
-    > [!TIP]
-    >  To edit an activity map, open the map and repeat from step 3.  
+> [!TIP]
+>  To edit an activity map, open the map and repeat from step 3.  
   
 ## View an activity map  
   
@@ -74,7 +78,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
   
  **Sample activity map**  
   
- ![Activity map buzz](../social-engagement/media/activitiy-map-buzz-view.png "Activity map buzz")  
+ ![Activity map in Social Engagement](../social-engagement/media/activity-map.png "Activity map in Social Engagement")  
   
 ## View and understand sentiment values on an activity map  
   
