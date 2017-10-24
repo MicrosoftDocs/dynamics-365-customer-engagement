@@ -61,7 +61,6 @@ topic-status: Drafting
 
 <h2> Additional resources </h2>
 
-<li>[Video training course on MVS (English only)](https://go.microsoft.com/fwlink/p/?linkid=861639)</li>
 <li>[YouTube playlist](https://go.microsoft.com/fwlink/p/?LinkId=825549)</li>
 <li>[Community forum](https://go.microsoft.com/fwlink/p/?LinkId=825550)</li>
 <li>[Contact support](https://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
