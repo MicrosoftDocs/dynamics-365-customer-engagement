@@ -15,7 +15,7 @@ ms.assetid: 8ee3c432-5f76-4086-b9cc-6cd467ae056b
 
 # Create your own guided help (Learning Path) for your customers
 
-[//]: # ()
+[//]: # (Are you sure the reference to "on Microsoft Dynamics 365 Germany" is correct?)
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
