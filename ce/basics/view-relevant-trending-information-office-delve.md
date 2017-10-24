@@ -20,6 +20,18 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+Office Graph integration for Dynamics 365 Customer Engagement will be removed on August 31, 2017, at the same time that [Office ends GQL query support](https://msdn.microsoft.com/office/office365/howto/query-office-graph-using-gql-with-search-rest-api). Customers can continue to use Office Graph integration through August 31, 2017. After August 31 that date, the Office Graph trending documents component will cease to function and you’ll see the following error message:
+
+**We can't get to the trending documents. Try again later.**
+
+To disable Office Graph:
+
+1. Go to **Settings** > **Document Management** > **Office Graph Integration**.
+2. Remove the Trending Documents dashboard component from existing dashboards.
+
+For more information, see the blog: [Office Graph integration removal](https://blogs.msdn.microsoft.com/crm/2017/07/31/office-graph-integration-removal/).
+
+<!--
 [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is a new way to find and discover relevant and trending documents across your organization. [!INCLUDE[pn_delve](../includes/pn-delve.md)] searches across your company and uses Azure Machine Learning to provide a view of the documents you are most interested in based on who created, viewed, edited, or shared the documents. [!INCLUDE[pn_delve](../includes/pn-delve.md)] is a new dashboard component that can be added to any user or system dashboard so you can view trending information from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
  ![Office Delve dashboard in Dynamics 365](../basics/media/crm-ua-delve-dashboard.png "Office Delve dashboard in Dynamics 365")  
@@ -87,3 +99,5 @@ manager: "brycho"
  [What is Office Delve?](https://support.office.com/en-us/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca?ui=en-US&rs=en-US&ad=US)   
  [How does Office Delve know what's relevant to me?](https://support.office.com/en-us/article/How-does-Office-Delve-know-what-s-relevant-to-me-048d502e-80a7-4f77-ac5c-f9d81733c385?ui=en-US&rs=en-US&ad=US)   
  [Office Delve for Office 365 admins](https://support.office.com/en-us/article/Office-Delve-for-Office-365-admins-54f87a42-15a4-44b4-9df0-d36287d9531b?ui=en-US&rs=en-US&ad=US)
+
+-->
