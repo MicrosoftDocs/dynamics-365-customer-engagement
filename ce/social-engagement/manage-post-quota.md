@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: "quota, post quota, contingent"
-ms.date: 10/17/2017
+ms.date: 10/24/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -86,7 +86,14 @@ Keep track of the number of posts that result from your search topics towards yo
  When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month. Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you’ll find a preview of the most recent tweets matching your keywords rule.  
   
 > [!CAUTION]
->  Peaks and trending terms can’t be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, and impact your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota, meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to Blocked Content.  
+>  Peaks and trending terms can’t be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, and impact your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota, meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to Blocked Content.
+
+## Buy additional quota
+When you run out of post quota, you can either optimize your search topics, or your organization's admin can buy add-on subscriptions for addtional post quota. 
+3 types of quota add-on scubscriptions are avaialble. They are billed on monthly basis. 
+- Microsoft Social Engagement Additional 10k posts (no min): 10k posts per month.
+- Microsoft Social Engagement Additional 10k posts (10 unit min): 100k posts per month.
+- Microsoft Social Engagement Additional 10k posts (100 unit min): 1m (1000k) posts per month.
   
 ### Privacy notice  
  [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
