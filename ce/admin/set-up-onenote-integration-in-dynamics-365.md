@@ -1,21 +1,25 @@
 ---
 title: "Set up OneNote integration in Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+description: "Learn how to integrate OneNote to Dynamics 365 (online)."
+keywords: "OneNote, notebook, integration, set up"
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: bb4f1489-238e-4b72-b5a3-cb1f36d2a274
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 27
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+topic-status: Editing
 ---
+
 # Set up OneNote integration
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -41,7 +45,7 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
  ![Enable SharePoint Integration](../admin/media/enable-sharepoint-integration.png "Enable SharePoint Integration")  
   
 <a name="BKMK_EnableOneNote"></a>   
-## Step 2: Turn on [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration  
+## Step 2: Turn on OneNote integration  
  When server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is turned on, [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration is listed in **Document Management**.  
   
 1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
@@ -60,9 +64,9 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
 5.  A [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)]. Once the dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is created for that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, you can view and navigate to that notebook from any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client.  
   
- ![Select OneNote](../admin/media/select-onenote.png "Select OneNote")  
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Use OneNote in Dynamics 365 (online)](../basics/use-onenote.md)
   
-## To turn off [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration  
+## To turn off OneNote integration  
   
 1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
   

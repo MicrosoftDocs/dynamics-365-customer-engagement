@@ -26,7 +26,7 @@ You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[
 
 ## Create or edit an account
 
-1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Icon to open the menu"), and then click **Accounts**.
+1.  Click the Menu icon ![Menu icon](media/Site-map-icon.png "Icon to open the menu"), and then click **Accounts**.
 
 2.  To create a new account, choose **New**.
 

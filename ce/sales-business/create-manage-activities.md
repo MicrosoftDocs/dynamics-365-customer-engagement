@@ -24,7 +24,7 @@ To get the most out of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-
 
 ## Find your activities
 
-Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click one of the following:  
+Click the Menu icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the menu"), and then click one of the following:  
 
 -   Task
 

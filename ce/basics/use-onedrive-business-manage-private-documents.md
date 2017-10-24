@@ -1,21 +1,25 @@
 ---
 title: "Use OneDrive for Business to manage your private documents (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: "Store your private or important documents on OneDrive for Business."
+keywords: "documents, store, OneDrive, Business"
 ms.date: 03/08/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9dbd9d2f-4978-4a65-988c-f9928a0722e0
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 19
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+topic-status: Editing
 ---
+
 # Use OneDrive for Business to manage your private documents
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -37,28 +41,42 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
   
 ## The first time you view your documents  
- After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you’ll see the following dialog box when you go to a document list to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] or change the document location to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
+ 
+ 1.  Go to the record for which you want to view the associated documents. For example, select **Sales** > **Leads**.
+
+ 2.  If you're using the web app, on the command bar, select the arrow besides the record name, and select **Documents**. 
+
+     ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents of a record")
+
+     If you're using a mobile-optimized app, select the **Related** tab, and select **Documents**.
+
+     ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
+
+     
+ After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you’ll see the following dialog box when you go to the Document Associated Grid to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] or when you attempt to create a new document or folder.  
   
  ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
   
- Click **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents or click **Continue** to accept the default folder location: \CRM  
+ Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents or select **Continue** to accept the default folder location: \Dynamics365. 
+ 
+
+> [!NOTE]
+> The default folder location is set to \CRM for users who haven't upgraded to the July 2017 Update for Dynamics 365 (online). 
   
 ## View existing OneDrive documents  
- Open a view with a document grid. The following example is for Opportunities, but works the same for all record types.  
+ Open the Document Associated Grid. The following example is for Opportunities, but works the same for all record types.  
  
-1.  Click **Sales** > **Opportunities**  
+1.  Select **Sales** > **Opportunities**  
   
-2.  Choose an opportunity from the drop-down menu, and then click **Documents**.  
+2.  Choose an opportunity from the drop-down menu, and then select **Documents**.  
   
  ![Choose Opportunities &#62; Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
   
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] now organizes documents in a consolidated view.  
   
- ![Consolidated view of documents](../basics/media/onedrive-consolidated-view-grid.png "Consolidated view of documents")  
+ ![List of documents on OneDrive for Business](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
   
- Documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] are viewed in one list.  
-  
- 3. Click **Document Location** to filter the document list.  
+ 3. Select **Document Location** to filter the document list.  
   
  ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
   
@@ -66,7 +84,7 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
   
     |Document Location|Description|  
     |-----------------------|-----------------|  
-    |All files|All document locations associated with this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record|  
+    |All files|All document locations associated with this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record (Only available in web app)|  
     |[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site|Documents stored in your default [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site|  
     |[!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)]|Documents stored in [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]|  
     |Shared with me|Documents others shared with you that are associated with this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record|  
@@ -74,20 +92,26 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 ## Create a new document  
  To create a new [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] or [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] document in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
   
-1.  Open a view with a document grid.  
+1.  Go to the Document Associated Grid.  
   
-2.  Click New ![New button](../basics/media/new-icon.png "New button") and then choose a document type such as [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)].  
+2.  Select **Document Location**, and change the location to **OneDrive**.
+
+3.  Select **New**, and then choose a document type such as [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)].  
   
-3.  Enter a document name, choose a location, and then click **Save**.  
+3.  Enter a document name, and then select **Save**.  
   
  The document is created and opened in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Online application.  
+
+
+> [!NOTE]
+> If you're are using the mobile-optimized app on tablets and phones, the document is opened within the Office app such as [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)].
   
-## Change your OneDrive folder settings  
+## Change your OneDrive folder settings  (only for web app)
  You can change the location of your [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents and rename the folder used for [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
   
-1.  Click **Settings** > **Document Management** > **OneDrive for Business Folder Settings**  
+1.  Select **Settings** > **Document Management** > **OneDrive for Business Folder Settings**  
   
-2.  Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then click **OK**.  
+2.  Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then select **OK**.  
   
 > [!NOTE]
 >  The [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] folder is renamed and all the existing files will now be associated with the new folder.  
@@ -96,9 +120,7 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
  Be aware of the following regarding [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
   
 - [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] storage folders are created in the user’s current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] language. If the language changes, new folders will be created in the new language. Old folders will remain in the previous language.  
-  
--   Folders aren’t supported. Documents in shared folders won’t appear in the document grid.  
-  
+   
 -   There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they’re available to other users.  
   
 ### See also  

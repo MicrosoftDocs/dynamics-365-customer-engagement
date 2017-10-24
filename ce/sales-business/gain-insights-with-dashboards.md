@@ -22,7 +22,7 @@ Dashboards use views, list, and charts to bring data that is meaningful to you i
 
 ## Where to find dashboards
 
-To go to dashboards, click the Menu icon ![Menu icon](media/open-menu-icon.png "Open Menu icon"), and then click **Dashboards**.
+To go to dashboards, click the Menu icon ![Menu icon](media/Site-map-icon.png "Open Menu icon"), and then click **Dashboards**.
 
 ## Dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
