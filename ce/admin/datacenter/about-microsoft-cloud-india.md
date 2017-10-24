@@ -57,7 +57,7 @@ ms.author: "jimholtz"
  Yes, the standard [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] service level agreements (SLAs) will apply to the India regions, just as they do in our other regions around the world.  
   
 > [!NOTE]
->  The SLA for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] doesn't cover [!INCLUDE[pn_netbreeze_long](../../includes/pn-netbreeze-long.md)].  
+>  The SLA for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] doesn't cover [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)].  
   
 ### Will Microsoft Dynamics Marketing, Social Engagement, and Parature be available in the India datacenters?  
  These services are available for purchase in India, however, these services are provisioned regionally at this time.  

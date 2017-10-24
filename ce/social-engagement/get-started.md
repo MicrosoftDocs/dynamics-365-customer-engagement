@@ -11,11 +11,11 @@ ms.author: mhart
 manager: sakudes
 ---
 # Get started with Social Engagement
-This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
+This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
   
 <a name="Prereq"></a>   
 ## Prerequisites  
- To provide you the best experience with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], it's a good idea to keep your browser updated to the latest version.  
+ To provide you the best experience with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], it's a good idea to keep your browser updated to the latest version.  
   
 - **Supported browsers**  
   
@@ -39,17 +39,17 @@ This topic introduces common user-interface elements and useful tips to work eff
 ## Sign in to Social Engagement  
   
 > [!NOTE]
->  To use [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription and be set up as a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user by your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Administrator. This means that your organization also needs to have a license for [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+>  To use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription and be set up as a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user by your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Administrator. This means that your organization also needs to have a license for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
--   Sign in to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] portal, and then click [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] in your list of services.  
+-   Sign in to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] portal, and then click [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] in your list of services.  
   
--   Enter (or bookmark) the URL for your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution in your browser. If you aren't already signed in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], you'll be asked to enter your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user name and password. If your credentials are accepted, you'll be forwarded to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+-   Enter (or bookmark) the URL for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution in your browser. If you aren't already signed in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], you'll be asked to enter your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user name and password. If your credentials are accepted, you'll be forwarded to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in to Social Engagement](../social-engagement/sign-in.md)  
   
 <a name="navigateMain"></a>   
 ## Navigate the application’s main areas  
- Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
+ Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
 
 > [!VIDEO https://www.youtube.com/embed/04CVnYkXefU]
 
@@ -63,15 +63,15 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 - **Navigation**: Click this button to see the application areas and quickly switch to the area that you are looking for.  
   
-- **Sign out/Change Profile**: You can change your profile by clicking the **View Office 365 profile option** or Sign out from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user account.  
+- **Sign out/Change Profile**: You can change your profile by clicking the **View Office 365 profile option** or Sign out from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user account.  
   
-- **User options**: Get one-click access to the **My Preferences** area, and see further information about [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+- **User options**: Get one-click access to the **My Preferences** area, and see further information about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
-- **Help options**: See context-sensitive help topics that apply to the area you’re working in, and quickly access the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] forums and support contacts.  
+- **Help options**: See context-sensitive help topics that apply to the area you’re working in, and quickly access the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] forums and support contacts.  
   
-- **Application areas**: The main areas to work in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+- **Application areas**: The main areas to work in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
-- **Search Setup**: Create and edit search topics, defining the posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] acquires. Get an overview of your solution’s data acquisition status and its progress towards the post quota. Maintain lists of blocked content to optimize the quality of your data.  
+- **Search Setup**: Create and edit search topics, defining the posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] acquires. Get an overview of your solution’s data acquisition status and its progress towards the post quota. Maintain lists of blocked content to optimize the quality of your data.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
@@ -91,7 +91,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define activity maps to view real-time data](../social-engagement/activity-maps.md)  
   
-- **Social Selling**: Work with the Social Selling Assistant directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and get recommendations on relevant and shareable content that really matters to you.  
+- **Social Selling**: Work with the Social Selling Assistant directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and get recommendations on relevant and shareable content that really matters to you.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)  
   
@@ -103,13 +103,13 @@ This topic introduces common user-interface elements and useful tips to work eff
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)  
   
-- **Help**: Visit the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Help Center (opens a new website) to see the latest help topics.  
+- **Help**: Visit the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Help Center (opens a new website) to see the latest help topics.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Social Engagement](../social-engagement/get-help.md)  
   
 <a name="navigateAnalytics"></a>   
 ## Get around in the Analytics area  
- In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
+ In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
   
  ![Analytics area in Social Engagement](../social-engagement/media/analytics-areas-explained.png "Analytics area in Social Engagement")  
   
@@ -147,7 +147,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
 <a name="navigateSettings"></a>   
 ## Get around in the Settings area  
- Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Microsoft Social Engagement](../social-engagement/set-up-microsoft-social-engagement.md).  
+ Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Microsoft Social Engagement](../social-engagement/set-up-microsoft-social-engagement.md).  
   
  ![Settings area in Social Engagement](../social-engagement/media/settings-areas-explained.png "Settings area in Social Engagement")  
   
@@ -157,11 +157,11 @@ This topic introduces common user-interface elements and useful tips to work eff
   
     2. **Global Settings**: Administrators can set system-wide defaults that apply to all new users and newly-created search topics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage global settings](../social-engagement/manage-global-settings.md)  
   
-    3. **Social Profiles**: Manage social profiles that you own or that were shared with you to engage with your audience directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
+    3. **Social Profiles**: Manage social profiles that you own or that were shared with you to engage with your audience directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
   
     4. **User Management**: Administrators define permissions and roles for the users of their solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
   
-    5. **Connections**: Administrators can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to create new records in the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances, or stream posts as events to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](../social-engagement/manage-connections.md), [Set up the connection between Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md), [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)  
+    5. **Connections**: Administrators can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to create new records in the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances, or stream posts as events to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](../social-engagement/manage-connections.md), [Set up the connection between Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md), [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)  
   
     6. **Automation Rules**: Create rules that automatically perform actions on a specified data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
   
