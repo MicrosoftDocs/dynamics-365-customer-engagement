@@ -32,7 +32,7 @@ Typically, views are classified into three types in Dynamics 365:
 
 ## Create a public view 
 As a system customizer, you can create and edit public views by using the app designer.
-1. [Open a view in the app designer](#Open-and-add-a-view-in-the-app-designer) .
+1. [Open a view in the app designer](#Open-and-add-a-view-in-the-app-designer).
 2. On the **Components** tab, select **Create New**.
 
     ![Create a Public View](../customize/media/ViewAppDesigner_CreateNew.png "create a public view")
@@ -60,8 +60,8 @@ As a system customizer, you can create and edit public views by using the app de
 10. Save and close the view. 
 11. Choose **Publish** to make the view available for other users in your organization. 
    
-<a name="BKMK_OpenAddViewInAppDesigner"></a>
-### Open and add a view in the app designer
+
+## Open and add a view in the app designer
 
 The following steps explain how to open and add a view in the app designer.
 1. Sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as an administrator, and go to **Settings** > **Application** > **My Apps**. 
@@ -79,7 +79,7 @@ The following steps explain how to open and add a view in the app designer.
 More information about the app designer: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
 
 
-### Add a column to your view
+## Add a column to your view
 Views display records in a table that contains rows and columns. Each row is a record, and the fields you display from the record are determined by the columns you add to the view.
 
 1. On the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
