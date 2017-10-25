@@ -1,1 +1,1 @@
-Microsoft Dynamics CRM 4.0
+Dynamics CRM 4.0
