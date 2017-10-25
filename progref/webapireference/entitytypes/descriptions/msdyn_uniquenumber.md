@@ -1,1 +1,0 @@
-Internal entity used to store unique number.

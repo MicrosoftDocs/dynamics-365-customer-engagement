@@ -1,1 +1,0 @@
-Sales price list used on the contract to set default sales prices on all project-based components such as time and expense.

@@ -1,1 +1,0 @@
-This entity is deprecated.

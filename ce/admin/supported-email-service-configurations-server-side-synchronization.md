@@ -24,7 +24,7 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in
   
 > [!IMPORTANT]
 > -   The information here includes the POP3/SMTP systems supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Although other POP3/SMTP systems may work with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], those systems were not tested by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] and are not supported.  
-> - [!INCLUDE[pn-outlook-short](../includes/pn-outlook-short.md)] on the web is not supported in a hybrid deployment: [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
+> - [!INCLUDE[pn-outlook-short](../includes/pn-outlook-short.md)] on the web is not supported in a hybrid deployment: [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
 > -   You can create two different email server profiles: one for online mailboxes, and another for on-premises mailboxes. Associate the mailboxes with the correct email server profile.  
 > -   Manual tracking in [!INCLUDE[proc_crm_for_outlook](../includes/proc-crm-for-outlook.md)] is not supported when a user’s mailbox is configured to use server-side synchronization with the POP/SMTP protocol.  
 > -   For [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we support [service encryption](https://technet.microsoft.com/library/dn569286.aspx) in [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with server-side sync.  

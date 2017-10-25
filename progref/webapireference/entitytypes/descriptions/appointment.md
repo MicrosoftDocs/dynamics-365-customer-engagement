@@ -1,1 +1,0 @@
-Commitment representing a time interval with start/end times and duration.

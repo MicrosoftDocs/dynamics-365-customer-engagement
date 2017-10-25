@@ -1,1 +1,0 @@
-Information that's used to set custom visual theme options for client applications.

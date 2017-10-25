@@ -15,10 +15,10 @@ topic-status: Drafting
 ---
 
 # Microsoft Social Engagement FAQ
-Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
+Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
   
 ## How soon will I start seeing data after I set up a search topic?  
-Data acquisition starts immediately after you set up your search topic. Depending on the source, it can take up to 30 minutes from the moment a social post is posted for it to show up in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. But usually it's much faster. We don't retroactively acquire social posts; however, if there are posts in our index that match your search topic, we might show those. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
+Data acquisition starts immediately after you set up your search topic. Depending on the source, it can take up to 30 minutes from the moment a social post is posted for it to show up in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. But usually it's much faster. We don't retroactively acquire social posts; however, if there are posts in our index that match your search topic, we might show those. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 ## What are my options if I am reaching my quota limit?  
 As a rule of thumb, every post you can access in Analytics counts against your post quota. If a post that was published in the current calendar month is removed from Analytics, it's also deducted from the quota usage of the current month. You have multiple options to extend or stay within your quota limits:  
@@ -47,13 +47,13 @@ For example, if your browser is set to the Hawaii–Aleutian time zone (UTC-10),
 Facebook changed its APIs in April 2015. Although it's no longer possible to create keyword search rules for the Facebook source, you can still add entire Facebook pages to your search topics to track activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md)  
   
 ## On what level can I filter for Location from the filter section?  
-You can drill down to the level of all available countries/regions in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. In addition, you can create your own location groups to quickly filter for a set of countries/regions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage global settings](manage-global-settings.md)  
+You can drill down to the level of all available countries/regions in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. In addition, you can create your own location groups to quickly filter for a set of countries/regions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage global settings](manage-global-settings.md)  
   
 ## Why can't I filter on the Top Cities widget in the Location dashboard?  
 We currently don't support filtering at the city level.  
   
 ## Why can't I see the original post on some of the News posts in the posts view?  
-In addition to covering online news, the News coverage provided by [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] also covers news venues that are not publicly available on the web (for example, behind a pay wall). In such a case, no link to the original source is available for the post.  
+In addition to covering online news, the News coverage provided by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] also covers news venues that are not publicly available on the web (for example, behind a pay wall). In such a case, no link to the original source is available for the post.  
   
 ## Is there a limit to the number of terms or phrases that can be used in a keyword search rule?  
 Although you can create an unlimited number of search rules per search topic, there is a limit on the length and number of terms.  

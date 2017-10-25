@@ -1,1 +1,0 @@
-Categorize resources that have capacity into categories such as roles.

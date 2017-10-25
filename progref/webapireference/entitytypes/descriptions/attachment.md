@@ -1,1 +1,0 @@
-Attachment for an email activity.

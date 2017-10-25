@@ -1,1 +1,0 @@
-User's preferred settings.

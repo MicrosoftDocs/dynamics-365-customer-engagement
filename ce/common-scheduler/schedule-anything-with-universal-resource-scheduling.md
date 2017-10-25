@@ -2,6 +2,10 @@
 title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
+searchScope:
+  - Customer Service
+  - Field Service
+  - Project Service
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

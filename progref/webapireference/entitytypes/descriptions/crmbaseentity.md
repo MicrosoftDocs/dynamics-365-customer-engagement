@@ -1,1 +1,0 @@
-The base entity for all non-metadata entities in the Web API.

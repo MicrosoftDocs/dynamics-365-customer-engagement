@@ -1,1 +1,0 @@
-Specify the different service task and labor types that your resources perform as part of their work orders.

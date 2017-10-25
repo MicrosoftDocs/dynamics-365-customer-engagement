@@ -1,1 +1,0 @@
-Information to administer and manage the data available to mobile devices in offline mode.

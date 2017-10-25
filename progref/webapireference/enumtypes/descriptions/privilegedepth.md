@@ -1,1 +1,0 @@
-Contains the possible values for the depth of a privilege within a role. 

@@ -1,1 +1,0 @@
-Query function that evaluates whether the value is within the current year. 

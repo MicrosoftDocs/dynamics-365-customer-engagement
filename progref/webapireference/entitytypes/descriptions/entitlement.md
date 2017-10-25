@@ -1,1 +1,0 @@
-Defines the amount and type of support a customer should receive.

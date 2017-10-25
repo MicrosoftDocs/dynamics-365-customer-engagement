@@ -1,1 +1,0 @@
-Indicates the type of option set. 

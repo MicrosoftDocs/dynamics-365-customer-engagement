@@ -64,12 +64,12 @@ Keep track of the number of posts that result from your search topics towards yo
 > [!VIDEO https://www.youtube.com/embed/nBwNFQ-xEsw]
   
 ### Impact of exceeding limits  
- All [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
+ All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
   
  If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](http://go.microsoft.com/fwlink/p/?LinkID=390650) at any time to unblock your solution immediately.  
   
 > [!IMPORTANT]
->  Note that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] doesn’t gather posts retrospectively. Any missed post won’t appear in your solution if you update your post quota after the acquisition has stopped.  
+>  Note that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn’t gather posts retrospectively. Any missed post won’t appear in your solution if you update your post quota after the acquisition has stopped.  
   
 ### Understand estimations  
  On the **Summary** page in the **Search Setup** area, you’ll find quota information for all active search topics. The following values are provided for each search topic and all categories that contain a search topic:  
@@ -78,7 +78,7 @@ Keep track of the number of posts that result from your search topics towards yo
   
 - **Current number of posts:** The total number of posts (including hidden and visible posts) that were acquired during the current calendar month.  
   
-- **Expected number of posts:** The calculated number of posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is expecting until the end of the calendar month, based on the number of current posts.  
+- **Expected number of posts:** The calculated number of posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is expecting until the end of the calendar month, based on the number of current posts.  
   
  When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month. Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you’ll find a preview of the most recent tweets matching your keywords rule.  
   

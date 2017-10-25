@@ -1,1 +1,0 @@
-Represents a user following the activity feed of an object.

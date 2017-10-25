@@ -1,1 +1,0 @@
-Reporting entity that is used to show quoted sales and estimated cost amounts by various dimensions.

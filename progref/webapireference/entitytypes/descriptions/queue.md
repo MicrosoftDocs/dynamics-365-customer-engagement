@@ -1,1 +1,0 @@
-A list of records that require action, such as accounts, activities, and cases.

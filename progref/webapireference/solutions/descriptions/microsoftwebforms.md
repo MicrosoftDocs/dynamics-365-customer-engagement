@@ -1,1 +1,0 @@
-Extends portals by exposing preconfigured or customized entity forms and views.

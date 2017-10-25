@@ -1,1 +1,0 @@
-Specify RMA receipt.

@@ -9,14 +9,14 @@
 ## [Create a solution](create-solution.md)
 ## [Import, update, and export solutions](import-update-export-solutions.md)
 ## [Disbribute solutions and patches](use-segmented-solutions-patches-simplify-updates.md)
+
 # [Customize or create applications](customize-create-applications.md)  
 ## [Create a theme](change-color-scheme-add-logo-match-organizations-brand.md)
 ## [Create and design forms](create-design-forms.md)
-### [Types of forms](types-forms.md)
-### [Design main forms](design-considerations-main-forms.md)
 ### [Assign form order](assign-form-order.md)
 ### [Control access to forms](control-access-forms.md)
 ### [How main forms appear in different clients](main-form-presentations.md)
+### [Create or edit main forms](design-considerations-main-forms.md)
 ### [Create or edit quick create forms](create-edit-quick-create-forms.md)
 ### [Create or edit quick view forms ](create-edit-quick-view-forms.md)
 ### [Add form navigation for related entities](add-edit-form-navigation-related-entities.md)
@@ -36,7 +36,6 @@
 #### [Special field properties](special-field-properties-legacy.md)
 #### [Sub-grid properties](sub-grid-properties-legacy.md)
 #### [Quick view control properties](quick-view-control-properties-legacy.md)
-#### [Web resource properties](web-resource-properties-legacy.md)
 #### [iFrame properties](iframe-properties-legacy.md)
 #### [Set up the Notes control to access information about posts](notes-control-legacy.md)
 #### [Configure Bing maps](configure-bing-maps-legacy.md)
@@ -66,7 +65,6 @@
 ## [Create or edit a report](customize-organize-reports.md)
 
 ## [Customize the mobile app](customize-phones-tablets.md)
-### [Add visual controls](add-visual-controls-mobile-app.md)
 ### [iFrame and web resource support](iframe-web-resource-support-dynamics-365-phones-tablets.md)
 ### [Write modern mobile apps](https://msdn.microsoft.com/dynamics/crm/mobilesdk) 
 
@@ -131,7 +129,9 @@
 #### [OData v4 data provider requirements ](virtual-entity-odata-provider-requirements.md)
 ### [Define alternate keys to reference Dynamics 365 records ](define-alternate-keys-reference-records.md)
 
-# [Create or edit a web resource](create-edit-web-resources.md)
+# [Create or edit a web resource](create-edit-web-resources.md) 
+## [Web resource properties](web-resource-properties-legacy.md)
+ 
 # [Work with an international audience](work-with-international-audience.md)
 ## [Enable additional languages](enable-additional-languages.md)
 ## [Export customized entity and field text for translation](export-customized-entity-field-text-translation.md)

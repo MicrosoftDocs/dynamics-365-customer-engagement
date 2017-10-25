@@ -1,1 +1,0 @@
-Product properties whose values are to be considered as factors for quantity computation on a transaction line.

@@ -1,1 +1,0 @@
-Extends portals to include authentication and identity management.
