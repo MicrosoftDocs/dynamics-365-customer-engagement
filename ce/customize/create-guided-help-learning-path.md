@@ -6,7 +6,7 @@ author: udag
 ms.author: udag
 manager: sakudes
 applies_to: "Dynamics 365 (online)"
-ms.date: 08/31/2017
+ms.date: 10/25/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to: Dynamics 365 (online)

@@ -1,7 +1,7 @@
 ---
 title: "Types of fields and field data types (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/25/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
