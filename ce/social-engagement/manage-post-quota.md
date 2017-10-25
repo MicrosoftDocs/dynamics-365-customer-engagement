@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: "quota, post quota, contingent"
-ms.date: 10/24/2017
+ms.date: 10/25/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -94,6 +94,25 @@ When you run out of post quota, you can either optimize your search topics, or y
 - Microsoft Social Engagement Additional 10k posts (no min): 10k posts per month.
 - Microsoft Social Engagement Additional 10k posts (10 unit min): 100k posts per month.
 - Microsoft Social Engagement Additional 10k posts (100 unit min): 1m (1000k) posts per month.
+[Learn more about pricing and licensing for Dynamics 365.](https://www.microsoft.com/dynamics365/pricing)
+
+### To buy add-on subscriptions for Social Engagement
+
+![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Image of the clickpath to find add-on subscriptions.")
+
+1. Go to https://portal.office.com and sign in as a global administrator or billing administrator.
+
+2. Select **Admin** to open the Office 365 admin center.
+
+3. Go to **Billing** and select **Purchase services**.
+
+4. Scroll down to the **Add-on subscription** section and look for the **Microsoft Social Engagement Additional 10k posts** add-on subscriptions.
+
+5. Click **Buy now** and complete the billing process.
+
+
+> [!NOTE]
+> You will only see the Social Engagement add-on subscriptions if your Dynamics 365 plan includes Social Engagement. For more insormation, see [Pricing and licensing for Dynamics 365](https://www.microsoft.com/dynamics365/pricing).
   
 ### Privacy notice  
  [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
