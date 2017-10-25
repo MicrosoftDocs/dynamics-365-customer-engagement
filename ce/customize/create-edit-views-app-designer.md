@@ -32,11 +32,11 @@ Typically, views are classified into three types in Dynamics 365:
 
 ## Create a public view 
 As a system customizer, you can create and edit public views by using the app designer.
-1. [Open a view in the app designer](#Open-and-add-a-view-in-the-app-designer).
+1. [Open a view in the app designer](#open-and-add-a-view-in-the-app-designer).
 2. On the **Components** tab, select **Create New**.
 
     ![Create a Public View](../customize/media/ViewAppDesigner_CreateNew.png "create a public view")
-3. Add the columns you want to display in the view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a column to your view](#Add-a-column-to-your-view)
+3. Add the columns you want to display in the view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a column to your view](#add-a-column-to-your-view)
 4. Apply filtering criteria to refine the data that is displayed in the view. More information: Define filter criteria
 5. Group the filters by using **AND** or **OR** options to further refine the data that is displayed in the view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Group multiple filters]
 6. Sort the order of the data by configuring the primary and secondary sort order for columns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the primary and secondary column sort order]
