@@ -36,10 +36,11 @@ As a system customizer, you can create and edit public views by using the app de
 2. On the **Components** tab, select **Create New**.
 
     ![Create a Public View](../customize/media/ViewAppDesigner_CreateNew.png "create a public view")
+    
 3. Add the columns you want to display in the view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a column to your view](#add-a-column-to-your-view)
-4. Apply filtering criteria to refine the data that is displayed in the view. More information: Define filter criteria
-5. Group the filters by using **AND** or **OR** options to further refine the data that is displayed in the view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Group multiple filters]
-6. Sort the order of the data by configuring the primary and secondary sort order for columns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the primary and secondary column sort order]
+4. Apply filtering criteria to refine the data that is displayed in the view.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define filter criteria](#define-filter-criteria)
+5. Group the filters by using **AND** or **OR** options to further refine the data that is displayed in the view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Group multiple filters](#group-multiple-filters)
+6. Sort the order of the data by configuring the primary and secondary sort order for columns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the primary and secondary column sort order](#set-primary-and-secondary-sort-order-for-columns)
 7. (Optional) Configure column width: 
   
     a. Select a column. The **Properties** tab opens.
@@ -56,7 +57,7 @@ As a system customizer, you can create and edit public views by using the app de
 
     > [!NOTE]
     > You can also change column order by using keyboard shortcut keys. Cut the column by selecting Ctrl + X, select a column, and then paste by selecting Ctrl + V. The column will be moved to the right of the selected column.
-9. (Optional) Attach an icon or a file to a column to differentiate it from other columns during run time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define a web resource]
+9. (Optional) Attach an icon or a file to a column to differentiate it from other columns during run time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define a web resource](#define-a-web-resource)
 10. Save and close the view. 
 11. Choose **Publish** to make the view available for other users in your organization. 
    
@@ -66,11 +67,15 @@ As a system customizer, you can create and edit public views by using the app de
 The following steps explain how to open and add a view in the app designer.
 1. Sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as an administrator, and go to **Settings** > **Application** > **My Apps**. 
 2. In the app you want to edit, select **More Options** (**…**), and then select **OPEN IN APP DESIGNER**.
+    
     ![Open App Designer](../customize/media/ViewAppDesigner_OpenAppDesigner.png "Open app designer")
+
 3. In the **Entity View** section, select **Views**.
 
     In this example, we have selected **Views** from the **Account** entity.
+
     ![App Designer View](../customize/media/ViewAppDesigner_AccountAppDesignerView.png "App Designer view of Account entity")
+
 4. To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
 
     > [!NOTE]
@@ -85,31 +90,25 @@ Views display records in a table that contains rows and columns. Each row is a r
 1. On the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
 
     ![Add a column](../customize/media/ViewAppDesigner_AddColumn.png "Add a column to view") 
+
 2. From the list, select the attribute you want  and drag it to the column heading. You can also add the attribute by double-clicking it.
 3. Repeat step 2 until you’ve added all the attributes you want to display in your view .
 
 As you add attributes, you can drag them to any position among existing column headings. You can also move columns around after you add them to your view.
 
-### Set primary and secondary sort order for columns
-When a view is opened, the records it displays are sorted in the order you set when you created the view.   By default, records will be sorted according to the first column in a view when no sort order is selected. You can choose to sort on a single column, or you can choose two columns—one primary and one secondary—to sort by. When the view is opened, the records will first be sorted by the column you want to use for primary sort order, and then by the column you want to use for secondary sort order. 
 
-> [!NOTE]
-> You can only set primary and secondary sort order for column attributes you added  from the primary entity.
-
-1. Select the column you want to use for sorting.
-2. Select the down arrow, and then choose **Primary Sort** or **Secondary Sort**.
- 
-    ![Sort Record](../customize/media/ViewAppDesigner_SortRecords.png "Sort records based on primary and secondary sort orders") 
-If you remove the column you chose for the primary sort order, the column you chose for the secondary sort order becomes the primary.
-
-### Define filter criteria
+## Define filter criteria
 You can set filter criteria so that only a subset of the records is displayed in a view. When a user opens the view, only the records that meet the defined filter criteria are displayed. You can select fields from both the primary and related entities to filter on.
 1. In the designer, expand the **Filter Criteria** section.
+   
     ![Set Filter Criteria](../customize/media/ViewAppDesigner_FilterCriteria.png "Set filter criteria") 
+
 2. Select **Add Filter**.
 3. Select an attribute from the drop-down list in the first column. 
 4. Select an operator from the drop-down list in the second column.
+
     ![Set Filter Criteria Operator](../customize/media/ViewAppDesigner_FilterCriteriaOption.png "Set filter criteria operator")
+
 5. Enter a value to filter by in the third column.
 
 You can filter data based on the attributes of related entities in addition to the primary entity. 
@@ -122,7 +121,7 @@ You can filter data based on the attributes of related entities in addition to t
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit relationships between entities](../customize/create-edit-entity-relationships.md)
 
-### Group multiple filters
+## Group multiple filters
 You can add multiple filters to your view if you want to filter records by using more than one field. 
 
 1. Select the filters that you want to group.
@@ -133,7 +132,20 @@ When you select **Group And**, only records that meet both criteria are displaye
 
 To remove the filter from a group, select the group, and then select **Ungroup**. 
 
-### Define a web resource
+## Set primary and secondary sort order for columns
+When a view is opened, the records it displays are sorted in the order you set when you created the view.   By default, records will be sorted according to the first column in a view when no sort order is selected. You can choose to sort on a single column, or you can choose two columns—one primary and one secondary—to sort by. When the view is opened, the records will first be sorted by the column you want to use for primary sort order, and then by the column you want to use for secondary sort order. 
+
+> [!NOTE]
+> You can only set primary and secondary sort order for column attributes you added  from the primary entity.
+
+1. Select the column you want to use for sorting.
+2. Select the down arrow, and then choose **Primary Sort** or **Secondary Sort**.
+ 
+    ![Sort Record](../customize/media/ViewAppDesigner_SortRecords.png "Sort records based on primary and secondary sort orders") 
+
+If you remove the column you chose for the primary sort order, the column you chose for the secondary sort order becomes the primary.
+
+## Define a web resource
 Specify a web resource of script type, to associate with a column in your view. These scripts help to display icons for columns.
 
 1. Select the column you want to add a web resource to.
