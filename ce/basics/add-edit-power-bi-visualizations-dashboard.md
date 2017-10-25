@@ -38,7 +38,7 @@ Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dy
 2.  Select **New** and then select **Power BI Dashboard**.  
     You may be prompted to sign in to Power BI.
 
-3. In the Add Power BI Dashboard dialog select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that you want to embed in your dashboard in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Select **Enable for mobile** if you want to make the dashboard available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-microsoft-dynamics-crm-mobile.md)].
+3. In the Add Power BI Dashboard dialog select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that you want to embed in your dashboard in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Select **Enable for mobile** if you want to make the dashboard available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)].
 
     ![Add a Power BI tile to your personal dashboard](../basics/media/workspace-add-power-bi-dashboard.PNG "Add a Power BI tile to your personal dashboard") 
 
@@ -54,7 +54,7 @@ Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dy
   
 3.  On the dashboard, select an area  where you want the tile to appear, and then select **Power BI Tile** on the toolbar.  
   
-4.  In the Add Power BI Dashboard dialog, select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile that you want to display on your dashboard. Select **Enable for mobile** if you want to make the tile available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-microsoft-dynamics-crm-mobile.md)].  
+4.  In the Add Power BI Dashboard dialog, select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile that you want to display on your dashboard. Select **Enable for mobile** if you want to make the tile available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)].  
   
       Select another area of the dashboard and repeat this step to add another [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile, or other component, such as a chart or list, to your dashboard.  
   
