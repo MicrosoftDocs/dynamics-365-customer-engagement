@@ -17,6 +17,9 @@ topic-status: Drafting
 ---
 
 # Score and manage leads
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic describes how [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] handles leads, including:
 
 - How to generate leads manually or automatically by using landing pages.

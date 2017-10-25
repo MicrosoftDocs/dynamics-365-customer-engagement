@@ -18,4 +18,6 @@ topic-status: Drafting
 
 # Get started with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Topics in this section explain how to purchase and set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time, how to get around in the system, and how to work with basic records such as contacts, accounts, and leads.

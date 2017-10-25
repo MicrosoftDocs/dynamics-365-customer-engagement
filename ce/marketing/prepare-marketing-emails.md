@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Prepare marketing email messages
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic introduces the concept of marketing emails and explains how they are different from the standard person-to-person email messages you're used to. It also describes the full process of how to create a marketing email design, preview it, check it for errors, and then go live. Advanced subjects&mdash;including how to merge database values, add dynamic content, and introduce programming logic&mdash;are also discussed.
 
 ## How marketing email works in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]

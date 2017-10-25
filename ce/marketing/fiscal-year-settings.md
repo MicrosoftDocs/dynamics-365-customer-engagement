@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Define fiscal year settings
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A fiscal period defines the time reflected in financial reports. It is used for reporting financial data in each period.
 
 1. Make sure you have the System Administrator security role or equivalent permissions in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].

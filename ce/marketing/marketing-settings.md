@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Marketing settings
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The **Marketing Settings** page lets you configure the core marketing functionality for landing pages, email marketing, and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
 
 To find these settings, open **Advanced Settings** and choose one of the pages under the **Marketing Settings** heading in the leftmost column. You can also access these same settings by finding the **Marketing Settings** section in the rightmost column and choosing the icons there.

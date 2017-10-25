@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Design your digital content
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system, including:
 
 - Marketing email messages and templates  

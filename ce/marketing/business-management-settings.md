@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Business management settings
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic describes the pages available in the **Business Management** section of the **Settings** work area.
 
 ## Import data

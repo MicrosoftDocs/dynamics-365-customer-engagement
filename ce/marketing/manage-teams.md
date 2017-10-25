@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Manage teams
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 1. Go to **Settings** > **Organization** > **Team Management**.

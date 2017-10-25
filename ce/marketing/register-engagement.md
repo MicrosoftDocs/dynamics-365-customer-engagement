@@ -15,6 +15,9 @@ ms.assetid: bde3efc9-6ef1-4705-a925-34670c823f40
 ms.reviewer: 
 ---
 # Register contacts' engagement with your internet marketing initiatives
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic describes how you can measure customer engagement with your marketing initiatives, including:
 
 - How to add a script to the pages of your website that enables [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to record how people use your website and to connect browsing records to anonymous and known contacts.

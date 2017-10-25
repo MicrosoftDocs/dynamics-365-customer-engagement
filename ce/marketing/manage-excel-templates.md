@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates for:

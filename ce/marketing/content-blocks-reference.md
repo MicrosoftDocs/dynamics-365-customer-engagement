@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Content blocks reference
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic describes each content block that is available for use with the designer, including blocks that are available for all designers and those that are specific to email, marketing pages, or forms.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)

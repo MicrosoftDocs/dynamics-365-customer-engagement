@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Organize your daily work
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic explains how to use common features of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to organize your daily work, including how to use dashboards to get an overview of your most important information, how to plan and record activities (such as appointments, tasks, and phone calls), how create new records quickly, and how to assign records (including activities) to a user or a team.
 
 ## Get the big picture with dashboards

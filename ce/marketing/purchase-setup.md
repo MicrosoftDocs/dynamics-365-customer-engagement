@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Purchase and first-time setup
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic explains how licensing works, how to set up the system for the first time, and how to rerun the setup wizard if you need to change your setup later. It also provides important privacy information.
 
 ## How licensing works

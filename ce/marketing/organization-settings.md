@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Organization settings
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This section describes the following settings pages, which are available in the **Organization settings** section of the **Settings** work area:
 
 - **User Management**: Manage user accounts and assign security roles. [!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Manage users](manage-users.md)

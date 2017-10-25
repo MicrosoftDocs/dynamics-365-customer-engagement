@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Manage event sponsorships
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Sponsors are people or organizations who contribute funds, equipment, or services in return for having their logos and messages placed in your event materials (including the event portal) or at the event itself.
 
 Go to **Events** &gt; **Sponsorship Management** &gt; **Sponsorships** to view, edit, and create sponsorship records. Each record here must be associated with an event record, and the sponsoring company (account record) must also be stored in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Each record can also include information about the sponsorship deal itself, including the sponsorship type (money, services, or equipment), sponsorship value, and other details. If any sponsored articles are associated with this sponsorship, they are also listed here.

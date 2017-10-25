@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Engage with customers online with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] solution, which it uses to enable features like the event portal and marketing pages. If those features are all you need, you never actually have to access the portal capabilities because [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data.
 
 The portals solution is highly flexible and customizable. You can create portals for a wide variety of purposes (such as self-service, registration, and data management) and audiences (including customers, partners, and employees).

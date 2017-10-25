@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Customer journey tiles reference
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This topic describes how to use each of the tiles that are available for constructing a customer journey.
 
 ## Content-type tiles

@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # View and explore results with [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] analytics
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], includes several prebuilt content packs for [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)], which provide insights and add analytics capabilities to the end-to-end sales and marketing process. Each content pack is preconfigured to consume data directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, and to create targeted and informative infographics based on that data. The content packs are built by using standard [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] tools, so you can easily customize them to fit your needs.
 
 The following content packs are provided to support [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:

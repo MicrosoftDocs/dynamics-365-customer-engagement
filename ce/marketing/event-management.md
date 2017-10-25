@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Event planning and management in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Live events and webinars are often a vital sales and marketing channel, but they can be very complex to arrange, execute, and follow up on. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] event management feature helps you every step of the way, from initial planning and budgeting through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
 Key event-management features include:

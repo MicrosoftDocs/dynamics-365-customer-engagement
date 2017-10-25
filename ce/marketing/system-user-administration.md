@@ -14,6 +14,8 @@ ms.reviewer: renwe
 ---
 # System and user administration
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 This section describes how to manage users and change application settings. Most of the settings described here can only be accessed by users who have administrator privileges.
 
 ## Open the advanced settings
