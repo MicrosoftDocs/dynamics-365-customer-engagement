@@ -98,6 +98,8 @@ When you run out of post quota, you can either optimize your search topics, or y
 
 ### To buy add-on subscriptions for Social Engagement
 
+An admin can buy additional post quota from the Office 365 admin center. You will only see the Social Engagement add-on subscriptions if your Dynamics 365 plan includes Social Engagement. For more insormation, see [Pricing and licensing for Dynamics 365](https://www.microsoft.com/dynamics365/pricing).
+
 ![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Image of the clickpath to find add-on subscriptions.")
 
 1. Go to https://portal.office.com and sign in as a global administrator or billing administrator.
@@ -112,7 +114,7 @@ When you run out of post quota, you can either optimize your search topics, or y
 
 
 > [!NOTE]
-> You will only see the Social Engagement add-on subscriptions if your Dynamics 365 plan includes Social Engagement. For more insormation, see [Pricing and licensing for Dynamics 365](https://www.microsoft.com/dynamics365/pricing).
+> It can take a few minutes to complete the provisioning process and make the additional post quota avaialble for your organization after you completed the purchase.
   
 ### Privacy notice  
  [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
