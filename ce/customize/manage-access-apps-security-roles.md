@@ -22,17 +22,19 @@ You can choose what users see and access from My Apps or the [!INCLUDE[pn_crm_sh
   
 1.  Go to **Settings** > **My Apps**.  
   
-2.  In the lower right corner of the app tile you want to manage access for, click the **More options** button ![More Options button in the app designer](../customize/media/apps-more-options-icon.png "More Options button in the app designer"), and then click **Manage Roles**.  
+2.  In the lower right corner of the app tile you want to manage access for, click the **More options** button (**...**), and then click **Manage Roles**.  
   
- ![Manage security roles for the app](../customize/media/app-manage-roles.png "Manage security roles for the app")  
+    ![Manage security roles for the app](../customize/media/app-manage-roles.png "Manage security roles for the app")  
   
 3.  In the **Manage App** dialog box, enter the following:  
   
-    1. **App URL Suffix**. The URL  you chose while creating the app is shown here by default. Enter another app URL suffix, if required. This is optional, and is used to create an easy-to-remember URL for the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit an app](../customize/create-edit-app.md)  
+    a. **App URL Suffix**. The URL  you chose while creating the app is shown here by default. Enter another app URL suffix, if required. This is optional, and is used to create an easy-to-remember URL for the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit an app](../customize/create-edit-app.md).
+    
+    You cannot export or import the App URL suffix through a solution at this time. 
+    
+    b. **Roles**. Choose whether you want to give app access to all security roles or selected roles. If you choose **Give access only to these roles**, select the specific security roles.  
   
-    2. **Roles**. Choose whether you want to give app access to all security roles or selected roles. If you choose **Give access only to these roles**, select the specific security roles.  
-  
-    3.  Click **Save**.  
+    c.  Click **Save**.  
   
 4.  Refresh the **My Apps** page.  
   
