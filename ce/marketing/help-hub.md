@@ -25,7 +25,7 @@ ms.author: kamaybac
 </td>
 <td>
 
-<h2> Basic tutorials</h2>
+<h2> First time setup </h2>
 
 <li></li>
 <li></li>
@@ -33,6 +33,14 @@ ms.author: kamaybac
 </td>
 </tr>
 <tr>
+<td>
+
+<h2> Basic tutorials  </h2>
+
+<li></li>
+<li></li>
+<li></li>
+</td>
 <td>
 
 <h2> Advanced tutorials </h2>
@@ -41,19 +49,11 @@ ms.author: kamaybac
 <li></li>
 <li></li>
 </td>
-<td>
-
-<h2> Administer the system </h2>
-
-<li></li>
-<li></li>
-<li></li>
-</td>
 </tr>
 <tr>
 <td>
 
-<h2> First time setup </h2>
+<h2> Administer the system </h2>
 
 <li></li>
 <li></li>
