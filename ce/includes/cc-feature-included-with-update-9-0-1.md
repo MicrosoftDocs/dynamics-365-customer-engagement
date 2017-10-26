@@ -1,1 +1,1 @@
-This feature was introduced in the PLACEHOLDER TEXT update to Dynamics 365 (online) Customer Engagement.
+This feature was introduced in Dynamics 365 (online) update 0.1.
