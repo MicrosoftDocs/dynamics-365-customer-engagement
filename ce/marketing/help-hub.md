@@ -19,9 +19,10 @@ ms.author: kamaybac
 <td>
 
 <h2> Get started </h2>
-<li></li>
-<li></li>
-<li></li>
+<li>[Create, target, and deliver online marketing content](markerting-execution-section.md)</li>
+<li>[Manage, score, and qualify leads](qualify-leads-section.md)</li>
+<li>[Analyze marketing results](analyze-results-section.md)</li>
+<li>[(Plan and manage events](event-management.md)</li>
 </td>
 <td>
 
