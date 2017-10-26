@@ -31,10 +31,11 @@ topic-status: Drafting
 
 </td><td>
 
-<h2>First time setup</h2>
-<li>[Prerequisites](#)</li>
-<li>[Run the setup wizard](purchase-setup.md)</li>
-<li>[Prepare your new instance for use](#)</li>
+<h2>User Guide</h2>
+<li>[Create, target, and deliver online marketing content](marketing-execution-section.md)</li>
+<li>[Manage, score, and qualify leads](qualify-leads-section.md)</li>
+<li>[Analyze marketing results](analyze-results-section.md)</li>
+<li>[Plan and manage events](event-management.md)</li>
 
 </td></tr>
 <tr><td>
@@ -60,6 +61,13 @@ topic-status: Drafting
 </td></tr>
 <tr><td>
 
+<h2>First time setup</h2>
+<li>[Prerequisites](#)</li>
+<li>[Run the setup wizard](purchase-setup.md)</li>
+<li>[Prepare your new instance for use](#)</li>
+
+</td><td>
+
 <h2>Administer the system</h2>
 <li>[Open the Settings work area](system-user-administration.md)</li>
 <li>[Organization settings](organization-settings.md)</li>
@@ -69,14 +77,6 @@ topic-status: Drafting
 <li>[Additional settings](additional-settings.md)</li>
 <li>[Manage your quotas](quota-management.md)</li>
 <li>[Customize Dynamics 365 for Marketing](#)</li>
-
-</td><td>
-
-<h2>User Guide</h2>
-<li>[Create, target, and deliver online marketing content](marketing-execution-section.md)</li>
-<li>[Manage, score, and qualify leads](qualify-leads-section.md)</li>
-<li>[Analyze marketing results](analyze-results-section.md)</li>
-<li>[Plan and manage events](event-management.md)</li>
 
 </td></tr>
 </table>
