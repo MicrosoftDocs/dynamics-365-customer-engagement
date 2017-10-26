@@ -147,6 +147,16 @@ In the **Documents** list
 
 5.  The display name, parent site, and folder name is automatically populated. Change the details if required, and then click **Save**.
 
+## Create folders
+
+1.  To create folders to store documents, on the command bar, click **New** > **Folder**.
+
+2.  In the **Create a New Folder** dialog box, enter a name of the folder, and click **Save**.
+
+   > [!Note]
+
+   > If your folder name contains a slash (/), [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
+
 ## Actions on documents
 
 When you select one or more documents in the Documents list, you can take the following other common [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] actions on the documents:
@@ -162,6 +172,7 @@ When you select one or more documents in the Documents list, you can take the fo
 -   Discard check out
 
 -   Edit properties
+
 
 ### See Also
 [Configure Dynamics 365 for Sales to integrate with SharePoint](configure-document-management.md)  
