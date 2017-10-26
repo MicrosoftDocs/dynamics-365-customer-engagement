@@ -2,7 +2,7 @@
 title: "Register link clicks and website visits in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
 keywords: "website;redirect URL;behavioral analysis;behavior;tracking"
-ms.date: 10/20/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:

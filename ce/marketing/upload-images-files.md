@@ -6,7 +6,7 @@ author: kamaybac
 ms.author: kamaybac
 manager: sakudes
 applies_to: Dynamics 365 (online)- Dynamics 365 Version 9.x
-ms.date: 08/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 162d17d7-bdd4-4a44-b84f-8ab94e7267f3

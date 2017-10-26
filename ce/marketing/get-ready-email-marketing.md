@@ -2,7 +2,7 @@
 title: "Maximize email deliverability in Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 for Marketing"
 keywords: "administration; spam; deliverability; SPF"
-ms.date: 10/20/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:
