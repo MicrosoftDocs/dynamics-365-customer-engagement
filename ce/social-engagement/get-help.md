@@ -16,14 +16,14 @@ ms.author: mhart
 manager: sakudes
 ---
 # Get help with Social Engagement
-We have several ways to help you get started with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]:  
+We have several ways to help you get started with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]:  
   
-- **Videos and eBooks:** Take a look at [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708) to learn more about [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+- **Videos and eBooks:** Take a look at [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708) to learn more about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 - **First things first:** Find help for relevant tasks for your user role when you sign in the first time. To see the tasks after your first sign-in, go to the Analytics area, click the Help button ![Help button](../social-engagement/media/help-icon.png "Help button") on the nav bar, and then select **First things first**.  
   
 ## Find help topics  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] redirects you to context-sensitive help topics that provide guidance for the page you’re working with when you open help.  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] redirects you to context-sensitive help topics that provide guidance for the page you’re working with when you open help.  
   
 1.  On the nav bar, click the Help button ![Help button](../social-engagement/media/help-icon.png "Help button").  
   

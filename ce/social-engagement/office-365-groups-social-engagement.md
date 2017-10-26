@@ -16,12 +16,12 @@ ms.author: mhart
 manager: sakudes
 ---
 # Work with Office 365 Groups in Social Engagement
-[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Groups are shared workspaces where group members can collaborate and quickly get stuff done. To collaborate with a group of users in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] you can share social profiles and streams, or assign posts to groups. You can create and manage groups in [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] or [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Groups are automatically synced to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], but you cannot change them from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Groups are shared workspaces where group members can collaborate and quickly get stuff done. To collaborate with a group of users in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] you can share social profiles and streams, or assign posts to groups. You can create and manage groups in [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] or [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. Groups are automatically synced to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], but you cannot change them from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 ## Work with groups  
   
 > [!TIP]
->  Groups may take a few minutes to sync when you create or edit them before you can work with them in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. When you add or remove users from an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group, any posts assigned to the group and streams or social profiles shared with the group will become automatically available to the newly-added users, and no longer available to the removed users.  
+>  Groups may take a few minutes to sync when you create or edit them before you can work with them in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. When you add or remove users from an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group, any posts assigned to the group and streams or social profiles shared with the group will become automatically available to the newly-added users, and no longer available to the removed users.  
   
  To learn more about the ways to create an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group, see [Create and navigate a group](http://go.microsoft.com/fwlink/p/?LinkId=716838).  
   

@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Work with tags
-Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows you to prioritize and filter your posts. When authors publish posts on social media, they usually have a messaging purpose in mind. The larger the number of posts, the more work intensive and time consuming it gets to read through all of these posts and identify those relevant for your business—for example, to find out if authors are asking a question that you want to answer, or if they are complaining about a service that you want to follow up on. In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], once a post is acquired from a search topic, we take some of the workload off your desk. Acquired posts are analyzed by the machine-learning based algorithm to detect authors’ intentions or you can add your own custom tags and later promote them to auto tags.
+Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] allows you to prioritize and filter your posts. When authors publish posts on social media, they usually have a messaging purpose in mind. The larger the number of posts, the more work intensive and time consuming it gets to read through all of these posts and identify those relevant for your business—for example, to find out if authors are asking a question that you want to answer, or if they are complaining about a service that you want to follow up on. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], once a post is acquired from a search topic, we take some of the workload off your desk. Acquired posts are analyzed by the machine-learning based algorithm to detect authors’ intentions or you can add your own custom tags and later promote them to auto tags.
 
 > [!VIDEO https://www.youtube.com/embed/ev1mSMU9R3w]
   
@@ -23,7 +23,7 @@ Intention tags and custom tags are two ways [!INCLUDE[pn_netbreeze_short](../inc
 ## How intention analysis works  
 Intention analysis is applied to posts when they are picked up by a search topic. Posts are scored against the algorithm and, if applicable, marked with the intentions identified. A post can have multiple intention tags, but more commonly there’s just one.  
   
-The following intention tags are used by [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+The following intention tags are used by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 |||  
 |-|-|  
@@ -34,13 +34,13 @@ The following intention tags are used by [!INCLUDE[pn_netbreeze_short](../includ
 |Support request|A need for help and support in using a service or product|  
   
 > [!NOTE]
->  Intention analysis is available for [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] posts found on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] in the English language.  
+>  Intention analysis is available for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] posts found on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] in the English language.  
   
-Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. The machine learning service makes predictions on whether posts relate to one of the supported intention tags. We recommend that you [remove or add intention tags](work-with-posts.md#add-or-remove-tags) from posts if they aren’t accurate to improve machine learning.
+Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. The machine learning service makes predictions on whether posts relate to one of the supported intention tags. We recommend that you [remove or add intention tags](work-with-posts.md#add-or-remove-tags) from posts if they aren’t accurate to improve machine learning.
   
 <a name="add_custom"></a>   
 ## Add custom tags  
-[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you add one or more custom tags to posts. You can then filter posts to match specific custom tags. Custom tags are different from intention tags because they are not predefined tags and they are not automatically added once a post is acquired.
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add one or more custom tags to posts. You can then filter posts to match specific custom tags. Custom tags are different from intention tags because they are not predefined tags and they are not automatically added once a post is acquired.
   
 > [!NOTE]
 > Only Managers and Responders can create a new custom tag, but any user role can add or remove tags on posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
@@ -60,8 +60,8 @@ Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-net
   
 <a name="promote_customtags"></a>   
 ## Promote custom tags to auto tags  
-Enable adaptive learning on your custom tags by adding them to your list of auto tags. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] applies adaptive learning on auto tags to predict tags for new incoming posts.  The system learns from posts when the user makes edits and actions on tags.  Auto tags use text analytics and Azure Machine Learning techniques to learn patterns from posts that are manually tagged by the user, tags that are added by the system and confirmed by the user, or tags that are added by the system and removed by the user.  
-To improve your workflows and increase efficiency, you can leverage auto tagged posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] as [email alerts](email-alerts.md), [streams](engage-on-social-networks.md), [activity maps](activity-maps.md), and [automation rules](automation-rules.md).
+Enable adaptive learning on your custom tags by adding them to your list of auto tags. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] applies adaptive learning on auto tags to predict tags for new incoming posts.  The system learns from posts when the user makes edits and actions on tags.  Auto tags use text analytics and Azure Machine Learning techniques to learn patterns from posts that are manually tagged by the user, tags that are added by the system and confirmed by the user, or tags that are added by the system and removed by the user.  
+To improve your workflows and increase efficiency, you can leverage auto tagged posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] as [email alerts](email-alerts.md), [streams](engage-on-social-networks.md), [activity maps](activity-maps.md), and [automation rules](automation-rules.md).
   
 > [!NOTE]
 > Only Administrators can promote custom tags to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
@@ -124,7 +124,7 @@ A stars symbol indicates that this system-rated tag was manually confirmed and t
 
 ## Review the quality of a tagging model
 
-You can check the quality of your auto tags at any time to ensure a high quality model. It's important to understand that quality varies over time and you should turn auto tagging on only after your quality is acceptable. To achieve acceptable quality, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] recommends that you have at least 50 posts tagged first.     
+You can check the quality of your auto tags at any time to ensure a high quality model. It's important to understand that quality varies over time and you should turn auto tagging on only after your quality is acceptable. To achieve acceptable quality, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] recommends that you have at least 50 posts tagged first.     
 To check the quality of your auto tags, select the tag name in the list. In the **Tag Details** pane, you can see the quality, quality history, and tagged posts history of that auto tag.  
   
 **Quality**: The quality indicates whether the score of your selected tags exceeds or doesn't meet the minimum quality requirements.  

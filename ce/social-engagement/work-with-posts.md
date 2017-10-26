@@ -11,7 +11,7 @@ ms.author: mhart
 manager: sakudes
 ---
 # Work with posts
-Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
+Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
   
 <a name="sentiment"></a>   
 ## Change a post’s sentiment value in Analytics and Social Center  
@@ -61,7 +61,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
   
 <a name="assignTo"></a>   
 ## Assign a post to other users in Analytics and Social Center  
- Bring a post to a specific user’s attention and surface it in the user’s Inbox stream. Every user of your [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution can have posts assigned. Additionally, you can assign posts to a group. You must have at least a Responder interaction role to perform this task.  
+ Bring a post to a specific user’s attention and surface it in the user’s Inbox stream. Every user of your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution can have posts assigned. Additionally, you can assign posts to a group. You must have at least a Responder interaction role to perform this task.  
   
 1.  Click **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -103,7 +103,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
 > [!NOTE]
 >  -   You can’t undo this action, and Support can’t restore deleted posts.  
 > -   Deleting a post also deletes associated data like notes, sentiment edits, user assignments, labels, or information about linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records assigned to a post.  
-> -   Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] will not be disclosed.  
+> -   Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will not be disclosed.  
   
  You must have at least a Power Analyst Analytics role to perform this task.  
   
@@ -127,7 +127,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.
   
 <a name="link_post"></a>   
 ## Link a post from Social Engagement to Dynamics 365  
- [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
+ [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](../social-engagement/create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   
 ### Privacy notice  

@@ -12,20 +12,20 @@ ms.service: customer-insights
 ms.assetid: 0b4f076f-8053-4789-9483-f414321a3d86
 ---
 
-Add [!include[](../../includes/pn-dyn-365-online.md)] as a data source
+Add [!include[](../../includes/pn-crm-online.md)] as a data source
 ==========================
 [!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-If you need to import data from your [!include[](../../includes/pn-dyn-365-online.md)] instance into [!include[](../../includes/pn-customer-insights-full.md)], please have the [!include[](../../includes/pn-dynamics-crm.md)] Administrator credentials for your [!include[](../../includes/pn-dynamics-crm.md)] organization ready.
+If you need to import data from your [!include[](../../includes/pn-crm-online.md)] instance into [!include[](../../includes/pn-customer-insights-full.md)], please have the [!include[](../../includes/pn-dynamics-crm.md)] Administrator credentials for your [!include[](../../includes/pn-dynamics-crm.md)] organization ready.
 
 ![](../media/ConceptCRMConnector.png "About Dynamics 365 Connector") 
 
 >[!NOTE]
 >**TRY IT!** <br>
-If you have an instance of [!include[](../../includes/pn-dyn-365-online.md)] with the sample data installed, you can use it for your data connection. We'll use the sample data for data modeling and Customer 360. You'll need to have the Customer Service app installed. <br>
->If you don't have an instance of [!include[](../../includes/pn-dyn-365-online.md)], you can sign up for a 30-day trial and try out [!include[](../../includes/pn-customer-insights-short.md)] with our sample data. Go to [Microsoft Dynamics 365 for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=829708), and then select **Get Started**.
+If you have an instance of [!include[](../../includes/pn-crm-online.md)] with the sample data installed, you can use it for your data connection. We'll use the sample data for data modeling and Customer 360. You'll need to have the Customer Service app installed. <br>
+>If you don't have an instance of [!include[](../../includes/pn-crm-online.md)], you can sign up for a 30-day trial and try out [!include[](../../includes/pn-customer-insights-short.md)] with our sample data. Go to [Microsoft Dynamics 365 for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=829708), and then select **Get Started**.
 
-##To use [!include[](../../includes/pn-dyn-365-online.md)] as a data source by using the [!include[](../../includes/pn-azure-portal.md)]
+##To use [!include[](../../includes/pn-crm-online.md)] as a data source by using the [!include[](../../includes/pn-azure-portal.md)]
 
 1.  On your [!include[](../../includes/pn-customer-insights-short.md)] hub blade, select **Data Sources** .
 
@@ -43,7 +43,7 @@ If you have an instance of [!include[](../../includes/pn-dyn-365-online.md)] wit
 
     ![](../media/NewDataSourceName.png "New data source name") 
 
-6.  This opens a new window for you to sign in to your [!include[](../../includes/pn-dyn-365-online.md)] instance. You must use **Dynamics 365 Administrator credentials** for this sign-in.
+6.  This opens a new window for you to sign in to your [!include[](../../includes/pn-crm-online.md)] instance. You must use **Dynamics 365 Administrator credentials** for this sign-in.
 
 7.  If the sign-in is successful, the **New Data Source** blade will be updated with the logged-in ID and the [!include[](../../includes/pn-dynamics-crm.md)] organization name.
 
@@ -73,7 +73,7 @@ If you have an instance of [!include[](../../includes/pn-dyn-365-online.md)] wit
 
 11.  On the **Select Entities** blade, select **OK**.
 
-12.  On the **New Data Source** blade, select **Create** to provision [!include[](../../includes/pn-dyn-365-online.md)] as your data source.<br>
+12.  On the **New Data Source** blade, select **Create** to provision [!include[](../../includes/pn-crm-online.md)] as your data source.<br>
      It will take several minutes for the connection to be established. Refresh your browser to update the status.
 
      ![](../media/CreatingDataSource650.png "The data connection is being created") 

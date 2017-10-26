@@ -17,17 +17,17 @@ manager: sakudes
 ---
 # Connect Social Engagement to other domains
 
-Enable communication between [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] and other compatible applications (such as [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) by adding domains that are allowed to make requests for your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] data to a list. You can remove domains from the list to disallow communications.
+Enable communication between [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and other compatible applications (such as [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) by adding domains that are allowed to make requests for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data to a list. You can remove domains from the list to disallow communications.
 
-To add or remove domains, or to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to another application, you must be a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Administrator.
+To add or remove domains, or to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to another application, you must be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator.
 
 You can enter the following values in your list of allowed domains:  
   
--   Full domain names: This enables communication between the specified domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution, for example, `app.contoso.com`  
+-   Full domain names: This enables communication between the specified domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `app.contoso.com`  
   
--   Domain names with wildcards: This enables communication between all subdomains of the entered domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution, for example, `*.contoso.com`  
+-   Domain names with wildcards: This enables communication between all subdomains of the entered domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `*.contoso.com`  
   
--   Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution, for example, `http://hostname`  
+-   Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `http://hostname`  
 
 > [!IMPORTANT]
 > Make sure to remove trailing slashes from the domain name.
@@ -46,12 +46,12 @@ You can enter the following values in your list of allowed domains:
   
 ## Add the solution URL to the configuration page
 
-In the **Solution URL** pane of the **Allowed Domains** page, you’ll find the **URL** to connect to this instance of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+In the **Solution URL** pane of the **Allowed Domains** page, you’ll find the **URL** to connect to this instance of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
-Copy the solution URL and paste it into the configuration page of the application that you want to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+Copy the solution URL and paste it into the configuration page of the application that you want to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 > [!NOTE]
-> Make sure to add the domain or host name of the application you plan to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to your list of allowed domains.  
+> Make sure to add the domain or host name of the application you plan to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your list of allowed domains.  
 >   
 >  To make sure only the domains you own can make requests to your data, we recommend you add your organization’s domain to the list of allowed domains. When a specific domain is added to the list of allowed domains, *.dynamics.com is automatically removed from the allowed domains.  
   

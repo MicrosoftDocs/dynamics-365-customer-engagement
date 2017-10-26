@@ -102,7 +102,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
 <a name="BKMK_social"></a>   
 ## Direct sign in to Social Engagement  
- To directly sign in to the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] service, use:  
+ To directly sign in to the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] service, use:  
   
  https://listening.microsoft.com/app/\<appID>  
   

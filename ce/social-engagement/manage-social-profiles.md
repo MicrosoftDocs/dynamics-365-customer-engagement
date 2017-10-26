@@ -15,30 +15,30 @@ topic-status: Drafting
 ---
 
 # Manage social profiles
-*Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
+*Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
 By using these social profiles you can reply, comment, like a post, or share messages on social media. 
   
-Data acquisition and acquisition of private messages from your social profiles require access tokens, and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are posted on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
+Data acquisition and acquisition of private messages from your social profiles require access tokens, and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are posted on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
 
 > [!IMPORTANT]
->  -   All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an interaction role of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+>  -   All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an interaction role of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 >  -   A social profile can have multiple owners. Every owner has the same level of access privileges. 
 >  -   Make sure you have the correct credentials before you attempt to add a social profile or claim ownership for an existing profile.  
 >  -   You can own social profiles by adding them to the solution. You can share the profiles you own with other users, and stop sharing them or delete them when you don't need them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work), [Delete a social profile](../social-engagement/manage-social-profiles.md#deleteasocialprofile)  
->  -   You can delete both the profiles you own and any profile where you are one of its multiple owners. If a profile is shared with you, you can post on social media by using this profile, but you can’t remove it from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work)  
+>  -   You can delete both the profiles you own and any profile where you are one of its multiple owners. If a profile is shared with you, you can post on social media by using this profile, but you can’t remove it from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work)  
   
 ## Types of social profiles you can manage  
  To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. From here you can also check the health state of your social profiles and access tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](../social-engagement/social-profiles-health-state.md)  
   
-- **Owned profiles**: Profiles that you added to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. These can be personal profiles or profiles that you set up for your organization. You can share these profiles with other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] users, stop sharing these profiles at any time, remove your ownership from these profiles, and delete them when you don't need them. Social profiles can have multiple owners. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work), [Delete a social profile](../social-engagement/manage-social-profiles.md#deleteasocialprofile)  
+- **Owned profiles**: Profiles that you added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. These can be personal profiles or profiles that you set up for your organization. You can share these profiles with other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, stop sharing these profiles at any time, remove your ownership from these profiles, and delete them when you don't need them. Social profiles can have multiple owners. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work), [Delete a social profile](../social-engagement/manage-social-profiles.md#deleteasocialprofile)  
   
     > [!CAUTION]
     >  If you are an owner of a profile that has multiple owners, you can delete the profile. Always be careful not to delete any profiles that are in use.  
   
-- **Shared profiles**: Profiles that are owned by other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] users, but shared with you. You can publish on social media by using these profiles, but you won't be able to delete or share them with any other users. If you need to, you can claim ownership of these profiles and then share them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](../social-engagement/manage-social-profiles.md#claimownership)  
+- **Shared profiles**: Profiles that are owned by other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, but shared with you. You can publish on social media by using these profiles, but you won't be able to delete or share them with any other users. If you need to, you can claim ownership of these profiles and then share them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](../social-engagement/manage-social-profiles.md#claimownership)  
   
-- **Profiles without owners**: Profiles that were added to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] but currently don't have owners. You can’t use these profiles for posting on social media. At least one [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user needs to claim ownership of these profiles for them to be available. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](../social-engagement/manage-social-profiles.md#claimownership)  
+- **Profiles without owners**: Profiles that were added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] but currently don't have owners. You can’t use these profiles for posting on social media. At least one [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user needs to claim ownership of these profiles for them to be available. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](../social-engagement/manage-social-profiles.md#claimownership)  
   
 - **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
   
@@ -49,14 +49,14 @@ Data acquisition and acquisition of private messages from your social profiles r
 
 [//]: # (Some of the content in this introduction seems to apply to all social profiles, not just Facebook and Twitter. Perhaps it was written before the other types of profiles were added? It also seems a bit repetitive, except for the Tip. Also, the combination of H2s and H3s is awkward, and the headings aren't parallel. Suggest renaming this H2 to something more general like "Adding social profiles." Move the Tip after the second paragraph. Delete the third paragraph. Move the Note to the beginning of the section under the H3 "Add a Facebook page to your social profiles." Make all the subsequent procedures H3s.)  
 > [!TIP]
->  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] application. This ensures that the authentication dialog box from [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] loads properly. If it doesn't, you won’t be able to add or re-authorize social profiles.  
+>  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] application. This ensures that the authentication dialog box from [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] loads properly. If it doesn't, you won’t be able to add or re-authorize social profiles.  
   
- Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. By default, the process of adding a social profile doesn’t acquire any data. You must explicitly allow the data acquisition on the social profile to gather private messages or direct messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tokens for interactions with posts](../social-engagement/manage-access-tokens.md#interaction_token)  
+ Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. By default, the process of adding a social profile doesn’t acquire any data. You must explicitly allow the data acquisition on the social profile to gather private messages or direct messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tokens for interactions with posts](../social-engagement/manage-access-tokens.md#interaction_token)  
   
  You can add a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles, and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles are personal profiles for individual people. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages are represented and managed by people with [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles. People with [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles can manage multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  
   
 > [!NOTE]
->  When you plan to engage with a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], make sure that you have the appropriate permissions for that profile. For [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)  
+>  When you plan to engage with a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], make sure that you have the appropriate permissions for that profile. For [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)  
   
 [//]: # (Step 5 in this procedure is slightly different from the steps under "Add a LinkedIn Organization Page to your social profiles" and I wonder if they should be more alike. By "you can select from the list of Facebook pages...", are you setting up one more step? When you say "after you add the Facebook page...," do you mean that the user needs to select **Save** like they do in the LinkedIn Org Page procedure?)
 [//]: # (It's an additional step compared to LinkedIn. For FB, admin authenticates account, then selects pages to add for social profile. For LI, user authenticaes a user account exclusively.)
@@ -69,7 +69,7 @@ Data acquisition and acquisition of private messages from your social profiles r
   
 3.  In the list, click **Facebook page**, and then click **Add**.  
   
-4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
     > [!NOTE]
     >  You must be an administrator for this [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to authenticate it.  
@@ -86,7 +86,7 @@ You can allow Power Analysts and Administrators to create rules for direct messa
   
 3.  In the list, click **Facebook user**, and then click **Add**.  
   
-4.  In the authentication dialog box that appears, enter the username and password for the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] user profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box that appears, enter the username and password for the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] user profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 5.  After the profile is successfully authenticated, you'll find it on the **Social Profiles** page under **Owned profiles**.  
   
@@ -98,7 +98,7 @@ You can allow Power Analysts and Administrators to create rules for direct messa
   
 3.  In the list, click **Twitter Account**, and then click **Add**.  
   
-4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 5.  After the profile is successfully authenticated, you’ll find it on the **Social Profiles** page under **Owned profiles**.  
   
@@ -112,7 +112,7 @@ You can allow Power Analysts and Administrators to create rules for the direct m
   
 3.  In the list, click  **Instagram Account,** and then click **Add.**  
   
-4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 5.  After the profile is successfully authenticated, you'll find it on the **Social Profiles** page under **Owned profiles**.  
   
@@ -125,14 +125,14 @@ You can allow Power Analysts and Administrators to create rules for the direct m
   
 3.  In the list, click **LinkedIn Account**, and then click **Add**.  
   
-4.  In the authentication dialog box, enter the username and password for the LinkedIn profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box, enter the username and password for the LinkedIn profile that you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 5.  After the profile is successfully authenticated, you’ll find it on the **Social Profiles** page under **Owned profiles**.  
 
 <a name="linkedin-page-profile"></a> 
 ## Add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page to your social profiles
 
-Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data and reply or like on behalf of a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you need to add the organization page to your social profiles. To authenticate the organization page as a social profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) of the page on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].
+Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data and reply or like on behalf of a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to add the organization page to your social profiles. To authenticate the organization page as a social profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) of the page on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].
 
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -140,7 +140,7 @@ Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
   
 3.  In the list, click **LinkedIn Page**, and then click **Add**.  
   
-4.  In the authentication dialog box, authorize [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box, authorize [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
     This will list all organization pages you administer.
   
 5.  Select the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from the list.
@@ -148,7 +148,7 @@ Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 6.  Select **Save** to create the social profile.
 
 You can now reply and like on behalf of the organization page, but you can’t write new posts.  
-Optionally, you can [share this social profile](#shareasocialprofile) with other users in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+Optionally, you can [share this social profile](#shareasocialprofile) with other users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 
 ## Add a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] account to your social profiles
@@ -159,7 +159,7 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
   
 3.  In the list, select **[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] Account,** and then click **Add.**
   
-4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+4.  In the authentication dialog box, enter the username and password for the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile you want to enable in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 5.  Upon successful authentication, you'll find the profile on the  **Social Profiles** page, under **Owned profiles**.  
   
@@ -182,12 +182,12 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
   
 4.  Start typing the name of the user you want to share the profile with, and then select it from the list.  
   
-     To share the profile with all users in your organization who have access to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], select the **Shared with all users** check box.  
+     To share the profile with all users in your organization who have access to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], select the **Shared with all users** check box.  
   
     > [!IMPORTANT]
     >  By sharing a social profile, you let other users post on behalf of the social profile to social networks. Choose your sharing options wisely to avoid unwanted posts on social networks.  
     >   
-    >  When you select **Shared with all users**, all users with a **Responder** or **Manager** interaction role will be able to use the social profile for publishing actions (such as replying, commenting, sharing, retweeting, and liking) within [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+    >  When you select **Shared with all users**, all users with a **Responder** or **Manager** interaction role will be able to use the social profile for publishing actions (such as replying, commenting, sharing, retweeting, and liking) within [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 5.  Confirm your selection.  
   
@@ -205,7 +205,7 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
 <a name="deleteasocialprofile"></a>   
 ## Delete a social profile  
   
-You can delete a social profile that you own. You can also delete a social profile that has multiple owners. Always be careful not to delete any profiles that are in use by other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] users.  
+You can delete a social profile that you own. You can also delete a social profile that has multiple owners. Always be careful not to delete any profiles that are in use by other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users.  
   
 1.  Go to **Settings** > **Social Profiles**.  
   
