@@ -8,7 +8,7 @@ manager: sakudes
 applies_to: 
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
-ms.date: 10/20/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 ms.assetid: b51c695a-9228-4929-b638-b9a7c22d6a68
