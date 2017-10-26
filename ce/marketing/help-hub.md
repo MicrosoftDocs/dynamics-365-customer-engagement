@@ -1,17 +1,19 @@
 ---
 title: "Pointers for Marketing | Microsoft Docs"
 description: "Find your starting point for help content."
+keywords: ""
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: crm-online
 ms.topic: article
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
-author: "kamaybac"
-ms.manager: sakudes
+author: kamaybac
 ms.author: kamaybac
+topic-status: Drafting
 ---
+
 # Marketing Help & Training
 
 <table>
