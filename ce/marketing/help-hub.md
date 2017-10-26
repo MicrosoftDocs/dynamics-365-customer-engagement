@@ -62,7 +62,7 @@ ms.author: kamaybac
 </td>
 <td>
 
-<h2> Product updates </h2>
+<h2> User Guide </h2>
 <li></li>
 <li></li>
 <li></li>
