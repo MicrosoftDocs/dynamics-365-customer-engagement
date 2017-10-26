@@ -8,7 +8,7 @@ manager:
 applies_to: 
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
-ms.date: 10/20/2017
+ms.date: 12/15/2017
 ms.service: 
 ms.topic: 
 ms.assetid: bde3efc9-6ef1-4705-a925-34670c823f40
