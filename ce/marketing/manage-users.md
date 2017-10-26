@@ -2,18 +2,20 @@
 title: "Manage users in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Manage user accounts and assign security roles in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; users; roles; permissions"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 095057aa-5a0f-4e9e-a434-c7ff7f4fad21
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Manage users
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -114,7 +116,7 @@ The lead-management solution adds the following security roles:
 
 The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen package adds the following security roles:
 
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] LeadGen S2SInbound
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound
 - [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator
 - [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson
 
