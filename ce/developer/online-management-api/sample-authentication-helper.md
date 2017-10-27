@@ -1,7 +1,7 @@
 ---
 title: "Sample: Authenticate helper for the Online Management API for Dynamics 365 Customer Enagament| MicrosoftDocs"
 description: "Helper code to authenticate to Online Management API."
-ms.date: 08/10/2017
+ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
