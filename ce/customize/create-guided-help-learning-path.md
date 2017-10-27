@@ -646,6 +646,8 @@ When you run into an issue while working on [!INCLUDE[pn_crm_shortest](../includ
 2.	Select **Report an issue**.
 
 3.	Enter the necessary information in the ticket creation form.
+ 
+ 
     ![Support ticket form](../customize/media/Inapp_createSupportTicket.png "Support ticket form")
 
     |Field Name|Description|
