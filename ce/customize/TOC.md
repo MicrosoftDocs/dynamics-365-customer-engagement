@@ -50,6 +50,7 @@
 ### [Access a view definition](accessing-view-definitions.md)
 ### [Specify a default view](specify-default-views.md)
 ### [Create or edit a view](create-and-edit-views.md)
+### [Create and edit public or system views by using the app designer](create-edit-views-app-designer.md)
 ### [Choose and configure columns](choose-and-configure-columns.md)
 ### [Edit filter criteria and change sort order](edit-filter-criteria.md)
 ### [Sort records](configure-sorting.md)
