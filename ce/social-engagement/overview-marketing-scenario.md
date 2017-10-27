@@ -14,23 +14,23 @@ ms.manager: sakudes
 
 To successfully manage the reputation of your brand, it's essential to monitor the conversations about it on social media. Find out how the public perception of your brand is evolving and how you can actively engage with your customers.
 
-This overview provides a step-by-step description of how you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to monitor your brand reputation, review the performance of social media campaigns, engage with prospects, and find new leads for your sales team.
+This overview provides a step-by-step description of how you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to monitor your brand reputation, review the performance of social media campaigns, engage with prospects, and find new leads for your sales team.
 
 > [!VIDEO https://www.youtube.com/embed/Pq33FohGXEE]
 
 ## Prerequisites
 
-- You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
+- You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license assigned.
 
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
+- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
 
 - [Search topics are configured](../social-engagement/set-up-searches.md) and data acquisition is up and running. To listen to conversations about your brand, it's important that you create a search topic that gathers relevant posts.
 
-- You have the required [user roles and permissions](../social-engagement/user-roles.md) assigned in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+- You have the required [user roles and permissions](../social-engagement/user-roles.md) assigned in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Brand reputation
 
-To find out how a brand is perceived on social media, after you [set up a search topic](../social-engagement/set-up-searches.md) for it, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] provides [sentiment analysis](../social-engagement/analytics-sentiment.md) capabilities in the original language by using natural language processing and machine learning capabilities.
+To find out how a brand is perceived on social media, after you [set up a search topic](../social-engagement/set-up-searches.md) for it, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provides [sentiment analysis](../social-engagement/analytics-sentiment.md) capabilities in the original language by using natural language processing and machine learning capabilities.
 
 1. Get an overview of the posts that mention your brand on the [Overview page in Analytics](../social-engagement/analytics-overview.md).
 
@@ -40,7 +40,7 @@ To find out how a brand is perceived on social media, after you [set up a search
 
 ## Campaign performance
 
-Campaigns on social media often revolve around a specific term, for example a hashtag. If you set up a search topic for this term, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] helps you understand at a glance how your campaign is performing.
+Campaigns on social media often revolve around a specific term, for example a hashtag. If you set up a search topic for this term, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] helps you understand at a glance how your campaign is performing.
 
 1. Get started analyzing the conversations about your campaign on the [Conversation page in Analytics](../social-engagement/analytics-conversations.md).
 
@@ -52,7 +52,7 @@ Campaigns on social media often revolve around a specific term, for example a ha
 
 ## Find leads for the sales team
 
-Identify potential leads on social media and let your sales team know about them. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+Identify potential leads on social media and let your sales team know about them. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you create new leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 1. Use [intention analysis](../social-engagement/tags.md#how-intention-analysis-works) to look for posts that express a purchase intent.
 
@@ -62,7 +62,7 @@ Identify potential leads on social media and let your sales team know about them
 
 ## Share your content on social media
 
-Have you launched or refreshed a product or service? Let your marketing team share it with the world. Publish posts and engage with your communities on social media with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+Have you launched or refreshed a product or service? Let your marketing team share it with the world. Publish posts and engage with your communities on social media with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 1. [Add social profiles](../social-engagement/manage-social-profiles.md) and [share](../social-engagement/manage-social-profiles.md#let-other-users-work-with-your-social-profile) them with your team.
 

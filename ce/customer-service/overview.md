@@ -33,8 +33,6 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 - Manage performance and productivity through reports and dashboards.
 - Create and schedule services.
 
-![customer-service-dashboard](media/customer-service-dashboard.png "customer service dashboard")
-
  
 ##   Available anywhere, on any device
 There are two flavors of [!include[](.../includes/pn-ms-dyn-365-for-customer-service.md)]:

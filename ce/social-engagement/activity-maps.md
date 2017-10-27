@@ -17,7 +17,7 @@ Using Activity maps, you can view real-time posts by geographical location on an
 >  You can only visualize those posts on an activity map that have location data for posts or authors. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](../social-engagement/analytics-location.md), [Analyze the sources for the posts](../social-engagement/analytics-sources.md)  
   
 ## Role privileges  
-Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], regardless of user role and license type. Activity maps are saved and displayed separately for every user. You can only view the activity maps you create.  
+Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], regardless of user role and license type. Activity maps are saved and displayed separately for every user. You can only view the activity maps you create.  
   
 <a name="createactivitymap"></a>   
 ## Create an activity map  
@@ -67,7 +67,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
 5.  Click **Insights** on the left of the map to view the phrases for the trending conversations.  
   
 > [!NOTE]
->  Posts deleted or edited from any other area of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will have applicable changes reflected in the map you are viewing in real time. For example, if you are viewing a sentiment map for a location that has a post with neutral sentiment value, and you or any other [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user edits this post’s sentiment as positive from another application area, say Analytics. Then, the new positive sentiment value will be reflected for this post on the map. You will no longer see the sentiment value as neutral for this post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)  
+>  Posts deleted or edited from any other area of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will have applicable changes reflected in the map you are viewing in real time. For example, if you are viewing a sentiment map for a location that has a post with neutral sentiment value, and you or any other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user edits this post’s sentiment as positive from another application area, say Analytics. Then, the new positive sentiment value will be reflected for this post on the map. You will no longer see the sentiment value as neutral for this post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)  
   
 > [!TIP]
 >  Use the buttons at the bottom left of the map to zoom in or zoom out of the map.  
@@ -141,7 +141,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
 6.  When you’re done, click the area filter button again to disable it, or click ![Area filter disable](../social-engagement/media/disable-area-filter-icon.png "Area filter disable") at the top of the selector.  
   
 ## View an activity map’s data in other areas of Social Engagement  
- View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
+ View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](../social-engagement/more-options-with-data-set.md)  
   

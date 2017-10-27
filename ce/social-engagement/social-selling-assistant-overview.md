@@ -16,7 +16,7 @@ manager: sakudes
 
  Buying decisions are often influenced by information found on the Internet and increasingly on social media. Salespeople can sell more by leveraging social media. To do this, they must be thought leaders and increase their social presence by participating in discussions around their products or services. [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] for Sales - Social Selling Assistant empowers salespeople to sell more by gaining trust, growing their network and getting connected on social media.
 
- A few minutes per day is all you need to keep the conversations going and grow your network. Wherever you work, regardless of the device, you’ll always have the relevant information right at your fingertips. Harnessing the power of the machine learning, the Social Selling Assistant provides smart and personalized recommendations for shareable content based on social data gathered with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].
+ A few minutes per day is all you need to keep the conversations going and grow your network. Wherever you work, regardless of the device, you’ll always have the relevant information right at your fingertips. Harnessing the power of the machine learning, the Social Selling Assistant provides smart and personalized recommendations for shareable content based on social data gathered with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].
 
 > [!VIDEO https://www.youtube.com/embed/B0tcV0piZbI]
 
@@ -28,13 +28,13 @@ manager: sakudes
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Install the Social Selling Assistant](https://technet.microsoft.com/library/mt793319\(CRM.8\).aspx)  
   
-2.  Add your organization's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] URL to the list of **Allowed Domains** in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+2.  Add your organization's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] URL to the list of **Allowed Domains** in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](../social-engagement/connect-other-domains.md)  
   
 3.  In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Sales** > **Dashboards** and select the **Social Selling Assistant dashboard**.  
   
-4. **Configure** [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to identify content owned by your business. Additionally, you can share social profiles with other users and configure tags that promote a certain post to users of the Social Selling Assistant.  
+4. **Configure** [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to identify content owned by your business. Additionally, you can share social profiles with other users and configure tags that promote a certain post to users of the Social Selling Assistant.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)  
   

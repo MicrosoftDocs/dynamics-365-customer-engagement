@@ -38,7 +38,7 @@
   - name: Company News Timeline
     tocHref: /dynamics365/customer-engagement/company-news-timeline/
     topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets
-  - name: "Live Assist, powered by Café X"
+  - name: "Live Assist, powered by Cafï¿½ X"
     tocHref: /dynamics365/customer-engagement/live-assist/
     topicHref: /dynamics365/customer-engagement/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x
   - name: Versium Predict
@@ -62,6 +62,9 @@
   - name: Sales Business Edition
     tocHref: /dynamics365/customer-engagement/sales-business
     topicHref: /dynamics365/customer-engagement/sales-business/introduction-dynamics-365-for-sales-business-edition
+  - name: Marketing
+    tocHref: /dynamics365/customer-engagement/marketing
+    topicHref: /dynamics365/customer-engagement/marketing/get-started-section  
   - name: Developer Documentation
     tocHref: /dynamics365/customer-engagement/developer/
     topicHref: /dynamics365/customer-engagement/developer/index

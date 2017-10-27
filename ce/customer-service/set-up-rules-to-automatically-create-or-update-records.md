@@ -288,7 +288,7 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
         > - Option Set and Two option data types are supported in conditions of type string. You’ll have to type out the option set value in the conditions.  
         > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
   
-    c. **Application Source**. Type the name of the application that this property is related to, for example, [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+    c. **Application Source**. Type the name of the application that this property is related to, for example, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
     d. **Description**. Type details to further explain what the property is for.  
   

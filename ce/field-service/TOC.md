@@ -2,6 +2,7 @@
 # [What's new](whats-new-field-service-project-service.md)
 # Administrator Guide
 ## [Install](install-field-service.md)
+## [Experiment with demo data](use-demo-data.md)
 ## [View user accounts and security roles](view-user-accounts-security-roles.md)
 ## [Configure default settings](configure-default-settings.md)
 ## [Turn on auto geocoding](turn-on-auto-geocoding.md)
@@ -9,7 +10,6 @@
 ## [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 ## [Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
 ## [Mobile app installation](install-the-mobile-app.md)
-## [Use Glympse to track location of technician](glympse.md)
 ## Resource setup
 ### [Bookable resources](set-up-bookable-resources.md)
 ### [Bookable resource categories](set-up-bookable-resource-categories.md)
@@ -57,7 +57,7 @@
 ### [Return product to vendor](create-return-vendor.md)
 ### [View product inventory](view-product-inventory.md)
 ## [Mobile App User Guide](field-service-mobile-app-user-guide.md)
-## [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
+# [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
 
 
 

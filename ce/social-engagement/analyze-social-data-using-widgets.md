@@ -18,14 +18,14 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
   
  The **Analytics** area helps you to analyze social data and displays widgets based on the posts that result from your search topics. Widgets then display the analysis in easy-to-understand formats such as bar charts, simple curves, or percentages. You can further filter the displayed data to perform more detailed and focused analysis. More information: [Get relevant data using filters](../social-engagement/use-filters.md)  
   
- [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] widgets provide you with drill-down functionality to narrow your data set. Click a data point to get a more detailed view of the data.  
+ [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] widgets provide you with drill-down functionality to narrow your data set. Click a data point to get a more detailed view of the data.  
   
 > [!VIDEO https://www.youtube.com/embed/pcxVyYz-zps]
   
 > [!NOTE]
 >  -   If no posts are available for your organization, widgets display no metrics and an error message.  
-> - [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] supports two types of widgets - **Static** and **Dynamic**.  
-> - [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] supports the following analytics pages: **Overview**, **Conversations**, **Sentiment**, **Locations**, and **Sources**.  
+> - [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] supports two types of widgets - **Static** and **Dynamic**.  
+> - [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] supports the following analytics pages: **Overview**, **Conversations**, **Sentiment**, **Locations**, and **Sources**.  
   
  **Use Analytics widgets to**:  
   
@@ -44,7 +44,7 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
  Widgets take the information from your data set that you define by selecting a search topic or category by using the filters. These filters include the locations, keywords, sentiment values, and so on that you select based on your business requirements. More information: [Get relevant data using filters](../social-engagement/use-filters.md).  
   
 > [!NOTE]
->  Every user of your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution can create data sets. However, only Administrators and Power Analysts can create new search topics.  
+>  Every user of your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can create data sets. However, only Administrators and Power Analysts can create new search topics.  
   
 <a name="trend"></a>   
 ## View the trend values  

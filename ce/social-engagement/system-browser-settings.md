@@ -16,14 +16,14 @@ ms.author: mhart
 manager: sakudes
 ---
 # Optimize browser settings for Social Engagement
-In our everyday lives, we use our favorite browsers to work with web applications and surf the Internet.  Some browser settings can impact the user experience for a few features in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. This topic discusses recommended browser settings for a smooth experience.  
+In our everyday lives, we use our favorite browsers to work with web applications and surf the Internet.  Some browser settings can impact the user experience for a few features in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. This topic discusses recommended browser settings for a smooth experience.  
   
 <a name="managePopUpBlockers"></a>   
 ## Manage pop-up blockers  
  To link posts to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], add social profiles, engage on social posts, and create certain types of search rules, your browser needs to open new windows automatically. This may trigger your browser’s pop-up blocker.  
   
 > [!TIP]
->  We recommend that you add the URL of your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution to the list of trusted sites and allow pop-ups.  
+>  We recommend that you add the URL of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to the list of trusted sites and allow pop-ups.  
   
  Many browsers allow you to choose how new tabs or pages open by default when a pop-up is encountered. Some of the features may not work if your browser is set to open pop-ups in a new tab.  
   

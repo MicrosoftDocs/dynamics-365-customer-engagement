@@ -45,7 +45,7 @@ To change your personalization settings,  click **Personalize** (![Personalize t
 
 There are four types of recommendations in the Social Selling Assistant. Posts in the assistant’s feed can match more than one type. By default, posts are ordered as below.
 
-- **Promoted**:  Users in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] with appropriate employee roles (i.e. a community manager) can promote posts in the Social Selling assistant by tagging them in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Think of it as a carefully selected Editor’s pick.  If a promoted post matches both Share Content and Insights, it will be shown for Share Content. Otherwise, it will be shown for Insights.
+- **Promoted**:  Users in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] with appropriate employee roles (i.e. a community manager) can promote posts in the Social Selling assistant by tagging them in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Think of it as a carefully selected Editor’s pick.  If a promoted post matches both Share Content and Insights, it will be shown for Share Content. Otherwise, it will be shown for Insights.
 
 - **Owned**: Posts from profiles that your organization owns. Keep an eye for newsworthy announcements and help spreading the word. This recommendation type is currently not available for Insights.
 

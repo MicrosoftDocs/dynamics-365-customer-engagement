@@ -18,9 +18,6 @@ manager: "brycho"
 ---
 # System Settings dialog box - General tab 
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
-
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the settings on this page to change general system-level settings like preferences for saving, decimal and currency precision, and other default settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
@@ -94,8 +91,8 @@ Use the settings on this page to change general system-level settings like prefe
 |Enable session timeout due to inactivity|Choose **Yes** to enable inactivity timeout.|
 |Duration of inactivity before timeout|Enter the number of minutes of inactivity after which a session timeouts.|
 |How long before the session expires do you want to show an inactivity warning?|Enter the number of minutes prior to session expiration for an inactivity warning to be displayed.|
-|**Set Azure Content Delivery Network operations**||
-|Load default static content from Content Delivery Network|<!-- need text from Matt-->|
+|**Set Azure Content Delivery Network options**||
+|Load default static content from Content Delivery Network|Default is **Yes** and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will load out-of-the-box static content from the [!INCLUDE [pn-azure-content-delivery-network](../includes/pn-azure-content-delivery-network.md)] (CDN) service. For firewall restrictions and IP whitelisting related issues, system administrators can select **No** to disable the Azure [!INCLUDE [pn-azure-content-delivery-network](../includes/pn-azure-content-delivery-network.md)] feature.|
 
 <!-- |Enable in-app support|Uday to provide text. Not live yet.| -->
   
