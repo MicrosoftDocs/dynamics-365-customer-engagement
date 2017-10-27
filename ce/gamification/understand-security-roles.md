@@ -2,7 +2,7 @@
 title: "Security Roles in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the security roles used in Microsoft Dynamics 365 – Gamification."
 keywords: "security roles, game manager, commissioner, permissions"
-ms.date: 10/12/2017
+ms.date: 10/27/2017
 ms.service: gamification
 ms.topic: article
 applies_to:
@@ -18,13 +18,11 @@ topic-status: Drafting
 
 Administrators assign licenses to users to grant them permissions for certain applications. [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] users can't be enabled for [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] unless they have a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] license assigned. The first user to have a Game Manager security role assigned by a system admin in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] is required to set up the connection between [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
 
-[comment]: <> (Check if first Game manager activate flow is still accurate.)
-
   
 ## Available security roles
 
 [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] provides three security roles: 
-- **Commissioner**: Administrators of the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] solution and web portal. The user successfully activating Gamification becomes the first Commissioner in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Additionally, all users in[!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] with a **Global Admin** or **Dynamics 365 Service Administrator** become Commissioners in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].
+- **Commissioner**: Administrators of the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] solution and web portal. The user successfully activating Gamification becomes the first Commissioner in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Additionally, all users in [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] with a **Global Admin** or **Dynamics 365 Service Administrator** become Commissioners in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] after they sign in to [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)].
 - **Game Manager**: Game managers create and run games in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. To become a game manager, a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] admin has to assign the **Game Manager** security role to these users in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
 - **User**: The default security role for every user of the connected Dynamics 365 (online) organization. Game managers and commissioners can add them to games as players or fans.
 
