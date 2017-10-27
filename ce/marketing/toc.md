@@ -7,7 +7,7 @@
 ## [Export data](export-data-Word-Excel.md)
 ## [Get ready for email marketing](get-ready-email-marketing.md)
 
-# [Create, target, and deliver online marketing content](markerting-execution-section.md)
+# [Create, target, and deliver online marketing content](marketing-execution-section.md)
 ## [Design your digital content](design-digital-content.md)
 ## [Content blocks reference](content-blocks-reference.md)
 ## [Prepare marketing email messages](prepare-marketing-emails.md)
