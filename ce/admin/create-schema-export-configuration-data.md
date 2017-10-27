@@ -22,8 +22,12 @@ manager: "brycho"
 The Configuration Migration tool lets you build a schema to describe your export data. It also enables you to check for any missing dependencies and relationships in the entities or fields to be exported to avoid an inconsistent data set.  
   
 <a name="Prereq"></a>   
+
 ## Before you begin  
-[Download the Dynamics 365 SDK package](https://www.microsoft.com/download/details.aspx?id=50032). Extract the contents of the package on your computer. The Configuration Migration tool is available under the SDK\Tools\ConfgurationMigration folder in the extracted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package. You do not need to install the Configuration Migration tool. Run the tool by double-clicking the **DataMigrationUtility.exe** file in the SDK\Tools\ConfgurationMigration folder.  
+[Download the Dynamics 365 SDK package](https://www.microsoft.com/download/details.aspx?id=50032). Extract the contents of the package on your computer. The Configuration Migration tool is available under the SDK\Tools\ConfgurationMigration folder in the extracted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package. You do not need to install the Configuration Migration tool. Run the tool by double-clicking the **DataMigrationUtility.exe** file in the SDK\Tools\ConfgurationMigration folder.
+
+> [!IMPORTANT]
+> The Configuration Migration tool will be available as a NuGet package. Check this page for availability: [Download tools from NuGet](../developer/download-tools-nuget.md).
   
 <a name="CreateandExport"></a>   
 ## Create a schema and export configuration data  
