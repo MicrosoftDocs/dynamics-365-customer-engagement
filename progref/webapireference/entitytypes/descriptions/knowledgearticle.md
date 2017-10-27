@@ -1,1 +1,0 @@
-Organizational knowledge for internal and external use.

@@ -1,1 +1,0 @@
-Resource group or team whose members can be scheduled for a service.

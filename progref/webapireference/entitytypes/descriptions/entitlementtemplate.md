@@ -1,1 +1,0 @@
-Contains predefined customer support terms that can be used to created entitlements for customers.

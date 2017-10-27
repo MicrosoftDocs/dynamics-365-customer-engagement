@@ -1,1 +1,0 @@
-Announcement associated with an organization.

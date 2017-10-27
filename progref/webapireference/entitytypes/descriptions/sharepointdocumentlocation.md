@@ -1,1 +1,0 @@
-Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.

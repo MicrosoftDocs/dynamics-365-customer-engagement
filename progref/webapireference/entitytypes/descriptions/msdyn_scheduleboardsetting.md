@@ -1,1 +1,0 @@
-To store settings of SB by user & tabs

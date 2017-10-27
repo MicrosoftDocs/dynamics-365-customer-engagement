@@ -1,1 +1,0 @@
-List of days expressed as dates or day of week for a specific invoice schedule template.

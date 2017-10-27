@@ -77,7 +77,7 @@ Customer Engagement Plan Enterprise Edition is a user subscription that includes
   
 - [!INCLUDE[pn_flow](../../includes/pn-flow.md)]  
   
-- [!INCLUDE[pn_netbreeze_long](../../includes/pn-netbreeze-long.md)]  
+- [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)]  
   
 **Add-ons and Integration**  
   

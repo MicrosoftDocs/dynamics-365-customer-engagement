@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Understand the public perception using sentiment analysis
-View and understand the sentiments in the social chat related to the posts that are found by your search topics. Using the **Sentiments** page, [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] calculates the sentiment value of social posts with natural-language processing and machine learning techniques. From the details displayed on this page, you can understand the positive, negative, or neutral sentiments and also the volume and the sources they come from.  
+View and understand the sentiments in the social chat related to the posts that are found by your search topics. Using the **Sentiments** page, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] calculates the sentiment value of social posts with natural-language processing and machine learning techniques. From the details displayed on this page, you can understand the positive, negative, or neutral sentiments and also the volume and the sources they come from.  
   
 Navigate to this page from **Analytics > Sentiments**.  
   
@@ -39,7 +39,7 @@ You can calculate the sentiment index with the following formula:
   
 `Sentiment index = (Positive posts – Negative posts)/(Positive posts + Negative posts) * 10`  
   
-You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](../social-engagement/analyze-social-data-using-widgets.md#trend)  
+You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](../social-engagement/analyze-social-data-using-widgets.md#trend)  
   
 ## Static widgets on the Sentiments page  
   

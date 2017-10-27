@@ -21,6 +21,10 @@ manager: "sakudes"
 
 Easily set up and manage your customer service tasks from one place by using the Service Management page. Set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule. 
   
+> [!NOTE]
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
+
+
 Use the following links to learn about Service Management tasks:  
   
 ## Case settings  

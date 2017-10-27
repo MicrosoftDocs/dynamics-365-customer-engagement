@@ -1,1 +1,0 @@
-Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.

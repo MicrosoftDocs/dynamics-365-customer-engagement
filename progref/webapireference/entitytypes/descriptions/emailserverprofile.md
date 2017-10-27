@@ -1,1 +1,0 @@
-Holds the Email Server Profiles of an organization

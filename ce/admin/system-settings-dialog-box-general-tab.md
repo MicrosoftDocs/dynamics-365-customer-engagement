@@ -18,9 +18,6 @@ manager: "brycho"
 ---
 # System Settings dialog box - General tab 
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
-
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the settings on this page to change general system-level settings like preferences for saving, decimal and currency precision, and other default settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
@@ -75,7 +72,6 @@ Use the settings on this page to change general system-level settings like prefe
 |Append parameters to URL|If you click **Yes** to append parameters to the URL, you can make your Help content more dynamic. For example, you can access parameters for User Language Code, Entity Name, Entry Point, and Form ID. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize the Help experience](https://technet.microsoft.com/library/dn832079.aspx)|  
 |Enable Learning Path|Changes access to Learning Path for an entire organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [On/off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md).|  
 |Enable Learning Path Authoring|Defaults to No. Set to Yes if you want  enable users to author Learning Path content.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create your own guided help (Learning Path) for your customers](../customize/create-guided-help-learning-path.md)| 
-<!-- |Enable in-app support|Uday to provide text| -->
 |**Disable Social Engagement**||  
 |Prevent feature from receiving social data in Dynamics 365|Defaults  to No. If you don’t want to receive social data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], select **Yes**. If you disable social engagement, your organization will not be able to receive social data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Users can continue to work with existing social data, however.|  
 |**Set whether users see welcome screen**||  
@@ -86,7 +82,7 @@ Use the settings on this page to change general system-level settings like prefe
 |Show default app on landing page and in app switch|Default is Yes. Change to No to prevent the default app from appearing on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] home page and in the app selector menu.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [For admins and end users: Introducing the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md)| 
 |Default app name|Enter the label to use for the default app. This appears on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] home page.   The default label is Dynamics 365 - custom.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [For admins and end users: Introducing the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md)|  
 |**Set the default card state for Interactive Dashboards**||
-|Display cards in expanded state|<!--need text from Anjoli-->|
+|Display cards in expanded state|Click **Yes** to see the detailed card form in a dashboard. If set to **No** (default), only the header and minimal details are displayed in the card form.|
 |**Set session timeout**|More information: [User session timeout](user-session-management.md#user-session-timeout)|
 |Session timeout settings|Choose **Set custom** to specify values different from default values.|
 |Enter maximum session length|Enter the number of minutes for a session to remain open.|
@@ -95,10 +91,10 @@ Use the settings on this page to change general system-level settings like prefe
 |Enable session timeout due to inactivity|Choose **Yes** to enable inactivity timeout.|
 |Duration of inactivity before timeout|Enter the number of minutes of inactivity after which a session timeouts.|
 |How long before the session expires do you want to show an inactivity warning?|Enter the number of minutes prior to session expiration for an inactivity warning to be displayed.|
-|**Set Azure Content Delivery Network operations**||
-|Load default static content from Content Delivery Network|<!-- need text from Matt-->|
+|**Set Azure Content Delivery Network options**||
+|Load default static content from Content Delivery Network|Default is **Yes** and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will load out-of-the-box static content from the [!INCLUDE [pn-azure-content-delivery-network](../includes/pn-azure-content-delivery-network.md)] (CDN) service. For firewall restrictions and IP whitelisting related issues, system administrators can select **No** to disable the Azure [!INCLUDE [pn-azure-content-delivery-network](../includes/pn-azure-content-delivery-network.md)] feature.|
 
-
+<!-- |Enable in-app support|Uday to provide text. Not live yet.| -->
   
 ### See also  
  [Manage auto-save](../customize/manage-auto-save.md)   

@@ -15,12 +15,12 @@ topic-status: Drafting
 ---
 
 # Manage global settings
-Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution, letting your users start efficiently with your organizational requirements.  
+Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, letting your users start efficiently with your organizational requirements.  
   
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
   
- If you aren’t an administrator, you can only override the default values for how [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] is displayed for you in **Settings** > **Personal Settings** > **Your Preferences**. More information: [Edit your user preferences](../social-engagement/user-preferences.md#EditPrefs)  
+ If you aren’t an administrator, you can only override the default values for how [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] is displayed for you in **Settings** > **Personal Settings** > **Your Preferences**. More information: [Edit your user preferences](../social-engagement/user-preferences.md#EditPrefs)  
   
 <a name="Edit_solution_name"></a>   
 ## Edit the solution name  
@@ -133,7 +133,7 @@ Define system settings that apply to the entire organization, like solution name
 4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
   
 ## Link to a custom privacy statement  
- As an administrator, you can decide whether to show or hide the link to a privacy statement for your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution.  
+ As an administrator, you can decide whether to show or hide the link to a privacy statement for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.  
   
 1.  Go to **Settings** > **Global Settings**.  
   
@@ -157,7 +157,7 @@ Define system settings that apply to the entire organization, like solution name
  Define labels to classify posts. Labels are a quick and easy way to assign a status to a post,  and let you add visual markers for a post.  
   
 > [!NOTE]
->  Users must have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Enterprise User License and at least a Responder Engagement Role to assign labels to posts.  
+>  Users must have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Enterprise User License and at least a Responder Engagement Role to assign labels to posts.  
   
 1.  Go to **Settings** > **Global Settings**.  
   
@@ -175,7 +175,7 @@ Define system settings that apply to the entire organization, like solution name
  To remove a status label, click **Delete** ![Delete button](../social-engagement/media/delete-icon.png "Delete button") next to the label description, and then confirm your deletion.  
   
 ## Create and manage location groups  
- Add location groups as quick filters to narrow the data set for locations that are most relevant in your context. Location groups are subsets of available countries/regions for location analysis in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. You can create custom location groups or use the predefined ones.  
+ Add location groups as quick filters to narrow the data set for locations that are most relevant in your context. Location groups are subsets of available countries/regions for location analysis in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You can create custom location groups or use the predefined ones.  
   
 ### Find available location groups  
   

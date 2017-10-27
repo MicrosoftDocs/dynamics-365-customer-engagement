@@ -1,1 +1,0 @@
-No of times an article is viewed per day

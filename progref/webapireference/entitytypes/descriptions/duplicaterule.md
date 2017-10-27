@@ -1,1 +1,0 @@
-Rule used to identify potential duplicates.

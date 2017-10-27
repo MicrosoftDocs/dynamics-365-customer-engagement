@@ -1,1 +1,0 @@
-This solution enables Activity Feeds including Walls for your Microsoft Dynamics 365 organization.

@@ -1,1 +1,0 @@
-In this entity you record all the products proposed and used for a work order

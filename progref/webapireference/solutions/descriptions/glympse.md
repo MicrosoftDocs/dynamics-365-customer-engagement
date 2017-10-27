@@ -1,1 +1,0 @@
-Glympse integration enables real-time tracking of resources managed through the Microsoft Dynamics 365 for Field Service solution.

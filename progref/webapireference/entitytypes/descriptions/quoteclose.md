@@ -1,1 +1,0 @@
-Activity generated when a quote is closed.

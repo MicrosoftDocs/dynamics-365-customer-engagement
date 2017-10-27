@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Check the health state of your social profiles
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] provides health state checks for tokens, social profiles, acquisitions, and interactions so you can make sure your accounts are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will notify you through email and in the application when your critical acquisition tokens are about to expire. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides health state checks for tokens, social profiles, acquisitions, and interactions so you can make sure your accounts are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will notify you through email and in the application when your critical acquisition tokens are about to expire. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
   
  socialengagement@microsoft.com will send email notifications for the following scenarios:  
   

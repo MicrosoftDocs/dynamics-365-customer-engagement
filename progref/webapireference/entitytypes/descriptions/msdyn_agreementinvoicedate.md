@@ -1,1 +1,0 @@
-Specify the invoice dates for the agreement.

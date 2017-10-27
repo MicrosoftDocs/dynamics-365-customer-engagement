@@ -1,1 +1,0 @@
-Represents a model to evaluate skills or other related entities.

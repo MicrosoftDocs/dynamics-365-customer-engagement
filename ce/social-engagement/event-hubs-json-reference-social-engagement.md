@@ -16,18 +16,18 @@ ms.author: mhart
 manager: sakudes
 ---
 # JSON reference for events from Social Engagement
-This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 Latest version of the payload: Version 2.1  
 
 > [!NOTE]
 > New objects and properties can get added to the payload without increasing the version number.
   
-For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md).  
+For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md).  
   
 <a name="overview"></a>   
 ## Overview  
-When [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] streams events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], a JSON payload is generated. A single social post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is a single event in the event hub. The JSON payload contains information about a single social post that matches the defined filters and action on the automation rules that generated the payload. Additional properties that you define in your automation rules are part of the [metadata object](#metadataProperties). The main content is part of the [post object](#documentProperties).  
+When [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] streams events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], a JSON payload is generated. A single social post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is a single event in the event hub. The JSON payload contains information about a single social post that matches the defined filters and action on the automation rules that generated the payload. Additional properties that you define in your automation rules are part of the [metadata object](#metadataProperties). The main content is part of the [post object](#documentProperties).  
   
 <a name="metadataProperties"></a>   
 ### metadata object elements  
@@ -87,13 +87,13 @@ Use this table to get a quick link to post object properties.
   
 |JSON element|Description|  
 |------------------|-----------------|  
-|[post.id](#document.id)|The unique post ID in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.|  
+|[post.id](#document.id)|The unique post ID in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
 |[post.contentType](#document.contentType)|The type of content in a post.|  
 |[post.postType](#document.postType)|The type of the post in its conversational context.|  
 |[post.uri](#document.uri)|The post's URI—a  backlink to the post's original URI.|  
 |[post.title](#document.title)|The title as delivered from a post's meta information.|  
-|[post.acquisitionDate](#document.acquisitionDate)|Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).|  
-|[post.modificationDate](#document.modificationDate)|Timestamp when  the post was last updated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).|  
+|[post.acquisitionDate](#document.acquisitionDate)|Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] (in ISO 8601 format).|  
+|[post.modificationDate](#document.modificationDate)|Timestamp when  the post was last updated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] (in ISO 8601 format).|  
 |[post.publicationDate](#document.publicationDate)|Timestamp when the post was published on the source (in ISO 8601 format).|  
 |[post.profile](#document.profile)|JSON object describing the social profile of the post's author.|  
 |[post.source](#document.source)|JSON object describing on which source a post was found.|  
@@ -103,7 +103,7 @@ Use this table to get a quick link to post object properties.
 |[post.score](#document.score)|JSON object describing the source specific score of the post or score of the author at the time the post was published.|  
 |[post.referencedPost](#document.referencedPost)|Information about the post that this post is a reply to, or a share of.|  
 |[post.sentiment](#document.sentiment)|JSON object describing the sentiment of a post.|  
-|[post.tags](#document.tags)|Array of JSON objects representing tags on a post that were added through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].|  
+|[post.tags](#document.tags)|Array of JSON objects representing tags on a post that were added through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].|  
 |[post.externalId](#document.externalId)|ID of the post on the source.|  
 |[post.postLocation](#document.postLocation)|JSON object describing the location on which a post was published.|  
 |[post.fullContentLength](#document.fullContentLenght)|Length in characters of a post's text content.|  
@@ -122,7 +122,7 @@ Back to [top](#overview)
   
 <a name="sampleTwitterReply"></a>   
 ##### Sample Twitter reply  
-This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -199,7 +199,7 @@ Back to [top](#overview)
   
 <a name="sampleTwitterRetweet"></a>   
 ##### Sample Twitter retweet  
-This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] retweet acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] retweet acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -278,7 +278,7 @@ Back to [top](#overview)
   
 <a name="sampleFacebookReply"></a>   
 ##### Sample Facebook reply  
-This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -337,7 +337,7 @@ Back to [top](#overview)
   
 <a name="sampleVideoPost"></a>   
 ##### Sample video post  
-This is a sample post payload for a video post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a video post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -395,7 +395,7 @@ Back to [top](#overview)
   
 <a name="sampleBlogPost"></a>   
 ##### Sample blog post  
-This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -447,7 +447,7 @@ Back to [top](#overview)
   
 <a name="sampleForumPost"></a>   
 ##### Sample forum post  
-This is a sample post payload for a forum post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. We've made up some values to anonymize the sample.  
+This is a sample post payload for a forum post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
 ```  
   "post": {  
@@ -589,7 +589,7 @@ Read up on the fields currently supported in the post JSON payload.
   
 <a name="document.id"></a>   
 ### post.id  
-The unique post ID in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.  
+The unique post ID in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
   
  Property Value Type: number (integer)  
   
@@ -675,7 +675,7 @@ The title as delivered from a post's meta information.
   
 <a name="document.acquisitionDate"></a>   
 ### post.acquisitionDate  
-Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).  
+Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] (in ISO 8601 format).  
   
  Property Value Type: date-time  
   
@@ -687,7 +687,7 @@ Timestamp when the post was acquired in [!INCLUDE[pn_netbreeze_short](../include
   
 <a name="document.modificationDate"></a>   
 ### post.modificationDate  
-Timestamp when  the post was last updated in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] (in ISO 8601 format).  
+Timestamp when  the post was last updated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] (in ISO 8601 format).  
   
  Property Value Type: date-time  
   
@@ -713,19 +713,19 @@ Timestamp when the post was published on the source (in ISO 8601 format).
 ### post.profile  
 JSON object describing the social profile of the post's author.  
   
-In the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user interface, this is referred to as an "author". More information: [Find out what people are talking about](../social-engagement/analytics-conversations.md), [See author details](../social-engagement/author-details.md)  
+In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface, this is referred to as an "author". More information: [Find out what people are talking about](../social-engagement/analytics-conversations.md), [See author details](../social-engagement/author-details.md)  
   
  Property Value Type: object  
   
 |JSON element|Description|  
 |------------------|-----------------|  
-|[post.profile.id](#document.profile.id)|Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.|  
+|[post.profile.id](#document.profile.id)|Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
 |[post.profile.profileIcon](#document.profile.profileIcon)|URI to public profile picture.|  
 |[post.profile.profileLocation](#document.profile.profileLocation)|JSON object describing the author's location information as specified by the author.|  
 |[post.profile.externalHandle](#document.profile.externalHandle)|Alias or handle of a profile.|  
 |[post.profile.displayName](#document.profile.displayName)|Display name of a profile as provided on the source.|  
 |[post.profile.externalId](#document.profile.externalId)|ID of the profile on the source.|  
-|[post.profile.name](#document.profile.name)|Name for the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] user interface.|  
+|[post.profile.name](#document.profile.name)|Name for the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface.|  
   
  Parent: *post*  
   
@@ -756,7 +756,7 @@ Back to [top](#overview)
   
 <a name="document.profile.id"></a>   
 #### post.profile.id  
-Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution database.  
+Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
   
  Property Value Type: string  
   
@@ -914,7 +914,7 @@ ID of the profile on the source.
   
 <a name="document.profile.name"></a>   
 #### post.profile.name  
-Representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for the name for the profile.  
+Representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for the name for the profile.  
   
  Property Value Type: string  
   
@@ -1205,7 +1205,7 @@ Sentiment value as a decimal value between -1 and 1.
   
 <a name="document.tags"></a>   
 ### post.tags  
-Array of JSON objects representing tags on a post that were added through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+Array of JSON objects representing tags on a post that were added through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  Property Value Type: object  
   
@@ -1257,11 +1257,11 @@ Describes how  the tag was assigned to a post.
   
  Property Values:  
   
--   system: [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] added the tag to the post.  
+-   system: [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] added the tag to the post.  
   
 -   user: A user manually  added the tag to the post.  
   
--   confirmed: A user confirmed a tag that was added by [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+-   confirmed: A user confirmed a tag that was added by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  Parent: *post.tags*  
   
@@ -1474,7 +1474,7 @@ Back to [top](#overview)
   
 <a name="document.origin.id"></a>   
 #### post.origin.id  
-ID of the internal representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] for the origin of a post.  
+ID of the internal representation in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for the origin of a post.  
   
  Property Value Type: string  
   
@@ -1525,7 +1525,7 @@ Back to [top](#overview)
   
 <a name="document.matchingSeachTopics.name"></a>   
 #### post.matchingSearchTopics.name  
-Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
   
  Property Value Type: string  
   

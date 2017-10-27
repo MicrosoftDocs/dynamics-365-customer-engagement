@@ -1,1 +1,0 @@
-Profile which defines access level for secured attributes

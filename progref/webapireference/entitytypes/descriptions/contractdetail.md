@@ -1,1 +1,0 @@
-Line item in a contract that specifies the type of service a customer is entitled to.

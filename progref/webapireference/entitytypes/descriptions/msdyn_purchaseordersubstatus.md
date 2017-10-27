@@ -1,1 +1,0 @@
-Specify custom PO sub-statuses, which can be used to specify the current PO status more precisely.

@@ -1,1 +1,0 @@
-A component of a CRM solution.

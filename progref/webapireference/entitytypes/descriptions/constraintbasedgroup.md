@@ -1,1 +1,0 @@
-Group or collection of people, equipment, and/or facilities that can be scheduled.

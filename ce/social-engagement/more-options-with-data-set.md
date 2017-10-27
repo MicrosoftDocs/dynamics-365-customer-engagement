@@ -15,11 +15,11 @@ topic-status: Drafting
 ---
 
 # Explore more options with your data set
-Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], data sets are often key to an accurate and detailed analysis. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set a baseline for your analysis with a data set](../social-engagement/use-filters.md#data_set)  
+Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], data sets are often key to an accurate and detailed analysis. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set a baseline for your analysis with a data set](../social-engagement/use-filters.md#data_set)  
   
- In some areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you can copy a given data set over to a different area to save time. For example, you can have a stream in **Social Center** that shows an overwhelming amount of posts. You decide to analyze those posts in the **Analytics** area to drill down into the information using the filtering functionality. You find a set of important posts and choose to get informed of any similar new posts. By passing your data set over to the **Message Center**, you can create an alert with a single click.  
+ In some areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can copy a given data set over to a different area to save time. For example, you can have a stream in **Social Center** that shows an overwhelming amount of posts. You decide to analyze those posts in the **Analytics** area to drill down into the information using the filtering functionality. You find a set of important posts and choose to get informed of any similar new posts. By passing your data set over to the **Message Center**, you can create an alert with a single click.  
   
- The following table shows the areas in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] between which you can pass a data set.  
+ The following table shows the areas in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] between which you can pass a data set.  
   
 |Area|Create stream|View/Open in Analytics|Create alert|Create activity map|Create automation rule|  
 |----------|-------------------|-----------------------------|------------------|-------------------------|----------------------------|  

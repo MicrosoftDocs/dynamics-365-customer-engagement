@@ -1,1 +1,0 @@
-Association of a property definition with another entity in the system.

@@ -1,1 +1,0 @@
-Query function that evaluates whether the value equals tomorrow’s date.  

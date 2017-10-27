@@ -14,17 +14,17 @@ ms.manager: sakudes
 
 Buying decisions are often influenced by information found on the Internet and on social media. Salespeople can leverage social media for their sales processes, become thought leaders, and increase their social presence by participating in conversations about their products or services.
 
-This overview suggests ways you and your team can use [!INCLUDE[Social Engagement](../includes/pn-netbreeze-short.md)] to grow your network, find new leads, and boost sales. Stay on top of the conversation, and bring opportunities over to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further nurturing.
+This overview suggests ways you and your team can use [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to grow your network, find new leads, and boost sales. Stay on top of the conversation, and bring opportunities over to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further nurturing.
 
 ## Prerequisites
 
-- You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
+- You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license assigned.
 
-- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
+- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is [set up](../social-engagement/administer-microsoft-social-engagement.md).
 
 - [Search topics are configured](../social-engagement/set-up-searches.md) and data acquisition is up and running.
 
-- You have the required [user roles and permissions](../social-engagement/user-roles.md) assigned in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+- You have the required [user roles and permissions](../social-engagement/user-roles.md) assigned in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Social selling: grow your network and influence
 
@@ -34,7 +34,7 @@ Learn how to install, configure, and personalize the Social Selling Assistant to
 
 1. [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md).
 
-2. [Add your social profiles](../social-engagement/manage-social-profiles.md) to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+2. [Add your social profiles](../social-engagement/manage-social-profiles.md) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 3. [Personalize the Social Selling Assistant](../social-engagement/personalize-social-selling-assistant.md).
 
@@ -42,7 +42,7 @@ Learn how to install, configure, and personalize the Social Selling Assistant to
 
 ## Sales efficiency: create leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from social posts
 
-Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can create a lead and assign it to the right salesperson in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they can follow up with potential customers efficiently.
+Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example, you can create a lead and assign it to the right salesperson in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they can follow up with potential customers efficiently.
 
 1.  Get an [overview](../social-engagement/link-posts-to-dynamics-365.md) of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 
@@ -50,11 +50,11 @@ Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn
 
 3.  [Set up record details](../social-engagement/create-dynamics-365-record-from-social-post.md) for leads.
 
-4.  [Create a lead from a post](../social-engagement/create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+4.  [Create a lead from a post](../social-engagement/create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Sales automation: leverage intelligence to automatically find leads
 
-Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] work for you. Learn how [automated intention analysis can help triage](../social-engagement/tags.md#how-intention-analysis-works) incoming posts.
+Let [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] work for you. Learn how [automated intention analysis can help triage](../social-engagement/tags.md#how-intention-analysis-works) incoming posts.
 
 You can create new leads from purchase intentions automatically by using automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts by using automation rules](../social-engagement/automation-rules.md)
 
@@ -64,7 +64,7 @@ If you're gathering posts that mention your main competitor, you can set up a tr
 
 ## Social analytics: add widgets with social insights to entity forms in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]
 
-[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] charts and visuals to dashboards or to account, contact, or competitor forms.
+[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] charts and visuals to dashboards or to account, contact, or competitor forms.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)
 

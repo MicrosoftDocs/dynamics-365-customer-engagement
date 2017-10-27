@@ -1,1 +1,0 @@
-Allows to specify for which territory a resource could provide services for

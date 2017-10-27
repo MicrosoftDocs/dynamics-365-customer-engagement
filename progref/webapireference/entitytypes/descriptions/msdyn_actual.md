@@ -1,1 +1,0 @@
-Approved business transaction, for example, time or expense.

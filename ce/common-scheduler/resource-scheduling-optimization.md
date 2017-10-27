@@ -2,6 +2,10 @@
 title: "Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
+searchScope:
+  - Customer Service
+  - Field Service
+  - Project Service
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

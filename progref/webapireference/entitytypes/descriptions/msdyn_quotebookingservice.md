@@ -1,1 +1,0 @@
-Stores details about the services associated with Quote Booking Setup 

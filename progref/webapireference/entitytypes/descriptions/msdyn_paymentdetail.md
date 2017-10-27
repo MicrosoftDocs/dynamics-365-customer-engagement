@@ -1,1 +1,0 @@
-Specify payment details.

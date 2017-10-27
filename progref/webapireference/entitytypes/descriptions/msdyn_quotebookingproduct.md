@@ -1,1 +1,0 @@
-Provides ability to store information about the products that are associated with Quote Booking Setup

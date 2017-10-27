@@ -20,7 +20,7 @@ View the analysis for geographical location information contained in posts or in
 Go to this page from **Analytics > Location.**  
   
 ## Types of location data  
-In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], two types of location data are available:  
+In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], two types of location data are available:  
   
 - **Author location:** Location data that is shared by a user through a profile (for example, on a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile page). Consider this an approximate value because the geographical coordinates are calculated by the system. If no post location is provided by the user, the author location is taken into account, where available.  
   

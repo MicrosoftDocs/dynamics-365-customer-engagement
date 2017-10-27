@@ -1,1 +1,0 @@
-Entity used to model relationship between resources and project teams.

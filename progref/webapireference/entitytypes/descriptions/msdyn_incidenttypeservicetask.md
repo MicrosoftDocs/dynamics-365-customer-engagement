@@ -1,1 +1,0 @@
-In this entity you define all the default service tasks that should be added to the work order as soon as this incident type is added to the work order

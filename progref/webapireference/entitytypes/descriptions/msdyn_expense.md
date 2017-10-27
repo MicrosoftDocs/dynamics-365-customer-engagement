@@ -1,1 +1,0 @@
-Main container that holds expense information.

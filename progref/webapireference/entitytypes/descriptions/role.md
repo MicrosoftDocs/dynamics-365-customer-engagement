@@ -1,1 +1,0 @@
-Grouping of security privileges. Users are assigned roles that authorize their access to the Microsoft CRM system.

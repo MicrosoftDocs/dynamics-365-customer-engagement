@@ -1,1 +1,0 @@
-Log used to track bulk operation execution, successes, and failures.

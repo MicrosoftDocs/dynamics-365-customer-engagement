@@ -112,6 +112,9 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
   
      https://*OrganizationName*.api.crm.dynamics.com/api/data/*v8.1*  
   
+> [!IMPORTANT]
+> Currently, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service isn’t compatible with the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 9.0 OData endpoint. When you try to use the version 9.0 OData endpoint with the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service the error message “The feed's metadata document appears to be invalid” is displayed. To work around this incompatibility, use the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 8.2 OData endpoint.For more information about the different endpoint versions, see [Web API URL and versions]( https://msdn.microsoft.com/library/gg334391.aspx#bkmk_url_and_versions).
+   
     > [!TIP]
     >  You can find your OData endpoint URL in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web client. Go to **Settings** > **Customizations** > **Developer Resources** and locate the URL under **Instance Web API**.  
   

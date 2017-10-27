@@ -1,1 +1,0 @@
-Information on entity availability to mobile devices in offline mode for a mobile offline profile item.

@@ -1,1 +1,0 @@
-Specifies the type of entity relationship. 

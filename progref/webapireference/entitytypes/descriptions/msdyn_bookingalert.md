@@ -1,1 +1,0 @@
-Alerts that notify schedule board users of booking issues or information.

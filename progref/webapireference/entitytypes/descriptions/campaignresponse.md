@@ -1,1 +1,0 @@
-Response from an existing or a potential new customer for a campaign.
