@@ -1,7 +1,7 @@
 ---
 title: "Workflow processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -41,7 +41,7 @@ Workflows automate business processes without a user interface. People usually u
   
  You can create or modify workflows using the web application. 
  
-<!--Developers can create workflows using information in the [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md) and solutions you purchase may include workflows that you may modify.-->  
+Developers can create workflows using information in the [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md) and solutions you purchase may include workflows that you may modify.  
   
 <a name="BKMK_WorkflowProperties"></a>   
 ## Workflow properties  

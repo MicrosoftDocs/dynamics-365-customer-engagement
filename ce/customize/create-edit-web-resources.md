@@ -1,7 +1,7 @@
 ---
 title: "Create or edit web resources (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -51,11 +51,11 @@ Web resources are typically used by developers to extend the web application usi
 |StyleSheet (XSL)|.xsl, .xslt|  
 |Image (ICO)|.ico|  
   
- Silverlight web resources are supported, but to support multiple browsers, HTML web resources are the recommended type of web resources to use if you are designing a user interface.  
+ [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources are supported in the web client, but to support multiple browsers, HTML web resources are the recommended type of web resources to use if you are designing a user interface. Read more about [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] in [Important changes coming in Dynamics 365 Customer Engagement](https://go.microsoft.com/fwlink/?linkid=860784). 
   
 <a name="BKMK_CreateAndEditWebResources"></a>   
 ## Create and edit web resources  
-  
+
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
 2.  Choose **Customize the System**.  
@@ -80,6 +80,9 @@ Web resources are typically used by developers to extend the web application usi
     |**URL**|After you save the web resource, the URL to the web resource will be displayed here. Click this link to view the web resource in your browser.|  
   
 6.  After you have added your changes, choose **Save** and then **Publish**.  
+
+> [!NOTE]
+>  Publishing customizations can interfere with normal system operations. We recommend you publish customizations when it’s least disruptive to users.
   
 <a name="BKMK_UsingTextEditor"></a>   
 ### Use the text editor appropriately  
@@ -88,7 +91,93 @@ Web resources are typically used by developers to extend the web application usi
  The text editor uses a control that modifies the HTML source in a way that allows it to be edited. These changes can make the page behave differently in the browser and cause more sophisticated code to stop working. Opening an HTML web resource with the text editor and saving it without making any changes can break some HTML web resources.  
   
  We recommend that you use an external editor to edit text files and then save them locally before uploading them with the **Upload File** button. This way you can preserve a copy of the web resource if you need to return to an earlier version. You can use a simple editor like [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)], but a text editor with more advanced capabilities is highly recommended. [Visual Studio Express editions](http://www.visualstudio.com/products/visual-studio-express-vs.aspx) are free and provide powerful capabilities for editing the files used by text-based web resources.  
+
+<a name="BKMK_CreateAndEditFormWebResources"></a>   
+## Create and edit a web resource on a form
+You can add or edit web resources on a form to make it more appealing or useful to users. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]
+
+> [!NOTE]
+>  You can’t include a web resource in a form header or footer.  
+
+1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]
+
+2. Choose **Customize the System**.
+
+3. Under **Components**, expand **Entities**, and then expand the entity you want to work with.
+
+4. Choose **Forms**, in the list locate a form of type Main, and then double-click or tap the entry to open and edit the form.
+
+5. To add a web resource, click the tab (for example, **General** or **Notes**) you would like to insert it on, and then on the **Insert** tab, click **Web Resource**.<br />
+    \-OR-<br />
+    To edit a Web resource, select a form tab and the web resource that you want to edit, and then on the **Home** tab, click **Change Properties**.
+
+6. In the **Add Web Resource** or **Web Resource Properties** dialog box, on the **General** tab, enter the appropriate information in the required fields.
+    In particular, note the following:
+    - In the **Web resource** box, select the image, HTML, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource that you want to use.
+        > [!NOTE] 
+        > After you specify a web resource, the **Web Resource Properties** section appears at the bottom of this tab, providing options that vary based on the type of web resource you are adding. These options include specifying custom parameters, passing a record object-type code as a parameter, or specifying alternative text that describes the resource or, for images, that makes the image more accessible to all users. Here are a few important properties. For a complete listing, see: [Web resource properties](../customize/web-resource-properties-legacy.md). 
+            - In the **Name** box, enter a unique name for the field. The name can contain only alphanumeric characters and underscores.
+    - The **Label** field is automatically populated with a variation of the name you specify, but ensure that the proposed label meets your needs or update it accordingly.
+
+7. On the **Formatting** tab, the options that display vary based on the type of web resource inserted. These options include specifying the number of columns and rows display, whether a border displays, and the scrolling behavior.
+
+8. If the **Dependencies** tab displays in the **Add Web Resource** or **Web Resource Properties** dialog box, from the **Available fields** list, select the fields that are required by the Web resource, click the **Add Selected Records** button to move the selected fields to the Dependent fields list, and then click **OK** to close the dialog box.
+
+9. When you finish editing the form, on the **Home** tab, click **Save and Close** to close the form. To preview how the main form will appear and how events will function:
+    - On the **Home** tab, click **Preview**, and then select **Create Form**, **Update Form**, or **Read-Only Form**.
+    - To close the Preview form, on the **File** menu, click **Close**.
+
+10. When your customizations are complete, publish them:
+    - To publish customizations for only the component that you are currently editing, in the navigation pane, select the entity you have been working on, and then click **Publish**.
+    - To publish customizations for all unpublished components at one time, in the navigation pane, click **Entities**, and then on the **Actions** toolbar, click **Publish All Customizations**.
+
+<a name="BKMK_CreateAndEditImageWebResource"></a>    
+## Add or edit an image web resource
+Web resources are virtual files in multiple formats, such as html files, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], and [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] applications, that are stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database and can be retrieved by using a unique URL address.  
+  
+1.  [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+  
+    #### Check your security role  
+  
+    -   [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+  
+    -   [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+  
+2.  [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+  
+3.  Choose **Customize the System**.  
+  
+4.  To create a new web resource, choose **Components** > **Web Resources**, and then on the Actions toolbar, choose **New**.  
+  
+5.  Type or modify information in the text boxes.  
+  
+    -   The name entered in the **Name** text box, plus the file extension will become its file name.  
+  
+    -   The name entered in the **Display Name** text box will be displayed in the **Display Name**.  
+  
+    -   In the **Type** drop-down box, select the file type you want.  
+  
+6.  Choose **Browse** to select and upload the file from your local machine.  
+  
+    -   To preview an uploaded image web resource: Choose **Web Resource**>**Preview**.  
+  
+    -   To edit a text web resource: Choose **Text Editor**.  
+  
+    -   To preview a text web resource: Choose **Web Resource**> **Preview**.  
+  
+7.  When you’re ready to save your data, choose **Save and Close**.  
+  
+8.  Publish your customization.  
+  
+    -   For only the edited component: Choose **Save** > **Publish** on the **Home**.  
+  
+    -   For all unpublished components at one time, choose **Publish All Customizations**.  
+  
+> [!NOTE]
+> [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]
   
 ### See also  
- [Get started with customization](../customize/getting-started-customization.md)   
- <!--[Web resources for Customer Engagement](../developer/web-resources.md)-->
+[Web resource properties](../customize/web-resource-properties-legacy.md) <br /> 
+[Create and design forms](create-design-forms.md) <br / >
+[Get started with customization](../customize/getting-started-customization.md) <br /> 
+[Web resources for Customer Engagement](../developer/web-resources.md)

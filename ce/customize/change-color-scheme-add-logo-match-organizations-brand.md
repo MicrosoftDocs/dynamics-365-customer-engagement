@@ -1,7 +1,7 @@
 ---
 title: "Change the color scheme or add a logo to match your organization’s brand (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -133,6 +133,5 @@ The following screenshot shows the default theme setup.
 ### See also  
          
  [Video: Themes in Dynamics 365 Customer Engagement](http://go.microsoft.com/fwlink/p/?LinkId=529568)
- <!--
  [Query and edit an organization theme](../developer/customize-dev/query-and-edit-an-organization-theme.md)
--->
+

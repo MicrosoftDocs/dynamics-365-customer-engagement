@@ -1,7 +1,7 @@
 ---
 title: "Actions overview, Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -33,7 +33,7 @@ Actions are a type of process in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynam
   
 -   From a custom client application that uses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services.  
   
-<!--Developers can learn more in this [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] topic: [Create your own actions](../developer/create-own-actions.md).-->  
+Developers can learn more in this [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] topic: [Create your own actions](../developer/create-own-actions.md). 
   
 <a name="BKMK_WhyActions"></a>   
 ## Why use actions?  
@@ -52,8 +52,8 @@ Actions are a type of process in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynam
  Unlike workflow processes or plug-ins, an action doesn’t have to be associated with a specific entity. You can define ”global” Actions that can be called on their own.  
   
 ### See also  
- <!-- [Create your own actions](../developer/create-own-actions.md)  --> 
+[Create your own actions](../developer/create-own-actions.md)
  [Configure actions](../customize/configure-actions.md)   
- [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)   
+ [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md) <br />
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Business process flows overview](../customize/business-process-flows-overview.md)   
