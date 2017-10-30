@@ -1,7 +1,7 @@
 ---
 title: "Make grids (lists) editable by using the Editable Grid custom control (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -100,7 +100,7 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
     > [!TIP]
     >  This is mostly useful for subgrids on forms.  
   
-8.  If you want to add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] events, click the **Events** tab, and then select the appropriate entities, fields, and events. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md).-->  
+8.  If you want to add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] events, click the **Events** tab, and then select the appropriate entities, fields, and events. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md).  
   
  ![Add events in Editable Grid control](../customize/media/add-events-in-editable-grid-control.png "Add events in Editable Grid control")  
   
@@ -132,4 +132,4 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
  [Create and edit views](../customize/create-edit-views.md)   
  [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)        
  [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)
- <!--[Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md)-->
+ [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md)
