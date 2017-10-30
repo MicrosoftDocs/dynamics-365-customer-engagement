@@ -2,15 +2,16 @@
 title: "Create your own guided help (Learning Path) (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: ""
 keywords: ""
-author: udag
-ms.author: udag
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 10/25/2017
 ms.service: dynamics-365
 ms.topic: article
-applies_to: Dynamics 365 (online)
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 8ee3c432-5f76-4086-b9cc-6cd467ae056b
+author: udag
+ms.author: udag
+manager: sakudes
+topic-status: Drafting
 ---
 
 # Create your own guided help (Learning Path) for your customers
@@ -570,6 +571,9 @@ More information about using YouTube: [YouTube Help Center](https://go.microsoft
   
 8.  Publish the localized control to the publishing environments you want to make the localized control available to your users. The localized content will automatically be displayed to users who have selected the same language for their user interface.  
 
+<!--
+From Uday: After a discussion with Ramalingam (Ramalingam.Krishnan@microsoft.com), we understood that this feature is not going in October release. so, marking this as comment.
+
 ## Report and manage issues by using in-app support
 
 The in-app support feature provides a platform for users and in-app support administrators to report and manage issues in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] by creating support tickets through the Learning Path sidebar, without having to leave the page where they are working.  
@@ -729,6 +733,8 @@ You can filter tickets to view which ones are assigned to you, resolved, or acti
 2.	Select a view from the list.
 
     ![Filter option](../customize/media/FilterDropDown_SupportPortal.png "Filter option")
+ 
+ -->
 
 ## [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data center mapping to [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions
 The following table lists the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] datacenter regions and corresponding [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] regions from where Learning Path will be available.
