@@ -1,7 +1,7 @@
 ---
 title: "Onboard your organization and users to Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -53,7 +53,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
  When you convert from a trial, you keep any customizations you made during the trial period.  
   
-<!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Introduction to solutions](../developer/introduction-solutions.md)  -->
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Introduction to solutions](../developer/introduction-solutions.md)
   
 <a name="BuyDirect"></a>   
 ### Buy direct  
@@ -141,7 +141,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 -   [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)  
   
-<!-- For more advanced scenarios, consider the following development tools: [Solution tools for team development](../developer/solution-tools-team-development.md).  -->
+For more advanced scenarios, consider the following development tools: [Solution tools for team development](../developer/solution-tools-team-development.md).
   
 <a name="Storage"></a>   
 
@@ -363,7 +363,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Dynamics 365 Developer Center](http://go.microsoft.com/fwlink/p/?LinkId=526629)  
   
-<!-- -   [What’s new for developers](../developer/whats-new-developers.md)  -->
+-   [What’s new for developers](../developer/whats-new-developers.md)
   
 -   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
   
@@ -384,7 +384,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)   
   
--   [Dynamics 365 for Project Service Automation - User's Guide] (../project-service/admin-guide.md)
+-   [Dynamics 365 for Project Service Automation - User's Guide](../project-service/admin-guide.md)
   
 -   [Dynamics 365 for Finance and Operations, Enterprise edition](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
   
