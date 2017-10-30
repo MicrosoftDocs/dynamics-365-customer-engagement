@@ -1,7 +1,7 @@
 ---
 title: "Delete bulk records for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -53,7 +53,7 @@ With bulk deletion you can perform the following operations:
   
 3.  Choose **New** to run the **Bulk Deletion Wizard** to create a bulk deletion job with the records you want to delete.  
   
-<!-- For information about how to implement bulk delete in code, see [Delete data in bulk](../developer/delete-data-bulk.md).  -->
+For information about how to implement bulk delete in code, see [Delete data in bulk](../developer/delete-data-bulk.md). 
   
 ### See also  
  [Manage your data](../admin/manage-your-data.md)   
