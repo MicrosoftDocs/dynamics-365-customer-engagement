@@ -20,7 +20,7 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # Customize Dynamics 365 Customer Engagement applications
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement client applications include the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../../includes/pn-microsoft-dynamics-crm-mobile.md)], and [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)]. Each of these clients reference a common set of data that controls visual elements of the clients. This *application metadata* is usually edited using customization tools in the application or third-party tools. Other clients can also reference this application metadata if they want to leverage configuration options defined for specific organizations.  
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement client applications include the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)]. Each of these clients reference a common set of data that controls visual elements of the clients. This *application metadata* is usually edited using customization tools in the application or third-party tools. Other clients can also reference this application metadata if they want to leverage configuration options defined for specific organizations.  
   
  For an in-depth guide to customization by using the tools available in the web application see [Getting started with customization](../../customize/getting-started-customization.md). The topics in this section describe the structure of the data edited by those tools or third-party tools.  
   
