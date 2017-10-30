@@ -2,7 +2,7 @@
 title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Social Engagement"
-ms.date: 10/17/2017
+ms.date: 10/30/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -36,21 +36,12 @@ You can edit or remove filters from your analysis at any time, and the charts, l
  Select between system-rated and manually edited sentiment values. Distinguish whether a sentiment value was calculated by the sentiment algorithm or edited by a user. Confirming or changing a sentiment value for a post is considered to be a manual edit. You can limit your data set to see only posts that have the selected sentiment status.  
   
 ## Reach  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] takes an author’s [!INCLUDE[tn_klout](../includes/tn-klout.md)] score into account to determine the potential size of an author's influence, based on data that the [!INCLUDE[tn_klout](../includes/tn-klout.md)] service gathers from various social media networks. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] maps the author's [!INCLUDE[tn_klout](../includes/tn-klout.md)] score to reach values that allow segmentation of authors' reaches for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] takes an author’s network size into account to determine the potential size of an author's influence.
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] maps the author's potential influence to reach values that allow segmentation of authors' reaches for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
- Choose a value from 1 to 5, where 1 is the lowest reach and 5 is the highest reach.  
-  
- **Reach 1**: [!INCLUDE[tn_klout](../includes/tn-klout.md)] score 0 to 9  
-  
- **Reach 2**: [!INCLUDE[tn_klout](../includes/tn-klout.md)] score 10 to 19  
-  
- **Reach 3**: [!INCLUDE[tn_klout](../includes/tn-klout.md)] score 20 to 39  
-  
- **Reach 4**: [!INCLUDE[tn_klout](../includes/tn-klout.md)] score 40 to 49  
-  
- **Reach 5**: [!INCLUDE[tn_klout](../includes/tn-klout.md)] score 50 to 99  
-  
- For News sources, the reach in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is calculated as a normalized static metric, based on a source's site traffic and its social outreach (primarily [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]). The calculated value gets mapped to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] reach score like the [!INCLUDE[tn_klout](../includes/tn-klout.md)] score. Your analysis narrows your results to posts that come from authors who have the reach that you defined in your filter.  
+ Choose a value from 1 to 5, where 1 is the lowest reach and 5 is the highest reach.
+ 
+ Your analysis narrows your results to posts that come from authors who have the reach that you defined in your filter.  
   
 ## Location  
  To filter your data for posts from specific locations, add locations or location groups to this filter. To see the list of available locations, start typing the first letters in the input field. You can add filters to the level of countries/regions. Filtering at the city level is not supported. Your analysis narrows your results to posts that contain location data, where the location data corresponds with the filter that you added.  
