@@ -29,7 +29,7 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
 <a name="bkmk_goal"></a>   
 ## Goal of this walkthrough  
- When you complete this walkthrough you will have an MVC web application which will use the [WhoAmIRequest Class](http://msdn.microsoft.com/en-us/0daeeabf-e8ec-4df1-a320-7aadef191d4c) to retrieve data about the user the application uses to connect to the [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] Customer Engagement tenant.  
+ When you complete this walkthrough you will have an MVC web application which will use the [WhoAmIRequest Class](http://msdn.microsoft.com/en-us/0daeeabf-e8ec-4df1-a320-7aadef191d4c) to retrieve data about the user the application uses to connect to the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement tenant.  
   
  When you run the app successfully you will see a **Sign in** command in the top right corner.  
   

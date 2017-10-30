@@ -21,7 +21,7 @@ This sample code is for [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-bo
 ## Requirements  
  This sample requires the [!INCLUDE[pn_win_azure_ad_auth_lib_adal](../includes/pn-win-azure-ad-auth-lib-adal.md)] and other packages. These packages are automatically downloaded and installed when you load the project’s solution. For this to work, you must have an active internet connection when loading and building the sample.  
   
- In addition to having access to a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Customer Engagement organization to run the sample against, you will also need either a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for use with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or an ADFS administration account for use with [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] (IFD).  
+ In addition to having access to a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Customer Engagement organization to run the sample against, you will also need either a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for use with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or an ADFS administration account for use with [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] (IFD).  
   
  This code sample targets an iPhone running iOS 9 or later and XCode 7.3 or later using the Swift 2 programming language.  
   

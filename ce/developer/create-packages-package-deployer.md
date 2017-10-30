@@ -16,7 +16,7 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # Create packages for the Dynamics 365 Package Deployer
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] instances. A “package” can consist of any or all of the following:  
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instances. A “package” can consist of any or all of the following:  
   
 -   One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
   

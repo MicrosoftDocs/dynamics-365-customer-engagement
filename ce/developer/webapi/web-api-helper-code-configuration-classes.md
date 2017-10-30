@@ -30,10 +30,10 @@ Use the configuration class hierarchy to specify the required connection data fo
 |Username|All|The user name registered in Dynamics 365|  
 |Password|All|The password for that user|  
 |Domain|All|The domain of the Dynamics 365 service for Active Directory authentication|  
-|Client ID|Online and IFD only|The client ID of the application as it was registered with Azure AD for [!INCLUDE[pn_dyn_365_online](../../includes/pn-dyn-365-online.md)] or your Active Directory tenant for [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)] using Internet-facing deployment (IFD).|  
+|Client ID|Online and IFD only|The client ID of the application as it was registered with Azure AD for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] or your Active Directory tenant for [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)] using Internet-facing deployment (IFD).|  
 |Redirect URL|Online and IFD only|A callback URI for the current application.|  
   
- For more information on obtaining a client ID and a redirection URL for an application, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md) for use with [!INCLUDE[pn_dyn_365_online](../../includes/pn-dyn-365-online.md)] and                 [Walkthrough: Register a Dynamics 365 app with Active Directory](../walkthrough-register-app-active-directory.md) for use with [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)] using Internet-facing deployment (IFD).  
+ For more information on obtaining a client ID and a redirection URL for an application, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md) for use with [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] and                 [Walkthrough: Register a Dynamics 365 app with Active Directory](../walkthrough-register-app-active-directory.md) for use with [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)] using Internet-facing deployment (IFD).  
   
 <a name="bkmk_FileConfigconnectionsettings"></a>   
 ### FileConfiguration connection settings  
