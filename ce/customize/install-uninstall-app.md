@@ -1,19 +1,23 @@
 ---
 title: "Install or uninstall a Dynamics 365 Customer Engagement app | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: e82e7f64-37ad-41e5-acd7-16309881c6a2
+ms.author: udag
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 9
-ms.author: "matp"
+topic-status: Drafting
 ---
+
 # Install or uninstall an app
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -47,6 +51,7 @@ Apps are available as solution components in [!INCLUDE[pn_crm_shortest](../inclu
 4.  Select the app you want to delete, and on the command bar, click **Delete**.  
   
      You can delete unmanaged components or managed components that are customizable. If the component has dependencies such as relationships, you must remove the dependencies before you can delete the component. See **Show Dependencies**.  
-  
+ > [!IMPORTANT] 
+ > When you delete the app, you should also delete the sitemap. If not, an error will occure while creating another app with the same name. 
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
