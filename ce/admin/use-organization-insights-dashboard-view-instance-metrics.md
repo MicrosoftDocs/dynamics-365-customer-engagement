@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Use the Organization Insights dashboard to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -135,6 +135,5 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 ### See also  
 [Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)  
- 
-<!-- [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md) -->
+ [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md)
 

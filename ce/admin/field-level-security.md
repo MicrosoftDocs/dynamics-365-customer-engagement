@@ -1,7 +1,7 @@
 ---
 title: "Field level security for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -115,9 +115,9 @@ Any Dynamics 365 users not defined in the previously created field security prof
 <a name="BKMK_FLS_fields"></a>   
 ## Which fields can be secured?  
  Every field in the system contains a setting for whether field security is allowed. You can view this in the Customizations area of the web application. 
-<!-- TODO: Fix this when the Developer guide is published>
+ 
 There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
--->  
+   
 <a name="BKMK_FLSbestprac"></a>   
 ## Best practices when you use field security  
  When you use calculated fields that include a field that is secured, data may be displayed in the calculated field to users that don’t have permission to the secured field. In this situation, both the original field and the calculated field should be secured.  
