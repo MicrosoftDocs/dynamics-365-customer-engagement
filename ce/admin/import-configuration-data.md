@@ -1,7 +1,7 @@
 ---
 title: "Import configuration data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,10 +23,10 @@ After exporting your configuration data from the source [!INCLUDE[pn_crm_shortes
   
 ## Before you begin  
 [!INCLUDE[sdk_download](../includes/sdk-download.md)] Then extract the contents of the package on your computer. The Configuration Migration tool is available under the SDK\Tools\ConfgurationMigration folder in the extracted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package. You do not need to install the Configuration Migration tool. Run the tool by double-clicking the **DataMigrationUtility.exe** file in the SDK\Tools\ConfgurationMigration folder.
-<!--
+ 
 > [!IMPORTANT]
 > The Configuration Migration tool will be available as a NuGet package. Check this page for availability: [Download tools from NuGet](../developer/download-tools-nuget.md).
--->  
+  
 ## Import configuration data  
   
 1.  Start the Configuration Migration tool.  
