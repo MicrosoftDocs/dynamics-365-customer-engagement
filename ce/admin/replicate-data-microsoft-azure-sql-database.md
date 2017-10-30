@@ -422,11 +422,19 @@ The statement has been terminated.
   
 2.  Create and execute a SQL query for the Azure SQL destination database that searches for records in the DeleteLog table. If one or more records are found it indicates the presence of deleted records.  
   
-3.  If one or more records exist in the DeleteLog table, create and run a SQL query that detects instances where the record Id for a record found in the DeleteLog table matches the record Id for a record in an *EntityName* table. When a record Id match occurs, delete the record from the *EntityName* table. For example, if a record Id in the AccountId column of the DeleteLog table matches a record Id in the AccountId column of the AccountBase entity table, delete the record from the AccountBase entity table.  
+3.  If one or more records exist in the DeleteLog table, create and run a SQL query that detects instances where the record Id for a record found in the DeleteLog table matches the record Id for a record in an *EntityName* table and the versionNumber in the deleteLog is greater than the versionNumber on the record in the *EntityName* table. When a record Id match occurs, delete the record from the *EntityName* table. For example, if a record Id in the AccountId column of the DeleteLog table matches a record Id in the AccountId column of the AccountBase entity table and the versionNumber in the DeleteLog is greater than the versionNumber in the Account table, delete the record from the AccountBase entity table.  
   
     > [!IMPORTANT]
-    >  We recommend that you execute the SQL queries for record deletion during non-operational hours.  
-  
+    >  Depending on your business needs and requirements, we recommend that you execute the SQL queries for record deletion frequently, but during non-operational hours.
+
+  Example query for entity record deletion.
+
+```
+DELETE FROM [dbo].[prefix_account] A
+WHERE id NOT IN (SELECT CONVERT(uniqueidentifier, recordid) FROM [dbo].[prefix_DeleteLog] DL WHERE DL.entityname ='account'
+AND DL.VersionNumber &gt; A.VersionNumber)
+```
+
 ### Entities that don't support data export  
  The entities listed here, although they support change tracking, aren't supported for data export using the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)].  
   
