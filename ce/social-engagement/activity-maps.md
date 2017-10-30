@@ -2,7 +2,7 @@
 title: "Define activity maps in Social Engagement | Microsoft Docs"
 description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
 keywords: "activiy map, localtion analysis, live map"
-ms.date: 10/24/2017
+ms.date: 10/30/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -48,7 +48,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
 4.  When you’re done, click **Save**.  
   
 > [!TIP]
->  To edit an activity map, open the map and repeat from step 3.  
+>  To edit an activity map, open the map details and repeat from step 3.  
   
 ## View an activity map  
   
@@ -59,14 +59,16 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
   
 2.  From the list, select the activity map, and then click the globe button ![Globe](../social-engagement/media/globe-icon.png "Globe") to see the default view of the selected activity map.  
   
-3.  View the posts in dots as single posts and in circles as cluster of posts.  
-  
-     The map legend explains the colors of the dots and circles. The newer the posts are, the brighter the color. The Sentiment map additionally shows the colors for the corresponding sentiment values of the posts.  
+3.  Single posts are repesented in smaller shapes than post clusters. 
+
+An outline indicates how old a post or cluster is. New posts show a circle. The older the post, the smaller the outline. 
+
+The Sentiment map additionally shows the colors and shapes for the corresponding sentiment values of the posts.  
   
 4.  Click **Posts** on the right side of the map to view the list of posts for the map.  
   
     > [!TIP]
-    >  Choose any dot/circle on the map to view the posts corresponding to that area.  
+    >  Choose any data point on the map to view the posts corresponding to that area.  
   
 5.  Click **Insights** on the left of the map to view the phrases for the trending conversations.  
   
@@ -88,7 +90,7 @@ Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/
   
 3.  In the header area, click **Sentiment map** if sentiment map is not your default view.  
   
-4.  Read the sentiment values on the activity map location wise: Green color dots for Positive sentiment, red for Negative, and gray for neutral value.  
+4.  Read the sentiment values on the activity map location wise: Green color with upward-facing triangle symbol for Positive sentiment, red with downward-facing triangle symbol for Negative, and gray with a diamond shape for neutral value.  
   
     > [!TIP]
     >  In the header section, the sentiment map denotes the legend in detail. Select the appropriate button in the sentiment filter widget, (next to the map legend) to filter the activity map for a specific sentiment value and view it.  
