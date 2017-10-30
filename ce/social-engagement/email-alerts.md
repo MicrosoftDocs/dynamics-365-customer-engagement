@@ -2,7 +2,7 @@
 title: "Stay up to date with alerts in Social Engagement | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
 keywords: "alerts, notification, emails"
-ms.date: 10/24/2017
+ms.date: 10/30/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -16,11 +16,11 @@ topic-status: Drafting
 
 # Stay up to date with alerts
 
-Create email notifications that are automatically sent to a group of recipients if a post or a change in trend matches your filters. Alerts are user specific, and every user role can create them. Manage your existing alerts in the **Message Center**. You can choose from two alert types:
+Create email notifications that are automatically sent to a group of recipients when triggered. There are two types of alerts, both based on set of filters and search topics. Alerts are user specific, and every user role can create them. Manage your existing alerts in the **Message Center**. You can choose from two alert types:
 
-- **Post alert:** You’ll receive an email notification within few hours if any new posts match the selected filters. A summary email is delivered directly to your email account. With this option, you can stay up to date on the topics that matter most to you.
+- **Post alert:** An email notification is delivered to all specified email addresses within few hours if any new posts match the selected filters. A summary email is delivered directly to your email account. 
 
-- **Trend alert:** You’ll receive an email notification within few hours if the volume of posts for any sources exceeds the statistical expectation. A trend alert notifies you only if there are significant changes in post volumes that match the filters that you defined for an alert.
+- **Trend alert:** An email notification is delivered to all specified email addresses within few hours if the volume of posts for any sources exceeds the statistical expectation. A trend alert notifies you only if there are significant changes in post volumes that match the filters that you defined for an alert.
 
 The configuration of alerts that you create is visible only to you. Other recipients of the alert that you add to the alert configuration won’t be able to see or edit your alert configuration. Alert emails contain a link to the data set that matches the posts which triggered the alert email. Choose this link to open and review the content in Social Engagement.
 
