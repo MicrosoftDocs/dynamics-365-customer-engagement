@@ -431,7 +431,7 @@ The statement has been terminated.
 
 ```
 DELETE FROM [dbo].[prefix_account] A
-WHERE id NOT IN (SELECT CONVERT(uniqueidentifier, recordid) FROM [dbo].[prefix_DeleteLog] DL WHERE DL.entityname ='account'
+WHERE id IN (SELECT CONVERT(uniqueidentifier, recordid) FROM [dbo].[prefix_DeleteLog] DL WHERE DL.entityname ='account'
 AND DL.VersionNumber &gt; A.VersionNumber)
 ```
 
@@ -451,3 +451,4 @@ AND DL.VersionNumber &gt; A.VersionNumber)
  [What's new with Microsoft Dynamics 365 ‒ Data Export Service?](../admin/whats-new-with-data-export-service.md) 
  [Manage your data](../admin/manage-your-data.md)  
  [Data Export Service](../developer/data-export-service.md)
+[Team Blog: Introduction to Dynamics 365 – Data Export Service](https://blogs.msdn.microsoft.com/crm/2017/04/11/introduction-to-dynamics-365-data-export-service/)
