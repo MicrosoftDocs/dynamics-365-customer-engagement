@@ -29,7 +29,7 @@ The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] for Customer Engagement provides m
 
  If you’re looking for something more long term, or you specifically want to use the on-premises version, you can [download the on-premises Microsoft Dynamics CRM Server 2016](http://go.microsoft.com/fwlink/p/?LinkId=708414). During Setup, you have the option to supply a commercial key, or you can use one of the product keys listed on the download page for a 90 day free trial.
 
- If you have an [MSDN subscription](https://msdn.microsoft.com/subscriptions), you can download [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] server software and access static activation keys that can be used for any number of installations.
+ If you have an [MSDN subscription](https://msdn.microsoft.com/subscriptions), you can download [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] server software and access static activation keys that can be used for any number of installations.
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 

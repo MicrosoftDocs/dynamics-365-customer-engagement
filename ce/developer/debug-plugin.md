@@ -17,7 +17,7 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # Debug a plug-In
-The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. To debug a plug-in that executes in the sandbox on [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement, you must be using tracing as described later in this topic.  
+The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. To debug a plug-in that executes in the sandbox on [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement, you must be using tracing as described later in this topic.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 <a name="bkmk_debugaplugin"></a>   

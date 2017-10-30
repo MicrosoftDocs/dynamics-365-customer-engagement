@@ -56,7 +56,7 @@ Web services provide APIs that you’ll use when you write programs for [!INCLUD
   
 <a name="bkmk_deployment"></a>   
 ## Deployment web service  
- For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] you can perform actions to manage your deployment programmatically using the Deployment web service. These are essentially the same operations you can perform on the server using the Deployment manager tool client installed on the server. You can create, import, or delete organizations as well as apply certain settings in code. This may be useful when you want to automate certain processes if you are providing a hosting service or if you want to automate creation of environments for testing.  
+ For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] you can perform actions to manage your deployment programmatically using the Deployment web service. These are essentially the same operations you can perform on the server using the Deployment manager tool client installed on the server. You can create, import, or delete organizations as well as apply certain settings in code. This may be useful when you want to automate certain processes if you are providing a hosting service or if you want to automate creation of environments for testing.  
   
   
 ### See also  

@@ -62,7 +62,7 @@ Get-Help “Crm”
 ## Use the cmdlet to retrieve organizations from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]  
  Use the `Get-CrmOrganizations` cmdlet to retrieve the organizations that you have access to.  
   
-1.  Provide your credentials to connect to your [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)] or [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and it will be stored in the `$Cred` variable.  
+1.  Provide your credentials to connect to your [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] or [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and it will be stored in the `$Cred` variable.  
   
     ```  
     $Cred = Get-Credential  
@@ -70,7 +70,7 @@ Get-Help “Crm”
   
 2.  Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:  
   
-    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)] server:  
+    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
   
         ```  
         $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred  
@@ -122,7 +122,7 @@ Get-Help “Crm”
   
 1.  To connect to Dynamics 365, use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:  
   
-    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)] server:  
+    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
   
         ```  
         $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
