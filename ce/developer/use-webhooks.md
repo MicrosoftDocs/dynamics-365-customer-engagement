@@ -13,11 +13,11 @@ applies_to:
 ms.assetid: 8994bbac-951f-478a-972c-debe1afedaf9
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use webhooks to create external handlers for server events
 
-Starting with the [!INCLUDE [July 2017 Update for Dynamics 365 (online) ](../includes/pn-crm-9-0-0-online.md)] you can send data about events that occur on the server to a web application using webhooks. Webhooks is a lightweight HTTP pattern for connecting Web APIs and services with a publish/subscribe model. Webhook senders notify receivers about events by making requests to receiver endpoints with some information about the events.
+Starting with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] you can send data about events that occur on the server to a web application using webhooks. Webhooks is a lightweight HTTP pattern for connecting Web APIs and services with a publish/subscribe model. Webhook senders notify receivers about events by making requests to receiver endpoints with some information about the events.
 
 Webhooks enable developers and ISV’s to integrate Customer Engagement data with their own custom code hosted on external services. By using the webhook model, you can secure your endpoint by using authentication header or query string parameter keys. This is simpler than the SAS authentication model that you may currently use for [!INCLUDE [Azure Service Bus](../includes/pn-azure-service-bus.md)] integration.
 
@@ -153,7 +153,7 @@ You can query the steps registered for a specific webhook when you know the serv
 
 **Web API:**
 
-You can use this Web API Query where *&lt;id&gt;* is the [ServiceEndpointId](entities/serviceendpoint.md#serviceendpointid) of the webhook:
+You can use this Web API Query where *&lt;id&gt;* is the [ServiceEndpointId](entities/serviceendpoint.md#BKMK_ServiceEndpointId) of the webhook:
 
 `GET [organization URI]/api/data/v9.0/serviceendpoints(@id)/serviceendpoint_sdkmessageprocessingstep?$select=sdkmessageprocessingstepid,name,description,asyncautodelete,filteringattributes,mode,stage?@id=<id>`
 
@@ -301,7 +301,7 @@ The following is an example of the serialized JSON data passed for a step regist
 
 In this example, the contact's first name was changed from 'Jim' to 'James'.
 
-```JSON
+```json
 {
     "BusinessUnitId": "e2b9dd85-e89e-e711-8122-000d3aa2331c",
     "CorrelationId": "b374239d-4233-41a9-8b17-a86cb4f737b5",

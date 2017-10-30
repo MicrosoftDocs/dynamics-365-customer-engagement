@@ -17,7 +17,7 @@ topic-status: Drafting
 
 # Create auto-number attributes
 
-With the July 2017 update for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) release, you can add an auto-number attribute for any entity. Currently, you can add the attribute programmatically. There is no user interface to add this type of attribute. The topic explains how you can programmatically create an auto-number attribute and set a seed value for sequential elements. In addition, the topic shows how to set the sequence number for the next record if you need to reset the seed at any time later.
+With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] release, you can add an auto-number attribute for any entity. Currently, you can add the attribute programmatically. There is no user interface to add this type of attribute. The topic explains how you can programmatically create an auto-number attribute and set a seed value for sequential elements. In addition, the topic shows how to set the sequence number for the next record if you need to reset the seed at any time later.
 > [!NOTE]
 >The setting of the seed is optional. There is no need to call the seed if you don’t need to reseed.
 
@@ -33,7 +33,8 @@ When you add the auto-number attribute as a field to a form, the auto-number att
 ### Examples
 The following examples show how to create a new auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget** which will have a value that looks like this: **WID-00001-AB7LSFG-20170913070240**.
 Using the Organization service with SDK assemblies **CreateAttributeRequest** and **StringAttributeMetadata** classes:
-```
+
+```csharp
 CreateAttributeRequest widgetSerialNumberAttributeRequest = new CreateAttributeRequest
             {
                 EntityName = "newWidget",
@@ -60,7 +61,7 @@ You can create and update entity definitions using the Web API.
 More information: [Create and update entity definitions using the Web API > Create attributes](https://msdn.microsoft.com/en-us/library/mt593078.aspx#Anchor_3).
 
 #### Request
-```HTTP
+```http
 POST [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='new_widget')/Attributes HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
@@ -109,7 +110,7 @@ OData-Version: 4.0
 
 #### Response
 
-```JSON
+```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f01bef16-287c-e511-80d2-00155d2a68d2)
@@ -170,7 +171,7 @@ The following code snippet explains you to retrieve, modify, and update the auto
 
 To modify an existing auto-number attribute, you must retrieve the attribute using the **RetrieveAttributeRequest** class.
 
-```
+```csharp
 // Create the retrieve request
 RetrieveAttributeRequest attributeRequest = new RetrieveAttributeRequest
             {
@@ -184,7 +185,7 @@ RetrieveAttributeResponse attributeResponse = (RetrieveAttributeResponse)_servic
 
 After retrieving the auto-number attribute, you need to modify and update the attribute.
 
-```            
+```csharp            
 //Modify the retrieved auto-number attribute
 AttributeMetadata retrievedAttributeMetadata = attributeResponse.AttributeMetadata;
 retrievedAttributeMetadata.AutoNumberFormat = "CAR-{RANDSTRING:5}{SEQNUM:6}"; //Modify the existing attribute by writing the format as per your requirement 
@@ -219,7 +220,7 @@ The **AutoNumberSeed** message has the following parameters:
 The following samples set the seed to 10000 for an auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget**.
 
 Using the Organization service with SDK assemblies **SetAutoNumberSeedRequest** class:
-```
+```csharp
 //Define the seed 
 SetAutoNumberSeedRequest req = new SetAutoNumberSeedRequest();
 req.EntityName = "newWidget";
@@ -233,7 +234,7 @@ More information: [Use Web API actions > Unbound actions](https://msdn.microsoft
 
 #### Request
 
-```HTTP
+```http
 POST [Organization URI]/api/data/v9.0/SetAutoNumberSeed HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
@@ -249,7 +250,7 @@ OData-Version: 4.0
 
 #### Response
 
-```JSON
+```json
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 ```

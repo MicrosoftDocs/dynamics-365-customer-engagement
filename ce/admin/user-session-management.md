@@ -24,7 +24,7 @@ manager: "brycho"
 Now available for customers using December 2016 update for Dynamics 365 (online), you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
 -->
 
-New for Customer Engagement in the July 2017 update for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
+New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
 
 > [!IMPORTANT]
 > These security enhancements are also available for:
