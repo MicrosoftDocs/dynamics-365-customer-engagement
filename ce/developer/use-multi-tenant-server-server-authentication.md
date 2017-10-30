@@ -18,9 +18,9 @@ ms.author: "jdaly"
 # Use Multi-Tenant Server-to-server authentication
 This is the most common scenario and the one which is used for apps distributed using [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)], but you can also use multi-tenant without listing your application with [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)].  
   
- Each [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] Customer Engagement organization is associated with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD) tenant. Your web application or service is registered with its own Azure AD tenant.  
+ Each [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement organization is associated with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD) tenant. Your web application or service is registered with its own Azure AD tenant.  
   
- In this scenario any [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] tenant can potentially use your multi-tenant application after they grant consent for the application to access data.  
+ In this scenario any [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant can potentially use your multi-tenant application after they grant consent for the application to access data.  
   
 <a name="bkmk_Requirements"></a>   
 ## Requirements  
@@ -28,7 +28,7 @@ This is the most common scenario and the one which is used for apps distributed 
   
 -   An Azure AD tenant you will use to publish your application or service.  
   
--   2 [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] subscriptions  
+-   2 [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] subscriptions  
   
     -   One must be associated with Azure AD tenant you will use to publish your application or service.  
   
@@ -42,13 +42,13 @@ This is the most common scenario and the one which is used for apps distributed 
   
 1.  Create a multi-tenant web application registered with your Azure AD tenant.  
   
-2.  Create an application user associated with the registered application  in your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] tenant  
+2.  Create an application user associated with the registered application  in your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
-3.  Create a custom security role and assign it to the application user in your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] tenant  
+3.  Create a custom security role and assign it to the application user in your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
-4.  Test your application using your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] tenant  
+4.  Test your application using your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
-5.  Test your application using a separate [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] tenant  
+5.  Test your application using a separate [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
  For a complete example of this process, see [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md).  
   
@@ -77,21 +77,21 @@ This is the most common scenario and the one which is used for apps distributed 
   
  ![ASP.NET  MVC Change Authentication Dialog](media/mvc-change-authentication-dialog.png "ASP.NET  MVC Change Authentication Dialog")  
   
- When you configure a project with these options it will be configured to use OWIN middleware and scaffolding for a basic application that supports this scenario. With some basic modifications it can be adapted to work with [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)]. This is the approach demonstrated in [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md).  
+ When you configure a project with these options it will be configured to use OWIN middleware and scaffolding for a basic application that supports this scenario. With some basic modifications it can be adapted to work with [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)]. This is the approach demonstrated in [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md).  
   
  In the process of creating and registering your application for development you will most likely use `http://localhost` as the **Sign-on URL** and **Reply URL** values so you can test and debug your application locally before publishing. You will need to change these values before you publish your app.  
   
  When you register your app you must generate a key, also known as a `ClientSecret`. These keys can be configured for a 1 or 2-year duration. As the host of the application you must treat this value like a password and it is your responsibility to manage renewal of the keys before they expire. You may want to use Key Vault. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [https://azure.microsoft.com/en-us/services/key-vault/](https://azure.microsoft.com/en-us/services/key-vault/)  
   
 <a name="bkmk_GrantApplicationRights"></a>   
-## Grant your application rights to access [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] data  
- This is the reason why your [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] instance must be associated with your Azure AD tenant. If your Azure AD tenant is not associated with a [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] tenant, you will not be able to perform the following steps.  
+## Grant your application rights to access [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] data  
+ This is the reason why your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instance must be associated with your Azure AD tenant. If your Azure AD tenant is not associated with a [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant, you will not be able to perform the following steps.  
   
 1.  Go to [https://portal.azure.com](https://portal.azure.com) and select **Azure Active Directory**.  
   
 2.  Click **App registrations** and look for the application you created using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
-3.  You need to give your application privileges to access [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for **Windows Azure Active Directory**.  
+3.  You need to give your application privileges to access [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for **Windows Azure Active Directory**.  
   
 4.  Click **Add**, then **Select an API**. In the list, select **Dynamics 365** and then click the **Select** button.  
   
