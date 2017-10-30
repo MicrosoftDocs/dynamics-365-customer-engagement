@@ -65,6 +65,7 @@
         "customer-insights/**.*": [ "Customer Insights" ],
         "customer-service/**.*": [ "Customer Service" ],
         "customize/**.*": [ "Customize" ],
+        "developer/**.*": [ "Developer" ],
         "developer/insights-insideview/**.*": [ "Insights" ],
         "developer/online-management-api/**.*": [ "Online Management API" ],
         "field-service/**.*": [ "Field Service" ],
