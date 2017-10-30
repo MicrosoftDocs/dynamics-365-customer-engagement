@@ -1,7 +1,7 @@
 ---
 title: "Use the Organization Insights solution to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,10 +20,10 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] provides important adoption and use metrics for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization, and tools to help you stay ahead of performance and support issues.  
+Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] provides important adoption and use metrics for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization, and tools to help you stay ahead of performance and support issues.  
   
 > [!IMPORTANT]
->  Check your version of the Organization Insights solution. In [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)], go to **Settings** > **Solutions**, and determine the version of OrganizationInsightsSolution.  
+>  Check your version of the Organization Insights solution. In [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)], go to **Settings** > **Solutions**, and determine the version of OrganizationInsightsSolution.  
 >   
 >  Organization Insights solution version 1.3.0.1 is the officially supported version. If you have installed version 1.2.0.0, please upgrade to the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview).
 >   
@@ -400,7 +400,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
 <a name="BKMK_ODataSupport"></a>   
 
 ## OData Support
-Organization Insights supports retrieving chart data through the Web API OData v4 web service. <!-- For information about the Web API, see [Use the Microsoft Dynamics 365 Web API](../developer/use-microsoft-dynamics-365-web-api.md). -->
+Organization Insights supports retrieving chart data through the Web API OData v4 web service. For information about the Web API, see [Use the Microsoft Dynamics 365 Web API](../developer/use-microsoft-dynamics-365-web-api.md).
 
 The entity set name for the `SavedOrgInsightsConfiguration` entity is `savedorginsightsconfigurations` which needs the `SavedOrgInsightsConfigurationId`, `JSONDataStartTime` and `JSONDataEndTime` to return data in the given time range. The data can then be used to render custom charts or do further post-processing as required.
 
@@ -428,8 +428,6 @@ The following is a sample result for the query:
 }
 ```
 
-<!-- 
 ### See also  
  [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md)   
  [Developer Guide for Dynamics  365 Customer Engagement](../developer/developer-guide.md)
--->

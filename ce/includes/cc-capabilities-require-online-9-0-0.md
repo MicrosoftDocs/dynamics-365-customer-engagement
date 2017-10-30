@@ -1,1 +1,1 @@
-The capabilities in this solution require July 2017 Update for Dynamics 365 (online).
+The capabilities in this solution require [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].

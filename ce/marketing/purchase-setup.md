@@ -2,18 +2,20 @@
 title: "Purchase and set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to purchase and set up Dynamics 365 for Marketing for the first time"
 keywords: "purchase; setup; FRE; wizard; Azure; customer insights"
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: f722b098-be63-412a-aadc-7b34d11fa668
 author: kamaybac
 ms.author: kamaybac
 manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-ms.date: 10/20/2017
-ms.service: crm-online
-ms.topic: get-started-article
-ms.assetid: f722b098-be63-412a-aadc-7b34d11fa668
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Purchase and first-time setup
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -171,7 +173,7 @@ Data flow involving [!INCLUDE[pn-customer-insights-full](../includes/pn-customer
 - [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Storage
 
 > [!NOTE]
-> [!For more information about additional [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service offerings, see the [!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)] (<https://azure.microsoft.com/support/trust-center/>).
+> For more information about additional [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service offerings, see the [!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)] (<https://azure.microsoft.com/support/trust-center/>).
 
 ### [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]
 

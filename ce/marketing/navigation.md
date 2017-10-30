@@ -2,7 +2,7 @@
 title: "Navigate and use common features in Dynamics 365 for Marketing | Microsoft Docs"
 description: "How do get around and work with common user interface elements in Dynamics 365 for Marketing"
 keywords: "navigation; list view; form view; grids; workflow; business process"
-ms.date: 10/20/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:

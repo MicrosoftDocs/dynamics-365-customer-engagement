@@ -1,7 +1,7 @@
 ---
 title: "Authenticate to use the Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Provides information about authenticating to the Online Management API to perform instance-related operations."
-ms.date: 08/10/2017
+ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
