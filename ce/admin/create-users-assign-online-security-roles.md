@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -195,7 +195,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 ## Create an application user  
  Introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can use server-to-server (S2S) authentication to securely and seamlessly communicate with [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] with your web applications and services. S2S authentication is the common way that apps registered on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] use to access the [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] data of their subscribers. All operations performed by your application or service using S2S will be performed as the application user you provide rather than as the user who is accessing your application.  
   
- You will need to create a custom security role and an application user to associate with your registered app. <!-- For more information, see [Build web applications using Server-to-Server (S2S) authentication](../developer/build-web-applications-server-server-s2s-authentication.md).  -->
+ You will need to create a custom security role and an application user to associate with your registered app. For more information, see [Build web applications using Server-to-Server (S2S) authentication](../developer/build-web-applications-server-server-s2s-authentication.md).
   
  ![Application user](../admin/media/application-user.png "Application user")  
   

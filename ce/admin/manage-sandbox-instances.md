@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) Sandbox instances | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -97,7 +97,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 |Setting|Description|  
 |-------------|-----------------|  
 |Enable administration mode|Select to enable administration mode for the selected Sandbox instance. Only System Administrators or System Customizers will be able to sign in to the selected Sandbox instance.|  
-|Disable background operations|Select to disable all asynchronous operations <!-- (see [Asynchronous service architecture](../developer/asynchronous-service-architecture.md)) such as workflows and synchronization with Exchange -->. Emails will not be sent and server-side synchronization for appointments, contacts, and tasks are disabled. **Note:**  Administration mode must be enabled to disable background operations.|  
+|Disable background operations|Select to disable all asynchronous operations (see [Asynchronous service architecture](../developer/asynchronous-service-architecture.md)) such as workflows and synchronization with Exchange. Emails will not be sent and server-side synchronization for appointments, contacts, and tasks are disabled. **Note:**  Administration mode must be enabled to disable background operations.|  
 |Custom message for end users|Enter a message that will be displayed to all users when they attempt to sign in.|  
   
 ### Set administration mode  

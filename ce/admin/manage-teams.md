@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 Customer Engagement teams | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -120,7 +120,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
   
 <a name="MaxSettings"></a>   
 ## Maximum settings for system-managed access teams  
- The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)].<!--[TeamSettings](Update%20deployment%20configuration%20settings.md#team) or -->   
+ The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TeamSettings](Update%20deployment%20configuration%20settings.md#team) or -->   
   
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)<br /> 
@@ -132,5 +132,4 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
  [About team templates](about-team-templates.md)   
  [Download: Access Teams in Microsoft Dynamics CRM](http://download.microsoft.com/download/E/9/0/E9009308-CA01-4B37-B03C-435B8ACB49B4/Access%20Teams%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)   
  [Download: Scalable security modeling with Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=328757)   
-
- <!--  [Entity relationship behavior](../developer/entity-relationship-behavior.md)-->
+[Entity relationship behavior](../developer/entity-relationship-behavior.md)
