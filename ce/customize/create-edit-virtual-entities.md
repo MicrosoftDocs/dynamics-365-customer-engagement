@@ -1,7 +1,7 @@
 ---
 title: "Create and edit virtual entities (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/31/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -28,7 +28,7 @@ Virtual entities are made up of three main components, a *data provider*, a *dat
   
 [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] includes an OData Data Provider that you can use to connect with an OData v4 web service that accesses the external data. <!-- ADD BACK WHEN AVAILABLE  An Azure Cosmos DB data provider is also available from [AppSource](https://appsource.microsoft.com/).  -->
   
-Alternatively, developers can build their own data providers. Data providers are installed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as a solution. <!-- > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md) -->
+Alternatively, developers can build their own data providers. Data providers are installed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
   
  ![Virtual entity diagram](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
   
@@ -56,11 +56,12 @@ Alternatively, developers can build their own data providers. Data providers are
     -   **OData v4 Data Provider**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] includes an OData Data Provider that can be used with OData v4 web services. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
   
 ### Add a secured field to a Data Source
-You create fields for a Data Source in the same way as for any other entity. For data that is encrypted or sensitive, enable the Data Source Secret attribute on the custom field of the Data Source. For example, to secure a field that contains a database connection string. 
+You create fields for a Data Source in the same way as any other entity. For data that is encrypted or sensitive, enable the Data Source Secret attribute on the custom field of the Data Source. For example, to secure a field that contains a database connection string. 
 
 > [!NOTE]
 > The Data Source Secret attribute is only available with fields added to a Data Source form.
 
+![Data source secret attribute](media/datasourcesecret.png)
   
 <a name="createVirtualEntity"></a>   
 ## Create a virtual entity  

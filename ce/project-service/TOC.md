@@ -1,4 +1,5 @@
 # [Overview](overview.md)
+# [What's new](../field-service/whats-new-field-service-project-service.md)
 # [Administrator Guide](admin-guide.md)
 ## [Install and customize](install-customize.md)
 ## [Experiment with demo data](use-demo-data.md)

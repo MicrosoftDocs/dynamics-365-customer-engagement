@@ -1,7 +1,7 @@
 ---
 title: "Install or uninstall a Dynamics 365 Customer Engagement app | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -26,12 +26,12 @@ Apps are available as solution components in [!INCLUDE[pn_crm_shortest](../inclu
 > [!NOTE]
 >  When you export an app using a solution, the app URL is not exported.  
   
- <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a managed solution](../developer/create-install-update-managed-solution.md#create-a-managed-solution), [Create an unmanaged solution](../developer/create-export-import-unmanaged-solution.md#create-an-unmanaged-solution)  -->
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a managed solution](../developer/create-install-update-managed-solution.md#create-a-managed-solution), [Create an unmanaged solution](../developer/create-export-import-unmanaged-solution.md#create-an-unmanaged-solution) 
   
 ## Import the solution  
  In the organization where you need the app, import the solution that contains the app.  
   
- <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install a managed solution](../developer/create-install-update-managed-solution.md#install-a-managed-solution), [Import an unmanaged solution](../developer/create-export-import-unmanaged-solution.md#import-an-unmanaged-solution)  -->
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install a managed solution](../developer/create-install-update-managed-solution.md#install-a-managed-solution), [Import an unmanaged solution](../developer/create-export-import-unmanaged-solution.md#import-an-unmanaged-solution) 
   
 ## App access  
  System administrators and customizers have access to these apps by default, and can give app access to specific security roles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md)  
