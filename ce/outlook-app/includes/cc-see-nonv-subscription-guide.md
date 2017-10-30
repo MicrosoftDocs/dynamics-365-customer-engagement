@@ -1,2 +1,0 @@
-> [!NOTE]
-> This content is for the July 2017 update for Dynamics 365 (online). For documentation for earlier versions, see [Subscription Management for Dynamics 365 (online)](https://technet.microsoft.com/library/jj679903.aspx) and [Administering Dynamics 365](https://technet.microsoft.com/library/dn531101.aspx).

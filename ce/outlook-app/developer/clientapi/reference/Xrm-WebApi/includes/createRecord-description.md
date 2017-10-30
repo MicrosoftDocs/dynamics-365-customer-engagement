@@ -1,1 +1,0 @@
-Creates an entity record.

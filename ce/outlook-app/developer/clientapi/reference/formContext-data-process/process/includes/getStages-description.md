@@ -1,1 +1,0 @@
-Returns a collection of stages in the process.

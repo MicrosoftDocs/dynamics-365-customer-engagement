@@ -1,1 +1,0 @@
-Returns a boolean value indicating whether an entity is offline enabled.

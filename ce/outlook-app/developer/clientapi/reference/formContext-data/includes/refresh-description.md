@@ -1,1 +1,0 @@
-Asynchronously refreshes and optionally saves all the data of the form without reloading the page.
