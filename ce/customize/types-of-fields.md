@@ -1,20 +1,24 @@
 ---
 title: "Types of fields and field data types (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 10/25/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: ""
+keywords: ""
+ms.date: 10/30/2017
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 25
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Types of fields and field data types
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -69,11 +73,13 @@ Multi-select fields are supported in the following types of forms:
 |**Bulk Edit form**|No|
 You can use global option sets that are defined in your organization to configure values for the multi-select option sets. For Use Existing Option Set, select Yes, and then choose an option set from the Option Set drop-down list. Also, you can perform the following action on the global option set without leaving the field creation dialog box:
 - Select Edit to edit the global option set. 
-  > [!NOTE]
-  > You can only edit a global option set if Customizable is True. 
+
+    > [!NOTE]
+    > You can only edit a global option set if Customizable is True. 
+
 - Select New to create a global option set.
 
-![MultiSelect Option Set](../customize/media/MultiSelect_GlobalOptionSet.png "MultiSelect option Set") 
+    ![MultiSelect Option Set](../customize/media/MultiSelect_GlobalOptionSet.png "MultiSelect option Set") 
 
 More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)
   
