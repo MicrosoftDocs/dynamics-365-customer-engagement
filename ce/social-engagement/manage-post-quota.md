@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: "quota, post quota, contingent"
-ms.date: 10/25/2017
+ms.date: 10/30/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -89,8 +89,8 @@ Keep track of the number of posts that result from your search topics towards yo
 >  Peaks and trending terms can’t be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, and impact your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota, meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to Blocked Content.
 
 ## Buy additional quota
-When you run out of post quota, you can either optimize your search topics, or your organization's admin can buy add-on subscriptions for addtional post quota. 
-3 types of quota add-on scubscriptions are avaialble. They are billed on monthly basis. 
+When you run out of post quota and data acquisition stopped, your organization's admin can buy add-on subscriptions for addtional post quota. 
+3 types of quota add-on scubscriptions are avaialble. They are billed on monthly basis. The price per post drops with the size of the add-on subscription. 
 - Microsoft Social Engagement Additional 10k posts (no min): 10k posts per month.
 - Microsoft Social Engagement Additional 10k posts (10 unit min): 100k posts per month.
 - Microsoft Social Engagement Additional 10k posts (100 unit min): 1m (1000k) posts per month.
@@ -98,7 +98,8 @@ When you run out of post quota, you can either optimize your search topics, or y
 
 ### To buy add-on subscriptions for Social Engagement
 
-An admin can buy additional post quota from the Office 365 admin center. You will only see the Social Engagement add-on subscriptions if your Dynamics 365 plan includes Social Engagement. For more insormation, see [Pricing and licensing for Dynamics 365](https://www.microsoft.com/dynamics365/pricing).
+An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the Social Engagement add-on subscriptions if your Dynamics 365 plan includes Social Engagement. Trials aren't eligible for Social Engagement. 
+For more information, see [Pricing and licensing for Dynamics 365](https://www.microsoft.com/dynamics365/pricing).
 
 ![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Image of the clickpath to find add-on subscriptions.")
 
