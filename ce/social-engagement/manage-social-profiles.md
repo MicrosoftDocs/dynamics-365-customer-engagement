@@ -19,30 +19,30 @@ topic-status: Drafting
   
 By using these social profiles you can reply, comment, like a post, or share messages on social media. 
   
-Data acquisition and acquisition of private messages from your social profiles require access tokens, and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are posted on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
+Data acquisition and acquisition of private messages from your social profiles require access tokens, and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are posted on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
 
 > [!IMPORTANT]
 >  -   All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an interaction role of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 >  -   A social profile can have multiple owners. Every owner has the same level of access privileges. 
 >  -   Make sure you have the correct credentials before you attempt to add a social profile or claim ownership for an existing profile.  
->  -   You can own social profiles by adding them to the solution. You can share the profiles you own with other users, and stop sharing them or delete them when you don't need them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work), [Delete a social profile](../social-engagement/manage-social-profiles.md#deleteasocialprofile)  
->  -   You can delete both the profiles you own and any profile where you are one of its multiple owners. If a profile is shared with you, you can post on social media by using this profile, but you can’t remove it from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work)  
+>  -   You can own social profiles by adding them to the solution. You can share the profiles you own with other users, and stop sharing them or delete them when you don't need them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](manage-social-profiles.md#Let_others_work), [Delete a social profile](manage-social-profiles.md#deleteasocialprofile)  
+>  -   You can delete both the profiles you own and any profile where you are one of its multiple owners. If a profile is shared with you, you can post on social media by using this profile, but you can’t remove it from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](manage-social-profiles.md#Let_others_work)  
   
 ## Types of social profiles you can manage  
- To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. From here you can also check the health state of your social profiles and access tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](../social-engagement/social-profiles-health-state.md)  
+ To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. From here you can also check the health state of your social profiles and access tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](social-profiles-health-state.md)  
   
-- **Owned profiles**: Profiles that you added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. These can be personal profiles or profiles that you set up for your organization. You can share these profiles with other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, stop sharing these profiles at any time, remove your ownership from these profiles, and delete them when you don't need them. Social profiles can have multiple owners. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](../social-engagement/manage-social-profiles.md#Let_others_work), [Delete a social profile](../social-engagement/manage-social-profiles.md#deleteasocialprofile)  
+- **Owned profiles**: Profiles that you added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. These can be personal profiles or profiles that you set up for your organization. You can share these profiles with other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, stop sharing these profiles at any time, remove your ownership from these profiles, and delete them when you don't need them. Social profiles can have multiple owners. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Let other users work with your social profile](manage-social-profiles.md#Let_others_work), [Delete a social profile](manage-social-profiles.md#deleteasocialprofile)  
   
     > [!CAUTION]
     >  If you are an owner of a profile that has multiple owners, you can delete the profile. Always be careful not to delete any profiles that are in use.  
   
-- **Shared profiles**: Profiles that are owned by other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, but shared with you. You can publish on social media by using these profiles, but you won't be able to delete or share them with any other users. If you need to, you can claim ownership of these profiles and then share them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](../social-engagement/manage-social-profiles.md#claimownership)  
+- **Shared profiles**: Profiles that are owned by other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, but shared with you. You can publish on social media by using these profiles, but you won't be able to delete or share them with any other users. If you need to, you can claim ownership of these profiles and then share them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](manage-social-profiles.md#claimownership)  
   
-- **Profiles without owners**: Profiles that were added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] but currently don't have owners. You can’t use these profiles for posting on social media. At least one [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user needs to claim ownership of these profiles for them to be available. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](../social-engagement/manage-social-profiles.md#claimownership)  
+- **Profiles without owners**: Profiles that were added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] but currently don't have owners. You can’t use these profiles for posting on social media. At least one [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user needs to claim ownership of these profiles for them to be available. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Claim ownership for a social profile](manage-social-profiles.md#claimownership)  
   
-- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
+- **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   
-- **Profiles for private messages acquisition**: You can acquire private messages from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] accounts if you have at least one valid access token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
+- **Profiles for private messages acquisition**: You can acquire private messages from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] accounts if you have at least one valid access token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   
 <a name="addsocialprofile"></a>   
 ## Add a social profile for Twitter or Facebook  
@@ -51,7 +51,7 @@ Data acquisition and acquisition of private messages from your social profiles r
 > [!TIP]
 >  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] application. This ensures that the authentication dialog box from [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] loads properly. If it doesn't, you won’t be able to add or re-authorize social profiles.  
   
- Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. By default, the process of adding a social profile doesn’t acquire any data. You must explicitly allow the data acquisition on the social profile to gather private messages or direct messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tokens for interactions with posts](../social-engagement/manage-access-tokens.md#interaction_token)  
+ Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. By default, the process of adding a social profile doesn’t acquire any data. You must explicitly allow the data acquisition on the social profile to gather private messages or direct messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tokens for interactions with posts](manage-access-tokens.md#interaction_token)  
   
  You can add a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles, and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles are personal profiles for individual people. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages are represented and managed by people with [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles. People with [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles can manage multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  
   
@@ -76,7 +76,7 @@ Data acquisition and acquisition of private messages from your social profiles r
   
 5.  After the profile is successfully authenticated, you can select from the list of [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages that the authenticated user administers. After you add the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page, you can find it on the **Social Profiles** page under **Owned profiles**. 
   
-You can allow Power Analysts and Administrators to create rules for direct messages from this social profile in a search topic. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](../social-engagement/add-rules-search-topic.md) 
+You can allow Power Analysts and Administrators to create rules for direct messages from this social profile in a search topic. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md) 
   
 ### Add a Facebook user to your social profiles  
   
@@ -165,10 +165,10 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
   
 <a name="Let_others_work"></a>   
 ## Let other users work with your social profile  
- To let other users of your organization’s solution post on behalf of a social profile that you own, you can share it with them. After you share a social profile, other users can select the social profile when interacting with a post. You can also share a social profile with a group. More information about groups: [Work with Office 365 Groups in Social Engagement](../social-engagement/office-365-groups-social-engagement.md)  
+ To let other users of your organization’s solution post on behalf of a social profile that you own, you can share it with them. After you share a social profile, other users can select the social profile when interacting with a post. You can also share a social profile with a group. More information about groups: [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md)  
   
 > [!IMPORTANT]
->  Make sure you share the profiles with users who have a user role of Manager or Responder and are authorized to view or access the social profile feature. Sharing is only available if the social profile allows interactions with posts. Every user who this social profile is shared with can use this profile to publish actions through tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](../social-engagement/manage-access-tokens.md)  
+>  Make sure you share the profiles with users who have a user role of Manager or Responder and are authorized to view or access the social profile feature. Sharing is only available if the social profile allows interactions with posts. Every user who this social profile is shared with can use this profile to publish actions through tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   
 [//]: # (In the "Claim ownership..." topic, you called it the "profile details pane," so I used that term in the other procedures too. I assume this isn't the literal name of the pane, right? If it is, it of course should be **Profile Details** pane.)
 <a name="shareasocialprofile"></a>   
@@ -213,7 +213,7 @@ You can delete a social profile that you own. You can also delete a social profi
   
 3.  Click **Delete** (![Delete button](media/trashbin-icon.png "Delete button")) next to the social profile name, and then click **Save**.  
   
- If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
+ If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
   
 
 <a name="claimownership"></a>   
@@ -232,7 +232,7 @@ You can delete a social profile that you own. You can also delete a social profi
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
 ### See also  
- [Engage on social networks](../social-engagement/engage-on-social-networks.md)   
- [Check the health state of your social profiles](../social-engagement/social-profiles-health-state.md)   
- [Manage access tokens](../social-engagement/manage-access-tokens.md)   
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)
+ [Engage on social networks](engage-on-social-networks.md)   
+ [Check the health state of your social profiles](social-profiles-health-state.md)   
+ [Manage access tokens](manage-access-tokens.md)   
+ [Set up searches to listen to social media conversations](set-up-searches.md)

@@ -209,7 +209,7 @@ Share a link to a public post along with your own comments as a new post directl
 ### Engage in private conversations  
  Quickly respond to a private conversation through one of your social profiles directly from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You can allow the data acquisition of your private messages so that other users of your organization’s solution can see the full context of the conversations.  
   
- If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
+ If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
   
 <a name="dmTwitter"></a>   
 #### Send a direct message on Twitter from Social Engagement  

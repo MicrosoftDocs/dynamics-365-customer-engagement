@@ -43,7 +43,7 @@ Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-soc
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add one or more custom tags to posts. You can then filter posts to match specific custom tags. Custom tags are different from intention tags because they are not predefined tags and they are not automatically added once a post is acquired.
   
 > [!NOTE]
-> Only Managers and Responders can create a new custom tag, but any user role can add or remove tags on posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
+> Only Managers and Responders can create a new custom tag, but any user role can add or remove tags on posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 1.  Select **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -64,7 +64,7 @@ Enable adaptive learning on your custom tags by adding them to your list of auto
 To improve your workflows and increase efficiency, you can leverage auto tagged posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] as [email alerts](email-alerts.md), [streams](engage-on-social-networks.md), [activity maps](activity-maps.md), and [automation rules](automation-rules.md).
   
 > [!NOTE]
-> Only Administrators can promote custom tags to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
+> Only Administrators can promote custom tags to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 ### Add a custom tag to your auto tags list  
   
@@ -158,5 +158,5 @@ To check the quality of your auto tags, select the tag name in the list. In the 
 To quickly find posts with tags use the **Post Tags and Intentions** [filter to configure a data set](use-filters.md). 
   
 ### See Also  
-[Manage global settings](../social-engagement/manage-global-settings.md)   
-[Work with posts](../social-engagement/work-with-posts.md)
+[Manage global settings](manage-global-settings.md)   
+[Work with posts](work-with-posts.md)

@@ -20,9 +20,9 @@ When you work with the feed of your Social Selling Assistant, keep in mind that 
 
 ![Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.](media/available-actions-social-selling-assistant.png "Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.")
 
-- **Share** is the main action for recommendations based on Share Content personalization settings. It lets you choose from your social profiles and to share the link to the selected post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)
+- **Share** is the main action for recommendations based on Share Content personalization settings. It lets you choose from your social profiles and to share the link to the selected post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](publish-react-posts.md)
 
-- **View** is the main action for recommendations based on Get Insights personalization settings. It opens the details of the post and shows additional information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)
+- **View** is the main action for recommendations based on Get Insights personalization settings. It opens the details of the post and shows additional information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](publish-react-posts.md)
 
 - Clicking ![Apply button](media/check-icon.png "Apply button") **Done** indicates that you don't plan any further actions on this post. It will be removed from the post list in the Social Selling Assistant.
 
@@ -63,6 +63,6 @@ When a tag is configured to promote a post in the Social Selling Assistant, you 
 
 ### See Also
 
- [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
- [Personalize the Social Selling Assistant for individual users](../social-engagement/personalize-social-selling-assistant.md)   
- [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)
+ [Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   
+ [Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)   
+ [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md)

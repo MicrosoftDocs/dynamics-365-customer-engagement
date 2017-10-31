@@ -25,7 +25,7 @@ There’s a good chance that your customers and stakeholders are talking about y
   
 -   Read the latest [Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) to know any late-breaking changes to this release.  
   
--   Read [What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md) to know the list of features added or updated in this release.  
+-   Read [What's new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md) to know the list of features added or updated in this release.  
   
 -   Download the [Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) to know which languages [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] is translated into, which languages you can search on, and which languages are supported by sentiment analysis.  
   
@@ -80,6 +80,6 @@ There’s a good chance that your customers and stakeholders are talking about y
 We welcome your feedback. Use the feedback link at the bottom of this page to share your comments with us.  
   
 ### See Also  
-[What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md)   
-[Get started with Social Engagement](../social-engagement/get-started.md)   
-[Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
+[What's new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)   
+[Get started with Social Engagement](get-started.md)   
+[Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)

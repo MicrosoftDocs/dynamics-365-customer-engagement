@@ -30,7 +30,7 @@ We have several ways to help you get started with [!INCLUDE[pn_netbreeze_long](.
 2.  In the drop-down list, select **Help**.  
   
 ### See Also  
- [Get started with Social Engagement](../social-engagement/get-started.md)   
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
+ [Get started with Social Engagement](get-started.md)   
+ [Set up searches to listen to social media conversations](set-up-searches.md)   
+ [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
  

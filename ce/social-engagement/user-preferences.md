@@ -51,6 +51,6 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-en
 |Default time frame|Set the default time frame to present data in your charts and graphs for analysis. You can change the time frame at any time.|  
   
 ### See Also  
- [Get started with Social Engagement](../social-engagement/get-started.md)   
- [Manage global settings](../social-engagement/manage-global-settings.md)
+ [Get started with Social Engagement](get-started.md)   
+ [Manage global settings](manage-global-settings.md)
  

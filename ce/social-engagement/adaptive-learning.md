@@ -18,7 +18,7 @@ manager: sakudes
 # Adaptive learning based on changes to organization’s sentiment values
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] now uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
   
-To manage adaptive learning in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to be a Social Engagement Administrator. Every user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is able to edit the sentiment value of a post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
+To manage adaptive learning in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to be a Social Engagement Administrator. Every user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is able to edit the sentiment value of a post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 > [!IMPORTANT]
 >  Edited and confirmed sentiment values only apply to your organization database. Edits and confirmations performed on other organizations’ databases have no impact on how the sentiment is determined for your organization.  
@@ -58,6 +58,6 @@ If you aren’t happy with the results of the sentiment analysis, you can always
 >  If you compare several months of Sentiment KPI, make sure that you account for the matured sentiment calculation when comparing the findings.  
   
 ### See Also  
-[Manage global settings](../social-engagement/manage-global-settings.md)   
-[Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)
+[Manage global settings](manage-global-settings.md)   
+[Understand the public perception using sentiment analysis](analytics-sentiment.md)
  

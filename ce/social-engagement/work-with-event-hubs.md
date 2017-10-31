@@ -58,13 +58,13 @@ topic-status: Drafting
   
 <a name="step3_connect_to_event_hub"></a>   
 ### Step 2: Connect Social Engagement to the event hub  
- Now that the event hub is ready to receive data, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your event hub using the Connection String provided for your event hub in the [Azure Portal](https://portal.azure.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)  
+ Now that the event hub is ready to receive data, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your event hub using the Connection String provided for your event hub in the [Azure Portal](https://portal.azure.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
   
  ![Connect Social Engagement to Azure Event Hubs](media/event-hub-connection-settings.png "Connect Social Engagement to Azure Event Hubs")  
   
 <a name="step3_create_automation_rule"></a>   
 ### Step 3: Create an automation rule to select the posts that get streamed to the event hub  
- In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], create an automation rule that streams events to your event hub. Make sure the filters are defined according to your requirements so you get the posts that you are looking for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md), [Get relevant data using filters](../social-engagement/use-filters.md)  
+ In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], create an automation rule that streams events to your event hub. Make sure the filters are defined according to your requirements so you get the posts that you are looking for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md), [Get relevant data using filters](use-filters.md)  
   
 1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Automation Rules**, and then create an automation rule that streams events to your event hub.  
   
@@ -102,7 +102,7 @@ topic-status: Drafting
     >   
     >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
     >   
-    > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)  
+    > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)  
   
     1.  Example 1: In this simple “Hello World” example, we count all new posts over time and push them every 30 seconds to the output sink.  
   
@@ -174,7 +174,7 @@ topic-status: Drafting
  [!INCLUDE[cc_privacy_mse_azure_event_hubs](../includes/cc-privacy-mse-azure-event-hubs.md)]  
   
 ### See Also  
- [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
- [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)   
- [Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
+ [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
+ [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)   
+ [Manage connections in Social Engagement](manage-connections.md)   
+ [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)

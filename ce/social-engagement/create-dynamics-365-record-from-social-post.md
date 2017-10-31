@@ -17,7 +17,7 @@ topic-status: Drafting
 # Create a Dynamics 365 record from a social post
 
 Send a post found with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to create a record. For example, you can automatically convert posts to cases for customer service, or to leads for your sales team. When you create a social activity, if the author of the post doesn’t have a social profile in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the system creates a social profile and contact record, and then links the social profile with the contact record. When a record is created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can see the details about this record in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
-Learn about the [prerequisites to establish a connection with Dynamics 365](../social-engagement/connect-dynamics-365-social-engagement.md#prerequisites-to-establish-a-connection-with-dynamics-365) on how to configure your online and on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to connect with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+Learn about the [prerequisites to establish a connection with Dynamics 365](connect-dynamics-365-social-engagement.md#prerequisites-to-establish-a-connection-with-dynamics-365) on how to configure your online and on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to connect with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Specify record details
 
@@ -43,7 +43,7 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
  ![Entity details](media/arrange-entity-details-for-linked-records.png "Entity details")  
   
   > [!IMPORTANT]
-  >  You can't remove an entity if there are active automation rules using that entity. You will first need to deactivate or delete all automation rules using that entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
+  >  You can't remove an entity if there are active automation rules using that entity. You will first need to deactivate or delete all automation rules using that entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
   
 6.  To apply your changes, in the **Dynamics 365 Instance** pane, click **Save** ![Save button](media/save-icon.png "Save button").  
 
@@ -70,7 +70,7 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
  ![Linked button by a post in Social Engagement](media/post-linked-to-dynamics-365.png "Linked button by a post in Social Engagement")  
   
 > [!TIP]
-> -   To automatically create records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from social posts that match a specific data set, you can create automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](../social-engagement/automation-rules.md)  
+> -   To automatically create records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from social posts that match a specific data set, you can create automation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
 > -   If the linked [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance has [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] system settings set to disabled, the link creation fails and shows this error message: "Dynamics 365 can’t receive social data from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]". Contact your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrator to review the Disable [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] system settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Control social data](http://go.microsoft.com/fwlink/p/?LinkId=723352)  
 > -   If [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] allows incoming social activities, but no rules are configured to create [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] entities out of them, the linking operation does succeed. However, opening link details in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will provide details about the social activiy only. Contact your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] administrator if this happens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394)  
   
@@ -208,7 +208,7 @@ You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.m
 
 ### See Also
 
- [Set up the connection between Dynamics 365 and Social Engagement](../social-engagement/connect-dynamics-365-social-engagement.md)   
- [Link posts from Social Engagement to Dynamics 365](../social-engagement/link-posts-to-dynamics-365.md)   
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)
+ [Set up the connection between Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
+ [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
+ [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
  

@@ -18,12 +18,12 @@ manager: sakudes
 You can use categories to structure and group search topics in  ways that make the most sense to you. Although categories have no impact on the posts that result from your search topics, they help greatly to organize your searches.  
   
 > [!NOTE]
->  This topic is part of a walkthrough on how you can set up searches. More information: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  This topic is part of a walkthrough on how you can set up searches. More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 ## Required user roles  
  To create and manage a new category, you must have at least the Power Analyst user role in Analytics. To manage default categories that another user owns, you must have an Administrator user role in Analytics.  
   
- To assign a search topic to a category, or change the category for a search topic, you must either be the owner of the search topic or have an Administrator user role in Analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage ownership of a search topic](../social-engagement/create-delete-search-topic.md#manage_ownership)  
+ To assign a search topic to a category, or change the category for a search topic, you must either be the owner of the search topic or have an Administrator user role in Analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage ownership of a search topic](create-delete-search-topic.md#manage_ownership)  
   
 ## Create a category  
  To see the category in Analytics, make sure that at least one search topic has this category assigned.  
@@ -63,7 +63,7 @@ You can use categories to structure and group search topics in  ways that make t
 4.  Confirm your deletion.  
   
 ### See Also  
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
- [Understand user roles](../social-engagement/user-roles.md)
+ [Set up searches to listen to social media conversations](set-up-searches.md)   
+ [Create or delete a search topic](create-delete-search-topic.md)   
+ [Understand user roles](user-roles.md)
  

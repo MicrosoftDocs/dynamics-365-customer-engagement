@@ -35,7 +35,7 @@ To review the alerts that you created, go to **Message Center**.  The informatio
 
 ## Create an alert
 
-A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)
+A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)
 
 1.  Go to the **Message Center**.
 
@@ -101,6 +101,6 @@ When you work with a trend alert, you can select from five sensitivity settings.
 
 ### See Also
 
- [Get started with Social Engagement](../social-engagement/get-started.md)   
- [Use filters to see relevant data](../social-engagement/use-filters.md)   
- [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)
+ [Get started with Social Engagement](get-started.md)   
+ [Use filters to see relevant data](use-filters.md)   
+ [Explore more options with your data set](more-options-with-data-set.md)

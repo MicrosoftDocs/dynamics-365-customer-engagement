@@ -45,12 +45,12 @@ When using the Social Selling Assistant for the first time, users will get recom
   
      By default, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] creates Insight Groups for **Customers**, **Competitors**, and **My brands**. You can edit (![Edit button](media/edit-icon.png "Edit button")), or remove (![Delete button](media/trashbin-icon.png "Delete button")) them, and create (![Add button](media/add-icon.png "Add button")) additional insight groups.  
   
-5.  If you have a responder or manager interaction role, click **Social Profiles** to add profiles you own. You can add profiles from LinkedIn [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] to share content directly from the Social Selling Assistant. If your administrator shared a social profile with you, you can select it from the list. To add a social profile or to share a social profile you own with other users, see [Manage social profiles](../social-engagement/manage-social-profiles.md).  
+5.  If you have a responder or manager interaction role, click **Social Profiles** to add profiles you own. You can add profiles from LinkedIn [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] to share content directly from the Social Selling Assistant. If your administrator shared a social profile with you, you can select it from the list. To add a social profile or to share a social profile you own with other users, see [Manage social profiles](manage-social-profiles.md).  
   
 > [!NOTE]
 >  If you’ve set the dark theme in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the Social Selling Assistant will inherit this setting.  
   
 ### See also  
- [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
- [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md)   
- [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)
+ [Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   
+ [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)   
+ [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md)

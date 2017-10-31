@@ -28,7 +28,7 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 
 - **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts
 
-- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and [allows private messages acquisition](../social-engagement/manage-access-tokens.md#tokens-for-data-acquisition).
+- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and [allows private messages acquisition](manage-access-tokens.md#tokens-for-data-acquisition).
 
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
@@ -37,7 +37,7 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 - **[LinkedIn page rule](#linkedin-page-rule)**: Gather posts from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
   
 > [!TIP]
->  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 > [!VIDEO https://www.youtube.com/embed/3HoeVROsJZk]
   
@@ -47,7 +47,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
 > [!IMPORTANT]
 >  Your keywords, inclusions, and exclusions can extend up to 128 characters. You can add up to 15 keywords and inclusions per search rule and up to 25 exclusions per search rule.  
 >   
->  Adding a rule usually leads to more posts resulting from your searches. The increased number of posts will count against your post quota. You'll need to validate every search topic that you changed before you can save it. It's a good idea to frequently review the results of a new or updated search topic to confirm that it collects relevant data and complies with your quota limits. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](../social-engagement/manage-post-quota.md)  
+>  Adding a rule usually leads to more posts resulting from your searches. The increased number of posts will count against your post quota. You'll need to validate every search topic that you changed before you can save it. It's a good idea to frequently review the results of a new or updated search topic to confirm that it collects relevant data and complies with your quota limits. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md)  
   
 ### Add a new rule  
   
@@ -98,7 +98,7 @@ Keywords define the terms and phrases to listen for. Keywords are exact but not 
   
 It's important to review keywords regularly. If your keywords yield too many results, consider narrowing the search rule by adding inclusions and exclusions, or reducing the number of keywords.  
   
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Refine your search rules](../social-engagement/refine-search-rules.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Refine your search rules](refine-search-rules.md)  
   
 For example, let's assume that you want to listen to posts about a product that Contoso manufactures. You could add the keywords to a search rule like this: **Product name, #prodname, Name of the product**. All posts that mention one of these keywords will result from the search rule.  
   
@@ -127,7 +127,7 @@ For example, let's assume that you're not interested in discounts or offers arou
 To exclude multiple terms, the exclusions must be added to the same search rule. If one rule searches for **Contoso** while excluding **discounts** and another rule searches for **Contoso** while excluding **offers**, the search topic will only exclude all posts mentioning **Contoso** that contain both **discounts** and **offers**. If the rule searches for **Contoso** while excluding **discounts, offers**, the search topic will exclude all posts mentioning **Contoso** that contain either **discounts** or **offers**, which is what you want.  
   
 > [!TIP]
->  You can exclude terms from all active search rules in one step by adding a term to the list of blocked content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
+>  You can exclude terms from all active search rules in one step by adding a term to the list of blocked content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
 Exclusions are a great way to reduce the number of posts that result from your search and make sure you stay within your post quota. However, you should choose your exclusions carefully to avoid missing relevant posts.  
   
@@ -213,7 +213,7 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and a
   
      or 
   
-     Select a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile from social profiles that have already been added. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
+     Select a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile from social profiles that have already been added. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)  
   
     > [!NOTE]
     >  You can also add multiple [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
@@ -273,7 +273,7 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
 <a name="customSourceRule"></a>   
 ## Add a custom sources rule 
 
-Create rules to gather posts from custom sources. You can also create keyword rules that match keywords in custom source posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](../social-engagement/add-rules-search-topic.md#addKeywordsRule)  
+Create rules to gather posts from custom sources. You can also create keyword rules that match keywords in custom source posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](add-rules-search-topic.md#addKeywordsRule)  
   
 ### Add a new custom sources rule  
   
@@ -346,8 +346,8 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
 ### See also  
-[Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
-[Create or delete a search topic](../social-engagement/create-delete-search-topic.md)   
-[Manage your post quota](../social-engagement/manage-post-quota.md)   
-[Get started with Social Engagement](../social-engagement/get-started.md)
+[Set up searches to listen to social media conversations](set-up-searches.md)   
+[Create or delete a search topic](create-delete-search-topic.md)   
+[Manage your post quota](manage-post-quota.md)   
+[Get started with Social Engagement](get-started.md)
  
