@@ -42,7 +42,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
      For more information about where to find the connection string, see [Microsoft Azure: Get started with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send).  
   
-5.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
+5.  Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 > [!TIP]
 >  For an end-to-end example, see [Work with events from Social Engagement in Azure Event Hubs](../social-engagement/work-with-event-hubs.md "Work with events from Social Engagement in Azure Event Hubs").  
@@ -67,7 +67,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 3.  Select the connection you want to disable and set **Enable connection** to Off.  
   
-4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
+4.  Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 <a name="re_enable_connection"></a>   
 ### Re-enable a disabled connection  
@@ -78,16 +78,16 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 3.  Select the connection you want to re-enable and set **Enable connection** to On.  
   
-4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
+4.  Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 <a name="create_automation_rule"></a>   
 ## Choose the data to stream to event hubs using automation rules  
  Once you established the connection to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], you need to select which data is passed on to your event hub. To do this, go to **Settings > Automation Rules**, and then create a new automation rule. Select the search topics and filters you want to apply to your data set. Then, select the **Stream to Event Hubs** check box. In the **Azure Event Hubs** drop-down list, select the event hub to stream social posts to.  For detailed information and procedures about how to set up automation rules, see [Route posts using automation rules](../social-engagement/automation-rules.md).  
   
- ![Automation rule settings to stream social posts to Azure Event Hubs](../social-engagement/media/automation-rule-stream-to-event-hubs.png "Automation rule settings to stream social posts to Azure Event Hubs")  
+ ![Automation rule settings to stream social posts to Azure Event Hubs](media/automation-rule-stream-to-event-hubs.png "Automation rule settings to stream social posts to Azure Event Hubs")  
   
 > [!TIP]
->  If you find a data set that you want to use in an automation rule while working with the application, click the **More options with the current filters** button ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters"). This populates the filters of the automation rule with the currently-active filters for you. For more information about the areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that provide this feature, see [Explore more options with your data set](../social-engagement/more-options-with-data-set.md).  
+>  If you find a data set that you want to use in an automation rule while working with the application, click the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). This populates the filters of the automation rule with the currently-active filters for you. For more information about the areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that provide this feature, see [Explore more options with your data set](../social-engagement/more-options-with-data-set.md).  
   
  When [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] sends a social post as an event to an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], a JSON payload is sent to the connected event hub. Along with the default properties of the post, you can define custom key-value pairs to add when you set up the automation rule for a given data set. These additional properties will show in the metadata section of the JSON payload. More information: [JSON reference for events from Social Engagement](../social-engagement/event-hubs-json-reference-social-engagement.md)  
   

@@ -71,7 +71,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
   
 2.  Select the post you want to assign or reassign.  
   
-3.  Click **Assign this post** ![User symbol](../social-engagement/media/user-avatar-icon.png "User symbol").  
+3.  Click **Assign this post** ![User symbol](media/user-avatar-icon.png "User symbol").  
   
 4.  In the **set assignee** menu, select **User** or **Group** in the **All user type** drop-down list.  
   
@@ -92,9 +92,9 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
   
 2.  Go to **Social Center** to see your streams.  
   
-3.  Click a post to see post details, and next to the custom tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), click **Add** ![Add button](../social-engagement/media/add-icon.png "Add button"). Start typing to enter the  tag that you want to add, and then click **Confirm**.  
+3.  Click a post to see post details, and next to the custom tags symbol ![Tag symbol in Social Engagement](media/tag-symbol.png "Tag symbol in Social Engagement"), click **Add** ![Add button](media/add-icon.png "Add button"). Start typing to enter the  tag that you want to add, and then click **Confirm**.  
   
-4.  To remove tags,  click **remove** ![Delete button](../social-engagement/media/delete-icon.png "Delete button") next to the tag you want to remove.  
+4.  To remove tags,  click **remove** ![Delete button](media/delete-icon.png "Delete button") next to the tag you want to remove.  
   
 <a name="delete"></a>   
 ## Delete posts  

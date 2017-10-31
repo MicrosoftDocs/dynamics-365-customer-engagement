@@ -53,7 +53,7 @@ This topic introduces common user-interface elements and useful tips to work eff
 
 > [!VIDEO https://www.youtube.com/embed/04CVnYkXefU]
 
- ![Navigation bar in Social Engagement](../social-engagement/media/navigation-bar-explained.png "Navigation bar in Social Engagement")  
+ ![Navigation bar in Social Engagement](media/navigation-bar-explained.png "Navigation bar in Social Engagement")  
   
  The navigation controls are as follows:  
   
@@ -111,7 +111,7 @@ This topic introduces common user-interface elements and useful tips to work eff
 ## Get around in the Analytics area  
  In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
   
- ![Analytics area in Social Engagement](../social-engagement/media/analytics-areas-explained.png "Analytics area in Social Engagement")  
+ ![Analytics area in Social Engagement](media/analytics-areas-explained.png "Analytics area in Social Engagement")  
   
  All pages in the Analytics area share the following structure:  
   
@@ -149,7 +149,7 @@ This topic introduces common user-interface elements and useful tips to work eff
 ## Get around in the Settings area  
  Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Microsoft Social Engagement](../social-engagement/set-up-microsoft-social-engagement.md).  
   
- ![Settings area in Social Engagement](../social-engagement/media/settings-areas-explained.png "Settings area in Social Engagement")  
+ ![Settings area in Social Engagement](media/settings-areas-explained.png "Settings area in Social Engagement")  
   
 - **Page navigation**: Move between the different pages of the settings area. Each page lets you set options that apply system-wide or to individual users only. Depending on your user role, you may not see all pages in the area.  
   

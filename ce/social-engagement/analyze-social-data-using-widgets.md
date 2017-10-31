@@ -81,7 +81,7 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
 ## Export data from widgets and lists  
  To create your own visualizations or further process the data, you can export data points from widgets and lists to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] workbook.  
   
-- To export data from a widget, click the **Download the data into Excel** button ![Download the data into Excel](../social-engagement/media/export-data-icon.png "Download the data into Excel"). You’ll find the resulting [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file in your browser’s specified downloads folder.  
+- To export data from a widget, click the **Download the data into Excel** button ![Download the data into Excel](media/export-data-icon.png "Download the data into Excel"). You’ll find the resulting [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file in your browser’s specified downloads folder.  
   
 - To export data from a list, select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
   

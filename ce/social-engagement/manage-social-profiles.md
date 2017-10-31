@@ -65,7 +65,7 @@ Data acquisition and acquisition of private messages from your social profiles r
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](media/add-icon.png "Add button")).  
   
 3.  In the list, click **Facebook page**, and then click **Add**.  
   
@@ -82,7 +82,7 @@ You can allow Power Analysts and Administrators to create rules for direct messa
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](media/add-icon.png "Add button")).  
   
 3.  In the list, click **Facebook user**, and then click **Add**.  
   
@@ -94,7 +94,7 @@ You can allow Power Analysts and Administrators to create rules for direct messa
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](media/add-icon.png "Add button")).  
   
 3.  In the list, click **Twitter Account**, and then click **Add**.  
   
@@ -108,7 +108,7 @@ You can allow Power Analysts and Administrators to create rules for the direct m
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](media/add-icon.png "Add button")).  
   
 3.  In the list, click  **Instagram Account,** and then click **Add.**  
   
@@ -121,7 +121,7 @@ You can allow Power Analysts and Administrators to create rules for the direct m
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](media/add-icon.png "Add button")).  
   
 3.  In the list, click **LinkedIn Account**, and then click **Add**.  
   
@@ -136,7 +136,7 @@ Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](media/add-icon.png "Add button")).  
   
 3.  In the list, click **LinkedIn Page**, and then click **Add**.  
   
@@ -155,7 +155,7 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
 
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Click **Add social profile** (![Add button](../social-engagement/media/add-icon.png "Add button")).  
+2.  Click **Add social profile** (![Add button](media/add-icon.png "Add button")).  
   
 3.  In the list, select **[!INCLUDE[tn_youtube](../includes/tn-youtube.md)] Account,** and then click **Add.**
   
@@ -211,7 +211,7 @@ You can delete a social profile that you own. You can also delete a social profi
   
 2.  In the list of **Owned Profiles**, find the social profile that you want to delete.  
   
-3.  Click **Delete** (![Delete button](../social-engagement/media/trashbin-icon.png "Delete button")) next to the social profile name, and then click **Save**.  
+3.  Click **Delete** (![Delete button](media/trashbin-icon.png "Delete button")) next to the social profile name, and then click **Save**.  
   
  If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
   
@@ -223,7 +223,7 @@ You can delete a social profile that you own. You can also delete a social profi
   
 2.  In the **Shared Profiles** or **Profiles without owners** list, select the social profile that you want to claim ownership of.  
   
-3.  In the profile details pane, click **Claim ownership** (![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement")).  
+3.  In the profile details pane, click **Claim ownership** (![Claim ownership button in Social Engagement](media/claim-ownership-icon.png "Claim ownership button in Social Engagement")).  
   
 4.  To claim ownership, enter the required credentials in the dialog box.  
 

@@ -31,11 +31,11 @@ This topic helps you understand how you change the settings for your connections
 ## Edit an established connection  
  After you connect a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], it will show in the list on **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
- ![Microsoft Dynamics 365 Connections](../social-engagement/media/connected-dynamics-365-instances-list.png "Microsoft Dynamics 365 Connections")  
+ ![Microsoft Dynamics 365 Connections](media/connected-dynamics-365-instances-list.png "Microsoft Dynamics 365 Connections")  
   
  Click the row associated with the connection to open the **Dynamics 365 Instance** pane.  
   
- ![Dynamics 365 instance details](../social-engagement/media/dynamics-365-connection-settings-detailed.png "Dynamics 365 instance details")  
+ ![Dynamics 365 instance details](media/dynamics-365-connection-settings-detailed.png "Dynamics 365 instance details")  
   
 - **Name**: Shows the name of this connection to identify the instance quickly when creating a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The display name corresponds with your organization name in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], unless a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] administrator changes the name while setting up the connection. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Edit properties of an instance](http://go.microsoft.com/fwlink/p/?LinkId=723358)  
   
@@ -63,7 +63,7 @@ This topic helps you understand how you change the settings for your connections
   
 3.  In the **Dynamics 365 Instance** pane, set the **Set as default** option to ON.  
   
-4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
 <a name="deletionResult"></a>   
 ## Results of deleting a connection  
@@ -90,7 +90,7 @@ This topic helps you understand how you change the settings for your connections
   
 2.  Find the connected instance in the list of **Microsoft Dynamics 365 Connections**.  
   
-3.  Click the **Delete this connection to Dynamics 365** button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button").  
+3.  Click the **Delete this connection to Dynamics 365** button ![Delete button](media/trashbin-icon.png "Delete button").  
   
 4.  Confirm your deletion.  
   
@@ -137,7 +137,7 @@ This topic helps you understand how you change the settings for your connections
   
 3.  Set the **Enable instance** option to OFF.  
   
-4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
 > [!NOTE]
 >  If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance has expired or is in maintenance, details for linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records won’t be shown in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  

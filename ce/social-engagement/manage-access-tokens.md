@@ -39,9 +39,9 @@ manager: sakudes
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page/profile details panel, click re-authenticate ![Reauthenticate tokens button in Social Engagement](../social-engagement/media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under Allow data acquisition, and enter your log-in credentials.  
+2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page/profile details panel, click re-authenticate ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under Allow data acquisition, and enter your log-in credentials.  
   
-3.  Under **Use for search acquisition**, click the drop-down arrow next to the search acquisition symbol ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol") and select the checkbox next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The token will become active after you select the check box.  
+3.  Under **Use for search acquisition**, click the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the checkbox next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The token will become active after you select the check box.  
   
 4.  Click **Save**.  
   
@@ -49,9 +49,9 @@ manager: sakudes
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Select the appropriate social profile ([!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account) and in the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account details panel, click re-authenticate ![Reauthenticate tokens button in Social Engagement](../social-engagement/media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.  
+2.  Select the appropriate social profile ([!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account) and in the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account details panel, click re-authenticate ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.  
   
-3.  Under **Use for search acquisition**, click the drop-down arrow next to the search acquisition symbol ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. The token will become active after you select the check box.  
+3.  Under **Use for search acquisition**, click the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. The token will become active after you select the check box.  
   
 4.  Click **Save**.  
   
@@ -66,9 +66,9 @@ manager: sakudes
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] user details panel, click re-authenticate ![Reauthenticate tokens button in Social Engagement](../social-engagement/media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.  
+2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] user details panel, click re-authenticate ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.  
   
-3.  Under **Use for Search Acquisition**, click the drop-down arrow next to the search acquisition symbol ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol"), and then select the check box next to **Allow** to interact with posts and replies on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. The token will become active  after you select the check box.  
+3.  Under **Use for Search Acquisition**, click the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol"), and then select the check box next to **Allow** to interact with posts and replies on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. The token will become active  after you select the check box.  
   
 4.  Click **Save**.  
   
@@ -76,9 +76,9 @@ manager: sakudes
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Select the appropriate social profile, and in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page details panel, click **Re-authenticate** ![Reauthenticate tokens button in Social Engagement](../social-engagement/media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your  credentials.  
+2.  Select the appropriate social profile, and in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page details panel, click **Re-authenticate** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your  credentials.  
   
-3.  Under **Acquisition of private messages**, click the drop-down arrow next to the private messages symbol ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol") , and then select the check box next to **Allow** to acquire privates messages to and from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] account. The token will become active  after you select the check box.  
+3.  Under **Acquisition of private messages**, click the drop-down arrow next to the private messages symbol ![Private messages symbol](media/private-message-icon.png "Private messages symbol") , and then select the check box next to **Allow** to acquire privates messages to and from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] account. The token will become active  after you select the check box.  
   
 4.  Click **Save**.  
   
@@ -86,7 +86,7 @@ manager: sakudes
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile details panel, click **Re-authenticate** ![Reauthenticate tokens button in Social Engagement](../social-engagement/media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under **Allow interactions**, then enter your  credentials.    Under Acquisition of Private Messages, click the drop-down arrow next to the private messages symbol ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol") and select the check box next to **Allow** to acquire private messages to and from your [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account. The token will become active after you select the check box.  
+2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile details panel, click **Re-authenticate** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under **Allow interactions**, then enter your  credentials.    Under Acquisition of Private Messages, click the drop-down arrow next to the private messages symbol ![Private messages symbol](media/private-message-icon.png "Private messages symbol") and select the check box next to **Allow** to acquire private messages to and from your [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account. The token will become active after you select the check box.  
   
 3.  Click **Save**.  
   
@@ -94,7 +94,7 @@ manager: sakudes
 ## Re-authenticate a token  
  Expired tokens must be re-authenticated to continue data acquisition and interactions with posts.  You can also check the health state of your tokens in your lists of social profiles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](../social-engagement/social-profiles-health-state.md)  
   
-1.  Select the appropriate social profile and click **Re-authenticate** ![Claim ownership button in Social Engagement](../social-engagement/media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
+1.  Select the appropriate social profile and click **Re-authenticate** ![Claim ownership button in Social Engagement](media/claim-ownership-icon.png "Claim ownership button in Social Engagement").  
   
 2.  Enter the appropriate credentials.  
   
@@ -104,7 +104,7 @@ manager: sakudes
   
 1.  Go to **Settings** > **Social Profiles**.  
   
-2.  Select the appropriate social profile, and in the social profile panel click the Delete your token button ![Delete button](../social-engagement/media/delete-icon.png "Delete button") next to the token you want to delete.  
+2.  Select the appropriate social profile, and in the social profile panel click the Delete your token button ![Delete button](media/delete-icon.png "Delete button") next to the token you want to delete.  
   
 3.  Click **Save**.  
 

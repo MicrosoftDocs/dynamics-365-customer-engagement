@@ -30,7 +30,7 @@ Analyze your results and optimize your search queries regularly to make sure you
   
 3.  Review your keywords, inclusions, and exclusions. Add synonyms, alternative spellings, typos, abbreviations, and the singular or plural forms of your terms.  
   
-4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your edits and the updated search topic.  
+4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your edits and the updated search topic.  
   
  Using the updated rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] starts searching for posts immediately after you save the changed search topic. You’ll see the first results from the updated rules after a few minutes, when you set the analysis time frame to **Today** in Analytics. To see the newly-acquired posts, open the **Posts** view.  
   

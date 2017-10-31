@@ -27,7 +27,7 @@ Your search topics usually gather more data than you want to analyze at a given 
   
 ## To pass a data set to a different application area  
   
-1.  Click the **More options with current filters** button ![More options with current filters](../social-engagement/media/more-options-with-current-filters-icon.png "More options with current filters").  
+1.  Click the **More options with current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters").  
   
     - **Analytics**: In the filter section, below the nav bar.  
   

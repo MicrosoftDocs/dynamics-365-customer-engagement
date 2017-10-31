@@ -32,11 +32,11 @@ By default, machine learning is active for your organization, but you can turn i
   
 3.  On the **Sentiment** pane, clear the **Adaptive learning** check box.  
   
-4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
+4.  Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 Your organization’s sentiment analysis no longer learns from your users’ edits.  
   
-To turn machine learning on, select the **Adaptive learning** check box and click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button"). Your organization’s sentiment analysis will now be able to learn from your users’ edits.  
+To turn machine learning on, select the **Adaptive learning** check box and click **Save** ![Save button](media/save-icon.png "Save button"). Your organization’s sentiment analysis will now be able to learn from your users’ edits.  
 ## Reset your organization’s sentiment analysis  
 If you aren’t happy with the results of the sentiment analysis, you can always reset your organization’s sentiment analysis to the system default. This will discard all previously made edits and confirmations to sentiment values, and restart the learning from the system default.  
   

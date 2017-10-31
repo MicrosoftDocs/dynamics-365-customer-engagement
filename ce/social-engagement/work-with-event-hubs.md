@@ -35,11 +35,11 @@ topic-status: Drafting
   
 |Step|Description|Step|  
 |----------|-----------------|----------|  
-|![Step 1](../social-engagement/media/crm-ua-walkthrough-green-1.png "Step 1")|Create the event hub you will  stream data to.<br /><br /> You can skip this step if you already have an event hub to work with.|[Step 1: Create an event hub](#step1_create_event_hub)|  
-|![Step 2](../social-engagement/media/crm-ua-walkthrough-green-2.png "Step 2")|Establish the connection between [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].|[Step 2: Connect Social Engagement to the event hub](#step3_connect_to_event_hub)|  
-|![Step 3](../social-engagement/media/crm-ua-walkthrough-green-3.png "Step 3")|Define the data set that gets streamed as events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].|[Step 3: Create an automation rule to select the posts that get streamed to the event hub](#step3_create_automation_rule)|  
-|![Step 4](../social-engagement/media/crm-ua-walkthrough-green-4.png "Step 4")|Create an [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] job and write the query to further process your data.|[Step 4: Create an Azure Stream Analytics job](#step4_create_stream_analytics_job)|  
-|![Step 5](../social-engagement/media/crm-ua-walkthrough-green-5.png "Step 5")|Send the data to a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard.|[Step 5: Create a dashboard in Power BI](#step5_create_powerBI_dashboard)|  
+|![Step 1](media/crm-ua-walkthrough-green-1.png "Step 1")|Create the event hub you will  stream data to.<br /><br /> You can skip this step if you already have an event hub to work with.|[Step 1: Create an event hub](#step1_create_event_hub)|  
+|![Step 2](media/crm-ua-walkthrough-green-2.png "Step 2")|Establish the connection between [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].|[Step 2: Connect Social Engagement to the event hub](#step3_connect_to_event_hub)|  
+|![Step 3](media/crm-ua-walkthrough-green-3.png "Step 3")|Define the data set that gets streamed as events to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].|[Step 3: Create an automation rule to select the posts that get streamed to the event hub](#step3_create_automation_rule)|  
+|![Step 4](media/crm-ua-walkthrough-green-4.png "Step 4")|Create an [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] job and write the query to further process your data.|[Step 4: Create an Azure Stream Analytics job](#step4_create_stream_analytics_job)|  
+|![Step 5](media/crm-ua-walkthrough-green-5.png "Step 5")|Send the data to a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard.|[Step 5: Create a dashboard in Power BI](#step5_create_powerBI_dashboard)|  
   
 <a name="step1_create_event_hub"></a>   
 ### Step 1: Create an event hub  
@@ -54,13 +54,13 @@ topic-status: Drafting
   
     2.  Copy the **Connection String** for *SendRule*; we’ll need it again in the next step.  
   
- ![Access Azure event hub connections in Social Engagement](../social-engagement/media/event-hubs-connection-information.png "Access Azure event hub connections in Social Engagement")  
+ ![Access Azure event hub connections in Social Engagement](media/event-hubs-connection-information.png "Access Azure event hub connections in Social Engagement")  
   
 <a name="step3_connect_to_event_hub"></a>   
 ### Step 2: Connect Social Engagement to the event hub  
  Now that the event hub is ready to receive data, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your event hub using the Connection String provided for your event hub in the [Azure Portal](https://portal.azure.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)  
   
- ![Connect Social Engagement to Azure Event Hubs](../social-engagement/media/event-hub-connection-settings.png "Connect Social Engagement to Azure Event Hubs")  
+ ![Connect Social Engagement to Azure Event Hubs](media/event-hub-connection-settings.png "Connect Social Engagement to Azure Event Hubs")  
   
 <a name="step3_create_automation_rule"></a>   
 ### Step 3: Create an automation rule to select the posts that get streamed to the event hub  
@@ -70,7 +70,7 @@ topic-status: Drafting
   
 2.  In [Azure Portal](https://portal.azure.com/), check the dashboard of the event hub and verify that the events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] appear. Depending on the selected data set, it may take a while for new posts to get published on social media and pushed to the event hub.  
   
- ![Events from Social Engagement shown in a connected event hub](../social-engagement/media/verify-data-in-event-hubs.png "Events from Social Engagement shown in a connected event hub")  
+ ![Events from Social Engagement shown in a connected event hub](media/verify-data-in-event-hubs.png "Events from Social Engagement shown in a connected event hub")  
   
 <a name="step4_create_stream_analytics_job"></a>   
 ### Step 4: Create an Azure Stream Analytics job  
@@ -157,7 +157,7 @@ topic-status: Drafting
   
  **Axis:** *time*  
   
- ![Line chart in Microsoft Power BI](../social-engagement/media/power-bi-simple-chart.png "Line chart in Microsoft Power BI")  
+ ![Line chart in Microsoft Power BI](media/power-bi-simple-chart.png "Line chart in Microsoft Power BI")  
   
 2.  For the example 2, in step 4, we can select a map to visualize the data.  
   
@@ -167,7 +167,7 @@ topic-status: Drafting
   
  There are almost unlimited options to combine data from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with data from other applications or the Internet. The following picture shows you a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard that correlates weather data with the different types of intentions from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]'s machine-learning based intention analysis.  
   
- ![Power BI dashboard with Social Engagement intentions](../social-engagement/media/power-bi-dashboard-event-hub.png "Power BI dashboard with Social Engagement intentions")  
+ ![Power BI dashboard with Social Engagement intentions](media/power-bi-dashboard-event-hub.png "Power BI dashboard with Social Engagement intentions")  
   
 <a name="privacy"></a>   
 ### Privacy notice  

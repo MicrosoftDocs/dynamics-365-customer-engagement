@@ -31,7 +31,7 @@ To review the alerts that you created, go to **Message Center**.  The informatio
 |Alert symbol|Indicates whether the alert is enabled or paused. A gray symbol means that the alert is inactive. An orange symbol means that the alert is active.|
 |Alert name|Name you provided while setting up the alert.|
 |Alert type|Type of alert you set up.|
-|Delete button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button")|Delete an existing alert from the list if you no longer need it.|
+|Delete button ![Delete button](media/trashbin-icon.png "Delete button")|Delete an existing alert from the list if you no longer need it.|
 
 ## Create an alert
 
@@ -39,7 +39,7 @@ A simple way to create an alert is directly from within your analysis. Filters a
 
 1.  Go to the **Message Center**.
 
-2.  In the **Alerts** pane, click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").
+2.  In the **Alerts** pane, click the **Add** button ![Add button](media/add-icon.png "Add button").
 
 3.  In the alert configuration dialog box, define a name (up to 128 characters) for your alert.
 
@@ -78,7 +78,7 @@ You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that y
 
 1.  Go to the **Message Center**.
 
-2.  In the **Alerts** pane, find the alert that you want to delete, and then click the **Delete** button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button").
+2.  In the **Alerts** pane, find the alert that you want to delete, and then click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").
 
 3.  Confirm the deletion.
 

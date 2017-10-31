@@ -63,15 +63,15 @@ If you're a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.m
   
 1. In [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
-2. Click the **Add connection** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+2. Click the **Add connection** button ![Add button](media/add-icon.png "Add button").  
   
 3. Select the **Connection type** from the drop-down list.  
-![Add connection drop&#45;down list in Social Engagement](../social-engagement/media/dynamics-365-connection-drop-down-menu.png "Add connection drop-down list in Social Engagement")  
+![Add connection drop&#45;down list in Social Engagement](media/dynamics-365-connection-drop-down-menu.png "Add connection drop-down list in Social Engagement")  
   
 4. Provide the connection information for your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
   
     1. For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], select **Dynamics 365 (online)** and then click **Check Instances**  to automatically discover all available [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances from around the globe in your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant.  
-    ![Add connection dialog box in Social Engagement](../social-engagement/media/add-connection-details-dialog-box.png "Add connection dialog box in Social Engagement")  
+    ![Add connection dialog box in Social Engagement](media/add-connection-details-dialog-box.png "Add connection dialog box in Social Engagement")  
   
     2. Select the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance you want to connect to from the list of discovered [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances for the selected location. For more information about the discovery process, see [Discover the URL for your organization using the Web API](https://msdn.microsoft.com/library/mt607485.aspx).  
   
@@ -81,15 +81,15 @@ If you're a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.m
     >  If the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] discovery service endpoint is unresponsive, or results not returned, add the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance and name manually.  
   
     4. For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (on-premises), select **Dynamics 365 (On-Premises)** and add the details of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and provide a unique name to the connection.  
-    ![Add connection to Dynamics 365 &#40;on&#45;premises&#41;](../social-engagement/media/add-dynamics-365-connection.png "Add connection to Dynamics 365 (on-premises)")  
+    ![Add connection to Dynamics 365 &#40;on&#45;premises&#41;](media/add-dynamics-365-connection.png "Add connection to Dynamics 365 (on-premises)")  
   
-5.  Click **Next** ![Next button](../social-engagement/media/next-icon.png "Next button").  
+5.  Click **Next** ![Next button](media/next-icon.png "Next button").  
   
 6.  The **Dynamics 365 Instance** pane opens and shows you the details about the connected instance if the connection is successful.  
   
 7.  You can set the **Set as default** control to ON to have this instance selected by default when creating new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts.  
   
-8.  If you changed a value in the **Dynamics 365 Instance** pane, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to apply your changes.  
+8.  If you changed a value in the **Dynamics 365 Instance** pane, click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
 9. The connected [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is now listed in the main pane when you go to **Settings** > **Connections** > **Microsoft Dymanics Dynamics 365**.  
   

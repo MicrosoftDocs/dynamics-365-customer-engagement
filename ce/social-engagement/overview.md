@@ -20,7 +20,7 @@ The speed at which we do business, and the number of channels we're using to do 
 
 Social media is no longer relegated to a select few in the marketing department. Empower a broader set of employees and connect with customers by using [Social Engagement, part of Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=842309). [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. Service agents can meet customers on the channel of their choice&mdash;on social media or through more traditional service channels&mdash;to solve problems effectively. Sales teams can gather intelligence, source new leads, and build credibility through social selling. Marketers can measure and manage brand reputation. Employees in any role can leverage social insights to better understand the voice of the customer. You can harness the power of social media to go beyond likes or shares to create real, measurable business results.
 
-![analytics&#45;conversation&#45;view&#45;social&#45;engagement](../social-engagement/media/analytics-conversation-view-social-engagement.jpg "Social Engagement dashboard for conversations displaying charts and phrase clouds")
+![analytics&#45;conversation&#45;view&#45;social&#45;engagement](media/analytics-conversation-view-social-engagement.jpg "Social Engagement dashboard for conversations displaying charts and phrase clouds")
 
 ## Success stories
 

@@ -75,7 +75,7 @@ There’s a good chance that your customers and stakeholders are talking about y
 </table>
   
 > [!TIP]
->  To quickly access help topics when you're working with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], click the Help button ![Help button](../social-engagement/media/help-icon.png "Help button"), and then click **Help**.  
+>  To quickly access help topics when you're working with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], click the Help button ![Help button](media/help-icon.png "Help button"), and then click **Help**.  
   
 We welcome your feedback. Use the feedback link at the bottom of this page to share your comments with us.  
   

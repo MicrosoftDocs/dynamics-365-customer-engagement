@@ -22,16 +22,16 @@ It’s important to start with a clear idea of what kind of online information y
   
 1.  Go to **Search Setup**.  
   
-2.  In the **Search Topics** pane, click **Add Search Topic** ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **New Search topic** page.  
+2.  In the **Search Topics** pane, click **Add Search Topic** ![Add button](media/add-icon.png "Add button") to open the **New Search topic** page.  
   
 3.  Provide a name for your search topic in the **Name** text box and verify the category of your topic.  
   
     > [!NOTE]
     >  You can add search topic names that contain up to 35 characters. The search topic names are only for your reference; they aren’t included in the actual search. Search topic names are like titles for your search topics so you can quickly relate to and use or reuse them.  
   
-4.  If you want another user to be the owner of this search topic, click **Edit Owner** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") next the search topic owner and enter the user name in the search box or click the name in the list below.  
+4.  If you want another user to be the owner of this search topic, click **Edit Owner** ![Edit button](media/edit-icon.png "Edit button") next the search topic owner and enter the user name in the search box or click the name in the list below.  
   
-5.  Under **Rules**, click **Add Rule** ![Add button](../social-engagement/media/add-icon.png "Add button") to open the **Add Rule** page.  
+5.  Under **Rules**, click **Add Rule** ![Add button](media/add-icon.png "Add button") to open the **Add Rule** page.  
   
 6.  Select the rule type you want to create, and then provide the required information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find out what's covered by sources](../social-engagement/sources-coverage.md)  
   
@@ -39,7 +39,7 @@ It’s important to start with a clear idea of what kind of online information y
   
 8.  Add another search rule to your topic (optional).  
   
-9. In the **Search Topics** pane, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to store the search topic and start the data acquisition.  
+9. In the **Search Topics** pane, click **Save** ![Save button](media/save-icon.png "Save button") to store the search topic and start the data acquisition.  
   
     > [!NOTE]
     >  It will take some time for the first posts to be acquired for your newly-created topic. The delay also depends on how much volume your topic in general has. For example, a topic with high volume will give you results faster than a topic with lower volume. Make sure to check in Analytics and set your time frame to **Today** if you have set up a new topic and are expecting posts.  
@@ -56,7 +56,7 @@ To help you find relevant posts and be up to date with the business requirements
   
 3.  In the list of rules, click the rule you want to edit.  
   
-4.  Validate the updated rule, and then click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to update the search topic.  
+4.  Validate the updated rule, and then click **Save** ![Save button](media/save-icon.png "Save button") to update the search topic.  
   
 <a name="manage_ownership"></a>   
 ## Manage ownership of a search topic  
@@ -66,14 +66,14 @@ Administrators in your organization can change the owner of a search topic to en
   
 2.  In the list of search topics, click  the topic you want to edit.  
   
-3.  In the search topic settings pane, click **Edit Owner** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") next the search topic owner.  
+3.  In the search topic settings pane, click **Edit Owner** ![Edit button](media/edit-icon.png "Edit button") next the search topic owner.  
   
     > [!NOTE]
     >  You must have an Administrator role to edit the owner of a search topic.  
   
 4.  Enter the user name in the search box or click the name in the list below it.  
   
-5.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to update the search topic.  
+5.  Click **Save** ![Save button](media/save-icon.png "Save button") to update the search topic.  
   
 ## Delete a search topic  
   
@@ -82,7 +82,7 @@ Administrators in your organization can change the owner of a search topic to en
   
 1.  Go to **Search Setup**.  
   
-2.  In the list of search topics, click the **Delete** button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button") by the topic you want to delete, and then confirm the deletion.  
+2.  In the list of search topics, click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") by the topic you want to delete, and then confirm the deletion.  
   
     > [!NOTE]
     >  Deleting a search topic has the following effects:  

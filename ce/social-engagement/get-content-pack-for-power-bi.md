@@ -26,44 +26,44 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 1.  Go to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] and select **Get Data** at the bottom of the left navigation pane.  
   
- ![Get Data button in Power BI](../social-engagement/media/content-pack-get-data.png "Get Data button in Power BI")  
+ ![Get Data button in Power BI](media/content-pack-get-data.png "Get Data button in Power BI")  
   
 2.  In the **Services** box, select **Get**.  
   
- ![Get data from services to show in Power BI](../social-engagement/media/content-pack-get-services.png "Get data from services to show in Power BI")  
+ ![Get data from services to show in Power BI](media/content-pack-get-services.png "Get data from services to show in Power BI")  
   
 3.  Search for **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]**, select the content pack from the results, and then click **Get it now**.  
   
- ![Select Social Engagement from the list of content packs](../social-engagement/media/content-pack-select-social-engagement.png "Select Social Engagement from the list of content packs")  
+ ![Select Social Engagement from the list of content packs](media/content-pack-select-social-engagement.png "Select Social Engagement from the list of content packs")  
   
 4.  Provide the **Solution ID** (not the full URL) of the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance you want to connect to, choose the time frame you want to import and click **Next**.  For more information how to find the **Solution ID**, see [Troubleshooting](#troubleshooting).  
   
- ![Set the solution id and the time frame of the data](../social-engagement/media/content-pack-solutionid.png "Set the solution id and the time frame of the data")  
+ ![Set the solution id and the time frame of the data](media/content-pack-solutionid.png "Set the solution id and the time frame of the data")  
   
     > [!IMPORTANT]
     >  Choose an appropriate time frame based on the interaction data volume in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to avoid potentially long loading times. We recommend keeping the total number of posts with actions imported into [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] under 100,000.  
   
 5.  For **Authentication method**, select **oAuth2** and then click **Sign in**.  
   
- ![Select the oAuth2 authentication method](../social-engagement/media/content-pack-select-oauth2.png "Select the oAuth2 authentication method")  
+ ![Select the oAuth2 authentication method](media/content-pack-select-oauth2.png "Select the oAuth2 authentication method")  
   
      The first time you connect, [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] may prompt you to allow read-only access to your account.  
   
      Select **Grant** to begin the import process. The import process can take a few minutes depending on the volume of data in your solution and will gather data for social posts that users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interacted with.  
   
- ![Sign in to your Office 365 account](../social-engagement/media/content-pack-office365-sign-in.png "Sign in to your Office 365 account")  
+ ![Sign in to your Office 365 account](media/content-pack-office365-sign-in.png "Sign in to your Office 365 account")  
   
 6.  After [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] imports the data you will see a new dashboard, report, and dataset in the left navigation pane. New items are marked with a yellow asterisk *:  
   
- ![Sidebar in Power BI with highlighted controls](../social-engagement/media/content-pack-sidebar-powerbi.png "Sidebar in Power BI with highlighted controls")  
+ ![Sidebar in Power BI with highlighted controls](media/content-pack-sidebar-powerbi.png "Sidebar in Power BI with highlighted controls")  
   
 7.  Select the **Social Engagement Performance** dashboard. It may take a while initially to show the data.  
   
- ![Processing the data import in Power BI](../social-engagement/media/content-pack-importing-data.png "Processing the data import in Power BI")  
+ ![Processing the data import in Power BI](media/content-pack-importing-data.png "Processing the data import in Power BI")  
   
      Once your data is imported you can see the default dashboard that [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] creates to display your data. You can modify this dashboard to display your data in any way you want.  
   
- ![Dashboard with Social Engagmeent data in Power BI](../social-engagement/media/content-pack-social-engagement-dashboard.jpg "Dashboard with Social Engagement data in Power BI")  
+ ![Dashboard with Social Engagmeent data in Power BI](media/content-pack-social-engagement-dashboard.jpg "Dashboard with Social Engagement data in Power BI")  
   
 ### What's next?  
   

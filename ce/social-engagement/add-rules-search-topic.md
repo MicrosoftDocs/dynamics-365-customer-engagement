@@ -20,19 +20,19 @@ Search topics consist of one or more search rules and define the data that's ava
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] supports the following search rules. 
 You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator or Power Analyst to create or modify search topics.
 
-- **[Keywords rule](#add-a-keywords-rule)** ![Keywords symbol](../social-engagement/media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query that consists of keywords, inclusions, and exclusions.
+- **[Keywords rule](#add-a-keywords-rule)** ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query that consists of keywords, inclusions, and exclusions.
 
-- **[Facebook pages rule](#add-a-facebook-pages-rule)** ![Facebook symbol](../social-engagement/media/facebook-source-icon.png "Facebook symbol"): Gather all public posts and comments from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.
+- **[Facebook pages rule](#add-a-facebook-pages-rule)** ![Facebook symbol](media/facebook-source-icon.png "Facebook symbol"): Gather all public posts and comments from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.
 
-- **[Twitter rule](#add-a-twitter-rule)** ![Twitter symbol](../social-engagement/media/twitter-icon.png "Twitter symbol"): Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.
+- **[Twitter rule](#add-a-twitter-rule)** ![Twitter symbol](media/twitter-icon.png "Twitter symbol"): Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.
 
-- **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](../social-engagement/media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts
+- **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts
 
-- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](../social-engagement/media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and [allows private messages acquisition](../social-engagement/manage-access-tokens.md#tokens-for-data-acquisition).
+- **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that is authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and [allows private messages acquisition](../social-engagement/manage-access-tokens.md#tokens-for-data-acquisition).
 
-- **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](../social-engagement/media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
+- **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
-- **[YouTube rule](#add-a-includetnyoutubeincludestn-youtubemd-rule)** ![YouTube symbol](../social-engagement/media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
+- **[YouTube rule](#add-a-includetnyoutubeincludestn-youtubemd-rule)** ![YouTube symbol](media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
 
 - **[LinkedIn page rule](#linkedin-page-rule)**: Gather posts from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages
   
@@ -55,7 +55,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
   
 2.  In the list of search topics, select the search topic to add a rule to.  
   
-3.  Click **Add rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** pane.  
+3.  Click **Add rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** pane.  
   
 4.  Select the rule type that you want to add.  
   
@@ -66,7 +66,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
     > [!IMPORTANT]
     >  The solution checks the quota availability for the new rule and prompts you accordingly. If your quota can't accommodate the new rule, you can't save it.  
   
-7.  In the search topic pane, click **Save** (![Save button](../social-engagement/media/save-icon.png "Save button")) to activate your search topic, or click **Add** to add another rule to your topic.  
+7.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your search topic, or click **Add** to add another rule to your topic.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the eBook](http://go.microsoft.com/fwlink/p/?LinkID=394392)  
   
@@ -80,7 +80,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
   
 2.  Select the search topic that you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4.  Click **Keywords rule**.  
   
@@ -91,7 +91,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
     > [!IMPORTANT]
     >  The solution checks the quota availability for the new rule and prompts you accordingly. If your quota can't accommodate the new rule, you can't save it.  
   
-7.  In the search topic pane, click **Save** (![Save button](../social-engagement/media/save-icon.png "Save button")) to activate your rule.  
+7.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   
 ### Add keywords to search for  
 Keywords define the terms and phrases to listen for. Keywords are exact but not case-sensitive. We recommend that you include variations of keywords. For example, if your keyword is **phone** and the term that appears in a post is **phones**, your result won't be selected by the search rule and the result won't show up in your analysis. For each keyword, the comma serves as an OR. If you add more than one search term, your search rule looks for at least one of the listed terms. To increase the likelihood of getting the results you want, think about adding acronyms and common contractions.  
@@ -172,7 +172,7 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
   
 2.  Select the search topic that you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4.  Click **Facebook pages rule**.  
   
@@ -185,11 +185,11 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
      Select a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page from the social profiles that you added.  
   
     > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles or pages to a rule in one step by clicking **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")) next to each page.  
+    >  You can also add multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles or pages to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each page.  
   
 7.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
-8.  In the search topic pane, click **Save** (![Save button](../social-engagement/media/save-icon.png "Save button")) to activate your rule.  
+8.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   
 <a name="addTwitterRule"></a>   
 ## Add a Twitter rule  
@@ -201,7 +201,7 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and a
   
 2.  Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4.  Click **Twitter rule**.  
   
@@ -216,13 +216,13 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and a
      Select a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile from social profiles that have already been added. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)  
   
     > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles to a rule in one step by clicking **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")) next to each profile.  
+    >  You can also add multiple [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
   
 7.  Select the message types that you want to add to this rule.  
   
 8.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
-9. In the search topic pane, click **Save** (![Save button](../social-engagement/media/save-icon.png "Save button")) to activate your rule.  
+9. In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   
 <a name="instagram_rule"></a>   
 ## Add an Instagram rule  
@@ -232,14 +232,14 @@ Create rules to gather posts from [!INCLUDE[tn_instagram](../includes/tn-instagr
   
 2.  Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4.  Click **Instagram rule**.  
   
 5.  In the search field, enter the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] @username that you want to track.  
   
     > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts to a rule in one step by clicking **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")) next to each profile.  
+    >  You can also add multiple [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
   
 6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
@@ -257,18 +257,18 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
   
 2.  Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4.  Click **Private messages rule**.  
   
 5.  Select the social profile for which you want the private messages to be available in Analytics. Keep in mind that you can only choose from social profiles whose owners explicitly allowed data acquisition for private messages.  
   
     > [!NOTE]
-    >  You can also add multiple social profiles to a private messages rule in one step by clicking **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")) next to each profile.  
+    >  You can also add multiple social profiles to a private messages rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
   
 6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
-7.  In the search topic pane, click **Save** (![Save button](../social-engagement/media/save-icon.png "Save button")) to activate your rule.  
+7.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   
 <a name="customSourceRule"></a>   
 ## Add a custom sources rule 
@@ -281,16 +281,16 @@ Create rules to gather posts from custom sources. You can also create keyword ru
   
 2.  Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4.  Click **Custom sources rule** in the **Add Rule** pane to add the rule to the search topic.  
   
 5.  In the list of results, select a custom source group, and then click **Continue**.  
   
     > [!NOTE]
-    >  You can also add multiple custom sources to a custom sources rule in one step by clicking **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")) next to each profile.  
+    >  You can also add multiple custom sources to a custom sources rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
   
-6.  In the search topic pane, click **Save** (![Save button](../social-engagement/media/save-icon.png "Save button")) to activate your rule. 
+6.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule. 
 
 ## Add a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rule
 
@@ -303,14 +303,14 @@ Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtub
   
 2.  Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4.  Click **YouTube rule**.  
   
 5.  In the search field, enter the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel name that you want to track or select a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile from the list.
   
     > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to a rule in one step by clicking **Add** (![Add button](../social-engagement/media/add-icon.png "Add button")) next to each channel.  
+    >  You can also add multiple [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each channel.  
   
 6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
 
@@ -323,7 +323,7 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
   
 2. Select the search topic you want to add the rule to, or create a new search topic.  
   
-3. Under **Rules**, select **Add new rule** (![Add button](../social-engagement/media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3. Under **Rules**, select **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
 4. Select **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page rule**.  
   
