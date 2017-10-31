@@ -35,5 +35,5 @@ For accessibility information for specific browsers, visit the following website
 For more information on detailed accessibility features built into Microsoft products, refer to [Section 508 VPATs for Microsoft products](https://enterprise.microsoft.com/en-us/industries/government/section-508-vpats-for-microsoft-products/).  
   
 ### See Also  
-[Get connected to the social conversation using Microsoft Social Engagement](../social-engagement/get-connected-social-conversation.md)
+[Get connected to the social conversation using Microsoft Social Engagement](get-connected-social-conversation.md)
  
