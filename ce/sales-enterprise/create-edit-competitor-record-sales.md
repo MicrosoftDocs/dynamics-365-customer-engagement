@@ -54,6 +54,6 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
   
 5.  To associate a competitor with an opportunity, in the **Opportunity** area, choose ![Add button](../sales-enterprise/media/add-button.PNG "Add button"). In the **Search** box, choose the Lookup icon, and then select an opportunity from the results.  
 
-[//]: # (Edit okay? Otherwise this link doesn't have any context.)
+
 ### See also  
 [Competitor Win Loss report](../basics/sales-insights-reports.md#BKMK_CompetitorWinLoss)

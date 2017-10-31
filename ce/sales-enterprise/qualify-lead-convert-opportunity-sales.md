@@ -75,7 +75,6 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
   
-[//]: # (It's okay if a link doesn't exactly match the title of the destination article, if it helps make it clear why you're sending the reader there.)
  ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
 ### See also  

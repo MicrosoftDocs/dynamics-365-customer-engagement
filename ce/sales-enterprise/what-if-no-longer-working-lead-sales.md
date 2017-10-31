@@ -1,7 +1,7 @@
 ---
 title: "What if you're no longer working a lead? (Dynamics 365 for Sales) | MicrosoftDocs"
-description: ""
-keywords: ""
+description: "Learn more how and when to disqualify a lead."
+keywords: "disqualify, delete, lead"
 ms.date: 09/22/2017
 ms.service: crm-online
 ms.custom: 
@@ -28,7 +28,6 @@ Let's say you've been talking to a lead and you determine that continuing to wor
   
 You'll need to disqualify the lead and give the reason.  
 
-[//]: # (Editor's note: I deleted "allows" in the Note because the Writing Style Guide wants us to focus on what the reader can do, rather than what the software "allows," "lets," or "enables" them to do.)
 > [!NOTE]
 >  Although you can delete the lead, we don't recommend it. Deletions can't be undone, and deleting a lead also deletes any notes and documents associated with the lead. Instead, disqualify the lead to preserve the history of the work you've done. In addition, when you disqualify a lead you can reopen it later.  
   

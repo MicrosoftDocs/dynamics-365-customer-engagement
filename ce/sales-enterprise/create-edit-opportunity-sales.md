@@ -24,16 +24,15 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[//]: # (Suggest deleting "it's" because leads should always be referred to by using "who." Also, the sentence sounds just fine without it.)
 An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win.  
   
- At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
 <a name="bkmk1"></a>   
 ## Create an opportunity (Sales Hub)
 
 [//]: # (Adding italic in the introduction is suggested because you're defining--or at least, linking to a definition--of these terms. Using lowercase "or" between the alternative steps is something I've recently discovered in the Writing Style Guide. The "site map" wording is edited to be consistent with the content I've seen and I've edited myself, but I will explicitly verify this with Renee.)
-If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../qualify-lead-convert-opportunity-sales.md)
+If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../qualify-lead-convert-opportunity-sales.md)
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
 
 2. If you've qualified a lead to an opportunity, open the opportunity from the list.
@@ -72,7 +71,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 8.	To save your changes, on the command bar, select **Save**.
 
-9.	Add products to your opportunity. [!include[](../includes/proc-more-information.md)] [Add products to an opportunity](#add-products-to-an-opportunity-sales-hub) 
+9.	Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](#add-products-to-an-opportunity-sales-hub) 
 
 10.	Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
     
@@ -95,7 +94,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
     - **Present Proposal**  
 
 [//]: # (Rewording the topic title is suggested, so the keyword occurs earlier.)
-The next step is to create a quote and send it to your customer. [!include[](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../create-edit-quote-sales.md)
+The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../create-edit-quote-sales.md)
 
 <a name="bkmk2"></a>   
 ## Add products to an opportunity (Sales Hub)
@@ -145,7 +144,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 
 <a name="bkmk4"></a>   
 ## Create an opportunity  (Sales app)
- If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!include[](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
 
  If you want to create an opportunity without first creating a lead, do the following:  
   
@@ -157,7 +156,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 4.  In the **Details** area of the **Opportunity** form, enter information about your opportunity's industry and preferred contact method.  
   
-5.  Add any notes and activities (for example, phone calls or emails) related to this opportunity. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+5.  Add any notes and activities (for example, phone calls or emails) related to this opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
 6.  To add stakeholders, in the **Stakeholders** area, select **+**.  
   
@@ -167,9 +166,9 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 9.  To add products, in the **Products** area, select **+**.  
   
-10. To add a quote, in the **Quotes** area, select **+**. [!include[](../includes/proc-more-information.md)] [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
+10. To add a quote, in the **Quotes** area, select **+**. [!include[proc-more-information](../includes/proc-more-information.md)] [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
   
-11. Select **Save** in the lower-right corner of the screen.  
+11. Select **Save** in the lower-right corner of the screen. 
   
   
 <a name="bkmk5"></a>   
@@ -179,7 +178,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 -   If other people in your organization are working on this sale, be sure to add them as sales team members.  
   
--   Nurture your opportunities through a marketing campaign. [!include[](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md) (applies to the Sales app only)
+-   Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md) (applies to the Sales app only)
   
 <a name="bkmk6"></a>   
 ## Tips and tricks  

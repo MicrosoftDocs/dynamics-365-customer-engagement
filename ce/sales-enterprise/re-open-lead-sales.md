@@ -17,7 +17,7 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 4
-topic-status: Drafting
+topic-status: Fixing Edits
 ---
 
 # Reopen a lead (Sales and Sales Hub)

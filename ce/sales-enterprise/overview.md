@@ -1,20 +1,25 @@
 ---
 title: "Sales Overview (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
+description: "Get an overview of the sales offerings from Dynamics 365."
+keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365, sales person, sales manager"
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: get-started-article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 0abe6dc4-c8bc-4d09-a29f-e41218e08927
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 9
-ms.author: "shujoshi"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 [//]: # (Description and keywords are missing from metadata in this topic and some others in the docset. These fields are mandatory for our content, as far as I know.)
 # Overview of Sales and Sales Hub
 
@@ -22,11 +27,9 @@ manager: "sakudes"
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
-[//]: # (Edit to the last sentence--and similar sentences later in the topic--is suggested, to avoid ending the paragraph with a colon. Colons are reserved for introducing lists and clauses within sentences. I believe this is a screen reader issue.)
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales app.
 
-[//]: # (Can you make this alt text more descriptive? Also, it should refer to the Sales menu rather than the site map. The Writing Style Guide suggests "[i]f you do embed text in images, use alt text to describe the embedded text." A good Loc-friendly and screen reader-friendly alternative would be to add numbered callouts to the image, and add the explanatory text underneath it.)
-![Sales sitemap capabilities](../sales-enterprise/media/sales_overview_intro.png "Sales site map capabilities")
+![Menu of the Sales app](../sales-enterprise/media/sales_overview_intro.png "Menu of the Sales app")
 
 ## Available anywhere, on any device
 

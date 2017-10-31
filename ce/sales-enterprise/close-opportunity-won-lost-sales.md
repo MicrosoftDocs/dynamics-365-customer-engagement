@@ -24,7 +24,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[//]: # (In step 3, I changed "**Opportunity** screen" to **Opportunity** form", based on usage through the rest of the topics and also the usage I've seen throughout our docset. If we've decided to use "screen", please let me know and I'll make sure to edit to the new terminology.)
 If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.  
   
 1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  

@@ -24,7 +24,6 @@ topic-status: Tech Reviewing
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[//]: # (Second sentence edit: suggested, to avoid using "it" in reference to a lead.)
 In the Sales app, you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
 <a name="bkmk1"></a>   
@@ -32,15 +31,21 @@ In the Sales app, you use leads to keep track of business prospects that you hav
   
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**. 
   
-2.  Select **+ New**.  
-  
-3.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
+2.  Select **+ New**.
 
-4.	In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+3.  Follow the process bar to enter data into fields and move the lead to the next stage. 
+
+    > [!NOTE]
+
+    > On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
   
-5.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
+4.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
+
+5.	In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+  
+6.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
    
-6.  On the command bar, select **Save**.  
+7.  On the command bar, select **Save**.  
 
 <a name="bkmk2"></a>   
 ## Create a lead  (Sales app)
@@ -48,9 +53,9 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
   
 2.  Select **New**.  
-  
+ 
 3.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
-  
+
 4.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
   
 5.  Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
