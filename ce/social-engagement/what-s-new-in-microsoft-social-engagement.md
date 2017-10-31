@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/05/2017
+ms.date: 10/31/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,33 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.10
+
+### Update to alert emails
+
+Alert emails now provide a link to the Analytics area in the Social Engagement app where you can see the posts that match the data set which triggered the alert. Post content is no longer delivered as part of the email message. These links now also reflect changed alert configurations and deleted alerts
+
+### Updated user experience for activity maps
+
+In order to make activity maps more accessible to anyone, we introduced shapes as an additional mean of information on the activity maps. Sentiment values and age of posts are now expressed in color and shape. 
+
+### New video training on Microsoft Virtual Academy
+
+Learn how to build search topics and navigate Social Engagement to get the most out of it. Plus, examine different strategies for managing your social presence.
+Explore the social engagement circle and social strategy, and look at brand reputation and social business opportunities. Take a look at post consumption and analytics, configure social to Dynamics 365 automation options, and much more.
+
+[Learn more in the Microsoft Social Engagement course on MVA.](https://go.microsoft.com/fwlink/p/?linkid=861639)
+
+
+### New quota extensions available 
+
+Next to the 10k monthly quota packages, new quota extensions with 100k and 1M monthly posts are now available on Microsoft Products and Services Agreement (MPSA). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations with 250 or more users/devices. 
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
+
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.9
 
