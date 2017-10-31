@@ -32,7 +32,7 @@ An opportunity is a lead who is now almost ready to buy&mdash;in other words, a 
 ## Create an opportunity (Sales Hub)
 
 [//]: # (Adding italic in the introduction is suggested because you're defining--or at least, linking to a definition--of these terms. Using lowercase "or" between the alternative steps is something I've recently discovered in the Writing Style Guide. The "site map" wording is edited to be consistent with the content I've seen and I've edited myself, but I will explicitly verify this with Renee.)
-If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../qualify-lead-convert-opportunity-sales.md)
+If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
 
 2. If you've qualified a lead to an opportunity, open the opportunity from the list.
@@ -94,7 +94,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
     - **Present Proposal**  
 
 [//]: # (Rewording the topic title is suggested, so the keyword occurs earlier.)
-The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../create-edit-quote-sales.md)
+The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
 
 <a name="bkmk2"></a>   
 ## Add products to an opportunity (Sales Hub)
