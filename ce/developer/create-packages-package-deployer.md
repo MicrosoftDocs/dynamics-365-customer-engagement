@@ -13,23 +13,25 @@ ms.assetid: 8def31d9-ee2a-4527-a29a-f16b53fc9229
 caps.latest.revision: 59
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create packages for the Dynamics 365 Package Deployer
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instances. A “package” can consist of any or all of the following:  
   
--   One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
+- One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
   
--   Flat files or exported configuration data file from the Configuration Migration tool. For more information about the tool, see [Manage your configuration data](https://technet.microsoft.com/library/dn647421.aspx).  
+- Flat files or exported configuration data file from the Configuration Migration tool. For more information about the tool, see [Manage your configuration data](https://technet.microsoft.com/library/dn647421.aspx).  
   
--   Custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+- Custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
--   HTML content specific to the package that can display at the beginning and end of the deployment process. This can be useful to provide a description of the solutions and files that are deployed in the package.  
+- HTML content specific to the package that can display at the beginning and end of the deployment process. This can be useful to provide a description of the solutions and files that are deployed in the package.  
   
- [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides you with a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating these packages that can be used with the Package Deployer tool to deploy them to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.
-  
-> [!NOTE]
->  With the CRM Online 2016 Update 1 and CRM 2016 Service Pack 1 (on-premises) release, the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating         Dynamics 365 packages was enhanced to add support for new features such as runtime parameter support;import multiple language configuration files using a single package; ability to         control whether to override or maintain customization while updating solutions; and more. Existing package projects can be updated to take advantage of the new feature set by updating the [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] assemblies using NuGet to version 8.1 or later.
+[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
+
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides you with a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating these packages that can be used with the Package Deployer tool to deploy them to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.
   
 <a name="Prereq"></a>   
 ## Prerequisites  
@@ -42,11 +44,9 @@ manager: "jdaly"
   
 - [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it in one of the following ways:  
+-  Microsoft Dynamics CRM SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics CRM SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
-    -   [Download the CRM SDK templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
-  
-    -   [Download and extract the CRM SDK package](http://go.microsoft.com/fwlink/p/?LinkID=627298). The templates file, CRMSDKTemplates.vsix, is located in the SDK\Templates folder. Double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+
   
 <a name="HowTo"></a>   
 ## Create a package  

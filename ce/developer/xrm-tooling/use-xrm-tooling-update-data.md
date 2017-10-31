@@ -14,17 +14,21 @@ ms.assetid: 8ec3d4ca-d836-4e7e-b2bf-9d9f806bd145
 caps.latest.revision: 14
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use XRM tooling to update data
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 There are two methods available in the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for updating data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement: [Guid)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.updateentity\(system.string,system.string,system.guid,system.collections.generic.dictionary{system.string,microsoft.xrm.tooling.connector.crmdatatypewrapper},system.string,system.boolean,system.guid\)) and [Guid)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.updatestateandstatusforentity\(system.string,system.guid,system.string,system.string,system.guid\)).  
   
  An update action using XRM Tooling API requires a data payload. The data payload takes the form of a Dictionary\<string, CrmDataTypeWrapper> object. <xref:Microsoft.Xrm.Tooling.Connector.CrmDataTypeWrapper> is used to inform the interface what sort of handling needs to be applied to the data point you are referencing.  
   
 ## UpdateEntity  
+
  This is the anchor method for updating any record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], with the exception of setting status or state of a record. To use it, you need to know the following information: schema name of the entity you want to update, the primary key field of the entity you want to update, the GUID of the record you want to update, and finally the data payload array to update it with.  
   
-```  
+```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", “<Domain>”),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected  
@@ -70,7 +74,8 @@ else
   
 ```  
   
-## UpdateStateAndStatusForEntity  
+## UpdateStateAndStatusForEntity 
+ 
  This method is used to set the state of a record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. For example, all records generally start in an “open” state. The name of the state changes based on the kind of record, or even the developers choices. A quote, for example, has several possible status and states, **Draft**, **Active**, **Close**, **Lost**, **Won**.  
   
 > [!TIP]
@@ -78,7 +83,7 @@ else
   
  Updating the state of an entity requires that you know what the target state and status are, either by the names or IDs. Both the names and the IDs can be found by querying the metadata for the entity and looking at the status and state fields. In this example, we will demonstrate how to set the status of an account record to **Inactive**.  
   
-```  
+```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", “<Domain>”),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected  
@@ -113,6 +118,7 @@ else
 ```  
   
 ### See also  
+
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
  [Use XRM Tooling to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
  [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)   

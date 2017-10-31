@@ -14,9 +14,12 @@ ms.assetid: 6edb9094-bde0-4e5d-bb57-957676c86bec
 caps.latest.revision: 57
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Change application navigation using the SiteMap
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The      site map enables you to control the application navigation (menus) and other options in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement such as editing labels, adding or changing icons, and adding or changing elements.  
   
 <a name="BKMK_ApplicaitonNavigation"></a>   

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # TopicModel Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The model for automatic identification of topics using text analytics.
 
 **Added by**: Service Solution<br />

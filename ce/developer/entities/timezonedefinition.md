@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # TimeZoneDefinition Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Time zone definition, including name and time zone code.
 
 

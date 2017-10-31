@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # KnowledgeArticle Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Organizational knowledge for internal and external use.
 
 

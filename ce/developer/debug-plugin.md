@@ -14,9 +14,12 @@ ms.assetid: b4bbe405-a56f-450b-acd9-0c063cf35990
 caps.latest.revision: 60
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Debug a plug-In
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. To debug a plug-in that executes in the sandbox on [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement, you must be using tracing as described later in this topic.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]

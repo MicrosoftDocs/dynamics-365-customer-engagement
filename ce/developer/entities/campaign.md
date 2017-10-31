@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Campaign Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
 
 **Added by**: Marketing Solution<br />

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BusinessProcessFlowInstance Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Active path associated with every Business Process Flow instance
 
 

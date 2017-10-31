@@ -14,9 +14,11 @@ ms.assetid: 53eafd67-385a-485b-9022-5127df08ea2f
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use Web API actions
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Actions and functions represent re-usable operations you can perform using the Web API. Use a POST request with actions listed in <xref:Microsoft.Dynamics.CRM.ActionIndex> to perform operations that have side effects. You can also define custom actions and they’ll be available for you to use.
 
@@ -43,7 +45,7 @@ Actions and functions represent re-usable operations you can perform using the W
 
  **Request**
 
- ```http
+```http
 POST [Organization URI]/api/data/v9.0/WinOpportunity HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
@@ -62,7 +64,7 @@ OData-Version: 4.0
 
  **Response**
 
- ```http
+```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 ```
@@ -96,7 +98,7 @@ OData-Version: 4.0
 
  **Request**
 
- ```http
+```http
 POST [Organization URI]/api/data/v9.0/queues(56ae8258-4878-e511-80d4-00155d2a68d1)/Microsoft.Dynamics.CRM.AddToQueue HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
@@ -109,7 +111,6 @@ OData-Version: 4.0
   "@odata.type": "Microsoft.Dynamics.CRM.letter"
  }
 }
-
 ```
 
  **Response**
@@ -124,14 +125,13 @@ OData-Version: 4.0
  "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.AddToQueueResponse",
  "QueueItemId": "5aae8258-4878-e511-80d4-00155d2a68d1"
 }
-
 ```
 
 <a name="bkmk_customActions"></a>
 
 ## Use a custom action
 
- If you define custom actions for your organization or solution these will also be included in the [CSDL metadata document](web-api-types-operations.md#bkmk_csdl). For information about creating actions using the customization tools in the application, see the TechNet topic [Actions](https://technet.microsoft.com/library/dn531060.aspx). For information about creating and using your own custom actions, see [Create your own actions](create-own-actions.md).
+ If you define custom actions for your organization or solution these will also be included in the [CSDL metadata document](web-api-types-operations.md#bkmk_csdl). For information about creating actions using the customization tools in the application, see the TechNet topic [Actions](https://technet.microsoft.com/library/dn531060.aspx). For information about creating and using your own custom actions, see [Create your own actions](../create-own-actions.md).
 
  Regardless of whether the operations included in your custom action have side effects, they can potentially modify data and therefore are considered actions rather than functions. There is no way to create a custom function.
 
@@ -178,7 +178,7 @@ OData-Version: 4.0
 
  **Request**
 
- ```http
+```http
 POST [Organization URI]/api/data/v9.0/contacts(94d8c461-a27a-e511-80d2-00155d2a68d2)/Microsoft.Dynamics.CRM.new_AddNoteToContact HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
@@ -189,7 +189,6 @@ OData-Version: 4.0
  "NoteTitle": "New Note Title",
  "NoteText": "This is the text of the note"
 }
-
 ```
 
 
@@ -205,7 +204,6 @@ OData-Version: 4.0
  "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#annotations/$entity",
  "annotationid": "9ad8c461-a27a-e511-80d2-00155d2a68d2"
 }
-
 ```
 
 <a name="bkmk_specifyentityparametertype"></a>
@@ -220,14 +218,12 @@ OData-Version: 4.0
  Two other examples are <xref href="Microsoft.Dynamics.CRM.AddMembersTeam?text=AddMembersTeam Action" /> and <xref href="Microsoft.Dynamics.CRM.RemoveMembersTeam?text=RemoveMembersTeam Action" /> because the `Members` parameter is a collection of  <xref href="Microsoft.Dynamics.CRM.systemuser?text=systemuser EntityType" /> which inherits it's `ownerid` primary key from the <xref href="Microsoft.Dynamics.CRM.principal?text=principal EntityType" />. If you pass the following JSON to represent a single systemuser in the collection, it is clear that the entity is a systemuser and not a <xref href="Microsoft.Dynamics.CRM.team?text=team EntityType" />, which also inherits from the principal entitytype.
 
 ```json
-
 {
  "Members": [{
   "@odata.type": "Microsoft.Dynamics.CRM.systemuser",
   "ownerid": "5dbf5efc-4507-e611-80de-5065f38a7b01"
  }]
 }
-
 ```
 
  If you do not specify the type of entity in this situation, you can get the following error: `"EdmEntityObject passed should have the key property value set."`.

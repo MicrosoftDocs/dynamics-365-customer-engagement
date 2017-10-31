@@ -20,9 +20,12 @@ ms.assetid: bb59d373-0d8c-48c0-86e4-bc7ff6d240ce
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Work with views
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement.  Download the complete sample from [Sample: Work with Views](https://code.msdn.microsoft.com/Work-with-Views-Sample-c3ac6658). 
 
 ## Prerequisites

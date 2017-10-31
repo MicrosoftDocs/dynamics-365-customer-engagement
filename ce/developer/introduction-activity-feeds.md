@@ -28,9 +28,12 @@ ms.assetid: 1b9e7311-36a6-4f57-a834-429651110515
 caps.latest.revision: 82
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Introduction to activity feeds
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 As a developer implementing collaboration scenarios with  activity feeds, you should become familiar with the activity feeds terminology, definitions and entity model.  
   
 <a name="BKMK_ActivityFeedsConcepts"></a>   

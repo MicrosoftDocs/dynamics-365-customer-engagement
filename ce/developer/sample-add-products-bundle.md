@@ -14,9 +14,12 @@ ms.assetid: 58197c02-43e2-4856-bf81-a37b32953b90
 caps.latest.revision: 9
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Add products to a bundle
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).  
 
 ## Prerequisites

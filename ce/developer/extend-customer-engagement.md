@@ -14,10 +14,13 @@ ms.assetid: 156dadf2-e2bf-496c-8d72-a94e71469fb1
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Extend Dynamics 365 Customer Engagement
-The extensibility platform is the heart of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. When you use the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)], you are building on top of this system. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform supports several types of deployments with the power of choice: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] installed on your own server (on-premises), or a hosted deployment of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The security model protects the platform from unauthorized access across the Web.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+The extensibility platform is the heart of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. When you use the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], you are building on top of this system. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform supports several types of deployments with the power of choice: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] installed on your own server (on-premises), or a hosted deployment of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The security model protects the platform from unauthorized access across the Web.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 

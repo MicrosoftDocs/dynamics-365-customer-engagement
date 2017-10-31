@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # navigate (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/navigate-description.md](./includes/navigate-description.md)]
 
 When you use the navigate method while unsaved changes exist, the user is prompted to save changes before the new form can be displayed. The **Onload** event occurs when the new form loads.

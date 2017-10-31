@@ -16,9 +16,12 @@ applies_to:
 ms.assetid: d10c5399-7e79-413c-9b8c-9e4f402fc167
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create and retrieve entity relationships
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic shows how to create and retrieve entity relationships.  
   
 <a name="BKMK_Create1NEntityRelationship"></a>   
@@ -26,8 +29,6 @@ This topic shows how to create and retrieve entity relationships.
  The following sample uses the [EligibleCreateOneToManyRelationship](#eligiblecreateonetomanyrelationship) method to verify that the `Account` and `Campaign` entities can participate in a 1:N entity relationship and then creates the entity relationship by using <xref:Microsoft.Xrm.Sdk.Messages.CreateOneToManyRequest>.  
   
  [!code-csharp[Relationships#WorkWithRelationships1](../../snippets/csharp/CRMV8/relationships/cs/workwithrelationships1.cs#workwithrelationships1)]  
-  
- [!code-vb[RelationshipsVB#WorkWithRelationships1](../../snippets/visualbasic/CRMV8/relationshipsvb/vb/workwithrelationships1.vb#workwithrelationships1)]  
   
 <a name="BKMK_EligibleCreateOneToManyRelationship"></a>   
 
@@ -37,8 +38,6 @@ This topic shows how to create and retrieve entity relationships.
   
  [!code-csharp[Relationships#WorkWithRelationships4](../../snippets/csharp/CRMV8/relationships/cs/workwithrelationships4.cs#workwithrelationships4)]  
   
- [!code-vb[RelationshipsVB#WorkWithRelationships4](../../snippets/visualbasic/CRMV8/relationshipsvb/vb/workwithrelationships4.vb#workwithrelationships4)]  
-  
 <a name="BKMK_CreateNNEntityRelationship"></a>   
 
 ## Create an N:N entity relationship  
@@ -46,8 +45,6 @@ This topic shows how to create and retrieve entity relationships.
  The following sample uses a [EligibleCreateManyToManyRelationship](create-retrieve-entity-relationships.md#BKMK_EligibleCreateManyToManyRelationship) method to verify that the `Account` and `Campaign` entities can participate in a N:N entity relationship and then creates the entity relationship by using <xref:Microsoft.Xrm.Sdk.Messages.CreateManyToManyRequest>.  
   
  [!code-csharp[Relationships#WorkWithRelationships2](../../snippets/csharp/CRMV8/relationships/cs/workwithrelationships2.cs#workwithrelationships2)]  
-  
- [!code-vb[RelationshipsVB#WorkWithRelationships2](../../snippets/visualbasic/CRMV8/relationshipsvb/vb/workwithrelationships2.vb#workwithrelationships2)]  
   
 <a name="BKMK_EligibleCreateManyToManyRelationship"></a>   
 
@@ -57,15 +54,11 @@ This topic shows how to create and retrieve entity relationships.
   
  [!code-csharp[Relationships#WorkWithRelationships3](../../snippets/csharp/CRMV8/relationships/cs/workwithrelationships3.cs#workwithrelationships3)]  
   
- [!code-vb[RelationshipsVB#WorkWithRelationships3](../../snippets/visualbasic/CRMV8/relationshipsvb/vb/workwithrelationships3.vb#workwithrelationships3)]  
-  
 <a name="BKMK_RetrieveEntityRelationships"></a>   
 ## Retrieve entity relationships  
  The following sample retrieves the two entity relationships previously created using <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRelationshipRequest>. The first example uses the `MetadataId` and the second uses the `Name`.  
   
  [!code-csharp[relationships#WorkWithRelationships.RetrieveRelationship](../../snippets/csharp/CRMV8/relationships/cs/workwithrelationships.retrieverelationship.cs#workwithrelationships.retrieverelationship)]  
-  
- [!code-vb[relationshipsVB#WorkWithRelationships.RetrieveRelationship](../../snippets/visualbasic/CRMV8/relationshipsvb/vb/workwithrelationships.retrieverelationship.vb#workwithrelationships.retrieverelationship)]  
   
 ### See Also  
  [Customize entity relationship metadata](../customize-entity-relationship-metadata.md)   

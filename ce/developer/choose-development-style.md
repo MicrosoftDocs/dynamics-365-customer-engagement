@@ -14,10 +14,13 @@ ms.assetid: 0fcf59aa-d564-4c9b-9042-40df8664f831
 caps.latest.revision: 64
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Choose your development style for Dynamics 365 Customer Engagement
-The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] offers a variety of methods and technologies to use when you write code to access the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement web services or to extend the application. This topic provides guidance on the development style to choose depending on your technology area..  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+The SDK offers a variety of methods and technologies to use when you write code to access the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement web services or to extend the application. This topic provides guidance on the development style to choose depending on your technology area..  
   
 <a name="NetOrNot"></a>   
 ## .NET vs. non-.NET development  
@@ -25,7 +28,7 @@ The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] offers a variety of methods and te
   
 -   If your code is written using the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)], consider using one of the following depending on what you are creating:  
   
-    -   If you are creating plug-ins, custom workflow activities, or custom XAML workflows, use [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assemblies, [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [.NET Development: Use Dynamics 365 Customer Enagement assemblies](#SDKAssemblies)  
+    -   If you are creating plug-ins, custom workflow activities, or custom XAML workflows, use the SDK assemblies, [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [.NET Development: Use Dynamics 365 Customer Enagement assemblies](#SDKAssemblies)  
   
     -   If you are creating Windows applications for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], use XRM tooling assemblies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [.NET Development: Use XRM Tooling assemblies](#XrmTooling)  
   
@@ -38,11 +41,13 @@ The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] offers a variety of methods and te
  ![Development style flow for Dynamics 365](media/whentousewebapi.jpg "Development style flow for Dynamics 365")  
   
 <a name="SDKAssemblies"></a>   
-## .NET Development: Use [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assemblies  
- [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assemblies provides you with classes that you can use to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services to identify your organization and perform common business  operations like create, retrieve. update and delete data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The SDK assemblies are available as NuGet packages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](org-service/subscribe-sdk-assembly-updates-using-nuget.md) and [Assemblies included in the Dynamics 365 SDK](org-service/assemblies-included-sdk.md).  
+
+## .NET Development: Use SDK assemblies  
+
+ The SDK assemblies provides you with classes that you can use to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services to identify your organization and perform common business  operations like create, retrieve. update and delete data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The SDK assemblies are available as NuGet packages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](org-service/subscribe-sdk-assembly-updates-using-nuget.md) and [Assemblies included in the Dynamics 365 SDK](org-service/assemblies-included-sdk.md).  
   
 > [!IMPORTANT]
->  If you are using .NET Framework 4.5.2 or later to write your code, you should use the latest version of the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assemblies to create your plug-ins, custom workflow activities, or XAML workflows.  
+>  If you are using .NET Framework 4.5.2 or later to write your code, you should use the latest version of the SDK assemblies to create your plug-ins, custom workflow activities, or XAML workflows.  
 >   
 >  However, if you are using .NET Framework 4 and using the  [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class of SDK extensions ([deprecated](https://msdn.microsoft.com/library/dn281891.aspx#SDKExtensions)) to connect to [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) and [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (version 8.1.0) or later, you will need to use version 6.1.2 of the assemblies. Otherwise, you won't be able to connect. For more information about backward compatibility, see [Blog: Dynamics 365 SDK Backwards Compatibility](https://go.microsoft.com/fwlink/?linkid=842744)  
   
@@ -68,8 +73,9 @@ The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] offers a variety of methods and te
 - **Query data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]**: There are three ways in which you can retrieve or query data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]using the SDK assemblies: FeatchXML, QueryExpression, and .NET LINQ. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Retrieve data with queries using SDK assemblies](org-service/retrieve-data-queries-sdk-assemblies.md)  
   
 <a name="XrmTooling"></a>   
-## .NET Development: Use XRM Tooling assemblies  
- The XRM tooling assemblies leverage the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assembly APIs (Organization service and IDiscoveryService) to provide easy authentication support with fewer lines of code and through [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets. All the function calls in these classes provide thread-safety for actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in a multithreaded environment. XRM tooling provides a common sign-in control with integrated authentication logic and an ability to securely store and reuse the authentication information to provide a consistent and seamless sign-in experience to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from your Windows client applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)  
+## .NET Development: Use XRM Tooling assemblies 
+ 
+ The XRM tooling assemblies leverage the SDK assembly APIs (Organization service and IDiscoveryService) to provide easy authentication support with fewer lines of code and through [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets. All the function calls in these classes provide thread-safety for actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in a multithreaded environment. XRM tooling provides a common sign-in control with integrated authentication logic and an ability to securely store and reuse the authentication information to provide a consistent and seamless sign-in experience to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from your Windows client applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)  
   
  The XRM tooling assemblies are available as NuGet packages; the packages are found under the [crmsdk](https://www.nuget.org/profiles/crmsdk) profile. Select any package in the list with "Xrm Tooling"  as the name  to navigate to the package details page. 
   
@@ -81,7 +87,7 @@ The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] offers a variety of methods and te
   
 |Development Style|Description|  
 |-----------------------|-----------------|  
-|.NET: [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assemblies|The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assemblies use [Windows Communication Foundation](https://msdn.microsoft.com/library/dd456779.aspx) (WCF) technology to establish a communication channel with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services. [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] simplifies use of the WCF technology by providing helper proxy classes that make it easy to write applications that connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services.<br /><br /> More information: [Use the sample and helper code](org-service/use-sample-helper-code.md), [Helper code: ServerConnection class](org-service/helper-code-serverconnection-class.md)|  
+|.NET: SDK assemblies|The SDK assemblies use [Windows Communication Foundation](https://msdn.microsoft.com/library/dd456779.aspx) (WCF) technology to establish a communication channel with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services. SDK simplifies use of the WCF technology by providing helper proxy classes that make it easy to write applications that connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services.<br /><br /> More information: [Use the sample and helper code](org-service/use-sample-helper-code.md), [Helper code: ServerConnection class](org-service/helper-code-serverconnection-class.md)|  
 |.NET: XRM tooling assemblies|Use the connection string, <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, or XRM tooling PowerShell cmdlets to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].<br /><br /> More information: [Use connection strings in XRM tooling to connect to Dynamics 365](xrm-tooling/use-connection-strings-xrm-tooling-connect.md), [Use CrmServiceClient constructors to connect to Dynamics 365](xrm-tooling/use-crmserviceclient-constructors-connect.md), [Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365](xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md)|  
 |[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web API|More information: [Authenticate to Dynamics 365 with the Web API](webapi/authenticate-web-api.md)|  
   

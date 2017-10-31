@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_quotelineinvoiceschedule Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of dates on which invoicing for this customer should be run. This list is used by an invoice creation job.
 
 **Added by**: Project Service Automation Solution<br />

@@ -16,9 +16,12 @@ ms.assetid: 6acfffff-0045-4a1c-a3d2-9906dd93845d
 caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Two-way listener
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample registers a remote service plug-in that executes whenever a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement message is posted to a two-way endpoint on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. When the plug-in executes, it prints to the console the contents of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] execution context contained in the message.  
 
 ## Prerequisites

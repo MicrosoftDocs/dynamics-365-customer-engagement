@@ -17,17 +17,17 @@ ms.assetid: 56e37fe0-182e-4021-a0b1-b32cba93d49e
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create a custom activity entity
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic contains a sample that shows how to create a custom activity entity.  
   
  The following sample creates a custom entity and sets the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsActivity> property to `true`. All activities must have a <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest.PrimaryAttribute><xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.SchemaName> set to `Subject` so that it corresponds to the common `ActivityPointer`.`Subject` attribute used by all activities.  
   
  [!code-csharp[Entities#CreateCustomActivityEntity1](../../snippets/csharp/CRMV8/entities/cs/createcustomactivityentity1.cs#createcustomactivityentity1)]  
-  
- [!code-vb[EntitiesVB#CreateCustomActivityEntity1](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createcustomactivityentity1.vb#createcustomactivityentity1)]  
   
 ### See Also  
 

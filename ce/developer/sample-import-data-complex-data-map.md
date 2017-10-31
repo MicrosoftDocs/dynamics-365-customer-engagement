@@ -26,6 +26,9 @@ topic-status: Drafting
 ---
 
 # Sample: Import data using complex data map
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the import data sample](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).
   
 > [!NOTE]

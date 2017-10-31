@@ -19,9 +19,12 @@ ms.assetid: 16f99b97-6ce5-4f65-abdd-f836dc54f9d3
 caps.latest.revision: 75
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use access teams and owner teams to collaborate and share information
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 With *owner* teams or *access* teams, you can easily share business objects and collaborate with the users across business units in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. A team belongs to one business unit, but it can include users from other business units. A user can be associated with more than one team.  
   
  An owner team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns.  

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # CampaignActivity Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Task performed, or to be performed, by a user for planning or running a campaign.
 
 **Added by**: Marketing Solution<br />

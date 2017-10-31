@@ -14,9 +14,12 @@ ms.assetid: 180b0ac3-b869-4bdf-92a7-c4b0226d9a48
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Dependency and execution order in asynchronous operations
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 An asynchronous operation can be made dependent with another asynchronous operation. A dependent asynchronous operation does not execute until the operation that it is dependent with has finished executing. For example, if asynchronous operation B is dependent with asynchronous operation A, operation B does not execute until after operation A executes and is completed. This dependency between asynchronous operations is established by setting the `AsyncOperation.DependencyToken` attribute, which can contain any string value. Any dependent asynchronous operations must have the same `AsyncOperation.DependencyToken` value.  
   
  The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement platform establishes which asynchronous operation is dependent when the operations are created in the asynchronous queue. For example, consider three asynchronous operations named A, B, and C, where B and C should only execute after A is completed. To establish the correct dependencies, A must be created in the queue first, followed by B and then C. This is because the order in which the operations are created establishes the sequence of their execution. In this example, all three asynchronous operations have the same `AsyncOperation.DependencyToken`. At run time, A executes first. After A has completed, B executes to completion, and then C executes until completion.  

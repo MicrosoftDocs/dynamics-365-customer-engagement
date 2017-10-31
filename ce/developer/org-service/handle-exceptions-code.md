@@ -14,14 +14,19 @@ ms.assetid: 02d0ad6c-eb76-4ea9-972f-c7647eef6c09
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Handle exceptions in your code
-There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web service method call. Your application design must catch and appropriately handle these exceptions. In the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)], all web service method calls use a communication channel to the server based on the [!INCLUDE[pn_WCF_long](../../includes/pn-wcf-long.md)] technology. In WCF terms, exceptions returned from the channel are called *faults*.  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web service method call. Your application design must catch and appropriately handle these exceptions. In the SDK .NET assemblies, all web service method calls use a communication channel to the server based on the [!INCLUDE[pn_WCF_long](../../includes/pn-wcf-long.md)] technology. In WCF terms, exceptions returned from the channel are called *faults*.  
 
 <a name="BKMK_Common"></a>   
+
 ## Common exceptions and faults  
- The following code is used in most [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] samples. It highlights the common faults and exceptions that your application design should handle.  
+
+ The following code is used in most [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] samples. It highlights the common faults and exceptions that your application design should handle.  
   
  [!code-csharp[StrongTypes#CRUDOperations2](../../snippets/csharp/CRMV8/strongtypes/cs/crudoperations2.cs#crudoperations2)]  
   
@@ -42,13 +47,15 @@ There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynami
   
  When connecting to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], a `SecurityAccessDeniedException` exception can be thrown if you use a valid [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] and your account is not associated with any [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization. A `MessageSecurityException` can be thrown if your [!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)] isn’t valid or there was an authentication failure.  
   
-<a name="BKMK_BusinessRuleErrors"></a>   
-## Custom errors from business rules  
+<a name="BKMK_BusinessRuleErrors"></a>
+
+## Custom errors from business rules
+ 
  With [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], customizers can create business rules that are evaluated on the server. Customizers can throw error messages based on conditions set in the business rule. Developers should be sure to include robust error handling in their code to catch and handle these exceptions.  
   
  The following is an example of the trace log produced when one of these errors is returned from a business rule named “Name of Entity Scope Business Rule returning Error” and the error message is “custom error message”.  
   
-```  
+```csharp
 Unhandled Exception: System.ServiceModel.FaultException`1[[Microsoft.Xrm.Sdk.OrganizationServiceFault, Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]: custom error messageDetail:   
 <OrganizationServiceFault xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/xrm/2011/Contracts">  
   <ErrorCode>-2147220891</ErrorCode>  

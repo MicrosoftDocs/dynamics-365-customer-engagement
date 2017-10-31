@@ -14,9 +14,12 @@ ms.assetid: 6235894d-218b-4ac7-8edd-0dd0517a5f0d
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create accessible web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you include web resources that provide user interface elements in your solution, make sure that you include requirements that let people with disabilities use your web resources.  
   
  The [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] application user interface elements follow standards and best practices that will allow for equivalent functionality for all users. People with disabilities may rely on the use of assistive technology (AT) such as screen readers or a variety of alternative input devices to interact with applications.  

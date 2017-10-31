@@ -14,9 +14,12 @@ ms.assetid: 542dae08-58a7-4ed8-8a2d-58111633b7be
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # SiteMap schema
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The following is the schema definition for the SiteMap portion of an import/export customization file. It is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md).  
   
 ## SiteMap schema  

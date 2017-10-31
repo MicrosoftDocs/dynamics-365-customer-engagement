@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # retrieveMultipleRecords (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/retrieveMultipleRecords-description.md](./includes/retrieveMultipleRecords-description.md)] 
 
 ## Syntax
@@ -54,7 +56,7 @@ manager: "amyla"
 </tr>
 <tr>
 <td>successCallback</td>
-<td>String</td>
+<td>Function</td>
 <td>No</td>
 <td><p>A function to call when entity records are retrived. An object with the following attributes is passed to the function:</p>
 <ul>
@@ -65,7 +67,7 @@ manager: "amyla"
 </tr>
 <tr>
 <td>errorCallback</td>
-<td>String</td>
+<td>Function</td>
 <td>No</td>
 <td>A function to call when the operation fails.</td>
 </tr>
@@ -185,11 +187,6 @@ Xrm.WebApi.retrieveMultipleRecords("account", "$select=name&$top=3&$expand=prima
 );
 ```
 
-### Retrieve records using the FetchXML query
-
-FetchXML is a proprietary query language that is used in Customer Engagement. More information: [Build queries with FetchXML](../../../build-queries-fetchxml.md)
-
-
 
 For more examples of retrieving multiple records using Web API, see [Query Data using the Web API](../../../webapi/query-data-web-api.md).
 
@@ -198,9 +195,7 @@ For more examples of retrieving multiple records using Web API, see [Query Data 
 
 [Query Data using the Web API](../../../webapi/query-data-web-api.md)
 
-[Build queries with FetchXML](../../../build-queries-fetchxml.md)
-
-[Xrm.WebApi.retrieveRecord](retrieveMultipleRecord.md)
+[Xrm.WebApi.retrieveRecord](retrieveRecord.md)
 
 [Xrm.WebApi](../xrm-webapi.md)
 

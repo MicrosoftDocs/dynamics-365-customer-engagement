@@ -14,17 +14,21 @@ ms.assetid: 1ba60f67-522d-4540-a6f9-0787d7074a79
 caps.latest.revision: 17
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use messages with the ExecuteCrmOrganizationRequest method
-In addition to using the<xref:Microsoft.Xrm.Sdk.IOrganizationService>.[OrganizationRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationserviceproxy.execute\(microsoft.xrm.sdk.organizationrequest\)) method, you can now use the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.[String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.executecrmorganizationrequest\(microsoft.xrm.sdk.organizationrequest,system.string\)) method to execute the xRM and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement messages. Similar to the [OrganizationRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationserviceproxy.execute\(microsoft.xrm.sdk.organizationrequest\)) method, the [String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.executecrmorganizationrequest\(microsoft.xrm.sdk.organizationrequest,system.string\)) method takes a message request class as a parameter and returns a message response class. For a list of messages that you can execute using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.[String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.executecrmorganizationrequest\(microsoft.xrm.sdk.organizationrequest,system.string\)) method, see [xRM Messages in the Organization Service](../org-service/xrm-messages-organization-service.md) and [Dynamics 365 Messages in the Organization Service](../org-service/organization-service-messages.md).  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+In addition to using the<xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method, you can now use the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.<xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.ExecuteCrmOrganizationRequest*> method to execute the xRM and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement messages. Similar to the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method, the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.ExecuteCrmOrganizationRequest*> method takes a message request class as a parameter and returns a message response class. For a list of messages that you can execute using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.<xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.ExecuteCrmOrganizationRequest*> method, see [xRM Messages in the Organization Service](../org-service/xrm-messages-organization-service.md) and [Dynamics 365 Messages in the Organization Service](../org-service/organization-service-messages.md).  
   
- The following code samples demonstrate how you can execute messages using the [String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.executecrmorganizationrequest\(microsoft.xrm.sdk.organizationrequest,system.string\)) method.  
+ The following code samples demonstrate how you can execute messages using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.ExecuteCrmOrganizationRequest*> method.  
   
 ## Example 1: CreateRequest message  
- The following code sample demonstrates how to execute the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> message using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.[String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.executecrmorganizationrequest\(microsoft.xrm.sdk.organizationrequest,system.string\)) method. In this example, you create an account, and then display the ID in the response object.  
+
+ The following code sample demonstrates how to execute the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> message using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.<xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.ExecuteCrmOrganizationRequest*> method. In this example, you create an account, and then display the ID in the response object.  
   
-```  
+```csharp 
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", "<Domain>"),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected.  
@@ -58,9 +62,10 @@ else
 ```  
   
 ## Example 2: RetrieveMultipleRequest  
- The following code sample demonstrates how to execute the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> message using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.[String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.executecrmorganizationrequest\(microsoft.xrm.sdk.organizationrequest,system.string\)) method. In this example, you execute a retrieve multiple request to fetch all the contacts in the system, and display their full name.  
+
+ The following code sample demonstrates how to execute the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> message using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.<xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient.ExecuteCrmOrganizationRequest*> method. In this example, you execute a retrieve multiple request to fetch all the contacts in the system, and display their full name.  
   
-```  
+```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", "<Domain>"),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected.  
@@ -97,6 +102,7 @@ else
 ```  
   
 ### See also  
+
  [Use Messages (Request and Response Classes) with the Execute Method](../org-service/use-messages-request-response-classes-execute-method.md)   
  [Use XRM Tooling to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
  [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)

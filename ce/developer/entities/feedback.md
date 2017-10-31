@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Feedback Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Container for feedback and ratings for knowledge articles.
 
 

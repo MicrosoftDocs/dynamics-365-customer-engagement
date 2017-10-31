@@ -14,9 +14,12 @@ ms.assetid: 1f430d2d-e829-4ffa-922e-dfcfb7c9e86e
 caps.latest.revision: 24
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create and update entity definitions using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can perform all the same operations on model entities that you can with the organization service. This topic focuses on working with metadata entities using the Web API. To find details about the entity metadata properties, see [Customize Entity Metadata](../customize-entity-metadata.md) and <xref href="Microsoft.Dynamics.CRM.EntityMetadata?text=EntityMetadata EntityType" />.  
 
 <a name="bkmk_createEntities"></a>   
@@ -55,7 +58,7 @@ You can perform all the same operations on model entities that you can with the 
  The following example shows the creation of a custom entity with the properties set. The language is English using the locale ID (LCID) of 1033. [!INCLUDE[LCID](../../includes/lcid.md)]  
   
  **Request**  
- ```  
+```http 
 POST [Organization URI]/api/data/v9.0/EntityDefinitions HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
@@ -143,14 +146,15 @@ OData-Version: 4.0
 ```  
   
  **Response**  
- ```  
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(417129e1-207c-e511-80d2-00155d2a68d2)  
 ```  
   
-<a name="bkmk_updateEntities"></a>   
-## Update entities  
+<a name="bkmk_updateEntities"></a>
+ 
+## Update entities
   
 > [!IMPORTANT]
 >  You can’t use the HTTP PATCH method to update model entities. The metadata entities have parity with the organization service 
@@ -170,7 +174,7 @@ OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(417129e1-207c
  Typically, you will retrieve the JSON definition of the attribute and modify the properties before you send it back. The following example contains all the metadata properties of the entity created in the [Create entities](create-update-entity-definitions-using-web-api.md#bkmk_createEntities) example, but with the DisplayName changed to “Bank Business Name.” It may be useful to note that the JSON here provides the default values for properties not set in the [Create entities](create-update-entity-definitions-using-web-api.md#bkmk_createEntities) example.  
   
  **Request**  
- ```  
+```http 
 PUT [Organization URI]/api/data/v9.0/EntityDefinitions(417129e1-207c-e511-80d2-00155d2a68d2) HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
@@ -468,19 +472,23 @@ MSCRM.MergeLabels: true
 ```  
   
  **Response**  
- ```  
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 ```  
   
-<a name="bkmk_CreateAttributes"></a>   
-## Create attributes  
+<a name="bkmk_CreateAttributes"></a>
+
+## Create attributes
+
  You can create attributes at the same time you create the entity by including the JSON definition of the attributes in the `Attributes` array for the entity you post in 
  addition to the string attribute that serves as the primary name attribute. If you want to add attributes to an entity that is already created, you can send a POST request 
  including the JSON definition of them to the entity `Attributes` collection-valued navigation property.  
   
-<a name="bkmk_CreateString"></a>   
-### Create a string attribute  
+<a name="bkmk_CreateString"></a>
+
+### Create a string attribute
+
  The following example will use these properties to create a string attribute.  
   
 |String attribute properties|Values|  
@@ -495,8 +503,9 @@ OData-Version: 4.0
  The following example creates a string attribute using the properties and adds it to the entity with the MetadataId value of 402fa40f-287c-e511-80d2-00155d2a68d2. 
  The URI for the attribute is returned in the response.  
   
- **Request**  
- ```  
+ **Request**
+
+```http 
 POST [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
@@ -544,15 +553,16 @@ OData-Version: 4.0
 ```  
   
  **Response**  
- ```  
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f01bef16-287c-e511-80d2-00155d2a68d2)  
-  
 ```  
   
-<a name="bkmk_createMoney"></a>   
-### Create a Money attribute  
+<a name="bkmk_createMoney"></a>
+
+### Create a Money attribute
+
  The following example will use these properties to create a money attribute.  
   
 |Money attribute properties|Values|  
@@ -566,7 +576,7 @@ OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c
  The following example creates a money attribute using the properties and adds it to the entity with the MetadataId value of 402fa40f-287c-e511-80d2-00155d2a68d2. The URI for the attribute is returned in the response.  
   
  **Request**  
- ```  
+```http   
 POST [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
@@ -610,14 +620,16 @@ OData-Version: 4.0
 ```  
   
  **Response**  
- ```  
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f11bef16-287c-e511-80d2-00155d2a68d2)  
 ```  
   
-<a name="bkmk_createDateTime"></a>   
-### Create a datetime attribute  
+<a name="bkmk_createDateTime"></a>
+
+### Create a datetime attribute
+
  The following example will use these properties to create a datetime attribute.  
   
 |Datetime attribute properties|Values|  
@@ -631,8 +643,9 @@ OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c
  The following example creates a datetime attribute using the properties and adds it to the entity with the MetadataId value of 402fa40f-287c-e511-80d2-00155d2a68d2. 
  The URI for the attribute is returned in the response.  
   
- **Request**  
- ```  
+ **Request**
+
+```http 
 POST [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
@@ -676,14 +689,16 @@ OData-Version: 4.0
 ```  
   
  **Response**  
- ```  
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(fe1bef16-287c-e511-80d2-00155d2a68d2)  
 ```  
   
-<a name="bkmk_CreateCustomerLookup"></a>   
-### Create a customer lookup attribute  
+<a name="bkmk_CreateCustomerLookup"></a>
+
+### Create a customer lookup attribute
+
  Unlike  other attributes, a customer lookup attribute is created using the  CreateCustomerRelationships Action. 
  The parameters for this action require the definition of the lookup attribute and a pair of one-to-many relationships.  
  A customer lookup attribute has two one-to-many relationships: one to the account entity and the other one to contact entity.  
@@ -699,8 +714,9 @@ OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c
  The example creates a customer lookup attribute, `new_CustomerId`, and adds it to the custom entity:  `new_bankaccount`. 
  The response is a CreateCustomerRelationshipsResponse Complex Type.  
   
- **Request**  
- ```  
+ **Request**
+
+```http 
 POST [Organization URI]/api/data/v9.0/CreateCustomerRelationships HTTP/1.1  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -755,7 +771,7 @@ Content-Type: application/json; charset=utf-8
 ```  
   
  **Response**  
- ```  
+```http 
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -770,14 +786,17 @@ OData-Version: 4.0
   
 ```  
   
-<a name="bkmk_updateAttribute"></a>   
-## Update an attribute  
+<a name="bkmk_updateAttribute"></a>
+ 
+## Update an attribute
+
  As mentioned in [Update entities](create-update-entity-definitions-using-web-api.md#bkmk_updateEntities), 
  model entities are updated using the HTTP PUT method with the entire JSON definition of the current item. 
  This applies to attributes as well as entities. Just like with entities, you have the option to overwrite labels using 
  the `MSCRM.MergeLabels` header with the value set to `false`, and you must publish customizations before they are active in the system.  
   
-### See also  
+### See also
+
  [Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md)   
  [Query Metadata using the Web API](query-metadata-web-api.md)   
  [Retrieve metadata by name or MetadataId](retrieve-metadata-name-metadataid.md)   

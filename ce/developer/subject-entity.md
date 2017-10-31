@@ -24,10 +24,13 @@ ms.assetid: c3d439be-9ef8-4d59-8638-7df9dadf2cf8
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Subject entity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *subject* categorizes entity records, such as articles and sales literature. By using subjects, you can create a hierarchy of topics to organize and maintain information in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The information organized in the subject tree can be used by any entity in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The `Subject` entity categorizes the following:  
   
 -   Knowledge base articles  

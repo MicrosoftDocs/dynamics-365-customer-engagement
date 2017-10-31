@@ -26,9 +26,12 @@ ms.assetid: ad0d5906-311b-4282-8415-872802148bb0
 caps.latest.revision: 38
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Manage your data in Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 *Data management* features let you efficiently manage and audit your data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. You’ll be able to import new data and audit data changes, detect duplicates and delete data in bulk.  
   
  Based on the provided functionality, you can develop custom data management tools.  

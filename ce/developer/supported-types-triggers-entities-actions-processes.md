@@ -14,9 +14,12 @@ ms.assetid: b2c14b32-e7da-4f9b-b7b1-659596c456ca
 caps.latest.revision: 33
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Supported types, triggers, entities, and actions for processes
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic provides information about the supported types and entities for processes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, supported triggers for workflows, entities that are supported for the <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity> activity, and supported actions for workflows.  
   
 <a name="bkmk_triggersWorkflows"></a>   
@@ -195,8 +198,7 @@ This topic provides information about the supported types and entities for proce
 ## Supported actions for processes  
  You can choose to perform following actions using workflows in [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. Use the `sdkmessage.workflowsdkstepenabled` attribute to find the list of supported actions available under a workflow step. You can use the following Web API query to retrieve the list of supported actions:  
   
-```  
-  
+```
 [Organization URI]/api/data/v9.0/sdkmessages?$select=name&$filter=workflowsdkstepenabled%20eq%20true  
 ```  
   

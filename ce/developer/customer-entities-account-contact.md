@@ -14,9 +14,12 @@ ms.assetid: d126ea83-97c4-4460-a971-15e21073d6d6
 caps.latest.revision: 29
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customer entities (account, contact)
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The *account* and *contact* entities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] are essential for identifying and managing customers, selling products and services, and providing superior service to the customers. A *customer address* entity is used to store address and shipping information for a customer.  
   
  The account entity is one of the entities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to which most other entities are attached or parented. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], an account represents a company with which the business unit has a relationship. Information that is included in an account is all relevant contact information, company information, category, relationship type, and address information. Other information that applies includes the following items:  

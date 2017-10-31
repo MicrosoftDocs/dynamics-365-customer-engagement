@@ -16,6 +16,9 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Use Single-Tenant Server-to-server authentication
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The single-tenant server-to-server scenario typically applies for enterprise organizations who have multiple [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] organizations using [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] for authentication. However, it can also be applied by organizations using [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] when the application will not be distributed to other [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] organizations.  
   
  An enterprise can create a web application or service to connect to all the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] organizations for the single tenant.  

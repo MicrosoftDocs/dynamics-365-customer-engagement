@@ -14,9 +14,12 @@ ms.assetid: 12672159-03b1-4f18-8d8c-cf4aaf366deb
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create patches to simplify solution updates
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you add an entity to a solution and export the solution, the entity and all of its related assets are exported in that solution. These assets include attributes, forms, views, relationships, and visualizations, and any other assets that are packaged with the entity. Exporting all objects means that you can unintentionally modify objects on the target deployment, or carry over unintended dependencies.  
   
  To address this, you can create and publish solution patches that contain subcomponents of entities rather than publishing the entire entity and all of its assets.  The original solution and one or more related patches can be rolled up (merged) at a later time into an updated version of the solution, which then can replace the original solution in the target [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organization.  

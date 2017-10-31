@@ -15,6 +15,9 @@ caps.latest.revision: 15
 ms.author: "v-milaro"
 ---
 # Data Export Service
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Data Export is an add-on service made available as a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] solution that adds the ability to replicate [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] data to a Microsoft Azure SQL Database store in a customer-owned Microsoft Azure subscription. The supported target destinations are Microsoft Azure SQL Database and Microsoft Azure SQL Server on Microsoft Azure virtual machines. Data Export intelligently synchronizes the entire Dynamics 365 schema and data initially and thereafter synchronizes on a continuous basis as changes occur (delta changes) in the Dynamics 365 (online) system.  
   
  The Data Export service provides an interface for managing configuration and ongoing administration of this service from within [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)].  For more information, see [Data Export](https://technet.microsoft.com/library/a70feedc-12b9-4a2d-baf0-f489cdcc177d). This topic explains the corresponding programmatic interface and issues for this service.  

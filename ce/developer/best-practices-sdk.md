@@ -14,9 +14,12 @@ ms.assetid: 42dcebf5-a624-45b9-b719-20e5882d5ca2
 caps.latest.revision: 89
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Best practices for developing with Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement.  
   
 > [!IMPORTANT]
@@ -38,9 +41,11 @@ This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_on
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take advantage of sequential GUIDs, which provide better SQL performance. 
 The following sample code shows how to call the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method to obtain a system-assigned `GUID`.  
   
-```  
-// Instantiate an account object.Account account = new Account { Name = "Fourth Coffee" };  
-// Create an account record named Fourth Coffee and retrieve the GUID.accountId = serviceProxy.Create(account);  
+```csharp
+// Instantiate an account object.
+Account account = new Account { Name = "Fourth Coffee" };  
+// Create an account record named Fourth Coffee and retrieve the GUID.
+accountId = serviceProxy.Create(account);  
 ```
 ### Use early-bound types
 
@@ -57,7 +62,7 @@ defined at code time and slight performance degradation is acceptable, you shoul
 
 ### Write plug-ins that execute faster
 
- Always write a plug-in that takes the least time to perform its intended task. For example, the 
+Always write a plug-in that takes the least time to perform its intended task. For example, the 
 <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method is frequently processed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. 
 If you register a plug-in on that message, your plug-in can have a significant performance impact on the system because it executes every time that the `Execute` method is processed, which frequently occurs.  
 
@@ -71,11 +76,11 @@ It’s best to minimize processing time in plug-ins to maintain interactivity of
 When you use the methods that retrieve data from the server, retrieve the minimum amount of data that your application needs. 
 You do this by specifying the column set, which is the set of entity attributes to retrieve.  
 
- For example, it is rarely a good idea to retrieve all the metadata with the 
-<xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest> message, specifying the 
-<xref:Microsoft.Xrm.Sdk.Metadata.EntityFilters>.`All` entity filter for the 
+For example, it is rarely a good idea to retrieve all the metadata with the `RetrieveAllEntities` message using the 
+<xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest> class, specifying the 
+<xref:Microsoft.Xrm.Sdk.Metadata.EntityFilters.All>` entity filter for the 
 <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest.EntityFilters> property. 
-Instead, you might achieve better performance if you restrict the entity filter, or use one of the following messages: 
+Instead, you might achieve better performance if you restrict the entity filter, or use one of the following message request classes: 
 <xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityRequest>, 
 <xref:Microsoft.Xrm.Sdk.Messages.RetrieveOptionSetRequest>, 
 <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest>, 
@@ -112,7 +117,7 @@ This shortcut helps in load balancing the proxy servers, but depending on the co
 When the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server is installed, you can bypass the proxy server to achieve better throughput. 
 
 The server offers a local web address that requires no proxy to be reached. You can select **Bypass proxy server for local addresses** and provide the fully qualified domain name of the 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server in the exceptions list. This gives better throughput when records are created by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server in the exceptions list. This gives better throughput when records are created by using the SDK assemblies.  
 
 <a name="caching"></a>
 
@@ -129,8 +134,9 @@ You can improve performance if your application performs these operations a mini
 
 The <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> constructor shown here performs both these operations any time a service proxy object is created.  
 
-```
-OrganizationServiceProxy (Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)  
+```csharp
+OrganizationServiceProxy (Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, 
+    ClientCredentials deviceCredentials)  
 ```
 
 You typically obtain better performance if your application uses this constructor to create an instance of the service proxy by using this constructor one time during the application 
@@ -140,22 +146,27 @@ Applications must also call `Dispose` on the service proxy object before they te
 
 The service proxy class performs the metadata download and user authentication by using the following class methods.
 
-```
-IServiceManagement<IOrganizationService> orgServiceManagement = ServiceConfigurationFactory.CreateManagement<IOrganizationService>(new Uri(organizationUrl))AuthenticationCredentials authCredentials = orgServiceManagement.Authenticate(credentials)  
+```csharp
+IServiceManagement<IOrganizationService> orgServiceManagement = 
+    ServiceConfigurationFactory.CreateManagement<IOrganizationService>(
+    new Uri(organizationUrl));
+
+AuthenticationCredentials authCredentials = orgServiceManagement.Authenticate(credentials);
 ```
 The [CreateManagement<TService>](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceconfigurationfactory.createmanagement``1) method performs the metadata download while the 
 [Authenticate ](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.iservicemanagement`1.authenticate) method authenticates the user. 
 The returned objects from these methods are thread safe and can be statically cached by your application. 
 You can then use these objects to construct a service proxy object that uses one of the other available constructors.  
 
-```  
-OrganizationServiceProxy (orgServiceManagement, authCredentials.ClientCredentials)OrganizationServiceProxy (orgServiceManagement, authCredentials.SecurityTokenResponse)  
+```csharp  
+OrganizationServiceProxy (orgServiceManagement, authCredentials.ClientCredentials)
+OrganizationServiceProxy (orgServiceManagement, authCredentials.SecurityTokenResponse)  
 ```
 
 By caching the service management and authenticated credential objects, your application can more efficiently construct the service proxy objects more than one time per application session. 
 If you enable early-bound types on <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> through one of the 
 <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.EnableProxyTypes> methods, you must do the same on all service proxies that are created 
-from the cached [IServiceManagement<TService>](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.iservicemanagement`1) object. 
+from the cached <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1> object. 
 If your application uses the metadata, we recommend that it caches the metadata that it retrieves and periodically calls the 
 <xref:Microsoft.Xrm.Sdk.Messages.RetrieveTimestampRequest> message to determine whether it must refresh the cache.  
 
@@ -176,7 +187,7 @@ The [Microsoft Dynamics CRM Online patterns & principles for solution builders](
 
 ### Using custom entities and attributes
 
-Always use the entity schema name to refer to a custom entity in code and queries. Do not use the object type code (also referred to as entity type) code because the integer value varies for custom entities in different organizations.
+Always use the entity name to refer to entities in code and queries. Do not use the object type code (also referred to as entity type) code because the integer value varies for custom entities in different organizations.
 
  Save space on your server by using these techniques:
 
@@ -185,7 +196,7 @@ Always use the entity schema name to refer to a custom entity in code and querie
 
 ### When should you customize an entity?
 
-Customize a system entity, such as the opportunity entity, instead of replacing it with a new custom entity so that you can use the many built-in features in an existing entity.
+Customize a system entity, such as the opportunity entity, instead of replacing it with a new custom entity so that you can use the any built-in features in an existing entity.
 
 ### When to use plug-ins vs. workflow?
 
@@ -232,7 +243,7 @@ You should use `return base.Execute(executionContext)` unless the activity bypas
 
 ### How should you report exceptions in custom workflow activities?
 
-You should throw an `InvalidPlugInExecutionException` in your code. This error will be shown in the workflow instance form.
+You should throw an <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> in your code. This error will be shown in the workflow instance form.
 
 ### Can you define custom entities that are specific to business units?
 
@@ -250,7 +261,7 @@ Best practices for securing your implementation of [!INCLUDE[pn_dynamics_crm](..
 
 - Establish an approved security data plan for your organization's [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] implementation.  
 - Assign the least privileges required when you set up your application pool.  
-- Require that all users use strong passwords for their accounts. For more information, search for “strong passwords” in Windows Help.
+- Require that all users use strong passwords for their accounts.
 
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
@@ -301,14 +312,11 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 - Use web resources instead of pages that require server-side processing whenever possible. If your requirements can only be achieved by using server-side processing, adhere to the requirement that your custom webpages are installed in a separate website from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Set the trust level for your site appropriately, depending on your confidence level in the security of your code. This reduces the threat from cross-site scripting and other threats.  
 - For improved security, make sure that your separate website runs on a different account from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. This account should have the minimum access possible and one that does not have direct access to the Microsoft databases. You can use a complex password that doesn’t expire because no person signs in to this account – only in to your application.
 - Avoid use of [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] controls because they have known security problems.
-- Be aware of the limitations of client scripting. 
-<!-- Find a new place to point people to for this
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Write Code for Dynamics 365 Forms](https://msdn.microsoft.com/library/gg328261.aspx)
--->
+- Be aware of the limitations of client scripting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Best practices: Client scripting in Customer Engagement](clientapi/client-scripting-best-practices.md)
 - Use plug-ins to apply business logic regardless of how the data changes are made.
 - Always use a confirmation dialog box when you delete records or apply sensitive changes, such as adding a new user to a security role. You can use  [openConfirmDialog](clientapi\reference\Xrm-Navigation\openConfirmDialog.md) to display a dialog. This helps prevent techniques such as click-jacking or UI redressing where a malicious developer may embed your page in a seemingly innocuous page to trick a user into performing actions that may compromise security or perform unwanted actions on data.  
 
- Security best practices for your website include the following:
+### Security best practices for your website include the following:
 
 - Don’t use anonymous access.  
 - Use integrated Windows authentication, NTLM, or Basic authentication over Transport Layer Security (TLS) or Secure Sockets Layer (SSL).  
@@ -329,7 +337,7 @@ One of the key tenets of ISV extensibility is that you should not assume that yo
 
 ### Best practices for using the Dynamics 365 Customer Engagement web services
 
-You should put the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web service URLs into a configuration file, for example, into an app.config file, so that your code is isolated from changes to the URL. For example, there are different URLs for the three [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data centers throughout the world.  
+You should put the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web service URLs into a configuration file, for example, into an app.config file, so that your code is isolated from changes to the URL. For example, there are different URLs for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data centers throughout the world.  
 
 ### Where should you put plug-ins and custom workflow activities?
 

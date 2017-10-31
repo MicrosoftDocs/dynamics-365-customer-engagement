@@ -10,19 +10,16 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "entities, IOrganizationService: table of entity names and descriptions"
-  - "IOrganizationService entities, table of entity names and descriptions"
-  - "IOrganizationService entities, list of entities in default deployments of Microsoft Dynamics CRM and Microsoft Dynamics CRM Online"
-  - "entities, organization service: table of entity names and descriptions"
-  - "organization service entities"
 ms.assetid: 236ceb66-5dde-48bb-bffb-5733fd8548fe
 caps.latest.revision: 97
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Organization service entities
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The following table lists the entities available in default deployments of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. It may be easier for you to see this using the metadata browser. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
   
  The table below shows the default display name, whether the entity can be customized, the ownership type, and whether the entity is available offline. For the most part, customizable entities appear in the customization UI in the web application, while the others do not. The display name of a customizable entity may be changed through system customization.  
@@ -202,8 +199,8 @@ The following table lists the entities available in default deployments of [!INC
 |1089|salesorderdetail|SalesOrderDetail|Order Product|True|None|Line item in a sales order.|True|  
 |1039|savedquery|SavedQuery|View|True|Organization owned|Saved query against the database.|True|  
 |1111|savedqueryvisualization|SavedQueryVisualization|System Chart|True|Organization owned|Entity to store a visualization attached with a view.|True|  
-|4606|sdkmessage|SdkMessage|Sdk Message|False|Organization owned|Message that is supported by the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)].|True|  
-|4607|sdkmessagefilter|SdkMessageFilter|Sdk Message Filter|False|Organization owned|Filter that defines which [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] messages are valid for each type of entity.|True|  
+|4606|sdkmessage|SdkMessage|Sdk Message|False|Organization owned|Message that is supported by the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)].|True|  
+|4607|sdkmessagefilter|SdkMessageFilter|Sdk Message Filter|False|Organization owned|Filter that defines which [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] messages are valid for each type of entity.|True|  
 |4608|sdkmessageprocessingstep|SdkMessageProcessingStep|Sdk Message Processing Step|False|Organization owned|Stage in the execution pipeline that a plug-in is to execute.|True|  
 |4615|sdkmessageprocessingstepimage|SdkMessageProcessingStepImage|Sdk Message Processing Step Image|False|Organization owned|A copy of an entity's attributes before or after the core system operation.|True|  
 |4616|sdkmessageprocessingstepsecureconfig|SdkMessageProcessingStepSecureConfig|Sdk Message Processing Step Secure Configuration|False|Organization owned|Non-public custom configuration that is passed to a plug-in's constructor.|False|  
@@ -380,5 +377,5 @@ The following table lists the entities available in default deployments of [!INC
 ### See also  
  [Read and Write Data and Metadata using the IOrganizationService Web Service](use-organization-service-read-write-data-metadata.md)   
  [Sample: Execute multiple requests](sample-execute-multiple-requests.md)   
- [Business Object Entity Model](model-business-data.md)   
- [Entity Ownership](introduction-entities.md#EntityOwnership)
+ [Model your business data](../model-business-data.md)   
+ [Entity ownership](../introduction-entities.md#entity-ownership)

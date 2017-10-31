@@ -24,9 +24,12 @@ ms.assetid: 67a3a031-4edf-49de-983b-ba9902223278
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Delete data in bulk
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The *bulk deletion* feature helps you to maintain data quality and manage the consumption of system storage in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by deleting data that you no longer need.  
   
  For example, you can delete the following data in bulk:  

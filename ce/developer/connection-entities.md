@@ -24,9 +24,12 @@ ms.assetid: 98700871-a986-4982-900e-5fd5f6ee5a26
 caps.latest.revision: 37
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Connection entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The *connections* provide a flexible way to connect and describe the relationships between any two entity records [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. It helps you to promote teamwork, collaboration, and effective management of business and sales processes. Connections enable you to easily associate users, contacts, quotes, sales orders, and many other entity records with each other. The records in the association can be assigned particular roles that help define the purpose of the relationship.  
   
  Connections provide the following capabilities:  

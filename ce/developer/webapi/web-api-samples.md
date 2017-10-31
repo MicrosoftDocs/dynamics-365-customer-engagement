@@ -15,7 +15,10 @@ caps.latest.revision: 11
 ms.author: "v-milaro"
 ---
 # Web API Samples
-You can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API with a wide variety of programming languages or libraries. The [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] provides a matrix of samples demonstrating how to use the Web API in a number of different ways. This topic introduces the samples available for each group of operations and how to perform these operations using different languages or libraries.
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+You can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API with a wide variety of programming languages or libraries. The [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] provides a matrix of samples demonstrating how to use the Web API in a number of different ways. This topic introduces the samples available for each group of operations and how to perform these operations using different languages or libraries.
 
 > [!NOTE]
 > With the availability of the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods, we are working on updating the client-side JavaScript samples to use the new client API methods. Check back soon.  

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_accountpricelist Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Sales price list for this customer to capture special pricing agreements for products, roles and categories.
 
 **Added by**: Project Service Automation Solution<br />

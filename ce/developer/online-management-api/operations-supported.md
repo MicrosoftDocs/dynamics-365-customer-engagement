@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # Operations supported by Online Management API 
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can perform most of the instance-related operations using the API that you can do using the [Dynamics 365 Admin Center](https://technet.microsoft.com/library/dn659834.aspx). The API also lets you perform some additional operations such as using tenant application identities to create/manage instances and retrieving service versions (releases) for instances.
 
 For a quick start sample on how to authenticate and execute operations using Online Management API, see [Quick Start Sample: Retrieve instances in your tenant](sample-quick-start.md).

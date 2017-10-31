@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SdkMessageProcessingStepSecureConfig Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Non-public custom configuration that is passed to a plug-in's constructor.
 
 

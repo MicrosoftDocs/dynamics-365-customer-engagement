@@ -18,9 +18,12 @@ ms.assetid: 275d803b-68ea-41d0-9a31-e0adbb9c1815
 caps.latest.revision: 37
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customize visualizations and dashboards
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement enable you to graphically view and analyze the data for your business, and help you to derive quick insights to make important business decisions. You can configure dashboards in such a way that enables you to view data from multiple areas of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] such as sales, marketing, and service. You can even adjust the data displayed in visualizations and dashboards per your business requirements by applying filters.  
   
  The following elements constitute the visualization and analytics abilities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]:  

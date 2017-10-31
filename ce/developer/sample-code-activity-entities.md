@@ -17,9 +17,12 @@ ms.assetid: 9430d553-f519-44d7-95aa-068d17071ed5
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample code for activity entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section contains the code examples that demonstrate how to use the activity entities.  
   
 ## In This Section  

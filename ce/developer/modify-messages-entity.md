@@ -26,9 +26,11 @@ ms.assetid: ab9e81bc-d218-4438-8a09-cc64db08bb40
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Modify the messages for an entity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 When you customize system entity or system attribute display names, some messages displayed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement will reference the default display names. Edit the default messages to match your customized display names.  
   

@@ -16,9 +16,12 @@ ms.assetid: 350e6c40-d277-4aba-9619-5e007a67e477
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Define ribbon actions
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Define the actions to be performed by a command bar or ribbon control in a `<CommandDefinition>` element together with rules that control whether the control is enabled or visible in the ribbon.  
   
  A Ribbon control can perform two types actions and may include multiple actions:  

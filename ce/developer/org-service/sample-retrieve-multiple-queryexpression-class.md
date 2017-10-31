@@ -14,9 +14,11 @@ ms.assetid: 2bdd259c-1003-4b37-a7db-61bf2278c7e4
 caps.latest.revision: 20
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Retrieve multiple with the QueryExpression class
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -69,7 +71,7 @@ static void RetrieveMultipleWithRelatedEntityColumns(IOrganizationService servic
 } 
 ```  
 The code will output the following:
-```
+```ms-dos
 Entering:RetrieveMultipleWithRelatedEntityColumns
 Retrieved 3 entities
 account name: Test Account1

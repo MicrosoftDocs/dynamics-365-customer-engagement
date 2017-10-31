@@ -15,6 +15,9 @@ caps.latest.revision: 16
 ms.author: "v-milaro"
 ---
 # Web API Query Data Sample (C#)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to perform basic query requests using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API with C#.  
   
 > [!NOTE]

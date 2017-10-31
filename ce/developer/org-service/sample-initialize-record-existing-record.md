@@ -20,6 +20,9 @@ topic-status: Drafting
 ---
 
 # Sample: Initialize a record from an existing record
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the Sample: Initialize a record from an existing record (early bound)](https://code.msdn.microsoft.com/Sample-Initialize-a-record-f81879fa). 
 
 ## Prerequisites

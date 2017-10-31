@@ -17,9 +17,12 @@ ms.assetid: dfa3f3e2-471e-4295-be47-ab6936189340
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Image web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use image web resources to make images available for use in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
 
 There are 5 types of image web resources: 

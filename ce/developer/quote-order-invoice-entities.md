@@ -23,9 +23,12 @@ ms.assetid: 1ad567c4-6065-48ab-a277-15fbcc5a9d1a
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Quote, order, and invoice entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports robust *quote*, *sales order (order)*, and *invoice* building. You can build a quote by selecting products directly from the product catalog, specifying the price list (such as wholesale or retail), and entering the requested number of units. If you have permission, you can also apply discounts. Multiple pricing models are supported, such as wholesale versus retail, and discounting can be done by line item based on volume or manual override. In addition, overall discounts can be applied to the whole quote.  
   
  A quote is a formal offer for products or services proposed at specific prices and related payment terms that is sent to a prospective customer. You can create a quote, save it as a draft, and specify whether it is active (presented to the customer) or closed (completed, either as an order or not). A quote can have a due date (when it was promised to the customer), effective dates (when it must be accepted or rejected by), and the requested delivery dates. In addition, a quote can contain many "ship to" addresses (by line item) or a "will call" setting for items to be picked up by the customer.  

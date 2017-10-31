@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # addCustomFilter (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Adds filters to the results displayed in the lookup. Each filter will be combined with any previously added filters as an “AND” condition.
 
 ## Control types supported

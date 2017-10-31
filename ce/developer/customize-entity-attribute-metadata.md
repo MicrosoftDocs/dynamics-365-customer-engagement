@@ -14,15 +14,17 @@ ms.assetid: 89969adc-8577-424c-bfcc-7f65c5d4bd19
 caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customize entity attribute metadata
 
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> class to retrieve existing attributes. This class is returned by the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest> message. The `AttributeMetadata` class inherits from the abstract <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase> class.  
 
-Use the following Web API query to retrieve entity attributes in the context of an entity by expanding the Attributes collection-valued navigation property. More information: [Querying EntityMetadata attributes](webapi/query-metadata-web-api#querying-entitymetadata-attributes). 
+Use the following Web API query to retrieve entity attributes in the context of an entity by expanding the Attributes collection-valued navigation property. More information: [Querying EntityMetadata attributes](webapi/query-metadata-web-api.md#querying-entitymetadata-attributes)
 
-```HTTP
+```http
 GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)?$select=LogicalName&$expand=Attributes($select=LogicalName;$filter=AttributeType eq Microsoft.Dynamics.CRM.AttributeTypeCode'Picklist')
 ```
 

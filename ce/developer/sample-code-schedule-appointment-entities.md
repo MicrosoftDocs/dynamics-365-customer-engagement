@@ -17,9 +17,12 @@ ms.assetid: 923e0714-c1cb-4b51-8d83-2ab9c0d5dc0a
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample code for schedule and appointment Entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section contains the code examples that show how to use the schedule and appointment entities.  
   
 ## In This Section  

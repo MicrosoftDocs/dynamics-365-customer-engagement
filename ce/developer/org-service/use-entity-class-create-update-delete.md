@@ -20,9 +20,12 @@ ms.assetid: d0eb57ae-7f45-4bde-964e-da2c6bd1f405
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the Entity class for create, update and delete
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can use the <xref:Microsoft.Xrm.Sdk.Entity> class to create, update, and delete entities and entity attributes.  
   
 ## Create, update, and delete using the Entity class  
@@ -64,7 +67,7 @@ _orgService.Update(account);
   
  To delete an entity, you can pass the key attribute information to the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*> method. The following code example shows how to use the `Delete` method.  
   
-```  
+```csharp 
 _orgService.Delete("account", _accountId);  
 ```  
   

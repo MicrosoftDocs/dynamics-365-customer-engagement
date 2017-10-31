@@ -22,9 +22,12 @@ ms.assetid: 675f8ad0-e5f7-4fcb-a702-40962117f4cc
 caps.latest.revision: 32
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use late-bound entity class with a LINQ query
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can use late binding with [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] queries. Late binding uses the attribute logical name, and is resolved at runtime.  
   
 <a name="usinglatebindingjoin"></a>   
@@ -34,22 +37,16 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
  Retrieve the full name of the contact that represents the primary contact for an account and the account name.  
   
  [!code-csharp[Query#LINQExamples6](../../snippets/csharp/CRMV8/query/cs/linqexamples6.cs#linqexamples6)]  
-  
- [!code-vb[QueryVB#LINQExamples6](../../snippets/visualbasic/CRMV8/queryvb/vb/linqexamples6.vb#linqexamples6)]  
-  
+
  Retrieve Contact, Account and Lead data where the Lead was the originating Lead and the Contact’s last name is not “Parker”  
   
  [!code-csharp[Query#linqexamples40](../../snippets/csharp/CRMV8/query/cs/linqexamples40.cs#linqexamples40)]  
-  
- [!code-vb[QueryVB#linqexamples40](../../snippets/visualbasic/CRMV8/queryvb/vb/linqexamples40.vb#linqexamples40)]  
-  
+
 <a name="Usinglatebindingleft"></a>   
 ## Using late binding in a left join  
  The following example shows how to retrieve a list of Contact and Account information using a left join. A left join is designed to return parents with and without children from two sources. There is a correlation between parent and child, but no child may actually exist.  
   
  [!code-csharp[Query#linqexamples13](../../snippets/csharp/CRMV8/query/cs/linqexamples13.cs#linqexamples13)]  
-  
- [!code-vb[QueryVB#linqexamples13](../../snippets/visualbasic/CRMV8/queryvb/vb/linqexamples13.vb#linqexamples13)]  
   
 <a name="contains"></a>   
 ## Using late binding and the Contains method  
@@ -57,23 +54,17 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
   
  [!code-csharp[Query#linqexamples25](../../snippets/csharp/CRMV8/query/cs/linqexamples25.cs#linqexamples25)]  
   
- [!code-vb[Queryvb#linqexamples25](../../snippets/visualbasic/CRMV8/queryvb/vb/linqexamples25.vb#linqexamples25)]  
-  
 <a name="notequals"></a>   
 ## Using late binding and not equals operator  
  The following example shows use of the not equals operator.  
   
  [!code-csharp[Query#linqexamples19](../../snippets/csharp/CRMV8/query/cs/linqexamples19.cs#linqexamples19)]  
   
- [!code-vb[Queryvb#linqexamples19](../../snippets/visualbasic/CRMV8/queryvb/vb/linqexamples19.vb#linqexamples19)]  
-  
 <a name="getattribute"></a>   
 ## Using the GetAttributeValue method  
  The following example shows how to retrieve Contact information using the `GetAttributeValue` method.  
   
  [!code-csharp[Query#linqexamples34](../../snippets/csharp/CRMV8/query/cs/linqexamples34.cs#linqexamples34)]  
-  
- [!code-vb[Queryvb#linqexamples34](../../snippets/visualbasic/CRMV8/queryvb/vb/linqexamples34.vb#linqexamples34)]  
   
 ### See also  
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   

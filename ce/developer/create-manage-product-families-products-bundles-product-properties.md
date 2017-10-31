@@ -14,9 +14,12 @@ ms.assetid: 0f6c4255-094e-455e-bf7b-b832b981f58b
 caps.latest.revision: 34
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create and manage product families, products, bundles, and product properties
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Define your product catalog by organizing your products in a hierarchical structure by creating products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family so that all the child products and bundles under a product family automatically inherit the properties.  
   
  By default, when you create a product family, product, or bundle record, they are in the **Draft** state. After you have created a product, defined related products, and configured attributes for the parent product family record, you must publish the product family, product, or bundle record for them to become available in the system to your sales agents for selling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
@@ -211,7 +214,7 @@ _serviceProxy.Update(retrievedOverwrittenProperty);
   
  The following code sample demonstrates how you can add products to a bundle.  
   
-```  
+```csharp
 // Add a product to a bundle  
 ProductAssociation newAssociation1 = new ProductAssociation  
 {  
@@ -283,7 +286,7 @@ Console.WriteLine("\nAdded both the products to the bundle");
   
  The following code sample demonstrates how you can define relationships for products.  
   
-```  
+```csharp
 // Set product relationship  
 // Set product1 and product2 as substitute of each other (bi-directional)  
 ProductSubstitute newProductRelation = new ProductSubstitute  

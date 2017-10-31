@@ -17,6 +17,8 @@ topic-status: Drafting
 
 # Create auto-number attributes
 
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] release, you can add an auto-number attribute for any entity. Currently, you can add the attribute programmatically. There is no user interface to add this type of attribute. The topic explains how you can programmatically create an auto-number attribute and set a seed value for sequential elements. In addition, the topic shows how to set the sequence number for the next record if you need to reset the seed at any time later.
 > [!NOTE]
 >The setting of the seed is optional. There is no need to call the seed if you don’t need to reseed.

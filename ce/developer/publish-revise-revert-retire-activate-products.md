@@ -14,9 +14,12 @@ ms.assetid: ada37ff8-0f03-47b4-bfd7-25a4b0aacb5b
 caps.latest.revision: 27
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Publish, revise, revert, retire, and activate products (product lifecycle)
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 By default, a product record is in the **Draft** state when you create it, and isn’t available for your sales agents. The record becomes available to your sales agents only when you publish it, which changes the state of the record to **Active**. For products that aren’t associated with a product family, that is, products that don’t have a parent product family record, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** attribute to `1` (true). By default, this attribute is set to `0` (false) for a fresh installation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and to `1` (true) if you’re upgrading from a previous version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to ensure compatibility for your applications working with the previous version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where the product records were created in an **Active** state.  
   
  You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products are created in an active state. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage product catalog configuration](https://technet.microsoft.com/library/dn832125.aspx)  

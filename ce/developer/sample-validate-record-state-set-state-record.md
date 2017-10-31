@@ -18,9 +18,12 @@ ms.assetid: 6b2f00ca-dbac-47d8-ab4a-0be52b72f05d
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Validate record state and set the state of the record
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Business Management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62) 
 
 ## Prerequisites

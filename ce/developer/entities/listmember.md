@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ListMember Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Item in a marketing list.
 
 **Added by**: Marketing Solution<br />

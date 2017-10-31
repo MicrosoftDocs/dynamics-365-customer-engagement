@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_mlresultcache Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Cache for scored work items per resource that are returned from Azure Machine Learning.
 
 **Added by**: Project Service Automation Solution<br />

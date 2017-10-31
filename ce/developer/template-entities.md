@@ -17,9 +17,12 @@ ms.assetid: 0e2e1162-e418-4e34-8ce1-26dcdf13d514
 caps.latest.revision: 23
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Template entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], the *template* entities help you create consistent layout and content in email messages, articles, contracts, mail merge documents, and [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] documents ([!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] and [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]).  
   
 ## In This Section  

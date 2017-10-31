@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # RibbonCustomization Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Ribbon customizations for the application ribbon and entity ribbon templates.
 
 

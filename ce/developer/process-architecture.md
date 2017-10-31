@@ -14,10 +14,13 @@ ms.assetid: 8150b437-8c14-4668-910d-2910ba16b503
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Process architecture
-The process management system in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement includes the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)], plug-ins, forms, and other components.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+The process management system in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement includes the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], plug-ins, forms, and other components.  
   
 <a name="Diagram"></a>   
 ## Process architecture diagram  

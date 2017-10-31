@@ -14,9 +14,12 @@ ms.assetid: d367aa6d-36dc-4084-8625-50f515602504
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Retrieve valid status transitions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadat] (https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7).  
 
 ## Prerequisites
@@ -42,7 +45,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
  The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
   
-```  
+```ms-dos
 [In Progress] incident records can transition to:  
 2  Canceled  1    Canceled  
 2  Canceled  1    Merged  
@@ -78,7 +81,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
  When this sample is run without status reason transitions applied on the incident entity you will see the following representing all the possible transitions for each status.  
   
-```  
+```ms-dos
 [Problem Solved] incident records can transition to:  
 1  Resolved  1000 Information Provided  
 2  Canceled  6    Canceled  

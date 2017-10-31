@@ -14,9 +14,12 @@ ms.assetid: 767f39d4-6a8e-48f0-bf7d-69ea1191acef
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Authenticate to Dynamics 365 Customer Engagement with the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The code you write to manage authentication when using the Web API depends on the type of deployment and where your code is.  
   
 ## Web API authentication patterns  

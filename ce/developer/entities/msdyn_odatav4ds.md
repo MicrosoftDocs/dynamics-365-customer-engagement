@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_odatav4ds Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Data sources used by the OData v4 data provider to access data from an external web service.
 
 **Added by**: OData v4 Data Provider Solution<br />

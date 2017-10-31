@@ -14,9 +14,12 @@ ms.assetid: 4a17a1b0-c111-4575-ae70-802b79a2c6ae
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Create an email using a template
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Templates](https://code.msdn.microsoft.com/Templates-Samples-1759ff39).  
   
 ## Prerequisites

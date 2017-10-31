@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Workflow Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed.
 
 

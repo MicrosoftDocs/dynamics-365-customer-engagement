@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ConstraintBasedGroup Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Group or collection of people, equipment, and/or facilities that can be scheduled.
 
 **Added by**: Service Solution<br />

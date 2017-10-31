@@ -21,10 +21,12 @@ ms.assetid: 11ff225b-8173-419e-b16f-2d43faa4294d
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Organization entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 An *organization* entity is internal to the customer relationship management process. The organization is the top level of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] business hierarchy. The organization can be a specific business, a holding company, a corporation, and so on. An organization is divided into business units. Schema customization is done at this level.  
 

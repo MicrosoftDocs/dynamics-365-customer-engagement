@@ -14,10 +14,13 @@ ms.assetid: f2b7ddcc-6678-492f-8b4b-478e00049362
 caps.latest.revision: 39
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Use record-based security to control access to records
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Record-based security in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement  applies to individual records. It is provided by using access rights.  
   
  The relationship between an access right and a privilege is that access rights apply only after privileges have taken effect. For example, if a user does not have the privilege to read accounts, that user is unable to read any account, regardless of the access rights another user might grant to a specific account through sharing.  

@@ -17,9 +17,12 @@ ms.assetid: e0219990-26af-46d2-beba-f021b26021cc
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Enable field security for an entity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Sample: Enable field security for an entity](https://code.msdn.microsoft.com/Sample-Enable-field-479dc6f4).  
 
 ## Prerequisites

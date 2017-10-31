@@ -14,9 +14,12 @@ ms.assetid: 4cd4c951-7c4f-4280-b928-0d901f62ef08
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Create a custom activity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample of [work with entity metadata](https://code.msdn.microsoft.com/Samples-of-entities-916efa41). 
 
 ## Prerequisites

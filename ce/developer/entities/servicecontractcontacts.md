@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ServiceContractContacts Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Item in a Service contract.
 
 **Added by**: Service Solution<br />

@@ -18,9 +18,12 @@ ms.assetid: f074df11-da5c-4efe-bbf2-a965f50bf3a9
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Define custom actions to modify the ribbon
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement metadata. This default data can’t be changed, but you can include definitions of specific actions that will override the default ribbon.  
   
 ## Types of custom actions  

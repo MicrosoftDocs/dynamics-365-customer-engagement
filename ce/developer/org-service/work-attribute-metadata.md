@@ -14,9 +14,12 @@ ms.assetid: 5fc61379-4811-4b3c-9bac-2227ce5662e2
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Work with attribute metadata
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic uses code snippets from the [Sample: Work with Attributes](sample-work-attribute-metadata.md) to show how to perform common tasks when working with attributes.  
   
 <a name="BKMK_CreateAttributes"></a>   

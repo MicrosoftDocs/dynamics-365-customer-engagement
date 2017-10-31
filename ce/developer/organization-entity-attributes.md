@@ -19,9 +19,12 @@ ms.assetid: 9e32ca29-b2c1-40dd-a7b3-960f8971955e
 caps.latest.revision: 43
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Organization entity attributes
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following information is for the organization entity in a default, uncustomized installation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The schema name and early bound class for this entity is `Organization`. The Web API uses [Organization Entity](entities/organization.md).  
   
  The values set for these attributes control behaviors for the organization. They are usually set via the organization settings page in the application.  

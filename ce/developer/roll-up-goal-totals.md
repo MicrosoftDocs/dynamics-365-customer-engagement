@@ -25,9 +25,12 @@ ms.assetid: e7e706f7-0f65-480a-87bc-e11857ad084f
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Roll up goal totals
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 To roll up data in the goal hierarchy, use the <xref:Microsoft.Crm.Sdk.Messages.RecalculateRequest> message. It recalculates the goal rollup field values, such as `Goal.ActualMoney` or `Goal.ActualInteger`, for all goals in the hierarchy. A rollup for each goal is performed in the context of the goal manager. This means that only the records that a manager of a goal has Read access to participate in the rollup. The system automatically switches the manager’s context for each goal during rollup, as every goal may have a different goal manager.  
   
  The totals are rolled up from the child goals to the parent goals, from the bottom of the hierarchy to the top. The ending total for the root goal at the top of the hierarchy is an aggregate sum of all totals in the hierarchy. For example, if revenue metric is used, the total is an aggregate sum of the money amounts. If a count metric is used, the total is an aggregate count of the actual records in the system, such as telephone calls. Regardless of which particular goal is a target of the recalculate operation, all totals in a given hierarchy are updated.  

@@ -17,9 +17,12 @@ ms.assetid: 2f1e1939-7dd3-4a12-92b2-13fb166c0dea
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Rollup goal data for a fiscal period against the stretch target count
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Goals samples](https://code.msdn.microsoft.com/Goals-Samples-539b2a34). 
 
 ## Prerequisites

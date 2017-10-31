@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Commitment Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 For internal use only.
 
 **Added by**: Service Solution<br />

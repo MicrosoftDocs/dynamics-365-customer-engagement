@@ -16,9 +16,12 @@ ms.assetid: f17819f8-e963-43e1-8895-36bf0cc32b0f
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Define ribbon enable rules
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 When configuring Ribbon elements you can define specific rules to control when the ribbon elements are enabled. The `<EnableRule>` element is used as follows:  
   
 -   Use the `/RuleDefinitions/EnableRules/EnableRule` element to define rules controlling when the ribbon element should be enabled.  
@@ -73,7 +76,7 @@ Uses the  `<CrmClientTypeRule>` element to allow definition of rules depending o
 > 2.  If that object exists, return it.  
 > 3.  If that object does not exist, define the object and set the value as false.  
 > 4.  Before you return a value, use [settimeout](https://msdn.microsoft.com/library/ms536753\(VS.85\).aspx) to execute an asynchronous callback function to re-set the object. Then return false.  
-> 5.  After the callback function has performed the operations that are required to determine the correct result, it sets the value of the object and uses the [refreshRibbon](../clientapi/reference/controls/refreshRibbon.md) method to refresh the ribbon.  
+> 5.  After the callback function has performed the operations that are required to determine the correct result, it sets the value of the object and uses the `refreshRibbon` method to refresh the ribbon.  
 > 6.  When the ribbon is refreshed, it detects the object together with the accurate value set and the rule is evaluated.  
   
 ### Entity Rule

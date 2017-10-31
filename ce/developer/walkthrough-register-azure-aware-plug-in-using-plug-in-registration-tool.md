@@ -14,9 +14,12 @@ ms.assetid: adc9af13-8505-4701-ab74-064df1f346a0
 caps.latest.revision: 64
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This walkthrough demonstrates how to register a service endpoint step using the Plug-in Registration Tool. Once configured, [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement can post the execution context of the current operation to a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution endpoint. For this walkthrough, the step is registered to post the execution context of the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> message for an `Account` entity to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
  The following prerequisites must be completed before you start this walkthrough:  

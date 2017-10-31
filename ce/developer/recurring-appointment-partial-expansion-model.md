@@ -14,9 +14,12 @@ ms.assetid: 64842501-58f9-4132-9126-75c70dafa3b4
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Recurring appointment partial expansion model
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] implements a partial expansion model to create recurring appointment instances in the database. The recurrence information, specified when you create a `RecurringAppointmentMaster` record, is used to create or synchronize individual instances in a phased manner. This controls the creation of a large number of appointment records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] due to the creation or synchronization of recurring appointments that have a large or infinite (no end date) recurrence range.  
   
  The partial expansion model is an asynchronous job in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that runs at pre-specified intervals, and is defined at the organization level using the `Organization.RecurrenceExpansionJobBatchInterval` attribute. Moreover, the instance expansion model depends on an organization-level parameter, for example, “N,” where “N” stands for the maximum number of instances that can be created synchronously. You can specify an appropriate value for this variable using the `Organization.RecurrenceExpansionSynchCreateMax` attribute. These properties are covered in detail in the [Parameters for the partial expansion job](#Parameter) section later.  

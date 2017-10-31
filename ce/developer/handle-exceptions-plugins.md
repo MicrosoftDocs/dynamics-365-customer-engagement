@@ -14,9 +14,12 @@ ms.assetid: f4f28db1-d744-462a-9eae-544106f95cb8
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Handle exceptions in plug-ins
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 For synchronous plug-ins, whether registered in the sandbox or not, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement platform handles exceptions passed back from a plug-in by displaying an error message in a dialog of the web application user interface. The exception message for asynchronous registered plug-ins is written to a System Job (`AsyncOperation`) record which can be viewed in the System Jobs area of the web application.  
   
  For synchronous plug-ins, you can optionally display a custom error message in the error dialog of the web application by having your plug-in throw an <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> exception with the custom message string as the exception **Message** property value. If you throw <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> and do not provide a custom message, a generic default message is displayed in the error dialog. It is recommended that plug-ins only pass an <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> back to the platform.  

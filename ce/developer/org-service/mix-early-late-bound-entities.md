@@ -21,9 +21,12 @@ ms.assetid: bbfe8b49-518a-4692-b0b3-a64f97b5dc66
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Mix early and late bound entities
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you can mix early binding and late binding methods to work with both strong types and the <xref:Microsoft.Xrm.Sdk.Entity> class. This approach uses both static metadata from a code-generated file of strong types with the flexibility of the <xref:Microsoft.Xrm.Sdk.Entity> class and its helper methods.  
   
  The following example shows one way to mix early and late binding methods.  
@@ -48,7 +51,7 @@ context.SaveChanges();
 ## Assign an early bound instance to a late bound instance  
  The following sample shows how to assign an early bound instance to a late bound instance.  
   
-```  
+```csharp
 Entity incident = ((Entity)context.InputParameters[ParameterName.Target]).ToEntity<Incident>();  
 Task relatedEntity = new Task() { Id = this.TaskId };  
   

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # UserQuery Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Saved database query that is owned by a user.
 
 

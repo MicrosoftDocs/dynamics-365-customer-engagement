@@ -14,9 +14,12 @@ ms.assetid: 1635a343-2896-4cdb-a6fb-3c5113a32470
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Localize product property values
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Product names may be localized for different regions. With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] you can provide localized labels for certain product attributes so that people will see the localized names that match their language preferences. This topic is about how developers can interact with this feature. For step-by-step instructions to use this feature in the application, see [Translate product names and properties into multiple languages](http://go.microsoft.com/fwlink/p/?LinkId=512440).  
 
 <a name="BKMK_supportedAttributes"></a>   

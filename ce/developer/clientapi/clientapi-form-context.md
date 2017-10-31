@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # Client API form context
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The form context provides a reference to the form or to an item on the form, such as, a quick view control or a row in an editable grid, against which the current code is executed.
 
 Earlier, the global **Xrm.Page** object was used to represent a form or an item on the form. With [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], the **Xrm.Page** object is [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated), and you should now use the [getFormContext](reference/executioncontext/getFormContext.md) method of the passed in execution context object to return reference to the appropriate form or an item on the form.

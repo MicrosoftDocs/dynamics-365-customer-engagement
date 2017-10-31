@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # Client API grid context
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The grid context object provides a reference to the grid or a subgrid on a form against which the current code is executed.
 
 To get the **gridContext** object, you use the [formContext](clientapi-form-context.md) object to get an instance of the grid control. For example, when you know the name of a subgrid control (say CONTACTS subgrid in the default account form), you can access it using the following code:

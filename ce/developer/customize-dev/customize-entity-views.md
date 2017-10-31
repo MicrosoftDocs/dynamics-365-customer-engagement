@@ -14,9 +14,12 @@ ms.assetid: a6b5d363-4186-4bc8-a7eb-62f308fa9ef9
 caps.latest.revision: 40
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customize entity views
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity views are special saved queries that retrieve data by using a specific filter. They also contain information about how the data in the view should be displayed in the application. Entity views are `SavedQuery` records that you can create programmatically. You can also define them as XML, and import them into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement with an unmanaged solution.  
   
  An Entity view is different from a `UserQuery`. A user query, called a Saved view in the application, is owned by an individual user, can be assigned and shared with other users, and can be viewed by other users depending on the query's access privileges. This is appropriate for frequently used queries that span entity types and queries that perform aggregation. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md)  
@@ -133,7 +136,7 @@ System.String layoutXml =
   
  The following sample code displays different icons and tooltip text based on one of the values (1: Hot, 2: Warm, 3: Cold) in the `opportunityratingcode (Rating)` attribute. The sample code also shows how to display localized tooltip text. For this sample to work, you must create three image web resources each with 16x16 images (![Hot rating button](../media/dynamics365hotgridicon.png "Hot rating button"), ![Warm rating symbol](../media/dynamics365warmgridicon.png "Warm rating symbol"), and ![Cold rating button](../media/dynamics365coldgridicon.png "Cold rating button")) in your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] instance with the following names respectively: `new_Hot`, `new_Warm`, and `new_Cold`.  
   
-```javascript  
+```javascript 
 function displayIconTooltip(rowData, userLCID) {      
     var str = JSON.parse(rowData);  
     var coldata = str.opportunityratingcode_Value;  

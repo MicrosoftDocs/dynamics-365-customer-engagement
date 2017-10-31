@@ -25,9 +25,12 @@ ms.assetid: 608aa482-1727-4809-95b4-a2953dbc54d9
 caps.latest.revision: 44
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Extend Dynamics 365 Customer Engagement on the server
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section describes capabilities to extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform. Whenever possible, extensions that apply business logic should be applied on the server.  
   
 ## In This Section  

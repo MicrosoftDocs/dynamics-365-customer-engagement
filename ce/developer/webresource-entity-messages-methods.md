@@ -14,9 +14,12 @@ ms.assetid: 6472bf88-4948-49f3-9f53-a4ef13abb702
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # WebResource entity messages and methods
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *web resource* stores the data equivalent to files used in web development. Web resources are client-side components that provide custom user interface elements. The schema name for this entity is `WebResource`. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
  The following table describes the messages for this entity, which you use with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  

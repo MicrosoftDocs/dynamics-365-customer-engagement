@@ -17,9 +17,12 @@ ms.assetid: 60ccf138-2699-4260-9b36-009f038a7788
 caps.latest.revision: 29
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Schemas used in Dynamics 365
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic contains links to all the schemas needed for features described in the SDK documentation. [Download the schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)  

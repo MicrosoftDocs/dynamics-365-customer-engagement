@@ -11,6 +11,24 @@ manager: "amyla"
 ---
 # addTabStateChange (Client API reference)
 
-TODO: Add description. 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[./includes/addTabStateChange-description.md](./includes/addTabStateChange-description.md)].
+
+## Syntax
+
+`tabObj.addTabStateChange(myFunction);` 
+
+## Parameter
+
+|Name|Type|Required|Description|
+|--|--|--|--|
+|myFunction|function reference|Yes|The function to be executed on the [TabStateChange](../events/tabstatechange.md) event. The function will be added to the bottom of the event handler pipeline. The execution context is automatically passed as the first parameter to the function. See [Execution context](../../clientapi-execution-context.md) for more information.|
+
+### Related topics
+
+[formContext.ui](../formContext-ui.md)
+
+[formContext](../../clientapi-form-context.md)
 
 

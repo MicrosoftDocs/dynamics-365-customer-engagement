@@ -21,9 +21,12 @@ ms.assetid: f392ebae-4012-4861-a335-42e1d9243409
 caps.latest.revision: 39
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # xRM messages in the Organization service
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The <xref:Microsoft.Xrm.Sdk.Messages> namespace supports the core messages used to work with the data stored in any entity. This namespace also contains the messages you can use to retrieve and customize the metadata for entities, attributes, and relationships.  
   
  Messages are used with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method. All messages available in the <xref:Microsoft.Xrm.Sdk.Messages> namespace apply to all three deployment types.  

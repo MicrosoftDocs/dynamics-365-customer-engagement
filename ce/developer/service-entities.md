@@ -17,9 +17,12 @@ ms.assetid: 4a81b285-0ebc-446e-920e-ac7d82d4b027
 caps.latest.revision: 25
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Service entities in Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The entities described in this section are targeted at the customer service department of an organization.  
   
 > [!NOTE]

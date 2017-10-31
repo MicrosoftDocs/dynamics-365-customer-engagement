@@ -16,9 +16,12 @@ ms.assetid: 649ec32a-1ae1-4966-96fa-3543f4a05509
 caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Publish customizations
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Publishing customizations makes the Web application aware of changes to the data that affects the user interface.  
   
 <a name="BKMK_WhenToPublishCustomizations"></a>   

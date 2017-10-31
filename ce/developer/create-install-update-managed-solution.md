@@ -22,9 +22,12 @@ ms.assetid: 78ec9f71-7845-46c7-be6d-7ac5ade85e28
 caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create, install, and update a managed solution
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You create a managed solution by exporting an unmanaged solution as a managed solution. The organizations that use your managed solution will install it and any updates that you create for it.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md).  

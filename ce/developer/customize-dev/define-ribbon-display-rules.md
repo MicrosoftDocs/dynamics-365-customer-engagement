@@ -16,9 +16,12 @@ ms.assetid: b247c51a-753b-48e5-9772-83346416886c
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Define ribbon display rules
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 When configuring ribbon elements, you can define specific rules to control when the ribbon elements will display.  
   
 -   Use the /`RuleDefinitions`/DisplayRules/`<DisplayRule>` element to define rules controlling when the ribbon element should be displayed.  

@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # Use an IFRAME and Web Resource controls on a form
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 <!-- Original content pasted below 
 <!--
 IFRAME and web resource controls embed content from another location in pages by using an HTML IFRAME element.  

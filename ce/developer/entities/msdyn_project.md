@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_project Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Delivery entity in an engagement.
 
 **Added by**: Project Service Automation Solution<br />

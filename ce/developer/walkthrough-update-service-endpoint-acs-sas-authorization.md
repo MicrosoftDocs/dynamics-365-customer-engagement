@@ -14,9 +14,12 @@ ms.assetid: a1a4fe6f-be17-4a75-af6c-cd1ee901b868
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Walkthrough: Update a service endpoint from ACS to SAS authorization
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Shared Access Signature (SAS) is the recommended authorization method for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] integration as its use results in improved authorization performance compared to Access Control Service (ACS), and SAS is supported on all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments without any special server configuration. You can update existing service endpoint entity records in a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization from ACS to SAS authorization by using the Plug-in Registration Tool and following these steps.  
   
 > [!NOTE]

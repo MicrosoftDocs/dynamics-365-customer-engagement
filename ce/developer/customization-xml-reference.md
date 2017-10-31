@@ -14,9 +14,11 @@ ms.assetid: bcdcc975-4918-4513-b04a-6a9d3d04f08c
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customization XML reference
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 The customizations.xml file is one of the files included in an exported unmanaged solution. The file contains all or selected portions of the customizations and configurations for your system. 
   

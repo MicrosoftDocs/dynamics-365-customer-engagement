@@ -14,9 +14,12 @@ ms.assetid: 195362cb-792a-4a02-a2bb-852aa431706f
 caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Update a custom workflow activity using assembly versioning
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, updates to your custom workflow activity assembly are handled more efficiently because of the improved assembly versioning model.  
   
 <a name="AssemblyVersioning"></a>   
@@ -56,5 +59,5 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
  Optionally, after you have updated all your process definitions to use the newer version, you could also unregister the older versions of the custom workflow activity.  
   
 ### See also  
- [Custom Workflow Activities (on-premises only)](custom-workflow-activities-workflow-assemblies.md)   
+ [Custom workflow activities (workflow assemblies)](../custom-workflow-activities-workflow-assemblies.md)   
  [Process classes, attributes, and types](process-classes-attributes-and-types.md)

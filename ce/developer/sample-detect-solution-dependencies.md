@@ -23,6 +23,9 @@ topic-status: Drafting
 ---
 
 # Sample: Detect solution dependencies
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the work with solutions sample](https://code.msdn.microsoft.com/Sample-Work-with-solutions-a496ee8f).
 
 ## Prerequisites

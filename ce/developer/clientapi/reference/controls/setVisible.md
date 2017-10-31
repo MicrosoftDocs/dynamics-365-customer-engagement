@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # setVisible (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Sets a value that indicates whether the control is visible. 
 
 ## Control types supported

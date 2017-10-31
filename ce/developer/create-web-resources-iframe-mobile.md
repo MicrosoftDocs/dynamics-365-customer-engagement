@@ -14,9 +14,12 @@ ms.assetid: 2cf94cbb-d3a1-4aaf-8dc4-bfe5f81f22d1
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create web resources and IFrame content for use with the Dynamics 365 for mobile clients
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 > [!NOTE]
 > - The capability to display web resources and Iframes in phone clients was introduced in [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
 > - The capability to display web resources and iframes in tablet clients was introdced in Dynamics CRM Online 2016 Update and CRM 2016 (on-premises).

@@ -12,7 +12,9 @@ manager: "amyla"
 ---
 # addOnChange (Client API reference)
 
-Sets a function to be called when the attribute value is changed. The **Field OnChange** event occurs when the attribute value is changed.
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
+Sets a function to be called when the **OnChange** event occurs.
 
 ## Attribute types supported
 
@@ -20,17 +22,20 @@ All
 
 ## Syntax
 
-`formContext.getAttribute(arg).addOnChange([function reference])`
+`formContext.getAttribute(arg).addOnChange(myFunction)`
 
 ## Parameters
 
 | Parameter Name| Type| Description  |
 | --------|-----------| -----|
-|[function reference]| function pointer| Specifies the function to be executed when the attribute value is changed.|
+|myFunction| Function reference| Specifies the function to be executed on the attribute **OnChange** event. The [execution context](../../clientapi-execution-context.md) is automatically passed as the first parameter to this function.|
 
 
 ### Related topics
-[Field OnChange Event](../events/field-onchange.md)
+
+[removeOnChange](removeOnChange.md)
+
+[Attribute OnChange Event](../events/attribute-onchange.md)
 
 
 

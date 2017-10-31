@@ -38,10 +38,13 @@ ms.assetid: f6a1a03d-938c-4fe1-8f25-2e1551e148ff
 caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Customize labels to support multiple languages
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, you can support multiple languages by using labels.  
   
 <a name="BKMK_UsingLabels"></a>   

@@ -19,12 +19,13 @@ ms.assetid: 705f78dc-c392-4ca7-bc48-0ed3fc687a6f
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Serialize and deserialize an entity Instance
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [!INCLUDE[sdk_download](../../includes/sdk-download.md)] It can be found in the following location in the download package:  
-  
- `SampleCode\CS\BusinessDataModel\BusinessManagement\SerializeAndDeserialize.cs`  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample here [Business management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

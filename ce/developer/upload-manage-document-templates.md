@@ -14,9 +14,12 @@ ms.assetid: cbe05ed2-dfe4-4128-9df0-658e9110ac76
 caps.latest.revision: 10
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Upload and manage document templates in Dynamics 365
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use document templates in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to export your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data as [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] files, which can be used as templates to generate [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] documents with standardized and up-to-date [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data for analysis and reporting purposes. Using document templates ensures consistent and standard data representation for your company and customers. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with templates](http://go.microsoft.com/fwlink/p/?LinkID=624118)  
   
  After you have created a document template using the web client, you can programmatically upload the template file (.xlsx or . docx) to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, update the name or the template file associated with a document template record, retrieve the document template record, and delete the document template record. Use the `DocumentTemplate` entity to upload and manage organization-owned document templates, and the `PersonalDocumentTemplate` entity to upload and manage user-owned or personal document templates. You can share or assign personal document templates to other users.  
@@ -39,7 +42,7 @@ Console.WriteLine("Uploaded template: '{0}'.", myTemplate.Name);
   
  If you want to upload a Word template file instead, specify the path to a Word template file in the `filePath` variable, and change the `DocumentType` parameter, as shown in the following example.  
   
-```  
+```csharp 
 DocumentType = new OptionSetValue(2); // For uploading a Word template.  
 ```  
   

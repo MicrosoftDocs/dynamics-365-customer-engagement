@@ -16,9 +16,12 @@ ms.assetid: c2e420e0-66e6-4317-b203-8a0710d0d3f4
 caps.latest.revision: 49
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # View data with visualizations (charts)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Visualizations let you see your business data graphically. A visualization is attached to an entity in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. You can attach multiple visualizations to an entity, however, only one visualization can be displayed at a time along-side a grid. You can view multiple visualizations at the same time by using a dashboard. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Analyze Data with Dashboards](analyze-data-with-dashboards.md)  
   
  You can use a chart or a web resource as a visualization in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. For charts, you can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. However, to use a web resource in a visualization, you must either use the SDK or import a custom visualization XML into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample: Create, Retrieve, Update, and Delete a Chart](sample-create-retrieve-update-delete-chart.md)  
@@ -49,7 +52,7 @@ Visualizations let you see your business data graphically. A visualization is at
 ### Chart types in Microsoft chart controls  
  [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)] is used to build charts in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)] enable you to create various chart types such as column, bar, area, stacked, line, bubble, and pie.  
   
- The following chart types are supported out-of-box in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]: *Column*, *Area*, *Bar*, *Line*, *Pie*, and *Funnel*. However, you can extend the functionality by creating other supported [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)] chart types such as multi-series, stacked, and 100% stacked (comparison) charts by using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)]. This is done by specifying appropriate content in the data description and presentation description XML strings for a chart. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Specifying Chart Data](understand-charts-underlying-data-chart-representation.md)  
+ The following chart types are supported out-of-box in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]: *Column*, *Area*, *Bar*, *Line*, *Pie*, and *Funnel*. However, you can extend the functionality by creating other supported [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)] chart types such as multi-series, stacked, and 100% stacked (comparison) charts by specifying appropriate content in the data description and presentation description XML strings for a chart. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Specifying Chart Data](understand-charts-underlying-data-chart-representation.md)  
   
 <a name="WebResources"></a>   
 ## Web resource visualizations  

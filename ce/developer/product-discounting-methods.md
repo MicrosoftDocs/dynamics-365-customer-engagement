@@ -14,9 +14,12 @@ ms.assetid: 06c76a25-3bba-4d03-a37b-0f213a7576ca
 caps.latest.revision: 11
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Product discounting methods
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Discounts can be applied either at the line item level or at per unit level. Use the `Organization.DiscountCalculationMethod` attribute to specify the discount method. Set the value of the attribute to:  
   
 - **0** for discounting at line item level  

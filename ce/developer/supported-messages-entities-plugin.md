@@ -14,9 +14,12 @@ ms.assetid: b3902754-0cbc-49d5-ac37-3f6f89a89e90
 caps.latest.revision: 47
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Supported messages and entities for plug-ins
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic contains a table that lists the message and entity combinations that support execution of plug-ins for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement.
   
  The **Message Availability** column of the table indicates whether a message is available online, offline, or both. The **Entity Deployment** column indicates if the entity can be deployed on the server, on the client, or both. A value of **null** in the **Primary Entity** column means that there is no primary entity associated with the message. The same applies to the **Secondary Entity** column.  

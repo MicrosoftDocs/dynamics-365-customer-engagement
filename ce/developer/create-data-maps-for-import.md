@@ -14,9 +14,12 @@ ms.assetid: ceb6ccb2-8a9f-4d96-9f93-8d7281e127fa
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create data maps for import
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 To import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must provide the appropriate data maps.  
   
  You can download examples of data maps from [Microsoft Downloads: DataImportMaps.zip](http://download.microsoft.com/download/D/5/F/D5F73E15-439B-4EBC-BFFB-C6837B146C76/DataImportMaps.zip).

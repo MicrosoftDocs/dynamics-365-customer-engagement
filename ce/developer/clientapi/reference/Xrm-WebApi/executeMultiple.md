@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # executeMultiple (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/executeMultiple-description.md](./includes/executeMultiple-description.md)] 
 
 If you want to execute multiple requests in a transaction, you must pass in a change set as a parameter to this method. [Change sets](../../../webapi/execute-batch-operations-using-web-api.md#bkmk_ChangeSets) represent a collection of operations that are executed in a transaction. You can also pass in individual requests and change sets together as parameters to this method.

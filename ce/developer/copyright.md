@@ -17,6 +17,9 @@ manager: "amyla"
 robots: noindex,nofollow
 ---
 # Copyright
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[cc_copy_doc_provided_as_is](../includes/cc-copy-doc-provided-as-is.md)]  
   
 [!INCLUDE[cc_copy_examples_are_fictitious](../includes/cc-copy-examples-are-fictitious.md)]
