@@ -14,15 +14,19 @@ ms.assetid: 2afc057e-8f70-4bea-bad4-d01e18ed92fd
 caps.latest.revision: 14
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use XRM tooling to retrieve data
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 There are many methods available in the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for retrieving data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. The following examples demonstrate how you can retrieve a record by ID or FetchXML query.  
   
 ## GetEntityDataById  
+
  This method searches for an entity by the specified ID. In this sample, we specify null for the field list value to fetch all the attributes of the specified entity record (account), and then display the name of the retrieved account record.  
   
-```C#  
+```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", “<Domain>”),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected.  
@@ -57,9 +61,10 @@ else
 ```  
   
 ## GetEntityDataByFetchSearchEC  
+
  This method searches for the entity based on the specified FetchXML query. In this sample, we retrieve and display the count of all account records in the system.  
   
-```C#  
+```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", “<Domain>”),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected.  
@@ -96,6 +101,7 @@ else
 ```  
   
 ### See also  
+
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
  [Use XRM Tooling to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
  [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)

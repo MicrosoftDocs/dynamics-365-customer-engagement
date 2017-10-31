@@ -19,9 +19,12 @@ ms.assetid: 9f4f05c6-0d19-4a32-8ef3-776757c0ea86
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Create, retrieve, update, and delete (late bound)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample is for [!INCLUDE[pn_crm_2015_and_online_full](../../includes/pn-crm-2015-and-online-full.md)]. Download the complete sample here [Sample: Create, retrieve, update and delete (late bound)](https://code.msdn.microsoft.com/Sample-Create-retrieve-e183a7fb).  
 
 ## Prerequisites

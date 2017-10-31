@@ -14,21 +14,24 @@ ms.assetid: 84056850-972d-4209-a293-acd5a5503fbf
 caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Helper code: ServerConnection class
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The primary purpose of the `ServerConnection` class is to show how to connect to the [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement web services to invoke web methods. In addition, applications must typically perform other tasks such as obtaining server and organization information, obtaining user login credentials, creating a service proxy, and refreshing the WCF connection security token. The `ServerConnection` class provides this needed functionality.  
   
 > [!CAUTION]
->  The `ServerConnection` class is used by most samples that ship with the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)]. The class is updated periodically with new functionality. Do not simply reuse the helper code for authentication in your applications. It is code that the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] uses to provide the optimum experience when you run our Console application samples included in the SDK. It contains all the key elements of authentication and demonstrates their use, but it may not represent the best solution for your application. It is sample code that you can use as a basis for designing an authentication management system that fits the requirements of your application. Refer to the topic [Use connection strings in XRM tooling to connect to Dynamics 365](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md) for an alternate method for authenticating with the web services.  
+>  The `ServerConnection` class is used by most samples that are included in the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)]. The class is updated periodically with new functionality. Do not simply reuse the helper code for authentication in your applications. It is code that the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] uses to provide the optimum experience when you run our Console application samples included in the SDK. It contains all the key elements of authentication and demonstrates their use, but it may not represent the best solution for your application. It is sample code that you can use as a basis for designing an authentication management system that fits the requirements of your application. Refer to the topic [Use connection strings in XRM tooling to connect to Dynamics 365](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md) for an alternate method for authenticating with the web services.  
   
  The file is present in code samples' folder that you download.
  
- Path: ```<download-directory>\<sample name>\C#\CrmServiceHelpers.cs```.
+ Path: `<download-directory>\<sample name>\C#\CrmServiceHelpers.cs`.
  
  For example, if you download the **Work with attribute metadata** sample to D drive, you can find the sample in the following folder path.
 
- Path: ```D:\Work with attribute metadata\CrmServiceHelpers.cs```
+ Path: `D:\Work with attribute metadata\CrmServiceHelpers.cs`
   
  Use the class source code in the CrmServiceHelpers files as a basis for your own classes or use the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for just the basic functionality of setting up a service connection.  
   
@@ -43,9 +46,7 @@ The primary purpose of the `ServerConnection` class is to show how to connect to
  Useful code for authentication can be found in the `GetProxy` and `GetOrganizationProxy` methods. Also, the code that creates and reads a user’s password in the [!INCLUDE[pn_Windows_Credential_Manager](../../includes/pn-windows-credential-manager.md)] may be of interest.  
   
 ## Example  
- [!code-csharp[HelperCode#crmservicehelper](../../snippets/csharp/CRMV8/helpercode/cs/crmservicehelper.cs#crmservicehelper)]  
-  
- [!code-vb[HelperCodeVB#crmservicehelper](../../snippets/visualbasic/CRMV8/helpercodevb/vb/crmservicehelper.vb#crmservicehelper)]  
+ [!code-csharp[HelperCode#crmservicehelper](../../snippets/csharp/CRMV8/helpercode/cs/crmservicehelper.cs#crmservicehelper)] 
   
 ### See also  
  [Use the Sample and Helper Code](use-sample-helper-code.md)  

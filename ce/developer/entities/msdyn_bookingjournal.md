@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_bookingjournal Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 System generated journal to calculate the cost of the resource bookings
 
 **Added by**: Field Service Solution<br />

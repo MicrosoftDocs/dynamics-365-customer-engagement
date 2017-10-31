@@ -14,9 +14,12 @@ ms.assetid: 0264083d-08e0-4bcc-9f94-0c0a6498199d
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Supported entities for asynchronous operations
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The entities and messages that are supported in asynchronous operations are the same as the message and entity combinations that support plug-ins. For more information, see[Supported Messages and Entities for Plug-ins](supported-messages-entities-plugin.md).  
   
  Asynchronous operations are spawned to handle many types of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement operations, for example import/export, bulk operations, duplicate detection, recurring appointments, recurring (internal) system jobs, and more.  

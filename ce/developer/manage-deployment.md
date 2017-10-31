@@ -14,9 +14,12 @@ ms.assetid: 8089efdb-c358-4049-94ab-4496a98a768a
 caps.latest.revision: 11
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Manage your deployment of Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Write application code to handle disaster recovery, administer your deployment, and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement.  
   
 ## In This Section  

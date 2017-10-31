@@ -21,9 +21,12 @@ ms.assetid: aa467b48-73b0-465b-a434-1fcbc49b76b6
 caps.latest.revision: 37
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the early-bound entity classes for create, update, and delete
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can use the entity data model and the early-bound entity classes, created by the code generation tool ([!INCLUDE[sdk_CodeGenUtility](../../includes/sdk-codegenutility.md)]), to work with business data. You can use these early-bound classes with or without the organization service context, but a best practice is to use the generated organization service context class. The context attempts to manage relationships efficiently, but handwritten code can typically be even more efficient.  
   
 > [!NOTE]

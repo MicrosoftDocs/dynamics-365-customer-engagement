@@ -17,9 +17,12 @@ ms.assetid: a231c619-7130-43f0-b3da-fd1a87545672
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Upload, retrieve, and download an attachment
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Annotations](https://code.msdn.microsoft.com/Annotation-Sample-9d797e21).  
 
 ## Prerequisites

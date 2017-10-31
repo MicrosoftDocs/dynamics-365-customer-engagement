@@ -23,9 +23,12 @@ ms.assetid: db51ae6d-5294-4555-8484-d54246189ac1
 caps.latest.revision: 45
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Package and distribute extensions using solutions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement, solutions give you a framework for packaging, installing, and uninstalling components that provide specific business functionality. Solutions are used by ISVs and other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution providers to distribute extensions they create, but you’ll also use them to transfer customizations between different organizations you may use in your development process, such as separate development, test, and production organizations.  
   
 ## In This Section  

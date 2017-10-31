@@ -14,9 +14,12 @@ ms.assetid: 1cb725f8-cdc3-4b34-a59e-fe50612e6345
 caps.latest.revision: 8
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Specify time zone settings for a user
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the `UserSettings` entity to specify time zone settings for a user in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The following attributes are exposed for the `UserSettings` entity related to time zone. All time zone attributes in the `UserSettings` entity are of `Integer` data type.  
   
 |Attribute name|Description|  

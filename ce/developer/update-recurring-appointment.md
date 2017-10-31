@@ -18,9 +18,12 @@ ms.assetid: 8b4e75d1-4d3e-4d93-b4c1-6223269c4d4b
 caps.latest.revision: 24
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Update a recurring appointment
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can either update the whole series or update an instance of a recurring appointment.  
   
 ## Update a recurring appointment series  

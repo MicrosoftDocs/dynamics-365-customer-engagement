@@ -18,9 +18,12 @@ ms.assetid: 414b1727-13f5-49df-b6a8-ccb730c1dc3d
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Task, fax, phone call, and letter activity entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section contains information about the entities that enable you to manage core activities that are performed in a relationship management solution.  
   
 ## In This Section  

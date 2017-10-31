@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # deleteRecord (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/deleteRecord-description.md](./includes/deleteRecord-description.md)] 
 
 ## Syntax
@@ -40,7 +42,7 @@ manager: "amyla"
 </tr>
 <tr>
 <td>successCallback</td>
-<td>String</td>
+<td>Function</td>
 <td>No</td>
 <td><p>A function to call when a record is deleted. An object with the following properties will be passed to identify the deleted record:</p>
 <ul>
@@ -51,7 +53,7 @@ manager: "amyla"
 </tr>
 <tr>
 <td>errorCallback</td>
-<td>String</td>
+<td>Function</td>
 <td>No</td>
 <td>A function to call when the operation fails.</td>
 </tr>

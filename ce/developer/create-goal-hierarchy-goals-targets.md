@@ -32,9 +32,12 @@ ms.assetid: 72e49f79-737b-4060-8429-ea9d5dc62422
 caps.latest.revision: 81
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create goal hierarchy, goals, and targets
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 In preparation for goal management, you should specify a metric for a goal (amount or count), create a goal hierarchy, and set the targets. All goals in the hierarchy must be based on the same goal metric. A metric defines the type of the goal, and the rollup fields specify other important settings for the goal. For more information, see [Use Goal Metric and Rollup Fields to Define a Goal](define-goal-metric-rollup-fields.md).  
 
 <a name="BKMK_CreateHierarchy"></a>   

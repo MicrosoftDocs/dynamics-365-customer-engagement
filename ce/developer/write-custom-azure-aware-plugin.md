@@ -14,9 +14,12 @@ ms.assetid: 35d8e05c-245a-4eff-bc5f-3a4ee8ffcb46
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Write a custom Azure-aware plug-in
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is similar to writing any other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement plug-in. However, in addition to invoking any desired web service methods, the plug-in must include code to initiate posting the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
 <a name="bkmk_design"></a>   
@@ -35,9 +38,11 @@ Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-win
   
  In your plug-in code, you can update the writeable data in the context before initiating the post. For example, you can add a key/value pair to the shared variables in the context.  
   
-<a name="bkmk_registration"></a>   
-## Plug-in registration  
- There are a few restrictions when you register a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] aware custom plug-in. The plug-in must be registered to execute in the sandbox. Because of this, the plug-in is limited to calling [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] methods, [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution methods, or accessing a network using a web client. No other external access, such as access to a local file system, is allowed.  
+<a name="bkmk_registration"></a>
+
+## Plug-in registration
+
+ There are a few restrictions when you register a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] aware custom plug-in. The plug-in must be registered to execute in the sandbox. Because of this, the plug-in is limited to calling <xref:Microsoft.Xrm.Sdk.IOrganizationService> methods, [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution methods, or accessing a network using a web client. No other external access, such as access to a local file system, is allowed.  
   
  For a plug-in registered to execute in asynchronous mode, this also means that the order of plug-in execution compared to other asynchronous plug-ins is not guaranteed. In addition, asynchronous plug-ins always execute after the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] core operation.  
   

@@ -23,9 +23,12 @@ ms.assetid: d5327d3b-b043-40f1-b296-fddee85e395b
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Business management entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The entities described in this section help you effectively manage the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application. This includes creating the relationships between entity records, setting up queues, and defining the fiscal periods for the organization.  
   
 ## In This Section  

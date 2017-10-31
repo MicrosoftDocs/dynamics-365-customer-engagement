@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # Quick Start Sample: Retrieve Customer Engagement instances using Online Management API 
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The C# sample demonstrates how to authenticate to the Online Management API and then retrieve all Customer Engagement instances from your Office 365 tenant.
 
 The sample uses the authentication [helper code](sample-authentication-helper.md) to easily authenticate to Online Management API using the OAuth 2.0 protocol and pass in the access token in header of your request.
@@ -38,14 +40,14 @@ To run the sample:
 1. [Download](https://code.msdn.microsoft.com/Sample-Retrieve-Customer-94e4076d) the sample, and extract it.
 2. Double-click the Visual Studio solution file (.sln) under the C# folder at the extracted location to open the solution in Visual Studio.
 3. In the **Programs.cs** file, specify a different service URL if the region is not North America. For a list of service URL values for worldwide regions, see [Service URL](get-started-online-management-api.md#service-url).
-    ```c#
+    ```csharp
     //TODO: Change this value if your Office 365 tenant is in a different region than North America
     
     private static string _serviceUrl = "https://admin.services.crm.dynamics.com";
     ```
 4. In the **HelperCode** > **AuthenticationHelper.cs** file, update the values of the `_clientId` and `_redirectURL` values appropriately.
     
-    ```c#
+    ```csharp
     // TODO: Substitute your app registration values here.
     // These values are obtained on registering your application with the 
     // Azure Active Directory.
@@ -58,7 +60,7 @@ To run the sample:
 
 Here is the complete sample code:
 
-```c#
+```csharp
 using Microsoft.Crm.Sdk.Samples.HelperCode;
 using System;
 using System.Net.Http;

@@ -14,9 +14,12 @@ ms.assetid: cd9d4906-9f98-4c7e-9e0a-9b40ed4dc7f2
 caps.latest.revision: 18
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Convert date and time behavior
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to use the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message to convert the UTC value to DateOnly value of the date and time attribute in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement that exist in the system before you changed the behavior of the attribute from `UserLocal` to `DateOnly`. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Convert behavior of existing date and time values in the database](../behavior-format-date-time-attribute.md#convert-behavior-of-existing-date-and-time-values-in-the-database).  
   
  This sample is for [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] (on-premises). This is available to download from [Convert date and time behavior](http://go.microsoft.com/fwlink/p/?LinkId=534240).  

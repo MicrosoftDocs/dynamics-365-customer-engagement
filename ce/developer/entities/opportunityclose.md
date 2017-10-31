@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # OpportunityClose Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.
 
 **Added by**: Sales Solution<br />

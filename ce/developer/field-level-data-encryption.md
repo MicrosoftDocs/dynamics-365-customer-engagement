@@ -14,9 +14,12 @@ ms.assetid: 02ec284f-11bb-4537-b2da-04a69f349815
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Field-level data encryption
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet the compliance requirements associated with FIPS 140-2. Field-level data encryption is especially important in scenarios that leverage the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)], which must store user names and passwords to enable integration between a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and an email service such as [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
   
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have the system administrator security role can activate data encryption (or change the encryption key after data encryption is enabled) in the **Settings** > **Data Management** > **Data Encryption** area. After data encryption is activated, it cannot be turned off.  

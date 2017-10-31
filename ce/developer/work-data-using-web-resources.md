@@ -14,9 +14,12 @@ ms.assetid: f1a0de36-a963-43c9-a878-c85c793cd089
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Work with Customer Engagement data using web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources to access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] data from within the application. There are three web services you can use in the application to access data by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. For organizations using [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] the Web API is recommended.  
   
 |Web Service|Description|  

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_findworkevent Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity used for counting the number of times resources apply for open positions and other behavioral attributes of resources.
 
 **Added by**: Project Service Automation Solution<br />

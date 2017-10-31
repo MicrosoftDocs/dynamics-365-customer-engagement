@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # addPreSearch (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Applies changes to lookups based on values current just as the user is about to view results for the lookup.
 
 ## Control types supported

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_projectparameter Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of settings that determine the behavior of the project-based service solution.
 
 **Added by**: Project Service Automation Solution<br />

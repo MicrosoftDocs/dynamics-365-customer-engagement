@@ -12,21 +12,20 @@ applies_to:
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
-helpviewer_keywords: 
-  - "sharepointlocationrecord"
-  - "sharepoint location record"
 ms.assetid: e4dd45e3-a9d4-4df2-9c2a-df64758620ce
 caps.latest.revision: 38
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 <a name="CRUDRecords"></a>
 
 ## Create, retrieve, update, and delete location records
 
- Using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] messages on the `SharePointSite` and `SharePointDocumentLocation` entities, you can create, retrieve, update, and delete records. To perform these operations on the `SharePointSite` entity, you must have the System Administrator role in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. For a list of supported messages, see [SharePointSite Entity](../entities/sharepointsite.md) and [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md).  
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] messages on the [SharePointSite](../entities/sharepointsite.md) and [SharePointDocumentLocation](../entities/sharepointdocumentlocation.md) entities, you can create, retrieve, update, and delete records. To perform these operations on the `SharePointSite` entity, you must have the System Administrator role in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. For a list of supported messages, see [SharePointSite Entity](../entities/sharepointsite.md) and [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md).  
 
 > [!NOTE]
 > Performing these operations on [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] location records only manipulates the data in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. It does not create, update, or delete the locations on the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] server.  
@@ -44,9 +43,7 @@ manager: "jdaly"
   
  To create a `SharePointSite` record by specifying the absolute URL:  
   
- [!code-csharp[SharePointIntegration#CRUDSharePointLocationRecords2](../../snippets/csharp/CRMV8/sharepointintegration/cs/crudsharepointlocationrecords2.cs#crudsharepointlocationrecords2)]  
-  
- [!code-vb[SharePointIntegrationVB#CRUDSharePointLocationRecords2](../../snippets/visualbasic/CRMV8/sharepointintegrationvb/vb/crudsharepointlocationrecords2.vb#crudsharepointlocationrecords2)]  
+ [!code-csharp[SharePointIntegration#CRUDSharePointLocationRecords2](../../snippets/csharp/CRMV8/sharepointintegration/cs/crudsharepointlocationrecords2.cs#crudsharepointlocationrecords2)] 
   
  Similarly, to create a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] document location record by specifying the absolute URL:  
   
@@ -70,8 +67,6 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
   
  [!code-csharp[SharePointIntegration#CRUDSharePointLocationRecords3](../../snippets/csharp/CRMV8/sharepointintegration/cs/crudsharepointlocationrecords3.cs#crudsharepointlocationrecords3)]  
   
- [!code-vb[SharePointIntegrationVB#CRUDSharePointLocationRecords3](../../snippets/visualbasic/CRMV8/sharepointintegrationvb/vb/crudsharepointlocationrecords3.vb#crudsharepointlocationrecords3)]  
-  
  The absolute URL of the child object (document location in this example) is: “*Parent_URL*/*Relative_URL*”. So, in this example, the absolute URL of the document location is  `http://www.example.com/spdocloc`.  
   
  Relative URLs are typically provided when you want to create a location record lower down the hierarchy or as a child record.  
@@ -94,8 +89,6 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
   
  [!code-csharp[SharePointIntegration#CRUDSharePointLocationRecords3](../../snippets/csharp/CRMV8/sharepointintegration/cs/crudsharepointlocationrecords3.cs#crudsharepointlocationrecords3)]  
   
- [!code-vb[SharePointIntegrationVB#CRUDSharePointLocationRecords3](../../snippets/visualbasic/CRMV8/sharepointintegrationvb/vb/crudsharepointlocationrecords3.vb#crudsharepointlocationrecords3)]  
-  
 <a name="RetrieveUrls"></a>   
 ## Retrieve absolute and site collection URLs for a location record  
  As explained earlier, [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] follows a hierarchical model to store records. If you want to retrieve the absolute (complete) URL of a location record in the hierarchy and the `SiteCollection` URL under which the location record is present, you can use the <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest> message to do so.  
@@ -113,8 +106,6 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
  The following sample shows how to use the `RetrieveAbsoluteAndSiteCollectionUrl` message:  
   
  [!code-csharp[SharePointIntegration#RetrieveAbsoluteAndSiteCollectionURLs2](../../snippets/csharp/CRMV8/sharepointintegration/cs/retrieveabsoluteandsitecollectionurls2.cs#retrieveabsoluteandsitecollectionurls2)]  
-  
- [!code-vb[SharePointIntegrationVB#RetrieveAbsoluteAndSiteCollectionURLs2](../../snippets/visualbasic/CRMV8/sharepointintegrationvb/vb/retrieveabsoluteandsitecollectionurls2.vb#retrieveabsoluteandsitecollectionurls2)]  
   
 ### See Also  
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>  

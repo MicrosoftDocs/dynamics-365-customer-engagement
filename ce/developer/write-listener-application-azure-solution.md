@@ -16,13 +16,18 @@ ms.assetid: bf0b34fa-b49b-41f6-a2ca-9029a1ba64a1
 caps.latest.revision: 60
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Write a listener application for a Azure solution
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution  listener application that can read and process [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement messages that are posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. As a prerequisite, you should familiarize yourself with how to write a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] listener before trying to learn the specifics of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] listener. For more information, see the [Azure Service Bus documentation](https://azure.microsoft.com/en-us/documentation/services/service-bus/).  
   
-<a name="bkmk_writequeued"></a>   
-## Write a queue listener  
+<a name="bkmk_writequeued"></a>
+
+## Write a queue listener
+
  A message *queue* is a repository of messages received at a service bus endpoint. A *queue listener* is an application that reads and processes these queued messages. Because the service bus messages are stored in a queue, a listener doesn’t have to be actively listening for messages to be received in the queue. A queue listener can be started after messages have arrived in the queue and still process those messages. Other types of listeners discussed in the next section must be actively listening or they will miss the opportunity to read a message. These messages can originate from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or from some other source. .  
   
 > [!IMPORTANT]
@@ -37,8 +42,10 @@ This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-
   
  Use of queues and topics in your multisystem software design can result in the decoupling of systems. If the listener application ever becomes unavailable, the message delivery from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will still succeed and the listener application can continue processing the queue message when it is back online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Queues, Topics, and Subscriptions](https://msdn.microsoft.com/library/windowsazure/hh367516.aspx)  
   
-<a name="bkmk_writeoneway"></a>   
-## Write a one-way, two-way, or REST listener  
+<a name="bkmk_writeoneway"></a>
+
+## Write a one-way, two-way, or REST listener
+
  In addition to the queue listener described previously, you can write a listener for three other service bus contracts that are supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]: one-way, two-way, and REST. A one-way listener can read and process a message posted to the service bus. A two-way listener can do the same but can also return a string of some information back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A REST listener is the same as the two-way listener except that it works with a REST endpoint. Notice that these listeners must be actively listening at a service endpoint to read a message sent over the service bus. If the listener isn’t listening when [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] attempts to post a message to the service bus, the message doesn’t get sent.  
   
  Writing a listener is structured around what is known as ABC: address, binding, and contract. The following information identifies the ABCs of a one-way listener.  
@@ -76,8 +83,10 @@ This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-
 >   
 >  When you run the listener samples, the issuer secret you’re prompted for is the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] management key. The WS2007 Federation HTTP binding uses “token” mode and the WS-Trust 1.3 protocol.  
   
-<a name="filter"></a>   
-## Filter messages  
+<a name="filter"></a>
+
+## Filter messages
+
  There is a property bag of extra information added to each brokered message [Properties](https://msdn.microsoft.com/library/windowsazure/microsoft.servicebus.messaging.brokeredmessage.properties.aspx) property sent from [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The property bag, available with queue, relay, and topic contract endpoints, contains the following information:  
   
 -   Organization URI  
@@ -92,8 +101,10 @@ This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-
   
  This information identifies the organization, user, entity, and message request being processed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] that resulted in the service bus message being posted. The availability of these properties indicates that the message was sent from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Your listener code can decide how to process the message based on these values.  
   
-<a name="bkmk_multiple-formats"></a>   
-## Read the data context in multiple data formats  
+<a name="bkmk_multiple-formats"></a>
+ 
+## Read the data context in multiple data formats
+
  The data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operation is passed to your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] solution listener application in the body of a service bus message. In previous releases, only a .NET binary format was supported.  For cross-platform (non-.NET) interoperability, you can now specify one of three data formats for the message body: .NET Binary, JSON, or XML.  This format is specified in the `MessageFormat` attribute of the `ServiceEndpoint` entity.  
   
 > [!NOTE]
@@ -101,7 +112,7 @@ This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-
   
  When receiving messages, your listener application can read the data context in the message body based on the contenttype of the message. Sample code to do so is shown below.  
   
-```  
+```csharp
 var receivedMessage = inboundQueueClient.Receive(TimeSpan.MaxValue);  
   
 if (receivedMessage.ContentType = "application/msbin1")  
@@ -123,7 +134,8 @@ else if (receivedMessage.ContentType = "application/xml")
   
 ```  
   
-### See also  
+### See also
+
  [Azure Extensions](azure-extensions.md)   
  [Write a Custom Azure-aware Plug-in](write-custom-azure-aware-plugin.md)   
  [Sample: Persistent Queue Listener](sample-persistent-queue-listener.md)   

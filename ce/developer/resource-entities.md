@@ -23,12 +23,15 @@ ms.assetid: 1b5c3bca-66b8-4ff3-8f53-db1021bcf95c
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Resource entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Resources represent the people, tools, rooms, or pieces of equipment that are used to deliver a service. Resources are collected into resource groups with similar attributes to make them easier to work with by adding the resources to a constraint based group (resource group).In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], resources are categorized as Users or Facilities/Equipment.  
   
- A resource is an entity that can be scheduled. Examples of resources include employees, contacts, customers, knowledge workers, or physical assets like equipment. In the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)], resources are represented by the system user (user) and equipment (facility/equipment) entities. As resources, these entities also have a site property that can affect scheduling.  
+ A resource is an entity that can be scheduled. Examples of resources include employees, contacts, customers, knowledge workers, or physical assets like equipment. In the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], resources are represented by the system user (user) and equipment (facility/equipment) entities. As resources, these entities also have a site property that can affect scheduling.  
   
  A resource also has its own calendar that defines working hours and constraints. Upon creation, if a calendar is not specified for a resource, a calendar with 24 hours a day, seven days a week availability is created by default.  Resources support multiple concurrent appointments. This is supported by using the capacity set in the calendar rule for a calendar. A resource calendar describes not only when a resource is not available but also describes the resource effort available (capacity) and, optionally, the effort required (service cost). This is defined on a resource specification for services it supports. The resource specification is a required component of the service. It cannot be scheduled without specifying schedulable resources. These are evaluated by the scheduling engine when it is searching for resource availability for a particular appointment request. The resource is responsible for keeping its appointment book and responding to the scheduling engine only for existing commitments, calendar restrictions, and constraints.  
   

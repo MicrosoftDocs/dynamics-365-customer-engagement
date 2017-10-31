@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # EntityMap Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Represents a mapping between two related entities so that data from one record can be copied into the form of a new related record.
 
 

@@ -19,9 +19,12 @@ ms.assetid: 1281920e-554b-458d-a48c-c5f6bb485062
 caps.latest.revision: 42
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Event execution pipeline
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement event processing subsystem executes plug-ins based on a message pipeline execution model. A user action in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web application or an SDK method call by a plug-in or other application results in a message being sent to the organization Web service. The message contains business entity information and core operation information. The message is passed through the event execution pipeline where it can be read or modified by the platform core operation and any registered plug-ins.  
   
 > [!NOTE]

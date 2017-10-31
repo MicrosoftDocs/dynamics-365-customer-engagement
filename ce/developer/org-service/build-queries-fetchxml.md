@@ -22,9 +22,12 @@ ms.assetid: 8ff32261-4a9a-4186-bf2f-ee28496b16ef
 caps.latest.revision: 47
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Build queries with FetchXML
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 FetchXML is a proprietary query language that is used in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. It’s based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expressions. In addition, it’s used as a serialized form of query, used to save a query as a user-owned saved view in the `userquery` entity and as an organization-owned saved view in the `savedquery` entity.  
   
  A FetchXML query can be executed by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method. You can convert a FetchXML query to a query expression with the <xref:Microsoft.Crm.Sdk.Messages.FetchXmlToQueryExpressionRequest> message.  

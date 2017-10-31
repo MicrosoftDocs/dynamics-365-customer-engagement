@@ -14,9 +14,12 @@ ms.assetid: 82cae525-a789-4884-9fc0-a3e874ee1567
 caps.latest.revision: 21
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # FetchXML schema
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The FetchXML query language is used to create queries against the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement database. The following is the schema for the FetchXML query language. For more information, see [Use FetchXML to Construct a Query](use-fetchxml-construct-query.md). You can find this schema in the `SDK\Schemas\fetch.xsd` file in the SDK package. [!INCLUDE[sdk_download](../../includes/sdk-download.md)]  
   
 ## FetchXML Schema  
@@ -791,5 +794,5 @@ fetch element - root element for the query
   
 ### See also  
  [Retrieve data with queries](retrieve-data-queries-sdk-assemblies.md)   
- [Schemas Used in Dynamics 365](schemas-used-dynamics-365.md)   
+ [Schemas used in Dynamics 365](../schemas-used-dynamics-365.md)   
  [Build Queries with FetchXML](build-queries-fetchxml.md)

@@ -16,9 +16,13 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Simple Web API quick-start sample (C#)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] and then call a basic Web API operation, the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI Function" />. Unlike other Web API samples, this sample doesn't depend on other nonstandard helper libraries or additional source files. All of its source code is in a single file, Program.cs to help make logic flow and the authentication process easier to understand.  The sample will work with online, on-premise and internet-facing deployments (IFDs).  
   
-## Requirements  
+## Requirements
+
  This sample has the following requirements:  
   
 -   To open and build the solution, [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] or later is required.  Free versions of this product are available for download: [Visual Studio Express](https://www.visualstudio.com/vs/visual-studio-express/) or [Visual Studio Community](https://www.visualstudio.com/vs/community/).  
@@ -34,7 +38,8 @@ This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_
 > [!IMPORTANT]
 >  By design, initially the solution will not build successfully. The source code must be edited at the lines indicated by `//TODO` comments to supply user account and/or application registration information.  
   
-## Demonstrates  
+## Demonstrates
+
  This simple sample demonstrates two basic concepts required for development using the  Web API:   authentication against a [!INCLUDE[pn_crm_2016_server](../../includes/pn-crm-2016-server.md)] and forming basic Web API calls using the HTTP protocol.  
   
  Authentication is required before a client application can access any [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] resource. This process can be nontrivial for two reasons: different authentication mechanisms are required for the different deployment types, and web-based authentication mechanisms typically involve multiple programmatic steps. Windows integrated authentication, required for on-premise deployments, is relatively straightforward, and only requires a username and password. Thereafter, the program subsequently acts as an agent of the authenticated user.  
@@ -49,8 +54,10 @@ This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_
   
 -   Asynchronous programming is supported by the [System.Threading.Tasks](https://msdn.microsoft.com/library/system.threading.tasks.task\(v=vs.110\).aspx) namespace. Because of potential delays, web access typically employs asynchronous mechanisms. For more information, see [Asynchronous Programming with Async and Await](https://msdn.microsoft.com/en-us/library/hh191443\(v=vs.120\).aspx).  
   
-<a name="bkmk_runSample"></a>   
-## Run this sample  
+<a name="bkmk_runSample"></a>
+ 
+## Run this sample
+
  First go to [Simple Web API quick-start sample (C#)](https://code.msdn.microsoft.com/Simple-Web-API-quick-start-e0ba3d6b), download the sample archive file, Simple Web API quick-start sample (CS.zip), and extract its contents into a local folder. This folder should contain the following files:  
   
 |File|Purpose/Description|  
@@ -78,8 +85,10 @@ This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_
   
      Supply this information and press `Enter`.  
   
-<a name="bkmk_codeListing"></a>   
-## Code listing  
+<a name="bkmk_codeListing"></a>
+
+## Code listing
+
  The most current source for this file  is found in sample download package.  
   
  `Program.cs`  
@@ -220,11 +229,11 @@ namespace Microsoft.Crm.Sdk.Samples
         }  
     }  
 }  
-  
 ```  
   
-### See also  
- [Web API Reference](/dynamics365/customer-engagement/web-api/about?view=dynamics-ce-odata-9  
+### See also
+
+ [Web API Reference](/dynamics365/customer-engagement/web-api/about?view=dynamics-ce-odata-9)  
  [Web API Samples](web-api-samples.md)   
  [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Authenticate users in Dynamics 365](authenticate-users.md)

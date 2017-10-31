@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # AppConfigMaster Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Contains the master list of all properties that can be customized for apps in Dynamics 365. For internal use only.
 
 

@@ -11,12 +11,15 @@ ms.topic: "samples"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d24
-author: "Milar1"
-ms.author: "v-larmic"
-manager: "jdaly"
+author: "JimDaly"
+ms.author: "jdaly"
+manager: "amyla"
 ---
 
 # Sample: Generic virtual entity data provider plug-in
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. 
 
   
@@ -28,7 +31,7 @@ This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics36
   
 ## Example  
 
-```{C#}  
+```csharp  
 
 public class DropBoxExpressionVisitor : QueryExpressionVisitor
 {

@@ -16,9 +16,12 @@ ms.assetid: 35b82c28-943d-40aa-8c1d-70de5c7d0f98
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Stylesheet (XSL) web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use Stylesheet (XSL) Web resources to transform XML data.  
   
 ## Capabilities of XSL Web resources  
@@ -113,7 +116,7 @@ Use Stylesheet (XSL) Web resources to transform XML data.
 ```  
   
  **Script Web resource:** sample_/ImportWebResources/Script/Script.js  
- ```jscript  
+ ```javascript  
 //If the SDK namespace object is not defined, create it.  
 if (typeof (SDK) == "undefined")  
 { SDK = {}; }  
@@ -142,7 +145,7 @@ SDK.ImportWebResources = {
 ```  
   
  **CSS Web resource:** sample_/ImportWebResources/CSS/Styles.css  
- ```  
+ ```css
 body  
 {  
     font-family: Calibri;  

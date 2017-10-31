@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getText (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns a string value of the text for the currently selected option for an **optionset** or **multiselectoptionset** attribute. 
 
 ## Attribute types supported

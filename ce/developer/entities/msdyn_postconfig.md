@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_PostConfig Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Enable or disable entities for Activity Feeds and Yammer collaboration.
 
 **Added by**: Activity Feeds Solution<br />

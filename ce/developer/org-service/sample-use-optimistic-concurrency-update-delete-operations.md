@@ -14,9 +14,12 @@ ms.assetid: da409f14-86aa-4fb4-b669-e37629a60ae0
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Use optimistic concurrency with update and delete operations
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Demonstrates how to use the optimistic concurrency feature, introduced in [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)], to prevent potential data loss when doing an update or delete of entity records. For more details about the technique used, refer to this topic: [Reduce potential data loss using optimistic concurrency](reduce-potential-data-loss-using-optimistic-concurrency.md)  
   
  The complete sample can be downloaded at [MSDN: Use optimistic concurrency with update and delete operations](https://code.msdn.microsoft.com/Use-optimistic-concurrency-e0b0440d).  

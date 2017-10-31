@@ -19,9 +19,12 @@ ms.assetid: 960606ca-ff63-4b82-9fd6-2d2243a78043
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Entity relationship eligibility
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Before you create an entity relationship you should confirm whether the entity is eligible to participate in the relationship. The following table lists the messages that you can use to determine whether entities can participate in entity relationships.  
   
 |Message|Description|  

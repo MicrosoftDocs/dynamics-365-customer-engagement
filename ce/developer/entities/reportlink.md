@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ReportLink Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Links and dependencies between reports. A report may drill through to another report, or it may have another report as a sub-report.
 
 

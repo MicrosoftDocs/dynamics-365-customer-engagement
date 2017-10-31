@@ -14,23 +14,25 @@ ms.assetid: e920dec6-129e-40e6-89f9-ed1eba80601a
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Connect to Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement provides a developer with many opportunities to add value to an organization using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Most of these opportunities will require understanding of a few essential concepts. The topics in this section will explain what options are available to you. Choose the approach that will work best for your solution.  
   
 ## In This Section  
  [Authenticate users to Dynamics 365](authenticate-users.md)<br />
- [Use Dynamics 365 web services](use-microsoft-dynamics-365-web-services.md)<br />
- [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)<br />
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)<br />
- [Write mobile and modern apps](write-mobile-modern-apps.md)<br />
+ 
   
 ### See also  
  [Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)<br />
- [Release history](release-history.md)<br />
- [What's new for developers: Dynamics 365](whats-new-developers.md)<br />
- [Start Here](get-started-sdk.md)<br />
+ [Get Started](get-started-sdk.md)<br />
+ [Use Dynamics 365 web services](use-microsoft-dynamics-365-web-services.md)<br />
+ [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)<br />
+ [Write mobile and modern apps](write-mobile-modern-apps.md)<br />
  [The Security Model of Dynamics 365](security-dev/security-model.md)<br />
  [Extend Dynamics 365](extend-dynamics-365-server.md)<br />
  [Model Your Business Data](model-business-data.md)<br />

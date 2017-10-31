@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getResourceString (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getResourceString-description.md](./includes/getResourceString-description.md)] 
 
 ## Syntax

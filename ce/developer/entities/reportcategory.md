@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ReportCategory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Categories related to a report. A report can be related to multiple categories.
 
 

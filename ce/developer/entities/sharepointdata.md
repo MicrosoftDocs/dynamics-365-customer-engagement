@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SharePointData Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 SharePoint's Data Corresponding to a user , Record , Location and Page
 
 

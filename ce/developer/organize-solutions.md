@@ -21,9 +21,12 @@ ms.assetid: 5ed0e4b8-8747-410a-afbe-beef147d986d
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Organize your solutions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Before you create solutions, take some time to plan ahead. For example, think about how many solutions you want to release and whether the solutions will share components.  
   
  Also, determine how many [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organizations you’ll need to develop your line of solutions. You can use a single organization for most strategies described in this topic. However, if you decide to have only one organization and later realize that you need more, it can be challenging to change the solutions if people have already installed them. Using multiple organizations, although introducing more complexity, can provide better flexibility.  

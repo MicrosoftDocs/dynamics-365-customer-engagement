@@ -14,9 +14,12 @@ ms.assetid: c4f2e2df-7b9a-4842-ba1e-29c5b59d8fc7
 caps.latest.revision: 11
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use a left outer join in FetchXML to query for records &quot;not in&quot;
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can use a left outer join in FetchXML to perform a query that filters on the join table, such as to find all contacts who did not have any campaign activities in the past two months. Another common use for this type of a query is to find records “not in” a set, such as in these cases:  
   
 -   Find all leads that have no tasks  

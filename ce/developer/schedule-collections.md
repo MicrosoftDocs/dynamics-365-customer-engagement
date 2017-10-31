@@ -22,10 +22,13 @@ ms.assetid: 4d908509-0508-4cbc-bbe6-322326597970
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Schedule collections
-A *schedule* is a logical collection of appointments that contains the availability and assignments of a given resource. It is a logical collection of appointments with a scheduling interface. There is no schedule entity in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. Instead, the service, resource specification, user, and equipment entities support the scheduling engine when booking appointments and service appointments. By using schedule messages, you can look for free or busy information, search for appointments, and book a specific appointment for a service and a set of resources.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+A *schedule* is a logical collection of appointments that contains the availability and assignments of a given resource. It is a logical collection of appointments with a scheduling interface. There is no schedule entity in the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)]. Instead, the service, resource specification, user, and equipment entities support the scheduling engine when booking appointments and service appointments. By using schedule messages, you can look for free or busy information, search for appointments, and book a specific appointment for a service and a set of resources.  
   
  Appointments stored in schedules are related to the owner of the schedule. It is only possible to ask the schedule for free or busy times within a given time period. The result of the operation is a collection of time blocks (appointments) that correspond to available or reserved time. You can create a schedule that represents the availability of a set of resources or even a set of activities or some arbitrary subset of service availability. To retrieve a schedule collection, use the retrieve messages listed in the following table.  
   

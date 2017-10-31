@@ -12,9 +12,13 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 337f5d15-66be-46db-a96a-309951a37a2a
 caps.latest.revision: 20
-ms.author: "v-cavo"
+author: "JimDaly"
+ms.author: "jdaly"
 ---
 # Web API Functions and Actions Sample (Client-side JavaScript)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)].  
   
 > [!NOTE]
@@ -28,28 +32,36 @@ This sample demonstrates how to perform bound and unbound functions and actions,
   
 -   [Code sample](#bkmk_codeSample)  
   
-<a name="bkmk_prerequisites"></a>   
-## Prerequisites  
+<a name="bkmk_prerequisites"></a>
+  
+## Prerequisites
+
  To run this sample, the following is required:  
   
 -   Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
   
 -   A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
   
-<a name="bkmk_runsample"></a>   
-## Run this sample  
+<a name="bkmk_runsample"></a>
+ 
+## Run this sample
+
  To run this sample, go to  [Microsoft CRM Web API Functions and Actions Sample (Client-side JavaScript)](http://go.microsoft.com/fwlink/p/?LinkId=824048) and download the Microsoft CRM Web API Functions and Actions Sample (Client-side JavaScript).zip sample file. Extract the contents and locate the  WebAPIFunctionsandActions_1_0_0_0_managed.zip managed solution file. Import the managed solution into your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization and view the configuration page of the solution to run the sample. For instructions on how to import the sample solution, see [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md).  
   
-<a name="bkmk_codeSample"></a>   
-## Code sample  
+<a name="bkmk_codeSample"></a>
+
+## Code sample
+
  This sample includes two web resources:  
   
 -   [WebAPIFunctionsAndActions.html](#bkmk_WebAPIFunctionsAndActions)  
   
 -   [WebAPIFunctionsAndActions.js](#bkmk_WebAPIFunctionsAndActionsJS)  
   
-<a name="bkmk_WebAPIFunctionsAndActions"></a>   
-### WebAPIFunctionsAndActions.html  
+<a name="bkmk_WebAPIFunctionsAndActions"></a>
+   
+### WebAPIFunctionsAndActions.html
+
  The WebAPIFunctionsAndActions.html web resource provides the context in which the [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] code will run.  
   
 ```html  
@@ -104,8 +116,10 @@ This sample demonstrates how to perform bound and unbound functions and actions,
   
 ```  
   
-<a name="bkmk_WebAPIFunctionsAndActionsJS"></a>   
-### WebAPIFunctionsAndActions.js  
+<a name="bkmk_WebAPIFunctionsAndActionsJS"></a>
+
+### WebAPIFunctionsAndActions.js
+
  The WebAPIFunctionsAndActions.js web resource is the [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] library that defines the operations this sample performs.  
   
 ```javascript  
@@ -694,10 +708,10 @@ Sdk.createAccountWithOpportunityToWin = function () {
   });  
  });  
 };  
-  
 ```  
   
-### See also  
+### See also
+
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   

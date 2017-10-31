@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_workorderincident Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify work order incidents reported to you by the client. These are also referred to as problem codes.
 
 **Added by**: Field Service Solution<br />

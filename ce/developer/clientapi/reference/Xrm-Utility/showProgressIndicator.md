@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # showProgressIndicator (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/showProgressIndicator-description.md](./includes/showProgressIndicator-description.md)]
 
 Any subsequent call to this method will update the displayed message in the existing progress dialog with the message specified in the latest method call.

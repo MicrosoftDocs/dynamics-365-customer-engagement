@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # Xrm.Navigation (Client API reference)
 
+[!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Provides navigation-related methods. 
 
 |Method |Description |

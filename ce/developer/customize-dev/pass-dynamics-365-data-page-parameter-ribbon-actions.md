@@ -16,9 +16,12 @@ ms.assetid: 15245f11-a7e6-445a-8f18-06765268f1ad
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Pass Microsoft Dynamics 365 data from a page as a parameter to Ribbon Actions
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 When you define an action in a ribbon, you frequently have to pass data from the page to either a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function or a URL. 
 This topic describes options for using the `<CrmParameter>` element to retrieve these values.  
   
@@ -56,7 +59,7 @@ This topic describes options for using the `<CrmParameter>` element to retrieve 
 
 However, if you want to pass the value of a selected form field, you’ll have to do more scripting to get the value. You can use the `PrimaryControlId` parameter to get the Id value for the control that has focus when the ribbon control received focus. This Id is the Document Object Model (DOM) Id value. To get the data value, you will have to try using that value by using code such as that in the following example:  
   
-```JavaScript  
+```javascript  
 function myFunction(executionContext) {
     var formContext = executionContext.getFormContext();
     varFocusFieldValue = formContext.ui.controls.get(PrimaryControlId).getAttribute().getValue();

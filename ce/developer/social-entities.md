@@ -14,9 +14,12 @@ ms.assetid: 77353550-3661-407b-8ca7-a0619f8068a0
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Social entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] social care generic framework to route the social data that you obtain from various social channels into your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system. Social care framework provides the general interface, data model, and necessary APIs for integrating social listening applications like Facebook and Twitter with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to track social messages and profile data. Using social care framework, third party systems can push social data feed containing posts from the social channels to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and can associate a social post with an existing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
   
  Social care framework offers following capabilities:  

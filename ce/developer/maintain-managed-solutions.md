@@ -26,9 +26,12 @@ ms.assetid: 25aab712-8e0e-465e-8295-b0f0664c1d0b
 caps.latest.revision: 40
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Maintain managed solutions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Before you release your managed solution you should consider how you will maintain it. Uninstalling and reinstalling a managed solution is practically never an option when the solution contains entities or attributes. This is because data is lost when entities are deleted. Fortunately, solutions provide a way to update your managed solution while maintaining the data. Exactly how you update your solutions will depend on the characteristics of the solution and the requirements of the change.  
 
 <a name="BKMK_VersionCompatibilty"></a>   

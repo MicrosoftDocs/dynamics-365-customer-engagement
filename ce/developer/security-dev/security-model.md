@@ -26,9 +26,12 @@ ms.assetid: b5b10592-5e1f-4243-be90-2fedd718ad9c
 caps.latest.revision: 38
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Security model of Customer Engagement
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement provides a security model that protects data integrity and privacy, and supports efficient data access and collaboration. The goals of the model are as follows:  
   
 -   Provide users with the access only to the appropriate levels of information that is required to do their jobs.  

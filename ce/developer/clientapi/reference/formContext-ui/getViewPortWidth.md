@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getViewPortWidth (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getViewPortWidth-description.md](./includes/getViewPortWidth-description.md)]
 
 The viewport is the area of the page containing form data. It corresponds to the body of the form and does not include the navigation, header, footer or form assistant areas of the page.

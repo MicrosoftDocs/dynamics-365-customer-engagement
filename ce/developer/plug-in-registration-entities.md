@@ -14,10 +14,13 @@ ms.assetid: bd82dfec-a852-4bb1-8f46-7d574ac50782
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Plug-in registration entities
-The plug-in registration entities define a [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] message, the entities that support a particular SDK message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+The plug-in registration entities define a [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] message, the entities that support a particular SDK message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities.  
   
  An *SDK Message* defines a message to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement platform. The message represents the operation that the platform is to perform. You should not create or update a record of this entity.  
   

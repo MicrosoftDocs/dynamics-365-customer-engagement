@@ -13,9 +13,12 @@ ms.assetid: aee14c98-38c7-4c47-850d-74ccc630735b
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Calendar entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The calendar entity stores data for customer service calendars and holiday schedules in addition to business. Each calendar is set for a specific time zone.  
   
  A calendar describes the availability of a service or a resource. Calendars are related to `calendarrule` records, which include details about the duration, start and end times, and recurring patterns of events included in the calendar.  

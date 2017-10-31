@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # createRecord (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/createRecord-description.md](./includes/createRecord-description.md)] 
 
 ## Syntax
@@ -41,7 +43,7 @@ manager: "amyla"
 </tr>
 <tr>
 <td>successCallback</td>
-<td>String</td>
+<td>Function</td>
 <td>No</td>
 <td><p>A function to call when a record is created. An object with the following properties will be passed to identify the new record:</p>
 <ul>
@@ -52,7 +54,7 @@ manager: "amyla"
 </tr>
 <tr>
 <td>errorCallback</td>
-<td>String</td>
+<td>Function</td>
 <td>No</td>
 <td>A function to call when the operation fails.</td>
 </tr>

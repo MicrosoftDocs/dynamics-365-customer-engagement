@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_roleutilization Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Gathers data about utilization per role to display in a chart
 
 **Added by**: Project Service Automation Solution<br />

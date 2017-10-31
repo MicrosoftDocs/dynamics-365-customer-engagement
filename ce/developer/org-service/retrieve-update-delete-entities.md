@@ -13,9 +13,12 @@ applies_to:
 ms.assetid: 67571a52-57bf-4872-add5-11f76d3b5adc
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Retrieve, update, and delete entities
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic shows how to retrieve, update, and delete an entity by using the custom `Bank Account` entity created in [Create a Custom Entity](create-custom-entity.md).  
   
 <a name="BKMK_RetrieveAndUpdateEntity"></a>   
@@ -24,15 +27,11 @@ This topic shows how to retrieve, update, and delete an entity by using the cust
   
  [!code-csharp[Entities#CreateUpdateEntityMetadata9](../../snippets/csharp/CRMV8/entities/cs/createupdateentitymetadata9.cs#createupdateentitymetadata9)]  
   
- [!code-vb[EntitiesVB#CreateUpdateEntityMetadata9](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateentitymetadata9.vb#createupdateentitymetadata9)]  
-  
 <a name="BKMK_DeleteCustomEntity"></a>   
 ## Delete a custom entity  
  The following sample uses the <xref:Microsoft.Xrm.Sdk.Messages.DeleteEntityRequest> message to delete the entity with the logical name specified by the `_customEntityName` variable.  
   
  [!code-csharp[Entities#CreateUpdateEntityMetadata10](../../snippets/csharp/CRMV8/entities/cs/createupdateentitymetadata10.cs#createupdateentitymetadata10)]  
-  
- [!code-vb[EntitiesVB#CreateUpdateEntityMetadata10](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateentitymetadata10.vb#createupdateentitymetadata10)]  
   
 ### See also  
  [Use the IOrganizationService Sample and Helper Code](use-sample-helper-code.md)   

@@ -14,9 +14,12 @@ ms.assetid: b54fd2ea-811d-4b83-8638-86dd87038fd7
 caps.latest.revision: 13
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use custom pricing for products
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The pricing engine in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports a standard set of pricing and discounting methods, which might be limiting to your business depending on your specific requirements for applying taxation, discounts, and other pricing rules for your products. If you want to define custom pricing for your products in opportunities, quotes, orders and invoices, you can use the `CalculatePrice` message.  
   
  To use the custom pricing for your opportunities, quotes, orders, and invoices:  

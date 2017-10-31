@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ProductPriceLevel Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.
 
 **Added by**: Product Management Solution<br />

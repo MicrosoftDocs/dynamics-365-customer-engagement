@@ -14,9 +14,12 @@ ms.assetid: 8d7119a7-6cb4-41c8-bf93-a40041f2b5a0
 caps.latest.revision: 75
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Organization service messages in Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you need to work with the data stored in any entity. The solution messages are also in this namespace.  
   
  Messages are used with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method. Most messages available in this namespace apply to all three deployment types. The request page for each message indicates which deployment types support the message. The deployment types are:  

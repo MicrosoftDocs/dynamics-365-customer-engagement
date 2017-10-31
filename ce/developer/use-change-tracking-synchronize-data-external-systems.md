@@ -14,9 +14,12 @@ ms.assetid: 8a927ac0-29c3-4222-8137-36549a0dc660
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use change tracking to synchronize data with external systems
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The change tracking feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized. Previously, without this new feature, it was difficult to build a reliable and efficient mechanism to determine what records had changed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This topic discusses how to retrieve changes for an entity.  
   
 <a name="BKMK_enable"></a>   
@@ -24,7 +27,7 @@ The change tracking feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamic
 
  Before retrieving the changes for an entity, make sure that the change tracking feature is enabled for that entity. This feature can be enabled by using the customization user interface (UI) or programmatically by setting the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.ChangeTrackingEnabled> property to `True`. Annotation `Org.OData.Capabilities.V1.ChangeTracking ` gets added to entity sets that have change tracking enabled. To see annotations in entity metadata, do 
 
- ```HTTP 
+ ```http 
  GET [Organization URI]/api/data/v9.0/$metadata?annotations=true
  ```
  Read more about metadata annotations on [Metadata annotations](webapi/web-api-types-operations.md#bkmk_metannot).
@@ -43,7 +46,7 @@ Delta links are opaque, service-generated links that the client uses to retrieve
 This example shows how to retrieve changes made in accounts data using the Web API.
 
 Request
-```HTTP
+```http
 GET [Organization URI]/org1/api/data/v9.0/accounts?$select=name,accountnumber,telephone1,fax HTTP/1.1
 Prefer: odata.track-changes
 Cache-Control: no-cache
@@ -51,7 +54,7 @@ OData-Version: 4.0
 Content-Type: application/json
 ```
 Response
-```JSON
+```json
 {
   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,accountnumber,telephone1,fax)",
 "@odata.deltaLink": "[Organization URI]/api/data/v9.0/accounts?$select=name,accountnumber,telephone1,fax&$deltatoken=919042%2108%2f22%2f2017%2008%3a10%3a44",
@@ -70,11 +73,11 @@ Response
 The delta link returned from the above example can be used to fetch changes in entities. In this example a new account was created and an existing account deleted. The delta link returned from the previous request fetches these changes, as shown in the example below.
 
 Request
-```HTTP
+```http
 GET [Organization URI]/api/data/v9.0/accounts?$select=name,accountnumber,telephone1,fax&$deltatoken=919042%2108%2f22%2f2017%2008%3a10%3a44
 ```
 Response
-```JSON
+```json
 {
           "@odata.context":"[Organization URI]/data/v9.0/$metadata#accounts(name,telephone1,fax)/$delta",
           "@odata.deltaLink":"[Organization URI]/api/data/v9.0/accounts?$select=name,telephone1,fax&$deltatoken=919058%2108%2f22%2f2017%2008%3a21%3a20",
@@ -102,7 +105,7 @@ The response for the delta link returned in the initial change tracking request 
 `$count` can be added to the delta link returned from the initial change tracking request, as shown in the example below to get the number of changes made.
 
 Request
-```HTTP
+```http
 GET [Organization URI]/api/data/v9.0/accounts/$count?$deltatoken=919042%2108%2f22%2f2017%2008%3a10%3a44
 ```
 

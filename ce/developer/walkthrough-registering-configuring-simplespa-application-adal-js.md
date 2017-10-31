@@ -16,6 +16,9 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Walkthrough: Registering and configuring SimpleSPA application with adal.js
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
   
 ## Prerequisites  

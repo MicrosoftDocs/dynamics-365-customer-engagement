@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getRequiredLevel (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns the number of digits allowed to the right of the decimal point. 
 
 ## Attribute types supported

@@ -16,9 +16,12 @@ ms.assetid: 882565b5-aa86-475e-971a-b5123bbadcf9
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Script (JScript) web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use Script ([!INCLUDE[pn_JScript](../includes/pn-jscript.md)]) web resources to create a library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that can be accessed from anywhere.  
   
 <a name="BKMK_capabilties"></a>   

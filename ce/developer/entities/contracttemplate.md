@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ContractTemplate Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Template for a contract containing the standard attributes of a contract.
 
 **Added by**: Service Solution<br />

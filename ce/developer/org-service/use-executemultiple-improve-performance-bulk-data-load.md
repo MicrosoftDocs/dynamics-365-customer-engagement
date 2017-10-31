@@ -14,9 +14,12 @@ ms.assetid: 8029be0f-0dd6-44d2-b458-94fb40095ec3
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use ExecuteMultiple to improve performance for bulk data load
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can use the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> message to support higher throughput bulk message passing scenarios in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, particularly in the case of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] where Internet latency can be the largest limiting factor. <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> accepts an input collection of message <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest.Requests>, executes each of the message requests in the order they appear in the input collection, and optionally returns a collection of <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleResponse.Responses> containing each message’s response or the error that occurred. Each message request in the input collection is processed in a separate database transaction. <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> is executed by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  
   
  In general, <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> behaves the same as if you executed each message request in the input request collection separately, except with better performance. Use of the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.CallerId> parameter of the service proxy is honored and will apply to the execution of every message in the input request collection. Plug-ins and workflow activities are executed as you would expect for each message processed.  
@@ -28,8 +31,6 @@ You can use the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> message
  The following sample code demonstrates a single <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> that performs multiple create operations. Run-time execution options called *Settings* are used to control the request processing and returned results. These run-time options are discussed in the next section.  
   
  [!code-csharp[ExecuteMultiple#ExecuteMultiple1](../../snippets/csharp/CRMV8/executemultiple/cs/executemultiple1.cs#executemultiple1)]  
-  
- [!code-vb[ExecuteMultipleVB#ExecuteMultiple1](../../snippets/visualbasic/CRMV8/executemultiplevb/vb/executemultiple1.vb#executemultiple1)]  
   
  To view the complete sample, see [Sample: Execute Multiple Requests](sample-execute-multiple-requests.md).  
   
@@ -73,8 +74,7 @@ You can use the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> message
  Fortunately, there is another method that you can use. When the number of requests in the input <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest.Requests> collection exceeds the maximum batch size allowed for an organization, a fault is returned from the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> call. The maximum batch size is returned in the fault. Your code can check for that value, resize the input request collection to be within the indicated limit, and re-submit the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>. The following code snippet demonstrates some of this logic.  
   
  [!code-csharp[ExecuteMultiple#ExecuteMultiple2](../../snippets/csharp/CRMV8/executemultiple/cs/executemultiple2.cs#executemultiple2)]  
-  
- [!code-vb[ExecuteMultipleVB#ExecuteMultiple2](../../snippets/visualbasic/CRMV8/executemultiplevb/vb/executemultiple2.vb#executemultiple2)]  
+
   
 ### See also  
  [Read and Write Data and Metadata using the IOrganizationService Web Service](use-organization-service-read-write-data-metadata.md)   

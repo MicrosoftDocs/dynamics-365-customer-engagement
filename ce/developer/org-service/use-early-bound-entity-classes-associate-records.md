@@ -18,9 +18,12 @@ ms.assetid: 72e6f386-94f0-43a9-aa33-d13a6b2b9628
 caps.latest.revision: 24
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the early bound entity classes to associate records
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can create an association by using early binding in several ways. To create a one-to-many relationship, you can use the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addlink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\)) method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class. To create a many-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> method in the<xref:Microsoft.Xrm.Sdk.IOrganizationService> class to create an association. You can also create the association by updating the foreign key of the target entity to match the primary key of the new source entity.  
   
  To remove an association, you can use the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.deletelink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\)) method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class or the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> method. You can also set the foreign key to **null**.  

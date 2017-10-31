@@ -16,6 +16,8 @@ ms.author: "v-cavo"
 ---
 # Web API Samples (Client-side JavaScript)
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../../includes/cc-under-construction.md)]
 

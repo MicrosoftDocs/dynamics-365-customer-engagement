@@ -10,32 +10,30 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "plug-in, IPlugin interface"
-  - "plug-in, AppFabric message posting"
-  - "plug-in, writing"
-  - "write a plug-in"
-  - "plug-in, execution context"
-  - "plug-in, GetService method"
-  - "plug-in, error handling"
-  - "error handling, plug-ins"
 ms.assetid: 3ebc5b7c-313a-44c2-b6e0-b6740a0a24de
 caps.latest.revision: 62
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Write a plug-in
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. You can write a plug-in in any [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)] CLR-compliant language such as [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] and [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)]. To be able to compile plug-in code, you must add Microsoft.Xrm.Sdk.dll and  Microsoft.Crm.Sdk.Proxy.dll assembly references to your project. Download these assemblies from [NuGet](https://www.nuget.org/profiles/crmsdk).
   
-<a name="bkmk_design"></a>   
-## Plug-in design  
+<a name="bkmk_design"></a>
+
+## Plug-in design
+
  Your plug-in design should take into account the web application *auto-save* feature introduced in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Auto-save is enabled by default but can be disabled at an organization level. When auto-save is enabled there is no **Save** button. The web application will save data in the form automatically 30 seconds after the last unsaved change. You can apply form scripts to disable the auto-save behaviors on a form level. Depending on how you registered your plug-in, auto-save may result in your plug-in being called more frequently for individual field changes instead of one plug-in invocation for all changes. You should assume that any user can save any record at any time, whether this is done using Ctrl+S, by pressing a save button, or automatically due to the auto-save feature.  
   
  It is a best practice to register your plug-in or workflow on entities and specific fields that matter most. Avoid registering a plug-in or workflow for changes to all entity fields. If you have an existing plug-or workflow that was implemented before the availability of the auto save feature, you should re-test that code to verify its proper operation. For more information see [Manage auto-save](../customize/manage-auto-save.md).  
   
-<a name="bkmk_writingbasic"></a>   
-## Writing a Basic Plug-in  
+<a name="bkmk_writingbasic"></a>
+   
+## Writing a Basic Plug-in
+
  The following sample shows some of the common code found in a plug-in. For this sample, the code omits any custom business logic that would perform the intended task of the plug-in. However, the code does show a plug-in class that implements the <xref:Microsoft.Xrm.Sdk.IPlugin> interface and the required [IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\)) method.  
   
 ```csharp  
@@ -107,8 +105,10 @@ public class MyPlugin: IPlugin
 > [!IMPORTANT]
 >  For improved performance, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] caches plug-in instances. The plug-in's [IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\)) method should be written to be stateless because the constructor is not called for every invocation of the plug-in. Also, multiple system threads could execute the plug-in at the same time. All per invocation state information is stored in the context, so you should not use global variables or attempt to store any data in member variables for use during the next plug-in invocation unless that data was obtained from the configuration parameter provided to the constructor. Changes to a plug-ins registration will cause the plug-in to be re-initialized.  
   
-<a name="bkmk_writeconstructor"></a>   
-## Write a Plug-in Constructor  
+<a name="bkmk_writeconstructor"></a>
+
+## Write a Plug-in Constructor
+
  The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform supports an optional plug-in constructor that accepts either one or two string parameters. If you write a constructor like this, you can pass any strings of information to the plug-in at run time.  
   
  The following sample shows the format of the constructor. In this example, the plug-in class is named SamplePlugin.  
@@ -121,16 +121,20 @@ public SamplePlugin(string unsecure, string secure)
   
  The first string parameter of the constructor contains public (unsecure) information. The second string parameter contains non-public (secure) information. In this discussion, secure refers to an encrypted value while unsecure is an unencrypted value. When using [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)], the secure string is not passed to a plug-in that executes while [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is offline.  
   
- The information that is passed to the plug-in constructor in these strings is specified when the plug-in is registered with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. When using the Plug-in Registration tool to register a plug-in, you can enter secure and unsecure information in the **Secure Configuration** and **Unsecure Configuration** fields provided in the **Register New Step** form. When registering a plug-in programmatically using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)], `SdkMessageProcessingStep.Configuration` contains the unsecure value and `SdkMessageProcessingStep.SecureConfigId` refers to a `SdkMessageProcessingStepSecureConfig` record that contains the secure value.  
+ The information that is passed to the plug-in constructor in these strings is specified when the plug-in is registered with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. When using the Plug-in Registration tool to register a plug-in, you can enter secure and unsecure information in the **Secure Configuration** and **Unsecure Configuration** fields provided in the **Register New Step** form. When registering a plug-in , `SdkMessageProcessingStep.Configuration` contains the unsecure value and `SdkMessageProcessingStep.SecureConfigId` refers to a `SdkMessageProcessingStepSecureConfig` record that contains the secure value.  
   
-<a name="bkmk_supportoffline"></a>   
-## Support Offline Execution  
+<a name="bkmk_supportoffline"></a>
+
+## Support Offline Execution
+
  You can register plug-ins to execute in online mode, offline mode, or both. Offline mode is only supported on [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. Your plug-in code can check whether it is executing in offline mode by checking the <xref:Microsoft.Xrm.Sdk.IExecutionContext.IsExecutingOffline> property.  
   
  When you design a plug-in that will be registered for both online and offline execution, remember that the plug-in can execute twice. The first time is while [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] is offline. The plug-in executes again when [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] goes online and synchronization between [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server occurs. You can check the <xref:Microsoft.Xrm.Sdk.IExecutionContext.IsOfflinePlayback> property to determine if the plug-in is executing because of this synchronization.  
   
-<a name="bkmk_webaccess"></a>   
-## Web Access for Isolated (sandboxed) Plug-ins  
+<a name="bkmk_webaccess"></a>
+
+## Web Access for Isolated (sandboxed) Plug-ins
+
  If you plan on registering your plug-in in the sandbox, you can still access Web addresses from your plug-in code. You can use any [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] class in your plug-in code that provides Web access within the Web access restrictions outlined [Plug-in Isolation, Trust, and Statistics](plugin-isolation-trusts-statistics.md). For example, the following plug-in code downloads a Web page.  
   
  [!code-csharp[Plug-ins#WebClientPlugin2](../snippets/csharp/CRMV8/plug-ins/cs/webclientplugin2.cs#webclientplugin2)]  
@@ -138,8 +142,10 @@ public SamplePlugin(string unsecure, string secure)
 > [!IMPORTANT]
 >  For sandboxed plug-ins to be able to access external Web services, the server where the Sandbox Processing Service role is installed must be exposed to the Internet, and the account that the sandbox service runs under must have Internet access. Only outbound connections on ports 80 and 443 are required. Inbound connection access is not required. Use the Windows Firewall control panel to enable outbound connections for the Microsoft.Crm.Sandbox.WorkerProcess application located on the server in the %PROGRAMFILES%\Dynamics 365\Server\bin folder.  
   
-<a name="bkmk_useearlybound"></a>   
-## Use Early-Bound Types  
+<a name="bkmk_useearlybound"></a>
+
+## Use Early-Bound Types
+
  To use early-bound [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] types in your plug-in code simply include the types file, generated using the [!INCLUDE[sdk_CodeGenUtility](../includes/sdk-codegenutility.md)] program, in your [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] plug-in project.  
   
  Conversion of a late-bound entity to an early-bound entity is handled as follows:  
@@ -156,8 +162,10 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
   
  In the example above, you do not want to store an early-bound instance in the plug-in context where a late-bound instance should go. This is to avoid requiring the platform to convert between early-bound and late bound types before calling a plug-in and when returning from the plug-in to the platform.  
   
-<a name="bkmk_pluginassemblies"></a>   
-## Plug-in Assemblies  
+<a name="bkmk_pluginassemblies"></a>
+
+## Plug-in Assemblies
+
  There can be one or more plug-in types in an assembly. After the plug-in assembly is registered and deployed, plug-ins can perform their intended operation in response to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] run-time event.  
   
 > [!IMPORTANT]
@@ -170,7 +178,8 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
  > [!Note]
  > Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
   
-### See also  
+### See also
+
  [Plug-in Development](plugin-development.md)   
  [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md)   
  [Write a Custom Azure-aware Plug-in](write-custom-azure-aware-plugin.md)   

@@ -14,9 +14,12 @@ ms.assetid: b77df80e-664f-47a9-8df0-9433eade2fde
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample charts
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic contains sample charts along with the respective data description and presentation XML strings. You can specify the:  
   
 -   *Data description XML string* for a chart using the `SavedQueryVisualization.DataDescription` or `UserQueryVisualization.DataDescription` attribute for the organization-owned or user-owned chart respectively.  
@@ -367,9 +370,11 @@ This topic contains sample charts along with the respective data description and
 </Chart>  
 ```  
   
-<a name="MultiSeriesChart"></a>   
+<a name="MultiSeriesChart"></a> 
+  
 ## Multi-Series Chart  
- The following is a multi-series chart that shows the estimated vs. actual revenue closed by month. You can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] or methods described in the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] to create these types of charts.  
+
+ The following is a multi-series chart that shows the estimated vs. actual revenue closed by month. You can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] or methods described in the developer documentation to create these types of charts.  
   
  A multi-series chart has multiple `<measurecollection>` elements in the data description, each mapping to the corresponding `<Series>` element in the presentation description XML string.  
   
@@ -448,7 +453,7 @@ This topic contains sample charts along with the respective data description and
   
 <a name="ComparisonChart"></a>   
 ## Comparison Chart (Stacked Chart)  
- The following is a comparison chart that shows the number of activities by type and priority. You can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] or methods described in the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] to create these types of charts.  
+ The following is a comparison chart that shows the number of activities by type and priority. You can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] or methods described in the developer documentation to create these types of charts.  
   
  A comparison chart has two `groupby` clauses in the data description XML.  
   
@@ -512,8 +517,10 @@ This topic contains sample charts along with the respective data description and
 ```  
   
 <a name="StackedChart"></a>   
+
 ## Comparison Chart (100% Stacked Chart)  
- The following is a comparison chart that shows the number of cases opened on any date, grouped by priority. You can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] or methods described in the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] to create these types of charts.  
+
+ The following is a comparison chart that shows the number of cases opened on any date, grouped by priority. You can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] or methods available in the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] to create these types of charts.  
   
  A comparison chart has two `groupby` clauses in the data description XML.  
   

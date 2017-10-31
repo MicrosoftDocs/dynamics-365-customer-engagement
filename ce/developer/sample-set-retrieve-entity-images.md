@@ -14,9 +14,12 @@ ms.assetid: fa9352f2-ef46-401f-b376-d0192c9f45a7
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Set and retrieve entity images
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Set and retrieve entity images (late bound)](https://code.msdn.microsoft.com/Sample-Set-and-retrieve-e32916bc). 
 
 ## Prerequisites

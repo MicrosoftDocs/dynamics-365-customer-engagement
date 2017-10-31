@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_quotebookingservice Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Stores details about the services associated with Quote Booking Setup 
 
 **Added by**: Field Service Solution<br />

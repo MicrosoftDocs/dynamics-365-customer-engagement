@@ -14,9 +14,12 @@ ms.assetid: 2db13b4e-0e7c-4f25-b7be-70a612fb96e2
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Discover the URL for your organization using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
   
  Clients applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
@@ -26,7 +29,7 @@ The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynam
 ## Information provided by the Discovery service  
  Organization information is stored in the `Instance` entity of the Discovery service.  To see the kind of information contained in that entity, send an HTTP GET request to the service for one of your instances.  
   
-```HTTP  
+```http  
 GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName='myorg')  
 ```  
   
@@ -67,7 +70,7 @@ GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName
 ### Web API versioning  
  Versioning of the Discovery service for a datacenter or on-premises/IFD is supported and is consistent with version numbering as used by the Organization service . However, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is not tied to the version number of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment. Instead, the global service uses its own version numbering. As of this writing, the global Discovery service of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is at version 1.0 (v1.0). For example:  
   
-```HTTP  
+```http  
 GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName='myorg')  
 ```  
   
@@ -78,25 +81,25 @@ GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName
   
 -   Get the details of a specific instance. If you leave out the GUID, all instances that the authenticated user has access to are returned.  
   
-    ```HTTP  
+    ```http  
     GET https://disco.crm.dynamics.com/api/discovery/v8.1/Instances(<guid>)  
     GET https://dev.crm.external.contoso.com/api/discovery/v8.1/Instances(<guid>)  
     ```  
   
 -   You can use the UniqueName attribute as an alternate key.  
   
-    ```HTTP  
+    ```http  
     GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName='myorg')  
     ```  
   
 -   Retrieve a list of available instances, filtered by production type.  
   
-    ```HTTP  
+    ```http  
     GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances?$select=DisplayName,Description&$filter=Type+eq+0   
     ```  
   
 -   Retrieve a specific instance's ID property value.  
   
-    ```HTTP  
+    ```http  
     GET https://disco.crm.dynamics.com/api/discovery/v8.1/Instances(UniqueName='myorg')/Id/$value  
     ```

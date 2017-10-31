@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_estimateline Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Estimates on a per day timescale.
 
 **Added by**: Project Service Automation Solution<br />

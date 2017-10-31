@@ -14,9 +14,12 @@ ms.assetid: 39f237ea-8805-4a45-925e-2663ff635611
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Execute multiple requests
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Sending a large number of individual organization message requests over a network, as you would do in a bulk data import operation, is affected by network performance. For improved performance, [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement supports batching of requests into a single web service method call.  
   
  This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Sample: Execute multiple requests](https://code.msdn.microsoft.com/Sample-Execute-multiple-ec698fa3). 

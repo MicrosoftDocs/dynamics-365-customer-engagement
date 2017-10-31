@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_orderlineresourcecategory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of roles that will be considered as costs when computing the profit of a project contract line.
 
 **Added by**: Project Service Automation Solution<br />

@@ -16,9 +16,11 @@ ms.assetid: a5f6fe12-cb80-4ea7-a986-eb9543636bd8
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Extend Dynamics 365 Customer Engagement for Outlook
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
 > Dynamics 365 for Outlook (Outlook client) is deprecated with the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] release and will be removed in a future major release. Dynamics 365 App for Outlook, introduced with Dynamics CRM 2016 (version 8.0), is our most up-to-date offering for pairing Dynamics 365 with Microsoft Outlook.

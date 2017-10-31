@@ -14,9 +14,12 @@ ms.assetid: bae224ef-2f5d-4555-a33c-9225b9365ed6
 caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use Dynamics 365 services in code
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement organization service provides two web services that can be used to identify your organization and to access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data. This section describes how to use these services when you are developing applications or customizations for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 ## Discovery Service web service  

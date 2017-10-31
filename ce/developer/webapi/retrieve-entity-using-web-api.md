@@ -14,10 +14,12 @@ ms.assetid: abae4614-9e03-45e7-94fa-9e6e7225ece5
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Retrieve an entity using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Use a `GET` request to retrieve data for an entity specified as the resource with a unique identifier. When retrieving an entity you can also request specific properties and expand navigation properties to return properties from related entities.  
 
@@ -27,6 +29,7 @@ Use a `GET` request to retrieve data for an entity specified as the resource wit
 <a name="bkmk_basicRetrieve"></a>
 
 ## Basic Retrieve example
+
 This example returns data for an account entity instance with the primary key value equal to 00000000-0000-0000-0000-000000000001.
 
 ```http

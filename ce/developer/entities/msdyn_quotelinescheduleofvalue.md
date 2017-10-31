@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_quotelinescheduleofvalue Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of billing milestones and invoice amounts for this quote line.
 
 **Added by**: Project Service Automation Solution<br />

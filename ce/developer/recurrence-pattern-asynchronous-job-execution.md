@@ -14,9 +14,12 @@ ms.assetid: abfb5df5-138b-4c7e-8730-4903aa2be3d3
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Recurrence pattern in asynchronous job execution
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can execute asynchronous system operations one time or on a recurring basis by using a recurrence rule. Use the `AsyncOperation.RecurrencePattern` attribute to specify the recurrence rule. This property is included in the request classes of the<xref:Microsoft.Xrm.Sdk.IOrganizationService> messages that submit asynchronous jobs, such as bulk delete, or bulk detect duplicates. It is also included in the entities that represent asynchronous operations, such as the `AsyncOperation` (system job) entity.  
   
  Use the following format to set the `AsyncOperation.RecurrencePattern` attribute.  

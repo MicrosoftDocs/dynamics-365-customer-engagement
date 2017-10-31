@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # QueueItem Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 A specific item in a queue, such as a case record or an activity record.
 
 

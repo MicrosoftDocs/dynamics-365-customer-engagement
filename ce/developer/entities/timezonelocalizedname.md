@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # TimeZoneLocalizedName Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Localized name of the time zone.
 
 

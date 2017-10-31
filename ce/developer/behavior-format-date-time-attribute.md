@@ -14,9 +14,12 @@ ms.assetid: 17014973-417b-4f53-8991-88ccc0096cfc
 caps.latest.revision: 31
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Behavior and format of the date and time attribute
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you have users and offices around the world, it is important to properly represent date and time values in multiple time zones. The <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata> class is used to define and manage attributes of type `DateTime` in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Use the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior> property to define whether to store date and time values with or without time zone information, and use the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.Format> property to specify the display format of these attributes.  
   
  You can also use the customization area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to define the behavior and format of the date and time attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md)  

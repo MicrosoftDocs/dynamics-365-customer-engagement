@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SdkMessageProcessingStepImage Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Copy of an entity's attributes before or after the core system operation.
 
 

@@ -14,9 +14,12 @@ ms.assetid: 771002b0-825a-462d-bbf0-1aeba4b726c8
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Perform conditional operations using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement provides support for a set of conditional operations that rely upon the standard HTTP resource versioning mechanism known as *ETags*.  
   
 <a name="bkmk_ETags"></a>   
@@ -39,7 +42,7 @@ manager: "jdaly"
  Etags enable you to optimize record retrievals whenever you access the same record multiple times. If you have previously retrieved a record, you can pass the ETag value with the `If-None-Match` header to request data to be retrieved only if it has changed since the last time it was retrieved. If the data has changed, the request returns an HTTP status of 200 (OK) with the latest data in the body of the request. If the data hasn’t changed, the HTTP status code 304 (Not Modified) is returned to indicate that the entity hasn’t been modified. The following example message pair returns data for an account entity with the `accountid` equal to `00000000-0000-0000-0000-000000000001` when the data hasn’t changed since it was last retrieved.  
   
  **Request**  
- ```HTTP  
+```http  
 GET [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000001)?$select=accountcategorycode,accountnumber,creditonhold,createdon,numberofemployees,name,revenue   HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
@@ -48,22 +51,26 @@ If-None-Match: W/"468026"
 ```  
   
  **Response**  
- ```JSON  
+```json  
 HTTP/1.1 304 Not Modified  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
 ```  
   
-<a name="bkmk_limitUpsertOperations"></a>   
-## Limit upsert operations  
+<a name="bkmk_limitUpsertOperations"></a>
+  
+## Limit upsert operations
+
  An upsert ordinarily operates by creating an entity if it doesn’t exist; otherwise, it updates an existing entity. However, ETags can be used to further constrain upserts to either prevent creates or to prevent updates.  
   
-<a name="bkmk_preventCreateOnUpsert"></a>   
-### Prevent create in upsert  
+<a name="bkmk_preventCreateOnUpsert"></a>
+ 
+### Prevent create in upsert
+
  If you are updating data and there is some possibility that the entity was deleted intentionally, you will not want to re-create the entity. To prevent this, add an `If-Match` header to the request with a value of "`*`".  
   
  **Request**  
- ```HTTP  
+```http  
 PATCH [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000001) HTTP/1.1  
 Content-Type: application/json  
 OData-MaxVersion: 4.0  
@@ -83,7 +90,7 @@ If-Match: "*"
  **Response**  
  If the entity is found, you’ll get a normal response with status 204 (No Content). When the entity is not found, you’ll get the following response with status 404 (Not Found).  
   
-```JSON  
+```json  
 HTTP/1.1 404 Not Found  
 OData-Version: 4.0  
 Content-Type: application/json; odata.metadata=minimal  
@@ -101,12 +108,14 @@ Content-Type: application/json; odata.metadata=minimal
 }  
 ```  
   
-<a name="bkmk_preventUpdateInUpsert"></a>   
-### Prevent update in upsert  
+<a name="bkmk_preventUpdateInUpsert"></a>
+  
+### Prevent update in upsert
+
  If you’re inserting data, there is some possibility that a record with the same `id` value already exists in the system and you may not want to update it. To prevent this, add an `If-None-Match` header to the request with a value of "`*`".  
   
  **Request**  
- ```HTTP  
+```http  
 PATCH [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000001) HTTP/1.1  
 Content-Type: application/json  
 OData-MaxVersion: 4.0  
@@ -126,7 +135,7 @@ If-None-Match: "*"
  **Response**  
  If the entity isn’t found, you will get a normal response with status 204 (No Content). When the entity is found, you’ll get the following response with status 412 (Precondition Failed).  
   
-```JSON  
+```json  
 HTTP/1.1 412 Precondition Failed  
 OData-Version: 4.0  
 Content-Type: application/json; odata.metadata=minimal  
@@ -144,16 +153,21 @@ Content-Type: application/json; odata.metadata=minimal
 }  
 ```  
   
-<a name="bkmk_Applyoptimisticconcurrency"></a>   
-## Apply optimistic concurrency  
+<a name="bkmk_Applyoptimisticconcurrency"></a>
+
+## Apply optimistic concurrency
+
  You can use optimistic concurrency to detect whether an entity has been modified since it was last retrieved. If the entity you intend to update or delete has changed on the server since you retrieved it, you may not want to complete the update or delete operation. By applying the pattern shown here you can detect this situation, retrieve the most recent version of the entity, and apply any necessary criteria to re-evaluate whether to try the operation again.  
   
-<a name="bkmk_Applyoptimisticconcurrencyondelete"></a>   
-### Apply optimistic concurrency on delete  
+<a name="bkmk_Applyoptimisticconcurrencyondelete"></a>
+
+### Apply optimistic concurrency on delete
+
  The following delete request for an account with `accountid` of`00000000-0000-0000-0000-000000000001` fails because the ETag value sent with the `If-Match` header is different from the current value. If the value had matched, a 204 (No Content) status is expected.  
   
- **Request**  
- ```HTTP  
+ **Request**
+
+```http  
 DELETE [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000001) HTTP/1.1  
 If-Match: W/"470867"  
 Accept: application/json  
@@ -161,8 +175,9 @@ OData-MaxVersion: 4.0
 OData-Version: 4.0  
 ```  
   
- **Response**  
- ```JSON  
+ **Response**
+
+```json  
 HTTP/1.1 412 Precondition Failed  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -179,12 +194,15 @@ OData-Version: 4.0
 }  
 ```  
   
-<a name="bkmk_Applyoptimisticconcurrencyonupdate"></a>   
-### Apply optimistic concurrency on update  
+<a name="bkmk_Applyoptimisticconcurrencyonupdate"></a>
+
+### Apply optimistic concurrency on update
+
  The following update request for an account with `accountid` of `00000000-0000-0000-0000-000000000001` fails because the ETag value sent with the `If-Match` header is different from the current value. If the value had matched, a 204 (No Content) status is expected.  
   
- **Request**  
- ```HTTP  
+ **Request**
+
+```http  
 PATCH [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000001) HTTP/1.1  
 If-Match: W/"470867"  
 Accept: application/json  
@@ -194,8 +212,9 @@ OData-Version: 4.0
 {"name":"Updated Account Name"}  
 ```  
   
- **Response**  
- ```JSON  
+ **Response**
+
+```json  
 HTTP/1.1 412 Precondition Failed  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -212,7 +231,8 @@ OData-Version: 4.0
 }  
 ```  
   
-### See also  
+### See also
+
  [Web API Conditional Operations Sample (C#)](web-api-conditional-operations-sample-csharp.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)   

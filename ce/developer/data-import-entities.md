@@ -21,9 +21,12 @@ ms.assetid: e18c1e40-0c9a-417b-a7de-3c13b68128ca
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Data import entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data import entities are used to create data maps, configure and run data imports, and log failure information.  
   
  The following table lists the entities that are used to configure, run, and log failures for import operations.  

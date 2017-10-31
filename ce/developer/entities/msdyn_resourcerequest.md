@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_resourcerequest Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity that wraps the resource requirement to capture the type of resources, skills, and location required.
 
 **Added by**: Project Service Automation Solution<br />

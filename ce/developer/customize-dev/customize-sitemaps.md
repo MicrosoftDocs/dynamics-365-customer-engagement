@@ -16,6 +16,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 ---
 # Customize SiteMaps
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. The `SiteMap` entity stores information about the site map, and the `SiteMap.SiteMapXml` attribute stores the XML that defines the site map. The site map XML is exposed as the `SiteMap` node in the              customizations.xml file of an exported unmanaged solution.  
   
  The structure of navigation defined in the site map XML is  evaluated together with your security privileges to display navigation options in the application. If your security privileges do not provide read access to an entity specified in the site map XML, the navigation option will not be displayed to you.  

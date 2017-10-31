@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # List Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Group of existing or potential customers created for a marketing campaign or other sales purposes.
 
 **Added by**: Marketing Solution<br />

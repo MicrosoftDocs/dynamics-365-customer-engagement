@@ -21,9 +21,12 @@ ms.assetid: 99e3570c-39d6-46a2-9574-e8dedc99fd65
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Use duplicate detection when creating and updating records
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the work with duplicate detections sample](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
 
 ## Prerequisites

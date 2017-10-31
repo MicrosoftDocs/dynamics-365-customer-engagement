@@ -16,6 +16,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 ---
 # Apply SLAs to entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Service level agreements (SLAs) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] help you define the level of service or support that your organization agrees to offer a customer by including items to define metrics or key performance indicators (KPIs) to attain the service level. You can apply SLAs to custom entities and the following system entities:  
   
 -   All activity entities (such as Email, Task, and Appointment) except recurring appointments (RecurringAppointmentMaster)  

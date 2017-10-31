@@ -16,6 +16,9 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Sample: Android Activity Tracker for Dynamics 365 and Web API
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] or later.              This code can be found at the following location on Github:              [https://github.com/DynamicsCRM/Android-Activity-Tracker-for-Dynamics-CRM-Web-API](https://github.com/DynamicsCRM/Android-Activity-Tracker-for-Dynamics-CRM-Web-API).  
   
 ## Requirements  

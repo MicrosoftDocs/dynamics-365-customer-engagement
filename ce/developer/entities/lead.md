@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Lead Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
 
 **Added by**: Lead Management Solution<br />

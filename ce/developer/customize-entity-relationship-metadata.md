@@ -14,9 +14,12 @@ ms.assetid: 44ab54f6-f55a-4cf8-98f4-cbd4358286c7
 caps.latest.revision: 36
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customize entity relationship metadata
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity relationships define the ways that entity records can be associated with records of other entities or the same entity. Creating new entity relationships creates new table relationships in the database. Use entity relationships to define specific associations that are frequently used to associate records for reports or in the user interface. Once a relationship exists, you can associate and disassociate records based on the relationship using the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> and <xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> methods. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Actions on Entity Records](introduction-entities.md#ActionsOnEntityRecords)  
   
  For relationships between individual records that are less formal and more flexible, see [Connection Entities](connection-entities.md).  
@@ -42,7 +45,7 @@ Entity relationships define the ways that entity records can be associated with 
  In an entity node on a solution page, this kind of entity relationship is displayed as either a **1-to-Many (1:N) Relationship** or a **Many-to-1 (N:1) Relationship**. These terms are used because you navigate to entity relationships through one of the entities. The label reflects which role the current entity has in the relationship.  
 
  > [!NOTE]
- > See [Create a One-to-many relationship using the Web API](webapi/create-update-entity-relationships-using-web-api#create-a-one-to-many-relationship) for information on how to use the Web API for creating a 1:N relationship.
+ > See [Web API: Create a one-to-many relationship](webapi/create-update-entity-relationships-using-web-api.md#create-a-one-to-many-relationship) for information on how to use the Web API for creating a 1:N relationship.
  
  You use an instance of the <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata> class when you work with this kind of entity relationship. Each entity relationship has a unique schema name that you use to retrieve it. For more information, see <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase.SchemaName>. Each entity relationship of this kind also has a referenced entity (**Primary Entity**) with a referenced attribute, and a referencing entity (**Related Entity**) with a referencing attribute. The referencing attribute can be displayed as a lookup field in an entity form. For more information, see <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencedEntity>, <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencedAttribute>, <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencingEntity>, and <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencingAttribute>.  
   
@@ -70,7 +73,7 @@ Entity relationships define the ways that entity records can be associated with 
  In a many-to-many entity relationship many entity records can be associated with many other entity records. Unlike one-to-many relationships, there is no lookup field on either entity and therefore no intended hierarchy. Records related using a many-to-many relationship can be considered peers and the relationship is reciprocal. A many-to-many relationship may also be self-referential. Because there is no cascading behavior involved in many-to-many relationships, you can allow an individual record to have a reference to itself.  
 
  > [!NOTE]
- > See [Create a Many-to-Many relationship using the Web API](webapi/create-update-entity-relationships-using-web-api#create-a-many-to-many-relationship) for information on how to use the Web API for creating a N:N relationship.
+ > See [Create a Many-to-Many relationship using the Web API](webapi/create-update-entity-relationships-using-web-api.md#create-a-many-to-many-relationship) for information on how to use the Web API for creating a N:N relationship.
  
  You use an instance of the <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata> class when you work with this kind of entity relationship. Each entity relationship has a unique <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase.SchemaName> that you use to retrieve it  
 

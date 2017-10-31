@@ -14,9 +14,12 @@ ms.assetid: 872b735a-9c80-4e4e-8c04-61f8ce6836df
 caps.latest.revision: 59
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Detect duplicate data for developers
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Duplicate detection lets organizations set duplicate detection policies and create duplicate detection rules for business and custom entities. These rules can be applied across different record types in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For example, an organization may define that a lead is a duplicate of a contact, if they have the same name and phone number. Based on the duplicate detection rules set by the administrator, the system alerts the user about potential duplicates when the user tries to create new records or update existing records. To maintain data quality, you can schedule a duplicate detection job to check for duplicates for all records that match a certain criteria. You can clean the data by deleting, deactivating, or merging the duplicates reported by a duplicate detection job.  
   
  To detect duplicates in the system, create a *duplicate detection rule* for a specific entity type. A duplicate detection rule is represented by the duplicate rule (`DuplicateRule`) entity. You can create multiple detection rules for the same entity type. However, you can publish a maximum of five duplicate detection rules per entity type at one time.  

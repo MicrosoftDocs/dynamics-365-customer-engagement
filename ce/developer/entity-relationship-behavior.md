@@ -29,9 +29,12 @@ ms.assetid: 841dbfc8-05e1-4992-83ac-b9d47eab1e7b
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Entity relationship behavior
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When a one-to-many entity relationship exists there are cascading behaviors that can be configured to preserve data integrity and automate business processes. This topic will explain some key concepts and describe how you can configure these cascading behaviors.  
   
  Before describing how to configure entity relationship behaviors it is useful to consider how it applies to your business. Three key concepts are:  

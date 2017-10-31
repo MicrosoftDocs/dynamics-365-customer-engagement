@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # setShowTime (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify whether a date control should show the time portion of the date. 
 
 ## Control types supported

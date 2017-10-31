@@ -10,6 +10,9 @@ ms.author: "kvivek"
 manager: "amyla"
 ---
 # Online Management API for Dynamics 365 Customer Engagement 
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Online Management API is a REST API that lets you create and manage Customer Engagement instances in your Office 365 tenant. 
 
 [!INCLUDE[cc-custeng-definition](../includes/cc-custeng-definition.md)]
@@ -18,11 +21,13 @@ Application publishers and ISVs can use the Online Management API to:
 -  Automate creation of custom demo Customer Engagement instances
 -  Manage multiple Customer Engagement instances in case of multi-org setup in their enterprise 
 
-Using the Online Management API, you can perform various tasks on your online instance such as create, retrieve, delete, backup and restore instances, and other instance-related tasks. Until now, administrator could only manage the online instances using the [Dynamics 365 Admin Center](https://technet.microsoft.com/library/dn659834.aspx). 
+Using the Online Management API, you can perform various tasks on your online instance such as create, retrieve, delete, backup and restore instances, and other instance-related tasks. 
 
-If you are an administrator, you can also use the new PowerShell cmdlets to perform the same tasks as the REST API on your online Customer Engagement instances. 
+If you are an administrator, you can manage Customer Engagement online instances using either of the following:
+- [Dynamics 365 Admin Center](../admin/manage-online-instances.md)
+- [PowerShell cmdlets](/powershell/module/microsoft.xrm.onlinemanagementapi) 
   
 ### Related Sections  
-[Online Management API Reference](/rest/api/admin.services.crm.dynamics.com)
+[Online Management REST API Reference](/rest/api/admin.services.crm.dynamics.com)
 
-[Customer Engagement developer documentation on MSDN](https://msdn.microsoft.com/library/hh547453.aspx)
+[Customer Engagement Developer Guide](developer-guide.md)

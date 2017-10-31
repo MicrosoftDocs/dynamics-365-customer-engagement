@@ -33,9 +33,12 @@ ms.assetid: e41e1785-7dcd-46b9-a2eb-e4e848c3154c
 caps.latest.revision: 59
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Introduction to solutions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 *Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Customizers and developers distribute solutions so that organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to install and uninstall the business functionality defined by the solution.  
   
 <a name="BKMK_ExtensibilityChoices"></a>   

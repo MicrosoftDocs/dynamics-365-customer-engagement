@@ -11,11 +11,13 @@ manager: "amyla"
 ---
 # refresh (Client API reference)
 
-Refreshes the data displayed in a timeline control.
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
+Refreshes the data displayed in a timelinewall and timer control.
 
 ## Control types supported
 
-timelinewall
+timelinewall, timer
 
 ## Syntax
 

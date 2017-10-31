@@ -13,9 +13,12 @@ applies_to:
 ms.assetid: a3954fc9-6b40-4b7d-ba6e-51c50e004723
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Create and update an emailable entity
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the work with entity metadata sample](https://code.msdn.microsoft.com/Samples-of-entities-916efa41).  
 
 ## Prerequisites

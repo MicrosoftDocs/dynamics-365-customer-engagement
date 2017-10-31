@@ -14,9 +14,12 @@ ms.assetid: b7d37dd8-4a1d-4a7f-ac77-436f00c003f1
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the Organization service with Dynamics 365 metadata
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. Virtually all tasks to manage metadata can be performed by using the customization tools in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] application. This section describes how to programmatically access and modify the metadata model.  
   
 > [!IMPORTANT]

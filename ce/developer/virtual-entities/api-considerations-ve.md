@@ -8,10 +8,12 @@ applies_to:
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996dea
 author: "Milar1"
 ms.author: "v-larmic"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # API considerations of virtual entities
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 There are two broad categories of changes to the metadata system that are associated with the introduction of virtual entities in [!INCLUDE[pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]:
 

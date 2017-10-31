@@ -12,20 +12,28 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: b14a8bff-bf05-412c-89f6-ba7b503dcb51
 caps.latest.revision: 13
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
 ---
 # Web API Functions and Actions Sample (C#)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to call bound and unbound functions and actions, including custom actions, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
   
 > [!NOTE]
 >  This sample implements the operations detailed in the [Web API Functions and Actions Sample](web-api-functions-actions-sample.md) and uses the common client-side C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
  
-<a name="bkmk_prerequisites"></a>   
-## Prerequisites  
+<a name="bkmk_prerequisites"></a>
+
+## Prerequisites
+
  Prerequisites for all Dynamics 365 Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
   
-<a name="bkmk_runSample"></a>   
-## Run this sample  
+<a name="bkmk_runSample"></a>
+ 
+## Run this sample
+
  First go to [Microsoft CRM Web API Functions and Actions Sample (C#)](http://go.microsoft.com/fwlink/p/?LinkId=824047), download the sample archive file, Microsoft CRM Web API Functions and Actions Sample (CS).zip, and extract its contents into a local folder. This folder should contain the following files:  
   
 |File|Purpose/Description|  
@@ -668,10 +676,10 @@ namespace Microsoft.Crm.Sdk.Samples
   
     }  
 }  
-  
 ```  
   
-### See also  
+### See also
+
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   

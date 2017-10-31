@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # CardType Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 To provide master data for the card types list. For internal use only
 
 

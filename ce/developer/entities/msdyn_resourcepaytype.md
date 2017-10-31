@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_resourcepaytype Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Pay Types of resources hourly rate to calculate the resource cost
 
 **Added by**: Field Service Solution<br />

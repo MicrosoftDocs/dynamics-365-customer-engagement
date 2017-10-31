@@ -16,9 +16,12 @@ ms.assetid: 05ada555-b535-4371-8029-176c454ada26
 caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Understand charts: Underlying data and chart representation
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Charts display data visually by mapping textual values on two axes: horizontal (x) and vertical (y). In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, the x axis is called the *category* axis and the y axis is called the *series* axis. The category axis can display numeric as well as non-numeric values whereas the series axis only displays numeric values.  
   
  Charts in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] can be further classified into the following:  

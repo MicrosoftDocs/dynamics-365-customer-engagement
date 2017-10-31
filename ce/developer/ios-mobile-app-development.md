@@ -13,10 +13,12 @@ ms.assetid: E0FD188C-A992-488C-92B2-E32F6FBDD05F
 caps.latest.revision: 25
 author: "SushantSikka"
 ms.author: "susikka"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Resources for iOS mobile application development
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the following resources for developing mobile apps for iOS platform that leverage the extensibility features of Microsoft Dynamics 365:
 
@@ -46,7 +48,8 @@ A tool to generate early-bound entity types, for mobile development, from the me
 Track the interactions with your recent contacts and learn how to use the libraries of the iOS Mobile SDK
 
 <div style="background:#002050;display: block;text-align: center;padding: 5px 20px;width: 175px;margin-top: 20px;margin-left: auto;margin-right: auto;">
-<a style="color: #fff;" href="sample-ios-activity-tracker-web-api" target="_blank" >View Sample</a>
+<!-- Setting to full URL to avoid false postive broken link report -->
+<a style="color: #fff;" href="https://docs.microsoft.com/dynamics365/customer-engagement/developer/sample-ios-activity-tracker-web-api" target="_blank" >View Sample</a>
 </div>
 
 ## Early-bound code generation tool

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_resourceterritory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Allows to specify for which territory a resource could provide services for
 
 **Added by**: Unified Resource Scheduling Solution<br />
