@@ -14,17 +14,22 @@ ms.assetid: ad4e4eac-117a-4958-9df0-b7353305b0c7
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Associate and disassociate entities using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 There are several methods you can use to associate and disassociate entities. Which method you apply depends on whether you’re creating or updating the entities and whether you’re operating in the context of the referenced entity or the referencing entity.  
 
-<a name="bkmk_Addareferencetoacollection"></a>   
-## Add a reference to a collection-valued navigation property  
+<a name="bkmk_Addareferencetoacollection"></a>
+
+## Add a reference to a collection-valued navigation property
+
  The following example shows how to associate an existing opportunity entity with the opportunityid value of 00000000-0000-0000-0000-000000000001 to the collection-valued opportunity_customer_accounts navigation property for an account entity with the `accountid` value of 00000000-0000-0000-0000-000000000002. This is a 1:N relationship but you can perform the same operation for an N:N relationship.  
   
- **Request**  
- ```  
+**Request**  
+```http  
 POST [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000002)/opportunity_customer_accounts/$ref HTTP/1.1   
 Content-Type: application/json   
 Accept: application/json   
@@ -36,20 +41,22 @@ OData-Version: 4.0
 }  
 ```  
   
- **Response**  
- ```  
+**Response**  
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 ```  
   
-<a name="bkmk_Removeareferencetoanentity"></a>   
-## Remove a reference to an entity  
+<a name="bkmk_Removeareferencetoanentity"></a>
+
+## Remove a reference to an entity
+
  Use a DELETE request to remove a reference to an entity. The way you do it is different depending on whether you’re referring to a collection-valued navigation property or a single-valued navigation property.  
   
  **Request**  
  For a collection-valued navigation property, use the following.  
   
-```  
+```http  
 DELETE [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000002)/opportunity_customer_accounts/$ref?$id=[Organization URI]/api/data/v9.0/opportunities(00000000-0000-0000-0000-000000000001) HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
@@ -58,7 +65,7 @@ OData-Version: 4.0
   
  Or, use this.  
   
-```  
+```http 
 DELETE [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000002)/opportunity_customer_accounts(00000000-0000-0000-0000-000000000001)/$ref HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
@@ -68,7 +75,7 @@ OData-Version: 4.0
  **Request**  
  For a single-valued navigation property, remove the `$id` query string parameter.  
   
-```  
+```http 
 DELETE [Organization URI]/api/data/v9.0/opportunities(00000000-0000-0000-0000-000000000001)/customerid_account/$ref HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
@@ -78,17 +85,20 @@ OData-Version: 4.0
  **Response**  
  Either way, a successful response has status 204.  
   
-```  
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 ```  
   
-<a name="bkmk_Changethereferenceinasingle"></a>   
-## Change the reference in a single-valued navigation property  
+<a name="bkmk_Changethereferenceinasingle"></a>
+ 
+## Change the reference in a single-valued navigation property
+
  You can associate entities by setting the value of a single-valued navigation property using PUT request with the following pattern.  
   
- **Request**  
- ```  
+ **Request**
+
+```http 
 PUT [Organization URI]/api/data/v9.0/opportunities(00000000-0000-0000-0000-000000000001)/customerid_account/$ref HTTP/1.1  
 Content-Type: application/json  
 Accept: application/json  
@@ -101,21 +111,27 @@ OData-Version: 4.0
 ```  
   
  **Response**  
- ```  
+
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 ```  
   
-<a name="bkmk_Associateentitiesoncreate"></a>   
-## Associate entities on create  
+<a name="bkmk_Associateentitiesoncreate"></a>
+
+## Associate entities on create
+
  As described in [Create related entities in one operation](create-entity-web-api.md#bkmk_CreateRelated), new entities can be created with relationships using *deep insert*.  
   
-<a name="bkmk_Associateentitiesonupdate"></a>   
-## Associate entities on update  
+<a name="bkmk_Associateentitiesonupdate"></a>
+
+## Associate entities on update
+
  You can associate entities on update using the same message described in [Basic update](update-delete-entities-using-web-api.md#bkmk_update) but you must use the @odata.bind annotation to set the value of a single-valued navigation property. The following example changes the account associated to an opportunity using the customerid_account single-valued navigation property.  
   
- **Request**  
- ```  
+ **Request**
+
+```http 
 PATCH [Organization URI]/api/data/v9.0/opportunities(00000000-0000-0000-0000-000000000001) HTTP/1.1  
 Content-Type: application/json  
 Accept: application/json  
@@ -128,12 +144,14 @@ OData-Version: 4.0
 ```  
   
  **Response**  
- ```  
+
+```http 
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 ```  
   
-### See also  
+### See also
+
  [Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)   
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)   

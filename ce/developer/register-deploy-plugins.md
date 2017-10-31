@@ -17,10 +17,12 @@ ms.assetid: c3ee3447-ec0d-494e-8b35-4ec58ce93eea
 caps.latest.revision: 64
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Register and Deploy Plug-Ins
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Before a plug-in or custom workflow activity can be used, it must be registered with the server. You can programmatically register plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] by writing registration code using certain SDK classes. However, to ease the learning curve and to speed up development and deployment of custom code, a plug-in and custom workflow activity registration tool is available for download.
 

@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getAttribute (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns the attribute that the control is bound to.
 
 Controls that aren’t bound to an attribute (subgrid, web resource, and IFRAME) don’t have this method. An error will be thrown if you attempt to use this method on one of these controls. 

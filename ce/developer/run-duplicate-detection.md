@@ -14,9 +14,12 @@ ms.assetid: 08699dd9-623a-4fee-8b2e-fba850cc2a58
 caps.latest.revision: 39
 author: "susikka"
 ms.author: "susikka"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Run duplicate detection
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 There are several ways to perform duplicate detection after you enable it and publish the duplicate detection rules.  
 
 <a name="BKMK_RetDupwebapi"></a>
@@ -49,7 +52,7 @@ Content-Type: application/json
 Accept: application/json
 ```
 **Response**
-```JSON
+```json
 {
     "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts",
     "value": [
@@ -99,7 +102,7 @@ OData-MaxVersion: 4.0
 }  
 ```
 **Response**
-```JSON
+```json
 {
     "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse",
     "JobId": "efaff068-7598-e711-80e8-00155db64062"
@@ -136,7 +139,7 @@ The FetchXML equivalent of the above request is shown below.
 ```
 
 **Response**
-```JSON
+```json
 {  
    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#duplicaterecords",
    "value":[  

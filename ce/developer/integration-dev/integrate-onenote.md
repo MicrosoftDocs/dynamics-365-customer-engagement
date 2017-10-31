@@ -14,9 +14,12 @@ ms.assetid: e666b9e9-65a6-4a89-918c-bbb3a6e84515
 caps.latest.revision: 17
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Integrate Customer Engagement with OneNote
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Customer Engagement so that a dedicated [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook is automatically created for the selected entity records in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. This feature provides you the ability to easily take notes in the context of a Dynamics 365 record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 web client or from the record form in the Dynamics 365 mobile apps.  
   
 > [!NOTE]

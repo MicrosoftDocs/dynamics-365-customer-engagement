@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # Best practices: Client scripting in Customer Engagement
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 These are some of the best practice tips you could consider while writing your JavaScript code for Customer Engagement.
 
 ## Define unique JavaScript function names

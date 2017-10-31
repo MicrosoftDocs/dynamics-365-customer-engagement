@@ -14,9 +14,12 @@ ms.assetid: cac47832-86f4-41b4-b5c6-e470cdcaa79c
 caps.latest.revision: 37
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Connect to Yammer
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to connect directly to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for social networking in your company. Before you set up a connection to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must purchase [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses for your organization, such as an Enterprise Network or [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] + [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account.  
   
 > [!NOTE]

@@ -16,9 +16,12 @@ ms.assetid: e4117ff8-8a4d-4919-af78-0b8b7d15433a
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Asynchronous service architecture
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is that the asynchronous service can be hosted on servers other than the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server, resulting in improved performance.  For more information, see the architecture diagram in [Event Execution Pipeline](event-execution-pipeline.md).  
   
  Register plug-ins for asynchronous events when they have to perform lots of processing or for functions that are not time critical. Registering a plug-in that performs lots of processing for a synchronous event can adversely affect the performance of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  

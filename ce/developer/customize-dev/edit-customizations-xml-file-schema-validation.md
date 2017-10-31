@@ -16,9 +16,12 @@ ms.assetid: d521a59d-a542-4dce-ab1a-43582756436c
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Edit the customizations XML file with schema validation
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The customizations.xml file is included within the compressed .zip file exported as a solution. Certain portions of the customizations.xml file can be edited manually. Information about the schema helps you confirm that any modifications you make are valid.  
   
 ## XSD schema files  

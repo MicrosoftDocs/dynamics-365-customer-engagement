@@ -14,9 +14,11 @@ ms.assetid: 48e437ea-6733-44cb-acf1-2e8b20fd6506
 caps.latest.revision: 15
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Retrieve with one-to-many relationship
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getGlobalContext.userSettings (Client API reference)
 
+[!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns information about the current user settings.
 
 `var userSettings = Xrm.Utility.getGlobalContext().userSettings`

@@ -23,9 +23,12 @@ ms.assetid: d14563f7-1fae-4a54-82af-afacf5c8fd56
 caps.latest.revision: 38
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Dependency tracking for solution components
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Solutions are made of solution components. You’ll use the **Solutions** area in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement to create or add solution components. You can perform these actions programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> message or any messages that create or update solution components that include a `SolutionUniqueName` parameter.  
   
  Solution components often depend on other solution components. You can’t delete any solution component that has dependencies on another solution component. For example, a customized ribbon typically requires image or script web resources to display icons and perform actions using scripts. As long as the customized ribbon is in the solution, the specific web resources it uses are required. Before you can delete the web resources you must remove references to them in the customized ribbon. These solution component dependencies can be viewed in the application by clicking **Show Dependencies**.  

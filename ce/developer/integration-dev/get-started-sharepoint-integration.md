@@ -14,14 +14,17 @@ ms.assetid: 00e5e847-d64c-46c8-92a2-19bcf17b9a76
 caps.latest.revision: 57
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Get started with SharePoint integration
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] integration enables document management capabilities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. There are two aspects to [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] integration:  
   
 - **Setting up SharePoint integration**. A system administrator sets up a [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] environment. The [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] administrator (a user who has the SharePoint Site Collection Administrator role) selects the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] entities for which to enable the document management feature, and specifies the target [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)]. As part of specifying the target server, the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] administrator specifies the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] site collection or the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] site URL by using the                      `SharePointSite` entity.  
   
-- **Creating and managing SharePoint document location records**. [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] users can create and manage [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] document location records after [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] integration is enabled. You can create and manage [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] document location records by using the                      `SharePointDocumentLocation` entity. [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] also allows for the automatic creation of folders on the server that is running [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] for entity records under certain conditions. However, automatic creation of folders cannot be done through the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)].  
+- **Creating and managing SharePoint document location records**. [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] users can create and manage [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] document location records after [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] integration is enabled. You can create and manage [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] document location records by using the                      `SharePointDocumentLocation` entity. [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] also allows for the automatic creation of folders on the server that is running [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] for entity records under certain conditions. However, automatic creation of folders cannot be done through the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)].  
   
 <a name="StorageConcepts"></a>   
 ## SharePoint storage concepts  

@@ -14,9 +14,11 @@ ms.assetid: b31b223f-a5bd-48c0-ac4f-a22194432c4b
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Web resource dependencies
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
 > Web resource dependencies were added with the [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].

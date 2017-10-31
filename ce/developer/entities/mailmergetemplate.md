@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # MailMergeTemplate Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Template for a mail merge document that contains the standard attributes of that document.
 
 

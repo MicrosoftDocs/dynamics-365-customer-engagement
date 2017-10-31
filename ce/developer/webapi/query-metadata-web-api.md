@@ -14,9 +14,12 @@ ms.assetid: 3ad4a332-a304-421f-a9fa-82ea3e0503fe
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Query metadata using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement is a metadata-driven application, developers may need to query the system metadata at run-time to adapt to how an organization has been configured. This capability is available using the Web API as well as using the organization service by using the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest> and the classes of the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace. The Web API allows for querying metadata but does not provide the ability to detect changes to metadata from a point in time.
   
 <a name="bkmk_QueryingEntityMetadata"></a>
@@ -26,7 +29,7 @@ Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer 
   
  **Request**
 
- ```http
+```http
 GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=DisplayName,IsKnowledgeManagementEnabled,EntitySetName&$filter=SchemaName eq 'Account' HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
@@ -34,7 +37,7 @@ OData-Version: 4.0
 ```
 
  **Response**
- ```http
+```http
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -101,6 +104,8 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=LogicalName&$filt
 ## Querying EntityMetadata attributes
 
  You can query entity attributes in the context of an entity by expanding the Attributes collection-valued navigation property but this will only include the common properties available in the <xref href="Microsoft.Dynamics.CRM.AttributeMetadata?text=AttributeMetadata EntityType" /> which all attributes share. For example the following query will return the LogicalName of the entity and all the expanded Attributes which have an AttributeType value equal to the <xref href="Microsoft.Dynamics.CRM.AttributeTypeCode?text=AttributeTypeCode EnumType" /> value of Picklist.
+
+<a name="bkmk_queryAttributesexample"></a>
 
 ```http
 GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)?$select=LogicalName&$expand=Attributes($select=LogicalName;$filter=AttributeType eq Microsoft.Dynamics.CRM.AttributeTypeCode'Picklist')  

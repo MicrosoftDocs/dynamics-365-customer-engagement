@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Template Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Template for an email message that contains the standard attributes of an email message.
 
 

@@ -13,9 +13,12 @@ applies_to:
 ms.assetid: f53639b1-7d62-4470-8ca6-c9a6500c9230
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create a custom entity
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic shows how to create a custom user-owned entity called **Bank Account** and add four different types of attributes to it.  
   
  You can also create organization-owned custom entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Entity ownership](../introduction-entities.md#entity-ownership)  
@@ -31,15 +34,11 @@ This topic shows how to create a custom user-owned entity called **Bank Account*
   
  [!code-csharp[Entities#CreateUpdateEntityMetadata1](../../snippets/csharp/CRMV8/entities/cs/createupdateentitymetadata1.cs#createupdateentitymetadata1)]  
   
- [!code-vb[EntitiesVB#CreateUpdateEntityMetadata1](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateentitymetadata1.vb#createupdateentitymetadata1)]  
-  
 <a name="BKMK_AddStringAttribute"></a>   
 ## Add a String attribute to the custom entity  
  The following sample adds a <xref:Microsoft.Xrm.Sdk.Metadata.StringAttributeMetadata> attribute to the `Bank Account` entity.  
   
  [!code-csharp[Entities#CreateUpdateEntityMetadata2](../../snippets/csharp/CRMV8/entities/cs/createupdateentitymetadata2.cs#createupdateentitymetadata2)]  
-  
- [!code-vb[EntitiesVB#CreateUpdateEntityMetadata2](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateentitymetadata2.vb#createupdateentitymetadata2)]  
   
 <a name="BKMK_AddMoneyAttribute"></a>   
 ## Add a Money attribute to the custom entity  
@@ -47,23 +46,17 @@ This topic shows how to create a custom user-owned entity called **Bank Account*
   
  [!code-csharp[Entities#CreateUpdateEntityMetadata3](../../snippets/csharp/CRMV8/entities/cs/createupdateentitymetadata3.cs#createupdateentitymetadata3)]  
   
- [!code-vb[EntitiesVB#CreateUpdateEntityMetadata3](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateentitymetadata3.vb#createupdateentitymetadata3)]  
-  
 <a name="BKMK_AddDateTimeAttribute"></a>   
 ## Add a DateTime attribute to the custom entity  
  The following sample adds a <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata> attribute to the `Bank Account` entity.  
   
  [!code-csharp[Entities#CreateUpdateEntityMetadata4](../../snippets/csharp/CRMV8/entities/cs/createupdateentitymetadata4.cs#createupdateentitymetadata4)]  
   
- [!code-vb[EntitiesVB#CreateUpdateEntityMetadata4](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateentitymetadata4.vb#createupdateentitymetadata4)]  
-  
 <a name="BKMK_AddLookupAttribute"></a>   
 ## Add a Lookup attribute to the custom entity  
  The following sample uses <xref:Microsoft.Xrm.Sdk.Messages.CreateOneToManyRequest> to create a one-to-many relationship with the `Contact` entity so that a <xref:Microsoft.Xrm.Sdk.Metadata.LookupAttributeMetadata> attribute is added to the `Bank Account` entity.  
   
  [!code-csharp[Entities#CreateUpdateEntityMetadata5](../../snippets/csharp/CRMV8/entities/cs/createupdateentitymetadata5.cs#createupdateentitymetadata5)]  
-  
- [!code-vb[EntitiesVB#CreateUpdateEntityMetadata5](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateentitymetadata5.vb#createupdateentitymetadata5)]  
   
 ### See also  
  [Use the IOrganizationService Sample and Helper Code](use-sample-helper-code.md)   

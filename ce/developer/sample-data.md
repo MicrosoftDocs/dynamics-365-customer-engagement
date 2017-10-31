@@ -14,9 +14,12 @@ ms.assetid: aee4962e-5c8f-42cd-b84a-d0726f1bc10c
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample data for Dynamics 365
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can install and uninstall sample data programmatically for an organization using these messages: <xref:Microsoft.Crm.Sdk.Messages.InstallSampleDataRequest> and <xref:Microsoft.Crm.Sdk.Messages.UninstallSampleDataRequest>. For more information, see [Sample: Install or Remove Sample Data](sample-install-remove-sample-data.md).  
   
 ### See also  

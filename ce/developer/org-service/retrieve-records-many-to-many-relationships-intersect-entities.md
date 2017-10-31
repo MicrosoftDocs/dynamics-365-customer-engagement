@@ -14,10 +14,13 @@ ms.assetid: b7987bf2-3915-4ddb-b76f-1cc4a1e44404
 caps.latest.revision: 37
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Retrieve records for many-to-many relationships using intersect entities
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, when there is a many-to-many (N:N) relationship between two entities, an intersect entity is automatically created. This is true for both system relationships built into the product as well as custom many-to-many relationships. The name of the entity is specified in the <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.IntersectEntityName> property in the relationship metadata. The name of the relationship is specified in the <xref:Microsoft.Xrm.Sdk.Relationship.SchemaName> property in the relationship metadata.  
   
  You can use the intersect entities to refine the result set in any query by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method or the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> message. However, you cannot retrieve the intersect entity records directly by using the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> class. To retrieve the records in an intersect entity, you must use the <xref:Microsoft.Xrm.Sdk.Query.FetchExpression> class.  

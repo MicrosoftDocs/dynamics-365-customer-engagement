@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_wallsavedquery Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.
 
 **Added by**: Activity Feeds Solution<br />

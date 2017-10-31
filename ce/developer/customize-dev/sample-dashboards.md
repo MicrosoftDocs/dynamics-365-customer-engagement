@@ -14,9 +14,12 @@ ms.assetid: 4ac5886d-a521-498c-b063-831113b507bc
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample dashboards
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic contains sample dashboards along with the respective FormXML strings. You can specify the FormXML string for a dashboard using the `SystemForm.FormXml` attribute for an organization-owned dashboard or `UserForm.FormXml` for a user-owned dashboard.  
   
 <a name="Sample1"></a>   

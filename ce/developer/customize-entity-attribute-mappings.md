@@ -30,10 +30,12 @@ ms.assetid: de18a3d7-4d6a-4ec8-8a26-570818a4cf7a
 caps.latest.revision: 39
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Customize entity and attribute mappings
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can map attributes between entities that have an entity relationship. This lets you set default values for a record that is created in the context of another record. Use the customization tools in the application to map attributes. See [Create and edit entity relationships : Mapping Entity Fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields).
   

@@ -17,9 +17,12 @@ ms.assetid: 2eb9a727-0eae-4595-b44d-093f3065b54e
 caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Web service error codes
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic lists the error codes you might encounter when you debug your code. You can find helper code for using error codes in the SDK package in the folder `SDK\SampleCode\CS\HelperCode\ErrorCodes.cs`. In the same folder, you’ll also find `CrmErrors.xml`, which is provided so you have an easy way to look up error information. [!INCLUDE[sdk_download](../../includes/sdk-download.md)]  
   
 <a name="BKMK_CRMErrors"></a>   

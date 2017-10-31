@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SalesOrderDetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Line item in a sales order.
 
 **Added by**: Sales Solution<br />

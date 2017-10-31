@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # QuarterlyFiscalCalendar Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Quarterly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.
 
 

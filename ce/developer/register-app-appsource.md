@@ -14,9 +14,12 @@ ms.assetid: 711578f8-34d0-4615-b24f-b0db41c1f963
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Register your app with AppSource
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you have created your app you can publish it through [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement subscribers can find it, try it, and buy it.  
   
 ## Register your app  
@@ -39,7 +42,7 @@ When you have created your app you can publish it through [Microsoft AppSource](
   
  When submitting a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package for a customer-led trial please be aware of the following:  
   
--   Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package will be tested to make sure that it only uses supported extensibility methods as documented in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
+-   Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package will be tested to make sure that it only uses supported extensibility methods as documented in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)].  
   
 -   With your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package you will need to provide a number of test cases and use cases which will be reviewed as part of the certification process.  
   

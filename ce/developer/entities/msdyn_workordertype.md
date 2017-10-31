@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_workordertype Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Create different work order types to reflect the different types of work that your company offers. Work Order types are used to control various settings on a work order.
 
 **Added by**: Field Service Solution<br />

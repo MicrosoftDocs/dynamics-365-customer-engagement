@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_fieldcomputation Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Product properties whose values are to be considered as factors for quantity computation on a transaction line.
 
 **Added by**: Project Service Automation Solution<br />

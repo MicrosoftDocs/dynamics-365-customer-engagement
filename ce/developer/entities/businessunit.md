@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BusinessUnit Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Business, division, or department in the Microsoft Dynamics 365 database.
 
 

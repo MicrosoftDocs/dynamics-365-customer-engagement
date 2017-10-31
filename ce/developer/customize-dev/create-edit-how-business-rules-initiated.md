@@ -14,9 +14,11 @@ ms.assetid: 250c9a3b-7ae1-480d-8bac-0ac72a32bc4f
 caps.latest.revision: 12
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create or edit how business rules are initiated
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Business rules allow for defining logic that takes place in a form. Business rules provide an alternative to form scripts because they can be defined within a user interface without writing code. Business rules do not offer any opportunities for the actions they perform to be extended in this release, but by using the Process Trigger entity, you can modify how existing business rules are initiated or register an existing business rule to different events that will initiate it.
 

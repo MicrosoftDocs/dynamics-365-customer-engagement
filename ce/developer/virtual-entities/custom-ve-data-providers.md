@@ -8,10 +8,12 @@ applies_to:
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d22
 author: "Milar1"
 ms.author: "v-larmic"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Custom virtual entity data providers
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] Data SDK, .NET Developers have the option of creating custom virtual entity data providers to help integrate external data source types that are not supported by an existing data provider. Each data provider is composed of a reusable set of [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] plug-ins that implement the supported CRUD operations. (The initial release is limited to the **Retrieve** and **RetrieveMultiple** read operations.)  This section provides fundamental information about data providers and approaches to developing custom providers, including example code.
 

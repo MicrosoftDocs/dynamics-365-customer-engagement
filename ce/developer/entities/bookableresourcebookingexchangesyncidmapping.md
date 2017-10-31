@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BookableResourceBookingExchangeSyncIdMapping Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The mapping used to keep track of the IDs for items synced between CRM BookableResourceBooking and Exchange.
 
 **Added by**: Scheduling Solution<br />

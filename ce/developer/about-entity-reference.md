@@ -13,9 +13,11 @@ applies_to:
 ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # About the Entity Reference
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use this reference to understand the available operations that can be performed for specific entities, the default attributes attributes of each entity and the relationships between entities.
 

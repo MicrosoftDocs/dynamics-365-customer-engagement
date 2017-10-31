@@ -14,9 +14,12 @@ ms.assetid: 8595e377-7496-456d-ba2f-8671d066098a
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Server-side synchronization entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], server-side synchronization provides an interface between [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and one or more [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] servers or POP3 servers for incoming email, and one or more [!INCLUDE[pn_SMTP](../includes/pn-smtp.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] servers for outgoing email. It retrieves and evaluates emails for relevance to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and accordingly creates corresponding email activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. It also picks emails from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and sends them through the configured email server for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users and queues. It also allows synchronization of appointments, contacts, and tasks with [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)] and [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)].  
   
  With the centralized email configuration, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity model allows having common user interface (UI) settings (like user name, password, email address, and synchronization methods) for users, queues, and forward mailboxes. Each [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user or a queue can have mailboxes, which can be monitored through either server-side synchronization or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. The `EmailServerProfile` entity represents the email server profile for an organization. The `Mailbox` entity represents the appointments, contacts, and tasks delivery method of the mailbox. Currently, the user entity is restricted to have only one mailbox record per user and the queues entity to have only one mailbox record per queue, as shown in the following illustration.  

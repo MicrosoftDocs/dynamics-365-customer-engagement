@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # AttributeMap Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Represents a mapping between attributes where the attribute values should be copied from a record into the form of a new related record.
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sample code for charts (visualizations) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The section contains code examples that demonstrate how to use visualization entities. "
 ms.custom: ""
@@ -14,9 +14,12 @@ ms.assetid: d6afbf8d-8d7c-423b-8a80-8cbeef4f79d2
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample code for charts (visualizations)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This section contains code examples that demonstrate how to use visualization entities.  
   
 ## In This Section  

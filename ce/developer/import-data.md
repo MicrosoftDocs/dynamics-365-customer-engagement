@@ -22,9 +22,12 @@ ms.assetid: 4ab8f0b9-eb38-45b1-9026-b0415f1ab30e
 caps.latest.revision: 39
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Import data
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use the *data import* feature. Data import lets you upload data from various customer relationship management systems and data sources into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can import data into standard and customized attributes of most business and custom entities. You can also include related data, such as notes and attachments.  
   
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a web application tool called Import Data Wizard. You use this tool to import data records from one or more comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files.  

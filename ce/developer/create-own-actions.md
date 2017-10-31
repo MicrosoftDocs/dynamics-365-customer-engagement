@@ -16,9 +16,12 @@ ms.assetid: 98ee20a1-e4b2-4e42-a6ed-583b901507b3
 caps.latest.revision: 44
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create your own actions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can extend the functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement by creating custom messages known as *actions*. These actions will have associated request/response classes and a Web API action will be generated. Actions are typically used to add new domain specific functionality to the organization web service or to combine multiple organization web service message requests into a single request. For example, in a support call center, you may want to combine the Create, Assign, and Setstate messages into a single new Escalate message.  
   
  The business logic of an action is implemented using a workflow. When you create an action, the associated real-time workflow is automatically registered to execute in stage 30 (core operation) of the execution pipeline. For more information about real-time workflows, see [Workflow types](process-categories.md).  
@@ -103,7 +106,7 @@ outputProperty1.Attributes.Add(new ArgumentDescriptionAttribute("The output"));
 outputProperty1.Attributes.Add(new ArgumentDirectionAttribute(Microsoft.Xrm.Sdk.Workflow.ArgumentDirection.Output));  
 ```  
   
-```xaml  
+```xaml
 <x:Property Name="Subject"  
             Type="InArgument(x:String)">  
  <x:Property.Attributes>  
@@ -202,7 +205,7 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
   
 2.  In your application code, instantiate your action’s request and populate any required properties.  
   
-3.  Invoke [OrganizationRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationserviceproxy.execute\(microsoft.xrm.sdk.organizationrequest\)), passing your request as an argument.  
+3.  Invoke <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>, passing your request as an argument.  
   
  Before you run your application code, make sure the action is activated. Otherwise, you’ll receive a run-time error.  
   

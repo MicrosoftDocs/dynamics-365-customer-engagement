@@ -21,9 +21,12 @@ ms.assetid: f3dd3e9f-7f4a-45e1-a65a-4d6863af88b6
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Solution entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Solutions let you create and package customizations as a single unit of software.  
   
  The following diagram describes selected attributes of the solution entities.  

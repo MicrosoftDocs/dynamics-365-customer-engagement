@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # GoalRollupQuery Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Query that is used to filter the results of the goal rollup.
 
 

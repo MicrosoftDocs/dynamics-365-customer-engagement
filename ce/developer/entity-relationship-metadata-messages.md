@@ -19,9 +19,12 @@ ms.assetid: 14b504b9-addb-40cd-aeef-a45a6a24bbcb
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Entity relationship metadata messages
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity relationships define how entities are related to each other. This includes information about how relationships are represented in the application. Also, when actions are performed on a record, the relationship indicates what actions to perform on related records.  
   
 ## Entity relationship messages  

@@ -25,6 +25,9 @@ topic-status: Drafting
 ---
 
 # Sample: Create, retrieve, update, and delete records (early bound)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the Sample: Create, retrieve, update, and delete records (early bound)](https://code.msdn.microsoft.com/Sample-Create-retrieve-d774ee23).
 
 ## Prerequisites

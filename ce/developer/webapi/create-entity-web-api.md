@@ -14,10 +14,13 @@ ms.assetid: 244259ca-2fbc-4fd4-9a74-6166e6683355
 caps.latest.revision: 51
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Create an entity using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Use a POST request to send data to create an entity. You can create multiple related entities in a single operation using ‘deep insert’. You also need to know how to set values to associate a new entity to existing entities using the @odata.bind annotation.  
 
 > [!NOTE]
@@ -127,7 +130,7 @@ OData-EntityId: [Organization URI]/api/data/v9.0/accounts(3c6e4b5f-86f6-e411-80d
 
 **Request**
 
-```HTTP
+```http
 
 POST [Organization URI]/api/data/v9.0/accounts HTTP/1.1
 Content-Type: application/json; charset=utf-8
@@ -173,7 +176,7 @@ The following example shows how to create an account record using the attribute 
 
 **Request**
 
-```HTTP
+```http
 GET [Organization URI]/api/data/v9.0/InitializeFrom(EntityMoniker=@p1,TargetEntityName=@p2,TargetFieldType=@p3)?@p1={'@odata.id':'accounts(c65127ed-2097-e711-80eb-00155db75426)'}&@p2='account'&@p3=Microsoft.Dynamics.CRM.TargetFieldType'ValidForCreate' HTTP/1.1
 If-None-Match: null
 OData-Version: 4.0
@@ -184,7 +187,7 @@ Accept: application/json
 
 **Response**
 
-```JSON
+```json
 {
         "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts/$entity",
         "@odata.type": "#Microsoft.Dynamics.CRM.account",
@@ -204,7 +207,7 @@ GET [Organization URI]/api/data/v9.0/entitymaps?$select=sourceentityname,targete
 
 Other attribute values can also be set and/or modified for the new record by adding them in the JSON request body, as shown in the example below.
 
-```HTTP
+```http
 POST [Organization URI]/api/data/v9.0/accounts HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -243,7 +246,7 @@ Accept: application/json
 
 **Request**
 
- ```HTTP
+ ```http
 
 POST [Organization URI]/api/data/v9.0/accounts?$select=name,creditonhold,address1_latitude,description,revenue,accountcategorycode,createdon HTTP/1.1
 OData-MaxVersion: 4.0

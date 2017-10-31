@@ -19,9 +19,12 @@ ms.assetid: 24e17276-ee23-4414-a025-030b841ae166
 caps.latest.revision: 51
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Configure email for incoming messages
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you want incoming email messages to be delivered directly to a queue, specify the following information in the queue:  
   
 -   An email address by using the `Queue.EmailAddress` attribute. It must be a valid email address where emails that are sent to the queue are directed.  

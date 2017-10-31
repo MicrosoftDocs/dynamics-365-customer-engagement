@@ -22,9 +22,12 @@ ms.assetid: 1a695f80-f042-4a56-a698-72fd1055f01e
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Fiscal calendar and territory entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can use the *fiscal calendar* entities and the *territory* entity to track sales information for a salesperson. A salesperson is a user in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] who has to meet sales objectives, such as sales quotas. A territory is a geographical area that is assigned to a salesperson. The fiscal calendar entities define sales quotas for a salesperson. A quota is a revenue objective for a salesperson. A quota is defined as a specific currency amount for a particular fiscal period. A fiscal calendar is a span of time during which the financial activities of an organization are calculated. A fiscal year is divided into fiscal periods, typically defined as semesters, quarters, or months. Depending on the fiscal year settings that are defined by the `Organization` entity, you can use one of the following fiscal calendar entities to set the sales quotas:  `AnnualFiscalCalendar`, `FixedMonthlyFiscalCalendar`,  `MonthlyFiscalCalendar`,  `QuarterlyFiscalCalendar`, and `SemiAnnualFiscalCalendar`. Each of these entities has one or more money type attributes that you can use to specify a quota for a particular time period. For example, to set a quota for a full fiscal year period, use the `AnnualFiscalCalendar.Period1` attribute. To set monthly quotas, use the `MonthlyFiscalCalendar` entity that contains twelve periods.  
   
 > [!IMPORTANT]

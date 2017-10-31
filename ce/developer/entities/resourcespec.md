@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ResourceSpec Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.
 
 **Added by**: Service Solution<br />

@@ -9,46 +9,23 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "removing solution components (sample notes)"
-  - "creating publishers (sample notes)"
-  - "adding new solution components (sample notes)"
-  - "deleting solutions (sample notes)"
-  - "working with solutions (sample notes), creating publishers"
-  - "working with solutions (sample notes), retrieving default publishers"
-  - "working with solutions (sample notes), removing solution components"
-  - "obtaining dependency reports about your solutions (sample notes)"
-  - "working with solutions (sample notes), exporting or packaging solutions"
-  - "detecting solution dependencies (sample notes)"
-  - "working with solutions (sample notes), obtaining dependency reports about your solutions"
-  - "retrieving default publishers (sample notes)"
-  - "working with solutions (sample notes), creating solutions"
-  - "working with solutions (sample notes), adding new solution components"
-  - "creating solutions (sample notes)"
-  - "working with solutions (sample notes), tracking import success of solutions"
-  - "dependency reports, obtaining for your solutions"
-  - "working with solutions (sample notes), installing or upgrading solutions"
-  - "installing or upgrading solutions (sample notes)"
-  - "adding existing solution components (sample notes)"
-  - "working with solutions (sample notes), adding existing solution components"
-  - "exporting or packaging solutions (sample notes)"
-  - "working with solutions (sample notes), deleting solutions"
-  - "working with solutions (sample notes), detecting solution dependencies"
-  - "working with solutions (sample notes), retrieving solutions"
-  - "retrieving solutions (sample notes)"
-  - "tracking import success of solutions (sample notes)"
 ms.assetid: e8da920b-9660-4f23-aa6b-841a12ea91c1
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Work with solutions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic presents specific programming tasks included in [Sample: Work With Solutions](sample-work-solutions.md) and [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md).  
   
-<a name="BKMK_CreatePublisher"></a>   
-## Create a publisher  
- Every solution requires a publisher, represented by the `Publisher` entity. A solution cannot use the `Microsoft Corporation` publisher but it can use the `Default` publisher for the organization or a new publisher  
+<a name="BKMK_CreatePublisher"></a>
+
+## Create a publisher
+
+ Every solution requires a publisher, represented by the [Publisher Entity](entities/publisher.md). A solution cannot use the `Microsoft Corporation` publisher but it can use the `Default` publisher for the organization or a new publisher  
   
  A publisher requires the following:  
   
@@ -62,19 +39,17 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  [!code-csharp[Solutions#WorkWithSolutions1](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions1.cs#workwithsolutions1)]  
   
- [!code-vb[SolutionsVB#WorkWithSolutions1](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions1.vb#workwithsolutions1)]  
-  
 <a name="BKMK_RetrieveDefaultPublisher"></a>   
 ## Retrieve the default publisher  
  This sample shows how toretrieve the default publisher. The default publisher has a constant GUID value: `d21aab71-79e7-11dd-8874-00188b01e34f`.  
   
  [!code-csharp[Solutions#WorkWithSolutions2](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions2.cs#workwithsolutions2)]  
   
- [!code-vb[SolutionsVB#WorkWithSolutions2](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions2.vb#workwithsolutions2)]  
-  
-<a name="BKMK_CreateASolution"></a>   
-## Create a solution  
- The following sample shows how to create an unmanaged solution using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] Samples publisher created in [Create a Publisher](work-solutions.md#BKMK_CreatePublisher).  
+<a name="BKMK_CreateASolution"></a>
+ 
+## Create a solution
+
+ The following sample shows how to create an unmanaged solution using the SDK Samples publisher created in [Create a Publisher](work-solutions.md#BKMK_CreatePublisher).  
   
  A solution requires the following:  
   
@@ -90,9 +65,7 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  This sample checks whether the Solution already exists in the organization based on the unique name. If the solution does not exist it is created. The `SolutionId` value is captured so the solution can be deleted.  
   
- [!code-csharp[Solutions#WorkWithSolutions3](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions3.cs#workwithsolutions3)]  
-  
- [!code-vb[SolutionsVB#WorkWithSolutions3](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions3.vb#workwithsolutions3)]  
+ [!code-csharp[Solutions#WorkWithSolutions3](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions3.cs#workwithsolutions3)]
   
 <a name="BKMK_RetrieveASolution"></a>   
 ## Retrieve a solution  
@@ -100,9 +73,7 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  This sample shows how to retrieve data for a solution with the unique name ”samplesolution”. A solution with this name is created in [Create a Solution](work-solutions.md#BKMK_CreateASolution).  
   
- [!code-csharp[Solutions#WorkWithSolutions4](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions4.cs#workwithsolutions4)]  
-  
- [!code-vb[SolutionsVB#WorkWithSolutions4](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions4.vb#workwithsolutions4)]  
+ [!code-csharp[Solutions#WorkWithSolutions4](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions4.cs#workwithsolutions4)] 
   
 <a name="BKMK_AddANewSolutionComponent"></a>   
 ## Add a new solution component  
@@ -112,33 +83,25 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  [!code-csharp[Solutions#GetSolutionDependencies3](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies3.cs#getsolutiondependencies3)]  
   
- [!code-vb[SolutionsVB#GetSolutionDependencies3](../snippets/visualbasic/CRMV8/solutionsvb/vb/getsolutiondependencies3.vb#getsolutiondependencies3)]  
-  
 <a name="BKMK_AddExistingSolutionComponent"></a>   
 ## Add an existing solution component  
  This sample shows how to add an existing solution component to a solution.  
   
  The following code uses the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> to add the `Account` entity as a solution component to an unmanaged solution.  
   
- [!code-csharp[Solutions#WorkWithSolutions5](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions5.cs#workwithsolutions5)]  
-  
- [!code-vb[SolutionsVB#WorkWithSolutions5](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions5.vb#workwithsolutions5)]  
+ [!code-csharp[Solutions#WorkWithSolutions5](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions5.cs#workwithsolutions5)] 
   
 <a name="BKMK_RemoveSolutionComponent"></a>   
 ## Remove a solution component  
  This sample shows how to remove a solution component from an unmanaged solution. The following code uses the <xref:Microsoft.Crm.Sdk.Messages.RemoveSolutionComponentRequest> to remove an entity solution component from an unmanaged solution. The `solution.UniqueName` references the Solution created in the [Create a Solution](work-solutions.md#BKMK_CreateASolution).  
   
- [!code-csharp[Solutions#WorkWithSolutions6](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions6.cs#workwithsolutions6)]  
-  
- [!code-vb[SolutionsVB#WorkWithSolutions6](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions6.vb#workwithsolutions6)]  
+ [!code-csharp[Solutions#WorkWithSolutions6](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions6.cs#workwithsolutions6)]
   
 <a name="BKMK_ExportPackageSolution"></a>   
 ## Export or package a solution  
  This sample shows how to export an unmanaged solution or package a managed solution. The code uses <xref:Microsoft.Crm.Sdk.Messages.ExportSolutionRequest> to export a compressed file representing an unmanaged solution. The option to create a managed solution is set using the <xref:Microsoft.Crm.Sdk.Messages.ExportSolutionRequest.Managed> property. This sample saves a file named samplesolution.zip to the `c:\temp\` folder.  
   
- [!code-csharp[Solutions#WorkWithSolutions7](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions7.cs#workwithsolutions7)]  
-  
- [!code-vb[SolutionsVB#WorkWithSolutions7](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions7.vb#workwithsolutions7)]  
+ [!code-csharp[Solutions#WorkWithSolutions7](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions7.cs#workwithsolutions7)]
   
 <a name="BKMK_InstallUpgradeSolution"></a>   
 ## Install or upgrade a solution  
@@ -148,21 +111,18 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
  The following sample shows how to import a solution without tracking the success.  
   
- [!code-csharp[Solutions#WorkWithSolutions8](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions8.cs#workwithsolutions8)]  
+ [!code-csharp[Solutions#WorkWithSolutions8](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions8.cs#workwithsolutions8)] 
   
- [!code-vb[SolutionsVB#WorkWithSolutions8](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions8.vb#workwithsolutions8)]  
-  
-### Tracking import success  
+### Tracking import success
  When you specify an <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest.ImportJobId> for the `ImportSolutionRequest`, you can use that value to query the `ImportJob` entity about the status of the import.  
   
  The `ImportJobId` can also be used to download an import log file using the <xref:Microsoft.Crm.Sdk.Messages.RetrieveFormattedImportJobResultsRequest> message.  
   
-#### Retrieving import job data  
+#### Retrieving import job data
+
  The following sample shows how to retrieve the import job record and the content of the `ImportJob.Data` attribute.  
   
  [!code-csharp[Solutions#WorkWithSolutions9](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions9.cs#workwithsolutions9)]  
-  
- [!code-vb[SolutionsVB#WorkWithSolutions9](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions9.vb#workwithsolutions9)]  
   
  The contents of the `Data` property is a string representing an XML file. The following is a sample captured using the code in this sample. This managed solution contained a single global option set called `sample_tempsampleglobaloptionsetname`.  
   
@@ -287,16 +247,18 @@ This topic presents specific programming tasks included in [Sample: Work With So
 </importexportxml>  
 ```  
   
-<a name="BKMK_DeleteSolution"></a>   
-## Delete a solution  
+<a name="BKMK_DeleteSolution"></a>
+
+## Delete a solution
+
  This sample shows how to delete a solution.The following sample shows how to retrieve a solution using the solution `uniquename` and then extract the `solutionid` from the results. Use the `solutionid` with the<xref:Microsoft.Xrm.Sdk.IOrganizationService>. <xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*> method.  
   
- [!code-csharp[Solutions#WorkWithSolutions10](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions10.cs#workwithsolutions10)]  
+ [!code-csharp[Solutions#WorkWithSolutions10](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions10.cs#workwithsolutions10)] 
   
- [!code-vb[SolutionsVB#WorkWithSolutions10](../snippets/visualbasic/CRMV8/solutionsvb/vb/workwithsolutions10.vb#workwithsolutions10)]  
-  
-<a name="BKMK_DetectSolutionDependencies"></a>   
-## Detect solution dependencies  
+<a name="BKMK_DetectSolutionDependencies"></a>
+
+## Detect solution dependencies
+
  This sample shows how to create a report showing the dependencies between solution components.  
   
  This code will:  
@@ -307,30 +269,28 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
 -   For each dependency found display a report describing the dependency.  
   
- [!code-csharp[Solutions#GetSolutionDependencies1](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies1.cs#getsolutiondependencies1)]  
-  
- [!code-vb[SolutionsVB#GetSolutionDependencies1](../snippets/visualbasic/CRMV8/solutionsvb/vb/getsolutiondependencies1.vb#getsolutiondependencies1)]  
+ [!code-csharp[Solutions#GetSolutionDependencies1](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies1.cs#getsolutiondependencies1)]
   
  The `DependencyReport` method is in the following code sample.  
   
-### Dependency report  
+### Dependency report
+
  The `DependencyReport` method provides a friendlier message based on information found within the dependency.  
   
 > [!NOTE]
 >  In this sample the method is only partially implemented. It can display messages only for attribute and option set solution components.  
   
- [!code-csharp[Solutions#GetSolutionDependencies7](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies7.cs#getsolutiondependencies7)]  
+ [!code-csharp[Solutions#GetSolutionDependencies7](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies7.cs#getsolutiondependencies7)]
   
- [!code-vb[SolutionsVB#GetSolutionDependencies7](../snippets/visualbasic/CRMV8/solutionsvb/vb/getsolutiondependencies7.vb#getsolutiondependencies7)]  
   
-### Detect whether a solution component may be deleted  
+### Detect whether a solution component may be delete
+
  Use the <xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForDeleteRequest> message to identify any other solution components which would prevent a given solution component from being deleted. The following code sample looks for any attributes using a known global optionset. Any attribute using the global optionset would prevent the global optionset from being deleted.  
   
- [!code-csharp[Solutions#GetSolutionDependencies8](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies8.cs#getsolutiondependencies8)]  
-  
- [!code-vb[SolutionsVB#GetSolutionDependencies8](../snippets/visualbasic/CRMV8/solutionsvb/vb/getsolutiondependencies8.vb#getsolutiondependencies8)]  
-  
-### See also  
+ [!code-csharp[Solutions#GetSolutionDependencies8](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies8.cs#getsolutiondependencies8)]
+
+### See also
+
  [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   

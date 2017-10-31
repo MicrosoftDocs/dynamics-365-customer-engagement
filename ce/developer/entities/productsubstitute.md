@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ProductSubstitute Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.
 
 **Added by**: Product Management Solution<br />

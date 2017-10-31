@@ -16,6 +16,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 ---
 # Use the Category entity to categorize Dynamics 365 records
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Categorizing entity records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] helps you tag the records so that you can easily search them. Use the  `Category` entity to create and manage a hierarchical structure of categories in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and then associate entity records to one or more categories.  
   
 > [!NOTE]

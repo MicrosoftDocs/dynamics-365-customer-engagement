@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_orderlinetransactionclassification Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of transaction classification heads, which are four broad cost categories of time, expense, material, and fee, that will be considered as costs when computing the profit of a project contract line.
 
 **Added by**: Project Service Automation Solution<br />

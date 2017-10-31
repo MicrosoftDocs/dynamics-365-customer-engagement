@@ -14,10 +14,13 @@ ms.assetid: 7fefaeb8-5d8a-4b88-9032-a31e78970175
 caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Start a managed code project in Visual Studio
-This topic shows you how to create a new project in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] that’s properly configured to build a console application that uses the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)]. Learn what required references must be added to your project when building an application that links to the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] assemblies.  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+This topic shows you how to create a new project in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] that’s properly configured to build a console application that uses the Organization Service with .NET SDK assemblies. Learn what required references must be added to your project when building an application that links to the .NET SDK assemblies.  
   
 ## Prerequisites  
   

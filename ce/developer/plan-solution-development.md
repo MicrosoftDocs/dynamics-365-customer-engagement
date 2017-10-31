@@ -18,9 +18,12 @@ ms.assetid: d46dda82-a358-40ba-b751-771e8da86d81
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Plan for solution development
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Solutions introduce factors to take into consideration during your planning. The following topics introduce strategies to use while planning your solution development efforts.  
   
 ## In This Section  

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_quotelinetransactionclassification Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of transaction classification heads, the four broad cost classifications of time, expense, material, and fee, that will be considered as costs when computing the profit of a quote line.
 
 **Added by**: Project Service Automation Solution<br />

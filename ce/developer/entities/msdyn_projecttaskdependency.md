@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_projecttaskdependency Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Dependency data between tasks.
 
 **Added by**: Project Service Automation Solution<br />

@@ -14,9 +14,12 @@ ms.assetid: 4676c26b-8f5b-4497-b552-056e74ab2a07
 caps.latest.revision: 49
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Understand dashboards: Dashboard components and FormXML
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. You can use the `SystemForm.Type` or `UserForm.Type` attribute to determine whether the form is a dashboard. A form of dashboard type has the property value of ”0”.  
   
  The definition of the form content and presentation is stored in the FormXML. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Form XML Schema](form-xml-schema.md)  

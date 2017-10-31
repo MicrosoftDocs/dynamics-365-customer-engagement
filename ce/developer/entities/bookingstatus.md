@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BookingStatus Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Allows creation of multiple sub statuses mapped to a booking status option.
 
 **Added by**: Scheduling Solution<br />

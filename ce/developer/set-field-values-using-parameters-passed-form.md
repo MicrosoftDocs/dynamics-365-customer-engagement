@@ -14,16 +14,19 @@ ms.assetid: 62984977-83a2-464a-b8d9-f7f3fa4b7d33
 caps.latest.revision: 43
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Set field values using parameters passed to a form
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The content in this topic can be used for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. You can set default values for new records created by users by specifying attribute values in the URL that is used to open the form. By default, these values are set in the form, but can be changed by users before they save the record.  
   
 <a name="BKMK_PassingParameters"></a>   
 ## Pass parameters to set field record values  
   
 > [!NOTE]
->  You can pass parameter values to the form to set field values using the `Xrm.Utility.`[openEntityForm](clientapi/reference/Xrm-Utility/openEntityForm.md) function. For an example, see [Example: Use Xrm.Utility.openEntityForm to Open a New Window](set-field-values-using-parameters-passed-form.md#BKMK_ExampleXrmUtilityOpentEntityForm).  
+>  You can pass parameter values to the form to set field values using the `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function. For an example, see [Example: Use Xrm.Navigation.openForm to Open a New Window](set-field-values-using-parameters-passed-form.md#BKMK_ExampleXrmNavigationOpentForm).  
   
  When you open a new form by using the URL address, you can include arguments in the `extraqs` parameter to set field values. The following requirements must be met:  
   
@@ -53,7 +56,7 @@ The content in this topic can be used for [!INCLUDE[pn_dynamics_crm_online](../i
   
 <a name="BKMK_SetLookupFieldValues"></a>   
 ## Set values for lookup fields  
- The following table describes five types of lookup fields. For examples using lookup fields, see [Example: Set the Value for Lookup Fields](set-field-values-using-parameters-passed-form.md#BKMK_setValueLookupfields) and [Example: Use Xrm.Utility.openEntityForm to Open a New Window](set-field-values-using-parameters-passed-form.md#BKMK_ExampleXrmUtilityOpentEntityForm).  
+ The following table describes five types of lookup fields. For examples using lookup fields, see [Example: Set the Value for Lookup Fields](set-field-values-using-parameters-passed-form.md#BKMK_setValueLookupfields) and [Example: Use Xrm.Navigation.openForm to Open a New Window](set-field-values-using-parameters-passed-form.md#BKMK_ExampleXrmNavigationOpentForm).  
   
 |Lookup Type|Description|  
 |-----------------|-----------------|  
@@ -108,13 +111,22 @@ The content in this topic can be used for [!INCLUDE[pn_dynamics_crm_online](../i
   
 ```  
 /main.aspx?etn=contact&extraqs=accountrolecode%3D1&pagetype=entityrecord  
+``` 
+
+<a name="BKMK_SampleSEtValueMultiSelectOptionSetFields"></a>   
+## Example: Set the value for multi-select option set fields
+
+To set the value for **multi-select option set** field, Specify integer values for the options in the URL that is used to open the form. For example, to set the options for the **Hobbies** field, the unencoded value for the extraqs parameter will be “hobbies=[1,3,4]”.   
+
 ```  
+/main.aspx?etn=contact&extraqs=hobbies%3D%5B1%2C3%2C4%5D&pagetype=entityrecord   
+``` 
   
 <a name="BKMK_ExampleXrmNavigationOpentForm"></a>   
 ## Example: Use Xrm.Navigation.openForm to open a new window  
  The following sample sets default values on several different fields and shows how to use the `Xrm.Navigation`.[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function. It is equivalent to the previous example that used the `window.open` method.  
   
-```JavaScript  
+```javascript  
 function OpenNewContact() {  
  var parameters = {};  
  //Set the Parent Customer field value to “Contoso”.  

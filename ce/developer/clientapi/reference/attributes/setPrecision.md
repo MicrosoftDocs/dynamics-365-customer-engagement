@@ -1,5 +1,5 @@
 ---
-title: "setPrecision (Client API reference)| MicrosoftDocs"
+title: "setPrecision (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -11,10 +11,25 @@ manager: "amyla"
 ---
 # setPrecision (Client API reference)
 
-TODO: Add description. 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-|Method | Description | 
-| ------------- |-------------| 
-| | |
-| | |
+Sets the number of digits allowed to the right of the decimal point. 
+
+## Attribute types supported
+
+Money, decimal, double, and integer
+
+## Syntax
+
+`formContext.getAttribute(arg).setPrecision(value);`
+
+## Parameter
+
+ Parameter Name| Type| Description  |
+| --------|-----------| -----|
+|value| Number| Number of digits allowed to the right of the decimal point.|
+
+### Related topics
+
+[getPrecision](getPrecision.md)
 

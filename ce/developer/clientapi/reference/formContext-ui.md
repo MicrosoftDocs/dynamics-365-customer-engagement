@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # formContext.ui (Client API reference)
 
+[!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Provides properties and methods to retrieve information about the user interface (UI) as well as collections for several subcomponents of the form.
 
 ![formContext UI object model](../../media/ClientAPI-formContext-ui-Model.png)

@@ -24,9 +24,12 @@ ms.assetid: 1c819f28-9eec-49eb-af22-f4e95f916205
 caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Run data import
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. To run data import, set up asynchronous jobs to run in the background that do the following, in this order:  
   
 -   Parse source data that is contained in the import file.  

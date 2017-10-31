@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getObject (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns the object in the form that represents an IFRAME or web resource. 
 
 ## Control types supported

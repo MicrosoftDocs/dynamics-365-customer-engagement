@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # OrderClose Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Activity generated automatically when an order is closed.
 
 **Added by**: Sales Solution<br />

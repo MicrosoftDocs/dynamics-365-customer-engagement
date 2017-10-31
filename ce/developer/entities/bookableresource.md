@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BookableResource Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Resource that has capacity which can be allocated to work.
 
 **Added by**: Scheduling Solution<br />

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Quote Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
 
 **Added by**: Sales Solution<br />

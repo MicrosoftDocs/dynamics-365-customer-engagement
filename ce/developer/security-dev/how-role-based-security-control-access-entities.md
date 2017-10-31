@@ -14,9 +14,12 @@ ms.assetid: fadb3c51-6fa8-4fd4-992c-d413e4cd9433
 caps.latest.revision: 32
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # How role-based security can be used to control access to entities
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement the fundamental concept in role-based security is that a role contains privileges that define a set of actions that can be performed within the organization. For example, the salesperson role is assigned a set of privileges that are relevant to the performance of the tasks defined for that role. All users must be assigned to one or more predefined or custom roles. In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], roles can also be assigned to teams. When a user or team is assigned to one of these roles, the person or team members are assigned the set of privileges associated with that role. A user must be assigned to at least one role.  
   
  A privilege authorizes the user to perform a specific action on a specific entity type. Privileges apply to an entire class of objects, rather than individual instances of objects. For example, if a user does not have the privilege to read accounts, any attempt by that user to read an account will fail. A privilege contains an access level that determines the levels within the organization to which a privilege applies. Each privilege can have up to four access levels: Basic, Local, Deep, and Global.  
@@ -77,8 +80,10 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engag
 -   A finance officer for the company with the `Deep Read Account` privilege can view account data and run account-related reports for all accounts in his or her business unit and accounts in any child business unit.  
   
 <a name="bkmk_list"></a>   
+
 ## List of predefined security roles  
- The following table lists the predefined set of roles that are included in the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] for Customer Engagement.  
+
+ The following table lists the predefined set of roles that are included.  
   
 |||  
 |-|-|  

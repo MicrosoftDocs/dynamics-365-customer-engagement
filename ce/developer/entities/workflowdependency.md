@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # WorkflowDependency Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Dependencies for a process.
 
 

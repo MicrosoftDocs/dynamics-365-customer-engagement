@@ -14,15 +14,19 @@ ms.assetid: f77b2a20-0a30-4211-a1d9-74923d3eeae1
 caps.latest.revision: 27
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the XRM tooling common login control in your client applications
-The [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] provides you with a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] that enables you to use the common login control in your client applications. The code for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] authentication, credential storage and retrieval, and diagnostic logging is built into the template so that you can quickly leverage these capabilities in your Windows client applications for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The common login control is an implementation of the <xref:Microsoft.Xrm.Tooling.CrmConnectControl>, and the control resembles the following image.  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] that enables you to use the common login control in your client applications. The code for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] authentication, credential storage and retrieval, and diagnostic logging is built into the template so that you can quickly leverage these capabilities in your Windows client applications for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The common login control is an implementation of the <xref:Microsoft.Xrm.Tooling.CrmConnectControl>, and the control resembles the following image.  
   
  ![XRM Tooling common login control](../media/crm-sdk-v6-commonlogincontrol.png "XRM Tooling common login control")  
   
-<a name="Prereq"></a>   
-## Prerequisites  
+<a name="Prereq"></a>
+
+## Prerequisites
   
 - [!INCLUDE[pn_NET_Framework_452_short](../../includes/pn-net-framework-452-short.md)]  
   
@@ -32,14 +36,13 @@ The [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] provides you with a template fo
   
 -   Connected to Internet so that you can download/restore the required Nuget packages while using the project template.  
   
-- [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] templates for [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] that contains the common login control template. You can get it in one of the following ways:  
+- CRM SDK template templates for [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] that contains the common login control template. You can get it by downloading the [Microsoft Dynamics CRM SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) from [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] gallery, and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   
-    -   [Download the CRM SDK template](http://go.microsoft.com/fwlink/p/?LinkId=400925) from [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] gallery, and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   
-    -   [Download](http://go.microsoft.com/fwlink/p/?LinkId=690407) and extract the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] SDK package. The templates file, CRMSDKTemplates.vsix, is located in the SDK\Templates folder. Double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
+<a name="NewProjectUsingTemplate"></a>
+   
+## Create a WPF application using the common login control template
   
-<a name="NewProjectUsingTemplate"></a>   
-## Create a WPF application using the common login control template  
  Here is a quick way to create a [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../../includes/pn-ms-windows-presentation-foundation.md)] application that leverages the common login control and the underlying code for authentication, credential storage and reuse, and default tracing or logging.  
   
 1.  Start [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)], and create a new project.  
@@ -64,8 +67,10 @@ The [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] provides you with a template fo
   
  For a sample that uses the common login control template to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and perform various operations, see [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md).  
   
-<a name="Add"></a>   
-## Add the common login control template to your existing WPF application  
+<a name="Add"></a>
+
+## Add the common login control template to your existing WPF application
+
  If you already have a WPF client application, you can easily add the common login control template to it to leverage the uniform sign-in experience and the underlying code for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] authentication, credential storage and reuse, and default tracing or logging. In this case, you must create a control in the user interface of your existing client application to call the common login control, instantiate an instance of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connection object, and then use the connection object to perform various operations in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 1.  Open an existing WPF application project in [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. For this example, let’s assume that the name of your WPF application project is SampleWPFApp.  
@@ -90,7 +95,7 @@ The [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] provides you with a template fo
   
 6.  Add the following sample code in the click event of the **btnSignIn** button to call the CrmLoginForm1 control, and create an instance of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connection object.  
   
-    ```  
+    ```csharp
     // Establish the Login control.  
     CRMLoginForm1 ctrl = new CRMLoginForm1();  
   
@@ -117,7 +122,7 @@ The [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] provides you with a template fo
   
 7.  Add the definition of the `ctrl_ConnectionToCrmCompleted` event below the click event of the button:  
   
-    ```  
+    ```csharp  
     private void ctrl_ConnectionToCrmCompleted(object sender, EventArgs e)  
     {  
         if (sender is CRMLoginForm1)  

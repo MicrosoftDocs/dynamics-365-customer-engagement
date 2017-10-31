@@ -13,9 +13,11 @@ applies_to:
 ms.assetid: feb3e634-7c60-46fd-8b92-3f5682b1570b
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Download tools from NuGet 
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can download tools used in development from NuGet using the  powershell script found below. These tools include:
 

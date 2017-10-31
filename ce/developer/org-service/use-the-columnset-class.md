@@ -21,9 +21,12 @@ ms.assetid: b74367ff-cd14-4305-9601-7c00acb80a0d
 caps.latest.revision: 21
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the ColumnSet class
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can use the <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> class to specify what attributes to return from a query expression. The query returns only non-null values.  
   
  You can also use the <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> class to reduce the size of a query result by defining only those attributes to be returned.  To improve server performance, it is recommended that you don’t execute a query that returns all columns.  

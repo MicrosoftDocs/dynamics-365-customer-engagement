@@ -14,9 +14,12 @@ ms.assetid: aa037f4a-b5ae-485c-aac9-8a138a57c576
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Plug-in development
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.  
   
  For more information about plug-in run-time execution, see [Event Execution Pipeline](event-execution-pipeline.md).  

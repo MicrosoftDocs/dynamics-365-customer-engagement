@@ -14,9 +14,12 @@ ms.assetid: 24de68ca-354b-48a2-b514-62c0d01ac3bb
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Introduction to entity attributes
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Entities include a set of attributes that represent the data that can be included within each record. Developers need to understand the different types of attributes and how to work with them. The metadata for attributes describes the valid operations and behaviors of different types of attributes. Several types of attributes can be grouped by common behaviors.  
   
  The specific experience developers will have depends on their style of development. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity programming (early bound vs. late bound vs. developer extensions)](choose-development-style.md).  

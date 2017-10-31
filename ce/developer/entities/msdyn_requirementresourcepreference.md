@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_requirementresourcepreference Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Requirement Resource Preference
 
 **Added by**: Unified Resource Scheduling Solution<br />

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_transactioncategoryclassification Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity used to associate a category broadly as time, expense or material.
 
 **Added by**: Project Service Automation Solution<br />

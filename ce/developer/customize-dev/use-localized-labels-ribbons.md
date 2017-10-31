@@ -16,9 +16,12 @@ ms.assetid: 8f5c65a8-3134-46a9-aee5-8d876e045f1e
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use localized labels with ribbons
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Although Ribbon elements that display text allow for direct entry of text, it is a best practice to use localized labels to define text displayed in the ribbon. This enables multi-language capabilities and better management of shared text.  
   
 ## Using localized labels  

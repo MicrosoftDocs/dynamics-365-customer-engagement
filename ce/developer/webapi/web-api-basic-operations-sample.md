@@ -12,9 +12,14 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: f006f88c-74cb-4fde-90e5-e1faf2051673
 caps.latest.revision: 25
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
+manager: "amyla"
 ---
 # Web API Basic Operations Sample
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, Update, and Delete) and associative operations using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
   
 -   [Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)  
@@ -23,8 +28,10 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
  This topic describes a common set of operations implemented by each sample in this group. This topic describes the HTTP requests and responses and text output that each sample in this group will perform without the language specific details. See the language specific descriptions and the individual samples for details about how these operations are performed.  
   
-<a name="bkmk_demonstrates"></a>   
+<a name="bkmk_demonstrates"></a>  
+ 
 ## Demonstrates  
+
  This sample is divided into the following sections, containing [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web API operations which are discussed in greater detail in the specified associated conceptual topics.  
   
 |Code section|Associated conceptual topics|  
@@ -38,16 +45,17 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
 > [!NOTE]
 >  For brevity, less pertinent HTTP headers have been omitted. The URLs of the records will vary with the base organization address and the ID of the record assigned by your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server.  
   
-<a name="bkmk_section1"></a>   
-## Section 1: Basic create and update operations  
+<a name="bkmk_section1"></a>
+   
+## Section 1: Basic create and update operations 
+ 
  This section creates a single contact then performs a series of updates upon that instance. Note that the response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.  
   
 1.  Create a new contact, named  Peter Cambel.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http
     POST http://[Organization URI]/api/data/v9.0/contacts HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -56,17 +64,14 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
       "firstname": "Peter",  
       "lastname": "Cambel"  
     }  
-  
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http  
     HTTP/1.1 204 No Content  
     OData-Version: 4.0  
     OData-EntityId: http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03)  
-  
     ```  
   
  **Console output**  
@@ -79,10 +84,9 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 2.  Update the contact with values for annual income ($80,000)  and job title (Junior Developer).  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http  
     PATCH http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03) HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -91,15 +95,12 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
       "annualincome": 80000,  
       "jobtitle": "Junior Developer"  
     }  
-  
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http  
     HTTP/1.1 204 No Content  
-  
     ```  
   
  **Console output**  
@@ -120,21 +121,18 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
     -   A `_transactioncurrencyid_value` that indicates the local currency of the monetary  transaction.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http  
     GET http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03)?$select=fullname,annualincome,jobtitle,description HTTP/1.1  
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
-  
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0  
@@ -148,18 +146,15 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
        "_transactioncurrencyid_value":"0d4ed62e-95f7-e511-80d1-00155da84c03",  
        "contactid":"60f77a42-5f0e-e611-80e0-00155da84c03"  
     }  
-  
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```http    
     Contact 'Peter Cambel' retrieved:  
             Income: 80000  
             Job title: Junior Developer  
-            Description: .  
-  
+            Description: .    
     ```  
   
     > [!IMPORTANT]
@@ -167,10 +162,9 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 4.  Update the contact entity instance by supplying new values to these same properties.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http
     PATCH http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03) HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -179,27 +173,22 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
       "jobtitle": "Senior Developer",  
       "annualincome": 95000,  
       "description": "Assignment to-be-determined"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
-    HTTP/1.1 204 No Content  
-  
+    ```http    
+    HTTP/1.1 204 No Content    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```http    
     Contact 'Peter Cambel' updated:  
             Job title: Senior Developer  
             Annual income: 95000  
-            Description: Assignment to-be-determined  
-  
+            Description: Assignment to-be-determined    
     ```  
   
     > [!IMPORTANT]
@@ -207,10 +196,9 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 5.  Explicitly set a single property, the primary phone number. Note this is a `PUT` request and that the JSON key named `value` is used when performing operations on individual properties.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http  
     PUT http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03)/telephone1 HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -218,15 +206,12 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
     {  
       "value": "555-0105"  
     }  
-  
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http  
     HTTP/1.1 204 No Content  
-  
     ```  
   
  **Console output**  
@@ -237,29 +222,25 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 6.  Retrieve that same single property, the primary phone number. Again note the use of the key named `value`.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http  
     GET http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03)/telephone1 HTTP/1.1  
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
-  
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0  
     {   
        "@odata.context":"http://[Organization URI]/api/data/v9.0/$metadata#contacts(60f77a42-5f0e-e611-80e0-00155da84c03)/telephone1",  
        "value":"555-0105"  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
@@ -270,10 +251,9 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 7.  Create a similar contact but also return instance information in the same operation. This latter capability is enabled by the `Prefer: return=representation` header. This capability was introduced with the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)] and requires version 8.2 or higher.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     POST http://[Organization URI]/api/data/v9.0/contacts?$select=fullname,annualincome,jobtitle,contactid HTTP/1.1  
     OData-Version: 4.0  
     Content-Type: application/json; charset=utf-8  
@@ -284,28 +264,24 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
       "jobtitle": "Junior Developer",  
       "annualincome": 80000,  
       "telephone1": "555-0110"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 201 Created  
     Content-Type: application/json; odata.metadata=minimal  
     Preference-Applied: return=representation  
     OData-Version: 4.0  
     {  
       "@odata.context":"http://[Organization URI]/api/data/v9.0/$metadata#contacts/$entity","@odata.etag":"W/\"758870\"","_transactioncurrencyid_value":"0d4ed62e-95f7-e511-80d1-00155da84c03","annualincome":80000.0000,"contactid":"199250b7-6cbe-e611-80f7-00155da84c08","jobtitle":"Junior Developer","fullname":"Peter_Alt Cambel"  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```    
     Contact 'Peter_Alt Cambel' created:  
             Annual income: 80000  
             Job title: Junior Developer  
@@ -314,10 +290,9 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 8.  Update this similar contact and also return instance information in the same operation. Again, this capability is enabled by the `Prefer: return=representation` header. This capability was introduced with the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)] and requires version 8.2 or higher.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     POST http://[Organization URI]/api/data/v9.0/contacts?$select=fullname,annualincome,jobtitle,contactid HTTP/1.1  
     OData-Version: 4.0  
     Content-Type: application/json; charset=utf-8  
@@ -328,44 +303,40 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
       "jobtitle": "Junior Developer",  
       "annualincome": 80000,  
       "telephone1": "555-0110"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 201 Created  
     Content-Type: application/json; odata.metadata=minimal  
     Preference-Applied: return=representation  
     OData-Version: 4.0  
     {  
       "@odata.context":"http://[Organization URI]/api/data/v9.0/$metadata#contacts/$entity","@odata.etag":"W/\"758870\"","_transactioncurrencyid_value":"0d4ed62e-95f7-e511-80d1-00155da84c03","annualincome":80000.0000,"contactid":"199250b7-6cbe-e611-80f7-00155da84c08","jobtitle":"Junior Developer","fullname":"Peter_Alt Cambel"  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```    
     Contact 'Peter_Alt Cambel' updated:  
             Annual income: 95000  
-            Job title: Senior Developer  
-  
+            Job title: Senior Developer   
     ```  
   
-<a name="bkmk_section2"></a>   
-## Section 2: Create with association  
+<a name="bkmk_section2"></a>  
+ 
+## Section 2: Create with association 
+ 
  This section creates a new account instance named `Contoso, Ltd.` and associates it to an existing contact, `Peter Cambel`, which was created in [Section 1](#bkmk_section1).  This creation and association is performed in a single POST operation.  
   
 1.  Create the Contoso, Ltd. account and set its primary contact attribute to the existing contact Peter Cambel.  The `@odata.bind` annotation indicates that an association is being created, here binding the `primarycontactid` single-valued navigation property to an existing contact, Peter Cambel.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http  
     POST http://[Organization URI]/api/data/v9.0/accounts HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -374,18 +345,15 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
       "name": "Contoso Inc",  
       "telephone1": "555-5555",  
       "primarycontactid@odata.bind": "http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03)"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 204 No Content  
     OData-Version: 4.0  
-    OData-EntityId: http://[Organization URI]/api/data/v9.0/accounts(65f77a42-5f0e-e611-80e0-00155da84c03)  
-  
+    OData-EntityId: http://[Organization URI]/api/data/v9.0/accounts(65f77a42-5f0e-e611-80e0-00155da84c03)    
     ```  
   
  **Console output**  
@@ -396,20 +364,17 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 2.  Retrieve the primary contact for the account Contoso, Ltd., again using `$expand`  with the  `primarycontactid` single-valued navigation property to access the associated <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" /> record.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     GET http://[Organization URI]/api/data/v9.0/accounts(65f77a42-5f0e-e611-80e0-00155da84c03)?$select=name,&$expand=primarycontactid($select=fullname,jobtitle,annualincome) HTTP/1.1  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0   
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0  
@@ -426,32 +391,30 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
           "_transactioncurrencyid_value":"0d4ed62e-95f7-e511-80d1-00155da84c03",  
           "contactid":"60f77a42-5f0e-e611-80e0-00155da84c03"  
        }  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```    
     Account 'Contoso Inc' has primary contact 'Peter Cambel':  
          Job title: Senior Developer  
-         Income: 95000  
-  
+         Income: 95000    
     ```  
   
-<a name="bkmk_section3"></a>   
+<a name="bkmk_section3"></a>  
+ 
 ## Section 3: Create related entities (deep insert)  
+
  This section demonstrates how to create an entity instance and related entity instances, in a single POST request. Using this method, all instances are newly created; there are no existing instances to associate with. This approach has two advantages. It is more efficient, replacing multiple simpler creation and association operations with one combined operation. Also, it is [atomic](https://msdn.microsoft.com/library/aa719484\(v=vs.71\).aspx), where either the entire operation succeeds and all the related objects are created, or the operation fails and none are created.  
   
  This section creates an account, its primary contact, and a set of tasks for that contact in one request.  
   
 1.  Create the account `Fourth Coffee` and its primary contact `Susie Curtis` and her three related tasks in one operation.  Note the use of the single-valued `primarycontactid` navigation property and the collection-valued navigation property `Contact_Tasks` to define these relationships, respectively.  Single-valued navigational properties take an object value, whereas collection-valued navigation properties take an array value.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     POST http://[Organization URI]/api/data/v9.0/accounts HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -481,18 +444,15 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
           }  
         ]  
       }  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 204 No Content  
     OData-Version: 4.0  
-    OData-EntityId: http://[Organization URI]/api/data/v9.0/accounts(6af77a42-5f0e-e611-80e0-00155da84c03)  
-  
+    OData-EntityId: http://[Organization URI]/api/data/v9.0/accounts(6af77a42-5f0e-e611-80e0-00155da84c03)    
     ```  
   
  **Console output**  
@@ -503,21 +463,18 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 2.  Selectively retrieve the newly created Fourth Coffee account and its primary contact.  An expansion is performed on the single-valued navigation property `primarycontactid`.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     GET http://[Organization URI]/api/data/v9.0/accounts(6af77a42-5f0e-e611-80e0-00155da84c03)?$select=name,&$expand=primarycontactid($select=fullname,jobtitle,annualincome) HTTP/1.1  
     Accept: application/json  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0   
@@ -534,37 +491,31 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
           "_transactioncurrencyid_value":"0d4ed62e-95f7-e511-80d1-00155da84c03",  
           "contactid":"6bf77a42-5f0e-e611-80e0-00155da84c03"  
        }  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```    
     Account 'Fourth Coffee' has primary contact 'Susie Curtis':  
             Job title: Coffee Master  
-            Income: 48000  
-  
+            Income: 48000    
     ```  
   
 3.  Selectively retrieve the tasks associated with the primary contact retrieved in the previous operation.  An expansion is performed on the collection-valued navigation property `Contact_Tasks`.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     GET http://[Organization URI]/api/data/v9.0/contacts(6bf77a42-5f0e-e611-80e0-00155da84c03)?$select=fullname,&$expand=Contact_Tasks($select=subject,description,scheduledstart,scheduledend) HTTP/1.1  
     Accept: application/json  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0   
@@ -599,14 +550,12 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
              "activityid":"6ef77a42-5f0e-e611-80e0-00155da84c03"  
           }  
        ]  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```    
     Contact 'Susie Curtis' has the following assigned tasks:  
     Subject: Sign invoice,  
             Description: Invoice #12321  
@@ -621,36 +570,33 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
     Subject: Conduct training  
             Description: Train team on making our new blended coffee,  
             Start: 6/1/2016  
-            End: 6/1/2016  
-  
+            End: 6/1/2016    
     ```  
   
-<a name="bkmk_section4"></a>   
+<a name="bkmk_section4"></a>
+   
 ## Section 4: Associate and disassociate existing entities  
+
  This section demonstrates how to associate and disassociate existing entity instances. Forming an association requires the use of a reference URI and relationship object, which are then sent in a POST request. Disassociating requires sending a DELETE request to the reference URI for that association.  First a one-to-many association is formed between a contact and an account.  Then a many-to-many association is formed between a competitor and one or more opportunities.  
   
 1.  Add Peter Cambel as a contact to the account Fourth Coffee using the `contact_customer_accounts` collection-valued navigation property. Note the use of the special key `@odata.id` to specify the associated record.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     POST http://[Organization URI]/api/data/v9.0/accounts(6af77a42-5f0e-e611-80e0-00155da84c03)/contact_customer_accounts/$ref HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
     {  
       "@odata.id": "http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03)"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
-    HTTP/1.1 204 No Content  
-  
+    ```http    
+    HTTP/1.1 204 No Content    
     ```  
   
  **Console output**  
@@ -661,21 +607,18 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 2.  Confirm the previous operation by retrieving the collection of contacts for the account Fourth Coffee. The response contains the array with a single element, the recently assigned contact Peter Cambel.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     GET http://[Organization URI]/api/data/v9.0/accounts(6af77a42-5f0e-e611-80e0-00155da84c03)/contact_customer_accounts?$select=fullname,jobtitle HTTP/1.1  
     Accept: application/json  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0   
@@ -685,38 +628,31 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
           "@odata.etag":"W/\"632481\"","fullname":"Peter Cambel","jobtitle":"Senior Developer","contactid":"00b6e0e2-b010-e611-80e1-00155da84c03"  
         }  
       ]  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```    
     Contact list for account 'Fourth Coffee':  
-            Name: Peter Cambel, Job title: Senior Developer  
-  
+            Name: Peter Cambel, Job title: Senior Developer    
     ```  
   
 3.  Remove the association that was just created between account Fourth Coffee and contact Peter Cambel.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     DELETE http://[Organization URI]/api/data/v9.0/accounts(6af77a42-5f0e-e611-80e0-00155da84c03)/contact_customer_accounts/$ref?$id=http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03) HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
-    HTTP/1.1 204 No Content  
-  
+    ```http    
+    HTTP/1.1 204 No Content    
     ```  
   
  **Console output**  
@@ -727,10 +663,9 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 4.  Create a competitor named `Adventure Works`.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     POST http://[Organization URI]/api/data/v9.0/competitors HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -738,18 +673,15 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
     {  
       "name": "Adventure Works",  
       "strengths": "Strong promoter of private tours for multi-day outdoor adventures"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 204 No Content  
     OData-Version: 4.0  
-    OData-EntityId: http://[Organization URI]/api/data/v9.0/accounts(77f77a42-5f0e-e611-80e0-00155da84c03)  
-  
+    OData-EntityId: http://[Organization URI]/api/data/v9.0/accounts(77f77a42-5f0e-e611-80e0-00155da84c03)    
     ```  
   
  **Console output**  
@@ -760,10 +692,9 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 5.  Create an opportunity named `River rafting adventure`.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     POST http://[Organization URI]/api/data/v9.0/opportunities HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
@@ -771,18 +702,15 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
     {  
       "name": "River rafting adventure",  
       "description": "Sales team on a river-rafting offsite and team building"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 204 No Content  
     OData-Version: 4.0  
-    OData-EntityId: http://[Organization URI]/api/data/v9.0/opportunities(7cf77a42-5f0e-e611-80e0-00155da84c03)  
-  
+    OData-EntityId: http://[Organization URI]/api/data/v9.0/opportunities(7cf77a42-5f0e-e611-80e0-00155da84c03)    
     ```  
   
  **Console output**  
@@ -793,26 +721,22 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 6.  Associate this new opportunity to this new competitor. Note that the same general syntax is used in this many-to-many association as was used in the previous one-to-many association.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     POST http://[Organization URI]/api/data/v9.0/opportunities(7cf77a42-5f0e-e611-80e0-00155da84c03)/opportunitycompetitors_association/$ref HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
     {  
       "@odata.id": "http://[Organization URI]/api/data/v9.0/competitors(77f77a42-5f0e-e611-80e0-00155da84c03)"  
-    }  
-  
+    }    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
-    HTTP/1.1 204 No Content  
-  
+    ```http    
+    HTTP/1.1 204 No Content    
     ```  
   
  **Console output**  
@@ -823,21 +747,18 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 7.  Selectively retrieve all the opportunities associated with the competitor Adventure Works.  An array is returned containing a single opportunity.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     GET http://[Organization URI]/api/data/v9.0/competitors(77f77a42-5f0e-e611-80e0-00155da84c03)?$select=name,&$expand=opportunitycompetitors_association($select=name,description) HTTP/1.1  
     Accept: application/json  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
+    ```http    
     HTTP/1.1 200 OK  
     {   
        "@odata.context":"http://[Organization URI]/api/data/v9.0/$metadata#competitors(name,opportunitycompetitors_association,opportunitycompetitors_association(name,description))/$entity",  
@@ -852,39 +773,32 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
              "opportunityid":"7cf77a42-5f0e-e611-80e0-00155da84c03"  
           }  
        ]  
-    }  
-  
+    }    
     ```  
   
  **Console output**  
   
-    ```  
-  
+    ```    
     Competitor 'Adventure Works' has the following opportunities:  
             Name: River rafting adventure,  
-            Description: Sales team on a river-rafting offsite and team building  
-  
+            Description: Sales team on a river-rafting offsite and team building    
     ```  
   
 8.  Dissociate the opportunity from the competitor.  Note again, that this has the same general syntax used to remove a one-to-many association.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     DELETE http://[Organization URI]/api/data/v9.0/opportunities(7cf77a42-5f0e-e611-80e0-00155da84c03)/opportunitycompetitors_association/$ref?$id=http://[Token-CRM-Org-Name]/Contoso/api/data/v8.1/competitors(77f77a42-5f0e-e611-80e0-00155da84c03) HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
-    HTTP/1.1 204 No Content  
-  
+    ```http    
+    HTTP/1.1 204 No Content    
     ```  
   
  **Console output**  
@@ -893,37 +807,34 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
     Opportunity 'River rafting adventure' disassociated from competitor 'Adventure Works'.  
     ```  
   
-<a name="bkmk_section5"></a>   
-## Section 5: Delete entities (sample cleanup)  
- This section demonstrates how to delete entity instances. The corresponding message is a straightforward DELETE request that uses the URI of the entity instance to be deleted.  If the target entity has a parent-child relationship with other entities, then deleting the parent will, by default, automatically cascade delete child instances. For example, in this sample, tasks have contact as their parent. For more information, see [Entity relationship behavior](entity-relationship-behavior.md).  
+<a name="bkmk_section5"></a> 
+  
+## Section 5: Delete entities (sample cleanup) 
+ 
+ This section demonstrates how to delete entity instances. The corresponding message is a straightforward DELETE request that uses the URI of the entity instance to be deleted.  If the target entity has a parent-child relationship with other entities, then deleting the parent will, by default, automatically cascade delete child instances. For example, in this sample, tasks have contact as their parent. For more information, see [Entity relationship behavior](../entity-relationship-behavior.md).  
   
 1.  Each element of the collection of entity URLs is deleted.  The first is a contact record for Peter Cambel.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http
     DELETE http://[Organization URI]/api/data/v9.0/contacts(60f77a42-5f0e-e611-80e0-00155da84c03) HTTP/1.1  
     Content-Type: application/json  
     OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-  
+    OData-Version: 4.0    
     ```  
   
- **HTTP Response**  
+ **Response**  
   
-    ```  
-  
-    HTTP/1.1 204 No Content  
-  
+    ```http    
+    HTTP/1.1 204 No Content    
     ```  
   
 2.  Subsequent iterations through the collection delete the remaining records.  
   
- **HTTP Request**  
+ **Request** 
   
-    ```  
-  
+    ```http    
     DELETE http://[Organization URI]/api/data/v9.0/accounts(65f77a42-5f0e-e611-80e0-00155da84c03) HTTP/1.1  
     . . .  
   
@@ -937,11 +848,11 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
     . . .  
   
     DELETE http://[Organization URI]/api/data/v9.0/opportunities(7cf77a42-5f0e-e611-80e0-00155da84c03) HTTP/1.1  
-    . . .  
-  
+    . . .    
     ```  
   
 ### See also  
+
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Create an entity using the Web API](create-entity-web-api.md)   
  [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md)   

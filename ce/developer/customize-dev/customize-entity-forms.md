@@ -14,9 +14,12 @@ ms.assetid: dfffa0b9-2884-48e6-9181-c3300e358c04
 caps.latest.revision: 56
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customize entity forms
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Forms provide the user interface (UI) that people use to create, view, or edit entity records. Use the form designer in the customization tools to create and edit entity forms. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and design forms](../../customize/create-design-forms.md) for information about tasks related to working with forms in the application.  
   
  This topic will provide information necessary to create or edit forms programmatically.  

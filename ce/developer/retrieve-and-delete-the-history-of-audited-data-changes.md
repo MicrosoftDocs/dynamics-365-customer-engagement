@@ -23,9 +23,12 @@ ms.assetid: 53b9a1ac-f9c0-490f-a42f-2efc231b67ff
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Retrieve and delete the history of audited data changes
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 After auditing is enabled and data changes are made to those entities and attributes being audited, you can proceed to obtain the data change history. Optionally, you can delete the audit records after you review the change history. Follow the sample code link at the end of this topic for more information.  
   
 ## Retrieve the change history  

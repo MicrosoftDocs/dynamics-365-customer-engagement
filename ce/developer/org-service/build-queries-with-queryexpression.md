@@ -28,9 +28,12 @@ ms.assetid: 44d32c72-284a-43d3-96f5-d9b0a0486949
 caps.latest.revision: 48
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Build queries with QueryExpression
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can use the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> class to programmatically build a query containing data filters and search conditions that define the scope of a database search. A query expression is used for single-object searches. For example, you can create a search to return all accounts that match certain search criteria. The <xref:Microsoft.Xrm.Sdk.Query.QueryBase> class is the base class for query expressions. There are two derived classes: <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> and <xref:Microsoft.Xrm.Sdk.Query.QueryByAttribute>. The `QueryExpression` class supports complex queries. The `QueryByAttribute` class is a simple means to search for entities where attributes match specified values.  
   
  Query expressions are used in methods that retrieve more than one record, such as the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method, in messages that perform an operation on a result set specified by a query expression, such as <xref:Microsoft.Crm.Sdk.Messages.BulkDeleteRequest> and when the ID for a specific record is not known.  

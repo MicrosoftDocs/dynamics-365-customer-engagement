@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # CustomerRelationship Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Relationship between a customer and a partner in which either can be an account or contact.
 
 

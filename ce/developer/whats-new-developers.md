@@ -15,12 +15,15 @@ ms.assetid: c0f1a55e-9262-404c-bfb0-78b250e577aa
 caps.latest.revision: 357
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 tags: 
  - "aug2017" 
  - "MigrationHO"
 ---
 # What&#39;s new for developers
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Information about the new features and capabilities for [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] Customer Engagement is available here: [What's new for developers in Dynamics 365 Customer Engagement](https://go.microsoft.com/fwlink/?linkid=853945)
 <!--TODO: FIx the above.-->
  More information about developer content availability across MSDN and docs.ms.com in the current release: 

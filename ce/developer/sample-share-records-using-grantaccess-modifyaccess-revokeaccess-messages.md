@@ -21,6 +21,9 @@ topic-status: Drafting
 ---
 
 # Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages (early bound)](https://code.msdn.microsoft.com/Sample-Share-records-using-43519ef1).
 
 ## Prerequisites

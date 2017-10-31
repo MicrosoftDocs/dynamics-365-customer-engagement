@@ -14,9 +14,12 @@ ms.assetid: 6116dde0-c6f5-4858-a4f9-93ccf495d39a
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Introduction to the event framework
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement you have the ability to extend or customize the functionality of the server through the integration of custom business logic (code). You can customize the product to support the way your company does business, and you can add new features to the product. The technology that enables your custom code to be developed and integrated into the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server is called the *event framework*.  
   
  The event framework enables you to create rich vertical and horizontal solutions on top of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] by supporting the development and integration of custom business logic with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] in a reliable and portable way. After your custom business logic has been integrated into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], it can be executed synchronously as part of the main [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] execution path, or asynchronously from a managed queue. Business data can be passed to your custom code, which can then perform actions based on the nature of the information, or modify the information itself.  

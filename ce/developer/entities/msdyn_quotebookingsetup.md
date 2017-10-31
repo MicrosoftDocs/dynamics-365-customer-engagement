@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_quotebookingsetup Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify the maintenance bookings for the agreement.
 
 **Added by**: Field Service Solution<br />

@@ -13,9 +13,11 @@ ms.assetid: 72fd6888-2e5d-47a2-a1d3-f391e4d9f086
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Create and retrieve Outlook filters
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
 > Dynamics 365 for Outlook (Outlook client) is deprecated with the [!INCLUDE[pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] release and will be removed in a future major release. Dynamics 365 App for Outlook, introduced with Dynamics CRM 2016 (version 8.0), is our most up-to-date offering for pairing Dynamics 365 with Microsoft Outlook.

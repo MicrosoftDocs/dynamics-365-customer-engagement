@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # KnowledgeBaseRecord Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.
 
 

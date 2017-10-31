@@ -14,9 +14,12 @@ ms.assetid: 24a41d45-e8dc-47f0-8faf-65cb01ab7f3c
 caps.latest.revision: 48
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Dynamics 365 (online) Integration with Office 365
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement through the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. Through integration of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] customers that are subscribed to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] have single sign-on access, through identity federation, to any [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] supported application, such as [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)]. Similarly, when provisioned, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] customers have access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. In addition, by federating [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain accounts in [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] cloud services, businesses can manage a single set of user identities in both their [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  This topic provides information about where users’ identities are created and managed, and how they relate to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  

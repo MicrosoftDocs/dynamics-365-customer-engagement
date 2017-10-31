@@ -24,9 +24,12 @@ ms.assetid: ed077e11-8af6-4f9b-a1f3-4feefeae1f4e
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Service entity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A service is work that is performed for a customer. The definition typically includes service attributes such as name, duration, granularity, calendar restrictions, and resource requirements. A `Service` entity represents a service made available to a customer, with attributes that include the standard duration of the service, when the service can be offered, and required resources, which is described by the `ResourceSpec` class.  
   
  For example, a dental cleaning service definition may include resource requirements for a hygienist, a dental cleaning chair, a patient, and a duration limit of 90 minutes. The definition may also include additional parameterized constraints that are evaluated during availability search. In this service definition, a constraint may be defined that the "patient" resource must have a valid insurance provider identification number. This constraint example uses a custom attribute added to the resource for the insurance provider identification number.  

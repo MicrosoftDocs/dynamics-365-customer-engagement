@@ -22,9 +22,12 @@ ms.assetid: b8dcd1b3-6750-429e-ac7a-c0213c77e136
 caps.latest.revision: 15
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # ListMember intersect entity metadata
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The `ListMember` intersect entity is the intersect table for the following many-to-many relationships for the `List` entity.  
   
 |Relationship schema name|Entity 1|Entity 2|  

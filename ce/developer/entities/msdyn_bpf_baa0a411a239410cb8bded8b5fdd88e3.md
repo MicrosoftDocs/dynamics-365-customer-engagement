@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Base entity for process Agreement Business Process
 
 **Added by**: Field Service Solution<br />

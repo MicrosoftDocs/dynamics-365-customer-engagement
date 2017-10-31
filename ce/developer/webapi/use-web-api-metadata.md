@@ -14,9 +14,12 @@ ms.assetid: a0edc029-c6db-48ac-9538-b0270fe94440
 caps.latest.revision: 10
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the Web API with metadata
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can perform any of the metadata operations with the Web API that you can perform using the organization service. This section provides guidance about how to use the Web API with the entity types included in <xref:Microsoft.Dynamics.CRM.MetadataEntityTypeIndex>.  
   
  There are four entity set paths exposed to perform operations with metadata entities as described in the following table.  

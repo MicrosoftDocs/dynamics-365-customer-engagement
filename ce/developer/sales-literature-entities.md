@@ -31,9 +31,12 @@ ms.assetid: ef65e4bf-d29c-48f6-9325-eccf8e6bba8f
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sales literature entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *sales literature* item is the basic unit of the marketing encyclopedia in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For example, a business unit might decide to create an article about a specific product. The article can contain multiple sales literature items (sales attachments) such as a brochure, detailed specifications, and a CAD file, together with appropriate search terms, for example, "bolt" or "stainless steel." Any PC-compatible file format can be uploaded and attached to an article in the marketing encyclopedia. Specific search terms can be specified for each item.  
   
  You can use the sales literature management entities to create a central repository for your organization’s sales information (in the form of  sales literature items (sales attachments)) that provides an easy way to distribute information to users, both online and offline. Sales literature can be organized into categories and types to provide easier management and searching. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] also supports a subject manager and knowledge base.  

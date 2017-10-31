@@ -14,11 +14,13 @@ ms.assetid: 87099d51-4abe-406c-8f2d-e2375292bb64
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Developer tools
 
-This section in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] provides a single location for you to learn about the developer tools provided for use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement.
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+This section provides a single location for you to learn about the developer tools provided for use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement.
 
 ## In This Section
 

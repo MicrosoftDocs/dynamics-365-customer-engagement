@@ -13,9 +13,11 @@ applies_to:
 ms.assetid: bc1ae819-61c1-4a44-8f38-a6240975b111
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create and update an entity to send email activities to records
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You can create an entity that contains an email address you can use to send email activities to records for that entity.  
   
@@ -24,8 +26,6 @@ You can create an entity that contains an email address you can use to send emai
  Even if you add other <xref:Microsoft.Xrm.Sdk.Metadata.StringAttributeMetadata> attributes formatted as an email address, only the first one specified is used.  
   
  [!code-csharp[Entities#CreateUpdateEmailableEntity1](../../snippets/csharp/CRMV8/entities/cs/createupdateemailableentity1.cs#createupdateemailableentity1)]  
-  
- [!code-vb[EntitiesVB#CreateUpdateEmailableEntity1](../../snippets/visualbasic/CRMV8/entitiesvb/vb/createupdateemailableentity1.vb#createupdateemailableentity1)]  
   
 ### See Also
 

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_workorderservicetask Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Store service tasks that are to be performed for this work order
 
 **Added by**: Field Service Solution<br />

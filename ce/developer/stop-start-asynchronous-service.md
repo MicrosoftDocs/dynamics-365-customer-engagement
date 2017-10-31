@@ -14,10 +14,15 @@ ms.assetid: f3492a19-2a93-4477-853f-ee6bd3ea750d
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Stop and start the asynchronous service
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement on-premises (including IFD) deployments, the asynchronous service can be stopped and restarted by using the Services administrative tool. The service should be stopped before a plug-in assembly that contains asynchronous plug-ins is deleted.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
+
+For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement on-premises (including IFD) deployments, the asynchronous service can be stopped and restarted by using the Services administrative tool. The service should be stopped before a plug-in assembly that contains asynchronous plug-ins is deleted.  
   
 ### Stop and restart the service  
   

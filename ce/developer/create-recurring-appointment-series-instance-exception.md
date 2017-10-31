@@ -27,9 +27,12 @@ ms.assetid: bb2eadf8-058e-43c2-9fda-c56ac501bc1c
 caps.latest.revision: 29
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create a recurring appointment series, instance, or exception
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you create a recurring appointment master (series), [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] creates individual appointment instances based on the specified recurrence information. You can also create individual recurring appointment instances and exceptions to those instances, and you can convert an appointment to a recurring appointment.  
   
 <a name="bkmk_createseries"></a>   

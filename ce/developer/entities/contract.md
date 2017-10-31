@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Contract Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Agreement to provide customer service during a specified amount of time or number of cases.
 
 **Added by**: Service Solution<br />

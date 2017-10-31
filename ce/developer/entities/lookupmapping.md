@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # LookUpMapping Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In a data map, maps a lookup attribute in a source file to Microsoft Dynamics 365.
 
 

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # OpportunitySalesProcess Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Base entity for process Opportunity Sales Process
 
 **Added by**: Sales Solution<br />

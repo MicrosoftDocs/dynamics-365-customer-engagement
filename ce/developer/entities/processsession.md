@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ProcessSession Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information that is generated when a dialog is run. Every time that you run a dialog, a dialog session is created.
 
 

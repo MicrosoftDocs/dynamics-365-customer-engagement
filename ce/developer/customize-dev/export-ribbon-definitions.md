@@ -16,9 +16,12 @@ ms.assetid: f3992ccf-72c5-4347-a7db-a6796f8a4df0
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Export ribbon definitions
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 To effectively define changes to the default RibbonXml, you must be able to reference the RibbonXml data that defines those ribbons.  
   
 <a name="BKMK_AccessRibbonDefinitionsForYourOrganization"></a>   
@@ -45,15 +48,13 @@ To effectively define changes to the default RibbonXml, you must be able to refe
  The ribbon data is exported as a compressed file. To decompress the file into XML you have to use the [System.IO.Packaging.ZipPackage](https://msdn.microsoft.com/library/system.io.packaging.zippackage.aspx) class. The following example is a helper method used in the SDK sample to decompress the file.  
   
  [!code-csharp[ExportRibbonXml#ExportRibbonXml2](../../snippets/csharp/CRMV8/exportribbonxml/cs/exportribbonxml2.cs#exportribbonxml2)]  
-  
- [!code-vb[ExportRibbonXmlVB#ExportRibbonXml2](../../snippets/visualbasic/CRMV8/exportribbonxmlvb/vb/exportribbonxml2.vb#exportribbonxml2)]  
+
   
 ### Retrieve the application ribbon data  
  The application ribbon can be retrieved using the <xref:Microsoft.Crm.Sdk.Messages.RetrieveApplicationRibbonRequest> as shown in the following sample.  
   
  [!code-csharp[ExportRibbonXml#ExportRibbonXml3](../../snippets/csharp/CRMV8/exportribbonxml/cs/exportribbonxml3.cs#exportribbonxml3)]  
-  
- [!code-vb[ExportRibbonXmlVB#ExportRibbonXml3](../../snippets/visualbasic/CRMV8/exportribbonxmlvb/vb/exportribbonxml3.vb#exportribbonxml3)]  
+
   
 ### Retrieve entity ribbons  
  To retrieve the ribbon definition for entities, you can just include the name of the entity as a parameter to the <xref:Microsoft.Crm.Sdk.Messages.RetrieveEntityRibbonRequest>.  
@@ -62,19 +63,13 @@ To effectively define changes to the default RibbonXml, you must be able to refe
   
  [!code-csharp[ExportRibbonXml#ExportRibbonXml6](../../snippets/csharp/CRMV8/exportribbonxml/cs/exportribbonxml6.cs#exportribbonxml6)]  
   
- [!code-vb[ExportRibbonXmlVB#ExportRibbonXml6](../../snippets/visualbasic/CRMV8/exportribbonxmlvb/vb/exportribbonxml6.vb#exportribbonxml6)]  
-  
  The following sample shows how to retrieve the ribbon definitions for a set of entities.  
   
  [!code-csharp[ExportRibbonXml#ExportRibbonXml4](../../snippets/csharp/CRMV8/exportribbonxml/cs/exportribbonxml4.cs#exportribbonxml4)]  
   
- [!code-vb[ExportRibbonXmlVB#ExportRibbonXml4](../../snippets/visualbasic/CRMV8/exportribbonxmlvb/vb/exportribbonxml4.vb#exportribbonxml4)]  
-  
  Any custom entities also support ribbon customizations. To get a list of custom entities, use the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest> and retrieve the names of custom entities. The following sample shows how to retrieve ribbon definitions for all custom entities.  
   
  [!code-csharp[ExportRibbonXml#ExportRibbonXml5](../../snippets/csharp/CRMV8/exportribbonxml/cs/exportribbonxml5.cs#exportribbonxml5)]  
-  
- [!code-vb[ExportRibbonXmlVB#ExportRibbonXml5](../../snippets/visualbasic/CRMV8/exportribbonxmlvb/vb/exportribbonxml5.vb#exportribbonxml5)]  
   
 ### See also  
  [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md)   

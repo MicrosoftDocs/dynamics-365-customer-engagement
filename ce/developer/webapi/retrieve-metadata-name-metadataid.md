@@ -16,10 +16,14 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Retrieve metadata by name or MetadataId
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Your applications can adapt to configuration changes by querying the metadata. When you know one of the key properties of a metadata item, you can retrieve metadata definitions using the Web API.  
 
-<a name="bkmk_byName"></a>   
-## Retrieve metadata items by name  
+<a name="bkmk_byName"></a>
+
+## Retrieve metadata items by name
   
 > [!NOTE]
 >  This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].  
@@ -35,8 +39,10 @@ Your applications can adapt to configuration changes by querying the metadata. W
 |Relationship|SchemaName|`GET /api/data/v8.2/RelationshipDefinitions(SchemaName='Account_Tasks')`|  
 |Global Option Set|Name|`GET /api/data/v8.2/GlobalOptionSetDefinitions(Name='metric_goaltype')`|  
   
-<a name="bkmk_exampleByName"></a>   
-### Example: Retrieve metadata items by name  
+<a name="bkmk_exampleByName"></a>
+
+### Example: Retrieve metadata items by name
+
  A common item of metadata that people want to retrieve are the options configured for a particular  attribute. The following example shows how to retrieve the `OptionSet` and `GlobalOptionSet` properties of a  <xref href="Microsoft.Dynamics.CRM.PicklistAttributeMetadata?text=PicklistAttributeMetadata EntityType" />.  
   
 > [!NOTE]
@@ -45,7 +51,8 @@ Your applications can adapt to configuration changes by querying the metadata. W
 >  If the attribute used a global optionset, the `GlobalOptionSet` property would contain the defined options and the `OptionSet` property would be null.  
   
  **Request**  
- ```http  
+
+```http  
 GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes(LogicalName='accountcategorycode')/Microsoft.Dynamics.CRM.PicklistAttributeMetadata?$select=LogicalName&$expand=OptionSet($select=Options),GlobalOptionSet($select=Options) HTTP/1.1  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -54,7 +61,8 @@ Content-Type: application/json; charset=utf-8
 ```  
   
  **Response**  
- ```JSON  
+
+```http   
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -128,8 +136,10 @@ OData-Version: 4.0
 }  
 ```  
   
-<a name="bkmk_byMetadataId"></a>   
-## Retrieve metadata items by MetadataId  
+<a name="bkmk_byMetadataId"></a>
+   
+## Retrieve metadata items by MetadataId
+
  Because the `MetadataId` is the primary key for metadata items, retrieving individual items follows the same pattern used to retrieve business data entities.  
   
 |Metadata item|Example|  
@@ -142,8 +152,9 @@ OData-Version: 4.0
 ### Example: Retrieve metadata items by MetadataId  
  To achieve the same result as shown in [Example: Retrieve metadata items by name](#bkmk_exampleByName), you will need to perform a series of query operations to get the `MetadataId` by filtering by the entity `LogicalName` and then by the attribute `LogicalName`.  
   
- **Request**  
- ```HTTP  
+ **Request**
+
+```http  
 GET [Organization URI]/api/data/v9.0/EntityDefinitions?$filter=LogicalName%20eq%20'account'&$select=MetadataId HTTP/1.1  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -151,8 +162,9 @@ Accept: application/json
 Content-Type: application/json; charset=utf-8  
 ```  
   
- **Response**  
- ```JSON  
+ **Response**
+
+```http  
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -166,8 +178,9 @@ OData-Version: 4.0
 }  
 ```  
   
- **Request**  
- ```HTTP  
+ **Request**
+
+```http  
 GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes?$filter=LogicalName%20eq%20'accountcategorycode'&$select=MetadataId HTTP/1.1  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -175,8 +188,9 @@ Accept: application/json
 Content-Type: application/json; charset=utf-8  
 ```  
   
- **Response**  
- ```JSON  
+ **Response**
+
+```http  
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -191,8 +205,9 @@ OData-Version: 4.0
 }  
 ```  
   
- **Request**  
- ```HTTP  
+ **Request**
+
+```http  
 GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes(118771ca-6fb9-4f60-8fd4-99b6124b63ad)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata?$select=LogicalName&$expand=OptionSet($select=Options),GlobalOptionSet($select=Options) HTTP/1.1  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -200,8 +215,9 @@ Accept: application/json
 Content-Type: application/json; charset=utf-8  
 ```  
   
- **Response**  
- ```JSON  
+ **Response**
+
+```http
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -275,7 +291,8 @@ OData-Version: 4.0
 }  
 ```  
   
-### See also  
+### See also
+
  [Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md)   
  [Query metadata using the Web API](query-metadata-web-api.md)   
  [Create and update entity definitions using the Web API](create-update-entity-definitions-using-web-api.md)   

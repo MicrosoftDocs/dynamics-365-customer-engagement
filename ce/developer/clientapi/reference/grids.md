@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # Grids and subgrids in Customer Engagement (Client API reference)
 
+[!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../../../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../../../includes/cc-under-construction.md)]
 

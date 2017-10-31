@@ -20,6 +20,9 @@ topic-status: Drafting
 ---
 
 # Sample: Associate a Security Role to a User
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].
 
 ## Prerequisites
@@ -31,7 +34,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ## Demonstrates  
  This sample shows how to associate a role with a user by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> method. A snippet showing just the key portions of the sample is shown first, followed by the [Complete Sample Code](sample-create-on-premises-user.md#complete_sample). Note that this sample can only be run in an on-premises environment because it creates a user. However, the section of the sample that demonstrates associating a role with a user will work for all environments.  
   
- [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
+[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 ## Example  
  [!code-csharp[UsersAndRoles#AddRoleToUser1](../snippets/csharp/CRMV8/usersandroles/cs/addroletouser1.cs#addroletouser1)]  
   

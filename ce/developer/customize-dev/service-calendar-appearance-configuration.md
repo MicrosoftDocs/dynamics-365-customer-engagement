@@ -17,9 +17,12 @@ ms.assetid: b529c857-c2b9-4a02-9993-bd99008d7998
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Service calendar appearance configuration
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can control the appearance and behavior of the service calendar in the following ways:  
   
 -   [Set time block appearance](service-calendar-appearance-configuration.md#BKMK_TimeBlock)  

@@ -23,9 +23,12 @@ ms.assetid: a3e17cc7-a4ff-4a10-bc7a-ae03e055b30f
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Lead entity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *lead* entity represents an individual that is identified as someone who is interested in receiving specific information about the products or services offered by the company. The information is provided to a lead by a salesperson through email or other communication activities available in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. A lead is used to track contacts or accounts that are potential customers, but who have not yet been qualified.  
   
  Lead management is largely the same as opportunity management. However, a lead is kept separate from customer and opportunity data until the lead is qualified. The possible states for a lead are Open, Qualified, and Disqualified. A qualified lead may be converted to an account, contact or opportunity. To convert, use the <xref:Microsoft.Crm.Sdk.Messages.QualifyLeadRequest> message.  

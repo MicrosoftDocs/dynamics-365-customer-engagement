@@ -18,39 +18,44 @@ ms.assetid: a8015117-1aa1-40df-b418-e563424b7558
 caps.latest.revision: 71
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Open forms, views, dialogs, and reports with a URL
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 URL addressable elements enable you to include links to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] forms, views, dialogs, and reports in other applications. In this manner, you can easily extend other applications, reports, or websites so that users can view information and perform actions without switching applications.  
   
 > [!NOTE]
 >  -   URL addressable forms, views, dialogs, and reports cannot bypass [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users, based on their security roles, can access the data and the records they see.  
-> -   Use `Xrm.Utility.`[openEntityForm](clientapi/reference/Xrm-Utility/openEntityForm.md) when you open entity forms programmatically within the application by using web resources. Do not use `window.open`.  
-> -   Outside the application, where pages do not have access to the `Xrm.Utility.`[openEntityForm](clientapi/reference/Xrm-Utility/openEntityForm.md) function, use `window.open` or a link to open a specific record or form for an entity. The entire application will open for any of the [Updated entities](clientapi/different-form-presentations.md#updated-entities).  
+> -   Use `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) when you open entity forms programmatically within the application by using web resources. Do not use `window.open`.  
+> -   Outside the application, where pages do not have access to the `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function, use `window.open` or a link to open a specific record or form for an entity.  
   
-<a name="BKMK_URLAddressableFormsAndViews"></a>   
-## URL Addressable Forms and Views  
+<a name="BKMK_URLAddressableFormsAndViews"></a>
+
+## URL Addressable Forms and Views
+
  All entity forms and views are displayed in the main.aspx page. Query string parameters passed to this page control what will be displayed. For example:  
   
  To open a new account entity record form for on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
  ```  
 http://mycrm/myOrg/main.aspx?etn=account&pagetype=entityrecord  
-```  
+ ```  
   
  To open an account entity record form for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] where the id is {91330924-802A-4B0D-A900-34FD9D790829}:  
  ```  
 http://myorg.crm.dynamics.com/main.aspx?etn=account&pagetype=entityrecord&id=%7B91330924-802A-4B0D-A900-34FD9D790829%7D  
-```  
+ ```  
   
  To open the **Closed Opportunities** view for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]:  
  ```  
 http://myorg.crm.dynamics.com/main.aspx?etn=opportunity&pagetype=entitylist&viewid=%7b00000000-0000-0000-00AA-000010003006%7d&viewtype=1039  
-```  
+ ```  
   
  To open the **Active Contacts** view for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with no navigation bar or command bar  
  ```  
 http://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid={00000000-0000-0000-00AA-000010001004}&viewtype=1039&navbar=off&cmdbar=false  
-```  
+ ```  
   
 > [!NOTE]
 >  Opening entity forms in a dialog window by using [showModalDialog](https://msdn.microsoft.com/library/ie/ms536759.aspx) or [showModelessDialog](https://msdn.microsoft.com/library/ie/ms536761.aspx) is not supported.  
@@ -138,15 +143,13 @@ Url=“/_root/homepage.aspx?etn=<entity logical name >&amp;viewid=%7b<GUID value
   
  The following sample shows the URL and query string parameters to open a dialog:  
   
-```  
-  
+```
 [organization url]/cs/dialog/rundialog.aspx?DialogId=[dialog unique identifier]&EntityName=[entity logical name]&ObjectId=[unique identifier for the record]  
 ```  
   
  For example, to open the dialog with id ={6A6E93C9-1FE6-4C07-91A9-E0E2A7C70976} with the account record id = {40C9ADFD-90A8-DF11-840E-00155DBA380F}, use the URL in the following example.  
   
-```  
-  
+```
 [organization url]/cs/dialog/rundialog.aspx?DialogId=%7b6A6E93C9-1FE6-4C07-91A9-E0E2A7C70976%7d&EntityName=account&ObjectId=%7b40C9ADFD-90A8-DF11-840E-00155DBA380F%7d  
 ```  
   
@@ -186,13 +189,13 @@ function openDialogProcess(dialogId, entityName, objectId)
   
  Open the **Neglected Cases** report using the default filter:  
  ```  
-[organization url]/crmreports/viewer/viewer.aspx?action=run&helpID=Neglected%20Cases.rdl&id=%7b8c9f3e6f-7839-e211-831e-00155db7d98f%7d  
-```  
+ [organization url]/crmreports/viewer/viewer.aspx?action=run&helpID=Neglected%20Cases.rdl&id=%7b8c9f3e6f-7839-e211-831e-00155db7d98f%7d  
+ ```  
   
  Open the **Top Knowledge Base Articles** report and prompt the user to set filter values:  
  ```  
-[organization url]/crmreports/viewer/viewer.aspx?action=filter&helpID=Top%20Knowledge%20Base%20Articles.rdl&id=%7bd84ec390-7839-e211-831e-00155db7d98f%7d  
-```  
+ [organization url]/crmreports/viewer/viewer.aspx?action=filter&helpID=Top%20Knowledge%20Base%20Articles.rdl&id=%7bd84ec390-7839-e211-831e-00155db7d98f%7d  
+ ```  
   
  The following function shows how to properly encode values in the URL:  
   
@@ -209,7 +212,6 @@ function getReportURL(action,fileName,id) {
   "%7d";  
  return reportUrl;  
 }  
-  
 ```  
   
 ### See also  

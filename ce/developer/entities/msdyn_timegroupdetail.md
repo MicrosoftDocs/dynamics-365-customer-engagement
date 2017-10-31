@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_timegroupdetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify individual time windows under a time group.
 
 **Added by**: Unified Resource Scheduling Solution<br />

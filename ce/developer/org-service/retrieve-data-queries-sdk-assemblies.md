@@ -21,9 +21,12 @@ ms.assetid: e9d32d0c-c0f1-43bf-8bc8-a1f8836f661a
 caps.latest.revision: 30
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Retrieve data with queries using SDK assemblies
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 There are several ways to create queries in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. You can use [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] in early and late binding scenarios, you can write queries by using FetchXML, the proprietary [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] query language, or you can build a query by using QueryExpression and the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> class.  
   
  The following table lists the basic capabilities of each query style.  

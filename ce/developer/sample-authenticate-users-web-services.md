@@ -23,6 +23,9 @@ topic-status: Drafting
 ---
 
 # Sample: Authenticate users with Dynamics 365 web services
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample shows how to authenticate a user with any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement deployment and obtain a reference to the web services. This sample includes support for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users provisioned in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  [Download the authenticate users with Microsoft Dynamics 365 web services sample](https://code.msdn.microsoft.com/Authenticate-users-with-707e0375).

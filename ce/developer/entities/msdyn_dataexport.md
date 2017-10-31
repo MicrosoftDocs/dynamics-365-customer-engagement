@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_dataexport Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Data export entity for the actual entity.
 
 **Added by**: Project Service Automation Solution<br />

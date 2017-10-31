@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # getFormContext (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns a reference to the form or an item on the form depending on where the method was called.
 
 ## Syntax

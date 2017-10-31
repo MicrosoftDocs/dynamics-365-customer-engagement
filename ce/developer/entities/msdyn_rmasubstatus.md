@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_rmasubstatus Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify custom RMA sub-statuses, which can be used to specify the current RMA status more precisely.
 
 **Added by**: Field Service Solution<br />

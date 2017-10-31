@@ -17,9 +17,12 @@ ms.assetid: c688a24a-ef2d-4c0b-951b-e6db22382686
 caps.latest.revision: 38
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customize commands and the ribbon
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a *command bar* instead of a ribbon. [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)] also uses data defined as ribbons to control what commands are available using a command bar that is optimized for touch.  
   
  The command bar provides better performance. The ribbon is still displayed in the web application for certain entity forms and it is still used for list views in [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)].  

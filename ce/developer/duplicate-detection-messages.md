@@ -16,9 +16,12 @@ ms.assetid: f041dfd5-cfc4-44e2-b274-1107bdf75293
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Duplicate detection messages
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the messages listed in the following table to detect duplicates in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 |Message|Web API Operation|SDK Assembly|  

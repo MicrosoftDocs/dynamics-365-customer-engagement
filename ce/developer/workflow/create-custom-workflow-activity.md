@@ -14,17 +14,24 @@ ms.assetid: ab72830b-e6a6-4f49-a6a8-1d69c4a1d308
 caps.latest.revision: 56
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create a custom workflow activity
-This topic describes how to create a custom workflow activity and register it for use in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. For [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], custom workflow activities can only be registered to execute in the sandbox (partial trust). For more information about the sandbox and partial trust, see [Plug-in Isolation, Trusts, and Statistics](plugin-isolation-trusts-statistics.md).  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+This topic describes how to create a custom workflow activity and register it for use in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. For [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], custom workflow activities can only be registered to execute in the sandbox (partial trust). For more information about the sandbox and partial trust, see [Plug-in isolation, trusts, and statistics](../plugin-isolation-trusts-statistics.md).  
   
-<a name="Requirements"></a>   
-## Required software and assemblies  
+<a name="Requirements"></a>
+
+## Required software and assemblies
+
  To develop [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)] 4 custom activities for Dynamics 365, you must develop them on [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)]. The assembilies are available as Nuget packages and you can download from the NuGet profile [crmsdk](https://www.nuget.org/profiles/crmsdk).
   
-<a name="UseCodeActivity"></a>   
-## Use the CodeActivity workflow base class  
+<a name="UseCodeActivity"></a>
+
+## Use the CodeActivity workflow base class
+
  To create a custom workflow activity, create a class that inherits from the [CodeActivity](https://msdn.microsoft.com/library/system.activities.codeactivity.aspx) workflow base class. This class is available in the [System.Activities](https://msdn.microsoft.com/library/system.activities.aspx) namespace. Activities that inherit from the `CodeActivity` class can override the `Execute` method to produce custom functionality.  
   
 1.  Start [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
@@ -46,7 +53,9 @@ This topic describes how to create a custom workflow activity and register it fo
 9. Open the class file, and add the following using directives:  
   
     ```csharp  
-    using System.Activities;using Microsoft.Xrm.Sdk;using Microsoft.Xrm.Sdk.Workflow;  
+    using System.Activities;
+    using Microsoft.Xrm.Sdk;
+    using Microsoft.Xrm.Sdk.Workflow;  
     ```  
   
 10. Make the class inherit from the `CodeActivity` class and give it a public access modifier as shown here:  
@@ -74,22 +83,25 @@ This topic describes how to create a custom workflow activity and register it fo
 > [!IMPORTANT]
 >  For improved performance, [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] caches custom workflow activity instances. The custom workflow activity’s [Execute](https://msdn.microsoft.com/library/system.activities.codeactivity.execute.aspx) method should be written to be stateless because the constructor is not called for every invocation of the custom workflow activity. Also, multiple system threads could execute the custom workflow activity at the same time. All per invocation state information is stored in the context, so it is not recommended to use global variables or member variables to pass data from one invocation to the next.  
   
-<a name="NameandGroupName"></a>   
-## Specify the name and group name for a custom workflow activity  
+<a name="NameandGroupName"></a>
+
+## Specify the name and group name for a custom workflow activity
+
  When you register a custom workflow activity assembly, specify the name and group name. The name property specifies the name of the workflow activity. The group name property specifies the name of the submenu added to the main menu in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] process designer. These properties link the custom workflow activity with the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] process designer, so that the custom activity name will appear in the user interface.  
   
  To specify the name and group name for a custom workflow activity, use the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes when you register the custom workflow activity assembly. For more information about registering custom workflow activities, see [Registering the Workflow Assembly](register-use-custom-workflow-activity-assembly.md). If the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes are set to **null**, the custom activity is hidden from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] workflow designer and is only accessible from XAML workflows.  
   
- If you are using the Plug-in Registration tool to register the custom workflow activity assembly, you can specify appropriate values in the **Name** and **WorkflowActivityGroupName** boxes, under the **Editable** region. For more information about using the Plug-in Registration tool, see [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md).  
+ If you are using the Plug-in Registration tool to register the custom workflow activity assembly, you can specify appropriate values in the **Name** and **WorkflowActivityGroupName** boxes, under the **Editable** region. For more information about using the Plug-in Registration tool, see [Walkthrough: Register a plug-in using the plug-in registration tool](../walkthrough-register-plugin-using-plugin-registration-tool.md).  
   
  ![Specify the Group Name and Name while registering](../media/process-name-workflow-activity.png "Specify the Group Name and Name while registering")  
   
  After this custom workflow activity is registered, you can use it from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] process designer for workflows or dialogs. For more information, see [Register and Use a Custom Workflow Activity Assembly](register-use-custom-workflow-activity-assembly.md).  
   
-### See also  
- [Custom Workflow Activities](custom-workflow-activities-workflow-assemblies.md)   
+### See also
+
+ [Custom workflow activities (workflow assemblies)](../custom-workflow-activities-workflow-assemblies.md)   
  [Adding Metadata to the Custom Workflow Activity](add-metadata-custom-workflow-activity.md)   
  [Using the IOrganization Web Service within a Custom Workflow Activity](use-iorganization-web-service-custom-workflow-activity.md)   
  [Sample: Create a Custom Workflow Activity](sample-create-custom-workflow-activity.md)   
- [Sample: Azure Aware Custom Workflow Activity](sample-azure-aware-custom-workflow-activity.md)   
+ [Sample: Azure aware custom workflow activity](../sample-azure-aware-custom-workflow-activity.md)   
  [Windows Workflow Foundation 4 Base Activity Classes](https://msdn.microsoft.com/library/ee264170.aspx)
