@@ -33,7 +33,9 @@ The grid control is responsive. As the size of the container decreases—for exa
 This property allows you to configure the following features: 
 - Allow a grid to reflow into a list on small displays such as mobile.
 - Specify the rendering mode as grid-only or list-only. 
+
 ### Set the Read Only Grid property
+
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. In the **Entities** pane, select the appropriate entity (such as **Account** or **Contact**), and then on the **Controls** tab, select **Add Control**.
 
@@ -44,11 +46,13 @@ This property allows you to configure the following features:
     The control is added to the list of available controls.
    
     ![Select a control](media/UnifiedInterface_ReadOnlyGrid_SelectControl.png "Select a Control")
+    
 4. Select the devices (**Web**, **Phone**, or **Tablet**) for which you want to make the grid read-only.
 
     ![Select the device type](media/UnifiedInterface_ReadOnlyGrid_SelectDevice.png "Select devices")
 
 5.	Save and publish the changes. 
+
 ## Card Form
 You can use the Card Form property to show list items instead of the default list template. Card forms provide more information for list items than the default list template does.
 
@@ -68,5 +72,6 @@ You can use the Card Form property to show list items instead of the default lis
 
 6. Choose **OK**.
 7. Save and publish the changes.
+
 ## Conditional image
 You can display a custom icon instead of a value in a list and establish the logic used to select them based on a column’s values by using JavaScript. For more information about conditional images, see [Display custom icons instead of values in list views](display-custom-icons-instead.md).
