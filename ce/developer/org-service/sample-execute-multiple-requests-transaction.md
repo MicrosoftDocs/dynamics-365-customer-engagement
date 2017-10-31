@@ -20,6 +20,9 @@ topic-status: Drafting
 ---
 
 # Sample: Execute multiple requests in transaction
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement supports batching of requests into a single web service method call. Each request in the batch is executed as part of a single database transaction. Failure of any request to complete successfully causes a rollback of any completed requests and no further processing is performed on requests not yet executed.
 
 [Download the work with execute transaction](https://code.msdn.microsoft.com/Work-with-execute-4388dac6).

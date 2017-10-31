@@ -28,9 +28,12 @@ ms.assetid: 1b9e7311-36a6-4f57-a834-429651110515
 caps.latest.revision: 82
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Introduction to activity feeds
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 As a developer implementing collaboration scenarios with  activity feeds, you should become familiar with the activity feeds terminology, definitions and entity model.  
   
 <a name="BKMK_ActivityFeedsConcepts"></a>   
@@ -48,7 +51,7 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
 |Auto Post Rule|A rule that is used by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to generate an auto post when an event occurs. For example, a rule may specify to generate an auto post when a new opportunity is created for an account.|  
 |Mention|A part of a post that refers to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record. One post can have multiple mentions.|  
 |Comment|A remark that is added on a post. A comment is related to a parent post. It cannot exist without a parent post. If a parent post is deleted, the post’s comments are deleted also.|  
-|Follow|An action taken by a user on a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record that enables that user to see the posts about the record on their personal wall. **Note:**  For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], the maximum allowed number of records to follow is 5000. The default number of records that the user can follow is 1000. The default value is configurable and can be changed by an Administrator or a user with the permissions to modify the deployment settings.|  
+|Follow|An action taken by a user on a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record that enables that user to see the posts about the record on their personal wall. **Note:**  For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], the maximum allowed number of records to follow is 5000. The default number of records that the user can follow is 1000. The default value is configurable and can be changed by an Administrator or a user with the permissions to modify the deployment settings.|  
 |Unfollow|An action taken by a user on a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record that stops posts about that record from being displayed on the user's personal wall.|  
 |Like|An action taken by a user on a post that expresses that the user liked the post. **Note:**|  
 |Unlike|An action taken by a user to remove the Like from the post. **Note:**|  

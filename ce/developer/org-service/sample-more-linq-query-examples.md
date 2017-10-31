@@ -14,9 +14,12 @@ ms.assetid: d5e5ec45-6465-4281-9e14-5f213a8c3bde
 caps.latest.revision: 22
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: More LINQ query examples
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e). 
 
 ## Prerequisites

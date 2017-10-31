@@ -14,9 +14,12 @@ ms.assetid: bfa82c05-13d3-488b-a094-4097d2aafa2f
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use Upsert to insert or update a record
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can reduce the complexity involved with data integration scenarios by using the <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest> message. When loading data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement from an external system, for example in a bulk data integration scenario, you may not know if a record already exists in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. In such cases you won’t know if you should call an <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or a <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> operation. This results in your querying for the record first to determine if it exists before performing the appropriate operation. You can now reduce this complexity and load data into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] more efficiently by using the new <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest> (Update or Insert) message.  
   
 <a name="BKMK_UsingUpsert"></a>   

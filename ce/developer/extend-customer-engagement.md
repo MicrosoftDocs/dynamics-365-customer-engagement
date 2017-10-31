@@ -14,10 +14,13 @@ ms.assetid: 156dadf2-e2bf-496c-8d72-a94e71469fb1
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Extend Dynamics 365 Customer Engagement
-The extensibility platform is the heart of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. When you use the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)], you are building on top of this system. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform supports several types of deployments with the power of choice: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] installed on your own server (on-premises), or a hosted deployment of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The security model protects the platform from unauthorized access across the Web.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+The extensibility platform is the heart of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. When you use the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], you are building on top of this system. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform supports several types of deployments with the power of choice: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] installed on your own server (on-premises), or a hosted deployment of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The security model protects the platform from unauthorized access across the Web.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 
@@ -47,12 +50,12 @@ When you develop an application that uses the [!INCLUDE[pn_dynamics_crm](../incl
  Topics in this section describe how to deploy custom business logic using plug-ins, processes, the asynchronous service, Azure extensions and more.  
   
  [Extend Dynamics 365 on the client](extend-client.md)  
- This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] within the clients provided for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]: web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-microsoft-dynamics-crm-mobile.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] . You apply these extensions by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions which can be applied for all clients rather than each one separately.  
+ This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] within the clients provided for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]: web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] . You apply these extensions by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions which can be applied for all clients rather than each one separately.  
   
  Client extensions can provide a very rich and responsive experience for users because the code runs on their device. However, critical business logic should not be applied only by client-side scripts. Unlike extensions that are applied on the server, client extensions cannot apply business logic for data entering the system by other means, such as integrations with other systems, custom clients, or data import.  
   
  [Customize Dynamics 365 applications](customize-dev/customize-applications.md)  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] client applications include the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-microsoft-dynamics-crm-mobile.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. Each of these clients reference a common set of data that controls visual elements of the clients. This *application metadata* is usually edited using customization tools in the application or third-party tools. Other clients can also reference this application metadata if they want to leverage configuration options defined for specific organizations.  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] client applications include the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. Each of these clients reference a common set of data that controls visual elements of the clients. This *application metadata* is usually edited using customization tools in the application or third-party tools. Other clients can also reference this application metadata if they want to leverage configuration options defined for specific organizations.  
   
  For an in-depth guide to customization by using the tools available in the web application see the [Customization Guide](../customize/overview.md). The topics in this section describe the structure of the data edited by those tools or third-party tools.  
   

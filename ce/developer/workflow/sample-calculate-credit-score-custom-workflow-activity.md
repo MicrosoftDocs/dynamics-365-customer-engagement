@@ -14,12 +14,13 @@ ms.assetid: 9cb7eb41-1a73-44a8-ae58-14120e84243f
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Calculate a credit score with a custom workflow activity
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [!INCLUDE[sdk_download](../../includes/sdk-download.md)] It can be found in the following location in the download package:  
-  
- `SampleCode\CS\Process\CustomWorkflowActivities\TestNet4Activity\ReleaseISVActivities.cs`  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample here [Custom workflow activities samples](https://code.msdn.microsoft.com/Custom-Workflow-Activities-eee57285).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

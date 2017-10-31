@@ -14,9 +14,12 @@ ms.assetid: ecda2ce2-e4b6-4c8d-838c-f3d70ad9e63f
 caps.latest.revision: 25
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Enable document management for entities
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement that can be customized. By default, document management is enabled only for the following entities in a new installation of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]:  
   
 -   `Account`  

@@ -20,9 +20,12 @@ ms.assetid: 053f259e-40c9-46ba-8c47-39e29e228590
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Discovery service messages (request and response classes)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> provides an [DiscoveryRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.discovery.idiscoveryservice.execute\(microsoft.xrm.sdk.discovery.discoveryrequest\)) method to perform supported operations. This method takes a message request class as a parameter and returns a message response class. Request message class names end with "Request" and response message class names end with "Response”.  
   
  ![Execute message flow](../media/crm-v5s-executemessage.png)  

@@ -14,12 +14,15 @@ ms.assetid: ec508435-b1db-42c6-8d08-e833b3ee9689
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Assemblies included in Dynamics 365 Customer Engagement SDK
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement has several programming assemblies that you can use when writing custom code.  
   
- The following table lists the assemblies that are included in the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)].  
+ The following table lists the assemblies that are included in the SDK.  
   
 |Assembly name|Namespace name|Description|  
 |-------------------|--------------------|-----------------|  
@@ -37,9 +40,7 @@ manager: "jdaly"
 ||<xref:Microsoft.Xrm.Sdk.Workflow>|Defines the attribute and dependency property classes required to author a custom workflow activity.|  
 ||<xref:Microsoft.Xrm.Sdk.Workflow.Activities>|Defines the workflow activities that are used by the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] workflow designer.|  
 ||<xref:Microsoft.Xrm.Sdk.Workflow.Designers>|Defines a [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] designer for displaying a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] workflow in [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].|  
-|Microsoft.Crm.Tools.EmailProviders.dll||Defines methods and types needed for developing a custom email provider component for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Email Router.|  
-||Microsoft.Crm.Tools.Email.Management|Defines the email provider management types.|  
-||Microsoft.Crm.Tools.Email.Providers|Defines the base class for a custom email provider and supporting types.|  
+|Microsoft.Xrm.Sdk.Data||Defines methods and types needed for developing virtual entity data provider plug-ins. More information: [Get started with virtual entities](../virtual-entities/get-started-ve.md) |  
 |Microsoft.Xrm.Sdk.Deployment.dll||Defines types and methods for interacting with the Deployment Web Service.|  
 ||<xref:Microsoft.Xrm.Sdk.Deployment>|Defines the data contracts necessary to communicate with the Deployment Web Service.|  
 ||<xref:Microsoft.Xrm.Sdk.Deployment.Proxy>|Defines a helper class to generate a proxy for the Deployment Web Service.|  

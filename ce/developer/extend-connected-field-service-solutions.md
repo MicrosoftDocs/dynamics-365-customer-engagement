@@ -16,10 +16,12 @@ ms.assetid: d29a9353-73cf-4b49-b74f-d9050dc96bd7
 caps.latest.revision: 7
 author: "Milar1"
 ms.author: "v-milaro"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Extend Connected Field Service solutions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
   
@@ -42,7 +44,7 @@ manager: "jdaly"
 -   Books from [Microsoft Press](https://www.microsoftpressstore.com/) (including [free eBooks](https://mva.microsoft.com/ebooks/)) and supplemental training through [Microsoft Virtual Academy](https://mva.microsoft.com/)  
   
 ## Extend Connected Field Service  
- The following table lists the custom entities and processes that Connected Field Service supplies to interface with the associated Azure services and components. These types are more fully described in <xref:Microsoft.Dynamics.CRM.iotconnector>.
+ The following table lists the custom entities and processes that Connected Field Service supplies to interface with the associated Azure services and components. These types are more fully described in <xref:Microsoft.Dynamics.CRM.IoTConnector>.
   
 |Display Name (ID)|Type|Description|  
 |-------------------------|----------|-----------------|  

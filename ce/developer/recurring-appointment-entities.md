@@ -19,9 +19,11 @@ ms.assetid: 98645c12-28ca-4205-a05c-e687b3af6f32
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Recurring appointment entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Recurring appointments occur more than once, and follow an occurrence pattern. For example, you can set up an appointment to discuss a project status that occurs every week on Friday. Recurring appointments provide the ability to add recurrence information (occurrence pattern) to a new or an existing appointment in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

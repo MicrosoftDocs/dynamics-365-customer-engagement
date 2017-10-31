@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_workorderproduct Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In this entity you record all the products proposed and used for a work order
 
 **Added by**: Field Service Solution<br />

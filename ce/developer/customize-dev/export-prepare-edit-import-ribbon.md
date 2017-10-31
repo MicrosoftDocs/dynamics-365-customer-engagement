@@ -18,9 +18,12 @@ ms.assetid: 1052a9f4-9cb9-4d2f-a131-427a496cac00
 caps.latest.revision: 36
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Export, prepare to edit, and import the ribbon
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 To edit the ribbon, you must perform the following steps:  
   
 1.  [Export the ribbon](export-prepare-edit-import-ribbon.md#BKMK_ExportTheRibbon)  

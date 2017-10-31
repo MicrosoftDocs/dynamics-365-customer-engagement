@@ -12,10 +12,13 @@ applies_to:
 ms.assetid: b7840a25-f25e-409b-8b6a-0ef04c7ed9c4
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use JavaScript with Customer Engagement
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] provide many opportunities to use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. All [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is added by creating [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resources. This topic has information for developers who use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and includes links to relevant topics in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] and other sources.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] provide many opportunities to use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. All [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is added by creating [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resources. This topic has information for developers who use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and includes links to relevant topics in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] and other sources.  
   
 <a name="BKMK_AreasToUseJavaScript"></a>   
 ## Areas where you can use JavaScript in Dynamics 365  

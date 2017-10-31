@@ -14,9 +14,12 @@ ms.assetid: 30023495-fc7e-4b42-aa61-29d43647606a
 caps.latest.revision: 20
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Entitlement entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Entitlements specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
   
  Entitlement channel records contain the total terms and remaining terms for each channel in an entitlement. Default channels include Phone, Email, Web, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. You can add custom channels by editing the `incident_caseorigincode` global option set.  

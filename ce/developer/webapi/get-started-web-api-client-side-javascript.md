@@ -14,9 +14,11 @@ ms.assetid: get-started-dynamics-365-web-api-client-side-JavaScript
 caps.latest.revision: 51
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../../includes/cc-under-construction.md)]

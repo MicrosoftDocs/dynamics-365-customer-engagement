@@ -17,9 +17,12 @@ ms.assetid: be171519-f8d0-43e6-b5a7-770802da47db
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Specify a queue item to work on (early bound)
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business Management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62) 
 
 ## Prerequisites

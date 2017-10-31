@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ChannelAccessProfileEntityAccessLevel Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Group of privileges used to categorize users to provide appropriate access to entities.
 
 

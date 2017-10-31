@@ -16,9 +16,12 @@ ms.assetid: fbfa6e40-52d2-4042-a9fb-93f1b1cd1c1a
 caps.latest.revision: 73
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Azure integration with Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement with the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform by coupling the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event execution pipeline to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. Once configured,this connection allows data that’s been processed as part of the current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] operation to be posted to the service bus. [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solutions that are “[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-aware” can listen for and read the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data from the service bus.  
   
  This connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform provides a secure and reliable channel for communicating [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] run-time data to external cloud-based line-of-business (LOB) applications.  

@@ -19,9 +19,12 @@ ms.assetid: e0b5bdd7-b307-4b26-9171-518cb00ed7b0
 caps.latest.revision: 38
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Configure data import
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The configuration information that is required for importing data is contained in the data import (`Import`) entity and the import source file (`ImportFile`) entity.  
   
  To configure data import, do the following:  

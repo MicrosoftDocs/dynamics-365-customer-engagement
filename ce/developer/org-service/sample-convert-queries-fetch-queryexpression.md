@@ -19,9 +19,12 @@ ms.assetid: fa08b0e7-11e1-4ac5-b809-91660a4fb147
 caps.latest.revision: 15
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Convert queries between Fetch and QueryExpression
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code   is for [!INCLUDE[pn_crm_2016_and_online_full](../../includes/pn-crm-2016-and-online-full.md)]. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e). 
 
 ## Prerequisites

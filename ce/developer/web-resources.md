@@ -14,9 +14,12 @@ ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
 caps.latest.revision: 46
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Web resources for Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Web resources are *virtual files* that are stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database and that you can retrieve by using a unique URL address.  
   
 <a name="BKMK_CapabilitiesOfWebResources"></a>   

@@ -14,12 +14,14 @@ ms.assetid: 1ac6ca26-0326-4b56-8708-70f6dff845c9
 caps.latest.revision: 69
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 tags: 
  - "aug2017" 
  - "MigrationHO"
 ---
 # Tutorials and resources for learning about Customer Engagement development
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. For the fastest way to get some code running, see [Quick Start: A Simple Program](simple-program-web-services.md).
 

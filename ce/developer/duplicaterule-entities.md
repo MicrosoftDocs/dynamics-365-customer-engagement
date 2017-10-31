@@ -13,9 +13,11 @@ applies_to:
 ms.assetid: 332cef23-adaa-4975-96a7-3128dce359e4
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Duplicate Rule entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 For information about how to configure duplicate rules in the application, see [Administrators Guide: Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
 

@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # Grid OnSave Event (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 The `OnSave` event occurs before sending the updated information to the server, and when any of the following occurs: 
 - There is a change in the record selection.
 - The user explicitly triggers a save operation using the editable grid’s save button.

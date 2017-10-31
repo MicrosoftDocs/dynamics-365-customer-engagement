@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_priority Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Priorities to be used on bookings. In addition, a color could be specified for each priority type and the color selected will be shown visually on the schedule board.
 
 **Added by**: Unified Resource Scheduling Solution<br />

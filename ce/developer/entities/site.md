@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Site Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Location or branch office where an organization does business. An organization can have multiple sites.
 
 **Added by**: Service Solution<br />

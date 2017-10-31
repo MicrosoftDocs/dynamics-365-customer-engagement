@@ -14,9 +14,12 @@ ms.assetid: ed3d7166-8865-433d-b889-b0fadba25d64
 caps.latest.revision: 20
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Query hierarchical data
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement introduces the capability to define specific self-referencing one-to-many entity relationships as hierarchical. You can write queries that return related data in these hierarchies.  
   
  You can take advantage of new query condition operators to query entities with explicit hierarchical relationships. These operators only apply for the entity relationship specifically defined as a hierarchical relationship. You can use new condition operators to retrieve this hierarchical data when you query using <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> or <xref:Microsoft.Xrm.Sdk.Query.FetchExpression>.  

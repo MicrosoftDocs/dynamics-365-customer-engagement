@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ServiceAppointment Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
 
 **Added by**: Service Solution<br />

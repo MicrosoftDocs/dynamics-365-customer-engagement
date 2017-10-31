@@ -16,9 +16,12 @@ ms.assetid: 7794a5f1-2055-426b-985b-c9ad23fcd1ad
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # CSS web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use cascading style sheet (CSS) web resources to create style sheets for use in webpage web resources.  
   
 ## Capabilities of CSS web resources  

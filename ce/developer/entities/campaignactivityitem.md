@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # CampaignActivityItem Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Work item of a campaign activity, such as a list or sales literature.
 
 **Added by**: Marketing Solution<br />

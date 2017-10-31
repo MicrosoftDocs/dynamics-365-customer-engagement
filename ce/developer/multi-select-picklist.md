@@ -14,9 +14,12 @@ ms.assetid: 2a71402b-dbd1-449c-b43b-d9531c858a18
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Multi-Select Picklist attributes
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 > [!NOTE]
 > Multi-select picklist attributes were added with the [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
 
@@ -52,7 +55,7 @@ OData-EntityId: [organization uri]/api/data/v9.0/contacts(0c67748a-b78d-e711-811
 ```
 
 With the Organization service using the assemblies, use the [OptionSetValueCollection](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.metadata.optionsetvaluecollection) to set values for this attribute as shown in the following C# example:
-```C#
+```csharp
 OptionSetValueCollection activities = new OptionSetValueCollection();
 activities.Add(new OptionSetValue(1)); //Swimming
 activities.Add(new OptionSetValue(9)); //Camping
@@ -218,7 +221,7 @@ Preference-Applied: odata.include-annotations="OData.Community.Display.V1.Format
 
 The following C# sample shows the use of the `ContainsValues` operator with `QueryExpression` and the `not-contain-values` using `FetchExpression` using `RetrieveMultiple` and the Organization service.
 
-```C#
+```csharp
 //Retrieve contacts who like hiking
 //Using Query Expression
 int[] hikingValue = new int[] { 2 };
@@ -293,7 +296,7 @@ The easiest way to create a multi-select picklist is to use the attribute editor
 
 But if you need to automate creation of this kind of attribute you can use C# code like the following with the organization service which creates a multi-select picklist to allow choices of outdoor activities to the `contact` entity. More information [Create attributes](org-service/work-attribute-metadata.md#create-attributes)
 
-```C#
+```csharp
     private const int _languageCode = 1033; //English
 
     MultiSelectPicklistAttributeMetadata outDoorActivitiesAttribute = new MultiSelectPicklistAttributeMetadata()

@@ -26,9 +26,12 @@ ms.assetid: 02d73faa-8261-4c6f-aeb6-77f200f57cee
 caps.latest.revision: 74
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Configure activity feeds
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following sections contain information about how to configure your system for activity feeds.  
   
 <a name="ConfigurationEntities"></a>   

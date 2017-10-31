@@ -22,6 +22,9 @@ topic-status: Drafting
 ---
 
 # Sample code directory for Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
   
 <a name="BKMK_Activities"></a>

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_invoicelinetransaction Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Transactions that are associated to an invoice line.
 
 **Added by**: Project Service Automation Solution<br />

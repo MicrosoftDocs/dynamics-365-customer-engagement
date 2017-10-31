@@ -14,9 +14,12 @@ ms.assetid: 857bedcc-c2f6-4747-8f89-93388c9ea19f
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Impersonation in plug-ins
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Impersonation is used to execute business logic (custom code) on behalf of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement system user to provide a desired feature or service for that user. Any business logic executed within a plug-in, including Web service method calls and data access, is governed by the security privileges of the impersonated user.  
   
  Plug-ins not executed by either the sandbox or asynchronous service execute under the security account that is specified on the **Identity** tab of the **CRMAppPool Properties** dialog box. The dialog box can be accessed by right-clicking the **CRMAppPool** application pool in [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] Manager and then clicking **Properties** in the shortcut menu. By default, CRMAppPool uses the Network Service account identity but this can be changed by a system administrator during installation. If the **CRMAppPool** identity is changed to a system account other than Network Service, the new identity account must be added to the **PrivUserGroup** group in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change a Microsoft Dynamics CRM service account or AppPool identity](https://technet.microsoft.com/library/hh699751.aspx) for more detailed instructions.  

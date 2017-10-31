@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ContractDetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Line item in a contract that specifies the type of service a customer is entitled to.
 
 **Added by**: Service Solution<br />

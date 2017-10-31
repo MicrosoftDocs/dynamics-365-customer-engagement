@@ -14,9 +14,11 @@ ms.assetid: 17e6f8ae-c9ac-48ef-b547-3df380b9c0f7
 caps.latest.revision: 43
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Analyze plug-in performance
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 The *Plug-in Profiler* is a tool that profiles the execution of plug-ins and custom workflow activities for an enhanced debugging experience in 
 [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. This tool, which can be run from the Command Prompt window or from within the Plug-in Registration tool, makes developing custom code against [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement quicker and easier. In addition, users can profile the execution of failing code and send the results to the developer of the code or independent software vendor (ISV) for analysis. The developer can replay the plug-in or custom workflow activity execution and debug the code remotely even when disconnected from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.

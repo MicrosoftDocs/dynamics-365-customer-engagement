@@ -14,9 +14,12 @@ ms.assetid: fd004500-99bf-4391-84ae-b1e41a2ecd77
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use Dynamics 365 web services
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Web services provide APIs that you’ll use when you write programs for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. This topic introduces available web services and provides basic information to understand and compare them.  
   
 <a name="bkmk_webapi"></a>   
@@ -34,9 +37,11 @@ Web services provide APIs that you’ll use when you write programs for [!INCLUD
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Web API](use-microsoft-dynamics-365-web-api.md).  
   
-<a name="bkmk_organizationservice"></a>   
-## Organization service  
- The Organization service, also sometimes known as the “SOAP endpoint,” has been available since [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)]. It’s the web service that most developers working with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are already familiar with. The Organization service is optimized for use with .NET. The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] provides a set of assemblies and tools to allow you to generate strongly typed classes and proxies that streamline the development process and enjoy a better development experience using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. If you’re a .NET developer with no requirements to support other platforms, you don’t have to move to the Web API right away. You’ll need to use the Organization service to support any functionality you want to deploy to organizations using versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] released before [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
+<a name="bkmk_organizationservice"></a>
+
+## Organization service
+
+ The Organization service, also sometimes known as the “SOAP endpoint,” has been available since [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)]. It’s the web service that most developers working with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are already familiar with. The Organization service is optimized for use with .NET. There are a set of .NET assemblies and tools to allow you to generate strongly typed classes and proxies that streamline the development process and enjoy a better development experience using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. If you’re a .NET developer with no requirements to support other platforms, you don’t have to move to the Web API right away. You’ll need to use the Organization service to support any functionality you want to deploy to organizations using versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] released before [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
   
  Business logic that runs in plug-ins or workflow assemblies on the server expect to use the Organization service. Input and output parameters use specific classes defined with the assemblies that support the Organization service.  
   
@@ -46,7 +51,7 @@ Web services provide APIs that you’ll use when you write programs for [!INCLUD
 ## Organization Data service  
  The Organization Data service, also sometimes known as the “OData” or “REST” endpoint has also been available since [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)]. This service implemented the OData v2 standard. While this service will continue to be available as-is for years to come, we are deprecating it with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. The Organization Data service has always been limited to performing create, read, update, and delete operations and never supported the ability to call specialized messages used in the Organization service, so it could never reach parity with the functionality of the Organization service. Changes implemented in the OData standards between v2 and v4 do not allow for upgrading the service to meet the requirements of a service that has parity with the Organization Services. We were able to apply a lot of the feedback we received about the Organization Data Service and apply it to make the Web API better.  
   
- This release of the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] does not include information about the Organization Data Service. You can find information about the Organization Data Service in the documentation for the [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] release at [Use the OData endpoint with web resources](https://msdn.microsoft.com/library/gg334279\(v=crm.7\).aspx).  
+ This release of the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] does not include information about the Organization Data Service. You can find information about the Organization Data Service in the documentation for the [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] release at [Use the OData endpoint with web resources](https://msdn.microsoft.com/library/gg334279\(v=crm.7\).aspx).  
   
 <a name="bkmk_discovery"></a>   
 ## Discovery web services  
@@ -56,7 +61,7 @@ Web services provide APIs that you’ll use when you write programs for [!INCLUD
   
 <a name="bkmk_deployment"></a>   
 ## Deployment web service  
- For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] you can perform actions to manage your deployment programmatically using the Deployment web service. These are essentially the same operations you can perform on the server using the Deployment manager tool client installed on the server. You can create, import, or delete organizations as well as apply certain settings in code. This may be useful when you want to automate certain processes if you are providing a hosting service or if you want to automate creation of environments for testing.  
+ For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] you can perform actions to manage your deployment programmatically using the Deployment web service. These are essentially the same operations you can perform on the server using the Deployment manager tool client installed on the server. You can create, import, or delete organizations as well as apply certain settings in code. This may be useful when you want to automate certain processes if you are providing a hosting service or if you want to automate creation of environments for testing.  
   
   
 ### See also  

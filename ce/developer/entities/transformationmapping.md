@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # TransformationMapping Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In a data map, maps the transformation of source attributes to Microsoft Dynamics 365 attributes.
 
 

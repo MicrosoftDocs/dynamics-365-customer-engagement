@@ -14,12 +14,14 @@ ms.assetid: 14127ed4-0506-4071-a408-6052048ba299
 caps.latest.revision: 52
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 tags: 
  - "aug2017" 
  - "MigrationHO"
 ---
 # Programming models for Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement offers several programming models designed to give you the flexibility to decide what works best for your needs.
 

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_resourcerequirement Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity used to track the high-level information about resource requirements.
 
 **Added by**: Unified Resource Scheduling Solution<br />

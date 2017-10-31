@@ -14,9 +14,12 @@ ms.assetid: dc56c384-367b-4f14-83ed-bb527f3c1964
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Ribbon types schema
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The following is the schema definition for the ribbon types portion of an import/export customization file. Ribbon types schema is included from the [Ribbon Core Schema](ribbon-core-schema.md). You can find schema  in the `Schemas\9.0.0.2090\RibbonTypes.xsd` folder when you download the Schemas zip file.
 
 Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).

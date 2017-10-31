@@ -19,10 +19,12 @@ ms.assetid: B8CD2072-F254-4BA8-9087-79EC79DFE48C
 caps.latest.revision: 14
 author: "SushantSikka"
 ms.author: "susikka"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Enable and Disable duplicate detection
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic covers information on how to enable and disable duplicate detection in Dynamics 365.
 

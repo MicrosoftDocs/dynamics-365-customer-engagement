@@ -16,6 +16,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 ---
 # Create and manage custom business apps in Customer Engagement using code
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Business apps in Customer Engagement are modular, purpose built apps that provide role-based functionality relevant for a particular area of work. These apps make it easier for users to quickly find things they need to do every day by providing a simple and intuitive interface. For example, the **Sales** business app provides a simpler, smaller sitemap with only the appropriate set of forms, views, dashboards, and process flows that are relevant for sales people. 
 
 System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. More information: [Business apps in Dynamics 365 Customer Engagement](../basics/business-apps-dynamics-365.md)
@@ -48,7 +51,7 @@ You must specify the following properties at a minimum to create an app:
 
 The following Web API request creates an Unified Interface type of an app:
 
-```
+```http
 POST [Organization URI]/api/data/v9.0/appmodules HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -65,7 +68,7 @@ Accept: application/json
 
 The response **OData-EntityId** header contains the Uri of the created app.
 
-```
+```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/appmodules(dd621d4a-d898-e711-80e7-00155db763be)
@@ -81,7 +84,7 @@ Use the <xref:Microsoft.Dynamics.CRM.AddAppComponents> action or the <xref:Micro
 
 The following Web API request adds a view (savedquery) and a form (systemform) to your app:
 
-```
+```http
 POST [Organization URI]/api/data/v9.0/AddAppComponents HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -107,7 +110,7 @@ To remove a component from an app, use the <xref:Microsoft.Dynamics.CRM.RemoveAp
 
 The following Web API request removes a view (savedquery) from your app: 
 
-```
+```http
 POST [Organization URI]/api/data/v9.0/RemoveAppComponents HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -135,7 +138,7 @@ Use the <xref:Microsoft.Dynamics.CRM.ValidateApp> function or the <xref:Microsof
 
 If there are no validation errors, the response is as follows:
 
-```
+```http
 HTTP/1.1 200 OK
 OData-Version: 4.0
 
@@ -150,7 +153,7 @@ OData-Version: 4.0
 
 If there are validation issues in your app, the response displays errors/warnings in the **ValidationIssueList** collection:
 
-```
+```http
 HTTP/1.1 200 OK
 OData-Version: 4.0
 
@@ -194,7 +197,7 @@ After you have added required components to your custom business app and validat
 
 Use the <xref:Microsoft.Dynamics.CRM.PublishXml> action or the <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> messageto publish your custom business app. The following request shows how to publish your business app with ID: dd621d4a-d898-e711-80e7-00155db763be:
 
-```
+```http
 POST [Organization URI]/api/data/v9.0/PublishXml HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -212,7 +215,7 @@ To provide users access to your apps so that they can access it from their **Set
 
 Use the **appmoduleroles_association** navigation property of the [AppModule Entity](entities/appmodule.md) entity to associate a business app with a security role. The following request shows how to associate a business app with a security role:
 
-```
+```http
 POST [Organization URI]/api/data/v9.0/appmodules(dd621d4a-d898-e711-80e7-00155db763be)appmoduleroles_association/$ref HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_iotdeviceregistrationhistory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Tracks registration activities on an IoT device.
 
 **Added by**: IoT Connector for Microsoft Dynamics 365 Solution<br />

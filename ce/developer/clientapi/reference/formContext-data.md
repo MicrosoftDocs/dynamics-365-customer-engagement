@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # formContext.data (Client API reference)
 
+[!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Provides properties and methods to work with the data on a form.
 
 ![formContext Data object model](../../media/ClientAPI-formContext-data-Model.png)

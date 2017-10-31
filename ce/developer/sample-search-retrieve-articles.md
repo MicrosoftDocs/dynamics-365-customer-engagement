@@ -14,9 +14,12 @@ ms.assetid: 50692599-5afe-45b4-b2b6-f9ec6784272e
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Search and retrieve articles
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Service entities](https://code.msdn.microsoft.com/Service-Samples-f42adf82).
 
 ## Prerequisites

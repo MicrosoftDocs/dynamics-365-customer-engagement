@@ -14,9 +14,12 @@ ms.assetid: 1caed83f-a80f-4abe-8f03-b1c79cc84051
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Send bulk email and monitor results
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Activity entities](https://code.msdn.microsoft.com/Activities-Samples-61bf7504).  
 
 ## Prerequisites

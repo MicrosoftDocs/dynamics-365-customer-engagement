@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Product Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information about products and their pricing information.
 
 **Added by**: Product Management Solution<br />

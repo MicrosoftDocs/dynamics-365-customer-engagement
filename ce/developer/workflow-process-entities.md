@@ -14,9 +14,12 @@ ms.assetid: 1b40f46a-31f1-4c2a-8e50-f3641b8d8973
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Workflow and process entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement workflow object model is a set of classes that uses the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] object model and exposes [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] workflow activities. These classes are found in the `Microsoft.Xrm.Sdk.Workflow` assembly. For more information, see <xref:Microsoft.Xrm.Sdk.Workflow>.
 
  Workflow activities are the elemental units of a workflow (process). They are added to a workflow (process) to form a hierarchical tree structure. When all activities in a given path are finished running, the workflow (process) instance is completed.

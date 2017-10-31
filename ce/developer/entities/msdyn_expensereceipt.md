@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_expensereceipt Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Table that contains expense receipt information.
 
 **Added by**: Project Service Automation Solution<br />

@@ -16,10 +16,13 @@ ms.assetid: c0b866d1-d7a6-4ee4-bc36-69bf3a5398dd
 caps.latest.revision: 29
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Actions on visualizations (charts)
-Using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)], you can perform the following actions on the visualization entities.  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)], you can perform the following actions on the visualization entities.  
   
 ## Actions on organization-owned visualizations  
  To perform actions on an organization-owned visualization (`SavedQueryVisualization`), you must have the System Administrator or the System Customizer role. You can perform the following actions on an organization-owned visualization:  
@@ -37,7 +40,7 @@ Using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)], you can perform the foll
 -   Specify an organization-owned visualization as the default visualization for the associated entity by setting the `SavedQueryVisualization.IsDefault` attribute to `true`. When you set an organization-owned visualization as the default visualization for an entity, the visualization is displayed by default when you select to view the visualizations for this entity in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement.  
   
     > [!NOTE]
-    >  Using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)], if you set an organization-owned visualization as default for an entity that already has another visualization set as default, both the visualizations are marked as default visualizations for the entity.  To set a visualization as a default visualization for an entity, make sure that no other visualization is set as the default visualization for the entity.  
+    >  Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)], if you set an organization-owned visualization as default for an entity that already has another visualization set as default, both the visualizations are marked as default visualizations for the entity.  To set a visualization as a default visualization for an entity, make sure that no other visualization is set as the default visualization for the entity.  
   
  For a list of supported messages on the organization-owned visualization entity, see [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md).  
   

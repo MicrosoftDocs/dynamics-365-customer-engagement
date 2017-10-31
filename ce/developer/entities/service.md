@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Service Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Activity that represents work done to satisfy a customer's need.
 
 **Added by**: Service Solution<br />

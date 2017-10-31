@@ -16,6 +16,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 ---
 # Sample: Work with business process flows
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, switching to another business process flow instance, retrieving active path for a business process flow instance and its  process stages, and changing the active stage. For information about these concepts, see [Model business process flows](model-business-process-flows.md)  
   
  This sample is for [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)], and is available to download from [Sample: Work with business process flows](https://go.microsoft.com/fwlink/p/?LinkId=846108).  

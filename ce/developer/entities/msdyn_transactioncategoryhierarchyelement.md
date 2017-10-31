@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_transactioncategoryhierarchyelement Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Hierarchical relationship of the transaction category with a root node.
 
 **Added by**: Project Service Automation Solution<br />

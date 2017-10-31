@@ -16,9 +16,12 @@ ms.assetid: 71e3e594-0240-4af1-99b4-135042b7a000
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customization solutions file schema
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The following is the schema definition for an import/export customization file from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. Note that this file includes the following schemas:  
   
 -   [ISV Configuration File Schema](isv-configuration-file-schema.md)  

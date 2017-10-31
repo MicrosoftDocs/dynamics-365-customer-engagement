@@ -16,9 +16,12 @@ ms.assetid: 7c6c4d14-428d-4b96-9fe3-5260c3a6ae36
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Define ribbon commands
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 A *Ribbon* command creates a reusable definition that can be referenced by ribbon control elements.  
   
 ## Ribbon command elements  

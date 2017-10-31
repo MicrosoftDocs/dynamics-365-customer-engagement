@@ -14,9 +14,12 @@ ms.assetid: 979da39a-2d15-4564-84d8-86dd0bcf3c38
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Pass parameters to a URL using the SiteMap
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 To give the target application information about the organization and the language context of the user and organization, 
 pass parameters to the target URL for a `<SubArea>` element in the site map. 
 All the parameters are passed if the `<SubArea>` element is configured by setting the `PassParams` attribute to `true`.  

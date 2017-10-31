@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_purchaseorder Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Record Purchase Orders pertaining to Work Orders or otherwise
 
 **Added by**: Field Service Solution<br />

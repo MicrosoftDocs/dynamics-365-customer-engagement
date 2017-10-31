@@ -16,9 +16,12 @@ ms.assetid: f1be98f9-5146-492d-8183-bf610a34c588
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample code for Dynamics 365 processes
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section contains code examples that show how to use the workflow (process) entity.  
   
 ## In This Section  

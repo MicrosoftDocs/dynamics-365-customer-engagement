@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SdkMessage Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Message that is supported by the SDK.
 
 

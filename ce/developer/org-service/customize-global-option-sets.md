@@ -12,9 +12,12 @@ applies_to:
 ms.assetid: 6786ff10-0e38-4f5c-b973-c682d1d60de5
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Customize global option sets
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Typically, you use global option sets to set fields so that different fields can share the same set of options, which are maintained in one location. You can reuse global option sets. You will also see them used in request parameters in a manner similar to an enumeration.  
   
  When you define an option value by using <xref:Microsoft.Xrm.Sdk.Messages.CreateOptionSetRequest>, 
@@ -48,16 +51,12 @@ Typically, you use global option sets to set fields so that different fields can
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets6](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets6.cs#workwithglobaloptionsets6)]  
   
- [!code-vb[OptionSetsVB#WorkwithGlobalOptionSets6](../../snippets/visualbasic/CRMV8/optionsetsvb/vb/workwithglobaloptionsets6.vb#workwithglobaloptionsets6)]  
-  
 <a name="BKMK_CreateGlobalOptionSet"></a>   
 ## Create a global option set  
  Use the <xref:Microsoft.Xrm.Sdk.Messages.CreateOptionSetRequest> message to create a new global option set. Set the 
  <xref:Microsoft.Xrm.Sdk.Metadata.OptionSetMetadataBase.IsGlobal> property to `true` to indicate that the option set is global. The following code example creates a global option set called “Example Option Set”:  
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets2](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets2.cs#workwithglobaloptionsets2)]  
-  
- [!code-vb[OptionSetsVB#WorkwithGlobalOptionSets2](../../snippets/visualbasic/CRMV8/optionsetsvb/vb/workwithglobaloptionsets2.vb#workwithglobaloptionsets2)]  
   
 <a name="BKMK_CreatePicklistWithGlobalOptionSet"></a>   
 ## Create a picklist that uses a global option set  
@@ -66,16 +65,12 @@ Typically, you use global option sets to set fields so that different fields can
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets3](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets3.cs#workwithglobaloptionsets3)]  
   
- [!code-vb[OptionSetsVB#WorkwithGlobalOptionSets3](../../snippets/visualbasic/CRMV8/optionsetsvb/vb/workwithglobaloptionsets3.vb#workwithglobaloptionsets3)]  
-  
 <a name="BKMK_UpdateGlobalOptionSet"></a>   
 ## Update a global option set  
  The following sample shows how to update the label for a global option set by using 
  <xref:Microsoft.Xrm.Sdk.Messages.UpdateOptionSetRequest>:  
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets4](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets4.cs#workwithglobaloptionsets4)]  
-  
- [!code-vb[OptionSetsVB#WorkwithGlobalOptionSets4](../../snippets/visualbasic/CRMV8/optionsetsvb/vb/workwithglobaloptionsets4.vb#workwithglobaloptionsets4)]  
   
 <a name="BKMK_OrderingOptions"></a>   
 ## Ordering options  
@@ -84,8 +79,6 @@ Typically, you use global option sets to set fields so that different fields can
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets8](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets8.cs#workwithglobaloptionsets8)]  
   
- [!code-vb[OptionSetsVB#WorkwithGlobalOptionSets8](../../snippets/visualbasic/CRMV8/optionsetsvb/vb/workwithglobaloptionsets8.vb#workwithglobaloptionsets8)]  
-  
 <a name="BKMK_RetrieveAllGlobalOptionSets"></a>   
 ## Retrieve all global option sets  
  The following sample shows how to retrieve all global option sets by using 
@@ -93,15 +86,11 @@ Typically, you use global option sets to set fields so that different fields can
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets9](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets9.cs#workwithglobaloptionsets9)]  
   
- [!code-vb[OptionSetsVB#WorkwithGlobalOptionSets9](../../snippets/visualbasic/CRMV8/optionsetsvb/vb/workwithglobaloptionsets9.vb#workwithglobaloptionsets9)]  
-  
 <a name="BKMK_DeleteAGlobalOptionSet"></a>   
 ## Delete a global option set  
  The following sample shows how to check whether a global option set is being used by another solution component by using <xref:Microsoft.Crm.Sdk.Messages.RetrieveDependentComponentsRequest>, and then how to delete it by using <xref:Microsoft.Xrm.Sdk.Messages.DeleteOptionSetRequest>:  
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets12](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets12.cs#workwithglobaloptionsets12)]  
-  
- [!code-vb[OptionSetsVB#WorkwithGlobalOptionSets12](../../snippets/visualbasic/CRMV8/optionsetsvb/vb/workwithglobaloptionsets12.vb#workwithglobaloptionsets12)]  
   
 ### See also  
  [Customize Dynamics 365 Customer Engagement applications](../customize-dev/customize-applications.md)   

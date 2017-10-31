@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # execute (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/execute-description.md](./includes/execute-description.md)] 
 
 ## Syntax
@@ -86,15 +88,20 @@ On success, returns a promise object with the attributes specified earlier in th
 
 ### Execute an action
 
-The following example demonstrates how to execute the **WinOpportunity** Web API action. The request object is created based on the action definition here: [Unbound actions](../../../webapi/use-web-api-actions.md#bkmk_unboundActions)
+The following example demonstrates how to execute the <xref:Microsoft.Dynamics.CRM.WinOpportunity> action. The request object is created based on the action definition here: [Unbound actions](../../../webapi/use-web-api-actions.md#bkmk_unboundActions)
 
 ```JavaScript
-// Define the metadata for the WinOpportunity action
-function WinOpportunity(opportunityClose, status) {
+var Sdk = window.Sdk || {};
+/**
+ * Request to win an opportunity
+ * @param {Object} opportunityClose - The opportunity close activity associated with this state change.
+ * @param {number} status - Status of the opportunity.
+ */
+Sdk.WinOpportunityRequest = function (opportunityClose, status) {
     this.OpportunityClose = opportunityClose;
     this.Status = status;
 
-    WinOpportunity.prototype.getMetadata = function () {
+    this.getMetadata = function () {
         return {
             boundParameter: null,
             parameterTypes: {
@@ -108,26 +115,28 @@ function WinOpportunity(opportunityClose, status) {
                 }
             },
             operationType: 0, // This is an action. Use '1' for functions and '2' for CRUD
-            operationName: "WinOpportunity"
+            operationName: "WinOpportunity",
         };
     };
 };
 
+
 var opportunityClose = {
-    "opportunityid@odata.bind": "/opportunities(c60e0283-5bf2-e311-945f-6c3be5a8dd64)"
+    "opportunityid@odata.bind": "/opportunities(c60e0283-5bf2-e311-945f-6c3be5a8dd64)",
+    "description": "Product and maintainance for 2018",
+    "subject": "Contract for 2018"
 }
 
 // Construct a request object from the metadata
-var winOpportunityRequest = new WinOpportunity(opportunityClose, 3);
+var winOpportunityRequest = new Sdk.WinOpportunityRequest(opportunityClose, 3);
 
 // Use the request object to execute the function
 Xrm.WebApi.online.execute(winOpportunityRequest).then(
-    function success(result) {
+    function (result) {
         if (result.ok) {
-            console.log("Status: " + result.status + " " + result.statusText);
+            console.log("Status: %s %s", result.status, result.statusText);
             // perform other operations as required;
         }
-        
     },
     function (error) {
         console.log(error.message);
@@ -139,33 +148,36 @@ Xrm.WebApi.online.execute(winOpportunityRequest).then(
 
 ### Execute a function
 
-The following example demonstrates how to execute the **WhoAmI** Web API function:
+The following example demonstrates how to execute the <xref:Microsoft.Dynamics.CRM.WhoAmI> function:
 
 ```JavaScript
-// Define the metadata for the WhoAmI function
-function WhoAmI() {
-    WhoAmI.prototype.getMetadata = function () {
+var Sdk = window.Sdk || {};
+/**
+ * Request to execute WhoAmI function
+ */
+Sdk.WhoAmIRequest = function () {
+    this.getMetadata = function () {
         return {
             boundParameter: null,
             parameterTypes: {},
             operationType: 1, // This is a function. Use '0' for actions and '2' for CRUD
-            operationName: "WhoAmI"
+            operationName: "WhoAmI",
         };
     };
 };
 
 // Construct a request object from the metadata
-var whoAmIRequest = new WhoAmI();
+var whoAmIRequest = new Sdk.WhoAmIRequest();
 
 // Use the request object to execute the function
 Xrm.WebApi.online.execute(whoAmIRequest).then(
-    function success(result) {
+    function (result) {
         if (result.ok) {
-            console.log("Status: " + result.status + " " + result.statusText);
+            console.log("Status: %s %s", result.status, result.statusText);
             var response = JSON.parse(result.responseText);
-            console.log("User Id: " + response.UserId);
+            console.log("User Id: %s", response.UserId);
+            // perform other operations as required;
         }
-        // perform other operations as required
     },
     function (error) {
         console.log(error.message);

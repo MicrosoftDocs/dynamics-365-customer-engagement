@@ -21,9 +21,12 @@ ms.assetid: 283151dc-212c-445d-8181-9baec0dcba75
 caps.latest.revision: 28
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Use aggregation in FetchXML
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_crm_2016_and_online_full](../../includes/pn-crm-2016-and-online-full.md)]. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e).  
 
 ## Prerequisites

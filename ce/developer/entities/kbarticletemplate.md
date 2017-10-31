@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # KbArticleTemplate Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Template for a knowledge base article that contains the standard attributes of an article.
 
 

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_invoicefrequencydetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of days expressed as dates or day of week for a specific invoice schedule template.
 
 **Added by**: Project Service Automation Solution<br />

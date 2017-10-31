@@ -21,9 +21,12 @@ ms.assetid: 23835406-e515-4240-a10b-3d5df12542f5
 caps.latest.revision: 18
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # CampaignItem intersect entity metadata
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The `CampaignItem` intersect entity is the intersect table for the following many-to-many relationships for the `Campaign` entity.  
   
 |Relationship schema name|Entity 1|Entity 2|  

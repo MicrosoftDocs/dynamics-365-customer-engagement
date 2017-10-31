@@ -14,10 +14,12 @@ ms.assetid: 3d771a18-3dc5-4372-a7c7-40b3b1f986d8
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Retrieve and execute predefined queries
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement provides a way for administrators to create system views that are available to all users. Individual users can save the advanced find queries for re-use in the application. Both of these represent predefined queries you can retrieve and execute using the Web API. You can also compose a query using FetchXml and use that to retrieve data.
 
@@ -84,6 +86,7 @@ The URL encoded value of this FetchXML is as shown here.
 Most programming languages include a function to URL encode a string. For example, in [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] you use the                  [encodeURI](http://www.ecma-international.org/ecma-262/5.1/) function. You should URL encode any request that you send to any RESTful web service. If you paste a URL into the address bar of your browser it should URL encode the address automatically. The following example shows a GET request using the FetchXML shown previously using the entity set path for accounts.
 
 **Request**
+
 ```http
 GET [Organization URI]/api/data/v9.0/accounts?fetchXml=%3Cfetch%20mapping='logical'%3E%3Centity%20name='account'%3E%3Cattribute%20name='accountid'/%3E%3Cattribute%20name='name'/%3E%3C/entity%3E%3C/fetch%3E HTTP/1.1
 Accept: application/json
@@ -92,6 +95,7 @@ OData-Version: 4.0
 ```
 
 **Response**
+
 ```http
 HTTP/1.1 200 OK
 Content-Type: application/json; odata.metadata=minimal

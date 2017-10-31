@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_taxcodedetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In this entity you can link multiple tax codes together to form a group of tax codes to be charged for the customer to form the total tax.
 
 **Added by**: Field Service Solution<br />

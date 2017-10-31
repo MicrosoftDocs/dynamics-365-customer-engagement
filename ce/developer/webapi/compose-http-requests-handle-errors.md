@@ -14,13 +14,18 @@ ms.assetid: 64a39182-25de-4d31-951c-852025a75811
 caps.latest.revision: 13
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Compose HTTP requests and handle errors
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You interact with the Web API by composing and sending HTTP requests. You need to know how to set the appropriate HTTP headers and handle any errors included in the response.  
 
 <a name="bkmk_url_versions"></a>
+
 ## Web API URL and versions
+
 To access the Web API you must compose a URL using the parts in the following table.
 
 
@@ -53,8 +58,10 @@ The name of the entity, function, or action you want to use.
 
 The URL you will use will be composed with these parts: Protocol + Base URL + Web API path + Version + Resource.
 
-<a name="version_compatiblity"></a> 
+<a name="version_compatiblity"></a>
+
 ###   Version compatibility
+
 This release introduces capabilities which are not available in previous versions. Subsequent minor versions may provide additional capabilities which will not be back ported to earlier minor versions. Your code written for v9.0 will continue to work in future versions when you reference v9.0 in the URL you use.
 
 As new capabilities are introduced they may conflict with earlier versions. This is necessary to allow the service to become better. Most of the time, capabilities will remain the same between versions but you should not assume they will.
@@ -63,8 +70,10 @@ As new capabilities are introduced they may conflict with earlier versions. This
 > Unlike the v8.x minor releases, new capabilities or other changes added to future versions will not be applied to earlier versions.
 > You will need to pay attention to the version of the service you use and test your code if you change the version used.
 
-<a name="bkmk_methods"></a>   
-## HTTP methods  
+<a name="bkmk_methods"></a>
+
+## HTTP methods
+
  HTTP requests can apply a variety of different methods. When using the web API you will only use the methods listed in the following table.  
   
 |Method|Usage|  
@@ -75,8 +84,10 @@ As new capabilities are introduced they may conflict with earlier versions. This
 |DELETE|Use when deleting entities or individual properties of entities.|  
 |PUT|Use in limited situations to update individual properties of entities. This method isn’t recommended when updating most entities. You’ll use this when updating model entities.|  
   
-<a name="bkmk_headers"></a>   
-## HTTP headers  
+<a name="bkmk_headers"></a>
+
+## HTTP headers
+
  Although the OData protocol allows for both JSON and ATOM format, the web API only supports JSON. Therefore the following headers can be applied.  
   
  Every request should include the Accept header value of `application/json`, even when no response body is expected. Any error returned in the response will be returned as JSON. While your code should work even if this header isn’t included, we recommend including it as a best practice  
@@ -87,7 +98,7 @@ As new capabilities are introduced they may conflict with earlier versions. This
  
  All HTTP headers should include at least the following headers.  
   
-```  
+```
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0
@@ -119,8 +130,10 @@ Content-Type: application/json
   
 -   When you execute batch operations, you must apply a number of different headers in the request and with each part sent in the body. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md).  
   
-<a name="bkmk_statusCodes"></a>   
-## Identify status codes  
+<a name="bkmk_statusCodes"></a>
+
+## Identify status codes
+
  Whether an http request succeeds or fails, the response will include a status code. Status codes returned by the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API include the following.  
   
 |Code|Description|Type|  
@@ -139,8 +152,10 @@ Content-Type: application/json
 |501 Not Implemented|Expect this when some requested operation isnt implemented.|Server Error|  
 |503 Service Unavailable|Expect this when the web API service isn’t available.|Server Error|  
   
-<a name="bkmk_parseErrors"></a>   
-## Parse errors from the response  
+<a name="bkmk_parseErrors"></a>
+
+## Parse errors from the response
+
  Details about errors are included as JSON in the response. Errors will be in this format.  
   
 ```json  

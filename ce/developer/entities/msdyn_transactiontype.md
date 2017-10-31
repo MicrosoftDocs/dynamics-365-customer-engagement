@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_transactiontype Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Broad classification, such as time or expense, and the context such cost, unbilled revenue, or billed revenue of a project actual.
 
 **Added by**: Project Service Automation Solution<br />

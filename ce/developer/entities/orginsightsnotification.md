@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # OrgInsightsNotification Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Stores data regarding organization insights notification
 
 

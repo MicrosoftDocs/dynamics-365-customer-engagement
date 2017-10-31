@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SalesLiterature Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Storage of sales literature, which may contain one or more documents.
 
 **Added by**: Sales Solution<br />

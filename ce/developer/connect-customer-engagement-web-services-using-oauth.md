@@ -14,9 +14,12 @@ ms.assetid: 05696c45-2a01-4787-aad5-87e2afef2b7f
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Connect to Dynamics 365 Customer Engagement web services using OAuth
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 OAuth is the authentication method supported by the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement Web API, and is one of two authentication methods for the Organization Service – the other being [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication. One benefit of using              OAuth is that your application can support multi-factor authentication. You can use              OAuth authentication when your application connects to either the Organization service or the Discovery service.  
   
  Method calls to the web services must be authorized with the identity provider for that service endpoint. Authorization is approved when a valid              OAuth 2.0 (user) access token, issued by [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)], is provided in the headers of the message requests.  

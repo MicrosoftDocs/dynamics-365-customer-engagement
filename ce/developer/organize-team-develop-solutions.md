@@ -20,9 +20,12 @@ ms.assetid: 9baa169b-17f7-4dfd-8305-8e2f53bc5acc
 caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Organize your team to develop solutions
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When multiple developers have to work on the same solution, you may want to create an environment where each developer can create customizations that will not interfere with the work of other developers. You may also need to move your solution from development environments to test environments and user acceptance testing (UAT) environments.  
   
 <a name="BKMK_StrategiesForTeamDev"></a>   

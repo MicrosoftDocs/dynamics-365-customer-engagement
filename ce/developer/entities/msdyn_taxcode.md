@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_taxcode Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Store tax related information. Each tax code could contain multiple child tax codes, and in that case the tax rate will be determined by the total tax of all children.
 
 **Added by**: Field Service Solution<br />

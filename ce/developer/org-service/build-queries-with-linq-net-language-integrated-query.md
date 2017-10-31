@@ -14,12 +14,15 @@ ms.assetid: 1c2b2e80-e85d-422c-a3f4-f48895d9c70b
 caps.latest.revision: 27
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Build queries with LINQ (.NET language-integrated query)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can use [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] to write queries in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. You can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class or a deriving class created by the [!INCLUDE[sdk_CodeGenUtility](../../includes/sdk-codegenutility.md)] tool to write [LINQ](https://msdn.microsoft.com/library/bb397897.aspx) queries that access the SOAP endpoint (Organization.svc). The <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class contains an underlying LINQ query provider that translates LINQ queries from [!INCLUDE[pn_MS_Visual_C#](../../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../../includes/pn-visual-basic.md)] syntax into the query API used by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
- When you use early-bound programming classes you can generate a class derived from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class if you specify the name of the class using the **servicecontextname** parameter when using the Code Generation Tool (CrmSvcUtil.exe). Use of this class allows for referencing an [IQueryable](https://msdn.microsoft.com/library/system.linq.iqueryable.aspx) entity set using the pattern `<entity schema name>+Set`, for example **AccountSet** to reference the collection of `Account` entity records. All samples in the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] use **ServiceContext** as the name for this class but your code may use a different name. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create Early Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](create-early-bound-entity-classes-code-generation-tool.md) 
+ When you use early-bound programming classes you can generate a class derived from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class if you specify the name of the class using the **servicecontextname** parameter when using the Code Generation Tool (CrmSvcUtil.exe). Use of this class allows for referencing an [IQueryable](https://msdn.microsoft.com/library/system.linq.iqueryable.aspx) entity set using the pattern `<entity schema name>+Set`, for example **AccountSet** to reference the collection of `Account` entity records. All samples in the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] use **ServiceContext** as the name for this class but your code may use a different name. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create Early Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](create-early-bound-entity-classes-code-generation-tool.md) 
   
 ## In This Section  
  [Use LINQ to Construct a Query](use-linq-construct-query.md)  

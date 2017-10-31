@@ -19,9 +19,12 @@ ms.assetid: f3c2e3c0-5d17-43d8-a614-d772ae1c747e
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Enable duplicate detection and retrieve duplicates
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the work with duplicate detections sample](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
 
 ## Prerequisites

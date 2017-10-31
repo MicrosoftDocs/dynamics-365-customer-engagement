@@ -16,6 +16,9 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Build web applications using Server-to-Server (S2S) authentication
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This feature was introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)].  
   
  Use server-to-server (S2S) authentication to securely and seamlessly communicate with [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] with your web applications and services. S2S authentication is the common way that apps registered on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] use to access the [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] data of their subscribers.  

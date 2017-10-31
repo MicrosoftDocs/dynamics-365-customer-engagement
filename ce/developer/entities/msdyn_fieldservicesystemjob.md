@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_fieldservicesystemjob Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 An internal entity used to track field service system jobs.
 
 **Added by**: Field Service Solution<br />

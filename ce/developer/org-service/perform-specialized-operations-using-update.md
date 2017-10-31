@@ -14,9 +14,12 @@ ms.assetid: 03511f6c-62f5-4976-b91f-996354b1d135
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Perform specialized operations using Update
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Before [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)], specialized messages were required to update certain entity attribute values.  Now, <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> can now be used to set these attributes. The following table identifies the specialized deprecated message requests and the related message attributes that can be updated using <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>.  
   
 |Deprecated message request|Attribute to update|  

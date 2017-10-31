@@ -12,6 +12,8 @@ manager: "amyla"
 ---
 # Controls collection (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Use the Controls collection to access controls associated with attributes. 
 
 Because each attribute may be represented more than one time on the page, the controls collection provides access to all controls representing that attribute. If the attribute is represented by only one field in the page, the length of this collection will be 1. When you use the control getName method the name of the first control will be the same as the name of the attribute. The second instance of a control for that attribute will be **<attributeName>1**. The pattern **<attributeName>+N** will continue for each additional control added to the form for a specific attribute.

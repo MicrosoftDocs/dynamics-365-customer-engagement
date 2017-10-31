@@ -14,9 +14,12 @@ ms.assetid: 14464805-0405-4e19-9d95-6c031de8ae3f
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Synchronize data with external systems using change tracking
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the `RetrieveEntityChangesRequest` message. For more information about the feature that this sample demonstrates, see [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md).  
   
  This sample requires [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)] or later . This sample is available to download from [Synchronize data with external systems using change tracking](http://go.microsoft.com/fwlink/p/?LinkId=533957).  
@@ -86,7 +89,7 @@ This sample code shows how to retrieve changes from an entity and synchronize da
     |Enter a Dynamics 365 server name and port [crm.dynamics.com]|Type the name of your Dynamics 365 server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />myservername<br />myprefix.myservername:5500<br />crm5.dynamics.com<br /><br /> Don’t include the name of your organization or Internet protocol (http or https). You’ll be prompted for that later.|  
     |Is this server configured for Secure Sockets Layer (https) (y/n) [n]|Type **y** if the URL you use to access Dynamics 365 begins with https://, otherwise type **n**.|  
     |Is this organization provisioned in Microsoft online services (y/n) [n]|Type **y** if this is a Microsoft online services provisioned organization. Otherwise, type **n**.|  
-    |Enter domain\username|Type your Microsoft account. <br />For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], type your network domain and user name separated by a backslash (\\).|  
+    |Enter domain\username|Type your Microsoft account. <br />For [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], type your network domain and user name separated by a backslash (\\).|  
     |Enter password|Type your password. The characters will show as “*” in the window. Your password is securely saved in the Microsoft Credential Manager for later reuse.|  
     |Specify an organization number (1-n) [1]|From the list of organizations shown that you belong to, type the corresponding number. The default is 1, indicating the first organization in the list.|  
   

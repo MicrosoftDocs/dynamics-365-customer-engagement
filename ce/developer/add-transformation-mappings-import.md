@@ -25,9 +25,12 @@ ms.assetid: c5c6c8ac-0206-4658-8f4b-58310ecd9c29
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Add transformation mappings for import
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use transformation mapping to modify data before importing it. For example, split a full name that is contained in the source file into a first name and a last name to match the target attributes for an entity.  
   
  To implement transformation mapping, use the transformation mapping (`TransformationMapping`) entity and transformation parameter mapping (`TransformationParameterMapping`) entity.  

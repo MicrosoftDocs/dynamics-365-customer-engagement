@@ -13,9 +13,11 @@ ms.assetid: 46306470-dca2-4d4e-8a98-d7a6eb47ecfe
 caps.latest.revision: 40
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Browse the metadata for your organization
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can use the Entity Metadata Browser to view entities and their properties in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. The Entity Metadata Browser is a managed solution you can download using the links below.
 

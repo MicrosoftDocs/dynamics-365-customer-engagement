@@ -17,9 +17,12 @@ ms.assetid: e36cefcb-68a8-44b9-a054-a42f87d9bcb4
 caps.latest.revision: 24
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample code for queue entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This section contains the code examples that demonstrate how to use the queue entities.  
   
 ## In This Section  

@@ -16,6 +16,8 @@ ms.author: "v-cavo"
 ---
 # Web API Query Data Sample
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This group of  samples demonstrate how to query data using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API. This sample is implemented as a separate project for the following languages:
 
 - [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)

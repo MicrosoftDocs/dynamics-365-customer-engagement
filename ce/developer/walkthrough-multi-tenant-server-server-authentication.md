@@ -16,6 +16,9 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Walkthrough: Multi-tenant server-to-server authentication
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This walkthrough will describe the steps to create a multi-tenant web application that can connect to a [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] tenant using the [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] MVC web application template.  
   
 <a name="bkmk_Requirements"></a>   
@@ -29,7 +32,7 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
 <a name="bkmk_goal"></a>   
 ## Goal of this walkthrough  
- When you complete this walkthrough you will have an MVC web application which will use the [WhoAmIRequest Class](http://msdn.microsoft.com/en-us/0daeeabf-e8ec-4df1-a320-7aadef191d4c) to retrieve data about the user the application uses to connect to the [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] Customer Engagement tenant.  
+ When you complete this walkthrough you will have an MVC web application which will use the [WhoAmIRequest Class](http://msdn.microsoft.com/en-us/0daeeabf-e8ec-4df1-a320-7aadef191d4c) to retrieve data about the user the application uses to connect to the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement tenant.  
   
  When you run the app successfully you will see a **Sign in** command in the top right corner.  
   
@@ -158,16 +161,17 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
  The owin:appStartup string ensures that the OWIN middleware uses the `Startup` class in this project. Otherwise you will get the following error:  
   
-```  
+```ms-dos
 - No assembly found containing an OwinStartupAttribute.  
 - No assembly found containing a Startup or [AssemblyName].Startup class.  
-  
 ```  
   
  More information: [ASP.NET: OWIN Startup Class Detection](https://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection)  
   
-<a name="bkmk_HomeController"></a>   
-### Controllers/HomeController.cs  
+<a name="bkmk_HomeController"></a>
+
+### Controllers/HomeController.cs
+
  Add the `AllowAnonymous` decorator to the `Index` action. This allows access to the default page without authentication.  
   
 ```csharp  
@@ -472,8 +476,7 @@ namespace <Your app namespace>
   
  At this point you can verify that the application user account was used. An easy way to check this is by using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web API. Type in the following URL into a separate tab or window, substituting the `UserId` value from the application.  
   
-```  
-  
+```
 [Organization URI]/api/data/v8.2/systemusers(<UserId value>)?$select=fullname  
 ```  
   
@@ -508,33 +511,38 @@ namespace <Your app namespace>
   
  After you grant consent you will return to the app, but you won’t be able to use it yet. If you click **WhoAmI** at this point you can expect the following exception:  
   
-```  
+```
 System.ServiceModel.Security.MessageSecurityException  
 HResult=-2146233087  
   Message=The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'Bearer authorization_uri=https://login.windows.net/4baaeaaf-2771-4583-99eb-7c7e39aa1e74/oauth2/authorize, resource_id=https://<org name>.crm.dynamics.com/'.  
 InnerException.Message =The remote server returned an error: (401) Unauthorized.  
-  
 ```  
   
  By granting consent, the application from your Azure AD tenant will be added to the applications in the subscriber’s active directory tenant.  
   
-<a name="bkmk_CreateSubscriberSecurityRole"></a>   
-### Create a custom security role in the subscriber tenant  
+<a name="bkmk_CreateSubscriberSecurityRole"></a>
+
+### Create a custom security role in the subscriber tenant
+
  The application user  you will need to create must be associated with a custom security role which defines their privileges. For this manual testing step, you should first manually create a custom security role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a security role](../admin/create-edit-security-role.md)  
   
 > [!NOTE]
 >  The application user cannot be associated with one of the default [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] security roles. You must create a custom security role to associate with the application user.  
   
-<a name="bkmk_CreateSubscriberUser"></a>   
-### Create the subscriber application user  
+<a name="bkmk_CreateSubscriberUser"></a>
+
+### Create the subscriber application user
+
  For the purposes of this walkthrough, we will manually create the application user to verify connectivity from a different tenant. When you deploy to actual subscribers, you will want to automate this. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Prepare a method to deploy the application user](use-multi-tenant-server-server-authentication.md#bkmk_PrepareMethodToDeployAppUser)  
   
  You create the application user  manually using the same values you used for your development organization in [Create an application user](#bkmk_CreateApplicationUser). The exception is that you must have completed the step to grant consent first. When you save the user, the **Application ID URI** and **Azure AD Object ID** values will be set. You will not be able to save the user if you haven’t granted consent first.  
   
  Finally, associate the application user  with the custom security role you added in the previous step.  
   
-<a name="bkmk_TestSubscriber"></a>   
-### Test the subscriber connection  
+<a name="bkmk_TestSubscriber"></a>
+
+### Test the subscriber connection
+
  Repeat the steps in [Debug the app](#bkmk_DebugApp) except use the credentials for a user from the other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tenant.  
   
 ### See also  

@@ -1,5 +1,6 @@
 ---
 title: "Client scripting in Customer Engagement using JavaScript| MicrosoftDocs"
+description: "Learn how to use Client API in Customer Engagement to apply custom business process logic for displaying data on a form."
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "article"
@@ -11,6 +12,8 @@ ms.author: "kvivek"
 manager: "amyla"
 ---
 # Client scripting in Customer Engagement using JavaScript
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Client-side scripting using JavaScript is one of the ways to apply custom business process logic for displaying data on a form in Customer Engagement. 
 
@@ -24,7 +27,7 @@ Forms in Customer Engagement help display data to the user. A form in Customer E
 
 You can attach your JavaScript code to "react" to these events so that your code gets executed when the event occurs on the form. You attach your JavaScript code (scripts) to these events by using a [Script web resource](../script-jscript-web-resources.md) in Customer Engagement. 
 
-Customer Engagement provides you a rich set of client-side APIs to interact with form objects and events to control what and when to display on a form.
+Customer Engagement provides you a rich set of **client APIs** to interact with form objects and events to control what and when to display on a form.
 
 > [!NOTE]
 > Some client APIs are deprecated in the current release of Dynamics 365 Customer Engagement. Ensure that you are aware of these APIs as you write your client-side code for Customer Engagement. More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)

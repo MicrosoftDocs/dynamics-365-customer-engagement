@@ -19,9 +19,12 @@ ms.assetid: fb89b821-ed96-4a24-bae9-3e217f2cf1dc
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Qualify a lead
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62).  
 
 ## Prerequisites

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_iotdevice Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Represents a connected device that can registered with an IoT hub.
 
 **Added by**: IoT Connector for Microsoft Dynamics 365 Solution<br />

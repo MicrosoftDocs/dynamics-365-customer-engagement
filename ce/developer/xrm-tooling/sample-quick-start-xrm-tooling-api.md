@@ -14,9 +14,11 @@ ms.assetid: 060d45bb-b7fd-48bd-ab8f-629c1b8bc1dc
 caps.latest.revision: 20
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Quick start for XRM Tooling API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)] managed code sample that shows how to connect to a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement instance by using the XRM Tooling APIs, and perform basic create, update, retrieve, and delete operations on an entity. For more information about XRM Tooling, see [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md).  
 

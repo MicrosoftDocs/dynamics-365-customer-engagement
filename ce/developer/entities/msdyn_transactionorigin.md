@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_transactionorigin Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 System entity used to record the source of a project cost or sales actual.
 
 **Added by**: Unified Resource Scheduling Solution<br />

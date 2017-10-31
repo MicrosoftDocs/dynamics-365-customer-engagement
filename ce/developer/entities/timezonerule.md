@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # TimeZoneRule Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Definition for time conversion between local time and Coordinated Universal Time (UTC) for a particular time zone at a particular time period.
 
 

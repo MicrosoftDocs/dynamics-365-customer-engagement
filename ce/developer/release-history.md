@@ -14,14 +14,16 @@ ms.assetid: 122ac8e4-ea24-4184-ac33-b1e3bcf073a0
 caps.latest.revision: 211
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 tags: 
  - "aug2017" 
  - "MigrationHO"
 ---
 # Dynamics 365 Customer Engagement Developer Guide Release history
 
-**Current Version: 9.0, July 2017**
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+**Current Version: 9.0, October 2017**
 
 In the current release of [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] Customer Engagement, the content for developers, administrators and end users is available on [docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365). This provides a unified content experience where you can seamlessly search and consume content for all the personas without having to navigate to different sites.
 

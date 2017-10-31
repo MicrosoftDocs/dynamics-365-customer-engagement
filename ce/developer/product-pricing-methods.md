@@ -23,9 +23,12 @@ ms.assetid: 0198d2a3-ddfb-474f-9a52-990cf6d1ca5b
 caps.latest.revision: 29
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Product pricing methods
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses the `ProductPriceLevel.PricingMethodCode` attribute to determine prices. The value of this attribute affects:  
   
 -   How the price for the product is determined for each unit of measure that is defined for that product.  

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Goal Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Target objective for a user or a team for a specified time period.
 
 

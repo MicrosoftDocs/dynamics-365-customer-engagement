@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # CompetitorProduct Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Association between a competitor and a product offered by the competitor.
 
 **Added by**: Sales Solution<br />

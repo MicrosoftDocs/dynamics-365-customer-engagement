@@ -16,9 +16,12 @@ ms.assetid: 08c73aba-26ed-4cf9-aacc-c225140025bc
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Define ribbon tab display rules
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Tab display rules control whether a specific tab is displayed for a ribbon or not.  
   
  Unlike other ribbon elements like groups or specific controls, you must explicitly provide a tab display rule for a tab to be displayed in the ribbon. By default, other ribbon elements will always display unless a display rule removes them.  

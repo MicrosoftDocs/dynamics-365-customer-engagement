@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BookableResourceCategoryAssn Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Association entity to model the categorization of resources.
 
 **Added by**: Scheduling Solution<br />

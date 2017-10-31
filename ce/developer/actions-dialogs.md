@@ -16,9 +16,11 @@ ms.assetid: dec79d11-75fc-4a1c-ae50-3b5d3d237fd7
 caps.latest.revision: 29
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Actions on dialogs
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic describes the actions you can perform on dialogs.  
 
@@ -75,7 +77,7 @@ information about custom workflow activities, see [Custom Workflow Activities](c
 
  You can start an activated dialog by specifying the URL of the dialog. To do so, you must specify the URL in the following format:  
 
-```unstlib
+```
 http://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&EntityName=EntityLogicalName&ObjectId=EntityObjectId  
 ```
 

@@ -14,9 +14,11 @@ ms.assetid: bba8645a-a725-4c4d-a393-bab8ca692482
 caps.latest.revision: 38
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Webpage (HTML) web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use webpage (HTML) web resources to create user interface elements for client extensions.
 

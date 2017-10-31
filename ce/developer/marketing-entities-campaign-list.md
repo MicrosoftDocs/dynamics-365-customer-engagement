@@ -18,9 +18,12 @@ ms.assetid: 02a49cee-8027-4c98-923e-23a9d687cfcb
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Marketing entities (campaign, list)
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The marketing entities let you perform detailed campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance.  
   
 ## In This Section  

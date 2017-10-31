@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_workhourtemplate Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Template where resource working hours can be saved and reused.
 
 **Added by**: Unified Resource Scheduling Solution<br />

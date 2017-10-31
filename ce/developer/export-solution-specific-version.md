@@ -14,9 +14,12 @@ ms.assetid: d4b9fe60-1d33-4588-abae-192ead9c1d22
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Export a solution for a specific Dynamics 365 version
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 > [!NOTE]
 >  This topic describes functionality that is available for minor version updates to major versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. This capability is not available for the initial release of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], but will be when minor version updates included additional functionality.  
   

@@ -16,9 +16,12 @@ ms.assetid: db6a8899-9003-4ae0-b249-9fc31854583e
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: REST listener
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample from [Sample: Microsoft Dynamics 365 and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a)
   
 ## Requirements  

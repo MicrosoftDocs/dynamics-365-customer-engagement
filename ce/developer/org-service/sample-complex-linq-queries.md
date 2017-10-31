@@ -19,9 +19,12 @@ ms.assetid: e7b83553-e710-4e7b-865c-5a8cd31a8166
 caps.latest.revision: 26
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Complex LINQ queries
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e). 
 
 ## Prerequisites

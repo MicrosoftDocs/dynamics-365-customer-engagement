@@ -14,9 +14,12 @@ ms.assetid: c923e9fd-c687-4671-9ffd-1306da9f80d8
 caps.latest.revision: 14
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Visualization data description schema
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. For more information, see [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md). You can find this schema in the `SDK\Schemas\VisualizationDataDescription.xsd` file in the SDK [!INCLUDE[sdk_download](../../includes/sdk-download.md)] package.  
   
 ## Schema  

@@ -27,9 +27,12 @@ ms.assetid: 7d0f1da8-1d6b-4795-a4c1-b0ed898e59f0
 caps.latest.revision: 39
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Work with knowledge articles in Dynamics 365
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The new knowledge articles in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365.  
   
  This topic provides information about working with the new native Dynamics 365 knowledge management capabilities.  

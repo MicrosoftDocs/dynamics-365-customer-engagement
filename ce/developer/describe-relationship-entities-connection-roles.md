@@ -22,9 +22,12 @@ ms.assetid: 19b6da03-5c17-4f6d-8521-32aa68d60f2e
 caps.latest.revision: 63
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Describe a relationship between entities with connection roles
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can describe the relationship between records through the roles that you assign to them.  
   
  There are several ways you can use the connection roles in a connection:  

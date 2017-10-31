@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # Walkthrough: Write your first client script
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Ready to write your first client script to see things in action. Lets get started; we'll keep it simple.
 
 ## Objective

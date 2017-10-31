@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_rtvproduct Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Records products to be returned on an RTV
 
 **Added by**: Field Service Solution<br />

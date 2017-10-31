@@ -25,9 +25,12 @@ ms.assetid: 631e9570-86e5-490e-98dd-ee27925ea8e8
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Contract entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], a *contract* is an agreement to provide support during specified coverage dates or for a specified number of cases or length of time. When customers contact customer service, the level of support they receive is determined by their contract.  
   
  The contract entity is used to track customer service agreements. You can create contracts for existing customers that specify the type of service and terms that apply to each customer. New contracts are created based on the contract template. You can create contracts only for existing accounts and contacts.  

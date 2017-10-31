@@ -19,9 +19,12 @@ ms.assetid: c07ed908-effe-404b-9925-467b31a29766
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Delete or end a recurring appointment series or instance
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can delete a recurring appointment series, delete an instance in the series, or end a recurring appointment series after a specified date and time.  
   
 <a name="bkmk_deleteinstance"></a>   

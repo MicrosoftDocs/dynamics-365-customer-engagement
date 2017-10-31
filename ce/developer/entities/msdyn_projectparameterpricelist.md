@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_projectparameterpricelist Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Set of default cost and sales price lists that the company uses when there are no specific pricing agreements for cost and sales.
 
 **Added by**: Project Service Automation Solution<br />

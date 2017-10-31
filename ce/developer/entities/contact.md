@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Contact Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 
 

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_PostAlbum Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Contains user profile images that are stored as attachments and displayed in posts.
 
 **Added by**: Activity Feeds Solution<br />

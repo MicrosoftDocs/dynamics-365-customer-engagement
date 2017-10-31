@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ExternalParty Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information about external parties that need to access Dynamics 365 from external channels.For internal use only
 
 

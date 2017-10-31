@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # PickListMapping Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In a data map, maps list values from the source file to Microsoft Dynamics 365.
 
 

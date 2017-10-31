@@ -21,9 +21,12 @@ ms.assetid: b0154ffa-5861-4c2f-a796-a5a0c1bf4dec
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # ActivityParty entity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 An activity party represents a person or group associated with an activity. An activity can have multiple activity parties.  
   
 <a name="ActivityPartyTypes"></a>   

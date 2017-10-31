@@ -23,9 +23,12 @@ ms.assetid: 8fda7c51-ce40-4263-aeac-804dc79ea212
 caps.latest.revision: 41
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use LINQ to construct a query
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] query provider in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement uses standard LINQ syntax. The first step in creating a LINQ query is to identify the relevant entity types and the relationships between them. You can then specify the data source and the other query parameters.  
   
  The `from` clause is used to return a single “root” entity. The query provider can only return entities of a single entity type. The `orderby` and `select` clauses must reference this root entity. You can use `join` clauses to add entities with a relationship to the “root” entity.  
@@ -128,8 +131,6 @@ select new Contact
  The following sample shows how to create a LINQ query that works with two entities and filters the result based on values from each of the entities.  
   
  [!code-csharp[query#linqexamples3](../../snippets/csharp/CRMV8/query/cs/linqexamples3.cs#linqexamples3)]  
-  
- [!code-vb[queryvb#linqexamples3](../../snippets/visualbasic/CRMV8/queryvb/vb/linqexamples3.vb#linqexamples3)]  
   
 ### See also  
  [Sample: Create a LINQ Query](sample-create-linq-query.md)   

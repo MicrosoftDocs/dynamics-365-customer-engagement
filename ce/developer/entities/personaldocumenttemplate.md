@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # PersonalDocumentTemplate Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Used to store Personal Document Templates in database in binary format.
 
 

@@ -14,9 +14,12 @@ ms.assetid: 34f69739-16d5-492c-bfd3-eee6772cd5eb
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Organization service methods
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The <xref:Microsoft.Xrm.Sdk.IOrganizationService> interface provides a set of methods used to perform the most common operations on system and custom entities and on the metadata for your organization. These operations can also be performed by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method and the corresponding message.  
   
 ## Create  
@@ -55,6 +58,6 @@ The <xref:Microsoft.Xrm.Sdk.IOrganizationService> interface provides a set of me
  [Use ExecuteMultiple to improve performance for bulk data load](use-executemultiple-improve-performance-bulk-data-load.md)<br />
  [Microsoft.Xrm.Sdk Messages](xrm-messages-organization-service.md)<br />
  [Microsoft.Crm.Sdk Messages](organization-service-messages.md)<br />
- [Connecting to the Dynamics 365 Services - Authentication](authenticate-users.md)<br />
+ [Authenticate users in Dynamics 365 Customer Engagement](../authenticate-users.md)<br />
  [Sample: Create, Retrieve, Update and Delete (CRUD) Using Strong Types](sample-create-retrieve-update-delete-records-early-bound.md)<br />
  [Sample: Create, Retrieve, Update and Delete (CRUD) Using Property Bag (Loosely-typed)](sample-create-retrieve-update-delete-late-bound.md)

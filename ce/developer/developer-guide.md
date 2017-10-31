@@ -14,12 +14,14 @@ ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 caps.latest.revision: 285
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 tags: 
  - "aug2017" 
  - "MigrationHO"
 ---
 # Developer Guide for Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement Developer Guide (formerly referred to as the Dynamics 365 SDK). This documentation is for version 9.0, known as [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], which is an online only release.
 
@@ -74,7 +76,7 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Custo
 <li>[Asynchronous service](asynchronous-service.md)</li>
 <li>[Azure extensions](azure-extensions.md)</li>
 <li>[Webhooks](use-webhooks.md)</li>
-<li>[Client scripting](clientapi/client-scripting.md)</li>
+<li>[Client scripting (Client API)](clientapi/client-scripting.md)</li>
 </td>
 <td>
 

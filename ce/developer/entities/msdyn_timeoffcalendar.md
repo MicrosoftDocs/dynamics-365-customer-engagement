@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_timeoffcalendar Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Relationship table for time off calendar entries.
 
 **Added by**: Project Service Automation Solution<br />
