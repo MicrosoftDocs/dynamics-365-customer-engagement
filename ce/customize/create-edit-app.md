@@ -70,11 +70,16 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
   
          For online organizations: https://\<server>. crm#.dynamics.com/Apps/\<App URL>  
   
-        > [!NOTE]
-        >  If you clear the App URL Suffix field and then save, the app URL is automatically generated with the app ID.  
+     > [!NOTE]
+     >  If you clear the App URL Suffix field and then save, the app URL is automatically generated with the app ID.  
   
-    - **Use an existing solution to create the App**. Select this option to create the app from a list of installed solutions. By selecting the **Default Solution**, when you add a site map, the components that are associated with that site map are automatically added to the app.  
-  
+    - **Use existing solution to create the App**. Select this option to create the app from a list of installed solutions. When you select this option, **Done** button toggles to **Next** on the header. Select **Next** and you are navigated to **Creat app from existing solution** page. From the **Select Solution** drop down list, select a solution from which you want to create the app. If any sitemap is availabe for the selected solution, **Select Sitemap** drop down list will be displayed. Select the sitemap and then select **Done**.
+     > [!NOTE]
+     > By selecting the **Default Solution**, when you add a sitemap, the components that are associated with that sitemap are automatically added to the app.  
+
+     ![Use existing solution to create the app page](../customize/media/use-existing-solution-to-create-the-app.png "Use existing solution to create the app page") 
+
+
     - **Choose a welcome page**. This option allows you to select from the web resources available in your organization. The welcome pages you create can contain useful information to users such as links to videos, upgrade instructions, or getting started information. The welcome page displays when an app is opened. Users may select **Do not show this Welcome Screen next time** on the welcome page to disable the page so it doesn’t appear the next time the app starts. For more information about how to create a web resource, such as an HTML file that you can use as a welcome page, see [Create and edit web resources to extend the web application](create-edit-web-resources.md).  
   
      To edit app properties later, go to the **Properties** tab in the app designer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage app properties](../customize/manage-app-properties.md)  

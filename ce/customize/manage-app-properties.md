@@ -39,6 +39,7 @@ App properties define important details about the app, like its title or URL. Yo
     |**Client**|Defines the type of client that the app will be used for.<br/>-  **Web:** This is the classic [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web browser client.<br/>-  **Unified Interface:** This is the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web browser client that has a similar interface across PC and mobile devices.|
     |**App URL Suffix**| The URL you chose while creating the app is shown here by default. You can change the app URL in the **Manage App** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md)|
     |**Choose a welcome page for the app**|This option allows you to select from the web resources available in your organization. The welcome pages you create can contain useful information to users such as links to videos, upgrade instructions, or getting started information. For more information about how to create a web resource, such as an HTML file that you can use as a welcome page, see [Create and edit web resources to extend the web application](create-edit-web-resources.md).|
+    |**Enable Mobile Offline**|This option enables the app to be available offline on mobiles to the profiles that are selected using **Mobile Offline Profiles** drop down list.|
   
 3.  Save the app.  
   

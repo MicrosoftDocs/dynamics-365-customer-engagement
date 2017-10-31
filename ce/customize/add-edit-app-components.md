@@ -1,19 +1,23 @@
 ---
 title: "Add or edit app components (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: be93b9d7-f1c2-4ee7-8d7c-0f5c34dfa5f7
+ms.author: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 17
-ms.author: "shujoshi"
+topic-status: Drafting
 ---
+
 # Add or edit app components in the app designer
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -31,8 +35,11 @@ An app is composed of various components. There are two types of components that
   
  ![App designer components](../customize/media/app-designer-canvas-components-tab.png "App designer components")  
   
- On the canvas, you’ll see areas for site map, business process flow, dashboard, and entities. When you select a dashboard or business process flow or configure a site map,  the app designer automatically adds the entities that are used in these components to the canvas. Once you have the entities in place, all you need to do is select each entity, and add the required entity assets like the forms, view, and charts to it.  
+ On the canvas, you’ll see areas for site map, business process flow, dashboard, and entities. When you select a dashboard or business process flow or configure a site map,  the app designer automatically adds the entities that are used in these components to the canvas. Once you have the entities in place, all you need to do is select each entity, and add the required entity assets like the forms, view, and charts to it.
+ You can also use the **Search Canvas** option to search for the components on the canvas. when you select this option, a new search tab will open on the right side tab area.   
   
+ ![Canvas search option](media/app-designer-search-tab.png "Canvas search")
+
 ## Add an artifact (entity, dashboard, or business process flow)  
  When you add a dashboard or business process flow to an app, the entities they use are automatically added to the app. When you add an entity, the tiles for its assets are automatically added. There are two ways you can add artifacts to the designer canvas: by using the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the command bar or by using the tiles in the **Components** tab.  
   
@@ -52,15 +59,19 @@ An app is composed of various components. There are two types of components that
   
      The dashboard list will be filtered to show results that match your keywords.  
   
-3.  If you want your users to use only selected dashboards, select the check box for the dashboards you want to add. Those dashboards will be added to the Dashboard tile on the app designer canvas. The dashboard tile also shows a count of the number of dashboards added to the app. If you don't select a dashboard, all dashboards are available to  users when they use the app, and instead of the dashboard count, "All" is shown.  
+3.  If you want your users to use only selected dashboards, select the check box for the dashboards you want to add. You can select from the following types of dashboards:
+    - **Classic Dashboards:** Dashboards to display only on web application.
+    - **Intractive Dashboards:** Dashboards to display on unified interface.
+
+     Those dashboards will be added to the Dashboard tile on the app designer canvas. The dashboard tile also shows a count of the number of dashboards added to the app. If you don't select a dashboard, all dashboards are available to  users when they use the app, and instead of the dashboard count, "All" is shown.  
   
      All entities the dashboard uses are also added to the **Entity View**  area. For example, if you add the Customer Service Manager dashboard, the Case, Entitlement, and Queue Item entities are added to the Entity View area. For each entity, tiles for its assets are also added. You can use these  tiles to add forms, views, and charts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add entity assets (forms, views, or charts)](../customize/add-edit-app-components.md#bkmk_AddEntityAssets)  
   
- ![Add entity to the app designer canvas](../customize/media/add-entity-app-designer-canvas.png "Add entity to the app designer canvas")  
+    ![Add entity to the app designer canvas](../customize/media/add-entity-app-designer-canvas.png "Add entity to the app designer canvas")  
   
 4.  If the dashboard you want doesn't exist in the default solution, create a dashboard by clicking **Create New** on the **Components** tab on the right side.  
   
- ![Create New link on the Components tab of app designer](../customize/media/app-designer-components-tab-create-new.png "Create New link on the Components tab of app designer")  
+     ![Create New link on the Components tab of app designer](../customize/media/app-designer-components-tab-create-new.png "Create New link on the Components tab of app designer")  
   
      The dashboard designer opens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit dashboards](../customize/create-edit-dashboards.md)  
   
@@ -71,8 +82,9 @@ An app is composed of various components. There are two types of components that
 5.  When you're done adding artifacts, on the command bar, click **Save**.  
   
 <a name="bkmk_AddEntityAssets"></a>   
-## Add entity assets (forms, views, or charts)  
- With the artifacts in place, you can start adding entity assets like forms, views, and charts to the app.  
+## Add entity assets (forms, views, charts, or dashboards)  
+ With the artifacts in place, you can start adding entity assets like forms, views, and charts to the app.
+ Additionally, if you are using Unified Interface client, you can also add entity assests dashboards to the app.  
   
  This section describes the steps for adding a form to the app. Use the same steps to add a view or chart to the app.  
   
@@ -83,7 +95,7 @@ An app is composed of various components. There are two types of components that
     > [!NOTE]
     >  Alternatively, you can also do one of the following:  
     >   
-    > - Click the **Add**![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") button, and then select **Forms**.  
+    > - Click the **Add** ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") button, and then select **Forms**.  
     > - On the **Components** tab, under **Entity Assets**, click **Forms**.  
   
     > [!TIP]
@@ -93,7 +105,7 @@ An app is composed of various components. There are two types of components that
   
      The form tile of the selected entity will show  the number of forms added.  
   
- ![Form tile for case entity](../customize/media/add-forms-entity.png "Form tile for case entity")  
+     ![Form tile for case entity](../customize/media/add-forms-entity.png "Form tile for case entity")  
   
      If a form, view, chart, dashboard, or business process flow isn't selected, it won't be added to the app designer,   but all entities that are in the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution are available to app users while using the app.  This helps users create apps quickly when they need to work with all available components—there's no need to select each component during app design.  
   
@@ -116,7 +128,7 @@ An app is composed of various components. There are two types of components that
   
 4.  Click **Details** to expand the tile  and see a list of forms that have been added.  
   
- ![Form tile expanded in app designer](../customize/media/app-designer-expanded-form-tile.png "Form tile expanded in app designer")  
+     ![Form tile expanded in app designer](../customize/media/app-designer-expanded-form-tile.png "Form tile expanded in app designer")  
   
 5.  Repeat these steps to add entity views and charts to the app.  
   

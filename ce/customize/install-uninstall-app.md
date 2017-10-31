@@ -51,7 +51,7 @@ Apps are available as solution components in [!INCLUDE[pn_crm_shortest](../inclu
 4.  Select the app you want to delete, and on the command bar, click **Delete**.  
   
      You can delete unmanaged components or managed components that are customizable. If the component has dependencies such as relationships, you must remove the dependencies before you can delete the component. See **Show Dependencies**.  
- > [!IMPORTANT] 
- > When you delete the app, you should also delete the sitemap. If not, an error will occure while creating another app with the same name. 
+ > [!NOTE] 
+ > When you delete the app, we recommend that you delete the associated sitemap. If you do not delete, the sitemap designer displays an error the first time you creating another app with the same name. However, you may ignore the error and the error will not display on the subsequent attempts. 
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
