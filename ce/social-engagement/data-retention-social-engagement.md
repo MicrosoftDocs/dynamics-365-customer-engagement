@@ -36,7 +36,7 @@ If a solution has acquired private messages from a social profile and the owner 
 If the global administrator decides to de-provision the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution for an organization, all related data such as posts, search topics, direct messages, and user permissions are deleted 180 days after the organization’s subscription is canceled.  
   
 ### See Also  
-[Manage social profiles](../social-engagement/manage-social-profiles.md)   
-[Understand user roles](../social-engagement/user-roles.md)   
-[Work with posts](../social-engagement/work-with-posts.md)
+[Manage social profiles](manage-social-profiles.md)   
+[Understand user roles](user-roles.md)   
+[Work with posts](work-with-posts.md)
  

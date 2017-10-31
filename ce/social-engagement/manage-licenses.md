@@ -39,7 +39,7 @@ If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../
 
 5. Complete the purchase process to start provisioning [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
-It takes a few minutes to complete the provisioning process before you can start using [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. You'll receive an email with the details to access your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] instance when it's set up. You are now ready to [sign in](../social-engagement/sign-in.md) and [set up](administer-microsoft-social-engagement.md) [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+It takes a few minutes to complete the provisioning process before you can start using [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You'll receive an email with the details to access your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance when it's set up. You are now ready to [sign in](sign-in.md) and [set up](administer-microsoft-social-engagement.md) [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Assign a license to a user
 
