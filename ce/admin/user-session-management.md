@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management for Dynamics 365 for Government | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,21 +16,21 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Security enhancements: User session and access management
+# Security enhancements: User session and access management 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-<!--
-Now available for customers using December 2016 update for Dynamics 365 (online), you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
--->
 
 New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
 
 > [!IMPORTANT]
 > These security enhancements are also available for:
 >
-> - Microsoft Dynamics CRM 2016 (on-premises, version 8.1 or later)
-> - Microsoft Dynamics CRM 2015 (on-premises)
+> - Microsoft Dynamics CRM 2016 (on-premises, version 8.2) <br />
+>   The feature is included in [this update](https://support.microsoft.com/help/4046795/microsoft-dynamics-365-online-and-on-premises-update-2-2).
+> - Microsoft Dynamics CRM 2016 (on-premises, version 8.1) <br />
+>   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
+> - Microsoft Dynamics CRM 2015 (on-premises) <br />
+>   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
 > 
 > For more information on these versions, see [Security enhancements: User session and access management](https://technet.microsoft.com/library/mt825191.aspx)
 
@@ -94,9 +94,23 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] portal has its own s
 <!--
 ## Steps for enabling security enhancements for Dynamics 365 (on-premises) deployments
 
-These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when installing the latest Dynamics 365 (on-premises) build.
+These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 (on-premises) builds listed below.
 
-Setup: 
+> [!NOTE]
+> This applies to customers with the following versions of Dynamics 365:
+> - Microsoft Dynamics CRM 2016 (on-premises, version 8.2) <br />
+>   The feature is included in [this update](https://support.microsoft.com/help/4046795/microsoft-dynamics-365-online-and-on-premises-update-2-2).
+> - Microsoft Dynamics CRM 2016 (on-premises, version 8.1) <br />
+>   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
+> - Microsoft Dynamics CRM 2015 (on-premises) <br />
+>   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
+> 
+> **Requirement**
+> These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
+> - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx).
+> - With claims-based authentication alone if Microsoft Dynamics 365 is deployed in the same domain where all Microsoft Dynamics 365 users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://technet.microsoft.com/library/dn920270.aspx).
+
+To obtain SDK sample code (for reference, not required to configure and enable session timeout):
 
 1. Access your Dynamics 365 server using your administrator account.
 2. Open a browser session and download the [Dynamics 365 Software Development Kit (SDK)](https://www.microsoft.com/download/details.aspx?id=50032).
@@ -104,6 +118,8 @@ Setup:
 4. Open a PowerShell command prompt.
 5. Navigate to the downloaded SDK folder.
 6. Open the SampleCode\PS folder.
+
+After updating to a supported on-premises version, follow the steps below to enable security enhancements.
 
 ### User session timeout
 
