@@ -55,8 +55,8 @@ For social [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] scenarios
  Having trouble signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or another [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? Read [CRM Help & Training: Troubleshoot sign-in problems](http://go.microsoft.com/fwlink/p/?LinkId=516923) for available resolutions.  
   
 ### See Also  
- [Get started with Social Engagement](../social-engagement/get-started.md)   
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
- [Assign permissions and user roles](../social-engagement/assign-user-roles.md)   
+ [Get started with Social Engagement](get-started.md)   
+ [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+ [Assign permissions and user roles](assign-user-roles.md)   
  [ebook: Microsoft Social Engagement for CRM](http://go.microsoft.com/fwlink/p/?LinkID=393642)
  

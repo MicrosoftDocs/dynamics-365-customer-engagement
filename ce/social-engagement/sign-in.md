@@ -16,7 +16,7 @@ ms.author: mhart
 manager: sakudes
 ---
 # Sign in to Social Engagement
-To sign in to Social Engagement, you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](../social-engagement/manage-licenses.md).  
+To sign in to Social Engagement, you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](manage-licenses.md).  
   
 <a name="SignInOffice365"></a>   
 ## Sign in to Social Engagement from the Office 365 admin center  
@@ -42,6 +42,6 @@ To sign in to Social Engagement, you'll need to be assigned a user license. Your
  If you’re looking for [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], the URL includes your organization’s appID, and will look like this: **https://listening-prod.dynamics.com/app/\<appID>**.  
   
 ### See Also  
- [Get started with Social Engagement](../social-engagement/get-started.md)   
- [Manage licenses for Social Engagement](../social-engagement/manage-licenses.md)   
- [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)
+ [Get started with Social Engagement](get-started.md)   
+ [Manage licenses for Social Engagement](manage-licenses.md)   
+ [Analyze social data using widgets](analyze-social-data-using-widgets.md)

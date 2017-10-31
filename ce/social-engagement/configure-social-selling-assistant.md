@@ -27,7 +27,7 @@ If you configured a search rule for posts from social profiles owned by your org
 
 3.  Select the search rule that contains the social profiles or create a new rule.
 
-![Screenshot of the Summary page in the Search Setup area.](../social-engagement/media/owned-social-profile-social-selling-assistant.png "Screenshot of the Summary page in the Search Setup area.")
+![Screenshot of the Summary page in the Search Setup area.](media/owned-social-profile-social-selling-assistant.png "Screenshot of the Summary page in the Search Setup area.")
 
 4.  In the social profiles list, set **Owned** to **Yes** if your organization owns the profile.
 
@@ -36,7 +36,7 @@ If you configured a search rule for posts from social profiles owned by your org
 
 ## Share social profiles with other users
 
-Users of the Social Selling Assistant can either add their own social profiles or choose from shared profiles to share recommended content. To add a social profile or to share a social profile you own with other users, see [Manage social profiles](../social-engagement/manage-social-profiles.md).
+Users of the Social Selling Assistant can either add their own social profiles or choose from shared profiles to share recommended content. To add a social profile or to share a social profile you own with other users, see [Manage social profiles](manage-social-profiles.md).
 
 
 ## Configure a custom tag to promote posts
@@ -49,16 +49,16 @@ Enable your organization to amplify specific messages on social media. Build on 
 
 2.  Select the tag you want to use to promote posts.
 
-3.  Set the **Social Selling Assistant** setting to **On**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](../social-engagement/tags.md)
+3.  Set the **Social Selling Assistant** setting to **On**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](tags.md)
 
-All posts that have the one or more of these tags will be promoted automatically to Social Selling Assistant. To promote a specific post to Social Selling Assistant, apply any of the tags that you marked here to that post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Promote a post to the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md#promote-a-post-to-the-social-selling-assistant)
+All posts that have the one or more of these tags will be promoted automatically to Social Selling Assistant. To promote a specific post to Social Selling Assistant, apply any of the tags that you marked here to that post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Promote a post to the Social Selling Assistant](work-with-social-selling-assistant.md#promote-a-post-to-the-social-selling-assistant)
 
-![Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.](../social-engagement/media/promote-tags-setting-social-selling-assistant.png "Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.")
+![Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.](media/promote-tags-setting-social-selling-assistant.png "Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.")
 
 ### See Also
 
-[Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
-[Personalize the Social Selling Assistant for individual users](../social-engagement/personalize-social-selling-assistant.md)   
-[Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
-[Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md)   
+[Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   
+[Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)   
+[Set up searches to listen to social media conversations](set-up-searches.md)   
+[Work with the Social Selling Assistant](work-with-social-selling-assistant.md)   
 [TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)

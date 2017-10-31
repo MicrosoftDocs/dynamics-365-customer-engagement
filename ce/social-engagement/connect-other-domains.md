@@ -36,13 +36,13 @@ You can enter the following values in your list of allowed domains:
   
 1.  Go to **Settings** > **Connections** > **Allowed Domains**.  
   
-2.  Type the domain name in the input field, and then click the **Add** button ![New or Add button](../social-engagement/media/plus-icon.png "New or Add button").  
+2.  Type the domain name in the input field, and then click the **Add** button ![New or Add button](media/plus-icon.png "New or Add button").  
   
 ## Remove a domain  
   
 1.  Go to **Settings** > **Connections** >**Allowed Domains**.  
   
-2.  Locate the domain you want to remove, click the **Delete** button ![Delete button](../social-engagement/media/delete-icon.png "Delete button"), and then confirm the deletion.  
+2.  Locate the domain you want to remove, click the **Delete** button ![Delete button](media/delete-icon.png "Delete button"), and then confirm the deletion.  
   
 ## Add the solution URL to the configuration page
 
@@ -57,7 +57,7 @@ Copy the solution URL and paste it into the configuration page of the applicatio
   
 ### See Also
 
-[Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
-[Get started with Social Engagement](../social-engagement/get-started.md)   
-[Get connected to the social conversation](../social-engagement/get-connected-social-conversation.md)
+[Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+[Get started with Social Engagement](get-started.md)   
+[Get connected to the social conversation](get-connected-social-conversation.md)
  

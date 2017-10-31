@@ -83,7 +83,7 @@ To build custom [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-
 
 When you engage in a private conversation or reply on Twitter by using a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], these posts allow you to see the full conversation.  
   
-![Conversation view of a post with several replies and direct messages.](../social-engagement/media/conversation-view-callouts.png "Conversation view of a post with several replies and direct messages.")  
+![Conversation view of a post with several replies and direct messages.](media/conversation-view-callouts.png "Conversation view of a post with several replies and direct messages.")  
   
 1.  Addressee of the conversation. In many cases, this is a customer requesting information or help.  
   
@@ -100,14 +100,14 @@ Example: Say you and your colleague currently respond to customer queries on soc
 > [!NOTE]
 >  The amount of information depends on the number of posts you have loaded in the conversation view. To increase the number, scroll to the bottom of the view where you can load additional posts.  
 >   
->  Publish actions taken before mid-March 2017 are indicated  with an appended star symbol ![Asterisk icon](../social-engagement/media/asterisk-icon.png "Asterisk icon").  
+>  Publish actions taken before mid-March 2017 are indicated  with an appended star symbol ![Asterisk icon](media/asterisk-icon.png "Asterisk icon").  
   
 <a name="parts"></a>   
 ## Parts of a post  
 
 On the left side of a post, you'll find a symbol that indicates the post's source, the profile picture (if available), and the name of the post's author.  
   
-In the center of the post list, you'll find the title and content of a post. Select a post to see its details. Select the **Expand** button ![Expand button](../social-engagement/media/expand-content-icon.png "Expand button") next to the post's content excerpt to expand the post and read its content.  
+In the center of the post list, you'll find the title and content of a post. Select a post to see its details. Select the **Expand** button ![Expand button](media/expand-content-icon.png "Expand button") next to the post's content excerpt to expand the post and read its content.  
   
 You'll find additional metadata and controls for the posts:  
   
@@ -115,7 +115,7 @@ You'll find additional metadata and controls for the posts:
   
 - **Remove post**: Deletes the post from your solution's database.  
   
-- **Copy internal URL (![Copy button.](../social-engagement/media/copy-url-icon.png "Copy button."))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to point them to a specific post.  
+- **Copy internal URL (![Copy button.](media/copy-url-icon.png "Copy button."))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to point them to a specific post.  
   
 - **Reach**: This indicates the potential size of an author's network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](/use-filters.md)  
   

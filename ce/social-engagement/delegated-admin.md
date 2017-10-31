@@ -32,8 +32,8 @@ Your client must authorize you as a delegated administrator before you can start
 >  Delegated admins will have their location set to the customer organization’s location. All maps in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] will be shown from the customer organization’s defined location.  
   
 ### See Also  
-[Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
-[Manage social profiles](../social-engagement/manage-social-profiles.md)   
-[Keep track of live data streams with Social Center](../social-engagement/social-center.md)
+[Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+[Manage social profiles](manage-social-profiles.md)   
+[Keep track of live data streams with Social Center](social-center.md)
 
  

@@ -26,7 +26,7 @@ In addition to viewing the analytics for the current data set, you can efficient
  To identify the visual filter-enabled area, hover over or click the widget’s display area. For the areas that support visual filtering, the cursor changes to a hand pointer. Click the data point to apply the filter.  
   
 > [!IMPORTANT]
->  When you apply a new filter, all of the widgets on the selected Analytics page get refreshed and update the displayed data as appropriate for the new filter. More information: [Get relevant data using filters](../social-engagement/use-filters.md)  
+>  When you apply a new filter, all of the widgets on the selected Analytics page get refreshed and update the displayed data as appropriate for the new filter. More information: [Get relevant data using filters](use-filters.md)  
   
 ## Visual filtering for text-based widgets  
  Text type widgets display metrics for data such as phrases. To apply visual filters on these widgets, click any phrase displayed on the widget. The selected phrase is added to the phrases filter and the page recalculates based on the selected filters.  
@@ -43,6 +43,6 @@ In addition to viewing the analytics for the current data set, you can efficient
 >  Any other dimension values already present in the filter are removed. Only the current filter values are used and the appropriate metrics are displayed.  
   
 ### See Also  
- [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
- [Understand widgets on the Overview page](../social-engagement/analytics-overview.md)
+ [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
+ [Understand widgets on the Overview page](analytics-overview.md)
  

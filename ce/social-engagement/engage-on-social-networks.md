@@ -19,22 +19,22 @@ manager: sakudes
 > [!IMPORTANT]
 >  Before you can interact with posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], be sure to meet the following prerequisites:
 > 
->  1.  You have at least a Responder role in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
->  2.  You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)
+>  1.  You have at least a Responder role in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+>  2.  You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
 -   Visit the **Social Center** to see your streams—a steady flow of recent posts, based on the underlying data set.
 
 -   Click **Posts** on the right side of any analytics page to see the latest posts that match the data set of your current analysis.
 
 > [!NOTE]
->  When you open the details of a post in a post list, you can use the **Next post** ![Next post](../social-engagement/media/next-post-symbol-social-engagement.png "Next post") and **Previous post** ![Previous post](../social-engagement/media/previous-post-icon.png "Previous post") buttons to move between the posts in the list.
+>  When you open the details of a post in a post list, you can use the **Next post** ![Next post](media/next-post-symbol-social-engagement.png "Next post") and **Previous post** ![Previous post](media/previous-post-icon.png "Previous post") buttons to move between the posts in the list.
 
-For more information about streams in the Social Center, see [Keep track of live data streams with Social Center](../social-engagement/social-center.md).
+For more information about streams in the Social Center, see [Keep track of live data streams with Social Center](social-center.md).
 
-For additional help about the actions that you can take on any post list in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], see [Drive business objectives using posts](../social-engagement/publish-react-posts.md).  
+For additional help about the actions that you can take on any post list in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], see [Drive business objectives using posts](publish-react-posts.md).  
 
 ### See Also
 
-[Keep track of live data streams with Social Center](../social-engagement/social-center.md)   
-[Drive business objectives using posts](../social-engagement/publish-react-posts.md)   
-[Manage social profiles](../social-engagement/manage-social-profiles.md)
+[Keep track of live data streams with Social Center](social-center.md)   
+[Drive business objectives using posts](publish-react-posts.md)   
+[Manage social profiles](manage-social-profiles.md)
