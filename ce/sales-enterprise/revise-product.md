@@ -39,10 +39,10 @@ Keep the product inventory updated by quickly revising properties for the produc
   
 5.  Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
-6.  Once you’re done making the changes, on the command bar, click **Publish** or **Publish Hierarchy**.  
+6.  Once you're done making the changes, on the command bar, click **Publish** or **Publish Hierarchy**.  
   
     > [!TIP]
-    >  If some of the information that you changed doesn’t align with the customer or business needs, revert the changes and continue with the last active version of the product. To do this, click **Revert**. This changes the status of the product back to **Active**.  
+    >  If some of the information that you changed doesn't align with the customer or business needs, revert the changes and continue with the last active version of the product. To do this, click **Revert**. This changes the status of the product back to **Active**.  
   
  Revising a family sets all the products and bundles under it to the **Under Revision** state.   
   

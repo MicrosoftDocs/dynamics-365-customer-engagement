@@ -21,7 +21,7 @@ manager: "brycho"
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
- In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you first create a unit group and then create units within that group. Let’s look at both of these tasks, using seeds as our example.  
+ In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
 <a name="bkmk_CreateUnitGroup"></a>   
 ## Step 1: Create a unit group  
@@ -46,9 +46,9 @@ Units are the quantities or measurements that you sell your products or services
   
 5.  Fill in your information:  
   
-    - **Name**. Type a meaningful name for the unit group. In our example, you would type “Seeds.”  
+    - **Name**. Type a meaningful name for the unit group. In our example, you would type "Seeds."  
   
-    - **Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type “packet.” Other examples could include ounces, hours, or tons, depending on your product or service.  
+    - **Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "packet." Other examples could include ounces, hours, or tons, depending on your product or service.  
   
  ![Shows how to create a unit group in Dynamics 365](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 for Sales")  
   
@@ -66,15 +66,15 @@ Units are the quantities or measurements that you sell your products or services
   
 2.  Fill in your information:  
   
-    1. **Name**. Type a meaningful name for the unit. In our example, you would type “box.”  
+    1. **Name**. Type a meaningful name for the unit. In our example, you would type "box."  
   
-    2. **Quantity**. Type the quantity that this unit will contain. For example, if a box contains 12 packets, you would type “12.”  
+    2. **Quantity**. Type the quantity that this unit will contain. For example, if a box contains 12 packets, you would type "12."  
   
-    3. **Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you’re creating. Using our example, you would select “packet.”  
+    3. **Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "packet."  
   
-         If you then create a unit called “pallet,” and one pallet contains 48 boxes, you would type “48” in **Quantity** and select “box” in **Base Unit**.  
+         If you then create a unit called "pallet," and one pallet contains 48 boxes, you would type "48" in **Quantity** and select "box" in **Base Unit**.  
   
-     Here’s how:  
+     Here's how:  
   
  ![Create a unit in the unit group in Dynamics 365](../sales-enterprise/media/v7-unit-pack.png "Create a unit in the unit group in Dynamics 365 for Sales")  
   

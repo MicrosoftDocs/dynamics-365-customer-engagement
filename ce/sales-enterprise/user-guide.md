@@ -57,7 +57,7 @@ manager: "amyla"
   
  [What if you're no longer working a lead?](../sales-enterprise/what-if-no-longer-working-lead-sales.md)  
   
- [Re-open a lead](../sales-enterprise/re-open-lead-sales.md)  
+ [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)  
   
  [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
   
@@ -104,10 +104,10 @@ manager: "amyla"
  [Set personal options](../basics/set-personal-options.md)  
   
 ## Go mobile  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+ [Dynamics 365 for Phones and Tablets User Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
 ## Work in Outlook  
- [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
+ [Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)  
   
 ## Get better sales intelligence  
  [Add Social Engagement visuals to Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365)  
