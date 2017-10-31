@@ -49,7 +49,7 @@ When you sell your products in different regions, it is important that you trans
  When you get the localized data back from translation, import it into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 > [!IMPORTANT]
->  It is important to provision the language packs first. If you import translated values for languages that aren’t provisioned in the organization, they’ll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs](https://technet.microsoft.com/library/hh699674.aspx)  
+>  It is important to provision the language packs first. If you import translated values for languages that aren't provisioned in the organization, they'll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs](https://technet.microsoft.com/library/hh699674.aspx)  
 <!-- Fix this link - cannot find it in migrated content -->
 
 1.  [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
@@ -66,19 +66,19 @@ When you sell your products in different regions, it is important that you trans
   
 4.  In the **Field Translation Import Jobs** page, on the Action toolbar, click **Import Field Translations**.  
   
-5.  In the **Import Translated Text** dialog box, click **Browse**, and select the file that you’ve received from your translation agency.  
+5.  In the **Import Translated Text** dialog box, click **Browse**, and select the file that you've received from your translation agency.  
   
 6.  Click **Import**.  
   
      This starts the import job. You can check the status to see if the import has succeeded or failed.  
   
- After you’ve imported the translated text, users in your organization will see the data in their preferred language. If a value for the preferred language does not exist, the results will be shown in the user’s base language.  
+ After you've imported the translated text, users in your organization will see the data in their preferred language. If a value for the preferred language does not exist, the results will be shown in the user's base language.  
   
 <a name="bkmk_LanguageSelection"></a>   
 ## Selection of language in different scenarios  
  This section explains how the duplicate detection and workflow logic affect translation in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
   
--   Calculated fields logic, including conditional clauses, uses only the base language. The label for the user’s preferred language (user interface language) is used if present. Otherwise, the base language is used.  
+-   Calculated fields logic, including conditional clauses, uses only the base language. The label for the user's preferred language (user interface language) is used if present. Otherwise, the base language is used.  
   
 -   When a record is created or updated, duplicates are detected from the localizable fields (attributes) that are in the base language. Creating or updating a localizable field is not applicable in a non-base language.  
   
@@ -86,7 +86,7 @@ When you sell your products in different regions, it is important that you trans
   
     -   For updating or creating records through import, when import is executed in base language, only the labels in the base language are used for duplication detection.  
   
-    -   When import is executed in non-base language, import fails because update can’t be performed in a non-base language.  
+    -   When import is executed in non-base language, import fails because update can't be performed in a non-base language.  
   
 -   When you run duplicate detection in the base language, only the base language is used in conditional clauses.  
   

@@ -19,7 +19,7 @@ manager: "sakudes"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-When you’re ready to sell a product or bundle, publish it to make it available to the sales agents so they can build orders or create opportunities orders for customers. By default, product records are created in a draft state, and are available to your sales agents only after you publish it. For products that don’t have a parent product family, you can create them directly in an active state using a system setting, so that you don’t have to publish them after creation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)  
+When you're ready to sell a product or bundle, publish it to make it available to the sales agents so they can build orders or create opportunities orders for customers. By default, product records are created in a draft state, and are available to your sales agents only after you publish it. For products that don't have a parent product family, you can create them directly in an active state using a system setting, so that you don't have to publish them after creation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)  
 
 > [!NOTE]
 >  You can only publish a product or bundle with a parent family if the parent product family is active.  
@@ -41,7 +41,7 @@ When you’re ready to sell a product or bundle, publish it to make it available
      This will change the product status to **Active** and make it available for selling.  
   
 > [!TIP]
->  You can’t publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don’t belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.  
+>  You can't publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don't belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.  
   
  
 ## Typical next steps  
