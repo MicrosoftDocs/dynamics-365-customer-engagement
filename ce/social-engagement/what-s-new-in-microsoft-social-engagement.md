@@ -26,13 +26,14 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.10
 
+### Updated user experience for activity maps
+
+To make activity maps more accessible to everyone, we introduced shapes as an additional means of displaying information on the maps. Sentiment values and the age of posts are now expressed in color and shape. 
+
 ### Update to alert emails
 
 Alert emails now provide a link to the Analytics area in the Social Engagement app, where you can see the posts that match the data set that triggered the alert. Post content is no longer delivered as part of the email message. These links now also reflect changed alert configurations and deleted alerts.
 
-### Updated user experience for activity maps
-
-To make activity maps more accessible to everyone, we introduced shapes as an additional means of displaying information on the maps. Sentiment values and the age of posts are now expressed in color and shape. 
 
 ### New video training on Microsoft Virtual Academy
 
@@ -44,7 +45,7 @@ Explore the social engagement circle and social strategy, and look at brand repu
 
 ### New quota extensions available 
 
-Next to the 10,000 monthly quota packages, new quota extensions with 100,000 and 1,000,000 monthly posts are now available on Microsoft Products and Services Agreement (MPSA). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users/devices. 
+Next to the 10,000 monthly quota packages, new quota extensions with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/licensing/mpsa/default.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices. 
 
 ### Service and product improvements
 
