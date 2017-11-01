@@ -23,9 +23,9 @@ Encourage customers to buy more products instead of a single product by combinin
   
  These are the differences between kits and bundles:  
   
--   You can’t sell the products in a kit individually or separately, but you can mark certain products in a bundle as optional, and sell them individually.  
+-   You can't sell the products in a kit individually or separately, but you can mark certain products in a bundle as optional, and sell them individually.  
   
--   You can’t see individual products added in a kit when you create an opportunity or order, but you can see the products in a bundle.  
+-   You can't see individual products added in a kit when you create an opportunity or order, but you can see the products in a bundle.  
   
 -   You can create nested kits (kits within a kit), but you can only add products to a bundle; you cannot add product families, kits, or other bundles to a bundle.  
   
@@ -66,7 +66,7 @@ Encourage customers to buy more products instead of a single product by combinin
   
 8. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-    - **Bundle**. The bundle you’re adding the products to is selected by default.  
+    - **Bundle**. The bundle you're adding the products to is selected by default.  
   
     - **Product**. Click the **Lookup** button and select a product you want to add to the bundle.  
   
@@ -77,13 +77,13 @@ Encourage customers to buy more products instead of a single product by combinin
     - **Unit**. Select the unit in which you want to sell the product.  
   
     > [!NOTE]
-    >  The **Valid From** and **Valid To** fields define the duration for which a product is valid. There’s no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in or [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season’s products using the date selected in the **Valid To** field.  
+    >  The **Valid From** and **Valid To** fields define the duration for which a product is valid. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in or [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
 9. Click **Save and Close**.  
   
 10. To change properties of an individual product in the bundle, click **Customize** corresponding to the product, and change the values as required.  
   
-11. If you’ve added this bundle to a family, the bundle will inherit the properties from its parent family. To change the bundle’s property, open the property and click **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+11. If you've added this bundle to a family, the bundle will inherit the properties from its parent family. To change the bundle's property, open the property and click **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
 12. In the **Additional Details** section, click ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and add a price list item. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
@@ -91,10 +91,10 @@ Encourage customers to buy more products instead of a single product by combinin
   
 <a name="bkmk_BundlePricing"></a>   
 ## Pricing of bundles  
- Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don’t add an optional product in the price list, its price will be considered as zero.  
+ Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered as zero.  
   
 > [!TIP]
->  -   After you’re done adding all the details, click **Preview** on the command bar to look through the properties of the product bundle.  
+>  -   After you're done adding all the details, click **Preview** on the command bar to look through the properties of the product bundle.  
 > -   To create a new product bundle based on an existing one, on the command bar, click **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for the name and ID.  
   
 ## Typical next steps:  

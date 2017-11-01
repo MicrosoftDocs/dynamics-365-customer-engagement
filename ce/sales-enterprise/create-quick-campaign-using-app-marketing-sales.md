@@ -43,7 +43,7 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
 7.  Click **Create**.  
   
     > [!NOTE]
-    >  You can’t add records to a quick campaign after you create it.  
+    >  You can't add records to a quick campaign after you create it.  
  
   
 ### See also  

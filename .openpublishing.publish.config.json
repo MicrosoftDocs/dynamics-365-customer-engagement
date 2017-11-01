@@ -16,7 +16,50 @@
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "moniker_groups": [],
-      "version": 0
+      "version": 0,
+      "customized_tasks": {
+        "docset_prebuild": [
+          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1"
+        ]
+      },
+      "JoinTOCPlugin": [
+        {
+          "ConceptualTOC": "ce/developer/online-management-api/toc.yml",
+          "ReferenceTOCUrl": "/rest/api/dynamics365/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/webapi/toc.yml",
+          "ReferenceTOCUrl": "/dynamics365/customer-engagement/web-api/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/org-service/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/ce-9-general/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/deployment-service/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/ce-9-deployment/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/outlook-client/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/ce-9-outlookclient/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/package-deployer/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/ce-9-packagedeployer/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/workflow/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/ce-9-workflow/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/xrm-tooling/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/ce-9-xrmtooling/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/developer/virtual-entities/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/ce-9-virtualentity/toc.json"
+        }
+      ]
     }
   ],
   "notification_subscribers": [],
@@ -34,6 +77,24 @@
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master"
+    },
+    {
+      "path_to_root": "dynamics365-docs-dotnet",
+      "url": "https://github.com/MicrosoftDocs/dynamics365-docs-dotnet",
+      "branch": "live",
+      "branch_mapping": {
+        "master": "master",
+        "live": "live"
+      }
+    }
+  ],
+  "dependent_packages": [
+    {
+      "id": "Microsoft.OpenPublishing.CommonPlugins",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/CommonPlugins",
+      "target_framework": "net45",
+      "version": "latest"
     }
   ],
   "branch_target_mapping": {

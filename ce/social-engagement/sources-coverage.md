@@ -37,9 +37,9 @@ Monitor posts and comments on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)
 > [!NOTE]
 > [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), and status updates are not available for monitoring or engagement at this time.
 
-To add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule, see [Add a Facebook pages rule](../social-engagement/add-rules-search-topic.md#addFacebookRule).
+To add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule, see [Add a Facebook pages rule](add-rules-search-topic.md#addFacebookRule).
 
-To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, see [Add a private messages rule](../social-engagement/add-rules-search-topic.md#privateMessagesRule).
+To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, see [Add a private messages rule](add-rules-search-topic.md#privateMessagesRule).
 
 ## Forums
 [Keyword rules](add-rules-search-topic.md#addKeywordsRule) for forums are available to give you broad coverage of forum posts and comments.
@@ -49,9 +49,9 @@ To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-faceboo
 After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], and you can set up [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account rules to gather all posts and comments on a specific [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account.
 
 > [!NOTE]
-> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)
+> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
-To add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] rule, see [Add an Instagram rule](../social-engagement/add-rules-search-topic.md#instagram_rule).
+To add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] rule, see [Add an Instagram rule](add-rules-search-topic.md#instagram_rule).
 
 ## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
@@ -69,20 +69,20 @@ Posts and comments published on Reddit are available for [keyword searches](add-
 
 Gain full coverage of public tweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] by creating a search topic with a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile rule or a keyword rule. You can also gather direct messages if you add a social profile and explicitly allow the acquisition of private messages.
 
-To add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule, see [Add a Twitter rule](../social-engagement/add-rules-search-topic.md#addTwitterRule).
+To add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule, see [Add a Twitter rule](add-rules-search-topic.md#addTwitterRule).
 
-To add a private messages rule, see [Add a private messages rule](../social-engagement/add-rules-search-topic.md#privateMessagesRule).
+To add a private messages rule, see [Add a private messages rule](add-rules-search-topic.md#privateMessagesRule).
 
 ## Videos
 
-Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](../social-engagement/add-rules-search-topic.md#addKeywordsRule).
+Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](add-rules-search-topic.md#addKeywordsRule).
 
-Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](../social-engagement/add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
+Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
 
 ## Privacy notice
 
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
 ### See also  
-[Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
-[Refine your search rules to find relevant content](../social-engagement/refine-search-rules.md)
+[Set up searches to listen to social media conversations](set-up-searches.md)   
+[Refine your search rules to find relevant content](refine-search-rules.md)

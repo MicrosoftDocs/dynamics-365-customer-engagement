@@ -33,7 +33,7 @@ Improve your opportunities to increase sales by adding related products as sugge
   
 5.  In the quick form, enter the following details:  
   
-    - **Related Product**. Select a product that you want to add as a related product to the existing product record you’re working on.  
+    - **Related Product**. Select a product that you want to add as a related product to the existing product record you're working on.  
   
     - **Sales Relation Type**. Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product.  
   

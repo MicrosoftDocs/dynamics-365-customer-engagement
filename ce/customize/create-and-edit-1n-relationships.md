@@ -1,7 +1,7 @@
 ---
 title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -85,7 +85,7 @@ tags:
         > [!IMPORTANT]
         >  If you set the behaviors for the actions so that they match the behaviors for the actions associated with another **Type of Behavior**, when you save the relationship, the **Type of Behavior** is automatically set to the matching type.  
   
- <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure entity relationship behavior](../developer/entity-relationship-behavior.md#configure-entity-relationship-behavior)  -->
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure entity relationship behavior](../developer/entity-relationship-behavior.md#configure-entity-relationship-behavior)
   
 12. Click **Save and Close** to close the **Relationship** form.  
   

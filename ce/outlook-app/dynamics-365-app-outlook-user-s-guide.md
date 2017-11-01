@@ -19,7 +19,7 @@ manager: "brycho"
 # Dynamics 365 App for Outlook User Guide  
 
 > [!IMPORTANT]
-> This page describes how to use Dynamics 365 App for Outlook with Microsoft Dynamics CRM 2016. This version of Dynamics 365 App for Outlook does not work with the July 2017 update for Dynamics 365 (online). Check back soon for updates!
+> This page describes how to use Dynamics 365 App for Outlook with Microsoft Dynamics CRM 2016. This version of Dynamics 365 App for Outlook does not work with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Check back soon for updates!
 
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
   

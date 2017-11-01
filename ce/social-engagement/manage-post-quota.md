@@ -15,7 +15,7 @@ manager: sakudes
 Keep track of the number of posts that result from your search topics towards your solution's post quota. Your solution is priced based on the number of posts you can acquire per month.  
   
 > [!NOTE]
->  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 > [!IMPORTANT]
 >  If you’re expected to exceed the post quota of the current month, you’ll get a notification email. When you exceed your post quota, data acquisition will be stopped for either of the following reasons:  
@@ -45,7 +45,7 @@ Keep track of the number of posts that result from your search topics towards yo
 -   Exclude authors who publish irrelevant posts that match one of your search queries.  
   
 > [!CAUTION]
->  Proceed carefully when excluding an author or blocking contents. Posts matching items on the list of blocked contents will be deleted irreversibly after four hours. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md).  
+>  Proceed carefully when excluding an author or blocking contents. Posts matching items on the list of blocked contents will be deleted irreversibly after four hours. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md).  
   
 |Quota status|Appears|What you should do|  
 |------------------|-------------|------------------------|  
@@ -64,7 +64,7 @@ Keep track of the number of posts that result from your search topics towards yo
 > [!VIDEO https://www.youtube.com/embed/nBwNFQ-xEsw]
   
 ### Impact of exceeding limits  
- All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](../social-engagement/search-results-quality.md)  
+ All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
  If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](http://go.microsoft.com/fwlink/p/?LinkID=390650) at any time to unblock your solution immediately.  
   
@@ -89,7 +89,7 @@ Keep track of the number of posts that result from your search topics towards yo
  [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
   
 ### See Also  
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Manage the quality of your search results](../social-engagement/search-results-quality.md)   
- [Refine your search rules](../social-engagement/refine-search-rules.md)
+ [Set up searches to listen to social media conversations](set-up-searches.md)   
+ [Manage the quality of your search results](search-results-quality.md)   
+ [Refine your search rules](refine-search-rules.md)
  
