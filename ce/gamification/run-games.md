@@ -34,13 +34,13 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
 #### Create a new game
 
-1. Select the Business Unit you want to create a game for. The business unit represents a Dynamics 365 (online) organization. [Learn how to connect Dynamics 365 (online) organizations.](manage-gamification-in-dynamics-365-online.md)
+1. Select the business unit you want to create a game for. The business unit represents a Dynamics 365 (online) organization. [!include[](../includes/proc-more-information.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)
 
 2. Provide a **Name** for the game.
 
-3. Select the **Game Model**. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
-
-   For more information about setting up a Stream TV, see [Manage Stream TV games in Gamification](configure-view-tvs.md).
+3. Select the **Game Model**.  
+[!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)  
+   More information about setting up a Stream TV: [Manage Stream TV games in Gamification](configure-view-tvs.md)
 
 4. Select the **Sport Theme** you want to use for the game.
 
@@ -62,7 +62,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 > - **The ideal number of KPIs per game is between three and five.** Having too many KPIs will result in players focusing on a few metrics while others are forgotten. But you also want to have enough KPIs so that players of all levels will feel they can contribute and succeed. A good practice is to include both results-driven and behavioral KPIs.  Examples of results-driven KPIs are revenue amount, % of quota, and closed sales. Behavioral metrics include things like number of calls made, number of appointments set, and number of demos held. Of course, you can define as many KPIs as you like for your game.
 > - **Use lower numbers for KPIs.** For example, award 1 point for every new lead rather than 100 points for every five leads so there isn't too large a spread between first and second place. Players might feel they've already lost if they have to earn a vast number of points to reach the next position.
 > - **Include floors and caps for KPIs** to avoid the achievements of a single rep overwhelming the entire playing field. Floors define the minimum number a KPI needs to meet for a player to get points. Caps define the upper limit for the KPI to generate points for players. For example, if you set a floor of 5 and a cap of 50 for a KPI that tracks phone calls, players need to achieve at least 5 phone calls to get a point. Due to the cap, they will get the same points for 80 calls as they'd get for 50 calls. Floors and caps are reset each week of the game.
-> For more information about KPIs, see [Concepts to learn before you get started using Gamification](get-started.md).
+> More information about KPIs: [Concepts to learn before you get started using Gamification](get-started.md)
 
 #### Select a KPI
 
@@ -96,13 +96,13 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
  If you created a **Percentage of quota** KPI in step 2 of the game setup process, you need to define the game quotas for the players. Optionally, you can set the quota for all players on all or individual KPIs to the same value.  
   
 > [!NOTE]
->  You can have up to four KPIs per game that use a quota
+>  You can have up to four KPIs per game that use a quota.
   
 ### Players and fans
 
  Depending on the selected sports theme, you can now assign players to positions and then select fans to participate in the game.
 
- To assign a player to a position, click the position and select the check box for the users you want to assign to the position.
+ To assign a player to a position, click the position, and then select the check box for the users you want to assign to the position.
 
 > [!TIP]
 >  Make sure you distribute players evenly on positions to prevent anyone from drafting all the top performers onto their team.
@@ -139,7 +139,7 @@ After you activate the game, and before the game start date, you can change KPIs
 
 ## Complete a game
 
- After the game end date, a game manager or commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], they also need to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 31 days after the game end date.
+ After the game end date, a game manager or commissioner must complete point scoring for the last game period. If you integrated [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] with [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], the game manager or commissioner also needs to make sure all the data is correct so KPIs reflect the correct values and players are assigned the correct final scores and prizes. Complete a game manually, or let the game be completed automatically 31 days after the game end date.
 
 ### Manually complete a game
 

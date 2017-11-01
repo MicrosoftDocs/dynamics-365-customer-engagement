@@ -43,9 +43,9 @@ To learn more about the permissions of the available security roles, refer to th
 |[Post on the smack talk board in Gamification](smack-talk-post.md)|Yes|Yes|Yes|  
 |[See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)|Yes|Yes|Yes|  
   
- \* Managing [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is regulated by [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] permissions and requires a Game Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  For information about the Game Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], see [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md) and [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md).  
+ \* Managing [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is regulated by [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] permissions and requires a Game Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. More information about the Game Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]: [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md) and [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
   
- \** Game managers can participate as a fan or a player in a game they don't administer.  
+ \** Game managers can participate as a fan or a player in games they don't administer.  
   
 ### See also
 
