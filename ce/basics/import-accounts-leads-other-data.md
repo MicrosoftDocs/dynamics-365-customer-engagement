@@ -1,7 +1,7 @@
 ---
 title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -44,8 +44,8 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
   
     > [!TIP]
     
-<!--   If you need to import a larger amount of data, check out the developer documentation, [Import data](../developer/import-data.md) for additional details.  
-       -->
+    > If you need to import a larger amount of data, check out the developer documentation, [Import data](../developer/import-data.md) for additional details.  
+    > 
     >  You can add multiple import files to a single .zip file, and then import the .zip file to bring in all the files at once. For example, if several salespeople enter leads from a tradeshow into different spreadsheets, you can gather them into one .zip file for import.  
     >   
     >  For best results, it’s a good idea to make sure you (or your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] admin, if that’s someone else) have some rules in place to reduce any duplicates when you import the data (called “duplicate detection rules”). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md) 
@@ -137,5 +137,4 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
  [Select a data map](select-data-map.md)   
  [Review settings and import data](review-settings-import-data.md)  
  [Import contacts](../basics/import-contacts.md)  
-   
- <!-- [Import data (for developers)](../developer/import-data.md)  -->
+ [Import data (for developers)](../developer/import-data.md)

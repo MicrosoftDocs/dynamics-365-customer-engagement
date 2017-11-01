@@ -124,7 +124,7 @@ Actions also have something that workflow processes don’t – input and output
 |String|A text value.|  
   
 > [!NOTE]
-> **EntityCollection** argument values can’t be set in the user interface for conditions or actions. These are provided for use by developers in custom code. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create your own actions](../developer/create-own-actions.md)-->  
+> **EntityCollection** argument values can’t be set in the user interface for conditions or actions. These are provided for use by developers in custom code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create your own actions](../developer/create-own-actions.md) 
   
 <a name="BKMK_AddStagesConditionsAndActions"></a>   
 ### Add stages and steps  
@@ -135,9 +135,9 @@ Actions also have something that workflow processes don’t – input and output
 ### See also  
  [Actions](../customize/actions.md)   
  [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md)   
- [Monitoring real-time workflows and actions](../customize/monitor-manage-processes.md#BKMK_MonitorSyncWorkflows)</br>
+ [Monitoring real-time workflows and actions](../customize/monitor-manage-processes.md#BKMK_MonitorSyncWorkflows)<br />
  [Workflow processes](../customize/workflow-processes.md)   
  [Business process flows overview](../customize/business-process-flows-overview.md)   
  [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
- <!--[Create your own actions](../developer/create-own-actions.md)-->
+ [Create your own actions](../developer/create-own-actions.md)
  

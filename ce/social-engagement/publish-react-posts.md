@@ -38,11 +38,11 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 ||Twitter|Facebook|  
 |-|-------------|--------------|  
-|[Let users know you appreciate a post they wrote](#favoriteLike)|Like<br /><br /> ![Like button on Twitter in Social Engagement](../social-engagement/media/twitter-like-icon.png "Like button on Twitter in Social Engagement")|Like as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page <br /><br /> ![Facebook like button in Social Engagement](../social-engagement/media/like-icon.png "Facebook like button in Social Engagement")|  
-|[Share a post with your audience](#retweetShare)|Retweet<br /><br /> ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement")|Share<br /><br /> ![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement")|  
-|[Reply to a conversation](#commentReply)|Reply<br /><br /> ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement")|Comment<br /><br /> ![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement")|  
-|[Engage in private conversations](#DMs)|Send direct message<br /><br /> ![Send message button in Social Engagement](../social-engagement/media/enevelope-icon.png "Send message button in Social Engagement")|Send private message<br /><br /> ![Send message button in Social Engagement](../social-engagement/media/enevelope-icon.png "Send message button in Social Engagement")|  
-|[Post a link to another post](#PostLink)|Post link<br /><br /> ![Post a link button in Social Engagement](../social-engagement/media/post-link-action-icon.png "Post a link button in Social Engagement")|Post link<br /><br /> ![Post a link button in Social Engagement](../social-engagement/media/post-link-action-icon.png "Post a link button in Social Engagement")|  
+|[Let users know you appreciate a post they wrote](#favoriteLike)|Like<br /><br /> ![Like button on Twitter in Social Engagement](media/twitter-like-icon.png "Like button on Twitter in Social Engagement")|Like as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page <br /><br /> ![Facebook like button in Social Engagement](media/like-icon.png "Facebook like button in Social Engagement")|  
+|[Share a post with your audience](#retweetShare)|Retweet<br /><br /> ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement")|Share<br /><br /> ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement")|  
+|[Reply to a conversation](#commentReply)|Reply<br /><br /> ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement")|Comment<br /><br /> ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")|  
+|[Engage in private conversations](#DMs)|Send direct message<br /><br /> ![Send message button in Social Engagement](media/enevelope-icon.png "Send message button in Social Engagement")|Send private message<br /><br /> ![Send message button in Social Engagement](media/enevelope-icon.png "Send message button in Social Engagement")|  
+|[Post a link to another post](#PostLink)|Post link<br /><br /> ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement")|Post link<br /><br /> ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement")|  
 |[Start a new conversation](#PublishPost)|Publish|Publish|  
   
 > [!NOTE]
@@ -86,7 +86,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Retweet** ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+3.  At the bottom of the post, click **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
   
     > [!NOTE]
     >  You can retweet posts only from public [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. If a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile is protected, you might still be able to read its posts if you’re a confirmed follower, but you won’t be able to retweet.  
@@ -95,7 +95,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 5.  Type your message in the text field.  
   
-6.  Click **Retweet** ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](../social-engagement/media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+6.  Click **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
   
 <a name="commentReply"></a>   
 ### Reply to a conversation  
@@ -113,7 +113,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Comment** ![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3.  At the bottom of the post, click **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
 4.  In the header of the text box, select the social profile that you want to post with.  
   
@@ -123,9 +123,9 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to.  
   
-7.  To publish the message on behalf of the selected social profile, click **Comment** ![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement").  
+7.  To publish the message on behalf of the selected social profile, click **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement").  
   
-     You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](../social-engagement/media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+     You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 #### Add a link to send a private message from a public conversation on Twitter  
   
@@ -137,7 +137,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 2.  Select the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] post that you want to interact with.  
   
-3.  At the bottom of the post, click **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3.  At the bottom of the post, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
 4.  In the header of the text  field, select the social profile that you want to post with.  
   
@@ -147,7 +147,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      A link to reply to this conversation in a private message is added to your reply.  
   
-7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](../social-engagement/media/reply-icon.png "Twitter reply button in Social Engagement").  
+7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement").  
   
  To learn more about the how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
   
@@ -165,7 +165,7 @@ Share a link to a public post along with your own comments as a new post directl
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click the **Post Link** button ![Post a link button in Social Engagement](../social-engagement/media/post-link-action-icon.png "Post a link button in Social Engagement").  
+3.  At the bottom of the post, click the **Post Link** button ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement").  
   
 4.  Select the check box for the social profile that you want to send this post with.  
   
@@ -209,7 +209,7 @@ Share a link to a public post along with your own comments as a new post directl
 ### Engage in private conversations  
  Quickly respond to a private conversation through one of your social profiles directly from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You can allow the data acquisition of your private messages so that other users of your organization’s solution can see the full context of the conversations.  
   
- If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
+ If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
   
 <a name="dmTwitter"></a>   
 #### Send a direct message on Twitter from Social Engagement  

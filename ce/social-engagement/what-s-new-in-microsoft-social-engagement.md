@@ -94,9 +94,9 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 Get in touch with your audience on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Users with at least a Responder interaction role can now rate and reply to videos and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]. You'll need to add a social profile for [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] under **Settings** > **Social Profiles**, or get a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile shared with you before you can interact on this source.
 
-Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](../social-engagement/add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
+Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
 
-Keyword-based searches on the video source continue to reside under the [keywords rule](../social-engagement/add-rules-search-topic.md#add-a-keywords-rule) and now also contain comments for actively discussed video posts. 
+Keyword-based searches on the video source continue to reside under the [keywords rule](add-rules-search-topic.md#add-a-keywords-rule) and now also contain comments for actively discussed video posts. 
 
 ### Service and product improvements
 
@@ -106,7 +106,7 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 ### Improved base model for sentiment analysis
 
-To improve and refine the base sentiment model, we've modified the machine learning process and added training data. You don't have to do anything to benefit from these improvements. If you activated [adaptive learning](../social-engagement/adaptive-learning.md) for your organization, all the edits you've made to sentiment values will automatically be applied to the improved base model.
+To improve and refine the base sentiment model, we've modified the machine learning process and added training data. You don't have to do anything to benefit from these improvements. If you activated [adaptive learning](adaptive-learning.md) for your organization, all the edits you've made to sentiment values will automatically be applied to the improved base model.
 
 ### Improved load-balancing for data acquisition
 
@@ -130,7 +130,7 @@ Additionally, we've continued our ongoing investment to make [!INCLUDE[pn_netbre
 
 We've added an Engagement Analytics report to our recently introduced [!INCLUDE[Power BI](../includes/pn-power-bi.md)] content pack for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Along with the previously released Engagement Performance and Team Performance reports, the Engagement Analytics report gives you additional insights about your engagement on social media by using metrics based on location, sentiment, tags, and authors. The data model is also enhanced to include these additional dimensions, giving you more power to explore and analyze your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Microsoft Social Engagement content pack for Power BI](../social-engagement/get-content-pack-for-power-bi.md) 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Microsoft Social Engagement content pack for Power BI](get-content-pack-for-power-bi.md) 
 
 ### Improved usability in Social Selling Assistant
 
@@ -138,7 +138,7 @@ The Social Selling Assistant user experience got its first polishing pass, and n
 
 We aligned the forms in Social Selling Assistant configuration and the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Settings page **User Preferences** with industry standards. Now when those forms are edited, the **Save** and **Cancel** buttons appear at the bottom of the input form. Additionally, the main navigation contains a direct link to the Post view in Analytics, filtered for private messages, so you can get to your customers' messages in a single click. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md) 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the Social Selling Assistant](work-with-social-selling-assistant.md) 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.3
 
@@ -146,13 +146,13 @@ We aligned the forms in Social Selling Assistant configuration and the [!INCLUDE
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] introduces the [!INCLUDE[Power BI](../includes/pn-microsoft-power-bi.md)] content pack to get insights about your engagement and team performance on social media. This content pack is designed specifically for community managers, providing performance metrics for engagement actions taken from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Track metrics, such as the number of actions taken and average response times, and get visibility into the performance of each member of your team. [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] automatically creates the dashboard and generates reports that give you a great starting point for exploring and analyzing your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Social Engagement content pack for Power BI](../social-engagement/get-content-pack-for-power-bi.md) 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get the Social Engagement content pack for Power BI](get-content-pack-for-power-bi.md) 
 
 ### Conversation view for private messages and Twitter replies
 
 Starting with this update, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] shows you any conversation that involves private messages (on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]) or [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] replies between a customer and one of your social profiles. The back and forth conversation between two authors shows the latest post at the top along with the two authors, including the one who belongs to your team and answered as your social profile. This view also shows all the team members who answered as that social profile.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](../social-engagement/posts-conversations.md#conversationView)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](posts-conversations.md#conversationView)
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.2
 
@@ -160,13 +160,13 @@ Starting with this update, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-e
 
 The [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Social Selling Assistant introduces Get Insights, a new recommendation type you can use to get recommendations for posts about your customers, competitors, and other topics of interest so you can stay on top of the latest developments.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Personalize the Social Selling Assistant](../social-engagement/personalize-social-selling-assistant.md), [Empower your salespeople with the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Personalize the Social Selling Assistant](personalize-social-selling-assistant.md), [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)
 
 ### Engagement history contains user information
 
 The engagement action history now shows the name and profile picture of the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user who performed the action in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](publish-react-posts.md)
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.1
 
@@ -176,7 +176,7 @@ The engagement action history now shows the name and profile picture of the [!IN
 
 You can access the Social Selling Assistant from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and install it from Microsoft AppSource into your [!INCLUDE[Dynamics 365 for Sales](../includes/pn-ms-dyn-365-for-sales.md)] application. The AppSource app adds a new dashboard that contains the Social Selling Assistant. Salespeople can access this dashboard from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web client, and from [!INCLUDE[pn_dyn_365_tablets](../includes/pn-dyn-365-tablets.md)]. [!INCLUDE[pn_dyn_365_phones](../includes/pn-dyn-365-phones.md)] is currently not supported.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)
 
 ### User interface is now available in Japanese and Chinese (traditional)
 
@@ -186,9 +186,9 @@ You can access the Social Selling Assistant from within [!INCLUDE[pn_netbreeze_s
 
 With this release, you can add your personal [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)] account as a social profile and share any public post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your professional network on [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)]. Your [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)] social profile will be available for the post action **Post Link**. When you share to [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)], you can choose between two visibility options: show the post to everyone on [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)] or to your network only. This post action is available across all [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] services, including the newly released Social Selling Assistant. To start sharing, go to **Settings** > **Social Profiles**, select **Add Profile**, select **[!include[LinkedIn](../includes/pn-linkedin.md)] Profile**, and then follow the steps.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](../social-engagement/manage-social-profiles.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
 #### See also
 
-[Get started with Social Engagement](../social-engagement/get-started.md)  
+[Get started with Social Engagement](get-started.md)  
 [E-books and videos](http://go.microsoft.com/fwlink/p/?LinkId=400708)

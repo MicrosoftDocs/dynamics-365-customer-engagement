@@ -55,7 +55,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
   
 8.  Fill in the information:  
   
-     Here’s how:  
+     Here's how:  
   
  ![Create volume discounts in Dynamics 365](../sales-enterprise/media/v7-discounts.png "Create volume discounts in Dynamics 365")  
   

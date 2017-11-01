@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Get to know your filters
-You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if select specific data points to drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](../social-engagement/media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
+You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if select specific data points to drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
 > [!NOTE]
 >  You'll only see available filters when you configure your data sets. Some filters aren't available in an area because they're based on metadata that you change after the post has been acquired, either manually or through workflows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid conflicting filter combinations](use-filters.md#conflicting_filters)  

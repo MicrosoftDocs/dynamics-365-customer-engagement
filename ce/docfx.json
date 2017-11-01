@@ -50,7 +50,8 @@
         "outlook-app/**.*": "bc/toc.yml",
         "portals/**.*": "bc/toc.yml",
         "project-service/**.*": "bc/toc.yml",
-        "sales-business/**.*": "bc/toc.yml",
+        "sales-business/**.*": "bc/toc.yml",        
+        "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
         "unified-service-desk/**.*": "bc/toc.yml",
@@ -64,6 +65,7 @@
         "customer-insights/**.*": [ "Customer Insights" ],
         "customer-service/**.*": [ "Customer Service" ],
         "customize/**.*": [ "Customize" ],
+        "developer/**.*": [ "Developer" ],
         "developer/insights-insideview/**.*": [ "Insights" ],
         "developer/online-management-api/**.*": [ "Online Management API" ],
         "field-service/**.*": [ "Field Service" ],
@@ -82,6 +84,7 @@
       }
     },
     "template": [],
+    "xref": [ "../_zip/dyn365-dotnet.zip" ],
     "dest": "customer-engagement"
   }
 }

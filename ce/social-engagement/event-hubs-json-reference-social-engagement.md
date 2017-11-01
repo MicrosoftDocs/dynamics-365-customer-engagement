@@ -23,7 +23,7 @@ Latest version of the payload: Version 2.1
 > [!NOTE]
 > New objects and properties can get added to the payload without increasing the version number.
   
-For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md).  
+For more information about getting a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] up and running, see [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md).  
   
 <a name="overview"></a>   
 ## Overview  
@@ -713,7 +713,7 @@ Timestamp when the post was published on the source (in ISO 8601 format).
 ### post.profile  
 JSON object describing the social profile of the post's author.  
   
-In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface, this is referred to as an "author". More information: [Find out what people are talking about](../social-engagement/analytics-conversations.md), [See author details](../social-engagement/author-details.md)  
+In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface, this is referred to as an "author". More information: [Find out what people are talking about](analytics-conversations.md), [See author details](author-details.md)  
   
  Property Value Type: object  
   
@@ -1177,7 +1177,7 @@ Back to [top](#overview)
   
 <a name="document.sentiment.polarity"></a>   
 #### post.sentiment.polarity  
-Sentiment value of a post. More information: [Adaptive learning based on changes to organization’s sentiment values](../social-engagement/adaptive-learning.md), [Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)  
+Sentiment value of a post. More information: [Adaptive learning based on changes to organization’s sentiment values](adaptive-learning.md), [Understand the public perception using sentiment analysis](analytics-sentiment.md)  
   
  Property Value Type: enum  
   
@@ -1297,7 +1297,7 @@ Internal ID of the tag.
   
 <a name="document.tags.tag.name"></a>   
 ##### post.tags.tag.name  
-Name of the tag. Intention tags are localized in the locale chosen in Global Settings. More information: [Understand an author's intent using intention analysis](../social-engagement/tags.md)  
+Name of the tag. Intention tags are localized in the locale chosen in Global Settings. More information: [Understand an author's intent using intention analysis](tags.md)  
   
  Property Value Type: string  
   
@@ -1525,7 +1525,7 @@ Back to [top](#overview)
   
 <a name="document.matchingSeachTopics.name"></a>   
 #### post.matchingSearchTopics.name  
-Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+Name of the search topic as defined in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
   
  Property Value Type: string  
   
@@ -1662,6 +1662,6 @@ Short description about the contributor for this post as delivered by external p
 Back to [top](#overview)
   
 ### See Also  
-[Manage connections in Social Engagement](../social-engagement/manage-connections.md)   
-[Stream data from Social Engagement to Microsoft Azure Event Hubs](../social-engagement/stream-data-to-event-hubs.md)   
-[Work with events from social posts in Azure Event Hubs](../social-engagement/work-with-event-hubs.md)
+[Manage connections in Social Engagement](manage-connections.md)   
+[Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)   
+[Work with events from social posts in Azure Event Hubs](work-with-event-hubs.md)

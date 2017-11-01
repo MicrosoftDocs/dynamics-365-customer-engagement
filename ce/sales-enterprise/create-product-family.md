@@ -32,7 +32,7 @@ Make it easier for sales agents to find products and services in a product catal
  ![Hierarchy of families and products in Dynamics 365](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365")  
   
 > [!NOTE]
->  The product family that you use for creating a product, bundle, or another product family becomes the parent family. You can’t change the parent family for the child products, bundles, or families. In the preceding example, “Televisions” is the parent family for “LED TVs” and “Plasma TVs,” and you can’t change these to have a different parent family.  
+>  The product family that you use for creating a product, bundle, or another product family becomes the parent family. You can't change the parent family for the child products, bundles, or families. In the preceding example, "Televisions" is the parent family for "LED TVs" and "Plasma TVs," and you can't change these to have a different parent family.  
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -50,14 +50,14 @@ Make it easier for sales agents to find products and services in a product catal
   
      -OR-  
   
-     To create a child product family under an existing family, select the family, and click **Add Family**. The selected family becomes the parent family of the new family you’re creating.  
+     To create a child product family under an existing family, select the family, and click **Add Family**. The selected family becomes the parent family of the new family you're creating.  
   
      If you want to see your current product family levels, see [View product hierarchy](../sales-enterprise/view-product-hierarchy.md).  
   
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
     > [!NOTE]
-    >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There’s no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season’s products using the date selected in the **Valid To** field.  
+    >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
 6.  Click **Save**.  
   

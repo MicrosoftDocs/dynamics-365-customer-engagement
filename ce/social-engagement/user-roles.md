@@ -80,7 +80,7 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
 |Edit tags on posts (confirm  tags, add tags, remove tags)|Yes|Yes|Yes|  
   
 ### See Also  
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
- [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)   
- [Assign permissions and user roles](../social-engagement/assign-user-roles.md)
+ [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+ [Integrate Social Engagement with Office 365](manage-licenses.md)   
+ [Assign permissions and user roles](assign-user-roles.md)
  

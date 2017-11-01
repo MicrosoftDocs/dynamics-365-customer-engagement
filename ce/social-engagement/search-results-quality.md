@@ -21,7 +21,7 @@ You can perform quality management over the entire application by blocking irrel
 >  As an Administrator or a Power Analyst, you can add terms to the list of blocked content to delete the matching posts in your analysis, or block entire domains from the data acquisition and delete already-acquired posts from these domains. Deleted posts are deducted from your monthly post quota.  
   
 > [!TIP]
->  This topic is part of a walkthrough on how you can set up searches. More information: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  This topic is part of a walkthrough on how you can set up searches. More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 ## Block domains from your sources  
  To improve the quality of your organization’s data, you can block URLs that aren’t required. You can add URLs and partial URLs to a blocked sources list that will be excluded from data acquisition and analysis. Posts that were already acquired from a source on your blocked list are deleted from the database four hours after you add the domain to the list. In the meantime, posts from this source are hidden.  
@@ -53,7 +53,7 @@ You can perform quality management over the entire application by blocking irrel
   
 2.  In the **DOMAINS** pane, enter the domain or partial domain in the field.  
   
-3.  Click the **Add** button ![New or Add button](../social-engagement/media/plus-icon.png "New or Add button").  
+3.  Click the **Add** button ![New or Add button](media/plus-icon.png "New or Add button").  
   
 > [!WARNING]
 >  Blocking a top-level domain also excludes all of its subdomains. For example, if you exclude `contoso.com`, the subdomain `shop.contoso.com` is also excluded.  
@@ -68,7 +68,7 @@ You can perform quality management over the entire application by blocking irrel
   
 1.  Go to **Search setup** > **Blocked Content**.  
   
-2.  Find the source you want to remove from the list and re-enable for data acquisition, and then click the **Delete** button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button").  
+2.  Find the source you want to remove from the list and re-enable for data acquisition, and then click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").  
   
 3.  In the confirmation message, click **CONFIRM**.  
   
@@ -101,7 +101,7 @@ You can perform quality management over the entire application by blocking irrel
   
 2.  Type the term in the input field.  
   
-3.  Click the **Add** button ![New or Add button](../social-engagement/media/plus-icon.png "New or Add button").  
+3.  Click the **Add** button ![New or Add button](media/plus-icon.png "New or Add button").  
   
 ### Remove a keyword from blocked content  
  Remove a global exclusion and restart the data acquisition for posts matching this keyword by removing a keyword from the blocked content list.  
@@ -111,7 +111,7 @@ You can perform quality management over the entire application by blocking irrel
   
 1.  Go to **Search Setup** > **Blocked Content**.  
   
-2.  Identify the list entry you want to remove from the blocked content, and then  click the **Delete** button ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button").  
+2.  Identify the list entry you want to remove from the blocked content, and then  click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").  
   
 3.  In the confirmation message, click **CONFIRM**.  
   
@@ -131,6 +131,6 @@ You can perform quality management over the entire application by blocking irrel
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
   
 ### See Also  
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Refine your search rules](../social-engagement/refine-search-rules.md)
+ [Set up searches to listen to social media conversations](set-up-searches.md)   
+ [Refine your search rules](refine-search-rules.md)
  

@@ -72,7 +72,7 @@ topic-status: Drafting
 
 <h2> Product updates </h2>
 
-<li>[What's new in Microsoft Social Engagement](../social-engagement/what-s-new-in-microsoft-social-engagement.md)</li>
+<li>[What's new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)</li>
 <li>[Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)</li>
 <li>[Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)</li>
 </td>

@@ -128,7 +128,7 @@ That way, if you think phone users need to focus only on the primary information
   
  ![Dynamics 365 for tablets nav bar](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for tablets nav bar")  
   
-<!--See [Change application navigation using the SiteMap](../developer/customize-dev/change-application-navigation-using-sitemap.md) for more information.-->  
+See [Change application navigation using the SiteMap](../developer/customize-dev/change-application-navigation-using-sitemap.md) for more information. 
   
 <a name="BKMK_ChangeCommands"></a>   
 ## Change commands for Dynamics 365 for phones and tablets  
