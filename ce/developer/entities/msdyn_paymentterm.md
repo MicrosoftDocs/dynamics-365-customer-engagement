@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_paymentterm Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify payment terms used for billing.
 
 **Added by**: Field Service Solution<br />

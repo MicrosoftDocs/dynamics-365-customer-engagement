@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ChannelAccessProfile Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information about permissions needed to access Dynamics 365 through external channels.For internal use only
 
 

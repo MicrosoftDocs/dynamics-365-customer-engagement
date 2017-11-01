@@ -10,20 +10,16 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "campaignactivityitem intersect entity, table of attribute metadata"
-  - "many-to-many (N:N) relationships, for the campaignactivityitem intersect entity"
-  - "campaignactivity entity, campaignactivityitem intersect table"
-  - "campaignactivityitem intersect entity, many-to-many (N:N) relationships for the campaignactivity entity"
-  - "intersect entity metadata, campaignactivityitem"
-  - "campaignactivityitem intersect entity, effect of early- and late-bound types on"
 ms.assetid: d2d7d3ee-c6e1-4c86-844f-68f9b5c843b8
 caps.latest.revision: 19
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # CampaignActivityItem intersect entity metadata
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The `CampaignActivityItem` intersect entity is the intersect table for the following many-to-many relationships for the `CampaignActivity` entity.  
   
 |Relationship schema name|Entity 1|Entity 2|  
@@ -39,4 +35,4 @@ The `CampaignActivityItem` intersect entity is the intersect table for the follo
  [ListMember intersect entity metadata](listmember-intersect-entity-metadata.md)   
  [Role Privileges intersect entity metadata](role-privileges-intersect-entity-metadata.md)   
  [Sample: Retrieve records from an intersect table](sample-retrieve-records-intersect-table.md)   
- [Campaign Entities](campaign-entities.md)
+ [Campaign entities](../campaign-entities.md)

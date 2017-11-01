@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # openWebResource (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/openWebResource-description.md](./includes/openWebResource-description.md)]
 
 ## Syntax

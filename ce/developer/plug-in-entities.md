@@ -14,9 +14,12 @@ ms.assetid: 061de41e-e421-4bac-8bb1-122e83764094
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Plug-in entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *plug-in assembly* stores information about an assembly that contains one or more plug-ins or custom workflow activities. This information includes the binary data of the assembly. A *plug-in type* identifies the object type that a plug-in assembly contains. This type can be either a plug-in or a custom workflow activity. A *plug-in type statistics* stores information about the run-time behavior of a plug-in type and other statistical information.  
   
 ### See also  

@@ -20,9 +20,12 @@ ms.assetid: dc817d07-1529-4c80-a91b-0e3fafbdfc68
 caps.latest.revision: 29
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Custom activities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create custom activities to support the communication needs of a business such as instant messaging (IM) and Short Message Service (SMS). To create a custom activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], create a custom entity, and specify it as an activity entity using the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsActivity> property.  
   
  However, unlike other custom entities, you can’t specify a primary attribute for a custom activity because, by default, each custom activity must have a primary attribute named ”Subject”.  
@@ -49,7 +52,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create c
 |<xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest>. <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest.PrimaryAttribute>|<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.SchemaName> is “Subject”.|The schema name of the `PrimaryAttribute` for all activities must be “Subject”.|  
   
 ## Example  
- The following sample shows how you can create a custom activity by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
+ The following sample shows how you can create a custom activity.  
   
  [!code-csharp[Entities#CreateCustomActivityEntity2](../snippets/csharp/CRMV8/entities/cs/createcustomactivityentity2.cs#createcustomactivityentity2)]  
   

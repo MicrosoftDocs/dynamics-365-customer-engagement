@@ -1,5 +1,5 @@
 ---
-title: "isValid (Client API reference)| MicrosoftDocs"
+title: "isValid (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -11,10 +11,21 @@ manager: "amyla"
 ---
 # isValid (Client API reference)
 
-TODO: Add description. 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-|Method | Description | 
-| ------------- |-------------| 
-| | |
-| | |
+Returns a boolean value to indicate whether the value of an attribute is valid. 
+
+## Attribute types supported
+
+All
+
+## Syntax
+
+`formContext.getAttribute(arg).isValid();`
+
+## Return Value
+
+**Type**: Boolean. 
+
+**Description**: true if the attribute value is valid; false otherwise.
 

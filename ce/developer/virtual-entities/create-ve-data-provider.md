@@ -8,10 +8,12 @@ applies_to:
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d01
 author: "jimdaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Create a virtual entity data provider
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 There are two general categories of data provider you can create using the virtual entity data SDK assemblies: generic or targeted.
 

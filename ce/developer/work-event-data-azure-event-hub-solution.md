@@ -16,6 +16,9 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Work with Customer Engagement event data in your Azure Event Hub solution
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] is a highly scalable publish-subscribe service that can ingest millions of events per second and stream them into multiple applications. The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-[!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] interface enables your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement event data to be published to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] and made available to your event hub solution subscribers. The following information describes the general  tasks that must be completed to send [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event data to an event hub solution.  
   
 > [!NOTE]

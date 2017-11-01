@@ -14,9 +14,12 @@ ms.assetid: a4b17ddb-c0a8-433d-a428-858b495e6734
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Disaster recovery in Customer Engagement (online)
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to recover from a planned or unplanned service interruption. An example of a planned service interruption is regular and periodic datacenter system maintenance. An example of an unplanned service interruption is a failure of a key computer system or network component in a data center. For either case, you temporarily lose access to your organization's data and the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] services.  
   
  Planned service interruptions are preceded by a public notice in the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] identifying the date and time of the service maintenance so that businesses can plan for the interruption in accessing their organization's data. Unplanned service interruptions result in a notice that the organization is currently undergoing unplanned maintenance.  
@@ -56,8 +59,10 @@ Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-on
  After the disaster affecting the primary organization endpoint has been corrected in the datacenter, a fail back from the alternate endpoint URL to the primary endpoint URL for the organization occurs as part of planned organization maintenance.  
   
 <a name="develop_fail"></a>   
-## Develop a Non-.NET application for failover recovery  
- Applications that do not link to the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assemblies, for example Java applications that access the web services by using the Organization service or Web API can try accessing the failover URL for the target organization. The URL for a failover alternate organization is the same as the URL for the primary organization with “--S” added to the organization name. For example, an organization named Contoso would have the primary and alternate URLs shown in the following table.  
+
+## Develop a Non-.NET application for failover recovery 
+ 
+ Applications that do not use the .NET assemblies, for example Java applications that access the web services by using the Organization service or Web API can try accessing the failover URL for the target organization. The URL for a failover alternate organization is the same as the URL for the primary organization with “--S” added to the organization name. For example, an organization named Contoso would have the primary and alternate URLs shown in the following table.  
   
 |Primary Organization URL|Alternate Organization URL|  
 |------------------------------|--------------------------------|  

@@ -13,9 +13,12 @@ applies_to:
 ms.assetid: 0a0247f3-3a59-42d1-b865-54d0f34e4aad
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Dump entity metadata to a file
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the work with entity metadata sample](https://code.msdn.microsoft.com/Samples-of-entities-916efa41).
 
 ## Prerequisites

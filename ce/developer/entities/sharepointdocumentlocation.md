@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SharePointDocumentLocation Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.
 
 

@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # clearFormNotification (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/clearFormNotification-description.md](./includes/clearFormNotification-description.md)]
 
 ## Syntax

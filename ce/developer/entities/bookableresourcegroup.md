@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BookableResourceGroup Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Associates resources with resource groups that they are a member of.
 
 **Added by**: Scheduling Solution<br />

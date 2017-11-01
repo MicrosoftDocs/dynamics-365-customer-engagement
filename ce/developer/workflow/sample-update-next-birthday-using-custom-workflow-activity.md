@@ -14,9 +14,12 @@ ms.assetid: 1cff83b0-1f7b-4ddb-a2af-b85f9f785529
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Update next birthday using a custom workflow activity
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample here [Custom workflow activities sample](https://code.msdn.microsoft.com/Custom-Workflow-Activities-eee57285). 
 
 ## Prerequisites

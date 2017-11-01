@@ -15,6 +15,9 @@ caps.latest.revision: 14
 ms.author: "v-milaro"
 ---
 # Web API Samples (C#)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic provides information about the Web API samples implemented with C#. While each sample focuses on a different aspect of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API, they share similar characteristics and structure.  
   
 > [!NOTE]

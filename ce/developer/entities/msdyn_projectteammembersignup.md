@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_projectteammembersignup Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity used to capture all resources that have applied for open position on projects.
 
 **Added by**: Project Service Automation Solution<br />

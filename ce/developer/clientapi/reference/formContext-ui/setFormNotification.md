@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # setFormNotification (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/setFormNotification-description.md](./includes/setFormNotification-description.md)]
 
 You can display any number of notifications and they will be displayed until they are removed using [clearFormNotification](clearFormNotification.md). The height of the notification area is limited so each new message will be added to the top. Users can scroll down to view older messages that have not yet been removed.

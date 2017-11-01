@@ -14,9 +14,11 @@ ms.assetid: 2dd2fe35-f681-4548-9b2b-5ad7c8470b8d
 caps.latest.revision: 50
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Register and use a custom workflow activity assembly
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 After you compile your custom workflow activity to create an assembly, you have to register the assembly with [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. Your custom activity then appears in the process form of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] or [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] (on-premises) depending on which deployment you registered the custom workflow activity with.
 
@@ -100,7 +102,7 @@ To use your custom workflow activity in a process:
 
 ### See also
 
- [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md)<br />
+ [Custom workflow activities (workflow assemblies)](../custom-workflow-activities-workflow-assemblies.md)<br />
  [Debug a custom workflow activity](debug-custom-workflow-activity.md)<br />
- [Plug-in Isolation, Trusts, and Statistics](plugin-isolation-trusts-statistics.md)<br />
- [Register and Deploy Plug-ins](register-deploy-plugins.md)
+ [Plug-in isolation, trusts, and statistics](../plugin-isolation-trusts-statistics.md)<br />
+ [Register and Deploy Plug-Ins](../register-deploy-plugins.md)

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_rma Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Records RMAs for products to be retuned from customers
 
 **Added by**: Field Service Solution<br />

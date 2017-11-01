@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getCurrentTheme (Client API reference)
 
+[!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns a string representing the current theme name in the application.
 
 ## Syntax

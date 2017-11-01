@@ -14,9 +14,11 @@ ms.assetid: 5cfa323a-1407-4651-a602-9f99e6370e5f
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Web access from a sandboxed plug-in
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

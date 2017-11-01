@@ -14,9 +14,12 @@ ms.assetid: 13c43edd-77ed-411e-a82e-3e60511c40e0
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Audit user access
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] support the ability to audit user access. The information that is recorded includes when the user started accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and if access originated from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], or SDK calls to the web services.  
   
 ## Enable user access auditing  

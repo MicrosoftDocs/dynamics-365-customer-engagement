@@ -14,9 +14,12 @@ ms.assetid: 08377156-32c7-492a-8e66-50a47a330dc6
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Start a Dynamics 365 Web API project in Visual Studio (C#)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] that builds a console application that uses the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement  Web API. It illustrates the common references and project resources that most applications, including the SDK C# samples, use to implement Web API-based solutions.  
   
 <a name="bkmk_prerequisites"></a>   
@@ -27,13 +30,11 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 -   A [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] client must be installed: either the command-line utility or the Visual Studio extension. For more information, see [Installing NuGet](https://docs.nuget.org/consume/installing-nuget).  
   
--   An internet connection is required to download the [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] package containing the Dynamics 365 Web API Helper Library, and other dependent packages.  
-  
--   Optionally, download the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)][here](https://www.microsoft.com/download/details.aspx?id=50032). Although the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] is not required to build or run these Web API samples, most Dynamics 365 developers will want to install it because it contains a rich set supplemental resources, and the SDK is required to access other [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] interfaces.  
+-   An internet connection is required to download the [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] package containing the Dynamics 365 Web API Helper Library, and other dependent packages.
   
 <a name="bkmk_createProject"></a>   
 ## Create a project  
- The following procedure demonstrates how to create a console application project in C# that uses the [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)]. For more information on supported versions of the .NET Framework, see [Supported extensions for Dynamics 365](supported-extensions.md).  
+ The following procedure demonstrates how to create a console application project in C# that uses the [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)]. For more information on supported versions of the .NET Framework, see [Supported extensions](../supported-extensions.md).  
   
 <a name="bkmk_newProject"></a>   
 ### New Project  
@@ -106,7 +107,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 3.  If you have additional functionality that you routinely use in your applications, you can add the associated references to the required assemblies now. For more information, see [How to: Add or Remove References by Using the Add Reference Dialog Box](https://msdn.microsoft.com/library/wkze6zky.aspx).  
   
- Because the Dynamics 365 Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 do require these; for more information, see [Assemblies included in the Dynamics 365 SDK](org-service/assemblies-included-sdk.md).  
+ Because the Dynamics 365 Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 do require these; for more information, see [Assemblies included in Dynamics 365 Customer Engagement SDK](../org-service/assemblies-included-sdk.md).  
   
 #### Add typical using statements  
   
@@ -114,25 +115,25 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 2.  At the top of the file, add the following `using` statements, which reference namespaces commonly used in Dynamics 365 Web API-based solutions.  
   
-    ```csharp  
-  
+    ```csharp
     using Microsoft.Crm.Sdk.Samples.HelperCode;  
     using Newtonsoft.Json;  
     using Newtonsoft.Json.Linq;  
     using System.Net.Http;  
-    using System.Net.Http.Headers;  
-  
+    using System.Net.Http.Headers;
     ```  
   
 3.  If you added routinely used assemblies or references in the previous sections, you may also want to add corresponding `using` statements for these resources.  
   
 4.  Save the file.  
   
-<a name="bkmk_addConnectionCode"></a>   
-### Add connection code  
+<a name="bkmk_addConnectionCode"></a>
+ 
+### Add connection code
+
  This section explains how to add a basic set of settings and instructions to perform these operations.  For more information about the common code used, see [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)  
   
-#### Edit the application configuration file  
+#### Edit the application configuration file
   
 1.  In **Solution Explorer**, open the **App.config** file for editing.  Add the following two sections to it, after the existing `<startup>` section, then save the file.  
   
@@ -164,8 +165,9 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 2.  When developing or deploying a solution, the actual connection and application registration values must be substituted for the example placeholder values.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
   
-<a name="bkmk_addCodeToCallHelperLibrary"></a>   
-#### Add code to call the helper library  
+<a name="bkmk_addCodeToCallHelperLibrary"></a>
+
+#### Add code to call the helper library
   
 1.  Edit the Program.cs file.  
   
@@ -216,8 +218,10 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
     ```  
   
-<a name="bkmk_addErrorHandlingCode"></a>   
-### Add error-handling code  
+<a name="bkmk_addErrorHandlingCode"></a>
+
+### Add error-handling code
+
  The following changes add code to catch and report exceptions, including Web API errors, to the console.  If you are targeting a different environment, then modify the exception-handling code appropriately for that environment.  
   
 1.  In `Main`, add the following statement to the `catch` block.  
@@ -243,14 +247,17 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 3.  Save all the files in the solution.  
   
-<a name="bkmk_nextSteps"></a>   
-### Next steps  
+<a name="bkmk_nextSteps"></a>
+
+### Next steps
+
  At this point the solution can be built without errors.  If you edit the application configuration file to supply values for your [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)], the program should also successfully connect to that server.  The solution represents a skeletal frame that is ready to accept custom code, including calls to the Dynamics 365 Web API.  
   
 > [!TIP]
 >  Before you leave this topic, consider saving your project as a project template. You can then reuse that template for future learning projects and save yourself some time and effort in setting up new projects. To do this, while your project is open in Microsoft Visual Studio, in the **File** menu select **Export template**. Follow the [Export Template Wizard](https://msdn.microsoft.com/library/xkh1wxd8.aspx) instructions to create the template.  
   
-### See also  
+### See also
+
  [Get Started with the Web API (C#)](get-started-dynamics-365-web-api-csharp.md)   
  [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)

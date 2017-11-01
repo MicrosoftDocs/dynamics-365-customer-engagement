@@ -14,9 +14,12 @@ ms.assetid: fa8762cd-b714-49df-8756-ba0a70e6fc97
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use an alternate key to create a record
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You   can now use alternate keys to create instances of <xref:Microsoft.Xrm.Sdk.Entity> and <xref:Microsoft.Xrm.Sdk.EntityReference> classes. This topic discusses the usage patterns and possible exceptions that might be thrown when using alternate keys. To understand how to define alternate keys for an entity, see [Define alternate keys for an entity](define-alternate-keys-entity.md).  
   
 <a name="BKMK_entity"></a>   

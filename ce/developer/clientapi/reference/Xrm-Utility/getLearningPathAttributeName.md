@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getLearningPathAttributeName (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getLearningPathAttributeName-description.md](./includes/getLearningPathAttributeName-description.md)]
 
 An attribute by this name must be added to the UI element that needs to be exposed to Learning Path (guided help). 

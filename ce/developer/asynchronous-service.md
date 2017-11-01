@@ -14,9 +14,12 @@ ms.assetid: 1a668103-29aa-40d1-877a-263487ba3be1
 caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Asynchronous service in Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The asynchronous service executes long-running operations independent of the main 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement core operation. 
 This results in improved overall system performance and improved scalability. The asynchronous service features a managed queue for the execution of 

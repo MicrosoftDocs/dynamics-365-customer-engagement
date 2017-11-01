@@ -14,13 +14,18 @@ ms.assetid: a93ac45e-aa61-4a0b-be4c-f63ccc4a2c91
 caps.latest.revision: 42
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create a visualization (chart)
-To create a visualization using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)], you must create a record for the `SavedQueryVisualization` or `UserQueryVisualization` entity to create an organization-owned or user-owned chart respectively. This topic shows how to create a chart visualization and a web resource visualization.  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+To create a visualization programmatically, you must create a record for the [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md) or [UserQueryVisualization Entity](../entities/userqueryvisualization.md) entity to create an organization-owned or user-owned chart respectively. This topic shows how to create a chart visualization and a web resource visualization.  
   
 <a name="Before"></a>   
+
 ## Before you create a visualization  
+
  Before creating a visualization, make sure that you are aware of the following:  
   
 - **Type of visualization**: If you want your visualizations to be available across the organization and don’t want to manage the access levels at a more detailed level, you might want to create an organization-owned visualization. However, if you’re concerned about the access privileges and security of your visualization, consider creating a user-owned visualization where you have more control over who can access it.  
@@ -28,21 +33,26 @@ To create a visualization using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)]
     > [!NOTE]
     >  Organization-owned visualizations can only be created by those users who have the System Administrator or System Customizer role.  
   
-- **Associated Entity**: Visualizations are attached to entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Entities Supported for Visualizations](view-data-with-visualizations-charts.md#SupportedVisualizationEntities). You can attach a chart to a supported entity by using the `SavedQueryVisualization.PrimaryEntityTypeCode` or `UserQueryVisualization.PrimaryEntityTypeCode` attribute.  
+- **Associated Entity**: Visualizations are attached to entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Entities Supported for Visualizations](view-data-with-visualizations-charts.md#SupportedVisualizationEntities). You can attach a chart to a supported entity by using the [SavedQueryVisualization.PrimaryEntityTypeCode](../entities/savedqueryvisualization.md#BKMK_PrimaryEntityTypeCode) or [UserQueryVisualization.PrimaryEntityTypeCode](../entities/userqueryvisualization.md#BKMK_PrimaryEntityTypeCode) attribute.  
   
 <a name="CreateChart"></a>   
+
 ## Create a chart visualization  
+
  Charts require you to specify the underlying data for the charts and how the charts will look in the form of *data description* and *presentation description* XML strings. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Specifying Chart Data](understand-charts-underlying-data-chart-representation.md) and [Sample Charts](sample-charts.md).  
   
  For a complete sample on how to create an organization-owned chart, see [Sample: Create, Retrieve, Update, and Delete (CRUD) a Chart](sample-create-retrieve-update-delete-chart.md).  
   
 ### Create a multi-series chart  
+
  Multi-series charts map multiple series (vertical) axis values to a single category (horizontal) axis value. The only difference from a single series chart is that these charts have multiple `<measurecollection>` and corresponding `<series>` elements specified in the XML strings. Each `<measurecollection>` element contains a child element called `<measure>` that defines a series (vertical) axis value for the same category (horizontal) value. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md).  
   
  For a sample multi-series chart and the corresponding data description and presentation descriptions XML strings, see [Multi-Series Chart](sample-charts.md#MultiSeriesChart).  
   
 <a name="CreateWRVisualization"></a>   
+
 ## Create a web resource visualization  
+
  Visualizations containing web resources don’t require you to specify the data description and presentation description XML strings. The following sample demonstrates how to create an organization-owned visualization containing a web resource by using the SDK.  
   
 ```csharp  

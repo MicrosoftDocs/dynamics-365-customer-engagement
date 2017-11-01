@@ -14,9 +14,12 @@ ms.assetid: d4e6e932-61cd-42fd-a280-ef63bbad45f0
 caps.latest.revision: 49
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Custom workflow activities (workflow assemblies)
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports the registration and execution of custom workflow activities in addition to the out-of-box activities provided by [Windows Workflow Foundation](https://msdn.microsoft.com/netframework/aa663328.aspx). [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] includes an [activity library](https://msdn.microsoft.com/library/dd489459.aspx) that provides activities for control flow, sending and receiving messages, doing work in parallel, and more. However, to build applications that satisfy your business needs, you may need activities that perform tasks specific to that application. To make this possible, [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] supports the creation of custom workflow activities.  
   
  You can write custom workflow activities in [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)] code by creating an assembly that contains one or more classes derived from the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)][CodeActivity](https://msdn.microsoft.com/library/system.workflow.activities.codeactivity.aspx) class. This assembly is annotated with .NET attributes to provide the metadata that [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses at runtime to link your code to the workflow engine.  

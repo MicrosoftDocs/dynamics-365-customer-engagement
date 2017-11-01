@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_purchaseordersubstatus Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify custom PO sub-statuses, which can be used to specify the current PO status more precisely.
 
 **Added by**: Field Service Solution<br />

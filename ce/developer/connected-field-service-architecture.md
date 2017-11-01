@@ -17,6 +17,9 @@ caps.latest.revision: 9
 ms.author: "v-milaro"
 ---
 # Connected Field Service architecture
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] is a distributed solution whose architecture reflects its dependence upon multiple components within both [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] and [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services.  
   
 ## High-level component architecture  

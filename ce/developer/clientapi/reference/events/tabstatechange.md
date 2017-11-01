@@ -11,9 +11,13 @@ manager: "amyla"
 ---
 # TabStateChange Event (Client API reference)
 
-This event occurs when the **DisplayState** of the tab changes due to user interaction or when the setDisplayState method is applied in code. 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
+This event occurs when the **DisplayState** of the tab changes due to user interaction or when the [setDisplayState](../formContext-ui-tabs/setDisplayState.md) method is applied in code. 
 
 Use this event when you want to change the **src** property of an IFRAME within the tab. If you set the IFrame.**src** property in the OnLoad event for an IFRAME within a collapsed tab, the value will be overwritten when the tab is expanded.
+
+Use the [addTabStateChange](../formContext-ui-tabs/addTabStateChange.md) method to add event handlers for this event and the [removeTabStateChange](../formContext-ui-tabs/removeTabStateChange.md) method to remove them.
 
 
 

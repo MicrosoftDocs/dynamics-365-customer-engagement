@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_projecttask Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Tasks related to project.
 
 **Added by**: Project Service Automation Solution<br />

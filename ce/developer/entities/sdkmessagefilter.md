@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SdkMessageFilter Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Filter that defines which SDK messages are valid for each type of entity.
 
 

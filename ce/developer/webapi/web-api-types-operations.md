@@ -14,9 +14,12 @@ ms.assetid: d80cfb87-d4f1-4c75-bcc8-4f54d1351e26
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Web API types and operations
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In order to use the Web API you need to find information about what is available for you to use. The service describes itself via service and metadata documents that you can access. This topic will introduce important concepts and describe how you can find the information you need using documentation generated from the service and metadata documents as well as the documentation of the system entity types, functions, and actions.  
   
 <a name="bkmk_terminology"></a>   
@@ -144,9 +147,11 @@ In order to use the Web API you need to find information about what is available
 ### Change the name of an entity set  
  By default, the entity set name matches the <xref href="Microsoft.Dynamics.CRM.EntityMetadata?text=EntityMetadata EntityType" /> `LogicalCollectionName` (<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>`LogicalCollectionName`) property value. If you have a custom entity that you want to address using a different entity set name, you can update the <xref href="Microsoft.Dynamics.CRM.EntityMetadata?text=EntityMetadata EntityType" /> `EntitySetName` (<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.`EntitySetName`) property value to use a different name.  
   
-<a name="bkmk_alternateKeys"></a>   
-### Alternate keys  
- Although [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement allows for creating alternate keys, only the primary key will be found in the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] documentation.  
+<a name="bkmk_alternateKeys"></a>
+
+### Alternate keys
+
+ Although [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement allows for creating alternate keys, only the primary key will be found in the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)].  
   
  None of the system entities have alternate keys defined. If you define alternate keys for an entity, they will be included in the `$metadata` `EntityType` element as an `Annotation` like the following:  
   

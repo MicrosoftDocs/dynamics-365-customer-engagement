@@ -14,9 +14,12 @@ ms.assetid: a252f8ac-94a3-4814-8722-e7d40b8f79b4
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Administration and security entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The entities described in this section are used to set up the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system. This includes setting up the businesses, users, and teams that define your organization.  
   
 ## In This Section  

@@ -14,9 +14,12 @@ ms.assetid: 5c7f045f-7b57-4e44-a99c-becefe533035
 caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Create a process using a template
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the work with workflows sample](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
 
 ## Prerequisites

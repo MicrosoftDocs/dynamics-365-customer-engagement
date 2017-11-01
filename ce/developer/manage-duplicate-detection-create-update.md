@@ -14,10 +14,12 @@ ms.assetid: AE107774-4545-44B4-94C8-A0271EFA7876
 caps.latest.revision: 11
 author: "SushantSikka"
 ms.author: "susikka"
-manager: "jdaly"
+manager: "amyla"
 ---
 
 # Manage duplicate detection for create and update operations using the Web API
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Dynamics 365 Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
@@ -45,7 +47,7 @@ Use `MSCRM.SuppressDuplicateDetection` header during `POST` request, to detect c
 The following example shows how to detect duplicates during `Create` and `Update` operations using `MSCRM.SuppressDuplicateDetection` header in Web API request.
 
 **Request**
-```HTTP
+```http
 POST [Organization URI]/org1/api/data/v9.0/leads HTTP/1.1
 If-None-Match: null
 OData-Version: 4.0
@@ -63,7 +65,7 @@ MSCRM.SuppressDuplicateDetection: false
 If a lead record with the same `emailaddress1` attribute already exists, the following Response is returned.
 
 **Response**
-```JSON
+```json
 {
     "error": {
         "code": "0x80040333",
@@ -86,7 +88,7 @@ Set the value of `MSCRM.SuppressDuplicateDetection` header to `false` in your `P
 The example shown below attempts to update an existing lead entity record which includes the same value of `emailaddress1` attribute as an existing record.
 
 **Request**
-```HTTP
+```http
 PATCH [Organization URI]/api/data/v9.0/leads(c4567bb6-47a3-e711-811b-e0071b6ac1b1) HTTP/1.1
 If-None-Match: null
 OData-Version: 4.0
@@ -103,7 +105,7 @@ MSCRM.SuppressDuplicateDetection: false
 ```  
 
 **Response**
-```JSON  
+```json  
 {
     "error": {
         "code": "0x80040333",

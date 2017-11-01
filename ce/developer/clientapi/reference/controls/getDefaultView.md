@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getDefaultView (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Returns the ID value of the default lookup dialog view.
 
 ## Control types supported

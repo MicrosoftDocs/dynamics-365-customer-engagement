@@ -14,9 +14,12 @@ ms.assetid: accdb615-e378-403f-8fb9-abb882f72d81
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Image attributes
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity records that include image data provide a unique experience within the application. As a developer you need to understand how you work with image data.  
   
  Only certain system entities and custom entities support images. For information about which system entities support images, see [Entity images](introduction-entities.md#BKMK_EntityImages).  
@@ -41,8 +44,7 @@ Entity records that include image data provide a unique experience within the ap
  The URL is composed this way:  
   
 ```  
-{0}/image/download.aspx?entity={1}&attribute={2}&id={3}&timestamp={4}  
-  
+{0}/image/download.aspx?entity={1}&attribute={2}&id={3}&timestamp={4}
 ```  
   
 -   0 : The organization URL  

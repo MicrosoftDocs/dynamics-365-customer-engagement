@@ -14,9 +14,12 @@ ms.assetid: a89d3bae-a10c-4f69-bad0-d5cb72e97094
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # When to edit the customizations file
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The customizations.xml file that is exported as part of an unmanaged solution can be edited to perform specific customization tasks. After editing the file you can compress the modified file together with the other files exported in the unmanaged solution. You apply the changes by importing that modified unmanaged solution.  
   
  Editing a complex XML file like the customizations.xml file is much easier and less prone to errors if you use a program designed to support schema validation. While it is possible to edit this file using a simple text editor like [!INCLUDE[pn_Notepad](../../includes/pn-notepad.md)], this is not recommended unless you are very familiar with editing this file. For more information, see [Edit the Customizations file with Schema Validation](edit-customizations-xml-file-schema-validation.md).  
@@ -28,28 +31,16 @@ The customizations.xml file that is exported as part of an unmanaged solution ca
  You can edit the customization.xml file to perform the following tasks.  
   
  **Editing the ribbon**  
- The [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] describes the process of editing the ribbon by editing the customization.xml file directly. Several people have created ribbon editors that provide a user interface to make editing the ribbon easier. Currently the following projects are available on [!INCLUDE[pn_codeplex](../../includes/pn-codeplex.md)]:  
-  
--   [Ribbon Editor for Microsoft Dynamics CRM 2011](http://ribboneditor.codeplex.com/)  
-  
--   [MS CRM 2011 : Pragma Toolkit : Ribbon, Site Map Editor](http://pragmatoolkit.codeplex.com/)  
-  
--   [CRM 2011 Visual Ribbon Editor](http://crmvisualribbonedit.codeplex.com/)  
-  
- For support using these programs, contact the program publisher.  
+ This documentation describes the process of editing the ribbon by editing the customization.xml file directly. Several people have created ribbon editors that provide a user interface to make editing the ribbon easier. The most popular one so far is the [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx). For support using this program, contact the program publisher.  
   
  For more information about editing the ribbon by editing the customization.xml manually, see [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md).  
   
  **Editing the SiteMap**  
- The SDK describes the process of editing the SiteMap by editing the customization.xml file directly.  
+ The SDK describes the process of editing the SiteMap by editing the customization.xml file directly. However, its recommended that you use the site map designer in Customer Engagement to create or update site maps. More information: [Create a site map for an app using the site map designer](../../customize/create-site-map-app.md)  
   
- Several people have also created SiteMap editors. Currently the following projects are available on [!INCLUDE[pn_codeplex](../../includes/pn-codeplex.md)]:  
+ You can also use one of the community-developed site map editors, such as the [XrmToolBox Site Map Editor](https://www.xrmtoolbox.com/plugins/MsCrmTools.SiteMapEditor/).   
   
--   [SiteMap Editor for Microsoft Dynamics CRM 2011](http://sitemapeditor.codeplex.com/)  
-  
--   [MS CRM 2011 : Pragma Toolkit : Ribbon, Site Map Editor](http://pragmatoolkit.codeplex.com/)  
-  
- For more information see [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ For more information, see [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
   
  **Editing FormXml**  
  FormXml is used to define entity forms and dashboards. The form editor and dashboard designer in the application are the most commonly used tools for this purpose. Editing the customizations.xml file is an alternative method. For more information, see [Customize Entity Forms in Microsoft Dynamics 365](customize-entity-forms.md) and [Create a Dashboard](create-dashboard.md).  

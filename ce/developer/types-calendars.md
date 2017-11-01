@@ -13,9 +13,12 @@ ms.assetid: 6f88c4ff-876e-4108-885f-98700436d461
 caps.latest.revision: 11
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Types of calendars
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The calendar entity was modified to support additional types of calendars in [!INCLUDE[pn_v6_online_ur1_shortest](../includes/pn-v6-online-ur1-shortest.md)] and [!INCLUDE[pn_crm_2015_service_pack_1_op_short](../includes/pn-crm-2015-service-pack-1-op-short.md)].  
   
 ## Calendar type  
@@ -41,4 +44,4 @@ The calendar entity was modified to support additional types of calendars in [!I
 ### See also  
  [Calendar Entities](calendar-entities.md)   
  [Calendar Entity](entities/calendar.md)   
- [CalendarRule Entity](entities/calendarrule.md)
+ <xref:Microsoft.Dynamics.CRM.calendarrule>

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # BookableResourceCharacteristic Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
 
 **Added by**: Scheduling Solution<br />

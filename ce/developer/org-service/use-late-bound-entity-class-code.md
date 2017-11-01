@@ -14,9 +14,12 @@ ms.assetid: 75c9f21a-9bb7-4324-8a50-c655fc4b589d
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the late bound entity class in code
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can use the <xref:Microsoft.Xrm.Sdk.Entity> class when you work with entities. When initialized, the <xref:Microsoft.Xrm.Sdk.Entity> class contains the logical name of an entity and a property-bag array of the entity’s attributes. This lets you use late binding so that you can work with types such as custom entities and custom attributes that weren’t available when your application was compiled.  
   
  The key difference between early and late binding involves type conversion. While early binding provides compile-time checking of all types so that no implicit casts occur, late binding checks types only when the object is created or an action is performed on the type. The <xref:Microsoft.Xrm.Sdk.Entity> class requires types to be explicitly specified to prevent implicit casts.  

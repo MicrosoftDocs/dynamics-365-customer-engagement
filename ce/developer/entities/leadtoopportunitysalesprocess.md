@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # LeadToOpportunitySalesProcess Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Lead To Opportunity Sales Process Business Process Flow
 
 **Added by**: Sales Solution<br />

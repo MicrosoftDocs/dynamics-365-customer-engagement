@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # EntityDataProvider Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Developers can register plug-ins on a data provider to enable data access for virtual entities in the system.
 
 

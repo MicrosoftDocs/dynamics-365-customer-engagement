@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # MobileOfflineProfile Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information to administer and manage the data available to mobile devices in offline mode.
 
 

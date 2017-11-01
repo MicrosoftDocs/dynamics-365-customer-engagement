@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # OnSelection Event (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 This event occurs when a knowledge base article is selected in the knowledge base search control. 
 
 Use the [addOnSelection]((../controls/addOnSelection.md)) and [removeOnSelection]((../controls/removeOnSelection.md)) methods to add and remove event handlers respectively for this event. 

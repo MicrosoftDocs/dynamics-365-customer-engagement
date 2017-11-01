@@ -14,9 +14,12 @@ ms.assetid: 799b2346-bda1-4a26-a330-79d0927a7743
 caps.latest.revision: 11
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Execute batch operations using the Web API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 You can group multiple operations into a single HTTP request using a batch operation.  
   
 <a name="bkmk_Whentousebatchrequests"></a>   
@@ -54,8 +57,10 @@ Content-Transfer-Encoding:binary
 > [!NOTE]
 >  The odata.continue-on-error preference is not supported by the web API. Any error that occurs in the batch will stop the processing of the remainder of the batch.  
   
-<a name="bkmk_ChangeSets"></a>   
-## Change sets  
+<a name="bkmk_ChangeSets"></a>
+
+## Change sets
+
  When multiple operations are contained in a change set, all the operations are considered atomic, which means that if any one of the operations fail, any completed operations will be rolled back. Like a batch request, change sets must have a Content-Type header with value set to multipart/mixed with a boundary set to include the identifier of the change set using this pattern:  
   
 ```  
@@ -78,16 +83,19 @@ Content-Transfer-Encoding:binary
 --changeset_BBB456--  
 ```  
   
-<a name="bkmk_Example"></a>   
-## Example  
+<a name="bkmk_Example"></a>
+
+## Example
+
  The following example includes a batch with a unique identifier of AAA123 and a change set with a unique identifier of BBB456.  
   
  Within the change set, two tasks are created using POST and associated with an existing account with accountid = 00000000-0000-0000-000000000001.  
   
  Finally, a GET request is included outside the change set to return all six tasks associated with the account, including the two that were created in the batch request.  
   
- **Request**  
- ```  
+ **Request**
+
+```http 
 POST [Organization URI]/api/data/v9.0/$batch HTTP/1.1  
 Content-Type: multipart/mixed;boundary=batch_AAA123  
 Accept: application/json  
@@ -127,8 +135,9 @@ Accept: application/json
 --batch_AAA123--  
 ```  
   
- **Response**  
- ```  
+ **Response**
+
+```http 
 --batchresponse_c1bd45c1-dd81-470d-b897-e965846aad2f  
 Content-Type: multipart/mixed; boundary=changesetresponse_ff83b4f1-ab48-430c-b81c-926a2c596abc  
   
@@ -181,7 +190,8 @@ OData-Version: 4.0
 --batchresponse_c1bd45c1-dd81-470d-b897-e965846aad2f--  
 ```  
   
-### See also  
+### See also
+
  [Perform operations using the Web API](perform-operations-web-api.md)   
  [Compose Http requests and handle errors](compose-http-requests-handle-errors.md)   
  [Query Data using the Web API](query-data-web-api.md)   

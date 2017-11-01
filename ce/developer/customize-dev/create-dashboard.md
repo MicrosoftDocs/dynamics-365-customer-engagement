@@ -14,10 +14,13 @@ ms.assetid: 155a627a-fae8-4154-89a7-28b7fc912db0
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Create a dashboard
-Organization-owned dashboards can be created by using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] or by customizing the entity form in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement by editing the customizations.xml file.  
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] or by customizing the entity form in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement by editing the customizations.xml file.  
   
 > [!NOTE]
 >  Some dashboards that are created by using the SDK or by customizing the entity form are not supported by the Dashboard Designer in the Web application. For more information, see [Limitations: Creating dashboards by using the SDK or through form customization](#Limitations) later in this topic.  
@@ -35,8 +38,6 @@ Organization-owned dashboards can be created by using the [!INCLUDE[pn_sdk](../.
  To create a dashboard, create an instance of `SystemForm` for an organization-owned dashboard, or `UserForm` for a user-owned dashboard. The following sample shows how to create an organization-owned dashboard.  
   
  [!code-csharp[VisualizationsAndDashboards#CRUDDashboards2](../../snippets/csharp/CRMV8/visualizationsanddashboards/cs/cruddashboards2.cs#cruddashboards2)]  
-  
- [!code-vb[VisualizationsAndDashboardsVB#CRUDDashboards2](../../snippets/visualbasic/CRMV8/visualizationsanddashboardsvb/vb/cruddashboards2.vb#cruddashboards2)]  
   
  For a complete sample, see [Sample: Create, Retrieve, Update and Delete (CRUD) a Dashboard](sample-create-retrieve-update-delete-dashboard.md). For a sample to create a user-owned dashboard, and assign it to another user, see [Sample: Assign a User-Owned Dashboard to Another User](sample-assign-user-owned-dashboard-another-user.md).  
   
@@ -76,8 +77,10 @@ Organization-owned dashboards can be created by using the [!INCLUDE[pn_sdk](../.
 7.  Import the .zip file as a solution in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Exporting, Preparing to Edit, and Importing the Ribbon](export-prepare-edit-import-ribbon.md).  
   
 <a name="Limitations"></a>   
+
 ## Limitations: Creating dashboards by using the SDK or through form customization  
- Certain dashboards that are created or modified using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] or through form customization are not supported by the dashboard designer in the Web application. Avoid the following while creating or modifying a dashboard using the SDK or through form customization.  
+
+ Certain dashboards that are created or modified using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] or through form customization are not supported by the dashboard designer in the Web application. Avoid the following while creating or modifying a dashboard using the SDK or through form customization.  
   
 ### General  
   

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SavedOrgInsightsConfiguration Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Saved configuration for the organization insights
 
 

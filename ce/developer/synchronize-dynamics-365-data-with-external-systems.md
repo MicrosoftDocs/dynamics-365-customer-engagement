@@ -14,9 +14,12 @@ ms.assetid: 3290d4ad-874b-4e3d-83ac-0fec47a8af31
 caps.latest.revision: 22
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Synchronize Dynamics 365 data with external systems
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Sometimes you’ll need to synchronize and integrate [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement data with data that is stored in other systems. The common data integration patterns include taking data from an external system and pushing it into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], taking data from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and synchronizing it to some external data store, or updating [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] with external data. You can now use several new capabilities to make it easier to write code to achieve these scenarios.  
   
  These new features can be used separately as needed in any situation, but together they address common issues related to synchronizing and integrating data with external data. The following table introduces these new features.  

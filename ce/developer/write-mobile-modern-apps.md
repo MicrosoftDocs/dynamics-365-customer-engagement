@@ -16,9 +16,12 @@ ms.assetid: 16d118f7-b8fa-4a23-8e56-6148669d3bc0
 caps.latest.revision: 24
 author: "SushantSikka"
 ms.author: "susikka"
-manager: "jdaly"
+manager: "sakudes"
 ---
 # Write mobile and modern apps
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 <!-- TODO: Do you really mean to refer to only crm online in this intro? -->
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement provides separate clients for phones and tablets which adapt to the customizations and configurations you apply to the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Phones and Tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
@@ -41,20 +44,16 @@ Here are four scenarios where you can create mobile apps that leverage the Micro
 Resources for getting started with mobile app development:
 
 * [Resources for Android mobile application development](android-mobile-app-development.md)
-
 * [Resources for iOS mobile application development](ios-mobile-app-development.md)
- 
-[Ask the community](https://community.dynamics.com/search#q=section%3A117+%26%26+tag%3A%22Mobile+App+Development%22&group=57)
+* [Ask the community](https://community.dynamics.com/search#q=section%3A117+%26%26+tag%3A%22Mobile+App+Development%22&group=57)
  
 ## See Also  
 
-[Azure Mobile Connector SDK for Dynamics 365 Online](https://github.com/Azure/mobile-services-dynamics-connector)
- 
+[Azure Mobile Connector SDK for Dynamics 365 Online](https://github.com/Azure/mobile-services-dynamics-connector)<br /> 
 [CRM Service Utility for Mobile development](https://github.com/DynamicsCRM/crm-mobilesdk-tool-svcutil)
  
-## Related Sections  
-[Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)  
+## Related Sections
   
-[Mobile Development Helper Code for Dynamics CRM](http://code.msdn.microsoft.com/Mobile-Development-Helper-3213e2e6)   
-   
-[odata.org](http://www.odata.org)
+[Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)<br /> 
+[Mobile Development Helper Code for Dynamics CRM](http://code.msdn.microsoft.com/Mobile-Development-Helper-3213e2e6)<br /> 
+[odata.org](http://www.odata.org)<br /> 

@@ -14,15 +14,20 @@ ms.assetid: dc81b2ec-c4db-44b9-8fe6-db108b196a96
 caps.latest.revision: 85
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Active Directory and claims-based authentication
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Claims-based authentication provides an industry standard security protocol to authenticate a user on a host computer. Claims-based authentication is a set of WS-* standards describing the use of a Security Assertion Markup Language (SAML) token in either passive mode (when WS-Federation is used with the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement web application) or active mode (where WS-Trust in used with [!INCLUDE[pn_WCF_long](../includes/pn-wcf-long.md)] clients). This authentication works together with WCF to provide secure user authentication and a communication channel with a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] editions support claims-based authentication.  
   
  Claims-based authentication requires the availability of a security token service (STS) running on a server. An STS server can be based on [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] Federation Services (AD FS) V2, or any platform that provides the official STS protocol. More information: [TechNet: Configure IFD for Dynamics 365 (on-premises)](https://technet.microsoft.com/library/dn609803.aspx).  
   
-<a name="bkmk_scenarios"></a>   
-## Supported authentication scenarios  
+<a name="bkmk_scenarios"></a>
+   
+## Supported authentication scenarios 
+ 
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] supports the following authentication scenarios for each deployment type.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
@@ -40,18 +45,22 @@ Claims-based authentication provides an industry standard security protocol to a
  A request to authenticate a user is sent from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or a custom application to [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. The WCF stack manages the authentication process for Organization Service calls from an application, whereas [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] manages authentication for a web application.  
   
 <a name="bkmk_unsupported"></a>   
-## Unsupported authentication scenarios  
- Use of client certificates is not supported by the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. If you configure the Dynamics 365 website to require IIS client certificates, you will get authentication failures for any applications that were built using the SDK.  
+
+## Unsupported authentication scenarios
+  
+ Use of client certificates is not supported. If you configure the Dynamics 365 website to require IIS client certificates, you will get authentication failures for any applications that were built using the SDK.  
   
  For more information about additional unsupported programming methods see [Unsupported Customizations](supported-extensions.md#Unsupported).  
   
-<a name="bkmk_classes"></a>   
-## Authentication classes  
+<a name="bkmk_classes"></a> 
+  
+## Authentication classes
+  
  The following table lists the primary authentication classes available in the SDK, describes when to use them, and provides links to additional relevant documentation.  
   
 |Classes|Usage|Related Documentation|  
 |-------------|-----------|---------------------------|  
-|[IServiceConfiguration\`1](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.iserviceconfiguration`1), [IServiceManagement\`1](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.iservicemanagement`1)|All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>*</sup>)<br /><br /> Best choice for multi-threaded applications|[Authenticate Office 365 Users with Dynamics 365 (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md)<br /><br /> [Sample: Authenticate Users with Dynamics 365 Web Services](sample-authenticate-users-web-services.md)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching)|  
+|<xref:Microsoft.Xrm.Sdk.Client.IServiceConfiguration`1>, <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>|All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>*</sup>)<br /><br /> Best choice for multi-threaded applications|[Authenticate Office 365 Users with Dynamics 365 (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md)<br /><br /> [Sample: Authenticate Users with Dynamics 365 Web Services](sample-authenticate-users-web-services.md)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching)|  
 |<xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>|All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>*</sup>)|[Authentication by Using the Client Proxy Classes](active-directory-claims-based-authentication.md#bkmk_clientproxy)<br /><br /> [Sample: Access the Discovery Service](org-service/sample-access-discovery-service.md)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching)|  
 |[CrmConnection Class](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection.aspx)|All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>*</sup>)|[Simplified Connection to Microsoft Dynamics CRM](https://msdn.microsoft.com/en-us/library/gg695810.aspx)<br /><br /> [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement](xrm-tooling/sample-simplified-connection-quick-start.md)|  
 |**ServerConnection**|All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>*</sup>)<br /><br /> Use for console test applications and sample code.<br /><br /> Designed to improve usability when running SDK sample code and to demonstrate use of the authentication classes. Contains console output code.|[Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br /><br /> [Sample: Quick Start for Dynamics 365 Customer Engagement](sample-quick-start.md)|  
@@ -65,13 +74,13 @@ Claims-based authentication provides an industry standard security protocol to a
  The following code shows how to instantiate the organization service proxy:  
   
 ```csharp  
-using (OrganizationServiceProxy _serviceProxy =    new OrganizationServiceProxy(organizationUri, homeRealmUri, userCredentials, deviceCredentials))  
+using (OrganizationServiceProxy _serviceProxy = new OrganizationServiceProxy(organizationUri, homeRealmUri, userCredentials, deviceCredentials))  
 ```  
   
  The following code shows how to instantiate the discovery service proxy:  
   
 ```csharp  
-using (DiscoveryServiceProxy _discProxy =    new DiscoveryServiceProxy(organizationUri, homeRealmUri, userCredentials, deviceCredentials))  
+using (DiscoveryServiceProxy _discProxy = new DiscoveryServiceProxy(organizationUri, homeRealmUri, userCredentials, deviceCredentials))  
 ```  
   
  It is important to properly dispose of the service proxy instance in your application before the application terminates. The `using` statement makes sure that the service proxy is correctly disposed by automatically calling `Dispose` on the service proxy when it goes out of scope. However, for improved application performance, it is a best practice to keep the service proxy instance available in your application for the entire application session instead of disposing it and allocating it again somewhere else in the application code when needed. The reason being that creating and authenticating a service channel is an expensive operation (in time). In this case, when you are done with the service proxy instance, you must directly call the **Dispose** method on the proxy before the application terminates.  
@@ -100,7 +109,7 @@ _serviceProxy.EnableProxyTypes()
   
 <a name="bkmk_faults"></a>   
 ## Handling channel exceptions and faults  
- Your code should catch the following exceptions and faults. See the C# samples in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] for a list of additional exceptions to catch:  
+ Your code should catch the following exceptions and faults. See the C# samples in the developer documentation for a list of additional exceptions to catch:  
   
 -   [System.TimeoutException](https://msdn.microsoft.com/library/system.timeoutexception.aspx)  
   

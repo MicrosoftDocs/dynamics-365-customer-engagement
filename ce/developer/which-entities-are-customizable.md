@@ -22,9 +22,12 @@ ms.assetid: f9807600-8cfd-4879-9005-f3a2068aceb8
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Which entities are customizable?
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement has 271 entities; of these, 98 entities are customizable. Any custom entities that you add are also customizable. Creators of managed solutions can use managed properties to select whether to enable customization of entities in their solutions. The specific customizations that are allowed for customizable entities are defined by other properties.  
   
 <a name="properties"></a>   

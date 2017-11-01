@@ -17,10 +17,13 @@ ms.assetid: fe83bfd4-7ac1-4b9c-8cea-dc32d3ed60b6
 caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Plug-in isolation, trusts, and statistics
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports the execution of plug-ins and custom workflow activities in an isolated environment. In this isolated environment, also known as a *sandbox*, a plug-in or custom activity can make use of the full power of the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] to access the organization web service. Access to the file system, system event log, certain network protocols, registry, and more is prevented in the sandbox. However, sandbox plug-ins and custom activities do have access to external endpoints like [!INCLUDE[pn_azure_cloud_services](../includes/pn-azure-cloud-services.md)].  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports the execution of plug-ins and custom workflow activities in an isolated environment. In this isolated environment, also known as a *sandbox*, a plug-in or custom activity can make use of the full power of the Organization Service. Access to the file system, system event log, certain network protocols, registry, and more is prevented in the sandbox. However, sandbox plug-ins and custom activities do have access to external endpoints like [!INCLUDE[pn_azure_cloud_services](../includes/pn-azure-cloud-services.md)].  
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] collects run-time statistics and monitors plug-ins and custom workflow activities that execute in the sandbox. If the sandbox worker process that hosts this custom code exceeds threshold CPU, memory, or handle limits or is otherwise unresponsive, that process will be killed by the platform. At that point any currently executing plug-in or custom workflow activity in that worker process will fail with exceptions. However, the next time that the plug-in or custom workflow activity is executed it will run normally. There is one worker process per organization so failures in one organization will not affect another organization.  
   
@@ -50,7 +53,7 @@ manager: "jdaly"
   
  The key value is a regular expression string that defines the web access restrictions. The default key value is:  
   
-```  
+```
 "^http[s]?://(?!((localhost[:/])|(\[.*\])|([0-9]+[:/])|(0x[0-9a-f]+[:/])|(((([0-9]+)|(0x[0-9A-F]+))\.){3}(([0-9]+)|(0x[0-9A-F]+))[:/]))).+";  
 ```  
   

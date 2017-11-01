@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Opportunity Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.
 
 **Added by**: Sales Solution<br />

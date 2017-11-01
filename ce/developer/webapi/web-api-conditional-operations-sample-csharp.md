@@ -16,6 +16,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 ---
 # Web API Conditional Operations Sample (C#)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement Web API and C#.  
   
 > [!NOTE]

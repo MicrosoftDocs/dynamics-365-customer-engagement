@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # invokeProcessAction (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/invokeProcessAction-description.md](./includes/invokeProcessAction-description.md)] 
 
 For more information about actions, see [Actions overview](../../../../customize/actions.md)

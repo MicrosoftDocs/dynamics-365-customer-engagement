@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_orderlinetransaction Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Sales estimate detail of an project contract line.
 
 **Added by**: Project Service Automation Solution<br />

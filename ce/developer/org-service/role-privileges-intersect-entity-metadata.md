@@ -10,21 +10,16 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "role entity, roleprivileges intersect table"
-  - "intersect entity metadata, roleprivileges"
-  - "many-to-many (N:N) relationships, for the roleprivileges intersect entity"
-  - "roleprivileges intersect entity, effect of early- and late-bound types on"
-  - "roleprivileges intersect entity, table of attribute metadata"
-  - "roleprivileges intersect entity, many-to-many (N:N) relationships for the role entity"
-  - "security role metadata"
 ms.assetid: a85583a8-9f2b-401f-926d-7872e3885852
 caps.latest.revision: 14
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Role Privileges intersect entity metadata
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The `RolePrivileges` intersect entity is the intersect table for the following many-to-many relationships for the `Role` entity.  
   
 |Relationship schema name|Entity 1|Entity 2|  
@@ -39,4 +34,4 @@ The `RolePrivileges` intersect entity is the intersect table for the following m
  [CampaignItem intersect entity metadata](campaignitem-intersect-entity-metadata.md)   
  [ListMember intersect entity metadata](listmember-intersect-entity-metadata.md)   
  [Sample: Retrieve records from an intersect table](sample-retrieve-records-intersect-table.md)   
- [Privilege and Role Entities](privilege-role-entities.md)
+ [Privilege and role entities](../privilege-role-entities.md)

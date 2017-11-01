@@ -16,9 +16,12 @@ ms.assetid: 089bc521-c50e-4030-bcd1-7b71e0d34557
 caps.latest.revision: 32
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Azure aware custom workflow activity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample obtains the data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement operation and posts it to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
  This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].Download the complete sample from [Sample: Microsoft Dynamics 365 and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a)  

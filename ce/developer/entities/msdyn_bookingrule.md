@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_bookingrule Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify custom rules to be validated by the system before saving a booking record.
 
 **Added by**: Unified Resource Scheduling Solution<br />

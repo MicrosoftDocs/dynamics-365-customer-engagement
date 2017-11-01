@@ -14,9 +14,12 @@ ms.assetid: c6de9c12-e8e3-4ed5-a6ed-18ade572065f
 caps.latest.revision: 45
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use Web API functions
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Functions and actions represent re-usable operations you can perform using the Web API. There are two types of functions in the Web API:  
   
  **Functions**  
@@ -29,7 +32,7 @@ Functions and actions represent re-usable operations you can perform using the W
 ## Passing parameters to a function  
  For those functions that require parameters, the best practice is to pass the values using parameters. For example, when you use the <xref href="Microsoft.Dynamics.CRM.GetTimeZoneCodeByLocalizedName?text=GetTimeZoneCodeByLocalizedName Function" />, you must include the `LocalizedStandardName` and `LocaleId` parameter values. So, you could use the following inline syntax as shown here.  
   
-```  
+```http
 GET [Organization URI]/api/data/v9.0/GetTimeZoneCodeByLocalizedName(LocalizedStandardName='Pacific Standard Time',LocaleId=1033)  
 ```  
   
@@ -37,14 +40,16 @@ GET [Organization URI]/api/data/v9.0/GetTimeZoneCodeByLocalizedName(LocalizedSta
   
  Therefore, the best practice is to pass the values in as parameters as shown in the following code sample. If you use this best practice, you can avoid the open issue that applies to `DateTimeOffset`.  
   
-```  
+```http
 GET [Organization URI]/api/data/v9.0/GetTimeZoneCodeByLocalizedName(LocalizedStandardName=@p1,LocaleId=@p2)?@p1='Pacific Standard Time'&@p2=1033  
 ```  
   
  Parameter aliases also allow you to re-use parameter values to reduce the total length of the URL when the parameter value is used multiple times.  
   
-<a name="bkmk_passCrmEntityReference"></a>   
-## Pass reference to an entity to a function  
+<a name="bkmk_passCrmEntityReference"></a>
+
+## Pass reference to an entity to a function
+
  Certain functions will require passing a reference to an existing entity. For example, the following functions have a parameter that requires a <xref href="Microsoft.Dynamics.CRM.crmbaseentity?text=crmbaseentity EntityType" />:  
   
 ||||  
@@ -55,23 +60,25 @@ GET [Organization URI]/api/data/v9.0/GetTimeZoneCodeByLocalizedName(LocalizedSta
   
  When you pass a reference to an existing entity, use the `@odata.id` annotation to the Uri for the entity. For example if you are using the <xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" /> you can use the following Uri to specify retrieving access to a specific contact:  
   
-```  
-  
-GET [Organization URI]/api/data/v9.0/systemusers(af9b3cf6-f654-4cd9-97a6-cf9526662797)/Microsoft.Dynamics.CRM.RetrievePrincipalAccess(Target=@tid)?@tid={'@odata.id':'contacts(9f3162f6-804a-e611-80d1-00155d4333fa)'}  
-  
+```http
+GET [Organization URI]/api/data/v9.0/systemusers(af9b3cf6-f654-4cd9-97a6-cf9526662797)/Microsoft.Dynamics.CRM.RetrievePrincipalAccess(Target=@tid)?@tid={'@odata.id':'contacts(9f3162f6-804a-e611-80d1-00155d4333fa)'}
 ```  
   
  The `@odata.id` annotation can be the full Uri, but a relative Uri works too.  
   
-<a name="bkmk_boundAndUnboundFunctions"></a>   
-## Bound and unbound functions  
+<a name="bkmk_boundAndUnboundFunctions"></a>
+ 
+## Bound and unbound functions
+
  Only those functions found in <xref:Microsoft.Dynamics.CRM.FunctionIndex> may be bound. Query functions are never bound.  
   
-<a name="bkmk_boundFunctions"></a>   
-### Bound functions  
+<a name="bkmk_boundFunctions"></a>
+
+### Bound functions
+
  In the [CSDL metadata document](web-api-types-operations.md#bkmk_csdl), when a `Function` element represents a bound function, it has an `IsBound` attribute with the value `true`. The first `Parameter` element defined in the function represents the entity that the function is bound to. When the `Type` attribute of the parameter is a collection, the function is bound to an entity collection. As an example, the following is the definition of the <xref href="Microsoft.Dynamics.CRM.CalculateTotalTimeIncident?text=CalculateTotalTimeIncident Function" /> and <xref href="Microsoft.Dynamics.CRM.CalculateTotalTimeIncidentResponse?text=CalculateTotalTimeIncidentResponse ComplexType" /> in the CSDL.  
   
-```  
+```xml
 <ComplexType Name="CalculateTotalTimeIncidentResponse">  
   <Property Name="TotalTime" Type="Edm.Int64" Nullable="false" />  
 </ComplexType>  
@@ -90,16 +97,18 @@ GET [Organization URI]/api/data/v9.0/systemusers(af9b3cf6-f654-4cd9-97a6-cf95266
   
  The following example shows an example using the <xref href="Microsoft.Dynamics.CRM.CalculateTotalTimeIncident?text=CalculateTotalTimeIncident Function" />, which is bound to the `incident` entity.  
   
- **Request**  
- ```  
+ **Request**
+
+```http
 GET [Organization URI]/api/data/v9.0/incidents(90427858-7a77-e511-80d4-00155d2a68d1)/Microsoft.Dynamics.CRM.CalculateTotalTimeIncident() HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```  
   
- **Response**  
- ```  
+ **Response**
+ 
+```http 
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -109,11 +118,13 @@ OData-Version: 4.0
 }  
 ```  
   
-<a name="bkmk_unboundFunctions"></a>   
-### Unbound functions  
+<a name="bkmk_unboundFunctions"></a>
+ 
+### Unbound functions
+
  The <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI Function" /> isn’t bound to an entity. It is defined in the CSDL without an `IsBound` attribute.  
   
-```  
+```xml
 <ComplexType Name="WhoAmIResponse">  
   <Property Name="BusinessUnitId" Type="Edm.Guid" Nullable="false" />  
   <Property Name="UserId" Type="Edm.Guid" Nullable="false" />  
@@ -128,16 +139,18 @@ OData-Version: 4.0
   
  When invoking an unbound function, use just the function name as shown in the following example.  
   
- **Request**  
- ```  
+ **Request**
+
+```http
 GET [Organization URI]/api/data/v9.0/WhoAmI() HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```  
   
- **Response**  
- ```  
+ **Response**
+
+```http
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
@@ -149,12 +162,16 @@ OData-Version: 4.0
 }  
 ```  
   
-<a name="bkmk_composeQueryWithFunctions"></a>   
-## Compose a query with functions  
+<a name="bkmk_composeQueryWithFunctions"></a>
+
+## Compose a query with functions
+
  There are two ways that functions can be used to control data returned with queries. Certain functions allow for control over the columns or conditions that they return and you use query functions to evaluate conditions in a query.  
   
-<a name="bkmk_composableFunctions"></a>   
-### Composable functions  
+<a name="bkmk_composableFunctions"></a>
+  
+### Composable functions
+
  Some functions listed in <xref:Microsoft.Dynamics.CRM.FunctionIndex> will return a collection of entities. A subset of these functions are *composable*, which means that you can include an additional `$select` or `$filter` system query option to control which columns are returned in the results. These functions have an `IsComposable` attribute in the CSDL. Each of these functions has a companion message in the organization service that accept either a <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> or <xref:Microsoft.Xrm.Sdk.Query.QueryBase> type parameter. The OData system query options provide the same functionality so these functions do not have the same parameters as their companion messages in the organization service. The following table shows a list of those composable functions in this release.  
   
 ||||  
@@ -164,17 +181,20 @@ OData-Version: 4.0
 |<xref href="Microsoft.Dynamics.CRM.RetrieveParentGroupsResourceGroup?text=RetrieveParentGroupsResourceGroup Function" />|<xref href="Microsoft.Dynamics.CRM.RetrieveSubGroupsResourceGroup?text=RetrieveSubGroupsResourceGroup Function" />|<xref href="Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple?text=RetrieveUnpublishedMultiple Function" />|  
 |<xref href="Microsoft.Dynamics.CRM.SearchByBodyKbArticle?text=SearchByBodyKbArticle Function" />|<xref href="Microsoft.Dynamics.CRM.SearchByKeywordsKbArticle?text=SearchByKeywordsKbArticle Function" />|<xref href="Microsoft.Dynamics.CRM.SearchByTitleKbArticle?text=SearchByTitleKbArticle Function" />|  
   
-<a name="bkmk_queryevaluationFunctions"></a>   
-### Query functions  
+<a name="bkmk_queryevaluationFunctions"></a>
+  
+### Query functions
+
  Functions listed in <xref:Microsoft.Dynamics.CRM.QueryFunctionIndex> are intended to be used to compose a query. These functions can be used in a manner similar to the [Built-in query functions](query-data-web-api.md#bkmk_buildInQueryFunctions), but there are some important differences.  
   
  You must use the full name of the function and include the names of the parameters. The following example shows how to use the <xref href="Microsoft.Dynamics.CRM.LastXHours?text=LastXHours Function" /> to return all account entities modified in the past 12 hours.  
   
-```  
+```http
 GET [Organization URI]/api/data/v9.0/accounts?$select=name,accountnumber&$filter=Microsoft.Dynamics.CRM.LastXHours(PropertyName=@p1,PropertyValue=@p2)&@p1='modifiedon'&@p2=12  
 ```  
   
-### See also  
+### See also
+
  [Web API Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)   
  [Web API Functions and Actions Sample (Client-side JavaScript)](web-api-functions-actions-sample-client-side-javascript.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)   

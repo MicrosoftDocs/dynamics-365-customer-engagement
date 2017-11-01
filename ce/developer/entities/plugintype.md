@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # PluginType Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Type that inherits from the IPlugin interface and is contained within a plug-in assembly.
 
 

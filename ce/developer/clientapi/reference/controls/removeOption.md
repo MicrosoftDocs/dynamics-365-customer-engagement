@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # removeOption (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Removes an option from a control. 
 
 ## Control types supported

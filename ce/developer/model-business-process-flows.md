@@ -20,9 +20,12 @@ ms.assetid: 67d8cf80-9f77-4804-97a1-cf9f61417e83
 caps.latest.revision: 68
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Model business process flows
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *business process flow* lets you create more efficient and streamlined sales, service, and other business processes. Having high performing processes in place will help you to increase your win rates, improve customer satisfaction, and grow your revenue.  
   
  A business process flow creates a visualization of your business process by placing special controls at the top of the entity forms. Users are guided through various stages of sales, marketing, or service processes towards completion. Each process supports multiple stages and steps. You can add or remove steps, change the order of stages, or add new entities to the business process flow.  

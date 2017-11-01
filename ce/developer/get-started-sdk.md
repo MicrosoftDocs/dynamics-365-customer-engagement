@@ -14,38 +14,45 @@ ms.assetid: 3a50694d-df1e-4da6-92f9-7a84364386d9
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 tags: 
  - "aug2017" 
  - "MigrationHO"
 ---
 # Get started with the SDK for Dynamics 365 Customer Engagement
-The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] for Customer Engagement provides many options to achieve the results you need. But how can you jump in and get started? This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need.
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] provide many options to achieve the results you need. But how can you jump in and get started? This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need.
 
 <a name="bkmk_environment"></a>
 
 ## Try out an environment
+
  If you just want to get an environment to start learning with, the easiest approach is to sign up for a [30-day free trial on Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=708412).
 
  If you’re looking for something more long term, or you specifically want to use the on-premises version, you can [download the on-premises Microsoft Dynamics CRM Server 2016](http://go.microsoft.com/fwlink/p/?LinkId=708414). During Setup, you have the option to supply a commercial key, or you can use one of the product keys listed on the download page for a 90 day free trial.
 
- If you have an [MSDN subscription](https://msdn.microsoft.com/subscriptions), you can download [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] server software and access static activation keys that can be used for any number of installations.
+ If you have an [MSDN subscription](https://msdn.microsoft.com/subscriptions), you can download [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] server software and access static activation keys that can be used for any number of installations.
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
 <a name="bkmk_findTraining"></a>
 
 ## Find training
- In the [Tutorials and resources for learning about development for Dynamics 365](tutorials-resources-sdk.md) topic you can find information about several “quick start” samples included in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] for Customer Engagement as well as links to other resources to help you learn to program with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
+
+ In the [Tutorials and resources for learning about development for Dynamics 365](tutorials-resources-sdk.md) topic you can find information about several “quick start” samples included in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] as well as links to other resources to help you learn to program with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
 
 <a name="bkmk_createCustomEntities"></a>
 
 ## Create custom tables and fields
+
  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you create *entities* that include the database tables. You create *attributes* in those entities that correspond to fields in the application. These entities and attributes are core parts of the platform metadata. You don’t need to write code to do this. You can find instructions about how to create entities and attributes at [Create and edit metadata](../customize/create-edit-metadata.md). If you need to create entities and attributes programmatically, you can find information in [The Metadata and Data Models in Dynamics 365](metadata-data-models.md). Another place to look is [Introduction to Entities in Dynamics 365](introduction-entities.md).
 
 <a name="bkmk_automation"></a>
 
 ## Automate business processes
+
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] applications are all about improving efficiency by automating business processes. Understanding the different ways to do this can help you choose the right option for your requirement. The following are options available to you:
 
  **Processes**<br />
@@ -64,6 +71,7 @@ The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] for Customer Engagement provides m
 <a name="bkmk_writeFormScripts."></a>
 
 ## Write scripts for forms
+
  Form scripts provide a way to automate business processes, ensure data entered is valid, or just improve people’s experience when working in forms. Form scripts are written in [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and are added to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] as *web resources*. You can learn more about how to create web resources in the application at [Create and edit web resources](../customize/create-edit-web-resources.md). For more detailed information, see [Web Resources for Dynamics 365](web-resources.md).
 
 <!-- ../customize/use-the-form-editor.md#BKMK_EventHandlers not available using https://technet.microsoft.com/library/dn531185.aspx#BKMK_EventHandlers until-->
@@ -72,12 +80,14 @@ The [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] for Customer Engagement provides m
 <a name="bkmk_mobileApps"></a>
 
 ## Create a mobile application that uses data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement
+
  [Write mobile and modern apps](write-mobile-modern-apps.md) contains information to get you started and links to additional content for mobile app development on the [Mobile SDK](https://msdn.microsoft.com/dynamics/crm/mobilesdk).
 
 <a name="bkmk_windowsClient"></a>
 
 ## Create a Windows client application that uses data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement
- XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] assembly APIs (Organization service and Discovery Service) that provide support for building [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] client applications for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)
+
+ XRM tooling is a set of APIs built on top of the .Net assembly APIs (Organization service and Discovery Service) that provide support for building [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] client applications for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)
 
 <a name="bkmk_USD"></a>
 

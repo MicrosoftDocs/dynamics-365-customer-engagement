@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # setDisabled (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Sets whether the control is disabled.
 
 ## Control types supported

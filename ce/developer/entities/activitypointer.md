@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ActivityPointer Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.
 
 

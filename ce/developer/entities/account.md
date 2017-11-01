@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Account Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Business that represents a customer or potential customer. The company that is billed in business transactions.
 
 

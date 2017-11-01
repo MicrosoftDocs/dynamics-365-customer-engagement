@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_wallsavedqueryusersettings Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Contains user personalization information regarding which of the administrator’s selected views to display on a user’s personal wall.
 
 **Added by**: Activity Feeds Solution<br />

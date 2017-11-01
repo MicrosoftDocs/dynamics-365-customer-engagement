@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_timegroup Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify time groups consisting of multiple time windows to be used for scheduling, for example.
 
 **Added by**: Unified Resource Scheduling Solution<br />

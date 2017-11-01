@@ -17,9 +17,12 @@ ms.assetid: 748ac902-3ba5-456c-ab91-aece8947131a
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Close an incident
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Service samples](https://code.msdn.microsoft.com/Service-Samples-f42adf82).   
 
 ## Prerequisites

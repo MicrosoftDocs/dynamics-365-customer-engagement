@@ -14,9 +14,12 @@ ms.assetid: 0b95ebbd-49f5-4e09-8f18-7708dbef65d0
 caps.latest.revision: 9
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the Dynamics 365 Discovery services
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The Discovery web services are used to determine the organizations that a user is a member of, and the endpoint address URL to access the Organization service or Web API for each of those organizations. This Discovery service is necessary because [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is a multi-tenant environment. A single [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server can host multiple business organizations. By using the Discovery web service, your application can determine the endpoint address URL to access the target organization’s business data.  
   
 A Discovery service is accessed through either the Web API or the Organization Service.  

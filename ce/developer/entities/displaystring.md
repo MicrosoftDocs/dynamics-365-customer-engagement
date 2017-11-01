@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # DisplayString Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Customized messages for an entity that has been renamed.
 
 

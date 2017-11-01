@@ -14,9 +14,12 @@ ms.assetid: fc54b5d4-00d7-4833-be95-3c66a920a84d
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Impersonate another user
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Impersonation is used to execute business logic (code) on behalf of another [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement user to provide a desired feature or service using the appropriate role and object-based security of that impersonated user. This is necessary because the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web services can be called by various clients and services on behalf of a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] user, for example, in a workflow or custom ISV solution. Impersonation involves two different user accounts: one user account (A) is used when executing code to perform some task on behalf of another user (B).  
   
 ## Required privileges  

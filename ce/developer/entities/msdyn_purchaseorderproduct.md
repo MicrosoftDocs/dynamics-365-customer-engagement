@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_purchaseorderproduct Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Record products to be ordered on purchase order
 
 **Added by**: Field Service Solution<br />

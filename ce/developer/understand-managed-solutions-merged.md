@@ -14,9 +14,12 @@ ms.assetid: 79c15784-56d2-46b0-bc78-b60c3d01cbb6
 caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Understand how managed solutions are merged
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you prepare your managed solution to be installed, remember that an organization may have multiple solutions installed or that other solutions may be installed in the future. Construct a solution that follows best practices so that your solution will not interfere with other solutions.  
   
  The processes that [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement uses to merge customizations emphasize maintaining the functionality of the solution. While every effort is made to preserve the presentation, some incompatibilities between customizations may require that the computed resolution will change some presentation details in favor of maintaining the customization functionality.  

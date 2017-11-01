@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # Role Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Grouping of security privileges. Users are assigned roles that authorize their access to the Microsoft CRM system.
 
 

@@ -15,6 +15,9 @@ caps.latest.revision: 23
 ms.author: "v-cavo"
 ---
 # Web API Conditional Operations Sample (Client-side JavaScript)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement  Web API using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)].  
   
 > [!NOTE]

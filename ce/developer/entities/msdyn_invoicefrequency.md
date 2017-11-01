@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_invoicefrequency Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Setup entity for invoice schedules.
 
 **Added by**: Project Service Automation Solution<br />

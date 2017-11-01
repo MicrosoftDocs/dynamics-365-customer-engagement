@@ -14,9 +14,12 @@ ms.assetid: 53eeb95f-ed92-4a4b-9198-fbec3c855ee6
 caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Publish request schema
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The following is the schema definition for the <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> message. For more information, see [Publish Customizations](publish-customizations.md). You can find this schema in the SDK\Schemas\ParameterXml.xsd file in the SDK package. [!INCLUDE[sdk_download](../../includes/sdk-download.md)]  
   
 ## Schema  

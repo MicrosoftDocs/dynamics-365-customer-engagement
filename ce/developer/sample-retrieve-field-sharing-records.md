@@ -19,9 +19,12 @@ ms.assetid: 5b23d413-c69a-4568-a490-09454362417b
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Retrieve field sharing records
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Sample: Retrieve field sharing records](https://code.msdn.microsoft.com/Sample-Retrieve-field-e793c68f)  
 
 ## Prerequisites

@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_resourceassignmentdetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity used to keep track of resource assignment details on tasks. 
 
 **Added by**: Project Service Automation Solution<br />

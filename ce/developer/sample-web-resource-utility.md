@@ -17,9 +17,12 @@ ms.assetid: 27b065e3-1157-4a93-b1e6-b46f25afb595
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Web resource utility
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Manually creating Web resources one at a time using the customization tools can take a long time when you have to create many files. The Web Resource Utility is a WPF application project that you can compile and run to import many Web Resource eligible files from a folder structure with a consistent naming convention based on the folder structure.  
   
  Download the complete sample from here [Web Resource Utility sample](https://code.msdn.microsoft.com/Web-Resource-Utility-sample-eb3771e9). 

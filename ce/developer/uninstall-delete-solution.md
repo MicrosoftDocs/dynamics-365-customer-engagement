@@ -22,9 +22,12 @@ ms.assetid: 0201e06a-2102-4ea1-a348-93714226e175
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Uninstall or delete a solution
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 You delete managed and unmanaged solutions in the same way, but the resulting actions are very different. Deleting a managed solution will uninstall the managed solution.  
   
 <a name="BKMK_DeleteSolution"></a>   
@@ -54,8 +57,7 @@ You delete managed and unmanaged solutions in the same way, but the resulting ac
 ## Access the solutions list with a URL  
  If you need to navigate directly to the solutions list you can use the following URL:  
   
-```  
-  
+```
 <organization root url>/tools/Solution/home_solution.aspx?etn=solution  
 ```  
   

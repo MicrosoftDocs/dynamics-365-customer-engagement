@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # SocialProfile Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This entity is used to store social profile information of its associated account and contacts on different social channels.
 
 

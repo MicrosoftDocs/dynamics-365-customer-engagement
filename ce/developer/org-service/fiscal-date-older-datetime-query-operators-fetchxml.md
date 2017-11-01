@@ -14,9 +14,12 @@ ms.assetid: 4ab6e60c-161e-468f-b89c-cc3bd243b3df
 caps.latest.revision: 33
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Fiscal date and older than datetime query operators in FetchXML
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 A FetchXML query in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement can use special fiscal date values and *older than* clauses for date and time values in queries. For example, a FetchXML query can find all orders fulfilled in the last fiscal month or urgent cases with high severity that are older than 15 minutes.  
   
 > [!NOTE]

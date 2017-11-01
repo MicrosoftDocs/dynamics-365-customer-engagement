@@ -15,37 +15,47 @@ caps.latest.revision: 27
 ms.author: "v-cavo"
 ---
 # Web API Basic Operations Sample (Client-side JavaScript)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample demonstrates how to perform basic CRUD (create, retrieve, update, and delete) and association and dissociation operations on entity instances using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)].  
   
 > [!NOTE]
 >  This sample implements the operations detailed in the [Web API Basic Operations Sample](web-api-basic-operations-sample.md) and uses the common [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] constructs described in [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)  
   
-<a name="bkmk_prerequisites"></a>   
-## Prerequisites  
+<a name="bkmk_prerequisites"></a>
+
+## Prerequisites
+
  To run this sample, the following is required:  
   
 -   Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
   
 -   A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
   
-<a name="bkmk_runsample"></a>   
-## Run this sample  
+<a name="bkmk_runsample"></a>
+
+## Run this sample
+
  To run this sample, download the solution package here [Microsoft CRM Web API Basic Operations Sample (Client-side JavaScript)](http://go.microsoft.com/fwlink/p/?LinkId=824043). Download the Microsoft CRM Web API Basic Operations Sample (Client-side JavaScript).zip file and extract the contents. Locate the  WebAPIBasicOperations_1_0_0_1_managed.zip solution and import it into your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization and run the sample. For instructions on how to import the sample solution, see [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md).  
   
-<a name="bkmk_codesample"></a>   
-## Code sample  
+<a name="bkmk_codesample"></a>
+
+## Code sample
+
  This sample includes two web resources:  
   
 -   [WebAPIBasicOperations.html](#bkmk_WebAPIBasicOperations)  
   
 -   [WebAPIBasicOperations.js](#bkmk_WebAPIBasicOperationsJS)  
   
-<a name="bkmk_WebAPIBasicOperations"></a>   
-### WebAPIBasicOperations.html  
+<a name="bkmk_WebAPIBasicOperations"></a>
+
+### WebAPIBasicOperations.html
+
  The WebAPIBasicOperations.html web resource provides the context in which the [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] code will run.  
   
 ```html  
-  
 <html>  
 <head>  
     <title>Microsoft CRM Web API Basic Operations Example</title>  
@@ -97,11 +107,13 @@ This sample demonstrates how to perform basic CRUD (create, retrieve, update, an
   
 ```  
   
-<a name="bkmk_WebAPIBasicOperationsJS"></a>   
-### WebAPIBasicOperations.js  
+<a name="bkmk_WebAPIBasicOperationsJS"></a>
+
+### WebAPIBasicOperations.js
+
  The WebAPIBasicOperations.js web resource is the [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] library that defines the operations this sample performs.  
   
-```javascript  
+```javascript
   
 "use strict";  
 var Sdk = window.Sdk || {};  
@@ -846,7 +858,8 @@ Sdk.deleteSampleData = function () {
   
 ```  
   
-### See also  
+### See also
+
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Create an entity using the Web API](create-entity-web-api.md)   
  [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md)   

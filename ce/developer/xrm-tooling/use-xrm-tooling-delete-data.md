@@ -14,15 +14,19 @@ ms.assetid: 7e503d2c-89df-4846-8528-632b5ee12bd5
 caps.latest.revision: 14
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use XRM tooling to delete data
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 There are two methods available in the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for deleting data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement: [Guid)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.deleteentity\(system.string,system.guid,system.guid\)) and [Guid)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient.deleteentityassociation\(system.string,system.guid,system.string,system.guid,system.string,system.guid\)).  
   
 ## DeleteEntity  
+
  DeleteEntity is used to remove a single row of data from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. To use this method, you need to know the entity schema name you wish to affect, and the GUID of the row you want to remove.  
   
-```  
+```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", <Domain>),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected  
@@ -51,9 +55,10 @@ else
 ```  
   
 ## DeleteEntityAssociation  
+
  DeleteEntityAssociation removes the many-to-many association between records in entities. In this example, we will remove the association between a record in the lead and account entities.  
   
-```  
+```csharp  
 CrmServiceClient crmSvc = new CrmServiceClient(new System.Net.NetworkCredential("<UserName>", "<Password>", <Domain>),"<Server>", "<Port>", "<OrgName>");  
   
 // Verify that you are connected  
@@ -83,6 +88,7 @@ else
 ```  
   
 ### See also  
+
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
  [Use XRM Tooling to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
  [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)

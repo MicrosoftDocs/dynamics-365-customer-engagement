@@ -17,9 +17,12 @@ ms.assetid: 70140156-f6b5-4cae-846c-23009ed755b2
 caps.latest.revision: 56
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Azure extensions for Dynamics 365 Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports integration with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]. Developers can register plug-ins with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] that can pass run-time message data, known as the execution context, to one or more [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solutions in the cloud. This is especially important for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] because [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is one of two supported solutions for communicating run-time context obtained in a plug-in to external line-of-business (LOB) applications. The other solution is the external custom endpoint access capability from a plug-in registered in the sandbox.  
   
  The [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] provides a secure communication channel for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] run-time data to external line of business applications. This capability is especially useful in keeping disparate [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] systems or other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] servers synchronized with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] business data changes.  

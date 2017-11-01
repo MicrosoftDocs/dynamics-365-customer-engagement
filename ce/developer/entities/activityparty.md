@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # ActivityParty Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Person or group associated with an activity. An activity can have multiple activity parties.
 
 

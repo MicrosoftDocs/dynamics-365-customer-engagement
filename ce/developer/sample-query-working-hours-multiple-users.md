@@ -18,9 +18,12 @@ ms.assetid: 68c9d5d9-ab69-4b6f-9f84-a1d5919d549e
 caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Query the working hours of multiple users
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Schedules and Appointments](https://code.msdn.microsoft.com/Schedule-and-Appointment-93ed80c0).  
 
 ## Prerequisites

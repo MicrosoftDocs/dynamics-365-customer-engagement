@@ -16,6 +16,9 @@ author: "JimDaly"
 ms.author: "jdaly"
 ---
 # Use the Dynamics 365 Web API Helper Library (C#)
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Most of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API C#  code samples described in this SDK use the  *Dynamics 365 Web API Helper Library* to assist in performing common tasks, such as application configuration, authentication against a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] service, and HTTP response error handling. You might also find this helper code useful in your [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)]-based projects.  
   
 ## Obtain and use the helper library  

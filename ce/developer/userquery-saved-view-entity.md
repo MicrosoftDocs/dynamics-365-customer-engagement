@@ -22,9 +22,12 @@ ms.assetid: b40b50ae-70f6-4868-a1ed-f50414af1c6b
 caps.latest.revision: 13
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # UserQuery (saved view) entity
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Saved queries are business entities that define the parameters and criteria of a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database search. Saved queries support cross-entity searches. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] there are two entities available for queries against the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database.  
   
  A *user query*, called a saved view in the application, is owned by an individual user, can be assigned and shared with other users, and can be viewed by other users depending on the query's access privileges. This is appropriate for frequently used queries that span entity types and queries that perform aggregation. A *saved query*, called a view in the application, is owned by an organization making it visible to all users in the organization. Saved queries (views) are used for both views defined for an entity and for filters and templates for [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]. For more information about saved views, see [Customize Entity Views in Dynamics 365](customize-dev/customize-entity-views.md) and [Offline and Outlook Filters and Templates](outlook-client/offline-outlook-filters-templates.md).  

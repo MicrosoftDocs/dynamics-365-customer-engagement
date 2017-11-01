@@ -31,10 +31,13 @@ ms.assetid: 441cd857-456f-4319-a0e3-69555277eee5
 caps.latest.revision: 29
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Incident (case) entities
-In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], *incident management* is the primary aspect of the customer service part of the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. The other features, such as the *knowledge base*, are used to help manage cases. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], an incident is referred to as a case.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], *incident management* is the primary aspect of the customer service part of the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)]. The other features, such as the *knowledge base*, are used to help manage cases. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], an incident is referred to as a case.  
   
  A customer service representative creates an incident (case) to track a customer request, question, or a problem. All actions and communications can be tracked in the `incident` entity. You can manually apply a service level agreement (SLA) to an incident by updating the incident record, and specifying an active SLA record in the `SLAId` attribute of the incident record. An incident can be in one of three states: *Active*, *Resolved*, or *Canceled*.  
   

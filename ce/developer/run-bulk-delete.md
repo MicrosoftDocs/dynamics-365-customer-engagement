@@ -26,9 +26,12 @@ ms.assetid: e4ea7edd-d1f2-4fca-bb80-bebf0a910643
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Run bulk delete
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 To delete data in bulk, you have to submit a bulk delete job by using the <xref:Microsoft.Crm.Sdk.Messages.BulkDeleteRequest> message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the <xref:Microsoft.Crm.Sdk.Messages.BulkDeleteRequest.QuerySet> property of this request.  
   
  A bulk delete job is represented by the bulk delete operation entity. The schema name for this entity is `BulkDeleteOperation`. A bulk delete operation record includes the following information:  

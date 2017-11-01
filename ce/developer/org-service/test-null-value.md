@@ -20,9 +20,12 @@ ms.assetid: f0998642-40e2-4283-a306-b61d48abec98
 caps.latest.revision: 11
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Test for a null value
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The following code example shows how to test for a null value by using the <xref:Microsoft.Xrm.Sdk.Query.FilterExpression> and <xref:Microsoft.Xrm.Sdk.Query.QueryByAttribute> classes.  
   
 ## Example  

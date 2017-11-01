@@ -16,11 +16,13 @@ ms.assetid: f926277d-6820-4ea3-9512-3643da16b94b
 caps.latest.revision: 15
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 <!-- jdaly bug 700711 determines whether this page should be removed  -->
 
 # Define custom claim mapping for SharePoint server-based integration
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 For server-based integration with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] uses claims to authenticate and authorize [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] users to access the documents stored in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. For more information about claims-based authentication, see [Claims-based identity in SharePoint 2013](https://msdn.microsoft.com/library/office/ee535242.aspx).  
   
@@ -45,7 +47,7 @@ For server-based integration with [!INCLUDE[pn_SharePoint_short](../../includes/
   
  The following sample code shows how to define a custom claim mapping using the `UserMapping` entity.  
   
-```  
+```csharp
 UserMapping customMapping = new UserMapping  
 {  
    PartnerApplicationType = new OptionSetValue(0),  

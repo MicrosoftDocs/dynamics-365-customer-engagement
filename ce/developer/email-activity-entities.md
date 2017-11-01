@@ -40,14 +40,17 @@ ms.assetid: 4c27c9ae-c0e8-4de4-bba7-bf957a873ff5
 caps.latest.revision: 42
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Email activity entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 The email activity lets you track and manage email communications with customers. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes the Email Router software that manages the routing of email to or from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The email activity is delivered using email protocols. Email Router supports the following email protocols: Exchange Web services, POP3, and SMTP. In addition to the Email Router software, the email activity can also be delivered by using [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)].  
   
 <a name="Actions"></a>   
 ## Actions on an Email Activity  
- Using [!INCLUDE[pn_sdk](../includes/pn-sdk.md)], you can perform the following actions on an email activity:  
+ Using [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], you can perform the following actions on an email activity:  
   
 -   Create, retrieve, update, and delete the email activity.  
   

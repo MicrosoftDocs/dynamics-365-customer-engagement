@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # setValue (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Sets the data value for an attribute. 
 
 ## Attribute types supported
@@ -38,12 +40,12 @@ Depends on the type of attribute.
 | string | [String](https://msdn.microsoft.com/library/ecczf11c.aspx)|
 | memo | [String](https://msdn.microsoft.com/library/ecczf11c.aspx)|
 | money|[Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)|
-| optionset, multiselectoptionset|[Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)<br/><br/>The [getOptions](getOptions.md) method returns option values as strings. You must use [parseInt](https://msdn.microsoft.com/library/x53yedee.aspx) to convert them to numbers before you can use those values to set the value of an optionset attribute. Valid statuscode (Status Reason) options depend on the current statecode of the record. The statecode (Status) field cannot be set in form scripts. To understand which statecode values are valid, refer to the metadata for the attributes. <!-- See [Default status and status reason values](../../../customize/default-status-and-status-reason-values.md) for a list of default values for system entities. --> For custom entities use the Entity Metadata browser. Finally, also consider any custom state transitions that have been applied to the field. More information: [Define status reason transitions](../customize/define-status-reason-transitions.md).| 
+| optionset, multiselectoptionset|[Number](https://msdn.microsoft.com/library/dwab3ed2.aspx)<br/><br/>The [getOptions](getOptions.md) method returns option values as strings. You must use [parseInt](https://msdn.microsoft.com/library/x53yedee.aspx) to convert them to numbers before you can use those values to set the value of an optionset attribute. Valid statuscode (Status Reason) options depend on the current statecode of the record. The statecode (Status) field cannot be set in form scripts. To understand which statecode values are valid, refer to the metadata for the attributes. <!-- See [Default status and status reason values](../../../customize/default-status-and-status-reason-values.md) for a list of default values for system entities. --> For custom entities use the Entity Metadata browser. Finally, also consider any custom state transitions that have been applied to the field. More information: [Define status reason transitions](../../../../customize/define-status-reason-transitions.md).| 
 | String| [String](https://msdn.microsoft.com/library/ecczf11c.aspx) <br/><br/> A String field with the email format requires that the string represents a valid email address.|
 
 
 > [!NOTE]
-> Updating an attribute using **setValue** will not cause the **OnChange** event handlers to run. If you want the **OnChange** event handlers to run you must use [fireOnChange](../events/fireOnChange.md) in addition to **setValue**. <br/><br/>
+> Updating an attribute using **setValue** will not cause the **OnChange** event handlers to run. If you want the **OnChange** event handlers to run you must use [fireOnChange](../attributes/fireOnChange.md) in addition to **setValue**. <br/><br/>
 When Microsoft Dynamics 365 for tablets is not connected to the server, **setValue** will not work.<br/><br/>You cannot set the value of composite attributes. More information: [Write
     scripts for composite
     attributes](../composite-attributes.md).

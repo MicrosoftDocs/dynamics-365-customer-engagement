@@ -13,6 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_scheduleboardsetting Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 To store settings of SB by user & tabs
 
 **Added by**: Unified Resource Scheduling Solution<br />

@@ -17,9 +17,11 @@ ms.assetid: 2abb6e22-c64c-4f87-8b55-9f4405103cec
 caps.latest.revision: 19
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # String (RESX) web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use these web resources to manage localized strings in any user interface you define or with error messages you will display. 
 

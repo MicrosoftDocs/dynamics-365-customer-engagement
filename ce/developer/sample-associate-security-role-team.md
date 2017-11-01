@@ -18,9 +18,12 @@ ms.assetid: 6097b89f-b3a6-472b-8fed-4f1aef62817f
 caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: Associate a security role to a team
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Sample: Associate a security role to a team (early bound)](https://code.msdn.microsoft.com/Sample-Associate-a-7aa9b885).
 
 ## Prerequisites

@@ -14,9 +14,12 @@ ms.assetid: af0cb38e-58f4-4aa6-82c4-da67f07115f9
 caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Solution tools for team development
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement solution is a compressed (.zip) file that contains multiple customized components that have been exported from a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server so that they may be transported and imported into another server. However, a solution file is a single binary file that does not lend itself to source code control or team development. There is no way for multiple developers to work on the custom components in the solution.  
   
  The SolutionPackager tool resolves the problem of source code control and team development of solution files. The tool identifies individual components in the compressed solution file and extracts them out to individual files. The tool can also re-create a solution file by packing the files that had been previously extracted. This enables multiple people to work independently on a single solution and extract their changes into a common location. Because each component in the solution file is broken into multiple files, it becomes possible to merge customizations without overwriting prior changes. A secondary use of the SolutionPackager tool is that it can be invoked from an automated build process to generate a compressed solution file from previously extracted component files without needing an active [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.

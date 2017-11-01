@@ -22,9 +22,12 @@ ms.assetid: 8385883e-8933-419c-91d0-25353e59a1a1
 caps.latest.revision: 35
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the FilterExpression class
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can use the <xref:Microsoft.Xrm.Sdk.Query.FilterExpression> class to build a query that expresses multiple conditions. For example, you can create a query expression that is the equivalent of a SQL statement such as `([FirstName] = 'Joe' OR [FirstName] = 'John') AND [City] = 'Redmond'`.  
   
  The following table lists the properties for the <xref:Microsoft.Xrm.Sdk.Query.FilterExpression> class.  

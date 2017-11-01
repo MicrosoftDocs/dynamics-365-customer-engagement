@@ -20,10 +20,13 @@ ms.assetid: c6562c62-34fa-40c8-9f48-fae3e7d8b551
 caps.latest.revision: 46
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Extend Dynamics 365 Customer Engagement on the client
-This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] in the clients provided for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] -- the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-microsoft-dynamics-crm-mobile.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] -- by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions that can be applied for all clients rather than each one separately.  
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] in the clients provided for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] -- the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] -- by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions that can be applied for all clients rather than each one separately.  
   
  Client extensions can provide a very rich and responsive experience for users because the code runs on their device. However, critical business logic should not be applied only by client-side scripts. Unlike extensions that are applied on the server, client extensions can’t apply business logic for data entering the system by other means, such as integrations with other systems, custom clients, or data import.  
   

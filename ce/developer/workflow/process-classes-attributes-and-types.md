@@ -14,17 +14,24 @@ ms.assetid: 16b56acb-9329-4ee1-9c65-b55af707551b
 caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Process classes, attributes, and types
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 This topic provides information about the process classes and types found in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement that you can use to work with the custom activities.  
   
-<a name="ProcessClasses"></a>   
+<a name="ProcessClasses"></a>
+   
 ## Process classes  
+
  The process classes are available in the <xref:Microsoft.Xrm.Sdk.Workflow> namespace (Microsoft.Xrm.Sdk.Workflow.dll). You can use these classes to create custom activities in [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)], and then use the activities in the **Processes** area of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], or in the XAML workflows. For detailed information about the process classes, see <xref:Microsoft.Xrm.Sdk.Workflow>.  
   
-<a name="AttributesandMicrosoftDynamicsCRMTypes"></a>   
-## Attributes and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types  
+<a name="AttributesandMicrosoftDynamicsCRMTypes"></a>
+   
+## Attributes and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types
+  
  The [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types are found in the <xref:Microsoft.Xrm.Sdk> namespace (Microsoft.Xrm.Sdk.dll). Use the <xref:Microsoft.Xrm.Sdk.Workflow.InputAttribute> and <xref:Microsoft.Xrm.Sdk.Workflow.OutputAttribute> classes to annotate input and output properties.  
   
  The following types are supported for custom workflow activities:  
@@ -49,8 +56,10 @@ This topic provides information about the process classes and types found in [!I
   
  Apart from the `Input`, `Output`, and `Default` attributes, some of the supported [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types in the custom workflow activities require you to specify additional attributes such as `ReferenceTarget` and `AttributeTarget`. These are described in the following section.  
   
-<a name="InputAttribute"></a>   
+<a name="InputAttribute"></a>
+
 ## InputAttribute and OutputAttribute  
+
  The following sample shows how to add the input and output attributes to a Money parameter used in a custom workflow activity. It also shows how to specify a default value for the property.  
   
 ```csharp  
@@ -60,8 +69,10 @@ This topic provides information about the process classes and types found in [!I
 public InOutArgument<Money> MoneyParameter { get; set; }  
 ```  
   
-<a name="DefaultAttribute"></a>   
+<a name="DefaultAttribute"></a>
+
 ## DefaultAttribute  
+
  You can use the <xref:Microsoft.Xrm.Sdk.Workflow.DefaultAttribute> class to specify a default value for an input parameter. The following examples show how to set the default value for each type using the `Default` attribute.  
   
 ### Bool  
@@ -148,7 +159,9 @@ public InOutArgument<string> String { get; set; }
 ```  
   
 <a name="ReferenceTargetAttributeforEntityReferenceType"></a>   
+
 ## ReferenceTargetAttribute  
+
  The <xref:Microsoft.Xrm.Sdk.EntityReference> attribute type requires you to specify the entity type being referenced using the <xref:Microsoft.Xrm.Sdk.Workflow.ReferenceTargetAttribute> class. The following sample shows how to add the input and output attributes to an `AccountReference` parameter in a custom workflow activity by using the `ReferenceTarget` attribute.  
   
 ```csharp  
@@ -171,11 +184,13 @@ public InOutArgument<EntityReference> AccountReference { get; set; }
 public InOutArgument<OptionSetValue> OptionSetValue { get; set; }  
 ```  
   
-<a name="RequiredArgumentAttribute"></a>   
+<a name="RequiredArgumentAttribute"></a> 
+  
 ## RequiredArgumentAttribute  
+
  You can use the `System.Activities.RequiredArgumentAttribute` class to specify that an input parameter is required.  
   
-```  
+```csharp   
 [RequiredArgument]  
 [Input("Update Next Birthdate for")]  
 [ReferenceTarget("contact")]  
@@ -183,6 +198,7 @@ public InArgument<EntityReference> Contact { get; set; }
 ```  
   
 ### See also  
- [Custom Workflow Activities](custom-workflow-activities-workflow-assemblies.md)   
+
+ [Custom workflow activities (workflow assemblies)](../custom-workflow-activities-workflow-assemblies.md)   
  [Adding Metadata to the Custom Workflow Activity](add-metadata-custom-workflow-activity.md)   
  [Sample: Create a custom workflow activity](sample-create-custom-workflow-activity.md)

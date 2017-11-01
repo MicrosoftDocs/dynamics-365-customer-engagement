@@ -17,9 +17,12 @@ ms.assetid: beb9d687-1a93-4a93-a96f-86b28e5683a5
 caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Data (XML) Web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Use Data (XML) Web resources to save and access data.  
   
 ## Capabilities of XML Web resources  

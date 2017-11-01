@@ -23,9 +23,12 @@ ms.assetid: fd788b2b-eab0-4f0c-b48e-911cd8aad69b
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Campaign entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *campaign* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is designed to accomplish a specific result, such as introducing a new product or increasing market share. The main way to accomplish this result is through communicating the benefits of a product or service to people and businesses. Campaigns often include more than one communication method, such as print advertisements, promotional discounts, and direct mail. A campaign can be thought of as a container in which a business keeps planning tasks, campaign activities, and campaign responses. It has a list of related products, sales literature, and a set of marketing lists of existing or potential customers. This information is used to plan and track the results of a marketing campaign throughout its life.  
   
  Marketing automation supports campaign execution through *campaign activities* that are used to distribute emails, phone calls, and other activities to qualified customers. Each campaign activity may include a set of marketing lists of existing or potential customers. Bulk email may result in the responses from the customers that are captured in a *campaign response* record.  

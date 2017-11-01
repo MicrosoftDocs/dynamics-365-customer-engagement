@@ -17,9 +17,12 @@ ms.assetid: 3ef415ed-d815-45de-8a7c-398b80d23cbd
 caps.latest.revision: 51
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Automate your business processes in Customer Engagement
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Business processes are an integral part of any enterprise software application. A business process can be of two types: *automated* processes that rely solely on 
 communication among applications based on a set of rules, and *interactive* processes that also rely on people to initiate and run the process, and to make the 
 appropriate decisions during the running of the process.  

@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getShowTime (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Get whether a date control shows the time portion of the date. 
 
 ## Control types supported

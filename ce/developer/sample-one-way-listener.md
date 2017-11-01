@@ -16,9 +16,12 @@ ms.assetid: 643ea291-1830-4448-b9bf-26744077721a
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Sample: One-way listener
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 This sample listener application registers a remote service plug-in that executes whenever a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement message is posted to a one-way endpoint on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. When the plug-in executes, it outputs to the console the contents of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] execution context contained in the message.  
 
 ## Prerequisites

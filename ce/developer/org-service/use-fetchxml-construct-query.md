@@ -24,9 +24,12 @@ ms.assetid: 273dd192-cc12-4ab0-84ec-1ea1b8f367c3
 caps.latest.revision: 37
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use FetchXML to construct a query
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 To execute a FetchXML query in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you must first build the XML query string. After you create the query string, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method to execute the query string. The privileges of the logged on user affects the set of records returned. Only records for which the logged on user has read access will be returned.  
   
  The FetchXML query string must conform to the schema definition for the FetchXML language. For more information, see [Fetch XML Schema](fetchxml-schema.md).  

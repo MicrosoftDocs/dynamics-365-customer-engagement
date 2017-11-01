@@ -20,6 +20,9 @@ topic-status: Drafting
 ---
 
 # Sample: Import files as web resources
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 When you develop a large number of files to use as Web resources you can save yourself the work of manually adding them through the application. Many Web resources can be developed and tested outside of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and then imported.  
   
  This sample provides a simplified example of this process. For a more complex sample that provides a WPF application you can use to import Web resources, see the [Sample: Web Resource Utility](sample-web-resource-utility.md).  

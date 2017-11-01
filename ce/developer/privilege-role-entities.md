@@ -19,9 +19,12 @@ ms.assetid: 3b566768-60e2-4c06-bb99-e6b0aacc0bc9
 caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Privilege and role entities
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 A *privilege* is a permission to perform an action on a specific entity type in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The platform checks for the privilege and fails if the user does not hold the privilege. A privilege has an associated access level that determines the depth within the organization to which the privilege applies.  
   
  A *role*, or security role, is a grouping of security privileges. Users are assigned roles that authorize their access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user must be assigned to at least one role. It isn’t sufficient to be a member of a team that has an assigned role.  

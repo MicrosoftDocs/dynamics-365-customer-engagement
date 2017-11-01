@@ -14,9 +14,12 @@ ms.assetid: ec4fd484-50e0-44a1-b336-7ff21a7b4054
 caps.latest.revision: 6
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "jdaly"
+manager: "amyla"
 ---
 # Use the Dynamics 365 Organization service
+
+[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
 Learn about the techniques available to you when developing application code that accesses the Organization service. Learn how to access the service, retrieve data, and perform the many supported web service operations.  
   
 ### See also  
