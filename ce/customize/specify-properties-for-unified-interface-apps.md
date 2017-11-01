@@ -75,3 +75,6 @@ You can use the Card Form property to show list items instead of the default lis
 
 ## Conditional image
 You can display a custom icon instead of a value in a list and establish the logic used to select them based on a column’s values by using JavaScript. For more information about conditional images, see [Display custom icons instead of values in list views](display-custom-icons-instead.md).
+
+### See also
+[Create or edit a view](create-edit-views.md)
