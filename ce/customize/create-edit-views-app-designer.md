@@ -1,20 +1,24 @@
 ---
 title: "Create and edit public or system views by using the app designer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 10/25/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 666ab3f3-abda-468c-b248-3a0b410286b0
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 1
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Create and edit public or system views by using the app designer
 
 In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], views define how records for a specific entity are  displayed. A view defines the following:
@@ -162,3 +166,7 @@ You can change the way a public or system view is displayed by adding, configuri
     The view opens in the view designer. 
 
 When you edit a public or system  view, you must save and publish your changes before they will be visible in the application.
+
+
+### See also
+[Create or edit views](create-edit-views.md)
