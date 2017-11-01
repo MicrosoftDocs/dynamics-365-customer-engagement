@@ -35,8 +35,8 @@ An app is composed of various components. There are two types of components that
   
  ![App designer components](../customize/media/app-designer-canvas-components-tab.png "App designer components")  
   
- On the canvas, you’ll see areas for site map, business process flow, dashboard, and entities. When you select a dashboard or business process flow or configure a site map,  the app designer automatically adds the entities that are used in these components to the canvas. Once you have the entities in place, all you need to do is select each entity, and add the required entity assets like the forms, view, and charts to it.
- You can also use the **Search Canvas** option to search for the components on the canvas. when you select this option, a new search tab will open on the right side tab area.   
+ On the canvas, you’ll see areas for site map, business process flow, dashboard, and entities. When you select a dashboard or business process flow or configure a site map,  the app designer automatically adds the entities that are used in these components to the canvas. Once you have the entities in place, all you need to do is select each entity, and add the required entity assets like the forms, view, and charts to it.<br/>
+ You can also use the **Search Canvas** option to search for the components on the canvas. When you select this option, a new search tab will open on the right side tab area.   
   
  ![Canvas search option](media/app-designer-search-tab.png "Canvas search")
 
@@ -112,7 +112,7 @@ An app is composed of various components. There are two types of components that
     > [!NOTE]
     >  For the app to run, each entity that you add must have at least one active form. If you've selected multiple forms, the first active form  that appears in the default solution will be used when users run the app.  
   
-3.  If you want to add a new  form that's not available in the list, click **Create New**.  
+3.  If you want to add a new form that's not available in the list, click **Create New**.  
   
      In the drop-down, select the type of form you want to create.  
   
@@ -126,13 +126,13 @@ An app is composed of various components. There are two types of components that
     > [!NOTE]
     >  When you're adding a view, you can reference only public views that are listed under the **Views** node in the solution explorer.  
   
-4.  Click **Details** to expand the tile  and see a list of forms that have been added.  
+4.  select drop down icon ![Drop down icon](../customize/media/drop-down-icon.png "drop down icon") to expand the tile and see a list of forms that have been added.  
   
      ![Form tile expanded in app designer](../customize/media/app-designer-expanded-form-tile.png "Form tile expanded in app designer")  
   
 5.  Repeat these steps to add entity views and charts to the app.  
   
-6.  Click **Save**.  
+6.  Select **Save**.  
   
 ## Edit or remove artifacts  
   
