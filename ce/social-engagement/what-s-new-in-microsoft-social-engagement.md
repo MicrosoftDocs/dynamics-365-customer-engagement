@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/31/2017
+ms.date: 11/01/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -36,9 +36,8 @@ To make activity maps more accessible to everyone, we introduced shapes as an ad
 
 ### New video training on Microsoft Virtual Academy
 
-[//]: # (Don't know what "social to Dynamics 365 automation options" means.)
 Learn how to build search topics and navigate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to get the most out of it. Plus, examine different strategies for managing your social presence.
-Explore the social engagement circle and social strategy, and look at brand reputation and social business opportunities. Take a look at post consumption and analytics, configure social-to-Dynamics 365 automation options, and much more.
+Explore the social engagement circle and social strategy, and look at brand reputation and social business opportunities. Take a look at post consumption and analytics, configure automation options, and much more.
 
 [Learn more in the Microsoft Social Engagement course on MVA.](https://go.microsoft.com/fwlink/p/?linkid=861639)
 

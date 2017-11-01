@@ -2,7 +2,7 @@
 title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Social Engagement"
-ms.date: 10/30/2017
+ms.date: 11/01/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -15,8 +15,7 @@ topic-status: Drafting
 ---
 
 # Get to know your filters
-[//]: # (Not sure what it means that the filters "adapt if you drill down into more detailed analysis.")
-You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if you drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](../social-engagement/media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
+You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if select specific data points to drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](../social-engagement/media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
 > [!NOTE]
 >  You'll only see available filters when you configure your data sets. Some filters aren't available in an area because they're based on metadata that you change after the post has been acquired, either manually or through workflows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid conflicting filter combinations](use-filters.md#conflicting_filters)  
