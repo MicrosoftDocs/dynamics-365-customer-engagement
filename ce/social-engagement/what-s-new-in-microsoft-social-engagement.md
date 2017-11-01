@@ -32,7 +32,7 @@ To make activity maps more accessible to everyone, we introduced shapes as an ad
 
 ### Update to alert emails
 
-Alert emails now provide a link to the Analytics area in the Social Engagement app, where you can see the posts that match the data set that triggered the alert. Post content is no longer delivered as part of the email message. These links now also reflect changed alert configurations and deleted alerts.
+Alert emails now provide a link to the Analytics area in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] app, where you can see the posts that match the data set that triggered the alert. Post content is no longer delivered as part of the email message. These links now also reflect changed alert configurations and deleted alerts.
 
 
 ### New video training on Microsoft Virtual Academy
