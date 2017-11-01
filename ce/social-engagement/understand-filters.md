@@ -15,10 +15,11 @@ topic-status: Drafting
 ---
 
 # Get to know your filters
+[//]: # (Not sure what it means that the filters "adapt if you drill down into more detailed analysis.")
 You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if you drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](../social-engagement/media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
 > [!NOTE]
->  You'll only see available filters when you configure your data sets. Some filters aren't available in an area because they are based on metadata that you change after the post has been acquired, either manually or through workflows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid conflicting filter combinations](use-filters.md#conflicting_filters)  
+>  You'll only see available filters when you configure your data sets. Some filters aren't available in an area because they're based on metadata that you change after the post has been acquired, either manually or through workflows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid conflicting filter combinations](use-filters.md#conflicting_filters)  
   
 ## Keywords  
  Add keywords that must appear in posts to make them available for analysis. You can add entire phrases or single terms. If you add a comma-separated list of phrases or terms, the commas are treated as Boolean OR connectors and will add multiple keyword filters. Common characters are accepted, in addition to the special characters @, #, and $. Your analysis narrows your results to posts that contain the keywords that you've entered in your keyword filter.  
@@ -44,7 +45,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
  Your analysis narrows your results to posts that come from authors who have the reach that you defined in your filter.  
   
 ## Location  
- To filter your data for posts from specific locations, add locations or location groups to this filter. To see the list of available locations, start typing the first letters in the input field. You can add filters to the level of countries/regions. Filtering at the city level is not supported. Your analysis narrows your results to posts that contain location data, where the location data corresponds with the filter that you added.  
+ To filter your data for posts from specific locations, add locations or location groups to this filter. To see the list of available locations, start typing the first letters in the input field. You can add filters to the level of countries/regions. Filtering at the city level is not supported. Your analysis narrows your results to posts that contain location data, where the location data corresponds to the filter that you added.  
   
 ## Location type  
  Choose the type of location data that you want to include in your current data set. Analyze posts that have been published in a certain country or region (post location) or by authors from a certain country or region (author location). Select post location, author location, or both.
@@ -52,10 +53,10 @@ You can edit or remove filters from your analysis at any time, and the charts, l
  If you select both location types in the filter and a post contains both types, it will account for the post location over the author location. If only one location type is selected, the same post will show up in either selection.  
   
 > [!NOTE]
->  Some posts may have no location assigned if a location wasn't shared by the author.  
+>  Some posts might have no location assigned if a location wasn't shared by the author.  
   
 ## Authors  
- Filter posts by author names. Any author name is available for filtering if the author published at least one post. Start typing the author name  to see suggested author names from your solution's database. When you filter by author, only posts from the selected authors remain in your data set and widgets display.  
+ Filter posts by author names. Any author name is available for filtering if the author published at least one post. Start typing the author name to see suggested author names from your solution's database. When you filter by author, only posts from the selected authors remain in your data set and widgets display.  
   
 ## Post type  
  Select from Post, Reply, Share, or Private message to narrow your data set to see the results for the selected post types.  
