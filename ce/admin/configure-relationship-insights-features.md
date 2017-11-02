@@ -18,6 +18,9 @@ manager: "brycho"
 ---
 # Preview feature: Configure Relationship Insights features to better understand customer interactions
 
+> [!NOTE]
+> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
+
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 We're introducing a new suite of features called  *Relationship Insights*. These features continuously analyze the vast collection of customer-interaction data already stored in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases, to help you better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward.  
@@ -85,7 +88,7 @@ Once the solution is installed, proceed through the steps below to activate and 
   
 -   To track incoming email messages, you must set up server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
-**Email engagement also requires the following:**  
+**Email engagement also requires the following:** 
   
 -   To use followed email attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable OneDrive for Business](enable-onedrive-for-business.md)  
   
@@ -95,7 +98,7 @@ Once the solution is installed, proceed through the steps below to activate and 
 
 **Relationship analytics also requires the following:**
 
--   JimHoltz: get this list from Jason
+-  <!-- JimHoltz: get this list from Jason -->
 
   
 <a name="UserRoles"></a>   
@@ -129,7 +132,7 @@ Once the solution is installed, proceed through the steps below to activate and 
   
 1.  Go to **Settings** > **Relationship Insights** to open the settings page, and then open the **Relationship Assistant** tab.  
  
-    JimHoltz: update this with Relationship analytics
+   <!--  JimHoltz: update this with Relationship analytics -->
  
     ![Relationship assistant settings](../admin/media/relationship-assistant-settings.png "Relationship assistant settings")  
   
@@ -197,7 +200,7 @@ Once the solution is installed, proceed through the steps below to activate and 
 <a name="ConfigAnalytics"></a>   
 
 ## Activate and configure Relationship Analytics 
-JimHoltz: add content from Jason's internal doc for private preview.
+<!-- JimHoltz: add content from Jason's internal doc for private preview. -->
  
 <a name="privacy"></a>   
 ## Privacy notices  
