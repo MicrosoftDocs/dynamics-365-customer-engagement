@@ -142,6 +142,15 @@ You can help ensure that people enter data consistently and follow the same step
   
 -   Multi-entity processes can contain no more than five entities.
   
+### Working with Business Process Flows and the “Business Process” subarea
+
+Business Process Flow entities can now be added to the sitemap, which makes it easy for users to find process instances they or their teams are working on. They can visualize those instances with charts and quickly jump to the associated data form.
+
+This feature is in public preview and can be enabled through System Settings. For more information, see this blog: [New automation and visualization features for Business Process Flows (public preview)](https://blogs.msdn.microsoft.com/crm/2017/10/25/new-automation-and-visualization-features-for-business-process-flows-public-preview/) 
+
+When a new business process definition is added to an application through the app designer, the corresponding business process entity is also automatically added to the site map if the primary data entity for that business process is already on the site map.
+
+
 ### See also  
  [Watch a short video (4:49) about business process flows](https://go.microsoft.com/fwlink/p/?linkid=842226)   
  [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
