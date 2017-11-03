@@ -1,7 +1,7 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 05/16/2017
+ms.date: 11/03/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,11 +25,11 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
   
 ### Device support  
   
-|Platform|Versions|RAM (minimum)|  
-|--------------|--------------|---------------------|  
-|[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|10 and above|1 GB|  
-|[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|6.0 and above|1 GB|  
-|[Windows](https://go.microsoft.com/fwlink/p/?linkid=862402) |10|1 GB|<br/>
+|Platform|Versions|RAM (minimum)|RAM (recommended for optimal performance)|  
+|--------------|--------------|---------------------|--------------------|  
+|[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|10 and above|1 GB|2 GB|  
+|[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|6.0 and above|2 GB|3 GB| 
+|[Windows](https://go.microsoft.com/fwlink/p/?linkid=862402) |10|2 GB|4 GB|<br/>
   
 <a name="BKMK_CRMforTablets"></a>   
 ## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
