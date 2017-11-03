@@ -17,9 +17,10 @@ topic-status: Editing
 
 # Manage your SharePoint documents and document locations from Dynamics 365
 
-With [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
+[//]: # (Editor's note, just in case my deleting the comma below seems arbitrary: The comma in the Description metadata field above separates two complete sentences, so it's a perfect place for the comma. In the sentence below, the introductory clause "With Dynamics 365" turns the rest of the sentence into a clause itself, so no comma is needed to divide the two ideas.)
+With [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] and manage them from within your app.
 
-The documents that you create in the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.
+The documents that you create in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.
 
 > [!Note]
 > Before you can use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store the documents, it must be enabled by your system administrator.
@@ -29,7 +30,7 @@ The documents that you create in the [!INCLUDE[pn-crm-shortest](../includes/pn-c
 
 ## What record types support document management?
 
-By default, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is enabled on the following entities:
+By default, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is enabled for the following entities:
 
 -   Account
 
@@ -54,28 +55,28 @@ By default, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] 
 
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
-![Select Documents option in Related tab](media/open-documents-tab-in-form.png "Select Documents option in Related tab")  
+![Select Documents option in Related tab](media/open-documents-tab-in-form.png "Select the Documents option on the Related tab")  
 
 ## What happens when you navigate to the Documents tab first time?
 
 When [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is enabled, for record types that support document management, a default document location (folder) is automatically created on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] the first time you go to the **Documents** tab. The name of the document location is in the following format: &lt;record\_name&gt;\_&lt;record\_id&gt;.
 
-By default, the location is set to "Documents on Default Site 1”.
+By default, the location is set to Documents on Default Site 1.
 
 ## View existing SharePoint documents
 
-**Open the Document Associated grid in a web app:**
+### Open the Document Associated grid in a web app
 
-1.	Go to the record for which you want to view the associated documents. For example, Select **Sales** > **Leads**.
+1.	Go to the record for which you want to view the associated documents. For example, select **Sales** > **Leads**.
 
 2.	In the web app, on the command bar, select the arrow besides the record name, and select **Documents**.
 
    ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents of a record")
 
 
-**Open the Document Associated grid in a mobile-optimized app:**
+### Open the Document Associated grid in a mobile-optimized app
 
-1.  Select the Site Map icon ![Menu icon](media/site-map-icon.png "Open the Site Map icon"), and then select **Opportunities**
+1.  Select the site map ![Menu icon](media/site-map-icon.png "Site map icon"), and then select **Opportunities**
 
 2.  Select the **Related** tab, and then select **Documents**.
 
@@ -103,9 +104,9 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
 5.  Select **Save**.
 
-  The document is created in the folder of the current document location you’re in.
+  The document is created in the folder of the current document location you're in.
 
-  If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list. 
+  If you create a folder, you'll be able to see a folder hierarchy at the top of Documents list. 
  
   ![Form showing folder hierarchy in the documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in the documents list")  
 
@@ -121,18 +122,19 @@ To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sha
 
 3.  Choose the file you want to upload. You can choose only one file at a time.
 
-    The document is created in the folder of the current document location you’re in.
+    The document is created in the folder of the current document location you're in.
 
    > [!Note]
-   > You can upload a file of up to 50 MB of size. ### If your internet connection is slow, you may get an error while uploading large files.
+   > You can upload a file of up to 50 MB. If your internet connection is slow, you might get an error while uploading large files.
 
-4.  If files with the same name exists in [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], select if you want to overwrite the files.
+4.  If files with the same name exist in [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], select whether you want to overwrite the files.
 
 5.  Select **OK**.
 
 ## Manage SharePoint locations
 
-You may create new or edit existing [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+[//]: # (What does "In the **Documents** list" refer to?)
+You can create new or edit existing [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
 In the **Documents** list
 
@@ -148,7 +150,7 @@ In the **Documents** list
 
   ![Dialog box to edit a SharePoint location](media/edit-location-dialog-box.png "Dialog box to edit a SharePoint location")  
 
-3.  The display name, parent site, and folder name is automatically populated. Provide the new location details, and select **Save**.
+3.  The display name, parent site, and folder name are automatically populated. Enter details about the new location, and then select **Save**.
 
 4.  To add a location, on the command bar, select **Add Location**.
 
@@ -156,7 +158,7 @@ In the **Documents** list
 
   ![Dialog box to add a SharePoint location](media/add-location-dialog-box.png "Dialog box to add a SharePoint location")  
 
-5.  The display name, parent site, and folder name is automatically populated. Change the details if required, and then select **Save**.
+5.  The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 
 ## Actions on documents
 
@@ -174,7 +176,7 @@ When you select one or more documents in the Documents list, you can take the fo
 
 -   Edit properties
 
-### See Also
+### See also
 [Configure Dynamics 365 for Sales to integrate with SharePoint](configure-document-management.md)  
 [Manage your customers](create-accounts-contacts-customers.md)  
 [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
