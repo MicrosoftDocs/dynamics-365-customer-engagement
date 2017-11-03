@@ -53,15 +53,14 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
      ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
 
      
- After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you'll see the following dialog box when you go to the Document Associated Grid to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], or when you attempt to create a new document or folder.  
+     After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you'll see the following dialog box when you go to the Document Associated Grid to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], or when you attempt to create a new document or folder.  
   
- ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
+     ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
   
- Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents, or select **Continue** to accept the default folder location: \Dynamics365. 
+     Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents, or select **Continue** to accept the default folder location: \Dynamics365. 
  
-
-> [!NOTE]
-> The default folder location is set to \CRM for users who haven't upgraded to the [!include[](../includes/pn-crm-9-0-0-online.md)]. 
+     > [!NOTE]
+     > The default folder location is set to \CRM for users who haven't upgraded to the [!include[](../includes/pn-crm-9-0-0-online.md)]. 
   
 ## View existing OneDrive documents  
  Open the Document Associated Grid. The following example is for Opportunities, but works the same for all record types.  
@@ -70,15 +69,15 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
   
 2.  Choose an opportunity from the drop-down menu, and then select **Documents**.  
   
-   ![Choose Opportunities &#62; Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
+     ![Choose Opportunities > Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
   
-   [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] now organizes documents in a consolidated view.  
+     [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] now organizes documents in a consolidated view.  
   
-   ![List of documents on OneDrive for Business](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
+     ![List of documents on OneDrive for Business](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
   
  3. Select **Document Location** to filter the document list.  
   
-   ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
+     ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
   
  4. Select a location as described in the following table:  
   
@@ -113,8 +112,8 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
   
 2.  Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then select **OK**.  
   
-  >  [!NOTE]
-  >  The [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] folder is renamed, and all existing files will now be associated with the new folder.  
+   >  [!NOTE]
+   >  The [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] folder is renamed, and all existing files will now be associated with the new folder.  
   
 ## Things to consider  
  Be aware of the following regarding [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
