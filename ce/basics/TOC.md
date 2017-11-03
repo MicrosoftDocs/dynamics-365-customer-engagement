@@ -63,6 +63,7 @@
 ## [OneDrive for Business](../basics/use-onedrive-business-manage-private-documents.md)
 ## [OneNote](../basics/use-onenote.md)
 ## [OneNote FAQs](../basics/onenote-dynamics-365-faqs.md)
+## [SharePoint documents](manage-sharepoint-documents-document-locations-in-Dynamics-365-apps.md)
 # [Import and export data](../basics/import-export-data.md)
 ## [Import contacts](../basics/import-contacts.md)
 ## [Import accounts, leads and more](../basics/import-accounts-leads-other-data.md)
