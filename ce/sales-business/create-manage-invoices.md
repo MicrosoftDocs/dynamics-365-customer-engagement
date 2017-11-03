@@ -2,16 +2,19 @@
 title: "Create and manage invoices in Dynamics 365 for Sales, Business Edition | Microsoft Docs"
 description: "Use invoices in Dynamics 365 for Sales, Business edition to bill your customers for the upcoming sale. "
 keywords: "Invoice; quote; create invoice; email invoice"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: df953df7-d0ae-4b06-b41c-34cd9d7c3f5e
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Create and manage invoices in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -22,7 +25,7 @@ You may also create an invoice that doesn’t generate from a quote.
 
 ## Create an invoice from a quote
 
-1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Quotes**.
+1.  Click the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the site map"), and then click **Quotes**.
 
 2.  Choose the active quote that you want to create an invoice from.
 

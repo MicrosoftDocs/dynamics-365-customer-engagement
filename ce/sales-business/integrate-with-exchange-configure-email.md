@@ -59,7 +59,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
 2.  Initiate Exchange integration from Advanced Settings.
 
-    1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the Menu icon"). A navigation pane opens on the left side.
+    1.  Click the Menu icon ![Menu icon](media/Site-map-icon.png "Open the Menu icon"). A navigation pane opens on the left side.
 
     2.  Click **Advanced Settings**.
 
