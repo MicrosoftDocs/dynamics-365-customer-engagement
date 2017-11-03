@@ -113,13 +113,13 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
   
 2.  Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then select **OK**.  
   
-> [!NOTE]
+>  [!NOTE]
 >  The [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] folder is renamed and all the existing files will now be associated with the new folder.  
   
 ## Things to consider  
  Be aware of the following regarding [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
   
-- [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] storage folders are created in the user’s current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] language. If the language changes, new folders will be created in the new language. Old folders will remain in the previous language.  
+-   [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] storage folders are created in the user’s current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] language. If the language changes, new folders will be created in the new language. Old folders will remain in the previous language.  
    
 -   There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they’re available to other users.  
   

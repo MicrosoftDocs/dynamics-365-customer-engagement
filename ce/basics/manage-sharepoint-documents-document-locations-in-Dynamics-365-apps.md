@@ -107,9 +107,9 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
   If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list. 
  
-  ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")  
+  ![Form showing folder hierarchy in the documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in the documents list")  
 
- Select on the folder name to navigate between the folders.
+  Select on the folder name to navigate between the folders.
 
 ## Upload a document
 

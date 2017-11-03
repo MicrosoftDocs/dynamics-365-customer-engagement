@@ -54,15 +54,15 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
   
 1.  In the activities area of a record, select **OneNote**.  
   
- ![Choose OneNote on the activity wall](../basics/media/use-onenote.PNG "Choose OneNote on the activity wall")  
+   ![Choose OneNote on the activity wall](../basics/media/use-onenote.PNG "Choose OneNote on the activity wall")  
   
 2.  Select a notebook to make entries.  
   
- ![Select a notebook](../basics/media/select-notebook.PNG "Select a notebook")  
+   ![Select a notebook](../basics/media/select-notebook.PNG "Select a notebook")  
  
 3.  The notebook is stored in the associated [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder for the record. If there is more than one associated folder, the notebook is created in the first folder.  
   
- ![Notebooks in associated SharePoint folder](../basics/media/use-onenote.PNG "Notebooks in associated SharePoint folder")  
+   ![Notebooks in associated SharePoint folder](../basics/media/use-onenote.PNG "Notebooks in associated SharePoint folder")  
   
 > [!NOTE]
 > -   You can’t edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] file from within Dynamics 365. This can be done only from the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app that opens when you choose the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] link. . In web app, OneNote is opened in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] in a separate tab.  
