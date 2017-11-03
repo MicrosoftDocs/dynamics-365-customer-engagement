@@ -1,7 +1,7 @@
 ---
 title: "Authenticate to use the Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Provides information about authenticating to the Online Management API to perform instance-related operations."
-ms.date: 08/10/2017
+ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
@@ -11,6 +11,8 @@ ms.author: "kvivek"
 manager: "amyla"
 ---
 # Authenticate to use the Online Management API
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Online Management API supports OAuth 2.0 protocol for authentication. Use [Azure Active Directory (AAD)](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-whatis) to authenticate by obtaining a valid OAuth 2.0 access token, and pass it using the **Authorization** header in your requests to the Online Management API.
 
@@ -24,7 +26,7 @@ These are the broad steps to authenticate to the Online Management API service.
 
 1. Specify the values obtained from step# 1 in the authentication [helper code](sample-authentication-helper.md):
 
-    ```c#
+    ```csharp
     // TODO: Substitute your app registration values here.
     // These values are obtained on registering your application with the 
     // Azure Active Directory.
@@ -34,7 +36,7 @@ These are the broad steps to authenticate to the Online Management API service.
 
 1. Discover authority information for Online Management API based on the service URL. For North America region, the service URL is: **https://admin.services.crm.dynamics.com**. For region-specific service URL, see [Service URL](get-started-online-management-api.md#service-url)<br /> Use Azure Active Directory challenge format to determine the authority information based on the service URL of the API.<br />We are also determining the resource for the Online Management API (different from the service URL), which will be used in the next step to acquire access token.
 
-    ```c#
+    ```csharp
     public static async Task<string> DiscoverAuthority(string _serviceUrl)
     {
         try
@@ -56,7 +58,7 @@ These are the broad steps to authenticate to the Online Management API service.
     ```
 1. Use the resource you discoverd in the previous step along with the client ID and redirect URL values of your client app to acquire an access token. Note that you must use the resource, and not service URL to acquire or refresh access token.
 
-    ```c#
+    ```csharp
     public AuthenticationResult AcquireToken()
     {
         return _authContext.AcquireToken(_resource, _clientId, new Uri(_redirectUrl),
@@ -66,7 +68,7 @@ These are the broad steps to authenticate to the Online Management API service.
 
 1. Once you have the access token, you must set the **Authorization** header of the message request to the access token value, and specify the token type as **Bearer**. The `SendAsync` method in the authentication  sets this for all the message requests:
 
-    ```c#
+    ```csharp
     protected override Task<HttpResponseMessage> SendAsync(
                 HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     {

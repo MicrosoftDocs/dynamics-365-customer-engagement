@@ -29,6 +29,7 @@
 #### [Overview of the form editor user interface](form-editor-user-interface-legacy.md)
 #### [Show or hide form elements](visibility-options-legacy.md)
 #### [Change navigation within a form](use-the-form-editor-legacy.md)
+#### [Add a field to a form](add-field-form.md)
 #### [Form properties](form-properties-legacy.md)
 #### [Tab properties](tab-properties-legacy.md)
 #### [Section properties](section-properties-legacy.md)
@@ -49,6 +50,7 @@
 ### [Access a view definition](accessing-view-definitions.md)
 ### [Specify a default view](specify-default-views.md)
 ### [Create or edit a view](create-and-edit-views.md)
+### [Create and edit public or system views by using the app designer](create-edit-views-app-designer.md)
 ### [Choose and configure columns](choose-and-configure-columns.md)
 ### [Edit filter criteria and change sort order](edit-filter-criteria.md)
 ### [Sort records](configure-sorting.md)
@@ -125,7 +127,8 @@
 
 ## [Integrate external data](integrate-external-data.md)
 ### [Create a virtual entity](create-edit-virtual-entities.md)
-#### [OData v4 data provider requirements ](virtual-entity-odata-provider-requirements.md)
+#### [OData v4 Data Provider requirements ](virtual-entity-odata-provider-requirements.md)
+#### [Virtual entity walkthrough using the OData v4 Data Provider](virtual-entity-walkthrough-using-odata-provider.md)
 ### [Define alternate keys to reference Dynamics 365 records ](define-alternate-keys-reference-records.md)
 
 # [Create or edit a web resource](create-edit-web-resources.md) 

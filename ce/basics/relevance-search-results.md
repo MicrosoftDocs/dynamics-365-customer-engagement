@@ -37,7 +37,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can search fo
 -   Matches in the result list are highlighted.  
   
 > [!NOTE]
->  -   Relevance Search isn’t available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] organizations.  
+>  -   Relevance Search isn’t available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.  
 > -   Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you may have to wait up to an hour or more, depending on the size of your organization, before you start seeing the Relevance Search results in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. Smaller changes in indexed data may take up to 15 minutes to show up in your system.  
   
  While Relevance Search finds matches to any word in the search term in any field in an entity,  in Quick Find, even with the full-text search enabled, all words from the search term must be found in one field.  

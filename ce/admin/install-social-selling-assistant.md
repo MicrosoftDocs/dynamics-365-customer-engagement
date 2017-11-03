@@ -20,7 +20,7 @@ manager: "sakudes"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Set up the Social Selling Assistant  and onboard your users in just a few minutes. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in Dynamics 365 and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Then, a [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to enable the best possible experience when users are working with the Social Selling Assistant.  
+Set up the Social Selling Assistant  and onboard your users in just a few minutes. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in Dynamics 365 and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Then, a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to enable the best possible experience when users are working with the Social Selling Assistant.  
   
 <a name="prerequisites"></a>   
 ## Prerequisites  
@@ -32,7 +32,7 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
   
 -   You have a system admin or a customizer role in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] (online).  
   
--   To update the additional configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], you need at least the following permissions.  
+-   To update the additional configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], you need at least the following permissions.  
   
     -   An administrator configuration role to configure custom tags in order to promote posts.  
   
@@ -67,14 +67,14 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
   
 3.  Configure the dashboard according to your user's needs.   
   
- Alternatively, you can access the Social Selling Assistant using the app module in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or using the main navigation in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+ Alternatively, you can access the Social Selling Assistant using the app module in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or using the main navigation in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 <a name="establishConnection"></a>   
-## Establish the connection between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]  
- The data in the Social Selling Assistant comes from [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. To access this data from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you need to connect the two services. You can skip this step if you already connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] from another integration scenario.  
+## Establish the connection between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]  
+ The data in the Social Selling Assistant comes from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. To access this data from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you need to connect the two services. You can skip this step if you already connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] from another integration scenario.  
   
 > [!NOTE]
->  You must ensure that your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] domain is added to the list of allowed domains in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+>  You must ensure that your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] domain is added to the list of allowed domains in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 >   
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](https://go.microsoft.com/fwlink/p/?linkid=403288)  
   

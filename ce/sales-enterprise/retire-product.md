@@ -19,7 +19,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If your organization doesn’t sell a product anymore, retire it so that the product is no longer available to your sales agents.  
+If your organization doesn't sell a product anymore, retire it so that the product is no longer available to your sales agents.  
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   

@@ -1,7 +1,7 @@
 ---
 title: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] enables administrators to deploy packages on a [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. A “package” can consist of any or all of the following:  
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] enables administrators to deploy packages on a [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. A “package” can consist of any or all of the following:  
   
 -   One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
   
@@ -30,7 +30,7 @@ manager: "brycho"
   
 -   HTML content specific to the package that can display at the beginning and end of the package deployment process. This can be useful to provide a description of the solutions and files that are deployed in the package.  
   
- Developers create packages by using the package deployment template in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Package Deployer](../developer/create-packages-package-deployer.md)  -->
+ Developers create packages by using the package deployment template in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Package Deployer](../developer/create-packages-package-deployer.md)
   
  After a package is created, you can deploy it either by running [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] or by using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets for the tool.  
   
@@ -58,7 +58,7 @@ manager: "brycho"
   
     - **\<PackageName>.dll**: The assembly contains the code for your package. By default, the name of the assembly is the same as your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project name.  
   
-     <!-- For detailed information about creating a package by using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [Create a package for the Package Deployer tool](../developer/create-packages-package-deployer.md).  -->
+     For detailed information about creating a package by using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [Create a package for the Package Deployer tool](../developer/create-packages-package-deployer.md). 
   
      For this topic, let us assume that the package folder and assembly from the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project debug folder (*\<Project>*\Bin\Debug) are copied to the `c:\DeployPackage` folder.  
   
@@ -107,7 +107,7 @@ packagedeployer.exe RuntimePackageSettings SkipChecks=true | lcid=1045
 > [!NOTE]
 >  Use the pipe character &#124; to separate parameters when you run packagedeployer.exe at the command line with multiple parameters.  
   
- <!--For more information about the parameters and values that can be passed to packagedeployer.exe, see [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md).  -->
+ For more information about the parameters and values that can be passed to packagedeployer.exe, see [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md).
   
 <a name="PowerShell"></a>   
 
@@ -167,7 +167,7 @@ Get-Help “Crm”
 <a name="retrieve"></a>   
 
 ### Use the cmdlet to retrieve packages  
- Before you can use the cmdlet, ensure that you have copied your package to the **PackageDeployer** folder (in this case, `[ExtractedLocation]\tools`). A package is a collection of files and folders that is created in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project folder (*\<Project>*\Bin\Debug) when you build your project in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. Copy the entire contents of your project debug folder to the **PackageDeployer** folder. <!-- For detailed information about building a package using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md).  -->
+ Before you can use the cmdlet, ensure that you have copied your package to the **PackageDeployer** folder (in this case, `[ExtractedLocation]\tools`). A package is a collection of files and folders that is created in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project folder (*\<Project>*\Bin\Debug) when you build your project in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. Copy the entire contents of your project debug folder to the **PackageDeployer** folder. For detailed information about building a package using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], see [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md). 
   
 1.  In the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] window, use the following cmdlet to return a list of packages available for import in the specified folder (in this case, c:\CRM\SDK\Tools\PackageDeployer):  
   
@@ -211,15 +211,15 @@ Get-Help “Crm”
  
 ### Use the cmdlet to connect to your Dynamics 365 instance  
   
-1.  Provide your credentials to connect to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and we will store it in the `$Cred` variable, and use it later for connecting to your Dynamics 365 server.  
+1.  Provide your credentials to connect to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and we will store it in the `$Cred` variable, and use it later for connecting to your Dynamics 365 server.  
   
     ```  
     $Cred = Get-Credential  
     ```  
   
-2.  Use the following command to get a connection to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] instance. We will store the connection information in the `$CRMConn` variable:  
+2.  Use the following command to get a connection to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. We will store the connection information in the `$CRMConn` variable:  
   
-    -   If you are connecting to the [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] instance:  
+    -   If you are connecting to the [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance:  
   
         ```  
         $CRMConn = Get-CrmConnection -ServerUrl http://<your_CRM_Server> -OrganizationName <your_Org_Name> -Credential $Cred  
@@ -249,7 +249,7 @@ Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools
 > -   `CrmConnection`, `PackageDirectory`, and `PackageName` parameters are mandatory.  
 > -   Instead of manually specifying the package folder, you can use a variable with the PackageDirectory parameter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the cmdlet to retrieve packages](#retrieve)  
 > -   For the `PackageName` parameter, you have to specify the name of the assembly that contains the package definition.  
-> -   You do not need to specify the `UnpackFilesDirectory` parameter if your package does not unpack files during package deployment. While defining a package in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], you specify whether to unpack files using the **agentdesktopzipfile** parameter in the ImportConfig.xml file. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md)  -->
+> -   You do not need to specify the `UnpackFilesDirectory` parameter if your package does not unpack files during package deployment. While defining a package in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], you specify whether to unpack files using the **agentdesktopzipfile** parameter in the ImportConfig.xml file. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md)
 > -   The `Verbose` parameter is optional, and is used to display a detailed log of the activities performed during the package deployment process.  
 > -   The optional `RuntimePackageSettings` parameter can be used together with the following parameters:  
 >   
@@ -258,7 +258,7 @@ Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools
 > -   The folder that you specify when you use the `LogWriteDirectory` parameter must already exist, and the user who is running the Import-CrmPackage cmdlet must have write permission to the folder. Additionally, the -Verbose parameter is required  when you use the LogWriteDirectory parameter.  
 >   
 >      The LogWriteDirectory parameter was first introduced with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. 
-<!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md)  -->
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md) 
   
  The following example command imports a package named *SampleCRMPackage* and specifies English-United States (1033) as the language to import the package.  
   
@@ -296,6 +296,6 @@ Get-Help Import-CrmPackage -full
 -   Test the package on a pre-production instance (preferably a mirror image of the production instance) before running it on a production server.  
   
 -   Back up the production instance before deploying a package.  
-<!--
+ 
 ### See also  
- [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md)   -->
+ [Create packages for the CRM Package Deployer](../developer/create-packages-package-deployer.md)

@@ -43,7 +43,7 @@ The relationship assistant is part of the new *Relationship Insights* suite of f
 > [!NOTE]
 > - These cards are always available, regardless of which email server you are using.
 > - These cards are for both online and on-premises versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. 
-> - These are the only action cards that are available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)].
+> - These are the only action cards that are available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)].
 > - These cards use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data.
   
 |||  

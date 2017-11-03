@@ -41,6 +41,8 @@ To configure Exchange, you must have:
 
 -   Exchange Online subscription 
 
+For more information about managing subscriptions, see [Manage Microsoft Dynamics 365 (online) instances](https://go.microsoft.com/fwlink/?linkid=730725).
+
 ## Exchange Integration 
 
 Exchange integration can be done from the Quick Setup or Advanced Setup.

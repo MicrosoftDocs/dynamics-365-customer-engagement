@@ -1,7 +1,7 @@
 ---
 title: "Use segmented solutions and patches to simplify solution updates (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -141,6 +141,5 @@ To gain tighter control over what you distribute in solutions and solution patch
   
 ### See also  
  [Solutions overview](../customize/solutions-overview.md)
- <!--
  [Create patches to simplify solution updates](../developer/create-patches-simplify-solution-updates.md)
--->
+

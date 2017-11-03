@@ -1,7 +1,7 @@
 ---
 title: "Import and export data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -45,5 +45,4 @@ If you want to do additional calculations or run your own reports, you can expor
 ### See Also
  [Select a data map](select-data-map.md)  
  [Review settings and import data](review-settings-import-data.md)  
-
- <!-- [Import data (for developers)](../developer/import-data.md)  -->
+ [Import data (for developers)](../developer/import-data.md)

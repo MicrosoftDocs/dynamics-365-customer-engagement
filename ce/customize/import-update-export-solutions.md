@@ -1,7 +1,7 @@
 ---
 title: "Import, update, and export solutions (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -157,7 +157,7 @@ manager: "brycho"
 |Auto-Tag Max Cycles|Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.|  
 |Auto-Tag Interval|Normal polling frequency used for email auto-tagging in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].|  
 |ISV Config|Service Calendar Appearance Configuration|You can define visual styles for service calendars.
-<!--
+
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Calendar Appearance Configuration](../developer/customize-dev/service-calendar-appearance-configuration.md)|
--->
+
   

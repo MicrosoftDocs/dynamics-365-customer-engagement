@@ -22,7 +22,7 @@ manager: "brycho"
 To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.  
   
 > [!IMPORTANT]
->  You can’t recover a deleted record.  
+>  You can't recover a deleted record.  
  
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   

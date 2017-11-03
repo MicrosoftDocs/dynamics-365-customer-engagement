@@ -65,11 +65,13 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
 
 1.  Click the Site Map icon ![Menu icon](media/open-menu-icon.png "Icon to open the site map"), and then click **&lt;Activity Type&gt;**. For example, click **Tasks**.  
 
-   ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type \"Task\"")  
+
+  ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type "Task"")  
 
 2.  On the nav bar, click **&lt;Activity Type&gt;**. For example, **Tasks**.
 
-   ![Command bar button for creating a new activity type "Task"](media/activity-type-command-bar-button.png "Command bar button for creating a new activity type \"Task\"")  
+  ![Command bar button for creating a new activity type "Task"](media/activity-type-command-bar-button.png "Command bar button for creating a new activity type "Task"")  
+
 
 3.  Fill in the fields, and then click **Save**.
 

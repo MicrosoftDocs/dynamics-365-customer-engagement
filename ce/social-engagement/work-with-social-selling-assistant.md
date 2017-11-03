@@ -18,34 +18,34 @@ After personalizing the Social Selling Assistant for your individual use-case, y
 
 When you work with the feed of your Social Selling Assistant, keep in mind that some actions also influence the underlying recommendation algorithm. The more inputs you provide to the system, the more it can learn and the more relevant posts it can recommend.
 
-![Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.](../social-engagement/media/available-actions-social-selling-assistant.png "Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.")
+![Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.](media/available-actions-social-selling-assistant.png "Screenshot of the Social Selling Assistant with highlighted controls of Done, View, Share, and More Actions.")
 
-- **Share** is the main action for recommendations based on Share Content personalization settings. It lets you choose from your social profiles and to share the link to the selected post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)
+- **Share** is the main action for recommendations based on Share Content personalization settings. It lets you choose from your social profiles and to share the link to the selected post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](publish-react-posts.md)
 
-- **View** is the main action for recommendations based on Get Insights personalization settings. It opens the details of the post and shows additional information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](../social-engagement/publish-react-posts.md)
+- **View** is the main action for recommendations based on Get Insights personalization settings. It opens the details of the post and shows additional information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish and react to posts](publish-react-posts.md)
 
-- Clicking ![Apply button](../social-engagement/media/check-icon.png "Apply button") **Done** indicates that you don't plan any further actions on this post. It will be removed from the post list in the Social Selling Assistant.
+- Clicking ![Apply button](media/check-icon.png "Apply button") **Done** indicates that you don't plan any further actions on this post. It will be removed from the post list in the Social Selling Assistant.
 
-- Click **More actions** (![More options button. Click this button to see more options for this post in the Social Selling Assistant.](../social-engagement/media/more-options-social-selling-assistant.png "More options button. Click this button to see more options for this post in the Social Selling Assistant.")) for more options to work with this post.
+- Click **More actions** (![More options button. Click this button to see more options for this post in the Social Selling Assistant.](media/more-options-social-selling-assistant.png "More options button. Click this button to see more options for this post in the Social Selling Assistant.")) for more options to work with this post.
 
   -  Clicking **Not interested** indicates to the algorithm that the recommended content wasn’t relevant for you.  
      This sends a signal to the recommendation model to improve it over time.
 
-  -  You can click **Copy to clipboard** ( ![Copy button.](../social-engagement/media/copy-url-icon.png "Copy button.") ) if you want to work with the source of the post. For example, you can create a new task in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] if you plan to follow up on a post later.  
+  -  You can click **Copy to clipboard** ( ![Copy button.](media/copy-url-icon.png "Copy button.") ) if you want to work with the source of the post. For example, you can create a new task in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] if you plan to follow up on a post later.  
 
-  - You can **Retweet** ![Retweet button in Social Engagement](../social-engagement/media/share-retweet-icon.png "Retweet button in Social Engagement") on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].
+  - You can **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].
 
-By default, posts are sorted by recommendation type.  To change to a chronological order, click **Sort** (![Change the sort order button.](../social-engagement/media/sort-symbol.png "Change the sort order button.")).  
+By default, posts are sorted by recommendation type.  To change to a chronological order, click **Sort** (![Change the sort order button.](media/sort-symbol.png "Change the sort order button.")).  
 
-To get the latest recommendations, click **Refresh** (![Refresh button.](../social-engagement/media/refresh-icon.png "Refresh button.")). New recommendations may or may not contain posts that were present in the list prior to refreshing.
+To get the latest recommendations, click **Refresh** (![Refresh button.](media/refresh-icon.png "Refresh button.")). New recommendations may or may not contain posts that were present in the list prior to refreshing.
 
-To change your personalization settings,  click **Personalize** (![Personalize the Social Selling Assistant button.](../social-engagement/media/personalize-social-selling-assistant.PNG "Personalize the Social Selling Assistant button.")) .
+To change your personalization settings,  click **Personalize** (![Personalize the Social Selling Assistant button.](media/personalize-social-selling-assistant.PNG "Personalize the Social Selling Assistant button.")) .
 
 ## Recommendation types
 
 There are four types of recommendations in the Social Selling Assistant. Posts in the assistant’s feed can match more than one type. By default, posts are ordered as below.
 
-- **Promoted**:  Users in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] with appropriate employee roles (i.e. a community manager) can promote posts in the Social Selling assistant by tagging them in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Think of it as a carefully selected Editor’s pick.  If a promoted post matches both Share Content and Insights, it will be shown for Share Content. Otherwise, it will be shown for Insights.
+- **Promoted**:  Users in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] with appropriate employee roles (i.e. a community manager) can promote posts in the Social Selling assistant by tagging them in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Think of it as a carefully selected Editor’s pick.  If a promoted post matches both Share Content and Insights, it will be shown for Share Content. Otherwise, it will be shown for Insights.
 
 - **Owned**: Posts from profiles that your organization owns. Keep an eye for newsworthy announcements and help spreading the word. This recommendation type is currently not available for Insights.
 
@@ -59,10 +59,10 @@ Labels and colored borders indicate why a post shows in the list. When titled **
 
 When a tag is configured to promote a post in the Social Selling Assistant, you can add this tag to any post you'd like to promote in the Social Selling Assistant.
 
-![Add a promotion tag to a post.](../social-engagement/media/tag-posts-for-social-selling-assistant.png "Add a promotion tag to a post.")
+![Add a promotion tag to a post.](media/tag-posts-for-social-selling-assistant.png "Add a promotion tag to a post.")
 
 ### See Also
 
- [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
- [Personalize the Social Selling Assistant for individual users](../social-engagement/personalize-social-selling-assistant.md)   
- [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)
+ [Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   
+ [Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)   
+ [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md)

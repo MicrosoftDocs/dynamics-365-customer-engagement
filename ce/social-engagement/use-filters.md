@@ -11,11 +11,11 @@ ms.author: mhart
 manager: sakudes
 ---
 # Use filters to see relevant data
-You can use [filters](../social-engagement/understand-filters.md) to slice and dice your data to narrow your analysis to the most relevant view of the data. Imagine a steady stream of data where your search topics define the posts that are selected and available for analysis. Filters can narrow your view of the data to a more restricted data set. If you navigate the application by drilling down into the data, filters are applied and removed automatically.  
+You can use [filters](understand-filters.md) to slice and dice your data to narrow your analysis to the most relevant view of the data. Imagine a steady stream of data where your search topics define the posts that are selected and available for analysis. Filters can narrow your view of the data to a more restricted data set. If you navigate the application by drilling down into the data, filters are applied and removed automatically.  
   
 <a name="data_set"></a>   
 ## Set a baseline for your analysis with a data set  
- Data sets are an important concept in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], defining the set of posts that your current analysis focuses on. Data sets are used in Analytics, Alerts, and Social Center to give you the most flexibility for your views of the data.  
+ Data sets are an important concept in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], defining the set of posts that your current analysis focuses on. Data sets are used in Analytics, Alerts, and Social Center to give you the most flexibility for your views of the data.  
   
  You can create a data set by providing parameters for your analysis focus and the filters:  
   
@@ -26,18 +26,18 @@ You can use [filters](../social-engagement/understand-filters.md) to slice and d
  ![Create data sets in Social Engagment](media/data-set-concept-social-engagement.png "Create data sets in Social Engagment")  
   
 ## Drill down into data and apply filters from widgets  
- [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
+ [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
   
  When you work through the application by drilling down, it redirects you to corresponding pages, and updates filters in the filter section. For example, if you select a data point in a **Sources History** widget (which spans more than one day) on **Analytics** > **Sources**, the widget on the **Sources** page applies the filter for the source that you selected, and your time frame updates to the time frame of the selected data point.  
   
 > [!NOTE]
 >  You can switch between pages in the Analytics area (for example Sources, Sentiments, Locations), and the applied filters will stay in place. If you go to a different area of Social Engagement by using the nav bar (for example from Analytics to Social Center or Settings), all filters will be reset.  
 >   
->  To keep your data set available in other applications, use the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](../social-engagement/more-options-with-data-set.md)  
+>  To keep your data set available in other applications, use the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
- There are many more entry points to drill down into your data. Click the data points to use the drill-down functionality. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
+ There are many more entry points to drill down into your data. Click the data points to use the drill-down functionality. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](visual-filtering-widgets.md)  
 
- For the list of available filters, see [Get to know your filters](../social-engagement/understand-filters.md).
+ For the list of available filters, see [Get to know your filters](understand-filters.md).
   
 <a name="conflicting_filters"></a>   
 ## Avoid conflicting filter combinations  
@@ -51,7 +51,7 @@ You can use [filters](../social-engagement/understand-filters.md) to slice and d
   
 ### Add a filter  
   
-1.  Select a data point on a widget to drill down and apply the corresponding filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)  
+1.  Select a data point on a widget to drill down and apply the corresponding filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](visual-filtering-widgets.md)  
   
      --OR--  
   
@@ -89,9 +89,9 @@ You can use [filters](../social-engagement/understand-filters.md) to slice and d
 2.  Select **Today**, **Last week**, or **Last month** as the time frame, or define a **Custom time frame**.  
   
 ### See Also  
- [Analyze social data using widgets](../social-engagement/analyze-social-data-using-widgets.md)   
- [Perform visual filtering on widgets](../social-engagement/visual-filtering-widgets.md)   
- [Stay up to date with alerts](../social-engagement/email-alerts.md)   
- [Keep track of live data streams with Social Center](../social-engagement/social-center.md)  
- [Get to know your filters](../social-engagement/understand-filters.md)
+ [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
+ [Perform visual filtering on widgets](visual-filtering-widgets.md)   
+ [Stay up to date with alerts](email-alerts.md)   
+ [Keep track of live data streams with Social Center](social-center.md)  
+ [Get to know your filters](understand-filters.md)
  

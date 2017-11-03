@@ -57,7 +57,7 @@ Use goals to keep track of your progress on achieving target revenue.
   
     -   If you are using the Sales app, click **Edit**.  
   
-<!-->    -   If you are using Dynamics 365 for Outlook, in the **Records** group, click **Edit**.  
+<!--    -   If you are using Dynamics 365 for Outlook, in the **Records** group, click **Edit**.  
 -->  
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   

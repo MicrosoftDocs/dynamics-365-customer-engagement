@@ -12,13 +12,13 @@ manager: sakudes
 robots: noindex,nofollow
 ---
 # Set up Microsoft Social Engagement
-This topic explains what the Administrator for your organization does to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+This topic explains what the Administrator for your organization does to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 > [!VIDEO https://www.youtube.com/embed/04CVnYkXefU]
   
 <a name="set_sol_default"></a>   
 ## Define global settings  
- You need to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] so your users can work with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] data. Begin by setting the system defaults. [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
+ You need to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] so your users can work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data. Begin by setting the system defaults. [!INCLUDE[proc_permissions_social_listening_admin](../includes/proc-permissions-social-listening-admin.md)]  
   
 1.  Go to **Settings** > **Global Settings**.  
   
@@ -45,11 +45,11 @@ This topic explains what the Administrator for your organization does to set up 
   
 1.  Go to **Search Setup**.  
   
-2.  In the **Search Topics** pane, click the **Add** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+2.  In the **Search Topics** pane, click the **Add** button ![Add button](media/add-icon.png "Add button").  
   
 3.  Name your search topic and assign a category.  
   
-4.  Under **Rules**, click the **Add rule** button ![Add button](../social-engagement/media/add-icon.png "Add button").  
+4.  Under **Rules**, click the **Add rule** button ![Add button](media/add-icon.png "Add button").  
   
 5.  Select the rule type that you want to add, and configure the rule.  
   
@@ -57,10 +57,10 @@ This topic explains what the Administrator for your organization does to set up 
   
 7.  Repeat steps 4 through 6 until you have added all required rules for this search topic. (Optional)  
   
-8.  In the **Search Topic Settings** area, click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button") to save the search topic and start data acquisition.  
+8.  In the **Search Topic Settings** area, click **Save** ![Save button](media/save-icon.png "Save button") to save the search topic and start data acquisition.  
   
 > [!NOTE]
->  You can create an unlimited number of search topics to meet your requirements for [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. However, make sure that you stay within your post quota to keep data acquisition up and running.  More information: [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)  
+>  You can create an unlimited number of search topics to meet your requirements for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. However, make sure that you stay within your post quota to keep data acquisition up and running.  More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 ### Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
@@ -68,8 +68,8 @@ This topic explains what the Administrator for your organization does to set up 
  [!INCLUDE[cc_privacy_msl_index_cached_data](../includes/cc-privacy-msl-index-cached-data.md)]  
   
 ### See Also  
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
- [Manage global settings](../social-engagement/manage-global-settings.md)   
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Assign permissions and user roles](../social-engagement/assign-user-roles.md)
+ [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+ [Manage global settings](manage-global-settings.md)   
+ [Set up searches to listen to social media conversations](set-up-searches.md)   
+ [Assign permissions and user roles](assign-user-roles.md)
  

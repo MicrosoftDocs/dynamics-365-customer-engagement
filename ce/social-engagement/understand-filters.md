@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Get to know your filters
-You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if you drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](../social-engagement/media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
+You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if you drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
 > [!NOTE]
 >  You'll only see available filters when you configure your data sets. Some filters aren't available in an area because they are based on metadata that you change after the post has been acquired, either manually or through workflows. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid conflicting filter combinations](use-filters.md#conflicting_filters)  
@@ -36,7 +36,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
  Select between system-rated and manually edited sentiment values. Distinguish whether a sentiment value was calculated by the sentiment algorithm or edited by a user. Confirming or changing a sentiment value for a post is considered to be a manual edit. You can limit your data set to see only posts that have the selected sentiment status.  
   
 ## Reach  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] takes an author’s [!INCLUDE[tn_klout](../includes/tn-klout.md)] score into account to determine the potential size of an author's influence, based on data that the [!INCLUDE[tn_klout](../includes/tn-klout.md)] service gathers from various social media networks. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] maps the author's [!INCLUDE[tn_klout](../includes/tn-klout.md)] score to reach values that allow segmentation of authors' reaches for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] takes an author’s [!INCLUDE[tn_klout](../includes/tn-klout.md)] score into account to determine the potential size of an author's influence, based on data that the [!INCLUDE[tn_klout](../includes/tn-klout.md)] service gathers from various social media networks. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] maps the author's [!INCLUDE[tn_klout](../includes/tn-klout.md)] score to reach values that allow segmentation of authors' reaches for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
  Choose a value from 1 to 5, where 1 is the lowest reach and 5 is the highest reach.  
   
@@ -50,7 +50,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
   
  **Reach 5**: [!INCLUDE[tn_klout](../includes/tn-klout.md)] score 50 to 99  
   
- For News sources, the reach in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is calculated as a normalized static metric, based on a source's site traffic and its social outreach (primarily [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]). The calculated value gets mapped to the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] reach score like the [!INCLUDE[tn_klout](../includes/tn-klout.md)] score. Your analysis narrows your results to posts that come from authors who have the reach that you defined in your filter.  
+ For News sources, the reach in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is calculated as a normalized static metric, based on a source's site traffic and its social outreach (primarily [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]). The calculated value gets mapped to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] reach score like the [!INCLUDE[tn_klout](../includes/tn-klout.md)] score. Your analysis narrows your results to posts that come from authors who have the reach that you defined in your filter.  
   
 ## Location  
  To filter your data for posts from specific locations, add locations or location groups to this filter. To see the list of available locations, start typing the first letters in the input field. You can add filters to the level of countries/regions. Filtering at the city level is not supported. Your analysis narrows your results to posts that contain location data, where the location data corresponds with the filter that you added.  
@@ -82,7 +82,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
   
 <a name="assignee_filter"></a>   
 ## Assignee  
- The assignee filter narrows your data set to show only posts that are assigned to the selected user or group. You can enter any user or group that is assigned a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Start typing a name to see suggestions. You can also specify whether you want to include posts assigned to any groups that the Assignee is a member of.  
+ The assignee filter narrows your data set to show only posts that are assigned to the selected user or group. You can enter any user or group that is assigned a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Start typing a name to see suggestions. You can also specify whether you want to include posts assigned to any groups that the Assignee is a member of.  
   
 ## Labels  
  Narrow your data set to see only posts that are assigned the selected labels. You can also exclude labels when you apply the labels filter to find posts that don't have a specific label. Any label that an administrator defined in **Settings** > **Global Settings** > **Labels** is available as a filter value.  
