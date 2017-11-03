@@ -2,16 +2,19 @@
 title: "Create and manage quotes in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Use quotes to develop a formal offer for products with proposed prices and related payment terms in Dynamics 365 for Sales, Business edition."
 keywords: "Quote; opportunity; create quote; email quote"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 28a6310c-74e9-44fa-b975-7885417b6a3a
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Create and manage quotes in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -26,7 +29,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Create a quote from an opportunity
 
-1.  Click the Menu icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the menu"), and then click **Opportunities**.
+1.  Click the Site Map icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the site map"), and then click **Opportunities**.
 
 2.  Choose the opportunity you want to create a quote for.
 
