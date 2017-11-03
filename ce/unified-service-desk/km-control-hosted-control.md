@@ -21,7 +21,7 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # KM Control (Hosted Control)
-Use the **KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_parature](../includes/pn-parature.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-or-parature-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
+Use the **KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_parature](../includes/pn-parature.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
   
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
@@ -182,7 +182,7 @@ Use the **KM Control** type of hosted control to display knowledge base articles
 |`postdata`|The formdata object containing a set of key/value pairs representing form fields and their values for a knowledge article.|  
   
 ### See also  
- [Leverage Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-or-parature-knowledge-effective-customer-engagement.md)   
+ [Leverage Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
  [Configure Parature knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
  [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

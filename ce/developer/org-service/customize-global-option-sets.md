@@ -1,7 +1,7 @@
 ---
 title: "Customize global option sets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/03/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,19 +31,19 @@ Typically, you use global option sets to set fields so that different fields can
  ## Messages  
  The following table lists the messages that you can use with global option sets.  
   
-|Message|Description|  
-|-------------|-----------------------------------------------------------------|  
-|[CreateOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.createoptionsetrequest)|Creates a new global option set.|  
-|[DeleteOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.deleteoptionsetrequest)|Deletes a global option set.|  
-|[DeleteOptionValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.deleteoptionvaluerequest)|Deletes one of the values in a global option set.|  
-|[InsertOptionValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.insertoptionvaluerequest)|Inserts a new option into a global option set.|  
-|[InsertStatusValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.insertstatusvaluerequest)|Inserts a new option into the global option set used in the `Status` attribute.|  
-|[OrderOptionRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.orderoptionrequest)|Changes the relative order of the options in an option set.|  
-|[RetrieveAllOptionSetsRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrievealloptionsetsrequest)|Retrieves all the global option sets.|  
-|[RetrieveOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrieveoptionsetrequest)|Retrieves a global option set.|  
-|[UpdateOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updateoptionsetrequest)|Updates a global option set.|  
-|[UpdateOptionValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updateoptionvaluerequest)|Updates an option in a global option set.|  
-|[UpdateStateValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updatestatevaluerequest)|Inserts a new option into the option set used in the `Status` attribute.|  
+|Message|Web API Operation|SDK Assembly|  
+|-------------|----------------------------|--------------------------------|  
+|CreateOptionSet|Use `POST` request to create a new global option set.|[CreateOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.createoptionsetrequest)|  
+|DeleteOptionSet|Use `DELETE` request to delete a global optin set.|[DeleteOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.deleteoptionsetrequest)|  
+|DeleteOptionValue</br>Deletes one of the values in a global option set.|<xref href="Microsoft.Dynamics.CRM.DeleteOptionValue?text=DeleteOptionValue Action" />|[DeleteOptionValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.deleteoptionvaluerequest)|    
+|InsertOptionValue</br>Inserts a new option into a global option set.|<xref href="Microsoft.Dynamics.CRM.InsertOptionValue?text=InsertOptionValue Action" />|[InsertOptionValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.insertoptionvaluerequest)|  
+|InsertStatusValue</br>Inserts a new option into the global option set used in the `Status` attribute.|<xref href="Microsoft.Dynamics.CRM.InsertOptionValue?text=InsertStatusValue Action" />|[InsertStatusValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.insertstatusvaluerequest)|  
+|OrderOption</br>Changes the relative order of the options in an option set.|<xref href="Microsoft.Dynamics.CRM.OrderOption?text=OrderOption Action" />|[OrderOptionRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.orderoptionrequest)|  
+|RetrieveAllOptionSets|Use `GET` request to retrieve all the global option sets.|[RetrieveAllOptionSetsRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrievealloptionsetsrequest)|  
+|RetrieveOptionSet|Use `GET` request to retrieve a global option set.|[RetrieveOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrieveoptionsetrequest)|    
+|UpdateOptionSet|Use `PUT` request to update a global option set.|[UpdateOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updateoptionsetrequest)|  
+|UpdateOptionValue|</br>Updates an option in a global option set.|[UpdateOptionValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updateoptionvaluerequest)|  
+|UpdateStateValue</br>Inserts a new option into the option set used in the `Status` attribute.|<xref href="Microsoft.Dynamics.CRM.OrderOption?text=UpdateStateValue Action" />|[UpdateStateValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updatestatevaluerequest)|   
 
 <a name="BKMK_RetrieveAGlobalOptionSet"></a>   
 ## Retrieve a global option set  
@@ -87,8 +87,9 @@ Typically, you use global option sets to set fields so that different fields can
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets9](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets9.cs#workwithglobaloptionsets9)]  
   
 <a name="BKMK_DeleteAGlobalOptionSet"></a>   
-## Delete a global option set  
- The following sample shows how to check whether a global option set is being used by another solution component by using <xref:Microsoft.Crm.Sdk.Messages.RetrieveDependentComponentsRequest>, and then how to delete it by using <xref:Microsoft.Xrm.Sdk.Messages.DeleteOptionSetRequest>:  
+## Delete a global option set
+
+ The following sample shows how to check whether a global option set is being used by another solution component by using `RetrieveDependentComponents` message (<xref href="Microsoft.Dynamics.CRM.RetrieveDependentComponents?text=RetrieveDependentComponents Function" /> or <xref:Microsoft.Crm.Sdk.Messages.RetrieveDependentComponentsRequest>), and then how to delete it by using `DeleteOptionSet` message (For Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.DeleteOptionSetRequest>):  
   
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets12](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets12.cs#workwithglobaloptionsets12)]  
   

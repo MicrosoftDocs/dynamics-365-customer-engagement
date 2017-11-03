@@ -97,7 +97,7 @@ manager: "amyla"
   
  [Customize Microsoft Dynamics 365 applications](customize-applications.md)  
   
- [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
+ [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
   
  [Customize Forms in Microsoft Dynamics 365](customize-entity-forms.md)  
   

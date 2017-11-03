@@ -26,7 +26,7 @@ All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
 ## Create alternate keys  
  You can create alternate keys programmatically or by using the customizations tools. For more information about using the customization tools, see [Define alternate keys to reference CRM records](https://technet.microsoft.com/library/29e53691-0b18-4fde-a1d0-7490aa227898.aspx).  
   
- To define alternate keys programmatically, you first have to create an object of type <xref:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata>. This class contains the key attributes. Once the key attributes are set, you can use <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityKeyRequest> message to create the keys for an entity. This message takes the entity name and <xref:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata> values as input to create the key.  
+ To define alternate keys programmatically, you first have to create an object of type <xref:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata> (or use <xref href="Microsoft.Dynamics.CRM.EntityKeyMetadata?text=EntityKeyMetadata EntityType" /> if working with Web API). This class contains the key attributes. Once the key attributes are set, you can use `CreateEntityKey` to create the keys for an entity. This message takes the entity name and `EntityKeyMetadata` values as input to create the key.  
   
  You should be aware of the following constraints when creating alternate keys:  
   
@@ -57,11 +57,12 @@ All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
 |<xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityKeyRequest>|Retrieves the specified alternate key.|  
 |<xref:Microsoft.Xrm.Sdk.Messages.DeleteEntityKeyRequest>|Deletes the specified alternate key.|  
   
- To retrieve all the keys for an entity, use the new <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Keys> property of the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> class. It gets an array of keys for an entity.  
+ To retrieve all the keys for an entity, use the new <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Keys> property of `EntityMetadata` (<xref href="Microsoft.Dynamics.CRM.EntityMetadata?text=EntityMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> class). It gets an array of keys for an entity.  
   
 <a name="BKMK_index"></a>   
 ## Monitor index creation for alternate keys  
- Alternate keys use database indexes to enforce uniqueness and optimize lookup performance. If there are lots of existing records in a table, index creation can be a lengthy process. You can increase the responsiveness of the customization UI and solution import by doing the index creation as a background process. The <xref:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata.AsyncJob> property refers to the asynchronous job that is doing the index creation. The <xref:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata.EntityKeyIndexStatus> property specifies the status of the key as its index creation job progresses. The status could be any of the following:  
+
+ Alternate keys use database indexes to enforce uniqueness and optimize lookup performance. If there are lots of existing records in a table, index creation can be a lengthy process. You can increase the responsiveness of the customization UI and solution import by doing the index creation as a background process. The `EntityKeyMetadata.AsyncJob` property (<xref href="Microsoft.Dynamics.CRM.EntityKeyMetadata?text=EntityKeyMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata>) refers to the asynchronous job that is doing the index creation. The `EntityKeyMetadata.EntityKeyIndexStatus` property specifies the status of the key as its index creation job progresses. The status could be any of the following:  
   
 -   Pending  
   
@@ -71,7 +72,7 @@ All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
 -   Failed  
   
- When an alternate key is created using the API, if the index creation fails, you can drill into details about the cause of the failure, correct the problems, and reactivate the key request using the <xref:Microsoft.Xrm.Sdk.Messages.ReactivateEntityKeyRequest> message.  
+ When an alternate key is created using the API, if the index creation fails, you can drill into details about the cause of the failure, correct the problems, and reactivate the key request using the `ReactivateEntityKey` (<xref href="Microsoft.Dynamics.CRM.ReactivateEntityKey?text=ReactivateEntityKey Action" /> or <xref:Microsoft.Xrm.Sdk.Messages.ReactivateEntityKeyRequest> message).  
   
  If the alternate key is deleted while an index creation job is still pending or in progress, the job is cancelled and the index is deleted.  
   

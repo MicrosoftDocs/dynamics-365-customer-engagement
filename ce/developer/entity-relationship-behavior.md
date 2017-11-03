@@ -2,7 +2,7 @@
 title: "Entity relationship behavior (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 descriptions: "Cascading of behaviors may arise in case of one-to-many entity relationships and they can be configured to preserve data integrity and automate business processes"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/03/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -108,13 +108,17 @@ When a one-to-many entity relationship exists there are cascading behaviors that
 <a name="BKMK_ConfigureEntityRelationshipBehavior"></a>   
 ## Configure entity relationship behavior  
 
+### Using Web API
+
+When working with Web API, you can define a One-to-Many relationship using <xref href="Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata?text=OneToManyRelationshipMetadata EntityType" />. This definition includes the name of the intersect entity to be created as well as how the relationship should be displayed in the application by using <xref href="Microsoft.Dynamics.CRM.AssociatedMenuConfiguration?text=AssociatedMenuConfiguration ComplexType" />, <xref href="Microsoft.Dynamics.CRM.Label?text=Label ComplexType" /> and <xref href="Microsoft.Dynamics.CRM.LocalizedLabel?text=LocalizedLabel ComplexType" />. More information: [Create a One-to-Many relationship using Web API](webapi/create-update-entity-relationships-using-web-api.md#create-a-one-to-many-relationship).
+
+### Using Organization Service
+
 When you use <xref:Microsoft.Xrm.Sdk.Messages.CreateOneToManyRequest> or <xref:Microsoft.Xrm.Sdk.Messages.UpdateRelationshipRequest> you include an instance of a <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata> class in the body of the request. In the <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.CascadeConfiguration> property of that class you use the <xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration> class.  
-  
-When working with Web API, you can define a One-to-Many relationship using <xref href="Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata?text=OneToManyRelationshipMetadata EntityType" />. This definition includes the name of the intersect entity to be created as well as how the relationship should be displayed in the application by using <xref href="Microsoft.Dynamics.CRM.AssociatedMenuConfiguration?text=AssociatedMenuConfiguration ComplexType" />, <xref href="Microsoft.Dynamics.CRM.Label?text=Label ComplexType" /> and <xref href="Microsoft.Dynamics.CRM.LocalizedLabel?text=LocalizedLabel ComplexType" />. More information: [Create a One-to-Many relationship using Web API](webapi/create-update-entity-relationships-using-web-api.md).
 
-The <xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration> class contains the properties representing actions that may be performed on the referenced entity in the one-to-many entity relationship. Each property can be assigned one of the values of the <xref:Microsoft.Xrm.Sdk.Metadata.CascadeType> enumeration.  
 
-  
+The `CascadeConfiguration` (<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration> class or <xref href="Microsoft.Dynamics.CRM.CascadeConfiguration?text=CascadeConfiguration ComplexType" />) contains the properties representing actions that may be performed on the referenced entity in the one-to-many entity relationship. Each property can be assigned one of the values of the <xref href="Microsoft.Dynamics.CRM.CascadeType?text=CascadeType EnumType" />.  
+
 |Value|Application label|Description|  
 |-----------|-----------------------|-----------------|  
 |Active|Cascade Active|Perform the action on all active referencing entity records associated with the referenced entity record.|  
@@ -124,16 +128,16 @@ The <xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration> class contains the pr
 |Restrict|Restrict|Prevent the Referenced entity record from being deleted when referencing entities exist.|  
 |UserOwned|Cascade User Owned|Perform the action on all referencing entity records owned by the same user as the referenced entity record.|  
   
- The <xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration> class contains the following properties representing actions that may be performed on the referenced entity in the one-to-many entity relationship.  
+ The `CascadeConfiguration` (<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration> class or <xref href="Microsoft.Dynamics.CRM.CascadeConfiguration?text=CascadeConfiguration ComplexType" />) contains the following properties representing actions that may be performed on the referenced entity in the one-to-many entity relationship.  
   
 |Action|Description|Valid options|  
 |------------|-----------------|-------------------|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration.Assign>|The referenced entity record owner is changed.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration.Delete>|The referenced entity record is deleted. **Note:**  The options for this action are limited.|Cascade<br />RemoveLink<br />Restrict|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration.Merge>|The record is merged with another record. **Note:**  For referenced entities that can be merged, Cascade is the only valid option. In other cases use NoCascade.|Cascade<br />NoCascade|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration.Reparent>|See [About the Reparent action](entity-relationship-behavior.md#BKMK_ReparentAction) below.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration.Share>|When the referenced entity record is shared with another user.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguration.Unshare>|When sharing is removed for the referenced entity record.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
+|Assign|The referenced entity record owner is changed.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
+|Delete|The referenced entity record is deleted. **Note:**  The options for this action are limited.|Cascade<br />RemoveLink<br />Restrict|  
+|Merge|The record is merged with another record. **Note:**  For referenced entities that can be merged, Cascade is the only valid option. In other cases use NoCascade.|Cascade<br />NoCascade|  
+|Reparent|See [About the Reparent action](entity-relationship-behavior.md#BKMK_ReparentAction) below.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
+|Share|When the referenced entity record is shared with another user.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
+|Unshare|When sharing is removed for the referenced entity record.|Active<br />Cascade<br />NoCascade<br />UserOwned|  
   
 <a name="BKMK_ReparentAction"></a>   
 ### About the reparent action  

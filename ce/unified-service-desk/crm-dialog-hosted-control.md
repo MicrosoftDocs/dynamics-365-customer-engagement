@@ -1,6 +1,6 @@
 ---
 title: "CRM Dialog (Hosted Control) | MicrosoftDocs"
-description: "Learn about using the Dynamics 365 Dialog hosted control type to work with Dynamics 365 dialogs. You can call the StartDialog action on your Dynamics 365 Dialog hosted control to start a Dynamics 365 dialog within Unified Service Desk."
+description: "Learn about using the CRM Dialog hosted control type to work with Dynamics 365 dialogs. You can call the StartDialog action on your CRM Dialog hosted control to start a Dynamics 365 dialog within Unified Service Desk."
 ms.custom: ""
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -21,17 +21,17 @@ ms.author: "kvivek"
 manager: "jdaly"
 ---
 # CRM Dialog (Hosted Control)
-Use the **Dynamics 365 Dialog** hosted control type to work with Dynamics 365 dialogs. You can call the **StartDialog** action on your Dynamics 365 Dialog hosted control to start a Dynamics 365 dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+Use the **CRM Dialog** hosted control type to work with Dynamics 365 dialogs. You can call the **StartDialog** action on your CRM Dialog hosted control to start a Dynamics 365 dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
 <a name="Create"></a>   
-## Create a Dynamics 365 Dialog hosted control  
- While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Dynamics 365 Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+## Create a CRM Dialog hosted control  
+ While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
  ![Dynamics 365 dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "Dynamics 365 dialog hosted control")  
   
  In the **New Hosted Control** screen:  
   
--   Under **Unified Service Desk** area, select **Dynamics 365 Dialog** from the **USD Component Type** drop-down list.  
+-   Under **Unified Service Desk** area, select **CRM Dialog** from the **USD Component Type** drop-down list.  
   
 -   The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **Internal WPF** (default) or **IE Process**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-a-hosting-method-for-your-controls.md).  
   
@@ -121,7 +121,7 @@ Use the **Dynamics 365 Dialog** hosted control type to work with Dynamics 365 di
  The following predefined events are associated with this hosted control type.  
   
 ### BrowserDocumentComplete  
- Occurs when the page has finished loading. On a **Dynamics 365 Page** type of hosted control, this event occurs after the data has been saved to the replacement parameter list. This event occurs only once, even though multiple frames will have individually fired their **BrowserDocumentComplete** events.  
+ Occurs when the page has finished loading. On a **CRM Page** type of hosted control, this event occurs after the data has been saved to the replacement parameter list. This event occurs only once, even though multiple frames will have individually fired their **BrowserDocumentComplete** events.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -135,7 +135,7 @@ Use the **Dynamics 365 Dialog** hosted control type to work with Dynamics 365 di
 |url|The URL of the popup that was routed.|  
   
 ### See also  
- [Dynamics 365 Page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)   
+ [CRM Page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)   
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   

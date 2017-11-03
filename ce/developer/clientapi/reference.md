@@ -25,7 +25,7 @@ The topics under this section are organized as follows:
 - Starts with reference for all the events, collections, and the execution context object.
 - Continues on to provide information about methods for **attributes** and **controls** in Customer Enagagement that are actually collections that appear under different objects in the Client API object model.
 - Provides reference for properties and methods for the **formContext** and **gridContext** objects.
-- Finally provides reference for namespaces in the **Xrm** objet model. 
+- Finally provides reference for namespaces in the **Xrm** object model. 
 
 ### Related topics
 

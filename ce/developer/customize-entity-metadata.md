@@ -2,7 +2,7 @@
 title: "Customize entity metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Entities are defined by metadata. By defining or changing the entity metadata, you can control the capabilities of an entity."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/03/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -35,22 +35,20 @@ Entities can be created using either the Organization service or the Web API. Th
 ## Entity metadata operations
 How you work with entity metadata depends on which service you use.
 
-### Web API operations
-Since the Web API is a RESTful endpoint, it uses a different way to create, retrieve, update, and delete metadata. Use `POST`, `GET`, `PUT`, and `DELETE` http verbs to work with metadata entitytypes. More information : [Create and update entity definitions using the Web API](webapi/create-update-entity-definitions-using-web-api.md).
+Since the Web API is a RESTful endpoint, it uses a different way to create, retrieve, update, and delete metadata. Use `POST`, `GET`, `PUT`, and `DELETE` HTTP verbs to work with metadata entitytypes. More information : [Create and update entity definitions using the Web API](webapi/create-update-entity-definitions-using-web-api.md).
 
-One exception to this is the <xref:Microsoft.Dynamics.CRM.RetrieveMetadataChanges> Function provides a way to compose a metadata query and track changes over time.
- 
-### Organization Service messages
-The following table lists the messages that you can use to create, retrieve, update and delete entity metadata using the Organization service  
-  
-|Message name|Description|  
-|------------------|-----------------|  
-|<xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest>|Creates a custom entity.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.DeleteEntityRequest>|Deletes a custom entity.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>|Retrieves the metadata for all entities.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityRequest>|Retrieves the metadata for an entity.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest>|Updates the metadata for an entity.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest>|Used together with objects in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace to create a query to efficiently retrieve and detect changes to specific metadata. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md).|  
+One exception to this is the <xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" /> provides a way to compose a metadata query and track changes over time. 
+
+If working with Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest> class. This class contains the data that is needed to to retrieve a collection of metadata records that satisfy the specified criteria. The <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse> returns a timestamp value that can be used with this request at a later time to return information about how metadata has changed since the last request.
+   
+|Message|Web API|SDK Assembly|  
+|------------------|-----------------|-----------------|  
+|CreateEntity|Use a POST request to send data to create an entity.|<xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest>|  
+|DeleteEntity|Use a DELETE request to delete an entity.|<xref:Microsoft.Xrm.Sdk.Messages.DeleteEntityRequest>|  
+|RetrieveAllEntities|Use GET request to retrieve entity data.|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>|  
+|RetrieveEntity|<xref href="Microsoft.Dynamics.CRM.RetrieveEntity?text=RetrieveEntity Function" />|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityRequest>|  
+|UpdateEntity|Use a PUT request to update an entity.|<xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest>|  
+|RetrieveMetadataChanges</br>Used together with objects in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace to create a query to efficiently retrieve and detect changes to specific metadata. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md).|<xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" />|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest>|  
   
 <a name="BKMK_CreationOptions"></a>   
 ## Options available when you create a custom entity  

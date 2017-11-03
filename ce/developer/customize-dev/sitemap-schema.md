@@ -637,6 +637,6 @@ The following is the schema definition for the SiteMap portion of an import/expo
 ```  
   
 ### See also  
- [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)   
+ [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)   
  [Customization Solutions File Schema](customization-solutions-file-schema.md)   
  [Customization XML Reference](../customization-xml-reference.md)

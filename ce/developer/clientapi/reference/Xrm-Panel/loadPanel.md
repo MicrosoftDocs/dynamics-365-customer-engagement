@@ -31,6 +31,4 @@ manager: "amyla"
 ## Remarks
 This method is supported only for the web client.
 
-### Related topics
-[Xrm.Device](../xrm-device.md)
 
