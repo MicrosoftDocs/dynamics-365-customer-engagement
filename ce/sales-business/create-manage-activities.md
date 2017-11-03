@@ -63,7 +63,7 @@ Add a task or note for yourself when you want a reminder to do something persona
 
 Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record, so those activities become part of the history that other people on your team can view.
 
-1.  Click the Site Map icon ![Menu icon](media/open-menu-icon.png "Icon to open the site map"), and then click **&lt;Activity Type&gt;**. For example, click **Tasks**.  
+1.  Click the Site Map icon ![Menu icon](media/Site-map-icon.png "Icon to open the site map"), and then click **&lt;Activity Type&gt;**. For example, click **Tasks**.  
 
 
   ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type "Task"")  
