@@ -29,7 +29,7 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
 |--------------|--------------|---------------------|  
 |[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|10 and above|1 GB|  
 |[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|6.0 and above|1 GB|  
-|[Windows Tablet only](http://go.microsoft.com/fwlink/p/?LinkId=519212) |10|1 GB|<br/>
+|[Windows](https://go.microsoft.com/fwlink/p/?linkid=862402) |10|1 GB|<br/>
   
 <a name="BKMK_CRMforTablets"></a>   
 ## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
