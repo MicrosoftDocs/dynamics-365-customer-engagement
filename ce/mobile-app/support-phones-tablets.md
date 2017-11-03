@@ -29,49 +29,53 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
 |--------------|--------------|---------------------|  
 |[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|10 and above|1 GB|  
 |[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|6.0 and above|1 GB|  
-|[Windows Tablet only](http://go.microsoft.com/fwlink/p/?LinkId=519212) |10|1 GB|<br/>
+|[Windows](https://go.microsoft.com/fwlink/p/?linkid=862402) |10|1 GB|<br/>
   
 <a name="BKMK_CRMforTablets"></a>   
 ## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
   
 <a name="BKMK_Windows8"></a>   
 ### Windows tablets  
- You can run the Dynamics 365 for Windows tablets app on devices that meet the following requirements. You can also run the Dynamics 365 web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365](../admin/web-application-requirements.md).  
-  
- Download the Dynamics 365 app from the Windows Marketplace for [Windows 10 tablets](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
+You can run the Dynamics 365 for Windows tablets app on devices that meet the following requirements:  
   
 |||  
 |-|-|  
 |Operating system| 10 |  
 |Memory|1 GB|  
 |Resolution|1366 x 768 resolution (720p)|  
+
+You can also run the Dynamics 365 web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365](../admin/web-application-requirements.md).
+
+Download the Dynamics 365 app from the Windows Marketplace for [Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
   
 <a name="BKMK_iPad"></a>   
 ### Apple iPad  
- You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements.  
-  
- [Download Microsoft Dynamics 365 for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)  
+You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
   
 -   Device: [!INCLUDE[tn_ipad](../includes/tn-ipad.md)] third generation or later  
   
 -   Screen: 9-inch (diagonal) or larger  
+
+[Download Microsoft Dynamics 365 for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)
  
   
-##### How to find the version of your [!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)] app  
+#### How to find the version of your [!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)] app  
   
-1.  In the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app, go to the home screen, and then open the command bar. Tap **Settings**, and then tap **About**.  
+- In the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app, go to the home screen, and then open the command bar. Tap **Settings**, and then tap **About**.  
   
 <a name="BKMK_Nexus"></a>   
 ### Android  
- You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)] app on devices that meet the following requirements.  
-  
- [Download Microsoft Dynamics 365 for Android from Google play](http://go.microsoft.com/fwlink/p/?LinkID=392913)  
-  
- Android versions 6.0 and above are supported for tablets with screens larger than 7 inches (optimized for 9 to 10 inches) using [!INCLUDE[pn_moca_CRM_Android_full](../includes/pn-moca-crm-android-full.md)].  
+You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)] app on devices that meet the following requirements:
+
+- Android versions 6.0
+
+- Tablets with screens larger than 7 inches (optimized for 9 to 10 inches) using [!INCLUDE[pn_moca_CRM_Android_full](../includes/pn-moca-crm-android-full.md)].  
+ 
+[Download Microsoft Dynamics 365 for Android from Google play](http://go.microsoft.com/fwlink/p/?LinkID=392913)
   
 <a name="BKMK_BrowserSupport"></a>   
 ## Web browser support for tablets  
- You can run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the default web browser on any of the supported [Windows](../mobile-app/support-phones-tablets.md#BKMK_Windows8) tablets listed earlier. For [Apple iPad](../mobile-app/support-phones-tablets.md#BKMK_iPad) tablets,  iOS 10 and above are supported. For [Android](../mobile-app/support-phones-tablets.md#BKMK_Nexus), versions 6.0 and above are supported for the tablets.  
+ You can run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the default web browser on any Windows 10 device, including a Windows 10 PC, but the user interface is optimized for touch. For [Apple iPad](../mobile-app/support-phones-tablets.md#BKMK_iPad) tablets,  iOS 10 and above are supported. For [Android](../mobile-app/support-phones-tablets.md#BKMK_Nexus), versions 6.0 and above are supported for the tablets.  
   
  Using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
