@@ -27,7 +27,7 @@ To get the most out of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-
 
 ## Find your activities
 
-Click the Site Map icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the site map"), and then click one of the following:  
+Click the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the site map"), and then click one of the following:  
 
 -   Task
 
@@ -41,7 +41,7 @@ Click the Site Map icon ![Icon to open the menu](media/open-menu-icon.png "Icon 
 
 You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed tasks, or to see emails that you sent.
 
-1.  Go to the activity list. For example, to see the emails that you sent, click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Email Messages**.  
+1.  Go to the activity list. For example, to see the emails that you sent, click the Menu icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the menu"), and then click **Email Messages**.  
 
 2.  Click the down arrow next to the view name at the top of the page, and select the **My Sent** **Emails** view.
 

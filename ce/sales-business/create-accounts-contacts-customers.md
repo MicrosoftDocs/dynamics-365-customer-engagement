@@ -64,7 +64,7 @@ Account and contact forms are very similar as they store similar information abo
 
 To create or edit a contact
 
-1.  Click the Site Map icon ![Menu icon](media/open-menu-icon.png "Icon to open the site map"), and then click **Contacts**.
+1.  Click the Site Map icon ![Menu icon](media/Site-map-icon.png "Icon to open the site map"), and then click **Contacts**.
 
 2.  To create a new contact, choose **New**.
 

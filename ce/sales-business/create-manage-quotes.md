@@ -29,7 +29,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Create a quote from an opportunity
 
-1.  Click the Site Map icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the site map"), and then click **Opportunities**.
+1.  Click the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the site map"), and then click **Opportunities**.
 
 2.  Choose the opportunity you want to create a quote for.
 

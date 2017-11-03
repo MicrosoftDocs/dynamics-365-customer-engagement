@@ -25,7 +25,7 @@ You may also create an invoice that doesn’t generate from a quote.
 
 ## Create an invoice from a quote
 
-1.  Click the Site Map icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the site map"), and then click **Quotes**.
+1.  Click the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the site map"), and then click **Quotes**.
 
 2.  Choose the active quote that you want to create an invoice from.
 
