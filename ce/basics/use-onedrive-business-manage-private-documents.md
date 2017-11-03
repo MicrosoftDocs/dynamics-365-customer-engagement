@@ -46,21 +46,20 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 
  2.  If you're using the web app, on the command bar, select the down arrow beside the record name, and then select **Documents**. 
 
-     ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents for a record")
+      ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents for a record")
 
-     If you're using a mobile-optimized app, select the **Related** tab, and then select **Documents**.
+      If you're using a mobile-optimized app, select the **Related** tab, and then select **Documents**.
 
-     ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
+      ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
 
-     
-     After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you'll see the following dialog box when you go to the Document Associated Grid to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], or when you attempt to create a new document or folder.  
+      After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you'll see the following dialog box when you go to the Document Associated Grid to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], or when you attempt to create a new document or folder.  
   
-     ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
+      ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
   
-     Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents, or select **Continue** to accept the default folder location: \Dynamics365. 
+      Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents, or select **Continue** to accept the default folder location: \Dynamics365. 
  
-     > [!NOTE]
-     > The default folder location is set to \CRM for users who haven't upgraded to the [!include[](../includes/pn-crm-9-0-0-online.md)]. 
+      > [!NOTE]
+      > The default folder location is set to \CRM for users who haven't upgraded to the [!include[](../includes/pn-crm-9-0-0-online.md)]. 
   
 ## View existing OneDrive documents  
  Open the Document Associated Grid. The following example is for Opportunities, but works the same for all record types.  
@@ -75,11 +74,11 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
   
      ![List of documents on OneDrive for Business](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
   
- 3. Select **Document Location** to filter the document list.  
+3. Select **Document Location** to filter the document list.  
   
      ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
   
- 4. Select a location as described in the following table:  
+4. Select a location as described in the following table:  
   
     |Document Location|Description|  
     |-----------------------|-----------------|  
