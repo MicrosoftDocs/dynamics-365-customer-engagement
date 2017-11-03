@@ -6,7 +6,7 @@ author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/30/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.service: crm-online
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
@@ -31,12 +31,13 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
   
 - **Browsers** 
     - Google Chrome
-    - Microsoft Edge (supported on Windows 10) 
+    - Microsoft Edge (supported on Windows 10)
+    - Apple Safari 11
 
 - **Mobile**
     - iOS 10 - Tablet & Phone
     - Android - Tablet + Phone (Android 6 and 7)
-    - Windows 10 - Tablet Only
+    - Windows 10 
 
 <a name="bkmk_Access"></a>
 
