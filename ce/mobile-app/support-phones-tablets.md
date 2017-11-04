@@ -41,7 +41,7 @@ You can run the Dynamics 365 for Windows tablets app on devices that meet the fo
 |||  
 |-|-|  
 |Operating system| 10 |  
-|Memory|1 GB|  
+|Memory|Minimum RAM (memory) required is 2 GB. 4 GB RAM recommended for optimal performance|  
 |Resolution|1366 x 768 resolution (720p)|  
 
 You can also run the Dynamics 365 web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365](../admin/web-application-requirements.md).
