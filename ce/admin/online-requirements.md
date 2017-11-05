@@ -24,7 +24,7 @@ manager: "brycho"
   
 -   Web browser. No need to install anything to run [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from a computer running a supported web browser.  
 
-- [[!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]. An [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-in that provides you with a complete set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] capabilities right within [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)].  
+- [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]. An [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-in that provides you with a complete set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] capabilities right within [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)].  
   
 - [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. Lightweight applications that let you access Dynamics 365 data on almost any web browser running on a tablet, smartphone, or non-Windows computer.  
   
