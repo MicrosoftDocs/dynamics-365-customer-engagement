@@ -36,7 +36,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 - Dashboards. View and edit dashboards the same as what you see in the mobile experience.
 
 - Insights. Use Relationship assistant to get insights into your customers.
-  
+
 <a name="Overview"></a>   
 
 ## What Dynamics 365 App for Outlook offers  
