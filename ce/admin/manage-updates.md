@@ -370,14 +370,7 @@ For recent versions, see [Recent versions of Dynamics 365 (online)](../admin/man
 7. **Watch for Update Completion or Reschedule emails from Microsoft.**  
   
  Once your organization is updated, you’ll receive a notification from [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] indicating that your organization is ready to use.  
-  
-<a name="BKMK_Aftertheupdate"></a>   
-## After the update  
- Consider the following areas to attend to after your update.  
-  
-### Update Dynamics 365 (online) 2015 components  
- You can find more details about updating additional components, such as [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], in [Administering Dynamics 365](../admin/admin-guide.md).  
-  
+   
 <a name="BKMK_CommSchedule"></a>   
 ## Schedule for update communications  
   
@@ -396,22 +389,6 @@ For recent versions, see [Recent versions of Dynamics 365 (online)](../admin/man
   
 > [!NOTE]
 >  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
-  
-<a name="BKMK_ServiceRequestManage"></a>   
-## Request service  
- Having a problem with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? You can create a service request to get the issue resolved.  
-  
-### Create a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service request  
-  
-1.  Sign in to the [Office 365 admin center](https://portal.office.com).  
-  
-2.  In the left-side menu, click **Support** > **Overview**.  
-  
-3.  Under **Create a service request**, click **Dynamics 365 Online**. You may need to expand the list by choosing **More**.  
-  
-4.  Fill in the information and submit your request.  
-  
- ![Office 365 admin center service request](../admin/media/o365-admin-center-request-service.PNG "Office 365 admin center service request")  
   
 ### See also  
  [Policies and Communications for Dynamics 365 (online)](../admin/policies-communications.md)    
