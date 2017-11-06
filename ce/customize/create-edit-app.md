@@ -45,7 +45,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
   
      Go to **Settings** > **Customizations**. Click **Apps**, and then on the Action toolbar, click **New**.  
   
-3.  In the **Create a New App** page, enter the following details:  
+3. In the **Create a New App** page, enter the following details:  
   
     - **Name**. Enter a unique name for the app.  
   
@@ -58,7 +58,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
   
     - **Icon**. By default, the **Use Default App** thumbnail check box is selected. To select a different web resource as an icon for the app, clear the check box, and then select an icon from the drop-down list. This icon is displayed on the preview tile of the app.  
   
-    -   Select the client type that the app will be used for.  
+    - Select the client type that the app will be used for.  
   
         - **Web**. This is the classic Dynamics 365 web browser client.  
   
@@ -66,7 +66,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
   
     - **App URL Suffix**. The app URL is automatically populated based on the app name that you specify. You'll see a preview of how the complete URL looks. The app URL  must be unique.  
   
-         For on-premises: http://\<server>/\<org name>/Apps/\<App URL>  
+         For on-premises: http://\<server>/\<org name>/Apps/\<App URL> 
   
          For online organizations: https://\<server>. crm#.dynamics.com/Apps/\<App URL>  
   
@@ -74,24 +74,24 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
      >  If you clear the App URL Suffix field and then save, the app URL is automatically generated with the app ID.  
   
     - **Use existing solution to create the App**. Select this option to create the app from a list of installed solutions. When you select this option, **Done** button toggles to **Next** on the header. Select **Next** and you are navigated to **Creat app from existing solution** page. From the **Select Solution** drop down list, select a solution from which you want to create the app. If any sitemap is availabe for the selected solution, **Select Sitemap** drop down list will be displayed. Select the sitemap and then select **Done**.
+
      > [!NOTE]
      > By selecting the **Default Solution**, when you add a sitemap, the components that are associated with that sitemap are automatically added to the app.  
 
-     ![Use existing solution to create the app page](../customize/media/use-existing-solution-to-create-the-app.png "Use existing solution to create the app page") 
-
+    ![Use existing solution to create the app page](../customize/media/use-existing-solution-to-create-the-app.png "Use existing solution to create the app page") 
 
     - **Choose a welcome page**. This option allows you to select from the web resources available in your organization. The welcome pages you create can contain useful information to users such as links to videos, upgrade instructions, or getting started information. The welcome page displays when an app is opened. Users may select **Do not show this Welcome Screen next time** on the welcome page to disable the page so it doesn’t appear the next time the app starts. For more information about how to create a web resource, such as an HTML file that you can use as a welcome page, see [Create and edit web resources to extend the web application](create-edit-web-resources.md).  
+      
+    To edit app properties later, go to the **Properties** tab in the app designer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage app properties](../customize/manage-app-properties.md)  
   
-     To edit app properties later, go to the **Properties** tab in the app designer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage app properties](../customize/manage-app-properties.md)  
+     > [!NOTE]
+     >  You can't change the unique name and app URL suffix in the **Properties** tab.  
   
-    > [!NOTE]
-    >  You can't change the unique name and app URL suffix in the **Properties** tab.  
+4. Click **Done** or, if you selected **Use an existing solution to create the App**, click **Next** to select from the available solutions that were imported in the organization.  
   
-4.  Click **Done** or, if you selected **Use an existing solution to create the App**, click **Next** to select from the available solutions that were imported in the organization.  
+    A new app is created and shows Draft status. You'll see the app designer canvas for the new app.  
   
-     A new app is created and shows Draft status. You'll see the app designer canvas for the new app.  
-  
-5.  Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+5. Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
   
 <a name="editApp"></a>   
 ## Edit an app  
