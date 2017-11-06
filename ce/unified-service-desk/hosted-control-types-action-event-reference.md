@@ -20,7 +20,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "jdaly"
 ---
-# Hosted control types, action, and event reference in Unified Service Desk for Dynamics 365
+# Hosted control types, action, and event reference in Unified Service Desk
 This section provides information about the various types of hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and the predefined [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions and events available for each hosted control type. You can also view information about the predefined [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions and events for hosted controls in the embedded help in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)  
   
  Apart from the predefined hosted control types, this section also provides information about a custom hosted control, `Session Timer`, that becomes available when you deploy one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session Timer (Custom Hosted Control)](../unified-service-desk/session-timer-custom-hosted-control.md)  
@@ -35,9 +35,9 @@ This section provides information about the various types of hosted controls in 
   
  [Agent Scripting (Hosted Control)](../unified-service-desk/agent-scripting-hosted-control.md)  
   
- [Dynamics 365 Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)  
+ [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)  
   
- [Dynamics 365 Page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)  
+ [CRM Page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)  
   
  [CTI Desktop Manager (Hosted Control)](../unified-service-desk/cti-desktop-manager-hosted-control.md)  
   

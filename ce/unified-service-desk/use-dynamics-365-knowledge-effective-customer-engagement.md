@@ -61,5 +61,5 @@ Knowledge management plays an important part in the customer service process, an
  [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)   
  [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)
- [Set up knowledge management in CRM](http://go.microsoft.com/fwlink/p/?LinkId=691083)   
+ [Set up knowledge management in CRM](http://go.microsoft.com/fwlink/p/?LinkId=691083) 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)

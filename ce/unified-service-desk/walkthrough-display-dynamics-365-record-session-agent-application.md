@@ -72,7 +72,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |-----------|-----------|  
     |Name|Contoso Account Session|  
     |Display Name|[[account.name]] **Note:**  We will use replacement parameter to dynamically display the name of the selected account as hosted control display name.|  
-    |USD Component Type|Dynamics 365 Page|  
+    |USD Component Type|CRM Page|  
     |Allow Multiple Pages|No|  
     |Hosting Type|Internal WPF|  
     |Application is Global|Not checked **Note:**  This ensures that the hosted control is session-scoped, that is, only displayed in a session.|  
