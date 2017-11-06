@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 ms.custom: ""
-ms.date: 08/23/2017
+ms.date: 11/02/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -22,7 +22,17 @@ manager: "jdaly"
 ---
 # Release history for Unified Service Desk
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
-  
+ 
+
+|Release  |Information  |
+|---------|---------|
+|Version 3.1, November 2017   | Unified Service Desk 3.1 update |
+|Version 3.0, August 2017  |  Unified Service Desk 3.0 update |
+
+<a name="Release_3_1"></a>   
+## Release history for Version 3.1, November 2017
+For information about this release see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md).
+ 
 <a name="Release_3_0"></a>   
 ## Release history for Version 3.0, August 2017  
   
