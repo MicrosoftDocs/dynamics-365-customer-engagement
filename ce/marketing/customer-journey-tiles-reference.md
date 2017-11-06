@@ -201,9 +201,9 @@ Trigger tiles provide the following settings in the **Properties** pane while se
 
 ### Splitter and splitter-branch tiles
 
-Splitter tiles add a logical fork to the customer journey pipeline. They are like triggers, but are always evaluated instantly, so they don't wait for a contact to do something such as click on an email link. Also, splitters can include any number of output paths, not just two like triggers have. You'll typically use splitters to split your segment into sub-segments based on demographic data, such as contact city, age, occupation, list membership, or other semi-permanent property or value. You can also use a splitter to divide contacts randomly into groups of various sizes (by percent of the total); you might do this to implement A/B testing of marketing strategy, email design, etc.
+Splitter tiles add a fork to the customer journey pipeline, sending a random selection of contacts down each available path.
 
-You'll always use a splitter tile together with at least two splitter-branch tiles. The splitter tile initiates the split and established a basic type of evaluation (such as by percentage) while each splitter-branch tile establishes the specific conditions for travelling down the path it controls. The bottom splitter-branch tile always implements a "remaining" rule, which applies to all contacts that don't fulfil any of the other available rules.
+You'll always use a splitter tile together with at least two splitter-branch tiles. The splitter tile initiates the split and establishes the basis for dividing the contacts (by percentage or absolute value), while each splitter-branch tile establishes the specific portion or number of contacts travelling down the path it controls. The bottom splitter-branch tile always implements a "remaining" rule, which applies to all contacts that don't fulfil any of the other available rules.
 
 Splitter and splitter-branch tiles are stand-alone, so they never have any parent or child tiles.
 
@@ -213,24 +213,24 @@ When you add a splitter to your pipeline, it immediately creates a fork and adds
 
 On adding a splitter tile:
 
-1. Configure the splitter first to establish its "split-by" parameter
+1. Configure the splitter first to establish its "split-by" parameter (by percentage or absolute value).
 
 1. Add at least one splitter-rule tile in the empty spot provided.
 
 1. If needed, add more paths by dragging additional splitter-rule tiles between the top and bottom splitter-rule tiles.
 
-1. Define the logic for each splitter branch.
+1. Define the portion of contacts to be sent down each splitter branch.
 
 Splitter tiles provide the following settings in the **Properties** pane while selected:
 
 - **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Split By**: Choose the type of test that the subsequent splitter-rule tiles can make. Choose **Percentage** to create a randomized split, in which case each splitter-rule tile will establish the percentage of contacts to be sent down each path. Choose **Value** to split by field values.
+- **Split By**: Choose how to define the portion of contacts sent down each branch. Choose **Percentage** to define each branch by a percentage of total contacts. Choose **Value** to define each branch using absolute values.
 - **Description**: Add a description or other notes here (optional).
 
-Splitter- branch tiles provide the following settings in the **Properties** pane while selected:
+Splitter-branch tiles provide the following settings in the **Properties** pane while selected:
 
 - **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Percentage** or **Value**: When the preceding splitter tile is set to split by percentage, set the percentage of contacts that should be sent down this branch. When the preceding splitter tile is set to split by value, set the field value that must match for a customer to be sent down this branch.
+- **Percentage** or **Value**: When the preceding splitter tile is set to split by percentage, set the percentage of contacts that should be sent down this branch. When the preceding splitter tile is set to split by value, enter the total number of contacts that should go down that branch.
 - **Description**: Add a description or other notes here (optional).
 
 ## Create custom channels for customer journeys
