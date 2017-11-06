@@ -21,12 +21,12 @@ tags:
 # Deploy Dynamics 365 App for Outlook 
 
 > [!IMPORTANT]
-> This page describes how to use Dynamics 365 App for Outlook with Microsoft Dynamics CRM 2016. This version of Dynamics 365 App for Outlook does not work with the July 2017 update for Dynamics 365 (online). Check back soon for updates!
+> This page describes how to use Dynamics 365 App for Outlook with Microsoft Dynamics CRM 2016. This version of Dynamics 365 App for Outlook does not work with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. Check back soon for updates!
 
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] while using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
   
 > [!IMPORTANT]
-> [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is deprecated with the July 2017 update for Dynamics 365 (online) and will be removed in a future major release. This deprecation includes Offline mode and synchronization in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. For more information, see [Deprecation of Dynamics 365 for Outlook](https://blogs.msdn.microsoft.com/crm/2017/08/08/deprecation-of-dynamics-365-for-outlook/)
+> [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is deprecated with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] and will be removed in a future major release. This deprecation includes Offline mode and synchronization in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. For more information, see [Deprecation of Dynamics 365 for Outlook](https://blogs.msdn.microsoft.com/crm/2017/08/08/deprecation-of-dynamics-365-for-outlook/)
 > 
 > [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails. 
 
