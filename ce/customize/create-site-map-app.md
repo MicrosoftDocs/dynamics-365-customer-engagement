@@ -1,19 +1,23 @@
 ---
 title: "Create a site map for an app (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2461bd71-6cb4-46b7-8d1f-6a0aa3dca809
+ms.author: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 18
-ms.author: "shujoshi"
+topic-status: Drafting
 ---
+
 # Create a site map for an app using the site map designer
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -23,63 +27,60 @@ Site maps define the navigation for your app. Create a site map for your app wit
  The site map designer also lets you define the area, subarea, or group titles in the languages supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
  By default, a site map for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] - custom app is already available. You can edit this site map or configure site maps for new apps by using the site map designer.  The site map designer is integrated with the app designer.  
+
+ ## Prerequisites
+Verify the following prerequisites befor you start creating the site map:
+[!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] Specifically, any user with the following privileges can also create  apps:  
+-   Create, Read, and Write privileges for the App entity  
+-   Read and Write privileges for the Customizations entity  
+-   Read privileges for the Solution entity
   
 ## Create a site map for a custom app  
   
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
+1. On the app designer canvas, in the **Site Map** area, select the **Open the Site Map Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button").  
   
-     Specifically, any user with the following privileges can also access the apps:  
-  
-    -   Create, Read, and Write privileges on the App entity  
-  
-    -   Create and Read privileges on the Customizations entity  
-  
-    -   Read and Write  privileges on the Solution entity  
-  
-2.  On the app designer canvas, in the **Site Map** area, click the **Open the Site Map Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button").  
-  
-     The site map designer opens a canvas that is pre-populated with one area, one group, and one subarea.  Click the area, group, or subarea tile to change its properties.  
+     The site map designer opens a canvas that is pre-populated with one area, one group, and one subarea. Select the area, group, or subarea tile to change its properties.  
   
     > [!NOTE]
-    >  Clicking the **Open the Site Map Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") from the app designer canvas automatically creates a new site map (if there's no existing site map) with the same name as the app name and with same unique name as the app unique name.  
+    >  Clicking the **Open the Site Map Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") from the app designer canvas automatically creates a new site map (if there's no existing site map) with the same name as the app name and with same unique name as the app unique name. 
+
+   ![Select site map](../customize/media/app-designer-sitemap-location.png "Select site map") 
   
-3.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea)  
+2.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea)  
   
-4.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup)  
+3.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup)  
   
-5.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea)  
+4.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea)  
   
-6.  Click **Save**.  
+5.  Click **Save**.  
   
     > [!NOTE]
     >  The new site map is associated with the app when you go back to the app designer and click **Save**. When a site  map is configured, the site map tile shows "Configured." Otherwise it shows "Not Configured."  If you open the site map designer from the app designer and configure a new site map,  but close the browser before associating the site map to the app, the site map will be automatically associated with the app the next time you open the app designer, based on the app unique name.  
   
-7.  Click **Publish**.  
+6.  Click **Publish**.  
   
 ## Edit the default site map (Dynamics 365 - custom app)  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] comes with a default site map for the Dynamics 365 - custom app. This site map is supported for both the web application and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
+1. In the Dynamics 365 - custom app, go to **Settings** > **Customization**.  
   
-2.  In the Dynamics 365 - custom app, go to **Settings** > **Customization**.  
+2. Click **Customize the System**.  
   
-3.  Click **Customize the System**.  
+3.  In the Solution Explorer, under Components, click **Clients Extensions**.  
   
-4.  In the Solution Explorer, under Components, click **Clients Extensions**.  
-  
-5.  Double-click the site map that has the display name "Site Map" and state "Managed." You can also select the site map, and then on the Action toolbar, click **Edit**.  
+4.  Double-click the site map that has the display name "Site Map" and state "Managed." You can also select the site map, and then on the Action toolbar, click **Edit**.  
   
      The site map opens in the site map designer.  
   
-6.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea)  
+5.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea)  
   
-7.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup)  
+6.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup)  
   
-8.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea)  
+7.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea)  
   
-9. Click **Save**.  
+8. Click **Save**.  
   
-10. Click **Publish**.  
+9. Click **Publish**.  
   
 <a name="bkmk_AddArea"></a>   
 ## Add an area to the site map  

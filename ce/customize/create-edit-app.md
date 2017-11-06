@@ -25,27 +25,28 @@ topic-status: Drafting
 Create single or multi-entity apps quickly  by using the tile-based app designer.  
   
  Open the app designer from the **My Apps** page or from the **Apps** area in the Solutions window.
+
+## Prerequisites
+Verify the following prerequisites befor you start creating the app:
+[!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] Specifically, any user with the following privileges can also create  apps:  
+-   Create, Read, and Write privileges for the App entity  
+-   Read and Write privileges for the Customizations entity  
+-   Read privileges for the Solution entity
   
 <a name="createApp"></a>   
 ## Create an app  
   
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
-  
-     Specifically, any user with the following privileges can also create  apps:  
-  
-    -   Create, Read, and Write privileges for the App entity  
-  
-    -   Read and Write privileges for the Customizations entity  
-  
-    -   Read privileges for the Solution entity  
-  
-2.  Go to **Settings** > **My Apps**, and then click **Create New App**. The app designer opens in a new browser tab.  
+1.  Go to **Settings** > **My Apps**, and then click **Create New App**. The app designer opens in a new browser tab.  
+
+    ![Open app designer](../customize/media/app-designer-settings-apps.png "Open app designer")
   
      -OR  
   
-     Go to **Settings** > **Customizations**. Click **Apps**, and then on the Action toolbar, click **New**.  
+     Go to **Settings** > **Customizations** > **Customize the System**. On the solutions window select **Apps**, and then select **New** on the **Action** toolbar.  
+
+     ![Create an app through sloutions window](../customize/media/app-designer-customize-system-settings.png "Create an app through sloutions window")
   
-3. In the **Create a New App** page, enter the following details:  
+2. In the **Create a New App** page, enter the following details:  
   
     - **Name**. Enter a unique name for the app.  
   
@@ -87,22 +88,20 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
      > [!NOTE]
      >  You can't change the unique name and app URL suffix in the **Properties** tab.  
   
-4. Click **Done** or, if you selected **Use an existing solution to create the App**, click **Next** to select from the available solutions that were imported in the organization.  
+3. Click **Done** or, if you selected **Use an existing solution to create the App**, click **Next** to select from the available solutions that were imported in the organization.  
   
     A new app is created and shows Draft status. You'll see the app designer canvas for the new app.  
   
-5. Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+4. Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
   
 <a name="editApp"></a>   
 ## Edit an app  
   
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
-  
-2.  Go to **Settings** > **My Apps**.  
+1.  Go to **Settings** > **My Apps**.  
   
      Go to **Settings** > **Customizations**. Click **Apps**, and then double-click the app you want to edit. The app designer opens.  
   
-3.  From the My Apps page you can search or filter to easily find an app.  
+2.  From the My Apps page you can search or filter to easily find an app.  
   
     -   To search on the app name type the name in the **search my apps** box.  
   
@@ -110,7 +109,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
   
  ![My Apps search and filter](../customize/media/app-designer-myapps.png "My Apps search and filter")  
   
-4.  To edit a published app, in the **Published Apps** view in the lower right corner of the app tile you want to edit, click the **More options** button ![More Options button in the app designer](../customize/media/apps-more-options-icon.png "More Options button in the app designer"), and then click **Open in App Designer**  
+3.  To edit a published app, in the **Published Apps** view in the lower right corner of the app tile you want to edit, click the **More options** button ![More Options button in the app designer](../customize/media/apps-more-options-icon.png "More Options button in the app designer"), and then click **Open in App Designer**  
   
      -OR-  
   
@@ -121,7 +120,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
     > [!NOTE]
     >  Alternatively, go to **Settings** > **Customizations**. Click **Apps**, and then double-click the app you want to edit.  
   
-5.  Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+4.  Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
  
 <a name="LaunchApp"></a>   
 ## Run an app

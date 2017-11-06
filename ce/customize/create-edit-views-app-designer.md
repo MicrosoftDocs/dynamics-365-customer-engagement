@@ -161,7 +161,7 @@ Specify a web resource of script type, to associate with a column in your view. 
 You can change the way a public or system view is displayed by adding, configuring, or removing columns.
 1. In the **Views** list for an entity, select the **Show list of references** down arrow ![Drop Down](../customize/media/DownArrow.png "Drop down arrow").
     ![Edit View](../customize/media/ViewAppDesigner_EditView.png "Edit a public or system view")
-2. Next to the view you want to edit, select **Open the View Designer** ![Open view Designer](../customize/media/OpenViewDesigner.png "Open view designer"). 
+2. Next to the view you want to edit, select **Open the View Designer** ![Open view Designer](../customize/media/dynamics365-open-designer.png "Open view designer"). 
 
     The view opens in the view designer. 
 

@@ -126,7 +126,7 @@ An app is composed of various components. There are two types of components that
     > [!NOTE]
     >  When you're adding a view, you can reference only public views that are listed under the **Views** node in the solution explorer.  
   
-4.  select drop down icon ![Drop down icon](../customize/media/drop-down-icon.png "drop down icon") to expand the tile and see a list of forms that have been added.  
+4. Select drop down icon ![Drop down icon](../customize/media/drop-down-icon.png "drop down icon") to expand the tile and see a list of forms that have been added.  
   
      ![Form tile expanded in app designer](../customize/media/app-designer-expanded-form-tile.png "Form tile expanded in app designer")  
   
@@ -136,38 +136,42 @@ An app is composed of various components. There are two types of components that
   
 ## Edit or remove artifacts  
   
--   To edit a dashboard or a business process flow, click **Details** in the corresponding tile, and then click the dashboard or business process flow that you want to edit. On the command bar, click **Edit** or click the **Open the \<Component> Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button").  
+- To edit a dashboard or a business process flow, select drop down icon ![Drop down icon](../customize/media/drop-down-icon.png "drop down icon") to expand the tile, and then select ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") corresponding to the dashboard or business process flow that you want to edit.  
   
      The designer for the selected artifact opens.  
   
--   To remove a dashboard or a business process flow, click **Details** in the corresponding tile, and then click the dashboard or business process flow that you want to remove. On the command bar, click **Remove**.  
+- To remove a dashboard or a business process flow, select drop down icon ![Drop down icon](../customize/media/drop-down-icon.png "drop down icon") to expand the tile, and then select the dashboard or business process flow that you want to remove. On the command bar, select **Remove**.  
+
+    Also, you can remove a dashboard or a business process flow by clearing the corresponding check box from the **Components** tab.
   
--   To edit or remove an entity, click the entity tile, and then on the command bar, click **Edit** or **Remove**.  When you edit an entity, the solution explorer opens, where you can make changes to the entity.  
+-   To edit or remove an entity, click the entity tile, and then on the command bar, click **Edit** or **Remove**. When you edit an entity, the solution explorer opens, where you can make changes to the entity.  
   
-     Alternatively, to remove a component,, select the dashboard or business process flow, or entity tile. The **Component** tab shows the corresponding dashboards or business process flows or entities that are referenced (added)  in the app designer. Clear the check boxes for the artifact you want to remove from the designer.  
+     Alternatively, to remove a component, select the dashboard or business process flow, or entity tile. The **Component** tab shows the corresponding dashboards or business process flows or entities that are referenced (added) in the app designer. Clear the check boxes for the artifact you want to remove from the designer.  
   
     > [!NOTE]
     >  When you make any changes to an entity  - like changing an entity display name or description - the changes don't appear in the app designer unless the changes are published in the solution explorer.  
   
 ## Edit or remove entity assets  
+
+### Edit entity assets
   
-### Edit entity assets  
+1. Select drop down icon ![Drop down icon](../customize/media/drop-down-icon.png "drop down icon") to expand the tile such as forms, views, chars, or dashboardss.  
   
-1.  Click **Details** on the form, view, or chart tile you want to edit.  
+2. Select the form, view, chart, or dashboard that you want to edit.  
   
-2.  Click the form, view, or chart that you want to edit.  
-  
-3.  On the command bar, click **Edit** or click the **Open the \<Component> Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") .  
-  
+3. On the command bar, select **Edit**. <br/>
+   -OR<br/>
+   Select ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") corresponding to the form, view,chart, or dashboard.  
+
 ### Remove entity assets  
+
+1. Select drop down icon ![Drop down icon](../customize/media/drop-down-icon.png "drop down icon") to expand the tile such as forms, views, chars, or dashboardss.  
   
-1.  Click **Details** on the form, view, or chart tile that you want to remove.  
-  
-2.  Click the form, view, or chart that you want to remove.  
-  
-3.  On the command bar, click **Remove**.  
-  
- Alternatively, select the form, view, or chart tile. The **Component** tab shows the corresponding forms or views or charts that are referenced (added)  in the app designer. Clear the check boxes for the assets you want to remove from the designer.  
+2. Select the form, view, chart, or dashboard that you want to edit.
+
+3. On the command bar, click **Remove**.  <br/>
+   -OR<br/>
+   Select the forms, views, charts, dashboards tile. The **Component** tab shows the corresponding forms, views, charts, or dashboards that are referenced (added) in the app designer. Clear the check boxes for the assets you want to remove from the designer.  
   
 ### See also  
  [Create a site map for an app](../customize/create-site-map-app.md)   
