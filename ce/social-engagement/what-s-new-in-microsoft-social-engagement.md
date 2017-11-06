@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 11/01/2017
+ms.date: 11/06/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -43,9 +43,9 @@ Explore the social engagement circle and social strategy, and look at brand repu
 [Learn more in the Microsoft Social Engagement course on MVA.](https://go.microsoft.com/fwlink/p/?linkid=861639)
 
 
-### New quota extensions available 
+### New social post packs for Microsoft Social Engagement available
 
-Next to the 10,000 monthly quota packages, new quota extensions with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/licensing/mpsa/default.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices. 
+Next to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/licensing/mpsa/default.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
 
 ### Service and product improvements
 
