@@ -16,11 +16,11 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Manage updates
+# Manage updates 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You have options for when you update your Dynamics CRM Online organization to the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]. To prepare for a smooth process, use the information in this topic.  
+You have options for when you update your Dynamics 365 Online organization to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. To prepare for a smooth process, use the information in this topic.  
   
  You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
   
@@ -33,13 +33,10 @@ You have options for when you update your Dynamics CRM Online organization to th
   
  You’ll receive an email before the service update is available with a scheduled update date. This email will also include instructions about how to reschedule the update, if you choose. You’ll receive reminders 90, 30, 15, and 7 days before the update begins. The service update will happen during a 12-hour window, and during that time your organization might be unavailable for several hours. Most updates typically take 2-4 hours. We’ll let you know when your organization is updated and ready to use. For more information, see the [Schedule for update communications](../admin/manage-updates.md#BKMK_CommSchedule) later in this topic.  
   
-> [!NOTE]
->  If you’re a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer who is in the process of transitioning billing to the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], note that a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service update is not the same as the subscription billing transition. The billing transition is a one-time occurrence that affects your billing platform. Service updates are recurring releases that affect the features and capabilities that you receive in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
-  
 <a name="BKMK_UpdateDynamics365"></a> 
   
 ## Updating to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
- Microsoft is introducing [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], the next generation of intelligent business applications that enable your organization to grow, evolve and transform to meet the needs of your customers and capture new opportunities. As a result, Microsoft is introducing new plans for customers effective November 1, 2016, that are similar but not identical to your current plan.  You have some choices to make. Please review the following:  
+ [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] is the next generation of intelligent business applications that enable your organization to grow, evolve and transform to meet the needs of your customers and capture new opportunities. Microsoft introduced new plans for customers effective November 1, 2016, that may be similar but not identical to your current plan.  You have some choices to make. Please review the following:  
   
 -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
   
@@ -52,9 +49,9 @@ You have options for when you update your Dynamics CRM Online organization to th
 ## Update policy  
  Microsoft delivers new features and improvements to the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service twice a year through service updates. To ensure our customers always get the best possible value, we advise customers to run the latest version of the service. However, we also realize that in certain circumstances, some customers are unable to update their solutions with the frequency of our service updates.  
   
- In early 2015 we enhanced the customer experience by giving customers the ability to provide consent prior to updating their organization. Customers today have a wide choice of days to choose from to best suit their business, and we will continue to provide that flexibility for service updates. In Fall of 2015, customers will have the choice to take the two updates as they become available, or take only one update per year. If a customer chooses to take only one update per year, this update becomes mandatory and the customer will be required to take the update during the available dates for that release.  
+ We enhanced the customer experience by giving customers the ability to provide consent prior to updating their organization. Customers today have a wide choice of days to choose from to best suit their business, and we will continue to provide that flexibility for service updates. Customers have the choice to take the two updates as they become available, or take only one update per year. If a customer chooses to take only one update per year, this update becomes mandatory and the customer will be required to take the update during the available dates for that release.  
   
- In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] (n-2) and chose not to take the available [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-1), then you would need to take [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n) as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
+ In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2) and chose not to take the available [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n-1), then you would need to take [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] (n) as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
   
 <a name="BKMK_Scenarios"></a>   
 
@@ -62,12 +59,12 @@ You have options for when you update your Dynamics CRM Online organization to th
  Your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
   
 > [!NOTE]
-> -   For information on [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 (online) instances](../admin/manage-online-instances.md)  
+> For information on [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 (online) instances](../admin/manage-online-instances.md).  
   
-### [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] – Approach One (recommended)  
- This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] (n-2).  
+### [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] – Approach One (recommended)  
+ This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
   
- For version information, see: [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)  
+ For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) 
   
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -79,43 +76,43 @@ You have options for when you update your Dynamics CRM Online organization to th
   
 #### Recommended update approach  
   
-1.  Update your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
+1.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
-    1.  Select your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
-  
-    2.  Once your Sandbox instance has been updated to [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)], test the update for your solutions and customizations.  
-  
-         If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-  
-2.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-  
-    1.  When the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update becomes available, select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    1.  Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
     2.  Once your Sandbox instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], test the update for your solutions and customizations.  
   
          If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
   
-    3.  Prepare a plan to train your users for the changes in [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+2.  Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]  **Sandbox** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-3.  Update your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] **Production** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], skipping [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
+    1.  When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-    1.  Do not approve the [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] update.  
-  
-        > [!NOTE]
-        >  If you have already approved the update, you can change the scheduled date to coincide with the availability of [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-  
-    2.  When the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update becomes available, select your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] Production instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-  
-    3.  Once your Production instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], confirm the update for your solutions and customizations.  
+    2.  Once your Sandbox instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], test the update for your solutions and customizations.  
   
          If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
   
-    4.  Train your users for the changes in [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    3.  Prepare a plan to train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-### [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] – Approach Two  
- This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] (n-2).  
+3.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Production** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], skipping [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
- For version information, see: [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)  
+    1.  Do not approve the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update.  
+  
+        > [!NOTE]
+        >  If you have already approved the update, you can change the scheduled date to coincide with the availability of [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+  
+    2.  When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+  
+    3.  Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], confirm the update for your solutions and customizations.  
+  
+         If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
+  
+    4.  Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+  
+### [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] – Approach Two  
+ This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
+  
+For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
   
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -124,73 +121,73 @@ You have options for when you update your Dynamics CRM Online organization to th
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
- n = current version, [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]  
+ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
   
 #### Recommended update approach  
   
-1.  Update your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
+1.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
-    1.  Select your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
-  
-    2.  Once your Sandbox instance has been updated to [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)], test the update for your solutions and customizations.  
-  
-         If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-  
-2.  Update your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] **Production** instance to [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
-  
-    1.  Select your [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] Production instance and approve the update to target version [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)].  
-  
-    2.  Once your Production instance has been updated to [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
-  
-3.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-  
-    1.  When the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update becomes available, select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    1.  Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
     2.  Once your Sandbox instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], test the update for your solutions and customizations.  
   
          If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
   
-    3.  Prepare a plan to train your users for the changes in [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+2.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Production** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
-4.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Production** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-  
-    1.  When the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update becomes available, select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    1.  Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
   
     2.  Once your Production instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
   
-    3.  Train your users for the changes in [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+3.  Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-### [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]  
- This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-1).  
+    1.  When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
- For version information, see: [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)  
+    2.  Once your Sandbox instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], test the update for your solutions and customizations.  
+  
+         If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
+  
+    3.  Prepare a plan to train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+  
+4.  Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Production** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+  
+    1.  When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+  
+    2.  Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
+  
+    3.  Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
+  
+### [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] 
+ This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n-1).  
+  
+ For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
   
 |Version||Update to|  
 |-------------|-|---------------|  
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
- n = current version, [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]  
+ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
   
 #### Recommended update approach  
   
-1.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+1.  Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-    1.  When the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update becomes available, select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    1.  When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-    2.  Once your Sandbox instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], test the update for your solutions and customizations.  
+    2.  Once your Sandbox instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], test the update for your solutions and customizations.  
   
          If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
   
-    3.  Prepare a plan to train your users for the changes in [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    3.  Prepare a plan to train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-2.  Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Production** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+2.  Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Production** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-    1.  When the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update becomes available, select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    1.  When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
-    2.  Once your Production instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
+    2.  Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
   
-    3.  Train your users for the changes in [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
+    3.  Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
   
 
 <a name="BKMK_Versions"></a>   
@@ -198,7 +195,7 @@ You have options for when you update your Dynamics CRM Online organization to th
 ## Recent versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
  To determine your version, sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
-For recent versions, see [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)
+For recent versions, see [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 <!--  
 |Version|Availability|Information|  
@@ -373,14 +370,7 @@ For recent versions, see [Recent versions of Dynamics 365 (online)](../admin/man
 7. **Watch for Update Completion or Reschedule emails from Microsoft.**  
   
  Once your organization is updated, you’ll receive a notification from [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] indicating that your organization is ready to use.  
-  
-<a name="BKMK_Aftertheupdate"></a>   
-## After the update  
- Consider the following areas to attend to after your update.  
-  
-### Update Dynamics 365 (online) 2015 components  
- You can find more details about updating additional components, such as [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], in [Administering Dynamics 365](../admin/admin-guide.md).  
-  
+   
 <a name="BKMK_CommSchedule"></a>   
 ## Schedule for update communications  
   
@@ -399,22 +389,6 @@ For recent versions, see [Recent versions of Dynamics 365 (online)](../admin/man
   
 > [!NOTE]
 >  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
-  
-<a name="BKMK_ServiceRequestManage"></a>   
-## Request service  
- Having a problem with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? You can create a service request to get the issue resolved.  
-  
-### Create a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service request  
-  
-1.  Sign in to the [Office 365 admin center](https://portal.office.com).  
-  
-2.  In the left-side menu, click **Support** > **Overview**.  
-  
-3.  Under **Create a service request**, click **Dynamics 365 Online**. You may need to expand the list by choosing **More**.  
-  
-4.  Fill in the information and submit your request.  
-  
- ![Office 365 admin center service request](../admin/media/o365-admin-center-request-service.PNG "Office 365 admin center service request")  
   
 ### See also  
  [Policies and Communications for Dynamics 365 (online)](../admin/policies-communications.md)    
