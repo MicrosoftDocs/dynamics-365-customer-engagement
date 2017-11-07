@@ -18,21 +18,21 @@ ms.reviewer: renwe
 
 In [Create a simple customer journey with email messaging](create-simple-customer-journey.md), you created the simplest possible customer journey, which just sent an email message to all contacts in a segment. Now we’ll go a bit deeper into customer journeys to see how to add interactive features and decision points by including landing pages and triggers in the design.  
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Execution &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements, which are: name, subject, from-contact, subscription center link, and sender physical address—but don’t go live yet.  
+1.  Go to **Marketing &gt; Marketing Execution &gt; Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements, which are: name, subject, from-contact, subscription center link, and sender physical address—but don’t go live yet.  
 
 |                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **TIP:** Consider choosing a non-blank email template this time. These templates not only have sample content, graphics and column layouts, but also include all mandatory elements such as the subscription center link and physical address. |
 
-1.  This message will invite recipients to pick up a free download from your website. To get the free download, they’ll need to visit a landing page, submit the form and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it’s not necessary.) With your new email message still open, drag a **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** block from the **Toolbox** onto the design canvas.
+1.  This message will invite recipients to pick up a free download from your website. To get the free download, they’ll need to visit a landing page, submit the form and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it’s not necessary.) With your new email message still open, drag a **Marketing Page** block from the **Toolbox** onto the design canvas.
 
 > ![Add a marketing-page block to a message](media/email-add-page-block.png "Add a marketing-page block to a message")  
 
-1.  When you drop the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** block in place, it is automatically selected and the **Details** tab opens to show its settings.
+1.  When you drop the **Marketing Page** block in place, it is automatically selected and the **Details** tab opens to show its settings.
 
 > ![Assign a page to the page block](media/email-page-block-properties.png "Assign a page to the page block")  
 >
-> Set the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** field to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md) (or any valid landing page).  
+> Set the **Marketing Page** field to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md) (or any valid landing page).  
 
 1.  Continue to style and format your button as follows:
 
@@ -52,7 +52,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 > Remember to include all required elements (e.g., by using non-blank templates) and to go live with each of them.
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Execution &gt; Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:  
+1.  Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:  
 
 -   Place a **Segment Group** tile in the first position and configure its child **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).  
 
@@ -60,21 +60,21 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 > ![A customer journey with a simple email campaign](media/journey-email-only.png "A customer journey with a simple email campaign")  
 
-1.  Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by adding a marketing-page tile as a child to the email tile. Drag a **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** tile from the **Toolbox** and drop it directly onto the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email Message** tile.
+1.  Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by adding a marketing-page tile as a child to the email tile. Drag a **Marketing Page** tile from the **Toolbox** and drop it directly onto the **Marketing Email Message** tile.
 
 > ![Add a marketing page to an email tile](media/journey-add-page.png "Add a marketing page to an email tile")  
 
-1.  Expand the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email Message** tile by choosing the expansion button in its bottom-right corner. Now you can see the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** tile that you just added.
+1.  Expand the **Marketing Email Message** tile by choosing the expansion button in its bottom-right corner. Now you can see the **Marketing Page** tile that you just added.
 
 > ![Assign a marketing page to a page tile](media/journey-page-properties.png "Assign a marketing page to a page tile")  
 >
-> Select the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** tile, open the **Properties** tab and make the following settings:
+> Select the **Marketing Page** tile, open the **Properties** tab and make the following settings:
 
-- **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page**: set to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md).  
+- **Marketing Page**: set to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md).  
 
 - **Name**: set to a value that you will recognize later (such as “Free download registration page”).
 
-1.  Now add a trigger tile. Trigger tiles add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Drag a **Trigger** tile from the **Toolbox** to the space immediately to the right of the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email Message** tile.
+1.  Now add a trigger tile. Trigger tiles add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Drag a **Trigger** tile from the **Toolbox** to the space immediately to the right of the **Marketing Email Message** tile.
 
 > ![Add a trigger tile](media/journey-add-trigger-tile.png "Add a trigger tile")  
 
@@ -94,7 +94,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 >
 > Make the following settings for **Rule 1**:
 
-- **Source**: choose the name of the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** tile you added to the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email Message** tile (we suggested “Free download registration page”). Note that this references the name of the *tile*, not the name of the marketing page itself.
+- **Source**: choose the name of the **Marketing Page** tile you added to the **Marketing Email Message** tile (we suggested “Free download registration page”). Note that this references the name of the *tile*, not the name of the marketing page itself.
 
 - **Condition**: set to **User registered**.
 
@@ -104,7 +104,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **TIP:** Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the trigger. For example, you could trigger when a contact just opens the landing page, or trigger on the email message itself when a contact clicks a link or opens it. You can also establish complex logic by adding several rules and combine them using AND or OR operators. |
 
-1.  Add two more **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email Message** tiles after the trigger, one on the top path and one on the bottom path.
+1.  Add two more **Marketing Email Message** tiles after the trigger, one on the top path and one on the bottom path.
 
 > ![Add an email tile to each path](media/journey-trigger-paths.png "Add an email tile to each path")  
 >

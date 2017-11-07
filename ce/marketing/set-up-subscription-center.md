@@ -18,7 +18,7 @@ ms.reviewer: renwe
 
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
-All marketing email messages that you create using [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] must include a link to a subscription center and will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
+All marketing email messages that you create using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include a link to a subscription center and will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
 
 - **Legal requirements**: Many countries/regions have laws that require all marketing email messages to include an unsubscribe link.
 
@@ -30,23 +30,23 @@ Each subscription list exists as a static marketing list in [!INCLUDE[pn-crm-201
 
 The only way a contact can access a subscription center is by clicking on a link sent to them in email. Email links are always personalized for the recipient, which means that [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] always knows which contact has requested the subscription center and therefore populates it with that contact’s current details and subscriptions. (Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time as they register with your site.)
 
-A default subscription center is provided with [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], but it is very simple, including just a minimum of contact fields and the required “do not bulk email” check box. In this exercise, we’ll walkthrough the process of creating a subscription list and adding it to a subscription form. We’ll also point out how to choose a subscription center in content settings and how to assign content settings to a customer journey.
+A default subscription center is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but it is very simple, including just a minimum of contact fields and the required “do not bulk email” check box. In this exercise, we’ll walkthrough the process of creating a subscription list and adding it to a subscription form. We’ll also point out how to choose a subscription center in content settings and how to assign content settings to a customer journey.
 
 ## Create a subscription list
 
 Subscription lists are based on the standard (static) marketing lists feature of [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. To create one:
 
-1.  In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], open the app selector and choose the **Surveys** app module. ([!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] lists aren’t included in the current version of the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] work area, so one pace you can find them is in the Surveys app, which is included with [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].)
+1.  In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], open the app selector and choose the **Surveys** app module. (Marketing lists aren’t included in the current version of the Marketing work area, so one pace you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].)
 
 > ![How to open the surveys app](media/app-selector-surveys.png "How to open the surveys app")  
 
-1.  The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app; it’s horizontal and at the top of the screen. Use it to navigate to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Customers &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Lists**.
+1.  The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app; it’s horizontal and at the top of the screen. Use it to navigate to **Marketing &gt; Customers &gt; Marketing Lists**.
 
 > ![How to open marketing lists in the surveys app](media/surveys-app-lists.png "How to open marketing lists in the surveys app")  
 
 1.  You now see a list of existing marketing lists (if any). Choose **New** from the toolbar to create a new list.
 
-2.  The **New [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] List** page opens.
+2.  The **New Marketing List** page opens.
 
 > ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")  
 >
@@ -66,9 +66,9 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 Now that you have a subscription list available, you can add it to a subscription form. The procedure is about the same as for adding other types of input fields to a form.
 
-1.  If you are still in the **Surveys** app, use the app selector to go back to the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]** app.
+1.  If you are still in the **Surveys** app, use the app selector to go back to the **Marketing** app.
 
-2.  In the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Internet [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Forms**.
+2.  In the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, go to **Marketing &gt; Internet Marketing &gt; Marketing Forms**.
 
 3.  You now see a list of forms. Choose **New** from the command bar to create a new one.
 
@@ -118,7 +118,7 @@ Now that you have a subscription list available, you can add it to a subscriptio
 
 ## Create a subscription center marketing page
 
-Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Internet [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Pages** and create a subscription center page using the same basic procedure that you used to create a landing page, but be sure to do the following:
+Go to **Marketing &gt; Internet Marketing &gt; Marketing Pages** and create a subscription center page using the same basic procedure that you used to create a landing page, but be sure to do the following:
 
 1.  Make sure the page **Type** is **Subscription Center**. (Or choose a marketing page template where **Type** is **Subscription Center**).
 
@@ -136,7 +136,7 @@ For a detailed walkthrough of how to create a marketing page, see [Create a land
 
 As you saw in [Create a marketing email and go live](create-marketing-email.md), content settings hold common values that you can place into an email message as dynamic text using assist edit (or by typing the correct code). You can create as many content settings records as needed and must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.  
 
-To work with content settings records, go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Templates &gt; Content Settings**. This brings to you a list of current content settings. As usual, you can edit any listed record or click **New** in the command bar to create a new one.
+To work with content settings records, go to **Marketing &gt; Templates &gt; Content Settings**. This brings to you a list of current content settings. As usual, you can edit any listed record or click **New** in the command bar to create a new one.
 
 |                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -152,9 +152,9 @@ To specify a subscription center:
 
 2.  Choose the assist-edit button **&lt;/&gt;** for the **Subscription Center** field.
 
-3.  A drop-down list opens. Choose **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page**. This identifies the type of entity you are referencing.
+3.  A drop-down list opens. Choose **Marketing Page**. This identifies the type of entity you are referencing.
 
-> ![Choose the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page entity](media/assist-edit-subcenter-1.png "Choose the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page entity")  
+> ![Choose the Marketing Page entity](media/assist-edit-subcenter-1.png "Choose the Marketing Page entity")  
 
 1.  Assist edit adds some code and then opens a new drop-down list that shows each marketing page available in your system. Choose the name of the subscription page you want to reference.
 
@@ -180,7 +180,7 @@ To specify a subscription center:
 
 As mentioned, content settings are defined on the customer journey level, and apply to all email messages sent by that journey. To view and edit the content settings applied to a journey:
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Execution &gt; Customer Journeys**.
+1.  Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**.
 
 2.  Find your journey in the list or click **New** in the command bar to create a new one.
 

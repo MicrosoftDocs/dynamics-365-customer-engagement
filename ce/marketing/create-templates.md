@@ -20,13 +20,13 @@ As you’ve seen, each time you create a new email message, customer journey, ma
 
 When you create a template, the process is about the same as when you are creating an actual message, page, journey or form. Go to one of the following pages to create a template:
 
-- **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Templates &gt; Customer Journey Templates**
+- **Marketing &gt; Templates &gt; Customer Journey Templates**
 
-- **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Templates &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email Templates**
+- **Marketing &gt; Templates &gt; Marketing Email Templates**
 
-- **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Templates &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page Templates**
+- **Marketing &gt; Templates &gt; Marketing Page Templates**
 
-- **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Templates &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Form Templates**
+- **Marketing &gt; Templates &gt; Marketing Form Templates**
 
 In each case, you’ll start with a list of available templates, which you can open and edit as needed. And you can create a new template by choosing **New** from the command bar.
 

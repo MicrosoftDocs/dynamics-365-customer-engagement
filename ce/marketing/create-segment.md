@@ -24,7 +24,7 @@ In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you’
 
 In this exercise, you’ll create a couple of fictional contacts with email addresses that you can read and then set up a test segment that includes those contacts. This test segment will be useful later when you begin to experiment with customer journeys.
 
-1. Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Customers &gt; Contacts**. This takes you to a list of existing contacts. Choose **New** from the command bar.
+1. Go to **Marketing &gt; Customers &gt; Contacts**. This takes you to a list of existing contacts. Choose **New** from the command bar.
   ![Location of the new-contact button](media/new-contact-button-location.png "Location of the new-contact button")
 
 1. The **New Contact** page opens.  
@@ -39,7 +39,7 @@ In this exercise, you’ll create a couple of fictional contacts with email addr
 
 1. Create a second contact similar to the one you just made. Use the same email address and fictional city, but use a different first and last name.
 
-1. Go to **[!INCLUDE[pn-marketing-app-module] (../includes/pn-marketing-app-module.md)] &gt; Customers &gt; Segments**. This takes you to a list of existing segments. Choose **New** from the command bar.
+1. Go to **Marketing &gt; Customers &gt; Segments**. This takes you to a list of existing segments. Choose **New** from the command bar.  
   ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")
 
 1. The **New Segment** page opens, with the **General** tab shown. Fill out the information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.

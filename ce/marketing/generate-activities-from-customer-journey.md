@@ -24,9 +24,9 @@ When you add an **Activity** tile to a customer journey, you’ll choose an acti
 
 For this exercise, you’ll set up a template to create task activities and then set up a simple customer journey that generates a task associated with each member of a selected segment.
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Templates &gt; Task Activity [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Templates**.
+1.  Go to **Marketing &gt; Templates &gt; Task Activity Marketing Templates**.
 
-2.  Choose **+New** from the command bar. The **New Task Activity [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Template** page opens.
+2.  Choose **+New** from the command bar. The **New Task Activity Marketing Template** page opens.
 
 > ![Activity template settings](media/journey-activity-template.png "Activity template settings")  
 
@@ -38,7 +38,7 @@ For this exercise, you’ll set up a template to create task activities and then
 
 2.  Choose **Save** from the command bar to save your template.
 
-3.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Execution &gt; Customer Journeys**.
+3.  Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**.
 
 4.  Choose **+New** from the command bar to create a new journey.
 
@@ -82,7 +82,7 @@ For this exercise, you’ll set up a template to create task activities and then
 
 2.  Choose **Go Live** from the command bar to activate the journey.
 
-3.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; My Work &gt; Tasks**. Choose **All Tasks** from the view menu to make sure you can see all tasks in the system.
+3.  Go to **Marketing &gt; My Work &gt; Tasks**. Choose **All Tasks** from the view menu to make sure you can see all tasks in the system.
 
 > ![Set the tasks view to show all](media/tasks-view-all.png "Set the tasks view to show all")  
 

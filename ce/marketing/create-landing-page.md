@@ -22,7 +22,7 @@ In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], a land
 
 To create a landing page and go live:
 
-1.  Most landing pages include an input from that people can use to submit information, so you’ll start by creating the form itself. Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Internet [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Forms**.
+1.  Most landing pages include an input from that people can use to submit information, so you’ll start by creating the form itself. Go to **Marketing &gt; Internet Marketing &gt; Marketing Forms**.
 
 > ![Location of the New button](media/form-new-button-location.png "Location of the New button")  
 >
@@ -32,7 +32,7 @@ To create a landing page and go live:
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ### **TIP:** Forms are stand-alone records, and each of them can be used on any number of marketing pages. In day-to-day work, you’ll often reuse existing forms rather than creating a new one for each landing page. But for this exercise, you’ll create a new one. |
 
-1.  The **New [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Form** page opens with the **Select a Form Template** dialog also shown. This is similar to the template dialog presented for marketing emails (as you saw in [Create a marketing email and go live](create-marketing-email.md)).  
+1.  The **New Marketing Form** page opens with the **Select a Form Template** dialog also shown. This is similar to the template dialog presented for marketing emails (as you saw in [Create a marketing email and go live](create-marketing-email.md)).  
 
 > ![Select a form template dialog](media/form-template-dialog.png "Select a form template dialog")  
 >
@@ -64,7 +64,7 @@ To create a landing page and go live:
 
 2.  Choose **Save** from the command bar to save your form. Forms are always live, so you don’t need the **Go Live** button.
 
-3.  Now you’re ready to use your new form on a landing page. Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Lead Management &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Pages** and choose **New** from the command bar. The **New [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Page** page opens with the **Select a Template** dialog shown.
+3.  Now you’re ready to use your new form on a landing page. Go to **Marketing &gt; Lead Management &gt; Marketing Pages** and choose **New** from the command bar. The **New Marketing Page** page opens with the **Select a Template** dialog shown.
 
 > ![Select a page template dialog](media/page-template-dialog.png "Select a page template dialog")  
 >
@@ -98,7 +98,7 @@ To create a landing page and go live:
 
 > ![Assign a form to a form block](media/page-block-assign-form.png "Assign a form to a form block")  
 >
-> The **Details** tab opens when you select the **Form** block. Set the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Form** field to the name of the form that you created earlier in this procedure. Your form design loads onto the page.
+> The **Details** tab opens when you select the **Form** block. Set the **Marketing Form** field to the name of the form that you created earlier in this procedure. Your form design loads onto the page.
 
 |                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ To create a landing page and go live:
 
 |                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] feature a **Summary** tab like this one, where you can see general settings, a timeline, and related records. |
+| **TIP:** Many entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] feature a **Summary** tab like this one, where you can see general settings, a timeline, and related records. |
 
 1.  Switch to the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view using the drop-down list above the page name headline.
 

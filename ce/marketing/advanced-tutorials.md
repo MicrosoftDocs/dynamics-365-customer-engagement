@@ -16,7 +16,7 @@ ms.reviewer: renwe
 ---
 # Specialist scenarios
 
-The tutorials in this chapter are more specialized then those in the [Core scenarios](basic-tutorials.md) chapter. The features described here are all important parts of [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], but they are targeted for more specialized needs and therefore serve a somewhat smaller audience.  
+The tutorials in this chapter are more specialized then those in the [Core scenarios](basic-tutorials.md) chapter. The features described here are all important parts of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but they are targeted for more specialized needs and therefore serve a somewhat smaller audience.  
 
 When you have completed the exercise here, you will be able to:
 

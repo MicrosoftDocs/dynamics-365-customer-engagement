@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Core scenarios
 
-This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. If you have never used this product before, then this is probably the best place to start. When you have completed the exercise here, you will be able to:
+This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you have never used this product before, then this is probably the best place to start. When you have completed the exercise here, you will be able to:
 
 - Create marketing segments that collect contacts from your database into logical groups that match your marketing strategies.
 

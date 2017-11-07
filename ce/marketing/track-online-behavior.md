@@ -2,18 +2,20 @@
 title: "Track online behavior with Dynamics 365 for Marketing | Microsoft Docs"
 description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 for Marketing"
 keywords: "tutorial; tracking; website; redirect URL; behavior analysis"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-	- Dynamics 365 (online)
-	- Dynamics 365 Version 9.x
 ms.date: 11/07/2017
 ms.service: crm-online
 ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 75e0afc9-b2ea-4983-b831-629c1843af9c
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Track website visits, social media clicks, and banner clicks
 
 [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provides several ways help you get to know your potential customers and to see how they interact with your various marketing initiatives. We’ve already mentioned that you can see when email recipients open a message or click on a message link—and when new or existing contacts submit a marketing page. You’ve also seen that these actions can affect lead scores and the way contacts flow through your customer journeys.
@@ -34,7 +36,7 @@ Each such [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] that you generate wi
 
 To set up page analytics for a new website:
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Internet [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Websites**. You now see a list of existing websites. Make sure you don’t already have one set up for your site.
+1.  Go to **Marketing &gt; Internet Marketing &gt; Websites**. You now see a list of existing websites. Make sure you don’t already have one set up for your site.
 
 2.  Choose **New** from the command bar. The **New Website** page opens.
 
@@ -50,11 +52,11 @@ To set up page analytics for a new website:
 
 2.  The page saves your settings and then reloads to include code in the **[!INCLUDE[pn-jscript](../includes/pn-jscript.md)] code** field. Copy this code (be sure to select all of it) and share it with your webmaster to ensure it gets placed on each relevant page of your website.
 
-To see your website analytics, go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Internet [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Websites** and open the website you want to learn about. Here you’ll find lists of most-visited pages, geographical information about where people who visit your site come from, and more. Explore the various tabs offered here for more details about how visitors are using your site. The [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] code also remains available here in case you need to add it to more pages.
+To see your website analytics, go to **Marketing &gt; Internet Marketing &gt; Websites** and open the website you want to learn about. Here you’ll find lists of most-visited pages, geographical information about where people who visit your site come from, and more. Explore the various tabs offered here for more details about how visitors are using your site. The [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] code also remains available here in case you need to add it to more pages.
 
 |                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** Each marketing page that you publish from [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically includes its own unique [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] tracking code and therefore appears on the **Websites** list page as a discrete website. To view analytics of any of these pages, go to the **Websites** list view and open its **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Pages Websites** view. 
+| **TIP:** Each marketing page that you publish from [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically includes its own unique [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] tracking code and therefore appears on the **Websites** list page as a discrete website. To view analytics of any of these pages, go to the **Websites** list view and open its **Marketing Pages Websites** view. 
                                                                                                                                                                                                                                                                                                                                       
  ![How to view marketing pages websites](media/website-view-menu.png "How to view marketing pages websites")                                                                                                                                                                                                                                                                             |  
 
@@ -64,7 +66,7 @@ To see your website analytics, go to **[!INCLUDE[pn-marketing-app-module](../inc
 
 To create a redirecting URL:
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Internet [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Redirect URLs**. You now see a list of existing redirect URLs.
+1.  Go to **Marketing &gt; Internet Marketing &gt; Redirect URLs**. You now see a list of existing redirect URLs.
 
 2.  Choose **New** from the command bar. The **New Redirect URL** page opens.
 
@@ -78,5 +80,5 @@ To create a redirecting URL:
 
 1.  Choose **Save** from the command bar. The page reloads with a autogenerated link in the **Redirecting URL** field. Copy and use this version of the URL in your communications as needed.
 
-To see usage statistics about one of your redirect URLs, go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Internet [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Redirect URLs** and open the link you want to learn about. These interactions are also shown on the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** pages for leads.
+To see usage statistics about one of your redirect URLs, go to **Marketing &gt; Internet Marketing &gt; Redirect URLs** and open the link you want to learn about. These interactions are also shown on the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** pages for leads.
 

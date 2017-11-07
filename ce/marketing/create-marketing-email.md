@@ -2,71 +2,58 @@
 title: "Create a marketing email Dynamics 365 for Marketing | Microsoft Docs"
 description: "A tutorial for how to create a marketing email in Dynamics 365 for Marketing"
 keywords: "tutorial; email; marketing email; assist edit; dynamic content"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-	- Dynamics 365 (online)
-	- Dynamics 365 Version 9.x
 ms.date: 11/07/2017
 ms.service: crm-online
 ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: f19d8015-50ab-4286-af03-dd24ced39308
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Create a marketing email and go live
 
-Email is a vital marketing channel for most modern organizations. It is also a core feature of [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], which provides tools for creating graphically rich marketing emails with dynamic, personalized content. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] can send large volumes of personalized marketing emails, monitor how each recipient interacts with them, drive customer-journey automation based on these interactions, and present results both for individual contacts and with aggregate statistical analytics.
+Email is a vital marketing channel for most modern organizations. It is also a core feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], which provides tools for creating graphically rich marketing emails with dynamic, personalized content. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] can send large volumes of personalized marketing emails, monitor how each recipient interacts with them, drive customer-journey automation based on these interactions, and present results both for individual contacts and with aggregate statistical analytics.
 
-|                                                                                                                                                                                                                                                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Process overview**                                                                                                                                                                                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                                                                                                 
- To set up and execute a simple email campaign, you must do the following:                                                                                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                                                                                                                                                 
- 1.  Create an email design that delivers your message and includes required elements such as a subscription-center link, your physical address, email subject and email-from address.                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                                                                                                 
- 2.  Publish the design by choosing **Go live**. This copies the design to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service, which makes the message available for use by a customer journey (but doesn’t deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that redirect through [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].  
-                                                                                                                                                                                                                                                                                                                                                                 
- 3.  Set up a customer journey that, at minimum, identifies a published target segment and a published email message to deliver to that segment.                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 
- 4.  Activate the customer journey by choosing **Go live**. The journey then drives the email-delivery process and other automation features. It personalizes and sends each individual message, collects interaction data, and can follow up with additional processes based on those interactions.                                                             
-                                                                                                                                                                                                                                                                                                                                                                 
- This exercise describes how to do the first two of these steps. You’ll set up the last two steps in the [next exercise](create-simple-customer-journey.md).                                                                                                                                                                                |  
+
+> [!TIP] **Process overview**: To set up and execute a simple email campaign, you must do the following:
+> 1.  Create an email design that delivers your message and includes required elements such as a subscription-center link, your physical address, email subject and email-from address.
+> 1. Publish the design by choosing **Go live**. This copies the design to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service, which makes the message available for use by a customer journey (but doesn’t deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that redirect through [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+> 1. Set up a customer journey that, at minimum, identifies a published target segment and a published email message to deliver to that segment.
+> 1. Activate the customer journey by choosing **Go live**. The journey then drives the email-delivery process and other automation features. It personalizes and sends each individual message, collects interaction data, and can follow up with additional processes based on those interactions.
+> 
+> This exercise describes how to do the first two of these steps. You’ll set up the last two steps in the [next exercise](create-simple-customer-journey.md).
 
 To create a marketing email and go live:
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Execution &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Emails**. This takes you to a list of existing marketing emails.
+1. Go to **Marketing &gt; Marketing Execution &gt; Marketing Emails**. This takes you to a list of existing marketing emails.
+  ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")  
 
-> ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")  
->
-> Choose **New** from the command bar.
+   Choose **New** from the command bar.
 
-1.  The **New [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email** page opens with the **Select an Email Template** dialog shown. Each template provides a starting point for designing a particular type of message. The template dialog provides tools for searching, browsing, and previewing your template collection.
+1. The **New Marketing Email** page opens with the **Select an Email Template** dialog shown. Each template provides a starting point for designing a particular type of message. The template dialog provides tools for searching, browsing, and previewing your template collection.
+ ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog for choosing an email template")  
 
-> ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog for choosing an email template")  
->
-> For this exercise, choose the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
+   For this exercise, choose the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
 
-|                                                                                                                                                                                                                                                                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** Several standard templates are provided out of the box, and you can also create your own templates that feature your own organization’s graphical identity, required elements, and messaging standards. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create templates for emails, pages, forms, and journeys](create-templates.md) |  
 
-1.  The **Select an Email Template** dialog closes and the content (if any) from your selected template is copied into your design. At the top of email designer page are three required fields: **Name**, **Subject**, and **From**. If your browser window is too narrow to show all the fields, you’ll also see a down-pointing arrow that opens a menu where you can see the fields that don’t fit.
+   > [!TIP] Several standard templates are provided out of the box, and you can also create your own templates that feature your own organization’s graphical identity, required elements, and messaging standards. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create templates for emails, pages, forms, and journeys](create-templates.md)
 
-> ![Fill out these fields for your new email](media/email-required-fields.png "Fill out these fields for your new email")  
->
-> Enter the following:
+1. The **Select an Email Template** dialog closes and the content (if any) from your selected template is copied into your design. At the top of email designer page are three required fields: **Name**, **Subject**, and **From**. If your browser window is too narrow to show all the fields, you’ll also see a down-pointing arrow that opens a menu where you can see the fields that don’t fit.
+  ![Fill out these fields for your new email](media/email-required-fields.png "Fill out these fields for your new email")  
 
-- **Name**: this is an internal name for your message. Enter any name that you will easily recognize later.
+   Enter the following:
+    - **Name**: this is an internal name for your message. Enter any name that you will easily recognize later.
+    - **Subject**: this is the subject that email recipients will see when they receive the message.
+    - **From**: click here to select the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] user that email recipients will see as the sender of the message.
 
-- **Subject**: this is the subject that email recipients will see when they receive the message.
-
-- **From**: click here to select the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] user that email recipients will see as the sender of the message.
-
-1.  In the main part of the page, you now see the design canvas (on the left), where you can drag, arrange, and enter content. A **Toolbox** on the right provides content blocks that you’ll use to construct your message.
-
-> ![Add a text block to a new email](media/email-add-text-block.png "Add a text block to a new email")  
+1. In the main part of the page, you now see the design canvas (on the left), where you can drag, arrange, and enter content. A **Toolbox** on the right provides content blocks that you’ll use to construct your message.
+ ![Add a text block to a new email](media/email-add-text-block.png "Add a text block to a new email")  
 >
 > Drag a **Text** block from the **Toolbox** tab over to the top of the canvas. When you have dragged the block to a suitable location, a blue shaded region appears. Release the mouse button to drop the block at that location.
 

@@ -28,7 +28,7 @@ Before you start, you’ll need:
 
 To create a customer journey that executes a one-time email blast:
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Execution &gt; Customer Journeys**. This takes you to a list of existing customer journeys.
+1.  Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**. This takes you to a list of existing customer journeys.
 
 > ![Location of the new-journey button](media/new-journey-button-location.png "Location of the new-journey button")  
 >
@@ -68,7 +68,7 @@ To create a customer journey that executes a one-time email blast:
 
 > ![Assign an email message to the email tile](media/journey-email-properties.png "Assign an email message to the email tile")  
 >
-> Set the **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] Email Message** to the name of the message that you want to send, such as the sample email message you created earlier in [Create a marketing email and go live](create-marketing-email.md).  
+> Set the **Marketing Email Message** to the name of the message that you want to send, such as the sample email message you created earlier in [Create a marketing email and go live](create-marketing-email.md).  
 
 |                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|

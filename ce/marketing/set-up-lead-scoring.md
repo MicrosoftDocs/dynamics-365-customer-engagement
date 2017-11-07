@@ -24,7 +24,7 @@ A big part of marketing has to do with finding new leads, qualifying them, and t
 
 To create a lead scoring model:
 
-1.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Lead Management &gt; Lead Scoring Model**. This takes you to a list of existing models. Choose **New** from the command bar.
+1.  Go to **Marketing &gt; Lead Management &gt; Lead Scoring Model**. This takes you to a list of existing models. Choose **New** from the command bar.
 
 2.  The **New Lead Scoring Model** page opens, with the **Design** tab shown. This designer is similar to other designers in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for marketing. It lets you build scoring models by creating a collection of condition/action tile pairs, where the **Condition** tile establishes a condition (such as “email opened”) and the **Action** tile establishes how the score should change when the condition is met (such as, “add 50 points”).
 
@@ -96,7 +96,7 @@ To create a lead scoring model:
 
     -   Choose **Go Live** from the command bar to activate the model. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] runs a final error check and then updates the **Status Reason** to **Going Live**. It might take a few minutes for the process to complete, at which time the **Status Reason** will change to **Live**.
 
-2.  Go to **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] &gt; Lead Management &gt; Leads** to open a list of available leads. Then choose **+ NEW** from the command bar to create a new lead.
+2.  Go to **Marketing &gt; Lead Management &gt; Leads** to open a list of available leads. Then choose **+ NEW** from the command bar to create a new lead.
 
 > ![Create a test lead to see its score](media/scoring-lead-example.png "Create a test lead to see its score")  
 >
@@ -114,7 +114,7 @@ To create a lead scoring model:
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** Segments in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] can only include contacts, not leads, which means that you can only address marketing emails to contacts. Therefore, most of your leads should be associated with a contact to enable scoring on events such as email opens, event registrations, and other interactions with your marketing initiatives (though this is not especially important for this exercise).                
+| **TIP:** Segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads, which means that you can only address marketing emails to contacts. Therefore, most of your leads should be associated with a contact to enable scoring on events such as email opens, event registrations, and other interactions with your marketing initiatives (though this is not especially important for this exercise).                
                                                                                                                                                                                                                                                                                                                                                                                                                                        
  Your landing pages will typically either create a lead/contact pair when creating a new contact, or associate new leads with existing contacts when available. When you create a lead manually, as you did here, you can associate with a contact using the **Existing Contact** field in **Qualify** menu of the business process for the lead. The associated contact is also listed in the **Stakeholders** section for the lead.  
                                                                                                                                                                                                                                                                                                                                                                                                                                        
