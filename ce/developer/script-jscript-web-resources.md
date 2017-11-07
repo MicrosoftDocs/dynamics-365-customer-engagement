@@ -41,7 +41,7 @@ Use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources to cre
   
 <a name="BKMK_Referencing"></a>   
 ## Referencing a JavaScript web resource from a webpage web resource  
- All web resources can use relative URLs to reference each other. In the following example, for the webpage web resource `new_/content/contentpage.htm` to reference the script web resource `new_/scripts/myScript.js`, add the following HTML code to the head element of `new_/content/contentpage.htm`.  
+ All web resources can use relative URLs to reference each other. In the following example, for the webpage web resource `new_/content/contentpage.htm` to reference the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource `new_/scripts/myScript.js`, add the following HTML code to the head element of `new_/content/contentpage.htm`.  
   
 ```html  
 <script type="text/jscript" src="../scripts/myScript.js"></script>  

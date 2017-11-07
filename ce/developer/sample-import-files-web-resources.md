@@ -27,7 +27,8 @@ When you develop a large number of files to use as Web resources you can save yo
   
  This sample provides a simplified example of this process. For a more complex sample that provides a WPF application you can use to import Web resources, see the [Sample: Web Resource Utility](sample-web-resource-utility.md).  
     
- (../includes/pn-crm-2015-and-online-full.md)]
+ <!--[!INCLUDE[pn-crm-2015-and-online-full](../includes/pn-crm-2015-and-online-full.md)] -->
+ [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]
  
  [Download the import files as web resources sample](https://code.msdn.microsoft.com/Import-files-as-web-f84ad8dc). 
 
