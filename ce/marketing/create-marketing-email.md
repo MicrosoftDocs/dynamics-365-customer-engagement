@@ -36,7 +36,7 @@ To create a marketing email and go live:
 
     Choose **New** from the command bar.
 
-1. The **New Marketing Email** page opens with the **Select an Email Template** dialog shown. Each template provides a starting point for designing a particular type of message. The template dialog provides tools for searching, browsing, and previewing your template collection.
+1. The **New Marketing Email** page opens with the **Select an Email Template** dialog shown. Each template provides a starting point for designing a particular type of message. The template dialog provides tools for searching, browsing, and previewing your template collection.  
     ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog for choosing an email template")
 
     For this exercise, choose the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
@@ -57,7 +57,6 @@ To create a marketing email and go live:
     Drag a **Text** block from the **Toolbox** tab over to the top of the canvas. When you have dragged the block to a suitable location, a blue shaded region appears. Release the mouse button to drop the block at that location.
 
 1. On dropping the text block, you’ll see some placeholder text within the block and a floating toolbar just below or above it.
-
    ![The floating text toolbar](media/email-floating-text-toolbar.png "The floating text toolbar")  
 
    Select and remove the placeholder text, and then add your own. Use the toolbar buttons to style your text as you would in a text editor like [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] (hover your mouse pointer over any toolbar button to see what it does). Most of the buttons are for styling text and paragraphs, but there are also buttons for creating links; entering dynamic text (more on this later); and moving, copying or deleting the entire text block.
@@ -83,7 +82,6 @@ To create a marketing email and go live:
     1. Choose a suitable location for your physical address and then use assist-edit to place it. Choose **msdyncrm\_contentsettings** from the first drop-down list and **msdyncrm\_addressmain** from the second drop-down list to build the expression: **{{msdyncrm\_contentsettings.msdyncrm\_addressmain}}**.
     1. Choose a suitable location for the subscription-center link and type some anchor text there (such as “manage your subscriptions”). Select the anchor text and then choose the **Link** button ![The link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog. Select the assist-edit button for the **Link** field and then choose **msdyncrm\_contentsettings** from the first drop-down list and **msdyncrm\_subscriptioncenter** from the second one to build the expression: **{{msdyncrm\_contentsettings.msdyncrm\_subscriptioncenter}}**. Choose **OK** to create the link.  
     ![The email Link dialog](media/email-link-dialog.png "The email Link dialog")  
-
 
     > [!TIP] Values that you use often, including required content like the subscription-center link and physical address, are stored in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as *content settings*. That’s why you chose the *content settings* entity when placing these values with assist-edit. Content settings provide a central location where you can store and update information that you use in most or all your messages.
     > 
@@ -117,6 +115,5 @@ Here you can see all the images that have already been uploaded to your [!INCLUD
 ![Location of the Go Live button](media/email-golive-button-location.png "Location of the Go Live button")  
 
     [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] copies your design to the email marketing service, which makes the message available for use by a customer journey (but doesn’t deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that redirect through [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] (which identifies the recipient and logs the click). Finally, your message **Status Reason** is updated to **Live**.
-
 
     > [!TIP] While the message is live, it’s locked for editing in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. If you need to edit a live message, you must first open it in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and then choose **Deactivate** from the command bar.
