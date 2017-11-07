@@ -64,7 +64,7 @@ You have options for when you update your Dynamics 365 Online organization to [!
 ### [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] – Approach One (recommended)  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
   
- For version information, see: [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)  
+ For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) 
   
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -112,7 +112,7 @@ You have options for when you update your Dynamics 365 Online organization to [!
 ### [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] – Approach Two  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
   
-For version information, see: [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)
+For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
   
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -160,7 +160,7 @@ For version information, see: [Recent versions of Dynamics 365 (online)](../admi
 ### [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] 
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n-1).  
   
- For version information, see: [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)  
+ For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
   
 |Version||Update to|  
 |-------------|-|---------------|  
@@ -195,7 +195,7 @@ For version information, see: [Recent versions of Dynamics 365 (online)](../admi
 ## Recent versions of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
  To determine your version, sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
-For recent versions, see [Recent versions of Dynamics 365 (online)](../admin/manage-updates.md#BKMK_Versions)
+For recent versions, see [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
 <!--  
 |Version|Availability|Information|  
