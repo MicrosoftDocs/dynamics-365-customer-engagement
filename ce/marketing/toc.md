@@ -14,6 +14,7 @@
 ## [Link description](create-landing-page.md)
 ## [Link description](create-interactive-customer-journey.md)
 ## [Link description](set-up-lead-scoring.md)
+
 # [Link description](advanced-tutorials.md)
 ## [Link description](generate-activities-from-customer-journey.md)
 ## [Link description](manage-images.md)
