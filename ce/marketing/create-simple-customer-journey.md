@@ -23,17 +23,17 @@ As you engage a potential customer, he or she starts by discovering your product
 A simple customer journey can include just two steps: a target segment and an activity that addresses the members of that segment. In the following procedure, you’ll set up a simple customer journey that sends an email message to all the members of a target segment.
 
 Before you start, you’ll need:
-- A segment containing the contacts you will send your email to. Your segment should include just one or two fictional contacts with valid email addresses that you can read, like the one you set up in [Create a dynamic segment](create-segment.md).  
-- A marketing email that is both valid and live. You should be able to use the message you designed and published in [Create a marketing email and go live](create-marketing-email.md).  
+- A segment containing the contacts you will send your email to. Your segment should include just one or two fictional contacts with valid email addresses that you can read, like the one you set up in [Create a dynamic segment](create-segment.md).
+- A marketing email that is both valid and live. You should be able to use the message you designed and published in [Create a marketing email and go live](create-marketing-email.md).
 
 To create a customer journey that executes a one-time email blast:
 
-1. Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**. This takes you to a list of existing customer journeys.
-    ![Location of the new-journey button](media/new-journey-button-location.png "Location of the new-journey button")  
+1. Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**. This takes you to a list of existing customer journeys.  
+    ![Location of the new-journey button](media/new-journey-button-location.png "Location of the new-journey button")
 
     Choose **New** from the command bar.
 
-1. The **New Customer Journey** page opens with the **Select a Customer Journey Template** dialog shown. Each template provides a starting point for designing a particular type of customer journey. The template dialog provides tools for searching, browsing, and previewing your template collection.
+1. The **New Customer Journey** page opens with the **Select a Customer Journey Template** dialog shown. Each template provides a starting point for designing a particular type of customer journey. The template dialog provides tools for searching, browsing, and previewing your template collection.  
     ![The customer journey template dialog](media/journey-template-dialog.png "The customer journey template dialog")
 
     Select the **Blank template** and then choose **Select**. The template selector closes, and your selected template is copied into your new journey.
@@ -43,7 +43,7 @@ To create a customer journey that executes a one-time email blast:
 
     Like all journeys, this one starts by collecting the participants, which in this case will be a market segment. Drag a **Segment Group** tile from **Toolbox** tab onto the first position of the pipeline.
 
-1. Choose the expand button at the bottom right of your new **Segment Group** tile to view the member segments of this group. Right now, there’s just one, so select it.
+1. Choose the expand button at the bottom right of your new **Segment Group** tile to view the member segments of this group. Right now, there’s just one, so select it.  
     ![Expand the segment tile to view its child tiles](media/journey-segment-expand.png "Expand the segment tile to view its child tiles")
 
 1. With the child segment still selected, open the **Properties** tab to the right of the canvas.
@@ -63,7 +63,7 @@ To create a customer journey that executes a one-time email blast:
 
     > [!TIP] All the segments and email messages that you reference in your customer journey must be live before you can go live with the customer journey itself.
 
-1. Until now, you’ve been working on the **Designer** tab. Now go to the **General** tab, where you can name your journey and configure its run schedule.
+1. Until now, you’ve been working on the **Designer** tab. Now go to the **General** tab, where you can name your journey and configure its run schedule.  
     ![Customer Journey general settings](media/journey-general-settings.png "Customer Journey general settings")
 
     Make the following settings here:
@@ -75,7 +75,7 @@ To create a customer journey that executes a one-time email blast:
 
     > [!TIP] While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.
 
-1. Choose **Save** from the command bar to save your work so far.
+1. Choose **Save** from the command bar to save your work so far.  
     ![Location of the save button in the command bar](media/journey-save-button-location.png "Location of the save button in the command bar")
 
     > [!TIP] The **Save** button may not always be present in the command bar especially after you’ve saved the journey once. If you don’t see it there, look for the smaller save button in the bottom-right corner of page and click there to save your work.
@@ -96,6 +96,5 @@ To create a customer journey that executes a one-time email blast:
     ![Location of the view selector](media/journey-view-selector.png "Location of the view selector")
 
     From here, use the **Designer** tab to see information and results for each tile from your pipeline. Open the **Dashboard** tab to see detailed analytics.
-
 
     > [!TIP] Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for analyzing the results of your marketing initiatives, including marketing emails. Try opening the record for the email message you sent with this customer journey and check its **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for even more information.
