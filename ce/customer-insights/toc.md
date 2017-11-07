@@ -1,7 +1,7 @@
 # [Microsoft Dynamics 365 for Customer Insights](./getstart.md)
 <!-- ##[About Customer Insights](./deploy/getstart2.md) -->
 ## [About Preview](./deploy/aboutpreview.md)
-## [In This Release](./deploy/inthisrelease.md)
+## [Known Issues](./deploy/inthisrelease.md)
 ## [What's New](./deploy/newfeatures.md)
 <!-- ### [Overview](./deploy/overview.md) -->
 ### [Predictive Match](./deploy/createconflationpolicy.md)

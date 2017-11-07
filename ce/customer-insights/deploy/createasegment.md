@@ -152,3 +152,6 @@ The following steps show the creation of a compound segment of high credit card 
 Select a segment in the dashboard to see member and trendline information.
 
 ![](../media/SegmentInfo720.png "Segment member and trend information")
+
+### See also
+[What is segmentation?](newfeatures.md#what-is-segmentation)

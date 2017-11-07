@@ -17,7 +17,7 @@ What's New
 
 The following were introduced in July 2017.
 
-##Predictive Matching
+## Predictive Matching
 
 Predictive matching is the process of combining data from multiple sources. Data coming from various sources often use different fields to uniquely identify records, and contain different values. 
 
@@ -29,7 +29,7 @@ In one company's records, customers are identified by **First Name** and **Last 
 
 For information on creating a predictive match policy, see [What is predictive matching?](createconflationpolicy.md).
 
-##What is Predictive Scoring?
+## What is Predictive Scoring?
 
 Build a predictive scoring model to enable business users of all skill levels to apply artificial intelligence to predict a range of business outcomes. Based on these predicted outcomes, users can grade customers to efficiently plan targeted follow-ups.
 
@@ -53,7 +53,7 @@ Customer Insights Predictive Scoring has the following benefits:
 
 For information on creating a new prediction, see [What is Predictive Scoring?](buildmlmodel.md).
 
-##What is segmentation?
+## What is segmentation?
 
 ![](../media/SegmentationRightAudience650.png "Choose the right audience") 
 
@@ -73,26 +73,6 @@ There are three types of segments:
 - Compound: Combines Dynamic and Static segments.
 
 For information on creating a new prediction, see [Create a new prediction](buildmlmodel.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## In this section
 * [Predictive Match](createconflationpolicy.md) 

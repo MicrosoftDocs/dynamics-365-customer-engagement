@@ -115,3 +115,6 @@ In this example, note the following:
 Prediction scoring can be added to your Customer 360 view.
 
 ![](../media/PredictScore360_720.png "Compare multiple prediction models")
+
+### See also
+[What is Predictive Scoring?](newfeatures.md#what-is-predictive-scoring)

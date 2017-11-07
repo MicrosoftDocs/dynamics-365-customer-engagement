@@ -91,7 +91,8 @@ Click the **Show Predictive Matches** in her Info card to display the predictive
 
 In this sample, phone numbers appear to match as well as last names despite the differences. We therefore have a matching score of 99%.
 
-
+### See also
+[Predictive Matching](newfeatures.md#predictive-matching)
 
 
 
