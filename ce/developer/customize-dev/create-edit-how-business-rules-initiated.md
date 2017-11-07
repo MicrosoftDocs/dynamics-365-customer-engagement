@@ -52,8 +52,8 @@ Business rules allow for defining logic that takes place in a form. Business rul
 
 ### See also
 
- [Create and edit business rules](https://technet.microsoft.com/library/dn531086.aspx)
+ [Create business rules and recommendations](../../customize/create-business-rules-recommendations-apply-logic-form.md)
  <!--
  Add back after Web API reference regen
- [ProcessTrigger Entity](../entities/processtrigger.md)
+ [ProcessTrigger Entity]/entities/processtrigger.md)
  -->
