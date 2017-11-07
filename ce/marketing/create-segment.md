@@ -24,11 +24,11 @@ In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you’
 
 In this exercise, you’ll create a couple of fictional contacts with email addresses that you can read and then set up a test segment that includes those contacts. This test segment will be useful later when you begin to experiment with customer journeys.
 
-1. Go to **Marketing &gt; Customers &gt; Contacts**. This takes you to a list of existing contacts. Choose **New** from the command bar.
-  ![Location of the new-contact button](media/new-contact-button-location.png "Location of the new-contact button")
+1. Go to **Marketing &gt; Customers &gt; Contacts**. This takes you to a list of existing contacts. Choose **New** from the command bar.  
+    ![Location of the new-contact button](media/new-contact-button-location.png "Location of the new-contact button")
 
 1. The **New Contact** page opens.  
-  ![Fill out these fields for your new contact](media/contact-required-fields.png "Fill out these fields for your new contact")  
+    ![Fill out these fields for your new contact](media/contact-required-fields.png "Fill out these fields for your new contact")  
     Fill out the following fields:
       - **First Name**: Enter a fictional first name.
       - **Last Name**: Enter a fictional last name.
@@ -40,29 +40,29 @@ In this exercise, you’ll create a couple of fictional contacts with email addr
 1. Create a second contact similar to the one you just made. Use the same email address and fictional city, but use a different first and last name.
 
 1. Go to **Marketing &gt; Customers &gt; Segments**. This takes you to a list of existing segments. Choose **New** from the command bar.  
-  ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")
+    ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")
 
-1. The **New Segment** page opens, with the **General** tab shown. Fill out the information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.
-   ![The General tab for the segment entity](media/segment-general-settings.png "The General tab for the segment entity")
+1. The **New Segment** page opens, with the **General** tab shown. Fill out the information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.  
+    ![The General tab for the segment entity](media/segment-general-settings.png "The General tab for the segment entity")
 
 1. Open the **Definition** tab. This is where you establish the rules of membership for your segment by building a database query.  
-  ![Location of the Definition tab for the segment entity](media/segment-definition-tab-location.png "Location of the Definition tab for the segment entity")
+    ![Location of the Definition tab for the segment entity](media/segment-definition-tab-location.png "Location of the Definition tab for the segment entity")
 
-1. The **Definition** tab offers three ways to build and view your query: **Flow**, **Designer**, and **Query**. You can use whichever view you prefer—the result will be the same. For this procedure, use the **Designer** view, which is both easy to use and compact).
-  ![The segment definition Designer view](media/segment-definition-designer.png "The segment definition Designer view")  
+1. The **Definition** tab offers three ways to build and view your query: **Flow**, **Designer**, and **Query**. You can use whichever view you prefer—the result will be the same. For this procedure, use the **Designer** view, which is both easy to use and compact).  
+    ![The segment definition Designer view](media/segment-definition-designer.png "The segment definition Designer view")
 
     > [!TIP] Each of the three views on the **Definition** tab supports a different way of creating or viewing your segment design:
-    >- **Flow** is optimized for combining segments using logical operators.
-    >- The **Designer** is optimized for defining sets of logical rules and conditions that filter out contacts.
-    >- The **Query** view presents the query as text, which is very compact and suitable for users that are used to working with database queries.
+    > - **Flow** is optimized for combining segments using logical operators.
+    > - The **Designer** is optimized for defining sets of logical rules and conditions that filter out contacts.
+    > - The **Query** view presents the query as text, which is very compact and suitable for users that are used to working with database queries.
 
 1. Because you are creating a new segment, you should see a single row in the **Designer**, where the **Contact** entity should already be selected (in the leftmost drop-down list) and set to **All\***. This means that your segment currently finds *all the contacts in your database*, which is probably too much. Let’s instead create a segment that just finds contacts that live in specific cities. To do that:
     1. Change the dropdown list currently set to **All\*** to **addres1\_city**. This changes the query from one that finds all contacts to one that looks for contacts from a specific city or cities. It also adds two more inputs, which you’ll use to finish defining this clause.
-    2. Leave the next dropdown list set to **is**. This is the *operator* (other types of operators include **is not**, **greater than**, **less than**, and more—depending on which type of value you are working with).
-    3. Type the fictional city name (e.g., Atlantis) that you chose for your test contacts in the field at the right and then press &lt;Enter&gt; on your keyboard. On pressing enter, your value becomes a button with an X on it. You can add more city names if you like by typing them here, or remove existing ones by clicking the X. If you add several cities, they are combined with an OR operator, which means you’ll find contacts from each of the listed cities.
+    1. Leave the next dropdown list set to **is**. This is the *operator* (other types of operators include **is not**, **greater than**, **less than**, and more—depending on which type of value you are working with).
+    1. Type the fictional city name (e.g., Atlantis) that you chose for your test contacts in the field at the right and then press &lt;Enter&gt; on your keyboard. On pressing enter, your value becomes a button with an X on it. You can add more city names if you like by typing them here, or remove existing ones by clicking the X. If you add several cities, they are combined with an OR operator, which means you’ll find contacts from each of the listed cities.
 
-   Here is an example of how a simple query that finds all contacts from Atlantis could look on the **Designer** tab:
-  ![Define a segment by city](media/segment-designer-city.png "Define a segment by city")
+    Here is an example of how a simple query that finds all contacts from Atlantis could look on the **Designer** tab:  
+    ![Define a segment by city](media/segment-designer-city.png "Define a segment by city")
 
     > [!TIP] You can build very complex queries using the tools here, combining AND clauses and OR clauses, and adding *groups* of additional clauses that you can combine with the main clause and other groups using **Union**, **Exclude**, or **Intersect** operations. You can also move freely between the **Flow**, **Designer**, and **Query** tabs to see how your query looks when presented in these various ways.
 
