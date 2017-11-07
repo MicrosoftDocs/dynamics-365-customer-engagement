@@ -1,5 +1,5 @@
 ---
-title: "Download endpoints using Developer resources page (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Developer resources page (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how you can find your organization unique name, Discovery service endpoint address, Organization service endpoint address and issuer name to access Azure Service Bus using the Developer Resources page"
 ms.custom: ""
 ms.date: 10/31/2017
@@ -16,7 +16,7 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
 ---
-# Download endpoints using Developer resources page
+# Developer resources page
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
