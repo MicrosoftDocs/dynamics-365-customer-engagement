@@ -2,18 +2,20 @@
 title: "Create a simple customer journey in Dynamics 365 for Marketing | Microsoft Docs"
 description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; send email; email blast"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-	- Dynamics 365 (online)
-	- Dynamics 365 Version 9.x
 ms.date: 11/07/2017
 ms.service: crm-online
 ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 45c4c442-2662-41a0-83c9-8e3149ed71ec
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Create a simple customer journey with email messaging
 
 As you engage a potential customer, he or she starts by discovering your product, then evaluates whether it meets their needs, looks for a good offer, and finally makes a purchase. We call this process the *customer journey*. Use [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] customer journeys to create a model that helps you guide the members of a selected marketing segment through this process using automated messaging, activity generation, interactive decision points, and more.
@@ -21,16 +23,13 @@ As you engage a potential customer, he or she starts by discovering your product
 A simple customer journey can include just two steps: a target segment and an activity that addresses the members of that segment. In the following procedure, you’ll set up a simple customer journey that sends an email message to all the members of a target segment.
 
 Before you start, you’ll need:
-
--   A segment containing the contacts you will send your email to. Your segment should include just one or two fictional contacts with valid email addresses that you can read, like the one you set up in [Create a dynamic segment](create-segment.md).  
-
--   A marketing email that is both valid and live. You should be able to use the message you designed and published in [Create a marketing email and go live](create-marketing-email.md).  
+- A segment containing the contacts you will send your email to. Your segment should include just one or two fictional contacts with valid email addresses that you can read, like the one you set up in [Create a dynamic segment](create-segment.md).  
+- A marketing email that is both valid and live. You should be able to use the message you designed and published in [Create a marketing email and go live](create-marketing-email.md).  
 
 To create a customer journey that executes a one-time email blast:
 
-1.  Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**. This takes you to a list of existing customer journeys.
-
-> ![Location of the new-journey button](media/new-journey-button-location.png "Location of the new-journey button")  
+1. Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**. This takes you to a list of existing customer journeys.
+![Location of the new-journey button](media/new-journey-button-location.png "Location of the new-journey button")  
 >
 > Choose **New** from the command bar.
 

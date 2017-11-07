@@ -32,28 +32,27 @@ Email is a vital marketing channel for most modern organizations. It is also a c
 To create a marketing email and go live:
 
 1. Go to **Marketing &gt; Marketing Execution &gt; Marketing Emails**. This takes you to a list of existing marketing emails.
-  ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")  
+    ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")
 
-   Choose **New** from the command bar.
+    Choose **New** from the command bar.
 
 1. The **New Marketing Email** page opens with the **Select an Email Template** dialog shown. Each template provides a starting point for designing a particular type of message. The template dialog provides tools for searching, browsing, and previewing your template collection.
- ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog for choosing an email template")  
+    ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog for choosing an email template")
 
-   For this exercise, choose the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
+    For this exercise, choose the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
 
-
-   > [!TIP] Several standard templates are provided out of the box, and you can also create your own templates that feature your own organization’s graphical identity, required elements, and messaging standards. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create templates for emails, pages, forms, and journeys](create-templates.md)
+    > [!TIP] Several standard templates are provided out of the box, and you can also create your own templates that feature your own organization’s graphical identity, required elements, and messaging standards. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create templates for emails, pages, forms, and journeys](create-templates.md)
 
 1. The **Select an Email Template** dialog closes and the content (if any) from your selected template is copied into your design. At the top of email designer page are three required fields: **Name**, **Subject**, and **From**. If your browser window is too narrow to show all the fields, you’ll also see a down-pointing arrow that opens a menu where you can see the fields that don’t fit.
-  ![Fill out these fields for your new email](media/email-required-fields.png "Fill out these fields for your new email")  
+    ![Fill out these fields for your new email](media/email-required-fields.png "Fill out these fields for your new email")  
 
-   Enter the following:
+    Enter the following:
     - **Name**: this is an internal name for your message. Enter any name that you will easily recognize later.
     - **Subject**: this is the subject that email recipients will see when they receive the message.
     - **From**: click here to select the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] user that email recipients will see as the sender of the message.
 
 1. In the main part of the page, you now see the design canvas (on the left), where you can drag, arrange, and enter content. A **Toolbox** on the right provides content blocks that you’ll use to construct your message.
- ![Add a text block to a new email](media/email-add-text-block.png "Add a text block to a new email")  
+    ![Add a text block to a new email](media/email-add-text-block.png "Add a text block to a new email")  
 
     Drag a **Text** block from the **Toolbox** tab over to the top of the canvas. When you have dragged the block to a suitable location, a blue shaded region appears. Release the mouse button to drop the block at that location.
 
