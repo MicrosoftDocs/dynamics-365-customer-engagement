@@ -45,7 +45,7 @@ Customer Insights application experiences include:
 
 Customer data isn’t just limited to systems of record, like CRM.  Organizations interact with their customers across a range of different touchpoints, across different channels.  Customer Insights makes it easy to ingest data from various sources, using any of: out-of-box connectors, extensible orchestrations through the Azure ecosystem, and comprehensive REST interfaces.
 
-![](../media/Overview650.png "How Customer Insights works")
+![How Customer Insights works](media/Overview650.png)
 
 Customer Insights has a simple, effective, metadata-driven data model, consisting of Profiles and Interactions.  Profiles aggregate information about any business resource of interest, such as customers, accounts, products, staff, scheduled assets, and more.  Interactions represent events or actions, such as activities, communication, service requests and responses, weather, wi-fi access, surveys, etc.  Relationships represent the connections between profiles, and links map the connections between interactions and participating profiles.
 
