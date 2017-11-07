@@ -17,7 +17,7 @@ caps.latest.revision: 14
 ms.author: "mkaur"
 manager: "amyla"
 ---
-# Change the warehouses location of inventory (Field Service)
+# Change the warehouse location of inventory (Field Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
