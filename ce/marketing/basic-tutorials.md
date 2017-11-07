@@ -16,7 +16,7 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Core scenarios
+# Basic tutorials for core scenarios
 
 This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you have never used this product before, then this is probably the best place to start. When you have completed the exercise here, you will be able to:
 
