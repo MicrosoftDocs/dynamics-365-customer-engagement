@@ -144,10 +144,10 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Home](media/menu-home.png)|Choose **Menu** > **Home** to see activities such as dashboards. <br />Choose **Menu** > **Recent** to see recently used records.|
 |![Menu - Home](media/navbar-home-btn.png)|Choose **Home** to see the initial view.|
 |![Menu - Back](media/navbar-back-btn.png)|Choose **Back** to return to the last thing you viewed.|
-|![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.|
+|![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See [Create a new record and link it to a Dynamics 365 record:](#to-create-a-new-record-and-link-it-to-a-dynamics-365-record)|
 |![Menu - Relevant Search](media/navbar-search-btn.png)|Choose **Search** to use Relevant Search to [Reviewer: need text]|
-|![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to [Reviewer: need text]|
-|![Menu - Templates](media/navbar-add-template-btn.png)|Choose **Templates** to add an email template when you create an email message. <br />See: [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message)|
+|![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
+|![Menu - Templates](media/navbar-add-template-btn.png)|Choose **Templates** to add an email template when you create an email message. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message)|
 
 
 ## Add an email recipient as a contact or lead
@@ -172,7 +172,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 5. Use the left and right arrows to narrow search to cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane. 
 
-### To find a different record to link to:  
+### Find a different record to link to:  
 
 1. Find the record to link in a list or using Search. 
 
@@ -190,7 +190,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 5. Use the left and right arrows to find related cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane. 
 
-### To create a new record and link it to a Dynamics 365 record:  
+### Create a new record and link it to a Dynamics 365 record:  
   
 1.  Click **Quick Create**, and then select the type of record you want to create.  
   
@@ -202,7 +202,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
   
 3.  Click **Save**.  
   
-### To untrack the regarding record:  
+### Untrack the regarding record:  
 
 1. Find the record to link in a list or using Search. 
 
@@ -218,7 +218,7 @@ Create an email message and then follow the steps in [Link an email message or m
 
  You can monitor an email message after you send it to see the number of times that the message is viewed, opened, replied to, or forwarded. For a monitored email message, you can also see the last activity related to the email message, or view all activity related to the message.  
   
-### To monitor an email message  
+### Monitor an email message  
 
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
@@ -236,7 +236,7 @@ Create an email message and then follow the steps in [Link an email message or m
     > [!IMPORTANT]
     >  Do not edit the email message or change the recipients after you follow it. If you edit an email message after it’s followed, you may inadvertently delete the monitoring information or you may inadvertently add recipients who shouldn’t be followed.  
   
-### To remove the monitoring for an email message  
+### Remove the monitoring for an email message  
 
 1.  Select the monitored email message.  
   
@@ -252,7 +252,7 @@ For example, you could use a Thank you template to save time whenever you want t
 > [!NOTE]
 > You must have the appropriate permissions to add email templates.  
   
-### To add an email template:  
+### Add an email template:  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
@@ -298,8 +298,8 @@ For information on creating email templates in [!INCLUDE[pn_crm_shortest](../inc
 1.  Start by creating an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
 2.  At the top of the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane, click **Sales Lit** or **Articles**.  
-  
- ![Dynamics 365 App for Outlook add sales literature](../outlook-app/media/dynamics-365-app-outlook-add-sales-literature.png "Dynamics 365 App for Outlook add sales literature")  
+
+    ![Dynamics 365 App for Outlook add sales literature](../outlook-app/media/dynamics-365-app-outlook-add-sales-literature.png "Dynamics 365 App for Outlook add sales literature")  
   
 3.  Drill down in the tree structure, and then select the appropriate literature or article.  
   
@@ -476,8 +476,20 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
   
  ![Dynamics 365 App for Outlook contact tracking, number of records to show](../outlook-app/media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 App for Outlook contact tracking, number of records to show")  
   
-## Gain insights into your customers
-[Reviewer note: I need informaton for this new section.]
+## Gain insights into your activities with relationship assistant
+
+The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing right now. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.
+
+Some of what the assistant can do for you:
+
+- reminds you of upcoming activities
+- evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while
+- identifies email messages that may be waiting for a reply from you
+- alerts you when an opportunity is nearing its close date
+
+When you start your day by signing in to Dynamics 365, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
+
+To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png).
 
 ![Relationship Assistant](media/relationship-assistant.png)
 
