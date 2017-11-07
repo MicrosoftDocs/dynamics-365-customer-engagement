@@ -40,7 +40,7 @@ You can use [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short
 > [!TIP]
 > When installing [!INCLUDE[pn-net-framework-462-short.md](../includes/pn-net-framework-462-short.md)] on your development computer, be sure to install the developer pack and not just the run-time. This will enable the 4.6.2 framework to be chosen in the **New Project** dialog box of [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] and in the target framework drop-down menu of the project’s properties.  
 
-You can use a [!INCLUDE[pn_MS_VS_Community](../includes/pn-ms-vs-community.md)] edition for development.
+You can use a [!INCLUDE[pn_MS_VS_Community](../includes/pn-vs-community.md)] edition for development. 
 
 [comment]: <> (However, use of extensions isn’t supported in the Express edition so you won’t be able to install useful extensions in that version of Visual Studio)
 
