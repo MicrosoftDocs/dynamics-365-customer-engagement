@@ -31,7 +31,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
   
 -   Configure contextual actions for the article in the tab where it is displayed, such as copy an article link or associate an article with the current case.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-or-parature-knowledge-effective-customer-engagement.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
   
 > [!IMPORTANT]
 >  This walkthrough doesn’t require you to complete other walkthroughs before you can use this one.  
@@ -489,7 +489,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
  In this walkthrough, you learned how to use the KM Control hosted control to use [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
 ### See also  
- [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-or-parature-knowledge-effective-customer-engagement.md)   
+ [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
  [Configure Parature knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)

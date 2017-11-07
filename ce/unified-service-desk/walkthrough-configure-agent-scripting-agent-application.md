@@ -93,7 +93,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 <a name="Step2"></a>   
 ## Step 2: Create hosted controls to display the new case form and existing cases  
- In this step, you’ll create two hosted controls of Dynamics 365 Page type to display the new case creation form and existing cases for the current account.  
+ In this step, you’ll create two hosted controls of CRM Page type to display the new case creation form and existing cases for the current account.  
   
 1.  On the hosted controls page, click **New**.  
   
@@ -103,13 +103,13 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |-----------|-----------|  
     |Name|Contoso new case form|  
     |Display Name|New Case|  
-    |USD Component Type|Dynamics 365 Page|  
+    |USD Component Type|CRM Page|  
     |Allow Multiple Pages|No|  
     |Hosting Type|Internal WPF|  
     |Application is Global|Not checked|  
     |Display Group|MainPanel|  
   
- ![Create a Dynamics 365 Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a Dynamics 365 Page hosted control")  
+ ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a CRM Page hosted control")  
   
 3.  Click **Save**.  
   
@@ -121,13 +121,13 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |-----------|-----------|  
     |Name|Contoso existing cases for an account|  
     |Display Name|Cases for [[$Context.name]] **Note:**  We are using the replacement parameter to dynamically display the name of the current account from the execution context as the hosted control display name.|  
-    |USD Component Type|Dynamics 365 Page|  
+    |USD Component Type|CRM Page|  
     |Allow Multiple Pages|No|  
     |Hosting Type|Internal WPF|  
     |Application is Global|Not checked|  
     |Display Group|MainPanel|  
   
- ![Create a Dynamics 365 Page hosted control](../unified-service-desk/media/usd-create-agent-script-task.png "Create a Dynamics 365 Page hosted control")  
+ ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-agent-script-task.png "Create a CRM Page hosted control")  
   
 6.  Click **Save**.  
   
