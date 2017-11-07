@@ -22,9 +22,9 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-An app is composed of various components. There are two types of components that you can add to an app: artifacts and entity assets. In the context of the app designer, entities, dashboard, and business process flows are all artifacts of an app. All assets of an entity - like forms, views, and charts - called entity assets.  
+An app is composed of various components. There are two types of components that you can add to an app: artifacts and entity assets. In the context of the app designer, entities, dashboard, and business process flows are all artifacts of an app. All assets of an entity - like forms, views, charts, and dashboards - called entity assets.  
   
- The app designer refers to existing  metadata in the default solution. It also allows you to create components like forms, views, and charts.  
+ The app designer refers to existing  metadata in the default solution. It also allows you to create components like forms, views, charts, and dashboards.  
   
 ## App designer layout  
  The app designer has two main areas. On the left side is the canvas where you add app components.  
@@ -60,8 +60,8 @@ An app is composed of various components. There are two types of components that
      The dashboard list will be filtered to show results that match your keywords.  
   
 3.  If you want your users to use only selected dashboards, select the check box for the dashboards you want to add. You can select from the following types of dashboards:
-    - **Classic Dashboards:** Dashboards to display only on web application.
-    - **Intractive Dashboards:** Dashboards to display on unified interface.
+    - **Classic Dashboards:** Dashboards to display on both web application and unified interface.
+    - **Interactive Dashboards:** Dashboards to display only on unified interface. If you have selected the client for the app as web application, the interactive dashboards option will not be displayed.
 
      Those dashboards will be added to the Dashboard tile on the app designer canvas. The dashboard tile also shows a count of the number of dashboards added to the app. If you don't select a dashboard, all dashboards are available to  users when they use the app, and instead of the dashboard count, "All" is shown.  
   
@@ -83,8 +83,8 @@ An app is composed of various components. There are two types of components that
   
 <a name="bkmk_AddEntityAssets"></a>   
 ## Add entity assets (forms, views, charts, or dashboards)  
- With the artifacts in place, you can start adding entity assets like forms, views, and charts to the app.
- Additionally, if you are using Unified Interface client, you can also add entity assests dashboards to the app.  
+ With the artifacts in place, you can start adding entity assets like forms, views, charts, and dashboards to the app.
+ Additionally, if you are using Unified Interface client, you can also add entity dashboard assests to the app.  
   
  This section describes the steps for adding a form to the app. Use the same steps to add a view or chart to the app.  
   

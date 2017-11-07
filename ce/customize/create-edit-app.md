@@ -107,7 +107,7 @@ Verify the following prerequisites befor you start creating the app:
   
     -   To filter apps by client type, select **Filter**, and then select the client type that you want from the **Filter** pane.  
   
- ![My Apps search and filter](../customize/media/app-designer-myapps.png "My Apps search and filter")  
+    ![My Apps search and filter](../customize/media/app-designer-myapps.png "My Apps search and filter")  
   
 3.  To edit a published app, in the **Published Apps** view in the lower right corner of the app tile you want to edit, click the **More options** button ![More Options button in the app designer](../customize/media/apps-more-options-icon.png "More Options button in the app designer"), and then click **Open in App Designer**  
   
