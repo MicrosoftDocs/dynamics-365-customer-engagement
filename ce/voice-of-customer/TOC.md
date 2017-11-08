@@ -1,5 +1,5 @@
-# [Create a survey to get customer feedback](get-feedback-surveys.md)
-## [Install the solution](install-solution.md)
+# [Get feedback by using Voice of the Customer surveys](get-feedback-surveys.md)
+## [Install the Voice of the Customer solution](install-solution.md)
 ## [Plan a survey](plan-survey.md)
 ## [Design a basic survey](design-basic-survey.md)
 ## [Distribute a survey](distribute-survey.md)
