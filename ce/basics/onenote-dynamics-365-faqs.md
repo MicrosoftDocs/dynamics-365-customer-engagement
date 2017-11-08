@@ -71,7 +71,7 @@ Note that [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] requires [!INCLUDE[p
 
 On subsequent clicks in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)], this error message appears: **No sections to display. Note that sections in a section group aren’t supported.** To fix this issue, set the file path length to less than 70 characters.  
 
-## Changing the name of a OneNote file in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online)] can create a conflict
+## Changing the name of a OneNote file in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] can create a conflict
 
 Consider this scenario:
 
