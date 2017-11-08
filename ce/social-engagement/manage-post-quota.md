@@ -72,7 +72,7 @@ Keep track of the number of posts that result from your search topics and count 
  If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](http://go.microsoft.com/fwlink/p/?LinkID=390650) at any time to unblock your solution immediately.  
   
 > [!IMPORTANT]
->  Note that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] doesn’t gather posts retrospectively. Any missed post won’t appear in your solution if you update your post quota after the acquisition has stopped.  
+>  Note that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] doesn't gather posts retrospectively. Any post that you missed won't appear in your solution if you update your post quota after the acquisition has stopped.  
   
 ### Understand estimations  
  On the **Summary** page in the **Search Setup** area, you'll find quota information for all active search topics. The following values are provided for each search topic and all categories that contain a search topic:  
