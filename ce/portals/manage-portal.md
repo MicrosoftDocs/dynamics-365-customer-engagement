@@ -1,17 +1,19 @@
 ---
 title: "Manage a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage your portal."
-ms.custom: ""
-ms.date: 09/28/2017
+keywords: ""
+ms.date: 11/08/2017
 ms.service: crm-online
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom: 
 ms.topic: article
 ms.assetid: 265AE063-1D9C-40DD-AAAF-69EAB848F22F
-ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+topic-status: Drafting
 ---
 
 # Manage your portal
