@@ -90,5 +90,5 @@ The following limitation also applies if you're using Voice of the Customer vers
 
 ## Privacy notice
 
-&lt;&lt;Privacy notice text here&gt;&gt;
+[!INCLUDE[cc-privacy-crm-voice-of-customer](../includes/cc-privacy-crm-voice-of-customer.md)]
 
