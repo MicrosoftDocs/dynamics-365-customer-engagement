@@ -22,8 +22,8 @@ topic-status: Drafting
 
 In addition to these activities, you can also store information, view analytics, and score leads based on:
 
--   How known contacts and anonymous visitors use your website
--   How known contacts and anonymous visitors click on a links you put in social posts and banner ads
+- How known contacts and anonymous visitors use your website
+- How known contacts and anonymous visitors click on a links you put in social posts and banner ads
 
 In this exercise, we’ll look into how to set up website and click tracking.
 
@@ -38,7 +38,7 @@ To set up page analytics for a new website:
 1. Go to **Marketing &gt; Internet Marketing &gt; Websites**. You now see a list of existing websites. Make sure you don’t already have one set up for your site.
 
 1. Choose **New** from the command bar. The **New Website** page opens.  
-    ![The General Info tab for a new website](media/website-general-info.png "The General Info tab for a new website")  
+    ![The General Info tab for a new website](media/website-general-info.png "The General Info tab for a new website")
 
     Enter a **Name** to identify the website (or partial website) that you want to track. A **URL** and **[!INCLUDE[description](../includes/description.md)]** could help other users but won’t affect the script or its functionality.
 

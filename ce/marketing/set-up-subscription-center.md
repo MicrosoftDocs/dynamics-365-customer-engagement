@@ -2,18 +2,20 @@
 title: "Set up a subscription center in Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
 keywords: "tutorial; subscription center; static list; subscription list; marketing page; page"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-	- Dynamics 365 (online)
-	- Dynamics 365 Version 9.x
 ms.date: 11/07/2017
 ms.service: crm-online
 ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Set up subscription lists and subscription centers
 
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
@@ -21,7 +23,6 @@ A subscription center is a marketing page that known contacts can use to manage 
 All marketing email messages that you create using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include a link to a subscription center and will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
 
 - **Legal requirements**: Many countries/regions have laws that require all marketing email messages to include an unsubscribe link.
-
 - **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages and may remove those that don’t include an unsubscribe link.
 
 All subscription centers include a “do not email” check box. When a contact chooses this option, the do-not-bulk-email flag gets set on his or her contact record and [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] will never send any marketing email messages to them. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts’ specific interests while also giving contacts more options beyond the legally required “do not bulk email” option.
@@ -36,31 +37,24 @@ A default subscription center is provided with [!INCLUDE[pn-marketing-business-a
 
 Subscription lists are based on the standard (static) marketing lists feature of [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. To create one:
 
-1.  In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], open the app selector and choose the **Surveys** app module. (Marketing lists aren’t included in the current version of the Marketing work area, so one pace you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].)
+1. In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], open the app selector and choose the **Surveys** app module. (Marketing lists aren’t included in the current version of the Marketing work area, so one pace you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].)  
+    ![How to open the surveys app](media/app-selector-surveys.png "How to open the surveys app")
 
-> ![How to open the surveys app](media/app-selector-surveys.png "How to open the surveys app")  
+1. The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app; it’s horizontal and at the top of the screen. Use it to navigate to **Marketing &gt; Customers &gt; Marketing Lists**.  
+    ![How to open marketing lists in the surveys app](media/surveys-app-lists.png "How to open marketing lists in the surveys app")
 
-1.  The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app; it’s horizontal and at the top of the screen. Use it to navigate to **Marketing &gt; Customers &gt; Marketing Lists**.
+1. You now see a list of existing marketing lists (if any). Choose **New** from the toolbar to create a new list.
 
-> ![How to open marketing lists in the surveys app](media/surveys-app-lists.png "How to open marketing lists in the surveys app")  
+1. The **New Marketing List** page opens.  
+    ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")
 
-1.  You now see a list of existing marketing lists (if any). Choose **New** from the toolbar to create a new list.
+    Make the following settings (at minimum):
+    - **Name**: Enter a descriptive name
+    - **Subscription**: Set to **True**.
 
-2.  The **New Marketing List** page opens.
+    > [!TIP] When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting.
 
-> ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")  
->
-> Make the following settings (at minimum):
-
-- **Name**: Enter a descriptive name
-
-- **Subscription**: Set to **True**.
-
-|                                                                                                                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting. |
-
-1.  Choose **Save** from the command bar to save your new subscription list.
+1. Choose **Save** from the command bar to save your new subscription list.
 
 ## Add a subscription list to a subscription form
 
