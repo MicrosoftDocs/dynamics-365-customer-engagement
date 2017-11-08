@@ -1,15 +1,19 @@
 ---
-title: "Engage on social networks | Microsoft Docs"
+title: "Engage on social networks in Social Engagement | Microsoft Docs"
 description: "Get an overview of the requirements to engage on posts from within Social Engagement."
-ms.date: 09/12/2017
+keywords: "social center, streams, engagement"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: get-started-article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 98e1a49d-1d1a-4fe1-8570-8f32e234c55a
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Engage on social networks
 
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] offers features that you can use to interact with other users on the social web and to engage with customers, fans, or critics.

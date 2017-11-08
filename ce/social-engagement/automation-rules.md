@@ -1,15 +1,19 @@
 ---
-title: "Automate actions on posts | Microsoft Docs"
+title: "Automate actions on posts in Social Engagement | Microsoft Docs"
 description: "Learn how to set up Social Engagement to automatically handle subsets of incoming posts."
-ms.date: 09/12/2017
+keywords: "automation rule, automated task"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 8be7abf8-618b-4788-91cb-b992ca3fbf8d
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Route posts using automation rules
 Do you ever feel overwhelmed by how much noise you need to cut through on social media to find posts that are relevant to you? Using automation rules, you don’t need to go through every post manually to create new cases, leads, or events. Let automation rules take care of the routing process. Automation rules can assign posts to users or groups, create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], or create events in [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)], if newly-found posts match the filters for your automation rule.  
   

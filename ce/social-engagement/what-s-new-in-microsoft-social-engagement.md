@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/05/2017
+ms.date: 11/06/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -24,11 +24,39 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.9
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.10
+
+### Updated user experience for activity maps
+
+To make activity maps more accessible to everyone, we introduced shapes as an additional means of displaying information on the maps. Sentiment values and the age of posts are now expressed in color and shape. 
+
+### Update to alert emails
+
+Alert emails now provide a link to the Analytics area in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] app, where you can see the posts that match the data set that triggered the alert. Post content is no longer delivered as part of the email message. These links now also reflect changed alert configurations and deleted alerts.
+
+
+### New video training on Microsoft Virtual Academy
+
+Learn how to build search topics and navigate [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to get the most out of it. Plus, examine different strategies for managing your social presence.
+Explore the social engagement circle and social strategy, and look at brand reputation and social business opportunities. Take a look at post consumption and analytics, configure automation options, and much more.
+
+[Learn more in the Microsoft Social Engagement course on MVA.](https://go.microsoft.com/fwlink/p/?linkid=861639)
+
+
+### New social post packs for Microsoft Social Engagement available
+
+Next to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/licensing/mpsa/default.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
+
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.9
 
 ### User experience clean-up for Search Setup and Settings
 
-**Settings** and **Search Setup** now follow common patterns in how you confirm the web forms. It's clearer where to change the name of a search topic category or a search topic in the second panel instead of the overview panel. Quota information is now shown in the first panel to make sure all users have immediate access to it on any device.
+**Settings** and **Search Setup** now follow common patterns in how you confirm web forms. It's clearer where to change the name of a search topic category or a search topic in the second panel instead of the overview panel. Quota information is now shown in the first panel to make sure all users have immediate access to it on any device.
 
 ### Post list improved to give easy access to post details
 
@@ -40,7 +68,7 @@ Whenever you open a post that has a parent post, you can switch to that parent p
 
 ### Twitter data use license requirements 
 
-Your use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] product is subject to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Services (“ToS”). We recommend you review these terms carefully, as failure to observe these terms can result in a loss of access to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For your ease of reference, a link to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] ToS is included in the footer of every page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] service.  
+Your use of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] product is subject to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Terms of Services ("ToS"). We recommend you review these terms carefully, as failure to observe these terms can result in a loss of access to [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] data in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For your ease of reference, a link to the [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] ToS is included in the footer of every page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] service.  
 
 ### Service and product improvements
 

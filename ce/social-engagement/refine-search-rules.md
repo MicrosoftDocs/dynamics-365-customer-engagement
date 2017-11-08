@@ -1,14 +1,17 @@
 ---
-title: "Find more relevant content | Microsoft Docs"
+title: "Find more relevant content in Social Engagement | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
-ms.date: 09/12/2017
+keywords: "search optimization, search topic, search rule"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 8ce8506f-179d-4eae-a56a-e9293e935d26
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Refine your search rules to find relevant content
