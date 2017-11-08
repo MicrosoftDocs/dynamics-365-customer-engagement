@@ -257,6 +257,8 @@
 #### [GridRow](reference/grids/gridrow.md)
 ##### [getData](reference/grids/gridrow/getData.md)
 #### [GridRowData](reference/grids/gridrowdata.md)
+##### [getEntity](reference/grids/gridrowdata/getEntity.md)
+#### [GridEntity](reference/grids/gridentity.md)
 
 ### [Xrm.Device](reference/xrm-device.md)
 #### [captureAudio](reference/xrm-device/captureAudio.md)

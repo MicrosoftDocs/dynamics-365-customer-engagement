@@ -1,5 +1,5 @@
 ---
-title: "GridRowData (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "GridAttribute (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -9,7 +9,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# GridRowData (Client API reference)
+# GridAttribute (Client API reference)
 
 GridRowData is returned by the [GridRow](gridrow.md).[getData](gridrow/getData.md) method.
 
@@ -20,13 +20,6 @@ var myRows = gridContext.getGrid().getRows();
 var myRow = myRows.get(arg);
 var gridRowData = myRow.getData();
 ```
-
-## Properties
-
-|Name|Description|
-|--|--|
-|entity|Returns the [GridEntity](../../gridentity.md) for the GridRowData.|
-
 
 ## Methods
 
