@@ -34,5 +34,4 @@ When you have completed the exercise here, you will be able to:
 
 - Set up a subscription center, with custom subscription lists, and include it in your emails and customer journeys.
 
-The exercises given in this chapter assume you are already familiar with the feature described in the [Core scenarios](basic-tutorials.md) chapter, but they don’t otherwise build on each other so you can pick and choose which of these exercises are interesting to you.  
-
+The exercises given in this chapter assume you are already familiar with the feature described in the [Core scenarios](basic-tutorials.md) chapter, but they don’t otherwise build on each other so you can pick and choose which of these exercises are interesting to you.

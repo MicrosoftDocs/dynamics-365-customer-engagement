@@ -56,12 +56,10 @@ In this exercise, you’ll create a couple of fictional contacts with email addr
     > - The **Designer** is optimized for defining sets of logical rules and conditions that filter out contacts.
     > - The **Query** view presents the query as text, which is very compact and suitable for users that are used to working with database queries.
 
-1. Because you are creating a new segment, you should see a single row in the **Designer**, where the **Contact** entity should already be selected (in the leftmost drop-down list) and set to **All&ast;**. This means that your segment currently finds *all the contacts in your database*, which is probably too much. Let’s instead create a segment that just finds contacts that live in specific cities.
-
-    To do that:
-    1. Change the dropdown list currently set to **All&ast;** to **addres1\_city**. This changes the query from one that finds all contacts to one that looks for contacts from a specific city or cities. It also adds two more inputs, which you’ll use to finish defining this clause.
-    1. Leave the next dropdown list set to **is**. This is the *operator* (other types of operators include **is not**, **greater than**, **less than**, and more—depending on which type of value you are working with).
-    1. Type the fictional city name (e.g., Atlantis) that you chose for your test contacts in the field at the right and then press &lt;Enter&gt; on your keyboard. On pressing enter, your value becomes a button with an X on it. You can add more city names if you like by typing them here, or remove existing ones by clicking the X. If you add several cities, they are combined with an OR operator, which means you’ll find contacts from each of the listed cities.
+1. Because you are creating a new segment, you should see a single row in the **Designer**, where the **Contact** entity should already be selected (in the leftmost drop-down list) and set to **All&ast;**. This means that your segment currently finds *all the contacts in your database*, which is probably too much. Let’s instead create a segment that just finds contacts that live in specific cities. To do that:
+      1. Change the dropdown list currently set to **All&ast;** to **addres1\_city**. This changes the query from one that finds all contacts to one that looks for contacts from a specific city or cities. It also adds two more inputs, which you’ll use to finish defining this clause.
+      1. Leave the next dropdown list set to **is**. This is the *operator* (other types of operators include **is not**, **greater than**, **less than**, and more—depending on which type of value you are working with).
+      1. Type the fictional city name (e.g., Atlantis) that you chose for your test contacts in the field at the right and then press &lt;Enter&gt; on your keyboard. On pressing enter, your value becomes a button with an X on it. You can add more city names if you like by typing them here, or remove existing ones by clicking the X. If you add several cities, they are combined with an OR operator, which means you’ll find contacts from each of the listed cities.
 
     Here is an example of how a simple query that finds all contacts from Atlantis could look on the **Designer** tab:  
     ![Define a segment by city](media/segment-designer-city.png "Define a segment by city")
