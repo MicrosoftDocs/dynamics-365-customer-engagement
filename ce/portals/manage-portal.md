@@ -1,17 +1,19 @@
 ---
 title: "Manage a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage your portal."
-ms.custom: ""
-ms.date: 09/28/2017
+keywords: ""
+ms.date: 11/08/2017
 ms.service: crm-online
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom: 
 ms.topic: article
 ms.assetid: 265AE063-1D9C-40DD-AAAF-69EAB848F22F
-ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+topic-status: Drafting
 ---
 
 # Manage your portal
@@ -47,7 +49,17 @@ A custom domain can help your customers find your support resources more easily 
 3. Go to **Portal Actions** > **Add a Custom Domain Name**. A wizard opens to choose the SSL certificate.
 4. On the **Choose a SSL certificate** page, select one of the following options:
     - **Upload a new certificate**: Select this option to upload the .pfx file if you have not yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selectin the file, enter the password for your SSL certificate in the **Password** field.
-    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list. Ensure that you are using a SHA2 certificate; SHA1 support is being removed from popular browsers.
+    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
+
+    > [!Note]
+    > The SSL certificate must meet all the following requirements:
+    > - Signed by a trusted certificate authority
+    > - Exported as a password-protected PFX file
+    > - Contains private key at least 2048 bits long
+    > - Contains all intermediate certificates in the certificate chain
+    > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
+
+
 5. Select **Next**.
 6. On the **Choose a host name** page, select one of the following options:
     - **Add a new hostname**: Select this option to create a new custom domain. Enter the domain name you want in the **Domain Name** field.
