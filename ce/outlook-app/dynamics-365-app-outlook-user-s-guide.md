@@ -19,7 +19,7 @@ manager: "brycho"
 # Dynamics 365 App for Outlook User Guide  
 
 > [!IMPORTANT]
-> This page describes how to use [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] with [!INCLUDE[pn-crm-8-2-0-online](../includes/pn-crm-8-2-0-online.md)]. [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] for [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] is now available as a public preview feature in Canada. [Learn how to enable a public preview feature](../admin/what-are-preview-features-how-do-i-enable-them.md). We'll update this page soon with more information.
+> This page describes how to use [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] with [!INCLUDE[pn-crm-8-2-0-online](../includes/pn-crm-8-2-0-online.md)]. [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] is not  available yet for [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. We'll update this page when it's available.
 
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
   
