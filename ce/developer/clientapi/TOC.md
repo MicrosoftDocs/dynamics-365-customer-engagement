@@ -238,13 +238,16 @@
 #### [setVisible](reference/formcontext-ui-sections/setVisible.md)
 
 ### [Grids and subgrids](reference/grids.md)
-<!--#### [GridControl](reference/grids/gridcontrol.md)
+#### [GridControl](reference/grids/gridcontrol.md)
 ##### [addOnLoad](reference/grids/gridcontrol/addOnLoad.md)
 ##### [getEntityName](reference/grids/gridcontrol/getEntityName.md)
 ##### [getFetchXml](reference/grids/gridcontrol/getFetchXml.md)
 ##### [getGrid](reference/grids/gridcontrol/getGrid.md)
 ##### [getGridType](reference/grids/gridcontrol/getGridType.md)
+##### [getRelationship](reference/grids/gridcontrol/getRelationship.md)
+##### [getUrl](reference/grids/gridcontrol/getUrl.md)
 ##### [getViewSelector](reference/grids/gridcontrol/getViewSelector.md)
+##### [refresh](reference/grids/gridcontrol/refresh.md)
 ##### [refreshRibbon](reference/grids/gridcontrol/refreshRibbon.md)
 ##### [removeOnLoad](reference/grids/gridcontrol/removeOnLoad.md)
 #### [Grid](reference/grids/grid.md)
@@ -252,7 +255,7 @@
 ##### [getSelectedRows](reference/grids/grid/getSelectedRows.md)
 ##### [getTotalRecordCount](reference/grids/grid/getTotalRecordCount.md)
 #### [GridRow](reference/grids/gridrow.md)
-##### [getData](reference/grids/getData.md)-->
+##### [getData](reference/grids/getData.md)
 
 ### [Xrm.Device](reference/xrm-device.md)
 #### [captureAudio](reference/xrm-device/captureAudio.md)
