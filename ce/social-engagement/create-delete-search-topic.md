@@ -1,15 +1,19 @@
 ---
-title: "Manage search topics | Microsoft Docs"
+title: "Manage search topics in Social Engagement | Microsoft Docs"
 description: "Learn how to create a new search topic or delete an existing one in Social Engagement."
-ms.date: 09/12/2017
+keywords: "searches, search topic, search rules, gather data"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 9167aafd-1882-4187-add5-4bd874d3c21b
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Create or delete a search topic
 It’s important to start with a clear idea of what kind of online information you want to listen to. Set up new search topics and add at least one rule to each of them to find out what your audience is discussing in their public social media posts. You can also edit search topics you’ve created or delete them if they are no longer relevant.  
   
