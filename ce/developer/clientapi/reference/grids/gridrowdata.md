@@ -17,12 +17,13 @@ GridRowData is returned by the [GridRow](gridrow.md).[getData](gridrow/getData.m
 
 |Name|Description|
 |--|--|
-|data|A collection that returns the GridRowData for the GridRow. See [Collections (Client API reference)](../collections.md) for information on the methods available for accessing data in a collection.|
+|entity|A collection that returns the [GridRowEntity](gridrowentity.md) for the GridRowData. See [Collections (Client API reference)](../collections.md) for information on the methods available for accessing data in a collection.|
 
 
 ## Methods
 
 |Name|Description|
 |--|--|
+|[getEntity](gridrowdata/getEntity.md)|[!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)]|
 
 

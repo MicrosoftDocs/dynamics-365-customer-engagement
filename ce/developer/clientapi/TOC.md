@@ -255,7 +255,8 @@
 ##### [getSelectedRows](reference/grids/grid/getSelectedRows.md)
 ##### [getTotalRecordCount](reference/grids/grid/getTotalRecordCount.md)
 #### [GridRow](reference/grids/gridrow.md)
-##### [getData](reference/grids/getData.md)
+##### [getData](reference/grids/gridrow/getData.md)
+#### [GridRowData](reference/grids/gridrowdata.md)
 
 ### [Xrm.Device](reference/xrm-device.md)
 #### [captureAudio](reference/xrm-device/captureAudio.md)

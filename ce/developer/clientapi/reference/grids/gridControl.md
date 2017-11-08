@@ -22,7 +22,10 @@ GridControl or the gridContext is the instance of grid or subgrid on a form agai
 |[getFetchXml](gridcontrol/getFetchXml.md)|[!INCLUDE[gridcontrol/includes/getFetchXml-description.md](gridcontrol/includes/getFetchXml-description.md)]|
 |[getGrid](gridcontrol/getGrid.md)|[!INCLUDE[gridcontrol/includes/getGrid-description.md](gridcontrol/includes/getGrid-description.md)]|
 |[getGridType](gridcontrol/getGridType.md)|[!INCLUDE[gridcontrol/includes/getGridType-description.md](gridcontrol/includes/getGridType-description.md)]|
+|[getRelationship](gridcontrol/getRelationship.md)|[!INCLUDE[gridcontrol/includes/getRelationship-description.md](gridcontrol/includes/getRelationship-description.md)]|
+|[getUrl](gridcontrol/getUrl.md)|[!INCLUDE[gridcontrol/includes/getUrl-description.md](gridcontrol/includes/getUrl-description.md)]|
 |[getViewSelector](gridcontrol/getViewSelector.md)|[!INCLUDE[gridcontrol/includes/getViewSelector-description.md](gridcontrol/includes/getViewSelector-description.md)]|
+|[refresh](gridcontrol/refresh.md)|[!INCLUDE[gridcontrol/includes/refresh-description.md](gridcontrol/includes/refresh-description.md)]|
 |[refreshRibbon](gridcontrol/refreshRibbon.md)|[!INCLUDE[gridcontrol/includes/refreshRibbon-description.md](gridcontrol/includes/refreshRibbon-description.md)]|
 |[removeOnLoad](gridcontrol/removeOnLoad.md)|[!INCLUDE[gridcontrol/includes/removeOnLoad-description.md](gridcontrol/includes/removeOnLoad-description.md)]|
 
