@@ -21,7 +21,7 @@ manager: "amyla"
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)][!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources are deprecated in [!INCLUDE[pn-crm-9-0-0-online](.../includes/pn-crm-9-0-0-online.md)].
+> [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources are deprecated in [!INCLUDE[pn-crm-9-0-0-online](.../includes/pn-crm-9-0-0-online.md)].
 >  HTML5 is the preferred client technology for the web, over web plug-ins like Silverlight and Flash. HTML5 can be consumed from any device (PC, tablet, smartphone, and more) and heavily uses JavaScript (and many powerful JavaScript libraries, such as jQuery) and CSS. 
 > 
 > [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources remain supported in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for backwards compatibility in the web application only. [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] will not work for the Unified Interface.  For components that will be able to be presented on all clients, we recommend using HTML web resources with HTML5 instead of [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)].  
