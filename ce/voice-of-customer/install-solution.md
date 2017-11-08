@@ -87,8 +87,3 @@ Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-201
 The following limitation also applies if you're using Voice of the Customer version 9.0.781.3 or earlier. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
 -   Maximum number of survey responses you can pull per day: **2,400**.
-
-## Privacy notice
-
-[!INCLUDE[cc-privacy-crm-voice-of-customer](../includes/cc-privacy-crm-voice-of-customer.md)]
-

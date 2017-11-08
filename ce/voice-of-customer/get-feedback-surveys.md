@@ -76,3 +76,6 @@ A survey goes through various stages as you go from analyzing your requirements 
 
 -   Create and analyze reports
 
+## Privacy notice
+
+[!INCLUDE[cc-privacy-crm-voice-of-customer](../includes/cc-privacy-crm-voice-of-customer.md)]
