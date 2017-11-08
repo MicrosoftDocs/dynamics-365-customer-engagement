@@ -1,21 +1,19 @@
 ---
-title: "Analytics for locations | Microsoft Docs"
+title: "Analytics for locations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Social Engagement."
-description:
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "analytics, localtions, maps, location analysis"
+ms.date: 10/17/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 8aec5246-e411-4fb9-9790-2bcd94438038
-caps.latest.revision: 44
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # See the locations for the posts
 View the analysis for geographical location information contained in posts or in authors’ profiles. Using the **Location** page, you can view details such as top locations, top languages, and top location groups.  
   

@@ -1,15 +1,19 @@
 ---
-title: "Work with posts | Microsoft Docs"
+title: "Work with posts in Social Engagement | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
-ms.date: 09/12/2017
+keywords: "publish, sentiment, tag, assign"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: bf6392aa-e9e1-44b6-8f80-f17c21caa793
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Work with posts
 Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
   

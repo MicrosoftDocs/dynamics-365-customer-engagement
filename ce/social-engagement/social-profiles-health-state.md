@@ -1,15 +1,19 @@
 ---
-title: "Check the health state of your social profiles | Microsoft Docs"
-ms.custom: "Learn how to keep the tokens of your social profiles in a healthy state."
-ms.date: 09/12/2017
+title: "Check the health state of your social profiles in Scial Engagement | Microsoft Docs"
+description: "Learn how to keep the tokens of your social profiles in a healthy state."
+keywords: "token, health state"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 4d0153a1-4d21-4a73-8685-2ce2e6c55e9f
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
-author: "m-hartmann"
+topic-status: Drafting
 ---
+
 # Check the health state of your social profiles
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides health state checks for tokens, social profiles, acquisitions, and interactions so you can make sure your accounts are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will notify you through email and in the application when your critical acquisition tokens are about to expire. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   

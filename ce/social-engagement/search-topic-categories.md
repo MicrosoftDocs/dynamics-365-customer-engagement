@@ -1,17 +1,17 @@
 ---
-title: "Group search topics into categories | Microsoft Docs"
+title: "Group search topics into categories in Social Engagement | Microsoft Docs"
 description: "Learn how to use categories to group search topics."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "categories, search topic"
+ms.date: 10/17/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 09b50997-aa34-4c59-8eb5-949f5ea50f7a
-ms.author: "mhart"
+author: m-hartmann
+ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Group search topics into categories

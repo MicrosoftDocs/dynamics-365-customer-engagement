@@ -1,14 +1,17 @@
 ---
-title: "Manage global settings | Microsoft Docs"
+title: "Manage global settings for Social Engagement | Microsoft Docs"
 description: "Learn about how to configure global settings that apply to all users of Social Engagement."
-ms.date: 09/12/2017
+keywords: "administrator, settings, configuration"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 97fcbd04-f3ce-4591-9e17-4ac08017258c
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
 
 # Manage global settings

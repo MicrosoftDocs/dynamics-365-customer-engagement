@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/05/2017
+ms.date: 11/06/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -28,7 +28,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### User experience clean-up for Search Setup and Settings
 
-**Settings** and **Search Setup** now follow common patterns in how you confirm the web forms. It's clearer where to change the name of a search topic category or a search topic in the second panel instead of the overview panel. Quota information is now shown in the first panel to make sure all users have immediate access to it on any device.
+**Settings** and **Search Setup** now follow common patterns in how you confirm web forms. It's clearer where to change the name of a search topic category or a search topic in the second panel instead of the overview panel. Quota information is now shown in the first panel to make sure all users have immediate access to it on any device.
 
 ### Post list improved to give easy access to post details
 

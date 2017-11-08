@@ -1,15 +1,19 @@
 ---
-title: "Analytics for sources | Microsoft Docs"
+title: "Analytics for sources in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on the various data sources in Social Engagement."
-ms.date: 09/12/2017
+keywords: "sources, analytics, twitter, reddit, facebook, news, blogs, youtube, forums, rss"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Analyze the sources for the posts
 Understand which top social media sources are found most often in your search topics. Using the **Sources** page, you can view analytics such as top sources, top languages, and the sentiment values involved with the posts on these sources.  
   
