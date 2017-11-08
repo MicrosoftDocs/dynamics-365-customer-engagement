@@ -1,21 +1,24 @@
 ---
 title: "Web resources for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Web resources are virtual files that are stored in the Dynamics 365 database and that you can retrieve by using a unique URL address."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
- - "Dynamics 365 (online)"
+ms.service: crm-online
+ms.custom: 
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 46
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+topic-status: Drafting
 ---
+
 # Web resources for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
@@ -136,7 +139,19 @@ https://MyOrganization.crm.dynamics.com/WebResources/new_/test/test.htm
 http://myServer/MyOrganization/WebResources/new_/test/test.htm  
 ```  
   
- When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.  
+ When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.
+
+ ## Community tools
+
+ ### WebResources manager
+
+ [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) is a tool that [XrmToolBox](https://www.xrmtoolbox.com) developed for Microsoft Dynamics CRM. This tool helps you to create, update, delete, and preview web resources.
+
+ More Information: [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) 
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
   
 ### See also  
  [Write Client Application Extensions for Dynamics 365 Customer Engagement](extend-client.md)<br />
