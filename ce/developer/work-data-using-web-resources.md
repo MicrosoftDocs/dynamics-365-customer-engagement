@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources to access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] data from within the application. There are three web services you can use in the application to access data by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. The Organization data service is deprecated with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. It is recommended to use Web API instead of Organization service when creating applications that connect to the Microsoft Dynamics CRM web services and invoke methods to perform common business data operations like create, delete, update, and find.    
+You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources to access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] data from within the application. There are three web services you can use in the application to access data by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. The Organization data service is deprecated with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. It is recommended to use Web API instead of Organization service when creating applications that connect to the [!INCLUDE[cc_dyn365_ce_web_services](../includes/cc-dyn365-ce-web-services.md)] and invoke methods to perform common business data operations like create, delete, update, and find.    
   
 |Web Service|Description|  
 |-----------------|-----------------|  
