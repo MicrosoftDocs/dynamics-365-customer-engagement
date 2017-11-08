@@ -15,25 +15,6 @@ Segment your insights
 ==========================
 [!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-##What is segmentation?
-
-![](../media/SegmentationRightAudience650.png "Choose the right audience") 
-
-As customers move through the sales or service process, groups of customers can reach the same process point. You can use [!INCLUDE[pn-customer-insights](../../includes/pn-customer-insights-full.md)] to segment customers at that point so you can gather insights about them and take actions suitable for their stage.
-
-For example, you can target communications and offers for several weeks before a shopping deadline such as Valentine's Day, and show a different set of responses a few days before the deadline: "Your gift can still get there in time for Valentine's Day!"
-
-To segment your insights, you will:
-
-- Design marketing segments based on the complete customer journey.
-- Identify groups of customers who are at the same stage of their journey.
-- Automatically update segments based on the latest customer interactions.
-
-There are three types of segments:
-- Static: A static collection of profile data not automatically refreshed.
-- Dynamic: A collection of profile data automatically refreshed.
-- Compound: Combines Dynamic and Static segments.
-
 ##Create a static segment
 
 1.  Open your Customer Insights Customer 360 application.
@@ -171,3 +152,6 @@ The following steps show the creation of a compound segment of high credit card 
 Select a segment in the dashboard to see member and trendline information.
 
 ![](../media/SegmentInfo720.png "Segment member and trend information")
+
+### See also
+[What is segmentation?](newfeatures.md#what-is-segmentation)
