@@ -23,7 +23,7 @@ ms.author: "mkaur"
 
 Welcome to [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]. Here's a list of features we've added recently. For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/universal-resource-scheduling/).  
   
-## What's new in the July 2017 update  
+## What's new in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online)]  
  **Field Service**
  
  - **New Field Resource hub app for field techs**: Field techs can do basic tasks in the field like, view upcoming appointments, view and edit bookings, and complete service tasks using the new app. For more information, [Field Resource Hub User's Guide](../field-service/field-resource-hub-users-guide.md)
