@@ -60,142 +60,148 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 Now that you have a subscription list available, you can add it to a subscription form. The procedure is about the same as for adding other types of input fields to a form.
 
-1.  If you are still in the **Surveys** app, use the app selector to go back to the **Marketing** app.
+1. If you are still in the **Surveys** app, use the app selector to go back to the **Marketing** app.
 
-2.  In the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, go to **Marketing &gt; Internet Marketing &gt; Marketing Forms**.
+1. In the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, go to **Marketing &gt; Internet Marketing &gt; Marketing Forms**.
 
-3.  You now see a list of forms. Choose **New** from the command bar to create a new one.
+1. You now see a list of forms. Choose **New** from the command bar to create a new one.
 
-|                                                                                                                                                                                                                                                                                                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** You could instead edit an existing form by choosing it from the list, but for this exercise we’ll describe how to create a new one. Note that if you edit an existing form, then your edits will affect all marketing pages that use that form because forms are imported by reference, not copied into the page like template content. |
+    > [!TIP] You could instead edit an existing form by choosing it from the list, but for this exercise we’ll describe how to create a new one. Note that if you edit an existing form, then your edits will affect all marketing pages that use that form because forms are imported by reference, not copied into the page like template content.
 
-1.  The **Select a Form Template** dialog opens.
+1. The **Select a Form Template** dialog opens.  
+    ![How to find a subscription center template](media/form-template-subcenter.png "How to find a subscription center template")
 
-> ![How to find a subscription center template](media/form-template-subcenter.png "How to find a subscription center template")  
->
-> Do the following:
+    Do the following:
+    - It’s important to select a template of the correct type (subsection center), so start by filtering the template list by choosing the **Type** tab and then choose **Subscription center** from the drop-down list here.
+    - Choose a template (we’ll show the **1-Column Subscription Center** for this exercise) and then choose **Select**.
 
--   It’s important to select a template of the correct type (subsection center), so start by filtering the template list by choosing the **Type** tab and then choose **Subscription center** from the drop-down list here.
+1. Your selected template is now copied into your new form design.  
+    ![Edit the heading inserted by the form template](media/form-headings-from-template.png "Edit the heading inserted by the form template")
 
--   Choose a template (we’ll show the **1-Column Subscription Center** for this exercise) and then choose **Select**.
+    As you can see, the template has already provided the following:
+    - A basic contact-information form that includes several typical fields
+    - A **Do not email** check box (which is required for all subscription forms)
+    - A **Submit** button (which is required for all forms)
+    - Two headings with placeholder text surrounded with square brackets.
 
-1.  Your selected template is now copied into your new form design.
+    Work directly on the canvas to select and each of the placeholder headings (including the brackets) and replace them with actual headings (for example, “Update your contact information” and “Newsletter subscriptions”).
 
-> ![Edit the heading inserted by the form template](media/form-headings-from-template.png "Edit the heading inserted by the form template")  
->
-> As you can see, the template has already provided the following:
+    > [!TIP] Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo Latin (“lorum ipsum”) text as a placeholder for body text, and sometimes example text for headlines, but these don’t use square brackets because the text isn’t instructional.
 
--   A basic contact-information form that includes several typical fields
+1. In the **Toolbox** tab, scroll down until you find the **Subscription Lists** heading. You should see the subscription list that you just made listed here, plus any others that were already in your system. Drag it from the **Toolbox** to the space under the “Newsletter subscriptions” heading.  
+    ![Add a subscription list to the form](media/from-add-subscription-list.png "Add a subscription list to the form")
 
--   A **Do not email** check box (which is required for all subscription forms)
+    > [!TIP] Only forms of type “subscription center” show subscription lists in the **Toolbox**.
 
--   A **Submit** button (which is required for all forms)
-
--   Two headings with placeholder text surrounded with square brackets.
-
-> Work directly on the canvas to select and each of the placeholder headings (including the brackets) and replace them with actual headings (for example, “Update your contact information” and “Newsletter subscriptions”).
-
-|                                                                                                                                                                                                                                                                                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo Latin (“lorum ipsum”) text as a placeholder for body text, and sometimes example text for headlines, but these don’t use square brackets because the text isn’t instructional. |
-
-1.  In the **Toolbox** tab, scroll down until you find the **Subscription Lists** heading. You should see the subscription list that you just made listed here, plus any others that were already in your system. Drag it from the **Toolbox** to the space under the “Newsletter subscriptions” heading.
-
-> ![Add a subscription list to the form](media/from-add-subscription-list.png "Add a subscription list to the form")  
-
-|                                                                                               |
-|-----------------------------------------------------------------------------------------------|
-| **TIP:** Only forms of type “subscription center” show subscription lists in the **Toolbox**. |
-
-1.  Choose **Save** from the command bar to save your new form.
+1. Choose **Save** from the command bar to save your new form.
 
 ## Create a subscription center marketing page
 
 Go to **Marketing &gt; Internet Marketing &gt; Marketing Pages** and create a subscription center page using the same basic procedure that you used to create a landing page, but be sure to do the following:
 
-1.  Make sure the page **Type** is **Subscription Center**. (Or choose a marketing page template where **Type** is **Subscription Center**).
+1. Make sure the page **Type** is **Subscription Center**. (Or choose a marketing page template where **Type** is **Subscription Center**).
 
-2.  Include a **Form** block that references the subscription form you just made.
+1. Include a **Form** block that references the subscription form you just made.
 
-3.  Enter values for all other required fields (**Name** and **Partial URL**).
+1. Enter values for all other required fields (**Name** and **Partial URL**).
 
-4.  Choose **Check for Errors** and address any issues reported.
+1. Choose **Check for Errors** and address any issues reported.
 
-5.  Choose **Go Live**.
+1. Choose **Go Live**.
 
-For a detailed walkthrough of how to create a marketing page, see [Create a landing page with a form](create-landing-page.md).  
+For a detailed walkthrough of how to create a marketing page, see [Create a landing page with a form](create-landing-page.md).
 
 ## Identify a subscription center in content settings
 
-As you saw in [Create a marketing email and go live](create-marketing-email.md), content settings hold common values that you can place into an email message as dynamic text using assist edit (or by typing the correct code). You can create as many content settings records as needed and must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.  
+As you saw in [Create a marketing email and go live](create-marketing-email.md), content settings hold common values that you can place into an email message as dynamic text using assist edit (or by typing the correct code). You can create as many content settings records as needed and must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.
 
 To work with content settings records, go to **Marketing &gt; Templates &gt; Content Settings**. This brings to you a list of current content settings. As usual, you can edit any listed record or click **New** in the command bar to create a new one.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** Like email messages and customer journeys, content settings must be published to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service (by choosing **Go Live**). Once published, you can’t edit its values. If you need to edit a live content-settings record, choose **Stop** from the toolbar after opening the record and then make your changes. Remember to **Go Live** again when you are done editing. |
+> [!TIP] Like email messages and customer journeys, content settings must be published to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service (by choosing **Go Live**). Once published, you can’t edit its values. If you need to edit a live content-settings record, choose **Stop** from the toolbar after opening the record and then make your changes. Remember to **Go Live** again when you are done editing.
 
 Each field shown here (besides the **Name** and **Default** setting) can be referenced dynamically in your email messages. The two fields, **Address Main** and **Subscription Center** must be referenced in all marketing emails, so they are likewise required here.
 
-![Content-settings settings](media/content-settings-general.png "Content-settings settings")  
+![Content-settings settings](media/content-settings-general.png "Content-settings settings")
 
 To specify a subscription center:
 
-1.  Select the **Subscription Center** field.
+1. Select the **Subscription Center** field.
 
-2.  Choose the assist-edit button **&lt;/&gt;** for the **Subscription Center** field.
+1. Choose the assist-edit button **&lt;/&gt;** for the **Subscription Center** field.
 
-3.  A drop-down list opens. Choose **Marketing Page**. This identifies the type of entity you are referencing.
+1. A drop-down list opens. Choose **Marketing Page**. This identifies the type of entity you are referencing.  
+    ![Choose the Marketing Page entity](media/assist-edit-subcenter-1.png "Choose the Marketing Page entity")
 
-> ![Choose the Marketing Page entity](media/assist-edit-subcenter-1.png "Choose the Marketing Page entity")  
+1. Assist edit adds some code and then opens a new drop-down list that shows each marketing page available in your system. Choose the name of the subscription page you want to reference.  
+    ![Choose a specific marketing page](media/assist-edit-subcenter-2.png "Choose a specific marketing page")
 
-1.  Assist edit adds some code and then opens a new drop-down list that shows each marketing page available in your system. Choose the name of the subscription page you want to reference.
+1. Assist edit adds the GUID (a unique ID code) for the page you selected and then opens a third drop-down list that shows the names of several relevant attributes from the marketing-page entity. We are looking for the page URL, so choose **FullPageUrl**.  
+    ![Choose the field value to find with the expression](media/assist-edit-subcenter-3.png "Choose the field value to find with the expression")
 
-> ![Choose a specific marketing page](media/assist-edit-subcenter-2.png "Choose a specific marketing page")  
+    > [!TIP] The expression you just created using assist edit is of the form:
+    >
+    > **{{*EntityName*(*EntityID*).*AttributeName*}}**
+    >
+    > This expression evaluates to the value of the named attribute (in this case, the URL of a marketing page) from a record of the named entity and ID.
+    >
+    > Using similar techniques, you can also reference a **Forward to a Friend** page and can even construct **Address Main** by grabbing field values from an account record.
 
-1.  Assist edit adds the GUID (a unique ID code) for the page you selected and then opens a third drop-down list that shows the names of several relevant attributes from the marketing-page entity. We are looking for the page URL, so choose **FullPageUrl**.
-
-> ![Choose the field value to find with the expression](media/assist-edit-subcenter-3.png "Choose the field value to find with the expression")  
-
-|                                                                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TIP:** The expression you just created using assist edit is of the form:                                                                                               
-                                                                                                                                                                           
- **{{*EntityName*(*EntityID*).*AttributeName*}}**                                                                                                                          
-                                                                                                                                                                           
- This expression evaluates to the value of the named attribute (in this case, the URL of a marketing page) from a record of the named entity and ID.                       
-                                                                                                                                                                           
- Using similar techniques, you can also reference a **Forward to a Friend** page and can even construct **Address Main** by grabbing field values from an account record.  |
-
-1.  Make other content settings as needed. When you are done, **Save**, **Check for Errors** and **Go Live**.
+1. Make other content settings as needed. When you are done, **Save**, **Check for Errors** and **Go Live**.
 
 ## Identify the content settings to use in a customer journey
 
 As mentioned, content settings are defined on the customer journey level, and apply to all email messages sent by that journey. To view and edit the content settings applied to a journey:
 
-1.  Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**.
+1. Go to **Marketing &gt; Marketing Execution &gt; Customer Journeys**.
 
-2.  Find your journey in the list or click **New** in the command bar to create a new one.
+1. Find your journey in the list or click **New** in the command bar to create a new one.
 
-3.  Go to the **General** page of the customer journey record.
+1. Go to the **General** page of the customer journey record.  
+    ![Where to set content settings for a journey](media/journey-general-content-settings.png "Where to set content settings for a journey")
 
-> ![Where to set content settings for a journey](media/journey-general-content-settings.png "Where to set content settings for a journey")  
-
-1.  Use the **Content Settings** field to choose the content-setting record that applies to the current journey.
+1. Use the **Content Settings** field to choose the content-setting record that applies to the current journey.
 
 ## Include a subscription center link in a marketing email
 
 To add a subscription center link to a marketing email:
 
-1.  While working in a text block, add some link text (such as “manage subscriptions”) at an appropriate place.
+1. While working in a text block, add some link text (such as “manage subscriptions”) at an appropriate place.
 
-2.  Select the anchor text and then choose the **Link** button ![The link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog.  
+1. Select the anchor text and then choose the **Link** button ![The link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog.
 
-3.  Select the assist-edit button for the **Link** field and then choose **msdyncrm\_contentsettings** from the first drop-down list and **msdyncrm\_subscriptioncenter** from the second one to build the expression: **{{msdyncrm\_contentsettings.msdyncrm\_subscriptioncenter}}**.
+1. Select the assist-edit button for the **Link** field and then choose **msdyncrm\_contentsettings** from the first drop-down list and **msdyncrm\_subscriptioncenter** from the second one to build the expression: **{{msdyncrm\_contentsettings.msdyncrm\_subscriptioncenter}}**.  
+    ![The email Link dialog](media/email-link-dialog.png "The email Link dialog")  
 
-> ![The email Link dialog](media/email-link-dialog.png "The email Link dialog")  
+1. Choose **OK** to create the link.
 
-1.  Choose **OK** to create the link.
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)  
+## Create a segment based on a subscription list
+
+Once you have a subscription list set up, you’ll probably want to send regular email messages to your subscribers. To do this, you need to set up a marketing segment that finds all the contacts on a subscription list, and then use that segment as the first tile in a customer journey that automates your email deliveries and other initiatives.
+
+To set up a segment based on a subscription list:
+
+1. Go to **Marketing > Customers > Segments** and choose **New** from the command bar.
+
+1. The **New Segment** page opens, with the **General** tab shown. Fill out the information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.  
+    ![The General tab for the segment entity](media/segment-general-settings.png "The General tab for the segment entity")
+ 
+1. Open the **Definition** tab, and then go to the **Designer** sub tab.  
+    ![The Designer tab for the segment entity](media/segment-definition-designer-2.png "The Designer tab for the segment entity")
+
+1. The new segment already has a default expression here, which is set to query the _Contacts_ entity. But we need to start with the _Marketing List_ entity instead, so remove the default expression by choosing its close button.  
+    ![Choose the close button to remove the default clause](media/segment-designer-remove-clause.png "Choose the close button to remove the default clause")
+ 
+1. Now you have a blank expression with a single drop-down list marked **Select a profile or relationship**. Choose **Marketing List** from this drop-down list and then complete the expression so it will find your subscription list, such as: **Marketing List | Name | is | Newsletter**, which will find a marketing by name (if more than one list have the same name, then all lists with that name will be combined by this segment, so be careful).  
+    ![Select a profile or relationship](media/segment-select-first-profile.png "Select a profile or relationship")
+
+1. Now you’ve identified a list, but the segment needs to find contacts, so you need to combine the identified list with an expression that finds the contacts referenced by that list. Choose the **+And** button under your new expression to add another clause.  
+    ![Add a new AND clause](media/segment-add-and-clause.png "Add a new AND clause")
+
+1. A new clause is added to your expression using an AND operator. Set the new clause to find all the contacts in your list by setting it to **And | Contact | All&ast;**.  
+    ![The final subscription-list segment definition](media/segment-final-newsletter.png "The final subscription-list segment definition")
+
+1. Save your work.
+
+1. Your segment now includes all contacts from the specified marketing list. If needed, you can add more clauses and groups to narrow or expand the segment.
