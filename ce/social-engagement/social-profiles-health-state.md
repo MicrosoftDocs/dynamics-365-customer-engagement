@@ -1,6 +1,7 @@
 ---
 title: "Check the health state of your social profiles | Microsoft Docs"
-ms.custom: "Learn how to keep the tokens of your social profiles in a healthy state."
+description: "Learn how to keep the tokens of your social profiles in a healthy state."
+ms.custom: ""
 ms.date: 09/12/2017
 ms.service: mse
 ms.topic: article
