@@ -91,3 +91,10 @@ The following table describes the question types to use when you need to address
 |||
 
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  
+
+### See also
+
+[Design basic survey](design-basic-survey.md)
+[Design advanced survey](design-advanced-survey.md)
+[Distribute survey](distribute-survey.md)
+[Analyze survey data](analyze-survey-data.md)

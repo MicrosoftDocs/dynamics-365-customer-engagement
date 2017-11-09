@@ -129,7 +129,7 @@ The report is exported in the selected format.
 
 The survey dashboard allows you to view the summary of survey invitations and responses. You can select a combination of view and chart to see the results you're interested in. You can also create your personal, customized view to see the results.
 
-![Survey dashboad with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboad with invites and responses charts")  
+![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invites and responses charts")  
 
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
@@ -144,3 +144,10 @@ The survey dashboard allows you to view the summary of survey invitations and re
 5.  Select a view and chart from the view list and chart list, respectively. The corresponding chart is displayed.
 
 Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-dashboards)  
+
+### See also
+
+[Plan a survey](plan-survey.md)
+[Design basic survey](design-basic-survey.md)
+[Design advanced survey](design-advanced-survey.md)
+[Distribute survey](distribute-survey.md)

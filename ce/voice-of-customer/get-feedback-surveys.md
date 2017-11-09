@@ -60,8 +60,6 @@ A survey goes through various stages as you go from analyzing your requirements 
 
 -   Translate the survey as needed by the respondents
 
-<!-- -->
-
 -   Publish and test the survey
 
 **Step 3**: [Distribute the survey](distribute-survey.md)  

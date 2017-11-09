@@ -195,3 +195,10 @@ You can use the survey dashboard to track surveys you have sent to your responde
 5.  Select a view and chart from the view list and chart list, respectively—for example, **My Open Survey Invites** as the view and **Survey Invites By Month** as the chart. The corresponding chart is displayed.
 
     ![Survey dashboard chart](media/survey-dashboard-chart.png "Survey dashboard chart")  
+
+### See also
+
+[Plan a survey](plan-survey.md)
+[Design basic survey](design-basic-survey.md)
+[Design advanced survey](design-advanced-survey.md)
+[Analyze survey data](analyze-survey-data.md) 

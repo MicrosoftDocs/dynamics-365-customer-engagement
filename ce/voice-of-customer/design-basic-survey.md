@@ -377,3 +377,10 @@ You can close a survey on a designated date by specifying the **Close Date** whi
 If you want to stop the survey immediately, select **Stop** on the toolbar.
 
 We recommend that when you create a survey you specify a redirect URL to display to users when the survey is closed, stopped, or an error has occurred.
+
+### See also
+
+[Plan a survey](plan-survey.md)
+[Design advanced survey](design-advanced-survey.md)
+[Distribute survey](distribute-survey.md)
+[Analyze survey data](analyze-survey-data.md) 
