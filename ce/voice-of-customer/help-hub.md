@@ -31,12 +31,12 @@ topic-status: Drafting
   <td>Icon 2</td>
   <td><h2>Design</h2>
   <ul>
-  <li>Create a theme for the survey</li>
-  <li>Create the survey and add questions</li>
-  <li>Personalize the survey</li>
-  <li>Preview, publish, and test the survey</li>
-  <li>Translate the survey</li>
-  <li>Design an interactive survey</li>
+  <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
+  <li>[Create the survey](design-basic-survey.md#create-or-edit-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
+  <li>[Personalize the survey](design-basic-survey.md#personalize-a-survey)</li>
+  <li>[Preview, publish, and test the survey](design-basic-survey.md#preview,-publish,and-test-the-survey)</li>
+  <li>[Translate the survey](design-basic-survey.md#translate-a-survey)</li>
+  <li>[Design an interactive survey](design-advanced-survey.md#design-interactive-surveys-by-using-response-routing)</li>
   </ul>
   </td>
  </tr>
@@ -45,19 +45,18 @@ topic-status: Drafting
   <td>Icon 3</td>
   <td><h2>Distribute</h2>
   <ul>
-  <li>Personalize the survey invitation</li>
-  <li>Send the survey to anonymous or non-anonymous respondents</li>
-  <li>Track survey invitations</li>
+  <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
+  <li>Send the survey to [anonymous](distribute-survey.md#distribute-a-survey-to-anonymous-respondents) or [non-anonymous](distribute-survey.md#distribute-a-survey-to-non-anonymous-respondents) respondents</li>
+  <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
   </ul>
   </td>
   <td>Icon 4</td>
   <td><h2>Analyze</h2>
   <ul>
-  <li>View survey responses</li>
-  <li>Run and export reports</li>
-  <li>View survey invitations and responses in a dashboard</li>
+  <li>[View survey responses](analyze-survey-data.md#survey-responses)</li>
+  <li>[Run and export reports](analyze-survey-data.md#run-and-export-reports)</li>
+  <li>[View survey invitations and responses in a dashboard](analyze-survey-data.md#view-survey-invitations-and-responses)</li>
   </ul>  
   </td>
  </tr>
-
 </table>

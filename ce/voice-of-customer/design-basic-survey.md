@@ -248,7 +248,6 @@ You can add the following data as placeholders:
 > 
 > -   Piped data placeholders are replaced with the values specified in appropriate fields in a survey activity or invitation, or survey email.
 
-
 ## Preview, publish, and test the survey
 
 After you have created and edited a survey, you can preview, publish, and test the survey before distributing it to the respondents.
