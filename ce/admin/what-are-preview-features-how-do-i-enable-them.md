@@ -38,7 +38,6 @@ Preview features are features that aren’t complete, but are made available on 
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Live Assist for Dynamics 365 powered by Café X|[Preview Feature: Live Assist for Dynamics 365 powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|
 |Relationship analytics|[Preview feature: Use Relationship analytics to gather KPIs](relationship-analytics.md)|
 |Microsoft Cognitive Services integration|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|
 
