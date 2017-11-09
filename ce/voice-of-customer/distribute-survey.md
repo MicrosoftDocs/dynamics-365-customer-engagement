@@ -192,7 +192,7 @@ You can use the survey dashboard to track surveys you have sent to your responde
 
     ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
 
-5.  Select a view and chart from the view list and chart list, respectively—for example, **My Open Survey Invites** as the view and **Survey Invites By Month** as the chart. The corresponding chart is displayed.
+5.  Select a view and chart from the view list and chart list, respectively—for example, **My Open Survey Invites** as the view and **Survey Invites By Month** as the chart. The corresponding chart is displayed. 
 
     ![Survey dashboard chart](media/survey-dashboard-chart.png "Survey dashboard chart")  
 
