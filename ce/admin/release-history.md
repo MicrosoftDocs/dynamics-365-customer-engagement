@@ -41,7 +41,6 @@ Check out the following for more "What's new" and release history information:
 |[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
 |[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)|Added new topic. |
-<!-- |[Preview feature: Use Relationship analytics to gather KPIs ](relationship-analytics.md)|Added new topic.| -->
 
 ## Out-of-band topics
 
