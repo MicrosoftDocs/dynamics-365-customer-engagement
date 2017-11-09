@@ -12,11 +12,26 @@ ms.assetid: a88d9a7c-865c-45cc-be2a-fb5693a58268
 author: KumarVivek
 ms.author: kvivek
 manager: amyla
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-helpviewer_keywords: - "user settings"- "users, significant attributes"- "users and teams, introduction"- "systemuser entity"- "user accounts"- "access types, users"- "team entity"- "teams and users, introduction"- "users, noninteractive"- "records owned, users and teams"- "user license types"- "bulk-assigning of records"- "license types, users"- "system user (user) entity, user and team entities"- "user access types"- "records, bulk-assigning"- "users, synchronizing with Microsoft Office 365"- "security roles, users"- "teams, definition
-caps.latest.revision: 63
+helpviewer_keywords: 
+  - "user settings"
+  - "users, significant attributes"
+  - "users and teams, introduction"
+  - "systemuser entity"
+  - "user accounts"
+  - "access types, users"
+  - "team entity"
+  - "teams and users, introduction"
+  - "users, noninteractive"
+  - "records owned, users and teams"
+  - "user license types"
+  - "bulk-assigning of records"
+  - "license types, users"
+  - "system user (user) entity, user and team entities"
+  - "user access types"
+  - "records, bulk-assigning"
+  - "users, synchronizing with Microsoft Office 365"
+  - "security roles, users"
+  - "teams, definition"
 topic-status: Drafting
 ---
 
