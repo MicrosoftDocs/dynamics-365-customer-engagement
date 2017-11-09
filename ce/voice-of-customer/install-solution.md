@@ -33,7 +33,7 @@ After you've installed the Voice of the Customer for [!INCLUDE[pn-crm-2016-short
 2.  Select **Solutions**.
 
 3.  In the list of available solutions, select **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
-
+ 
 4.  In the **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] Configuration** screen, select **I agree to the terms and conditions** and select **Enable Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
 
 When the configuration is complete, you can start using the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution.
@@ -43,7 +43,7 @@ When the configuration is complete, you can start using the Voice of the Custome
 
 ## Install the Voice of the Customer solution, version 9.0 and later
 
-The Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution can be installed from [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)]. It is compatible with [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] version 8.2 and later.
+ The Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution can be installed from [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)]. It is compatible with [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] version 8.2 and later.
 
 > [!NOTE]
 > You must be a tenant administrator to install the solution.
@@ -89,9 +89,8 @@ The following limitation also applies if you're using Voice of the Customer vers
 -   Maximum number of survey responses you can pull per day: **2,400**.
 
 ### See also
-
-[Plan a survey](plan-survey.md) 
-[Design basic survey](design-basic-survey.md) 
-[Design advanced survey](design-advanced-survey.md) 
-[Distribute survey](distribute-survey.md) 
-[Analyze survey data](analyze-survey-data.md) 
+[Plan a survey](plan-survey.md)    
+[Design basic survey](design-basic-survey.md)   
+[Design advanced survey](design-advanced-survey.md)   
+[Distribute survey](distribute-survey.md)   
+[Analyze survey data](analyze-survey-data.md)   
