@@ -47,7 +47,6 @@ A few best practices will enable you to create a meaningful survey and gather go
 - **Define an objective**: Having an objective allows you to properly plan for your survey. This also allows you to identify what results you expect from your customers. You must know how you will use the responses to help you pick the right questions for your survey.
 
 - **Keep the survey short**: If you create a survey that takes a long time to complete, you might reduce your response rate.
-
 - **Create a logical flow of questions**: Ensure that your survey has a logical flow of questions to keep the respondents interested in the survey.
 
 - **Organize the survey**: Group the related questions in a section and place the related sections on a single page.
@@ -57,7 +56,6 @@ A few best practices will enable you to create a meaningful survey and gather go
 - **Preview and test the survey**: After creating your survey, always preview it to check the overall flow of the survey and to catch any mistakes. After publishing the survey, test it to ensure that respondents can find and open it easily.
 
 - **Mention expectations in the survey invitation**: In the survey invitation, ensure that you mention the estimated time to complete it and give a brief overview. This will help respondents submit their input within the expected timeframe.
-
 ## Decide the question type
 
 Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] question types.
@@ -93,8 +91,7 @@ The following table describes the question types to use when you need to address
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  
 
 ### See also
-
-[Design basic survey](design-basic-survey.md) 
-[Design advanced survey](design-advanced-survey.md) 
-[Distribute survey](distribute-survey.md) 
+[Design basic survey](design-basic-survey.md)   
+[Design advanced survey](design-advanced-survey.md)   
+[Distribute survey](distribute-survey.md)   
 [Analyze survey data](analyze-survey-data.md) 
