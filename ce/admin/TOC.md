@@ -233,7 +233,7 @@
 ## [Preview feature: Action cards reference](action-cards-reference.md)
 ## [Preview feature: Email engagement](email-engagement.md)
 ## [Preview feature: Auto capture](auto-capture.md)
-## [Preview feature: Relationship analytics](relationship-analytics.md)
+<!-- ## [Preview feature: Relationship analytics](relationship-analytics.md) -->
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)
 
