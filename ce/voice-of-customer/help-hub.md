@@ -34,7 +34,7 @@ topic-status: Drafting
   <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
   <li>[Create the survey](design-basic-survey.md#create-or-edit-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
   <li>[Personalize the survey](design-basic-survey.md#personalize-a-survey)</li>
-  <li>[Preview, publish, and test the survey](design-basic-survey.md#preview,-publish,and-test-the-survey)</li>
+  <li>[Preview, publish, and test the survey](design-basic-survey.md#preview-publish-and-test-the-survey)</li>
   <li>[Translate the survey](design-basic-survey.md#translate-a-survey)</li>
   <li>[Design an interactive survey](design-advanced-survey.md#design-interactive-surveys-by-using-response-routing)</li>
   </ul>
