@@ -11,11 +11,13 @@ manager: "amyla"
 ---
 # getUrl (Client API reference)
 
+[!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getUrl-description.md](./includes/getUrl-description.md)]
 
 ## Grid types supported
 
-Editable and Read-only grids
+Read-only grids
 
 ## Syntax
 

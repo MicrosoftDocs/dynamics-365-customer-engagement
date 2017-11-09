@@ -11,11 +11,13 @@ manager: "amyla"
 ---
 # getGridType (Client API reference) in Dynamics 365 Customer Engagement
 
+[!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getGridType-description.md](./includes/getGridType-description.md)]
 
 ## Grid types supported
 
-Editable and Read-only grids
+Read-only grids
 
 ## Syntax
 
