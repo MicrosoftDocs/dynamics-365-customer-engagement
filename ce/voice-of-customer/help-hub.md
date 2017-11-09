@@ -20,8 +20,8 @@ topic-status: Drafting
 
 <table>
  <tr>
-  <td align="bottom">![Get started](media/voc-icon-getstarted.png "Get started")</td>
-  <td><h2>Get started</h2>
+  <td align="center">![Get started](media/voc-icon-getstarted.png "Get started")</td>
+  <td align="center"><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
   <li>[Install Voice of the Customer solution](install-solution.md)</li>
