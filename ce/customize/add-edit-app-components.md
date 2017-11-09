@@ -60,8 +60,8 @@ An app is composed of various components. There are two types of components that
      The dashboard list will be filtered to show results that match your keywords.  
   
 3.  If you want your users to use only selected dashboards, select the check box for the dashboards you want to add. You can select from the following types of dashboards:
-    - **Classic Dashboards:** Dashboards to display on both web application and unified interface.
-    - **Interactive Dashboards:** Dashboards to display only on unified interface. If you have selected the client for the app as web application, the interactive dashboards option will not be displayed.
+    - **Classic Dashboards:** displays on both web application and unified interface.
+    - **Interactive Dashboards:** displays only on unified interface. If you have selected the client type for the app as web application, the interactive dashboards option will not be displayed.
 
      Those dashboards will be added to the Dashboard tile on the app designer canvas. The dashboard tile also shows a count of the number of dashboards added to the app. If you don't select a dashboard, all dashboards are available to  users when they use the app, and instead of the dashboard count, "All" is shown.  
   
@@ -77,7 +77,7 @@ An app is composed of various components. There are two types of components that
   
     > [!NOTE]
     > - When you're adding a business process flow or entity, the **Create New** option opens the corresponding designer. To learn more about creating business process flows or entities, see [Create a business process flow](../customize/create-business-process-flow.md) and [Create and edit entities](../customize/create-edit-entities.md).  
-    > - When you're adding a dashboard, you can only reference system and custom dashboards (except the interactive dashboards) that are  listed in the Dashboards node in the solution explorer.  
+      
   
 5.  When you're done adding artifacts, on the command bar, click **Save**.  
   
@@ -107,7 +107,7 @@ An app is composed of various components. There are two types of components that
   
      ![Form tile for case entity](../customize/media/add-forms-entity.png "Form tile for case entity")  
   
-     If a form, view, chart, dashboard, or business process flow isn't selected, it won't be added to the app designer,   but all entities that are in the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution are available to app users while using the app.  This helps users create apps quickly when they need to work with all available components—there's no need to select each component during app design.  
+     If a form, view, chart, dashboard, or business process flow isn't selected, all entities that are in the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution are available to users while using the app. This helps users create apps quickly when they need to work with all available components—there's no need to select each component during app design.  
   
     > [!NOTE]
     >  For the app to run, each entity that you add must have at least one active form. If you've selected multiple forms, the first active form  that appears in the default solution will be used when users run the app.  

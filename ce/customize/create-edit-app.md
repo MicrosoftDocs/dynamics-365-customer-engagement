@@ -36,11 +36,11 @@ Verify the following prerequisites befor you start creating the app:
 <a name="createApp"></a>   
 ## Create an app  
   
-1.  Go to **Settings** > **My Apps**, and then click **Create New App**. The app designer opens in a new browser tab.  
+1.  Go to **Settings** > **My Apps**, and then select **Create New App**. The app designer opens in a new browser tab.  
 
     ![Open app designer](../customize/media/app-designer-settings-apps.png "Open app designer")
   
-     -OR  
+     -OR-  
   
      Go to **Settings** > **Customizations** > **Customize the System**. On the solutions window select **Apps**, and then select **New** on the **Action** toolbar.  
 
@@ -88,7 +88,7 @@ Verify the following prerequisites befor you start creating the app:
      > [!NOTE]
      >  You can't change the unique name and app URL suffix in the **Properties** tab.  
   
-3. Click **Done** or, if you selected **Use an existing solution to create the App**, click **Next** to select from the available solutions that were imported in the organization.  
+3. Select **Done** or, if you selected **Use an existing solution to create the App**, select **Next** to select from the available solutions that were imported in the organization.  
   
     A new app is created and shows Draft status. You'll see the app designer canvas for the new app.  
   
@@ -97,11 +97,13 @@ Verify the following prerequisites befor you start creating the app:
 <a name="editApp"></a>   
 ## Edit an app  
   
-1.  Go to **Settings** > **My Apps**.  
+1. Go to **Settings** > **My Apps**.  
+
+-OR-
   
-     Go to **Settings** > **Customizations**. Click **Apps**, and then double-click the app you want to edit. The app designer opens.  
+  Go to **Settings** > **Customizations** > **Customize the System**. On the solutions window select **Apps**, and then double-click the app you want to edit.  
   
-2.  From the My Apps page you can search or filter to easily find an app.  
+2. From the My Apps page you can search or filter to easily find an app.  
   
     -   To search on the app name type the name in the **search my apps** box.  
   
@@ -109,16 +111,16 @@ Verify the following prerequisites befor you start creating the app:
   
     ![My Apps search and filter](../customize/media/app-designer-myapps.png "My Apps search and filter")  
   
-3.  To edit a published app, in the **Published Apps** view in the lower right corner of the app tile you want to edit, click the **More options** button ![More Options button in the app designer](../customize/media/apps-more-options-icon.png "More Options button in the app designer"), and then click **Open in App Designer**  
+3. To edit a published app, in the **Published Apps** view in the lower right corner of the app tile you want to edit, select the **More options** button (**...**), and then select **Open in App Designer**  
   
      -OR-  
   
-     To edit a draft app, in the **Apps Being Edited** view,  click the app tile to open the app in the app designer.  
+     To edit a draft app, in the **Apps Being Edited** view,  select the app tile to open the app in the app designer.  
   
      The app designer opens in a new browser tab.  
   
     > [!NOTE]
-    >  Alternatively, go to **Settings** > **Customizations**. Click **Apps**, and then double-click the app you want to edit.  
+    >  Alternatively, go to **Settings** > **Customizations** > **Customize the System**. On the solutions window select **Apps**, and then double-click the app you want to edit.  
   
 4.  Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
  
