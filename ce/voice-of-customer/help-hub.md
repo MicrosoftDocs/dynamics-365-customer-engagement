@@ -20,7 +20,7 @@ topic-status: Drafting
 
 <table>
  <tr>
-  <td>![Get started](media/VoC_Icon_GetStarted.svg "Get started")</td>
+  <td>![Get started](media/VoC_Icon_GetStarted.png "Get started")</td>
   <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
