@@ -19,8 +19,8 @@ topic-status: Drafting
 # Get feedback by using Voice of the Customer surveys
 
 You can create and send surveys to your customers to receive their valuable feedback about your products or services. The customers can take your surveys on a phone, tablet, or computer. With Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you create and distribute surveys and store survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] along with other [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] data. You can see your customer's feedback history as you work on a sales prospect (lead) or resolve a service case.
-
-When a customer completes a survey, leads can be created automatically based on the feedback. You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. Voice of the Customer provides the following workflows out-of-the-box.
+#
+#When a customer completes a survey, leads can be created automatically based on the feedback. You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. Voice of the Customer provides the following workflows out-of-the-box.
 
 | **Workflow name**                                  | **Primary entity** | **[!INCLUDE[description](../includes/description.md)]**                                                                             |
 |----------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------|
@@ -74,6 +74,6 @@ A survey goes through various stages as you go from analyzing your requirements 
 
 -   Create and analyze reports
 
-## Privacy notice
+### Privacy notice
 
 [!INCLUDE[cc-privacy-crm-voice-of-customer](../includes/cc-privacy-crm-voice-of-customer.md)]
