@@ -185,8 +185,7 @@ You can configure your survey to automatically send an email response to the cus
     More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email)  
 
 ### See also
-
-[Plan a survey](plan-survey.md) 
-[Design basic survey](design-basic-survey.md) 
-[Distribute survey](distribute-survey.md) 
-[Analyze survey data](analyze-survey-data.md)  
+[Plan a survey](plan-survey.md)   
+[Design basic survey](design-basic-survey.md)   
+[Distribute survey](distribute-survey.md)   
+[Analyze survey data](analyze-survey-data.md)   
