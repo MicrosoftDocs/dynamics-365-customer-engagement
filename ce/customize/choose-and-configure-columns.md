@@ -1,20 +1,25 @@
 ---
 title: "Choose and configure columns in views (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 31bfcf18-58c3-491c-91b5-f9b0f5424852
+author: kabala123
+ms.author: rdubois
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 25
-ms.author: "rdubois"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Choose and configure columns in views
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -120,6 +125,18 @@ manager: "brycho"
 3.  Select the fields that contain the data that you want to search for.  
   
 4.  Click **OK** to close the **Add Find Columns** dialog box.  
+
+## Community tools
+
+### View layout replicator
+[View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator) is a tool that [XrmToolBox](https://www.xrmtoolbox.com) developed for Microsoft Dynamics CRM. This tool helps you to copy and apply the layout of a particular view to multiple views of the same entity.
+
+More information: [View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator)
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
+
 
 ### See also
 [Create or edit views](create-edit-views.md)

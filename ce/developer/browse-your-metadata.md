@@ -1,6 +1,7 @@
 ---
 title: "Browse the metadata for your organization (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: "You can use the Entity Metadata Browser to view entities and their properties in Dynamics 365 Customer Engagement. The Entity Metadata Browser is a managed solution you can download and install on your organization."
+description: "You can use the Entity Metadata Browser to view entities and their properties in Dynamics 365 Customer Engagement. The Entity Metadata Browser is a managed solution you can download and install on your organization."
+ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
