@@ -20,7 +20,7 @@ topic-status: Drafting
 
 <table>
  <tr>
-  <td align="bottom">![Get started](media/voc-test-icon.png "Get started")</td>
+  <td align="bottom">![Get started](media/voc-icon-getstarted.png "Get started")</td>
   <td><h1>Get started</h1>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
@@ -28,7 +28,7 @@ topic-status: Drafting
   <li>[Best practices to create a survey](plan-survey.md#best-practices-to-create-a-survey)</li>
   <li>[Decide the type of questions to include in the survey](plan-survey.md#decide-the-question-type)</li>
   </ul></td>
-  <td>![Get started](media/voc-test-icon.png "Get started")</td>
+  <td>![Get started](media/voc-icon-getstarted.png "Get started")</td>
   <td><font size="32"> Design</font>
   <ul>
   <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
