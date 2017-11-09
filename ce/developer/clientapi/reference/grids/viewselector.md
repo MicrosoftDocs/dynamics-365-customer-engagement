@@ -11,11 +11,29 @@ manager: "amyla"
 ---
 # ViewSelector methods (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Provides methods to get or set information about the view selector of the subgrid control. If the subgrid control is not configured to display the view selector, calling the **ViewSelector** methods will throw an error.
+
+ViewSelector is available only for read-only grids. ViewSelector is returned by the **gridContext**.[getViewSelector](gridcontrol/getViewSelector.md) method.
+
+```JavaScript
+var viewSelector = gridContext.getViewSelector();
+```
 
 Methods
 
-|Name|Description|
-|--|--|
+|Name|Description|Available for|
+|--|--|--|
+|[getCurrentView](viewselector/getCurrentView.md)|[!INCLUDE[viewselector/includes/getCurrentView-description.md](viewselector/includes/getCurrentView-description.md)]|Read-only grid|
+|[isVisible](viewselector/isVisible.md)|[!INCLUDE[viewselector/includes/isVisible-description.md](viewselector/includes/isVisible-description.md)]|Read-only grid|
+|[setCurrentView](viewselector/setCurrentView.md)|[!INCLUDE[viewselector/includes/setCurrentView-description.md](viewselector/includes/setCurrentView-description.md)]|Read-only grid|
+
+
+### Related topics
+
+[gridContext](../grids.md#bkmk_gridcontext)
+
+[Grids and subgrids in Customer Engagement](../grids.md)
 
 

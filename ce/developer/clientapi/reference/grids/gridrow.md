@@ -13,6 +13,11 @@ manager: "amyla"
 
 A collection of GridRow is returned by [Grid](grid.md).[getRows](grid/getRows.md) and [Grid](grid.md).[getSelectedRows](grid/getSelectedRows.md) methods.
 
+```JavaScript
+var myRows = gridContext.getGrid().getRows();
+var gridRow = myRows.get(arg);
+```
+
 ## Properties
 
 |Name|Description|

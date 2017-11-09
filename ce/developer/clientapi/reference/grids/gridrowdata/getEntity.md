@@ -27,5 +27,5 @@ Editable and Read-only grids
 
 ## Remarks
 
-To get the `gridRowData` object, see [GridRowData (Client API reference)](../gridrowdata.md). 
+To get the `gridRowData` object, see [GridRowData](../gridrowdata.md). 
 

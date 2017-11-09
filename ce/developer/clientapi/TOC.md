@@ -259,6 +259,17 @@
 #### [GridRowData](reference/grids/gridrowdata.md)
 ##### [getEntity](reference/grids/gridrowdata/getEntity.md)
 #### [GridEntity](reference/grids/gridentity.md)
+##### [getEntityName](reference/grids/gridentity/getEntityName.md)
+##### [getEntityReference](reference/grids/gridentity/getEntityReference.md)
+##### [getId](reference/grids/gridentity/getId.md)
+##### [getPrimaryAttributeValue](reference/grids/gridentity/getPrimaryAttributeValue.md)
+#### [GridAttribute](reference/grids/gridattribute.md)
+#### [GridCell](reference/grids/gridcell.md)
+#### [ViewSelector](reference/grids/viewselector.md)
+##### [getCurrentView](reference/grids/viewselector/getCurrentView.md)
+##### [isVisible](reference/grids/viewselector/isVisible.md)
+##### [setCurrentView](reference/grids/viewselector/setCurrentView.md)
+
 
 ### [Xrm.Device](reference/xrm-device.md)
 #### [captureAudio](reference/xrm-device/captureAudio.md)

@@ -19,11 +19,7 @@ Editable and Read-only grids
 
 ## Syntax
 
-```
-var myRows = gridContext.getGrid().getRows();
-var myRow = myRows.get(arg);
-myRow.getData();
-```
+`gridRow.getData();`
 
 ## Return Value
 
@@ -31,5 +27,5 @@ myRow.getData();
 
 ## Remarks
 
-To get the `gridContext`, see [Getting the grid context](../../grids.md#bkmk_gridcontext). 
+To get the `gridRow` object, see [GridRow](../gridrow.md). 
 

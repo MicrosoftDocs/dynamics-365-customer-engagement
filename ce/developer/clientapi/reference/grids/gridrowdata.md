@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # GridRowData (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 GridRowData is returned by the [GridRow](gridrow.md).[getData](gridrow/getData.md) method.
 
 GridRowData also provides methods for retrieving information specific to a record displayed in an editable grid row, including a collection of all the attributes included in the row. Attribute data is limited to the columns presented by the editable grid. See [Collections (Client API reference)](../collections.md) for information on the methods available to access data in a collection.
