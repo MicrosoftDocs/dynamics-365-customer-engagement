@@ -380,7 +380,7 @@ We recommend that when you create a survey you specify a redirect URL to display
 
 ### See also
 
-[Plan a survey](plan-survey.md)
-[Design advanced survey](design-advanced-survey.md)
-[Distribute survey](distribute-survey.md)
-[Analyze survey data](analyze-survey-data.md) 
+[Plan a survey](plan-survey.md) 
+[Design advanced survey](design-advanced-survey.md) 
+[Distribute survey](distribute-survey.md) 
+[Analyze survey data](analyze-survey-data.md)  

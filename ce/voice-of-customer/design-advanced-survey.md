@@ -186,7 +186,7 @@ You can configure your survey to automatically send an email response to the cus
 
 ### See also
 
-[Plan a survey](plan-survey.md)
-[Design basic survey](design-basic-survey.md)
-[Distribute survey](distribute-survey.md)
-[Analyze survey data](analyze-survey-data.md) 
+[Plan a survey](plan-survey.md) 
+[Design basic survey](design-basic-survey.md) 
+[Distribute survey](distribute-survey.md) 
+[Analyze survey data](analyze-survey-data.md)  

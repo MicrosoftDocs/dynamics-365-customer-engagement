@@ -90,8 +90,8 @@ The following limitation also applies if you're using Voice of the Customer vers
 
 ### See also
 
-[Plan a survey](plan-survey.md)
-[Design basic survey](design-basic-survey.md)
-[Design advanced survey](design-advanced-survey.md)
-[Distribute survey](distribute-survey.md)
-[Analyze survey data](analyze-survey-data.md)
+[Plan a survey](plan-survey.md) 
+[Design basic survey](design-basic-survey.md) 
+[Design advanced survey](design-advanced-survey.md) 
+[Distribute survey](distribute-survey.md) 
+[Analyze survey data](analyze-survey-data.md) 

@@ -20,8 +20,8 @@ topic-status: Drafting
 
 <table>
  <tr>
-  <td align="center">![Get started](media/voc-icon-getstarted.png "Get started")</td>
-  <td align="center"><h2>Get started</h2>
+  <td>![Get started](media/voc-icon-getstarted.png "Get started")</td>
+  <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
   <li>[Install Voice of the Customer solution](install-solution.md)</li>
@@ -42,7 +42,7 @@ topic-status: Drafting
  </tr>
 
   <tr>
-  <td>![Get started](media/voc-test-icon.png "Get started")</td>
+  <td>![Get started](media/voc-icon-getstarted.png "Get started")</td>
   <td><h2>Distribute</h2>
   <ul>
   <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
@@ -50,7 +50,7 @@ topic-status: Drafting
   <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
   </ul>
   </td>
-  <td>![Get started](media/voc-test-icon.png "Get started")</td>
+  <td>![Get started](media/voc-icon-getstarted.png "Get started")</td>
   <td><h2>Analyze</h2>
   <ul>
   <li>[View survey responses](analyze-survey-data.md#survey-responses)</li>
