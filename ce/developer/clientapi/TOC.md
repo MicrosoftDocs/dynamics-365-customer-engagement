@@ -247,6 +247,7 @@
 ##### [getRelationship](reference/grids/gridcontrol/getRelationship.md)
 ##### [getUrl](reference/grids/gridcontrol/getUrl.md)
 ##### [getViewSelector](reference/grids/gridcontrol/getViewSelector.md)
+##### [openRelatedGrid](reference/grids/gridcontrol/openRelatedGrid.md)
 ##### [refresh](reference/grids/gridcontrol/refresh.md)
 ##### [refreshRibbon](reference/grids/gridcontrol/refreshRibbon.md)
 ##### [removeOnLoad](reference/grids/gridcontrol/removeOnLoad.md)

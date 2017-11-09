@@ -11,6 +11,8 @@ manager: "amyla"
 ---
 # getRelationship (Client API reference)
 
+[!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getRelationship-description.md](./includes/getRelationship-description.md)]
 
 ## Grid types supported
@@ -41,6 +43,8 @@ Read-only grids
 To get the `gridContext`, see [Getting the grid context](../../grids.md#bkmk_gridcontext).
 
 ### Related topics
+
+[openRelatedGrid](openRelatedGrid.md)
 
 [Customize entity relationship metadata](../../../../customize-entity-relationship-metadata.md)
 
