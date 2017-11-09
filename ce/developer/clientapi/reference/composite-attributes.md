@@ -1,7 +1,7 @@
 ---
 title: "Composite attributes in Dynamics 365 Customer Engagement in Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about the attribute addOnchange method to set a function to be called when the attribute value is changed." 
-ms.date: 10/31/2017
+ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -16,7 +16,7 @@ manager: "amyla"
 
 Some fields added to a form can represent multiple items of data. These *composite attributes* behave differently from other attributes when displayed in the web application and you must write scripts differently to use them properly.
 
-The following table lists the composite attributes availavle in Customer Engagement:
+The following table lists the composite attributes available in Customer Engagement:
 
 <table>
     <tbody>

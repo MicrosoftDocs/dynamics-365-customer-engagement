@@ -49,6 +49,7 @@
 #### [preventDefault](reference/save-event-arguments/preventDefault.md)
 
 ### [Attributes](reference/attributes.md)
+#### [Composite attributes](reference/composite-attributes.md)
 #### [addOnChange](reference/attributes/addOnChange.md)
 #### [controls collection](reference/attributes/controls-collection.md)
 #### [fireOnChange](reference/attributes/fireOnChange.md)
