@@ -19,7 +19,7 @@ topic-status: Drafting
 # Voice of the customer help and training
 
 <div>
-![Get started](media/VoC-Icon-GetStarted.svg "Get started")
+![Get started](media/voc-icon-getstarted.svg "Get started")
 </div>
 <div>
 <h3>Get started</h3>
