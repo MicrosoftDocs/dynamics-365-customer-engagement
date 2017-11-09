@@ -1,0 +1,1 @@
+Returns the [GridEntity](../../gridentity.md) for the GridRowData.

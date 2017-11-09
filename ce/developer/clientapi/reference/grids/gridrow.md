@@ -1,6 +1,6 @@
 ---
 title: "GridRow (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -11,23 +11,32 @@ manager: "amyla"
 ---
 # GridRow (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 A collection of GridRow is returned by [Grid](grid.md).[getRows](grid/getRows.md) and [Grid](grid.md).[getSelectedRows](grid/getSelectedRows.md) methods.
+
+```JavaScript
+var myRows = gridContext.getGrid().getRows();
+var gridRow = myRows.get(arg);
+```
 
 ## Properties
 
-|Name|Description|
-|--|--|
-|data|A collection containing the [GridRowData](gridrowdata.md) for the GridRow. See [Collections (Client API reference)](../collections.md) for information on the methods available for accessing data in a collection.|
+|Name|Description|Available for|
+|--|--|--|
+|data|A collection containing the [GridRowData](gridrowdata.md) for the GridRow. See [Collections (Client API reference)](../collections.md) for information on the methods available for accessing data in a collection.|Editable and read-only grids|
 
 
 ## Methods
 
-|Name|Description|
-|--|--|
-|[getData](gridrow/getData.md)|[!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)]|
+|Name|Description|Available for|
+|--|--|--|
+|[getData](gridrow/getData.md)|[!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)]|Editable and read-only grids|
 
 ### Related topics
 
 [GridRowData](gridrowdata.md)
+
+[Grids and subgrids in Customer Engagement](../grids.md)
 
 

@@ -1,6 +1,6 @@
 ---
 title: "GridRowData (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -11,18 +11,29 @@ manager: "amyla"
 ---
 # GridRowData (Client API reference)
 
+[!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 GridRowData is returned by the [GridRow](gridrow.md).[getData](gridrow/getData.md) method.
+
+GridRowData also provides methods for retrieving information specific to a record displayed in an editable grid row, including a collection of all the attributes included in the row. Attribute data is limited to the columns presented by the editable grid. See [Collections (Client API reference)](../collections.md) for information on the methods available to access data in a collection.
+
+```JavaScript
+var myRows = gridContext.getGrid().getRows();
+var myRow = myRows.get(arg);
+var gridRowData = myRow.getData();
+```
 
 ## Properties
 
-|Name|Description|
-|--|--|
-|data|A collection that returns the GridRowData for the GridRow. See [Collections (Client API reference)](../collections.md) for information on the methods available for accessing data in a collection.|
+|Name|Description|Available for|
+|--|--|--|
+|entity|Returns the [GridEntity](gridentity.md) for the GridRowData.|Editable and read-only grids|
 
 
 ## Methods
 
-|Name|Description|
-|--|--|
+|Name|Description|Available for|
+|--|--|--|
+|[getEntity](gridrowdata/getEntity.md)|[!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)]|Editable and read-only grids|
 
 

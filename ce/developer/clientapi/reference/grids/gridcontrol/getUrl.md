@@ -1,6 +1,6 @@
 ---
 title: "getUrl (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -11,11 +11,13 @@ manager: "amyla"
 ---
 # getUrl (Client API reference)
 
+[!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getUrl-description.md](./includes/getUrl-description.md)]
 
 ## Grid types supported
 
-Editable and Read-only grids
+Read-only grids
 
 ## Syntax
 

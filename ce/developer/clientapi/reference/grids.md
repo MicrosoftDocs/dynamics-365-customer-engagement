@@ -13,10 +13,6 @@ manager: "amyla"
 
 [!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../../../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../../../includes/cc-under-construction.md)]
-
-
 Grids present data in a tabular format in Customer Engagement. Grids can span the entire form or can be one of the items on a form; the latter are called *subgrids*.
 
 ## Types of grids
@@ -52,5 +48,21 @@ function doSomething(executionContext) {
 
 ## Methods
 
->[!NOTE]
->We are still working on adding reference information about Client API methods for grids.
+|Name|Description|Available for|
+|--|--|--|
+|[GridControl](grids/gridcontrol.md)|Provides methods to work with the grid or subgrid control.|Editable and read-only grids|
+|[Grid](grids/grid.md)|Provides methods to access information about data in the grid.|Editable and read-only grids|
+|[GridRow](grids/gridrow.md)|Provides methods to work with rows or selected rows in the grid.|Editable and read-only grids|
+|[GridRowData](grids/gridrowdata.md)|Provides methods to work with rows or selected rows in the grid.|Editable and read-only grids|
+|[GridEntity](grids/gridentity.md)|Provides methods to access data about the specific records in the rows.|Editable and read-only grids|
+|[GridAttribute](grids/gridattribute.md)|Provides methods to access the data in the cell of an editable grid.|Editable grid|
+|[GridCell](grids/gridcell.md)|Provides methods to access the data related to control on a form that is tied to an attribute in an editable grid.|Editable grid|
+|[ViewSelector](grids/viewselector.md)|Provides methods to get or set information about the view selector of the subgrid control.|Read-only grid|
+
+
+### Related topics
+
+[Client API Reference for Customer Engagement](../reference.md)
+
+[Client API grid context](../clientapi-grid-context.md)
+
