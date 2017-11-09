@@ -86,7 +86,7 @@ You can perform the following actions:
 
 ## Community tools
 
-### Metadata Brwoser
+### Metadata brwoser
 
 [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) is a tool that [XrmToolBox](https://www.xrmtoolbox.com) developed for Microsoft Dynamics CRM. This tool helps you browse metadata from your Dynamics CRM organization.
 
