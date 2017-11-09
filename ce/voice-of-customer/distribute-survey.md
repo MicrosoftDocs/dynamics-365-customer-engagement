@@ -197,8 +197,7 @@ You can use the survey dashboard to track surveys you have sent to your responde
     ![Survey dashboard chart](media/survey-dashboard-chart.png "Survey dashboard chart")  
 
 ### See also
-
-[Plan a survey](plan-survey.md) 
-[Design basic survey](design-basic-survey.md) 
-[Design advanced survey](design-advanced-survey.md) 
+[Plan a survey](plan-survey.md)   
+[Design basic survey](design-basic-survey.md)   
+[Design advanced survey](design-advanced-survey.md)   
 [Analyze survey data](analyze-survey-data.md)  
