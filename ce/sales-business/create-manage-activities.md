@@ -27,7 +27,7 @@ To get the most out of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-
 
 ## Find your activities
 
-Click the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the site map"), and then click one of the following:  
+Select the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the site map"), and then select one of the following:  
 
 -   Task
 
@@ -41,9 +41,9 @@ Click the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon t
 
 You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed tasks, or to see emails that you sent.
 
-1.  Go to the activity list. For example, to see the emails that you sent, click the Menu icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the menu"), and then click **Email Messages**.  
+1.  Go to the activity list. For example, to see the emails that you sent, select the Site Map icon ![Site Map icon](media/Site-map-icon.png "Icon to open the menu"), and then select **Email Messages**.  
 
-2.  Click the down arrow next to the view name at the top of the page, and select the **My Sent** **Emails** view.
+2.  Select the down arrow next to the view name at the top of the page, and select the **My Sent** **Emails** view.
 
   ![Drop-down list to select a view](media/view-drop-down-list.png "Drop-down list to select a view")  
 
@@ -55,7 +55,7 @@ As your organization’s relationship with a customer develops over time, you an
 
 1.  Open the record you want to add the activity to.
 
-2.  In the Timeline section, click **+** and click the type of activity you want to add.
+2.  In the Timeline section, select **+** and select the type of activity you want to add.
 
 ## Add an activity for yourself  
 
@@ -63,17 +63,17 @@ Add a task or note for yourself when you want a reminder to do something persona
 
 Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record, so those activities become part of the history that other people on your team can view.
 
-1.  Click the Site Map icon ![Menu icon](media/Site-map-icon.png "Icon to open the site map"), and then click **&lt;Activity Type&gt;**. For example, click **Tasks**.  
+1.  Select the Site Map icon ![Site map icon](media/Site-map-icon.png "Icon to open the site map"), and then select **&lt;Activity Type&gt;**. For example, select **Tasks**.  
 
 
   ![Menu showing the activity type "Task"](media/activity-type-in-menu.png "Menu showing the activity type "Task"")  
 
-2.  On the nav bar, click **&lt;Activity Type&gt;**. For example, **Tasks**.
+2.  On the nav bar, select **&lt;Activity Type&gt;**. For example, **Tasks**.
 
   ![Command bar button for creating a new activity type "Task"](media/activity-type-command-bar-button.png "Command bar button for creating a new activity type "Task"")  
 
 
-3.  Fill in the fields, and then click **Save**.
+3.  Fill in the fields, and then select **Save**.
 
 ## Mark an activity complete  
 
@@ -81,7 +81,7 @@ After you call someone, complete a task, send an email, or go to an appointment,
 
 1.   Open the activity.
 
-2.   On the command bar, click **Mark Complete**.
+2.   On the command bar, select **Mark Complete**.
 
   ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
 

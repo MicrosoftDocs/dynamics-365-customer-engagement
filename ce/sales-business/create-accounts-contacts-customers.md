@@ -29,9 +29,9 @@ You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[
 
 ## Create or edit an account
 
-1.  Click the Site Map icon ![Menu icon](media/Site-map-icon.png "Icon to open the site map"), and then click **Accounts**.
+1.  Select the Site Map icon ![Site Map icon](media/Site-map-icon.png "Icon to open the site map"), and then select **Accounts**.
 
-2.  To create a new account, choose **New**.
+2.  To create a new account, select **New**.
 
     -OR-
  
@@ -54,7 +54,7 @@ You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[
  **Details tab.** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
  **Related tab.** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
 
-3.  Click **Save**.
+3.  Select **Save**.
 
 ## Create or edit a contact
 
@@ -64,9 +64,9 @@ Account and contact forms are very similar as they store similar information abo
 
 To create or edit a contact
 
-1.  Click the Site Map icon ![Menu icon](media/Site-map-icon.png "Icon to open the site map"), and then click **Contacts**.
+1.  Select the Site Map icon ![Menu icon](media/Site-map-icon.png "Icon to open the site map"), and then select **Contacts**.
 
-2.  To create a new contact, choose **New**.
+2.  To create a new contact, select **New**.
 
     -OR-
 
@@ -90,7 +90,7 @@ To create or edit a contact
 
     The rest of the sections are similar to that of an account form.
 
-4.  Click **Save** on the lower right corner.
+4.  Select **Save** on the lower right corner.
 
 ### See Also
 
