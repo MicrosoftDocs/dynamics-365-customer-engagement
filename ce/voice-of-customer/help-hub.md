@@ -20,7 +20,7 @@ topic-status: Drafting
 
 <table>
  <tr>
-  <td>![Get started](media/voc-icon-getstarted.png "Get started")</td>
+  <td>![Get started](media/voc-test-icon.png "Get started")</td>
   <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
@@ -28,7 +28,7 @@ topic-status: Drafting
   <li>[Best practices to create a survey](plan-survey.md#best-practices-to-create-a-survey)</li>
   <li>[Decide the type of questions to include in the survey](plan-survey.md#decide-the-question-type)</li>
   </ul></td>
-  <td>![Get started](media/voc-icon-getstarted.svg "Get started")</td>
+  <td>![Get started](media/voc-test-icon.png "Get started")</td>
   <td><h2>Design</h2>
   <ul>
   <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
@@ -42,7 +42,7 @@ topic-status: Drafting
  </tr>
 
   <tr>
-  <td>Icon 3</td>
+  <td>![Get started](media/voc-test-icon.png "Get started")</td>
   <td><h2>Distribute</h2>
   <ul>
   <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
@@ -50,7 +50,7 @@ topic-status: Drafting
   <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
   </ul>
   </td>
-  <td>Icon 4</td>
+  <td>![Get started](media/voc-test-icon.png "Get started")</td>
   <td><h2>Analyze</h2>
   <ul>
   <li>[View survey responses](analyze-survey-data.md#survey-responses)</li>
