@@ -2,18 +2,20 @@
 title: "Create segments and lists to establish target markets in Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
 keywords: "segment; marketing list; subscription; Customer Insights"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Market segmentation, marketing lists, and subscription lists
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -75,19 +77,4 @@ As mentioned earlier in this topic, static segments are populated by adding cont
 
 Use the marketing lists feature to set up a static list, which the system will automatically synchronize with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. After you've set up the marketing list, you'll be able to use it to create your static or compound segments for use in customer journeys.
 
-To set up a marketing list:
-
-1. Go to **Marketing** &gt; **Customers** &gt; **Marketing Lists**.
-
-1. Use the standard list controls to find and select an existing marketing list, or select **New** to create a new one.
-
-1. Make the following settings:
-
-    - **Name**: Identifies the mailing list within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Choose a name that you and others will recognize.
-    - **Subscription**: Set to True if you are planning to use the current list as a subscription list for a subscription center. Later, when you're setting up a subscription center, you'll only be able to add lists where Subscription is True. Set this to False if you're creating a static list for use with customer journeys only.
-    - **List Type**: When creating lists for use in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll almost always set this to Static. (Other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps can also use dynamic marketing lists, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] for this to provide more power and flexibility.)
-    - **Targeted At**: When creating lists for use in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll almost always set this to Contact. (Other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps can also use marketing lists of leads or accounts, but those aren't useful in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].)
-
-    Other settings are available, but optional. Fill them out if you'd like to provide more information about the list.
-
-1. Select **Save** to save your list.
+For details about how to create marketing lists and use them in subscription centers and segments, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).

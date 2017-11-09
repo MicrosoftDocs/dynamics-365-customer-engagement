@@ -36,9 +36,9 @@
 ## [Create and run online surveys](surveys.md)
 
 # [Manage, score, and qualify leads](qualify-leads-section.md)
+## [Score and manage leads](score-manage-leads.md)
 ## [Register contacts' engagement](register-engagement.md)
 ## [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
-## [Score and manage leads](score-manage-leads.md)
 
 # [Analyze marketing results](analyze-results-section.md)
 ## [Explore results with Power BI](Power-BI-analytics.md)
