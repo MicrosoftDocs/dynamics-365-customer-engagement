@@ -1,5 +1,5 @@
 ---
-title: "JavaScript web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Script(JScript) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about using JavaScript web resources to create a library of JavaScript functions that can be accessed from anywhere. "
 ms.custom: ""
 ms.date: 10/31/2017
