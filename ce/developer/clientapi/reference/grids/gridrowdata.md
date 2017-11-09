@@ -27,7 +27,7 @@ var gridRowData = myRow.getData();
 
 |Name|Description|Available for|
 |--|--|--|
-|entity|Returns the [GridEntity](../../gridentity.md) for the GridRowData.|Editable and read-only grids|
+|entity|Returns the [GridEntity](gridentity.md) for the GridRowData.|Editable and read-only grids|
 
 
 ## Methods
