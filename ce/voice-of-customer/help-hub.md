@@ -21,7 +21,7 @@ topic-status: Drafting
 <table>
  <tr>
   <td align="bottom">![Get started](media/voc-test-icon.png "Get started")</td>
-  <td><h3>Get started</h3>
+  <td><h1>Get started</h1>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
   <li>[Install Voice of the Customer solution](install-solution.md)</li>
@@ -29,7 +29,7 @@ topic-status: Drafting
   <li>[Decide the type of questions to include in the survey](plan-survey.md#decide-the-question-type)</li>
   </ul></td>
   <td>![Get started](media/voc-test-icon.png "Get started")</td>
-  <td><h4>Design</h4>
+  <td><font size="32"> Design</font>
   <ul>
   <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
   <li>[Create the survey](design-basic-survey.md#create-or-edit-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
