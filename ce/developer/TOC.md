@@ -183,7 +183,7 @@
 #### [Web resource dependencies](web-resource-dependencies.md)
 #### [Webpage (HTML) web resources](webpage-html-web-resources.md)
 #### [Silverlight (XAP) web resources](silverlight-xap-web-resources.md)
-#### [JavaScript web resources](script-jscript-web-resources.md)
+#### [Script(JavaScript) web resources](script-jscript-web-resources.md)
 #### [Image web resources](image-web-resources.md)
 #### [Stylesheet (XSL) web resources](stylesheet-xsl-web-resources.md)
 #### [Data (XML) Web resources](data-xml-web-resources.md)
