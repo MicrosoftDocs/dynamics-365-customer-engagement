@@ -146,8 +146,7 @@ The survey dashboard allows you to view the summary of survey invitations and re
 Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-dashboards)  
 
 ### See also
-
-[Plan a survey](plan-survey.md) 
-[Design basic survey](design-basic-survey.md) 
-[Design advanced survey](design-advanced-survey.md) 
-[Distribute survey](distribute-survey.md) 
+[Plan a survey](plan-survey.md)   
+[Design basic survey](design-basic-survey.md)   
+[Design advanced survey](design-advanced-survey.md)   
+[Distribute survey](distribute-survey.md)
