@@ -94,4 +94,4 @@ More information about how to add a question to your survey: [Create and add sur
 [Design basic survey](design-basic-survey.md)   
 [Design advanced survey](design-advanced-survey.md)   
 [Distribute survey](distribute-survey.md)   
-[Analyze survey data](analyze-survey-data.md) 
+[Analyze survey data](analyze-survey-data.md)
