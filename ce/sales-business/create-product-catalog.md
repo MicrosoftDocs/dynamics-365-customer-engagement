@@ -89,7 +89,7 @@ When you're creating a new product, save time by cloning an existing one. This c
 
 ## Import products
 
-You may also use the import templates to bring in bulk data of products in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data into Dynamics 365 for Sales, Business edition](import-data.md)  
+You may also use the import templates to bring in bulk data of products in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data into Dynamics 365 for Sales](import-data.md)  
 
 
 ### See Also
