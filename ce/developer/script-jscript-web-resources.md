@@ -25,22 +25,22 @@ manager: "amyla"
 Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that can be accessed from anywhere.  
   
 <a name="BKMK_capabilties"></a>   
-## Capabilities of Script(JScript) web resources  
+## Capabilities of script web resources  
  With [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources, you can more efficiently manage code used in form scripts, webpage (HTML) web resources, or ribbon commands by linking them to shared library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions.  
   
 <a name="BKMK_limitations"></a>   
-## Limitations of Script(JScript) web resources  
+## Limitations of script web resources  
  Like all web resources, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application security context. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have the necessary privileges can access them.  
   
 > [!NOTE]
 >  References included in code between web resources aren’t tracked as solution dependencies.  
   
 <a name="BKMK_Using"></a>   
-## Using Script(JScript) libraries  
+## Using JavaScript libraries  
  For information about developing and testing [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries as well as how to associate them with ribbon commands and form events, see [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md).  
   
 <a name="BKMK_Referencing"></a>   
-## Referencing a Script(JScript) web resource from a webpage web resource  
+## Referencing a script web resource from a webpage web resource  
  All web resources can use relative URLs to reference each other. In the following example, for the webpage web resource `new_/content/contentpage.htm` to reference the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource `new_/scripts/myScript.js`, add the following HTML code to the head element of `new_/content/contentpage.htm`.  
   
 ```html  
