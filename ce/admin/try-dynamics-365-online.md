@@ -85,25 +85,21 @@ For more information about the scenario choices, see the [Installation options](
   
 5.  Select the **Target version**, and then select [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)].  
   
-     Select a scenario. For more information about the scenario choices, see the [Installation options](#installation-options) section below.
+    Select a scenario. For more information about the scenario choices, see the [Installation options](#installation-options) section below.
   
- ![Select a scenario to configure your instance](../admin/media/select-app-configure-instance.png "Select a scenario to configure your instance")  
+    ![Select a scenario to configure your instance](../admin/media/select-app-configure-instance.png "Select a scenario to configure your instance")  
+
+   > [!TIP]
+   > Choose the "None" option to have a blank slate for building your own custom application.
   
 6.  Click **Reset**.  
-  
+ 
 ## Installation options
 You can choose to start a trial for all customer engagement offerings, a mix of offerings, or none. Each choice installs a different set of apps, which are displayed in the app switcher.
 
+![Dynamics 365 app switcher](../admin/media/app-switcher75.png "Dynamics 365 app switcher")  
+
 The following table shows the installation that are installed for each choice, their appearance in the app switcher, and their availability. 
-
-install all four [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] applications, a mix of the four, or none (in which case only the core functionality is installed). When an app is installed, it’s displayed in the app switcher.
-
- ![Dynamics 365 app switcher](../admin/media/app-switcher75.png "Dynamics 365 app switcher")  
-
-> [!TIP]
-> Choose the "None" option to have a blank slate for building your own custom application.
-
-The following table shows the installation options, their appearance in the app switcher, and their platform availability. 
 
 |Installation options|App modules installed/shown in app switcher|Description|Available for|
 |---------|---------|---------|---------|
