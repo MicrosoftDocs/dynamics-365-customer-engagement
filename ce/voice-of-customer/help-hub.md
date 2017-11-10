@@ -20,7 +20,7 @@ topic-status: Drafting
 
 <table>
   <tr>
-    <td></td>
+    <td><iframe src="https://www.youtube.com/watch?v=5jVRFpV4xIs" width="480" height="360" allowFullScreen="true" frameBorder="0"></iframe></td>
     <td></td>
   </tr>
  <tr>
