@@ -62,7 +62,11 @@ function doSomething(executionContext) {
 
 ### Related topics
 
+[Client API grid context](../clientapi-grid-context.md)
+
+[Use editable grids in Customer Engagement](../../customize-dev/use-editable-grids-dynamics-365.md)
+
 [Client API Reference for Customer Engagement](../reference.md)
 
-[Client API grid context](../clientapi-grid-context.md)
+[Developer Guide for Dynamics 365 Customer Engagement](../../developer-guide.md)
 

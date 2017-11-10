@@ -32,3 +32,5 @@ The topics under this section are organized as follows:
 [Client scripting in Customer Engagement using JavaScript](client-scripting.md)
 
 [Understand the Client API object model](understand-clientapi-object-model.md)
+
+[Developer Guide for Dynamics 365 Customer Engagement](../developer-guide.md)
