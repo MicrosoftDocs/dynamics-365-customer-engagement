@@ -86,11 +86,7 @@ You can perform the following actions:
 
 ## Community tools
 
-### Metadata brwoser
-
-[Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) is a tool that [XrmToolBox](https://www.xrmtoolbox.com) developed for Microsoft Dynamics CRM. This tool helps you browse metadata from your Dynamics CRM organization.
-
-More information: [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser)
+**Metadata Browser** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
