@@ -66,7 +66,7 @@ When you use an app, you'll see only those entities in the site map  and other p
 
 Depending on the installation options your admin chooses, you may see any of the following apps in the app switcher:
 
-![Dynamics 365 app switcher](../admin/media/app-switcher75.png "Dynamics 365 app switcher")  
+![Dynamics 365 app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 app switcher")  
 
 The following table describes what each app is used for, whether it's designed for web or mobile, and where to go for more information.
 
