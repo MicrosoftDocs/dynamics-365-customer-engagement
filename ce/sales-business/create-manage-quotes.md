@@ -29,11 +29,11 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Create a quote from an opportunity
 
-1.  Click the Site Map icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the site map"), and then click **Opportunities**.
+1.  Select the Site Map icon ![Icon to open the site map](media/Site-map-icon.png "Icon to open the site map"), and then select **Opportunities**.
 
-2.  Choose the opportunity you want to create a quote for.
+2.  Select the opportunity you want to create a quote for.
 
-3.  On the command bar, click **Create Quote**.
+3.  On the command bar, select **Create Quote**.
 
  The quote form opens.
 
@@ -41,23 +41,23 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 5.  Type the billing and shipping addresses in the **Addresses** area of the **Quote** screen.
 
-6.  To add products from your opportunity to your quote, on the command bar of the Quote form, click **Get Products**. You add more products or remove existing ones from the **Quote Products** grid.
+6.  To add products from your opportunity to your quote, on the command bar of the Quote form, select **Get Products**. You add more products or remove existing ones from the **Quote Products** grid.
 
 7.  In the **Products Summary** area, enter all the information you have available. If you are adding a discount, add a percentage or amount, or both.
 
-8.  Choose the **Save** button at the bottom right corner of the screen.
+8.  Select the **Save** button at the bottom right corner of the screen.
 
-9.  When your quote is ready to send to your customer, choose **Activate Quote** at the top of the screen.
+9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
 ## Create a quote
 
-1.  Click the Menu icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the menu"), and then click **Quotes**.
+1.  Select the Site Map icon ![Icon to open the site map](media/Site-map-icon.png "Icon to open the site map"), and then select **Quotes**.
 
-2.  Choose **New**.
+2.  Select **New**.
 
 3.  Add your customer’s contact information.
 
-4.  To add products from your opportunity to your quote, choose **Get Products** at the top of the **Quote** screen and choose **OK**.
+4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** screen and select **OK**.
 
 5.  In the **Sales Information** area, select the potential customer you’re creating this quote for. If the record doesn’t already exist, you can create a new one.
 
@@ -65,15 +65,15 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 7.  In the **Addresses** area, type shipping and billing addresses.
 
-8.  Choose the **Save** button at the bottom right corner of the screen.
+8.  Select the **Save** button at the bottom right corner of the screen.
 
-9.  When your quote is ready to send to your customer, choose **Activate Quote** at the top of the screen.
+9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
 ## Email a quote
 
 When you’ve added all the details to the quote, you can send it to the customer.
 
-To directly send an email to customer with a quote attached, open the quote, and on the command bar, click the **More Commands** icon ![Icon for More Commands](media/more-commands-icon.png "Icon for More Commands"), and then click **Send by Email**.  
+To directly send an email to customer with a quote attached, open the quote, and on the command bar, select the **More Commands** icon ![Icon for More Commands](media/more-commands-icon.png "Icon for More Commands"), and then select **Send by Email**.  
 
 ![Send By Email command bar button](media/send-by-email-command-bar-button.png "Send By Email command bar button")  
 

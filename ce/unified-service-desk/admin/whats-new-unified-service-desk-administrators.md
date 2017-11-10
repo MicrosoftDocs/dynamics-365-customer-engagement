@@ -24,13 +24,13 @@ manager: "amyla"
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  
 
 <a name="NewIn310"></a>  
-## What's new in Unified Service Desk 3.1
+## What's new in [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
 
  Administrators will be able  to leverage the following enhancements and new capabilities in this release. 
 
 ### Support for the latest
 
-Unified Service Desk 3.1 is compatible with the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)].
+[!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] is compatible with the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)].
 
 However, certain features in [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] are not fully supported in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. More information: [Unified Service Desk limitations with Dynamics 365 (online), version 9.0](#limitations)
 
@@ -60,7 +60,7 @@ These are the limitations:
 
   
 <a name="NewIn222"></a>   
-## What's new in Unified Service Desk 3.0  
+## What's new in [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]  
  Administrators will be able  to leverage the following enhancements and new capabilities in this release.  
   
 ### Error  diagnostics reporting settings moved to Audit & Diagnostics Settings area  

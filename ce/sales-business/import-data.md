@@ -2,17 +2,20 @@
 title: "Import data into Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Import your customer and sales data quickly into Dynamics 365 for Sales, Business edition. "
 keywords: "Import; CSV; Excel"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: af7f1439-e824-47fc-b523-77f302f68892
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
-# Import contacts, accounts, or leads into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+
+# Import contacts, accounts, or leads into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -93,13 +96,13 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
     1.  You can start import multiple places. If you are a person with a sales person role, go to any list of records, for example list of leads, and on the command bar, **Import from [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]**.
 
-    2.  If you are an administrator, go to **Quick Setup** or **Advanced Settings**, and then click **Import Data**. Then in the **Import Data** page, select the record type you want to import the data for, and then in the next drop-down list, select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]**.
+    2.  If you are an administrator, go to **Quick Setup** or **Advanced Settings**, and then select **Import Data**. Then in the **Import Data** page, select the record type you want to import the data for, and then in the next drop-down list, select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]**.
 
-2.  Click **Browse** to upload a file.
+2.  Select **Browse** to upload a file.
 
-3.  Click **Next**.
+3.  Select **Next**.
 
-4.  All the fields in your source file are automatically mapped. Click **Finish Import**.
+4.  All the fields in your source file are automatically mapped. Select **Finish Import**.
 
 ## Import records from a CSV file
 
@@ -107,13 +110,13 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
     1.  You can start import multiple places. If you are a person with a sales person role, go to any list of records, for example list of leads, and on the command bar, Import from CSV.
 
-    2.  If you are an administrator, go to Quick Setup or Advanced Settings, and then click Import Data. Then in the Import Data page, select the record type you want to import the data for, and then in the next drop-down list, select CSV.
+    2.  If you are an administrator, go to Quick Setup or Advanced Settings, and then select **Import Data**. Then in the Import Data page, select the record type you want to import the data for, and then in the next drop-down list, select CSV.
 
 2.  To make sure that the import is successful, be sure to follow the steps in Prepare a file for import.
 
-3.  Choose a file to upload. Only a comma-separated value file and an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template file is supported.
+3.  Select a file to upload. Only a comma-separated value file and an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template file is supported.
 
-4.  Click **Next**.
+4.  Select **Next**.
 
 5.  If you have an alternate key defined, select it from the **Alternate Key** drop-down list.
 
@@ -121,7 +124,7 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
 6.  In the **Data Delimiter** drop-down list, select the data delimiter that you’ve used in your CSV file.
 
-7.  Click **Review Mapping**.
+7.  Select **Review Mapping**.
 
     1.  In the **Review Mapping** page, review how your column headings are mapped to the fields in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
@@ -147,15 +150,15 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
      If the column headings don’t match, the unmapped fields will be shown with a Red exclamation mark.
 
-    3. Select a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field to map to the unmapped column heading of your file. You may also choose **Ignore** from the drop-down list. If you choose **Ignore** for a column, the data in that column won’t be imported into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+    3. Select a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field to map to the unmapped column heading of your file. You may also select **Ignore** from the drop-down list. If you select **Ignore** for a column, the data in that column won’t be imported into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
       ![Optional Fields section in Review Mapping Page](media/optional-fields-review-mapping-page.png "Optional Fields section in Review Mapping Page")  
 
-    4.  While importing your data, if any column in your source file includes fixed set of values, you must map the column to a field of [Option Set](javascript:toggleInline('51908')) type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, click the ![Choose Ignore in the Review Mapping page](media/ignore-in-review-mapping-page.png "Choose Ignore in the Review Mapping page") icon next to the option set field. Option set mapping section opens:  
+    4.  While importing your data, if any column in your source file includes fixed set of values, you must map the column to a field of [Option Set](javascript:toggleInline('51908')) type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, select the ![Select Ignore in the Review Mapping page](media/ignore-in-review-mapping-page.png "Select Ignore in the Review Mapping page") icon next to the option set field. Option set mapping section opens:  
 
       ![Icon for option set mapping](media/option-set-mapping-icon.png "Icon for option set mapping")  
 
-      For each **Source Option Values** item, click an item from the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list to map it, and then click **OK**.
+      For each **Source Option Values** item, select an item from the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list to map it, and then select **OK**.
 
       When you are mapping the source values to items in the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list, the Import Data Wizard temporarily adds the items from the source values to the **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Option Values** list. You can map the source list values to the existing options in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] or to the added values. If you map to one of the added values, these new values are created in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
@@ -188,7 +191,7 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
       For example, you want to import the file Leads.csv that contains customer records. The **Customer** column in the Leads.csv contains the associated account or contact data.
 
-      To do this, click the ![Mapping of an option set field](media/option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The Lookup Reference section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then click **OK**.  
+      To do this, select the ![Mapping of an option set field](media/option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The Lookup Reference section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then select **OK**.  
 
         ![Mapping of a lookup field](media/lookup-field-mapping.png "Mapping of a lookup field")  
 
@@ -198,7 +201,7 @@ Follow the guidelines in this topic to make sure that your file imports successf
 
         You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve defined earlier.
 
-8.  Click **Finish Import** when you have mapped each column from the source file to a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field or have selected **Ignore** in the list under **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Entity Fields**.
+8.  Select **Finish Import** when you have mapped each column from the source file to a [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] field or have selected **Ignore** in the list under **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Entity Fields**.
 
 ### How alternate key and duplicate detection work during import
 
@@ -240,13 +243,13 @@ You must wait for an import job to complete before you can repair failures.
 
 3.  After the import is complete, the **Success**, **Failure**, and **Partial Import** column will show the number of records that were successfully imported, failed to import or were partially imported.
 
-4.  Open the import file to view the records that did not import or were partially imported. Double-click the import file record.
+4.  Open the import file to view the records that did not import or were partially imported. Open the import file record.
 
    Use the tabs to see information about failures, success, or partial failure of records during import.
    
    ![General tab of the import source file](media/import-source-file.png "General tab of the import source file")  
 
-5.  On the **Failures** tab, export rows that failed to import to a new [comma-separated value (CSV) file](javascript:toggleInline('25109')). Click **Export Error Rows**. You can correct the errors in this file, and then import it.  
+5.  On the **Failures** tab, export rows that failed to import to a new [comma-separated value (CSV) file](javascript:toggleInline('25109')). Select **Export Error Rows**. You can correct the errors in this file, and then import it.  
 
 ## Delete imported records
 

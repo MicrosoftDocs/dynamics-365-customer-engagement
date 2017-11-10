@@ -1,8 +1,8 @@
 ---
-title: "Work with tags | Microsoft Docs"
+title: "Work with tags in Social Engagement | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
-ms.date: 10/03/2017
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
 applies_to:

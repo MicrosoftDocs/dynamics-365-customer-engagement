@@ -1,20 +1,19 @@
 ---
-title: "Link posts to Dynamics 365 | Microsoft Docs"
+title: "Link posts from Social Engagement to Dynamics 365 | Microsoft Docs"
 description: "Learn how to link social posts to Dynamics 365 and create new case or lead records."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "link to crm, link to customer engagement"
+ms.date: 10/17/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: e97a38d7-37c4-4dce-b02e-1076ad992cff
-caps.latest.revision: 28
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Link posts from Social Engagement to Dynamics 365
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides a platform for capturing public posts from social media. Based on the social activity in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] with [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] enabled, the social post gets linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that is defined by the rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. As an admin, you can connect one or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and then define or customize the data structure of the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record and display it within record details that are associated with a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post. When you send a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance, a social activity is created in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The rule framework in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] can automatically turn these social activities into other types of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records, for example into a lead, an opportunity, or a case. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   

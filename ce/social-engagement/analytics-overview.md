@@ -1,21 +1,19 @@
 ---
-title: "Start analyzing data | Microsoft Docs"
+title: "Start analyzing data in Social Engagement | Microsoft Docs"
 description: "Learn how to get an overview about your data in Social Engagement."
-description:
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "analytics, overview"
+ms.date: 10/17/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 8ac1759b-8534-43c9-a273-f56ce1505166
-caps.latest.revision: 36
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Understand widgets on the Overview page
 See key widgets on the Overview page. The widgets on this page provide information about the volume of posts, sources, and locations where these posts are coming from, topics discussed, languages used, and the details of influencing authors.  
   

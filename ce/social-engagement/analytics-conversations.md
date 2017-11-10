@@ -1,21 +1,19 @@
 ---
-title: "Analytics for conversations | Microsoft Docs"
+title: "Analytics for conversations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on conversations in Social Engagement."
-Description:
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "analytics, conversation, phrases, fans, critics"
+ms.date: 10/17/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 4396dadd-6cbb-4298-83be-b8dae50141b6
-caps.latest.revision: 38
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Gain insights from public conversations
 View detailed content analytics on the Conversations page. Using the **Conversations** page, you can understand data like the most-used phrases, their volume, sources these conversations are coming from, and sentiment involved.  
   
