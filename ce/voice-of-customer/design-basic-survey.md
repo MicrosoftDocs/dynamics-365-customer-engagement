@@ -340,8 +340,8 @@ After creating a survey, you can translate it into other languages as required b
 6.  Add a column to the right of the base language (for example, **en** for English), and specify the locale for the language in the column heading (for example, **es** for Spanish). You can also specify a locale in the heading (for example, **en-uk** for English in the United Kingdom). Add columns for each language or locale you need.
 
     > [!NOTE]
-    >  -   You must only use the language codes supported by [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for the system-provided strings to be translated into, otherwise they will be displayed in the base language.
-    > -   You must be sure to mention specific locales where multiple dialects are supported.
+    > - You must only use the language codes supported by [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for the system-provided strings to be translated into, otherwise they will be displayed in the base language.
+    > - You must be sure to mention specific locales where multiple dialects are supported.
 
 7.  Add translations to each language or locale column. You can retrieve translations from [[!INCLUDE[pn-bing](../includes/pn-bing.md)] translations](https://www.bing.com/translator/). If your text strings have HTML in them, you'll need to encode them. For example, you need to encode:  
 
@@ -349,7 +349,7 @@ After creating a survey, you can translate it into other languages as required b
 
     as:
 
-    &lt;b&gt;Hello!&lt;/b&gt;
+    /&lt;b/&gt;Hello!/&lt;/b/&gt;
 
     You can use any HTML encoder.
 
