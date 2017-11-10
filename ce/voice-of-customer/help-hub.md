@@ -26,7 +26,7 @@ topic-status: Drafting
   <li>[Overview](get-feedback-surveys.md)</li>
   <li>[Install Voice of the Customer solution](install-solution.md)</li>
   <li>[Best practices to create a survey](plan-survey.md#best-practices-to-create-a-survey)</li>
-  <li>[Decide the type of questions to include in the survey](plan-survey.md#decide-the-question-type)</li>
+  <li>[Decide question type for your survey](plan-survey.md#decide-the-question-type)</li>
   </ul></td>
   <td>![Get started](media/voc-icon-getstarted.png "Get started")</td>
   <td><h2> Design</h2>
