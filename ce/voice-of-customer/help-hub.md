@@ -52,7 +52,20 @@ topic-status: Drafting
   <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
   </ul>
  </td>
-
+<td><h2>Distribute</h2>
+  <ul>
+  <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
+  <li>Send the survey to [anonymous](distribute-survey.md#distribute-a-survey-to-anonymous-respondents) or [non-anonymous](distribute-survey.md#distribute-a-survey-to-non-anonymous-respondents) respondents</li>
+  <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
+  </ul>
+ </td>
+  <td><h2>Distribute</h2>
+  <ul>
+  <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
+  <li>Send the survey to [anonymous](distribute-survey.md#distribute-a-survey-to-anonymous-respondents) or [non-anonymous](distribute-survey.md#distribute-a-survey-to-non-anonymous-respondents) respondents</li>
+  <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
+  </ul>
+ </td>
  <td><h2>Analyze</h2>
   <ul>
   <li>[View survey responses](analyze-survey-data.md#survey-responses)</li>
