@@ -11,11 +11,15 @@ manager: "amyla"
 ---
 # getEntity (Client API reference)
 
+[!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[./includes/getEntity-description.md](./includes/getEntity-description.md)]
+
+As this is deprecated, you should use **GridRowData.entity**.
 
 ## Grid types supported
 
-Editable and Read-only grids
+Read-only and editable grids
 
 ## Syntax
 

@@ -19,7 +19,7 @@ This method does nothing if the grid is not filtered based on a relationship.
 
 ## Grid types supported
 
-Read-only grids
+Read-only and editable grids
 
 ## Syntax
 

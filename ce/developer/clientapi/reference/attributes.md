@@ -112,6 +112,8 @@ In addition to the methods available for all attribute types as explained ealier
 
 ### Related topics
 
+[Composite attributes](composite-attributes.md)
+
 [Understand Xrm object model](../understand-clientapi-object-model.md)
 
 [Controls (Client API reference)](controls.md)

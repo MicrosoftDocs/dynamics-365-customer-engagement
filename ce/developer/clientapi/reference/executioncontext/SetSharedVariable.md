@@ -38,8 +38,6 @@ Sets the value of a variable to be used by a handler after the current handler c
 
 [Execution context](../execution-context.md)
 
-[Client API execution and global contexts](../../clientapi-context.md)
-
 
 
 

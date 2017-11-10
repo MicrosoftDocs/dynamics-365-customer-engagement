@@ -27,13 +27,13 @@ var gridRowData = myRow.getData();
 
 |Name|Description|Available for|
 |--|--|--|
-|entity|Returns the [GridEntity](gridentity.md) for the GridRowData.|Editable and read-only grids|
+|entity|Returns the [GridEntity](gridentity.md) for the GridRowData.|Read-only and editable grids|
 
 
 ## Methods
 
 |Name|Description|Available for|
 |--|--|--|
-|[getEntity](gridrowdata/getEntity.md)|[!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)]|Editable and read-only grids|
+|[getEntity](gridrowdata/getEntity.md)|[!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)]|Read-only and editable grids|
 
 

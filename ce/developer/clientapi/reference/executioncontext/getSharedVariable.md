@@ -38,8 +38,6 @@ Retrieves a variable set using the [setSharedVariable](setSharedVariable.md) met
 
 [Execution context](../execution-context.md)
 
-[Client API execution and global contexts](../../clientapi-context.md)
-
 
 
 
