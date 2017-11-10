@@ -24,14 +24,14 @@ var gridRow = myRows.get(arg);
 
 |Name|Description|Available for|
 |--|--|--|
-|data|A collection containing the [GridRowData](gridrowdata.md) for the GridRow. See [Collections (Client API reference)](../collections.md) for information on the methods available for accessing data in a collection.|Editable and read-only grids|
+|data|A collection containing the [GridRowData](gridrowdata.md) for the GridRow. See [Collections (Client API reference)](../collections.md) for information on the methods available for accessing data in a collection.|Read-only and editable grids|
 
 
 ## Methods
 
 |Name|Description|Available for|
 |--|--|--|
-|[getData](gridrow/getData.md)|[!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)]|Editable and read-only grids|
+|[getData](gridrow/getData.md)|[!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)]|Read-only and editable grids|
 
 ### Related topics
 

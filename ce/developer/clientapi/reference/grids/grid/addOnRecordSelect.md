@@ -15,7 +15,7 @@ manager: "amyla"
 
 ## Grid types supported
 
-Editable and Read-only grids
+Read-only and editable grids
 
 ## Syntax
 
