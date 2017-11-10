@@ -19,8 +19,12 @@ topic-status: Drafting
 # Voice of the customer help and training
 
 <table>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
  <tr>
-   <td><iframe src="https://www.youtube.com/watch?v=5jVRFpV4xIs" width="480" height="360" allowFullScreen="true" frameBorder="0"></iframe></td>
+   
   <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
@@ -42,7 +46,7 @@ topic-status: Drafting
  </tr>
 
   <tr>
-  <td></td>
+
   <td><h2>Distribute</h2>
   <ul>
   <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
