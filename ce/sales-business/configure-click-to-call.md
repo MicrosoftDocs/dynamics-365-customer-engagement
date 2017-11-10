@@ -2,16 +2,19 @@
 title: "Set up click-to-call in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Set up click-to-call to allow your users easily check on the availability of a contact and to make a call with one click from within the Dynamics 365 for Sales, Business edition."
 keywords: "click-to-call; Skype; Skype for Business"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 816eef56-05aa-46eb-810d-e06532e387ab
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Set up click-to-call
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -33,7 +36,7 @@ To use Skype, all users in the organization must install Skype and have a Skype 
 
 ## Configure Skype for Business or Skype
 
-1.  In **Advanced Settings**, choose **Click to Call**.
+1.  In **Advanced Settings**, select **Click to Call**.
 
   ![Enable Click-to-call](media/enable-click-to-call.png "Enable Click-to-call")  
 
@@ -41,11 +44,11 @@ To use Skype, all users in the organization must install Skype and have a Skype 
   
   By default, Skype is selected.
 
-2.  Depending upon the channel you want to configure for your organization, click the tile for Skype for Business or Skype, and then click **Enable**.
+2.  Depending upon the channel you want to configure for your organization, select the tile for Skype for Business or Skype, and then select **Enable**.
 
     A consent dialog box appears.
 
-3.  Click **I Agree**.
+3.  Select **I Agree**.
 
 The channel is automatically configured with the default settings for you, and turned on. When a channel is turned on, a check mark is shown on the tile. You can’t turn a channel off until you turn another channel on.
 
