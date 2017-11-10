@@ -281,7 +281,9 @@ The following table lists the composite attributes available in Customer Engagem
 
 ## Composite attributes in the web application
 
-When fields for composite attributes are added to a main form, the web application will show just the composite attribute. When someone edits the field, a flyout appears showing the individual attributes that comprise the composite attribute. For example, the **Address** field on a Contact form is a composite attribute. Clicking on the **Address** field dispays a flyout with additional fields tha are part of the composite attribute. 
+When fields for composite attributes are added to a main form, the web application will show just the composite attribute. When someone edits the field, a flyout appears showing the individual attributes that comprise the composite attribute. 
+
+For example, the **Address** field on a Contact form is a composite attribute. Clicking the **Address** field dispays a flyout with additional fields that are part of the composite attribute. 
 
 ![An example of a composite attribute](../../media/clientapi_compositeattribute.png)
 
