@@ -2,18 +2,20 @@
 title: "Event invitations, registrations, and hotel bookings in Dynamics 365 for Marketing | Microsoft Docs"
 description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 for Marketing"
 keywords: "events; event management"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 4844cf8c-bad1-4483-ba9b-e6e83874fd2b
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Invite, register, and house event attendees
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -22,7 +24,7 @@ After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-
 
 ## Register attendees for events, sessions, and passes
 
-Event registration enables attendees to sign up for your event and reserve their seats for specific sessions or tracks. It also helps you gauge interest in the event, and to signal demand to event planners for purposes such as capacity planning. Event managers can use registration records to evaluate in advance how many resources they'll need to have available, which sessions require larger rooms, or even whether a session should be canceled. Advanced registration also enables attendees to be confident that their place is reserved for all the sessions they want to attend.
+Event registration enables attendees to sign up for your event and reserve their seats for specific sessions or tracks. It also helps you gauge interest in the event, and to signal demand to event planners for purposes such as capacity planning. Event managers can use registration records to evaluate in advance how many resources they'll need to have available, which sessions require larger rooms, or even whether a session should be canceled. Advance registration also enables attendees to be confident that their place is reserved for all the sessions they want to attend.
 
 Each registration results in an event-registration record, which pulls together a registrant's profile, their passes, the sessions they'll attend, and, eventually, the sessions they did attend. Each registration record has a unique ID, which the system encodes into a QR code that you can print onto attendee badges and passes for quick scanning during the event. You'll find the QR code embedded in the registration record.
 
