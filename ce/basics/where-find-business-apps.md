@@ -74,12 +74,12 @@ The following table describes each app and its platform availability.
 |---------|---------|---------|---------|
 |Sales|Full-featured desktop-optimized app for sales scenarios |Web|[Sales Overview](../sales-enterprise/overview.md)|
 |Sales Hub|Mobile-optimized app for sales scenarios (Unified Interface)|Web and Mobile|[Sales Overview](../sales-enterprise/overview.md)|
-|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)|Web||[Customer Service Overview](../customer-service/overview.md)|
-|Customer Service Hub|Desktop (recommended for knowledge management only) and mobile-optimized app (recommended for case management) (Unified Interface)|Web and Mobile|[Customer Service Overview](../customer-service/overview.md)|
-|Field Service|Full-featured desktop-optimized app for field service scenarios|Web|[Field Service Overview](../field-service/overview.md)|
-|Field Service Hub|Mobile-optimized app for field service scenarios (Unified Interface)|Web and Mobile|[Field Service Overview](../field-service/overview.md)|
-|Project Service Automation|Full-featured desktop-optimized app for project service scenarios |Web|[Project Service Overview](../project-service/overview.md)|
-|Project Resource Hub|Mobile-optimized app for project service scenarios (Unified Interface)|Web and Mobile|[Project Service Overview](../project-service/overview.md)|
+|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)|Web|[Customer Service User Guide](../customer-service/overview.md)|
+|Customer Service Hub|Desktop (recommended for knowledge management only) and mobile-optimized app (recommended for case management) (Unified Interface)|Web and Mobile|[Customer Service Hub User Guide](../customer-service/overview.md)|
+|Field Service|Full-featured desktop-optimized app for field service scenarios|Web|[Field Service User Guide](../field-service/overview.md)|
+|Field Resource Hub|Mobile-optimized app for field service scenarios (Unified Interface)|Web and Mobile|[Field Resource Hub User Guide](../field-service/overview.md)|
+|Project Service Automation|Full-featured desktop-optimized app for project service scenarios |Web|[Project Service User Guide](../project-service/overview.md)|
+|Project Resource Hub|Mobile-optimized app for project service scenarios (Unified Interface)|Web and Mobile|[Project Resource Hub User Guide](../project-service/overview.md)|
 
   
 ### See also  
