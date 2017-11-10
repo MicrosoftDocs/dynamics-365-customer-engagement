@@ -15,6 +15,8 @@ manager: "amyla"
 
 [!INCLUDE[./includes/getEntity-description.md](./includes/getEntity-description.md)]
 
+As this is deprecated, you should use **GridRowData.entity**.
+
 ## Grid types supported
 
 Read-only and editable grids

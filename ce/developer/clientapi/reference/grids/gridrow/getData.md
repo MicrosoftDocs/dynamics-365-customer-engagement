@@ -15,6 +15,8 @@ manager: "amyla"
 
 [!INCLUDE[./includes/getData-description.md](./includes/getData-description.md)]
 
+As this is deprecated, you should use **GridRow.data**.
+
 ## Grid types supported
 
 Read-only and editable grids
