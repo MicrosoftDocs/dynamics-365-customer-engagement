@@ -211,7 +211,7 @@ Two dimensions charts like Line, Bar, Column, and Area support zooming. Single d
  
 Changing the chart view shows you a different breakdown of your data, such as opportunities opened within a specific time period. You can change a chart view by selecting the View selector on the Grid page.
 
-![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets chnage a chart view")
+![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets change a chart view")
 
 For example, tap "All Opportunities", then select a different view, both chart and grid will get refreshed.
 
