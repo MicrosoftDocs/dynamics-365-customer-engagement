@@ -16,7 +16,7 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+# Customize [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 ## Customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
 
@@ -40,7 +40,7 @@ For more information about writing code and developing for [!INCLUDE[pn-microsof
 
 
 A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
- is its ability to check published content for errors before going live. You’ve probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (check for errors) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors or messages that won’t compile). After the error check, Dynamics 365 for Marketing displays the results right on the page, including error messages that should help the user solve the issue.
+ is its ability to check published content for errors before going live. You’ve probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (check for errors) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors or messages that won’t compile). After the error check, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] displays the results right on the page, including error messages that should help the user solve the issue.
 
 The validation feature works by implementing a validation pipeline with a series of rules that the content must pass. For each violation, an error or warning is added to the response and the content won’t be allowed to go live. Customizers can extend the pipeline by adding a custom validation stage that implements the required custom checks. You might use this capability to, for example, scrub email text content for obscenities or to ensure that a required disclaimer is always present.
 
