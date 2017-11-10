@@ -16,7 +16,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Voice of the customer help and training
+# Voice of the Customer help and training
 
 
 
