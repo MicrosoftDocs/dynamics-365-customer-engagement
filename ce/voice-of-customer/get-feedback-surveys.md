@@ -18,23 +18,7 @@ topic-status: Drafting
 
 # Get feedback by using Voice of the Customer surveys
 
-You can create and send surveys to your customers to receive their valuable feedback about your products or services. The customers can take your surveys on a phone, tablet, or computer. With Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you create and distribute surveys and store survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] along with other [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] data. You can see your customer's feedback history as you work on a sales prospect (lead) or resolve a service case.
-
-When a customer completes a survey, leads can be created automatically based on the feedback. You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. Voice of the Customer provides the following workflows out-of-the-box.
-
-| **Workflow name**                                  | **Primary entity** | **[!INCLUDE[description](../includes/description.md)]**                                                                             |
-|----------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------|
-| VoC - Close Survey Activity                        | Survey Activity    | Close a survey activity when a closing response is received.                                |
-| VoC - Convert Response To Feedback Entity          | Survey Response    | Create a feedback entity record corresponding to the survey response.                       |
-| VoC - Convert Survey Response To Campaign Response | Survey Response    | Create a campaign response based on the survey invitation and survey response.              |
-| VoC - Create Lead                                  | Survey Response    | Create a lead corresponding to the anonymous survey response.                               |
-| VoC - Process Face Response                        | Survey Response    | Process the survey response and classify the respondent as promoter, detractor, or neutral. |
-| VoC - Process NPS Response                         | Survey Response    | Process the survey response and classify the respondent as promoter, detractor, or neutral. |
-| VoC - Process Survey Response                      | Survey Response    | Trigger a workflow based on the survey response.                                            |
-| VoC - Unsubscribe respondent                       | Survey Response    | Unsubscribe the respondent from a channel (for example, email) based on the response.       |
-|||
-
-More information about creating a new workflow in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]: [Create custom business logic through processes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes)  
+You can create and send surveys to your customers to receive their valuable feedback about your products or services. The customers can take your surveys on a phone, tablet, or computer. With Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you create and distribute surveys and store survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] along with other [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] data. You can see your customer's feedback history as you work on a sales prospect (lead) or resolve a service case. When a customer completes a survey, leads can be created automatically based on the feedback.
 
 > [!NOTE]
 > Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] is available with [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] and later.

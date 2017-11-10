@@ -56,6 +56,7 @@ A few best practices will enable you to create a meaningful survey and gather go
 - **Preview and test the survey**: After creating your survey, always preview it to check the overall flow of the survey and to catch any mistakes. After publishing the survey, test it to ensure that respondents can find and open it easily.
 
 - **Mention expectations in the survey invitation**: In the survey invitation, ensure that you mention the estimated time to complete it and give a brief overview. This will help respondents submit their input within the expected timeframe.
+
 ## Decide the question type
 
 Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] question types.
@@ -89,6 +90,24 @@ The following table describes the question types to use when you need to address
 |||
 
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  
+
+## Available workflows in Voice of the Customer
+
+Voice of the Customer provides the following workflows out-of-the-box.
+
+| **Workflow name**                                  | **Primary entity** | **[!INCLUDE[description](../includes/description.md)]** |
+|----------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------|
+| VoC - Close Survey Activity                        | Survey Activity    | Close a survey activity when a closing response is received.                                |
+| VoC - Convert Response To Feedback Entity          | Survey Response    | Create a feedback entity record corresponding to the survey response.                       |
+| VoC - Convert Survey Response To Campaign Response | Survey Response    | Create a campaign response based on the survey invitation and survey response.              |
+| VoC - Create Lead                                  | Survey Response    | Create a lead corresponding to the anonymous survey response.                               |
+| VoC - Process Face Response                        | Survey Response    | Process the survey response and classify the respondent as promoter, detractor, or neutral. |
+| VoC - Process NPS Response                         | Survey Response    | Process the survey response and classify the respondent as promoter, detractor, or neutral. |
+| VoC - Process Survey Response                      | Survey Response    | Trigger a workflow based on the survey response.                                            |
+| VoC - Unsubscribe respondent                       | Survey Response    | Unsubscribe the respondent from a channel (for example, email) based on the response.       |
+|||
+
+You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]: [Create custom business logic through processes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
 
 ### See also
 [Design basic survey](design-basic-survey.md)   
