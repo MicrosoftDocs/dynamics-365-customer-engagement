@@ -47,7 +47,7 @@ The following table lists the new methods you should use instead of the deprecat
 
 ### Related topics
 
-[Client API execution and global contexts](../clientapi-context.md)
+[Client API execution context](../clientapi-execution-context.md)
 
 [Client API reference](../reference.md)
 
