@@ -21,7 +21,7 @@ topic-status: Drafting
 <table>
  <tr>
   <td valign="center">![Get started](media/voc-icon-getstarted.png "Get started")</td>
-  <td><h2>[Get started](media/voc-icon-getstarted.png "Get started")Get started</h2>
+  <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
   <li>[Install Voice of the Customer solution](install-solution.md)</li>
