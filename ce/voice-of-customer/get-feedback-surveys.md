@@ -19,8 +19,8 @@ topic-status: Drafting
 # Get feedback by using Voice of the Customer surveys
 
 You can create and send surveys to your customers to receive their valuable feedback about your products or services. The customers can take your surveys on a phone, tablet, or computer. With Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you create and distribute surveys and store survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] along with other [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] data. You can see your customer's feedback history as you work on a sales prospect (lead) or resolve a service case.
-#
-#When a customer completes a survey, leads can be created automatically based on the feedback. You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. Voice of the Customer provides the following workflows out-of-the-box.
+
+When a customer completes a survey, leads can be created automatically based on the feedback. You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. Voice of the Customer provides the following workflows out-of-the-box.
 
 | **Workflow name**                                  | **Primary entity** | **[!INCLUDE[description](../includes/description.md)]**                                                                             |
 |----------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------|
@@ -36,7 +36,8 @@ You can create and send surveys to your customers to receive their valuable feed
 
 More information about creating a new workflow in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]: [Create custom business logic through processes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes)  
 
-**Note**: Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] is available with [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] and later.
+> [!NOTE]
+> Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] is available with [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] and later.
 
 ## Survey lifecycle
 
