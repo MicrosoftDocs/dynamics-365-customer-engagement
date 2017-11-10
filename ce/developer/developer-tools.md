@@ -32,7 +32,7 @@ This section provides a single location for you to learn about the developer too
 
 - [View Designer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.ViewDesigner) - The tool helps you to view layouts and modify queries using FetechXML builder.
 
-- [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses [CrmSvcUtil.exe](../download-tools-NuGet.md) and display the command lines that are used to create theses classes.
+- [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) - The tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses [CrmSvcUtil.exe](download-tools-NuGet.md) and display the command lines that are used to create theses classes.
 
 - [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) - The tool helps you browse metadata from your Dynamics CRM organization.
 
