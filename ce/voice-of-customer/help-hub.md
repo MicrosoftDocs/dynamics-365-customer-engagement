@@ -17,7 +17,7 @@ topic-status: Drafting
 ---
 
 # Voice of the customer help and training
-<iframe src="https://www.youtube.com/watch?v=5jVRFpV4xIs" width="480" height="360" allowFullScreen="true" frameBorder="0"> </iframe>
+<iframe src="https://www.youtube.com/watch?v=5jVRFpV4xIs" width="480" height="360" allowFullScreen="true" frameBorder="0"></iframe>
 <table>
   <tr>
  <td><iframe src="https://www.youtube.com/watch?v=5jVRFpV4xIs" width="480" height="360" allowFullScreen="true" frameBorder="0"> </iframe></td>
