@@ -42,7 +42,7 @@ topic-status: Drafting
  </tr>
 
   <tr>
-
+  <td></td>
   <td><h2>Distribute</h2>
   <ul>
   <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
