@@ -306,7 +306,6 @@
 ##### [getCurrentAppName](reference/xrm-utility/getGlobalContext/getCurrentAppName.md)
 ##### [getCurrentAppProperties](reference/xrm-utility/getGlobalContext/getCurrentAppProperties.md)
 ##### [getCurrentAppUrl](reference/xrm-utility/getGlobalContext/getCurrentAppUrl.md)
-##### [getCurrentTheme](reference/xrm-utility/getGlobalContext/getCurrentTheme.md)
 ##### [getVersion](reference/xrm-utility/getGlobalContext/getVersion.md)
 ##### [isOnPremises](reference/xrm-utility/getGlobalContext/isOnPremises.md)
 ##### [prependOrgName](reference/xrm-utility/getGlobalContext/prependOrgName.md)
