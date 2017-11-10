@@ -48,7 +48,7 @@ See the following sections for more information about working with the landing p
 
 ### Landing page
 
-A landing page is any marketing page that is the destination of a link embedded in some other type of marketing message, such as an email or social media post. Landing page tiles can be children of marketing email tiles, where they represent a landing-page link that is included in the parent message's content. The most important reason to add a landing page tile is to enable trigger tiles placed later in the pipeline to "know" about the landing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only once a contact submits the form after clicking it in the email.
+A landing page is any marketing page that is the destination of a link embedded in some other type of marketing message, such as an email or social media post. Landing page tiles can be children of marketing email tiles, where they represent a landing-page link that is included in the parent message's content. The most important reason to add a landing page tile is to enable trigger tiles placed later in the pipeline to "know" about the landing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
 
 When you add a landing-page tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same landing page (the system doesn't confirm this or modify the message when you add a child tile).
 
@@ -62,7 +62,7 @@ Landing page tiles provide the following settings in the **Properties** pane whi
 
 ### Event
 
-Event tiles are typically children of marketing email tiles, where they represent a link to an event portal that is included in the parent message's content, but they can also be placed on their own. The most important reason to add an event tile is to enable trigger tiles placed later in the pipeline to "know" about the event link and to react to contact interactions with it (registered or attended). Triggers can react either as soon as a contact clicks on the link in an email, or only once a contact registers for or attends the event.
+Event tiles are typically children of marketing email tiles, where they represent a link to an event portal that is included in the parent message's content, but they can also be placed on their own. The most important reason to add an event tile is to enable trigger tiles placed later in the pipeline to "know" about the event link and to react to contact interactions with it (registered or attended). Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact registers for or attends the event.
 
 When you add an event tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same event (the system doesn't confirm this or modify the message when you add a child tile).
 
@@ -76,7 +76,7 @@ Event tiles provide the following settings in the **Properties** pane while sele
 
 ### Survey
 
-Survey tiles are typically children of marketing email tiles, where they represent a link to an online survey that is included in the parent message's content. The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to "know" about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only once a contact submits the survey.
+Survey tiles are typically children of marketing email tiles, where they represent a link to an online survey that is included in the parent message's content. The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to "know" about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the survey.
 
 When you add a survey tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same survey (the system doesn't confirm this or modify the message when you add a child tile).
 
@@ -105,7 +105,7 @@ Activity tiles provide the following settings in the **Properties** pane while s
 - **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Activity Type**: The type of activity (such as appointment, task, or phone call) the tile creates.
 - **Activity Template**: The template to use when creating the activity. The templates defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create activity marketing templates for activity tiles](customer-journeys-create-automated-campaigns.md#create-activity-marketing-templates-for-activity-tiles)
-- **Properties**: Once you've selected a template, a summary of its settings is shown here.
+- **Properties**: After you've selected a template, a summary of its settings is shown here.
 - **Assigned To:** The tile assigns all of the activities it generates to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user identified here.
 - **Description**: Add a description or other notes here (optional).
 
