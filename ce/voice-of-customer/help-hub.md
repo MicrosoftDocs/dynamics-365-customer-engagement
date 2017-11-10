@@ -18,12 +18,12 @@ topic-status: Drafting
 
 # Voice of the customer help and training
 
-test
+<h2>Get started</h2>
 
 <table>
 <tr>
   <td><iframe src="https://www.youtube.com/embed/9SLUlU_gv0E" width="auto" height="360" allowFullScreen="true" frameBorder="0"></iframe></td>
- <td><h2>Get started</h2>
+ <td>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
   <li>[Install Voice of the Customer solution](install-solution.md)</li>
