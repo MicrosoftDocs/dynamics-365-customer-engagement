@@ -35,7 +35,7 @@ topic-status: Drafting
  
 </tr>
 <tr>
- <td><h2>Design</h2>
+ <td>![Example of a ranking question](media/voc-icon-getstarted.png "Design")<h2>Design</h2>
   <ul>
   <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
   <li>[Create the survey](design-basic-survey.md#create-or-edit-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
@@ -45,7 +45,7 @@ topic-status: Drafting
   <li>[Design an interactive survey](design-advanced-survey.md#design-interactive-surveys-by-using-response-routing)</li>
   </ul>
  </td>
- <td><h2>Distribute</h2>
+ <td>![Example of a ranking question](media/voc-icon-getstarted.png "Design")<h2>Distribute</h2>
   <ul>
   <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
   <li>Send the survey to [anonymous](distribute-survey.md#distribute-a-survey-to-anonymous-respondents) or [non-anonymous](distribute-survey.md#distribute-a-survey-to-non-anonymous-respondents) respondents</li>
@@ -53,7 +53,7 @@ topic-status: Drafting
   </ul>
  </td>
 
- <td><h2>Analyze</h2>
+ <td>![Example of a ranking question](media/voc-icon-getstarted.png "Design")<h2>Analyze</h2>
   <ul>
   <li>[View survey responses](analyze-survey-data.md#survey-responses)</li>
   <li>[Run and export reports](analyze-survey-data.md#run-and-export-reports)</li>
