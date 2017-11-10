@@ -18,7 +18,7 @@ manager: sakudes
 # Adaptive learning based on changes to organization’s sentiment values
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] now uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
   
-To manage adaptive learning in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to be a Social Engagement Administrator. Every user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is able to edit the sentiment value of a post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
+To manage adaptive learning in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to be a Social Engagement Administrator. Every user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is able to edit the sentiment value of a post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 > [!IMPORTANT]
 >  Edited and confirmed sentiment values only apply to your organization database. Edits and confirmations performed on other organizations’ databases have no impact on how the sentiment is determined for your organization.  
@@ -32,11 +32,11 @@ By default, machine learning is active for your organization, but you can turn i
   
 3.  On the **Sentiment** pane, clear the **Adaptive learning** check box.  
   
-4.  Click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button").  
+4.  Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 Your organization’s sentiment analysis no longer learns from your users’ edits.  
   
-To turn machine learning on, select the **Adaptive learning** check box and click **Save** ![Save button](../social-engagement/media/save-icon.png "Save button"). Your organization’s sentiment analysis will now be able to learn from your users’ edits.  
+To turn machine learning on, select the **Adaptive learning** check box and click **Save** ![Save button](media/save-icon.png "Save button"). Your organization’s sentiment analysis will now be able to learn from your users’ edits.  
 ## Reset your organization’s sentiment analysis  
 If you aren’t happy with the results of the sentiment analysis, you can always reset your organization’s sentiment analysis to the system default. This will discard all previously made edits and confirmations to sentiment values, and restart the learning from the system default.  
   
@@ -58,6 +58,6 @@ If you aren’t happy with the results of the sentiment analysis, you can always
 >  If you compare several months of Sentiment KPI, make sure that you account for the matured sentiment calculation when comparing the findings.  
   
 ### See Also  
-[Manage global settings](../social-engagement/manage-global-settings.md)   
-[Understand the public perception using sentiment analysis](../social-engagement/analytics-sentiment.md)
+[Manage global settings](manage-global-settings.md)   
+[Understand the public perception using sentiment analysis](analytics-sentiment.md)
  

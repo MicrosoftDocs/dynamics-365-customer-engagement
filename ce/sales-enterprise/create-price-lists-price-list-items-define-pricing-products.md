@@ -59,15 +59,15 @@ Price lists tell your sales agents what to charge for your products or services.
   
 2. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-    -   In the Product and Unit box, select the product and unit for which you’re creating this price list item.  
+    -   In the Product and Unit box, select the product and unit for which you're creating this price list item.  
   
     -   To offer a discount on the combination of the product and unit, select a discount list.  
   
     -   In the **Quantity Selling Option** drop-down box, select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the **Quantity** field of **Quote Product**, **Order Product**, and **Invoice Product** records:  
   
-        - **No Control**. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] doesn’t enforce a quantity selling option.  
+        - **No Control**. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] doesn't enforce a quantity selling option.  
   
-        - **Whole**. Selling a partial product isn’t allowed. For example, digital cameras cannot be sold in fractions.  
+        - **Whole**. Selling a partial product isn't allowed. For example, digital cameras cannot be sold in fractions.  
   
         - **Whole and Fractional**. The product can be sold both in whole and fractional units. For example, wood chips can be sold in cubic yards, or in fractions of a cubic yard.  
   
@@ -97,7 +97,7 @@ Price lists tell your sales agents what to charge for your products or services.
   
 <a name="bkmk_DefineDefaultPL"></a>   
 ## Step 3: Define default price list for territories  
- Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they’ve permission on. You can have one price list as the default for multiple territories.  
+ Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
    
 1.  In the price list record, in the **Territory Relationships** section, click the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   

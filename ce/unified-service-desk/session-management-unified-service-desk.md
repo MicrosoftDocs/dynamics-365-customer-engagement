@@ -49,7 +49,7 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
   
  ![Session name in Unified Service Desk](../unified-service-desk/media/usd-session-name.png "Session name in Unified Service Desk")  
   
- In this example, there are two session tabs with the following session names: Adventure Works (sample)-US and Thomas Andersen (sample) – Information.  
+ In this example, there are two session tabs with the following session names: **Sidney Higa (sample)- Maintenance** and **Like some of our new products (sample)** – Information.  
   
  The first session tab is for the account, and the second session tab is for the case. You can define the format of the text for the session name for an entity using the **Session Lines** configuration (**Settings** > **Unified Service Desk** > **Session Lines**) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For more information, see [Configure the session tab name format](../unified-service-desk/configure-session-information.md#SessionName).  
   

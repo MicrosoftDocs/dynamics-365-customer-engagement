@@ -66,7 +66,7 @@ Open a view with a document grid.
 
 For example,
 
-1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the menu icon"), and then click **Opportunities**
+1.  Click the Menu icon ![Menu icon](media/Site-map-icon.png "Open the menu icon"), and then click **Opportunities**
 
 2.  Click the **Related** tab, and then click **Documents**.
 

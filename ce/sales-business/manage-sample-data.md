@@ -26,7 +26,7 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 1.  Make sure you have the System Administrator or System Customizer security role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-2.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the Menu icon"), and then click **Settings**.
+2.  Click the Menu icon ![Menu icon](media/Site-map-icon.png "Open the Menu icon"), and then click **Settings**.
 
 3.  On the **Advanced Settings** page, under **Others**, click **Sample Data Management**.
 

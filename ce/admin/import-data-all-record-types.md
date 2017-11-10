@@ -1,7 +1,7 @@
 ---
 title: "Import data (all record types) for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,7 +19,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Importing data is often the first important task that you need to perform after you have installed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. You can import data from various [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems and data sources into standard and customized fields of most business and custom entities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can include related data, such as notes and attachments. To assure data integrity, you can enable duplicate detection that prevents importing duplicate records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Detect duplicate data](../admin/detect-duplicate-data.md). For more complex data import scenarios, you can write code using the data import web service. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import data using web services](../developer/import-data.md).  -->
+Importing data is often the first important task that you need to perform after you have installed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. You can import data from various [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems and data sources into standard and customized fields of most business and custom entities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can include related data, such as notes and attachments. To assure data integrity, you can enable duplicate detection that prevents importing duplicate records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Detect duplicate data](../admin/detect-duplicate-data.md). For more complex data import scenarios, you can write code using the data import web service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import data using web services](../developer/import-data.md).
   
  Preliminary steps before you import the data into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement include:  
   

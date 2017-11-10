@@ -24,7 +24,7 @@ When you create a lead, there are system-required fields to fill out. But other 
 
  ## Create a lead
 
-1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Leads**.
+1.  Click the Menu icon ![Icon to open the menu](media/Site-map-icon.png "Icon to open the menu"), and then click **Leads**.
 
 2.  Click **+New**.
 

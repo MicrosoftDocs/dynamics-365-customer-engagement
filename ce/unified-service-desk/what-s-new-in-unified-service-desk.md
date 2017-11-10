@@ -23,10 +23,16 @@ manager: "amyla"
 # What&#39;s new in Unified Service Desk for developers and customizers
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.  
   
+<a name="WhatsNew31"></a>   
+## What's new in [!INCLUDE [pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] 
+
+There are no developer/customizer-specific changes in this release. For a list of new features in this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md)
+
+
 <a name="WhatsNew3"></a>   
-## What's new in Unified Service Desk 3.0  
+## What's new in [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)]  
  
-Developers and customizers will be able to use the following new features in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] 3.0 release.
+Developers and customizers will be able to use the following new features in the [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] release.
 
 ### Display customer data faster to your agents by pre-fetching entity data from Customer Engagement
 

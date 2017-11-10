@@ -1,1 +1,1 @@
-July 2017 update for Dynamics 365 (online)
+Dynamics 365 (online), version 9.0

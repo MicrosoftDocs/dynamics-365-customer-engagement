@@ -2,7 +2,11 @@
 title: "Help and training for Gamification | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: ""
+<<<<<<< HEAD
 ms.date: 10/19/2017
+=======
+ms.date: 10/24/2017
+>>>>>>> 4be3bea5bc6409635ef4233d2ca538ec5755116f
 ms.service: gamification
 ms.topic: article
 applies_to:

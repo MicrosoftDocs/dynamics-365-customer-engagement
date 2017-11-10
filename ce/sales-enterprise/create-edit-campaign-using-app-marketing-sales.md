@@ -54,7 +54,7 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
     4.  To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record](../basics/add-phone-call-task-email-appointment-activity-case-record.md)  
   
-4.  When you’re ready to save your data, click **Save**.  
+4.  When you're ready to save your data, click **Save**.  
   
 5.  To add a marketing list to the campaign, in the **Marketing Lists** area, click **+**, and in the **Look Up Records** dialog box, find and select a marketing list.  
   

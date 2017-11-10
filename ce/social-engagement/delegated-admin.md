@@ -1,20 +1,19 @@
 ---
-title: "Enable delegated administration | Microsoft Docs"
+title: "Enable delegated administration for Social Engagement | Microsoft Docs"
 description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "administrator, delegated admin, partner admin"
+ms.date: 10/17/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 74b59106-5d8d-4bbe-9759-126583cba116
-caps.latest.revision: 5
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Enable a partner as a delegated admin
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] puts powerful social tools in the hands of your sales, marketing, and service teams—helping them to gain insight into how people feel about your business and to proactively connect on social media with customers, fans, and critics.  
   
@@ -32,8 +31,8 @@ Your client must authorize you as a delegated administrator before you can start
 >  Delegated admins will have their location set to the customer organization’s location. All maps in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will be shown from the customer organization’s defined location.  
   
 ### See Also  
-[Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
-[Manage social profiles](../social-engagement/manage-social-profiles.md)   
-[Keep track of live data streams with Social Center](../social-engagement/social-center.md)
+[Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+[Manage social profiles](manage-social-profiles.md)   
+[Keep track of live data streams with Social Center](social-center.md)
 
  
