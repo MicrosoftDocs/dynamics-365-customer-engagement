@@ -21,7 +21,7 @@ tags:
 # Deploy Dynamics 365 App for Outlook 
 
 > [!IMPORTANT]
-> This page describes how to use Dynamics 365 App for Outlook with Microsoft Dynamics CRM 2016. This version of Dynamics 365 App for Outlook does not work with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. Check back soon for updates!
+> This page describes how to use [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] with [!INCLUDE[pn-crm-8-2-0-online](../includes/pn-crm-8-2-0-online.md)]. [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] is not  available yet for [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. We'll update this page when it's available.
 
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] while using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
   
