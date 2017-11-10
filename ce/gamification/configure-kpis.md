@@ -16,11 +16,12 @@ topic-status: Drafting
 
 # Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]
 
-Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](../includes/pn-gamification-shortest.md)]. It's a two-step process: first,, in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], a user with a **Game Manager** security role creates the KPIs. Next, they can choose and configure them in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when setting up a new game.
+Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](../includes/pn-gamification-shortest.md)]. It's a two-step process: first, in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], a user with a **Game Manager** security role creates the KPIs. Next, the user chooses and configures the KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when setting up a new game.
 
 > [!VIDEO https://www.youtube.com/embed/7kb9zfvSjLE]
 
-For more information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], see [Set up and run games in Gamification](run-games.md). For basic information about KPIs, see [Concepts to learn before you get started using Gamification](get-started.md).
+More information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]: [Set up and run games in Gamification](run-games.md)  
+Basic information about KPIs; [Concepts to learn before you get started using Gamification](get-started.md)
 
 ## Create KPIs in Gamification
 
@@ -53,11 +54,11 @@ There are various ways to create useful KPIs based on the data of a [!INCLUDE[pn
 6.  Define which date field the points will be assigned on.
 
     > [!TIP]
-    > Be mindful when you choose date fields. If you're using a date field that might change several times a day, like **Modified On** or **Modified By**, assigned points can be removed from one player and assigned to another, or the date of their point assignment may change.
+    > Be mindful when you choose date fields. If you're using a date field that might change several times a day, like **Modified On** or **Modified By**, assigned points can be removed from one player and assigned to another, or the date of their point assignment might change.
     >
     >  For example, let's say you create a KPI based on the lead entity that uses **Modified On** as the date field and **Modified By** as the field that specifies which user to assign points to. If a user creates a new lead on Monday, the system will assign points to this user on Monday. When this lead gets updated on Tuesday, the system will remove the user's points from Monday and move them to Tuesday, which could change how many points a player earns within the specified game period.
     >
-    >  If you have a system job that updates lead records on a daily basis by using a system account, any points players earned will be removed after the job runs because the system modified the lead. The same logic applies if another user updates this lead record.
+    >  If you have a system job that updates lead records on a daily basis by using a system account, any points that players earned will be removed after the job runs because the system modified the lead. The same logic applies if another user updates this lead record.
     >
     >  To avoid this, use **Scoring Behavior** in the **Additional Scoring Settings** section.
 
