@@ -25,7 +25,7 @@ GridControl or the gridContext is the instance of grid or subgrid on a form agai
 |[getGrid](gridcontrol/getGrid.md)|[!INCLUDE[gridcontrol/includes/getGrid-description.md](gridcontrol/includes/getGrid-description.md)]|Read-only and editable grids|
 |[getGridType](gridcontrol/getGridType.md)|[!INCLUDE[gridcontrol/includes/getGridType-description.md](gridcontrol/includes/getGridType-description.md)]|Read-only and editable grids|
 |[getRelationship](gridcontrol/getRelationship.md)|[!INCLUDE[gridcontrol/includes/getRelationship-description.md](gridcontrol/includes/getRelationship-description.md)]|Read-only and editable grids|
-|[getUrl](gridcontrol/getUrl.md)|[!INCLUDE[gridcontrol/includes/getUrl-description.md](gridcontrol/includes/getUrl-description.md)]|RRead-only and editable grids|
+|[getUrl](gridcontrol/getUrl.md)|[!INCLUDE[gridcontrol/includes/getUrl-description.md](gridcontrol/includes/getUrl-description.md)]|Read-only and editable grids|
 |[getViewSelector](gridcontrol/getViewSelector.md)|[!INCLUDE[gridcontrol/includes/getViewSelector-description.md](gridcontrol/includes/getViewSelector-description.md)]|Read-only grid|
 |[openRelatedGrid](gridcontrol/openRelatedGrid.md)|[!INCLUDE[gridcontrol/includes/openRelatedGrid-description.md](gridcontrol/includes/openRelatedGrid-description.md)]|Read-only and editable grids|
 |[refresh](gridcontrol/refresh.md)|[!INCLUDE[gridcontrol/includes/refresh-description.md](gridcontrol/includes/refresh-description.md)]|Read-only and editable grids|
