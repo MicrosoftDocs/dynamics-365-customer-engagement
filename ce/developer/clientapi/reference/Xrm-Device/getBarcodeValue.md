@@ -1,6 +1,6 @@
 ---
 title: "getBarcodeValue| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -32,7 +32,20 @@ manager: "amyla"
 On success, returns a string containing the scanned barcode value.
 
 ## Remarks
-This method is supported only for the mobile clients. 
+This method is supported only for the mobile clients.
+
+## Example
+
+```JavaScript
+Xrm.Device.getBarcodeValue().then(
+    function success(result) {
+        Xrm.Navigation.openAlertDialog({ text: "Barcode value: " + result });
+    },
+    function (error) {
+        Xrm.Navigation.openAlertDialog(error.message);
+    }
+);
+``` 
 
 ### Related topics
 [Xrm.Device](../xrm-device.md)

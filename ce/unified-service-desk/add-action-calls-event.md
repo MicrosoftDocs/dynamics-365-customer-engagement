@@ -1,6 +1,7 @@
 ---
 title: "Add action calls to an event | MicrosoftDocs"
-ms.custom: "Learn about adding action calls to an event."
+description: "Learn about adding action calls to an event."
+ms.custom: ""
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: "usd"
