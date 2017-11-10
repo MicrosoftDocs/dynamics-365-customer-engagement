@@ -242,11 +242,9 @@ You can add the following data as placeholders:
 8.  Select **Save** in the lower-right corner of the screen.
 
 > [!NOTE]
-> -   Piped data can be used in personalizing survey invitations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize survey invitations](#personalize-survey-invitations)  
-> 
-> -   Don't use piped data if you plan to distribute a survey anonymously. Piped data will not be replaced with actual [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] data in an anonymous survey.
-> 
-> -   Piped data placeholders are replaced with the values specified in appropriate fields in a survey activity or invitation, or survey email.
+> - Piped data can be used in personalizing survey invitations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize survey invitations](#personalize-survey-invitations)  
+> - Don't use piped data if you plan to distribute a survey anonymously. Piped data will not be replaced with actual [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] data in an anonymous survey.
+> - Piped data placeholders are replaced with the values specified in appropriate fields in a survey activity or invitation, or survey email.
 
 ## Preview, publish, and test the survey
 
