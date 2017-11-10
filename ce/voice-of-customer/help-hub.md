@@ -19,17 +19,17 @@ topic-status: Drafting
 # Voice of the customer help and training
 <table>
  
- <tr>
-   
-  <td><h2>Get started</h2>
+<tr>
+ <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
   <li>[Install Voice of the Customer solution](install-solution.md)</li>
   <li>[Best practices to create a survey](plan-survey.md#best-practices-to-create-a-survey)</li>
   <li>[Decide question type for your survey](plan-survey.md#decide-the-question-type)</li>
-  </ul></td>
+  </ul>
+  </td>
 
-  <td><h2> Design</h2>
+ <td><h2> Design</h2>
   <ul>
   <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
   <li>[Create the survey](design-basic-survey.md#create-or-edit-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
@@ -38,25 +38,24 @@ topic-status: Drafting
   <li>[Translate the survey](design-basic-survey.md#translate-a-survey)</li>
   <li>[Design an interactive survey](design-advanced-survey.md#design-interactive-surveys-by-using-response-routing)</li>
   </ul>
-  </td>
- </tr>
+ </td>
+</tr>
 
-  <tr>
-
-  <td><h2>Distribute</h2>
+<tr>
+ <td><h2>Distribute</h2>
   <ul>
   <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
   <li>Send the survey to [anonymous](distribute-survey.md#distribute-a-survey-to-anonymous-respondents) or [non-anonymous](distribute-survey.md#distribute-a-survey-to-non-anonymous-respondents) respondents</li>
   <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
   </ul>
-  </td>
+ </td>
 
-  <td><h2>Analyze</h2>
+ <td><h2>Analyze</h2>
   <ul>
   <li>[View survey responses](analyze-survey-data.md#survey-responses)</li>
   <li>[Run and export reports](analyze-survey-data.md#run-and-export-reports)</li>
   <li>[View survey invitations and responses in a dashboard](analyze-survey-data.md#view-survey-invitations-and-responses)</li>
   </ul>  
-  </td>
+ </td>
  </tr>
 </table>
