@@ -52,7 +52,7 @@ To promote a user to a Commissioner role in [!INCLUDE[pn_gamification_shortest](
 #### Solution
 
 - Simplified the steps to activate the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal and connect it with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)]
-[Activate Gamification in Dynamics 365](manage-gamification-in-dynamics-365-online.md#activate-gamification-in-dynamics-365)
+[Activate Gamification in Dynamics 365](manage-gamification-in-dynamics-365-online.md)
 
 - Introduced a KPI type, **User activity tracking**, to award points based on a user's activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)].
 
