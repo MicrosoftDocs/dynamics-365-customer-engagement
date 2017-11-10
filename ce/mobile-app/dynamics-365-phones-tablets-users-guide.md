@@ -215,7 +215,7 @@ Changing the chart view shows you a different breakdown of your data, such as op
 
 For example, tap "All Opportunities", then select a different view, both chart and grid will get refreshed.
 
-## Search
+## Search for records
 
 You can search for records across multiple entities by using Relevance Search or Categorized Search. Relevance Search delivers fast and 
 comprehensive results across multiple entities, in a single list, sorted by relevance. Categorized Search returns search results grouped 
