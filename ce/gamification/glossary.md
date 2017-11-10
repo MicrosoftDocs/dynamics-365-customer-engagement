@@ -1,26 +1,27 @@
 ---
 title: "Terminology glossary for Dynamics 365 – Gamification | Microsoft Docs"
 description: "Review specific terms used in Dynamics 365 – Gamification."
-keywords: "glossary, terms, terminology"
-ms.date: 10/12/2017
+ms.custom: ""
+ms.date: 05/31/2017
+ms.reviewer: ""
 ms.service: gamification
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: Dynamics 365 (online)
 ms.assetid: 10c6a538-985a-4ea2-b8d9-4efc67f7363f
-author: m-hartmann
+caps.latest.revision: 10
+author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ---
-
 # Gamification terminology
 
 For a quick reference, review these terms used in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].
 
 ## Security roles
 
-Security roles are the permissions that individual users have in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. They are managed in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)].
+Security roles are the permissions that individual users have in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Commissioners specify security roles when they configure [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] or when they create a new game.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Understand Gamification security roles](understand-security-roles.md)
 

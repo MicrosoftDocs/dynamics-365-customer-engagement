@@ -23,7 +23,7 @@ To create a Stream TV from multiple active games, see [Stream results from activ
 
 ### Create a Stream TV slide show
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Games** > **Game Setup**.
+1.  In [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], go to **Games** > **Game Setup**.
 
 2. Provide a **Name** for the game and select **Stream TV** from the **Game Model** menu.
 
@@ -57,7 +57,7 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 ### Create custom streams from multiple active games
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
+1.  In [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], go to **Stream TV**.
 
 2.  Click the ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).
 
@@ -75,7 +75,7 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 ### Edit a Stream TV
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
+1.  In [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], go to **Stream TV**.
 
 2.  Click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide show you want to edit.
 
@@ -83,7 +83,7 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 #### Delete a Stream TV
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
+1.  In [!INCLUDE[pn_gamification_portal](../includes/pn-gamification-portal.md)], go to **Stream TV**.
 
 2.  Click **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide show you want to delete.
 
