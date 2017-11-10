@@ -1,5 +1,5 @@
 ---
-title: "Field Resource Hub User’s Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Field Resource Hub User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -16,15 +16,15 @@ caps.latest.revision: 1
 ms.author: "mkaur"
 manager: "amyla"
 ---
-# Field Resource Hub User's Guide (Field Service)
+# User Guide (Field Resource Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Field Resource Hub app lets field techs do basic tasks in the field like, view upcoming appointments, view and edit bookings, complete service tasks including adding products, notes and signatures. Field techs can also submit time-off requests so a dispatcher knows when the tech isn’t available.  
+With the Field Resource Hub app field techs can do basic tasks in the field like viewing upcoming appointments, viewing and editing bookings, completing service tasks including adding products, notes, and signatures. Field techs can also submit time-off requests so a dispatcher knows when the tech isn’t available.  
 
 **Available anywhere, on any device**
 
-There are two flavors of Field Service app. If you’re using a desktop browser, you’ll use the Dynamics 365 for Field Service app. If you’re a field tech using a smartphone or tablet, you’ll use the Field Resource Hub app which is a subset of the Field Service app. The Field Resources Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+There are two flavors of the Field Service app. If you’re using a desktop browser, you’ll use the Dynamics 365 for Field Service app. If you’re a field tech using a smartphone or tablet, you’ll use the Field Resource Hub app which is a subset of the Field Service app. The Field Resources Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
 For information Dynamics 365 for Field Service app [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Dynamics 365 for Field Servic user's guide](../field-service/user-guide.md).
 
