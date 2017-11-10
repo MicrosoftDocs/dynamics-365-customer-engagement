@@ -74,7 +74,7 @@ The following table describes what each app is used for, whether it's designed f
 |---------|---------|---------|---------|
 |Sales|Full-featured desktop-optimized app for sales scenarios |Web|[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)|
 |Sales Hub|Mobile-optimized app for sales scenarios (Unified Interface)|Web and Mobile|[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)|
-|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)|Web|[User Guide (Customer Service](../customer-service/user-guide-customer-service.md)|
+|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)|Web|[User Guide (Customer Service)](../customer-service/user-guide-customer-service.md)|
 |Customer Service Hub|Desktop (recommended for knowledge management only) and mobile-optimized app (recommended for case management) (Unified Interface)|Web and Mobile|[User Guide (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)|
 |Field Service|Full-featured desktop-optimized app for field service scenarios|Web|[User Guide (Field Service)](../field-service/user-guide.md)|
 |Field Resource Hub|Mobile-optimized app for field service scenarios (Unified Interface)|Web and Mobile|[User Guide (Field Resource Hub)](../field-service/field-resource-hub-users-guide.md)|
