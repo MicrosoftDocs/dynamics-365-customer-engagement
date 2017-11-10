@@ -35,7 +35,7 @@ topic-status: Drafting
  
 </tr>
 <tr>
- <td><h2>[Example of a ranking question](media/voc-icon-getstarted.png "Design") Design</h2>
+ <td><h2>Design</h2>
   <ul>
   <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
   <li>[Create the survey](design-basic-survey.md#create-or-edit-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
