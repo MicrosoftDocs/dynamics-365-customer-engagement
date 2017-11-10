@@ -59,9 +59,9 @@ For example, for the question **How likely is it that you would recommend us to 
 
 13.  Enter a name for the action, and then select one of the following scopes:
 
-- **Client**: Choose this if the action occurs within the survey (for example, show or hide a question). In the **Client** area, select the survey and the action to take, and then select **Save**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Client-side routing](#client-side-routing)  
+    - **Client**: Choose this if the action occurs within the survey (for example, show or hide a question). In the **Client** area, select the survey and the action to take, and then select **Save**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Client-side routing](#client-side-routing)  
 
-- **Server**: Choose this if the action occurs outside of the survey (for example, request contact or unsubscribe). In the **Server** area, select the action type, and then select the users or queues to notify, if applicable. Select **Save**.
+    - **Server**: Choose this if the action occurs outside of the survey (for example, request contact or unsubscribe). In the **Server** area, select the action type, and then select the users or queues to notify, if applicable. Select **Save**.
 
     ![Survey response routing action](media/response-action.png "Survey response routing action")  
 
@@ -69,9 +69,9 @@ For example, for the question **How likely is it that you would recommend us to 
 
 15.  In the **Otherwise** area, create an action by following the steps you took to add a response action. This action is triggered when the above-mentioned response action does not meet the specified response condition.
 
-For example, you added an Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
+    For example, you added an Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
 
-![Survey response routing otherwise action](media/response-otherwise-action.png "Survey response routing otherwise action")  
+    ![Survey response routing otherwise action](media/response-otherwise-action.png "Survey response routing otherwise action")  
 
 ### Client-side routing
 
