@@ -32,10 +32,7 @@ test
   <li>[Decide question type for your survey](plan-survey.md#decide-the-question-type)</li>
   </ul>
   </td>
-
- 
 </tr>
-
 <tr>
  <td><h2> Design</h2>
   <ul>
