@@ -70,6 +70,7 @@ You can track the installation status from the solutions page of [!INCLUDE[pn-cr
 2.  Select the instance name, and then select **Solutions**.
     The status is displayed in the **Status** column.
 
+[//]: # (@Shubham, is Saurabh okay with keeping "limitations" in this section? I kind of like my idea of using "requirements" instead: it's accurate, and it doesn't have a bad connotation.)
 ## Limitations of the Voice of the Customer solution
 
 Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] has the following limitations designed to optimize performance:
@@ -90,7 +91,7 @@ The following limitation also applies if you're using Voice of the Customer vers
 
 ### See also
 [Plan a survey](plan-survey.md)    
-[Design basic survey](design-basic-survey.md)   
-[Design advanced survey](design-advanced-survey.md)   
-[Distribute survey](distribute-survey.md)   
+[Design a basic survey](design-basic-survey.md)   
+[Design an advanced survey](design-advanced-survey.md)   
+[Distribute a survey](distribute-survey.md)   
 [Analyze survey data](analyze-survey-data.md)   

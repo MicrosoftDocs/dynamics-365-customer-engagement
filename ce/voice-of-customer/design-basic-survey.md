@@ -18,12 +18,12 @@ topic-status: Drafting
 
 # Design a basic survey
 
-After deciding the types of questions, you want to include in your survey, you must now create the survey. This chapter provides information about the basics of survey designing, for example, creating a survey theme, adding questions to the survey, and so on. More information about advanced survey design: [Design an advanced survey](design-advanced-survey.md)  
+After deciding the types of questions you want to include in your survey, you must now create the survey. This chapter provides information about the basics of survey designing, for example, creating a survey theme, adding questions to the survey, and so on. More information about advanced survey design: [Design an advanced survey](design-advanced-survey.md)  
 
 > [!NOTE]
 > You must be assigned the Survey Administrator or Survey Designer role to perform the actions described in this chapter. The Survey Administrator role has access at the organization level, whereas the Survey Designer role has access at the business-unit level.
 
-## Create survey theme
+## Create a survey theme
 
 You can create a theme for your survey to match your company's style. Themes define the color scheme for your surveys. You can design multiple themes and use them in different surveys.
 
@@ -65,7 +65,7 @@ You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016
 
 9.  Select **Save** in the lower-right corner of the screen.
 
-## Create or edit survey
+## Create or edit a survey
 
 After creating a theme for your survey and uploading the images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you can start creating your Voice of the Customer survey.
 
@@ -191,7 +191,7 @@ To create a linked question:
 
 7.  From the **Linked Question** field, browse to and select the question to be linked.
 
-    ![Create linked question](media/link-ques.png "Create linked question")  
+    ![Create linked question](media/link-ques.png "Create a linked question")  
 
 8.  Select **Save** in the lower-right corner of the screen.
 
@@ -302,7 +302,7 @@ You can create a survey in one environment, test it, and then move it to the pro
 
 4.  Select the survey XML file under the **Notes** section and save it to the location you want.
 
-    ![Download XML file of a survey](media/import-survey.png "Download XML file of a survey")  
+    ![Download XML file of a survey](media/import-survey.png "Download the XML file of a survey")  
 
 5.  Sign in to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] environment to which you want to move the survey.
 
@@ -378,6 +378,6 @@ We recommend that when you create a survey you specify a redirect URL to display
 
 ### See also
 [Plan a survey](plan-survey.md)   
-[Design advanced survey](design-advanced-survey.md)   
-[Distribute survey](distribute-survey.md)   
+[Design an advanced survey](design-advanced-survey.md)   
+[Distribute a survey](distribute-survey.md)   
 [Analyze survey data](analyze-survey-data.md)

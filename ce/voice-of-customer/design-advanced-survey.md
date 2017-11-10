@@ -71,7 +71,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
     For example, you added an Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
 
-    ![Survey response routing otherwise action](media/response-otherwise-action.png "Survey response routing otherwise action")  
+    ![Survey response routing otherwise action](media/response-otherwise-action.png "Survey response routing Otherwise action")  
 
 ### Client-side routing
 
@@ -107,11 +107,11 @@ You can configure your survey to include a link that allows a respondent to unsu
 
 2.  Open the survey to which you want to add the unsubscribe option.
 
-3.  Under **Summary**, select **Yes** for the **Allow Unsubscribe** field. Two new fields are displayed: **Unsubscribe Survey** and **Unsubscribe Link Text.**
+3.  Under **Summary**, select **Yes** for the **Allow Unsubscribe** field. Two new fields are displayed: **Unsubscribe Survey** and **Unsubscribe Link Text**.
 
 4.  From the **Unsubscribe Survey** field, select the survey you created to capture reasons for unsubscribing.
 
-5.  In the **Unsubscribe Link Text field**, enter text to display to the respondent.
+5.  In the **Unsubscribe Link Text** field, enter text to display to the respondent.
 
 6.  Select **Save** in the lower-right corner of the screen.
 
@@ -133,7 +133,7 @@ You can configure your survey to create a lead automatically from a survey respo
 
 7.  Edit the questions you want to configure to create the lead by selecting a lead attribute from the **Response Mapping** list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](#store-responses-in-a-custom-field-by-using-response-mapping)  
 
-    ![Response mapping to create lead](media/lead-response-mapping.png "Response mapping to create lead")  
+    ![Response mapping to create lead](media/lead-response-mapping.png "Response mapping to create a lead")  
 
 8.  Save the changes.
 
@@ -186,6 +186,6 @@ You can configure your survey to automatically send an email response to the cus
 
 ### See also
 [Plan a survey](plan-survey.md)   
-[Design basic survey](design-basic-survey.md)   
-[Distribute survey](distribute-survey.md)   
+[Design a basic survey](design-basic-survey.md)   
+[Distribute a survey](distribute-survey.md)   
 [Analyze survey data](analyze-survey-data.md)   

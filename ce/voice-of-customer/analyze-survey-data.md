@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Analyze survey data
 
-Voice of the Customer stores all the survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and you can analyze them by using features such as:
+Voice of the Customer stores all survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and you can analyze them by using features such as:
 
 -   Survey response entity
 
@@ -60,7 +60,7 @@ Additionally, you can export survey responses to [!INCLUDE[pn-excel-short](../in
 
 You can also use Advanced Find to create customized queries. For example, you can create a query to fetch all the survey responses where the Net Promoter Score is equal to Detractor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Advanced Find search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search)  
 
-![Create custom query by using Advanced find](media/advanced-find.png "Create custom query by using Advanced find")  
+![Create custom query by using Advanced find](media/advanced-find.png "Create a custom query by using Advanced Find")  
 
 ## Store responses in a custom field by using response mapping
 
@@ -105,7 +105,7 @@ To run and export a report:
 
 3.  Select the name of the survey for which you want to run a report.
 
-4.  Select **More Commands** on the toolbar, select **Run Report**, and then select the report you want to run. The selected report is displayed in Report Viewer.
+4.  Select **More Commands** on the toolbar, select **Run Report**, and then select the report you want to run.
 
 5.  To export the report, select **Export**, and then select the format you want:
 
@@ -129,7 +129,7 @@ The report is exported in the selected format.
 
 The survey dashboard allows you to view the summary of survey invitations and responses. You can select a combination of view and chart to see the results you're interested in. You can also create your personal, customized view to see the results.
 
-![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invites and responses charts")  
+![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invitations and responses charts")  
 
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
@@ -147,6 +147,6 @@ Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-
 
 ### See also
 [Plan a survey](plan-survey.md)   
-[Design basic survey](design-basic-survey.md)   
-[Design advanced survey](design-advanced-survey.md)   
-[Distribute survey](distribute-survey.md)
+[Design a basic survey](design-basic-survey.md)   
+[Design an advanced survey](design-advanced-survey.md)   
+[Distribute a survey](distribute-survey.md)

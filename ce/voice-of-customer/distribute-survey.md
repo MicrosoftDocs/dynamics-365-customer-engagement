@@ -72,7 +72,7 @@ For non-anonymous surveys, the link you send to respondents is specific and uniq
 
 For example: You create an email and paste the survey snippet in the email body.
 
-![Add survey snippet in an email](media/add-email-snippet.png "Add survey snippet in an email")  
+![Add survey snippet in an email](media/add-email-snippet.png "Add a survey snippet to an email")  
 
 When you save the email, the snippet changes to the invitation link text you specified.
 
@@ -96,7 +96,7 @@ You can also select an email template when you create an email in [!INCLUDE[pn-c
 
 ### Create survey invitation or survey activity
 
-You can create a survey activity or survey invitation to create personalized invitation links to be distributed by using a non–[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email program. These personalized invitation links have the following advantages:
+You can create a survey activity or survey invitation to create personalized invitation links to be distributed by using a non&ndash;[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email program. These personalized invitation links have the following advantages:
 
 -   You can add piped data to the survey.
 
@@ -104,11 +104,11 @@ You can create a survey activity or survey invitation to create personalized inv
 
     -   The **Regarding** field.
 
-    -   Any o out-of-the-box fields on the survey activity, such as **Stage** or **Reminder**.
+    -   Any out-of-the-box fields on the survey activity, such as **Stage** or **Reminder**.
 
     -   Any additional custom fields to the entity.
 
--   The activity is not an email activity—for example, it might be a telephone survey.
+-   The activity is not an email activity&mdash;for example, it might be a telephone survey.
 
 To create a survey invitation or survey activity:
 
@@ -122,7 +122,7 @@ To create a survey invitation or survey activity:
 
 5.  Select **Add New Survey Activity**.
 
-6.  Enter the required information under **General** and **Advanced** sections. If you need help, point to any field to read the tooltips.
+6.  Enter the required information in the **General** and **Advanced** sections. If you need help, point to any field to read the tooltips.
 
     > [!NOTE]
     >  If you have used piped data in the survey, ensure that the data is entered in the appropriate piped data field in the **Advanced** section.
@@ -192,12 +192,12 @@ You can use the survey dashboard to track surveys you have sent to your responde
 
     ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
 
-5.  Select a view and chart from the view list and chart list, respectively—for example, **My Open Survey Invites** as the view and **Survey Invites By Month** as the chart. The corresponding chart is displayed.
+5.  Select a view and chart from the view list and chart list, respectively&mdash;for example, **My Open Survey Invites** as the view and **Survey Invites By Month** as the chart. The corresponding chart is displayed.
 
     ![Survey dashboard chart](media/survey-dashboard-chart.png "Survey dashboard chart")  
 
 ### See also
 [Plan a survey](plan-survey.md)   
-[Design basic survey](design-basic-survey.md)   
-[Design advanced survey](design-advanced-survey.md)   
+[Design a basic survey](design-basic-survey.md)   
+[Design an advanced survey](design-advanced-survey.md)   
 [Analyze survey data](analyze-survey-data.md)  

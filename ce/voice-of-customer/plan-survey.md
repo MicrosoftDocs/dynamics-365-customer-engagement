@@ -51,7 +51,7 @@ A few best practices will enable you to create a meaningful survey and gather go
 
 - **Organize the survey**: Group the related questions in a section and place the related sections on a single page.
 
-- **Ask one question at a time**: Ensure that you ask only one question at a time to keep your audience focused. Avoid asking questions that are vague or don't communicate your intent. Keep the objective of your questions clear to your respondents. Avoid asking questions that are too narrow, such as "Do you like chocolate and ice-cream?"
+- **Ask one question at a time**: Ensure that you ask only one question at a time to keep your audience focused. Avoid asking questions that are vague or don't communicate your intent. Keep the objective of your questions clear to your respondents. Avoid asking questions that are too narrow, such as "Do you like chocolate and ice cream?"
 
 - **Preview and test the survey**: After creating your survey, always preview it to check the overall flow of the survey and to catch any mistakes. After publishing the survey, test it to ensure that respondents can find and open it easily.
 
@@ -69,7 +69,7 @@ Deciding the question types while planning a survey helps you to create an organ
 | Single response       | Question that allows a respondent to choose only one answer. <br>**Note**: You can change the response type from the **Single Response Type** list while creating or editing the question.  | ![Example of a single response question with big buttons as the response type](media/single-response-ques-big-button.png "Example of a single response question with big buttons as the response type") <br> ![Example of a single response question with radio buttons as the response type](media/single-response-ques-radio-button.png "Example of a single response question with radio buttons as the response type") <br>![Example of a single response question with drop down list as the response type](media/single-response-ques-drop-down.png "Example of a single response question with drop down list as the response type")    |  
 | Multiple response     | Question that allows a respondent to choose multiple answers.                                                                                | ![Example of a multiple response question with big buttons as the response type](media/multi-response-ques-big-button.png "Example of a multiple response question with big buttons as the response type") <br> ![Example of a multiple response question with check boxes as the response type](media/multi-response-ques-check-box.png "Example of a multiple response question with check boxes as the response type")   |  
 | Date                  | Question that asks a respondent to select a date.                                                                                            | ![Example of a date question](media/date-ques.png "Example of a date question")  |  
-| Descriptive text      | Use to describe elements on the survey page, for example labels.                                                                             | ![Example of a descriptive text question](media/descriptive-text-ques.png "Example of a descriptive text question")  |  
+| Descriptive text      | Use to describe elements on the survey page, for example labels.                                                                             | ![Example of descriptive text](media/descriptive-text-ques.png "Example of a descriptive text question")  |  
 | Numerical response    | Question that allows only numerical responses.                                                                                               | ![Example of a numerical response question](media/numerical-response-ques.png "Example of a numerical response question")  |  
 | Ranking               | Question that asks a respondent to rank answers in their order of preference.                                                                | ![Example of a ranking question](media/ranking-ques.png "Example of a ranking question") |  
 | Net Promoter Score    | Question that captures the satisfaction of the respondent based on the likelihood of their recommending the product or services to a friend. | ![Example of a Net Promoter Score question](media/nps-ques.png "Example of a Net Promoter Score question")  |  
@@ -86,7 +86,7 @@ The following table describes the question types to use when you need to address
 |-----------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | List of ratings             | List of questions that ask a respondent to rate multiple items by using emoticons.           | ![Example of a list of ratings question](media/list-rating-ques.png "Example of a list of ratings question") |  
 | Single rating in columns    | List of questions that allow a respondent to select one answer from a column of choices.     | ![Example of a single rating in column question](media/single-rating-col-ques.png "Example of a single rating in column question") |  
-| Multiple ratings in columns | List of questions that ask a respondent to select multiple answers from a column of choices. | ![Example of a multiple rating in column question](media/multi-rating-col-ques.png "Example of a multiple rating in column question") |  
+| Multiple ratings in columns | List of questions that ask a respondent to select multiple answers from a column of choices. | ![Example of a multiple ratings in column question](media/multi-rating-col-ques.png "Example of a multiple rating in column question") |  
 |||
 
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  
@@ -110,7 +110,7 @@ Voice of the Customer provides the following workflows out-of-the-box.
 You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]: [Create custom business logic through processes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
 
 ### See also
-[Design basic survey](design-basic-survey.md)   
-[Design advanced survey](design-advanced-survey.md)   
-[Distribute survey](distribute-survey.md)   
+[Design a basic survey](design-basic-survey.md)   
+[Design an advanced survey](design-advanced-survey.md)   
+[Distribute a survey](distribute-survey.md)   
 [Analyze survey data](analyze-survey-data.md)
