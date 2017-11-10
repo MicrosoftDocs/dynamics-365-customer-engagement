@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Voice of the customer help and training
 
-<h2>Get started</h2>
+
 
 <table>
 <tr>
