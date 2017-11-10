@@ -22,7 +22,7 @@ test
 
 <table>
 <tr>
-  <td><iframe src="https://www.youtube.com/watch?v=5jVRFpV4xIs" width="480" height="360" allowFullScreen="true" frameBorder="0"></iframe></td>
+  <td><iframe src="https://www.youtube.com/watch?v=5jVRFpV4xIs" width="auto" height="360" allowFullScreen="true" frameBorder="0"></iframe></td>
   <td></td>
  <td><h2>Get started</h2>
   <ul>
