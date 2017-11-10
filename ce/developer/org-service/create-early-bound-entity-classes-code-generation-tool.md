@@ -172,6 +172,8 @@ For more information on supported tracing options see [Configure tracing for XRM
 
 ## Community tools
 
+### Early bound generator
+
 [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator) is a tool that [XrmToolBox](https://www.xrmtoolbox.com) developed for Microsoft Dynamics CRM. This tool helps you to generate Early Bound Entities, Option Sets, or Actions. The tools uses [CrmSvcUtil.exe](../download-tools-NuGet.md) and display the command lines that are used to create theses classes.
 
 More information: [Early Bound Generator](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.EarlyBoundGenerator)

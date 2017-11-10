@@ -129,6 +129,7 @@ topic-status: Drafting
 ## Community tools
 
 ### View layout replicator
+
 [View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator) is a tool that [XrmToolBox](https://www.xrmtoolbox.com) developed for Microsoft Dynamics CRM. This tool helps you to copy and apply the layout of a particular view to multiple views of the same entity.
 
 More information: [View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator)

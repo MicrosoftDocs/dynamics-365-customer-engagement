@@ -1,21 +1,24 @@
 ---
 title: "Browse the metadata for your organization (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "You can use the Entity Metadata Browser to view entities and their properties in Dynamics 365 Customer Engagement. The Entity Metadata Browser is a managed solution you can download and install on your organization."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 46306470-dca2-4d4e-8a98-d7a6eb47ecfe
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 40
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+topic-status: Drafting
 ---
+
 # Browse the metadata for your organization
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
@@ -79,7 +82,19 @@ You can perform the following actions:
 > When viewing the entity detail properties, you’ll see that many complex properties are expandable. The most useful value is displayed with a link that allows toggling to a more detailed view. The detailed view reflects the structure of the data if you were to retrieve it programmatically. The detailed view also reveals other relevant data that can be retrieved in the same area, for example, if any localized labels are present for **Display Name** properties.
 
 > [!TIP]
-> To copy text from the page, simply select the text and use the Ctrl+C keyboard shortcut or the context menu **Copy** command. 
+> To copy text from the page, simply select the text and use the Ctrl+C keyboard shortcut or the context menu **Copy** command.
+
+## Community tools
+
+### Metadata brwoser
+
+[Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) is a tool that [XrmToolBox](https://www.xrmtoolbox.com) developed for Microsoft Dynamics CRM. This tool helps you browse metadata from your Dynamics CRM organization.
+
+More information: [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser)
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
 ### See also
 
