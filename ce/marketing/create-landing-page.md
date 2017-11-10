@@ -24,12 +24,12 @@ In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], a land
 
 To create a landing page and go live:
 
-1. Most landing pages include an input from that people can use to submit information, so you’ll start by creating the form itself. Go to **Marketing &gt; Internet Marketing &gt; Marketing Forms**.  
+1. Most landing pages include an input from that people can use to submit information, so you'll start by creating the form itself. Go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Forms**.  
     ![Location of the New button](media/form-new-button-location.png "Location of the New button")
 
     Choose **New** from the command bar.
 
-    > [!TIP] Forms are stand-alone records, and each of them can be used on any number of marketing pages. In day-to-day work, you’ll often reuse existing forms rather than creating a new one for each landing page. But for this exercise, you’ll create a new one.
+    > [!TIP] Forms are stand-alone records, and each of them can be used on any number of marketing pages. In day-to-day work, you'll often reuse existing forms rather than creating a new one for each landing page. But for this exercise, you'll create a new one.
 
 1. The **New Marketing Form** page opens with the **Select a Form Template** dialog also shown. This is similar to the template dialog presented for marketing emails (as you saw in [Create a marketing email and go live](create-marketing-email.md)).  
     ![Select a form template dialog](media/form-template-dialog.png "Select a form template dialog")
@@ -41,25 +41,25 @@ To create a landing page and go live:
 
     Enter the following:
     - **Name**: this is an internal name for your form.
-    - **Form Type**: different types of marketing pages require different types of forms. You’re making a landing page, so set this to **Landing Page**.
+    - **Form Type**: different types of marketing pages require different types of forms. You're making a landing page, so set this to **Landing Page**.
     - **Update Contacts/Leads**: set this to **Contacts and Leads**. This means that [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] will look for existing contacts and leads that match submissions from this form, and update them if found. Otherwise, it will create new contacts and leads.
 
 1. We want the form to include four fields (first name, last name, email, and country), and we want the first name, last name, and email to be required (which means that contacts must supply values for these fields to submit the form). Thanks to the template, we are almost there.  
     ![Mark a field as required](media/form-field-required.png "Mark a field as required")
 
-    Each required field shows a red asterisk on the form. Select the **First Name** field on the canvas to open the **Details** tab for it. Make sure the **Required** check box is selected. Note that the red asterisk appears when the box is selected and goes away when it’s cleared. Make sure that the first name, last name, and email fields are all marked as required.
+    Each required field shows a red asterisk on the form. Select the **First Name** field on the canvas to open the **Details** tab for it. Make sure the **Required** check box is selected. Note that the red asterisk appears when the box is selected and goes away when it's cleared. Make sure that the first name, last name, and email fields are all marked as required.
 
-1. Go back to the **Toolbox** tab and find the **Country** block under the **Fields** heading. Drag the **Country** block to your form but don’t make it mandatory.  
+1. Go back to the **Toolbox** tab and find the **Country** block under the **Fields** heading. Drag the **Country** block to your form but don't make it mandatory.  
     ![Add a field to the form](media/form-add-field.png "Add a field to the form")
 
 1. Choose **Check for Errors** from the command bar and fix any problems that are reported, just as you did with the email message and customer journey.
 
-1. Choose **Save** from the command bar to save your form. Forms are always live, so you don’t need the **Go Live** button.
+1. Choose **Save** from the command bar to save your form. Forms are always live, so you don't need the **Go Live** button.
 
-1. Now you’re ready to use your new form on a landing page. Go to **Marketing &gt; Lead Management &gt; Marketing Pages** and choose **New** from the command bar. The **New Marketing Page** page opens with the **Select a Template** dialog shown.  
+1. Now you're ready to use your new form on a landing page. Go to **Marketing** &gt; **Lead Management** &gt; **Marketing Pages** and choose **New** from the command bar. The **New Marketing Page** page opens with the **Select a Template** dialog shown.  
     ![Select a page template dialog](media/page-template-dialog.png "Select a page template dialog")
 
-    It’s important to choose a template of the right type (landing page), so do the following here:
+    It's important to choose a template of the right type (landing page), so do the following here:
     1. Go to the **Type** tab.
     1. Choose **Landing Page** from the drop-down list.
     1. Browse the available templates and select one that appeals to you.
@@ -87,7 +87,7 @@ To create a landing page and go live:
 1. Go to the **Summary** tab.  
     ![Find the full page URL on the summary tab](media/page-summary-url.png "Find the full page URL on the summary tab")
 
-    Here you’ll find information about your page, a **Timeline** where you can add notes and track its development, and links to various related records. You’ll also find the **Full Page URL** in the **Content** section. Click on the preview button ![The page preview button](media/page-preview-button.png "The page preview button") at the right side of the **Full Page URL** field to open the page. Then enter and submit some information through the page.
+    Here you'll find information about your page, a **Timeline** where you can add notes and track its development, and links to various related records. You'll also find the **Full Page URL** in the **Content** section. Click on the preview button ![The page preview button](media/page-preview-button.png "The page preview button") at the right side of the **Full Page URL** field to open the page. Then enter and submit some information through the page.
 
     > [!TIP] Many entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] feature a **Summary** tab like this one, where you can see general settings, a timeline, and related records.
 
