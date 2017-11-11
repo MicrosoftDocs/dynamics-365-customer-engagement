@@ -71,9 +71,9 @@ You can track the installation status from the solutions page of [!INCLUDE[pn-cr
     The status is displayed in the **Status** column.
 
 [//]: # (@Shubham, is Saurabh okay with keeping "limitations" in this section? I kind of like my idea of using "requirements" instead: it's accurate, and it doesn't have a bad connotation.)
-## Limitations of the Voice of the Customer solution
+## Requirements of the Voice of the Customer solution
 
-Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] has the following limitations designed to optimize performance:
+Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] has the following requirements designed to optimize performance:
 
 -   Maximum number of surveys you can publish: **200**
 
@@ -85,7 +85,7 @@ Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-201
 
 -   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
 
-The following limitation also applies if you're using Voice of the Customer version 9.0.781.3 or earlier. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
+The following requirement also applies if you're using Voice of the Customer version 9.0.781.3 or earlier. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
 -   Maximum number of survey responses you can pull per day: **2,400**.
 
