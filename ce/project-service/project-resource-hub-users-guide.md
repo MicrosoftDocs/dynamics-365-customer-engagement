@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Project Resource hub lets you enter time and expenses for the projects you’re working on the go. Stay on top of your time and expense entry to make sure:
+With the Project Resource Hub app, you can enter time and expenses for the projects you’re working on the go. Stay on top of your time and expense entry to make sure:
 
 - Your clients are billed properly
 - You get credit for the work you’ve done
