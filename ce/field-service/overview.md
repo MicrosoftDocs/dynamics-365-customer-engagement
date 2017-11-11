@@ -71,7 +71,7 @@ manager: "amyla"
   
  The mobile app gives field techs quick and easy access to everything they need to execute a work order, including schedule information, customer contact information, turn by directions, and more.  
  
-## Available anywhere, on any device**
+## Available anywhere, on any device
 
 There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]. 
 
