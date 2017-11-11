@@ -110,7 +110,7 @@ The following table shows the installation that are installed for each choice, t
 | |Customer Service Hub|Desktop (recommended for knowledge management only) and mobile-optimized app (recommended for case management) (Unified Interface)|Web and Mobile|
 | |[!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] - custom|Full suite of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] Customer Engagement capabilities, including administration|Web |
 |Field Service<br />See: [Field Service Overview](../field-service/overview.md)|Field Service|Full-featured desktop-optimized app for field service scenarios|Web|
-| |Field Service Hub|Mobile-optimized app for field service scenarios (Unified Interface)|Web and Mobile|
+| |Field Resource Hub|Mobile-optimized app for field service scenarios (Unified Interface)|Web and Mobile|
 | |[!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] - custom|Full suite of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] Customer Engagement capabilities, including administration|Web|
 |Project Service Automation<br />See: [Project Service Overview](../project-service/overview.md)|Project Service Automation|Full-featured desktop-optimized app for project service scenarios |Web|
 | |Project Resource Hub|Mobile-optimized app for project service scenarios (Unified Interface)|Web and Mobile|
