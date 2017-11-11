@@ -73,7 +73,7 @@ manager: "amyla"
  
 ## Available anywhere, on any device
 
-There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]. 
+There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]: 
 
 - If you’re using a desktop browser, you’ll use the Field Service app. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Field Service)](../field-service/user-guide.md).
 
