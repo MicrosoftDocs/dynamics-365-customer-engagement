@@ -19,10 +19,10 @@ topic-status: Drafting
 # Voice of the Customer help and training
 
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <table>
 <tr>
-  <td colspan="2" align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/5jVRFpV4xIs" frameborder="0" allowfullscreen></iframe></td>
+  <td colspan="2" align="center"><iframe style="width=100%;" src="https://www.youtube.com/embed/5jVRFpV4xIs" frameborder="0" allowfullscreen></iframe></td>
 </tr>
 
 <tr>
