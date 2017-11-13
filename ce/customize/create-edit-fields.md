@@ -116,10 +116,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], fields define th
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
-> [!TIP]
-
-> You can use the Attribute Manager in XrmToolBox to change the properties of existing attributes that contain data. More information: [Attribute Manager](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.AttributeManager/)
-
 ### See also  
  [Entities and metadata overview](../customize/create-edit-metadata.md)   
  [Create and edit entities](../customize/create-edit-entities.md)   
