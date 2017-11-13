@@ -8,6 +8,7 @@ ms.date: "07/26/2017"
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"
+redirect_url: /dynamics365/customer-engagement/voice-of-customer/plan-survey
 author: sbmjais
 ms.author: shjais
 manager: sakudes
