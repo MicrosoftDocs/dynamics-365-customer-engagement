@@ -47,6 +47,10 @@ If you have customized entity or field text, such as field labels or drop-down l
   
 > [!NOTE]
 >  Publishing customizations can interfere with normal system operation. We recommend you schedule publishing when it’s least disruptive to users.  
-  
+
+> [!TIP]
+
+> The XrmToolBox provides an Easy Translator tool that you can use to export and import tranlsations with contextual information. More information: [Easy Translator tool](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)
+
 ### See also  
  [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
