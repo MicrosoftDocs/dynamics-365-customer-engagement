@@ -19,7 +19,7 @@ This section contains reference documentation for client API object model that c
 
 > [!IMPORTANT]
 > The Client API object model also contains the **Xrm.Internal** namespace, and use of the objects/methods in this namespace isn’t supported. These objects, and any parts of the HTML Document Object Model (DOM), are subject to change without notice. We recommend that you don’t use these functions or any script that depends on the DOM.<br/><br/>
-Also, while debugging, you may find methods and objects Client API model that aren’t documented. Only documented objects and methods are supported.
+Also, while debugging, you may find methods and objects in the Client API object model that aren’t documented. Only documented objects and methods are supported.
 
 The topics under this section are organized as follows:
 - Starts with reference for all the events, collections, and the execution context object.
@@ -32,3 +32,5 @@ The topics under this section are organized as follows:
 [Client scripting in Customer Engagement using JavaScript](client-scripting.md)
 
 [Understand the Client API object model](understand-clientapi-object-model.md)
+
+[Developer Guide for Dynamics 365 Customer Engagement](../developer-guide.md)

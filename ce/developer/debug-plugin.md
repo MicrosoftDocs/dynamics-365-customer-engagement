@@ -1,21 +1,24 @@
 ---
 title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about debuggin a plug-in by logging and tracing."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: b4bbe405-a56f-450b-acd9-0c063cf35990
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 60
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+topic-status: Drafting
 ---
+
 # Debug a plug-In
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
@@ -133,6 +136,16 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  The <xref:Microsoft.Xrm.Sdk.ITracingService> batches the information provided to it through the **Trace** method. The information is written to a new **PluginTraceLog** record after the custom code successfully runs to completion or an exception is thrown.  
   
  PluginTraceLog records have a finite lifetime. A bulk deletion background job runs once per day to delete records that are older than 24 hours from creation. This job can be disabled when needed.  
+
+ ## Community tools
+
+ ### Plugin trace viewer
+
+**Plugin Trace Viewer** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+
+ > [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
   
 ### See also  
  [Plug-in Development](plugin-development.md)   

@@ -2,16 +2,19 @@
 title: "Meet the Sales app for small to medium-sized business | Microsoft Docs"
 description: "Get an overview of Dynamics 365 for Sales, Business edition and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: ccdffcfc-fb43-4119-b7a0-47fca20f6f4e
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Meet the Sales app for small to medium-sized business
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -59,7 +62,7 @@ Here’s a quick run-down of what you’ll find on the nav bar.
 
 ###  Menu on the side
 
-Click the menu button to see a list of all your options in one place, including access to communication tools like email and Skype calling, customer records, your calendar, and settings. 
+Select the Site map icon to see a list of all your options in one place, including access to communication tools like email and Skype calling, customer records, your calendar, and settings. 
 You’ll also find quick access to any favorite customers you’ve pinned and your recent work, so you don’t have to waste time backtracking.
 
 ![Image showing the menu and items on the menu](media/menu-and-menu-items.png "Image showing the menu and items on the menu")
@@ -91,7 +94,7 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
  ![Timeline of activities](media/activity-timeline.png "Timeline of activities")
  
--  **Click-to-call.** Anytime while working on an opportunity, just click on the customer’s phone number to launch a phone call. When you’re done with the call, a phone call form automatically opens so you can capture details about your conversation in the app. And all of this, in context of the opportunity you’re working on. 
+-  **Click-to-call.** Anytime while working on an opportunity, just select the customer’s phone number to launch a phone call. When you’re done with the call, a phone call form automatically opens so you can capture details about your conversation in the app. And all of this, in context of the opportunity you’re working on. 
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Make calls or send instant messages in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](make-calls-send-instant-messages.md)
 

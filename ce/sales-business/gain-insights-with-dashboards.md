@@ -2,16 +2,19 @@
 title: "Gain insights with dashboards in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Use dashboards to get an overview of business data in Dynamics 365 for Sales, Business edition"
 keywords: "Dashboard; Insight; Overview; Analytics; sales"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: b5544b39-e784-40dc-9232-60dd75f4dbd0
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Gain insights with dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -22,7 +25,7 @@ Dashboards use views, list, and charts to bring data that is meaningful to you i
 
 ## Where to find dashboards
 
-To go to dashboards, click the Menu icon ![Menu icon](media/Site-map-icon.png "Open Menu icon"), and then click **Dashboards**.
+To go to dashboards, select the Site Map icon ![Site map icon](media/Site-map-icon.png "Icon to open the site map"), and then select **Dashboards**.
 
 ## Dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
@@ -48,21 +51,21 @@ The sales overview dashboard shows daily work-related sales numbers such as the 
 
 ## Open a different dashboard
 
-You can use the view selector to select a dashboard of your choice. Click the dashboard name, and from the drop-down list, select the dashboard you want to open.
+You can use the view selector to select a dashboard of your choice. Select the dashboard name, and from the drop-down list, select the dashboard you want to open.
 
 ![Choose from the dashboard drop-down list](media/dashboard-drop-down-list.png "Choose from the dashboard drop-down list")  
 
 ## Set a dashboard as default
 
-To see a specific dashboard every time you log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], set it as default. To do this, open the dashboard, and on the command bar, click **Set as Default**.
+To see a specific dashboard every time you log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], set it as default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
 
 ## Entity dashboards
 
 Other than the dashboards described earlier, there are dashboards specific to entities. These are available for account, contact, lead, opportunity, quote and invoice entities. Remember, an entity is the same as a record type.
 
-To see an entity dashboard, go to the list of records for the entity, and then on the command bar, click **Open Entity Dashboard**.
+To see an entity dashboard, go to the list of records for the entity, and then on the command bar, select **Open Entity Dashboard**.
 
-For example, in the list of opportunities when you click the **Open Entity Dashboard**, the following dashboard specific to opportunity entity is displayed.
+For example, in the list of opportunities when you select the **Open Entity Dashboard**, the following dashboard specific to opportunity entity is displayed.
 
 ![Entity dashboard for opportunity](media/opportunity-entity-dashboard.png "Entity dashboard for opportunity")  
 
