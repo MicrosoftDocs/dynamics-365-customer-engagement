@@ -2,7 +2,7 @@
 title: "Get customer feedback by using Voice of the Customer surveys | MicrosoftDocs"
 description: "Get started with Voice of the Customer surveys."
 keywords: "survey feedback; voice of the customer survey feedback"
-ms.date: 11/06/2017
+ms.date: 11/13/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:

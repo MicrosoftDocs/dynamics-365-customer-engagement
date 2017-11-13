@@ -2,7 +2,7 @@
 title: "Distribute a survey by using Voice of the Customer | MicrosoftDocs"
 description: "After creating a survey, learn how to distribute it to your respondents."
 keywords: "send survey; distribute survey; distribute voice of the customer survey; track survey invite"
-ms.date: 11/06/2017
+ms.date: 11/13/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:
