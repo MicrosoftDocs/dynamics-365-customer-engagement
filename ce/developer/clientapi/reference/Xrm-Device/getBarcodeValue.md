@@ -42,7 +42,7 @@ Xrm.Device.getBarcodeValue().then(
         Xrm.Navigation.openAlertDialog({ text: "Barcode value: " + result });
     },
     function (error) {
-        Xrm.Navigation.openAlertDialog(error.message);
+        Xrm.Navigation.openAlertDialog( {text: error.message} );
     }
 );
 ``` 
