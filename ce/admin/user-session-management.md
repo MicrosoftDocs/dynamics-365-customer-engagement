@@ -16,12 +16,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Security enhancements: User session and access management 
+# Security enhancements: User session and access management
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-> [!NOTE]
-> This content is for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], or later. For documentation for earlier versions, see [Security enhancements: User session and access management](https://technet.microsoft.com/library/mt825191.aspx).
 
 New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
 
