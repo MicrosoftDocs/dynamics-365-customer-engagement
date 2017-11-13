@@ -1,1 +1,1 @@
-Microsoft Azure Active Directory Authentication Library (ADAL)
+Azure Active Directory Authentication Library (ADAL)

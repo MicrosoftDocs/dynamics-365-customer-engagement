@@ -2,7 +2,7 @@
 title: "Customize labels to support multiple languages (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about customizing labels to support multiple languages."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/03/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -49,35 +49,41 @@ When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dyna
   
 <a name="BKMK_UsingLabels"></a>   
 ## Using labels  
- Labels are localized strings displayed to users in the client applications. They are implemented by using the <xref:Microsoft.Xrm.Sdk.Label> class, which supports language packs. Strings that are displayed to users, such as entity display names or options in an option set, can be stored in multiple languages. Users can select which language they want displayed in forms and views in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+
+|Microsoft.Xrm.Sdk.dll|Web API|
+|----------------|----------------|
+|<xref:Microsoft.Xrm.Sdk.Label> class|<xref href="Microsoft.Dynamics.CRM.Label?text=Label ComplexType" />|
+|<xref:Microsoft.Xrm.Sdk.LocalizedLabel> class|<xref href="Microsoft.Dynamics.CRM.LocalizedLabel?text=LocalizedLabel ComplexType" />|
+
+ Labels are localized strings displayed to users in the client applications. They are implemented by using `Label` (<xref href="Microsoft.Dynamics.CRM.Label?text=Label ComplexType" /> or <xref:Microsoft.Xrm.Sdk.Label> class), which supports language packs. Strings that are displayed to users, such as entity display names or options in an option set, can be stored in multiple languages. Users can select which language they want displayed in forms and views in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
- The following table lists all of the metadata that uses the `Label` class.  
+ The following table lists all of the metadata that uses the `Label`.  
   
 |Metadata property|Description|  
 |-----------------------|-----------------|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.Description>|Description for an attribute.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.DisplayName>|Display name for an attribute.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.Description>|Description for an entity.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayCollectionName>|Plural display name for an entity.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.DisplayName>|Display name for an entity.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.AssociatedMenuConfiguration.Label>|Label used for an entity in an entity relationship.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.OptionMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OptionMetadata.Label>|Label used for an option in a picklist, state, or status attribute.|  
+|AttributeMetadata.Description|Description for an attribute.|  
+|AttributeMetadata.DisplayName|Display name for an attribute.|  
+|EntityMetadata.Description|Description for an entity.|  
+|EntityMetadata.DisplayCollectionName|Plural display name for an entity.|  
+|EntityMetadata.DisplayName|Display name for an entity.|  
+|AssociatedMenuConfiguration.Label|Label used for an entity in an entity relationship.|  
+|OptionMetadata.Label|Label used for an option in a picklist, state, or status attribute.|  
   
- The <xref:Microsoft.Xrm.Sdk.Label> class can store one string for each installed language. This array is the <xref:Microsoft.Xrm.Sdk.Label.LocalizedLabels> property. There must always be a label stored for the base language. The labels for other languages can be **null**. If the user wants to display the user interface in a language and a label does not have a string for that language, the label for the base language is used.  
+ The `Label` can store one string for each installed language. This array is the `LocalizedLabels` property. There must always be a label stored for the base language. The labels for other languages can be **null**. If the user wants to display the user interface in a language and a label does not have a string for that language, the label for the base language is used.  
   
- You can use the <xref:Microsoft.Xrm.Sdk.Label.UserLocalizedLabel> property to retrieve the label for the language chosen by the user.  
+ You can use the `UserLocalizedLabel` property to retrieve the label for the language chosen by the user.  
   
 <a name="BKMK_MessagesToWorkWithLabels"></a>   
 ## Messages to use with labels  
  The following table lists the messages you can use to work with localized labels to support multiple languages. When you import translations you can generate a report based on the import Jjob in the same way you can when importing a solution. For more information, see [Install or Upgrade a Solution](work-solutions.md#BKMK_InstallUpgradeSolution).  
   
-|Message|Description|  
-|-------------|-----------------|  
-|<xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest>|Exports all translations for a specific solution to a compressed file.|  
-|<xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest>|Imports all translations from a compressed file.|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveFormattedImportJobResultsRequest>|Retrieves the results of an ImportJob as an XML document designed to be opened using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)].|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveLocLabelsRequest>|Retrieves the localized labels for the specified attribute.|  
-|<xref:Microsoft.Crm.Sdk.Messages.SetLocLabelsRequest>|Sets the localized labels for the specified attribute.|  
+|Message|Web API Operation|SDK Assembly|  
+|-------------|-----------------|----------------|  
+|ExportTranslation</br>Exports all translations for a specific solution to a compressed file.|<xref href="Microsoft.Dynamics.CRM.ExportTranslation?text=ExportTranslation Action" />|<xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest>|  
+|ImportTranslation</br>Imports all translations from a compressed file.|<xref href="Microsoft.Dynamics.CRM.ImportTranslation?text=ImportTranslation Action" />|<xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest>|  
+|RetrieveFormattedImportJobResults</br>Retrieves the results of an ImportJob as an XML document designed to be opened using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)].|<xref href="Microsoft.Dynamics.CRM.RetrieveFormattedImportJobResults?text=RetrieveFormattedImportJobResults Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveFormattedImportJobResultsRequest>|  
+|RetrieveLocLabels</br>Retrieves the localized labels for the specified attribute.|<xref href="Microsoft.Dynamics.CRM.RetrieveLocLabels?text=RetrieveLocLabels Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveLocLabelsRequest>|  
+|SetLocLabels</br>Sets the localized labels for the specified attribute.|<xref href="Microsoft.Dynamics.CRM.SetLocLabels?text=SetLocLabels Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetLocLabelsRequest>|  
   
 <a name="BKMK_CustomizingLabelsInBaseLanguage."></a>   
 ## Customize labels in the base language  
@@ -88,14 +94,14 @@ When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dyna
  Because you can only perform customizations in the application by using the base language, when you want to provide localized labels for these customizations you must export the text of the labels so that they can be localized for any other languages enabled for the organization.  
   
 ### Export customized text for translation  
- You can export the translations in the Web application or by using the <xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest> message.  
+ You can export the translations in the Web application or by using the `ExportTranslation` message (<xref href="Microsoft.Dynamics.CRM.ExportTranslation?text=ExportTranslation Action" /> or <xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest> class).  
   
  Exported text is saved as a compressed file that contains a CrmTranslations.xml that you open by using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. You can send this file to a linguistic expert, translation agency, or localization firm.  
   
  For more information, see [Office 2003 XML Reference Schemas](http://www.microsoft.com/downloads/details.aspx?FamilyID=fe118952-3547-420a-a412-00a2662442d9).  
   
 ### Import translated text  
- After you have exported the customized entity or attribute text and had it translated, you can import the translated text strings in the Web application by using the <xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest> message. The file that you import must be a compressed file that contains the CrmTranslations.xml and the [Content_Types].xml file just as they were exported.  
+ After you have exported the customized entity or attribute text and had it translated, you can import the translated text strings in the Web application by using the `ImportTranslation` message (<xref href="Microsoft.Dynamics.CRM.ImportTranslation?text=ImportTranslation Action" /> or <xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest> class). The file that you import must be a compressed file that contains the CrmTranslations.xml and the [Content_Types].xml file just as they were exported.  
   
  After you import the completed translations, customized text appears for users who work in the languages that you had the text translated into.  
   
@@ -110,18 +116,21 @@ When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dyna
   
  The following table lists the messages that you use to work with language packs. Use these messages with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  
   
-|Message|Description|  
-|-------------|-----------------|  
-|<xref:Microsoft.Crm.Sdk.Messages.DeprovisionLanguageRequest>|Contains the data needed to deprovision a language|  
-|<xref:Microsoft.Crm.Sdk.Messages.ProvisionLanguageRequest>|Contains the data needed to provision a new language.|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAvailableLanguagesRequest>|Retrieves the list of available languages.|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDeprovisionedLanguagesRequest>|Retrieves the list of language packs installed on the server that have been disabled.|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveInstalledLanguagePacksRequest>|Contains the data needed to retrieve the list of language packs installed on the server.|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveInstalledLanguagePackVersionRequest>|Contains the data needed to retrieve the version of an installed language pack.|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveProvisionedLanguagesRequest>|Retrieves the list of language packs installed on the server that are enabled.|  
-|<xref:Microsoft.Crm.Sdk.Messages.RetrieveProvisionedLanguagePackVersionRequest>|Retrieves the version of the language packs installed on the server.|  
+|Message|Web API Operation|SDK Assembly|  
+|-------------|-----------------|----------------|  
+|DeprovisionLanguage</br>Contains the data needed to deprovision a language|<xref href="Microsoft.Dynamics.CRM.DeprovisionLanguage?text=DeprovisionLanguage Action" />|<xref:Microsoft.Crm.Sdk.Messages.DeprovisionLanguageRequest>|  
+|ProvisionLanguage</br>Contains the data needed to provision a new language.|<xref href="Microsoft.Dynamics.CRM.ProvisionLanguage?text=ProvisionLanguage Action" />|<xref:Microsoft.Crm.Sdk.Messages.ProvisionLanguageRequest>|  
+|RetrieveAvailableLanguages</br>Retrieves the list of available languages.|<xref href="Microsoft.Dynamics.CRM.RetrieveAvailableLanguages?text=RetrieveAvailableLanguages Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAvailableLanguagesRequest>|  
+|RetrieveDeprovisionedLanguages</br>Retrieves the list of language packs installed on the server that have been disabled.|<xref href="Microsoft.Dynamics.CRM.RetrieveDeprovisionedLanguages?text=RetrieveDeprovisionedLanguages Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDeprovisionedLanguagesRequest>|  
+|RetrieveInstalledLanguagePacks</br>Contains the data needed to retrieve the list of language packs installed on the server.|<xref href="Microsoft.Dynamics.CRM.RetrieveInstalledLanguagePacks?text=RetrieveInstalledLanguagePacks Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveInstalledLanguagePacksRequest>|  
+|RetrieveInstalledLanguagePackVersion</br>Contains the data needed to retrieve the version of an installed language pack.|<xref href="Microsoft.Dynamics.CRM.RetrieveInstalledLanguagePacks?text=RetrieveLicenseInfo Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveInstalledLanguagePackVersionRequest>|  
+|RetrieveProvisionedLanguages</br>Retrieves the list of language packs installed on the server that are enabled.|<xref href="Microsoft.Dynamics.CRM.RetrieveProvisionedLanguages?text=RetrieveProvisionedLanguages Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveProvisionedLanguagesRequest>|  
+|RetrieveProvisionedLanguagePackVersion</br>Retrieves the version of the language packs installed on the server.|<xref href="Microsoft.Dynamics.CRM.RetrieveProvisionedLanguagePackVersion?text=RetrieveProvisionedLanguagePackVersion Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveProvisionedLanguagePackVersionRequest>|  
   
 ### See also  
  [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
  [Customize Dynamics 365](customize-dev/customize-applications.md)   
- [Modify Messages for an Entity](modify-messages-entity.md)
+ [Modify Messages for an Entity](modify-messages-entity.md)     
+ <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>   
+ <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>    
+ <xref:Microsoft.Xrm.Sdk.Metadata.OptionMetadata>   

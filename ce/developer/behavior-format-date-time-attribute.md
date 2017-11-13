@@ -20,9 +20,10 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you have users and offices around the world, it is important to properly represent date and time values in multiple time zones. The <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata> class is used to define and manage attributes of type `DateTime` in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Use the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior> property to define whether to store date and time values with or without time zone information, and use the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.Format> property to specify the display format of these attributes.  
+If you have users and offices around the world, it is important to properly represent date and time values in multiple time zones. The `DateTimeAttributeMetadata` message (<xref href="Microsoft.Dynamics.CRM.DateTimeAttributeMetadata?text=DateTimeAttributeMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata> class) is used to define and manage attributes of type `DateTime` in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Use the `DateTimeBehavior` property (For Organization Service see, <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior>) to define whether to store date and time values with or without time zone information, and use the `DateTimeAttributeMetadata.Format` property to specify the display format of these attributes.  
+
   
- You can also use the customization area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to define the behavior and format of the date and time attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md)  
+ You can also use the customization area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to define the behavior and format of the date and time attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md).  
   
 > [!NOTE]
 >  All date and time attributes in [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_2016_onprem](../includes/pn-crm-2016-onprem.md)] or later  now support values as early as 1/1/1753 12:00 AM.  
@@ -30,9 +31,11 @@ If you have users and offices around the world, it is important to properly repr
 >  For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] versions earlier than [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_2016_onprem](../includes/pn-crm-2016-onprem.md)], you cannot define the behavior of the date and time values. By default, the date and time values are stored as `UserLocal` behavior as described later in this topic.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
+
 <a name="SpecifyBehavior"></a>   
-## Specify the behavior of a date and time attribute  
- You can use the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeBehavior> class to specify a value for the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior> property. The <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeBehavior> class contains the following members; each member returns a string with the same value as the member name:  
+## Specify the behavior of a date and time attribute
+
+ You can use the `DateTimeBehavior` message (<xref href="Microsoft.Dynamics.CRM.DateTimeBehavior?text=DateTimeBehavior ComplexType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeBehavior> class) to specify a value for the <xref href="Microsoft.Dynamics.CRM.DateTimeAttributeMetadata?text=DateTimeAttributeMetadata EntityType" />.DateTimeBehavior property. The `DateTimeBehavior` message contains the following members; each member returns a string with the same value as the member name:  
   
 |Member name and value|Description|  
 |---------------------------|-----------------|  
@@ -44,7 +47,7 @@ If you have users and offices around the world, it is important to properly repr
   
  [!code-csharp[DateTimeAttributeBehavior#ConvertDateandTimeBehavior2](../snippets/csharp/CRMV8/datetimeattributebehavior/cs/convertdateandtimebehavior2.cs#convertdateandtimebehavior2)]  
   
- In the sample code, you can also set the value of the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior> property by directly specifying the string value: `DateTimeBehavior = "UserLocal"`  
+ In the sample code, you can also set the value of the `DateTimeBehavior` property by directly specifying the string value: `DateTimeBehavior = "UserLocal"`  
   
  If you do not specify the behavior while creating a date and time attribute, the attribute is created with the `UserLocal` behavior by default. For the complete sample code, see [Sample: Convert date and time values](org-service/sample-convert-date-time-behavior.md).  
   
@@ -57,9 +60,10 @@ If you have users and offices around the world, it is important to properly repr
   
 <a name="SpecifyFormat"></a>   
 ## Specify format of the date and time attribute  
- Use the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.Format> property to specify the date/time display format of the attribute irrespective of how it is stored in the system. You can use the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeFormat> enumeration to specify the display format: `DateAndTime` or `DateOnly`.  
+
+ Use the `Format` property to specify the date/time display format of the attribute irrespective of how it is stored in the system. You can use the `DateTimeFormat` enumeration (<xref href="Microsoft.Dynamics.CRM.DateTimeFormat?text=DateTimeFormat EnumType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeFormat> enumeration) to specify the display format: `DateAndTime` or `DateOnly`.  
   
- If the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior> property is set to `DateOnly`, you cannot set or change the value of the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.Format> property to `DateAndTime`.  
+ If the `DateTimeAttributeMetadata.DateTimeBehavior` property is set to `DateOnly`, you cannot set or change the value of the `DateTimeAttributeMetadata.Format` property to `DateAndTime`.  
   
 <a name="UnsupportedQueryOperators"></a>   
 ## Date and time query operators not supported for DateOnly behavior  
@@ -77,25 +81,26 @@ If you have users and offices around the world, it is important to properly repr
   
 <a name="ChangeBehavior"></a>   
 ## Change the behavior of a date and time attribute  
- You can update a date and time attribute to change its behavior if you have the System Customizer role in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance and the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property for the date and time attribute is set to `True`.  
+
+ You can update a date and time attribute to change its behavior if you have the System Customizer role in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance and the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property for the date and time attribute is set to `True`.  
   
 > [!CAUTION]
->  Before changing the behavior of a date and time attribute, you should review all the dependencies of the attribute, such as business rules, workflows, and calculated or rollup attributes, to ensure that there are no issues as a result of changing the behavior. System Customizers can restrict modifying the behavior of existing date and time attributes using the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property.  
+>  Before changing the behavior of a date and time attribute, you should review all the dependencies of the attribute, such as business rules, workflows, and calculated or rollup attributes, to ensure that there are no issues as a result of changing the behavior. System Customizers can restrict modifying the behavior of existing date and time attributes using the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property.  
 >   
 >  At the minimum, after changing the behavior of a date and time attribute, you should open each business rule, workflow, calculated attribute, and rollup attribute record that is dependent on the changed date and time attribute, review the information, and save the record to ensure that the latest attribute behavior and value is used.  
 >   
 >  After changing the data and time behavior of a calculated or rollup attribute, open the calculated or rollup field definition editor, and save the field definition to ensure that the attribute is still valid after the behavior change. System customizers can open the field definition editor for calculated or rollup attribute by clicking **Edit** next to **Field Type** in the customization area in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define calculated fields](../customize/define-calculated-fields.md) and [Define rollup fields](../customize/define-rollup-fields.md)  
   
--   The behavior of the `CreatedOn` and `ModifiedOn` attributes for the out-of-box and custom entities is set to `UserLocal` by default, and the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property is set to `False`, which implies that you cannot change the behavior of these attributes. Although users can change the value of the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property of these attributes for custom entities, but they still can’t change the behavior of the attributes.  
+-   The behavior of the `CreatedOn` and `ModifiedOn` attributes for the out-of-box and custom entities is set to `UserLocal` by default, and the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property is set to `False`, which implies that you cannot change the behavior of these attributes. Although users can change the value of the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property of these attributes for custom entities, but they still can’t change the behavior of the attributes.  
   
--   For new custom date and time attributes, the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property is set to `True`. This implies that you can change behavior of a custom date and time attribute from `UserLocal` to either `DateOnly` or `TimeZoneIndependent`; no other behavior transitions are allowed.  
+-   For new custom date and time attributes, the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property is set to `True`. This implies that you can change behavior of a custom date and time attribute from `UserLocal` to either `DateOnly` or `TimeZoneIndependent`; no other behavior transitions are allowed.  
   
-     For custom date and time attributes that are part of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization that is upgraded to [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises), the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property is set to `True` unless the attribute or the parent entity is not customizable.  
+     For custom date and time attributes that are part of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization that is upgraded to [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises), the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property is set to `True` unless the attribute or the parent entity is not customizable.  
   
     > [!NOTE]
-    >  When you update <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior> property of an attribute from `UserLocal` to `DateOnly`, ensure that you also change the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.Format> property from `DateAndTime` to `DateOnly`. Otherwise, an exception will occur.  
+    >  When you update `DateTimeAttributeMetadata.DateTimeBehavior` property of an attribute from `UserLocal` to `DateOnly`, ensure that you also change the`DateTimeAttributeMetadata.Format` property from `DateAndTime` to `DateOnly`. Otherwise, an exception will occur.  
   
--   The following out-of-box date and time attributes in [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises) are by default set to `DateOnly` and the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property is set to `False` of these attributes, which implies that you cannot change the behavior for these attributes:  
+-   The following out-of-box date and time attributes in [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises) are by default set to `DateOnly` and the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property is set to `False` of these attributes, which implies that you cannot change the behavior for these attributes:  
   
     |Date and time attribute|Parent entity|  
     |-----------------------------|-------------------|  
@@ -111,7 +116,7 @@ If you have users and offices around the world, it is important to properly repr
     |closedon|Quote|  
     |expireson|Quote|  
   
-     However, if these out-of-box date and time attributes belong to an organization that is upgraded to [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises), the behavior of these attributes is set to `UserLocal` and the <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.CanChangeDateTimeBehavior> managed property to `True` in the upgraded organization, and you can change the behavior of these attributes to `DateOnly` only. No other behavior transitions are allowed.  
+     However, if these out-of-box date and time attributes belong to an organization that is upgraded to [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises), the behavior of these attributes is set to `UserLocal` and the `DateTimeAttributeMetadata.CanChangeDateTimeBehavior` managed property to `True` in the upgraded organization, and you can change the behavior of these attributes to `DateOnly` only. No other behavior transitions are allowed.  
   
  After updating the behavior of an attribute, you must publish the customizations for the change to take effect. Updating the behavior of a date and time attribute ensures that all the values entered/updated *after* the attribute behavior was changed, are stored in the system as per the new behavior. This does not impact the values that are already stored in the database, and they continue to be stored as UTC values. However, when you retrieve the existing values using SDK or view it in the UI, the existing values are displayed as per the new behavior of the attribute. For example, if you changed the behavior of a custom attribute on an account entity from `UserLocal` to `DateOnly` and retrieve an existing account record using SDK, the date and time will be displayed as \<Date> followed by time as 12 AM (00:00:00). Similarly, for the behavior change from `UserLocal` to `TimeZoneIndependent`, the actual value in the database will be displayed as is without any time zone conversions.  
   
@@ -122,10 +127,11 @@ If you have users and offices around the world, it is important to properly repr
  For the complete sample code, see [Sample: Convert date and time values](org-service/sample-convert-date-time-behavior.md).  
   
 <a name="Convert"></a>   
-## Convert behavior of existing date and time values in the database  
- When you update a date and time attribute to change its behavior from `UserLocal` to `DateOnly` or `TimeZoneIndependent`, it does not automatically convert the existing attribute values in the database. The behavior change affects only those values that will be entered or updated in the attribute *after* the behavior has been changed. The existing date and time values in the system continue to be in UTC, and displayed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] according to the new behavior when retrieved through SDK or in the UI as explained in the previous section. For attributes whose behavior has changed from `UserLocal` to `DateOnly`, you can convert the existing UTC values in the database to appropriate `DateOnly` value to avoid any data anomalies by using the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message.  
+## Convert behavior of existing date and time values in the database 
+
+ When you update a date and time attribute to change its behavior from `UserLocal` to `DateOnly` or `TimeZoneIndependent`, it does not automatically convert the existing attribute values in the database. The behavior change affects only those values that will be entered or updated in the attribute *after* the behavior has been changed. The existing date and time values in the system continue to be in UTC, and displayed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] according to the new behavior when retrieved through SDK or in the UI as explained in the previous section. For attributes whose behavior has changed from `UserLocal` to `DateOnly`, you can convert the existing UTC values in the database to appropriate `DateOnly` value to avoid any data anomalies by using the `ConvertDateAndTimeBehavior` message.  
   
- The message enables you to specify a conversion rule (<xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest.ConversionRule>) to select the time zone to use for conversion of the values from UTC to DateOnly. You can specify one of the following conversion rules:  
+ The message enables you to specify a conversion rule (If working with Organization Service see, <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest.ConversionRule>) to select the time zone to use for conversion of the values from UTC to DateOnly. You can specify one of the following conversion rules:  
   
 -   `SpecificTimeZone`: Converts UTC value to a DateOnly value as per the specified [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] time zone code. In this case, you also need to specify a value for the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest.TimeZoneCode> parameter.  
   
@@ -138,15 +144,15 @@ If you have users and offices around the world, it is important to properly repr
  You can use one of the four members of the <xref:Microsoft.Xrm.Sdk.DateTimeBehaviorConversionRule> class to specify a valid value for the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest.ConversionRule> parameter.  
   
 > [!NOTE]
->  -   The <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message is available only if you are using [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises). It is not available for earlier versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+>  -   The `ConvertDateAndTimeBehavior` message is available only if you are using [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] or [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] (on-premises). It is not available for earlier versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 > -   You must have the System Administrator role in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance to execute the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message.  
   
- When you execute the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message, a system job (asynchronous operation) is created to run the conversion request. The <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorResponse>.<xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorResponse.JobId> attribute in the message response displays the ID of the system job that is created as a result of the conversion request. After the system job completes, check the job details (`AsyncOperation.Message`) to view conversion details or errors, if any.  
+ When you execute the `ConvertDateAndTimeBehavior` (If working with Organization Service see, <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message), a system job (asynchronous operation) is created to run the conversion request. The `ConvertDateAndTimeBehaviorResponse.JobId` attribute in the message response displays the ID of the system job that is created as a result of the conversion request. After the system job completes, check the job details (`AsyncOperation.Message`) to view conversion details or errors, if any.  
   
 > [!NOTE]
 >  We recommend that you group conversion of multiple attributes into a single conversion job, and run a single conversion job at a time to ensure that there are no conflicts in the conversion and for optimum system performance.  
   
- Some important points to be considered while using the <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> message:  
+ Some important points to be considered while using the `ConvertDateAndTimeBehavior` message:  
   
 -   You should avoid any major changes to the solutions in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] during the execution of the message such as importing a solution or deleting an attribute or parent entity. Doing so might lead to unexpected behavior; however no data loss will occur.  
   
@@ -163,4 +169,6 @@ If you have users and offices around the world, it is important to properly repr
 ### See also  
  [Sample: Convert date and time values](org-service/sample-convert-date-time-behavior.md)   
  [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md)   
- [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)
+ [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)          
+ <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest>      
+ <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>  

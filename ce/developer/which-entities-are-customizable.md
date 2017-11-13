@@ -36,16 +36,16 @@ manager: "amyla"
   
 |Property|Description|  
 |--------------|-----------------|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsCustomizable>|Specifies whether an entity allows customization.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsRenameable>|Specifies whether you can change the display name for an entity in the application.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanBeRelatedEntityInRelationship>|Specifies whether you can add a lookup attribute to an entity to establish a custom entity relationship.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanBePrimaryEntityInRelationship>|Specifies whether you can set the entity to be the primary entity in a custom entity relationship.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanBeInManyToMany>|Specifies whether the entity can participate in a many-to-many custom entity relationship.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanCreateForms>|Specifies whether you can create custom forms for the entity.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanCreateCharts>|Specifies whether you can create charts for the entity.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanCreateViews>|Specifies whether you can create views for the entity.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanCreateAttributes>|Specifies whether you can create attributes for the entity.|  
-|<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanModifyAdditionalSettings>|Specifies whether any other entity properties not represented by a managed property can be changed.|  
+|IsCustomizable|Specifies whether an entity allows customization.|  
+|IsRenameable|Specifies whether you can change the display name for an entity in the application.|  
+|CanBeRelatedEntityInRelationship|Specifies whether you can add a lookup attribute to an entity to establish a custom entity relationship.|  
+|CanBePrimaryEntityInRelationship|Specifies whether you can set the entity to be the primary entity in a custom entity relationship.|  
+|CanBeInManyToMany|Specifies whether the entity can participate in a many-to-many custom entity relationship.|  
+|CanCreateForms|Specifies whether you can create custom forms for the entity.|  
+|CanCreateCharts|Specifies whether you can create charts for the entity.|  
+|CanCreateViews|Specifies whether you can create views for the entity.|  
+|CanCreateAttributes|Specifies whether you can create attributes for the entity.|  
+|CanModifyAdditionalSettings|Specifies whether any other entity properties not represented by a managed property can be changed.|  
   
 <a name="fully"></a>   
 ## Fully customizable entities  

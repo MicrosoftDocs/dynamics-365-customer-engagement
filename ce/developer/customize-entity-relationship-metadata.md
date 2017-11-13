@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Entity relationships define the ways that entity records can be associated with records of other entities or the same entity. Creating new entity relationships creates new table relationships in the database. Use entity relationships to define specific associations that are frequently used to associate records for reports or in the user interface. Once a relationship exists, you can associate and disassociate records based on the relationship using the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> and <xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> methods. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Actions on Entity Records](introduction-entities.md#ActionsOnEntityRecords)  
+Entity relationships define the ways that entity records can be associated with records of other entities or the same entity. Creating new entity relationships creates new table relationships in the database. Use entity relationships to define specific associations that are frequently used to associate records for reports or in the user interface. Once a relationship exists, you can associate and disassociate records based on the relationship using the `Associate` and `Disassociate` methods. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Actions on Entity Records](introduction-entities.md#ActionsOnEntityRecords)  
   
  For relationships between individual records that are less formal and more flexible, see [Connection Entities](connection-entities.md).  
   
@@ -34,7 +34,7 @@ Entity relationships define the ways that entity records can be associated with 
   
 - **[Many-to-many relationships](customize-entity-relationship-metadata.md#BKMK_ManyToManyRelationships)**  
   
- Before you create a new entity relationship programmatically, check to see whether the entities are eligible to participate in the relationship. There are constraints applied to entity relationships that use the following `EntityMetadata` properties: <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanBeInManyToMany>, <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanBePrimaryEntityInRelationship>, and <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanBeRelatedEntityInRelationship>. These restrictions are taken into account when you manually create entity relationships in the customization tools. There are messages that you can use to determine which relationships an entity can use and what other entities are valid for that type of relationship. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity Relationship Eligibility](entity-relationship-eligibility.md)  
+ Before you create a new entity relationship programmatically, check to see whether the entities are eligible to participate in the relationship. There are constraints applied to entity relationships that use the following `EntityMetadata` properties: `CanBeInManyToMany`, `CanBePrimaryEntityInRelationship`, and `CanBeRelatedEntityInRelationship`. These restrictions are taken into account when you manually create entity relationships in the customization tools. There are messages that you can use to determine which relationships an entity can use and what other entities are valid for that type of relationship. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity Relationship Eligibility](entity-relationship-eligibility.md)  
   
  Both types of entity relationships allow for options to display navigation links between related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configuring Associated Menus](customize-entity-relationship-metadata.md#BKMK_ConfiguringAssociatedMenus)  
   
@@ -47,9 +47,16 @@ Entity relationships define the ways that entity records can be associated with 
  > [!NOTE]
  > See [Web API: Create a one-to-many relationship](webapi/create-update-entity-relationships-using-web-api.md#create-a-one-to-many-relationship) for information on how to use the Web API for creating a 1:N relationship.
  
- You use an instance of the <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata> class when you work with this kind of entity relationship. Each entity relationship has a unique schema name that you use to retrieve it. For more information, see <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase.SchemaName>. Each entity relationship of this kind also has a referenced entity (**Primary Entity**) with a referenced attribute, and a referencing entity (**Related Entity**) with a referencing attribute. The referencing attribute can be displayed as a lookup field in an entity form. For more information, see <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencedEntity>, <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencedAttribute>, <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencingEntity>, and <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencingAttribute>.  
+ For Organization Service, you use an instance of the <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata> class when you work with this kind of entity relationship. Each entity relationship has a unique schema name that you use to retrieve it. For more information, see <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase.SchemaName>. Each entity relationship of this kind also has a referenced entity (**Primary Entity**) with a referenced attribute, and a referencing entity (**Related Entity**) with a referencing attribute. The referencing attribute can be displayed as a lookup field in an entity form. For more information, see 
+ 
+ |Web API|SDK Assembly|
+ |---------------|---------------|
+ |<xref href="Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata?text=OneToManyRelationshipMetadata EntityType" />.ReferencedEntity|<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencedEntity>| 
+ |<xref href="Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata?text=OneToManyRelationshipMetadata EntityType" />.ReferencedAttribute|<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencedAttribute>|
+|<xref href="Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata?text=OneToManyRelationshipMetadata EntityType" />.ReferencingEntity|<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencingEntity>|
+|<xref href="Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata?text=OneToManyRelationshipMetadata EntityType" />.ReferencingAttribute| <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.ReferencingAttribute>|  
   
- You may require that a referencing entity have a reference by setting the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevel> to `ApplicationRequired` on the referencing attribute. To maintain data integrity, when you do this you should also specify what you want to occur if the primary record is deleted. Use the <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.CascadeConfiguration> property to either prevent deleting the primary record or automatically delete the related record as well to prevent an orphaned record.  
+ You may require that a referencing entity have a reference by setting the `AttributeRequiredLevel` enumeration (<xref href="Microsoft.Dynamics.CRM.AttributeRequiredLevel?text=AttributeRequiredLevel EnumType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevel> enumeration) to `ApplicationRequired` on the referencing attribute. To maintain data integrity, when you do this you should also specify what you want to occur if the primary record is deleted. Use the `OneToManyRelationshipMetadata.CascadeConfiguration` property to either prevent deleting the primary record or automatically delete the related record as well to prevent an orphaned record.  
   
  You can also use cascading configuration to automate behavior when specific actions are taken on related records in the organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity Relationship Behavior](entity-relationship-behavior.md)  
   
@@ -61,12 +68,13 @@ Entity relationships define the ways that entity records can be associated with 
   
 <a name="BKMK_HierarchicalRelationships"></a>   
 ### Hierarchical one-to-many entity relationships  
- With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you can specify one self-referencing one-to-many entity relationship as the designated hierarchical relationship for an entity. The <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.IsHierarchical> property flags this relationship as the one-to-many relationship to use for the entity.  
+
+ With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you can specify one self-referencing one-to-many entity relationship as the designated hierarchical relationship for an entity. The `OneToManyRelationship.IsHierarchical` property (<xref href="Microsoft.Dynamics.CRM.OneToManyRelationship?text=OneToManyRelationship" />.IsHierarchical or <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.IsHierarchical>) flags this relationship as the one-to-many relationship to use for the entity.  
   
  All one-to-many entity relationships represent a type of hierarchy, but relationships explicitly flagged using the `IsHierarchical` property are the only entity relationships that support the hierarchy visualizations in the application as well as new query operators to retrieve hierarchically related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Query hierarchical data](org-service/query-hierarchical-data.md)  
   
 ### Change the name of Web API navigation properties  
- If you want to apply a custom Web API navigation property name for a one-to-many relationship you can set values for the <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>[ReferencingEntityNavigationPropertyName Property](http://msdn.microsoft.com/en-us/0302eed8-26e9-4a1a-a7bd-4d1d7bb9391b) and [ReferencedEntityNavigationPropertyName Property](http://msdn.microsoft.com/en-us/222abb1f-3e91-4a80-b107-eaac3dd947dd) properties.  
+ If you want to apply a custom Web API navigation property name for a one-to-many relationship you can set values for the `OneToManyRelationshipMetadata.ReferencingEntityNavigationPropertyName` and `OneToManyRelationshipMetadata.ReferencedEntityNavigationPropertyName` properties.  
   
 <a name="BKMK_ManyToManyRelationships"></a>   
 ## Many-to-many relationships  
@@ -75,17 +83,18 @@ Entity relationships define the ways that entity records can be associated with 
  > [!NOTE]
  > See [Create a Many-to-Many relationship using the Web API](webapi/create-update-entity-relationships-using-web-api.md#create-a-many-to-many-relationship) for information on how to use the Web API for creating a N:N relationship.
  
- You use an instance of the <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata> class when you work with this kind of entity relationship. Each entity relationship has a unique <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase.SchemaName> that you use to retrieve it  
+ You use an instance of the `ManyToManyRelationshipMetadata` (<xref href="Microsoft.Dynamics.CRM.ManyToManyRelationshipMetadata?text=ManyToManyRelationshipMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata> class) when you work with this kind of entity relationship. Each entity relationship has a unique `RelationshipMetadataBase.SchemaName` that you use to retrieve it.  
 
   
- Creating a many-to-many entity relationship creates a new intersect entity where the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsIntersect> property is true. Records for this entity track each individual many-to-many relationship. You cannot add custom attributes to intersect entities.  
+ Creating a many-to-many entity relationship creates a new intersect entity where the `EntityMetadata.IsIntersect` property is true. Records for this entity track each individual many-to-many relationship. You cannot add custom attributes to intersect entities.  
   
 ### Change the name of Web API navigation properties  
- If you want to apply a custom Web API navigation property name for a many-to-many relationship you can set values for the  <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata>[Entity1NavigationPropertyName Property](http://msdn.microsoft.com/en-us/6795cbb4-b7b8-4ebb-987d-be074cee0e33) and [Entity2NavigationPropertyName Property](http://msdn.microsoft.com/en-us/a5ab1259-8bdf-481a-a09f-50830c91eeb1) properties.  
+ If you want to apply a custom Web API navigation property name for a many-to-many relationship you can set values for the <xref href="Microsoft.Dynamics.CRM.ManyToManyRelationshipMetadata?text=ManyToManyRelationshipMetadata EntityType" />.Entity1NavigationPropertyName and <xref href="Microsoft.Dynamics.CRM.ManyToManyRelationshipMetadata?text=ManyToManyRelationshipMetadata EntityType" />.Entity2NavigationPropertyName properties.  
   
 <a name="BKMK_ConfiguringAssociatedMenus"></a>   
 ## Configure associated menus  
- Both types of entity relationships allow for configuration of navigation links between related records. Use the <xref:Microsoft.Xrm.Sdk.Metadata.AssociatedMenuConfiguration> properties in each type of entity relationship definition to specify how you want the navigation links in an entity form to be displayed.  
+
+ Both types of entity relationships allow for configuration of navigation links between related records. Use the `Metadata.AssociatedMenuConfiguration` properties in each type of entity relationship definition to specify how you want the navigation links in an entity form to be displayed.  
   
  These values provide the default configuration for the relationship. You can use the form editor to override these options for each form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change navigation within a form](../customize/use-the-form-editor-legacy.md)
   

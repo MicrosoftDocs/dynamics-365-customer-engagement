@@ -57,6 +57,19 @@ You can map attributes between entities that have an entity relationship. This l
 
 ## Using entity and attribute mapping data
 
+### Using Web API
+
+When working with the Web API, you can use <xref href="Microsoft.Dynamics.CRM.InitializeFrom?text=InitializeFrom Function" /> to create new records in the context of existing records where a mapping exists between the entities. 
+
+The response received from InitializeFrom request consists of values of mapped attributes between the source entity and target entity and the GUID of parent record. The attribute mapping between entities that have an entity relationship is different for different entity sets and is customizable, so the response from InitializeFrom function request may vary for different entities and organizations. When this response is passed in the body of create request of the new record, these attribute values are replicated in the new record. The values of custom mapped attributes also get set in the new record during the process.
+
+> [!NOTE] To determine if two entities can be mapped use the following Web API request.
+> GET [Organization URI]/api/data/v9.0/entitymaps?$select=sourceentityname,targetentityname&$orderby=sourceentityname
+
+For more information see [Create a new entity from another entity](webapi/create-entity-web-api.md#create-a-new-entity-from-another-entity).
+
+### Using Organization Service
+
  When creating new records in the context of an existing record where a mapping exists between the entities, you can use the 
  <xref:Microsoft.Crm.Sdk.Messages.InitializeFromRequest> message to define a new record that contains the values specified in the mapping. You can then use the 
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>.
@@ -72,7 +85,7 @@ You can map attributes between entities that have an entity relationship. This l
 - The target field must be a field in which a user can enter data.
 - Address ID values cannot be mapped.
 - PartyList attributes, where <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.AttributeType> is <xref:Microsoft.Xrm.Sdk.Metadata.AttributeTypeCode>.PartyList cannot be mapped.
-  
+
 <a name="bkmk_Automapping"></a>
 
 ## Auto-mapping attributes between entities
@@ -80,7 +93,7 @@ You can map attributes between entities that have an entity relationship. This l
  You can edit attribute mappings between entities for entity relationships that support mapping. 
 
  In addition to creating each attribute map manually, you can use the 
- <xref:Microsoft.Crm.Sdk.Messages.AutoMapEntityRequest> message to generate a new set of attribute mappings. This message performs the action found under the **Generate Mappings** menu option in the **More Actions** menu on the toolbar. This message maps all the attributes between the two related entities where the attribute names and types are identical. This message is provided as a productivity enhancement so that you do not have to manually add all attribute mappings. Instead, you can generate a set of likely mappings and minimize the amount of manual work to add or remove individual mappings to meet your requirements.  
+ `AutoMapEntity` message(<xref href="Microsoft.Dynamics.CRM.AutoMapEntity?text=AutoMapEntity Action" /> or <xref:Microsoft.Crm.Sdk.Messages.AutoMapEntityRequest> class) to generate a new set of attribute mappings. This message performs the action found under the **Generate Mappings** menu option in the **More Actions** menu on the toolbar. This message maps all the attributes between the two related entities where the attribute names and types are identical. This message is provided as a productivity enhancement so that you do not have to manually add all attribute mappings. Instead, you can generate a set of likely mappings and minimize the amount of manual work to add or remove individual mappings to meet your requirements.  
 
 > [!NOTE]
 > Automatically generating mappings in this manner will remove any previously defined attribute mappings and may include mappings that you do not want.  

@@ -37,15 +37,13 @@ You can perform all the same operations on model entities that you can with the 
 |HasActivities|false|  
 |HasNotes|false|  
   
- In addition to the properties listed previously, the EntityMetadataAttributes property must contain an array that includes one 
+ In addition to the properties listed previously, the `EntityMetadataAttributes` property must contain an array that includes one 
  <xref href="Microsoft.Dynamics.CRM.StringAttributeMetadata?text=StringAttributeMetadata EntityType" /> to represent the primary name attribute for the entity. The attribute IsPrimaryName property must be true. The following table describes the properties set in the example.  
   
 |Primary Attribute property|Value|  
 |--------------------------------|-----------|  
 |SchemaName|new_AccountName|  
-|RequiredLevel|None **Note:**  For the values you can set here, see 
-<xref href="Microsoft.Dynamics.CRM.AttributeRequiredLevelManagedProperty?text=AttributeRequiredLevelManagedProperty ComplexType" /> and 
-<xref href="Microsoft.Dynamics.CRM.AttributeRequiredLevel?text=AttributeRequiredLevel EnumType" />.|  
+|RequiredLevel|None **Note:**  For the values you can set here, see <xref href="Microsoft.Dynamics.CRM.AttributeRequiredLevelManagedProperty?text=AttributeRequiredLevelManagedProperty ComplexType" /> and <xref href="Microsoft.Dynamics.CRM.AttributeRequiredLevel?text=AttributeRequiredLevel EnumType" />.|  
 |MaxLength|100|  
 |FormatName|Text **Note:**  The primary name attribute must use Text format. For format options available for other string attributes, see [StringAttributeMetadata formats](../customize-entity-attribute-metadata.md#BKMK_StringAttributeMetadataFormats).|  
 |DisplayName|Account Name|  
@@ -699,7 +697,7 @@ OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c
 
 ### Create a customer lookup attribute
 
- Unlike  other attributes, a customer lookup attribute is created using the  CreateCustomerRelationships Action. 
+ Unlike  other attributes, a customer lookup attribute is created using the <xref href="Microsoft.Dynamics.CRM.CreateCustomerRelationships?text=CreateCustomerRelationships Action" />. 
  The parameters for this action require the definition of the lookup attribute and a pair of one-to-many relationships.  
  A customer lookup attribute has two one-to-many relationships: one to the account entity and the other one to contact entity.  
   
@@ -712,7 +710,7 @@ OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c
 |Description|Sample Customer Lookup Attribute|  
   
  The example creates a customer lookup attribute, `new_CustomerId`, and adds it to the custom entity:  `new_bankaccount`. 
- The response is a CreateCustomerRelationshipsResponse Complex Type.  
+ The response is a <xref href="Microsoft.Dynamics.CRM.CreateCustomerRelationshipsResponse?text=CreateCustomerRelationshipsResponse ComplexType" />.  
   
  **Request**
 

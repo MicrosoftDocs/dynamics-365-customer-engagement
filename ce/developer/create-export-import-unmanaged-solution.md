@@ -125,8 +125,10 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
  For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] the maximum size for a solution is 29.296 MB.  
   
  For on-premises organizations, the default maximum size for a solution is 6 MB, but this can be increased as needed.  
-  
- [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] Change the maximum allowed size by editing the [\<httpRuntime>](https://msdn.microsoft.com/library/e1f13641\(v=vs.100\).aspx) element in the web.config file for the application. Edit the `executionTimeout` and `maxRequestLength` attributes to allow for the necessary size. After you finish installing the solution you can set it to the size you want.  
+ 
+[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
+
+ Change the maximum allowed size by editing the [\<httpRuntime>](https://msdn.microsoft.com/library/e1f13641\(v=vs.100\).aspx) element in the web.config file for the application. Edit the `executionTimeout` and `maxRequestLength` attributes to allow for the necessary size. After you finish installing the solution you can set it to the size you want.  
   
 ### See also  
  [Plan For Solution Development](plan-solution-development.md)   
