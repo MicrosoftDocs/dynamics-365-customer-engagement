@@ -64,7 +64,7 @@ When you use an app, you'll see only those entities in the site map  and other p
 
 ## Apps you might see in the app switcher
 
-Depending on the installation options your admin chooses, you may see any of the following apps in the app switcher:
+Depending on the installation options your admin chooses when setting up [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you may see any of the following apps in the app switcher:
 
 ![Dynamics 365 app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 app switcher")  
 
