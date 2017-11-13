@@ -4,7 +4,7 @@ description: "Get started with Voice of the Customer surveys."
 keywords: "survey feedback; voice of the customer survey feedback"
 ms.date: 11/06/2017
 ms.service: crm-online
-ms.topic: article
+ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
