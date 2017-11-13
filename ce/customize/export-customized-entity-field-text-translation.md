@@ -38,6 +38,10 @@ After you create customized entity and field text, you may want to translate it 
 5.  After completing the export, open or save the compressed (.zip) file that contains the exported labels to your local computer or network.  
   
 6.  Extract the XML file from the compressed (.zip) file and translate it.  
-  
+
+> [!TIP]
+
+> The XrmToolBox provides an Easy Translator tool that you can use to export and import tranlsations with contextual information. More information: [Easy Translator tool](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)
+
 ### See also  
  [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
