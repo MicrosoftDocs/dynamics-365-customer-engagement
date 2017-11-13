@@ -27,7 +27,7 @@ Provides properties and methods to retrieve information about the user interface
 |navigation|A collection of all the navigation items on the page. See [Collections](collections.md) for information about the collection methods and [formContext.ui.navigation item](formContext-ui-navigation.md) for information about the items in the collection. **navigation** is not available for Microsoft Dynamics 365 for tablets.|
 |process|Provides objects and methods to interact with the business process flow control on a form.<br/>More information: [formContext.ui.process](formContext-ui-process.md)|
 |quickForms|A collection of all the quick view controls on a form using the new form rendering engine (also called "turbo forms").<br/>More information: [formContext.ui quickForms](formContext-ui-quickforms.md)|
-|tabs|A collection of all the tabs on the page.<br/>See [Collections](collections.md) for information about the collection methods and [formContex.ui tab](formContext-ui-tab.md)  for information about the items in the collection.|
+|tabs|A collection of all the tabs on the page.<br/>See [Collections](collections.md) for information about the collection methods and [formContex.ui tab](formContext-ui-tabs.md)  for information about the items in the collection.|
 
 
 ## Methods 

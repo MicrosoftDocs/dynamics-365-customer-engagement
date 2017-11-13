@@ -1,6 +1,6 @@
 ---
 title: "getFormContext (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about the getEventSource method that returns a reference to the form or an item on the form depending on where the method was called." 
+description: "Learn about the getFormContext method that returns a reference to the form or an item on the form depending on where the method was called." 
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -28,7 +28,7 @@ Returns a reference to the form or an item on the form depending on where the me
 
 ## Example
 
-The following sample code demonstrates how you can create a method that sets notification on a form field or editable grid cell depending on where you registered the script ([Field OnChange](../events/field-onchange.md) event or editable grid [OnChange](../events/grid-onchange.md) event):
+The following sample code demonstrates how you can create a method that sets notification on a form field or editable grid cell depending on where you registered the script ([Field OnChange](../events/attribute-onchange.md) event or editable grid [OnChange](../events/grid-onchange.md) event):
 
 ```JavaScript
 function commonEventHandler(executionContext) {
@@ -53,7 +53,7 @@ function commonEventHandler(executionContext) {
 ### Related topics
 [Execution context](../execution-context.md)
 
-[Client API execution and global contexts](../../clientapi-context.md)
+[Form context](../../clientapi-form-context.md)
 
 
 

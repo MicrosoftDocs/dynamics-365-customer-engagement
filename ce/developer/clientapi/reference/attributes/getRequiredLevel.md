@@ -13,7 +13,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Returns the number of digits allowed to the right of the decimal point. 
+Returns a string value indicating whether a value for the attribute is required or recommended. 
 
 ## Attribute types supported
 

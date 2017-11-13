@@ -29,7 +29,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-When you create a new entity, default icons are provided. You can change the icons of custom entities by creating image Web resources and updating <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> properties. Use the specifications in this topic when creating or ordering icons. You will need the icon files before you begin.  
+When you create a new entity, default icons are provided. You can change the icons of custom entities by creating image Web resources and updating `EntityMetadata` (<xref href="Microsoft.Dynamics.CRM.EntityMetadata?text=EntityMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> class) properties. Use the specifications in this topic when creating or ordering icons. You will need the icon files before you begin.  
   
 > [!NOTE]
 >  When you first associate Web Resources with icons in the application the size of the icons will be checked. If you associate Web Resources programmatically, no size validation occurs. If the Web Resource is later updated with a large size image, no validation occurs.  

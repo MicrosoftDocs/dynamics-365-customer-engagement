@@ -25,7 +25,7 @@ Learn about the techniques available to you when developing application code tha
 ### See also  
  [Getting started with managed code application development](org-service/get-started-managed-code-application-development.md)   
  [Use Dynamics 365 Services in Code](org-service/use-services-in-code.md)   
- [Download endpoints using Developer resources page](download-endpoints-developer-resources-page.md)   
+ [Download endpoints using Developer resources page](developer-resources-page.md)   
  [Use the IOrganizationService Web Service to Read and Write Data or Metadata](org-service/use-organization-service-read-write-data-metadata.md)   
  [Use the Early Bound Entity Classes in Code](org-service/use-early-bound-entity-classes-code.md)   
  [Use the Late Bound Entity Class in Code](org-service/use-late-bound-entity-class-code.md)   

@@ -1,19 +1,24 @@
 ---
 title: "Create early bound entity classes with the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 06abab26-40fc-4b85-9a2a-5e68903ea138
+author: kabala123
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 79
-ms.author: "jdaly"
-manager: "amyla"
+topic-status: Drafting
 ---
+
 # Create early bound entity classes with the code generation tool (CrmSvcUtil.exe)
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
@@ -164,6 +169,15 @@ The following sample shows how to configure the output file and the domain name 
 ```
 
 For more information on supported tracing options see [Configure tracing for XRM tooling](../xrm-tooling/configure-tracing-xrm-tooling.md).  
+
+## Community tools
+
+**Early Bound Generator** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](../developer-tools.md) topic for community developed tools.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
+
 
 ### See Also
 

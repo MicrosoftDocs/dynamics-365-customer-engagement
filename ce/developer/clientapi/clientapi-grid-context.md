@@ -16,11 +16,11 @@ manager: "amyla"
 
 The grid context object provides a reference to the grid or a subgrid on a form against which the current code is executed.
 
-To get the **gridContext** object, you use the [formContext](clientapi-form-context.md) object to get an instance of the grid control. For example, when you know the name of a subgrid control (say CONTACTS subgrid in the default account form), you can access it using the following code:
+To get the **gridContext** object, you use the [formContext](clientapi-form-context.md) object to get an instance of the grid control. For example, when you know the name of a subgrid control (say **Contacts** subgrid in the default account form), you can access it using the following code:
 
 `var gridContext = formContext.getControl("Contacts");`
  
-For more information about methods and events available for **gridContext**, see [Grids and subgrids](reference/grids.md).
+For more information about methods and events available for grids and subgrids, see [Grids and subgrids](reference/grids.md).
 
 ## Related topics
 
