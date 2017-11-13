@@ -8,7 +8,7 @@
 ## [Programming models](programming-models.md)
 ## [Choose your development style](choose-development-style.md)
 ## [Tutorials and resources](tutorials-resources-sdk.md)
-### [Download endpoints using Developer resources page](developer-resources-page.md)
+### [Developer resources page](developer-resources-page.md)
 ### [Run a simple program using web services](simple-program-web-services.md)
 ### [Sample: Quick start](sample-quick-start.md)
 ### [Sample: Simplified connection quick start](xrm-tooling/sample-simplified-connection-quick-start.md)
