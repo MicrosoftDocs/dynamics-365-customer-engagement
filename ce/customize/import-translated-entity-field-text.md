@@ -50,11 +50,11 @@ If you have customized entity or field text, such as field labels or drop-down l
 
 ## Community tools
 
-**[Easy Translator tool](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Use Easy Translator tool to export and import tranlsations with contextual information. 
+**[Easy Translator tool](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Use Easy Translator to export and import translations with contextual information. 
 
 > [!NOTE]
 > The community tools are not supported by [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)]. 
-> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).> [!TIP]
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
 ### See also  
  [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
