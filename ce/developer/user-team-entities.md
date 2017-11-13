@@ -1,15 +1,17 @@
 ---
 title: "User and team entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about user and team management using which you can create and maintain user accounts and profiles."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
+ms.assetid: a88d9a7c-865c-45cc-be2a-fb5693a58268
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 helpviewer_keywords: 
   - "user settings"
   - "users, significant attributes"
@@ -30,12 +32,9 @@ helpviewer_keywords:
   - "users, synchronizing with Microsoft Office 365"
   - "security roles, users"
   - "teams, definition"
-ms.assetid: a88d9a7c-865c-45cc-be2a-fb5693a58268
-caps.latest.revision: 63
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+topic-status: Drafting
 ---
+
 # User and team entities
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
@@ -72,7 +71,15 @@ User and team management is the area of [!INCLUDE[pn_microsoftcrm](../includes/p
 >  A user's set of privileges is a union of privileges from the user's roles and privileges from all teams’ roles in which the user is a member.  
 
   
- Non-interactive users are often used when writing service-to-service code because they do not use up a license. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] allows for five free non-interactive users. To disable a non-interactive user, update the user record changing the `accessmode` value to any other value. The user will be disabled automatically.  
+ Non-interactive users are often used when writing service-to-service code because they do not use up a license. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] allows for five free non-interactive users. To disable a non-interactive user, update the user record changing the `accessmode` value to any other value. The user will be disabled automatically.
+
+## Community tools
+
+**User Settings Utility** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools.
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
   
 ### See also  
  [Administration and Security Entities](administration-security-entities.md)   

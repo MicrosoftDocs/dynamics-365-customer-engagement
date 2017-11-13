@@ -1,16 +1,20 @@
 ---
 title: "User's guide for Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Learn how to ramp up quickly on Dynamics 365 for Sales, Business Edition."
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
+keywords: ""
 ms.date: 08/09/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: ad4ee751-978d-4d14-80b1-e0ebed6d07f5
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # User's guide for Dynamics 365 for Sales, Business edition
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]

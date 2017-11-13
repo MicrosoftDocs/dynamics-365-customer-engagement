@@ -61,7 +61,27 @@ When you use an app, you'll see only those entities in the site map  and other p
 > [!NOTE]
 >  -   The Quick Create menu, Global Search, and Recent Records within the app aren't filtered. These show and can be searched on all entities instead of only the entities that are added to the app.  
 > -   When you search using Advanced Find, it searches all entities and not just the entities added to the app.  
-  
+
+## Apps you might see in the app switcher
+
+Depending on the installation options your admin chooses, you may see any of the following apps in the app switcher:
+
+![Dynamics 365 app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 app switcher")  
+
+The following table describes what each app is used for, whether it's designed for web or mobile, and where to go for more information.
+
+|App|Description|Platform|More info|
+|---------|---------|---------|---------|
+|Sales|Full-featured desktop-optimized app for sales scenarios |Web|[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)|
+|Sales Hub|Mobile-optimized app for sales scenarios (Unified Interface)|Web and Mobile|[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)|
+|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)|Web|[User Guide (Customer Service)](../customer-service/user-guide-customer-service.md)|
+|Customer Service Hub|Desktop (recommended for knowledge management only) and mobile-optimized app (recommended for case management) (Unified Interface)|Web and Mobile|[User Guide (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)|
+|Field Service|Full-featured desktop-optimized app for field service scenarios|Web|[User Guide (Field Service)](../field-service/user-guide.md)|
+|Field Resource Hub|Mobile-optimized app for field service scenarios (Unified Interface)|Web and Mobile|[User Guide (Field Resource Hub)](../field-service/field-resource-hub-users-guide.md)|
+|Project Service Automation|Full-featured desktop-optimized app for project service scenarios |Web|[Overview of Project Resource Automation](../project-service/overview.md)|
+|Project Resource Hub|Mobile-optimized app for project service scenarios (Unified Interface)|Web and Mobile|[User Guide (Project Resource Hub)](../project-service/project-resource-hub-users-guide.md)|
+
+  
 ### See also  
  [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)   
  [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)

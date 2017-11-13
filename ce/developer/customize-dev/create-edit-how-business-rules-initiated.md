@@ -22,7 +22,7 @@ manager: "amyla"
 
 Business rules allow for defining logic that takes place in a form. Business rules provide an alternative to form scripts because they can be defined within a user interface without writing code. Business rules do not offer any opportunities for the actions they perform to be extended in this release, but by using the Process Trigger entity, you can modify how existing business rules are initiated or register an existing business rule to different events that will initiate it.
 
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and edit business rules](https://technet.microsoft.com/library/dn531086.aspx)
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create business rules and recommendations](../../customize/create-business-rules-recommendations-apply-logic-form.md)
 
 ## Registering business rules
 
@@ -52,8 +52,8 @@ Business rules allow for defining logic that takes place in a form. Business rul
 
 ### See also
 
- [Create and edit business rules](https://technet.microsoft.com/library/dn531086.aspx)
+ [Create business rules and recommendations](../../customize/create-business-rules-recommendations-apply-logic-form.md)
  <!--
  Add back after Web API reference regen
- [ProcessTrigger Entity](../entities/processtrigger.md)
+ [ProcessTrigger Entity]/entities/processtrigger.md)
  -->

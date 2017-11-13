@@ -1,5 +1,5 @@
 ---
-title: "Use editable grids in Dynamics 365 | MicrosoftDocs"
+title: "Use editable grids in Customer Engagement | MicrosoftDocs"
 description: "Editable grid is a new custom control in Dynamics 365 Customer Engagement that provides rich inline editing capabilities on web and mobile clients (Dynamics 365 for phones and Dynamics 365 for tablets) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views."
 ms.custom: ""
 ms.date: 10/31/2017
@@ -15,11 +15,11 @@ caps.latest.revision: 16
 author: "KumarVivek"
 ms.author: "kvivek"
 ---
-# Use editable grids in Dynamics 365
+# Use editable grids in Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Editable grid is a new custom control in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement that provides rich inline editing capabilities on web and mobile clients ([!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)]) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views. The editable grid control is supported in the main grid and subgrids on a form in the web client and in dashboards and on form grids on the mobile clients. Although the editable grid control provides editing capability, it honors the read-only grid metadata and field-level security settings. Editable grids also support business rules and form scripting so you can apply custom business logic according to your organization's requirements.  
+Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement that provides rich inline editing capabilities on web and mobile clients ([!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)]) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views. The editable grid control is supported in the main grid and subgrids on a form in the web client and in dashboards and on form grids on the mobile clients. Although the editable grid control provides editing capability, it honors the read-only grid metadata and field-level security settings. Editable grids also support business rules and form scripting so you can apply custom business logic according to your organization's requirements.  
  
 <a name="Enable"></a>   
 ## Enable editable grids  
@@ -278,5 +278,5 @@ namespace Microsoft.Crm.Sdk.Samples
 ```  
   
 ### See also  
- [Write scripts for grids and subgrids](../clientapi/reference/grids.md)   
+ [Grids and subgrids in Customer Engagement](../clientapi/reference/grids.md)   
  [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](https://technet.microsoft.com/library/mt791766.aspx)

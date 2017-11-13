@@ -19,7 +19,7 @@ This event occurs whenever form data is loaded, specifically:
 - When the page data is explicitly refreshed using formContext.data.[refresh](../formContext-data/refresh.md) method.
 - When the data is refreshed on a page on saving a record, if there are any changes.
  
-Use the formContext.data.[addOnLoad](../formContext.data/addOnLoad.md) and formContext.data.[removeOnLoad](../formContext.data/removeOnLoad.md) methods to manage event handlers for this event. 
+Use the formContext.data.[addOnLoad](../formContext-data/addOnLoad.md) and formContext.data.[removeOnLoad](../formContext-data/removeOnLoad.md) methods to manage event handlers for this event. 
 
 
 

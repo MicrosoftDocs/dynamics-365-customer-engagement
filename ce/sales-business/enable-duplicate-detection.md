@@ -2,15 +2,17 @@
 title: "Keep your data in Dynamics 365 for Sales, Business edition clean with duplicate detection | Microsoft Docs"
 description: "Enable duplicate detection in Dynamics 365 for Sales, Business edition to keep your sales data clean."
 keywords: "Duplicate; Enable; Disable"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 83bdaae9-1f72-45d5-b4c2-bd0a070a9c05
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
 
 # Keep your data clean with duplicate detection
@@ -37,9 +39,9 @@ If duplicate detection is disabled, duplicates won’t be detected.
 
 To enable duplicate detection
 
-1. Go to **Advanced** **Settings** &gt; **Duplicate** **Detection**.
+1.  Go to **Advanced** **Settings** &gt; **Duplicate** **Detection**.
 
-2.  Click **Enable**.
+2.  Select **Enable**.
 
 ## When does duplicate detection happen?
 
@@ -63,7 +65,7 @@ If your system contains a large number of records, checking for duplicates can i
 
 1.  To disable duplicate detection, go to **Advanced Settings** &gt; **Duplicate Detection**.
 
-2.  Click **Disable**.
+2.  Select **Disable**.
 
 All the duplicate detection rules will be unpublished in the backend.
 

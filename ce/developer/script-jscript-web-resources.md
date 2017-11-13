@@ -1,6 +1,6 @@
 ---
-title: "Script (JScript) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about using Script (JavaScript) web resources to create a library of JavaScript functions that can be accessed from anywhere. "
+title: "Script(JScript) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn about using JavaScript web resources to create a library of JavaScript functions that can be accessed from anywhere. "
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -18,19 +18,19 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
 ---
-# Script (JScript) web resources
+# Script(JScript) web resources
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use Script ([!INCLUDE[pn_JScript](../includes/pn-jscript.md)]) web resources to create a library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that can be accessed from anywhere.  
+Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that can be accessed from anywhere.  
   
 <a name="BKMK_capabilties"></a>   
 ## Capabilities of script web resources  
- With Script web resources, you can more efficiently manage code used in form scripts, webpage (HTML) web resources, or ribbon commands by linking them to shared library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions.  
+ With [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources, you can more efficiently manage code used in form scripts, webpage (HTML) web resources, or ribbon commands by linking them to shared library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions.  
   
 <a name="BKMK_limitations"></a>   
 ## Limitations of script web resources  
- Like all web resources, script web resources use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application security context. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have the necessary privileges can access them.  
+ Like all web resources, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application security context. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have the necessary privileges can access them.  
   
 > [!NOTE]
 >  References included in code between web resources aren’t tracked as solution dependencies.  
@@ -41,13 +41,13 @@ Use Script ([!INCLUDE[pn_JScript](../includes/pn-jscript.md)]) web resources to 
   
 <a name="BKMK_Referencing"></a>   
 ## Referencing a script web resource from a webpage web resource  
- All web resources can use relative URLs to reference each other. In the following example, for the webpage web resource `new_/content/contentpage.htm` to reference the script web resource `new_/scripts/myScript.js`, add the following HTML code to the head element of `new_/content/contentpage.htm`.  
+ All web resources can use relative URLs to reference each other. In the following example, for the webpage web resource `new_/content/contentpage.htm` to reference the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource `new_/scripts/myScript.js`, add the following HTML code to the head element of `new_/content/contentpage.htm`.  
   
 ```html  
 <script type="text/jscript" src="../scripts/myScript.js"></script>  
 ```  
   
- To reference a script from a different publisher, the path must include the customization prefix for that publisher. For example, for the `new_/content/contentpage.htm` page to reference the `MyIsv_/scripts/customscripts.js` page, the `src` attribute value should be `../../MyIsv_/scripts/customscripts.js`.  
+ To reference a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] from a different publisher, the path must include the customization prefix for that publisher. For example, for the `new_/content/contentpage.htm` page to reference the `MyIsv_/scripts/customscripts.js` page, the `src` attribute value should be `../../MyIsv_/scripts/customscripts.js`.  
   
 ### See also  
  [Use JavaScript with Customer Engagement](use-javascript.md)   
