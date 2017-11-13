@@ -69,10 +69,9 @@ When the configuration is complete, you can start using the Voice of the Custome
 
 6.  Select **Install**.
 
-You can track the installation status from the solutions page of [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)].
+### Track the installation status 
 
 1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Instances** tab.
-
 2.  Select the instance name, and then select **Solutions**.
     The status is displayed in the **Status** column.
 
