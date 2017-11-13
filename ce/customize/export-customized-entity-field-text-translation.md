@@ -45,7 +45,7 @@ After you create customized entity and field text, you may want to translate it 
 
 > [!NOTE]
 > The community tools are not supported by [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)]. 
-> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).> 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
 
 ### See also  
  [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
