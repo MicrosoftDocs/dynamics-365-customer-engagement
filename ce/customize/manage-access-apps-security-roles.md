@@ -26,7 +26,7 @@ You can choose what users see and access from My Apps or the [!INCLUDE[pn_crm_sh
   
 1.  Go to **Settings** > **My Apps**.  
   
-2.  In the lower right corner of the app tile you want to manage access for, click the **More options** button (**...**), and then click **Manage Roles**.  
+2.  In the lower right corner of the app tile you want to manage access for, select the **More options** button (**...**), and then select **Manage Roles**.  
   
 3.  Enter the following in the **Manage Roles** dialog box:  
   
@@ -38,7 +38,7 @@ You can choose what users see and access from My Apps or the [!INCLUDE[pn_crm_sh
 
       ![Manage security roles for the app](../customize/media/app-manage-roles.png "Manage security roles for the app")
 
-    c.  Click **Save**.  
+    c. Select **Save**.  
   
 4.  Refresh the **My Apps** page.  
   

@@ -27,7 +27,7 @@ Create single or multi-entity apps quickly  by using the tile-based app designer
  Open the app designer from the **My Apps** page or from the **Apps** area in the Solutions window.
 
 ## Prerequisites
-Verify the following prerequisites befor you start creating the app:
+Verify the following prerequisites before you start creating the app:
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] Specifically, any user with the following privileges can also create  apps:  
 -   Create, Read, and Write privileges for the App entity  
 -   Read and Write privileges for the Customizations entity  

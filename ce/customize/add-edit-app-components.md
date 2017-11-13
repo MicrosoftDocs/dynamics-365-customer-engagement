@@ -31,7 +31,7 @@ An app is composed of various components. There are two types of components that
   
  ![App designer canvas](../customize/media/app-designer-canvas-pane.png "App designer canvas")  
   
- On the right side   are tabs that you'll use to select components and set component properties.  
+ On the right side, you have tabs that you'll use to select components and set component properties.  
   
  ![App designer components](../customize/media/app-designer-canvas-components-tab.png "App designer components")  
   
@@ -45,15 +45,15 @@ An app is composed of various components. There are two types of components that
   
  Here are the steps for adding a dashboard to the app.  Use the same steps to add a business process flow or entity.  
   
-1.  On the app designer canvas, click the **Dashboards** tile.  
+1.  On the app designer canvas, select the **Dashboards** tile.  
   
      On the app designer canvas, the right pane shows you dashboards that are available in the default solution.  
   
     > [!TIP]
     >  Alternatively, you can also do one of the following:  
     >   
-    > - Click the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and select **Dashboards**.  
-    > - On the **Components** tab, under **Artifacts**, click **Dashboards**.  
+    > - Select **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and select **Dashboards**.  
+    > - On the **Components** tab, under **Artifacts**, select **Dashboards**.  
   
 2.  In the **search** box, type a few keywords for the dashboard name you're looking for.  
   
@@ -69,7 +69,7 @@ An app is composed of various components. There are two types of components that
   
     ![Add entity to the app designer canvas](../customize/media/add-entity-app-designer-canvas.png "Add entity to the app designer canvas")  
   
-4.  If the dashboard you want doesn't exist in the default solution, create a dashboard by clicking **Create New** on the **Components** tab on the right side.  
+4.  If the dashboard you want doesn't exist in the default solution, create a dashboard by selecting **Create New** on the **Components** tab on the right side.  
   
      ![Create New link on the Components tab of app designer](../customize/media/app-designer-components-tab-create-new.png "Create New link on the Components tab of app designer")  
   
@@ -79,7 +79,7 @@ An app is composed of various components. There are two types of components that
     > - When you're adding a business process flow or entity, the **Create New** option opens the corresponding designer. To learn more about creating business process flows or entities, see [Create a business process flow](../customize/create-business-process-flow.md) and [Create and edit entities](../customize/create-edit-entities.md).  
       
   
-5.  When you're done adding artifacts, on the command bar, click **Save**.  
+5.  When you're done adding artifacts, on the command bar, select **Save**.  
   
 <a name="bkmk_AddEntityAssets"></a>   
 ## Add entity assets (forms, views, charts, or dashboards)  
@@ -88,18 +88,18 @@ An app is composed of various components. There are two types of components that
   
  This section describes the steps for adding a form to the app. Use the same steps to add a view or chart to the app.  
   
-1.  On the app designer canvas, click the **Forms** tile for the entity you want to add a form to.  
+1.  On the app designer canvas, select the **Forms** tile for the entity you want to add a form to.  
   
      On the app designer canvas, the entire row for the  entity is selected.  On the right side, you'll see all existing forms for the selected entity.  
   
     > [!NOTE]
     >  Alternatively, you can also do one of the following:  
     >   
-    > - Click the **Add** ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") button, and then select **Forms**.  
-    > - On the **Components** tab, under **Entity Assets**, click **Forms**.  
+    > - Select **Add** ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") button, and then select **Forms**.  
+    > - On the **Components** tab, under **Entity Assets**, select **Forms**.  
   
     > [!TIP]
-    >  For all entities selected for the app, a **More Options** button ![More Options button for an entity in the app designer](../customize/media/app-designer-more-options-icon.png "More Options button for an entity in the app designer") appears in the **Select Entities** list of the **Components** tab. To add all assets for the selected entity, click the **More Options** button, and then click **Add All Assets**.  
+    >  For all entities selected for the app, a **More Options** button (**...**) appears in the **Select Entities** list of the **Components** tab. To add all assets for the selected entity, select the **More Options** button (**...**), and then select **Add All Assets**.  
   
 2.  If you want your app users to use only selected forms, select the check boxes for the forms you want to add. The forms define how users will see and interact with data in the app.  
   
@@ -107,12 +107,14 @@ An app is composed of various components. There are two types of components that
   
      ![Form tile for case entity](../customize/media/add-forms-entity.png "Form tile for case entity")  
   
-     If a form, view, chart, dashboard, or business process flow isn't selected, all entities that are in the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution are available to users while using the app. This helps users create apps quickly when they need to work with all available components—there's no need to select each component during app design.  
+     For example, if you do not select any form for an entity, then all the forms for that entity are displayed to the users while using the app. This behavior is similar for views and charts as well, if no view or chart is selected. This helps users create apps quickly when they need to work with all available components—there's no need to select each component during app design.  
+
+     If no dashboards or businss process flows are selected, all the dashboards and business process flows are available for users while using the app.
   
     > [!NOTE]
-    >  For the app to run, each entity that you add must have at least one active form. If you've selected multiple forms, the first active form  that appears in the default solution will be used when users run the app.  
+    > For the app to run, each entity that you add must have at least one active form. If you've selected multiple forms, the first active form  that appears in the default solution will be used when users run the app.  
   
-3.  If you want to add a new form that's not available in the list, click **Create New**.  
+3.  If you want to add a new form that's not available in the list, select **Create New**.  
   
      In the drop-down, select the type of form you want to create.  
   
@@ -144,7 +146,7 @@ An app is composed of various components. There are two types of components that
 
     Also, you can remove a dashboard or a business process flow by clearing the corresponding check box from the **Components** tab.
   
--   To edit or remove an entity, click the entity tile, and then on the command bar, click **Edit** or **Remove**. When you edit an entity, the solution explorer opens, where you can make changes to the entity.  
+-   To edit or remove an entity, select the entity tile, and then on the command bar, select **Edit** or **Remove**. When you edit an entity, the solution explorer opens, where you can make changes to the entity.  
   
      Alternatively, to remove a component, select the dashboard or business process flow, or entity tile. The **Component** tab shows the corresponding dashboards or business process flows or entities that are referenced (added) in the app designer. Clear the check boxes for the artifact you want to remove from the designer.  
   
@@ -169,7 +171,7 @@ An app is composed of various components. There are two types of components that
   
 2. Select the form, view, chart, or dashboard that you want to edit.
 
-3. On the command bar, click **Remove**.  <br/>
+3. On the command bar, select **Remove**.  <br/>
    -OR<br/>
    Select the forms, views, charts, dashboards tile. The **Component** tab shows the corresponding forms, views, charts, or dashboards that are referenced (added) in the app designer. Clear the check boxes for the assets you want to remove from the designer.  
   
