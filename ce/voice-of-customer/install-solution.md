@@ -79,10 +79,10 @@ You can track the installation status from the solutions page of [!INCLUDE[pn-cr
 
 > [!NOTE] 
 > To optimize performance, we recommend following limits for Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]:
--   Maximum number of surveys you can publish: **200**
--   Maximum number of questions on a survey: **250**. If you've enabled feedback for a survey, the maximum is 40 questions.
--   Maximum number of pages per survey: **25**
--   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
+> -   Maximum number of surveys you can publish: **200**
+> -   Maximum number of questions on a survey: **250**. If you've enabled feedback for a survey, the maximum is 40 questions.
+> -   Maximum number of pages per survey: **25**
+> -   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
 
 
 
