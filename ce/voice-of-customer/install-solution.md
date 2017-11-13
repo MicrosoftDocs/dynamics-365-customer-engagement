@@ -18,11 +18,17 @@ topic-status: Drafting
 
 # Install the Voice of the Customer solution
 
-This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions earlier than 9.0, and also the latest version.
+This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions earlier than 9.0, and also the latest version. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
+
+> [!NOTE] 
+> Surveys aren't supported on legacy forms.
 
 ## Install the Voice of the Customer solution, versions earlier than 9.0
 
 Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] is a preferred solution that you install from [!INCLUDE[pn-ms-office](../includes/pn-ms-office.md)] 365. More information about how to install preferred solutions: [Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909)  
+
+> [!NOTE] 
+> If you're using Voice of the Customer version 9.0.781.3 or earlier, maximum number of survey responses you can pull per day is **2,400**.
 
 ### Enable and configure Voice of the Customer
 
@@ -70,24 +76,15 @@ You can track the installation status from the solutions page of [!INCLUDE[pn-cr
 2.  Select the instance name, and then select **Solutions**.
     The status is displayed in the **Status** column.
 
-[//]: # (@Shubham, is Saurabh okay with keeping "limitations" in this section? I kind of like my idea of using "requirements" instead: it's accurate, and it doesn't have a bad connotation.)
-## Requirements of the Voice of the Customer solution
 
-Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] has the following requirements designed to optimize performance:
-
+> [!NOTE] 
+> To optimize performance, we recommend following limits for Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]:
 -   Maximum number of surveys you can publish: **200**
-
 -   Maximum number of questions on a survey: **250**. If you've enabled feedback for a survey, the maximum is 40 questions.
-
 -   Maximum number of pages per survey: **25**
-
--   Note that surveys aren't supported on legacy forms.
-
 -   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
 
-The following requirement also applies if you're using Voice of the Customer version 9.0.781.3 or earlier. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
--   Maximum number of survey responses you can pull per day: **2,400**.
 
 ### See also
 [Plan a survey](plan-survey.md)    
