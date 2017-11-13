@@ -4,7 +4,7 @@ description: "Get an overview of Dynamics 365 for Sales, Business edition and it
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
 ms.date: 07/15/2017
 ms.service: dynamics-365
-ms.topic: article
+ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: ccdffcfc-fb43-4119-b7a0-47fca20f6f4e
