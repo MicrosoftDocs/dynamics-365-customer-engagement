@@ -161,6 +161,8 @@
 ##### [getEntityName](reference/formContext-data-process/stage/getEntityName.md)
 ##### [getId](reference/formContext-data-process/stage/getId.md)
 ##### [getName](reference/formContext-data-process/stage/getName.md)
+##### [getStatus](reference/formContext-data-process/stage/getStatus.md)
+##### [getSteps](reference/formContext-data-process/stage/getSteps.md)
 
 #### Step methods
 ##### [getAttribute](reference/formContext-data-process/step/getAttribute.md)
