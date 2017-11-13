@@ -103,7 +103,7 @@ You can configure your survey to include a link that allows a respondent to unsu
 > Unsubscribe actions work only for customer records stored in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and not for anonymous surveys.
 
 
-1.  [Create a survey that contains the questions to capture reasons for unsubscribing.](design-basic-survey.md#create-or-edit-survey)  
+1.  [Create a survey that contains the questions to capture reasons for unsubscribing.](design-basic-survey.md#create-or-edit-a-survey)  
 
 2.  Open the survey to which you want to add the unsubscribe option.
 

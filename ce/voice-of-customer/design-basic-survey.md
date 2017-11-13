@@ -349,7 +349,7 @@ After creating a survey, you can translate it into other languages as required b
 
     as:
 
-    /&lt;b/&gt;Hello!/&lt;/b/&gt;
+    &lt;b&gt;Hello!&lt;/b&gt;
 
     You can use any HTML encoder.
 

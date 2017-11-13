@@ -37,8 +37,8 @@ topic-status: Drafting
 <tr>
  <td><h2>Design</h2>
   <ul>
-  <li>[Create a theme for the survey](design-basic-survey.md#create-survey-theme)</li>
-  <li>[Create the survey](design-basic-survey.md#create-or-edit-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
+  <li>[Create a theme for the survey](design-basic-survey.md#create-a-survey-theme)</li>
+  <li>[Create the survey](design-basic-survey.md#create-or-edit-a-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
   <li>[Personalize the survey](design-basic-survey.md#personalize-a-survey)</li>
   <li>[Preview, publish, and test the survey](design-basic-survey.md#preview-publish-and-test-the-survey)</li>
   <li>[Translate the survey](design-basic-survey.md#translate-a-survey)</li>
