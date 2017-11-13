@@ -2,16 +2,19 @@
 title: "Change color scheme logo Dynamics 365 Sales, Business edition | Microsoft Docs"
 description: "Create your own branding in Dynamics 365 for Sales, Business edition. "
 keywords: "color; logo; theme"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 31970d2b-3be2-457b-9143-da40a67ebf1f
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Change the color scheme or logo for your organization
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -34,7 +37,7 @@ The theme colors are applied globally throughout the application. For example, y
 
 [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] come with three default themes that you can use. You can choose one of these default themes and apply, or pick any other custom theme that you may have created.
 
-To apply a theme, select the theme in the **Select Theme** drop-down list, and click **Save and** **Apply Theme**.
+To apply a theme, select the theme in the **Select Theme** drop-down list, and select **Save and** **Apply Theme**.
 
 The theme that you are currently using is shown with the text “currently applied”.
 
@@ -42,20 +45,20 @@ The theme that you are currently using is shown with the text “currently appli
 
 1.  Go to **Advanced** **Settings** &gt; **Branding** & **Theme**.
 
-2.  Click **Create new theme**.
+2.  Select **Create new theme**.
 
 3.  In the **Theme Name** field, enter a descriptive name for the new theme.
 
-4.  To change the logo, click **Edit** on the logo box, and then choose an image file of type JPG, PNG, GIF or SVG format.
+4.  To change the logo, select **Edit** on the logo box, and then choose an image file of type JPG, PNG, GIF or SVG format.
     The image file is converted to a web resource.
 
-    To revert to the default [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] logo, click **Restore default logo**.
+    To revert to the default [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] logo, select **Restore default logo**.
 
 5.  Enter a tooltip for the logo.
 
 6.  Choose the colors in the **Nav Bar Color**, **Main Color**, and **Accent Color boxes**.
 
-7.  Click **Save and Apply Theme**.
+7.  Select **Save and Apply Theme**.
 
 ### See Also
 [Set up the Sales app for your team](set-up-sales-app-team.md)  

@@ -2,16 +2,19 @@
 title: "Configure email in Dynamics 365 for Sales, Business edition by integrating with Exchange | Microsoft Docs"
 description: "Enable your Dynamics 365 for Sales, Business edition users to send and receive emails by integrating with Exchange."
 keywords: "Email; Exchange; Mailbox"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 9ab64600-b67c-4769-b2c0-cd94d2cc8150
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Configure email in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with Exchange 
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -51,23 +54,23 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
     1.  When you log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] for the first time, a Welcome page appears.
 
-    2.  Click the **Go to the Quick Setup** tile.
+    2.  Select the **Go to the Quick Setup** tile.
 
-    3.  In the Quick Setup wizard, click the **Email Configuration** icon.
+    3.  In the Quick Setup wizard, select the **Email Configuration** icon.
 
          -OR-
 
 2.  Initiate Exchange integration from Advanced Settings.
 
-    1.  Click the Menu icon ![Menu icon](media/Site-map-icon.png "Open the Menu icon"). A navigation pane opens on the left side.
+    1.  Select the Site Map icon ![Site map icon](media/Site-map-icon.png "Open the site map icon"). A navigation pane opens on the left side.
 
-    2.  Click **Advanced Settings**.
+    2.  Select **Advanced Settings**.
 
-    3.  Click **Email Configuration**.
+    3.  Select **Email Configuration**.
 
 3.  If your organization has an Exchange subscription, skip to Step 6.
   
-4.  If you don’t have an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription, you’ll be prompted to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription. Click the link to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription.
+4.  If you don’t have an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription, you’ll be prompted to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription. Select the link to purchase an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription.
 
   ![Email configuration page in Advanced Settings](media/email-configuration-page-no-office-subscription.png "Email configuration page in Advanced Settings")  
 
@@ -82,15 +85,15 @@ their mailboxes will automatically appear here, which you can test and enable la
 
   ![Button to configure Exchange](media/configure-exchange.png "Button to configure Exchange")  
 
-7.  Click **Configure**. A consent dialog box opens.
+7.  Select **Configure**. A consent dialog box opens.
    
-8.  In the consent dialog box, choose **I Agree**.
+8.  In the consent dialog box, select **I Agree**.
 
    > [!Note]
    
    > The integration won’t work unless you agree.
 
-9.  When you choose **I Agree**, the following happens:
+9.  When you select **I Agree**, the following happens:
 
     1. Server-side synchronization is automatically enabled and configured at the system (organization) level.
 
@@ -123,7 +126,7 @@ their mailboxes will automatically appear here, which you can test and enable la
 
 The Test Run column shows the status of the test performed on the mailboxes. If an error occurs while testing any of the mailbox, it’s status is set to Failed and the user of the mailbox is sent an alert.
 
-As an administrator, you must select all such mailboxes, click the **More Commands** icon, and then choose **Test and Enable**.
+As an administrator, you must select all such mailboxes, select the **More Commands** icon, and then select **Test and Enable**.
 
 The error must automatically resolve now. If the error persists, please contact Support.
 

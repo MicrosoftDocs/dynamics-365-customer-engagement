@@ -2,16 +2,19 @@
 title: "Manage Word templates in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Create Word templates in Dynamics 365 for Sales, Business edition to help your users send out standardized and well formatted Sales data to customers. "
 keywords: "Word template, Standardized data; Consistent look"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: de087792-7fd4-4cd7-97bc-f19cf4920f8c
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Create and manage Word templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -28,7 +31,7 @@ Follow the steps in this topic to successfully create Word templates in [!INCLUD
 
 2.  Go to **Advanced** **Settings** &gt; **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and Word Templates** &gt; **New** **Template**. You must have a System Administrator or System Customizer role to be able to access the Advanced Settings page.
 
-3.  Select **Word Template**, and then click **Next**.
+3.  Select **Word Template**, and then select **Next**.
 
   ![Select template type in the Create Template wizard](media/create-template-wizard-select-template-type.png "Select template type in the Create Template wizard")  
 
@@ -36,9 +39,9 @@ Follow the steps in this topic to successfully create Word templates in [!INCLUD
 
   ![Select entity in the Create Template wizard](media/create-word-template-wizard-select-entity.png "Select entity in the Create Template wizard")  
 
-5. To select the fields that you want to be included in the Word template, click **Choose Related Entities**. The **Choose Related Entity** dialog box opens.
+5. To select the fields that you want to be included in the Word template, select **Choose Related Entities**. The **Choose Related Entity** dialog box opens.
 
-  The relationships you select on this screen determine what entities and fields are available later when you define the Word template. Only select the relationships you need to add [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data to the Word template. When you’re done selecting, click **Done**.
+  The relationships you select on this screen determine what entities and fields are available later when you define the Word template. Only select the relationships you need to add [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data to the Word template. When you’re done selecting, select **Done**.
 
   Here are some example relationships for the Account entity.
 
@@ -51,10 +54,10 @@ Follow the steps in this topic to successfully create Word templates in [!INCLUD
    > [!Note]
    > To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each  relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
 
-6.  In the **Select Entity** dialog box, click **Next**.
-7.  Click **Download** to create a Word file on your local computer with the exported entity included as XML data.
-8.  To upload the template later, select **Upload the template later** check box, and then click **Next**.
-9.  To upload the template back after you customize the data, go to the list of templates, and then click **Upload Template**. 
+6.  In the **Select Entity** dialog box, select **Next**.
+7.  Select **Download** to create a Word file on your local computer with the exported entity included as XML data.
+8.  To upload the template later, select **Upload the template later** check box, and then select **Next**.
+9.  To upload the template back after you customize the data, go to the list of templates, and then select **Upload Template**. 
 
  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Upload the template back into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](#BKMK_Upload)  
 
@@ -70,7 +73,7 @@ To see and add [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-
 
  ![Enable Developer tab in Word](media/enable-developer-tab.png "Enable Developer tab in Word")  
 
-2.  Click **OK**.
+2.  Select **OK**.
 
  The **Developer** tab now appears in the Word ribbon.
 
@@ -80,7 +83,7 @@ To see and add [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-
 
 Use the XML Mapping Pane to define the Word template with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] entity fields.
 
-1.  In your Word template, click **Developer** &gt; **XML Mapping Pane**.
+1.  In your Word template, select **Developer** &gt; **XML Mapping Pane**.
 
  ![XML Mapping Pane in the Developer tab of Word](media/xml-mapping-pane-in-develoer-tab.png "XML Mapping Pane in the Developer tab of Word")  
 
@@ -90,13 +93,13 @@ Use the XML Mapping Pane to define the Word template with [!INCLUDE[pn-ms-dyn-36
 
 2.  Select the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] XML schema. It will begin with “urn:microsoft-crm/document-template/”.
 
- ![Select the schema for [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](media/select-dynamics-365-sales-schema.png "Select the schema for [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]")  
+ ![Select the schema for Dynamics 365 for Sales](media/select-dynamics-365-sales-schema.png "Select the schema for Dynamics 365 for Sales")  
 
  > [!Important]
  
  > If you have frequent accidental edits that cause Word to freeze or have performance degradation, be sure to turn off the AutoCorrect options according to the section: “A known issue and how to avoid it”.
 
-3.  Expand the entity to see all available fields, right-click the field you wish to add, and then click **Insert Content Control** &gt; **Plain Text**.
+3.  Expand the entity to see all available fields, right-click the field you wish to add, and then select **Insert Content Control** &gt; **Plain Text**.
 
  ![Insert content as Plain Text](media/insert-content-control.png "Insert content as Plain Text")  
 
@@ -120,7 +123,7 @@ Use the XML Mapping Pane to define the Word template with [!INCLUDE[pn-ms-dyn-36
 
      ![Row selected in a table](media/select-entire-row.png "Row selected in a table")  
 
-  3.  In the XML Mapping Pane, right-click the relationship containing the content control fields, and then click **Repeating**.
+  3.  In the XML Mapping Pane, right-click the relationship containing the content control fields, and then select **Repeating**.
 
      ![Set the content control fields to repeat in Word template](media/repeat-content-control-fields.png "Set the content control fields to repeat in Word template")  
 
@@ -136,21 +139,21 @@ An administrator can use the Advanced Settings page to upload the Word template 
 
 > [!Note]
 
-> Users in your organization can see the templates available to them by clicking the **Word Templates** button on the command bar in the list of records.
+> Users in your organization can see the templates available to them by selecting the **Word Templates** button on the command bar in the list of records.
 
 1.  In the Sales app, go to **Advanced** **Settings** &gt; **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]** **and Word** **Templates**.
 
-2.  Click **Upload Template**.
+2.  Select **Upload Template**.
 
 3.  Find and upload the file.
 
  ![create-template-wizard-step-upload-template](media/create-template-wizard-step-upload-template.png "")  
 
-4.  Click **Upload**.
+4.  Select **Upload**.
 
  You’ll see the summary of the file you’re uploading.
 
-5.  Click **Finish**.
+5.  Select **Finish**.
 
 
 ### See Also

@@ -14,6 +14,7 @@
 ## [Enable automatic generation of quotes and invoices](automatic-generation-quotes-invoices.md) 
 ## [Import data](import-data.md) 
 ## [Export data](export-data-template.md) 
+## [Track Contacts from Exchange](import-track-exchange-data.md)
 ## [Enable duplicate detection](enable-duplicate-detection.md) 
 ## [Manage sample data](manage-sample-data.md)
 

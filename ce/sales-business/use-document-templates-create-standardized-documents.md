@@ -2,16 +2,19 @@
 title: "Use document templates in Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Create standardized documents by using document templates in Dynamics 365 for Sales, Business edition."
 keywords: "Word template; Excel template; Document; Invoice Summary; Quote Summary"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 1da26304-dd76-47e9-8e78-680c4156d62d
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Use document templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition to create standardized documents
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -24,7 +27,7 @@ To use the Word template you’ve created, do the following:
 
 1.  Open a record with information you want to create a document. For example, open an account record.
 
-2.  On the command bar, click **Word Templates**, and then under **Word Templates** select the template you created.
+2.  On the command bar, select **Word Templates**, and then under **Word Templates** select the template you created.
 
   If the template you created is not visible, there are two possibilities:
 
@@ -38,7 +41,7 @@ To use the Word template you’ve created, do the following:
 
 There are five ready-to-use Word templates included with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-![Document template list showing all Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates](media/excel-word-templates.png "Document template list showing all Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates")  
+![Document template list showing all Word and Excel templates](media/excel-word-templates.png "Document template list showing all Word and Excel templates")  
 
 The sample Word templates were created with a specific record type (entity). You’ll only be able to apply the template to records of the same record type.
 
@@ -54,7 +57,7 @@ To apply a sample Word template
 
 1.  Open a record with information with the entity type that matches the sample template. For example, open a customer account record in Sales to apply the Account Summary template.
 
-2.  Click **More** (**…**) **&gt; Word Templates**, and then under **Word Templates** select the sample template and then open the newly-created template.
+2.  Select **More** (**…**) **&gt; Word Templates**, and then under **Word Templates** select the sample template and then open the newly-created template.
 
   > [!Note]
 
@@ -64,7 +67,7 @@ To apply a sample Word template
 
 The process for using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template looks like this.
 
-![Steps to use an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template](media/steps-to-use-excel-template.png "Steps to use an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template")  
+![Steps to use an Excel template](media/steps-to-use-excel-template.png "Steps to use an Excel template")  
 
 ### Step 1: Select an entity to analyze
 
@@ -77,9 +80,9 @@ For example, go to **Sales** &gt; **Opportunities** &gt; **My Open Opportunities
 
 ### Step 2: Export [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data using your new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
-Choose the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template you created. Click **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** &gt; &lt;template name&gt;.
+Select the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template you created. Select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** &gt; &lt;template name&gt;.
 
-![Choose the Pipeline Management [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template on opportunity record](media/choose-excel-template-option-on-opportunity.png "Choose the Pipeline Management [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template on opportunity record")  
+![Select the Pipeline Management Excel template on opportunity record](media/choose-excel-template-option-on-opportunity.png "Select the Pipeline Management Excel template on opportunity record")  
 
 ### Step 3: Analyze your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
 
@@ -97,7 +100,7 @@ Save a copy either online or to your computer. Send the file to others for their
 
 There’s a ready-to-use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template included with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
 
-![Document template list showing all Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates](media/excel-word-templates.png "Document template list showing all Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates")  
+![Document template list showing all Word and Excel templates](media/excel-word-templates.png "Document template list showing all Word and Excel templates")  
 
 The sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template is created specifically for the opportunity records. You’ll only be able to apply the template to opportunity records.
 
@@ -105,7 +108,7 @@ To apply a sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] temp
 
 1.  Go to list of opportunities.
 
-2.  On the command bar, click **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates**, and then under **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates**, select the sample template.
+2.  On the command bar, select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates**, and then under **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates**, select the sample template.
 
 3.  Download the template or open it in place in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 

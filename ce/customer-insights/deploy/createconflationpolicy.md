@@ -11,19 +11,9 @@ ms.topic: get-started-article
 ms.service: customer-insights 
 ms.assetid: 2284a643-21c7-4c4d-bd0c-21ce7739721e
 ---
-Predictive matching
+Predictive Matching
 ==========================
 [!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-##What is predictive matching?
-
-Predictive matching is the process of combining data from multiple sources. Data coming from various sources often use different fields to uniquely identify records, and contain different values. 
-
-For example, consider the following customer records.
-
-![](../media/conflationexample.png "Predictive matching example") 
-
-In one company's records, customers are identified by **First Name** and **Last Name**. In another company, **Name** is used. The name given is **Mike** at one company and **Michael** at another. Yet, these two records represent the same customer. Predictive matching in [!INCLUDE[pn-customer-insights](../../includes/pn-customer-insights-full.md)] uses context-based matching of entities from diverse sources to merge the data. 
 
 ##Create a Predictive Match policy
 
@@ -101,7 +91,8 @@ Click the **Show Predictive Matches** in her Info card to display the predictive
 
 In this sample, phone numbers appear to match as well as last names despite the differences. We therefore have a matching score of 99%.
 
-
+### See also
+[Predictive Matching](newfeatures.md#predictive-matching)
 
 
 

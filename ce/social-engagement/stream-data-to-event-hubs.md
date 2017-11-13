@@ -1,15 +1,19 @@
 ---
 title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Social Engagement to Event Hubs."
-ms.date: 09/12/2017
+keywords: "azure event hubs, event hub, stream data, connection string "
+ms.date: 10/26/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 56373722-6a46-4989-9d95-d2f572ba4936
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Stream data from Social Engagement to Microsoft Azure Event Hubs
 Start building out your custom metrics or analysis based on the posts found by [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Using [Microsoft Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/)—a highly scalable publish-subscribe event ingestor that can intake millions of events per second—you can transform and store social data for further processing. Specify an automation rule in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and stream all posts that match a data set as events to a connected event hub. Once you have the data ingested into the event hub, you can access the data from any application that you connected to your event hub.  
   
@@ -40,7 +44,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 4.  In the **Connect to Azure Event Hubs** pane, enter an **Event hub name** and the **Connection string** for the event hub you want to connect.  
   
-     For more information about where to find the connection string, see [Microsoft Azure: Get started with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send).  
+     For more information about where to find the connection string, see [Microsoft Azure: Create an Event Hubs namespace and an event hub using the Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).  
   
 5.  Click **Save** ![Save button](media/save-icon.png "Save button").  
   

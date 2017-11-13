@@ -2,16 +2,19 @@
 title: "Signing in to Dynamics 365 for Sales, Business edition | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 for Sales, Business edition and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 99a199cf-cc42-4bdb-a73c-825d07bfb82a
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
+
 # Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -20,7 +23,7 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
 
 ## Go to the Sales app
 
-1.  Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], click the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then click the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
+1.  Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
 
   ![[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane](media/app-launcher-pane.png "[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane")  
 
@@ -45,9 +48,9 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 
 With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1.  On the nav bar, click the plus sign ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then click the item you want.  
+1.  On the nav bar, select the plus sign ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
 
-2.  Fill in the fields, and then click **Save**.
+2.  Fill in the fields, and then select **Save**.
 
 ## Business processes in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
 
