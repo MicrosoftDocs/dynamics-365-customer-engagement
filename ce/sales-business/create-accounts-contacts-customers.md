@@ -1,6 +1,6 @@
 ---
-title: "Manage accounts and contacts in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Store information about your customers by using accounts and contacts in Dynamics 365 for Sales, Business edition"
+title: "Manage accounts and contacts in Dynamics 365 for Sales | Microsoft Docs"
+description: "Store information about your customers by using accounts and contacts in Dynamics 365 for Sales."
 keywords: "Account; Contact; Customers; Sales"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -19,13 +19,13 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], accounts and contacts records types are used to store information about your customers.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], accounts and contacts records types are used to store information about your customers.
 
 Accounts are organizations you do business with, and contacts are individual people with whom you have a relationship. A contact may or may not be associated to an account.
 
 Accounts and contacts share a one-to-many relationship, which means that a single account can have multiple contacts.
 
-You can add accounts or contacts manually or use the Import wizard in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to get in all your customer data in to the system.
+You can add accounts or contacts manually or use the Import wizard in your Sales app to get in all your customer data in to the system.
 
 ## Create or edit an account
 
@@ -95,4 +95,4 @@ To create or edit a contact
 ### See Also
 
 [Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)

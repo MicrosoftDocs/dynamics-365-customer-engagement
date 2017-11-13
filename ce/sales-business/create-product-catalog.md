@@ -1,6 +1,6 @@
 ---
-title: "Create a product catalog in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Understand how to create a product catalog in Dynamics 365 for Sales, Business edition to make it easier for your sales rep to increase sales. "
+title: "Create a product catalog in Dynamics 365 for Sales | Microsoft Docs"
+description: "Understand how to create a product catalog in Dynamics 365 for Sales to make it easier for your sales rep to increase sales. "
 keywords: "Product; price; catalog"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -15,15 +15,15 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create a product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Create a product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Products are the backbone of your business. The product catalog in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
+Products are the backbone of your business. The product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
 
 ## Add products
 
-1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to add products in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to add products in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 2.  Go to **Settings** &gt; **Product Catalog**.
 
@@ -51,7 +51,7 @@ Products are the backbone of your business. The product catalog in [!INCLUDE[pn-
 
 There may be times when you must edit a product to capture more accurate details. For example, to align to a change in strategy or to change other details of the product for some reason, you can edit a product.
 
-1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to add products in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to add products in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 2.  Go to **Settings** &gt; **Product Catalog**.
 
@@ -69,7 +69,7 @@ There may be times when you must edit a product to capture more accurate details
 
 ## Delete products
 
-1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to delete products in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to delete products in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 2.  Go to **Settings** &gt; **Product Catalog**.
 
@@ -81,7 +81,7 @@ There may be times when you must edit a product to capture more accurate details
 
 When you're creating a new product, save time by cloning an existing one. This creates a copy of the original record with all the details except for the name and ID.
 
-1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to clone products in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the Sales Manager – Business or a System Administrator role to be able to clone products in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 2.  Go to **Settings** &gt; **Product Catalog**.
 
@@ -89,7 +89,7 @@ When you're creating a new product, save time by cloning an existing one. This c
 
 ## Import products
 
-You may also use the import templates to bring in bulk data of products in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data into Dynamics 365 for Sales](import-data.md)  
+You may also use the import templates to bring in bulk data of products in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data into Dynamics 365 for Sales](import-data.md)  
 
 
 ### See Also

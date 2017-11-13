@@ -1,6 +1,6 @@
 ---
-title: "Create and manage activities in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Use activities to keep track of all your customer communications in Dynamics 365 for Sales, Business edition."
+title: "Create and manage activities in Dynamics 365 for Sales | Microsoft Docs"
+description: "Use activities to keep track of all your customer communications in Dynamics 365 for Sales."
 keywords: "Task; Email; Phone; Appointment; sales"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -19,11 +19,11 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Keep track of all your customer communications with activities in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
+Keep track of all your customer communications with activities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
 
 The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
-To get the most out of [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], it’s important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer’s history is complete.
+To get the most out of your Sales app, it’s important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer’s history is complete.
 
 ## Find your activities
 
@@ -85,5 +85,5 @@ After you call someone, complete a task, send an email, or go to an appointment,
   ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
 
 ### See Also  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)  
 [Manage your customers](create-accounts-contacts-customers.md)

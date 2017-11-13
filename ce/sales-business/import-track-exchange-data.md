@@ -1,6 +1,6 @@
 ---
-title: "Import data from Exchange, Business edition | Microsoft Docs"
-description: "Get your contacts from Microsoft Exchange into Dynamics 365 for Sales, Business edition."
+title: "Import data from Exchange | Microsoft Docs"
+description: "Get your contacts from Microsoft Exchange into Dynamics 365 for Sales."
 keywords: "Import; Track; Exchange; Contacts"
 ms.date: 08/16/2017
 ms.service: dynamics-365
@@ -15,9 +15,9 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Import data from Exchange in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Import data from Exchange in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
-If you’ve been keeping track of all your contacts in Microsoft Exchange, you can quickly get all your contacts in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] so you have all your data in one place.
+If you’ve been keeping track of all your contacts in Microsoft Exchange, you can quickly get all your contacts in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] so you have all your data in one place.
 
 ## Prerequisites
 
@@ -43,12 +43,12 @@ from Excel** > **Import from Exchange**.
 
 2.  Select **Track**.
  
- All the contacts from your Exchange will start importing to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. Any changes that you make to the contact in your Exchange mailbox will be automatically updated in the contact record in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+ All the contacts from your Exchange will start importing to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. Any changes that you make to the contact in your Exchange mailbox will be automatically updated in the contact record in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 > [!Important]
 
 > You won’t be able to remove or untrack a contact from Dynamics 365 for Sales. Use the Dynamics 365 App for Outlook for the same.
 
 ### See Also
-[Import contacts, accounts, or leads into Dynamics 365 for Sales, Business edition](import-data.md)  
-[User's guide for Dynamics 365 for Sales, Business edition](user-s-guide-dynamics-365-sales-business.md)
+[Import contacts, accounts, or leads into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](import-data.md)  
+[User's guide for Dynamics 365 for Sales](user-s-guide-dynamics-365-sales.md)

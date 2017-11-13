@@ -1,6 +1,6 @@
 ---
-title: "Set up click-to-call in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Set up click-to-call to allow your users easily check on the availability of a contact and to make a call with one click from within the Dynamics 365 for Sales, Business edition."
+title: "Set up click-to-call in Dynamics 365 for Sales | Microsoft Docs"
+description: "Set up click-to-call to allow your users easily check on the availability of a contact and to make a call with one click from within the Dynamics 365 for Sales."
 keywords: "click-to-call; Skype; Skype for Business"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -19,9 +19,9 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Integration with Skype and Skype for Business helps you to easily check on the availability of a contact and to make a call with one click from within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+Integration with Skype and Skype for Business helps you to easily check on the availability of a contact and to make a call with one click from within [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
-Skype for Business integration is built and packaged as a solution within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. To integrate with Skype for Business, you must have a Skype for Business license, and must install the solution.
+Skype for Business integration is built and packaged as a solution within [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. To integrate with Skype for Business, you must have a Skype for Business license, and must install the solution.
 
 To use Skype, all users in the organization must install Skype and have a Skype account.
 
@@ -56,11 +56,11 @@ You can have only one channel configured at any given time.
 
 ## Enable Presence
 
-If your organization uses Skype for Business, it can display the availability status of any [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] users who also have Skype for Business. A user can see the presence status of other users. The presence of users is shown in the header of the user entity form, owner lookup in all applicable entities, list of users, and sales team subgrid.
+If your organization uses Skype for Business, it can display the availability status of any [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] users who also have Skype for Business. A user can see the presence status of other users. The presence of users is shown in the header of the user entity form, owner lookup in all applicable entities, list of users, and sales team subgrid.
 
 By default, presence is automatically enabled for the users. To disable the presence, clear the **Enable IM Presence** check box.
 
 ### See Also
 [Set up the Sales app for your team](set-up-sales-app-team.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)  
 [Make calls or send instant messages in Dynamics 365 for Sales](Make-calls-send-instant-messages.md)

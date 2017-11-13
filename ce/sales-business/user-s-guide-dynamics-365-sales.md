@@ -1,7 +1,7 @@
 ---
-title: "User's guide for Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Learn how to ramp up quickly on Dynamics 365 for Sales, Business Edition."
-keywords: ""
+title: "User's guide for Dynamics 365 for Sales | Microsoft Docs"
+description: "Learn how to ramp up quickly on Dynamics 365 for Sales."
+keywords: "ramp up, user guide"
 ms.date: 08/09/2017
 ms.service: dynamics-365
 ms.topic: article
@@ -15,14 +15,14 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# User's guide for Dynamics 365 for Sales, Business edition
+# User's guide for [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition simplifies the lead-to-cash process so small and medium-sized businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management.   
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] simplifies the lead-to-cash process so small and medium-sized businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management.   
   
 ## Get started  
- [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md) 
+ [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md) 
 
  [Sign in and get started](sign-in-get-started.md)  
  
@@ -34,7 +34,7 @@ topic-status: Drafting
  
  
 ## Use the productivity tools
- [Gain insights with dashboards](gain-insights-with-dashboards.md)
+ [Gain insights with dashboards](gain-insights-dashboards.md)
  
  [Manage your SharePoint documents](create-manage-documents.md)  
  

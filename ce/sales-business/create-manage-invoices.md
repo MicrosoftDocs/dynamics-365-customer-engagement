@@ -1,6 +1,6 @@
 ---
-title: "Create and manage invoices in Dynamics 365 for Sales, Business Edition | Microsoft Docs"
-description: "Use invoices in Dynamics 365 for Sales, Business edition to bill your customers for the upcoming sale. "
+title: "Create and manage invoices in Dynamics 365 for Sales | Microsoft Docs"
+description: "Use invoices in Dynamics 365 for Sales to bill your customers for the upcoming sale. "
 keywords: "Invoice; quote; create invoice; email invoice"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create and manage invoices in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Create and manage invoices in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once your customer accepts the quote, you can create an invoice in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to bill them for the upcoming sale.
+Once your customer accepts the quote, you can create an invoice in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to bill them for the upcoming sale.
 
 You may also create an invoice that doesn’t generate from a quote.
 
@@ -87,5 +87,5 @@ To directly send an email to customer with an invoice attached, open the invoice
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales, Business edition](develop-sales-lead-to-cash.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)

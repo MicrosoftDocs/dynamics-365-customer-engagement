@@ -1,4 +1,4 @@
-# [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+# [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)
 
 # [Set up the Sales app for your team](set-up-sales-app-team.md)
 ## [Add salespeople](add-edit-users.md)
@@ -7,7 +7,7 @@
 ## [Define fiscal year settings](define-fiscal-year-settings.md)
 ## [Manage Excel templates](create-manage-excel-templates.md)
 ## [Manage Word templates](create-manage-word-templates.md)
-## [Configure email](integrate-with-exchange-configure-email.md) 
+## [Configure email](integrate-exchange-configure-email.md) 
 ## [Configure document management](configure-document-management.md) 
 ## [Set up click-to-call](configure-click-to-call.md)
 ## [Create a product catalog](create-product-catalog.md)
@@ -18,10 +18,10 @@
 ## [Enable duplicate detection](enable-duplicate-detection.md) 
 ## [Manage sample data](manage-sample-data.md)
 
-# [Making sales with Dynamics 365 for Sales, Business edition](user-s-guide-dynamics-365-sales-business.md)
+# [Making sales with Dynamics 365 for Sales](user-s-guide-dynamics-365-sales.md)
 ## [Sign in and get started](sign-in-get-started.md)
 ## [Assign a record to a user or team](assign-record-user-team.md)
-## [Gain insights with dashboards](gain-insights-with-dashboards.md)
+## [Gain insights with dashboards](gain-insights-dashboards.md)
 ## [Manage your SharePoint documents](create-manage-documents.md)
 ## [Make calls or send instant messages](make-calls-send-instant-messages.md)
 ## [Set personal options](Set-personal-options.md)

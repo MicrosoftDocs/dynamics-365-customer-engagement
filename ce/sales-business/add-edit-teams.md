@@ -1,6 +1,6 @@
 ---
-title: "Manage teams in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Use teams in Dynamics 365 for Sales, Business edition to group users who share and collaborate on business records.  "
+title: "Manage teams in Dynamics 365 for Sales | Microsoft Docs"
+description: "Use teams in Dynamics 365 for Sales to group users who share and collaborate on business records.  "
 keywords: "Team; Manage Members; Role"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Add or manage teams in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Add or manage teams in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 1.  Go to **Advanced Settings** &gt; **Team Management**.
 

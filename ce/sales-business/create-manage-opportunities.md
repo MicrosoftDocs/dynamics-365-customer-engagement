@@ -1,6 +1,6 @@
 ---
-title: "Manage opportunities in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales, Business edition"
+title: "Manage opportunities in Dynamics 365 for Sales | Microsoft Docs"
+description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales."
 keywords: "Deal; Opportunity; sales transaction"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Manage opportunities in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Manage opportunities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You must link a new opportunity to an existing account or contact.  
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You must link a new opportunity to an existing account or contact.  
 
 ## Create and convert opportunities
 
@@ -63,7 +63,7 @@ If you’re following the sales process from start to finish, you qualify a lead
 
  -   Est. Close Date. An estimated date by which the opportunity is expected to close.
 
- -   Est. Revenue. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
+ -   Est. Revenue. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
 4.  In the **Stakeholders** section, select the “+” sign to add a stakeholder (key contact at the account). A stakeholder is a person at the account who will be involved in decision-making.
 
@@ -149,6 +149,6 @@ Whether you win a sale or close an opportunity, you probably want to close it. 
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales, Business edition](develop-sales-lead-to-cash.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
+[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
+[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)  
 [Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales](create-manage-activities.md)

@@ -1,6 +1,6 @@
 ---
-title: "Meet the Sales app for small to medium-sized business | Microsoft Docs"
-description: "Get an overview of Dynamics 365 for Sales, Business edition and its capabilities"
+title: "Meet the new Sales app for small to medium-sized business | Microsoft Docs"
+description: "Get an overview of Dynamics 365 for Sales and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -15,18 +15,18 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Meet the Sales app for small to medium-sized business
+# Meet the new Sales app for small to medium-sized business
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-So, now you’re a user of the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app designed especially for businesses like yours. 
+So, now you’re a user of the [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] app designed especially for businesses like yours. 
 
 The app comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
 and importing data.
 
 Plus, sellers will find a streamlined lead to cash process, easier account, contact, and opportunity management, and dashboards that make it faster to visualize useful information at a glance.
 
-![Image for Dynamics 365 for Sales](media/sales-app-business-edition-image.png "Image for Dynamics 365 for Sales")
+![Image for Dynamics 365 for Sales](media/sales-app-image.png "Image for Dynamics 365 for Sales")
 
 ## Get productive quickly
 
@@ -73,7 +73,7 @@ You’ll also find quick access to any favorite customers you’ve pinned and yo
 Here are some highlights of Dynamics 365 for Sales, Business edition
 -   **Visual insights.** The out-of-the-box dashboards and charts have almost everything that you would need to get insight into your business. 
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights with dashboards in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](gain-insights-with-dashboards.md)
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights with dashboards in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](gain-insights-dashboards.md)
 
  ![Sales dashboards in the Sales app](media/sales-overview-dashboard.png "Sales dashboards in the Sales app")
 
@@ -96,9 +96,9 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
 -  **Click-to-call.** Anytime while working on an opportunity, just select the customer’s phone number to launch a phone call. When you’re done with the call, a phone call form automatically opens so you can capture details about your conversation in the app. And all of this, in context of the opportunity you’re working on. 
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Make calls or send instant messages in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](make-calls-send-instant-messages.md)
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Make calls or send instant messages in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](make-calls-send-instant-messages.md)
 
- ![Calling a phone number using Skypefor Business](media/skype-for-business-app-for-calling.png "Calling a phone number using Skypefor Business")
+ ![Calling a phone number using Skypefor Business](media/skype-for-business-app-for-calling.png "Calling a phone number using Skype for Business")
 
 -  **Store and view documents in context of records.** Do you have presentations or documents for an opportunity all over the place? Store them all in one place, so anyone who’s working on the opportunity can view them! 
 
@@ -108,13 +108,13 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
 
 -  **Simplified opportunity to invoice process.** It is easy to move a customer through the Sales funnel. Just generate a quote right from the opportunity you’re working on, and activate it. Use the same quote to quickly generate an invoice and mark the deal as won. You can also email the quotes and invoices to your customer in just one click. 
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Develop sales from lead to cash in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-documents.md)
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Develop sales from lead to cash in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-documents.md)
 
  ![Image showing the opportunity-to-invoice process](media/opportunity-to-invoice-process.png "Image showing the opportunity-to-invoice process")
 
 -  **Word templates.** The out-of-the-box templates ensure that the documents that you’re sending out to your customers align with you company’s brand. 
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use document templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition to create standardized documents](use-document-templates-create-standardized-documents.md)
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create standardized documents with document templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](use-document-templates-create-standardized-documents.md)
 
  ![Out-of-the-box templates in the Sales app](media/excel-word-templates.png "Out-of-the-box templates in the Sales app")
 
@@ -122,5 +122,5 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
  
 ### See Also
-[Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition](sign-in-get-started.md)  
+[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](sign-in-get-started.md)  
 [Set up the Sales app for your team](set-up-sales-app-team.md)
