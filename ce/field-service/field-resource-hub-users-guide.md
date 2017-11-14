@@ -1,5 +1,5 @@
 ---
-title: "Field Resource Hub User’s Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Field Resource Hub User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -16,26 +16,22 @@ caps.latest.revision: 1
 ms.author: "mkaur"
 manager: "amyla"
 ---
-# Field Resource Hub User's Guide (Field Service)
+# User Guide (Field Resource Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Field Resource Hub app lets field techs do basic tasks in the field like, view upcoming appointments, view and edit bookings, complete service tasks including adding products, notes and signatures. Field techs can also submit time-off requests so a dispatcher knows when the tech isn’t available.  
+With the Field Resource Hub app field techs can do basic tasks in the field like viewing upcoming appointments, viewing and editing bookings, completing service tasks including adding products, notes, and signatures. Field techs can also submit time-off requests so a dispatcher knows when the tech isn’t available.  
 
 **Available anywhere, on any device**
 
-There are two flavors of Field Service app. If you’re using a desktop browser, you’ll use the Dynamics 365 for Field Service app. If you’re a field tech using a smartphone or tablet, you’ll use the Field Resource Hub app which is a subset of the Field Service app. The Field Resources Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]: 
 
-For information Dynamics 365 for Field Service app [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Dynamics 365 for Field Servic user's guide](../field-service/user-guide.md).
+- If you’re using a desktop browser, you’ll use the Field Service app. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Field Service)](../field-service/user-guide.md).
 
-> [!Note] 
-> If you're looking for the full-featured Field Service mobile app, it’s a different mobile app called Field Service Mobile. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Field Service Mobile App user’s guide](../field-service/field-service-mobile-app-user-guide.md).
+- If you’re a field tech using a smartphone or tablet, you’ll use the Field Resource Hub app which is a subset of the Field Service app. The Field Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
-## Install the mobile app
-
-Before you can start using the Field Resource Hub app, you need to install the Dynamics 365 mobile app on your device. 
-
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+> [!NOTE] 
+> If you're looking for the full-featured Field Service mobile app, it’s a different mobile app called Field Service Mobile. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Field Service Mobile App User Guide](../field-service/field-service-mobile-app-user-guide.md).
 
 ## Basic Navigation
 
