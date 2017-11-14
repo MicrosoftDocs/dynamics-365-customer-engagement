@@ -168,5 +168,13 @@ You can change the way a public or system view is displayed by adding, configuri
 When you edit a public or system  view, you must save and publish your changes before they will be visible in the application.
 
 
+## Community tools
+**View Lyout Replicator** and **View Designer** are tools that XrmToolbox community developed for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Developer tools](https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-tools).
+
+> [!NOTE]
+> The community tools are not a product of Microsoft Dynamics and does not extend support to the community tools. If you have questions pertaining to the tool, please contact the publisher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [XrmToolBox](https://www.xrmtoolbox.com/). 
+
 ### See also
 [Create or edit views](create-edit-views.md)
