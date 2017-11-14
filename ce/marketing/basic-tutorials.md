@@ -18,11 +18,12 @@ topic-status: Drafting
 
 # Basic tutorials for core scenarios
 
-This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you have never used this product before, then this is probably the best place to start. When you have completed the exercise here, you will be able to:
+This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you've never used this product before, this is the best place to start. When you have completed the exercises here, you'll be able to:
 
-- Create marketing segments that collect contacts from your database into logical groups that match your marketing strategies.
+[//]: # (In the first bullet, an alternative would be simply "...marketing segments that organize contacts from your database into logical...")
+- Create marketing segments that collect contacts from your database and organize them into logical groups that match your marketing strategies.
 
-- Create a marketing email that meets all legal and deliverability requirements and is prepared to deliver personalized messages to contacts.
+- Create a marketing email that meets all legal and deliverability requirements, and can deliver personalized messages to contacts.
 
 - Create a simple customer journey that sends a marketing email to all members of a segment and records interactions such as message opens and link clicks.
 
