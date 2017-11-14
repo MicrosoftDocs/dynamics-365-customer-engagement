@@ -2,16 +2,19 @@
 title: "Administer users and application settings for Dynamics 365 for Marketing | Microsoft Docs"
 description: "Explains how to access admin settings in Dynamics 365 for Marketing"
 keywords: "administration"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: Dynamics 365 (online), Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online), Dynamics 365 Version 9.x"
 ms.assetid: c49c627d-2094-4495-b39d-a4dc9f3f5702
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # System and user administration
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -25,7 +28,6 @@ Administrators use advanced settings to fine-tune application behavior, set defa
 1. Sign in as a user with administrator privileges.
 1. Expand the side navigator bar and select the ellipsis (**…**) to open the work area menu.
 
-
     ![Open the work area menu](media/open-settings-menu-ill.png "Open the work area menu")
 
 1. Select **Settings** from the work area menu.
@@ -34,7 +36,6 @@ Administrators use advanced settings to fine-tune application behavior, set defa
     ![Open the advanced settings](media/nav-advanced-settings.png "Open advanced settings")
 
 You now see **Advanced Settings** in the main area of the window.
-
 
 ## Work with advanced settings
 
