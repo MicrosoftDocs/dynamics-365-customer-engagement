@@ -1,6 +1,5 @@
 # [Get started](get-started-section.md)
 ## [Overview](marketing-overview.md)
-## [Purchase and first-time setup](purchase-setup.md)
 ## [Find your way around](navigation.md)
 ## [Organize your work](organize-daily-work.md)
 ## [Manage customer information](manage-customer-information.md)
@@ -54,6 +53,7 @@
 ## [Follow up after the event](followup-after-event.md)
 
 # [Administration](system-user-administration.md)
+## [Purchase and first-time setup](purchase-setup.md)
 ## [Organization settings](organization-settings.md)
 ### [Manage users](manage-users.md)
 ### [Manage teams](manage-teams.md)
@@ -62,6 +62,7 @@
 ### [Manage Word templates](manage-word-templates.md)
 ### [Manage themes](manage-themes.md)
 ## [Business Management settings](business-management-settings.md)
+## [Customize](customize.md)
 ## [Marketing settings](marketing-settings.md)
 ## [Events settings](events-settings.md)
 ## [Additional settings](additional-settings.md)
