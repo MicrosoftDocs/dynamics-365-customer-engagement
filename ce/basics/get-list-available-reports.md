@@ -46,10 +46,10 @@ manager: "brycho"
 ||Accounts receivable|[Invoice Status report](../basics/invoice-quote-order-reports.md#BKMK_InvoiceStatus)|  
 ||Line items of a quote|[Quotes report](../basics/invoice-quote-order-reports.md#BKMK_Quotes)|  
 ||Line items of an order|[Orders report](../basics/invoice-quote-order-reports.md#BKMK_Orders)|  
-|[Service insights](../basics/service-insights-reports.md)|Types of opened and resolved cases|[Case Summary Table report](../basics/service-insights-reports.md#BKMK_CaseSummary)|
+|[Service insights](../basics/service-insights-reports.md|Types of opened and resolved cases|[Case Summary Table report](../basics/service-insights-reports.md#BKMK_CaseSummary)|
 ||Cases with no recent activity|[Neglected Cases report](../basics/service-insights-reports.md#BKMK_NeglectedCases)|  
 ||Amount and length of service activities|[Service Activity Volume report](../basics/service-insights-reports.md#BKMK_ServiceActivity)|  
-||Activity patterns|[Activities report](../basics/service-insights-reports.md#BKMK_Activities)|  
+||Activity patterns|[Activities report](../basics/service-insights-reports.md#BKMK_Activities|  
 ||Most searched knowledge base articles|[Top knowledge base articles report](../basics/service-insights-reports.md#BKMK_TopKB)|  
 |[Administrator reports](../basics/user-summary-report.md)|List of users|[User Summary report](../basics/user-summary-report.md#BKMK_UserSummary)|  
   

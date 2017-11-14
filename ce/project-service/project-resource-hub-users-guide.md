@@ -16,22 +16,18 @@ caps.latest.revision: 1
 ms.author: "mkaur"
 manager: "amyla"
 ---
-# User Guide (Project Resource Hub)
+# Project Resource Hub User's Guide (Project Service Automation)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-With the Project Resource Hub app, you can enter time and expenses for the projects you’re working on the go. Stay on top of your time and expense entry to make sure:
+Project Resource hub lets you enter time and expenses for the projects you’re working on the go. Stay on top of your time and expense entry to make sure:
 
 - Your clients are billed properly
 - You get credit for the work you’ve done
 
 **Available anywhere, on any device**
 
-There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]: 
-
-- If you're using a desktop, you'll use the Project Service Automation app. 
-
-- If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
+There are two flavors of the Project Service app. If you're using a desktop, you'll use the Dynamics 365 for Project Service Automation app. If you’re a in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
 
 ## Install the mobile app

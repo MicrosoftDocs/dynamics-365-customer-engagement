@@ -1,7 +1,7 @@
 ---
 title: "Project Service Overview (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/13/2017
+ms.date: 09/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -40,15 +40,7 @@ Included in this app are the following features:
 | **Resource management** | Resource information includes the skills and proficiencies of your workforce. You can view and filter resources based on skills and availability, so you can assign the right people to the right projects. You can also track resource utilization and forecasting metrics. |
 | **Time, expenses, and collaboration** | Team members can use the web or mobile apps to record time and expenses for multiple projects. Managers can easily approve new entries while understanding the financial implications of the newly-approved items. All team members can collaborate with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] workspace created for their project. |
 | **Project billing** | Project invoices reflect the terms of the contract and the approved work and expenses. The financial impact of project work, including costs, unbilled revenue, and invoices, are recorded for use in analytics and integration into financial systems. |  
-
-## Available anywhere, on any device
-
-There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]: 
-
-- If you're using a desktop, you'll use the Project Service Automation app.
-
-- If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Project Resource Hub)](project-resource-hub-users-guide.md).
-
+  
 ## Get started  
  [Find your way around Dynamics 365 Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)  
   
