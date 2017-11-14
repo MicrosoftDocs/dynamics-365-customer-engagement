@@ -25,7 +25,7 @@ Stores data regarding organization insights notification
 |Retrieve|GET [*org URI*]/api/data/v9.0/orginsightsnotifications(*orginsightsnotificationid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/orginsightsnotifications<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Organization Insights Notification<br />
 **DisplayCollectionName**: Organization Insights Notification<br />

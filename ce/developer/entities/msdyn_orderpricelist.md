@@ -37,7 +37,7 @@ Sales price list used on the contract to set default sales prices on all project
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_orderpricelists(*msdyn_orderpricelistid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_orderpricelists(*msdyn_orderpricelistid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Project Contract Project Price List<br />
 **DisplayCollectionName**: Project Contract Project Price Lists<br />

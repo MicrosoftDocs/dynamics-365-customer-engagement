@@ -27,7 +27,7 @@ In a data map, maps list values from the source file to Microsoft Dynamics 365.
 |Retrieve|GET [*org URI*]/api/data/v9.0/picklistmappings(*picklistmappingid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/picklistmappings<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: List Value Mapping<br />
 **DisplayCollectionName**: List Value Mappings<br />

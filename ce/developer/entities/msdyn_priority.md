@@ -37,7 +37,7 @@ Priorities to be used on bookings. In addition, a color could be specified for e
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_priorities(*msdyn_priorityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_priorities(*msdyn_priorityid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Priority<br />
 **DisplayCollectionName**: Priorities<br />

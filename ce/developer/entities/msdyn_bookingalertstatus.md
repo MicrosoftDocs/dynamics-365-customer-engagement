@@ -37,7 +37,7 @@ The status of a booking alert.
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingalertstatuses(*msdyn_bookingalertstatusid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingalertstatuses(*msdyn_bookingalertstatusid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Booking Alert Status<br />
 **DisplayCollectionName**: Booking Alert Statuses<br />

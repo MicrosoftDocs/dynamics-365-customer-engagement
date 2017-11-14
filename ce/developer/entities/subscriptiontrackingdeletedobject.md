@@ -24,7 +24,7 @@ For internal use only.
 |-|-|-|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/subscriptiontrackingdeletedobjects<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Tracking information for deleted entities<br />
 **DisplayCollectionName**: Tracking information for deleted entities<br />

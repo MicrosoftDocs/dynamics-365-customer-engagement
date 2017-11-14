@@ -35,7 +35,7 @@ manager: "jdaly"
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Booking Setup Metadata<br />
 **DisplayCollectionName**: Booking Setup Metadata Records<br />

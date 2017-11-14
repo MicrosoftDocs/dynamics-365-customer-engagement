@@ -24,7 +24,7 @@ Office Graph Documents Description
 |-|-|-|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/officegraphdocuments<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Office Graph Document<br />
 **DisplayCollectionName**: Office Graph Documents<br />

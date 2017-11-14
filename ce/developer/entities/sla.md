@@ -35,7 +35,7 @@ Contains information about the tracked service-level KPIs for cases that belong 
 |SetState|PATCH [*org URI*]/api/data/v9.0/slas(*slaid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/slas(*slaid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: SLA<br />
 **DisplayCollectionName**: SLAs<br />
