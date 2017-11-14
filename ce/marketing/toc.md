@@ -40,8 +40,6 @@
 ### [Register contacts' engagement](register-engagement.md)
 ### [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
 
-## [Export data](export-data-Word-Excel.md)
-
 ## [Event planning and management](event-management.md)
 ### [Set up an event](set-up-event.md)
 ### [Event management dashboard](event-management-dashboard.md)
@@ -51,6 +49,8 @@
 ### [Set up the event portal](set-up-event-portal.md)
 ### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 ### [Follow up after the event](followup-after-event.md)
+
+## [Export data](export-data-Word-Excel.md)
 
 ## [Explore results with Power BI](Power-BI-analytics.md)
 
