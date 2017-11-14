@@ -268,4 +268,4 @@ You must wait for an import job to complete before you can repair failures.
 
 ### See Also
 [Export data or template](Export-data-template.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

@@ -1,6 +1,6 @@
-# [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)
+# [Overview](overview-dynamics-365-for-sales.md)
 
-# [Set up the Sales app for your team](set-up-sales-app-team.md)
+# [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
 ## [Add salespeople](add-edit-users.md)
 ## [Group salespeople into teams](add-edit-teams.md) 
 ## [Change color scheme or logo for your organization](change-color-scheme-logo.md)
@@ -18,7 +18,7 @@
 ## [Enable duplicate detection](enable-duplicate-detection.md) 
 ## [Manage sample data](manage-sample-data.md)
 
-# [Making sales with Dynamics 365 for Sales](user-s-guide-dynamics-365-sales.md)
+# [User Guide](user-s-guide-dynamics-365-sales.md)
 ## [Sign in and get started](sign-in-get-started.md)
 ## [Assign a record to a user or team](assign-record-user-team.md)
 ## [Gain insights with dashboards](gain-insights-dashboards.md)

@@ -34,4 +34,4 @@ Personalize your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-busi
 
 
 ### See Also
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

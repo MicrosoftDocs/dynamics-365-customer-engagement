@@ -15,7 +15,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Use document templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Business edition to create standardized documents
+# Use document templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to create standardized documents
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -119,4 +119,4 @@ To apply a sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] temp
 
 ### See Also
 [Manage Excel templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-excel-templates.md)  
-[Manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-word-templates.md) [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)  
+[Manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-word-templates.md) [Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  

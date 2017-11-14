@@ -43,5 +43,5 @@ In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.
 
 
 ### See Also
-[Set up the Sales app for your team](set-up-sales-app-team.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

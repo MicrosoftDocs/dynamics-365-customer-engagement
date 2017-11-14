@@ -72,5 +72,5 @@ All the duplicate detection rules will be unpublished in the backend.
 
 ### See Also
 [Import data into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](import-data.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
 

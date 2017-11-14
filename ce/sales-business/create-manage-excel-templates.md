@@ -173,4 +173,4 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
 ### See Also
 [Use document templates in Dynamics 365 for Sales](Use-document-templates-create-standardized-documents.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

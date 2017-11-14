@@ -37,4 +37,4 @@ When you export data or template from **Advanced Settings**, you must select the
 
 ### See Also
 [Import data into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](import-data.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

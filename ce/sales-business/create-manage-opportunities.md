@@ -150,5 +150,5 @@ Whether you win a sale or close an opportunity, you probably want to close it. 
 
 ### See Also
 [Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
 [Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales](create-manage-activities.md)

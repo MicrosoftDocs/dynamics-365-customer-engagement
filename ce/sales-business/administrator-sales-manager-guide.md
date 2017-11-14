@@ -1,5 +1,5 @@
 ---
-title: "Set up Dynamics 365 for Sales | Microsoft Docs"
+title: "Administrator and Sales Manager Guide | Microsoft Docs"
 description: "Get started with the basics of setting up a fully functional app for your salespeople.  "
 keywords: "setup; configure; administration; advanced settings, settings, quick setup"
 ms.date: 07/24/2017
@@ -15,7 +15,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Set up the Sales app for your team 
+# Administrator and Sales Manager Guide 
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -23,7 +23,7 @@ Are you the person responsible for getting your sales team onboard?
 
 Here’s some good news.
 
-The Dynamics 365 for Sales, Business edition app comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
+The [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] app comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
 
 ## Welcome page
 
@@ -54,7 +54,7 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 - **Onboard your users**. When the users have their account set up, jumpstart training for them with these resources:
 
-    -   User’s guide for Dynamics 365 for Sales, Business edition
+    -   User’s guide for [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
     -   Learning Path guided tasks in the app
 
@@ -84,5 +84,5 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 
 ### See Also
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
 [Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](sign-in-get-started.md)  

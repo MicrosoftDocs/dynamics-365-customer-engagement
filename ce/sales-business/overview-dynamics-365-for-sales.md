@@ -1,5 +1,5 @@
 ---
-title: "Meet the new Sales app for small to medium-sized business | Microsoft Docs"
+title: "Dynamics 365 for Sales overview | Microsoft Docs"
 description: "Get an overview of Dynamics 365 for Sales and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
 ms.date: 07/15/2017
@@ -15,7 +15,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Meet the new Sales app for small to medium-sized business
+# Dynamics 365 Sales Overview
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -70,7 +70,7 @@ You’ll also find quick access to any favorite customers you’ve pinned and yo
 
 ##  Feature highlights
 
-Here are some highlights of Dynamics 365 for Sales, Business edition
+Here are some highlights of [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 -   **Visual insights.** The out-of-the-box dashboards and charts have almost everything that you would need to get insight into your business. 
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights with dashboards in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](gain-insights-dashboards.md)
@@ -123,4 +123,4 @@ Here are some highlights of Dynamics 365 for Sales, Business edition
  
 ### See Also
 [Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](sign-in-get-started.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

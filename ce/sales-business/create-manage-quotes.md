@@ -79,4 +79,4 @@ To directly send an email to customer with a quote attached, open the quote, and
 
 ### See Also
 [Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

@@ -32,5 +32,5 @@ Make sure that all the quotes or invoices that your sales team is sending out to
 5.  Select **Save**.
 
 ### See Also
-[Meet the Sales app](introduction-dynamics-365-for-sales.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

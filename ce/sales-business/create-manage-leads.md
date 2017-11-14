@@ -65,5 +65,5 @@ To disqualify, select the lead, and on the command bar, select **Disqualify**.
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales, Business edition](develop-sales-lead-to-cash.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)
+[Develop sales from lead to cash in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](develop-sales-lead-to-cash.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

@@ -37,4 +37,4 @@ You can also assign a record to a team, or to yourself.
 
 ### See Also
 [Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](sign-in-get-started.md)  
-[Meet the Sales app](introduction-dynamics-365-for-sales.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

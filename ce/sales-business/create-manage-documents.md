@@ -178,4 +178,4 @@ When you select one or more documents in the Documents list, you can take the fo
 ### See Also
 [Configure Dynamics 365 for Sales to integrate with SharePoint](configure-document-management.md)  
 [Manage your customers](create-accounts-contacts-customers.md)  
-[Meet the new Sales app for small to medium-sized business](introduction-dynamics-365-for-sales.md)
+[Meet the new Sales app for small to medium-sized business](overview-dynamics-365-for-sales.md)
