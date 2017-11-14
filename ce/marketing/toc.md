@@ -54,7 +54,7 @@
 ### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 ### [Follow up after the event](followup-after-event.md)
 
-# [Administrator's guide](system-user-administration.md)
+# [Administrator guide](system-user-administration.md)
 ## [Purchase and first-time setup](purchase-setup.md)
 ## [Organization settings](organization-settings.md)
 ### [Manage users](manage-users.md)
