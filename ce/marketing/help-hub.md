@@ -22,7 +22,7 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Get started</h2>
-<li>[Dynamics 365 for Marketing Overview](marketing-overview.md)</li>
+<li>[Dynamics 365 for Marketing Overview](overview.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
