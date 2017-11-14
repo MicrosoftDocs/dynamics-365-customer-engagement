@@ -72,7 +72,7 @@ You have options for when you update your Dynamics 365 Online organization to [!
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-2)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
- n = current version, [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]  
+n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] 
   
 #### Recommended update approach  
   
@@ -121,7 +121,7 @@ For version information, see: [Dynamics 365 (online) releases](https://support.m
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
- n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
+n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
   
 #### Recommended update approach  
   
@@ -167,7 +167,7 @@ For version information, see: [Dynamics 365 (online) releases](https://support.m
 |Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
 |Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
- n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
+n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
   
 #### Recommended update approach  
   
