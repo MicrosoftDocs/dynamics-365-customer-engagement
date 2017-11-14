@@ -1,7 +1,7 @@
 ---
 title: "Project Service Overview (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 11/13/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -45,7 +45,7 @@ Included in this app are the following features:
 
 There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]: 
 
-- If you're using a desktop, you'll use the Project Service Automation app. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Project Service Automation)](user-guide.md).
+- If you're using a desktop, you'll use the Project Service Automation app.
 
 - If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Project Resource Hub)](project-resource-hub-users-guide.md).
 
