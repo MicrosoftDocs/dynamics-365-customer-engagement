@@ -1,6 +1,6 @@
 # [Overview](overview.md)
 
-# [Get started](get-started-section.md)
+# Get started
 ## [Find your way around](navigation.md)
 ## [Organize your work](organize-daily-work.md)
 ## [Manage customer information](manage-customer-information.md)
@@ -24,7 +24,7 @@
 ### [Create an inbound customer journey](create-inbound-customer-journey.md)
 ### [Set up a subscription center](set-up-subscription-center.md)
 
-## [Create, target, and deliver online marketing content](marketing-execution-section.md)
+## Create, target, and deliver online marketing content
 ### [Design your digital content](design-digital-content.md)
 ### [Content blocks reference](content-blocks-reference.md)
 ### [Prepare marketing email messages](prepare-marketing-emails.md)
@@ -36,13 +36,12 @@
 ### [Engage with customers online](portals.md)
 ### [Create and run online surveys](surveys.md)
 
-## [Manage, score, and qualify leads](qualify-leads-section.md)
+## Manage, score, and qualify leads
 ### [Score and manage leads](score-manage-leads.md)
 ### [Register contacts' engagement](register-engagement.md)
 ### [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
 
-## [Analyze marketing results](analyze-results-section.md)
-### [Explore results with Power BI](Power-BI-analytics.md)
+## [Explore results with Power BI](Power-BI-analytics.md)
 
 ## [Event planning and management](event-management.md)
 ### [Set up an event](set-up-event.md)
@@ -56,7 +55,7 @@
 
 # [Administrator guide](system-user-administration.md)
 ## [Purchase and first-time setup](purchase-setup.md)
-## [Organization settings](organization-settings.md)
+## Organization settings
 ### [Manage users](manage-users.md)
 ### [Manage teams](manage-teams.md)
 ### [Define fiscal year settings](fiscal-year-settings.md)
