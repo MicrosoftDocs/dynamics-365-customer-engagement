@@ -1,11 +1,10 @@
 # [Overview](overview.md)
 
-# Get started
+# Get Started
 ## [Find your way around](navigation.md)
 ## [Organize your work](organize-daily-work.md)
 ## [Manage customer information](manage-customer-information.md)
-## [Export data](export-data-Word-Excel.md)
-## [Get ready for email marketing](get-ready-email-marketing.md)
+## [Best practices for email marketing](get-ready-email-marketing.md)
 
 # User Guide
 ## [Basic tutorials](basic-tutorials.md)
@@ -41,7 +40,7 @@
 ### [Register contacts' engagement](register-engagement.md)
 ### [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
 
-## [Explore results with Power BI](Power-BI-analytics.md)
+## [Export data](export-data-Word-Excel.md)
 
 ## [Event planning and management](event-management.md)
 ### [Set up an event](set-up-event.md)
@@ -53,7 +52,9 @@
 ### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 ### [Follow up after the event](followup-after-event.md)
 
-# [Administrator guide](admin-guide.md)
+## [Explore results with Power BI](Power-BI-analytics.md)
+
+# [Administrator Guide](admin-guide.md)
 ## [Purchase and first-time setup](purchase-setup.md)
 ## [Open the administration settings](open-advanced-settings.md)
 ## Organization settings

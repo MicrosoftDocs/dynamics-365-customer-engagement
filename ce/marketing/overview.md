@@ -1,5 +1,5 @@
 ---
-title: "Turn prospects into business relationships with Dynamics 365 for Marketing | Microsoft Docs"
+title: "Overview (Dynamics 365 for Marketing)"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
 keywords: "features; benefits; overview"
 ms.date: 12/15/2017
@@ -16,7 +16,7 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] overview
+# Overview (Marketing)
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
