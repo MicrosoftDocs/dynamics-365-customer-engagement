@@ -60,7 +60,7 @@ GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName
  [!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)] The service base address of the Discovery service for an on-premises or IFD deployment is : `http[s]://{servername}/` or `http[s]://dev.{servername}/`. This results in the service address of `http[s]://{servername}/api/discovery/` or `http[s]://dev.{servername}/api/discovery/`.  
   
 ## Using the Discovery service  
- An entity set named `Instances` is used to obtain instance information. You can use                  `$select` and                  `$filter` with the Instances entity set to filter the returned data.              You can also use `$metadata` to obtain the metadata document of the service.  
+ An entity set named `Instances` is used to obtain instance information. You can use `$select` and `$filter` with the Instances entity set to filter the returned data. You can also use `$metadata` to obtain the metadata document of the service.  
   
 ### Authentication  
  [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Web API instances of the Discovery service require authentication with OAuth access tokens. On-premise or IFD instances of the Discovery Web API adopt the authentication model of their deployment, supporting either Integrated Windows Authentication (IWA) or OAuth tokens from a trusted token provider. Web Application Session authentication is not supported.  
@@ -75,7 +75,7 @@ GET https://globaldisco.crm.dynamics.com/api/discovery/v1.0/Instances(UniqueName
 ```  
   
 ### CORS support  
- The Discovery service Web API supports the CORS standard for cross-origin access as does the Organization service Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365](../oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
+ The Discovery service Web API supports the CORS standard for cross-origin access as does the Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365](../oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
   
 ### Examples  
   
