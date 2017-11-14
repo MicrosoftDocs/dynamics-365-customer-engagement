@@ -18,4 +18,4 @@ topic-status: Drafting
 
 # Administrator Guide (Marketing)
 
-The topics in this section explain how to set up, make configuration settings, manage users, and customize [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+The topics in this guide explain how to set up, make configuration settings, manage users, and customize [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].

@@ -18,4 +18,4 @@ topic-status: Drafting
 
 # User Guide (Marketing)
 
-The topics in this section provide tutorials for how to accomplish the most common tasks in  [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Reference information is also provided to give you a better understanding of how to use all the features of the product.
+The topics in this guide provide tutorials for how to accomplish the most common tasks in  [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Reference information is also provided to give you a better understanding of how to use all the features of the product.

@@ -6,7 +6,7 @@
 ## [Manage customer information](manage-customer-information.md)
 ## [Best practices for email marketing](get-ready-email-marketing.md)
 
-# User Guide
+# [User Guide](user-guide.md)
 ## [Basic tutorials](basic-tutorials.md)
 ### [Create a segment](create-segment.md)
 ### [Create a marketing email](create-marketing-email.md)
