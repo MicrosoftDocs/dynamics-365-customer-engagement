@@ -15,7 +15,7 @@ caps.latest.revision: 15
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Create a schema to export configuration data
+# Create a schema to export configuration data 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -24,6 +24,7 @@ The Configuration Migration tool lets you build a schema to describe your export
 <a name="Prereq"></a>   
 
 ## Before you begin  
+
 [Download the Dynamics 365 SDK package](https://www.microsoft.com/download/details.aspx?id=50032). Extract the contents of the package on your computer. The Configuration Migration tool is available under the SDK\Tools\ConfgurationMigration folder in the extracted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package. You do not need to install the Configuration Migration tool. Run the tool by double-clicking the **DataMigrationUtility.exe** file in the SDK\Tools\ConfgurationMigration folder.
  
 > [!IMPORTANT]
