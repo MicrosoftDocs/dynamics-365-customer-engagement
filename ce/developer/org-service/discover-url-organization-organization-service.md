@@ -26,21 +26,8 @@ The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> Web service is used to 
  For [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] installations, server and organization allocation may change as part of datacenter management and load balancing. Therefore, the <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> Web service provides a way to discover which [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server is serving your organization at a given time.  
   
  The following table lists the Web service URLs for the worldwide [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] data centers.  
-  
-|Location|Discovery Web service URL|Identity Provider|  
-|--------------|-------------------------------|-----------------------|  
-|North America|`https://dev.crm.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|North America 2|`https://disco.crm9.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|Europe, Middle East and Africa (EMEA)|`https://dev.crm4.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm4.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|Asia Pacific Area (APAC)|`https://dev.crm5.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm5.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|Oceania|`https://disco.crm6.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|Japan (JPN)|`https://disco.crm7.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|South America|`https://disco.crm2.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|India (IND)|`https://disco.crm8.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
-|Canada|`https://disco.crm3.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)]|  
+
+[!INCLUDE [regional-discovery-services](../includes/regional-discovery-services.md)]
   
  For an Internet-facing deployment (IFD) installation, the Web service URL has the following form:  
   

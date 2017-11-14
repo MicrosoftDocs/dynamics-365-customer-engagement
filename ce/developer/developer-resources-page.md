@@ -53,31 +53,24 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
 ## Discovery service  
 
- The Discovery Service web service provides information about the organizations available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server using the SOAP protocol. This information includes the web address (URL) for each organization. For more information, see [Discover the URL for your organization using the Organization Service](org-service/discover-url-organization-organization-service.md).  
+ The Discovery Service web service provides information about the organizations available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. This information includes the web address (URL) for each organization.
+
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]  
 
- Use the following URLs to access the discovery service (use the appropriate URL for your location).  
+You should generally use the Web API global discovery service because this will ignore regional groupings and allow you to retrieve available organizations world-wide. See [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md)
+
+
+ If you want to scope the organizations to retrieve to individual regions use the following URLs to access the discovery service (use the appropriate URL for your location).  
   
-|Location|Discovery Web service URL|Identity Provider|  
-|--------------|-------------------------------|-----------------------|  
-|North America|`https://dev.crm.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|North America 2|`https://disco.crm9.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Europe, Middle East and Africa (EMEA)|`https://dev.crm4.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm4.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Asia Pacific Area (APAC)|`https://dev.crm5.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm5.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Oceania|`https://disco.crm6.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Japan (JPN)|`https://disco.crm7.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|South America|`https://disco.crm2.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|India (IND)|`https://disco.crm8.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Canada|`https://disco.crm3.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
+[!INCLUDE [regional-discovery-services](../includes/regional-discovery-services.md)]
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
  Use the following URL to access the discovery service:  
   
  http://`ServerName`/XRMServices/2011/Discovery.svc  
+
+For more information, see [Discover the URL for your organization using the Organization Service](org-service/discover-url-organization-organization-service.md).
   
 <a name="OrganizationService"></a>   
 
