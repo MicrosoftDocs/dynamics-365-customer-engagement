@@ -42,10 +42,14 @@ Duplicate detection lets organizations set duplicate detection policies and crea
  [DuplicateRule Entity](entities/duplicaterule.md)<br />
  [DuplicateRuleCondition Entity](entities/duplicaterulecondition.md)<br />
  [DuplicateRecord Entity](entities/duplicaterecord.md)<br />
- [Sample: Enable Duplicate Detection and Retrieve Duplicates](sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
- [Sample: Invoke Duplicate Detection For Creating and Updating Records](sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
- [Sample: Detect Multiple Duplicate Records](sample-detect-multiple-duplicate-records.md)<br />
   
 ## Related Sections  
  [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)<br />  
  [Delete data in bulk](delete-data-bulk.md)
+
+## See Also
+
+[Sample: Enable Duplicate Detection and Retrieve Duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
+[Sample: Invoke Duplicate Detection For Creating and Updating Records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
+[Sample: Detect Multiple Duplicate Records](org-service/sample-detect-multiple-duplicate-records.md)<br />
+ 
