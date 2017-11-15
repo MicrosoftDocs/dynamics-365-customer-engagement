@@ -2,7 +2,7 @@
 title: "Developer resources page (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how you can find your organization unique name, Discovery service endpoint address, Organization service endpoint address and issuer name to access Azure Service Bus using the Developer Resources page"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/14/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -76,29 +76,24 @@ For more information, see [Discover the URL for your organization using the Orga
 
 ## Organization service  
 
- The<xref:Microsoft.Xrm.Sdk.IOrganizationService> web service provides access to the business data and metadata of your organization by using the SOAP protocol. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md).  
+ The organization service provides access to the business data and metadata of your organization by using the SOAP protocol. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md).  
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]  
 
  Use the following URLs to access the organization service (SOAP endpoint):  
-  
- `https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/Organization.svc` (North America)  
-  
- `https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/Organization.svc` (South America)  
-  
- `https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/Organization.svc` (Canada)  
-  
- `https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/Organization.svc` (EMEA)  
-  
- `https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/Organization.svc` (APAC)  
-  
- `https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/Organization.svc` (Oceania)  
-  
- `https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/Organization.svc` (Japan)  
-  
- `https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/Organization.svc` (India)  
-  
- `https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/Organization.svc` (North America 2)  
+
+|Region| URL|
+|---|---|
+|North America|`https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/Organization.svc`|
+|North America 2|`https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/Organization.svc`|
+|South America|`https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/Organization.svc`|
+|Canada|`https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/Organization.svc`|
+|EMEA|`https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/Organization.svc`|
+|APAC|`https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/Organization.svc`|
+|Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/Organization.svc`|
+|Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/Organization.svc`|
+|India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/Organization.svc`|
+
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
 
@@ -118,24 +113,19 @@ For more information, see [Discover the URL for your organization using the Orga
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]  
 
  Use the following URLs to access the organization data service (ODataREST endpoint):  
-  
- `https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/OrganizationData.svc` (North America)  
-  
- `https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/OrganizationData.svc` (South America)  
-  
- `https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/OrganizationData.svc` (Canada)  
-  
- `https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/OrganizationData.svc` (EMEA)  
-  
- `https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/OrganizationData.svc` (APAC)  
-  
- `https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/OrganizationData.svc` (Oceania)  
-  
- `https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/OrganizationData.svc` (Japan)  
-  
- `https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/OrganizationData.svc` (India)  
-  
- `https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/OrganizationData.svc` (North America 2)  
+
+|Region| URL|
+|---|---|
+|North America|`https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|North America 2|`https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|South America|`https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|Canada|`https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|EMEA|`https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|APAC|`https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
  Use the following URL to access the organization data service (ODataREST endpoint):  
