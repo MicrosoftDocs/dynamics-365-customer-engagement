@@ -28,7 +28,6 @@
 ### [Content blocks reference](content-blocks-reference.md)
 ### [Prepare marketing email messages](prepare-marketing-emails.md)
 ### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
-### [How Dynamics 365 for Marketing uses cookies](cookies.md)
 ### [Upload and use images and files](upload-images-files.md)
 ### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
 ### [Create automated campaigns](customer-journeys-create-automated-campaigns.md)
@@ -52,8 +51,8 @@
 ### [Follow up after the event](followup-after-event.md)
 
 ## [Export data](export-data-Word-Excel.md)
-
 ## [Explore results with Power BI](Power-BI-analytics.md)
+## [How Dynamics 365 for Marketing uses cookies](cookies.md)
 
 # [Administrator Guide](admin-guide.md)
 ## [Purchase and first-time setup](purchase-setup.md)
