@@ -52,7 +52,7 @@
 
 ## [Export data](export-data-Word-Excel.md)
 ## [Explore results with Power BI](Power-BI-analytics.md)
-## [How Dynamics 365 for Marketing uses cookies](cookies.md)
+## [How the app uses cookies](cookies.md)
 
 # [Administrator Guide](admin-guide.md)
 ## [Purchase and first-time setup](purchase-setup.md)
