@@ -40,7 +40,7 @@ There must always be exactly one landing-page configuration that is set as the d
 
 ### Set up a privacy banner for landing pages
 
-We recommend that you include a privacy banner on all your landing pages. This will let your customers know that you take their privacy seriously and may also be required in some jurisdictions. Use the following settings in the **Privacy Banner** section to create and enable your privacy banner:
+We recommend that you include a privacy banner on all your landing pages. This will let your customers know that you take their privacy seriously and might also be required in some jurisdictions. Use the following settings in the **Privacy Banner** section to create and enable your privacy banner:
 
 - **Include privacy banner**: Choose **Yes** to enable this feature; choose **No** to disable it. When the privacy banner is enabled, the text and link defined in the other settings in this section will be added to each new marketing page that you create. The banner will also be added to any existing page that you open for editing; however, it won't be added to pages that are already published because these are read-only.
 - **Privacy banner text**: Enter a summary of your privacy policy here.

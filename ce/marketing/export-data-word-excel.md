@@ -33,7 +33,7 @@ To export [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data by us
 
 1. On the command bar, select **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**, and then under **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**, choose the template want to use. If you don't see the template you are looking for, consider the following:
     - Only templates built for the selected record type (entity) will be displayed. For example, you won't see a template created for accounts when you are working with a contact.
-    - If you are looking for a brand-new template, you may need to refresh the page to see it. Either refresh your browser or close and reopen [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+    - If you are looking for a brand-new template, you might need to refresh the page to see it. Either refresh your browser or close and reopen [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
 After you select your [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] creates a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] document from the record you selected.
 

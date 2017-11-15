@@ -241,7 +241,7 @@ If duplicate detection is enabled, duplicates are detected when:
 
 ### Disable duplicate detection
 
-If your system contains a large number of records, checking for duplicates can affect performance. You may want to disable duplicate detection at such times.
+If your system contains a large number of records, checking for duplicates can affect performance. You might want to disable duplicate detection at such times.
 
 1. To disable duplicate detection, go to **Settings** > **Business Management** > **Duplicate Detection**.
 1. Select **Disable**.
