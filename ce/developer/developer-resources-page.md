@@ -138,7 +138,7 @@ For more information, see [Discover the URL for your organization using the Orga
 
  To add a service reference for these services to a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project, you must append `?WSDL` to the service URL when specifying the address in the **Add Service Reference** dialog box. For example, the discovery service Web Services Description Language (WSDL) address is `http[s]://servername/xrmservices/2011/discovery.svc?wsdl`.  
   
- The web services support SDK versioning. Specifying an SDK version in the WSDL URL indicates a scope for the amount of data to be returned in the WSDL. The syntax for web service SDK versioning ends the URL in ?singleWSDL&sdkversion=X.X. For example, the URL would be `https://mydomain.crm.dynamics.com/xrmservices/2011/discovery.svc?singleWSDL&sdkversion=8.0`. In this example, you would have built your application using the v8.0 .NET assemblies.  
+ The web services support SDK versioning. Specifying an SDK version in the WSDL URL indicates a scope for the amount of data to be returned in the WSDL. The syntax for web service SDK versioning ends the URL in `?singleWSDL&sdkversion=X.X`. For example, the URL would be `https://mydomain.crm.dynamics.com/xrmservices/2011/discovery.svc?singleWSDL&sdkversion=8.0`. In this example, you would have built your application using the v8.0 .NET assemblies.  
   
 ### See also
 
