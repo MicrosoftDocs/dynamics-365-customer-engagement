@@ -128,7 +128,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
 |Number of Reads by Entity|How many read operations are performed on different entities by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|3DE3E899-4BCF-482B-8896-657D0C8FCAE7|
 |Number of Deletes by Entity|How many delete operations are performed on different entities by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|8F92215B-C55D-451F-A546-48E1456E7056|
 |Total Operations Over Time|The total operations performed by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance over the selected time period.|9AD78421-6D33-4463-8C17-B9C4DF52592D|
-|Total Operations by Entity|The total operations performed on different entities by the selected User in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|045F5B81-CF47-4819-A4F9-AE366565C591|
+|Total Operations by Entity|The total operations performed on different entities by the selected user in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance for the selected time period.|045F5B81-CF47-4819-A4F9-AE366565C591|
 |Active Users by Entities|Show the active users distributed over different entities (refreshed hourly)|2C569F70-7FA8-4C2E-AFCE-E6126ED2CC52|
 |Active Users by Client|The active users distributed by client type (refreshed hourly)|4D6F71A8-1710-4B0B-9D7A-9590BECE611C|
 |Active Users Using More than One Client|The number of active users using more than one client, distributed over different client combinations (refreshed hourly)|149EFCC8-D336-4F51-A293-E173728EC587|
