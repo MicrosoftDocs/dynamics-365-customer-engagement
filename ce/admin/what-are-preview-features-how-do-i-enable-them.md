@@ -32,7 +32,7 @@ Preview features are features that aren’t complete, but are made available on 
   
 -   May be available only in selected geographic areas.  
   
-## What preview features are included in the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]?   
+## What preview features are included in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]?   
  The following table lists preview features as well as learning resources for each.  
   
 |||  
