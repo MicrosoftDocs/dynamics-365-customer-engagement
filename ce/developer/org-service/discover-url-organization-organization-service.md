@@ -27,7 +27,7 @@ The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> Web service is used to 
   
  The following table lists the Web service URLs for the worldwide [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] data centers.  
 
-[!INCLUDE [regional-discovery-services](../includes/regional-discovery-services.md)]
+[!INCLUDE [regional-discovery-services](../../includes/regional-discovery-services.md)]
   
  For an Internet-facing deployment (IFD) installation, the Web service URL has the following form:  
   
