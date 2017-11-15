@@ -1,6 +1,6 @@
 # [Overview](overview.md)
 
-# Get Started
+# [Get Started](get-started-section.md)
 ## [Find your way around](navigation.md)
 ## [Organize your work](organize-daily-work.md)
 ## [Manage customer information](manage-customer-information.md)
@@ -28,6 +28,7 @@
 ### [Content blocks reference](content-blocks-reference.md)
 ### [Prepare marketing email messages](prepare-marketing-emails.md)
 ### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+### [How Dynamics 365 for Marketing uses cookies](cookies.md)
 ### [Upload and use images and files](upload-images-files.md)
 ### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
 ### [Create automated campaigns](customer-journeys-create-automated-campaigns.md)
