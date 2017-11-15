@@ -35,5 +35,5 @@ Find the complete code sample here, [Sample: Use duplicate detection when creati
 
 ### See Also
 
-[Sample: Use duplicate detection when creating and updating records](sample-use-duplicate-detection-when-creating-and-updating-records.md)
+[Sample: Use duplicate detection when creating and updating records](sample-use-duplicate-detection-when-creating-and-updating-records.md)  
 [Sample: Enable duplicate detection and retrieve duplicates](sample-enable-duplicate-detection-and-retrieve-duplicates.md)
