@@ -470,7 +470,7 @@
 ## [Detect duplicate data](detect-duplicate-data-for-developers.md)
 ### [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)
 ### [Run duplicate detection](run-duplicate-detection.md)
-### [Manage duplicate detection during Create and Update operations](manage-duplicate-detection-create-update.md)
+### [Manage duplicate detection during Create and Update operations](duplicate-detection-create-update.md)
 ### [Duplicate detection messages](duplicate-detection-messages.md)
 ### [Duplicate Rule entities](duplicaterule-entities.md)
 ### [Sample: Enable duplicate detection and retrieve duplicates](sample-enable-duplicate-detection-and-retrieve-duplicates.md)

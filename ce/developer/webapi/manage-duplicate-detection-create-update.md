@@ -2,7 +2,7 @@
 title: "Manage duplicate detection for create and update operations using the Web API | MicrosoftDocs"
 description: "Read how to detect duplicates using MSCRM.SuppressDuplicateDetection header and Dynamics 365 Customer Engagement Web API"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -33,10 +33,7 @@ Use `MSCRM.SuppressDuplicateDetection` header during `POST` request, to detect c
 > [!NOTE]
 > Passing of the `CalculateMatchCodeSynchronously` optional parameter is not required. The match codes used to detect duplicates are calculated synchronously regardless of the value passed in this parameter.
 
-### Options:
-
-- Web API: Use preference header `MSCRM.SuppressDuplicateDetection`
-- Organization Service: Pass the duplicate detection optional parameter `SuppressDuplicateDetection` by adding a value to the `Parameters` property of the `CreateRequest` or `UpdateRequest` messages.
+Use preference header `MSCRM.SuppressDuplicateDetection` and set its value to `false` in the Web API request.
 
 > [!NOTE]
 >  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
