@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[DuplicateDetection#EnableDuplicateDetectionAndRetrieveDuplicates](../../snippets/csharp/CRMV8/duplicatedetection/cs/enableduplicatedetectionandretrieveduplicates.cs#enableduplicatedetectionandretrieveduplicates)]  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365](../detect-duplicate-data-for-developers.md)   
+ [Detect duplicate data in Dynamics 365](../detect-duplicate-data-for-developers.md)   
  [Enable and disable duplicate detection](../enable-disable-duplicate-detection.md)  
  [Manage duplicate detection during Create and Update operations](manage-duplicate-detection-create-update.md)  
  [Run Duplicate Detection](../run-duplicate-detection.md)   
