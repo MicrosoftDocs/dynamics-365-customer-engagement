@@ -23,15 +23,15 @@ manager: "amyla"
 ---
 # Sample: Enable duplicate detection and retrieve duplicates
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the work with duplicate detections sample](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. [Download the work with duplicate detections sample](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
 
 ## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
+[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
  This sample shows how to enable duplicate detection and retrieve duplicate records.  
@@ -40,8 +40,8 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[DuplicateDetection#EnableDuplicateDetectionAndRetrieveDuplicates](../snippets/csharp/CRMV8/duplicatedetection/cs/enableduplicatedetectionandretrieveduplicates.cs#enableduplicatedetectionandretrieveduplicates)]  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365](detect-duplicate-data-for-developers.md)   
- [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)   
- [Run Duplicate Detection](run-duplicate-detection.md)   
+ [Detect Duplicate Data in Dynamics 365](../detect-duplicate-data-for-developers.md)   
+ [Enable and disable duplicate detection](../enable-disable-duplicate-detection.md)   
+ [Run Duplicate Detection](../run-duplicate-detection.md)   
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveDuplicatesRequest>   
  [Sample: Invoke Duplicate Detection For Creating and Updating Records](sample-use-duplicate-detection-when-creating-and-updating-records.md)
