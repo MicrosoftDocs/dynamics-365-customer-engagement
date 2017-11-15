@@ -22,7 +22,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample from [Sample: Microsoft Dynamics 365 and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a)
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with Microsoft Dynamics 365 and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a)
   
 ## Requirements  
  You must configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] integration with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] prior to registering and executing this sample activity.  
