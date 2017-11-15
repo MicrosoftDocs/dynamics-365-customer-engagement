@@ -21,7 +21,7 @@ manager: "amyla"
 
 # Manage duplicate detection for create and update operations using Organization Service
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Dynamics 365 Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
