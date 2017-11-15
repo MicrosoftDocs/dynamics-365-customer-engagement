@@ -29,16 +29,8 @@ Use `SuppressDuplicateDetection` parameter and set its value to `false` to activ
 
 The example shown below illustrates how to create a duplicate record by suppressing duplicate detection. Change the value to `false` to prohibit creation of a duplicate record.
 
-```C#
-// Create operation by suppressing duplicate detection
+[!code-csharp[DuplicateDetection#DuplicateDetectionCreate](../../snippets/csharp/CRMV8/duplicatedetection/cs/duplicatedetectioncreate.cs)]
 
-CreateRequest reqCreate = new CreateRequest();
-reqCreate.Target = account;
-reqCreate.Parameters.Add("SuppressDuplicateDetection", true); // Change to false to activate the duplicate detection.
-CreateResponse createResponse = (CreateResponse)_service.Execute(reqCreate);
-_dupAccountId = createResponse.id;
-Console.Write("Account: {0} {1} created with SuppressDuplicateDetection to true, ", account.Name, account.AccountNumber);
-```
 Find the complete code sample here, [Sample: Use duplicate detection when creating and updating records](sample-use-duplicate-detection-when-creating-and-updating-records.md).
 
 ### See Also
