@@ -37,7 +37,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  This sample shows how to enable duplicate detection and retrieve duplicate records.  
   
 ## Example  
- [!code-csharp[DuplicateDetection#EnableDuplicateDetectionAndRetrieveDuplicates](../snippets/csharp/CRMV8/duplicatedetection/cs/enableduplicatedetectionandretrieveduplicates.cs#enableduplicatedetectionandretrieveduplicates)]  
+ [!code-csharp[DuplicateDetection#EnableDuplicateDetectionAndRetrieveDuplicates](../../snippets/csharp/CRMV8/duplicatedetection/cs/enableduplicatedetectionandretrieveduplicates.cs#enableduplicatedetectionandretrieveduplicates)]  
   
 ### See also  
  [Detect Duplicate Data in Dynamics 365](../detect-duplicate-data-for-developers.md)   
