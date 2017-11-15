@@ -82,7 +82,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 ### Import records from an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 1. Start your import by doing either of the following:
-    - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]** from the command bar.
+    - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]** on the command bar.
     - If you are an administrator, go to **Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 1. Select **Browse** to upload a file.
 1. Select **Next**.<br>All the fields in your source file are automatically mapped.
@@ -93,7 +93,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 1. Prepare your import file as described in [Prepare your file for import](#prepare-your-file-for-import).
 
 1. Start your import by doing either of the following:
-    - Go to the list view for the entity you want to import to (such as the list of leads), and choose **Import from CSV** from the command bar.
+    - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from CSV** on the command bar.
     - If you are an administrator, go to **Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select **CSV**.
 
 1. Choose a file to upload.

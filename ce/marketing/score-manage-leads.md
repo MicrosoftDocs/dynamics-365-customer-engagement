@@ -68,7 +68,7 @@ The scoring-model canvas is similar to the customer-journey canvas. Add tiles by
 
 ### Set up a condition
 
-The condition tile is a compound tile, which includes both parent and child tiles. When you add a condition, both the parent and one child are created. Use the expand/collapse button at the bottom right of the tile to show or hide the child tiles.
+The condition tile is a compound tile, which includes both parent and child tiles. When you add a condition, both the parent and one child are created. Use the expand/collapse button at the lower-right corner of the tile to show or hide the child tiles.
 
 ![An expanded condition tile with one child](media/lead-score-condition.png "An expanded condition tile with one child")
 
