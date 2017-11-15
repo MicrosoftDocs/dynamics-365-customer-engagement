@@ -125,7 +125,7 @@ The Configuration Migration tool lets you build a schema to describe your export
   
 ## Auto-Move dates at import 
 
-**Before you begin**
+**Before you begin** <br />
 Download and install Data Migration Utility version 3.1.0.873 or later.
 
 You can set the values of datetime fields to automatically move forward by a specified duration. This allows you to keep your demo data recent without the need to make manual updates. It will also work when using Configuration Migration Utility files with the Dynamics 365 Package Deployer tool. 
