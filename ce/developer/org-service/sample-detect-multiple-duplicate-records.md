@@ -2,7 +2,7 @@
 title: "Sample: Detect multiple duplicate records (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to detect and log multiple duplicate records for a specified entity type."
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 11/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples

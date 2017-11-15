@@ -2,7 +2,7 @@
 title: "Sample: Use duplicate detection when creating and updating records (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to detect duplicate records when when creating and updating entity records."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

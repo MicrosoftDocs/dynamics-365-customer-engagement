@@ -23,7 +23,7 @@ manager: "amyla"
 
 Dynamics 365 Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
-## Detect duplicate during Create operation using the Web API
+## Detect duplicate during Create operation
 
 Use `MSCRM.SuppressDuplicateDetection` header during `POST` request, to detect creation of a duplicate record of an existing record. The value assigned to `MSCRM.SuppressDuplicateDetection` header determines whether the Create or Update operation can be completed:
 
@@ -78,7 +78,8 @@ If a lead record with the same `emailaddress1` attribute already exists, the fol
 Assign value `true` to `MSCRM.SuppressDuplicateDetection` header to allow creation of a duplicate record.
 
 <a name="bkmk_update"></a>
-## Detect duplicates during Update operation using the Web API
+
+## Detect duplicates during Update operation
 
 Set the value of `MSCRM.SuppressDuplicateDetection` header to `false` in your `PATCH` request to avoid creation of a duplicate record during Update operation. By default, duplicate detection is suppressed when you are updating records using the Web API.
 
@@ -115,3 +116,7 @@ MSCRM.SuppressDuplicateDetection: false
     }
 }
 ```
+
+### See Also 
+[Run duplicate detection](../run-duplicate-detection.md)  
+[Duplicate detection messages](../duplicate-detection-messages.md)
