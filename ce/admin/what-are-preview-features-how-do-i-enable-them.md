@@ -40,6 +40,7 @@ Preview features are features that aren’t complete, but are made available on 
 |**Preview feature**|**Learning resource**|  
 
 |Microsoft Cognitive Services integration|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|
+|Relationship Insights|[Preview feature: Relationship Insights](relationship-insights.md)| 
 
 ## What preview features are included in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]?  
  The following table lists preview features  as well as learning resources for each.  
