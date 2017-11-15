@@ -46,5 +46,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [Run Duplicate Detection](../run-duplicate-detection.md)   
  [Use Messages (Request and Response Classes) with the Execute Method](use-messages-request-response-classes-execute-method.md)   
  [Pass Optional Parameters in Messages](use-messages-request-response-classes-execute-method.md#bkmk_optional_params)   
- [Sample: Detect Multiple Duplicate Records](../sample-detect-multiple-duplicate-records.md)  
+ [Sample: Detect Multiple Duplicate Records](sample-detect-multiple-duplicate-records.md) 
+ [Sample: Enable duplicate detection and retrieve duplicates](sample-enable-duplicate-detection-and-retrieve-duplicates.md)  
  [Duplicate detection messages](../duplicate-detection-messages.md)
