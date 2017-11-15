@@ -27,7 +27,7 @@ Dynamics 365 Web API allows you to detect duplicate records of an existing recor
 
 Use `SuppressDuplicateDetection` parameter and set its value to `false` to activate duplicate detection and prohibit creation of a duplicate record during create and update operations.
 
-The example shown below illustrates how to create a duplicate record by suppressing duplicate detection. Change the value to `false` to prohibit creation of a duplicate record.
+The example shown below illustrates how to create a duplicate record by suppressing duplicate detection. Change the value of `SuppressDuplicateDetection` parameter to `false` to prohibit creation of a duplicate record.
 
 [!code-csharp[DuplicateDetection#DuplicateDetectionCreate](../../snippets/csharp/CRMV8/duplicatedetection/cs/duplicatedetectioncreate.cs)]
 
