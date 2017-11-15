@@ -57,7 +57,7 @@
 # [Administrator Guide](admin-guide.md)
 ## [Purchase and first-time setup](purchase-setup.md)
 ## [Open the administration settings](open-advanced-settings.md)
-## Organization settings
+## [Organization settings](organization-settings.md)
 ### [Manage users](manage-users.md)
 ### [Manage teams](manage-teams.md)
 ### [Define fiscal year settings](fiscal-year-settings.md)
