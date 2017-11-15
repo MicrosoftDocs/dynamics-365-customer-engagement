@@ -131,7 +131,7 @@ By default, pivot chart data is not automatically refreshed when you open the wo
   ![Pivot table options in Excel](media/excel-pivot-options-ill.png "Set pivot chart data to be automatically refreshed")
 - **Placing new data**  
 If you want to add content to the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template, place your data above or to the right side of the existing data. A second option is to place your new content on a second sheet.
-- **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images may cause an error**  
+- **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images might cause an error**  
 
 If you attempt to view [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data by using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you might see the following message: "An error occurred while attempting to save your workbook. As a result, the workbook was not saved." Try removing the image from the template and reloading the template into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates and [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)]**  

@@ -32,7 +32,7 @@ The overall process of creating a new marketing page and making it available on 
 
 1. Choose a page template, which creates your initial design by establishing the page type, column layout, and sample content.
 
-1. Add and edit your page content. Use the graphical editor to drag new page elements to your design (including forms, text, images, and more), and use the HTML editor to add extra features, custom styles, and scripts. Along the way, you may need to create new forms, but usually you'll be able to use existing ones.
+1. Add and edit your page content. Use the graphical editor to drag new page elements to your design (including forms, text, images, and more), and use the HTML editor to add extra features, custom styles, and scripts. Along the way, you might need to create new forms, but usually you'll be able to use existing ones.
 
 1. When you are satisfied with the design, check it for required content and technical errors by selecting **Check for Errors** in the command bar. If a problem is found, read the description, address the issue, and try again until the page passes the error check.
 
