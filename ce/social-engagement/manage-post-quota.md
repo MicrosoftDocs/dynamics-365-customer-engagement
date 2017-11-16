@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: "quota, post quota, contingent"
-ms.date: 11/01/2017
+ms.date: 11/14/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -109,7 +109,7 @@ For more information, see [Pricing and licensing for Dynamics 365](https://www.m
 
 3. Go to **Billing**, and then select **Purchase services**.
 
-4. Scroll down to the **Add-on subscription** section and look for the **Microsoft [!include[](../includes/pn-social-engagement-long.md)] Additional 10k posts** add-on subscriptions.
+4. Scroll down to the **Add-on subscription** section and look for the **[!include[](../includes/pn-social-engagement-long.md)] Additional 10k posts** add-on subscriptions.
 
 5. Click **Buy now**, and then complete the billing process.
 
