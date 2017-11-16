@@ -83,8 +83,8 @@ A drop-down list of views is frequently displayed in the application so that peo
 
 ## How to create or edit views
 You can create views in two ways:
-- **Using the App Designer:** If you’re creating views for the first time, you may want to start with the App Designer, which provides a simple and intuitive UI with drag-and-drop capabilities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit public or system views by using the app designer](../customize/create-edit-views-app-designer). 
-- **Using the Solution Explorer:** If you’re already experienced with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you may want to use the Solution Explorer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a view](../customize/create-and-edit-views). 
+- **Using the App Designer:** If you’re creating views for the first time, you may want to start with the App Designer, which provides a simple and intuitive UI with drag-and-drop capabilities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit public or system views by using the app designer](../customize/create-edit-views-app-designer.md). 
+- **Using the Solution Explorer:** If you’re already experienced with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you may want to use the Solution Explorer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a view](../customize/create-and-edit-views.md). 
 
 ### See also  
  [Gett started with customization](../customize/getting-started-customization.md)     
