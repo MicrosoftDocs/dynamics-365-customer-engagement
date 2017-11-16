@@ -50,7 +50,7 @@ Personal views are owned by individuals and, because of their default User level
 
 <a name="BKMK_SystemViews"></a>   
 ### System views  
-s a system administrator or system customizer, you can edit system views. System views are special views the application depends on, which  exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.    
+As a system administrator or system customizer, you can edit system views. System views are special views the application depends on, which  exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.    
   
 |System Views|Description|  
 |------------------|-----------------|  
