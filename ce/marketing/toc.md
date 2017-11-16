@@ -42,6 +42,7 @@
 
 ## Create, target, and deliver online marketing content
 ### [Design your digital content](design-digital-content.md)
+### [Designer keyboard shortcuts](designer-shortcuts.md)
 ### [Content blocks reference](content-blocks-reference.md)
 ### [Prepare marketing email messages](prepare-marketing-emails.md)
 ### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
