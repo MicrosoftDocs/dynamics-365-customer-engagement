@@ -52,7 +52,7 @@ As a system customizer, you can create and edit public views by using the app de
     b. Configure **Set Width** with the column width you want.
     
     > [!NOTE]
-    > The column width value ranges from 25 through 300.
+    > The column width value ranges from 25 pixels through 300 pixels.
 8. (Optional) Reorder columns by dragging a column to the position you want to move it to. 
 
     You will see a visual indicator when you hold the column over a position it can be moved to.

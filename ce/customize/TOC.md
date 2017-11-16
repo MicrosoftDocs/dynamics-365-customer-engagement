@@ -46,19 +46,19 @@
 #### [Publish changes](publish-changes-for-use-customer-service-hub.md)
 
 ## [Create or edit views](create-edit-views.md)
-### [Types of views](types-of-views.md)
 ### [Access a view definition](accessing-view-definitions.md)
 ### [Specify a default view](specify-default-views.md)
 ### [Create or edit a view](create-and-edit-views.md)
-### [Create and edit public or system views by using the app designer](create-edit-views-app-designer.md)
 ### [Choose and configure columns](choose-and-configure-columns.md)
 ### [Edit filter criteria and change sort order](edit-filter-criteria.md)
 ### [Sort records](configure-sorting.md)
 ### [Delete or deactivate a view](remove-views.md)
 ### [Managed properties](managed-properties.md)
 ### [Display custom icons instead of values in list views](display-custom-icons-instead.md)
+### [Create and edit public or system views by using the app designer](create-edit-views-app-designer.md)
 ### [Make grids (lists) or subgrids editable](make-grids-lists-editable-custom-control.md)
 ### [Specify properties for Unified Interface apps](specify-properties-for-unified-interface-apps.md)
+
 
 ## [Create or edit dashboards](create-edit-dashboards.md)
 ### [Set properties for a chart or list](set-properties-chart-list-included-dashboard.md)
