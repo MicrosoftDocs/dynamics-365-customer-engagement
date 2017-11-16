@@ -50,7 +50,7 @@
 ### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
 ### [Create automated campaigns](customer-journeys-create-automated-campaigns.md)
 ### [Customer journey tiles reference](customer-journey-tiles-reference.md)
-### [Engage with customers online](portals.md)
+### [Engage with customers online with portals](portals.md)
 ### [Create and run online surveys](surveys.md)
 
 ## Manage, score, and qualify leads
