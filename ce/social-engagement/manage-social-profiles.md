@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 10/17/2017
+ms.date: 11/15/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -168,7 +168,8 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
  To let other users of your organization’s solution post on behalf of a social profile that you own, you can share it with them. After you share a social profile, other users can select the social profile when interacting with a post. You can also share a social profile with a group. More information about groups: [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md)  
   
 > [!IMPORTANT]
->  Make sure you share the profiles with users who have a user role of Manager or Responder and are authorized to view or access the social profile feature. Sharing is only available if the social profile allows interactions with posts. Every user who this social profile is shared with can use this profile to publish actions through tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
+>  Make sure you share the profiles with users who have a user role of Manager or Responder and are authorized to view or access the social profile feature. Sharing is only available if the social profile allows interactions with posts. Every user who this social profile is shared with can use this profile to publish actions through tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)    
+> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
   
 [//]: # (In the "Claim ownership..." topic, you called it the "profile details pane," so I used that term in the other procedures too. I assume this isn't the literal name of the pane, right? If it is, it of course should be **Profile Details** pane.)
 <a name="shareasocialprofile"></a>   

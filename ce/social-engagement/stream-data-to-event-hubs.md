@@ -2,7 +2,7 @@
 title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Social Engagement to Event Hubs."
 keywords: "azure event hubs, event hub, stream data, connection string "
-ms.date: 10/26/2017
+ms.date: 11/15/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -42,7 +42,7 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 3.  When adding your first [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] connection, you will be shown a disclaimer.  Read the disclaimer carefully, and then click **Continue** to proceed setting up the connection. More information: [Privacy Notice](#privacy)  
   
-4.  In the **Connect to Azure Event Hubs** pane, enter an **Event hub name** and the **Connection string** for the event hub you want to connect.  
+4.  In the **Connect to Azure Event Hubs** pane, enter an **Event hub name** and the **Connection string** for the event hub you want to connect. Please make sure the connection string contains the namespace name ```;EntityPath={eventhubname}``` when you paste it to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
   
      For more information about where to find the connection string, see [Microsoft Azure: Create an Event Hubs namespace and an event hub using the Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).  
   
