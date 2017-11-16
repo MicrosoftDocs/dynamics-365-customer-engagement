@@ -45,12 +45,13 @@
 ### [Designer keyboard shortcuts](designer-shortcuts.md)
 ### [Content blocks reference](content-blocks-reference.md)
 ### [Prepare marketing email messages](prepare-marketing-emails.md)
+### [Work with email templates](email-templates.md)
 ### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 ### [Upload and use images and files](upload-images-files.md)
 ### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
 ### [Create automated campaigns](customer-journeys-create-automated-campaigns.md)
 ### [Customer journey tiles reference](customer-journey-tiles-reference.md)
-### [Engage with customers online with portals](portals.md)
+### [Engage customers online with portals](portals.md)
 ### [Create and run online surveys](surveys.md)
 
 ## Manage, score, and qualify leads

@@ -2,18 +2,20 @@
 title: "Create portals and interactive webpages in Dynamics 365 for Marketing | Microsoft Docs "
 description: "How the Dynamics 365 Portals solution is integrated with Dynamics 365 for Marketing"
 keywords: "portal; website; page; marketing page; event portal"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 465341c8-19fd-4da8-87aa-980c5ba10e26
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Engage with customers online with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -22,7 +24,7 @@ ms.reviewer: renwe
 
 The portals solution is highly flexible and customizable. You can create portals for a wide variety of purposes (such as self-service, registration, and data management) and audiences (including customers, partners, and employees).
 
-The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For more information about how to work with the portals solution, see [its online help](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365).
+> [!NOTE] The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For complete details about how to work with the portals solution, see [its online help](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365).
 
 ## Open the portals area
 
