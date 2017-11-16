@@ -2,7 +2,7 @@
 title: "Create an entity using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Read how to create a POST request to send data to create an entity on Dynamics 365 using the Web API"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/16/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -164,7 +164,7 @@ OData-EntityId: [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-000
 
  By default, duplicate detection is suppressed when you are creating records using the Web API. You must include the `MSCRM.SuppressDuplicateDetection: false` header with your POST request to enable duplicate detection . Duplicate detection only applies when the organization has enabled duplicate detection, the entity is enabled for duplicate detection, and there are active duplicate detection rules being applied. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Detect duplicate data for developers](../detect-duplicate-data-for-developers.md)
 
- See [Manage duplicate detection during Create and Update operations using Web API](../manage-duplicate-detection-create-update.md#bkmk_create) for more information on how to check for duplicate records during Create operation.
+ See [Manage duplicate detection during Create and Update operations using Web API](manage-duplicate-detection-create-update.md#bkmk_create) for more information on how to check for duplicate records during Create operation.
 
 <a name="bkmk_initializefrom"></a>
 
