@@ -23,8 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
-  
+In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:    
 -   The columns to display  
   
 -   How wide each column should be  
@@ -35,25 +34,23 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engageme
   
 A drop-down list of views is frequently displayed in the application so that people have options for different views of entity data.  
   
- The records that are visible in individual views are displayed in a list, sometimes called a grid, which frequently provides options so that people can change the default sorting, column widths, and filters to more easily see the data that’s important to them. Views also define the data source for charts that are used in the application.  
+The records that are visible in individual views are displayed in a list, sometimes called a grid, which frequently provides options so that people can change the default sorting, column widths, and filters to more easily see the data that’s important to them. Views also define the data source for charts that are used in the application.  
 
-<a name="BKMK_TypesOfViews"></a>   
-
- There are three types of views in Dynamics 365 Customer Engagement: *personal*, *system*, and *public*.  
+<a name="BKMK_TypesOfViews"></a> 
+## Types of Views
   
+There are three types of views in Dynamics 365 Customer Engagement: *personal*, *system*, and *public*.  
+This topic is about how system administrators and system customizers work with system and public views. For more information about personal views, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md).  
+
 <a name="BKMK_PersonalViews"></a>   
 ### Personal views  
- You and anyone else who has at least User level access to actions for the Saved View entity can also create personal views. As system administrator, you can modify the access level for each action in the security role to control the depth to which people can create, read, write, delete, assign, or share personal views.  
+You and anyone else who has at least User level access to actions for the Saved View entity can also create personal views. As system administrator, you can modify the access level for each action in the security role to control the depth to which people can create, read, write, delete, assign, or share personal views.  
   
- Personal views are owned by individuals and, because of their default User level access, they are visible only to that person or anyone else they choose to share their personal views with. You can create personal views by saving a query that you define by using Advanced Find or by using the **Save Filters as New Views** and **Save Filters to Current View** options in the list of views. These views are typically included at the bottom in lists of system or public views that are available in the application. While you can create a new personal view based on a system or public view, you cannot create a system or public view based on a personal view.  
-  
- This topic is about how system administrators and system customizers work with system and public views. For more information about personal views, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md).  
-
-## Types of Views
+Personal views are owned by individuals and, because of their default User level access, they are visible only to that person or anyone else they choose to share their personal views with. You can create personal views by saving a query that you define by using Advanced Find or by using the **Save Filters as New Views** and **Save Filters to Current View** options in the list of views. These views are typically included at the bottom in lists of system or public views that are available in the application. While you can create a new personal view based on a system or public view, you cannot create a system or public view based on a personal view.  
 
 <a name="BKMK_SystemViews"></a>   
 ### System views  
- As a system administrator or system customizer, you can edit system views. System views are special views the application depends on, which  exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.    
+s a system administrator or system customizer, you can edit system views. System views are special views the application depends on, which  exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.    
   
 |System Views|Description|  
 |------------------|-----------------|  
@@ -62,13 +59,13 @@ A drop-down list of views is frequently displayed in the application so that peo
 |**Associated**|The default view that lists the related entities for a record.|  
 |**Lookup**|The view you see when you select a record to set for a lookup field.|  
   
- These views are not shown in the view selector and you can’t use them in sublists in a form or as a list in a dashboard. You cannot delete or deactivate these views. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove views](../customize/remove-views.md)  
+These views are not shown in the view selector and you can’t use them in sublists in a form or as a list in a dashboard. You cannot delete or deactivate these views. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Remove views](../customize/remove-views.md)  
   
- System views are owned by the organization so that everyone can see them. For example, everyone has organization-level access to read records for the View (savedquery) entity. These views are associated with specific entities and are visible within the solution explorer. You can include these views in solutions because they are associated with the entity.  
+System views are owned by the organization so that everyone can see them. For example, everyone has organization-level access to read records for the View (savedquery) entity. These views are associated with specific entities and are visible within the solution explorer. You can include these views in solutions because they are associated with the entity.  
   
 <a name="BKMK_PublicViews"></a>   
 ### Public views  
- Public views are general purpose views that you can customize as you see fit. These views are available in the view selector and you can use them in sub-grids in a form or as a list in a dashboard. Some public views exist by default for system entities and for any custom entity. For example, when you create a new custom entity, it will have the following combination of public and system views.  
+Public views are general purpose views that you can customize as you see fit. These views are available in the view selector and you can use them in sub-grids in a form or as a list in a dashboard. Some public views exist by default for system entities and for any custom entity. For example, when you create a new custom entity, it will have the following combination of public and system views.  
   
 |Name|Type|  
 |----------|----------|  
@@ -87,8 +84,5 @@ You can create views in two ways:
 - **Using the Solution Explorer:** If you’re already experienced with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you may want to use the Solution Explorer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a view](../customize/create-and-edit-views.md). 
 
 ### See also  
- [Gett started with customization](../customize/getting-started-customization.md)     
- [Create and design forms](../customize/create-design-forms.md)   
-   
- 
-
+[Get started with customization](../customize/getting-started-customization.md)     
+[Create and design forms](../customize/create-design-forms.md)
