@@ -2,7 +2,7 @@
 title: "Duplicate rule entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "These entities contain data that define duplicate detection rules."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -132,9 +132,9 @@ The following special messages can also be used:
 [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)<br />
 [Run duplicate detection](run-duplicate-detection.md)<br />
 [Duplicate detection messages](duplicate-detection-messages.md)<br />
-[Sample: Enable duplicate detection and retrieve duplicates](sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
-[Sample: Use duplicate detection when creating and updating records](sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
-[Sample: Detect multiple duplicate records](sample-detect-multiple-duplicate-records.md)<br />
+[Sample: Enable duplicate detection and retrieve duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
+[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
+[Sample: Detect multiple duplicate records](org-service/sample-detect-multiple-duplicate-records.md)<br />
 
 
 

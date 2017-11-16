@@ -2,7 +2,7 @@
 title: "Sample: Use duplicate detection when creating and updating records (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to detect duplicate records when when creating and updating entity records."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,26 +25,27 @@ manager: "amyla"
 ---
 # Sample: Use duplicate detection when creating and updating records
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [With duplicate detections](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
 
 ## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
+[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
   
 ## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
  This sample shows how to invoke duplicate detection for creating and updating entity records.  
   
 ## Example  
- [!code-csharp[DuplicateDetection#InvokeDuplicateDetectionForCreateAndUpdate](../snippets/csharp/CRMV8/duplicatedetection/cs/invokeduplicatedetectionforcreateandupdate.cs#invokeduplicatedetectionforcreateandupdate)]  
+ [!code-csharp[DuplicateDetection#InvokeDuplicateDetectionForCreateAndUpdate](../../snippets/csharp/CRMV8/duplicatedetection/cs/invokeduplicatedetectionforcreateandupdate.cs#invokeduplicatedetectionforcreateandupdate)]  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365](detect-duplicate-data-for-developers.md)   
- [Run Duplicate Detection](run-duplicate-detection.md)   
- [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md)   
- [Pass Optional Parameters in Messages](org-service/use-messages-request-response-classes-execute-method.md#bkmk_optional_params)   
- [Sample: Detect Multiple Duplicate Records](sample-detect-multiple-duplicate-records.md)  
- [Duplicate detection messages](duplicate-detection-messages.md)
+ [Detect Duplicate Data in Dynamics 365](../detect-duplicate-data-for-developers.md)   
+ [Run Duplicate Detection](../run-duplicate-detection.md)   
+ [Use Messages (Request and Response Classes) with the Execute Method](use-messages-request-response-classes-execute-method.md)   
+ [Pass Optional Parameters in Messages](use-messages-request-response-classes-execute-method.md#bkmk_optional_params)   
+ [Sample: Detect Multiple Duplicate Records](sample-detect-multiple-duplicate-records.md) 
+ [Sample: Enable duplicate detection and retrieve duplicates](sample-enable-duplicate-detection-and-retrieve-duplicates.md)  
+ [Duplicate detection messages](../duplicate-detection-messages.md)
