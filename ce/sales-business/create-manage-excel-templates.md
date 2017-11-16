@@ -1,6 +1,6 @@
 ---
-title: "Manage Excel templates in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Help your users analyze and present Sales data to others using Excel templates in Dynamics 365 for Sales, Business edition"
+title: "Manage Excel templates in Dynamics 365 for Sales | Microsoft Docs"
+description: "Help your users analyze and present Sales data to others using Excel templates in Dynamics 365 for Sales."
 keywords: "Excel template; Sales Forecasting; Analysis"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create and manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Create and manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
+[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates for:
 
@@ -43,7 +43,7 @@ Templates display information from the view defined for a record type (entity). 
 
 ## Step 1: Create a new template from existing data
 
-1.  Make sure you have the System Administrator role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the System Administrator role in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 2.  Go to **Advanced** **Settings** &gt; **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and Word Templates** &gt; **New** **Template**. You must have a System Administrator or System Customizer role to be able to access the Advanced Settings page.
 
@@ -69,7 +69,7 @@ Open the newly-created template in [!INCLUDE[pn-excel-short](../includes/pn-exce
 
 ![Excel template with data](media/Excel-template-with-data.png "Excel template with data")  
 
-Let’s walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template using [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] sample data.
+Let’s walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template using [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] sample data.
 
 Example customization of Opportunities data  
 
@@ -85,7 +85,7 @@ Example customization of Opportunities data
 
 4.  Create a pivot table and chart.
 
-   Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template.
+   Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template.
 
    For more information, see: [Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates](#best-practices-and-considerations-for-using-excel-templates).  
 
@@ -93,20 +93,20 @@ Example customization of Opportunities data
 
 5.  Save the spreadsheet.
 
-You’re now ready to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+You’re now ready to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 ## Step 3: Upload the template and share with others
 
-When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
-Administrators can use the **Advanced Settings** page to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+Administrators can use the **Advanced Settings** page to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 > [!Note]
 > Users in your organization can see the templates available to them by selecting the **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** button on the command bar in the list of records.
 
-Upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+Upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
-1.  In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], go to **Advanced Settings** &gt; **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and Word Templates** &gt; **Upload Template**.
+1.  In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], go to **Advanced Settings** &gt; **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and Word Templates** &gt; **Upload Template**.
 
 2.  Find and upload the file.
 
@@ -120,7 +120,7 @@ Upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template in
 
 ## Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
-Here are some things you need to be aware of to create and make best use of [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+Here are some things you need to be aware of to create and make best use of [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 - **Test your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates**
 
@@ -132,11 +132,11 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
  **Consider the following scenario:**
 
--   A [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] administrator creates a template where the view contains sensitive data in a pivot chart which is uploaded into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+-   A [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] administrator creates a template where the view contains sensitive data in a pivot chart which is uploaded into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 -   A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file to do data analysis.
 
-   **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] administrator including access to views for which the salesperson does not have permissions.
+   **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] administrator including access to views for which the salesperson does not have permissions.
 
   In addition, iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] app on iOS devices.
 
@@ -158,7 +158,7 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
 -   **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images may cause an error**
 
- If you attempt to view [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data with an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you may see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+ If you attempt to view [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] data with an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you may see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 -   **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates and Office Mobile app in [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 8.1**
 
@@ -172,5 +172,5 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
 
 ### See Also
-[Use document templates in Dynamics 365 for Sales, Business edition](Use-document-templates-create-standardized-documents.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Use document templates in Dynamics 365 for Sales](Use-document-templates-create-standardized-documents.md)  
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

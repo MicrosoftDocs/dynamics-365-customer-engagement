@@ -1,6 +1,6 @@
 ---
-title: "Configure email in Dynamics 365 for Sales, Business edition by integrating with Exchange | Microsoft Docs"
-description: "Enable your Dynamics 365 for Sales, Business edition users to send and receive emails by integrating with Exchange."
+title: "Configure email in Dynamics 365 for Sales by integrating with Exchange | Microsoft Docs"
+description: "Enable your Dynamics 365 for Sales users to send and receive emails by integrating with Exchange."
 keywords: "Email; Exchange; Mailbox"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -15,19 +15,19 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Configure email in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with Exchange 
+# Configure email in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] by integrating with Exchange 
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-To store email and other messaging records in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you need to synchronize it with your email system.
+To store email and other messaging records in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], you need to synchronize it with your email system.
 
-[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] uses server-side synchronization to synchronize your email system with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] uses server-side synchronization to synchronize your email system with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 ## What is Server Side Synchronization?
 
-Using server-side synchronization makes messaging data available to a web browser, tablet, or smartphone that is running [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+Using server-side synchronization makes messaging data available to a web browser, tablet, or smartphone that is running [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
-Server-side synchronization provides direct [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]-to-email server synchronization. When you use Exchange, you can synchronize email, contacts, tasks, and appointments.
+Server-side synchronization provides direct [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]-to-email server synchronization. When you use Exchange, you can synchronize email, contacts, tasks, and appointments.
 
 Some features offered by server-side synchronization include the following:
  -   Email folder tracking. You can simply drag email to a folder to track it. Folder tracking works on any mobile device that supports [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Exchange, which means you can track email from just about any device.
@@ -52,7 +52,7 @@ Exchange integration can be done from the Quick Setup or Advanced Setup.
 
 1.  Initiate Exchange integration from Quick Setup.
 
-    1.  When you log on to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] for the first time, a Welcome page appears.
+    1.  When you log on to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] for the first time, a Welcome page appears.
 
     2.  Select the **Go to the Quick Setup** tile.
 
@@ -132,5 +132,5 @@ The error must automatically resolve now. If the error persists, please contact 
 
 
 ### See Also
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

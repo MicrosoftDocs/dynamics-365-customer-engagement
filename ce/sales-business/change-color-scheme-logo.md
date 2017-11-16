@@ -1,6 +1,6 @@
 ---
-title: "Change color scheme logo Dynamics 365 Sales, Business edition | Microsoft Docs"
-description: "Create your own branding in Dynamics 365 for Sales, Business edition. "
+title: "Change color scheme logo Dynamics 365 Sales | Microsoft Docs"
+description: "Create your own branding in Dynamics 365 for Sales. "
 keywords: "color; logo; theme"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -19,7 +19,7 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in the [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app. You can create a custom look and feel (a theme), for your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] app and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for phones app by creating new themes with colors and visual elements.
+Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in the [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] app. You can create a custom look and feel (a theme), for your Sales app and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for phones app by creating new themes with colors and visual elements.
 
 The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:
 
@@ -35,7 +35,7 @@ The theme colors are applied globally throughout the application. For example, y
 
 ## Apply a new theme
 
-[!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] come with three default themes that you can use. You can choose one of these default themes and apply, or pick any other custom theme that you may have created.
+The Sales app comes with three default themes that you can use. You can choose one of these default themes and apply, or pick any other custom theme that you may have created.
 
 To apply a theme, select the theme in the **Select Theme** drop-down list, and select **Save and** **Apply Theme**.
 
@@ -52,7 +52,7 @@ The theme that you are currently using is shown with the text “currently appli
 4.  To change the logo, select **Edit** on the logo box, and then choose an image file of type JPG, PNG, GIF or SVG format.
     The image file is converted to a web resource.
 
-    To revert to the default [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] logo, select **Restore default logo**.
+    To revert to the default logo, select **Restore default logo**.
 
 5.  Enter a tooltip for the logo.
 
@@ -61,5 +61,5 @@ The theme that you are currently using is shown with the text “currently appli
 7.  Select **Save and Apply Theme**.
 
 ### See Also
-[Set up the Sales app for your team](set-up-sales-app-team.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

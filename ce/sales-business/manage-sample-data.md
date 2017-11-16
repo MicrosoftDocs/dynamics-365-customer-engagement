@@ -1,6 +1,6 @@
 ---
-title: "Manage sample data in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Add sample data to allow your users to learn and experiment with Dynamics 365 for Sales, Business edition."
+title: "Manage sample data in Dynamics 365 for Sales | Microsoft Docs"
+description: "Add sample data to allow your users to learn and experiment with Dynamics 365 for Sales."
 keywords: "Add; sample data; remove"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Add or remove sample data in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Add or remove sample data in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Sample data gives you something to experiment with as you learn [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.
+Sample data gives you something to experiment with as you learn [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.
 
 Or, if sample data isn’t installed on your system, you may want to add it for training purposes. Later, when you’re ready, you can remove it.
 
@@ -27,7 +27,7 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 > Use sample data to learn and play around with system features. However, to avoid unwanted results, don’t associate it with any data you actually need.
 
-1.  Make sure you have the System Administrator or System Customizer security role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the System Administrator or System Customizer security role in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 2.  Select the Site Map icon ![Site map icon](media/Site-map-icon.png "Open the site map icon"), and then select **Settings**.
 
@@ -43,5 +43,5 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 
 ### See Also
-[Set up the Sales app for your team](set-up-sales-app-team.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

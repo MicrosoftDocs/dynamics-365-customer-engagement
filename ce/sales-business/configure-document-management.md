@@ -1,6 +1,6 @@
 ---
-title: "Configure document management in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Enable your Dynamics 365 for Sales, Business edition users to share and manage SharePoint documents from within the Sales app."
+title: "Configure document management in Dynamics 365 for Sales | Microsoft Docs"
+description: "Enable your Dynamics 365 for Sales users to share and manage SharePoint documents from within the Sales app."
 keywords: "SharePoint; Document Management; Configure"
 ms.date: 08/09/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Configure Dynamics 365 for Sales to integrate with SharePoint
+# Configure [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to integrate with SharePoint
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Store the documents related to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] entity records in [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] by integrating with [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] Online.
+Store the documents related to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] entity records in [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from the Sales app by integrating with [!INCLUDE[pn-ms-sharepoint-long](../includes/pn-ms-sharepoint-long.md)] Online.
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ To be able to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint
 
 3.  Return to [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] Configuration again after purchasing a subscription. This time, a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription is detected.
 
- ![Button to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]](media/configure-sharepoint.png "Button to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]")  
+ ![Button to configure SharePoint](media/configure-sharepoint.png "Button to configure SharePoint")  
 
  > [!Important]
  > If your organization has a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] subscription and if [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] isn’t already configured, you’ll see an option to configure it. If it is already configured, you’ll see a message that [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] is configured.
@@ -105,5 +105,5 @@ To be able to configure [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint
 
 ### See Also
 [Manage your SharePoint documents](create-manage-documents.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
