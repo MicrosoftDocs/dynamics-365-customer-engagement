@@ -138,6 +138,9 @@ Changing an email address (or setting it for the first time) puts it into an unc
 5. Customize the confirmation email.
 6. The user clicks the confirmation link to complete the confirmation process.
 
+> [!NOTE]
+> Ensure that the primary email is specified for the contact because the confirmation email is sent only to the primary email (emailaddress1) of the contact. The confirmation email is not sent to the secondary email (emailaddress2) or alternate email (emailaddress3) of the contact record.
+
 ## Enable two-factor authentication
 
 The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local or external account sign-in. A user trying to sign in to an account that has two-factor authentication enabled is sent a security code to the confirmed email associated with their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passed the verification, so that the security code will not be required for subsequent sign-ins from the same browser. Each user account enables this feature individually and requires a confirmed email.
@@ -202,6 +205,9 @@ The following describes the settings for enabling and disabling user registratio
 | Authentication/Registration/OpenRegistrationEnabled | Enables or disables the sign-up registration form for creating new local users. The sign-up form allows any anonymous visitor to the portal to create a new user account. Default: true |
 | Authentication/Registration/InvitationEnabled       | Enables or disables the invitation code redemption form for registering users who possess invitation codes. Default: true                                                               |
 ||
+
+> [!NOTE]
+> Ensure that the primary email is specified for the user because registration is done by using the primary email (emailaddress1) of the user. The user cannot be registered by using the secondary email (emailaddress2) or alternate email (emailaddress3) of the contact record.
 
 ## User credential validation
 

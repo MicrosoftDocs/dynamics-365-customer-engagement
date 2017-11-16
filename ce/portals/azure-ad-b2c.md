@@ -495,6 +495,9 @@ When a new customer who does not exist in [!INCLUDE[pn-dynamics-crm](../includes
 
 For example:  firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle
 
+> [!NOTE]
+> Ensure that you map the email address to the primary email (emailaddress1) of the contact. If you have added secondary email (emailaddress2) or alternate email (emailaddress3) to the contact record and mapped it to the email, identity information will not be added to the contact and a new one will be created with the email address used for registration set in the primary email (emailaddress1).
+
 ### Claims to support sign-in scenarios
 
 The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in the identity provider are not directly linked, so the data might get out of sync. The portal should have a list of claims that you want to accept from any sign-in event to update in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These claims can be a subset of, or equal to, the claims coming in from a sign-in scenario. This must be configured separately from sign-in claims mapping, because you might not want to overwrite some key portal attributes. The following site setting is required:
