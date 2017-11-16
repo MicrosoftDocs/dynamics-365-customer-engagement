@@ -2,7 +2,7 @@
 title: "Assemblies included in Dynamics 365 Customer Engagement SDK (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about assemblies such as Microsoft.Crm.Sdk.Proxy.dll, Microsoft.Xrm.Sdk.dll, Microsoft.Xrm.Sdk.Workflow.dll, Microsoft.Crm.Tools.EmailProviders.dll and Microsoft.Xrm.Sdk.Deployment.dll that you can use when writing custom code"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/20/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -43,7 +43,21 @@ manager: "amyla"
 |Microsoft.Xrm.Sdk.Data||Defines methods and types needed for developing virtual entity data provider plug-ins. More information: [Get started with virtual entities](../virtual-entities/get-started-ve.md) |  
 |Microsoft.Xrm.Sdk.Deployment.dll||Defines types and methods for interacting with the Deployment Web Service.|  
 ||<xref:Microsoft.Xrm.Sdk.Deployment>|Defines the data contracts necessary to communicate with the Deployment Web Service.|  
-||<xref:Microsoft.Xrm.Sdk.Deployment.Proxy>|Defines a helper class to generate a proxy for the Deployment Web Service.|  
+||<xref:Microsoft.Xrm.Sdk.Deployment.Proxy>|Defines a helper class to generate a proxy for the Deployment Web Service.|
+|Microsoft.Xrm.Tooling.Connector||Provides the low-level interaction and wrapper methods for the Dynamics 365 Customer Engagement SDK assembly APIs. More information: [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)| 
+||<xref:Microsoft.Xrm.Tooling.Connector>|Provides classes and methods to interact with the Customer Engagement SDK assembly APIs.| 
+||<xref:Microsoft.Xrm.Tooling.Connector.Model>|Provides classes and events to communicate with the Customer Engagement Discovery Service APIs.|
+|Microsoft.Xrm.Tooling.CrmConnectControl||Defines a WPF user control that provides a common user interface for the sign-in experience to Dynamics 365 with built-in encryption for securely storing your credentials/profile, and then reusing it at runtime to automatically sign in to Dynamics 365. More information: [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)|
+||<xref:Microsoft.Xrm.Tooling.CrmConnectControl>|Provides classes and methods to define a WPF control for common sign-in experience.|
+||<xref:Microsoft.Xrm.Tooling.CrmConnectControl.Model>|Provides classes and methods for the WPF control to communicate with the Customer Engagement Discovery Service APIs.|
+||<xref:Microsoft.Xrm.Tooling.CrmConnectControl.Properties>|Provides a strongly-typed resource class for looking up localized strings in Customer Engagement.|
+||<xref:Microsoft.Xrm.Tooling.CrmConnectControl.Utility>|Provides clases and methods to perform utility operations such as storing, using, and managing user credentials, accessing, loading and describing configuration entries, and managing trace control settings.|
+|Microsoft.Xrm.Tooling.WebResourceUtility||Provides support for accessing information from the following two types of web resources in Customer Engagement: Image and XML. More information: [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)|
+||<xref:Microsoft.Xrm.Tooling.WebResourceUtility>|Provides clases and methods to access information from Image and XML type of web resources in Customer Engagement.|
+|Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase||Defines properties and customizations for the Customer Engagement package. More information: [Create packages for the Dynamics 365 Package Deployer](../create-packages-package-deployer.md)|
+||<xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase>|Provides clases and methods to define properties and customizations for the Customer Engagement package.|
+
+
   
 ### See also  
  [Programming models for Dynamics 365 Customer Engagement](../programming-models.md)   
