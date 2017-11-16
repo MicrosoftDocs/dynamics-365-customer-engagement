@@ -208,7 +208,7 @@ OData-Version: 4.0
 
 By default, duplicate detection is suppressed when you are updating records using the Web API. You must include the `MSCRM.SuppressDuplicateDetection: false` header with your PATCH request to enable duplicate detection . Duplicate detection only applies when the organization has enabled duplicate detection, the entity is enabled for duplicate detection, and there are active duplicate detection rules being applied. For more information, see [Detect duplicate data for developers](../detect-duplicate-data-for-developers.md).
 
-See [Detect duplicates during Update operation using the Web API](../manage-duplicate-detection-create-update.md#detect-duplicates-during-update-operation-using-the-web-api) for more information on how to check for duplicate records during Update operation.
+See [Detect duplicates during Update operation using the Web API](manage-duplicate-detection-create-update.md#detect-duplicates-during-update-operation-using-the-web-api) for more information on how to check for duplicate records during Update operation.
 
 ### See also
 
