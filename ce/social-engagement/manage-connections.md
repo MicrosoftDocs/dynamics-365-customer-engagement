@@ -1,20 +1,19 @@
 ---
-title: "Manage connections in Social Engagement | Microsoft Docs" 
+title: "Manage connections in Social Engagement | Microsoft Docs"
 description: "Learn how to get started with connections to other services."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "connect, connections, integration, dynamics 365"
+ms.date: 11/16/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: get-started-article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 7b9ac951-beb1-46e7-a585-edadd941a3df
-caps.latest.revision: 14
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Manage connections in Social Engagement
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets admins connect to and share social data with other applications.  To work with social data in other applications, you can connect them on the Connections page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Settings area. Depending on the application you want to connect to, the type of connection varies.  
   
@@ -27,6 +26,8 @@ manager: sakudes
 -   Manage  a list of domains that allow applications  to connect with and request data from your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](connect-other-domains.md)  
   
     -   To display [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] widgets in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you need to connect [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  For [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to be able to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], its domain must be allowed in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Microsoft Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)  
+
+    -   If you want to import [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data to [!include[](../includes/pn-customer-insights-full.md)], you can add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] as a data source. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add Microsoft Social Engagement as a data source](https://docs.microsoft.com/dynamics365/customer-engagement/customer-insights/deploy/datasourcemse)
   
 ### See Also  
  [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
