@@ -34,7 +34,7 @@ For complete details about how to customize [!INCLUDE[pn-microsoftcrm](../includ
 
 For more information about writing code and developing for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], see the [Dynamics 365 Developer’s Center](https://msdn.microsoft.com/en-us/dynamics365).
 
-## Add custom validation rules to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+## Add custom validation rules
 
 A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
  is its ability to check published content for errors before going live. You've probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (check for errors) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors or messages that won’t compile). After the error check, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] displays the results right on the page, including error messages that should help the user solve the issue.
