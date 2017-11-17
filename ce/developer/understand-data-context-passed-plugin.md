@@ -26,7 +26,7 @@ When a plug-in is run in response to an execution pipeline event for which it is
   
 <a name="bkmk_context"></a>   
 ## Access the plug-in execution context  
- <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the [System.IServiceProvider](https://msdn.microsoft.com/library/system.iserviceprovider.aspx) parameter that is passed at run time to a plug-in through its [IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\)) method.  
+ <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the [System.IServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.uii.csr.browser.web.iserviceprovider?view=dynamics-usd-3) parameter that is passed at run time to a plug-in through its [IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\)) method.  
   
  [!code-csharp[Plug-ins#FollowupPlugin1](../snippets/csharp/CRMV8/plug-ins/cs/followupplugin1.cs#followupplugin1)]  
   
