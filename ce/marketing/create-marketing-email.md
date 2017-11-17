@@ -63,7 +63,7 @@ To create a marketing email and go live:
 
     > [!TIP] The very first text that you enter on the page is especially important because most email clients show this as preview text for the messages in their inbox list. Here is how it looks in [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-outlook-short](../includes/pn-ms-outlook-short.md)]:
     >
-    >![How email content looks in the Outlook inbox list](media/email-inbox-list.png "How email content looks in the Outlook inbox list")
+    >![How email content looks in the Outlook inbox list](media/email-inbox-list-ill.png "How email content looks in the Outlook inbox list")
     >
     >Messages that come from a familiar sender that have an enticing subject and relevant preview text are much more likely to get opened than messages that have just some, or none, of those things.
 
