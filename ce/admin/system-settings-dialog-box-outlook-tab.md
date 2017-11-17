@@ -51,5 +51,5 @@ Use the settings on this page to configure how [!INCLUDE[pn_MS_Outlook_Short](..
 |**Set schedule for address book synchronization in Dynamics 365 for Outlook**||  
 |Users can schedule background address book synchronization|Default: Yes. If Yes, users can update the address book that is stored on their computer to use offline.|  
 |Minimum time between address book synchronizations|Default: 1 hour. The local address book is synchronized with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on the specified interval.|  
-|**Set whether users see Microsoft Dynamics 365 message](../includes/pn-crm-for-outlook-short.md)] message**|| 
+|**Set whether users see [Microsoft Dynamics 365 message](../includes/pn-crm-for-outlook-short.md)] message**|| 
 |Users see “Get [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]” option displayed in the message bar|Default: Yes. If Yes, the **Get Dynamics 365 for Outlook** button is displayed in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].|
