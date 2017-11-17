@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 App for Outlook Overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Preview feature: Dynamics 365 App for Outlook Overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -19,7 +19,7 @@ manager: "brycho"
 # Overview of Dynamics 365 App for Outlook 
 
 > [!IMPORTANT]
-> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later version only. 
+> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)], a preview feature, works with the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. 
 >
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
 >
@@ -33,9 +33,9 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
 ## Known issues
 
-For known issues with the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md).
+For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md).
 
-## What's new with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]
+## What's new in [pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]
   The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
 
 - Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] functionality is now included.
@@ -68,8 +68,7 @@ For known issues with the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-
 -   Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
 ### See also
-
-[Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)
+[Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)<br />
 [Dynamics 365 App for Outlook User Guide](dynamics-365-app-outlook-user-s-guide.md)
 
 
