@@ -1,6 +1,6 @@
 ---
-title: "Manage your documents from Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Store and manage documents on SharePoint from within Dynamics 365 for Sales, business edition."
+title: "Manage your documents from Dynamics 365 for Sales | Microsoft Docs"
+description: "Store and manage documents on SharePoint from within Dynamics 365 for Sales."
 keywords: "SharePoint; document management; sales"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-With [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
+With [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
 
 The documents that you create in the Sales app are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.
 
@@ -75,13 +75,11 @@ For example,
 
   ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")  
 
-  [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] now organizes documents in a consolidated view.
-
 3.  Select **Document Location** to filter the document list. Select from the available document locations.
 
 ## Create a new document
 
-To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] document in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]:
+To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] document in your app:
 
 1.  Go to the record you want to create the document for, and select the **Documents** tab.
 
@@ -107,7 +105,7 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
 ## Upload a document
 
-To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]:
+To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from your app:
 
 1.  Go to the record you want to create the document for, and select the **Documents** tab.
 
@@ -126,7 +124,7 @@ To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sha
 
 ## Manage [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations
 
-You may create new or edit existing [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+You may create new or edit existing [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations from your app.
 
 In the **Documents** list
 
@@ -158,7 +156,7 @@ In the **Documents** list
 
    > [!Note]
 
-   > If your folder name contains a slash (/), [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
+   > If your folder name contains a slash (/), [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
 
 ## Actions on documents
 
@@ -180,4 +178,4 @@ When you select one or more documents in the Documents list, you can take the fo
 ### See Also
 [Configure Dynamics 365 for Sales to integrate with SharePoint](configure-document-management.md)  
 [Manage your customers](create-accounts-contacts-customers.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Meet the new Sales app for small to medium-sized business](overview-dynamics-365-for-sales.md)

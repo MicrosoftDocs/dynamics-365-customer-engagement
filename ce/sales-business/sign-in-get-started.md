@@ -1,6 +1,6 @@
 ---
-title: "Signing in to Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Quickly onboard and learn about Dynamics 365 for Sales, Business edition and its user interface."
+title: "Signing in to Dynamics 365 for Sales | Microsoft Docs"
+description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -15,7 +15,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Signing in to [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition
+# Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -25,7 +25,7 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
 
 1.  Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
 
-  ![[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane](media/app-launcher-pane.png "[!INCLUDE[pn-office-365](../includes/pn-office-365.md)] App Launcher pane")  
+  ![Office 365 App Launcher pane](media/app-launcher-pane.png "Office 365 App Launcher pane")  
 
  > [!Note]
 
@@ -52,7 +52,7 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
 
 2.  Fill in the fields, and then select **Save**.
 
-## Business processes in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+## Business processes in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
 
@@ -84,4 +84,4 @@ There are three ready-to-use business processes that you can use as you move you
 
 
 ### See Also
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
