@@ -31,7 +31,7 @@ A *web resource* stores the data equivalent to files used in web development. We
 |<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest>|Retrieves a web resource. You can also call the<xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*> method.|  
 |<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>|Retrieves a collection of web resources. You can also call the<xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method.|  
 |<xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedRequest>|Retrieves the current saved definition of a web resource regardless whether it has been published.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>|Retrieves the current saved definition of web resources regardless whether they have been published.|  
+|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveUnpublishedMultipleRequest*>|Retrieves the current saved definition of web resources regardless whether they have been published.|  
 |<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>|Updates a web resource. You can also call the<xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method.|  
   
 ### See also
