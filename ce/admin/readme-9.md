@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement General Availability Readme (Known Issues) | MicrosoftDocs"
-ms.date: 10/09/2017
+ms.date: 11/17/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -8,8 +8,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 ---
-Dynamics 365 Customer Engagement<br>General Availability Readme (Known Issues)
-==============================================================================
+Dynamics 365 Customer Engagement<br/>General Availability Readme (Known Issues)
+===============================================================================
 
 This document provides important, late-breaking information about this product
 version:
@@ -18,10 +18,10 @@ version:
 
 You’ll also find information about known issues and possible workarounds.
 
-Services & Apps Availability 
------------------------------
+Services and apps availability 
+-------------------------------
 
-| Services & Apps                                                                             | GA | Public Preview | Private Preview |
+| Services and Apps                                                                           | GA | Public Preview | Private Preview |
 |---------------------------------------------------------------------------------------------|----|----------------|-----------------|
 | Dynamics 365 for Sales, Enterprise edition and Dynamics 365 for Service, Enterprise edition | X  |                |                 |
 | Dynamics 365 for Field Service                                                              | X  |                |                 |
@@ -38,16 +38,16 @@ Services & Apps Availability
 | Organizational Insights                                                                     | X  |                |                 |
 | CaféX Live Assist                                                                           | X  |                |                 |
 | Document recommendations                                                                    | X  |                |                 |
-| Company News (Available on 10/8)                                                            | X  |                |                 |
+| Company News                                                                                | X  |                |                 |
 | Unified Service Desk                                                                        | X  |                |                 |
 | Voice of the Customer                                                                       | X  |                |                 |
-| Dynamics 365 App for Outlook (Available on 10/8)                                            |    | X              |                 |
+| Dynamics 365 App for Outlook                                                                |    | X              |                 |
 | Relationship Insights - Auto Data Capture                                                   |    | X              |                 |
 | Relationship Insights - Relationship Assistance                                             |    | X              |                 |
 | Relationship Insights - Email Engagement                                                    |    | X              |                 |
 | Customer Insights                                                                           |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                                                              |    | X              |                 |
-| Cortana (Available on 10/8)                                                                 |    | X              |                 |
+| Cortana                                                                                     |    | X              |                 |
 | Mobile offline (Dynamics 365 for tablets and phones)                                        |    |                | X               |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
 
@@ -72,7 +72,7 @@ Sales and Customer Service web client apps
     -   Occasionally unable to unsubscribe an account, contact, or lead from the
         campaign activity.
 
--   Suggestions are not available on the Product sub-grid in Quote, Order, and
+-   Suggestions are not available on the Product sub-grid in Quote, Order, or
     Invoice forms.
 
 -   Unable to create a new data source entity when there are spaces in the
@@ -84,23 +84,23 @@ Sales and Customer Service web client apps
 -   Unable to convert a campaign response to a lead.
 
 -   Unable to open a Campaign Activity page to unsubscribe an account, contact,
-    or lead, convert a campaign.
+    or lead, or to update a campaign.
 
 -   Unable to add a custom view as a subcomponent for the Account entity in a
     solution.
 
 -   Using the Customer Service Representative role, the user is unable to save a
-    case for a customer with Entitlement setting for "**Decrease Remaining On**"
-    as "**Case Creation”**. There is no issue in saving a case record otherwise.
+    case for a customer with Entitlement setting for Decrease Remaining On
+    upon Case Creation. There is no issue in saving a case record otherwise.
 
 -   Pricing error notifications are not displayed on the Quote Order Invoice
     detail forms.
 
--   Unable to Add Quote from opportunity form for products with Read-only
-    property.
+-   Unable to Add Quote from an opportunity form for products that are
+    read-only.
 
--   Save and Close of Price List Item displays an error and does not close the
-    window properly.
+-   The **Save & Close** command for a Price List Item displays an error and
+    does not close the window properly.
 
 Sales Hub and Customer Service Hub apps
 
@@ -109,9 +109,9 @@ in the browser or on mobile devices for each scenario. 
 
 | **Service**                                       | **Unified Interface app in a browser** | **Unified Interface app on mobile** | **Web client in a browser** |
 |---------------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|
-| Sales                                             |                                        | Sales Hub                           | Sales                       |
-| Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                |                             |
-| Customer Service - Case management scenarios      |                                        | Customer Service Hub                | Customer Service            |
+| Sales                                             | –                                      | Sales Hub                           | Sales                       |
+| Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                | –                           |
+| Customer Service - Case management scenarios      | –                                      | Customer Service Hub                | Customer Service            |
 
  
 
@@ -120,74 +120,89 @@ in the browser or on mobile devices for each scenario. 
 -   An error is displayed on iPads whenever a user tries to add a product to an
     opportunity. The workaround is to dismiss the error.
 
--   The command bar action of a sub-grid with no title (Opportunity product,
-    Opportunity Quotes) appears as an ellipsis above the grid but not aligned
-    right.
+-   The command bar action of a sub-grid that has no title (Opportunity product,
+    Opportunity Quotes) appears as an ellipsis above the grid but is not aligned
+    correctly.
 
 -   Web resources are not rendered on the dashboards.
 
 -   Web resources and iframe tags are not displayed with the height and width
     they’re allocated in the mobile app configuration.
 
--   Quote command bar is missing icons.
+-   The Quote command bar is missing icons.
 
--   Opportunity Product Quick Create opens in new window instead of through a
-    sliding dialog.
+-   Opportunity Product Quick Create opens in a new window instead of through a
+    sliding dialog box.
+
+-   On activities, **Convert to Opportunity** and **Convert to Case** are not
+    available
 
 ### Customer Service Hub app on Dynamics 365 for tablets and Dynamics 365 for phones 
 
 -   Forms
 
-    -   When you install the Community portal, the **Read-only in Mobile**
-        metadata flag is enabled for the Case entity. This results in the Case
-        entity being read-only in the Customer Service Hub. The workaround is to
-        go to entity customizations, and for the Case entity metadata, clear the
-        **Read-only in mobile** check box. Then, click **Save** and **Publish
+    -   When you install the Community portal, the Read-only in Mobile metadata
+        flag is enabled for the Case entity. This results in the Case entity
+        being read-only in the Customer Service Hub. The workaround is to go to
+        entity customizations, and for the Case entity metadata, clear the
+        **Read-only in mobile** check box. Then, select **Save** and **Publish
         all customizations**.
 
-    -   In certain Trial organizations, saving Knowledge articles causes a
-        duplicate record error due to an issue with the Knowledge article
-        sequence number. The work around is to update the prefix of the
-        Knowledge article public number (**Settings** \> **Administration** \>
-        **Auto Numbering** \> **Knowledge Articles**) or update the article
-        sequence number by using an API.
+    -   In certain Trial organizations, saving knowledge articles causes a
+        duplicate record error due to an issue with the knowledge article
+        sequence number. The workaround is to update the prefix of the knowledge
+        article public number (**Settings** \> **Administration** \> **Auto
+        Numbering** \> **Knowledge Articles**) or update the article sequence
+        number by using an API.
 
     -   The Case business process flow is not available when a new case is being
         created. It is available after the Case form is saved.
 
-    -   Phone to case process: The Find Case option on the identify stage is not
+    -   Phone to case process: The Find Case option on the Identify stage is not
         available for update for an existing case.
 
-    -   On devices, use the **Assign** action from the command bar. Changing the
-        owner value using the owner lookup is not functional.
+    -   On devices, changing the owner value by using the owner lookup is not
+        functional. The workaround is to use the **Assign** action from the
+        command bar.
 
     -   The Similar Cases sub-grid is not available on the Case form.
 
     -   Email is read-only on the Customer Service Hub.
 
+    -   Links in the body of an email are not selectable.
+
+    -   Scrolling in the body of an email stops working after the user opens any
+        attachment. The workaround is to refresh the form.
+
     -   On opening the read-only user and Entitlement form, a script error is
         displayed.
 
-    -   Knowledge Articles related translations sub-grid is getting hidden while
-        zooming in.
+    -   The Knowledge Articles Related Translations sub-grid is hidden when the
+        user zooms in.
 
     -   Anchor links are not working in the Knowledge Search control.
 
+-   Quickly navigating from Activities forms while they are still loading might
+    lead to intermittent errors in the application.
+
+-   On activities, **Convert to Case** and **Convert to Opportunity** are not
+    available
+
 -   Other
 
-    -   User and team queues are not available in the Add to Queue lookup.
+-   User and team queues are not available in the Add to Queue lookup.
 
-    -   Fallback forms are shown for the main forms for Category, Feedback, and
+-   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
     the forms manually. This issue will be fixed in the upcoming release, but
     orgs upgrading from Potassium Preview will need to manually activate the
     forms.
 
-    -   Invalid commands are visible for custom activities from the sitemap.
+-   Invalid commands are visible for custom activities from the site map.
 
-App modules and App Designer
-----------------------------
+App modules and the App Designer
+--------------------------------
 
 -   The app module URL suffix provides a friendly URL for the app module in the
     form \<server url\>/apps/sales. Admins can set this URL suffix for their
@@ -195,15 +210,15 @@ App modules and App Designer
     cannot be exported or imported via solutions at this time.
 
 -   In some versions of the Firefox browser, the check boxes on the Create App
-    page in App Designer don’t appear.
+    page in the app designer don’t appear.
 
 -   Any change in the name of a chart or dashboard made through corresponding
-    editors launched from App Designer will be reflected in the App Designer for
-    the app module only after refresh.
+    editors launched from the app designer will be reflected in the app designer
+    for the app module only after refresh.
 
--   The Custom business process flow entity that is created for custom business
-    process flow might not get automatically added to the App Designer canvas
-    when the business process flow is added to the app module.
+-   The Custom Business Process Flow entity that is created for a custom
+    business process flow might not get automatically added to the app designer
+    canvas when the business process flow is added to the app module.
 
 View designer
 -------------
@@ -238,8 +253,8 @@ Data visualization
     workaround is to reload the application.
 
 -   When an activity grid is configured to be rendered as a calendar control,
-    the Open Dashboards command opens the Activity Pointer dashboard instead of
-    the actual activity dashboard.
+    the **Open Dashboards** command opens the Activity Pointer dashboard instead
+    of the actual activity dashboard.
 
 -   Doughnut charts, pie charts; and other charts might not be rendered
     correctly; this can affect the usability of some of the charts in visual
@@ -251,10 +266,13 @@ Data visualization
 -   In global filters and applied filters, the default minimum value of numeric
     data type appears in scientific notation instead of decimal.
 
--   Under certain conditions, after you click **Switch to Tile View** or
-    **Switch to Stream view**, some of the tiles and stream may show a **See
+-   Under certain conditions, after you select **Switch to Tile View** or
+    **Switch to Stream View**, some of the tiles and streams might show a **See
     more** action. This action is not intended to be shown and will be fixed in
     a future release.
+
+-   Filtering by using multi-select option sets in global filters is not
+    supported.
 
 ### Charts in Unified Interface
 
@@ -279,14 +297,13 @@ Data visualization
 -   Users will experience some right-to-left issues on charts, such as tooltips
     not showing up.
 
--   When you click **Show Chart** on a grid while in offline mode, no chart will
-    be displayed.
+-   When you select **Show Chart** on a grid while in offline mode, no chart
+    will be displayed.
 
 Timeline control
-----------------
 
--   Trying to enable **Show Filter Pane** in the configuration property of
-    Timeline control in dashboard shows the message “An unexpected error
+-   Trying to enable **Show Filter Pane** in the configuration property of the
+    Timeline control in a dashboard shows the message “An unexpected error
     occurred.” This is a transient problem; the workaround is to close the
     dashboard editor and refresh the page.
 
@@ -306,8 +323,8 @@ Field controls and mobile application in Unified Interface
 -   Selecting a location card does not open the map in the native app of the
     device.
 
--   Phone call activity quick-create form is not opened when the call action is
-    initiated on the mobile app.
+-   The Phone Call activity quick-create form is not opened when the call action
+    is initiated on the mobile app.
 
 -   Date fields cannot be set in Internet Explorer 11, Firefox, or Edge.
 
@@ -315,20 +332,20 @@ Field controls and mobile application in Unified Interface
     editing.
 
 -   On Android devices, when you perform a quick create and use the **Duration**
-    field, the inline mode of editing the duration value results in the entire
-    quick create form scrolling up. The workaround is to swipe down to locate
-    the **Duration** field and continue the update. There are no issues with
+    field, the inline mode of editing the duration value causes the entire quick
+    create form to scroll up. The workaround is to swipe down to locate the
+    **Duration** field, and then continue the update. There are no issues with
     using the out-of-the-box values when you use the **Duration** field selector
-    (down arrow icon).
+    (down arrow).
 
--   Text controls - Long values are not getting wrapped in read mode.
+-   In text controls, long strings are not getting wrapped in read mode.
 
 -   Unable to add an unresolved email ID to a party list.
 
 -   Incorrect quick-create forms are rendered when a new record is created by
     using **+New** in the Regarding lookup field.
 
--   **Lookup most recently used list** doesn't take into account the lookup
+-   The Lookup most recently used list doesn't take into account the lookup
     view.
 
 -   Unable to change the value of the Owner field in the header fields section.
@@ -372,25 +389,62 @@ Multi-select option set in Unified Interface
 Timer control in Unified Interface
 ----------------------------------
 
--   The Timer control is not supported, and it results in an “Error loading
-    control” message. For the out-of-box Case form in Customer Service Hub app,
-    the workaround is to navigate to the SLA tab and revisit the Summary tab.
-
--   The Timer state does not change in sync mode when SLA is paused.
+-   SLA Timer does not pause or resume when a case is put on hold or resumed.
+    The workaround is to refresh the form.
 
 Subject control in Unified Interface
 ------------------------------------
 
--   The last node within a hierarchical structure of a subject tree doesn’t
-    appear as a child of its parent. It is shown at the same level as a parent
-    node.
+-   The subject tree is not displayed when the Subject attribute is selected
+    while converting an activity to a case and when creating a case by using the
+    quick create mode.
 
 Dynamics 365 App for Outlook
 ----------------------------
 
--   Dynamics 365 App for Outlook will be available in a future update of this
-    product. The previously released version of the app is not supported with
-    this release.
+-   Dynamics 365 App for Outlook is currently available as a Public Preview and
+    can be enabled through **System Settings** \> **Previews** tab \> **Enable
+    Dynamics 365 App for Outlook Preview**. The previously released version of
+    the app is not supported with this release.
+
+-   Initial loading might take some time.
+
+-   When selecting **See more** to see more entities, Outlook 2013 and Outlook
+    2016 display an add-in error, Chrome and IE 11 display a “long running
+    script” error message, and Edge displays a blank screen for a while and then
+    navigates to the previous page.
+
+-   On Outlook 2013 and Outlook 2016, Outlook frequently displays “add-in
+    error.”
+
+-   On IE 11, IE frequently displays a “long running script” error message.
+
+-   When navigating to a record’s main form, Outlook 2013 and Outlook 2016
+    display an add-in error; in Chrome and IE 11 the app displays a “Script
+    Error” message.
+
+-   When entering text in the **Look for Records** field when you set regarding,
+    in Outlook 2013 and Outlook 2016, some of the characters disappear. On
+    Chrome, IE 11, and Edge the lookup sometimes stays in the “Loading…” state
+    forever.
+
+-   The Back button does not work on Outlook 2016 and Outlook 2013. On browsers,
+    selecting the back icon navigates to the previous webpage (this is the same
+    action as selecting the browser Back button).
+
+-   The ability to follow and email while composing is not available.
+
+-   The app is not supported while accessing it from Outlook Web Application
+    from Safari or Firefox.
+
+-   The app is currently not supported on Outlook for Mac.
+
+-   While scrolling in the app, the action might be delayed or the app might
+    become unresponsive for few seconds.
+
+-   When tracking / set regarding to an email, and selecting **View email in
+    Dynamics 365**, one of sections in the email entity might display an error
+    “You not a member of this organization.”
 
 Inactivity timeout
 ------------------
@@ -416,7 +470,12 @@ Inactivity timeout
 Business process flows
 ----------------------
 
--   Action Steps within Business process flows cannot use process actions that
+### Action Steps
+
+This feature is in Public Preview and can be activated under System Settings.
+When activated, users should observe the following behaviors:
+
+-   Action steps within business process flows cannot use process actions that
     contain any of the following: any input or output arguments of type Entity,
     EntityCollection, or Option Set (picklist); more than one output argument of
     type EntityReference; or any input arguments of type EntityReference.
@@ -427,6 +486,16 @@ Business process flows
 -   When configured with an on-demand (real-time) workflow and called from the
     mobile Unified Interface, an action step on a business process flow will
     cause an error message and will not complete the operation successfully.
+
+### Business process entity customization
+
+This feature is in Public Preview and can be activated under System Settings.
+When activated, users should observe the following behavior:
+
+-   When a new business process definition is added to an application through
+    the app designer, the corresponding business process entity is also added to
+    the site map if the primary data entity for that business process is already
+    on the site map.
 
 Web client visual refresh
 -------------------------
@@ -509,7 +578,7 @@ Cortana integration with Dynamics 365
     commands using voice or text are not available currently. Voice or text
     commands such as "Dynamics 365 open account called Contoso" or "CRM find
     account called Contoso" will be redirected to open as a web search in Bing.
-    While the rest of the capabilities are still available, we are working on
+    Although the rest of the capabilities are still available, we are working on
     these reactive commands and plan to release them in a future update.
 
 Third-party notice 
