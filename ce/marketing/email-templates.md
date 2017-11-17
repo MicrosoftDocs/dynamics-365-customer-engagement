@@ -15,6 +15,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+
 # Work with email templates
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a wide variety of templates, each of which provides both structural and style elements. Styled templates include color schemes and sample images, while structural templates include just a skeleton that establishes the basic structure and column layout. Though you can always change the content and styles, the column layout is semi-permanently established by the template you choose. To change the column layout, you must either create a new message and base it on the appropriate template or edit the code directly by using the HTML editor.
@@ -45,8 +46,8 @@ Here are some common style settings provided by the out-of-box templates:
 
 - **Outer background**: The color shown outside of your message content (behind the "paper")
 - **Inner background**: The color shown behind your message content (the "paper color")
-- **Hero image settings**: The hero image, when present, is usually the largest image on the page, and is usually near or at the top of the message. These settings control the source URL of the image and style settings that affect it. Use the browse button for the hero-image setting to choose an image from your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] image library.
-- **Font and body text settings**: These set typographical options that apply to most of the text content of your message (usually not including headings.
+- **Hero image settings**: The hero image, when present, is usually the largest image on the page, and is usually near or at the top of the message. These settings control the source URL of the image and style settings that affect it. Use the browse button for the **Hero image** setting to choose an image from your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] image library.
+- **Font and body text settings**: These set typographical options that apply to most of the text content of your message (usually not including headings).
 - **Colors**: A good graphic design usually shouldn't include too many colors, and the colors used should harmonize together well. Templates typically use 2-4 colors that you can set individually to match your preferred color palette. These colors typically map to heading text, call-to-action buttons, text-box backgrounds, and borders used in the design. The following naming conventions are used most typically (and additional colors are sometimes provided):
   - **Color 1**: Primary buttons
   - **Color 2**: Secondary buttons or/and feature blocks
