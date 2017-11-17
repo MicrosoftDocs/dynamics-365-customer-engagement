@@ -222,6 +222,9 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
   
    ![Untrack Regarding](media/open-untrack-regarding.png)
 
+## Compose an email message and link it to a Dynamics 365 record  
+Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
+
 ## Gain insights into your activities with relationship assistant
 
 The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing right now. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.
@@ -238,9 +241,6 @@ When you start your day by signing in to Dynamics 365, the assistant draws your 
 To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png).
 
 ![Relationship Assistant](media/relationship-assistant.png)
-
-## Compose an email message and link it to a Dynamics 365 record  
-Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
 
 <!--
 ## Monitor an email message after you send it  
