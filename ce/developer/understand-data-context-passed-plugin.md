@@ -22,7 +22,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-When a plug-in is run in response to an execution pipeline event for which it is registered, the plug-in’s <xref:Microsoft.Xrm.Sdk.Client.IPlugin>.Execute(IServiceProvider)<!--[IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\))--> method is called. That method passes an [IServiceProvider](https://msdn.microsoft.com/library/system.iserviceprovider.aspx) object as a parameter, which contains a number of useful objects. The following sections describe some of the information that is passed to a plug-in when executed.  
+When a plug-in is run in response to an execution pipeline event for which it is registered, the plug-in’s [IServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.uii.csr.browser.web.iserviceprovider?view=dynamics-usd-3)<!--[IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\))--> method is called. That method passes an [IServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.uii.csr.browser.web.iserviceprovider?view=dynamics-usd-3) object as a parameter, which contains a number of useful objects. The following sections describe some of the information that is passed to a plug-in when executed.  
   
 <a name="bkmk_context"></a>   
 ## Access the plug-in execution context  
