@@ -65,13 +65,17 @@ topic-status: Drafting
 </td></tr>
 <tr><td>
 <h2>User Guide</h2>
-<li>[Create, target, and deliver online marketing content](marketing-execution-section.md)</li>
-<li>[Manage, score, and qualify leads](qualify-leads-section.md)</li>
+<li>[Design digital content](design-digital-content.md)</li>
+<li>[Prepare marketing email messages](prepare-marketing-emails.md)</li>
+<li>[Create and deploy marketing pages](create-deploy-marketing-pages.md)</li>
+<li>[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)</li>
+<li>[Score and manage leads](score-manage-leads.md)</li>
 <li>[Plan and manage events](event-management.md)</li>
+<li>[Engage customers online with portals](portals.md)</li>
+<li>[Create and run online surveys](surveys.md)</li>
+<li>[Integrate with LinkedIn Lead Gen](linkedin-lead-gen-integration.md)</li>
 <li>[Analyze results with Power BI](power-bi-analytics.md)</li>
-
 </td><td>
-
 
 </td></tr>
 </table>
