@@ -77,7 +77,7 @@ You can create or edit views in two ways:
 - **Using the Solution Explorer:** If you’re already experienced with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you may want to use the Solution Explorer. However, we recommend you to use App Designer to create or edit a view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a view](../customize/create-and-edit-views.md).
 
 ## Customize views
-As a system administrator and system customizer, you can customize the views through controls by making grids (lists) editable and compatable for Unified Interface. The following controls are used:
+As a system administrator and system customizer, you can customize the views through controls by making grids (lists) editable and compatible for Unified Interface. The following controls are used:
 - **Editable Grid:** Allows users to do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
 - **Read Only Grid:** Provides users an optimal viewing and interaction experience for any screen size or orientation such as mobiles and tablets by using responsive design principles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Specify properties for Unified Interface apps](../customize/specify-properties-for-unified-interface-apps.md)
 
