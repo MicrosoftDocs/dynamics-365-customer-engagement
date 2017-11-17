@@ -21,21 +21,26 @@ topic-status: Drafting
 
 <tr><td>
 
-<h2>Get started</h2>
+<h2>Administer the system</h2>
+<li>[Initial purchase and setup](purchase-setup.md)</li>
+<li>[Open the Settings work area](open-advanced-settings.md)</li>
+<li>[Organization settings](organization-settings.md)</li>
+<li>[Business Management settings](business-management-settings.md)</li>
+<li>[Marketing settings](marketing-settings.md)</li>
+<li>[Events settings](events-settings.md)</li>
+<li>[Additional settings](additional-settings.md)</li>
+<li>[Manage your quotas](quota-management.md)</li>
+<li>[Customize Dynamics 365 for Marketing](#)</li>
+
+</td><td>
+
+
+<h2>Learn the basics</h2>
 <li>[Dynamics 365 for Marketing Overview](overview.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
-<li>[Export data](export-data-Word-Excel.md)</li>
 <li>[Get ready for email marketing](get-ready-email-marketing.md)</li>
-
-</td><td>
-
-<h2>User Guide</h2>
-<li>[Create, target, and deliver online marketing content](marketing-execution-section.md)</li>
-<li>[Manage, score, and qualify leads](qualify-leads-section.md)</li>
-<li>[Analyze marketing results](analyze-results-section.md)</li>
-<li>[Plan and manage events](event-management.md)</li>
 
 </td></tr>
 <tr><td>
@@ -60,23 +65,14 @@ topic-status: Drafting
 
 </td></tr>
 <tr><td>
-
-<h2>First time setup</h2>
-<li>[Prerequisites](#)</li>
-<li>[Run the setup wizard](purchase-setup.md)</li>
-<li>[Prepare your new instance for use](#)</li>
+<h2>User Guide</h2>
+<li>[Create, target, and deliver online marketing content](marketing-execution-section.md)</li>
+<li>[Manage, score, and qualify leads](qualify-leads-section.md)</li>
+<li>[Plan and manage events](event-management.md)</li>
+<li>[Analyze results with Power BI](power-bi-analytics.md)</li>
 
 </td><td>
 
-<h2>Administer the system</h2>
-<li>[Open the Settings work area](open-advanced-settings.md)</li>
-<li>[Organization settings](organization-settings.md)</li>
-<li>[Business Management settings](business-management-settings.md)</li>
-<li>[Marketing settings](marketing-settings.md)</li>
-<li>[Events settings](events-settings.md)</li>
-<li>[Additional settings](additional-settings.md)</li>
-<li>[Manage your quotas](quota-management.md)</li>
-<li>[Customize Dynamics 365 for Marketing](#)</li>
 
 </td></tr>
 </table>
