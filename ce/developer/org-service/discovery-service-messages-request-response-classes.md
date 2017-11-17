@@ -26,7 +26,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> provides an [DiscoveryRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.discovery.idiscoveryservice.execute\(microsoft.xrm.sdk.discovery.discoveryrequest\)) method to perform supported operations. This method takes a message request class as a parameter and returns a message response class. Request message class names end with "Request" and response message class names end with "Response”.  
+The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> provides an [DiscoveryRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.discovery.idiscoveryservice.execute\(microsoft.xrm.sdk.discovery.discoveryrequest\)) <xref:Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest> method to perform supported operations. This method takes a message request class as a parameter and returns a message response class. Request message class names end with "Request" and response message class names end with "Response”.  
   
  ![Execute message flow](../media/crm-v5s-executemessage.png)  
   
