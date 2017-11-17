@@ -12,7 +12,7 @@ Dynamics 365 Customer Engagement<br/>General Availability Readme (Known Issues)
 ===============================================================================
 
 This document provides important, late-breaking information about this product
-version:
+version: 
 
 -   Dynamics 365 (online), version 9.0
 
