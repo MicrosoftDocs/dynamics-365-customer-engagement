@@ -30,10 +30,9 @@ topic-status: Drafting
 <li>[Events settings](events-settings.md)</li>
 <li>[Additional settings](additional-settings.md)</li>
 <li>[Manage your quotas](quota-management.md)</li>
-<li>[Customize Dynamics 365 for Marketing](#)</li>
+<li>[Customize Dynamics 365 for Marketing](customize.md)</li>
 
 </td><td>
-
 
 <h2>Learn the basics</h2>
 <li>[Dynamics 365 for Marketing Overview](overview.md)</li>
@@ -46,22 +45,22 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Basic tutorials</h2>
-<li>[Create a dynamic segment](#)</li>
-<li>[Create a marketing email and go live](#)</li>
-<li>[Create a simple customer journey with email messaging](#)</li>
-<li>[Create a landing page with a form](#)</li>
-<li>[Create an interactive customer journey with triggers and signup](#)</li>
-<li>[Set up automatic lead generation and scoring](#)</li>
+<li>[Create a dynamic segment](create-segment.md)</li>
+<li>[Create a marketing email and go live](create-marketing-email.md)</li>
+<li>[Create a simple customer journey with email messaging](create-simple-customer-journey.md)</li>
+<li>[Create a landing page with a form](create-landing-page.md)</li>
+<li>[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)</li>
+<li>[Set up automatic lead generation and scoring](set-up-lead-scoring.md)</li>
 
 </td><td>
 
 <h2>Advanced tutorials</h2>
-<li>[Generate activities from a customer journey](#)</li>
-<li>[Manage images for landing pages and email messages](#)</li>
-<li>[Create templates for emails, pages, forms, and journeys](#)</li>
-<li>[Track website visits, social media clicks, and banner clicks](#)</li>
-<li>[Create an inbound customer journey](#)</li>
-<li>[Set up subscription lists and subscription centers](#)</li>
+<li>[Generate activities from a customer journey](generate-activities-from-customer-journey.md)</li>
+<li>[Manage images for landing pages and email messages](manage-images.md)</li>
+<li>[Create templates for emails, pages, forms, and journeys](create-templates.md)</li>
+<li>[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)</li>
+<li>[Create an inbound customer journey](create-inbound-customer-journey.md)</li>
+<li>[Link description](set-up-subscription-center.md)</li>
 
 </td></tr>
 <tr><td>
