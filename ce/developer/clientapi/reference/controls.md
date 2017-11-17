@@ -131,7 +131,6 @@ These are the methods available for knowledge base search control.
 <ul>
 <li>[removeOnResultOpened](controls/removeOnResultOpened.md)</li>
 <li>[removeOnSelection](controls/removeOnSelection.md)</li>
-<li>[setDisabled](controls/setDisabled.md)</li>
 <li>[setFocus](controls/setFocus.md)</li>
 <li>[setLabel](controls/setLabel.md)</li>
 <li>[setSearchQuery](controls/setSearchQuery.md)</li>

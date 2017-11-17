@@ -17,7 +17,7 @@ Sets whether the control is disabled.
 
 ## Control types supported
 
-All
+All except **kbsearch** control type
 
 ## Syntax
 
