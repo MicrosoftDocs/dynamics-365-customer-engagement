@@ -61,7 +61,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
 > [!NOTE]
 > The Data Source Secret attribute is only available with fields added to a Data Source form.
 
-![Data source secret attribute](media/datasourcesecret.png)
+![Data source secret attribute](../customize/media/datasourcesecret.png)
   
 <a name="createVirtualEntity"></a>   
 ## Create a virtual entity  
