@@ -1,28 +1,31 @@
 ---
-title: "Manage teams in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Use teams in Dynamics 365 for Sales, Business edition to group users who share and collaborate on business records.  "
+title: "Manage teams in Dynamics 365 for Sales | Microsoft Docs"
+description: "Use teams in Dynamics 365 for Sales to group users who share and collaborate on business records.  "
 keywords: "Team; Manage Members; Role"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: d5a034ff-efa9-4087-8a21-cd801b458465
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
-# Add or manage teams in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+
+# Add or manage teams in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 1.  Go to **Advanced Settings** &gt; **Team Management**.
 
-2.  Click **Add Team**.
+2.  Select **Add Team**.
 
-3.  Enter the following details, and then click **Add**.
+3.  Enter the following details, and then select **Add**.
 
   -   Team Name
 
@@ -36,26 +39,26 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
 ## Add members to the team
 
-1.  In the **Team Management** page, select the team you want to add members to, and then on the command bar, click **Add Members**.
+1.  In the **Team Management** page, select the team you want to add members to, and then on the command bar, select **Add Members**.
 
-2.  Select the members, and then click **Add**.
+2.  Select the members, and then select **Add**.
 
 ## Remove members from the team
 
-1.  In the **Team Management** page, select the team you want to remove the members from, and then on the command bar, click **Remove Members**.
+1.  In the **Team Management** page, select the team you want to remove the members from, and then on the command bar, select **Remove Members**.
 
-2.  Select the members you want to remove, and then click **Remove**.
+2.  Select the members you want to remove, and then select **Remove**.
 
 ## Manage Roles
 
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
-1.  Click **Advanced Settings** &gt; **Team Management**.
+1.  Select **Advanced Settings** &gt; **Team Management**.
 
-2.  Select a team you want to assign a role to, and then on the command bar, click **Manage Roles**.
+2.  Select a team you want to assign a role to, and then on the command bar, select **Manage Roles**.
 
-3.  In the **Manage Roles** dialog box, select the security role you want for the team, and then click **OK**.
+3.  In the **Manage Roles** dialog box, select the security role you want for the team, and then select **OK**.
 
 ### See Also
 [Add or manage users in Dynamics 365 for Sales](add-edit-users.md)   
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

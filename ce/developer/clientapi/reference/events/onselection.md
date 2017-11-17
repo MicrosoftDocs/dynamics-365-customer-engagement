@@ -15,7 +15,7 @@ manager: "amyla"
 
 This event occurs when a knowledge base article is selected in the knowledge base search control. 
 
-Use the [addOnSelection]((../controls/addOnSelection.md)) and [removeOnSelection]((../controls/removeOnSelection.md)) methods to add and remove event handlers respectively for this event. 
+Use the [addOnSelection](../controls/addOnSelection.md) and [removeOnSelection](../controls/removeOnSelection.md) methods to add and remove event handlers respectively for this event. 
 
 
 

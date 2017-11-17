@@ -18,7 +18,7 @@ manager: "amyla"
 
 ## Syntax
 
-`Xrm.Panel.LoadPanel(url, title)`
+`Xrm.Panel.loadPanel(url, title)`
 
 ## Parameters
 

@@ -1,6 +1,6 @@
 ---
 title: "getCurrentPosition| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -29,12 +29,28 @@ manager: "amyla"
  
 
 ## Return Value
-On success, returns a promised base64 encoded audio object with the attributes specified earlier.
+On success, returns a geolocation object with the attributes specified earlier in the **successCallback** function.
 
 ## Remarks
 For the **getCurrentPosition** method to work, the geolocation capability must be enabled on your mobile device, and the Dynamics 365 Customer Engagement mobile clients must have permissions to access the device location, which isn't enabled by default.
 
 This method is supported only for the mobile clients.
+
+## Example
+
+```JavaScript
+Xrm.Device.getCurrentPosition().then(
+    function success(location) {
+        Xrm.Navigation.openAlertDialog({
+            text: "Latitude: " + location.coords.latitude +
+            ", Longitude: " + location.coords.longitude
+        });
+    },
+    function (error) {
+        Xrm.Navigation.openAlertDialog({ text: error.message });
+    }
+);
+```
 
 ### Related topics
 [Xrm.Device](../xrm-device.md)

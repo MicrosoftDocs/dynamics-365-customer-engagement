@@ -68,6 +68,6 @@ http[s]://<hostname[:port]>/XRMServices/2011/Discovery.svc
 ## Related Sections  
  [Write Applications and Server Extensions](../extend-dynamics-365-server.md)<br />
  [Use Dynamics 365 Services](use-services-in-code.md)<br />
- [Download endpoints using Developer resources page](../download-endpoints-developer-resources-page.md)<br />
+ [Download endpoints using Developer resources page](../developer-resources-page.md)<br />
  [Access the Web Services in Dynamics 365](../authenticate-users.md)<br />
  [Quick Start: A Simple Program](../simple-program-web-services.md)<br />

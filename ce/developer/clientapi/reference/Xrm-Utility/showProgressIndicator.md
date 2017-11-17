@@ -17,7 +17,7 @@ manager: "amyla"
 
 Any subsequent call to this method will update the displayed message in the existing progress dialog with the message specified in the latest method call.
 
->[!NOTE]
+>[!WARNING]
 >The progress dialog blocks the execution until it is closed using the [closeProgressIndicator](closeProgressIndicator.md) method. So, you must use this method with caution.
 
 ## Syntax

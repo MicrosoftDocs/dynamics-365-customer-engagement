@@ -13,7 +13,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[./includes/getStatus-description.md](./includes/getStatus-description.md)]
+[!INCLUDE[./includes/getSteps-description.md](./includes/getSteps-description.md)]
 
 ## Syntax
 

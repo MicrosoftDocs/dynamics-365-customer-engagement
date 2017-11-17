@@ -1,6 +1,6 @@
 ---
 title: "retrieveRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -48,8 +48,8 @@ manager: "amyla"
 <ul><li>Use the <b>$select</b> system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using <b>$select</b>, all properties will be returned.</li>
 <li>Use the <b>$expand</b> system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the <b>$select</b> system query option in parentheses after the navigation property name. Use this for both <i>single-valued</i> and <i>collection-valued</i> navigation properties.</li>
 </ul>
-<p>You can also specify multiple query options by using <code>&</code> to separate the query options. For example:</p>
-<code>$select=name&$expand=primarycontactid($select=contactid,fullname)</code>
+<p>You specify the query options starting with <code>?</code>. You can also specify multiple query options by using <code>&</code> to separate the query options. For example:</p>
+<code>?$select=name&$expand=primarycontactid($select=contactid,fullname)</code>
 <p>See examples later in this topic to see how you can define the <code>options</code> parameter for various retrieve scenarios.</td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@ On success, returns a promise containing a JSON object with the retrieved attrib
 Retrieves the name and revenue of an account record wwith record ID = 5531d753-95af-e711-a94e-000d3a11e605.
 
 ```JavaScript
-Xrm.WebApi.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "$select=name,revenue").then(
+Xrm.WebApi.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=name,revenue").then(
     function success(result) {
         console.log(`Retrieved values: Name: ${result.name}, Revenue: ${result.revenue}`);
         // perform operations on record retrieval
@@ -99,7 +99,7 @@ The above example displays the following in your console; you might see other va
  The following example demonstrates how to retrieve the contact for an account record with record ID = a8a19cdd-88df-e311-b8e5-6c3be5a8b200. For the related contact record, we are only retrieving the **contactid** and **fullname** properties.
 
 ```JavaScript
-Xrm.WebApi.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "$select=name&$expand=primarycontactid($select=contactid,fullname)").then(
+Xrm.WebApi.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=name&$expand=primarycontactid($select=contactid,fullname)").then(
     function success(result) {
         console.log(`Retrieved values: Name: ${result.name}, Primary Contact ID: ${result.primarycontactid.contactid}, Primary Contact Name: ${result.primarycontactid.fullname}`);
         // perform operations on record retrieval
