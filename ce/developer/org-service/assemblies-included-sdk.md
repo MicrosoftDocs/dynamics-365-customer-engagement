@@ -51,11 +51,11 @@ manager: "amyla"
 ||<xref:Microsoft.Xrm.Tooling.CrmConnectControl>|Provides classes and methods to define a WPF control for common sign-in experience.|
 ||<xref:Microsoft.Xrm.Tooling.CrmConnectControl.Model>|Provides classes and methods for the WPF control to communicate with the Customer Engagement Discovery Service APIs.|
 ||<xref:Microsoft.Xrm.Tooling.CrmConnectControl.Properties>|Provides a strongly-typed resource class for looking up localized strings in Customer Engagement.|
-||<xref:Microsoft.Xrm.Tooling.CrmConnectControl.Utility>|Provides clases and methods to perform utility operations such as storing, using, and managing user credentials, accessing, loading and describing configuration entries, and managing trace control settings.|
+||<xref:Microsoft.Xrm.Tooling.CrmConnectControl.Utility>|Provides classes and methods to perform utility operations such as storing, using, and managing user credentials, accessing, loading and describing configuration entries, and managing trace control settings.|
 |Microsoft.Xrm.Tooling.WebResourceUtility||Provides support for accessing information from the following two types of web resources in Customer Engagement: Image and XML. More information: [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)|
-||<xref:Microsoft.Xrm.Tooling.WebResourceUtility>|Provides clases and methods to access information from Image and XML type of web resources in Customer Engagement.|
+||<xref:Microsoft.Xrm.Tooling.WebResourceUtility>|Provides classes and methods to access information from Image and XML type of web resources in Customer Engagement.|
 |Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase||Defines properties and customizations for the Customer Engagement package. More information: [Create packages for the Dynamics 365 Package Deployer](../create-packages-package-deployer.md)|
-||<xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase>|Provides clases and methods to define properties and customizations for the Customer Engagement package.|
+||<xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase>|Provides classes and methods to define properties and customizations for the Customer Engagement package.|
 
 
   
