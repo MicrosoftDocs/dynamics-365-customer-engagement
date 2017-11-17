@@ -64,7 +64,7 @@ topic-status: Drafting
 
 </td></tr>
 <tr><td>
-<h2>Do marketing with Dynamics 365</h2>
+<h2>Marketing with Dynamics 365</h2>
 <li>[Design digital content](design-digital-content.md)</li>
 <li>[Prepare marketing email messages](prepare-marketing-emails.md)</li>
 <li>[Create and deploy marketing pages](create-deploy-marketing-pages.md)</li>
