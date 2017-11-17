@@ -135,7 +135,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
    
 - Field metadata properties that validate on update don’t apply to virtual entities. For example, a Whole Number field on a virtual entity field may be set to have a minimum value of zero. However, since the value is coming from an external data source, a query will return values less than zero when retrieved from a virtual entity.  The minimum value property is not implied in the query.  You would still need to filter the values to be greater than 0 if that’s what is desired.
 
-- Virtual entities don't aupport change tracking and cannot be synchronized by using a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] feature, such as the [!INCLUDE [cc-data-export-service](../includes/cc-data-export-service.md)].
+- Virtual entities don't support change tracking and cannot be synchronized by using a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] feature, such as the [!INCLUDE [cc-data-export-service](../includes/cc-data-export-service.md)].
   
 ### See also  
 
