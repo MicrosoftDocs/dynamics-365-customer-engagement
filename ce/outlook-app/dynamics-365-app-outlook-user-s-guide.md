@@ -203,7 +203,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
   
 ### To add an email template:  
   
-1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
+1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. See [Create an email message template](https://support.office.com/article/Create-an-email-message-template-d14aff6f-b5be-4144-8979-2dca68a96215). 
   
 2.  At the top of the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane, click **Templates**.  
   
