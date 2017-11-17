@@ -1,7 +1,7 @@
 ---
 title: "Create and design forms (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -35,7 +35,7 @@ There are several types of forms in [!INCLUDE[pn_dynamics_crm](../includes/pn-dy
 |Form type|Description|More information|  
 |---------------|-----------------|-----------------|  
 |**Main**|Used in the web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.|[Design considerations for main forms](../customize/design-considerations-main-forms.md)|  
-|**Mobile**|Used for the [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-microsoft-dynamics-crm-mobile.md)] pages. This simplified form is designed to be used for mobile devices.|[Customize the mobile app](../customize/customize-phones-tablets.md)  |  
+|**Mobile**|Used for the [!INCLUDE[pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] pages. This simplified form is designed to be used for mobile devices.|[Customize the mobile app](../customize/customize-phones-tablets.md)  |  
 |**Quick Create**|Used in the web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms provide a basic form optimized for creating new records.|[Create and edit quick create forms](../customize/create-edit-quick-view-forms.md) |  
 |**Quick View**|Used in the web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form.|[Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)|  
 
