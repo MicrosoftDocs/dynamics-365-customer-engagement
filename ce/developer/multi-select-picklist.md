@@ -54,7 +54,7 @@ OData-Version: 4.0
 OData-EntityId: [organization uri]/api/data/v9.0/contacts(0c67748a-b78d-e711-811c-000d3a75bdf1)
 ```
 
-With the Organization service using the assemblies, use the [OptionSetValueCollection](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.metadata.optionsetvaluecollection) to set values for this attribute as shown in the following C# example:
+With the Organization service using the assemblies, use the <xref:Microsoft.Xrm.Sdk.OptionSetValueCollection> to set values for this attribute as shown in the following C# example:
 ```csharp
 OptionSetValueCollection activities = new OptionSetValueCollection();
 activities.Add(new OptionSetValue(1)); //Swimming

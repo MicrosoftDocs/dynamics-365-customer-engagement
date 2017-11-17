@@ -1,6 +1,6 @@
 ---
-title: "Use document templates in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Create standardized documents by using document templates in Dynamics 365 for Sales, Business edition."
+title: "Use document templates in Dynamics 365 for Sales | Microsoft Docs"
+description: "Create standardized documents by using document templates in Dynamics 365 for Sales."
 keywords: "Word template; Excel template; Document; Invoice Summary; Quote Summary"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Use document templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], Business edition to create standardized documents
+# Use document templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to create standardized documents
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can use both Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] to create standardized documents for your customers.
+You can use both Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to create standardized documents for your customers.
 
 ## Generate a document from the Word template
 
@@ -33,13 +33,13 @@ To use the Word template you’ve created, do the following:
 
 3.  Only templates built for the selected record type (entity) will be displayed. For example, if you open an opportunity record, you will not see a template you created with the Account entity.
 
-4.  You need to refresh the page to see the template. Either refresh your browser or close and reopen [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+4.  You need to refresh the page to see the template. Either refresh your browser or close and reopen [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
-  After you select your Word template, [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] creates a Word document from the record you selected.
+  After you select your Word template, [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] creates a Word document from the record you selected.
 
 ### Try out the sample Word templates
 
-There are five ready-to-use Word templates included with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+There are five ready-to-use Word templates included with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 ![Document template list showing all Word and Excel templates](media/excel-word-templates.png "Document template list showing all Word and Excel templates")  
 
@@ -61,7 +61,7 @@ To apply a sample Word template
 
   > [!Note]
 
-  > Templates that are included in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] are read-only and cannot be changed.
+  > Templates that are included in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] are read-only and cannot be changed.
 
 ## Export and analyze data using the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template 
 
@@ -71,20 +71,20 @@ The process for using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md
 
 ### Step 1: Select an entity to analyze
 
-In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], select a record type (entity) to analyze with the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template you created.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], select a record type (entity) to analyze with the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template you created.
 
 For example, go to **Sales** &gt; **Opportunities** &gt; **My Open Opportunities**.
 
 ![Open list of opportunities](media/list-of-opportunities.png "Open list of opportunities")  
 
 
-### Step 2: Export [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data using your new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
+### Step 2: Export [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] data using your new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 Select the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template you created. Select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** &gt; &lt;template name&gt;.
 
 ![Select the Pipeline Management Excel template on opportunity record](media/choose-excel-template-option-on-opportunity.png "Select the Pipeline Management Excel template on opportunity record")  
 
-### Step 3: Analyze your [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] data in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
+### Step 3: Analyze your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] data in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
 
 What you see in the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] spreadsheet is based on two things:
 
@@ -98,7 +98,7 @@ Save a copy either online or to your computer. Send the file to others for their
 
 ### Try out the sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
-There’s a ready-to-use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template included with [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+There’s a ready-to-use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template included with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 ![Document template list showing all Word and Excel templates](media/excel-word-templates.png "Document template list showing all Word and Excel templates")  
 
@@ -114,9 +114,9 @@ To apply a sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] temp
 
 > [!Tip]
 
-> You can export the templates that are included in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], modify them, and then reimport them as new templates. This can give you a running start on creating your own custom [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates.
+> You can export the templates that are included in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], modify them, and then reimport them as new templates. This can give you a running start on creating your own custom [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates.
 
 
 ### See Also
-[Manage Excel templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-excel-templates.md)  
-[Manage Word templates in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](create-manage-word-templates.md)  [Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
+[Manage Excel templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-excel-templates.md)  
+[Manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-word-templates.md) [Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  

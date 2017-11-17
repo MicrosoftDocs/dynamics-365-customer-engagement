@@ -81,7 +81,15 @@ To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-cr
  [![Banner for Dynamics 365 YouTube channel](../basics/media/see-more-videos-on-youtube.png "Banner for Dynamics 365 YouTube channel")](http://go.microsoft.com/fwlink/p/?LinkID=325001)  
 <!-- The fwlink above is correct - updated to point to the how-to playlists
 -->
-   
+
+## Community tools 
+
+**Export to Excel** is a tool provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
+     
 ### See also  
  [Export data to Excel](../basics/export-data-excel.md)   
  [Export to Excel PivotTable](../basics/export-excel-pivottable.md)   

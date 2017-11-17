@@ -128,7 +128,7 @@ topic-status: Drafting
 
 ## Community tools
 
-**View Lyout Replicator** and **View Designer** are tools that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**View Layout Replicator** and **View Designer** are tools provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

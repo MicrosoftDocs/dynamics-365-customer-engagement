@@ -1,6 +1,6 @@
 ---
-title: "Automatic generation of quotes and invoices in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Enable automatic creation of standardized quotes and invoice documents in Dynamics 365 for Sales, Business edition."
+title: "Automatic generation of quotes and invoices in Dynamics 365 for Sales | Microsoft Docs"
+description: "Enable automatic creation of standardized quotes and invoice documents in Dynamics 365 for Sales."
 keywords: "automatic; quote document; invoice document"
 ms.date: 07/14/2017
 ms.service: dynamics-365
@@ -32,5 +32,5 @@ Make sure that all the quotes or invoices that your sales team is sending out to
 5.  Select **Save**.
 
 ### See Also
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
-[Set up the Sales app for your team](set-up-sales-app-team.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

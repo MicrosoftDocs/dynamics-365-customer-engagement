@@ -2,7 +2,7 @@
 title: "Check the health state of your social profiles in Scial Engagement | Microsoft Docs"
 description: "Learn how to keep the tokens of your social profiles in a healthy state."
 keywords: "token, health state"
-ms.date: 10/17/2017
+ms.date: 11/15/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -19,13 +19,17 @@ topic-status: Drafting
   
  socialengagement@microsoft.com will send email notifications for the following scenarios:  
   
--   Your token has been active for 30 days and will expire soon. Re-authenticate your token or add an additional token.  
+-   Your token has been active for 30 days and will expire soon. Reauthenticate your token or add an additional token.  
   
--   Your token has been active for 45 days and will expire soon. Re-authenticate your token or add an additional token.  
+-   Your token has been active for 45 days and will expire soon. Reauthenticate your token or add an additional token.  
   
 -   Your acquisition health state has switched from green to yellow. Only one token is currently valid.  
   
 -   Your acquisition health state has switched from yellow to red. No tokens are currently valid and all data will be lost if no tokens are authenticated.  
+
+
+> [!IMPORTANT]
+> While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
   
 ## Social profile ownership  
  To claim ownership of an account, go to **Settings** > **Social Profiles**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)  
