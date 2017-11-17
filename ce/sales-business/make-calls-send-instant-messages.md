@@ -1,6 +1,6 @@
 ---
-title: "Make calls or send instant messages in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Use Skype or Skype for Business to make calls or send instant messages to customers or users directly from Dynamics 365 for Sales, Business edition"
+title: "Make calls or send instant messages in Dynamics 365 for Sales | Microsoft Docs"
+description: "Use Skype or Skype for Business to make calls or send instant messages to customers or users directly from Dynamics 365 for Sales."
 keywords: "Skype; Skype for Business; Click-to-call; sales"
 ms.date: 07/15/2017
 ms.service: dynamics-365
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Make calls or send instant messages in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+# Make calls or send instant messages in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-If your organization is set up to use Skype or Skype for Business, you can select a phone number to call your contacts from within [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. This capability is called “click-to-call.”
+If your organization is set up to use Skype or Skype for Business, you can select a phone number to call your contacts from within [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. This capability is called “click-to-call.”
 
 If your organization is set up to use Skype for Business, you can also send instant messages to other users in your organization.
 
@@ -39,7 +39,7 @@ In Skype for Business, select **Click to Call**.
 
 ## Make a Skype Call
 
-You can start a Skype call from the Skype contact card in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]. Select the Skype address under the Skype section to make a Skype call.
+You can start a Skype call from the Skype contact card in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. Select the Skype address under the Skype section to make a Skype call.
 
 A Skype contact card is shown for all the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] users. A contact card appears when you move your mouse over the name of a user or their presence status.
 
@@ -47,7 +47,7 @@ A Skype contact card is shown for all the [!INCLUDE[pn-crm-shortest](../includes
 
 ## See the presence of users 
 
-In [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], you’ll be able to see the presence/availability status of other [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] users as they appear in different forms, views, grids and subgrids. Here’s where you’ll be able to see their presence:
+In [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], you’ll be able to see the presence/availability status of other [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] users as they appear in different forms, views, grids and subgrids. Here’s where you’ll be able to see their presence:
 
 -   Sales team grid in Opportunity form
 
@@ -61,11 +61,11 @@ If your administrator has enabled Skype for Business, you will automatically be 
 
 ## Send an IM using Skype for Business
 
-You can start an IM conversation from the Skype contact card in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+You can start an IM conversation from the Skype contact card in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 To start a conversation with a user, select on the IM address in the contact card for the user.
 
 
 ### See Also
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
-[Set up click-to-call in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]](configure-click-to-call.md)
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Set up click-to-call in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](configure-click-to-call.md)

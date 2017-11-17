@@ -62,6 +62,14 @@ When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
 -   If you’re going to make changes and import the data file back in to Dynamics 365, remember that secured, calculated, and composite fields (e.g. Full Name) are read-only and can’t be imported in to Dynamics 365. You’ll be able to edit these fields in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but when you import the data back in to Dynamics 365 these fields will not be updated. If you want to update these fields such as a contact’s name then it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to Dynamics 365 for changes.  
   
+## Community tools 
+
+**Export to Excel** is a tool provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
+
 ## Privacy notice  
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]
   
