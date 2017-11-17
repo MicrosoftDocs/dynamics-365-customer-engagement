@@ -152,7 +152,8 @@ For example, to set privileges for the Mailbox entity:
 - Not supported
 
 #### iPhone
-- Outlook for iOS on iPhone 6S, 6S plus and higher with iOS 10 
+<!-- - Outlook for iOS on iPhone 6S, 6S plus and higher with iOS 10 -->
+- Not supported
 
 #### iPad
 - Not supported
@@ -331,8 +332,8 @@ Check back later for updates on supported platforms.
 
 1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the preview feature. See [Enable preview](#enable-preview).
 
-   > [!NOTE]
-   > [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is not the same as [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is deprecated with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] and will be removed in a future major release.
+<!--   > [!NOTE]
+   > [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is not the same as [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is deprecated with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] and will be removed in a future major release. -->
 
 2. If you see the message "Your account's email settings aren't configured to use this app", you need to [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).
 

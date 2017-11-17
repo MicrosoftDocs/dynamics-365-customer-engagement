@@ -124,6 +124,7 @@ The **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane appears
 |3     |Summary information about the recipient's account.|
 |4     |Shows if the email message or meeting is linked to a record and if it's being tracked.         |
 |5     |Click to set or change linking and tracking. You can also choose to view your email in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].         |
+|6     |Click to add an activity. |
 |7 & 8     |Click and then select **Set Regarding** to link to the record.         |
 
 ![Dynamics 365 App for Outlook pane](media/full-pane-2.png)
@@ -141,13 +142,13 @@ Let's go over the individual elements in the menu bar.
 
 |Element  |Description  |
 |---------|---------|
-|![Menu - Home](media/menu-home.png)|Choose **Menu** > **Home** > **Dashboards** > takes you to the main page. <br />Choose **Menu** > **Recent** to see Favorites and recently used records.|
+|![Menu - Home](media/menu-home.png)|Choose **Menu** > **Home** > **Dashboards**  to go to the main page. <br />Choose **Menu** > **Recent** to see Favorites and recently used records.|
 |![Menu - Home](media/navbar-home-btn.png)|Choose **Home** to see the initial view.|
 |![Menu - Back](media/navbar-back-btn.png)|Choose **Back** to return to the last thing you viewed.|
-|![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See [Create a new record and link it to a Dynamics 365 record:](#to-create-a-new-record-and-link-it-to-a-dynamics-365-record)|
+|![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide#CreateRecord"><Create a new record</a>|
 |![Menu - Search](media/navbar-search-btn.png)|Choose **Search** to search any Dynamics 365 records. |
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
-|![Menu - Templates](media/navbar-add-template-btn.png)|Choose **Templates** to add an email template when you create an email message. This provides the option to add knowledge base articles, templates, or sales literature. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message)|
+|![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message)|
 
 
 ## Add an email recipient as a contact or lead
@@ -190,6 +191,8 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 5. Use the left and right arrows to find related cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane. 
 
+<a name="CreateRecord"></a>
+
 ### Create a new record:  
   
 1.  Click **Quick Create**, and then select the type of record you want to create.  
@@ -211,14 +214,31 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
    ![View email in Dynamics 365](media/view-email-dynamics-365.png)
 
   
-### Untrack the regarding record:  
+### Untrack the regarding record  
 
 1. Find the record to link in a list or using Search. 
 
 2. In Tracked regarding, click (...) > **Untrack**.
   
    ![Untrack Regarding](media/open-untrack-regarding.png)
-  
+
+## Gain insights into your activities with relationship assistant
+
+The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing right now. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.
+
+Some of what the assistant can do for you:
+
+- reminds you of upcoming activities
+- evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while
+- identifies email messages that may be waiting for a reply from you
+- alerts you when an opportunity is nearing its close date
+
+When you start your day by signing in to Dynamics 365, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
+
+To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png).
+
+![Relationship Assistant](media/relationship-assistant.png)
+
 ## Compose an email message and link it to a Dynamics 365 record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
 
@@ -245,13 +265,13 @@ Create an email message and then follow the steps in [Link an email message or m
   
     > [!IMPORTANT]
     >  Do not edit the email message or change the recipients after you follow it. If you edit an email message after it’s followed, you may inadvertently delete the monitoring information or you may inadvertently add recipients who shouldn’t be followed.  
--->
+
  
 ### Remove the monitoring for an email message  
 
 1.  Select the monitored email message.  
   
-2.  Click **Unfollow**.  
+2.  Click **Unfollow**.  -->
 
 ## Add an email template when you create an email message  
 If you frequently send the same type of email, you can save time by using an email template. When you use an email template, [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)] automatically inserts the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information such as contacts or set regarding information in the email message.  
@@ -263,7 +283,7 @@ For example, you could use a Thank you template to save time whenever you want t
 > [!NOTE]
 > You must have the appropriate permissions to add email templates.  
   
-### Add an email template:  
+### Add an email template  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
@@ -271,7 +291,7 @@ For example, you could use a Thank you template to save time whenever you want t
   
     ![Add an email template](media/add-template.png)  
   
-3.  Select the entity. The default is the set regarding record. Then, click **Select**. 
+3.  Select the record type (entity). The default is the set regarding record. Then, click **Select**. 
   
     ![Select the entity](media/select-entity-email-template.png)  
 
@@ -309,7 +329,7 @@ For information on creating email templates in [!INCLUDE[pn_crm_shortest](../inc
   
     ![Add a document](media/add-sales-lit-etc.png)  
 
-3.  Select the document to add to your email message and then follow the steps to add or insert.
+3.  Select **Add Sales Literature** or **Add Knowledge Article**, and then follow the steps to add or insert the literature or article.
 
 ## Add a phone call, appointment, or task activity to Dynamics 365  
 
@@ -343,14 +363,14 @@ For information on creating email templates in [!INCLUDE[pn_crm_shortest](../inc
   
  ![Dynamics 365 App for Outlook add-in overview screen](../outlook-app/media/dynamics-365-app-outlook-add-overview-screen.png "Dynamics 365 App for Outlook add-in overview screen")  
  
-|Element  |Description  |
-|---------|---------|
-|1     |Click to see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts (contacts displayed in your default contacts view in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]).       |
-|2     |Click to see all your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contacts.   |
-|3|See whether a contact is tracked or not, or whether tracking status is pending.  |
-|4|Open a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] account record.  |
-|5|Click to call.  |
-|6|Click to email.  |
+ |Element  |Description  |
+ |---------|---------|
+ |1     |Click to see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts (contacts displayed in your default contacts view in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]).       |
+ |2     |Click to see all your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contacts.   |
+ |3|See whether a contact is tracked or not, or whether tracking status is pending.  |
+ |4|Open a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] account record.  |
+ |5|Click to call.  |
+ |6|Click to email.  |
  
   
 > [!NOTE]
@@ -407,7 +427,7 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
     4.  Click the **Refresh** button.  
   
     > [!NOTE]
-    >  If the contact isn’t already tracked, the contact will be tracked immediately and will be linked to the account. If the contract isn’t already tracked, the account record will be synchronized in the next synchronization cycle.  
+    >  If the contact isn’t already tracked, the contact will be tracked immediately and will be linked to the account. The account record will be synchronized in the next synchronization cycle.  
   
 ### Send email or schedule an appointment  
   
@@ -419,7 +439,7 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
   
 ### Search for a contact  
   
--   Enter a value in the search box. You can search for data stored in the **Full name**, **Company**, **Department**, and **Business address** fields. You can’t search for data stored in the **Tracking** status, **Business phone**, or **Email** fields.  
+-   Enter a value in the search box. You can search for data stored in the **Full name**, **Company**, **Department**, and **Business address** fields. You can’t search for data stored in the **Tracking status**, **Business phone**, or **Email** fields.  
   
 ### Filter by all contacts, tracked contacts, or untracked contacts  
 
@@ -483,23 +503,6 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
  ![Dynamics 365 App for Outlook contact tracking, number of records to show](../outlook-app/media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 App for Outlook contact tracking, number of records to show")  
 -->
  
-## Gain insights into your activities with relationship assistant
-
-The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing right now. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.
-
-Some of what the assistant can do for you:
-
-- reminds you of upcoming activities
-- evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while
-- identifies email messages that may be waiting for a reply from you
-- alerts you when an opportunity is nearing its close date
-
-When you start your day by signing in to Dynamics 365, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
-
-To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png).
-
-![Relationship Assistant](media/relationship-assistant.png)
-
 ### See also  
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   
  [Set up server-side synchronization (admins)](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
