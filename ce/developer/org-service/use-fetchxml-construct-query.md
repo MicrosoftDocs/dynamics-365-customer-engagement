@@ -119,7 +119,7 @@ EntityCollection result = _serviceProxy.RetrieveMultiple(new FetchExpression(fet
 ```  
   
 ## Query Results  
- When you execute a FetchXML query by using the <!--[QueryBase)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationserviceproxy.retrievemultiple\(microsoft.xrm.sdk.query.querybase\))--> <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.RetrieveMultiple(Microsoft.Xrm.Sdk.Query.QueryBase)> method authenticates the user. 
+ When you execute a FetchXML query by using the <!--[QueryBase)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationserviceproxy.retrievemultiple\(microsoft.xrm.sdk.query.querybase\))--> <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.RetrieveMultiple(Microsoft.Xrm.Sdk.Query.QueryBase)> <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>.<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.RetrieveMultiple(Microsoft.Xrm.Sdk.Query.QueryBase)> method authenticates the user. 
  method, the return value is an <xref:Microsoft.Xrm.Sdk.EntityCollection> that contains the results of the query. You can then iterate through the entity collection. The previous example uses the `foreach` loop to iterate through the result collection of the FetchXML query.  
   
 ### See also  
