@@ -35,7 +35,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
 For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md).
 
-## What's new in [pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]
+## What's new in Dynamics 365 App for Outlook
   The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
 
 - Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] functionality is now included.
