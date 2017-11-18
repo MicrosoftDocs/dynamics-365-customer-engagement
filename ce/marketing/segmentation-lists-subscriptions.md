@@ -59,13 +59,7 @@ The **General** tab provides general information about the segment, including:
 
 Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For marketing lists, you'll be able to choose from lists created in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and synchronized to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
 
-### The Members tab
-
-The **Members** tab shows all the contacts who are members of the current list as a result of the query set up on the **Definition** tab.
-
-### The [!INCLUDE[pn-insights](../includes/pn-insights.md)] tab
-
-Provides analytics for your segment.
+The settings on this tab are described in more detail later in this topic.
 
 ### The Related tab
 
@@ -78,3 +72,67 @@ As mentioned earlier in this topic, static segments are populated by adding cont
 Use the marketing lists feature to set up a static list, which the system will automatically synchronize with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. After you've set up the marketing list, you'll be able to use it to create your static or compound segments for use in customer journeys.
 
 For details about how to create marketing lists and use them in subscription centers and segments, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
+
+## Build a segment definition
+
+Use the **Definition** tab to build your segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
+
+### Define a segment group
+
+Each group in your segment results in a list of contacts, which are selected by the logic define in that group. For example, you might build a path as follows:
+
+1. Start with the **Marketing List** entity to find a marketing list named "subscribers".
+1. Continue to the **Accounts** entity to find the accounts from that list, and find only companies working in the insurance industry.
+1. End at **Contacts** entity to find contacts from those accounts, and find only contacts living in California.
+
+Because the path ends with contacts, the result is a list of contacts that live in California and work for insurance companies that are on the "subscribers" list.
+
+When working in the **Designer** view, you can build this query using the **+ And** links and drop-down lists to produce the following:
+
+![An example of a segment group definition](media/segment-designer-example.png "An example of a segment group definition")
+
+Another way to work here is to use the **Explore** view, which provides a graphical map of the path you are creating. To use that view, choose the **Explore** button for a group on the **Definition** tab. (It's also available on the **Flow** tab; more on that later.)
+
+![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
+
+The map at the top of the explorer shows the entities that are available for use when creating segments. The map updates as you build your query group to indicate which paths are still valid. It uses the following colors and line weights to indicate this:
+
+- **Turquoise circle**: marks the target entity—all paths must end here (currently, always **Contact**).
+- **Green circle**: marks the currently selected entity. The attributes belonging to this entity are listed below the map. Use the drop-down lists and input fields here to build a query that finds the desired records from the selected entity. After setting up a row, click the + button on the right side to add that expression to the query.
+- **Blue circles**: mark entities that are not yet used, but still available.
+- Gray circles: mark entities that are no longer selectable because of settings you have already made for the current path.
+- **Blue, bold lines**: mark paths that are not yet used, but still available.
+- **Gray, bold lines**: mark paths that are already part of the query.
+- **Gray, thin lines**: mark paths that are no longer available because of settings you have already made.
+
+Close the **Explore** view by choosing **OK**. Your resulting query is then shown in the **Designer**, just as though you had created it there (as shown previously).
+
+
+> [!NOTE] In the language of [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], _entities_ are often referred to as _profiles_.
+
+The following image shows the previous query midway through construction, where we are adding the account criterion. Note how the map colors indicate where you are, where you've been, and what you can do next (and what you can't).
+
+![The segment explorer map, showing progress](media/segment-explorer-example2.png "The segment explorer map, showing progress")
+
+> [!NOTE] On adding the final **Contacts** entity to the expression we've been describing in this example, you'll be asked to choose which of the available paths to use.
+> 
+> ![The multiple-paths dialog](media/segment-explorer-multiple-paths.png "The multiple-paths dialog")
+> 
+> The correct one is **contact\_account\_accountid\__\<suffix\>_**, which establishes how the contact entity relates to the account entity.
+
+### Combine segment groups
+
+A simple segment might have just one group, but you can create and combine as many groups a need. As a result, you can create highly sophisticated queries into your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] database.
+
+You combine groups, working first group to last, using the following operators:
+
+- **Union**: combines all members of a group with the results of the previous group.
+- **Exclude**: removes members of a group from the results of the previous group.
+- **Intersect**: removes all members from the previous group that are not also members of the current group.
+
+When you're working on the **Designer** tab, use the **+ Add Group** button to add a group and choose its operator.
+
+The **Flow** tab provides another view of how your groups are combined. Here, you get a Sankey diagram of how your groups combine, and how contacts flow into and out of the segment as a result of the operation from each group. You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
+
+![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
+
