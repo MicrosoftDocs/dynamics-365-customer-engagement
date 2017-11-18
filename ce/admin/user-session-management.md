@@ -40,8 +40,6 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 ## User session timeout
 By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
 
-By default, [!INCLUDE[pn_CRM_Online_Government_Full](../includes/pn-crm-online-government-full.md)] sets a user session timeout of 8 hours. A user is not required to log in with their credentials for up to 8 hours regardless of whether the user was active or inactive.
-
 You can change this behavior.
 
 - To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
