@@ -27,7 +27,7 @@ The main form is used by every client. This form provides a consistent user expe
   
 |Presentation|Description|  
 |------------------|-----------------|  
-|**Updated**|For the [Updated entities and classic entities](create-design-forms.md#updated-entities-and-classic-entities) and any custom entities, the updated form provides a new user experience in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. These forms have the newer command bar design, and enable additional features such as the command bar, auto-save, and business process flows.|  
+|**Updated**|For the [Updated entities and classic entities](create-design-forms.md#updated-versus-classic-entities) and any custom entities, the updated form provides a new user experience in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. These forms have the newer command bar design, and enable additional features such as the command bar, auto-save, and business process flows.|  
 |**Dynamics 365 for tablets**|[!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] presents the content of the main form in a manner optimized for a tablet.|  
 |**Dynamics 365 for phones**|[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] presents the content of the main form in a manner optimized for a phone.|  
 |**Classic**|These forms are for the entities that haven't been updated. They use the ribbon rather than the command bar and the navigation pane on the left side of the form.<br /><br /> These forms have a two-column layout.|  
