@@ -83,11 +83,11 @@ Each group in your segment results in a list of contacts, which are selected by 
 
 1. Start with the **Marketing List** entity to find a marketing list named "subscribers".
 1. Continue to the **Accounts** entity to find the accounts from that list, and find only companies working in the insurance industry.
-1. End at **Contacts** entity to find contacts from those accounts, and find only contacts living in California.
+1. End at the **Contacts** entity to find the contacts from those accounts, and find only contacts living in California.
 
-Because the path ends with contacts, the result is a list of contacts that live in California and work for insurance companies that are on the "subscribers" list.
+Because the path ends with contacts, the result is a list of contacts that live in California and work for insurance companies that are on the "subscribers" list. (Many segment groups that you create will probably query the **Contacts** entity only, but even groups such as these might employ complex logic that combines multiple AND and OR clauses.)
 
-When working in the **Designer** view, you can build this query using the **+ And** links and drop-down lists to produce the following:
+When working in the **Designer** view, you can build this query using the **+ And** buttons and various drop-down lists to produce the following:
 
 ![An example of a segment group definition](media/segment-designer-example.png "An example of a segment group definition")
 
@@ -100,7 +100,7 @@ The map at the top of the explorer shows the entities that are available for use
 - **Turquoise circle**: marks the target entity—all paths must end here (currently, always **Contact**).
 - **Green circle**: marks the currently selected entity. The attributes belonging to this entity are listed below the map. Use the drop-down lists and input fields here to build a query that finds the desired records from the selected entity. After setting up a row, click the + button on the right side to add that expression to the query.
 - **Blue circles**: mark entities that are not yet used, but still available.
-- Gray circles: mark entities that are no longer selectable because of settings you have already made for the current path.
+- **Gray circles**: mark entities that are no longer selectable because of settings you have already made for the current path.
 - **Blue, bold lines**: mark paths that are not yet used, but still available.
 - **Gray, bold lines**: mark paths that are already part of the query.
 - **Gray, thin lines**: mark paths that are no longer available because of settings you have already made.
@@ -132,7 +132,8 @@ You combine groups, working first group to last, using the following operators:
 
 When you're working on the **Designer** tab, use the **+ Add Group** button to add a group and choose its operator.
 
-The **Flow** tab provides another view of how your groups are combined. Here, you get a Sankey diagram of how your groups combine, and how contacts flow into and out of the segment as a result of the operation from each group. You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
+The **Flow** tab provides another view of how your groups are combined. Here, you get a Sankey diagram of how your groups combine, and how contacts flow into and out of the segment as a result of the operation from each group.
 
 ![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
 
+You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
