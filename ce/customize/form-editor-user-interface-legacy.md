@@ -28,9 +28,9 @@ manager: "brycho"
  **Navigation area**  
  Located on the left side, use the navigation area to control access to related entities or to add links to web resources or URLs to be displayed in the main pane of the form. To edit navigation you must first select the **Navigation** command in the **Select** group of the **Home** tab.  
   
- Forms for [Classic forms](main-form-presentations.md#classic-forms) provide a navigation experience that is visually similar to what you see in the navigation area. Forms for [Updated entities and classic entities](create-design-forms.md#updated-entities-and-classic-entities) provide navigation options through the navigation bar, but use the same data to control what navigation options are available. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Edit navigation](../customize/use-the-form-editor-legacy.md)  
+ Forms for [Classic forms](main-form-presentations.md#classic-forms) provide a navigation experience that is visually similar to what you see in the navigation area. Forms for [Updated entities and classic entities](create-design-forms.md#updated-versus-classic-entities) provide navigation options through the navigation bar, but use the same data to control what navigation options are available. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Edit navigation](../customize/use-the-form-editor-legacy.md)  
   
- **Body area**  
+ **Body area** 
  Located in the center, use the body area to control the layout of the form. You can select and drag form elements to position them. Double-clicking on an element will open the properties for the element.  
   
 -   To add a field, select it from the **Field Explorer** and drag it into a section.  
