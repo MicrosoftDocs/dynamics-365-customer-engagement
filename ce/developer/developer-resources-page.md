@@ -16,7 +16,7 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
 ---
-# Developer resources page
+# Developer resources page 
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
