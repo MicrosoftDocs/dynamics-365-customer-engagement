@@ -1,24 +1,27 @@
 ---
-title: "Define fiscal year settings in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Determine the time reflected in financial reports by defining a fiscal year in Dynamics 365 for Sales, Business edition."
+title: "Define fiscal year settings in Dynamics 365 for Sales | Microsoft Docs"
+description: "Determine the time reflected in financial reports by defining a fiscal year in Dynamics 365 for Sales."
 keywords: "Financial reports; fiscal period; fiscal year settings"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/14/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: d8f35641-1e1f-450e-8fdf-c1151c5bacfe
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
-# Define fiscal year settings in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+
+# Define fiscal year settings in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], a fiscal period defines the time reflected in financial reports. It is used for reporting of financial data in a given period. For example, you want to know what’s the actual revenue of your organization in your fiscal period which is from January - December. You can set the fiscal year period, and how it’s displayed, for your organization.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], a fiscal period defines the time reflected in financial reports. It is used for reporting of financial data in a given period. For example, you want to know what’s the actual revenue of your organization in your fiscal period which is from January - December. You can set the fiscal year period, and how it’s displayed, for your organization.
 
-1.  Make sure you have the System Administrator security role in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+1.  Make sure you have the System Administrator security role in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
   
 2.  Go to **Settings** &gt; **Fiscal Year**.
 
@@ -36,9 +39,9 @@ In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], 
 
     -   In the **Display As** drop-down list, select how you want the fiscal year abbreviation and the year to appear.
 
-4.  Click **Save**.
+4.  Select **Save**.
 
 
 ### See Also
-[Set up the Sales app for your team](set-up-sales-app-team.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

@@ -309,7 +309,7 @@ and the **DataReady** event is fired for inline navigations as well.
 |newId|The ID assigned to the newly created record.|  
   
 ### See also  
- [Dynamics 365 Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)   
+ [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)   
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
  [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   

@@ -48,7 +48,7 @@ This section provides information about the features and capabilities of [!INCLU
   
  [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md)  
   
- [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-or-parature-knowledge-effective-customer-engagement.md)  
+ [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
   
 ## Reference  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  

@@ -1,8 +1,8 @@
 ---
-title: "Work with tags | Microsoft Docs"
+title: "Work with tags in Social Engagement | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
-ms.date: 10/03/2017
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -43,7 +43,7 @@ Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-soc
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add one or more custom tags to posts. You can then filter posts to match specific custom tags. Custom tags are different from intention tags because they are not predefined tags and they are not automatically added once a post is acquired.
   
 > [!NOTE]
-> Only Managers and Responders can create a new custom tag, but any user role can add or remove tags on posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
+> Only Managers and Responders can create a new custom tag, but any user role can add or remove tags on posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 1.  Select **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -51,7 +51,7 @@ Intention tags are predefined in [!INCLUDE[pn_netbreeze_long](../includes/pn-soc
   
      Go to **Social Center** to see your streams.  
   
-2.  Select a post, and then next to the custom tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](../social-engagement/media/add-icon.png "Add button"). Start typing to enter the custom tag that you want to add, and then press **Enter** to select the tag or create a new one.  
+2.  Select a post, and then next to the custom tags symbol ![Tag symbol in Social Engagement](media/tag-symbol.png "Tag symbol in Social Engagement") , select **Add** ![Add button](media/add-icon.png "Add button"). Start typing to enter the custom tag that you want to add, and then press **Enter** to select the tag or create a new one.  
   
 3.  Select **Confirm**.  
   
@@ -64,7 +64,7 @@ Enable adaptive learning on your custom tags by adding them to your list of auto
 To improve your workflows and increase efficiency, you can leverage auto tagged posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] as [email alerts](email-alerts.md), [streams](engage-on-social-networks.md), [activity maps](activity-maps.md), and [automation rules](automation-rules.md).
   
 > [!NOTE]
-> Only Administrators can promote custom tags to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](../social-engagement/user-roles.md)  
+> Only Administrators can promote custom tags to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 ### Add a custom tag to your auto tags list  
   
@@ -72,7 +72,7 @@ To improve your workflows and increase efficiency, you can leverage auto tagged 
   
 2.  In the Global Settings pane, select **Auto Tags**.  
   
-3.  Under Auto Tags, select **Add tag** ![Add button](../social-engagement/media/add-icon.png "Add button")  
+3.  Under Auto Tags, select **Add tag** ![Add button](media/add-icon.png "Add button")  
   
     > [!NOTE]
     >  You can maintain up to five auto tags simultaneously.  
@@ -109,7 +109,7 @@ To further improve the underlying machine learning model for auto tags and inten
   
 2.  Select a post.
   
-3.  Next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), select **Remove this tag** ![Remove tag symbol in Social Engagement](media/delete-icon.png "Remove tag symbol in Social Engagement").  
+3.  Next to the tags symbol ![Tag symbol in Social Engagement](media/tag-symbol.png "Tag symbol in Social Engagement"), select **Remove this tag** ![Remove tag symbol in Social Engagement](media/delete-icon.png "Remove tag symbol in Social Engagement").  
 The system-rated tag gets removed from the post and the machine learning model will take this removal into account for future assignement of system-rated tags.
 
 ### Confirm a system-rated tag
@@ -118,7 +118,7 @@ The system-rated tag gets removed from the post and the machine learning model w
   
 2.  Select a post.  
   
-3.  Next to the tags symbol ![Tag symbol in Social Engagement](../social-engagement/media/tag-symbol.png "Tag symbol in Social Engagement"), select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").   
+3.  Next to the tags symbol ![Tag symbol in Social Engagement](media/tag-symbol.png "Tag symbol in Social Engagement"), select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").   
 ![Intention tag and customer tag with confirm control highlighted](media/confirm-intention-view-custom-tag.png "Intention tag and customer tag with confirm control highlighted")    
 A stars symbol indicates that this system-rated tag was manually confirmed and the machine learning model will take this confirmation into account for future assignement of system-rated tags. 
 
@@ -142,7 +142,7 @@ To check the quality of your auto tags, select the tag name in the list. In the 
   
 2.  In the **Global Settings** pane, select **Custom Tags**.  
   
-3.  In the **Custom Tags** pane, next to the tag name, select **Delete** ![Delete button](../social-engagement/media/trashbin-icon.png "Delete button"), and then select **Confirm**.  
+3.  In the **Custom Tags** pane, next to the tag name, select **Delete** ![Delete button](media/trashbin-icon.png "Delete button"), and then select **Confirm**.  
   
 ### Rename tags  
   
@@ -150,13 +150,13 @@ To check the quality of your auto tags, select the tag name in the list. In the 
   
 2.  In the **Global Settings** pane, select **Custom Tags**.  
   
-3.  In the **Custom Tags** pane, select **Edit** ![Edit button](../social-engagement/media/edit-icon.png "Edit button") next to the tag name, and then start typing in the edit box.  
+3.  In the **Custom Tags** pane, select **Edit** ![Edit button](media/edit-icon.png "Edit button") next to the tag name, and then start typing in the edit box.  
   
-4.  Select **Confirm** ![Apply button](../social-engagement/media/check-icon.png "Apply button")  
+4.  Select **Confirm** ![Apply button](media/check-icon.png "Apply button")  
   
 ## Find posts with tags  
 To quickly find posts with tags use the **Post Tags and Intentions** [filter to configure a data set](use-filters.md). 
   
 ### See Also  
-[Manage global settings](../social-engagement/manage-global-settings.md)   
-[Work with posts](../social-engagement/work-with-posts.md)
+[Manage global settings](manage-global-settings.md)   
+[Work with posts](work-with-posts.md)

@@ -16,11 +16,11 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Release history 
+# Release history  
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This is the release history page for the [Administrator Guide for Dynamics 365 Customer Engagement](admin-guide.md) documentation. Note that some of the updated and new topics relate to changes made since the last product release and are not exclusive to the July 2017 update for Dynamics 365 (online).
+This is the release history page for the [Administrator Guide for Dynamics 365 Customer Engagement](admin-guide.md) documentation. Note that some of the updated and new topics relate to changes made since the last product release and are not exclusive to [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)].
 
 Check out the following for more "What's new" and release history information:
 
@@ -33,7 +33,7 @@ Check out the following for more "What's new" and release history information:
 
 <a name="BKMK_July2017"></a>
 
-## July 2017 update for Dynamics 365 (online)
+## [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
@@ -41,7 +41,6 @@ Check out the following for more "What's new" and release history information:
 |[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
 |[Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)|Added new topic. |
-|[Preview feature: Use Relationship analytics to gather KPIs ](relationship-analytics.md)|Added new topic.|
 
 ## Out-of-band topics
 

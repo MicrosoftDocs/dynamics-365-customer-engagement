@@ -37,7 +37,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
 1. [!INCLUDE[proc_marketing_campaigns](../includes/proc-marketing-campaigns.md)]  
   
-2.  In the campaign record you want to add the planning activity to, on the nav bar, click the down arrow ![User profile security option More Options button](../sales-enterprise/media/user-profile-security-options.gif "User profile security option More Options button") next to the campaign you’re working on and then click **Planning Activities**.  
+2.  In the campaign record you want to add the planning activity to, on the nav bar, click the down arrow ![User profile security option More Options button](../sales-enterprise/media/user-profile-security-options.gif "User profile security option More Options button") next to the campaign you're working on and then click **Planning Activities**.  
   
 3.  To add a new activity, click **Add New Activity**, and then select the type of activity you want to create.  
   
@@ -47,13 +47,13 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
 4.  In the new activity form, add or change information in the text boxes.  
   
-5.  When you’re ready to save your data, click **Save**.  
+5.  When you're ready to save your data, click **Save**.  
   
 ## Add a campaign activity to a campaign  
   
 1. [!INCLUDE[proc_marketing_campaigns](../includes/proc-marketing-campaigns.md)]  
   
-2.  In the campaign record you want to add the campaign activity to, on the nav bar, click the down arrow ![User profile security option More Options button](../sales-enterprise/media/user-profile-security-options.gif "User profile security option More Options button") next to the campaign you’re working on and then click **Campaign Activities**.  
+2.  In the campaign record you want to add the campaign activity to, on the nav bar, click the down arrow ![User profile security option More Options button](../sales-enterprise/media/user-profile-security-options.gif "User profile security option More Options button") next to the campaign you're working on and then click **Campaign Activities**.  
   
 3.  Click **Add New Campaign Activity**.  
   
@@ -68,7 +68,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 8.  Choose who will own the activities, and click **Distribute**.  
   
     > [!NOTE]
-    >  You can only distribute campaign activities of type “mail merge” to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type.  
+    >  You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type.  
   
 9. After all the distributed activities are closed, you can close the campaign activity. To close the campaign activity, open the campaign activity record, and on the command bar, click **Close Campaign Activity**. Set an appropriate status for the activity, and click **OK**.  
   

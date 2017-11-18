@@ -1,22 +1,25 @@
 ---
-title: "Manage your documents from Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Store and manage documents on SharePoint from within Dynamics 365 for Sales, business edition."
+title: "Manage your documents from Dynamics 365 for Sales | Microsoft Docs"
+description: "Store and manage documents on SharePoint from within Dynamics 365 for Sales."
 keywords: "SharePoint; document management; sales"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: eaf38d0b-24d1-499d-b157-de109f052786
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
-# Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+
+# Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-With [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
+With [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
 
 The documents that you create in the Sales app are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.
 
@@ -52,7 +55,7 @@ By default, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] 
 
 ## Where do you access the documents from?
 
-For record types that support document management, open the record, click the **Related** tab, and then click **Documents**.
+For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
 ![Documents option in Related tab](media/documents-option-in-related-tab.png "Documents option in Related tab")  
 
@@ -66,25 +69,23 @@ Open a view with a document grid.
 
 For example,
 
-1.  Click the Menu icon ![Menu icon](media/open-menu-icon.png "Open the menu icon"), and then click **Opportunities**
+1.  Select the Site Map icon ![Site map icon](media/Site-map-icon.png "Open the site map icon"), and then select **Opportunities**
 
-2.  Click the **Related** tab, and then click **Documents**.
+2.  Select the **Related** tab, and then select **Documents**.
 
   ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")  
 
-  [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] now organizes documents in a consolidated view.
-
-3.  Click **Document Location** to filter the document list. Select from the available document locations.
+3.  Select **Document Location** to filter the document list. Select from the available document locations.
 
 ## Create a new document
 
-To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] document in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]:
+To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] document in your app:
 
-1.  Go to the record you want to create the document for, and click the **Documents** tab.
+1.  Go to the record you want to create the document for, and select the **Documents** tab.
 
 2.  Navigate to the document location and folder where you want to create this new document.
 
-3.  Click **New**, and then choose a document type such as [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] PowerPoint, or OneNote.
+3.  Select **New**, and then choose a document type such as [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] PowerPoint, or OneNote.
 
   You can also create a folder from here.
 
@@ -92,7 +93,7 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
   ![Dialog box for creating a new document](media/create-new-document-dialog-box.png "Dialog box for creating a new document")  
 
-5.  Click **Save**.
+5.  Select **Save**.
 
   The document is created in the folder of the current document location you’re in.
 
@@ -100,17 +101,17 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
  
   ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")  
 
- Click on the folder name to navigate between the folders.
+ Select on the folder name to navigate between the folders.
 
 ## Upload a document
 
-To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]:
+To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] from your app:
 
-1.  Go to the record you want to create the document for, and click the **Documents** tab.
+1.  Go to the record you want to create the document for, and select the **Documents** tab.
 
-2.  Click **Upload.**
+2.  Select **Upload.**
 
-3.  Choose the file you want to upload. You can choose only one file at a time.
+3.  Select the file you want to upload. You can select only one file at a time.
 
     The document is created in the folder of the current document location you’re in.
 
@@ -119,43 +120,43 @@ To upload existing document to [!INCLUDE[pn-sharepoint-short](../includes/pn-sha
 
 4.  If files with the same name exists in [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], select if you want to overwrite the files.
 
-5.  Click **Upload**.
+5.  Select **Upload**.
 
 ## Manage [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations
 
-You may create new or edit existing [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations from [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)].
+You may create new or edit existing [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] locations from your app.
 
 In the **Documents** list
 
-1.  To open the location, on the command bar, click **Open Location**, and then select the location.
+1.  To open the location, on the command bar, select **Open Location**, and then select the location.
 
  ![Open document location from a record](media/open-location-from-record.png "Open document location from a record")  
 
-2.  To edit the location, on the command bar, click **Edit Location** &gt; &lt;location name&gt;.
+2.  To edit the location, on the command bar, select **Edit Location** &gt; &lt;location name&gt;.
 
   The **Edit Location** dialog box appears.
 
-  ![Dialog box to edit a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location](media/edit-location-dialog-box.png "Dialog box to edit a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location")  
+  ![Dialog box to edit a SharePoint location](media/edit-location-dialog-box.png "Dialog box to edit a SharePoint location")  
 
-3.  The display name, parent site, and folder name is automatically populated. Provide the new location details, and click **Save**.
+3.  The display name, parent site, and folder name is automatically populated. Provide the new location details, and select **Save**.
 
-4.  To add a location, on the command bar, click **Add Location**.
+4.  To add a location, on the command bar, select **Add Location**.
 
   The **Add Location** dialog box appears.
 
-  ![Dialog box to add a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location](media/add-location-dialog-box.png "Dialog box to add a [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] location")  
+  ![Dialog box to add a SharePoint location](media/add-location-dialog-box.png "Dialog box to add a SharePoint location")  
 
-5.  The display name, parent site, and folder name is automatically populated. Change the details if required, and then click **Save**.
+5.  The display name, parent site, and folder name is automatically populated. Change the details if required, and then select **Save**.
 
 ## Create folders
 
-1.  To create folders to store documents, on the command bar, click **New** > **Folder**.
+1.  To create folders to store documents, on the command bar, select **New** > **Folder**.
 
-2.  In the **Create a New Folder** dialog box, enter a name of the folder, and click **Save**.
+2.  In the **Create a New Folder** dialog box, enter a name of the folder, and select **Save**.
 
    > [!Note]
 
-   > If your folder name contains a slash (/), [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
+   > If your folder name contains a slash (/), [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
 
 ## Actions on documents
 
@@ -177,4 +178,4 @@ When you select one or more documents in the Documents list, you can take the fo
 ### See Also
 [Configure Dynamics 365 for Sales to integrate with SharePoint](configure-document-management.md)  
 [Manage your customers](create-accounts-contacts-customers.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)
+[Meet the new Sales app for small to medium-sized business](overview-dynamics-365-for-sales.md)

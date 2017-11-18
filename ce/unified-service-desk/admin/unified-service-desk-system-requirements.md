@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 Customer Engagement system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 Customer Engagement. " 
 ms.custom: ""
-ms.date: 08/23/2017
+ms.date: 11/02/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -49,6 +49,10 @@ This topic provides information about the system requirements for installing the
     >  <sup>*</sup> [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] is supported for use only with [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] organizations. Also, [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] may work for systems that are not [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 - [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  
+
+> [!NOTE]
+> [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] installs [!INCLUDE [pn-microsoft-net-framework](../../includes/pn-microsoft-net-framework.md)] 4.6.2. 
+ 
   
 - [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] 3.5 (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  
   
@@ -62,6 +66,7 @@ This topic provides information about the system requirements for installing the
   
 > [!IMPORTANT]
 >  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] so you can use the new features available.  
+> We recommend that you use [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] with [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 3.1 for Dynamics 365 now](https://go.microsoft.com/fwlink/p/?linkid=862012).
   
  For information about the sample applications available for this release, see [Deploy sample Unified Service Desk applications to Dynamics 365 server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   

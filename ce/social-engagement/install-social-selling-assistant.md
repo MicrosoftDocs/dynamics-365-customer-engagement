@@ -20,13 +20,13 @@ Enabling the Social Selling Assistant for users of [!INCLUDE[pn_ms_dyn_365](../i
 > [!NOTE]
 >  You need to add the URL of your organization's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to the list of **Allowed Domains** in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to see the data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 >   
-> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](../social-engagement/connect-other-domains.md)  
+> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](connect-other-domains.md)  
   
- Next, a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to enable the best possible experience when users are working with the Social Selling Assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Social Engagement for the Social Selling Assistant](../social-engagement/configure-social-selling-assistant.md)  
+ Next, a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to enable the best possible experience when users are working with the Social Selling Assistant. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md)  
   
 ### See Also  
  [TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)   
- [Increase your influence using the Social Selling Assistant](../social-engagement/social-selling-assistant-overview.md)   
- [Personalize the Social Selling Assistant for individual users](../social-engagement/personalize-social-selling-assistant.md)   
- [Set up searches to listen to social media conversations](../social-engagement/set-up-searches.md)   
- [Work with the Social Selling Assistant](../social-engagement/work-with-social-selling-assistant.md)
+ [Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   
+ [Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)   
+ [Set up searches to listen to social media conversations](set-up-searches.md)   
+ [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)

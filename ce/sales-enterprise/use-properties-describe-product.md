@@ -19,12 +19,12 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Simplify product management and classification by adding properties that help distinguish products from one another. Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they’re building orders.  
+Simplify product management and classification by adding properties that help distinguish products from one another. Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they're building orders.  
   
  A property of a product could be its size, color, or component and so on. Properties are added at the family level. You can add properties only to a family, and only when it is in a draft or under revision state. The child products, bundles, and families inherit the properties from their parent family.  
   
 > [!IMPORTANT]
->  You can’t set different prices for the different properties you define for a product unless you’re using a custom pricing engine.  
+>  You can't set different prices for the different properties you define for a product unless you're using a custom pricing engine.  
   
 <a name="bkmk_AddProperties"></a>   
 ## Add properties to product families  
@@ -68,11 +68,11 @@ Simplify product management and classification by adding properties that help di
 > [!NOTE]
 >  You can override properties only for products and families that have inherited properties from the parent family.  
   
- In the following cases, you’ll see the **Overwrite** option instead of the **Override** option:  
+ In the following cases, you'll see the **Overwrite** option instead of the **Override** option:  
   
--   You’re trying to change non-inherited properties of a product family that’s in the **Under Revision** status.  
+-   You're trying to change non-inherited properties of a product family that's in the **Under Revision** status.  
   
--   You’re trying to change the inherited and already overridden properties of a child product family or product. If the inherited properties of the child product or family weren’t overridden, you’ll see the Override option.  
+-   You're trying to change the inherited and already overridden properties of a child product family or product. If the inherited properties of the child product or family weren't overridden, you'll see the Override option.  
   
 > [!NOTE]
 >  Child families can have their own properties in addition to inherited ones.  

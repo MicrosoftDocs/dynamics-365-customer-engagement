@@ -1,7 +1,7 @@
 ---
 title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -88,6 +88,7 @@ To maintain the integrity of your data, it’s a good idea to have rules in plac
 > -   You can have more than one duplicate detection rule for each record type.  
   
 ### See also  
- [Turn duplicate detection rules on or off for the whole organization](../admin/turn-duplicate-detection-rules-off-whole-organization.md)   
- [Run bulk system jobs to detect duplicate records](../admin/run-bulk-system-jobs-detect-duplicate-records.md)   
- [Merge duplicate records for accounts, contacts, or leads](../basics/merge-duplicate-records-accounts-contacts-leads.md)
+ [Turn duplicate detection rules on or off for the whole organization](../admin/turn-duplicate-detection-rules-off-whole-organization.md)<br />
+ [Run bulk system jobs to detect duplicate records](../admin/run-bulk-system-jobs-detect-duplicate-records.md)<br />
+ [Merge duplicate records for accounts, contacts, or leads](../basics/merge-duplicate-records-accounts-contacts-leads.md)<br />
+[Developer's Guide: Duplicate Rule entities](../developer/duplicaterule-entities.md)

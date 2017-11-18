@@ -1,7 +1,7 @@
 ---
 title: "Operations supported by Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Provides information about the operations you can perform using the Online Management API to manage your Customer Engagement instances."
-ms.date: 07/25/2017
+ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
@@ -11,6 +11,8 @@ ms.author: "kvivek"
 manager: "amyla"
 ---
 # Operations supported by Online Management API 
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You can perform most of the instance-related operations using the API that you can do using the [Dynamics 365 Admin Center](https://technet.microsoft.com/library/dn659834.aspx). The API also lets you perform some additional operations such as using tenant application identities to create/manage instances and retrieving service versions (releases) for instances.
 

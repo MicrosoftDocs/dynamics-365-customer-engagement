@@ -1,0 +1,2207 @@
+<html xmlns:ns0="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:ns1="">
+
+<head>
+    <title>Microsoft Dynamics CRM Online Spring ’14 and Microsoft Dynamics CRM 2013 Service Pack 1 Readme  May 2014</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name="product" content="Microsoft Dynamics CRM">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"\@PMingLiU";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:16.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:16.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	color:#5B9BD5;
+	font-weight:bold;}
+h4
+	{mso-style-link:"Heading 4 Char";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri Light","sans-serif";
+	color:#5B9BD5;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:33.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:44.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:55.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:66.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:77.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:88.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+code
+	{font-family:"Courier New";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.MsoIntenseEmphasis
+	{color:#5B9BD5;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light","sans-serif";
+	color:#2E74B5;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+p.bodytext, li.bodytext, div.bodytext
+	{mso-style-name:bodytext;
+	margin-top:3.75pt;
+	margin-right:0in;
+	margin-bottom:3.75pt;
+	margin-left:.25in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.copyrighttext, li.copyrighttext, div.copyrighttext
+	{mso-style-name:copyrighttext;
+	margin-top:3.75pt;
+	margin-right:0in;
+	margin-bottom:3.75pt;
+	margin-left:.25in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.relateditem, li.relateditem, div.relateditem
+	{mso-style-name:relateditem;
+	margin-top:3.75pt;
+	margin-right:0in;
+	margin-bottom:3.75pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";}
+p.issue, li.issue, div.issue
+	{mso-style-name:issue;
+	margin-top:11.25pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.25in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;}
+p.resolution, li.resolution, div.resolution
+	{mso-style-name:resolution;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.25in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.listcontinue, li.listcontinue, div.listcontinue
+	{mso-style-name:listcontinue;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.75pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.listcontinue2, li.listcontinue2, div.listcontinue2
+	{mso-style-name:listcontinue2;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.75pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.tablehead, li.tablehead, div.tablehead
+	{mso-style-name:tablehead;
+	margin-right:0in;
+	margin-left:0in;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.tablebodytext, li.tablebodytext, div.tablebodytext
+	{mso-style-name:tablebodytext;
+	margin:3.75pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.uiitem
+	{mso-style-name:uiitem;
+	font-weight:bold;}
+span.filename
+	{mso-style-name:filename;}
+span.bulletsubheadcharacter
+	{mso-style-name:bulletsubheadcharacter;}
+span.term
+	{mso-style-name:term;}
+span.errormessage
+	{mso-style-name:errormessage;}
+span.xmlelementcharacter
+	{mso-style-name:xmlelementcharacter;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light","sans-serif";
+	color:#5B9BD5;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-link:"Heading 4";
+	font-family:"Calibri Light","sans-serif";
+	color:#5B9BD5;
+	font-weight:bold;
+	font-style:italic;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-link:"Plain Text";
+	font-family:"Calibri","sans-serif";}
+span.ms-rtefontface-51
+	{mso-style-name:ms-rtefontface-51;
+	font-family:"Calibri","sans-serif";}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72">
+
+<div class=WordSection1>
+
+<h1 align=center style='text-align:center'><a name=o59460></a><a
+name="_General_Known_Issues"></a><a name="_Microsoft_Dynamics_CRM"></a><a
+name="_Microsoft_Dynamics_CRM_1"></a><a name="_Copyright"></a><span
+style='font-size:12.0pt;line-height:115%'>Microsoft Dynamics CRM Online Spring
+’14 and </span></h1>
+
+<h1 align=center style='text-align:center'><span style='font-size:12.0pt;
+line-height:115%'>Microsoft Dynamics CRM 2013 Service Pack 1 </span></h1>
+
+<h1 align=center style='text-align:center'><span style='font-size:12.0pt;
+line-height:115%'>Readme </span></h1>
+
+<h1 align=center style='text-align:center'><span style='font-size:12.0pt;
+line-height:115%'>June 2014</span></h1>
+
+<p class=MsoNormal align=center style='margin-top:3.75pt;margin-right:0in;
+margin-bottom:3.75pt;margin-left:.25in;text-align:center;line-height:115%'><span
+style='font-size:12.0pt;line-height:115%'>2014 Microsoft Corporation. All
+rights reserved.</span></p>
+
+<div class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+text-align:center;line-height:normal'><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif"'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>This document provides
+important, late-breaking information about these product versions:</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Microsoft Dynamics CRM Online
+Spring ’14</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Microsoft Dynamics CRM 2013
+Service Pack 1 (SP1)</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Microsoft Dynamics CRM Online Fall
+’13</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Microsoft Dynamics CRM Online Fall
+‘13 Service Update</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Microsoft Dynamics CRM 2013</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Microsoft Dynamics CRM 2013 Update
+Rollup 1 (UR1)</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>You will also find
+information about known issues. Where possible, workarounds are provided for
+the known issues. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>This is version 1.8 of this
+readme, published June 2, 2014. </span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:0in 0in 0in 0in'>
+  <h2 style='margin-left:0in'>Contents</h2>
+  <p class=MsoNoSpacing><a href="#_Items_Not_Shipped"><span style='font-size:
+  12.0pt'>General Known Issues</span></a></p>
+  <p class=MsoNoSpacing><a href="#_Web_Client_Known_1"><span style='font-size:
+  12.0pt'>Web Client Known Issues</span></a></p>
+  <p class=MsoNoSpacing><span style='font-size:12.0pt'><a
+  href="#_Microsoft_Dynamics_CRM_11">Microsoft Dynamics CRM for Tablets Known
+  Issues</a></span></p>
+  <p class=MsoNoSpacing><a href="#_Web_Client_(Viewed_1"><span
+  style='font-size:12.0pt'>Web Client (Viewed on Tablets) Known Issues</span></a></p>
+  <p class=MsoNoSpacing><a href="#_Microsoft_Dynamics_CRM_10"><span
+  style='font-size:12.0pt'>Microsoft Dynamics CRM for Outlook Known Issues</span></a></p>
+  <p class=MsoNoSpacing><a href="#_Customer_Service_Known"><span
+  style='font-size:12.0pt'>Customer Service Known Issues</span></a></p>
+  <p class=MsoNoSpacing><a href="#_Server-side_Synchronization_Known_1">Server-side
+  Synchronization Known Issues</a></p>
+  <p class=MsoNoSpacing><a href="#_SharePoint_Integration_Known"><span
+  style='font-size:12.0pt'>SharePoint Integration Known Issues</span></a></p>
+  <p class=MsoNoSpacing><a href="#_SocialListening_Integration_Known"><span
+  style='font-size:12.0pt'>Microsoft Social Listening Integration Known Issues</span></a></p>
+  <p class=MsoNoSpacing><a href="#_Unified_Service_Desk_1">Unified Service Desk
+  Known Issues</a></p>
+  <p class=MsoNoSpacing><a href="#_Update_Known_Issues_1">Update Known Issues
+  (CRM Online Only)</a></p>
+  <p class=MsoNoSpacing><a href="#_Miscellaneous_Known_Issues"><span
+  style='font-size:12.0pt'>Miscellaneous Known Issues</span></a></p>
+  <p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+  <p class=MsoNoSpacing><span style='font-size:12.0pt'><a href="#_Copyright_2">Copyright</a></span></p>
+  <p class=MsoNoSpacing><a href="#_Documentation_Feedback"><span
+  style='font-size:12.0pt'>Documentation Feedback</span></a></p>
+  <h3>Top Resources</h3>
+  <p class=MsoNoSpacing><a href="http://go.microsoft.com/fwlink/?LinkID=397741">UPDATED!
+  Your ‘Get ready’ guide for this release</a><span style='font-size:12.0pt'> </span></p>
+  <p class=MsoNoSpacing><a href="http://go.microsoft.com/fwlink/?LinkID=394323"><span
+  style='font-size:12.0pt'>NEW! CRM Help Center – info central for admins, developers,
+  trainers, and IT pros</span></a><span style='font-size:12.0pt'> </span></p>
+  <p class=MsoNoSpacing><span style='font-size:10.0pt;font-family:Consolas;
+  color:blue'> </span></p>
+  </td>
+ </tr>
+</table>
+
+<h2 style='margin-left:0in'><a name="_General_Known_Issues_1">General Known Issues</h2>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>This section is for general
+issues that occur in CRM Online Spring ’14 and CRM 2013 SP1, Microsoft Dynamics
+CRM Online Fall ’13, Microsoft Dynamics CRM Online Fall ‘13 Service Update,
+Microsoft Dynamics CRM 2013, and Microsoft Dynamics CRM 2013 UR1.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Check your JavaScript code
+to prepare for your upgrade </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>To keep up with the
+changes introduced in CRM 2013, and for you to take advantage of new features,
+you need to check that any JavaScript code you are using is ready for an upgrade.
+We have deprecated the CRM 4.0 form object model and the 2007 web service end
+points.  For information about what you can do, see the Microsoft Dynamics CRM
+Team blog post titled: </span><a
+href="http://blogs.msdn.com/b/crm/archive/2013/08/23/check-your-javascript-code-to-prepare-for-your-upgrade.aspx"><span
+style='font-size:12.0pt'>Check your JavaScript code to prepare for your upgrade</span></a><a
+name="_Web_client"></a><a name="_Web_Client_Known"></a></p>
+
+<h3>Installing Update Rollup 2 server after uninstall of Service Pack 1 server
+may fail (303437)</h3>
+
+<p class=MsoNoSpacing>If you have Microsoft Dynamics CRM 2013 (on-premises) and
+you install Update Rollup 2 after uninstalling SP1 for CRM 2013 Server, the
+install may fail. </p>
+
+<p class=MsoNoSpacing>The workaround is to uninstall CRM 2013 Server completely
+and reinstall it, and then apply Update Rollup 2.</p>
+
+<p class=MsoNoSpacing><span class=MsoHyperlink><span style='font-size:12.0pt'><span
+ style='text-decoration:none'>&nbsp;</span></span></span></p>
+
+<h2 style='margin-left:0in'><a name="_Web_Client_Known_1"></a>Web Client Known
+Issues</h2>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Opportunity: Quick create
+form does not support Est. Revenue field if the revenue is system-calculated (273059)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>If the
+default for </span>revenue is system calculated<span style='font-size:12.0pt;
+line-height:107%'>, then the <b>Est.</b></span> <b><span style='font-size:12.0pt;
+line-height:107%'>Revenue</span></b><span style='font-size:12.0pt;line-height:
+107%'> field must be removed from the quick create form. Otherwise, its data
+will not be saved in the system.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Navigation Tour text and
+background image are misplaced for Right-To-Left languages (267135) </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>You might notice that red
+squares on the background image do not match the text location in the CRM
+Navigation Tour in Right-To-Left languages (like Hebrew and Arabic). This could
+cause difficulties reading the text and completing the Navigation Tour. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Quick Create for entities
+of type Activity always navigates to full create experience (268878)</span></h3>
+
+<p class=MsoNoSpacing><a name="_Microsoft_Dynamics_CRM_2"></a><span
+style='font-size:12.0pt'>Although customizers are allowed to define a quick
+create form for the Activity type, clicking the <b>Quick Create</b> option
+always takes the user to the full create experience. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>There is not known
+workaround for this issue in this release.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Cannot navigate to a closed
+Opportunity stage in a business process (277602)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>When you navigate through
+a process by creating a new record, links to the older record are lost in the
+business process flow<b>,</b> thereby leaving it orphaned and disabling
+navigation. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>For example, consider a
+process that moves through Campaign to Email to Campaign Response to Lead to
+Opportunity entities. Using this process, the user creates a record for email
+(E1), campaign response (CR1), lead (L1), and opportunity (O1). Now, the user
+navigates back to a stage on the campaign and creates a new flow E2 &gt; CR2
+&gt; L2 &gt; O2. The user then goes back to a stage on the campaign, selects
+the old record E1 and navigates through CR1 and L1. </span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>At this
+point, the user is unable to navigate any further to the ‘old’ opportunity O1,
+since as soon as the user navigated to E2 from a stage in the campaign, the
+previously navigated path from L1 to O1 was lost. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>No prompt to fix missing email
+addresses in recipient fields (To, CC, BCC) if the email is read-only (277404)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>When you
+click a valid email address in a recipient field in an email that is in
+read-only mode, you won’t be notified of the need to create a record for this
+email address.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>To, CC, and BCC
+fields in an Email activity form can contain unknown email addresses. In CRM
+2011, if you clicked such an email address, a dialog box opened that asked you
+to resolve the issue by choosing an existing record or manually creating a new
+record for it. </span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>In CRM 2013
+and CRM Online Fall ‘13, these unknown email addresses will not appear in read-only
+email forms, such as in sent email or incoming email. However, if the email
+form is in an editable state, like when you are replying to an incoming email,
+these email addresses will appear properly. This issue is just visual. Email will
+be properly sent to unknown email addresses.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Also, these
+unknown email addresses will be shown properly in grids and on the Activity
+wall on the form.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Generic error occurs in
+Safari on MAC (279622)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The generic error is
+caused because Safari on MAC times out for long-running synchronous operations
+and Microsoft Dynamics CRM captures the time out and displays a generic error.
+These are typically administrator run operations, such as creating entities,
+importing/exporting translations, and publishing customizations. Note that some
+operations might still complete in spite of the error. The server still
+completes processing the request in some cases and a refresh on the page would
+show the results. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to use a
+Windows operating system to perform these operations.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Lync presence icons work
+only in Internet Explorer (268680)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Microsoft Lync presence
+icons work only in Internet Explorer and do not work in other browsers.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Composite control in
+business process on upgrade from the previous release to CRM Online Fall ’13 or
+CRM 2013 (273696)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Composite
+control like Contact’s full name in a business process defined in the Microsoft
+Dynamics CRM December 2012 Service Update or Microsoft Dynamics CRM 2011 Update
+Rollup 12 release will no longer appear in the processes. </span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The workaround
+is to add individual contributing fields to the process definition.<a
+name="_Microsoft_Dynamics_CRM_8"></a></span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Unable to create a new account
+and add an account to the Parent Account field by using the New button on the
+refreshed lookup control (282493)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Saving the account created
+by clicking the <b>+ New</b> button for the Account lookup in an account form displays
+an error. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Create an account by using
+Quick Create or the <b>New</b> action in Accounts and then choose it as the Parent
+Account in the account form.</span></p>
+
+<h3>Internet Explorer 10 and 11: browser back button is not working correctly.(
+#283549 ) </h3>
+
+<p class=MsoNoSpacing>With Internet Explorer 10 and 11, the browser back button
+does not navigate beyond one level.&nbsp;&nbsp;&nbsp; </p>
+
+<h3>High memory usage in forms in Internet Explorer 11&nbsp; </h3>
+
+<p class=MsoNoSpacing>With Internet Explorer 11, you will see higher memory
+usage when you edit and navigate between pages.&nbsp;&nbsp;&nbsp; </p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Workspace is deprecated,
+but new organizations can still find all the relevant items within the
+individual areas (279891)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>With the Workspace
+removed in CRM 2011, upgrading organizations will still maintain their sitemap,
+but Workspace will just be another area, treated with no special capabilities.
+For new organizations that are looking for the things that used be in the Workspace,
+like Calendar and Reports, you can find these items under the <b>Tools</b>
+section of the <b>Sales</b>, <b>Marketing</b>, and <b>Service</b> areas.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Trying to input product
+name for write-in product shows an error on top of input box (301733)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>When trying
+to add a write-in product on the opportunity, because the field is empty by
+default and validation is kicking in too early, an error appears but lays right
+on top of the field, blocking any possible input. There are ways around this,
+namely to deselect the row (by clicking focus onto the form etc.) then click directly
+on the field. That should take you to input and depending on browser, shift the
+error message out of the way. </span></p>
+
+<h3>Error on routing a case will cause case record form to be closed (301754)</h3>
+
+<p class=MsoNoSpacing>If there is no Routing Rule active for an organization,
+clicking the <b>Apply Routing Rule</b> button shows an error message that
+informs you of the absence of an active routing rule. When you close the error
+message, the case form closes and last navigated page opens. <a
+name="_Microsoft_Dynamics_CRM_9"></a></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Admin assigns case creation
+rule to CSM and activates it; Error when CSM deactivates it (305683)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Case
+creation rule should always be activated or deactivated by a user who is the
+owner of the rule.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>You cannot select the
+Entitlements from the Entitlement lookup if you select Contact as primary
+customer while creating a case (305481)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The Entitlement
+sub-grid on the case form should only show all the active entitlements that
+exist in which the primary customer is the same as the customer specified on
+the case form.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Due to this
+issue, entitlements with primary customer set as the parent account of the
+contact specified as customer on the case form also appear in the sub-grid.
+This is causing a disparity between what can be selected in the lookup and
+what's visible in the sub-grid.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>SLA entity has 2 fields
+with the same display name (Applicable From) (302933)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Do not use
+the Applicable From field to create business rules for the SLA entity.</span></p>
+
+<h3>Social Activity form is available for Create from a business process flow,
+but save fails with 'unexpected error' (305786)</h3>
+
+<p class=MsoNoSpacing>In the business process flow, when Social Activity is
+added as an entity for a stage of the process and you navigate to that stage by
+clicking the Next stage button, a Create option is shown. When you click Create
+the social activity form loads. Because Social Activity is not valid for create
+from the CRM application UI, you will not be able to save the form after
+providing the information required and will recieve an 'unexpected error'
+message.</p><br>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
+font-family:"Calibri Light","sans-serif";color:#5B9BD5'>Chrome only: When you
+click Save or Save and Close in a routing rule item when one or more of the conditions
+are incomplete, the form becomes Read-only   (306915)</span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>If this
+happens, the form is no longer editable. The routing rule item form is locked
+for editing and you cannot make changes for correcting the conditions to set up
+a valid routing rule. </span></p>
+
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>There is no
+known workaround for this issue. You will need to make a new rule instead.</span></p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
+font-family:"Calibri Light","sans-serif";color:#5B9BD5'>Business process flow security roles are not honored when opening a record (310082)</span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>In Microsoft Dynamics CRM, it is possible to associate security roles with business process flows. This association is used to determine the process flow to be loaded when a record is first created and the process flows that are available for the user to switch to on existing records. It does not define the visibility of a business process flow on an existing record. It is therefore possible for a user who does not have privilege to switch to a given business process flow to view it if that process has already been assigned to the record by another user with the appropriate privilege.</span></p>
+
+
+<h2 style='margin-left:0in'><a name="_Microsoft_Dynamics_CRM_11"></a>Microsoft
+Dynamics CRM for Tablets Known Issues</h2>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>User can view queue items
+in another user's private queue</span><span style='font-size:12.0pt;line-height:
+107%;font-weight:normal'> </span>(304894)</h3>
+
+<p class=MsoNormal>A user can view queue items that are present on another
+user’s private queue when viewing this in CRM for tablets.</p>
+
+<h3>If you create an opportunity by using the Add Existing button on a contact
+or account, the opportunity may not be displayed on both contact and account
+forms (305940)</h3>
+
+<p class=MsoNormal>If you create an opportunity by clicking <b>Add Existing</b>
+in a contact or account, and the relationship is coming from the value in the <b>Potential
+Customer</b> field, the opportunity will be displayed in only one list, either
+on the contact or on the account – but not in both lists. </p>
+
+<p class=MsoNormal>Also, you might see a message that says the opportunity was
+not successfully associated with the contact or account, if both the contact
+and account fields are filled in on the create form. </p>
+
+<h3>Using CRM2011 Customized Qualify ribbon action, which uses
+mscrm.list.convertLead, can fail from lead grid for CRM for tablets application
+(305190)</h3>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>The Lead
+qualify action specified above can fail on the tablet client when the CRM
+server bits are upgraded, but the database is not. </p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>The workaround
+is to  qualify the lead from the form and not from the grid. After the database
+also upgrades, the problem will go away.</p>
+
+<h3>Child entities cannot be searched for in CRM for tablets (304941)</h3>
+
+<p class=MsoNoSpacing>If you do a search across multiple entities that includes
+child entities (such as Opportunity Product or Queue Item), the results for
+these specific entities will not load. The search will appear to stop
+responding without producing search results. </p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNormal><span class=Heading3Char>Entitlement field on case form is
+not filtered based on customer, contact, and product (301282)</span><span
+style='font-size:12.0pt;line-height:107%;font-family:"Segoe UI Light","sans-serif";
+color:black'><br>
+</span>The Entitlement lookup field shown on a case form is filtered based on
+the Customer, Contact, and Product fields on the web client. This filtering
+doesn’t work in CRM for tablets and all the entitlements belonging to all the
+customers are shown in the field.</p>
+
+<p class=MsoNormal>However, you can’t save a wrong entitlement in the case. If
+you were to choose an entitlement that doesn’t belong to the customer, contact,
+or product selected, an error message is shown.</p>
+
+<h3>Entity metadata does not sync correctly under some scenarios (305846)</h3>
+
+<p class=MsoNormal>Labels and attributes may not sync down to Microsoft
+Dynamics CRM for tablets.               </p>
+
+<p class=MsoNormal>The workaround for the affected entity is to edit any
+metadata in the Entity section of the <b>Customization</b> page and publish.</p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Tablet app shows error or freezes
+after server is upgraded to CRM Online Spring ‘14 (305171)</span></h3>
+
+<p class=MsoNormal>If you are using Microsoft Dynamics CRM for tablets running
+on an iPad, and the <span style='color:black'>tablet app was configured against
+a 2013 organization, and then the server is updated to CRM Online Spring ’14,
+the tablet app might stop responding or show an error.</span></p>
+
+<h3><span style='color:#1F497D'> </span><span style='font-size:12.0pt;
+line-height:107%;font-family:"Calibri","sans-serif";color:windowtext;
+font-weight:normal'>There are two scenarios here:</span></h3>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>If the update was done when the
+app was running (running or in background): If a user interacts with the app,
+doing actions like creating a record will take users offline. When they try to
+reconnect, they will get a “not authorized” error. After hitting the <b>Back</b>
+button, the user can re-authenticate and connect to server.</span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>If a user starts the app after updating,
+they will see a loading screen and the app will connect to the CRM 2013 server.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Users with
+slow network speed might need to reinstall the app.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Windows 8 shows an Active Directory
+authentication screen before intended authentication screen for IFD users.
+Appears as repeatedly prompting for sign-in credentials and users cannot sign in.
+(277770)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>When users try
+to connect to Microsoft Dynamics CRM Server 2013 (on-premises) configured for
+an Internet Facing Deployment (IFD) server on a Windows device, they will be
+prompted at an Active Directory authentication screen, which overlays and hides
+the proper authentication screen that is intended for the user. Users may
+attempt to enter credentials on this authentication screen, which will not work
+and repeatedly prompt for logon credentials.<br>
+This issue occurs when the server running IIS where the Microsoft Dynamics CRM
+web application is installed has Negotiate and NTLM Windows authentication
+providers enabled on certain Microsoft Dynamics CRM website features.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The
+workaround is to click or tap <b>Cancel</b> on the Active Directory
+authentication screen to reveal the proper IFD authentication screen behind it.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>To resolve
+the issue, run a <b>Repair</b> of Microsoft Dynamics CRM Server on the server
+running IIS where the Web Application Server role is installed. To resolve this
+issue by running Repair, the Microsoft Dynamics CRM deployment must already be
+configured for claims-based authentication and IFD.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Unable to edit record owner
+after creation (266100) </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>On edit forms in Microsoft
+Dynamics CRM for tablets, users cannot edit the <b>Owner</b> field. This means
+that after a Create form is saved, this information is not editable. To work
+around this, the user can use <b>Assign</b> on the command bar to assign the
+record to a new user. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>User needs to have read
+privileges on User, Team, and Process to view Accounts in CRM for tablets
+(280047)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>If a user
+does not have any of these read privileges, they will get an error message
+about Insufficient Privileges.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Search on CRM for tablets shows
+activity types that are not enabled for CRM for tablets (277471)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>CRM for tablets
+does not support activities like Fax and Letter. These activity types are
+returned by the search results and shown to the user.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The
+workaround is to change the search entities. To do this, follow these steps:</span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Under <b>Settings</b> &gt; <b>Administration</b>
+&gt; <b>System Settings</b> &gt; <b>Select entities for search on CRM for tablets</b>,
+click <b>Select</b>. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Remove the <b>Activity</b> entity
+that you don’t want in search by selecting it in the <b>Selected Entities</b>
+column and clicking <b>Remove</b>.</span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Add the child activity entities,
+like <b>Phone Call</b>, <b>Task</b>, and <b>Appointment, which are supported in
+the CRM for Tablet app</b> by selecting them in the <b>Available Entities</b>
+column and clicking <b>Add</b>.  </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Click <b>Save and Close</b>.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>The metadata default value
+for a new Opportunity Product type is ignored (279488)</span></h3>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:12.0pt;line-height:107%'>The default value should be <b>Existing</b>
+for the <b>Select Product</b> field. But it may select <b>Write-In</b> as the
+field default.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Creating appointments from CRM
+for tablets does not check for calendar conflicts (274554)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>You can save
+appointments that conflict with other calendar entries. CRM for tablets does
+not check for these conflicts and you are not informed.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>CRM for tablets does not
+consider the defaults view setting for users (215228)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>CRM for
+tablets shows only the system view as the default view.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Some data loss may occur if
+you don’t save your edits, the app is closed, and then reopened within 10 seconds
+(276105)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>If you re-start
+the app after 10 seconds or save the record (by navigating away or clicking <b>Save</b>),
+there will be no data loss.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Forms open in read-only
+mode and don’t change to edit mode (277876)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>While a form is loading,
+if you try to edit a field, you will get a read-only view of that field and its
+data. After the form has completed loading, if this field is still in an
+expanded state, it will still be read-only. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to click
+or tap outside the field and then try to edit it again. The field should change
+to edit mode.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Verbose logging may prevent
+CRM for tablets from successful configuration (279744)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>During first time configuration
+of a CRM for tablets application, a large amount of operations and UI definitions
+are generated. If verbose logging is turned on for a CRM server, the volume
+operations that are logged prevent the definition generation from succeeding.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to turn
+off verbose logging and connect to the organization with CRM for tablets. Then
+turn logging back on. The definition generation happens only the first time
+after you publish customizations.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Error on a hidden field
+will prevent saving (278760)</span></h3>
+
+<p class=MsoNoSpacing>If a field on a form is given an invalid value (or is
+required, but not complete) and becomes hidden through form logic (before or
+after it becomes an error), and you try to save the form, the field is not made
+visible. You are told there is an error somewhere on the page. </p>
+
+<p class=MsoNoSpacing>The workaround is to navigate away from the page, which
+means you will lose your changes and need to start over. </p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Shared views are not
+available in CRM for tablets (275824)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>If you make
+a personal view, and share that view with another user, the other user will not
+be able to use this view in CRM for tablets. However, it will be available to
+them on the web client.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Pin to start command button
+does not properly update when using record set navigation (279102)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>If you pin a record to the
+start screen, and then use record set navigation to move to another record that
+has not yet been pinned to the start screen, the command for that record will
+say Unpin from Start rather than Pin to Start.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to manually
+refresh the page. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Tiles do not update when
+information on the same form is updated (276292)  </span></h3>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span style='font-size:12.0pt'>Tiles on entity
+forms do not automatically update when the corresponding information is changed
+on the form.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The
+workaround is to manually refresh the page.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>After publishing a new
+customization, the first metadata sync can fail and you will be signed out
+(303138)</span></h3>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'>The workaround is to sign in again and retry.</p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Add New and Add Existing commands
+are missing for </span>Associated lists and areas of Cases on CRM for tablets (305510)</h3>
+
+<p class=MsoNormal>When you go to the Case Associated list on any entity form
+and get the command bar by swiping from below, it doesn’t show <b>Add New</b>
+and <b>Add Existing</b> actions. A similar issue happens if you go to the Case
+Associated area. These actions will not be shown. </p>
+
+<p class=MsoNormal>The workaround is to perform these actions from the <b>Add</b>
+button (+) that is on Case list.</p>
+
+<h3>Creating or changing a Social Profile record is not allowed (304472)</h3>
+
+<p class=MsoNoSpacing>Social Profile record creation or update is not allowed.
+On attempting to save the record  an error message is displayed.</p>
+
+<h2 style='margin-left:0in'><a name="_Web_Client_(Viewed_1"></a>Web Client (Viewed
+on Tablets) Known Issues</h2>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Cannot delete values from a
+field with lookup control on the Android Touch mobile browser (276630)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to open
+the lookup control and delete by removing the value in the dialog box.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Unable to open grid's
+contextual menu on iPad (274258)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The contextual menu for
+grids, which you can view by right-clicking a record on the grid, will not be
+displayed on an iPad browser. Instead, the default Safari browser menu will be
+displayed. This is because the contextual Safari browser menu cannot be
+overridden in iOS devices.</span></p>
+
+<h2 style='margin-left:0in'><a name="_Microsoft_Dynamics_CRM_3"></a><a
+name="_Microsoft_Dynamics_CRM_10"></a>Microsoft Dynamics CRM for Outlook Known
+Issues</h2>
+
+<h3><span style='font-size:12.0pt;line-height:107%;font-family:"Calibri","sans-serif"'>Support for Citrix XenApp 6.5 session virtualization for Microsoft Dynamics CRM for Outlook on a single XenApp instance</span></h3>
+
+<p class=MsoNoSpacing>Microsoft will support a configuration that is Citrix XenApp 6.5 with session virtualization for Microsoft Dynamics CRM for Outlook on a single XenApp instance.  That support is only for Microsoft Dynamics CRM 2013 Service Pack 1 for Outlook. </p>
+
+<br>
+<p class=MsoNoSpacing>Please note that Citrix deployment may include a complex configuration topology based on other configurations, and these are not supported. For example, these configurations are not supported:</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Citrix products like XenApp (except for version 6.5), XenDesktop, and XenServer and versions of these products</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Application streaming modes</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Modes of application deployment</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Options for load balancing</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Application virtualization layered on top of other virtualization technologies (such as Network and storage virtualization technologies)</p>
+
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Blocked CRM for Outlook uninstall
+on Service Pack 1 (304777)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Once you update your CRM
+for Outlook version to Service Pack 1, you can no longer uninstall the SP1 in
+order to revert back to CRM 2013 or any update rollup on it. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to
+uninstall CRM for Outlook, reinstall CRM 2013, and apply the relevant update
+rollup that you had before.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=Heading4Char><span style='font-size:12.0pt;
+line-height:107%;font-style:normal'>Social Activities and its view under
+Activities are not present in CRM 2013 for Outlook when it is connected with a CRM
+2013 Service Pack 1 Server that has Product Updates installed (302034)</span></span><span
+style='font-family:"Segoe UI Light","sans-serif"'><br>
+</span>The workaround is to upgrade CRM 2013 for Outlook to CRM 2013 Service
+Pack 1 for Outlook.</p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Upgrade from CRM for
+Outlook Early Access prerelease to final release is not supported</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>We do not
+support upgrading from the Early Access prerelease of CRM for Outlook to the
+final release of it. You must uninstall the Early Access build of the client
+and install the release build. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Upgrade of Early Access CRM
+Outlook client against a server running the released build is not supported</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>If you have an Early
+Access server and upgrade to the final release, we do not support the Early
+Access CRM for Outlook against a final release server. If you have this
+scenario, you must make sure that if your end users are offline, they must go
+back online before you upgrade the server to the final release. After the
+server is upgraded, they should upgrade all clients to the final release build.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>In CRM for Outlook in
+offline mode, Mailbox records display an error when they open (280954)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>When you use CRM for
+Outlook in offline mode, any action that tries to open a Mailbox record will
+display an error. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The Mailbox entity’s form
+is not supported in offline mode. Please do not click links to Mailbox records.
+If you do, simply navigate to other records or close the form.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Long delay in opening first
+form after initial install/upgrade (302093)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>This issue
+is very intermittent but sometimes the first time a form is opened from Outlook
+on a fresh install/upgrade, it will take a very long time to actually open.
+This may be perceived as the form never opening. Restarting Outlook should
+resolve this issue as it only occurs on a fresh install/upgrade.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Cannot create record from
+newly customized custom entities in CRM for Outlook (302430)</span></h3>
+
+<p class=MsoNormal>In some cases, where you customize entities and publish the
+customizations and immediately want to create a record through CRM for Outlook,
+it will not succeed. This is because the metadata in CRM for Outlook was not
+updated yet. <br>
+The workaround is to simply restart Outlook and wait for a minute or so to have
+the latest metadata cache.<a name="_Server-side_Synchronization_Known"></a> </p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Sometimes the first
+received email in a mail thread doesn’t have the Regarding field set correctly
+(302925)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>When you
+track and send an email, only if the recipient replies immediately, sometimes this
+first reply may not get auto-tracked in CRM. This is due to a timing issue that
+the first sent email was not yet created in CRM, and email correlation failed
+to correlate this reply with any other CRM emails. </span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The
+workaround is to make sure the first sent email is tracked in CRM or manually
+track the first email reply. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>A user with the Salesperson
+security role can open a new case form in Outlook even though that is not allowed
+(305648)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The Salesperson
+security role does not have permissions to create new cases in either CRM for
+Outlook or the web client, and the <b>New Case</b> button is hidden from the
+ribbon. However, in CRM for Outlook, users with this security role can still open
+a new case form by right-clicking the list and choosing <b>New Case</b> from
+the shortcut menu. The new case form will open, though it is not editable.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>The Synchronize CRM data dialog
+box stops responding for multi-organization upgrade (302407)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>To resolve
+this issue, force Outlook to restart; Outlook will work normally. This can
+occur when you: </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Prepare two Service Pack 1
+organizations. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Prepare one CRM 2013 client and configure
+against those organizations. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>The Primary organization goes
+offline, then goes online. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Switch the primary organization,
+go offline, then go online. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Upgrade the client from CRM 2013
+to Service Pack 1.  </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Start Outlook. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Outlook stops responding. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Force Outlook restart to resolve
+the issue.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Recurrence removed from a
+recurring appointment while  CRM for Outlook is offline will not sync the series
+when CRM for Outlook goes online again (293360, 302776)</span></h3>
+
+<h3><span style='font-size:12.0pt;line-height:107%;font-family:"Calibri","sans-serif";
+color:windowtext;font-weight:normal'>If you create a recurring appointment in CRM
+for Outlook, track it, sync it, go offline, open the series, click </span><span
+style='font-size:12.0pt;line-height:107%;font-family:"Calibri","sans-serif";
+color:windowtext'>Remove Recurrence</span><span style='font-size:12.0pt;
+line-height:107%;font-family:"Calibri","sans-serif";color:windowtext;
+font-weight:normal'>, and then go online, the CRM server does not have the
+recurring appointment removed. </span></h3>
+
+<h3><span style='font-size:12.0pt;line-height:107%;font-family:"Calibri","sans-serif";
+color:windowtext;font-weight:normal'>The workaround is to remove recurrence of
+an recurring appointment when CRM for Outlook is in online mode.</span></h3>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Sometimes the list or
+reading pane is not refreshed after updating a record in CRM or after
+synchronization (290359)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Sometimes
+the list or reading pane is not refreshed after updating a record in CRM or
+after synchronization. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>No synchronization support
+on non-cached Exchange mode (282781)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>We do not
+guarantee synchronization will work as expected if Exchange mode is set to
+non-cached in Outlook. For example, sometimes, tracking email from the Outlook
+Search folder gives an error when cached exchange mode is off when you set up
+your Exchange email account in Outlook. The best practice is to turn on cached
+Exchange mode when you set up your Exchange email account in Outlook.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Cannot accept updates to
+tracked appointments in Outlook 2007 SP3 with Outlook in Online Mode</span><span
+style='font-size:12.0pt;line-height:107%'> (non-cached Exchange mode) (294088)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>This happens
+when you cannot accept an update to a tracked appointment in a particular
+environment with specific settings. Imagine there is U</span><span
+style='font-size:12.0pt;line-height:107%'>ser 1 who is an External User who has
+just configured their Email account with Outlook or is using Outlook Web Access;
+and User 2 is a CRM user who has their Default Email account configured in
+Outlook with Cached Exchange Mode disabled and CRM Organization added to
+Default Email account. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>User 1 sends a meeting request to
+User 2. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>User 2 will accept the meeting
+request from Outlook inbox and send a response. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>User 2 opens the same appointment
+record through the Outlook calendar and closes it without making any change. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>User 1 reschedules the meeting
+time and sends an update to User 2 again. </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-size:
+12.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>User 2 will attempt to accept the
+same meeting update from their Outlook inbox, but will be presented with an
+error message: &quot;The function cannot be performed because the message has
+been changed&quot;.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Tracking an email in CRM
+that has an attachment adds the email itself as an attachment (289570)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Tracking an
+email in CRM that has an attachment adds the email itself as an attachment in
+the CRM activity email record after synchronization.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>User filters for
+synchronization of a entity need to be enabled in order to use system filters (307086)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>If you
+delete the user filter for a specific entity, such as Contact, the system
+filters for contacts will also not be included in future synchronizations. You
+need the user filters enabled to synchronize if you are also using system filters.
+</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Values in CRM fields reset
+to default on closing and opening the tracked recurring appointment (302600)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>When you
+change the values in CRM fields in </span>CRM for Outlook<span
+style='font-size:12.0pt;line-height:107%'>, and save and close the form, the next
+time you open it the changed values are not shown. </span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The
+workaround is to open the form in CRM and change the values there.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Set Regarding does not work
+ on a custom entity when the primary field’s requirement level is set to No
+Constraint (282488)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The best
+practice is not to have the primary field requirement level set to <b>No Constraint</b>
+if you want to set regarding for your emails, appointments, contacts, or tasks
+to records from this custom entity.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Email mail merge button is
+not functioning while clicking on it from advanced find window. (299372)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>When you use
+Advanced Find to find records and then click the <b>Mail Merge</b> button from
+the ribbon, sometimes mail merge will not work. Until we completely fix the
+issue in the near future, we recommend that you use mail merge in a view.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Intermittent display issues
+with the ribbon when using a CRM 2013 for Outlook client configured to CRM 2013
+SP1 with Product Updates installed (303787)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Sometimes
+the ribbon is not displayed  when you have the CRM 2013 for Outlook client  with
+CRM 2013 SP1 and Product Updates installed on the server. </span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The
+workaround is to restart or reconfigure Outlook.</span></p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
+font-family:"Calibri Light","sans-serif";color:#5B9BD5'>CRM 2013 forms are displayed
+for Case, Contact, and Account when using a CRM 2013 for Outlook client in
+online mode configured to a server that is running CRM 2013 Service Pack 1 with
+Product Updates installed (308216)<a name="_Microsoft_Dynamics_CRM_12"></a><br>
+</span></b><span style='font-size:12.0pt;line-height:107%'>This behavior is
+restricted to only the Case, Contact, and Account entities, which have the
+Entitlement sub-grid.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>CRM for Outlook is not
+supported with side-by-side install of Office versions (288212)</span></h3>
+
+<p class=MsoNormal>Installing CRM for Outlook in side-by-side Office version scenarios
+(such as Outlook 2010 and Outlook 2013 Click To Run installed on the same
+machine) is not supported. </p>
+
+<h2 style='margin-left:0in'><a name="_Customer_Service_Known"></a>Customer
+Service Known Issues</h2>
+
+<p class=MsoNormal><span class=Heading3Char>Case form closes when the Apply
+Routing Rule action is manually applied (305563)<br>
+</span>On successful application of an active routing rule, the case form
+closes and the case list loads.</p>
+
+<h3>Unable to launch open a case form when the Create child case option is
+clicked and  Allow quick create is unchecked  not selected  (305208)</h3>
+
+<p class=MsoNormal>When the <b>Allow quick create</b> option is cleared from <b>Settings</b>
+&gt; <b>Customization</b> &gt; <b>Entities</b> &gt; <b>Case</b>, you won’t be
+able to open the case form when you click the <b>Create child case</b> option.
+The quick create form will partly load, and if you click <b>Cancel</b>, you
+will get a script error.</p>
+
+<p class=MsoNormal>The workaround is to navigate to the <b>Child cases</b> sub-grid
+in the <b>Case relationships</b> tab to create a new child case.</p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
+font-family:"Calibri Light","sans-serif";color:#5B9BD5'>In Advanced Find for
+Cases, Merge and Associate Child Cases actions are visible and result in a “Record
+is unavailable” error when accessed (applicable to organizations that haven’t installed
+Product Updates) (305219)</span></b></p>
+
+<p class=MsoNormal>Merge and Associate Child Cases actions are applicable for
+organizations that have installed Product updates successfully. Until then all
+such entities and attributes are marked “For internal use only” and executing
+CRM functionality on them can cause error conditions or unsupported behavior.</p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
+font-family:"Calibri Light","sans-serif";color:#5B9BD5'>Merge Cases command bar
+action appears twice on the Advanced Find ribbon when searching against the
+Cases entity (305028)</span></b></p>
+
+<p class=MsoNormal>This issue applies to organizations that have upgraded to
+Microsoft Dynamics CRM Online Spring ’14 or Microsoft Dynamics CRM 2013 SP1 and
+have Product Updates Installed. There is no functionality impact. Merge cases
+command bar option is seen twice.</p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%;
+font-family:"Calibri Light","sans-serif";color:#5B9BD5'>Unable to Add New Case
+or Add Existing Case from the Cases associated view for a social profile record
+(304744)</span></b></p>
+
+<p class=MsoNormal>When you try to add a new case, the case quick create form
+opens up and after providing the relevant details and saving the form, the case
+gets created, but is not listed in the Cases associated view of the social
+profile record.</p>
+
+<p class=MsoNormal>When attempting to add an existing case and selecting a case
+from the lookup, the association of the case to the social profile record
+fails.</p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>For the email channel, in a
+case creation rule, the option to create a case only if a valid entitlement
+exists does not work (301592)</span></h3>
+
+<p class=MsoNormal>The option to create a case only if a valid entitlement
+exists will not work as expected for a case creation rule that has been set up
+for the email channel. A case will be created even when this option is turned
+on and no active entitlement exists.</p>
+
+<h3>Changing the Worked By field directly from the Queue Item details form
+causes an error (303142)</h3>
+
+<p class=MsoNormal>The error occurs if the queue is private and the selected
+user is not a member of the queue.</p>
+
+<h3>Importing a solution with an active routing rule into an organization where
+the rule already exists and is active fails (303536)</h3>
+
+<p class=MsoNormal>You cannot edit an active rule. If a rule is active, when you
+try to import the rule with the same ID, the solution import will fail.</p>
+
+<h3>Customer Service configuration entities should not be selected in the Create
+Record step of any process (306889)</h3>
+
+<p class=MsoNormal>You should not select the following customer service
+configuration entities in the Create Record step of any CRM process (such as
+workflows and dialogs):</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Case Creation Rule</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Case Creation Rule Item</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Entitlement</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Entitlement Channel</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Entitlement Template Channel</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Routing Rule Set</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Rule Item</p>
+
+<h2 style='margin-left:0in'><a name="_Server-side_Synchronization_Known_1"></a>Server-side
+Synchronization Known Issues</h2>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>For existing CRM Online
+customers, server-side synchronization requires that the organization database be
+updated to CRM Online Spring ‘14</span><span style='font-size:12.0pt;
+line-height:107%'> </span><span style='font-size:12.0pt;line-height:107%'>(</span><span
+style='font-size:12.0pt;line-height:107%'>305320</span><span style='font-size:
+12.0pt;line-height:107%'>)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>We are providing
+server-side synchronization in CRM Online Spring ‘14 for CRM Online
+organizations for selected email server types*. Please wait to configure
+server-side synchronization until your organization is updated to CRM Online
+Spring ’14 for both the server and the organization database.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>* Exchange Online (emails,
+appointments, contacts, and tasks) and white-listed POP3/SMTP servers (emails
+only).</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>In CRM 2013 SP1,
+server-side synchronization is supported for some CRM with Exchange
+configurations and  </span>supported POP3/SMTP mail servers<span
+style='font-size:12.0pt;line-height:107%'> </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>CRM 2013 SP1 supports
+server-side synchronization for: </span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:12.0pt'>CRM on-premises with Exchange
+on-premises.</span></b><span style='font-size:12.0pt'> </span>Microsoft
+Dynamics CRM on-premises customers who are using Microsoft Exchange on-premises
+or POP3/SMTP supported mail servers (Outlook.com, Windows Live Mail, Gmail,
+Hotmail, Yahoo! Mail, and MSN). This capability works with users, queues, and
+forward mailboxes.</p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:12.0pt'>CRM Online with Exchange
+Online.</span></b><span style='font-size:12.0pt'> </span>The capability is also
+available for CRM Online customers who are using Microsoft Exchange Online or
+POP3/SMTP supported mail servers (Gmail, Yahoo! Mail).</p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:12.0pt'>Supported POP3/SMTP mail
+servers for emails.</span></b><span style='font-size:12.0pt'> </span>For these
+white-listed POP3/SMTP servers, only email synchronization is supported, and we
+recommend that you set the synchronization method as None for appointments,
+contacts, and tasks in this case.<span style='font-size:12.0pt'> </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Server-side synchronization
+for appointments, contacts, and tasks are not supported for POP3/SMTP Email
+servers (305872, 305945, 305964)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Though it is allowed in
+the UI, we do not support server-side synchronization for appointments,
+contacts, and tasks for POP3/SMTP email servers. If you configured this way, a
+notification message is presented in the mailbox record form and the mailbox
+processing will fail for appointments, contacts, and tasks. And there may be
+misleading messages in the alert wall. If you are setting up server-side synchronization
+for supported POP3/SMTP email servers, the best practice is to set
+synchronization method for appointments, contacts, and tasks as None or CRM for
+Outlook (Outlook Sync). Do not set as server-side synchronization if the
+attached email server profile is not an Exchange server.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Every enabled mailbox runs
+server-side synchronization on the CRM Async server periodically, so ensure you
+have proper testing and hardware </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Please ensure you have
+enough testing and hardware </span><span style='font-size:12.0pt'>for CRM
+on-premises and Exchange Server on-premises</span><span style='font-size:12.0pt'>
+before using server-side synchronization in your day-to-day environment.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The load and performance
+impact of server-side synchronization highly depends on the:</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Number of enabled mailboxes</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Load of user usage (daily or peak)
+on emails, appointments, contacts, and tasks</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Load on the Exchange server and
+Async server (such as workflows, etc)</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Optimization of the SQL servers</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Data topology of the Exchange
+server</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>Hardware specification and
+Internet connection of the environments. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Install both the Asynchronous
+Processing Service and Email Integration Service roles to enable server-side
+synchronization </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>To enable server-side
+synchronization, you must install both the Asynchronous Processing Service server
+role and the Email Integration Service server role.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Deadlocks due to recurring appointments
+in server-side synchronization for appointments, contacts, and tasks in high-scale
+environments (279105)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The server-side synchronization
+may show failures because of potential deadlocks in recurring appointment
+synchronization. In most cases those failures will be successfully retried in
+next run of server-side synchronization. However, these deadlocks may impact
+server performance.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>CRM icon not showing for
+synced items</span><span style='font-size:12.0pt;line-height:107%'> in specific
+use cases (2</span><span style='font-size:12.0pt;line-height:107%'>81899</span><span
+style='font-size:12.0pt;line-height:107%'>)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>In Outlook with
+server-side synchronization, in a rare case where you change a field of a
+synchronized item that is not synced with CRM, the icon of that item does not
+change back to the CRM icon. This is because server-side synchronization does
+not detect any changes.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to
+modify some other fields of the item that will be synchronized with CRM. Once
+the synchronization happens, the CRM icon will appear again.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>With FIPS enabled,
+server-side synchronization cannot be used with some supported SMTP email
+providers (279682)</span></h3>
+
+<p class=MsoNoSpacing><span lang=EN-IN style='font-size:12.0pt'>If </span><span
+style='font-size:12.0pt'>Federal Information Processing Standard (FIPS)</span><span
+lang=EN-IN style='font-size:12.0pt'> is enabled on Microsoft Dynamics CRM, you
+cannot use server-side synchronization to send emails through Hotmail, Outlook,
+Live, and MSN email systems.</span></p>
+
+<p class=MsoNoSpacing><span lang=EN-IN style='font-size:12.0pt'>The workaround
+is to not enable FIPS on Microsoft Dynamics CRM if you want to configure
+server-side synchronization by using SMTP to send emails through Hotmail,
+Outlook, Live, or MSN email systems. For more information about FIPS, go to </span><a
+href="http://support.microsoft.com/kb/2691911"><span lang=EN-IN
+style='font-size:12.0pt'>FIPS 140-2 Compliancy with Microsoft Dynamics CRM</span></a><span
+lang=EN-IN style='font-size:12.0pt'>.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Organizer (CRM user) should
+be the owner if any of attendee (CRM user) tracks the appointment</span><span
+style='font-size:12.0pt;line-height:107%'> </span><span style='font-size:12.0pt;
+line-height:107%'>(</span><span style='font-size:12.0pt;line-height:107%'>287083,
+304236</span><span style='font-size:12.0pt;line-height:107%'>)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>This applies to Outlook
+Sync and server-side sync as well. Whoever has the permission to update the
+appointment in CRM can cause a broadcast or update to the attendee’s
+Outlook/Exchange calendar. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to let
+the organizer who is also the CRM user track the appointment before sending.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Untracking an Outlook
+contact and choosing to delete it in CRM does not delete the contact in CRM (</span><span
+style='font-size:12.0pt;line-height:107%'>309868</span><span style='font-size:
+12.0pt;line-height:107%'>)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Even if you click <b>Yes</b>
+in the confirmation message that asks you if you want to delete the contact,
+the contact in CRM will not be deleted. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to delete
+the contact in CRM manually.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Pasting a tracked task in
+Outlook will not create a new item in CRM (</span><span style='font-size:12.0pt;
+line-height:107%'>309539</span><span style='font-size:12.0pt;line-height:107%'>)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>This occurs only if you
+have an Outlook item that is tracked and synced with CRM, and then you copy and
+paste it in Outlook. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to
+create another task separately, or copy and paste it before tracking them.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Changes to a retracked
+appointment won't initially sync up to CRM (</span><span style='font-size:12.0pt;
+line-height:107%'>309307</span><span style='font-size:12.0pt;line-height:107%'>)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>If you tracked an
+appointment and after it has been synced to CRM you decided to untrack it, and
+afterwards, decided to track it again, and afterwards, try to update the
+appointment in Outlook. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to
+update the appointment in CRM to make them sync properly.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Sending out a tracked
+appointment to an attendee on another CRM organization may cause the other
+organization to automatically track the appointment unintentionally (306582)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>If you and the attendee
+are both using Microsoft Dynamics CRM, but in different CRM organizations, your
+tracked appointment might unintentionally also become tracked in their CRM
+organization. This happens only if the appointment has not been created in your
+organization before sending out to the attendee who is in another CRM
+organization. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to
+untrack the appointment from the other organization. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>CRM appointments do not get
+propogated to an attendee's Outlook calendar if the attendee is using server-side
+synchronization and the organizer is using Outlook sync (307001)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>This occurs when you have
+two CRM users sending meeting invites while the organizer is still on Outlook
+Sync and the attendee is on server-side synchronization. If the organizer in
+this case creates or updates the appointment in CRM, and never opens up the
+same appointment in Exchange or Outlook. The update will not be in the attendee’s
+calendar. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to
+create or change the appointment in Outlook and then send. The best practice is
+not to have mixed synchronization methods within the same CRM organization.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>The synchronization will
+not work after moving a tracked contact from the default contact folder to
+another contact folder (272559)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>We recommend
+you not to move an already tracked contact to another contact folder.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>A  user's primary email
+address in CRM must be the same as the user’s mailbox email address (303219)</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The email address in the
+mailbox record of the CRM user has to be the same as the primary email account
+set up in Outlook in order to perform tracking and synchronization. However,
+there is no system enforcement of this requirement.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>This applies to Outlook
+Sync as well.<a name="_Server-Based_SharePoint_Integration"></a></span></p>
+
+<h3>Mailbox location error is displayed when Auto Discover Server Location is
+set to Yes (305809) </h3>
+
+<p class=MsoNoSpacing>If you have configured server-side synchronization with
+an email server profile that has the <b>Server Type</b> set to <b>Exchange</b>
+and <b>Auto Discover Server Location</b> set to <b>Yes</b>, you may experience
+intermittent issues during email, appointment, contact, or task  sync (or
+during the <b>Test &amp; Enable Mailboxes</b> action). You will see an error
+that states that the mailbox location could not be determined. </p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>The workaround is to configure the email server profile
+with <b>Auto Discover Server Location</b> set to <b>No</b>, and provide an <b>Incoming
+Server Location</b> and/or <b>Outgoing Server Location</b>.</p>
+
+<h2 style='margin-left:0in'><a name="_SharePoint_Integration_Known"></a>SharePoint
+Integration Known Issues</h2>
+
+<h3>Throttling exception when sorting on non-default columns when document
+library has more than 5,000 records (<a name="_Miscellaneous"></a><a
+name="_Update_Known_Issues"></a><a name="_Unified_Service_Desk"></a>301565)</h3>
+
+<p class=MsoNormal>If a user attempts to sort/filter on a non-default sorting
+column and the document library they are accessing has more than 5,000 records,
+the user may see a throttling exception. </p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>SharePoint Documents not
+supported for workflows (308126)</span></h3>
+
+<p class=MsoNormal>The SharePoint Document entity is not supported for
+workflows.</p>
+
+
+
+<h2 style='margin-left:0in'><a name="_SocialListening_Integration_Known"></a>Microsoft Social Listening Integration Known Issues</h2>
+
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Social Insights visuals are not rendering in CRM for Outlook</span></h3>
+
+<p class=MsoNormal>When a Microsoft Dynamics CRM dashboard or a form that contains one or more Social Insights controls is loaded in Microsoft Dynamics CRM for Outlook, the Social Insights controls may not render or may display an error if you are not already signed in to Microsoft Social Listening.</p>
+
+<p class=MsoNormal>The workaround for this is to open a new Internet Explorer browser tab and sign in to Microsoft Social Listening with your credentials. You must also select the <b>Keep me signed in</b> check box to continue to work. After you are signed in to Microsoft Social Listening, return to CRM for Outlook and reload the dashboard or form for the Social Insights controls to render.</p>
+
+
+
+<h2 style='margin-left:0in'><a name="_Unified_Service_Desk_1"></a>Unified
+Service Desk Known Issues</h2>
+
+<p class=MsoNormal>For Unified Service Desk, the Solution Package for Microsoft
+Dynamics CRM 2013 SP1 with product updates will not be deployed properly, if
+product updates are not applied on the CRM organization.</p>
+
+<p class=MsoNormal>Package Deployment will fail in such scenarios because the
+customizations are done for entities that get enabled after product updates are
+installed on the CRM org where the package is being deployed.</p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Appropriate permissions on
+custom entities of solutions should be given to two roles (USD_Admin and
+USD_Agent) in a Unified Service Desk solution (295705)</span></h3>
+
+<p class=MsoNormal><span lang=EN-IN>Unified Service Desk does not have
+out-of-the-box (OOB) roles. Therefore, while deploying </span><span
+style='font-size:12.0pt;line-height:107%'>Unified Service Desk </span><span
+lang=EN-IN>in production applications, system customizers must ensure that
+appropriate roles are created in CRM so that agents have only relevant
+privileges on the selected set of entities.</span><span lang=EN-IN> </span></p>
+
+<h3>U<span style='font-size:12.0pt;line-height:107%'>nified Service Desk </span>Client
+screens not RTL compliant (304850)</h3>
+
+<p class=MsoNormal>The installer for Unified Service Desk is not right to left
+(RTL) compliant and hence the user interface (UI) will not render properly for
+Arabic languages.</p>
+
+<h3>On clicking Resolve Case the call script of account/contact session may change
+(304978)</h3>
+
+<p class=MsoNormal>In Microsoft Dynamics CRM 2013 SP1, when you click<b> Resolve
+Case</b> in certain call scripts, the call script may change. This results in a
+situation where some steps of the call script that were already completed
+appear to be incomplete. This can be fixed through configuration changes.</p>
+
+<h3>Script error pops up when an account session is closed by clicking
+&quot;x&quot; button or when you click the contact in Associated Contacts of
+account session (304977, 304979)</h3>
+
+<p class=MsoNormal>You may encounter certain script errors in sample packages. You
+can proceed after canceling the script error.</p>
+
+<h3>SLA definition for Resolve By KPIs needs to be corrected (305106)</h3>
+
+<p class=MsoNormal>The definition of SLA that is shipped with the sample
+package is not correctly defined. Hence, it is recommended that the SLA
+definition is reviewed appropriately before using it.</p>
+
+<h3>Import data owned by teams is no longer assigned to teams (302415)</h3>
+
+<p class=MsoNormal>In the Configuration Migration tool, when data owned by
+teams is imported into a new CRM organization, the ownership changes to the
+user who imported the data.</p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Unified Service Desk is not
+starting properly the first time you open it (301412)</span></h3>
+
+<p class=MsoNormal><span lang=EN-IN>This is happening because the CRM async job
+for importing data is not completed - hence some of the data is not available. Users
+may get random errors if they try to start </span><span style='font-size:12.0pt;
+line-height:107%'>Unified Service Desk </span><span lang=EN-IN>immediately
+after deployment. The CRM admin should be informed if they are getting the
+issue after a reasonable time because that may indicate that the job may have
+stalled for some reason and needs CRM admin attention.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>CIS application opening
+throws an error for the first time (302455)</span></h3>
+
+<p class=MsoNormal>Customer Information System (CIS) is a sample application to
+demonstrate the integration of line-of-business applications in Unified Service
+Desk. When this application starts inside Unified Service Desk, there are some
+instances when the users may get an error. This error will not hamper the
+subsequent experience.  </p>
+
+<h2 style='margin-left:0in'><a name="_Update_Known_Issues_1"></a>Update Known
+Issues (CRM Online only)</h2>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Restore non-base language
+label translations for business process flow</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt;color:black'>If you use Microsoft
+Dynamics CRM Language Packs for additional languages in your system, you will
+notice that on update from Microsoft Dynamics CRM December 2012 Service Update
+to Microsoft Dynamics CRM Online Fall ‘13 Service Update, the base language
+translations are preserved but some of the localized labels for the business
+process flows are not carried over. Instead, they are shown in the base
+language in the CRM web application or CRM for Outlook. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt;color:black'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt;color:black'>The missing
+translations belong to the objects that were added or modified in the business
+process flow before you updated your system to Microsoft Dynamics CRM Online
+Fall ‘13. For example, if you modified a stage or added new steps in the stage
+of the out-of-the-box business process flow, the Language Pack label
+translations for these objects are missing in the updated CRM system. The
+translations for the labels of the unchanged out-of-the-box objects are
+displayed in the correct non-base languages. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt;color:black'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt;color:black'>You can easily
+restore the missing translations if you follow the following procedure. </span><span
+style='font-size:12.0pt'>Make sure that you have the System Administrator or
+System Customizer security role or equivalent permissions.</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>If using the CRM web application,
+on the nav bar, click or tap <b>Microsoft Dynamics CRM</b> &gt; <b>Settings</b>.
+<b>Settings</b> appears on the nav bar. Click or tap <b>Settings</b> &gt; <b>Customizations</b>
+&gt; <b>Customize the System</b>.</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>If using CRM for Outlook, in the Navigation
+Pane, expand your organization if necessary, and then click or tap <b>Settings</b>
+&gt; <b>System</b> &gt; <b>Customizations</b> &gt; <b>Customize the System</b>.</span></p>
+
+<p style='margin-left:.25in'><span style='font-family:"Calibri","sans-serif"'>In
+web application or Outlook, continue: </span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>In <b>Customize the System</b>,
+click or tap <b>Export Translations</b> to export the labels and their corresponding
+translations. Save the exported translations .zip file on your local disk. </span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>Open the translations .zip file with
+Windows Explorer. Copy the CrmTranslations.xml file to another folder on your
+local disk and edit with Microsoft Office Excel, as a workbook.</span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>In the CrmTranslations.xml file, in
+the <b>Localized Labels</b> worksheet, find the rows for the <b>Workflow
+Categories</b> entities that represent the business process flow labels in
+Microsoft Dynamics CRM Online Fall ‘13. In the <b>Workflow Categories</b> row,
+the columns that hold the label values use the language codes for column names.
+For example, for the English language, a column name is “1033”. Notice that,
+the cells for the non-base languages labels are blank, but the base language
+label contains the correct value. </span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>In the same <b>Localized Labels</b>
+worksheet, find the rows for the <b>ComplexControl</b> entities that
+represented the business process flow labels in Microsoft Dynamics CRM December
+2012 Service Update. Use the base language label in the <b>Workflow Categories</b>
+row to find the matching <b>ComplexControl</b> row. For example, if the <b>Workflow
+Categories</b> row has an English base-language label called “New custom step”,
+then the <b>ComplexControl</b> row that has the same label is a match. </span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>Copy and paste the values for non-base
+language labels from the <b>ComplexControl</b> row to the corresponding cells
+in the matching <b>Workflow Categories</b> row. Repeat this for all <b>Workflow
+Categories</b> rows. </span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>Save the CrmTranslations.xml file
+and copy it back into the exported translations .zip file.</span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>Reimport the translations .zip. In
+the CRM Web app, click or tap <b>Settings</b> &gt; <b>Customizations</b> &gt; <b>Customize
+the System</b> and click or tap <b>Import Translations</b>. If you use CRM for
+Outlook, click or tap or tap <b>Settings</b> &gt; <b>System</b> &gt; <b>Customizations</b>
+&gt; <b>Customize the System</b> and then click or tap <b>Import Translations</b>.
+</span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>In <b>Import Translations</b>,
+select the updated translations zip file and import.</span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>In <b>Customize the System</b>,
+click or tap <b>Publish All Customizations</b>, to publish the customizations. </span></p>
+
+<p style='margin-left:.5in;text-indent:-.25in'><span style='font-family:"Calibri","sans-serif"'>10.<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+style='font-family:"Calibri","sans-serif"'>To verify that the label translations
+are imported correctly for the non-base languages, switch your user language (a
+user language is one of the languages available in your CRM organization that
+you select as your preferred language) to a language for which the translations
+were updated. For example, if you updated the labels for German language,
+switch the user language to German (1031) and open an entity form that contains
+the business process flow with the updated translations. You will see the
+correct translations in the labels that previously were shown in the base
+language. </span></p>
+
+<h2 style='margin-left:0in'><a name="_Miscellaneous_Known_Issues"></a>Miscellaneous
+Known Issues</h2>
+
+<p class=MsoNoSpacing><span class=Heading3Char><span style='font-size:12.0pt'>User
+interface-based automations of CRM may not work for&nbsp;Internet Explorer 8
+(272798) <br>
+</span></span><span style='font-size:12.0pt'>Customer Care Accelerator (CCA)
+Reference Implementation, which is a sample application, has not been updated
+for CRM 2013 and CRM Online Fall ‘13. The SDK examples of CCA have not been
+updated for CRM 2013 and CRM Online Fall ‘13 and hence it will not work as
+expected.&nbsp;Customers who want to use UI-based automations are advised to
+use Internet Explorer 9. </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>UII Documentation has not
+been updated</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The UII documentation has
+the following inaccuracies:</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>UII Documentation indicates that
+for the Framework and Java DDA, Windows XP is supported. </span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in'><span style='font-size:12.0pt'>This
+is an error; we do not support Windows XP for UII. </span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>UII Documentation indicates that
+the developer is responsible for Creating the WPF Cab Component. </span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in'><span style='font-size:12.0pt'>This
+is no longer required. This component is integrated to the UII framework. </span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in'><span
+style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt'>UII Documentation mentions CRM
+2011 in numerous places.</span></p>
+
+<p class=MsoNoSpacing style='margin-left:.5in'><span style='font-size:12.0pt'>This
+should be read as CRM 2013.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>UII Hosted application
+toolkit held </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The UII Hosted Application
+Toolkit is not in the SDK distribution. </span></p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>The workaround is to use
+the HAT Toolkit from the currently released system to author automations and
+update them to CRM.  You can find the current release here: </span><a
+href="http://dynamics.pinpoint.microsoft.com/en-US/applications/Customer-Care-Accelerator-for-Microsoft-Dynamics-CRM-2011-12884949176"><span
+style='font-size:12.0pt'>http://dynamics.pinpoint.microsoft.com/en-US/applications/Customer-Care-Accelerator-for-Microsoft-Dynamics-CRM-2011-12884949176</span></a><span
+style='font-size:12.0pt'> </span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>UII: Existing UII Agent
+Desktop using WPFCAB (Microsoft.Practices.CompositeUI.Windows.dll) needs to be
+updated for the new assembly reference</span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>UII now includes WPFCAB as
+part of the distribution. For any asset that contains a reference to
+Microsoft.Practices.CompositeUI.Windows.dll, you must remove that and replace
+it with Microsoft.Uii.Practices.CompositeUI.Windows.dll from the
+UII\&lt;buildtype&gt;\Framework directory.</span></p>
+
+<h3><span style='font-size:12.0pt;line-height:107%'>Developer ToolKit and Plug-in
+Tools are using older icons and images</span><span style='font-size:12.0pt;
+line-height:107%;font-family:"Calibri","sans-serif";color:#4F81BD'> </span></h3>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>Several tools in the SDK
+are still using older icons and images, and the occasional reference to CRM
+2011. </span></p>
+
+<h3><a name="_Microsoft_Dynamics_CRM_6"></a><a name="_Microsoft_Dynamics_CRM_4"></a><a
+name="_Microsoft_Dynamics_CRM_7"></a><a name="_Microsoft_Dynamics_CRM_5"></a><a
+name="_Miscellaneous_1"></a><span style='font-size:12.0pt;line-height:107%'>When
+you create a lead from accounts or contacts (from associated grids), the Customer
+field will not be automatically filled from the originating record (281999)</span></h3>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>The
+workaround is to customize the form to have <b>Account</b> or <b>Contact</b> on
+the mobile form. Otherwise, you can still use the out-of-the-box forms and
+manually fill in the <b>Customer</b> field.</span></p>
+
+<h2 style='margin-left:0in'><a name="_Copyright_1"></a><a name="_Copyright_2"></a>Copyright</h2>
+
+<p class=MsoNoSpacing>This document is provided &quot;as-is&quot;. Information
+and views expressed in this document, including URL and other Internet Web site
+references, may change without notice. </p>
+
+<p class=MsoNoSpacing>Some examples depicted herein are provided for
+illustration only and are fictitious. No real association or connection is
+intended or should be inferred.</p>
+
+<p class=MsoNoSpacing>This document does not provide you with any legal rights
+to any intellectual property in any Microsoft product. You may copy and use
+this document for your internal, reference purposes.  </p>
+
+<p class=MsoNoSpacing>The videos and eBooks might be in English only. Also, if
+you click the links, you may be redirected to a U.S. website whose content is
+in English. </p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing>© 2014 Microsoft Corporation. All rights reserved.</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>Microsoft, Active Directory, Excel, Hotmail, Internet
+Explorer, Lync, Microsoft Dynamics, MSN, Outlook, Windows, and Windows Live are
+trademarks of the Microsoft group of companies. </p>
+
+<p class=MsoNoSpacing>All other trademarks are property of their respective
+owners. </p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><a href="http://go.microsoft.com/fwlink/?LinkId=323973"
+target="_blank">Third Party Notices</a><a name=o58942></a></p>
+
+<h2 style='margin-left:0in'><a name="_Documentation_Feedback"></a>Documentation
+Feedback</h2>
+
+<p class=MsoNoSpacing>The Microsoft Dynamics CRM Documentation Team welcomes
+your suggestions and comments about the documentation. You can quickly and
+directly send e-mail feedback to<span style='font-size:12.0pt'> </span><a
+href="mailto:mscrmdf@microsoft.com?subject=CRM_Readme%20(/1:Readme/2:v6.1/3:v6.1.0/4:readme.htm/5:none/6:en-us/7:Both)&amp;body=---Please%20type%20any%20comments%20here,%20leaving%20the%20subject%20line%20in%20place.%20All%20feedback%20must%20be%20in%20English.--"
+target="_blank" title="Documentation Feedback">Documentation Feedback</a>.<span
+style='font-size:12.0pt'> </span>All feedback must be in English. Your feedback
+will be used to make improvements to the content.</p>
+
+<p class=MsoNoSpacing><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+</div>
+
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+    //<![CDATA[
+    var _tag = new WebTrends();
+    _tag.dcsid = "dcssdxd4f000008mah0gjx9ra_6f6v";
+    // _tag.fpcdom=".domain.com";
+    _tag.dcsGetId();
+    _tag.trackevents = true;
+    //]]>>
+</script>
+
+<script type="text/javascript">
+    //<![CDATA[
+    // Add custom parameters here.
+    //_tag.DCSext.param_name=param_value;
+    _tag.dcsCollect();
+    //]]>>
+</script>
+
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://m.webtrends.com/dcssdxd4f000008mah0gjx9ra_6f6v/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=MS.3.0.0"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+</body>
+
+</html>

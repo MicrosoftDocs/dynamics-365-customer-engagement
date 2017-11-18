@@ -1,7 +1,7 @@
 ---
 title: "Import contacts (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -128,5 +128,4 @@ To find an app, search your phone’s online store.
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)    
  [Select a data map](select-data-map.md)    
  [Review settings and import data](review-settings-import-data.md)   
-
- <!-- [Import data (for developers)](../developer/import-data.md)   -->
+ [Import data (for developers)](../developer/import-data.md)
