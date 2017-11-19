@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management for Dynamics 365 for Government | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/18/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
