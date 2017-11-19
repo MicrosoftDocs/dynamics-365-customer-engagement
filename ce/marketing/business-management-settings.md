@@ -2,18 +2,20 @@
 title: "Import data and set up duplicate detection in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
 keywords: "administration; import; export; duplicate detection"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 9c480d38-9c4a-4875-a115-d064a9b327f4
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Business management settings
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -247,3 +249,9 @@ If your system contains a large number of records, checking for duplicates can a
 1. Select **Disable**.
 
 All the duplicate detection rules will be unpublished in the back end.
+
+### See also
+
+[Manage Excel templates](manage-excel-templates.md)  
+[Manage Word templates](manage-word-templates.md)  
+[Export data](export-data-Word-Excel.md)
