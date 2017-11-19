@@ -42,3 +42,7 @@ You now see **Advanced Settings** in the main area of the window.
 - When you first open the **Advanced Settings** page, the main part of the window provides the same sections as the **Settings Overview** column, and provides icons for opening the same settings pages that are also available in the navigator.
 
 See the subtopics in this section for details about how to work with each group of settings provided on the **Advanced Settings** page.
+
+### See also
+
+[Find your way around Dynamics 365](navigation.md)

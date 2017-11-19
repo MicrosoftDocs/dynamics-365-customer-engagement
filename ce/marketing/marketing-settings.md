@@ -2,18 +2,20 @@
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Use the marketing settings to configure landing pages, email marketing, and Customer Insights in Dynamics 365 for Marketing"
 keywords: "administration; landing page; Customer Insights"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Marketing settings
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -100,3 +102,8 @@ The analytical and data-crunching capabilities of [!INCLUDE[pn-customer-insights
 Use the **Settings** > **Marketing Settings** > **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to replicate to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. For optimal performance and functionality, choose only the entities you need—no more and no less.
 
 Select the check box for each entity you want to sync. If you can't see the entity you want, try using the search field to find it.
+
+### See also
+
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
+[Check your work with previews and test sends](#check-your-work-with-previews-and-test-sends)

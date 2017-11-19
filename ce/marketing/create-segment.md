@@ -69,3 +69,8 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 1. On the command bar, select **Save** to save the work you've done on the segment so far.
 
 1. On the command bar, select **Go Live** to publish the segment (you won't be able to use it in a customer journey until it goes live, even though you've saved it). [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] checks the segment for errors and reports any problems it finds. If an error is reported, fix it and try again. If no error is found, your segment is copied to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service, which makes it available for use by a customer journey.
+
+### See also
+
+[Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)
+[Set up subscription lists and subscription centers](set-up-subscription-center.md)

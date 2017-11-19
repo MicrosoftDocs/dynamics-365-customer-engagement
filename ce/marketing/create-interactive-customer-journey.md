@@ -96,3 +96,11 @@ In [Create a simple customer journey with email messaging](create-simple-custome
     > ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
 
 1. Save your customer journey. Then, as you've done before, go to the **General** tab to give the journey a name and schedule. Finally, **Check for Errors** and **Go Live**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
+
+### See also
+
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
+[Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)

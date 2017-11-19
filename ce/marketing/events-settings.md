@@ -50,3 +50,8 @@ You can find event management settings by going to **Settings** > **Events Setti
 ## Privacy notice
 
 [!INCLUDE[cc-privacy-events-webinar](../includes/cc-privacy-events-webinar.md)]
+
+### See also
+
+[Event planning and management in Dynamics 365](event-management.md)  
+[Set up a webinar](set-up-webinar.md)

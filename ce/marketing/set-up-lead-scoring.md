@@ -93,3 +93,8 @@ To create a lead scoring model:
     > Your landing pages will typically either create a lead/contact pair when you create a new contact, or associate new leads with existing contacts when they're available. When you create a lead manually, as you did here, you can associate it with a contact by using the **Existing Contact** field in the **Qualify** menu of the business process for the lead. The associated contact is also listed in the **Stakeholders** section for the lead.
     > 
     >![Link a lead to an existing contact](media/scoring-lead-contact-example.png "Link a lead to an existing contact")
+
+### See also
+
+[Score and manage leads](score-manage-leads.md)  
+[Manage customer information](manage-customer-information.md)

@@ -137,3 +137,8 @@ The surveys package adds the following security roles:
 - Survey Feedback Publisher
 - Survey Service
 - Survey User
+
+### See also
+
+[Manage security, users, and teams](../admin/manage-security-users-and-teams.md)  
+[Manage teams](manage-teams.md)

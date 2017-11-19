@@ -116,3 +116,12 @@ Here you can see all the images that have already been uploaded to your [!INCLUD
     [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] copies your design to the email marketing service, which makes the message available for use by a customer journey (but doesn't deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that are redirected through [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] (which identifies the recipient and logs the click). Finally, your message **Status Reason** is updated to **Live**.
 
    > [!TIP] While the message is live, it's locked for editing in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. If you need to edit a live message, you must first open it in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and then select **Deactivate** on the command bar.
+
+### See also
+
+[Best practices for email marketing](get-ready-email-marketing.md)  
+[Design your digital content](design-digital-content.md)  
+[Keyboard shortcuts and accessibility features for content designers](design-digital-content.md)  
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Work with email templates](email-templates.md)  
+[Content blocks reference](content-blocks-reference.md)

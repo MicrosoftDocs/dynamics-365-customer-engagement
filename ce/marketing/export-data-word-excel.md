@@ -2,18 +2,20 @@
 title: "Export data from Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to export data to a Microsoft Word or Excel document from Dynamics 365 for Marketing"
 keywords: "Word; Excel; export; template"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: aac5aed4-0dd6-418f-bcbe-f2380e2ecf03
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Export [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data to [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] or [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] docs
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -71,3 +73,9 @@ What you see in the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] wo
 ### Step 4: Share the results with others
 
 Save a copy either online or to your computer, and then share the workbook or link with others for their review and input.
+
+### See also
+
+[Manage Excel templates](manage-excel-templates.md)  
+[Manage Word templates](manage-word-templates.md)  
+[Business management settings](business-management-settings.md)

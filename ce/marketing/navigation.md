@@ -103,3 +103,7 @@ From here, you can do the following:
 Business processes help everyone follow best practices, even for situations that don't occur very often. Where available, business processes provide a step-by-step timeline for the stages of a process at the top of the form view for the relevant record. You open the menu for the active stage, enter each field of required and business-critical data, and then select the next stage when you're ready to work with it. Some business processes (such as a telemarketing script) can be completed in the time it takes to make a single phone call, while others (like event planning) might take several weeks.
 
 ![A typical business process display](media/business-process.png "A typical business process display")
+
+### See also
+
+[Open the advanced settings](open-advanced-settings.md)

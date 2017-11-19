@@ -69,3 +69,8 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
     As mentioned in the previous section, DKIM technology lets email servers authenticate the sender and signed content of your messages. In a standard, shared-IP scenario, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] handles this for you, but if you are using a private IP, you must coordinate with [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] to get these encryption keys registered and in place. Doing this is likely to greatly improve your message deliverability.
 - **You concentrate risk on yourself and can pay a high price for any mistakes**  
     When you are the only one using your sending IP, any mistakes you make will affect your sender reputation directly, without being diluted by the large volume of compliant messages being sent by a large pool of other users.
+
+### See also
+
+[Create a marketing email and go live](create-marketing-email.md)  
+[Prepare marketing email messages](prepare-marketing-emails.md)

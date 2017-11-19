@@ -52,3 +52,7 @@ To configure an event or session for broadcast as a webinar:
     - **Presentation Manager URL**: A link that the presenter can use to control his or her presentation.
 
 Attendees who register for the webinar by using a valid email address will receive an email from the webinar provider that confirms the registration and provides a link for accessing the webinar.
+
+### See also
+
+[Events settings](events-settings.md)

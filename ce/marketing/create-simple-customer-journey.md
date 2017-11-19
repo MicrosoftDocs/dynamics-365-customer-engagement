@@ -98,3 +98,11 @@ To create a customer journey that executes a one-time email blast:
     From here, use the **Designer** tab to see information and results for each tile from your pipeline. Open the **Dashboard** tab to see detailed analytics.
 
     > [!TIP] Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for analyzing the results of your marketing initiatives, including marketing emails. Try opening the record for the email message you sent with this customer journey and check its **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for even more information.
+
+### See also
+
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+[Create an interactive customer journey](create-interactive-customer-journey.md)  
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
+[Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)
