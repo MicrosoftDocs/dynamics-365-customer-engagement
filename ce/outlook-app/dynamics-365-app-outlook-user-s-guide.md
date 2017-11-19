@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Dynamics 365 App for Outlook User Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/19/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -173,7 +173,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 5. Use the left and right arrows to narrow search to cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane. 
 
-### Find a different record to link to:  
+### Find a different record to link to  
 
 1. Find the record to link in a list or using Search. 
 
@@ -193,7 +193,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 <a name="CreateRecord"></a>
 
-### Create a new record:  
+### Create a new record  
   
 1.  Click **Quick Create**, and then select the type of record you want to create.  
   
