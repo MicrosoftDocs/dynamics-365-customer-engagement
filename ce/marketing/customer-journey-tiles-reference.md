@@ -241,7 +241,7 @@ The custom channel development takes advantage of the existing extensibility inf
 
 ### See also
 
-[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  

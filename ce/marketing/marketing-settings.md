@@ -106,4 +106,4 @@ Select the check box for each entity you want to sync. If you can't see the enti
 ### See also
 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Check your work with previews and test sends](prepare-marketing-emails.md#check-your-work-with-previews-and-test-sends)
+[Check your work with previews and test sends](prepare-marketing-emails.md#check-your-work-by-using-previews-and-test-sends)

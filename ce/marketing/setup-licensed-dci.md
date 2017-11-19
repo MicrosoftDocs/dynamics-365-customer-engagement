@@ -61,3 +61,7 @@ If you don't already have a fully licensed [!INCLUDE[pn-customer-insights-full](
 1. Select **Continue** to start the setup and integration process for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] and continue with the wizard.
 
 1. Return to [Purchase and first-time setup](purchase-setup.md) and continue from [Step 3: The Portal page](purchase-setup.md#step-3-the-portal-page).
+
+### See also
+
+[Purchase and first-time setup](purchase-setup.md)

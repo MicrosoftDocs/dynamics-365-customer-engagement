@@ -3,6 +3,7 @@
 ## [Overview](overview.md)
  
 ## [Administrator Guide](admin-guide.md)
+
 ### [Purchase and first-time setup](purchase-setup.md)
 ### [Use a full Customer Insights account with Marketing](setup-licensed-dci.md)
 ### [Open the administration settings](open-advanced-settings.md)
@@ -17,7 +18,7 @@
 ### [Customize](customize.md)
 ### [Marketing settings](marketing-settings.md)
 ### [Events settings](events-settings.md)
-### [Additional settings](additional-settings.md)
+### [Manage sample data](additional-settings.md)
 ### [Quota management](quota-management.md)
 
 ## [User Guide](user-guide.md)
@@ -44,7 +45,7 @@
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 
-### Create, target, and deliver online marketing content
+### [Create, target, and deliver online marketing content](marketing-execution-section.md)
 #### [Design your digital content](design-digital-content.md)
 #### [Designer keyboard shortcuts](designer-shortcuts.md)
 #### [Content blocks reference](content-blocks-reference.md)

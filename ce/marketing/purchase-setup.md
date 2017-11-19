@@ -153,5 +153,6 @@ To rerun the wizard, go to the **Settings** work area of [!INCLUDE[pn-marketing-
 [!INCLUDE[cc-privacy-marketing-fre](../includes/cc-privacy-marketing-fre.md)]
 
 ### See also
-  
+
+[Use a full Customer Insights account with Marketing](setup-licensed-dci.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
