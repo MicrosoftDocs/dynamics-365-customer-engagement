@@ -18,18 +18,14 @@ topic-status: Drafting
 
 # Manage images for landing pages and email messages
 
-[//]: (Ed. note: You don't need "and more" when you've said "such as".)
 In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message. You can use similar techniques to add images to your marketing page designs too. But you can also establish a library of images (and other files) that users can include in their designs. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
 
 Here are some best practices for working with images for your marketing materials:
 
--   Sketch out your email messages and marketing pages in an image-editing program before you start trying to design them in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. This will make it easier to experiment, enable you to get your image sizes right, and should speed your work in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
-
--   Always crop and size your images before you upload them.
-
--   When sizing your images, use the dimensions that will apply when viewed on the largest expected customer display.
-
--   Choose your keywords carefully, and remember to apply them to images. As your library grows, this will become increasingly important.
+- Sketch out your email messages and marketing pages in an image-editing program before you start trying to design them in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. This will make it easier to experiment, enable you to get your image sizes right, and should speed your work in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+- Always crop and size your images before you upload them.
+- When sizing your images, use the dimensions that will apply when viewed on the largest expected customer display.
+- Choose your keywords carefully, and remember to apply them to images. As your library grows, this will become increasingly important.
 
 ## Manage keywords
 

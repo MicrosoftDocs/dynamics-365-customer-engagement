@@ -20,7 +20,6 @@ topic-status: Drafting
 
 The tutorials in this section are more specialized then those in the [Basic tutorials](basic-tutorials.md) section. The features described here are all important parts of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but they're targeted for more specialized needs and therefore serve a somewhat smaller audience.  
 
-[//]: # (Edit to fifth bullet is suggested, to avoid the suggestive connotation of "tempt.")
 When you have completed the exercises here, you'll be able to:
 
 - Create a customer journey that generates activities (such as phone calls, tasks, or appointments), assigns them to relevant staff, and associates each with a contact on that journey.
@@ -35,5 +34,4 @@ When you have completed the exercises here, you'll be able to:
 
 - Set up a subscription center with custom subscription lists, and include it in your emails and customer journeys.
 
-[//]: # (Edit suggested. Singular "feature" didn't sound right, but plural "features" implied that "features" was the "they" later in the sentence. The last edit "...interest you most" is suggested just because it's got a snappier rhythm.)
 The exercises in this chapter assume you are already familiar with the functionality described in the [Core scenarios](basic-tutorials.md) chapter, but they don't build on each other, so you can pick and choose the exercises that interest you most.

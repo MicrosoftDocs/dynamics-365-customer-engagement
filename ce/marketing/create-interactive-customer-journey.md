@@ -18,7 +18,6 @@ topic-status: Drafting
 
 # Create an interactive customer journey with triggers and signup
 
-[//]: # (In step 6, I replaced "e.g." with "for example," but I'm not sure this makes sense either way. Is using a non-blank template just one example of how to include all required elements?)
 In [Create a simple customer journey with email messaging](create-simple-customer-journey.md), you created the simplest possible customer journey, which simply sends an email message to all contacts in a segment. Now we'll go a bit deeper into customer journeys to see how to add interactive features and decision points by including landing pages and triggers in the design.
 
 1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
@@ -45,7 +44,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
     - *A download link message*: This message will be sent after a contact submits the form on the landing page. Let the subject be **Thank you for signing up, here's your download link!** but don't worry too much about the content for now. (In a real project, you would include a link to the promised download here.)
     - *A follow-up message*: This message will be sent if a contact does not submit the form after a few days. Let the subject be **Don't miss out!**, but don't worry too much about the content for now. (In a real project, you would repeat most of the original offer here.)
 
-    Remember to include all required elements (for example, by using non-blank templates) and to go live with each of them.
+    Remember to include all required elements and to go live with each of them.
 
 1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:
     - Place a **Segment Group** tile in the first position, and configure its child **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).

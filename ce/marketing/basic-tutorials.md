@@ -20,8 +20,7 @@ topic-status: Drafting
 
 This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you've never used this product before, this is the best place to start. When you have completed the exercises here, you'll be able to:
 
-[//]: # (In the first bullet, an alternative would be simply "...marketing segments that organize contacts from your database into logical...")
-- Create marketing segments that collect contacts from your database and organize them into logical groups that match your marketing strategies.
+- Create marketing segments that organize contacts from your database into logical groups that match your marketing strategies.
 
 - Create a marketing email that meets all legal and deliverability requirements, and can deliver personalized messages to contacts.
 

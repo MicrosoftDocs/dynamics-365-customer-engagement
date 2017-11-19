@@ -19,10 +19,9 @@ topic-status: Drafting
 # Create a marketing email and go live
 
 Email is a vital marketing channel for most modern organizations. It's also a core feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], which provides tools for creating graphically rich marketing emails with dynamic, personalized content. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] can send large volumes of personalized marketing emails, monitor how each recipient interacts with them, drive customer-journey automation based on these interactions, and present results both for individual contacts and with aggregate statistical analytics.
-[//]: # (SELF: Why a tip? In prepare-marketing-emails this was an H2. In step 9, recommend cropping the graphic.)
 
 > [!TIP] **Process overview**&mdash;to set up and execute a simple email campaign, you must do the following:
-> 1.  Create an email design that delivers your message and includes required elements such as a subscription-center link, your physical address, email subject, and email From address.
+> 1. Create an email design that delivers your message and includes required elements such as a subscription-center link, your physical address, email subject, and email From address.
 > 1. Publish the design by selecting **Go live**. This copies the design to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service, which makes the message available for use by a customer journey (but doesn't deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that are redirected through [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 > 1. Set up a customer journey that, at a minimum, identifies a published target segment and a published email message to deliver to that segment.
 > 1. Activate the customer journey by choosing **Go Live**. The journey then drives the email-delivery process and other automation features. It personalizes and sends each individual message, collects interaction data, and can follow up with additional processes based on those interactions.

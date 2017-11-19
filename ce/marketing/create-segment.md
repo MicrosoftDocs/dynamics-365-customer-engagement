@@ -18,14 +18,11 @@ topic-status: Drafting
 
 # Create a dynamic segment
 
-[//]: # (In the first paragraph, I transferred the edit you accepted from the Learning Path sidebar edit.)
 One of the first and most important decisions you'll make when you design any marketing piece is to choose the right audience. Only after you know this will you be able to tailor your message to best appeal to that group of people.
 
 In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you'll set up a collection of segments, which you'll define by using terms that resemble those you already use to describe groups of customers, such as "female wine enthusiasts over 40 living in San Francisco" or "craft beer fans from North Carolina who visited our booth at the festival." Then you'll use these segments to target marketing initiatives like email-marketing campaigns and customer journeys. Segments like these, which you define by using a set of rules and conditions, are called *dynamic segments* because membership in these segments changes constantly and automatically based on information in your customer engagement database. (Static segments are populated by adding contacts explicitly, one at a time.)
 
 In this exercise, you'll create a couple of fictional contacts with email addresses that you can receive mail from, and then set up a test segment that includes those contacts. This test segment will be useful later when you begin to experiment with customer journeys.
-
-[//]: # (In the procedure, I took away some italic formatting. You want to use it judiciously, in cases where you're explicitly defining a term as you do above with "dynamic segments." Another note about procedures throughout this docset: we typically list the place where an action will take place, then describe the action, so I've made it--for example--"On the command bar, select **New**." Also, in a typical procedure I would delete a line like step 2, "The NameOfPage page opens." Unless there's something unusual about the UI at this point, these so-called "reaction shots" only add to word count. However, because this is a tutorial I can understand why you'd want to describe every action the UI takes, so I won't suggest deleting these lines.)
 
 1. Go to **Marketing** &gt; **Customers** &gt; **Contacts**. This takes you to a list of existing contacts. On the command bar, select **New**.  
     ![Location of the new-contact button](media/new-contact-button-location.png "Location of the New button to create a contact")
