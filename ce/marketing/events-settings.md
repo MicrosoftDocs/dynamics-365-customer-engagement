@@ -2,18 +2,20 @@
 title: "Set up your webinar provider accounts in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Set up the connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: "administration; webinar; webinar provider"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 04813c0e-cbfd-45da-a316-76d23aae759e
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Events settings
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -35,13 +37,27 @@ For each On24 account that you want to use with [!INCLUDE[pn-microsoftcrm](../in
 To set up your webinar provider:
 
 1. Go to **Settings** > **Events Settings** > **Webinar Configurations**. Here you'll see a list of existing configurations (if any), and tools for adding new ones. No configurations are provided out of the box.
-2. To edit an existing configuration, select it from the list; to create a new configuration, select **New**.
-3. Make the following settings:
+1. To edit an existing configuration, select it from the list; to create a new configuration, select **New**.
+1. Make the following settings:
     - **Name**: Enter a name that you and others will recognize.
     - **Webinar Provider**: Select **On24**.
-4. If you're setting up a new configuration, or if you need to update your account credentials for an existing configuration, set **Update credentials?** to **Yes** and then enter your sign-in credentials for the account.
-5. Select **Check** to make sure your credentials are valid.
+1. If you're setting up a new configuration, or if you need to update your account credentials for an existing configuration, open the **Credentials** tab and set **Update credentials?** to **Yes** and then enter your sign-in credentials for the account.
 
 ## Event management settings
 
-You can find event management settings by going to **Settings** > **Events Settings** >  **Event Management Settings**. These settings are used to provision the webinar provider service on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)], and are preconfigured as needed to use On24. Don't change anything here unless instructed to do so by [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)].
+You can find event management settings by going to **Settings** > **Events Settings** >  **Event Management Settings**. Use these settings to set up email options and templates for event registrants.
+
+## Privacy notice
+
+When you accept the terms and conditions for event management, the webinar-integration feature is activated. The webinar integration feature leverages a partner webinar provider to conduct an event or a session as a webinar. To use any webinar provider’s service, you must have an account with them. The only partner webinar provider service provided out of the box at this time is ON24. When using the webinar-integration feature, data essential to providing and running the webinar would be processed and stored on [!INCLUDE[pn-azure-service-fabric](../includes/pn-azure-service-fabric.md)], and then sent to ON24. Such data would include the webinar participants’ registration data such as their names, emails, and company names. In addition, ON24 would send webinar metrics such as webinar viewing duration to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] via [pn-azure-service-fabric](../includes/pn-azure-service-fabric.md)].
+
+You don't need to activate the webinar feature to use the rest of the event-management solution. An administrator can turn off the webinar integration feature by removing the credentials in the webinar configuration.
+
+[!INCLUDE[pn-windows-azure](../includes/pn-windows-azure.md)] components and services used by the webinar-integration feature are:
+
+- [!INCLUDE[pn_azure_key_vault](../includes/pn_azure_key_vault.md)] ([!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [What is Azure Key Vault?](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis))
+  - Provides encryption key for encrypting/decrypting customer’s ON24 account credentials
+- [!INCLUDE[pn-azure-service-fabric](../includes/pn-azure-service-fabric.md)] ([!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Overview of Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview))
+  - Processes and sends registration data and webinar account credentials to ON24
+  - Retrieves webinar metrics from On24 to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
+  -Stores customer’s ON24 account credentials (custom encrypted)
