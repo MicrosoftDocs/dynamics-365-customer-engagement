@@ -151,3 +151,7 @@ To rerun the wizard, go to the **Settings** work area of [!INCLUDE[pn-marketing-
 ## Privacy notice
 
 [!INCLUDE[cc-privacy-marketing-fre](../includes/cc-privacy-marketing-fre.md)]
+
+### See also
+  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)

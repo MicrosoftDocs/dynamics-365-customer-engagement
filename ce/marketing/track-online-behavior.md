@@ -77,4 +77,5 @@ To see usage statistics about one of your redirect URLs, go to **Marketing** &gt
 
 [Register contacts' engagement](register-engagement.md)  
 [Score and manage leads](score-manage-leads.md)  
-[Set up lead scoring](set-up-lead-scoring.md)
+[Set up lead scoring](set-up-lead-scoring.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)

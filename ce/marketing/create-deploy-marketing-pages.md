@@ -249,4 +249,5 @@ Administrators can choose settings that control several aspects of the way all m
 [Design your digital content](design-digital-content.md)  
 [Designer keyboard shortcuts](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  
-[Upload and use images and files](upload-images-files.md)
+[Upload and use images and files](upload-images-files.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)

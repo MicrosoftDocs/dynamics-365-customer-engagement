@@ -93,4 +93,5 @@ The same redirect-URL record where you can find the redirecting URL also shows t
 ### See also
 
 [Score and manage leads](score-manage-leads.md)  
-[Set up lead scoring](set-up-lead-scoring.md)
+[Set up lead scoring](set-up-lead-scoring.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)

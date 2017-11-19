@@ -210,4 +210,6 @@ To set up a segment based on a subscription list:
 
 [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
 [Create a segment](create-segment.md)  
-[Find your way around](navigation.md)
+[Find your way around](navigation.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)
+
