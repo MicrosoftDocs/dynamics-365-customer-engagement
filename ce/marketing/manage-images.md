@@ -60,3 +60,7 @@ To view and edit your image library:
 1. Select **Save** to upload your images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 1. If you want to edit the display name for an image, go back to **Marketing** &gt; **Internet Marketing** &gt; **Files**.
+
+### See also
+
+[Upload and use images and files](upload-images-files.md)

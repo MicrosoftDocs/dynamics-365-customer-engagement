@@ -35,3 +35,10 @@ Here are some notes and best practices for working with templates:
 - For customer journey templates, set up the basic pipeline and include descriptive names for each tile. However, you'll often leave many of the other tile settings unspecified.
 - Journey templates can include default segments and suppression lists. For repetitive and similar marketing flows (like newsletters or product introductions), templates for proven customer journey structures help to get audiences, tagging, flow, and standard behaviors right.
 - Templates remain in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], so you don't need to go live with them.
+
+### See also
+
+[Work with email templates](email-templates.md)  
+[Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)

@@ -101,6 +101,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
+[Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
-[Customer journey tiles reference](customer-journey-tiles-reference.md)
+[Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)

@@ -23,3 +23,12 @@ An outbound customer journey is one that starts with a segment made up of contac
 Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] by using the same basic tools as you would to create an outbound customer journey (as we've seen in several previous exercises). The most important difference is that you typically start an inbound customer journey with a landing page or event instead of a segment. In this configuration, all contacts (both new and existing) who submit the form from the landing page or register for the event immediately start down that journey.
 
 ![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
+
+### See also
+
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+[Create an interactive customer journey](create-interactive-customer-journey.md)  
+[Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  

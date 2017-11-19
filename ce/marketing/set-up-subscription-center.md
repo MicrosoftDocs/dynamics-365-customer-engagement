@@ -205,3 +205,9 @@ To set up a segment based on a subscription list:
 1. Save your work.
 
 1. Your segment now includes all contacts from the specified marketing list. If you want, you can add more clauses and groups to narrow or expand the segment.
+
+### See also
+
+[Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
+[Create a segment](create-segment.md)  
+[Find your way around](navigation.md)
