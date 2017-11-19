@@ -51,3 +51,12 @@ After your event is planned and set up, it's time to start promoting it! [!INCLU
 If your organization has set up hotels and room allocations for your event in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you can view and create room bookings by going to **Events** &gt; **Logistics** &gt; **Hotel Room Reservations**. Each room booking links an event-registration record (and its associated contact) to a hotel room allocation set up in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Each room allocation represents a block of rooms of a specific type (single, double, or suite) at a specific hotel during a specific event. After all the rooms in an allocation are booked, that allocation is considered sold out unless you can request more from that hotel. Room bookings don't specify a room number, just a room type (based on allocation) and a unique reservation number.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage attendee logistics and accommodation availability](manage-event-logistic.md)
+
+### See also
+
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Event blocks](content-blocks-reference.md#event-blocks)  
+[Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Set up the event portal](set-up-event-portal.md)  
+[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)

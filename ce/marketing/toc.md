@@ -21,6 +21,7 @@
 ### [Quota management](quota-management.md)
 
 ## [User Guide](user-guide.md)
+
 ### [Learn the basics](get-started-section.md)
 #### [Find your way around](navigation.md)
 #### [Organize your work](organize-daily-work.md)
