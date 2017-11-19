@@ -133,5 +133,5 @@ If you would like another person in your organization to handle a particular acc
 
 ### See also
 
-[Generate activities from a customer journey](generate-activities-from-customer-journey.md)
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [The event management dashboard](event-management-dashboard.md)

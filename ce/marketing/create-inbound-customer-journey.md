@@ -31,4 +31,3 @@ Though messaging and promotion strategies are typically quite different for an i
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  

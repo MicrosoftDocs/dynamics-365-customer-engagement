@@ -72,5 +72,5 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 
 ### See also
 
-[Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)
+[Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)
