@@ -62,6 +62,10 @@ If you don't already have a fully licensed [!INCLUDE[pn-customer-insights-full](
 
 1. Return to [First time setup](purchase-setup.md) and continue from [Step 3: The Portal page](purchase-setup.md#step-3-the-portal-page).
 
+## Privacy notice
+
+[!INCLUDE[cc-privacy-marketing-fre](../includes/cc-privacy-marketing-fre.md)]
+
 ### See also
 
 [First time setup](purchase-setup.md)
