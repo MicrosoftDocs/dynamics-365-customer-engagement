@@ -137,3 +137,8 @@ The **Flow** tab provides another view of how your groups are combined. Here, yo
 ![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
 
 You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
+
+### See also
+
+[Create a segment](create-segment.md)  
+[Set up subscription lists and subscription centers](set-up-subscription-center.md)

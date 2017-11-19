@@ -1,7 +1,7 @@
 # [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
-
+ 
 ## [Administrator Guide](admin-guide.md)
 ### [Purchase and first-time setup](purchase-setup.md)
 ### [Use a full Customer Insights account with Marketing](setup-licensed-dci.md)

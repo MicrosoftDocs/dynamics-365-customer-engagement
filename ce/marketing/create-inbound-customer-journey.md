@@ -29,5 +29,5 @@ Though messaging and promotion strategies are typically quite different for an i
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
-[Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  

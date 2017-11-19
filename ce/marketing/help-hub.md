@@ -68,7 +68,7 @@ topic-status: Drafting
 <li>[Design digital content](design-digital-content.md)</li>
 <li>[Prepare marketing email messages](prepare-marketing-emails.md)</li>
 <li>[Create and deploy marketing pages](create-deploy-marketing-pages.md)</li>
-<li>[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)</li>
+<li>[Create automated campaigns](customer-journeys-create-automated-campaigns.md)</li>
 <li>[Score and manage leads](score-manage-leads.md)</li>
 <li>[Plan and manage events](event-management.md)</li>
 <li>[Engage customers online with portals](portals.md)</li>

@@ -238,3 +238,11 @@ Splitter-branch tiles provide the following settings in the **Properties** pane 
 Beyond the out-of-the box channels provided in customer journeys, you can create custom channels to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You can create a custom channel, such as text (SMS) or Social Media, and expose the channel as a "tile" in the journey designer. These custom channels provide similar capabilities as the out-of-the box channels such as sending communication, tracking customer interactions, and adding triggers to branch the paths within customer journey.
 
 The custom channel development takes advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] such as custom entities, workflows, and plugins, which allows developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to build custom channels.
+
+### See also
+
+[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Create an interactive customer journey](create-interactive-customer-journey.md)  
+[Create an inbound customer journey](create-inbound-customer-journey.md)  
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  

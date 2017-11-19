@@ -104,3 +104,11 @@ Use the buttons in the left column of the **Preview** tab to see how your design
 
 > [!NOTE]
 > Marketing email messages can be trickier to design than webpages because they typically contain dynamic content, and email clients vary much more widely in the way they render HTML. Therefore, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides a few extra features for previewing your emails that aren't available for marketing pages or forms. These include sample contact records, a choice of content settings, and an advanced inbox preview. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](prepare-marketing-emails.md#check-your-work-by-using-previews-and-test-sends)
+
+### See also
+
+[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Content blocks reference](content-blocks-reference.md)  
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Work with email templates](email-templates.md)  
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)

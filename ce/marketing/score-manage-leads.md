@@ -114,3 +114,9 @@ The grades and sales-ready score apply to the entire model, regardless of how ma
 Enter an integer in the **Sales Ready Score** field to set the sales-ready score.
 
 To add an additional grade, select **New**, which adds a new section to the tab, where you can enter a grade name and the score range where it applies. Grade ranges must be continuous and non-overlapping.
+
+### See also
+
+[Set up lead scoring](set-up-lead-scoring.md)  
+[Register contacts' engagement](register-engagement.md)  
+[Manage customer information](manage-customer-information.md)

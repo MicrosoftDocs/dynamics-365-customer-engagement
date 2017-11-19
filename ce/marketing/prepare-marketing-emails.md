@@ -2,18 +2,20 @@
 title: "Design, preview, check, and send marketing emails in Dynamics 365 for Marketing | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Prepare marketing email messages
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -249,3 +251,13 @@ While you prepare a message, it stays in a draft state, which means that it is i
 To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will run a final validation check, as described in the previous section, and&mdash;if the message passes&mdash;it gets published. If errors are returned, read the error messages, address the issues and try again until the message is successfully published.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+
+### See also
+
+[Create a marketing email](create-marketing-email.md)  
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Design your digital content](design-digital-content.md)  
+[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Content blocks reference](content-blocks-reference.md)  
+[Work with email templates](email-templates.md)  
+[Upload and use images and files](upload-images-files.md)

@@ -2,18 +2,20 @@
 title: "Create online surveys to collect feedback from customers in Dynamics 365 for Marketing | Microsoft Docs "
 description: "How the Surveys app makes Voice of the Customer online surveys available in Dynamics 365 for Marketing"
 keywords: "Voice of the Customer; Surveys; survey"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: f424d10e-3e6e-43a1-86e2-8639c40d2013
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Create and run online surveys
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -36,3 +38,8 @@ Go to **Voice of the Customer** to design your surveys. The functionality provid
 Go to **Marketing** to access your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] dashboards, activities, and customer data. This is the same data you'll find in your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is provided here for convenience. These entities work just like they do in other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications, including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Voice of the Customer online help](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey)
+
+### See also
+
+[Get feedback by using Voice of the Customer surveys](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey)  
+[Find your way around](navigation.md)

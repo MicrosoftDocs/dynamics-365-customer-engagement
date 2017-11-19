@@ -242,3 +242,11 @@ When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-mic
 ## Configure marketing page defaults and matching strategies
 
 Administrators can choose settings that control several aspects of the way all marketing pages function on your site and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Landing pages settings](marketing-settings.md#landing-pages-settings)
+
+### See also
+
+[Create a landing page](create-landing-page.md)  
+[Design your digital content](design-digital-content.md)  
+[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Content blocks reference](content-blocks-reference.md)  
+[Upload and use images and files](upload-images-files.md)
