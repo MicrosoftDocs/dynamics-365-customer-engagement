@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/19/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
