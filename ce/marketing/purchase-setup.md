@@ -1,7 +1,7 @@
 ---
-title: "Purchase and set up Dynamics 365 for Marketing | Microsoft Docs"
-description: "How to purchase and set up Dynamics 365 for Marketing for the first time"
-keywords: "purchase; setup; FRE; wizard; Azure; customer insights"
+title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
+description: "How to set up Dynamics 365 for Marketing for the first time"
+keywords: "setup; licensing; FRE; wizard; Azure; customer insights"
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
@@ -16,7 +16,7 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Purchase and first-time setup
+# First time setup
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

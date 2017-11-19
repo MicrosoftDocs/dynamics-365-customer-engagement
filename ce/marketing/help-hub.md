@@ -22,7 +22,7 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Administer the system</h2>
-<li>[Initial purchase and setup](purchase-setup.md)</li>
+<li>[First time setup](purchase-setup.md)</li>
 <li>[Open the Settings work area](open-advanced-settings.md)</li>
 <li>[Organization settings](organization-settings.md)</li>
 <li>[Business Management settings](business-management-settings.md)</li>
