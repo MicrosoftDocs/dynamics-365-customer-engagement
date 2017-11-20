@@ -34,7 +34,7 @@ If there is an active instance of the process, the entity record is loaded with 
 
 [setActiveProcessInstance](../setActiveProcessInstance.md)
 
-[formContext.data.process](../formContext-data-process.md)
+[formContext.data.process](../../formContext-data-process.md)
  
 
 
