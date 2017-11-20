@@ -25,7 +25,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Messages are used with the discovery service [DiscoveryRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.discovery.idiscoveryservice.execute\(microsoft.xrm.sdk.discovery.discoveryrequest\)) method. All messages available in the discovery web service for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement apply to all deployment types.  
+Messages are used with the discovery service <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute(Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest)> <!--[DiscoveryRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.discovery.idiscoveryservice.execute\(microsoft.xrm.sdk.discovery.discoveryrequest\))--> method. All messages available in the discovery web service for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement apply to all deployment types.  
   
  The following table lists the messages that are supported with [DiscoveryRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.discovery.idiscoveryservice.execute\(microsoft.xrm.sdk.discovery.discoveryrequest\)) method. Each message derives from the abstract base class <xref:Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest>.  
   

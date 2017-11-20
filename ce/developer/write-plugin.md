@@ -34,7 +34,7 @@ Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> 
    
 ## Writing a Basic Plug-in
 
- The following sample shows some of the common code found in a plug-in. For this sample, the code omits any custom business logic that would perform the intended task of the plug-in. However, the code does show a plug-in class that implements the <xref:Microsoft.Xrm.Sdk.IPlugin> interface and the required [IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\)) method.  
+ The following sample shows some of the common code found in a plug-in. For this sample, the code omits any custom business logic that would perform the intended task of the plug-in. However, the code does show a plug-in class that implements the <xref:Microsoft.Xrm.Sdk.IPlugin> interface and the required <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider> method.  
   
 ```csharp  
   
