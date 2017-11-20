@@ -14,7 +14,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Provides events, methods, and objects to interact with the business process flow data in a form.
+Provides events, methods, and objects to interact with the business process flow data on a form. See [formContext.ui.process (Client API reference)](formContext-ui-process.md) for methods to interact with the business process flow control on the form.
 
 ## Process events and event handler methods
 
@@ -26,6 +26,14 @@ Use the following events and event handler methods to write scripts for business
 |[OnStageChange](events/OnStageChange.md)|[addOnStageChange](formContext-data-process/eventhandlers/addOnStageChange.md)<br/>[removeOnStageChange](formContext-data-process/eventhandlers/removeOnStageChange.md)|
 |[OnStageSelected](events/OnStageSelected.md)|[addOnStageSelected](formContext-data-process/eventhandlers/addOnStageSelected.md)<br/>[removeOnStageSelected](formContext-data-process/eventhandlers/removeOnStageSelected.md)|
 
+## Active Process methods
+
+Use these methods to retrieve information about the active process and set a different process as the active process.
+
+|Name | Description |
+|--|--|
+|[getActiveProcess](formcontext-data-process/activeprocess/getActiveProcess.md)|[!INCLUDE[formcontext-data-process/activeprocess/includes/getActiveProcess-description.md](formcontext-data-process/activeprocess/includes/getActiveProcess-description.md)]|
+|[setActiveProcess](formcontext-data-process/activeprocess/setActiveProcess.md)|[!INCLUDE[formcontext-data-process/activeprocess/includes/setActiveProcess-description.md](formcontext-data-process/activeprocess/includes/setActiveProcess-description.md)]|
 
 ## Process methods 
 
@@ -48,6 +56,15 @@ A process instance contains the data for an instance of the business process flo
 |[getInstanceName](formcontext-data-process/instance/getInstanceName.md)|[!INCLUDE[formcontext-data-process/instance/includes/getInstanceName-description.md](formcontext-data-process/instance/includes/getInstanceName-description.md)]|
 |[getStatus](formcontext-data-process/instance/getStatus.md)|[!INCLUDE[formcontext-data-process/instance/includes/getStatus-description.md](formcontext-data-process/instance/includes/getStatus-description.md)]|
 |[setStatus](formcontext-data-process/instance/setStatus.md)|[!INCLUDE[formcontext-data-process/instance/includes/setStatus-description.md](formcontext-data-process/instance/includes/setStatus-description.md)]|
+
+## Active Stage methods
+
+Use these methods retrieve information about the active stage and set a different stage as the active stage.
+
+|Name | Description |
+|--|--|
+|[getActiveStage](formcontext-data-process/activestage/getActiveStage.md)|[!INCLUDE[formcontext-data-process/activestage/includes/getActiveStage-description.md](formcontext-data-process/activestage/includes/getActiveStage-description.md)]|
+|[setActiveStage](formcontext-data-process/activestage/setActiveStage.md)|[!INCLUDE[formcontext-data-process/activestage/includes/setActiveStage-description.md](formcontext-data-process/activestage/includes/setActiveStage-description.md)]|
 
 ## Stage methods 
 
