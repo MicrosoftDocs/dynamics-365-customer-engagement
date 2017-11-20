@@ -1,1 +1,1 @@
-Returns the progress of the step.
+Returns the progress of the action step.
