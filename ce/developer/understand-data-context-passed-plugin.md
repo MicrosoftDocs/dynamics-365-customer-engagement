@@ -22,11 +22,11 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-When a plug-in is run in response to an execution pipeline event for which it is registered, the plug-in’s <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider><!--[IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\))--> method is called. That method passes an [IServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.uii.csr.browser.web.iserviceprovider?view=dynamics-usd-3) object as a parameter, which contains a number of useful objects. The following sections describe some of the information that is passed to a plug-in when executed.  
+When a plug-in is run in response to an execution pipeline event for which it is registered, the plug-in’s <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider> method is called. That method passes an [IServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.uii.csr.browser.web.iserviceprovider?view=dynamics-usd-3) object as a parameter, which contains a number of useful objects. The following sections describe some of the information that is passed to a plug-in when executed.  
   
 <a name="bkmk_context"></a>   
 ## Access the plug-in execution context  
- <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider> parameter that is passed at run time to a plug-in through its <xref:Microsoft.Xrm.Sdk.IPlugin.Execute*><!--[IServiceProvider)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iplugin.execute\(system.iserviceprovider\))--> method.  
+ <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider> parameter that is passed at run time to a plug-in through its <xref:Microsoft.Xrm.Sdk.IPlugin.Execute*> method.  
   
  [!code-csharp[Plug-ins#FollowupPlugin1](../snippets/csharp/CRMV8/plug-ins/cs/followupplugin1.cs#followupplugin1)]  
   
