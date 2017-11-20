@@ -48,7 +48,7 @@ Contact contact = new Contact();contact.EMailAddress1 = “sonny@contoso.com”;
 ## Create a new entity record using the early-bound entity classes and the OrganizationServiceContext class  
  When you want to insert data into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] by using the entity data model, you must create an instance of an entity type and add the object to an organization service context. The organization service context must be tracking the object before it can save the object to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
- When creating a new entity record, you add the object to the organization service context by using the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>.[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addobject\(microsoft.xrm.sdk.entity\)) method.  
+ When creating a new entity record, you add the object to the organization service context by using the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddObject(Microsoft.Xrm.Sdk.Client.Entity)>.<!--[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addobject\(microsoft.xrm.sdk.entity\))--> method.  
   
  The following sample shows how to instantiate and save a new contact record by using the entity data model. It also demonstrates how tp access a custom attribute.  
   
@@ -72,7 +72,7 @@ orgContext.AddObject(contact);orgContext.SaveChanges();
   
 <a name="update"></a>   
 ## Update an entity record using early-bound entity classes and the OrganizationServiceContext class  
- [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] tracks changes to objects that are attached to the organization service context. To modify an existing entity record, you must first add the object to the context. To add an object to the context, you must first retrieve the entity record from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] and then add the object to the context by using the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>.[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.attach\(microsoft.xrm.sdk.entity\)) method. Once the object is being tracked by the context, you can update the record by setting the entity’s attributes.  
+ [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] tracks changes to objects that are attached to the organization service context. To modify an existing entity record, you must first add the object to the context. To add an object to the context, you must first retrieve the entity record from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] and then add the object to the context by using the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Attach(Microsoft.Xrm.Sdk.Client.Entity)><!--<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>.[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.attach\(microsoft.xrm.sdk.entity\))--> method. Once the object is being tracked by the context, you can update the record by setting the entity’s attributes.  
   
  The following sample shows how to update an account attribute by using early bound classes.  
   

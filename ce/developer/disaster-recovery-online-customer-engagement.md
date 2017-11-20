@@ -2,7 +2,7 @@
 title: "Disaster recovery (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Online feature to recover from a planned or unplanned service interruption."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/20/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -30,7 +30,7 @@ Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-on
   
 <a name="develop"></a>   
 ## Develop a .NET Managed Code application for failover recovery  
- Developers can write their applications to account for data center failure and recovery by implementing code to check for and handle a failover event gracefully. An application can subscribe to the <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched><!--[EndpointSwitched](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceproxy`1.endpointswitched)--> and <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> <!--[EndpointSwitchRequired](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceproxy`1.endpointswitchrequired)--> notification events. These events are also available in derived classes like <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>. For more information about these events, see the <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1><!--[ServiceProxy\`1](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceproxy`1)--> class documentation.  
+ Developers can write their applications to account for data center failure and recovery by implementing code to check for and handle a failover event gracefully. An application can subscribe to the <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched> and <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> notification events. These events are also available in derived classes like <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>. For more information about these events, see the <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1> class documentation.  
   
  Your application can check the <xref:Microsoft.Xrm.Sdk.Client.IEndpointSwitch.EndpointAutoSwitchEnabled> property to determine whether automatic failover behavior is enabled for an organization. This property is set to **true** for organizations where a failover alternate endpoint is available. No other special code is required in your application other than optionally subscribing to the notification events when `EndpointAutoSwitchEnabled` is **true**.  
   
@@ -44,9 +44,9 @@ Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-on
   
 4.  If the target organization of the call is not enabled for failover, go to step 9.  
   
-5.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired><!--[EndpointSwitchRequired](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceproxy`1.endpointswitchrequired)--> event is thrown.  
+5.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> event is thrown.  
   
-6.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched><!--[EndpointSwitched](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceproxy`1.endpointswitched)--> event is thrown.  
+6.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched> event is thrown.  
   
 7.  The service proxy class object automatically tries the call again.  
   
@@ -74,7 +74,7 @@ Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-on
 ## Best practices  
  The following list describes some best practices you can implement in your applications to make them more robust when they deal with service interruptions and failure recovery.  
   
--   Write application code to check the <xref:Microsoft.Xrm.Sdk.Client.IEndpointSwitch.EndpointAutoSwitchEnabled> property value to determine whether it is set to **true**. If **true**, consider subscribing to the <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched><!--[EndpointSwitched](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceproxy`1.endpointswitched)--> and <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired><!--[EndpointSwitchRequired](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceproxy`1.endpointswitchrequired)--> notification events.  
+-   Write application code to check the <xref:Microsoft.Xrm.Sdk.Client.IEndpointSwitch.EndpointAutoSwitchEnabled> property value to determine whether it is set to **true**. If **true**, consider subscribing to the <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched> and <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> notification events.  
   
 -   If your application works with critical data where any data loss is disastrous, write event handler code or catch the indicated exceptions to handle the disaster event and failover as appropriate for business needs.  
    
