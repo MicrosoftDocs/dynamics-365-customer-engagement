@@ -69,4 +69,4 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 ### See also  
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
  [Order Results Using Entity Attributes with LINQ](order-results-entity-attributes-linq.md)   
- [CreateQuery\`\`1](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.createquery``1)
+ <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.CreateQuery``1>

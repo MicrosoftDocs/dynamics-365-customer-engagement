@@ -39,7 +39,7 @@ This sample obtains the data context from the current [!INCLUDE[pn_dynamics_crm]
 [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
- This sample shows how to write a custom workflow activity that can post the data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operation to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. The posting of the data context is done through the [IExecutionContext)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iserviceendpointnotificationservice.execute\(microsoft.xrm.sdk.entityreference,microsoft.xrm.sdk.iexecutioncontext\)) <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute*>.<xref:Microsoft.Xrm.Sdk.IExecutionContext> method.  
+ This sample shows how to write a custom workflow activity that can post the data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operation to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. The posting of the data context is done through the <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)> method.  
   
 ## Example  
  [!code-csharp[WindowsAzure#AzureAwareWorkflowActivity](../snippets/csharp/CRMV8/windowsazure/cs/azureawareworkflowactivity.cs#azureawareworkflowactivity)]  
