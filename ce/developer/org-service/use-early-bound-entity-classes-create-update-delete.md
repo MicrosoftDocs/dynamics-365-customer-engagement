@@ -2,7 +2,7 @@
 title: "Use the early-bound entity classes for create, update, and delete (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how to create, update and delete an entity record using the early-bound entity classes and OrganizationServiceContext class"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/20/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -94,9 +94,9 @@ Account.EMailAddress1 = null;
   
 <a name="no_context"></a>   
 ## Use early-bound entity classes without a Context object  
- You can use the early-bound entity classes without creating an organization service context object if you do not want to create the context object. The <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> class includes a <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method that can be used to save entity record changes to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
+ You can use the early-bound entity classes without creating an organization service context object if you do not want to create the context object. The <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> class includes a <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Create(Microsoft.Xrm.Sdk.Entity)> method that can be used to save entity record changes to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
- The following sample shows how to use an early-bound entity class without creating an organization service context object. The  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.CreateQuery(System.String)> method returns the `GUID` id assigned to the newly created entity record.  
+ The following sample shows how to use an early-bound entity class without creating an organization service context object. The  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Create(Microsoft.Xrm.Sdk.Entity)> method returns the `GUID` id assigned to the newly created entity record.  
   
 ```csharp  
 Contact contact = new Contact()  
