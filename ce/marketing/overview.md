@@ -1,5 +1,5 @@
 ---
-title: "Turn prospects into business relationships with Dynamics 365 for Marketing | Microsoft Docs"
+title: "Overview (Dynamics 365 for Marketing)"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
 keywords: "features; benefits; overview"
 ms.date: 12/15/2017
@@ -16,9 +16,11 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] overview
+# Overview (Marketing)
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=853872" frameborder="0" allowfullscreen></iframe>
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and has built-in business intelligence. Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to:
 
@@ -50,21 +52,21 @@ Set up automated lead-scoring rules that automatically identify your hottest lea
 Easy-to-create surveys make it simple to gather actionable feedback from customers. Understand individual customer needs and expectations so you can grow relationships and revenue.
 
 - **Configure and expand the application**  
-Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—[!INCLUDE[sdk-dynamics-marketplace](../includes/sdk-dynamics-marketplace.md)]. And it's easy to connect with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] partners to get expert help. The marketing app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
+Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—[!INCLUDE[sdk-dynamics-marketplace](../includes/sdk-dynamics-marketplace.md)]. And it's easy to connect with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] partners to get expert help. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
 
 ## Included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a bundle of apps and solutions carefully selected to support marketing departments and coordinate with sales. Some of these apps and solutions are also available as bundles or add-ons with other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products, while others are only available as part of the marketing package. The following are included:
 - **Core marketing**  
-Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the marketing app and are unique to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and are unique to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - **Event management**  
 Organize and promote in-person or webinar events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - **Voice of the Customer**  
-Create online surveys and analyze the results. This feature is bundled with the marketing app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products.
+Create online surveys and analyze the results. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products.
 - **[!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)]**  
 Import leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products.
 - **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Portals**  
-The marketing app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products. A ready-to-use, feature-rich event portal is also included, and is unique to the event-management feature.
+The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products. A ready-to-use, feature-rich event portal is also included, and is unique to the event-management feature.
 - **[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]**  
 Better understand and engage with customers by gaining detailed insights through intelligent customer analytics. Set up target segments for your customer journeys based on dynamic or fixed criteria, and incorporate customer analytics into your lead-scoring strategies. [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] charts and widgets measure the health and quality of each lead with metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
 

@@ -48,3 +48,8 @@ By the time your event is finished, you'll have generated a wealth of new data i
 
 - **The event management dashboard**: This dashboard gives a broad overview of your event planning activities and results from all your events. You can view it by choosing **Event Management Dashboard** from the view selector at the top of any dashboard page in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The event management dashboard](event-management-dashboard.md)
 - **Event records**: Go to **Events** &gt; **Event** &gt; **Events** and open the main event record for your event to see results and analytics that relate to that event only. These offer much more detail than the dashboard does about many aspects of the event.
+
+### See also
+
+[Manage customer information](manage-customer-information.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)

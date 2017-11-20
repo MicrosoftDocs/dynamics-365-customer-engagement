@@ -2,18 +2,20 @@
 title: "Content-blocks reference for Dynamics 365 for Marketing | Microsoft Docs"
 description: "Details for how to use each content block that is available for the design tool in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; reference; email; form;  page"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: reference
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Content blocks reference
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -183,3 +185,11 @@ You've probably seen captchas before. They require you to recognize and repeat a
 The only property for captcha blocks is the **Language**, which sets the language used in the instructions displayed for the captcha.
 
 Captcha blocks are only available when you are working with a landing-page form. Forwarding pages and subscription centers don't need a captcha because they are only available to registered contacts.
+
+### See also
+
+[Design your digital content](design-digital-content.md)  
+[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Work with email templates](email-templates.md)  
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)

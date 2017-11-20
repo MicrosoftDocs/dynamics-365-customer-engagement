@@ -38,3 +38,7 @@ The following table summarizes which types of information are publish to the por
 | Session Tracks | Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>|**Name**<p>**Audience**</p>|
 | Passes         | All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.|**Name**<p>Track **Name** from the related track record</p><p>**Pass Price**</p><p>Sold out status, indicated when the **Passes Remaining** field for a pass reaches zero</p>|
 | Sponsors       | Sponsors associated with published events are displayed at the bottom of most pages of the portal for those events.|**Event Sponsor** (the **Account Name** of the related account record)</p><p>**Logo** (taken from the related account record for each sponsor)</p>|
+
+### See also
+
+[Engage customers online with portals](portals.md)

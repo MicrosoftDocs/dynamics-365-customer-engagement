@@ -22,7 +22,7 @@ A fiscal period defines the time reflected in financial reports. It is used for 
 
 1. Make sure you have the System Administrator security role or equivalent permissions in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 1. Go to **Settings** > **Organization** > **Fiscal Year**.
-1. Type information in the text boxes.
+1. Enter information in the text boxes.
     - In the **Start Date** box, select the date to start the fiscal year.
     - In the **Fiscal Period Template** drop-down list, select how your fiscal year is divided.
     - In the **Fiscal Year** drop-down list, select how you want to display the fiscal year.
