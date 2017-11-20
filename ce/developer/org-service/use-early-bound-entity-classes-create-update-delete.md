@@ -90,11 +90,11 @@ Account.EMailAddress1 = null;
   
 <a name="delete"></a>   
 ## Delete an entity record using early-bound entity classes and the OrganizationServiceContext class  
- To delete an entity record, the organization service context must be tracking the object. Once the object is on the context, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.DeleteObject(Microsoft.Xrm.Sdk.Entity)> method to mark the object on the context for deletion. Note that the entity record in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] is not deleted until the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>.<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method is called.  
+ To delete an entity record, the organization service context must be tracking the object. Once the object is on the context, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.DeleteObject> method to mark the object on the context for deletion. Note that the entity record in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] is not deleted until the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>.<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method is called.  
   
 <a name="no_context"></a>   
 ## Use early-bound entity classes without a Context object  
- You can use the early-bound entity classes without creating an organization service context object if you do not want to create the context object. The <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> class includes a <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Create(Microsoft.Xrm.Sdk.Entity)> method that can be used to save entity record changes to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
+ You can use the early-bound entity classes without creating an organization service context object if you do not want to create the context object. The <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> class includes a <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method that can be used to save entity record changes to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
  The following sample shows how to use an early-bound entity class without creating an organization service context object. The  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Create(Microsoft.Xrm.Sdk.Entity)> method returns the `GUID` id assigned to the newly created entity record.  
   
