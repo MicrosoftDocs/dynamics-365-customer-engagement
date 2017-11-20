@@ -37,7 +37,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 |<xref:Microsoft.Xrm.Sdk.Query.ConditionExpression.Operator>|Specifies the condition operator. This is set by using the <xref:Microsoft.Xrm.Sdk.Query.ConditionOperator> enumeration.|  
 |<xref:Microsoft.Xrm.Sdk.Query.ConditionExpression.Values>|Specifies the values of the attribute.|  
   
- When using the [ConditionExpression)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.query.filterexpression.addcondition\(microsoft.xrm.sdk.query.conditionexpression\)) method (or the constructor for <xref:Microsoft.Xrm.Sdk.Query.ConditionExpression>), it’s important to understand whether the array is being added as multiple values or as an array.  
+ When using the <xref:Microsoft.Xrm.Sdk.Query.FilterExpression.AddCondition(Microsoft.Xrm.Sdk.Query.ConditionExpression)> method (or the constructor for <xref:Microsoft.Xrm.Sdk.Query.ConditionExpression>), it’s important to understand whether the array is being added as multiple values or as an array.  
   
  The following code example shows two different outcomes depending on how the array is used.  
   
