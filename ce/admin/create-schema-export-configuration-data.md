@@ -25,10 +25,7 @@ The Configuration Migration tool lets you build a schema to describe your export
 
 ## Before you begin  
 
-[Download the Dynamics 365 SDK package](https://www.microsoft.com/download/details.aspx?id=50032). Extract the contents of the package on your computer. The Configuration Migration tool is available under the SDK\Tools\ConfgurationMigration folder in the extracted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package. You do not need to install the Configuration Migration tool. Run the tool by double-clicking the **DataMigrationUtility.exe** file in the SDK\Tools\ConfgurationMigration folder.
- 
-> [!IMPORTANT]
-> The Configuration Migration tool will be available as a NuGet package. Check this page for availability: [Download tools from NuGet](../developer/download-tools-nuget.md).
+Download and install the [Microsoft Dynamics 365 SDK Xrm Configuration Migration Tool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf/9.0.0.7). 
  
 <a name="CreateandExport"></a>   
 ## Create a schema and export configuration data  
@@ -184,7 +181,8 @@ You can set the values of datetime fields to automatically move forward by a spe
 >
 > **Example**: To move dates forward by 3 months, and import the data on 10/1/2017: change the **timestamp** in the data.xml file to 7/1/2017.
 
-### See also  
+### See also 
+ [Download tools from NuGet](../developer/download-tools-nuget.md)
  [Modify a schema](modify-configuration-data-schema.md)   
  [Manage your configuration data](manage-configuration-data.md)   
  [Import configuration data](import-configuration-data.md)
