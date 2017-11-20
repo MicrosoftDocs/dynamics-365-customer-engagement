@@ -51,7 +51,7 @@ To use a content pack, you must add it to your [!INCLUDE[pn-microsoft-power-bi](
 
     ![The Power BI Connect wizard, page 2](media/power-bi-connect-2.png "The Power BI Connect wizard, page 2")
 
-1. If an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] sign-in window opens, use the credentials you normally use to sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. After you are signed in, you'll return to [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] and your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data will begin to be loaded, which may take a few minutes.
+1. If an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] sign-in window opens, use the credentials you normally use to sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. After you are signed in, you'll return to [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] and your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data will begin to be loaded, which might take a few minutes.
 
 1. When the data is loaded, your [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] navigation pane will be updated to show a new **Dataset**, **Report**, and **Dashboard** in the leftmost navigation pane, each named after the Process Analyzer Content Pack.
 

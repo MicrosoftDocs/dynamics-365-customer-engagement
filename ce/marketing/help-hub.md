@@ -21,62 +21,61 @@ topic-status: Drafting
 
 <tr><td>
 
-<h2>Get started</h2>
-<li>[Dynamics 365 for Marketing Overview](marketing-overview.md)</li>
-<li>[Find your way around](navigation.md)</li>
-<li>[Organize your work](organize-daily-work.md)</li>
-<li>[Manage customer information](manage-customer-information.md)</li>
-<li>[Export data](export-data-Word-Excel.md)</li>
-<li>[Get ready for email marketing](get-ready-email-marketing.md)</li>
-
-</td><td>
-
-<h2>User Guide</h2>
-<li>[Create, target, and deliver online marketing content](marketing-execution-section.md)</li>
-<li>[Manage, score, and qualify leads](qualify-leads-section.md)</li>
-<li>[Analyze marketing results](analyze-results-section.md)</li>
-<li>[Plan and manage events](event-management.md)</li>
-
-</td></tr>
-<tr><td>
-
-<h2>Basic tutorials</h2>
-<li>[Create a dynamic segment](#)</li>
-<li>[Create a marketing email and go live](#)</li>
-<li>[Create a simple customer journey with email messaging](#)</li>
-<li>[Create a landing page with a form](#)</li>
-<li>[Create an interactive customer journey with triggers and signup](#)</li>
-<li>[Set up automatic lead generation and scoring](#)</li>
-
-</td><td>
-
-<h2>Advanced tutorials</h2>
-<li>[Generate activities from a customer journey](#)</li>
-<li>[Manage images for landing pages and email messages](#)</li>
-<li>[Create templates for emails, pages, forms, and journeys](#)</li>
-<li>[Track website visits, social media clicks, and banner clicks](#)</li>
-<li>[Create an inbound customer journey](#)</li>
-<li>[Set up subscription lists and subscription centers](#)</li>
-
-</td></tr>
-<tr><td>
-
-<h2>First time setup</h2>
-<li>[Prerequisites](#)</li>
-<li>[Run the setup wizard](purchase-setup.md)</li>
-<li>[Prepare your new instance for use](#)</li>
-
-</td><td>
-
 <h2>Administer the system</h2>
-<li>[Open the Settings work area](system-user-administration.md)</li>
+<li>[First time setup](purchase-setup.md)</li>
+<li>[Open the Settings work area](open-advanced-settings.md)</li>
 <li>[Organization settings](organization-settings.md)</li>
 <li>[Business Management settings](business-management-settings.md)</li>
 <li>[Marketing settings](marketing-settings.md)</li>
 <li>[Events settings](events-settings.md)</li>
 <li>[Additional settings](additional-settings.md)</li>
 <li>[Manage your quotas](quota-management.md)</li>
-<li>[Customize Dynamics 365 for Marketing](#)</li>
+<li>[Customize Dynamics 365 for Marketing](customize.md)</li>
+
+</td><td>
+
+<h2>Learn the basics</h2>
+<li>[Dynamics 365 for Marketing Overview](overview.md)</li>
+<li>[Find your way around](navigation.md)</li>
+<li>[Organize your work](organize-daily-work.md)</li>
+<li>[Manage customer information](manage-customer-information.md)</li>
+<li>[Get ready for email marketing](get-ready-email-marketing.md)</li>
+
+</td></tr>
+<tr><td>
+
+<h2>Basic tutorials</h2>
+<li>[Create a dynamic segment](create-segment.md)</li>
+<li>[Create a marketing email and go live](create-marketing-email.md)</li>
+<li>[Create a simple customer journey with email messaging](create-simple-customer-journey.md)</li>
+<li>[Create a landing page with a form](create-landing-page.md)</li>
+<li>[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)</li>
+<li>[Set up automatic lead generation and scoring](set-up-lead-scoring.md)</li>
+
+</td><td>
+
+<h2>Advanced tutorials</h2>
+<li>[Generate activities from a customer journey](generate-activities-from-customer-journey.md)</li>
+<li>[Manage images for landing pages and email messages](manage-images.md)</li>
+<li>[Create templates for emails, pages, forms, and journeys](create-templates.md)</li>
+<li>[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)</li>
+<li>[Create an inbound customer journey](create-inbound-customer-journey.md)</li>
+<li>[Link description](set-up-subscription-center.md)</li>
+
+</td></tr>
+<tr><td>
+<h2>Marketing with Dynamics 365</h2>
+<li>[Design digital content](design-digital-content.md)</li>
+<li>[Prepare marketing email messages](prepare-marketing-emails.md)</li>
+<li>[Create and deploy marketing pages](create-deploy-marketing-pages.md)</li>
+<li>[Create automated campaigns](customer-journeys-create-automated-campaigns.md)</li>
+<li>[Score and manage leads](score-manage-leads.md)</li>
+<li>[Plan and manage events](event-management.md)</li>
+<li>[Engage customers online with portals](portals.md)</li>
+<li>[Create and run online surveys](surveys.md)</li>
+<li>[Integrate with LinkedIn Lead Gen](linkedin-lead-gen-integration.md)</li>
+<li>[Analyze results with Power BI](power-bi-analytics.md)</li>
+</td><td>
 
 </td></tr>
 </table>
