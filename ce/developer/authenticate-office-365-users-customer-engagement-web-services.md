@@ -57,7 +57,7 @@ or call `Dispose` directly. For sample code that uses the `GetOrganizationProxy`
 provider. In this scenario, users may provide their [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] sign-in credentials when they authenticate with the 
 [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] identity provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
- To do this, pass the populated credentials in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> constructor or the [AuthenticationCredentials)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.iservicemanagement`1.authenticate\(microsoft.xrm.sdk.client.authenticationcredentials\)) method of the `IServiceManagement` class. The credential values are populated as follows:  
+ To do this, pass the populated credentials in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> constructor or the <xref:Microsoft.Xrm.Sdk.Client.AuthenticationCredentials> method of the `IServiceManagement` class. The credential values are populated as follows:  
   
 ```csharp  
 AuthenticationCredentials.ClientCredentials = <Microsoft account sign-in credentials>  

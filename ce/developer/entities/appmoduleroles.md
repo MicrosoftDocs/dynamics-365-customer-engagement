@@ -24,7 +24,7 @@ Security roles that have access to a business app.
 |-|-|-|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/appmodulerolescollection<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: App Module Roles<br />
 **DisplayCollectionName**: App Module Roles<br />

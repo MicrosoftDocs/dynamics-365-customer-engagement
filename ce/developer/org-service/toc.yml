@@ -137,6 +137,16 @@
       href: use-entity-class-add-update-associations-records.md
     - name: 'Sample: Create, retrieve, update, and delete (late bound)'
       href: sample-create-retrieve-update-delete-late-bound.md
+  - name: Detect duplicate data
+    items:
+    - name: Manage duplicate detection during Create and Update operations
+      href: manage-duplicate-detection-create-update.md
+    - name: 'Sample: Enable duplicate detection and retrieve duplicates'
+      href: sample-enable-duplicate-detection-and-retrieve-duplicates.md
+    - name: 'Sample: Use duplicate detection when creating and updating records'
+      href: sample-use-duplicate-detection-when-creating-and-updating-records.md
+    - name: 'Sample: Detect multiple duplicate records'
+      href: sample-detect-multiple-duplicate-records.md
   - name: Retrieve data with queries using SDK assemblies
     href: retrieve-data-queries-sdk-assemblies.md
     items:

@@ -27,7 +27,7 @@ For internal use only.
 |Delete|DELETE [*org URI*]/api/data/v9.0/commitments(*commitmentid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |Update|PATCH [*org URI*]/api/data/v9.0/commitments(*commitmentid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Commitment<br />
 **DisplayCollectionName**: Commitments<br />

@@ -25,7 +25,7 @@ Stores data regarding organization insights metric
 |Retrieve|GET [*org URI*]/api/data/v9.0/orginsightsmetrics(*orginsightsmetricid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/orginsightsmetrics<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Organization Insights Metric<br />
 **DisplayCollectionName**: Organization Insights Metric<br />

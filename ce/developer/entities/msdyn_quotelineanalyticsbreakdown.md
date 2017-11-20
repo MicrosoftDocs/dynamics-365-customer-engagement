@@ -37,7 +37,7 @@ Reporting entity that is used to show quoted sales and estimated cost amounts by
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelineanalyticsbreakdowns(*msdyn_quotelineanalyticsbreakdownid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelineanalyticsbreakdowns(*msdyn_quotelineanalyticsbreakdownid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Quote Line Analytics Breakdown<br />
 **DisplayCollectionName**: Quote Line Analytics Breakdown<br />

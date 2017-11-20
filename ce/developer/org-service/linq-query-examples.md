@@ -245,7 +245,7 @@ This topic contains many samples of LINQ queries. For the full sample, see [Samp
   
 <a name="BKMK_UsingTheGetAttributeValueMethod"></a>   
 ## Use the GetAttributeValue method  
- The following sample shows how to use the [String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.entity.getattributevalue``1\(system.string\)) method.  
+ The following sample shows how to use the <xref:Microsoft.Xrm.Sdk.Entity.GetAttributeValue``1(System.String)> method.  
   
  [!code-csharp[query#linqexamples47](../../snippets/csharp/CRMV8/query/cs/linqexamples47.cs#linqexamples47)]  
   
@@ -281,7 +281,7 @@ This topic contains many samples of LINQ queries. For the full sample, see [Samp
   
 <a name="BKMK_UseLoadProperty"></a>   
 ## Use LoadProperty to retrieve related records  
- The following sample shows how to [Relationship)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.loadproperty\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship\)) to access related records.  
+ The following sample shows how to [Relationship)]<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.LoadProperty(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship)> to access related records.  
   
  [!code-csharp[query#UseLinqQuery5](../../snippets/csharp/CRMV8/query/cs/uselinqquery5.cs#uselinqquery5)]  
   

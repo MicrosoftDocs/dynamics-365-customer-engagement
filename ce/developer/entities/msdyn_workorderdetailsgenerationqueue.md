@@ -31,7 +31,7 @@ Pool for WO Generation
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderdetailsgenerationqueues(*msdyn_workorderdetailsgenerationqueueid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderdetailsgenerationqueues(*msdyn_workorderdetailsgenerationqueueid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Work Order Details Generation Queue (Deprecated)<br />
 **DisplayCollectionName**: Work Order Details Generation Queue (Deprecated)<br />

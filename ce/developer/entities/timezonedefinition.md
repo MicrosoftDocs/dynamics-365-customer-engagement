@@ -29,7 +29,7 @@ Time zone definition, including name and time zone code.
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/timezonedefinitions<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |UtcTimeFromLocalTime||<xref:Microsoft.Crm.Sdk.Messages.UtcTimeFromLocalTimeRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Time Zone Definition<br />
 **DisplayCollectionName**: Time Zone Definitions<br />

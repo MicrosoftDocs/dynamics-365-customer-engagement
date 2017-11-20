@@ -35,7 +35,7 @@ Template for a mail merge document that contains the standard attributes of that
 |SetState|PATCH [*org URI*]/api/data/v9.0/mailmergetemplates(*mailmergetemplateid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/mailmergetemplates(*mailmergetemplateid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Mail Merge Template<br />
 **DisplayCollectionName**: Mail Merge Templates<br />

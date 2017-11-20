@@ -24,7 +24,7 @@ Stores information about a Microsoft CRM license.
 |-|-|-|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/licenses<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: License<br />
 **DisplayCollectionName**: Licenses<br />

@@ -27,7 +27,7 @@ In a data map, maps a lookup attribute in a source file to Microsoft Dynamics 36
 |Retrieve|GET [*org URI*]/api/data/v9.0/lookupmappings(*lookupmappingid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/lookupmappings<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Lookup Mapping<br />
 **DisplayCollectionName**: Lookup Mappings<br />

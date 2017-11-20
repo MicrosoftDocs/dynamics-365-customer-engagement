@@ -153,8 +153,8 @@ IServiceManagement<IOrganizationService> orgServiceManagement =
 
 AuthenticationCredentials authCredentials = orgServiceManagement.Authenticate(credentials);
 ```
-The [CreateManagement<TService>](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.serviceconfigurationfactory.createmanagement``1) method performs the metadata download while the 
-[Authenticate ](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.iservicemanagement`1.authenticate) method authenticates the user. 
+The <xref:Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory>.<xref:Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement*> method performs the metadata download while the 
+<xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1.Authenticate(Microsoft.Xrm.Sdk.Client.AuthenticationCredentials)> method authenticates the user. 
 The returned objects from these methods are thread safe and can be statically cached by your application. 
 You can then use these objects to construct a service proxy object that uses one of the other available constructors.  
 
