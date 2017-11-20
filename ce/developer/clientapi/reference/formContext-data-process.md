@@ -16,6 +16,17 @@ manager: "amyla"
 
 Provides events, methods, and objects to interact with the business process flow data in a form.
 
+## Process events and event handler methods
+
+Use the following events and event handler methods to write scripts for business process flows.
+
+|Event | Event handler methods|
+|--|--|
+|[OnProcessStatusChange](events/onprocessstatuschange.md)|[addOnProcessStatusChange](formContext-data-process/eventhandlers/addOnProcessStatusChange.md)<br/>[removeOnProcessStatusChange](formContext-data-process/eventhandlers/removeOnProcessStatusChange.md)|
+|[OnStageChange](events/OnStageChange.md)|[addOnStageChange](formContext-data-process/eventhandlers/addOnStageChange.md)<br/>[removeOnStageChange](formContext-data-process/eventhandlers/removeOnStageChange.md)|
+|[OnStageSelected](events/OnStageSelected.md)|[addOnStageSelected](formContext-data-process/eventhandlers/addOnStageSelected.md)<br/>[removeOnStageSelected](formContext-data-process/eventhandlers/removeOnStageSelected.md)|
+
+
 ## Process methods 
 
 A process contains the data for a business process flow. Use the methods to access properties of the process.

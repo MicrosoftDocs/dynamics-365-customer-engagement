@@ -150,6 +150,14 @@
 #### [save](reference/formContext-data-entity/save.md)
 
 ### [formContext.data.process](reference/formContext-data-process.md)
+#### Event handler methods
+##### [addOnProcessStatusChange](reference/formContext-data-process/eventhandlers/addOnProcessStatusChange.md)
+##### [addOnStageChange](reference/formContext-data-process/eventhandlers/addOnStageChange.md)
+##### [addOnStageSelected](reference/formContext-data-process/eventhandlers/addOnStageSelected.md)
+##### [removeOnProcessStatusChange](reference/formContext-data-process/eventhandlers/removeOnProcessStatusChange.md)
+##### [removeOnStageChange](reference/formContext-data-process/eventhandlers/removeOnStageChange.md)
+##### [removeOnStageSelected](reference/formContext-data-process/eventhandlers/removeOnStageSelected.md)
+
 #### Process methods
 ##### [getId](reference/formContext-data-process/process/getId.md)
 ##### [getName](reference/formContext-data-process/process/getName.md)
