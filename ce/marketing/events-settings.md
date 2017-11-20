@@ -2,18 +2,20 @@
 title: "Set up your webinar provider accounts in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Set up the connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: "administration; webinar; webinar provider"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 04813c0e-cbfd-45da-a316-76d23aae759e
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Events settings
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -35,13 +37,21 @@ For each On24 account that you want to use with [!INCLUDE[pn-microsoftcrm](../in
 To set up your webinar provider:
 
 1. Go to **Settings** > **Events Settings** > **Webinar Configurations**. Here you'll see a list of existing configurations (if any), and tools for adding new ones. No configurations are provided out of the box.
-2. To edit an existing configuration, select it from the list; to create a new configuration, select **New**.
-3. Make the following settings:
+1. To edit an existing configuration, select it from the list; to create a new configuration, select **New**.
+1. Make the following settings:
     - **Name**: Enter a name that you and others will recognize.
     - **Webinar Provider**: Select **On24**.
-4. If you're setting up a new configuration, or if you need to update your account credentials for an existing configuration, set **Update credentials?** to **Yes** and then enter your sign-in credentials for the account.
-5. Select **Check** to make sure your credentials are valid.
+1. If you're setting up a new configuration, or if you need to update your account credentials for an existing configuration, open the **Credentials** tab and set **Update credentials?** to **Yes** and then enter your sign-in credentials for the account.
 
 ## Event management settings
 
-You can find event management settings by going to **Settings** > **Events Settings** >  **Event Management Settings**. These settings are used to provision the webinar provider service on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)], and are preconfigured as needed to use On24. Don't change anything here unless instructed to do so by [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)].
+You can find event management settings by going to **Settings** > **Events Settings** >  **Event Management Settings**. Use these settings to set up email options and templates for event registrants.
+
+## Privacy notice
+
+[!INCLUDE[cc-privacy-events-webinar](../includes/cc-privacy-events-webinar.md)]
+
+### See also
+
+[Event planning and management in Dynamics 365](event-management.md)  
+[Set up a webinar](set-up-webinar.md)
