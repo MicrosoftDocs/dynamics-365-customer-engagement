@@ -32,7 +32,7 @@ Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-win
   
 <a name="bkmk_writing"></a>   
 ## Write the plug-in code  
- In the following sample plug-in code has been added to obtain the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] service provider and initiate posting the execution context to the service bus by calling [IExecutionContext)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iserviceendpointnotificationservice.execute\(microsoft.xrm.sdk.entityreference,microsoft.xrm.sdk.iexecutioncontext\)). Tracing code has been added to facilitate debugging of the plug-in because the plug-in must run in the sandbox.  
+ In the following sample plug-in code has been added to obtain the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] service provider and initiate posting the execution context to the service bus by calling <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)>. Tracing code has been added to facilitate debugging of the plug-in because the plug-in must run in the sandbox.  
   
  [!code-csharp[WindowsAzure#SandboxPlugin](../snippets/csharp/CRMV8/windowsazure/cs/sandboxplugin.cs#sandboxplugin)]  
   
