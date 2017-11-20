@@ -24,14 +24,14 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can create an association by using early binding in several ways. To create a one-to-many relationship, you can use the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addlink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\)) method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class. To create a many-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> method in the<xref:Microsoft.Xrm.Sdk.IOrganizationService> class to create an association. You can also create the association by updating the foreign key of the target entity to match the primary key of the new source entity.  
+In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you can create an association by using early binding in several ways. To create a one-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddLink(Microsoft.Xrm.Sdk.Entity)> method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class. To create a many-to-many relationship, you can use the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> method in the<xref:Microsoft.Xrm.Sdk.IOrganizationService> class to create an association. You can also create the association by updating the foreign key of the target entity to match the primary key of the new source entity.  
   
- To remove an association, you can use the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.deletelink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\)) method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class or the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> method. You can also set the foreign key to **null**.  
+ To remove an association, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.DeleteLink(Microsoft.Xrm.Sdk.Entity)> method in the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext> class or the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> method. You can also set the foreign key to **null**.  
   
  For a complete sample showing how to add and remove associations, see [Sample: Associate Using Strong Types](sample-associate-records-early-bound.md).  
   
 ## Use the AddLink method  
- You can use the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addlink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\)) method to create associations. You must call the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method before the server is updated with the new link information.  
+ You can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddLink(Microsoft.Xrm.Sdk.Entity)> method to create associations. You must call the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.SaveChanges> method before the server is updated with the new link information.  
   
  The following code example shows how to create an association between a contact and an account.  
   
