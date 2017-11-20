@@ -41,8 +41,8 @@ Typically, you use global option sets to set fields so that different fields can
 |OrderOption</br>Changes the relative order of the options in an option set.|<xref href="Microsoft.Dynamics.CRM.OrderOption?text=OrderOption Action" />|[OrderOptionRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.orderoptionrequest)|  
 |RetrieveAllOptionSets|Use `GET` request to retrieve all the global option sets.|[RetrieveAllOptionSetsRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrievealloptionsetsrequest)|  
 |RetrieveOptionSet|Use `GET` request to retrieve a global option set.|[RetrieveOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrieveoptionsetrequest)|    
-|UpdateOptionSet|Use `PUT` request to update a global option set.|[UpdateOptionSetRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updateoptionsetrequest)|  
-|UpdateOptionValue|</br>Updates an option in a global option set.|[UpdateOptionValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updateoptionvaluerequest)|  
+|UpdateOptionSet|Use `PUT` request to update a global option set.|<xref:Microsoft.Xrm.Sdk.Messages.UpdateOptionSetRequest>|  
+|UpdateOptionValue|</br>Updates an option in a global option set.|<xref:Microsoft.Xrm.Sdk.Messages.UpdateOptionValueRequest>|  
 |UpdateStateValue</br>Inserts a new option into the option set used in the `Status` attribute.|<xref href="Microsoft.Dynamics.CRM.OrderOption?text=UpdateStateValue Action" />|[UpdateStateValueRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.updatestatevaluerequest)|   
 
 <a name="BKMK_RetrieveAGlobalOptionSet"></a>   
