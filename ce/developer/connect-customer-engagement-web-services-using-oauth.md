@@ -82,7 +82,7 @@ using (HttpClient httpClient = new HttpClient())
 AuthenticationResult result = authContext.AcquireToken(resource, clientId, new Uri(redirectUrl));  
 ```  
   
- Afterwards, you once again set the Authorization header with                  `result.AccessToken` when using the Web API, or the                  [HeaderToken](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.webserviceclient.webproxyclient`1.headertoken) when using the Organization Service.  
+ Afterwards, you once again set the Authorization header with `result.AccessToken` when using the Web API, or the <xref:Microsoft.Xrm.Sdk.WebServiceClient.WebProxyClient`1.HeaderToken> when using the Organization Service.  
   
 ```csharp  
   

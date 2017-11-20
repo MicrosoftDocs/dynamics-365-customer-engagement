@@ -87,7 +87,7 @@ context.SaveChanges();
   
 <a name="BKMK_LoadRelatedEntities"></a>   
 ### Load related entities using navigation properties  
- Related entities for entities you have retrieved using LINQ will be null until you use [Relationship)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.loadproperty\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship\)) to retrieve them. The following code sample shows how to access Task records associated with a specific Contact record.  
+ Related entities for entities you have retrieved using LINQ will be null until you use <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.LoadProperty(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship)> to retrieve them. The following code sample shows how to access Task records associated with a specific Contact record.  
   
 ```csharp  
 Contact pam = context.ContactSet.Where(c => c.FirstName == "Pamela").FirstOrDefault();  
@@ -111,7 +111,7 @@ if (pam != null)
   
 |Method|Description|  
 |------------|-----------------|  
-|[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onbeginentitytracking\(microsoft.xrm.sdk.entity\))|Called after an entity is attached to the `OrganizationServiceContext`.|  
+|<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnBeginEntityTracking(Microsoft.Xrm.Sdk.Entity)>|Called after an entity is attached to the `OrganizationServiceContext`.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onbeginlinktracking\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Called after a link is attached to the `OrganizationServiceContext`.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onendentitytracking\(microsoft.xrm.sdk.entity\))|Called after an entity is detached from the `OrganizationServiceContext`.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onendlinktracking\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Called after a link is detached from the `OrganizationServiceContext`.|  
