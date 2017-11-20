@@ -46,7 +46,7 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 |WinOpportunity|<xref href="Microsoft.Dynamics.CRM.WinOpportunity?text=WinOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
 |WinQuote|<xref href="Microsoft.Dynamics.CRM.WinQuote?text=WinQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Opportunity<br />
 **DisplayCollectionName**: Opportunities<br />

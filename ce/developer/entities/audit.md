@@ -30,7 +30,7 @@ Track changes to records for analysis, record keeping, and compliance.
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/audits<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrieveRecordChangeHistory|<xref href="Microsoft.Dynamics.CRM.RetrieveRecordChangeHistory?text=RetrieveRecordChangeHistory Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordChangeHistoryRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Auditing<br />
 **DisplayCollectionName**: Audits<br />

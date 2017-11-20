@@ -37,7 +37,7 @@ System entity used to record the source of a project cost or sales actual.
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_transactionorigins(*msdyn_transactionoriginid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_transactionorigins(*msdyn_transactionoriginid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Transaction Origin<br />
 **DisplayCollectionName**: Transaction Origins<br />

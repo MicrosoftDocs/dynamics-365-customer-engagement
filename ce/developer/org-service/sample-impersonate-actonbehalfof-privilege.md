@@ -19,7 +19,7 @@ manager: jdaly
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement.
-[Download the impersonate a user sample](https://code.msdn.microsoft.com/Sample-of-impersonating-e51b6cbd).
+Download the sample: [Work with authentication (Impersonating a user)](https://code.msdn.microsoft.com/Sample-of-impersonating-e51b6cbd).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

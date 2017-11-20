@@ -30,7 +30,7 @@ Line item in a contract that specifies the type of service a customer is entitle
 |SetState|PATCH [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Contract Line<br />
 **DisplayCollectionName**: Contract Lines<br />

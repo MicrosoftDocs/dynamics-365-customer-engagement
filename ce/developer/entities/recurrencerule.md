@@ -29,7 +29,7 @@ Recurrence Rule represents the pattern of incidence of recurring entities.
 |Update|PATCH [*org URI*]/api/data/v9.0/recurrencerules(*ruleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |ValidateRecurrenceRule|<xref href="Microsoft.Dynamics.CRM.ValidateRecurrenceRule?text=ValidateRecurrenceRule Function" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateRecurrenceRuleRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Recurrence Rule<br />
 **DisplayCollectionName**: Recurrence Rules<br />

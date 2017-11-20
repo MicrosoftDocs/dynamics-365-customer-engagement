@@ -28,7 +28,7 @@ Copy of an entity's attributes before or after the core system operation.
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sdkmessageprocessingstepimages<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |Update|PATCH [*org URI*]/api/data/v9.0/sdkmessageprocessingstepimages(*sdkmessageprocessingstepimageid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Sdk Message Processing Step Image<br />
 **DisplayCollectionName**: Sdk Message Processing Step Images<br />

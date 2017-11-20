@@ -37,7 +37,7 @@ List of billing milestones and invoice amounts for this quote line.
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelinescheduleofvalues(*msdyn_quotelinescheduleofvalueid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelinescheduleofvalues(*msdyn_quotelinescheduleofvalueid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Quote Line Milestone<br />
 **DisplayCollectionName**: Quote Line Milestones<br />

@@ -25,7 +25,7 @@ Contains the master list of all properties that can be customized for apps in Dy
 |Retrieve|GET [*org URI*]/api/data/v9.0/appconfigmasters(*appconfigmasterid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/appconfigmasters<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: App Config Master<br />
 **DisplayCollectionName**: App Config Master<br />

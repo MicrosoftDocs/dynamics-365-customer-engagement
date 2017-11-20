@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the query metadata and detect changes sample](https://code.msdn.microsoft.com/Sample-for-query-metadata-98848365).  
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Query metadata and detect changes](https://code.msdn.microsoft.com/Sample-for-query-metadata-98848365).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

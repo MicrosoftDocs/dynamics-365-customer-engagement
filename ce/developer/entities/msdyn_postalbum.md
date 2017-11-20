@@ -37,7 +37,7 @@ Contains user profile images that are stored as attachments and displayed in pos
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_postalbums(*msdyn_postalbumid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_postalbums(*msdyn_postalbumid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Profile Album<br />
 **DisplayCollectionName**: Profile Albums<br />

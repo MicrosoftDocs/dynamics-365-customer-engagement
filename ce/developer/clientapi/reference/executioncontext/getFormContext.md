@@ -24,7 +24,7 @@ Returns a reference to the form or an item on the form depending on where the me
 
 **Type**: Object
 
-**Description**: Returns a reference to the form or an item on the form such as quickForm and editable grid depending on where the method was called. This method enables you to create common event handlers that can operate either on a form or an item on the form depending on where its called.
+**Description**: Returns a reference to the form or an item on the form such as editable grid depending on where the method was called. This method enables you to create common event handlers that can operate either on a form or an item on the form depending on where its called.
 
 ## Example
 
