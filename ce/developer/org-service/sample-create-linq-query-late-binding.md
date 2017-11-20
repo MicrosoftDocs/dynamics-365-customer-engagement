@@ -45,5 +45,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
 ### See also  
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>   
- [CreateQuery\`\`1](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.createquery``1)   
- [String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.createquery\(system.string\))
+ <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.CreateQuery>   
+ <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.CreateQuery(System.String)>
