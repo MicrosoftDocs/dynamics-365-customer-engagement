@@ -68,6 +68,10 @@ You can also move to a next stage in a different entity.
 >[!IMPORTANT]
 >This method can only be used when the selected stage and the active stage are the same. When your code is initiated from the [OnStageChange](../../events/onstagechange.md) event, the current stage will be selected. When your code is initiated from the [OnStageSelected](../../events/onstageselected.md) event, you should use the [getActiveStage](../activestage/getActiveStage.md) method to verify that the selected stage is also the active stage. For any other form event, it isn’t possible to determine which stage is currently selected. For best results, this method should only be used in code that is called in functions initiated by the [OnStageChange](../../events/onstagechange.md) and [OnStageSelected](../../events/onstageselected.md) events.
 
+## Remarks
+
+This methods will cause the [OnStageChange](../../events/onstagechange.md) event to occur.
+
 ### Related topics
 
 [movePrevious](movePrevious.md)
