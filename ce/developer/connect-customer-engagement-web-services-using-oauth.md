@@ -70,7 +70,7 @@ using (HttpClient httpClient = new HttpClient())
 ```  
   
 ### Web client requests  
- Simply set the                        <!--  [HeaderToken](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.webserviceclient.webproxyclient`1.headertoken)--> <xref:Microsoft.Xrm.Sdk.WebServiceClient.WebProxyClient`1.HeaderToken> property value to the access token when using                          <xref:Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient> or                          <xref:Microsoft.Xrm.Sdk.WebServiceClient.DiscoveryWebProxyClient> of the Organization Service.  
+ Simply set the <xref:Microsoft.Xrm.Sdk.WebServiceClient.WebProxyClient`1.HeaderToken> property value to the access token when using <xref:Microsoft.Xrm.Sdk.WebServiceClient.OrganizationWebProxyClient> or <xref:Microsoft.Xrm.Sdk.WebServiceClient.DiscoveryWebProxyClient> of the Organization Service.  
   
 ## Refresh the access token  
  It’s a recommended best practice to refresh the access token before each call to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web service method. This is a workaround to writing code that checks the access token expiration date and time and refreshes the token when it’s about to expire.  
