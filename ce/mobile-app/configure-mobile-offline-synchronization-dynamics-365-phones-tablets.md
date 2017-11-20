@@ -26,9 +26,9 @@ Provide an enhanced offline experience for mobile users using Dynamics 365. Once
  > [!NOTE] 
 > -   Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations. 
  
-## Step 1: Enable entities for mobile offline synchronization
+## Step 1: Enable entities for mobile offline synchronization 
  
-One of the first things that you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. Any entity that is enable for mobile can also be enabled for mobile offline. To find a list of entities that are available for mobile see, [Entities displayed in Dynamics 365 for phones and tablets](customize-phones-tablets.md#entities-displayed-in-dynamics-365-for-phones-and-tablets). 
+One of the first things that you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. Any entity that is enable for mobile can also be enabled for mobile offline. To find a list of entities that are available for mobile see, [Entities displayed in Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md#entities-displayed-in-dynamics-365-for-phones-and-tablets). 
   
 The following entities are enabled for mobile offline by default:  
   
