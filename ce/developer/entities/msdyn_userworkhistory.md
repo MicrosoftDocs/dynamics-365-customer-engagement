@@ -37,7 +37,7 @@ Entity used to look up resources based on demonstrated skills.
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_userworkhistories(*msdyn_userworkhistoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_userworkhistories(*msdyn_userworkhistoryid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: User Work History<br />
 **DisplayCollectionName**: User Work History<br />

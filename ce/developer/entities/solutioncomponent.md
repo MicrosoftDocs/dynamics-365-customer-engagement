@@ -29,7 +29,7 @@ A component of a CRM solution.
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/solutioncomponents<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |UpdateSolutionComponent|<xref href="Microsoft.Dynamics.CRM.UpdateSolutionComponent?text=UpdateSolutionComponent Action" />|<xref:Microsoft.Crm.Sdk.Messages.UpdateSolutionComponentRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Solution Component<br />
 **DisplayCollectionName**: Solution Components<br />

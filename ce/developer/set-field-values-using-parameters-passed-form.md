@@ -181,5 +181,5 @@ function OpenNewContact() {
   
 ### See also  
  [Open Forms And Views with a URL](open-forms-views-dialogs-reports-url.md)   
- [openEntityForm](clientapi/reference/Xrm-Utility/openEntityForm.md)   
+ [openForm](clientapi/reference/Xrm-Navigation/openForm.md)  
  [Configure a form to accept custom querystring parameters](configure-form-accept-custom-querystring-parameters.md)

@@ -2,7 +2,7 @@
 title: "Developer resources page (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how you can find your organization unique name, Discovery service endpoint address, Organization service endpoint address and issuer name to access Azure Service Bus using the Developer Resources page"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/14/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -53,59 +53,47 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
 ## Discovery service  
 
- The Discovery Service web service provides information about the organizations available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server using the SOAP protocol. This information includes the web address (URL) for each organization. For more information, see [Discover the URL for your organization using the Organization Service](org-service/discover-url-organization-organization-service.md).  
+ The Discovery Service web service provides information about the organizations available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. This information includes the web address (URL) for each organization.
+
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]  
 
- Use the following URLs to access the discovery service (use the appropriate URL for your location).  
+You should generally use the Web API global discovery service because this will ignore regional groupings and allow you to retrieve available organizations world-wide. See [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md)
+
+
+ If you want to scope the organizations to retrieve to individual regions use the following URLs to access the discovery service (use the appropriate URL for your location).  
   
-|Location|Discovery Web service URL|Identity Provider|  
-|--------------|-------------------------------|-----------------------|  
-|North America|`https://dev.crm.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|North America 2|`https://disco.crm9.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Europe, Middle East and Africa (EMEA)|`https://dev.crm4.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm4.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Asia Pacific Area (APAC)|`https://dev.crm5.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]|  
-||`https://disco.crm5.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Oceania|`https://disco.crm6.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Japan (JPN)|`https://disco.crm7.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|South America|`https://disco.crm2.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|India (IND)|`https://disco.crm8.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
-|Canada|`https://disco.crm3.dynamics.com/XRMServices/2011/Discovery.svc`|[!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]|  
+[!INCLUDE [regional-discovery-services](../includes/regional-discovery-services.md)]
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
  Use the following URL to access the discovery service:  
   
  http://`ServerName`/XRMServices/2011/Discovery.svc  
+
+For more information, see [Discover the URL for your organization using the Organization Service](org-service/discover-url-organization-organization-service.md).
   
 <a name="OrganizationService"></a>   
 
 ## Organization service  
 
- The<xref:Microsoft.Xrm.Sdk.IOrganizationService> web service provides access to the business data and metadata of your organization by using the SOAP protocol. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md).  
+ The organization service provides access to the business data and metadata of your organization by using the SOAP protocol. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md).  
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]  
 
  Use the following URLs to access the organization service (SOAP endpoint):  
-  
- `https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/Organization.svc` (North America)  
-  
- `https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/Organization.svc` (South America)  
-  
- `https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/Organization.svc` (Canada)  
-  
- `https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/Organization.svc` (EMEA)  
-  
- `https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/Organization.svc` (APAC)  
-  
- `https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/Organization.svc` (Oceania)  
-  
- `https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/Organization.svc` (Japan)  
-  
- `https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/Organization.svc` (India)  
-  
- `https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/Organization.svc` (North America 2)  
+
+|Region| URL|
+|---|---|
+|North America|`https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/Organization.svc`|
+|North America 2|`https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/Organization.svc`|
+|South America|`https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/Organization.svc`|
+|Canada|`https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/Organization.svc`|
+|EMEA|`https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/Organization.svc`|
+|APAC|`https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/Organization.svc`|
+|Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/Organization.svc`|
+|Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/Organization.svc`|
+|India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/Organization.svc`|
+
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
 
@@ -125,24 +113,19 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]  
 
  Use the following URLs to access the organization data service (ODataREST endpoint):  
-  
- `https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/OrganizationData.svc` (North America)  
-  
- `https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/OrganizationData.svc` (South America)  
-  
- `https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/OrganizationData.svc` (Canada)  
-  
- `https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/OrganizationData.svc` (EMEA)  
-  
- `https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/OrganizationData.svc` (APAC)  
-  
- `https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/OrganizationData.svc` (Oceania)  
-  
- `https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/OrganizationData.svc` (Japan)  
-  
- `https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/OrganizationData.svc` (India)  
-  
- `https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/OrganizationData.svc` (North America 2)  
+
+|Region| URL|
+|---|---|
+|North America|`https://OrganizationName.api.crm.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|North America 2|`https://OrganizationName.api.crm9.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|South America|`https://OrganizationName.api.crm2.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|Canada|`https://OrganizationName.api.crm3.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|EMEA|`https://OrganizationName.api.crm4.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|APAC|`https://OrganizationName.api.crm5.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+|India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/OrganizationData.svc`|
+
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
  Use the following URL to access the organization data service (ODataREST endpoint):  
@@ -155,7 +138,7 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
  To add a service reference for these services to a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project, you must append `?WSDL` to the service URL when specifying the address in the **Add Service Reference** dialog box. For example, the discovery service Web Services Description Language (WSDL) address is `http[s]://servername/xrmservices/2011/discovery.svc?wsdl`.  
   
- The web services support SDK versioning. Specifying an SDK version in the WSDL URL indicates a scope for the amount of data to be returned in the WSDL. The syntax for web service SDK versioning ends the URL in ?singleWSDL&sdkversion=X.X. For example, the URL would be `https://mydomain.crm.dynamics.com/xrmservices/2011/discovery.svc?singleWSDL&sdkversion=8.0`. In this example, you would have built your application using the v8.0 .NET assemblies.  
+ The web services support SDK versioning. Specifying an SDK version in the WSDL URL indicates a scope for the amount of data to be returned in the WSDL. The syntax for web service SDK versioning ends the URL in `?singleWSDL&sdkversion=X.X`. For example, the URL would be `https://mydomain.crm.dynamics.com/xrmservices/2011/discovery.svc?singleWSDL&sdkversion=8.0`. In this example, you would have built your application using the v8.0 .NET assemblies.  
   
 ### See also
 

@@ -31,7 +31,7 @@ Pricing options in addition to or above the Price List Items
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicepricelistitems(*msdyn_fieldservicepricelistitemid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicepricelistitems(*msdyn_fieldservicepricelistitemid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Field Service Price List Item<br />
 **DisplayCollectionName**: Field Service Price List Items<br />

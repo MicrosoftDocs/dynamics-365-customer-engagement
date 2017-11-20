@@ -25,7 +25,7 @@ Ribbon customizations for the application ribbon and entity ribbon templates.
 |RetrieveApplicationRibbon|<xref href="Microsoft.Dynamics.CRM.RetrieveApplicationRibbon?text=RetrieveApplicationRibbon Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveApplicationRibbonRequest>|
 |RetrieveEntityRibbon|<xref href="Microsoft.Dynamics.CRM.RetrieveEntityRibbon?text=RetrieveEntityRibbon Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveEntityRibbonRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Application Ribbons<br />
 **DisplayCollectionName**: Application Ribbons<br />

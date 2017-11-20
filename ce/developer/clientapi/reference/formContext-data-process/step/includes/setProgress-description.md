@@ -1,1 +1,1 @@
-Updates the progress of the step.
+Updates the progress of the action step.

@@ -33,7 +33,7 @@ A role-based, modular business app that provides task-based functionality for a 
 |Update|PATCH [*org URI*]/api/data/v9.0/appmodules(*appmoduleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |ValidateApp|<xref href="Microsoft.Dynamics.CRM.ValidateApp?text=ValidateApp Function" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateAppRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: App<br />
 **DisplayCollectionName**: Apps<br />

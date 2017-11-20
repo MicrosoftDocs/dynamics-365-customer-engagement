@@ -30,7 +30,7 @@ Information on relationships to be used to follow related entity's records for m
 |RetrieveUnpublishedMultiple|<xref href="Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple?text=RetrieveUnpublishedMultiple Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/mobileofflineprofileitemassociations(*mobileofflineprofileitemassociationid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Mobile Offline Profile Item Association<br />
 **DisplayCollectionName**: Mobile Offline Profile Item Associations<br />

@@ -26,12 +26,9 @@ customized independently from other activities to accommodate the customer's bus
 the availability of required resources and participate in resource availability searches and scheduling. A service appointment must have a corresponding 
 service. It can be already bound with a set of resources specified by an activity party (`ActivityParty`) list.  
   
-To create an appointment by making sure that the constraints are met, use the [BookRequest]
-(https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.bookrequest) message or the [RescheduleRequest]
-(https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.reschedulerequest) message. The scheduling engine stores the booked appointment and 
+To create an appointment by making sure that the constraints are met, use the <xref:Microsoft.Crm.Sdk.Messages.BookRequest> message or the <xref:Microsoft.Crm.Sdk.Messages.RescheduleRequest> message. The scheduling engine stores the booked appointment and 
 adjusts the free/busy information for the resource. You can create an appointment at a specific time for a specific service that uses a specific set of 
-resources, ignoring all constraints, by using the<xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method or [CreateRequest]
-(https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.createrequest) message.  
+resources, ignoring all constraints, by using the<xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method or <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> message.  
   
 Appointments can block the availability of the required resources. Appointments can be blocking, specified as part of the service definition or per 
 appointment instance, for other appointments at the same interval.  

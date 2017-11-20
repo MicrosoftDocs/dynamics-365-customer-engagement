@@ -31,7 +31,7 @@ Base entity for process Agreement Business Process
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Agreement Business Process<br />
 **DisplayCollectionName**: Agreement Business Process<br />

@@ -13,7 +13,9 @@ manager: "amyla"
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-This event occurs when the status of a process instance changes. Use the **formContext.data.process**.[addOnProcessStatusChange](../formcontext-data-process/processmanager/addOnProcessStatusChange.md) method to add event handlers for this event and the Xrm.Page.data.process.[removeOnProcessStatusChange](../formcontext-data-process/processmanager/removeOnProcessStatusChange.md) method to remove them. 
+This event occurs when the status of a process instance changes. 
+
+Use the **formContext.data.process**.[addOnProcessStatusChange](../formContext-data-process/eventhandlers/addOnProcessStatusChange.md) method to add event handlers for this event and the **formContext.data.process**.[removeOnProcessStatusChange](../formContext-data-process/eventhandlers/removeOnProcessStatusChange.md) method to remove them. 
 
 
 

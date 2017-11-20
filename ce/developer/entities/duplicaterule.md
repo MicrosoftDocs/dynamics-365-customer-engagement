@@ -38,7 +38,7 @@ Rule used to identify potential duplicates.
 |UnpublishDuplicateRule|<xref href="Microsoft.Dynamics.CRM.UnpublishDuplicateRule?text=UnpublishDuplicateRule Action" />|<xref:Microsoft.Crm.Sdk.Messages.UnpublishDuplicateRuleRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/duplicaterules(*duplicateruleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Duplicate Detection Rule<br />
 **DisplayCollectionName**: Duplicate Detection Rules<br />

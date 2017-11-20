@@ -37,7 +37,7 @@ Store service tasks that are to be performed for this work order
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservicetasks(*msdyn_workorderservicetaskid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservicetasks(*msdyn_workorderservicetaskid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Work Order Service Task<br />
 **DisplayCollectionName**: Work Order Service Tasks<br />

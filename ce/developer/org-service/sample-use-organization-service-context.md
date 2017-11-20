@@ -48,6 +48,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)   
  [Sample: Create, Retrieve, Update, and Delete Records (Early Bound)](sample-create-retrieve-update-delete-records-early-bound.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>   
- [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addobject\(microsoft.xrm.sdk.entity\))   
- [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addrelatedobject\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))   
- [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.deletelink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))
+ <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddObject(Microsoft.Xrm.Sdk.Entity)>    
+ <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddRelatedObject(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship,Microsoft.Xrm.Sdk.Entity)>   
+ <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.DeleteLink(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship,Microsoft.Xrm.Sdk.Entity)>  

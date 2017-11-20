@@ -26,7 +26,7 @@ User-submitted bulk deletion job.
 |Retrieve|GET [*org URI*]/api/data/v9.0/bulkdeleteoperations(*bulkdeleteoperationid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bulkdeleteoperations<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Bulk Delete Operation<br />
 **DisplayCollectionName**: Bulk Delete Operations<br />

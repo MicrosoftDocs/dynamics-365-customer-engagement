@@ -34,7 +34,7 @@ Relationship between a customer and a partner in which either can be an account 
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/customerrelationships(*customerrelationshipid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Customer Relationship<br />
 **DisplayCollectionName**: Customer Relationships<br />

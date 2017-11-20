@@ -78,8 +78,8 @@ context.SaveChanges();
   
 |Method|Use|  
 |------------|---------|  
-|[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addrelatedobject\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Adds the target to the context. Calls the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.attach\(microsoft.xrm.sdk.entity\)) method on the target entity and then calls the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addlink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\)) method between the source entity and the target (related) entity.|  
-|[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.attachlink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Adds the related entity to the context for tracking. The status of the entity in the context is set to `Unchanged`.|  
+|[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addrelatedobject\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Adds the target to the context. Calls the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.attach\(microsoft.xrm.sdk.entity\)) method on the target entity and then calls the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AddLink(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship,Microsoft.Xrm.Sdk.Entity)> method between the source entity and the target (related) entity.|  
+|<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.AttachLink(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship,Microsoft.Xrm.Sdk.Entity)>|Adds the related entity to the context for tracking. The status of the entity in the context is set to `Unchanged`.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addlink\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Creates a relationship between the source and target entities. Adds the target to the context. The status of the target entity in the context is set to `Created`.|  
 |[String)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.loadproperty\(microsoft.xrm.sdk.entity,system.string\))|Loads the related entity set for the specified relationship. Gives access to related entities by using the navigation property. Call the [Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.addobject\(microsoft.xrm.sdk.entity\)) method on the related entity after you have accessed the entity by using a navigation property on the parent entity.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.updateobject\(microsoft.xrm.sdk.entity\))|Changes the state of the specified entity in the `OrganizationServiceContext` to Modified.|  
@@ -87,7 +87,7 @@ context.SaveChanges();
   
 <a name="BKMK_LoadRelatedEntities"></a>   
 ### Load related entities using navigation properties  
- Related entities for entities you have retrieved using LINQ will be null until you use [Relationship)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.loadproperty\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship\)) to retrieve them. The following code sample shows how to access Task records associated with a specific Contact record.  
+ Related entities for entities you have retrieved using LINQ will be null until you use <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.LoadProperty(Microsoft.Xrm.Sdk.Entity,Microsoft.Xrm.Sdk.Relationship)> to retrieve them. The following code sample shows how to access Task records associated with a specific Contact record.  
   
 ```csharp  
 Contact pam = context.ContactSet.Where(c => c.FirstName == "Pamela").FirstOrDefault();  
@@ -111,7 +111,7 @@ if (pam != null)
   
 |Method|Description|  
 |------------|-----------------|  
-|[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onbeginentitytracking\(microsoft.xrm.sdk.entity\))|Called after an entity is attached to the `OrganizationServiceContext`.|  
+|<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnBeginEntityTracking(Microsoft.Xrm.Sdk.Entity)>|Called after an entity is attached to the `OrganizationServiceContext`.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onbeginlinktracking\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Called after a link is attached to the `OrganizationServiceContext`.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onendentitytracking\(microsoft.xrm.sdk.entity\))|Called after an entity is detached from the `OrganizationServiceContext`.|  
 |[Entity)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationservicecontext.onendlinktracking\(microsoft.xrm.sdk.entity,microsoft.xrm.sdk.relationship,microsoft.xrm.sdk.entity\))|Called after a link is detached from the `OrganizationServiceContext`.|  

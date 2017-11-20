@@ -38,7 +38,7 @@ Template for an email message that contains the standard attributes of an email 
 |SendTemplate|<xref href="Microsoft.Dynamics.CRM.SendTemplate?text=SendTemplate Action" />|<xref:Microsoft.Crm.Sdk.Messages.SendTemplateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/templates(*templateid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Email Template<br />
 **DisplayCollectionName**: Email Templates<br />
