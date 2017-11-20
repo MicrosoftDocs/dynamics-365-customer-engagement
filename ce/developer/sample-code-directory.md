@@ -2,7 +2,7 @@
 title: "Sample code directory (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Listings of sample code topics included in the Customer Engagement SDK."
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 11/16/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -204,9 +204,9 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 ## Duplicate detection  
 
 
-[Sample: Detect Multiple Duplicate Records](sample-detect-multiple-duplicate-records.md)<br />
-[Sample: Enable Duplicate Detection and Retrieve Duplicates](sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
-[Sample: Use duplicate detection when creating and updating records](sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
+[Sample: Detect Multiple Duplicate Records](org-service/sample-detect-multiple-duplicate-records.md)<br />
+[Sample: Enable Duplicate Detection and Retrieve Duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
+[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
   
 <a name="BKMK_Entities"></a>   
 ## Entity records  

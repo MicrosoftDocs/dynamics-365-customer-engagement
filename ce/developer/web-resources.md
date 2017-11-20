@@ -39,7 +39,7 @@ Web resources are *virtual files* that are stored in the [!INCLUDE[pn_dynamics_c
   
 <a name="BKMK_LimitationsOfWebResources"></a>   
 ### Limitations of web resources  
- There is no type of web resource that supports the capabilities of an ASP.NET(.aspx) page to execute code on the server. Web resources are limited to static files or files that are processed in the browser. A web resource can contain code that is processed in the browser to execute web service calls to interact with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. For more information, see [Work with Customer Engagement data using web resources](work-data-using-web-resources.md),  
+ There is no type of web resource that supports the capabilities of an ASP.NET(.aspx) page to execute code on the server. Web resources are limited to static files or files that are processed in the browser. A web resource can contain code that is processed in the browser to execute web service calls to interact with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. For more information, see [Work with Customer Engagement data using web resources](work-data-using-web-resources.md). 
   
  Web resources are only available by using the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application security context. Only licensed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who have the necessary privileges can access them.  
   

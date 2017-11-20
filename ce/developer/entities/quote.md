@@ -53,7 +53,7 @@ Formal offer for products and/or services, proposed at specific prices and relat
 |WinOpportunity|<xref href="Microsoft.Dynamics.CRM.WinOpportunity?text=WinOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
 |WinQuote|<xref href="Microsoft.Dynamics.CRM.WinQuote?text=WinQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Quote<br />
 **DisplayCollectionName**: Quotes<br />

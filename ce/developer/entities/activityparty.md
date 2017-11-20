@@ -24,7 +24,7 @@ Person or group associated with an activity. An activity can have multiple activ
 |-|-|-|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/activityparties<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Activity Party<br />
 **DisplayCollectionName**: Activity Parties<br />

@@ -35,7 +35,7 @@ Container for feedback and ratings for knowledge articles.
 |SetState|PATCH [*org URI*]/api/data/v9.0/feedback(*feedbackid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/feedback(*feedbackid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Feedback<br />
 **DisplayCollectionName**: Feedback<br />

@@ -25,7 +25,7 @@ A component available in a business app such as entity, dashboard, form, view, c
 |Retrieve|GET [*org URI*]/api/data/v9.0/appmodulecomponents(*appmodulecomponentid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/appmodulecomponents<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: App Module Component<br />
 **DisplayCollectionName**: App Module Components<br />

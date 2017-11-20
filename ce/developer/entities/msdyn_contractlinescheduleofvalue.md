@@ -37,7 +37,7 @@ List of billing milestones and invoice amounts for this project contract line.
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_contractlinescheduleofvalues(*msdyn_contractlinescheduleofvalueid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_contractlinescheduleofvalues(*msdyn_contractlinescheduleofvalueid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Project Contract Line Milestone<br />
 **DisplayCollectionName**: Project Contract Line Milestones<br />

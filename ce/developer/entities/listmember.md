@@ -27,7 +27,7 @@ Item in a marketing list.
 |Delete|DELETE [*org URI*]/api/data/v9.0/listmembers(*listmemberid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/listmembers<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Marketing List Member<br />
 **DisplayCollectionName**: Marketing List Members<br />

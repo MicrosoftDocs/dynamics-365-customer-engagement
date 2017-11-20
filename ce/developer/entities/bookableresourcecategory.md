@@ -36,7 +36,7 @@ Resource category master used to categorize people and equipment.
 |SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Bookable Resource Category<br />
 **DisplayCollectionName**: Bookable Resource Categories<br />

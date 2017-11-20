@@ -88,7 +88,7 @@ primary contact first name: ContactLastName
 ### See also  
  [Use the QueryExpression Class](use-queryexpression-class.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- [QueryBase](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple\(microsoft.xrm.sdk.query.querybase\))   
+ <xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple(Microsoft.Xrm.Sdk.Query.QueryBase)>   
  <xref:Microsoft.Xrm.Sdk.Query.QueryExpression>   
  [Build Queries with QueryExpression](build-queries-with-queryexpression.md)   
  [Sample: Convert queries between Fetch and QueryExpression](sample-convert-queries-fetch-queryexpression.md)   

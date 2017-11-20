@@ -31,7 +31,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 >   
 >  “A proxy type with the name `<entity name>` has been defined by another assembly.”  
 >   
->  In a situation like this, you can use the [Assembly)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.client.organizationserviceproxy.enableproxytypes\(system.reflection.assembly\)) method, which takes an `Assembly` object parameter. This method specifies an assembly that contains the early-bound entity proxy types to use with the organization service proxy. This allows you to use different assemblies for different sets of entity proxy instances.  
+>  In a situation like this, you can use the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.EnableProxyTypes(System.Reflection.Assembly)> method, which takes an `Assembly` object parameter. This method specifies an assembly that contains the early-bound entity proxy types to use with the organization service proxy. This allows you to use different assemblies for different sets of entity proxy instances.  
   
  The following sample shows how to set the email address of a contact entity. For this example, assume that a query has found the record to be changed and the logical name is `Contact`:  
   

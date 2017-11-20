@@ -2,7 +2,7 @@
 title: "Supported extensions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "You can customize  Dynamics 365 Customer Engagement by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 Customer Engagement SDK. These customizations are supported and can be upgraded. Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 Customer Engagement."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/20/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -148,12 +148,16 @@ The following supported tasks require this procedure:
   
 -   Referencing any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] dynamic-link libraries (DLLs) other than the following:  
   
-    - Microsoft.Xrm.Sdk.dll  
-    - Microsoft.Crm.Sdk.Proxy.dll  
-    - Microsoft.Xrm.Sdk.Workflow.dll  
+    - Microsoft.Crm.Outlook.Sdk.dll
+    - Microsoft.Crm.Sdk.Proxy.dll
+    - Microsoft.Xrm.Sdk.dll
+    - Microsoft.Xrm.Sdk.Data.dll  
     - Microsoft.Xrm.Sdk.Deployment.dll  
-    - Microsoft.Crm.Outlook.Sdk.dll  
-    - Microsoft.Xrm.Sdk.Data.dll
+    - Microsoft.Xrm.Sdk.Workflow.dll   
+    - Microsoft.Xrm.Tooling.Connector.dll
+    - Microsoft.Xrm.Tooling.CrmConnectControl.dll
+    - Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.dll
+    - Microsoft.Xrm.Tooling.WebResourceUtility.dll
   
 -   The use of application programming interfaces (APIs) other than the documented APIs in the web services: Web API, Organization Service, Deployment Service, Discovery Service, Organization Data Service.  
   

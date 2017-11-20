@@ -31,7 +31,7 @@ List of days expressed as dates or day of week for a specific invoice schedule t
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicefrequencydetails(*msdyn_invoicefrequencydetailid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicefrequencydetails(*msdyn_invoicefrequencydetailid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Invoice Frequency Detail<br />
 **DisplayCollectionName**: Invoice Frequency Details<br />
