@@ -22,6 +22,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
  You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
+
 > [!VIDEO https://www.youtube.com/embed/x36_Sn5u4Es]
   
 <a name="bkmk_Create"></a>   
