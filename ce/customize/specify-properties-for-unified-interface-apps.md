@@ -22,15 +22,15 @@ topic-status: Drafting
 
 # Specify properties for Unified Interface apps
 
-[!INCLUDE[cc-feature-included-with-update-9-0-0-admins](../includes/cc-feature-included-with-update-9-0-0-admins.md)] for the Unified Interface framework, which uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With Unified Interface applications, the grid control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
+[!INCLUDE[cc-feature-included-with-update-9-0-0-admins](../includes/cc-feature-included-with-update-9-0-0-admins.md)] for the Unified Interface framework, which uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With Unified Interface applications, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
+
 The Read Only Grid control Specifies how a grid should reflow to different screen sizes. As a system customizer, if you’re working with a Unified Interface application in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] Customer Engagement, you can configure the Read Only Grid control and its properties for custom grids and lists.
 - **Card Form property:** Use a card form for lists instead of the default list template. Card forms provide more information for list items than the default list template.
 - **Reflow behavior property:** Use this parameter to specify a grid to reflow in to a list or not.
-
 ## Allow grid to reflow into list
-This control allows you to configure the following features: 
+Add the Read Only Grid control to your controls list and this allows you to  configure the following features: 
 - Allow a grid to reflow into a list on small displays such as mobile.
-- Specify the rendering mode as grid-only or list-only. 
+- Specify the rendering mode as grid-only or list-only.  
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. In the **Entities** pane, select the appropriate entity (such as **Account** or **Contact**), and then on the **Controls** tab, select **Add Control**.
