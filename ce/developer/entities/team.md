@@ -34,7 +34,7 @@ Collection of system users that routinely collaborate. Teams can be used to simp
 |SetParentTeam|[Associate and disassociate entities](../webapi/associate-disassociate-entities-using-web-api.md)|<xref:Microsoft.Crm.Sdk.Messages.SetParentTeamRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/teams(*teamid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Team<br />
 **DisplayCollectionName**: Teams<br />

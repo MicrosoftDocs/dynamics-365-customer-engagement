@@ -2,18 +2,20 @@
 title: "Event invitations, registrations, and hotel bookings in Dynamics 365 for Marketing | Microsoft Docs"
 description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 for Marketing"
 keywords: "events; event management"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 4844cf8c-bad1-4483-ba9b-e6e83874fd2b
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Invite, register, and house event attendees
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -22,7 +24,7 @@ After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-
 
 ## Register attendees for events, sessions, and passes
 
-Event registration enables attendees to sign up for your event and reserve their seats for specific sessions or tracks. It also helps you gauge interest in the event, and to signal demand to event planners for purposes such as capacity planning. Event managers can use registration records to evaluate in advance how many resources they'll need to have available, which sessions require larger rooms, or even whether a session should be canceled. Advanced registration also enables attendees to be confident that their place is reserved for all the sessions they want to attend.
+Event registration enables attendees to sign up for your event and reserve their seats for specific sessions or tracks. It also helps you gauge interest in the event, and to signal demand to event planners for purposes such as capacity planning. Event managers can use registration records to evaluate in advance how many resources they'll need to have available, which sessions require larger rooms, or even whether a session should be canceled. Advance registration also enables attendees to be confident that their place is reserved for all the sessions they want to attend.
 
 Each registration results in an event-registration record, which pulls together a registrant's profile, their passes, the sessions they'll attend, and, eventually, the sessions they did attend. Each registration record has a unique ID, which the system encodes into a QR code that you can print onto attendee badges and passes for quick scanning during the event. You'll find the QR code embedded in the registration record.
 
@@ -49,3 +51,12 @@ After your event is planned and set up, it's time to start promoting it! [!INCLU
 If your organization has set up hotels and room allocations for your event in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you can view and create room bookings by going to **Events** &gt; **Logistics** &gt; **Hotel Room Reservations**. Each room booking links an event-registration record (and its associated contact) to a hotel room allocation set up in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Each room allocation represents a block of rooms of a specific type (single, double, or suite) at a specific hotel during a specific event. After all the rooms in an allocation are booked, that allocation is considered sold out unless you can request more from that hotel. Room bookings don't specify a room number, just a room type (based on allocation) and a unique reservation number.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage attendee logistics and accommodation availability](manage-event-logistic.md)
+
+### See also
+
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Event blocks](content-blocks-reference.md#event-blocks)  
+[Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Set up the event portal](set-up-event-portal.md)  
+[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)

@@ -114,7 +114,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
   
 |Option|Description|  
 |------------|-----------------|  
-|Off|Writing to the trace log is disabled. No **PluginTraceLog** records will be created. However, custom code can still call the [Object&#91;&#93;)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.itracingservice.trace\(system.string,system.object[]\)) method even though no log is written.|  
+|Off|Writing to the trace log is disabled. No **PluginTraceLog** records will be created. However, custom code can still call the <xref:Microsoft.Xrm.Sdk.ITracingService.Trace(System.String,System.Object[])> method even though no log is written.|  
 |Exceptions|Trace information is written to the log if an exception is passed back to the platform from custom code.|  
 |All|Trace information is written to the log upon code completion or an exception is passed back to the platform from the custom code.|  
   
@@ -123,7 +123,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  By default, the System Administrator and System Customizer roles have the required privileges to change the trace logging setting, which is stored in a <xref:Microsoft.Xrm.Sdk.Deployment.TraceSettings> entity record. Trace settings have an organization scope.  
   
 ### Write to the tracing service  
- Before writing to the tracing service, you must first extract the tracing service object from the passed execution context. Afterwards, simply add [Object&#91;&#93;)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.itracingservice.trace\(system.string,system.object[]\)) calls to your custom code where appropriate passing any relevant diagnostic information in that method call.  
+ Before writing to the tracing service, you must first extract the tracing service object from the passed execution context. Afterwards, simply add <xref:Microsoft.Xrm.Sdk.ITracingService.Trace(System.String,System.Object[])> calls to your custom code where appropriate passing any relevant diagnostic information in that method call.  
   
  [!code-csharp[Plug-ins#AdvancedPlugin2](../snippets/csharp/CRMV8/plug-ins/cs/advancedplugin2.cs#advancedplugin2)]  
   

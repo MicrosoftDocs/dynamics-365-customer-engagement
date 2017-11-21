@@ -29,7 +29,7 @@ Service endpoint that can be contacted.
 |TriggerServiceEndpointCheck|<xref href="Microsoft.Dynamics.CRM.TriggerServiceEndpointCheck?text=TriggerServiceEndpointCheck Action" />|<xref:Microsoft.Crm.Sdk.Messages.TriggerServiceEndpointCheckRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/serviceendpoints(*serviceendpointid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Service Endpoint<br />
 **DisplayCollectionName**: Service Endpoints<br />

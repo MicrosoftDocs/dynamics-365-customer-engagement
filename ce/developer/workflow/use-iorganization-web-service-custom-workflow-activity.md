@@ -2,7 +2,7 @@
 title: "Use the IOrganization web service in a custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn on how to get the IOrganizationService from within the Execute method of your custom workflow activity."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/20/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -24,7 +24,7 @@ To call [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.
   
 1.  Get a reference to <xref:Microsoft.Xrm.Sdk.IOrganizationServiceFactory>.  
   
-2.  Use the <xref:Microsoft.Xrm.Sdk.IOrganizationServiceFactory>.[Guid})](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservicefactory.createorganizationservice\(system.nullable{system.guid}\)) method to create an instance of<xref:Microsoft.Xrm.Sdk.IOrganizationService>.  
+2.  Use the <xref:Microsoft.Xrm.Sdk.IOrganizationServiceFactory>.<xref:Microsoft.Xrm.Sdk.IOrganizationServiceFactory.CreateOrganizationService(System.Nullable{System.Guid})> method to create an instance of<xref:Microsoft.Xrm.Sdk.IOrganizationService>.  
   
 3.  Use the<xref:Microsoft.Xrm.Sdk.IOrganizationService> instance to call the supported methods.  
   

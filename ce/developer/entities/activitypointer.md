@@ -26,7 +26,7 @@ Task performed, or to be performed, by a user. An activity is any action for whi
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/activitypointers<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Activity<br />
 **DisplayCollectionName**: Activities<br />

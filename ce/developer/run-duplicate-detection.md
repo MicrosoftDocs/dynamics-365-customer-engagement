@@ -179,7 +179,7 @@ The GUID of the base record is stored as `baserecordid` in the `DuplicateRecord`
 
 By default, duplicate detection is suppressed when you are creating or updating a record using Web API. Use `MSCRM.SuppressDuplicateDetection` header and set its value to `false` while creating or updating a record. Duplicate detection only applies when the organization has duplicate detection enabled, the entity is enabled for duplicate detection, and there are active duplicate detection rules being applied.
 
-See more on how to detect duplicates during Create and Update operation in [Manage duplicate detection during Create and Update operation using Web API](manage-duplicate-detection-create-update.md)
+See more on how to detect duplicates during Create and Update operation in [Manage duplicate detection during Create and Update operation using Web API](duplicate-detection-create-update.md)
 
 <a name="BKMK_dupdetos"></a>
 ###  Example: Duplicate detection using the Organization Service

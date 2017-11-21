@@ -25,7 +25,7 @@ The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> Web service provides a 
  To access the `IDiscoveryService` Web service, you add a reference to Microsoft.Xrm.Sdk.dll assembly to your [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] project, and then add a `using` or `imports` statement for the Microsoft.Xrm.Sdk.Discovery namespace.  
   
 ## Execute  
- Use the [DiscoveryRequest)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.discovery.idiscoveryservice.execute\(microsoft.xrm.sdk.discovery.discoveryrequest\)) method to execute a discovery service message. For a list of the messages you can use with this method, see [Microsoft.Xrm.Sdk.Discovery Messages](messages-discovery-service.md).  
+ Use the <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute(Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest)> method to execute a discovery service message. For a list of the messages you can use with this method, see [Microsoft.Xrm.Sdk.Discovery Messages](messages-discovery-service.md).  
   
 ### See also  
  [Discover the URL for Your Organization With IDiscoveryService Web Service](discover-url-organization-organization-service.md)   

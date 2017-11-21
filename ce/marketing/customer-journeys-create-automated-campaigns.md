@@ -2,18 +2,20 @@
 title: "Guide your prospects through an interactive customer journey with Dynamics 365 for Marketing | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 for Marketing"
 keywords: "customer journey; campaign; email; segment; go live; pipeline"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online) 
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Use customer journeys to create automated campaigns
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -143,3 +145,12 @@ When you've finished designing your customer journey, do the following to verify
 1. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
 1. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] server, which also hosts your published marketing email messages and marketing pages.
+
+### See also
+
+[Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Create an interactive customer journey](create-interactive-customer-journey.md)  
+[Create an inbound customer journey](create-inbound-customer-journey.md)  
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)

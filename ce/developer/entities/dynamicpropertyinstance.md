@@ -31,7 +31,7 @@ Instance of a property with its value.
 |Update|PATCH [*org URI*]/api/data/v9.0/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateProductProperties|<xref href="Microsoft.Dynamics.CRM.UpdateProductProperties?text=UpdateProductProperties Action" />|<xref:Microsoft.Crm.Sdk.Messages.UpdateProductPropertiesRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Property Instance<br />
 **DisplayCollectionName**: Property Instances<br />

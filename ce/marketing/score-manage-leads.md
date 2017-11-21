@@ -36,7 +36,7 @@ When a contact submits a marketing page that is set up to create contacts and le
 
 After a single interaction, a new lead is usually still considered *unqualified*, which means that you don't have enough confidence in it to ask a salesperson to engage. Marketers typically put contacts with leads like these into a *nurturing campaign*, which seeks to build interest by supplying additional information and new offers.
 
-Each lead has a score, and each time the associated contact interacts with an initiative in that lead's marketing context, it increases the lead score until it reaches a certain threshold, at which time it's considered marketing-qualified (sales-ready). At that point, the lead is sent to a salesperson, who decides whether to accept the lead. After the lead is accepted by sales, the lead may go on to become a sales-qualified lead, then converted to an opportunity and, finally, become a closed sale. Or, the salesperson might decide that the lead isn't ready and may reject the lead or recycle it by sending it back to marketing. Other leads may eventually get marked as lost, but the contact will remain in your database to be included in future marketing campaigns.
+Each lead has a score, and each time the associated contact interacts with an initiative in that lead's marketing context, it increases the lead score until it reaches a certain threshold, at which time it's considered marketing-qualified (sales-ready). At that point, the lead is sent to a salesperson, who decides whether to accept the lead. After the lead is accepted by sales, the lead might go on to become a sales-qualified lead, then converted to an opportunity and, finally, become a closed sale. Or, the salesperson might decide that the lead isn't ready and might reject the lead or recycle it by sending it back to marketing. Other leads might eventually get marked as lost, but the contact will remain in your database to be included in future marketing campaigns.
 
 ## Lead generation
 
@@ -68,7 +68,7 @@ The scoring-model canvas is similar to the customer-journey canvas. Add tiles by
 
 ### Set up a condition
 
-The condition tile is a compound tile, which includes both parent and child tiles. When you add a condition, both the parent and one child are created. Use the expand/collapse button at the bottom right of the tile to show or hide the child tiles.
+The condition tile is a compound tile, which includes both parent and child tiles. When you add a condition, both the parent and one child are created. Use the expand/collapse button at the lower-right corner of the tile to show or hide the child tiles.
 
 ![An expanded condition tile with one child](media/lead-score-condition.png "An expanded condition tile with one child")
 
@@ -114,3 +114,9 @@ The grades and sales-ready score apply to the entire model, regardless of how ma
 Enter an integer in the **Sales Ready Score** field to set the sales-ready score.
 
 To add an additional grade, select **New**, which adds a new section to the tab, where you can enter a grade name and the score range where it applies. Grade ranges must be continuous and non-overlapping.
+
+### See also
+
+[Set up lead scoring](set-up-lead-scoring.md)  
+[Register contacts' engagement](register-engagement.md)  
+[Manage customer information](manage-customer-information.md)

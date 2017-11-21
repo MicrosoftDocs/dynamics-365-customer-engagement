@@ -2,17 +2,18 @@
 title: "Capture leads generated on LinkedIn by using Dynamics 365 for Marketing | Microsoft Docs "
 description: "How to set up and use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 for Marketing"
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: ec81d712-2c82-4ce0-83c5-ccfbafab71bb
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
 
 # [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration
@@ -44,7 +45,7 @@ A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedi
 
 ### Create a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] lead matching strategy
 
-1. In **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] — custom**, go to **Settings** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
 
 1. To create the matching strategy, select **New**, enter a **Name**, and then select **Save**.
 
@@ -54,7 +55,7 @@ A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedi
 
 ### Activate a different LinkedIn lead matching strategy
 
-1. In **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] — custom**, go to **Settings** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
 
 1. In the list, select the matching strategy that you want to activate.
 
@@ -64,7 +65,7 @@ A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedi
 
 ### Edit a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] lead matching strategy
 
-1. In **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] — custom**, go to **Settings** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
 
 1. In the list, select the matching strategy that you want to edit.
 
@@ -74,7 +75,7 @@ A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedi
 
 ### Delete a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] lead matching strategy
 
-1. In **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] — custom**, go to **Settings** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Matching Strategies**.
 
 1. Select the check box for the lead matching strategy you want to delete.
     You can't delete the activated lead matching strategy.
@@ -89,7 +90,7 @@ More information about assigning security roles to users: [TechNet: Create users
 
 ### Authorize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to sync data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager
 
-1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] User Profile**.
+1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] User Profile**.
 
 1. To add a new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
 
@@ -126,3 +127,7 @@ When you create your own dashboard, consider adding a chart for the record type 
 ### Analyze individual [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen forms and submissions
 
 To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members when they answered the underlying [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen form.
+
+### See also
+
+[Manage customer information](manage-customer-information.md)

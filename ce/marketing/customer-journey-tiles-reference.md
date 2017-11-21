@@ -48,7 +48,7 @@ See the following sections for more information about working with the landing p
 
 ### Landing page
 
-A landing page is any marketing page that is the destination of a link embedded in some other type of marketing message, such as an email or social media post. Landing page tiles can be children of marketing email tiles, where they represent a landing-page link that is included in the parent message's content. The most important reason to add a landing page tile is to enable trigger tiles placed later in the pipeline to "know" about the landing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only once a contact submits the form after clicking it in the email.
+A landing page is any marketing page that is the destination of a link embedded in some other type of marketing message, such as an email or social media post. Landing page tiles can be children of marketing email tiles, where they represent a landing-page link that is included in the parent message's content. The most important reason to add a landing page tile is to enable trigger tiles placed later in the pipeline to "know" about the landing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
 
 When you add a landing-page tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same landing page (the system doesn't confirm this or modify the message when you add a child tile).
 
@@ -62,7 +62,7 @@ Landing page tiles provide the following settings in the **Properties** pane whi
 
 ### Event
 
-Event tiles are typically children of marketing email tiles, where they represent a link to an event portal that is included in the parent message's content, but they can also be placed on their own. The most important reason to add an event tile is to enable trigger tiles placed later in the pipeline to "know" about the event link and to react to contact interactions with it (registered or attended). Triggers can react either as soon as a contact clicks on the link in an email, or only once a contact registers for or attends the event.
+Event tiles are typically children of marketing email tiles, where they represent a link to an event portal that is included in the parent message's content, but they can also be placed on their own. The most important reason to add an event tile is to enable trigger tiles placed later in the pipeline to "know" about the event link and to react to contact interactions with it (registered or attended). Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact registers for or attends the event.
 
 When you add an event tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same event (the system doesn't confirm this or modify the message when you add a child tile).
 
@@ -76,7 +76,7 @@ Event tiles provide the following settings in the **Properties** pane while sele
 
 ### Survey
 
-Survey tiles are typically children of marketing email tiles, where they represent a link to an online survey that is included in the parent message's content. The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to "know" about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only once a contact submits the survey.
+Survey tiles are typically children of marketing email tiles, where they represent a link to an online survey that is included in the parent message's content. The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to "know" about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the survey.
 
 When you add a survey tile as a child of an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same survey (the system doesn't confirm this or modify the message when you add a child tile).
 
@@ -105,7 +105,7 @@ Activity tiles provide the following settings in the **Properties** pane while s
 - **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Activity Type**: The type of activity (such as appointment, task, or phone call) the tile creates.
 - **Activity Template**: The template to use when creating the activity. The templates defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create activity marketing templates for activity tiles](customer-journeys-create-automated-campaigns.md#create-activity-marketing-templates-for-activity-tiles)
-- **Properties**: Once you've selected a template, a summary of its settings is shown here.
+- **Properties**: After you've selected a template, a summary of its settings is shown here.
 - **Assigned To:** The tile assigns all of the activities it generates to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user identified here.
 - **Description**: Add a description or other notes here (optional).
 
@@ -174,7 +174,7 @@ Scheduler tiles provide the following settings in the **Properties** pane while 
 - **Type**: Sets whether to use a relative or absolute schedule. Set this to **Duration** to set a relative time (such as wait 7 days) or to **Date & Time** to choose a specific date.
 - **Duration**: This setting is only shown when **Type** is set to **Duration**. Enter an integer in the field here to define the number of days to wait, starting from the day a contact first enters the tile. Use the links here to choose a **Simple** duration, which will wait the exact number of days you specify, or an **Advanced** duration, which enables you to define a restriction window (see below).
 - **Date & Time**: This setting is only shown when **Type** is set to **Date & Time**. Use the fields here to define the specific date, hour, and minute at which contacts waiting here will be released (regardless of when they arrived). Use the links here to choose a **Simple** schedule, which will use the exact date and time you specify, or an **Advanced** schedule, which enables you to define a restriction window (see below). Note the time zone information shown at the bottom of the **Properties** tab.
-- **Restriction Window**: This setting is available for both **Duration** and **Date & Time** schedulers when they are set to **Advanced**. It establishes rules about which day or the week and/or time of day contacts will be released by the scheduler. To open it, click on the **Advanced** link in the **Duration** or **Date & Time** section. Use these settings to restrict the set of week days and/or times when contacts will first be released by the scheduler. This may result in a slightly longer delay. For example, you might set the scheduler to hold contacts for at least 7 days, but then release them on the first Monday, Wednesday, or Friday afternoon after that.
+- **Restriction Window**: This setting is available for both **Duration** and **Date & Time** schedulers when they are set to **Advanced**. It establishes rules about which day or the week and/or time of day contacts will be released by the scheduler. To open it, click on the **Advanced** link in the **Duration** or **Date & Time** section. Use these settings to restrict the set of week days and/or times when contacts will first be released by the scheduler. This might result in a slightly longer delay. For example, you might set the scheduler to hold contacts for at least 7 days, but then release them on the first Monday, Wednesday, or Friday afternoon after that.
 - **Description**: Add a description or other notes here (optional).
 
 ### Trigger
@@ -201,9 +201,9 @@ Trigger tiles provide the following settings in the **Properties** pane while se
 
 ### Splitter and splitter-branch tiles
 
-Splitter tiles add a logical fork to the customer journey pipeline. They are like triggers, but are always evaluated instantly, so they don't wait for a contact to do something such as click on an email link. Also, splitters can include any number of output paths, not just two like triggers have. You'll typically use splitters to split your segment into sub-segments based on demographic data, such as contact city, age, occupation, list membership, or other semi-permanent property or value. You can also use a splitter to divide contacts randomly into groups of various sizes (by percent of the total); you might do this to implement A/B testing of marketing strategy, email design, etc.
+Splitter tiles add a fork to the customer journey pipeline, sending a random selection of contacts down each available path.
 
-You'll always use a splitter tile together with at least two splitter-branch tiles. The splitter tile initiates the split and established a basic type of evaluation (such as by percentage) while each splitter-branch tile establishes the specific conditions for travelling down the path it controls. The bottom splitter-branch tile always implements a "remaining" rule, which applies to all contacts that don't fulfil any of the other available rules.
+You'll always use a splitter tile together with at least two splitter-branch tiles. The splitter tile initiates the split and establishes the basis for dividing the contacts (by percentage or absolute value), while each splitter-branch tile establishes the specific portion or number of contacts travelling down the path it controls. The bottom splitter-branch tile always implements a "remaining" rule, which applies to all contacts that don't fulfil any of the other available rules.
 
 Splitter and splitter-branch tiles are stand-alone, so they never have any parent or child tiles.
 
@@ -213,24 +213,24 @@ When you add a splitter to your pipeline, it immediately creates a fork and adds
 
 On adding a splitter tile:
 
-1. Configure the splitter first to establish its "split-by" parameter
+1. Configure the splitter first to establish its "split-by" parameter (by percentage or absolute value).
 
 1. Add at least one splitter-rule tile in the empty spot provided.
 
 1. If needed, add more paths by dragging additional splitter-rule tiles between the top and bottom splitter-rule tiles.
 
-1. Define the logic for each splitter branch.
+1. Define the portion of contacts to be sent down each splitter branch.
 
 Splitter tiles provide the following settings in the **Properties** pane while selected:
 
 - **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Split By**: Choose the type of test that the subsequent splitter-rule tiles can make. Choose **Percentage** to create a randomized split, in which case each splitter-rule tile will establish the percentage of contacts to be sent down each path. Choose **Value** to split by field values.
+- **Split By**: Choose how to define the portion of contacts sent down each branch. Choose **Percentage** to define each branch by a percentage of total contacts. Choose **Value** to define each branch using absolute values.
 - **Description**: Add a description or other notes here (optional).
 
-Splitter- branch tiles provide the following settings in the **Properties** pane while selected:
+Splitter-branch tiles provide the following settings in the **Properties** pane while selected:
 
 - **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Percentage** or **Value**: When the preceding splitter tile is set to split by percentage, set the percentage of contacts that should be sent down this branch. When the preceding splitter tile is set to split by value, set the field value that must match for a customer to be sent down this branch.
+- **Percentage** or **Value**: When the preceding splitter tile is set to split by percentage, set the percentage of contacts that should be sent down this branch. When the preceding splitter tile is set to split by value, enter the total number of contacts that should go down that branch.
 - **Description**: Add a description or other notes here (optional).
 
 ## Create custom channels for customer journeys
@@ -238,3 +238,11 @@ Splitter- branch tiles provide the following settings in the **Properties** pane
 Beyond the out-of-the box channels provided in customer journeys, you can create custom channels to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You can create a custom channel, such as text (SMS) or Social Media, and expose the channel as a "tile" in the journey designer. These custom channels provide similar capabilities as the out-of-the box channels such as sending communication, tracking customer interactions, and adding triggers to branch the paths within customer journey.
 
 The custom channel development takes advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] such as custom entities, workflows, and plugins, which allows developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to build custom channels.
+
+### See also
+
+[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Create an interactive customer journey](create-interactive-customer-journey.md)  
+[Create an inbound customer journey](create-inbound-customer-journey.md)  
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  

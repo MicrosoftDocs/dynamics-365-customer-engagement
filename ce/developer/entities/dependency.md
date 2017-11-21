@@ -30,7 +30,7 @@ A component dependency in CRM.
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dependencies<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrieveRequiredComponents|<xref href="Microsoft.Dynamics.CRM.RetrieveRequiredComponents?text=RetrieveRequiredComponents Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRequiredComponentsRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Dependency<br />
 **DisplayCollectionName**: Dependency<br />

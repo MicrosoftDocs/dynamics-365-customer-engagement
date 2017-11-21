@@ -150,11 +150,43 @@
 #### [save](reference/formContext-data-entity/save.md)
 
 ### [formContext.data.process](reference/formContext-data-process.md)
+
+#### Event handler methods
+##### [addOnProcessStatusChange](reference/formContext-data-process/eventhandlers/addOnProcessStatusChange.md)
+##### [addOnStageChange](reference/formContext-data-process/eventhandlers/addOnStageChange.md)
+##### [addOnStageSelected](reference/formContext-data-process/eventhandlers/addOnStageSelected.md)
+##### [removeOnProcessStatusChange](reference/formContext-data-process/eventhandlers/removeOnProcessStatusChange.md)
+##### [removeOnStageChange](reference/formContext-data-process/eventhandlers/removeOnStageChange.md)
+##### [removeOnStageSelected](reference/formContext-data-process/eventhandlers/removeOnStageSelected.md)
+
+#### Active Process methods
+##### [getActiveProcess](reference/formContext-data-process/activeprocess/getActiveProcess.md)
+##### [setActiveProcess](reference/formContext-data-process/activeprocess/setActiveProcess.md)
+
+#### [getEnabledProcesses](reference/formContext-data-process/getEnabledProcesses.md)
+
 #### Process methods
 ##### [getId](reference/formContext-data-process/process/getId.md)
 ##### [getName](reference/formContext-data-process/process/getName.md)
 ##### [getStages](reference/formContext-data-process/process/getStages.md)
 ##### [isRendered](reference/formContext-data-process/process/isRendered.md)
+
+#### ProcessInstance methods
+##### [getProcessInstances](reference/formContext-data-process/getProcessInstances.md)
+##### [setActiveProcessInstance](reference/formContext-data-process/setActiveProcessInstance.md)
+
+#### Instance methods
+##### [getInstanceId](reference/formcontext-data-process/instance/getInstanceId.md)
+##### [getInstanceName](reference/formcontext-data-process/instance/getInstanceName.md)
+##### [getStatus](reference/formcontext-data-process/instance/getStatus.md)
+##### [setStatus](reference/formcontext-data-process/instance/setStatus.md)
+
+#### Active Stage methods
+##### [getActiveStage](reference/formContext-data-process/activestage/getActiveStage.md)
+##### [setActiveStage](reference/formContext-data-process/activestage/setActiveStage.md)
+
+#### [getActivePath](reference/formContext-data-process/activepath/getActivePath.md)
+#### [getSelectedStage](reference/formContext-data-process/getSelectedStage.md)
 
 #### Stage methods
 ##### [getCategory](reference/formContext-data-process/stage/getCategory.md)
@@ -170,6 +202,10 @@
 ##### [getProgress](reference/formContext-data-process/step/getProgress.md)
 ##### [isRequired](reference/formContext-data-process/step/isRequired.md)
 ##### [setProgress](reference/formContext-data-process/step/setProgress.md)
+
+#### Navigation methods
+##### [moveNext](reference/formContext-data-process/navigation/moveNext.md)
+##### [movePrevious](reference/formContext-data-process/navigation/movePrevious.md)
 
 ### [formContext.ui](reference/formcontext-ui.md)
 #### [addOnLoad](reference/formcontext-ui/addOnLoad.md)

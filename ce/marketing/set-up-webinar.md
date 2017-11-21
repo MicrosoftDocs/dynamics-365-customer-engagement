@@ -27,7 +27,7 @@ A *webinar* (short for "web seminar") is a live event that one or more people ca
 Before you can set up a webinar, the following must be in place:
 
 - Your organization must have an account with a webinar provider, and you must have sign-in credentials to access your organization's account with them.
-- [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] must be configured to use your organization's webinar account. Your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] administrator may already have done this for you. If you are the admin, see [Events settings](events-settings.md) for instructions.
+- [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] must be configured to use your organization's webinar account. Your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] administrator might already have done this for you. If you are the admin, see [Events settings](events-settings.md) for instructions.
 
 During the webinar itself, you must set up a camera, microphone, projector, and other equipment as required to capture and broadcast the session through your webinar provider. Check with your webinar provider for information about how to do this, and always test the system end-to-end before your webinar begins.
 
@@ -46,9 +46,13 @@ To configure an event or session for broadcast as a webinar:
     - **Language**: Choose the language the webinar will be presented in.
     - **Producer**: Choose the event team member that is responsible for managing the webinar during the event here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up your event team](set-up-event.md#set-up-your-event-team)
 
-1. Allow the event or session to save itself (which usually occurs every few seconds), or select **Save** at the bottom-right of the window to save it immediately. As soon as you've saved an event with a valid webinar configuration, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will create the webinar in your webinar provider's system, which will return the following values:
+1. Allow the event or session to save itself (which usually occurs every few seconds), or select **Save** in the lower-right corner of the window to save it immediately. As soon as you've saved an event with a valid webinar configuration, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will create the webinar in your webinar provider's system, which will return the following values:
 
     - **Webinar URL**: A link to the webinar at the webinar provider. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] uses this link to synchronize registrations and metrics between the two systems.
     - **Presentation Manager URL**: A link that the presenter can use to control his or her presentation.
 
 Attendees who register for the webinar by using a valid email address will receive an email from the webinar provider that confirms the registration and provides a link for accessing the webinar.
+
+### See also
+
+[Events settings](events-settings.md)

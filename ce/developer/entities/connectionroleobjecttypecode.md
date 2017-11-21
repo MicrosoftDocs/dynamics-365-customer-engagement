@@ -27,7 +27,7 @@ Specifies the entity type that can play specific role in a connection.
 |Retrieve|GET [*org URI*]/api/data/v9.0/connectionroleobjecttypecodes(*connectionroleobjecttypecodeid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/connectionroleobjecttypecodes<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Connection Role Object Type Code<br />
 **DisplayCollectionName**: Connection Role Object Type Codes<br />

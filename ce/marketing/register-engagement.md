@@ -89,3 +89,9 @@ The same redirect-URL record where you can find the redirecting URL also shows t
 
 - **General Info**: This is where you find the basic metadata and the redirecting URL itself. After your redirecting URL has started to collect data, you'll find the results here, including a map with geodata and other information from [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)].
 - **Timeline**: Shows a detailed timeline of each click recorded over time.
+
+### See also
+
+[Score and manage leads](score-manage-leads.md)  
+[Set up lead scoring](set-up-lead-scoring.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)

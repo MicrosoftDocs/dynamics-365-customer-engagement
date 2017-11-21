@@ -23,7 +23,10 @@ manager: "amyla"
 The following is the schema definition for the SiteMap portion of an import/export customization file. It is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md).  
   
 ## SiteMap schema  
- You can find this schema in the `SDK\Schemas\SiteMap.xsd` file in the SDK package. [!INCLUDE[sdk_download](../../includes/sdk-download.md)]  
+
+You can find this schema in the `Schemas\9.0.0.2090\SiteMap.xsd` folder when you download the Schemas zip file.
+
+Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
   
 ```xml  
 <?xml version="1.0"?>  
@@ -42,7 +45,10 @@ The following is the schema definition for the SiteMap portion of an import/expo
 ```  
   
 ## SiteMap Type schema  
- You can find this schema in the `SDK\Schemas\SiteMapType.xsd` file in the SDK download package.  
+
+You can find this schema in the `Schemas\9.0.0.2090\SiteMapType.xsd` folder when you download the Schemas zip file.
+
+Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
   
 ```xml  
 <?xml version="1.0"?>  

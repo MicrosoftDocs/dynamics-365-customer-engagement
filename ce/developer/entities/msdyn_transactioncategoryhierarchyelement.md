@@ -31,7 +31,7 @@ Hierarchical relationship of the transaction category with a root node.
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_transactioncategoryhierarchyelements(*msdyn_transactioncategoryhierarchyelementid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_transactioncategoryhierarchyelements(*msdyn_transactioncategoryhierarchyelementid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Transaction Category Hierarchy Element<br />
 **DisplayCollectionName**: Transaction Category Hierarchy Elements<br />
