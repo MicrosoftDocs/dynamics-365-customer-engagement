@@ -20,6 +20,10 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Web resources are typically used by developers to extend the web application using files that are used in web development. As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user you may need to manage web resources provided by a developer or designer.  
+
+> [!TIP]
+
+> For an in-depth discussion of web resources, see [Web resources for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources). For information on web resource dependencies added in Dynamics 365 (online), version 9, see [Web resource dependencies](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources).
    
 <a name="BKMK_WhatAreWebResources"></a>   
 ## What are web resources?  
