@@ -381,7 +381,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 |30 days before update|All Admins|No|Yes|Yes|  
 |15 days before update|All Admins|No|Yes|Yes|  
 |7 days before update|All Admins|Yes|Yes|Yes|  
-|Schedule confirmed by Admin|All Admins|No|Yes|Yes|  
+|Schedule confirmed by Admin|All Admins|No|No|Yes|  
 |Update in progress|All Admins and Users|No|No|Yes|  
 |Update successful|All Admins and Users|No|Yes|Yes|  
 |Fallback to secondary update|All Admins|No|Yes|Yes|  
