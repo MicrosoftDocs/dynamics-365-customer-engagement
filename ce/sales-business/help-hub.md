@@ -21,6 +21,12 @@ topic-status: Drafting
 
 <tr><td>
 
+<h2>Get started</h2>
+<li>[Dynamics 365 for Sales Overview](overview-dynamics-365-for-sales.md)</li>
+<li>[Learn the basics](learn-basics.md)</li>
+
+</td><td>
+
 <h2>Administer the system</h2>
 <li>[Add or manage manage users](add-edit-users.md)</li>
 <li>[Add or manage teams](add-edit-teams.md)</li>
@@ -34,11 +40,6 @@ topic-status: Drafting
 <li>[Enable duplicate detection](enable-duplicate-detection.md)</li>
 <li>[Manage sample data](manage-sample-data.md)</li>
 
-</td><td>
-
-<h2>Get started</h2>
-<li>[Dynamics 365 for Sales Overview](overview-dynamics-365-for-sales.md)</li>
-<li>[Learn the basics](learn-basics.md)</li>
 
 </td></tr>
 
@@ -56,7 +57,6 @@ topic-status: Drafting
 
 </td><td>
 
-<tr><td>
 <h2>Improve productivity and collaboration</h2>
 <li>[Manage your SharePoint documents](create-manage-documents.md)</li>
 <li>[Make calls or send instant messages](make-calls-send-instant-messages.md)</li>
