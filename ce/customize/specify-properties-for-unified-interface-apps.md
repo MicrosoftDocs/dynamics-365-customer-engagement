@@ -27,8 +27,10 @@ topic-status: Drafting
 The Read Only Grid control Specifies how a grid should reflow to different screen sizes. As a system customizer, if you’re working with a Unified Interface application in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] Customer Engagement, you can configure the Read Only Grid control and its properties for custom grids and lists.
 - **Card Form property:** Use a card form for lists instead of the default list template. Card forms provide more information for list items than the default list template.
 - **Reflow behavior property:** Use this parameter to specify a grid to reflow in to a list or not.
+
 ## Allow grid to reflow into list
-Add the Read Only Grid control to your controls list and this allows you to  configure the following features: 
+
+Adding the Read Only Grid control to your controls list allows you to  configure the following features: 
 - Allow a grid to reflow into a list on small displays such as mobile.
 - Specify the rendering mode as grid-only or list-only.  
 
