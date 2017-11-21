@@ -23,7 +23,7 @@ Web resources are typically used by developers to extend the web application usi
 
 > [!TIP]
 
-> For an in-depth discussion of web resources, see [Web resources for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources). For information on web resource dependencies added in Dynamics 365 (online), version 9, see [Web resource dependencies](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources).
+> For an in-depth discussion of web resources, see [Web resources for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources). For information on web resource dependencies added in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], see [Web resource dependencies](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources).
    
 <a name="BKMK_WhatAreWebResources"></a>   
 ## What are web resources?  
