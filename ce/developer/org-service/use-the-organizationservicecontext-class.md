@@ -117,7 +117,7 @@ if (pam != null)
 |<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnEndEntityTracking(Microsoft.Xrm.Sdk.Entity)>|Called after a link is detached from the `OrganizationServiceContext`.|  
 |<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnExecuting(Microsoft.Xrm.Sdk.OrganizationRequest)>|Called immediately before a request is submitted to the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)].|  
 |<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnExecute(Microsoft.Xrm.Sdk.OrganizationRequest,Microsoft.Xrm.Sdk.OrganizationResponse)>|Called immediately after a request is submitted to the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)], regardless of whether an exception occurred or not.|  
-|<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnSavingChanges(Microsoft.Xrm.Sdk.Client.SaveChangesOptions>|Called before any operations occur after a call to `SaveChanges`.|  
+|<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnSavingChanges(Microsoft.Xrm.Sdk.Client.SaveChangesOptions)>|Called before any operations occur after a call to `SaveChanges`.|  
 |<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.OnSaveChanges(Microsoft.Xrm.Sdk.SaveChangesResultCollection)>|Called when all of the operations for a call to `SaveChanges` have completed, or when there is a failure.|  
   
 ### See also  
