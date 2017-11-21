@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Configure date settings for demo data
+# Configure date settings for demo data 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -81,7 +81,7 @@ You can set the values of datetime fields to automatically move forward by a spe
 > **Example**: To move dates forward by 3 months, and import the data on 10/1/2017: change the **timestamp** in the data.xml file to 7/1/2017.
 
 ### See also  
- [Download tools from NuGet](../developer/download-tools-nuget.md)
+ [Download tools from NuGet](../developer/download-tools-nuget.md)<br />
  [Modify a schema](modify-configuration-data-schema.md)   
  [Manage your configuration data](manage-configuration-data.md)   
  [Import configuration data](import-configuration-data.md)
