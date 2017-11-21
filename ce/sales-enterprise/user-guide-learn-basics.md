@@ -1,13 +1,13 @@
 ---
-title: "Signing in to Dynamics 365 for Sales | Microsoft Docs"
+title: "Learn the basics of Dynamics 365 for Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
-ms.date: 07/15/2017
+ms.date: 11/20/2017
 ms.service: dynamics-365
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
-ms.assetid: 99a199cf-cc42-4bdb-a73c-825d07bfb82a
+ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
@@ -15,7 +15,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -32,6 +32,10 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
  > The apps available to you in the app launcher depend on your subscription.
 
 2.  In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales**.
+
+ > [!NOTE]
+ > Choose the app with the **WEB** label.
+
 
 
 ## Understand the data in the app
@@ -51,37 +55,3 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
 1.  On the nav bar, select the plus sign ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
 
 2.  Fill in the fields, and then select **Save**.
-
-## Business processes in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
-
-Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
-
-There are three ready-to-use business processes that you can use as you move your leads through a sales process:
-
--   Lead to invoice. This business process flow is available on:
-
-    -   All leads
-
-    -   On opportunities created from leads
-
-    -   On quotes created from opportunities that are created from leads
-
-    -   On invoices created from quotes created from opportunities created from leads
-
--   Opportunity to invoice. This business process flow is available on:
-
-    -   All directly created opportunities (not originating from lead) forms
-
-    -   On quotes created from direct opportunities
-
-    -   On invoices created from quotes created from direct opportunities
-
--   Quote to invoice. This business process flow is available on:
-
-    -   On directly created quotes
-
-    -   On invoices created from directly created quotes
-
-
-### See Also
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)

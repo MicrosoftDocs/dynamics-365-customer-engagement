@@ -19,7 +19,7 @@
 ## [Manage sample data](manage-sample-data.md)
 
 # [User Guide](user-s-guide-dynamics-365-sales.md)
-## [Sign in and get started](sign-in-get-started.md)
+## [Learn the basics](learn-basics.md)
 ## [Assign a record to a user or team](assign-record-user-team.md)
 ## [Gain insights with dashboards](gain-insights-dashboards.md)
 ## [Manage your SharePoint documents](create-manage-documents.md)

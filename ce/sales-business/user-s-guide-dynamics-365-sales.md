@@ -24,7 +24,7 @@ topic-status: Drafting
 ## Get started  
  [Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md) 
 
- [Sign in and get started](sign-in-get-started.md)  
+ [Sign in and get started](learn-basics.md)  
  
  [Manage tasks, appointments, email, or phone calls](create-manage-activities.md)
  

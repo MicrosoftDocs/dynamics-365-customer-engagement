@@ -122,5 +122,5 @@ Here are some highlights of [!INCLUDE[pn-sales-business-doc-name](../includes/pn
  
  
 ### See Also
-[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](sign-in-get-started.md)  
+[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](learn-basics.md)  
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
