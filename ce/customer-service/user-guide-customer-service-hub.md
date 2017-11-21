@@ -25,7 +25,7 @@ Customer Service Hub is based on Unified Interface. Some of the key highlights a
 - Seamless and intuitive user interface
 - UI reflow and adaptivity across devices and form factors
   
-![customer-service-hub-dashboard](media/customer-service-hub-dashboard.PNG)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PG1SBL74kuc" frameborder="0" allowfullscreen></iframe> 
   
 
 The Customer Service Hub app is available to use on both, a desktop browser and a mobile device. 
