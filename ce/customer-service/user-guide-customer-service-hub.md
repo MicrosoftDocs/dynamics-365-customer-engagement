@@ -25,9 +25,8 @@ Customer Service Hub is based on Unified Interface. Some of the key highlights a
 - Seamless and intuitive user interface
 - UI reflow and adaptivity across devices and form factors
   
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PG1SBL74kuc" frameborder="0" allowfullscreen></iframe> 
+> [!VIDEO https://www.youtube.com/watch?v=PG1SBL74kuc]
   
-
 The Customer Service Hub app is available to use on both, a desktop browser and a mobile device. 
 
 To know about how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
