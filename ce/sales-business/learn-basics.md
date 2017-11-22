@@ -31,10 +31,9 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
 
  > The apps available to you in the app launcher depend on your subscription.
 
-2.  In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales**.
+2.  In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales** (Unified Interface).
 
- > [!NOTE]
- > Choose the app with the **UNIFIED INTERFACE** label.
+  ![Tile for Dynamics 365 for Sales, Unified Interface](media/sales_tile_unified_interface.png "Tile for Dynamics 365 for Sales, Unified Interface")
 
 
 ## Understand the data in the app
