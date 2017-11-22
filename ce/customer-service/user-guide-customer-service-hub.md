@@ -29,6 +29,9 @@ Customer Service Hub is based on Unified Interface. Some of the key highlights a
   
 The Customer Service Hub app is available to use on both, a desktop browser and a mobile device. 
 
+> [!NOTE]
+> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app that covers case management using a desktop browser, see [User Guide (Customer Service)](user-guide-customer-service.md). For information on Dynamics 365 basics, [see the Basics Guide](../basics/basics-guide.md).
+
 To know about how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
 
   
