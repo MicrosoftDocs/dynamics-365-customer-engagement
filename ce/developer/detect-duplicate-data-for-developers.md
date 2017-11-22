@@ -2,7 +2,7 @@
 title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Overview of the duplicate detection capabilities, including detection policies and duplicate detection rules for entity types."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/22/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -46,7 +46,7 @@ Duplicate detection lets organizations set duplicate detection policies and crea
  [DuplicateRecord Entity](entities/duplicaterecord.md)<br />
   
 ## Related Sections  
- [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)<br />  
+ [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
  [Delete data in bulk](delete-data-bulk.md)
 
 ## See Also
