@@ -1,0 +1,50 @@
+﻿Time Capture Concept App
+Expense Capture Concept App
+Work Assignments Concept App
+Privacy Statement
+Last updated: December 2015
+This privacy statement governs the Time Capture Concept App, Expense Capture Concept App and 
+Work Assignments Concept App (the "App"). It does not apply to other online or offline Microsoft sites, 
+products, or services. Other privacy policies may also apply to information you process through the 
+App, such as the policy of the organization through which you access Microsoft services. 
+Collecting and Processing Your Information On Behalf of Our Customer
+The App enables you to access your Microsoft Dynamics CRM instance from your tablet and phone 
+device. In order to provide this service, the App processes and stores information, such as your 
+credentials and the data you process in Microsoft Dynamics CRM. The App is provided for use only by 
+end users of Microsoft customers who are authorized users of Microsoft Dynamics CRM. The App 
+processes your information on behalf of the applicable Microsoft customer, and we may disclose 
+information processed by the App at the direction of the organization that provides you access to 
+Microsoft Dynamics CRM. Microsoft does not use information you process via the App for any other 
+purpose.
+The App may collect data about the use and performance of the App (e.g., how often it is opened, what 
+functions are used, errors encountered), which may be analyzed for purposes of improving the quality, 
+security, and integrity of this and other Microsoft apps, products, or services.  This information is not 
+used to identify, contact, or target advertising to you.
+If you use the App to connect to Microsoft Dynamics CRM online, by installing the App, you consent the 
+transmission of your organization's or end user's id, or device id to Microsoft for purposes of enabling 
+connections across multiple devices, or improving Microsoft Dynamics CRM online or the App.
+The App may include links to other Microsoft services and third party services whose privacy and 
+security practices may differ from those of Microsoft Dynamics CRM.  IF YOU SUBMIT DATA TO OTHER 
+MICROSOFT SERVICES OR THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE 
+PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics CRM is 
+not covered by your Microsoft Dynamics CRM agreement(s) or the Microsoft Dynamics CRM Online 
+Trust Center. We encourage you to review these other privacy statements.
+How to Contact Us
+Microsoft welcomes your comments. If you have questions about Microsoft's privacy and security 
+commitments, or if you have other technical or customer support questions, please contact Microsoft at 
+http://support.microsoft.com/contactus/.
+Microsoft Dynamics CRM Privacy Managers
+Microsoft Corporation
+One Microsoft Way
+Redmond, Washington, 98052-6399 USA
+Microsoft Ireland Operations Limited is our data protection representative for the European Economic 
+Area and Switzerland. The data protection officer of Microsoft Ireland Operations Limited can be 
+reached at the following address: 
+Microsoft Ireland Operations, Ltd.
+Attn: Data Protection
+Carmenhall Road 
+Sandyford, Dublin 18, Ireland
+Changes
+If we post changes to this statement, we will revise the "last updated" data at the top of the statement. 
+Consult with the organization that provides you access to their services to learn more about changes to 
+the privacy practices.
