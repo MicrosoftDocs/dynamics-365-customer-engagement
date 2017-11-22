@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
   
-[//]: # (In the graphic it seems to be singular "Solution," and that's not really the name of the window since it's concatenated with the solution name. Shall we just go with "solution window"? Conversely, the toolbar doesn't have an "Actions" label.)
+[//]: # (In the graphic it seems to be singular "Solution," and that's not really the name of the window since it's concatenated with the solution name. Shall we just go with "solution window"? Also, in the build I'm looking at, the toolbar doesn't seem to have an "Actions" label. There's an "Actions" menu, so it seems misleading to mention "Actions" at all. Another general note: you don't have to document every way to perform an action, just the most straightforward way.)
 Open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
 
 ## Prerequisites
@@ -36,22 +36,17 @@ Verify the following prerequisites before you start creating an app:
   
 <a name="createApp"></a>   
 ## Create an app  
-[//]: # (In the text about Unified Interface, please verify the Dynamics 365 tokens I added.
- Select the client type that the app will be used for.  
-  
-        - **Web**: This is the classic Dynamics 365 web browser client.  
-  
-        - **Unified Interface**: This is the new Dynamics 365 web browser client that has a similar interface across PC and mobile devices. )
+[//]: # (In the text about Unified Interface, please verify the Dynamics 365 tokens I added.)
 
 1.  Go to **Settings** > **My Apps**, and then select **Create New App**. The app designer opens in a new browser tab.  
 
-    ![Open app designer](../customize/media/app-designer-settings-apps.png "Open app designer")
+    ![Open app designer](../customize/media/app-designer-settings-apps.png "Open the app designer")
   
      or  
   
      Go to **Settings** > **Customizations** > **Customize the System**. In the **Solution** window, select **Apps**, and then select **New** on the toolbar.  
 
-     ![Create an app through sloutions window](../customize/media/app-designer-customize-system-settings.png "Create an app through the Solutions window")
+     ![Create an app through sloutions window](../customize/media/app-designer-customize-system-settings.png "Create an app through the solution window")
   
 2. On the **Create a New App** page, enter the following details:  
   
@@ -81,7 +76,7 @@ Verify the following prerequisites before you start creating an app:
      > [!NOTE]
      >  If you clear the **App URL Suffix** field and then save the app, the app URL will be automatically generated with the app ID.  
   
-    - **Use existing solution to create the App**: Select this option to create the app from a list of installed solutions. When you select this option, **Done** switches to **Next** on the header. If you select **Next**, you go to the **Create app from existing solution** page. From the **Select Solution** drop-down list, select a solution from which you want to create the app. If any site map is available for the selected solution, the **Select Sitemap** drop-down list will appear. Select the site map, and then select **Done**.
+    - **Use existing solution to create the App**: Select this option to create the app from a list of installed solutions. When you select this option, **Done** switches to **Next** on the header. If you select **Next**, the **Create app from existing solution** page opens. From the **Select Solution** drop-down list, select a solution from which you want to create the app. If any site map is available for the selected solution, the **Select Sitemap** drop-down list will appear. Select the site map, and then select **Done**.
 
      > [!NOTE]
      > By selecting **Default Solution** when you add a site map, the components that are associated with that site map are automatically added to the app.  
