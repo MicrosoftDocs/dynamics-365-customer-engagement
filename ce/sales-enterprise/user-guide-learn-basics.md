@@ -17,8 +17,6 @@ topic-status: Drafting
 
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Start here to onboard quickly and learn about the Sales app and its user interface.
 
 ## Go to the Sales app

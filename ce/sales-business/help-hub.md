@@ -44,7 +44,7 @@ topic-status: Drafting
 </td></tr>
 
 <tr><td>
-<h2>Increase sales with Dynamics 365 for Sales</h2>
+<h2>Increase sales</h2>
 <li>[Gain insights with dashboards](gain-insights-dashboards.md)</li>
 <li>[Manage your customers](create-accounts-contacts-customers.md)</li>
 <li>[Manage tasks, appointments, email, or phone calls](create-manage-activities.md)</li>
@@ -57,7 +57,7 @@ topic-status: Drafting
 
 </td><td>
 
-<h2>Improve productivity and collaboration</h2>
+<h2>Improve productivity</h2>
 <li>[Manage your SharePoint documents](create-manage-documents.md)</li>
 <li>[Make calls or send instant messages](make-calls-send-instant-messages.md)</li>
 <li>[Use document templates](use-document-templates-create-standardized-documents.md)</li>

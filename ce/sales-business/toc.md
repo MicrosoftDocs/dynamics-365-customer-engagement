@@ -1,4 +1,4 @@
-# [Dynamics 265 for Sales](help-hub.md) 
+# [Dynamics 365 for Sales](help-hub.md) 
 ## [Overview](overview-dynamics-365-for-sales.md)
 
 ## [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
@@ -19,7 +19,7 @@
 ### [Enable duplicate detection](enable-duplicate-detection.md) 
 ### [Manage sample data](manage-sample-data.md)
 
-## [User Guide](user-s-guide-dynamics-365-sales.md)
+## [User Guide](user-guide-dynamics-365-sales.md)
 ### [Learn the basics](learn-basics.md)
 ### [Assign a record to a user or team](assign-record-user-team.md)
 ### [Gain insights with dashboards](gain-insights-dashboards.md)

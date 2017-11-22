@@ -1,5 +1,5 @@
 ---
-title: "User's guide for Dynamics 365 for Sales | Microsoft Docs"
+title: "User guide for Dynamics 365 for Sales | Microsoft Docs"
 description: "Learn how to ramp up quickly on Dynamics 365 for Sales."
 keywords: "ramp up, user guide"
 ms.date: 08/09/2017
@@ -19,7 +19,8 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] simplifies the lead-to-cash process so businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management.   
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] simplifies the lead-to-cash process so businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management. 
+
   
 ## Get started  
  [Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md) 
