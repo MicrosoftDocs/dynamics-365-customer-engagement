@@ -22,61 +22,63 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Site maps define the navigation for your app. Create a site map for your app with ease by using the tile-based site map designer. The new designer lets you drag and drop components into the designer, preview your work, and instantly publish the site map. Administrators and any user with the required privileges can quickly create site maps for apps.  
+Site maps define the navigation for your app. Create a site map for your app with ease by using the tile-based site map designer. Use the new designer to drag components onto the design canvas, preview your work, and instantly publish the site map. Administrators and any user with the required privileges can quickly create site maps for apps.  
   
- The site map designer also lets you define the area, subarea, or group titles in the languages supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+The site map designer also lets you define the area, subarea, or group titles in the languages supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
- By default, a site map for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] - custom app is already available. You can edit this site map or configure site maps for new apps by using the site map designer.  The site map designer is integrated with the app designer.  
+[//]: # (@Uday, please check that the token works here. It was approved during the review cycle for the Tokenizer, but never was created on GitHub. Today -- Nov. 20 -- I created the file and submitted a pull request.)
+By default, a site map for the [!include[](../includes/pn-custom-app-module.md)] app is already available. You can edit this site map or configure site maps for new apps by using the site map designer. The site map designer is integrated with the app designer.  
 
- ## Prerequisites
-Verify the following prerequisites befor you start creating the site map:
-[!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] Specifically, any user with the following privileges can also create  apps:  
+## Prerequisites
+Verify the following prerequisites before you start creating the site map:
+[!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] Specifically, any user with the following privileges can also create apps:  
 -   Create, Read, and Write privileges for the App entity  
 -   Read and Write privileges for the Customizations entity  
 -   Read privileges for the Solution entity
   
 ## Create a site map for a custom app  
   
-1. On the app designer canvas, in the **Site Map** area, select the **Open the Site Map Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button").  
+1. On the app designer canvas, in the **Site Map** area, select **Open the Site Map Designer** ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button").  
   
-     The site map designer opens a canvas that is pre-populated with one area, one group, and one subarea. Select the area, group, or subarea tile to change its properties.  
+     The site map designer opens a canvas that is prepopulated with one area, one group, and one subarea. Select the area, group, or subarea tile to change its properties.  
   
     > [!NOTE]
-    >  Selecting the **Open the Site Map Designer** button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") from the app designer canvas automatically creates a new site map (if there's no existing site map) with the same name as the app name and with same unique name as the app unique name. 
+    >  Selecting **Open the Site Map Designer** ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") from the app designer canvas automatically creates a new site map (if there's no existing site map), and gives the new site map the same name as the app name and the same unique name as the app unique name. 
 
-   ![Select site map](../customize/media/app-designer-sitemap-location.png "Select site map") 
+   ![Select site map](../customize/media/app-designer-sitemap-location.png "Select a site map") 
   
-2.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea)  
+2.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea).  
   
-3.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup)  
+3.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup).  
   
-4.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea)  
+4.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea).  
   
 5.  Select **Save**.  
   
     > [!NOTE]
-    >  The new site map is associated with the app when you go back to the app designer and select **Save**. When a site  map is configured, the site map tile shows "Configured." Otherwise it shows "Not Configured."  If you open the site map designer from the app designer and configure a new site map,  but close the browser before associating the site map to the app, the site map will be automatically associated with the app the next time you open the app designer, based on the app unique name.  
+    >  The new site map is associated with the app when you go back to the app designer and select **Save**. When a site map is configured, **Configured** appears on the site map tile; otherwise **Not Configured** appears on the tile.  If you open the site map designer from the app designer and configure a new site map, but close the browser before associating the site map with the app, the site map will be automatically associated with the app the next time you open the app designer, based on the app unique name.  
   
 6.  Select **Publish**.  
   
-## Edit the default site map (Dynamics 365 - custom app)  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] comes with a default site map for the Dynamics 365 - custom app. This site map is supported for both the web application and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+## Edit the default site map (Dynamics 365 - custom app) 
+
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] comes with a default site map for the [!include[](../includes/pn-custom-app-module.md)] app. This site map is supported for both the web app and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
-1. In the Dynamics 365 - custom app, go to **Settings** > **Customization**.  
+1. In the [!include[](../includes/pn-custom-app-module.md)] app, go to **Settings** > **Customizations**.  
   
 2. Select **Customize the System**.  
   
-3.  In the Solution Explorer, under Components, select **Clients Extensions**.  
+3.  In the solution window, under **Components**, select **Client Extensions**.  
   
-4.  Double-click the site map that has the display name "Site Map" and state "Managed." You can also select the site map, and then on the Action toolbar, select **Edit**.  
+4.  Double-click to select the site map that has the display name **Site Map** and is in a **Managed** state. You can also select the site map, and then on the toolbar, select **Edit**.  
   
      The site map opens in the site map designer.  
   
-5.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea)  
+5.  [Add an area to the site map](../customize/create-site-map-app.md#bkmk_AddArea).  
   
-6.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup)  
+6.  [Add a group to the site map](../customize/create-site-map-app.md#bkmk_AddGroup).  
   
-7.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea)  
+7.  [Add a subarea to a group in the site map](../customize/create-site-map-app.md#bkmk_AddSubarea).  
   
 8. Select **Save**.  
   
@@ -85,114 +87,114 @@ Verify the following prerequisites befor you start creating the site map:
 <a name="bkmk_AddArea"></a>   
 ## Add an area to the site map  
   
-1.  Select the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the site map designer canvas, and then select **Area**.  
+1.  Select **Add** ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the site map designer canvas, and then select **Area**.  
   
-     -OR-  
+     or  
   
-     On the **Components** tab, drag and drop the Area tile to the empty box on the canvas. You'll see the empty box when you move the tile to the correct place on the canvas.  
+     From the **Components** tab, drag the **Area** tile to the empty box on the canvas. You'll see the empty box when you move the tile to the correct place on the canvas.  
   
-2.  Select the area you just added. You will see the **Properties** tab highlighted in the right pane.  
+2.  Select the area you just added. You'll see the **Properties** tab highlighted in the pane to the right of the canvas.  
   
-3.  Add or edit the area properties:  
+3.  Add or edit the area properties.  
   
-     Under **General**:  
+     Under **General**, do the following:  
   
-    - **Title**. Enter the title for the area in the base language of the organization.  
+    - **Title**: Enter the title for the area in the base language of the organization.  
   
-    - **Icon**. A default application icon is selected. Select a different icon for the area from the list of web resources available in the solution.  
+    - **Icon**: A default application icon is selected. Select a different icon for the area from the list of web resources available in the solution.  
   
-    - **ID**. A unique ID is automatically generated, but you can enter a different one if you want. We recommend that you use the provided ID because if the ID you enter is not unique, users may get an error when they are using the app or you may get  an error when you are importing a solution that contains this site map.  
+    - **ID**: A unique ID is automatically generated, but you can enter a different one if you want. We recommend that you use the provided ID because if the ID you enter is not unique, users might get an error when they're using the app, or you might get an error when you import a solution that contains this site map.  
   
-    - **Show Groups**. Select this check box to show groups of subareas in the navigation pane.  
+    - **Show Groups**: Select this check box to show groups of subareas in the navigation pane.  
   
-     Under **Advanced**:  
+     Under **Advanced**, do the following:  
   
-    - **More Titles**. If your organization uses multiple languages, select a language (Locale) for the title, enter the title, and then select the **Add** button ![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete titles for as many languages as your organization uses. However, you can have only one title per language.  
+    - **More Titles**: If your organization uses multiple languages, select a language (Locale) for the title, enter the title, and then select **Add**![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete titles for as many languages as your organization uses. However, you can have only one title per language.  
   
-    - **More Description**. If your organization uses multiple languages, select a language for the description, enter the description, and then select the **Add** button ![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete descriptions for as many languages as your organization uses.  However, you can have only one description per language.  
+    - **More Description**: If your organization uses multiple languages, select a language for the description, enter the description, and then select **Add**![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete descriptions for as many languages as your organization uses. However, you can have only one description per language.  
   
-    - **URL**.   Enter the URL to render for the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] folder that represents the area.  
+    - **URL**: Enter the URL to render for the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] folder that represents the area.  
   
 <a name="bkmk_AddGroup"></a>   
 ## Add a group to the site map  
   
 1.  On the site map designer canvas, select the area you want to add the group to.  
   
-2.  Select the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and then select **Group**.  
+2.  Select **Add**![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and then select **Group**.  
   
-     -OR-  
+     or  
   
-     On the **Components** tab, drag and drop the Group tile to an empty box under the Area in the canvas. You'll see the empty box when you move the tile to the correct place in the canvas.  
+     From the **Components** tab, drag the **Group** tile to an empty box under the **Area** in the canvas. You'll see the empty box when you move the tile to the correct place in the canvas.  
   
 3.  Select the group you just added.  
   
 4.  On the **Properties** tab, add or edit the group properties:  
   
-     Under **General**:  
+     Under **General**, do the following:  
   
-    - **Title**. Enter the title for the group in the base language of the organization.  
+    - **Title**: Enter the title for the group in the base language of the organization.  
   
-    - **ID**. A unique ID is automatically generated. Enter a different one if required. We recommend using the automatic ID because if the ID you enter is not unique, you may get an error when you are importing a solution containing this site map.  
+    - **ID**: A unique ID is automatically generated. Enter a different one if required. We recommend using the automatic ID because if the ID you enter is not unique, you might get an error when you import a solution containing this site map.  
   
-     Under **Advanced**:  
+     Under **Advanced**, do the following:  
   
-    - **More Titles**. If your organization uses multiple languages, select a language (Locale) for the title, enter the title for the group, and then select the **Add** button ![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete titles for as many languages as your organization uses.  However, you can have only one title per language.  
+    - **More Titles**: If your organization uses multiple languages, select a language (Locale) for the title, enter the title for the group, and then select **Add**![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete titles for as many languages as your organization uses. However, you can have only one title per language.  
   
-    - **More Descriptions**. If your organization uses multiple languages, select a language for the description, enter the description for the group, and then select the **Add** button ![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete descriptions for as many languages as your organization uses.  However, you can have only one description per language.  
+    - **More Descriptions**: If your organization uses multiple languages, select a language for the description, enter the description for the group, and then select **Add** ![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete descriptions for as many languages as your organization uses. However, you can have only one description per language.  
   
-    - **URL**.   Enter the URL to render for the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] folder that represents the group.  
+    - **URL**: Enter the URL to render for the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] folder that represents the group.  
   
-    - **Set as Profile**. Select this check box to indicate whether this group represents a user-selectable Profile for the Workplace. The group set as a user-selectable profile is made available as options in your personal options. This only applies for groups within the Workplace area.  
+    - **Set as Profile**: Select this check box to indicate whether this group represents a user-selectable profile for the workplace. The group set as a user-selectable profile is made available as options in your personal options. This only applies for groups within the **Workplace** area.  
   
 <a name="bkmk_AddSubarea"></a>   
 ## Add a subarea to a group in the site map  
   
-1.  Select the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the site map designer canvas, and then select **Subarea**.  
+1.  Select **Add**![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the site map designer canvas, and then select **Subarea**.  
   
-     -OR-  
+     or  
   
-     On the **Components** tab, drag and drop the Subarea tile to an empty box under the Group section in the canvas. You'll see the empty box when you move the tile to the correct place in the canvas.  
+     From the **Components** tab, drag the **Subarea** tile to an empty box under the **Group** section in the canvas. You'll see the empty box when you move the tile to the correct place in the canvas.  
   
-2.  Select the subarea  you just added.  
+2.  Select the subarea you just added.  
   
 3.  On the **Properties** tab, add or edit the subarea properties:  
   
-     Under **General**:  
+     Under **General**, do the following:  
   
-    - **Type**. Select whether the subarea you are adding is a dashboard, entity, web resource, or a URL.  
+    - **Type**: Select whether the subarea you are adding is a dashboard, entity, web resource, or URL.  
   
-    - **Entity**. Select the entity that the subarea is for.  This field is disabled if the subarea  type is other than **Entity** in  the **Type** drop-down list.  
+    - **Entity**: Select the entity that the subarea is for. This field is disabled if the subarea type is other than **Entity** in the **Type** drop-down list.  
   
-    - **URL**.   Specify a URL for the main page of the application to show when this subarea is selected. This field is disabled if you've selected **Entity** in  the **Type** drop-down list.  
+    - **URL**: Specify a URL for the main page of the application to show when this subarea is selected. This field is disabled if you've selected **Entity** in the **Type** drop-down list.  
   
-    - **Default Dashboard**. Select the default dashboard to be displayed for this subarea. This field is disabled if you haven't selected **Dashboard**  in the **Type** drop-down list.  
+    - **Default Dashboard**: Select the default dashboard to be displayed for this subarea. This field is disabled if you haven't selected **Dashboard** in the **Type** drop-down list.  
   
-    - **Title**. Enter the title for the subarea in the base language of the organization.  
+    - **Title**: Enter the title for the subarea in the base language of the organization.  
   
-    - **Icon**. A default application icon is selected. Select a different icon for the subarea from the list of web resources available in the solution.  
+    - **Icon**: A default application icon is selected. Select a different icon for the subarea from the list of web resources available in the solution.  
   
     - **ID**. A unique ID is automatically generated. Enter a different unique ID if required.  
   
-    - **Parameter Passing**. Select this check box to pass information about the organization and language context to the URL. This check box is enabled only when the subarea type is a web resource or a URL-based subarea.  
+    - **Parameter Passing**. Select this check box to pass information about the organization and language context to the URL. This check box is checked only when the subarea type is a web resource or a URL-based subarea.  
   
-     Under **Advanced**:  
+     Under **Advanced**, do the following:  
   
-    - **Privileges**. This defines whether a subarea is displayed based on privileges available in any security roles that are assigned to the user. Select  the name of the entity to check privileges for. Then select the check boxes to assign privileges.  
+    - **Privileges**: This defines whether a subarea is displayed based on privileges available in any security roles that are assigned to the user. Select the name of the entity to check privileges for, and then select the check boxes to assign privileges.  
   
-    - **More Titles**. If your organization uses multiple languages, select a language for the title, enter the title for the subarea, and then select **Add**. You can create, edit, or delete titles for as many languages as your organization uses.  However, you can have only one title per language.  
+    - **More Titles**: If your organization uses multiple languages, select a language for the title, enter the title for the subarea, and then select **Add**. You can create, edit, or delete titles for as many languages as your organization uses. However, you can have only one title per language.  
   
-    - **More Descriptions**. If your organization uses multiple languages, select a language for the description, enter the description for the subarea, and then select **Add**. You can create, edit, or delete descriptions for as many languages as your organization uses.  However, you can have only one description per language.  
+    - **More Descriptions**: If your organization uses multiple languages, select a language for the description, enter the description for the subarea, and then select **Add**. You can create, edit, or delete descriptions for as many languages as your organization uses. However, you can have only one description per language.  
   
-    - **SKUs**. Select the versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that display this subarea.  
+    - **SKUs**: Select the versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that display this subarea.  
   
-    - **Client**. Select the type of client that displays this subarea.  
+    - **Client**: Select the type of client that displays this subarea.  
   
-    - **Outlook Shortcut**. Select the icon to display in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+    - **Outlook Shortcut**: Select the icon to display in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
-    - **Offline Availability**. Select this check box to make this subarea available to users when they are offline in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+    - **Offline Availability**: Select this check box to make this subarea available to users when they are offline in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
 ## Organize areas, groups, and subareas  
- You can organize your areas, groups, and subareas by dragging and dropping them in new positions. A container box appears where you can drop the tiles. Here are some things you can do:  
+ You can organize your areas, groups, and subareas by dragging them to new positions. A container box appears where you can drop the tiles. Here are some things you can do:  
   
 -   Move a subarea to a new position within the same group or a different group under the same area.  
   
@@ -205,21 +207,21 @@ Verify the following prerequisites befor you start creating the site map:
 -   Move an area to a new position.  
   
 ## Clone a component in a site map  
- To make a copy of an existing component, select the component, and then on the Action toolbar, select **Clone**.  All details of the cloned component are same as the base component except the ID and Title. The ID is generated randomly.  
+ To make a copy of an existing component, select the component, and then on the toolbar, select **Clone**.  All details of the cloned component are same as the base component except the ID and title. The ID is generated randomly. 
   
- When you clone an area, the cloned area is added to the right of the currently selected area.   When you clone a group, the cloned group is added to the right of the currently selected group.   When you clone a subarea, the cloned subarea is added below the currently selected subarea.  
+ When you clone an area, the cloned area is added to the right of the currently selected area. When you clone a group, the cloned group is added to the right of the currently selected group. When you clone a subarea, the cloned subarea is added below the currently selected subarea.  
   
 ## Delete an area, group, or subarea from a site map  
- To delete a site map component, select the component tile, and then on the Action bar, select **Delete**. When you delete an area, all groups and subareas in the area are also deleted. Similarly, when you delete a group, the group and subareas in it are deleted.  
+ To delete a site map component, select the component tile, and then on the toolbar, select **Delete**. When you delete an area, all groups and subareas in the area are also deleted. Similarly, when you delete a group, the group and subareas in it are deleted.  
   
 ## Clients supported  
  The following table explains the clients supported for different site maps.  
   
 |Site Maps|Supported Clients|  
 |---------------|-----------------------|  
-|Site map for the Dynamics 365 - custom app|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]|  
-|Default business apps (Sales, Sales Hub, Customer Service, Customer Service Hub, Field Service, Project Service Automation)|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and and Unified Interface|  
-|New apps|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and Unified Interface|  
+|Site map for the [!include[](../includes/pn-custom-app-module.md)] app|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]|  
+|Default business apps (Sales, Sales Hub, Customer Service, Customer Service Hub, Field Service, Project Service Automation)|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app and Unified Interface|  
+|New apps|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app and Unified Interface|  
   
 ### See also  
  [Create or edit an app](../customize/create-edit-app.md)   
