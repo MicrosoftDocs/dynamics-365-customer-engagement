@@ -1,15 +1,19 @@
 ---
 title: "Connect Dynamics 365 and Social Engagement | Microsoft Docs"
 description: "Learn how to connect Social Engagement and Dynamics 365 to link social posts and create new cases or leads."
-ms.date: 09/12/2017
+keywords: "connections, social engagement, dynamics 365, edit, delete"
+ms.date: 11/22/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 329b1b1d-3b8c-4d97-a67d-eeb176d835bc
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Manage the connection between Dynamics 365 and Social Engagement
 This topic helps you understand how you change the settings for your connections between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and the consequences of doing so.  
   
@@ -73,7 +77,7 @@ This topic helps you understand how you change the settings for your connections
   
 -   If you maintain one single connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you can delete it but you won’t be able to link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
--   If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics Dynamics 365 (online) and Social Engagement](connect-dynamics-365-social-engagement.md#ConnectCRM)  
+-   If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics Dynamics 365 (online) and Social Engagement](connect-dynamics-365-social-engagement.md)  
   
 -   No new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records can be created in the deleted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, unless a connection is re-established.  
   
