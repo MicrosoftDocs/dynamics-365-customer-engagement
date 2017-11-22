@@ -36,6 +36,17 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
   ![Tile for Dynamics 365 for Sales, Unified Interface](media/sales_tile_unified_interface.png "Tile for Dynamics 365 for Sales, Unified Interface")
 
 
+## Understand the sitemap navigation
+  
+-  In the Sales app, select the Site Map icon ![Icon for Site Map](media/Site-map-icon.png "Icon for Site Map"), and then select an entity.  
+
+   When you select an entity, for example, Lead or Opportunity, you’ll see the list of records in the respective entity grid. You can also select the down-arrow given next to each entity to view the recently opened records.
+
+-  Select the Site Map icon ![Icon for Site Map](media/Site-map-icon.png "Icon for Site Map"), and then select **Training** to go to **Help Center** and the **Learning Path Content Library**. 
+
+-  Select the Site Map icon ![Icon for Site Map](media/Site-map-icon.png "Icon for Site Map"), and then select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
+
+
 ## Understand the data in the app
 
 Every day, you’ll work with different customer records and record types as you move customers through your business processes, collecting the data you need to fill in the fields for their records—and ultimately to win their business.
@@ -44,15 +55,17 @@ Every day, you’ll work with different customer records and record types as you
 
 -   What’s a record type? Each record you add to the system belongs to a certain **record type**, such as an account, contact, lead, or opportunity.
 
+
 ## Quick create – Enter new records fast
 
 The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the navigation bar (also referred to as the nav bar), so it’s always available whenever you need to enter new info into the system.
 
 With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1.  On the nav bar, select the plus sign ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
+1.  On the nav bar, select the **New** button ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
 
 2.  Fill in the fields, and then select **Save**.
+
 
 ## Business processes in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 

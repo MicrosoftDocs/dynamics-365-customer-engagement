@@ -55,6 +55,9 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 
 With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1.  On the nav bar, select the plus sign ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
+1.  On the nav bar, select the the **New** button ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
+
+  > [!TIP]
+  > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
 
 2.  Fill in the fields, and then select **Save**.
