@@ -2,7 +2,7 @@
 title: "Link posts from Social Engagement to Dynamics 365 | Microsoft Docs"
 description: "Learn how to link social posts to Dynamics 365 and create new case or lead records."
 keywords: "link to crm, link to customer engagement"
-ms.date: 10/17/2017
+ms.date: 11/22/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -15,21 +15,34 @@ topic-status: Drafting
 ---
 
 # Link posts from Social Engagement to Dynamics 365
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides a platform for capturing public posts from social media. Based on the social activity in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] with [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] enabled, the social post gets linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that is defined by the rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. As an admin, you can connect one or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and then define or customize the data structure of the linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record and display it within record details that are associated with a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post. When you send a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance, a social activity is created in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The rule framework in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] can automatically turn these social activities into other types of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records, for example into a lead, an opportunity, or a case. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides a platform for capturing public posts from social media. You link posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and have it turned into new record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+
+When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance, a Social Activity is created in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] can turn these social activities into other types of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records, for example into a lead, an opportunity, or a case.
   
 ## Steps for linking posts from Social Engagement to Dynamics 365  
+
+
+[comment]: <> (All more info links: map to right section)
+
+
+1.  First, set up the feature to link social posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance as social activities. As a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the connection between Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)  
   
-1.  Learn how you can set up the feature to link social posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance in your organization as social activities. As a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Administrator, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the connection between Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)  
+2.  Next, you can define the attributes for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities that you want to display in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
-2.  Next, you can define the attributes for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities that you want to display in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+3.  As a system administrator or customizer in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can configure rules to handle newly-created social activities using the **Automatic Record Creation and Update Rules** feature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
   
-3.  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], as a system administrator or customizer, you can configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to handle newly-created social activities using the record creation and update rules feature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+4.  When everything is set up, your users can start to link social posts to create or update [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
-4.  When everything is set up, your users can start to send social posts from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to create or update [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+5.  Optionally, you can configure automation rules in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to create new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records for posts that match a specified data set.   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
   
-5.  Optionally, configure automation rules in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to create new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records for posts that match a given set of filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
-  
-6.  Understand how to delete or disable a connection between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and how this may affect existing linkages or linking social posts to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the connection between Dynamics 365 and Social Engagement](manage-connection-dynamics-365-social-engagement.md)  
+6.  Understand how to delete or disable a connection between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and how this may affect existing linkages or linking newly acquired social posts.   
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the connection between Dynamics 365 and Social Engagement](manage-connection-dynamics-365-social-engagement.md)  
   
 ### Privacy Notice  
  [!INCLUDE[cc_privacy_mse_post_and_automation_rules](../includes/cc-privacy-mse-post-and-automation-rules.md)]  
