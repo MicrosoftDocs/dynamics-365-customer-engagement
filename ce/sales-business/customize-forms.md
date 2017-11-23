@@ -48,7 +48,7 @@ When you publish a customized form, you are publishing an updated version of the
 - To open a form, choose the form you want in the **Name** column, or select a form, and then click **Edit** above the search field.
 If you select more than one form, the **Edit** link is not displayed.
 
-ART3 GOES HERE
+![List of forms](media/form-cust-3.png "List of forms")
 
  The sections of the form are displayed on the left side of the designer with tabs that contain additional information about the form. The available tabs depend on the form. For example, the Account form has a **Summary** tab and a **Details** tab. The Opportunity form has a **Product Line** tab but no **Details** tab. Each tab includes different parts of the form .
 
@@ -60,31 +60,31 @@ ART3 GOES HERE
 
 Use the **Components** tab to add or modify fields. 
 
-ART4 GOES HERE
+![List of forms](media/form-cust-4.png "List of forms")
 
 ## Existing fields
 
 When you click **Existing Fields**, the fields associated with the entity for the form are displayed. If you add a new field that was not included with the app, it becomes a custom field.
 
-ART5 GOES HERE
+![List of forms](media/form-cust-5.png "List of forms")
 
 ## New fields
 
 When you click **New Fields**, you can select from the different field types available for your field.
 
-ART6 GOES HERE
+![List of forms](media/form-cust-6.png "List of forms")
 
 ## Properties tab
 
 The **Properties** tab shows the properties for the section of the form or field you select. When you select a section or field on a form, the **Properties** tab automatically opens. If you select a section that is not available for customization, the **Properties** tab will not display anything, and you cannot click it to display properties.
 
-ART7 GOES HERE
+![List of forms](media/form-cust-7.png "List of forms")
 
 ## Search for a field
 
 You can use the **Search** box on the **Components** tab to search for a field by name. Just type all or part of the name and then press Enter. The list of fields displayed automatically updates the list of fields to include only those that match your search text. For example, if you want to find fields related to email, type “email” (without quotation marks) in the **Search** box. The list of fields updates to show only fields that include “email” in the name.
 
-ART8 GOES HERE
+![List of forms](media/form-cust-8.png "List of forms")
 
 ## Filter the list of displayed fields
 
@@ -92,11 +92,11 @@ You can also filter which fields are displayed on the **Components** tab. When y
 
 To filter the list of fields displayed, select either **All Fields** or **Custom Fields** in the **Filter** drop-down.
 
-ART9 GOES HERE
+![List of forms](media/form-cust-9.png "List of forms")
 
 To show only the fields that are not already used on the form, select the **Only Show unused fields** checkbox.
 
-ART10 GOES HERE
+![List of forms](media/form-cust-10.png "List of forms")
 
 ## Customize the header for a form
 
@@ -110,7 +110,7 @@ You can rearrange the fields between columns by dragging the field from one colu
 
 To customize the fields used in the header, click the **Show header fields** arrow.
 
-ART11 GOES HERE
+![List of forms](media/form-cust-11.png "List of forms")
 
 If you want to replace a field used in the header, you need to first remove one of the fields. Dragging a field from the **Components** tab over an existing field does not allow you to replace the existing field.
 
@@ -147,15 +147,15 @@ You can rearrange the fields on a form so they’re displayed in a different ord
 
 To remove a field from a form, select the field in the designer and then click Remove at the top of the designer.
 
-ART12 GOES HERE
+![List of forms](media/form-cust-12.png "List of forms")
 
 Note that you can’t remove locked fields (indicated by a red padlock icon next to the field name). A red asterisk next to the label indicates the field is set to **Business Required**.
 
-ART13 GOES HERE
+![List of forms](media/form-cust-13.png "List of forms")
 
 When you attempt to remove a locked field, you will see the following error message:
 
-ART14 GOES HERE
+![List of forms](media/form-cust-14.png "List of forms")
 
 When a field is removed from a form, it is moved to the list of unused fields on the **Components** tab.
 
@@ -165,23 +165,23 @@ You can edit the properties for any field on the form. To change the properties 
 
 After you make your changes, click **Apply** to apply the changes. You may have to scroll down to see the **Apply** button when using lower screen resolutions.
 
-ART15 GOES HERE
+![List of forms](media/form-cust-15.png "List of forms")
 
 ## Change the label of a field
 
 To change a field label, click the field, and then click the **Edit** button. This is the same as changing the value for the label in the **Properties** tab.
 
-ART16 GOES HERE
+![List of forms](media/form-cust-16.png "List of forms")
 
 When you click the **Edit** button, the label is displayed in a text field where you can change it.
 
-ART17 GOES HERE
+![List of forms](media/form-cust-17.png "List of forms")
 
 ## Making fields optional or required
 
 You can specify that a field is optional, business recommended, or business required by setting the **Field Requirement** property. When a field is set to **Business Required**, a red asterisk is displayed next to the label on the form.
 
-ART18 GOES HERE
+![List of forms](media/form-cust-18.png "List of forms")
 
 Note that when you change this property, the metadata is updated for all forms that use that field.
 
@@ -191,7 +191,7 @@ You cannot remove fields set to **Business Required** from a form. You can chang
 
 When you’re finished customizing your form, or to save your progress, click **Save** or **Save and Close** in the upper-right corner of the designer. If the form you have open has not been changed since it was last saved, the **Save** button is disabled.
 
-ART19 GOES HERE
+![List of forms](media/form-cust-19.png "List of forms")
 
 Forms that contain errors will not be saved, and forms that are not saved cannot be published. You’ll need to correct any errors in the form before you can save and publish it. Errors are highlighted in red in the designer so that you can easily find them.
 
@@ -199,7 +199,7 @@ Forms that contain errors will not be saved, and forms that are not saved cannot
 
 After you save the changes to your form, you’ll need to publish it to make it available to users. To publish your form, click **Publish**.
 
-ART20 GOES HERE
+![List of forms](media/form-cust-20.png "List of forms")
 
 
 
