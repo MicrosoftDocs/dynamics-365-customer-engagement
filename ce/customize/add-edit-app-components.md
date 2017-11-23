@@ -103,13 +103,12 @@ The app designer refers to existing metadata in the default solution. You can us
     >  For all entities selected for the app, a **More Options** button (**...**) appears in the **Select Entities** list on the **Components** tab. To add all assets for the selected entity, select **More Options** (**...**), and then select **Add All Assets**.  
   
 2.  If you want your app users to use only selected forms, select the check boxes for the forms you want to add. The forms define how users will see and interact with data in the app. 
-[//]: # (@Uday, in the 3rd sentence of the "For example..." paragraph just below, is "users" the right word? Are we talking about users of the form or creators of the form?) 
-  
+ 
      The form tile of the selected entity will display the number of forms added.  
   
      ![Form tile for case entity](../customize/media/add-forms-entity.png "Form tile for case entity")  
   
-     For example, if you don't select any form for an entity, all the forms for that entity will be displayed to users while they use the app. This behavior is similar for views and charts also, if no view or chart is selected. This helps users create apps quickly when they need to work with all available components&mdash;there's no need to select each component during app design.  
+     For example, if you don't select any form for an entity, all the forms for that entity will be displayed to end users while they use the app. This behavior is similar for views and charts also, if no view or chart is selected. This helps to create apps quickly when you need to work with all available components; there's no need to select each component during app design.  
 
      If no dashboards or business process flows are selected, all the dashboards and business process flows will be available for users while they use the app.
   
@@ -148,7 +147,7 @@ The app designer refers to existing metadata in the default solution. You can us
 
     Another way to remove a dashboard or business process flow is by clearing the corresponding check box on the **Components** tab.
   
--   To edit or remove an entity, select the entity tile, and then on the command bar, select **Edit** or **Remove**. When you edit an entity, the solution explorer opens, where you can make changes to the entity.  
+- To edit or remove an entity, select the entity tile, and then on the command bar, select **Edit** or **Remove**. When you edit an entity, the solution explorer opens, where you can make changes to the entity.  
   
      Another way to remove a component is to select the dashboard, business process flow, or entity tile. On the **Components** tab, clear the check boxes for the artifacts you want to remove from the designer.  
   
