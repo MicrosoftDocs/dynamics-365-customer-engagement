@@ -37,11 +37,11 @@ When you publish a customized form, you are publishing an updated version of the
 
 - Open **Advanced Settings**, and then under **Customization**, choose **Forms**.
 
-ART1 GOES HERE
+![Customize forms in Advance settings](media/form-cust-1.png "Customize forms in Advance settings")
 
  The list of forms available to customize is displayed. The name of the form is Business for all entities. The page also displays the date on which the form was published, and whether the form is active or not.
 
-ART2 GOES HERE
+![List of forms](media/form-cust-2.png "List of forms")
 
 ## Open the form you want to customize
 
