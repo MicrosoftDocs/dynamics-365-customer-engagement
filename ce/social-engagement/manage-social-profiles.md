@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 11/15/2017
+ms.date: 11/23/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -152,6 +152,8 @@ Optionally, you can [share this social profile](#shareasocialprofile) with other
 
 
 ## Add a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] account to your social profiles
+
+To enable engagement actions on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)], the social profile needs to be a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] account which is [connected to a personal Google Account or a Brand Account](https://support.google.com/youtube/answer/4642409).
 
 1.  Go to **Settings** > **Social Profiles**.  
   
