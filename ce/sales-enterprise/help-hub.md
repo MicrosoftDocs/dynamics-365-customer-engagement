@@ -24,6 +24,7 @@ topic-status: Drafting
 <h2>Get started</h2>
 <li>[Dynamics 365 for Sales Overview](overview.md)</li>
 <li>[Learn the basics](user-guide-learn-basics.md)</li>
+<li>[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)</li>
 
 </td><td>
 
@@ -45,9 +46,6 @@ topic-status: Drafting
 <li>[Create or edit a quote](create-edit-quote-sales.md)</li>
 <li>[Create or edit an order ](create-edit-order-sales.md)</li>
 <li>[Create or edit an invoice](create-edit-invoice-sales.md)</li>
-<li>[Create or edit a goal](create-edit-goal-sales.md)</li>
-<li>[Create or edit a rollup query](create-edit-rollup-query-sales.md)</li>
-<li>[Create or edit a competitor record](create-edit-competitor-record-sales.md)</li>
 
 
 </td><td>
