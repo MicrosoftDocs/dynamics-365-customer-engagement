@@ -21,7 +21,7 @@ Microsoft is committed to making its products and services easier for everyone t
 Microsoft Dynamics 365 now supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.
 
 
-|To do this |Press|  
+|To do |Press|  
 |-------------|---------|  
 |Go to the next tab stop in the defined tab stop order. The tab order is from left to right and top to bottom.|	Tab|
 |Go to the previous tab in the tab order.|Shift + Tab|
