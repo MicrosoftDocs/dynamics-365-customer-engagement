@@ -18,12 +18,10 @@ topic-status: Completed
 
 # Customer Service Help & Training
 
-Use this help to learn the basics, or refine your skills with tutorials designed to inspire.
-
+Use this help to learn the basics of Customer Service, or build expertise with tutorials designed to inspire.
 
 > [!VIDEO https://www.youtube.com/embed/fzaEa0SPWRo]
 
- 
 </tr>
 <tr>
  <td><h2>Get started</h2>
@@ -61,15 +59,14 @@ Use this help to learn the basics, or refine your skills with tutorials designed
  </tr>
 </table>
 
-
 ## Tutorials
 
 </tr>
 <tr>
  <td><h4>Meet the Customer Service Hub</h4>
 
-  > [!VIDEO https://www.youtube.com/embed/PG1SBL74kuc] 
- </td>
+ > [!VIDEO https://www.youtube.com/embed/PG1SBL74kuc]
+   </td>
 
 </tr>
 <tr>
