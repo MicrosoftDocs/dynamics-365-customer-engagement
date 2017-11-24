@@ -95,10 +95,7 @@ The following known issues apply to the out-of-box templates and custom messages
 
 - **Missing footer** : Litmus screenshots sometimes fail to capture the entire message height
 - **Unable to scroll** : The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
-- **Litmus returns the message "There was error loading this message" or "We encountered a technical issue"** : This is usually just a communication error. Please try to reload the preview.
 - **The message is too high** : Sometimes Litmus renders extra content at the end of the email message.
-- **Some email clients can't be selected for the preview** : This is usually temporary and is due to Litmus updating their service. They should reappear in a few hours.
-- **Some previews aren't loading** : This is usually a problem with the Litmus server. Try to reload the page.
 - **Only half of the message is visible in the preview** : This can happen if Litmus takes a screenshot before the message is fully loaded. Try to reload the preview. If problems persist, then the message may include dynamic content that isn't resolved.
 
 ### See also
