@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Set up subscription lists and subscription centers
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
 All marketing email messages that you create by using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include a link to a subscription center, and they will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:

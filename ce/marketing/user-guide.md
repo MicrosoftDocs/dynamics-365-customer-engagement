@@ -18,4 +18,6 @@ topic-status: Drafting
 
 # User Guide (Marketing)
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The topics in this guide provide tutorials for how to accomplish the most common tasks in  [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Reference information is also provided to give you a better understanding of how to use all the features of the product.

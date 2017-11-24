@@ -18,4 +18,6 @@ topic-status: Drafting
 
 # Administrator Guide (Marketing)
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The topics in this guide explain how to set up, make configuration settings, manage users, and customize [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].

@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Track website visits, social media clicks, and banner clicks
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provides several ways to help you get to know your potential customers and to see how they interact with your various marketing initiatives. We've already mentioned that you can see when email recipients open a message or select a message link—and when new or existing contacts submit a form from a marketing page. You've also seen that these actions can affect lead scores and the way contacts flow through your customer journeys.
 
 In addition to these activities, you can also store information, view analytics, and score leads based on:
