@@ -18,17 +18,17 @@ topic-status: Drafting
 
 # Use a full [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] account with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. 
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more.
 
 You can choose to use a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created and managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] specifically for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you might instead choose to use your own, fully licensed account to gain access to more [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features. 
 
-It's easiest to use the limited [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created by the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. To do that, just follow the instructions given in [Purchase and first-time setup](purchase-setup.md) and ignore this topic. But to use your own full-featured account, follow the instructions provided here.
+It's easiest to use the limited [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created by the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. To do that, just follow the instructions given in [First-time setup](purchase-setup.md) and ignore this topic. But to use your own full-featured account, follow the instructions provided here.
 
 > [!IMPORTANT]  Your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 If you don't already have a fully licensed [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] account and would like to set one up while setting up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the setup wizard will help you by providing the required links.
 
-1. Start by running the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] setup wizard as described in [Purchase and first-time setup](purchase-setup.md). When you get to the page of the setup wizard called **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]**, follow the link back to this page.
+1. Start by running the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] setup wizard as described in [First-time setup](purchase-setup.md). When you get to the page of the setup wizard called **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]**, follow the link back to this page.
 
 1. On the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]** page of the wizard, choose **Use your own** from the drop-down list. The page updates to show more settings.  
     ![The Customer Insights page](media/fre-customer-insights-full.png "The Customer Insights page")
