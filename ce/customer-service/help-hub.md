@@ -20,44 +20,42 @@ topic-status: Completed
 
 Use this help to learn the basics, or refine your skills with tutorials designed to inspire.
 
+
 > [!VIDEO https://www.youtube.com/embed/fzaEa0SPWRo]
 
-## Key topics
  
 </tr>
 <tr>
  <td><h2>Get started</h2>
   <ul>
-  <li>[Explore Customer Service Hub and Customer Service]
-  </li>
-  <li>[Learn the basics]</li>
-  <li>[Navigate app on mobile devices]</li>
+  <li>[Explore Customer Service Hub and Customer Service](overview.md) </li>
+  <li>[Learn the basics](customer-service-hub-user-guide-basics.md)</li>
+  <li>[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
   </ul>
  </td>
 
  <td><h2>Set up</h2>
   <ul>
-  <li>[Service Manager]</li>
-  <li>[Dynamics 365 for phones and tablets]</li>
-  <li>[Customer Service Hub app from app store]</li>
-  </ul>
+  <li>[Service Manager](service-manager-guide.md)</li>
+  <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
+    </ul>
  </td>
 
  <td><h2>Manage</h2>
   <ul>
-  <li>[Create and manage cases]</li>
-  <li>[Work with dashboards]</li>
-  <li>[Create and manage knowledge articles]</li>
-  <li>[Find your assignments in a queue]</li>
-  <li>[Define parent child case settings]</li>
+  <li>[Create and manage cases](customer-service-hub-user-guide-case-sla.md)</li>
+  <li>[Work with dashboards](customer-service-hub-user-guide-dashboard.md)</li>
+  <li>[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)</li>
+  <li>[Find your assignments in a queue](user-guide-customer-service.md#find-whats-assigned-to-you-in-a-queue)</li>
+  <li>[Define parent child case settings](define-settings-parent-child-cases.md)</li>
   </ul>  
  </td>
 
  <td><h2>User guides</h2>
   <ul>
-  <li>[Customer Service Hub]</li>
-  <li>[Customer Service]</li>
-  <li>[Dynamics 365 for mobile devices]</li>
+  <li>[Customer Service Hub](user-guide-customer-service-hub.md)</li>
+  <li>[Customer Service](user-guide-customer-service.md)</li>
+  <li>[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
   </ul>
  </td>
  </tr>
@@ -85,3 +83,4 @@ Use this help to learn the basics, or refine your skills with tutorials designed
 
   > [!VIDEO https://www.youtube.com/embed/x36_Sn5u4Es] 
  </td>
+</tr>
