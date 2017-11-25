@@ -4,7 +4,7 @@ description: Your starting point for help of Customer Service for Dynamics 365
 keywords: Quick help for Customer Service; Customer Service Hub help
 ms.date: 12/18/2017
 ms.service: crm-online
-ms.topic: article
+ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -26,7 +26,7 @@ Use this help to learn the basics of Customer Service, or build expertise with t
 <tr>
  <td><h2>Get started</h2>
   <ul>
-  <li>[Explore Customer Service Hub and Customer Service](overview.md) </li>
+  <li>[Explore Customer Service Hub and Customer Service](overview.md)</li>
   <li>[Learn the basics](customer-service-hub-user-guide-basics.md)</li>
   <li>[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
   </ul>
