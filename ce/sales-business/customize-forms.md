@@ -31,7 +31,14 @@ A form is a set of data-entry fields that matches the items  your organization t
 When you publish a customized form, you are publishing an updated version of the entity associated with the form.
 
 ## What forms can you customize?
-You can customize any of the following forms in Dynamics 365 for Sales, Business edition: Account, Contact, Invoice, Lead, Opportunity, Quote. 
+You can customize any of the following forms in Dynamics 365 for Sales, Business edition: 
+
+- Account
+- Contact
+- Invoice
+- Lead
+- Opportunity
+- Quote 
 
 To access the forms:
 
@@ -39,13 +46,15 @@ To access the forms:
 
   ![Customize forms in Advance settings](media/form-cust-1.png "Customize forms in Advance settings")
 
-  You'll see the list of available forms. The name of the form is **Business** for all entities. The page also displays the date when the form was published, and whether the form is active or not.
+  You'll see the list of available forms. x
 
   ![List of forms](media/form-cust-2.png "List of forms")
+  
+  The name of the form is **Business** for all entities. The page also displays the date when the form was published, and whether the form is active or not.
 
  2. To open a form, just choose the form you want in the **Name** column, or select a form, and then choose **Edit** above the search field.
 
-## Getting oriented in the Form Designer
+## Get oriented in the Form Designer
 In the Form Designer, the sections of the form are displayed on the left with tabs that contain additional information about the form. The available tabs depend on the form. For example, the Account form has a **Summary** tab and a **Details** tab. The Opportunity form has a **Product Line** tab but no **Details** tab. Each tab includes different parts of the form.
 
 ![Form sections](media/form-cust-3.png "Form sections")
@@ -76,13 +85,13 @@ When you choose **New Fields**, you can select from the different field types av
 
 ![New fields](media/form-cust-6.png "New fields")
 
-### Search for a field
+#### Search for a field on the Components tab
 
 Use the **Search** box on the **Components** tab to search for a field by name. Just type all or part of the name and then press Enter. The list of fields displayed automatically updates to include only those that match your search text. For example, if you want to find fields related to email, enter **email** in the **Search** box. The list of fields updates to show only fields that include **email** in the name.
 
 ![Search for a field](media/form-cust-8.png "Search for a field")
 
-### Filter the list of displayed fields
+#### Filter the list of displayed fields on the Components tab
 
 You can also filter which fields are displayed on the **Components** tab. If you select **All Fields**, the list displays all the fields for the entity associated with the form. If you select **Custom Fields**, the list displays only the fields created by you or another customizer.
 
@@ -110,7 +119,7 @@ You can move fields from one columnn to another by dragging them. When you do th
 
 > The header section of a form can't be deleted from the form. 
 
-To customize the fields used in the header, click the **Show header fields** arrow.
+To customize the fields used in the header, select the **Show header fields** arrow.
 
 ![Customize form header](media/form-cust-11.png "Customize form header")
 
@@ -123,7 +132,7 @@ This section includes common form customization tasks.
 ### Add fields to a form
 
 1.	Open the form you want to add a field to.
-2.	On the **Components** tab, click **Existing Fields** or **New Fields** to display a list of available fields.
+2.	On the **Components** tab, choose **Existing Fields** or **New Fields** to display a list of available fields.
 3.	Select the section of the form you want to add the field to.
 4.	Do one of the following:
     -	Double-click the field in the **Components** pane.
@@ -200,7 +209,7 @@ You can't remove fields set to **Business Required** from a form. You can change
 
 ### Save a form
 
-  - When you’re finished customizing your form, or to save your progress, click **Save** or **Save and Close** in the upper-right corner of the designer. 
+  - When you’re finished customizing your form, or to save your progress, choose **Save** or **Save and Close** in the upper-right corner of the designer. 
   
     If the form you have open has not been changed since it was last saved, the **Save** button is disabled.
 
@@ -214,7 +223,7 @@ You can't remove fields set to **Business Required** from a form. You can change
 
 After you save the changes to your form, you’ll need to publish it to make it available to users. 
 
-  - To publish your form, click **Publish**.
+  - To publish your form, choose **Publish**.
 
     ![Publish form](media/form-cust-20.png "Publish form")
 
