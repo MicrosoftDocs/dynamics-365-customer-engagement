@@ -17,15 +17,16 @@ topic-status: Drafting
 
 # Customize business process flows in Dynamics 365 for Sales, Business edition
 
-You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes.
+You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities they provide are very different from other features that use processes.
 
-With business process flows, you define a set of stages and steps that are then displayed in a control at the top of a form. Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is commonly called ”stage-gating."
+With business process flows, you define a set of stages and steps that are displayed in a control at the top of a form. Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is called ”stage-gating."
 
 Business process flows appear relatively simple compared to other types of processes because they do not provide any conditional business logic or automation beyond providing the streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving people time, reducing training costs, and increasing user adoption.
 
-## Entities available in Dynamics 365 Sales, Business edition 
+## Entities available for business process flows
 
-Entities are sets of records. You can use the following entities to create business process flows in the Sales app.
+Entities are sets of records. You can use the following entities to create business process flows in Dynamics 365 for Sales, Business edition:
+
  - Account
  - Contact
  - Invoice
@@ -65,7 +66,7 @@ You can use the following entities on additional stages added to a business proc
 
     The name of the process doesn’t need to be unique, but it should be meaningful for people who need to choose a process. You can change this later.
    
- 5. In the **Entity** list, select the entity (record type) you want to base the process on.
+ 5. In the **Entity** list, select the entity you want to base the process on.
 
     The entity you select affects the fields available for steps that can be added to the first stage of the process flow. You cannot change this after you save the process.
    
@@ -146,6 +147,8 @@ You can use the following entities on additional stages added to a business proc
    
 When you have more than one business process flow for an entity, you’ll need to set which process is automatically assigned to new records. 
 
+To set the order:
+
   - On the Command bar, choose **Order Process Flow**. 
   
 For new records or records that do not already have a process flow associated with them, the first business process flow that a user has access to is the one that will be used.   
@@ -167,7 +170,7 @@ You can edit existing business process flows, as needed. If your business proces
 Things you can change:
 
   - Add stages or other components
-  - Properties of existing components
+  - Change properties of existing components
   - Name 
   - Description
   
@@ -206,10 +209,12 @@ To hide the details section to display more of the designer, choose the arrow ne
 
 ### Add components to your business process flow
 
-Follow the steps in the sections about creating a business process flow to add additional stages and modify the properties of the components in your business process flow.
+Follow the steps in the sections above about creating a business process flow to add additional stages and modify the properties of the components in your business process flow.
 
 ## Create an image of your business process flow
 You can easily create an image of your business process flow from within the designer. This can make it easier to share the process flow with others, or to print the process flow. The image is created in Portable Network Graphics (.png) format. Only the design canvas is captured in the image created. It will not capture the command icons or the **Components** and **Properties** tabs.
+
+To create the image:
 
   1.	Open the business process flow you want to create an image from, and then choose **Snapshot**.
   
@@ -219,7 +224,7 @@ You can easily create an image of your business process flow from within the des
       
       -	Choose **Save As** to select the location for the file and modify the file name.
       
-  3.	On the download confirmation message, choose whether to **Open, Open Folder, View downloads**. 
+  3.	On the download confirmation message, choose from the options. 
 
 
 
