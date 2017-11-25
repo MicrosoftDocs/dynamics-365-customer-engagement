@@ -33,72 +33,74 @@ A form is a set of data-entry fields for a given entity that matches the items t
 
 When you publish a customized form, you are publishing an updated version of the entity associated with the form.
 
-## View the forms available for you to customize
+## What forms can you customize?
+You can customize any of the following forms in Dynamics 365 for Sales, Business editionon: Account, Contact, Invoice, Lead, Opportunity, Quote. 
+
+To access the forms:
 
 - Open **Advanced Settings**, and then under **Customization**, choose **Forms**.
 
 ![Customize forms in Advance settings](media/form-cust-1.png "Customize forms in Advance settings")
 
- The list of forms available to customize is displayed. The name of the form is Business for all entities. The page also displays the date on which the form was published, and whether the form is active or not.
+You'll see the list of available forms. The name of the form is Business for all entities. The page also displays the date when the form was published, and whether the form is active or not.
 
 ![List of forms](media/form-cust-2.png "List of forms")
 
-## Open the form you want to customize
+To open a form, just choose the form you want in the **Name** column, or select a form, and then click **Edit** above the search field.
 
-- To open a form, choose the form you want in the **Name** column, or select a form, and then click **Edit** above the search field.
-If you select more than one form, the **Edit** link is not displayed.
+![From sections](media/form-cust-3.png "Form sections")
 
-![List of forms](media/form-cust-3.png "List of forms")
 
- The sections of the form are displayed on the left side of the designer with tabs that contain additional information about the form. The available tabs depend on the form. For example, the Account form has a **Summary** tab and a **Details** tab. The Opportunity form has a **Product Line** tab but no **Details** tab. Each tab includes different parts of the form .
+## Getting oriented
+The sections of the form are displayed on the left side of the designer with tabs that contain additional information about the form. The available tabs depend on the form. For example, the Account form has a **Summary** tab and a **Details** tab. The Opportunity form has a **Product Line** tab but no **Details** tab. Each tab includes different parts of the form .
 
 > [!TIP]
 
 > You can see whether the form you opened is published in the upper-right corner of the designer.
 
-## Components tab
+### Components tab
 
 Use the **Components** tab to add or modify fields. 
 
-![List of forms](media/form-cust-4.png "List of forms")
+![Components tab](media/form-cust-4.png "Components tab")
 
-## Existing fields
+#### Existing fields
 
 When you click **Existing Fields**, the fields associated with the entity for the form are displayed. If you add a new field that was not included with the app, it becomes a custom field.
 
-![List of forms](media/form-cust-5.png "List of forms")
+![Existing fields](media/form-cust-5.png "Existing fields")
 
-## New fields
+#### New fields
 
 When you click **New Fields**, you can select from the different field types available for your field.
 
-![List of forms](media/form-cust-6.png "List of forms")
+![New fields](media/form-cust-6.png "New fields")
 
-## Properties tab
+### Properties tab
 
 The **Properties** tab shows the properties for the section of the form or field you select. When you select a section or field on a form, the **Properties** tab automatically opens. If you select a section that is not available for customization, the **Properties** tab will not display anything, and you cannot click it to display properties.
 
-![List of forms](media/form-cust-7.png "List of forms")
+![Properties tab](media/form-cust-7.png "Properties tab")
 
-## Search for a field
+### Search for a field
 
 You can use the **Search** box on the **Components** tab to search for a field by name. Just type all or part of the name and then press Enter. The list of fields displayed automatically updates the list of fields to include only those that match your search text. For example, if you want to find fields related to email, type “email” (without quotation marks) in the **Search** box. The list of fields updates to show only fields that include “email” in the name.
 
-![List of forms](media/form-cust-8.png "List of forms")
+![Search for a field](media/form-cust-8.png "Search for a field")
 
-## Filter the list of displayed fields
+### Filter the list of displayed fields
 
 You can also filter which fields are displayed on the **Components** tab. When you select **All Fields**, the list displays all the fields for the entity associated with the form. When you select **Custom Fields**, the list displays only the fields created by you or another customizer.
 
 To filter the list of fields displayed, select either **All Fields** or **Custom Fields** in the **Filter** drop-down.
 
-![List of forms](media/form-cust-9.png "List of forms")
+![Filter fields](media/form-cust-9.png "Filter fields")
 
 To show only the fields that are not already used on the form, select the **Only Show unused fields** checkbox.
 
-![List of forms](media/form-cust-10.png "List of forms")
+![Show unused fields](media/form-cust-10.png "Show unused fields")
 
-## Customize the header for a form
+### Customize the header for a form
 
 Updating the fields included in the header works the same way as other sections of the form. Fields in headers support all field types other than multi-line fields, such as a multi-line text field. By default, headers include a single row with 3 or 4 columns, depending on the form.
 
@@ -110,7 +112,7 @@ You can rearrange the fields between columns by dragging the field from one colu
 
 To customize the fields used in the header, click the **Show header fields** arrow.
 
-![List of forms](media/form-cust-11.png "List of forms")
+![Customize form header](media/form-cust-11.png "Customize form header")
 
 If you want to replace a field used in the header, you need to first remove one of the fields. Dragging a field from the **Components** tab over an existing field does not allow you to replace the existing field.
 
@@ -130,76 +132,76 @@ This section includes some of the common tasks you can perform to customize your
     
 If you double-click a field or select it and press Enter, the field will be added as the last field in the section currently selected.
 
-## Add a custom field
+### Add a custom field
 
 If you need to include a field on a form that is not already available, you can create a new field and define the properties for it. You can set the properties either before or after you add it to a form. Fields that you create are listed as custom fields on the **Components** tab.
 
 By default, the maximum number of custom fields you can add to a form is 10. This value can be changed by your administrator. If  you attempt to add more than the allowed number of custom fields, you’ll receive an error message. 
 
-## Rearrange the fields on a form
+### Rearrange fields
 
 You can rearrange the fields on a form so they’re displayed in a different order, or move fields from one section to another. To do so, click the field you want to move, or use the Tab key to navigate between sections and fields until the one you want is selected. Then do one of the following:
 
 -	Drag the field to a different place in the same section or to a different section of the form.
 -	Use the common keyboard shortcut Ctrl+X to cut the field from its current position. Then select the field (either in the same section or a different section) that you want the field to be positioned after and press Ctrl+V to paste it. If you don’t select a field in a section, the field will be positioned as the last field in the section when you paste it. 
 
-## Remove fields from a form
+### Remove fields 
 
 To remove a field from a form, select the field in the designer and then click Remove at the top of the designer.
 
-![List of forms](media/form-cust-12.png "List of forms")
+![Remove fields](media/form-cust-12.png "Remove fields")
 
 Note that you can’t remove locked fields (indicated by a red padlock icon next to the field name). A red asterisk next to the label indicates the field is set to **Business Required**.
 
-![List of forms](media/form-cust-13.png "List of forms")
+![Locked field](media/form-cust-13.png "Locked field")
 
 When you attempt to remove a locked field, you will see the following error message:
 
-![List of forms](media/form-cust-14.png "List of forms")
+![Locked field error message](media/form-cust-14.png "Locked field error message")
 
 When a field is removed from a form, it is moved to the list of unused fields on the **Components** tab.
 
-## Modify properties for a field
+### Modify properties for a field
 
 You can edit the properties for any field on the form. To change the properties for the field, select the field. When you select a field, the **Properties** tab is automatically opened and displays the properties for the selected field. The properties available depend on the type of field that’s selected. You can change any of the properties displayed except those that are locked.
 
 After you make your changes, click **Apply** to apply the changes. You may have to scroll down to see the **Apply** button when using lower screen resolutions.
 
-![List of forms](media/form-cust-15.png "List of forms")
+![Modify field properties](media/form-cust-15.png "Modify field properties")
 
-## Change the label of a field
+### Change a field label
 
 To change a field label, click the field, and then click the **Edit** button. This is the same as changing the value for the label in the **Properties** tab.
 
-![List of forms](media/form-cust-16.png "List of forms")
+![Change field label](media/form-cust-16.png "Change field label")
 
 When you click the **Edit** button, the label is displayed in a text field where you can change it.
 
-![List of forms](media/form-cust-17.png "List of forms")
+![Edit field label](media/form-cust-17.png "Edit field label")
 
-## Making fields optional or required
+### Make fields optional or required
 
 You can specify that a field is optional, business recommended, or business required by setting the **Field Requirement** property. When a field is set to **Business Required**, a red asterisk is displayed next to the label on the form.
 
-![List of forms](media/form-cust-18.png "List of forms")
+![Business required field](media/form-cust-18.png "Business required field")
 
 Note that when you change this property, the metadata is updated for all forms that use that field.
 
 You cannot remove fields set to **Business Required** from a form. You can change the field to **Optional**, and then remove it, however.
 
-## Save a form
+### Save a form
 
 When you’re finished customizing your form, or to save your progress, click **Save** or **Save and Close** in the upper-right corner of the designer. If the form you have open has not been changed since it was last saved, the **Save** button is disabled.
 
-![List of forms](media/form-cust-19.png "List of forms")
+![Save form](media/form-cust-19.png "Save form")
 
 Forms that contain errors will not be saved, and forms that are not saved cannot be published. You’ll need to correct any errors in the form before you can save and publish it. Errors are highlighted in red in the designer so that you can easily find them.
 
-## Publish a form
+### Publish a form
 
 After you save the changes to your form, you’ll need to publish it to make it available to users. To publish your form, click **Publish**.
 
-![List of forms](media/form-cust-20.png "List of forms")
+![Publish form](media/form-cust-20.png "Publish form")
 
 
 
