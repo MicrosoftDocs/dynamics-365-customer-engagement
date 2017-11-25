@@ -52,6 +52,7 @@ You can use the following entities on additional stages added to a business proc
 ## Create a business process flow
 
  1.	Make sure you have the System Administrator or System Customizer security role or equivalent permissions.
+ 
  2. On the **Sales Settings** page, select **Business Process Flows**.
 
     ![Customize business processes in Advance settings](media/bpf-advanced-settings-page.png "Customize business processes in Advance settings")
@@ -74,7 +75,7 @@ You can use the following entities on additional stages added to a business proc
    
     ![Business Process Flow designer](media/bpf-designer.png "Business Process Flow designer")
  
- ### Add stages to your business process flow
+### Add stages to your business process flow
  If your users will progress from one business stage to another in the process:
  
   1.	Drag a **Stage** component from the **Components** tab and drop it on a **+** sign in the designer.
@@ -111,9 +112,13 @@ You can use the following entities on additional stages added to a business proc
  3.	Select the step, and then set properties in the **Properties** tab:
  
     a.	Enter a name for the step.
+    
     b.	If you want users to enter data to complete a step, select the appropriate field from the **Data Field** drop-down list.
+    
     c.	Select **Required** if people must fill in the field to complete the step before moving to the next stage of the process.
+    
     d.	If you have more than one **Data Step**, select the sequence for the step.
+    
     e.	Choose **Apply** when you're finished.
 
 ### Add a branch (condition) to the process
@@ -130,8 +135,11 @@ You can use the following entities on additional stages added to a business proc
   2.	Select the workflow, and then set properties in the **Properties** tab:
   
       a.	Enter a display name.
+      
       b.	Select when the workflow should be triggered, **Stage Entry** or **Stage Exit**.
+      
       c.	Optionally, search for an existing on-demand active workflow that matches the stage entity.
+      
       d.	Choose **Apply** when you're finished.
 
 ## Set process flow order 
@@ -189,8 +197,11 @@ To hide the details section to display more of the designer, choose the arrow ne
 
 ### Remove a component from your business process flow
   1.	Select the component in the designer, and then choose **Delete**.
+  
   2.	In the **Delete Confirmation** dialog, choose **OK**.
+  
   3.	Optionally, choose **Validate** to confirm that the deletion didn’t result in errors in your business process flow.
+  
   4.	Choose **Save** to save your changes.
 
 ### Add components to your business process flow
@@ -201,9 +212,13 @@ Follow the steps in the sections about creating a business process flow to add a
 You can easily create an image of your business process flow from within the designer. This can make it easier to share the process flow with others, or to print the process flow. The image is created in Portable Network Graphics (.png) format. Only the design canvas is captured in the image created. It will not capture the command icons or the **Components** and **Properties** tabs.
 
   1.	Open the business process flow you want to create an image from, and then choose **Snapshot**.
+  
   2.	To save the image file, do one of the following:
+  
       -	Choose **Save** to save the image to the default location with the same name as the business process flow.
+      
       -	Choose **Save As** to select the location for the file and modify the file name.
+      
   3.	On the download confirmation message, choose whether to **Open, Open Folder, View downloads**. 
 
 
