@@ -17,7 +17,7 @@ topic-status: Drafting
 
 # Customize forms in Dynamics 365 Sales, Business edition 
 
-In Dynamics 365, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the Form Designer to customize the forms included with Dynamics 365 to meet the specific needs of your organization.
+In Dynamics 365, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with Dynamics 365 to meet the specific needs of your organization.
 
 
 > [!IMPORTANT]
@@ -46,16 +46,16 @@ To access the forms:
 
   ![Customize forms in Advance settings](media/form-cust-1.png "Customize forms in Advance settings")
 
-  You'll see the list of available forms. x
+  You'll see the list of available forms. 
 
   ![List of forms](media/form-cust-2.png "List of forms")
   
   The name of the form is **Business** for all entities. The page also displays the date when the form was published, and whether the form is active or not.
 
- 2. To open a form, just choose the form you want in the **Name** column, or select a form, and then choose **Edit** above the search field.
+2. To open a form, just choose the form you want in the **Name** column, or select a form, and then choose **Edit** above the search field.
 
-## Get oriented in the Form Designer
-In the Form Designer, the sections of the form are displayed on the left with tabs that contain additional information about the form. The available tabs depend on the form. For example, the Account form has a **Summary** tab and a **Details** tab. The Opportunity form has a **Product Line** tab but no **Details** tab. Each tab includes different parts of the form.
+## Get oriented with the form designer
+In the form designer, the sections of the form are displayed on the left with tabs that contain additional information about the form. The available tabs depend on the form. For example, the Account form has a **Summary** tab and a **Details** tab. The Opportunity form has a **Product Line** tab but no **Details** tab. Each tab includes different parts of the form.
 
 ![Form sections](media/form-cust-3.png "Form sections")
 
