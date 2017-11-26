@@ -73,7 +73,7 @@ Views display records in a table that contains rows and columns. Each row is a r
   
   3. Double-click the name of the field you want to add. 
   
-To add a column, you can also drag the field onto the form, or select the field and press Enter. If you double-click the field, it will be added as the last column in the view. You can drag the field to position it before an existing column when you add it. You can also move the columns around after they are added to your view. 
+To add a column, you can also drag the field onto the grid, or select the field and press Enter. If you double-click the field, it will be added as the last column in the view. You can drag the field to position it before an existing column when you add it. You can also move the columns around after they are added to your view. 
 
 ## Set column width
 
@@ -119,6 +119,10 @@ You can change the order of the columns already included in your view. 
      You will see a visual indicator when you hold the column over an allowed position. 
 
      ![Rearrange columns](media/views-cust-5.png "Rearrange columns")
+     
+> [!TIP]
+
+> You can also rearange columns by using the Ctrl+X and Ctrl+V shortcut keys.
 
 ## Remove a column from a view 
 You may want to remove a column from a default system view, or one that you added to a form but no longer want to use. 
