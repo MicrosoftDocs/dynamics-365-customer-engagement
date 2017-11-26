@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
-ms.assetid: e82c6918-fe81-4812-ad78-77d178111064
+ms.assetid: e82c6918-fe81-4812-ad78-743578111064
 author: brycho
 ms.author: brycho
 manager: amyla
@@ -40,16 +40,16 @@ You can easily find a view by searching for the view name. 
   2. Choose **Views**. 
   3. Type all or part of the name of the view you want to search for in the **Search for records** box under **List of system views**, and then click the magnifying glass icon. 
 
- ART GOES HERE
+ ![Customize views in Advanced settings](media/views-cust-1.png "Customize views in Advanced settings")
  
 ## Create a new system view
 You can create your own views specific to your organizations practices and processes. 
 
   1. On the **Views** page, choose **Create New**. 
   2. Select the entity to use for the view. 
-     ART GOES HERE
+     ![Select entity](media/views-cust-2.png "Select entity")
   3. Choose **Go to View Designer**.
-     ART GOES HERE
+     ![Go to View Designer](media/views-cust-3.png "Go to View Designer")
      
 ## Add a name for your view 
 Provide a name for your view. This is the name that is displayed in the list of views. 
@@ -104,7 +104,7 @@ When a view is opened, the records displayed will be sorted in the order you set
   
   2. Click the drop-down menu, and then select **Primary Sort** or **Secondary Sort**. 
   
-     ART GOES HERE
+     ![Set sort order](media/views-cust-4.png "Set sort order")
  
 If you remove the column defined as the primary sort, the column defined as the secondary sort becomes the primary sort. 
 
@@ -126,7 +126,7 @@ You can change the order of the columns already included in your view. 
 
      You will see a visual indicator when you hold the column over an allowed position. 
 
-     ART GOES HERE
+     ![Rearrange columns](media/views-cust-5.png "Rearrange columns")
 
 ## Remove a column from a view 
 You may want to remove a column from a default system view, or one that you added to a form but no longer want to use. 
@@ -135,14 +135,14 @@ You may want to remove a column from a default system view, or one that you adde
 
   2. Click Remove. 
   
-     ART GOES HERE
+     ![Remove column](media/views-cust-6.png "Remove column")
      
 ## Define filter criteria 
 You can set filter criteria to so that only a subset of the records is displayed in a view. When someone opens the view, only the records that meet the defined filter criteria will be displayed. You can select fields from both the primary and related entities to filter on. 
 
   1. In the designer, expand the **Filter Criteria** section.
   
-     ART GOES HERE
+     ![Expand filter criteria](media/views-cust-7.png "Expand filter criteria")
   
   2. Click **Add Filter**. 
   
@@ -150,7 +150,7 @@ You can set filter criteria to so that only a subset of the records is displayed
   
   4. Click the drop-down in the second column to select the operator to use for the filter. The operators available depend on the field selected. 
   
-     ART GOES HERE
+     ![Select operator](media/views-cust-8.png "Select operator")
      
   5. Enter a value to filter on in the field in the third column. 
   
@@ -165,7 +165,7 @@ You can set filter criteria to so that only a subset of the records is displayed
   
   3. Click the check box next to each of the filter criteria. 
   
-     ART GOES HERE
+     ![Group filters](media/views-cust-9.png "Group filters")
      
   4. Select **Group And** or **Group Or** to group the filters. 
   
@@ -177,7 +177,7 @@ You can set filter criteria to so that only a subset of the records is displayed
   
   2. Click **Ungroup**.  
      
-     ART GOES HERE
+     ![Ungroup filters](media/views-cust-10.png "Ungroup filters")
      
 ## Clear filters 
 You can remove any filters you have created. 
@@ -193,7 +193,7 @@ As you are working on your view, save it often to avoid losing any changes. 
   
 If you have not already provided a name for your view, a dialog is displayed where you can enter a name and description.      
 
-ART GOES HERE
+![Save view](media/views-cust-11.png "Save view")
 
 When you are finished customizing your view, you can use Save and Close, which saves your view and closes the designer. 
 
