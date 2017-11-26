@@ -43,7 +43,7 @@ You can easily find a view by searching for the view name. 
      ![Customize views in Advanced settings](media/views-cust-1.png "Customize views in Advanced settings")
  
 ## Create a new system view
-You can create your own views specific to your organizations practices and processes. 
+You can create your own views specific to your organization's practices and processes. 
 
   1. On the **Views** page, choose **Create New**. 
   
@@ -55,7 +55,7 @@ You can create your own views specific to your organizations practices and proce
   
      ![Go to View Designer](media/views-cust-3.png "Go to View Designer")
      
-  4. To add a name (the name displayed in the list of views) for your view:
+  4. To add a name, which is the name displayed in the list of views:
   
      a. Choose **Click to Add View Name**. 
      
@@ -69,23 +69,27 @@ Views display records in a table that contains rows and columns. Each row is a r
 
   1. In the designer, choose **Add**.
 
-  2. Select either **Primary Entity** or **Related Entity** to display the list of available fields on the **Components** tab. 
+  2. Select **Primary Entity** or **Related Entity** to display the list of available fields on the **Components** tab. 
   
-  3. Double-click the name of the field you want to add. 
+  3. Do one of the following:
   
-To add a column, you can also drag the field onto the grid, or select the field and press Enter. If you double-click the field, it will be added as the last column in the view. You can drag the field to position it before an existing column when you add it. You can also move the columns around after they are added to your view. 
+     - Double-click the name of the field you want to add. It will be added as the last column in the view. 
+     
+     - Drag the field onto the grid. You can drag the field to position it before an existing column when you add it. 
+     
+     - Select the field and press Enter. 
+     
+     You can also move the columns around after they are added to your view. 
 
 ## Set column width
 
-After adding the columns, you can change only the width of the column. 
+After adding the columns, you can change the width of the column. 
 
   1. Select the column in the view. 
-  
-     The **Properties** tab opens. 
 
-  2. Set the width to the value you want. 
+  2. In the **Properties** tab, set the width to the value you want. 
 
-## Set the Primary and Secondary column sort order
+## Set the primary and secondary column sort order
 When a view is opened, the records displayed will be sorted in the order you set when creating the view. You can choose to sort on a single column, or two columns with a primary and secondary sort order. When the view is opened, the records will first be sorted by the column defined as the primary sort, and then by the column defined as the secondary sort.  
 
 > [!NOTE]
@@ -98,7 +102,9 @@ When a view is opened, the records displayed will be sorted in the order you set
   
      ![Set sort order](media/views-cust-4.png "Set sort order")
  
-     If you remove the column defined as the primary sort, the column defined as the secondary sort becomes the primary sort. 
+> [!NOTE]
+
+> If you remove the column defined as the primary sort, the column defined as the secondary sort becomes the primary sort. 
 
 ## Set the order for the primary sort 
 You can set the sort order to ascending or descending for the column defined as the primary sort column. 
@@ -120,7 +126,7 @@ You can change the order of the columns already included in your view. 
 
      ![Rearrange columns](media/views-cust-5.png "Rearrange columns")
      
-> [!TIP]
+> [!NOTE]
 
 > You can also rearange columns by using the Ctrl+X and Ctrl+V shortcut keys.
 
@@ -144,7 +150,7 @@ You can set filter criteria so that only a subset of the records is displayed in
   
   3. Choose the **Select** drop-down, and then select the field you want to filter on. 
   
-  4. Choose the drop-down in the second column to select the operator to use for the filter. The operators available depend on the field selected. 
+  4. Choose the drop-down in the second column to select the operator to use for the filter. The operators available depend on the selected field. 
   
      ![Select operator](media/views-cust-8.png "Select operator")
      
@@ -153,7 +159,7 @@ You can set filter criteria so that only a subset of the records is displayed in
   
   ## Group multiple filters
   
-  You can add multiple filters to your view if you want to filter records using more than one field. 
+  You can add multiple filters to your view if you want to filter records using more than one field, and then group on fields, as desired. 
   
   1. Choose **Add Filter** to add an additional filter to your view. 
   
@@ -165,9 +171,9 @@ You can set filter criteria so that only a subset of the records is displayed in
      
   4. Choose **Group And** or **Group Or** to group the filters. 
   
-     When you select **Group And**, only records that meet both criteria are displayed in the view. When you select **Group Or**, records that meet any of the filter criteria are displayed. For example, to show only records for contacts with an address in Seattle or Portland, select **Group Or**. 
+     When you select **Group And**, only records that meet both criteria are displayed in the view. When you select **Group Or**, records that meet any of the filter criteria are displayed. For example, in the above example, to show  records for contacts with an address in Seattle or Portland, select **Group Or**. 
      
-## Remove filter groups 
+## Remove a filter group 
 
   1. Select the check box for the group. 
   
@@ -180,20 +186,18 @@ You can remove any filters you have created. 
 
   1. In the **Filter Criteria** section, choose **Clear**. 
   
-  2. Choose **OK** to confirm that you want to clear all filters.     
+  2. Choose **OK**.     
      
 ## Save a view 
 As you are working on your view, save it often to avoid losing any changes. 
 
-  1. In the designer, choose **Save**. 
+  1. In the designer, do one of the following:
   
-     If you have not already provided a name for your view, a dialog is displayed where you can enter a name and description.      
-
-     ![Save view](media/views-cust-11.png "Save view")
-
-     If you're finished customizing your view, choose **Save and Close**. 
+     - To save without closing the designer, choose **Save**
+  
+     - If you're finished customizing your view, choose **Save and Close**. 
  
-     To make a copy of your view, choose **Save As** to save the current view with a different name. 
+To make a copy of your view, choose **Save As** to save the current view with a different name. 
  
 
 ## Publish a system view 
