@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 09/12/2017
+ms.date: 11/27/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -261,10 +261,12 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
   
 4.  Click **Private messages rule**.  
   
-5.  Select the social profile for which you want the private messages to be available in Analytics. Keep in mind that you can only choose from social profiles whose owners explicitly allowed data acquisition for private messages.  
+5.  Select the social profile for which you want the private messages to be available in Analytics. Keep in mind that you can only choose from social profiles whose owners explicitly allowed data acquisition for private messages. You can also add multiple social profiles to a private messages rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
   
     > [!NOTE]
-    >  You can also add multiple social profiles to a private messages rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
+    > If the system can’t identify a language in a private message, or if an identified language not supported by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], these private messages are now mapped to the first selected search language in **Global Settings** > **Search Languages**. You can't change the identified language of a post. 
+    > Text content is critical for language recognition. Private messages that contain an image only don’t get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+
   
 6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
