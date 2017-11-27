@@ -21,5 +21,8 @@
 ### [Manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 ### [Work with dashboards](customer-service-hub-user-guide-dashboard.md)
 ### [Use on mobile](use-customer-service-hub-on-dynamics-365-mobile.md)
-## [User Guide: Customer Service](user-guide-customer-service.md)
+## [Customer Service](user-guide-customer-service.md)
+## [Unified Service Desk](../unified-service-desk/TOC.md)
+## [Project Service](../project-service/TOC.md)
+## [Field Service](../field-service/TOC.md)
 
