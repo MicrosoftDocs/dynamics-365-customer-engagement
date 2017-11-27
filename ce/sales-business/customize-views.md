@@ -33,41 +33,46 @@ Personal views are created by individual users and they are visible only to that
 
 This topic covers how to create system views as a customizer. 
 
-## Search for a view 
-You can easily find a view by searching for the view name. 
+## Open a system view
 
-  1. Access the **Settings** page. 
-  2. Choose **Views**. 
-  3. Under **List of system views** in the upper left, type all or part of the name of the view you want to search for in the **Search for records** box,  and then choose the magnifying glass icon. 
+  1. In the left navigation bar, under **Tools**, select **Settings** to go to the **Advanced Settings** page. 
+  
+     ![Settings in navigation bar](media/views-cust-nav-bar-settings.png "Settings in navigation bar")
+  
+  2. In **Advanced Settings**, under **Customization**, choose **Views**. 
+  
+     ![Settings in navigation bar](media/nav-bar-settings.png "Settings in navigation bar")
+  
+  3. In the **Name** column, select the view to open it, or if you want to search for a view, under **List of system views** in the upper left, in the **Search for records** box, type all or part of the name of the view you want to search for, and then choose the magnifying glass icon. 
 
      ![Customize views in Advanced settings](media/views-cust-1.png "Customize views in Advanced settings")
  
 ## Create a new system view
 You can create your own views specific to your organization's practices and processes. 
 
-  1. On the **Views** page, choose **Create New**. 
+  1. On the **Views** page, choose **Create New** in the upper-right corner. 
   
   2. Select the entity to use for the view. 
   
      ![Select entity](media/views-cust-2.png "Select entity")
      
-  3. Choose **Go to View Designer**.
+  3. Choose **Go to View Designer** at the bottom of the pane.
   
      ![Go to View Designer](media/views-cust-3.png "Go to View Designer")
      
   4. To add a name, which is the name displayed in the list of views:
   
-     a. Choose **Click to Add View Name**. 
+     a. Choose **Click to Add View Name** in the upper-left corner of the screen. 
      
      b. Type the name for your view. 
   
-        The name is set when you click outside the text box. You can change the name later by clicking it again, or by changing it in the **Properties** tab. 
+        The name is set when you click or tab outside the text box. You can change the name later by clicking it again, or by changing it in the **Properties** tab. 
 
 ## Add a column to your view
 
 Views display records in a table that contains rows and columns. Each row is a record, and the fields from the records are determined by the columns you add to the view. 
 
-  1. In the designer, choose **Add**.
+  1. In the designer, choose **Add** in the upper-left corner.
 
   2. Select **Primary Entity** or **Related Entity** to display the list of available fields on the **Components** tab. 
   
@@ -87,7 +92,7 @@ After adding the columns, you can change the width of the column. 
 
   1. Select the column in the view. 
 
-  2. In the **Properties** tab, set the width to the value you want. 
+  2. In the **Properties** tab, set the width to the value you want by choosing the up and down arrows to increase or decrease the column width.
 
 ## Set the primary and secondary column sort order
 When a view is opened, the records displayed will be sorted in the order you set when creating the view. You can choose to sort on a single column, or two columns with a primary and secondary sort order. When the view is opened, the records will first be sorted by the column defined as the primary sort, and then by the column defined as the secondary sort.  
@@ -98,7 +103,7 @@ When a view is opened, the records displayed will be sorted in the order you set
 
   1. Select the column to use as the primary or secondary sort. 
   
-  2. Choose the drop-down menu, and then select **Primary Sort** or **Secondary Sort**. 
+  2. In the drop-down menu, select **Primary Sort** or **Secondary Sort**. 
   
      ![Set sort order](media/views-cust-4.png "Set sort order")
  
@@ -112,6 +117,8 @@ You can set the sort order to ascending or descending for the column defined as 
   1. Select the column set as the primary sort. 
 
   2. Choose the arrow next to the name to change the order. 
+  
+     ![Set ascending or descending](media/views-cust-sort-order.png "Set ascending or descending")
 
 When the arrow is pointing up, the sort order is ascending. When the arrow is pointing down, the sort order is descending. 
 
@@ -148,9 +155,9 @@ You can set filter criteria so that only a subset of the records is displayed in
   
   2. Choose **Add Filter**. 
   
-  3. Choose the **Select** drop-down, and then select the field you want to filter on. 
+  3. In the **Select** drop-down, select the field you want to filter on. 
   
-  4. Choose the drop-down in the second column to select the operator to use for the filter. The operators available depend on the selected field. 
+  4. In the drop-down in the second column, select the operator to use for the filter. The available operators depend on the selected field. 
   
      ![Select operator](media/views-cust-8.png "Select operator")
      
@@ -171,7 +178,7 @@ You can set filter criteria so that only a subset of the records is displayed in
      
   4. Choose **Group And** or **Group Or** to group the filters. 
   
-     When you select **Group And**, only records that meet both criteria are displayed in the view. When you select **Group Or**, records that meet any of the filter criteria are displayed. For example, in the above example, to show  records for contacts with an address in Seattle or Portland, select **Group Or**. 
+     When you select **Group And**, records that meet both criteria are displayed in the view. When you select **Group Or**, records that meet any of the filter criteria are displayed. For example, in the above example, to show  records for contacts with an address in Seattle or Portland, select **Group Or**. 
      
 ## Remove a filter group 
 
@@ -191,13 +198,15 @@ You can remove any filters you have created. 
 ## Save a view 
 As you are working on your view, save it often to avoid losing any changes. 
 
-  1. In the designer, do one of the following:
+  - In the designer, choose one of the following in the upper-right corner:
   
      - To save without closing the designer, choose **Save**
   
      - If you're finished customizing your view, choose **Save and Close**. 
  
-To make a copy of your view, choose **Save As** to save the current view with a different name. 
+> [!NOTE]
+
+> To make a copy of your view, choose **Save As** to save the current view with a different name. 
  
 
 ## Publish a system view 
