@@ -16,19 +16,19 @@ topic-status: Drafting
 
 # Configure Record Creation and Update Rule in Dynamics 365 to process Social Actity entities from Social Engagement
 
-To automatically turn a Social Activity into another record type in [!include[](../includes/pn-dynamics365.md)], an administrator or customizer needs to confiure the Record Creation and Update Rule feature in [!include[](../includes/pn-dynamics365.md)]. 
+To automatically turn a Social Activity into another record type in [!INCLUDE[Dynamics 365](../includes/pn-dynamics365.md)], an administrator or customizer needs to confiure the Record Creation and Update Rule feature in [!INCLUDE[Dynamics 365](../includes/pn-dynamics365.md)]. 
 
-In [!include[](../includes/pn-social-engagement-short.md)], users can select whether they want to [create a case or lead entity](link-posts-to-dynamics-365.md) in the connected [!include[](../includes/pn-dynamics365.md)] instance.
+In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], users can select whether they want to [create a case or lead entity](link-posts-to-dynamics-365.md) in the connected [!INCLUDE[Dynamics 365](../includes/pn-dynamics365.md)] instance.
 
 ![Open drop-down menu with Case and Lead option for creating a record in Dynamics 365 from within Social Engagement.](media/select-entity-mse.png "Open drop-down menu with Case and Lead option for creating a record in Dynamics 365 from within Social Engagement.")
 
-In [!include[](../includes/pn-dynamics365.md)], a Social Activity entity gets created, containing the information if the target record is a `lead` or an `incident`. 
+In [!INCLUDE[Dynamics 365](../includes/pn-dynamics365.md)], a Social Activity entity gets created, containing the information if the target record is a `lead` or an `incident`. 
 
-When you create an Automatic Record Creation rule, the system will convert social activities created from [!include[](../includes/pn-social-engagement-short.md)] to the corresponding entities in [!include[](../includes/pn-dynamics365.md)].
+When you create an Automatic Record Creation rule, the system will convert social activities created from [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)] to the corresponding entities in [!INCLUDE[Dynamics 365](../includes/pn-dynamics365.md)].
 
 ## Create a rule to automatically turn social actitivites into lead or case records
 
-1. Sign in to [!include[](../includes/pn-dynamics365.md)] with your system administrator credentials.
+1. Sign in to [!INCLUDE[Dynamics 365](../includes/pn-dynamics365.md)] with your system administrator credentials.
 
 2. Go to **Settings** > **Business Management** > **Automatic Record Creation and Update Rules**.
 
@@ -73,7 +73,7 @@ When you create an Automatic Record Creation rule, the system will convert socia
 14. Click **Save & Close** to finalize the rule.
 
 15. Verify if the rules were created and select **Activate** to activate the rule.    
-Social activity entities created from [!include[](../includes/pn-social-engagement-short.md)] now automatically create the configured record type in [!include[](../includes/pn-dynamics365.md)]. 
+Social activity entities created from [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)] now automatically create the configured record type in [!INCLUDE[Dynamics 365](../includes/pn-dynamics365.md)]. 
 
   ![Activate the newly created rule to automatically turn social activity entities into other record types.](media/activate-update-rule.png "Activate the newly created rule to automatically turn social activity entities into other record types.")
 
