@@ -65,13 +65,13 @@ Window navigation rules define the interaction between various controls in [!INC
 |Hide Navigation Bar|This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] navigation bar on the left of the window, when the window is displayed in a new tab.|
 |Condition|The condition field is a JavaScript expression that results in true or false.<br/><br/>This condition field is used to create window navigation rules for a particular entity or URL that contain strings. In addition to the standard replacement parameters, you can use the URL, Entity Name, and Id replacement parameters. <br/><br/> If the target URL is an CRM page, you can use the `[[entityname]]` and `[[id]]` in your conditions to validate the URL at run time. When target URL is a non-CRM page, the `[[entityname]]` and `[[id]]` replacement parameters are empty.|
 
-Use the following replacement parameters in the conditions:
+ Use the following replacement parameters in the conditions:
 
-|Replacement Parameters|Syntax|Description|
-|----------------------|------|-----------|
-|URL|[[url]]|You can use for any page|
-Entity|[[entityname]]|Name of the entity of the target CRM page|
-|Id|[[id]]|Id of the entity record of the target CRM page|
+ |Replacement Parameters|Syntax|Description|
+ |----------------------|------|-----------|
+ |URL|[[url]]|You can use for any page|
+ Entity|[[entityname]]|Name of the entity of the target CRM page|
+ |Id|[[id]]|Id of the entity record of the target CRM page|
   
 6.  Click **Save** to create or modify the window navigation rule.  
   
