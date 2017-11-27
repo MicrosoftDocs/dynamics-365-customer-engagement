@@ -54,6 +54,9 @@ topic-status: Completed
   <li>[Customer Service Hub](user-guide-customer-service-hub.md)</li>
    <li>[Customer Service](user-guide-customer-service.md)</li>
   <li>[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
+  <li>[Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md)</li>
+  <li>[Project Service](../project-service/overview.md)</li>
+  <li>[Field Service](../field-service/overview.md)</li>
   </ul>  
  </td>
  </tr>
