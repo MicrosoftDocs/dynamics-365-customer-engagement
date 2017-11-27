@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 11/27/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
