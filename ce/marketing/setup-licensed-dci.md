@@ -27,7 +27,7 @@ You can choose to use a [!INCLUDE[pn-customer-insights-short](../includes/pn-cus
 > [!IMPORTANT]
 > As with most of the settings presented by the setup wizard, your choice of [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] license is _permanent_ and can't be changed after you complete the wizard. There is no way to migrate the data later. Please consider your options and make your choice carefully.
 > 
-> **Be sure to read  [How to choose your Customer Insights license option](purchase-setup.md#choose-dci-license-option) before continuing with the procedure described here.**
+> Be sure to read  [How to choose your Customer Insights license option](purchase-setup.md#choose-dci-license-option) before continuing with the procedure described here.
 
 It's easiest to use the limited [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created by the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. To do that, just follow the instructions given in [First-time setup](purchase-setup.md) and ignore this topic. But to use your own full-featured account, follow the instructions provided here.
 
