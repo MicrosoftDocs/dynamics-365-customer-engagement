@@ -29,6 +29,7 @@ Portal capabilities version 8.3 for Dynamics 365 has brought many new updates an
 - **Portal interaction tracking (preview)**: Use this preview feature to track a customer's interaction with your portal and funnel it to [!include[](../includes/pn-customerinsight-full.md)]. This will be helpful for plotting a 360-degree view of the user’s journey on your portal before and after a case is created. This also helps you to understand the real issue, avoid asking the user for the same information over again, and enable you to respond with relevant information.
 - **Import metadata translation**: Use this feature to import the metadata translation of newly activated languages after you install a portal.
 - **Source code availability for portals**: A one-time release of portal capabilities code is released to the Microsoft Download Center under MIT license for developers to download. This feature enables portals to be deployed to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on-premises or online environments, and allows developers to customize the code to suit their specific business needs.
+
   > [!Note]
   > Source code is offered as a working sample and on an as-needed basis. No direct support will be provided for any modifications to the code.
 - **Single sign-on (SSO) configuration improvements and support for Azure Active Directory B2C (Azure AD B2C)**: For portals that require a consumer-based sign-in, this feature now supports the ability to:
