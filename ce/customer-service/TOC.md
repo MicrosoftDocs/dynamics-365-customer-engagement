@@ -22,5 +22,3 @@
 #### [Work with dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use on mobile](use-customer-service-hub-on-dynamics-365-mobile.md)
 ### [Customer Service](user-guide-customer-service.md)
-
-
