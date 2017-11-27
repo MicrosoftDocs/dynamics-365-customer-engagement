@@ -28,8 +28,8 @@ To view existing entity forms or to create new entity forms, go to **Portals** &
 When creating a new entity form, the first step is to decide the **Entity** and **Form Name** that you will be rendering, in addition to the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you are creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
 
 > [!Note]
-> An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
-> The Connections entity is not supported in entity form. If you add a Connections entity using Form editor, error messages are displayed.
+> - An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
+> - The Connections entity is not supported in entity form. If you add a Connections entity using Form editor, error messages are displayed.
 
 The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 
