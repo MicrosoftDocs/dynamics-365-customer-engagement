@@ -20,7 +20,7 @@
 #### [Manage cases and SLAs](customer-service-hub-user-guide-case-sla.md)
 #### [Manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with dashboards](customer-service-hub-user-guide-dashboard.md)
-### [Use on mobile](use-customer-service-hub-on-dynamics-365-mobile.md)
+### [Customer Service Hub on mobile](use-customer-service-hub-on-dynamics-365-mobile.md)
 ### [Customer Service](user-guide-customer-service.md)
 
 
