@@ -25,7 +25,7 @@ This method acquires the access token based on the discovered resource and clien
 
 ## SendAsync method
 
-This is a custom HTTP handler that adds the **Authorization** and **Accept=Language** headers to the message requests in your client application.
+This is a custom HTTP handler that adds the **Authorization** and **Accept-Language** headers to the message requests in your client application.
 
 ## Code sample listing 
 
