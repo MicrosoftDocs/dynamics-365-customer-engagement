@@ -43,6 +43,27 @@ This topic explains how licensing works, how to set up the system for the first 
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is available with a variety of bundles and licensing options, the specifics of which will depend on your agreement. Typically, your agreement will include a quota of bulk email messages each month, a quota of contact records, a quota of Litmus inbox previews, a fixed number of user licenses, and other allotments. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides tools that help you keep an eye on your monthly quotas and purchase extra capacity as needed. Please refer to your own license agreement and to [!INCLUDE[pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] sales websites and other sales channels for specific details about bundles, pricing, and quotas.
 
+<a name="choose-dci-license-option"></a>
+
+## How to choose your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] license option
+
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses a service called [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process customer information, including for defining marketing segments and holding mail-interaction results. When you are setting up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you must choose whether to use the default [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] license, which is included with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], or to bring your own, full-featured [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] license.
+
+For more information about [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] and its many capabilities, see [Dynamics 365 for Customer Insights](https://go.microsoft.com/fwlink/p/?linkid=863946).
+
+The following table summarizes the differences between the two types of [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] licenses.
+
+| Default license                                                                                                                | Full-featured license                                                                                                                                                                 |
+|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]                                                                                       | Must be licensed separately, at extra cost                                                                                                                                            |
+| The setup wizard connects automatically                                                                                        | The setup wizard provides links to help you sign up for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] (if needed), and guides you through the required settings to establish the connection                                                                                                             |
+| The service is managed and maintained for you by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]                                                                     | You must manage and maintain the service yourself                                                                                                                                     |
+| You will not have direct access to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] or its advanced features                                                         | You have full access to all [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features, including the ability to load third-party data, generate reports, connect to other systems, and more |
+| Licensed by volume of data; additional charges may apply if you exceed the level specified in your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] license agreement | Licensed by volume of data, as specified in your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] license agreement                                                                                                  |
+
+> [!IMPORTANT]
+> As with most of the settings presented by the setup wizard, your choice of [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] license is _permanent_ and can't be changed after you complete the wizard. There is no way to migrate the data later. Please consider your options and make your choice carefully.
+
 ## First-time setup
 
 After purchasing your initial license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll receive the URL required to access the app. The first time you open the link, you'll launch a setup wizard that guides you through the initial setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the wizard will help you review all the relevant privacy policies and set up and integrate these various elements.
@@ -74,7 +95,7 @@ Do the following:
 > If you choose to use your own [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account, please note that it must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customer Insights overview](https://docs.microsoft.com/dynamics365/customer-insights/deploy/overview)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to choose your Customer Insights license option](#choose-dci-license-option)
 
 ![The Customer Insights page](media/fre-customer-insights.png "The Customer Insights page")
 
