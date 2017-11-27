@@ -26,7 +26,7 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 > These security enhancements are also available for:
 >
 > - Microsoft Dynamics CRM 2016 (on-premises, version 8.2) <br />
->   The feature is included in [this update](https://support.microsoft.com/help/4046795/microsoft-dynamics-365-online-and-on-premises-update-2-2).
+>   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
 > - Microsoft Dynamics CRM 2016 (on-premises, version 8.1) <br />
 >   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
 > - Microsoft Dynamics CRM 2015 (on-premises) <br />
