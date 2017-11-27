@@ -29,7 +29,7 @@ topic-status: Completed
  
 </tr>
 <tr>
- <td><h2>Setup</h2>
+  <td><h2>Setup</h2>
   <ul>
   <li>[Service Manager](service-manager-guide.md)</li>
   <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
@@ -37,8 +37,8 @@ topic-status: Completed
  </td>
  
  <td><h2>Manage</h2>
-  <ul>
-  <li>[Create and manage cases](customer-service-hub-user-guide-case-sla.md)</li>
+   <ul>
+   <li>[Create and manage cases](customer-service-hub-user-guide-case-sla.md)</li>
   <li>[Work with dashboards](customer-service-hub-user-guide-dashboard.md)</li>
   <li>[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)</li>
   <li>[Find your assignments in a queue](user-guide-customer-service.md#find-whats-assigned-to-you-in-a-queue)</li>
@@ -47,9 +47,9 @@ topic-status: Completed
  </td>
 
  <td><h2>User Guide</h2>
-  <ul>
+   <ul>
   <li>[Customer Service Hub](user-guide-customer-service-hub.md)</li>
-  <li>[Customer Service](user-guide-customer-service.md)</li>
+   <li>[Customer Service](user-guide-customer-service.md)</li>
   <li>[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
   </ul>  
  </td>
@@ -109,3 +109,4 @@ Use this help to learn the basics of Customer Service, or build expertise with t
   > [!VIDEO https://www.youtube.com/embed/x36_Sn5u4Es] 
  </td>
 </tr>
+-->
