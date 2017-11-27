@@ -50,11 +50,10 @@ When you create an Automatic Record Creation rule, the system will convert socia
 
 8. For **Source Type**, select **Social Activity**.
 
-9. Create a **Channel Property** with the name `userPreferredTargetEntity` and set the **Data Type** to **Single Line of Text**. It's important that you match the name as documented in the [JSON payload](link-posts-to-dynamics-365.md). Now that the Channel Property is in place, we can proceed to creat the actual update rules.
+9. Create a **Channel Property** with the name `userPreferredTargetEntity` and set the **Data Type** to **Single Line of Text**. It's important that you match the name as documented in the [JSON payload](create-dynamics-365-record-from-social-post.md#understand-the-data-sent-to-dynamics-365-when-you-create-a-social-activity). Now that the Channel Property is in place, we can proceed to creat the actual update rules.
 
   ![Details of the Channel Property record for the Social Engagement payload.](media/channel-property-group-userPreferredTargetEntity.png "Details of the Channel Property record for the Social Engagement payload.")
 
-[comment]: <> (Validate link and update to l2CRM doc, add + icon)
 
 10. Click the **New rule** button to open the rule editor.
 
@@ -68,7 +67,7 @@ When you create an Automatic Record Creation rule, the system will convert socia
 
 13. Under **Action**, select **Add Step** and select **Create Record**. Set the value to **Lead**. 
 
-![Actions area with record creation set to Lead record.](media/configure-action-update-rule.png "Actions area with record creation set to Lead record.")
+  ![Actions area with record creation set to Lead record.](media/configure-action-update-rule.png "Actions area with record creation set to Lead record.")
 
 14. Click **Save & Close** to finalize the rule.
 
