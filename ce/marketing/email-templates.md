@@ -58,7 +58,7 @@ Here are some common style settings provided by the out-of-box templates:
 
 ## Tested email clients
 
-All out-of-box templates have been tested against a wide range of available email clients, as listed in the following tables. They should work flawlessly on most modern clients, but some design elements may degrade on older, less-used clients.
+All out-of-box templates have been tested against a wide range of available email clients, as listed in the following table. The templates should work flawlessly on most modern clients, but some design elements may degrade on older, less-used clients.
 
 <table>
   <tr>
