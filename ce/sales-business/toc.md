@@ -18,6 +18,11 @@
 ## [Enable duplicate detection](enable-duplicate-detection.md) 
 ## [Manage sample data](manage-sample-data.md)
 
+# Customization Guide
+## [Customize forms](customize-forms.md)
+## [Customize views](customize-views.md)
+## [Customize business process flows](customize-business-process-flows.md)
+
 # [User Guide](user-s-guide-dynamics-365-sales.md)
 ## [Sign in and get started](sign-in-get-started.md)
 ## [Assign a record to a user or team](assign-record-user-team.md)
