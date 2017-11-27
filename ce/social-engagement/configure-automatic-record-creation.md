@@ -81,5 +81,5 @@ Social activity entities created from [!INCLUDE[MSE](../includes/pn-social-engag
 
 ### See also
 
-[Set up the connection to link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)
+[Set up the connection to link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)    
 [Link posts from Social Engagement to Dynamics 365](create-dynamics-365-record-from-social-post.md)
