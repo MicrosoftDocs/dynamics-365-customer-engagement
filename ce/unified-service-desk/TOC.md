@@ -10,7 +10,7 @@
 ### [Unified Service Desk New Environment sample package](admin/unified-service-desk-new-environment-package.md)
 ### [Unified Service Desk Interactive Service Hub sample package](admin/unified-service-desk-interactive-service-hub-package.md)
 ### [Unified Service Desk Web Client sample package](admin/unified-service-desk-dynamics-365-web-client-package.md)
-### [Unified Service Desk Upgrade package](admin/unified-service-desk-upgrade-package.md)
+### [Unified Service Desk Upgrade sample package](admin/unified-service-desk-upgrade-package.md)
 
 # [Install, deploy, and upgrade Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)
 ## [Unified Service Desk system requirements](admin/unified-service-desk-system-requirements.md)
