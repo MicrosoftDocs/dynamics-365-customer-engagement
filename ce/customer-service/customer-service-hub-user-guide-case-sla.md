@@ -22,8 +22,9 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
  You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
+ See this video to know more about case management in the Customer Service Hub:
 
-> [!VIDEO https://www.youtube.com/embed/x36_Sn5u4Es]
+<td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/x36_Sn5u4Es" frameborder="0" allowfullscreen></iframe></td>
   
 <a name="bkmk_Create"></a>   
 
