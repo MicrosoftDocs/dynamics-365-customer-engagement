@@ -1,7 +1,7 @@
 ---
 title: "Sample: Authenticate helper for the Online Management API for Dynamics 365 Customer Enagament| MicrosoftDocs"
 description: "Helper code to authenticate to Online Management API."
-ms.date: 10/31/2017
+ms.date: 11/27/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
@@ -25,7 +25,7 @@ This method acquires the access token based on the discovered resource and clien
 
 ## SendAsync method
 
-This is a custom HTTP handler that adds the authorization header to the message requests in your client application.
+This is a custom HTTP handler that adds the **Authorization** and **Accept-Language** headers to the message requests in your client application.
 
 ## Code sample listing 
 
@@ -177,7 +177,7 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
         #endregion Methods
 
         /// <summary>
-        /// Custom HTTP client handler that adds the Authorization header to message requests.
+        /// Custom HTTP client handler that adds the "Authorization" and "Accept-Language" headers to message requests.
         /// </summary>
         class OAuthMessageHandler : DelegatingHandler
         {
@@ -195,6 +195,9 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
                 // It is a best practice to refresh the access token before every message request is sent. Doing so
                 // avoids having to check the expiration date/time of the token. This operation is quick.
                 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.AcquireToken().AccessToken);
+
+                // Set the "Accept-Language" header
+                request.Headers.Add("Accept-Language", "en-US");
 
                 return base.SendAsync(request, cancellationToken);
             }

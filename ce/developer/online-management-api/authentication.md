@@ -1,7 +1,7 @@
 ---
 title: "Authenticate to use the Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Provides information about authenticating to the Online Management API to perform instance-related operations."
-ms.date: 10/31/2017
+ms.date: 11/27/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
@@ -66,7 +66,7 @@ These are the broad steps to authenticate to the Online Management API service.
     }        
     ```
 
-1. Once you have the access token, you must set the **Authorization** header of the message request to the access token value, and specify the token type as **Bearer**. The `SendAsync` method in the authentication  sets this for all the message requests:
+1. Once you have the access token, you must set the **Authorization** header of the message request to the access token value, and specify the token type as **Bearer**. Also, set the **Accept-Language** header to specify the preferred language for the response. The `SendAsync` method in the authentication sets these header values for all the message requests:
 
     ```csharp
     protected override Task<HttpResponseMessage> SendAsync(
@@ -75,6 +75,9 @@ These are the broad steps to authenticate to the Online Management API service.
         // It is a best practice to refresh the access token before every message request is sent. Doing so
         // avoids having to check the expiration date/time of the token. This operation is quick.
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.AcquireToken().AccessToken);
+        
+        // Set the "Accept-Language" header
+        request.Headers.Add("Accept-Language", "en-US");
 
         return base.SendAsync(request, cancellationToken);
     }
