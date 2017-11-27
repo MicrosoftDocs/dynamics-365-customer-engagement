@@ -2,7 +2,7 @@
 title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Overview of the duplicate detection capabilities, including detection policies and duplicate detection rules for entity types."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/22/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,6 +25,8 @@ Duplicate detection lets organizations set duplicate detection policies and crea
  To detect duplicates in the system, create a *duplicate detection rule* for a specific entity type. A duplicate detection rule is represented by the duplicate rule (`DuplicateRule`) entity. You can create multiple detection rules for the same entity type. However, you can publish a maximum of five duplicate detection rules per entity type at one time.  
   
  A rule can have one or more *duplicate detection rule conditions* that are represented by the duplicate rule condition (`DuplicateRuleCondition`) entity. The conditions are combined by the system as in logical `AND` operation. A duplicate detection rule specifies a base entity type and a matching entity type. A duplicate rule condition specifies the name of a base attribute and the name of a matching attribute. For example, specify an account as a base entity and a contact as a matching entity to compare last names and addresses. The matching criteria consist of operators such as exactly match, first n-number of characters, or last n-number of characters.  
+ 
+ Duplicate detection works by comparing generated match codes of existing records with each new record being created. These match codes are created as each new record is created. Therefore, there is potential for one or more duplicate records to be created if they are processed at the exact same moment. In addition to detecting duplicates as they are created, you should schedule duplicate detection jobs to check for other potential duplicate records.
   
  To create duplicate detection rules and duplicate detection rule conditions in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method or the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> message.  
   
@@ -44,7 +46,7 @@ Duplicate detection lets organizations set duplicate detection policies and crea
  [DuplicateRecord Entity](entities/duplicaterecord.md)<br />
   
 ## Related Sections  
- [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)<br />  
+ [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
  [Delete data in bulk](delete-data-bulk.md)
 
 ## See Also

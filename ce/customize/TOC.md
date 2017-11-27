@@ -58,6 +58,7 @@
 ### [Managed properties](managed-properties.md)
 ### [Display custom icons instead of values in list views](display-custom-icons-instead.md)
 ### [Make grids (lists) or subgrids editable](make-grids-lists-editable-custom-control.md)
+### [Specify properties for Unified Interface apps](specify-properties-for-unified-interface-apps.md)
 
 ## [Create or edit dashboards](create-edit-dashboards.md)
 ### [Set properties for a chart or list](set-properties-chart-list-included-dashboard.md)
