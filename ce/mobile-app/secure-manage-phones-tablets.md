@@ -69,7 +69,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
 ### What users need to do  
  Users should update to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] application. On the Apple App store, the latest version is 1.1. On the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) or Good Control Console, the latest version is listed as 1.1.0.  
   
- Direct your users to [Secure your mobile data with Microsoft Dynamics 365 for Good](http://go.microsoft.com/fwlink/p/?LinkID=525026)  
+ Direct your users to [Secure your mobile data with Microsoft Dynamics 365 for Blackberry](http://go.microsoft.com/fwlink/p/?LinkID=525026)  
   
 ### Install [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)]  
  The app is listed in the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) and can be downloaded from the [Apple App Store](http://go.microsoft.com/fwlink/p/?LinkId=524762).  
@@ -130,4 +130,4 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
   
 [Good Secure Mobility Platform](http://www1.good.com/good-dynamics-platform)  
 [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
-[Secure your mobile data with Dynamics 365 for Good](secure-mobile-data-dynamics-365-good.md)
+[Secure your mobile data with Dynamics 365 for Blackberry](secure-mobile-data-dynamics-365-good.md)

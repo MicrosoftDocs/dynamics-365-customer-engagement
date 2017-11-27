@@ -1,1 +1,1 @@
-Dynamics 365 for Good
+Dynamics 365 for Blackberry
