@@ -2,7 +2,7 @@
 title: "Link posts from Social Engagement to Dynamics 365 | Microsoft Docs"
 description: "Learn how to link social posts to Dynamics 365 and create new case or lead records."
 keywords: "link to crm, link to customer engagement"
-ms.date: 11/22/2017
+ms.date: 11/27/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -33,7 +33,7 @@ When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 3.  As a system administrator or customizer in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can configure rules to handle newly-created social activities using the **Automatic Record Creation and Update Rules** feature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].   
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkId=624394)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Record Creation and Update Rule in Dynamics 365 to process Social Actity entities from Social Engagement](configure-automatic-record-creation.md) 
   
 4.  When everything is set up, your users can start to link social posts to create or update [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
