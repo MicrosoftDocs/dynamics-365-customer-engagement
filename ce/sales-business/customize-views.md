@@ -41,7 +41,7 @@ This topic covers how to create system views as a customizer. 
   
   2. In **Advanced Settings**, under **Customization**, choose **Views**. 
   
-     ![Settings in navigation bar](media/nav-bar-settings.png "Settings in navigation bar")
+     ![Settings in navigation bar](media/views-cust-advanced-settings.png "Settings in navigation bar")
   
   3. In the **Name** column, select the view to open it, or if you want to search for a view, under **List of system views** in the upper left, in the **Search for records** box, type all or part of the name of the view you want to search for, and then choose the magnifying glass icon. 
 
