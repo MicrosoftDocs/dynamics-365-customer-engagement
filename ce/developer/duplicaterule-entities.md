@@ -89,6 +89,7 @@ Some system entities will have more than one active or inactive state.The follow
 > ```
 > GET [organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='appointment')/Attributes(LogicalName='statecode')/Microsoft.Dynamics.CRM.StateAttributeMetadata/OptionSet?$select=Options
 > ```
+
 ## DuplicateRule Lookup properties
 
 |Name|Single-valued navigation properties|Description|
@@ -141,7 +142,7 @@ The following special messages can also be used:
 |_ownerid_value|ownerid|Unique identifier of the user or team who owns the duplicate rule condition.|
 |_regardingobjectid_value|regardingobjectid|Unique identifier of the object with which the condition is associated.|
 
-More information: <xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=DuplicateRuleCondition Entity">
+More information: <xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=DuplicateRuleCondition Entity" />
 
 ## DuplicateRuleCondition Special messages
 
