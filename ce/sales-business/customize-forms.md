@@ -132,11 +132,17 @@ This section includes common form customization tasks.
 ### Add fields to a form
 
 1.	Open the form you want to add a field to.
+
 2.	On the **Components** tab, choose **Existing Fields** or **New Fields** to display a list of available fields.
+
 3.	Select the section of the form you want to add the field to.
+
 4.	Do one of the following:
+
     -	Double-click the field in the **Components** pane.
+    
     -	Select the field in the **Components** pane, and then press Enter.
+    
     -	Drag the field from the **Components** pane and drop it onto the section of the form where you want it.
     
 If you double-click a field or select it and press Enter, the field will be added as the last field in the section currently selected
@@ -183,11 +189,11 @@ To create a two-option field:
       
       - Select a value for **Field Requirement** or leave it as optional. 
       
-      - Under **Options**, if you want the values to be something other than **Yes** or **No**, enter the values you want. Note that the Default Value property is automatically changed if you change these values. The **Default Value** property shows which choice will be selected by default when the user opens the form. 
+      - Under **Options**, if you want the values to be something other than **Yes** or **No**, enter the values you want. Note that the **Default Value** property is automatically changed if you change these values. The **Default Value** property shows which choice will be selected by default when the user opens the form. 
       
       - Under **Control Formatting**, if you don't want the two values to be represented as two radio buttons, choose **Check box** or **List** instead.
   
-  ![Properties for Two-Options field](media/form-cust-two-options-properties.png "Properties for Two-Options field")
+        ![Properties for Two-Options field](media/form-cust-two-options-properties.png "Properties for Two-Options field")
 
 ### Rearrange fields
 
@@ -196,9 +202,11 @@ You can rearrange the fields on a form so they’re displayed in a different ord
 To rearrage fields:
 
   1. Select the field you want to move, or use the Tab key to navigate between sections and fields until the one you want is selected.
+  
   2. Do one of the following:
 
      -	Drag the field to a different place in the same section or to a different section of the form.
+     
      -	Use the Ctrl+X keyboard shortcut to cut the field from its current position. Then select the field (either in the same section or a different section) that you want the field to be positioned after and press Ctrl+V to paste it. If you don’t select a field in a section, the field will be positioned as the last field in the section when you paste it. 
 
 ### Remove fields 
