@@ -1,5 +1,5 @@
 ---
-title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 | MicrosoftDocs"
 description: "Learn about accessiblity features such as keyboard access and screen reader support."
 ms.custom: ""
 ms.date: 08/23/2017
