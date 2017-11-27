@@ -2,7 +2,7 @@
 # Administration Guide
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
-## [Dynamics 365 for Blackberry device encryption](secure-mobile-data-dynamics-365-good.md)
+## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md)
 # [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
 # Troubleshooting
 ## [What's supported](support-phones-tablets.md)

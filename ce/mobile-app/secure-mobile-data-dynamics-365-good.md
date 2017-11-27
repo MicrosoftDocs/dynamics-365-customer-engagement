@@ -1,5 +1,5 @@
 ---
-title: "Secure your mobile data with Dynamics 365 for Blackberry | MicrosoftDocs"
+title: "Secure your mobile data with Dynamics 365 for Good | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -23,10 +23,10 @@ manager: "brycho"
   
  This app is intended for use only with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] instead from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=313645).  
   
-## Download the Dynamics 365 for Blackberry app  
+## Download the Dynamics 365 for Good app  
  You can download the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=524762). You can also find the app on the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809).  
  
-## Start and sign in to the Dynamics 365 for Blackberry app  
+## Start and sign in to the Dynamics 365 for Good app  
   
 1.  Open the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app.  
   
@@ -44,7 +44,7 @@ manager: "brycho"
   
  Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
   
-## Accessing email and other apps through Dynamics 365 for Blackberry  
+## Accessing email and other apps through Dynamics 365 for Good  
  If you get an alert when you try to use email or other apps through [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], your admin may be controlling communication to these apps for security purposes. Contact your [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] admin to find out which apps your company uses in conjunction with [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], along with any settings that need to be configured.  
   
 <a name="bkmk4"></a>   
