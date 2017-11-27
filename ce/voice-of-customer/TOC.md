@@ -1,4 +1,5 @@
-# [Get feedback by using Voice of the Customer surveys](get-feedback-surveys.md)
+# [Voice of the Customer help and training](help-hub.md)
+## [Overview](get-feedback-surveys.md)
 ## [Install the Voice of the Customer solution](install-solution.md)
 ## [Plan a survey](plan-survey.md)
 ## [Design a basic survey](design-basic-survey.md)
