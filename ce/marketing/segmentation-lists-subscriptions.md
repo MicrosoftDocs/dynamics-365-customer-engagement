@@ -108,13 +108,15 @@ The map at the top of the explorer shows the entities that are available for use
 Close the **Explore** view by choosing **OK**. Your resulting query is then shown in the **Designer**, just as though you had created it there (as shown previously).
 
 
-> [!NOTE] In the language of [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], _entities_ are often referred to as _profiles_.
+> [!NOTE]
+> In the language of [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], _entities_ are often referred to as _profiles_.
 
 The following image shows the previous query midway through construction, where we are adding the account criterion. Note how the map colors indicate where you are, where you've been, and what you can do next (and what you can't).
 
 ![The segment explorer map, showing progress](media/segment-explorer-example2.png "The segment explorer map, showing progress")
 
-> [!NOTE] On adding the final **Contacts** entity to the expression we've been describing in this example, you'll be asked to choose which of the available paths to use.
+> [!NOTE]
+> On adding the final **Contacts** entity to the expression we've been describing in this example, you'll be asked to choose which of the available paths to use.
 > 
 > ![The multiple-paths dialog](media/segment-explorer-multiple-paths.png "The multiple-paths dialog")
 > 

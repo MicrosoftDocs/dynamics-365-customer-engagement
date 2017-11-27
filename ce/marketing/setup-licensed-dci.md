@@ -26,7 +26,8 @@ You can choose to use a [!INCLUDE[pn-customer-insights-short](../includes/pn-cus
 
 It's easiest to use the limited [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created by the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. To do that, just follow the instructions given in [First-time setup](purchase-setup.md) and ignore this topic. But to use your own full-featured account, follow the instructions provided here.
 
-> [!IMPORTANT]  Your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+> [!IMPORTANT]
+> Your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 If you don't already have a fully licensed [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] account and would like to set one up while setting up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the setup wizard will help you by providing the required links.
 

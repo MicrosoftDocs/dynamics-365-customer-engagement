@@ -44,7 +44,8 @@ To set up page analytics for a new website:
 
     Enter a **Name** to identify the website (or partial website) that you want to track. A **URL** and **[!INCLUDE[description](../includes/description.md)]** might help other users but won't affect the script or its functionality.
 
-    > [!TIP] The **Timeout** setting enables closely grouped visits from a single browser to be recorded as a single session. A new session will start after this period of inactivity from a given browser. The default, 20 minutes, is usually a good value.
+    > [!TIP]
+    > The **Timeout** setting enables closely grouped visits from a single browser to be recorded as a single session. A new session will start after this period of inactivity from a given browser. The default, 20 minutes, is usually a good value.
 
 1. On the command bar, select **Save**.
 
@@ -52,7 +53,8 @@ To set up page analytics for a new website:
 
 To see your website analytics, go to **Marketing** &gt; **Internet Marketing** &gt; **Websites** and open the website you want to learn about. Here you'll find lists of most-visited pages, geographical information about where people who visit your site come from, and more. Explore the various tabs offered here for more details about how visitors are using your site. The [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] code also remains available here in case you need to add it to more pages.
 
-> [!TIP] Each marketing page that you publish from [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically includes its own unique [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] tracking code and therefore appears on the **Websites** list page as a discrete website. To view analytics of any of these pages, go to the **Websites** list view and open its **Marketing Pages Websites** view.
+> [!TIP]
+> Each marketing page that you publish from [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically includes its own unique [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] tracking code and therefore appears on the **Websites** list page as a discrete website. To view analytics of any of these pages, go to the **Websites** list view and open its **Marketing Pages Websites** view.
 >
 > ![How to view marketing pages websites](media/website-view-menu.png "How to view marketing pages websites")
 
