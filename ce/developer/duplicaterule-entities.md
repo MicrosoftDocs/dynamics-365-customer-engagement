@@ -156,8 +156,8 @@ The following special messages can also be used:
 
 
 ### See also
-More information: <xref href="Microsoft.Dynamics.CRM.duplicaterule?text=DuplicateRule Entity" />   
-More information: <xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=DuplicateRuleCondition Entity" />   
+<xref href="Microsoft.Dynamics.CRM.duplicaterule?text=DuplicateRule Entity" />   
+<xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=DuplicateRuleCondition Entity" />   
 [Detect duplicate data](detect-duplicate-data-for-developers.md)<br />
 [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)<br />
 [Run duplicate detection](run-duplicate-detection.md)<br />
