@@ -64,8 +64,8 @@ Window navigation rules define the interaction between various controls in [!INC
 |Hide Command Bar|This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] command bar after the window is displayed in the new tab.|  
 |Hide Navigation Bar|This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] navigation bar on the left of the window, when the window is displayed in a new tab.|
 |Condition|The condition field is a JavaScript expression that results in true or false.<br/><br/>This condition field is used to create window navigation rules for a particular entity or URL that contain strings. In addition to the standard replacement parameters, you can use the URL, Entity Name, and Id replacement parameters.<br/><br/> Use the following replacement parameters in the conditions: <br/><br/> - `[[url]]` - You can use for any page.<br/> - `[[entityname]]` - Name of the entity of the target CRM page. <br/> - `[[id]]` - Id of the entity record of the target CRM page. <br/><br/> If the target URL is an CRM page, you can use the `[[entityname]]` and `[[id]]` in your conditions to validate the URL at run time. When target URL is a non-CRM page, the `[[entityname]]` and `[[id]]` replacement parameters are empty.|
-  
-6.  Click **Save** to create or modify the window navigation rule.  
+
+6.  Click **Save** to create or modify the window navigation rule.
   
  To see how window navigation rules are used for configuring and agent application, see [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md), and [Walkthrough: Use a generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
   
