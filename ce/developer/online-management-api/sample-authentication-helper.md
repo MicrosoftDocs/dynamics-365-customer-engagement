@@ -17,15 +17,60 @@ manager: "amyla"
 The helper code sample provides the following methods to easily authenticate to Online Management API using the OAuth 2.0 protocol and pass in the access token in the header of your messages.
 
 ## DiscoverAuthority method
-This method issues an Azure AD challenge to discover the authority information based on the service URL aof the API. For a list of Online Management API service URLs, see [Service URLs](get-started-online-management-api.md#service-url) 
+This method issues an Azure AD challenge to discover the authority information based on the service URL aof the API. For a list of Online Management API service URLs, see [Service URLs](get-started-online-management-api.md#service-url)
+
+```csharp
+public static async Task<string> DiscoverAuthority(string _serviceUrl)
+{
+    try
+    {
+        AuthenticationParameters ap = await AuthenticationParameters.CreateFromResourceUrlAsync(
+            new Uri(_serviceUrl + "/api/aad/challenge"));
+        _resource = ap.Resource;
+        return ap.Authority;
+    }
+    catch (HttpRequestException e)
+    {
+        throw new Exception("An HTTP request exception occurred during authority discovery.", e);
+    }
+    catch (Exception e)
+    {
+        throw e;
+    }
+}
+``` 
 
 ## AcquireToken method
 This method acquires the access token based on the discovered resource and client ID and redirect URL of the app that you registered in Azure AD. Note that we are using the resource instead of service URL of the API as they are different.
+
+```csharp
+public AuthenticationResult AcquireToken()
+{
+    return _authContext.AcquireToken(_resource, _clientId, new Uri(_redirectUrl),
+        PromptBehavior.Always);
+}
+```
 
 
 ## SendAsync method
 
 This is a custom HTTP handler that adds the **Authorization** and **Accept-Language** headers to the message requests in your client application.
+
+```csharp
+protected override Task<HttpResponseMessage> SendAsync(
+                HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
+{
+    // It is a best practice to refresh the access token before every message request is sent. Doing so
+    // avoids having to check the expiration date/time of the token. This operation is quick.
+    request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.AcquireToken().AccessToken);
+
+    // Set the "Accept-Language" header
+    request.Headers.Add("Accept-Language", "en-US");
+
+    return base.SendAsync(request, cancellationToken);
+}
+```
+
 
 ## Code sample listing 
 
