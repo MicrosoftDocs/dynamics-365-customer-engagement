@@ -150,10 +150,15 @@ By default, the maximum number of custom fields you can add to a form is 10. Thi
 It's very easy to create a drop-down list that allows users to select a single or multiple values.
 
   1.  Select the form section you want to add the field to.
+  
   2.  On the **Components** tab, choose **New Fields**, select **Dropdown** (if users will select a single value) or **Multi-select drop-down** (if users will select more than one value from the list), and then add the field to the selected form section by dragging it, double-clicking it, or pressing Enter.
+  
   3.  On the **Properties tab**:
-      - Enter a display name
-      - Select a value for **Field Requirement** (optional).
+  
+      - Enter a display name.
+      
+      - Select a value for **Field Requirement** or leave it as optional.
+      
       - Choose **Add options**, and then in the box that appears, enter the values for the list. Make sure to enter one value per line as in the following example:
   
         ![Add list or multi-select list](media/form-cust-list.png "Add list or multi-select list")
@@ -162,21 +167,27 @@ It's very easy to create a drop-down list that allows users to select a single o
 
 In many cases, you'll want a field that allows a user to select from just two options. For example, the Opportunity form includes a **Revenue** field that has two values: **System Calculated** or **User Provided**. The user must select one or the other value. 
 
-![Two-option example](media/form-cust-two-options.png "Two option example")
+ ![Two-option example](media/form-cust-two-options.png "Two option example")
 
 For the Opportunity form, the two options are represented as a check box. You could choose to represent the values as two option buttons or a list instead of a check box if you prefer. 
 
 To create a two-option field:
 
   1.  Select the form section you want to add the field to.
+  
   2.  On the **Components** tab, choose **New Fields**, select **Two Options**, and then add the field to the selected form section by dragging it, double-clicking it, or pressing Enter.
+  
   3.  On the **Properties tab**:
+  
       - Enter a display name.
-      - Select a value for **Field Requirement** (optional).
+      
+      - Select a value for **Field Requirement** or leave it as optional. 
+      
       - Under **Options**, if you want the values to be something other than **Yes** or **No**, enter the values you want. Note that the Default Value property is automatically changed if you change these values. The **Default Value** property shows which choice will be selected by default when the user opens the form. 
+      
       - Under **Control Formatting**, if you don't want the two values to be represented as two radio buttons, choose **Check box** or **List** instead.
   
-  ![Properties for Two-Options fileld](media/form-two-options-properties.png "Properties for Two-Options field")
+  ![Properties for Two-Options field](media/form-cust-two-options-properties.png "Properties for Two-Options field")
 
 ### Rearrange fields
 
