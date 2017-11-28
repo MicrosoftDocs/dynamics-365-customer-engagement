@@ -21,10 +21,22 @@ topic-status: Drafting
 
 So, now you’re a user of the [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] app designed especially for businesses like yours. 
 
+This new Sales app is is built on a new Unified Interface, designed from the ground up with accessibility in mind, which means:
+
+-  People with screen readers can skip to content directly and navigate to sections that are important to them.
+
+-  People using reading plugins receive great results.
+
+-  People using browser plugins can jump to specific sections on a page.
+
+-  Keyboard users can save time and effort by using the tab key and keyboard shortcuts.
+
 The app comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
 and importing data.
 
 Plus, sellers will find a streamlined lead to cash process, easier account, contact, and opportunity management, and dashboards that make it faster to visualize useful information at a glance.
+
+The new Sales application also uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
 ![Image for Dynamics 365 for Sales](media/sales-app-image.png "Image for Dynamics 365 for Sales")
 
@@ -122,5 +134,5 @@ Here are some highlights of [!INCLUDE[pn-sales-business-doc-name](../includes/pn
  
  
 ### See Also
-[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](sign-in-get-started.md)  
+[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](learn-basics.md)  
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

@@ -22,6 +22,9 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
  You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
+ See this video to know more about case management in the Customer Service Hub:
+
+<td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/x36_Sn5u4Es" frameborder="0" allowfullscreen></iframe></td>
   
 <a name="bkmk_Create"></a>   
 
@@ -41,7 +44,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
     - Click **Assign** to assign a case to another owner.
     - Click **Add to Queue** to add a case to a queue.  
  
- ![active-case-view](media/active-case-view.png)
+    ![active-case-view](media/active-case-view.png)
   
 3.  On the command bar, click **New Case**.  Alternatively, you can quickly create a new case by clicking ![quick-create-case](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
     
@@ -97,7 +100,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
        - Select **Create Child Case** to create a child case
        - Select **...** in the command bar to explore more options for the case.
 
-![completed-case](media/completed-case.png "completed case form")
+    ![completed-case](media/completed-case.png "completed case form")
   
 <a name="bkmk_TrackSLADetails"></a>   
 
@@ -145,7 +148,7 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
 |-|-|-|  
 |**To**|**Do this**|| 
 |Enter a note |  Enter a note by clicking the **Enter a note** box. You can also add attachments to your notes.|
-|View what you have missed | Any interaction that you might have missed from the previous day or week can be seen at the top of the Timeline              ![whats-new](media/whats-new.png) |
+|View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png) |
 |Create a new interaction|In the **Timeline** section, click **+**, and then select an interaction type: Activity, Appointement, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />
 |Filter activities|1.  In the **Timeline** section, click  **(...)**  and click **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
 |Take actions on an activity|For an activity, click the **Quick Actions** button ![Click the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Click the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
