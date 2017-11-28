@@ -169,11 +169,11 @@ It's very easy to create a drop-down list that allows users to select a single o
   
         ![Add list or multi-select list](media/form-cust-list.png "Add list or multi-select list")
         
-      - If you're creating a Dropdown list, you can specify a default value for the list by selecting it in the Default Value property. The **Default Value** property shows which choice will be selected by default when the user opens the form. 
+      - If you're creating a dropdown list, you can specify a default value for the list by selecting it in the **Default Value** property. The **Default Value** property shows which choice will be selected by default when the user opens the form. 
       
       > [!NOTE]
       
-      > The **Default Value** property is not available for multi-select drop downs.
+      > The **Default Value** property is not available for multi-select drop-downs.
 
 ### Add a field that allows a user to select from just two options
 
@@ -285,7 +285,7 @@ After you save the changes to your form, you’ll need to publish it to make it 
 
 ### See also
 
-[Customize views](customize-views.md)
+[Customize views](customize-views.md)</br>
 [Customize business process flows](customize-business-process-flows.md)
 
 
