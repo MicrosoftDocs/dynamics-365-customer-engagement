@@ -68,7 +68,7 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | **Basic settings**                 |                                                                                                                                             |
 | Display Privacy Options Field      | Enables a check box in the Add Note dialog box that allows the user to mark a note as Private.                                                   |
-| Privacy Option Field Default Value | Specifies the default value for the Display Privacy Options Field check box. The default value of this field is "false".                     |
+| Privacy Option Field Default Value | Specifies the default value for the Display Privacy Options Field check box. The default value of this field is False.                     |
 | Display Attach File                | Enables a file upload field in the Add Note dialog box, allowing a user to attach a file to a note.                                             |
 | Attach File Accept                 | The MIME type accepted by the file upload input.                                                                                            |
 | **Advanced settings**              |                                                                                                                                             |
@@ -132,7 +132,7 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
 | Size                     | Specifies the size of the Delete Note dialog box. The options are Default, Large, and Small. For the Delete Note dialog box, the default size is Default. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                                      |
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                          |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog's Primary ("Delete") button.                                                    |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Delete") button.                                                    |
 | Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                                      |
 |||
 
