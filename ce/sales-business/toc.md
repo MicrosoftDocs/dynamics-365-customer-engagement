@@ -18,7 +18,7 @@
 ## [Enable duplicate detection](enable-duplicate-detection.md) 
 ## [Manage sample data](manage-sample-data.md)
 
-# Customization Guide
+# [Customization Guide](customization-guide.md)
 ## [Customize forms](customize-forms.md)
 ## [Customize views](customize-views.md)
 ## [Customize business process flows](customize-business-process-flows.md)
