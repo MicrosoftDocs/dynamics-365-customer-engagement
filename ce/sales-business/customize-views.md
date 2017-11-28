@@ -15,7 +15,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Customize views (Dynamics 365 for Sales, Preview)
+# Customize views (Sales, Preview)
 
 In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, use views to define how a list of records for a specific entity is displayed. A view defines: 
 
