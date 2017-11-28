@@ -2,7 +2,7 @@
 title: "Tutorials and resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 (online) Customer Engagement."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/28/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -34,7 +34,7 @@ Need Support? [Search the knowledge base or contact technical support](http://go
 
 ## Walkthroughs
 
-The following table lists the walkthroughs that are available in this SDK documentation. The [Dynamics 365 Developer Center on MSDN](https://msdn.microsoft.com/dynamics/crm/dn467921.aspx) shows these walkthroughs organized by topic area. Check it out!
+The following table lists the walkthroughs that are available in this SDK documentation.
 
 |Category|Link|
 |--------------|----------|
@@ -45,12 +45,13 @@ The following table lists the walkthroughs that are available in this SDK docume
 |Plugins|[Walkthrough: Register an Azure-aware Plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)|
 |[!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]|[Walkthrough: Update a service endpoint from ACS to SAS authorization](walkthrough-update-service-endpoint-acs-sas-authorization.md)|
 |[!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]|[Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md)|
+|Client API|[Walkthrough: Write your first client script](clientapi/walkthrough-write-your-first-client-script.md)|
 
 <a name="bkmk_video"></a>
 
 ## Videos
 
-Here is a series of feature overview videos to get you started: [YouTube Videos](https://www.youtube.com/user/msdyncomm/playlists).
+Here is a series of feature overview videos to get you started: [YouTube Videos](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ/playlists?view=50&flow=list&shelf_id=14).
 
 Here is a series of videos that feature xRM development: [Building xRM solutions: a three-part video series](http://blogs.msdn.com/b/crm/archive/2015/11/25/building-xrm-solutions-three-part-video-series-available.aspx)
 
@@ -66,11 +67,11 @@ There are hundreds of samples found throughout this SDK documentation. For a cat
 
 Looking for more developer resources? Here are some other sources of information:
 
-- [Dynamics 365 Developer Center on MSDN](https://msdn.microsoft.com/dynamics/crm/default.aspx)
 - [Dynamics 365 Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment)
 - [Dynamics 365 Team Blog](http://blogs.msdn.com/b/crm/)
 - [Community provided sample code on MSDN Code Gallery](http://code.msdn.microsoft.com/site/search?query=crm%2Bonline&f%5B0%5D.Value=crm%2Bonline&f%5B0%5D.Type=SearchText&ac=4)
 - [Community provided open source projects on CodePlex](http://www.codeplex.com/site/search?query=dynamics%20crm&sortBy=Relevance&licenses=|&ac=4)
+- [Community provided open source projects on GitHub](https://github.com/search?q=dynamics+365&s=stars)
 - [XrmToolBox](http://www.xrmtoolbox.com/) provides many valuable tools created by the community
 
 Looking for more than just developer information? Here are other sites and pointers to social media you can use:
@@ -80,7 +81,6 @@ Looking for more than just developer information? Here are other sites and point
 - [Dynamics 365: Deployment Forum](http://social.microsoft.com/Forums/crmdeployment/home/)
 - [Certification Training](https://www.microsoft.com/learning/en-us/dynamics-certification.aspx)
 - [Contact Dynamics 365 Customer Support](http://go.microsoft.com/fwlink/p/?LinkID=394391)
-- [Dynamics 365 YouTube Videos](https://www.youtube.com/user/msdyncomm/DynamicsCRM)<!-- TODO: THis is not right-->
 - [Dynamics 365 on Facebook](https://www.facebook.com/msftdynamics)
 - [Dynamics 365 group on Linkedin](https://www.linkedin.com/groups/21231)
 - [Dynamics 365 on Twitter](https://twitter.com/MSFTDynamics365)
@@ -88,11 +88,4 @@ Looking for more than just developer information? Here are other sites and point
 ### See also
 
 [Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)
-[Get started](get-started-sdk.md)
-[Programming models](programming-models.md)
-[Run a simple program using web services](simple-program-web-services.md)
-[Sample: Quick start](sample-quick-start.md)
-[Sample: Simplified connection quick start](xrm-tooling/sample-simplified-connection-quick-start.md)
-[Sample: Quick start for XRM Tooling API](xrm-tooling/sample-quick-start-xrm-tooling-api.md)
-[Best practices](best-practices-sdk.md)
-[Developer tools](developer-tools.md)
+
