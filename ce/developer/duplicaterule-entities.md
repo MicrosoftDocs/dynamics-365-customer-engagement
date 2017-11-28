@@ -90,21 +90,6 @@ Some system entities will have more than one active or inactive state.The follow
 > GET [organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='appointment')/Attributes(LogicalName='statecode')/Microsoft.Dynamics.CRM.StateAttributeMetadata/OptionSet?$select=Options
 > ```
 
-## DuplicateRule Lookup properties
-
-|Name|Single-valued navigation properties|Description|
-|------|------|------|
-|_createdby_value|createdby|Unique identifier of the user who created the duplicate detection rule.|
-|_createdonbehalfby_value|createdonbehalfby|Unique identifier of the delegated user who created the duplicate rule.|
-|_modifiedby_value|modifiedby|Unique identifier of the user who last modified the duplicate detection rule.|
-|_modifiedonbehalfby_value|modifiedonbehalfby|Unique identifier of the delegate user who last modified the duplicaterule.|
-|_ownerid_value|ownerid|Unique identifier of the user or team who owns the duplicate detection rule.|
-|_owningbusinessunit_value|owningbusinessunit|Unique identifier of the business unit that owns duplicate detection rule.|
-|_owningteam_value|owningteam|Unique identifier of the team who owns the duplicate detection rule.|
-|_owninguser_value|owninguser|Unique identifier of the user who owns the duplicate detection rule.|
-
-More information: <xref href="Microsoft.Dynamics.CRM.duplicaterule?text=DuplicateRule Entity" />
-
 ## DuplicateRule Special messages
 
 `DuplicateRule` is a user-owned entity and normal create, retrieve, update, assign, and delete operations are allowed as well as operations to control access. More information: [DuplicateRule Messages](entities/duplicaterule.md#messages).
@@ -131,19 +116,6 @@ The following special messages can also be used:
 |[OperatorParam](entities/duplicaterulecondition.md#BKMK_OperatorParam)|Parameter value of N if the operator is Same First Characters or Same Last Characters.<br /> **Important**: <br />Don’t set the `OperatorParam` to zero during create or update operations.|
 |[RegardingObjectId](entities/duplicaterulecondition.md#BKMK_RegardingObjectId)|Unique identifier of the object with which the condition is associated.|
 
-## DuplicateRuleCondition Lookup properties
-
-|Name|Single-valued navigation properties|Description|
-|------|------|------|
-|_createdby_value|createdby|Unique identifier of the user who created the condition.|
-|_createdonbehalfby_value|createdonbehalfby|Unique identifier of the delegate user who created the duplicate rule condition.|
-|_modifiedby_value|modifiedby|Unique identifier of the user who last modified the condition.|
-|_modifiedonbehalfby_value|modifiedonbehalfby|Unique identifier of the delegate user who last modified the duplicate rule condition.|
-|_ownerid_value|ownerid|Unique identifier of the user or team who owns the duplicate rule condition.|
-|_regardingobjectid_value|regardingobjectid|Unique identifier of the object with which the condition is associated.|
-
-More information: <xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=DuplicateRuleCondition Entity" />
-
 ## DuplicateRuleCondition Special messages
 
 `DuplicateRuleCondition` is a child entity to `DuplicateRule`. Access to retrieve or modify these entities is dependant on access to the `DuplicateRule` it is associated with. More information: [DuplicateRuleCondition Messages](entities/duplicaterulecondition.md#messages).
@@ -156,8 +128,8 @@ The following special messages can also be used:
 
 
 ### See also
-<xref href="Microsoft.Dynamics.CRM.duplicaterule?text=DuplicateRule Entity" />   
-<xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=DuplicateRuleCondition Entity" />   
+<xref href="Microsoft.Dynamics.CRM.duplicaterule?text=duplicaterule EntityType" />   
+<xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=duplicaterulecondition EntityType" />   
 [Detect duplicate data](detect-duplicate-data-for-developers.md)<br />
 [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)<br />
 [Run duplicate detection](run-duplicate-detection.md)<br />
