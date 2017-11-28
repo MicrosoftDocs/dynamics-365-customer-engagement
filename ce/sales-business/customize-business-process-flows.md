@@ -15,9 +15,9 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Customize business process flows in Dynamics 365 for Sales, Business edition
+# Customize business process flows
 
-You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities they provide are very different from other features that use processes.
+With [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], you can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities they provide are very different from other features that use processes.
 
 With business process flows, you define a set of stages and steps that are displayed in a control at the top of a form. Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is called ”stage-gating."
 
@@ -226,8 +226,10 @@ To create the image:
       
   3.	On the download confirmation message, choose from the options. 
 
+### See also
 
-
+[Customize forms](customize-forms.md)
+[Customize views](customize-views.md)
 
 
 
