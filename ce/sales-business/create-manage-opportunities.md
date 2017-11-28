@@ -65,11 +65,11 @@ If you’re following the sales process from start to finish, you qualify a lead
 
  -   Est. Revenue. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
-4.  In the **Stakeholders** section, select the “+” sign to add a stakeholder (key contact at the account). A stakeholder is a person at the account who will be involved in decision-making.
+4.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](../sales-business/media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the box that appears, type a name, or select the Lookup icon to see a list of suggestions. When you have entered the desired name, press the Enter key.
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've  entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the **Stakeholder** role. Click the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
 
-5.  Repeat this step in the **Sales Team** section to add a member of the sales team (from your organization).
+5.  Similarly, in the **Sales Team** section, select the **More Commands** button ![More Commands button](../sales-business/media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a member of the sales team (from your organization).
 
 6.  To save your changes, on the command bar, **Save**.
 
