@@ -15,9 +15,9 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Customize views
+# Customize views (Dynamics 365 for Sales, Preview)
 
-In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], use views to define how a list of records for a specific entity is displayed. A view defines: 
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, use views to define how a list of records for a specific entity is displayed. A view defines: 
 
  - The columns to be displayed 
  - The width of columns displayed 
@@ -27,7 +27,7 @@ In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.
 The records that are visible in individual views are displayed in a list, sometimes called a grid, which frequently provides options so that people can change the default sorting, column widths, and filters to more easily see the data that’s important to them. Views also define the data source for charts that are used in the application. 
 
 ## Types of views 
-There are two types of views in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]: System views and Personal views. System views are views that are included with the app, or created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit System views. System views are special views the application depends on, which exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.
+There are two types of views in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview: System views and Personal views. System views are views that are included with the app, or created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit System views. System views are special views the application depends on, which exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.
 
 Personal views are created by individual users and they are visible only to that person or anyone else they choose to share their personal views with. As a user, you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view. 
 
