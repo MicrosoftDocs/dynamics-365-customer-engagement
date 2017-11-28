@@ -92,7 +92,7 @@ Some system entities will have more than one active or inactive state.The follow
 
 ## DuplicateRule Special messages
 
-`DuplicateRule` is a user-owned entity and normal create, retrieve, update, assign, and delete operations are allowed as well as operations to control access. More information: [DuplicateRule Messages](entities/duplicaterule.md#messages).
+[DuplicateRule](entities/duplicaterule.md) is a user-owned entity and normal create, retrieve, update, assign, and delete operations are allowed as well as operations to control access. More information: [DuplicateRule Messages](entities/duplicaterule.md#messages).
 
 The following special messages can also be used:
 
@@ -118,7 +118,7 @@ The following special messages can also be used:
 
 ## DuplicateRuleCondition Special messages
 
-`DuplicateRuleCondition` is a child entity to `DuplicateRule`. Access to retrieve or modify these entities is dependant on access to the `DuplicateRule` it is associated with. More information: [DuplicateRuleCondition Messages](entities/duplicaterulecondition.md#messages).
+[DuplicateRuleCondition](entities/duplicaterulecondition.md) is a child entity to `DuplicateRule`. Access to retrieve or modify these entities is dependant on access to the `DuplicateRule` it is associated with. More information: [DuplicateRuleCondition Messages](entities/duplicaterulecondition.md#messages).
 
 The following special messages can also be used:
 
