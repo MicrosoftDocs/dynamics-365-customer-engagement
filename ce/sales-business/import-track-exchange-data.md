@@ -51,4 +51,4 @@ from Excel** > **Import from Exchange**.
 
 ### See Also
 [Import contacts, accounts, or leads into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](import-data.md)  
-[User's guide for Dynamics 365 for Sales](user-s-guide-dynamics-365-sales.md)
+[User's guide for Dynamics 365 for Sales](user-guide-dynamics-365-sales.md)
