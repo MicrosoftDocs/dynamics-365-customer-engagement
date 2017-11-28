@@ -15,11 +15,11 @@ manager: sakudes
 ---
 # Render up to three levels of page hierarchy by using hybrid navigation
 [comment]: <> (Need to regroup with other similar topics. This topic can be the landing topic.)
-This example renders a type of hybrid navigation, based on the portal sitemap, that renders up to three levels of page hierarchy. The rules of this component are:
+This example renders a type of hybrid navigation, based on the portal site map, that renders up to three levels of page hierarchy. The rules for this component are:
 
-* The ancestor pages of the current page will be shown, back to the Home page (or to the maximum depth specified by the optional depth\_offset parameter). 
-* If the current page has children, those child pages will be shown.
-* If the current page has no children, the siblings of the current page will be shown.
+* The ancestor pages of the current page are shown back to the Home page (or to the maximum depth specified by the optional depth\_offset parameter). 
+* If the current page has children, those child pages are shown.
+* If the current page has no children, the siblings of the current page are shown.
 
 ```
 {% assign depth_offset = depth_offset | default: 0 %}
