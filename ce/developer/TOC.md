@@ -510,6 +510,8 @@
 
 # [Online Management API](online-management-api/)
 
+# [Marketing Developer Guide](marketing/)
+
 # [Programming reference](programming-reference.md)
 ## [Entity Reference](entities/TOC.yml)
 ## [Web API Reference](/dynamics365/customer-engagement/web-api/about)
