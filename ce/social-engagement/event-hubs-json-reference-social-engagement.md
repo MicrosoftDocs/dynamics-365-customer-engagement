@@ -1,20 +1,19 @@
 ---
 title: "JSON objects reference from Social Engagement | Microsoft Docs"
 description: "Review the full list of properties and object in the Social Engagement payload for Event Hubs."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "JSON, payload, metadata, event hubs, reference"
+ms.date: 11/28/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
-ms.assetid: e3a5774e-6bab-4a45-b328-014be8a831c3
-caps.latest.revision: 67
-author: "m-hartmann"
+applies_to:
+  - "Social Engagement"
+ms.assetid: 29a876d1-1915-3517-7ff0-cc357a156dec
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # JSON reference for events from Social Engagement
 This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
@@ -720,6 +719,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 |JSON element|Description|  
 |------------------|-----------------|  
 |[post.profile.id](#document.profile.id)|Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
+|[post.profile.uri](#document.profile.uri)|Unique identifier of author profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
 |[post.profile.profileIcon](#document.profile.profileIcon)|URI to public profile picture.|  
 |[post.profile.profileLocation](#document.profile.profileLocation)|JSON object describing the author's location information as specified by the author.|  
 |[post.profile.externalHandle](#document.profile.externalHandle)|Alias or handle of a profile.|  
@@ -735,6 +735,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 "profile": {  
   "name": "Display Name @externalHandle",  
   "id": "41890771",  
+  "uri": "mse-tw://#12345678"
   "profileIcon": "https://path/to/the/profileIcon.png" ,  
   "profileLocation": {  
     "locality": "Boston",  
@@ -756,14 +757,27 @@ Back to [top](#overview)
   
 <a name="document.profile.id"></a>   
 #### post.profile.id  
-Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
+Unique ID of the author profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
   
  Property Value Type: string  
   
  Parent: *post.profile*  
   
  Sample: [post.profile](#document.profile)  
+
+> [!NOTE]
+> **post.profile.uri** will replace **post.profile.id** in June 2018. You can find more details in [this blog post](https://blogs.msdn.microsoft.com/crm/2017/11/27/deprecation-of-post-profile-id-object-in-social-engagement-json-payload/). Please update your apps using this field.
+
+<a name="document.profile.uri"></a>   
+#### post.profile.uri  
+Unique identifier of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
   
+ Property Value Type: string  
+  
+ Parent: *post.profile*  
+  
+ Sample: [post.profile](#document.profile)  
+
 <a name="document.profile.profileIcon"></a>   
 #### post.profile.profileIcon  
 URI to public profile picture.  
