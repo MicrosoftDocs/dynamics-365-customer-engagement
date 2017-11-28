@@ -1,21 +1,24 @@
 ---
 title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about debuggin a plug-in by logging and tracing."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: b4bbe405-a56f-450b-acd9-0c063cf35990
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 60
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+topic-status: Drafting
 ---
+
 # Debug a plug-In
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
@@ -111,7 +114,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
   
 |Option|Description|  
 |------------|-----------------|  
-|Off|Writing to the trace log is disabled. No **PluginTraceLog** records will be created. However, custom code can still call the [Object&#91;&#93;)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.itracingservice.trace\(system.string,system.object[]\)) method even though no log is written.|  
+|Off|Writing to the trace log is disabled. No **PluginTraceLog** records will be created. However, custom code can still call the <xref:Microsoft.Xrm.Sdk.ITracingService.Trace(System.String,System.Object[])> method even though no log is written.|  
 |Exceptions|Trace information is written to the log if an exception is passed back to the platform from custom code.|  
 |All|Trace information is written to the log upon code completion or an exception is passed back to the platform from the custom code.|  
   
@@ -120,7 +123,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  By default, the System Administrator and System Customizer roles have the required privileges to change the trace logging setting, which is stored in a <xref:Microsoft.Xrm.Sdk.Deployment.TraceSettings> entity record. Trace settings have an organization scope.  
   
 ### Write to the tracing service  
- Before writing to the tracing service, you must first extract the tracing service object from the passed execution context. Afterwards, simply add [Object&#91;&#93;)](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.itracingservice.trace\(system.string,system.object[]\)) calls to your custom code where appropriate passing any relevant diagnostic information in that method call.  
+ Before writing to the tracing service, you must first extract the tracing service object from the passed execution context. Afterwards, simply add <xref:Microsoft.Xrm.Sdk.ITracingService.Trace(System.String,System.Object[])> calls to your custom code where appropriate passing any relevant diagnostic information in that method call.  
   
  [!code-csharp[Plug-ins#AdvancedPlugin2](../snippets/csharp/CRMV8/plug-ins/cs/advancedplugin2.cs#advancedplugin2)]  
   
@@ -133,6 +136,16 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  The <xref:Microsoft.Xrm.Sdk.ITracingService> batches the information provided to it through the **Trace** method. The information is written to a new **PluginTraceLog** record after the custom code successfully runs to completion or an exception is thrown.  
   
  PluginTraceLog records have a finite lifetime. A bulk deletion background job runs once per day to delete records that are older than 24 hours from creation. This job can be disabled when needed.  
+
+ ## Community tools
+
+ ### Plugin trace viewer
+
+**Plugin Trace Viewer** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+
+ > [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
   
 ### See also  
  [Plug-in Development](plugin-development.md)   

@@ -36,7 +36,6 @@ Use the following properties of global context to return information about the c
 |[getCurrentAppName](getGlobalContext/getCurrentAppName.md) |Returns the name of the current business app in Customer Engagement.|
 |[getCurrentAppProperties](getGlobalContext/getCurrentAppProperties.md) |Returns the properties of the current business app in Customer Engagement.|
 |[getCurrentAppUrl](getGlobalContext/getCurrentAppUrl.md) |Returns the URL of the current business app in Customer Engagement.|
-|[getCurrentTheme](getGlobalContext/getCurrentTheme.md) |Returns a string representing the current theme name in the application.|
 |[getVersion](getGlobalContext/getVersion.md) |Returns the version number of the Dynamics 365 Customer Engagement instance.|
 |[isOnPremises](getGlobalContext/isOnPremises.md) |Returns a boolean value indicating if the Customer Engagement instance is hosted on-premises or online.|
 |[prependOrgName](getGlobalContext/prependOrgName.md) |Prefixes the current organization's unique name to a string, typically a URL path.|

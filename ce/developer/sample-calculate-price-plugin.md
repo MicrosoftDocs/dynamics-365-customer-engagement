@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the work with custom price plug-in sample](https://msdn.microsoft.com/en-us/library/dn817877.aspx).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with custom price plug-in](https://msdn.microsoft.com/en-us/library/dn817877.aspx).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

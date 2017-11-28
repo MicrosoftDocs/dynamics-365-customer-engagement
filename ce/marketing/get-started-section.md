@@ -1,7 +1,7 @@
 ---
 title: "Get started working with Dynamics 365 for Marketing | Microsoft Docs"
-description: "How to purchase and set up Dynamics 365 for Marketing for the first time, how to get around in the system, and how to work with basic records such as contacts, accounts and leads"
-keywords: "get started"
+description: "How to get around in Dynamics 365 for Marketing; how to work with basic records such as contacts, accounts and leads; and strategies for email marketing"
+keywords: "get started; basics"
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
@@ -16,8 +16,8 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Get started with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+# Learn the basics [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Topics in this section explain how to purchase and set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time, how to get around in the system, and how to work with basic records such as contacts, accounts, and leads.
+Topics in this section explain how to get around in the system, and how to work with basic records such as contacts, accounts, and leads. There is also a topic that explains how to work with email marketing, including how to maximize deliverability and guidelines for how to conform to common email-marketing regulations.

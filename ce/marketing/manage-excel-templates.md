@@ -2,18 +2,20 @@
 title: "Create and deploy Excel templates for Dynamics 365 for Marketing | Microsoft Docs"
 description: "Create Excel templates that you can use to export, format, and share data from multiple records in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; Excel; templates; export"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 2ab960e0-95ae-44bf-938c-a357a1982c4e
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -131,10 +133,15 @@ By default, pivot chart data is not automatically refreshed when you open the wo
   ![Pivot table options in Excel](media/excel-pivot-options-ill.png "Set pivot chart data to be automatically refreshed")
 - **Placing new data**  
 If you want to add content to the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template, place your data above or to the right side of the existing data. A second option is to place your new content on a second sheet.
-- **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images may cause an error**  
+- **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images might cause an error**  
 
 If you attempt to view [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data by using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you might see the following message: "An error occurred while attempting to save your workbook. As a result, the workbook was not saved." Try removing the image from the template and reloading the template into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates and [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)]**  
 [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates will not open in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)] devices with the [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app. You'll get the following error message: "We've recovered as much of your document as we could, but you can't edit it. Try to open and repair the document on your PC to fix the problem." This is a known issue.
 - **Use table column names and range names in formulas**  
 When you create [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] formulas, don't use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
+
+### See also
+
+[Export data to Word or Excel docs](export-data-word-excel.md)  
+[Business management settings](business-management-settings.md)

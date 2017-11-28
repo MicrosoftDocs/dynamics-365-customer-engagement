@@ -40,7 +40,7 @@ Commitment representing a time interval with start/end times and duration.
 |Validate|<xref href="Microsoft.Dynamics.CRM.Validate?text=Validate Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateRequest>|
 |ValidateSavedQuery|<xref href="Microsoft.Dynamics.CRM.ValidateSavedQuery?text=ValidateSavedQuery Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateSavedQueryRequest>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Appointment<br />
 **DisplayCollectionName**: Appointments<br />

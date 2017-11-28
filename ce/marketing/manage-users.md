@@ -85,6 +85,14 @@ Assign a manager or change an existing manager. The manager is responsible for a
 1. Select the users whose manager you want to change, and then on the command bar, select **Change Manager**.
 1. In the **Change Manager** dialog box, select the Lookup button to choose a manager, and then select **OK**.
 
+## Use privileges to grant access to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] and [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] features
+
+Each security role established in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
+
+When you are creating and customizing security roles, you'll find most of the user privileges added by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app on the **Custom Entities** tab of the **Security Role** dialog.
+
+You can control access to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] information (such as when working with segments and related insights) from the **Custom Entities** tab by using the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Information** entity listed here. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] coordinates with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] in the background to grant the required access, so you don't need to make any additional settings in [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] to enable it. Add the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Information** entity to each relevant user role applied to users who require access to these features from [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+
 ## Security roles added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 Security roles enable administrators to control which users have access to which features of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Several security roles are common to almost all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications, while others are more specialized. This topic describes the specialized roles added specifically by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
@@ -116,9 +124,9 @@ The lead-management solution adds the following security roles:
 
 The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen package adds the following security roles:
 
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Administrator**: Users with this role can configure lead matching strategies, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping, and solution settings for [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)].
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson**: These users can authorize [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], and view details about the synced submissions.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound**: an internal security role used by the solution to sync data
 
 ### Surveys security roles
 
@@ -129,3 +137,8 @@ The surveys package adds the following security roles:
 - Survey Feedback Publisher
 - Survey Service
 - Survey User
+
+### See also
+
+[Manage security, users, and teams](../admin/manage-security-users-and-teams.md)  
+[Manage teams](manage-teams.md)

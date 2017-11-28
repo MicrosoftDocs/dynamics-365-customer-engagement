@@ -23,3 +23,4 @@ manager: "brycho"
 The following section contains information about users, teams, and security in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 ### See also  
+[User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility/)

@@ -236,4 +236,4 @@ namespace Microsoft.Crm.Sdk.Samples
  [Web API Reference](/dynamics365/customer-engagement/web-api/about?view=dynamics-ce-odata-9)  
  [Web API Samples](web-api-samples.md)   
  [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
- [Authenticate users in Dynamics 365](authenticate-users.md)
+ [Authenticate users in Dynamics 365](../authenticate-users.md)

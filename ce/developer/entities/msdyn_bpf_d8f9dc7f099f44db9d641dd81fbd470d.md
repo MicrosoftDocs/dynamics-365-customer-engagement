@@ -31,7 +31,7 @@ Base entity for process Invoice Process
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470ds(*businessprocessflowinstanceid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470ds(*businessprocessflowinstanceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Invoice Process<br />
 **DisplayCollectionName**: Invoice Process<br />

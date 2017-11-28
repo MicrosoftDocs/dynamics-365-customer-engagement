@@ -25,7 +25,7 @@ Represents a mapping between two related entities so that data from one record c
 |Retrieve|GET [*org URI*]/api/data/v9.0/entitymaps(*entitymapid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/entitymaps<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Entity Map<br />
 **DisplayCollectionName**: Entity Maps<br />

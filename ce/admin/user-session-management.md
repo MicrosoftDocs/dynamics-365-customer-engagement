@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management for Dynamics 365 for Government | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/27/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Security enhancements: User session and access management 
+# Security enhancements: User session and access management
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -26,7 +26,7 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 > These security enhancements are also available for:
 >
 > - Microsoft Dynamics CRM 2016 (on-premises, version 8.2) <br />
->   The feature is included in [this update](https://support.microsoft.com/help/4046795/microsoft-dynamics-365-online-and-on-premises-update-2-2).
+>   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
 > - Microsoft Dynamics CRM 2016 (on-premises, version 8.1) <br />
 >   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
 > - Microsoft Dynamics CRM 2015 (on-premises) <br />
@@ -39,8 +39,6 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 
 ## User session timeout
 By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
-
-By default, [!INCLUDE[pn_CRM_Online_Government_Full](../includes/pn-crm-online-government-full.md)] sets a user session timeout of 8 hours. A user is not required to log in with their credentials for up to 8 hours regardless of whether the user was active or inactive.
 
 You can change this behavior.
 

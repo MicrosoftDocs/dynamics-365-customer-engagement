@@ -37,7 +37,7 @@ Specify work order incidents reported to you by the client. These are also refer
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderincidents(*msdyn_workorderincidentid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderincidents(*msdyn_workorderincidentid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Work Order Incident<br />
 **DisplayCollectionName**: Work Order Incidents<br />

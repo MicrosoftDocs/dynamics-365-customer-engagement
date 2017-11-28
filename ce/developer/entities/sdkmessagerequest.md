@@ -25,7 +25,7 @@ For internal use only.
 |Retrieve|GET [*org URI*]/api/data/v9.0/sdkmessagerequests(*sdkmessagerequestid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sdkmessagerequests<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Sdk Message Request<br />
 **DisplayCollectionName**: Sdk Message Requests<br />

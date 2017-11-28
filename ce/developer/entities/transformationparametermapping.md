@@ -27,7 +27,7 @@ In a data map, defines parameters for a transformation.
 |Retrieve|GET [*org URI*]/api/data/v9.0/transformationparametermappings(*transformationparametermappingid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/transformationparametermappings<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Properties
+## Entity Properties
 
 **DisplayName**: Transformation Parameter Mapping<br />
 **DisplayCollectionName**: Transformation Parameter Mappings<br />

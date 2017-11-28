@@ -2,18 +2,20 @@
 title: "Manage your everyday activates in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Stay on top of your daily workload with dashboards, activities, and teams in Dynamics 365 for Marketing"
 keywords: "activity; dashboard; task; phone call; appointment"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: b9d69822-83df-4120-91bc-0afa83c84f4f
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Organize your daily work
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -128,3 +130,8 @@ If you would like another person in your organization to handle a particular acc
 1. If you have chosen to assign to **User** or **Team**, in the **User or team** field, select the **Lookup** icon to choose a user or a team.
 
 1. Select **Assign**.
+
+### See also
+
+[Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+[The event management dashboard](event-management-dashboard.md)

@@ -1,21 +1,24 @@
 ---
 title: "Web resources for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Web resources are virtual files that are stored in the Dynamics 365 database and that you can retrieve by using a unique URL address."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
- - "Dynamics 365 (online)"
+ms.service: crm-online
+ms.custom: 
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 46
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+topic-status: Drafting
 ---
+
 # Web resources for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
@@ -36,7 +39,7 @@ Web resources are *virtual files* that are stored in the [!INCLUDE[pn_dynamics_c
   
 <a name="BKMK_LimitationsOfWebResources"></a>   
 ### Limitations of web resources  
- There is no type of web resource that supports the capabilities of an ASP.NET(.aspx) page to execute code on the server. Web resources are limited to static files or files that are processed in the browser. A web resource can contain code that is processed in the browser to execute web service calls to interact with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. For more information, see [Work with Customer Engagement data using web resources](work-data-using-web-resources.md),  
+ There is no type of web resource that supports the capabilities of an ASP.NET(.aspx) page to execute code on the server. Web resources are limited to static files or files that are processed in the browser. A web resource can contain code that is processed in the browser to execute web service calls to interact with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. For more information, see [Work with Customer Engagement data using web resources](work-data-using-web-resources.md). 
   
  Web resources are only available by using the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application security context. Only licensed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who have the necessary privileges can access them.  
   
@@ -136,7 +139,15 @@ https://MyOrganization.crm.dynamics.com/WebResources/new_/test/test.htm
 http://myServer/MyOrganization/WebResources/new_/test/test.htm  
 ```  
   
- When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.  
+ When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.
+
+## Community tools
+
+**WebResources Manager** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
   
 ### See also  
  [Write Client Application Extensions for Dynamics 365 Customer Engagement](extend-client.md)<br />

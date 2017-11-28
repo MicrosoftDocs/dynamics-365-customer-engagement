@@ -44,4 +44,4 @@ The `CampaignItem` intersect entity is the intersect table for the following man
  [ListMember intersect entity metadata](listmember-intersect-entity-metadata.md)   
  [Role Privileges intersect entity metadata](role-privileges-intersect-entity-metadata.md)   
  [Sample: Retrieve records from an intersect table](sample-retrieve-records-intersect-table.md)   
- [Campaign Entities](campaign-entities.md)
+ [Campaign entities](../campaign-entities.md)

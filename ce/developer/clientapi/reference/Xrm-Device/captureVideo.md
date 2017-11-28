@@ -29,7 +29,7 @@ manager: "amyla"
  
 
 ## Return Value
-On success, returns a promised base64 encoded Video object with the attributes specified earlier.
+On success, returns a base64 encoded Video object with the attributes specified earlier.
 
 ## Remarks
 This method is supported only for the mobile clients.
