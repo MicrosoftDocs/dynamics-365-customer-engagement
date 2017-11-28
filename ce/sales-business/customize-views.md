@@ -218,5 +218,5 @@ When you're finished creating or updating a view, you need to publish it so peop
 
 ### See also
 
-[Customize forms](customize-forms.md)
+[Customize forms](customize-forms.md)</br>
 [Customize business process flows](customize-business-process-flows.md)
