@@ -283,6 +283,9 @@ After you save the changes to your form, you’ll need to publish it to make it 
 
     ![Publish form](media/form-cust-20.png "Publish form")
 
+### See also
 
+[Customize views](customize-views.md)
+[Customize business process flows](customize-business-process-flows.md)
 
 
