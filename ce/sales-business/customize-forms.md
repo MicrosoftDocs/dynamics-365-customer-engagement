@@ -15,7 +15,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Customize forms (Dynamics 365 for Sales, Preview)  
+# Customize forms (Sales, Preview)  
 
 In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview to meet the specific needs of your organization.
 
