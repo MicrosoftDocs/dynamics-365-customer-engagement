@@ -15,9 +15,9 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Customize forms  
+# Customize forms (Dynamics 365 for Sales, Preview)  
 
-In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to meet the specific needs of your organization.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview to meet the specific needs of your organization.
 
 
 > [!IMPORTANT]
@@ -31,7 +31,7 @@ A form is a set of data-entry fields that matches the items your organization tr
 When you publish a customized form, you are publishing an updated version of the entity associated with the form.
 
 ## What forms can you customize?
-You can customize any of the following forms in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]: 
+You can customize any of the following forms in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview: 
 
 - Account
 - Contact
@@ -56,7 +56,7 @@ To access the forms:
 
 ## What types of customizations can you do?
 
-Form customization in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] is limited to basic field customization. You can't customize controls (timeline or Bing maps, for example) or change the layout of a form by adding or removing new form sections or tabs or rearranging sections and tabs. 
+Form customization in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview is limited to basic field customization. You can't customize controls (timeline or Bing maps, for example) or change the layout of a form by adding or removing new form sections or tabs or rearranging sections and tabs. 
 
 ## Get oriented with the form designer
 In the form designer, the sections of the form are displayed on the left with tabs that contain additional information about the form. The available tabs depend on the form. For example, the Account form has a **Summary** tab and a **Details** tab. The Opportunity form has a **Product Line** tab but no **Details** tab. Each tab includes different parts of the form.
