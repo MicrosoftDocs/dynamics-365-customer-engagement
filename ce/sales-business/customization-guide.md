@@ -15,7 +15,7 @@ manager: amyla
 ms.reviewer: 
 ---
 
-# Customization Guide (Sales)
+# Customization Guide (Sales, Preview)
 
 <table>
 
