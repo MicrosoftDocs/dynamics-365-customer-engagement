@@ -2,7 +2,7 @@
 title: "Tutorials and resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 (online) Customer Engagement."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/28/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -34,7 +34,7 @@ Need Support? [Search the knowledge base or contact technical support](http://go
 
 ## Walkthroughs
 
-The following table lists the walkthroughs that are available in this SDK documentation. The [Dynamics 365 Developer Center on MSDN](https://msdn.microsoft.com/dynamics/crm/dn467921.aspx) shows these walkthroughs organized by topic area. Check it out!
+The following table lists the walkthroughs that are available in this SDK documentation.
 
 |Category|Link|
 |--------------|----------|
@@ -45,6 +45,7 @@ The following table lists the walkthroughs that are available in this SDK docume
 |Plugins|[Walkthrough: Register an Azure-aware Plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)|
 |[!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]|[Walkthrough: Update a service endpoint from ACS to SAS authorization](walkthrough-update-service-endpoint-acs-sas-authorization.md)|
 |[!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]|[Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md)|
+|Client API|[Walkthrough: Write your first client script](clientapi/walkthrough-write-your-first-client-script.md)|
 
 <a name="bkmk_video"></a>
 
