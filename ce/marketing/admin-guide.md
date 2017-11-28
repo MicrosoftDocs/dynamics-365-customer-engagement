@@ -24,7 +24,7 @@ topic-status: Drafting
 
 <h2>Set up and get started</h2>
 <li>[First time setup](purchase-setup.md)</li>
-<li>[Use a full Customer Insights account with Marketing](setup-licensed-dci.md)</li>
+<li>[Use your own Azure subscription for Customer Insights](setup-licensed-dci.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
