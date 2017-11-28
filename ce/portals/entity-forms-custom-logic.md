@@ -29,7 +29,7 @@ When creating a new entity form, the first step is to decide the **Entity** and 
 
 > [!Note]
 > - An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
-> - The Connections entity is not supported in entity form. If you add a Connections entity using Form editor, error messages are displayed when you render the form on the portal and use the Connections entity.
+> - The Connection entity subgrids are not supported in entity forms. If you add a Connection entity subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection entity.
 
 The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 
