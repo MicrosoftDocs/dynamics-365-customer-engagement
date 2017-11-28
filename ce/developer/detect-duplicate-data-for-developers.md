@@ -44,7 +44,7 @@ Duplicate detection lets organizations set duplicate detection policies and crea
  [DuplicateRecord Entity](entities/duplicaterecord.md)<br />
   
 ## Related Sections  
- [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)<br />  
+ [Data Management in Dynamics 365 (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
  [Delete data in bulk](delete-data-bulk.md)
 
 ## See Also
