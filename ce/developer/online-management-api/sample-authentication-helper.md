@@ -60,7 +60,7 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
         // These values are obtained on registering your application with the 
         // Azure Active Directory.
         private static string _clientId = "<GUID>";     //e.g. "e5cf0024-a66a-4f16-85ce-99ba97a24bb2"
-        private static string _redirectUrl = "<Url>";  //e.g. "http://localhost/SdkSample"
+        private static string _redirectUrl = "<Url>";  //e.g. "app://s7cf7712-b773-4f16-92b3-34cs97a25cc7"
 
         #region Constructors
         /// <summary>

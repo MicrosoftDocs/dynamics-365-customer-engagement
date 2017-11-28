@@ -31,7 +31,7 @@ These are the broad steps to authenticate to the Online Management API service.
     // These values are obtained on registering your application with the 
     // Azure Active Directory.
     private static string _clientId = "<GUID>";    //e.g. "e5cf0024-a66a-4f16-85ce-99ba97a24bb2"
-    private static string _redirectUrl = "<Url>";  //e.g. "app://e5cf0024-a66a-4f16-85ce-99ba97a24bb2"
+    private static string _redirectUrl = "<Url>";  //e.g. "app://s7cf7712-b773-4f16-92b3-34cs97a25cc7"
     ```
 
 1. Discover authority information for Online Management API based on the service URL. For North America region, the service URL is: **https://admin.services.crm.dynamics.com**. For region-specific service URL, see [Service URL](get-started-online-management-api.md#service-url)<br /> Use Azure Active Directory challenge format to determine the authority information based on the service URL of the API.<br />We are also determining the resource for the Online Management API (different from the service URL), which will be used in the next step to acquire access token.

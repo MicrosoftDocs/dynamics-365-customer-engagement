@@ -85,7 +85,7 @@ Use the XML Mapping Pane to define the Word template with [!INCLUDE[pn-sales-bus
 
 1.  In your Word template, select **Developer** &gt; **XML Mapping Pane**.
 
- ![XML Mapping Pane in the Developer tab of Word](media/xml-mapping-pane-in-develoer-tab.png "XML Mapping Pane in the Developer tab of Word")  
+ ![XML Mapping Pane in the Developer tab of Word](media/xml-mapping-pane-in-developer-tab.png "XML Mapping Pane in the Developer tab of Word")  
 
  The default XML schema is selected.
 
