@@ -6,7 +6,7 @@ author: anjgupta
 applies_to: Dynamics 365 (online); Dynamics 365 Version 9.x
 ms.author: anjgup
 manager: sakudes
-ms.date: 08/03/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.service: crm-online
 ms.assetid: d6119031-f4f3-46ab-870f-1d1a403b83
@@ -137,3 +137,5 @@ Refer the following sections to know the keyboard shortcuts to perform a specifi
 |Moves to the previous drop-down list or context menu option     |    Shift+Tab **Or** Up Arrow     |
 |Activate a toolbar button, a context menu option, a drop-down list option, an elements path element, or a dialog box tab after it is selected. Also activates a context menu submenu, if one is available     |   Spacebar **Or** Enter      |
 
+## See also
+[Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)

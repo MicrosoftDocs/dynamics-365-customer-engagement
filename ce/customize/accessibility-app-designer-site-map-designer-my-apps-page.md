@@ -95,3 +95,7 @@ Microsoft is committed to making its products and services easier for everyone. 
 -   [Safari accessibility features](http://www.apple.com/accessibility/)  
   
 -   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
+
+## See also
+
+[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../keyboard-shortcuts/keyboard-shortcuts.md)
