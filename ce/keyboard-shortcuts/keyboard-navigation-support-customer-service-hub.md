@@ -40,5 +40,5 @@ Microsoft Dynamics 365 now supports moving around the Customer Service Hub (form
 ## See also
 [Customer Service Hub – User's guide](../customer-service/user-guide-customer-service-hub.md)
 
-[Using keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)
+[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)
 

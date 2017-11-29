@@ -19,7 +19,7 @@ ms.assetid: d6119031-f4f3-46ab-870f-1d1a403b83
 Microsoft is committed to making its products and services easier for everyone to use. More information: [Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility)
 
 > [!NOTE]
-Dynamics 365 for Marketing, Business edition is based on an enhanced customer experience. To know more about the applicable keyboard shortcuts, see [Using keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md).
+Dynamics 365 for Marketing, Business edition is based on an enhanced customer experience. To know more about the applicable keyboard shortcuts, see [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md).
 
 Dynamics 365 provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system.
 
