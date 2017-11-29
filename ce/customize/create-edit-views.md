@@ -74,7 +74,7 @@ You can create custom public views. You can delete any custom public views you c
 ## Create or edit views
 You can create or edit views in two ways:
 - **Using the App Designer:** If you’re creating views for the first time, you may want to start with the App Designer, which provides a simple and intuitive UI with drag-and-drop capabilities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit public or system views by using the app designer](../customize/create-edit-views-app-designer.md). 
-- **Using the Solution Explorer:** If you’re already experienced with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you may want to use the Solution Explorer. However, we recommend you to use App Designer to create or edit a view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a view](../customize/create-and-edit-views.md).
+- **Using the Solution Explorer:** If you’re already experienced with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you may want to use the Solution Explorer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a view](../customize/create-and-edit-views.md).
 
 ## Customize views
 As a system administrator and system customizer, you can customize the views through controls by making grids (lists) editable and compatible for Unified Interface. The following controls are used:
@@ -82,5 +82,5 @@ As a system administrator and system customizer, you can customize the views thr
 - **Read Only Grid:** Provides users an optimal viewing and interaction experience for any screen size or orientation such as mobiles and tablets by using responsive design principles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Specify properties for Unified Interface apps](../customize/specify-properties-for-unified-interface-apps.md)
 
 ### See also  
-[Gett started with customization](../customize/getting-started-customization.md)     
+[Get started with customization](../customize/getting-started-customization.md)     
 [Create and design forms](../customize/create-design-forms.md)   

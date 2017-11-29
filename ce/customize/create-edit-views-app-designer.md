@@ -174,7 +174,7 @@ When you edit a public or system  view, you must save and publish your changes b
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Developer tools](https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-tools).
 
 > [!NOTE]
-> The community tools are not a product of Microsoft Dynamics and does not extend support to the community tools. If you have questions pertaining to the tool, please contact the publisher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [XrmToolBox](https://www.xrmtoolbox.com/). 
+> These tools are provided by XrmToolBox and are not supported by Microsoft. If you have questions pertaining to the tool, please contact the publisher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [XrmToolBox](https://www.xrmtoolbox.com/). 
 
 ### See also
 [Create or edit views](create-edit-views.md)
