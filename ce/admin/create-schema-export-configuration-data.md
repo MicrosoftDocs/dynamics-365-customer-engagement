@@ -1,7 +1,7 @@
 ---
 title: "Create a schema to export configuration data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,16 +15,18 @@ caps.latest.revision: 15
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Create a schema to export configuration data
+# Create a schema to export configuration data 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The Configuration Migration tool lets you build a schema to describe your export data. It also enables you to check for any missing dependencies and relationships in the entities or fields to be exported to avoid an inconsistent data set.  
   
 <a name="Prereq"></a>   
-## Before you begin  
-[Download the Dynamics 365 SDK package](https://www.microsoft.com/download/details.aspx?id=50032). Extract the contents of the package on your computer. The Configuration Migration tool is available under the SDK\Tools\ConfgurationMigration folder in the extracted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package. You do not need to install the Configuration Migration tool. Run the tool by double-clicking the **DataMigrationUtility.exe** file in the SDK\Tools\ConfgurationMigration folder.  
-  
+
+## Before you begin 
+
+Download and install the [Microsoft Dynamics 365 SDK Xrm Configuration Migration Tool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf/9.0.0.7). 
+ 
 <a name="CreateandExport"></a>   
 ## Create a schema and export configuration data  
   
@@ -117,8 +119,9 @@ The Configuration Migration tool lets you build a schema to describe your export
 7.  Click **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.  
   
 8.  Click **Exit** to close the tool.  
-  
-### See also  
+
+### See also 
+ [Download tools from NuGet](../developer/download-tools-nuget.md) <br />
  [Modify a schema](modify-configuration-data-schema.md)   
  [Manage your configuration data](manage-configuration-data.md)   
  [Import configuration data](import-configuration-data.md)

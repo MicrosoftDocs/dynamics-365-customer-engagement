@@ -1,7 +1,7 @@
 ---
-title: "Purchase and set up Dynamics 365 for Marketing | Microsoft Docs"
-description: "How to purchase and set up Dynamics 365 for Marketing for the first time"
-keywords: "purchase; setup; FRE; wizard; Azure; customer insights"
+title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
+description: "How to set up Dynamics 365 for Marketing for the first time"
+keywords: "setup; licensing; FRE; wizard; Azure; customer insights"
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
@@ -16,11 +16,25 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Purchase and first-time setup
+# First time setup
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This topic explains how licensing works, how to set up the system for the first time, and how to rerun the setup wizard if you need to change your setup later. It also provides important privacy information.
+
+## Prerequisites and requirements
+
+> [!IMPORTANT] A setup wizard is provided to help you set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time. Before running the wizard, you must meet all of the following requirements:
+> - Use Google Chrome (only)
+> - Put your browser in incognito mode
+> - Turn off all pop-up blockers
+> - Close all other browser windows and tabs before starting
+> - Clear your browser cache before starting
+> - You must sign into [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] as a _global administrator_ (also known as a _tenant admin_).  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Office 365 admin roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+> - You must already be assigned a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license in [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)].
+> - [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. During the setup, you can choose to use a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created and managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] specifically for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you might also choose to use your own, fully licensed account to gain access to more [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features. _If you do choose to use your own [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account, please note that it must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]_.
+> 
+> Once the setup is complete, we recommend that all users also use Google Chrome, though most browsers should also work fine, and wider browser support is expected soon.
 
 ## How licensing works
 
@@ -39,7 +53,7 @@ The remaining sections of this topic provide details about each step of the setu
 
 ### Step 1: The Organization Selector page
 
-A [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] organization (org) is the foundation on which all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Customer Engagement apps are built. All the various [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps installed on a given org can potentially be integrated with one another and share data in various ways. If you aren't already using any other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps, you'll set up a new org now. If you already have one or more orgs, you'll be able to select an existing one that you want to integrate with the marketing app, or create a new one.
+A [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] organization (org) is the foundation on which all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Customer Engagement apps are built. All the various [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps installed on a given org can potentially be integrated with one another and share data in various ways. If you aren't already using any other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps, you'll set up a new org now. If you already have one or more orgs, you'll be able to select an existing one that you want to integrate with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, or create a new one.
 
 ![The Organization Selector page](media/fre-org-select.png "The Organization Selector page")
 
@@ -53,46 +67,28 @@ Do the following:
 
 ### Step 2: The Customer Insights page
 
-[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] is a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]-based service that provides analytical tools for working with customer records. You use these tools to better understand your customers, and set up subscription lists and target segments for use in email-marketing campaigns.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. On this page of the setup wizard, you can choose to use a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created and managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] specifically for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you might also choose to use your own, fully licensed account to gain access to more [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features.
 
-This service has broad applications and is licensed separately. If you are already using [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], you can integrate your new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] org with your existing [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] app. If you don't have a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] or [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription, the setup wizard will help you set these up.
+> [!IMPORTANT]  If you choose to use your own [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account, please note that it must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customer Insights overview](https://docs.microsoft.com/dynamics365/customer-insights/deploy/overview)
 
 ![The Customer Insights page](media/fre-customer-insights.png "The Customer Insights page")
 
-Do the following:
+To use the limited [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], do the following:
 
-1. If you don't already have a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription, click the first link provided near the top of the page. This opens a new browser window that will help you set up a new subscription. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] is a subscription-based cloud-computing platform on which [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], and many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] services, run.
-
-1. If you don't already have a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] subscription, select the second link provided near the top of the page. This opens a new browser window that will help you set up a new [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Hub, which is the service that provides the [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] feature. [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] runs on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)], so you must already have an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] account before you can set up [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
-
-1. After you have your [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Hub subscriptions in place, you're ready to fill out the rest of the settings on this page, which will enable [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to access those services. Start with the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Hub URL**. To find this value, sign in to your [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] account and copy the **API Endpoint** value shown on the **Overview** page (shown in the following image) to the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Hub URL** field in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] setup.
-
-    ![Find your API Endpoint in Azure](media/fre-azure-endpoint-ill.png "Find your API endpoint in Azure")
-
-1. Now find your **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] web application URL**, which is also on the **Overview** page in [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]. Select the link shown under the **Application** heading to open the application in your browser, then copy the URL itself from your browser's **Address** bar into the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] web application URL** field in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] setup.
-
-    ![Find your Customer Insights URL in Azure](media/fre-azure-ci-url-ill.png "Find your Customer Insights URL in Azure")
-
-1. Finally, you need your **Access policy primary key**, which functions as a password that authenticates [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to communicate with [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. You'll also find this value in your [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] portal, but on a different page. Do the following:
-    1. Select **Keys** in the leftmost column, and then select the **Policy Name** shown.
-
-        ![Find your policy name in Azure](media/fre-azure-policy-name-ill.png "Find your policy name in Azure")
-
-    1. Details about your selected policy now appear. Copy the value shown for the **Primary Key** from here into the **Access policy primary key** field in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] setup.
-
-        ![Find your policy primary key in Azure](media/fre-azure-policy-key-ill.png "Find your policy primary key in Azure")
-
-1. Paste the same key value that you just found into the **Re-enter access policy primary key** field too.
+1. Set the drop-down list on this page to **Use default**.
 
 1. Carefully read the check box text at the bottom of the form, and follow and read all the links provided. This text and its links provide important privacy information and describe the privacy policy for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. If you agree with the policies described, select the check box. If you don't accept these terms, quit the setup wizard.
 
 1. Select **Continue** to start the setup and integration process for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] and continue with the wizard.
 
+To use your own, full-featured [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account instead of the included one, go to [Use a full Customer Insights license with Dynamics 365 for Marketing](setup-licensed-dci.md) for instructions, then return here to continue.
+
 ### Step 3: The Portal page
 
-The portals feature enables [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to host webpages, accept values submitted by page visitors, and to update its database directly based on those values. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses the portals feature to publish marketing pages, subscription centers, event portals (with online event registration), surveys, and more. As with many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] elements, you can integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] with an existing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Portals instance if you have one, or set up a new portal instance.
+The portals feature enables [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to host webpages, accept values submitted by page visitors, and to update its database directly based on those values. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses the portals feature to publish marketing pages, subscription centers, event portals (with online event registration), surveys, and more. As with many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] elements, you can integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] with an existing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Portals instance if you have one, or set up a new portal instance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with portals](portals.md)
 
 ![The Portal page](media/fre-portal.png "The Portal page")
 
@@ -110,9 +106,21 @@ Do the following:
 
 1. Select **Continue** to continue with the wizard.
 
-### Step 4: The Survey page
+### Step 4: The Marketing Email page
 
-The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Surveys app enables you to run online surveys by using a feature called Voice of the Customer. The app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but has a separate privacy policy that you must read and accept before you can enable it.
+All marketing email messages sent by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
+
+![The Marketing Email page](media/fre-email.png "The Marketing Email page")
+
+Do the following:
+
+1. Type the full physical street address for your organization in the field provided.
+
+1. Select **Continue** to continue with the wizard.
+
+### Step 5: The Survey page
+
+The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Surveys app enables you to run online surveys by using a feature called Voice of the Customer. The app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but has a separate privacy policy that you must read and accept before you can enable it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and run online surveys](surveys.md)
 
 ![The Survey page](media/fre-survey.png "The Survey page")
 
@@ -120,11 +128,13 @@ Do the following:
 
 1. As soon as the **Survey** page opens, a dialog box opens asking whether you want to allow the app to access your information. This is required for the feature to function. Read the information carefully, and select **Yes** if you agree. If you don't agree, select **No** and then quit the setup wizard.
 
+    > [!IMPORTANT] If you don't see the pop-up dialog, then your browser may be blocking them. Disable your pop-up blocker and then reload the **Survey** page before continuing. Your setup will fail if you continue without agreeing to the message shown in the pop-up.
+
 1. The **Survey** page includes a check box, which you must select to indicate that you have read and agreed to its terms of service. Read the check box text carefully and follow its links for complete details. If you agree to the license terms and privacy policies that apply for the feature, select the check box. If you don't agree, quit the setup wizard.
 
 1. Select **Begin Setup** to start the setup and integration process for Surveys.
 
-### Step 5: The Summary page
+### Step 6: The Summary page
 
 You are now done entering settings. The wizard will continue to set up your system. You can track its progress on this page if you like, or you can close the page and wait for an email to arrive announcing that the process is complete. The email will be sent to the address associated with your [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] account.
 
@@ -136,66 +146,13 @@ You are now done entering settings. The wizard will continue to set up your syst
 
 As mentioned earlier in this topic, most of the settings you made while running the setup wizard are permanent for your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance. One exception to this is the password (policy primary key) for [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], which you can only update by rerunning the setup wizard.
 
-To rerun the wizard, go to the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and select the **Go to installation setup** link at the top of any page here. The setup wizard launches, behaving just like it did the first time you ran it, but this time only the key field on the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]** page will be active; all other settings are read-only.
+To rerun the wizard, go to the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and select the **Go to installation setup** link at the top of any page here. The setup wizard launches, behaving just like it did the first time you ran it, but this time only the key field on the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]** page will be active; all other settings are read-only. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Open advanced settings](open-advanced-settings.md).
 
 ## Privacy notice
 
-By enabling [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] you agree to allow flow of the data from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to certain [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services in order to perform some of the marketing processes. These services are collectively referred to as "[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services."
+[!INCLUDE[cc-privacy-marketing-fre](../includes/cc-privacy-marketing-fre.md)]
 
-journeys, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] needs to send customer journey, email, submission form, and marketing page definitions to these [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services, running on [!INCLUDE[pn_azure_service_fabric](../includes/pn_azure_service_fabric.md)]. Marketing Pages are further sent to a customer's own instance of Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+### See also
 
-To personalize sent emails [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] needs to enable data flow to and from [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]. Please see below for more information about the [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] service. Data flow to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] includes synchronization of contacts and accounts to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services uses this data to personalize email content. The data that is included depends exclusively on the email definition.
-
-To recalculate lead score models and marketing segments, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] needs to send lead score model definitions and segment definitions to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] and to leverage profiles and interactions in [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] within these calculations.
-
-To provide insights into the email and Internet interactions captured by [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services, the collected data flows from [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to both [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)].
-
-If additionally, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Event Management integration is enabled, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is synchronizing events to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] (directly via the connector for [!INCLUDE[pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)]) and event registrations and check-ins (via [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services, as interactions).
-
-Data flow involving [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] is the following:
-- Entity data from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], using the regular inbound connector of [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], in order to provide content for email personalization, lead scoring, and segmentation (mainly contacts and accounts, eventually also leads and events)
-- Entity data from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] via [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], in order to provide identifiers for interactions and insights (customer journey, marketing emails, marketing pages)
-- Interactions from [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] (email tracking, website tracking, customer journey progress)
-- Interactions from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] via [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] (event registrations and check-ins)
-- [!INCLUDE[pn-insights](../includes/pn-insights.md)] (interactions and KPIs) from [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] via [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (mainly customer journey and email send progress, and lead scoring results)
-- [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] apps (segmentation and widgets) from [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] directly into dedicated and sandboxed UI elements in forms of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
-
-### Marketing services
-
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses these [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services:
-
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Store
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Analytics
-- [!INCLUDE[pn-azure-key-vault](../includes/pn-azure-key-vault.md)]
-- [!INCLUDE[pn_azure_service_fabric](../includes/pn_azure_service_fabric.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] DocumentDb
-- [!INCLUDE[pn-microsoft-azure-active-directory](../includes/pn-microsoft-azure-active-directory.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Storage
-
-> [!NOTE]
-> For more information about additional [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service offerings, see the [!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)] (<https://azure.microsoft.com/support/trust-center/>).
-
-### [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]
-
-By using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you are activating the transfer of customer data into [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] for further processing. Your use of [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] may require compliance with specific privacy laws. Please direct any questions to the appropriate representative in your organization.
-
-At present, [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] is in public preview and does not offer the same level of privacy and security commitments as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] or [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Customer Engagement. [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] is natively built on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services, and respective compliance and security standards for each applicable [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service apply. For more information, go to the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Trust Center: [https://azure.microsoft.com/support/trust-center/](https://azure.microsoft.com/support/trust-center/)
-
-[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] uses these [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services:
-
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Store
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Analytics
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] HD Insight (Spark, Phoenix, HBase)
-- [!INCLUDE[pn-ms-azure-sql-database](../includes/pn-ms-azure-sql-database.md)]
-- [!INCLUDE[pn-azure-key-vault](../includes/pn-azure-key-vault.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Secret Store
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Event Hub
-- [!INCLUDE[pn-azure-stream-analytics](../includes/pn-azure-stream-analytics.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Redis Cache
-- [!INCLUDE[pn_azure_service_fabric](../includes/pn_azure_service_fabric.md)]
-- [!INCLUDE[pn-microsoft-azure-active-directory](../includes/pn-microsoft-azure-active-directory.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Monitoring
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Metrics
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Websites
-- [!INCLUDE[pn_azure_service_bus](../includes/pn_azure_service_bus.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Storage
+[Use a full Customer Insights account with Marketing](setup-licensed-dci.md)  
+[How Dynamics 365 for Marketing uses cookies](cookies.md)

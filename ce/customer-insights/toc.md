@@ -1,8 +1,14 @@
 # [Microsoft Dynamics 365 for Customer Insights](./getstart.md)
-##[About Customer Insights](./deploy/getstart2.md)
-### [About Preview](./deploy/aboutpreview.md)
-### [In This Release](./deploy/inthisrelease.md)
-### [Overview](./deploy/overview.md)
+<!-- ##[About Customer Insights](./deploy/getstart2.md) -->
+## [About Preview](./deploy/aboutpreview.md)
+## [Known Issues](./deploy/inthisrelease.md)
+## [What's New](./deploy/newfeatures.md)
+<!-- ### [Overview](./deploy/overview.md) -->
+### [Predictive Match](./deploy/createconflationpolicy.md)
+### [Predictive Scoring](./deploy/buildmlmodel.md)
+### [Segmentation](./deploy/createasegment.md)
+<!-- ### [Lead Scoring](./deploy/leadscoring.md) -->
+
 ## [Set up Customer Insights](./deploy/stepbystepconfiguration.md)
 ### [Prerequisites](./deploy/prerequisites.md)
 ### [Create Your Customer Insights Hub](./deploy/createdcihub.md)
@@ -12,17 +18,15 @@
 #### [Add Exchange Online as a Data Source](./deploy/datasourceoffice365.md)
 #### [Add Microsoft Social Engagement as a Data Source](./deploy/datasourcemse.md)
 ### [Data Modeling](./deploy/datamodeling.md)
+
 ## [Set up Customer 360](./deploy/stepbystepcustomer360.md)
 ## [Analyze Your Data with Power BI](./deploy/powerbi.md)
 ## [Set up Role-based Security](./deploy/stepbysteprolebasedsecurity.md)
 ## [Embed Customer Insights Widgets](./deploy/stepbystepembeddingaciwidgets.md)
 ### [Embed a Customer Insights View](./deploy/embedaciview.md)
 ### [Embed a Customer Insights View in a CRM Web Resource](./deploy/embedaciviewincrmwebresource.md)
-## [New Features July 2017](./deploy/newfeatures.md)
-### [Predictive Match](./deploy/createconflationpolicy.md)
-### [Predictive Scoring](./deploy/buildmlmodel.md)
-### [Segmentation](./deploy/createasegment.md)
-<!-- ### [Lead Scoring](./deploy/leadscoring.md) -->
+
+
 
 # [Microsoft Dynamics 365 for Customer Insights Developer Guide](./dev/devguide.md) 
 ## [Customer Insights Architecture](./dev/architecture.md) 

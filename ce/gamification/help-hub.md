@@ -1,15 +1,19 @@
 ---
 title: "Help and training for Gamification | Microsoft Docs"
 description: "Find your starting point for help content."
-ms.date: 07/10/2017
-ms.service: "gamification"
+keywords: ""
+ms.date: 11/10/2017
+ms.service: gamification
 ms.topic: article
-applies_to: "Dynamics 365 (online)"
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 7341ed32-5cf7-4bde-ab7a-d92c2b86e2a1
-author: "m-hartmann"
-ms.manager: sakudes
+author: m-hartmann
 ms.author: mhart
+manager: sakudes
+topic-status: Drafting
 ---
+
 # Gamification help and training
 
 <table>
@@ -68,7 +72,7 @@ ms.author: mhart
 
 <li>[What's new in Gamification](../gamification/release-notes.md)</li>
 <li>[Get Gamification from AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3)</li>
-<li>[Sign in to the Gamification portal](https://gamification.dynamics.com)</li>
+<li>[Sign in to the Gamification portal](https://go.microsoft.com/fwlink/p/?linkid=830344)</li>
 </td>
 </tr>
 </table>

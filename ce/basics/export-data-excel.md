@@ -67,9 +67,17 @@ Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-
   
     5.  Click **OK** and then close the **Options** dialog box.  
   
+## Community tools 
+
+**Export to Excel** is a tool provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
+  
 ## Privacy notice  
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]
-  
+
 ### See also  
  [Analyze your data with Excel templates](../admin/analyze-your-data-with-excel-templates.md)   
  [Analyze with Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)   

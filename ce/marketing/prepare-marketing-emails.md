@@ -2,18 +2,20 @@
 title: "Design, preview, check, and send marketing emails in Dynamics 365 for Marketing | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Prepare marketing email messages
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -91,7 +93,7 @@ Marketing messages are delivered as HTML, and therefore support hyperlinks. Some
 
 - **Standard links:** You can add standard links to any text content by highlighting the link text and selecting **Link** in the text toolbar. You can also add link URLs to many other types of standard blocks, including images and buttons. When your message goes live, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] replaces each link with a unique redirect URL that targets your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] server and identifies the message recipient, message ID, and the destination you specified for the link. When a contact clicks a link, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] logs the click and then forwards the contact directly to the URL you specified.
 - **Event, survey, or landing page:** These links go to an event portal, survey, or landing page. You can add them as text links in a text block, or as colorful call-to-action buttons. To create a button, drag an event, survey, or landing-page block to your email design and then configure which item the block should link to. To create a text link, select some text in a text block and then use the assist-edit feature.
-- **Subscription center (required)**: All marketing email messages must include a link to a subscription center. A subscription center includes mailing lists available from your organization, including an option for contacts to opt out of all marketing emails. Contacts may also be able to update their contact details here. A standard subscription center is supplied with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], which you can edit to contain your subscription lists and to reflect your graphical identity (you can also create additional pages to support multiple subscription options, languages, or brands). You'll add a subscription center link to your page by using the assist-edit feature, which places code that creates a link to the subscription center identified in the content settings.
+- **Subscription center (required)**: All marketing email messages must include a link to a subscription center. A subscription center includes mailing lists available from your organization, including an option for contacts to opt out of all marketing emails. Contacts might also be able to update their contact details here. A standard subscription center is supplied with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], which you can edit to contain your subscription lists and to reflect your graphical identity (you can also create additional pages to support multiple subscription options, languages, or brands). You'll add a subscription center link to your page by using the assist-edit feature, which places code that creates a link to the subscription center identified in the content settings.
 - **Forward to a friend**: This type of link opens a form that contacts can use to forward a marketing email to their own friends or colleagues by entering recipients' email addresses. It's a good idea to include this type of service for your contacts because messages forwarded by using the forward form are counted correctly in your email results and analytics (messages forwarded by using a contact's local email client forward feature won't be registered in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], and all message opens and clicks performed by the recipients who were forwarded the message will be credited to the original recipient). A forward-to-a-friend page ID can be included in each set of content settings, but none is provided out of the box, so you must create a forwarding page and add it to your content settings to use this feature. You add a forward-to-a-friend link to your page by using the dynamic-content feature, which creates the link based on the page identified in the content settings.
 - **View as a web page:** This link opens the marketing email message in a web browser. Some recipients will find this useful if their standard email client is having trouble rendering the message. You add this link to your page by using the assist-edit feature, which creates the link by using the message object itself.
 
@@ -126,7 +128,7 @@ Each content-settings record provides the settings described in the following ta
 
 Use standard dynamic content to position field values and links from recipient contact records, the message content settings, and other database values. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] **Assist Edit** button **&lt;/&gt;** helps you construct valid dynamic expressions. This button is provided in the text formatting toolbar whenever you select a text block in the graphical designer. The button is also provided for the subject field and for the from-address and from-name fields.
 
-Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the **Assist Edit** button **&lt;/&gt;** to open a drop-down list showing a selection of data sources appropriate for your current context, which may include some or all of the following:
+Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the **Assist Edit** button **&lt;/&gt;** to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all of the following:
 
 - **Contact**: Places a field value, such as a first name, from each recipient's contact record.
 - **Content settings**: Places a link or a field value from the content settings&mdash;a subscription center link, forwarding link, and the sender postal address are included here.
@@ -135,7 +137,7 @@ Start by positioning your cursor in the field where you want to insert the dynam
 - **Survey**: Places a link to an online survey (Voice of the Customer), or a field value from the survey.
 - **Message**:  Places functions that relate to the message itself; currently, an open-as-webpage link is the only value available from this source.
 
-After you have selected a source, the **Assist Edit** drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as *{{ SourceName.FieldName }}*, though more complex expressions may also be generated depending on the options you pick. Here are some examples:
+After you have selected a source, the **Assist Edit** drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as *{{ SourceName.FieldName }}*, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
 
 - `{{ Contact.FirstName }}`  
 Places the recipient's first name.
@@ -213,7 +215,7 @@ Use the form-factor icons on the left side of the **Designer** &gt; **Preview** 
 Use the following drop-down lists on the right side of the **Designer** &gt; **Preview** &gt; **Basic Preview** tab (under the **Properties** heading) to test the effects of your dynamic content and logic:
 
 - **Contact**: Choose a representative contact record to supply field values. Field values from your selected contact, and other dynamic content that reacts to these values, will be shown in your preview.
-- **Content Settings**: The content settings establish a marketing context for your message, and values stored here may affect your message content. The content settings also include information about your organization, including its postal address and the ID of a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] subscription center page. In a basic setup, you may have just one set of content settings for your entire organization. But in a more advanced configuration, you might reuse a single marketing email message in several different contexts (such as for different products or different events); in this case, the content settings could be different for each customer journey where you use the message. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages).
+- **Content Settings**: The content settings establish a marketing context for your message, and values stored here might affect your message content. The content settings also include information about your organization, including its postal address and the ID of a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] subscription center page. In a basic setup, you might have just one set of content settings for your entire organization. But in a more advanced configuration, you might reuse a single marketing email message in several different contexts (such as for different products or different events); in this case, the content settings could be different for each customer journey where you use the message. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages).
 
 ### Use the advanced inbox preview feature
 
@@ -249,3 +251,13 @@ While you prepare a message, it stays in a draft state, which means that it is i
 To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will run a final validation check, as described in the previous section, and&mdash;if the message passes&mdash;it gets published. If errors are returned, read the error messages, address the issues and try again until the message is successfully published.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+
+### See also
+
+[Create a marketing email](create-marketing-email.md)  
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Design your digital content](design-digital-content.md)  
+[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Content blocks reference](content-blocks-reference.md)  
+[Work with email templates](email-templates.md)  
+[Upload and use images and files](upload-images-files.md)

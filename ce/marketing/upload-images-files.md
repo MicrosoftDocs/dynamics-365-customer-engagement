@@ -2,16 +2,19 @@
 title: "Work with images and other files in Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Marketing"
 keywords: "image, file, keyword"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: Dynamics 365 (online)- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)- Dynamics 365 Version 9.x"
 ms.assetid: 162d17d7-bdd4-4a44-b84f-8ab94e7267f3
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Upload and use images and files in online content
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -47,3 +50,7 @@ To add an image to a marketing page or email, start by dragging an image block o
 To find an image more quickly, try using the **Filter Keyword** drop-down list to show only images that include the keyword you selected.
 
 If the image you need isn't there, select **Upload a Picture** to add a new one. We recommend that you apply one or more keywords when uploading the image to make it easier for you and others to find later.
+
+### See also
+
+[Manage images](manage-images.md)

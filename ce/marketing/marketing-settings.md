@@ -2,18 +2,20 @@
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Use the marketing settings to configure landing pages, email marketing, and Customer Insights in Dynamics 365 for Marketing"
 keywords: "administration; landing page; Customer Insights"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Marketing settings
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -40,7 +42,7 @@ There must always be exactly one landing-page configuration that is set as the d
 
 ### Set up a privacy banner for landing pages
 
-We recommend that you include a privacy banner on all your landing pages. This will let your customers know that you take their privacy seriously and may also be required in some jurisdictions. Use the following settings in the **Privacy Banner** section to create and enable your privacy banner:
+We recommend that you include a privacy banner on all your landing pages. This will let your customers know that you take their privacy seriously and might also be required in some jurisdictions. Use the following settings in the **Privacy Banner** section to create and enable your privacy banner:
 
 - **Include privacy banner**: Choose **Yes** to enable this feature; choose **No** to disable it. When the privacy banner is enabled, the text and link defined in the other settings in this section will be added to each new marketing page that you create. The banner will also be added to any existing page that you open for editing; however, it won't be added to pages that are already published because these are read-only.
 - **Privacy banner text**: Enter a summary of your privacy policy here.
@@ -100,3 +102,8 @@ The analytical and data-crunching capabilities of [!INCLUDE[pn-customer-insights
 Use the **Settings** > **Marketing Settings** > **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to replicate to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. For optimal performance and functionality, choose only the entities you need—no more and no less.
 
 Select the check box for each entity you want to sync. If you can't see the entity you want, try using the search field to find it.
+
+### See also
+
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
+[Check your work with previews and test sends](prepare-marketing-emails.md#check-your-work-by-using-previews-and-test-sends)

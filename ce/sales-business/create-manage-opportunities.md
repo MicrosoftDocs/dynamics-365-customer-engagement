@@ -1,22 +1,25 @@
 ---
-title: "Manage opportunities in Dynamics 365 for Sales, Business edition | Microsoft Docs"
-description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales, Business edition"
+title: "Manage opportunities in Dynamics 365 for Sales | Microsoft Docs"
+description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales."
 keywords: "Deal; Opportunity; sales transaction"
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
-applies_to: "Dynamics 365 (online)"
 ms.date: 07/15/2017
 ms.service: dynamics-365
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: e203546f-2215-485a-8c52-34e81b90794b
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
+topic-status: Drafting
 ---
-# Manage opportunities in [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)]
+
+# Manage opportunities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)], an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You must link a new opportunity to an existing account or contact.  
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You must link a new opportunity to an existing account or contact.  
 
 ## Create and convert opportunities
 
@@ -36,11 +39,11 @@ You can start a sales transaction, such as a quote or invoice, from within the o
 
 If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Develop sales from lead to cash (Sales)](https://www.microsoft.com/en-us/dynamics/crm-customer-center/nurture-sales-from-lead-to-order-sales.aspx)  
 
-1.  Click the Menu icon ![Icon to open the menu](media/open-menu-icon.png "Icon to open the menu"), and then click **Opportunity**.
+1.  Select the Site Map icon ![Icon to open the site map](media/Site-map-icon.png "Icon to open the site map"), and then select **Opportunity**.
 
 2.  If you’ve qualified a lead to an opportunity, open the opportunity from the list.
 
-3.  To create a new lead, on the command bar, click **New**.
+3.  To create a new lead, on the command bar, select **New**.
 
     In the opportunity form, make sure that your potential customer’s important details are captured. Most of the fields will be automatically populated from the lead record.
 
@@ -60,11 +63,11 @@ If you’re following the sales process from start to finish, you qualify a lead
 
  -   Est. Close Date. An estimated date by which the opportunity is expected to close.
 
- -   Est. Revenue. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-ms-dyn-365-for-sales](../includes/pn-ms-dyn-365-for-sales.md)] recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
+ -   Est. Revenue. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
-4.  In the **Stakeholders** section, click the “+” sign to add a stakeholder (key contact at the account). A stakeholder is a person at the account who will be involved in decision-making.
+4.  In the **Stakeholders** section, select the “+” sign to add a stakeholder (key contact at the account). A stakeholder is a person at the account who will be involved in decision-making.
 
-    In the box that appears, type a name, or click the Lookup icon to see a list of suggestions. When you have entered the desired name, press the Enter key.
+    In the box that appears, type a name, or select the Lookup icon to see a list of suggestions. When you have entered the desired name, press the Enter key.
 
 5.  Repeat this step in the **Sales Team** section to add a member of the sales team (from your organization).
 
@@ -84,29 +87,29 @@ If you’re following the sales process from start to finish, you qualify a lead
 
   ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage.png "Develop Opportunity stage in the process bar")  
 
-9.  In the **Develop Opportunity** stage, click **Next**.
+9.  In the **Develop Opportunity** stage, select **Next**.
 
     The next step is to create and send a quote to your customer. More information. Create and send a quote to your customer.
 
 ## Add products to your opportunity
 
-To add products to the opportunity, click the **Product Line Items** tab.
+To add products to the opportunity, select the **Product Line Items** tab.
 
 1.  In the list of opportunities, open the opportunity for which you want to add products.
 
 2.  Go to the **Product Line Items** tab.
 
-3.  In the Product Line Items grid, on the command bar, click **Add New**.
+3.  In the Product Line Items grid, on the command bar, select **Add New**.
 
-4.  In the **Quick Create** form, do the following, and click Save:
+4.  In the **Quick Create** form, do the following, and select **Save**:
 
     1. **Select Product**. Toggle the field to indicate whether you want to add an existing product or create a new one.
 
-        To use an existing product, click the **Lookup** button ![Icon for lookup](media/lookup-icon.png "Icon for lookup")to search for and add a product.  
+        To use an existing product, select the **Lookup** button ![Icon for lookup](media/lookup-icon.png "Icon for lookup")to search for and add a product.  
 
-        To create a write-in product, click **Write-In**, and then type the name of the product.
+        To create a write-in product, select **Write-In**, and then type the name of the product.
 
-    2. **Pricing.** Select the pricing option. By default, this uses the price that is listed in the product catalog. To override the price, click Override Price. When you override the price, you can specify a price that you want to charge for each unit of the product.
+    2. **Pricing.** Select the pricing option. By default, this uses the price that is listed in the product catalog. To override the price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.
 
     3. **Quantity.** Enter the quantity of the product or service that will be included.
 
@@ -128,11 +131,11 @@ To change the estimated revenue value of an opportunity based on any changes to 
 
 3.  In the right section, verify that the Revenue field is set to **System Calculated**.
 
-4.  Click **Save**.
+4.  Select **Save**.
 
-5.  On the command bar, click **Recalculate Opportunity**.
+5.  On the command bar, select **Recalculate Opportunity**.
 
-6.  Click **Save** or **Save and Close**.
+6.  Select **Save** or **Save and Close**.
 
 ## Close an opportunity
 
@@ -140,12 +143,12 @@ Whether you win a sale or close an opportunity, you probably want to close it. 
 
 1.  In the list of opportunities, open the opportunity you want to close.
 
-2.  On the command bar, click **Close as Won** or **Close as Lost**.
+2.  On the command bar, select **Close as Won** or **Close as Lost**.
 
-3.  Enter the details in the dialog box, and click **OK**.
+3.  Enter the details in the dialog box, and select **OK**.
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales, Business edition](develop-sales-lead-to-cash.md)  
-[Meet the Sales app for small to medium-sized business](introduction-dynamics-365-for-sales-business-edition.md)  
+[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
+[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
 [Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales](create-manage-activities.md)

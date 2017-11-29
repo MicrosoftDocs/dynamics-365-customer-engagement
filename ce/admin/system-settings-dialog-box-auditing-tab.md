@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Auditing tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -52,5 +52,5 @@ Specify to audit specific areas of the product, as described in the following ta
 |Marketing Entities|Campaign|  
 |Customer Service Entities|Article, Case, Client Feedback, Contract, and Service|  
   
-<!-- ### See also  
- [Audit data and user activity](../developer/audit-user-access.md) -->
+### See also  
+ [Audit data and user activity](../developer/audit-user-access.md)

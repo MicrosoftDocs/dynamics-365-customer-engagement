@@ -39,7 +39,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
  ![Example of marketing list summary area](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
   
     > [!NOTE]
-    >  To look up records in the **Owner** field, first click **Save**, or you’ll lose your changes.  
+    >  To look up records in the **Owner** field, first click **Save**, or you'll lose your changes.  
   
 4.  Click **Save** so you can enter information in other areas of the form.  
   
@@ -141,9 +141,9 @@ Your marketing list is the core of running a successful marketing campaign. It c
 2.  Search for the campaign or quick campaign you want to associate to this marketing list.  
   
     > [!NOTE]
-    >  If you don’t have any campaigns, or if you want to create a new one, you can click **+ New**.  
+    >  If you don't have any campaigns, or if you want to create a new one, you can click **+ New**.  
     >   
-    >  If you don’t have any quick campaigns, the Quick Campaign Wizard will start.  
+    >  If you don't have any quick campaigns, the Quick Campaign Wizard will start.  
   
   
 ### See also  

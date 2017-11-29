@@ -1,7 +1,7 @@
 ---
 title: "Define alternate keys to reference Dynamics 365 Customer Engagement records | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,9 +29,9 @@ With *alternate keys*, you can assure an efficient and accurate way of integrati
   
 -   Simplified programming with data imported from external systems without [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record IDs.  
   
-<!--To learn more about alternate keys programmability, see:   
+To learn more about alternate keys programmability, see:   
 [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md)  
-[Use an alternate key to create a record](../developer/use-alternate-key-create-record.md)-->  
+[Use an alternate key to create a record](../developer/use-alternate-key-create-record.md) 
   
 ## Define alternate keys  
 1. Go to [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]. 
@@ -50,5 +50,5 @@ The example below uses the Account Number field in the alternate key definition.
 ### See also  
 
  [Create and edit web resources](../customize/create-edit-web-resources.md)   
- <!--[Define alternate keys for an entity (Developer Guide)](../developer/define-alternate-keys-entity.md)
- [Use an alternate key to create a record (Developer Guide)](../developer/use-alternate-key-create-record.md)-->
+ [Define alternate keys for an entity (Developer Guide)](../developer/define-alternate-keys-entity.md)
+ [Use an alternate key to create a record (Developer Guide)](../developer/use-alternate-key-create-record.md)

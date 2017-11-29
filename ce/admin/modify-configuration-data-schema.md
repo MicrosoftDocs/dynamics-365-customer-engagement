@@ -1,7 +1,7 @@
 ---
 title: "Modify a configuration data schema (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,17 +15,18 @@ caps.latest.revision: 12
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Modify a configuration data schema
+# Modify a configuration data schema 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can modify an existing schema file to include information about new configuration data or to update the existing configuration data definition to enhance the configuration data export process.  
   
 <a name="Prereq"></a>   
+
 ## Before you begin  
-  
-[Download the Dynamics 365 SDK package](https://www.microsoft.com/download/details.aspx?id=50032). Then extract the contents of the package on your computer. The Configuration Migration tool is available under the `SDK\Tools\ConfgurationMigration` folder in the extracted [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK package. You do not need to install the Configuration Migration tool. Run the tool by double-clicking the **DataMigrationUtility.exe** file in the `SDK\Tools\ConfgurationMigration` folder.  
-  
+
+Download and install the [Microsoft Dynamics 365 SDK Xrm Configuration Migration Tool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf/9.0.0.7). 
+
 -   You must have a schema file that was created using the Configuration Migration tool. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a schema to export configuration data](create-schema-export-configuration-data.md)  
   
 <a name="EditSchema"></a>   

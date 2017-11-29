@@ -2,18 +2,20 @@
 title: "Create and deploy Word templates for in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Create Word templates that you can use to export, format, and share detailed data from single records in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; Word; templates; export"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 9db7c881-4ba5-4b8d-a241-1f6ff3f5de73
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Manage [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] templates
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -144,3 +146,8 @@ An administrator can use the **Settings** page to upload the [!INCLUDE[pn-ms-wor
 1. Select **Upload**. You'll see the summary of the file you're uploading.
 
 1. Select **Finish**.
+
+### See also
+
+[Export data to Word or Excel docs](export-data-word-excel.md)  
+[Business management settings](business-management-settings.md)

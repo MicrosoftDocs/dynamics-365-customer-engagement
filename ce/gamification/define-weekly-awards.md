@@ -1,18 +1,26 @@
 ---
 title: "Create weekly awards in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to keep players and fans engaged in a game by defining weekly awards in Dynamics 365 – Gamification."
-ms.date: 08/02/2017
+keywords: ""
+ms.date: 10/18/2017
 ms.service: gamification
 ms.topic: article
-applies_to: Dynamics 365 (online)
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: f34678ce-1037-4788-8394-f83866583c3c
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Create weekly awards to keep players and fans engaged
 
 Configure weekly awards to keep players focused on delivering results for the right KPIs in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Weekly awards are small contests that are part of a longer game and are also posted on the leaderboard. You'll configure weekly awards for a single KPI in each game period.  
+
+
+> [!NOTE]
+> Awards for individual players span across all connected organizations (business units).
 
 ## Configure a weekly award
 

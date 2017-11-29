@@ -1,7 +1,7 @@
 ---
 title: "Sample: Authenticate helper for the Online Management API for Dynamics 365 Customer Enagament| MicrosoftDocs"
 description: "Helper code to authenticate to Online Management API."
-ms.date: 08/10/2017
+ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
@@ -11,6 +11,9 @@ ms.author: "kvivek"
 manager: "amyla"
 ---
 # Sample: Authentication helper for the Online Management API 
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The helper code sample provides the following methods to easily authenticate to Online Management API using the OAuth 2.0 protocol and pass in the access token in the header of your messages.
 
 ## DiscoverAuthority method
@@ -28,7 +31,7 @@ This is a custom HTTP handler that adds the authorization header to the message 
 
 Here is the complete authentication helper sample code:
 
-```c#
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using System;
 using System.Net.Http;

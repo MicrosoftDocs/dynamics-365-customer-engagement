@@ -36,5 +36,5 @@ For specific privacy information about Microsoft Social Engagement, refer to the
 
 ### See Also
 
- [Data retention in Social Engagement](../social-engagement/data-retention-social-engagement.md)  
- [Get started with Social Engagement](../social-engagement/get-started.md)
+ [Data retention in Social Engagement](data-retention-social-engagement.md)  
+ [Get started with Social Engagement](get-started.md)

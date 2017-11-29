@@ -12,31 +12,9 @@ ms.service: customer-insights
 ms.assetid: 29dd6b93-7e45-4ce6-911f-253af043069b
 ---
 
-Predictive scoring
+Predictive Scoring
 ==========================
 [!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-##What is Predictive Scoring?
-
-Build a predictive scoring model to enable business users of all skill levels to apply artificial intelligence to predict a range of business outcomes. Based on these predicted outcomes, users can grade customers to efficiently plan targeted follow-ups.
-
-Use Predictive Scoring to answer questions like:
-
-- Which of my leads should I focus on?
-- Which cases can escalate?
-- Which opportunities will convert this period?
-- Which of my accounts are at risk of churn?
-
-Customer Insights Predictive Scoring has the following benefits:
-
-- Business users can predict ANY business outcome
-- Automatic discovery of the best predictive signals
-- Continuous scoring of incoming data
-- Interpretable predictive factors
-- Grading for business process management
-
-> [!TIP]
-> Check out the following video: [Predicting Business Outcomes with Customer Insights](https://go.microsoft.com/fwlink/p/?linkid=851077)
 
 ##Create a new prediction
 
@@ -137,3 +115,6 @@ In this example, note the following:
 Prediction scoring can be added to your Customer 360 view.
 
 ![](../media/PredictScore360_720.png "Compare multiple prediction models")
+
+### See also
+[What is Predictive Scoring?](newfeatures.md#what-is-predictive-scoring)

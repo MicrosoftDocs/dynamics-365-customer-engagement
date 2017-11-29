@@ -16,9 +16,9 @@ ms.assetid: a7f5cc83-81cc-1bad-aab5-fdc52a7891fe
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Access your Sales Hub data while you’re on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
+Access your Sales Hub data while you're on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
 
-The Sales Hub app works the same whether you’re using it on your mobile device or using it on a web browser on your computer.
+The Sales Hub app works the same whether you're using it on your mobile device or using it on a web browser on your computer.
 
 Before you can start using the app, you need to insteall the Dynamics 365 mobile app on your device device.. 
 
@@ -26,7 +26,7 @@ Before you can start using the app, you need to insteall the Dynamics 365 mobile
 
 ## Basic Navigation
 
-1.	When you sign in, you’ll see the MyApps page with all your apps listed. 
+1.	When you sign in, you'll see the MyApps page with all your apps listed. 
 2.	Select **Sales Hub**.
 
 ![Choose an app](media/ChooseAnApp_1.png "Choose an app")

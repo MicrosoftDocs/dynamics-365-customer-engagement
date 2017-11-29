@@ -1,7 +1,7 @@
 ---
 title: "Choose the records to synchronize between Dynamics 365 Customer Engagement and Outlook or Exchange | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -36,10 +36,8 @@ manager: "brycho"
   
  ![Online synchronization filters](../outlook-app/media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   
-<!--
     > [!NOTE]
-    >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tell me more about system filters](../developer/offline-outlook-filters-templates.md)  
--->
+    > If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tell me more about system filters](../developer/outlook-client/offline-outlook-filters-templates.md) 
   
 4.  Do one of the following:  
   

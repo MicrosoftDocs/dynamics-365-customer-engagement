@@ -3,9 +3,9 @@
   "info": {
     "version": "v1",
     "title": "Online Management API for Dynamics 365 Customer Engagement",
-    "description": "The REST API provides the ability to manage the Customer Engagement instances in an Office 365 tenant."
+    "description": "The REST API provides the ability to manage the Customer Engagement online instances in an Office 365 tenant."
   },
-  "host": "admin.services.crm.dynamics.com",
+  "host": "{ServiceUrl}",
   "schemes": [
     "https"
   ],
@@ -16,7 +16,7 @@
           "Currencies"
         ],
         "summary": "Retrieves currencies in a Customer Engagement instance.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Currencies`. For a list of region-specific service URLs, see [Service URL](//dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetCurrencies",
         "consumes": [],
         "produces": [
@@ -43,7 +43,7 @@
           "InstanceBackups"
         ],
         "summary": "Retrieves all backups of a Customer Engagement instance.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/InstanceBackups`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetInstanceBackups",
         "consumes": [],
         "produces": [
@@ -80,6 +80,7 @@
           "InstanceBackups"
         ],
         "summary": "Backs up a Customer Engagement instance.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "BackupInstance",
         "consumes": [
           "application/json",
@@ -122,7 +123,7 @@
           "InstanceBackups"
         ],
         "summary": "Retrieves a Customer Engagement instance backup based on the restore point.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/InstanceBackups/{instanceId}/{restorePointId}`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetInstanceBackup",
         "consumes": [],
         "produces": [
@@ -166,7 +167,7 @@
           "Instances"
         ],
         "summary": "Retrieves all Customer Engagement instances in your Office 365 tenant.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Instances`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetInstances",
         "consumes": [],
         "produces": [
@@ -193,7 +194,7 @@
           "Instances"
         ],
         "summary": "Retrieves a Customer Engagement instance in your Office 365 tenant.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Instances/{id}`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetInstance",
         "consumes": [],
         "produces": [
@@ -229,7 +230,7 @@
           "Instances"
         ],
         "summary": "Provisions (creates) a Customer Engagement instance in your Office 365 tenant.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Instances/Provision[?validate]`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "ProvisionInstance",
         "consumes": [
           "application/json",
@@ -343,7 +344,7 @@
           "Instances"
         ],
         "summary": "Restores a Customer Engagement instance in your Office 365 tenant.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Instances/{targetInstanceId}/Restore`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "RestoreInstance",
         "consumes": [
           "application/json",
@@ -397,7 +398,7 @@
           "Instances"
         ],
         "summary": "Deletes a Customer Engagement instance in your Office 365 tenant.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Instances/{id}/Delete`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "DeleteInstance",
         "consumes": [],
         "produces": [
@@ -452,7 +453,7 @@
           "Instances"
         ],
         "summary": "Updates the Admin Mode settings of a Customer Engagement instance.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Instances/{id}/UpdateAdminMode`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "UpdateInstanceAdminMode",
         "consumes": [
           "application/json",
@@ -513,7 +514,7 @@
           "InstanceTypeInfo"
         ],
         "summary": "Retrieve information about all the instance types in Customer Engagement.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/InstanceTypeInfo`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetInstanceTypesInfo",
         "consumes": [],
         "produces": [
@@ -540,7 +541,7 @@
           "InstanceTypeInfo"
         ],
         "summary": "Retrieve information about a Customer Engagement instance type.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/InstanceTypeInfo/{type}`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetInstanceTypeInfo",
         "consumes": [],
         "produces": [
@@ -586,7 +587,7 @@
           "Languages"
         ],
         "summary": "Retrieves languages supported by Customer Enagagement instance.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Languages`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetLanguages",
         "consumes": [],
         "produces": [
@@ -625,7 +626,7 @@
           "OperationStatus"
         ],
         "summary": "Retrieves status of an operation in your Customer Engagement instance.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Operation{id}`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
         "operationId": "GetOperationStatus",
         "consumes": [],
         "produces": [
@@ -661,7 +662,7 @@
           "ServiceVersions"
         ],
         "summary": "Retrieves information about all the supported releases for Customer Engagement.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/ServiceVersions`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
         "operationId": "GetServiceVersions",
         "consumes": [],
         "produces": [
@@ -688,7 +689,7 @@
           "Templates"
         ],
         "summary": "Retrieves templates supported for provisioning a Customer Engagement instance.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/Templates`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
         "operationId": "GetTemplates",
         "consumes": [],
         "produces": [
@@ -715,7 +716,7 @@
           "TenantApplicationIdentities"
         ],
         "summary": "Retrieves all Tenant Application Identities for a tenant.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/TenantApplicationIdentities/`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.#service-url)",
         "operationId": "GetTenantApplicationIdentities",
         "consumes": [],
         "produces": [
@@ -740,7 +741,7 @@
           "TenantApplicationIdentities"
         ],
         "summary": "Registers a tenant application identity to be used with Online Management API.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/TenantApplicationIdentities/`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "CreateTenantApplicationIdentity",
         "consumes": [
           "application/json",
@@ -776,7 +777,7 @@
           "TenantApplicationIdentities"
         ],
         "summary": "Retrieves a Tenant Application Identity.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/TenantApplicationIdentities/{id}`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTenantApplicationIdentity",
         "consumes": [],
         "produces": [
@@ -811,7 +812,7 @@
         ],
         "operationId": "DeleteTenantApplicationIdentity",
         "summary": "Deletes a Tenant Application Identity.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/TenantApplicationIdentities/{id}`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "consumes": [],
         "produces": [
           "application/json",
@@ -840,7 +841,7 @@
         ],
         "operationId": "EnableTenantApplicationIdentity",
         "summary": "Enables a Tenant Application Identity.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/TenantApplicationIdentities/{id}/Enable`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "consumes": [],
         "produces": [
           "application/json",
@@ -857,7 +858,7 @@
         ],
         "responses": {
           "200": {
-            "description": "TenantApplicationIdentity is enabled."
+            "description": "Tenant Application Identity is enabled."
           }
         }
       }
@@ -869,7 +870,7 @@
         ],
         "operationId": "DisableTenantApplicationIdentity",
         "summary": "Disables a Tenant Application Identity.",
-        "description": "Prepend the request URL below with the API service URL. For example, `{ServiceUrl}/api/v1/TenantApplicationIdentities/{id}/Disable`. For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "consumes": [],
         "produces": [
           "application/json",
@@ -925,20 +926,20 @@
           "type": "string"
         },
         "Precision": {
-          "description": "Precision of the Currency in customer Engagement",
+          "description": "Precision of the Currency in Customer Engagement",
           "format": "int32",
           "maximum": 4,
           "minimum": 0,
           "type": "integer"
         },
         "Symbol": {
-          "description": "Code of the Currency in customer Engagement",
+          "description": "Code of the Currency in Customer Engagement",
           "maxLength": 4,
           "minLength": 0,
           "type": "string"
         },
         "Name": {
-          "description": "Name of the Currency in customer Engagement",
+          "description": "Name of the Currency in Customer Engagement",
           "type": "string"
         }
       }
@@ -952,16 +953,20 @@
       "properties": {
         "InstanceId": {
           "format": "uuid",
-          "type": "string"
+          "type": "string",
+          "description": "ID of the instance to backup."
         },
         "Label": {
-          "type": "string"
+          "type": "string",
+          "description": "Label to help identify this backup for future restoration."
         },
         "Notes": {
-          "type": "string"
+          "type": "string",
+          "description": "Notes to help identify this backup for future restoration."
         },
         "IsAzureBackup": {
-          "type": "boolean"
+          "type": "boolean",
+          "description": "Indicates whether you want to backup the instance to Azure Storage."
         },
         "AzureStorageInformation": {
           "$ref": "#/definitions/AzureStorage"
@@ -977,13 +982,16 @@
       "type": "object",
       "properties": {
         "ContainerName": {
-          "type": "string"
+          "type": "string",
+          "description": "Container in Azure Storage where you want to back up the instance."
         },
         "StorageAccountKey": {
-          "type": "string"
+          "type": "string",
+          "description": "Azure Storage account key to authenticate to the file share for backing up."
         },
         "StorageAccountName": {
-          "type": "string"
+          "type": "string",
+          "description": "Azure Storage account name where want to back up the instance."
         }
       }
     },
@@ -996,7 +1004,8 @@
       "properties": {
         "OperationId": {
           "format": "uuid",
-          "type": "string"
+          "type": "string",
+          "description": "ID of the backup operation."
         },
         "Status": {
           "enum": [

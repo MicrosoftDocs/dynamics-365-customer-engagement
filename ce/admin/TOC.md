@@ -138,6 +138,7 @@
 ### [What's new with Data Export Service?](whats-new-with-data-export-service.md)
 ## [Move configuration data](manage-configuration-data.md)
 ### [Create a schema to export configuration data](create-schema-export-configuration-data.md)
+### [Configure date settings for demo data](configure-date-settings-for-demo-data.md)
 ### [Modify a configuration data schema](modify-configuration-data-schema.md)
 ### [Import configuration data](import-configuration-data.md)
 # [Work with templates](work-with-templates.md)
@@ -233,7 +234,7 @@
 ## [Preview feature: Action cards reference](action-cards-reference.md)
 ## [Preview feature: Email engagement](email-engagement.md)
 ## [Preview feature: Auto capture](auto-capture.md)
-## [Preview feature: Relationship analytics](relationship-analytics.md)
+<!-- ## [Preview feature: Relationship analytics](relationship-analytics.md) -->
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)
 

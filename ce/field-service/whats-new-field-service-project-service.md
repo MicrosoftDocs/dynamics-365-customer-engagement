@@ -16,12 +16,41 @@ ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
 caps.latest.revision: 11
 ms.author: "mkaur"
 ---
+
 # What's new in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Welcome to [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]. Here's a list of features we've added recently. For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/universal-resource-scheduling/).  
   
+## What's new in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]  
+ **Field Service**
+ 
+ - **New Field Resource hub app for field techs**: Field techs can do basic tasks in the field like, view upcoming appointments, view and edit bookings, and complete service tasks using the new app. For more information, [Field Resource Hub User's Guide](../field-service/field-resource-hub-users-guide.md)
+
+- Now you can easily find and assign another resource for a booking on the schedule board. If the original resource is unavailable, you can right-click the booking and choose the **Substitute Resource** option to find another resource for the booking. The system will automatically check the original resource requirement for the booking and find the best resources that fits the requirement.
+
+   ![Substitute Resource on the schedule board](../field-service/media/substitute_resource.png "Substitute Resource on the schedule board") 
+ 
+**Project Service Automation**
+ - **Project Resource hub**: The Project Resource hub lets you enter time and expenses for the projects you’re working on the go. For more information, [Project Resource Hub User's Guide](../project-service/project-resource-hub-users-guide.md)
+ 
+**Connected Field Service**
+ - Use your existing Azure resources you provision Connected Field Service. You can do this by importing devices that are registered in Azure IoT hub to Dynamics 365. You can also use existing resource group to provision required Azure resources. The following Azure resources, can be used with Connected Field Service. 
+     - IoT Hub
+     - Storage account
+     - Service bus
+     - Azure SQL Server
+     - Azure SQL DB 
+
+**Resource Scheduling Optimization**
+ - You can now enable the schedule board to see Resource Scheduling Optimization results in an easy to understand visual view. Easily find resource availability, find why a Resource Scheduling Optimization scheduling request failed, quickly create a new Resource Scheduling Optimization request, and more.
+ 
+   ![Schedule board showing Resource Scheduling Optimization](../field-service/media/RSO_enhancement.png "Schedule board showing Resource Scheduling Optimization")  
+ 
+**Universal Resource Scheduling Enhancements**
+ - Allow users to add custom attributes or entities to resources and resource requirements and make use of them in schedule board to filter resources or resource requirements.   
+
 <a name="BKMK_Feb"></a>   
 ## What's new in Update 2  
  **Field Service:**  

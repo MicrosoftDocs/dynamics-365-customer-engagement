@@ -1,15 +1,19 @@
 ---
-title: "Understand user roles | Microsoft Docs"
+title: "Understand user roles in Social Engagement | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Social Engagement."
-ms.date: 09/12/2017
+keywords: "permissions, user roles, interaction role, configuration role"
+ms.date: 10/17/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 40ba637e-3eb2-40bc-b512-ff12aeb12f58
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Understand user roles
 You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution users. Every user can be assigned two sets of roles: configuration roles and interaction roles. This gives administrators flexibility to manage user roles and permissions, and give users the functionality they need.  
   
@@ -76,7 +80,7 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
 |Edit tags on posts (confirm  tags, add tags, remove tags)|Yes|Yes|Yes|  
   
 ### See Also  
- [Administer Microsoft Social Engagement](../social-engagement/administer-microsoft-social-engagement.md)   
- [Integrate Social Engagement with Office 365](../social-engagement/manage-licenses.md)   
- [Assign permissions and user roles](../social-engagement/assign-user-roles.md)
+ [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
+ [Integrate Social Engagement with Office 365](manage-licenses.md)   
+ [Assign permissions and user roles](assign-user-roles.md)
  

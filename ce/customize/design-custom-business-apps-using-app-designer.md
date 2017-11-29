@@ -1,5 +1,6 @@
 ---
 title: "Design custom business apps by using the app designer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+<<<<<<< HEAD
 description: ""
 keywords: ""
 ms.date: 09/30/2017
@@ -7,6 +8,16 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: get-started-article
 applies_to:
+=======
+ms.custom: ""
+ms.date: 10/30/2017
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "get-started-article"
+applies_to: 
+>>>>>>> 9c842db41921555ee10dd29cf2a52a49e101dc16
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: aa6aca00-f95a-4f06-bec4-18b427b4618c
@@ -59,5 +70,4 @@ In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], custom business 
   
 ### See Also  
  [Business apps in Dynamics 365 Customer Engagement](../basics/business-apps-dynamics-365.md)
- 
- <!-- ADD BACK WHEN DEV TOPIC IS LIVE [Create and manage custom business apps in Customer Engagement using code](../developer/create-manage-custom-business-apps-using-code.md)  -->
+ [Create and manage custom business apps in Customer Engagement using code](../developer/create-manage-custom-business-apps-using-code.md) 

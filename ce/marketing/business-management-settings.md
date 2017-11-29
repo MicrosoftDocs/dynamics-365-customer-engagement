@@ -2,18 +2,20 @@
 title: "Import data and set up duplicate detection in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
 keywords: "administration; import; export; duplicate detection"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 9c480d38-9c4a-4875-a115-d064a9b327f4
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Business management settings
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -82,7 +84,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 ### Import records from an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 1. Start your import by doing either of the following:
-    - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]** from the command bar.
+    - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]** on the command bar.
     - If you are an administrator, go to **Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 1. Select **Browse** to upload a file.
 1. Select **Next**.<br>All the fields in your source file are automatically mapped.
@@ -93,7 +95,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 1. Prepare your import file as described in [Prepare your file for import](#prepare-your-file-for-import).
 
 1. Start your import by doing either of the following:
-    - Go to the list view for the entity you want to import to (such as the list of leads), and choose **Import from CSV** from the command bar.
+    - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from CSV** on the command bar.
     - If you are an administrator, go to **Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select **CSV**.
 
 1. Choose a file to upload.
@@ -241,9 +243,15 @@ If duplicate detection is enabled, duplicates are detected when:
 
 ### Disable duplicate detection
 
-If your system contains a large number of records, checking for duplicates can affect performance. You may want to disable duplicate detection at such times.
+If your system contains a large number of records, checking for duplicates can affect performance. You might want to disable duplicate detection at such times.
 
 1. To disable duplicate detection, go to **Settings** > **Business Management** > **Duplicate Detection**.
 1. Select **Disable**.
 
 All the duplicate detection rules will be unpublished in the back end.
+
+### See also
+
+[Manage Excel templates](manage-excel-templates.md)  
+[Manage Word templates](manage-word-templates.md)  
+[Export data](export-data-Word-Excel.md)
