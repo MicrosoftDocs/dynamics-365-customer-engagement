@@ -77,3 +77,5 @@
 ### [Export data](export-data-Word-Excel.md)
 ### [Explore results with Power BI](Power-BI-analytics.md)
 ### [How the app uses cookies](cookies.md)
+
+## [Developer Guide](../developer/marketing/marketing-developer-guide.md)
