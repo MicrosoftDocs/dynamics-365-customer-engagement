@@ -35,9 +35,13 @@ When you create a lead, there are system-required fields to fill out. But other 
 
 4.  In the timeline section, add any notes and activities (for example, phone calls or emails) related to this lead.
 
-5.  In the **Details** tab, enter information about your lead’s industry and preferred contact method.
+5.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](../sales-business/media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-6.  Select the **Save** button on the bottom right of the screen.
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've  entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the **Stakeholder** role. Click the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
+
+6.  In the **Details** tab, enter information about your lead’s industry and preferred contact method.
+
+7.  Select the **Save** button on the bottom right of the screen.
 
 ## Qualify and convert a lead to an opportunity
 

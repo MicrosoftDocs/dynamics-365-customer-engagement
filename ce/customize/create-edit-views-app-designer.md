@@ -1,20 +1,24 @@
 ---
 title: "Create and edit public or system views by using the app designer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 10/25/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 666ab3f3-abda-468c-b248-3a0b410286b0
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 1
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Create and edit public or system views by using the app designer
 
 In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], views define how records for a specific entity are  displayed. A view defines the following:
@@ -48,7 +52,7 @@ As a system customizer, you can create and edit public views by using the app de
     b. Configure **Set Width** with the column width you want.
     
     > [!NOTE]
-    > The column width value ranges from 25 through 300.
+    > The column width value ranges from 25 pixels through 300 pixels.
 8. (Optional) Reorder columns by dragging a column to the position you want to move it to. 
 
     You will see a visual indicator when you hold the column over a position it can be moved to.
@@ -157,8 +161,20 @@ Specify a web resource of script type, to associate with a column in your view. 
 You can change the way a public or system view is displayed by adding, configuring, or removing columns.
 1. In the **Views** list for an entity, select the **Show list of references** down arrow ![Drop Down](../customize/media/DownArrow.png "Drop down arrow").
     ![Edit View](../customize/media/ViewAppDesigner_EditView.png "Edit a public or system view")
-2. Next to the view you want to edit, select **Open the View Designer** ![Open view Designer](../customize/media/OpenViewDesigner.png "Open view designer"). 
+2. Next to the view you want to edit, select **Open the View Designer** ![Open view Designer](../customize/media/dynamics365-open-designer.png "Open view designer"). 
 
     The view opens in the view designer. 
 
 When you edit a public or system  view, you must save and publish your changes before they will be visible in the application.
+
+
+## Community tools
+**View Lyout Replicator** and **View Designer** are tools that XrmToolbox community developed for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Developer tools](https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-tools).
+
+> [!NOTE]
+> These tools are provided by XrmToolBox and are not supported by Microsoft. If you have questions pertaining to the tool, please contact the publisher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [XrmToolBox](https://www.xrmtoolbox.com/). 
+
+### See also
+[Create or edit views](create-edit-views.md)
