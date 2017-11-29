@@ -22,27 +22,17 @@ topic-status: Drafting
 
 # Specify properties for Unified Interface apps
 
-<<<<<<< HEAD
-[!INCLUDE[cc-feature-included-with-update-9-0-0-admins](../includes/cc-feature-included-with-update-9-0-0-admins.md)] for the Unified Interface framework, which uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With Unified Interface applications, the grid control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
-=======
 [!INCLUDE[cc-feature-included-with-update-9-0-0-admins](../includes/cc-feature-included-with-update-9-0-0-admins.md)] for the Unified Interface framework, which uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With Unified Interface applications, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
 
->>>>>>> 9c842db41921555ee10dd29cf2a52a49e101dc16
 The Read Only Grid control Specifies how a grid should reflow to different screen sizes. As a system customizer, if you’re working with a Unified Interface application in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] Customer Engagement, you can configure the Read Only Grid control and its properties for custom grids and lists.
 - **Card Form property:** Use a card form for lists instead of the default list template. Card forms provide more information for list items than the default list template.
 - **Reflow behavior property:** Use this parameter to specify a grid to reflow in to a list or not.
 
 ## Allow grid to reflow into list
-<<<<<<< HEAD
-This control allows you to configure the following features: 
-- Allow a grid to reflow into a list on small displays such as mobile.
-- Specify the rendering mode as grid-only or list-only. 
-=======
 
 Adding the Read Only Grid control to your controls list allows you to  configure the following features: 
 - Allow a grid to reflow into a list on small displays such as mobile.
 - Specify the rendering mode as grid-only or list-only.  
->>>>>>> 9c842db41921555ee10dd29cf2a52a49e101dc16
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. In the **Entities** pane, select the appropriate entity (such as **Account** or **Contact**), and then on the **Controls** tab, select **Add Control**.
@@ -76,11 +66,7 @@ Adding the Read Only Grid control to your controls list allows you to  configure
     
     a. Choose the pencil icon next to **Reflow behavior**.
 
-<<<<<<< HEAD
-    ![Edit Reflow behaviour](media/UnifiedInterface_ReadOnlyGrid_CardForm.png "Edit Reflow behaviour")
-=======
     ![Edit Reflow behaviour](media/UnifiedInterface_ReadOnlyGrid_EditReflow.png "Edit Reflow behaviour")
->>>>>>> 9c842db41921555ee10dd29cf2a52a49e101dc16
 
     b. Select the grid flow type from **Bind to static options** drop down.
     |Flow Type|Description|
@@ -101,8 +87,4 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 You can display a custom icon instead of a value in a list and establish the logic used to select them based on a column’s values by using JavaScript. For more information about conditional images, see [Display custom icons instead of values in list views](display-custom-icons-instead.md).
 
 ### See also
-<<<<<<< HEAD
 [Create or edit a view](create-edit-views.md)
-=======
-[Create or edit a view](create-edit-views.md)
->>>>>>> 9c842db41921555ee10dd29cf2a52a49e101dc16
