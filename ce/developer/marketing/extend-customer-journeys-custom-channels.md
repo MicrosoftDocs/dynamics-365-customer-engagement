@@ -22,7 +22,6 @@ Customer journey orchestration in Dynamics 365 for Marketing lets marketers crea
 
 Customer journeys are built by dragging and dropping out-of-the-box tiles on the designer canvas to build the journey execution flow. Beyond the out-of-the box tiles (channels) provided for customer journeys, partners can create **custom channels** to extend the marketing capabilities in Dynamics 365 for Marketing. You can create a custom channel, such as text (SMS) or social media, and expose the channel as a “tile” in the journey designer. These custom channels provide similar capabilities as the out-of-the box channels such as sending communication, tracking customer interactions, and adding triggers to branch the paths within customer journey.     
   
-### See also  
- [Administrator Guide (Marketing)](../../marketing/admin-guide.md)
-   
- [User Guide (Marketing)](../../marketing/user-guide.md)   
+### See also
+  
+[Marketing Help & Training](../../marketing/help-hub.md)   

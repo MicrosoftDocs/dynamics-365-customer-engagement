@@ -1,0 +1,30 @@
+---
+title: "Step 1: Create required entities and forms for custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+description: "Create required custom entities, forms, and dashboards to store and display information about your custom channel."
+ms.custom: ""
+ms.date: 12/15/2017
+ms.service: "crm-online"
+ms.technology: 
+  - "marketing"
+ms.topic: "conceptual"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 6f965196-49f2-463c-8722-f9db3d732e6f
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "amyla"
+---
+# Step 1: Create required entities and forms for custom channel
+
+[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+You might want to create custom entities and forms to store and display information about your custom channel. You might also want to build a configuration page to help users connect to an external service that your custom channel interacts with. Finally, you could build some dashboards to display some analytics information.
+
+More information:
+- [Create or edit entities (record types)](../../customize/create-edit-entities.md)
+- [Create and design forms](../../customize/create-design-forms.md)
+- [Create or edit dashboards](../../customize/create-edit-dashboards.md)
+
+### See also  
+
+[Marketing Help & Training](../../marketing/help-hub.md)

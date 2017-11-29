@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing Developer Guide | MicrosoftDocs"
-description: "Dynamics 365 for Marketing is a marketing-automation application that helps turn prospects into business relationships. It includes a collection of apps and solutions that are fully integrated and seamlessly work together to create a comprehensive marketing application."
+description: "Provides information about how you can extend the customer journeys feature using *custom channels*."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.service: "crm-online"
@@ -26,6 +26,8 @@ The developer guide for Dynamics 365 for Marketing provides information about ho
 
 ## Related resources
 
- [Administrator Guide (Marketing)](../../marketing/admin-guide.md)
+[Administrator Guide (Marketing)](../../marketing/admin-guide.md)
    
- [User Guide (Marketing)](../../marketing/user-guide.md)   
+[User Guide (Marketing)](../../marketing/user-guide.md)  
+
+[Developer Guide for Dynamics 365 Customer Engagement](../developer-guide.md) 

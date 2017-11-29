@@ -1,6 +1,6 @@
 ---
-title: "Create a custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "A custom channel contains custom entities, workflow or plug-in containing your custom logic, and couple of web resources that help surface the custom channel as a “tile” in the customer journey designer."
+title: "Create a custom channel for customer journey (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+description: "Creating a custom channel for customer journeys involves using the extensibility infrastructure in Dynamics 365 Customer Engagement such as custom entities, workflows, plugins, and web resources, which allows developers and partners to leverage their existing knowledge of Customer Engagement."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.service: "crm-online"
@@ -14,20 +14,17 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Create a custom channel
+# Create a custom channel for customer journey
 
 [!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Creating a custom channel for customer journeys in Dynamics 365 for Marketing can be divided into four steps.
+Creating a custom channel for customer journeys involves using the extensibility infrastructure in Dynamics 365 Customer Engagement such as custom entities, workflows, plugins, and web resources, which allows developers and partners to leverage their existing knowledge of Customer Engagement. For detailed information about these concepts in Customer Engagement, see [Developer Guide for Dynamics 365 Customer Engagement](../developer-guide.md). 
 
-## Step 1: Create the required entities and forms
+Creating a custom channel for customer journeys in Marketing can be divided into four steps.
 
-You might want to create custom entities and forms to store and display information about your custom channel. You might also want to build a configuration page to help users connect to an external service that your custom channel interacts with. Finally, you could build some dashboards to display some analytics information.
+- [Step 1: Create required entities and forms](create-entities-forms.md)
 
-More information:
-- [Create or edit entities (record types)](../../customize/create-edit-entities.md)
-- [Create and design forms](../../customize/create-design-forms.md)
-- [Create or edit dashboards](../../customize/create-edit-dashboards.md)
+
 
 ## Step 2: Create a workflow or plug-in to implement your custom logic
 
@@ -46,7 +43,6 @@ To make your custom channel tile visible in the customer journey designer:
 
 1.  Create a solution. More information: Create solution 
   
-### See also  
- [Administrator Guide (Marketing)](../../marketing/admin-guide.md)
-   
- [User Guide (Marketing)](../../marketing/user-guide.md)   
+### See also
+  
+[Marketing Help & Training](../../marketing/help-hub.md)  
