@@ -14,22 +14,22 @@ ms.author: shjais
 manager: sakudes
 ---
 # Provision a portal
-Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to show data from Dynamics 365 on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
+Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to show data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
 
--   Customers can submit cases and find knowledge articles
--   Partners can see and manage sales opportunities
--   Internal employees can create and see best practices
+-   Customers can submit cases and find knowledge articles.
+-   Partners can see and manage sales opportunities.
+-   Internal employees can create and see best practices.
 
 > [!NOTE]
-> - To provision a portal, you must be assigned to the System Administrator role of the Dynamics 365 organization selected for the portal.
+> - To provision a portal, you must be assigned to the System Administrator role of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal.
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
-1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] and select the **Applications** tab.
+1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Applications** tab.
 2.  Select the application row titled **Portal Add-On**, and then select **Manage.**
 3.  In the **General Settings** section, enter a **Name** for your portal. The **Name** will help to identify the portal and can be changed later.
 4.  The **Type** field represents the type of portal subscription (Trial or Production). This is a system field, so it cannot be changed by the user. The value changes based on whether it is trial subscription or paid subscription.
-5.  In the **Portal URL** field, enter the subdomain name you want for your portal. You may only use alphanumeric characters or hyphens (-); other characters are not permitted. After the portal is provisioned, the URL cannot be changed, but you can use a custom domain name.
+5.  In the **Portal URL** field, enter the subdomain name you want for your portal. You can only use alphanumeric characters or hyphens (-); other characters are not permitted. After the portal is provisioned, the URL cannot be changed, but you can use a custom domain name.
 6.  Use the **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
 7.  Choose the default language for your portal from the **Select Portal Language** drop-down list. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
 
@@ -95,18 +95,18 @@ The table below summarizes the features associated with each portal option:
 
     ![Terms of service](media/terms-of-service.png "Terms of service")  
 
-After you accept the Terms of Service, the portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to “*Name*-Configuring” while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
+After you accept the Terms of Service, the portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to "*Name*-Configuring" while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
 
 > [!Note]
-> When a portal user signs in to the portal for the first time using an Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.
+> When a portal user signs in to the portal for the first time by using an Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.
 
 ## Troubleshoot provisioning
 
 Sometimes the package installation process or URL creation process can error out. In these cases, the processes can be restarted.
 
-If “*Name*-Configuring” changes to “*Name*-Provisioning Failed,” you need to restart the provisioning process.
+If "*Name*-Configuring" changes to "*Name*-Provisioning Failed," you need to restart the provisioning process.
 
-1. Go to the **Applications** page and select the portal.
+1. Go to the **Applications** page, and select the portal.
 2. Select the blue pencil button labeled **Manage**.
 3. Choose one of the following options:
 
@@ -116,10 +116,10 @@ If “*Name*-Configuring” changes to “*Name*-Provisioning Failed,” you nee
 
     ![Provisioning error](media/error-provisioning.png "Provisioning error")  
 
-If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message “Getting set up.” To confirm this:
+If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message "Getting set up." To confirm this:
 
-1. Go to the Solution Management page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] and check that the package status is “Install Failed.” 
-2. If the package status is “Install Failed,” try retrying the installation from the solution page. Also, be sure to check that a system administrator in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is installing the solution with the default language in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] set to the language the portal should be installed in.
+1. Go to the Solution Management page of the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] and check that the package status is **Install Failed**. 
+2. If the package status is **Install Failed**, try retrying the installation from the solution page. Also, be sure to check that a system administrator in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is installing the solution with the default language in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] set to the language the portal should be installed in.
 
 > [!Note]
 > Some solutions have prerequisites for their installation, so an installation will fail if the prerequisites are not met. For example, to install the Partner Field Service for a partner portal, the Partner Portal and Field Service solutions must have already been installed. If you attempt to install the Partner Field Service first, the installation will fail and give you an error message.
