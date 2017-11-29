@@ -54,6 +54,5 @@ Microsoft is committed to making its products and services easier for everyone. 
   
 -   [MMC Keyboard Shortcuts](https://technet.microsoft.com/library/cc766476.aspx)  
 -->  
-### See also  
- [Move around Customer Engagement apps using keyboard shortcuts](../basics/move-around-dynamics-365-using-keyboard-shortcuts.md)   
+### See also    
  [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)
