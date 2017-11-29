@@ -32,7 +32,7 @@ The **Sdk.formOnLoad** function in the example uses the **formContext.data.proce
 The information about enabled business process flow is provided as a dictionary object where the Id of the process is the name of the property and the name of the business process flow is the value of the property. The sample code processes this information and sets the values in a global **Sdk.enabledProcesses** array to be accessed by logic that executes later. The sample also loops through the values in the **Sdk.enabledProcesses** array, and uses the Sdk.writeToConsole function to write information about the retrieved business process flows to the console.
 
 >[!NOTE]
->The **Sdk.formOnLoad** function in the sample JavaScript library must be set as the **OnLoad** event handler for a form, and the **Pass execution context as the first parmeter** check box must be selected in the **Handler Properties** dialog.<br/>Also, this sample just illustrates the use of some of the methods in the Xrm.Page.data.processs API. It doesn’t represent using this API to meet a business requirement; it’s only intended to demonstrate how the key property values can be accessed in code.
+>The **Sdk.formOnLoad** function in the sample JavaScript library must be set as the **OnLoad** event handler for a form, and the **Pass execution context as the first parameter** check box must be selected in the **Handler Properties** dialog.<br/>Also, this sample just illustrates the use of some of the methods in the **formContext.data.process** API. It doesn’t represent using this API to meet a business requirement; it’s only intended to demonstrate how the key property values can be accessed in code.
 
 ```JavaScript
 //A namespace defined for SDK sample code
