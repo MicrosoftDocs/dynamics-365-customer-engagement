@@ -84,7 +84,7 @@ The input field under the **Target** setting specifies which contact or lead fie
 
 > `["emailaddress1", "msdyncrm_marketingpageid"]`
 
-## Email
+## Email settings
 
 Use the **Settings** > **Marketing Settings** > **Email** page to set a few optional defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. The following settings are available:
 

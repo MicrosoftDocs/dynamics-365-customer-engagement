@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # How [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses cookies
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] identifies website visitors using a technology called _cookies_. A cookie is a small file that is sent by a server and saved by your browser. Each time you visit a server for which a cookie is set, your browser submits that cookie value back to the server. In this way, the cookie can provide a unique visitor ID, which enables the server to return information that is unique for you. This is the technology that originally made the online shopping cart possible.
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can generate a small piece of JavaScript code that reads and sets cookies on any page where you place the code. All you need to do to let [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] record visits to a given page is to include the script on that page.
@@ -32,7 +34,8 @@ Whenever a contact submits a marketing page, [!INCLUDE[pn-marketing-business-app
 - **Short-term, single-visit cookie** : This cookie is also set and/or read on any webpage where you have placed a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] website behavioral-analysis script. By default, it expires after just 30 minutes (although you can configure this). [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses it to group all page loads by a given visitor that are recorded by the same behavioral-analysis script and that occur within the configured timespan; it will consider all of these as part of a single &quot;visit&quot; to the website.
 - **Marketing page registration cookie** : This cookie is set when a contact submits a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] marketing page with its  **Remember my information**  checkbox marked. It enables the marketing page to show a pre-filled form the next time the same contact uses it. The information stored in the cookie is a cryptographic unique identifier and does not contain the data submitted or any means for an external application to uncover the submitted information.
 
-> [!IMPORTANT] The [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application itself also sets cookies to enable login sessions and other technical features. These only affect direct users of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (such as your internal marketing personnel), not the general public. Microsoft&#39;s standard privacy policy applies for these users.
+> [!IMPORTANT]
+> The [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application itself also sets cookies to enable login sessions and other technical features. These only affect direct users of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (such as your internal marketing personnel), not the general public. Microsoft&#39;s standard privacy policy applies for these users.
 
 ### See also
 
