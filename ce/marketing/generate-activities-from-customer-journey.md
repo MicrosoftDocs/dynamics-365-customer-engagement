@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Generate activities from a customer journey
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the trigger that creates a phone-call task associated with each contact who submits the registration form.  
 
 ![Example customer journey with an activity tile](media/journey-generate-activities.png "Example customer journey with an activity tile")  
@@ -65,7 +67,8 @@ For this exercise, you'll set up a template to create task activities, and then 
 1. Go to the **General** tab, and set the **Name**, **Time Zone**, **Start Date and Time,** and **End Date and Time**. You can set it to start right away, but allow it a few hours to run, just in case.  
     ![Name and schedule the journey](media/journey-general-settings2.png "Name and schedule the journey")
 
-    > [!TIP] A simple journey like this one might be useful for reminding staff to review key contacts each week. You can set this up by creating a segment that finds interesting contacts to work on for the week, and then use the **Is Recurring** settings on the **General** tab of your journey to rerun the journey once a week for as long as the journey is active.
+    > [!TIP]
+    > A simple journey like this one might be useful for reminding staff to review key contacts each week. You can set this up by creating a segment that finds interesting contacts to work on for the week, and then use the **Is Recurring** settings on the **General** tab of your journey to rerun the journey once a week for as long as the journey is active.
 
 1. On the command bar, select **Check for Errors**, and then read the results and fix any problems reported.
 
