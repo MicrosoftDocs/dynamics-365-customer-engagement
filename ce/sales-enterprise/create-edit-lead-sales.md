@@ -42,10 +42,14 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 4.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
 
 5.	In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+
+6.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](../sales-business/media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Click the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
   
-6.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
+7.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
    
-7.  On the command bar, select **Save**.  
+8.  On the command bar, select **Save**.  
 
 <a name="bkmk2"></a>   
 ## Create a lead  (Sales app)
@@ -59,8 +63,12 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 4.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
   
 5.  Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+
+6.  In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+
+    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Click the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
   
-6.  Select **Save** in the lower-right corner of the form.  
+7.  Select **Save** in the lower-right corner of the form.  
     
 <a name="bkmk3"></a>   
 ## Additional considerations  

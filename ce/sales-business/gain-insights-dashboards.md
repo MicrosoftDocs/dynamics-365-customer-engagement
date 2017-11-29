@@ -74,4 +74,4 @@ You can use the global or visual filters to filter and see only the data that is
 
 ### See Also
 [Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
-[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](sign-in-get-started.md)
+[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](learn-basics.md)
