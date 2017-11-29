@@ -1,22 +1,24 @@
 ---
-title: Understand accessibility in app designer, site map designer, and My Apps page in Dynamics 365 | Microsoft Docs
-description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365
-keywords: App designer; site map designer; my apps; Dynamics 365
-author: anjgupta
-ms.author: anjgup
-manager: sakudes
-ms.custom: ""
+title: "Understand accessibility in app designer, site map designer, and My Apps page in Dynamics 365 | Microsoft Docs"
+description: "Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365"
+keywords: "App designer; site map designer; my apps; Dynamics 365"
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
+author: anjgupta
+ms.author: anjgup
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+topic-status: Drafting
 ---
+
 # Accessibility in app designer, site map designer, and My Apps page
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -45,7 +47,8 @@ Microsoft is committed to making its products and services easier for everyone. 
 |Close command.|Ctrl + Q|Cmd + Q|  
 |Add.|Shift + N|Shift +|  
 |Edit.|Shift + E|Shift + E|  
-|Remove.|Shift + R|Shift + R|  
+|Remove.|Shift + R|Shift + R|
+|Search Canvas.|Ctrl + Shift + F|Cmd + Shift + F|  
 |Add Components.|Alt + Shift + C|Opt + Shift + C|  
 |Add Properties.|Alt + Shift + P|Opt + Shift + P|  
 |Go to the  Required tab.|Alt + Shift + R|Opt + Shift + R|  

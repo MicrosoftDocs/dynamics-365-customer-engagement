@@ -1,21 +1,26 @@
 ---
 title: "Types of views (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 3ce9dd7c-41eb-4517-8e18-fcf50e953483
+ms.author: rdubois
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 33
-ms.author: "rdubois"
-manager: "brycho"
+topic-status: Drafting
 tags: 
+redirect_url: /dynamics365/customer-engagement/customize/create-edit-views
 ---
+
 # Types of views
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
