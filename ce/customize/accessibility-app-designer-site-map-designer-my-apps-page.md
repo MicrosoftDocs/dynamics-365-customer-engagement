@@ -5,13 +5,8 @@ keywords: App designer; site map designer; my apps; Dynamics 365
 author: anjgupta
 ms.author: anjgup
 manager: sakudes
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 12/18/2017
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -92,11 +87,8 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Accessibility info for browsers  
  For accessibility information about your browser, visit the following websites:  
   
--   [Internet Explorer 11 accessibility](https://www.microsoft.com/enable/products/ie11/default.aspx)  
   
--   [Internet Explorer 10 accessibility](http://www.microsoft.com/enable/products/ie10/default.aspx)  
-  
--   [Internet Explorer 9 accessibility](http://www.microsoft.com/enable/products/ie9/default.aspx)  
+-   [Windows accessibility features](http://www.microsoft.com/enable/products/ie9/default.aspx)  
   
 -   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)  
   
