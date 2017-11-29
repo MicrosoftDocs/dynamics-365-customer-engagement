@@ -44,7 +44,9 @@ This method can only be used in a function in an event handler for the [Lookup C
 The following code sample is for the Opportunity form **Account** (parentaccountid) lookup. When the **Sdk.setParentAccountIdFilter** function is set in the form **Onload** event handler, the **Sdk.filterCustomAccounts** function is added to the **PreSearch** event for that lookup. Remember to select the option to pass in the execution context when setting the function in the form **Onload** event handler. The result is that only accounts with the **Category** (accountcategorycode) value of **Preferred Customer** (1) will be returned.
 
 ```JavaScript
-var Sdk = window.Sdk || {}; // define a namespace
+// A namespace defined for SDK sample code
+// You should define a unique namespace for your libraries
+var Sdk = window.Sdk || {};
 
 // set 'Sdk.setParentAccountIdFilter' in the Opportunity form onload event handler
 Sdk.setParentAccountIdFilter = function (executionContext) {
@@ -54,13 +56,12 @@ Sdk.setParentAccountIdFilter = function (executionContext) {
     formContext.getControl("parentaccountid").addPreSearch(Sdk.filterCustomerAccounts);
 }
 
-Sdk.filterCustomerAccounts = function () {   
+Sdk.filterCustomerAccounts = function () {
 
-    // Only show accounts with the type 'Preferred Customer'
+    // Only show accounts with the type 'Preferred Customer'
     var customerAccountFilter = "<filter type='and'><condition attribute='accountcategorycode' operator='eq' value='1'/></filter>";
     formContext.getControl("parentaccountid").addCustomFilter(customerAccountFilter, "account");
 }
-
 ```
 [addPreSearch](addPreSearch.md)
 
