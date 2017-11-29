@@ -2,7 +2,7 @@
 title: "Manage access tokens in Social Engagement | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Social Engagement."
 keywords: "tokens, oauth, validation"
-ms.date: 11/20/2017
+ms.date: 11/29/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -75,9 +75,7 @@ topic-status: Drafting
   
 2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] user details panel, under **Allow Interactions**, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.  
   
-3.  Under **Use for Search Acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol"), and then select the check box next to **Allow** to interact with posts and replies on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. The token will become active  after you select the check box.  
-  
-4.  Select **Save**.  
+3.  Select **Save**.  
   
 ### Add a Facebook page token and allow data acquisition for private messages  
   
