@@ -30,10 +30,11 @@ AWCServiceContext context = new AWCServiceContext(_serviceProxy);
 Account account = new Account()    
 {  
   Name = "Contoso Services Extensions",  
-         EMailAddress1 = "contoso-Ext@contoso.com"  
+  EMailAddress1 = "contoso-Ext@contoso.com"  
 };  
   
-// Create an account record.context.AddToAccountSet(account);  
+// Create an account record.
+context.AddToAccountSet(account);  
 context.SaveChanges();  
 ```  
   
