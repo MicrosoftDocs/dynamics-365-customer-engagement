@@ -16,6 +16,8 @@ manager: "amyla"
 ---
 # Create a custom channel
 
+[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Creating a custom channel for customer journeys in Dynamics 365 for Marketing can be divided into four steps.
 
 ## Step 1: Create the required entities and forms

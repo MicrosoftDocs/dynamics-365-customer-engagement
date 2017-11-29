@@ -16,6 +16,8 @@ manager: "amyla"
 ---
 # Overview of custom channel
 
+[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 A custom channel contains custom entities, workflow or plug-in containing your custom logic, and couple of web resources that help surface the custom channel as a “tile” in the customer journey designer. All these components are bundled into a solution that can be imported into a Customer Engagement instance to enable custom channel.
 
 The following illustration provides a high-level overview of the operation flow for a custom channel:  

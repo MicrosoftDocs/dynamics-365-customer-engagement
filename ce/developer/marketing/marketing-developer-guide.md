@@ -16,6 +16,8 @@ manager: "amyla"
 ---
 # Developer Guide (Marketing)
 
+[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 The developer guide for Dynamics 365 for Marketing provides information about how you can extend the customer journeys feature using *custom channels*. For information about Dynamics 365 for Marketing app, see [Overview (Marketing)](../../marketing/overview.md).
 
 ## Extend customer journeys
