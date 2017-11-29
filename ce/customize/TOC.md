@@ -58,10 +58,6 @@
 ### [Create and edit public or system views by using the app designer](create-edit-views-app-designer.md)
 ### [Make grids (lists) or subgrids editable](make-grids-lists-editable-custom-control.md)
 ### [Specify properties for Unified Interface apps](specify-properties-for-unified-interface-apps.md)
-<<<<<<< HEAD
-
-=======
->>>>>>> 9c842db41921555ee10dd29cf2a52a49e101dc16
 
 ## [Create or edit dashboards](create-edit-dashboards.md)
 ### [Set properties for a chart or list](set-properties-chart-list-included-dashboard.md)
