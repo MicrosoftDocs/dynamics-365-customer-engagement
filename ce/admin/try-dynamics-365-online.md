@@ -95,11 +95,11 @@ For more information about the scenario choices, see the [Installation options](
 6.  Click **Reset**.  
  
 ## Installation options
-You can choose to start a trial for all customer engagement offerings, a mix of offerings, or none. Each choice installs a different set of apps, which are displayed in the app switcher.
+You can choose to start a trial for all Customer Engagement offerings, a mix of offerings, or none. Each choice installs a different set of apps, which are displayed in the app switcher.
 
 ![Dynamics 365 app switcher](../admin/media/app-switcher75.png "Dynamics 365 app switcher")  
 
-The following table shows the installation that are installed for each choice, their appearance in the app switcher, and their availability. 
+The following table shows what’s installed for each choice, what you see in the app switcher, and where you can use it.
 
 |Installation options|App modules installed/shown in app switcher|Description|Available for|
 |---------|---------|---------|---------|
