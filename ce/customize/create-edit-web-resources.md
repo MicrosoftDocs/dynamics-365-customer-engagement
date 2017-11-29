@@ -20,6 +20,10 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Web resources are typically used by developers to extend the web application using files that are used in web development. As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user you may need to manage web resources provided by a developer or designer.  
+
+> [!TIP]
+
+> For an in-depth discussion of web resources, see [Web resources for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources). For information on web resource dependencies added in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], see [Web resource dependencies](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources).
    
 <a name="BKMK_WhatAreWebResources"></a>   
 ## What are web resources?  
@@ -30,28 +34,8 @@ Web resources are typically used by developers to extend the web application usi
 <Dynamics 365 URL>/WebResources/new_myWebResource.htm   
   
  where *\<Dynamics 365 URL>* is the URL you usually use to open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
-  
-> [!NOTE]
->  You can’t include a web resource in a form header or footer.  
-  
+    
  Because web resources are data in the system and are solution aware, you can move them to different organizations by exporting them as part of a solution and importing the solution into a different organization.  
-  
- Web resources are limited to specific types of files. Web resources can only be files that would be loaded into a web browser. The following types of files can be used to create web resources:  
-  
-|Type|File name extension|  
-|----------|-------------------------|  
-|Webpage (HTML)|.htm, .html|  
-|Style Sheet (CSS)|.css|  
-|Script (Jscript, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)])|.js|  
-|Data (XML)|.xml|  
-|Image (PNG)|.png|  
-|Image (JPG)|.jpg|  
-|Image (GIF)|.gif|  
-|Silverlight (XAP)|.xap|  
-|StyleSheet (XSL)|.xsl, .xslt|  
-|Image (ICO)|.ico|  
-  
- [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources are supported in the web client, but to support multiple browsers, HTML web resources are the recommended type of web resources to use if you are designing a user interface. Read more about [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] in [Important changes coming in Dynamics 365 Customer Engagement](https://go.microsoft.com/fwlink/?linkid=860784). 
   
 <a name="BKMK_CreateAndEditWebResources"></a>   
 ## Create and edit web resources  
@@ -178,6 +162,6 @@ Web resources are virtual files in multiple formats, such as html files, [!INCLU
   
 ### See also  
 [Web resource properties](../customize/web-resource-properties-legacy.md) <br /> 
-[Create and design forms](create-design-forms.md) <br / >
+[Create and design forms](create-design-forms.md) <br />
 [Get started with customization](../customize/getting-started-customization.md) <br /> 
 [Web resources for Customer Engagement](../developer/web-resources.md)
