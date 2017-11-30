@@ -1,8 +1,8 @@
 ---
-title: "Manage Excel templates in Dynamics 365 for Sales | Microsoft Docs"
-description: "Help your users analyze and present Sales data to others using Excel templates in Dynamics 365 for Sales."
+title: "Manage Excel templates in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Help your users analyze and present Sales data to others using Excel templates in Dynamics 365 for Sales, Preview."
 keywords: "Excel template; Sales Forecasting; Analysis"
-ms.date: 07/14/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create and manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Create and manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
+[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates for:
 
@@ -172,5 +172,5 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
 
 ### See Also
-[Use document templates in Dynamics 365 for Sales](Use-document-templates-create-standardized-documents.md)  
+[Use document templates in Dynamics 365 for Sales, Preview](Use-document-templates-create-standardized-documents.md)  
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

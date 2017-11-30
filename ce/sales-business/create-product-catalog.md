@@ -1,8 +1,8 @@
 ---
-title: "Create a product catalog in Dynamics 365 for Sales | Microsoft Docs"
-description: "Understand how to create a product catalog in Dynamics 365 for Sales to make it easier for your sales rep to increase sales. "
+title: "Create a product catalog in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Understand how to create a product catalog in Dynamics 365 for Sales, Preview to make it easier for your sales rep to increase sales. "
 keywords: "Product; price; catalog"
-ms.date: 07/14/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create a product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Create a product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Products are the backbone of your business. The product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
+Products are the backbone of your business. The product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
 
 ## Add products
 
@@ -93,5 +93,5 @@ You may also use the import templates to bring in bulk data of products in to [!
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
+[Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

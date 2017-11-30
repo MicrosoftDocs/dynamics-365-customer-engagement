@@ -1,8 +1,8 @@
 ---
-title: "Use document templates in Dynamics 365 for Sales | Microsoft Docs"
-description: "Create standardized documents by using document templates in Dynamics 365 for Sales."
+title: "Use document templates in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Create standardized documents by using document templates in Dynamics 365 for Sales, Preview."
 keywords: "Word template; Excel template; Document; Invoice Summary; Quote Summary"
-ms.date: 07/15/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Use document templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to create standardized documents
+# Use document templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview to create standardized documents
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can use both Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to create standardized documents for your customers.
+You can use both Word and [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview to create standardized documents for your customers.
 
 ## Generate a document from the Word template
 
@@ -118,5 +118,6 @@ To apply a sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] temp
 
 
 ### See Also
-[Manage Excel templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-excel-templates.md)  
-[Manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](create-manage-word-templates.md) [Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Manage Excel templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](create-manage-excel-templates.md)  
+[Manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](create-manage-word-templates.md) 
+[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  

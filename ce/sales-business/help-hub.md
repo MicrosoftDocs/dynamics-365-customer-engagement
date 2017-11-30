@@ -1,13 +1,12 @@
 ---
-title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 for Sales."
+title: "Documentation resources for Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "A starting point for browsing help content for Dynamics 365 for Sales, Preview."
 keywords: "sales;help"
-ms.date: 11/21/2017
-ms.service: crm-online
+ms.date: 11/30/2017
+ms.service: dynamics-365
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 30e73a86-7ac7-4055-bbeb-9a4a1a3085ab
 author: shubhadaj
 ms.author: shujoshi
@@ -15,14 +14,14 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# Sales Help & Training
+# Sales, Preview Help & Training
 
 <table>
 
 <tr><td>
 
 <h2>Get started</h2>
-<li>[Dynamics 365 for Sales Overview](overview-dynamics-365-for-sales.md)</li>
+<li>[Dynamics 365 for Sales, Preview Overview](overview-dynamics-365-for-sales.md)</li>
 <li>[Learn the basics](learn-basics.md)</li>
 <li>[Manage your customers](create-accounts-contacts-customers.md)</li>
 <li>[Manage tasks, appointments, email, or phone calls](create-manage-activities.md)</li>

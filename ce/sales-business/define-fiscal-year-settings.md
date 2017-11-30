@@ -1,8 +1,8 @@
 ---
-title: "Define fiscal year settings in Dynamics 365 for Sales | Microsoft Docs"
-description: "Determine the time reflected in financial reports by defining a fiscal year in Dynamics 365 for Sales."
+title: "Define fiscal year settings in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Determine the time reflected in financial reports by defining a fiscal year in Dynamics 365 for Sales, Preview."
 keywords: "Financial reports; fiscal period; fiscal year settings"
-ms.date: 07/14/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Define fiscal year settings in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Define fiscal year settings in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], a fiscal period defines the time reflected in financial reports. It is used for reporting of financial data in a given period. For example, you want to know what’s the actual revenue of your organization in your fiscal period which is from January - December. You can set the fiscal year period, and how it’s displayed, for your organization.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, a fiscal period defines the time reflected in financial reports. It is used for reporting of financial data in a given period. For example, you want to know what’s the actual revenue of your organization in your fiscal period which is from January - December. You can set the fiscal year period, and how it’s displayed, for your organization.
 
 1.  Make sure you have the System Administrator security role in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
   
@@ -44,4 +44,4 @@ In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.
 
 ### See Also
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)

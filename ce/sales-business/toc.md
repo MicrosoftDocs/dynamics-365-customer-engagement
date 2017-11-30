@@ -1,4 +1,4 @@
-# [Dynamics 365 for Sales](help-hub.md) 
+# [Dynamics 365 for Sales, Preview](help-hub.md) 
 ## [Overview](overview-dynamics-365-for-sales.md)
 
 ## [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

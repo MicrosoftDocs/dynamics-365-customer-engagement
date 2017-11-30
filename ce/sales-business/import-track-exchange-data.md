@@ -2,7 +2,7 @@
 title: "Import data from Exchange | Microsoft Docs"
 description: "Get your contacts from Microsoft Exchange into Dynamics 365 for Sales."
 keywords: "Import; Track; Exchange; Contacts"
-ms.date: 08/16/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:

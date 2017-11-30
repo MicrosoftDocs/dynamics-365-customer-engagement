@@ -1,8 +1,8 @@
 ---
-title: "Manage users in Dynamics 365 for Sales | Microsoft Docs"
-description: "Create accounts to provide user access to Dynamics 365 for Sales."
+title: "Manage users in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Create accounts to provide user access to Dynamics 365 for Sales, Preview."
 keywords: "User; Access; Role"
-ms.date: 07/14/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Add or manage users in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Add or manage users in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-To log on to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], every user in your organization must have a user account. Create a user account for each user to give them access to the Sales app.
+To log on to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, every user in your organization must have a user account. Create a user account for each user to give them access to the Sales app.
 
 When you create a user in the Sales app, you can define a user ID, generate password, assign license and security role in a single step.
 

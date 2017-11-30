@@ -1,8 +1,8 @@
 ---
-title: "Gain insights with dashboards in Dynamics 365 for Sales | Microsoft Docs"
-description: "Use dashboards to get an overview of business data in Dynamics 365 for Sales."
+title: "Gain insights with dashboards in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Use dashboards to get an overview of business data in Dynamics 365 for Sales, Preview."
 keywords: "Dashboard; Insight; Overview; Analytics; sales"
-ms.date: 07/15/2017
+ms.date: 11/30/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Gain insights with dashboards in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Gain insights with dashboards in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Dashboards in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] provide an overview of business data ‒ actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
+Dashboards in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview provide an overview of business data ‒ actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
 
 Dashboards use views, list, and charts to bring data that is meaningful to you in one place.
 
@@ -73,5 +73,5 @@ You can use the global or visual filters to filter and see only the data that is
 
 
 ### See Also
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
-[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](learn-basics.md)
+[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Learn the basics](learn-basics.md)
