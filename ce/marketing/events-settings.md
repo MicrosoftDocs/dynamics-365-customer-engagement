@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Events settings
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **Events Settings** let you set up the connections to your webinar provider accounts. You must set up at least one webinar configuration to enable the webinar feature.
 

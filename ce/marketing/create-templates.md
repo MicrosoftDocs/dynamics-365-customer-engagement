@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Create templates for emails, pages, forms, and journeys
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 As you've seen, each time you create a new email message, customer journey, marketing page, or marketing form, you start by choosing a template. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] includes sample templates to get you started, but you'll probably want to build your own to match your own organization's requirements and graphical identity.
 

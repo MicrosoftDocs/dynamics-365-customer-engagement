@@ -16,7 +16,9 @@ ms.reviewer: renwe
 ---
 # Manage event sponsorships
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Sponsors are people or organizations who contribute funds, equipment, or services in return for having their logos and messages placed in your event materials (including the event portal) or at the event itself.
 

@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Advanced tutorials for specialized scenarios
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The tutorials in this section are more specialized then those in the [Basic tutorials](basic-tutorials.md) section. The features described here are all important parts of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but they're targeted for more specialized needs and therefore serve a somewhat smaller audience.  
 

@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # The event management dashboard
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The event-management feature provides a preconfigured dashboard that gives a broad overview of your event-planning activities and the overall results for all your events. It also provides a wall feed that tracks all activities that are linked to the primary event-related records. Use the dashboard to get a quick overview of all the events you're planning and to see how successful your previous events have been.
 

@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Manage teams
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
