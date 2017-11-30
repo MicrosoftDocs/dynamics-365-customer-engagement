@@ -1,5 +1,5 @@
 ---
-title: Move around Microsoft Dynamics 365 by using keyboard shortcuts | Microsoft Docs
+title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft Docs
 description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365
 keywords: Dynamics 365 Accessibility; Keyboard shortcuts; Keyboard navigation support
 author: anjgupta

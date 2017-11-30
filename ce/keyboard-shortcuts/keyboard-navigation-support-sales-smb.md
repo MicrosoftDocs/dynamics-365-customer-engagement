@@ -33,4 +33,4 @@ Skype for Business for Dynamics 365 offers keyboard navigation to help address i
 
 ## See also
 
-[Using keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)
+[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)
