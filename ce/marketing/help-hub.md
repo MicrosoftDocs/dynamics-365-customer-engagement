@@ -39,7 +39,7 @@ topic-status: Drafting
 <li>[Find your way around](navigation.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
-<li>[Get ready for email marketing](get-ready-email-marketing.md)</li>
+<li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
 
 </td></tr>
 <tr><td>

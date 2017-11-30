@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Work with email templates
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a wide variety of templates, each of which provides both structural and style elements. Styled templates include color schemes and sample images, while structural templates include just a skeleton that establishes the basic structure and column layout. Though you can always change the content and styles, the column layout is semi-permanently established by the template you choose. To change the column layout, you must either create a new message and base it on the appropriate template or edit the code directly by using the HTML editor.
 
 Each time you create a new marketing email, the **Select an Email Template** dialog opens.
@@ -56,14 +58,29 @@ Here are some common style settings provided by the out-of-box templates:
 
 ## Tested email clients
 
-All out-of-box templates have been tested against a wide range of available email clients. They should work flawlessly on most modern clients, but some design elements may degrade on older, less-used clients.
+All out-of-box templates have been tested against a wide range of available email clients, as listed in the following table. The templates should work flawlessly on most modern clients, but some design elements may degrade on older, less-used clients.
+
+<table>
+  <tr>
+    <th>Desktop Clients</th>
+    <th>Mobile Clients</th>
+    <th>Web Clients</th>
+    <th>Web Clients</th>
+  </tr>
+  <tr>
+    <td>Apple Mail 9/10<br>IBM Notes 9<br>Outlook 2000 Win 7<br>Outlook 2002 Win 7<br>Outlook 2003 Win 7<br>Outlook 2007 Win 7<br>Outlook 2010 Win 7<br>Outlook 2011 OS X 10.10<br>Outlook 2013 Win 7<br>Outlook 2013 120 DPI Win <br>Outlook 2016 OS X 10.10<br>Outlook 2016 Win 7<br>Windows 10 Email Win 10<br>Thunderbird</td>
+    <td>Android,4.4<br>Android 5.1<br>Android 6.0<br>Gmail App IMAP Android 4.4<br>Gmail App Android 6.0<br>Gmail App iOS<br>Inbox by Gmail iOS<br>iPhone 5s iOS 7<br>iPhone 5s iOS 8<br>iPhone 6 iOS 8<br>iPhone 6 Plus iOS 8<br>iPhone 6s iOS 9<br>iPhone 6s Plus iOS 9<br>iPhone 7 iOS 10.3.2<br>iPad (Retina) iOS 10.3.2<br>iPad Mini iOS 10.3.2<br>iPad Pro (12.9 Inch) iOS,10.3.2</td>
+    <td>AOL Explorer<br>AOL Firefox<br>AOL Chrome<br>Comcast Explorer<br>Comcast Firefox<br>Comcast Chrome<br>Freenet.de Explorer<br>Freenet.de Firefox<br>Freenet.de Chrome<br>GSuite Explorer<br>GSuite Firefox<br>GSuite Chrome<br>Gmail Explorer<br>Gmail Firefox<br>Gmail Chrome<br>Inbox by Gmail Chrome<br>Inbox by Gmail Firefox<br>GMX.de Explorer<br>GMX.de Chrome<br>GMX.de Firefox<br>Mail.ru Explorer<br>Mail.ru Chrome<br>Mail.ru Firefox</td>
+    <td>Office 365 Explorer<br>Office 365 Chrome<br>Office 365 Firefox<br>Orange.fr Explorer<br>Orange.fr Chrome<br>Orange.fr Firefox<br>Outlook.com Explorer<br>Outlook.com Chrome<br>Outlook.com Firefox<br>SFR.fr Explorer<br>SFR.fr Chrome<br>SFR.fr Firefox<br>T-Online.de Explorer<br>T-Online.de Chrome<br>T-Online.de Firefox<br>Web.de Explorer<br>Web.de Chrome<br>Web.de Firefox<br>Yahoo! Mail Explorer<br>Yahoo! Mail Chrome<br>Yahoo! Mail Firefox</td>
+  </tr>
+</table>
 
 ## Known issues with specific clients
 
 The following known issues apply to the out-of-box templates and custom messages when shown on specific clients:
 
 - **Gmail** has a size limit of 104 KB, so markup that exceeds this limit will be cut off. All out-of-box templates are smaller than this, so they shouldn't be affected unless heavily customized.
-- **Outlook**** 2007 and newer for Windows** have the following limitations, though these features are not currently supported by the email designer, nor used in the out-of-box templates:
+- **Outlook 2007 and newer for Windows** have the following limitations, though these features are not currently supported by the email designer, nor used in the out-of-box templates:
   - Borders around buttons are not supported
   - Rounded corners may not render correctly
   - Background images aren't supported when they have text or button overlays
@@ -78,10 +95,7 @@ The following known issues apply to the out-of-box templates and custom messages
 
 - **Missing footer** : Litmus screenshots sometimes fail to capture the entire message height
 - **Unable to scroll** : The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
-- **Litmus returns the message "There was error loading this message" or "We encountered a technical issue"** : This is usually just a communication error. Please try to reload the preview.
 - **The message is too high** : Sometimes Litmus renders extra content at the end of the email message.
-- **Some email clients can't be selected for the preview** : This is usually temporary and is due to Litmus updating their service. They should reappear in a few hours.
-- **Some previews aren't loading** : This is usually a problem with the Litmus server. Try to reload the page.
 - **Only half of the message is visible in the preview** : This can happen if Litmus takes a screenshot before the message is fully loaded. Try to reload the preview. If problems persist, then the message may include dynamic content that isn't resolved.
 
 ### See also
