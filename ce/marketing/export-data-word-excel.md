@@ -18,9 +18,9 @@ topic-status: Drafting
 
 # Export [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data to [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] or [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] docs
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can export [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data to a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] or [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template to create standardized documents that you can share with people who don't use [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 

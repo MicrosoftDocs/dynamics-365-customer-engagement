@@ -18,8 +18,8 @@ topic-status: Drafting
 
 # Learn the basics [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Topics in this section explain how to get around in the system, and how to work with basic records such as contacts, accounts, and leads. There is also a topic that explains how to work with email marketing, including how to maximize deliverability and guidelines for how to conform to common email-marketing regulations.

@@ -18,9 +18,9 @@ topic-status: Drafting
 
 # Invite, register, and house event attendees
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you're ready to start promoting it. The system provides many tools to help you do this.
 
