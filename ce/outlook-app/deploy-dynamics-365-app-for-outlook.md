@@ -250,7 +250,7 @@ Check back later for updates on supported platforms.
 |-|-|-|  
 |Bulgarian (Bulgaria) - 1026|Hebrew - 1037|Portuguese (Brazil) - 1046|  
 |Chinese (People's Republic of China) - 2052|Hindi (India) - 1081|Portuguese (Portugal) - 2070|  
-|Chinese (Taiwan) - 1028|Indonesian - 1057|Hungarian - 1038|Romanian - 1048|  
+|Chinese (Taiwan) - 1028|Hungarian - 1038|Romanian - 1048|  
 |Croatian (Croatia) - 1050|Indonesian - 1057|Russian - 1049|  
 |Czech (Czech Republic) - 1029|Italian - 1040|Serbian - 2074|  
 |Danish - 1030|Japanese - 1041|Slovak - 1051|  
@@ -262,24 +262,6 @@ Check back later for updates on supported platforms.
 |German - 1031|Norwegian - 1044|Ukrainian - 1058|  
 |Greek - 1032|Polish - 1045|Vietnamese - 1066|  
 
-
-  
-||||  
-|-|-|-|  
-|Bulgarian (Bulgaria) - 1026|Hindi (India) - 1081|Portuguese (Portugal) - 2070|  
-|Chinese (People's Republic of China) - 2052|Hungarian - 1038|Romanian - 1048|  
-|Chinese (Taiwan) - 1028|Indonesian - 1057|Russian - 1049|  
-|Croatian (Croatia) - 1050|Italian - 1040|Serbian - 2074|  
-|Czech (Czech Republic) - 1029|Japanese - 1041|Slovak - 1051|  
-|Danish - 1030|Kazakh - 1087|Slovenian - 1060|  
-|Dutch - 1043|Korean - 1042|Spanish - 3082|  
-|English - 1033|Latvian - 1062|Swedish - 1053|  
-|Estonian - 1061|Lithuanian - 1063|Thai - 1054|  
-|Finnish - 1035|Malaysian - 1086|Turkish - 1055|  
-|French - 1036|Norwegian - 1044|Ukrainian - 1058|  
-|German - 1031|Polish - 1045|Vietnamese - 1066|  
-|Greek - 1032|Portuguese (Brazil) - 1046||  
-  
 <a name="BKMK_Deploy"></a>   
 
 ## Deploy Dynamics 365 App for Outlook  
