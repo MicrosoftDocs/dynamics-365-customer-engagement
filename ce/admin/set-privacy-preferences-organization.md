@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Set privacy preferences for an organization
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Manage users’ data privacy by controlling when to send error notifications, and also let users know how their privacy is protected by displaying your organization’s own privacy statement instead of the one from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)].  
   

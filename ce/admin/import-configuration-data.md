@@ -17,7 +17,7 @@ manager: "brycho"
 ---
 # Import configuration data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 After exporting your configuration data from the source [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you are now ready to import it to the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
