@@ -111,7 +111,7 @@ If you’re in a record, for example a lead, this section shows you the keyboard
 - **Keyboard shortcuts in Mac:** If you are using Mac operating system, click the following link to view all the shortcuts that are applicable to a Mac environment. See [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
 
-### See also
+## See also
 
 [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 

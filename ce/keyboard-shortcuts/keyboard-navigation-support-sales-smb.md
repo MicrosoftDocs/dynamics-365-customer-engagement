@@ -12,7 +12,7 @@ ms.service: crm-online
 ms.assetid: 1adfc052-34b0-466a-bdd0-6528c5a09f60
 ---
 
-# Keyboard navigation support for Dynamics 365 for Sales, Business edition
+# Keyboard navigation support for Dynamics 365 for Sales
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
