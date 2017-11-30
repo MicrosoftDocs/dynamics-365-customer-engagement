@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Free storage space
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 These are ways to reduce the amount of storage space used by removing or deleting different types of information from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Use one or more of these methods to control your total data storage usage with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
   

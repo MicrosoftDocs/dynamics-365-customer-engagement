@@ -17,7 +17,7 @@ ms.author: "jimholtz"
 ---
 # Dynamics 365 Government
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 In response to the unique and evolving requirements of the United States public sector, Microsoft has created [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] that is available to qualified government entities in the United States. On October 11, 2016, Microsoft announced the next generation of intelligent business applications in the cloud under the brand [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)]. To this end, [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] entails a continuity of the protected environment that was originally branded Microsoft CRM Online Government where the protections afforded to the government community cloud under the new brand are now represented by four discrete functions: Sales, Customer Service, Field Service, and Project Service Automation. This section provides an overview of features that are specific to [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)].  
   

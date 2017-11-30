@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Key preparation and configuration tasks
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 This topic, which is intended for administrators and business users of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], even before your business begins to use it.  
   
