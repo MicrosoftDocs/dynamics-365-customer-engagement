@@ -19,6 +19,7 @@ manager: "brycho"
 # Configure SharePoint integration using the list component
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 If you can’t use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you must install the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] to get document management functionality. The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] solution that you upload and activate on a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection. This feature uses a client-to-[!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] strategy to authenticate and transmit data.  
   

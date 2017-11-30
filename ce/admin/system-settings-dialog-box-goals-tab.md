@@ -19,6 +19,7 @@ manager: "brycho"
 # System Settings dialog box - Goals tab
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Set the duration and frequency of the automatic rollup of goals. These settings only affect the automatic handling of all goals set in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can always perform a manual rollup for any goal at any time.  
   

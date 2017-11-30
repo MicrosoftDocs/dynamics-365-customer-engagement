@@ -19,6 +19,7 @@ manager: "brycho"
 # Enable document suggestions to recommend related documents
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web browser and mobile users be aware of important documents related to what they're working on in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] such as a big sales opportunity. You, as the admin, define relevant fields. A recommendation engine using [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] text analytics uses keyword matching to associate related records to find similar documents. You create similarity rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to provide your own similarity logic. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] then presents a list of suggested documents to the user while the user works in the current record.  
   

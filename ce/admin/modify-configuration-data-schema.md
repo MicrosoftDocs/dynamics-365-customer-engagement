@@ -18,6 +18,7 @@ manager: "brycho"
 # Modify a configuration data schema 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can modify an existing schema file to include information about new configuration data or to update the existing configuration data definition to enhance the configuration data export process.  
   

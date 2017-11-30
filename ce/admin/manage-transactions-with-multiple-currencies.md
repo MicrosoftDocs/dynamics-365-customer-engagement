@@ -19,6 +19,7 @@ manager: "brycho"
 # Manage transactions with multiple currencies
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Currencies determine the prices for products in the product catalog and the cost of transactions, such as sales orders. If your customers are spread across geographies, add their currencies in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to manage your transactions. Add the currencies that are most appropriate for your current and future business needs.  
   

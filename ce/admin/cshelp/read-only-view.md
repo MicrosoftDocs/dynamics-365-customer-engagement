@@ -18,5 +18,6 @@ manager: "brycho"
 # Read-only view
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 This is a read-only view of this record. To make changes to the record, close this dialog box and double-click the record.

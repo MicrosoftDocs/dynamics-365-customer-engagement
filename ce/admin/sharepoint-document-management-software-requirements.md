@@ -19,6 +19,7 @@ manager: "brycho"
 # SharePoint Document Management software requirements
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] , you must meet the requirements listed in this topic.  
   

@@ -19,6 +19,7 @@ manager: "brycho"
 # Extend Dynamics 365 Customer Engagement
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Dynamics 365 Customer Engagement is a very powerful business tool right out of the box. It becomes even more so when you extend it by: 
 

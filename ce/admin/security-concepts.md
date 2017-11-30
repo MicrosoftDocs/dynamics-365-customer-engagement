@@ -19,6 +19,7 @@ manager: "brycho"
 # Security concepts
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to protect the data integrity and privacy in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. The security model also promotes efficient data access and collaboration. The goals of the model are as follows:  
   

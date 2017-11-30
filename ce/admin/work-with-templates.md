@@ -19,5 +19,6 @@ manager: "brycho"
 # Work with templates
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can use templates in Customer Engagement in a variety of ways to speed your work and improve consistency.

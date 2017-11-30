@@ -18,6 +18,7 @@ manager: "brycho"
 # Add or remove territory members
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 To accommodate changes in sales territories or the representatives that are assigned to each territory, you can add or remove territory members in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

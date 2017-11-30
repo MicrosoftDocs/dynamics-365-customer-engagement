@@ -19,6 +19,7 @@ manager: "brycho"
 # View and take action on bulk deletion jobs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can view the status of, pause, postpone, and resume a system job that you created using **Bulk Record Deletion**.  
   

@@ -19,6 +19,7 @@ manager: "brycho"
 # Geo to geo migrations
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] for business services, and to add datacenters to existing regions.  
   

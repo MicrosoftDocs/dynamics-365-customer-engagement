@@ -19,6 +19,7 @@ manager: "brycho"
 # Set up duplicate detection rules to keep your data clean
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 To maintain the integrity of your data, it’s a good idea to have rules in place to reduce duplicate records in the system. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule.  
   

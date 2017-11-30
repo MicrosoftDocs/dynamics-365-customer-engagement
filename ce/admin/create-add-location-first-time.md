@@ -19,6 +19,7 @@ manager: "brycho"
 # Create or add a document location for the first time
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Before you can manage documents for a record from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must create a location record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that points to libraries and folders on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] where the documents will be stored.  
   

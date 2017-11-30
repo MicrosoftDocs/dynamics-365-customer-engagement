@@ -19,6 +19,7 @@ manager: "brycho"
 # What are Preview features and how do I enable them? 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features:  
   

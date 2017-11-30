@@ -19,6 +19,7 @@ manager: "brycho"
 # Migrate settings from the Email Router to server-side synchronization 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
   

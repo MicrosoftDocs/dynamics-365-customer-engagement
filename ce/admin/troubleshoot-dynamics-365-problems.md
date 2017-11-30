@@ -19,6 +19,7 @@ manager: "brycho"
 # Troubleshoot problems
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Use the following list of troubleshooting topics to quickly find information to solve your issue.  
   

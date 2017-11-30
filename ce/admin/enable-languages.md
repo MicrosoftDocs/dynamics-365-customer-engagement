@@ -19,6 +19,7 @@ manager: "brycho"
 # Regional and language options for your organization 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Enable languages in your organization to display the user interface and Help in a language that’s different from the base language. 
 

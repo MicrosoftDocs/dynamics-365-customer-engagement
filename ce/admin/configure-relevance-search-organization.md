@@ -19,6 +19,7 @@ manager: "brycho"
 # Configure Relevance Search to improve search results and performance 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Relevance Search delivers fast and comprehensive search results in a single list, sorted by relevance. It uses a dedicated search service external to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Search to improve your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] search experience. As an administrator or customizer, you'll be able to enable and configure Relevance Search in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface without writing code. Many of the configuration steps will look familiar to you, as they use the same user interface as the Quick Find configuration.  
   

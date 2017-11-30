@@ -19,6 +19,7 @@ manager: "brycho"
 # When would I want to use this check box?
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
  A user can be a member of more than one [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization, but an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize emails, appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize emails, appointments, contacts, and tasks with one Exchange mailbox. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] stores the organization ID (`OrgID`) for the synchronizing organization and the last time the user synced in Exchange.  
   

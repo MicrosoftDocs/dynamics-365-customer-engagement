@@ -19,6 +19,7 @@ manager: "brycho"
 # Microsoft Dynamics 365 (online) requirements
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] gives you the following options to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data:  
   

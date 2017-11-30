@@ -19,6 +19,7 @@ manager: "brycho"
 # Preview feature: Set up Cortana integration
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help salespeople keep track of important [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
   

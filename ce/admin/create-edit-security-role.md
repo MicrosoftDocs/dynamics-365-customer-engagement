@@ -19,6 +19,7 @@ manager: "brycho"
 # Create or edit a security role to manage access
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.  
   
