@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Organization settings
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This section describes the following settings pages, which are available in the **Organization settings** section of the **Settings** work area:

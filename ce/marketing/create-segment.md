@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Create a dynamic segment
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 One of the first and most important decisions you'll make when you design any marketing piece is to choose the right audience. Only after you know this will you be able to tailor your message to best appeal to that group of people.

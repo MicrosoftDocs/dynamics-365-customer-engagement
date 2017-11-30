@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Market segmentation, marketing lists, and subscription lists
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This topic explains how to define your various target groups by setting up segments and lists. Each list or segment represents a collection of contacts that you can use to target a customer journey. You'll also use marketing lists in your subscription center to enable contacts to manually opt-in or opt-out of various types of newsletters and other marketing communications.

@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Register contacts' engagement with your internet marketing initiatives
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This topic describes how you can measure customer engagement with your marketing initiatives, including:

@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Follow up after the event
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 After an event is over, you'll want to evaluate how it went and start following up.

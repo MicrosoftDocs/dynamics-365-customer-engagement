@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Find your way around Dynamics 365
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This topic explains how to find and open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and how to work with its common user interface elements, including lists, forms, and business processes.

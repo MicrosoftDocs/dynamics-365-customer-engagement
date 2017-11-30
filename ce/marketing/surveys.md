@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Create and run online surveys
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a Surveys app, which you can use to design and publish online surveys that can be integrated with your events, marketing emails, and customer journeys.

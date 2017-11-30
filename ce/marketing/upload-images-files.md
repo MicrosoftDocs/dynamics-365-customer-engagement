@@ -17,6 +17,8 @@ topic-status: Drafting
 
 # Upload and use images and files in online content
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], which also hosts the images and delivers them when contacts open an email or marketing page. You can also upload other types of files, such as PDFs, to make them available for download or to share them with other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] users.

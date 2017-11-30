@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Create and deploy marketing pages
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and usually includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and applied immediately to your customer database.

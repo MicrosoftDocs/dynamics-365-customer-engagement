@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Analyze your marketing results
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Topics in this section explain how to find and interpret the results of your marketing activities, including how to leverage the powerful analytic capabilities of Power BI.

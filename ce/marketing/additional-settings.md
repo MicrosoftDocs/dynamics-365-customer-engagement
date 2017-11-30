@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Manage sample data in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Sample data gives you something to experiment with as you learn, and helps you see how data is organized in the system. If sample data isn't installed on your system, you might want to add it for training purposes. Later, when you're ready, you can remove it.

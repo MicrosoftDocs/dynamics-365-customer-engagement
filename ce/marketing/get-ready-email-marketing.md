@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Best practices for email marketing
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Sending marketing email is not the same as sending personal email as most people know it. They might seem similar, but the difference is actually obvious: personal emails get delivered to just one or a few people, whereas marketing emails get delivered to many thousands or more every month.

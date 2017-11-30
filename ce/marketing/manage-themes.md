@@ -16,6 +16,8 @@ ms.reviewer: renwe
 ---
 # Use themes to customize the appearance of your app
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Change the color scheme of the user interface based on your preferences, or create your own branding by changing the color scheme or logo in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. You can create a theme&mdash;a custom look and feel&mdash;for your app by creating new themes with  colors and visual elements you choose.

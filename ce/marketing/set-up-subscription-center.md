@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Set up subscription lists and subscription centers
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.

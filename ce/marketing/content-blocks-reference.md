@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Content blocks reference
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc_applies_to_update_9_0_0.md.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This topic describes each content block that is available for use with the designer, including blocks that are available for all designers and those that are specific to email, marketing pages, or forms.
