@@ -52,7 +52,7 @@ This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_
   
 -   Because C# lacks native support for JSON, the open source [Json.NET framework](http://www.newtonsoft.com/json/help/html/Introduction.htm) is included with its [NuGet package](https://www.nuget.org/packages/Newtonsoft.Json).  
   
--   Asynchronous programming is supported by the [System.Threading.Tasks](https://msdn.microsoft.com/library/system.threading.tasks.task\(v=vs.110\).aspx) namespace. Because of potential delays, web access typically employs asynchronous mechanisms. For more information, see [Asynchronous Programming with Async and Await](https://msdn.microsoft.com/en-us/library/hh191443\(v=vs.120\).aspx).  
+-   Asynchronous programming is supported by the [System.Threading.Tasks](https://msdn.microsoft.com/library/system.threading.tasks.task\(v=vs.110\).aspx) namespace. Because of potential delays, web access typically employs asynchronous mechanisms. For more information, see [Asynchronous Programming with Async and Await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/).  
   
 <a name="bkmk_runSample"></a>
  
