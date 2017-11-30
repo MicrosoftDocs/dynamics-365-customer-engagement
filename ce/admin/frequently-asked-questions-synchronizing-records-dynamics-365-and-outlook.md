@@ -18,8 +18,7 @@ manager: "brycho"
 ---
 # Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 ## What's the best way to use Outlook and Microsoft Dynamics 365 together?  
  There are three ways to use [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] together:  

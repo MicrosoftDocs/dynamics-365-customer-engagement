@@ -17,8 +17,7 @@ manager: "brycho"
 ---
 # Connect Dynamics 365 to POP3 or SMTP servers
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] with POP3/IMAP and SMTP email servers such as used for Gmail and Yahoo! Mail.  
   

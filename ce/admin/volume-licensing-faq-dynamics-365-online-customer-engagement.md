@@ -18,8 +18,7 @@ manager: "brycho"
 ---
 # Volume licensing FAQ
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 As of the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], Dynamics CRM functionality is now included as a part of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], a suite of intelligent business applications. Dynamic 365 unifies customer relationship management (CRM) and enterprise resource planning (ERP) capabilities by delivering new applications to help manage specific business functions.  
   

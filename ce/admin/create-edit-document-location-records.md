@@ -18,8 +18,7 @@ manager: "brycho"
 ---
 # Create or edit document location records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
   
