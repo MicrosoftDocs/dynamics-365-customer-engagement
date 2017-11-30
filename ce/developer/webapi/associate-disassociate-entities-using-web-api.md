@@ -127,7 +127,7 @@ OData-Version: 4.0
 
 ## Associate entities on update using single-valued navigation property
 
- You can associate entities on update using the same message described in [Basic update](update-delete-entities-using-web-api.md#bkmk_update) but you must use the @odata.bind annotation to set the value of a single-valued navigation property. The following example changes the account associated to an opportunity using the customerid_account single-valued navigation property.  
+ You can associate entities on update using the same message described in [Basic update](update-delete-entities-using-web-api.md#bkmk_update) but you must use the @odata.bind annotation to set the value of a single-valued navigation property. The following example changes the account associated to an opportunity using the `customerid_account` single-valued navigation property.  
   
  **Request**
 
@@ -149,14 +149,20 @@ OData-Version: 4.0
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 ```  
+<a name="bkmk_Associateentitiesonupdate_multi"></a>
+
 ## Associate entities on update using collection-valued navigation property
 
-Use the following Web API request to associate multiple [ActivityParty](../entities/activityparty.md) entities with an [Email](../entities/email.md) entity using collection-valued navigation property `email_activity_parties`.
+The following example shows how to associate multiple existing [ActivityParty](../entities/activityparty.md) entities with an [Email](../entities/email.md) entity using collection-valued navigation property `email_activity_parties`.
 
 **Request**
 
 ```HTTP
 PUT [Organization URI]/api/data/v9.0/emails(2479d20d-3a39-e711-8145-e0071b6a2001)/email_activity_parties
+Content-Type: application/json  
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0
 
 {
 	"value": [
@@ -175,10 +181,13 @@ PUT [Organization URI]/api/data/v9.0/emails(2479d20d-3a39-e711-8145-e0071b6a2001
 ```
 
 **Response**
-```
+
+```HTTP
 HTTP/1.1 204 No Content  
 OData-Version: 4.0 
 ```
+> [!NOTE]
+> Associating multiple entities with an entity on update is a special scenario that is possible only with <xref href="Microsoft.Dynamics.CRM.ActivityParty?text=ActivityParty EntityType" />.
 
 ### See also
 
