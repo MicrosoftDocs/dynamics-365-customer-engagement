@@ -187,7 +187,7 @@ HTTP/1.1 204 No Content
 OData-Version: 4.0 
 ```
 > [!NOTE]
-> Associating multiple entities with an entity on update is a special scenario that is possible only with <xref href="Microsoft.Dynamics.CRM.ActivityParty?text=ActivityParty EntityType" />.
+> Associating multiple entities with an entity on update is a special scenario that is possible only with <xref href="Microsoft.Dynamics.CRM.activityparty?text=activityparty EntityType" />.
 
 ### See also
 
