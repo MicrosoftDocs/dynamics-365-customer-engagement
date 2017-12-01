@@ -6,3 +6,5 @@
 #### [Step 1: Create required entities and forms](create-entities-forms.md)   
 #### [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 #### [Step 3: Configure the tile for custom channel](configure-tile-custom-channel.md)
+#### [Step 4: Test your custom channel tile](test-custom-channel-tile.md)
+### [Publish custom channel on AppSource](publish-custom-channel-appsource.md)
