@@ -28,7 +28,5 @@ The workflow or the plug-in should be configured to:
 2. Interact with the external service to perform the required operations. For example, in case of a Special custom channel, your custom code should be able to send messages using the external service provider and receive responses or feedback, if any.
 3. Call the **Custom Channel Activity Create Interaction** action to send the customer journey feedback to Dynamics 365 for Customer Insights for further processing.
  
-  
-### See also
-  
-[Marketing Help & Training](../../marketing/help-hub.md)  
+> [!div class="nextstepaction"]
+> [Step 3: Configure the tile for custom channel](configure-tile-custom-channel.md)  

@@ -23,25 +23,8 @@ Creating a custom channel for customer journeys involves using the extensibility
 Creating a custom channel for customer journeys in Marketing can be divided into four steps.
 
 - [Step 1: Create required entities and forms](create-entities-forms.md)
-
-
-
-## Step 2: Create a workflow or plug-in to implement your custom logic
-
-Partners can create a workflow or plug-in to implement their custom logic. The workflow or the plug-in should be configured to:
-
-a. Execute on the creation of an instance of the Custom Channel Activity (msdyncrm_customerjourneycustomchannelactivity) entity. An instance of this entity is created whenever a contact, which has the compliance field set to allow use of custom channels, goes through the customer journey. For information about the compliance field, see Define the Tile XML file.
-b. Interact with the external service to perform the required operations. For example, in case of a Special custom channel, your custom code should be able to send messages using the external service provider and receive responses or feedback, if any.
-c. Call the **Custom Channel Activity Create Interaction** action to send the customer journey feedback to Dynamics 365 for Customer Insights for further processing.
-
-
-## Step 3: Configure the tile for custom channel
-
-## Step 4: Test your custom channel tile
-
-To make your custom channel tile visible in the customer journey designer: 
-
-1.  Create a solution. More information: Create solution 
+- [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
+- [Step 3: Configure the tile for custom channel](configure-tile-custom-channel.md)
   
 ### See also
   
