@@ -19,6 +19,7 @@
 ### [Enable duplicate detection](enable-duplicate-detection.md) 
 ### [Manage sample data](manage-sample-data.md)
 
+
 ## [User Guide](user-guide-dynamics-365-sales.md)
 ### [Learn the basics](learn-basics.md)
 ### [Assign a record to a user or team](assign-record-user-team.md)
@@ -35,4 +36,3 @@
 ### [Understand sales transactions](understand-sales-transactions.md)
 ### [Create and manage quotes](create-manage-quotes.md)
 ### [Create and manage invoices](create-manage-invoices.md)
-
