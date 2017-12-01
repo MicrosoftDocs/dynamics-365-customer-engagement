@@ -25,6 +25,5 @@ More information:
 - [Create and design forms](../../customize/create-design-forms.md)
 - [Create or edit dashboards](../../customize/create-edit-dashboards.md)
 
-### See also  
-
-[Marketing Help & Training](../../marketing/help-hub.md)
+> [!div class="nextstepaction"]
+> [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)

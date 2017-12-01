@@ -18,20 +18,16 @@ manager: "amyla"
 
 [!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Partners can create a workflow or plug-in to implement their custom logic. The workflow or the plug-in should be configured to:
+Partners can create a workflow or plug-in to implement their custom logic. For information about creating a workflow or plug-in, see:
+- [Workflows overview](../../customize/workflow-processes.md) and [Automate your business processes in Customer Engagement](../automate-business-processes-customer-engagement.md)
+- [Write plug-ins to extend business processes](../write-plugin-extend-business-processes.md)
 
-a. Execute on the creation of an instance of the Custom Channel Activity (msdyncrm_customerjourneycustomchannelactivity) entity. An instance of this entity is created whenever a contact, which has the compliance field set to allow use of custom channels, goes through the customer journey. For information about the compliance field, see Define the Tile XML file.
-b. Interact with the external service to perform the required operations. For example, in case of a Special custom channel, your custom code should be able to send messages using the external service provider and receive responses or feedback, if any.
-c. Call the **Custom Channel Activity Create Interaction** action to send the customer journey feedback to Dynamics 365 for Customer Insights for further processing.
+The workflow or the plug-in should be configured to:
 
-
-## Step 3: Configure the tile for custom channel
-
-## Step 4: Test your custom channel tile
-
-To make your custom channel tile visible in the customer journey designer: 
-
-1.  Create a solution. More information: Create solution 
+1. Execute on the creation of an instance of the **Custom Channel Activity** (**msdyncrm_customerjourneycustomchannelactivity**) entity. An instance of this entity is created whenever a contact, which has the compliance field set to allow use of custom channels, goes through the customer journey. For information about the compliance field, see Define the Tile XML file.
+2. Interact with the external service to perform the required operations. For example, in case of a Special custom channel, your custom code should be able to send messages using the external service provider and receive responses or feedback, if any.
+3. Call the **Custom Channel Activity Create Interaction** action to send the customer journey feedback to Dynamics 365 for Customer Insights for further processing.
+ 
   
 ### See also
   
