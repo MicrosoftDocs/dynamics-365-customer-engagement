@@ -1,8 +1,8 @@
 ---
-title: "Understand sales transactions in Dynamics 365 for Sales | Microsoft Docs"
-description: "Understand how to use quotes and invoices for sales transactions in Dynamics 365 for Sales"
+title: "Understand sales transactions in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Understand how to use quotes and invoices for sales transactions in Dynamics 365 for Sales, Preview"
 keywords: "Quotes; quote stages; current pricing; locked pricing; invoice; sales"
-ms.date: 07/15/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Sales transactions in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Sales transactions in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], a sale typically starts with a draft quote. When the quote is ready, it is activated and sent to the customer for revisions before it is accepted, and then when you’re shipping the products offered in the quote, an invoice is generated from the quote.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, a sale typically starts with a draft quote. When the quote is ready, it is activated and sent to the customer for revisions before it is accepted, and then when you’re shipping the products offered in the quote, an invoice is generated from the quote.
 
 Quotes and invoices in the Sales app are the same item in different states of transition. You can use tools and templates to create and print quotes and invoices.
 
@@ -41,6 +43,6 @@ The **Use Current Pricing** comes directly from the product catalog; If you chan
 
 
 ### See Also
-[Create and manage quotes in Dynamics 365 for Sales](create-manage-quotes.md)  
-[Create and manage invoices in Dynamics 365 for Sales](create-manage-invoices.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Create and manage quotes in Dynamics 365 for Sales, Preview](create-manage-quotes.md)  
+[Create and manage invoices in Dynamics 365 for Sales, Preview](create-manage-invoices.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  

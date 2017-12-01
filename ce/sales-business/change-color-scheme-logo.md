@@ -1,8 +1,8 @@
 ---
-title: "Change color scheme logo Dynamics 365 Sales | Microsoft Docs"
-description: "Create your own branding in Dynamics 365 for Sales. "
+title: "Change color scheme logo Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Create your own branding in Dynamics 365 for Sales, Preview. "
 keywords: "color; logo; theme"
-ms.date: 07/14/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -17,9 +17,11 @@ topic-status: Drafting
 
 # Change the color scheme or logo for your organization
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in the [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] app. You can create a custom look and feel (a theme), for your Sales app and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for phones app by creating new themes with colors and visual elements.
+Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview. You can create a custom look and feel (a theme), for your Sales app and the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] for phones app by creating new themes with colors and visual elements.
 
 The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:
 
@@ -62,4 +64,4 @@ The theme that you are currently using is shown with the text “currently appli
 
 ### See Also
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

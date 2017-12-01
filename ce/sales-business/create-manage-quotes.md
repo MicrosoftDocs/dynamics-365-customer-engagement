@@ -1,8 +1,8 @@
 ---
-title: "Create and manage quotes in Dynamics 365 for Sales | Microsoft Docs"
-description: "Use quotes to develop a formal offer for products with proposed prices and related payment terms in Dynamics 365 for Sales."
+title: "Create and manage quotes in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Use quotes to develop a formal offer for products with proposed prices and related payment terms in Dynamics 365 for Sales, Preview."
 keywords: "Quote; opportunity; create quote; email quote"
-ms.date: 07/15/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create and manage quotes in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Create and manage quotes in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Most sales begin with a price quote in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. A quote is a formal offer for products proposed at specific prices and related payment terms, which you send to an opportunity, account, or contact.
+Most sales begin with a price quote in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview. A quote is a formal offer for products proposed at specific prices and related payment terms, which you send to an opportunity, account, or contact.
 
 If you’ve created your quote from an opportunity, you may have already added products that your customer is interested in to the opportunity. When you create a quote from the opportunity, all the products are already added to the quote.
 
@@ -78,5 +80,5 @@ To directly send an email to customer with a quote attached, open the quote, and
 ![Send By Email command bar button](media/send-by-email-command-bar-button.png "Send By Email command bar button")  
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

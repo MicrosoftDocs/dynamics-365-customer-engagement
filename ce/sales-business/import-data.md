@@ -1,8 +1,8 @@
 ---
-title: "Import data into Dynamics 365 for Sales | Microsoft Docs"
-description: "Import your customer and sales data quickly into Dynamics 365 for Sales. "
+title: "Import data into Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Import your customer and sales data quickly into Dynamics 365 for Sales, Preview. "
 keywords: "Import; CSV; Excel"
-ms.date: 07/14/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,13 +15,15 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Import contacts, accounts, or leads into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Import contacts, accounts, or leads into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Bring in your customer and sales data quickly into your app by importing it. It can be used for importing data into most record types.
 
-[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] processes imports in the background. After an import completes, you can review which records succeeded, failed to import, or were partially imported. To fix the records that failed to import, export them into a separate file, fix them, and then try to import them again. You can delete all records associated with an import.
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview processes imports in the background. After an import completes, you can review which records succeeded, failed to import, or were partially imported. To fix the records that failed to import, export them into a separate file, fix them, and then try to import them again. You can delete all records associated with an import.
 
 
 ## Supported file types

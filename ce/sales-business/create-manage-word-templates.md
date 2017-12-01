@@ -1,8 +1,8 @@
 ---
-title: "Manage Word templates in Dynamics 365 for Sales | Microsoft Docs"
-description: "Create Word templates in Dynamics 365 for Sales to help your users send out standardized and well formatted Sales data to customers. "
+title: "Manage Word templates in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Create Word templates in Dynamics 365 for Sales, Preview to help your users send out standardized and well formatted Sales data to customers. "
 keywords: "Word template, Standardized data; Consistent look"
-ms.date: 07/14/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -17,9 +17,11 @@ topic-status: Drafting
 
 # Create and manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word provides powerful ways to present your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] data in a standardized and well formatted document. With Word templates, you can easily create and share your template with others, so all the documents that go out to your customer have a consistent look as per your organization’s branding.
+[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word provides powerful ways to present your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview data in a standardized and well formatted document. With Word templates, you can easily create and share your template with others, so all the documents that go out to your customer have a consistent look as per your organization’s branding.
 
 When the templates are ready, users can generate standardized documents automatically populated with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] data with just one click.
 
