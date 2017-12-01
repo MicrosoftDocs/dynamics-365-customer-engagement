@@ -17,7 +17,7 @@ ms.author: "jimholtz"
 ---
 # About the Microsoft Cloud Germany datacenter
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE[pn_dyn_365_germany](../../includes/pn-dyn-365-germany.md)] address the needs of the most regulated customers in Germany, the European Union (EU), and the European Free Trade Association (EFTA). The German datacenter delivers services that bring together the best of Microsoft in productivity, collaboration, intelligence and platform to grow, evolve and transform your business.  
   

@@ -22,7 +22,7 @@ After completing this walkthrough, you will know how to use your JavaScript code
 - Upload your JavaScript code as a web resource in Customer Engagement
 - Associate the JavaScript functions in the web resource to different client-side events in Customer Engagement.
 
-We will draw your attention to important facts during the walkthrough, and provide refences to actual methods as appropriate.
+We will draw your attention to important facts during the walkthrough, and provide references to actual methods as appropriate.
 
 ## Step 1: Write your custom JavaScript code
 
