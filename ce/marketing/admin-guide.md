@@ -25,7 +25,6 @@ topic-status: Drafting
 
 <h2>Set up and get started</h2>
 <li>[First time setup](purchase-setup.md)</li>
-<li>[Use your own Azure subscription for Customer Insights](setup-licensed-dci.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
@@ -53,7 +52,7 @@ topic-status: Drafting
 <h2>Configure Marketing features</h2>
 <li>[Set landing page defaults](marketing-settings.md#landing-pages-settings)</li>
 <li>[Set default data sources for email previews](marketing-settings.md#email-settings)</li>
-<li>[Choose entiteis for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
+<li>[Choose entities for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
 <li>[Set up events and webinars](events-settings.md)</li>
 <li>[Manage quotas](quota-management.md)</li>
 
