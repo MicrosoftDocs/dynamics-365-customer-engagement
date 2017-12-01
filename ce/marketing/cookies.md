@@ -1,5 +1,5 @@
 ---
-title: "Cookies set and read by Dynamics 365 for Marketing | Microsoft Docs"
+title: "Cookies set and read (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 for Marketing"
 keywords: "cookies; privacy"
 ms.date: 12/15/2017

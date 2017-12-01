@@ -1,5 +1,5 @@
 ---
-title: "Content-blocks reference for Dynamics 365 for Marketing | Microsoft Docs"
+title: "Content-blocks reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each content block that is available for the design tool in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; reference; email; form;  page"
 ms.date: 12/15/2017

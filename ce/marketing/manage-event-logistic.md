@@ -1,5 +1,5 @@
 ---
-title: "Manage event logistics in Dynamics 365 for Marketing | Microsoft Docs  "
+title: "Manage event logistics (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "How to manage event logistics (including vendors, hotels, room allocations, and reservations) in Dynamics 365 for Marketing"
 keywords: "events; event management; logistics; hotel; reservation"
 author: kamaybac

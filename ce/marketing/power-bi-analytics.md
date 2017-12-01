@@ -1,5 +1,5 @@
 ---
-title: "Use Power BI for marketing analytics in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Use Power BI for marketing analytics (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to download, customize, and use Power BI content packs to analyze your marketing results in Dynamics 365 for Marketing"
 keywords: "analytics; Power BI"
 author: kamaybac

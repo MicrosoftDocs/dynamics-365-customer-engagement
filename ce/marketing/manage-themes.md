@@ -1,5 +1,5 @@
 ---
-title: "Use themes to customize the appearance of Dynamics 365 for Marketing | Microsoft Docs"
+title: "Use themes to customize the appearance (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Choose a standard theme or create your own to customize the general appearance of Dynamics 365 for Marketing"
 keywords: "administration; organization settings; theme; logo"
 author: kamaybac

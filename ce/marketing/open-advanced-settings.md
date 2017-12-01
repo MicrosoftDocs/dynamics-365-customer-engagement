@@ -1,5 +1,5 @@
 ---
-title: "Open administration settings for Dynamics 365 for Marketing | Microsoft Docs"
+title: "Open administration settings (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Explains how to access admin settings in Dynamics 365 for Marketing"
 keywords: "administration"
 ms.date: 12/15/2017

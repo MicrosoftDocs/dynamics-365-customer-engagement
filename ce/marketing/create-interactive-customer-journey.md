@@ -1,8 +1,8 @@
 ---
-title: "Create an interactive customer journey in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Create an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; trigger; landing page; signup; page"
-ms.date: 11/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:

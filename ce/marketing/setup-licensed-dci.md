@@ -1,5 +1,5 @@
 ---
-title: "Use a full Dynamics 365 for Customer Insights subscription for Dynamics 365 for Marketing | Microsoft Docs"
+title: "Use a full Dynamics 365 for Customer Insights subscription (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to use your own, fully licensed Dynamics 365 for Customer Insights subscription with Dynamics 365 for Marketing"
 keywords: "setup; FRE; wizard; Azure; customer insights"
 ms.date: 12/15/2017

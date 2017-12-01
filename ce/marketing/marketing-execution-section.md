@@ -1,5 +1,5 @@
 ---
-title: "Marketing execution with Dynamics 365 for Marketing | Microsoft Docs"
+title: "Marketing execution (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to design and deliver digital marketing content in Dynamics 365 for Marketing"
 keywords: "marketing execution;email;landing page;marketing page;customer journey"
 author: kamaybac

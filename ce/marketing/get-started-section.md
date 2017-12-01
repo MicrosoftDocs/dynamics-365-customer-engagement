@@ -1,5 +1,5 @@
 ---
-title: "Get started working with Dynamics 365 for Marketing | Microsoft Docs"
+title: "Get started with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to get around in Dynamics 365 for Marketing; how to work with basic records such as contacts, accounts and leads; and strategies for email marketing"
 keywords: "get started; basics"
 ms.date: 12/15/2017
@@ -22,4 +22,10 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Topics in this section explain how to get around in the system, and how to work with basic records such as contacts, accounts, and leads. There is also a topic that explains how to work with email marketing, including how to maximize deliverability and guidelines for how to conform to common email-marketing regulations.
+Learn how to get around in the system, and how to work with basic records, how to work with email marketing, including how to maximize deliverability and guidelines for how to conform to common email-marketing regulations.
+
+- [Dynamics 365 for Marketing Overview](overview.md)
+- [Find your way around](navigation.md)
+- [Organize your work](organize-daily-work.md)
+- [Manage customer information](manage-customer-information.md)
+- [Best practices for email marketing](get-ready-email-marketing.md)

@@ -1,5 +1,5 @@
 ---
-title: "Track online behavior with Dynamics 365 for Marketing | Microsoft Docs"
+title: "Track online behavior (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 for Marketing"
 keywords: "tutorial; tracking; website; redirect URL; behavior analysis"
 ms.date: 11/07/2017
