@@ -18,6 +18,8 @@ manager: "brycho"
 ---
 # Preview feature: Configure Relationship Insights features to better understand customer interactions
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
 
