@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Release history  
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 This is the release history page for the [Administrator Guide for Dynamics 365 Customer Engagement](admin-guide.md) documentation. Note that some of the updated and new topics relate to changes made since the last product release and are not exclusive to [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)].
 
