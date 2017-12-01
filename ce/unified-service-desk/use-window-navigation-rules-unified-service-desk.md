@@ -63,7 +63,7 @@ Window navigation rules define the interaction between various controls in [!INC
  |Entity Search|This is the entity search (FetchXML-based web service definition) that will be used to look up the data. This will populate the data fields in the session with the fields collected by the call. For more information about entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).|  
  |Hide Command Bar|This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] command bar after the window is displayed in the new tab.|  
  |Hide Navigation Bar|This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] navigation bar on the left of the window, when the window is displayed in a new tab.|
- |Condition|The condition field is a JavaScript expression that results in true or false.<br/>This condition field is used to create window navigation rules for a particular entity or URL that contain strings. In addition to the standard replacement parameters, you can use the [[url]] as a replacement parameter in the condition.|
+ |Condition|The condition field is a JavaScript expression that results in true or false.<br/>This condition field is used to create window navigation rules for a particular entity or URL that contain strings. In addition to the standard replacement parameters, you can use the `[[url]]` as a replacement parameter in the condition.|
 
 6.  Click **Save** to create or modify the window navigation rule.
   
