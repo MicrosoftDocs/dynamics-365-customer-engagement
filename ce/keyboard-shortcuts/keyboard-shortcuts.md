@@ -29,7 +29,7 @@ Microsoft Dynamics 365 uses a particular set of keyboard shortcuts to navigate t
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
 
-[Dynamics 365 for Sales](keyboard-navigation-support-sales-smb.md)
+[Dynamics 365 for Sales, Preview](keyboard-navigation-support-sales-smb.md)
 
 
 ## Keyboard shortcuts applicable to all Dynamics 365 applications
