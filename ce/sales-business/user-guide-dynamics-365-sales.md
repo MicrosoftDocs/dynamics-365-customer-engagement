@@ -1,12 +1,14 @@
 ---
-title: "User guide for Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "User guide (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Learn how to ramp up quickly on Dynamics 365 for Sales, Preview."
 keywords: "ramp up, user guide"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: ad4ee751-978d-4d14-80b1-e0ebed6d07f5
 author: shubhadaj
 ms.author: shujoshi

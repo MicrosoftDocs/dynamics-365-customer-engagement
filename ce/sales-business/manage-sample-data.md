@@ -1,12 +1,14 @@
 ---
-title: "Manage sample data in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Manage sample data (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Add sample data to allow your users to learn and experiment with Dynamics 365 for Sales, Preview."
 keywords: "Add; sample data; remove"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 62759eb0-a866-4741-a09a-a40ad695fb70
 author: shubhadaj
 ms.author: shujoshi

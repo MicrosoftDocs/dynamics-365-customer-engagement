@@ -1,12 +1,14 @@
 ---
-title: "Import data into Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Import data (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Import your customer and sales data quickly into Dynamics 365 for Sales, Preview. "
 keywords: "Import; CSV; Excel"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: af7f1439-e824-47fc-b523-77f302f68892
 author: shubhadaj
 ms.author: shujoshi

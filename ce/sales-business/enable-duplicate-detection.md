@@ -1,12 +1,14 @@
 ---
-title: "Keep your data in Dynamics 365 for Sales, Preview clean with duplicate detection | Microsoft Docs"
+title: "Keep your data clean with duplicate detection (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Enable duplicate detection in Dynamics 365 for Sales, Preview to keep your sales data clean."
 keywords: "Duplicate; Enable; Disable"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 83bdaae9-1f72-45d5-b4c2-bd0a070a9c05
 author: shubhadaj
 ms.author: shujoshi

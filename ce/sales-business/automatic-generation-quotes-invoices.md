@@ -1,12 +1,14 @@
 ---
-title: "Automatic generation of quotes and invoices in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Automatic generation of quotes and invoices (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Enable automatic creation of standardized quotes and invoice documents in Dynamics 365 for Sales, Preview."
 keywords: "automatic; quote document; invoice document"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 9f25ed71-2c36-450a-9b1d-1adf7f72d72b
 author: shubhadaj
 ms.author: shujoshi

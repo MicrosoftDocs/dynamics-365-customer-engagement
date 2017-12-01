@@ -1,12 +1,14 @@
 ---
-title: "Import data from Exchange | Microsoft Docs"
-description: "Get your contacts from Microsoft Exchange into Dynamics 365 for Sales."
+title: "Import data from Exchange (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Get your contacts from Microsoft Exchange into Dynamics 365 for Sales, Preview."
 keywords: "Import; Track; Exchange; Contacts"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: cab1a29f-3f65-4036-b4e4-fa434e9a5926
 author: shubhadaj
 ms.author: shujoshi

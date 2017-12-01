@@ -1,12 +1,14 @@
 ---
-title: "Export data or template in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Export data or template (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Export data from Dynamics 365 for Sales, Preview to an Excel worksheet and share it with other."
 keywords: "Export; Export Template; View"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: a7e323b0-ca34-4c60-b9f4-12d36d076092
 author: shubhadaj
 ms.author: shujoshi

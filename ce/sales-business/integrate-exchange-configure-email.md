@@ -1,12 +1,14 @@
 ---
-title: "Configure email in Dynamics 365 for Sales, Preview by integrating with Exchange | Microsoft Docs"
+title: "Configure email by integrating with Exchange (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Enable your Dynamics 365 for Sales, Preview users to send and receive emails by integrating with Exchange."
 keywords: "Email; Exchange; Mailbox"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 9ab64600-b67c-4769-b2c0-cd94d2cc8150
 author: shubhadaj
 ms.author: shujoshi

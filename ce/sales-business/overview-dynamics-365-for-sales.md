@@ -1,12 +1,14 @@
 ---
-title: "Overview of Dynamics 365 for Sales, Preview | Microsoft Docs"
-description: "Get an overview of Dynamics 365 for Sales, Preview and its capabilities"
+title: "Overview (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Get an overview of Dynamics 365 for Sales and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: ccdffcfc-fb43-4119-b7a0-47fca20f6f4e
 author: shubhadaj
 ms.author: shujoshi

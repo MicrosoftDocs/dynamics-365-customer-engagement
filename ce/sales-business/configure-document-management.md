@@ -1,12 +1,14 @@
 ---
-title: "Configure document management in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Configure document management (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Enable your Dynamics 365 for Sales users to share and manage SharePoint documents from within Sales, Preview."
 keywords: "SharePoint; Document Management; Configure"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 0510206a-b98d-465a-be0f-1e00a95f4cd3
 author: shubhadaj
 ms.author: shujoshi
