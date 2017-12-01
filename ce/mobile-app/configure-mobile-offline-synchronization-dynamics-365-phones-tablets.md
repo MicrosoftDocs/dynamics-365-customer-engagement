@@ -183,7 +183,7 @@ You need to create mobile offline profiles for users to configure filters that d
 8.  Admins can choose what information to sync to user's devices. This can help minimize impact to user's device's memory. Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
  ||  
- |-|  
+ |------|
  |equal|  
  |not equal|  
  |gt – greater than|  
@@ -193,7 +193,7 @@ You need to create mobile offline profiles for users to configure filters that d
  |like|  
  |not-like|  
  |in|  
- not-in|  
+ |not-in|  
  |null|  
  |not-null|  
  |eq-userid|  
@@ -205,9 +205,9 @@ You need to create mobile offline profiles for users to configure filters that d
  |eq-businessid|  
  |ne-businessid|  
  |eq-userlanguage|  
- begins-with|  
+ |begins-with|  
  |not-begin-with|  
- ends-with|  
+ |ends-with|  
  |not-end-with|
  
  > [!NOTE]
