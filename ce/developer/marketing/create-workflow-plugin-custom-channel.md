@@ -16,6 +16,8 @@ manager: "amyla"
 ---
 # Step 2: Create a workflow or plug-in to implement your custom logic
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Partners can create a workflow or plug-in to implement their custom logic. For information about creating a workflow or plug-in, see:
