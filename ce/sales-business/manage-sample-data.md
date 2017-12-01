@@ -2,7 +2,7 @@
 title: "Manage sample data in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Add sample data to allow your users to learn and experiment with Dynamics 365 for Sales, Preview."
 keywords: "Add; sample data; remove"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Add or remove sample data in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -44,4 +46,4 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 ### See Also
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

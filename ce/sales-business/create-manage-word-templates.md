@@ -2,7 +2,7 @@
 title: "Manage Word templates in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Create Word templates in Dynamics 365 for Sales, Preview to help your users send out standardized and well formatted Sales data to customers. "
 keywords: "Word template, Standardized data; Consistent look"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Create and manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

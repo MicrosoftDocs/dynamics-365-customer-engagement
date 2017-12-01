@@ -1,8 +1,8 @@
 ---
-title: "Dynamics 365 for Sales, Preview Overview | Microsoft Docs"
+title: "Overview of Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Get an overview of Dynamics 365 for Sales, Preview and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: get-started-article
 applies_to:
@@ -15,20 +15,20 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Dynamics 365 Sales, Preview Overview
+# Overview of Dynamics 365 for Sales, Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Welcome to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, designed especially for businesses like yours. 
 
-This Sales offering is built on a new Unified Interface, designed from the ground up with accessibility in mind. It also uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
+This new Sales offering is built on a new Unified Interface, designed from the ground up with accessibility in mind. It also uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
-The app comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
 and importing data.
 
 Plus, sellers will find a streamlined lead to cash process, easier account, contact, and opportunity management, and dashboards that make it faster to visualize useful information at a glance.
-
-The new Sales application also uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
 ![Image for Dynamics 365 for Sales](media/sales-app-image.png "Image for Dynamics 365 for Sales")
 

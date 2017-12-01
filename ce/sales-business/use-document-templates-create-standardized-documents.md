@@ -2,7 +2,7 @@
 title: "Use document templates in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Create standardized documents by using document templates in Dynamics 365 for Sales, Preview."
 keywords: "Word template; Excel template; Document; Invoice Summary; Quote Summary"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Use document templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview to create standardized documents
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -120,4 +122,4 @@ To apply a sample [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] temp
 ### See Also
 [Manage Excel templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](create-manage-excel-templates.md)  
 [Manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](create-manage-word-templates.md) 
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  

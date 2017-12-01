@@ -2,7 +2,7 @@
 title: "Make calls or send instant messages in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Use Skype or Skype for Business to make calls or send instant messages to customers or users directly from Dynamics 365 for Sales, Preview."
 keywords: "Skype; Skype for Business; Click-to-call; sales"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Make calls or send instant messages in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -67,5 +69,5 @@ To start a conversation with a user, select on the IM address in the contact car
 
 
 ### See Also
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
 [Set up click-to-call in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](configure-click-to-call.md)

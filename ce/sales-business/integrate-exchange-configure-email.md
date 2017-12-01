@@ -2,7 +2,7 @@
 title: "Configure email in Dynamics 365 for Sales, Preview by integrating with Exchange | Microsoft Docs"
 description: "Enable your Dynamics 365 for Sales, Preview users to send and receive emails by integrating with Exchange."
 keywords: "Email; Exchange; Mailbox"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Configure email in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview by integrating with Exchange 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -132,5 +134,5 @@ The error must automatically resolve now. If the error persists, please contact 
 
 
 ### See Also
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)

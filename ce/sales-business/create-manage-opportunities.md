@@ -2,7 +2,7 @@
 title: "Manage opportunities in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales, Preview."
 keywords: "Deal; Opportunity; sales transaction"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Manage opportunities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -150,5 +152,5 @@ Whether you win a sale or close an opportunity, you probably want to close it. 
 
 ### See Also
 [Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
 [Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales, Preview](create-manage-activities.md)

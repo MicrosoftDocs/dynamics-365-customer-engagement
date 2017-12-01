@@ -2,7 +2,7 @@
 title: "Create and manage quotes in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Use quotes to develop a formal offer for products with proposed prices and related payment terms in Dynamics 365 for Sales, Preview."
 keywords: "Quote; opportunity; create quote; email quote"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Create and manage quotes in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -79,4 +81,4 @@ To directly send an email to customer with a quote attached, open the quote, and
 
 ### See Also
 [Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

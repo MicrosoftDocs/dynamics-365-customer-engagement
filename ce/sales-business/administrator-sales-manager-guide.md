@@ -2,7 +2,7 @@
 title: "Administrator and Sales Manager Guide for Dynamics 365 for Sales, Preview  | Microsoft Docs"
 description: "Get started with the basics of setting up a fully functional app for your salespeople.  "
 keywords: "setup; configure; administration; advanced settings, settings, quick setup"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Administrator and Sales Manager Guide 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -84,5 +86,5 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 
 ### See Also
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
 [Learn the basics](learn-basics.md)  

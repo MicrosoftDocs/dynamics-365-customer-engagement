@@ -2,7 +2,7 @@
 title: "Manage Excel templates in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Help your users analyze and present Sales data to others using Excel templates in Dynamics 365 for Sales, Preview."
 keywords: "Excel template; Sales Forecasting; Analysis"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Create and manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

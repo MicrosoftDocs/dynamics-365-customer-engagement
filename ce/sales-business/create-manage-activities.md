@@ -2,7 +2,7 @@
 title: "Create and manage activities in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Use activities to keep track of all your customer communications in Dynamics 365 for Sales, Preview."
 keywords: "Task; Email; Phone; Appointment; sales"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales, Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -85,5 +87,5 @@ After you call someone, complete a task, send an email, or go to an appointment,
   ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
 
 ### See Also  
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
 [Manage your customers](create-accounts-contacts-customers.md)

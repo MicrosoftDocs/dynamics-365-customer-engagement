@@ -2,7 +2,7 @@
 title: "Understand sales transactions in Dynamics 365 for Sales, Preview | Microsoft Docs"
 description: "Understand how to use quotes and invoices for sales transactions in Dynamics 365 for Sales, Preview"
 keywords: "Quotes; quote stages; current pricing; locked pricing; invoice; sales"
-ms.date: 11/30/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ topic-status: Drafting
 ---
 
 # Sales transactions in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -43,4 +45,4 @@ The **Use Current Pricing** comes directly from the product catalog; If you chan
 ### See Also
 [Create and manage quotes in Dynamics 365 for Sales, Preview](create-manage-quotes.md)  
 [Create and manage invoices in Dynamics 365 for Sales, Preview](create-manage-invoices.md)  
-[Dynamics 365 Sales, Preview Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
