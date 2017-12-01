@@ -39,27 +39,6 @@ This topic explains how licensing works, how to set up the system for the first 
 > 
 > Once the setup is complete, we recommend that all users also use Google Chrome, though most browsers should also work fine, and wider browser support is expected soon.
 
-<a name="choose-dci-option"></a>
-
-## How to choose your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] option
-
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service called [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to store and process customer information. It's used for features such as defining marketing segments, storing and processing email-interaction results, and more. When you are setting up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you must choose whether to run [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] on the default [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription included with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], or to bring your own, full-featured [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] hub running on your own [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription.
-
-> [!IMPORTANT]
-> As with most of the settings presented by the setup wizard, your choice of [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription for running [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] is _permanent_ and can't be changed after you complete the wizard. There is no way to migrate the data later. Please consider your options and make your choice carefully.
-
-For more information about [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-short.md)] and its many capabilities, see [Dynamics 365 for Customer Insights](https://go.microsoft.com/fwlink/p/?linkid=863946).
-
-The following table summarizes the differences between the two options for running [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-
-|Use the default [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription  | Bring your own [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription |
-|----------------|-----------------------------------------------------------------------------|
-| Included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. | Sign up for your own [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription and add a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] hub to it.  |
-| The setup wizard connects automatically.  | The setup wizard provides links to help you sign up for [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] (as needed), and guides you through the settings required to establish the connection with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. |
-| The service is managed and maintained for you by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]. | You must manage and maintain the service yourself. |
-| You won't have direct access to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] or its advanced features. | You'll have full access to all [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features, including the ability to load third-party data, generate reports, connect to other systems, and more. |
-| Your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] subscription includes a quota of monthly credits for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] data, but additional charges may apply if you exceed this quota. See your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] subscription agreement for details of how much [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] data it includes.| You receive the same number of monthly credits for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] data as you would when using the default [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]  subscription, but they are automatically applied to the private [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription that you set up for use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Additional charges may apply if you exceed the quota specified in your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] subscription agreement.|
-
 ## First-time setup
 
 After purchasing your initial license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll receive the URL required to access the app. The first time you open the link, you'll launch a setup wizard that guides you through the initial setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the wizard will help you review all the relevant privacy policies and set up and integrate these various elements.
@@ -85,24 +64,11 @@ Do the following:
 
 ### Step 2: The Customer Insights page
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. On this page of the setup wizard, you can choose to run [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] on an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription created and managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] specifically for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], or you might instead choose to use your own, [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription to gain access to more [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features.
-
-> [!IMPORTANT]
-> If you choose to use your own [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription, please note that it must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to choose your Customer Insights option](#choose-dci-option)
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. On this page of the setup wizard, you must read and agree to a privacy statement that applies to this service.
 
 ![The Customer Insights page](media/fre-customer-insights.png "The Customer Insights page")
 
-To use the default[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], do the following:
-
-1. Set the drop-down list on this page to **Use default**.
-
-1. Carefully read the check box text at the bottom of the form, and follow and read all the links provided. This text and its links provide important privacy information and describe the privacy policy for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. If you agree with the policies described, select the check box. If you don't accept these terms, quit the setup wizard.
-
-1. Select **Continue** to start the setup and integration process for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] and continue with the wizard.
-
-To use your own [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] subscription instead of the default subscription, go to [Use your own Azure subscription for Customer Insights](setup-licensed-dci.md), and then return here to continue.
+Carefully read the check box text provided here, and follow and read all the links provided. This text and its links provide important privacy information and describe the privacy policy for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. If you agree with the policies described, select the check box. If you don't accept these terms, quit the setup wizard.
 
 ### Step 3: The Portal page
 
@@ -173,5 +139,4 @@ To rerun the wizard, go to the **Settings** work area of [!INCLUDE[pn-marketing-
 
 ### See also
 
-[Use your own Azure subscription for Customer Insights](setup-licensed-dci.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
