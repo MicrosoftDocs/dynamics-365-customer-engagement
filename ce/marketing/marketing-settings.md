@@ -103,6 +103,9 @@ The analytical and data-crunching capabilities of [!INCLUDE[pn-customer-insights
 
 Use the **Settings** > **Marketing Settings** > **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to replicate to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. For optimal performance and functionality, choose only the entities you need—no more and no less.
 
+> [!IMPORTANT]
+> Once you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and  consume storage space there and can't be removed again. You should only add those entities you are sure you will need.
+
 Select the check box for each entity you want to sync. If you can't see the entity you want, try using the search field to find it.
 
 ### See also

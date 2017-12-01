@@ -132,14 +132,18 @@ Use standard dynamic content to position field values and links from recipient c
 
 Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the **Assist Edit** button **&lt;/&gt;** to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all of the following:
 
-- **Contact**: Places a field value, such as a first name, from each recipient's contact record.
-- **Content settings**: Places a link or a field value from the content settings&mdash;a subscription center link, forwarding link, and the sender postal address are included here.
-- **Marketing page**: Places a link to a marketing page, or a field value from the page.
-- **Event**: Places a link to an event sign-up page, or a field value from the page.
-- **Survey**: Places a link to an online survey (Voice of the Customer), or a field value from the survey.
-- **Message**:  Places functions that relate to the message itself; currently, an open-as-webpage link is the only value available from this source.
+- **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
+- **Content settings[context]**: Places a link or a field value from the content settings&mdash;a subscription center link, forwarding link, and the sender postal address are included here.
+- **Marketing page**: Places a link to a specific marketing page, or a field value from the page.
+- **Event**: Places a link to a specific event sign-up page, or a field value from the page.
+- **Survey**: Places a link to a specific online survey (Voice of the Customer), or a field value from the survey.
+- **Message[context]**:  Places functions that relate to the message itself; currently, an open-as-webpage link is the only value available from this source.
 
-After you have selected a source, the **Assist Edit** drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as *{{ SourceName.FieldName }}*, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
+
+> [!NOTE]
+> Entities shown by assist edit that include "[context]" in their name take values that can change for each recipient (such as the recipient's name). Entities that don't include "[context]" in their name must refer to a specific record ID, which doesn't change for each recipient. Note also that the "[context]" label is not included in the code placed on the page when you are done (just the entity name).
+
+After you have selected a source, the **Assist Edit** drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as *{{ SourceName.FieldName }}* or *{{ SourceName(RecordID).FieldName }}*, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
 
 - `{{ Contact.FirstName }}`  
 Places the recipient's first name.
@@ -149,9 +153,9 @@ Places a link to the subscription center page identified in the active content s
 Places a link to the forwarding page identified in the active content settings.
 - `{{ Message.OpenAsWebPage }}`  
 Places a link that opens the current message in a web browser.
-- `{{ entity Event.Url Id'123' }}`  
-Places a link to an event sign-up page for the event identified by the specified event ID (123 in the example).
-- `{{ entity Survey.Name Id'321' }}`  
+- `{{msevtmgt_event(123).msevtmgt_webinarurl}}`  
+Places the web URL for the event identified by the specified event ID (123 in the example).
+- `{{msdyn_survey(321).msdyn_name}}`  
 Places the name of the survey identified by the specified survey ID (321 in the example).
 - `{{ Contact.Account.OwnerUser.PrimaryEmail }}`  
 This is a useful expression for setting up the **From Email** address for a message. It resolves to the email address of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user who owns the account associated with the mail recipient. This person is typically the account manager, who the recipient knows personally. Contacts are much more likely to open a message when it comes from somebody they know.
@@ -190,6 +194,21 @@ Start by designing the HTML version of your message. When you're almost done, go
 
 - To fine-tune the text version, clear the **Automatically generate** check box to unlock the text field, and then edit the text as needed. From now on, though, your text version will no longer be linked to the HTML version and won't be updated to match any changes you make to the HTML.
 - To go back to tracking the HTML version, reselect the **Automatically generate** check box. This will remove any customizations that you've made to the plain text and update it to match the current HTML design on an ongoing basis.
+
+## Set advanced header options
+
+In addition to the message description and plain-text version, the **Summary** tab also offers **Advanced Header** settings. Usually you should not edit these, but they can be useful in some scenarios.
+
+> [!IMPORTANT]
+> When you create a new email, the **Advanced Header** settings are initially blank, but after you have made the standard settings for the **From** contact and saved the message at least once, the correct values are added here automatically. If you edit these values before saving (or after), then correct default values will no longer be offered. You should only edit these values if you are sure you need to.
+
+The following **Advanced Header** settings are available:
+
+* **Email from name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+* **Email from address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+* **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
+* **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, then replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+
 
 ## Check your work by using previews and test sends
 
