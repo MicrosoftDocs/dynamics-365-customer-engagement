@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 4b968f74-0d02-4139-848e-6da502aff04c
 caps.latest.revision: 17
-ms.author: "mkaur"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Troubleshoot error code 800c0019 on Windows Phones

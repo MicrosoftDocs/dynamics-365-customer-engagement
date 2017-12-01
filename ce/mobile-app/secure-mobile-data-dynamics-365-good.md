@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 26
-ms.author: "mkaur"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Secure your mobile data from loss or theft

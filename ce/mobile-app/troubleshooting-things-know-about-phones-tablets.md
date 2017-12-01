@@ -11,7 +11,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 55e7ba52-2f18-4eaf-8281-70cd639887f8
 caps.latest.revision: 33
-ms.author: "mkaur"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Potential issues and resolutions

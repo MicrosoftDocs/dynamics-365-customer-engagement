@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 66361a6d-4cac-40a0-acf4-95669a2ae97b
 caps.latest.revision: 33
-ms.author: "mkaur"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Troubleshoot a Windows app start-up error
