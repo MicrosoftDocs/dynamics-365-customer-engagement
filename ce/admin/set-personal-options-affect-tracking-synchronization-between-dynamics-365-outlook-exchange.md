@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can use the **Set Personal Options** dialog box in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to set many options that affect tracking and synchronization.  
   

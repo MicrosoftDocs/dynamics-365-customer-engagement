@@ -1,7 +1,7 @@
 ---
 title: "Get started with Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Provides basic information to help you get started with the Online Admin API for Customer Engagement."
-ms.date: 10/31/2017
+ms.date: 11/27/2017
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: "Dynamics 365 (online)"
@@ -60,8 +60,10 @@ The Online Management API has following standard request and response headers.
 
 | Header | Type | Description  |
 |--------|------|--------------|
-|**Accept-Language**|“en,” “es,” etc.|Specifies the preferred language for the response. Services are not required to support this, but if a service supports localization it MUST do so through the Accept-Language header.|
-|**Authorization**|String|Authorization header for the request. See [Authenticate to use the Online Management API](authentication.md)|
+|**Accept-Language**|String|Specifies the preferred language for the response. More information about the header: [Accept-Language (MDN web docs)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)|
+|**Authorization**|String|Specifies the credentials to authenticate a user with the Online Management API service. More information about the header: [Authorization (MDN web docs)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)|
+
+See [Authenticate to use the Online Management API](authentication.md) to know about setting these headers in your request.
 
 ### Response headers
 

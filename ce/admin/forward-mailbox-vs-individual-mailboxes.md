@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Forward mailbox vs. individual mailboxes 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can use mailbox monitoring to poll one or more mailboxes for incoming email messages, and then determine what actions [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will take based on the email message, such as create or update records in the system. You can configure server-side synchronization or the Email Router to monitor either of the following:  
   

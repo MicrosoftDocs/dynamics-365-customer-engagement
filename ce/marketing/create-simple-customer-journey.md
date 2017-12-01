@@ -18,6 +18,8 @@ topic-status: Drafting
 
 # Create a simple customer journey with email messaging
 
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 As you engage potential customers, they start by discovering your product, evaluate whether it meets their needs, look for a good offer, and finally make a purchase. We call this process the *customer journey*. Use [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more.
 
 A simple customer journey can include just two steps: identifying the target segment and creating an activity that addresses the members of that segment. In the following procedure, you'll set up a simple customer journey that sends an email message to all the members of a target segment.
@@ -51,7 +53,8 @@ To create a customer journey that executes a one-time email blast:
 
     The **Properties** tab provides settings that apply to the selected tile. Set the **Segment** to the name of the segment that you want to target with your campaign.
 
-    > [!TIP] When your customer journey is running, all contacts start at the **Segment Group** block, and then step one block forward and do whatever it says there, and so on down the pipeline—like in a simple board game. Some blocks hold on to contacts for awhile, while others do something immediately and then send the contact on to the next block in the pipeline. Other blocks can split the path based on contact information or interactions. At runtime, you'll be able to see how many contacts are waiting at each block, along with a few key results associated with the block. In this simple example, you're going to add just one more block—an **Email** block—which sends an email message to each contact who enters the block.
+    > [!TIP]
+    > When your customer journey is running, all contacts start at the **Segment Group** block, and then step one block forward and do whatever it says there, and so on down the pipeline—like in a simple board game. Some blocks hold on to contacts for awhile, while others do something immediately and then send the contact on to the next block in the pipeline. Other blocks can split the path based on contact information or interactions. At runtime, you'll be able to see how many contacts are waiting at each block, along with a few key results associated with the block. In this simple example, you're going to add just one more block—an **Email** block—which sends an email message to each contact who enters the block.
 
 1. Go back to the **Toolbox** tab and drag an **Email** block to the space immediately to the right of the **Segment Group** block.
     ![Add an email tile to the customer journey](media/journey-add-email.png "Add an email tile to the customer journey")
@@ -61,7 +64,8 @@ To create a customer journey that executes a one-time email blast:
 
     Set the **Marketing Email Message** to the name of the message that you want to send, such as the sample email message you created earlier in [Create a marketing email and go live](create-marketing-email.md).
 
-    > [!TIP] All the segments and email messages that you reference in your customer journey must be live before you can go live with the customer journey itself.
+    > [!TIP]
+    > All the segments and email messages that you reference in your customer journey must be live before you can go live with the customer journey itself.
 
 1. Until now, you've been working on the **Designer** tab. Now go to the **General** tab, where you can name your journey and configure its run schedule.  
     ![Customer Journey general settings](media/journey-general-settings.png "Customer journey general settings")
@@ -73,12 +77,14 @@ To create a customer journey that executes a one-time email blast:
     - **End Date Time**: Enter the time at which the journey should stop processing contacts. All actions will stop at this time, even if some contacts are still in the middle of the journey. If you're just testing, allow a couple of weeks.
     - **Content Settings**: This should already be set to your site's default Content Settings record. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
 
-    > [!TIP] While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.
+    > [!TIP]
+    > While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.
 
 1. On the command bar, select **Save** to save the work you've done so far.  
     ![Location of the save button in the command bar](media/journey-save-button-location.png "Location of the Save button in the command bar")
 
-    > [!TIP] The **Save** button might not always be present on the command bar, especially after you've saved the journey once. If you don't see it there, look for the smaller **Save** button in the lower-right corner of page, and select it there to save your work.
+    > [!TIP]
+    > The **Save** button might not always be present on the command bar, especially after you've saved the journey once. If you don't see it there, look for the smaller **Save** button in the lower-right corner of page, and select it there to save your work.
     > 
     > ![Location of the save button in the footer](media/journey-save-button-location-footer.png "Location of the Save button in the footer")
 
@@ -97,7 +103,8 @@ To create a customer journey that executes a one-time email blast:
 
     From here, use the **Designer** tab to see information and results for each tile from your pipeline. Open the **Dashboard** tab to see detailed analytics.
 
-    > [!TIP] Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for analyzing the results of your marketing initiatives, including marketing emails. Try opening the record for the email message you sent with this customer journey and check its **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for even more information.
+    > [!TIP]
+    > Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for analyzing the results of your marketing initiatives, including marketing emails. Try opening the record for the email message you sent with this customer journey and check its **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for even more information.
 
 ### See also
 

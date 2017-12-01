@@ -1,12 +1,14 @@
 ---
-title: "Keep your data in Dynamics 365 for Sales clean with duplicate detection | Microsoft Docs"
-description: "Enable duplicate detection in Dynamics 365 for Sales to keep your sales data clean."
+title: "Keep your data clean with duplicate detection (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Enable duplicate detection in Dynamics 365 for Sales, Preview to keep your sales data clean."
 keywords: "Duplicate; Enable; Disable"
-ms.date: 07/14/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 83bdaae9-1f72-45d5-b4c2-bd0a070a9c05
 author: shubhadaj
 ms.author: shujoshi
@@ -17,13 +19,15 @@ topic-status: Drafting
 
 # Keep your data clean with duplicate detection
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-To maintain the integrity of your data, it’s a good idea to set up duplicate detection to detect duplicate records in the system. By default, duplicate detection is already enabled for [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
+To maintain the integrity of your data, it’s a good idea to set up duplicate detection to detect duplicate records in the system. By default, duplicate detection is already enabled for [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview.
 
 ## Duplicate detection rules
 
-[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
 
 -   Accounts with the same account name are found
 
@@ -71,6 +75,6 @@ All the duplicate detection rules will be unpublished in the backend.
 
 
 ### See Also
-[Import data into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](import-data.md)  
+[Import data into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](import-data.md)  
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
 

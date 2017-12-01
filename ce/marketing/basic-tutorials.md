@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Basic tutorials for core scenarios
 
-This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you've never used this product before, this is the best place to start. When you have completed the exercises here, you'll be able to:
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The tutorials in this section provide exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you've never used this product before, this is the best place to start. When you have completed the exercises here, you'll be able to:
 
 - Create marketing segments that organize contacts from your database into logical groups that match your marketing strategies.
 

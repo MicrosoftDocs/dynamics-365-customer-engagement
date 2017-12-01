@@ -1,12 +1,14 @@
 ---
-title: "User's guide for Dynamics 365 for Sales | Microsoft Docs"
-description: "Learn how to ramp up quickly on Dynamics 365 for Sales."
+title: "User guide (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Learn how to ramp up quickly on Dynamics 365 for Sales, Preview."
 keywords: "ramp up, user guide"
-ms.date: 08/09/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: ad4ee751-978d-4d14-80b1-e0ebed6d07f5
 author: shubhadaj
 ms.author: shujoshi
@@ -15,16 +17,19 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# User's guide for [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# User's guide for [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] simplifies the lead-to-cash process so businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management.   
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview simplifies the lead-to-cash process so businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management. 
+
   
 ## Get started  
- [Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md) 
+ [Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md) 
 
- [Sign in and get started](sign-in-get-started.md)  
+ [Learn the basics](learn-basics.md)  
  
  [Manage tasks, appointments, email, or phone calls](create-manage-activities.md)
  

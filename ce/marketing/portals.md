@@ -24,7 +24,8 @@ topic-status: Drafting
 
 The portals solution is highly flexible and customizable. You can create portals for a wide variety of purposes (such as self-service, registration, and data management) and audiences (including customers, partners, and employees).
 
-> [!NOTE] The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For complete details about how to work with the portals solution, see [its online help](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365).
+> [!NOTE]
+> The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For complete details about how to work with the portals solution, see [its online help](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365).
 
 ## Open the portals area
 

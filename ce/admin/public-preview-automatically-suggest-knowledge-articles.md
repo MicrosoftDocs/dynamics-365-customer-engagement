@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Preview feature: Automatically suggest knowledge articles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You want your customer service reps to quickly resolve cases with high customer satisfaction. By using the [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics service with [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)], you can set up service case analysis to automatically provide your support staff with more relevant solutions from knowledge articles. They'll spend less time searching for answers and more time providing the correct response. The knowledge article suggestion feature includes support for both out-of-box entities and custom entities with a one-to-may (1:N) or many-to-one (N:1) relationship to the source entity.  
   

@@ -1,12 +1,14 @@
 ---
-title: "Manage sample data in Dynamics 365 for Sales | Microsoft Docs"
-description: "Add sample data to allow your users to learn and experiment with Dynamics 365 for Sales."
+title: "Manage sample data (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Add sample data to allow your users to learn and experiment with Dynamics 365 for Sales, Preview."
 keywords: "Add; sample data; remove"
-ms.date: 07/14/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 62759eb0-a866-4741-a09a-a40ad695fb70
 author: shubhadaj
 ms.author: shujoshi
@@ -15,11 +17,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Add or remove sample data in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Add or remove sample data in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Sample data gives you something to experiment with as you learn [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.
+Sample data gives you something to experiment with as you learn [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.
 
 Or, if sample data isn’t installed on your system, you may want to add it for training purposes. Later, when you’re ready, you can remove it.
 
@@ -44,4 +48,4 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 ### See Also
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)
