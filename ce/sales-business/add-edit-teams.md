@@ -1,12 +1,14 @@
 ---
-title: "Manage teams in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Manage teams (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Use teams in Dynamics 365 for Sales, Preview to group users who share and collaborate on business records.  "
 keywords: "Team; Manage Members; Role"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: d5a034ff-efa9-4087-8a21-cd801b458465
 author: shubhadaj
 ms.author: shujoshi

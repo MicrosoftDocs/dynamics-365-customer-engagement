@@ -1,12 +1,14 @@
 ---
-title: "Change color scheme logo Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Change color scheme logo (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Create your own branding in Dynamics 365 for Sales, Preview. "
 keywords: "color; logo; theme"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 31970d2b-3be2-457b-9143-da40a67ebf1f
 author: shubhadaj
 ms.author: shujoshi

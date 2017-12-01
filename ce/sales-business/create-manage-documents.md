@@ -1,12 +1,14 @@
 ---
-title: "Manage your documents from Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Manage your documents (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Store and manage documents on SharePoint from within Dynamics 365 for Sales, Preview."
 keywords: "SharePoint; document management; sales"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: eaf38d0b-24d1-499d-b157-de109f052786
 author: shubhadaj
 ms.author: shujoshi

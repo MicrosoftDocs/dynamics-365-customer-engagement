@@ -1,12 +1,14 @@
 ---
-title: "Manage users in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Manage users (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Create accounts to provide user access to Dynamics 365 for Sales, Preview."
 keywords: "User; Access; Role"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: e82c8d18-fe81-4812-ad78-77d178111064
 author: shubhadaj
 ms.author: shujoshi
