@@ -1,8 +1,8 @@
 ---
-title: "Manage your documents from Dynamics 365 for Sales | Microsoft Docs"
-description: "Store and manage documents on SharePoint from within Dynamics 365 for Sales."
+title: "Manage your documents from Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Store and manage documents on SharePoint from within Dynamics 365 for Sales, Preview."
 keywords: "SharePoint; document management; sales"
-ms.date: 07/15/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,11 +15,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Manage your [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] documents and document locations in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-With [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
+With [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and manage them from within your app.
 
 The documents that you create in the Sales app are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.
 
@@ -176,6 +178,6 @@ When you select one or more documents in the Documents list, you can take the fo
 
 
 ### See Also
-[Configure Dynamics 365 for Sales to integrate with SharePoint](configure-document-management.md)  
+[Configure Dynamics 365 for Sales, Preview to integrate with SharePoint](configure-document-management.md)  
 [Manage your customers](create-accounts-contacts-customers.md)  
-[Meet the new Sales app for small to medium-sized business](overview-dynamics-365-for-sales.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

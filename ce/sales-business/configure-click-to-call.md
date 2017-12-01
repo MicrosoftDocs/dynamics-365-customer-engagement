@@ -1,8 +1,8 @@
 ---
-title: "Set up click-to-call in Dynamics 365 for Sales | Microsoft Docs"
-description: "Set up click-to-call to allow your users easily check on the availability of a contact and to make a call with one click from within the Dynamics 365 for Sales."
+title: "Set up click-to-call in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Set up click-to-call to allow your users easily check on the availability of a contact and to make a call with one click from within the Dynamics 365 for Sales, Preview."
 keywords: "click-to-call; Skype; Skype for Business"
-ms.date: 07/14/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -17,9 +17,11 @@ topic-status: Drafting
 
 # Set up click-to-call
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Integration with Skype and Skype for Business helps you to easily check on the availability of a contact and to make a call with one click from within [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
+Integration with Skype and Skype for Business helps you to easily check on the availability of a contact and to make a call with one click from within [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview.
 
 Skype for Business integration is built and packaged as a solution within [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. To integrate with Skype for Business, you must have a Skype for Business license, and must install the solution.
 
@@ -62,5 +64,5 @@ By default, presence is automatically enabled for the users. To disable the pres
 
 ### See Also
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
-[Make calls or send instant messages in Dynamics 365 for Sales](Make-calls-send-instant-messages.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
+[Make calls or send instant messages in Dynamics 365 for Sales, Preview](Make-calls-send-instant-messages.md)

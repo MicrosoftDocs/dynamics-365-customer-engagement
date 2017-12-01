@@ -1,8 +1,8 @@
 ---
-title: "Export data or template in Dynamics 365 for Sales | Microsoft Docs"
-description: "Export data from Dynamics 365 for Sales to an Excel worksheet and share it with other."
+title: "Export data or template in Dynamics 365 for Sales, Preview | Microsoft Docs"
+description: "Export data from Dynamics 365 for Sales, Preview to an Excel worksheet and share it with other."
 keywords: "Export; Export Template; View"
-ms.date: 07/14/2017
+ms.date: 12/15/2017
 ms.service: dynamics-365
 ms.topic: article
 applies_to:
@@ -15,9 +15,12 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Export data or template in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Export data or template in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Present the sales related information to an individual who doesn’t have access to the Sales app by exporting the data to a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Office [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] static worksheet.
 
 You can export just the data from a list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] static file, or you can export a template.
@@ -36,5 +39,5 @@ When you export data or template from **Advanced Settings**, you must select the
 
 
 ### See Also
-[Import data into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](import-data.md)  
+[Import data into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](import-data.md)  
 [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
