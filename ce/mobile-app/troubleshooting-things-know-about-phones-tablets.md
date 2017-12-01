@@ -35,6 +35,37 @@ The following are known issues with [!INCLUDE[pn_moca_full](../includes/pn-moca-
 <a name="BKMK_Errors"></a>   
 ### Errors and connection issues  
   
+#### Troubleshoot error code 800c0019 on Windows Phones
+
+If you get error code 800c0019 when you try to sign in to your [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] account while using the [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_crm_for_phones_express](../includes/pn-crm-for-phones-express.md)] apps, chances are that you have the wrong date and time settings on your [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] phone. This can occur after updating your [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] phone, removing and replacing the battery, or after a time change.  
+  
+ In most cases, your phone’s date and time is set automatically by your mobile operator. If it’s not, you need to set it manually so you can sign in to your [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] account successfully. Here’s how:  
+  
+1.  On **Start**, flick left to the **App** list and tap **Settings**.  
+  
+2.  Tap **Date+time**.  
+  
+3.  Turn off **Set automatically**.  
+  
+4.  Set the correct values for **Time zone**, **Date**, and **Time**.  
+
+#### Troubleshoot a Windows app start-up error
+
+If you receive this error:
+  
+ **Additional steps may be needed to configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for this organization. Please contact your system administrator**.  
+  
+##### If you’re using a computer or tablet  
+  
+|||  
+|-|-|  
+|**Users:**|Notify your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator that you received this error.|  
+|**Admins:**|To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md) **Important:** [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909).|  
+  
+##### If you’re using a Windows phone  
+ You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](../mobile-app/support-phones-tablets.md)  
+  
+
 #### Error message: “This record is unavailable.”  
  If this message appears when a user starts the mobile app, taps the **Home** button, or selects **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
   
