@@ -42,6 +42,7 @@
         "admin/**.*": "bc/toc.yml",
         "analytics/**.*": "bc/toc.yml",
         "basics/**.*": "bc/toc.yml",
+        "customer-insights/**.*": "bc/toc.yml",
         "customer-service/**.*": "bc/toc.yml",
         "customize/**.*": "bc/toc.yml",
         "field-service/**.*": "bc/toc.yml",
