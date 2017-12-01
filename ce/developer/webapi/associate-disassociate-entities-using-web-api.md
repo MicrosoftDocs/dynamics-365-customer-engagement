@@ -164,4 +164,4 @@ OData-Version: 4.0
  [Use Web API actions](use-web-api-actions.md)   
  [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md)   
  [Impersonate another user using the Web API](impersonate-another-user-web-api.md)   
- [Apply optimistic concurrency using the Web API](perform-conditional-operations-using-web-api.md)
+ [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)

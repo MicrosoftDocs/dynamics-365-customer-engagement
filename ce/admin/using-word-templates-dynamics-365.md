@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Use Word templates to create standardized documents
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
   
  After you create and import [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] templates into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], with one click users can generate standardized documents automatically populated with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. This feature has some special considerations you should know about to successfully create [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates.  

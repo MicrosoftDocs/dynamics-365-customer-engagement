@@ -19,7 +19,7 @@ manager: "amyla"
 # Sample: Web access from a sandboxed plug-in
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-Download the sample [Work with plug-ins](https://code.msdn.microsoft.com/Sample-Create-a-basic-plug-64d86ade).
+Download the sample: [Work with plug-ins](https://code.msdn.microsoft.com/Sample-Create-a-basic-plug-64d86ade).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

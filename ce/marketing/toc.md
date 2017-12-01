@@ -5,7 +5,7 @@
 ## [Administrator Guide](admin-guide.md)
 
 ### [First time setup](purchase-setup.md)
-### [Use a full Customer Insights account with Marketing](setup-licensed-dci.md)
+### [Use your own Azure subscription for Customer Insights](setup-licensed-dci.md)
 ### [Open the administration settings](open-advanced-settings.md)
 ### [Organization settings](organization-settings.md)
 #### [Manage users](manage-users.md)
