@@ -1,5 +1,5 @@
 ---
-title: "Create online surveys to collect feedback from customers in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Create online surveys to collect feedback from customers (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How the Surveys app makes Voice of the Customer online surveys available in Dynamics 365 for Marketing"
 keywords: "Voice of the Customer; Surveys; survey"
 ms.date: 12/15/2017

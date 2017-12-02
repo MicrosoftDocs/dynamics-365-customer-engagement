@@ -1,5 +1,5 @@
 ---
-title: "Set up your webinar provider accounts in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Set up your webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up the connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: "administration; webinar; webinar provider"
 ms.date: 12/15/2017

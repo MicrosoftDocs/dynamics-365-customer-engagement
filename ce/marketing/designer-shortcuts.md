@@ -1,5 +1,5 @@
 ---
-title: "Designer keyboard shortcuts and accessibility features in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Designer keyboard shortcuts and accessibility features (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Lists keyboard shortcuts for the email, marketing page and form designers in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; template"
 ms.date: 12/15/2017

@@ -1,5 +1,5 @@
 ---
-title: "Analytics and marketing results in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Analytics and marketing results (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to generate, collect information about, and qualify leads in Dynamics 365 for Marketing"
 keywords: "analytics; marketing results; ROMI; Power BI"
 author: kamaybac

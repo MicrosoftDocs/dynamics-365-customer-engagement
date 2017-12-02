@@ -1,5 +1,5 @@
 ---
-title: "Use the event portal to promote your event and accept registrations in Dynamics 365 for Marketing | Microsoft Docs  "
+title: "Use the event portal to promote your event and accept registrations (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "Details about the event portal, including site map, information sources, and how to publish your events in Dynamics 365 for Marketing"
 keywords: "events; event management; portal; event portal; registration"
 author: kamaybac

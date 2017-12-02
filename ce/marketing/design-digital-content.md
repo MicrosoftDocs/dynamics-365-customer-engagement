@@ -1,5 +1,5 @@
 ---
-title: "Use the designer tool in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Use the designer tool (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; template"
 ms.date: 12/15/2017

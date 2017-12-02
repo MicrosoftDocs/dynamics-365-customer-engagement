@@ -1,5 +1,5 @@
 ---
-title: "Set up lead scoring models in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Set up lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to set up lead-scoring models and read lead scores in Dynamics 365 for Marketing"
 keywords: "tutorial; leads; lead scoring; lead scoring model"
 ms.date: 11/07/2017

@@ -1,5 +1,5 @@
 ---
-title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Configure core marketing functionality (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Use the marketing settings to configure landing pages, email marketing, and Customer Insights in Dynamics 365 for Marketing"
 keywords: "administration; landing page; Customer Insights"
 ms.date: 12/15/2017

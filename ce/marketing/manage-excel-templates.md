@@ -1,5 +1,5 @@
 ---
-title: "Create and deploy Excel templates for Dynamics 365 for Marketing | Microsoft Docs"
+title: "Create and deploy Excel templates (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Create Excel templates that you can use to export, format, and share data from multiple records in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; Excel; templates; export"
 ms.date: 12/15/2017

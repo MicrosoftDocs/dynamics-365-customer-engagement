@@ -1,5 +1,5 @@
 ---
-title: "Plan, publicize, and collect registrations for events with Dynamics 365 for Marketing | Microsoft Docs "
+title: "Plan, publicize, and collect registrations for events (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 for Marketing"
 keywords: "events; event management"
 author: kamaybac

@@ -1,8 +1,8 @@
 ---
-title: "Advanced tutorials for Dynamics 365 for Marketing | Microsoft Docs"
+title: "Advanced tutorials (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Step-by-step tutorials for learning how to work with specialist user scenarios in Dynamics 365 for Marketing"
 keywords: "tutorial; specialist; advanced; overview"
-ms.date: 11/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:
