@@ -17,6 +17,10 @@ topic-status: Drafting
 
 # Customize views (Sales, Preview)
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, use views to define how a list of records for a specific entity is displayed. A view defines: 
 
  - The columns to be displayed 
