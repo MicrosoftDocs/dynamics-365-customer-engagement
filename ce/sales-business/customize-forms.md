@@ -2,7 +2,7 @@
 title: "Customize forms in Dynamics 365 for Sales | Microsoft Docs"
 description: "Modify the forms included in Dynamics 365 for Sales to fit the needs of your organization."
 keywords: "form; customize"
-ms.date: 11/15/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -15,7 +15,11 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Customize forms (Sales, Preview)  
+# Customize forms (Sales, Preview)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview to meet the specific needs of your organization.
 
