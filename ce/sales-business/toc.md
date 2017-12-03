@@ -22,7 +22,7 @@
 ## [Customization Guide](customization-guide.md)
 ### [Customize forms](customize-forms.md)
 ### [Customize views](customize-views.md)
-### {Customize business process flows](customize-business-process-flows.md)
+### [Customize business process flows](customize-business-process-flows.md)
 
 ## [User Guide](user-guide-dynamics-365-sales.md)
 ### [Learn the basics](learn-basics.md)
