@@ -21,11 +21,11 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-With [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, you can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities they provide are very different from other features that use processes.
+With [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, you can help ensure that users enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that users get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities they provide are very different from other features that use processes.
 
-With business process flows, you define a set of stages and steps that are displayed in a control at the top of a form. Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is called ”stage-gating."
+With business process flows, you define a set of stages and steps that are displayed in a control at the top of a form. Each stage contains a group of steps. Each step represents a field where data can be entered. Users advance to the next stage by using the **Next Stage** button. You can make a step required so that users must enter data for the corresponding field before they can proceed to the next stage. This is called ”stage-gating."
 
-Business process flows appear relatively simple compared to other types of processes because they do not provide any conditional business logic or automation beyond providing the streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving people time, reducing training costs, and increasing user adoption.
+Business process flows appear relatively simple compared to other types of processes because they do not provide any conditional business logic or automation beyond providing the streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving users time, reducing training costs, and increasing user adoption.
 
 ## Entities available for business process flows
 
@@ -68,13 +68,13 @@ You can use the following entities on additional stages added to a business proc
 
  4. Type a name for your business process flow in the **Name** field. 
 
-    The name of the process doesn’t need to be unique, but it should be meaningful for people who need to choose a process. You can change this later.
+    The name of the process doesn’t need to be unique, but it should be meaningful for users who need to choose a process. You can change this later.
    
  5. In the **Entity** list, select the entity you want to base the process on.
 
     The entity you select affects the fields available for steps that can be added to the first stage of the process flow. You cannot change this after you save the process.
    
- 6. Choose **Go to BPF Designer**.
+ 6. Choose **Launch Designer**.
 
     The new process is created, and the business process flow designer opens with a single stage already created for you.
    
@@ -84,6 +84,8 @@ You can use the following entities on additional stages added to a business proc
  If your users will progress from one business stage to another in the process:
  
   1.	Drag a **Stage** component from the **Components** tab and drop it on a **+** sign in the designer.
+  
+     ![Add stage](media/bpf-add-stage.png "Add stage")
   
   2.	To set the properties for a stage, select the stage, and then set the properties in the **Properties** tab on the right side of the screen:
   
@@ -103,7 +105,7 @@ You can use the following entities on additional stages added to a business proc
           
       c.	Select the **Relationship**, if applicable. The selections available for **Relationship** will vary by the entity selected for the stage. In some cases, there are no selections for **Relationship**.
 
-           Enter a relationship when the preceding stage in the process is based on a different entity. It is recommended you select a relationship for the following benefits:
+           Enter a relationship when the preceding stage in the process is based on a different entity (record type). It is recommended you select a relationship for the following benefits:
 
           -	Relationships often have attribute maps defined that automatically carry over data between records, minimizing data entry.
           -	When a user selects **Next Stage** on the process bar for a record, any records that use the relationship will be listed in the process flow, thereby promoting reuse of records in the process. In addition, you can use workflows to automate creation of records so that the user simply selects it instead of creating one to further streamline the process.
@@ -113,14 +115,18 @@ You can use the following entities on additional stages added to a business proc
 ### Add Data Steps to a stage
 
  1.	To see the **Data Steps** in a stage, choose **Details** in the lower-right corner of the stage.
+ 
+    ![Stage details](media/bpf-stage-details.png "Stage details")
+ 
  2.	To add more steps, drag the **Data Step** component to the stage from the **Components** tab.
+ 
  3.	Select the step, and then set properties in the **Properties** tab:
  
     a.	Enter a name for the step.
     
     b.	If you want users to enter data to complete a step, select the appropriate field from the **Data Field** drop-down list.
     
-    c.	Select **Required** if people must fill in the field to complete the step before moving to the next stage of the process.
+    c.	Select the **Required** check box if users must fill in the field to complete the step before moving to the next stage of the process.
     
     d.	If you have more than one **Data Step**, select the sequence for the step.
     
@@ -129,21 +135,28 @@ You can use the following entities on additional stages added to a business proc
 ### Add a branch (condition) to the process
 
   1.	To add a branching condition, drag the **Condition** component from the **Components** tab to a **+** sign between two stages.
-  2.	Select the condition, and then set properties in the **Properties** tab. 
+  
+      ![Add condition](media/bpf-add-condition.png "Add condition")
+ 
+  2.	Select the condition, and then set properties in the **Properties** tab.
+  
   3.	When you're finished setting properties for the condition, choose **Apply**.
 
 ### Add a workflow
 
   1.	To invoke a workflow, drag a **Workflow** component from the **Components** tab to a stage or to the **Global Workflow** item in the designer. Which one you add it to depends on the following:
+  
       -	Drag it to a stage when you want to trigger the workflow on entry or exit of the stage. The workflow component must be based on the same primary entity as the stage.
-      -	Drag it to the **Global Workflow** item when you want to trigger the workflow when the process is activated or when the process is archived (when the status changes to **Completed** or **Abandoned**). The workflow component must be based on the same primary entity as the process.
+      
+      -	Drag it to the **Global Workflow** item in the lower-right corner of the designer when you want to trigger the workflow when the process is activated or when the process is archived (when the status changes to **Completed** or **Abandoned**). The workflow component must be based on the same primary entity as the process.
+      
   2.	Select the workflow, and then set properties in the **Properties** tab:
   
       a.	Enter a display name.
       
-      b.	Select when the workflow should be triggered, **Stage Entry** or **Stage Exit**.
+      b.	Select when the workflow should be triggered.
       
-      c.	Optionally, search for an existing on-demand active workflow that matches the stage entity.
+      c.	Optionally, in the **Workflows** box, search for an existing on-demand active workflow that matches the stage entity.
       
       d.	Choose **Apply** when you're finished.
 
@@ -159,13 +172,13 @@ For new records or records that do not already have a process flow associated wi
 
 ## Validate and save the business process flow
 
-  1.	To validate the business process flow, choose **Validate** on the action bar. Any errors in the business process flow will be highlighted in red. You’ll need to correct them before you can save it.
+  1.	To validate the business process flow, choose **Validate** on the Command bar. Any errors in the business process flow will be highlighted in red. You’ll need to correct them before you can save it.
   
-  2.	To save the process as a draft while you continue to work on it, choose **Save** on the action bar.
+  2.	To save the process as a draft while you continue to work on it, choose **Save** on the Command bar.
 
 ## Activate a business process flow
 
-  -	To activate the process and make it available to your users, choose **Activate** on the action bar.
+  -	To activate the process and make it available to your users, choose **Activate** on the Command bar.
 
 ## Edit a business process flow
 
@@ -187,7 +200,7 @@ Things you can't change:
 
 To edit a business process flow:
 
-  1.	On the **Sales Settings** page, choose **Business Process Flows**.
+  1.	On the **Advanced Settings** page, choose **Business Process Flows**.
   2.	Select the name of the business process flow you want to edit in the **Process Name** column.
 
 ### Change the name or description of your business process flow
@@ -203,7 +216,7 @@ To edit a business process flow:
 To hide the details section to display more of the designer, choose the arrow next to the name again.
 
 ### Remove a component from your business process flow
-  1.	Select the component in the designer, and then choose **Delete**.
+  1.	Select the component in the designer, and then choose **Delete** at the top of the screen (or press the Delete key).
   
   2.	In the **Delete Confirmation** dialog, choose **OK**.
   
@@ -220,15 +233,9 @@ You can easily create an image of your business process flow from within the des
 
 To create the image:
 
-  1.	Open the business process flow you want to create an image from, and then choose **Snapshot**.
+  - Open the business process flow you want to create an image from, and then choose **Snapshot** at the top of the screen.
+    The .png file that's created will show up in the lower-left corner of the screen. 
   
-  2.	To save the image file, do one of the following:
-  
-      -	Choose **Save** to save the image to the default location with the same name as the business process flow.
-      
-      -	Choose **Save As** to select the location for the file and modify the file name.
-      
-  3.	On the download confirmation message, choose from the options. 
 
 ### See also
 
