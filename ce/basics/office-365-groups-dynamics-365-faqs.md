@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Office 365 Groups in Dynamics 365 FAQs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 The following are frequently asked questions and known issues for [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
   
