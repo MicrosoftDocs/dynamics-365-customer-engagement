@@ -2,7 +2,7 @@
 title: "Associate and disassociate entities using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how to add  reference to a collection-valued navigation property, remove a reference and change an existing reference using the Web API"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -125,9 +125,9 @@ OData-Version: 4.0
   
 <a name="bkmk_Associateentitiesonupdate"></a>
 
-## Associate entities on update
+## Associate entities on update using single-valued navigation property
 
- You can associate entities on update using the same message described in [Basic update](update-delete-entities-using-web-api.md#bkmk_update) but you must use the @odata.bind annotation to set the value of a single-valued navigation property. The following example changes the account associated to an opportunity using the customerid_account single-valued navigation property.  
+ You can associate entities on update using the same message described in [Basic update](update-delete-entities-using-web-api.md#bkmk_update) but you must use the @odata.bind annotation to set the value of a single-valued navigation property. The following example changes the account associated to an opportunity using the `customerid_account` single-valued navigation property.  
   
  **Request**
 
@@ -149,7 +149,47 @@ OData-Version: 4.0
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
 ```  
-  
+<a name="bkmk_Associateentitiesonupdate_multi"></a>
+
+## Associate entities on update using collection-valued navigation property
+
+The following example shows how to associate multiple existing [ActivityParty](../entities/activityparty.md) entities with an [Email](../entities/email.md) entity using collection-valued navigation property `email_activity_parties`.
+
+> [!NOTE]
+> Associating multiple entities with an entity on update is a special scenario that is possible only with <xref href="Microsoft.Dynamics.CRM.activityparty?text=activityparty EntityType" />.
+
+**Request**
+
+```HTTP
+PUT [Organization URI]/api/data/v9.0/emails(2479d20d-3a39-e711-8145-e0071b6a2001)/email_activity_parties
+Content-Type: application/json  
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0
+
+{
+	"value": [
+		{
+			"partyid_contact@odata.bind":"contacts(a30d4045-fc46-e711-8115-e0071b66df51)",
+			"participationtypemask":3
+			
+		},
+		{
+			"partyid_contact@odata.bind":"contacts(1dcdda07-3a39-e711-8145-e0071b6a2001)",
+			"participationtypemask":2
+			
+		}
+		]
+}
+```
+
+**Response**
+
+```HTTP
+HTTP/1.1 204 No Content  
+OData-Version: 4.0 
+```
+
 ### See also
 
  [Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)   
