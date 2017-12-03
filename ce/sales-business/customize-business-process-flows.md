@@ -200,7 +200,7 @@ Things you can't change:
 
 To edit a business process flow:
 
-  1.	On the **Sales Settings** page, choose **Business Process Flows**.
+  1.	On the **Advanced Settings** page, choose **Business Process Flows**.
   2.	Select the name of the business process flow you want to edit in the **Process Name** column.
 
 ### Change the name or description of your business process flow
