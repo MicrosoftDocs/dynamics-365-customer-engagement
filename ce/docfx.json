@@ -80,7 +80,7 @@
         "outlook-app/**.*": [ "Outlook" ],
         "portals/**.*": [ "Portals" ],
         "project-service/**.*": [ "Project Service" ],
-        "sales-business/**.*": [ "Sales-Business edition" ],
+        "sales-business/**.*": [ "Sales Preview" ],
         "sales-enterprise/**.*": [ "Sales" ],
         "social-engagement/**.*": [ "Social Engagement" ],
         "unified-service-desk/**.*": [ "Unified Service Desk" ],

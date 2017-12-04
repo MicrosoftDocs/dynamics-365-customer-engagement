@@ -1,12 +1,14 @@
 ---
-title: "Export data or template in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Export data or template (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Export data from Dynamics 365 for Sales, Preview to an Excel worksheet and share it with other."
 keywords: "Export; Export Template; View"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: a7e323b0-ca34-4c60-b9f4-12d36d076092
 author: shubhadaj
 ms.author: shujoshi
@@ -40,4 +42,4 @@ When you export data or template from **Advanced Settings**, you must select the
 
 ### See Also
 [Import data into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](import-data.md)  
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)

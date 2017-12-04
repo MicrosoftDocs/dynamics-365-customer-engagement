@@ -1,12 +1,14 @@
 ---
-title: "Overview of Dynamics 365 for Sales, Preview | Microsoft Docs"
-description: "Get an overview of Dynamics 365 for Sales, Preview and its capabilities"
+title: "Overview (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Get an overview of Dynamics 365 for Sales and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: ccdffcfc-fb43-4119-b7a0-47fca20f6f4e
 author: shubhadaj
 ms.author: shujoshi
@@ -21,9 +23,11 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Welcome to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, designed especially for businesses like yours. 
+Welcome to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview. If you don't need a full-fledged enterprise app for your organization, the new [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview app is for you. 
 
-This new Sales offering is built on a new Unified Interface, designed from the ground up with accessibility in mind. It also uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
+This offering, available online-only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your organization up and running quickly.
+
+It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
 [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
 and importing data.
@@ -128,4 +132,4 @@ Here are some highlights of [!INCLUDE[pn-sales-business-doc-name](../includes/pn
  
 ### See Also
 [Learn the basics](learn-basics.md)  
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Quick Setup & Advanced Settings Overview](quick-setup-advanced-settings-overview.md)

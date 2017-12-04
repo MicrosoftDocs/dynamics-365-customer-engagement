@@ -62,9 +62,9 @@
   - name: LinkedIn
     tocHref: /dynamics365/customer-engagement/linkedin
     topicHref: /dynamics365/customer-engagement/linkedin/sync-linkedin-leads
-  - name: Sales Business Edition
+  - name: Sales Preview
     tocHref: /dynamics365/customer-engagement/sales-business
-    topicHref: /dynamics365/customer-engagement/sales-business/introduction-dynamics-365-for-sales-business-edition
+    topicHref: /dynamics365/customer-engagement/sales-business/help-hub
   - name: Marketing
     tocHref: /dynamics365/customer-engagement/marketing
     topicHref: /dynamics365/customer-engagement/marketing/get-started-section  

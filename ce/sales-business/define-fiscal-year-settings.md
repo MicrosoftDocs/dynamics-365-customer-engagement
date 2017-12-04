@@ -1,12 +1,14 @@
 ---
-title: "Define fiscal year settings in Dynamics 365 for Sales, Preview | Microsoft Docs"
+title: "Define fiscal year settings (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Determine the time reflected in financial reports by defining a fiscal year in Dynamics 365 for Sales, Preview."
 keywords: "Financial reports; fiscal period; fiscal year settings"
 ms.date: 12/15/2017
-ms.service: dynamics-365
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: d8f35641-1e1f-450e-8fdf-c1151c5bacfe
 author: shubhadaj
 ms.author: shujoshi
@@ -45,5 +47,5 @@ In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.
 
 
 ### See Also
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)  
 [Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)
