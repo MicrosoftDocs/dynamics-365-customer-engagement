@@ -30,9 +30,11 @@ topic-status: Drafting
 <h2>Get started</h2>
 <li>[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md) </li>
 <li>[Learn the basics](learn-basics.md)</li>
+<li>[Manage accounts and contacts](create-accounts-contacts-customers.md)</li>  
 <li>[Manage tasks, appointments, email, or phone calls](create-manage-activities.md)</li>
 <li>[Assign a record to a user or team](assign-record-user-team.md)</li>
 <li>[Set personal options](Set-personal-options.md)</li>
+
 
 </td><td>
 
@@ -45,12 +47,6 @@ topic-status: Drafting
 </td></tr>
 
 <tr><td>
-<h2>Keep track of customers</h2>
-<li>[Manage accounts and contacts](create-accounts-contacts-customers.md)</li>
-
-
-</td><td>
-
 <h2>Manage the sales process</h2>
 <li>[Develop sales from lead to cash](develop-sales-lead-to-cash.md)</li>
 <li>[Create and manage leads](create-manage-Leads.md)</li>
@@ -58,6 +54,7 @@ topic-status: Drafting
 <li>[Create and manage quotes](create-manage-quotes.md)</li>
 <li>[Create and manage invoices](create-manage-invoices.md)</li>
 
+</td><td>
 
 </td></tr>
 </table>
