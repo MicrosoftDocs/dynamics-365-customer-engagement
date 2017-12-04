@@ -14,7 +14,11 @@ ms.assetid: 1adfc052-34b0-466a-bdd0-6528c5a09f60
 
 # Keyboard navigation support for Dynamics 365 for Sales, Preview
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+
 
 Microsoft is committed to making its products and services easier for everyone to use. More information: [Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility)
 
@@ -25,10 +29,10 @@ Skype for Business for Dynamics 365 offers keyboard navigation to help address i
 
 |To |Press|  
 |-------------|---------|  
-|Open contact Card|	Alt+C|
-|Open skype and close Contact card when on IM links or close button|	Enter|
-|Close Contact card when on Contact card itself|	Esc|
-|Close Contact card when on Close button|	Spacebar|
+|Open contact card|	Alt+C|
+|Open Skype and close contact card when on IM links or close button|	Enter|
+|Close contact card when on Contact card itself|	Esc|
+|Close contact card when on Close button|	Spacebar|
 
 
 ## See also

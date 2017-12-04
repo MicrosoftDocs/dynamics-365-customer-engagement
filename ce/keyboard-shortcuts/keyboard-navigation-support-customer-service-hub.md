@@ -18,7 +18,7 @@ ms.assetid: 97ac6ad4-92f0-4785-9186-31d3722e20a1
 
 Microsoft is committed to making its products and services easier for everyone to use.
 
-Microsoft Dynamics 365 now supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.
+Dynamics 365 now supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.
 
 
 |To do |Press|  

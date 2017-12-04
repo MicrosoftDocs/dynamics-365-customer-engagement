@@ -109,9 +109,9 @@ You can choose a specific format or style for the content you’re writing.
 |**5**. Bold|Apply bold formatting to the selected text.|  
 |**6**. Italic|Apply italic formatting to the selected text.|  
 |**7**. Underline|Underline the selected text.|  
-|**8**.Strikethrough|Mark selected text for deletion.|  
+|**8**. Strikethrough|Mark selected text for deletion.|  
 |**9**. Text Color|Choose a text color for the selected text.|  
-|**10**.Background Color|Choose a background color for the selected text.|  
+|**10**. Background Color|Choose a background color for the selected text.|  
 |**11**. Align Left|Left align the text. When you align your text left, the paragraph is aligned with the left margin and the text is ragged on the right side. **Note:**  This option is available in the expanded mode only.|  
 |**12**. Center|Center align the text. When you center align the text, the paragraph is aligned symmetrically along the vertical axis and the text is ragged on the both sides. **Note:**  This option is available in the expanded mode only.|  
 |**13**. Align Right|Right align the text. When you align your text right, the paragraph is aligned with the right margin and the text is ragged on the left side. **Note:**  This option is available in the expanded mode only.|  
