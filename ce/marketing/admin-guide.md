@@ -1,5 +1,5 @@
 ---
-title: "Administrator Guide (Dynamics 365 for Marketing)"
+title: "Administrator Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Index page showing administration, system, user and app configuration for Dynamics 365 for Marketing."
 keywords: "administration; admin; user administration; system configuration"
 ms.date: 12/15/2017
