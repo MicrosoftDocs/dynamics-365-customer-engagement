@@ -79,3 +79,6 @@ You may sometimes see a view or list in a form. Views in a subform (sometimes ca
 The following image shows how a subgrid is displayed:
 
 ![Subgrid](media/subgrid.PNG "Subgrid")
+
+### See Also
+[User guide (Sales, Preview)](user-guide-dynamics-365-sales.md)

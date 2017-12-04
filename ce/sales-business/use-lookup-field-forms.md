@@ -37,7 +37,7 @@ For example, if you have only three records in your history, lookup will display
 > The number of favorites or recently visited records depends on the device and application type that you are using such as mobile and tablet devices. 
 
 ## Types of lookups
-Lookups are classified into two types. 
+Lookups are classified into two types: 
 - **Simple lookup:** Select a single record in a field from a single entity. 
 - **Complex lookup:** Select a single record or multiple records in a field from multiple entities: 
     - **Regarding-type fields:** Use to select a single record from multiple tabs in lookup.
@@ -72,3 +72,6 @@ When lookup has more records in a field than can fit in the available display ar
 **Non-collapsed:**
 
 ![Non-collapsed multi-lookup display area](media/noncollapsed-multilookup.png "Non-collapsed multi-lookup display area")
+
+### See Also
+[User guide (Sales, Preview)](user-guide-dynamics-365-sales.md)
