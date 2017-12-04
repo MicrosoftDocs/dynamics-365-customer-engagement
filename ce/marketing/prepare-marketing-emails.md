@@ -75,6 +75,8 @@ When you create a new message from a template, the template content is copied in
 
 You can also create your own custom templates, which can help both you and others in your organization to create new messages more quickly in the future. Design your templates so that they reflect your organization's graphical identity and fit closely with the types of campaigns you run most regularly. You can save any existing message as a template, or work directly in the templates area to design new templates based on existing ones. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters.
 
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Work with email templates](email-templates.md)
+
 ## Design your content
 
 After choosing a template, you'll be in the email content designer, which resembles the other digital content designers provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Work with it as follows:
