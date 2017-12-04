@@ -3,12 +3,12 @@ title: "Manage users (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Create accounts to provide user access to Dynamics 365 for Sales, Preview."
 keywords: "User; Access; Role"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
 ms.assetid: e82c8d18-fe81-4812-ad78-77d178111064
 author: shubhadaj
 ms.author: shujoshi
@@ -112,5 +112,5 @@ Assign a manager or change existing manager. The manager is responsible for admi
 2.  In the **Change Manager** dialog box, select the Lookup button to choose a manager, and then select **OK**.
 
 ### See Also
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)  
 [Add or manage teams](add-edit-teams.md)

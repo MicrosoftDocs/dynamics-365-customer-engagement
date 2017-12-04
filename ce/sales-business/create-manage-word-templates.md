@@ -3,12 +3,12 @@ title: "Manage Word templates (Dynamics 365 for Sales, Preview) | Microsoft Docs
 description: "Create Word templates in Dynamics 365 for Sales, Preview to help your users send out standardized and well formatted Sales data to customers. "
 keywords: "Word template, Standardized data; Consistent look"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
 ms.assetid: de087792-7fd4-4cd7-97bc-f19cf4920f8c
 author: shubhadaj
 ms.author: shujoshi
@@ -17,7 +17,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create and manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Create and manage Word templates in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
@@ -162,4 +162,4 @@ An administrator can use the Advanced Settings page to upload the Word template 
 
 ### See Also
 [Use document templates to create standardized documents](Use-document-templates-create-standardized-documents.md)  
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)
