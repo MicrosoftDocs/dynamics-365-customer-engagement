@@ -80,7 +80,9 @@ Settings on the **Portal Defaults** tab control how your marketing pages are hos
 - **Page Language**: Sets the default language to use in the portal.
 - **Container Page**: Sets the container page used for marketing pages.
 
-## Use Marketing configurations to enable Litmus previews
+<a name="marketing-configuration"></a>
+
+## Use marketing configurations to enable Litmus previews
 
 Use marketing configurations to set a few overall settings that affect the way the app works. Currently, these only include the ability to enable Litmus for email previews.
 
