@@ -81,6 +81,9 @@ The condition tile is a compound tile, which includes both parent and child tile
 
 The parent condition tile just gives the condition group a name. Select the parent and open the **Properties** tab to assign the name. You can assign as many child conditions as you need by dragging additional condition tiles onto the parent.
 
+> [!NOTE]
+> All conditions belonging to the same parent are combined using an AND operator, which means that all sibling conditions must evaluate to TRUE for the attached action to be triggered.
+
 The logic for the condition is contained in the child tile(s). Choose a child condition tile and open the **Properties** tab to establish the logic.
 
 ![Condition tile settings](media/lead-score-logic.png "Condition tile settings")
@@ -92,6 +95,9 @@ Set up the logic for a condition tile by making the following settings:
 - **Frequency**: Choose how often the condition should be triggered. Choose **Each** to score on each occurrence (such as to increase the score on each email click). Choose **At least** to score just once (such as to increase the score on the first email click, but ignore subsequent ones).
 - **Date Range**: Enter a date before which scorable events won't be counted. For example, set this to a year to ignore all email interactions that occurred more than a year ago. This can result in scores going down over time as interactions age.
 - **New Expression**: Select this button to add a new expression to the condition. The additional expression further tests the condition based on stored data. For example, you could add an expression for "City = New York", which would modify the condition so that only email clicks made by contacts in New York City would trigger the condition. You can add as many extra expressions as you like to create complex conditions.
+
+    > [!NOTE]
+    > All expressions belonging to the same condition are combined using an AND operator, which means that all expressions must evaluate to TRUE for the overall condition to be true.
 
 There are two categories of conditions:
 
@@ -135,7 +141,7 @@ When you are setting up a condition tile for lead scoring, you can set up the **
 1. Now you can add **Expressions** to specify values that come from the contact record associated with each email click. For example, you might only want to score on clicks for contacts that live in Chicago.  
     ![Add a condition for the final entity in the chain](media/lead-scoring-hop-example-3.png "Add a condition for the final entity in the chain")
 
-> [!TIP]
+> [!NOTE]
 > You can establish up to five hops using this technique
 
 Here are a few more examples of how to use hops to create useful conditions:
