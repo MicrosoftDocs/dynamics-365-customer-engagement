@@ -354,11 +354,12 @@
 #### [refreshParentGrid](reference/xrm-utility/refreshParentGrid.md)
 #### [showProgressIndicator](reference/xrm-utility/showProgressIndicator.md)
 ### [Xrm.WebApi](reference/xrm-webapi.md)
+<!--
 #### [Xrm.WebApi.online](reference/xrm-webapi/online.md)
-#### [Xrm.WebApi.offline](reference/xrm-webapi/offline.md)
+#### [Xrm.WebApi.offline](reference/xrm-webapi/offline.md)-->
 #### [createRecord](reference/xrm-webapi/createRecord.md)
 #### [deleteRecord](reference/xrm-webapi/deleteRecord.md)
-#### [isAvailableOffline](reference/xrm-webapi/isAvailableOffline.md)
+<!--#### [isAvailableOffline](reference/xrm-webapi/isAvailableOffline.md)-->
 #### [retrieveRecord](reference/xrm-webapi/retrieveRecord.md)
 #### [retrieveMultipleRecords](reference/xrm-webapi/retrieveMultipleRecords.md)
 #### [updateRecord](reference/xrm-webapi/updateRecord.md)
