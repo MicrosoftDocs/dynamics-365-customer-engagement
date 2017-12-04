@@ -22,13 +22,13 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Marketing** section contanis pages that let you configure the core marketing functionality for landing pages, email marketing, and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
+The **Marketing** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
 
 To find these settings, open **Settings** > **Advanced Settings** and choose one of the pages under the **Marketing** heading in the leftmost column. You can also access these same settings by finding the **Marketing** section in the rightmost column and choosing the icons there.
 
 See the remaining sections of this topic for information about how to work with each page in the **Marketing** section.
 
-## Marketing page configuration
+## Configure marketing pages
 
 Use the **Settings** > **Advanced Settings** > **Marketing** > **Marketing Page Configuration** page to set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records.
 
@@ -70,15 +70,7 @@ Matching strategies define how page submissions are matched to existing contacts
 
 For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
 
-To view or set a matching strategy, open your marketing page configuration, and then select **Default contact matching strategy** or **Default lead matching strategy**.
-
-![Setting the matching strategy](media/marketing-page-matching.png "Setting the matching strategy")
-
-Describe your strategy by entering a **Name** and **Description**. The **Target** field is read-only and tells which type of entity your strategy applies to (lead or contact).
-
-The input field under the **Target** setting specifies which contact or lead fields to consider when looking for a match. The matching record must have identical values for *all* the fields shown here, so the more fields you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier, but you might use additional fields (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact or lead records that refer to the same person). Enter a comma-separated list of fields to consider, and include square brackets around the list and quotes around each field name, such as:
-
-> `["emailaddress1", "msdyncrm_marketingpageid"]`
+To view or set a matching strategy, open your marketing page configuration, and then select **Default contact matching strategy** or **Default lead matching strategy**. For more information about how to create and edit matching strategies, see [Matching strategy](#matching-strategy).
 
 ### Set portal defaults
 
@@ -88,16 +80,18 @@ Settings on the **Portal Defaults** tab control how your marketing pages are hos
 - **Page Language**: Sets the default language to use in the portal.
 - **Container Page**: Sets the container page used for marketing pages.
 
-## Email settings
+## Use Marketing configurations to enable Litmus previews
 
-Use the **Settings** > **Advanced Settings** > **Marketing** > **Email** page to set a few optional defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. The following settings are available:
+Use marketing configurations to set a few overall settings that affect the way the app works. Currently, these only include the ability to enable Litmus for email previews.
 
-- **Default Test Contact**: Choose a default contact record for providing dynamic values for the preview feature of the marketing-email designer.
-- **Default Content Settings**: Choose a default content-settings record for providing dynamic values for the preview feature of the marketing-email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages)
+Go to **Settings** > **Advanced Settings** > **Marketing** > **Marketing Configuration** to open a list of available marketing configurations. You can store as many configurations as you want, but only the one marked as **Default** is active. Choose an existing configuration to edit or delete it; choose **+ New** from the command bar to create a new one.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](#check-your-work-with-previews-and-test-sends)
+Each Marketing Configuration record provides the following settings:
 
-## Customer Insights sync
+* **General** tab: Specify a name for the configuration set here.
+* **Marketing Email** tab: Enable or disable Litmus integration here. Litmus is an optional third-party service that provides pixel-perfect previews of how your email messages will look on specific clients. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
+
+## Choose entities to sync with Customer Insights
 
 [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] is an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]-based service that provides analytical tools for working with customer records. It helps you to better understand your customers, and enables you to set up subscription lists and target segments for use in email-marketing campaigns.
 
@@ -109,6 +103,49 @@ Use the **Settings** > **Advanced Settings** > **Marketing** > **[!INCLUDE[pn-cu
 > Once you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and  consume storage space there and can't be removed again. You should only add those entities you are sure you will need.
 
 Select the check box for each entity you want to sync. If you can't see the entity you want, try using the search field to find it.
+
+<a name="matching-strategy"></a>
+
+## Set matching strategies
+
+Use the **Settings** > **Advanced Settings** > **Marketing** > **Matching Strategy** page to set up various strategies for matching incoming landing-page submissions to existing leads and contacts. These are the strategies  you can choose when setting up marketing pages and the marketing-page defaults.
+
+The first page you see shows a list of existing strategies. From here, you can choose an existing strategy to view, edit or delete it, or choose **+ New** on the command bar to create a new one.
+
+![Setting the matching strategy](media/marketing-page-matching.png "Setting the matching strategy")
+
+Describe your strategy by entering a **Name** and **Description**. Set the **Target** field to the type of entity your strategy applies to (lead or contact).
+
+The input field under the **Target** setting specifies which contact or lead fields to consider when looking for a match. The matching record must have identical values for *all* the fields shown here, so the more fields you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier, but you might use additional fields (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact or lead records that refer to the same person). Enter a comma-separated list of fields to consider, and include square brackets around the list and quotes around each field name, such as:
+
+> `["emailaddress1", "msdyncrm_marketingpageid"]`
+
+## Default marketing settings
+
+Use the **Settings** > **Advanced Settings** > **Marketing** > **Default Marketing Settings** page to establish collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active. 
+
+Choose an existing configuration to edit or delete it, or choose **+ New** from the command bar to create a new one.
+
+### The General tab
+
+Make the following settings here:
+
+- **Name**: The name of the default-settings set, as shown on the list page.
+- **Owner**: The user that owns the set.
+- **Default**: Set to **Yes** to activate the current default-settings set on your site.
+
+### The Marketing Email tab
+
+Use the **Marketing Email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. The following settings are available:
+
+- **Default Content Settings**: Choose a default content-settings record for providing dynamic values for the preview feature of the marketing-email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages)
+- **Default Contact**: Choose a default contact record for providing dynamic values for the preview feature of the marketing-email designer.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](#check-your-work-with-previews-and-test-sends)
+
+### The Customer Journey tab
+
+Use the **Customer Journey** tab to choose the default timezone that you will use when starting and stopping your customer journeys
 
 ### See also
 
