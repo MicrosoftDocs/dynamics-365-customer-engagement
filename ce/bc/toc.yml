@@ -82,6 +82,16 @@
     tocHref: /dynamics365/customer-engagement/unified-service-desk/
     topicHref: /dynamics365/customer-engagement/unified-service-desk/index
     items:
-        - name: Sample Unified Service Desk applications
-          tocHref: /dynamics365/customer-engagement/unified-service-desk/admin/
-          topicHref: /dynamics365/customer-engagement/unified-service-desk/admin/sample-unified-service-desk-applications
+    - name: Sample Unified Service Desk applications
+      tocHref: /dynamics365/customer-engagement/unified-service-desk/admin/
+      topicHref: /dynamics365/customer-engagement/unified-service-desk/admin/sample-unified-service-desk-applications
+  - name: Guidance
+    tocHref: /dynamics365/customer-engagement/guidance/
+    topicHref: /dynamics365/customer-engagement/guidance/client/prefer-async-server-interactions
+    items:
+    - name: Client
+      tocHref: /dynamics365/customer-engagement/guidance/client/
+      topicHref: /dynamics365/customer-engagement/guidance/client/prefer-async-server-interactions
+    - name: Server
+      tocHref: /dynamics365/customer-engagement/guidance/server/
+      topicHref: /dynamics365/customer-engagement/guidance/server/avoid-batch-requests-plugin
