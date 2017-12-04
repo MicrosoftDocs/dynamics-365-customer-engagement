@@ -31,7 +31,7 @@ topic-status: Drafting
 
 </td><td>
 
-<h2>Configure communication & collaboration tools</h2>
+<h2>Set up collaboration tools</h2>
 <li>[Configure email](integrate-exchange-configure-email.md)</li>
 <li>[Configure document management](configure-document-management.md)</li>
 <li>[Set up click-to-call](configure-click-to-call.md)</li>
