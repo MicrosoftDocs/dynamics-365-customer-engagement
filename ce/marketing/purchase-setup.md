@@ -28,15 +28,11 @@ This topic explains how licensing works, how to set up the system for the first 
 
 > [!IMPORTANT]
 > A setup wizard is provided to help you set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time. Before running the wizard, you must meet all of the following requirements:
-> - Use Google Chrome (only)
-> - Put your browser in incognito mode
-> - Turn off all pop-up blockers
 > - Close all other browser windows and tabs before starting
 > - Clear your browser cache before starting
 > - You must sign into [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] as a _global administrator_ (also known as a _tenant admin_).  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Office 365 admin roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 > - You must already be assigned a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license in [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)].
-> 
-> Once the setup is complete, we recommend that all users also use Google Chrome, though most browsers should also work fine, and wider browser support is expected soon.
+
 
 ## First-time setup
 
@@ -68,6 +64,9 @@ Do the following:
 ![The Customer Insights page](media/fre-customer-insights.png "The Customer Insights page")
 
 Carefully read the check box text provided here, and follow and read all the links provided. This text and its links provide important privacy information and describe the privacy policy for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. If you agree with the policies described, select the check box. If you don't accept these terms, quit the setup wizard.
+
+> [!NOTE]
+> Your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] hub will be located either in North America or in the EMEA region, whichever is closest to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] tenant.
 
 ### Step 3: The Portal page
 
