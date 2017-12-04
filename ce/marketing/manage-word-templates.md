@@ -30,7 +30,7 @@ When the templates are ready, users can generate standardized documents that are
 
 1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with the System Administrator role.
 
-1. Go to **Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** > **New Template**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **New Template**.
 
 1. Select **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Template**, and then select **Next**.
 
@@ -137,7 +137,7 @@ An administrator can use the **Settings** page to upload the [!INCLUDE[pn-ms-wor
 > [!NOTE]
 > Users in your organization can see the templates available to them by selecting **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** on the command bar in the list of records.
 
-1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**.
+1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**.
 
 1. Select **Upload Template**.
 

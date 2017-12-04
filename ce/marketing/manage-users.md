@@ -30,7 +30,7 @@ To create a user:
 
 1. Make sure you have the global administrator role in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and the System Administrator role in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-1. Go to **Settings** > **Organization** > **User Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **User Management**.
 
 1. Select **Add Users**.
 
@@ -69,7 +69,7 @@ You can assign more than one security role to a user. The effect of multiple sec
 
 In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:
 
-1. Go to **Settings** > **Organization** > **User Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **User Management**.
 1. Select the user you want to assign a role to, and then on the command bar, select **Manage Roles**.
 1. In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select **OK**.
 

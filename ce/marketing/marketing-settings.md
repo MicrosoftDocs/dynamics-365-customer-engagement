@@ -22,17 +22,17 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Marketing Settings** page lets you configure the core marketing functionality for landing pages, email marketing, and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
+The **Marketing** section contanis pages that let you configure the core marketing functionality for landing pages, email marketing, and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
 
-To find these settings, open **Advanced Settings** and choose one of the pages under the **Marketing Settings** heading in the leftmost column. You can also access these same settings by finding the **Marketing Settings** section in the rightmost column and choosing the icons there.
+To find these settings, open **Settings** > **Advanced Settings** and choose one of the pages under the **Marketing** heading in the leftmost column. You can also access these same settings by finding the **Marketing** section in the rightmost column and choosing the icons there.
 
-See the remaining sections of this topic for information about how to work with each page in the **Marketing Settings** section.
+See the remaining sections of this topic for information about how to work with each page in the **Marketing** section.
 
-## Landing pages settings
+## Marketing page configuration
 
-Use the **Settings** > **Marketing Settings** > **Landing Page** page to set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records.
+Use the **Settings** > **Advanced Settings** > **Marketing** > **Marketing Page Configuration** page to set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records.
 
-When you first arrive at **Settings** > **Marketing Settings** > **Landing Page**, you'll see a list of all existing landing-page configuration sets. This is a standard list page, where you can view, sort, search, and filter the list to find a specific record, and use the command bar buttons provided to add or remove a record. Select any configuration set in the list to open, view, and edit it.
+When you first arrive at **Settings** > **Advanced Settings** > **Marketing** > **Marketing Page Configuration**, you'll see a list of all existing marketing-page configuration sets. This is a standard list page, where you can view, sort, search, and filter the list to find a specific record, and use the command bar buttons provided to add or remove a record. Select any configuration set in the list to open, view, and edit it.
 
 ![The Marketing Page Configuration page](media/marketing-page-config.png "The Marketing Page Configuration page")
 
@@ -46,17 +46,11 @@ There must always be exactly one landing-page configuration that is set as the d
 
 We recommend that you include a privacy banner on all your landing pages. This will let your customers know that you take their privacy seriously and might also be required in some jurisdictions. Use the following settings in the **Privacy Banner** section to create and enable your privacy banner:
 
-- **Include privacy banner**: Choose **Yes** to enable this feature; choose **No** to disable it. When the privacy banner is enabled, the text and link defined in the other settings in this section will be added to each new marketing page that you create. The banner will also be added to any existing page that you open for editing; however, it won't be added to pages that are already published because these are read-only.
+- **Insert privacy banner**: Choose **Yes** to enable this feature; choose **No** to disable it. When the privacy banner is enabled, the text and link defined in the other settings in this section will be added to each new marketing page that you create. The banner will also be added to any existing page that you open for editing; however, it won't be added to pages that are already published because these are read-only.
 - **Privacy banner text**: Enter a summary of your privacy policy here.
-- **Privacy policy URL**: We recommend that you provide a detailed privacy policy somewhere on your own organization's website. If you have such a page, enter its full URL here.
-- **Privacy policy link text**: This text is placed under the **Privacy banner text**, and creates a link to the **Privacy policy URL** you specified. Enter a short string of text that tells users what to expect, such as "Click here to read our complete privacy policy."
+- **Privacy policy link URL**: We recommend that you provide a detailed privacy policy somewhere on your own organization's website. If you have such a page, enter its full URL here.
+- **Privacy policy link text**: This text is placed under the **Privacy banner text**, and creates a link to the **Privacy policy link URL** you specified. Enter a short string of text that tells users what to expect, such as "Click here to read our complete privacy policy."
 
-### Set hosting defaults
-
-Settings in the **Hosting Defaults** section control how your landing pages are hosted in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. The following settings are available:
-
-- **Portal**: Identifies the portal website where all new marketing pages will be published while the current configuration record is active. This defaults to the portal that was provisioned for you when you signed up for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], but you can choose another if you have one. If you change this, pages that you've already published will remain on their current portal, but new pages will go to the new portal.
-- **Default Language**: Sets the default language to use in the portal.
 
 ### Configure how incoming form data is matched to existing records
 
@@ -86,9 +80,17 @@ The input field under the **Target** setting specifies which contact or lead fie
 
 > `["emailaddress1", "msdyncrm_marketingpageid"]`
 
+### Set portal defaults
+
+Settings on the **Portal Defaults** tab control how your marketing pages are hosted in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. The following settings are available:
+
+- **Website**: Identifies the portal website where all new marketing pages will be published while the current configuration record is active. This defaults to the event portal that was provisioned for you when you signed up for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], but you can choose another if you have one. If you change this, pages that you've already published will remain on their current portal, but new pages will go to the new portal.
+- **Page Language**: Sets the default language to use in the portal.
+- **Container Page**: Sets the container page used for marketing pages.
+
 ## Email settings
 
-Use the **Settings** > **Marketing Settings** > **Email** page to set a few optional defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. The following settings are available:
+Use the **Settings** > **Advanced Settings** > **Marketing** > **Email** page to set a few optional defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. The following settings are available:
 
 - **Default Test Contact**: Choose a default contact record for providing dynamic values for the preview feature of the marketing-email designer.
 - **Default Content Settings**: Choose a default content-settings record for providing dynamic values for the preview feature of the marketing-email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages)
@@ -101,7 +103,7 @@ Use the **Settings** > **Marketing Settings** > **Email** page to set a few opti
 
 The analytical and data-crunching capabilities of [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] are very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)].
 
-Use the **Settings** > **Marketing Settings** > **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to replicate to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. For optimal performance and functionality, choose only the entities you need—no more and no less.
+Use the **Settings** > **Advanced Settings** > **Marketing** > **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to replicate to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. For optimal performance and functionality, choose only the entities you need—no more and no less.
 
 > [!IMPORTANT]
 > Once you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and  consume storage space there and can't be removed again. You should only add those entities you are sure you will need.

@@ -24,7 +24,7 @@ topic-status: Drafting
 
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
-1. Go to **Settings** > **Organization** > **Team Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **Team Management**.
 1. Select **Add Team**.
 1. Enter the following details, and then select **Add**.
     - Team Name
@@ -46,7 +46,7 @@ A team is a group of users who share and collaborate on business records. A user
 
 When a team is assigned a role, all team members are assigned the set of privileges associated with that role.
 
-1. Go to **Settings** > **Organization** > **Team Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **Team Management**.
 1. Select a team you want to assign a role to, and then on the command bar, select **Manage Roles**.
 1. In the **Manage Roles** dialog box, select the security role you want for the team, and then select **OK**.
 

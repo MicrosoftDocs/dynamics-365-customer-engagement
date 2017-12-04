@@ -22,11 +22,11 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Events Settings** let you set up the connections to your webinar provider accounts. You must set up at least one webinar configuration to enable the webinar feature.
+The **Events** settings let you set up the connections to your webinar provider accounts. You must set up at least one webinar configuration to enable the webinar feature.
 
-To find these settings, open **Advanced settings** and then choose one of the pages under the **Events Settings** heading in the leftmost column. You can also access these same settings by finding the **Events Settings** section in the rightmost column and choosing from the icons there.
+To find these settings, open **Settings** > **Advanced settings** and then choose one of the pages under the **Events** heading in the leftmost column. You can also access these same settings by finding the **Events** section in the rightmost column and choosing from the icons there.
 
-See the remaining sections of this topic for information about how to work with each page in the **Events Settings** section.
+See the remaining sections of this topic for information about how to work with each page in the **Events** section.
 
 ## Webinar configuration
 
@@ -38,7 +38,7 @@ For each On24 account that you want to use with [!INCLUDE[pn-microsoftcrm](../in
 
 To set up your webinar provider:
 
-1. Go to **Settings** > **Events Settings** > **Webinar Configurations**. Here you'll see a list of existing configurations (if any), and tools for adding new ones. No configurations are provided out of the box.
+1. Go to **Settings** > **Advanced settings** > **Events** > **Webinar Configurations**. Here you'll see a list of existing configurations (if any), and tools for adding new ones. No configurations are provided out of the box.
 1. To edit an existing configuration, select it from the list; to create a new configuration, select **New**.
 1. Make the following settings:
     - **Name**: Enter a name that you and others will recognize.
@@ -47,7 +47,7 @@ To set up your webinar provider:
 
 ## Event management settings
 
-You can find event management settings by going to **Settings** > **Events Settings** >  **Event Management Settings**. Use these settings to set up email options and templates for event registrants.
+You can find event management settings by going to **Settings** > **Advanced settings** > **Events** >  **Event Management Settings**. Use these settings to set up email options and templates for event registrants.
 
 ## Privacy notice
 

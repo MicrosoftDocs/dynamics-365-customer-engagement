@@ -92,11 +92,11 @@ More information about assigning security roles to users: [TechNet: Create users
 
 ### Authorize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to sync data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager
 
-1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] User Profile**.
+1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] User Profiles**.
 
 1. To add a new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
 
-1. To add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize**.
+1. To add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize** on the command bar.
 
 1. Enter the credentials for your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] profile, and then select **Sign In**.
 
@@ -104,7 +104,7 @@ More information about assigning security roles to users: [TechNet: Create users
 
 1. Check and confirm the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] organization you want to sync your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data to.
 
-After successful authorization, the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts appear on the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] User Profile** record. You can review the details of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in the form. It might take a few seconds to get the accounts; try refreshing the view if you don't see them.
+After successful authorization, the associated [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts are listed in the **Associated [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Accounts** section. You can review the details of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in the form. It might take a few seconds to get the accounts; try refreshing the view if you don't see them.
 
 [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submissions are now synced automatically to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. You'll be able to see the data in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as soon as the sync is complete, which might take a few minutes. Usually it's not required, but you can trigger an optional, on-demand sync of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submissions after authorizing a profile by selecting **Sync submissions**.
 

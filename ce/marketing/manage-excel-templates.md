@@ -44,7 +44,7 @@ Templates display information from the view defined for a record type (entity). 
 
 1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with the System Administrator role.
 
-1. Go to **Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** &gt; **New Template**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **+ New Template**.
 
 1. Select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Template**, and then select **Next**.
 
@@ -99,7 +99,7 @@ When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] tem
 
 To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]:
 
-1. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** > **Upload Template**.
+1. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **Upload Template**.
 
 1. Find and upload the file.
 
