@@ -1,6 +1,6 @@
 ---
-title: "Manage users (Dynamics 365 for Sales, Preview) | Microsoft Docs"
-description: "Create accounts to provide user access to Dynamics 365 for Sales, Preview."
+title: "Administrator & Sales Manager Guide (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Contains topics that describe how to do user administration and app configuration for Dynamics 365 for Sales, Preview"
 keywords: "User; Access; Role"
 ms.date: 12/15/2017
 ms.service: crm-online
