@@ -149,7 +149,10 @@ The default [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-modu
 > [!IMPORTANT]
 > Once you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and  consume storage space there and can't be removed again. You should only add those entities you are sure you will need.
 
-Once opportunities are added, you'll be able to create segments that query the opportunities entity and find contacts associated with those opportunities.
+After opportunities are added, you'll be able to create segments that query the opportunities entity and find contacts associated with those opportunities.
+
+> [!NOTE]
+> After syncing opportunities with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], you'll also be able to use them in your lead-scoring rules using the techniques described in [Create advanced lead scoring conditions with traversals](score-manage-leads.md#traversals)
 
 ### Sync opportunities with Customer Insights
 If your Marketing instance isn't already set up to sync opportunities with Customer Insights, then talk to your admin about setting this up as follows:

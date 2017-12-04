@@ -128,6 +128,8 @@ Enter an integer in the **Sales Ready Score** field to set the sales-ready score
 
 To add an additional grade, select **New**, which adds a new section to the tab, where you can enter a grade name and the score range where it applies. Grade ranges must be continuous and non-overlapping.
 
+<a name="traversals"></a>
+
 ## Create advanced lead scoring conditions with traversals
 
 When you are setting up a condition tile for lead scoring, you can set up the **Entity** you are testing to include traversals across interactions and profiles by using a _dot notation_, where each hop is separated by a period. For example, you could start with an interaction such as _EmailClicked_ and traverse to the associated _Contact_ profile and then test for values from the contact profile. Here is an example for how to set this up:
