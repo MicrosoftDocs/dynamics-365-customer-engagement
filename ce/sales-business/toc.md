@@ -1,7 +1,8 @@
 # [Dynamics 365 for Sales, Preview](help-hub.md) 
 ## [Overview](overview-dynamics-365-for-sales.md)
 
-## [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+##  [Administrator & Sales Manager Guide](admin-guide.md)
+### [Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)
 ### [Add salespeople](add-edit-users.md)
 ### [Group salespeople into teams](add-edit-teams.md) 
 ### [Change color scheme or logo for your organization](change-color-scheme-logo.md)
