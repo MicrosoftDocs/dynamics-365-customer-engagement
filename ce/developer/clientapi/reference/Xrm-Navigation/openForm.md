@@ -1,6 +1,6 @@
 ---
 title: "openForm (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 12/04/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -109,7 +109,9 @@ manager: "amyla"
 
 ## Remarks
 
-You must use this method to display entity or quick create forms instead of the deprecated  [Xrm.Utility.openEntityForm](https://msdn.microsoft.com/library/jj602956.aspx#openEntityForm) and  [Xrm.Utility.openQuickCreate](https://msdn.microsoft.com/library/jj602956.aspx#openQuickCreate) methods.
+You must use this method to open entity or quick create forms instead of the deprecated  [Xrm.Utility.openEntityForm](https://msdn.microsoft.com/library/jj602956.aspx#openEntityForm) and  [Xrm.Utility.openQuickCreate](https://msdn.microsoft.com/library/jj602956.aspx#openQuickCreate) methods.
+
+On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the callback functions (**successCallback** and **errorCallback**) in the **openForm** method will be executed only if you are opening a quick create form or opening a form in a new window. 
 
 ## Example
 
