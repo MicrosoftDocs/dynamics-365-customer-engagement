@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This section describes the following settings pages, which are available in the **Settings** > **Advanced Settings** > **Organization** section:
+This following pages are available in the **Settings** > **Advanced Settings** > **Organization** section:
 
 - **User Management**: Manage user accounts and assign security roles. [!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Manage users](manage-users.md)
 - **Team Management**: Organize users into teams and apply roles to teams. [!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Manage teams](manage-teams.md)
