@@ -17,7 +17,7 @@ manager: "amyla"
 
 ## Syntax
 
-`Xrm.WebApi.online.execute(request).then(successCallback, errorCallback);`
+`Xrm.WebApi.execute(request).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -131,7 +131,7 @@ var opportunityClose = {
 var winOpportunityRequest = new Sdk.WinOpportunityRequest(opportunityClose, 3);
 
 // Use the request object to execute the function
-Xrm.WebApi.online.execute(winOpportunityRequest).then(
+Xrm.WebApi.execute(winOpportunityRequest).then(
     function (result) {
         if (result.ok) {
             console.log("Status: %s %s", result.status, result.statusText);
@@ -170,7 +170,7 @@ Sdk.WhoAmIRequest = function () {
 var whoAmIRequest = new Sdk.WhoAmIRequest();
 
 // Use the request object to execute the function
-Xrm.WebApi.online.execute(whoAmIRequest).then(
+Xrm.WebApi.execute(whoAmIRequest).then(
     function (result) {
         if (result.ok) {
             console.log("Status: %s %s", result.status, result.statusText);
