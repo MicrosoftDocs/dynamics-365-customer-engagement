@@ -75,6 +75,8 @@ When you create a new message from a template, the template content is copied in
 
 You can also create your own custom templates, which can help both you and others in your organization to create new messages more quickly in the future. Design your templates so that they reflect your organization's graphical identity and fit closely with the types of campaigns you run most regularly. You can save any existing message as a template, or work directly in the templates area to design new templates based on existing ones. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters.
 
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Work with email templates](email-templates.md)
+
 ## Design your content
 
 After choosing a template, you'll be in the email content designer, which resembles the other digital content designers provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Work with it as follows:
@@ -238,6 +240,8 @@ Use the following drop-down lists on the right side of the **Designer** &gt; **P
 - **Contact**: Choose a representative contact record to supply field values. Field values from your selected contact, and other dynamic content that reacts to these values, will be shown in your preview.
 - **Content Settings**: The content settings establish a marketing context for your message, and values stored here might affect your message content. The content settings also include information about your organization, including its postal address and the ID of a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] subscription center page. In a basic setup, you might have just one set of content settings for your entire organization. But in a more advanced configuration, you might reuse a single marketing email message in several different contexts (such as for different products or different events); in this case, the content settings could be different for each customer journey where you use the message. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages).
 
+<a name="inbox-preview"></a>
+
 ### Use the advanced inbox preview feature
 
 Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms. This feature renders your message by using native code from each of the listed target platforms, and then delivers your preview as an image file showing the precise results. As with the simple preview, you can use the **Designer** &gt; **Preview** &gt; **Inbox Preview** &gt; **Properties** tab to choose a **Contact** record and **Resource Set** from which to draw dynamics values (see also the previous section).
@@ -245,6 +249,9 @@ Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-w
 The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)). Your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license includes a limited number of inbox previews each month (typically 100), and this quota is shared by your entire organization. After your organization has used all the available previews for the month, each user must set up their own Litmus account if they want to create additional previews. Personal Litmus quotas apply to individual users, not to the entire organization. When you have used all your free previews, you'll be given the option to sign in to Litmus directly from the **Inbox Preview** tab in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. After you're signed in, the integration is seamless.
 
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
+
+> [!NOTE]
+> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use marketing configurations to enable Litmus previews](marketing-settings.md#marketing-configuration)
 
 ## Required elements: How to pass the error check
 
