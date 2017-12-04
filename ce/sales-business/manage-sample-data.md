@@ -3,12 +3,12 @@ title: "Manage sample data (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Add sample data to allow your users to learn and experiment with Dynamics 365 for Sales, Preview."
 keywords: "Add; sample data; remove"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
 ms.assetid: 62759eb0-a866-4741-a09a-a40ad695fb70
 author: shubhadaj
 ms.author: shujoshi
@@ -47,5 +47,5 @@ Or, if sample data isn’t installed on your system, you may want to add it for 
 
 
 ### See Also
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)  
 [Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

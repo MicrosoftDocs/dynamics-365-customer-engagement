@@ -3,12 +3,12 @@ title: "Manage Excel templates (Dynamics 365 for Sales, Preview) | Microsoft Doc
 description: "Help your users analyze and present Sales data to others using Excel templates in Dynamics 365 for Sales, Preview."
 keywords: "Excel template; Sales Forecasting; Analysis"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
 ms.assetid: c50f4c5f-76fc-48cf-846c-27caec67baed
 author: shubhadaj
 ms.author: shujoshi
@@ -177,4 +177,4 @@ Here are some things you need to be aware of to create and make best use of [!IN
 
 ### See Also
 [Use document templates in Dynamics 365 for Sales, Preview](Use-document-templates-create-standardized-documents.md)  
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)

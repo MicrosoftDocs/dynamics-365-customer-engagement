@@ -3,12 +3,12 @@ title: "Change color scheme logo (Dynamics 365 for Sales, Preview) | Microsoft D
 description: "Create your own branding in Dynamics 365 for Sales, Preview. "
 keywords: "color; logo; theme"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
 ms.assetid: 31970d2b-3be2-457b-9143-da40a67ebf1f
 author: shubhadaj
 ms.author: shujoshi
@@ -65,5 +65,5 @@ The theme that you are currently using is shown with the text “currently appli
 7.  Select **Save and Apply Theme**.
 
 ### See Also
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)  
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)  
 [Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)
