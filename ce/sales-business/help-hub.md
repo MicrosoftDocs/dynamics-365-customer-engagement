@@ -31,7 +31,6 @@ topic-status: Drafting
 <li>[Enable duplicate detection](enable-duplicate-detection.md)</li>
 <li>[Manage sample data](manage-sample-data.md)</li>
 
-
 </td><td>
 
 <h2>Get started</h2>
@@ -40,10 +39,16 @@ topic-status: Drafting
 <li>[Manage your customers](create-accounts-contacts-customers.md)</li>
 <li>[Manage tasks, appointments, email, or phone calls](create-manage-activities.md)</li>
 
-
 </td></tr>
-
 <tr><td>
+
+<h2>Customize the app</h2>
+<li>[Customize forms](customize-forms.md)</li>
+<li>[Customize views](customize-views.md)</li>
+<li>[Customize business process flows](customize-business-process-flows.md)</li>
+
+</td><td>
+
 <h2>Improve productivity</h2>
 <li>[Gain insights with dashboards](gain-insights-dashboards.md)</li>
 <li>[Import Data](import-data.md)</li>
@@ -53,16 +58,18 @@ topic-status: Drafting
 <li>[Make calls or send instant messages](make-calls-send-instant-messages.md)</li>
 <li>[Use document templates](use-document-templates-create-standardized-documents.md)</li>
 
-</td><td>
+</td></tr>
+<tr><td>
 
 <h2>Increase sales</h2>
-
 <li>[Develop sales from lead to cash](develop-sales-lead-to-cash.md)</li>
 <li>[Manage Leads](create-manage-leads.md)</li>
 <li>[Manage opportunities](create-manage-opportunities.md)</li>
 <li>[Create and manage quotes ](create-manage-quotes.md)</li>
 <li>[Create and manage invoices](create-manage-invoices.md)</li>
 <li>[Set personal options](set-personal-options.md)</li>
+
+</td><td>
 
 </td></tr>
 </table>

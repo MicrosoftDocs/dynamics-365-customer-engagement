@@ -23,9 +23,11 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Welcome to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, designed especially for businesses like yours. 
+Welcome to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview. If you don't need a full-fledged enterprise app for your organization, the new [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview app is for you. 
 
-This new Sales offering is built on a new Unified Interface, designed from the ground up with accessibility in mind. It also uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
+This offering, available online-only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your organization up and running quickly.
+
+It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
 [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
 and importing data.

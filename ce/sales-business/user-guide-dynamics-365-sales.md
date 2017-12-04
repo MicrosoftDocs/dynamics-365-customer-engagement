@@ -23,8 +23,6 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview simplifies the lead-to-cash process so businesses can close more deals faster. It also simplifies lead, account, contact, and opportunity management. 
-
 <table>
 
 <tr><td>
