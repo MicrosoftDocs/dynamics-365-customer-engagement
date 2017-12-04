@@ -17,7 +17,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-Administrator & Sales Manager Guide (Sales, Preview)
+# Administrator & Sales Manager Guide (Sales, Preview)
 
 <table>
 
