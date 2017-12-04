@@ -30,7 +30,7 @@ topic-status: Drafting
 <h2>Get started</h2>
 <li>[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md) </li>
 <li>[Learn the basics](learn-basics.md)</li>
-<li>[Manage accounts and contacts](create-accounts-contacts-customers.md)</li> 
+<li>[Manage accounts and contacts](create-accounts-contacts-customers.md)</li>
 <li>[Manage tasks, appointments, email, or phone calls](create-manage-activities.md)</li>
 <li>[Assign a record to a user or team](assign-record-user-team.md)</li>
 <li>[Set personal options](Set-personal-options.md)</li>
