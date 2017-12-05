@@ -23,7 +23,7 @@ manager: "amyla"
 
 |Name|Type|Required|Description|
 |--|--|--|--|
-|arg|String|Yes|Name of the entity to be displayed on the form .|
+|arg|String|Yes|Name of the entity to be displayed on the form.|
 
 ### Related topics
 
