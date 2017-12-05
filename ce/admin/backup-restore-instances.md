@@ -99,7 +99,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 6.  Type a label and any notes to help identify this backup for future restoration.  
   
-7.  Verify that **Dynamics 365**  is selected as the type of backup, and then click **Create**.  
+7.  Click **Create**.  
   
  ![Form for creating a new Dynamics 365 (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
   

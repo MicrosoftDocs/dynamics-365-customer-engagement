@@ -22,7 +22,7 @@ topic-status: Editing
 
 # Use OneNote in Dynamics 365 (online)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can access a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook directly from the activities area in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. This doesn't replace the current Notes feature, but gives you another way to access notes stored in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. When you add a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] section to a notebook, it's shown individually within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and in order of last modified time.  
   

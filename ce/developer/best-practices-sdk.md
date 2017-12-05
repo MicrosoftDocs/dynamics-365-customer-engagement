@@ -241,6 +241,7 @@ The return value from the `Execute` method is used by the workflow runtime to ma
 You should use `return base.Execute(executionContext)` unless the activity bypasses base class functionality. Avoid returning `ActivityExecutionStatus.Closed`. 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ActivityExecutionStatus Enumeration](https://msdn.microsoft.com/library/system.workflow.componentmodel.activityexecutionstatus.aspx)  
 
+<a name="how-to-report-exceptions-custom-workflow-activities"></a> 
 ### How should you report exceptions in custom workflow activities?
 
 You should throw an <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> in your code. This error will be shown in the workflow instance form.

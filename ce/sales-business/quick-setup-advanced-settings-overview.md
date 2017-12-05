@@ -1,12 +1,14 @@
 ---
-title: "Administrator and Sales Manager Guide | Microsoft Docs"
+title: "Quick Setup & Advanced Settings overview (Dynamics 365 for Sales, Preview)  | Microsoft Docs"
 description: "Get started with the basics of setting up a fully functional app for your salespeople.  "
 keywords: "setup; configure; administration; advanced settings, settings, quick setup"
-ms.date: 07/24/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 44689f56-18a5-4b32-986a-89ce07d31fd9
 author: shubhadaj
 ms.author: shujoshi
@@ -15,7 +17,9 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Administrator and Sales Manager Guide 
+# Quick Setup & Advanced Settings overview 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -23,7 +27,7 @@ Are you the person responsible for getting your sales team onboard?
 
 Here’s some good news.
 
-The [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] app comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
 
 ## Welcome page
 
@@ -84,5 +88,5 @@ The Welcome page has resources to get you started. Watch a video to get an overv
 
 
 ### See Also
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
-[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](learn-basics.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
+[Learn the basics](learn-basics.md)  

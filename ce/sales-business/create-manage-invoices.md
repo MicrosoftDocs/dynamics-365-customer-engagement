@@ -1,12 +1,14 @@
 ---
-title: "Create and manage invoices in Dynamics 365 for Sales | Microsoft Docs"
-description: "Use invoices in Dynamics 365 for Sales to bill your customers for the upcoming sale. "
+title: "Create and manage invoices (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Use invoices in Dynamics 365 for Sales, Preview to bill your customers for the upcoming sale. "
 keywords: "Invoice; quote; create invoice; email invoice"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: df953df7-d0ae-4b06-b41c-34cd9d7c3f5e
 author: shubhadaj
 ms.author: shujoshi
@@ -15,11 +17,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create and manage invoices in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Create and manage invoices in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once your customer accepts the quote, you can create an invoice in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] to bill them for the upcoming sale.
+Once your customer accepts the quote, you can create an invoice in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview to bill them for the upcoming sale.
 
 You may also create an invoice that doesn’t generate from a quote.
 
@@ -87,5 +91,5 @@ To directly send an email to customer with an invoice attached, open the invoice
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)
