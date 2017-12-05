@@ -15,14 +15,14 @@ manager: "amyla"
 
 Events occur in Custom Engagement forms and grids whenever a form or grid loads, data is changed, or saved. You execute your JavaScript code by associating it an events so thay it is executed when the event occurs. More information: [Events in forms and grids](../events-forms-grids.md)
 
-## Attribute events
+## Attribute event
 - [OnChange](events/attribute-onchange.md)
 
 ## Form events
 - [OnLoad](events/form-onload.md)
 - [OnSave](events/form-onsave.md)
 
-## Form data events
+## Form data event
 - [OnLoad](events/form-data-onload.md)
 
 ## Grid and subgrid events
@@ -31,23 +31,23 @@ Events occur in Custom Engagement forms and grids whenever a form or grid loads,
 - [OnRecordSelect](events/grid-onrecordselect.md)
 - [OnSave](events/grid-onsave.md)
 
-## IFRAME control events
+## IFRAME control event
 - [OnReadyStateComplete](events/onreadystatecomplete.md)
-
-## Lookup control events
-- [PreSearch](events/presearch.md)
 
 ## Knowledge base search control events
 - [OnResultOpened](events/onresultopened.md)
 - [OnSelection](events/onselection.md)
 - [PostSearch](events/postsearch.md)
 
+## Lookup control event
+- [PreSearch](events/presearch.md)
+
 ## Process events
 - [OnProcessStatusChange](events/onprocessstatuschange.md)
 - [OnStageChange](events/onstagechange.md)
 - [OnStageSelected](events/onstageselected.md)
 
-## Tab events
+## Tab event
 - [TabStateChange](events/tabstatechange.md)
 
 ### Related topics
