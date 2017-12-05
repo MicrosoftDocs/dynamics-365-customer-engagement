@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 11/06/2017
+ms.date: 12/05/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,36 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.11
+
+### Support for [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]'s extended tweet length
+
+With this update, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] supports the new tweet length as [recently released by Twitter](https://blog.twitter.com/official/en_us/topics/product/2017/tweetingmadeeasier.html). When writing tweets, you benefit from the increased limit of 280 characters. As a temporary restriction, tweets with Japanese, Korean and Chinese characters will not be reflected in the character limit accurately. If your tweet is too long, you will receive an error notification and you can shorten it.  
+  
+By early 2018 we plan to update our service to use the new logic of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] for any language and character set.
+
+### Introduction of table view for charts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+A new table view on all existing charts in[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is now available. This means that every user can decide to explore the exact same data in a table format. 
+You can either turn on the table view on single charts or you can enable it globally for you user profile in **Settings > User Preferences**. 
+
+### Redesigned activity map and pause functionality
+
+We are introducing the "pause" functionality to the activity map feature. This enables you to choose whether you want to get live updates on the map, or not. When turned off, posts will stop updating automatically and users can view and explore a snapshot in more detail. New posts will appear again, when live updates have been are turned on and new posts are available.   
+
+In addition to that, the activity map has received a couple of visual updates, such as bigger dots on the map and updated visuals in the activity map header. 
+
+### New field in the JSON payload for Azure Event Hubs: post.profile.uri
+
+Social Engagement includes a feature that allows users to send posts to [Azure Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/) by using Automation Rules. As part of evolving functionality, Social Engagement is updating the [JSON payload](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/event-hubs-json-reference-social-engagement) by replacing the post.profile.id field with a new post.profile.uri field. 
+Moving forward, post.profile.uri will also include a source-based identifier as part of the field value (for example: mse-tw://#12345678).
+
+Please make sure you follow the timeline outlined [in this blog post](https://blogs.msdn.microsoft.com/crm/2017/11/27/deprecation-of-post-profile-id-object-in-social-engagement-json-payload/) to avoid breaking your apps and intermittent data loss. 
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.10
 
