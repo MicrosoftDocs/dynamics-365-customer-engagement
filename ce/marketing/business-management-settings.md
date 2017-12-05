@@ -74,7 +74,7 @@ Here are some guidelines to help make sure that your file will be imported succe
 
 For example, the following lines show what the data might look like for a .csv format file containing leads. The first line contains the field names, and the remaining lines are imported as data.
 
-```
+```Excel
 Company,Last Name,First Name,Topic,Email,Mobile Phone
 "Designer Bikes""Groth""Brian""Mountain bikes""someone@example.com""555-555-0112"
 "Major Sporting [!INCLUDE[pn-good-shortest](../includes/pn-good-shortest.md)]s""Bedecs""Anna""Components""555-555-0171"
