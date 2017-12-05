@@ -2,8 +2,8 @@
 title: RoleAssignment Type Definition
 description: Used in the RBAC Management APIs to manage user and group assignments to built-in Roles. 
 keywords: Customer Insights; type; role assignment
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/30/2017
 ms.topic: reference

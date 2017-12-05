@@ -2,8 +2,8 @@
 title: About Microsoft Dynamics 365 for Customer Insights Web Services (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: 
 keywords: Customer Insights; web services; 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: get-started-article

@@ -2,8 +2,8 @@
 title: Hub Data APIs
 description: These Hub APIs manage custom instances of modeled types. 
 keywords: Customer Insights; types; metadata
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/14/2017
 ms.topic: reference

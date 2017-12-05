@@ -2,8 +2,8 @@
 title: List Widget Types for a Hub (Hub) 
 description: Lists the Widget type definitions for a Hub.
 keywords: Customer Insights; Hub API; application packaging; widget; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/12/2017
 ms.topic: reference

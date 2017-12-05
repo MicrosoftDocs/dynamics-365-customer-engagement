@@ -2,8 +2,8 @@
 title: Delete KPI (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Deletes a KPI.  
 keywords: Customer Insights; ARM API; KPI; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/02/2016
 ms.topic: reference

@@ -2,8 +2,8 @@
 title: Get enriching KPIs for a Profile (ARM)
 description: Gets the specified Profile.
 keywords: Customer Insights; ARM API; Profile; get enriching KPIs
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/09/2017
 ms.topic: reference

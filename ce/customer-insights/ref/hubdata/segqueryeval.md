@@ -2,8 +2,8 @@
 title: Evaluate Static Segment Query (Hub Data)
 description: Evaluates a query for static segment member candidates.
 keywords: Customer Insights; Hub API; segment; evaluate
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/19/2017
 ms.topic: reference

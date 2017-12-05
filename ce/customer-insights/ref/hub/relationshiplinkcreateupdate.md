@@ -2,8 +2,8 @@
 title: Create or Update Relationship Link (Hub)
 description: Creates a new or updates an existing relationship link.
 keywords: Customer Insights; Hub API; relationship link; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/12/2017
 ms.topic: reference

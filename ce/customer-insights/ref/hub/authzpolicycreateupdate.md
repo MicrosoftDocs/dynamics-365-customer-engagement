@@ -2,8 +2,8 @@
 title: Create or Update SAS Policy (Hub)
 description: Creates a new or updates an existing SAS Policy.
 keywords: Customer Insights; Hub API; SAS Policy; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

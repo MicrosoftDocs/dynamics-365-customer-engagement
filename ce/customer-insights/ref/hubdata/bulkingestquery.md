@@ -2,8 +2,8 @@
 title: Query Blob Bulk Ingestion Jobs (Hub Data)
 description: Create a job to ingest a blob file into a custom type.
 keywords: Customer Insights; Hub Data API; Bulk Ingestion; create
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/03/2016
 ms.topic: reference
