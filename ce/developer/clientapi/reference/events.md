@@ -34,6 +34,9 @@ Events occur in Custom Engagement forms and grids whenever a form or grid loads,
 ## IFRAME control events
 - [OnReadyStateComplete](events/onreadystatecomplete.md)
 
+## Lookup control events
+- [PreSearch](events/presearch.md)
+
 ## Knowledge base search control events
 - [OnResultOpened](events/onresultopened.md)
 - [OnSelection](events/onselection.md)
