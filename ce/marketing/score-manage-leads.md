@@ -22,11 +22,12 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] handles leads, including:
+[//]: # (@Karl--I admit that this is a cheesy rewrite. You could also delete this intro and the first H2 entirely.)
+Using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you can:
 
-- How to generate leads manually or automatically by using landing pages.
-- How to set up automatic lead-scoring models.
-- How to set lead-scoring grades and the sales-ready threshold.
+- Generate leads manually or automatically by using landing pages.
+- Set up automatic lead-scoring models.
+- Set lead-scoring grades and the sales-ready threshold.
 
 ## Leads and the lead life cycle
 
@@ -130,26 +131,26 @@ To add an additional grade, select **New**, which adds a new section to the tab,
 
 <a name="traversals"></a>
 
-## Create advanced lead scoring conditions with traversals
+## Create advanced lead scoring conditions by using traversals
 
-When you are setting up a condition tile for lead scoring, you can set up the **Entity** you are testing to include traversals across interactions and profiles by using a _dot notation_, where each hop is separated by a period. For example, you could start with an interaction such as _EmailClicked_ and traverse to the associated _Contact_ profile and then test for values from the contact profile. Here is an example for how to set this up:
+When you are setting up a condition tile for lead scoring, you can set up the **Entity** you are testing to include traversals across interactions and profiles by using a _dot notation_, where each hop is separated by a period. For example, you could start with an interaction such as _EmailClicked_ and traverse to the associated _Contact_ profile, and then test for values from the contact profile. Here's an example of how to set this up:
 
 1. Open the **Properties** for a **Condition** tile. Then set the **Entity** to **EmailClicked**.  
     ![Choose the first entity in the hop](media/lead-scoring-hop-example-1.png "Choose the first entity in the hop")
 
-1. In the **Entity** field, type a period after the **EmailClicked** entity you just added to open a new drop-down that shows the various types of hops you can make from here. Choose **EmailClicked_contact** to hop to the contact profile.  
+1. In the **Entity** field, type a period after the **EmailClicked** entity you just added to open a new drop-down list that shows the various types of hops you can make from here. Choose **EmailClicked_contact** to hop to the contact profile.  
     ![Add a period to create a hop to a second entity](media/lead-scoring-hop-example-2.png "Add a period to create a hop to a second entity")
 
 1. Now you can add **Expressions** to specify values that come from the contact record associated with each email click. For example, you might only want to score on clicks for contacts that live in Chicago.  
     ![Add a condition for the final entity in the chain](media/lead-scoring-hop-example-3.png "Add a condition for the final entity in the chain")
 
 > [!NOTE]
-> You can establish up to five hops using this technique
+> You can establish up to five hops by using this technique.
 
 Here are a few more examples of how to use hops to create useful conditions:
 
-* **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads  associated with contacts that have particular properties (such as contacts that have a Microsoft email address&#8212;where _Email | contains | @microsoft.com_).
-* **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts that belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
+* **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where _Email | contains | @microsoft.com_).
+* **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
 
 ### See also
 
