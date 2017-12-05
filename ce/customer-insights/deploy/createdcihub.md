@@ -36,7 +36,7 @@ This section takes you through the steps needed to create your [!INCLUDE[pn-cust
 
     3. This will display the search results from the Marketplace that match the search query. On the **Everything** blade, select **[!INCLUDE[pn-customer-insights-short](../../includes/pn-customer-insights-short.md)] (Preview)**.
 
-    ![](../media/NewDataAnalyticsHL.png "Create a new Intelligence + Analytics app") 
+    ![Create a new Intelligence + Analytics app](../media/NewDataAnalyticsHL.png "Create a new Intelligence + Analytics app") 
 
 3.  Select **Create**.
 
@@ -55,6 +55,6 @@ This section takes you through the steps needed to create your [!INCLUDE[pn-cust
 
 9.  Select **Create** to start provisioning your [!INCLUDE[pn-customer-insights-short](../../includes/pn-customer-insights-short.md)] hub. It will take at least several minutes for the deployment to finish.
 
-    ![](../media/CreateNewServiceHL.png "Create a new hub") 
+    ![Create a new hub](../media/CreateNewServiceHL.png "Create a new hub") 
 
 After your [!INCLUDE[pn-customer-insights](../../includes/pn-customer-insights-short.md)] hub is created, you will receive a notification in the Azure portal. After you refresh the page, your [!INCLUDE[pn-customer-insights](../../includes/pn-customer-insights-short.md)] hub should appear in the list of **All Resources** on your Azure portal **dashboard**. You can right-click the hub to pin it to your dashboard.
