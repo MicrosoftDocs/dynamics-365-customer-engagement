@@ -2,7 +2,7 @@
 title: "Query and edit an organization theme | MicrosoftDocs"
 description: "Learn about defining and applying visual themes for an organization. This provides a supported way to apply an organization’s logo and color choices to the application. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -78,7 +78,9 @@ GET <client_URL>/api/data/v8.0/themes?$filter=isdefaulttheme eq true&$select=def
  The following table describes the `Theme` entity attributes that are valid for update and contain data that is applied by the theme:  
 
 |Schema Name|Type|Value of default theme|Description|  
-|-----------------|----------|----------------------------|-----------------|  
+|-----------------|----------|----------------------------|-----------------| 
+|AccentColor|String||The Unified Interface secondary theme color to be used on the process control.| 
+|BackgroundColor|String|||
 |ControlBorder|String|#CCCCCC|The color that controls will use for borders.|  
 |ControlShade|String|#F3F1F1|The color for controls to use to indicate when you hover over items.|  
 |DefaultCustomEntityColor|String|#006551|The default custom entity color if no color is assigned.|  
@@ -86,14 +88,21 @@ GET <client_URL>/api/data/v8.0/themes?$filter=isdefaulttheme eq true&$select=def
 |GlobalLinkColor|String|#1160B7|The color for links, such as email addresses or lookups.|  
 |HeaderColor|String|#1160B7|The color for header text, such as form tab labels.|  
 |HoverLinkEffect|String|#D7EBF9|The color that commands or lists will use when you hover over the items.|  
+|ImportSequenceNumber|Integer|||
+|IsDefaultTheme|Boolean|True|The default value for a custom theme is false.|
 |LogoId|String|null|The name of a web resource to use as a logo. Recommended dimensions are a height of 50 pixels and a maximum width of 400 pixels.|  
-|LogoToolTip|String|Microsoft Dynamics 365|The text that will be used as the tooltip and alt text for the logo.|  
+|LogoToolTip|String|Microsoft Dynamics 365|The text that will be used as the tooltip and alt text for the logo.| 
+|MainColor|String||The Unified Interface primary theme color to be used on main command bar, buttons and tabs.| 
 |Name|String|Dynamics 365 Default Theme|The name of the Theme entity.|  
 |NavBarBackgroundColor|String|#002050|The primary navigation bar color.|  
 |NavBarShelfColor|String|#DFE2E8|The secondary navigation bar color.|  
+|OverriddenCreatedOn|DateTime||Date and time that the record was migrated.|  
+|PageHeaderBackgroundColor|String||The page header background color.|  
+|PanelHeaderBackgroundColor|String||The panel header background color.|  
 |ProcessControlColor|String|#0755BE|The primary color for process controls.|  
-|SelectedLinkEffect|String|#B1D6F0|The color that commands or lists will use to indicate selected items.|  
-
+|SelectedLinkEffect|String|#B1D6F0|The color that commands or lists will use to indicate selected items.| 
+|TransactionCurrencyId|Lookup||Exchange rate for the currency associated with the Theme with respect to the base currency.| 
+ 
  After you have applied changes, use the <xref:Microsoft.Crm.Sdk.Messages.PublishThemeRequest> message to make one of the theme records the current theme.  
 
 <a name="BKMK_ExportingAndImportingThemes"></a>
