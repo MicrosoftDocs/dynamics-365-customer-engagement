@@ -42,11 +42,11 @@ manager: "amyla"
  Etags enable you to optimize record retrievals whenever you access the same record multiple times. If you have previously retrieved a record, you can pass the ETag value with the `If-None-Match` header to request data to be retrieved only if it has changed since the last time it was retrieved. If the data has changed, the request returns an HTTP status of 200 (OK) with the latest data in the body of the request. If the data hasn’t changed, the HTTP status code 304 (Not Modified) is returned to indicate that the entity hasn’t been modified. The following example message pair returns data for an account entity with the `accountid` equal to `00000000-0000-0000-0000-000000000001` when the data hasn’t changed since it was last retrieved.  
 
 > [!NOTE]
-> Conditional retrieval works only for entities that have optimistic concurrency enabled. Check if an entity has optimistic concurrency enabled using the following GET request.
+> Conditional retrieval works only for entities that have optimistic concurrency enabled. Check if an entity has optimistic concurrency enabled using the Web API request shown below. Entities that have optimistic concurrency enabled, will have `IsOptimisticConcurrencyEnabled` property set to `true`.
 > ```HTTP
 > GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')
 > ```
-> For more information about optimistic concurrency, see [Reduce potential data loss using optimistic concurrency](reduce-potential-data-loss-using-optimistic-concurrency.md).  
+> For more information about optimistic concurrency, see [Reduce potential data loss using optimistic concurrency](../org-service/reduce-potential-data-loss-using-optimistic-concurrency.md).  
 
  **Request**  
 ```http  
