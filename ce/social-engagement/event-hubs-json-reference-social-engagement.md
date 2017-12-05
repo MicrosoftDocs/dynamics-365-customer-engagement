@@ -134,7 +134,8 @@ This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter
     "modificationDate": "2016-01-23T12:34:56.789+0000",  
     "profile": {  
       "name": "Display Name @chosenUserName",  
-      "id": "41890771",  
+      "id": "41890771",
+      "uri": "mse-tw://#12345678",  
       "profileIcon": "https://path/to/the/profileIcon.png",  
       "externalHandle": "chosenUserName",  
       "displayName": "Display Name",  
@@ -211,7 +212,8 @@ This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter
     "modificationDate": "2016-01-23T12:34:56-07:00",  
     "profile": {  
       "name": "Display Name @chosenUserName",  
-      "id": "3464522345",  
+      "id": "3464522345",
+      "uri": "mse-tw://#12345678",  
       "profileIcon": "https://path/to/the/profileIcon.png",  
       "externalHandle": "chosenUserName",  
       "displayName": "Display Name",  
@@ -290,7 +292,8 @@ This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebo
     "modificationDate": "2016-01-23T12:34:56-07:00",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "43214321",  
+      "id": "43214321",
+      "uri": "mse-fb://#109826384650057",  
       "profileIcon": "http://graph.facebook.com/123456789/picture?type=square",  
       "externalId": "123456789"  
     },  
@@ -350,7 +353,8 @@ This is a sample post payload for a video post acquired through [!INCLUDE[pn_net
     "modificationDate": "2016-01-23T12:34:56-07:00",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "1234567",  
+      "id": "1234567", 
+      "uri": "mse-vd://#UUFSerfsZZt-sdER", 
       "externalId": "98765abc4321"  
     },  
     "source": {  
@@ -408,7 +412,8 @@ This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netb
     "publicationDate": "2016-01-23T12:34:56.789+0000",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "1234567",  
+      "id": "1234567", 
+      "uri": "mse-bl://contoso-blog.tumblr.com#1234567", 
       "externalId": "987654321"  
     },  
     "source": {  
@@ -459,7 +464,8 @@ This is a sample post payload for a forum post acquired through [!INCLUDE[pn_net
     "modificationDate": "2016-01-23T12:34:56.789+0000",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "1234567",  
+      "id": "1234567", 
+      "uri": "mse-bd://forumdomain.tld#someuser", 
       "displayName": "Name of the profile",  
       "externalHandle": "Name of the profile",  
       "externalId": "987654321"  
@@ -735,7 +741,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 "profile": {  
   "name": "Display Name @externalHandle",  
   "id": "41890771",  
-  "uri": "mse-tw://#12345678"
+  "uri": "mse-tw://#12345678",
   "profileIcon": "https://path/to/the/profileIcon.png" ,  
   "profileLocation": {  
     "locality": "Boston",  
