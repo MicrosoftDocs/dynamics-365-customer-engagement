@@ -70,7 +70,7 @@ SQL query filtering supports the following operators.
 > [!NOTE]
 > Usage of the like operator is translated to the equivalent contains/begins with/ends with operators. The  DocumentDB API does not support pattern arguments as described in the topic [Like (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/language-elements/like-transact-sql). The Azure Cosmos DB for DocumentDB API Data Provider can translate the single special case Like(‘[aA]%’) to BeginsWith(‘a’) OR BeginsWith(‘A’). Notice that string comparison in the DocumentDB API is case sensitive.
 
-## Install and configure the Azure Cosmos DB for DocumentDB API Data Provider
+## Add a data source using the Azure Cosmos DB for DocumentDB API Data Provider
 
 1. Go to AppSource and add the application to your [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later instance.
 2. After the solution is installed, sign in to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance and go to **Settings** > **Administration** > **Virtual Entity Data Sources**.
