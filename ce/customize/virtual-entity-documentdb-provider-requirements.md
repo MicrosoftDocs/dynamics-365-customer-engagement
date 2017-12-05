@@ -21,6 +21,12 @@ manager: "brycho"
 
 This topic describes the requirements for the Azure Cosmos DB for DocumentDB API Data Provider as well as how to configure and recommended best practices when you use the Azure Cosmos DB for DocumentDB API Data Provider with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] virtual entities. Azure Cosmos DB is Microsoft's globally distributed, multi-model database.
 
+> [!IMPORTANT]
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-no-ms-support.md)]
+
+
 ## Requirements
 
 - Azure subscription that includes Azure Cosmos DB.
@@ -73,10 +79,10 @@ Query filtering supports the following operators.
   - **Name**. Type a name that describes the data source.
   - **Collection Name**. The name of the Azure Cosmos DB database collection containing the data you want to surface in a virtual entity.  
   - **Authorization Key**. The primary or secondary key for the Azure Cosmos DB account. You can find the key from the Azure admin portal under the **Keys** setting under your Azure Cosmos DB account.
-  - **Uri**. The URI of the resource group where the Azure Cosmos DB collection is located. The URI is formed similar to https://contoso/documents.azure.com:443. You can find the URI from the Azure admin portal under the Keys setting for the Azure Cosmos DB account. 
+  - **Uri**. The URI of the resource group where the Azure Cosmos DB collection is located. The URI is formed similar to https://contoso/documents.azure.com:443. You can find the URI from the Azure admin portal under the **Keys** setting for the Azure Cosmos DB account. 
   - **Timeout in seconds**. Enter the number of seconds to wait for a response from the Azure Cosmos DB service before a data request time-out. For example, enter 30 to wait a maximum of thirty seconds before a time-out occurs. The default timeout is 120 seconds.
 
-c![Create the data source using the DocumentDB API Data Provider.](media/cosmosdb-datasource.png)
+![Create the data source using the DocumentDB API Data Provider.](media/cosmosdb-datasource.png)
 
 ## Best practices and limitations
 
