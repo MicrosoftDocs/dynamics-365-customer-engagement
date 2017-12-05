@@ -25,7 +25,6 @@ To manage an existing portal, you must be assigned any one of the following role
 - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
 - System Administrator of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal
 
-[//]: # (I question whether the following paragraph is necessary.)
 If you haven't been assigned any of the above-mentioned roles, the following message is displayed: "You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal."
 
 If you are not a global administrator and you try to manage a portal that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your portal.

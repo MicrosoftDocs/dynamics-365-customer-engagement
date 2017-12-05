@@ -15,15 +15,13 @@ manager: sakudes
 ---
 # Integrate Field Service
 
-[//]: # (Please choose the correct Field Service tokens for this paragraph, and verify whether "Partner" should be part of the solution name. Not sure what "Partner Portal Solutions" refers to...?)
-The Partner Field Service solution for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can now be installed on a Partner Portal (Field Service for CRM and Partner Portal Solutions must be installed first). With this solution installed, customers and partners can view various parts of the Field Service section of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the partner portal. Some of the available entities that can be viewed are assets, work orders, and invoices.
+The Partner [!include[](../includes/pn-field-service.md)] solution for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can now be installed on a Partner Portal ([!include[](../includes/pn-field-service.md)] for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and Partner Portal solutions must be installed first). With this solution installed, customers and partners can view various parts of the [!include[](../includes/pn-field-service.md)] section of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the partner portal. Some of the available entities that can be viewed are assets, work orders, and invoices.
 
 ## View agreements on the partner portal
 
 Customers can view active and expired agreements that are connected to their account on the partner portal if they have the correct web role and the agreement was created properly. They must have the FS Customer Approver or FS Customer Reviewer web role. 
 
 ### To create or edit an agreement to be visible on the portal
-[//]: # (In step 4, I've assumed that the line "both under the **General** tab" meant that steps 3 and 4 both took place there. Please verify?)
 
 1.  In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
 2. Select an agreement, or select **+ New** at the top of the page to create a new one. 
@@ -130,7 +128,5 @@ The range of accepted values for each metric's site setting is as follows.
 | Touch rate            | distribution/weights/touchrate      | Positive, 0 to 5     |
 | Average time to close | distribution/weights/avgtimetoclose | Negative, 0 to &ndash;0.5  |
 
-[//]: # (Please verify the addition of "configure-web-roles-partner-portal.md" to the beginning of this link.)
 ### See also
-[Create a partner account on a PRM portal](configure-web-roles-partner-portal.md#create-a-partner-account-on-a-partner-relationship-management-prm-portal)  
-
+[Create a partner account on a PRM portal](configure-web-roles-partner-portal.md#create-a-partner-account-on-a-prm-portal)

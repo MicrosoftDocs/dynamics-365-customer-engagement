@@ -350,14 +350,13 @@ Write-Output $idpInitiatedUrl
 ## Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]
 
 The process of adding a relying party trust in [!include[](../includes/pn-adfs-short.md)] can also be performed by running the following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script on the [!include[](../includes/pn-adfs-short.md)] server (save contents to a file named Add-AdxPortalRelyingPartyTrustForSaml.ps1). After running the script, continue with configuring the portal site settings.
-[//]: # (In the third line, should it really be "Dynamics CRM"? I didn't want to add a token to this script, but I'm guessing this probably should be "Dynamics 365".)
 
 ```
 <# 
 
 .SYNOPSIS
 
-Adds a SAML 2.0 relying party trust entry for a Dynamics CRM portals website.
+Adds a SAML 2.0 relying party trust entry for a Dynamics 365 portals website.
 
 .PARAMETER domain
 

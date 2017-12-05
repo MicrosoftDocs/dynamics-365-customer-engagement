@@ -63,7 +63,6 @@ Thus, users in a web role who have access to records defined by parent entity pe
 ### Attributes and relationships
 
 The table below explains the entity permission attributes.
-[//]: # (In the Parent Entity Permission row, I deleted the sentence fragment "The parent Entity Permission". If there's more to be said, please add it.)
 
 | Name                     | Description                                                                                                                                                                                                                                                                                                               |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

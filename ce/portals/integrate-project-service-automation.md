@@ -15,8 +15,7 @@ manager: sakudes
 ---
 # Integrate Project Service Automation
 
-[//]: # (Please verify what "Partner Portal Solutions" refers to. Should we turn it into a token?)
-The [!include[](../includes/pn-project-service-auto.md)] solution for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can now be installed on a partner portal ([!include[](../includes/pn-project-service-auto.md)] for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and Partner Portal Solutions must be installed first). With this solution installed, customers and partners will be able to view projects and confirmed, bookable resources. Customers will also be able to approve quotes, view invoices, and view contract and order forms.
+The [!include[](../includes/pn-project-service-auto.md)] solution for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can now be installed on a partner portal ([!include[](../includes/pn-project-service-auto.md)] for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and Partner Portal solutions must be installed first). With this solution installed, customers and partners will be able to view projects and confirmed, bookable resources. Customers will also be able to approve quotes, view invoices, and view contract and order forms.
 
 ## View projects on the partner portal
 
