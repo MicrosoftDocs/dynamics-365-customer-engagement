@@ -2,8 +2,8 @@
 title: List Roles for a Hub (ARM)
 description: Lists the Role type definitions for a Hub.
 keywords: Customer Insights; ARM API; role assignments; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/17/2017
 ms.topic: reference

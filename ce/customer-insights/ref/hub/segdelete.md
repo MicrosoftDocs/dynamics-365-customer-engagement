@@ -2,8 +2,8 @@
 title: Delete a Segment Type (Hub)
 description: Deletes a segment entity type.
 keywords: Customer Insights; Hub API; segment; delete
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference

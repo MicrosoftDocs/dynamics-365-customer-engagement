@@ -2,8 +2,8 @@
 title: Microsoft Dynamics 365 for Customer Insights Architecture (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: 
 keywords: Customer Insights; web services; architecture
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/31/2017
 ms.topic: reference

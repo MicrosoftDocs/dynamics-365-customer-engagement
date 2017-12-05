@@ -2,8 +2,8 @@
 title: Get Profile Instance by ID (Hub Data)
 description: Gets a Profile instance matching the specified ID. 
 keywords: Customer Insights; Hub Data API;  Profile instance; get; ID
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/20/2017
 ms.topic: reference

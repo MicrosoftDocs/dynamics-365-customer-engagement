@@ -2,8 +2,8 @@
 title: Get KPI data for a Profile ID (Hub Data)
 description: Gets KPI data associated with specified Profile instance.
 keywords: Customer Insights; Hub Data API; Interaction instance; get; 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/07/2016
 ms.topic: reference

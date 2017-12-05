@@ -2,8 +2,8 @@
 title: KPI Type Definitions (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: Key Performance Indicators (KPIs) represent quantifiable measures and key insights about business data or processes, or aspects thereof.
 keywords: Customer Insights; type; KPI
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/09/2017
 ms.topic: reference

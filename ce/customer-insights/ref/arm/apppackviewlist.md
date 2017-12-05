@@ -2,8 +2,8 @@
 title: List App View Types for a Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the Application View type definitions for a Hub.
 keywords: Customer Insights; ARM API; application packaging; View; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/16/2017
 ms.topic: reference

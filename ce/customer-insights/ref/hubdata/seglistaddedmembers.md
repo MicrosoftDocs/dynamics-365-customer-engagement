@@ -2,8 +2,8 @@
 title: List Segment Members after Continuation (Hub Data)
 description: Lists the segment members added after the specified continuation token.
 keywords: Customer Insights; Hub API; segment; list; continuation
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/19/2017
 ms.topic: reference

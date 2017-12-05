@@ -2,8 +2,8 @@
 title: Delete Relationship Instance (Hub Data)
 description: Deletes an existing Relationship instance. 
 keywords: Customer Insights; Hub Data API; Relationship instance; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/20/2017
 ms.topic: reference

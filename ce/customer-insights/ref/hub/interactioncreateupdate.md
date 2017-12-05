@@ -2,8 +2,8 @@
 title: Create or Update Interaction Type (Hub)
 description: Creates or updates an Interaction type.
 keywords: Customer Insights; Hub API; Interaction; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

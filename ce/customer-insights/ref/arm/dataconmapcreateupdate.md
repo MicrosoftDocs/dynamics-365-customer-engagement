@@ -2,8 +2,8 @@
 title: Create or Update Data Connector Mapping (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates a new or updates an existing Connector Mapping.
 keywords: Customer Insights; ARM API; ConnectorMapping; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/08/2017
 ms.topic: reference

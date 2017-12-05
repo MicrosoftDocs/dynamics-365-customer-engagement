@@ -2,8 +2,8 @@
 title: Delete Relationship (ARM)
 description: Deletes a Relationship type.  
 keywords: Customer Insights; ARM API; Relationship; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/22/2017
 ms.topic: reference

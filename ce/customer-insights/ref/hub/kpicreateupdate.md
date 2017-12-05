@@ -2,8 +2,8 @@
 title: Create KPI (Hub)
 description: Creates a new KPI.
 keywords: Customer Insights; Hub API; KPI; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/02/2016
 ms.topic: reference

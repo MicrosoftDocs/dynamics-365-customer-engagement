@@ -2,8 +2,8 @@
 title: Link Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: Typically used to establish an association between an Interaction and a Profile or Interaction and another Interaction which is marked as an Activity.
 keywords: Customer Insights; type; Link
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/06/2017
 ms.topic: reference

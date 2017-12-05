@@ -2,8 +2,8 @@
 title: List Segment Types (Hub)
 description: Lists all the segment entity types.
 keywords: Customer Insights; Hub API; segment; list
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/16/2017
 ms.topic: reference
