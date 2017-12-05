@@ -58,9 +58,9 @@ This table indicates the data type mappings for the DocumentDB API document in t
 > - id attribute values must be guids.
 > - For more information about using dates in DocumentDB API, see [Working with Dates in Azure DocumentDB](https://azure.microsoft.com/blog/working-with-dates-in-azure-documentdb-4/).
 
-## Supported query filtering
+## Supported SQL query filtering
 
-Query filtering supports the following operators. 
+SQL query filtering supports the following operators. 
 
 - Comparison operators:<,>,<=, >=,!=
 - Logical operators: and, or 
