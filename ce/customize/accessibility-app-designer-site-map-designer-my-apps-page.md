@@ -98,4 +98,4 @@ Microsoft is committed to making its products and services easier for everyone. 
 
 ## See also
 
-[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../keyboard-shortcuts/keyboard-shortcuts.md)
+[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)

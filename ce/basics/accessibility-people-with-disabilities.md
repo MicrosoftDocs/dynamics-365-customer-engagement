@@ -48,6 +48,6 @@ Microsoft is committed to making its products and services easier for everyone. 
 -   [MMC Keyboard Shortcuts](https://technet.microsoft.com/library/cc766476.aspx)  
 -->  
 ### See also  
- [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../keyboard-shortcuts/keyboard-shortcuts.md)
+ [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)
  
  [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)
