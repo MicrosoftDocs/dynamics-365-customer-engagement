@@ -345,11 +345,11 @@ Seamless work offline with mobile offline synchronization. You can work with mob
 
 When you're admin has enabled mobile offline, the next time that you access the mobile app, you will be prompted to download updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-1. When you see the **Offline Updates Avilable** dialog box, choose **Update**. 
+1. When you see the **Offline Updates Available** dialog box, choose **Update**. 
 
   ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
   
-2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is avilable.
+2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is available.
 
     ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
 
