@@ -76,7 +76,7 @@ To access the Customer Service Hub app on a mobile device:
  In the Customer Service Hub, work with record types that help you easily manage your customer service:  
   
 -  Dashboards  
--  Activities: Email (read-only), Task, Appointment, Phone Call, Social Activity  
+-  Activities: Email, Task, Appointment, Phone Call, Social Activity  
 -  Accounts  
 -  Contacts 
 -  Social Profiles 
@@ -89,7 +89,7 @@ The Customer Service Hub comes with a new and enhanced sitemap to enable easy na
 Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
   
 > [!NOTE]
-> -   The navigation bar for the Customer Service Hub is different from the navigation bar in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application.   
+> The navigation bar for the Customer Service Hub is different from the navigation bar in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application.   
 
   
 <a name="bkmk_understandsitemapnavigation"></a>   
@@ -276,14 +276,14 @@ Activities are the tasks that you or your team perform, while contacting custome
 For example, you can make a record of a phone call that you have with a customer, or list an appointment that you need to attend to, with a customer to discuss a certain issue. You can create activities for yourself can assign them to someone else, or can share them with other reps.
 
 In Dynamics 365, the following activities are supported:
-- Email (read-only)
+- Email
 - Task
 - Appointment
 - Phone Call
 - Social Activity
 
 > [!NOTE]
-> Email is read-only in the Customer Service Hub
+> With the December update of the Customer Service Hub, you can create and edit emails if you are using the app on a desktop browser. This feature is currently in preview. However, on a mobile device, email is read-only in the Customer Service Hub.
 
 #### Open Activities view
 In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
