@@ -47,6 +47,7 @@
         "customize/**.*": "bc/toc.yml",
         "field-service/**.*": "bc/toc.yml",
         "gamification/**.*": "bc/toc.yml",
+        "guidance/**.*": "bc/toc.yml",
         "insights-insideview/**.*": "bc/toc.yml",
         "linkedin/**.*": "bc/toc.yml",
         "marketing/**.*": "bc/toc.yml",

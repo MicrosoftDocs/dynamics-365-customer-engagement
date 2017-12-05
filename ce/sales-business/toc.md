@@ -27,6 +27,8 @@
 
 ## [User Guide](user-guide-dynamics-365-sales.md)
 ### [Learn the basics](learn-basics.md)
+### [Work with views (lists)](work-with-views.md)
+### [Use lookup field on forms](use-lookup-field-forms.md)
 ### [Assign a record to a user or team](assign-record-user-team.md)
 ### [Gain insights with dashboards](gain-insights-dashboards.md)
 ### [Manage your SharePoint documents](create-manage-documents.md)
