@@ -2,7 +2,7 @@
 title: "Sample: Upload, retrieve, and download an attachment | MicrosoftDocs"
 description: "The sample demonstrates how to upload, retrieve, and download an attachment for an annotation using the IOrganizationService.Entity) and IOrganizationService.ColumnSet) methods. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/24/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Annotations](https://code.msdn.microsoft.com/Annotation-Sample-9d797e21).  
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Work with Annotations](https://code.msdn.microsoft.com/Annotation-Sample-9d797e21).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
