@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 11/27/2017
+ms.date: 12/05/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -248,7 +248,7 @@ Create rules to gather posts from [!INCLUDE[tn_instagram](../includes/tn-instagr
 To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users send or receive on an added social profile, create a private messages rule in a search topic. You can create a private messages rule for every social profile if the owner of the social profile allows the data acquisition of private messages.  
   
 > [!IMPORTANT]
-> If you add a private messages rule, all private messages that were sent to the selected profile are visible in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+> If you add a private messages rule, all private messages (except if the message is a picture only) that were sent to the selected profile are visible in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 > When you add a new private messages rule, all private messages from the past 14 days get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and thus count toward your monthly post quota. 
   
 ### Add a new private messages rule  
