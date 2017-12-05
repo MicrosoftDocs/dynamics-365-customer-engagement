@@ -54,7 +54,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 1. Expand the **Segment Group** tile to expose its child **Segment** tile. Then select the child tile, open the **Properties** tab, and configure the tile to reference the segment you want to target.  
     ![Assign a segment to the segment tile](media/journey-assign-segment.png "Assign a segment to the segment tile")
 
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a dynamic segment](create-segment.md) and [Create a simple customer journey with email messaging](#create-a-simple-customer-journey-with-email-messaging)  
+    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
 1. Select the **Activity** tile, and then open the **Properties** tab.  
     ![Set up the activity tile](media/journey-activity-properties.png "Set up the activity tile")  
