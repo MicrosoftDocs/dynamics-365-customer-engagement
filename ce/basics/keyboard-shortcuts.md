@@ -13,8 +13,9 @@ ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
 
-[!include[pn-crm-8-2-0-online](../includes/pn-crm-8-2-0-online.md)]
-[!include[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0]
+(../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
 Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface.
@@ -26,17 +27,12 @@ Keyboard shortcuts give you an alternate way to do common tasks, instead of usin
 
 The keyboard shortcuts in this topic apply to all Dynamics 365 applications. 
 
-Additional shortcut keys for specific apps, are listed below:
-
-[Customer Service Hub (formerly known as Interactive Service hub)](keyboard-navigation-support-customer-service-hub.md)
-
-[Dynamics 365 for Sales, Preview](keyboard-navigation-support-sales-smb.md)
-
-[Dynamics 365 for Marketing](../marketing/designer-shortcuts.md)
 
 [Unified Service Desk](../unified-service-desk/accessibility-unified-service-desk-microsoft-dynamics-365.md)
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
+
+Additional shortcut keys for specific apps, are listed below:
 
 ### Forms
 The following keyboard shortcuts are included in Dynamics 365 forms: 

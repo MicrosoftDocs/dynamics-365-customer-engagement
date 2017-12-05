@@ -16,8 +16,6 @@ ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 
 Click the tab for  the product or service you use.  
   
- horizontaltabbed  
-  
 ### Dynamics 365  
  With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], start by opening the app for your role: Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Operations, or Financials.  
   
