@@ -27,7 +27,7 @@ Provides navigation-related methods.
 
 ### Related topics
 
-[Client API reference](../reference.md) 
+[Client API Xrm object](../clientapi-xrm.md)
 
 
 
