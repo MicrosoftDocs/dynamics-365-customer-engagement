@@ -2,7 +2,7 @@
 title: "JSON objects reference from Social Engagement | Microsoft Docs"
 description: "Review the full list of properties and object in the Social Engagement payload for Event Hubs."
 keywords: "JSON, payload, metadata, event hubs, reference"
-ms.date: 11/28/2017
+ms.date: 12/05/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -719,7 +719,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 |JSON element|Description|  
 |------------------|-----------------|  
 |[post.profile.id](#document.profile.id)|Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
-|[post.profile.uri](#document.profile.uri)|Unique identifier of author profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
+|[post.profile.uri](#document.profile.uri)|Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
 |[post.profile.profileIcon](#document.profile.profileIcon)|URI to public profile picture.|  
 |[post.profile.profileLocation](#document.profile.profileLocation)|JSON object describing the author's location information as specified by the author.|  
 |[post.profile.externalHandle](#document.profile.externalHandle)|Alias or handle of a profile.|  
@@ -770,7 +770,7 @@ Unique ID of the author profile in the [!INCLUDE[pn_netbreeze_short](../includes
 
 <a name="document.profile.uri"></a>   
 #### post.profile.uri  
-Unique identifier of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
+Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.
   
  Property Value Type: string  
   
