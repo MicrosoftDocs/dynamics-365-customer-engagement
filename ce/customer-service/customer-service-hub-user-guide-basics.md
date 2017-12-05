@@ -217,7 +217,7 @@ For example, here’s a view of how the tabs appear on the case form:
 <a name="bkmk_Timeline"></a>  
 
 ### **Timeline**  
- See a combined view of your customer’s interactions across various channels,such as phone, Email, or even social activities in the Timeline. It also shows any related notes or system posts.  
+ See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. It also shows any related notes or system posts.  
 
 The Customer Service Hub comes with an enhanced and updated Timeline that lets you view all user interaction, arranged in a single stream. You can create, update, and manage notes, posts and other interactions from the Timeline itself. 
 
