@@ -32,10 +32,14 @@ With this update, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement
   
 By early 2018 we plan to update our service to use the new logic of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] for any language and character set.
 
-### Introduction of table view for charts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+### Introduction of table and pattern view for charts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-A new table view on all existing charts in[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is now available. This means that every user can decide to explore the exact same data in a table format. 
-You can either turn on the table view on single charts or you can enable it globally for you user profile in **Settings > User Preferences**. 
+A new table view on all existing charts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is now available. This means that every user can decide whether they want to explore the data represented as charts or as tables.   
+You can either turn on the table view on single charts or you can enable the table view globally for your user profile in **Settings > User Preferences**. 
+
+Additionally, we're introducing a new styling for charts with colored areas. You can choose to render the charts with a filling patterns or solid colors.
+To switch between filling pattern and solid color, go to **Settings > User Preferences** and update the **Color settings**.
+
 
 ### Redesigned activity map and pause functionality
 

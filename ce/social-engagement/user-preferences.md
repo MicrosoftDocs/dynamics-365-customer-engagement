@@ -50,7 +50,7 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-en
 |Theme|Choose between a light and a dark color theme for your user interface.|  
 |Number format|Choose from a predefined set of option to display numbers on the user interface.|  
 |Default time frame|Set the default time frame to present data in your charts and graphs for analysis. You can change the time frame at any time.|  
-|Chart format|You can choose between Charts and Table view. Select if you want to see the data points represented as charts or as tables with fields for data points.|  
+|Chart format|You can choose between Charts and Table view. Select if you want to see the data points represented as charts or as tables with fields for data points. Additionally, you can choose to render widgets with filling patterns or solid colors.|  
   
 ### See Also  
  [Get started with Social Engagement](get-started.md)   
