@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This topic lists keyboard shortcuts and accessibility features for working with the designers.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. The following keyboard shortcuts and accessibility features are available for working with the designers.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 

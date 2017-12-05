@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic explains how to find and open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and how to work with its common user interface elements, including lists, forms, and business processes.
+This introduction to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] explains how to find and open the app, and how to work with its common user interface elements including lists, forms, and business processes.
 
 ## Open Dynamics 365 for Marketing
 

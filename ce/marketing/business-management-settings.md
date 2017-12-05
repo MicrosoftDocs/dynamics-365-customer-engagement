@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes the pages available in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
+The following pages are available in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
 
 ## Import data
 

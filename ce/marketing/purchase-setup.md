@@ -22,7 +22,8 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic explains how licensing works, how to set up the system for the first time, and how to rerun the setup wizard if you need to change your setup later. It also provides important privacy information.
+[//]: # (@Karl, I couldn't think of anything here. I hope that taking the "This topic.." construction out of the first sentence is good enough.)
+Before you set up your system for the first time, you need to meet certain prerequisites and licensing requirements. This topic explains how licensing works, how to set up the system for the first time, and how to rerun the setup wizard if you need to change your setup later. It also provides important privacy information.
 
 ## Prerequisites and requirements
 

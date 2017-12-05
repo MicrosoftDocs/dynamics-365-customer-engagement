@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic introduces three of the most important and common types of database records&mdash;contacts, accounts, and leads. These fundamental business entities are shared by most [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps, including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps, including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
 ## Use contacts to manage customer people
 

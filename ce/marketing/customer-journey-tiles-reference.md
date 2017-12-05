@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to use each of the tiles that are available for constructing a customer journey.
+The following tiles are available for constructing a customer journey.
 
 ## Content-type tiles
 

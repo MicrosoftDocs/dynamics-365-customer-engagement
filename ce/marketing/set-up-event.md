@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic explains how to get started planning an event with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You'll start by creating an event record, which collects all of your planning details, gives links to related records, and provides a business-process timeline that helps guide you through each step of the event-planning process. This topic also describes how to set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
+To get started planning an event with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you start by creating an event record, which collects all of your planning details, gives links to related records, and provides a business-process timeline that helps guide you through each step of the event-planning process. Then you set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
 
 ## Create the root event record
 

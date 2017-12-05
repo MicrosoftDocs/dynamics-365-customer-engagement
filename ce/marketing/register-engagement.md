@@ -22,10 +22,10 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how you can measure customer engagement with your marketing initiatives, including:
+You can measure customer engagement with your marketing initiatives in several ways, including:
 
-- How to add a script to the pages of your website that enables [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to record how people use your website and to connect browsing records to anonymous and known contacts.
-- How to set up a redirect URL, which logs clicks on links that you post to social-media sites, ad banners, and other places online. You'll be able to see how often a link was used, where it was used, and who used it (when the user is a known contact).
+- Adding a script to the pages of your website that enables [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to record how people use your website and to connect browsing records to anonymous and known contacts.
+- Setting up a redirect URL, which logs clicks on links that you post to social-media sites, ad banners, and other places online. You'll be able to see how often a link was used, where it was used, and who used it (when the user is a known contact).
 
 ## Monitor how visitors use your website
 
