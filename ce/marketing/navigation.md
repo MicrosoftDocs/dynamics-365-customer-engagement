@@ -43,6 +43,8 @@ To open the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-modu
 
 - *Entities* represent a specific type of data, such as a contact, lead, email message, or customer journey. Entities use a structured data format, which defines the collection of fields available to the entity. Each entity consists of a collection of individual records. For example, for the contacts entity, each record describes a single person, and each record includes a collection of fields such as first name, last name, and email address. Entities normally present two views: a list view, which is typically a table listing available records; and a form view, which shows all available data and settings for a single record. Use the side navigator to move between entities in your current work area.
 
+<a name="move-between-apps"></a>
+
 ### Move between apps
 
 Use the app-selector menu to switch between [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] and your other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
