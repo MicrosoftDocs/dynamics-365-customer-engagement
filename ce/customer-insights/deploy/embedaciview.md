@@ -37,7 +37,7 @@ Follow these steps to embed a [!include[pn-customer-insights](../../includes/pn-
 
     >-   Use the + button to create a new view, selecting the appropriate profile type.
 
-    ![](../media/CreateACIView.png "Click the plus sign")
+    ![Click the plus sign](../media/CreateACIView.png "Click the plus sign")
 
     >-   Create a view, and add the widgets you want for the data visualization.
 
@@ -49,7 +49,7 @@ Follow these steps to embed a [!include[pn-customer-insights](../../includes/pn-
         
          Example: Email>&filtervalue={Property value e.g.: abc@hotmail.com}
 
-    ![](../media/EmbedACIView.png "Click EMBED")
+    ![Click EMBED](../media/EmbedACIView.png "Click EMBED")
 
     >-   You can also get the complete Iframe markup snippet by using the **Embed View** option.
 
