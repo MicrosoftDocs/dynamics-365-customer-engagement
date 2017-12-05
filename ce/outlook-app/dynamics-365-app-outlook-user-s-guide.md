@@ -158,6 +158,9 @@ One of the first things you might want to do when you receive a customer email, 
 
 ![Add a contact or lead](media/add-email-contact-lead.png)
 
+> [!NOTE]
+> If the sender of the email is unknown to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], when you add the contact or lead, the email is automatically tracked in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email. 
+
 ## Link an email message or meeting to a specific Dynamics 365 record  
 You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, such as an account, opportunity, or case. This also tracks the email or meeting in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
