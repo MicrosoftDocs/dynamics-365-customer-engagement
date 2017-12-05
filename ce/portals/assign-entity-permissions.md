@@ -2,7 +2,7 @@
 title: "Add record-based security by using Entity Permissions for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add an entity permission and assign web roles to it."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""

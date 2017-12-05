@@ -2,7 +2,7 @@
 title: "Manage a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage your portal."
 keywords: ""
-ms.date: 11/08/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
