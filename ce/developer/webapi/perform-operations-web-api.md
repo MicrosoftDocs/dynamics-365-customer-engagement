@@ -45,7 +45,9 @@ The Web API is new for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynam
   
  [Impersonate another user using the Web API](impersonate-another-user-web-api.md)  
   
- [Apply optimistic concurrency using the Web API](perform-conditional-operations-using-web-api.md)  
+ [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)  
+ 
+ [Manage duplicate detection during Create and Update operations](manage-duplicate-detection-create-update.md)
   
 ### See also  
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   

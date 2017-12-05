@@ -477,14 +477,14 @@ namespace <Your app namespace>
  At this point you can verify that the application user account was used. An easy way to check this is by using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web API. Type in the following URL into a separate tab or window, substituting the `UserId` value from the application.  
   
 ```
-[Organization URI]/api/data/v8.2/systemusers(<UserId value>)?$select=fullname  
+[Organization URI]/api/data/v9.0/systemusers(<UserId value>)?$select=fullname  
 ```  
   
  The  JSON response should look like the following. Notice that the fullname value will be to the application user you created in the [Create an application user](#bkmk_CreateApplicationUser) step, rather than the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user you used to sign into the application.  
   
 ```json  
 {  
-    "@odata.context": "[Organization Uri]/api/data/v8.2/$metadata#systemusers(fullname)/$entity",  
+    "@odata.context": "[Organization Uri]/api/data/v9.0/$metadata#systemusers(fullname)/$entity",  
     "@odata.etag": "W/\"603849\"",  
     "fullname": "S2S User",  
     "systemuserid": "31914b34-be8d-e611-80d8-00155d892ddc",  

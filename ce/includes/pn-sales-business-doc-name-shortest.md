@@ -1,1 +1,1 @@
-Sales, Business edition
+Sales
