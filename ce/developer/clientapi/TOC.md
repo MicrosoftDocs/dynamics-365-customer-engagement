@@ -216,6 +216,7 @@
 #### [getViewPortWidth](reference/formcontext-ui/getViewPortWidth.md)
 #### [refreshRibbon](reference/formcontext-ui/refreshRibbon.md)
 #### [removeOnLoad](reference/formcontext-ui/removeOnLoad.md)
+#### [setFormEntityName](reference/formcontext-ui/setFormEntityName.md)
 #### [setFormNotification](reference/formcontext-ui/setFormNotification.md)
 
 ### [formContext.ui.formSelector](reference/formcontext-ui-formselector.md)
