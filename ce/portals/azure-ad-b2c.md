@@ -2,7 +2,7 @@
 title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -494,6 +494,9 @@ When a new customer who does not exist in [!INCLUDE[pn-dynamics-crm](../includes
 **Format**: attribute1=claim1,attribute2=claim2,attribute3=claim3
 
 For example:  firstname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle
+
+> [!NOTE]
+> Ensure that you map the email address to the primary email (emailaddress1) of the contact. If you have added secondary email (emailaddress2) or alternate email (emailaddress3) to the contact record and mapped it to the email, identity information will not be added to the contact and a new one will be created with the email address used for registration set in the primary email (emailaddress1).
 
 ### Claims to support sign-in scenarios
 
