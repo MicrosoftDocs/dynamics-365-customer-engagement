@@ -13,7 +13,7 @@ ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface.
 
