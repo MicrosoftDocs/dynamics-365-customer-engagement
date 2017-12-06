@@ -1,8 +1,8 @@
 ---
-title: "Register your app with AppSource (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "register your Dynamics 365 app with Microsoft AppSource so that subscribers can find it, try it and buy it"
+title: "Publish your app with AppSource (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Publish your Dynamics 365 app with Microsoft AppSource so that subscribers can find it, try it, and buy it."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,22 +12,24 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 711578f8-34d0-4615-b24f-b0db41c1f963
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
+author: "KumarVivek"
+ms.author: "kvivek"
 manager: "amyla"
 ---
-# Register your app with AppSource
+# Publish your app with AppSource
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-When you have created your app you can publish it through [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement subscribers can find it, try it, and buy it.  
+Publish your apps on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement subscribers can find it, try it, and buy it.  
   
-## Register your app  
- The first step in registering your app is to visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners). Here you will find app review guidelines which will help you understand whether your app is a good fit for AppSource.  
+Before you proceed to publish your app on the AppSource, you must visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners) read the App review guidelines to understand whether your app is a good fit for AppSource. All apps that are listed on AppSource must complete a certification process. The level of rigor applied to the certification process depends on the type of submission you want to offer.
+
+Publishing an app involves the following steps:
+- Step 1:  
   
- If your app is a good fit, please proceed to the next step to submit your app. The specific process for this may change over time, but at the time this was written the process consists of a form where you will let us know about your app and how to contact you. After that, someone will contact you and help lead you through the process of registering your app.  
+ <!--If your app is a good fit, please proceed to the next step to submit your app. The specific process for this may change over time, but at the time this was written the process consists of a form where you will let us know about your app and how to contact you. After that, someone will contact you and help lead you through the process of registering your app.  
   
- All apps that are listed on AppSource must complete a certification process. The level of rigor applied to the certification process depends on the type of submission you want to offer.  
+   
   
  When potential customers click on the listing for your app on AppSource there are different experiences they may have depending on how your app is registered. There are three submission types: *hosted*, *partner-led* and *customer-led*.  
   
@@ -44,7 +46,7 @@ When you have created your app you can publish it through [Microsoft AppSource](
   
 -   Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package will be tested to make sure that it only uses supported extensibility methods as documented in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)].  
   
--   With your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package you will need to provide a number of test cases and use cases which will be reviewed as part of the certification process.  
+-   With your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package you will need to provide a number of test cases and use cases which will be reviewed as part of the certification process.-->  
   
 ### See also  
  [Video: Microsoft AppSource: find the right app for your business](https://youtu.be/hpq_Y9LuIB8)   
