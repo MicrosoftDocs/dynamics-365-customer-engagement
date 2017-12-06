@@ -1,5 +1,5 @@
 ---
-title: "Export data from Dynamics 365 for Marketing | Microsoft Docs"
+title: "Export data (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to export data to a Microsoft Word or Excel document from Dynamics 365 for Marketing"
 keywords: "Word; Excel; export; template"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Export [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data to [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] or [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] docs
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can export [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data to a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] or [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template to create standardized documents that you can share with people who don't use [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
