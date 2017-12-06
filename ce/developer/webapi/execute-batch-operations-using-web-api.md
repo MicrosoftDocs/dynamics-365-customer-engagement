@@ -202,7 +202,7 @@ Prefer: odata.include-annotations="*"
   
 --batch_AAA123-- 
 ```
-For more information on preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] on preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
 
 ### See also
 
