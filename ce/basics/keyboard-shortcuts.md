@@ -13,9 +13,7 @@ ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
 
-[!INCLUDE[cc-applies-to-update-8-2-0]
-(../includes/cc_applies_to_update_9_0_0.md)]
-
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)
 
 Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface.
 
@@ -27,7 +25,7 @@ Keyboard shortcuts give you an alternate way to do common tasks, instead of usin
 The keyboard shortcuts in this topic apply to all Dynamics 365 applications. 
 
 
-[Unified Service Desk](../unified-service-desk/accessibility-unified-service-desk-microsoft-dynamics-365.md)
+[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
 
