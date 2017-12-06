@@ -1,7 +1,7 @@
 ---
 title: "MailboxStatistics Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the MailboxStatistics entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # MailboxStatistics Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Stores data regarding Mailbox processing cycles
 
@@ -27,17 +25,20 @@ Stores data regarding Mailbox processing cycles
 
 ## Entity Properties
 
-**DisplayName**: Mailbox Statistics<br />
-**DisplayCollectionName**: Mailbox Statistics<br />
-**SchemaName**: MailboxStatistics<br />
-**CollectionSchemaName**: MailboxStatistics<br />
-**LogicalName**: mailboxstatistics<br />
-**LogicalCollectionName**: mailboxstatistics<br />
-**EntitySetName**: mailboxstatistics<br />
-**PrimaryIdAttribute**: mailboxstatisticsid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|MailboxStatistics|
+|DisplayCollectionName|Mailbox Statistics|
+|DisplayName|Mailbox Statistics|
+|EntitySetName|mailboxstatistics|
+|IsBPFEntity|False|
+|LogicalCollectionName|mailboxstatistics|
+|LogicalName|mailboxstatistics|
+|OwnershipType|None|
+|PrimaryIdAttribute|mailboxstatisticsid|
+|PrimaryNameAttribute||
+|SchemaName|MailboxStatistics|
+
 <a name="read-only-attributes"></a>
 ## Read-only attributes
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
@@ -62,219 +63,258 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_AsyncEventId"></a> AsyncEventId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Async Event Id<br />
-**LogicalName**: asynceventid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Async Event Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|asynceventid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_CrmItemsBacklog"></a> CrmItemsBacklog
 
-**Description**: Items remaining in CRM to process after this synchronization cycle.<br />
-**DisplayName**: Items in CRM Left to Process<br />
-**LogicalName**: crmitemsbacklog<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Items remaining in CRM to process after this synchronization cycle.|
+|DisplayName|Items in CRM Left to Process|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|crmitemsbacklog|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IndividualStepDurations"></a> IndividualStepDurations
 
-**Description**: Time each exchange sync step is taking<br />
-**DisplayName**: Individual Step Durations<br />
-**LogicalName**: individualstepdurations<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Time each exchange sync step is taking|
+|DisplayName|Individual Step Durations|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|individualstepdurations|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ItemsFailed"></a> ItemsFailed
 
-**Description**: Number of items processed unsuccessfully.<br />
-**DisplayName**: Items Failed<br />
-**LogicalName**: itemsfailed<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Number of items processed unsuccessfully.|
+|DisplayName|Items Failed|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|itemsfailed|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ItemsProcessed"></a> ItemsProcessed
 
-**Description**: Number of items processed.<br />
-**DisplayName**: Items Processed<br />
-**LogicalName**: itemsprocessed<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Number of items processed.|
+|DisplayName|Items Processed|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|itemsprocessed|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_MachineName"></a> MachineName
 
-**Description**: Name of Machine on which mailbox was processed<br />
-**DisplayName**: Machine Name<br />
-**LogicalName**: machinename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Name of Machine on which mailbox was processed|
+|DisplayName|Machine Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|machinename|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_MailboxId"></a> MailboxId
 
-**Description**: Regarding Mailbox.<br />
-**DisplayName**: Regarding Mailbox<br />
-**LogicalName**: mailboxid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: mailbox
+|Property|Value|
+|--------|-----|
+|Description|Regarding Mailbox.|
+|DisplayName|Regarding Mailbox|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mailboxid|
+|RequiredLevel|SystemRequired|
+|Targets|mailbox|
+|Type|Lookup|
 
 
 ### <a name="BKMK_MailboxProcessCompletedOn"></a> MailboxProcessCompletedOn
 
-**Description**: Completion time of the synchronization cycle.<br />
-**DisplayName**: End Time for Processing<br />
-**LogicalName**: mailboxprocesscompletedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Completion time of the synchronization cycle.|
+|DisplayName|End Time for Processing|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mailboxprocesscompletedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_MailboxProcessScheduledOn"></a> MailboxProcessScheduledOn
 
-**Description**: Scheduled time of the synchronization cycle.<br />
-**DisplayName**: Scheduled Time for Processing<br />
-**LogicalName**: mailboxprocessscheduledon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Scheduled time of the synchronization cycle.|
+|DisplayName|Scheduled Time for Processing|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mailboxprocessscheduledon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_MailboxProcessStartedOn"></a> MailboxProcessStartedOn
 
-**Description**: Start time of the synchronization cycle.<br />
-**DisplayName**: Start Time for Processing<br />
-**LogicalName**: mailboxprocessstartedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Start time of the synchronization cycle.|
+|DisplayName|Start Time for Processing|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mailboxprocessstartedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_MailboxStatisticsId"></a> MailboxStatisticsId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: mailboxstatisticsid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mailboxstatisticsid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_OperationTypeId"></a> OperationTypeId
 
-**Description**: Type of the mailbox operation<br />
-**DisplayName**: Mailbox Operation Type<br />
-**LogicalName**: operationtypeid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Type of the mailbox operation|
+|DisplayName|Mailbox Operation Type|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|operationtypeid|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Incoming Email
-- **Value**: 1 **Label**: Outgoing Email
-- **Value**: 2 **Label**: ACT
+#### OperationTypeId Options
+
+|Value|Label|
+|-----|-----|
+|0|Incoming Email|
+|1|Outgoing Email|
+|2|ACT|
 
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier of the organization associated with the record.<br />
-**DisplayName**: Organization<br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: organization
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the organization associated with the record.|
+|DisplayName|Organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Targets|organization|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ProcessResult"></a> ProcessResult
 
-**Description**: Result of Mailbox processing cycle<br />
-**DisplayName**: Process Result<br />
-**LogicalName**: processresult<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Result of Mailbox processing cycle|
+|DisplayName|Process Result|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|processresult|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Success
-- **FalseOption Value**: 0 **Label**: Failure
+#### ProcessResult Options
+
+|Value|Label|
+|-----|-----|
+|1|Success|
+|0|Failure|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ProcessTimeIntervalInMinutes"></a> ProcessTimeIntervalInMinutes
 
-**Description**: Time it took to process the mailbox.<br />
-**DisplayName**: Process Duration<br />
-**LogicalName**: processtimeintervalinminutes<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Time it took to process the mailbox.|
+|DisplayName|Process Duration|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|processtimeintervalinminutes|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ScheduledTimeIntervalInMinutes"></a> ScheduledTimeIntervalInMinutes
 
-**Description**: Time it took from the scheduled time to the actual start time to process the mailbox.<br />
-**DisplayName**: Queue Duration<br />
-**LogicalName**: scheduledtimeintervalinminutes<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Time it took from the scheduled time to the actual start time to process the mailbox.|
+|DisplayName|Queue Duration|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|scheduledtimeintervalinminutes|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 <a name="manytoone"></a>
 
@@ -294,7 +334,7 @@ See organization Entity [organization_mailboxstatistics](organization.md#BKMK_or
 
 See mailbox Entity [mailbox_mailboxstatistics](mailbox.md#BKMK_mailbox_mailboxstatistics) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

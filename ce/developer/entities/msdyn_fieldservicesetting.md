@@ -1,7 +1,7 @@
 ---
 title: "msdyn_fieldservicesetting Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_fieldservicesetting entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # msdyn_fieldservicesetting Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Settings controlling functionality related to Field Service
 
@@ -39,17 +37,20 @@ Settings controlling functionality related to Field Service
 
 ## Entity Properties
 
-**DisplayName**: Field Service Setting<br />
-**DisplayCollectionName**: Field Service Settings<br />
-**SchemaName**: msdyn_fieldservicesetting<br />
-**CollectionSchemaName**: msdyn_fieldservicesettings<br />
-**LogicalName**: msdyn_fieldservicesetting<br />
-**LogicalCollectionName**: msdyn_fieldservicesettings<br />
-**EntitySetName**: msdyn_fieldservicesettings<br />
-**PrimaryIdAttribute**: msdyn_fieldservicesettingid<br />
-**PrimaryNameAttribute**: msdyn_name<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|msdyn_fieldservicesettings|
+|DisplayCollectionName|Field Service Settings|
+|DisplayName|Field Service Setting|
+|EntitySetName|msdyn_fieldservicesettings|
+|IsBPFEntity|False|
+|LogicalCollectionName|msdyn_fieldservicesettings|
+|LogicalName|msdyn_fieldservicesetting|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_fieldservicesettingid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_fieldservicesetting|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -144,1214 +145,1459 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Shows the sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows the sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_AdvancedSettings"></a> msdyn_AdvancedSettings
 
-**Description**: For internal use only.<br />
-**DisplayName**: Advanced Settings<br />
-**LogicalName**: msdyn_advancedsettings<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1048576
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Advanced Settings|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_advancedsettings|
+|MaxLength|1048576|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_AgreementPrefix"></a> msdyn_AgreementPrefix
 
-**Description**: <br />
-**DisplayName**: Agreement Prefix<br />
-**LogicalName**: msdyn_agreementprefix<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Agreement Prefix|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreementprefix|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AgreementStartingNumber"></a> msdyn_AgreementStartingNumber
 
-**Description**: <br />
-**DisplayName**: Agreement Starting Number<br />
-**LogicalName**: msdyn_agreementstartingnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Agreement Starting Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreementstartingnumber|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_AutoAllocateEstimatedProducts"></a> msdyn_AutoAllocateEstimatedProducts
 
-**Description**: If enabled then Allocated will be automatically set when entering a Work order Product with a Line Status of Estimate.<br />
-**DisplayName**: Auto Allocate Estimated Products<br />
-**LogicalName**: msdyn_autoallocateestimatedproducts<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|If enabled then Allocated will be automatically set when entering a Work order Product with a Line Status of Estimate.|
+|DisplayName|Auto Allocate Estimated Products|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_autoallocateestimatedproducts|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_AutoAllocateEstimatedProducts Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_AutoGenerateWOforAgreementBookings"></a> msdyn_AutoGenerateWOforAgreementBookings
 
-**Description**: <br />
-**DisplayName**: Auto Generate WO for Agreement Booking<br />
-**LogicalName**: msdyn_autogeneratewoforagreementbooking<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Auto Generate WO for Agreement Booking|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_autogeneratewoforagreementbooking|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_AutoGenerateWOforAgreementBookings Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_AutoGeoCodeAddresses"></a> msdyn_AutoGeoCodeAddresses
 
-**Description**: If set then the system will automatically geo code addresses when the address has been updated and the record is saved<br />
-**DisplayName**: Auto Geo Code Addresses<br />
-**LogicalName**: msdyn_autogeocodeaddresses<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|If set then the system will automatically geo code addresses when the address has been updated and the record is saved|
+|DisplayName|Auto Geo Code Addresses|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_autogeocodeaddresses|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_AutoGeoCodeAddresses Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_BookingAlertTemplate"></a> msdyn_BookingAlertTemplate
 
-**Description**: <br />
-**DisplayName**: Booking Alert Template (Deprecated)<br />
-**LogicalName**: msdyn_bookingalerttemplate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Booking Alert Template (Deprecated)|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookingalerttemplate|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_BreakPayType"></a> msdyn_BreakPayType
 
-**Description**: Default Pay Type to be used for Break hours<br />
-**DisplayName**: Break Pay Type<br />
-**LogicalName**: msdyn_breakpaytype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_resourcepaytype
+|Property|Value|
+|--------|-----|
+|Description|Default Pay Type to be used for Break hours|
+|DisplayName|Break Pay Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_breakpaytype|
+|RequiredLevel|None|
+|Targets|msdyn_resourcepaytype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_BusinessClosurePayType"></a> msdyn_BusinessClosurePayType
 
-**Description**: Default Pay Type to be used for business closure work hours<br />
-**DisplayName**: Business Closure Pay Type<br />
-**LogicalName**: msdyn_businessclosurepaytype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_resourcepaytype
+|Property|Value|
+|--------|-----|
+|Description|Default Pay Type to be used for business closure work hours|
+|DisplayName|Business Closure Pay Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_businessclosurepaytype|
+|RequiredLevel|None|
+|Targets|msdyn_resourcepaytype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_CancelCurrentSlotsWhenMoving"></a> msdyn_CancelCurrentSlotsWhenMoving
 
-**Description**: Select whether, when moving open slots to the next day, to leave the old slots and change their status to "Cancel."<br />
-**DisplayName**: Cancel Current Slots When Moving (Deprecated)<br />
-**LogicalName**: msdyn_cancelcurrentslotswhenmoving<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether, when moving open slots to the next day, to leave the old slots and change their status to "Cancel."|
+|DisplayName|Cancel Current Slots When Moving (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_cancelcurrentslotswhenmoving|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_CancelCurrentSlotsWhenMoving Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_CustomGPSData"></a> msdyn_CustomGPSData
 
-**Description**: If enabled system will use custom entity for its source of Geo Locations for resources to be displayed on map view<br />
-**DisplayName**: Custom GPS Data (Deprecated)<br />
-**LogicalName**: msdyn_customgpsdata<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|If enabled system will use custom entity for its source of Geo Locations for resources to be displayed on map view|
+|DisplayName|Custom GPS Data (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customgpsdata|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_CustomGPSData Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_CustomGPSLatitudefield"></a> msdyn_CustomGPSLatitudefield
 
-**Description**: Shows the logical name of the latitude field to be used for geolocations.<br />
-**DisplayName**: Custom GPS Latitude field (Deprecated)<br />
-**LogicalName**: msdyn_customgpslatitudefield<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Shows the logical name of the latitude field to be used for geolocations.|
+|DisplayName|Custom GPS Latitude field (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customgpslatitudefield|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_CustomGPSLocationentity"></a> msdyn_CustomGPSLocationentity
 
-**Description**: Shows the logical name of custom entity to be used for geolocations.<br />
-**DisplayName**: Custom GPS Location entity (Deprecated)<br />
-**LogicalName**: msdyn_customgpslocationentity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Shows the logical name of custom entity to be used for geolocations.|
+|DisplayName|Custom GPS Location entity (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customgpslocationentity|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_CustomGPSLongitudefield"></a> msdyn_CustomGPSLongitudefield
 
-**Description**: Shows the logical name of the longitude field to be used for geolocations.<br />
-**DisplayName**: Custom GPS Longitude field (Deprecated)<br />
-**LogicalName**: msdyn_customgpslongitudefield<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Shows the logical name of the longitude field to be used for geolocations.|
+|DisplayName|Custom GPS Longitude field (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customgpslongitudefield|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_CustomGPSResourcefield"></a> msdyn_CustomGPSResourcefield
 
-**Description**: Shows the logical name of the resource field to be used for geolocations.<br />
-**DisplayName**: Custom GPS Resource field (Deprecated)<br />
-**LogicalName**: msdyn_customgpsresourcefield<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Shows the logical name of the resource field to be used for geolocations.|
+|DisplayName|Custom GPS Resource field (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customgpsresourcefield|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_CustomGPSTimestampfield"></a> msdyn_CustomGPSTimestampfield
 
-**Description**: Shows the logical name of the timestamp field to be used for geolocations.<br />
-**DisplayName**: Custom GPS Timestamp field (Deprecated)<br />
-**LogicalName**: msdyn_customgpstimestampfield<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Shows the logical name of the timestamp field to be used for geolocations.|
+|DisplayName|Custom GPS Timestamp field (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customgpstimestampfield|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_DatabaseVersion"></a> msdyn_DatabaseVersion
 
-**Description**: For Internal Use<br />
-**DisplayName**: Database Version<br />
-**LogicalName**: msdyn_databaseversion<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|For Internal Use|
+|DisplayName|Database Version|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_databaseversion|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_DeactivateBookingWhenCanceled"></a> msdyn_DeactivateBookingWhenCanceled
 
-**Description**: Select whether the system should deactivate the resource booking when the system status is changed to "Canceled."<br />
-**DisplayName**: Deactivate Booking When Canceled<br />
-**LogicalName**: msdyn_deactivatebookingwhencanceled<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the system should deactivate the resource booking when the system status is changed to "Canceled."|
+|DisplayName|Deactivate Booking When Canceled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deactivatebookingwhencanceled|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_DeactivateBookingWhenCanceled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_DeactivateBookingWhenCompleted"></a> msdyn_DeactivateBookingWhenCompleted
 
-**Description**: Select whether the system should deactivate the resource booking when the system status is changed to "Completed."<br />
-**DisplayName**: Deactivate Booking When Completed<br />
-**LogicalName**: msdyn_deactivatebookingwhencompleted<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the system should deactivate the resource booking when the system status is changed to "Completed."|
+|DisplayName|Deactivate Booking When Completed|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deactivatebookingwhencompleted|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_DeactivateBookingWhenCompleted Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_DeactivateWorkOrderWhenCanceled"></a> msdyn_DeactivateWorkOrderWhenCanceled
 
-**Description**: Select whether the system should deactivate the work order when the system status is changed to "Closed - Canceled."<br />
-**DisplayName**: Deactivate Work Order When Canceled<br />
-**LogicalName**: msdyn_deactivateworkorderwhencanceled<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the system should deactivate the work order when the system status is changed to "Closed - Canceled."|
+|DisplayName|Deactivate Work Order When Canceled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deactivateworkorderwhencanceled|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_DeactivateWorkOrderWhenCanceled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_DeactivateWorkOrderWhenPosted"></a> msdyn_DeactivateWorkOrderWhenPosted
 
-**Description**: Select whether the system should deactivate the work order when the system status is changed to "Closed - Posted."<br />
-**DisplayName**: Deactivate Work Order When Posted<br />
-**LogicalName**: msdyn_deactivateworkorderwhenposted<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the system should deactivate the work order when the system status is changed to "Closed - Posted."|
+|DisplayName|Deactivate Work Order When Posted|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_deactivateworkorderwhenposted|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_DeactivateWorkOrderWhenPosted Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_msdyn_DefaultBookingDuration"></a> msdyn_DefaultBookingDuration
 
-**Description**: <br />
-**DisplayName**: Default Booking Duration (Deprecated)<br />
-**LogicalName**: msdyn_defaultbookingduration<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: Duration<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Default Booking Duration (Deprecated)|
+|Format|Duration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultbookingduration|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_DefaultCanceledBookingStatus"></a> msdyn_DefaultCanceledBookingStatus
 
-**Description**: <br />
-**DisplayName**: Default Canceled Booking Status (Deprecated)<br />
-**LogicalName**: msdyn_defaultcanceledbookingstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: bookingstatus
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Default Canceled Booking Status (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultcanceledbookingstatus|
+|RequiredLevel|None|
+|Targets|bookingstatus|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_DefaultRadiusUnit"></a> msdyn_DefaultRadiusUnit
 
-**Description**: <br />
-**DisplayName**: Default Radius Unit (Deprecated)<br />
-**LogicalName**: msdyn_defaultradiusunit<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Default Radius Unit (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultradiusunit|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: mi
-- **FalseOption Value**: 0 **Label**: km
+#### msdyn_DefaultRadiusUnit Options
+
+|Value|Label|
+|-----|-----|
+|1|mi|
+|0|km|
 
 **DefaultValue**: True
 
 
+
 ### <a name="BKMK_msdyn_DefaultRadiusValue"></a> msdyn_DefaultRadiusValue
 
-**Description**: <br />
-**DisplayName**: Default Radius Value (Deprecated)<br />
-**LogicalName**: msdyn_defaultradiusvalue<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Default Radius Value (Deprecated)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultradiusvalue|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_DefaultScheduledBookingStatus"></a> msdyn_DefaultScheduledBookingStatus
 
-**Description**: <br />
-**DisplayName**: Default Scheduled Booking Status (Deprecated)<br />
-**LogicalName**: msdyn_defaultscheduledbookingstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: bookingstatus
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Default Scheduled Booking Status (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultscheduledbookingstatus|
+|RequiredLevel|None|
+|Targets|bookingstatus|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_DefaultWarehouse"></a> msdyn_DefaultWarehouse
 
-**Description**: Shows the warehouse associated with the field service setting.<br />
-**DisplayName**: Default Warehouse<br />
-**LogicalName**: msdyn_defaultwarehouse<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_warehouse
+|Property|Value|
+|--------|-----|
+|Description|Shows the warehouse associated with the field service setting.|
+|DisplayName|Default Warehouse|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultwarehouse|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_warehouse|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_DefaultWorkOrderCompletedStatus"></a> msdyn_DefaultWorkOrderCompletedStatus
 
-**Description**: Select whether the default work order completed status is either "Completed" or "Posted."<br />
-**DisplayName**: Default Work Order Completed Status<br />
-**LogicalName**: msdyn_defaultworkordercompletedstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the default work order completed status is either "Completed" or "Posted."|
+|DisplayName|Default Work Order Completed Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultworkordercompletedstatus|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Open - Unscheduled
-- **Value**: 690970001 **Label**: Open - Scheduled
-- **Value**: 690970002 **Label**: Open - In Progress
-- **Value**: 690970003 **Label**: Open - Completed
-- **Value**: 690970004 **Label**: Closed - Posted
-- **Value**: 690970005 **Label**: Closed - Canceled
+#### msdyn_DefaultWorkOrderCompletedStatus Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Open - Unscheduled|
+|690970001|Open - Scheduled|
+|690970002|Open - In Progress|
+|690970003|Open - Completed|
+|690970004|Closed - Posted|
+|690970005|Closed - Canceled|
 
 
 
 ### <a name="BKMK_msdyn_EnableLegacyScheduleAssistant"></a> msdyn_EnableLegacyScheduleAssistant
 
-**Description**: <br />
-**DisplayName**: Enable Legacy Schedule Assistant<br />
-**LogicalName**: msdyn_enablelegacyscheduleassistant<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Enable Legacy Schedule Assistant|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enablelegacyscheduleassistant|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_EnableLegacyScheduleAssistant Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_msdyn_EntityNumberLength"></a> msdyn_EntityNumberLength
 
-**Description**: <br />
-**DisplayName**: Entity Number Length<br />
-**LogicalName**: msdyn_entitynumberlength<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 10<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Entity Number Length|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_entitynumberlength|
+|MaxValue|10|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_fieldservicesettingId"></a> msdyn_fieldservicesettingId
 
-**Description**: Shows the entity instances.<br />
-**DisplayName**: Field Service Setting<br />
-**LogicalName**: msdyn_fieldservicesettingid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the entity instances.|
+|DisplayName|Field Service Setting|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_fieldservicesettingid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_GenerateAgreementInvoicesXDaysInAdvance"></a> msdyn_GenerateAgreementInvoicesXDaysInAdvance
 
-**Description**: <br />
-**DisplayName**: Generate Agreement Invoices X Days In Advance<br />
-**LogicalName**: msdyn_generateagreementinvoicesxdaysinadvance<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Generate Agreement Invoices X Days In Advance|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_generateagreementinvoicesxdaysinadvance|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_GenerateAgreementWOXDaysInAdvance"></a> msdyn_GenerateAgreementWOXDaysInAdvance
 
-**Description**: Specify default how many days in advance of the Agreement Booking Date the system should automatically generate a Work Order<br />
-**DisplayName**: Generate Agreement WO X Days In Advance<br />
-**LogicalName**: msdyn_generateagreementwoxdaysinadvance<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Specify default how many days in advance of the Agreement Booking Date the system should automatically generate a Work Order|
+|DisplayName|Generate Agreement WO X Days In Advance|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_generateagreementwoxdaysinadvance|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_GenerateBookingDatesXMonthsInAdvance"></a> msdyn_GenerateBookingDatesXMonthsInAdvance
 
-**Description**: <br />
-**DisplayName**: Generate Booking Dates X Months In Advance<br />
-**LogicalName**: msdyn_generatebookingdatesxmonthsinadvance<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Generate Booking Dates X Months In Advance|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_generatebookingdatesxmonthsinadvance|
+|MaxValue|2147483647|
+|MinValue|1|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_GenerateInvoiceDatesXMonthsInAdvance"></a> msdyn_GenerateInvoiceDatesXMonthsInAdvance
 
-**Description**: <br />
-**DisplayName**: Generate Invoice Dates X Months In Advance<br />
-**LogicalName**: msdyn_generateinvoicedatesxmonthsinadvance<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Generate Invoice Dates X Months In Advance|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_generateinvoicedatesxmonthsinadvance|
+|MaxValue|2147483647|
+|MinValue|1|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_GPSLocationExpiresAfterXMinutes"></a> msdyn_GPSLocationExpiresAfterXMinutes
 
-**Description**: <br />
-**DisplayName**: GPS Location Expires After X Minutes (Deprecated)<br />
-**LogicalName**: msdyn_gpslocationexpiresafterxminutes<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: Duration<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|GPS Location Expires After X Minutes (Deprecated)|
+|Format|Duration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_gpslocationexpiresafterxminutes|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_InventoryAdjustmentPrefix"></a> msdyn_InventoryAdjustmentPrefix
 
-**Description**: Shows the prefix to be added to the inventory adjustment numbers.<br />
-**DisplayName**: Inventory Adjustment Prefix<br />
-**LogicalName**: msdyn_inventoryadjustmentprefix<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 25
+|Property|Value|
+|--------|-----|
+|Description|Shows the prefix to be added to the inventory adjustment numbers.|
+|DisplayName|Inventory Adjustment Prefix|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_inventoryadjustmentprefix|
+|MaxLength|25|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_InventoryAdjustmentStartingNumber"></a> msdyn_InventoryAdjustmentStartingNumber
 
-**Description**: Shows the number to be used as the starting number for inventory adjustments.<br />
-**DisplayName**: Inventory Adjustment Starting Number<br />
-**LogicalName**: msdyn_inventoryadjustmentstartingnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Shows the number to be used as the starting number for inventory adjustments.|
+|DisplayName|Inventory Adjustment Starting Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_inventoryadjustmentstartingnumber|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_InventoryTransferPrefix"></a> msdyn_InventoryTransferPrefix
 
-**Description**: Shows the prefix to be added to the inventory transfer numbers.<br />
-**DisplayName**: Inventory Transfer Prefix<br />
-**LogicalName**: msdyn_inventorytransferprefix<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 25
+|Property|Value|
+|--------|-----|
+|Description|Shows the prefix to be added to the inventory transfer numbers.|
+|DisplayName|Inventory Transfer Prefix|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_inventorytransferprefix|
+|MaxLength|25|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_InventoryTransferStartingNumber"></a> msdyn_InventoryTransferStartingNumber
 
-**Description**: Shows the number to be used as the starting number for inventory transfers.<br />
-**DisplayName**: Inventory Transfer Starting Number<br />
-**LogicalName**: msdyn_inventorytransferstartingnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Shows the number to be used as the starting number for inventory transfers.|
+|DisplayName|Inventory Transfer Starting Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_inventorytransferstartingnumber|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
-**Description**: Enter the name of the custom entity.<br />
-**DisplayName**: Name<br />
-**LogicalName**: msdyn_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Enter the name of the custom entity.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_name|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_NotificationTimeout"></a> msdyn_NotificationTimeout
 
-**Description**: <br />
-**DisplayName**: Notification Timeout (In sec) (Deprecated)<br />
-**LogicalName**: msdyn_notificationtimeout<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Notification Timeout (In sec) (Deprecated)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_notificationtimeout|
+|MaxValue|2147483647|
+|MinValue|1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_OvertimePayType"></a> msdyn_OvertimePayType
 
-**Description**: Default Pay Type to be used for overtime work hours<br />
-**DisplayName**: Overtime Pay Type<br />
-**LogicalName**: msdyn_overtimepaytype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_resourcepaytype
+|Property|Value|
+|--------|-----|
+|Description|Default Pay Type to be used for overtime work hours|
+|DisplayName|Overtime Pay Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_overtimepaytype|
+|RequiredLevel|None|
+|Targets|msdyn_resourcepaytype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_PostponeNumberCleanupUntil"></a> msdyn_PostponeNumberCleanupUntil
 
-**Description**: Shows the date when cleanup of unique numbers will occur.<br />
-**DisplayName**: Postpone Number Cleanup Until<br />
-**LogicalName**: msdyn_postponenumbercleanupuntil<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: TimeZoneIndependent<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|TimeZoneIndependent|
+|Description|Shows the date when cleanup of unique numbers will occur.|
+|DisplayName|Postpone Number Cleanup Until|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postponenumbercleanupuntil|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_ProductCostOrder"></a> msdyn_ProductCostOrder
 
-**Description**: <br />
-**DisplayName**: Product Cost Order<br />
-**LogicalName**: msdyn_productcostorder<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Product Cost Order|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_productcostorder|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Standard/Current
-- **Value**: 690970001 **Label**: Current/Standard
+#### msdyn_ProductCostOrder Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Standard/Current|
+|690970001|Current/Standard|
 
 
 
 ### <a name="BKMK_msdyn_PurchaseOrderApprovalRequired"></a> msdyn_PurchaseOrderApprovalRequired
 
-**Description**: Enable if a Purchase Order requires approval in order for the status to be changed to Submitted<br />
-**DisplayName**: Purchase Order Approval Required<br />
-**LogicalName**: msdyn_purchaseorderapprovalrequired<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Enable if a Purchase Order requires approval in order for the status to be changed to Submitted|
+|DisplayName|Purchase Order Approval Required|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_purchaseorderapprovalrequired|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_PurchaseOrderApprovalRequired Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_PurchaseOrderPrefix"></a> msdyn_PurchaseOrderPrefix
 
-**Description**: Shows the prefix to be added to the purchase order numbers.<br />
-**DisplayName**: Purchase Order Prefix<br />
-**LogicalName**: msdyn_purchaseorderprefix<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 25
+|Property|Value|
+|--------|-----|
+|Description|Shows the prefix to be added to the purchase order numbers.|
+|DisplayName|Purchase Order Prefix|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_purchaseorderprefix|
+|MaxLength|25|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PurchaseOrderStartingNumber"></a> msdyn_PurchaseOrderStartingNumber
 
-**Description**: Shows the number to be used as starting number for the automatically generated purchase order number.<br />
-**DisplayName**: Purchase Order Starting Number<br />
-**LogicalName**: msdyn_purchaseorderstartingnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Shows the number to be used as starting number for the automatically generated purchase order number.|
+|DisplayName|Purchase Order Starting Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_purchaseorderstartingnumber|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_ResourcesSynchronizationTimeout"></a> msdyn_ResourcesSynchronizationTimeout
 
-**Description**: <br />
-**DisplayName**: Resources Synchronization Timeout (Deprecated)<br />
-**LogicalName**: msdyn_resourcessynchronizationtimeout<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Resources Synchronization Timeout (Deprecated)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourcessynchronizationtimeout|
+|MaxValue|2147483647|
+|MinValue|1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_RMAPrefix"></a> msdyn_RMAPrefix
 
-**Description**: <br />
-**DisplayName**: RMA Prefix<br />
-**LogicalName**: msdyn_rmaprefix<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|RMA Prefix|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_rmaprefix|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_RMAStartingNumber"></a> msdyn_RMAStartingNumber
 
-**Description**: Shows the number to be used as the starting number for the automatically generation RMA number.<br />
-**DisplayName**: RMA Starting Number<br />
-**LogicalName**: msdyn_rmastartingnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Shows the number to be used as the starting number for the automatically generation RMA number.|
+|DisplayName|RMA Starting Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_rmastartingnumber|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_RTVPrefix"></a> msdyn_RTVPrefix
 
-**Description**: <br />
-**DisplayName**: RTV Prefix<br />
-**LogicalName**: msdyn_rtvprefix<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|RTV Prefix|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_rtvprefix|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_RTVStartingNumber"></a> msdyn_RTVStartingNumber
 
-**Description**: Shows the number to be used as the starting number for the automatically generated RTV number.<br />
-**DisplayName**: RTV Starting Number<br />
-**LogicalName**: msdyn_rtvstartingnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Shows the number to be used as the starting number for the automatically generated RTV number.|
+|DisplayName|RTV Starting Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_rtvstartingnumber|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_SAAutoFilterServiceTerritory"></a> msdyn_SAAutoFilterServiceTerritory
 
-**Description**: Select whether the schedule assistant should automatically filter the results based on the territory set on the work order.<br />
-**DisplayName**: Auto Filter Service Territory (Deprecated)<br />
-**LogicalName**: msdyn_saautofilterserviceterritory<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the schedule assistant should automatically filter the results based on the territory set on the work order.|
+|DisplayName|Auto Filter Service Territory (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_saautofilterserviceterritory|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_SAAutoFilterServiceTerritory Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_SchedulerBusinessUnitDetailsView"></a> msdyn_SchedulerBusinessUnitDetailsView
 
-**Description**: <br />
-**DisplayName**: Scheduler Business Unit Details View (Deprecated)<br />
-**LogicalName**: msdyn_schedulerbusinessunitdetailsview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Business Unit Details View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerbusinessunitdetailsview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerBusinessUnitTooltipView"></a> msdyn_SchedulerBusinessUnitTooltipView
 
-**Description**: <br />
-**DisplayName**: Scheduler Business Unit Tooltip View (Deprecated)<br />
-**LogicalName**: msdyn_schedulerbusinessunittooltipview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Business Unit Tooltip View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerbusinessunittooltipview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerCoreDetailsView"></a> msdyn_SchedulerCoreDetailsView
 
-**Description**: <br />
-**DisplayName**: Scheduler Core Details View (Deprecated)<br />
-**LogicalName**: msdyn_schedulercoredetailsview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Core Details View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulercoredetailsview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerCoreSlotTextTemplate"></a> msdyn_SchedulerCoreSlotTextTemplate
 
-**Description**: <br />
-**DisplayName**: Scheduler Core Slot Text Template (Deprecated)<br />
-**LogicalName**: msdyn_schedulercoreslottexttemplate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 5000
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Core Slot Text Template (Deprecated)|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulercoreslottexttemplate|
+|MaxLength|5000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_SchedulerCoreTooltipView"></a> msdyn_SchedulerCoreTooltipView
 
-**Description**: <br />
-**DisplayName**: Scheduler Core Tooltip View (Deprecated)<br />
-**LogicalName**: msdyn_schedulercoretooltipview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Core Tooltip View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulercoretooltipview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerFieldServiceDetailsView"></a> msdyn_SchedulerFieldServiceDetailsView
 
-**Description**: <br />
-**DisplayName**: Scheduler Field Service Details View (Deprecated)<br />
-**LogicalName**: msdyn_schedulerfieldservicedetailsview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Field Service Details View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerfieldservicedetailsview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerFieldServiceSlotTextTemplate"></a> msdyn_SchedulerFieldServiceSlotTextTemplate
 
-**Description**: <br />
-**DisplayName**: Scheduler Field Service Slot Text Template (Deprecated)<br />
-**LogicalName**: msdyn_schedulerfieldserviceslottexttemplate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 5000
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Field Service Slot Text Template (Deprecated)|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerfieldserviceslottexttemplate|
+|MaxLength|5000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_SchedulerFieldServiceTooltipView"></a> msdyn_SchedulerFieldServiceTooltipView
 
-**Description**: <br />
-**DisplayName**: Scheduler Field Service Tooltip View (Deprecated)<br />
-**LogicalName**: msdyn_schedulerfieldservicetooltipview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Field Service Tooltip View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerfieldservicetooltipview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerResourceDetailsView"></a> msdyn_SchedulerResourceDetailsView
 
-**Description**: <br />
-**DisplayName**: Scheduler Resource Details View (Deprecated)<br />
-**LogicalName**: msdyn_schedulerresourcedetailsview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Resource Details View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerresourcedetailsview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerResourceTooltipView"></a> msdyn_SchedulerResourceTooltipView
 
-**Description**: <br />
-**DisplayName**: Scheduler Resource Tooltip View (Deprecated)<br />
-**LogicalName**: msdyn_schedulerresourcetooltipview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Resource Tooltip View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerresourcetooltipview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerUnscheduledView"></a> msdyn_SchedulerUnscheduledView
 
-**Description**: <br />
-**DisplayName**: Scheduler Unscheduled View (Deprecated)<br />
-**LogicalName**: msdyn_schedulerunscheduledview<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Scheduler Unscheduled View (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_schedulerunscheduledview|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_sdkapimapkey"></a> msdyn_sdkapimapkey
 
-**Description**: Api key for map<br />
-**DisplayName**: Bing API Key (Deprecated)<br />
-**LogicalName**: msdyn_sdkapimapkey<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Api key for map|
+|DisplayName|Bing API Key (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_sdkapimapkey|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TravelChargeItemId"></a> msdyn_TravelChargeItemId
 
-**Description**: Product/Service to be used by the system for Travel Charges on Work Orders<br />
-**DisplayName**: Travel Charge Item<br />
-**LogicalName**: msdyn_travelchargeitemid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: product
+|Property|Value|
+|--------|-----|
+|Description|Product/Service to be used by the system for Travel Charges on Work Orders|
+|DisplayName|Travel Charge Item|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_travelchargeitemid|
+|RequiredLevel|None|
+|Targets|product|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TravelPayType"></a> msdyn_TravelPayType
 
-**Description**: Default Pay Type to be used for Travel hours<br />
-**DisplayName**: Travel Pay Type<br />
-**LogicalName**: msdyn_travelpaytype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_resourcepaytype
+|Property|Value|
+|--------|-----|
+|Description|Default Pay Type to be used for Travel hours|
+|DisplayName|Travel Pay Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_travelpaytype|
+|RequiredLevel|None|
+|Targets|msdyn_resourcepaytype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TravelTimeRescheduling"></a> msdyn_TravelTimeRescheduling
 
-**Description**: <br />
-**DisplayName**: Travel Time Rescheduling (Deprecated)<br />
-**LogicalName**: msdyn_traveltimerescheduling<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Travel Time Rescheduling (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_traveltimerescheduling|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_TravelTimeRescheduling Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_msdyn_UndefinedBookingLocation"></a> msdyn_UndefinedBookingLocation
 
-**Description**: Location for schedules where geo code info has not been defined<br />
-**DisplayName**: Undefined Booking Location (Deprecated)<br />
-**LogicalName**: msdyn_undefinedbookinglocation<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Location for schedules where geo code info has not been defined|
+|DisplayName|Undefined Booking Location (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_undefinedbookinglocation|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Previous Known Location
-- **Value**: 690970001 **Label**: Ignore Location
+#### msdyn_UndefinedBookingLocation Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Previous Known Location|
+|690970001|Ignore Location|
 
 
 
 ### <a name="BKMK_msdyn_UnscheduledWOTooltipsViewId"></a> msdyn_UnscheduledWOTooltipsViewId
 
-**Description**: <br />
-**DisplayName**: Unscheduled WO Tooltips View Id (Deprecated)<br />
-**LogicalName**: msdyn_unscheduledwotooltipsviewid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Unscheduled WO Tooltips View Id (Deprecated)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_unscheduledwotooltipsviewid|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_UseofProductsOutofStock"></a> msdyn_UseofProductsOutofStock
 
-**Description**: Specify how the system should react when trying to use products that are out of stock.<br />
-**DisplayName**: Use of Products Out of Stock<br />
-**LogicalName**: msdyn_useofproductsoutofstock<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Specify how the system should react when trying to use products that are out of stock.|
+|DisplayName|Use of Products Out of Stock|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_useofproductsoutofstock|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Confirm
-- **Value**: 690970001 **Label**: Restrict
+#### msdyn_UseofProductsOutofStock Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Confirm|
+|690970001|Restrict|
 
 
 
 ### <a name="BKMK_msdyn_WorkOrderInvoiceCreation"></a> msdyn_WorkOrderInvoiceCreation
 
-**Description**: Specify whether the system should automatically generate an invoice for work orders.<br />
-**DisplayName**: Work Order Invoice Creation<br />
-**LogicalName**: msdyn_workorderinvoicecreation<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Specify whether the system should automatically generate an invoice for work orders.|
+|DisplayName|Work Order Invoice Creation|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workorderinvoicecreation|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Never
-- **Value**: 690970001 **Label**: On Work Order Posted
+#### msdyn_WorkOrderInvoiceCreation Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Never|
+|690970001|On Work Order Posted|
 
 
 
 ### <a name="BKMK_msdyn_WorkOrderPrefix"></a> msdyn_WorkOrderPrefix
 
-**Description**: <br />
-**DisplayName**: Work Order Prefix<br />
-**LogicalName**: msdyn_workorderprefix<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Work Order Prefix|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workorderprefix|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_WorkOrderStartingNumber"></a> msdyn_WorkOrderStartingNumber
 
-**Description**: <br />
-**DisplayName**: Work Order Starting Number<br />
-**LogicalName**: msdyn_workorderstartingnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Work Order Starting Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workorderstartingnumber|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_WorkPayType"></a> msdyn_WorkPayType
 
-**Description**: Default Pay Type to be used for regular work hours<br />
-**DisplayName**: Work Pay Type<br />
-**LogicalName**: msdyn_workpaytype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_resourcepaytype
+|Property|Value|
+|--------|-----|
+|Description|Default Pay Type to be used for regular work hours|
+|DisplayName|Work Pay Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workpaytype|
+|RequiredLevel|None|
+|Targets|msdyn_resourcepaytype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Shows the date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Owner Id<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_statecode"></a> statecode
 
-**Description**: Status of the Field Service Setting<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Status of the Field Service Setting|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### statecode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
-**Description**: Shows the reason for the status of the field service setting.<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows the reason for the status of the field service setting.|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### statuscode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Shows the time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Shows the time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -1390,391 +1636,449 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who modified the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who last updated the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_BreakPayTypeName"></a> msdyn_BreakPayTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_breakpaytypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_breakpaytypename|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_BusinessClosurePayTypeName"></a> msdyn_BusinessClosurePayTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_businessclosurepaytypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_businessclosurepaytypename|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_DefaultCanceledBookingStatusName"></a> msdyn_DefaultCanceledBookingStatusName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_defaultcanceledbookingstatusname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultcanceledbookingstatusname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_DefaultScheduledBookingStatusName"></a> msdyn_DefaultScheduledBookingStatusName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_defaultscheduledbookingstatusname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultscheduledbookingstatusname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_DefaultWarehouseName"></a> msdyn_DefaultWarehouseName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_defaultwarehousename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_defaultwarehousename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_OvertimePayTypeName"></a> msdyn_OvertimePayTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_overtimepaytypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_overtimepaytypename|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TravelChargeItemIdName"></a> msdyn_TravelChargeItemIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_travelchargeitemidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_travelchargeitemidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TravelPayTypeName"></a> msdyn_TravelPayTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_travelpaytypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_travelpaytypename|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_WorkPayTypeName"></a> msdyn_WorkPayTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_workpaytypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_workpaytypename|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: Yomi name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1807,521 +2111,281 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_fieldservicesetting_ActivityPointers"></a> msdyn_fieldservicesetting_ActivityPointers
 
 Same as activitypointer entity [msdyn_fieldservicesetting_ActivityPointers](activitypointer.md#BKMK_msdyn_fieldservicesetting_ActivityPointers) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_ActivityPointers<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_ActivityPointers|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_msdyn_approvals"></a> msdyn_fieldservicesetting_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_fieldservicesetting_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_fieldservicesetting_msdyn_approvals) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_msdyn_approvals<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_msdyn_bookingalerts"></a> msdyn_fieldservicesetting_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_fieldservicesetting_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_fieldservicesetting_msdyn_bookingalerts) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_msdyn_bookingalerts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_msdyn_bookingalerts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_SyncErrors"></a> msdyn_fieldservicesetting_SyncErrors
 
 Same as syncerror entity [msdyn_fieldservicesetting_SyncErrors](syncerror.md#BKMK_msdyn_fieldservicesetting_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_AsyncOperations"></a> msdyn_fieldservicesetting_AsyncOperations
 
 Same as asyncoperation entity [msdyn_fieldservicesetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_fieldservicesetting_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_MailboxTrackingFolders"></a> msdyn_fieldservicesetting_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_fieldservicesetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_fieldservicesetting_MailboxTrackingFolders) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_MailboxTrackingFolders<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_MailboxTrackingFolders|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_UserEntityInstanceDatas"></a> msdyn_fieldservicesetting_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_fieldservicesetting_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_fieldservicesetting_UserEntityInstanceDatas) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_UserEntityInstanceDatas<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_UserEntityInstanceDatas|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_ProcessSession"></a> msdyn_fieldservicesetting_ProcessSession
 
 Same as processsession entity [msdyn_fieldservicesetting_ProcessSession](processsession.md#BKMK_msdyn_fieldservicesetting_ProcessSession) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_ProcessSession<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_ProcessSession|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_BulkDeleteFailures"></a> msdyn_fieldservicesetting_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_fieldservicesetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_fieldservicesetting_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses"></a> msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Appointments"></a> msdyn_fieldservicesetting_Appointments
 
 Same as appointment entity [msdyn_fieldservicesetting_Appointments](appointment.md#BKMK_msdyn_fieldservicesetting_Appointments) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_Appointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_Appointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Emails"></a> msdyn_fieldservicesetting_Emails
 
 Same as email entity [msdyn_fieldservicesetting_Emails](email.md#BKMK_msdyn_fieldservicesetting_Emails) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_Emails<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_Emails|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Faxes"></a> msdyn_fieldservicesetting_Faxes
 
 Same as fax entity [msdyn_fieldservicesetting_Faxes](fax.md#BKMK_msdyn_fieldservicesetting_Faxes) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_Faxes<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_Faxes|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Letters"></a> msdyn_fieldservicesetting_Letters
 
 Same as letter entity [msdyn_fieldservicesetting_Letters](letter.md#BKMK_msdyn_fieldservicesetting_Letters) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_Letters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_Letters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_PhoneCalls"></a> msdyn_fieldservicesetting_PhoneCalls
 
 Same as phonecall entity [msdyn_fieldservicesetting_PhoneCalls](phonecall.md#BKMK_msdyn_fieldservicesetting_PhoneCalls) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_PhoneCalls<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_PhoneCalls|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Tasks"></a> msdyn_fieldservicesetting_Tasks
 
 Same as task entity [msdyn_fieldservicesetting_Tasks](task.md#BKMK_msdyn_fieldservicesetting_Tasks) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_Tasks<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_Tasks|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_RecurringAppointmentMasters"></a> msdyn_fieldservicesetting_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_fieldservicesetting_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_fieldservicesetting_RecurringAppointmentMasters) Many-To-One relationship.
-
-**ReferencingEntity**: recurringappointmentmaster<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_RecurringAppointmentMasters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|recurringappointmentmaster|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_RecurringAppointmentMasters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_SocialActivities"></a> msdyn_fieldservicesetting_SocialActivities
 
 Same as socialactivity entity [msdyn_fieldservicesetting_SocialActivities](socialactivity.md#BKMK_msdyn_fieldservicesetting_SocialActivities) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_SocialActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_SocialActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Annotations"></a> msdyn_fieldservicesetting_Annotations
 
 Same as annotation entity [msdyn_fieldservicesetting_Annotations](annotation.md#BKMK_msdyn_fieldservicesetting_Annotations) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_Annotations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_Annotations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_ServiceAppointments"></a> msdyn_fieldservicesetting_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_fieldservicesetting_ServiceAppointments](serviceappointment.md#BKMK_msdyn_fieldservicesetting_ServiceAppointments) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_fieldservicesetting_ServiceAppointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_ServiceAppointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 <a name="manytoone"></a>
 
@@ -2411,7 +2475,7 @@ See msdyn_warehouse Entity [msdyn_msdyn_warehouse_msdyn_fieldservicesetting_Defa
 
 See product Entity [msdyn_product_msdyn_fieldservicesetting](product.md#BKMK_msdyn_product_msdyn_fieldservicesetting) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

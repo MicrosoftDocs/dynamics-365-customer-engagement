@@ -1,7 +1,7 @@
 ---
 title: "OrgInsightsNotification Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the OrgInsightsNotification entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # OrgInsightsNotification Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Stores data regarding organization insights notification
 
@@ -27,17 +25,20 @@ Stores data regarding organization insights notification
 
 ## Entity Properties
 
-**DisplayName**: Organization Insights Notification<br />
-**DisplayCollectionName**: Organization Insights Notification<br />
-**SchemaName**: OrgInsightsNotification<br />
-**CollectionSchemaName**: OrgInsightsNotifications<br />
-**LogicalName**: orginsightsnotification<br />
-**LogicalCollectionName**: orginsightsnotifications<br />
-**EntitySetName**: orginsightsnotifications<br />
-**PrimaryIdAttribute**: orginsightsnotificationid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: OrganizationOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|OrgInsightsNotifications|
+|DisplayCollectionName|Organization Insights Notification|
+|DisplayName|Organization Insights Notification|
+|EntitySetName|orginsightsnotifications|
+|IsBPFEntity|False|
+|LogicalCollectionName|orginsightsnotifications|
+|LogicalName|orginsightsnotification|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|orginsightsnotificationid|
+|PrimaryNameAttribute||
+|SchemaName|OrgInsightsNotification|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -51,44 +52,50 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_InternalName"></a> InternalName
 
-**Description**: Name of the notification which is used for retrieving the data<br />
-**DisplayName**: Name of the notification that is used for retrieving the data<br />
-**LogicalName**: internalname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Name of the notification which is used for retrieving the data|
+|DisplayName|Name of the notification that is used for retrieving the data|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|internalname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Legend Name used while displaying the notification<br />
-**DisplayName**: Legend Name used wile displaying the notification<br />
-**LogicalName**: name<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: True<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Legend Name used while displaying the notification|
+|DisplayName|Legend Name used wile displaying the notification|
+|FormatName|Text|
+|IsLocalizable|True|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|name|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OrgInsightsNotificationId"></a> OrgInsightsNotificationId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: orginsightsnotificationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|orginsightsnotificationid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -102,55 +109,63 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the organization insights notification was created<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the organization insights notification was created|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_JsonData"></a> JsonData
 
-**Description**: Notification Data in Json format<br />
-**DisplayName**: Notification Data in Json format<br />
-**LogicalName**: jsondata<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Notification Data in Json format|
+|DisplayName|Notification Data in Json format|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|jsondata|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier of the organization associated with the record<br />
-**DisplayName**: Organization<br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: organization
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the organization associated with the record|
+|DisplayName|Organization|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Targets|organization|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: organizationidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 <a name="manytoone"></a>
 
@@ -163,7 +178,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See organization Entity [organization_orginsightsnotification](organization.md#BKMK_organization_orginsightsnotification) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
