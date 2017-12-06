@@ -2,7 +2,7 @@
 title: "Enable header and footer output caching on a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable header and footer output caching on a portal for existing users."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,13 +16,12 @@ manager: sakudes
 
 # Enable header and footer output caching on a portal
 
-To improve processing performance for Header and Footer web templates in a portal, enable header and footer output caching. Header and Footer web templates are parsed and rendered every time a page is loaded. Caching header and footer output significantly reduces page processing time..
+To improve processing performance for Header and Footer web templates in a portal, enable header and footer output caching. Header and Footer web templates are parsed and rendered every time a page is loaded. Caching header and footer output significantly reduces page processing time.
 
 For a new user, output caching is enabled by default. The following site settings are available and set to true by default to support this functionality:
 - Header/OutputCache/Enabled: Set the value to true to enable output caching for header.
 - Footer/OutputCache/Enabled: Set the value to true to enable output caching for footer.
 
-[//]: # (I don't know the history of how we refer to portals, so this might not be sanctioned usage.)
 For a user who upgraded to a newer version of Portals, output caching is disabled by default&mdash;that is, the Header and Footer web templates are parsed and rendered on every page load. To enable output caching, you must update the Header, Footer, and Languages Dropdown web templates and create the required site settings.
 
 > [!Note]
