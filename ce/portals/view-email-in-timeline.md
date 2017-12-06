@@ -1,8 +1,8 @@
 ---
-title: "View email records in portal timeline in Dynamics 365 | MicrosoftDocs"
-description: "Instructions to view email records in portal."
+title: "View email records in a portal timeline in Dynamics 365 | MicrosoftDocs"
+description: "Instructions to view email records in a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,6 +14,8 @@ ms.author: shjais
 manager: sakudes
 ---
 
-# View email records in portal timeline
+# View email records in a portal timeline
 
-While working on a case or interacting with a customer, you might create and email to the customer. When you navigate to your support portal and see the timeline, you might not find the email in the timeline. By default, the email records are not displayed in the portal timeline. To view email records in portal timeline, you must set the CustomerSupport/DisplayAllUserActivitiesOnTimeline site setting to true. You must also ensure that the filter criteria on the support portal is properly set to display the email records.
+While working on a case or interacting with a customer, you might create an email to send to the customer. When you navigate to the Timeline in your support portal, you might not find the email because by default, email records are not displayed in the portal timeline. 
+
+To view email records in a portal timeline, set the CustomerSupport/DisplayAllUserActivitiesOnTimeline site setting to true. You must also ensure that the filter criteria on the support portal are properly set to display email records.

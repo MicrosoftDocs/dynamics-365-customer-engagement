@@ -1,12 +1,14 @@
 ---
-title: "Manage teams in Dynamics 365 for Sales | Microsoft Docs"
-description: "Use teams in Dynamics 365 for Sales to group users who share and collaborate on business records.  "
+title: "Manage teams (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Use teams in Dynamics 365 for Sales, Preview to group users who share and collaborate on business records.  "
 keywords: "Team; Manage Members; Role"
-ms.date: 07/14/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: d5a034ff-efa9-4087-8a21-cd801b458465
 author: shubhadaj
 ms.author: shujoshi
@@ -15,7 +17,9 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Add or manage teams in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Add or manage teams in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -60,5 +64,5 @@ When a team is assigned a role, the team members are assigned the set of privile
 3.  In the **Manage Roles** dialog box, select the security role you want for the team, and then select **OK**.
 
 ### See Also
-[Add or manage users in Dynamics 365 for Sales](add-edit-users.md)   
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Add or manage users in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](add-edit-users.md)   
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)
