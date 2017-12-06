@@ -22,37 +22,25 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[//]: # (If each template includes both structural and style elements, are there truly "styled" and "structural" templates? It seems those two things contradict each other. In the 4th sentence, I can't really picture how you can change the column layout of a template by "creating a new message and basing it on the appropriate template." If you create the message first, how do you base it on a template? From what you say later in the topic, it seems that you actually base this new template on the message you create.)
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a wide variety of templates, each of which provides both structural and style elements. Styled templates include color schemes and sample images, while structural templates include just a skeleton that establishes the basic structure and column layout. Though you can always change the content and styles, the column layout is semi-permanently established by the template you choose. To change the column layout, you must either create a new message and base it on the appropriate template or edit the code directly by using the HTML editor.
 
-Each time you create a new marketing email, the **Select an Email Template** dialog box opens.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed email templates. Most templates include a column layout, color scheme, sample content, and sample images, while others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
+
+The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md) provide:
+
+- A starting point to help you work more quickly
+- Advanced layouts based on responsive design techniques that help make messages look good at any screen size
+- A harmonious color palette with a manageable number of colors that you can easily adapt to your own organization's identity
+- Tried-and-true designs that have been tested against a wide range of email clients to help ensure they will look great everywhere
+
+The first thing you do each time you create a new message is to choose a template to base that message on.  You can easily work with the content and styles using the designer, but the column layout is semi-permanently established by the template you choose (you can only change it using the HTML code editor).
 
 ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
 
-[//]: # (@Karl, I think this whole section can be recast to avoid repetition and jazz it up a little. I've commented out my rewrite, but please let me know what you think.)
-<!--
-Though you can choose to start with a blank message, using templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md) gives you these advantages:
+When you create a new message, the selected template's content is copied into it. The message and template aren't linked, so when you edit the message, the template won't change; likewise, any future changes that you make to a template won't affect any existing messages that were created using it.
 
-- A starting point to help you work more quickly
-- Professionally designed templates your organization can use to create custom templates that meet your most common needs and reflect your visual identity
-- Advanced layouts that feature responsive design techniques that help make messages look good at any screen size
-- A harmonious color palette with a manageable number of colors that you can easily adapt to your own organization's identity
-- Tried-and-true templates that have been tested against a wide range of email clients to help ensure they will look great everywhere
--->
+You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message as a template, or work directly in the templates area to create them. You'd typically start with a message based on an existing template, customize the message as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find using filters in the **Select an email template** dialog shown to users each time they create a new email message.
 
-
-
-Though you can choose to start with a blank message, templates provide several advantages:
-
-- Templates provide a starting point that can help you work more quickly.
-- A selection of professionally designed templates is provided out of the box, and your organization can create custom templates that meet your most common needs and reflect your visual identity.
-- All the out-of-the-box templates provide advanced layouts that feature responsive design techniques that help make messages look good at any screen size.
-- Out-of-the-box templates use a harmonious color palette with a manageable number of colors that you can easily adapt to your own organization's identity by working with the **Styles** tab of the email designer.
-- Out-of-the-box templates have been tested against a wide range of email clients to help ensure they will look great everywhere.
-
-When you create a new message from a template, the template content is copied into your message. The message and template aren't linked, so when you edit the message, the template won't change; likewise, any future changes that you make to a template won't affect any existing messages that were created by using it.
-
-You can save any existing message as a template or work directly in the templates area to design new templates. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters.
+For more information about creating and editing marketing email messages, see [Prepare marketing email messages](prepare-marketing-emails.md). For more information about how to work with the designer tool, see [Design your digital content](design-digital-content.md).
 
 ## Style a template
 
@@ -127,6 +115,41 @@ All templates included with [!INCLUDE[pn-marketing-business-app-module-name](../
 </table>
 
 [//]: # (END my version of your table.)
+
+### Desktop clients
+
+<table width="66%">
+<tr><td width="50%">
+<ul><li>Apple Mail 9/10</li><li>IBM Notes 9</li><li>Outlook 2000 Win 7</li><li>Outlook 2002 Win 7</li><li>Outlook 2003 Win 7</li><li>Outlook 2007 Win 7</li><li>Outlook 2010 Win 7</li></ul>
+</td width="50%"><td>
+<ul><li>Outlook 2011 OS X 10.10</li><li>Outlook 2013 Win 7</li><li>Outlook 2013 120 DPI Win </li><li>Outlook 2016 OS X 10.10</li><li>Outlook 2016 Win 7</li><li>Windows 10 Email Win 10</li><li>Thunderbird</li></ul>
+</td></tr>
+</table>
+
+### Mobile clients
+
+<table width="66%">
+<tr><td width="50%">
+<ul><li>Android 4.4</li><li>Android 5.1</li><li>Android 6.0</li><li>Gmail App IMAP Android 4.4</li><li>Gmail App Android 6.0</li><li>Gmail App iOS</li><li>Inbox by Gmail iOS</li><li>iPhone 5s iOS 7</li><li>iPhone 5s iOS 8</li></ul>
+</td><td width="50%">
+<ul><li>iPhone 6 iOS 8</li><li>iPhone 6 Plus iOS 8</li><li>iPhone 6s iOS 9</li><li>iPhone 6s Plus iOS 9</li><li>iPhone 7 iOS 10.3.2</li><li>iPad (Retina) iOS 10.3.2</li><li>iPad Mini iOS 10.3.2</li><li>iPad Pro (12.9 Inch) iOS,10.3.2</li></ul>
+</td></tr>
+</table>
+
+### Web clients
+
+<table width="100%">
+<tr><td width="33%"><ul>
+<li>AOL Explorer</li><li>AOL Firefox</li><li>AOL Chrome</li><li>Comcast Explorer</li><li>Comcast Firefox</li><li>Comcast Chrome</li><li>Freenet.de Explorer</li><li>Freenet.de Firefox</li><li>Freenet.de Chrome</li><li>GSuite Explorer</li><li>GSuite Firefox</li><li>GSuite Chrome</li><li>Gmail Explorer</li><li>Gmail Firefox</li><li>Gmail Chrome</li>
+</ul></td width="33%"><td><ul>
+<li>Inbox by Gmail Chrome</li><li>Inbox by Gmail Firefox</li><li>GMX.de Explorer</li><li>GMX.de Chrome</li><li>GMX.de Firefox</li><li>Mail.ru Explorer</li><li>Mail.ru Chrome</li><li>Mail.ru Firefox</li>
+<li>Office 365 Explorer</li><li>Office 365 Chrome</li><li>Office 365 Firefox</li><li>Orange.fr Explorer</li><li>Orange.fr Chrome</li><li>Orange.fr Firefox</li><li>Outlook.com Explorer</li>
+</ul></td><td width="34%"><ul>
+<li>Outlook.com Chrome</li><li>Outlook.com Firefox</li><li>SFR.fr Explorer</li><li>SFR.fr Chrome</li><li>SFR.fr Firefox</li><li>T-Online.de Explorer</li><li>T-Online.de Chrome</li><li>T-Online.de Firefox</li><li>Web.de Explorer</li><li>Web.de Chrome</li><li>Web.de Firefox</li><li>Yahoo! Mail Explorer</li><li>Yahoo! Mail Chrome</li><li>Yahoo! Mail Firefox</li>
+</ul></td><tr>
+</table>
+
+### All clients
 
 <table>
   <tr>
