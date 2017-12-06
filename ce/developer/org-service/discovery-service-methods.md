@@ -2,7 +2,7 @@
 title: "Discovery Service methods (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The IDiscoveryService Web service provides a single method which can be used to determine the correct organization and URL to use to interact with the Dynamics 365 Server"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,3 +31,4 @@ The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> Web service provides a 
  [Discover the URL for Your Organization With IDiscoveryService Web Service](discover-url-organization-organization-service.md)   
  [Discovery Service Messages (Request and Response Classes)](discovery-service-messages-request-response-classes.md)   
  [Access the Web Services in Dynamics 365](../authenticate-users.md)
+ [Messages in the discovery service](messages-discovery-service.md)

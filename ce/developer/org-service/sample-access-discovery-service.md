@@ -2,7 +2,7 @@
 title: "Sample: Access the Discovery service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The sample demonstrates how to obtain organization information, including the organization’s URL, from the DiscoveryService Web service."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample of [Access the discovery service](https://code.msdn.microsoft.com/Sample-Access-the-6dea28f1). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete: [Access the discovery service](https://code.msdn.microsoft.com/Sample-Access-the-6dea28f1). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
