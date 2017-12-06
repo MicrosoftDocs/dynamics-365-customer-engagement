@@ -24,7 +24,7 @@ You can group multiple operations into a single HTTP request using a batch opera
   
 <a name="bkmk_Whentousebatchrequests"></a>   
 ## When to use batch requests  
- The value that batch requests provide is that they can include change sets, which provide a way to bundle a number of operations that either succeed or fail as a group. in a transaction Compared to other operations that can be performed using the web API, they are more difficult to compose without some object model that includes serialization of objects or a deeper understanding of the HTTP protocol because the request body is essentially a text document that must match very specific requirements.  
+ The value that batch requests provide is that they can include change sets, which provide a way to bundle a number of operations that either succeed or fail as a group. Compared to other operations that can be performed using the web API, they are more difficult to compose without some object model that includes serialization of objects or a deeper understanding of the HTTP protocol because the request body is essentially a text document that must match very specific requirements.  
   
  Remember that associated entities can be created in a single operation more easily than using a batch request. Batch requests are best used when performing operations on entities that aren’t associated with each other when all the operations must be performed in a single transactional operation.  
   
