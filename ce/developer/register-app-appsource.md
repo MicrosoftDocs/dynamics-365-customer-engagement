@@ -22,9 +22,9 @@ manager: "amyla"
 
 Publish your apps on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement subscribers can find it, try it, and buy it.  
   
-Before you proceed to publish your app on the AppSource, you must visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners) read the App review guidelines to understand whether your app is a good fit for AppSource. All apps that are listed on AppSource must complete a certification process. The level of rigor applied to the certification process depends on the type of submission you want to offer.
+Before you proceed to publish your app on the AppSource, you must visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners), and read the **App review guidelines** to understand whether your app is a good fit for AppSource. All apps that are listed on AppSource must complete a certification process. The level of rigor applied to the certification process depends on the type of submission you want to offer.
 
-Publishing an app involves the following steps:
+Publishing an app to AppSource involves a series of steps including preparing your app for submission, and then creating an offer on the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app. Instructions about preparing your app for submission will be covered here. 
 - Step 1:  
   
  <!--If your app is a good fit, please proceed to the next step to submit your app. The specific process for this may change over time, but at the time this was written the process consists of a form where you will let us know about your app and how to contact you. After that, someone will contact you and help lead you through the process of registering your app.  
