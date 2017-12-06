@@ -16,7 +16,6 @@ topic-status: Drafting
 ---
 
 # Marketing help and training
-[//]: # (No ampersand to mean "and" via Writing Style Guide. I realize our former msft.com presence had this name.)
 
 <table>
 

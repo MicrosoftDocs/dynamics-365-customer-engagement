@@ -92,7 +92,7 @@ Assign a manager or change an existing manager. The manager is responsible for a
 Each security role established in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
 
 > [!NOTE]
-> To customize security roles, you must work in the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]&mdash;Custom app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about how to customize security roles, see [Create or edit a security role](../admin/create-edit-security-role.md)
+> To customize security roles, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about how to customize security roles, see [Create or edit a security role](../admin/create-edit-security-role.md)
 
 When you are creating and customizing security roles, you'll find most of the user privileges added by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app on the **Custom Entities** tab of the **Security Role** dialog.
 

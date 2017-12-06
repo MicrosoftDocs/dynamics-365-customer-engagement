@@ -22,7 +22,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[//]: # (@Karl--I admit that this is a cheesy rewrite. You could also delete this intro and the first H2 entirely.)
 Using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you can:
 
 - Generate leads manually or automatically by using landing pages.
