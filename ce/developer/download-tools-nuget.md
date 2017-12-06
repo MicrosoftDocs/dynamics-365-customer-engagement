@@ -2,7 +2,7 @@
 title: "Download tools from NuGet (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Download the Plugin Registration, Package Deployment, and other core tools from Nuget."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/6/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -24,9 +24,10 @@ You can download tools used in development from NuGet using the  powershell scri
 |Tool|NuGet Package|
 |-|-|
 |Code generation tool `CrmSvcUtil.exe`.|[Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools)|
-|SolutionPackager tool `SolutionPackager.exe`.|[Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools)|
+|Configuration Migration tool `DataMigrationUtility.exe`.|[Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf)|
 |Package Deployer `PackageDeployer.exe`|[Microsoft.CrmSdk.XrmTooling.PackageDeployment.WPF](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment)|
 |Plug-in Registration Tool `PluginRegistration.exe` |[Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool)|
+|SolutionPackager tool `SolutionPackager.exe`.|[Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools)|
 
 ## Download tools using PowerShell
 
@@ -42,7 +43,7 @@ You can download tools used in development from NuGet using the  powershell scri
     Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore
     Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
     Set-Alias nuget $targetNugetExe -Scope Global -Verbose
-    
+        
     ##
     ##Download Plugin Registration Tool
     ##
@@ -60,6 +61,15 @@ You can download tools used in development from NuGet using the  powershell scri
     $coreToolsFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.CoreTools.'}
     move .\Tools\$coreToolsFolder\content\bin\coretools\*.* .\Tools\CoreTools
     Remove-Item .\Tools\$coreToolsFolder -Force -Recurse
+
+    ##
+    ##Download Configuration Migration
+    ##
+    ./nuget install  Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf -O .\Tools
+    md .\Tools\ConfigurationMigration
+    $configMigFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf.'}
+    move .\Tools\$configMigFolder\tools\*.* .\Tools\ConfigurationMigration
+    Remove-Item .\Tools\$configMigFolder -Force -Recurse
     
     ##
     ##Download Package Deployer 
@@ -73,11 +83,12 @@ You can download tools used in development from NuGet using the  powershell scri
     ##
     ##Remove NuGet.exe
     ##
-    Remove-Item nuget.exe
+    Remove-Item nuget.exe    
     ```
 
 1. You will find the tools in the following folders:
 
+- `[Your folder]\Tools\ConfigurationMigration`
 - `[Your folder]\Tools\CoreTools`
 - `[Your folder]\Tools\PackageDeployment`
 - `[Your folder]\Tools\PluginRegistration`
