@@ -2,8 +2,8 @@
 title: AuthorizationPolicy Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: Shared Access Signature (SAS) is a security technology that allows granting limited access rights to a secured resource.
 keywords: Customer Insights; type; Authorization policy; Shared Access Signature (SAS)
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/26/2017
 ms.topic: reference

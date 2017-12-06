@@ -2,8 +2,8 @@
 title: Hub Management APIs (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: This set of APIs enable you to manage Customer Insights Hub components and data models.
 keywords: Customer Insights; ARM API; Hub management
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/27/2017
 ms.topic: reference

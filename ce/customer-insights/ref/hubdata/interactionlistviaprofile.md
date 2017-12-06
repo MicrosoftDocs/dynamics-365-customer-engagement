@@ -2,8 +2,8 @@
 title: List Interactions associated with a Profile Type (Hub Data)
 description: Lists all Interaction instances that form an association with the specified Profile type.
 keywords: Customer Insights; Hub Data API; Interaction instance; list 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/14/2017
 ms.topic: reference

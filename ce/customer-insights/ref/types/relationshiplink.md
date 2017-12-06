@@ -2,8 +2,8 @@
 title: RelationshipLink Type Definition
 description: A RelationshipLink defines an association between an Interaction and a Profile.
 keywords: Customer Insights; type; relationship link
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/24/2017
 ms.topic: reference

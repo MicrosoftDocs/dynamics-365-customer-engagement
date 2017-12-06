@@ -2,8 +2,8 @@
 title: Get a Data Connector Mapping Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified Data Connector Mapping.
 keywords: Customer Insights; ARM API; Data Connector Mapping; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference

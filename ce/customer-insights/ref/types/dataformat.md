@@ -2,8 +2,8 @@
 title: DataFormat Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: The DataFormat type represents information in a datasource, typically a CSV file uploaded into a blob.
 keywords: Customer Insights; type; data format
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

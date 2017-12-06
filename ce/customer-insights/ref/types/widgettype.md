@@ -2,8 +2,8 @@
 title: WidgetType Type Definition
 description: A widget represents the UI object used to display aggregated, calculated, or entity-specific information. 
 keywords: Customer Insights; type; widget
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/07/2017
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-title: "Use the designer tool in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Use the designer tool (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; template"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Design your digital content
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system, including:
 

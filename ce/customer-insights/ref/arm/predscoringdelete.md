@@ -2,8 +2,8 @@
 title: Delete Prediction (ARM)
 description: Deletes a Prediction.  
 keywords: Customer Insights; ARM API; prediction; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/29/2017
 ms.topic: reference

@@ -50,6 +50,8 @@
       href: impersonate-another-user-web-api.md
     - name: Perform conditional operations using the Web API
       href: perform-conditional-operations-using-web-api.md
+    - name: Manage duplicate detection during Create and Update operations
+      href: manage-duplicate-detection-create-update.md
   - name: Web API Versions
     href: web-api-versions.md
   - name: Use the Web API with metadata
@@ -76,13 +78,9 @@
       href: web-api-conditional-operations-sample.md
     - name: Web API Functions and Actions Sample
       href: web-api-functions-actions-sample.md
-  - name: Detect duplicate data
+  - name: Web API Samples (C#)
+    href: web-api-samples-csharp.md
     items:
-    - name: Manage duplicate detection during Create and Update operations
-      href: manage-duplicate-detection-create-update.md
-    - name: Web API Samples (C#)
-      href: web-api-samples-csharp.md
-      items:
       - name: Web API Basic Operations Sample (C#)
         href: web-api-basic-operations-sample-csharp.md
       - name: Web API Query Data Sample (C#)
@@ -91,5 +89,5 @@
         href: web-api-conditional-operations-sample-csharp.md
       - name: Web API Functions and Actions Sample (C#)
         href: web-api-functions-actions-sample-csharp.md
-    - name: Web API Samples (Client-side JavaScript)
-      href: web-api-samples-client-side-javascript.md
+  - name: Web API Samples (Client-side JavaScript)
+    href: web-api-samples-client-side-javascript.md

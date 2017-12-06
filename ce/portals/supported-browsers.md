@@ -2,7 +2,7 @@
 title: "Subscribe browsers for portals capabilities for Dynamics 365 | MicrosoftDocs"
 description: "List of supported browsers for a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,7 +16,7 @@ manager: sakudes
 
 # Supported web browsers
 
-The list of supported web browsers for Portal capabilities for Dynamics 365 is as follows:
+The list of supported web browsers for portal capabilities for [!include[](../includes/pn-dynamics-crm.md)] is described in the following sections.
 
 ## Desktop browsers
 
@@ -26,13 +26,13 @@ The list of supported web browsers for Portal capabilities for Dynamics 365 is a
 | Windows               | Supported*                     | Supported*                        | Supported*                          | Supported*     | Not supported |
 ||||||
 
-\* \- Indicates that the latest version of browser is tested with the out-of-box templates shipped with Portal capabilities for Dynamics 365.
+\* \- Indicates that the latest version of the browser is tested with the out-of-box templates shipped with portal capabilities for [!include[](../includes/pn-dynamics-crm.md)].
 
 > [!Note]
 > - On Windows, Internet Explorer 9 and below are not supported. 
-> - Other browsers like Opera, Chrome/Firefox in Linux and other Linux browsers are not listed as supported because they are not tested by Microsoft. However, Portal is not blocked on these and since standard HTML and CSS elements are used for the user interface, they will usually work. Customers are encouraged to certify these browsers depending upon their user base.
+> - Other browsers like Opera, Chrome or Firefox in Linux, and other Linux browsers are not listed as supported because they have not been tested by Microsoft. However, portals are not blocked on these browsers and&mdash;because standard HTML and CSS elements are used for the portal UI&mdash;they will usually work. Customers are encouraged to certify these browsers depending on their user base.
 
-## Mobile devices browsers
+## Mobile device browsers
 
 |                  | Google Chrome | Mozilla Firefox | Apple Safari | Microsoft Edge |
 |------------------|---------------|-----------------|--------------|----------------|
@@ -42,4 +42,4 @@ The list of supported web browsers for Portal capabilities for Dynamics 365 is a
 |||||
 
 > [!Note]
-> Proxy browsers (such as Opera Mini, Opera Mobile's Turbo mode, UC Browser Mini, Amazon Silk) are not supported.
+> Proxy browsers (such as Opera Mini, Opera Mobile's Turbo mode, UC Browser Mini, and Amazon Silk) are not supported.
