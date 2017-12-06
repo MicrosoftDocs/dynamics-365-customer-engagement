@@ -93,6 +93,8 @@ Each Marketing Configuration record provides the following settings:
 * **General** tab: Specify a name for the configuration set here.
 * **Marketing Email** tab: Enable or disable Litmus integration here. Litmus is an optional third-party service that provides pixel-perfect previews of how your email messages will look on specific clients. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
 
+<a name="customer-insights-sync"></a>
+
 ## Choose entities to sync with Customer Insights
 
 [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] is an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]-based service that provides analytical tools for working with customer records. It helps you to better understand your customers, and enables you to set up subscription lists and target segments for use in email-marketing campaigns.

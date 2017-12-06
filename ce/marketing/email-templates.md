@@ -25,7 +25,7 @@ topic-status: Drafting
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed email templates. Most templates include a column layout, color scheme, sample content, and sample images, while others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
 
-The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md) provide:
+The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide:
 
 - A starting point to help you work more quickly
 - Advanced layouts based on responsive design techniques that help make messages look good at any screen size
