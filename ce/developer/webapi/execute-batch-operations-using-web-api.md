@@ -2,7 +2,7 @@
 title: "Execute batch operations using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Batch operation lets you group multiple operations in a single HTTP request. Read how to execute batch operations using the Web API"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -189,7 +189,21 @@ OData-Version: 4.0
 }  
 --batchresponse_c1bd45c1-dd81-470d-b897-e965846aad2f--  
 ```  
+Include `odata.include-annotations` preference header with the `GET` requests and set its value to "*" to specify that all annotations related to the properties be returned.
+
+```HTTP
+--batch_AAA123  
+Content-Type: application/http  
+Content-Transfer-Encoding:binary  
   
+GET [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-000000000001)?$select=name,telephone1,emailaddress1,shippingmethodcode,customersizecode,accountratingcode,followemail,donotemail,donotphone,statuscode HTTP/1.1  
+Accept: application/json  
+Prefer: odata.include-annotations="*"
+  
+--batch_AAA123-- 
+```
+For more information on preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
+
 ### See also
 
  [Perform operations using the Web API](perform-operations-web-api.md)   
