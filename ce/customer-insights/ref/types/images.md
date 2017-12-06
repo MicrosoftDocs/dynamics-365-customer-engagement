@@ -2,8 +2,8 @@
 title: Image Entity Types (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: Image data is typically uploaded into Azure blobs and associated with primary entity types to enrich the user-interface experience.
 keywords: Customer Insights; type; GetImageUploadUrlInput; ImageDefintion
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/26/2017
 ms.topic: reference

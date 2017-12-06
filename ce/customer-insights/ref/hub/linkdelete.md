@@ -2,8 +2,8 @@
 title: Delete Link (Hub)
 description: Deletes a Link.  
 keywords: Customer Insights; Hub API; Link; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/02/2016
 ms.topic: reference

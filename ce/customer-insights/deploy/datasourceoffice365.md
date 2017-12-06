@@ -43,17 +43,17 @@ If you need more than 1 profile type for employee or 2 profile types for custome
 
 2.  On the **All Data Sources** blade, select **Add**.
 
-    ![](../media/AddAzureBlobDataSource.png "Add a data source") 
+    ![Add a data source](../media/AddAzureBlobDataSource.png "Add a data source") 
 
 3.  On the **New Data Source** blade, select **Data Source Type**.
 
 4.  On the **Data Source Type** blade, select **Exchange Online**.
 
-    ![](../media/DataSourceExOL75.png "Select the Exchange Online data source type") 
+    ![Select the Exchange Online data source type](../media/DataSourceExOL75.png "Select the Exchange Online data source type") 
 
 5.  On the **New Data Source** blade, select **opt-in** and sign in with admin credentials to your Exchange Online.
 
-    ![](../media/DataSourceExOLOptIn75.png "Select opt-in") 
+    ![Select opt-in](../media/DataSourceExOLOptIn75.png "Select opt-in") 
 
 6.  Enter a **Name** for the data source, and then select **Login to Exchange Online**.
 
@@ -61,19 +61,19 @@ If you need more than 1 profile type for employee or 2 profile types for custome
 
 8.  For Customer, select **Configure required settings**.
 
-    ![](../media/DataSourceExOLCustomerConfig75.png "Configure customer required settings") 
+    ![Configure customer required settings](../media/DataSourceExOLCustomerConfig75.png "Configure customer required settings") 
 
 9.  Select entities. 
 
 10. For each entity, select the email properties, and then select **OK**.
 
-    ![](../media/DataSourceExOLEmailProperty75.png "Select email properties") 
+    ![Select email properties](../media/DataSourceExOLEmailProperty75.png "Select email properties") 
 
 11. Select **OK** to close the **Select Entities** blade.
 
 12. On the **New Data Source** blade, for Employees, select **Configure required settings**.
 
-    ![](../media/DataSourceExOLEmployeesConfig75.png "Configure employees required settings") 
+    ![Configure employees required settings](../media/DataSourceExOLEmployeesConfig75.png "Configure employees required settings") 
 
 13. For each entity, select the email properties, and then select **OK**.
 

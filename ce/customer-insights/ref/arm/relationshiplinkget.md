@@ -2,8 +2,8 @@
 title: Get a Relationship Link (ARM)
 description: Gets the specified Relationship Link.
 keywords: Customer Insights; ARM API; relationship link; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/09/2017
 ms.topic: reference

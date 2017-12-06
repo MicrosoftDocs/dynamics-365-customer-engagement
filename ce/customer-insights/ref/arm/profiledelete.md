@@ -2,8 +2,8 @@
 title: Delete Profile (ARM)
 description: Deletes a Profile.  
 keywords: Customer Insights; ARM API; Profile; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/09/2017
 ms.topic: reference

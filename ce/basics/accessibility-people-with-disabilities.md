@@ -7,7 +7,7 @@ applies_to:
   - Dynamics 365 Version 9.x
 ms.author: anjgup
 manager: brycho
-ms.date: 12/18/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
@@ -20,7 +20,6 @@ Microsoft is committed to making its products and services easier for everyone. 
   
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement apps 
  [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  
-  
   
 ## Accessibility info for browsers  
  For accessibility information about your browser, visit the following websites:  

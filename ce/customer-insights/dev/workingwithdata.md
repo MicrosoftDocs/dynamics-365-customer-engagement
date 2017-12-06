@@ -2,8 +2,8 @@
 title: Working with Data in Microsoft Dynamics 365 for Customer Insights (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: 
 keywords: Customer Insights; data model; ingestion; conflation; segmentation 
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/14/2017
 ms.topic: get-started-article

@@ -2,8 +2,8 @@
 title: Interaction Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: An Interaction is an immutable representation of an event or activity of relevance to a business, and is usually associated with a Profile.
 keywords: Customer Insights; type; interaction
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/14/2017
 ms.topic: reference

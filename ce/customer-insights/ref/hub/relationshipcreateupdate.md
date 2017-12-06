@@ -2,8 +2,8 @@
 title: Create or Update Relationship (Hub)
 description: Creates a new or updates an existing relationship.
 keywords: Customer Insights; Hub API; relationship; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/22/2017
 ms.topic: reference

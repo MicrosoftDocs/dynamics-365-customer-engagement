@@ -75,9 +75,9 @@ To use [!include[](../../includes/pn-azure-shortest.md)] Storage as a data sourc
   |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
   | $keyvaultName      | Enter a name for a key vault. [Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-whatis/) helps safeguard storage account keys. |
   | $secretName        | Enter a name for the [secret](https://azure.microsoft.com/en-us/documentation/articles/key-vault-get-started/) to be added to the key vault.                |
-  | $resourceGroupName | Enter a resource group name. If the resource group does not exist, it will be created. ![](../media/StorageResourceGroup65HL.png "Storage Resource group")  |
-  | $location          | Enter the region for your Azure storage account. ![](../media/StorageLocation65HL.png "Storage account location")                                           |
-  | $connectionString       | Enter the Azure storage account key connection string. ![](../media/StorageAccountKey65HL.png "Storage account key connection string")                                                          |                                                        
+  | $resourceGroupName | Enter a resource group name. If the resource group does not exist, it will be created. ![Storage Resource group](../media/StorageResourceGroup65HL.png "Storage Resource group")  |
+  | $location          | Enter the region for your Azure storage account. ![Storage account location](../media/StorageLocation65HL.png "Storage account location")                                           |
+  | $connectionString       | Enter the Azure storage account key connection string. ![Storage account key connection string](../media/StorageAccountKey65HL.png "Storage account key connection string")                                                          |                                                        
   | $tags              | Enter the [!include[](../../includes/pn-customer-insights-short.md)] hubs to be used for data modeling.                                                                                              |
 
 5.  The script will ask for your [!include[](../../includes/pn-azure-shortest.md)] account credentials.
@@ -87,7 +87,7 @@ To use [!include[](../../includes/pn-azure-shortest.md)] Storage as a data sourc
 [//]: # (@Jim, I didn't--but I'd like to--use the "Azure Blob storage" token in this section, I do think it's the correct modifier for "container" so that it's never just "Azure Blob container." It looks like the UI screenshots show that also. The alt text, of course, would have to be changed manually.)
 ##Add an Azure Blob container as a data source
 
-![](../media/ConceptAzureConnector.png "About Azure Storage Connector") 
+![About Azure Storage Connector](../media/ConceptAzureConnector.png "About Azure Storage Connector") 
 
 To create an Azure Blob container as a data source by using the [!include[](../../includes/pn-azure-portal.md)]:
 
@@ -95,19 +95,19 @@ To create an Azure Blob container as a data source by using the [!include[](../.
 
 2.  On the **All Data Sources** blade, select **Add**.
 
-    ![](../media/AddAzureBlobDataSource.png "Add Azure Blob data source") 
+    ![Add Azure Blob data source](../media/AddAzureBlobDataSource.png "Add Azure Blob data source") 
 
 3.  On the **New Data Source** blade, select **Data Source Type**.
 
 4.  On the **Data Source Type** blade, select **AzureBlob**.
 
-    ![](../media/ClickOnAzureBlob.png "Select Azure Blob storage") 
+    ![Select Azure Blob storage](../media/ClickOnAzureBlob.png "Select Azure Blob storage") 
 
 5.  Enter a **Name** for the data source.
 
 6.  Paste the **Connection KeyVault URL** you saved in step 6 of "Set up your Azure Key Vault" section earlier in this topic.
 
-    ![](../media/NameAzureBlob.png "Paste Connection KeyVault URL") 
+    ![Paste Connection KeyVault URL](../media/NameAzureBlob.png "Paste Connection KeyVault URL") 
 
 7.  Select **Create** to provision the data source.
 
@@ -120,7 +120,7 @@ To create an Azure Blob container as a data source by using the [!include[](../.
 
 8.  You'll now define how your source data files map to interactions. Right-click the data source you added, and then select **Mappings**.
 
-    ![](../media/DataSourceMappings.png "Data source mappings") 
+    ![Data source mappings](../media/DataSourceMappings.png "Data source mappings") 
 
 9.  On the **File Mappings** blade, select **New File Mapping**.
 
@@ -128,7 +128,7 @@ To create an Azure Blob container as a data source by using the [!include[](../.
 
      You can find this by opening your storage account, going to **Overview** > **Blobs** and noting the name of the storage container.
 
-     ![](../media/SourceFolder.png "Find the source folder") 
+     ![Find the source folder](../media/SourceFolder.png "Find the source folder") 
 
 11.  Specify a **Filename Pattern** for the source file. This can include one wildcard character, typically at the end, for instance BankDeposit*.
 

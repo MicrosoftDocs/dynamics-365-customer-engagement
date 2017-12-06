@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Preview feature: Suggest similar cases for a case
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You're working on a support case and you wonder if there's a similar case that might help you resolve yours. With [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics, you can quickly find related cases and use them to resolve your current case. Keywords or key phrases  in a service case are used to find similar cases.  
   

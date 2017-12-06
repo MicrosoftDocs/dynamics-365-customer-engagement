@@ -48,7 +48,7 @@ The relationship assistant is part of the new *Relationship Insights* suite of f
   
  Cards will appear when activation is complete.  
   
-  ![](media/ActionCard_PhoneCallDueToday.png "Action card for phone call due today")  
+  ![Action card for phone call due today](media/ActionCard_PhoneCallDueToday.png "Action card for phone call due today")  
   
 <a name="HowAndWhere"></a>   
 

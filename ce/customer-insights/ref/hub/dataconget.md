@@ -2,8 +2,8 @@
 title: Get a Data Connector Type (Hub) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified Data Connector.
 keywords: Customer Insights; Hub API; Data Connector; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference

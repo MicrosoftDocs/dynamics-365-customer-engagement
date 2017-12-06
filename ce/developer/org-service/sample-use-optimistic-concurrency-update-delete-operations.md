@@ -2,7 +2,7 @@
 title: "Sample: Use optimistic concurrency with update and delete operations (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use optimistic concurrency for update and delete operations"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -22,7 +22,7 @@ manager: "amyla"
 
 Demonstrates how to use the optimistic concurrency feature, introduced in [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)], to prevent potential data loss when doing an update or delete of entity records. For more details about the technique used, refer to this topic: [Reduce potential data loss using optimistic concurrency](reduce-potential-data-loss-using-optimistic-concurrency.md)  
   
- The complete sample can be downloaded at [MSDN: Use optimistic concurrency with update and delete operations](https://code.msdn.microsoft.com/Use-optimistic-concurrency-e0b0440d).  
+ The complete sample can be downloaded at [Use optimistic concurrency with update and delete operations](https://code.msdn.microsoft.com/Use-optimistic-concurrency-e0b0440d).  
   
 ## Prerequisites  
  To run this sample you must have:  

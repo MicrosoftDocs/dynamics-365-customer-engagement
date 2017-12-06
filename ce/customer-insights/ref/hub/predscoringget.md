@@ -2,8 +2,8 @@
 title: Get a Prediction Type (Hub)
 description: Gets the specified Prediction.
 keywords: Customer Insights; Hub API; prediction; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference
