@@ -2,7 +2,7 @@
 title: "Start a managed code project in Visual Studio (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This topic shows you how to create a new project in Visual Studio that’s properly configured to build a console application that uses the Dynamics 365 Customer Engagement web services (SDK)."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 7fefaeb8-5d8a-4b88-9032-a31e78970175
-caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -54,7 +53,7 @@ This topic shows you how to create a new project in [!INCLUDE[pn_Visual_Studio](
   ![Choose the target framework for the Dynamics 365 project](../media/new-project-framework.PNG "Choose the target framework for the Dynamics 365 project")  
   
 ## Add NuGet package(s) 
- The minimum set of assemblies you need are in the [Microsoft.CrmSdk.CoreAssemblies](http://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/) NuGet package. Installing this package will add the required references to your project. More information: [Subscribe to SDK assembly updates using NuGet](subscribe-sdk-assembly-updates-using-nuget.md)
+ The minimum set of assemblies you need are in the [Microsoft.CrmSdk.CoreAssemblies](http://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/) NuGet package. Installing this package will add the required references to your project. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](subscribe-sdk-assembly-updates-using-nuget.md)
   
 ### See also  
  [Getting started with managed code application development](get-started-managed-code-application-development.md)
