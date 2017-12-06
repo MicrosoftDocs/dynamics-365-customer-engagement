@@ -4,8 +4,8 @@ description: "Index page showing administration, system, user and app configurat
 keywords: "administration; admin; user administration; system configuration"
 ms.date: 12/15/2017
 ms.service: crm-online
-ms.topic: get-started-article
 ms.custom: marketing
+ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -51,7 +51,7 @@ topic-status: Drafting
 
 <h2>Configure Marketing features</h2>
 <li>[Configure marketing pages](marketing-settings.md#configure-marketing-pages)</li>
-<li>[Set default data sources for email previews](marketing-settings.md#default-marketing-pages)</li>
+<li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
 <li>[Choose entities for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
 <li>[Set up events and webinars](events-settings.md)</li>
 <li>[Manage quotas](quota-management.md)</li>
