@@ -23,6 +23,10 @@ topic-status: Drafting
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+
+> [!IMPORTANT]
+> [Learn about the usage and extensibility restrictions for Dynamics 365 for Sales, Preview](https://go.microsoft.com/fwlink/p/?linkid=850959).
+
 Welcome to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview. If you don't need a full-fledged enterprise app for your organization, the new [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview app is for you. 
 
 This offering, available online-only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your organization up and running quickly.
