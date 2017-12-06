@@ -2,7 +2,7 @@
 title: "Set your preferences for the user interface | Microsoft Docs"
 description: "Learn how to configure user preferences for individual users."
 keywords: "user preferences, social engagement, my preferences, individual settings"
-ms.date: 12/05/2017
+ms.date: 12/06/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -50,7 +50,7 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-en
 |Theme|Choose between a light and a dark color theme for your user interface.|  
 |Number format|Choose from a predefined set of option to display numbers on the user interface.|  
 |Default time frame|Set the default time frame to present data in your charts and graphs for analysis. You can change the time frame at any time.|  
-|Chart format|You can choose between Charts and Table view. Select if you want to see the data points represented as charts or as tables with fields for data points. Additionally, you can choose to render widgets with filling patterns or solid colors.|  
+|Chart format|You can choose between **Chart** and **Table** view. Choose if you want to see the data points represented as charts or as tables with fields for individual data points. Additionally, you can choose to render widgets with filling patterns or solid colors, depending on your preferences.|  
   
 ### See Also  
  [Get started with Social Engagement](get-started.md)   
