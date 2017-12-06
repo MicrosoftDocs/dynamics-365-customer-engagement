@@ -15,13 +15,6 @@ Social Engagement 2017 Update 1.11 Readme
 This document provides important, late-breaking information about Microsoft
 Social Engagement 2017 Update 1.11. It was published in December 2017.
 
-Contents
---------
-
-[Resources](#resources)
-
-[General known issues](#general-known-issues)
-
 Resources
 ---------
 
