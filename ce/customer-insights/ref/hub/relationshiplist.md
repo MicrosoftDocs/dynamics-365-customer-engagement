@@ -2,8 +2,8 @@
 title: Lists Relationships (Hub)
 description: Lists the Relationship type definitions for a Hub.
 keywords: Customer Insights; Hub API; relationships; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/23/2017
 ms.topic: reference

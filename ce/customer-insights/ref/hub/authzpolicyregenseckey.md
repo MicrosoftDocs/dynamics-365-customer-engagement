@@ -2,8 +2,8 @@
 title: Regenerate Secondary Key of a SAS Policy (Hub) 
 description: Regenerates the secondary key of the storage account associated with a Shared Access Signature (SAS) Policy.
 keywords: Customer Insights; Hub API; SAS Policy; regenerate key
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

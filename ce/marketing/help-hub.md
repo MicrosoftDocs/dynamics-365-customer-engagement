@@ -15,7 +15,7 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# Marketing Help & Training
+# Marketing help and training
 
 <table>
 
@@ -35,7 +35,7 @@ topic-status: Drafting
 </td><td>
 
 <h2>Learn the basics</h2>
-<li>[Dynamics 365 for Marketing Overview](overview.md)</li>
+<li>[Dynamics 365 for Marketing overview](overview.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
@@ -60,7 +60,7 @@ topic-status: Drafting
 <li>[Create templates for emails, pages, forms, and journeys](create-templates.md)</li>
 <li>[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)</li>
 <li>[Create an inbound customer journey](create-inbound-customer-journey.md)</li>
-<li>[Link description](set-up-subscription-center.md)</li>
+<li>[Set up subscription lists and subscription centers](set-up-subscription-center.md)</li>
 
 </td></tr>
 <tr><td>

@@ -2,8 +2,8 @@
 title: API Requests and Responses (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: 
 keywords: Customer Insights; request; response; locales; reserved words; error code; version; OData
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/26/2017
 ms.topic: reference

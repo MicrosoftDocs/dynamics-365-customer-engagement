@@ -1,5 +1,5 @@
 ---
-title: "Create portals and interactive webpages in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Create portals and interactive webpages (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How the Dynamics 365 Portals solution is integrated with Dynamics 365 for Marketing"
 keywords: "portal; website; page; marketing page; event portal"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Engage with customers online with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] solution, which it uses to enable features like the event portal and marketing pages. If those features are all you need, you never actually have to access the portal capabilities because [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data.
 

@@ -2,8 +2,8 @@
 title: Hub Management APIs (Hub)
 description: This group of APIs provides management operations on a hub
 keywords: Customer Insights; Hub API; Hub management
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

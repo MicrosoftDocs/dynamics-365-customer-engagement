@@ -2,8 +2,8 @@
 title: Create or Update a Static Segment Type (ARM)
 description: Creates or updates a static segment entity type.
 keywords: Customer Insights; ARM API; static segment; create; update
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/03/2017
 ms.topic: reference

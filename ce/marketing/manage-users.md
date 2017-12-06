@@ -1,5 +1,5 @@
 ---
-title: "Manage users in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Manage users (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Manage user accounts and assign security roles in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; users; roles; permissions"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Manage users
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Create an account for each user that requires access to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
@@ -28,7 +30,7 @@ To create a user:
 
 1. Make sure you have the global administrator role in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and the System Administrator role in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-1. Go to **Settings** > **Organization** > **User Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **User Management**.
 
 1. Select **Add Users**.
 
@@ -67,7 +69,7 @@ You can assign more than one security role to a user. The effect of multiple sec
 
 In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:
 
-1. Go to **Settings** > **Organization** > **User Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **User Management**.
 1. Select the user you want to assign a role to, and then on the command bar, select **Manage Roles**.
 1. In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select **OK**.
 
@@ -88,6 +90,9 @@ Assign a manager or change an existing manager. The manager is responsible for a
 ## Use privileges to grant access to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] and [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] features
 
 Each security role established in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
+
+> [!NOTE]
+> To customize security roles, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about how to customize security roles, see [Create or edit a security role](../admin/create-edit-security-role.md)
 
 When you are creating and customizing security roles, you'll find most of the user privileges added by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app on the **Custom Entities** tab of the **Security Role** dialog.
 

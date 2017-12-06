@@ -84,11 +84,11 @@ The following values were used to create a sample prediction of account retentio
 
 The new policy model builds with the above values and then validates.
 
-![](../media/PredictScoreBuilding650.png "New Predictive Scoring model building")
+![New Predictive Scoring model building](../media/PredictScoreBuilding650.png "New Predictive Scoring model building")
 
 Once completed, you can review the prediction results.
 
-![](../media/PredictScoreBuilt720.png "New Prediction")
+![New Prediction](../media/PredictScoreBuilt720.png "New Prediction")
 
 In this example, note the following:
 - The red and green areas of the chart show the separation between the accounts successfully retained and those that have churned. The more successful the model prediction the more these areas are separated out.
@@ -98,11 +98,11 @@ In this example, note the following:
 
 Once the prediction is available you can look at the overall performance of multiple predictions.
 
-![](../media/PredictScoreMultipleModels75.png "Compare multiple prediction models")
+![Compare multiple prediction models](../media/PredictScoreMultipleModels75.png "Compare multiple prediction models")
 
 View the overall performance of a prediction once it has been running for a while.
 
-![](../media/PredictScoreModelInsights720.png "Compare multiple prediction models")
+![Compare multiple prediction models](../media/PredictScoreModelInsights720.png "Compare multiple prediction models")
 
 In this example, note the following:
 
@@ -114,7 +114,7 @@ In this example, note the following:
 
 Prediction scoring can be added to your Customer 360 view.
 
-![](../media/PredictScore360_720.png "Compare multiple prediction models")
+![Compare multiple prediction models](../media/PredictScore360_720.png "Compare multiple prediction models")
 
 ### See also
 [What is Predictive Scoring?](newfeatures.md#what-is-predictive-scoring)

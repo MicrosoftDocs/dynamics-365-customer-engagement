@@ -1,19 +1,16 @@
 ---
-title: "Accessibility for people with disabilities (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Accessibility for people with disabilities (Dynamics 365 Customer Engagement) | MicrosoftDocs
+description: Accessibility keyboard shortcuts for people with disabilities
+keywords: Accessibility; keyboard shortcuts; Accessibility in customer enagagement
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+ms.author: anjgup
+manager: brycho
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.topic: article
 ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
-caps.latest.revision: 38
-ms.author: "anjgup"
-manager: "brycho"
 ---
 # Accessibility for people with disabilities
 
@@ -24,16 +21,11 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement apps 
  [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keyboard shortcuts](../keyboard-shortcuts/keyboard-shortcuts.md)  
-  
 ## Accessibility info for browsers  
  For accessibility information about your browser, visit the following websites:  
+   
   
--   [Internet Explorer 11 accessibility](https://www.microsoft.com/enable/products/ie11/default.aspx)  
-  
--   [Internet Explorer 10 accessibility](http://www.microsoft.com/enable/products/ie10/default.aspx)  
-  
--   [Internet Explorer 9 accessibility](http://www.microsoft.com/enable/products/ie9/default.aspx)  
+-   [Windows accessibility features](http://www.microsoft.com/enable/products/ie9/default.aspx)  
   
 -   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=Accessibility)  
   
@@ -54,6 +46,7 @@ Microsoft is committed to making its products and services easier for everyone. 
   
 -   [MMC Keyboard Shortcuts](https://technet.microsoft.com/library/cc766476.aspx)  
 -->  
-### See also    
- [Keyboard shortcuts](../keyboard-shortcuts/keyboard-shortcuts.md)
+### See also  
+ [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)
+ 
  [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)

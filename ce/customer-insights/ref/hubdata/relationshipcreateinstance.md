@@ -2,8 +2,8 @@
 title: Create Relationship Instance (Hub Data)
 description: Creates a new Relationship instance. 
 keywords: Customer Insights; Hub Data API; Relationship instance; create
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/20/2017
 ms.topic: reference

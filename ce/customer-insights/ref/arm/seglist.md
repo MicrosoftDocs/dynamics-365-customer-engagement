@@ -2,8 +2,8 @@
 title: List Segment Types (ARM)
 description: Lists all the segment entity types.
 keywords: Customer Insights; ARM API; segment; list
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/05/2017
 ms.topic: reference

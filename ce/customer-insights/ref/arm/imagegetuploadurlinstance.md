@@ -2,8 +2,8 @@
 title: Get Image Upload URL for Instance Data (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets an image association to a specific data instance.  
 keywords: Customer Insights; ARM API; image; upload
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/16/2017
 ms.topic: reference

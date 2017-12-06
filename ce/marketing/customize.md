@@ -18,52 +18,54 @@ topic-status: Drafting
 
 # Customize [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is built on the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] infrastructure, which provides rich possibilities for customization without coding. Customizers can add new fields to existing entities, add or hide fields in list or form views, design custom business processes and workflows, and much more—all while working in their web browser. Other types of customization include installing custom solutions from [!INCLUDE[pn-microsoft-appsource](../includes/pn-microsoft-appsource.md)], such as a third-party SMS solution for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. The system also provides APIs that enable developers to write code that implements even more advanced custom functionality and third-party integration.
 
-The techniques for customizing the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] application are like those for customizing other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] customer engagement applications—especially [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. You can make many of the most common types of customizations while working directly in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but even more types of customization settings are available in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]—Custom app.
+The techniques for customizing the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] application are like those for customizing other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Customer Engagement applications—especially [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. You can make many of the most common types of customizations while working directly in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but even more types of customization settings are available in the [!include[](../includes/pn-custom-app-module.md)] app.
 
-The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]—Custom app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. It combines features from many of the various [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps you have licensed into a single navigation structure (but most [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] end-user features aren’t included here). The Custom app operates on the same database as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so settings made in the Custom app (including for customization, user administration, events, LinkedIn Lead Gen, [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)], and more) can affect the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
+The [!include[](../includes/pn-custom-app-module.md)] app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. It combines features from many of the various [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps you have licensed into a single navigation structure (but most [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] end-user features aren’t included here). The custom app operates on the same database as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so settings made in the custom app (including for customization, user administration, events, LinkedIn Lead Gen, [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)], and more) can affect the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
 
-To go to the customization settings in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to the **Settings** work area, choose **Advanced Settings** and then work in the **Customization** section, where you can edit the **Views** and **Business & process flows**. To go to the **Custom** app, which provides access to these customization settings and more, choose **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]—Custom** from the app-selector menu and then go to **Settings > Customization**. The following image shows how to use the app-selector menu to switch between the **Marketing** and **Custom** apps.
+To go to the customization settings in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to the **Settings** work area, choose **Advanced Settings**, and then work in the **Customization** section, where you can edit views and business and process flows. To go to the custom app, which provides access to these customization settings and more, choose **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu, and then go to **Settings** > **Customization**. The following image shows how to use the app-selector menu to switch between the Marketing and custom apps.
 
 ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
-For complete details about how to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], see the [Customization Guide for Dynamics 365 Customer Engagement](../customize/overview.md). That guide describes the interface as you see it in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]—Custom app, but those customization features also provided in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] implement similar concepts, operate on the same database, and work similarly. For details about customizations that apply only to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app (but not other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps), see the other sections in this topic.
+For complete details about how to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], see the [Customization Guide for Dynamics 365 Customer Engagement](../customize/overview.md). That guide describes the interface as you see it in the [!include[](../includes/pn-custom-app-module.md)] app, but the customization features that are also provided in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] implement similar concepts, operate on the same database, and work similarly. For details about customizations that apply only to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app (but not other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps), see the other sections in this topic.
 
-For more information about writing code and developing for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], see the [Dynamics 365 Developer’s Center](https://msdn.microsoft.com/en-us/dynamics365).
+More information about writing code and developing for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]: [Dynamics 365 Developer's Center](https://msdn.microsoft.com/en-us/dynamics365)
 
 ## Add custom validation rules
 
 A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
- is its ability to check published content for errors before going live. You've probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (check for errors) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors or messages that won’t compile). After the error check, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] displays the results right on the page, including error messages that should help the user solve the issue.
+ is its ability to check published content for errors before going live. You've probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (**Check for Errors**) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors, or messages that won't compile). After the error check, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] displays the results right on the page, including error messages that should help the user solve the issue.
 
-![The check-for-errors button and notifications](media/email-validation-result.png "The check-for-errors button and notifications")
+![The check-for-errors button and notifications](media/email-validation-result.png "The Check for Errors button and notifications")
 
-The validation feature works by implementing a validation pipeline with a series of rules that the content must pass. For each violation, an error or warning is added to the response and the content won’t be allowed to go live. Customizers can extend the pipeline by adding a custom validation stage that implements the required custom checks. You might use this capability to, for example, scrub email text content for obscenities or to ensure that a required disclaimer is always present. Custom validation rules require custom coding to create the actual validation logic. Your code must parse the incoming text and generating messages as needed.
+The validation feature works by implementing a validation pipeline with a series of rules that the content must pass. For each violation, an error or warning is added to the response and the content won't be allowed to go live. Customizers can extend the pipeline by adding a custom validation stage that implements the required custom checks. You might use this capability to, for example, scrub email text for obscenities or to ensure that a required disclaimer is always present. Custom validation rules require custom coding to create the actual validation logic. Your code must parse the incoming text and generate messages as needed.
 
 ### Add a custom action to a validation pipeline
 
-Here is an example for how to add a custom validation step to a pipeline.
+Here's an example for how to add a custom validation step to a pipeline.
 
-1. Every next custom action must accept the results of previous validation from as the **ValidationContext** and set the cumulative results to the **ValidationResults** output variable. In the following screenshot, **ValidationPipeline** is the envelope custom action, which holds the entire pipeline. The child actions are similar, using the same interface, same outputs and registration.  
+1. Each custom action must accept the results of the previous validation action from the **ValidationContext**, and set the cumulative results to the **ValidationResults** output variable. In the following screenshot, **ValidationPipeline** is the envelope custom action, which holds the entire pipeline. The child actions are similar, using the same interface, outputs, and registration.  
     ![Validation pipeline actions](media/custom-validation-actions.png "Validation pipeline actions")
 
-    Note that after adding of a new validation step to the pipeline, you must update the **SetResult** step of the **ValidationPipeline** action to take results from the previously called custom action—in the previous example, this is **Validator2**.
+    Note that after adding a new validation step to the pipeline, you must update the **SetResult** step of the **ValidationPipeline** action to take results from the previously called custom action—in the previous step, this is **Validator2**.
 
 1. Arrange the stages in the validation pipeline as indicated in the following screenshot.  
     ![Validation pipeline stages](media/custom-validation-stages.png "Validation pipeline stages")
 
-1. Set up the **Validator1** step in this example as follows:  
+1. Set up the **Validator1** step as follows:  
     ![The Validator1 step](media/custom-validation-Validator1.png "The Validator1 step")
 
-1. Set up the **Validator2** step in this example as follows:  
+1. Set up the **Validator2** step as follows:  
     ![The Validator2 step](media/custom-validation-Validator2.png "The Validator2 step")
 
-1. Set up the **SetResult** step in this example as follows:  
+1. Set up the **SetResult** step as follows:  
     ![The SetResult step](media/custom-validation-SetResult.png "The SetResult step")
 
 1. Set the custom action for **Validator1** as follows:  
@@ -80,11 +82,12 @@ Here is an example for how to add a custom validation step to a pipeline.
 
 ### Test the customized validation pipeline
 
-To test your validation pipeline:
+To test your validation pipeline, do the following:
+[/]: # (In step 1, "execute code such as" implies the user has several examples to choose from. If this sample code includes a placeholder that the user needs to replace with a specific value, you'll want to describe it that way. If the code will work as written, "execute the following code" is a better way to word it.)
 
-1. Open a Google Chrome console and execute code such as:  
+1. Open a [!include[](../includes/tn-google-chrome.md)] console, and then execute the following code:  
 **$.ajax({type:&quot;POST&quot;, url:&quot;http://10.166.153.50/StarterPortal/api/data/v8.2/new\_ValidationPipeline&quot;, data: JSON.stringify({ValidationContext: &quot;val-ctx&quot;}), contentType:&quot;application/json&quot;, dataType:&quot;json&quot;})**  
     ![Google Chrome console](media/custom-validation-test1.png "Google Chrome console")
 
-1. The results will be visible in the **Network** tab.  
+1. The results will be visible on the **Network** tab.  
     ![Google Chrome Network tab](media/custom-validation-test2.png "Google Chrome Network tab")

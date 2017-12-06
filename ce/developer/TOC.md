@@ -493,18 +493,23 @@
 ### [Use Upsert to insert or update a record](use-upsert-insert-update-record.md)
 ### [Sample: Insert or update a record using Upsert](sample-insert-update-record-upsert.md)
 ### [Sample: Synchronize data with external systems using change tracking](sample-synchronize-data-external-systems-using-change-tracking.md)
+
 ## [Virtual Entities](virtual-entities/)
-<!--
-## [Virtual Entities](virtual-entities/get-started-ve.md)
-### [API considerations of virtual entities](virtual-entities/api-considerations-ve.md)
-### [Virtual entity data providers](virtual-entities/custom-ve-data-providers.md)
-### [Sample: Generic virtual entity plug-in](virtual-entities/sample-generic-ve-plugin.md)-->
+
 # [Manage your deployment of Customer Engagement](manage-deployment.md)
 ## [Administer the deployment using the deployment web service](deployment-service/)
 ## [Disaster recovery](disaster-recovery-online-customer-engagement.md)
 ## [Sample data](sample-data.md)
 ### [Sample: Install or remove sample data](sample-install-remove-sample-data.md)
 # [Sample code directory](sample-code-directory.md)
+
+# [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)
+## [Connected Field Service architecture](connected-field-service-architecture.md)
+## [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)
+### [IoT - Parent IoT Alerts workflow](iot-parent-iot-alerts-workflow.md)
+
+# [Online Management API](online-management-api/)
+
 # [Programming reference](programming-reference.md)
 ## [Entity Reference](entities/TOC.yml)
 ## [Web API Reference](/dynamics365/customer-engagement/web-api/about)
@@ -519,10 +524,3 @@
 ## [Client API Reference](clientapi/reference.md)
 ## [Schemas used in Dynamics 365](schemas-used-dynamics-365.md)
 ## [Customization XML reference](customization-xml-reference.md)
-# [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)
-## [Connected Field Service architecture](connected-field-service-architecture.md)
-## [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)
-### [IoT - Parent IoT Alerts workflow](iot-parent-iot-alerts-workflow.md)
-
-
-# [Online Management API](online-management-api/)

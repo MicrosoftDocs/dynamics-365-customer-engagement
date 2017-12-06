@@ -2,8 +2,8 @@
 title: Create or Update Data Connector (Hub)
 description: Creates a new or updates an existing Data Connector.
 keywords: Customer Insights; Hub API; Data Connector; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

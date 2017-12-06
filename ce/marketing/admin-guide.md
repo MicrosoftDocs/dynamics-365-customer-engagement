@@ -1,9 +1,10 @@
 ---
-title: "Administrator Guide (Dynamics 365 for Marketing)"
-description: "Contains topics that describe how to do user administration and app configuration for Dynamics 365 for Marketing"
+title: "Administrator Guide (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Index page showing administration, system, user and app configuration for Dynamics 365 for Marketing."
 keywords: "administration; admin; user administration; system configuration"
 ms.date: 12/15/2017
 ms.service: crm-online
+ms.custom: marketing
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -24,7 +25,6 @@ topic-status: Drafting
 
 <h2>Set up and get started</h2>
 <li>[First time setup](purchase-setup.md)</li>
-<li>[Use your own Azure subscription for Customer Insights](setup-licensed-dci.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
@@ -50,9 +50,9 @@ topic-status: Drafting
 </td><td>
 
 <h2>Configure Marketing features</h2>
-<li>[Set landing page defaults](marketing-settings.md#landing-pages-settings)</li>
-<li>[Set default data sources for email previews](marketing-settings.md#email-settings)</li>
-<li>[Choose entiteis for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
+<li>[Configure marketing pages](marketing-settings.md#configure-marketing-pages)</li>
+<li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
+<li>[Choose entities for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
 <li>[Set up events and webinars](events-settings.md)</li>
 <li>[Manage quotas](quota-management.md)</li>
 
