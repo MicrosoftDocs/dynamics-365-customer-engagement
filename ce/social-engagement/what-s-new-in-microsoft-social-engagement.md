@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 12/05/2017
+ms.date: 12/06/2017
 ms.service: mse
 ms.topic: article
 applies_to:
