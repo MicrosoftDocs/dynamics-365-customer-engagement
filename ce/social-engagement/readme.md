@@ -1,6 +1,6 @@
 ---
 title: "Social Engagement 2017 Update 1.8 Readme"
-ms.date: 10/11/2017
+ms.date: 12/13/2017
 ms.service: mse
 ms.topic: article
 applies_to: "Social Engagement"
@@ -9,11 +9,11 @@ author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
 ---
-Social Engagement 2017 Update 1.9 Readme
-========================================
+Social Engagement 2017 Update 1.11 Readme
+=========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2017 Update 1.9. It was published in October 2017.
+Social Engagement 2017 Update 1.11. It was published in December 2017.
 
 Resources
 ---------
@@ -262,9 +262,9 @@ functionality.
 **Several titles and tooltips are not localized**
 
 Currently several user interface (UI) strings and tooltips are not localized in
-Social Engagement–supported languages in Settings, due to recent and ongoing
-work regarding accessibility. The non-localized UI strings and tooltips will be
-localized with the next release of Social Engagement.
+Social Engagement–supported languages, due to recent and ongoing work regarding
+accessibility. The non-localized UI strings and tooltips will be localized with
+the next release of Social Engagement.
 
 **Quota notification in Search Setup can be hidden and is hard to show again**
 
@@ -273,3 +273,10 @@ notification that your solution might be or is already above quota. You can hide
 this notification by selecting the **Close** (X) button in the upper right
 corner. Once it’s closed, you can only get it back by refreshing your browser’s
 session with Social Engagement.
+
+**Social Engagement stops responding after you select the Include button**
+
+In Edge or Internet Explorer, if you select too many authors and then select
+**Include**, the Authors widget in Full view mode might stop responding. The
+workaround is to refresh your browser, select fewer authors, and select
+**Include** again.
