@@ -21,13 +21,13 @@ manager: "brycho"
 
 After exporting your configuration data from the source [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you are now ready to import it to the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
-## Before you begin  
+## Before you begin 
 
-Download and install the [Microsoft Dynamics 365 SDK Xrm Configuration Migration Tool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf/). 
+Download the Configuration Migration Tool. The Configuration Migration tool is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). To download the tool, see [Download tools from NuGet](../developer/download-tools-nuget.md). Follow the steps on this page to extract the **DataMigrationUtility.exe** tool. 
   
 ## Import configuration data  
   
-1.  Start the Configuration Migration tool.  
+1.  Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
   
 2.  On the main screen, click **Import data**, and click **Continue**.  
   
