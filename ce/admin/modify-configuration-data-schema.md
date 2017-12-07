@@ -23,16 +23,17 @@ You can modify an existing schema file to include information about new configur
   
 <a name="Prereq"></a>   
 
-## Before you begin  
+## Before you begin 
 
-Download and install the [Microsoft Dynamics 365 SDK Xrm Configuration Migration Tool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf/9.0.0.7). 
+Download the Configuration Migration Tool. The Configuration Migration tool is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). To download the tool, see [Download tools from NuGet](../developer/download-tools-nuget.md). Follow the steps on this page to extract the **DataMigrationUtility.exe** tool. 
 
 -   You must have a schema file that was created using the Configuration Migration tool. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a schema to export configuration data](create-schema-export-configuration-data.md)  
   
-<a name="EditSchema"></a>   
+<a name="EditSchema"></a> 
+
 ## Modify a schema file  
   
-1.  Start the Configuration Migration tool.  
+1.  Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
   
 2.  On the main screen, click **Create schema**, and click **Continue**.  
   
