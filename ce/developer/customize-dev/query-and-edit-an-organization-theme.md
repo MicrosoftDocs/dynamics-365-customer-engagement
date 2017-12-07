@@ -79,28 +79,28 @@ GET <client_URL>/api/data/v8.0/themes?$filter=isdefaulttheme eq true&$select=def
 
 |Schema Name|Type|Value of default theme|Description|  
 |-----------------|----------|----------------------------|-----------------| 
-|AccentColor|String||The Unified Interface secondary theme color to be used on the process control.| 
+|AccentColor|String|#E83D0F|The Unified Interface secondary theme color to be used on the process control.| 
 |BackgroundColor|String|#FFFFFF|For internal use only.|
-|ControlBorder|String|#CCCCCC|The color that controls will use for borders.|  
-|ControlShade|String|#F3F1F1|The color for controls to use to indicate when you hover over items.|  
-|DefaultCustomEntityColor|String|#006551|The default custom entity color if no color is assigned.|  
-|DefaultEntityColor|String|#8B98AB|The default color for system entities if no color is assigned.|  
+|ControlBorder|String|#BDC3C7|The color that controls will use for borders.|  
+|ControlShade|String|#FFFFFF|The color for controls to use to indicate when you hover over items.|  
+|DefaultCustomEntityColor|String|#00CCA3|The default custom entity color if no color is assigned.|  
+|DefaultEntityColor|String|#666666|The default color for system entities if no color is assigned.|  
 |GlobalLinkColor|String|#1160B7|The color for links, such as email addresses or lookups.|  
 |HeaderColor|String|#1160B7|The color for header text, such as form tab labels.|  
-|HoverLinkEffect|String|#D7EBF9|The color that commands or lists will use when you hover over the items.|  
+|HoverLinkEffect|String|#E7EFF7|The color that commands or lists will use when you hover over the items.|  
 |ImportSequenceNumber|Integer|null|Sequence number of the import that created this record.|
 |IsDefaultTheme|Boolean|True|The default value for a custom theme is false.|
 |LogoId|String|null|The name of a web resource to use as a logo. Recommended dimensions are a height of 50 pixels and a maximum width of 400 pixels.|  
 |LogoToolTip|String|Microsoft Dynamics 365|The text that will be used as the tooltip and alt text for the logo.| 
 |MainColor|String|#3B79B7|The Unified Interface primary theme color to be used on main command bar, buttons and tabs.| 
-|Name|String|Dynamics 365 Default Theme|The name of the Theme entity.|  
+|Name|String|CRM Default Theme|The name of the Theme entity.|  
 |NavBarBackgroundColor|String|#002050|The primary navigation bar color.|  
 |NavBarShelfColor|String|#DFE2E8|The secondary navigation bar color.|  
 |OverriddenCreatedOn|DateTime|null|Date and time that the record was migrated.|  
 |PageHeaderBackgroundColor|String|#E0E0E0|The page header background color.|  
 |PanelHeaderBackgroundColor|String|#F3F3F3|The panel header background color.|  
-|ProcessControlColor|String|#0755BE|The primary color for process controls.|  
-|SelectedLinkEffect|String|#B1D6F0|The color that commands or lists will use to indicate selected items.| 
+|ProcessControlColor|String|#41A053|The primary color for process controls.|  
+|SelectedLinkEffect|String|#F8FAFC|The color that commands or lists will use to indicate selected items.| 
 |TransactionCurrencyId|Lookup|null|Exchange rate for the currency associated with the Theme with respect to the base currency.| 
  
  After you have applied changes, use the <xref:Microsoft.Crm.Sdk.Messages.PublishThemeRequest> message to make one of the theme records the current theme.  
