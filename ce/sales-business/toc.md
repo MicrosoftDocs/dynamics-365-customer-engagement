@@ -1,7 +1,8 @@
-# [Dynamics 365 for Sales](help-hub.md) 
+# [Dynamics 365 for Sales, Preview](help-hub.md) 
 ## [Overview](overview-dynamics-365-for-sales.md)
 
-## [Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+##  [Administrator & Sales Manager Guide](admin-guide.md)
+### [Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)
 ### [Add salespeople](add-edit-users.md)
 ### [Group salespeople into teams](add-edit-teams.md) 
 ### [Change color scheme or logo for your organization](change-color-scheme-logo.md)
@@ -19,8 +20,15 @@
 ### [Enable duplicate detection](enable-duplicate-detection.md) 
 ### [Manage sample data](manage-sample-data.md)
 
+## [Customization Guide](customization-guide.md)
+### [Customize forms](customize-forms.md)
+### [Customize views](customize-views.md)
+### [Customize business process flows](customize-business-process-flows.md)
+
 ## [User Guide](user-guide-dynamics-365-sales.md)
 ### [Learn the basics](learn-basics.md)
+### [Work with views (lists)](work-with-views.md)
+### [Use lookup field on forms](use-lookup-field-forms.md)
 ### [Assign a record to a user or team](assign-record-user-team.md)
 ### [Gain insights with dashboards](gain-insights-dashboards.md)
 ### [Manage your SharePoint documents](create-manage-documents.md)
@@ -35,4 +43,3 @@
 ### [Understand sales transactions](understand-sales-transactions.md)
 ### [Create and manage quotes](create-manage-quotes.md)
 ### [Create and manage invoices](create-manage-invoices.md)
-

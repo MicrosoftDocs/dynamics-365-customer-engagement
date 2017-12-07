@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Create or edit a business unit to control access to records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 A business unit is a logical grouping of related business activities. Use business units together with security roles to control data access so people see just the information they need to do their jobs.  
   

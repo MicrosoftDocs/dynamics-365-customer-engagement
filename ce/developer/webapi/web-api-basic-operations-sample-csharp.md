@@ -606,7 +606,7 @@ namespace Microsoft.Crm.Sdk.Samples
    //Equivalently, could have dissociated from the other end of the   
    // relationship, using the single-valued navigation ref, located in   
    // the contact 'Peter Cambel'.  This dissociation URI has a simpler form:  
-   // [Org URI]/api/data/v8.2/contacts([contactid#])/parentcustomerid_account/$ref   
+   // [Org URI]/api/data/v9.0/contacts([contactid#])/parentcustomerid_account/$ref   
   
    HttpResponseMessage disassocResponse1 =  
        await httpClient.DeleteAsync(dis1Uri);  

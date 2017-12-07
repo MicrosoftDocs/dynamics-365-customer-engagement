@@ -2,8 +2,8 @@
 title: Hub API Reference
 description: These APIs are exposed by the Customer Insights Hub endpoint.
 keywords: Customer Insights; Hub API
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/17/2017
 ms.topic: reference

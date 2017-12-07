@@ -2,8 +2,8 @@
 title: List Predictive Match Policy Types for a Hub (Hub)
 description: Lists the Predictive Match Policy type definitions for a Hub.
 keywords: Customer Insights; Hub API; predictive match policy; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/15/2017
 ms.topic: reference

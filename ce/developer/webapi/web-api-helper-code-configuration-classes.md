@@ -403,4 +403,5 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md)   
  [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Helper code: Authentication class](web-api-helper-code-authentication-class.md)   
- [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)
+ [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)   
+ [SDK samples Helper code for Organization Service endpoint](https://www.nuget.org/packages/Microsoft.CrmSdk.Samples.HelperCode-CS)  

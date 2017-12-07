@@ -1,12 +1,14 @@
 ---
-title: "Create a product catalog in Dynamics 365 for Sales | Microsoft Docs"
-description: "Understand how to create a product catalog in Dynamics 365 for Sales to make it easier for your sales rep to increase sales. "
+title: "Create a product catalog (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Understand how to create a product catalog in Dynamics 365 for Sales, Preview to make it easier for your sales rep to increase sales. "
 keywords: "Product; price; catalog"
-ms.date: 07/14/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: ec3c8946-bb2e-4b75-9527-ced4d6f993ee
 author: shubhadaj
 ms.author: shujoshi
@@ -15,11 +17,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Create a product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Create a product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Products are the backbone of your business. The product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
+Products are the backbone of your business. The product catalog in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview is a collection of products and their pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
 
 ## Add products
 
@@ -93,5 +97,5 @@ You may also use the import templates to bring in bulk data of products in to [!
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)

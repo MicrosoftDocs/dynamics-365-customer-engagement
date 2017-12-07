@@ -1,12 +1,14 @@
 ---
-title: "Import data from Exchange | Microsoft Docs"
-description: "Get your contacts from Microsoft Exchange into Dynamics 365 for Sales."
+title: "Import data from Exchange (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Get your contacts from Microsoft Exchange into Dynamics 365 for Sales, Preview."
 keywords: "Import; Track; Exchange; Contacts"
-ms.date: 08/16/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: cab1a29f-3f65-4036-b4e4-fa434e9a5926
 author: shubhadaj
 ms.author: shujoshi
@@ -16,6 +18,10 @@ topic-status: Drafting
 ---
 
 # Import data from Exchange in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
+[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 If you’ve been keeping track of all your contacts in Microsoft Exchange, you can quickly get all your contacts in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] so you have all your data in one place.
 
@@ -51,4 +57,4 @@ from Excel** > **Import from Exchange**.
 
 ### See Also
 [Import contacts, accounts, or leads into [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](import-data.md)  
-[User's guide for Dynamics 365 for Sales](user-guide-dynamics-365-sales.md)
+[User's guide for Dynamics 365 for Sales, Preview](user-guide-dynamics-365-sales.md)

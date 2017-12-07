@@ -17,7 +17,7 @@ ms.author: "matp"
 tags: 
  - "MigrationHO"
 ---
-# Accessibility features
+# Accessibility features in Unified Service Desk
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  
   
   

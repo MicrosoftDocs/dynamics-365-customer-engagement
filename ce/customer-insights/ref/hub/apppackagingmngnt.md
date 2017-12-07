@@ -2,8 +2,8 @@
 title: App Packaging Management APIs (Hub)
 description: These APIs enable management of WidgetTypes and application Views.
 keywords: Customer Insights; Hub API; application packaging; management
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

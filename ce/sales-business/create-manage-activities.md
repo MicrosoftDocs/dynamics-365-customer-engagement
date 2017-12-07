@@ -1,12 +1,14 @@
 ---
-title: "Create and manage activities in Dynamics 365 for Sales | Microsoft Docs"
-description: "Use activities to keep track of all your customer communications in Dynamics 365 for Sales."
+title: "Create and manage activities (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Use activities to keep track of all your customer communications in Dynamics 365 for Sales, Preview."
 keywords: "Task; Email; Phone; Appointment; sales"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 0019bfd9-bf51-4985-a230-1dd4317051bc
 author: shubhadaj
 ms.author: shujoshi
@@ -15,11 +17,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales
+# Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales, Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Keep track of all your customer communications with activities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
+Keep track of all your customer communications with activities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
 
 The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
@@ -85,5 +89,5 @@ After you call someone, complete a task, send an email, or go to an appointment,
   ![Command bar button to mark an activity complete](media/mark-complete-button.png "Command bar button to mark an activity complete")  
 
 ### See Also  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
 [Manage your customers](create-accounts-contacts-customers.md)

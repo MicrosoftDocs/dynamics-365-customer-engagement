@@ -1,7 +1,7 @@
 ---
 title: "Use the Dynamics 365 (online) service admin role to manage your tenant | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 12/04/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Use the service admin role to manage your tenant
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 To help you administer [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)], you can assign users to manage [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] at the tenant level without having to assign the more powerful [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global admin privileges.  
   
@@ -40,7 +40,7 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 |Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Dynamics 365 licenses|Approve Dynamics 365 emails|Access support requests|Access Service health|Access Message center|  
 |--------------------------------|----------------------|------------------|-----------------------------|------------------------|-------------------------------|---------------------------------|-----------------------------|---------------------------|---------------------------|  
 |Office 365 global admin|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
-|Exchange admin|n/a|n/a|n/a|n/a|n/a|Yes with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system admin role|n/a|Yes|Yes|  
+|Exchange admin|n/a|n/a|n/a|n/a|n/a|No|n/a|Yes|Yes|  
 |Office 365 service admin|No|No|No|No|No|No|Yes|Yes|Yes|  
 |Office 365 user with Dynamics 365 system admin role*|Yes|No|No|Yes|No|No|No|Only in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] admin center|No|  
 |Dynamics 365 service admin with Dynamics 365 system admin role|Yes|Yes|Yes|Yes|No|No|Yes|Yes|Yes|  

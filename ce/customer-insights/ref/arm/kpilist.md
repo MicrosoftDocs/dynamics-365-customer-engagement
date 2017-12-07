@@ -2,8 +2,8 @@
 title: List KPI Types for a Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Lists the KPI type definitions for a Hub.
 keywords: Customer Insights; ARM API; KPI; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/17/2017
 ms.topic: reference

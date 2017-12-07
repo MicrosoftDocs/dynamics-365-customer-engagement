@@ -2,8 +2,8 @@
 title: Create Or Update a Profile Type (Hub)
 description: Either creates a new Profile type or updates the type if it already exists. 
 keywords: Customer Insights; Hub API;  Profile; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/03/2016
 ms.topic: reference

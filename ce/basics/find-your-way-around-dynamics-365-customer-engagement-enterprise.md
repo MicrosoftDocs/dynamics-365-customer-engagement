@@ -16,8 +16,6 @@ ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 
 Click the tab for  the product or service you use.  
   
- horizontaltabbed  
-  
 ### Dynamics 365  
  With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], start by opening the app for your role: Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Operations, or Financials.  
   
@@ -36,9 +34,10 @@ Click the tab for  the product or service you use.
 2.  In the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app for your role.  
   
  ![Dynamics 365 Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Home page with 4 apps")  
-  
-    > [!TIP]
-    >  To go directly to the Home page, go to [https://home.dynamics.com](https://home.dynamics.com). You can also sign in to an app directly using a URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in with a URL.](https://go.microsoft.com/fwlink/p/?linkid=402537)  
+
+> [!TIP]
+>  To go directly to the Home page, go to [https://home.dynamics.com](https://home.dynamics.com). You can also sign in to an app directly using a URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in with a URL.](https://go.microsoft.com/fwlink/p/?linkid=402537) 
+
   
 ##### Switch to a different app  
   
@@ -197,7 +196,7 @@ Click the tab for  the product or service you use.
 ##### Where to go for more info on each app  
  [Dynamics 365 for Sales User Guide](../sales-enterprise/user-guide.md)
   
- [Dynamics 365 for Customer Service User Guide (Customer Service Hub](../customer-service/user-guide-customer-service-hub.md)</br>
+ [Dynamics 365 for Customer Service User Guide (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
  
  [Dynamics 365 for Customer Service User Guide (legacy web app)](../customer-service/user-guide-customer-service.md)  
   

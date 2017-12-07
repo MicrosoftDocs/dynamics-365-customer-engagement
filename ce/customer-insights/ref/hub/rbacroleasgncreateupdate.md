@@ -2,8 +2,8 @@
 title: Create or Update Role Assignment (Hub)
 description: Creates a new or updates an existing Role Assignment.
 keywords: Customer Insights; Hub API; role assignment; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/02/2016
 ms.topic: reference

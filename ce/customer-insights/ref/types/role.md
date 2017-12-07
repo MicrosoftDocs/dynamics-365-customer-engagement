@@ -2,8 +2,8 @@
 title: Role Type Definition
 description: A role defines a security group that has a set of defined permissions.
 keywords: Customer Insights; type; role
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/07/2017
 ms.topic: reference

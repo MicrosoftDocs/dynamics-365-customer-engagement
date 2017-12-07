@@ -1,12 +1,14 @@
 ---
-title: "Configure email in Dynamics 365 for Sales by integrating with Exchange | Microsoft Docs"
-description: "Enable your Dynamics 365 for Sales users to send and receive emails by integrating with Exchange."
+title: "Configure email by integrating with Exchange (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Enable your Dynamics 365 for Sales, Preview users to send and receive emails by integrating with Exchange."
 keywords: "Email; Exchange; Mailbox"
-ms.date: 07/14/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 9ab64600-b67c-4769-b2c0-cd94d2cc8150
 author: shubhadaj
 ms.author: shujoshi
@@ -15,13 +17,15 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Configure email in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] by integrating with Exchange 
+# Configure email in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview by integrating with Exchange 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-To store email and other messaging records in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], you need to synchronize it with your email system.
+To store email and other messaging records in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, you need to synchronize it with your email system.
 
-[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] uses server-side synchronization to synchronize your email system with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview uses server-side synchronization to synchronize your email system with [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)].
 
 ## What is Server Side Synchronization?
 
@@ -132,5 +136,5 @@ The error must automatically resolve now. If the error persists, please contact 
 
 
 ### See Also
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
+[Quick Setup & Advanced Settings overview](quick-setup-advanced-settings-overview.md)

@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Important information for CRM Online customers
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft is introducing [Dynamics 365](https://www.microsoft.com/dynamics365/home), the next generation of intelligent business applications that enable your organization to grow, evolve, and transform to meet the needs of your customers and capture new opportunities. As a result, Microsoft introduced new plans for customers November 1, 2016, that are similar, but not identical to your current plan.  
   

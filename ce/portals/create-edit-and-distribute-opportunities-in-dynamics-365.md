@@ -2,7 +2,7 @@
 title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
 description: "Learn about how you can use opportunities to notify your partners of sales prospects that they can follow up on."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -64,9 +64,8 @@ After an opportunity has been properly distributed to a partner, information on 
 
 ## Register a deal for a new or existing opportunity
 
-[//]: # (In the next two paragraphs, I think instead of "Dynamics" it should be a token for Dynanics 365.)
-Partners can register deals for opportunities that they have made on the portal to have exclusivity on the opportunity. Partners first navigate to the opportunity they have created on the portal and find the “Register” button at the bottom of the page. This creates a Deal Registration Request that can be seen on the opportunity in Dynamics.
+Partners can register deals for opportunities that they have made on the portal to have exclusivity on the opportunity. Partners first navigate to the opportunity they have created on the portal and find the “Register” button at the bottom of the page. This creates a Deal Registration Request that can be seen on the opportunity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 ## Approve opportunities registered by a partner
 
-After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity created in Dynamics. To approve the opportunity, change its status to **Accepted**.
+After an opportunity has been made by a partner through the portal, the opportunity will appear as an open opportunity in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Navigate to the opportunity through **Sales** &gt; **Opportunities** and it will function like any other opportunity created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. To approve the opportunity, change its status to **Accepted**.

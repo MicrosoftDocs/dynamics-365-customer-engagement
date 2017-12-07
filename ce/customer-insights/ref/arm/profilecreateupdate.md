@@ -2,8 +2,8 @@
 title: Create or Update Profile Type (ARM)
 description: Creates a new or updates an existing Profile.
 keywords: Customer Insights; ARM API; Profile; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/08/2017
 ms.topic: reference

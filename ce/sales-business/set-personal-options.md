@@ -1,12 +1,14 @@
 ---
-title: "Set personal options in Dynamics 365 for Sales | Microsoft Docs"
-description: "Personalize your workspace in Dynamics 365 for Sales. "
+title: "Set personal options (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Personalize your workspace in Dynamics 365 for Sales, Preview. "
 keywords: "Personalize; Personal option; timezone; calendar; work hours"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: c9cd136b-1c4e-4259-83b6-19b3c26ecb61
 author: shubhadaj
 ms.author: shujoshi
@@ -15,11 +17,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Set personal options in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Set personal options in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Personalize your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] workspace to suit your requirements or preferences. For example, personalize how you want to see your calendar or set the time zone you work in.
+Personalize your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview workspace to suit your requirements or preferences. For example, personalize how you want to see your calendar or set the time zone you work in.
 
 | **Options**         | **Description**           |
 |---------------------|---------------------------|
@@ -34,4 +38,4 @@ Personalize your [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-busi
 
 
 ### See Also
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)
