@@ -44,12 +44,12 @@ If your solution requires supporting or demo data:
 
 For detailed information about using the Configuration Migration tool to create a schema and export your data, see [Create a schema to export configuration data](../admin/create-schema-export-configuration-data.md)
 
-## What will you have after this step
+## At the end of this step
 
-At the end of this step, you will have a solution file (example: *SampleSolution.zip*) and optionally a demo data file (example: *SampleData.zip*) for your app.
+You will have a solution file (example: *SampleSolution.zip*) and optionally a demo data file (example: *SampleData.zip*) for your app.
 
 
 > [!div class="nextstepaction"]
-> [Create and manage VM disks](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks) 
+> [Step 3: Create a package for your app](create-package-app-appsource.md) 
   
 
