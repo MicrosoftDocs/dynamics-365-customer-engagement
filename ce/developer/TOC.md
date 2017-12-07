@@ -259,7 +259,7 @@
 #### [Use managed properties](use-managed-properties.md)
 #### [Maintain managed solutions](maintain-managed-solutions.md)
 #### [Create patches to simplify solution updates](create-patches-simplify-solution-updates.md)
-#### [Register your app with AppSource](register-app-appsource.md)
+#### [Publish your app on AppSource](publish-app-appsource.md)
 ### [Dependency tracking for solution components](dependency-tracking-solution-components.md)
 ### [Create, export, or import an unmanaged solution](create-export-import-unmanaged-solution.md)
 ### [Create, install, and update a managed solution](create-install-update-managed-solution.md)

@@ -1,5 +1,5 @@
 ---
-title: "Publish your app with AppSource (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Publish your app on AppSource (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Publish your Dynamics 365 app with Microsoft AppSource so that subscribers can find it, try it, and buy it."
 ms.custom: ""
 ms.date: 12/15/2017
@@ -16,16 +16,18 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Publish your app with AppSource
+# Publish your apps on AppSource
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Publish your apps on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement subscribers can find it, try it, and buy it.  
   
-Before you proceed to publish your app on the AppSource, you must visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners), and read the **App review guidelines** to understand whether your app is a good fit for AppSource. All apps that are listed on AppSource must complete a certification process. The level of rigor applied to the certification process depends on the type of submission you want to offer.
+Before you proceed to publish your app on the AppSource, you must visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners), and read the **App review guidelines** to understand whether your app is a good fit for AppSource. All apps that are listed on AppSource must go through a certification process.
 
-Publishing an app to AppSource involves a series of steps including preparing your app for submission, and then creating an offer on the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app. Instructions about preparing your app for submission will be covered here. 
-- Step 1:  
+Publishing an app to AppSource involves a series of steps such as registering on the Microsoft Partner Network (MPN), preparing your app for submission, creating an offer on the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app. 
+- Instructions about making your app ready for submission will be covered in this document.
+- Instructions about creating an offer on the Cloud Partner Portal to submit your app for testing and certification process is available in the [portal documentation](https://cloudpartner.azure.com/#documentation/getting-started-with-the-cloud-partner-portal), which is accessible only to the approved members of Microsoft Partner Network. 
+  
   
  <!--If your app is a good fit, please proceed to the next step to submit your app. The specific process for this may change over time, but at the time this was written the process consists of a form where you will let us know about your app and how to contact you. After that, someone will contact you and help lead you through the process of registering your app.  
   
