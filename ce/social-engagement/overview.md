@@ -2,7 +2,7 @@
 title: "Introduction to and overview of Social Engagement and related scenarios | Microsoft Docs"
 description: "Learn about Social Engagement and get started using the service."
 keywords: "social engagement, overview, quick start, scenarios"
-ms.date: 12/04/2017
+ms.date: 12/07/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -40,7 +40,6 @@ See how some of our customers are using [!INCLUDE[Social Engagement](../includes
 
 ## Pricing information
 
-[//]: # (Via Writing Style Guide: "Avoid please except in situations where the customer is asked to do something inconvenient or the application or site is to blame for the situation. ")
 [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
 Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
 

@@ -2,7 +2,7 @@
 title: "Configure the automatic record creation for social activity entities from Social Engagement | Microsoft Docs"
 description: "Learn how to configure rules in Dynamics 365 to automatically turn social activities into records."
 keywords: "rule framework, update rules, create record, entity mapping"
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -15,7 +15,6 @@ topic-status: Drafting
 ---
 
 # Configure Automatic Record Creation and Update Rules in Dynamics 365 to process Social Actity entities from Social Engagement
-[//]: # (Edit suggested to match the name on the Settings menu.)
 
 To automatically create an entity record (such as a Case or a Lead) from a Social Activity record in [!include[](../includes/pn-dynamics-crm.md)], an administrator or customizer must configure Automatic Record Creation and Update Rules in [!include[](../includes/pn-dynamics-crm.md)].
 

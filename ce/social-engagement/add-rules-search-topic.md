@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -43,7 +43,6 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
   
 ## Add a rule to a search topic  
 To enable searches and collect posts, add one or more rules to a search topic.  
-[//]: # (Edit okay? Just to make it clear that the maximum of 128 characters applies to each element.)
 
 > [!IMPORTANT]
 >  Your keywords, inclusions, and exclusions can each extend up to 128 characters. You can add up to 15 keywords and inclusions per search rule and up to 25 exclusions per search rule.  
@@ -70,7 +69,6 @@ To enable searches and collect posts, add one or more rules to a search topic.
 7.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your search topic, or click **Add** to add another rule to your topic.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the e-book](http://go.microsoft.com/fwlink/p/?LinkID=394392)  
-[//]: # ("e-book" is via Writing Style Guide. The videos-ebooks.md topic needs to be updated accordingly.)
 
 <a name="addKeywordsRule"></a>   
 ## Add a keywords rule  
