@@ -27,6 +27,12 @@ Before you proceed to publish your app on the AppSource, you must visit [https:/
 Publishing an app to AppSource involves a series of steps such as registering on the Microsoft Partner Network (MPN), preparing your app for submission, creating an offer on the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app. 
 - Instructions about making your app ready for submission will be covered in this document.
 - Instructions about creating an offer on the Cloud Partner Portal to submit your app for testing and certification process is available in the [portal documentation](https://cloudpartner.azure.com/#documentation/getting-started-with-the-cloud-partner-portal), which is accessible only to the approved members of Microsoft Partner Network. 
+
+Publishing an app using the following steps:
+
+> [Step 1: Register for Microsoft Partner Network account](register-microsoft-partner-network.md)
+
+> [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
   
   
  <!--If your app is a good fit, please proceed to the next step to submit your app. The specific process for this may change over time, but at the time this was written the process consists of a form where you will let us know about your app and how to contact you. After that, someone will contact you and help lead you through the process of registering your app.  

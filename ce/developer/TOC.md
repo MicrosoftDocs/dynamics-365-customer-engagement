@@ -259,7 +259,6 @@
 #### [Use managed properties](use-managed-properties.md)
 #### [Maintain managed solutions](maintain-managed-solutions.md)
 #### [Create patches to simplify solution updates](create-patches-simplify-solution-updates.md)
-#### [Publish your app on AppSource](publish-app-appsource.md)
 ### [Dependency tracking for solution components](dependency-tracking-solution-components.md)
 ### [Create, export, or import an unmanaged solution](create-export-import-unmanaged-solution.md)
 ### [Create, install, and update a managed solution](create-install-update-managed-solution.md)
@@ -272,6 +271,11 @@
 ### [Sample: Work with solutions](sample-work-solutions.md)
 ### [Sample: Detect solution dependencies](sample-detect-solution-dependencies.md)
 ## [Create and manage custom business apps using code](create-manage-custom-business-apps-using-code.md)
+
+## [Publish your app on AppSource](publish-app-appsource.md)
+### [Step 1: Register for Microsoft Partner Network account](register-microsoft-partner-network.md)
+### [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
+
 ## [Extend Outlook Client](outlook-client/)
 ## [Integrate with SharePoint](integration-dev/integrate-sharepoint.md)
 ### [Get started with SharePoint integration](integration-dev/get-started-sharepoint-integration.md)
