@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 11/23/2017
+ms.date: 12/07/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -47,21 +47,16 @@ Data acquisition and acquisition of private messages from your social profiles r
 <a name="addsocialprofile"></a>   
 ## Add a social profile for Twitter or Facebook  
 
-[//]: # (Some of the content in this introduction seems to apply to all social profiles, not just Facebook and Twitter. Perhaps it was written before the other types of profiles were added? It also seems a bit repetitive, except for the Tip. Also, the combination of H2s and H3s is awkward, and the headings aren't parallel. Suggest renaming this H2 to something more general like "Adding social profiles." Move the Tip after the second paragraph. Delete the third paragraph. Move the Note to the beginning of the section under the H3 "Add a Facebook page to your social profiles." Make all the subsequent procedures H3s.)  
+Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. By default, the process of adding a social profile doesn’t acquire any data. You must explicitly allow the data acquisition on the social profile to gather private messages or direct messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tokens for interactions with posts](manage-access-tokens.md#interaction_token) 
+
 > [!TIP]
 >  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] application. This ensures that the authentication dialog box from [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] loads properly. If it doesn't, you won’t be able to add or re-authorize social profiles.  
   
- Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. By default, the process of adding a social profile doesn’t acquire any data. You must explicitly allow the data acquisition on the social profile to gather private messages or direct messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tokens for interactions with posts](manage-access-tokens.md#interaction_token)  
-  
- You can add a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles, and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles are personal profiles for individual people. [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages are represented and managed by people with [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles. People with [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles can manage multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.  
-  
-> [!NOTE]
->  When you plan to engage with a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], make sure that you have the appropriate permissions for that profile. For [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)  
-  
-[//]: # (Step 5 in this procedure is slightly different from the steps under "Add a LinkedIn Organization Page to your social profiles" and I wonder if they should be more alike. By "you can select from the list of Facebook pages...", are you setting up one more step? When you say "after you add the Facebook page...," do you mean that the user needs to select **Save** like they do in the LinkedIn Org Page procedure?)
-[//]: # (It's an additional step compared to LinkedIn. For FB, admin authenticates account, then selects pages to add for social profile. For LI, user authenticaes a user account exclusively.)
 <a name="addfacebookpage"></a>   
 ### Add a Facebook page to your social profiles  
+
+> [!NOTE]
+>  When you plan to engage with a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], make sure that you have the appropriate permissions for that profile. For [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
   
 1.  Go to **Settings** > **Social Profiles**.  
   
@@ -173,7 +168,6 @@ To enable engagement actions on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)
 >  Make sure you share the profiles with users who have a user role of Manager or Responder and are authorized to view or access the social profile feature. Sharing is only available if the social profile allows interactions with posts. Every user who this social profile is shared with can use this profile to publish actions through tokens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)    
 > While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
   
-[//]: # (In the "Claim ownership..." topic, you called it the "profile details pane," so I used that term in the other procedures too. I assume this isn't the literal name of the pane, right? If it is, it of course should be **Profile Details** pane.)
 <a name="shareasocialprofile"></a>   
 ### Share a social profile  
   
