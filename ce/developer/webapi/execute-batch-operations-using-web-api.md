@@ -2,7 +2,7 @@
 title: "Execute batch operations using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Batch operation lets you group multiple operations in a single HTTP request. Read how to execute batch operations using the Web API"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -24,7 +24,7 @@ You can group multiple operations into a single HTTP request using a batch opera
   
 <a name="bkmk_Whentousebatchrequests"></a>   
 ## When to use batch requests  
- The value that batch requests provide is that they can include change sets, which provide a way to bundle a number of operations that either succeed or fail as a group. in a transaction Compared to other operations that can be performed using the web API, they are more difficult to compose without some object model that includes serialization of objects or a deeper understanding of the HTTP protocol because the request body is essentially a text document that must match very specific requirements.  
+ The value that batch requests provide is that they can include change sets, which provide a way to bundle a number of operations that either succeed or fail as a group. Compared to other operations that can be performed using the web API, they are more difficult to compose without some object model that includes serialization of objects or a deeper understanding of the HTTP protocol because the request body is essentially a text document that must match very specific requirements.  
   
  Remember that associated entities can be created in a single operation more easily than using a batch request. Batch requests are best used when performing operations on entities that aren’t associated with each other when all the operations must be performed in a single transactional operation.  
   
@@ -189,7 +189,21 @@ OData-Version: 4.0
 }  
 --batchresponse_c1bd45c1-dd81-470d-b897-e965846aad2f--  
 ```  
+Include `odata.include-annotations` preference header with the `GET` requests and set its value to "*" to specify that all annotations related to the properties be returned.
+
+```HTTP
+--batch_AAA123  
+Content-Type: application/http  
+Content-Transfer-Encoding:binary  
   
+GET [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-000000000001)?$select=name,telephone1,emailaddress1,shippingmethodcode,customersizecode,accountratingcode,followemail,donotemail,donotphone,statuscode HTTP/1.1  
+Accept: application/json  
+Prefer: odata.include-annotations="*"
+  
+--batch_AAA123-- 
+```
+For more information on preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
+
 ### See also
 
  [Perform operations using the Web API](perform-operations-web-api.md)   
