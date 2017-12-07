@@ -71,7 +71,7 @@ GET <client_URL>/api/data/v8.0/themes?$filter=isdefaulttheme eq true&$select=def
 
 ## Edit and publish theme data
 
- A theme is created by using the customization tools in the UI, without requiring a developer to write code. Details about how to apply these customizations can be found in [Change the color scheme or add a logo to match your organization’s brand](https://technet.microsoft.com/library/21a166a0-d25e-4260-a1e4-2ddc528787c2.aspx).  
+ A theme is created by using the customization tools in the UI, without requiring a developer to write code. Details about how to apply these customizations can be found in [Change the color scheme or add a logo to match your organization’s brand](../../customize/change-color-scheme-add-logo-match-organizations-brand.md).  
 
  Most theme data is stored within the Theme entity. Customized colors for specific entities is included in the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.EntityColor> property. This data is exported with the entity if the entity is included in a solution.
 
@@ -109,9 +109,10 @@ GET <client_URL>/api/data/v8.0/themes?$filter=isdefaulttheme eq true&$select=def
 
 ## Exporting and importing themes
 
- Because themes aren’t included as part of a solution, if you want to transfer themes from one organization to another you can use the Configuration Migration tool to generate a schema, export the theme data, and import it into a different organization. For details about how to use this tool, see [Manage configuration data](https://technet.microsoft.com/library/dn647421.aspx).  
+ Because themes aren’t included as part of a solution, if you want to transfer themes from one organization to another you can use the Configuration Migration tool to generate a schema, export the theme data, and import it into a different organization. For details about how to use this tool, see [Move configuration data using the Configuration Migration Tool](../../admin/manage-configuration-data.md).  
 
 ### See also
 
  [Theme Entity](../entities/theme.md)   
+ [Create a theme](../../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
  [Developers guide to customization for Microsoft Dynamics 365](customize-applications.md)
