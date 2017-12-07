@@ -12,10 +12,6 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
-searchScope:
- - testScope1
- - testScope2
- - Dynamics365
 ---
 # Available Liquid objects
 
