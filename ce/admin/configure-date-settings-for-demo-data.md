@@ -29,7 +29,7 @@ You can set the values of datetime fields to automatically move forward by a spe
 > [!NOTE]
 > This option is to keep data recent in your demo environments. It is not intended for production use. 
 
-1.  Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder \[your folder]\Tools\ConfigurationMigration  
+1.  Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
   
 2.  On the main screen, click **Create schema**, and click **Continue**.  
   
