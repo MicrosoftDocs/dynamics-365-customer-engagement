@@ -1,7 +1,7 @@
 ---
 title: "UserEntityUISettings Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the UserEntityUISettings entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # UserEntityUISettings Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Stores user settings for entity views.
 
@@ -30,17 +28,20 @@ Stores user settings for entity views.
 
 ## Entity Properties
 
-**DisplayName**: User Entity UI Settings<br />
-**DisplayCollectionName**: User Entity UI Settings<br />
-**SchemaName**: UserEntityUISettings<br />
-**CollectionSchemaName**: UserEntityUISettingses<br />
-**LogicalName**: userentityuisettings<br />
-**LogicalCollectionName**: userentityuisettingses<br />
-**EntitySetName**: userentityuisettingsset<br />
-**PrimaryIdAttribute**: userentityuisettingsid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|UserEntityUISettingses|
+|DisplayCollectionName|User Entity UI Settings|
+|DisplayName|User Entity UI Settings|
+|EntitySetName|userentityuisettingsset|
+|IsBPFEntity|False|
+|LogicalCollectionName|userentityuisettingses|
+|LogicalName|userentityuisettings|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|userentityuisettingsid|
+|PrimaryNameAttribute||
+|SchemaName|UserEntityUISettings|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -63,169 +64,197 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_InsertIntoEmailMRUXml"></a> InsertIntoEmailMRUXml
 
-**Description**: Describes which entities are most recently inserted into email for this entity<br />
-**DisplayName**: Most Recently Inserted Into Email Xml<br />
-**LogicalName**: insertintoemailmruxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Describes which entities are most recently inserted into email for this entity|
+|DisplayName|Most Recently Inserted Into Email Xml|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|insertintoemailmruxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_LastViewedFormXml"></a> LastViewedFormXml
 
-**Description**: Describes which forms are most recently viewed for this entity.<br />
-**DisplayName**: Last Viewed Form Xml<br />
-**LogicalName**: lastviewedformxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Describes which forms are most recently viewed for this entity.|
+|DisplayName|Last Viewed Form Xml|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|lastviewedformxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_LookupMRUXml"></a> LookupMRUXml
 
-**Description**: List of most recently used lookup references for this entity<br />
-**DisplayName**: Most Recently Used Xml<br />
-**LogicalName**: lookupmruxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|List of most recently used lookup references for this entity|
+|DisplayName|Most Recently Used Xml|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|lookupmruxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_MRUXml"></a> MRUXml
 
-**Description**: Describes which tabs are most recently used for this entity<br />
-**DisplayName**: Most Recently Used Xml<br />
-**LogicalName**: mruxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Describes which tabs are most recently used for this entity|
+|DisplayName|Most Recently Used Xml|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mruxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_ObjectTypeCode"></a> ObjectTypeCode
 
-**Description**: Object Type Code<br />
-**DisplayName**: <br />
-**LogicalName**: objecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Object Type Code|
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|objecttypecode|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Unique identifier of the user or team who owns the settings.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user or team who owns the settings.|
+|DisplayName|Owner|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Type of the owner of the saved view, such as user, team, or business unit.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Type of the owner of the saved view, such as user, team, or business unit.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_ReadingPaneXml"></a> ReadingPaneXml
 
-**Description**: Describes the reading pane formatting of this entity<br />
-**DisplayName**: Conditional formatting<br />
-**LogicalName**: readingpanexml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Describes the reading pane formatting of this entity|
+|DisplayName|Conditional formatting|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|readingpanexml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_RecentlyViewedXml"></a> RecentlyViewedXml
 
-**Description**: Describes which objects are most recently viewed for this entity<br />
-**DisplayName**: Most Recently Viewed Objects<br />
-**LogicalName**: recentlyviewedxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Describes which objects are most recently viewed for this entity|
+|DisplayName|Most Recently Viewed Objects|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|recentlyviewedxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_ShowInAddressBook"></a> ShowInAddressBook
 
-**Description**: Determines whether a record type is exposed in the Outlook Address Book<br />
-**DisplayName**: Show In Address Book<br />
-**LogicalName**: showinaddressbook<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Determines whether a record type is exposed in the Outlook Address Book|
+|DisplayName|Show In Address Book|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|showinaddressbook|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### ShowInAddressBook Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
 
 
+
 ### <a name="BKMK_TabOrderXml"></a> TabOrderXml
 
-**Description**: Describes the tab ordering for this entity<br />
-**DisplayName**: Tab Order Xml<br />
-**LogicalName**: taborderxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Describes the tab ordering for this entity|
+|DisplayName|Tab Order Xml|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|taborderxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_UserEntityUISettingsId"></a> UserEntityUISettingsId
 
-**Description**: Unique identifier user entity<br />
-**DisplayName**: <br />
-**LogicalName**: userentityuisettingsid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier user entity|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|userentityuisettingsid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -241,79 +270,91 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner of the saved view.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner of the saved view.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier of the business unit that owns this.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the business unit that owns this.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier of the team who owns this saved view.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the team who owns this saved view.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user who owns this saved view.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who owns this saved view.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -325,27 +366,15 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_userentityuisettings"></a> userentityinstancedata_userentityuisettings
 
 Same as userentityinstancedata entity [userentityinstancedata_userentityuisettings](userentityinstancedata.md#BKMK_userentityinstancedata_userentityuisettings) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_userentityuisettings<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_userentityuisettings|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -370,7 +399,7 @@ See businessunit Entity [userentityuisettings_businessunit](businessunit.md#BKMK
 
 See systemuser Entity [userentityuisettings_owning_user](systemuser.md#BKMK_userentityuisettings_owning_user) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

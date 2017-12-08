@@ -1,7 +1,7 @@
 ---
 title: "msdyn_organizationalunit_pricelevel Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_organizationalunit_pricelevel entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -13,7 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_organizationalunit_pricelevel Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+
 
 ## Messages
 
@@ -23,17 +24,20 @@ manager: "jdaly"
 
 ## Entity Properties
 
-**DisplayName**: <br />
-**DisplayCollectionName**: <br />
-**SchemaName**: msdyn_organizationalunit_pricelevel<br />
-**CollectionSchemaName**: <br />
-**LogicalName**: msdyn_organizationalunit_pricelevel<br />
-**LogicalCollectionName**: <br />
-**EntitySetName**: msdyn_organizationalunit_pricelevelset<br />
-**PrimaryIdAttribute**: msdyn_organizationalunit_pricelevelid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName||
+|DisplayCollectionName||
+|DisplayName||
+|EntitySetName|msdyn_organizationalunit_pricelevelset|
+|IsBPFEntity|False|
+|LogicalCollectionName||
+|LogicalName|msdyn_organizationalunit_pricelevel|
+|OwnershipType|None|
+|PrimaryIdAttribute|msdyn_organizationalunit_pricelevelid|
+|PrimaryNameAttribute||
+|SchemaName|msdyn_organizationalunit_pricelevel|
+
 <a name="read-only-attributes"></a>
 ## Read-only attributes
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
@@ -46,48 +50,56 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_organizationalunit_pricelevelId"></a> msdyn_organizationalunit_pricelevelId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_organizationalunit_pricelevelid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_organizationalunit_pricelevelid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_organizationalunitid"></a> msdyn_organizationalunitid
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_organizationalunitid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_organizationalunitid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_pricelevelid"></a> pricelevelid
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: pricelevelid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|pricelevelid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytomany"></a>
 
@@ -100,7 +112,7 @@ Relationship details provided where the msdyn_organizationalunit_pricelevel enti
 
 See msdyn_organizationalunit Entity [msdyn_organizationalunit_pricelevel](msdyn_organizationalunit.md#BKMK_msdyn_organizationalunit_pricelevel) Many-To-Many Relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

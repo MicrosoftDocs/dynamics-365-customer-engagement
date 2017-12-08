@@ -1,7 +1,7 @@
 ---
 title: "msdyn_workorder Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_workorder entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # msdyn_workorder Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Work orders store all information about the job performed for an account. Stores incident details, resource, expenses, tasks, communications, billing and more
 
@@ -39,17 +37,20 @@ Work orders store all information about the job performed for an account. Stores
 
 ## Entity Properties
 
-**DisplayName**: Work Order<br />
-**DisplayCollectionName**: Work Orders<br />
-**SchemaName**: msdyn_workorder<br />
-**CollectionSchemaName**: msdyn_workorders<br />
-**LogicalName**: msdyn_workorder<br />
-**LogicalCollectionName**: msdyn_workorders<br />
-**EntitySetName**: msdyn_workorders<br />
-**PrimaryIdAttribute**: msdyn_workorderid<br />
-**PrimaryNameAttribute**: msdyn_name<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|msdyn_workorders|
+|DisplayCollectionName|Work Orders|
+|DisplayName|Work Order|
+|EntitySetName|msdyn_workorders|
+|IsBPFEntity|False|
+|LogicalCollectionName|msdyn_workorders|
+|LogicalName|msdyn_workorder|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_workorderid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_workorder|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -129,938 +130,1104 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Shows the sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows the sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_Address1"></a> msdyn_Address1
 
-**Description**: <br />
-**DisplayName**: Address 1<br />
-**LogicalName**: msdyn_address1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Address 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_address1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_Address2"></a> msdyn_Address2
 
-**Description**: <br />
-**DisplayName**: Address 2<br />
-**LogicalName**: msdyn_address2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Address 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_address2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_Address3"></a> msdyn_Address3
 
-**Description**: <br />
-**DisplayName**: Address 3<br />
-**LogicalName**: msdyn_address3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Address 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_address3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AddressName"></a> msdyn_AddressName
 
-**Description**: <br />
-**DisplayName**: Address Name<br />
-**LogicalName**: msdyn_addressname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Address Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_addressname|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_Agreement"></a> msdyn_Agreement
 
-**Description**: Shows the agreement linked to this work order.<br />
-**DisplayName**: Agreement<br />
-**LogicalName**: msdyn_agreement<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_agreement
+|Property|Value|
+|--------|-----|
+|Description|Shows the agreement linked to this work order.|
+|DisplayName|Agreement|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreement|
+|RequiredLevel|None|
+|Targets|msdyn_agreement|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_BillingAccount"></a> msdyn_BillingAccount
 
-**Description**: Account to be billed. If a billing account has been set on service account it will be populated by default. Otherwise, the billing account will be the same as the service account.<br />
-**DisplayName**: Billing Account<br />
-**LogicalName**: msdyn_billingaccount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Account to be billed. If a billing account has been set on service account it will be populated by default. Otherwise, the billing account will be the same as the service account.|
+|DisplayName|Billing Account|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccount|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_BookingSummary"></a> msdyn_BookingSummary
 
-**Description**: Shows a synopsis of the bookings on the work order. This field is automatically updated by the system whenever a resource booking on the work order is changed.<br />
-**DisplayName**: Booking Summary<br />
-**LogicalName**: msdyn_bookingsummary<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 10000
+|Property|Value|
+|--------|-----|
+|Description|Shows a synopsis of the bookings on the work order. This field is automatically updated by the system whenever a resource booking on the work order is changed.|
+|DisplayName|Booking Summary|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookingsummary|
+|MaxLength|10000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_ChildIndex"></a> msdyn_ChildIndex
 
-**Description**: <br />
-**DisplayName**: Child Index<br />
-**LogicalName**: msdyn_childindex<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Child Index|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_childindex|
+|MaxValue|2147483647|
+|MinValue|1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_City"></a> msdyn_City
 
-**Description**: <br />
-**DisplayName**: City<br />
-**LogicalName**: msdyn_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ClosedBy"></a> msdyn_ClosedBy
 
-**Description**: The user that last closed this work order<br />
-**DisplayName**: Closed By<br />
-**LogicalName**: msdyn_closedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|The user that last closed this work order|
+|DisplayName|Closed By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_closedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Country"></a> msdyn_Country
 
-**Description**: <br />
-**DisplayName**: Country/Region<br />
-**LogicalName**: msdyn_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_CustomerAsset"></a> msdyn_CustomerAsset
 
-**Description**: Customer Asset related to this incident reported<br />
-**DisplayName**: Primary Incident Customer Asset<br />
-**LogicalName**: msdyn_customerasset<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_customerasset
+|Property|Value|
+|--------|-----|
+|Description|Customer Asset related to this incident reported|
+|DisplayName|Primary Incident Customer Asset|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerasset|
+|RequiredLevel|None|
+|Targets|msdyn_customerasset|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_DateWindowEnd"></a> msdyn_DateWindowEnd
 
-**Description**: <br />
-**DisplayName**: Date Window End<br />
-**LogicalName**: msdyn_datewindowend<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Date Window End|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_datewindowend|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_DateWindowStart"></a> msdyn_DateWindowStart
 
-**Description**: <br />
-**DisplayName**: Date Window Start<br />
-**LogicalName**: msdyn_datewindowstart<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Date Window Start|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_datewindowstart|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_EstimateSubtotalAmount"></a> msdyn_EstimateSubtotalAmount
 
-**Description**: Enter the summary of total estimated billing amount for this work order<br />
-**DisplayName**: Estimate Subtotal Amount<br />
-**LogicalName**: msdyn_estimatesubtotalamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Enter the summary of total estimated billing amount for this work order|
+|DisplayName|Estimate Subtotal Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_estimatesubtotalamount|
+|MaxValue|1000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_FollowUpNote"></a> msdyn_FollowUpNote
 
-**Description**: Indicate the details of the follow up work<br />
-**DisplayName**: Follow Up Note (Deprecated)<br />
-**LogicalName**: msdyn_followupnote<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 8000
+|Property|Value|
+|--------|-----|
+|Description|Indicate the details of the follow up work|
+|DisplayName|Follow Up Note (Deprecated)|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_followupnote|
+|MaxLength|8000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_FollowUpRequired"></a> msdyn_FollowUpRequired
 
-**Description**: Allows indication if follow up work is required for a work order.<br />
-**DisplayName**: Follow Up Required (Deprecated)<br />
-**LogicalName**: msdyn_followuprequired<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Allows indication if follow up work is required for a work order.|
+|DisplayName|Follow Up Required (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_followuprequired|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_FollowUpRequired Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_msdyn_Instructions"></a> msdyn_Instructions
 
-**Description**: Shows instructions for booked resources. By default, this information is taken from the work order instructions field on the service account.<br />
-**DisplayName**: Instructions<br />
-**LogicalName**: msdyn_instructions<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 8000
+|Property|Value|
+|--------|-----|
+|Description|Shows instructions for booked resources. By default, this information is taken from the work order instructions field on the service account.|
+|DisplayName|Instructions|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_instructions|
+|MaxLength|8000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_InternalFlags"></a> msdyn_InternalFlags
 
-**Description**: For internal use only.<br />
-**DisplayName**: Internal Flags<br />
-**LogicalName**: msdyn_internalflags<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1048576
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Internal Flags|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_internalflags|
+|MaxLength|1048576|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_IoTAlert"></a> msdyn_IoTAlert
 
 **Added by**: Connected Field Service for Microsoft Dynamics 365 Solution<br />
-**Description**: The iot alert which initiated this work order.<br />
-**DisplayName**: IoT Alert<br />
-**LogicalName**: msdyn_iotalert<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_iotalert
+|Property|Value|
+|--------|-----|
+|Description|The iot alert which initiated this work order.|
+|DisplayName|IoT Alert|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_iotalert|
+|RequiredLevel|None|
+|Targets|msdyn_iotalert|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_IsFollowUp"></a> msdyn_IsFollowUp
 
-**Description**: <br />
-**DisplayName**: Is FollowUp (Deprecated)<br />
-**LogicalName**: msdyn_isfollowup<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is FollowUp (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isfollowup|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IsFollowUp Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_IsMobile"></a> msdyn_IsMobile
 
-**Description**: <br />
-**DisplayName**: Is Mobile<br />
-**LogicalName**: msdyn_ismobile<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is Mobile|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ismobile|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IsMobile Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_msdyn_Latitude"></a> msdyn_Latitude
 
-**Description**: <br />
-**DisplayName**: Latitude<br />
-**LogicalName**: msdyn_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_msdyn_Longitude"></a> msdyn_Longitude
 
-**Description**: <br />
-**DisplayName**: Longitude<br />
-**LogicalName**: msdyn_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
-**Description**: Enter the name of the custom entity.<br />
-**DisplayName**: Work Order Number<br />
-**LogicalName**: msdyn_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Enter the name of the custom entity.|
+|DisplayName|Work Order Number|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_name|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_OpportunityId"></a> msdyn_OpportunityId
 
-**Description**: Unique identifier for Opportunity associated with Work Order.<br />
-**DisplayName**: Opportunity<br />
-**LogicalName**: msdyn_opportunityid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: opportunity
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Opportunity associated with Work Order.|
+|DisplayName|Opportunity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_opportunityid|
+|RequiredLevel|None|
+|Targets|opportunity|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ParentWorkOrder"></a> msdyn_ParentWorkOrder
 
-**Description**: Unique identifier for Work Order associated with Work Order.<br />
-**DisplayName**: Parent Work Order<br />
-**LogicalName**: msdyn_parentworkorder<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_workorder
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Work Order associated with Work Order.|
+|DisplayName|Parent Work Order|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_parentworkorder|
+|RequiredLevel|None|
+|Targets|msdyn_workorder|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_PostalCode"></a> msdyn_PostalCode
 
-**Description**: <br />
-**DisplayName**: Postal Code<br />
-**LogicalName**: msdyn_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PreferredResource"></a> msdyn_PreferredResource
 
-**Description**: The customer Preferred Resource to work on this job. Should be taken into consideration while scheduling resources<br />
-**DisplayName**: Preferred Resource (Deprecated)<br />
-**LogicalName**: msdyn_preferredresource<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: bookableresource
+|Property|Value|
+|--------|-----|
+|Description|The customer Preferred Resource to work on this job. Should be taken into consideration while scheduling resources|
+|DisplayName|Preferred Resource (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_preferredresource|
+|RequiredLevel|None|
+|Targets|bookableresource|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_PriceList"></a> msdyn_PriceList
 
-**Description**: Price List that controls pricing for products / services added to this work order. By default the system will use the Price List specified on the account<br />
-**DisplayName**: Price List<br />
-**LogicalName**: msdyn_pricelist<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: pricelevel
+|Property|Value|
+|--------|-----|
+|Description|Price List that controls pricing for products / services added to this work order. By default the system will use the Price List specified on the account|
+|DisplayName|Price List|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_pricelist|
+|RequiredLevel|ApplicationRequired|
+|Targets|pricelevel|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_PrimaryIncidentDescription"></a> msdyn_PrimaryIncidentDescription
 
-**Description**: Incident description<br />
-**DisplayName**: Primary Incident Description<br />
-**LogicalName**: msdyn_primaryincidentdescription<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 8000
+|Property|Value|
+|--------|-----|
+|Description|Incident description|
+|DisplayName|Primary Incident Description|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_primaryincidentdescription|
+|MaxLength|8000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_PrimaryIncidentEstimatedDuration"></a> msdyn_PrimaryIncidentEstimatedDuration
 
-**Description**: Shows the time estimated to resolve this incident.<br />
-**DisplayName**: Primary Incident Estimated Duration<br />
-**LogicalName**: msdyn_primaryincidentestimatedduration<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: Duration<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Shows the time estimated to resolve this incident.|
+|DisplayName|Primary Incident Estimated Duration|
+|Format|Duration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_primaryincidentestimatedduration|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_PrimaryIncidentType"></a> msdyn_PrimaryIncidentType
 
-**Description**: Primary incident type reported<br />
-**DisplayName**: Primary Incident Type<br />
-**LogicalName**: msdyn_primaryincidenttype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_incidenttype
+|Property|Value|
+|--------|-----|
+|Description|Primary incident type reported|
+|DisplayName|Primary Incident Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_primaryincidenttype|
+|RequiredLevel|None|
+|Targets|msdyn_incidenttype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Priority"></a> msdyn_Priority
 
-**Description**: Priority of the Work Order. To be taken into consideration while scheduling resources<br />
-**DisplayName**: Priority<br />
-**LogicalName**: msdyn_priority<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_priority
+|Property|Value|
+|--------|-----|
+|Description|Priority of the Work Order. To be taken into consideration while scheduling resources|
+|DisplayName|Priority|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_priority|
+|RequiredLevel|None|
+|Targets|msdyn_priority|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ReportedByContact"></a> msdyn_ReportedByContact
 
-**Description**: The contact that reported this Work Order<br />
-**DisplayName**: Reported By Contact<br />
-**LogicalName**: msdyn_reportedbycontact<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: contact
+|Property|Value|
+|--------|-----|
+|Description|The contact that reported this Work Order|
+|DisplayName|Reported By Contact|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_reportedbycontact|
+|RequiredLevel|None|
+|Targets|contact|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ServiceAccount"></a> msdyn_ServiceAccount
 
-**Description**: Account to be serviced<br />
-**DisplayName**: Service Account<br />
-**LogicalName**: msdyn_serviceaccount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Account to be serviced|
+|DisplayName|Service Account|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceaccount|
+|RequiredLevel|ApplicationRequired|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ServiceRequest"></a> msdyn_ServiceRequest
 
-**Description**: Case of which this work order originates from<br />
-**DisplayName**: Case<br />
-**LogicalName**: msdyn_servicerequest<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: incident
+|Property|Value|
+|--------|-----|
+|Description|Case of which this work order originates from|
+|DisplayName|Case|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_servicerequest|
+|RequiredLevel|None|
+|Targets|incident|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
-**Description**: The service territory this work order relates to. By default this will be set to the Service Territory defined on the service account<br />
-**DisplayName**: Service Territory<br />
-**LogicalName**: msdyn_serviceterritory<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: territory
+|Property|Value|
+|--------|-----|
+|Description|The service territory this work order relates to. By default this will be set to the Service Territory defined on the service account|
+|DisplayName|Service Territory|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceterritory|
+|RequiredLevel|None|
+|Targets|territory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_StateOrProvince"></a> msdyn_StateOrProvince
 
-**Description**: <br />
-**DisplayName**: State Or Province<br />
-**LogicalName**: msdyn_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|State Or Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SubStatus"></a> msdyn_SubStatus
 
-**Description**: Work Order sub-status<br />
-**DisplayName**: Sub-Status<br />
-**LogicalName**: msdyn_substatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_workordersubstatus
+|Property|Value|
+|--------|-----|
+|Description|Work Order sub-status|
+|DisplayName|Sub-Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_substatus|
+|RequiredLevel|Recommended|
+|Targets|msdyn_workordersubstatus|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_SubtotalAmount"></a> msdyn_SubtotalAmount
 
-**Description**: Enter the summary of subtotal billing amount excluding tax for this work order.<br />
-**DisplayName**: Subtotal Amount<br />
-**LogicalName**: msdyn_subtotalamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 900000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Enter the summary of subtotal billing amount excluding tax for this work order.|
+|DisplayName|Subtotal Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_subtotalamount|
+|MaxValue|900000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_SystemStatus"></a> msdyn_SystemStatus
 
-**Description**: Tracks the current system status.<br />
-**DisplayName**: System Status<br />
-**LogicalName**: msdyn_systemstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Tracks the current system status.|
+|DisplayName|System Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_systemstatus|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Open - Unscheduled
-- **Value**: 690970001 **Label**: Open - Scheduled
-- **Value**: 690970002 **Label**: Open - In Progress
-- **Value**: 690970003 **Label**: Open - Completed
-- **Value**: 690970004 **Label**: Closed - Posted
-- **Value**: 690970005 **Label**: Closed - Canceled
+#### msdyn_SystemStatus Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Open - Unscheduled|
+|690970001|Open - Scheduled|
+|690970002|Open - In Progress|
+|690970003|Open - Completed|
+|690970004|Closed - Posted|
+|690970005|Closed - Canceled|
 
 
 
 ### <a name="BKMK_msdyn_Taxable"></a> msdyn_Taxable
 
-**Description**: Shows whether sales tax is to be charged for this work order.<br />
-**DisplayName**: Taxable<br />
-**LogicalName**: msdyn_taxable<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether sales tax is to be charged for this work order.|
+|DisplayName|Taxable|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxable|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_Taxable Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_msdyn_TaxCode"></a> msdyn_TaxCode
 
-**Description**: Tax Code to be used to calculate tax when Work Order is taxable. By default the system will use the tax code specified on the service account<br />
-**DisplayName**: Sales Tax Code<br />
-**LogicalName**: msdyn_taxcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_taxcode
+|Property|Value|
+|--------|-----|
+|Description|Tax Code to be used to calculate tax when Work Order is taxable. By default the system will use the tax code specified on the service account|
+|DisplayName|Sales Tax Code|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxcode|
+|RequiredLevel|None|
+|Targets|msdyn_taxcode|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TimeClosed"></a> msdyn_TimeClosed
 
-**Description**: Enter the time this work order was last closed.<br />
-**DisplayName**: Closed On<br />
-**LogicalName**: msdyn_timeclosed<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the time this work order was last closed.|
+|DisplayName|Closed On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timeclosed|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TimeFromPromised"></a> msdyn_TimeFromPromised
 
-**Description**: Enter the starting range of the time promised to the account that incidents will be resolved.<br />
-**DisplayName**: Time From Promised<br />
-**LogicalName**: msdyn_timefrompromised<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the starting range of the time promised to the account that incidents will be resolved.|
+|DisplayName|Time From Promised|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timefrompromised|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TimeGroup"></a> msdyn_TimeGroup
 
-**Description**: <br />
-**DisplayName**: Time Group<br />
-**LogicalName**: msdyn_timegroup<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_timegroup
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Time Group|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timegroup|
+|RequiredLevel|None|
+|Targets|msdyn_timegroup|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TimeGroupDetailSelected"></a> msdyn_TimeGroupDetailSelected
 
-**Description**: <br />
-**DisplayName**: Time Group Detail Selected (Deprecated)<br />
-**LogicalName**: msdyn_timegroupdetailselected<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_timegroupdetail
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Time Group Detail Selected (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timegroupdetailselected|
+|RequiredLevel|None|
+|Targets|msdyn_timegroupdetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TimeToPromised"></a> msdyn_TimeToPromised
 
-**Description**: Enter the ending range of the time promised to the account that incidents will be resolved.<br />
-**DisplayName**: Time To Promised<br />
-**LogicalName**: msdyn_timetopromised<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the ending range of the time promised to the account that incidents will be resolved.|
+|DisplayName|Time To Promised|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timetopromised|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TimeWindowEnd"></a> msdyn_TimeWindowEnd
 
-**Description**: <br />
-**DisplayName**: Time Window End<br />
-**LogicalName**: msdyn_timewindowend<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Time Window End|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timewindowend|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TimeWindowStart"></a> msdyn_TimeWindowStart
 
-**Description**: <br />
-**DisplayName**: Time Window Start<br />
-**LogicalName**: msdyn_timewindowstart<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Time Window Start|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timewindowstart|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TotalAmount"></a> msdyn_TotalAmount
 
-**Description**: Enter the summary of total billing amount for this work order.<br />
-**DisplayName**: Total Amount<br />
-**LogicalName**: msdyn_totalamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 900000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Enter the summary of total billing amount for this work order.|
+|DisplayName|Total Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalamount|
+|MaxValue|900000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_TotalSalesTax"></a> msdyn_TotalSalesTax
 
-**Description**: Enter the summary of total sales tax charged for this work order.<br />
-**DisplayName**: Total Sales Tax<br />
-**LogicalName**: msdyn_totalsalestax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Enter the summary of total sales tax charged for this work order.|
+|DisplayName|Total Sales Tax|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalsalestax|
+|MaxValue|1000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_WorkLocation"></a> msdyn_WorkLocation
 
-**Description**: <br />
-**DisplayName**: Work Location<br />
-**LogicalName**: msdyn_worklocation<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Work Location|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_worklocation|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Onsite
-- **Value**: 690970001 **Label**: Depot
-- **Value**: 690970002 **Label**: Location Agnostic
+#### msdyn_WorkLocation Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Onsite|
+|690970001|Depot|
+|690970002|Location Agnostic|
 
 
 
 ### <a name="BKMK_msdyn_workorderId"></a> msdyn_workorderId
 
-**Description**: Shows the entity instances.<br />
-**DisplayName**: WO Number<br />
-**LogicalName**: msdyn_workorderid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the entity instances.|
+|DisplayName|WO Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_workorderid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_WorkOrderSummary"></a> msdyn_WorkOrderSummary
 
-**Description**: Type a summary description of the job.<br />
-**DisplayName**: Work Order Summary<br />
-**LogicalName**: msdyn_workordersummary<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 8000
+|Property|Value|
+|--------|-----|
+|Description|Type a summary description of the job.|
+|DisplayName|Work Order Summary|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workordersummary|
+|MaxLength|8000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_WorkOrderType"></a> msdyn_WorkOrderType
 
-**Description**: Work Order Type<br />
-**DisplayName**: Work Order Type<br />
-**LogicalName**: msdyn_workordertype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_workordertype
+|Property|Value|
+|--------|-----|
+|Description|Work Order Type|
+|DisplayName|Work Order Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workordertype|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_workordertype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Shows the date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Owner Id<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_processid"></a> processid
 
-**Description**: Shows the ID of the process associated with the entity.<br />
-**DisplayName**: Process Id<br />
-**LogicalName**: processid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the ID of the process associated with the entity.|
+|DisplayName|Process Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|processid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_stageid"></a> stageid
 
-**Description**: Shows the ID of the stage where the entity is located.<br />
-**DisplayName**: Stage Id<br />
-**LogicalName**: stageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the ID of the stage where the entity is located.|
+|DisplayName|Stage Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|stageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_statecode"></a> statecode
 
-**Description**: Status of the Work Order<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Status of the Work Order|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### statecode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
-**Description**: Reason for the status of the Work Order<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Reason for the status of the Work Order|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### statuscode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Unique identifier of the currency associated with the entity.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the currency associated with the entity.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_traversedpath"></a> traversedpath
 
-**Description**: Shows a comma-separated list of string values representing the unique identifiers of stages in a business process flow instance in the order that they occur.<br />
-**DisplayName**: Traversed Path<br />
-**LogicalName**: traversedpath<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1250
+|Property|Value|
+|--------|-----|
+|Description|Shows a comma-separated list of string values representing the unique identifiers of stages in a business process flow instance in the order that they occur.|
+|DisplayName|Traversed Path|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|traversedpath|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Shows the time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Shows the time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -1120,689 +1287,789 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Shows the exchange rate for the currency associated with the entity with respect to the base currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Shows the exchange rate for the currency associated with the entity with respect to the base currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who modified the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who last updated the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AgreementName"></a> msdyn_AgreementName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_agreementname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreementname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_BillingAccountName"></a> msdyn_BillingAccountName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_billingaccountname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccountname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_BillingAccountYomiName"></a> msdyn_BillingAccountYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_billingaccountyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccountyominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ClosedByName"></a> msdyn_ClosedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_closedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_closedbyname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ClosedByYomiName"></a> msdyn_ClosedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_closedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_closedbyyominame|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_CustomerAssetName"></a> msdyn_CustomerAssetName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_customerassetname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerassetname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_estimatesubtotalamount_Base"></a> msdyn_estimatesubtotalamount_Base
 
-**Description**: Shows the value of the estimate subtotal amount in the base currency.<br />
-**DisplayName**: Estimate Subtotal Amount (Base)<br />
-**LogicalName**: msdyn_estimatesubtotalamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Shows the value of the estimate subtotal amount in the base currency.|
+|DisplayName|Estimate Subtotal Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_estimatesubtotalamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_IoTAlertName"></a> msdyn_IoTAlertName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_iotalertname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_iotalertname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_OpportunityIdName"></a> msdyn_OpportunityIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_opportunityidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 300
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_opportunityidname|
+|MaxLength|300|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ParentWorkOrderName"></a> msdyn_ParentWorkOrderName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_parentworkordername<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_parentworkordername|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PreferredResourceName"></a> msdyn_PreferredResourceName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_preferredresourcename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_preferredresourcename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PriceListName"></a> msdyn_PriceListName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_pricelistname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_pricelistname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PrimaryIncidentTypeName"></a> msdyn_PrimaryIncidentTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_primaryincidenttypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_primaryincidenttypename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PriorityName"></a> msdyn_PriorityName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_priorityname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_priorityname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ReportedByContactName"></a> msdyn_ReportedByContactName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_reportedbycontactname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_reportedbycontactname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ReportedByContactYomiName"></a> msdyn_ReportedByContactYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_reportedbycontactyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 450
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_reportedbycontactyominame|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceAccountName"></a> msdyn_ServiceAccountName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_serviceaccountname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceaccountname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceAccountYomiName"></a> msdyn_ServiceAccountYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_serviceaccountyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceaccountyominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceRequestName"></a> msdyn_ServiceRequestName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_servicerequestname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_servicerequestname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceTerritoryName"></a> msdyn_ServiceTerritoryName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_serviceterritoryname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceterritoryname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SubStatusName"></a> msdyn_SubStatusName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_substatusname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_substatusname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_subtotalamount_Base"></a> msdyn_subtotalamount_Base
 
-**Description**: Shows the value of the subtotal amount in the base currency.<br />
-**DisplayName**: Subtotal Amount (Base)<br />
-**LogicalName**: msdyn_subtotalamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Shows the value of the subtotal amount in the base currency.|
+|DisplayName|Subtotal Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_subtotalamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_TaxCodeName"></a> msdyn_TaxCodeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_taxcodename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxcodename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TimeGroupDetailSelectedName"></a> msdyn_TimeGroupDetailSelectedName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_timegroupdetailselectedname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_timegroupdetailselectedname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TimeGroupName"></a> msdyn_TimeGroupName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_timegroupname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_timegroupname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_totalamount_Base"></a> msdyn_totalamount_Base
 
-**Description**: Shows the value of the total amount in the base currency.<br />
-**DisplayName**: Total Amount (Base)<br />
-**LogicalName**: msdyn_totalamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Shows the value of the total amount in the base currency.|
+|DisplayName|Total Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_totalsalestax_Base"></a> msdyn_totalsalestax_Base
 
-**Description**: Shows the value of the total sales tax in the base currency.<br />
-**DisplayName**: Total Sales Tax (Base)<br />
-**LogicalName**: msdyn_totalsalestax_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Shows the value of the total sales tax in the base currency.|
+|DisplayName|Total Sales Tax (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_totalsalestax_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_WorkOrderTypeName"></a> msdyn_WorkOrderTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_workordertypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_workordertypename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: Yomi name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1810,8 +2077,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b](#BKMK_bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b)
-- [msdyn_msdyn_workorder_msdyn_iotalert_Workorder](#BKMK_msdyn_msdyn_workorder_msdyn_iotalert_Workorder)
 - [msdyn_workorder_ActivityPointers](#BKMK_msdyn_workorder_ActivityPointers)
 - [msdyn_workorder_msdyn_approvals](#BKMK_msdyn_workorder_msdyn_approvals)
 - [msdyn_workorder_msdyn_bookingalerts](#BKMK_msdyn_workorder_msdyn_bookingalerts)
@@ -1864,1410 +2129,764 @@ Listed by **SchemaName**.
 - [msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder)
 - [msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder)
-
-
-### <a name="BKMK_bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b"></a> bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b
-
-Same as msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity [bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b<br />
-**ReferencingAttribute**: bpf_msdyn_workorderid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: msdyn_workorder
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_msdyn_msdyn_workorder_msdyn_iotalert_Workorder"></a> msdyn_msdyn_workorder_msdyn_iotalert_Workorder
-
-Same as msdyn_iotalert entity [msdyn_msdyn_workorder_msdyn_iotalert_Workorder](msdyn_iotalert.md#BKMK_msdyn_msdyn_workorder_msdyn_iotalert_Workorder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_iotalert<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_iotalert_Workorder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+- [bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b](#BKMK_bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b)
+- [msdyn_msdyn_workorder_msdyn_iotalert_Workorder](#BKMK_msdyn_msdyn_workorder_msdyn_iotalert_Workorder)
 
 
 ### <a name="BKMK_msdyn_workorder_ActivityPointers"></a> msdyn_workorder_ActivityPointers
 
 Same as activitypointer entity [msdyn_workorder_ActivityPointers](activitypointer.md#BKMK_msdyn_workorder_ActivityPointers) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_ActivityPointers<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_ActivityPointers|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_msdyn_approvals"></a> msdyn_workorder_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_workorder_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_workorder_msdyn_approvals) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_msdyn_approvals<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_msdyn_bookingalerts"></a> msdyn_workorder_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_workorder_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_workorder_msdyn_bookingalerts) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_msdyn_bookingalerts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_msdyn_bookingalerts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_SyncErrors"></a> msdyn_workorder_SyncErrors
 
 Same as syncerror entity [msdyn_workorder_SyncErrors](syncerror.md#BKMK_msdyn_workorder_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_DuplicateMatchingRecord"></a> msdyn_workorder_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_workorder_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workorder_DuplicateMatchingRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: duplicaterecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_DuplicateMatchingRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|duplicaterecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_DuplicateMatchingRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_DuplicateBaseRecord"></a> msdyn_workorder_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_workorder_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workorder_DuplicateBaseRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: baserecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_DuplicateBaseRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|baserecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_DuplicateBaseRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_SharePointDocumentLocations"></a> msdyn_workorder_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_workorder_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_workorder_SharePointDocumentLocations) Many-To-One relationship.
-
-**ReferencingEntity**: sharepointdocumentlocation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_SharePointDocumentLocations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|sharepointdocumentlocation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_SharePointDocumentLocations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_SharePointDocuments"></a> msdyn_workorder_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_workorder_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_workorder_SharePointDocuments) Many-To-One relationship.
-
-**ReferencingEntity**: sharepointdocument<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_SharePointDocuments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 60
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|sharepointdocument|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_SharePointDocuments|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 60|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_AsyncOperations"></a> msdyn_workorder_AsyncOperations
 
 Same as asyncoperation entity [msdyn_workorder_AsyncOperations](asyncoperation.md#BKMK_msdyn_workorder_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_MailboxTrackingFolders"></a> msdyn_workorder_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_workorder_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workorder_MailboxTrackingFolders) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_MailboxTrackingFolders<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_MailboxTrackingFolders|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_UserEntityInstanceDatas"></a> msdyn_workorder_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_workorder_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workorder_UserEntityInstanceDatas) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_UserEntityInstanceDatas<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_UserEntityInstanceDatas|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_ProcessSession"></a> msdyn_workorder_ProcessSession
 
 Same as processsession entity [msdyn_workorder_ProcessSession](processsession.md#BKMK_msdyn_workorder_ProcessSession) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_ProcessSession<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_ProcessSession|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_BulkDeleteFailures"></a> msdyn_workorder_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_workorder_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workorder_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_PrincipalObjectAttributeAccesses"></a> msdyn_workorder_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_workorder_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workorder_PrincipalObjectAttributeAccesses) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_PrincipalObjectAttributeAccesses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_PrincipalObjectAttributeAccesses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_Appointments"></a> msdyn_workorder_Appointments
 
 Same as appointment entity [msdyn_workorder_Appointments](appointment.md#BKMK_msdyn_workorder_Appointments) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_Appointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_Appointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_Emails"></a> msdyn_workorder_Emails
 
 Same as email entity [msdyn_workorder_Emails](email.md#BKMK_msdyn_workorder_Emails) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_Emails<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_Emails|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_Faxes"></a> msdyn_workorder_Faxes
 
 Same as fax entity [msdyn_workorder_Faxes](fax.md#BKMK_msdyn_workorder_Faxes) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_Faxes<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_Faxes|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_Letters"></a> msdyn_workorder_Letters
 
 Same as letter entity [msdyn_workorder_Letters](letter.md#BKMK_msdyn_workorder_Letters) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_Letters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_Letters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_PhoneCalls"></a> msdyn_workorder_PhoneCalls
 
 Same as phonecall entity [msdyn_workorder_PhoneCalls](phonecall.md#BKMK_msdyn_workorder_PhoneCalls) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_PhoneCalls<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_PhoneCalls|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_Tasks"></a> msdyn_workorder_Tasks
 
 Same as task entity [msdyn_workorder_Tasks](task.md#BKMK_msdyn_workorder_Tasks) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_Tasks<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_Tasks|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_RecurringAppointmentMasters"></a> msdyn_workorder_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_workorder_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_workorder_RecurringAppointmentMasters) Many-To-One relationship.
-
-**ReferencingEntity**: recurringappointmentmaster<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_RecurringAppointmentMasters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|recurringappointmentmaster|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_RecurringAppointmentMasters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_SocialActivities"></a> msdyn_workorder_SocialActivities
 
 Same as socialactivity entity [msdyn_workorder_SocialActivities](socialactivity.md#BKMK_msdyn_workorder_SocialActivities) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_SocialActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_SocialActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_connections1"></a> msdyn_workorder_connections1
 
 Same as connection entity [msdyn_workorder_connections1](connection.md#BKMK_msdyn_workorder_connections1) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record1id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_connections1<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 100
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record1id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_connections1|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 100|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_connections2"></a> msdyn_workorder_connections2
 
 Same as connection entity [msdyn_workorder_connections2](connection.md#BKMK_msdyn_workorder_connections2) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record2id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_connections2<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record2id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_connections2|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_QueueItems"></a> msdyn_workorder_QueueItems
 
 Same as queueitem entity [msdyn_workorder_QueueItems](queueitem.md#BKMK_msdyn_workorder_QueueItems) Many-To-One relationship.
-
-**ReferencingEntity**: queueitem<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_QueueItems<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|queueitem|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_QueueItems|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorder_Annotations"></a> msdyn_workorder_Annotations
 
 Same as annotation entity [msdyn_workorder_Annotations](annotation.md#BKMK_msdyn_workorder_Annotations) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_Annotations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_Annotations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_workorder_ServiceAppointments"></a> msdyn_workorder_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_workorder_ServiceAppointments](serviceappointment.md#BKMK_msdyn_workorder_ServiceAppointments) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_workorder_ServiceAppointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorder_ServiceAppointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bpf_msdyn_workorder_msdyn_bpf_989e9b1857e24af18787d5143b67523b"></a> bpf_msdyn_workorder_msdyn_bpf_989e9b1857e24af18787d5143b67523b
 
 Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [bpf_msdyn_workorder_msdyn_bpf_989e9b1857e24af18787d5143b67523b](msdyn_bpf_989e9b1857e24af18787d5143b67523b.md#BKMK_bpf_msdyn_workorder_msdyn_bpf_989e9b1857e24af18787d5143b67523b) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bpf_989e9b1857e24af18787d5143b67523b<br />
-**ReferencingAttribute**: bpf_msdyn_workorderid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bpf_msdyn_workorder_msdyn_bpf_989e9b1857e24af18787d5143b67523b<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: msdyn_workorder
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bpf_989e9b1857e24af18787d5143b67523b|
+|ReferencingAttribute|bpf_msdyn_workorderid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bpf_msdyn_workorder_msdyn_bpf_989e9b1857e24af18787d5143b67523b|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: msdyn_workorder<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39"></a> bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39
 
 Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39](msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md#BKMK_bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39<br />
-**ReferencingAttribute**: bpf_msdyn_workorderid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: msdyn_workorder
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39|
+|ReferencingAttribute|bpf_msdyn_workorderid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: msdyn_workorder<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder"></a> msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder
 
 Same as bookableresourcebooking entity [msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder](bookableresourcebooking.md#BKMK_msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: bookableresourcebooking<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bookableresourcebooking|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_invoicedetail"></a> msdyn_msdyn_workorder_invoicedetail
 
 Same as invoicedetail entity [msdyn_msdyn_workorder_invoicedetail](invoicedetail.md#BKMK_msdyn_msdyn_workorder_invoicedetail) Many-To-One relationship.
-
-**ReferencingEntity**: invoicedetail<br />
-**ReferencingAttribute**: msdyn_workorderid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_invoicedetail<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Sales
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|invoicedetail|
+|ReferencingAttribute|msdyn_workorderid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_invoicedetail|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_actual_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_actual_WorkOrder
 
 Same as msdyn_actual entity [msdyn_msdyn_workorder_msdyn_actual_WorkOrder](msdyn_actual.md#BKMK_msdyn_msdyn_workorder_msdyn_actual_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_actual<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_actual_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_actual|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_actual_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_agreementbookingdate_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_agreementbookingdate_WorkOrder
 
 Same as msdyn_agreementbookingdate entity [msdyn_msdyn_workorder_msdyn_agreementbookingdate_WorkOrder](msdyn_agreementbookingdate.md#BKMK_msdyn_msdyn_workorder_msdyn_agreementbookingdate_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_agreementbookingdate<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_agreementbookingdate_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_agreementbookingdate|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_agreementbookingdate_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_inventoryjournal_AllocatedToWorkOrder"></a> msdyn_msdyn_workorder_msdyn_inventoryjournal_AllocatedToWorkOrder
 
 Same as msdyn_inventoryjournal entity [msdyn_msdyn_workorder_msdyn_inventoryjournal_AllocatedToWorkOrder](msdyn_inventoryjournal.md#BKMK_msdyn_msdyn_workorder_msdyn_inventoryjournal_AllocatedToWorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_inventoryjournal<br />
-**ReferencingAttribute**: msdyn_allocatedtoworkorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_inventoryjournal_AllocatedToWorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_inventoryjournal|
+|ReferencingAttribute|msdyn_allocatedtoworkorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_inventoryjournal_AllocatedToWorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_payment_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_payment_WorkOrder
 
 Same as msdyn_payment entity [msdyn_msdyn_workorder_msdyn_payment_WorkOrder](msdyn_payment.md#BKMK_msdyn_msdyn_workorder_msdyn_payment_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_payment<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_payment_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_payment|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_payment_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_paymentdetail_Workorder"></a> msdyn_msdyn_workorder_msdyn_paymentdetail_Workorder
 
 Same as msdyn_paymentdetail entity [msdyn_msdyn_workorder_msdyn_paymentdetail_Workorder](msdyn_paymentdetail.md#BKMK_msdyn_msdyn_workorder_msdyn_paymentdetail_Workorder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_paymentdetail<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_paymentdetail_Workorder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_paymentdetail|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_paymentdetail_Workorder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_purchaseorder_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_purchaseorder_WorkOrder
 
 Same as msdyn_purchaseorder entity [msdyn_msdyn_workorder_msdyn_purchaseorder_WorkOrder](msdyn_purchaseorder.md#BKMK_msdyn_msdyn_workorder_msdyn_purchaseorder_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_purchaseorder<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_purchaseorder_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_purchaseorder|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_purchaseorder_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_purchaseorderproduct_AssociateToWorkOrder"></a> msdyn_msdyn_workorder_msdyn_purchaseorderproduct_AssociateToWorkOrder
 
 Same as msdyn_purchaseorderproduct entity [msdyn_msdyn_workorder_msdyn_purchaseorderproduct_AssociateToWorkOrder](msdyn_purchaseorderproduct.md#BKMK_msdyn_msdyn_workorder_msdyn_purchaseorderproduct_AssociateToWorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_purchaseorderproduct<br />
-**ReferencingAttribute**: msdyn_associatetoworkorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_purchaseorderproduct_AssociateToWorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Purchase Order Products
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_purchaseorderproduct|
+|ReferencingAttribute|msdyn_associatetoworkorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_purchaseorderproduct_AssociateToWorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Purchase Order Products<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_purchaseorderreceiptproduct_AssociateToWorkOrder"></a> msdyn_msdyn_workorder_msdyn_purchaseorderreceiptproduct_AssociateToWorkOrder
 
 Same as msdyn_purchaseorderreceiptproduct entity [msdyn_msdyn_workorder_msdyn_purchaseorderreceiptproduct_AssociateToWorkOrder](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_msdyn_workorder_msdyn_purchaseorderreceiptproduct_AssociateToWorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_purchaseorderreceiptproduct<br />
-**ReferencingAttribute**: msdyn_associatetoworkorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_purchaseorderreceiptproduct_AssociateToWorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_purchaseorderreceiptproduct|
+|ReferencingAttribute|msdyn_associatetoworkorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_purchaseorderreceiptproduct_AssociateToWorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_requirementcharacteristic_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_requirementcharacteristic_WorkOrder
 
 Same as msdyn_requirementcharacteristic entity [msdyn_msdyn_workorder_msdyn_requirementcharacteristic_WorkOrder](msdyn_requirementcharacteristic.md#BKMK_msdyn_msdyn_workorder_msdyn_requirementcharacteristic_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_requirementcharacteristic<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_requirementcharacteristic_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Characteristics
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_requirementcharacteristic|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_requirementcharacteristic_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Characteristics<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_requirementresourcepreference_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_requirementresourcepreference_WorkOrder
 
 Same as msdyn_requirementresourcepreference entity [msdyn_msdyn_workorder_msdyn_requirementresourcepreference_WorkOrder](msdyn_requirementresourcepreference.md#BKMK_msdyn_msdyn_workorder_msdyn_requirementresourcepreference_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_requirementresourcepreference<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_requirementresourcepreference_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Resource Preferences
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_requirementresourcepreference|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_requirementresourcepreference_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resource Preferences<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_resourcerequirement_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_resourcerequirement_WorkOrder
 
 Same as msdyn_resourcerequirement entity [msdyn_msdyn_workorder_msdyn_resourcerequirement_WorkOrder](msdyn_resourcerequirement.md#BKMK_msdyn_msdyn_workorder_msdyn_resourcerequirement_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_resourcerequirement<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_resourcerequirement_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Requirements
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_resourcerequirement|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_resourcerequirement_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Requirements<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_rma_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_rma_WorkOrder
 
 Same as msdyn_rma entity [msdyn_msdyn_workorder_msdyn_rma_WorkOrder](msdyn_rma.md#BKMK_msdyn_msdyn_workorder_msdyn_rma_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rma<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_rma_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Work Order
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rma|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_rma_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Work Order<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_rtv_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_rtv_WorkOrder
 
 Same as msdyn_rtv entity [msdyn_msdyn_workorder_msdyn_rtv_WorkOrder](msdyn_rtv.md#BKMK_msdyn_msdyn_workorder_msdyn_rtv_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rtv<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_rtv_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: RTVs
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rtv|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_rtv_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: RTVs<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder
 
 Same as msdyn_rtvproduct entity [msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder](msdyn_rtvproduct.md#BKMK_msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rtvproduct<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rtvproduct|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_rtvproduct_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder"></a> msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder
 
 Same as msdyn_workorder entity [msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder](msdyn_workorder.md#BKMK_msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorder<br />
-**ReferencingAttribute**: msdyn_parentworkorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorder|
+|ReferencingAttribute|msdyn_parentworkorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_workorder_ParentWorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder
 
 Same as msdyn_workordercharacteristic entity [msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder](msdyn_workordercharacteristic.md#BKMK_msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workordercharacteristic<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workordercharacteristic|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_workordercharacteristic_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder
 
 Same as msdyn_workorderincident entity [msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder](msdyn_workorderincident.md#BKMK_msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorderincident<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorderincident|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder
 
 Same as msdyn_workorderproduct entity [msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder](msdyn_workorderproduct.md#BKMK_msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorderproduct<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorderproduct|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_workorderproduct_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder
 
 Same as msdyn_workorderresourcerestriction entity [msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder](msdyn_workorderresourcerestriction.md#BKMK_msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorderresourcerestriction<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorderresourcerestriction|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_workorderresourcerestriction_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder
 
 Same as msdyn_workorderservice entity [msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder](msdyn_workorderservice.md#BKMK_msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorderservice<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorderservice|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder"></a> msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder
 
 Same as msdyn_workorderservicetask entity [msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder](msdyn_workorderservicetask.md#BKMK_msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorderservicetask|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Service Tasks<br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
-**ReferencingEntity**: msdyn_workorderservicetask<br />
-**ReferencingAttribute**: msdyn_workorder<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_workorder_msdyn_workorderservicetask_WorkOrder<br />
-**AssociatedMenuConfiguration**:
 
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Service Tasks
-- **Order**: 10000
+### <a name="BKMK_bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b"></a> bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b
 
-**CascadeConfiguration**:
+Same as msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity [bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b|
+|ReferencingAttribute|bpf_msdyn_workorderid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bpf_msdyn_workorder_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: msdyn_workorder<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+
+### <a name="BKMK_msdyn_msdyn_workorder_msdyn_iotalert_Workorder"></a> msdyn_msdyn_workorder_msdyn_iotalert_Workorder
+
+Same as msdyn_iotalert entity [msdyn_msdyn_workorder_msdyn_iotalert_Workorder](msdyn_iotalert.md#BKMK_msdyn_msdyn_workorder_msdyn_iotalert_Workorder) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_iotalert|
+|ReferencingAttribute|msdyn_workorder|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_workorder_msdyn_iotalert_Workorder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -3275,7 +2894,6 @@ Same as msdyn_workorderservicetask entity [msdyn_msdyn_workorder_msdyn_workorder
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert](#BKMK_msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert)
 - [lk_msdyn_workorder_createdby](#BKMK_lk_msdyn_workorder_createdby)
 - [lk_msdyn_workorder_createdonbehalfby](#BKMK_lk_msdyn_workorder_createdonbehalfby)
 - [lk_msdyn_workorder_modifiedby](#BKMK_lk_msdyn_workorder_modifiedby)
@@ -3304,11 +2922,8 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_pricelevel_msdyn_workorder_PriceList](#BKMK_msdyn_pricelevel_msdyn_workorder_PriceList)
 - [msdyn_systemuser_msdyn_workorder_ClosedBy](#BKMK_msdyn_systemuser_msdyn_workorder_ClosedBy)
 - [msdyn_territory_msdyn_workorder_ServiceTerritory](#BKMK_msdyn_territory_msdyn_workorder_ServiceTerritory)
+- [msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert](#BKMK_msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert)
 
-
-### <a name="BKMK_msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert"></a> msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert
-
-See msdyn_iotalert Entity [msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert](msdyn_iotalert.md#BKMK_msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_workorder_createdby"></a> lk_msdyn_workorder_createdby
 
@@ -3422,7 +3037,11 @@ See systemuser Entity [msdyn_systemuser_msdyn_workorder_ClosedBy](systemuser.md#
 
 See territory Entity [msdyn_territory_msdyn_workorder_ServiceTerritory](territory.md#BKMK_msdyn_territory_msdyn_workorder_ServiceTerritory) One-To-Many relationship.
 
-## See also
+### <a name="BKMK_msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert"></a> msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert
+
+See msdyn_iotalert Entity [msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert](msdyn_iotalert.md#BKMK_msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert) One-To-Many relationship.
+
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

@@ -1,7 +1,7 @@
 ---
 title: "DuplicateRecord Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the DuplicateRecord entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # DuplicateRecord Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Potential duplicate record.
 
@@ -27,17 +25,20 @@ Potential duplicate record.
 
 ## Entity Properties
 
-**DisplayName**: Duplicate Record<br />
-**DisplayCollectionName**: Duplicate Records<br />
-**SchemaName**: DuplicateRecord<br />
-**CollectionSchemaName**: DuplicateRecords<br />
-**LogicalName**: duplicaterecord<br />
-**LogicalCollectionName**: duplicaterecords<br />
-**EntitySetName**: duplicaterecords<br />
-**PrimaryIdAttribute**: duplicateid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|DuplicateRecords|
+|DisplayCollectionName|Duplicate Records|
+|DisplayName|Duplicate Record|
+|EntitySetName|duplicaterecords|
+|IsBPFEntity|False|
+|LogicalCollectionName|duplicaterecords|
+|LogicalName|duplicaterecord|
+|OwnershipType|None|
+|PrimaryIdAttribute|duplicateid|
+|PrimaryNameAttribute||
+|SchemaName|DuplicateRecord|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -47,14 +48,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_DuplicateId"></a> DuplicateId
 
-**Description**: Unique identifier of the duplicate record.<br />
-**DisplayName**: <br />
-**LogicalName**: duplicateid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the duplicate record.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|duplicateid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -79,186 +82,216 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_AsyncOperationId"></a> AsyncOperationId
 
-**Description**: Unique identifier of the system job that created this record.<br />
-**DisplayName**: System Job<br />
-**LogicalName**: asyncoperationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: asyncoperation
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the system job that created this record.|
+|DisplayName|System Job|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|asyncoperationid|
+|RequiredLevel|None|
+|Targets|asyncoperation|
+|Type|Lookup|
 
 
 ### <a name="BKMK_BaseRecordId"></a> BaseRecordId
 
-**Description**: Unique identifier of the base record.<br />
-**DisplayName**: Base Record ID<br />
-**LogicalName**: baserecordid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account,appointment,bookableresource,bookableresourcebooking,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,campaign,campaignresponse,channelaccessprofile,characteristic,competitor,contact,contract,email,emailserverprofile,entitlement,entitlementchannel,entitlementtemplate,equipment,fax,goal,goalrollupquery,incident,kbarticle,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_accountpricelist,msdyn_actual,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_agreementsubstatus,msdyn_approval,msdyn_batchjob,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_characteristicreqforteammember,msdyn_clientextension,msdyn_contactpricelist,msdyn_contractlineinvoiceschedule,msdyn_contractlinescheduleofvalue,msdyn_customerasset,msdyn_dataexport,msdyn_delegation,msdyn_estimate,msdyn_estimateline,msdyn_expense,msdyn_expensecategory,msdyn_fact,msdyn_fieldcomputation,msdyn_fieldservicepricelistitem,msdyn_findworkevent,msdyn_incidenttype,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_incidenttypeservicetask,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_invoicefrequency,msdyn_invoicefrequencydetail,msdyn_invoicelinetransaction,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_journal,msdyn_journalline,msdyn_opportunitylineresourcecategory,msdyn_opportunitylinetransaction,msdyn_opportunitylinetransactioncategory,msdyn_opportunitylinetransactionclassificatio,msdyn_opportunitypricelist,msdyn_orderinvoicingdate,msdyn_orderinvoicingproduct,msdyn_orderinvoicingsetup,msdyn_orderinvoicingsetupdate,msdyn_orderlineresourcecategory,msdyn_orderlinetransaction,msdyn_orderlinetransactioncategory,msdyn_orderlinetransactionclassification,msdyn_orderpricelist,msdyn_organizationalunit,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_priority,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectapproval,msdyn_projectparameter,msdyn_projectparameterpricelist,msdyn_projectpricelist,msdyn_projecttask,msdyn_projecttaskdependency,msdyn_projecttaskstatususer,msdyn_projectteam,msdyn_projectteammembersignup,msdyn_projecttransactioncategory,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_quotebookingsetup,msdyn_quoteinvoicingproduct,msdyn_quoteinvoicingsetup,msdyn_quotelineanalyticsbreakdown,msdyn_quotelineinvoiceschedule,msdyn_quotelineresourcecategory,msdyn_quotelinescheduleofvalue,msdyn_quotelinetransaction,msdyn_quotelinetransactioncategory,msdyn_quotelinetransactionclassification,msdyn_quotepricelist,msdyn_requirementcharacteristic,msdyn_requirementorganizationunit,msdyn_requirementresourcecategory,msdyn_requirementresourcepreference,msdyn_requirementstatus,msdyn_resourceassignmentdetail,msdyn_resourcecategorypricelevel,msdyn_resourcerequest,msdyn_resourcerequirement,msdyn_resourcerequirementdetail,msdyn_resourceterritory,msdyn_rma,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rolecompetencyrequirement,msdyn_roleutilization,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_scheduleboardsetting,msdyn_servicetasktype,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_taxcodedetail,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffcalendar,msdyn_timeoffrequest,msdyn_transactioncategory,msdyn_transactioncategoryclassification,msdyn_transactioncategoryhierarchyelement,msdyn_transactioncategorypricelevel,msdyn_transactionconnection,msdyn_transactionorigin,msdyn_transactiontype,msdyn_userworkhistory,msdyn_warehouse,msdyn_workhourtemplate,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderdetailsgenerationqueue,msdyn_workorderincident,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msdyn_workordersubstatus,msdyn_workordertype,opportunity,phonecall,publisher,queue,quote,ratingmodel,ratingvalue,recurringappointmentmaster,resourcegroup,service,sharepointdocumentlocation,sharepointsite,socialactivity,socialprofile,systemuser,task,team,territory,transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the base record.|
+|DisplayName|Base Record ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|baserecordid|
+|RequiredLevel|None|
+|Targets|account,appointment,bookableresource,bookableresourcebooking,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,campaign,campaignresponse,channelaccessprofile,characteristic,competitor,contact,contract,email,emailserverprofile,entitlement,entitlementchannel,entitlementtemplate,equipment,fax,goal,goalrollupquery,incident,kbarticle,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_accountpricelist,msdyn_actual,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_agreementsubstatus,msdyn_approval,msdyn_batchjob,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_characteristicreqforteammember,msdyn_clientextension,msdyn_contactpricelist,msdyn_contractlineinvoiceschedule,msdyn_contractlinescheduleofvalue,msdyn_customerasset,msdyn_dataexport,msdyn_delegation,msdyn_estimate,msdyn_estimateline,msdyn_expense,msdyn_expensecategory,msdyn_fact,msdyn_fieldcomputation,msdyn_fieldservicepricelistitem,msdyn_findworkevent,msdyn_incidenttype,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_incidenttypeservicetask,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_invoicefrequency,msdyn_invoicefrequencydetail,msdyn_invoicelinetransaction,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_journal,msdyn_journalline,msdyn_opportunitylineresourcecategory,msdyn_opportunitylinetransaction,msdyn_opportunitylinetransactioncategory,msdyn_opportunitylinetransactionclassificatio,msdyn_opportunitypricelist,msdyn_orderinvoicingdate,msdyn_orderinvoicingproduct,msdyn_orderinvoicingsetup,msdyn_orderinvoicingsetupdate,msdyn_orderlineresourcecategory,msdyn_orderlinetransaction,msdyn_orderlinetransactioncategory,msdyn_orderlinetransactionclassification,msdyn_orderpricelist,msdyn_organizationalunit,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_priority,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectapproval,msdyn_projectparameter,msdyn_projectparameterpricelist,msdyn_projectpricelist,msdyn_projecttask,msdyn_projecttaskdependency,msdyn_projecttaskstatususer,msdyn_projectteam,msdyn_projectteammembersignup,msdyn_projecttransactioncategory,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_quotebookingsetup,msdyn_quoteinvoicingproduct,msdyn_quoteinvoicingsetup,msdyn_quotelineanalyticsbreakdown,msdyn_quotelineinvoiceschedule,msdyn_quotelineresourcecategory,msdyn_quotelinescheduleofvalue,msdyn_quotelinetransaction,msdyn_quotelinetransactioncategory,msdyn_quotelinetransactionclassification,msdyn_quotepricelist,msdyn_requirementcharacteristic,msdyn_requirementorganizationunit,msdyn_requirementresourcecategory,msdyn_requirementresourcepreference,msdyn_requirementstatus,msdyn_resourceassignmentdetail,msdyn_resourcecategorypricelevel,msdyn_resourcerequest,msdyn_resourcerequirement,msdyn_resourcerequirementdetail,msdyn_resourceterritory,msdyn_rma,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rolecompetencyrequirement,msdyn_roleutilization,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_scheduleboardsetting,msdyn_servicetasktype,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_taxcodedetail,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffcalendar,msdyn_timeoffrequest,msdyn_transactioncategory,msdyn_transactioncategoryclassification,msdyn_transactioncategoryhierarchyelement,msdyn_transactioncategorypricelevel,msdyn_transactionconnection,msdyn_transactionorigin,msdyn_transactiontype,msdyn_userworkhistory,msdyn_warehouse,msdyn_workhourtemplate,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderdetailsgenerationqueue,msdyn_workorderincident,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msdyn_workordersubstatus,msdyn_workordertype,opportunity,phonecall,publisher,queue,quote,ratingmodel,ratingvalue,recurringappointmentmaster,resourcegroup,service,sharepointdocumentlocation,sharepointsite,socialactivity,socialprofile,systemuser,task,team,territory,transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_BaseRecordIdName"></a> BaseRecordIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: baserecordidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 400
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|baserecordidname|
+|MaxLength|400|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_BaseRecordIdTypeCode"></a> BaseRecordIdTypeCode
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: baserecordidtypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|baserecordidtypecode|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_BaseRecordIdYomiName"></a> BaseRecordIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: baserecordidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 400
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|baserecordidyominame|
+|MaxLength|400|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the duplicate record was created.<br />
-**DisplayName**: <br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the duplicate record was created.|
+|DisplayName||
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_DuplicateRecordId"></a> DuplicateRecordId
 
-**Description**: Unique identifier of the potential duplicate record.<br />
-**DisplayName**: Duplicate Record ID<br />
-**LogicalName**: duplicaterecordid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account,appointment,bookableresource,bookableresourcebooking,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,campaign,campaignresponse,channelaccessprofile,characteristic,competitor,contact,contract,email,emailserverprofile,entitlement,entitlementchannel,entitlementtemplate,equipment,fax,goal,goalrollupquery,incident,kbarticle,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_accountpricelist,msdyn_actual,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_agreementsubstatus,msdyn_approval,msdyn_batchjob,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_characteristicreqforteammember,msdyn_clientextension,msdyn_contactpricelist,msdyn_contractlineinvoiceschedule,msdyn_contractlinescheduleofvalue,msdyn_customerasset,msdyn_dataexport,msdyn_delegation,msdyn_estimate,msdyn_estimateline,msdyn_expense,msdyn_expensecategory,msdyn_fact,msdyn_fieldcomputation,msdyn_fieldservicepricelistitem,msdyn_findworkevent,msdyn_incidenttype,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_incidenttypeservicetask,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_invoicefrequency,msdyn_invoicefrequencydetail,msdyn_invoicelinetransaction,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_journal,msdyn_journalline,msdyn_opportunitylineresourcecategory,msdyn_opportunitylinetransaction,msdyn_opportunitylinetransactioncategory,msdyn_opportunitylinetransactionclassificatio,msdyn_opportunitypricelist,msdyn_orderinvoicingdate,msdyn_orderinvoicingproduct,msdyn_orderinvoicingsetup,msdyn_orderinvoicingsetupdate,msdyn_orderlineresourcecategory,msdyn_orderlinetransaction,msdyn_orderlinetransactioncategory,msdyn_orderlinetransactionclassification,msdyn_orderpricelist,msdyn_organizationalunit,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_priority,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectapproval,msdyn_projectparameter,msdyn_projectparameterpricelist,msdyn_projectpricelist,msdyn_projecttask,msdyn_projecttaskdependency,msdyn_projecttaskstatususer,msdyn_projectteam,msdyn_projectteammembersignup,msdyn_projecttransactioncategory,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_quotebookingsetup,msdyn_quoteinvoicingproduct,msdyn_quoteinvoicingsetup,msdyn_quotelineanalyticsbreakdown,msdyn_quotelineinvoiceschedule,msdyn_quotelineresourcecategory,msdyn_quotelinescheduleofvalue,msdyn_quotelinetransaction,msdyn_quotelinetransactioncategory,msdyn_quotelinetransactionclassification,msdyn_quotepricelist,msdyn_requirementcharacteristic,msdyn_requirementorganizationunit,msdyn_requirementresourcecategory,msdyn_requirementresourcepreference,msdyn_requirementstatus,msdyn_resourceassignmentdetail,msdyn_resourcecategorypricelevel,msdyn_resourcerequest,msdyn_resourcerequirement,msdyn_resourcerequirementdetail,msdyn_resourceterritory,msdyn_rma,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rolecompetencyrequirement,msdyn_roleutilization,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_scheduleboardsetting,msdyn_servicetasktype,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_taxcodedetail,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffcalendar,msdyn_timeoffrequest,msdyn_transactioncategory,msdyn_transactioncategoryclassification,msdyn_transactioncategoryhierarchyelement,msdyn_transactioncategorypricelevel,msdyn_transactionconnection,msdyn_transactionorigin,msdyn_transactiontype,msdyn_userworkhistory,msdyn_warehouse,msdyn_workhourtemplate,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderdetailsgenerationqueue,msdyn_workorderincident,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msdyn_workordersubstatus,msdyn_workordertype,opportunity,phonecall,publisher,queue,quote,ratingmodel,ratingvalue,recurringappointmentmaster,resourcegroup,service,sharepointdocumentlocation,sharepointsite,socialactivity,socialprofile,systemuser,task,team,territory,transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the potential duplicate record.|
+|DisplayName|Duplicate Record ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|duplicaterecordid|
+|RequiredLevel|None|
+|Targets|account,appointment,bookableresource,bookableresourcebooking,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,campaign,campaignresponse,channelaccessprofile,characteristic,competitor,contact,contract,email,emailserverprofile,entitlement,entitlementchannel,entitlementtemplate,equipment,fax,goal,goalrollupquery,incident,kbarticle,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_accountpricelist,msdyn_actual,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_agreementsubstatus,msdyn_approval,msdyn_batchjob,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_characteristicreqforteammember,msdyn_clientextension,msdyn_contactpricelist,msdyn_contractlineinvoiceschedule,msdyn_contractlinescheduleofvalue,msdyn_customerasset,msdyn_dataexport,msdyn_delegation,msdyn_estimate,msdyn_estimateline,msdyn_expense,msdyn_expensecategory,msdyn_fact,msdyn_fieldcomputation,msdyn_fieldservicepricelistitem,msdyn_findworkevent,msdyn_incidenttype,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_incidenttypeservicetask,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_invoicefrequency,msdyn_invoicefrequencydetail,msdyn_invoicelinetransaction,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_journal,msdyn_journalline,msdyn_opportunitylineresourcecategory,msdyn_opportunitylinetransaction,msdyn_opportunitylinetransactioncategory,msdyn_opportunitylinetransactionclassificatio,msdyn_opportunitypricelist,msdyn_orderinvoicingdate,msdyn_orderinvoicingproduct,msdyn_orderinvoicingsetup,msdyn_orderinvoicingsetupdate,msdyn_orderlineresourcecategory,msdyn_orderlinetransaction,msdyn_orderlinetransactioncategory,msdyn_orderlinetransactionclassification,msdyn_orderpricelist,msdyn_organizationalunit,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_priority,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectapproval,msdyn_projectparameter,msdyn_projectparameterpricelist,msdyn_projectpricelist,msdyn_projecttask,msdyn_projecttaskdependency,msdyn_projecttaskstatususer,msdyn_projectteam,msdyn_projectteammembersignup,msdyn_projecttransactioncategory,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_quotebookingsetup,msdyn_quoteinvoicingproduct,msdyn_quoteinvoicingsetup,msdyn_quotelineanalyticsbreakdown,msdyn_quotelineinvoiceschedule,msdyn_quotelineresourcecategory,msdyn_quotelinescheduleofvalue,msdyn_quotelinetransaction,msdyn_quotelinetransactioncategory,msdyn_quotelinetransactionclassification,msdyn_quotepricelist,msdyn_requirementcharacteristic,msdyn_requirementorganizationunit,msdyn_requirementresourcecategory,msdyn_requirementresourcepreference,msdyn_requirementstatus,msdyn_resourceassignmentdetail,msdyn_resourcecategorypricelevel,msdyn_resourcerequest,msdyn_resourcerequirement,msdyn_resourcerequirementdetail,msdyn_resourceterritory,msdyn_rma,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rolecompetencyrequirement,msdyn_roleutilization,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_scheduleboardsetting,msdyn_servicetasktype,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_taxcodedetail,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffcalendar,msdyn_timeoffrequest,msdyn_transactioncategory,msdyn_transactioncategoryclassification,msdyn_transactioncategoryhierarchyelement,msdyn_transactioncategorypricelevel,msdyn_transactionconnection,msdyn_transactionorigin,msdyn_transactiontype,msdyn_userworkhistory,msdyn_warehouse,msdyn_workhourtemplate,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderdetailsgenerationqueue,msdyn_workorderincident,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msdyn_workordersubstatus,msdyn_workordertype,opportunity,phonecall,publisher,queue,quote,ratingmodel,ratingvalue,recurringappointmentmaster,resourcegroup,service,sharepointdocumentlocation,sharepointsite,socialactivity,socialprofile,systemuser,task,team,territory,transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_DuplicateRecordIdName"></a> DuplicateRecordIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: duplicaterecordidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 400
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|duplicaterecordidname|
+|MaxLength|400|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_DuplicateRecordIdTypeCode"></a> DuplicateRecordIdTypeCode
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: duplicaterecordidtypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|duplicaterecordidtypecode|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_DuplicateRecordIdYomiName"></a> DuplicateRecordIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: duplicaterecordidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 400
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|duplicaterecordidyominame|
+|MaxLength|400|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_DuplicateRuleId"></a> DuplicateRuleId
 
-**Description**: Unique identifier of the duplicate rule against which this duplicate was found.<br />
-**DisplayName**: <br />
-**LogicalName**: duplicateruleid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: duplicaterule
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the duplicate rule against which this duplicate was found.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|duplicateruleid|
+|RequiredLevel|None|
+|Targets|duplicaterule|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Unique identifier of the user or team who owns the duplicate record.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user or team who owns the duplicate record.|
+|DisplayName|Owner|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|ApplicationRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier of the business unit that owns the duplicate record.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the business unit that owns the duplicate record.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|ApplicationRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user who owns the duplicate record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who owns the duplicate record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|ApplicationRequired|
+|Type|Uniqueidentifier|
 
 <a name="onetomany"></a>
 
@@ -270,27 +303,15 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_duplicaterecord"></a> userentityinstancedata_duplicaterecord
 
 Same as userentityinstancedata entity [userentityinstancedata_duplicaterecord](userentityinstancedata.md#BKMK_userentityinstancedata_duplicaterecord) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_duplicaterecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_duplicaterecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -298,14 +319,6 @@ Same as userentityinstancedata entity [userentityinstancedata_duplicaterecord](u
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_iotdevice_DuplicateMatchingRecord](#BKMK_msdyn_iotdevice_DuplicateMatchingRecord)
-- [msdyn_iotdevice_DuplicateBaseRecord](#BKMK_msdyn_iotdevice_DuplicateBaseRecord)
-- [msdyn_iotdevicecategory_DuplicateMatchingRecord](#BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord)
-- [msdyn_iotdevicecategory_DuplicateBaseRecord](#BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord)
-- [msdyn_iotdevicecommand_DuplicateMatchingRecord](#BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord)
-- [msdyn_iotdevicecommand_DuplicateBaseRecord](#BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord)
-- [msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord](#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord)
-- [msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord](#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord)
 - [Lead_DuplicateMatchingRecord](#BKMK_Lead_DuplicateMatchingRecord)
 - [Lead_DuplicateBaseRecord](#BKMK_Lead_DuplicateBaseRecord)
 - [bookableresource_DuplicateMatchingRecord](#BKMK_bookableresource_DuplicateMatchingRecord)
@@ -666,6 +679,14 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_workordersubstatus_DuplicateBaseRecord](#BKMK_msdyn_workordersubstatus_DuplicateBaseRecord)
 - [msdyn_workordertype_DuplicateMatchingRecord](#BKMK_msdyn_workordertype_DuplicateMatchingRecord)
 - [msdyn_workordertype_DuplicateBaseRecord](#BKMK_msdyn_workordertype_DuplicateBaseRecord)
+- [msdyn_iotdevice_DuplicateMatchingRecord](#BKMK_msdyn_iotdevice_DuplicateMatchingRecord)
+- [msdyn_iotdevice_DuplicateBaseRecord](#BKMK_msdyn_iotdevice_DuplicateBaseRecord)
+- [msdyn_iotdevicecategory_DuplicateMatchingRecord](#BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord)
+- [msdyn_iotdevicecategory_DuplicateBaseRecord](#BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord)
+- [msdyn_iotdevicecommand_DuplicateMatchingRecord](#BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord)
+- [msdyn_iotdevicecommand_DuplicateBaseRecord](#BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord)
+- [msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord](#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord)
+- [msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord](#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord)
 - [knowledgearticle_DuplicateMatchingRecord](#BKMK_knowledgearticle_DuplicateMatchingRecord)
 - [knowledgearticle_DuplicateBaseRecord](#BKMK_knowledgearticle_DuplicateBaseRecord)
 - [channelaccessprofile_DuplicateMatchingRecord](#BKMK_channelaccessprofile_DuplicateMatchingRecord)
@@ -719,38 +740,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Fax_DuplicateMatchingRecord](#BKMK_Fax_DuplicateMatchingRecord)
 - [SocialActivity_DuplicateMatchingRecord](#BKMK_SocialActivity_DuplicateMatchingRecord)
 
-
-### <a name="BKMK_msdyn_iotdevice_DuplicateMatchingRecord"></a> msdyn_iotdevice_DuplicateMatchingRecord
-
-See msdyn_iotdevice Entity [msdyn_iotdevice_DuplicateMatchingRecord](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_DuplicateMatchingRecord) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevice_DuplicateBaseRecord"></a> msdyn_iotdevice_DuplicateBaseRecord
-
-See msdyn_iotdevice Entity [msdyn_iotdevice_DuplicateBaseRecord](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_DuplicateBaseRecord) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord"></a> msdyn_iotdevicecategory_DuplicateMatchingRecord
-
-See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_DuplicateMatchingRecord](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord"></a> msdyn_iotdevicecategory_DuplicateBaseRecord
-
-See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_DuplicateBaseRecord](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord"></a> msdyn_iotdevicecommand_DuplicateMatchingRecord
-
-See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_DuplicateMatchingRecord](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord"></a> msdyn_iotdevicecommand_DuplicateBaseRecord
-
-See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_DuplicateBaseRecord](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord"></a> msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord
-
-See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord"></a> msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord
-
-See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord) One-To-Many relationship.
 
 ### <a name="BKMK_Lead_DuplicateMatchingRecord"></a> Lead_DuplicateMatchingRecord
 
@@ -2192,6 +2181,38 @@ See msdyn_workordertype Entity [msdyn_workordertype_DuplicateMatchingRecord](msd
 
 See msdyn_workordertype Entity [msdyn_workordertype_DuplicateBaseRecord](msdyn_workordertype.md#BKMK_msdyn_workordertype_DuplicateBaseRecord) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_iotdevice_DuplicateMatchingRecord"></a> msdyn_iotdevice_DuplicateMatchingRecord
+
+See msdyn_iotdevice Entity [msdyn_iotdevice_DuplicateMatchingRecord](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_DuplicateMatchingRecord) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevice_DuplicateBaseRecord"></a> msdyn_iotdevice_DuplicateBaseRecord
+
+See msdyn_iotdevice Entity [msdyn_iotdevice_DuplicateBaseRecord](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_DuplicateBaseRecord) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord"></a> msdyn_iotdevicecategory_DuplicateMatchingRecord
+
+See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_DuplicateMatchingRecord](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord"></a> msdyn_iotdevicecategory_DuplicateBaseRecord
+
+See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_DuplicateBaseRecord](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord"></a> msdyn_iotdevicecommand_DuplicateMatchingRecord
+
+See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_DuplicateMatchingRecord](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord"></a> msdyn_iotdevicecommand_DuplicateBaseRecord
+
+See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_DuplicateBaseRecord](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord"></a> msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord
+
+See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateMatchingRecord) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord"></a> msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord
+
+See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_DuplicateBaseRecord) One-To-Many relationship.
+
 ### <a name="BKMK_knowledgearticle_DuplicateMatchingRecord"></a> knowledgearticle_DuplicateMatchingRecord
 
 See knowledgearticle Entity [knowledgearticle_DuplicateMatchingRecord](knowledgearticle.md#BKMK_knowledgearticle_DuplicateMatchingRecord) One-To-Many relationship.
@@ -2400,7 +2421,7 @@ See fax Entity [Fax_DuplicateMatchingRecord](fax.md#BKMK_Fax_DuplicateMatchingRe
 
 See socialactivity Entity [SocialActivity_DuplicateMatchingRecord](socialactivity.md#BKMK_SocialActivity_DuplicateMatchingRecord) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

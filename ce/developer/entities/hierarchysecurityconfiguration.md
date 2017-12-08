@@ -1,7 +1,7 @@
 ---
 title: "HierarchySecurityConfiguration Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the HierarchySecurityConfiguration entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -13,7 +13,8 @@ manager: "jdaly"
 ---
 # HierarchySecurityConfiguration Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+
 
 ## Messages
 
@@ -25,17 +26,20 @@ manager: "jdaly"
 
 ## Entity Properties
 
-**DisplayName**: Hierarchy Security Configuration<br />
-**DisplayCollectionName**: Hierarchy Security Configurations<br />
-**SchemaName**: HierarchySecurityConfiguration<br />
-**CollectionSchemaName**: HierarchySecurityConfiguration<br />
-**LogicalName**: hierarchysecurityconfiguration<br />
-**LogicalCollectionName**: hierarchysecurityconfigurations<br />
-**EntitySetName**: hierarchysecurityconfigurations<br />
-**PrimaryIdAttribute**: hierarchysecuritymodelingsettingid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|HierarchySecurityConfiguration|
+|DisplayCollectionName|Hierarchy Security Configurations|
+|DisplayName|Hierarchy Security Configuration|
+|EntitySetName|hierarchysecurityconfigurations|
+|IsBPFEntity|False|
+|LogicalCollectionName|hierarchysecurityconfigurations|
+|LogicalName|hierarchysecurityconfiguration|
+|OwnershipType|None|
+|PrimaryIdAttribute|hierarchysecuritymodelingsettingid|
+|PrimaryNameAttribute||
+|SchemaName|HierarchySecurityConfiguration|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -50,59 +54,67 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_EntityName"></a> EntityName
 
-**Description**: Logical entity name of the entity that is configured for hierarchy security.<br />
-**DisplayName**: Entity Name<br />
-**LogicalName**: entityname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 64
+|Property|Value|
+|--------|-----|
+|Description|Logical entity name of the entity that is configured for hierarchy security.|
+|DisplayName|Entity Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|entityname|
+|MaxLength|64|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_HierarchySecurityModelingSettingId"></a> HierarchySecurityModelingSettingId
 
-**Description**: Shows the entity used for the Hierarchy Security Modeling Configuration.<br />
-**DisplayName**: <br />
-**LogicalName**: hierarchysecuritymodelingsettingid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the entity used for the Hierarchy Security Modeling Configuration.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|hierarchysecuritymodelingsettingid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ObjectTypeCode"></a> ObjectTypeCode
 
-**Description**: For internal use only.<br />
-**DisplayName**: <br />
-**LogicalName**: objecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|objecttypecode|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

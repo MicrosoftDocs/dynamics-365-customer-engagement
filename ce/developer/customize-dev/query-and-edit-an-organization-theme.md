@@ -2,7 +2,7 @@
 title: "Query and edit an organization theme | MicrosoftDocs"
 description: "Learn about defining and applying visual themes for an organization. This provides a supported way to apply an organization’s logo and color choices to the application. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -37,14 +37,14 @@ You can define and apply visual themes for an organization. This provides a supp
  **Request:** 
 
 ```http
-GET <client_URL>/api/data/v8.0/themes?$filter=isdefaulttheme eq true&$select=defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor
+GET [Organization URI]/api/data/v9.0/themes?$filter=isdefaulttheme eq true&$select=defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor
 ```
 
  **Response:**
 
 ```json
 {  
-    "@odata.context": "<client_URL>/api/data/v8.0/$metadata#themes(defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor)",  
+    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#themes(defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor)",  
     "value": [  
         {  
             "defaultentitycolor": "#001CA5",  
@@ -71,38 +71,48 @@ GET <client_URL>/api/data/v8.0/themes?$filter=isdefaulttheme eq true&$select=def
 
 ## Edit and publish theme data
 
- A theme is created by using the customization tools in the UI, without requiring a developer to write code. Details about how to apply these customizations can be found in [Change the color scheme or add a logo to match your organization’s brand](https://technet.microsoft.com/library/21a166a0-d25e-4260-a1e4-2ddc528787c2.aspx).  
+ A theme is created by using the customization tools in the UI, without requiring a developer to write code. Details about how to apply these customizations can be found in [Change the color scheme or add a logo to match your organization’s brand](../../customize/change-color-scheme-add-logo-match-organizations-brand.md).  
 
  Most theme data is stored within the Theme entity. Customized colors for specific entities is included in the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.EntityColor> property. This data is exported with the entity if the entity is included in a solution.
 
  The following table describes the `Theme` entity attributes that are valid for update and contain data that is applied by the theme:  
 
 |Schema Name|Type|Value of default theme|Description|  
-|-----------------|----------|----------------------------|-----------------|  
-|ControlBorder|String|#CCCCCC|The color that controls will use for borders.|  
-|ControlShade|String|#F3F1F1|The color for controls to use to indicate when you hover over items.|  
-|DefaultCustomEntityColor|String|#006551|The default custom entity color if no color is assigned.|  
-|DefaultEntityColor|String|#8B98AB|The default color for system entities if no color is assigned.|  
+|-----------------|----------|----------------------------|-----------------| 
+|AccentColor|String|#E83D0F|The Unified Interface secondary theme color to be used on the process control.| 
+|BackgroundColor|String|#FFFFFF|For internal use only.|
+|ControlBorder|String|#BDC3C7|The color that controls will use for borders.|  
+|ControlShade|String|#FFFFFF|The color for controls to use to indicate when you hover over items.|  
+|DefaultCustomEntityColor|String|#00CCA3|The default custom entity color if no color is assigned.|  
+|DefaultEntityColor|String|#666666|The default color for system entities if no color is assigned.|  
 |GlobalLinkColor|String|#1160B7|The color for links, such as email addresses or lookups.|  
 |HeaderColor|String|#1160B7|The color for header text, such as form tab labels.|  
-|HoverLinkEffect|String|#D7EBF9|The color that commands or lists will use when you hover over the items.|  
+|HoverLinkEffect|String|#E7EFF7|The color that commands or lists will use when you hover over the items.|  
+|ImportSequenceNumber|Integer|null|Sequence number of the import that created this record.|
+|IsDefaultTheme|Boolean|True|The default value for a custom theme is false.|
 |LogoId|String|null|The name of a web resource to use as a logo. Recommended dimensions are a height of 50 pixels and a maximum width of 400 pixels.|  
-|LogoToolTip|String|Microsoft Dynamics 365|The text that will be used as the tooltip and alt text for the logo.|  
-|Name|String|Dynamics 365 Default Theme|The name of the Theme entity.|  
+|LogoToolTip|String|Microsoft Dynamics 365|The text that will be used as the tooltip and alt text for the logo.| 
+|MainColor|String|#3B79B7|The Unified Interface primary theme color to be used on main command bar, buttons and tabs.| 
+|Name|String|CRM Default Theme|The name of the Theme entity.|  
 |NavBarBackgroundColor|String|#002050|The primary navigation bar color.|  
 |NavBarShelfColor|String|#DFE2E8|The secondary navigation bar color.|  
-|ProcessControlColor|String|#0755BE|The primary color for process controls.|  
-|SelectedLinkEffect|String|#B1D6F0|The color that commands or lists will use to indicate selected items.|  
-
- After you have applied changes, use the <xref:Microsoft.Crm.Sdk.Messages.PublishThemeRequest> message to make one of the theme records the current theme.  
+|OverriddenCreatedOn|DateTime|null|Date and time that the record was migrated.|  
+|PageHeaderBackgroundColor|String|#E0E0E0|The page header background color.|  
+|PanelHeaderBackgroundColor|String|#F3F3F3|The panel header background color.|  
+|ProcessControlColor|String|#41A053|The primary color for process controls.|  
+|SelectedLinkEffect|String|#F8FAFC|The color that commands or lists will use to indicate selected items.| 
+|TransactionCurrencyId|Lookup|null|Exchange rate for the currency associated with the Theme with respect to the base currency.| 
+ 
+ After you have applied changes, use the <xref href="Microsoft.Dynamics.CRM.PublishTheme?text=PublishTheme Action" /> or <xref:Microsoft.Crm.Sdk.Messages.PublishThemeRequest> class to make one of the theme records the current theme.  
 
 <a name="BKMK_ExportingAndImportingThemes"></a>
 
 ## Exporting and importing themes
 
- Because themes aren’t included as part of a solution, if you want to transfer themes from one organization to another you can use the Configuration Migration tool to generate a schema, export the theme data, and import it into a different organization. For details about how to use this tool, see [Manage configuration data](https://technet.microsoft.com/library/dn647421.aspx).  
+ Because themes aren’t included as part of a solution, if you want to transfer themes from one organization to another you can use the Configuration Migration tool to generate a schema, export the theme data, and import it into a different organization. For details about how to use this tool, see [Move configuration data using the Configuration Migration Tool](../../admin/manage-configuration-data.md).  
 
 ### See also
 
  [Theme Entity](../entities/theme.md)   
+ [Create a theme](../../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
  [Developers guide to customization for Microsoft Dynamics 365](customize-applications.md)
