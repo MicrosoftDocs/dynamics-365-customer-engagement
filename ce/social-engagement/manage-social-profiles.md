@@ -33,19 +33,19 @@ Data acquisition and acquisition of private messages from your social profiles r
 
 Currently, you can add the following social profiles: 
 
-- Twitter user: Publish new posts and interact with posts on Twitter. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users create search rules that acquire gather these direct messages. 
+- **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] user**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users create search rules that acquire gather these direct messages. 
 
-- Facebook user: Interact with posts on Facebook with a Facebook user profile.
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user profile.
 
-- Facebook Page: Interact with posts on Facebook with a Facebook Page profile. To add this type of profile, you need to have admin permissions to create posts as the Page, or to send messages as the page. Get in touch with the admin of the Facebook Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the Page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
 
-- Instagram account: Interact with posts on Instagram. At least one active social profile for Instagram is required to gather data from Instagram feeds.
+- **[!INCLUDE[tn-instagram](../includes/tn-instagram.md)] account**: Interact with posts on [!INCLUDE[tn-instagram](../includes/tn-instagram.md)]. At least one active social profile for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] is required to gather data from [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] feeds.
 
-- LinkedIn user: Interact with posts on LinkedIn with a LinkedIn member profile. 
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user**: Interact with posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
 
-- LinkedIn Organization Page: Reply to and like posts on LinkedIn Organization Pages with a LinkedIn organization page profile. To add this type of profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) on the LinkedIn page. At least one active social profile for LinkedIn organization pages is required to gather data from LinkedIn Organization Pages.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page**: Reply to and like posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] organization page profile. To add this type of profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) on the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page. At least one active social profile for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages is required to gather data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
 
-- YouTube user: Interact with posts on YouTube with a YouTube user profile.
+- **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user**: Interact with posts on [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] with a [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user profile.
 
 With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.
 
