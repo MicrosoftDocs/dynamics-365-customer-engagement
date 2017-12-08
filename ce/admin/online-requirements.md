@@ -35,7 +35,7 @@ manager: "brycho"
 Apps built on the Unified Interface framework such as [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)], and the Customer Service Hub, share the following requirements:
 
 - **Desktop operating system**  
-    - Windows 10 (for Knowledge management on Unified Interface)
+    - Windows 10 
   
 - **Browsers** 
     - Google Chrome
