@@ -34,7 +34,9 @@ Use the following steps to publish an app on AppSource:
 
 > [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
 
-> 
+> [Step 3: Create a package for your app](create-package-app-appsource.md)
+
+> [Step 4: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
   
   
  <!--If your app is a good fit, please proceed to the next step to submit your app. The specific process for this may change over time, but at the time this was written the process consists of a form where you will let us know about your app and how to contact you. After that, someone will contact you and help lead you through the process of registering your app.  

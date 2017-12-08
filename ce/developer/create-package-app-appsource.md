@@ -25,9 +25,9 @@ You must create an AppSource package, a compressed .zip file, to bundle your sol
 |--|--|
 |Package file|A package file used by Package Deployer tool to deploy your solutions and demo configuration data into multiple languages.|
 |[Content_Types].xml|File that provides MIME type information of the file type extensions of the files included in the AppSource package. Typically, these are .dll, .xml, .exe, and .config file types, but you can add almost any file type that iss supported by Windows.|
+|Icon file|An image file for the appsource package icon; size should be 32x32 pixels. Valid image formats are PNG and JPG.|
+|HTML file|File containing your License terms.|
 |input.xml|Files that describes the assets in your AppSource package.|
-|32x32 logo png file|An image file for the solution icon; size should be 32x32 pixels.|
-|html file|HTML file containing your License terms.|
 
 
 ## Create a Package file
@@ -76,9 +76,17 @@ A package lets you bundle and deploy multiple files related to your app at once.
 
 You can reuse the **[Content_Types].xml** that you created in the previous section under step 2.
 
+## Create an icon for your AppSource package
+
+Create an icon file of size 32x32 to display along with the preferred solution name and description in the Dynamics 365 Aministration Center portal. Valid file formats are PNG and JPG.
+
+## Create an HTML file for license terms
+
+Create an HTML file containing your license terms. You can have an HTML file per language to display the license terms in the user selected language if your app supports multiple languages.
+
 ## Create input.xml file
 
-Create an *input.xml* file that provides information about your package as explained below.
+Create an *input.xml* file that provides information about your package and the contents of the package. Here is the contents of a sample **input.xml** file; each element is explained later in the table.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,7 +110,7 @@ Create an *input.xml* file that provides information about your package as expla
 ```
 
 
-Here is a description of the elements in the XML file.
+Here is a description of the elements in the **input.xml** file.
 
 |Element|Description|
 |--|--|
@@ -114,9 +122,20 @@ Here is a description of the elements in the XML file.
 |EndDate|Date on which the app stops being available on AppSource. The format is MM/DD/YYYY.|
 |SupportedCountries|This is a comma seperated list of countries where the app should be avaialble. Contact online services for a list of all current country codes. At the time of writing this article, the supported countr list is: AE,AL,AM,AO,AR,AT,AU,AZ,BA,BB,BD,BE,BG,BH,BM,BN,BO,BR,BY,CA,CH,CI,CL,CM,CO,CR,CV,CW,CY,CZ,DE,DK,DO,DZ,EC,EE,EG,ES,FI,FR,GB,GE,GH,GR,GT,HK,HN,HR,HU,ID,IE,IL,IN,IQ,IS,IT,JM,JO,JP,KE,KG,KN,KR,KW,KY,KZ,LB,LK,LT,LU,LV,LY,MA,MC,MD,ME,MK,MN,MO,MT,MU,MX,MY,NG,NI,NL,NO,NZ,OM,PA,PE,PH,PK,PL,PR,PS,PT,PY,QA,RO,RS,RU,RW,SA,SE,SG,SI,SK,SN,SV,TH,TM,TN,TR,TT,TW,UA,US,UY,UZ,VE,VI,VN,ZA,ZW|
 |LearnMoreLink|URL to the more info page for this package.|
-|Locales|An instance of this node for each language you want to support in the Preferred solution UI. This node contains the following children elements:<br/> the locale, logo, and terms for each language.|
+|Locales|An instance of this node for each language you want to support in the Preferred solution UI. This node contains the following children elements:<br/>- PackageLocale.Code: LCID of the language for this node. Example: US English is 1033<br/>- PackageLocale.IsDefault: Indicates the default language. This is used as the fall back language if the language chosen by the customer is not available.<br/>- Logo: Logo for your app package. Size of the image must be 32x32. Valid image formats are PNG and JPG.<br/>- Terms: Name of the HTML file that contains your license terms for each language.|
+
+## Add the items to an AppSource package
+
+The final step is to add all the components that you created earlier into a single compressed (zip) file, which will be your app source package.
+
+1. Navigate to the folder that contains the package file, [Content_Types].xml, icon, license terms file (HTML), select them all, right-click and then select **Send to** > **Compressed (zipped) folder**.
+
+    ![AppSource package](media/appsource-package.png)
+
+2. Rename the file approriately as per your app. We recommend that you include your company name and app name. For example: **Microsoft_SamplePackage.zip**.
+ 
 
 > [!div class="nextstepaction"]
-> [Create and manage VM disks](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks) 
+> [Step 4: Store your AppSource Package to Azure storage](store-appsource-package-azure-storage.md) 
   
 

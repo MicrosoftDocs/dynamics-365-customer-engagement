@@ -270,10 +270,12 @@
 ### [Create packages for the Dynamics 365 Package Deployer](package-deployer/)
 ### [Sample: Work with solutions](sample-work-solutions.md)
 ### [Sample: Detect solution dependencies](sample-detect-solution-dependencies.md)
+
 ### [Publish your app on AppSource](publish-app-appsource.md)
 #### [Step 1: Register for Microsoft Partner Network account](register-microsoft-partner-network.md)
 #### [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
 #### [Step 3: Create a package for your app](create-package-app-appsource.md)
+#### [Step 4: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
 ## [Create and manage custom business apps using code](create-manage-custom-business-apps-using-code.md)
 
 ## [Extend Outlook Client](outlook-client/)
