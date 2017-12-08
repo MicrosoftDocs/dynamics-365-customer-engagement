@@ -1,5 +1,5 @@
 ---
-title: "Design, check, and publish marketing pages in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Design, check, and publish marketing pages (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing"
 keywords: "landing page; subscription center; forward to a friend; form; field; matching"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Create and deploy marketing pages
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and usually includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and applied immediately to your customer database.
 
@@ -241,7 +243,7 @@ When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-mic
 
 ## Configure marketing page defaults and matching strategies
 
-Administrators can choose settings that control several aspects of the way all marketing pages function on your site and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Landing pages settings](marketing-settings.md#landing-pages-settings)
+Administrators can choose settings that control several aspects of the way all marketing pages function on your site and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure marketing pages](marketing-settings.md#configure-marketing-pages)
 
 ### See also
 

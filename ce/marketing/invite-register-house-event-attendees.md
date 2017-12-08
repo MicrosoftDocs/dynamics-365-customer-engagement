@@ -1,5 +1,5 @@
 ---
-title: "Event invitations, registrations, and hotel bookings in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Event invitations, registrations, and hotel bookings (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 for Marketing"
 keywords: "events; event management"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Invite, register, and house event attendees
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you're ready to start promoting it. The system provides many tools to help you do this.
 

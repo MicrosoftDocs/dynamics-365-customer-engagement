@@ -1,5 +1,5 @@
 ---
-title: "Create and deploy Excel templates for Dynamics 365 for Marketing | Microsoft Docs"
+title: "Create and deploy Excel templates (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Create Excel templates that you can use to export, format, and share data from multiple records in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; Excel; templates; export"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
@@ -42,7 +44,7 @@ Templates display information from the view defined for a record type (entity). 
 
 1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with the System Administrator role.
 
-1. Go to **Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** &gt; **New Template**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **+ New Template**.
 
 1. Select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Template**, and then select **Next**.
 
@@ -97,7 +99,7 @@ When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] tem
 
 To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]:
 
-1. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** > **Upload Template**.
+1. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **Upload Template**.
 
 1. Find and upload the file.
 
