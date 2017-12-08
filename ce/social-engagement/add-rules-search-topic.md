@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 12/07/2017
+ms.date: 12/08/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -332,7 +332,7 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
 5. Select the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages you want to keep track of, and then select **Add** to add them to the search rule.    
   
    > [!NOTE]
-   > You need to have [organization pages added to your social profiles](./manage-social-profiles.md#linkedin-page-profile) to add them to a rule.  
+   > You need to have [organization pages added to your social profiles](./manage-social-profiles.md) to add them to a rule.  
   
 6. Select **Continue** in the **Add Rule** pane to add the rule to the search topic.
 
