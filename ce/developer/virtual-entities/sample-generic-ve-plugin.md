@@ -33,7 +33,7 @@ This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics36
 
 ```csharp  
 
-public class DropBoxExpressionVisitor : QueryExpressionVisitor
+public class DropBoxExpressionVisitor : QueryExpressionVisitorBase
 {
     public string SearchKeyWords { get; private set; }
 
