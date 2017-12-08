@@ -22,6 +22,8 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe>
+
 Use [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
